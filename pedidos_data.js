@@ -1,8 +1,246 @@
 const PEDIDOS_DATA = {
-  "atualizado_em": "14/08/2026 11:13",
+  "atualizado_em": "14/08/2026 12:10",
   "periodo_dias": 90,
   "fontes_indisponiveis": [],
   "pedidos_feitos": [
+    {
+      "numped": "412001476",
+      "numnota": "",
+      "data": "14/08/2026",
+      "data_ord": "2026-08-14",
+      "nome": "BARBARA CABRAL - OFF TRADE",
+      "cliente": "SHEKINAH DE CAMPO GRANDE LIMITADA",
+      "sistema": "CRC",
+      "estado": "RJ",
+      "cidade": "RIO DE JANEIRO",
+      "supervisor": "DANIELLE MOURA",
+      "gerente": "ALLAN PAES",
+      "status_ped": "",
+      "posicao": "Bloqueado",
+      "motivo": "Item com desconto acima do permitido :3643",
+      "obs": "",
+      "total": 282.5,
+      "itens": [
+        {
+          "desc": "GIN ROCKS 1000ML",
+          "industria": "FANTE",
+          "qt": 1,
+          "val": 25.9,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 1.0,
+          "valor_cortado": 0.0,
+          "motivo_corte": "",
+          "cortado": false,
+          "codprod": "3643",
+          "codfilial": "2",
+          "pvenda": 25.9
+        },
+        {
+          "desc": "COQUETEL BANANINHA REGGIANI 950ML",
+          "industria": "CATUABA",
+          "qt": 3,
+          "val": 57.9,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 3.0,
+          "valor_cortado": 0.0,
+          "motivo_corte": "",
+          "cortado": false,
+          "codprod": "2089",
+          "codfilial": "2",
+          "pvenda": 19.3
+        },
+        {
+          "desc": "ICE 51 LIMAO LONG NECK 24X275ML",
+          "industria": "51",
+          "qt": 1,
+          "val": 132.9,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 1.0,
+          "valor_cortado": 0.0,
+          "motivo_corte": "",
+          "cortado": false,
+          "codprod": "100",
+          "codfilial": "2",
+          "pvenda": 132.9
+        },
+        {
+          "desc": "VINHO MOV TINTO",
+          "industria": "CASTAS",
+          "qt": 2,
+          "val": 65.8,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 2.0,
+          "valor_cortado": 0.0,
+          "motivo_corte": "",
+          "cortado": false,
+          "codprod": "2982",
+          "codfilial": "2",
+          "pvenda": 32.9
+        }
+      ],
+      "tem_corte": false,
+      "valor_cortado_total": 0,
+      "motivo_codprod": "3643",
+      "motivo_produto": "GIN ROCKS 1000ML",
+      "motivo_preco_digitado": 25.9,
+      "motivo_preco_tabela": 29.2
+    },
+    {
+      "numped": "379001403",
+      "numnota": "",
+      "data": "14/08/2026",
+      "data_ord": "2026-08-14",
+      "nome": "JORGE MACIEL - OFF TRADE",
+      "cliente": "50.218.202 VIVIANE REGINA SILVA DE ALMEIDA SERPA PARADA",
+      "sistema": "CRC",
+      "estado": "RJ",
+      "cidade": "RIO DE JANEIRO",
+      "supervisor": "DANIELLE MOURA",
+      "gerente": "ALLAN PAES",
+      "status_ped": "",
+      "posicao": "Bloqueado",
+      "motivo": "Item com desconto acima do permitido :5387",
+      "obs": "",
+      "total": 517.68,
+      "itens": [
+        {
+          "desc": "RED BULL ZERO  24X250ML",
+          "industria": "RED BULL",
+          "qt": 1,
+          "val": 172.56,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 1.0,
+          "valor_cortado": 0.0,
+          "motivo_corte": "",
+          "cortado": false,
+          "codprod": "5387",
+          "codfilial": "2",
+          "pvenda": 172.56
+        },
+        {
+          "desc": "RED BULL 24X250ML",
+          "industria": "RED BULL",
+          "qt": 2,
+          "val": 345.12,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 2.0,
+          "valor_cortado": 0.0,
+          "motivo_corte": "",
+          "cortado": false,
+          "codprod": "3",
+          "codfilial": "2",
+          "pvenda": 172.56
+        }
+      ],
+      "tem_corte": false,
+      "valor_cortado_total": 0,
+      "motivo_codprod": "5387",
+      "motivo_produto": "RED BULL ZERO  24X250ML",
+      "motivo_preco_digitado": 172.56,
+      "motivo_preco_tabela": 172.56
+    },
+    {
+      "numped": "155004132",
+      "numnota": "",
+      "data": "14/08/2026",
+      "data_ord": "2026-08-14",
+      "nome": "RAPHAEL SANTOS - OFF TRADE",
+      "cliente": "RESTAURANTE AF ARCANJOS BLUE SUNSET LTDA",
+      "sistema": "CRC",
+      "estado": "RJ",
+      "cidade": "ARRAIAL DO CABO",
+      "supervisor": "DANIEL DINIZ",
+      "gerente": "DANIEL DINIZ",
+      "status_ped": "",
+      "posicao": "Liberado",
+      "motivo": "Item com desconto acima do permitido :857",
+      "obs": "",
+      "total": 465.5,
+      "itens": [
+        {
+          "desc": "GIN TANQUERAY  750 ML",
+          "industria": "DIAGEO",
+          "qt": 2,
+          "val": 179.8,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 2.0,
+          "valor_cortado": 0.0,
+          "motivo_corte": "",
+          "cortado": false,
+          "codprod": "266",
+          "codfilial": "2",
+          "pvenda": 89.9
+        },
+        {
+          "desc": "LICOR ESP DIEGO ZAMORA 43 700ML",
+          "industria": "AURORA",
+          "qt": 1,
+          "val": 124.9,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 1.0,
+          "valor_cortado": 0.0,
+          "motivo_corte": "",
+          "cortado": false,
+          "codprod": "857",
+          "codfilial": "2",
+          "pvenda": 124.9
+        },
+        {
+          "desc": "LICOR COINTREAU 700 ML",
+          "industria": "INTERFOOD",
+          "qt": 1,
+          "val": 124.9,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 1.0,
+          "valor_cortado": 0.0,
+          "motivo_corte": "",
+          "cortado": false,
+          "codprod": "272",
+          "codfilial": "2",
+          "pvenda": 124.9
+        },
+        {
+          "desc": "RUM BACARDI SUPERIOR CARTA BRANCA 980ML",
+          "industria": "BACARDI",
+          "qt": 1,
+          "val": 35.9,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 1.0,
+          "valor_cortado": 0.0,
+          "motivo_corte": "",
+          "cortado": false,
+          "codprod": "34",
+          "codfilial": "2",
+          "pvenda": 35.9
+        }
+      ],
+      "tem_corte": false,
+      "valor_cortado_total": 0,
+      "motivo_codprod": "857",
+      "motivo_produto": "LICOR ESP DIEGO ZAMORA 43 700ML",
+      "motivo_preco_digitado": 124.9,
+      "motivo_preco_tabela": 124.9
+    },
     {
       "numped": "431001247",
       "numnota": "",
@@ -42,6 +280,102 @@ const PEDIDOS_DATA = {
       "valor_cortado_total": 0
     },
     {
+      "numped": "241000552",
+      "numnota": "",
+      "data": "14/08/2026",
+      "data_ord": "2026-08-14",
+      "nome": "ZEINALDO DE OLIVEIRA - OFF TRADE",
+      "cliente": "FAVORITTO DEPOSITO & MERCEARIA LTDA",
+      "sistema": "CRC",
+      "estado": "RJ",
+      "cidade": "RIO DAS OSTRAS",
+      "supervisor": "DANIEL DINIZ",
+      "gerente": "DANIEL DINIZ",
+      "status_ped": "",
+      "posicao": "Liberado",
+      "motivo": "",
+      "obs": "",
+      "total": 613.5,
+      "itens": [
+        {
+          "desc": "AMARULA C LIQUEUR 750 ML",
+          "industria": "INTERFOOD",
+          "qt": 3,
+          "val": 266.7,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 3.0,
+          "valor_cortado": 0.0,
+          "motivo_corte": "",
+          "cortado": false,
+          "codprod": "40",
+          "codfilial": "2",
+          "pvenda": 88.9
+        },
+        {
+          "desc": "CONHAQUE DOMECQ 1L",
+          "industria": "PERNOD",
+          "qt": 12,
+          "val": 346.8,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 12.0,
+          "valor_cortado": 0.0,
+          "motivo_corte": "",
+          "cortado": false,
+          "codprod": "64",
+          "codfilial": "2",
+          "pvenda": 28.9
+        }
+      ],
+      "tem_corte": false,
+      "valor_cortado_total": 0
+    },
+    {
+      "numped": "379001402",
+      "numnota": "",
+      "data": "14/08/2026",
+      "data_ord": "2026-08-14",
+      "nome": "JORGE MACIEL - OFF TRADE",
+      "cliente": "TOP 1 DISTRIBUIDORA DE BEBIDAS, MERCEARIA E MINI MERCADO LIM",
+      "sistema": "CRC",
+      "estado": "RJ",
+      "cidade": "SAO JOAO DE MER",
+      "supervisor": "DANIELLE MOURA",
+      "gerente": "ALLAN PAES",
+      "status_ped": "",
+      "posicao": "Bloqueado",
+      "motivo": "Item com desconto acima do permitido :3",
+      "obs": "",
+      "total": 1898.16,
+      "itens": [
+        {
+          "desc": "RED BULL 24X250ML",
+          "industria": "RED BULL",
+          "qt": 11,
+          "val": 1898.16,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 11.0,
+          "valor_cortado": 0.0,
+          "motivo_corte": "",
+          "cortado": false,
+          "codprod": "3",
+          "codfilial": "2",
+          "pvenda": 172.56
+        }
+      ],
+      "tem_corte": false,
+      "valor_cortado_total": 0,
+      "motivo_codprod": "3",
+      "motivo_produto": "RED BULL 24X250ML",
+      "motivo_preco_digitado": 172.56,
+      "motivo_preco_tabela": 172.56
+    },
+    {
       "numped": "431001245",
       "numnota": "",
       "data": "14/08/2026",
@@ -54,7 +388,7 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
-      "posicao": "Bloqueado",
+      "posicao": "Liberado",
       "motivo": "Item com desconto acima do permitido :5583",
       "obs": "",
       "total": 259.8,
@@ -112,7 +446,7 @@ const PEDIDOS_DATA = {
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "status_ped": "",
-      "posicao": "Bloqueado",
+      "posicao": "Liberado",
       "motivo": "Item com desconto acima do permitido :119",
       "obs": "",
       "total": 284.56,
@@ -230,6 +564,44 @@ const PEDIDOS_DATA = {
       "motivo_produto": "RC ATUM RALADO OLEO 24X140G",
       "motivo_preco_digitado": 129.9,
       "motivo_preco_tabela": 172.93
+    },
+    {
+      "numped": "588003383",
+      "numnota": "",
+      "data": "14/08/2026",
+      "data_ord": "2026-08-14",
+      "nome": "W.S",
+      "cliente": "COMERCIO DE BEBIDAS FORTALEZA LTDA",
+      "sistema": "SPON",
+      "estado": "SP",
+      "cidade": "SAO PAULO",
+      "supervisor": "DANIEL DINIZ",
+      "gerente": "DANIEL DINIZ",
+      "status_ped": "",
+      "posicao": "Liberado",
+      "motivo": "",
+      "obs": "",
+      "total": 3348.0,
+      "itens": [
+        {
+          "desc": "CONHAQUE DOMECQ 1L",
+          "industria": "PERNOD",
+          "qt": 120,
+          "val": 3348.0,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 120.0,
+          "valor_cortado": 0.0,
+          "motivo_corte": "",
+          "cortado": false,
+          "codprod": "64",
+          "codfilial": "1",
+          "pvenda": 27.9
+        }
+      ],
+      "tem_corte": false,
+      "valor_cortado_total": 0
     },
     {
       "numped": "512000066",
@@ -490,6 +862,108 @@ const PEDIDOS_DATA = {
       "valor_cortado_total": 0
     },
     {
+      "numped": "486000160",
+      "numnota": "",
+      "data": "14/08/2026",
+      "data_ord": "2026-08-14",
+      "nome": "LEONARDO FLOREZI - OFF TRADE",
+      "cliente": "SUPERMERCADO UNIAO WENG LTDA",
+      "sistema": "SPON",
+      "estado": "SP",
+      "cidade": "ENGENHEIRO COELHO",
+      "supervisor": "PRISCILLA BONACHE",
+      "gerente": "MARCUS TANAMACHI",
+      "status_ped": "",
+      "posicao": "Liberado",
+      "motivo": "",
+      "obs": "",
+      "total": 1807.68,
+      "itens": [
+        {
+          "desc": "WHISKY PASSPORT 1L",
+          "industria": "PERNOD",
+          "qt": 12,
+          "val": 414.0,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 12.0,
+          "valor_cortado": 0.0,
+          "motivo_corte": "",
+          "cortado": false,
+          "codprod": "246",
+          "codfilial": "1",
+          "pvenda": 34.5
+        },
+        {
+          "desc": "WHISKY PASSPORT APPLE 670ML",
+          "industria": "PERNOD",
+          "qt": 3,
+          "val": 103.5,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 3.0,
+          "valor_cortado": 0.0,
+          "motivo_corte": "",
+          "cortado": false,
+          "codprod": "4284",
+          "codfilial": "1",
+          "pvenda": 34.5
+        },
+        {
+          "desc": "WHISKY PASSPORT HONEY 670ML",
+          "industria": "PERNOD",
+          "qt": 3,
+          "val": 103.5,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 3.0,
+          "valor_cortado": 0.0,
+          "motivo_corte": "",
+          "cortado": false,
+          "codprod": "4804",
+          "codfilial": "1",
+          "pvenda": 34.5
+        },
+        {
+          "desc": "VINHO DOM BOSCO TINTO SUAVE 750ML",
+          "industria": "CRS BRANDS",
+          "qt": 120,
+          "val": 1078.8,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 120.0,
+          "valor_cortado": 0.0,
+          "motivo_corte": "",
+          "cortado": false,
+          "codprod": "5484",
+          "codfilial": "1",
+          "pvenda": 8.99
+        },
+        {
+          "desc": "VINHO DOM BOSCO TINTO SECO 750ML",
+          "industria": "CRS BRANDS",
+          "qt": 12,
+          "val": 107.88,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 12.0,
+          "valor_cortado": 0.0,
+          "motivo_corte": "",
+          "cortado": false,
+          "codprod": "5485",
+          "codfilial": "1",
+          "pvenda": 8.99
+        }
+      ],
+      "tem_corte": false,
+      "valor_cortado_total": 0
+    },
+    {
       "numped": "344000643",
       "numnota": "",
       "data": "14/08/2026",
@@ -502,7 +976,7 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
-      "posicao": "Liberado",
+      "posicao": "Bloqueado (alçada)",
       "motivo": "Item com desconto acima do permitido :3587",
       "obs": "",
       "total": 403.36,
@@ -572,7 +1046,7 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
-      "posicao": "Liberado",
+      "posicao": "Bloqueado (alçada)",
       "motivo": "Item com desconto acima do permitido :119",
       "obs": "ENTREGAR AMANHÃ 15/08",
       "total": 2156.4,
@@ -640,6 +1114,410 @@ const PEDIDOS_DATA = {
       "valor_cortado_total": 0
     },
     {
+      "numped": "354000722",
+      "numnota": "",
+      "data": "14/08/2026",
+      "data_ord": "2026-08-14",
+      "nome": "MATHEUS DE SOUZA - OFF TRADE",
+      "cliente": "PARANAIBA SERRA VERDE SUPERMERCADO LTDA",
+      "sistema": "MGON",
+      "estado": "MG",
+      "cidade": "BELO HORIZONTE",
+      "supervisor": "FERNANDO RISSON",
+      "gerente": "FERNANDO RISSON",
+      "status_ped": "",
+      "posicao": "Bloqueado",
+      "motivo": "Item com desconto acima do permitido :3551",
+      "obs": "pedido:314831",
+      "total": 325.46,
+      "itens": [
+        {
+          "desc": "VODKA ORLOFF 1L - DEST",
+          "industria": "BELA ATACADISTA LTDA",
+          "qt": 6,
+          "val": 142.26,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 6.0,
+          "valor_cortado": 0.0,
+          "motivo_corte": "",
+          "cortado": false,
+          "codprod": "3551",
+          "codfilial": "1",
+          "pvenda": 23.71
+        },
+        {
+          "desc": "XAROPE  MONIN  MAÇA VERDE 330 ML",
+          "industria": "MONIN",
+          "qt": 2,
+          "val": 45.8,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 2.0,
+          "valor_cortado": 0.0,
+          "motivo_corte": "",
+          "cortado": false,
+          "codprod": "4440",
+          "codfilial": "1",
+          "pvenda": 22.9
+        },
+        {
+          "desc": "XAROPE  MONIN TANGERINA 330 ML",
+          "industria": "MONIN",
+          "qt": 2,
+          "val": 45.8,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 2.0,
+          "valor_cortado": 0.0,
+          "motivo_corte": "",
+          "cortado": false,
+          "codprod": "4442",
+          "codfilial": "1",
+          "pvenda": 22.9
+        },
+        {
+          "desc": "XAROPE MONIN MARACUJA 330 ML",
+          "industria": "MONIN",
+          "qt": 2,
+          "val": 45.8,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 2.0,
+          "valor_cortado": 0.0,
+          "motivo_corte": "",
+          "cortado": false,
+          "codprod": "4444",
+          "codfilial": "1",
+          "pvenda": 22.9
+        },
+        {
+          "desc": "XAROPE MONIN MORANGO 330 ML",
+          "industria": "MONIN",
+          "qt": 2,
+          "val": 45.8,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 2.0,
+          "valor_cortado": 0.0,
+          "motivo_corte": "",
+          "cortado": false,
+          "codprod": "4445",
+          "codfilial": "1",
+          "pvenda": 22.9
+        }
+      ],
+      "tem_corte": false,
+      "valor_cortado_total": 0
+    },
+    {
+      "numped": "354000723",
+      "numnota": "",
+      "data": "14/08/2026",
+      "data_ord": "2026-08-14",
+      "nome": "MATHEUS DE SOUZA - OFF TRADE",
+      "cliente": "SUPERMERCADO NOVO HORIZONTE CRISTINA LTDA",
+      "sistema": "MGON",
+      "estado": "MG",
+      "cidade": "SANTA LUZIA",
+      "supervisor": "FERNANDO RISSON",
+      "gerente": "FERNANDO RISSON",
+      "status_ped": "",
+      "posicao": "Bloqueado",
+      "motivo": "Item com desconto acima do permitido :4237",
+      "obs": "pedido:00003417",
+      "total": 872.4,
+      "itens": [
+        {
+          "desc": "MARTINI BIANCO 750 ML",
+          "industria": "BACARDI-MARTINI",
+          "qt": 2,
+          "val": 75.8,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 2.0,
+          "valor_cortado": 0.0,
+          "motivo_corte": "",
+          "cortado": false,
+          "codprod": "37",
+          "codfilial": "1",
+          "pvenda": 37.9
+        },
+        {
+          "desc": "MARTINI BIANCO 750 ML",
+          "industria": "BACARDI",
+          "qt": 2,
+          "val": 87.8,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 2.0,
+          "valor_cortado": 0.0,
+          "motivo_corte": "",
+          "cortado": false,
+          "codprod": "1726",
+          "codfilial": "1",
+          "pvenda": 43.9
+        },
+        {
+          "desc": "MARTINI ROSSO 750 ML",
+          "industria": "BACARDI",
+          "qt": 1,
+          "val": 49.9,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 1.0,
+          "valor_cortado": 0.0,
+          "motivo_corte": "",
+          "cortado": false,
+          "codprod": "1527",
+          "codfilial": "1",
+          "pvenda": 49.9
+        },
+        {
+          "desc": "WHISKY BALLANTINES SUNSHINE 700ML",
+          "industria": "PERNOD",
+          "qt": 11,
+          "val": 658.9,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 11.0,
+          "valor_cortado": 0.0,
+          "motivo_corte": "",
+          "cortado": false,
+          "codprod": "4237",
+          "codfilial": "1",
+          "pvenda": 59.9
+        }
+      ],
+      "tem_corte": false,
+      "valor_cortado_total": 0,
+      "motivo_codprod": "4237",
+      "motivo_produto": "WHISKY BALLANTINES SUNSHINE 700ML",
+      "motivo_preco_digitado": 59.9,
+      "motivo_preco_tabela": 44.9
+    },
+    {
+      "numped": "354000720",
+      "numnota": "",
+      "data": "14/08/2026",
+      "data_ord": "2026-08-14",
+      "nome": "MATHEUS DE SOUZA - OFF TRADE",
+      "cliente": "DAKI BELO HORIZONTE LTDA",
+      "sistema": "MGON",
+      "estado": "MG",
+      "cidade": "CONTAGEM",
+      "supervisor": "FERNANDO RISSON",
+      "gerente": "FERNANDO RISSON",
+      "status_ped": "",
+      "posicao": "Liberado",
+      "motivo": "Item com desconto acima do permitido :187",
+      "obs": "pedido:500507",
+      "total": 27783.36,
+      "itens": [
+        {
+          "desc": "VODKA SMIRNOFF RED 998 ML",
+          "industria": "DIAGEO",
+          "qt": 132,
+          "val": 4606.8,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 132.0,
+          "valor_cortado": 0.0,
+          "motivo_corte": "",
+          "cortado": false,
+          "codprod": "16",
+          "codfilial": "1",
+          "pvenda": 34.9
+        },
+        {
+          "desc": "WHISKY JACK DANIELS 1L",
+          "industria": "BROWN-FORMAN",
+          "qt": 24,
+          "val": 3165.6,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 24.0,
+          "valor_cortado": 0.0,
+          "motivo_corte": "",
+          "cortado": false,
+          "codprod": "187",
+          "codfilial": "1",
+          "pvenda": 131.9
+        },
+        {
+          "desc": "SMIRNOFF ICE -24 UNIDADES (LONG  NECK)",
+          "industria": "DIAGEO",
+          "qt": 6,
+          "val": 790.56,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 6.0,
+          "valor_cortado": 0.0,
+          "motivo_corte": "",
+          "cortado": false,
+          "codprod": "296",
+          "codfilial": "1",
+          "pvenda": 131.76
+        },
+        {
+          "desc": "GIN TANQUERAY  750 ML",
+          "industria": "DIAGEO",
+          "qt": 24,
+          "val": 2469.6,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 24.0,
+          "valor_cortado": 0.0,
+          "motivo_corte": "",
+          "cortado": false,
+          "codprod": "266",
+          "codfilial": "1",
+          "pvenda": 102.9
+        },
+        {
+          "desc": "WHISKY WALKER RED LABEL 1L",
+          "industria": "DIAGEO",
+          "qt": 48,
+          "val": 3835.2,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 48.0,
+          "valor_cortado": 0.0,
+          "motivo_corte": "",
+          "cortado": false,
+          "codprod": "313",
+          "codfilial": "1",
+          "pvenda": 79.9
+        },
+        {
+          "desc": "WHISKY OLD PARR GOLD 1 L",
+          "industria": "DIAGEO",
+          "qt": 24,
+          "val": 3408.0,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 24.0,
+          "valor_cortado": 0.0,
+          "motivo_corte": "",
+          "cortado": false,
+          "codprod": "424",
+          "codfilial": "1",
+          "pvenda": 142.0
+        },
+        {
+          "desc": "WHISKY J WALKER BLACK LABEL 1L",
+          "industria": "DIAGEO",
+          "qt": 24,
+          "val": 3789.6,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 24.0,
+          "valor_cortado": 0.0,
+          "motivo_corte": "",
+          "cortado": false,
+          "codprod": "449",
+          "codfilial": "1",
+          "pvenda": 157.9
+        },
+        {
+          "desc": "GIN GORDONS 750 ML",
+          "industria": "DIAGEO",
+          "qt": 36,
+          "val": 2120.4,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 36.0,
+          "valor_cortado": 0.0,
+          "motivo_corte": "",
+          "cortado": false,
+          "codprod": "674",
+          "codfilial": "1",
+          "pvenda": 58.9
+        },
+        {
+          "desc": "LICOR ESP DIEGO ZAMORA 43 700ML",
+          "industria": "AURORA",
+          "qt": 24,
+          "val": 3597.6,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 24.0,
+          "valor_cortado": 0.0,
+          "motivo_corte": "",
+          "cortado": false,
+          "codprod": "857",
+          "codfilial": "1",
+          "pvenda": 149.9
+        }
+      ],
+      "tem_corte": false,
+      "valor_cortado_total": 0,
+      "motivo_codprod": "187",
+      "motivo_produto": "WHISKY JACK DANIELS 1L",
+      "motivo_preco_digitado": 131.9,
+      "motivo_preco_tabela": 119.9
+    },
+    {
+      "numped": "327009721",
+      "numnota": "",
+      "data": "14/08/2026",
+      "data_ord": "2026-08-14",
+      "nome": "JOÃO SANTOS - OFF TRADE",
+      "cliente": "SCP ADMINISTRADORA HOTEL PAMPULHA",
+      "sistema": "MGON",
+      "estado": "MG",
+      "cidade": "BELO HORIZONTE",
+      "supervisor": "FERNANDO RISSON",
+      "gerente": "FERNANDO RISSON",
+      "status_ped": "",
+      "posicao": "Bloqueado (alçada)",
+      "motivo": "Item com desconto acima do permitido :119",
+      "obs": "retirar no galpao hoje vendedor.",
+      "total": 862.56,
+      "itens": [
+        {
+          "desc": "CERVEJA HEINEKEN LONG 24X330ML",
+          "industria": "HEINEKEN",
+          "qt": 6,
+          "val": 862.56,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 6.0,
+          "valor_cortado": 0.0,
+          "motivo_corte": "",
+          "cortado": false,
+          "codprod": "119",
+          "codfilial": "1",
+          "pvenda": 143.76
+        }
+      ],
+      "tem_corte": false,
+      "valor_cortado_total": 0,
+      "motivo_codprod": "119",
+      "motivo_produto": "CERVEJA HEINEKEN LONG 24X330ML",
+      "motivo_preco_digitado": 143.76,
+      "motivo_preco_tabela": 149.9
+    },
+    {
       "numped": "327009718",
       "numnota": "",
       "data": "14/08/2026",
@@ -652,7 +1530,7 @@ const PEDIDOS_DATA = {
       "supervisor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "status_ped": "",
-      "posicao": "Liberado",
+      "posicao": "Bloqueado (alçada)",
       "motivo": "",
       "obs": "",
       "total": 2336.0,
@@ -740,6 +1618,80 @@ const PEDIDOS_DATA = {
       ],
       "tem_corte": false,
       "valor_cortado_total": 0
+    },
+    {
+      "numped": "354000721",
+      "numnota": "",
+      "data": "14/08/2026",
+      "data_ord": "2026-08-14",
+      "nome": "MATHEUS DE SOUZA - OFF TRADE",
+      "cliente": "VAREJAO PLANALTO LTDA.",
+      "sistema": "MGON",
+      "estado": "MG",
+      "cidade": "BELO HORIZONTE",
+      "supervisor": "FERNANDO RISSON",
+      "gerente": "FERNANDO RISSON",
+      "status_ped": "",
+      "posicao": "Bloqueado",
+      "motivo": "Item com desconto acima do permitido :674",
+      "obs": "pedido:007142",
+      "total": 555.9,
+      "itens": [
+        {
+          "desc": "RUM MONTILLA CRISTAL 1000 ML",
+          "industria": "PERNOD",
+          "qt": 3,
+          "val": 73.5,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 3.0,
+          "valor_cortado": 0.0,
+          "motivo_corte": "",
+          "cortado": false,
+          "codprod": "66",
+          "codfilial": "1",
+          "pvenda": 24.5
+        },
+        {
+          "desc": "RUM MONTILLA CARTA BRANCA 1000 ML",
+          "industria": "PERNOD",
+          "qt": 6,
+          "val": 147.0,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 6.0,
+          "valor_cortado": 0.0,
+          "motivo_corte": "",
+          "cortado": false,
+          "codprod": "69",
+          "codfilial": "1",
+          "pvenda": 24.5
+        },
+        {
+          "desc": "GIN GORDONS 750 ML",
+          "industria": "DIAGEO",
+          "qt": 6,
+          "val": 335.4,
+          "qtfalta": 0.0,
+          "qtcortada": 0.0,
+          "qtd_cortada_total": 0.0,
+          "qt_original": 6.0,
+          "valor_cortado": 0.0,
+          "motivo_corte": "",
+          "cortado": false,
+          "codprod": "674",
+          "codfilial": "1",
+          "pvenda": 55.9
+        }
+      ],
+      "tem_corte": false,
+      "valor_cortado_total": 0,
+      "motivo_codprod": "674",
+      "motivo_produto": "GIN GORDONS 750 ML",
+      "motivo_preco_digitado": 55.9,
+      "motivo_preco_tabela": 55.9
     },
     {
       "numped": "327009720",
@@ -6956,7 +7908,7 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
+      "status_log": "ABERTO",
       "data_entrega": ""
     },
     {
@@ -6999,7 +7951,7 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
+      "status_log": "ABERTO",
       "data_entrega": ""
     },
     {
@@ -7058,7 +8010,7 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
+      "status_log": "ABERTO",
       "data_entrega": ""
     },
     {
@@ -7101,7 +8053,7 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
+      "status_log": "ABERTO",
       "data_entrega": ""
     },
     {
@@ -7160,7 +8112,7 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
+      "status_log": "ABERTO",
       "data_entrega": ""
     },
     {
@@ -7203,7 +8155,7 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
+      "status_log": "EXCLUIDO",
       "data_entrega": ""
     },
     {
@@ -7246,7 +8198,7 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
+      "status_log": "CARREGADO",
       "data_entrega": ""
     },
     {
@@ -7305,7 +8257,7 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
+      "status_log": "ABERTO",
       "data_entrega": ""
     },
     {
@@ -7444,7 +8396,7 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
+      "status_log": "ABERTO",
       "data_entrega": ""
     },
     {
@@ -7503,7 +8455,7 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
+      "status_log": "CARREGADO",
       "data_entrega": ""
     },
     {
@@ -7610,7 +8562,7 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
+      "status_log": "CARREGADO",
       "data_entrega": ""
     },
     {
@@ -7685,7 +8637,7 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
+      "status_log": "CARREGADO",
       "data_entrega": ""
     },
     {
@@ -7728,7 +8680,7 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
+      "status_log": "CARREGADO",
       "data_entrega": ""
     },
     {
@@ -7835,7 +8787,7 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
+      "status_log": "ABERTO",
       "data_entrega": ""
     },
     {
@@ -7926,8 +8878,8 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
-      "data_entrega": ""
+      "status_log": "ENTREGA TOTAL",
+      "data_entrega": "2026-08-14"
     },
     {
       "numped": "516000059",
@@ -8033,8 +8985,8 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
-      "data_entrega": ""
+      "status_log": "ENTREGA TOTAL",
+      "data_entrega": "2026-08-14"
     },
     {
       "numped": "498000026",
@@ -8076,8 +9028,8 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
-      "data_entrega": ""
+      "status_log": "ENTREGA TOTAL",
+      "data_entrega": "2026-07-09"
     },
     {
       "numped": "500000014",
@@ -8135,7 +9087,7 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
+      "status_log": "ABERTO",
       "data_entrega": ""
     },
     {
@@ -8178,7 +9130,7 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
+      "status_log": "ABERTO",
       "data_entrega": ""
     },
     {
@@ -8301,7 +9253,7 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
+      "status_log": "ABERTO",
       "data_entrega": ""
     },
     {
@@ -8392,7 +9344,7 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
+      "status_log": "ABERTO",
       "data_entrega": ""
     },
     {
@@ -8435,7 +9387,7 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
+      "status_log": "CARREGADO",
       "data_entrega": ""
     },
     {
@@ -8510,7 +9462,7 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
+      "status_log": "ABERTO",
       "data_entrega": ""
     },
     {
@@ -8585,7 +9537,7 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
+      "status_log": "ABERTO",
       "data_entrega": ""
     },
     {
@@ -8676,7 +9628,7 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
+      "status_log": "CARREGADO",
       "data_entrega": ""
     },
     {
@@ -8751,7 +9703,7 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
+      "status_log": "CARREGADO",
       "data_entrega": ""
     },
     {
@@ -8826,7 +9778,7 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
+      "status_log": "ABERTO",
       "data_entrega": ""
     },
     {
@@ -8917,7 +9869,7 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
+      "status_log": "ABERTO",
       "data_entrega": ""
     },
     {
@@ -8992,7 +9944,7 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
+      "status_log": "ABERTO",
       "data_entrega": ""
     },
     {
@@ -9051,8 +10003,8 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
-      "data_entrega": ""
+      "status_log": "ENTREGA TOTAL",
+      "data_entrega": "2026-07-09"
     },
     {
       "numped": "471000056",
@@ -9174,7 +10126,7 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
+      "status_log": "CARREGADO",
       "data_entrega": ""
     },
     {
@@ -9281,7 +10233,7 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
+      "status_log": "ABERTO",
       "data_entrega": ""
     },
     {
@@ -9324,7 +10276,7 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
+      "status_log": "ABERTO",
       "data_entrega": ""
     },
     {
@@ -9399,7 +10351,7 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
+      "status_log": "ABERTO",
       "data_entrega": ""
     },
     {
@@ -9506,7 +10458,7 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
+      "status_log": "CARREGADO",
       "data_entrega": ""
     },
     {
@@ -9549,7 +10501,7 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
+      "status_log": "CARREGADO",
       "data_entrega": ""
     },
     {
@@ -9592,7 +10544,7 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
+      "status_log": "ABERTO",
       "data_entrega": ""
     },
     {
@@ -9635,7 +10587,7 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
+      "status_log": "EXCLUIDO",
       "data_entrega": ""
     },
     {
@@ -9726,7 +10678,7 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
+      "status_log": "EXCLUIDO",
       "data_entrega": ""
     },
     {
@@ -9801,7 +10753,7 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
+      "status_log": "ABERTO",
       "data_entrega": ""
     },
     {
@@ -9924,7 +10876,7 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
+      "status_log": "ABERTO",
       "data_entrega": ""
     },
     {
@@ -9983,7 +10935,7 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
+      "status_log": "ABERTO",
       "data_entrega": ""
     },
     {
@@ -10074,7 +11026,7 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
+      "status_log": "ABERTO",
       "data_entrega": ""
     },
     {
@@ -10149,7 +11101,7 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
+      "status_log": "ABERTO",
       "data_entrega": ""
     },
     {
@@ -10192,7 +11144,7 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
+      "status_log": "ABERTO",
       "data_entrega": ""
     },
     {
@@ -10267,7 +11219,7 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
+      "status_log": "ABERTO",
       "data_entrega": ""
     },
     {
@@ -10326,7 +11278,7 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
+      "status_log": "ABERTO",
       "data_entrega": ""
     },
     {
@@ -10385,7 +11337,7 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
+      "status_log": "ABERTO",
       "data_entrega": ""
     },
     {
@@ -10444,7 +11396,7 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
+      "status_log": "ABERTO",
       "data_entrega": ""
     },
     {
@@ -10503,7 +11455,7 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
+      "status_log": "ABERTO",
       "data_entrega": ""
     },
     {
@@ -10546,7 +11498,7 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
+      "status_log": "CARREGADO",
       "data_entrega": ""
     },
     {
@@ -10589,7 +11541,7 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
+      "status_log": "CARREGADO",
       "data_entrega": ""
     },
     {
@@ -10632,7 +11584,7 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
+      "status_log": "CARREGADO",
       "data_entrega": ""
     },
     {
@@ -10691,7 +11643,7 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
+      "status_log": "CARREGADO",
       "data_entrega": ""
     },
     {
@@ -10734,7 +11686,7 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
+      "status_log": "ABERTO",
       "data_entrega": ""
     },
     {
@@ -10777,7 +11729,7 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
+      "status_log": "CARREGADO",
       "data_entrega": ""
     },
     {
@@ -10820,7 +11772,7 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
+      "status_log": "ABERTO",
       "data_entrega": ""
     },
     {
@@ -10879,7 +11831,7 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
+      "status_log": "CARREGADO",
       "data_entrega": ""
     },
     {
@@ -10938,7 +11890,7 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
+      "status_log": "ABERTO",
       "data_entrega": ""
     },
     {
@@ -10997,7 +11949,7 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
+      "status_log": "ABERTO",
       "data_entrega": ""
     },
     {
@@ -11072,7 +12024,7 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
+      "status_log": "CARREGADO",
       "data_entrega": ""
     },
     {
@@ -11115,7 +12067,7 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
+      "status_log": "ABERTO",
       "data_entrega": ""
     },
     {
@@ -11158,7 +12110,7 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
+      "status_log": "CARREGADO",
       "data_entrega": ""
     },
     {
@@ -11217,8 +12169,8 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
-      "data_entrega": ""
+      "status_log": "ENTREGA TOTAL",
+      "data_entrega": "2026-08-14"
     },
     {
       "numped": "588003380",
@@ -11260,8 +12212,8 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
-      "data_entrega": ""
+      "status_log": "ENTREGA TOTAL",
+      "data_entrega": "2026-08-14"
     },
     {
       "numped": "588003381",
@@ -11367,7 +12319,7 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
+      "status_log": "ABERTO",
       "data_entrega": ""
     },
     {
@@ -11474,7 +12426,7 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
+      "status_log": "ABERTO",
       "data_entrega": ""
     },
     {
@@ -11597,7 +12549,7 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
+      "status_log": "ABERTO",
       "data_entrega": ""
     },
     {
@@ -11640,7 +12592,7 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
+      "status_log": "ABERTO",
       "data_entrega": ""
     },
     {
@@ -11683,7 +12635,7 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
+      "status_log": "EXCLUIDO",
       "data_entrega": ""
     },
     {
@@ -15111,7 +16063,7 @@ const PEDIDOS_DATA = {
       "gerente": "ALLAN PAES",
       "status_ped": "",
       "posicao": "Faturado",
-      "motivo": "CORTE; CORTE TOTAL NO CARREGAMENTO",
+      "motivo": "CORTE TOTAL NO CARREGAMENTO; CORTE",
       "obs": "",
       "total": 1068.3,
       "itens": [
@@ -16210,7 +17162,7 @@ const PEDIDOS_DATA = {
       "gerente": "ALLAN PAES",
       "status_ped": "",
       "posicao": "Faturado",
-      "motivo": "CORTE TOTAL NO CARREGAMENTO; ITEM NAO ATENDIDO, EXCLUIDO DO PEDIDO",
+      "motivo": "ITEM NAO ATENDIDO, EXCLUIDO DO PEDIDO; CORTE TOTAL NO CARREGAMENTO",
       "obs": "",
       "total": 612.6,
       "itens": [
@@ -17898,7 +18850,7 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
+      "status_log": "ABERTO",
       "data_entrega": ""
     },
     {
@@ -17989,7 +18941,7 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
+      "status_log": "ABERTO",
       "data_entrega": ""
     },
     {
@@ -18080,7 +19032,7 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
+      "status_log": "ABERTO",
       "data_entrega": ""
     },
     {
@@ -18171,7 +19123,7 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
+      "status_log": "ABERTO",
       "data_entrega": ""
     },
     {
@@ -18278,7 +19230,7 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
+      "status_log": "ABERTO",
       "data_entrega": ""
     },
     {
@@ -18321,7 +19273,7 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
+      "status_log": "EXCLUIDO",
       "data_entrega": ""
     },
     {
@@ -18396,7 +19348,7 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
+      "status_log": "ABERTO",
       "data_entrega": ""
     },
     {
@@ -18487,7 +19439,7 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
+      "status_log": "ABERTO",
       "data_entrega": ""
     },
     {
@@ -18578,7 +19530,7 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
+      "status_log": "ABERTO",
       "data_entrega": ""
     },
     {
@@ -18717,7 +19669,7 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
+      "status_log": "ABERTO",
       "data_entrega": ""
     },
     {
@@ -18824,7 +19776,7 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
+      "status_log": "ABERTO",
       "data_entrega": ""
     },
     {
@@ -18867,7 +19819,7 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
+      "status_log": "ABERTO",
       "data_entrega": ""
     },
     {
@@ -18926,8 +19878,8 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
-      "data_entrega": ""
+      "status_log": "ENTREGA TOTAL",
+      "data_entrega": "2026-08-13"
     },
     {
       "numped": "468000143",
@@ -18969,8 +19921,8 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "ABERTO",
-      "data_entrega": ""
+      "status_log": "ENTREGA TOTAL",
+      "data_entrega": "2026-08-13"
     },
     {
       "numped": "468000144",
@@ -19012,8 +19964,8 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "ABERTO",
-      "data_entrega": ""
+      "status_log": "ENTREGA TOTAL",
+      "data_entrega": "2026-08-13"
     },
     {
       "numped": "512000057",
@@ -19151,8 +20103,8 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
-      "data_entrega": ""
+      "status_log": "ENTREGA TOTAL",
+      "data_entrega": "2026-08-13"
     },
     {
       "numped": "512000058",
@@ -19194,8 +20146,8 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
-      "data_entrega": ""
+      "status_log": "ENTREGA TOTAL",
+      "data_entrega": "2026-08-13"
     },
     {
       "numped": "516000053",
@@ -19333,7 +20285,7 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
+      "status_log": "ABERTO",
       "data_entrega": ""
     },
     {
@@ -19440,7 +20392,7 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
+      "status_log": "CARREGADO",
       "data_entrega": ""
     },
     {
@@ -19579,7 +20531,7 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
+      "status_log": "CARREGADO",
       "data_entrega": ""
     },
     {
@@ -19750,7 +20702,7 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
+      "status_log": "CARREGADO",
       "data_entrega": ""
     },
     {
@@ -19841,7 +20793,7 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
+      "status_log": "ABERTO",
       "data_entrega": ""
     },
     {
@@ -19948,8 +20900,8 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
-      "data_entrega": ""
+      "status_log": "ENTREGA TOTAL",
+      "data_entrega": "2026-07-09"
     },
     {
       "numped": "518000008",
@@ -20135,7 +21087,7 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
+      "status_log": "CARREGADO",
       "data_entrega": ""
     },
     {
@@ -20274,7 +21226,7 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
+      "status_log": "CARREGADO",
       "data_entrega": ""
     },
     {
@@ -20349,8 +21301,8 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
-      "data_entrega": ""
+      "status_log": "ENTREGA TOTAL",
+      "data_entrega": "2026-07-10"
     },
     {
       "numped": "433000240",
@@ -20440,7 +21392,7 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
+      "status_log": "EXCLUIDO",
       "data_entrega": ""
     },
     {
@@ -20526,8 +21478,8 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "ABERTO",
-      "data_entrega": ""
+      "status_log": "ENTREGA TOTAL",
+      "data_entrega": "2026-08-13"
     },
     {
       "numped": "461000181",
@@ -20617,7 +21569,7 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
+      "status_log": "ABERTO",
       "data_entrega": ""
     },
     {
@@ -20708,7 +21660,7 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "ABERTO",
+      "status_log": "CARREGADO",
       "data_entrega": ""
     },
     {
@@ -20751,8 +21703,8 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
-      "data_entrega": ""
+      "status_log": "ENTREGA TOTAL",
+      "data_entrega": "2026-08-13"
     },
     {
       "numped": "463000058",
@@ -20826,7 +21778,7 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
+      "status_log": "ABERTO",
       "data_entrega": ""
     },
     {
@@ -20885,7 +21837,7 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
+      "status_log": "ABERTO",
       "data_entrega": ""
     },
     {
@@ -21008,7 +21960,7 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
+      "status_log": "EXCLUIDO",
       "data_entrega": ""
     },
     {
@@ -21051,7 +22003,7 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
+      "status_log": "EXCLUIDO",
       "data_entrega": ""
     },
     {
@@ -21094,7 +22046,7 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
+      "status_log": "ABERTO",
       "data_entrega": ""
     },
     {
@@ -21249,8 +22201,8 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
-      "data_entrega": ""
+      "status_log": "ENTREGA TOTAL",
+      "data_entrega": "2026-07-10"
     },
     {
       "numped": "476000303",
@@ -21324,7 +22276,7 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
+      "status_log": "EXCLUIDO",
       "data_entrega": ""
     },
     {
@@ -21367,7 +22319,7 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
+      "status_log": "ABERTO",
       "data_entrega": ""
     },
     {
@@ -21442,7 +22394,7 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
+      "status_log": "EXCLUIDO",
       "data_entrega": ""
     },
     {
@@ -21517,7 +22469,7 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
+      "status_log": "ABERTO",
       "data_entrega": ""
     },
     {
@@ -21592,7 +22544,7 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
+      "status_log": "ABERTO",
       "data_entrega": ""
     },
     {
@@ -21635,7 +22587,7 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
+      "status_log": "ABERTO",
       "data_entrega": ""
     },
     {
@@ -21710,7 +22662,7 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
+      "status_log": "ABERTO",
       "data_entrega": ""
     },
     {
@@ -21753,7 +22705,7 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
+      "status_log": "EXCLUIDO",
       "data_entrega": ""
     },
     {
@@ -21828,7 +22780,7 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
+      "status_log": "EXCLUIDO",
       "data_entrega": ""
     },
     {
@@ -21871,8 +22823,8 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
-      "data_entrega": ""
+      "status_log": "ENTREGA TOTAL",
+      "data_entrega": "2026-08-14"
     },
     {
       "numped": "312000046",
@@ -21914,7 +22866,7 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
+      "status_log": "CARREGADO",
       "data_entrega": ""
     },
     {
@@ -21989,8 +22941,8 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "ABERTO",
-      "data_entrega": ""
+      "status_log": "ENTREGA TOTAL",
+      "data_entrega": "2026-08-13"
     },
     {
       "numped": "588003359",
@@ -22080,8 +23032,8 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "ABERTO",
-      "data_entrega": ""
+      "status_log": "ENTREGA TOTAL",
+      "data_entrega": "2026-08-13"
     },
     {
       "numped": "588003360",
@@ -22123,7 +23075,7 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "ABERTO",
+      "status_log": "CARREGADO",
       "data_entrega": ""
     },
     {
@@ -22166,8 +23118,8 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "ABERTO",
-      "data_entrega": ""
+      "status_log": "ENTREGA TOTAL",
+      "data_entrega": "2026-08-14"
     },
     {
       "numped": "486000150",
@@ -22659,7 +23611,7 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
+      "status_log": "EXCLUIDO",
       "data_entrega": ""
     },
     {
@@ -28652,7 +29604,7 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
+      "status_log": "ABERTO",
       "data_entrega": ""
     },
     {
@@ -28711,7 +29663,7 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
+      "status_log": "EXCLUIDO",
       "data_entrega": ""
     },
     {
@@ -28770,8 +29722,8 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "ABERTO",
-      "data_entrega": ""
+      "status_log": "ENTREGA TOTAL",
+      "data_entrega": "2026-08-13"
     },
     {
       "numped": "468000139",
@@ -28813,7 +29765,7 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "ABERTO",
+      "status_log": "CARREGADO",
       "data_entrega": ""
     },
     {
@@ -28920,8 +29872,8 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "ABERTO",
-      "data_entrega": ""
+      "status_log": "ENTREGA TOTAL",
+      "data_entrega": "2026-08-14"
     },
     {
       "numped": "512000054",
@@ -29022,8 +29974,8 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "CARREGADO",
-      "data_entrega": ""
+      "status_log": "ENTREGA TOTAL",
+      "data_entrega": "2026-08-13"
     },
     {
       "numped": "516000052",
@@ -29065,7 +30017,7 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
+      "status_log": "CARREGADO",
       "data_entrega": ""
     },
     {
@@ -29183,7 +30135,7 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
+      "status_log": "ABERTO",
       "data_entrega": ""
     },
     {
@@ -29226,8 +30178,8 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "CARREGADO",
-      "data_entrega": ""
+      "status_log": "ENTREGA TOTAL",
+      "data_entrega": "2026-08-12"
     },
     {
       "numped": "433000237",
@@ -29392,8 +30344,8 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "CARREGADO",
-      "data_entrega": ""
+      "status_log": "ENTREGA TOTAL",
+      "data_entrega": "2026-08-13"
     },
     {
       "numped": "433000239",
@@ -29885,7 +30837,7 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
+      "status_log": "EXCLUIDO",
       "data_entrega": ""
     },
     {
@@ -29960,7 +30912,7 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
+      "status_log": "ABERTO",
       "data_entrega": ""
     },
     {
@@ -30035,7 +30987,7 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
+      "status_log": "ABERTO",
       "data_entrega": ""
     },
     {
@@ -30110,7 +31062,7 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
+      "status_log": "ABERTO",
       "data_entrega": ""
     },
     {
@@ -30185,7 +31137,7 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
+      "status_log": "EXCLUIDO",
       "data_entrega": ""
     },
     {
@@ -30228,7 +31180,7 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
+      "status_log": "EXCLUIDO",
       "data_entrega": ""
     },
     {
@@ -30271,7 +31223,7 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
+      "status_log": "ABERTO",
       "data_entrega": ""
     },
     {
@@ -30314,8 +31266,8 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "ABERTO",
-      "data_entrega": ""
+      "status_log": "ENTREGA TOTAL",
+      "data_entrega": "2026-08-14"
     },
     {
       "numped": "486000143",
@@ -30593,8 +31545,8 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
-      "data_entrega": ""
+      "status_log": "ENTREGA TOTAL",
+      "data_entrega": "2026-07-09"
     },
     {
       "numped": "349000320",
@@ -40928,8 +41880,8 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "ABERTO",
-      "data_entrega": ""
+      "status_log": "ENTREGA TOTAL",
+      "data_entrega": "2026-08-14"
     },
     {
       "numped": "371000324",
@@ -41078,8 +42030,8 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "CARREGADO",
-      "data_entrega": ""
+      "status_log": "ENTREGA TOTAL",
+      "data_entrega": "2026-08-12"
     },
     {
       "numped": "371000326",
@@ -41244,8 +42196,8 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "ABERTO",
-      "data_entrega": ""
+      "status_log": "ENTREGA TOTAL",
+      "data_entrega": "2026-08-13"
     },
     {
       "numped": "371000328",
@@ -41335,8 +42287,8 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "ABERTO",
-      "data_entrega": ""
+      "status_log": "ENTREGA TOTAL",
+      "data_entrega": "2026-08-14"
     },
     {
       "numped": "371000329",
@@ -41410,8 +42362,8 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "ABERTO",
-      "data_entrega": ""
+      "status_log": "ENTREGA TOTAL",
+      "data_entrega": "2026-08-14"
     },
     {
       "numped": "475000042",
@@ -41635,7 +42587,7 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "ABERTO",
+      "status_log": "CARREGADO",
       "data_entrega": ""
     },
     {
@@ -41828,8 +42780,8 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "ABERTO",
-      "data_entrega": ""
+      "status_log": "ENTREGA TOTAL",
+      "data_entrega": "2026-08-13"
     },
     {
       "numped": "516000049",
@@ -42781,7 +43733,7 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
+      "status_log": "ABERTO",
       "data_entrega": ""
     },
     {
@@ -43199,7 +44151,7 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
+      "status_log": "ABERTO",
       "data_entrega": ""
     },
     {
@@ -43242,7 +44194,7 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
+      "status_log": "ABERTO",
       "data_entrega": ""
     },
     {
@@ -43301,7 +44253,7 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
+      "status_log": "EXCLUIDO",
       "data_entrega": ""
     },
     {
@@ -43344,7 +44296,7 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
+      "status_log": "ABERTO",
       "data_entrega": ""
     },
     {
@@ -43403,7 +44355,7 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
+      "status_log": "ABERTO",
       "data_entrega": ""
     },
     {
@@ -43446,7 +44398,7 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
+      "status_log": "ABERTO",
       "data_entrega": ""
     },
     {
@@ -43553,8 +44505,8 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
-      "data_entrega": ""
+      "status_log": "ENTREGA TOTAL",
+      "data_entrega": "2026-07-09"
     },
     {
       "numped": "476000291",
@@ -43596,7 +44548,7 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
+      "status_log": "EXCLUIDO",
       "data_entrega": ""
     },
     {
@@ -43671,7 +44623,7 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
+      "status_log": "ABERTO",
       "data_entrega": ""
     },
     {
@@ -43757,8 +44709,8 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "CARREGADO",
-      "data_entrega": ""
+      "status_log": "ENTREGA TOTAL",
+      "data_entrega": "2026-08-14"
     },
     {
       "numped": "588003352",
@@ -43920,97 +44872,6 @@ const PEDIDOS_DATA = {
       "placa": "",
       "status_log": "ENTREGA TOTAL",
       "data_entrega": "2026-08-11"
-    },
-    {
-      "numped": "547008626",
-      "numnota": "183283",
-      "data": "10/08/2026",
-      "data_ord": "2026-08-10",
-      "nome": "MARCUS TANAMACHI - OFF TRADE",
-      "cliente": "FERSIL ATACADISTA DE BEBIDAS E ALIMENTOS LTDA",
-      "sistema": "SPON",
-      "estado": "SP",
-      "cidade": "GOIANIA",
-      "supervisor": "MARCUS TANAMACHI",
-      "gerente": "MARCUS TANAMACHI",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "CORTE",
-      "obs": "",
-      "total": 315744.0,
-      "itens": [
-        {
-          "desc": "CONHAQUE DOMECQ 1L",
-          "industria": "PERNOD",
-          "qt": 960,
-          "val": 23904.0,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 960.0,
-          "valor_cortado": 0.0,
-          "motivo_corte": "",
-          "cortado": false,
-          "codprod": "64",
-          "codfilial": "1",
-          "pvenda": 24.9
-        },
-        {
-          "desc": "WHISKY JACK DANIELS 1L",
-          "industria": "BROWN",
-          "qt": 960,
-          "val": 88320.0,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 960.0,
-          "valor_cortado": 0.0,
-          "motivo_corte": "",
-          "cortado": false,
-          "codprod": "187",
-          "codfilial": "1",
-          "pvenda": 92.0
-        },
-        {
-          "desc": "WHISKY JACK DANIELS APPLE 1L",
-          "industria": "BROWN",
-          "qt": 960,
-          "val": 88320.0,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 960.0,
-          "valor_cortado": 0.0,
-          "motivo_corte": "CORTE",
-          "cortado": false,
-          "codprod": "2917",
-          "codfilial": "1",
-          "pvenda": 92.0
-        },
-        {
-          "desc": "JACK DANIELS BLACKBERRY 1L",
-          "industria": "BROWN",
-          "qt": 960,
-          "val": 115200.0,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 960.0,
-          "valor_cortado": 0.0,
-          "motivo_corte": "",
-          "cortado": false,
-          "codprod": "5472",
-          "codfilial": "1",
-          "pvenda": 120.0
-        }
-      ],
-      "tem_corte": false,
-      "valor_cortado_total": 176640.0,
-      "em_rota": false,
-      "rota": "",
-      "placa": "",
-      "status_log": "ABERTO",
-      "data_entrega": ""
     },
     {
       "numped": "486000140",
@@ -44223,7 +45084,7 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
+      "status_log": "ABERTO",
       "data_entrega": ""
     },
     {
@@ -44330,7 +45191,7 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
+      "status_log": "EXCLUIDO",
       "data_entrega": ""
     },
     {
@@ -52919,8 +53780,8 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
-      "data_entrega": ""
+      "status_log": "ENTREGA TOTAL",
+      "data_entrega": "2026-07-09"
     },
     {
       "numped": "489000084",
@@ -52962,8 +53823,8 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
-      "data_entrega": ""
+      "status_log": "ENTREGA TOTAL",
+      "data_entrega": "2026-07-15"
     },
     {
       "numped": "388000013",
@@ -56781,7 +57642,7 @@ const PEDIDOS_DATA = {
       "gerente": "ALLAN PAES",
       "status_ped": "",
       "posicao": "Faturado",
-      "motivo": "ITEM ZERADO EM SISTEMA; CORTE TOTAL NO CARREGAMENTO",
+      "motivo": "CORTE TOTAL NO CARREGAMENTO; ITEM ZERADO EM SISTEMA",
       "obs": "",
       "total": 284.1,
       "itens": [
@@ -73744,8 +74605,8 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "ABERTO",
-      "data_entrega": ""
+      "status_log": "ENTREGA TOTAL",
+      "data_entrega": "2026-08-14"
     },
     {
       "numped": "588003320",
@@ -79362,8 +80223,8 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "ABERTO",
-      "data_entrega": ""
+      "status_log": "ENTREGA TOTAL",
+      "data_entrega": "2026-08-13"
     },
     {
       "numped": "468000127",
@@ -79453,8 +80314,8 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "ABERTO",
-      "data_entrega": ""
+      "status_log": "ENTREGA TOTAL",
+      "data_entrega": "2026-08-13"
     },
     {
       "numped": "468000128",
@@ -83224,11 +84085,7 @@ const PEDIDOS_DATA = {
       "rota": "",
       "placa": "",
       "status_log": "ENTREGUE",
-      "data_entrega": "2026-08-04",
-      "motivo_codprod": "3174",
-      "motivo_produto": "ST PIERRE LATA RED MINT LT 6X270ML",
-      "motivo_preco_digitado": 24.72,
-      "motivo_preco_tabela": 29.68
+      "data_entrega": "2026-08-04"
     },
     {
       "numped": "155004045",
@@ -100606,8 +101463,8 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "ABERTO",
-      "data_entrega": ""
+      "status_log": "ENTREGA TOTAL",
+      "data_entrega": "2026-08-13"
     },
     {
       "numped": "232000026",
@@ -108661,8 +109518,8 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "ABERTO",
-      "data_entrega": ""
+      "status_log": "ENTREGA TOTAL",
+      "data_entrega": "2026-08-13"
     },
     {
       "numped": "317000148",
@@ -121998,8 +122855,8 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "ABERTO",
-      "data_entrega": ""
+      "status_log": "ENTREGA TOTAL",
+      "data_entrega": "2026-08-13"
     },
     {
       "numped": "433000211",
@@ -127987,7 +128844,11 @@ const PEDIDOS_DATA = {
       "rota": "",
       "placa": "",
       "status_log": "",
-      "data_entrega": ""
+      "data_entrega": "",
+      "motivo_codprod": "7493",
+      "motivo_produto": "PINATI DOUBLE BAR COCO E AMENDOIM 16X35G",
+      "motivo_preco_digitado": 50.24,
+      "motivo_preco_tabela": 59.9
     },
     {
       "numped": "388001221",
@@ -136709,7 +137570,11 @@ const PEDIDOS_DATA = {
       "rota": "",
       "placa": "",
       "status_log": "",
-      "data_entrega": ""
+      "data_entrega": "",
+      "motivo_codprod": "2979",
+      "motivo_produto": "ST PIERRE LATA GINGER LT 24X270ML",
+      "motivo_preco_digitado": 101.29,
+      "motivo_preco_tabela": 99.9
     },
     {
       "numped": "388001216",
@@ -179151,7 +180016,7 @@ const PEDIDOS_DATA = {
       "gerente": "DANIEL DINIZ",
       "status_ped": "",
       "posicao": "Faturado",
-      "motivo": "CORTE TOTAL NO CARREGAMENTO; CORTE",
+      "motivo": "CORTE; CORTE TOTAL NO CARREGAMENTO",
       "obs": "",
       "total": 28406.4,
       "itens": [
@@ -200079,7 +200944,7 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
+      "status_log": "ABERTO",
       "data_entrega": ""
     },
     {
@@ -200921,7 +201786,7 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
+      "status_log": "ABERTO",
       "data_entrega": ""
     },
     {
@@ -207088,7 +207953,7 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
+      "status_log": "ABERTO",
       "data_entrega": ""
     },
     {
@@ -209270,7 +210135,7 @@ const PEDIDOS_DATA = {
       "gerente": "MARCUS TANAMACHI",
       "status_ped": "",
       "posicao": "Faturado",
-      "motivo": "VALOR ERRADO; VALOR ERRADO.; CORTE.",
+      "motivo": "CORTE.; VALOR ERRADO; VALOR ERRADO.",
       "obs": "",
       "total": 1374.83,
       "itens": [
@@ -216582,8 +217447,8 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
-      "data_entrega": "",
+      "status_log": "ENTREGA TOTAL",
+      "data_entrega": "2026-06-08",
       "motivo_codprod": "39",
       "motivo_produto": "VODKA GREY GOOSE ORIGINAL 750 ML",
       "motivo_preco_digitado": 99.9,
@@ -218784,8 +219649,8 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
-      "data_entrega": ""
+      "status_log": "ENTREGUE",
+      "data_entrega": "2026-05-30"
     },
     {
       "numped": "144001465",
@@ -218827,8 +219692,8 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
-      "data_entrega": ""
+      "status_log": "ENTREGUE",
+      "data_entrega": "2026-05-30"
     },
     {
       "numped": "144001471",
@@ -219180,8 +220045,8 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
-      "data_entrega": ""
+      "status_log": "ENTREGUE",
+      "data_entrega": "2026-05-30"
     },
     {
       "numped": "299000072",
@@ -219378,8 +220243,8 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
-      "data_entrega": ""
+      "status_log": "ENTREGA TOTAL",
+      "data_entrega": "2026-06-01"
     },
     {
       "numped": "588002618",
@@ -219852,8 +220717,8 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
-      "data_entrega": "",
+      "status_log": "ENTREGUE",
+      "data_entrega": "2026-05-29",
       "motivo_codprod": "2848",
       "motivo_produto": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
       "motivo_preco_digitado": 55.1,
@@ -220726,7 +221591,7 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
+      "status_log": "ABERTO",
       "data_entrega": ""
     },
     {
@@ -221257,8 +222122,8 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
-      "data_entrega": ""
+      "status_log": "ENTREGUE",
+      "data_entrega": "2026-05-29"
     },
     {
       "numped": "336002009",
@@ -221485,8 +222350,8 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
-      "data_entrega": "",
+      "status_log": "ENTREGUE",
+      "data_entrega": "2026-05-28",
       "motivo_codprod": "4233",
       "motivo_produto": "VINHO ARESTI ESTATE S. CARMENERE 750ML",
       "motivo_preco_digitado": 34.41,
@@ -222101,8 +222966,8 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
-      "data_entrega": ""
+      "status_log": "ENTREGA TOTAL",
+      "data_entrega": "2026-06-01"
     },
     {
       "numped": "542000187",
@@ -222380,8 +223245,8 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
-      "data_entrega": ""
+      "status_log": "ENTREGUE",
+      "data_entrega": "2026-05-27"
     },
     {
       "numped": "159004692",
@@ -222423,8 +223288,8 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
-      "data_entrega": "",
+      "status_log": "ENTREGUE",
+      "data_entrega": "2026-05-27",
       "motivo_codprod": "2848",
       "motivo_produto": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
       "motivo_preco_digitado": 55.1,
@@ -222517,8 +223382,8 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
-      "data_entrega": ""
+      "status_log": "ENTREGUE",
+      "data_entrega": "2026-05-27"
     },
     {
       "numped": "336002007",
@@ -222777,8 +223642,8 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
-      "data_entrega": ""
+      "status_log": "ENTREGUE",
+      "data_entrega": "2026-05-27"
     },
     {
       "numped": "299000070",
@@ -223409,8 +224274,8 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
-      "data_entrega": "",
+      "status_log": "ENTREGUE",
+      "data_entrega": "2026-05-26",
       "motivo_codprod": "2893",
       "motivo_produto": "HUMB. CANALE DENARIO MALBEC 750ML",
       "motivo_preco_digitado": 48.21,
@@ -223659,8 +224524,8 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
-      "data_entrega": "",
+      "status_log": "ENTREGUE",
+      "data_entrega": "2026-05-26",
       "motivo_codprod": "3838",
       "motivo_produto": "VINHO BURDIZZO PRIMITIVO  375ML",
       "motivo_preco_digitado": 27.79,
@@ -223829,8 +224694,8 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
-      "data_entrega": "",
+      "status_log": "ENTREGUE",
+      "data_entrega": "2026-05-27",
       "motivo_codprod": "4369",
       "motivo_produto": "VINHO ARESTI ESTATE S CHARDONNAY 187,5ML",
       "motivo_preco_digitado": 12.34,
@@ -223919,8 +224784,8 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
-      "data_entrega": ""
+      "status_log": "ENTREGUE",
+      "data_entrega": "2026-05-26"
     },
     {
       "numped": "342000147",
@@ -224399,8 +225264,8 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
-      "data_entrega": "",
+      "status_log": "ENTREGUE",
+      "data_entrega": "2026-05-25",
       "motivo_codprod": "3",
       "motivo_produto": "RED BULL 24X250ML",
       "motivo_preco_digitado": 196.56,
@@ -224671,8 +225536,8 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
-      "data_entrega": ""
+      "status_log": "ENTREGA TOTAL",
+      "data_entrega": "2026-05-25"
     },
     {
       "numped": "588002559",
@@ -224757,8 +225622,8 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
-      "data_entrega": ""
+      "status_log": "ENTREGUE",
+      "data_entrega": "2026-05-22"
     },
     {
       "numped": "156003415",
@@ -224800,8 +225665,8 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
-      "data_entrega": ""
+      "status_log": "ENTREGUE",
+      "data_entrega": "2026-05-22"
     },
     {
       "numped": "155003520",
@@ -224891,8 +225756,8 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
-      "data_entrega": "",
+      "status_log": "ENTREGUE",
+      "data_entrega": "2026-05-22",
       "motivo_codprod": "3011",
       "motivo_produto": "ESPUMANTE ALUD BRANCO 750ML",
       "motivo_preco_digitado": 28.5,
@@ -225050,8 +225915,8 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
-      "data_entrega": ""
+      "status_log": "ENTREGUE",
+      "data_entrega": "2026-05-22"
     },
     {
       "numped": "159004665",
@@ -225567,8 +226432,8 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
-      "data_entrega": "",
+      "status_log": "ENTREGA TOTAL",
+      "data_entrega": "2026-05-22",
       "motivo_codprod": "39",
       "motivo_produto": "VODKA GREY GOOSE ORIGINAL 750 ML",
       "motivo_preco_digitado": 99.9,
@@ -225614,7 +226479,7 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
+      "status_log": "CARREGADO",
       "data_entrega": "",
       "motivo_codprod": "39",
       "motivo_produto": "VODKA GREY GOOSE ORIGINAL 750 ML",
@@ -225832,8 +226697,8 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
-      "data_entrega": ""
+      "status_log": "ENTREGUE",
+      "data_entrega": "2026-05-21"
     },
     {
       "numped": "379000968",
@@ -225891,8 +226756,8 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
-      "data_entrega": ""
+      "status_log": "ENTREGUE",
+      "data_entrega": "2026-05-21"
     },
     {
       "numped": "388001011",
@@ -226092,8 +226957,8 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
-      "data_entrega": ""
+      "status_log": "ENTREGUE",
+      "data_entrega": "2026-05-21"
     },
     {
       "numped": "156003411",
@@ -226167,8 +227032,8 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
-      "data_entrega": ""
+      "status_log": "ENTREGUE",
+      "data_entrega": "2026-05-21"
     },
     {
       "numped": "156003412",
@@ -226242,8 +227107,8 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
-      "data_entrega": ""
+      "status_log": "ENTREGUE",
+      "data_entrega": "2026-05-21"
     },
     {
       "numped": "426000227",
@@ -226333,7 +227198,7 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
+      "status_log": "CARREGADO",
       "data_entrega": ""
     },
     {
@@ -226784,8 +227649,8 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
-      "data_entrega": ""
+      "status_log": "ENTREGUE",
+      "data_entrega": "2026-05-20"
     },
     {
       "numped": "155003510",
@@ -226859,8 +227724,8 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
-      "data_entrega": "",
+      "status_log": "ENTREGUE",
+      "data_entrega": "2026-05-21",
       "motivo_codprod": "3011",
       "motivo_produto": "ESPUMANTE ALUD BRANCO 750ML",
       "motivo_preco_digitado": 28.5,
@@ -226922,8 +227787,8 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
-      "data_entrega": "",
+      "status_log": "ENTREGUE",
+      "data_entrega": "2026-05-21",
       "motivo_codprod": "5804",
       "motivo_produto": "VINHO FREIXO TERROIR TINTO 750ML",
       "motivo_preco_digitado": 64.21,
@@ -226985,8 +227850,8 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
-      "data_entrega": "",
+      "status_log": "ENTREGUE",
+      "data_entrega": "2026-05-21",
       "motivo_codprod": "2842",
       "motivo_produto": "VINHO BCO ARCAIA PINOT GRIGIO 750ML",
       "motivo_preco_digitado": 51.66,
@@ -227284,7 +228149,7 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
+      "status_log": "ABERTO",
       "data_entrega": ""
     },
     {
@@ -227330,65 +228195,6 @@ const PEDIDOS_DATA = {
           "qtcortada": 0.0,
           "qtd_cortada_total": 0.0,
           "qt_original": 114.0,
-          "valor_cortado": 0.0,
-          "motivo_corte": "",
-          "cortado": false,
-          "codprod": "5029",
-          "codfilial": "1",
-          "pvenda": 462.0
-        }
-      ],
-      "tem_corte": false,
-      "valor_cortado_total": 0,
-      "em_rota": false,
-      "rota": "",
-      "placa": "",
-      "status_log": "ENTREGA TOTAL",
-      "data_entrega": "2026-05-27"
-    },
-    {
-      "numped": "438000071",
-      "numnota": "169193",
-      "data": "19/05/2026",
-      "data_ord": "2026-05-19",
-      "nome": "MARCIA RITA - OFF TRADE",
-      "cliente": "HORTUS COMERCIO DE ALIMENTOS S.A.",
-      "sistema": "SPON",
-      "estado": "SP",
-      "cidade": "JANDIRA",
-      "supervisor": "ANDERSON CANAVEIS",
-      "gerente": "MARCUS TANAMACHI",
-      "status_ped": "",
-      "posicao": "Faturado",
-      "motivo": "",
-      "obs": "pedido 1002771921",
-      "total": 129738.0,
-      "itens": [
-        {
-          "desc": "AZEITE OLIV EV ZE TONA FINALIZAR12X500ML",
-          "industria": "CASTAS",
-          "qt": 153,
-          "val": 83538.0,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 153.0,
-          "valor_cortado": 0.0,
-          "motivo_corte": "",
-          "cortado": false,
-          "codprod": "5028",
-          "codfilial": "1",
-          "pvenda": 546.0
-        },
-        {
-          "desc": "AZEITE OLIV EV ZE TONA COZINHAR 12X500ML",
-          "industria": "CASTAS",
-          "qt": 100,
-          "val": 46200.0,
-          "qtfalta": 0.0,
-          "qtcortada": 0.0,
-          "qtd_cortada_total": 0.0,
-          "qt_original": 100.0,
           "valor_cortado": 0.0,
           "motivo_corte": "",
           "cortado": false,
@@ -227488,8 +228294,8 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
-      "data_entrega": "",
+      "status_log": "ENTREGUE",
+      "data_entrega": "2026-05-19",
       "motivo_codprod": "2893",
       "motivo_produto": "HUMB. CANALE DENARIO MALBEC 750ML",
       "motivo_preco_digitado": 48.21,
@@ -227535,8 +228341,8 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
-      "data_entrega": "",
+      "status_log": "ENTREGUE",
+      "data_entrega": "2026-05-19",
       "motivo_codprod": "2848",
       "motivo_produto": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
       "motivo_preco_digitado": 55.1,
@@ -227598,8 +228404,8 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
-      "data_entrega": ""
+      "status_log": "ENTREGUE",
+      "data_entrega": "2026-05-19"
     },
     {
       "numped": "336001987",
@@ -227791,8 +228597,8 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
-      "data_entrega": ""
+      "status_log": "ENTREGUE",
+      "data_entrega": "2026-05-20"
     },
     {
       "numped": "426000213",
@@ -227834,8 +228640,8 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
-      "data_entrega": ""
+      "status_log": "ENTREGA TOTAL",
+      "data_entrega": "2026-06-24"
     },
     {
       "numped": "362000064",
@@ -228188,7 +228994,7 @@ const PEDIDOS_DATA = {
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "status_log": "",
+      "status_log": "ABERTO",
       "data_entrega": ""
     }
   ],
@@ -244239,7 +245045,7 @@ const PEDIDOS_DATA = {
       "gerente": "DANIEL DINIZ",
       "status_ped": "CANCELADA",
       "posicao": "Cancelado",
-      "motivo": "CORTE TOTAL NO CARREGAMENTO; ITEM NAO ATENDIDO, EXCLUIDO DO PEDIDO",
+      "motivo": "ITEM NAO ATENDIDO, EXCLUIDO DO PEDIDO; CORTE TOTAL NO CARREGAMENTO",
       "obs": "",
       "total": 0.0,
       "itens": [
@@ -249501,7 +250307,11 @@ const PEDIDOS_DATA = {
         }
       ],
       "tem_corte": true,
-      "valor_cortado_total": 431.51
+      "valor_cortado_total": 431.51,
+      "motivo_codprod": "7492",
+      "motivo_produto": "PINATI DOUBLE BAR BRIGADEIRO 16X35G",
+      "motivo_preco_digitado": 59.9,
+      "motivo_preco_tabela": 59.9
     },
     {
       "numped": "476000083",
@@ -266071,490 +266881,490 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "SPON|184124": {
-      "status_log": "",
+      "status_log": "ABERTO",
       "em_rota": false,
       "rota": "",
       "placa": "",
       "data_entrega": ""
     },
     "SPON|184112": {
-      "status_log": "",
+      "status_log": "ABERTO",
       "em_rota": false,
       "rota": "",
       "placa": "",
       "data_entrega": ""
     },
     "SPON|184107": {
-      "status_log": "",
+      "status_log": "ABERTO",
       "em_rota": false,
       "rota": "",
       "placa": "",
       "data_entrega": ""
     },
     "SPON|184280": {
-      "status_log": "",
+      "status_log": "ABERTO",
       "em_rota": false,
       "rota": "",
       "placa": "",
       "data_entrega": ""
     },
     "SPON|184233": {
-      "status_log": "",
+      "status_log": "ABERTO",
       "em_rota": false,
       "rota": "",
       "placa": "",
       "data_entrega": ""
     },
     "SPON|7810": {
-      "status_log": "",
+      "status_log": "EXCLUIDO",
       "em_rota": false,
       "rota": "",
       "placa": "",
       "data_entrega": ""
     },
     "SPON|184106": {
-      "status_log": "",
+      "status_log": "CARREGADO",
       "em_rota": false,
       "rota": "",
       "placa": "",
       "data_entrega": ""
     },
     "SPON|7887": {
-      "status_log": "",
+      "status_log": "ABERTO",
       "em_rota": false,
       "rota": "",
       "placa": "",
       "data_entrega": ""
     },
     "SPON|7886": {
-      "status_log": "",
+      "status_log": "ABERTO",
       "em_rota": false,
       "rota": "",
       "placa": "",
       "data_entrega": ""
     },
     "SPON|184213": {
-      "status_log": "",
+      "status_log": "CARREGADO",
       "em_rota": false,
       "rota": "",
       "placa": "",
       "data_entrega": ""
     },
     "SPON|184227": {
-      "status_log": "",
+      "status_log": "CARREGADO",
       "em_rota": false,
       "rota": "",
       "placa": "",
       "data_entrega": ""
     },
     "SPON|184209": {
-      "status_log": "",
+      "status_log": "CARREGADO",
       "em_rota": false,
       "rota": "",
       "placa": "",
       "data_entrega": ""
     },
     "SPON|184274": {
-      "status_log": "",
+      "status_log": "CARREGADO",
       "em_rota": false,
       "rota": "",
       "placa": "",
       "data_entrega": ""
     },
     "SPON|184175": {
-      "status_log": "",
+      "status_log": "ABERTO",
       "em_rota": false,
       "rota": "",
       "placa": "",
       "data_entrega": ""
     },
     "SPON|184252": {
-      "status_log": "",
+      "status_log": "ENTREGA TOTAL",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-08-14"
     },
     "SPON|184253": {
-      "status_log": "",
+      "status_log": "ENTREGA TOTAL",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-08-14"
     },
     "SPON|7797": {
-      "status_log": "",
+      "status_log": "ENTREGA TOTAL",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-07-09"
     },
     "SPON|184255": {
-      "status_log": "",
+      "status_log": "ABERTO",
       "em_rota": false,
       "rota": "",
       "placa": "",
       "data_entrega": ""
     },
     "SPON|184218": {
-      "status_log": "",
+      "status_log": "ABERTO",
       "em_rota": false,
       "rota": "",
       "placa": "",
       "data_entrega": ""
     },
     "SPON|7846": {
-      "status_log": "",
+      "status_log": "ABERTO",
       "em_rota": false,
       "rota": "",
       "placa": "",
       "data_entrega": ""
     },
     "SPON|7820": {
-      "status_log": "",
+      "status_log": "ABERTO",
       "em_rota": false,
       "rota": "",
       "placa": "",
       "data_entrega": ""
     },
     "SPON|184108": {
-      "status_log": "",
+      "status_log": "CARREGADO",
       "em_rota": false,
       "rota": "",
       "placa": "",
       "data_entrega": ""
     },
     "SPON|184173": {
-      "status_log": "",
+      "status_log": "ABERTO",
       "em_rota": false,
       "rota": "",
       "placa": "",
       "data_entrega": ""
     },
     "SPON|7854": {
-      "status_log": "",
+      "status_log": "ABERTO",
       "em_rota": false,
       "rota": "",
       "placa": "",
       "data_entrega": ""
     },
     "SPON|184165": {
-      "status_log": "",
+      "status_log": "CARREGADO",
       "em_rota": false,
       "rota": "",
       "placa": "",
       "data_entrega": ""
     },
     "SPON|184181": {
-      "status_log": "",
+      "status_log": "CARREGADO",
       "em_rota": false,
       "rota": "",
       "placa": "",
       "data_entrega": ""
     },
     "SPON|7867": {
-      "status_log": "",
+      "status_log": "ABERTO",
       "em_rota": false,
       "rota": "",
       "placa": "",
       "data_entrega": ""
     },
     "SPON|184264": {
-      "status_log": "",
+      "status_log": "ABERTO",
       "em_rota": false,
       "rota": "",
       "placa": "",
       "data_entrega": ""
     },
     "SPON|184246": {
-      "status_log": "",
+      "status_log": "ABERTO",
       "em_rota": false,
       "rota": "",
       "placa": "",
       "data_entrega": ""
     },
     "SPON|7790": {
-      "status_log": "",
+      "status_log": "ENTREGA TOTAL",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-07-09"
     },
     "SPON|184214": {
-      "status_log": "",
+      "status_log": "CARREGADO",
       "em_rota": false,
       "rota": "",
       "placa": "",
       "data_entrega": ""
     },
     "SPON|7856": {
-      "status_log": "",
+      "status_log": "ABERTO",
       "em_rota": false,
       "rota": "",
       "placa": "",
       "data_entrega": ""
     },
     "SPON|7871": {
-      "status_log": "",
+      "status_log": "ABERTO",
       "em_rota": false,
       "rota": "",
       "placa": "",
       "data_entrega": ""
     },
     "SPON|7860": {
-      "status_log": "",
+      "status_log": "ABERTO",
       "em_rota": false,
       "rota": "",
       "placa": "",
       "data_entrega": ""
     },
     "SPON|184180": {
-      "status_log": "",
+      "status_log": "CARREGADO",
       "em_rota": false,
       "rota": "",
       "placa": "",
       "data_entrega": ""
     },
     "SPON|184265": {
-      "status_log": "",
+      "status_log": "CARREGADO",
       "em_rota": false,
       "rota": "",
       "placa": "",
       "data_entrega": ""
     },
     "SPON|184301": {
-      "status_log": "",
+      "status_log": "ABERTO",
       "em_rota": false,
       "rota": "",
       "placa": "",
       "data_entrega": ""
     },
     "SPON|7789": {
-      "status_log": "",
+      "status_log": "EXCLUIDO",
       "em_rota": false,
       "rota": "",
       "placa": "",
       "data_entrega": ""
     },
     "SPON|7851": {
-      "status_log": "",
+      "status_log": "EXCLUIDO",
       "em_rota": false,
       "rota": "",
       "placa": "",
       "data_entrega": ""
     },
     "SPON|7861": {
-      "status_log": "",
+      "status_log": "ABERTO",
       "em_rota": false,
       "rota": "",
       "placa": "",
       "data_entrega": ""
     },
     "SPON|7881": {
-      "status_log": "",
+      "status_log": "ABERTO",
       "em_rota": false,
       "rota": "",
       "placa": "",
       "data_entrega": ""
     },
     "SPON|7880": {
-      "status_log": "",
+      "status_log": "ABERTO",
       "em_rota": false,
       "rota": "",
       "placa": "",
       "data_entrega": ""
     },
     "SPON|7882": {
-      "status_log": "",
+      "status_log": "ABERTO",
       "em_rota": false,
       "rota": "",
       "placa": "",
       "data_entrega": ""
     },
     "SPON|7883": {
-      "status_log": "",
+      "status_log": "ABERTO",
       "em_rota": false,
       "rota": "",
       "placa": "",
       "data_entrega": ""
     },
     "SPON|7885": {
-      "status_log": "",
+      "status_log": "ABERTO",
       "em_rota": false,
       "rota": "",
       "placa": "",
       "data_entrega": ""
     },
     "SPON|7828": {
-      "status_log": "",
+      "status_log": "ABERTO",
       "em_rota": false,
       "rota": "",
       "placa": "",
       "data_entrega": ""
     },
     "SPON|7857": {
-      "status_log": "",
+      "status_log": "ABERTO",
       "em_rota": false,
       "rota": "",
       "placa": "",
       "data_entrega": ""
     },
     "SPON|7873": {
-      "status_log": "",
+      "status_log": "ABERTO",
       "em_rota": false,
       "rota": "",
       "placa": "",
       "data_entrega": ""
     },
     "SPON|7872": {
-      "status_log": "",
+      "status_log": "ABERTO",
       "em_rota": false,
       "rota": "",
       "placa": "",
       "data_entrega": ""
     },
     "SPON|7874": {
-      "status_log": "",
+      "status_log": "ABERTO",
       "em_rota": false,
       "rota": "",
       "placa": "",
       "data_entrega": ""
     },
     "SPON|184244": {
-      "status_log": "",
+      "status_log": "CARREGADO",
       "em_rota": false,
       "rota": "",
       "placa": "",
       "data_entrega": ""
     },
     "SPON|184122": {
-      "status_log": "",
+      "status_log": "CARREGADO",
       "em_rota": false,
       "rota": "",
       "placa": "",
       "data_entrega": ""
     },
     "SPON|184177": {
-      "status_log": "",
+      "status_log": "CARREGADO",
       "em_rota": false,
       "rota": "",
       "placa": "",
       "data_entrega": ""
     },
     "SPON|184260": {
-      "status_log": "",
+      "status_log": "CARREGADO",
       "em_rota": false,
       "rota": "",
       "placa": "",
       "data_entrega": ""
     },
     "SPON|184208": {
-      "status_log": "",
+      "status_log": "ABERTO",
       "em_rota": false,
       "rota": "",
       "placa": "",
       "data_entrega": ""
     },
     "SPON|184256": {
-      "status_log": "",
+      "status_log": "CARREGADO",
       "em_rota": false,
       "rota": "",
       "placa": "",
       "data_entrega": ""
     },
     "SPON|7870": {
-      "status_log": "",
+      "status_log": "ABERTO",
       "em_rota": false,
       "rota": "",
       "placa": "",
       "data_entrega": ""
     },
     "SPON|184261": {
-      "status_log": "",
+      "status_log": "CARREGADO",
       "em_rota": false,
       "rota": "",
       "placa": "",
       "data_entrega": ""
     },
     "SPON|184134": {
-      "status_log": "",
+      "status_log": "ABERTO",
       "em_rota": false,
       "rota": "",
       "placa": "",
       "data_entrega": ""
     },
     "SPON|184254": {
-      "status_log": "",
+      "status_log": "ABERTO",
       "em_rota": false,
       "rota": "",
       "placa": "",
       "data_entrega": ""
     },
     "SPON|184266": {
-      "status_log": "",
+      "status_log": "CARREGADO",
       "em_rota": false,
       "rota": "",
       "placa": "",
       "data_entrega": ""
     },
     "SPON|184285": {
-      "status_log": "",
+      "status_log": "ABERTO",
       "em_rota": false,
       "rota": "",
       "placa": "",
       "data_entrega": ""
     },
     "SPON|184277": {
-      "status_log": "",
+      "status_log": "CARREGADO",
       "em_rota": false,
       "rota": "",
       "placa": "",
       "data_entrega": ""
     },
     "SPON|184291": {
-      "status_log": "",
+      "status_log": "ENTREGA TOTAL",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-08-14"
     },
     "SPON|184284": {
-      "status_log": "",
+      "status_log": "ENTREGA TOTAL",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-08-14"
     },
     "SPON|7875": {
-      "status_log": "",
+      "status_log": "ABERTO",
       "em_rota": false,
       "rota": "",
       "placa": "",
       "data_entrega": ""
     },
     "SPON|7876": {
-      "status_log": "",
+      "status_log": "ABERTO",
       "em_rota": false,
       "rota": "",
       "placa": "",
       "data_entrega": ""
     },
     "SPON|7877": {
-      "status_log": "",
+      "status_log": "ABERTO",
       "em_rota": false,
       "rota": "",
       "placa": "",
       "data_entrega": ""
     },
     "SPON|7852": {
-      "status_log": "",
+      "status_log": "ABERTO",
       "em_rota": false,
       "rota": "",
       "placa": "",
       "data_entrega": ""
     },
     "SPON|7793": {
-      "status_log": "",
+      "status_log": "EXCLUIDO",
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -267093,189 +267903,189 @@ const PEDIDOS_DATA = {
       "data_entrega": "2026-08-13"
     },
     "SPON|184132": {
-      "status_log": "",
+      "status_log": "ABERTO",
       "em_rota": false,
       "rota": "",
       "placa": "",
       "data_entrega": ""
     },
     "SPON|184131": {
-      "status_log": "",
+      "status_log": "ABERTO",
       "em_rota": false,
       "rota": "",
       "placa": "",
       "data_entrega": ""
     },
     "SPON|184130": {
-      "status_log": "",
+      "status_log": "ABERTO",
       "em_rota": false,
       "rota": "",
       "placa": "",
       "data_entrega": ""
     },
     "SPON|7855": {
-      "status_log": "",
+      "status_log": "ABERTO",
       "em_rota": false,
       "rota": "",
       "placa": "",
       "data_entrega": ""
     },
     "SPON|7816": {
-      "status_log": "",
+      "status_log": "ABERTO",
       "em_rota": false,
       "rota": "",
       "placa": "",
       "data_entrega": ""
     },
     "SPON|7817": {
-      "status_log": "",
+      "status_log": "EXCLUIDO",
       "em_rota": false,
       "rota": "",
       "placa": "",
       "data_entrega": ""
     },
     "SPON|7815": {
-      "status_log": "",
+      "status_log": "ABERTO",
       "em_rota": false,
       "rota": "",
       "placa": "",
       "data_entrega": ""
     },
     "SPON|7813": {
-      "status_log": "",
+      "status_log": "ABERTO",
       "em_rota": false,
       "rota": "",
       "placa": "",
       "data_entrega": ""
     },
     "SPON|7814": {
-      "status_log": "",
+      "status_log": "ABERTO",
       "em_rota": false,
       "rota": "",
       "placa": "",
       "data_entrega": ""
     },
     "SPON|7812": {
-      "status_log": "",
+      "status_log": "ABERTO",
       "em_rota": false,
       "rota": "",
       "placa": "",
       "data_entrega": ""
     },
     "SPON|184179": {
-      "status_log": "",
+      "status_log": "ABERTO",
       "em_rota": false,
       "rota": "",
       "placa": "",
       "data_entrega": ""
     },
     "SPON|184015": {
-      "status_log": "",
+      "status_log": "ABERTO",
       "em_rota": false,
       "rota": "",
       "placa": "",
       "data_entrega": ""
     },
     "SPON|184005": {
-      "status_log": "",
+      "status_log": "ENTREGA TOTAL",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-08-13"
     },
     "SPON|183870": {
-      "status_log": "ABERTO",
+      "status_log": "ENTREGA TOTAL",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-08-13"
     },
     "SPON|183871": {
-      "status_log": "ABERTO",
+      "status_log": "ENTREGA TOTAL",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-08-13"
     },
     "SPON|183997": {
-      "status_log": "",
+      "status_log": "ENTREGA TOTAL",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-08-13"
     },
     "SPON|183995": {
-      "status_log": "",
+      "status_log": "ENTREGA TOTAL",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-08-13"
     },
     "SPON|184176": {
-      "status_log": "",
+      "status_log": "ABERTO",
       "em_rota": false,
       "rota": "",
       "placa": "",
       "data_entrega": ""
     },
     "SPON|184128": {
-      "status_log": "",
+      "status_log": "CARREGADO",
       "em_rota": false,
       "rota": "",
       "placa": "",
       "data_entrega": ""
     },
     "SPON|184178": {
-      "status_log": "",
+      "status_log": "CARREGADO",
       "em_rota": false,
       "rota": "",
       "placa": "",
       "data_entrega": ""
     },
     "SPON|184129": {
-      "status_log": "",
+      "status_log": "CARREGADO",
       "em_rota": false,
       "rota": "",
       "placa": "",
       "data_entrega": ""
     },
     "SPON|7783": {
-      "status_log": "",
+      "status_log": "ABERTO",
       "em_rota": false,
       "rota": "",
       "placa": "",
       "data_entrega": ""
     },
     "SPON|7786": {
-      "status_log": "",
+      "status_log": "ENTREGA TOTAL",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-07-09"
     },
     "SPON|7784": {
-      "status_log": "",
+      "status_log": "CARREGADO",
       "em_rota": false,
       "rota": "",
       "placa": "",
       "data_entrega": ""
     },
     "SPON|7785": {
-      "status_log": "",
+      "status_log": "CARREGADO",
       "em_rota": false,
       "rota": "",
       "placa": "",
       "data_entrega": ""
     },
     "SPON|7779": {
-      "status_log": "",
+      "status_log": "ENTREGA TOTAL",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-07-10"
     },
     "SPON|7778": {
-      "status_log": "",
+      "status_log": "EXCLUIDO",
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -267289,179 +268099,179 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "SPON|183906": {
-      "status_log": "ABERTO",
+      "status_log": "ENTREGA TOTAL",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-08-13"
     },
     "SPON|184136": {
-      "status_log": "",
+      "status_log": "ABERTO",
       "em_rota": false,
       "rota": "",
       "placa": "",
       "data_entrega": ""
     },
     "SPON|183925": {
-      "status_log": "ABERTO",
+      "status_log": "CARREGADO",
       "em_rota": false,
       "rota": "",
       "placa": "",
       "data_entrega": ""
     },
     "SPON|183981": {
-      "status_log": "",
+      "status_log": "ENTREGA TOTAL",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-08-13"
     },
     "SPON|184126": {
-      "status_log": "",
+      "status_log": "ABERTO",
       "em_rota": false,
       "rota": "",
       "placa": "",
       "data_entrega": ""
     },
     "SPON|184125": {
-      "status_log": "",
+      "status_log": "ABERTO",
       "em_rota": false,
       "rota": "",
       "placa": "",
       "data_entrega": ""
     },
     "SPON|7771": {
-      "status_log": "",
+      "status_log": "EXCLUIDO",
       "em_rota": false,
       "rota": "",
       "placa": "",
       "data_entrega": ""
     },
     "SPON|7803": {
-      "status_log": "",
+      "status_log": "EXCLUIDO",
       "em_rota": false,
       "rota": "",
       "placa": "",
       "data_entrega": ""
     },
     "SPON|7827": {
-      "status_log": "",
+      "status_log": "ABERTO",
       "em_rota": false,
       "rota": "",
       "placa": "",
       "data_entrega": ""
     },
     "SPON|7801": {
-      "status_log": "",
+      "status_log": "ENTREGA TOTAL",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-07-10"
     },
     "SPON|7830": {
-      "status_log": "",
+      "status_log": "EXCLUIDO",
       "em_rota": false,
       "rota": "",
       "placa": "",
       "data_entrega": ""
     },
     "SPON|7826": {
-      "status_log": "",
+      "status_log": "ABERTO",
       "em_rota": false,
       "rota": "",
       "placa": "",
       "data_entrega": ""
     },
     "SPON|7829": {
-      "status_log": "",
+      "status_log": "EXCLUIDO",
       "em_rota": false,
       "rota": "",
       "placa": "",
       "data_entrega": ""
     },
     "SPON|7837": {
-      "status_log": "",
+      "status_log": "ABERTO",
       "em_rota": false,
       "rota": "",
       "placa": "",
       "data_entrega": ""
     },
     "SPON|7836": {
-      "status_log": "",
+      "status_log": "ABERTO",
       "em_rota": false,
       "rota": "",
       "placa": "",
       "data_entrega": ""
     },
     "SPON|7832": {
-      "status_log": "",
+      "status_log": "ABERTO",
       "em_rota": false,
       "rota": "",
       "placa": "",
       "data_entrega": ""
     },
     "SPON|7833": {
-      "status_log": "",
+      "status_log": "ABERTO",
       "em_rota": false,
       "rota": "",
       "placa": "",
       "data_entrega": ""
     },
     "SPON|7787": {
-      "status_log": "",
+      "status_log": "EXCLUIDO",
       "em_rota": false,
       "rota": "",
       "placa": "",
       "data_entrega": ""
     },
     "SPON|7798": {
-      "status_log": "",
+      "status_log": "EXCLUIDO",
       "em_rota": false,
       "rota": "",
       "placa": "",
       "data_entrega": ""
     },
     "SPON|184061": {
-      "status_log": "",
+      "status_log": "ENTREGA TOTAL",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-08-14"
     },
     "SPON|184075": {
-      "status_log": "",
+      "status_log": "CARREGADO",
       "em_rota": false,
       "rota": "",
       "placa": "",
       "data_entrega": ""
     },
     "SPON|183875": {
-      "status_log": "ABERTO",
+      "status_log": "ENTREGA TOTAL",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-08-13"
     },
     "SPON|183874": {
-      "status_log": "ABERTO",
+      "status_log": "ENTREGA TOTAL",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-08-13"
     },
     "SPON|183873": {
-      "status_log": "ABERTO",
+      "status_log": "CARREGADO",
       "em_rota": false,
       "rota": "",
       "placa": "",
       "data_entrega": ""
     },
     "SPON|183909": {
-      "status_log": "ABERTO",
+      "status_log": "ENTREGA TOTAL",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-08-14"
     },
     "SPON|7761": {
       "status_log": "ABERTO",
@@ -267506,7 +268316,7 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "SPON|7776": {
-      "status_log": "",
+      "status_log": "EXCLUIDO",
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -268003,39 +268813,39 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "SPON|7838": {
-      "status_log": "",
+      "status_log": "ABERTO",
       "em_rota": false,
       "rota": "",
       "placa": "",
       "data_entrega": ""
     },
     "SPON|7811": {
-      "status_log": "",
+      "status_log": "EXCLUIDO",
       "em_rota": false,
       "rota": "",
       "placa": "",
       "data_entrega": ""
     },
     "SPON|183903": {
-      "status_log": "ABERTO",
+      "status_log": "ENTREGA TOTAL",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-08-13"
     },
     "SPON|183516": {
-      "status_log": "ABERTO",
+      "status_log": "CARREGADO",
       "em_rota": false,
       "rota": "",
       "placa": "",
       "data_entrega": ""
     },
     "SPON|183515": {
-      "status_log": "ABERTO",
+      "status_log": "ENTREGA TOTAL",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-08-14"
     },
     "SPON|183521": {
       "status_log": "ENTREGA TOTAL",
@@ -268045,14 +268855,14 @@ const PEDIDOS_DATA = {
       "data_entrega": "2026-08-12"
     },
     "SPON|183780": {
-      "status_log": "CARREGADO",
+      "status_log": "ENTREGA TOTAL",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-08-13"
     },
     "SPON|184127": {
-      "status_log": "",
+      "status_log": "CARREGADO",
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -268066,18 +268876,18 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "SPON|184169": {
-      "status_log": "",
+      "status_log": "ABERTO",
       "em_rota": false,
       "rota": "",
       "placa": "",
       "data_entrega": ""
     },
     "SPON|183529": {
-      "status_log": "CARREGADO",
+      "status_log": "ENTREGA TOTAL",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-08-12"
     },
     "SPON|7721": {
       "status_log": "ABERTO",
@@ -268087,11 +268897,11 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "SPON|183770": {
-      "status_log": "CARREGADO",
+      "status_log": "ENTREGA TOTAL",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-08-13"
     },
     "SPON|7736": {
       "status_log": "ABERTO",
@@ -268136,60 +268946,60 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "SPON|7808": {
-      "status_log": "",
+      "status_log": "EXCLUIDO",
       "em_rota": false,
       "rota": "",
       "placa": "",
       "data_entrega": ""
     },
     "SPON|7824": {
-      "status_log": "",
+      "status_log": "ABERTO",
       "em_rota": false,
       "rota": "",
       "placa": "",
       "data_entrega": ""
     },
     "SPON|7825": {
-      "status_log": "",
+      "status_log": "ABERTO",
       "em_rota": false,
       "rota": "",
       "placa": "",
       "data_entrega": ""
     },
     "SPON|7823": {
-      "status_log": "",
+      "status_log": "ABERTO",
       "em_rota": false,
       "rota": "",
       "placa": "",
       "data_entrega": ""
     },
     "SPON|7805": {
-      "status_log": "",
+      "status_log": "EXCLUIDO",
       "em_rota": false,
       "rota": "",
       "placa": "",
       "data_entrega": ""
     },
     "SPON|7807": {
-      "status_log": "",
+      "status_log": "EXCLUIDO",
       "em_rota": false,
       "rota": "",
       "placa": "",
       "data_entrega": ""
     },
     "SPON|7799": {
-      "status_log": "",
+      "status_log": "ABERTO",
       "em_rota": false,
       "rota": "",
       "placa": "",
       "data_entrega": ""
     },
     "SPON|183570": {
-      "status_log": "ABERTO",
+      "status_log": "ENTREGA TOTAL",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-08-14"
     },
     "SPON|7707": {
       "status_log": "ABERTO",
@@ -268220,11 +269030,11 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "SPON|7792": {
-      "status_log": "",
+      "status_log": "ENTREGA TOTAL",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-07-09"
     },
     "MGON|127981": {
       "status_log": "",
@@ -269039,11 +269849,11 @@ const PEDIDOS_DATA = {
       "data_entrega": "2026-08-11"
     },
     "SPON|183555": {
-      "status_log": "ABERTO",
+      "status_log": "ENTREGA TOTAL",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-08-14"
     },
     "SPON|183586": {
       "status_log": "ABERTO",
@@ -269053,11 +269863,11 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "SPON|183585": {
-      "status_log": "CARREGADO",
+      "status_log": "ENTREGA TOTAL",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-08-12"
     },
     "SPON|183557": {
       "status_log": "ABERTO",
@@ -269067,25 +269877,25 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "SPON|183554": {
-      "status_log": "ABERTO",
+      "status_log": "ENTREGA TOTAL",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-08-13"
     },
     "SPON|183558": {
-      "status_log": "ABERTO",
+      "status_log": "ENTREGA TOTAL",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-08-14"
     },
     "SPON|183556": {
-      "status_log": "ABERTO",
+      "status_log": "ENTREGA TOTAL",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-08-14"
     },
     "SPON|7764": {
       "status_log": "EXCLUIDO",
@@ -269102,7 +269912,7 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "SPON|183520": {
-      "status_log": "ABERTO",
+      "status_log": "CARREGADO",
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -269123,11 +269933,11 @@ const PEDIDOS_DATA = {
       "data_entrega": "2026-08-12"
     },
     "SPON|183882": {
-      "status_log": "ABERTO",
+      "status_log": "ENTREGA TOTAL",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-08-13"
     },
     "SPON|7675": {
       "status_log": "ABERTO",
@@ -269200,7 +270010,7 @@ const PEDIDOS_DATA = {
       "data_entrega": "2026-08-12"
     },
     "SPON|7819": {
-      "status_log": "",
+      "status_log": "ABERTO",
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -269242,63 +270052,63 @@ const PEDIDOS_DATA = {
       "data_entrega": "2026-07-09"
     },
     "SPON|7804": {
-      "status_log": "",
+      "status_log": "ABERTO",
       "em_rota": false,
       "rota": "",
       "placa": "",
       "data_entrega": ""
     },
     "SPON|7822": {
-      "status_log": "",
+      "status_log": "ABERTO",
       "em_rota": false,
       "rota": "",
       "placa": "",
       "data_entrega": ""
     },
     "SPON|7809": {
-      "status_log": "",
+      "status_log": "EXCLUIDO",
       "em_rota": false,
       "rota": "",
       "placa": "",
       "data_entrega": ""
     },
     "SPON|7835": {
-      "status_log": "",
+      "status_log": "ABERTO",
       "em_rota": false,
       "rota": "",
       "placa": "",
       "data_entrega": ""
     },
     "SPON|7800": {
-      "status_log": "",
+      "status_log": "ABERTO",
       "em_rota": false,
       "rota": "",
       "placa": "",
       "data_entrega": ""
     },
     "SPON|7831": {
-      "status_log": "",
+      "status_log": "ABERTO",
       "em_rota": false,
       "rota": "",
       "placa": "",
       "data_entrega": ""
     },
     "SPON|7802": {
-      "status_log": "",
+      "status_log": "ENTREGA TOTAL",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-07-09"
     },
     "SPON|7806": {
-      "status_log": "",
+      "status_log": "EXCLUIDO",
       "em_rota": false,
       "rota": "",
       "placa": "",
       "data_entrega": ""
     },
     "SPON|7834": {
-      "status_log": "",
+      "status_log": "ABERTO",
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -269312,11 +270122,11 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "SPON|183280": {
-      "status_log": "CARREGADO",
+      "status_log": "ENTREGA TOTAL",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-08-14"
     },
     "SPON|183297": {
       "status_log": "ENTREGA TOTAL",
@@ -269339,13 +270149,6 @@ const PEDIDOS_DATA = {
       "placa": "",
       "data_entrega": "2026-08-11"
     },
-    "SPON|183283": {
-      "status_log": "ABERTO",
-      "em_rota": false,
-      "rota": "",
-      "placa": "",
-      "data_entrega": ""
-    },
     "SPON|7679": {
       "status_log": "ABERTO",
       "em_rota": false,
@@ -269354,14 +270157,14 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "SPON|7791": {
-      "status_log": "",
+      "status_log": "ABERTO",
       "em_rota": false,
       "rota": "",
       "placa": "",
       "data_entrega": ""
     },
     "SPON|7795": {
-      "status_log": "",
+      "status_log": "EXCLUIDO",
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -270194,18 +270997,18 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "SPON|7794": {
-      "status_log": "",
+      "status_log": "ENTREGA TOTAL",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-07-09"
     },
     "SPON|7796": {
-      "status_log": "",
+      "status_log": "ENTREGA TOTAL",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-07-15"
     },
     "MGON|127750": {
       "status_log": "",
@@ -271951,11 +272754,11 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "SPON|182721": {
-      "status_log": "ABERTO",
+      "status_log": "ENTREGA TOTAL",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-08-14"
     },
     "SPON|7656": {
       "status_log": "ABERTO",
@@ -272441,18 +273244,18 @@ const PEDIDOS_DATA = {
       "data_entrega": "2026-08-05"
     },
     "SPON|182334": {
-      "status_log": "ABERTO",
+      "status_log": "ENTREGA TOTAL",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-08-13"
     },
     "SPON|182332": {
-      "status_log": "ABERTO",
+      "status_log": "ENTREGA TOTAL",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-08-13"
     },
     "SPON|182329": {
       "status_log": "ENTREGA TOTAL",
@@ -274317,11 +275120,11 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "SPON|181811": {
-      "status_log": "ABERTO",
+      "status_log": "ENTREGA TOTAL",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-08-13"
     },
     "SPON|181812": {
       "status_log": "ABERTO",
@@ -275024,11 +275827,11 @@ const PEDIDOS_DATA = {
       "data_entrega": "2026-08-07"
     },
     "SPON|181737": {
-      "status_log": "ABERTO",
+      "status_log": "ENTREGA TOTAL",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-08-13"
     },
     "SPON|181938": {
       "status_log": "ENTREGA TOTAL",
@@ -276249,11 +277052,11 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "SPON|181305": {
-      "status_log": "ABERTO",
+      "status_log": "ENTREGA TOTAL",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-08-13"
     },
     "SPON|181314": {
       "status_log": "ENTREGA TOTAL",
@@ -282906,7 +283709,7 @@ const PEDIDOS_DATA = {
       "data_entrega": "2026-06-27"
     },
     "SPON|5913": {
-      "status_log": "",
+      "status_log": "ABERTO",
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -282976,7 +283779,7 @@ const PEDIDOS_DATA = {
       "data_entrega": "2026-06-26"
     },
     "SPON|5854": {
-      "status_log": "",
+      "status_log": "ABERTO",
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -283459,7 +284262,7 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "SPON|5504": {
-      "status_log": "",
+      "status_log": "ABERTO",
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -284369,11 +285172,11 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "SPON|171893": {
-      "status_log": "",
+      "status_log": "ENTREGA TOTAL",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-06-08"
     },
     "SPON|171654": {
       "status_log": "ENTREGA TOTAL",
@@ -284579,18 +285382,18 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "CRC|398393": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-30"
     },
     "CRC|398208": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-30"
     },
     "CRC|398499": {
       "status_log": "ENTREGUE",
@@ -284607,11 +285410,11 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "CRC|398454": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-30"
     },
     "CASTAS|452": {
       "status_log": "",
@@ -284621,11 +285424,11 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "SPON|170936": {
-      "status_log": "",
+      "status_log": "ENTREGA TOTAL",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-06-01"
     },
     "SPON|170848": {
       "status_log": "ENTREGA TOTAL",
@@ -284663,11 +285466,11 @@ const PEDIDOS_DATA = {
       "data_entrega": "2026-07-02"
     },
     "CRC|397934": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-29"
     },
     "CRC|5483": {
       "status_log": "ENTREGUE",
@@ -284733,7 +285536,7 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "SPON|4881": {
-      "status_log": "",
+      "status_log": "ABERTO",
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -284796,11 +285599,11 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "CRC|397932": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-29"
     },
     "CRC|41797": {
       "status_log": "",
@@ -284824,11 +285627,11 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "CRC|397627": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-28"
     },
     "CRC|397721": {
       "status_log": "ENTREGUE",
@@ -284908,11 +285711,11 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "SPON|170420": {
-      "status_log": "",
+      "status_log": "ENTREGA TOTAL",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-06-01"
     },
     "MGON|119985": {
       "status_log": "",
@@ -284943,18 +285746,18 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "CRC|397187": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-27"
     },
     "CRC|397150": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-27"
     },
     "CRC|41776": {
       "status_log": "",
@@ -284964,11 +285767,11 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "CRC|397219": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-27"
     },
     "CRC|41763": {
       "status_log": "",
@@ -284992,11 +285795,11 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "CRC|397013": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-27"
     },
     "CASTAS|427": {
       "status_log": "",
@@ -285048,11 +285851,11 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "CRC|396670": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-26"
     },
     "CRC|41692": {
       "status_log": "",
@@ -285062,11 +285865,11 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "CRC|396637": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-26"
     },
     "CRC|41683": {
       "status_log": "",
@@ -285076,11 +285879,11 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "CRC|396998": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-27"
     },
     "CRC|41663": {
       "status_log": "",
@@ -285090,11 +285893,11 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "CRC|396703": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-26"
     },
     "CRC|41902": {
       "status_log": "",
@@ -285146,11 +285949,11 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "CRC|396440": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-25"
     },
     "CRC|41611": {
       "status_log": "",
@@ -285174,11 +285977,11 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "SPON|169705": {
-      "status_log": "",
+      "status_log": "ENTREGA TOTAL",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-25"
     },
     "SPON|169753": {
       "status_log": "ENTREGA TOTAL",
@@ -285188,32 +285991,32 @@ const PEDIDOS_DATA = {
       "data_entrega": "2026-05-26"
     },
     "CRC|395984": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-22"
     },
     "CRC|396008": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-22"
     },
     "CRC|396109": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-22"
     },
     "CRC|396130": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-22"
     },
     "CRC|396260": {
       "status_log": "",
@@ -285258,14 +286061,14 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "SPON|169390": {
-      "status_log": "",
+      "status_log": "ENTREGA TOTAL",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-22"
     },
     "SPON|169543": {
-      "status_log": "",
+      "status_log": "CARREGADO",
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -285279,18 +286082,18 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "CRC|395647": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-21"
     },
     "CRC|395601": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-21"
     },
     "CRC|41544": {
       "status_log": "",
@@ -285307,28 +286110,28 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "CRC|395646": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-21"
     },
     "CRC|395712": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-21"
     },
     "CRC|395711": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-21"
     },
     "SPON|4551": {
-      "status_log": "",
+      "status_log": "CARREGADO",
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -285391,32 +286194,32 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "CRC|395177": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-20"
     },
     "CRC|395342": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-21"
     },
     "CRC|395343": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-21"
     },
     "CRC|395345": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-21"
     },
     "CRC|41435": {
       "status_log": "",
@@ -285447,20 +286250,13 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "SPON|169439": {
-      "status_log": "",
+      "status_log": "ABERTO",
       "em_rota": false,
       "rota": "",
       "placa": "",
       "data_entrega": ""
     },
     "SPON|169192": {
-      "status_log": "ENTREGA TOTAL",
-      "em_rota": false,
-      "rota": "",
-      "placa": "",
-      "data_entrega": "2026-05-27"
-    },
-    "SPON|169193": {
       "status_log": "ENTREGA TOTAL",
       "em_rota": false,
       "rota": "",
@@ -285475,25 +286271,25 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "CRC|394841": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-19"
     },
     "CRC|394855": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-19"
     },
     "CRC|394809": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-19"
     },
     "CRC|41420": {
       "status_log": "",
@@ -285510,18 +286306,18 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "CRC|395029": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-20"
     },
     "SPON|4464": {
-      "status_log": "",
+      "status_log": "ENTREGA TOTAL",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-06-24"
     },
     "MGON|118827": {
       "status_log": "",
@@ -285559,7 +286355,7 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "SPON|4444": {
-      "status_log": "",
+      "status_log": "ABERTO",
       "em_rota": false,
       "rota": "",
       "placa": "",
@@ -285699,6 +286495,13 @@ const PEDIDOS_DATA = {
       "data_entrega": "2026-08-11"
     },
     "SPON|7695": {
+      "status_log": "ABERTO",
+      "em_rota": false,
+      "rota": "",
+      "placa": "",
+      "data_entrega": ""
+    },
+    "SPON|183283": {
       "status_log": "ABERTO",
       "em_rota": false,
       "rota": "",
@@ -327069,25 +327872,25 @@ const PEDIDOS_DATA = {
       "data_entrega": "2026-06-01"
     },
     "CRC|398458": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-30"
     },
     "CRC|398254": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-30"
     },
     "CRC|398364": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-30"
     },
     "CRC|5569": {
       "status_log": "ENTREGUE",
@@ -327104,18 +327907,18 @@ const PEDIDOS_DATA = {
       "data_entrega": "2026-06-01"
     },
     "CRC|398419": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-30"
     },
     "CRC|398418": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-30"
     },
     "CRC|5600": {
       "status_log": "",
@@ -327202,25 +328005,25 @@ const PEDIDOS_DATA = {
       "data_entrega": "2026-06-01"
     },
     "CRC|398377": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-30"
     },
     "CRC|398284": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-30"
     },
     "CRC|398212": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-30"
     },
     "CRC|41983": {
       "status_log": "",
@@ -327272,18 +328075,18 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "CRC|398209": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-30"
     },
     "CRC|398365": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-30"
     },
     "CRC|398433": {
       "status_log": "",
@@ -327356,11 +328159,11 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "CRC|398288": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-30"
     },
     "CRC|398264": {
       "status_log": "",
@@ -327370,32 +328173,32 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "CRC|398436": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-30"
     },
     "CRC|398290": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-30"
     },
     "CRC|398429": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-30"
     },
     "CRC|398228": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-30"
     },
     "CRC|398360": {
       "status_log": "",
@@ -327454,25 +328257,25 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "CRC|398428": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-30"
     },
     "CRC|398430": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-30"
     },
     "CRC|398231": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-30"
     },
     "thekings|32218": {
       "status_log": "",
@@ -328154,53 +328957,53 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "CRC|398157": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-29"
     },
     "CRC|397950": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-29"
     },
     "CRC|397952": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-29"
     },
     "CRC|398089": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-29"
     },
     "CRC|398090": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-29"
     },
     "CRC|398051": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-29"
     },
     "CRC|398093": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-29"
     },
     "CRC|397853": {
       "status_log": "",
@@ -328210,11 +329013,11 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "CRC|398015": {
-      "status_log": "",
+      "status_log": "VOLTOU",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-29"
     },
     "CRC|397854": {
       "status_log": "",
@@ -328245,18 +329048,18 @@ const PEDIDOS_DATA = {
       "data_entrega": "2026-06-02"
     },
     "CRC|5489": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-29"
     },
     "CRC|398027": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-29"
     },
     "CRC|5481": {
       "status_log": "ENTREGUE",
@@ -328280,11 +329083,11 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "CRC|398009": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-29"
     },
     "CRC|5490": {
       "status_log": "ENTREGUE",
@@ -328315,11 +329118,11 @@ const PEDIDOS_DATA = {
       "data_entrega": "2026-06-12"
     },
     "CRC|398055": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-29"
     },
     "CRC|5488": {
       "status_log": "VOLTOU",
@@ -328336,39 +329139,39 @@ const PEDIDOS_DATA = {
       "data_entrega": "2026-06-03"
     },
     "CRC|398094": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-29"
     },
     "CRC|398029": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-29"
     },
     "CRC|397873": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-30"
     },
     "CRC|397846": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-29"
     },
     "CRC|397929": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-29"
     },
     "CRC|5478": {
       "status_log": "",
@@ -328406,18 +329209,18 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "CRC|398014": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-29"
     },
     "CRC|397849": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-29"
     },
     "CRC|41942": {
       "status_log": "",
@@ -328434,11 +329237,11 @@ const PEDIDOS_DATA = {
       "data_entrega": "2026-06-09"
     },
     "CRC|398081": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-29"
     },
     "CRC|398041": {
       "status_log": "",
@@ -328518,11 +329321,11 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "CRC|398001": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-29"
     },
     "CRC|397806": {
       "status_log": "",
@@ -328532,11 +329335,11 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "CRC|397978": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-29"
     },
     "CRC|398046": {
       "status_log": "ENTREGUE",
@@ -328553,11 +329356,11 @@ const PEDIDOS_DATA = {
       "data_entrega": "2026-06-01"
     },
     "CRC|397847": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-29"
     },
     "CRC|41910": {
       "status_log": "",
@@ -328567,46 +329370,46 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "CRC|398017": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-29"
     },
     "CRC|397994": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-29"
     },
     "CRC|398020": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-29"
     },
     "CRC|397920": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-29"
     },
     "CRC|398036": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-29"
     },
     "CRC|397792": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-28"
     },
     "CRC|41964": {
       "status_log": "",
@@ -328623,18 +329426,18 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "CRC|398053": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-29"
     },
     "CRC|398018": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-29"
     },
     "CRC|41944": {
       "status_log": "",
@@ -328658,18 +329461,18 @@ const PEDIDOS_DATA = {
       "data_entrega": "2026-06-01"
     },
     "CRC|397882": {
-      "status_log": "",
+      "status_log": "CANCELADA",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-29"
     },
     "CRC|397881": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-29"
     },
     "CRC|5480": {
       "status_log": "",
@@ -328679,11 +329482,11 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "CRC|397979": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-29"
     },
     "CRC|397855": {
       "status_log": "",
@@ -328700,11 +329503,11 @@ const PEDIDOS_DATA = {
       "data_entrega": "2026-06-09"
     },
     "CRC|397837": {
-      "status_log": "",
+      "status_log": "CANCELADA",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-29"
     },
     "CRC|397927": {
       "status_log": "",
@@ -328714,32 +329517,32 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "CRC|398141": {
-      "status_log": "",
+      "status_log": "VOLTOU",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-29"
     },
     "CRC|397851": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-29"
     },
     "CRC|397791": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-28"
     },
     "CRC|397862": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-29"
     },
     "SPON|170598": {
       "status_log": "",
@@ -329225,88 +330028,88 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "CRC|397732": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-28"
     },
     "CRC|397415": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-28"
     },
     "CRC|397486": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-28"
     },
     "CRC|397516": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-28"
     },
     "CRC|397445": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-28"
     },
     "CRC|397374": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-28"
     },
     "CRC|397863": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-29"
     },
     "CRC|397498": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-28"
     },
     "CRC|397534": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-28"
     },
     "CRC|397409": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-29"
     },
     "CRC|397718": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-28"
     },
     "CRC|397728": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-28"
     },
     "CRC|41796": {
       "status_log": "",
@@ -329323,25 +330126,25 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "CRC|397375": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-28"
     },
     "CRC|397487": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-28"
     },
     "CRC|397502": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-28"
     },
     "CRC|399662": {
       "status_log": "",
@@ -329351,39 +330154,39 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "CRC|397637": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-28"
     },
     "CRC|397635": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-28"
     },
     "CRC|397499": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-28"
     },
     "CRC|5405": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-29"
     },
     "CRC|5348": {
-      "status_log": "",
+      "status_log": "VOLTOU",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-28"
     },
     "CRC|41838": {
       "status_log": "",
@@ -329414,18 +330217,18 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "CRC|397495": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-29"
     },
     "CRC|397645": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-28"
     },
     "CRC|41807": {
       "status_log": "",
@@ -329442,18 +330245,18 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "CRC|397628": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-28"
     },
     "CRC|397439": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-28"
     },
     "CRC|397618": {
       "status_log": "ENTREGUE",
@@ -329470,11 +330273,11 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "CRC|5409": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-29"
     },
     "CRC|397483": {
       "status_log": "",
@@ -329491,11 +330294,11 @@ const PEDIDOS_DATA = {
       "data_entrega": "2026-07-09"
     },
     "CRC|397566": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-28"
     },
     "CRC|41832": {
       "status_log": "",
@@ -329505,11 +330308,11 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "CRC|397509": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-28"
     },
     "CRC|41818": {
       "status_log": "",
@@ -329554,11 +330357,11 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "CRC|397378": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-28"
     },
     "CRC|41810": {
       "status_log": "",
@@ -329575,11 +330378,11 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "CRC|397382": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-28"
     },
     "CRC|41833": {
       "status_log": "",
@@ -329589,11 +330392,11 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "CRC|397496": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-28"
     },
     "CRC|41899": {
       "status_log": "",
@@ -329603,18 +330406,18 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "CRC|397522": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-28"
     },
     "CRC|397572": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-28"
     },
     "CRC|41853": {
       "status_log": "",
@@ -329631,11 +330434,11 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "CRC|397720": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-28"
     },
     "CRC|41814": {
       "status_log": "",
@@ -329645,39 +330448,39 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "CRC|397537": {
-      "status_log": "",
+      "status_log": "CANCELADA",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-28"
     },
     "CRC|397390": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-28"
     },
     "CRC|397643": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-28"
     },
     "CRC|397780": {
-      "status_log": "",
+      "status_log": "CANCELADA",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-28"
     },
     "CRC|397380": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-28"
     },
     "CRC|5403": {
       "status_log": "",
@@ -329701,11 +330504,11 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "CRC|397523": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-28"
     },
     "CRC|41926": {
       "status_log": "",
@@ -329715,11 +330518,11 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "CRC|397414": {
-      "status_log": "",
+      "status_log": "CANCELADA",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-28"
     },
     "CRC|5407": {
       "status_log": "",
@@ -329729,11 +330532,11 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "CRC|397484": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-28"
     },
     "CRC|397379": {
       "status_log": "",
@@ -329750,74 +330553,74 @@ const PEDIDOS_DATA = {
       "data_entrega": "2026-06-01"
     },
     "CRC|397419": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-28"
     },
     "CRC|397506": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-28"
     },
     "CRC|397514": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-28"
     },
     "CRC|397447": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-28"
     },
     "CRC|397681": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-28"
     },
     "CRC|397680": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-28"
     },
     "CRC|397861": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-29"
     },
     "CRC|397703": {
-      "status_log": "",
+      "status_log": "CANCELADA",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-28"
     },
     "CRC|397538": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-28"
     },
     "CRC|397418": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-28"
     },
     "CRC|397615": {
       "status_log": "",
@@ -329827,11 +330630,11 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "CRC|397497": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-29"
     },
     "CRC|397638": {
       "status_log": "ENTREGUE",
@@ -329848,11 +330651,11 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "CRC|397490": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-28"
     },
     "CRC|397616": {
       "status_log": "",
@@ -329869,11 +330672,11 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "CRC|397682": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-28"
     },
     "CRC|41908": {
       "status_log": "",
@@ -329883,18 +330686,18 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "CRC|397713": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-28"
     },
     "CRC|397524": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-28"
     },
     "CRC|397381": {
       "status_log": "",
@@ -330436,18 +331239,18 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "CRC|397011": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-27"
     },
     "CRC|396995": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-27"
     },
     "CRC|5248": {
       "status_log": "",
@@ -330457,18 +331260,18 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "CRC|397214": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-27"
     },
     "CRC|397047": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-27"
     },
     "CRC|41780": {
       "status_log": "",
@@ -330478,11 +331281,11 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "CRC|5255": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-27"
     },
     "CRC|41779": {
       "status_log": "",
@@ -330499,18 +331302,18 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "CRC|5252": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-27"
     },
     "CRC|397122": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-27"
     },
     "CRC|41747": {
       "status_log": "",
@@ -330541,53 +331344,53 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "CRC|396984": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-28"
     },
     "CRC|397048": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-27"
     },
     "CRC|397206": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-29"
     },
     "CRC|396996": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-27"
     },
     "CRC|396985": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-27"
     },
     "CRC|397197": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-27"
     },
     "CRC|397201": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-27"
     },
     "CRC|397397": {
       "status_log": "ENTREGUE",
@@ -330597,25 +331400,25 @@ const PEDIDOS_DATA = {
       "data_entrega": "2026-06-11"
     },
     "CRC|397028": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-27"
     },
     "CRC|397123": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-27"
     },
     "CRC|397117": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-27"
     },
     "CRC|41784": {
       "status_log": "",
@@ -330625,11 +331428,11 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "CRC|397124": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-27"
     },
     "CRC|397452": {
       "status_log": "ENTREGUE",
@@ -330639,18 +331442,18 @@ const PEDIDOS_DATA = {
       "data_entrega": "2026-06-03"
     },
     "CRC|397008": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-27"
     },
     "CRC|397174": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-27"
     },
     "CRC|41781": {
       "status_log": "",
@@ -330667,25 +331470,25 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "CRC|397151": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-28"
     },
     "CRC|5253": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-27"
     },
     "CRC|396997": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-27"
     },
     "CRC|397376": {
       "status_log": "",
@@ -330702,18 +331505,18 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "CRC|397016": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-27"
     },
     "CRC|397005": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-27"
     },
     "CRC|41700": {
       "status_log": "",
@@ -330730,11 +331533,11 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "CRC|397213": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-29"
     },
     "CRC|41894": {
       "status_log": "",
@@ -330744,25 +331547,25 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "CRC|397544": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-28"
     },
     "CRC|397386": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-28"
     },
     "CRC|397108": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-27"
     },
     "CRC|41765": {
       "status_log": "",
@@ -330772,32 +331575,32 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "CRC|397175": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-27"
     },
     "CRC|397020": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-27"
     },
     "CRC|396999": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-27"
     },
     "CRC|397455": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-28"
     },
     "CRC|5254": {
       "status_log": "CANCELADA",
@@ -330807,32 +331610,32 @@ const PEDIDOS_DATA = {
       "data_entrega": "2026-06-08"
     },
     "CRC|397066": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-27"
     },
     "CRC|397001": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-27"
     },
     "CRC|397389": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-28"
     },
     "CRC|397185": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-27"
     },
     "CRC|41762": {
       "status_log": "",
@@ -330842,11 +331645,11 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "CRC|397164": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-27"
     },
     "CRC|41905": {
       "status_log": "",
@@ -330856,11 +331659,11 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "CRC|396989": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-27"
     },
     "CRC|41904": {
       "status_log": "",
@@ -330870,11 +331673,11 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "CRC|397181": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-27"
     },
     "CRC|397000": {
       "status_log": "",
@@ -330926,18 +331729,18 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "CRC|397207": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-27"
     },
     "CRC|397183": {
-      "status_log": "",
+      "status_log": "CANCELADA",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-27"
     },
     "CRC|397002": {
       "status_log": "",
@@ -330961,11 +331764,11 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "CRC|397250": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-27"
     },
     "CRC|397155": {
       "status_log": "VOLTOU",
@@ -330989,11 +331792,11 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "CRC|397153": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-27"
     },
     "CRC|41907": {
       "status_log": "",
@@ -331010,11 +331813,11 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "CRC|396992": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-27"
     },
     "CRC|41764": {
       "status_log": "",
@@ -331031,18 +331834,18 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "CRC|397022": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-27"
     },
     "CRC|397014": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-27"
     },
     "CRC|41766": {
       "status_log": "",
@@ -331052,32 +331855,32 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "CRC|396991": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-27"
     },
     "CRC|397059": {
-      "status_log": "",
+      "status_log": "CANCELADA",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-27"
     },
     "CRC|397073": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-27"
     },
     "CRC|397312": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-27"
     },
     "thekings|31966": {
       "status_log": "",
@@ -331843,18 +332646,18 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "CRC|396545": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-26"
     },
     "CRC|396730": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-26"
     },
     "CRC|396624": {
       "status_log": "ENTREGUE",
@@ -331864,18 +332667,18 @@ const PEDIDOS_DATA = {
       "data_entrega": "2026-06-17"
     },
     "CRC|396908": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-26"
     },
     "CRC|396788": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-26"
     },
     "CRC|396873": {
       "status_log": "",
@@ -331885,53 +332688,53 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "CRC|5111": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-26"
     },
     "CRC|396875": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-27"
     },
     "CRC|396874": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-27"
     },
     "CRC|396657": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-29"
     },
     "CRC|5178": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-26"
     },
     "CRC|5179": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-26"
     },
     "CRC|396534": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-26"
     },
     "CRC|41675": {
       "status_log": "",
@@ -331941,18 +332744,18 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "CRC|396634": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-26"
     },
     "CRC|396633": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-26"
     },
     "CRC|41653": {
       "status_log": "",
@@ -331990,11 +332793,11 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "CRC|397396": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-28"
     },
     "CRC|5110": {
       "status_log": "",
@@ -332018,11 +332821,11 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "CRC|396773": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-26"
     },
     "CRC|41777": {
       "status_log": "",
@@ -332032,53 +332835,53 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "CRC|5182": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-26"
     },
     "CRC|396632": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-26"
     },
     "CRC|397454": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-28"
     },
     "CRC|396876": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-27"
     },
     "CRC|396535": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-26"
     },
     "CRC|396555": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-26"
     },
     "CRC|396556": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-26"
     },
     "CRC|41655": {
       "status_log": "",
@@ -332088,18 +332891,18 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "CRC|396877": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-27"
     },
     "CRC|396927": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-27"
     },
     "CRC|396551": {
       "status_log": "",
@@ -332109,25 +332912,25 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "CRC|396636": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-26"
     },
     "CRC|396774": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-26"
     },
     "CRC|396780": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-26"
     },
     "CRC|41701": {
       "status_log": "",
@@ -332137,18 +332940,18 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "CRC|396565": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-26"
     },
     "CRC|396890": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-26"
     },
     "CRC|41668": {
       "status_log": "",
@@ -332158,25 +332961,25 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "CRC|396878": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-27"
     },
     "CRC|396749": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-26"
     },
     "CRC|396673": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-26"
     },
     "CRC|41744": {
       "status_log": "",
@@ -332186,11 +332989,11 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "CRC|5177": {
-      "status_log": "",
+      "status_log": "VOLTOU",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-26"
     },
     "CRC|41718": {
       "status_log": "",
@@ -332200,18 +333003,18 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "CRC|396536": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-26"
     },
     "CRC|5207": {
-      "status_log": "",
+      "status_log": "VOLTOU",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-29"
     },
     "CRC|41753": {
       "status_log": "",
@@ -332305,88 +333108,88 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "CRC|396595": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-28"
     },
     "CRC|396771": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-26"
     },
     "CRC|397017": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-27"
     },
     "CRC|397387": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-28"
     },
     "CRC|396623": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-26"
     },
     "CRC|396691": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-26"
     },
     "CRC|396750": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-26"
     },
     "CRC|5180": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-26"
     },
     "CRC|396542": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-26"
     },
     "CRC|397392": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-28"
     },
     "CRC|396781": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-26"
     },
     "CRC|5181": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-26"
     },
     "CRC|41915": {
       "status_log": "",
@@ -332396,18 +333199,18 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "CRC|396737": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-26"
     },
     "CRC|396560": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-27"
     },
     "CRC|41662": {
       "status_log": "",
@@ -332424,18 +333227,18 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "CRC|396762": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-26"
     },
     "CRC|396540": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-28"
     },
     "CRC|41903": {
       "status_log": "",
@@ -332445,18 +333248,18 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "CRC|396543": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-26"
     },
     "CRC|396777": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-26"
     },
     "CRC|396856": {
       "status_log": "",
@@ -332473,32 +333276,32 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "CRC|396763": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-26"
     },
     "CRC|397026": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-27"
     },
     "CRC|397025": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-27"
     },
     "CRC|397024": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-27"
     },
     "thekings|31916": {
       "status_log": "",
@@ -332921,11 +333724,11 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "CRC|396457": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-25"
     },
     "CRC|396410": {
       "status_log": "",
@@ -332935,11 +333738,11 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "CRC|396432": {
-      "status_log": "",
+      "status_log": "CANCELADA",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-29"
     },
     "SPON|169829": {
       "status_log": "",
@@ -333040,11 +333843,11 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "CRC|5104": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-25"
     },
     "CRC|396210": {
       "status_log": "",
@@ -333054,11 +333857,11 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "CRC|5102": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-25"
     },
     "CRC|396145": {
       "status_log": "",
@@ -333082,11 +333885,11 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "CRC|397399": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-28"
     },
     "CRC|396275": {
       "status_log": "",
@@ -333096,18 +333899,18 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "CRC|5103": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-25"
     },
     "CRC|396278": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-28"
     },
     "CRC|396368": {
       "status_log": "",
@@ -333124,11 +333927,11 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "CRC|396197": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-25"
     },
     "CRC|396198": {
       "status_log": "",
@@ -333180,18 +333983,18 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "CRC|396431": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-25"
     },
     "CRC|5105": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-25"
     },
     "CRC|41621": {
       "status_log": "",
@@ -333222,11 +334025,11 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "CRC|396449": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-25"
     },
     "CRC|396381": {
       "status_log": "",
@@ -333257,11 +334060,11 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "CRC|396434": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-25"
     },
     "CRC|396213": {
       "status_log": "",
@@ -333411,11 +334214,11 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "CRC|396335": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-26"
     },
     "CRC|41672": {
       "status_log": "",
@@ -333453,11 +334256,11 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "CRC|396209": {
-      "status_log": "",
+      "status_log": "VOLTOU",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-25"
     },
     "CRC|41616": {
       "status_log": "",
@@ -333509,11 +334312,11 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "CRC|396223": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-25"
     },
     "CRC|396262": {
       "status_log": "",
@@ -333537,11 +334340,11 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "CRC|396205": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-27"
     },
     "CRC|41656": {
       "status_log": "",
@@ -333558,11 +334361,11 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "CRC|396433": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-25"
     },
     "CRC|396195": {
       "status_log": "",
@@ -333971,18 +334774,18 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "CRC|5075": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-22"
     },
     "CRC|396033": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-22"
     },
     "CRC|41529": {
       "status_log": "",
@@ -333999,25 +334802,25 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "CRC|395781": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-22"
     },
     "CRC|395751": {
-      "status_log": "",
+      "status_log": "VOLTOU",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-22"
     },
     "CRC|395750": {
-      "status_log": "",
+      "status_log": "VOLTOU",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-22"
     },
     "CRC|397398": {
       "status_log": "CANCELADA",
@@ -334055,11 +334858,11 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "CRC|395811": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-22"
     },
     "CRC|41562": {
       "status_log": "",
@@ -334069,39 +334872,39 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "CRC|395932": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-22"
     },
     "CRC|396127": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-22"
     },
     "CRC|5073": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-22"
     },
     "CRC|395934": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-22"
     },
     "CRC|396108": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-22"
     },
     "CRC|41561": {
       "status_log": "",
@@ -334111,18 +334914,18 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "CRC|396110": {
-      "status_log": "",
+      "status_log": "VOLTOU",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-22"
     },
     "CRC|395783": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-22"
     },
     "CRC|41681": {
       "status_log": "",
@@ -334132,11 +334935,11 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "CRC|397400": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-28"
     },
     "CRC|41565": {
       "status_log": "",
@@ -334146,39 +334949,39 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "CRC|397402": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-28"
     },
     "CRC|396114": {
-      "status_log": "",
+      "status_log": "VOLTOU",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-22"
     },
     "CRC|395809": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-22"
     },
     "CRC|396112": {
-      "status_log": "",
+      "status_log": "VOLTOU",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-22"
     },
     "CRC|396111": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-22"
     },
     "CRC|5079": {
       "status_log": "",
@@ -334195,18 +334998,18 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "CRC|395812": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-22"
     },
     "CRC|395749": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-22"
     },
     "CRC|41573": {
       "status_log": "",
@@ -334216,39 +335019,39 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "CRC|395836": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-25"
     },
     "CRC|395835": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-25"
     },
     "CRC|5076": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-22"
     },
     "CRC|396115": {
-      "status_log": "",
+      "status_log": "VOLTOU",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-22"
     },
     "CRC|396113": {
-      "status_log": "",
+      "status_log": "VOLTOU",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-22"
     },
     "CRC|41567": {
       "status_log": "",
@@ -334258,11 +335061,11 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "CRC|395755": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-22"
     },
     "CRC|41535": {
       "status_log": "",
@@ -334272,67 +335075,67 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "CRC|395813": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-22"
     },
     "CRC|395936": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-22"
     },
     "CRC|395943": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-22"
     },
     "CRC|396116": {
-      "status_log": "",
+      "status_log": "VOLTOU",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-22"
     },
     "CRC|395756": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-22"
     },
     "CRC|395757": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-22"
     },
     "CRC|395980": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-22"
     },
     "CRC|396012": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-22"
     },
     "CRC|395760": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-22"
     },
     "CRC|41669": {
       "status_log": "",
@@ -334342,18 +335145,18 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "CRC|395759": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-22"
     },
     "CRC|395758": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-22"
     },
     "CRC|395784": {
       "status_log": "",
@@ -334363,18 +335166,18 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "CRC|395761": {
-      "status_log": "",
+      "status_log": "CANCELADA",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-22"
     },
     "CRC|395910": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-22"
     },
     "CRC|41608": {
       "status_log": "",
@@ -334405,11 +335208,11 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "CRC|396129": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-22"
     },
     "thekings|31762": {
       "status_log": "",
@@ -334867,39 +335670,39 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "CRC|395511": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-21"
     },
     "CRC|395565": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-21"
     },
     "CRC|395585": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-21"
     },
     "CRC|395399": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-22"
     },
     "CRC|395573": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-21"
     },
     "CRC|395513": {
       "status_log": "",
@@ -334909,18 +335712,18 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "CRC|395564": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-21"
     },
     "CRC|5060": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-21"
     },
     "CRC|5062": {
       "status_log": "",
@@ -334930,39 +335733,39 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "CRC|395412": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-21"
     },
     "CRC|395600": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-21"
     },
     "CRC|395566": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-21"
     },
     "CRC|5058": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-21"
     },
     "CRC|395583": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-21"
     },
     "CRC|41543": {
       "status_log": "",
@@ -334972,18 +335775,18 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "CRC|395563": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-21"
     },
     "CRC|395715": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-22"
     },
     "CRC|41523": {
       "status_log": "",
@@ -334993,11 +335796,11 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "CRC|395629": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-21"
     },
     "CRC|41545": {
       "status_log": "",
@@ -335028,11 +335831,11 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "CRC|395423": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-21"
     },
     "CRC|41548": {
       "status_log": "",
@@ -335042,11 +335845,11 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "CRC|395709": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-22"
     },
     "CRC|41546": {
       "status_log": "",
@@ -335084,11 +335887,11 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "CRC|5061": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-21"
     },
     "CRC|41552": {
       "status_log": "",
@@ -335098,25 +335901,25 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "CRC|395574": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-21"
     },
     "CRC|395588": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-21"
     },
     "CRC|395641": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-21"
     },
     "CRC|41519": {
       "status_log": "",
@@ -335126,18 +335929,18 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "CRC|395632": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-21"
     },
     "CRC|395506": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-21"
     },
     "CRC|41521": {
       "status_log": "",
@@ -335147,11 +335950,11 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "CRC|395604": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-21"
     },
     "CRC|41522": {
       "status_log": "",
@@ -335168,25 +335971,25 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "CRC|395710": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-22"
     },
     "CRC|395607": {
-      "status_log": "",
+      "status_log": "VOLTOU",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-21"
     },
     "CRC|395550": {
-      "status_log": "",
+      "status_log": "VOLTOU",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-21"
     },
     "CRC|41517": {
       "status_log": "",
@@ -335238,39 +336041,39 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "CRC|395705": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-21"
     },
     "CRC|395625": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-21"
     },
     "CRC|395677": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-21"
     },
     "CRC|395524": {
-      "status_log": "",
+      "status_log": "CANCELADA",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-21"
     },
     "CRC|395519": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-21"
     },
     "CRC|41492": {
       "status_log": "",
@@ -335294,46 +336097,46 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "CRC|395518": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-21"
     },
     "CRC|395714": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-21"
     },
     "CRC|395503": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-22"
     },
     "CRC|395554": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-21"
     },
     "CRC|395497": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-21"
     },
     "CRC|395561": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-21"
     },
     "CRC|395501": {
       "status_log": "",
@@ -335350,18 +336153,18 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "CRC|395418": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-21"
     },
     "CRC|395753": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-22"
     },
     "SPON|4506": {
       "status_log": "",
@@ -335840,67 +336643,67 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "CRC|395025": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-20"
     },
     "CRC|5034": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-20"
     },
     "CRC|395299": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-20"
     },
     "CRC|395027": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-20"
     },
     "CRC|395206": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-20"
     },
     "CRC|395116": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-29"
     },
     "CRC|395078": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-20"
     },
     "CRC|5035": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-20"
     },
     "CRC|395053": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-20"
     },
     "CRC|41472": {
       "status_log": "",
@@ -335910,11 +336713,11 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "CRC|5023": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-20"
     },
     "CRC|395031": {
       "status_log": "",
@@ -335931,25 +336734,25 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "CRC|395327": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-20"
     },
     "CRC|395313": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-20"
     },
     "CRC|395229": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-20"
     },
     "CRC|41470": {
       "status_log": "",
@@ -335959,11 +336762,11 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "CRC|395058": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-20"
     },
     "CRC|395341": {
       "status_log": "",
@@ -335973,11 +336776,11 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "CRC|395016": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-20"
     },
     "CRC|41599": {
       "status_log": "",
@@ -336001,53 +336804,53 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "CRC|395357": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-21"
     },
     "CRC|395420": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-28"
     },
     "CRC|395424": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-21"
     },
     "CRC|395349": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-21"
     },
     "CRC|395589": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-21"
     },
     "CRC|395344": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-21"
     },
     "CRC|395056": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-20"
     },
     "CRC|395059": {
       "status_log": "",
@@ -336064,18 +336867,18 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "CRC|395318": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-21"
     },
     "CRC|395213": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-20"
     },
     "CRC|41486": {
       "status_log": "",
@@ -336085,25 +336888,25 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "CRC|395315": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-20"
     },
     "CRC|395314": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-20"
     },
     "CRC|395358": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-21"
     },
     "CRC|41475": {
       "status_log": "",
@@ -336113,18 +336916,18 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "CRC|395309": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-20"
     },
     "CRC|395018": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-29"
     },
     "CRC|41476": {
       "status_log": "",
@@ -336134,39 +336937,39 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "CRC|395316": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-20"
     },
     "CRC|395251": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-20"
     },
     "CRC|5033": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-20"
     },
     "CRC|395189": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-21"
     },
     "CRC|395188": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-21"
     },
     "CRC|395359": {
       "status_log": "",
@@ -336176,18 +336979,18 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "CRC|395317": {
-      "status_log": "",
+      "status_log": "VOLTOU",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-21"
     },
     "CRC|395017": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-21"
     },
     "CRC|41477": {
       "status_log": "",
@@ -336211,11 +337014,11 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "CRC|395052": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-20"
     },
     "CRC|41481": {
       "status_log": "",
@@ -336232,25 +337035,25 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "CRC|395118": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-20"
     },
     "CRC|395310": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-20"
     },
     "CRC|395347": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-21"
     },
     "CRC|41483": {
       "status_log": "",
@@ -336267,11 +337070,11 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "CRC|395011": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-20"
     },
     "CRC|41538": {
       "status_log": "",
@@ -336281,60 +337084,60 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "CRC|395329": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-20"
     },
     "CRC|395307": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-21"
     },
     "CRC|395055": {
-      "status_log": "",
+      "status_log": "CANCELADA",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-20"
     },
     "CRC|395132": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-20"
     },
     "CRC|395151": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-20"
     },
     "CRC|395353": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-21"
     },
     "CRC|395348": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-21"
     },
     "CRC|395247": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-20"
     },
     "thekings|31614": {
       "status_log": "",
@@ -336489,6 +337292,13 @@ const PEDIDOS_DATA = {
       "rota": "",
       "placa": "",
       "data_entrega": ""
+    },
+    "SPON|169193": {
+      "status_log": "ENTREGA TOTAL",
+      "em_rota": false,
+      "rota": "",
+      "placa": "",
+      "data_entrega": "2026-05-27"
     },
     "SPON|169252": {
       "status_log": "",
@@ -336876,137 +337686,137 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "CRC|394713": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-19"
     },
     "CRC|394905": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-19"
     },
     "CRC|394576": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-19"
     },
     "CRC|394510": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-19"
     },
     "CRC|4988": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-19"
     },
     "CRC|394724": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-20"
     },
     "CRC|394873": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-19"
     },
     "CRC|4962": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-19"
     },
     "CRC|4996": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-19"
     },
     "CRC|394944": {
-      "status_log": "",
+      "status_log": "VOLTOU",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-19"
     },
     "CRC|394945": {
-      "status_log": "",
+      "status_log": "VOLTOU",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-19"
     },
     "CRC|4995": {
-      "status_log": "",
+      "status_log": "VOLTOU",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-19"
     },
     "CRC|394946": {
-      "status_log": "",
+      "status_log": "VOLTOU",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-19"
     },
     "CRC|4992": {
-      "status_log": "",
+      "status_log": "VOLTOU",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-19"
     },
     "CRC|4993": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-19"
     },
     "CRC|394577": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-19"
     },
     "CRC|394768": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-19"
     },
     "CRC|394842": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-19"
     },
     "CRC|394954": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-19"
     },
     "CRC|394840": {
       "status_log": "ENTREGUE",
@@ -337016,116 +337826,116 @@ const PEDIDOS_DATA = {
       "data_entrega": "2026-06-02"
     },
     "CRC|394554": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-19"
     },
     "CRC|394854": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-19"
     },
     "CRC|394812": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-19"
     },
     "CRC|394565": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-19"
     },
     "CRC|4989": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-19"
     },
     "CRC|4998": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-19"
     },
     "CRC|394566": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-19"
     },
     "CRC|394735": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-19"
     },
     "CRC|394642": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-19"
     },
     "CRC|394567": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-19"
     },
     "CRC|394564": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-19"
     },
     "CRC|394641": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-19"
     },
     "CRC|395422": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-28"
     },
     "CRC|394638": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-19"
     },
     "CRC|394702": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-19"
     },
     "CRC|394703": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-19"
     },
     "CRC|408452": {
       "status_log": "ENTREGUE",
@@ -337142,46 +337952,46 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "CRC|4997": {
-      "status_log": "",
+      "status_log": "VOLTOU",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-19"
     },
     "CRC|394947": {
-      "status_log": "",
+      "status_log": "VOLTOU",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-19"
     },
     "CRC|4994": {
-      "status_log": "",
+      "status_log": "VOLTOU",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-19"
     },
     "CRC|4999": {
-      "status_log": "",
+      "status_log": "VOLTOU",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-19"
     },
     "CRC|394845": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-19"
     },
     "CRC|394843": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-19"
     },
     "CRC|41445": {
       "status_log": "",
@@ -337191,11 +338001,11 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "CRC|394537": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-19"
     },
     "CRC|41449": {
       "status_log": "",
@@ -337205,95 +338015,95 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "CRC|394643": {
-      "status_log": "",
+      "status_log": "VOLTOU",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-21"
     },
     "CRC|394656": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-19"
     },
     "CRC|394579": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-19"
     },
     "CRC|394535": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-19"
     },
     "CRC|394530": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-19"
     },
     "CRC|394552": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-19"
     },
     "CRC|394686": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-19"
     },
     "CRC|394644": {
-      "status_log": "",
+      "status_log": "VOLTOU",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-19"
     },
     "CRC|4990": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-19"
     },
     "CRC|394747": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-19"
     },
     "CRC|394694": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-19"
     },
     "CRC|394844": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-19"
     },
     "CRC|394846": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-19"
     },
     "CRC|394527": {
       "status_log": "",
@@ -337310,11 +338120,11 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "CRC|394569": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-19"
     },
     "CRC|394568": {
       "status_log": "CANCELADO",
@@ -337331,39 +338141,39 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "CRC|394526": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-19"
     },
     "CRC|394688": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-20"
     },
     "CRC|394738": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-19"
     },
     "CRC|394939": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-19"
     },
     "CRC|394687": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-19"
     },
     "CRC|408457": {
       "status_log": "ENTREGUE",
@@ -337373,53 +338183,53 @@ const PEDIDOS_DATA = {
       "data_entrega": "2026-07-02"
     },
     "CRC|394805": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-21"
     },
     "CRC|394689": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-19"
     },
     "CRC|394581": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-19"
     },
     "CRC|394575": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-19"
     },
     "CRC|394532": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-19"
     },
     "CRC|394580": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-19"
     },
     "CRC|394562": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-19"
     },
     "CRC|41416": {
       "status_log": "",
@@ -337429,18 +338239,18 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "CRC|394645": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-19"
     },
     "CRC|394927": {
-      "status_log": "",
+      "status_log": "VOLTOU",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-19"
     },
     "CRC|5059": {
       "status_log": "",
@@ -337450,32 +338260,32 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "CRC|394691": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-19"
     },
     "CRC|394528": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-19"
     },
     "CRC|394531": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-19"
     },
     "CRC|394684": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-19"
     },
     "CRC|41454": {
       "status_log": "",
@@ -337485,18 +338295,18 @@ const PEDIDOS_DATA = {
       "data_entrega": ""
     },
     "CRC|394646": {
-      "status_log": "",
+      "status_log": "ENTREGUE",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-19"
     },
     "CRC|394951": {
-      "status_log": "",
+      "status_log": "CANCELADA",
       "em_rota": false,
       "rota": "",
       "placa": "",
-      "data_entrega": ""
+      "data_entrega": "2026-05-20"
     },
     "thekings|31538": {
       "status_log": "",
@@ -355917,7 +356727,7 @@ const PEDIDOS_DATA = {
       "gerente": "DANIEL DINIZ",
       "status_ped": "CANCELADA",
       "posicao": "Cancelado",
-      "motivo": "CORTE TOTAL NO CARREGAMENTO; ITEM NAO ATENDIDO, EXCLUIDO DO PEDIDO",
+      "motivo": "ITEM NAO ATENDIDO, EXCLUIDO DO PEDIDO; CORTE TOTAL NO CARREGAMENTO",
       "desc": "LICOR COINTREAU 700 ML",
       "industria": "INTERFOOD",
       "codprod": "272",
