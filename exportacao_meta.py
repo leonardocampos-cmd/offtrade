@@ -133,6 +133,17 @@ if _parts_status_rca:
         print(f"OK {len(_rca_sem_meta)} vendedor(es) OFF TRADE ativo(s) sem meta cadastrada adicionados: "
               f"{', '.join(_rca_sem_meta['NOME'].tolist())}")
 
+    # Remove da metas.html quem está BLOQUEIO='S' no PCUSUARI (todos os estados,
+    # não só RJ) — mesmo vendedor com meta já cadastrada na planilha não deve
+    # aparecer se saiu da empresa. Casamento por NOME (mesmo motivo do
+    # _nomes_com_meta acima: RCA não é estável entre bases).
+    _nomes_bloqueados = set(_status_rca[_status_rca['BLOQUEIO'] == 'S']['NOME'].dropna().unique())
+    if _nomes_bloqueados:
+        _antes = len(metas_com_nome)
+        metas_com_nome = metas_com_nome[~metas_com_nome['NOME'].isin(_nomes_bloqueados)]
+        if len(metas_com_nome) != _antes:
+            print(f"OK {_antes - len(metas_com_nome)} linha(s) de vendedor(es) bloqueado(s) (BLOQUEIO='S') removida(s) de metas.html")
+
 # ── Vendas históricas (6 meses) com FANTASIA ─────────────────────────────────
 
 def _nome_filter(extra_nomes=None):

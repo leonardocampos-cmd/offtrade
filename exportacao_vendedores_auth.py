@@ -30,10 +30,10 @@ for _s, _e in _SCHEMAS:
     # padrão de meta.py/pedidos.py) — sem esse OR, RCA como o 588 (W.S) nunca
     # entrava aqui e o login sempre falhava em "RCA não encontrado" já no
     # front, antes até de chamar login_api.py (confirmado em 2026-08-06).
-    _nome_f = "NOME LIKE '%OFF TRADE%' OR NOME LIKE '%W.S%'" if _s in ("SPON", "MGON") else "NOME LIKE '%OFF TRADE%'"
+    _nome_f = "(NOME LIKE '%OFF TRADE%' OR NOME LIKE '%W.S%')" if _s in ("SPON", "MGON") else "NOME LIKE '%OFF TRADE%'"
     try:
         _partes.append(carregar_dados(
-            f"SELECT CODUSUR, NOME, EMAIL, EMAIL2, ESTADO FROM {_s}.PCUSUARI WHERE {_nome_f}",
+            f"SELECT CODUSUR, NOME, EMAIL, EMAIL2, ESTADO FROM {_s}.PCUSUARI WHERE {_nome_f} AND BLOQUEIO = 'N'",
             _e,
             f"vendedores_auth_{_s}",
         ))
