@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_mg.py
 
 const NAO_POS_MG_DATA = {
-  "atualizado_em": "14/08/2026 15:27",
+  "atualizado_em": "14/08/2026 16:14",
   "por_vendedor": {
     "BRUNA CASTRO MELLO": [
       {
@@ -733,6 +733,32 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
+        "codcli": "37330",
+        "cliente": "UNISSUL SUPERMERCADOS S/A",
+        "bairro": "NOVA ERA",
+        "dtultcomp": "30/07/2026",
+        "produtos": [
+          {
+            "produto": "VILLA ROSA BRANCO 750ML",
+            "fantasia": "CASTAS",
+            "qt": 12,
+            "valor": 514.8
+          },
+          {
+            "produto": "VILLA ROSA ROSE 750ML",
+            "fantasia": "CASTAS",
+            "qt": 6,
+            "valor": 257.4
+          },
+          {
+            "produto": "VODKA ORLOFF 1L - DEST",
+            "fantasia": "",
+            "qt": 12,
+            "valor": 245.04
+          }
+        ]
+      },
+      {
         "codcli": "37327",
         "cliente": "UNISSUL SUPERMERCADOS S/A",
         "bairro": "CENTRO",
@@ -787,32 +813,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "PERNOD",
             "qt": 3,
             "valor": 177.54
-          }
-        ]
-      },
-      {
-        "codcli": "37330",
-        "cliente": "UNISSUL SUPERMERCADOS S/A",
-        "bairro": "NOVA ERA",
-        "dtultcomp": "30/07/2026",
-        "produtos": [
-          {
-            "produto": "VILLA ROSA BRANCO 750ML",
-            "fantasia": "CASTAS",
-            "qt": 12,
-            "valor": 514.8
-          },
-          {
-            "produto": "VILLA ROSA ROSE 750ML",
-            "fantasia": "CASTAS",
-            "qt": 6,
-            "valor": 257.4
-          },
-          {
-            "produto": "VODKA ORLOFF 1L - DEST",
-            "fantasia": "",
-            "qt": 12,
-            "valor": 245.04
           }
         ]
       },
@@ -1705,26 +1705,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "32871",
-        "cliente": "ER COZINHA ARTESANAL LTDA",
-        "bairro": "VILA DA SERRA",
-        "dtultcomp": "18/06/2026",
-        "produtos": [
-          {
-            "produto": "YVY DESTILADO GIN AR LT 710ML",
-            "fantasia": "YVY",
-            "qt": 6,
-            "valor": 239.4
-          },
-          {
-            "produto": "YVY DESTILADO GIN MAR  LT 710ML",
-            "fantasia": "YVY",
-            "qt": 6,
-            "valor": 239.4
-          }
-        ]
-      },
-      {
         "codcli": "33014",
         "cliente": "ER COZINHA ARTESANAL LTDA",
         "bairro": "LOURDES",
@@ -1741,6 +1721,26 @@ const NAO_POS_MG_DATA = {
             "fantasia": "YVY",
             "qt": 4,
             "valor": 159.6
+          }
+        ]
+      },
+      {
+        "codcli": "32871",
+        "cliente": "ER COZINHA ARTESANAL LTDA",
+        "bairro": "VILA DA SERRA",
+        "dtultcomp": "18/06/2026",
+        "produtos": [
+          {
+            "produto": "YVY DESTILADO GIN AR LT 710ML",
+            "fantasia": "YVY",
+            "qt": 6,
+            "valor": 239.4
+          },
+          {
+            "produto": "YVY DESTILADO GIN MAR  LT 710ML",
+            "fantasia": "YVY",
+            "qt": 6,
+            "valor": 239.4
           }
         ]
       },
@@ -2739,20 +2739,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "31838",
-        "cliente": "SCP ADMINISTRADORA HOTEL PAMPULHA",
-        "bairro": "SAO LUIZ",
-        "dtultcomp": "24/07/2026",
-        "produtos": [
-          {
-            "produto": "CERVEJA HEINEKEN LONG 24X330ML",
-            "fantasia": "HEINEKEN",
-            "qt": 15,
-            "valor": 2156.4
-          }
-        ]
-      },
-      {
         "codcli": "37790",
         "cliente": "BSB COMERCIALIZACAO DE CARNES NOBRES E CHURRASCARIA LTDA",
         "bairro": "SÃO LUIZ",
@@ -3513,20 +3499,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "BEAM SUNTORY",
             "qt": 132,
             "valor": 12394.8
-          }
-        ]
-      },
-      {
-        "codcli": "37356",
-        "cliente": "DMA DISTRIBUIDORA S/A",
-        "bairro": "VILA PARIS",
-        "dtultcomp": "28/07/2026",
-        "produtos": [
-          {
-            "produto": "YVY DESTILADO GIN MAR  LT 710ML",
-            "fantasia": "YVY",
-            "qt": 90,
-            "valor": 3141.0
           }
         ]
       },
@@ -6223,13 +6195,6 @@ const NAO_POS_MG_DATA = {
             "valor": 174.96
           }
         ]
-      },
-      {
-        "codcli": "39800",
-        "cliente": "POSTO CJ LTDA",
-        "bairro": "CIDADE JARDIM",
-        "dtultcomp": "nan",
-        "produtos": []
       },
       {
         "codcli": "33309",
