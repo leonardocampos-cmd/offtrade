@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "14/08/2026 10:29",
-  "total": 22025,
+  "atualizado_em": "14/08/2026 10:48",
+  "total": 22026,
   "clientes": [
     {
       "codcli": "38586",
@@ -277076,6 +277076,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "33309",
+      "razao": "POSTO WAP AMAZONAS LTDA.",
+      "fantasia": "POSTO WAP AMAZONAS",
+      "bairro": "NOVA SUÍSSA",
+      "cidade": "BELO HORIZONTE",
+      "cnpj": "06.041.725/0002-95",
+      "estado": "MG",
+      "ramo": "CAFÉ/LANCHONETE",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "344",
+      "nome_usur1": "TIAGO ANDRADE - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "35462",
       "razao": "POSTO WAP CRISTIANO MACHADO LTDA",
       "fantasia": "POSTO WAP",
@@ -323710,8 +323726,8 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MERCADO",
       "key_account": false,
       "rede": "",
-      "codusur1": "232",
-      "nome_usur1": "ANDERSON CANAVEIS - OFF TRADE",
+      "codusur1": "512",
+      "nome_usur1": "WILLIAM GONCALVES - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
