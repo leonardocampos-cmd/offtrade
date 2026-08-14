@@ -1,236 +1,236 @@
 const STATUS_PAGINAS_DATA = {
-  "atualizado_em": "14/08/2026 14:17",
+  "atualizado_em": "14/08/2026 15:36",
   "paginas": [
     {
       "arquivo": "amarula_data.js",
       "atualizado_em": "09/07/2026 13:53",
-      "idade_horas": 864.4,
+      "idade_horas": 865.7,
       "status": "Manual",
       "manual": true
     },
     {
       "arquivo": "catalogo_data.js",
       "atualizado_em": "10/07/2026 15:51",
-      "idade_horas": 838.4,
+      "idade_horas": 839.8,
       "status": "Manual",
       "manual": true
     },
     {
       "arquivo": "raiox_industria_detalhe_data.js",
       "atualizado_em": "21/07/2026 18:15",
-      "idade_horas": 572.0,
+      "idade_horas": 573.4,
       "status": "Manual",
       "manual": true
     },
     {
       "arquivo": "raiox_vendedor_detalhe_data.js",
       "atualizado_em": "21/07/2026 18:15",
-      "idade_horas": 572.0,
+      "idade_horas": 573.4,
       "status": "Manual",
       "manual": true
     },
     {
       "arquivo": "raiox_clientes_data.js",
       "atualizado_em": "21/07/2026 18:40",
-      "idade_horas": 571.6,
+      "idade_horas": 572.9,
       "status": "Manual",
       "manual": true
     },
     {
       "arquivo": "raiox_industrias_data.js",
       "atualizado_em": "21/07/2026 18:42",
-      "idade_horas": 571.6,
+      "idade_horas": 572.9,
       "status": "Manual",
       "manual": true
     },
     {
       "arquivo": "raiox_vendedores_data.js",
       "atualizado_em": "21/07/2026 18:40",
-      "idade_horas": 571.6,
+      "idade_horas": 572.9,
       "status": "Manual",
       "manual": true
     },
     {
       "arquivo": "clientes_inativos_nome_data.js",
       "atualizado_em": "22/07/2026 14:57",
-      "idade_horas": 551.3,
+      "idade_horas": 552.7,
       "status": "Manual",
       "manual": true
     },
     {
       "arquivo": "raiox_cliente_detalhe_data.js",
       "atualizado_em": "22/07/2026 16:26",
-      "idade_horas": 549.9,
+      "idade_horas": 551.2,
       "status": "Manual",
       "manual": true
     },
     {
       "arquivo": "vendas_es_data.js",
       "atualizado_em": "06/08/2026 11:45",
-      "idade_horas": 194.5,
+      "idade_horas": 195.9,
       "status": "Manual",
       "manual": true
     },
     {
       "arquivo": "vendas_mg_data.js",
       "atualizado_em": "06/08/2026 11:45",
-      "idade_horas": 194.5,
+      "idade_horas": 195.9,
       "status": "Manual",
       "manual": true
     },
     {
       "arquivo": "base_ataque_vinhos_data.js",
       "atualizado_em": "12/08/2026 11:32",
-      "idade_horas": 50.8,
+      "idade_horas": 52.1,
       "status": "Crítico",
       "manual": false
     },
     {
       "arquivo": "vendas_sp_data.js",
       "atualizado_em": "13/08/2026 09:04",
-      "idade_horas": 29.2,
+      "idade_horas": 30.5,
       "status": "Manual",
       "manual": true
     },
     {
       "arquivo": "status_paginas_data.js",
-      "atualizado_em": "14/08/2026 14:02",
-      "idade_horas": 0.3,
+      "atualizado_em": "14/08/2026 14:17",
+      "idade_horas": 1.3,
       "status": "OK",
       "manual": false
     },
     {
       "arquivo": "crusoe_data.js",
-      "atualizado_em": "14/08/2026 14:08",
-      "idade_horas": 0.2,
+      "atualizado_em": "14/08/2026 15:21",
+      "idade_horas": 0.3,
       "status": "OK",
       "manual": false
-    },
-    {
-      "arquivo": "fontes_status_data.js",
-      "atualizado_em": "14/08/2026 14:04",
-      "idade_horas": 0.2,
-      "status": "Manual",
-      "manual": true
     },
     {
       "arquivo": "industria_data.js",
-      "atualizado_em": "14/08/2026 14:07",
-      "idade_horas": 0.2,
+      "atualizado_em": "14/08/2026 15:21",
+      "idade_horas": 0.3,
       "status": "OK",
       "manual": false
-    },
-    {
-      "arquivo": "metas_data.js",
-      "atualizado_em": "14/08/2026 14:04",
-      "idade_horas": 0.2,
-      "status": "Manual",
-      "manual": true
     },
     {
       "arquivo": "metas_gerais_data.js",
-      "atualizado_em": "14/08/2026 14:06",
-      "idade_horas": 0.2,
+      "atualizado_em": "14/08/2026 15:19",
+      "idade_horas": 0.3,
       "status": "OK",
       "manual": false
-    },
-    {
-      "arquivo": "vendas_data.js",
-      "atualizado_em": "14/08/2026 14:04",
-      "idade_horas": 0.2,
-      "status": "Manual",
-      "manual": true
     },
     {
       "arquivo": "agendamento_data.js",
-      "atualizado_em": "14/08/2026 14:11",
-      "idade_horas": 0.1,
-      "status": "OK",
-      "manual": false
-    },
-    {
-      "arquivo": "clientes_inativos_data.js",
-      "atualizado_em": "14/08/2026 14:14",
-      "idade_horas": 0.1,
+      "atualizado_em": "14/08/2026 15:25",
+      "idade_horas": 0.2,
       "status": "OK",
       "manual": false
     },
     {
       "arquivo": "clientes_rca_data.js",
-      "atualizado_em": "14/08/2026 14:12",
+      "atualizado_em": "14/08/2026 15:27",
+      "idade_horas": 0.2,
+      "status": "OK",
+      "manual": false
+    },
+    {
+      "arquivo": "entregas_data.js",
+      "atualizado_em": "14/08/2026 15:23",
+      "idade_horas": 0.2,
+      "status": "OK",
+      "manual": false
+    },
+    {
+      "arquivo": "nao_pos_es_data.js",
+      "atualizado_em": "14/08/2026 15:26",
+      "idade_horas": 0.2,
+      "status": "OK",
+      "manual": false
+    },
+    {
+      "arquivo": "nao_pos_mg_data.js",
+      "atualizado_em": "14/08/2026 15:27",
+      "idade_horas": 0.2,
+      "status": "OK",
+      "manual": false
+    },
+    {
+      "arquivo": "nao_pos_sp_data.js",
+      "atualizado_em": "14/08/2026 15:26",
+      "idade_horas": 0.2,
+      "status": "OK",
+      "manual": false
+    },
+    {
+      "arquivo": "pedidos_data.js",
+      "atualizado_em": "14/08/2026 15:24",
+      "idade_horas": 0.2,
+      "status": "OK",
+      "manual": false
+    },
+    {
+      "arquivo": "clientes_inativos_data.js",
+      "atualizado_em": "14/08/2026 15:31",
       "idade_horas": 0.1,
       "status": "OK",
       "manual": false
     },
     {
       "arquivo": "comissao_data.js",
-      "atualizado_em": "14/08/2026 14:13",
-      "idade_horas": 0.1,
-      "status": "OK",
-      "manual": false
-    },
-    {
-      "arquivo": "entregas_data.js",
-      "atualizado_em": "14/08/2026 14:09",
-      "idade_horas": 0.1,
-      "status": "OK",
-      "manual": false
-    },
-    {
-      "arquivo": "nao_pos_es_data.js",
-      "atualizado_em": "14/08/2026 14:11",
-      "idade_horas": 0.1,
-      "status": "OK",
-      "manual": false
-    },
-    {
-      "arquivo": "nao_pos_mg_data.js",
-      "atualizado_em": "14/08/2026 14:12",
-      "idade_horas": 0.1,
-      "status": "OK",
-      "manual": false
-    },
-    {
-      "arquivo": "nao_pos_sp_data.js",
-      "atualizado_em": "14/08/2026 14:11",
-      "idade_horas": 0.1,
-      "status": "OK",
-      "manual": false
-    },
-    {
-      "arquivo": "pedidos_data.js",
-      "atualizado_em": "14/08/2026 14:10",
-      "idade_horas": 0.1,
-      "status": "OK",
-      "manual": false
-    },
-    {
-      "arquivo": "performance_equipe_data.js",
-      "atualizado_em": "14/08/2026 14:13",
-      "idade_horas": 0.1,
-      "status": "OK",
-      "manual": false
-    },
-    {
-      "arquivo": "vendedores_auth_data.js",
-      "atualizado_em": "14/08/2026 14:13",
+      "atualizado_em": "14/08/2026 15:29",
       "idade_horas": 0.1,
       "status": "OK",
       "manual": false
     },
     {
       "arquivo": "estoque_data.js",
-      "atualizado_em": "14/08/2026 14:16",
-      "idade_horas": 0.0,
+      "atualizado_em": "14/08/2026 15:33",
+      "idade_horas": 0.1,
       "status": "OK",
       "manual": false
     },
     {
       "arquivo": "inadimplencia_data.js",
-      "atualizado_em": "14/08/2026 14:15",
-      "idade_horas": 0.0,
+      "atualizado_em": "14/08/2026 15:33",
+      "idade_horas": 0.1,
       "status": "OK",
       "manual": false
+    },
+    {
+      "arquivo": "performance_equipe_data.js",
+      "atualizado_em": "14/08/2026 15:28",
+      "idade_horas": 0.1,
+      "status": "OK",
+      "manual": false
+    },
+    {
+      "arquivo": "vendedores_auth_data.js",
+      "atualizado_em": "14/08/2026 15:29",
+      "idade_horas": 0.1,
+      "status": "OK",
+      "manual": false
+    },
+    {
+      "arquivo": "fontes_status_data.js",
+      "atualizado_em": "14/08/2026 15:35",
+      "idade_horas": 0.0,
+      "status": "Manual",
+      "manual": true
+    },
+    {
+      "arquivo": "metas_data.js",
+      "atualizado_em": "14/08/2026 15:35",
+      "idade_horas": 0.0,
+      "status": "Manual",
+      "manual": true
+    },
+    {
+      "arquivo": "vendas_data.js",
+      "atualizado_em": "14/08/2026 15:36",
+      "idade_horas": 0.0,
+      "status": "Manual",
+      "manual": true
     },
     {
       "arquivo": "base_ataque_vinhos_geo_data.js",
