@@ -1,6 +1,6 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "14/08/2026 14:12",
+  "atualizado_em": "14/08/2026 14:31",
   "total": 22030,
   "clientes": [
     {
@@ -106114,6 +106114,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "190",
       "nome_usur2": "ROMARIO DOS SANTOS"
+    },
+    {
+      "codcli": "52484",
+      "razao": "CONVENIENCIA TODO DIA DE VIRADOURO LTDA.",
+      "fantasia": "CONVENIENCIA TODO DIA",
+      "bairro": "VILA SAO PEDRO",
+      "cidade": "VIRADOURO",
+      "cnpj": "13.219.529/0001-42",
+      "estado": "SP",
+      "ramo": "CONVENIENCIA",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "487",
+      "nome_usur1": "LUIZ RIGLER - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "80270",
@@ -247804,22 +247820,6 @@ const CLIENTES_RCA_DATA = {
       "cnpj": "085.909.247-00",
       "estado": "ES",
       "ramo": "PESSOA FISICA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
-      "codcli": "92613",
-      "razao": "NAL COMERCIO E SERVICOS LTDA",
-      "fantasia": "NAL COMERCIO E SERVICOS",
-      "bairro": "PRAIA DO SACO",
-      "cidade": "MANGARATIBA",
-      "cnpj": "61.193.443/0001-30",
-      "estado": "RJ",
-      "ramo": "SERVIÇOS",
       "key_account": false,
       "rede": "",
       "codusur1": "10",
