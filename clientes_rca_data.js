@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "14/08/2026 16:16",
-  "total": 22035,
+  "atualizado_em": "14/08/2026 16:43",
+  "total": 22034,
   "clientes": [
     {
       "codcli": "38586",
@@ -13354,22 +13354,6 @@ const CLIENTES_RCA_DATA = {
       "bairro": "ENGENHO DO MATO",
       "cidade": "NITEROI",
       "cnpj": "49.941.142/0001-42",
-      "estado": "RJ",
-      "ramo": "MERCADO",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
-      "codcli": "94767",
-      "razao": "49.950.992 JONATHAS ANDRE BARBOSA ALVES",
-      "fantasia": "JONATHAS ANDRE BARBOSA ALVES",
-      "bairro": "RAMOS",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "49.950.992/0001-07",
       "estado": "RJ",
       "ramo": "MERCADO",
       "key_account": false,
@@ -44672,6 +44656,22 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "10",
       "nome_usur1": "INATIVO3",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "46649",
+      "razao": "AMERICA DISTRIBUICAO E LOGISTICA LTDA",
+      "fantasia": "AMERICA DISTRIBUICAO & LOGISTICA",
+      "bairro": "POIARES",
+      "cidade": "CARAGUATATUBA",
+      "cnpj": "40.102.783/0001-39",
+      "estado": "SP",
+      "ramo": "ADEGA",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "518",
+      "nome_usur1": "PAULO THOMAZI - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -88530,22 +88530,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "",
       "nome_usur2": ""
-    },
-    {
-      "codcli": "31047",
-      "razao": "CARMO BAR DELIVERY E EVENTOS LTDA",
-      "fantasia": "CARMO BAR DELIVERY E EVENTOS LTDA",
-      "bairro": "CRUZEIRO",
-      "cidade": "BELO HORIZONTE",
-      "cnpj": "35.399.709/0001-96",
-      "estado": "MG",
-      "ramo": "BAR",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO",
-      "codusur2": "549",
-      "nome_usur2": "FERNANDO GOMES"
     },
     {
       "codcli": "69999",
