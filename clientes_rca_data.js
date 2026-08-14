@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "14/08/2026 17:42",
-  "total": 22032,
+  "atualizado_em": "14/08/2026 18:01",
+  "total": 22033,
   "clientes": [
     {
       "codcli": "38586",
@@ -195346,6 +195346,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "320",
       "nome_usur2": "ALEXANDRE TEBALDI"
+    },
+    {
+      "codcli": "49398",
+      "razao": "L. BETINARDI, BETINARDI & CIA. LTDA",
+      "fantasia": "CEREALISTA IRAPURU",
+      "bairro": "VILA AMORIM",
+      "cidade": "AMERICANA",
+      "cnpj": "52.735.420/0001-10",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "425",
+      "nome_usur1": "BRUNO BARBOSA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "83908",
