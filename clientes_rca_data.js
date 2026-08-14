@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "14/08/2026 13:58",
-  "total": 22029,
+  "atualizado_em": "14/08/2026 14:12",
+  "total": 22030,
   "clientes": [
     {
       "codcli": "38586",
@@ -133408,6 +133408,22 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "10",
       "nome_usur1": "INATIVO3",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "52483",
+      "razao": "ELIAS FERNANDO DE OLIVEIRA LTDA",
+      "fantasia": "CONVENIENCIA DAHORA",
+      "bairro": "CENTRO",
+      "cidade": "MORRO AGUDO",
+      "cnpj": "30.598.740/0001-32",
+      "estado": "SP",
+      "ramo": "MINI-MERCADO",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "487",
+      "nome_usur1": "LUIZ RIGLER - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
