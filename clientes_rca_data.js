@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "14/08/2026 10:13",
-  "total": 22026,
+  "atualizado_em": "14/08/2026 10:29",
+  "total": 22025,
   "clientes": [
     {
       "codcli": "38586",
@@ -175710,8 +175710,8 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MERCADO",
       "key_account": false,
       "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "codusur1": "458",
+      "nome_usur1": "BRUNO COSMO - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -207698,22 +207698,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO",
       "codusur2": "350",
       "nome_usur2": "KEYTY FELICIO"
-    },
-    {
-      "codcli": "75324",
-      "razao": "LUCAS FEIJO SUPERMERCADO LTDA",
-      "fantasia": "LUCAS FEIJO SUPERMERCADO",
-      "bairro": "MONSUABA",
-      "cidade": "ANGRA DOS REIS",
-      "cnpj": "17.071.854/0001-61",
-      "estado": "RJ",
-      "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
     },
     {
       "codcli": "30169",
