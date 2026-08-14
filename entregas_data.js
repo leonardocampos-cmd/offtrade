@@ -1,5 +1,5 @@
 const ENTREGAS_DATA = {
-  "atualizado_em": "14/08/2026 13:27",
+  "atualizado_em": "14/08/2026 13:41",
   "data_rota": "14.08",
   "alerta_data": "2026-08-06",
   "vendedores": [
@@ -3548,7 +3548,7 @@ const ENTREGAS_DATA = {
           "status_ped": "",
           "status_log": "",
           "motivo": "",
-          "obs": "Favor entregar dia 14/08",
+          "obs": "",
           "total": 6817.1,
           "itens": [
             {
@@ -3598,7 +3598,7 @@ const ENTREGAS_DATA = {
           "status_ped": "",
           "status_log": "",
           "motivo": "",
-          "obs": "Favor entregar dia 14/08",
+          "obs": "",
           "total": 345.12,
           "itens": [
             {
