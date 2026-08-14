@@ -1,5 +1,5 @@
 const CRUSOE_DATA = {
-  "atualizado_em": "13/08/2026 15:57",
+  "atualizado_em": "14/08/2026 10:07",
   "periodo": {
     "ini": "01/07/2026",
     "fim": "31/08/2026"
@@ -3461,13 +3461,13 @@ const CRUSOE_DATA = {
           "rca": 431,
           "vendedor": "Adeilson Gonçalvez",
           "clientes_gourmet": 1,
-          "faturamento": 4421.1,
-          "faturamento_gourmet": 259.8,
+          "faturamento": 4551.0,
+          "faturamento_gourmet": 129.9,
           "pontos_total": 1,
           "vendas": [
             {
-              "numnota": "409984",
-              "data": "07/07/2026",
+              "numnota": "410590",
+              "data": "08/07/2026",
               "cliente": "PANIFICACAO E CONFEITARIA VALE DE CAMBRA LTDA",
               "produto": "RC ATUM SOLIDO YF EM OLIVA 12X170G",
               "qt": 1.0,
@@ -3478,15 +3478,6 @@ const CRUSOE_DATA = {
                   "pontos": 1
                 }
               ]
-            },
-            {
-              "numnota": "410590",
-              "data": "08/07/2026",
-              "cliente": "PANIFICACAO E CONFEITARIA VALE DE CAMBRA LTDA",
-              "produto": "RC ATUM SOLIDO YF EM OLIVA 12X170G",
-              "qt": 1.0,
-              "valor": 129.9,
-              "pontuacoes": []
             }
           ]
         },
