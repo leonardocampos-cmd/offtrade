@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_mg.py
 
 const NAO_POS_MG_DATA = {
-  "atualizado_em": "14/08/2026 11:15",
+  "atualizado_em": "14/08/2026 12:12",
   "por_vendedor": {
     "BRUNA CASTRO MELLO": [
       {
@@ -3360,6 +3360,13 @@ const NAO_POS_MG_DATA = {
         "codcli": "39686",
         "cliente": "CASA CAJU LTDA",
         "bairro": "SERRA VERDE (VENDA NOVA)",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "38762",
+        "cliente": "CHICO BAR MINEIRO RESTAURANTE, BAR E LANCHONETE LTDA",
+        "bairro": "PADRE EUSTÁQUIO",
         "dtultcomp": "nan",
         "produtos": []
       },
