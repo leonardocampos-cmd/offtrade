@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const METAS_DATA = {
-  "atualizado_em": "14/08/2026 14:49",
+  "atualizado_em": "14/08/2026 14:55",
   "meses": [
     "Ago/26",
     "Jul/26",
@@ -19219,7 +19219,11 @@ const METAS_DATA = {
           "produtos": [
             {
               "FANTASIA": "None",
-              "DESCRICAO": "VINHO FOODKILLER CHARDONNAY 750ML"
+              "DESCRICAO": "VINHO FOODKILLER CARMENERE 750ML"
+            },
+            {
+              "FANTASIA": "None",
+              "DESCRICAO": "VINHO FOODKILLER CAB. SAUV./ MERLOT"
             },
             {
               "FANTASIA": "None",
@@ -19227,11 +19231,7 @@ const METAS_DATA = {
             },
             {
               "FANTASIA": "None",
-              "DESCRICAO": "VINHO FOODKILLER CARMENERE 750ML"
-            },
-            {
-              "FANTASIA": "None",
-              "DESCRICAO": "VINHO FOODKILLER CAB. SAUV./ MERLOT"
+              "DESCRICAO": "VINHO FOODKILLER CHARDONNAY 750ML"
             }
           ]
         },
@@ -19243,11 +19243,11 @@ const METAS_DATA = {
           "produtos": [
             {
               "FANTASIA": "None",
-              "DESCRICAO": "VINHO ARESTI ESTATE S. CHADY 750ML"
+              "DESCRICAO": "VINHO ARESTI ESTATE S. CAB SAUV 187ML"
             },
             {
               "FANTASIA": "None",
-              "DESCRICAO": "VINHO ARESTI ESTATE S. CAB SAUV 187ML"
+              "DESCRICAO": "VINHO ARESTI ESTATE S. CHADY 750ML"
             }
           ]
         },
@@ -19260,6 +19260,42 @@ const METAS_DATA = {
             {
               "FANTASIA": "None",
               "DESCRICAO": "VINHO ARESTI ESTATE S. CAB SAUV 187ML"
+            }
+          ]
+        },
+        {
+          "CODCLI": "90710",
+          "CLIENTE": "ALPHA GASTRONOMIA LTDA",
+          "BAIRROENT": "ALPHAVILLE GRACIOSA",
+          "DTULTCOMP": "16/07/2026",
+          "produtos": [
+            {
+              "FANTASIA": "None",
+              "DESCRICAO": "VINHO ARESTI ESTATE S. CAB SAUV 750ML"
+            },
+            {
+              "FANTASIA": "None",
+              "DESCRICAO": "VINHO ARESTI ESTATE S. CAB SAUV 187ML"
+            },
+            {
+              "FANTASIA": "None",
+              "DESCRICAO": "VINHO ARESTI ESTATE S. CARMENERE 750ML"
+            },
+            {
+              "FANTASIA": "None",
+              "DESCRICAO": "VINHO ARESTI ESTATE S. PINOT NOIR"
+            }
+          ]
+        },
+        {
+          "CODCLI": "91141",
+          "CLIENTE": "OLARIA BARIGUI COMERCIO DE ALIMENTOS E BEBIDAS LTDA",
+          "BAIRROENT": "ABRANCHES",
+          "DTULTCOMP": "16/07/2026",
+          "produtos": [
+            {
+              "FANTASIA": "None",
+              "DESCRICAO": "AZEITE ESSENZA D'ITALIA 5L"
             }
           ]
         },
@@ -19280,42 +19316,6 @@ const METAS_DATA = {
           ]
         },
         {
-          "CODCLI": "90710",
-          "CLIENTE": "ALPHA GASTRONOMIA LTDA",
-          "BAIRROENT": "ALPHAVILLE GRACIOSA",
-          "DTULTCOMP": "16/07/2026",
-          "produtos": [
-            {
-              "FANTASIA": "None",
-              "DESCRICAO": "VINHO ARESTI ESTATE S. CARMENERE 750ML"
-            },
-            {
-              "FANTASIA": "None",
-              "DESCRICAO": "VINHO ARESTI ESTATE S. CAB SAUV 750ML"
-            },
-            {
-              "FANTASIA": "None",
-              "DESCRICAO": "VINHO ARESTI ESTATE S. PINOT NOIR"
-            },
-            {
-              "FANTASIA": "None",
-              "DESCRICAO": "VINHO ARESTI ESTATE S. CAB SAUV 187ML"
-            }
-          ]
-        },
-        {
-          "CODCLI": "91141",
-          "CLIENTE": "OLARIA BARIGUI COMERCIO DE ALIMENTOS E BEBIDAS LTDA",
-          "BAIRROENT": "ABRANCHES",
-          "DTULTCOMP": "16/07/2026",
-          "produtos": [
-            {
-              "FANTASIA": "None",
-              "DESCRICAO": "AZEITE ESSENZA D'ITALIA 5L"
-            }
-          ]
-        },
-        {
           "CODCLI": "52116",
           "CLIENTE": "JOSE APARECIDO GONCALVES DE MATOS",
           "BAIRROENT": "MIRANDOPOLIS",
@@ -19323,15 +19323,15 @@ const METAS_DATA = {
           "produtos": [
             {
               "FANTASIA": "None",
+              "DESCRICAO": "VINHO TINTO BURDIZZO APPASSIMENTO 750ML"
+            },
+            {
+              "FANTASIA": "None",
               "DESCRICAO": "VINHO ARESTI ESTATE S. MERLOT 750ML"
             },
             {
               "FANTASIA": "None",
               "DESCRICAO": "HUMB. CANALE DENARIO RESERVA CAB. FRANC"
-            },
-            {
-              "FANTASIA": "None",
-              "DESCRICAO": "VINHO TINTO BURDIZZO APPASSIMENTO 750ML"
             },
             {
               "FANTASIA": "None",
@@ -19347,31 +19347,7 @@ const METAS_DATA = {
           "produtos": [
             {
               "FANTASIA": "None",
-              "DESCRICAO": "VINHO LOS ALJIBES SYRAH  RED WINE 750ML"
-            },
-            {
-              "FANTASIA": "None",
               "DESCRICAO": "VINHO ARESTI TRISQUEL GRAN R SYRAH 750ML"
-            },
-            {
-              "FANTASIA": "None",
-              "DESCRICAO": "VINHO ARESTI ESTATE S. CARMENERE 750ML"
-            },
-            {
-              "FANTASIA": "None",
-              "DESCRICAO": "VINHO LOS ALJIBES TEMPRANILLO 750ML"
-            },
-            {
-              "FANTASIA": "None",
-              "DESCRICAO": "VINHO ARESTI ESTATE S. CAB SAUV 750ML"
-            },
-            {
-              "FANTASIA": "None",
-              "DESCRICAO": "VINHO TINTO BURDIZZO PRIMITIVO 750ML"
-            },
-            {
-              "FANTASIA": "None",
-              "DESCRICAO": "BARBERA D'ALBA SUPERIORE 750ML"
             },
             {
               "FANTASIA": "None",
@@ -19379,11 +19355,35 @@ const METAS_DATA = {
             },
             {
               "FANTASIA": "None",
+              "DESCRICAO": "VINHO LOS ALJIBES TEMPRANILLO 750ML"
+            },
+            {
+              "FANTASIA": "None",
+              "DESCRICAO": "VINHO LOS ALJIBES SYRAH  RED WINE 750ML"
+            },
+            {
+              "FANTASIA": "None",
+              "DESCRICAO": "BARBERA D'ALBA SUPERIORE 750ML"
+            },
+            {
+              "FANTASIA": "None",
+              "DESCRICAO": "VINHO TINTO BURDIZZO PRIMITIVO 750ML"
+            },
+            {
+              "FANTASIA": "None",
               "DESCRICAO": "VINHO BCO ARCAIA PINOT GRIGIO 750ML"
             },
             {
               "FANTASIA": "None",
+              "DESCRICAO": "VINHO ARESTI ESTATE S. CARMENERE 750ML"
+            },
+            {
+              "FANTASIA": "None",
               "DESCRICAO": "AZEITE ESSENZA D'ITALIA PREMIUM 12X500ML"
+            },
+            {
+              "FANTASIA": "None",
+              "DESCRICAO": "VINHO ARESTI ESTATE S. CAB SAUV 750ML"
             }
           ]
         },
@@ -26929,6 +26929,2354 @@ const METAS_DATA = {
         "fat_media_hist": 816086.94,
         "pos_proj": 0.0,
         "pos_media_hist": 35.3,
+        "du_passados": 10,
+        "du_total": 21
+      }
+    },
+    {
+      "nome": "ARLLEY FIGUEIREDO - OFF TRADE",
+      "rca": "161",
+      "tipovend": "E",
+      "por_mes": {
+        "Jun/26": {
+          "fat_tt": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "fat_castas": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "fat_domecq_passport": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "fat_hob_azeite": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "fat_pinatti": {
+            "meta": 0,
+            "realizado": 0.0
+          },
+          "fat_moving": {
+            "meta": 0,
+            "realizado": 0.0
+          },
+          "fat_pernod": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "pos_tt": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_hob_azeite": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_reckit": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_crusoe": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_tatuzinho": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_tial": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_redbull": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_pinatti": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_essenza_hob": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "bonus_pernod": {
+            "meta": 0,
+            "realizado": 0.0
+          },
+          "pos_pernod": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "industrias": {
+            "meta": 0,
+            "realizado": 0
+          }
+        },
+        "Jul/26": {
+          "fat_tt": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "fat_castas": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "fat_domecq_passport": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "fat_hob_azeite": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "fat_pinatti": {
+            "meta": 0,
+            "realizado": 0.0
+          },
+          "fat_moving": {
+            "meta": 0,
+            "realizado": 0.0
+          },
+          "fat_pernod": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "pos_tt": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_hob_azeite": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_reckit": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_crusoe": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_tatuzinho": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_tial": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_redbull": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_pinatti": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_essenza_hob": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "bonus_pernod": {
+            "meta": 0,
+            "realizado": 0.0
+          },
+          "pos_pernod": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "industrias": {
+            "meta": 0,
+            "realizado": 0
+          }
+        },
+        "Ago/26": {
+          "fat_tt": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "fat_castas": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "fat_domecq_passport": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "fat_hob_azeite": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "fat_pinatti": {
+            "meta": 0,
+            "realizado": 0.0
+          },
+          "fat_moving": {
+            "meta": 0,
+            "realizado": 0.0
+          },
+          "fat_pernod": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "pos_tt": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_hob_azeite": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_reckit": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_crusoe": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_tatuzinho": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_tial": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_redbull": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_pinatti": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_essenza_hob": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "bonus_pernod": {
+            "meta": 0,
+            "realizado": 0.0
+          },
+          "pos_pernod": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "industrias": {
+            "meta": 0,
+            "realizado": 0
+          }
+        }
+      },
+      "clientes_cadastrados": 0,
+      "nao_positivados": [
+        {
+          "CODCLI": "72025",
+          "CLIENTE": "LEONE JACKSON DE OLIVEIRA LIMA 13671907703",
+          "BAIRROENT": "RETIRO SAO JOAQUIM",
+          "DTULTCOMP": "13/05/2026",
+          "produtos": [
+            {
+              "FANTASIA": "CRS BRANDS",
+              "DESCRICAO": "WHISKY CHANCELER 1L"
+            },
+            {
+              "FANTASIA": "DIAGEO",
+              "DESCRICAO": "CACHACA YPIOCA GUARANA 1L"
+            },
+            {
+              "FANTASIA": "CATUABA",
+              "DESCRICAO": "COQUETEL BANANINHA REGGIANI 950ML"
+            },
+            {
+              "FANTASIA": "COMARY",
+              "DESCRICAO": "CANTINA DA SERRA 1,5L"
+            }
+          ]
+        }
+      ],
+      "historico": [],
+      "previsao": {
+        "fat_proj": 0.0,
+        "fat_media_hist": 0.0,
+        "pos_proj": 0.0,
+        "pos_media_hist": 0.0,
+        "du_passados": 10,
+        "du_total": 21
+      }
+    },
+    {
+      "nome": "CLAUDIO NOBREGA - OFF TRADE",
+      "rca": "170",
+      "tipovend": "E",
+      "por_mes": {
+        "Jun/26": {
+          "fat_tt": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "fat_castas": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "fat_domecq_passport": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "fat_hob_azeite": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "fat_pinatti": {
+            "meta": 0,
+            "realizado": 0.0
+          },
+          "fat_moving": {
+            "meta": 0,
+            "realizado": 0.0
+          },
+          "fat_pernod": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "pos_tt": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_hob_azeite": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_reckit": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_crusoe": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_tatuzinho": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_tial": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_redbull": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_pinatti": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_essenza_hob": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "bonus_pernod": {
+            "meta": 0,
+            "realizado": 0.0
+          },
+          "pos_pernod": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "industrias": {
+            "meta": 0,
+            "realizado": 0
+          }
+        },
+        "Jul/26": {
+          "fat_tt": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "fat_castas": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "fat_domecq_passport": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "fat_hob_azeite": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "fat_pinatti": {
+            "meta": 0,
+            "realizado": 0.0
+          },
+          "fat_moving": {
+            "meta": 0,
+            "realizado": 0.0
+          },
+          "fat_pernod": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "pos_tt": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_hob_azeite": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_reckit": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_crusoe": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_tatuzinho": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_tial": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_redbull": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_pinatti": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_essenza_hob": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "bonus_pernod": {
+            "meta": 0,
+            "realizado": 0.0
+          },
+          "pos_pernod": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "industrias": {
+            "meta": 0,
+            "realizado": 0
+          }
+        },
+        "Ago/26": {
+          "fat_tt": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "fat_castas": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "fat_domecq_passport": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "fat_hob_azeite": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "fat_pinatti": {
+            "meta": 0,
+            "realizado": 0.0
+          },
+          "fat_moving": {
+            "meta": 0,
+            "realizado": 0.0
+          },
+          "fat_pernod": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "pos_tt": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_hob_azeite": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_reckit": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_crusoe": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_tatuzinho": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_tial": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_redbull": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_pinatti": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_essenza_hob": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "bonus_pernod": {
+            "meta": 0,
+            "realizado": 0.0
+          },
+          "pos_pernod": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "industrias": {
+            "meta": 0,
+            "realizado": 0
+          }
+        }
+      },
+      "clientes_cadastrados": 0,
+      "nao_positivados": [],
+      "historico": [
+        {
+          "mes": "Aug/25",
+          "fat": 1107.0,
+          "pos": 1
+        }
+      ],
+      "previsao": {
+        "fat_proj": 0.0,
+        "fat_media_hist": 1107.0,
+        "pos_proj": 0.0,
+        "pos_media_hist": 1.0,
+        "du_passados": 10,
+        "du_total": 21
+      }
+    },
+    {
+      "nome": "JOAO PEDRO - OFF TRADE",
+      "rca": "172",
+      "tipovend": "E",
+      "por_mes": {
+        "Jun/26": {
+          "fat_tt": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "fat_castas": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "fat_domecq_passport": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "fat_hob_azeite": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "fat_pinatti": {
+            "meta": 0,
+            "realizado": 0.0
+          },
+          "fat_moving": {
+            "meta": 0,
+            "realizado": 0.0
+          },
+          "fat_pernod": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "pos_tt": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_hob_azeite": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_reckit": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_crusoe": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_tatuzinho": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_tial": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_redbull": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_pinatti": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_essenza_hob": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "bonus_pernod": {
+            "meta": 0,
+            "realizado": 0.0
+          },
+          "pos_pernod": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "industrias": {
+            "meta": 0,
+            "realizado": 0
+          }
+        },
+        "Jul/26": {
+          "fat_tt": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "fat_castas": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "fat_domecq_passport": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "fat_hob_azeite": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "fat_pinatti": {
+            "meta": 0,
+            "realizado": 0.0
+          },
+          "fat_moving": {
+            "meta": 0,
+            "realizado": 0.0
+          },
+          "fat_pernod": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "pos_tt": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_hob_azeite": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_reckit": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_crusoe": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_tatuzinho": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_tial": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_redbull": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_pinatti": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_essenza_hob": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "bonus_pernod": {
+            "meta": 0,
+            "realizado": 0.0
+          },
+          "pos_pernod": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "industrias": {
+            "meta": 0,
+            "realizado": 0
+          }
+        },
+        "Ago/26": {
+          "fat_tt": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "fat_castas": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "fat_domecq_passport": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "fat_hob_azeite": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "fat_pinatti": {
+            "meta": 0,
+            "realizado": 0.0
+          },
+          "fat_moving": {
+            "meta": 0,
+            "realizado": 0.0
+          },
+          "fat_pernod": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "pos_tt": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_hob_azeite": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_reckit": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_crusoe": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_tatuzinho": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_tial": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_redbull": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_pinatti": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_essenza_hob": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "bonus_pernod": {
+            "meta": 0,
+            "realizado": 0.0
+          },
+          "pos_pernod": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "industrias": {
+            "meta": 0,
+            "realizado": 0
+          }
+        }
+      },
+      "clientes_cadastrados": 0,
+      "nao_positivados": [],
+      "historico": [
+        {
+          "mes": "Jan/26",
+          "fat": 0.0,
+          "pos": 1
+        }
+      ],
+      "previsao": {
+        "fat_proj": 0.0,
+        "fat_media_hist": 0.0,
+        "pos_proj": 0.0,
+        "pos_media_hist": 1.0,
+        "du_passados": 10,
+        "du_total": 21
+      }
+    },
+    {
+      "nome": "FERNANDA DE OLIVEIRA - OFF TRADE",
+      "rca": "173",
+      "tipovend": "E",
+      "por_mes": {
+        "Jun/26": {
+          "fat_tt": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "fat_castas": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "fat_domecq_passport": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "fat_hob_azeite": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "fat_pinatti": {
+            "meta": 0,
+            "realizado": 0.0
+          },
+          "fat_moving": {
+            "meta": 0,
+            "realizado": 0.0
+          },
+          "fat_pernod": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "pos_tt": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_hob_azeite": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_reckit": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_crusoe": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_tatuzinho": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_tial": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_redbull": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_pinatti": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_essenza_hob": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "bonus_pernod": {
+            "meta": 0,
+            "realizado": 0.0
+          },
+          "pos_pernod": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "industrias": {
+            "meta": 0,
+            "realizado": 0
+          }
+        },
+        "Jul/26": {
+          "fat_tt": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "fat_castas": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "fat_domecq_passport": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "fat_hob_azeite": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "fat_pinatti": {
+            "meta": 0,
+            "realizado": 0.0
+          },
+          "fat_moving": {
+            "meta": 0,
+            "realizado": 0.0
+          },
+          "fat_pernod": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "pos_tt": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_hob_azeite": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_reckit": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_crusoe": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_tatuzinho": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_tial": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_redbull": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_pinatti": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_essenza_hob": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "bonus_pernod": {
+            "meta": 0,
+            "realizado": 0.0
+          },
+          "pos_pernod": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "industrias": {
+            "meta": 0,
+            "realizado": 0
+          }
+        },
+        "Ago/26": {
+          "fat_tt": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "fat_castas": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "fat_domecq_passport": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "fat_hob_azeite": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "fat_pinatti": {
+            "meta": 0,
+            "realizado": 0.0
+          },
+          "fat_moving": {
+            "meta": 0,
+            "realizado": 0.0
+          },
+          "fat_pernod": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "pos_tt": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_hob_azeite": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_reckit": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_crusoe": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_tatuzinho": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_tial": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_redbull": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_pinatti": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_essenza_hob": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "bonus_pernod": {
+            "meta": 0,
+            "realizado": 0.0
+          },
+          "pos_pernod": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "industrias": {
+            "meta": 0,
+            "realizado": 0
+          }
+        }
+      },
+      "clientes_cadastrados": 0,
+      "nao_positivados": [],
+      "historico": [
+        {
+          "mes": "Aug/25",
+          "fat": 159103.92,
+          "pos": 7
+        },
+        {
+          "mes": "Sep/25",
+          "fat": 9072.0,
+          "pos": 1
+        },
+        {
+          "mes": "Oct/25",
+          "fat": 36115.8,
+          "pos": 1
+        }
+      ],
+      "previsao": {
+        "fat_proj": 0.0,
+        "fat_media_hist": 68097.24,
+        "pos_proj": 0.0,
+        "pos_media_hist": 3.0,
+        "du_passados": 10,
+        "du_total": 21
+      }
+    },
+    {
+      "nome": "ALEXSANDRO DOS SANTOS - OFF TRADE",
+      "rca": "255",
+      "tipovend": "E",
+      "por_mes": {
+        "Jun/26": {
+          "fat_tt": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "fat_castas": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "fat_domecq_passport": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "fat_hob_azeite": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "fat_pinatti": {
+            "meta": 0,
+            "realizado": 0.0
+          },
+          "fat_moving": {
+            "meta": 0,
+            "realizado": 0.0
+          },
+          "fat_pernod": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "pos_tt": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_hob_azeite": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_reckit": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_crusoe": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_tatuzinho": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_tial": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_redbull": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_pinatti": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_essenza_hob": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "bonus_pernod": {
+            "meta": 0,
+            "realizado": 0.0
+          },
+          "pos_pernod": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "industrias": {
+            "meta": 0,
+            "realizado": 0
+          }
+        },
+        "Jul/26": {
+          "fat_tt": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "fat_castas": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "fat_domecq_passport": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "fat_hob_azeite": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "fat_pinatti": {
+            "meta": 0,
+            "realizado": 0.0
+          },
+          "fat_moving": {
+            "meta": 0,
+            "realizado": 0.0
+          },
+          "fat_pernod": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "pos_tt": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_hob_azeite": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_reckit": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_crusoe": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_tatuzinho": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_tial": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_redbull": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_pinatti": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_essenza_hob": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "bonus_pernod": {
+            "meta": 0,
+            "realizado": 0.0
+          },
+          "pos_pernod": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "industrias": {
+            "meta": 0,
+            "realizado": 0
+          }
+        },
+        "Ago/26": {
+          "fat_tt": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "fat_castas": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "fat_domecq_passport": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "fat_hob_azeite": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "fat_pinatti": {
+            "meta": 0,
+            "realizado": 0.0
+          },
+          "fat_moving": {
+            "meta": 0,
+            "realizado": 0.0
+          },
+          "fat_pernod": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "pos_tt": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_hob_azeite": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_reckit": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_crusoe": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_tatuzinho": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_tial": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_redbull": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_pinatti": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_essenza_hob": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "bonus_pernod": {
+            "meta": 0,
+            "realizado": 0.0
+          },
+          "pos_pernod": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "industrias": {
+            "meta": 0,
+            "realizado": 0
+          }
+        }
+      },
+      "clientes_cadastrados": 0,
+      "nao_positivados": [],
+      "historico": [],
+      "previsao": {
+        "fat_proj": 0.0,
+        "fat_media_hist": 0.0,
+        "pos_proj": 0.0,
+        "pos_media_hist": 0.0,
+        "du_passados": 10,
+        "du_total": 21
+      }
+    },
+    {
+      "nome": "ANDRESSA BARROS FERREIRA - OFF TRADE",
+      "rca": "146",
+      "tipovend": "E",
+      "por_mes": {
+        "Jun/26": {
+          "fat_tt": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "fat_castas": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "fat_domecq_passport": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "fat_hob_azeite": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "fat_pinatti": {
+            "meta": 0,
+            "realizado": 0.0
+          },
+          "fat_moving": {
+            "meta": 0,
+            "realizado": 0.0
+          },
+          "fat_pernod": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "pos_tt": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_hob_azeite": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_reckit": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_crusoe": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_tatuzinho": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_tial": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_redbull": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_pinatti": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_essenza_hob": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "bonus_pernod": {
+            "meta": 0,
+            "realizado": 0.0
+          },
+          "pos_pernod": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "industrias": {
+            "meta": 0,
+            "realizado": 0
+          }
+        },
+        "Jul/26": {
+          "fat_tt": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "fat_castas": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "fat_domecq_passport": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "fat_hob_azeite": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "fat_pinatti": {
+            "meta": 0,
+            "realizado": 0.0
+          },
+          "fat_moving": {
+            "meta": 0,
+            "realizado": 0.0
+          },
+          "fat_pernod": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "pos_tt": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_hob_azeite": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_reckit": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_crusoe": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_tatuzinho": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_tial": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_redbull": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_pinatti": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_essenza_hob": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "bonus_pernod": {
+            "meta": 0,
+            "realizado": 0.0
+          },
+          "pos_pernod": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "industrias": {
+            "meta": 0,
+            "realizado": 0
+          }
+        },
+        "Ago/26": {
+          "fat_tt": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "fat_castas": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "fat_domecq_passport": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "fat_hob_azeite": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "fat_pinatti": {
+            "meta": 0,
+            "realizado": 0.0
+          },
+          "fat_moving": {
+            "meta": 0,
+            "realizado": 0.0
+          },
+          "fat_pernod": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "pos_tt": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_hob_azeite": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_reckit": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_crusoe": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_tatuzinho": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_tial": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_redbull": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_pinatti": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_essenza_hob": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "bonus_pernod": {
+            "meta": 0,
+            "realizado": 0.0
+          },
+          "pos_pernod": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "industrias": {
+            "meta": 0,
+            "realizado": 0
+          }
+        }
+      },
+      "clientes_cadastrados": 0,
+      "nao_positivados": [],
+      "historico": [
+        {
+          "mes": "Aug/25",
+          "fat": 0.0,
+          "pos": 1
+        }
+      ],
+      "previsao": {
+        "fat_proj": 0.0,
+        "fat_media_hist": 0.0,
+        "pos_proj": 0.0,
+        "pos_media_hist": 1.0,
+        "du_passados": 10,
+        "du_total": 21
+      }
+    },
+    {
+      "nome": "BARBARA CABRAL - OFF TRADE ",
+      "rca": "412",
+      "tipovend": "E",
+      "por_mes": {
+        "Jun/26": {
+          "fat_tt": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "fat_castas": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "fat_domecq_passport": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "fat_hob_azeite": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "fat_pinatti": {
+            "meta": 0,
+            "realizado": 0.0
+          },
+          "fat_moving": {
+            "meta": 0,
+            "realizado": 0.0
+          },
+          "fat_pernod": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "pos_tt": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_hob_azeite": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_reckit": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_crusoe": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_tatuzinho": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_tial": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_redbull": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_pinatti": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_essenza_hob": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "bonus_pernod": {
+            "meta": 0,
+            "realizado": 0.0
+          },
+          "pos_pernod": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "industrias": {
+            "meta": 0,
+            "realizado": 0
+          }
+        },
+        "Jul/26": {
+          "fat_tt": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "fat_castas": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "fat_domecq_passport": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "fat_hob_azeite": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "fat_pinatti": {
+            "meta": 0,
+            "realizado": 0.0
+          },
+          "fat_moving": {
+            "meta": 0,
+            "realizado": 0.0
+          },
+          "fat_pernod": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "pos_tt": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_hob_azeite": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_reckit": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_crusoe": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_tatuzinho": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_tial": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_redbull": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_pinatti": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_essenza_hob": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "bonus_pernod": {
+            "meta": 0,
+            "realizado": 0.0
+          },
+          "pos_pernod": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "industrias": {
+            "meta": 0,
+            "realizado": 0
+          }
+        },
+        "Ago/26": {
+          "fat_tt": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "fat_castas": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "fat_domecq_passport": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "fat_hob_azeite": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "fat_pinatti": {
+            "meta": 0,
+            "realizado": 0.0
+          },
+          "fat_moving": {
+            "meta": 0,
+            "realizado": 0.0
+          },
+          "fat_pernod": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "pos_tt": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_hob_azeite": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_reckit": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_crusoe": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_tatuzinho": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_tial": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_redbull": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_pinatti": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_essenza_hob": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "bonus_pernod": {
+            "meta": 0,
+            "realizado": 0.0
+          },
+          "pos_pernod": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "industrias": {
+            "meta": 0,
+            "realizado": 0
+          }
+        }
+      },
+      "clientes_cadastrados": 0,
+      "nao_positivados": [],
+      "historico": [],
+      "previsao": {
+        "fat_proj": 0.0,
+        "fat_media_hist": 0.0,
+        "pos_proj": 0.0,
+        "pos_media_hist": 0.0,
+        "du_passados": 10,
+        "du_total": 21
+      }
+    },
+    {
+      "nome": "LORRAYNE SANTOS - OFF TRADE",
+      "rca": "416",
+      "tipovend": "E",
+      "por_mes": {
+        "Jun/26": {
+          "fat_tt": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "fat_castas": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "fat_domecq_passport": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "fat_hob_azeite": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "fat_pinatti": {
+            "meta": 0,
+            "realizado": 0.0
+          },
+          "fat_moving": {
+            "meta": 0,
+            "realizado": 0.0
+          },
+          "fat_pernod": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "pos_tt": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_hob_azeite": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_reckit": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_crusoe": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_tatuzinho": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_tial": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_redbull": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_pinatti": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_essenza_hob": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "bonus_pernod": {
+            "meta": 0,
+            "realizado": 0.0
+          },
+          "pos_pernod": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "industrias": {
+            "meta": 0,
+            "realizado": 0
+          }
+        },
+        "Jul/26": {
+          "fat_tt": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "fat_castas": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "fat_domecq_passport": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "fat_hob_azeite": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "fat_pinatti": {
+            "meta": 0,
+            "realizado": 0.0
+          },
+          "fat_moving": {
+            "meta": 0,
+            "realizado": 0.0
+          },
+          "fat_pernod": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "pos_tt": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_hob_azeite": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_reckit": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_crusoe": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_tatuzinho": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_tial": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_redbull": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_pinatti": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_essenza_hob": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "bonus_pernod": {
+            "meta": 0,
+            "realizado": 0.0
+          },
+          "pos_pernod": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "industrias": {
+            "meta": 0,
+            "realizado": 0
+          }
+        },
+        "Ago/26": {
+          "fat_tt": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "fat_castas": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "fat_domecq_passport": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "fat_hob_azeite": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "fat_pinatti": {
+            "meta": 0,
+            "realizado": 0.0
+          },
+          "fat_moving": {
+            "meta": 0,
+            "realizado": 0.0
+          },
+          "fat_pernod": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "pos_tt": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_hob_azeite": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_reckit": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_crusoe": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_tatuzinho": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_tial": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_redbull": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_pinatti": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_essenza_hob": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "bonus_pernod": {
+            "meta": 0,
+            "realizado": 0.0
+          },
+          "pos_pernod": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "industrias": {
+            "meta": 0,
+            "realizado": 0
+          }
+        }
+      },
+      "clientes_cadastrados": 0,
+      "nao_positivados": [],
+      "historico": [
+        {
+          "mes": "Sep/25",
+          "fat": 17143.8,
+          "pos": 3
+        },
+        {
+          "mes": "Oct/25",
+          "fat": 22151.28,
+          "pos": 5
+        },
+        {
+          "mes": "Nov/25",
+          "fat": 5763.0,
+          "pos": 2
+        },
+        {
+          "mes": "Dec/25",
+          "fat": 15599.2,
+          "pos": 4
+        }
+      ],
+      "previsao": {
+        "fat_proj": 0.0,
+        "fat_media_hist": 14504.49,
+        "pos_proj": 0.0,
+        "pos_media_hist": 3.7,
+        "du_passados": 10,
+        "du_total": 21
+      }
+    },
+    {
+      "nome": "FÁBIO OLIVEIRA - OFF TRADE",
+      "rca": "415",
+      "tipovend": "E",
+      "por_mes": {
+        "Jun/26": {
+          "fat_tt": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "fat_castas": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "fat_domecq_passport": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "fat_hob_azeite": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "fat_pinatti": {
+            "meta": 0,
+            "realizado": 0.0
+          },
+          "fat_moving": {
+            "meta": 0,
+            "realizado": 0.0
+          },
+          "fat_pernod": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "pos_tt": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_hob_azeite": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_reckit": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_crusoe": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_tatuzinho": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_tial": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_redbull": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_pinatti": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_essenza_hob": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "bonus_pernod": {
+            "meta": 0,
+            "realizado": 0.0
+          },
+          "pos_pernod": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "industrias": {
+            "meta": 0,
+            "realizado": 0
+          }
+        },
+        "Jul/26": {
+          "fat_tt": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "fat_castas": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "fat_domecq_passport": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "fat_hob_azeite": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "fat_pinatti": {
+            "meta": 0,
+            "realizado": 0.0
+          },
+          "fat_moving": {
+            "meta": 0,
+            "realizado": 0.0
+          },
+          "fat_pernod": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "pos_tt": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_hob_azeite": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_reckit": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_crusoe": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_tatuzinho": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_tial": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_redbull": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_pinatti": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_essenza_hob": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "bonus_pernod": {
+            "meta": 0,
+            "realizado": 0.0
+          },
+          "pos_pernod": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "industrias": {
+            "meta": 0,
+            "realizado": 0
+          }
+        },
+        "Ago/26": {
+          "fat_tt": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "fat_castas": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "fat_domecq_passport": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "fat_hob_azeite": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "fat_pinatti": {
+            "meta": 0,
+            "realizado": 0.0
+          },
+          "fat_moving": {
+            "meta": 0,
+            "realizado": 0.0
+          },
+          "fat_pernod": {
+            "meta": 0.0,
+            "realizado": 0.0
+          },
+          "pos_tt": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_hob_azeite": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_reckit": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_crusoe": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_tatuzinho": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_tial": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_redbull": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_pinatti": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "pos_essenza_hob": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "bonus_pernod": {
+            "meta": 0,
+            "realizado": 0.0
+          },
+          "pos_pernod": {
+            "meta": 0,
+            "realizado": 0
+          },
+          "industrias": {
+            "meta": 0,
+            "realizado": 0
+          }
+        }
+      },
+      "clientes_cadastrados": 0,
+      "nao_positivados": [],
+      "historico": [],
+      "previsao": {
+        "fat_proj": 0.0,
+        "fat_media_hist": 0.0,
+        "pos_proj": 0.0,
+        "pos_media_hist": 0.0,
         "du_passados": 10,
         "du_total": 21
       }
