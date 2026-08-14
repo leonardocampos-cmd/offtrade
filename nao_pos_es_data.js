@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_es.py
 
 const NAO_POS_ES_DATA = {
-  "atualizado_em": "14/08/2026 16:14",
+  "atualizado_em": "14/08/2026 16:43",
   "por_vendedor": {
     "ADEILSON GONÇALVEZ": [
       {
@@ -1419,20 +1419,6 @@ const NAO_POS_ES_DATA = {
         ]
       },
       {
-        "codcli": "94431",
-        "cliente": "SUPERPOPS EXPRESS ALIMENTOS LTDA",
-        "bairro": "PENHA CIRCULAR",
-        "dtultcomp": "20/07/2026",
-        "produtos": [
-          {
-            "produto": "PINATI DOUBLE BAR COCO E AMENDOIM 16X35G",
-            "fantasia": "PINATI",
-            "qt": 1,
-            "valor": 59.3
-          }
-        ]
-      },
-      {
         "codcli": "91171",
         "cliente": "43.970.924 ANDRE MEIRELES DA COSTA SILVA",
         "bairro": "CAMPO DOS AFONSOS",
@@ -2723,44 +2709,6 @@ const NAO_POS_ES_DATA = {
         ]
       },
       {
-        "codcli": "95525",
-        "cliente": "G5 DROGARIAS LTDA",
-        "bairro": "COPACABANA",
-        "dtultcomp": "30/06/2026",
-        "produtos": [
-          {
-            "produto": "GUARAVITON GINSENG 12X500ML",
-            "fantasia": "VITON",
-            "qt": 1,
-            "valor": 31.89
-          },
-          {
-            "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
-            "fantasia": "TATUZINHO",
-            "qt": 1,
-            "valor": 94.68
-          },
-          {
-            "produto": "MOVING HYDRO PROTEIN LIMAO 12X500ML",
-            "fantasia": "TATUZINHO",
-            "qt": 1,
-            "valor": 94.68
-          },
-          {
-            "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
-            "fantasia": "TATUZINHO",
-            "qt": 1,
-            "valor": 94.68
-          },
-          {
-            "produto": "MOVING HYDRO PROTEIN UVA 12X500ML",
-            "fantasia": "TATUZINHO",
-            "qt": 1,
-            "valor": 94.68
-          }
-        ]
-      },
-      {
         "codcli": "95536",
         "cliente": "G5 DROGARIAS LTDA",
         "bairro": "COPACABANA",
@@ -2780,6 +2728,44 @@ const NAO_POS_ES_DATA = {
           },
           {
             "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+            "fantasia": "TATUZINHO",
+            "qt": 1,
+            "valor": 94.68
+          },
+          {
+            "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+            "fantasia": "TATUZINHO",
+            "qt": 1,
+            "valor": 94.68
+          },
+          {
+            "produto": "MOVING HYDRO PROTEIN UVA 12X500ML",
+            "fantasia": "TATUZINHO",
+            "qt": 1,
+            "valor": 94.68
+          }
+        ]
+      },
+      {
+        "codcli": "95525",
+        "cliente": "G5 DROGARIAS LTDA",
+        "bairro": "COPACABANA",
+        "dtultcomp": "30/06/2026",
+        "produtos": [
+          {
+            "produto": "GUARAVITON GINSENG 12X500ML",
+            "fantasia": "VITON",
+            "qt": 1,
+            "valor": 31.89
+          },
+          {
+            "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+            "fantasia": "TATUZINHO",
+            "qt": 1,
+            "valor": 94.68
+          },
+          {
+            "produto": "MOVING HYDRO PROTEIN LIMAO 12X500ML",
             "fantasia": "TATUZINHO",
             "qt": 1,
             "valor": 94.68
@@ -3485,26 +3471,6 @@ const NAO_POS_ES_DATA = {
         ]
       },
       {
-        "codcli": "20697",
-        "cliente": "BARBUDO DISTRIBUIDORA LTDA",
-        "bairro": "BOTAFOGO",
-        "dtultcomp": "31/07/2026",
-        "produtos": [
-          {
-            "produto": "RUM MONTILLA OURO 1L",
-            "fantasia": "PERNOD",
-            "qt": 3,
-            "valor": 65.7
-          },
-          {
-            "produto": "WHISKY HIBIKI JAPANESE HARMONY 700ML",
-            "fantasia": "BEAM SUNTORY",
-            "qt": 1,
-            "valor": 579.9
-          }
-        ]
-      },
-      {
         "codcli": "93736",
         "cliente": "MERCADINHO PERNAMBUCO LTDA",
         "bairro": "ROCINHA",
@@ -3543,13 +3509,6 @@ const NAO_POS_ES_DATA = {
         "codcli": "95074",
         "cliente": "MINI MERCADO VIDI DOCES 24H LTDA",
         "bairro": "VIDIGAL",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "96035",
-        "cliente": "PARADA DA RESENHA LTDA",
-        "bairro": "CENTRO",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -5621,44 +5580,6 @@ const NAO_POS_ES_DATA = {
         ]
       },
       {
-        "codcli": "76866",
-        "cliente": "SHEKINAH DE CAMPO GRANDE LIMITADA",
-        "bairro": "CAMPO GRANDE",
-        "dtultcomp": "15/06/2026",
-        "produtos": [
-          {
-            "produto": "AGUA MINERAL MINALBA S/ GAS 8X1,5L PET",
-            "fantasia": "MINALBA",
-            "qt": 6,
-            "valor": 119.4
-          },
-          {
-            "produto": "GIN ROCKS 1000ML",
-            "fantasia": "FANTE",
-            "qt": 1,
-            "valor": 25.9
-          },
-          {
-            "produto": "GIN ROCKS WATERMELON 1000ML",
-            "fantasia": "FANTE",
-            "qt": 1,
-            "valor": 25.9
-          },
-          {
-            "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
-            "fantasia": "TATUZINHO",
-            "qt": 1,
-            "valor": 94.7
-          },
-          {
-            "produto": "VINHO TINTO QUINTA DO MORGADO 1LT",
-            "fantasia": "FANTE",
-            "qt": 2,
-            "valor": 37.0
-          }
-        ]
-      },
-      {
         "codcli": "90670",
         "cliente": "POSTO PODIUM DE TERESOPOLIS LTDA",
         "bairro": "VARZEA",
@@ -5813,86 +5734,6 @@ const NAO_POS_ES_DATA = {
         ]
       },
       {
-        "codcli": "93388",
-        "cliente": "SUPERMERCADOS ADONAI LTDA",
-        "bairro": "VARGEM PEQUENA",
-        "dtultcomp": "30/06/2026",
-        "produtos": [
-          {
-            "produto": "RC ATUM PEDACOS EM OLEO 24X140G",
-            "fantasia": "ROBINSON CRUSOE",
-            "qt": 3,
-            "valor": 575.28
-          },
-          {
-            "produto": "RC ATUM PEDACOS MOLHO DE TOMATE 24X140G",
-            "fantasia": "ROBINSON CRUSOE",
-            "qt": 3,
-            "valor": 575.28
-          },
-          {
-            "produto": "RC ATUM PEDACOS NATURAL 24X140G",
-            "fantasia": "ROBINSON CRUSOE",
-            "qt": 3,
-            "valor": 575.28
-          },
-          {
-            "produto": "RC ATUM RALADO MOLHO DE TOMATE 24X140G",
-            "fantasia": "ROBINSON CRUSOE",
-            "qt": 1,
-            "valor": 153.36
-          },
-          {
-            "produto": "RC ATUM RALADO NATURAL 24X140G",
-            "fantasia": "ROBINSON CRUSOE",
-            "qt": 1,
-            "valor": 153.36
-          },
-          {
-            "produto": "RC ATUM RALADO OLEO 24X140G",
-            "fantasia": "ROBINSON CRUSOE",
-            "qt": 1,
-            "valor": 153.36
-          },
-          {
-            "produto": "RC ATUM SOLIDO NAT MY PROTEIN 12X142G",
-            "fantasia": "ROBINSON CRUSOE",
-            "qt": 2,
-            "valor": 251.8
-          },
-          {
-            "produto": "RC ATUM SOLIDO NATURAL 24X170G",
-            "fantasia": "ROBINSON CRUSOE",
-            "qt": 3,
-            "valor": 625.68
-          },
-          {
-            "produto": "RC ATUM SOLIDO OLEO 24X170G",
-            "fantasia": "ROBINSON CRUSOE",
-            "qt": 3,
-            "valor": 625.68
-          },
-          {
-            "produto": "RC SALADA DE ATUM - MEDITERRANEA 12X160G",
-            "fantasia": "ROBINSON CRUSOE",
-            "qt": 4,
-            "valor": 479.6
-          },
-          {
-            "produto": "RC SARDINHA EM OLEO 50X125G",
-            "fantasia": "ROBINSON CRUSOE",
-            "qt": 3,
-            "valor": 748.5
-          },
-          {
-            "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
-            "fantasia": "ROBINSON CRUSOE",
-            "qt": 3,
-            "valor": 748.5
-          }
-        ]
-      },
-      {
         "codcli": "93390",
         "cliente": "SUPERMERCADOS ADONAI LTDA",
         "bairro": "VARGEM GRANDE",
@@ -5969,6 +5810,86 @@ const NAO_POS_ES_DATA = {
             "fantasia": "ROBINSON CRUSOE",
             "qt": 1,
             "valor": 249.5
+          }
+        ]
+      },
+      {
+        "codcli": "93388",
+        "cliente": "SUPERMERCADOS ADONAI LTDA",
+        "bairro": "VARGEM PEQUENA",
+        "dtultcomp": "30/06/2026",
+        "produtos": [
+          {
+            "produto": "RC ATUM PEDACOS EM OLEO 24X140G",
+            "fantasia": "ROBINSON CRUSOE",
+            "qt": 3,
+            "valor": 575.28
+          },
+          {
+            "produto": "RC ATUM PEDACOS MOLHO DE TOMATE 24X140G",
+            "fantasia": "ROBINSON CRUSOE",
+            "qt": 3,
+            "valor": 575.28
+          },
+          {
+            "produto": "RC ATUM PEDACOS NATURAL 24X140G",
+            "fantasia": "ROBINSON CRUSOE",
+            "qt": 3,
+            "valor": 575.28
+          },
+          {
+            "produto": "RC ATUM RALADO MOLHO DE TOMATE 24X140G",
+            "fantasia": "ROBINSON CRUSOE",
+            "qt": 1,
+            "valor": 153.36
+          },
+          {
+            "produto": "RC ATUM RALADO NATURAL 24X140G",
+            "fantasia": "ROBINSON CRUSOE",
+            "qt": 1,
+            "valor": 153.36
+          },
+          {
+            "produto": "RC ATUM RALADO OLEO 24X140G",
+            "fantasia": "ROBINSON CRUSOE",
+            "qt": 1,
+            "valor": 153.36
+          },
+          {
+            "produto": "RC ATUM SOLIDO NAT MY PROTEIN 12X142G",
+            "fantasia": "ROBINSON CRUSOE",
+            "qt": 2,
+            "valor": 251.8
+          },
+          {
+            "produto": "RC ATUM SOLIDO NATURAL 24X170G",
+            "fantasia": "ROBINSON CRUSOE",
+            "qt": 3,
+            "valor": 625.68
+          },
+          {
+            "produto": "RC ATUM SOLIDO OLEO 24X170G",
+            "fantasia": "ROBINSON CRUSOE",
+            "qt": 3,
+            "valor": 625.68
+          },
+          {
+            "produto": "RC SALADA DE ATUM - MEDITERRANEA 12X160G",
+            "fantasia": "ROBINSON CRUSOE",
+            "qt": 4,
+            "valor": 479.6
+          },
+          {
+            "produto": "RC SARDINHA EM OLEO 50X125G",
+            "fantasia": "ROBINSON CRUSOE",
+            "qt": 3,
+            "valor": 748.5
+          },
+          {
+            "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
+            "fantasia": "ROBINSON CRUSOE",
+            "qt": 3,
+            "valor": 748.5
           }
         ]
       },
@@ -6595,80 +6516,6 @@ const NAO_POS_ES_DATA = {
         ]
       },
       {
-        "codcli": "93379",
-        "cliente": "SUPERMERCADOS ADONAI LTDA",
-        "bairro": "COSMOS",
-        "dtultcomp": "16/07/2026",
-        "produtos": [
-          {
-            "produto": "RC ATUM PEDACOS EM OLEO 24X140G",
-            "fantasia": "ROBINSON CRUSOE",
-            "qt": 3,
-            "valor": 575.28
-          },
-          {
-            "produto": "RC ATUM PEDACOS MOLHO DE TOMATE 24X140G",
-            "fantasia": "ROBINSON CRUSOE",
-            "qt": 3,
-            "valor": 575.28
-          },
-          {
-            "produto": "RC ATUM PEDACOS NATURAL 24X140G",
-            "fantasia": "ROBINSON CRUSOE",
-            "qt": 3,
-            "valor": 575.28
-          },
-          {
-            "produto": "RC ATUM RALADO MOLHO DE TOMATE 24X140G",
-            "fantasia": "ROBINSON CRUSOE",
-            "qt": 1,
-            "valor": 153.36
-          },
-          {
-            "produto": "RC ATUM RALADO NATURAL 24X140G",
-            "fantasia": "ROBINSON CRUSOE",
-            "qt": 1,
-            "valor": 153.36
-          },
-          {
-            "produto": "RC ATUM RALADO OLEO 24X140G",
-            "fantasia": "ROBINSON CRUSOE",
-            "qt": 1,
-            "valor": 153.36
-          },
-          {
-            "produto": "RC ATUM SOLIDO NAT MY PROTEIN 12X142G",
-            "fantasia": "ROBINSON CRUSOE",
-            "qt": 2,
-            "valor": 251.8
-          },
-          {
-            "produto": "RC ATUM SOLIDO NATURAL 24X170G",
-            "fantasia": "ROBINSON CRUSOE",
-            "qt": 3,
-            "valor": 625.68
-          },
-          {
-            "produto": "RC ATUM SOLIDO OLEO 24X170G",
-            "fantasia": "ROBINSON CRUSOE",
-            "qt": 3,
-            "valor": 625.68
-          },
-          {
-            "produto": "RC SALADA DE ATUM - MEDITERRANEA 12X160G",
-            "fantasia": "ROBINSON CRUSOE",
-            "qt": 4,
-            "valor": 479.6
-          },
-          {
-            "produto": "RC SARDINHA EM OLEO 50X125G",
-            "fantasia": "ROBINSON CRUSOE",
-            "qt": 3,
-            "valor": 748.5
-          }
-        ]
-      },
-      {
         "codcli": "93381",
         "cliente": "SUPERMERCADOS ADONAI LTDA",
         "bairro": "CAMPO GRANDE",
@@ -6743,7 +6590,81 @@ const NAO_POS_ES_DATA = {
         ]
       },
       {
-        "codcli": "93385",
+        "codcli": "93379",
+        "cliente": "SUPERMERCADOS ADONAI LTDA",
+        "bairro": "COSMOS",
+        "dtultcomp": "16/07/2026",
+        "produtos": [
+          {
+            "produto": "RC ATUM PEDACOS EM OLEO 24X140G",
+            "fantasia": "ROBINSON CRUSOE",
+            "qt": 3,
+            "valor": 575.28
+          },
+          {
+            "produto": "RC ATUM PEDACOS MOLHO DE TOMATE 24X140G",
+            "fantasia": "ROBINSON CRUSOE",
+            "qt": 3,
+            "valor": 575.28
+          },
+          {
+            "produto": "RC ATUM PEDACOS NATURAL 24X140G",
+            "fantasia": "ROBINSON CRUSOE",
+            "qt": 3,
+            "valor": 575.28
+          },
+          {
+            "produto": "RC ATUM RALADO MOLHO DE TOMATE 24X140G",
+            "fantasia": "ROBINSON CRUSOE",
+            "qt": 1,
+            "valor": 153.36
+          },
+          {
+            "produto": "RC ATUM RALADO NATURAL 24X140G",
+            "fantasia": "ROBINSON CRUSOE",
+            "qt": 1,
+            "valor": 153.36
+          },
+          {
+            "produto": "RC ATUM RALADO OLEO 24X140G",
+            "fantasia": "ROBINSON CRUSOE",
+            "qt": 1,
+            "valor": 153.36
+          },
+          {
+            "produto": "RC ATUM SOLIDO NAT MY PROTEIN 12X142G",
+            "fantasia": "ROBINSON CRUSOE",
+            "qt": 2,
+            "valor": 251.8
+          },
+          {
+            "produto": "RC ATUM SOLIDO NATURAL 24X170G",
+            "fantasia": "ROBINSON CRUSOE",
+            "qt": 3,
+            "valor": 625.68
+          },
+          {
+            "produto": "RC ATUM SOLIDO OLEO 24X170G",
+            "fantasia": "ROBINSON CRUSOE",
+            "qt": 3,
+            "valor": 625.68
+          },
+          {
+            "produto": "RC SALADA DE ATUM - MEDITERRANEA 12X160G",
+            "fantasia": "ROBINSON CRUSOE",
+            "qt": 4,
+            "valor": 479.6
+          },
+          {
+            "produto": "RC SARDINHA EM OLEO 50X125G",
+            "fantasia": "ROBINSON CRUSOE",
+            "qt": 3,
+            "valor": 748.5
+          }
+        ]
+      },
+      {
+        "codcli": "93386",
         "cliente": "SUPERMERCADOS ADONAI LTDA",
         "bairro": "CAMPO GRANDE",
         "dtultcomp": "20/07/2026",
@@ -6811,7 +6732,7 @@ const NAO_POS_ES_DATA = {
         ]
       },
       {
-        "codcli": "93386",
+        "codcli": "93385",
         "cliente": "SUPERMERCADOS ADONAI LTDA",
         "bairro": "CAMPO GRANDE",
         "dtultcomp": "20/07/2026",
@@ -7263,50 +7184,6 @@ const NAO_POS_ES_DATA = {
             "fantasia": "TIAL",
             "qt": 10,
             "valor": 1017.6
-          }
-        ]
-      },
-      {
-        "codcli": "90436",
-        "cliente": "WSC MERCADO E MERCEARIA LTDA",
-        "bairro": "SENADOR CAMARA",
-        "dtultcomp": "31/07/2026",
-        "produtos": [
-          {
-            "produto": "GIN ROCKS 1000ML",
-            "fantasia": "FANTE",
-            "qt": 2,
-            "valor": 51.8
-          },
-          {
-            "produto": "GIN ROCKS GREEN APPLE 1000ML",
-            "fantasia": "FANTE",
-            "qt": 2,
-            "valor": 51.8
-          },
-          {
-            "produto": "GIN ROCKS WATERMELON 1000ML",
-            "fantasia": "FANTE",
-            "qt": 2,
-            "valor": 51.8
-          },
-          {
-            "produto": "RED BULL 24X250ML",
-            "fantasia": "RED BULL",
-            "qt": 1,
-            "valor": 196.56
-          },
-          {
-            "produto": "ST PIERRE LATA PINK LEMON LT 24X270ML",
-            "fantasia": "TATUZINHO",
-            "qt": 1,
-            "valor": 99.9
-          },
-          {
-            "produto": "ST PIERRE LATA RED MINT LT 24X270ML",
-            "fantasia": "TATUZINHO",
-            "qt": 1,
-            "valor": 99.9
           }
         ]
       },
@@ -14302,44 +14179,6 @@ const NAO_POS_ES_DATA = {
         ]
       },
       {
-        "codcli": "89919",
-        "cliente": "TOP 1 DISTRIBUIDORA DE BEBIDAS, MERCEARIA E MINI MERCADO LIM",
-        "bairro": "VILAR DOS TELES",
-        "dtultcomp": "12/05/2026",
-        "produtos": [
-          {
-            "produto": "CHA VERDE ABACAX HORT DESINCHA 12X250ML",
-            "fantasia": "TIAL",
-            "qt": 1,
-            "valor": 32.28
-          },
-          {
-            "produto": "CHA VERDE FRUTAS VERM.DESINCHA.12X250ML",
-            "fantasia": "TIAL",
-            "qt": 1,
-            "valor": 32.28
-          },
-          {
-            "produto": "LICOR CAN FIREBALL CAIXA 6X50ML",
-            "fantasia": "AURORA",
-            "qt": 4,
-            "valor": 95.76
-          },
-          {
-            "produto": "SABOR DO SABOR GIN + COMBO MELANCIA",
-            "fantasia": "INVICTUS",
-            "qt": 12,
-            "valor": 117.6
-          },
-          {
-            "produto": "SABOR DO SABOR WHISKY + COMBO TRAD",
-            "fantasia": "INVICTUS",
-            "qt": 12,
-            "valor": 117.6
-          }
-        ]
-      },
-      {
         "codcli": "95069",
         "cliente": "AC PROS COMERCIO DE BEBIDAS E ALIMENTOS LTDA",
         "bairro": "RECREIO DOS BANDEIRANTES",
@@ -15782,50 +15621,6 @@ const NAO_POS_ES_DATA = {
         ]
       },
       {
-        "codcli": "71758",
-        "cliente": "50.218.202 VIVIANE REGINA SILVA DE ALMEIDA SERPA PARADA",
-        "bairro": "PAVUNA",
-        "dtultcomp": "29/07/2026",
-        "produtos": [
-          {
-            "produto": "GIN ROCKS 1000ML",
-            "fantasia": "FANTE",
-            "qt": 6,
-            "valor": 143.4
-          },
-          {
-            "produto": "GIN ROCKS GREEN APPLE 1000ML",
-            "fantasia": "FANTE",
-            "qt": 6,
-            "valor": 143.4
-          },
-          {
-            "produto": "GIN ROCKS SCILIAN LEMON 1000ML",
-            "fantasia": "FANTE",
-            "qt": 6,
-            "valor": 143.4
-          },
-          {
-            "produto": "GIN ROCKS STRAWBERRY 1000ML",
-            "fantasia": "FANTE",
-            "qt": 6,
-            "valor": 143.4
-          },
-          {
-            "produto": "GIN ROCKS SUNSET 1000ML",
-            "fantasia": "FANTE",
-            "qt": 6,
-            "valor": 143.4
-          },
-          {
-            "produto": "GIN ROCKS WATERMELON 1000ML",
-            "fantasia": "FANTE",
-            "qt": 6,
-            "valor": 143.4
-          }
-        ]
-      },
-      {
         "codcli": "91751",
         "cliente": "BBC DISTRIBUIDORA ATACADISTA E VAREJISTA DE DOCES LTDA",
         "bairro": "ANCHIETA",
@@ -16198,20 +15993,6 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
-        "codcli": "95669",
-        "cliente": "SUPERMERCADO BARRA OESTE LTDA",
-        "bairro": "RECREIO DOS BANDEIRANTES",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "67822",
-        "cliente": "SUPERMERCADO BARRA OESTE LTDA",
-        "bairro": "BARRA DA TIJUCA",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
         "codcli": "95673",
         "cliente": "SUPERMERCADO BARRA OESTE LTDA",
         "bairro": "PARADA DE LUCAS",
@@ -16219,23 +16000,9 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
-        "codcli": "95671",
+        "codcli": "95672",
         "cliente": "SUPERMERCADO BARRA OESTE LTDA",
-        "bairro": "TANQUE",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "95670",
-        "cliente": "SUPERMERCADO BARRA OESTE LTDA",
-        "bairro": "CENTRO",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "95665",
-        "cliente": "SUPERMERCADO BARRA OESTE LTDA",
-        "bairro": "GUARATIBA",
+        "bairro": "PEDRA DE GUARATIBA",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -16247,7 +16014,21 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
-        "codcli": "3754",
+        "codcli": "67821",
+        "cliente": "SUPERMERCADO BARRA OESTE LTDA",
+        "bairro": "BARRA DA TIJUCA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "95671",
+        "cliente": "SUPERMERCADO BARRA OESTE LTDA",
+        "bairro": "TANQUE",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "95669",
         "cliente": "SUPERMERCADO BARRA OESTE LTDA",
         "bairro": "RECREIO DOS BANDEIRANTES",
         "dtultcomp": "nan",
@@ -16261,9 +16042,37 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
-        "codcli": "95672",
+        "codcli": "93791",
         "cliente": "SUPERMERCADO BARRA OESTE LTDA",
-        "bairro": "PEDRA DE GUARATIBA",
+        "bairro": "BARRA DA TIJUCA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "95665",
+        "cliente": "SUPERMERCADO BARRA OESTE LTDA",
+        "bairro": "GUARATIBA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "67822",
+        "cliente": "SUPERMERCADO BARRA OESTE LTDA",
+        "bairro": "BARRA DA TIJUCA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "3754",
+        "cliente": "SUPERMERCADO BARRA OESTE LTDA",
+        "bairro": "RECREIO DOS BANDEIRANTES",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "95670",
+        "cliente": "SUPERMERCADO BARRA OESTE LTDA",
+        "bairro": "CENTRO",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -16271,20 +16080,6 @@ const NAO_POS_ES_DATA = {
         "codcli": "95666",
         "cliente": "SUPERMERCADO BARRA OESTE LTDA",
         "bairro": "CAMPO GRANDE",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "67821",
-        "cliente": "SUPERMERCADO BARRA OESTE LTDA",
-        "bairro": "BARRA DA TIJUCA",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "93791",
-        "cliente": "SUPERMERCADO BARRA OESTE LTDA",
-        "bairro": "BARRA DA TIJUCA",
         "dtultcomp": "nan",
         "produtos": []
       }
@@ -18013,32 +17808,6 @@ const NAO_POS_ES_DATA = {
         ]
       },
       {
-        "codcli": "79593",
-        "cliente": "DOM ATACAREJO S.A.",
-        "bairro": "JARDIM ALIANCA",
-        "dtultcomp": "05/07/2025",
-        "produtos": [
-          {
-            "produto": "WHISKY JIM BEAM APPLE 1L",
-            "fantasia": "BEAM SUNTORY",
-            "qt": 36,
-            "valor": 2880.0
-          },
-          {
-            "produto": "WHISKY JIM BEAM HONEY 1L",
-            "fantasia": "BEAM SUNTORY",
-            "qt": 24,
-            "valor": 1920.0
-          },
-          {
-            "produto": "WHISKY JIM BEAM WHITE 1L",
-            "fantasia": "BEAM SUNTORY",
-            "qt": 24,
-            "valor": 1920.0
-          }
-        ]
-      },
-      {
         "codcli": "74405",
         "cliente": "DOM ATACAREJO S.A.",
         "bairro": "SENADOR VASCONCELOS",
@@ -18075,6 +17844,32 @@ const NAO_POS_ES_DATA = {
             "fantasia": "BEAM SUNTORY",
             "qt": 36,
             "valor": 2880.0
+          },
+          {
+            "produto": "WHISKY JIM BEAM WHITE 1L",
+            "fantasia": "BEAM SUNTORY",
+            "qt": 24,
+            "valor": 1920.0
+          }
+        ]
+      },
+      {
+        "codcli": "81307",
+        "cliente": "DOM ATACAREJO S.A.",
+        "bairro": "COLUBANDE",
+        "dtultcomp": "05/07/2025",
+        "produtos": [
+          {
+            "produto": "WHISKY JIM BEAM APPLE 1L",
+            "fantasia": "BEAM SUNTORY",
+            "qt": 36,
+            "valor": 2880.0
+          },
+          {
+            "produto": "WHISKY JIM BEAM HONEY 1L",
+            "fantasia": "BEAM SUNTORY",
+            "qt": 24,
+            "valor": 1920.0
           },
           {
             "produto": "WHISKY JIM BEAM WHITE 1L",
@@ -18137,9 +17932,9 @@ const NAO_POS_ES_DATA = {
         ]
       },
       {
-        "codcli": "81307",
+        "codcli": "79593",
         "cliente": "DOM ATACAREJO S.A.",
-        "bairro": "COLUBANDE",
+        "bairro": "JARDIM ALIANCA",
         "dtultcomp": "05/07/2025",
         "produtos": [
           {
@@ -18211,20 +18006,6 @@ const NAO_POS_ES_DATA = {
         ]
       },
       {
-        "codcli": "79598",
-        "cliente": "DOM ATACAREJO S.A.",
-        "bairro": "TAQUARA",
-        "dtultcomp": "22/07/2025",
-        "produtos": [
-          {
-            "produto": "WHISKY JIM BEAM APPLE 1L",
-            "fantasia": "BEAM SUNTORY",
-            "qt": 36,
-            "valor": 2880.0
-          }
-        ]
-      },
-      {
         "codcli": "79591",
         "cliente": "DOM ATACAREJO S.A.",
         "bairro": "PARQUE CALABOUCO",
@@ -18247,6 +18028,20 @@ const NAO_POS_ES_DATA = {
             "fantasia": "BEAM SUNTORY",
             "qt": 24,
             "valor": 1920.0
+          }
+        ]
+      },
+      {
+        "codcli": "79598",
+        "cliente": "DOM ATACAREJO S.A.",
+        "bairro": "TAQUARA",
+        "dtultcomp": "22/07/2025",
+        "produtos": [
+          {
+            "produto": "WHISKY JIM BEAM APPLE 1L",
+            "fantasia": "BEAM SUNTORY",
+            "qt": 36,
+            "valor": 2880.0
           }
         ]
       },
@@ -18383,9 +18178,9 @@ const NAO_POS_ES_DATA = {
         ]
       },
       {
-        "codcli": "79683",
+        "codcli": "60846",
         "cliente": "DOM ATACAREJO S.A.",
-        "bairro": "BARRA DE MACAE",
+        "bairro": "VARZEA",
         "dtultcomp": "31/07/2025",
         "produtos": [
           {
@@ -18397,9 +18192,9 @@ const NAO_POS_ES_DATA = {
         ]
       },
       {
-        "codcli": "60846",
+        "codcli": "79683",
         "cliente": "DOM ATACAREJO S.A.",
-        "bairro": "VARZEA",
+        "bairro": "BARRA DE MACAE",
         "dtultcomp": "31/07/2025",
         "produtos": [
           {
@@ -18453,9 +18248,9 @@ const NAO_POS_ES_DATA = {
         ]
       },
       {
-        "codcli": "84034",
+        "codcli": "84033",
         "cliente": "EMISE SUPERMERCADO LTDA",
-        "bairro": "JARDIM BOA VISTA",
+        "bairro": "VIGA",
         "dtultcomp": "11/11/2025",
         "produtos": [
           {
@@ -18521,9 +18316,9 @@ const NAO_POS_ES_DATA = {
         ]
       },
       {
-        "codcli": "84033",
+        "codcli": "84034",
         "cliente": "EMISE SUPERMERCADO LTDA",
-        "bairro": "VIGA",
+        "bairro": "JARDIM BOA VISTA",
         "dtultcomp": "11/11/2025",
         "produtos": [
           {
