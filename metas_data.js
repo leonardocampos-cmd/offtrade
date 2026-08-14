@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const METAS_DATA = {
-  "atualizado_em": "14/08/2026 11:25",
+  "atualizado_em": "14/08/2026 12:04",
   "meses": [
     "Ago/26",
     "Jul/26",
@@ -11389,7 +11389,7 @@ const METAS_DATA = {
           "DTULTCOMP": "13/08/2026",
           "produtos": [
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "AGUA MINERAL S/G GRF PET 1X10L MINALBA"
             }
           ]
@@ -11405,7 +11405,7 @@ const METAS_DATA = {
               "DESCRICAO": "CERV HEINEKEN ULT 0,350LT CART12UN PBR"
             },
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "CERVEJA HEINEKEN ZERO LONG  24X330ML"
             },
             {
@@ -11645,7 +11645,7 @@ const METAS_DATA = {
               "DESCRICAO": "CERVEJA AMSTEL ULTRA LN 12X275ML"
             },
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "CERVEJA HEINEKEN ZERO LONG  24X330ML"
             },
             {
@@ -11661,7 +11661,7 @@ const METAS_DATA = {
           "DTULTCOMP": "05/08/2026",
           "produtos": [
             {
-              "FANTASIA": "None",
+              "FANTASIA": "",
               "DESCRICAO": "CERVEJA HEINEKEN ZERO LONG  24X330ML"
             },
             {
