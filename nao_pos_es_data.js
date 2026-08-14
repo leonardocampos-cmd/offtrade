@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_es.py
 
 const NAO_POS_ES_DATA = {
-  "atualizado_em": "14/08/2026 15:26",
+  "atualizado_em": "14/08/2026 16:14",
   "por_vendedor": {
     "ADEILSON GONÇALVEZ": [
       {
@@ -18453,9 +18453,9 @@ const NAO_POS_ES_DATA = {
         ]
       },
       {
-        "codcli": "84033",
+        "codcli": "84034",
         "cliente": "EMISE SUPERMERCADO LTDA",
-        "bairro": "VIGA",
+        "bairro": "JARDIM BOA VISTA",
         "dtultcomp": "11/11/2025",
         "produtos": [
           {
@@ -18521,9 +18521,9 @@ const NAO_POS_ES_DATA = {
         ]
       },
       {
-        "codcli": "84034",
+        "codcli": "84033",
         "cliente": "EMISE SUPERMERCADO LTDA",
-        "bairro": "JARDIM BOA VISTA",
+        "bairro": "VIGA",
         "dtultcomp": "11/11/2025",
         "produtos": [
           {
@@ -25748,6 +25748,13 @@ const NAO_POS_ES_DATA = {
             "valor": 271.6
           }
         ]
+      },
+      {
+        "codcli": "96046",
+        "cliente": "60.768.163 ANA CONCEICAO DELUCA COSTA",
+        "bairro": "MANGUINHOS",
+        "dtultcomp": "nan",
+        "produtos": []
       },
       {
         "codcli": "95773",
