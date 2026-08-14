@@ -1,5 +1,5 @@
 const METAS_GERAIS_DATA = {
-  "atualizado_em": "14/08/2026 10:41",
+  "atualizado_em": "14/08/2026 11:04",
   "mes": "Ago/26",
   "mes_ant": "Jul/26",
   "dias_corridos": 14,
@@ -9,9 +9,9 @@ const METAS_GERAIS_DATA = {
     "fat": NaN,
     "fat_ant": NaN,
     "fat_ant_completo": NaN,
-    "pos": 881,
+    "pos": 882,
     "pos_ant": 920,
-    "pos_ant_completo": 1804
+    "pos_ant_completo": 1803
   },
   "total": {
     "meta": 12300000.0,
@@ -31,9 +31,9 @@ const METAS_GERAIS_DATA = {
       "pos": 292,
       "pct": 22.8,
       "nec_dia": 131633.35,
-      "fat_ant_completo": 2707150.08,
+      "fat_ant_completo": 2707109.18,
       "pos_ant": 369,
-      "pos_ant_completo": 724
+      "pos_ant_completo": 723
     },
     {
       "estado": "SP",
@@ -52,11 +52,11 @@ const METAS_GERAIS_DATA = {
       "estado": "ES",
       "label": "Espírito Santo",
       "meta": 1800000.0,
-      "fat": 294283.87,
+      "fat": 298335.43,
       "fat_ant": 125597.57,
-      "pos": 38,
-      "pct": 16.3,
-      "nec_dia": 88571.54,
+      "pos": 39,
+      "pct": 16.6,
+      "nec_dia": 88333.21,
       "fat_ant_completo": 735560.59,
       "pos_ant": 33,
       "pos_ant_completo": 90
@@ -78,12 +78,12 @@ const METAS_GERAIS_DATA = {
   "industrias": [
     {
       "fantasia": "PERNOD",
-      "fat": 2051523.25,
+      "fat": 2052219.61,
       "fat_ant": 2160140.75,
       "por_estado": {
         "RJ": 55445.62,
         "SP": 1893409.71,
-        "ES": 6283.44,
+        "ES": 6979.8,
         "MG": 96384.48
       }
     },
@@ -100,12 +100,12 @@ const METAS_GERAIS_DATA = {
     },
     {
       "fantasia": "RED BULL",
-      "fat": 562917.61,
+      "fat": 566272.81,
       "fat_ant": 140961.9,
       "por_estado": {
         "RJ": 122851.52,
         "SP": 151165.44,
-        "ES": 166956.85,
+        "ES": 170312.05,
         "MG": 121943.8
       }
     },
