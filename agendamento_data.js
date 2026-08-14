@@ -25997,6 +25997,962 @@ const AGENDAMENTO_DATA = {
   "atualizado_em": "14/08/2026 12:11",
   "comparativo": [
     {
+      "msg_id": "1a000be7acfbb4b6",
+      "subject": "Fwd: Pedido do cliente 96005 MULTIMARKET GUARANY",
+      "data_email": "2026-08-14",
+      "sistema": "CRC - 04",
+      "cod_cliente": "96005",
+      "razao_social": "MULTI GUARANI MERCADO LTDA",
+      "fantasia": "MULTI GUARANI MERCADO",
+      "cnpj": "67.911.623/0001-97",
+      "rca": "153 - ANGELO NEVES SUZART - OFF TRADE",
+      "bonificacao": false,
+      "prazo": "",
+      "obs": "",
+      "itens": [
+        {
+          "cod_prod": "663",
+          "descricao": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+          "qt": 6,
+          "preco": 36.9,
+          "total": 221.4,
+          "qt_faturada": 0.0,
+          "valor_faturado": 0.0,
+          "status": "Pendente",
+          "nf": "",
+          "agendado": false
+        },
+        {
+          "cod_prod": "38",
+          "descricao": "MARTINI ROSATO 750 ML",
+          "qt": 6,
+          "preco": 30.9,
+          "total": 185.4,
+          "qt_faturada": 0.0,
+          "valor_faturado": 0.0,
+          "status": "Pendente",
+          "nf": "",
+          "agendado": false
+        },
+        {
+          "cod_prod": "1527",
+          "descricao": "MARTINI ROSSO 750 ML",
+          "qt": 6,
+          "preco": 30.9,
+          "total": 185.4,
+          "qt_faturada": 0.0,
+          "valor_faturado": 0.0,
+          "status": "Pendente",
+          "nf": "",
+          "agendado": false
+        },
+        {
+          "cod_prod": "3766",
+          "descricao": "CHANDON PASSION ON ICE 750 ML",
+          "qt": 2,
+          "preco": 75.9,
+          "total": 151.8,
+          "qt_faturada": 0.0,
+          "valor_faturado": 0.0,
+          "status": "Pendente",
+          "nf": "",
+          "agendado": false
+        },
+        {
+          "cod_prod": "3759",
+          "descricao": "CHANDON RESERVE BRUT ROSE 750ML",
+          "qt": 2,
+          "preco": 75.9,
+          "total": 151.8,
+          "qt_faturada": 0.0,
+          "valor_faturado": 0.0,
+          "status": "Pendente",
+          "nf": "",
+          "agendado": false
+        }
+      ]
+    },
+    {
+      "msg_id": "1a000bcb0b41d0ee",
+      "subject": "Fwd: Pedido do cliente 96005 Multimarket GUARANI",
+      "data_email": "2026-08-14",
+      "sistema": "CRC - 04",
+      "cod_cliente": "96005",
+      "razao_social": "MULTI GUARANI MERCADO LTDA",
+      "fantasia": "MULTI GUARANI MERCADO",
+      "cnpj": "67.911.623/0001-97",
+      "rca": "153 - ANGELO NEVES SUZART - OFF TRADE",
+      "bonificacao": false,
+      "prazo": "",
+      "obs": "",
+      "itens": [
+        {
+          "cod_prod": "7081",
+          "descricao": "SUCO DE UVA TTO INT QUINTA DO MORGADO 1L",
+          "qt": 12,
+          "preco": 11.7,
+          "total": 140.4,
+          "qt_faturada": 0.0,
+          "valor_faturado": 0.0,
+          "status": "Pendente",
+          "nf": "",
+          "agendado": false
+        },
+        {
+          "cod_prod": "3818",
+          "descricao": "VINHO BORDO QUINTA DO MORGADO 1LT",
+          "qt": 12,
+          "preco": 19.9,
+          "total": 238.8,
+          "qt_faturada": 0.0,
+          "valor_faturado": 0.0,
+          "status": "Pendente",
+          "nf": "",
+          "agendado": false
+        },
+        {
+          "cod_prod": "3816",
+          "descricao": "VINHO BORDO QUINTA DO MORGADO 750ML",
+          "qt": 12,
+          "preco": 17.9,
+          "total": 214.8,
+          "qt_faturada": 0.0,
+          "valor_faturado": 0.0,
+          "status": "Pendente",
+          "nf": "",
+          "agendado": false
+        },
+        {
+          "cod_prod": "6744",
+          "descricao": "VINHO ROSADO SV QUINTA DO MORGADO 750ML",
+          "qt": 12,
+          "preco": 14.49,
+          "total": 173.88,
+          "qt_faturada": 0.0,
+          "valor_faturado": 0.0,
+          "status": "Pendente",
+          "nf": "",
+          "agendado": false
+        },
+        {
+          "cod_prod": "3817",
+          "descricao": "VINHO TINTO QUINTA DO MORGADO 1LT",
+          "qt": 48,
+          "preco": 16.9,
+          "total": 811.2,
+          "qt_faturada": 0.0,
+          "valor_faturado": 0.0,
+          "status": "Pendente",
+          "nf": "",
+          "agendado": false
+        }
+      ]
+    },
+    {
+      "msg_id": "1a000b97e4de99b6",
+      "subject": "Fwd: Pedido do cliente 84066 Predlecta de Xerem (MULTIMARKET)",
+      "data_email": "2026-08-14",
+      "sistema": "CRC - 04",
+      "cod_cliente": "84066",
+      "razao_social": "PREDILECTA DE XEREM COMERCIO DE GENEROS ALIMENTICIOS LTDA",
+      "fantasia": "REDE MULTIMARKET - XEREM",
+      "cnpj": "44.291.406/0001-46",
+      "rca": "153 - ANGELO NEVES SUZART - OFF TRADE",
+      "bonificacao": false,
+      "prazo": "",
+      "obs": "",
+      "itens": [
+        {
+          "cod_prod": "2780",
+          "descricao": "ESPUM CASA PERINI ICE ROSE 750ML",
+          "qt": 3,
+          "preco": 39.9,
+          "total": 119.7,
+          "qt_faturada": 0.0,
+          "valor_faturado": 0.0,
+          "status": "Pendente",
+          "nf": "",
+          "agendado": false
+        },
+        {
+          "cod_prod": "4805",
+          "descricao": "LICOR ESP DIEGO ZAMORA 43 CREME BRULEE",
+          "qt": 2,
+          "preco": 140.5,
+          "total": 281.0,
+          "qt_faturada": 0.0,
+          "valor_faturado": 0.0,
+          "status": "Pendente",
+          "nf": "",
+          "agendado": false
+        },
+        {
+          "cod_prod": "3642",
+          "descricao": "GIN ROCKS STRAWBERRY 1000ML",
+          "qt": 6,
+          "preco": 22.5,
+          "total": 135.0,
+          "qt_faturada": 0.0,
+          "valor_faturado": 0.0,
+          "status": "Pendente",
+          "nf": "",
+          "agendado": false
+        },
+        {
+          "cod_prod": "2323",
+          "descricao": "GIN GORDONS PINK 700ML",
+          "qt": 2,
+          "preco": 59.9,
+          "total": 119.8,
+          "qt_faturada": 0.0,
+          "valor_faturado": 0.0,
+          "status": "Pendente",
+          "nf": "",
+          "agendado": false
+        },
+        {
+          "cod_prod": "381",
+          "descricao": "CACHACA VELHO BARREIRO 910 ML",
+          "qt": 12,
+          "preco": 13.9,
+          "total": 166.8,
+          "qt_faturada": 0.0,
+          "valor_faturado": 0.0,
+          "status": "Pendente",
+          "nf": "",
+          "agendado": false
+        }
+      ]
+    },
+    {
+      "msg_id": "1a00041b9b66d684",
+      "subject": "Pedido do cliente 84066 Predlecta de Xerem (MULTIMARKET)",
+      "data_email": "2026-08-14",
+      "sistema": "CRC - 04",
+      "cod_cliente": "84066",
+      "razao_social": "PREDILECTA DE XEREM COMERCIO DE GENEROS ALIMENTICIOS LTDA",
+      "fantasia": "REDE MULTIMARKET - XEREM",
+      "cnpj": "44.291.406/0001-46",
+      "rca": "153 - ANGELO NEVES SUZART - OFF TRADE",
+      "bonificacao": false,
+      "prazo": "",
+      "obs": "",
+      "itens": [
+        {
+          "cod_prod": "2780",
+          "descricao": "ESPUM CASA PERINI ICE ROSE 750ML",
+          "qt": 3,
+          "preco": 39.9,
+          "total": 119.7,
+          "qt_faturada": 0.0,
+          "valor_faturado": 0.0,
+          "status": "Pendente",
+          "nf": "",
+          "agendado": false
+        },
+        {
+          "cod_prod": "4805",
+          "descricao": "LICOR ESP DIEGO ZAMORA 43 CREME BRULEE",
+          "qt": 2,
+          "preco": 140.5,
+          "total": 281.0,
+          "qt_faturada": 0.0,
+          "valor_faturado": 0.0,
+          "status": "Pendente",
+          "nf": "",
+          "agendado": false
+        },
+        {
+          "cod_prod": "3642",
+          "descricao": "GIN ROCKS STRAWBERRY 1000ML",
+          "qt": 6,
+          "preco": 22.5,
+          "total": 135.0,
+          "qt_faturada": 0.0,
+          "valor_faturado": 0.0,
+          "status": "Pendente",
+          "nf": "",
+          "agendado": false
+        },
+        {
+          "cod_prod": "2323",
+          "descricao": "GIN GORDONS PINK 700ML",
+          "qt": 2,
+          "preco": 59.9,
+          "total": 119.8,
+          "qt_faturada": 0.0,
+          "valor_faturado": 0.0,
+          "status": "Pendente",
+          "nf": "",
+          "agendado": false
+        },
+        {
+          "cod_prod": "381",
+          "descricao": "CACHACA VELHO BARREIRO 910 ML",
+          "qt": 12,
+          "preco": 13.9,
+          "total": 166.8,
+          "qt_faturada": 0.0,
+          "valor_faturado": 0.0,
+          "status": "Pendente",
+          "nf": "",
+          "agendado": false
+        }
+      ]
+    },
+    {
+      "msg_id": "1a00029e8cd337a0",
+      "subject": "Pedido do cliente 96005 Multimarket GUARANI",
+      "data_email": "2026-08-14",
+      "sistema": "CRC - 04",
+      "cod_cliente": "96005",
+      "razao_social": "MULTI GUARANI MERCADO LTDA",
+      "fantasia": "MULTI GUARANI MERCADO",
+      "cnpj": "67.911.623/0001-97",
+      "rca": "153 - ANGELO NEVES SUZART - OFF TRADE",
+      "bonificacao": false,
+      "prazo": "",
+      "obs": "",
+      "itens": [
+        {
+          "cod_prod": "7081",
+          "descricao": "SUCO DE UVA TTO INT QUINTA DO MORGADO 1L",
+          "qt": 12,
+          "preco": 11.7,
+          "total": 140.4,
+          "qt_faturada": 0.0,
+          "valor_faturado": 0.0,
+          "status": "Pendente",
+          "nf": "",
+          "agendado": false
+        },
+        {
+          "cod_prod": "3818",
+          "descricao": "VINHO BORDO QUINTA DO MORGADO 1LT",
+          "qt": 12,
+          "preco": 19.9,
+          "total": 238.8,
+          "qt_faturada": 0.0,
+          "valor_faturado": 0.0,
+          "status": "Pendente",
+          "nf": "",
+          "agendado": false
+        },
+        {
+          "cod_prod": "3816",
+          "descricao": "VINHO BORDO QUINTA DO MORGADO 750ML",
+          "qt": 12,
+          "preco": 17.9,
+          "total": 214.8,
+          "qt_faturada": 0.0,
+          "valor_faturado": 0.0,
+          "status": "Pendente",
+          "nf": "",
+          "agendado": false
+        },
+        {
+          "cod_prod": "6744",
+          "descricao": "VINHO ROSADO SV QUINTA DO MORGADO 750ML",
+          "qt": 12,
+          "preco": 14.49,
+          "total": 173.88,
+          "qt_faturada": 0.0,
+          "valor_faturado": 0.0,
+          "status": "Pendente",
+          "nf": "",
+          "agendado": false
+        },
+        {
+          "cod_prod": "3817",
+          "descricao": "VINHO TINTO QUINTA DO MORGADO 1LT",
+          "qt": 48,
+          "preco": 16.9,
+          "total": 811.2,
+          "qt_faturada": 0.0,
+          "valor_faturado": 0.0,
+          "status": "Pendente",
+          "nf": "",
+          "agendado": false
+        }
+      ]
+    },
+    {
+      "msg_id": "1a000177460e40b5",
+      "subject": "Pedido do cliente 96005 MULTIMARKET GUARANY",
+      "data_email": "2026-08-14",
+      "sistema": "CRC - 04",
+      "cod_cliente": "96005",
+      "razao_social": "MULTI GUARANI MERCADO LTDA",
+      "fantasia": "MULTI GUARANI MERCADO",
+      "cnpj": "67.911.623/0001-97",
+      "rca": "153 - ANGELO NEVES SUZART - OFF TRADE",
+      "bonificacao": false,
+      "prazo": "",
+      "obs": "",
+      "itens": [
+        {
+          "cod_prod": "663",
+          "descricao": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+          "qt": 6,
+          "preco": 36.9,
+          "total": 221.4,
+          "qt_faturada": 0.0,
+          "valor_faturado": 0.0,
+          "status": "Pendente",
+          "nf": "",
+          "agendado": false
+        },
+        {
+          "cod_prod": "38",
+          "descricao": "MARTINI ROSATO 750 ML",
+          "qt": 6,
+          "preco": 30.9,
+          "total": 185.4,
+          "qt_faturada": 0.0,
+          "valor_faturado": 0.0,
+          "status": "Pendente",
+          "nf": "",
+          "agendado": false
+        },
+        {
+          "cod_prod": "1527",
+          "descricao": "MARTINI ROSSO 750 ML",
+          "qt": 6,
+          "preco": 30.9,
+          "total": 185.4,
+          "qt_faturada": 0.0,
+          "valor_faturado": 0.0,
+          "status": "Pendente",
+          "nf": "",
+          "agendado": false
+        },
+        {
+          "cod_prod": "3766",
+          "descricao": "CHANDON PASSION ON ICE 750 ML",
+          "qt": 2,
+          "preco": 75.9,
+          "total": 151.8,
+          "qt_faturada": 0.0,
+          "valor_faturado": 0.0,
+          "status": "Pendente",
+          "nf": "",
+          "agendado": false
+        },
+        {
+          "cod_prod": "3759",
+          "descricao": "CHANDON RESERVE BRUT ROSE 750ML",
+          "qt": 2,
+          "preco": 75.9,
+          "total": 151.8,
+          "qt_faturada": 0.0,
+          "valor_faturado": 0.0,
+          "status": "Pendente",
+          "nf": "",
+          "agendado": false
+        }
+      ]
+    },
+    {
+      "msg_id": "19ffd19323366e4a",
+      "subject": "PEDIDO CERTO DA REDE PADRAO DO FONSECA",
+      "data_email": "2026-08-13",
+      "sistema": "CRC - 04",
+      "cod_cliente": "78665",
+      "razao_social": "SUPERMERCADO PADRAO DO FONSECA LTDA",
+      "fantasia": "SUPERMARKET - DEL CASTILHO",
+      "cnpj": "08.628.825/0022-91",
+      "rca": "450 - LEANDRO SOUZA - OFF TRADE",
+      "bonificacao": false,
+      "prazo": "",
+      "obs": "",
+      "itens": [
+        {
+          "cod_prod": "603",
+          "descricao": "WHISKY GENTLEMAN JACK 1L",
+          "qt": 4,
+          "preco": 149.0,
+          "total": 596.0,
+          "qt_faturada": 4.0,
+          "valor_faturado": 596.0,
+          "status": "Faturado",
+          "nf": "7714",
+          "agendado": true
+        },
+        {
+          "cod_prod": "3827",
+          "descricao": "VINHO LATITUD 33 MALBEC 750 ML",
+          "qt": 12,
+          "preco": 35.0,
+          "total": 420.0,
+          "qt_faturada": 12.0,
+          "valor_faturado": 420.0,
+          "status": "Faturado",
+          "nf": "7714",
+          "agendado": true
+        }
+      ]
+    },
+    {
+      "msg_id": "19ffd08b74686cba",
+      "subject": "Re: PEDIDO PADRAO DO FONSECA",
+      "data_email": "2026-08-13",
+      "sistema": "CRC - 04",
+      "cod_cliente": "78665",
+      "razao_social": "SUPERMERCADO PADRAO DO FONSECA LTDA",
+      "fantasia": "SUPERMARKET - DEL CASTILHO",
+      "cnpj": "08.628.825/0022-91",
+      "rca": "450 - LEANDRO SOUZA - OFF TRADE",
+      "bonificacao": false,
+      "prazo": "",
+      "obs": "",
+      "itens": [
+        {
+          "cod_prod": "603",
+          "descricao": "WHISKY GENTLEMAN JACK 1L",
+          "qt": 4,
+          "preco": 149.0,
+          "total": 596.0,
+          "qt_faturada": 4.0,
+          "valor_faturado": 596.0,
+          "status": "Faturado",
+          "nf": "7714",
+          "agendado": true
+        },
+        {
+          "cod_prod": "3827",
+          "descricao": "VINHO LATITUD 33 MALBEC 750 ML",
+          "qt": 12,
+          "preco": 35.0,
+          "total": 420.0,
+          "qt_faturada": 12.0,
+          "valor_faturado": 420.0,
+          "status": "Faturado",
+          "nf": "7714",
+          "agendado": true
+        }
+      ]
+    },
+    {
+      "msg_id": "19ffd08b74686cba",
+      "subject": "Re: PEDIDO PADRAO DO FONSECA",
+      "data_email": "2026-08-13",
+      "sistema": "CRC - 04",
+      "cod_cliente": "90415",
+      "razao_social": "SUPERMERCADO PADRAO DO FONSECA LTDA",
+      "fantasia": "SUPERMARKET",
+      "cnpj": "08.628.825/0024-53",
+      "rca": "450 - LEANDRO SOUZA - OFF TRADE",
+      "bonificacao": false,
+      "prazo": "",
+      "obs": "",
+      "itens": [
+        {
+          "cod_prod": "603",
+          "descricao": "WHISKY GENTLEMAN JACK 1L",
+          "qt": 4,
+          "preco": 149.0,
+          "total": 596.0,
+          "qt_faturada": 0.0,
+          "valor_faturado": 0.0,
+          "status": "Pendente",
+          "nf": "",
+          "agendado": false
+        },
+        {
+          "cod_prod": "3827",
+          "descricao": "VINHO LATITUD 33 MALBEC 750 ML",
+          "qt": 12,
+          "preco": 35.0,
+          "total": 420.0,
+          "qt_faturada": 0.0,
+          "valor_faturado": 0.0,
+          "status": "Pendente",
+          "nf": "",
+          "agendado": false
+        }
+      ]
+    },
+    {
+      "msg_id": "19ffc9ca6b46f739",
+      "subject": "PEDIDO PADRAO DO FONSECA",
+      "data_email": "2026-08-13",
+      "sistema": "CRC - 04",
+      "cod_cliente": "90415",
+      "razao_social": "SUPERMERCADO PADRAO DO FONSECA LTDA",
+      "fantasia": "SUPERMARKET",
+      "cnpj": "08.628.825/0024-53",
+      "rca": "450 - LEANDRO SOUZA - OFF TRADE",
+      "bonificacao": false,
+      "prazo": "",
+      "obs": "",
+      "itens": [
+        {
+          "cod_prod": "603",
+          "descricao": "WHISKY GENTLEMAN JACK 1L",
+          "qt": 4,
+          "preco": 149.0,
+          "total": 596.0,
+          "qt_faturada": 0.0,
+          "valor_faturado": 0.0,
+          "status": "Pendente",
+          "nf": "",
+          "agendado": false
+        },
+        {
+          "cod_prod": "3827",
+          "descricao": "VINHO LATITUD 33 MALBEC 750 ML",
+          "qt": 12,
+          "preco": 35.0,
+          "total": 420.0,
+          "qt_faturada": 0.0,
+          "valor_faturado": 0.0,
+          "status": "Pendente",
+          "nf": "",
+          "agendado": false
+        }
+      ]
+    },
+    {
+      "msg_id": "19ffc5522acb2267",
+      "subject": "PEDIDO CRC 04",
+      "data_email": "2026-08-13",
+      "sistema": "CRC - 04",
+      "cod_cliente": "92136",
+      "razao_social": "63.529.210 KAUE ALVES DA SILVA SARAIVA",
+      "fantasia": "KAUE ALVES DA SILVA SARAIVA",
+      "cnpj": "63.529.210/0001-91",
+      "rca": "144 - DIOGO RAPOSO - OFF TRADE",
+      "bonificacao": false,
+      "prazo": "",
+      "obs": "",
+      "itens": [
+        {
+          "cod_prod": "16",
+          "descricao": "VODCA SMIRNOFF RED 998 ML",
+          "qt": 120,
+          "preco": 24.5,
+          "total": 2940.0,
+          "qt_faturada": 120.0,
+          "valor_faturado": 2940.0,
+          "status": "Faturado",
+          "nf": "7698",
+          "agendado": true
+        },
+        {
+          "cod_prod": "1757",
+          "descricao": "VODCA BAM CIROC RED BERRY 750 ML",
+          "qt": 12,
+          "preco": 129.9,
+          "total": 1558.8,
+          "qt_faturada": 12.0,
+          "valor_faturado": 1558.8,
+          "status": "Faturado",
+          "nf": "7698",
+          "agendado": true
+        },
+        {
+          "cod_prod": "7630",
+          "descricao": "ABSOLUT TABASCO 750ML",
+          "qt": 2,
+          "preco": 59.9,
+          "total": 119.8,
+          "qt_faturada": 0.0,
+          "valor_faturado": 0.0,
+          "status": "Cortado",
+          "nf": "",
+          "agendado": false
+        },
+        {
+          "cod_prod": "3429",
+          "descricao": "VODKA ABSOLUT RASPBERRY 750 ML",
+          "qt": 3,
+          "preco": 62.9,
+          "total": 188.7,
+          "qt_faturada": 0.0,
+          "valor_faturado": 0.0,
+          "status": "Cortado",
+          "nf": "",
+          "agendado": false
+        },
+        {
+          "cod_prod": "674",
+          "descricao": "GIN GORDONS 750 ML",
+          "qt": 12,
+          "preco": 49.9,
+          "total": 598.8,
+          "qt_faturada": 12.0,
+          "valor_faturado": 598.8,
+          "status": "Faturado",
+          "nf": "7698",
+          "agendado": true
+        },
+        {
+          "cod_prod": "266",
+          "descricao": "GIN TANQUERAY 750 ML",
+          "qt": 24,
+          "preco": 89.9,
+          "total": 2157.6,
+          "qt_faturada": 24.0,
+          "valor_faturado": 2157.6,
+          "status": "Faturado",
+          "nf": "7698",
+          "agendado": true
+        },
+        {
+          "cod_prod": "4477",
+          "descricao": "GIN TANQUERAY BOSSA NOVA 700 ML",
+          "qt": 12,
+          "preco": 79.9,
+          "total": 958.8,
+          "qt_faturada": 24.0,
+          "valor_faturado": 1917.6,
+          "status": "Faturado",
+          "nf": "6943, 7698",
+          "agendado": true
+        },
+        {
+          "cod_prod": "2221",
+          "descricao": "GIN TANQUERAY FLOR DE SEVILLA 700 ML",
+          "qt": 12,
+          "preco": 89.9,
+          "total": 1078.8,
+          "qt_faturada": 12.0,
+          "valor_faturado": 1078.8,
+          "status": "Faturado",
+          "nf": "7698",
+          "agendado": true
+        }
+      ]
+    },
+    {
+      "msg_id": "19ffbbd9b76e90b8",
+      "subject": "Fwd: pedido do cliente 84320 Mercado JV (RIO SUL)",
+      "data_email": "2026-08-13",
+      "sistema": "CRC - 04",
+      "cod_cliente": "84320",
+      "razao_social": "MERCADO JV DUQUE DE CAXIAS LTDA",
+      "fantasia": "MERCADO JV DUQUE DE CAXIAS",
+      "cnpj": "58.012.012/0001-16",
+      "rca": "153 - ANGELO NEVES SUZART - OFF TRADE",
+      "bonificacao": false,
+      "prazo": "",
+      "obs": "",
+      "itens": [
+        {
+          "cod_prod": "484",
+          "descricao": "WHISKY JIM BEAM WHITE 1L",
+          "qt": 2,
+          "preco": 79.9,
+          "total": 159.8,
+          "qt_faturada": 2.0,
+          "valor_faturado": 159.8,
+          "status": "Faturado",
+          "nf": "7697",
+          "agendado": false
+        },
+        {
+          "cod_prod": "1526",
+          "descricao": "WHISKY JIM BEAM HONEY 1L",
+          "qt": 2,
+          "preco": 79.9,
+          "total": 159.8,
+          "qt_faturada": 2.0,
+          "valor_faturado": 159.8,
+          "status": "Faturado",
+          "nf": "7697",
+          "agendado": false
+        },
+        {
+          "cod_prod": "3151",
+          "descricao": "WHISKY JIM BEAM APPLE 1L",
+          "qt": 2,
+          "preco": 79.9,
+          "total": 159.8,
+          "qt_faturada": 2.0,
+          "valor_faturado": 159.8,
+          "status": "Faturado",
+          "nf": "7697",
+          "agendado": false
+        },
+        {
+          "cod_prod": "70",
+          "descricao": "WHISKY CHIVAS REGAL 12 ANOS 1L",
+          "qt": 6,
+          "preco": 103.9,
+          "total": 623.4,
+          "qt_faturada": 6.0,
+          "valor_faturado": 623.4,
+          "status": "Faturado",
+          "nf": "7697",
+          "agendado": false
+        },
+        {
+          "cod_prod": "5273",
+          "descricao": "WHISKY JIM BEAM BLACK CHERRY 1L",
+          "qt": 2,
+          "preco": 79.9,
+          "total": 159.8,
+          "qt_faturada": 2.0,
+          "valor_faturado": 159.8,
+          "status": "Faturado",
+          "nf": "7697",
+          "agendado": false
+        }
+      ]
+    },
+    {
+      "msg_id": "19ffb7bcb201e737",
+      "subject": "PEDIDO CRC 04",
+      "data_email": "2026-08-13",
+      "sistema": "CRC - 04",
+      "cod_cliente": "81685",
+      "razao_social": "L DO ROSARIO COELHO DEPOSITO DE BEBIDAS",
+      "fantasia": "MERCADO DAS BEBIDAS",
+      "cnpj": "26.533.534/0001-77",
+      "rca": "144 - DIOGO RAPOSO",
+      "bonificacao": false,
+      "prazo": "",
+      "obs": "",
+      "itens": [
+        {
+          "cod_prod": "313",
+          "descricao": "WHISKY J WALKER RED LABEL 1L",
+          "qt": 12,
+          "preco": 70.0,
+          "total": 840.0,
+          "qt_faturada": 12.0,
+          "valor_faturado": 840.0,
+          "status": "Faturado",
+          "nf": "7696",
+          "agendado": true
+        },
+        {
+          "cod_prod": "2320",
+          "descricao": "BEEFEATER PINK 700ML",
+          "qt": 3,
+          "preco": 59.9,
+          "total": 179.7,
+          "qt_faturada": 3.0,
+          "valor_faturado": 179.7,
+          "status": "Faturado",
+          "nf": "7696",
+          "agendado": true
+        },
+        {
+          "cod_prod": "70",
+          "descricao": "WHISKY CHIVAS REGAL 12 ANOS 1L",
+          "qt": 3,
+          "preco": 94.9,
+          "total": 284.7,
+          "qt_faturada": 3.0,
+          "valor_faturado": 284.7,
+          "status": "Faturado",
+          "nf": "7696",
+          "agendado": true
+        },
+        {
+          "cod_prod": "129",
+          "descricao": "VODKA ABSOLUT - 1 LITRO",
+          "qt": 3,
+          "preco": 54.9,
+          "total": 164.7,
+          "qt_faturada": 3.0,
+          "valor_faturado": 164.7,
+          "status": "Faturado",
+          "nf": "7696",
+          "agendado": true
+        },
+        {
+          "cod_prod": "237",
+          "descricao": "WHISKY BALLANTINE'S FINEST 1L",
+          "qt": 6,
+          "preco": 54.9,
+          "total": 329.4,
+          "qt_faturada": 6.0,
+          "valor_faturado": 329.4,
+          "status": "Faturado",
+          "nf": "7696",
+          "agendado": true
+        }
+      ]
+    },
+    {
+      "msg_id": "19ffab1a133a2a8b",
+      "subject": "pedido do cliente 84320 Mercado JV (RIO SUL)",
+      "data_email": "2026-08-13",
+      "sistema": "CRC - 04",
+      "cod_cliente": "84320",
+      "razao_social": "MERCADO JV DUQUE DE CAXIAS LTDA",
+      "fantasia": "MERCADO JV DUQUE DE CAXIAS",
+      "cnpj": "58.012.012/0001-16",
+      "rca": "153 - ANGELO NEVES SUZART - OFF TRADE",
+      "bonificacao": false,
+      "prazo": "",
+      "obs": "",
+      "itens": [
+        {
+          "cod_prod": "484",
+          "descricao": "WHISKY JIM BEAM WHITE 1L",
+          "qt": 2,
+          "preco": 79.9,
+          "total": 159.8,
+          "qt_faturada": 2.0,
+          "valor_faturado": 159.8,
+          "status": "Faturado",
+          "nf": "7697",
+          "agendado": false
+        },
+        {
+          "cod_prod": "1526",
+          "descricao": "WHISKY JIM BEAM HONEY 1L",
+          "qt": 2,
+          "preco": 79.9,
+          "total": 159.8,
+          "qt_faturada": 2.0,
+          "valor_faturado": 159.8,
+          "status": "Faturado",
+          "nf": "7697",
+          "agendado": false
+        },
+        {
+          "cod_prod": "3151",
+          "descricao": "WHISKY JIM BEAM APPLE 1L",
+          "qt": 2,
+          "preco": 79.9,
+          "total": 159.8,
+          "qt_faturada": 2.0,
+          "valor_faturado": 159.8,
+          "status": "Faturado",
+          "nf": "7697",
+          "agendado": false
+        },
+        {
+          "cod_prod": "70",
+          "descricao": "WHISKY CHIVAS REGAL 12 ANOS 1L",
+          "qt": 6,
+          "preco": 103.9,
+          "total": 623.4,
+          "qt_faturada": 6.0,
+          "valor_faturado": 623.4,
+          "status": "Faturado",
+          "nf": "7697",
+          "agendado": false
+        },
+        {
+          "cod_prod": "5273",
+          "descricao": "WHISKY JIM BEAM BLACK CHERRY 1L",
+          "qt": 2,
+          "preco": 79.9,
+          "total": 159.8,
+          "qt_faturada": 2.0,
+          "valor_faturado": 159.8,
+          "status": "Faturado",
+          "nf": "7697",
+          "agendado": false
+        }
+      ]
+    },
+    {
       "msg_id": "19ff618b610c2f79",
       "subject": "PEDIDO CRC 04",
       "data_email": "2026-08-12",
@@ -26084,7 +27040,7 @@ const AGENDAMENTO_DATA = {
           "valor_faturado": 894.0,
           "status": "Faturado",
           "nf": "7657",
-          "agendado": false
+          "agendado": true
         }
       ]
     },
@@ -26880,7 +27836,7 @@ const AGENDAMENTO_DATA = {
           "valor_faturado": 139.2,
           "status": "Faturado",
           "nf": "7303",
-          "agendado": false
+          "agendado": true
         },
         {
           "cod_prod": "1779",
@@ -26892,7 +27848,7 @@ const AGENDAMENTO_DATA = {
           "valor_faturado": 810.0,
           "status": "Faturado",
           "nf": "7303",
-          "agendado": false
+          "agendado": true
         },
         {
           "cod_prod": "66",
@@ -26904,7 +27860,7 @@ const AGENDAMENTO_DATA = {
           "valor_faturado": 274.8,
           "status": "Faturado",
           "nf": "7303",
-          "agendado": false
+          "agendado": true
         }
       ]
     },
@@ -26932,7 +27888,7 @@ const AGENDAMENTO_DATA = {
           "valor_faturado": 139.2,
           "status": "Faturado",
           "nf": "7303",
-          "agendado": false
+          "agendado": true
         },
         {
           "cod_prod": "1779",
@@ -26944,7 +27900,7 @@ const AGENDAMENTO_DATA = {
           "valor_faturado": 810.0,
           "status": "Faturado",
           "nf": "7303",
-          "agendado": false
+          "agendado": true
         },
         {
           "cod_prod": "66",
@@ -26956,7 +27912,7 @@ const AGENDAMENTO_DATA = {
           "valor_faturado": 274.8,
           "status": "Faturado",
           "nf": "7303",
-          "agendado": false
+          "agendado": true
         }
       ]
     },
