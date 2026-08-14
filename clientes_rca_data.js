@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "14/08/2026 13:43",
-  "total": 22028,
+  "atualizado_em": "14/08/2026 13:58",
+  "total": 22029,
   "clientes": [
     {
       "codcli": "38586",
@@ -14726,12 +14726,12 @@ const CLIENTES_RCA_DATA = {
     {
       "codcli": "94813",
       "razao": "50.689.886 THAIS VIRGINIA NOGUEIRA",
-      "fantasia": "50.689.886 THAIS VIRGINIA NOGUEIRA",
+      "fantasia": "THAIS VIRGINIA NOGUEIRA",
       "bairro": "RAMOS",
       "cidade": "RIO DE JANEIRO",
       "cnpj": "50.689.886/0001-09",
       "estado": "RJ",
-      "ramo": "MERCADO",
+      "ramo": "MINI-MERCADO",
       "key_account": false,
       "rede": "",
       "codusur1": "431",
@@ -29920,6 +29920,22 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "10",
       "nome_usur1": "INATIVO3",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "52481",
+      "razao": "66.335.254 DIOGO DA SILVA",
+      "fantasia": "DIOGO DA SILVA",
+      "bairro": "SANTA CLAUDINA",
+      "cidade": "VINHEDO",
+      "cnpj": "66.335.254/0001-79",
+      "estado": "SP",
+      "ramo": "SERVIÇOS",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "469",
+      "nome_usur1": "PATRICIA RAMOS - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -80928,8 +80944,8 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "159",
       "nome_usur1": "GISELLE BARFER - OFF TRADE",
-      "codusur2": "43",
-      "nome_usur2": "SOUZA"
+      "codusur2": "313",
+      "nome_usur2": "ANDRE MATTOS"
     },
     {
       "codcli": "74515",
@@ -145374,10 +145390,10 @@ const CLIENTES_RCA_DATA = {
       "ramo": "BAR",
       "key_account": false,
       "rede": "",
-      "codusur1": "588",
-      "nome_usur1": "W.S",
-      "codusur2": "",
-      "nome_usur2": ""
+      "codusur1": "318",
+      "nome_usur1": "MARCUS TANAMACHI - OFF TRADE",
+      "codusur2": "588",
+      "nome_usur2": "W.S"
     },
     {
       "codcli": "85931",
@@ -198814,8 +198830,8 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MERCEARIA",
       "key_account": false,
       "rede": "",
-      "codusur1": "588",
-      "nome_usur1": "W.S",
+      "codusur1": "460",
+      "nome_usur1": "CRISTIANE MORAIS - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
