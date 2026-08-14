@@ -37,6 +37,20 @@ const AGENDAMENTO_DATA = {
       "nome": "ANA CLARA FASSANO - OFF TRADE",
       "itens": [
         {
+          "codigo_cliente": "6690",
+          "cliente": "SUPERMERCADO ULTRA 12 LTDA",
+          "cnpj": "5669831000174",
+          "filial": "TIJUCA",
+          "valor": 392.4,
+          "nf": "",
+          "data_agendamento": "17/08/2026",
+          "data_ord": "2026-08-17",
+          "status": "A FATURAR",
+          "obs": "Caixas e rótulos íntegros.",
+          "status_logistica": "",
+          "justificativa_logistica": ""
+        },
+        {
           "codigo_cliente": "3816",
           "cliente": "ORGANIZAÇÕES FARINHA PURA LTDA",
           "cnpj": "29.298.312/0001-05",
@@ -799,6 +813,20 @@ const AGENDAMENTO_DATA = {
           "data_ord": "2026-08-17",
           "status": "FATURADO",
           "obs": "",
+          "status_logistica": "",
+          "justificativa_logistica": ""
+        },
+        {
+          "codigo_cliente": "83800",
+          "cliente": "SUPERMERCADOS RIO SUL DE COMENDADOR SOARES",
+          "cnpj": "44.747.049/00001-88",
+          "filial": "NOVA IGUAÇU",
+          "valor": 1992.6,
+          "nf": "",
+          "data_agendamento": "17/08/2026",
+          "data_ord": "2026-08-17",
+          "status": "A FATURAR",
+          "obs": "Caixas e rótulos íntegros.",
           "status_logistica": "",
           "justificativa_logistica": ""
         },
@@ -3888,20 +3916,6 @@ const AGENDAMENTO_DATA = {
           "cliente": "TORRE E CIA SUPERMERCADOS S/A",
           "cnpj": "07.760.885/0001-76",
           "filial": "ACARI",
-          "valor": 14160.0,
-          "nf": "7072",
-          "data_agendamento": "17/08/2026",
-          "data_ord": "2026-08-17",
-          "status": "FATURADO",
-          "obs": "IR CARRO DEDICADO SOMENTE COM A MERCADORIA DESTE MERCADO                                                                                                                                                                  Carga paletizada;\nSem atrasos, ou faltas, o pedidos são agendados no portal da rede;                                   Rótulos inviolados, caixas originais, carga completa, sem fração.",
-          "status_logistica": "",
-          "justificativa_logistica": ""
-        },
-        {
-          "codigo_cliente": "2978",
-          "cliente": "TORRE E CIA SUPERMERCADOS S/A",
-          "cnpj": "07.760.885/0001-76",
-          "filial": "ACARI",
           "valor": 17573.7,
           "nf": "7073",
           "data_agendamento": "17/08/2026",
@@ -3918,20 +3932,6 @@ const AGENDAMENTO_DATA = {
           "filial": "ACARI",
           "valor": 8856.0,
           "nf": "7074",
-          "data_agendamento": "17/08/2026",
-          "data_ord": "2026-08-17",
-          "status": "FATURADO",
-          "obs": "IR CARRO DEDICADO SOMENTE COM A MERCADORIA DESTE MERCADO                                                                                                                                                                  Carga paletizada;\nSem atrasos, ou faltas, o pedidos são agendados no portal da rede;                                   Rótulos inviolados, caixas originais, carga completa, sem fração.",
-          "status_logistica": "",
-          "justificativa_logistica": ""
-        },
-        {
-          "codigo_cliente": "2978",
-          "cliente": "TORRE E CIA SUPERMERCADOS S/A",
-          "cnpj": "07.760.885/0001-76",
-          "filial": "ACARI",
-          "valor": 81622.8,
-          "nf": "7075",
           "data_agendamento": "17/08/2026",
           "data_ord": "2026-08-17",
           "status": "FATURADO",
@@ -6259,6 +6259,34 @@ const AGENDAMENTO_DATA = {
           "data_agendamento": "",
           "data_ord": "",
           "status": "CANCELADO",
+          "obs": "IR CARRO DEDICADO SOMENTE COM A MERCADORIA DESTE MERCADO                                                                                                                                                                  Carga paletizada;\nSem atrasos, ou faltas, o pedidos são agendados no portal da rede;                                   Rótulos inviolados, caixas originais, carga completa, sem fração.",
+          "status_logistica": "",
+          "justificativa_logistica": ""
+        },
+        {
+          "codigo_cliente": "2978",
+          "cliente": "TORRE E CIA SUPERMERCADOS S/A",
+          "cnpj": "07.760.885/0001-76",
+          "filial": "ACARI",
+          "valor": 14160.0,
+          "nf": "7072",
+          "data_agendamento": "",
+          "data_ord": "",
+          "status": "FATURADO",
+          "obs": "IR CARRO DEDICADO SOMENTE COM A MERCADORIA DESTE MERCADO                                                                                                                                                                  Carga paletizada;\nSem atrasos, ou faltas, o pedidos são agendados no portal da rede;                                   Rótulos inviolados, caixas originais, carga completa, sem fração.",
+          "status_logistica": "",
+          "justificativa_logistica": ""
+        },
+        {
+          "codigo_cliente": "2978",
+          "cliente": "TORRE E CIA SUPERMERCADOS S/A",
+          "cnpj": "07.760.885/0001-76",
+          "filial": "ACARI",
+          "valor": 81622.8,
+          "nf": "7075",
+          "data_agendamento": "",
+          "data_ord": "",
+          "status": "FATURADO",
           "obs": "IR CARRO DEDICADO SOMENTE COM A MERCADORIA DESTE MERCADO                                                                                                                                                                  Carga paletizada;\nSem atrasos, ou faltas, o pedidos são agendados no portal da rede;                                   Rótulos inviolados, caixas originais, carga completa, sem fração.",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -26554,7 +26582,7 @@ const AGENDAMENTO_DATA = {
       ]
     }
   ],
-  "atualizado_em": "14/08/2026 17:40",
+  "atualizado_em": "14/08/2026 17:59",
   "comparativo": [
     {
       "msg_id": "1a000be7acfbb4b6",
