@@ -881,19 +881,17 @@ function _chavePedido(v, idx) {
 // Cruza com pedidos_data.js (pedidos.py) por sistema+número da nota, pra
 // mostrar o status de logística real (EM ROTA, ENTREGUE, etc — Controle de
 // Notas / Canhoto Digital) em vez de só "EMITIDO" — pedido do usuário em
-// 2026-08-13, mesma fonte que pedidos.html já usa. Só cobre pedidos.py::
+// 2026-08-13, mesma fonte que pedidos.html já usa. Usa logistica_por_nf (não
+// só PEDIDOS_DATA.faturados) porque nota já paga sai de "faturados" (regra
+// financeira de pedidos.py) mas continua tendo status de entrega real — sem
+// isso, nota paga rápido caía sempre em "EMITIDO" mesmo já entregue
+// (confirmado em 2026-08-13, NF 418022/Diogo Raposo). Só cobre pedidos.py::
 // DIAS_JANELA (90 dias) — fora dessa janela, cai de volta pra "EMITIDO"
 // genérico (sem dado de logística disponível).
-const _logisticaPorChave = {};
-if (typeof PEDIDOS_DATA !== 'undefined' && PEDIDOS_DATA.faturados) {
-  PEDIDOS_DATA.faturados.forEach(p => {
-    if (p.sistema && p.numnota) _logisticaPorChave[`${p.sistema}|${p.numnota}`] = p;
-  });
-}
-
 function _logisticaDoPedido(sistema, nunota) {
   if (!sistema || !nunota) return null;
-  return _logisticaPorChave[`${sistema}|${nunota}`] || null;
+  if (typeof PEDIDOS_DATA === 'undefined' || !PEDIDOS_DATA.logistica_por_nf) return null;
+  return PEDIDOS_DATA.logistica_por_nf[`${sistema}|${nunota}`] || null;
 }
 
 // Mesma classificação de cor que pedidos.html::_statusLogBadge (mantém o

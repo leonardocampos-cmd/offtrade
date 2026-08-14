@@ -611,6 +611,19 @@ _faturados  = tabela_pedidos[
 _feitos     = tabela_pedidos[
     tabela_pedidos['NUMNOTA_NUM'].isna() & (tabela_pedidos['STATUS'] != 'CANCELADA')
 ]
+# Complemento de _faturados: notas que saíram da lista só por já estarem
+# pagas (não é cancelamento nem "sem nota"). Existem de verdade e tiveram
+# rota/entrega — precisam continuar disponíveis pro cross-reference de
+# status de logística (metas.html), mesmo não aparecendo em "Faturados"
+# (financeiro). Sem isso, toda nota paga rápido (poucos dias) sumia do
+# cross-reference inteiro e caía no rótulo genérico "EMITIDO" mesmo já
+# entregue (confirmado em 2026-08-13, NF 418022/Diogo Raposo).
+_notas_pagas = tabela_pedidos[
+    tabela_pedidos['NUMNOTA_NUM'].notna()
+    & (tabela_pedidos['STATUS'] != 'CANCELADA')
+    & tabela_pedidos['NUMPED'].astype(str).isin(_numpeds_pagos_str)
+    & ~tabela_pedidos['NUMPED'].astype(str).isin(_numpeds_bonificacao)
+]
 
 
 def _nf_clean(numnota):
@@ -812,6 +825,22 @@ def _extrair_cortados(pedidos_agrupados):
 
 _faturados_agrupados  = _agrupar(_faturados, com_status_log=True)
 _cancelados_agrupados = _agrupar(_cancelados)
+_notas_pagas_agrupados = _agrupar(_notas_pagas, com_status_log=True)
+
+# Índice leve de status de logística por nota (sistema+numnota), cobrindo
+# Faturados EM ABERTO e notas já pagas — usado por metas.html pra mostrar
+# ENTREGUE/EM ROTA/etc. em vez do rótulo genérico "EMITIDO". Cancelados fica
+# de fora de propósito (não tem rota real, ver comentário de _agrupar acima).
+_logistica_por_nf = {}
+for _p in _faturados_agrupados + _notas_pagas_agrupados:
+    if _p.get('numnota'):
+        _logistica_por_nf[f"{_p['sistema']}|{_p['numnota']}"] = {
+            'status_log':   _p.get('status_log', ''),
+            'em_rota':      _p.get('em_rota', False),
+            'rota':         _p.get('rota', ''),
+            'placa':        _p.get('placa', ''),
+            'data_entrega': _p.get('data_entrega', ''),
+        }
 
 payload = {
     'atualizado_em':        datetime.now().strftime('%d/%m/%Y %H:%M'),
@@ -820,6 +849,7 @@ payload = {
     'pedidos_feitos':       _agrupar(_feitos),
     'faturados':            _faturados_agrupados,
     'cancelados':           _cancelados_agrupados,
+    'logistica_por_nf':     _logistica_por_nf,
     # Corte parcial (entregou parte) vem de Faturados; corte total (pedido
     # inteiro cortado) vem de Cortados/Cancelados — os dois têm que entrar
     # aqui, senão a aba "Produtos Cortados" só mostra metade dos cortes.
