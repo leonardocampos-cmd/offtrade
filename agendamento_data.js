@@ -719,6 +719,62 @@ const AGENDAMENTO_DATA = {
       "nome": "ANGELO NEVES SUZART - OFF TRADE",
       "itens": [
         {
+          "codigo_cliente": "84130",
+          "cliente": "VILA SANTA CRUZ COMERCIO DE GENEROS ALIMENTICIOS LTDA",
+          "cnpj": "35.602.394/0001-32",
+          "filial": "SANTA CRUZ",
+          "valor": 1115.0,
+          "nf": "",
+          "data_agendamento": "17/08/2026",
+          "data_ord": "2026-08-17",
+          "status": "FATURADO",
+          "obs": "",
+          "status_logistica": "",
+          "justificativa_logistica": ""
+        },
+        {
+          "codigo_cliente": "84066",
+          "cliente": "PREDILECTA DE XEREM COMERCIO DE GENEROS ALIMENTICIOS LTDA",
+          "cnpj": "44.291.406/0001-46",
+          "filial": "XEREM",
+          "valor": 1361.3,
+          "nf": "",
+          "data_agendamento": "17/08/2026",
+          "data_ord": "2026-08-17",
+          "status": "FATURADO",
+          "obs": "",
+          "status_logistica": "",
+          "justificativa_logistica": ""
+        },
+        {
+          "codigo_cliente": "96005",
+          "cliente": "MULTI GUARANI MERCADO (MULTIMARKET PIABETA)",
+          "cnpj": "67.911.623/0001-97",
+          "filial": "MAGE",
+          "valor": 2382.0,
+          "nf": "",
+          "data_agendamento": "17/08/2026",
+          "data_ord": "2026-08-17",
+          "status": "A FATURAR",
+          "obs": "",
+          "status_logistica": "",
+          "justificativa_logistica": ""
+        },
+        {
+          "codigo_cliente": "96005",
+          "cliente": "MULTI GUARANI MERCADO (MULTIMARKET PIABETA)",
+          "cnpj": "67.911.623/0001-97",
+          "filial": "MAGE",
+          "valor": 1684.3,
+          "nf": "",
+          "data_agendamento": "17/08/2026",
+          "data_ord": "2026-08-17",
+          "status": "A FATURAR",
+          "obs": "",
+          "status_logistica": "",
+          "justificativa_logistica": ""
+        },
+        {
           "codigo_cliente": "90486",
           "cliente": "SUPERMERCADO RIO SUL DE SEROPEDICA LTDA",
           "cnpj": "50.366.423/0001-06",
@@ -741,7 +797,7 @@ const AGENDAMENTO_DATA = {
           "nf": "7069",
           "data_agendamento": "13/08/2026",
           "data_ord": "2026-08-13",
-          "status": "EM ROTA",
+          "status": "ENTREGUE",
           "obs": "Embarcar caixas originais e íntegras.",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -755,7 +811,7 @@ const AGENDAMENTO_DATA = {
           "nf": "7114",
           "data_agendamento": "13/08/2026",
           "data_ord": "2026-08-13",
-          "status": "CANCELADO",
+          "status": "ENTREGUE",
           "obs": "Caixas e rótulos íntegros",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -6198,6 +6254,34 @@ const AGENDAMENTO_DATA = {
     {
       "nome": "DIOGO RAPOSO - OFF TRADE",
       "itens": [
+        {
+          "codigo_cliente": "92136",
+          "cliente": "KAUE ALVES DA SILVA",
+          "cnpj": "63.529.210/0001-91",
+          "filial": "OSWALDO CRUZ",
+          "valor": 14202.0,
+          "nf": "",
+          "data_agendamento": "17/08/2026",
+          "data_ord": "2026-08-17",
+          "status": "A FATURAR",
+          "obs": "Caixas e rótulos íntegros",
+          "status_logistica": "",
+          "justificativa_logistica": ""
+        },
+        {
+          "codigo_cliente": "78947",
+          "cliente": "SUPERMERCADO SHOW DE ECONOMIA LTDA",
+          "cnpj": "49.949.145/0001-22",
+          "filial": "JACAREPAGUA",
+          "valor": 563.6,
+          "nf": "",
+          "data_agendamento": "17/08/2026",
+          "data_ord": "2026-08-17",
+          "status": "A FATURAR",
+          "obs": "Caixas e rótulos íntegros",
+          "status_logistica": "",
+          "justificativa_logistica": ""
+        },
         {
           "codigo_cliente": "92136",
           "cliente": "KAUE ALVES DA SILVA",
@@ -16038,7 +16122,7 @@ const AGENDAMENTO_DATA = {
           "nf": "7258",
           "data_agendamento": "13/08/2026",
           "data_ord": "2026-08-13",
-          "status": "EM ROTA",
+          "status": "ENTREGUE",
           "obs": "",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -16161,6 +16245,20 @@ const AGENDAMENTO_DATA = {
       "nome": "JOSE MARCELO CARDOSO - OFF TRADE",
       "itens": [
         {
+          "codigo_cliente": "18798",
+          "cliente": "EMPORIO DO CADEG LTDA",
+          "cnpj": "33.119.105/0001-13",
+          "filial": "BENFICA (CADEG)",
+          "valor": 1455.18,
+          "nf": "6409",
+          "data_agendamento": "17/08/2026",
+          "data_ord": "2026-08-17",
+          "status": "CANCELADO",
+          "obs": "EMBARCAR AS CAIXAS ORIGINAIS E ÍNTEGRAS.",
+          "status_logistica": "",
+          "justificativa_logistica": ""
+        },
+        {
           "codigo_cliente": "50536",
           "cliente": "MAX FOOD DISTRIBUIÇÃO LTDA",
           "cnpj": "25.371.748/0001-21",
@@ -16171,20 +16269,6 @@ const AGENDAMENTO_DATA = {
           "data_ord": "2026-08-17",
           "status": "A FATURAR",
           "obs": "",
-          "status_logistica": "",
-          "justificativa_logistica": ""
-        },
-        {
-          "codigo_cliente": "18798",
-          "cliente": "EMPORIO DO CADEG LTDA",
-          "cnpj": "33.119.105/0001-13",
-          "filial": "BENFICA (CADEG)",
-          "valor": 1455.18,
-          "nf": "6409",
-          "data_agendamento": "13/08/2026",
-          "data_ord": "2026-08-13",
-          "status": "FATURADO",
-          "obs": "EMBARCAR AS CAIXAS ORIGINAIS E ÍNTEGRAS.",
           "status_logistica": "",
           "justificativa_logistica": ""
         },
@@ -17305,6 +17389,62 @@ const AGENDAMENTO_DATA = {
       "nome": "LEANDRO SOUZA - OFF TRADE",
       "itens": [
         {
+          "codigo_cliente": "77079",
+          "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
+          "cnpj": "05.546.194/0015-44",
+          "filial": "MARICA",
+          "valor": 3768.6,
+          "nf": "7429",
+          "data_agendamento": "17/08/2026",
+          "data_ord": "2026-08-17",
+          "status": "FATURADO",
+          "obs": "Caixas e rótulos íntegros;",
+          "status_logistica": "",
+          "justificativa_logistica": ""
+        },
+        {
+          "codigo_cliente": "73217",
+          "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
+          "cnpj": "05.546.194/0023-54",
+          "filial": "NOVA FRIBURGO",
+          "valor": 3768.6,
+          "nf": "7433",
+          "data_agendamento": "17/08/2026",
+          "data_ord": "2026-08-17",
+          "status": "FATURADO",
+          "obs": "Caixas e rótulos íntegros;",
+          "status_logistica": "",
+          "justificativa_logistica": ""
+        },
+        {
+          "codigo_cliente": "91983",
+          "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
+          "cnpj": "05.546.194/0003-00",
+          "filial": "SÃO GONÇALO",
+          "valor": 258.84,
+          "nf": "",
+          "data_agendamento": "17/08/2026",
+          "data_ord": "2026-08-17",
+          "status": "A FATURAR",
+          "obs": "Caixas e rótulos íntegros;",
+          "status_logistica": "",
+          "justificativa_logistica": ""
+        },
+        {
+          "codigo_cliente": "91984",
+          "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
+          "cnpj": "05.546.194/0005-72",
+          "filial": "DUQUE DE CAXIAS",
+          "valor": 517.68,
+          "nf": "",
+          "data_agendamento": "17/08/2026",
+          "data_ord": "2026-08-17",
+          "status": "A FATURAR",
+          "obs": "Caixas e rótulos íntegros;",
+          "status_logistica": "",
+          "justificativa_logistica": ""
+        },
+        {
           "codigo_cliente": "90415",
           "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
           "cnpj": "08.628.825/0024-53",
@@ -17347,34 +17487,6 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "77079",
-          "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
-          "cnpj": "05.546.194/0015-44",
-          "filial": "MARICA",
-          "valor": 3768.6,
-          "nf": "7429",
-          "data_agendamento": "13/08/2026",
-          "data_ord": "2026-08-13",
-          "status": "FATURADO",
-          "obs": "Caixas e rótulos íntegros;",
-          "status_logistica": "",
-          "justificativa_logistica": ""
-        },
-        {
-          "codigo_cliente": "73217",
-          "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
-          "cnpj": "05.546.194/0023-54",
-          "filial": "NOVA FRIBURGO",
-          "valor": 3768.6,
-          "nf": "7433",
-          "data_agendamento": "13/08/2026",
-          "data_ord": "2026-08-13",
-          "status": "FATURADO",
-          "obs": "Caixas e rótulos íntegros;",
-          "status_logistica": "",
-          "justificativa_logistica": ""
-        },
-        {
           "codigo_cliente": "9604",
           "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
           "cnpj": "08.628.825/0003-29",
@@ -17383,7 +17495,7 @@ const AGENDAMENTO_DATA = {
           "nf": "7431",
           "data_agendamento": "13/08/2026",
           "data_ord": "2026-08-13",
-          "status": "EM ROTA",
+          "status": "ENTREGUE",
           "obs": "SUPERMERCADO SUPERMAKET - PRODUTOS EM ENCARTE",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -17397,7 +17509,7 @@ const AGENDAMENTO_DATA = {
           "nf": "7438",
           "data_agendamento": "13/08/2026",
           "data_ord": "2026-08-13",
-          "status": "EM ROTA",
+          "status": "ENTREGUE",
           "obs": "SUPERMERCADO SUPERMAKET - PRODUTOS EM ENCARTE",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -22144,7 +22256,7 @@ const AGENDAMENTO_DATA = {
           "nf": "6964",
           "data_agendamento": "13/08/2026",
           "data_ord": "2026-08-13",
-          "status": "EM ROTA",
+          "status": "ENTREGUE",
           "obs": "CARGA SECA BATIDA - CANHOTO ASSINADO ELETRONICAMENTE",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -22186,7 +22298,7 @@ const AGENDAMENTO_DATA = {
           "nf": "7014",
           "data_agendamento": "13/08/2026",
           "data_ord": "2026-08-13",
-          "status": "EM ROTA",
+          "status": "ENTREGUE",
           "obs": "CARGA SECA BATIDA - CANHOTO ASSINADO ELETRONICAMENTE",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -25214,8 +25326,8 @@ const AGENDAMENTO_DATA = {
           "filial": "PACIENCIA",
           "valor": 2386.2,
           "nf": "7101",
-          "data_agendamento": "13/08/2026",
-          "data_ord": "2026-08-13",
+          "data_agendamento": "17/08/2026",
+          "data_ord": "2026-08-17",
           "status": "FATURADO",
           "obs": "",
           "status_logistica": "",
@@ -25994,7 +26106,7 @@ const AGENDAMENTO_DATA = {
       ]
     }
   ],
-  "atualizado_em": "14/08/2026 14:29",
+  "atualizado_em": "14/08/2026 15:25",
   "comparativo": [
     {
       "msg_id": "1a000be7acfbb4b6",
