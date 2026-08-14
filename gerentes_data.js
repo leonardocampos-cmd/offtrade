@@ -1,7 +1,7 @@
 // Gerado automaticamente
 
 const GERENTES_DATA = {
-  "atualizado_em": "14/08/2026 12:19",
+  "atualizado_em": "14/08/2026 13:22",
   "meses": [
     "Ago/26",
     "Jul/26",
@@ -1165,16 +1165,12 @@ const GERENTES_DATA = {
                 },
                 {
                   "nome": "DIRLEI ARAUJO - OFF TRADE",
-                  "rca": "417",
+                  "rca": "554",
                   "estado": "RJ",
                   "por_mes": {
                     "Abr/26": {
                       "fat": 500173.77,
                       "qt": 7336
-                    },
-                    "Ago/26": {
-                      "fat": 1647.6,
-                      "qt": 14
                     },
                     "Jul/26": {
                       "fat": 69791.44,
@@ -1191,6 +1187,10 @@ const GERENTES_DATA = {
                     "Mar/26": {
                       "fat": 697993.63,
                       "qt": 10412
+                    },
+                    "Ago/26": {
+                      "fat": 1647.6,
+                      "qt": 14
                     }
                   }
                 },
@@ -1467,7 +1467,7 @@ const GERENTES_DATA = {
                 },
                 {
                   "nome": "NÁTALI DE OLIVEIRA - OFF TRADE",
-                  "rca": "419",
+                  "rca": "482",
                   "estado": "RJ",
                   "por_mes": {
                     "Jul/26": {
@@ -1498,7 +1498,7 @@ const GERENTES_DATA = {
                 },
                 {
                   "nome": "VIVIANI ALVES - OFF TRADE",
-                  "rca": "91",
+                  "rca": "119",
                   "estado": "RJ",
                   "por_mes": {
                     "Abr/26": {
