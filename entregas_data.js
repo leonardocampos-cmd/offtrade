@@ -1,5 +1,5 @@
 const ENTREGAS_DATA = {
-  "atualizado_em": "14/08/2026 10:09",
+  "atualizado_em": "14/08/2026 10:26",
   "data_rota": "14.08",
   "alerta_data": "2026-08-06",
   "vendedores": [
@@ -74,10 +74,10 @@ const ENTREGAS_DATA = {
       ],
       "nao_emitido": [
         {
-          "numped": "431001244",
+          "numped": "431001245",
           "numnota": "",
           "data": "14/08/2026",
-          "cliente": "PADARIA E CONFEITARIA RIO DE SONHOS E SUSPIROS LTDA",
+          "cliente": "62.163.710 JENIFFER FERREIRA NASCIMENTO NUNES BARROS",
           "placa": "",
           "rota": "",
           "status_ped": "",
@@ -93,6 +93,31 @@ const ENTREGAS_DATA = {
             },
             {
               "desc": "RC ATUM RALADO OLEO 24X140G",
+              "qt": 1,
+              "val": 129.9
+            }
+          ]
+        },
+        {
+          "numped": "431001244",
+          "numnota": "",
+          "data": "14/08/2026",
+          "cliente": "PADARIA E CONFEITARIA RIO DE SONHOS E SUSPIROS LTDA",
+          "placa": "",
+          "rota": "",
+          "status_ped": "",
+          "status_log": "",
+          "motivo": "",
+          "obs": "",
+          "total": 259.8,
+          "itens": [
+            {
+              "desc": "RC ATUM RALADO OLEO 24X140G",
+              "qt": 1,
+              "val": 129.9
+            },
+            {
+              "desc": "RC ATUM RALADO MOLHO DE TOMATE 24X140G",
               "qt": 1,
               "val": 129.9
             }
