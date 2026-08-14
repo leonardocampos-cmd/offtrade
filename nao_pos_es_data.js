@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_es.py
 
 const NAO_POS_ES_DATA = {
-  "atualizado_em": "14/08/2026 12:12",
+  "atualizado_em": "14/08/2026 13:10",
   "por_vendedor": {
     "ADEILSON GONÇALVEZ": [
       {
@@ -23840,6 +23840,13 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
+        "codcli": "90559",
+        "cliente": "JV SUPERMERCADOS LTDA",
+        "bairro": "CENTRO",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
         "codcli": "90560",
         "cliente": "JV SUPERMERCADOS LTDA",
         "bairro": "AGUA LIMPA",
@@ -23855,13 +23862,6 @@ const NAO_POS_ES_DATA = {
       },
       {
         "codcli": "87088",
-        "cliente": "JV SUPERMERCADOS LTDA",
-        "bairro": "CENTRO",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "90559",
         "cliente": "JV SUPERMERCADOS LTDA",
         "bairro": "CENTRO",
         "dtultcomp": "nan",
@@ -23892,6 +23892,13 @@ const NAO_POS_ES_DATA = {
         "codcli": "82206",
         "cliente": "PERIN DISTRIBUIDORA LTDA",
         "bairro": "IRMA TEREZA ALTOE",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "96039",
+        "cliente": "RESTAURANTE E CHURRASCARIA RIO NEGRO LTDA",
+        "bairro": "SEAC",
         "dtultcomp": "nan",
         "produtos": []
       },
