@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_mg.py
 
 const NAO_POS_MG_DATA = {
-  "atualizado_em": "13/08/2026 16:03",
+  "atualizado_em": "14/08/2026 10:13",
   "por_vendedor": {
     "BRUNA CASTRO MELLO": [
       {
@@ -65,26 +65,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "35727",
-        "cliente": "SUPERMERCADO LEAO DA SERRA LTDA",
-        "bairro": "ITAIPU (BARREIRO)",
-        "dtultcomp": "18/05/2026",
-        "produtos": [
-          {
-            "produto": "RED BULL 24X250ML ENERG",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 184.56
-          },
-          {
-            "produto": "RED BULL SUGAR FREE 24X250ML ENERG",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 184.56
-          }
-        ]
-      },
-      {
         "codcli": "35724",
         "cliente": "SUPERMERCADO LEAO DA SERRA LTDA",
         "bairro": "MORADA DA SERRA",
@@ -104,6 +84,26 @@ const NAO_POS_MG_DATA = {
           },
           {
             "produto": "RED BULL TROPICAL 24X250 ML - ENERG",
+            "fantasia": "",
+            "qt": 1,
+            "valor": 184.56
+          }
+        ]
+      },
+      {
+        "codcli": "35727",
+        "cliente": "SUPERMERCADO LEAO DA SERRA LTDA",
+        "bairro": "ITAIPU (BARREIRO)",
+        "dtultcomp": "18/05/2026",
+        "produtos": [
+          {
+            "produto": "RED BULL 24X250ML ENERG",
+            "fantasia": "",
+            "qt": 1,
+            "valor": 184.56
+          },
+          {
+            "produto": "RED BULL SUGAR FREE 24X250ML ENERG",
             "fantasia": "",
             "qt": 1,
             "valor": 184.56
@@ -213,44 +213,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "39058",
-        "cliente": "COMERCIAL PRISMA LTDA",
-        "bairro": "PEDRA AZUL",
-        "dtultcomp": "05/06/2026",
-        "produtos": [
-          {
-            "produto": "CACHACA SELETA 600ML",
-            "fantasia": "SELETA",
-            "qt": 6,
-            "valor": 209.4
-          },
-          {
-            "produto": "GIN GORDONS 750 ML",
-            "fantasia": "DIAGEO",
-            "qt": 2,
-            "valor": 111.8
-          },
-          {
-            "produto": "GIN ORLOFF 1L",
-            "fantasia": "PERNOD",
-            "qt": 2,
-            "valor": 99.8
-          },
-          {
-            "produto": "VINHO ARESTI EST SEL ROSE 187ML",
-            "fantasia": "CASTAS",
-            "qt": 2,
-            "valor": 37.8
-          },
-          {
-            "produto": "VINHO ARESTI ESTATE S. CHARDONNAY 187ML",
-            "fantasia": "CASTAS",
-            "qt": 2,
-            "valor": 37.8
-          }
-        ]
-      },
-      {
         "codcli": "39315",
         "cliente": "CANTINHO RESTAURANTE LTDA",
         "bairro": "CÂNDIDA FERREIRA",
@@ -353,26 +315,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "DIAGEO",
             "qt": 12,
             "valor": 346.8
-          }
-        ]
-      },
-      {
-        "codcli": "39057",
-        "cliente": "MINI MERCADO PRISMA LTDA",
-        "bairro": "CONFISCO",
-        "dtultcomp": "30/06/2026",
-        "produtos": [
-          {
-            "produto": "GIN GORDONS 750 ML",
-            "fantasia": "DIAGEO",
-            "qt": 2,
-            "valor": 103.8
-          },
-          {
-            "produto": "GIN GORDONS PINK 700ML",
-            "fantasia": "DIAGEO",
-            "qt": 2,
-            "valor": 103.8
           }
         ]
       },
@@ -817,9 +759,9 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "37330",
+        "codcli": "37327",
         "cliente": "UNISSUL SUPERMERCADOS S/A",
-        "bairro": "NOVA ERA",
+        "bairro": "CENTRO",
         "dtultcomp": "30/07/2026",
         "produtos": [
           {
@@ -829,10 +771,10 @@ const NAO_POS_MG_DATA = {
             "valor": 514.8
           },
           {
-            "produto": "VILLA ROSA ROSE 750ML",
+            "produto": "VINHO FOODKILLER CAB SAUV MERLOT 750ML",
             "fantasia": "CASTAS",
             "qt": 6,
-            "valor": 257.4
+            "valor": 293.4
           },
           {
             "produto": "VODKA ORLOFF 1L - DEST",
@@ -875,9 +817,9 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "37327",
+        "codcli": "37330",
         "cliente": "UNISSUL SUPERMERCADOS S/A",
-        "bairro": "CENTRO",
+        "bairro": "NOVA ERA",
         "dtultcomp": "30/07/2026",
         "produtos": [
           {
@@ -887,10 +829,10 @@ const NAO_POS_MG_DATA = {
             "valor": 514.8
           },
           {
-            "produto": "VINHO FOODKILLER CAB SAUV MERLOT 750ML",
+            "produto": "VILLA ROSA ROSE 750ML",
             "fantasia": "CASTAS",
             "qt": 6,
-            "valor": 293.4
+            "valor": 257.4
           },
           {
             "produto": "VODKA ORLOFF 1L - DEST",
@@ -1029,38 +971,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "BETTER DRINKS",
             "qt": 6,
             "valor": 215.64
-          }
-        ]
-      },
-      {
-        "codcli": "32797",
-        "cliente": "AECIO LUCAS LACERDA",
-        "bairro": "OURO PRETO",
-        "dtultcomp": "25/03/2025",
-        "produtos": [
-          {
-            "produto": "4 PACK RED BULL AMORA SUGAR FREE 250ML",
-            "fantasia": "RED BULL",
-            "qt": 3,
-            "valor": 87.48
-          },
-          {
-            "produto": "GIN GORDONS 750 ML",
-            "fantasia": "DIAGEO",
-            "qt": 3,
-            "valor": 224.7
-          },
-          {
-            "produto": "GIN TANQUERAY  750 ML",
-            "fantasia": "DIAGEO",
-            "qt": 3,
-            "valor": 314.7
-          },
-          {
-            "produto": "WHISKY J WALKER GOLD LABEL RESERVE 750ML",
-            "fantasia": "DIAGEO",
-            "qt": 2,
-            "valor": 529.8
           }
         ]
       },
@@ -1821,26 +1731,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "33014",
-        "cliente": "ER COZINHA ARTESANAL LTDA",
-        "bairro": "LOURDES",
-        "dtultcomp": "18/06/2026",
-        "produtos": [
-          {
-            "produto": "YVY DESTILADO GIN AR LT 710ML",
-            "fantasia": "YVY",
-            "qt": 4,
-            "valor": 159.6
-          },
-          {
-            "produto": "YVY DESTILADO GIN MAR  LT 710ML",
-            "fantasia": "YVY",
-            "qt": 4,
-            "valor": 159.6
-          }
-        ]
-      },
-      {
         "codcli": "32871",
         "cliente": "ER COZINHA ARTESANAL LTDA",
         "bairro": "VILA DA SERRA",
@@ -1857,6 +1747,26 @@ const NAO_POS_MG_DATA = {
             "fantasia": "YVY",
             "qt": 6,
             "valor": 239.4
+          }
+        ]
+      },
+      {
+        "codcli": "33014",
+        "cliente": "ER COZINHA ARTESANAL LTDA",
+        "bairro": "LOURDES",
+        "dtultcomp": "18/06/2026",
+        "produtos": [
+          {
+            "produto": "YVY DESTILADO GIN AR LT 710ML",
+            "fantasia": "YVY",
+            "qt": 4,
+            "valor": 159.6
+          },
+          {
+            "produto": "YVY DESTILADO GIN MAR  LT 710ML",
+            "fantasia": "YVY",
+            "qt": 4,
+            "valor": 159.6
           }
         ]
       },
@@ -3229,44 +3139,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "TATUZINHO",
             "qt": 1,
             "valor": 26.9
-          }
-        ]
-      },
-      {
-        "codcli": "35736",
-        "cliente": "BAR E RESTAURANTE NUNES LTDA",
-        "bairro": "SANTA AMÉLIA",
-        "dtultcomp": "30/07/2026",
-        "produtos": [
-          {
-            "produto": "APERITIVO CAMPARI 998 ML",
-            "fantasia": "",
-            "qt": 2,
-            "valor": 99.8
-          },
-          {
-            "produto": "GIN TANQUERAY  750 ML",
-            "fantasia": "DIAGEO",
-            "qt": 2,
-            "valor": 187.8
-          },
-          {
-            "produto": "LICOR STOCK CURACAU 720 ML",
-            "fantasia": "",
-            "qt": 2,
-            "valor": 113.8
-          },
-          {
-            "produto": "RED BULL 250ML CAIXA C/24 UNID",
-            "fantasia": "RED BULL",
-            "qt": 1,
-            "valor": 179.76
-          },
-          {
-            "produto": "VODKA ORLOFF 1,75L",
-            "fantasia": "PERNOD",
-            "qt": 4,
-            "valor": 219.6
           }
         ]
       },
@@ -4975,26 +4847,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "38373",
-        "cliente": "MERCADO FOOD EMBALAGENS E LATICINIOS LTDA",
-        "bairro": "SOBRADINHO",
-        "dtultcomp": "27/07/2026",
-        "produtos": [
-          {
-            "produto": "CERVEJA AMSTEL PURO MALTE 473 ML",
-            "fantasia": "HEINEKEN",
-            "qt": 2,
-            "valor": 105.36
-          },
-          {
-            "produto": "CERVEJA HEINEKEN 12X473ML (LATAO)",
-            "fantasia": "HEINEKEN",
-            "qt": 2,
-            "valor": 143.76
-          }
-        ]
-      },
-      {
         "codcli": "38575",
         "cliente": "MARIA PAULINA VIEIRA",
         "bairro": "CENTRO",
@@ -5626,20 +5478,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "PERNOD",
             "qt": 36,
             "valor": 4280.4
-          }
-        ]
-      },
-      {
-        "codcli": "31944",
-        "cliente": "THE BEAT TRAINING ACADEMIA DE GINASTICA LTDA",
-        "bairro": "VILA DA SERRA",
-        "dtultcomp": "07/07/2026",
-        "produtos": [
-          {
-            "produto": "RED BULL ZERO 24X250ML",
-            "fantasia": "RED BULL",
-            "qt": 5,
-            "valor": 958.8
           }
         ]
       },
