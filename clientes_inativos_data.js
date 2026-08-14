@@ -1,7 +1,7 @@
 // Gerado automaticamente
 
 const INATIVOS_DATA = {
-  "atualizado_em": "14/08/2026 13:59",
+  "atualizado_em": "14/08/2026 14:14",
   "por_vendedor": {
     "ADEILSON GONÇALVEZ - OFF TRADE": {
       "rca": "431",
@@ -17004,6 +17004,15 @@ const INATIVOS_DATA = {
         }
       ],
       "novos": [
+        {
+          "codcli": "52483",
+          "cliente": "ELIAS FERNANDO DE OLIVEIRA LTDA",
+          "bairro": "CENTRO",
+          "cidade": "MORRO AGUDO",
+          "dtcadastro": "14/08/2026",
+          "dtultcomp": null,
+          "media": 0.0
+        },
         {
           "codcli": "52170",
           "cliente": "CEARA - BEBIDAS E PRODUTOS ALIMENTICIOS LTDA",
