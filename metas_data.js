@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const METAS_DATA = {
-  "atualizado_em": "14/08/2026 16:58",
+  "atualizado_em": "14/08/2026 17:17",
   "meses": [
     "Ago/26",
     "Jul/26",
@@ -22542,6 +22542,18 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "50465",
+          "CLIENTE": "FPS - COMERCIO E IMPORTACAO DE ALIMENTOS E BEBIDAS EIRELI",
+          "BAIRROENT": "SAO GERALDO",
+          "DTULTCOMP": "06/08/2026",
+          "produtos": [
+            {
+              "FANTASIA": "",
+              "DESCRICAO": "VINHO ARESTI ESTATE S. CAB SAUV 187ML"
+            }
+          ]
+        },
+        {
           "CODCLI": "92020",
           "CLIENTE": "DIEGO BERNARDINO SILVA",
           "BAIRROENT": "VILA IZABEL",
@@ -22549,20 +22561,8 @@ const METAS_DATA = {
           "produtos": [
             {
               "FANTASIA": "",
-              "DESCRICAO": "VINHO ARESTI ESTATE S. CAB SAUV 187ML"
-            },
-            {
-              "FANTASIA": "",
               "DESCRICAO": "VINHO ARESTI ESTATE S. CHADY 750ML"
-            }
-          ]
-        },
-        {
-          "CODCLI": "50465",
-          "CLIENTE": "FPS - COMERCIO E IMPORTACAO DE ALIMENTOS E BEBIDAS EIRELI",
-          "BAIRROENT": "SAO GERALDO",
-          "DTULTCOMP": "06/08/2026",
-          "produtos": [
+            },
             {
               "FANTASIA": "",
               "DESCRICAO": "VINHO ARESTI ESTATE S. CAB SAUV 187ML"
@@ -22629,11 +22629,11 @@ const METAS_DATA = {
           "produtos": [
             {
               "FANTASIA": "",
-              "DESCRICAO": "SPINOGLIO TIERRA ALTA TANNAT RESERVA TTO"
+              "DESCRICAO": "VINHO TINTO BURDIZZO APPASSIMENTO 750ML"
             },
             {
               "FANTASIA": "",
-              "DESCRICAO": "HUMB. CANALE DENARIO RESERVA CAB. FRANC"
+              "DESCRICAO": "SPINOGLIO TIERRA ALTA TANNAT RESERVA TTO"
             },
             {
               "FANTASIA": "",
@@ -22641,7 +22641,7 @@ const METAS_DATA = {
             },
             {
               "FANTASIA": "",
-              "DESCRICAO": "VINHO TINTO BURDIZZO APPASSIMENTO 750ML"
+              "DESCRICAO": "HUMB. CANALE DENARIO RESERVA CAB. FRANC"
             }
           ]
         },
@@ -22653,10 +22653,6 @@ const METAS_DATA = {
           "produtos": [
             {
               "FANTASIA": "",
-              "DESCRICAO": "VINHO LOS ALJIBES SYRAH  RED WINE 750ML"
-            },
-            {
-              "FANTASIA": "",
               "DESCRICAO": "BARBERA D'ALBA SUPERIORE 750ML"
             },
             {
@@ -22665,11 +22661,7 @@ const METAS_DATA = {
             },
             {
               "FANTASIA": "",
-              "DESCRICAO": "VINHO ARESTI ESTATE S. CARMENERE 750ML"
-            },
-            {
-              "FANTASIA": "",
-              "DESCRICAO": "VINHO BCO ARCAIA PINOT GRIGIO 750ML"
+              "DESCRICAO": "VINHO LOS ALJIBES SYRAH  RED WINE 750ML"
             },
             {
               "FANTASIA": "",
@@ -22681,15 +22673,23 @@ const METAS_DATA = {
             },
             {
               "FANTASIA": "",
-              "DESCRICAO": "VINHO TINTO BURDIZZO PRIMITIVO 750ML"
-            },
-            {
-              "FANTASIA": "",
               "DESCRICAO": "AZEITE ESSENZA D'ITALIA PREMIUM 12X500ML"
             },
             {
               "FANTASIA": "",
               "DESCRICAO": "VINHO ARESTI ESTATE S. CAB SAUV 750ML"
+            },
+            {
+              "FANTASIA": "",
+              "DESCRICAO": "VINHO ARESTI ESTATE S. CARMENERE 750ML"
+            },
+            {
+              "FANTASIA": "",
+              "DESCRICAO": "VINHO TINTO BURDIZZO PRIMITIVO 750ML"
+            },
+            {
+              "FANTASIA": "",
+              "DESCRICAO": "VINHO BCO ARCAIA PINOT GRIGIO 750ML"
             }
           ]
         },
