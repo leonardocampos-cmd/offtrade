@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_mg.py
 
 const NAO_POS_MG_DATA = {
-  "atualizado_em": "14/08/2026 14:30",
+  "atualizado_em": "14/08/2026 15:27",
   "por_vendedor": {
     "BRUNA CASTRO MELLO": [
       {
@@ -419,32 +419,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "BROWN-FORMAN",
             "qt": 5,
             "valor": 274.5
-          }
-        ]
-      },
-      {
-        "codcli": "38968",
-        "cliente": "ALEXANDRE BRAS MACIEL ARRUDA BAR",
-        "bairro": "ELDORADO",
-        "dtultcomp": "08/07/2026",
-        "produtos": [
-          {
-            "produto": "APERITIVO CAMPARI 998 ML",
-            "fantasia": "",
-            "qt": 2,
-            "valor": 95.8
-          },
-          {
-            "produto": "WHISKY WALKER RED LABEL 1L",
-            "fantasia": "DIAGEO",
-            "qt": 1,
-            "valor": 70.9
-          },
-          {
-            "produto": "WHISKY WHITE HORSE - 1L",
-            "fantasia": "DIAGEO",
-            "qt": 1,
-            "valor": 62.9
           }
         ]
       },
