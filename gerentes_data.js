@@ -1,7 +1,7 @@
 // Gerado automaticamente
 
 const GERENTES_DATA = {
-  "atualizado_em": "14/08/2026 10:06",
+  "atualizado_em": "14/08/2026 10:21",
   "meses": [
     "Ago/26",
     "Jul/26",
@@ -35,8 +35,8 @@ const GERENTES_DATA = {
           "qt": 51894
         },
         "Ago/26": {
-          "fat": 456812.53,
-          "qt": 8294
+          "fat": 469073.41,
+          "qt": 8694
         }
       },
       "gerentes": [
@@ -67,8 +67,8 @@ const GERENTES_DATA = {
               "qt": 44286
             },
             "Ago/26": {
-              "fat": 288392.53,
-              "qt": 6146
+              "fat": 300653.41,
+              "qt": 6546
             }
           },
           "supervisores": [
@@ -336,8 +336,8 @@ const GERENTES_DATA = {
                   "qt": 5134
                 },
                 "Ago/26": {
-                  "fat": 132759.13,
-                  "qt": 5271
+                  "fat": 145020.01,
+                  "qt": 5671
                 },
                 "Jul/26": {
                   "fat": 1149420.35,
@@ -413,8 +413,8 @@ const GERENTES_DATA = {
                       "qt": 3702
                     },
                     "Ago/26": {
-                      "fat": 115498.37,
-                      "qt": 5034
+                      "fat": 127759.25,
+                      "qt": 5434
                     },
                     "Jul/26": {
                       "fat": 1002789.93,
@@ -3321,8 +3321,8 @@ const GERENTES_DATA = {
       "nome": "Sem Estado",
       "por_mes": {
         "Ago/26": {
-          "fat": 43553.84,
-          "qt": 308
+          "fat": 47579.88,
+          "qt": 332
         },
         "Mai/26": {
           "fat": 11542.24,
@@ -3392,8 +3392,8 @@ const GERENTES_DATA = {
           "estados": [],
           "por_mes": {
             "Ago/26": {
-              "fat": 38751.84,
-              "qt": 231
+              "fat": 42777.88,
+              "qt": 255
             }
           },
           "supervisores": [
@@ -3517,8 +3517,8 @@ const GERENTES_DATA = {
               "estados": [],
               "por_mes": {
                 "Ago/26": {
-                  "fat": 38751.84,
-                  "qt": 231
+                  "fat": 42777.88,
+                  "qt": 255
                 }
               },
               "vendedores": [
@@ -3528,8 +3528,8 @@ const GERENTES_DATA = {
                   "estado": "",
                   "por_mes": {
                     "Ago/26": {
-                      "fat": 38751.84,
-                      "qt": 231
+                      "fat": 42777.88,
+                      "qt": 255
                     }
                   }
                 }
