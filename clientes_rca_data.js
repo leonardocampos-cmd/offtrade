@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "14/08/2026 10:48",
-  "total": 22026,
+  "atualizado_em": "14/08/2026 11:15",
+  "total": 22025,
   "clientes": [
     {
       "codcli": "38586",
@@ -184868,22 +184868,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "92095",
-      "razao": "JONATHAN FELIPE DE O. PEREIRA",
-      "fantasia": "HORTFRUTIGRAJEIROS E MERCEARIA IMPERIO",
-      "bairro": "SENADOR CAMARA",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "30.755.492/0001-96",
-      "estado": "RJ",
-      "ramo": "MERCADO",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
       "codcli": "36395",
       "razao": "JONATHAN FERREIRA",
       "fantasia": "JAPA DISTRIBUIDORA",
@@ -203788,22 +203772,6 @@ const CLIENTES_RCA_DATA = {
       "cnpj": "14.045.452/0001-02",
       "estado": "RJ",
       "ramo": "RESTAURANTE",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
-      "codcli": "82200",
-      "razao": "LIMA E MONTEIRO BAR E LANCHONETE LTDA",
-      "fantasia": "BIG POINT",
-      "bairro": "ICARAI",
-      "cidade": "NITEROI",
-      "cnpj": "05.589.931/0001-90",
-      "estado": "RJ",
-      "ramo": "CAFETERIA",
       "key_account": false,
       "rede": "",
       "codusur1": "10",
@@ -249552,6 +249520,22 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "10",
       "nome_usur1": "INATIVO3",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "86433",
+      "razao": "NERIS MINIMERCADO LTDA",
+      "fantasia": "MERCADO NERIS - ANIL",
+      "bairro": "ANIL",
+      "cidade": "RIO DE JANEIRO",
+      "cnpj": "36.160.185/0001-49",
+      "estado": "RJ",
+      "ramo": "MERCADO",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "144",
+      "nome_usur1": "DIOGO RAPOSO - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
