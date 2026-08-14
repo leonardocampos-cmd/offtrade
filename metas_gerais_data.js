@@ -1,5 +1,5 @@
 const METAS_GERAIS_DATA = {
-  "atualizado_em": "14/08/2026 16:34",
+  "atualizado_em": "14/08/2026 17:01",
   "mes": "Ago/26",
   "mes_ant": "Jul/26",
   "dias_corridos": 14,
@@ -9,7 +9,7 @@ const METAS_GERAIS_DATA = {
     "fat": NaN,
     "fat_ant": NaN,
     "fat_ant_completo": NaN,
-    "pos": 903,
+    "pos": 904,
     "pos_ant": 920,
     "pos_ant_completo": 1803
   },
@@ -41,7 +41,7 @@ const METAS_GERAIS_DATA = {
       "meta": 5500000.0,
       "fat": NaN,
       "fat_ant": NaN,
-      "pos": 420,
+      "pos": 421,
       "pct": NaN,
       "nec_dia": NaN,
       "fat_ant_completo": NaN,
@@ -111,11 +111,11 @@ const METAS_GERAIS_DATA = {
     },
     {
       "fantasia": "RED BULL",
-      "fat": 574012.85,
+      "fat": 725178.29,
       "fat_ant": 140961.9,
       "por_estado": {
         "RJ": 130591.56,
-        "SP": 151165.44,
+        "SP": 302330.88,
         "ES": 170312.05,
         "MG": 121943.8
       }
