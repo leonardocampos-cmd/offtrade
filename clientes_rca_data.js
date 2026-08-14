@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "14/08/2026 17:26",
-  "total": 22033,
+  "atualizado_em": "14/08/2026 17:42",
+  "total": 22032,
   "clientes": [
     {
       "codcli": "38586",
@@ -130592,22 +130592,6 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "10",
       "nome_usur1": "INATIVO",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
-      "codcli": "3157",
-      "razao": "EDILSON GONCALVES DE SOUSA - ME",
-      "fantasia": "ESTACAO 10",
-      "bairro": "RECREIO DOS BANDEIRANTES",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "13.041.772/0001-13",
-      "estado": "RJ",
-      "ramo": "QUIOSQUE",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
       "codusur2": "",
       "nome_usur2": ""
     },
