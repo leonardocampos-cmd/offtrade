@@ -1,7 +1,7 @@
 // Gerado automaticamente
 
 const GERENTES_DATA = {
-  "atualizado_em": "14/08/2026 14:55",
+  "atualizado_em": "14/08/2026 15:03",
   "meses": [
     "Ago/26",
     "Jul/26",
@@ -35,11 +35,61 @@ const GERENTES_DATA = {
           "qt": 51894
         },
         "Ago/26": {
-          "fat": 469073.41,
-          "qt": 8694
+          "fat": 520704.85,
+          "qt": 9058
         }
       },
       "gerentes": [
+        {
+          "nome": "DANIEL DINIZ",
+          "estados": [
+            "ES"
+          ],
+          "por_mes": {
+            "Ago/26": {
+              "fat": 51631.44,
+              "qt": 364
+            }
+          },
+          "supervisores": [
+            {
+              "nome": "EROCLES OLIVEIRA",
+              "estados": [
+                "ES"
+              ],
+              "por_mes": {
+                "Ago/26": {
+                  "fat": 51631.44,
+                  "qt": 364
+                }
+              },
+              "vendedores": [
+                {
+                  "nome": "OZISLLAN RAMALHO DE SOUZA - OFF TRADE",
+                  "rca": "269",
+                  "estado": "ES",
+                  "por_mes": {
+                    "Ago/26": {
+                      "fat": 46829.44,
+                      "qt": 287
+                    }
+                  }
+                },
+                {
+                  "nome": "WESLEY CARCHENO - OFF TRADE",
+                  "rca": "521",
+                  "estado": "ES",
+                  "por_mes": {
+                    "Ago/26": {
+                      "fat": 4802.0,
+                      "qt": 77
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
         {
           "nome": "EROCLES OLIVEIRA",
           "estados": [
@@ -863,8 +913,8 @@ const GERENTES_DATA = {
           "qt": 92027
         },
         "Ago/26": {
-          "fat": 911671.0,
-          "qt": 14538
+          "fat": 2219383.0,
+          "qt": 23946
         },
         "Jul/26": {
           "fat": 4142224.83,
@@ -1165,16 +1215,12 @@ const GERENTES_DATA = {
                 },
                 {
                   "nome": "DIRLEI ARAUJO - OFF TRADE",
-                  "rca": "417",
+                  "rca": "554",
                   "estado": "RJ",
                   "por_mes": {
                     "Abr/26": {
                       "fat": 500173.77,
                       "qt": 7336
-                    },
-                    "Ago/26": {
-                      "fat": 1647.6,
-                      "qt": 14
                     },
                     "Jul/26": {
                       "fat": 69791.44,
@@ -1191,6 +1237,10 @@ const GERENTES_DATA = {
                     "Mar/26": {
                       "fat": 697993.63,
                       "qt": 10412
+                    },
+                    "Ago/26": {
+                      "fat": 1647.6,
+                      "qt": 14
                     }
                   }
                 },
@@ -1532,30 +1582,6 @@ const GERENTES_DATA = {
           ]
         },
         {
-          "nome": "CRC",
-          "estados": [
-            "RJ"
-          ],
-          "por_mes": {},
-          "supervisores": [
-            {
-              "nome": "PATRICK MORAES",
-              "estados": [
-                "RJ"
-              ],
-              "por_mes": {},
-              "vendedores": [
-                {
-                  "nome": "DANIEL DINIZ - OFF TRADE",
-                  "rca": "306",
-                  "estado": "RJ",
-                  "por_mes": {}
-                }
-              ]
-            }
-          ]
-        },
-        {
           "nome": "DANIEL DINIZ",
           "estados": [
             "RJ"
@@ -1566,8 +1592,8 @@ const GERENTES_DATA = {
               "qt": 10026
             },
             "Ago/26": {
-              "fat": 192485.72,
-              "qt": 3019
+              "fat": 1500197.72,
+              "qt": 12427
             },
             "Jul/26": {
               "fat": 510688.62,
@@ -1598,8 +1624,8 @@ const GERENTES_DATA = {
                   "qt": 10026
                 },
                 "Ago/26": {
-                  "fat": 192485.72,
-                  "qt": 3019
+                  "fat": 1500197.72,
+                  "qt": 12427
                 },
                 "Jul/26": {
                   "fat": 510688.62,
@@ -1642,6 +1668,17 @@ const GERENTES_DATA = {
                   "rca": "170",
                   "estado": "RJ",
                   "por_mes": {}
+                },
+                {
+                  "nome": "DANIEL DINIZ - OFF TRADE",
+                  "rca": "306",
+                  "estado": "RJ",
+                  "por_mes": {
+                    "Ago/26": {
+                      "fat": 1307712.0,
+                      "qt": 9408
+                    }
+                  }
                 },
                 {
                   "nome": "FERNANDA DE OLIVEIRA - OFF TRADE",
@@ -3344,10 +3381,6 @@ const GERENTES_DATA = {
     {
       "nome": "Sem Estado",
       "por_mes": {
-        "Ago/26": {
-          "fat": 51631.44,
-          "qt": 364
-        },
         "Mai/26": {
           "fat": 11542.24,
           "qt": 118
@@ -3414,12 +3447,7 @@ const GERENTES_DATA = {
         {
           "nome": "DANIEL DINIZ",
           "estados": [],
-          "por_mes": {
-            "Ago/26": {
-              "fat": 46829.44,
-              "qt": 287
-            }
-          },
+          "por_mes": {},
           "supervisores": [
             {
               "nome": "DANIEL DINIZ",
@@ -3535,68 +3563,24 @@ const GERENTES_DATA = {
                   "por_mes": {}
                 }
               ]
-            },
-            {
-              "nome": "EROCLES OLIVEIRA",
-              "estados": [],
-              "por_mes": {
-                "Ago/26": {
-                  "fat": 46829.44,
-                  "qt": 287
-                }
-              },
-              "vendedores": [
-                {
-                  "nome": "OZISLLAN RAMALHO DE SOUZA - OFF TRADE",
-                  "rca": "269",
-                  "estado": "",
-                  "por_mes": {
-                    "Ago/26": {
-                      "fat": 46829.44,
-                      "qt": 287
-                    }
-                  }
-                }
-              ]
             }
           ]
         },
         {
           "nome": "EROCLES OLIVEIRA",
           "estados": [],
-          "por_mes": {
-            "Ago/26": {
-              "fat": 4802.0,
-              "qt": 77
-            }
-          },
+          "por_mes": {},
           "supervisores": [
             {
               "nome": "SUPERVISOR OFF - ES",
               "estados": [],
-              "por_mes": {
-                "Ago/26": {
-                  "fat": 4802.0,
-                  "qt": 77
-                }
-              },
+              "por_mes": {},
               "vendedores": [
                 {
                   "nome": "THIAGO TOMAZINI - OFF TRADE",
                   "rca": "426",
                   "estado": "",
                   "por_mes": {}
-                },
-                {
-                  "nome": "WESLEY CARCHENO - OFF TRADE",
-                  "rca": "521",
-                  "estado": "",
-                  "por_mes": {
-                    "Ago/26": {
-                      "fat": 4802.0,
-                      "qt": 77
-                    }
-                  }
                 }
               ]
             }
