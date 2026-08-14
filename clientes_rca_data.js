@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "14/08/2026 14:31",
-  "total": 22030,
+  "atualizado_em": "14/08/2026 15:27",
+  "total": 22028,
   "clientes": [
     {
       "codcli": "38586",
@@ -14332,22 +14332,6 @@ const CLIENTES_RCA_DATA = {
       "cnpj": "50.484.621/0001-66",
       "estado": "ES",
       "ramo": "LOJA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
-      "codcli": "72322",
-      "razao": "50.505.521 LUIS FERNANDO ZELAQUETE MARTINS",
-      "fantasia": "LFSTORE",
-      "bairro": "PARQUE FELICIDADE",
-      "cidade": "DUQUE DE CAXIAS",
-      "cnpj": "50.505.521/0001-79",
-      "estado": "RJ",
-      "ramo": "MERCADO",
       "key_account": false,
       "rede": "",
       "codusur1": "10",
@@ -40004,22 +39988,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "SOUZA"
     },
     {
-      "codcli": "67344",
-      "razao": "ALEJANDRO ABNER RODRIGUES GONCALVES 19647109792",
-      "fantasia": "ADEGA DO PEQUENO",
-      "bairro": "BANGU",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "44.447.867/0001-65",
-      "estado": "RJ",
-      "ramo": "BAR",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
       "codcli": "82181",
       "razao": "ALEJANDRO ANTONIO GUTIERREZ SANTAYANA LTDA",
       "fantasia": "GUTIS CAFE",
@@ -41072,22 +41040,6 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "10",
       "nome_usur1": "INATIVO",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
-      "codcli": "38968",
-      "razao": "ALEXANDRE BRAS MACIEL ARRUDA BAR",
-      "fantasia": "BAR DO ALEX",
-      "bairro": "ELDORADO",
-      "cidade": "CONTAGEM",
-      "cnpj": "45.861.124/0001-08",
-      "estado": "MG",
-      "ramo": "BAR",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "362",
-      "nome_usur1": "BRUNA CASTRO MELLO - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -70978,22 +70930,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "229",
       "nome_usur2": "LUIZA HASSEN"
-    },
-    {
-      "codcli": "10328",
-      "razao": "BIANCONE BAR E RESTAURANTE EIRELI",
-      "fantasia": "MARGUTTA IPANEMA",
-      "bairro": "IPANEMA",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "33.144.695/0001-34",
-      "estado": "RJ",
-      "ramo": "RESTAURANTE",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
     },
     {
       "codcli": "30259",
@@ -104192,22 +104128,6 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "10",
       "nome_usur1": "INATIVO",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
-      "codcli": "86223",
-      "razao": "COMERCIO E DISTRIBUIDORA DE BEBIDAS VD LTDA.",
-      "fantasia": "DEPOSITO DE BEBIDAS",
-      "bairro": "MONTE ALEGRE",
-      "cidade": "CABO FRIO",
-      "cnpj": "60.181.100/0001-93",
-      "estado": "RJ",
-      "ramo": "DISTRIBUIDORA DE BEBIDA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -138948,6 +138868,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "LAYZ WERNECK"
     },
     {
+      "codcli": "52487",
+      "razao": "ERIVELTON APARECIDO JORGE",
+      "fantasia": "JORGE E JORGE CONVENIENCIA",
+      "bairro": "SAO PEDRO",
+      "cidade": "VIRADOURO",
+      "cnpj": "13.746.340/0001-08",
+      "estado": "SP",
+      "ramo": "MINI-MERCADO",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "487",
+      "nome_usur1": "LUIZ RIGLER - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "7231",
       "razao": "ERIVELTON JORGE",
       "fantasia": "ERIVELTON JORGE",
@@ -151156,22 +151092,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "72606",
-      "razao": "FLIP RESTAURANTE E BAR LTDA",
-      "fantasia": "MANGALO CAFE BAR",
-      "bairro": "ENSEADA DO SUA",
-      "cidade": "VITORIA",
-      "cnpj": "41.753.143/0001-51",
-      "estado": "ES",
-      "ramo": "RESTAURANTE",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "190",
-      "nome_usur2": "ROMARIO DOS SANTOS"
-    },
-    {
       "codcli": "88259",
       "razao": "FLOR DA LAGOA PRODUTOS ALIMENTICIOS LTDA.",
       "fantasia": "FLOR DA LAGOA PRODUTOS ALIMENTICIOS",
@@ -155426,6 +155346,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO",
       "codusur2": "343",
       "nome_usur2": "FERNANDO RISSON - OFF TRADE"
+    },
+    {
+      "codcli": "25582",
+      "razao": "G2 COMERCIO ATACADISTA DE BEBIDAS E ALIMENTOS LTDA",
+      "fantasia": "G2 COMERCIO ATACADISTA DE BEBIDAS E ALIMENTOS",
+      "bairro": "PARQUE JOAO RAMALHO",
+      "cidade": "SANTO ANDRE",
+      "cnpj": "23.459.215/0001-70",
+      "estado": "SP",
+      "ramo": "DISTRIBUIDORA DE BEBIDA",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "512",
+      "nome_usur1": "WILLIAM GONCALVES - OFF TRADE",
+      "codusur2": "163",
+      "nome_usur2": "ROBSON FERREIRA"
     },
     {
       "codcli": "41117",
@@ -225618,6 +225554,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "190",
       "nome_usur2": "ROMARIO DOS SANTOS"
+    },
+    {
+      "codcli": "52488",
+      "razao": "MATEUS CESTARI MATOS LTDA",
+      "fantasia": "MATEUS CESTARI MATOS",
+      "bairro": "CENTRO",
+      "cidade": "VIRADOURO",
+      "cnpj": "45.540.730/0001-13",
+      "estado": "SP",
+      "ramo": "MINI-MERCADO",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "487",
+      "nome_usur1": "LUIZ RIGLER - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "93807",
@@ -315008,6 +314960,22 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "10",
       "nome_usur1": "INATIVO",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "40058",
+      "razao": "SONIA MARIA BARROS SOUZA",
+      "fantasia": "SUPERMERCADO JARDIM NOEMIA",
+      "bairro": "JARDIM MAIA",
+      "cidade": "SAO PAULO",
+      "cnpj": "24.971.500/0001-39",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "493",
+      "nome_usur1": "CAROLINA SOUZA - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
