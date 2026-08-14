@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_mg.py
 
 const NAO_POS_MG_DATA = {
-  "atualizado_em": "14/08/2026 16:14",
+  "atualizado_em": "14/08/2026 16:43",
   "por_vendedor": {
     "BRUNA CASTRO MELLO": [
       {
@@ -733,32 +733,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "37330",
-        "cliente": "UNISSUL SUPERMERCADOS S/A",
-        "bairro": "NOVA ERA",
-        "dtultcomp": "30/07/2026",
-        "produtos": [
-          {
-            "produto": "VILLA ROSA BRANCO 750ML",
-            "fantasia": "CASTAS",
-            "qt": 12,
-            "valor": 514.8
-          },
-          {
-            "produto": "VILLA ROSA ROSE 750ML",
-            "fantasia": "CASTAS",
-            "qt": 6,
-            "valor": 257.4
-          },
-          {
-            "produto": "VODKA ORLOFF 1L - DEST",
-            "fantasia": "",
-            "qt": 12,
-            "valor": 245.04
-          }
-        ]
-      },
-      {
         "codcli": "37327",
         "cliente": "UNISSUL SUPERMERCADOS S/A",
         "bairro": "CENTRO",
@@ -813,6 +787,32 @@ const NAO_POS_MG_DATA = {
             "fantasia": "PERNOD",
             "qt": 3,
             "valor": 177.54
+          }
+        ]
+      },
+      {
+        "codcli": "37330",
+        "cliente": "UNISSUL SUPERMERCADOS S/A",
+        "bairro": "NOVA ERA",
+        "dtultcomp": "30/07/2026",
+        "produtos": [
+          {
+            "produto": "VILLA ROSA BRANCO 750ML",
+            "fantasia": "CASTAS",
+            "qt": 12,
+            "valor": 514.8
+          },
+          {
+            "produto": "VILLA ROSA ROSE 750ML",
+            "fantasia": "CASTAS",
+            "qt": 6,
+            "valor": 257.4
+          },
+          {
+            "produto": "VODKA ORLOFF 1L - DEST",
+            "fantasia": "",
+            "qt": 12,
+            "valor": 245.04
           }
         ]
       },
@@ -3324,13 +3324,6 @@ const NAO_POS_MG_DATA = {
         "produtos": []
       },
       {
-        "codcli": "38762",
-        "cliente": "CHICO BAR MINEIRO RESTAURANTE, BAR E LANCHONETE LTDA",
-        "bairro": "PADRE EUSTÁQUIO",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
         "codcli": "39688",
         "cliente": "EMPORIO FP LTDA",
         "bairro": "SERRA VERDE (VENDA NOVA)",
@@ -4146,38 +4139,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "38185",
-        "cliente": "SUPERMERCADO NOVO HORIZONTE CRISTINA LTDA",
-        "bairro": "CONJUNTO CRISTINA (SÃO BENEDITO)",
-        "dtultcomp": "03/07/2026",
-        "produtos": [
-          {
-            "produto": "LICOR BALLENA COCO 750ML",
-            "fantasia": "BALLENA",
-            "qt": 3,
-            "valor": 347.7
-          },
-          {
-            "produto": "RUM BACARDI LIMON 980 ML",
-            "fantasia": "BACARDI",
-            "qt": 2,
-            "valor": 97.8
-          },
-          {
-            "produto": "RUM BACARDI MOJITO 980ML",
-            "fantasia": "BACARDI",
-            "qt": 1,
-            "valor": 48.9
-          },
-          {
-            "produto": "RUM MALIBU 750 ML",
-            "fantasia": "PERNOD",
-            "qt": 2,
-            "valor": 129.8
-          }
-        ]
-      },
-      {
         "codcli": "35497",
         "cliente": "SUPERMERCADO NOVO HORIZONTE PLUS LTDA",
         "bairro": "SANTA MARTINHA",
@@ -4412,26 +4373,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "29893",
-        "cliente": "PARANAIBA SERRA VERDE SUPERMERCADO LTDA",
-        "bairro": "SERRA VERDE (VENDA NOVA)",
-        "dtultcomp": "14/07/2026",
-        "produtos": [
-          {
-            "produto": "RUM MONTILLA CARTA BRANCA 1000 ML",
-            "fantasia": "PERNOD",
-            "qt": 6,
-            "valor": 147.0
-          },
-          {
-            "produto": "RUM MONTILLA CRISTAL 1000 ML",
-            "fantasia": "PERNOD",
-            "qt": 6,
-            "valor": 147.0
-          }
-        ]
-      },
-      {
         "codcli": "29892",
         "cliente": "PARANAIBA TUPI SUPERMERCADOS LTDA",
         "bairro": "TUPI B",
@@ -4550,20 +4491,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "DIAGEO",
             "qt": 6,
             "valor": 335.4
-          }
-        ]
-      },
-      {
-        "codcli": "29894",
-        "cliente": "VAREJAO PLANALTO LTDA.",
-        "bairro": "PLANALTO",
-        "dtultcomp": "16/07/2026",
-        "produtos": [
-          {
-            "produto": "COQUETEL ALCOÓLICO DON CREAM DULCE DE LE",
-            "fantasia": "DON LUIZ",
-            "qt": 3,
-            "valor": 224.7
           }
         ]
       },
