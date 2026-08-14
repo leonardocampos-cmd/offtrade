@@ -1,7 +1,7 @@
 // Gerado automaticamente
 
 const INATIVOS_DATA = {
-  "atualizado_em": "14/08/2026 13:12",
+  "atualizado_em": "14/08/2026 13:32",
   "por_vendedor": {
     "ADEILSON GONÇALVEZ - OFF TRADE": {
       "rca": "431",
@@ -9372,16 +9372,6 @@ const INATIVOS_DATA = {
       "estado": "RJ",
       "inativos": [
         {
-          "codcli": "54649",
-          "cliente": "A B A SALES DEPOSITO DE BEBIDAS",
-          "bairro": "COSTAZUL",
-          "cidade": "RIO DAS OSTRAS",
-          "dtultcomp": "28/12/2020",
-          "dias": 2055,
-          "rca_inativo": "N",
-          "media": 0.0
-        },
-        {
           "codcli": "68662",
           "cliente": "ELSHADAY COMERCIO DE ALIMENTOS E BEBIDAS LTDA",
           "bairro": "OPERARIO",
@@ -17453,19 +17443,19 @@ const INATIVOS_DATA = {
           "media": 528.19
         },
         {
-          "codcli": "50791",
-          "cliente": "BENFICA COMERCIO VAREJISTA DE ALIMENTOS LTDA",
-          "bairro": "JARDIM NOVO HORIZONTE",
-          "cidade": "LIMEIRA",
+          "codcli": "30352",
+          "cliente": "VITORIA MAX SUPERMERCADOS LTDA",
+          "bairro": "JARDIM GARCIA",
+          "cidade": "CAMPINAS",
           "dtultcomp": "29/05/2026",
           "dias": 77,
           "media": 211.0
         },
         {
-          "codcli": "30352",
-          "cliente": "VITORIA MAX SUPERMERCADOS LTDA",
-          "bairro": "JARDIM GARCIA",
-          "cidade": "CAMPINAS",
+          "codcli": "50791",
+          "cliente": "BENFICA COMERCIO VAREJISTA DE ALIMENTOS LTDA",
+          "bairro": "JARDIM NOVO HORIZONTE",
+          "cidade": "LIMEIRA",
           "dtultcomp": "29/05/2026",
           "dias": 77,
           "media": 211.0
@@ -17489,15 +17479,6 @@ const INATIVOS_DATA = {
           "media": 503.2
         },
         {
-          "codcli": "50205",
-          "cliente": "SKINA POLACO LTDA",
-          "bairro": "JARDIM DAS BANDEIRAS",
-          "cidade": "CAMPINAS",
-          "dtultcomp": "18/06/2026",
-          "dias": 57,
-          "media": 1260.02
-        },
-        {
           "codcli": "50409",
           "cliente": "SUPERMERCADO FELTRIN LTDA",
           "bairro": "CAMBUÍ",
@@ -17505,6 +17486,15 @@ const INATIVOS_DATA = {
           "dtultcomp": "18/06/2026",
           "dias": 57,
           "media": 1096.7
+        },
+        {
+          "codcli": "50205",
+          "cliente": "SKINA POLACO LTDA",
+          "bairro": "JARDIM DAS BANDEIRAS",
+          "cidade": "CAMPINAS",
+          "dtultcomp": "18/06/2026",
+          "dias": 57,
+          "media": 1260.02
         },
         {
           "codcli": "51219",
@@ -17615,9 +17605,27 @@ const INATIVOS_DATA = {
           "media": 99.77
         },
         {
+          "codcli": "49697",
+          "cliente": "SUPERMERCADO NEVADA LTDA",
+          "bairro": "JARDIM ZAIRA",
+          "cidade": "MAUA",
+          "dtultcomp": "30/05/2026",
+          "dias": 76,
+          "media": 799.2
+        },
+        {
           "codcli": "49701",
           "cliente": "MERCADINHO IRMAOS DOMINGOS LTDA",
           "bairro": "JARDIM QUARTO CENTENÁRIO",
+          "cidade": "MAUA",
+          "dtultcomp": "30/05/2026",
+          "dias": 76,
+          "media": 399.6
+        },
+        {
+          "codcli": "49700",
+          "cliente": "MERCADO JARDIM ZAIRA LOJA II LTDA",
+          "bairro": "JARDIM ZAIRA",
           "cidade": "MAUA",
           "dtultcomp": "30/05/2026",
           "dias": 76,
@@ -17640,24 +17648,6 @@ const INATIVOS_DATA = {
           "dtultcomp": "30/05/2026",
           "dias": 76,
           "media": 399.6
-        },
-        {
-          "codcli": "49700",
-          "cliente": "MERCADO JARDIM ZAIRA LOJA II LTDA",
-          "bairro": "JARDIM ZAIRA",
-          "cidade": "MAUA",
-          "dtultcomp": "30/05/2026",
-          "dias": 76,
-          "media": 399.6
-        },
-        {
-          "codcli": "49697",
-          "cliente": "SUPERMERCADO NEVADA LTDA",
-          "bairro": "JARDIM ZAIRA",
-          "cidade": "MAUA",
-          "dtultcomp": "30/05/2026",
-          "dias": 76,
-          "media": 799.2
         },
         {
           "codcli": "50904",
@@ -17723,13 +17713,13 @@ const INATIVOS_DATA = {
           "media": 589.51
         },
         {
-          "codcli": "50337",
-          "cliente": "FAMILIA PIRES DOCES LTDA",
+          "codcli": "50388",
+          "cliente": "COMERCIAL SANTA ISABEL MAIS LTDA",
           "bairro": "CENTRO",
           "cidade": "SANTA ISABEL",
           "dtultcomp": "10/06/2026",
           "dias": 65,
-          "media": 299.77
+          "media": 0.0
         },
         {
           "codcli": "50266",
@@ -17759,13 +17749,13 @@ const INATIVOS_DATA = {
           "media": 526.8
         },
         {
-          "codcli": "50388",
-          "cliente": "COMERCIAL SANTA ISABEL MAIS LTDA",
+          "codcli": "50337",
+          "cliente": "FAMILIA PIRES DOCES LTDA",
           "bairro": "CENTRO",
           "cidade": "SANTA ISABEL",
           "dtultcomp": "10/06/2026",
           "dias": 65,
-          "media": 0.0
+          "media": 299.77
         },
         {
           "codcli": "50339",
@@ -17785,15 +17775,6 @@ const INATIVOS_DATA = {
       "inativos": [],
       "sem_compra": [
         {
-          "codcli": "51531",
-          "cliente": "MANOEL BERNARDINA DE ALMEIDA EMPORIO",
-          "bairro": "SABOO",
-          "cidade": "SANTOS",
-          "dtultcomp": "11/07/2026",
-          "dias": 34,
-          "media": 234.84
-        },
-        {
           "codcli": "51652",
           "cliente": "SUPERMERCADO TALISMA DE SAO VICENTE LTDA",
           "bairro": "VILA MARGARIDA",
@@ -17801,6 +17782,15 @@ const INATIVOS_DATA = {
           "dtultcomp": "11/07/2026",
           "dias": 34,
           "media": 303.16
+        },
+        {
+          "codcli": "51531",
+          "cliente": "MANOEL BERNARDINA DE ALMEIDA EMPORIO",
+          "bairro": "SABOO",
+          "cidade": "SANTOS",
+          "dtultcomp": "11/07/2026",
+          "dias": 34,
+          "media": 234.84
         }
       ],
       "novos": [
@@ -17989,6 +17979,15 @@ const INATIVOS_DATA = {
           "cidade": "SAO SEBASTIAO",
           "dtultcomp": "30/01/2026",
           "dias": 196,
+          "media": 0.0
+        },
+        {
+          "codcli": "49442",
+          "cliente": "J. DA S. A. MINIMERCADO",
+          "bairro": "VILA QUAGGIO",
+          "cidade": "BAURU",
+          "dtultcomp": "13/04/2026",
+          "dias": 123,
           "media": 0.0
         }
       ],
