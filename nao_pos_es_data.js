@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_es.py
 
 const NAO_POS_ES_DATA = {
-  "atualizado_em": "14/08/2026 10:29",
+  "atualizado_em": "14/08/2026 10:48",
   "por_vendedor": {
     "ADEILSON GONÇALVEZ": [
       {
@@ -16225,7 +16225,14 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
-        "codcli": "67821",
+        "codcli": "3754",
+        "cliente": "SUPERMERCADO BARRA OESTE LTDA",
+        "bairro": "RECREIO DOS BANDEIRANTES",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "67822",
         "cliente": "SUPERMERCADO BARRA OESTE LTDA",
         "bairro": "BARRA DA TIJUCA",
         "dtultcomp": "nan",
@@ -16239,30 +16246,9 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
-        "codcli": "95668",
+        "codcli": "67821",
         "cliente": "SUPERMERCADO BARRA OESTE LTDA",
-        "bairro": "CASCADURA",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "95664",
-        "cliente": "SUPERMERCADO BARRA OESTE LTDA",
-        "bairro": "ANIL",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "95673",
-        "cliente": "SUPERMERCADO BARRA OESTE LTDA",
-        "bairro": "PARADA DE LUCAS",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "95672",
-        "cliente": "SUPERMERCADO BARRA OESTE LTDA",
-        "bairro": "PEDRA DE GUARATIBA",
+        "bairro": "BARRA DA TIJUCA",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -16274,6 +16260,34 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
+        "codcli": "95664",
+        "cliente": "SUPERMERCADO BARRA OESTE LTDA",
+        "bairro": "ANIL",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "95668",
+        "cliente": "SUPERMERCADO BARRA OESTE LTDA",
+        "bairro": "CASCADURA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "95672",
+        "cliente": "SUPERMERCADO BARRA OESTE LTDA",
+        "bairro": "PEDRA DE GUARATIBA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "95673",
+        "cliente": "SUPERMERCADO BARRA OESTE LTDA",
+        "bairro": "PARADA DE LUCAS",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
         "codcli": "95671",
         "cliente": "SUPERMERCADO BARRA OESTE LTDA",
         "bairro": "TANQUE",
@@ -16281,23 +16295,9 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
-        "codcli": "67822",
+        "codcli": "95670",
         "cliente": "SUPERMERCADO BARRA OESTE LTDA",
-        "bairro": "BARRA DA TIJUCA",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "3754",
-        "cliente": "SUPERMERCADO BARRA OESTE LTDA",
-        "bairro": "RECREIO DOS BANDEIRANTES",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "95665",
-        "cliente": "SUPERMERCADO BARRA OESTE LTDA",
-        "bairro": "GUARATIBA",
+        "bairro": "CENTRO",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -16309,9 +16309,9 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
-        "codcli": "95670",
+        "codcli": "95665",
         "cliente": "SUPERMERCADO BARRA OESTE LTDA",
-        "bairro": "CENTRO",
+        "bairro": "GUARATIBA",
         "dtultcomp": "nan",
         "produtos": []
       }
@@ -16766,9 +16766,9 @@ const NAO_POS_ES_DATA = {
         ]
       },
       {
-        "codcli": "78665",
+        "codcli": "90415",
         "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
-        "bairro": "DEL CASTILHO",
+        "bairro": "PENHA",
         "dtultcomp": "10/06/2026",
         "produtos": [
           {
@@ -16804,9 +16804,9 @@ const NAO_POS_ES_DATA = {
         ]
       },
       {
-        "codcli": "90415",
+        "codcli": "78665",
         "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
-        "bairro": "PENHA",
+        "bairro": "DEL CASTILHO",
         "dtultcomp": "10/06/2026",
         "produtos": [
           {
@@ -16880,9 +16880,9 @@ const NAO_POS_ES_DATA = {
         ]
       },
       {
-        "codcli": "90413",
+        "codcli": "90406",
         "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
-        "bairro": "VALVERDE",
+        "bairro": "LARGO DA BATALHA",
         "dtultcomp": "11/06/2026",
         "produtos": [
           {
@@ -16918,9 +16918,9 @@ const NAO_POS_ES_DATA = {
         ]
       },
       {
-        "codcli": "90406",
+        "codcli": "90413",
         "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
-        "bairro": "LARGO DA BATALHA",
+        "bairro": "VALVERDE",
         "dtultcomp": "11/06/2026",
         "produtos": [
           {
@@ -17276,6 +17276,44 @@ const NAO_POS_ES_DATA = {
         ]
       },
       {
+        "codcli": "94957",
+        "cliente": "JNH SUPERMERCADOS LTDA",
+        "bairro": "BACAXÁ (BACAXÁ)",
+        "dtultcomp": "22/07/2026",
+        "produtos": [
+          {
+            "produto": "NECTAR CAJU 12X1000ML",
+            "fantasia": "TIAL",
+            "qt": 1,
+            "valor": 59.88
+          },
+          {
+            "produto": "NECTAR DE MARACUJA 24X200ML KIDS",
+            "fantasia": "TIAL",
+            "qt": 1,
+            "valor": 47.76
+          },
+          {
+            "produto": "NECTAR MACA TIAL 12X1000ML",
+            "fantasia": "TIAL",
+            "qt": 1,
+            "valor": 59.88
+          },
+          {
+            "produto": "NECTAR MISTO LARANJA E PERA 24X200ML KID",
+            "fantasia": "TIAL",
+            "qt": 1,
+            "valor": 47.76
+          },
+          {
+            "produto": "NECTAR PESSEGO 12X1000ML",
+            "fantasia": "TIAL",
+            "qt": 1,
+            "valor": 59.88
+          }
+        ]
+      },
+      {
         "codcli": "94956",
         "cliente": "JNH SUPERMERCADOS LTDA",
         "bairro": "PORTO DA ROÇA II (BACAXÁ)",
@@ -17332,44 +17370,6 @@ const NAO_POS_ES_DATA = {
         ]
       },
       {
-        "codcli": "94957",
-        "cliente": "JNH SUPERMERCADOS LTDA",
-        "bairro": "BACAXÁ (BACAXÁ)",
-        "dtultcomp": "22/07/2026",
-        "produtos": [
-          {
-            "produto": "NECTAR CAJU 12X1000ML",
-            "fantasia": "TIAL",
-            "qt": 1,
-            "valor": 59.88
-          },
-          {
-            "produto": "NECTAR DE MARACUJA 24X200ML KIDS",
-            "fantasia": "TIAL",
-            "qt": 1,
-            "valor": 47.76
-          },
-          {
-            "produto": "NECTAR MACA TIAL 12X1000ML",
-            "fantasia": "TIAL",
-            "qt": 1,
-            "valor": 59.88
-          },
-          {
-            "produto": "NECTAR MISTO LARANJA E PERA 24X200ML KID",
-            "fantasia": "TIAL",
-            "qt": 1,
-            "valor": 47.76
-          },
-          {
-            "produto": "NECTAR PESSEGO 12X1000ML",
-            "fantasia": "TIAL",
-            "qt": 1,
-            "valor": 59.88
-          }
-        ]
-      },
-      {
         "codcli": "28385",
         "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOA LTDA",
         "bairro": "RIO DO OURO",
@@ -17380,6 +17380,26 @@ const NAO_POS_ES_DATA = {
             "fantasia": "FANTE",
             "qt": 24,
             "valor": 276.0
+          }
+        ]
+      },
+      {
+        "codcli": "61684",
+        "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
+        "bairro": "BARROCO (ITAIPUACU)",
+        "dtultcomp": "27/07/2026",
+        "produtos": [
+          {
+            "produto": "ST PIERRE LATA PINK LEMON LT 24X270ML",
+            "fantasia": "TATUZINHO",
+            "qt": 1,
+            "valor": 95.52
+          },
+          {
+            "produto": "SUCO DE UVA TTO INT QUINTA DO MORGADO 1L",
+            "fantasia": "FANTE",
+            "qt": 60,
+            "valor": 690.0
           }
         ]
       },
@@ -17418,26 +17438,6 @@ const NAO_POS_ES_DATA = {
             "fantasia": "FANTE",
             "qt": 36,
             "valor": 414.0
-          }
-        ]
-      },
-      {
-        "codcli": "61684",
-        "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
-        "bairro": "BARROCO (ITAIPUACU)",
-        "dtultcomp": "27/07/2026",
-        "produtos": [
-          {
-            "produto": "ST PIERRE LATA PINK LEMON LT 24X270ML",
-            "fantasia": "TATUZINHO",
-            "qt": 1,
-            "valor": 95.52
-          },
-          {
-            "produto": "SUCO DE UVA TTO INT QUINTA DO MORGADO 1L",
-            "fantasia": "FANTE",
-            "qt": 60,
-            "valor": 690.0
           }
         ]
       },
@@ -17533,58 +17533,9 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
-        "codcli": "91982",
+        "codcli": "91984",
         "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
-        "bairro": "SANTO CRISTO",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "92003",
-        "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
-        "bairro": "PAVUNA",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "91998",
-        "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
-        "bairro": "CENTRO",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "91986",
-        "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
-        "bairro": "VILAR DOS TELES",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "91985",
-        "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
-        "bairro": "BANGU",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "91987",
-        "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
-        "bairro": "CENTRO",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "91981",
-        "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
-        "bairro": "RAUL VEIGA",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "91983",
-        "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
-        "bairro": "PACHECO",
+        "bairro": "PARQUE URUGUAIANA",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -17596,30 +17547,44 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
-        "codcli": "91984",
+        "codcli": "91983",
         "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
-        "bairro": "PARQUE URUGUAIANA",
+        "bairro": "PACHECO",
         "dtultcomp": "nan",
         "produtos": []
       },
       {
-        "codcli": "92004",
+        "codcli": "91981",
+        "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
+        "bairro": "RAUL VEIGA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "91987",
         "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
         "bairro": "CENTRO",
         "dtultcomp": "nan",
         "produtos": []
       },
       {
-        "codcli": "91990",
+        "codcli": "91985",
         "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
-        "bairro": "CENTRO",
+        "bairro": "BANGU",
         "dtultcomp": "nan",
         "produtos": []
       },
       {
-        "codcli": "92000",
+        "codcli": "91986",
         "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
-        "bairro": "CENTRO (MANILHA)",
+        "bairro": "VILAR DOS TELES",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "92001",
+        "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
+        "bairro": "PAVUNA",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -17645,9 +17610,30 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
-        "codcli": "92001",
+        "codcli": "91998",
+        "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
+        "bairro": "CENTRO",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "92000",
+        "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
+        "bairro": "CENTRO (MANILHA)",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "92003",
         "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
         "bairro": "PAVUNA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "91990",
+        "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
+        "bairro": "CENTRO",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -17659,6 +17645,20 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
+        "codcli": "91982",
+        "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
+        "bairro": "SANTO CRISTO",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "92004",
+        "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
+        "bairro": "CENTRO",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
         "codcli": "28411",
         "cliente": "SUPERMERCADO PADRAO DO FONSECA EIRELI",
         "bairro": "PORTO VELHO",
@@ -17666,16 +17666,16 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
-        "codcli": "90411",
+        "codcli": "90407",
         "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
-        "bairro": "CENTRO",
+        "bairro": "VIGA",
         "dtultcomp": "nan",
         "produtos": []
       },
       {
-        "codcli": "90407",
+        "codcli": "90411",
         "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
-        "bairro": "VIGA",
+        "bairro": "CENTRO",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -24004,6 +24004,56 @@ const NAO_POS_ES_DATA = {
         ]
       },
       {
+        "codcli": "91462",
+        "cliente": "23.208.956 WILLIAN SILVA DOS SANTOS BRITO",
+        "bairro": "JACARE",
+        "dtultcomp": "22/04/2026",
+        "produtos": [
+          {
+            "produto": "COQUETEL PINK MOON 12X600ML - PET",
+            "fantasia": "COMARY",
+            "qt": 2,
+            "valor": 156.6
+          },
+          {
+            "produto": "GIN INVICTUS MACA VERDE 900ML",
+            "fantasia": "INVICTUS",
+            "qt": 1,
+            "valor": 14.9
+          },
+          {
+            "produto": "GIN INVICTUS MELANCIA 900ML",
+            "fantasia": "INVICTUS",
+            "qt": 1,
+            "valor": 14.9
+          },
+          {
+            "produto": "GIN INVICTUS TRADICIONAL 900ML",
+            "fantasia": "INVICTUS",
+            "qt": 1,
+            "valor": 14.9
+          },
+          {
+            "produto": "GIN INVICTUS TROPICAL 900ML",
+            "fantasia": "INVICTUS",
+            "qt": 1,
+            "valor": 14.9
+          },
+          {
+            "produto": "SABOR DO SABOR GIN + COMBO MELANCIA",
+            "fantasia": "INVICTUS",
+            "qt": 1,
+            "valor": 9.8
+          },
+          {
+            "produto": "SABOR DO SABOR WHISKY + COMBO TRAD",
+            "fantasia": "INVICTUS",
+            "qt": 1,
+            "valor": 9.8
+          }
+        ]
+      },
+      {
         "codcli": "55490",
         "cliente": "GYPSY BAR E RESTAURANTE EIRELI",
         "bairro": "CENTRO",
@@ -25062,20 +25112,6 @@ const NAO_POS_ES_DATA = {
             "fantasia": "RED BULL",
             "qt": 1,
             "valor": 179.76
-          }
-        ]
-      },
-      {
-        "codcli": "91462",
-        "cliente": "23.208.956 WILLIAN SILVA DOS SANTOS BRITO",
-        "bairro": "JACARE",
-        "dtultcomp": "22/07/2026",
-        "produtos": [
-          {
-            "produto": "CACHACA SELETA PRATA 1L",
-            "fantasia": "BOAZINHA",
-            "qt": 1,
-            "valor": 40.9
           }
         ]
       },
