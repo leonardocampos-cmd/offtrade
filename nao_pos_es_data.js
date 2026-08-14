@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_es.py
 
 const NAO_POS_ES_DATA = {
-  "atualizado_em": "14/08/2026 10:48",
+  "atualizado_em": "14/08/2026 11:14",
   "por_vendedor": {
     "ADEILSON GONÇALVEZ": [
       {
@@ -7843,6 +7843,20 @@ const NAO_POS_ES_DATA = {
             "fantasia": "RECKITT",
             "qt": 4,
             "valor": 259.2
+          }
+        ]
+      },
+      {
+        "codcli": "86433",
+        "cliente": "NERIS MINIMERCADO LTDA",
+        "bairro": "ANIL",
+        "dtultcomp": "02/06/2026",
+        "produtos": [
+          {
+            "produto": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID",
+            "fantasia": "KAISER",
+            "qt": 25,
+            "valor": 1597.5
           }
         ]
       },
@@ -16225,14 +16239,7 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
-        "codcli": "3754",
-        "cliente": "SUPERMERCADO BARRA OESTE LTDA",
-        "bairro": "RECREIO DOS BANDEIRANTES",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "67822",
+        "codcli": "67821",
         "cliente": "SUPERMERCADO BARRA OESTE LTDA",
         "bairro": "BARRA DA TIJUCA",
         "dtultcomp": "nan",
@@ -16246,16 +16253,9 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
-        "codcli": "67821",
+        "codcli": "95668",
         "cliente": "SUPERMERCADO BARRA OESTE LTDA",
-        "bairro": "BARRA DA TIJUCA",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "95666",
-        "cliente": "SUPERMERCADO BARRA OESTE LTDA",
-        "bairro": "CAMPO GRANDE",
+        "bairro": "CASCADURA",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -16267,9 +16267,9 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
-        "codcli": "95668",
+        "codcli": "95673",
         "cliente": "SUPERMERCADO BARRA OESTE LTDA",
-        "bairro": "CASCADURA",
+        "bairro": "PARADA DE LUCAS",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -16281,9 +16281,9 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
-        "codcli": "95673",
+        "codcli": "95666",
         "cliente": "SUPERMERCADO BARRA OESTE LTDA",
-        "bairro": "PARADA DE LUCAS",
+        "bairro": "CAMPO GRANDE",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -16295,9 +16295,23 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
-        "codcli": "95670",
+        "codcli": "67822",
         "cliente": "SUPERMERCADO BARRA OESTE LTDA",
-        "bairro": "CENTRO",
+        "bairro": "BARRA DA TIJUCA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "3754",
+        "cliente": "SUPERMERCADO BARRA OESTE LTDA",
+        "bairro": "RECREIO DOS BANDEIRANTES",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "95665",
+        "cliente": "SUPERMERCADO BARRA OESTE LTDA",
+        "bairro": "GUARATIBA",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -16309,9 +16323,9 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
-        "codcli": "95665",
+        "codcli": "95670",
         "cliente": "SUPERMERCADO BARRA OESTE LTDA",
-        "bairro": "GUARATIBA",
+        "bairro": "CENTRO",
         "dtultcomp": "nan",
         "produtos": []
       }
