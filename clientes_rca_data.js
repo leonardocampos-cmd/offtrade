@@ -1,6 +1,6 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "14/08/2026 13:11",
+  "atualizado_em": "14/08/2026 13:30",
   "total": 22026,
   "clientes": [
     {
@@ -30523,7 +30523,7 @@ const CLIENTES_RCA_DATA = {
       "cidade": "RIO DAS OSTRAS",
       "cnpj": "11.642.254/0001-20",
       "estado": "RJ",
-      "ramo": "MERCADO",
+      "ramo": "COMERCIO VAREJISTA (GERAL)",
       "key_account": false,
       "rede": "",
       "codusur1": "10",
