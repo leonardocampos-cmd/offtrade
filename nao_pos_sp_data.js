@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_sp.py
 
 const NAO_POS_SP_DATA = {
-  "atualizado_em": "14/08/2026 14:11",
+  "atualizado_em": "14/08/2026 14:29",
   "por_vendedor": {
     "ADER ALONSO": [
       {
@@ -10625,14 +10625,14 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
-        "codcli": "51835",
+        "codcli": "51833",
         "cliente": "SUPERMERCADO IBIRAPUERA LTDA",
         "bairro": "JOAO ARANHA",
         "dtultcomp": "nan",
         "produtos": []
       },
       {
-        "codcli": "51833",
+        "codcli": "51835",
         "cliente": "SUPERMERCADO IBIRAPUERA LTDA",
         "bairro": "JOAO ARANHA",
         "dtultcomp": "nan",
@@ -11449,6 +11449,13 @@ const NAO_POS_SP_DATA = {
         "codcli": "52170",
         "cliente": "CEARA - BEBIDAS E PRODUTOS ALIMENTICIOS LTDA",
         "bairro": "JARDIM SEYON",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "52484",
+        "cliente": "CONVENIENCIA TODO DIA DE VIRADOURO LTDA.",
+        "bairro": "VILA SAO PEDRO",
         "dtultcomp": "nan",
         "produtos": []
       },
