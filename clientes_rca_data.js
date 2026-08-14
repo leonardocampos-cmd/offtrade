@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "14/08/2026 15:27",
-  "total": 22028,
+  "atualizado_em": "14/08/2026 16:16",
+  "total": 22035,
   "clientes": [
     {
       "codcli": "38586",
@@ -26960,6 +26960,22 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "10",
       "nome_usur1": "INATIVO3",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "96046",
+      "razao": "60.768.163 ANA CONCEICAO DELUCA COSTA",
+      "fantasia": "ANA CONCEICAO DELUCA COSTA",
+      "bairro": "MANGUINHOS",
+      "cidade": "ARMACAO DOS BUZ",
+      "cnpj": "60.768.163/0001-40",
+      "estado": "RJ",
+      "ramo": "BAR",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "155",
+      "nome_usur1": "RAPHAEL SANTOS - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -91540,6 +91556,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "RODRIGO FREITAS"
     },
     {
+      "codcli": "48280",
+      "razao": "CATROQUE MERCADINHO LTDA",
+      "fantasia": "CATROQUE MERCADINHO",
+      "bairro": "VILA PRIMAVERA",
+      "cidade": "JARINU",
+      "cnpj": "11.795.166/0001-68",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "475",
+      "nome_usur1": "LUCAS BUENO - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "9436",
       "razao": "CATUABA INDUSTRIA DE BEBIDAS S/A",
       "fantasia": "",
@@ -135758,8 +135790,8 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MINI-MERCADO",
       "key_account": false,
       "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "SPON",
+      "codusur1": "475",
+      "nome_usur1": "LUCAS BUENO - OFF TRADE",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
@@ -136816,6 +136848,22 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "10",
       "nome_usur1": "INATIVO3",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "47462",
+      "razao": "EMPORIO PAVANELLI LTDA",
+      "fantasia": "EMPORIO PAVANELLI",
+      "bairro": "CENTRO",
+      "cidade": "PIRACICABA",
+      "cnpj": "62.226.220/0001-95",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "425",
+      "nome_usur1": "BRUNO BARBOSA - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -169579,22 +169627,6 @@ const CLIENTES_RCA_DATA = {
       "cidade": "SERRA",
       "cnpj": "49.238.147/0001-03",
       "estado": "ES",
-      "ramo": "MERCADO",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
-      "codcli": "94805",
-      "razao": "HORTIFRUTI NOVO LEME LTDA",
-      "fantasia": "CARIOCA FRUT",
-      "bairro": "LEME",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "44.626.121/0001-19",
-      "estado": "RJ",
       "ramo": "MERCADO",
       "key_account": false,
       "rede": "",
@@ -227572,6 +227604,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "52493",
+      "razao": "MD ATACADO E VAREJO DE COMERCIO E DISTRIBUIDORA DE BEBIDAS E",
+      "fantasia": "MD ATACADO E VAREJO DE BEBIDAS",
+      "bairro": "CIDADE NOVA II",
+      "cidade": "INDAIATUBA",
+      "cnpj": "67.113.980/0001-00",
+      "estado": "SP",
+      "ramo": "DISTRIBUIDORA DE BEBIDA",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "518",
+      "nome_usur1": "PAULO THOMAZI - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "34437",
       "razao": "MD DISTRIBUIDORA DE BEBIDAS LTDA",
       "fantasia": "MD DISTRIBUIDORA DE BEBIDAS",
@@ -249364,6 +249412,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "52494",
+      "razao": "NELCI DRUMOND OVILE",
+      "fantasia": "MERCADINHO DO POVO",
+      "bairro": "CENTRO",
+      "cidade": "CERQUEIRA CESAR",
+      "cnpj": "53.491.775/0001-73",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "477",
+      "nome_usur1": "LUCIANO TOSCHI - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "84486",
       "razao": "NELIO BRAVIN",
       "fantasia": "KILAO UNIAO BRAVIN",
@@ -258384,6 +258448,22 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "10",
       "nome_usur1": "INATIVO3",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "50474",
+      "razao": "P.P.R PEROZI SUPERMERCADO LTDA",
+      "fantasia": "SUPERMERCADO THAIS",
+      "bairro": "VILA NOVA",
+      "cidade": "FARTURA",
+      "cnpj": "10.614.316/0001-27",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "477",
+      "nome_usur1": "LUCIANO TOSCHI - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -309364,6 +309444,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "ALLAN PAES - OFF TRADE"
     },
     {
+      "codcli": "48778",
+      "razao": "SENHOR SABOR RESTAURANTE LTDA",
+      "fantasia": "SENHOR SABOR RESTAURANTE EIRELI",
+      "bairro": "CAMPO BELO",
+      "cidade": "SAO PAULO",
+      "cnpj": "33.576.534/0001-10",
+      "estado": "SP",
+      "ramo": "RESTAURANTE",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "475",
+      "nome_usur1": "LUCAS BUENO - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "29557",
       "razao": "SENHORA OLGA BAR E RESTAURANTE LTDA.",
       "fantasia": "OLGA NUR SOLAR DO ROSARIO",
@@ -319344,6 +319440,22 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "10",
       "nome_usur1": "SPON",
+      "codusur2": "399",
+      "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
+    },
+    {
+      "codcli": "48281",
+      "razao": "SUPERMERCADO CATROQUE LTDA",
+      "fantasia": "SUPERMERCADO CATROQUE",
+      "bairro": "MARACANA",
+      "cidade": "JARINU",
+      "cnpj": "67.057.315/0002-27",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "475",
+      "nome_usur1": "LUCAS BUENO - OFF TRADE",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
     },
