@@ -16289,7 +16289,7 @@ const AGENDAMENTO_DATA = {
         {
           "codigo_cliente": "6278",
           "cliente": "SUPERMERCADOS MUNDIAL LTDA",
-          "cnpj": "33304981000110",
+          "cnpj": "33.304.981/0001-10",
           "filial": "INHAUMA",
           "valor": 8748.0,
           "nf": "",
@@ -17417,6 +17417,20 @@ const AGENDAMENTO_DATA = {
       "nome": "LEANDRO SOUZA - OFF TRADE",
       "itens": [
         {
+          "codigo_cliente": "28385",
+          "cliente": "BOM DE PRECO COMERCIO - REDE ECONOMIA",
+          "cnpj": "18.322.565/0002-31",
+          "filial": "SÃO GONÇALO",
+          "valor": 152.2,
+          "nf": "",
+          "data_agendamento": "17/08/2026",
+          "data_ord": "2026-08-17",
+          "status": "A FATURAR",
+          "obs": "CONTATO 21974318449 (VITORIA)",
+          "status_logistica": "",
+          "justificativa_logistica": ""
+        },
+        {
           "codigo_cliente": "77079",
           "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
           "cnpj": "05.546.194/0015-44",
@@ -17791,20 +17805,6 @@ const AGENDAMENTO_DATA = {
           "data_ord": "2026-08-14",
           "status": "EM ROTA",
           "obs": "SUPERMERCADO SUPERMAKET - URGENTE",
-          "status_logistica": "",
-          "justificativa_logistica": ""
-        },
-        {
-          "codigo_cliente": "28385",
-          "cliente": "BOM DE PRECO COMERCIO - REDE ECONOMIA",
-          "cnpj": "18.322.565/0002-31",
-          "filial": "SÃO GONÇALO",
-          "valor": 152.2,
-          "nf": "",
-          "data_agendamento": "13/08/2026",
-          "data_ord": "2026-08-13",
-          "status": "A FATURAR",
-          "obs": "CONTATO 21974318449 (VITORIA)",
           "status_logistica": "",
           "justificativa_logistica": ""
         },
@@ -26540,7 +26540,7 @@ const AGENDAMENTO_DATA = {
       ]
     }
   ],
-  "atualizado_em": "14/08/2026 17:05",
+  "atualizado_em": "14/08/2026 17:24",
   "comparativo": [
     {
       "msg_id": "1a000be7acfbb4b6",
