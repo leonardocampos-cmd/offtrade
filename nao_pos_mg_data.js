@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_mg.py
 
 const NAO_POS_MG_DATA = {
-  "atualizado_em": "14/08/2026 10:29",
+  "atualizado_em": "14/08/2026 10:48",
   "por_vendedor": {
     "BRUNA CASTRO MELLO": [
       {
@@ -6247,6 +6247,13 @@ const NAO_POS_MG_DATA = {
         "codcli": "39800",
         "cliente": "POSTO CJ LTDA",
         "bairro": "CIDADE JARDIM",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "33309",
+        "cliente": "POSTO WAP AMAZONAS LTDA.",
+        "bairro": "NOVA SUÍSSA",
         "dtultcomp": "nan",
         "produtos": []
       }
