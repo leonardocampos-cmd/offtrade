@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_sp.py
 
 const NAO_POS_SP_DATA = {
-  "atualizado_em": "14/08/2026 13:57",
+  "atualizado_em": "14/08/2026 14:11",
   "por_vendedor": {
     "ADER ALONSO": [
       {
@@ -10583,16 +10583,16 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
-        "codcli": "52107",
+        "codcli": "52104",
         "cliente": "DAVID BARBOZA SUPERMERCADO LTDA",
-        "bairro": "PARQUE SÃO JORGE",
+        "bairro": "JARDIM MACUCOS",
         "dtultcomp": "nan",
         "produtos": []
       },
       {
-        "codcli": "52104",
+        "codcli": "52107",
         "cliente": "DAVID BARBOZA SUPERMERCADO LTDA",
-        "bairro": "JARDIM MACUCOS",
+        "bairro": "PARQUE SÃO JORGE",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -10625,14 +10625,14 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
-        "codcli": "51833",
+        "codcli": "51835",
         "cliente": "SUPERMERCADO IBIRAPUERA LTDA",
         "bairro": "JOAO ARANHA",
         "dtultcomp": "nan",
         "produtos": []
       },
       {
-        "codcli": "51835",
+        "codcli": "51833",
         "cliente": "SUPERMERCADO IBIRAPUERA LTDA",
         "bairro": "JOAO ARANHA",
         "dtultcomp": "nan",
@@ -11449,6 +11449,13 @@ const NAO_POS_SP_DATA = {
         "codcli": "52170",
         "cliente": "CEARA - BEBIDAS E PRODUTOS ALIMENTICIOS LTDA",
         "bairro": "JARDIM SEYON",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "52483",
+        "cliente": "ELIAS FERNANDO DE OLIVEIRA LTDA",
+        "bairro": "CENTRO",
         "dtultcomp": "nan",
         "produtos": []
       },
