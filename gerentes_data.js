@@ -1,7 +1,7 @@
 // Gerado automaticamente
 
 const GERENTES_DATA = {
-  "atualizado_em": "14/08/2026 15:42",
+  "atualizado_em": "14/08/2026 15:45",
   "meses": [
     "Ago/26",
     "Jul/26",
@@ -1215,16 +1215,12 @@ const GERENTES_DATA = {
                 },
                 {
                   "nome": "DIRLEI ARAUJO - OFF TRADE",
-                  "rca": "417",
+                  "rca": "554",
                   "estado": "RJ",
                   "por_mes": {
                     "Abr/26": {
                       "fat": 500173.77,
                       "qt": 7336
-                    },
-                    "Ago/26": {
-                      "fat": 1647.6,
-                      "qt": 14
                     },
                     "Jul/26": {
                       "fat": 69791.44,
@@ -1241,6 +1237,10 @@ const GERENTES_DATA = {
                     "Mar/26": {
                       "fat": 697993.63,
                       "qt": 10412
+                    },
+                    "Ago/26": {
+                      "fat": 1647.6,
+                      "qt": 14
                     }
                   }
                 },
@@ -3601,18 +3601,6 @@ const GERENTES_DATA = {
                   "rca": "904",
                   "estado": "",
                   "por_mes": {}
-                },
-                {
-                  "nome": "VIVIANI ALVES - OFF TRADE",
-                  "rca": "119",
-                  "estado": "",
-                  "por_mes": {}
-                },
-                {
-                  "nome": "W.S - BLENDED",
-                  "rca": "588",
-                  "estado": "",
-                  "por_mes": {}
                 }
               ]
             }
@@ -3811,91 +3799,6 @@ const GERENTES_DATA = {
                 {
                   "nome": "ZEINALDO DE OLIVEIRA - OFF TRADE",
                   "rca": "241",
-                  "estado": "",
-                  "por_mes": {}
-                }
-              ]
-            },
-            {
-              "nome": "Sem Supervisor",
-              "estados": [],
-              "por_mes": {},
-              "vendedores": [
-                {
-                  "nome": "ADER ALONSO - OFF TRADE",
-                  "rca": "426",
-                  "estado": "",
-                  "por_mes": {}
-                },
-                {
-                  "nome": "ANDRE SILVA - OFF TRADE",
-                  "rca": "391",
-                  "estado": "",
-                  "por_mes": {}
-                },
-                {
-                  "nome": "BRUNO BARBOSA - OFF TRADE",
-                  "rca": "425",
-                  "estado": "",
-                  "por_mes": {}
-                },
-                {
-                  "nome": "BRYAN PALOPOLI - OFF TRADE",
-                  "rca": "399",
-                  "estado": "",
-                  "por_mes": {}
-                },
-                {
-                  "nome": "CARLOS DE ALMEIDA - OFF TRADE",
-                  "rca": "371",
-                  "estado": "",
-                  "por_mes": {}
-                },
-                {
-                  "nome": "HAMILTON BEVILACQUA - OFF TRADE",
-                  "rca": "427",
-                  "estado": "",
-                  "por_mes": {}
-                },
-                {
-                  "nome": "JOAO LUPORINI - OFF TRADE",
-                  "rca": "431",
-                  "estado": "",
-                  "por_mes": {}
-                },
-                {
-                  "nome": "JOÃO LUPORINI - OFF TRADE",
-                  "rca": "312",
-                  "estado": "",
-                  "por_mes": {}
-                },
-                {
-                  "nome": "LEONARDO MILAN\n - OFF TRADE",
-                  "rca": "315",
-                  "estado": "",
-                  "por_mes": {}
-                },
-                {
-                  "nome": "MARCELO DE CAMPOS - OFF TRADE",
-                  "rca": "392",
-                  "estado": "",
-                  "por_mes": {}
-                },
-                {
-                  "nome": "MARCELO SANCHEZ - OFF TRADE",
-                  "rca": "313",
-                  "estado": "",
-                  "por_mes": {}
-                },
-                {
-                  "nome": "MARIO RAFAEL FERRARI - OFF TRADE",
-                  "rca": "428",
-                  "estado": "",
-                  "por_mes": {}
-                },
-                {
-                  "nome": "ROBSON DA SILVA - OFF TRADE",
-                  "rca": "317",
                   "estado": "",
                   "por_mes": {}
                 }
