@@ -1,5 +1,5 @@
 const CRUSOE_DATA = {
-  "atualizado_em": "14/08/2026 16:08",
+  "atualizado_em": "14/08/2026 16:35",
   "periodo": {
     "ini": "01/07/2026",
     "fim": "31/08/2026"
@@ -516,14 +516,14 @@ const CRUSOE_DATA = {
         {
           "rca": 412,
           "vendedor": "Barbara Cabral",
-          "pedidos": 18,
-          "positivacoes": 13,
-          "novos_skus": 111,
-          "faturamento": 36852.91,
-          "pontos_positivacao": 65,
-          "pontos_novos_skus": 444,
+          "pedidos": 19,
+          "positivacoes": 14,
+          "novos_skus": 112,
+          "faturamento": 36982.75,
+          "pontos_positivacao": 70,
+          "pontos_novos_skus": 448,
           "pontos_pedidos_valor": 27,
-          "pontos_total": 536,
+          "pontos_total": 545,
           "vendas": [
             {
               "numnota": "408264",
@@ -2035,6 +2035,31 @@ const CRUSOE_DATA = {
                   "pontuacoes": []
                 }
               ]
+            },
+            {
+              "numnota": "421670",
+              "data": "14/08/2026",
+              "cliente": "WSC MERCADO E MERCEARIA LTDA",
+              "valor_pedido": 129.84,
+              "eventos": [
+                {
+                  "tipo": "positivação (novo/reativação)",
+                  "pontos": 5
+                }
+              ],
+              "itens": [
+                {
+                  "produto": "RC ATUM RALADO MOLHO DE TOMATE 24X140G",
+                  "qt": 1.0,
+                  "valor": 129.84,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 4
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -3460,10 +3485,10 @@ const CRUSOE_DATA = {
         {
           "rca": 431,
           "vendedor": "Adeilson Gonçalvez",
-          "clientes_gourmet": 1,
-          "faturamento": 5070.6,
-          "faturamento_gourmet": 129.9,
-          "pontos_total": 1,
+          "clientes_gourmet": 2,
+          "faturamento": 5170.5,
+          "faturamento_gourmet": 229.8,
+          "pontos_total": 2,
           "vendas": [
             {
               "numnota": "410590",
@@ -3472,6 +3497,20 @@ const CRUSOE_DATA = {
               "produto": "RC ATUM SOLIDO YF EM OLIVA 12X170G",
               "qt": 1.0,
               "valor": 129.9,
+              "pontuacoes": [
+                {
+                  "tipo": "cliente positivado (Linha Gourmet)",
+                  "pontos": 1
+                }
+              ]
+            },
+            {
+              "numnota": "421663",
+              "data": "14/08/2026",
+              "cliente": "SUPERPOPS EXPRESS ALIMENTOS LTDA",
+              "produto": "RC SALADA DE ATUM - MEDITERRANEA 12X160G",
+              "qt": 1.0,
+              "valor": 99.9,
               "pontuacoes": [
                 {
                   "tipo": "cliente positivado (Linha Gourmet)",
