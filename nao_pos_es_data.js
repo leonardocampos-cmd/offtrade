@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_es.py
 
 const NAO_POS_ES_DATA = {
-  "atualizado_em": "14/08/2026 10:12",
+  "atualizado_em": "14/08/2026 10:29",
   "por_vendedor": {
     "ADEILSON GONÇALVEZ": [
       {
@@ -6169,7 +6169,7 @@ const NAO_POS_ES_DATA = {
         ]
       },
       {
-        "codcli": "93391",
+        "codcli": "93383",
         "cliente": "SUPERMERCADOS ADONAI LTDA",
         "bairro": "CAMPO GRANDE",
         "dtultcomp": "01/07/2026",
@@ -6177,20 +6177,20 @@ const NAO_POS_ES_DATA = {
           {
             "produto": "RC ATUM PEDACOS EM OLEO 24X140G",
             "fantasia": "ROBINSON CRUSOE",
-            "qt": 1,
-            "valor": 191.76
+            "qt": 2,
+            "valor": 383.52
           },
           {
             "produto": "RC ATUM PEDACOS MOLHO DE TOMATE 24X140G",
             "fantasia": "ROBINSON CRUSOE",
-            "qt": 1,
-            "valor": 191.76
+            "qt": 2,
+            "valor": 383.52
           },
           {
             "produto": "RC ATUM PEDACOS NATURAL 24X140G",
             "fantasia": "ROBINSON CRUSOE",
-            "qt": 1,
-            "valor": 191.76
+            "qt": 2,
+            "valor": 383.52
           },
           {
             "produto": "RC ATUM RALADO MOLHO DE TOMATE 24X140G",
@@ -6219,14 +6219,14 @@ const NAO_POS_ES_DATA = {
           {
             "produto": "RC ATUM SOLIDO NATURAL 24X170G",
             "fantasia": "ROBINSON CRUSOE",
-            "qt": 1,
-            "valor": 208.56
+            "qt": 2,
+            "valor": 417.12
           },
           {
             "produto": "RC ATUM SOLIDO OLEO 24X170G",
             "fantasia": "ROBINSON CRUSOE",
-            "qt": 1,
-            "valor": 208.56
+            "qt": 2,
+            "valor": 417.12
           },
           {
             "produto": "RC SALADA DE ATUM - MEDITERRANEA 12X160G",
@@ -6237,8 +6237,14 @@ const NAO_POS_ES_DATA = {
           {
             "produto": "RC SARDINHA EM OLEO 50X125G",
             "fantasia": "ROBINSON CRUSOE",
-            "qt": 1,
-            "valor": 249.5
+            "qt": 2,
+            "valor": 499.0
+          },
+          {
+            "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
+            "fantasia": "ROBINSON CRUSOE",
+            "qt": 2,
+            "valor": 499.0
           }
         ]
       },
@@ -6323,7 +6329,7 @@ const NAO_POS_ES_DATA = {
         ]
       },
       {
-        "codcli": "93383",
+        "codcli": "93391",
         "cliente": "SUPERMERCADOS ADONAI LTDA",
         "bairro": "CAMPO GRANDE",
         "dtultcomp": "01/07/2026",
@@ -6331,20 +6337,20 @@ const NAO_POS_ES_DATA = {
           {
             "produto": "RC ATUM PEDACOS EM OLEO 24X140G",
             "fantasia": "ROBINSON CRUSOE",
-            "qt": 2,
-            "valor": 383.52
+            "qt": 1,
+            "valor": 191.76
           },
           {
             "produto": "RC ATUM PEDACOS MOLHO DE TOMATE 24X140G",
             "fantasia": "ROBINSON CRUSOE",
-            "qt": 2,
-            "valor": 383.52
+            "qt": 1,
+            "valor": 191.76
           },
           {
             "produto": "RC ATUM PEDACOS NATURAL 24X140G",
             "fantasia": "ROBINSON CRUSOE",
-            "qt": 2,
-            "valor": 383.52
+            "qt": 1,
+            "valor": 191.76
           },
           {
             "produto": "RC ATUM RALADO MOLHO DE TOMATE 24X140G",
@@ -6373,14 +6379,14 @@ const NAO_POS_ES_DATA = {
           {
             "produto": "RC ATUM SOLIDO NATURAL 24X170G",
             "fantasia": "ROBINSON CRUSOE",
-            "qt": 2,
-            "valor": 417.12
+            "qt": 1,
+            "valor": 208.56
           },
           {
             "produto": "RC ATUM SOLIDO OLEO 24X170G",
             "fantasia": "ROBINSON CRUSOE",
-            "qt": 2,
-            "valor": 417.12
+            "qt": 1,
+            "valor": 208.56
           },
           {
             "produto": "RC SALADA DE ATUM - MEDITERRANEA 12X160G",
@@ -6391,14 +6397,8 @@ const NAO_POS_ES_DATA = {
           {
             "produto": "RC SARDINHA EM OLEO 50X125G",
             "fantasia": "ROBINSON CRUSOE",
-            "qt": 2,
-            "valor": 499.0
-          },
-          {
-            "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
-            "fantasia": "ROBINSON CRUSOE",
-            "qt": 2,
-            "valor": 499.0
+            "qt": 1,
+            "valor": 249.5
           }
         ]
       },
@@ -6609,80 +6609,6 @@ const NAO_POS_ES_DATA = {
         ]
       },
       {
-        "codcli": "93381",
-        "cliente": "SUPERMERCADOS ADONAI LTDA",
-        "bairro": "CAMPO GRANDE",
-        "dtultcomp": "16/07/2026",
-        "produtos": [
-          {
-            "produto": "RC ATUM PEDACOS EM OLEO 24X140G",
-            "fantasia": "ROBINSON CRUSOE",
-            "qt": 2,
-            "valor": 383.52
-          },
-          {
-            "produto": "RC ATUM PEDACOS MOLHO DE TOMATE 24X140G",
-            "fantasia": "ROBINSON CRUSOE",
-            "qt": 2,
-            "valor": 383.52
-          },
-          {
-            "produto": "RC ATUM PEDACOS NATURAL 24X140G",
-            "fantasia": "ROBINSON CRUSOE",
-            "qt": 2,
-            "valor": 383.52
-          },
-          {
-            "produto": "RC ATUM RALADO MOLHO DE TOMATE 24X140G",
-            "fantasia": "ROBINSON CRUSOE",
-            "qt": 1,
-            "valor": 153.36
-          },
-          {
-            "produto": "RC ATUM RALADO NATURAL 24X140G",
-            "fantasia": "ROBINSON CRUSOE",
-            "qt": 1,
-            "valor": 153.36
-          },
-          {
-            "produto": "RC ATUM RALADO OLEO 24X140G",
-            "fantasia": "ROBINSON CRUSOE",
-            "qt": 1,
-            "valor": 153.36
-          },
-          {
-            "produto": "RC ATUM SOLIDO NAT MY PROTEIN 12X142G",
-            "fantasia": "ROBINSON CRUSOE",
-            "qt": 1,
-            "valor": 125.9
-          },
-          {
-            "produto": "RC ATUM SOLIDO NATURAL 24X170G",
-            "fantasia": "ROBINSON CRUSOE",
-            "qt": 2,
-            "valor": 417.12
-          },
-          {
-            "produto": "RC ATUM SOLIDO OLEO 24X170G",
-            "fantasia": "ROBINSON CRUSOE",
-            "qt": 2,
-            "valor": 417.12
-          },
-          {
-            "produto": "RC SALADA DE ATUM - MEDITERRANEA 12X160G",
-            "fantasia": "ROBINSON CRUSOE",
-            "qt": 3,
-            "valor": 359.7
-          },
-          {
-            "produto": "RC SARDINHA EM OLEO 50X125G",
-            "fantasia": "ROBINSON CRUSOE",
-            "qt": 2,
-            "valor": 499.0
-          }
-        ]
-      },
-      {
         "codcli": "93379",
         "cliente": "SUPERMERCADOS ADONAI LTDA",
         "bairro": "COSMOS",
@@ -6757,7 +6683,81 @@ const NAO_POS_ES_DATA = {
         ]
       },
       {
-        "codcli": "93386",
+        "codcli": "93381",
+        "cliente": "SUPERMERCADOS ADONAI LTDA",
+        "bairro": "CAMPO GRANDE",
+        "dtultcomp": "16/07/2026",
+        "produtos": [
+          {
+            "produto": "RC ATUM PEDACOS EM OLEO 24X140G",
+            "fantasia": "ROBINSON CRUSOE",
+            "qt": 2,
+            "valor": 383.52
+          },
+          {
+            "produto": "RC ATUM PEDACOS MOLHO DE TOMATE 24X140G",
+            "fantasia": "ROBINSON CRUSOE",
+            "qt": 2,
+            "valor": 383.52
+          },
+          {
+            "produto": "RC ATUM PEDACOS NATURAL 24X140G",
+            "fantasia": "ROBINSON CRUSOE",
+            "qt": 2,
+            "valor": 383.52
+          },
+          {
+            "produto": "RC ATUM RALADO MOLHO DE TOMATE 24X140G",
+            "fantasia": "ROBINSON CRUSOE",
+            "qt": 1,
+            "valor": 153.36
+          },
+          {
+            "produto": "RC ATUM RALADO NATURAL 24X140G",
+            "fantasia": "ROBINSON CRUSOE",
+            "qt": 1,
+            "valor": 153.36
+          },
+          {
+            "produto": "RC ATUM RALADO OLEO 24X140G",
+            "fantasia": "ROBINSON CRUSOE",
+            "qt": 1,
+            "valor": 153.36
+          },
+          {
+            "produto": "RC ATUM SOLIDO NAT MY PROTEIN 12X142G",
+            "fantasia": "ROBINSON CRUSOE",
+            "qt": 1,
+            "valor": 125.9
+          },
+          {
+            "produto": "RC ATUM SOLIDO NATURAL 24X170G",
+            "fantasia": "ROBINSON CRUSOE",
+            "qt": 2,
+            "valor": 417.12
+          },
+          {
+            "produto": "RC ATUM SOLIDO OLEO 24X170G",
+            "fantasia": "ROBINSON CRUSOE",
+            "qt": 2,
+            "valor": 417.12
+          },
+          {
+            "produto": "RC SALADA DE ATUM - MEDITERRANEA 12X160G",
+            "fantasia": "ROBINSON CRUSOE",
+            "qt": 3,
+            "valor": 359.7
+          },
+          {
+            "produto": "RC SARDINHA EM OLEO 50X125G",
+            "fantasia": "ROBINSON CRUSOE",
+            "qt": 2,
+            "valor": 499.0
+          }
+        ]
+      },
+      {
+        "codcli": "93385",
         "cliente": "SUPERMERCADOS ADONAI LTDA",
         "bairro": "CAMPO GRANDE",
         "dtultcomp": "20/07/2026",
@@ -6825,7 +6825,7 @@ const NAO_POS_ES_DATA = {
         ]
       },
       {
-        "codcli": "93385",
+        "codcli": "93386",
         "cliente": "SUPERMERCADOS ADONAI LTDA",
         "bairro": "CAMPO GRANDE",
         "dtultcomp": "20/07/2026",
@@ -7411,6 +7411,13 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
+        "codcli": "84253",
+        "cliente": "IV DISTRIBUIDORA DE BEBIDAS LTDA",
+        "bairro": "RIVIERA DA BARRA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
         "codcli": "95973",
         "cliente": "JM AUTO SERVICO LTDA",
         "bairro": "VILA CAPIXABA",
@@ -7481,16 +7488,16 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
-        "codcli": "81681",
+        "codcli": "81679",
         "cliente": "PARMA COMERCIAL LTDA",
-        "bairro": "ITACIBA",
+        "bairro": "FLEXAL I",
         "dtultcomp": "nan",
         "produtos": []
       },
       {
-        "codcli": "81679",
+        "codcli": "81681",
         "cliente": "PARMA COMERCIAL LTDA",
-        "bairro": "FLEXAL I",
+        "bairro": "ITACIBA",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -7523,16 +7530,16 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
-        "codcli": "20947",
+        "codcli": "84121",
         "cliente": "SUPERMERCADOS CALVI LTDA",
-        "bairro": "VILA PALESTINA",
+        "bairro": "CARIACICA SEDE",
         "dtultcomp": "nan",
         "produtos": []
       },
       {
-        "codcli": "84121",
+        "codcli": "20947",
         "cliente": "SUPERMERCADOS CALVI LTDA",
-        "bairro": "CARIACICA SEDE",
+        "bairro": "VILA PALESTINA",
         "dtultcomp": "nan",
         "produtos": []
       },
