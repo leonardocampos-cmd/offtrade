@@ -1,7 +1,7 @@
 // Gerado automaticamente
 
 const INATIVOS_DATA = {
-  "atualizado_em": "14/08/2026 17:10",
+  "atualizado_em": "14/08/2026 17:29",
   "por_vendedor": {
     "ADEILSON GONÇALVEZ - OFF TRADE": {
       "rca": "431",
@@ -5078,9 +5078,9 @@ const INATIVOS_DATA = {
           "media": 0.0
         },
         {
-          "codcli": "39419",
+          "codcli": "39422",
           "cliente": "REDE DUQUE GDO PARTICIPACOES S A",
-          "bairro": "JARDIM PAULISTA",
+          "bairro": "JARDIM EUROPA",
           "cidade": "SAO PAULO",
           "dtultcomp": "07/04/2025",
           "dias": 494,
@@ -5098,9 +5098,9 @@ const INATIVOS_DATA = {
           "media": 0.0
         },
         {
-          "codcli": "39422",
+          "codcli": "39419",
           "cliente": "REDE DUQUE GDO PARTICIPACOES S A",
-          "bairro": "JARDIM EUROPA",
+          "bairro": "JARDIM PAULISTA",
           "cidade": "SAO PAULO",
           "dtultcomp": "07/04/2025",
           "dias": 494,
@@ -5316,16 +5316,6 @@ const INATIVOS_DATA = {
           "dias": 3966,
           "rca_inativo": "N",
           "media": 0.0
-        },
-        {
-          "codcli": "48278",
-          "cliente": "SUPERMERCADO CATROQUE LTDA",
-          "bairro": "CENTRO",
-          "cidade": "JARINU",
-          "dtultcomp": "09/03/2026",
-          "dias": 158,
-          "rca_inativo": "N",
-          "media": 207.2
         },
         {
           "codcli": "2258",
@@ -5588,16 +5578,6 @@ const INATIVOS_DATA = {
           "media": 0.0
         },
         {
-          "codcli": "30353",
-          "cliente": "SUPERMERCADOS MAMBO LTDA",
-          "bairro": "SANTANA",
-          "cidade": "SAO PAULO",
-          "dtultcomp": "14/07/2023",
-          "dias": 1127,
-          "rca_inativo": "N",
-          "media": 0.0
-        },
-        {
           "codcli": "30313",
           "cliente": "SUPERMERCADOS MAMBO LTDA",
           "bairro": "JARDIM BELVAL",
@@ -5608,12 +5588,12 @@ const INATIVOS_DATA = {
           "media": 0.0
         },
         {
-          "codcli": "26516",
-          "cliente": "SUPERMERCADOS MAMBO LTDA.",
-          "bairro": "CIDADE ARISTON ESTELA AZEVEDO",
-          "cidade": "CARAPICUIBA",
-          "dtultcomp": "20/09/2023",
-          "dias": 1059,
+          "codcli": "30353",
+          "cliente": "SUPERMERCADOS MAMBO LTDA",
+          "bairro": "SANTANA",
+          "cidade": "SAO PAULO",
+          "dtultcomp": "14/07/2023",
+          "dias": 1127,
           "rca_inativo": "N",
           "media": 0.0
         },
@@ -5634,6 +5614,16 @@ const INATIVOS_DATA = {
           "cidade": "SAO PAULO",
           "dtultcomp": "21/02/2024",
           "dias": 905,
+          "rca_inativo": "N",
+          "media": 0.0
+        },
+        {
+          "codcli": "26516",
+          "cliente": "SUPERMERCADOS MAMBO LTDA.",
+          "bairro": "CIDADE ARISTON ESTELA AZEVEDO",
+          "cidade": "CARAPICUIBA",
+          "dtultcomp": "20/09/2023",
+          "dias": 1059,
           "rca_inativo": "N",
           "media": 0.0
         },
