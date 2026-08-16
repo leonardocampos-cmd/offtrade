@@ -138,6 +138,7 @@ const ANO_ATUAL = D ? D.ano_atual : null;
 const ANO_ANTERIOR = D ? D.ano_anterior : null;
 
 let _sortCol = 'faturamento', _sortDir = -1;
+let _sortColVend = 'faturamento', _sortDirVend = -1; // ordenação da tabela de vendedores dentro do drill-down
 const _expandidos = new Set(); // nomes de gerente com o drill-down de vendedores aberto
 
 const fmtR = v => 'R$ ' + (v||0).toLocaleString('pt-BR', {minimumFractionDigits:0, maximumFractionDigits:0});
@@ -189,19 +190,19 @@ const COLS = [
   { key: 'qtd_sku_cliente', label: 'Qtd SKU/Cliente', vsAA: true },
 ];
 
-function _theadHTML(cols, sortavel) {
+function _theadHTML(cols, sortCol, sortDir, sortFnName) {
   return cols.map(c => {
     let extra = '';
     if (c.vsAA) extra += `<th>vs ${ANO_ANTERIOR}</th>`;
     if (c.vsBase) extra += `<th>vs Base</th>`;
-    const onclick = sortavel ? ` onclick="setSort('${c.key}')"` : '';
-    const seta = sortavel && _sortCol===c.key ? (_sortDir===1?' &#9650;':' &#9660;') : '';
+    const onclick = sortFnName ? ` onclick="${sortFnName}('${c.key}')"` : '';
+    const seta = sortFnName && sortCol===c.key ? (sortDir===1?' &#9650;':' &#9660;') : '';
     return `<th${onclick}>${c.label}${seta}</th>${extra}`;
   }).join('');
 }
 
 function renderHead() {
-  document.getElementById('thead-row').innerHTML = _theadHTML(COLS, true);
+  document.getElementById('thead-row').innerHTML = _theadHTML(COLS, _sortCol, _sortDir, 'setSort');
 }
 
 const COLS_VENDEDOR = COLS.map((c, i) => i === 0 ? { ...c, label: 'Vendedor' } : c);
@@ -209,6 +210,11 @@ const COLS_VENDEDOR = COLS.map((c, i) => i === 0 ? { ...c, label: 'Vendedor' } :
 function setSort(col) {
   if (_sortCol === col) { _sortDir *= -1; } else { _sortCol = col; _sortDir = -1; }
   renderHead(); aplicarFiltro();
+}
+
+function setSortVendedor(col) {
+  if (_sortColVend === col) { _sortDirVend *= -1; } else { _sortColVend = col; _sortDirVend = -1; }
+  aplicarFiltro();
 }
 
 // Vendedores filtrados por Sistema/UF/Tipo/busca — usados pelos gráficos e
@@ -298,11 +304,16 @@ function _metricasTds(r, mesSel) {
 function _renderVendedoresDoGerente(nomeGerente, mesSel) {
   const vendedores = D.vendedores
     .filter(v => (v.gerente || '') === nomeGerente)
-    .sort((a, b) => (b[ANO_ATUAL]?.metricas?.faturamento || 0) - (a[ANO_ATUAL]?.metricas?.faturamento || 0));
+    .sort((a, b) => {
+      const va = _sortColVend === 'nome' ? (a.nome||'') : (a[ANO_ATUAL]?.metricas?.[_sortColVend] ?? a[_sortColVend] ?? 0);
+      const vb = _sortColVend === 'nome' ? (b.nome||'') : (b[ANO_ATUAL]?.metricas?.[_sortColVend] ?? b[_sortColVend] ?? 0);
+      if (typeof va === 'string') return va.localeCompare(vb, 'pt-BR') * _sortDirVend;
+      return (va - vb) * _sortDirVend;
+    });
   if (!vendedores.length) {
     return '<div style="padding:10px 4px;color:var(--muted);font-size:.78rem">Nenhum vendedor encontrado pra esse gerente.</div>';
   }
-  const head = _theadHTML(COLS_VENDEDOR, false);
+  const head = _theadHTML(COLS_VENDEDOR, _sortColVend, _sortDirVend, 'setSortVendedor');
   const body = vendedores.map(v => `<tr>
         <td>${_esc(v.nome)} <span style="color:var(--muted);font-size:.68rem">(${_esc(v.estado)}/${_esc(v.sistema)})</span></td>${_metricasTds(v, mesSel)}
       </tr>`).join('');
