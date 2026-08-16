@@ -190,6 +190,21 @@ def main():
             print("[AVISO] exportacao_industria falhou — ignorado, pipeline continua.")
             traceback.print_exc()
 
+        step("3c - Raio X Oportunidades (raiox_oportunidades_data.js)")
+        try:
+            import subprocess, sys as _sys
+            result = subprocess.run(
+                [_sys.executable, "exportacao_raiox_oportunidades.py"],
+                capture_output=True, text=True, timeout=600
+            )
+            print(result.stdout)
+            if result.returncode != 0:
+                print("[AVISO] exportacao_raiox_oportunidades falhou — ignorado, pipeline continua.")
+                print(result.stderr)
+        except Exception:
+            print("[AVISO] exportacao_raiox_oportunidades falhou — ignorado, pipeline continua.")
+            traceback.print_exc()
+
         # Campanha Amarula encerrada em 25/06/2026 — geração de dados desativada.
         # Reativar descomentando o bloco abaixo se a campanha voltar.
         # step("4/8 - Campanha Amarula (amarula_data.js)")
