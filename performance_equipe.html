@@ -47,6 +47,14 @@
     .vs.up { color: var(--green); } .vs.down { color: var(--red); }
     .time-badge { display: inline-block; padding: 2px 8px; border-radius: 99px; font-size: .66rem; font-weight: 700; background: rgba(96,165,250,.15); color: var(--blue); border: 1px solid rgba(96,165,250,.3); }
     .empty-msg { padding: 24px; text-align: center; color: var(--muted); font-size: .82rem; }
+    tr.clicavel-ger { cursor: pointer; }
+    tr.clicavel-ger td:first-child::before { content: '▸ '; color: var(--muted); font-size: .7rem; }
+    tr.clicavel-ger.expandida td:first-child::before { content: '▾ '; color: var(--accent); }
+    tr.sub-row-ger td { background: #14161a; padding: 10px 10px 14px 26px; border-bottom: 1px solid var(--border); }
+    .sub-tabela-ger { width: 100%; border-collapse: collapse; }
+    .sub-tabela-ger th { background: none; padding: 4px 8px; font-size: .62rem; color: var(--muted); text-transform: uppercase; letter-spacing: .04em; text-align: right; white-space: nowrap; }
+    .sub-tabela-ger th:first-child { text-align: left; }
+    .sub-tabela-ger td { padding: 4px 8px; font-size: .76rem; border-top: 1px solid var(--border); }
 
     .charts-grupo { margin-bottom: 26px; }
     .charts-grupo h3 { font-size: .9rem; font-weight: 700; color: var(--accent); margin-bottom: 10px; }
@@ -77,10 +85,6 @@
 
 <section>
   <div class="filtros">
-    <div class="toggle-grupo" id="tg-visao">
-      <button data-v="vendedor" class="on">Por Vendedor</button>
-      <button data-v="gerente">Por Gerente</button>
-    </div>
     <select id="fil-gerente" onchange="aplicarFiltro()">
       <option value="">Gerente: todos</option>
     </select>
@@ -133,8 +137,8 @@ const D = (typeof PERFORMANCE_EQUIPE_DATA !== 'undefined') ? PERFORMANCE_EQUIPE_
 const ANO_ATUAL = D ? D.ano_atual : null;
 const ANO_ANTERIOR = D ? D.ano_anterior : null;
 
-let _visao = 'vendedor'; // 'vendedor' | 'gerente'
 let _sortCol = 'faturamento', _sortDir = -1;
+const _expandidos = new Set(); // nomes de gerente com o drill-down de vendedores aberto
 
 const fmtR = v => 'R$ ' + (v||0).toLocaleString('pt-BR', {minimumFractionDigits:0, maximumFractionDigits:0});
 const fmtN = v => (v==null ? '—' : v.toLocaleString('pt-BR', {maximumFractionDigits:1}));
@@ -142,12 +146,6 @@ const fmtN = v => (v==null ? '—' : v.toLocaleString('pt-BR', {maximumFractionD
 function init() {
   document.getElementById('sub').textContent =
     `Atualizado: ${D.atualizado_em} · ${ANO_ANTERIOR} (até ${D.limite_ano_anterior}) vs ${ANO_ATUAL} (até hoje) — mesmo período`;
-
-  document.querySelectorAll('#tg-visao button').forEach(b => b.onclick = () => {
-    _visao = b.dataset.v;
-    document.querySelectorAll('#tg-visao button').forEach(x => x.classList.toggle('on', x === b));
-    renderHead(); aplicarFiltro();
-  });
 
   const selGer = document.getElementById('fil-gerente');
   const gerentesUnicos = [...new Set(D.vendedores.map(v => v.gerente))].sort((a,b) => a.localeCompare(b, 'pt-BR'));
@@ -179,7 +177,7 @@ function init() {
 function _esc(s) { return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
 
 const COLS = [
-  { key: 'nome', label: 'Vendedor' },
+  { key: 'nome', label: 'Gerente' },
   { key: 'base_cadastro', label: 'Base Cadastro' },
   { key: 'base_ativa', label: 'Base Ativa' },
   { key: 'faturamento', label: 'Faturamento', vsAA: true },
@@ -191,26 +189,33 @@ const COLS = [
   { key: 'qtd_sku_cliente', label: 'Qtd SKU/Cliente', vsAA: true },
 ];
 
-function renderHead() {
-  const th = COLS.map(c => {
+function _theadHTML(cols, sortavel) {
+  return cols.map(c => {
     let extra = '';
     if (c.vsAA) extra += `<th>vs ${ANO_ANTERIOR}</th>`;
     if (c.vsBase) extra += `<th>vs Base</th>`;
-    return `<th onclick="setSort('${c.key}')">${c.label}${_sortCol===c.key?(_sortDir===1?' &#9650;':' &#9660;'):''}</th>${extra}`;
+    const onclick = sortavel ? ` onclick="setSort('${c.key}')"` : '';
+    const seta = sortavel && _sortCol===c.key ? (_sortDir===1?' &#9650;':' &#9660;') : '';
+    return `<th${onclick}>${c.label}${seta}</th>${extra}`;
   }).join('');
-  document.getElementById('thead-row').innerHTML = (_visao==='vendedor' ? '<th>Gerente</th>' : '') + th;
 }
+
+function renderHead() {
+  document.getElementById('thead-row').innerHTML = _theadHTML(COLS, true);
+}
+
+const COLS_VENDEDOR = COLS.map((c, i) => i === 0 ? { ...c, label: 'Vendedor' } : c);
 
 function setSort(col) {
   if (_sortCol === col) { _sortDir *= -1; } else { _sortCol = col; _sortDir = -1; }
   renderHead(); aplicarFiltro();
 }
 
-// Vendedores filtrados por Sistema/UF/busca — fonte única usada pelos
-// gráficos (sempre) e pela tabela (quando _visao === 'vendedor'). A tabela
-// "Por Gerente" usa D.gerentes direto (rollup pré-calculado por RCA de
-// verdade, não dá pra recalcular no navegador sem os dados brutos por
-// cliente) — só filtra por nome do gerente na busca.
+// Vendedores filtrados por Sistema/UF/Tipo/busca — usados pelos gráficos e
+// pelo drill-down de cada gerente na tabela. A tabela em si (por gerente)
+// usa D.gerentes direto (rollup pré-calculado por RCA de verdade, não dá
+// pra recalcular no navegador sem os dados brutos por cliente) — só filtra
+// por nome do gerente na busca.
 function _vendedoresFiltrados() {
   const gerente = document.getElementById('fil-gerente').value;
   const sistema = document.getElementById('fil-sistema').value;
@@ -231,7 +236,6 @@ function _vendedoresFiltrados() {
 }
 
 function _linhaFiltrada() {
-  if (_visao === 'vendedor') return _vendedoresFiltrados();
   const gerente = document.getElementById('fil-gerente').value;
   const busca = document.getElementById('fil-busca').value.trim().toLowerCase();
   return D.gerentes.filter(r => {
@@ -272,6 +276,39 @@ function _vsBadge(atual, anterior) {
   return `<span class="vs ${cls}">${sinal}${diff.toFixed(0)}%</span>`;
 }
 
+function _metricasTds(r, mesSel) {
+  const mAtual = _metricasDoPeriodo(r, ANO_ATUAL, mesSel);
+  const mAnt = _metricasDoPeriodo(r, ANO_ANTERIOR, mesSel);
+  const vsBasePct = r.base_cadastro ? Math.round(100 * mAtual.positivacoes_unicas / r.base_cadastro) : null;
+  return `
+        <td>${fmtN(r.base_cadastro)}</td>
+        <td>${fmtN(r.base_ativa)}</td>
+        <td>${fmtR(mAtual.faturamento)}</td><td>${_vsBadge(mAtual.faturamento, mAnt.faturamento)}</td>
+        <td>${fmtN(mAtual.positivacoes)}</td><td>${_vsBadge(mAtual.positivacoes, mAnt.positivacoes)}</td>
+        <td>${fmtN(mAtual.positivacoes_unicas)}</td><td>${_vsBadge(mAtual.positivacoes_unicas, mAnt.positivacoes_unicas)}</td><td>${vsBasePct!=null?vsBasePct+'%':'—'}</td>
+        <td>${fmtN(mAtual.industrias)}</td><td>${_vsBadge(mAtual.industrias, mAnt.industrias)}</td>
+        <td>${fmtN(mAtual.qtd_industria_cliente)}</td><td>${_vsBadge(mAtual.qtd_industria_cliente, mAnt.qtd_industria_cliente)}</td>
+        <td>${fmtN(mAtual.tdp)}</td><td>${_vsBadge(mAtual.tdp, mAnt.tdp)}</td>
+        <td>${fmtN(mAtual.qtd_sku_cliente)}</td><td>${_vsBadge(mAtual.qtd_sku_cliente, mAnt.qtd_sku_cliente)}</td>`;
+}
+
+// Vendedores de um gerente, pro drill-down — sempre a equipe inteira dele
+// (ignora Sistema/UF/Tipo, que só filtram os gráficos), mesma regra que já
+// valia pra tabela "Por Gerente" antes de virar a única visão.
+function _renderVendedoresDoGerente(nomeGerente, mesSel) {
+  const vendedores = D.vendedores
+    .filter(v => (v.gerente || '') === nomeGerente)
+    .sort((a, b) => (b[ANO_ATUAL]?.metricas?.faturamento || 0) - (a[ANO_ATUAL]?.metricas?.faturamento || 0));
+  if (!vendedores.length) {
+    return '<div style="padding:10px 4px;color:var(--muted);font-size:.78rem">Nenhum vendedor encontrado pra esse gerente.</div>';
+  }
+  const head = _theadHTML(COLS_VENDEDOR, false);
+  const body = vendedores.map(v => `<tr>
+        <td>${_esc(v.nome)} <span style="color:var(--muted);font-size:.68rem">(${_esc(v.estado)}/${_esc(v.sistema)})</span></td>${_metricasTds(v, mesSel)}
+      </tr>`).join('');
+  return `<table class="sub-tabela-ger"><thead><tr>${head}</tr></thead><tbody>${body}</tbody></table>`;
+}
+
 function aplicarFiltro() {
   let linhas = _linhaFiltrada();
   linhas = [...linhas].sort((a, b) => {
@@ -287,44 +324,34 @@ function aplicarFiltro() {
     tbody.innerHTML = `<tr><td colspan="20" class="empty-msg">Nenhum resultado para os filtros selecionados.</td></tr>`;
   } else {
     tbody.innerHTML = linhas.map(r => {
-      const mAtual = _metricasDoPeriodo(r, ANO_ATUAL, mesSel);
-      const mAnt = _metricasDoPeriodo(r, ANO_ANTERIOR, mesSel);
-      const vsBasePct = r.base_cadastro ? Math.round(100 * mAtual.positivacoes_unicas / r.base_cadastro) : null;
-      const nomeCol = _visao === 'vendedor'
-        ? `<td>${_esc(r.nome)} <span style="color:var(--muted);font-size:.68rem">(${_esc(r.estado)}/${_esc(r.sistema)})</span></td>`
-        : `<td>${_esc(r.gerente)} <span style="color:var(--muted);font-size:.68rem">(${r.qtd_vendedores} vend.)</span></td>`;
-      const gerenteCol = _visao === 'vendedor' ? `<td><span class="time-badge">${_esc(r.gerente)}</span></td>` : '';
-      return `<tr>
-        ${gerenteCol}
-        ${nomeCol}
-        <td>${fmtN(r.base_cadastro)}</td>
-        <td>${fmtN(r.base_ativa)}</td>
-        <td>${fmtR(mAtual.faturamento)}</td><td>${_vsBadge(mAtual.faturamento, mAnt.faturamento)}</td>
-        <td>${fmtN(mAtual.positivacoes)}</td><td>${_vsBadge(mAtual.positivacoes, mAnt.positivacoes)}</td>
-        <td>${fmtN(mAtual.positivacoes_unicas)}</td><td>${_vsBadge(mAtual.positivacoes_unicas, mAnt.positivacoes_unicas)}</td><td>${vsBasePct!=null?vsBasePct+'%':'—'}</td>
-        <td>${fmtN(mAtual.industrias)}</td><td>${_vsBadge(mAtual.industrias, mAnt.industrias)}</td>
-        <td>${fmtN(mAtual.qtd_industria_cliente)}</td><td>${_vsBadge(mAtual.qtd_industria_cliente, mAnt.qtd_industria_cliente)}</td>
-        <td>${fmtN(mAtual.tdp)}</td><td>${_vsBadge(mAtual.tdp, mAnt.tdp)}</td>
-        <td>${fmtN(mAtual.qtd_sku_cliente)}</td><td>${_vsBadge(mAtual.qtd_sku_cliente, mAnt.qtd_sku_cliente)}</td>
+      const exp = _expandidos.has(r.gerente);
+      const linhaPrincipal = `<tr class="clicavel-ger${exp?' expandida':''}" data-gerente="${_esc(r.gerente)}">
+        <td>${_esc(r.gerente)} <span style="color:var(--muted);font-size:.68rem">(${r.qtd_vendedores} vend.)</span></td>${_metricasTds(r, mesSel)}
       </tr>`;
+      const linhaSub = exp ? `<tr class="sub-row-ger"><td colspan="20">${_renderVendedoresDoGerente(r.gerente, mesSel)}</td></tr>` : '';
+      return linhaPrincipal + linhaSub;
     }).join('');
+
+    document.querySelectorAll('tr.clicavel-ger').forEach(tr => {
+      tr.addEventListener('click', () => {
+        const g = tr.dataset.gerente;
+        _expandidos.has(g) ? _expandidos.delete(g) : _expandidos.add(g);
+        aplicarFiltro();
+      });
+    });
   }
 
   _atualizarAvisoFiltro();
 
   // Gráficos sempre agregam da lista de vendedores filtrada (Sistema/
-  // UF/busca) — independente da visão da tabela, senão os filtros de
-  // Sistema/UF não tinham efeito nenhum quando a tabela estava em "Por
-  // Gerente" (bug reportado em 2026-08-12). Indústria não entra aqui: os
-  // gráficos (mensal/por_uf) não têm recorte por indústria, ver
-  // _metricasDoPeriodo.
+  // UF/busca) — a tabela em si (por gerente) não é filtrável por esses
+  // campos, só o dropdown de Gerente e a busca.
   renderGraficos(_vendedoresFiltrados());
 }
 
 function _atualizarAvisoFiltro() {
   const industria = document.getElementById('fil-industria').value;
-  const partes = [];
-  if (_visao === 'gerente') partes.push('a tabela por Gerente mostra sempre a equipe inteira de cada gerente (Sistema/UF/busca só filtram os gráficos)');
+  const partes = ['a tabela mostra sempre a equipe inteira de cada gerente (Sistema/UF/Tipo/busca só filtram os gráficos) — clique num gerente pra ver os vendedores dele'];
   if (industria) partes.push('filtro de Indústria só afeta a tabela e sempre mostra o acumulado do ano (ignora o filtro de Mês) — os gráficos continuam somando todas as indústrias');
   const el = document.getElementById('filtro-aviso');
   el.textContent = partes.length ? partes.join('; ') + '.' : '';
