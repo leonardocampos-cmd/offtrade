@@ -110,14 +110,12 @@
   </style>
 </head>
 <body>
+  <script>if (new URLSearchParams(location.search).get('embed')) document.write('<style>header{display:none!important}</style>');</script>
   <header>
     <div class="logo">OfftradeHub</div>
     <div class="nav">
-      <a href="raiox_clientes.html">Raio X Clientes</a>
-      <a href="raiox_vendedores.html">Raio X Vendedores</a>
-      <a href="raiox_industrias.html">Raio X Indústrias</a>
-      <a href="raiox_oportunidades.html" class="ativo">Raio X Oportunidades</a>
-      <a href="index.html">← Painel</a>
+      <a href="raiox.html" target="_top">← Raio X</a>
+      <a href="index.html" target="_top">← Painel</a>
     </div>
   </header>
 
@@ -280,7 +278,7 @@
         { label: 'Qtd atual', render: r => num(r.qt_atual) },
         { label: 'Δ qtd mês', render: r => `<span class="${pctCls(r.queda_qt_mes_pct)}">${pctTxt(r.queda_qt_mes_pct)}</span>` },
         { label: 'Δ qtd ano', render: r => `<span class="${pctCls(r.queda_qt_ano_pct)}">${pctTxt(r.queda_qt_ano_pct)}</span>` },
-        { label: '', render: r => `<a class="btn-ver" href="raiox_cliente_detalhe.html?chave=${encodeURIComponent(r.chave)}" onclick="event.stopPropagation()">Ver ficha →</a>` },
+        { label: '', render: r => `<a class="btn-ver" href="raiox_cliente_detalhe.html?chave=${encodeURIComponent(r.chave)}&embed=1" onclick="event.stopPropagation()">Ver ficha →</a>` },
       ],
       industrias: [
         { label: '#', tipo: 'idx' },

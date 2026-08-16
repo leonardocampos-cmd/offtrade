@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Raio X — OfftradeHub</title>
+  <script src="auth.js"></script>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --bg: #0f1117; --card: #1a1d27; --accent: #f5c518;
+      --text: #e2e8f0; --muted: #94a3b8; --border: #2d3144;
+    }
+    html, body { background: var(--bg); color: var(--text); font-family: 'Segoe UI', system-ui, sans-serif; }
+    header {
+      background: var(--card); border-bottom: 1px solid var(--border);
+      padding: 16px 24px; display: flex; align-items: center; gap: 16px;
+      flex-wrap: wrap;
+    }
+    .logo { font-size: 1.05rem; font-weight: 800; color: var(--accent); }
+    .nav { display: flex; gap: 8px; margin-left: auto; flex-wrap: wrap; }
+    .nav a {
+      color: var(--muted); text-decoration: none; font-size: .82rem;
+      padding: 6px 12px; border-radius: 7px; border: 1px solid var(--border);
+      transition: all .15s;
+    }
+    .nav a:hover { border-color: var(--accent); color: var(--accent); }
+    .tabs-wrap { background: var(--card); border-bottom: 1px solid var(--border); padding: 0 24px; }
+    .tabs { display: flex; gap: 8px; max-width: 1720px; margin: 0 auto; }
+    .tab-btn {
+      background: none; border: none; color: var(--muted); font-size: .92rem; font-weight: 700;
+      padding: 14px 18px; cursor: pointer; border-bottom: 2px solid transparent; font-family: inherit;
+    }
+    .tab-btn.ativo { color: var(--accent); border-bottom-color: var(--accent); }
+    .tab-btn:hover:not(.ativo) { color: var(--text); }
+    iframe {
+      display: block; width: 100%; border: none; background: var(--bg);
+      min-height: calc(100vh - 110px);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">OfftradeHub</div>
+    <div class="nav">
+      <a href="index.html">← Painel</a>
+    </div>
+  </header>
+
+  <div class="tabs-wrap">
+    <div class="tabs" id="tabs">
+      <button class="tab-btn" data-aba="clientes">Raio X Clientes</button>
+      <button class="tab-btn" data-aba="vendedores">Raio X Vendedores</button>
+      <button class="tab-btn" data-aba="industrias">Raio X Indústrias</button>
+      <button class="tab-btn" data-aba="oportunidades">Raio X Oportunidades</button>
+    </div>
+  </div>
+
+  <iframe id="frame" title="Raio X"></iframe>
+
+  <script>
+    const PAGINAS = {
+      clientes: 'raiox_clientes.html',
+      vendedores: 'raiox_vendedores.html',
+      industrias: 'raiox_industrias.html',
+      oportunidades: 'raiox_oportunidades.html',
+    };
+
+    const frame = document.getElementById('frame');
+    let abaAtual = '';
+
+    function ajustarAltura() {
+      try {
+        const doc = frame.contentWindow.document;
+        const h = Math.max(doc.body.scrollHeight, doc.documentElement.scrollHeight);
+        if (h > 100) frame.style.height = (h + 24) + 'px';
+      } catch (e) { /* cross-origin ou ainda carregando — ignora */ }
+    }
+
+    function trocarAba(aba, atualizarHash) {
+      if (!PAGINAS[aba]) aba = 'clientes';
+      abaAtual = aba;
+      document.querySelectorAll('.tab-btn').forEach(b => b.classList.toggle('ativo', b.dataset.aba === aba));
+      frame.src = PAGINAS[aba] + '?embed=1';
+      if (atualizarHash !== false) location.hash = aba;
+    }
+
+    frame.addEventListener('load', () => {
+      ajustarAltura();
+      setTimeout(ajustarAltura, 300);
+      setTimeout(ajustarAltura, 1000);
+    });
+    setInterval(ajustarAltura, 900);
+
+    document.querySelectorAll('.tab-btn').forEach(b => {
+      b.addEventListener('click', () => trocarAba(b.dataset.aba));
+    });
+
+    window.addEventListener('hashchange', () => trocarAba(location.hash.replace('#', ''), false));
+
+    trocarAba(location.hash.replace('#', '') || 'clientes', false);
+  </script>
+</body>
+</html>
