@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Raio X de Oportunidades — OfftradeHub</title>
+  <script src="auth.js"></script>
+  <script src="raiox_oportunidades_data.js"></script>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --bg: #0f1117; --card: #1a1d27; --accent: #f5c518;
+      --text: #e2e8f0; --muted: #94a3b8; --border: #2d3144; --queda: #f0576b; --alta: #34d399;
+    }
+    body {
+      background: var(--bg); color: var(--text);
+      font-family: 'Segoe UI', system-ui, sans-serif;
+      min-height: 100vh; padding: 0 0 48px;
+    }
+    header {
+      background: var(--card); border-bottom: 1px solid var(--border);
+      padding: 16px 24px; display: flex; align-items: center; gap: 16px;
+      flex-wrap: wrap;
+    }
+    .logo { font-size: 1.05rem; font-weight: 800; color: var(--accent); }
+    .nav { display: flex; gap: 8px; margin-left: auto; flex-wrap: wrap; }
+    .nav a {
+      color: var(--muted); text-decoration: none; font-size: .82rem;
+      padding: 6px 12px; border-radius: 7px; border: 1px solid var(--border);
+      transition: all .15s;
+    }
+    .nav a:hover, .nav a.ativo { border-color: var(--accent); color: var(--accent); }
+    .container { max-width: 1280px; margin: 0 auto; padding: 24px 20px; }
+    .titulo { font-size: 1.3rem; font-weight: 800; margin-bottom: 4px; }
+    .atualizacao { font-size: .78rem; color: var(--muted); margin-bottom: 20px; }
+    .resumo-total {
+      background: var(--card); border: 1px solid var(--border); border-radius: 14px;
+      padding: 18px 20px; margin-bottom: 20px; display: flex; gap: 32px; flex-wrap: wrap;
+    }
+    .kpi-label { font-size: .68rem; color: var(--muted); text-transform: uppercase; letter-spacing: .05em; margin-bottom: 4px; }
+    .kpi-valor { font-size: 1.25rem; font-weight: 800; }
+    .kpi-valor.queda { color: var(--queda); }
+    .filtro { margin-bottom: 14px; }
+    .filtro input {
+      width: 100%; max-width: 320px; padding: 9px 12px; border-radius: 8px;
+      border: 1px solid var(--border); background: var(--card); color: var(--text);
+      font-size: .88rem; outline: none;
+    }
+    .filtro input:focus { border-color: var(--accent); }
+    .filtros-wrap { display: flex; gap: 14px; flex-wrap: wrap; margin-bottom: 14px; align-items: flex-end; }
+    .filtro-vendedor { display: flex; flex-direction: column; gap: 5px; }
+    .filtro-vendedor label { font-size: .68rem; color: var(--muted); text-transform: uppercase; letter-spacing: .05em; }
+    .filtro-vendedor select {
+      padding: 8px 12px; border-radius: 8px; border: 1px solid var(--border);
+      background: var(--card); color: var(--text); font-size: .85rem; outline: none;
+      min-width: 180px;
+    }
+    .filtro-vendedor select:focus { border-color: var(--accent); }
+    .tabs { display: flex; gap: 8px; margin-bottom: 16px; border-bottom: 1px solid var(--border); }
+    .tab-btn {
+      background: none; border: none; color: var(--muted); font-size: .9rem; font-weight: 700;
+      padding: 10px 16px; cursor: pointer; border-bottom: 2px solid transparent; font-family: inherit;
+    }
+    .tab-btn.ativo { color: var(--accent); border-bottom-color: var(--accent); }
+    .toolbar { display: flex; gap: 12px; flex-wrap: wrap; align-items: center; margin-bottom: 14px; }
+    .btn-extrair {
+      background: var(--card); border: 1px solid var(--border); color: var(--accent);
+      border-radius: 8px; padding: 8px 14px; font-size: .82rem; cursor: pointer; font-family: inherit;
+      margin-left: auto;
+    }
+    .btn-extrair:hover { border-color: var(--accent); }
+    table { width: 100%; border-collapse: collapse; background: var(--card); border-radius: 12px; overflow: hidden; border: 1px solid var(--border); }
+    th {
+      background: #1f2233; padding: 9px 12px; font-size: .68rem; color: var(--muted);
+      text-transform: uppercase; letter-spacing: .04em; text-align: right; font-weight: 600;
+      cursor: pointer; white-space: nowrap; user-select: none;
+    }
+    th:first-child, th:nth-child(2), th:nth-child(3) { text-align: left; }
+    th.sort-ativo { color: var(--accent); }
+    td { padding: 9px 12px; font-size: .82rem; border-top: 1px solid var(--border); text-align: right; white-space: nowrap; }
+    td:first-child, td:nth-child(2), td:nth-child(3) { text-align: left; }
+    td:first-child { color: var(--muted); font-weight: 600; }
+    tr:hover td { background: #1f2233; }
+    .queda-txt { color: var(--queda); font-weight: 700; }
+    .alta-txt { color: var(--alta); font-weight: 700; }
+    .neutro-txt { color: var(--muted); }
+    .tabela-wrap { overflow-x: auto; }
+    .aba { display: none; }
+    .aba.ativa { display: block; }
+    .vazio { color: var(--muted); padding: 20px; text-align: center; }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">OfftradeHub</div>
+    <div class="nav">
+      <a href="raiox_clientes.html">Raio X Clientes</a>
+      <a href="raiox_vendedores.html">Raio X Vendedores</a>
+      <a href="raiox_industrias.html">Raio X Indústrias</a>
+      <a href="raiox_oportunidades.html" class="ativo">Raio X Oportunidades</a>
+      <a href="index.html">← Painel</a>
+    </div>
+  </header>
+
+  <div class="container">
+    <div class="titulo">Raio X de Oportunidades — Ranking de Quedas</div>
+    <div class="atualizacao" id="atualizacao">Carregando…</div>
+
+    <div class="resumo-total" id="resumo-total"></div>
+
+    <div class="filtros-wrap" id="filtros"></div>
+
+    <div class="tabs">
+      <button class="tab-btn ativo" data-aba="clientes">Clientes</button>
+      <button class="tab-btn" data-aba="industrias">Indústrias</button>
+      <button class="tab-btn" data-aba="skus">SKUs</button>
+    </div>
+
+    <div class="toolbar">
+      <div class="filtro" style="margin-bottom:0">
+        <input type="text" id="busca" placeholder="Buscar...">
+      </div>
+      <div class="filtro-vendedor">
+        <label for="f-ordenar">Ordenar por</label>
+        <select id="f-ordenar">
+          <option value="queda_fat_mes_valor">Maior queda R$ (vs mês anterior)</option>
+          <option value="queda_fat_ano_valor">Maior queda R$ (vs ano anterior)</option>
+          <option value="queda_fat_mes_pct">Maior queda % (vs mês anterior)</option>
+          <option value="queda_fat_ano_pct">Maior queda % (vs ano anterior)</option>
+          <option value="queda_qt_mes_valor">Maior queda qtd (vs mês anterior)</option>
+          <option value="queda_qt_ano_valor">Maior queda qtd (vs ano anterior)</option>
+          <option value="fat_atual">Maior faturamento atual</option>
+        </select>
+      </div>
+      <button class="btn-extrair" id="btn-csv">&#128190; Extrair CSV</button>
+    </div>
+
+    <div class="tabela-wrap">
+      <div class="aba ativa" id="aba-clientes"></div>
+      <div class="aba" id="aba-industrias"></div>
+      <div class="aba" id="aba-skus"></div>
+    </div>
+  </div>
+
+  <script>
+    const data = RAIOX_OPORTUNIDADES_DATA;
+    const brl = v => new Intl.NumberFormat('pt-BR', { style: 'currency', currency: 'BRL', maximumFractionDigits: 0 }).format(v || 0);
+    const num = v => new Intl.NumberFormat('pt-BR', { maximumFractionDigits: 1 }).format(v || 0);
+    const pctTxt = v => v === null || v === undefined ? '—' : `${v > 0 ? '+' : ''}${num(v)}%`;
+    const pctCls = v => v === null || v === undefined ? 'neutro-txt' : (v < 0 ? 'queda-txt' : (v > 0 ? 'alta-txt' : 'neutro-txt'));
+
+    document.getElementById('atualizacao').textContent =
+      `Atualizado em ${data.atualizado_em} · atual: ${data.periodo_atual.label} · mês anterior: ${data.periodo_mes_anterior.label} · ano anterior: ${data.periodo_ano_anterior.label}` +
+      (data.fontes_indisponiveis && data.fontes_indisponiveis.length ? ` · [AVISO] fonte(s) indisponível(is): ${data.fontes_indisponiveis.join(', ')}` : '');
+
+    let filtroEstado = '', filtroGerente = '', filtroSupervisor = '', filtroVendedor = '', buscaTexto = '', abaAtiva = 'clientes', ordenarPor = 'queda_fat_mes_valor';
+
+    function vendedoresFiltrados(estado, gerente, supervisor) {
+      return (data.vendedores || []).filter(v =>
+        (!estado || v.estado === estado) &&
+        (!gerente || v.gerente === gerente) &&
+        (!supervisor || v.supervisor === supervisor)
+      );
+    }
+
+    function chavesAtivas() {
+      let lista = vendedoresFiltrados(filtroEstado, filtroGerente, filtroSupervisor);
+      if (filtroVendedor) lista = lista.filter(v => v.chave === filtroVendedor);
+      return lista.map(v => v.chave);
+    }
+
+    function semFiltroAlgum() {
+      return !filtroEstado && !filtroGerente && !filtroSupervisor && !filtroVendedor;
+    }
+
+    function montaFiltros() {
+      const wrap = document.getElementById('filtros');
+      wrap.innerHTML = `
+        <div class="filtro-vendedor"><label for="f-estado">Estado</label><select id="f-estado"></select></div>
+        <div class="filtro-vendedor"><label for="f-gerente">Gerente</label><select id="f-gerente"></select></div>
+        <div class="filtro-vendedor"><label for="f-supervisor">Supervisor</label><select id="f-supervisor"></select></div>
+        <div class="filtro-vendedor"><label for="f-vendedor">Vendedor</label><select id="f-vendedor"></select></div>
+      `;
+      const selEstado = document.getElementById('f-estado');
+      const selGerente = document.getElementById('f-gerente');
+      const selSupervisor = document.getElementById('f-supervisor');
+      const selVendedor = document.getElementById('f-vendedor');
+
+      const estados = [...new Set((data.vendedores || []).map(v => v.estado))].sort();
+      selEstado.innerHTML = ['<option value="">Todos</option>'].concat(estados.map(e => `<option value="${e}">${e}</option>`)).join('');
+      selEstado.value = filtroEstado;
+
+      const gerentes = [...new Set(vendedoresFiltrados(filtroEstado, '', '').map(v => v.gerente))].sort();
+      selGerente.innerHTML = ['<option value="">Todos</option>'].concat(gerentes.map(g => `<option value="${g}">${g}</option>`)).join('');
+      selGerente.value = filtroGerente;
+
+      const supervisores = [...new Set(vendedoresFiltrados(filtroEstado, filtroGerente, '').map(v => v.supervisor))].sort();
+      selSupervisor.innerHTML = ['<option value="">Todos</option>'].concat(supervisores.map(s => `<option value="${s}">${s}</option>`)).join('');
+      selSupervisor.value = filtroSupervisor;
+
+      const vendedores = vendedoresFiltrados(filtroEstado, filtroGerente, filtroSupervisor).sort((a, b) => a.nome.localeCompare(b.nome));
+      selVendedor.innerHTML = ['<option value="">Todos</option>'].concat(vendedores.map(v => `<option value="${v.chave}">${v.nome} (${v.estado} · ${v.rca})</option>`)).join('');
+      selVendedor.value = filtroVendedor;
+
+      selEstado.addEventListener('change', () => { filtroEstado = selEstado.value; filtroGerente = ''; filtroSupervisor = ''; filtroVendedor = ''; render(); });
+      selGerente.addEventListener('change', () => { filtroGerente = selGerente.value; filtroSupervisor = ''; filtroVendedor = ''; render(); });
+      selSupervisor.addEventListener('change', () => { filtroSupervisor = selSupervisor.value; filtroVendedor = ''; render(); });
+      selVendedor.addEventListener('change', () => { filtroVendedor = selVendedor.value; render(); });
+    }
+
+    function recalcDerivados(raw) {
+      const varPct = (atual, base) => base > 0 ? Math.round((atual - base) / base * 1000) / 10 : null;
+      return {
+        ...raw,
+        queda_fat_mes_valor: Math.round((raw.fat_mes_anterior - raw.fat_atual) * 100) / 100,
+        queda_fat_ano_valor: Math.round((raw.fat_ano_anterior - raw.fat_atual) * 100) / 100,
+        queda_fat_mes_pct: varPct(raw.fat_atual, raw.fat_mes_anterior),
+        queda_fat_ano_pct: varPct(raw.fat_atual, raw.fat_ano_anterior),
+        queda_qt_mes_valor: Math.round((raw.qt_mes_anterior - raw.qt_atual) * 100) / 100,
+        queda_qt_ano_valor: Math.round((raw.qt_ano_anterior - raw.qt_atual) * 100) / 100,
+        queda_qt_mes_pct: varPct(raw.qt_atual, raw.qt_mes_anterior),
+        queda_qt_ano_pct: varPct(raw.qt_atual, raw.qt_ano_anterior),
+      };
+    }
+
+    function mesclaPorVendedor(item, chaves) {
+      const objs = chaves.map(ch => item.por_vendedor && item.por_vendedor[ch]).filter(Boolean);
+      if (!objs.length) return null;
+      const soma = campo => objs.reduce((s, o) => s + (o[campo] || 0), 0);
+      return recalcDerivados({
+        fat_atual: soma('fat_atual'), fat_mes_anterior: soma('fat_mes_anterior'), fat_ano_anterior: soma('fat_ano_anterior'),
+        qt_atual: soma('qt_atual'), qt_mes_anterior: soma('qt_mes_anterior'), qt_ano_anterior: soma('qt_ano_anterior'),
+      });
+    }
+
+    function listaClientes(chaves, semFiltro) {
+      return (data.clientes || []).filter(c => semFiltro || (c.chaves_rca || []).some(ch => chaves.includes(ch)));
+    }
+
+    function listaComVendedor(base, chaves, semFiltro) {
+      if (semFiltro) return base;
+      return base.map(item => {
+        const m = mesclaPorVendedor(item, chaves);
+        return m ? { ...item, ...m } : null;
+      }).filter(Boolean);
+    }
+
+    const COLUNAS = {
+      clientes: [
+        { label: '#', tipo: 'idx' },
+        { label: 'Cliente', campo: 'nome' },
+        { label: 'Ramo / Gerente', render: r => `${r.ramo}<br><span style="color:var(--muted);font-size:.72rem">${r.gerente}</span>` },
+        { label: 'Estado', campo: 'estado' },
+        { label: 'Fat. atual', render: r => brl(r.fat_atual) },
+        { label: 'Fat. mês ant.', render: r => brl(r.fat_mes_anterior) },
+        { label: 'Δ mês', render: r => `<span class="${pctCls(r.queda_fat_mes_pct)}">${pctTxt(r.queda_fat_mes_pct)}</span>` },
+        { label: 'Fat. ano ant.', render: r => brl(r.fat_ano_anterior) },
+        { label: 'Δ ano', render: r => `<span class="${pctCls(r.queda_fat_ano_pct)}">${pctTxt(r.queda_fat_ano_pct)}</span>` },
+        { label: 'Qtd atual', render: r => num(r.qt_atual) },
+        { label: 'Δ qtd mês', render: r => `<span class="${pctCls(r.queda_qt_mes_pct)}">${pctTxt(r.queda_qt_mes_pct)}</span>` },
+        { label: 'Δ qtd ano', render: r => `<span class="${pctCls(r.queda_qt_ano_pct)}">${pctTxt(r.queda_qt_ano_pct)}</span>` },
+      ],
+      industrias: [
+        { label: '#', tipo: 'idx' },
+        { label: 'Indústria', campo: 'fornecedor' },
+        { label: '', render: () => '' },
+        { label: 'Estado', campo: 'estado' },
+        { label: 'Fat. atual', render: r => brl(r.fat_atual) },
+        { label: 'Fat. mês ant.', render: r => brl(r.fat_mes_anterior) },
+        { label: 'Δ mês', render: r => `<span class="${pctCls(r.queda_fat_mes_pct)}">${pctTxt(r.queda_fat_mes_pct)}</span>` },
+        { label: 'Fat. ano ant.', render: r => brl(r.fat_ano_anterior) },
+        { label: 'Δ ano', render: r => `<span class="${pctCls(r.queda_fat_ano_pct)}">${pctTxt(r.queda_fat_ano_pct)}</span>` },
+        { label: 'Qtd atual', render: r => num(r.qt_atual) },
+        { label: 'Δ qtd mês', render: r => `<span class="${pctCls(r.queda_qt_mes_pct)}">${pctTxt(r.queda_qt_mes_pct)}</span>` },
+        { label: 'Δ qtd ano', render: r => `<span class="${pctCls(r.queda_qt_ano_pct)}">${pctTxt(r.queda_qt_ano_pct)}</span>` },
+      ],
+      skus: [
+        { label: '#', tipo: 'idx' },
+        { label: 'SKU', campo: 'produto' },
+        { label: 'Indústria', campo: 'fornecedor' },
+        { label: 'Estado', campo: 'estado' },
+        { label: 'Fat. atual', render: r => brl(r.fat_atual) },
+        { label: 'Fat. mês ant.', render: r => brl(r.fat_mes_anterior) },
+        { label: 'Δ mês', render: r => `<span class="${pctCls(r.queda_fat_mes_pct)}">${pctTxt(r.queda_fat_mes_pct)}</span>` },
+        { label: 'Fat. ano ant.', render: r => brl(r.fat_ano_anterior) },
+        { label: 'Δ ano', render: r => `<span class="${pctCls(r.queda_fat_ano_pct)}">${pctTxt(r.queda_fat_ano_pct)}</span>` },
+        { label: 'Qtd atual', render: r => num(r.qt_atual) },
+        { label: 'Δ qtd mês', render: r => `<span class="${pctCls(r.queda_qt_mes_pct)}">${pctTxt(r.queda_qt_mes_pct)}</span>` },
+        { label: 'Δ qtd ano', render: r => `<span class="${pctCls(r.queda_qt_ano_pct)}">${pctTxt(r.queda_qt_ano_pct)}</span>` },
+      ],
+    };
+
+    function listaAtual() {
+      const chaves = chavesAtivas();
+      const semFiltro = semFiltroAlgum();
+      let lista;
+      if (abaAtiva === 'clientes') {
+        lista = listaClientes(chaves, semFiltro);
+      } else if (abaAtiva === 'industrias') {
+        lista = listaComVendedor(data.industrias || [], chaves, semFiltro);
+      } else {
+        lista = listaComVendedor(data.skus || [], chaves, semFiltro);
+      }
+      if (buscaTexto) {
+        const campoBusca = abaAtiva === 'clientes' ? 'nome' : (abaAtiva === 'industrias' ? 'fornecedor' : 'produto');
+        lista = lista.filter(r => (r[campoBusca] || '').toUpperCase().includes(buscaTexto) || (r.fornecedor || '').toUpperCase().includes(buscaTexto));
+      }
+      lista = [...lista].sort((a, b) => (b[ordenarPor] ?? -Infinity) - (a[ordenarPor] ?? -Infinity));
+      return lista;
+    }
+
+    function renderResumo(lista) {
+      const somaQuedaMes = lista.reduce((s, r) => s + Math.max(r.queda_fat_mes_valor, 0), 0);
+      const somaQuedaAno = lista.reduce((s, r) => s + Math.max(r.queda_fat_ano_valor, 0), 0);
+      const emQueda = lista.filter(r => r.queda_fat_mes_valor > 0).length;
+      document.getElementById('resumo-total').innerHTML = `
+        <div><div class="kpi-label">Queda total R$ (vs mês anterior)</div><div class="kpi-valor queda">${brl(somaQuedaMes)}</div></div>
+        <div><div class="kpi-label">Queda total R$ (vs ano anterior)</div><div class="kpi-valor queda">${brl(somaQuedaAno)}</div></div>
+        <div><div class="kpi-label">Em queda vs mês anterior</div><div class="kpi-valor">${emQueda} de ${lista.length}</div></div>
+      `;
+    }
+
+    function renderTabela(lista) {
+      const cols = COLUNAS[abaAtiva];
+      const alvo = document.getElementById(`aba-${abaAtiva}`);
+      if (!lista.length) {
+        alvo.innerHTML = '<div class="vazio">Nenhum registro encontrado para esse filtro.</div>';
+        return;
+      }
+      const head = `<tr>${cols.map(c => `<th>${c.label}</th>`).join('')}</tr>`;
+      const body = lista.map((r, i) => `
+        <tr>${cols.map(c => `<td>${c.tipo === 'idx' ? i + 1 : (c.render ? c.render(r) : (r[c.campo] ?? ''))}</td>`).join('')}</tr>
+      `).join('');
+      alvo.innerHTML = `<table><thead>${head}</thead><tbody>${body}</tbody></table>`;
+    }
+
+    function extrairCSV() {
+      const lista = listaAtual();
+      const cabecalho = abaAtiva === 'clientes'
+        ? ['Cliente', 'Estado', 'Ramo', 'Gerente', 'Supervisor', 'Fat atual', 'Fat mes anterior', 'Delta % mes', 'Fat ano anterior', 'Delta % ano', 'Qtd atual', 'Qtd mes anterior', 'Delta % qtd mes', 'Qtd ano anterior', 'Delta % qtd ano']
+        : abaAtiva === 'industrias'
+        ? ['Industria', 'Estado', 'Fat atual', 'Fat mes anterior', 'Delta % mes', 'Fat ano anterior', 'Delta % ano', 'Qtd atual', 'Qtd mes anterior', 'Delta % qtd mes', 'Qtd ano anterior', 'Delta % qtd ano']
+        : ['SKU', 'Industria', 'Estado', 'Fat atual', 'Fat mes anterior', 'Delta % mes', 'Fat ano anterior', 'Delta % ano', 'Qtd atual', 'Qtd mes anterior', 'Delta % qtd mes', 'Qtd ano anterior', 'Delta % qtd ano'];
+
+      const linhas = [cabecalho];
+      lista.forEach(r => {
+        const base = abaAtiva === 'clientes' ? [r.nome, r.estado, r.ramo, r.gerente, r.supervisor]
+          : abaAtiva === 'industrias' ? [r.fornecedor, r.estado]
+          : [r.produto, r.fornecedor, r.estado];
+        linhas.push([
+          ...base,
+          r.fat_atual.toFixed(2).replace('.', ','), r.fat_mes_anterior.toFixed(2).replace('.', ','), r.queda_fat_mes_pct ?? '',
+          r.fat_ano_anterior.toFixed(2).replace('.', ','), r.queda_fat_ano_pct ?? '',
+          r.qt_atual, r.qt_mes_anterior, r.queda_qt_mes_pct ?? '', r.qt_ano_anterior, r.queda_qt_ano_pct ?? '',
+        ]);
+      });
+      const csv = linhas.map(l => l.map(v => `"${String(v ?? '').replace(/"/g, '""')}"`).join(';')).join('\n');
+      const blob = new Blob(['﻿' + csv], { type: 'text/csv;charset=utf-8;' });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = `raiox_oportunidades_${abaAtiva}.csv`;
+      a.click();
+      URL.revokeObjectURL(url);
+    }
+
+    function render() {
+      montaFiltros();
+      const lista = listaAtual();
+      renderResumo(lista);
+      renderTabela(lista);
+    }
+
+    document.querySelectorAll('.tab-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('ativo'));
+        document.querySelectorAll('.aba').forEach(a => a.classList.remove('ativa'));
+        btn.classList.add('ativo');
+        abaAtiva = btn.dataset.aba;
+        document.getElementById(`aba-${abaAtiva}`).classList.add('ativa');
+        render();
+      });
+    });
+
+    document.getElementById('busca').addEventListener('input', function () { buscaTexto = this.value.trim().toUpperCase(); render(); });
+    document.getElementById('f-ordenar').addEventListener('change', function () { ordenarPor = this.value; render(); });
+    document.getElementById('btn-csv').addEventListener('click', extrairCSV);
+
+    render();
+  </script>
+</body>
+</html>
