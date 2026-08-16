@@ -188,6 +188,10 @@
         <tr><td>${v.nome}</td><td style="color:var(--muted)">${v.estado} · ${v.rca}</td><td>${brl(v.faturamento)}</td></tr>
       `).join('') || '<tr><td colspan="3" style="color:var(--muted)">Sem dados.</td></tr>';
 
+      const produtosHtml = (f.top_produtos || []).map(p => `
+        <tr><td>${p.produto}</td><td style="color:var(--muted)">${p.quantidade.toLocaleString('pt-BR')}</td><td>${brl(p.faturamento)}</td></tr>
+      `).join('') || '<tr><td colspan="3" style="color:var(--muted)">Sem dados.</td></tr>';
+
       document.getElementById('conteudo').innerHTML = `
         <div class="ficha-header">
           <div>
@@ -206,6 +210,7 @@
           <div class="kpi-card"><div class="kpi-label">Média mensal</div><div class="kpi-valor">${brl(f.media_mensal)}</div></div>
           <div class="kpi-card"><div class="kpi-label">Melhor cliente</div><div class="kpi-valor" style="font-size:.95rem">${(f.top_clientes[0] || {}).nome || 'N/D'}</div></div>
           <div class="kpi-card"><div class="kpi-label">Melhor vendedor</div><div class="kpi-valor" style="font-size:.95rem">${(f.top_vendedores[0] || {}).nome || 'N/D'}</div></div>
+          <div class="kpi-card"><div class="kpi-label">Produto mais vendido</div><div class="kpi-valor" style="font-size:.95rem">${(f.top_produtos[0] || {}).produto || 'N/D'}</div></div>
         </div>
 
         <div class="card">
@@ -229,6 +234,14 @@
             </table>
           </div>
         </div>
+
+        <div class="card">
+          <div class="card-titulo">Produtos mais vendidos</div>
+          <table>
+            <thead><tr><th>Produto</th><th>Quantidade</th><th>Faturamento</th></tr></thead>
+            <tbody>${produtosHtml}</tbody>
+          </table>
+        </div>
       `;
     }
 
@@ -243,6 +256,9 @@
       linhas.push([]);
       linhas.push(['Vendedor', 'Estado', 'RCA', 'Faturamento']);
       (f.top_vendedores || []).forEach(v => linhas.push([v.nome, v.estado, v.rca, v.faturamento.toFixed(2).replace('.', ',')]));
+      linhas.push([]);
+      linhas.push(['Produto', 'Quantidade', 'Faturamento']);
+      (f.top_produtos || []).forEach(p => linhas.push([p.produto, p.quantidade, p.faturamento.toFixed(2).replace('.', ',')]));
 
       const csv = linhas.map(l => l.map(x => `"${String(x ?? '').replace(/"/g, '""')}"`).join(';')).join('\n');
       const blob = new Blob(['﻿' + csv], { type: 'text/csv;charset=utf-8;' });
