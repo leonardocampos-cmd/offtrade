@@ -264,7 +264,7 @@
     const COLUNAS = {
       clientes: [
         { label: '#', tipo: 'idx' },
-        { label: 'Cliente', campo: 'nome' },
+        { label: 'Cliente', render: r => `${r.nome} <span style="color:var(--muted);font-size:.7rem">#${r.codcli}</span>` },
         { label: 'Ramo / Vendedor', render: r => `${r.ramo}<br><span style="color:var(--muted);font-size:.72rem">${r.vendedor}</span>` },
         { label: 'Estado', campo: 'estado' },
         { label: 'Fat. atual', render: r => brl(r.fat_atual) },
@@ -433,14 +433,14 @@
     function extrairCSV() {
       const lista = listaAtual();
       const cabecalho = abaAtiva === 'clientes'
-        ? ['Cliente', 'Estado', 'Ramo', 'Vendedor', 'Gerente', 'Supervisor', 'Fat atual', 'Fat mes anterior', 'Delta % mes', 'Fat ano anterior', 'Delta % ano', 'Qtd atual', 'Qtd mes anterior', 'Delta % qtd mes', 'Qtd ano anterior', 'Delta % qtd ano']
+        ? ['Codigo cliente', 'Cliente', 'Estado', 'Ramo', 'Vendedor', 'Gerente', 'Supervisor', 'Fat atual', 'Fat mes anterior', 'Delta % mes', 'Fat ano anterior', 'Delta % ano', 'Qtd atual', 'Qtd mes anterior', 'Delta % qtd mes', 'Qtd ano anterior', 'Delta % qtd ano']
         : abaAtiva === 'industrias'
         ? ['Industria', 'Estado', 'Fat atual', 'Fat mes anterior', 'Delta % mes', 'Fat ano anterior', 'Delta % ano', 'Qtd atual', 'Qtd mes anterior', 'Delta % qtd mes', 'Qtd ano anterior', 'Delta % qtd ano']
         : ['SKU', 'Industria', 'Estado', 'Fat atual', 'Fat mes anterior', 'Delta % mes', 'Fat ano anterior', 'Delta % ano', 'Qtd atual', 'Qtd mes anterior', 'Delta % qtd mes', 'Qtd ano anterior', 'Delta % qtd ano'];
 
       const linhas = [cabecalho];
       lista.forEach(r => {
-        const base = abaAtiva === 'clientes' ? [r.nome, r.estado, r.ramo, r.vendedor, r.gerente, r.supervisor]
+        const base = abaAtiva === 'clientes' ? [r.codcli, r.nome, r.estado, r.ramo, r.vendedor, r.gerente, r.supervisor]
           : abaAtiva === 'industrias' ? [r.fornecedor, r.estado]
           : [r.produto, r.fornecedor, r.estado];
         linhas.push([
