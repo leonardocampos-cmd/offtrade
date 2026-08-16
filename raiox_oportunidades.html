@@ -30,7 +30,7 @@
       transition: all .15s;
     }
     .nav a:hover, .nav a.ativo { border-color: var(--accent); color: var(--accent); }
-    .container { max-width: 1280px; margin: 0 auto; padding: 24px 20px; }
+    .container { max-width: 1720px; margin: 0 auto; padding: 24px 20px; }
     .titulo { font-size: 1.3rem; font-weight: 800; margin-bottom: 4px; }
     .atualizacao { font-size: .78rem; color: var(--muted); margin-bottom: 20px; }
     .resumo-total {
@@ -69,18 +69,21 @@
       margin-left: auto;
     }
     .btn-extrair:hover { border-color: var(--accent); }
-    table { width: 100%; border-collapse: collapse; background: var(--card); border-radius: 12px; overflow: hidden; border: 1px solid var(--border); }
+    table { width: 100%; border-collapse: collapse; background: var(--card); border-radius: 12px; overflow: hidden; border: 1px solid var(--border); table-layout: auto; }
     th {
-      background: #1f2233; padding: 9px 12px; font-size: .68rem; color: var(--muted);
-      text-transform: uppercase; letter-spacing: .04em; text-align: right; font-weight: 600;
+      background: #1f2233; padding: 8px 10px; font-size: .66rem; color: var(--muted);
+      text-transform: uppercase; letter-spacing: .03em; text-align: right; font-weight: 600;
       cursor: pointer; white-space: nowrap; user-select: none;
     }
     th:first-child, th:nth-child(2), th:nth-child(3) { text-align: left; }
     th.sort-ativo { color: var(--accent); }
-    td { padding: 9px 12px; font-size: .82rem; border-top: 1px solid var(--border); text-align: right; white-space: nowrap; }
+    td { padding: 7px 10px; font-size: .8rem; border-top: 1px solid var(--border); text-align: right; white-space: nowrap; }
     td:first-child, td:nth-child(2), td:nth-child(3) { text-align: left; }
     td:first-child { color: var(--muted); font-weight: 600; }
     tr:hover td { background: #1f2233; }
+    tr.clicavel { cursor: pointer; }
+    tr.clicavel td:nth-child(2)::before { content: '▸ '; color: var(--muted); font-size: .7rem; }
+    tr.clicavel.expandida td:nth-child(2)::before { content: '▾ '; color: var(--accent); }
     .queda-txt { color: var(--queda); font-weight: 700; }
     .alta-txt { color: var(--alta); font-weight: 700; }
     .neutro-txt { color: var(--muted); }
@@ -88,6 +91,13 @@
     .aba { display: none; }
     .aba.ativa { display: block; }
     .vazio { color: var(--muted); padding: 20px; text-align: center; }
+    .sub-row td { background: #14161a; padding: 10px 10px 14px 30px; border-top: none; }
+    .sub-row:hover td { background: #14161a; }
+    .sub-tabela { width: 100%; border-collapse: collapse; }
+    .sub-tabela caption { text-align: left; font-size: .68rem; color: var(--muted); text-transform: uppercase; letter-spacing: .04em; padding-bottom: 6px; }
+    .sub-tabela th { background: none; padding: 4px 8px; font-size: .62rem; }
+    .sub-tabela td { padding: 4px 8px; font-size: .76rem; border-top: 1px solid var(--border); }
+    .sub-vazio { color: var(--muted); font-size: .78rem; padding: 6px 8px; }
   </style>
 </head>
 <body>
@@ -154,6 +164,7 @@
       (data.fontes_indisponiveis && data.fontes_indisponiveis.length ? ` · [AVISO] fonte(s) indisponível(is): ${data.fontes_indisponiveis.join(', ')}` : '');
 
     let filtroEstado = '', filtroGerente = '', filtroSupervisor = '', filtroVendedor = '', buscaTexto = '', abaAtiva = 'clientes', ordenarPor = 'queda_fat_mes_valor';
+    const expandido = { clientes: new Set(), industrias: new Set() };
 
     function vendedoresFiltrados(estado, gerente, supervisor) {
       return (data.vendedores || []).filter(v =>
@@ -249,7 +260,7 @@
       clientes: [
         { label: '#', tipo: 'idx' },
         { label: 'Cliente', campo: 'nome' },
-        { label: 'Ramo / Gerente', render: r => `${r.ramo}<br><span style="color:var(--muted);font-size:.72rem">${r.gerente}</span>` },
+        { label: 'Ramo / Vendedor', render: r => `${r.ramo}<br><span style="color:var(--muted);font-size:.72rem">${r.vendedor}</span>` },
         { label: 'Estado', campo: 'estado' },
         { label: 'Fat. atual', render: r => brl(r.fat_atual) },
         { label: 'Fat. mês ant.', render: r => brl(r.fat_mes_anterior) },
@@ -320,6 +331,44 @@
       `;
     }
 
+    function chaveExpand(r) {
+      return abaAtiva === 'clientes' ? r.chave : `${r.estado}|${r.fornecedor}`;
+    }
+
+    const SUB_COLS = [
+      { label: '', campo: null },
+      { label: 'Fat. atual', render: x => brl(x.fat_atual) },
+      { label: 'Fat. mês ant.', render: x => brl(x.fat_mes_anterior) },
+      { label: 'Δ mês', render: x => `<span class="${pctCls(x.queda_fat_mes_pct)}">${pctTxt(x.queda_fat_mes_pct)}</span>` },
+      { label: 'Fat. ano ant.', render: x => brl(x.fat_ano_anterior) },
+      { label: 'Δ ano', render: x => `<span class="${pctCls(x.queda_fat_ano_pct)}">${pctTxt(x.queda_fat_ano_pct)}</span>` },
+      { label: 'Qtd atual', render: x => num(x.qt_atual) },
+    ];
+
+    function subTabelaHTML(caption, primeiraColLabel, itens, nomeCampo, nota) {
+      if (!itens.length) return '<div class="sub-vazio">Nenhum registro encontrado para esse filtro.</div>';
+      const cols = [{ label: primeiraColLabel }, ...SUB_COLS.slice(1)];
+      const head = `<tr><th style="text-align:left">${primeiraColLabel}</th>${SUB_COLS.slice(1).map(c => `<th>${c.label}</th>`).join('')}</tr>`;
+      const body = itens.map(x => `
+        <tr><td style="text-align:left">${x[nomeCampo]}</td>${SUB_COLS.slice(1).map(c => `<td>${c.render(x)}</td>`).join('')}</tr>
+      `).join('');
+      return `<table class="sub-tabela"><caption>${caption}</caption><thead>${head}</thead><tbody>${body}</tbody></table>${nota || ''}`;
+    }
+
+    function renderSubTabela(r) {
+      if (abaAtiva === 'clientes') {
+        return subTabelaHTML(`Indústrias compradas por ${r.nome}`, 'Indústria', r.por_industria || [], 'fornecedor');
+      }
+      const chaves = chavesAtivas();
+      const semFiltro = semFiltroAlgum();
+      const base = listaComVendedor(data.skus || [], chaves, semFiltro);
+      const itens = base.filter(s => s.estado === r.estado && s.fornecedor === r.fornecedor)
+        .sort((a, b) => b.queda_fat_mes_valor - a.queda_fat_mes_valor);
+      const LIMITE = 30;
+      const nota = itens.length > LIMITE ? `<div class="sub-vazio">Mostrando ${LIMITE} de ${itens.length} SKUs — use a aba SKUs pra ver todos.</div>` : '';
+      return subTabelaHTML(`SKUs de ${r.fornecedor} (${r.estado})`, 'SKU', itens.slice(0, LIMITE), 'produto', nota);
+    }
+
     function renderTabela(lista) {
       const cols = COLUNAS[abaAtiva];
       const alvo = document.getElementById(`aba-${abaAtiva}`);
@@ -327,24 +376,39 @@
         alvo.innerHTML = '<div class="vazio">Nenhum registro encontrado para esse filtro.</div>';
         return;
       }
+      const clicavel = abaAtiva === 'clientes' || abaAtiva === 'industrias';
       const head = `<tr>${cols.map(c => `<th>${c.label}</th>`).join('')}</tr>`;
-      const body = lista.map((r, i) => `
-        <tr>${cols.map(c => `<td>${c.tipo === 'idx' ? i + 1 : (c.render ? c.render(r) : (r[c.campo] ?? ''))}</td>`).join('')}</tr>
-      `).join('');
+      const body = lista.map((r, i) => {
+        const exp = clicavel && expandido[abaAtiva].has(chaveExpand(r));
+        const linha = `<tr class="${clicavel ? 'clicavel' : ''}${exp ? ' expandida' : ''}" data-idx="${i}">${cols.map(c => `<td>${c.tipo === 'idx' ? i + 1 : (c.render ? c.render(r) : (r[c.campo] ?? ''))}</td>`).join('')}</tr>`;
+        const sub = exp ? `<tr class="sub-row"><td colspan="${cols.length}">${renderSubTabela(r)}</td></tr>` : '';
+        return linha + sub;
+      }).join('');
       alvo.innerHTML = `<table><thead>${head}</thead><tbody>${body}</tbody></table>`;
+
+      if (clicavel) {
+        alvo.querySelectorAll('tr.clicavel').forEach(tr => {
+          tr.addEventListener('click', () => {
+            const key = chaveExpand(lista[Number(tr.dataset.idx)]);
+            const set = expandido[abaAtiva];
+            set.has(key) ? set.delete(key) : set.add(key);
+            renderTabela(lista);
+          });
+        });
+      }
     }
 
     function extrairCSV() {
       const lista = listaAtual();
       const cabecalho = abaAtiva === 'clientes'
-        ? ['Cliente', 'Estado', 'Ramo', 'Gerente', 'Supervisor', 'Fat atual', 'Fat mes anterior', 'Delta % mes', 'Fat ano anterior', 'Delta % ano', 'Qtd atual', 'Qtd mes anterior', 'Delta % qtd mes', 'Qtd ano anterior', 'Delta % qtd ano']
+        ? ['Cliente', 'Estado', 'Ramo', 'Vendedor', 'Gerente', 'Supervisor', 'Fat atual', 'Fat mes anterior', 'Delta % mes', 'Fat ano anterior', 'Delta % ano', 'Qtd atual', 'Qtd mes anterior', 'Delta % qtd mes', 'Qtd ano anterior', 'Delta % qtd ano']
         : abaAtiva === 'industrias'
         ? ['Industria', 'Estado', 'Fat atual', 'Fat mes anterior', 'Delta % mes', 'Fat ano anterior', 'Delta % ano', 'Qtd atual', 'Qtd mes anterior', 'Delta % qtd mes', 'Qtd ano anterior', 'Delta % qtd ano']
         : ['SKU', 'Industria', 'Estado', 'Fat atual', 'Fat mes anterior', 'Delta % mes', 'Fat ano anterior', 'Delta % ano', 'Qtd atual', 'Qtd mes anterior', 'Delta % qtd mes', 'Qtd ano anterior', 'Delta % qtd ano'];
 
       const linhas = [cabecalho];
       lista.forEach(r => {
-        const base = abaAtiva === 'clientes' ? [r.nome, r.estado, r.ramo, r.gerente, r.supervisor]
+        const base = abaAtiva === 'clientes' ? [r.nome, r.estado, r.ramo, r.vendedor, r.gerente, r.supervisor]
           : abaAtiva === 'industrias' ? [r.fornecedor, r.estado]
           : [r.produto, r.fornecedor, r.estado];
         linhas.push([
@@ -365,6 +429,8 @@
     }
 
     function render() {
+      expandido.clientes.clear();
+      expandido.industrias.clear();
       montaFiltros();
       const lista = listaAtual();
       renderResumo(lista);
