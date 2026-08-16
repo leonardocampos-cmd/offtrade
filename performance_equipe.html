@@ -274,6 +274,17 @@ function _metricasDoPeriodo(r, ano, mes) {
   return { ...m, positivacoes: m.positivacoes_unicas };
 }
 
+// 'base_cadastro'/'base_ativa' são campos fixos do registro (não mudam com
+// o mês); o resto vem de _metricasDoPeriodo, que já respeita mês/indústria
+// selecionados. Sem isso, ordenar com um mês filtrado comparava o valor
+// mostrado na coluna (do mês) contra o acumulado do ano inteiro — a ordem
+// não batia com o que a tabela mostrava (bug reportado em 2026-08-16).
+function _valorOrdenacao(r, col, mesSel) {
+  if (col === 'nome') return r.nome || r.gerente || '';
+  if (col === 'base_cadastro' || col === 'base_ativa') return r[col] ?? 0;
+  return _metricasDoPeriodo(r, ANO_ATUAL, mesSel)[col] ?? 0;
+}
+
 function _vsBadge(atual, anterior) {
   if (anterior == null || anterior === 0) return '';
   const diff = ((atual - anterior) / anterior) * 100;
@@ -305,8 +316,8 @@ function _renderVendedoresDoGerente(nomeGerente, mesSel) {
   const vendedores = D.vendedores
     .filter(v => (v.gerente || '') === nomeGerente)
     .sort((a, b) => {
-      const va = _sortColVend === 'nome' ? (a.nome||'') : (a[ANO_ATUAL]?.metricas?.[_sortColVend] ?? a[_sortColVend] ?? 0);
-      const vb = _sortColVend === 'nome' ? (b.nome||'') : (b[ANO_ATUAL]?.metricas?.[_sortColVend] ?? b[_sortColVend] ?? 0);
+      const va = _valorOrdenacao(a, _sortColVend, mesSel);
+      const vb = _valorOrdenacao(b, _sortColVend, mesSel);
       if (typeof va === 'string') return va.localeCompare(vb, 'pt-BR') * _sortDirVend;
       return (va - vb) * _sortDirVend;
     });
@@ -322,14 +333,14 @@ function _renderVendedoresDoGerente(nomeGerente, mesSel) {
 
 function aplicarFiltro() {
   let linhas = _linhaFiltrada();
+  const mesSel = document.getElementById('fil-mes').value;
   linhas = [...linhas].sort((a, b) => {
-    const va = _sortCol === 'nome' ? (a.nome||a.gerente||'') : (a[ANO_ATUAL]?.metricas?.[_sortCol] ?? a[_sortCol] ?? 0);
-    const vb = _sortCol === 'nome' ? (b.nome||b.gerente||'') : (b[ANO_ATUAL]?.metricas?.[_sortCol] ?? b[_sortCol] ?? 0);
+    const va = _valorOrdenacao(a, _sortCol, mesSel);
+    const vb = _valorOrdenacao(b, _sortCol, mesSel);
     if (typeof va === 'string') return va.localeCompare(vb, 'pt-BR') * _sortDir;
     return (va - vb) * _sortDir;
   });
 
-  const mesSel = document.getElementById('fil-mes').value;
   const tbody = document.getElementById('tbody');
   if (!linhas.length) {
     tbody.innerHTML = `<tr><td colspan="20" class="empty-msg">Nenhum resultado para os filtros selecionados.</td></tr>`;
