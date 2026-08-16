@@ -226,8 +226,16 @@ def _carregar_totais(mes_offset: int = 0, limit_day: bool = False) -> dict:
         try:
             row = _ler_com_retry(engines[dsn], _query_totais(schema, filiais, mes_offset, limit_day, estado_filtro), f"{estado}/{schema}")
             row.columns = row.columns.str.upper()
-            fat = float(pd.to_numeric(row["FATURAMENTO"].iloc[0], errors="coerce") or 0)
-            pos = int(pd.to_numeric(row["POSITIVADOS"].iloc[0], errors="coerce") or 0)
+            # "or 0" não pega NaN — NaN é truthy em Python (nan != 0), então
+            # SUM(...) vindo NULL do Oracle (estado sem venda no período)
+            # passava direto como NaN em vez de cair no fallback, e
+            # propagava (sum([nan, ...]) = nan) até o total geral — bug
+            # real confirmado em 2026-08-16 (metas_gerais.html mostrando
+            # "Faturamento Total R$ NaN").
+            _fat_num = pd.to_numeric(row["FATURAMENTO"].iloc[0], errors="coerce")
+            _pos_num = pd.to_numeric(row["POSITIVADOS"].iloc[0], errors="coerce")
+            fat = float(_fat_num) if pd.notna(_fat_num) else 0.0
+            pos = int(_pos_num) if pd.notna(_pos_num) else 0
             acc = result.setdefault(estado, {"fat": 0.0, "pos": 0})
             acc["fat"] = round(acc["fat"] + fat, 2)
             # Positivação soma direto (não deduplica cliente entre schemas
