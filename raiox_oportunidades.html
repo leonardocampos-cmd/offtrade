@@ -98,6 +98,10 @@
     .sub-tabela th { background: none; padding: 4px 8px; font-size: .62rem; }
     .sub-tabela td { padding: 4px 8px; font-size: .76rem; border-top: 1px solid var(--border); }
     .sub-vazio { color: var(--muted); font-size: .78rem; padding: 6px 8px; }
+    .sub-tabela tr.clicavel-sub { cursor: pointer; }
+    .sub-tabela tr.clicavel-sub td:first-child::before { content: '▸ '; color: var(--muted); font-size: .65rem; }
+    .sub-tabela tr.clicavel-sub.expandida td:first-child::before { content: '▾ '; color: var(--accent); }
+    .sub-row2 td { background: #0d0e12 !important; padding: 8px 8px 10px 34px; border-top: none; }
   </style>
 </head>
 <body>
@@ -164,7 +168,8 @@
       (data.fontes_indisponiveis && data.fontes_indisponiveis.length ? ` · [AVISO] fonte(s) indisponível(is): ${data.fontes_indisponiveis.join(', ')}` : '');
 
     let filtroEstado = '', filtroGerente = '', filtroSupervisor = '', filtroVendedor = '', buscaTexto = '', abaAtiva = 'clientes', ordenarPor = 'queda_fat_mes_valor';
-    const expandido = { clientes: new Set(), industrias: new Set() };
+    const expandido = { clientes: new Set(), industrias: new Set(), produtos: new Set() };
+    const escapeAttr = s => String(s ?? '').replace(/"/g, '&quot;');
 
     function vendedoresFiltrados(estado, gerente, supervisor) {
       return (data.vendedores || []).filter(v =>
@@ -355,9 +360,27 @@
       return `<table class="sub-tabela"><caption>${caption}</caption><thead>${head}</thead><tbody>${body}</tbody></table>${nota || ''}`;
     }
 
+    function subTabelaClientes(r) {
+      const itens = r.por_industria || [];
+      if (!itens.length) return '<div class="sub-vazio">Nenhum registro encontrado para esse filtro.</div>';
+      const head = `<tr><th style="text-align:left">Indústria</th>${SUB_COLS.slice(1).map(c => `<th>${c.label}</th>`).join('')}</tr>`;
+      const body = itens.map(x => {
+        const key = `${r.chave}||${x.fornecedor}`;
+        const exp = expandido.produtos.has(key);
+        const linha = `<tr class="clicavel-sub${exp ? ' expandida' : ''}" data-cli="${escapeAttr(r.chave)}" data-forn="${escapeAttr(x.fornecedor)}">
+          <td style="text-align:left">${x.fornecedor}</td>${SUB_COLS.slice(1).map(c => `<td>${c.render(x)}</td>`).join('')}
+        </tr>`;
+        const sub = exp
+          ? `<tr class="sub-row2"><td colspan="7">${subTabelaHTML(`Produtos de ${x.fornecedor} comprados por ${r.nome}`, 'Produto', x.por_produto || [], 'produto')}</td></tr>`
+          : '';
+        return linha + sub;
+      }).join('');
+      return `<table class="sub-tabela"><caption>Indústrias compradas por ${r.nome}</caption><thead>${head}</thead><tbody>${body}</tbody></table>`;
+    }
+
     function renderSubTabela(r) {
       if (abaAtiva === 'clientes') {
-        return subTabelaHTML(`Indústrias compradas por ${r.nome}`, 'Indústria', r.por_industria || [], 'fornecedor');
+        return subTabelaClientes(r);
       }
       const chaves = chavesAtivas();
       const semFiltro = semFiltroAlgum();
@@ -392,6 +415,15 @@
             const key = chaveExpand(lista[Number(tr.dataset.idx)]);
             const set = expandido[abaAtiva];
             set.has(key) ? set.delete(key) : set.add(key);
+            renderTabela(lista);
+          });
+        });
+      }
+      if (abaAtiva === 'clientes') {
+        alvo.querySelectorAll('tr.clicavel-sub').forEach(tr => {
+          tr.addEventListener('click', () => {
+            const key = `${tr.dataset.cli}||${tr.dataset.forn}`;
+            expandido.produtos.has(key) ? expandido.produtos.delete(key) : expandido.produtos.add(key);
             renderTabela(lista);
           });
         });
@@ -431,6 +463,7 @@
     function render() {
       expandido.clientes.clear();
       expandido.industrias.clear();
+      expandido.produtos.clear();
       montaFiltros();
       const lista = listaAtual();
       renderResumo(lista);
