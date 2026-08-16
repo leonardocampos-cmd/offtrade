@@ -92,6 +92,7 @@ def _query_vendas(schema, filiais, estado):
     fil_clause = f"AND M.CODFILIAL IN ({','.join(filiais)})" if filiais else ""
     return f"""
         SELECT M.CODCLI, C.CLIENTE, COALESCE(C.FANTASIA, C.CLIENTE) AS NOME_CLIENTE,
+               COALESCE(C.BAIRROENT,'') AS BAIRRO,
                COALESCE(A.RAMO,'OUTROS') RAMO, TRUNC(M.DTMOV,'MM') AS MES,
                COALESCE(F.FANTASIA,'SEM FANTASIA') AS FORNECEDOR,
                COALESCE(M.DESCRICAO, 'Produto ' || M.CODPROD) AS PRODUTO,
@@ -110,8 +111,8 @@ def _query_vendas(schema, filiais, estado):
           AND M.NUMNOTADEV IS NULL
           AND M.DTCANCEL IS NULL
           AND {_FILTRO_DATAS}
-        GROUP BY M.CODCLI, C.CLIENTE, COALESCE(C.FANTASIA, C.CLIENTE), COALESCE(A.RAMO,'OUTROS'),
-                 TRUNC(M.DTMOV,'MM'), COALESCE(F.FANTASIA,'SEM FANTASIA'),
+        GROUP BY M.CODCLI, C.CLIENTE, COALESCE(C.FANTASIA, C.CLIENTE), COALESCE(C.BAIRROENT,''),
+                 COALESCE(A.RAMO,'OUTROS'), TRUNC(M.DTMOV,'MM'), COALESCE(F.FANTASIA,'SEM FANTASIA'),
                  COALESCE(M.DESCRICAO, 'Produto ' || M.CODPROD), C.CODUSUR1, C.CODUSUR2
     """
 
@@ -147,13 +148,14 @@ _hier_por_chave = {
 }
 
 vendas = pd.concat(_vendas_partes, ignore_index=True) if _vendas_partes else pd.DataFrame(
-    columns=['CODCLI', 'CLIENTE', 'NOME_CLIENTE', 'RAMO', 'MES', 'FORNECEDOR', 'PRODUTO',
+    columns=['CODCLI', 'CLIENTE', 'NOME_CLIENTE', 'BAIRRO', 'RAMO', 'MES', 'FORNECEDOR', 'PRODUTO',
              'CODUSUR1', 'CODUSUR2', 'QTD', 'FATURAMENTO', 'ESTADO'])
 vendas['MES'] = pd.to_datetime(vendas['MES'])
 vendas['RAMO'] = vendas['RAMO'].fillna('OUTROS').str.strip()
 vendas['FORNECEDOR'] = vendas['FORNECEDOR'].fillna('SEM FANTASIA').str.strip()
 vendas['PRODUTO'] = vendas['PRODUTO'].fillna('').str.strip()
 vendas['NOME_CLIENTE'] = vendas['NOME_CLIENTE'].fillna('').str.strip()
+vendas['BAIRRO'] = vendas['BAIRRO'].fillna('').str.strip()
 for col in ('CODUSUR1', 'CODUSUR2'):
     vendas[col] = vendas[col].apply(lambda v: int(v) if str(v).strip().replace('.0', '').isdigit() else None)
 
@@ -267,6 +269,7 @@ for chave, grp in vendas.groupby('CLIENTE_KEY'):
     clientes.append({
         'codcli': int(primeira['CODCLI']), 'estado': estado, 'chave': chave,
         'nome': primeira['NOME_CLIENTE'] or primeira['CLIENTE'] or f"Cliente {primeira['CODCLI']}",
+        'bairro': primeira['BAIRRO'] or '',
         'ramo': primeira['RAMO'],
         'vendedor': _vendedor_nome or 'Sem vendedor',
         'gerente': _hier['gerente'] if _hier else 'Sem gerente',
