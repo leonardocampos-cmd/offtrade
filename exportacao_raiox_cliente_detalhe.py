@@ -18,11 +18,14 @@ import pandas as pd
 
 from meta import engine, engine_spon, engine_mgon, carregar_dados
 
-ANO = 2026
-MES_INI = f"{ANO}-01-01"
-MES_FIM = f"{ANO}-07-31"
-
 HOJE = date.today()
+ANO = HOJE.year
+MES_INI = f"{ANO}-01-01"
+# Dinâmico (até hoje) em vez de fixo — o valor fixo anterior (2026-07-31)
+# fazia a página ficar parada em julho mesmo rodando o script de novo;
+# reportado pelo usuário em 2026-08-16 (raiox_cliente_detalhe.html sem
+# refletir a queda de agosto).
+MES_FIM = HOJE.strftime('%Y-%m-%d')
 
 # Nº mínimo de compradores no grupo (ramo+estado) pra uma indústria entrar no
 # ranking de recomendação — evita recomendar algo que só 1-2 clientes atípicos compram.
@@ -150,6 +153,16 @@ for base in BASES:
     except Exception as e:
         print(f"  [AVISO] {estado} falhou ({str(e)[:150]}) — ignorado")
         fontes_indisponiveis.append(estado)
+
+if len(fontes_indisponiveis) == len(BASES):
+    # Sem isso, a concatenação de DataFrames vazios (dtype "null" do pandas
+    # com backend Arrow) quebra mais na frente com ArrowNotImplementedError
+    # ao tentar concatenar string com esse dtype (clientes['ESTADO'] + '-' +
+    # ...) — mascarava a causa real (todas as fontes indisponíveis) atrás de
+    # um traceback confuso. Achado em 2026-08-16 (mesmo bug corrigido em
+    # exportacao_raiox_oportunidades.py).
+    print(f"[ERRO] Todas as {len(BASES)} bases falharam ({fontes_indisponiveis}) — nada foi gerado. Verifique a VPN/conexão Oracle e rode novamente.")
+    raise SystemExit(1)
 
 vendedores_off_trade = pd.concat(_vend_partes, ignore_index=True) if _vend_partes else pd.DataFrame(columns=['CODUSUR', 'NOME', 'SUPERVISOR', 'GERENTE', 'ESTADO'])
 _nome_por_chave = {
