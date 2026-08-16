@@ -54,6 +54,11 @@ DSN = {
     "theking": os.getenv("DSN_TK",  "theking_oci"),
     "sp":      os.getenv("DNS_SP",  "spon_oci"),
     "mg":      os.getenv("DNS_MG",  "mgon_oci"),
+    # GARRIDO não tem alias TNS (crc_oci etc.) — mesma string de conexão
+    # direta usada em meta.py::engine_garrido (IP interno, mas alcançável a
+    # partir da VPS, diferente de CASTAS — ver memória
+    # project_banco_castas_rede_local).
+    "garrido": os.getenv("DSN_GARRIDO", "10.107.213.84:1521/orcl_pdb1.subnetwintcompa.vcnrootautoskyo.oraclevcn.com"),
 }
 
 _oracle_ready = False
@@ -230,8 +235,19 @@ def ensure_valid_token() -> dict:
                 pass
             raise RuntimeError("Sessão expirada — sem permissão de renovação automática. Atualize a página e faça login de novo.")
         oauth2 = OAuth2Component(CLIENT_ID, CLIENT_SECRET, AUTHORIZE_URL, TOKEN_URL, TOKEN_URL)
+        refresh_token_atual = token.get("refresh_token")
         try:
             token = oauth2.refresh_token(token)
+            # A resposta de refresh do Google nunca traz "refresh_token" de
+            # volta (só vem na autorização inicial) — sobrescrever a sessão
+            # com esse token novo sem reaproveitar o antigo apagava o
+            # refresh_token da sessão/cookie a cada renovação, e a PRÓXIMA
+            # expiração (~1h depois) já caía direto em "sem permissão de
+            # renovação automática", pedindo login de novo toda hora mesmo
+            # com o refresh_token original ainda válido (causa raiz do erro
+            # "Gmail recusou o token" recorrente, achada em 2026-08-14).
+            if not token.get("refresh_token") and refresh_token_atual:
+                token["refresh_token"] = refresh_token_atual
         except Exception as e:
             # Refresh_token existia mas o Google recusou renovar (revogado,
             # client secret trocado, etc.) — antes essa exceção vazava sem

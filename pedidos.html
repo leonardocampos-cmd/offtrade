@@ -145,6 +145,11 @@
       border-radius: 20px; padding: 1px 8px; font-size: .68rem; font-weight: 700;
       white-space: nowrap;
     }
+    .badge-pago {
+      display: inline-block; background: rgba(148,163,184,.15); color: var(--muted);
+      border-radius: 20px; padding: 1px 8px; font-size: .68rem; font-weight: 700;
+      white-space: nowrap;
+    }
     .item-cortado td { color: var(--orange); }
     .badge-posicao {
       display: inline-block; border-radius: 20px; padding: 1px 8px;
@@ -227,9 +232,12 @@
     </button>
     <div class="ms-panel hidden" id="ms-status-panel"></div>
   </div>
-  <select id="sel-status-log" onchange="aplicarFiltro()">
-    <option value="">Status Logística</option>
-  </select>
+  <div class="ms-data" id="ms-statuslog">
+    <button type="button" class="ms-toggle" id="ms-statuslog-toggle" onclick="toggleStatusLogPanel(event)">
+      <span id="ms-statuslog-label">Status Logística</span><span>▾</span>
+    </button>
+    <div class="ms-panel hidden" id="ms-statuslog-panel"></div>
+  </div>
   <button class="btn-csv" onclick="exportarCSV()">⬇ Exportar CSV</button>
   <span class="info" id="info-count"></span>
 </div>
@@ -256,7 +264,10 @@ const ABAS = [
     chave: 'faturados', label: 'Faturados', cor: 'status-faturado',
     colExtra: {
       campo: 'status_log', label: 'Status Logística',
-      render: p => `<span class="cod">${_esc(p.sistema)}</span> ${_statusLogBadge(p.status_log)}`,
+      render: p => `<span class="cod">${_esc(p.sistema)}</span> ${_statusLogBadge(p.status_log)}`
+        + (p.status_log === 'RETORNO' && p.motivo_retorno
+          ? `<div style="margin-top:4px;color:var(--orange);font-size:.72rem">${_esc(p.motivo_retorno)}</div>`
+          : ''),
     },
   },
   {
@@ -339,6 +350,7 @@ let _expandidos = new Set();
 let _datasSelecionadas = new Set();
 let _statusSelecionados = new Set();
 let _mesesSelecionados = new Set();
+let _statusLogSelecionados = new Set();
 
 const STATUS_OPCOES = [
   { valor: 'pendente',  label: 'Pendente' },
@@ -393,26 +405,65 @@ function montarTabs() {
   }
 
   document.getElementById('ms-status').style.display = _abaAtual === 'pedidos_feitos' ? '' : 'none';
-  document.getElementById('sel-status-log').style.display = _abaAtual === 'faturados' ? '' : 'none';
+  document.getElementById('ms-statuslog').style.display = _abaAtual === 'faturados' ? '' : 'none';
 }
 
 function montarStatusLog() {
-  const sel = document.getElementById('sel-status-log');
-  const atual = sel.value;
+  const panel = document.getElementById('ms-statuslog-panel');
   if (_abaAtual !== 'faturados') {
-    sel.innerHTML = '<option value="">Status Logística</option>';
+    panel.innerHTML = '';
+    _statusLogSelecionados.clear();
+    _atualizarLabelStatusLog();
     return;
   }
   const valores = [...new Set(_listaAtual().map(p => p.status_log || '(sem status)'))].sort();
-  sel.innerHTML = '<option value="">Status Logística</option>';
-  valores.forEach(v => {
-    const o = document.createElement('option');
-    o.value = v;
-    o.textContent = v;
-    if (v === atual) o.selected = true;
-    sel.appendChild(o);
-  });
-  if (atual && !valores.includes(atual)) sel.value = '';
+  // Remove da seleção valores que sumiram da lista atual (ex: trocou de filtro
+  // e um status deixou de existir) — senão ficava "preso" selecionado sem
+  // aparecer mais no painel.
+  [..._statusLogSelecionados].forEach(v => { if (!valores.includes(v)) _statusLogSelecionados.delete(v); });
+  const acoes = `<div class="ms-actions">
+    <button type="button" onclick="_selecionarTodosStatusLog()">Selecionar todos</button>
+    <button type="button" onclick="_limparStatusLog()">Limpar</button>
+  </div>`;
+  const opts = valores.map(v => `
+    <label class="ms-option">
+      <input type="checkbox" value="${v}" ${_statusLogSelecionados.has(v) ? 'checked' : ''} onchange="_toggleStatusLog('${v}', this.checked)">
+      ${_esc(v)}
+    </label>`).join('');
+  panel.innerHTML = acoes + opts;
+  _atualizarLabelStatusLog();
+}
+
+function _toggleStatusLog(valor, checked) {
+  if (checked) _statusLogSelecionados.add(valor); else _statusLogSelecionados.delete(valor);
+  _atualizarLabelStatusLog();
+  aplicarFiltro();
+}
+
+function _selecionarTodosStatusLog() {
+  [...new Set(_listaAtual().map(p => p.status_log || '(sem status)'))].forEach(v => _statusLogSelecionados.add(v));
+  montarStatusLog();
+  aplicarFiltro();
+}
+
+function _limparStatusLog() {
+  _statusLogSelecionados.clear();
+  montarStatusLog();
+  aplicarFiltro();
+}
+
+function _atualizarLabelStatusLog() {
+  const label = document.getElementById('ms-statuslog-label');
+  const n = _statusLogSelecionados.size;
+  if (n === 0) label.textContent = 'Status Logística';
+  else if (n === 1) label.textContent = [..._statusLogSelecionados][0];
+  else label.textContent = `${n} status selecionados`;
+}
+
+function toggleStatusLogPanel(ev) {
+  ev.stopPropagation();
+  document.getElementById('ms-statuslog-panel').classList.toggle('hidden');
+  document.getElementById('ms-statuslog-toggle').classList.toggle('open');
 }
 
 function _totalColunas() {
@@ -734,6 +785,11 @@ document.addEventListener('click', (ev) => {
     document.getElementById('ms-mes-panel').classList.add('hidden');
     document.getElementById('ms-mes-toggle').classList.remove('open');
   }
+  const wrapStatusLog = document.getElementById('ms-statuslog');
+  if (wrapStatusLog && !wrapStatusLog.contains(ev.target)) {
+    document.getElementById('ms-statuslog-panel').classList.add('hidden');
+    document.getElementById('ms-statuslog-toggle').classList.remove('open');
+  }
 });
 
 function onEstadoChange() {
@@ -772,7 +828,6 @@ function _filtrados() {
   const vendedor   = document.getElementById('sel-vendedor').value;
   const busca      = document.getElementById('busca').value.trim().toLowerCase();
   const agendamento = document.getElementById('sel-agendamento').value;
-  const statusLog   = document.getElementById('sel-status-log').value;
   let lista = _listaAtual().filter(p => {
     const matchEstado     = !estado || p.estado === estado;
     const matchGerente    = !gerente || p.gerente === gerente;
@@ -782,7 +837,7 @@ function _filtrados() {
     const matchData       = _datasSelecionadas.size === 0 || _datasSelecionadas.has(p.data_ord);
     const matchAgendado   = !agendamento || (agendamento === 'sim' ? !!_agendamento(p.obs) : !_agendamento(p.obs));
     const matchStatus     = _abaAtual !== 'pedidos_feitos' || _statusSelecionados.size === 0 || _statusSelecionados.has(_statusPosicao(p.posicao));
-    const matchStatusLog  = !statusLog || (p.status_log || '(sem status)') === statusLog;
+    const matchStatusLog  = _abaAtual !== 'faturados' || _statusLogSelecionados.size === 0 || _statusLogSelecionados.has(p.status_log || '(sem status)');
     const matchBusca = !busca || [p.cliente, p.numped, p.numnota]
       .some(v => v && String(v).toLowerCase().includes(busca));
     return matchEstado && matchGerente && matchSupervisor && matchVendedor && matchMes && matchData && matchAgendado && matchStatus && matchStatusLog && matchBusca;
@@ -874,7 +929,7 @@ function aplicarFiltro() {
       <td class="hide-mob"><span class="rca-badge">${_esc((p.nome || '').replace(' - OFF TRADE',''))}</span></td>
       <td class="hide-mob">${_esc(p.estado)}</td>
       <td class="hide-mob">${_esc(p.cidade)}</td>
-      <td>${_esc(p.cliente)}${agendado ? ` <span class="badge-agendado">📅 ${agendado}</span>` : ''}${(_abaAtual === 'faturados' && p.tem_corte) ? ` <span class="badge-corte">✂ CORTE PARCIAL</span>` : ''}${(_abaAtual === 'faturados' && p.em_rota) ? ` <span class="badge-rota">🚚 EM ROTA${p.rota ? ': ' + _esc(p.rota) : ''}</span>` : ''}${_abaAtual === 'pedidos_feitos' ? _posicaoBadge(p.posicao) : ''}</td>
+      <td>${_esc(p.cliente)}${agendado ? ` <span class="badge-agendado">📅 ${agendado}</span>` : ''}${(_abaAtual === 'faturados' && p.tem_corte) ? ` <span class="badge-corte">✂ CORTE PARCIAL</span>` : ''}${(_abaAtual === 'faturados' && p.em_rota) ? ` <span class="badge-rota">🚚 EM ROTA${p.rota ? ': ' + _esc(p.rota) : ''}</span>` : ''}${(_abaAtual === 'faturados' && p.pago) ? ` <span class="badge-pago">💰 PAGO</span>` : ''}${_abaAtual === 'pedidos_feitos' ? _posicaoBadge(p.posicao) : ''}</td>
       ${abaInfo.colExtra ? `<td>${abaInfo.colExtra.render(p)}</td>` : ''}
       <td>${brl(_abaAtual === 'cancelados' ? p.valor_cortado_pedido : p.total)}</td>
     </tr>

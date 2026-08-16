@@ -6,7 +6,7 @@ from datetime import date, datetime
 from pathlib import Path
 from concurrent.futures import ThreadPoolExecutor, as_completed
 import re as _re
-from meta import engine, engine_theking, engine_castas, engine_garrido, engine_spon, engine_mgon, arquivo, carregar_dados, carregar_paralelo, FONTES_INDISPONIVEIS, nome_display_por_oracle
+from meta import engine, engine_theking, engine_castas, engine_garrido, engine_spon, engine_mgon, engine_blended, arquivo, carregar_dados, carregar_paralelo, FONTES_INDISPONIVEIS, nome_display_por_oracle
 import nao_positivados as _np_mod
 
 _df_nao_pos = _np_mod.nao_positivados_full
@@ -46,6 +46,12 @@ _MAP_RCA_CONFIGS = [
     ("GARRIDO",  engine_garrido, "map_rca_GARRIDO",  "NOME LIKE '%OFF TRADE%'"),
     ("SPON",     engine_spon,    "map_rca_SPON",     "NOME LIKE '%OFF TRADE%' OR NOME LIKE '%W.S%'"),
     ("MGON",     engine_mgon,    "map_rca_MGON",     "NOME LIKE '%OFF TRADE%' OR NOME LIKE '%W.S%'"),
+    # Sem isso, vendedor da BLENDED ficava só em vendas_data.js (via
+    # _VH_CONFIGS) mas nunca aparecia como "vendedor" navegável em
+    # metas.html — é essa lista (junto com _carregar_status_rca logo abaixo,
+    # que reusa ela) que detecta RCA ativo sem linha na planilha de metas e
+    # o inclui com zeros (pedido do usuário em 2026-08-14).
+    ("BLENDED",  engine_blended, "map_rca_BLENDED",  "NOME LIKE '%OFF TRADE%' OR NOME LIKE '%W.S%'"),
 ]
 
 _parts_map_rca = []
@@ -80,14 +86,19 @@ metas_com_nome = arquivo.merge(map_rca, on='RCA', how='left')
 # Consulta separada da `map_rca` acima: ESTADO/BLOQUEIO podem não existir em
 # todas as bases, e o objetivo aqui é só ACRESCENTAR vendedores, nunca alterar
 # o join principal (que já funciona pros vendedores com meta cadastrada).
+_status_rca_falhas: list[str] = []
+
 def _carregar_status_rca(_s, _e, _n, _extra_f):
     try:
-        return carregar_dados(
+        df = carregar_dados(
             f"SELECT CODUSUR AS RCA, NOME, TIPOVEND, ESTADO, BLOQUEIO FROM {_s}.PCUSUARI WHERE {_extra_f}",
             _e, f"{_n}_status",
         )
+        df['FONTE'] = _n
+        return df
     except Exception as _ex:
         print(f"[AVISO] status_rca {_n} indisponível ({str(_ex)[:80]}) — sem detecção de vendedor sem meta nesta base")
+        _status_rca_falhas.append(_n)
         return None
 
 _parts_status_rca = []
@@ -103,10 +114,39 @@ with ThreadPoolExecutor(max_workers=len(_MAP_RCA_CONFIGS)) as _status_ex:
 
 if _parts_status_rca:
     _status_rca = pd.concat(_parts_status_rca, ignore_index=True)
-    _status_rca = _status_rca.drop_duplicates(subset=['RCA'])
+    # NÃO deduplicar por RCA sozinho: RCA não é único entre bases (mesmo
+    # motivo documentado logo abaixo, "Compara por NOME, não por RCA") — um
+    # drop_duplicates(subset=['RCA']) aqui descartava, de forma não-
+    # determinística (dependendo de qual conexão terminava primeiro no
+    # ThreadPoolExecutor), a linha ATIVA de alguém em troca da linha
+    # BLOQUEADA do mesmo RCA numa base diferente. Foi a causa raiz real do
+    # "Diogo Raposo sumindo/reaparecendo de metas.html de hora em hora"
+    # (2026-08-14): RCA 144 existe ativo na CRC e bloqueado (cadastro velho)
+    # na SPON — cada execução do cron mantinha uma linha aleatória das duas.
+    # Nada abaixo depende de uma linha por RCA (o merge com metas_com_nome é
+    # por NOME; o dedup que importa pra "sem meta" já é por NOME, mais
+    # abaixo) — pode manter todas as linhas de todas as bases.
     _status_rca['RCA'] = pd.to_numeric(_status_rca['RCA'], errors='coerce')
     _status_rca['ESTADO']   = _status_rca['ESTADO'].astype(str).str.strip().str.upper()
     _status_rca['BLOQUEIO'] = _status_rca['BLOQUEIO'].astype(str).str.strip().str.upper()
+
+    # Base "dona" de cada estado (regra confirmada com o usuário em
+    # 2026-08-14, depois do incidente do Diogo Raposo): RJ e ES moram na CRC,
+    # SP na SPON, MG na MGON. Só a base dona do estado tem voto no status
+    # (ativo/bloqueado) de um vendedor daquele estado — um registro do mesmo
+    # nome/RCA numa base que não é a dona (ex: cadastro velho/duplicado na
+    # SPON pra alguém que é RJ de verdade) é ignorado aqui, então não tem
+    # mais como um cadastro errado em base errada apagar/reaparecer com
+    # vendedor ativo. thekings/CASTAS/GARRIDO/BLENDED não são base dona de
+    # nenhum desses 4 estados — ficam de fora dessa checagem de status
+    # (continuam entrando normalmente no resto do pipeline, isso é só pra
+    # decidir quem está ativo/bloqueado).
+    _BASE_DONA_DO_ESTADO = {'CRC': {'RJ', 'ES'}, 'SPON': {'SP'}, 'MGON': {'MG'}}
+    _mask_dona = pd.Series(False, index=_status_rca.index)
+    for _fonte, _estados in _BASE_DONA_DO_ESTADO.items():
+        _mask_dona |= (_status_rca['FONTE'] == _fonte) & (_status_rca['ESTADO'].isin(_estados))
+    _status_rca = _status_rca[_mask_dona]
+
     _status_rca_ativos = _status_rca[
         (_status_rca['ESTADO'] == 'RJ') & (_status_rca['BLOQUEIO'] != 'S')
     ]
@@ -136,8 +176,26 @@ if _parts_status_rca:
     # Remove da metas.html quem está BLOQUEIO='S' no PCUSUARI (todos os estados,
     # não só RJ) — mesmo vendedor com meta já cadastrada na planilha não deve
     # aparecer se saiu da empresa. Casamento por NOME (mesmo motivo do
-    # _nomes_com_meta acima: RCA não é estável entre bases).
-    _nomes_bloqueados = set(_status_rca[_status_rca['BLOQUEIO'] == 'S']['NOME'].dropna().unique())
+    # _nomes_com_meta acima: RCA não é estável entre bases) — MAS só bloqueia
+    # quem está bloqueado em TODAS as bases onde aparece: um nome idêntico
+    # bloqueado numa base (ex: cadastro velho/duplicado) não pode apagar a
+    # pessoa de verdade que está ativa em outra (bug real confirmado em
+    # 2026-08-14: "DIOGO RAPOSO - OFF TRADE" ativo na CRC, mas bloqueado na
+    # SPON sob o mesmo nome — sumia inteiro de metas.html e o login dele
+    # caía pra outro vendedor, vazando dados entre RCAs — reportado pelo
+    # usuário como falha de segurança). Se alguma base falhou nesta rodada
+    # (rede instável a partir da VPS, ver [[oracle_retry_safeguard]]), o
+    # "ativo em outra base" pode não aparecer nos dados desta execução —
+    # nesse cenário é mais seguro NÃO remover ninguém por nome (arriscar
+    # mostrar um bloqueado de verdade por uma rodada é bem menos grave que
+    # apagar/vazar dado de vendedor ativo) do que confiar num cálculo
+    # incompleto.
+    if _status_rca_falhas:
+        print(f"[AVISO] status_rca incompleto ({', '.join(_status_rca_falhas)}) — pulando remoção de bloqueados por nome nesta rodada.")
+        _nomes_bloqueados = set()
+    else:
+        _nomes_com_registro_ativo = set(_status_rca[_status_rca['BLOQUEIO'] != 'S']['NOME'].dropna().unique())
+        _nomes_bloqueados = set(_status_rca[_status_rca['BLOQUEIO'] == 'S']['NOME'].dropna().unique()) - _nomes_com_registro_ativo
     if _nomes_bloqueados:
         _antes = len(metas_com_nome)
         metas_com_nome = metas_com_nome[~metas_com_nome['NOME'].isin(_nomes_bloqueados)]
@@ -167,6 +225,16 @@ def _query_vendas_historico(schema, filtro_filial="(1, 2, 4)", filtro_estent=Non
             TRUNC(M.DTMOV, 'MM')            AS MES,
             TO_CHAR(M.DTMOV, 'DD/MM/YYYY') AS DATA,
             M.NUMNOTA                       AS NUNOTA,
+            -- NUMNOTADEV não serve pra linkar saída<->devolução: na própria
+            -- linha de devolução (CODOPER='ED') vem igual ao NUMNOTA da
+            -- própria linha (auto-referência), e na linha de saída aponta pra
+            -- um número que não bate com o NUNOTA real da devolução
+            -- (confirmado em 2026-08-14, NF 571/DOM ATACAREJO: saída tinha
+            -- NUMNOTADEV=586 mas a devolução em si é NUNOTA=571). NUMPED é o
+            -- link confiável — saída e devolução do mesmo pedido comparti-
+            -- lham o mesmo NUMPED em PCMOV, mesmo tendo NUNOTA diferentes.
+            M.NUMPED,
+            M.CODPROD,
             M.CODCLI,
             C.CLIENTE,
             M.DESCRICAO                     AS PRODUTO,
@@ -198,6 +266,13 @@ _VH_CONFIGS = [
     ("GARRIDO", engine_garrido, "vendas_hist_GARRIDO", None,        None,  "Garrido",   None,       False),
     ("SPON",    engine_spon,    "vendas_hist_SPON",    None,        None,  "SPON",      _SPON_EXTRA, True),
     ("MGON",    engine_mgon,    "vendas_hist_MGON",    "(1, 2)",    None,  "MGON",      _SPON_EXTRA, True),
+    # BLENDED (SP, operação nova — ver meta.py::engine_blended) faltava no
+    # Faturamento do mês (só tinha sido plugada em exportacao_sp.py até
+    # 2026-08-13) — pedido do usuário em 2026-08-14. OFFTRADE existe no
+    # schema (confirmado por query direta) e reps seguem o padrão "- OFF
+    # TRADE"/"W.S", mas ESTADO vem sempre nulo — sem filtro de estado, igual
+    # CASTAS/GARRIDO.
+    ("BLENDED", engine_blended, "vendas_hist_BLENDED", None,        None,  "Blended",   _SPON_EXTRA, True),
 ]
 _vh_parts = []
 _chamadas_vh = [
@@ -221,6 +296,7 @@ _vh['QT']     = pd.to_numeric(_vh['QT'],     errors='coerce').fillna(0).astype(i
 _vh['VALOR']  = pd.to_numeric(_vh['VALOR'],  errors='coerce').fillna(0).round(2)
 _vh['RCA']    = pd.to_numeric(_vh['RCA'],    errors='coerce')
 _vh['NUNOTA'] = pd.to_numeric(_vh['NUNOTA'], errors='coerce')
+_vh['NUMPED'] = pd.to_numeric(_vh['NUMPED'], errors='coerce')
 _vh['CLIENTE']  = _vh['CLIENTE'].fillna(_vh['CODCLI'])
 _vh['FANTASIA'] = _vh['FANTASIA'].fillna('')
 _vh['PRODUTO']  = _vh['PRODUTO'].fillna('')
@@ -291,10 +367,27 @@ def _query_vendas_cancelados_pre_nf(schema, filtro_estent=None, extra_nomes=None
     return f"""
         SELECT
             PC.DATACANC AS DATA, PC.DESCRICAO AS PRODUTO,
-            PC.QT AS QT, PC.SUBTOT AS VALOR, PC.NUMPED AS NUMPED,
-            U.CODUSUR AS CODUSUR, U.NOME AS NOME_ORACLE
+            PC.QT AS QT, PC.SUBTOT AS VALOR, PC.NUMPED AS NUMPED, PC.CODPROD AS CODPROD,
+            U.CODUSUR AS CODUSUR, U.NOME AS NOME_ORACLE,
+            P.CODCLI AS CODCLI, C.CLIENTE AS CLIENTE,
+            PC.MOTIVO AS MOTIVO
         FROM {s}.PEDIDOS_CANCELADOS PC
         JOIN {s}.PCUSUARI U ON U.CODUSUR = TO_NUMBER(SUBSTR(PC.NUMPED, 1, LENGTH(PC.NUMPED) - 6))
+        -- PEDIDOS_CANCELADOS não tem CODCLI/CLIENTE (só PEDIDO_CLIENTE, que é
+        -- o nº do pedido do próprio cliente, texto livre — não serve pra
+        -- identificar quem é) — cliente vinha sempre em branco no
+        -- "Faturamento do mês" pra cancelado pré-NF (pedido do usuário em
+        -- 2026-08-14, caso real: Marilena Tragel). PCPEDC recupera o cliente
+        -- só ENQUANTO o cabeçalho do pedido ainda existir lá — é tabela de
+        -- pedido "vivo"/em trâmite, não um histórico permanente, então a
+        -- taxa de acerto cai com o tempo (confirmado 2026-08-14: 0% sem
+        -- cliente numa consulta, ~30% na mesma consulta 30min depois —
+        -- PCPEDCAN, a única outra tabela de cancelamento com CODCLI, não
+        -- cobre os casos que faltam aqui). Não tem outra fonte confiável pra
+        -- recuperar os que já saíram do PCPEDC — MOTIVO (abaixo) ao menos
+        -- sempre está disponível, direto do PEDIDOS_CANCELADOS.
+        LEFT JOIN {s}.PCPEDC P ON P.NUMPED = PC.NUMPED
+        LEFT JOIN {s}.PCCLIENT C ON C.CODCLI = P.CODCLI
         WHERE PC.DATACANC >= ADD_MONTHS(TRUNC(SYSDATE, 'MM'), -5)
           AND {_nome_filter(extra_nomes)}{extra_estent}
     """
@@ -401,14 +494,29 @@ if not _vc_cancel_pos.empty:
         })
     print(f"OK vendas: {len(_vc_cancel_pos)} item(ns) cancelado(s) pós-NF")
 
+# (numped, codprod) -> motivo — PEDIDOS_CANCELADOS registra o motivo do
+# corte por produto mesmo quando o pedido como um todo virou devolução (não
+# cancelado): confirmado em 2026-08-14 que o NUMPED de uma devolução real
+# (DOM ATACAREJO/Marilena Tragel) tinha 3 produtos com MOTIVO "CORTE TOTAL NO
+# CARREGAMENTO" aqui. Usado abaixo pra mostrar motivo também em item
+# devolvido, não só nos itens 'Cancelado' sintéticos deste bloco (pedido do
+# usuário em 2026-08-14: "para devolução e cancelado, colocar o motivo").
+_motivo_pre_nf_por_pedido_produto: dict = {}
+
 if not _vc_cancel_pre.empty:
     _vc_cancel_pre['DATA'] = pd.to_datetime(_vc_cancel_pre['DATA'], errors='coerce')
     _vc_cancel_pre = _vc_cancel_pre[_vc_cancel_pre['DATA'].notna()]
     for _, row in _vc_cancel_pre.iterrows():
+        _codcli = pd.to_numeric(row.get('CODCLI'), errors='coerce')
+        _motivo_pre = str(row.get('MOTIVO') or '')
+        _np_pre = _id_str(row.get('NUMPED'))
+        _cp_pre = _id_str(row.get('CODPROD'))
+        if _np_pre and _cp_pre and _motivo_pre:
+            _motivo_pre_nf_por_pedido_produto[(_np_pre, _cp_pre)] = _motivo_pre
         _registrar_item_extra(row['NOME_ORACLE'], _mes_pt(row['DATA']), {
             'data':      row['DATA'].strftime('%d/%m/%Y'),
-            'codcli':    '',
-            'cliente':   '',
+            'codcli':    str(int(_codcli)) if pd.notna(_codcli) else '',
+            'cliente':   str(row.get('CLIENTE') or ''),
             'produto':   str(row.get('PRODUTO') or ''),
             'fantasia':  '',
             'qt':        int(pd.to_numeric(row.get('QT'), errors='coerce') or 0),
@@ -418,9 +526,10 @@ if not _vc_cancel_pre.empty:
             'devolvido': False,
             'cancelado': True,
             'cancelado_parcial': False,
-            'numped':    _id_str(row.get('NUMPED')),
+            'numped':    _np_pre,
             'nunota':    '',
             'sistema':   str(row.get('SISTEMA') or ''),
+            'motivo':    _motivo_pre,
         })
     print(f"OK vendas: {len(_vc_cancel_pre)} item(ns) cancelado(s) pré-NF")
 
@@ -495,7 +604,7 @@ def _query_cadastros(schema, col_usur="CODUSUR1", tem_offtrade=True):
 
 _cadastros_por_display: dict = {}
 try:
-    _CADASTROS_CONFIGS = [("CRC", engine, "CODUSUR1", True), ("thekings", engine_theking, "CODUSUR1", True), ("spon", engine_spon, "CODUSUR1", True), ("CASTAS", engine_castas, "CODUSUR1", True), ("GARRIDO", engine_garrido, "CODUSUR1", False)]
+    _CADASTROS_CONFIGS = [("CRC", engine, "CODUSUR1", True), ("thekings", engine_theking, "CODUSUR1", True), ("spon", engine_spon, "CODUSUR1", True), ("CASTAS", engine_castas, "CODUSUR1", True), ("GARRIDO", engine_garrido, "CODUSUR1", False), ("BLENDED", engine_blended, "CODUSUR1", True)]
     _frames_cad = []
     _chamadas_cad = [
         (_query_cadastros(_schema, _col, tem_offtrade=_to), _eng, f"cadastros_{_schema}")
@@ -634,6 +743,7 @@ _HIST_CONFIGS = [
     ("CASTAS",   engine_castas,  "historico_CASTAS",    None,        None, None,        True),
     ("GARRIDO",  engine_garrido, "historico_GARRIDO",   None,        None, None,        False),
     ("SPON",     engine_spon,    "historico_SPON",      None,        None, _SPON_EXTRA, True),
+    ("BLENDED",  engine_blended, "historico_BLENDED",   None,        None, _SPON_EXTRA, True),
 ]
 _hist_parts = []
 _chamadas_hist = [
@@ -909,7 +1019,7 @@ if FONTES_INDISPONIVEIS:
 # qualquer página do site possa mostrar o popup de aviso sem carregar o
 # dashboard inteiro. Normaliza nomes tipo "vendas_CASTAS"/"cadastros_CASTAS"
 # para só "CASTAS".
-_BASES_CONHECIDAS = ["CRC", "thekings", "CASTAS", "GARRIDO", "SPON", "MGON"]
+_BASES_CONHECIDAS = ["CRC", "thekings", "CASTAS", "GARRIDO", "SPON", "MGON", "BLENDED"]
 def _normalizar_fonte(nome):
     for _b in _BASES_CONHECIDAS:
         if _b.lower() in nome.lower():
@@ -936,6 +1046,8 @@ _por_vendedor_hist: dict = {}
 for _, row in _vh.iterrows():
     v_nome = row['VENDEDOR']
     mes    = row['MES_STR']
+    _numped_vh = _id_str(row.get('NUMPED'))
+    _codprod_vh = _id_str(row.get('CODPROD'))
     _por_vendedor_hist.setdefault(v_nome, {}).setdefault(mes, []).append({
         'data':    str(row['DATA']),
         'codcli':  str(row['CODCLI']),
@@ -949,9 +1061,13 @@ for _, row in _vh.iterrows():
         'devolvido': bool(row['DEVOLVIDO']),
         'cancelado': False,
         'cancelado_parcial': False,
-        'numped':  '',
+        'numped':  _numped_vh,
         'nunota':  _id_str(row.get('NUNOTA')),
         'sistema': str(row.get('SISTEMA') or ''),
+        # Só populado quando o mesmo (numped, codproduto) também aparece em
+        # PEDIDOS_CANCELADOS — cobre o caso de devolução com motivo real
+        # registrado lá (ver comentário em _motivo_pre_nf_por_pedido_produto).
+        'motivo':  _motivo_pre_nf_por_pedido_produto.get((_numped_vh, _codprod_vh), ''),
     })
 
 # Mescla os itens de cancelado/corte parcial (não vêm de _vh/PCMOV — ver bloco
@@ -1024,6 +1140,7 @@ _HIER_CONFIGS = [
     ("GARRIDO", engine_garrido, "hier_GARRIDO", "Garrido",   None),
     ("SPON",    engine_spon,    "hier_SPON",    "SPON",      _SPON_EXTRA),
     ("MGON",    engine_mgon,    "hier_MGON",    "MGON",      _SPON_EXTRA),
+    ("BLENDED", engine_blended, "hier_BLENDED", "Blended",   _SPON_EXTRA),
 ]
 
 def _carregar_hierarquia_fonte(_s, _e, _n, _en):
@@ -1176,13 +1293,23 @@ except subprocess.CalledProcessError:
 _ARQUIVOS_PUBLICAR = ["metas_data.js", "vendas_data.js", "gerentes_data.js", "fontes_status_data.js"]
 
 def _publicar_static():
+    # Escrita sempre por arquivo temporário + rename atômico (local: os.replace,
+    # remoto: sftp.posix_rename) — sem isso, uma execução local (SFTP put) e o
+    # cron da própria VPS (shutil.copy) escrevendo o MESMO arquivo ao mesmo
+    # tempo podiam intercalar bytes das duas escritas e corromper o JSON
+    # publicado (incidente real confirmado em 2026-08-14: vendas_data.js
+    # ficou com JSON inválido em produção, quebrando metas.html inteiro).
+    # Rename é atômico no filesystem — não existe estado "meio escrito"
+    # visível pra quem lê o arquivo, então essa colisão não corrompe mais.
     if os.getenv("OFFTRADE_RUNTIME", "local") == "vps":
         import shutil
         destino = "/opt/offtrade-static"
         for fname in _ARQUIVOS_PUBLICAR:
             origem = Path(__file__).parent / fname
             if origem.exists():
-                shutil.copy(origem, os.path.join(destino, fname))
+                tmp = os.path.join(destino, f".{fname}.tmp_publish")
+                shutil.copy(origem, tmp)
+                os.replace(tmp, os.path.join(destino, fname))
         print(f"OK - {len(_ARQUIVOS_PUBLICAR)} arquivo(s) copiados para {destino} (publicação local, sem rede)")
         return
     try:
@@ -1199,7 +1326,10 @@ def _publicar_static():
         for fname in _ARQUIVOS_PUBLICAR:
             origem = Path(__file__).parent / fname
             if origem.exists():
-                sftp.put(str(origem), f"/opt/offtrade-static/{fname}")
+                destino_final = f"/opt/offtrade-static/{fname}"
+                tmp_remoto = f"/opt/offtrade-static/.{fname}.tmp_publish"
+                sftp.put(str(origem), tmp_remoto)
+                sftp.posix_rename(tmp_remoto, destino_final)
         sftp.close()
         client.close()
         print(f"OK - {len(_ARQUIVOS_PUBLICAR)} arquivo(s) publicados em /opt/offtrade-static via SFTP")

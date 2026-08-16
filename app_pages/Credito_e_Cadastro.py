@@ -18,6 +18,10 @@ back_button()
 page_header("Crédito e Cadastro de Cliente", "OfftradeHub · Off Trade")
 
 SCHEMA             = "CRC"
+# GARRIDO também tem vendas do RJ (pedido do usuário em 2026-08-14) — sem
+# isso, cliente cadastrado só na base GARRIDO não aparecia na busca (nem
+# última venda, nem elegibilidade de troca de RCA).
+FONTES_CLIENTE     = [("crc", "CRC"), ("garrido", "GARRIDO")]
 EMAIL_FINANCEIRO   = "cadastro@rigarr.com.br"
 EMAIL_CADASTRO_CC  = "offtrade@rigarr.com.br"
 WHATSAPP_FINANCEIRO = "5521964384318"
@@ -47,9 +51,12 @@ def _enviar_email(assunto: str, corpo: str, cc: str = None) -> bool:
     try:
         try:
             token = ensure_valid_token()
-        except RuntimeError as e:
-            st.warning(f"Erro ao enviar e-mail: {e}")
-            return False
+        except RuntimeError:
+            # ensure_valid_token() já limpou sessão/cookie antes de levantar
+            # (sem refresh_token ou Google recusou renovar) — mesmo motivo do
+            # 401 abaixo: rerun direto pra tela de login em vez de aviso +
+            # pedir F5 manual.
+            st.rerun()
         access_token = token.get("access_token", "")
         remetente    = rca_info.get("email", "")
         msg          = MIMEText(corpo)
@@ -77,8 +84,12 @@ def _enviar_email(assunto: str, corpo: str, cc: str = None) -> bool:
                 CookieController().remove("offtrade_token")
             except Exception:
                 pass
-            st.warning("Erro ao enviar e-mail: Gmail recusou o token (revogado?) — atualize a página e faça login de novo.")
-            return False
+            # st.rerun() em vez de st.warning() + esperar o usuário atualizar
+            # manualmente: com a sessão já limpa acima, o rerun cai direto na
+            # tela "Entrar com Google" (require_auth() roda de novo do topo),
+            # sem mostrar o aviso confuso de "Gmail recusou o token" — pedido
+            # do usuário em 2026-08-14 pra não precisar dar F5 na mão.
+            st.rerun()
         elif not r.ok:
             st.warning(f"Erro ao enviar e-mail: {r.status_code} — {r.text[:300]}")
             return False
@@ -191,33 +202,46 @@ def _buscar_cliente(busca: str):
         nome_upper = busca.upper().replace("'", "''")
         filtro = f"UPPER(c.cliente) LIKE '%{nome_upper}%'"
 
-    return sql(f"""
-        SELECT
-            c.codcli,
-            c.cliente AS nome,
-            c.cgcent AS cnpj,
-            c.bloqueio,
-            c.codusur1,
-            u.nome AS nome_rca1,
-            TO_NUMBER(NVL(c.limcred, 0)) AS limcred,
-            TO_NUMBER(NVL(prest.valor, 0)) AS valor_aberto,
-            TO_NUMBER(NVL(ped.vlatend, 0)) AS valor_pedidos
-        FROM {SCHEMA}.PCCLIENT c
-        LEFT JOIN {SCHEMA}.PCUSUARI u ON u.codusur = c.codusur1
-        LEFT JOIN (
-            SELECT codcli, SUM(valor) AS valor
-            FROM {SCHEMA}.PCPREST
-            WHERE vpago IS NULL OR vpago = '0'
-            GROUP BY codcli
-        ) prest ON c.codcli = prest.codcli
-        LEFT JOIN (
-            SELECT codcli, SUM(vlatend) AS vlatend
-            FROM {SCHEMA}.PCPEDC
-            WHERE posicao NOT IN ('C', 'F')
-            GROUP BY codcli
-        ) ped ON c.codcli = ped.codcli
-        WHERE {filtro}
-    """)
+    frames = []
+    for db, schema in FONTES_CLIENTE:
+        try:
+            df = sql(f"""
+                SELECT
+                    c.codcli,
+                    c.cliente AS nome,
+                    c.cgcent AS cnpj,
+                    c.bloqueio,
+                    c.codusur1,
+                    u.nome AS nome_rca1,
+                    TO_CHAR(c.dtultcomp, 'DD/MM/YYYY') AS dtultcomp,
+                    TRUNC(SYSDATE) - TRUNC(c.dtultcomp) AS dias_sem_compra,
+                    TO_NUMBER(NVL(c.limcred, 0)) AS limcred,
+                    TO_NUMBER(NVL(prest.valor, 0)) AS valor_aberto,
+                    TO_NUMBER(NVL(ped.vlatend, 0)) AS valor_pedidos
+                FROM {schema}.PCCLIENT c
+                LEFT JOIN {schema}.PCUSUARI u ON u.codusur = c.codusur1
+                LEFT JOIN (
+                    SELECT codcli, SUM(valor) AS valor
+                    FROM {schema}.PCPREST
+                    WHERE vpago IS NULL OR vpago = '0'
+                    GROUP BY codcli
+                ) prest ON c.codcli = prest.codcli
+                LEFT JOIN (
+                    SELECT codcli, SUM(vlatend) AS vlatend
+                    FROM {schema}.PCPEDC
+                    WHERE posicao NOT IN ('C', 'F')
+                    GROUP BY codcli
+                ) ped ON c.codcli = ped.codcli
+                WHERE {filtro}
+            """, db=db)
+            if not df.empty:
+                df["FONTE"] = schema
+                frames.append(df)
+        except Exception:
+            # Uma fonte fora do ar não pode derrubar a busca nas outras —
+            # mesmo padrão de _resolve_rca() em utils.py.
+            continue
+    return pd.concat(frames, ignore_index=True) if frames else pd.DataFrame()
 
 
 # ── UI ────────────────────────────────────────────────────────────────────────
@@ -232,7 +256,10 @@ if busca:
         df = _buscar_cliente(busca)
 
         if len(df) > 1:
-            opcoes  = {f"{r['CODCLI']} — {r['NOME']}": i for i, r in df.iterrows()}
+            # Inclui a fonte no label — CRC e GARRIDO são bases Winthor
+            # separadas, cada uma com sua própria numeração de CODCLI, então
+            # o mesmo código pode identificar clientes diferentes nas duas.
+            opcoes  = {f"{r['CODCLI']} — {r['NOME']} ({r['FONTE']})": i for i, r in df.iterrows()}
             escolha = st.selectbox("Vários clientes encontrados, selecione:", list(opcoes.keys()))
             df      = df.loc[[opcoes[escolha]]]
 
@@ -355,6 +382,12 @@ if busca:
             badge      = '<span class="badge badge-blq">BLOQUEADO</span>' if bloqueado else '<span class="badge badge-ok">ATIVO</span>'
             cor_disp   = "green" if disponivel >= 0 else "red"
 
+            codusur_atual   = int(row["CODUSUR1"]) if row["CODUSUR1"] else None
+            nome_rca_atual  = str(row["NOME_RCA1"]).strip() if row["NOME_RCA1"] else "—"
+            dtultcomp       = row["DTULTCOMP"] if pd.notna(row["DTULTCOMP"]) else None
+            dias_sem_compra = int(row["DIAS_SEM_COMPRA"]) if pd.notna(row["DIAS_SEM_COMPRA"]) else None
+            ultima_venda_txt = f"{dtultcomp} ({dias_sem_compra} dias atrás)" if dtultcomp else "Nunca comprou"
+
             st.markdown(f"""
 <div class="card" style="margin-bottom:16px">
 <div style="display:flex;justify-content:space-between;align-items:center">
@@ -362,7 +395,8 @@ if busca:
 <div style="font-size:1.1rem;font-weight:700">{row["NOME"]}</div>
 <div style="font-size:.8rem;color:#94a3b8;margin-top:2px">
 Cód: {row["CODCLI"]} &nbsp;|&nbsp; CNPJ: {cnpj_fmt}
-&nbsp;|&nbsp; RCA: {int(row["CODUSUR1"]) if row["CODUSUR1"] else "—"} — {str(row["NOME_RCA1"]).strip() if row["NOME_RCA1"] else "—"}
+&nbsp;|&nbsp; RCA: {codusur_atual if codusur_atual else "—"} — {nome_rca_atual}
+&nbsp;|&nbsp; Última venda: {ultima_venda_txt}
 </div>
 </div>
 <div>{badge}</div>
@@ -395,6 +429,53 @@ Cód: {row["CODCLI"]} &nbsp;|&nbsp; CNPJ: {cnpj_fmt}
                 f"Cliente: {row['NOME']} ({cnpj_fmt}) — Cód. {row['CODCLI']}\n{rca_linha}"
             )
 
+            # ── Troca de RCA ─────────────────────────────────────────────────
+            # codusur1 = 10 é o RCA "estacionamento" usado pro cadastro pra
+            # marcar cliente sem vendedor ativo (ver clientes_inativos.html /
+            # exportacao_clientes_inativos.py — mesma convenção usada lá).
+            # 200 entrou na mesma lista a pedido do usuário em 2026-08-14.
+            RCAS_SEM_VENDEDOR   = {10, 200}
+            DIAS_LIMITE_TROCA   = 60
+            codusur_solicitante = rca_info.get("codusur")
+            rca_inativo         = codusur_atual in RCAS_SEM_VENDEDOR
+            sem_compra_limite   = dias_sem_compra is None or dias_sem_compra > DIAS_LIMITE_TROCA
+            elegivel_troca      = rca_inativo or sem_compra_limite
+            confirmar_key       = f"confirmar_troca_{row['CODCLI']}"
+
+            if elegivel_troca:
+                motivo = f"RCA inativo (cód. {codusur_atual})" if rca_inativo else (
+                    "nunca comprou" if dias_sem_compra is None else f"{dias_sem_compra} dias sem compra"
+                )
+                st.warning(f"⚠️ Cliente sem vendedor ativo — {motivo}.")
+
+                if st.button("🔄 Pedir Troca de RCA", key=f"btn_{confirmar_key}"):
+                    st.session_state[confirmar_key] = True
+
+                if st.session_state.get(confirmar_key):
+                    st.info(
+                        f"Confirma a solicitação de troca de RCA de **{row['NOME']}** "
+                        f"para **{rca_info.get('nome', '—')}** (cód. {codusur_solicitante if codusur_solicitante else '—'})?"
+                    )
+                    col_ok, col_cancel = st.columns(2)
+                    if col_ok.button("✅ Confirmar", key=f"ok_{confirmar_key}"):
+                        corpo_troca = (
+                            f"Solicito a troca de RCA do cliente:\n\n"
+                            f"Cliente: {row['NOME']} ({cnpj_fmt}) — Cód. {row['CODCLI']}\n"
+                            f"RCA Atual  : {nome_rca_atual} (cód. {codusur_atual if codusur_atual else '—'})\n"
+                            f"Motivo     : {motivo}\n"
+                            f"Última venda: {ultima_venda_txt}\n\n"
+                            f"{rca_linha}\n\n"
+                            f"Podem realizar a troca de RCA para o solicitante?\n\nObrigado!"
+                        )
+                        if _enviar_email(f"Solicitação de Troca de RCA — {row['NOME']}", corpo_troca, cc=EMAIL_CADASTRO_CC):
+                            st.success("Solicitação de troca de RCA enviada ao cadastro.")
+                            st.session_state[confirmar_key] = False
+                    if col_cancel.button("Cancelar", key=f"cancel_{confirmar_key}"):
+                        st.session_state[confirmar_key] = False
+                        st.rerun()
+            elif codusur_solicitante and codusur_atual and codusur_atual != codusur_solicitante:
+                st.info(f"ℹ️ Este cliente já possui vendedor dedicado: **{nome_rca_atual}** (cód. {codusur_atual}).")
+
             st.markdown("---")
             # st.form + st.form_submit_button em vez de widgets soltos + st.button:
             # a tentativa anterior (comentário removido) achava que st.button já
@@ -411,8 +492,15 @@ Cód: {row["CODCLI"]} &nbsp;|&nbsp; CNPJ: {cnpj_fmt}
                 prazo_pagto  = col_prazo.selectbox("Prazo de pagamento (dias)", [7, 14, 21, 28, 30, 35, 42, 45, 60, 90], index=4)
 
                 if bloqueado:
-                    assunto   = f"Solicitação de Desbloqueio — {row['NOME']}"
-                    corpo     = f"Solicitação de desbloqueio de cliente.\n\n{info_cliente}\n\nPodem realizar o desbloqueio?\n\nObrigado!"
+                    assunto     = f"Solicitação de Desbloqueio — {row['NOME']}"
+                    valor_linha = f"Valor do Pedido    : {fmt_brl(valor_pedido)}" if valor_pedido > 0 else ""
+                    prazo_linha = f"Prazo de Pagamento : {prazo_pagto} dias"
+                    corpo       = (
+                        f"Solicitação de desbloqueio de cliente.\n\n{info_cliente}\n"
+                        + (f"{valor_linha}\n" if valor_linha else "")
+                        + f"{prazo_linha}\n"
+                        + f"\nPodem realizar o desbloqueio?\n\nObrigado!"
+                    )
                     label_btn = "Solicitar Desbloqueio pelo WhatsApp"
                 else:
                     assunto     = f"Solicitação de Limite — {row['NOME']}"

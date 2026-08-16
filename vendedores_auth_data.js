@@ -1,4 +1,4 @@
-// Gerado em 13/08/2026 16:05
+// Gerado em 14/08/2026 17:43
 const VENDEDORES_AUTH = {
   "156": [
     {
@@ -190,22 +190,6 @@ const VENDEDORES_AUTH = {
       "estado": "SP"
     }
   ],
-  "432": [
-    {
-      "nome": "DIEGO PAULINO - OFF TRADE",
-      "email": "diego.paulo@rigarr.com.br",
-      "email2": "",
-      "estado": "SP"
-    }
-  ],
-  "405": [
-    {
-      "nome": "JESSICA FREITAS - OFF TRADE",
-      "email": "jessica.freitas@rigarr.com.br",
-      "email2": "",
-      "estado": "SP"
-    }
-  ],
   "438": [
     {
       "nome": "MARCIA RITA - OFF TRADE",
@@ -218,22 +202,6 @@ const VENDEDORES_AUTH = {
     {
       "nome": "MARCUS TANAMACHI - OFF TRADE",
       "email": "marcus.tanamachi@rigarr.com.br",
-      "email2": "",
-      "estado": "SP"
-    }
-  ],
-  "367": [
-    {
-      "nome": "FABIANO RIBEIRO - OFF TRADE",
-      "email": "fabiano.ribeiro@rigarr.com.br",
-      "email2": "",
-      "estado": "SP"
-    }
-  ],
-  "356": [
-    {
-      "nome": "ANA PAULA - OFF TRADE",
-      "email": "ana.gilha@rigarr.com.br",
       "email2": "",
       "estado": "SP"
     }

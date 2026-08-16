@@ -48,6 +48,30 @@ def _int_s(v):
         return ''
 
 
+# Mesma regex de _agendamento() em pedidos.html — mantida em sincronia manual
+# (JS lê OBSENTREGA1/2 pra montar a badge 📅 na própria página; aqui serve
+# pra expor esse mesmo dado, pré-calculado, pro metas.html usar sem duplicar
+# a lógica de novo numa terceira página). Cobre "ENTREGA AGENDADA: dd/mm/aa",
+# "entregar no dia dd/mm", "AGENDADO PARA dd/mm", datas com ponto/traço etc.
+_RE_AGENDAMENTO = re.compile(r'(?:entreg|agend)\w*[^\d]{0,30}?(\d{1,2})[/.\-](\d{1,2})(?:[/.\-](\d{2,4}))?', re.IGNORECASE)
+
+
+def _agendamento_texto(obs):
+    if not obs:
+        return ''
+    m = _RE_AGENDAMENTO.search(obs)
+    if not m:
+        return ''
+    dd = m.group(1).zfill(2)
+    mm = m.group(2).zfill(2)
+    yy = m.group(3)
+    if not yy:
+        yy = str(datetime.now().year)
+    elif len(yy) == 2:
+        yy = '20' + yy
+    return f"{dd}/{mm}/{yy}"
+
+
 def _nome_filter(extra_nomes=None, alias='PED'):
     base = f"{alias}.NOME LIKE '%OFF TRADE%'"
     if extra_nomes:
@@ -61,7 +85,7 @@ def _query_pedidos(schema, extra_nomes=None, filiais=None):
     filial_f = f"AND PED.CODFILIAL IN ({','.join(map(str, filiais))})" if filiais else ""
     return f"""
         SELECT PED.NUMPED, PED.NUMNOTA, PED.NOME, PED.DATA, PED.CODUSUR, PED.CLIENTE, PED.STATUS,
-               PED.DESCRICAO, PED.PVENDA, PED.QT, PED.QTFALTA, PED.TOTAL, PED.OBSENTREGA1,
+               PED.DESCRICAO, PED.PVENDA, PED.QT, PED.QTFALTA, PED.TOTAL, PED.OBSENTREGA1, PC.OBSENTREGA2,
                PED.FUNC_CANCEL, PC.POSICAO, PC.MOTIVOPOSICAO, PC.VLBONIFIC, PED.CODPROD, PED.CODFILIAL,
                PED.FORNECEDOR, PED.FANTASIA_FORNEC,
                U.ESTADO AS ESTADO_VENDEDOR, S.NOME AS NOME_SUPERVISOR, G.NOMEGERENTE,
@@ -288,8 +312,7 @@ _RE_ABA_DATA = re.compile(r'^(\d{1,2})[.\-](\d{1,2})$')
 
 
 def _data_da_aba(nome_aba, ano):
-    """Aba é nomeada 'dd.mm' ou 'dd-mm' (dia da rota/entrega) — mesmo padrão
-    já usado pra achar a aba de hoje (_hoje_str/_hoje_str_hif). Devolve
+    """Aba é nomeada 'dd.mm' ou 'dd-mm' (dia da rota/entrega). Devolve
     'YYYY-MM-DD' ou None se o nome não bater com esse padrão."""
     m = _RE_ABA_DATA.match(str(nome_aba).strip())
     if not m:
@@ -303,6 +326,8 @@ def _data_da_aba(nome_aba, ano):
 
 _status_por_nf: dict = {}
 _data_entrega_por_nf: dict = {}
+_rota_por_nf: dict = {}
+_motivo_retorno_por_nf: dict = {}
 # Do mais antigo pro mais recente: uma NF pode aparecer em mais de um mês
 # (reentrega depois de "VOLTOU" etc.) — o mês mais recente tem que
 # sobrescrever o mais antigo, não o contrário (_meses_recentes() devolve
@@ -323,56 +348,57 @@ for _ano, _mes in reversed(_meses_recentes()):
         if 'Nº NF' not in _df_aba.columns or 'STATUS' not in _df_aba.columns:
             continue
         _data_aba = _data_da_aba(_nome_aba, _ano)
-        _sub = _df_aba[['Nº NF', 'STATUS']].copy()
+        _cols_rota = ['Nº NF', 'STATUS', 'ROTA', 'MOTIVO', 'OBSERVAÇÕES']
+        _col_placa = 'PLACA' if 'PLACA' in _df_aba.columns else ('CARRO' if 'CARRO' in _df_aba.columns else None)
+        if _col_placa:
+            _cols_rota.append(_col_placa)
+        _sub = _df_aba[[c for c in _cols_rota if c in _df_aba.columns]].copy()
         _sub['Nº NF'] = pd.to_numeric(_sub['Nº NF'], errors='coerce')
         _sub = _sub.dropna(subset=['Nº NF'])
         for _, _r in _sub.iterrows():
+            _nf_num = int(_r['Nº NF'])
             _status = str(_r['STATUS']).strip().upper() if pd.notna(_r['STATUS']) else ''
             if _status:
-                _status_por_nf[int(_r['Nº NF'])] = _status
+                _status_por_nf[_nf_num] = _status
                 if _data_aba:
-                    _data_entrega_por_nf[int(_r['Nº NF'])] = _data_aba
+                    _data_entrega_por_nf[_nf_num] = _data_aba
+            # Motivo da devolução (só existe pra STATUS RETORNO — MOTIVO é a
+            # causa codificada, OBSERVAÇÕES o relato livre de quem apoiou a
+            # rota; concatena os dois porque a OBSERVAÇÃO costuma ter o
+            # detalhe de verdade, tipo "vendedor Fulano está ciente").
+            if _status == 'RETORNO':
+                _motivo_txt = str(_r.get('MOTIVO', '') or '').strip() if pd.notna(_r.get('MOTIVO')) else ''
+                _obs_txt = str(_r.get('OBSERVAÇÕES', '') or '').strip() if pd.notna(_r.get('OBSERVAÇÕES')) else ''
+                _motivo_ret = ' — '.join(x for x in [_motivo_txt, _obs_txt] if x)
+                if _motivo_ret:
+                    _motivo_retorno_por_nf[_nf_num] = _motivo_ret
+            # ROTA fica registrada assim que a NF entra na viagem do dia, ANTES
+            # do desfecho (STATUS) ser preenchido — por isso é um dado
+            # independente, não só "se não tem status". Guardada por NF em
+            # todos os dias recentes (não só hoje) e sobrescrita do mais
+            # antigo pro mais recente (mesmo motivo do _status_por_nf acima):
+            # uma NF que saiu em rota ontem e nunca ganhou desfecho continuava
+            # aparecendo com Status Logística em branco no dia seguinte,
+            # mesmo já tendo saído pra entrega de verdade (bug real
+            # confirmado em 2026-08-14, NF 420965/420967 — em rota "DRIF" no
+            # dia 13/08, sem STATUS ainda, sumia do status assim que a aba de
+            # hoje não tinha mais essas NFs).
+            _rota_val = str(_r.get('ROTA', '') or '').strip() if 'ROTA' in _sub.columns else ''
+            if _rota_val:
+                _rota_por_nf[_nf_num] = {
+                    'rota':  _rota_val,
+                    'placa': str(_r.get(_col_placa, '') or '').strip() if _col_placa else '',
+                    'data':  _data_aba or '',
+                }
 
 print(f"Status de logística: {len(_status_por_nf)} NF(s) mapeada(s) (últimos {_meses_recentes.__defaults__[0]} meses)")
-
-# ── "Em rota" hoje (mesma lógica do entregas.py) ───────────────────────────
-# Um pedido está "em rota" quando a NF aparece na aba de HOJE da planilha
-# "Controle de Notas" com a coluna ROTA preenchida (rota = viagem do dia,
-# não o desfecho da entrega — isso é o STATUS, já coberto acima). Só cobre
-# NFs da logística RJ (CRC), mesma limitação do status_log.
-_hoje_d       = date.today()
-_hoje_str     = _hoje_d.strftime('%d.%m')
-_hoje_str_hif = _hoje_d.strftime('%d-%m')
-_rota_hoje_por_nf: dict = {}
-try:
-    _mm_hoje = f"{_hoje_d.month:02d}"
-    _upper_hoje = _MESES_PT_STATUS[_mm_hoje]
-    _caminho_hoje = _bpd.com_fallback(
-        lambda: _bpd.caminho_controle_notas(_mm_hoje, _upper_hoje, _hoje_d.year),
-        _caminho_controle_notas_local(_hoje_d.year, _mm_hoje),
-    )
-    _abas_hoje = pd.read_excel(_caminho_hoje, sheet_name=None)
-    _aba_hoje_nome = next((k for k in _abas_hoje if str(k) in (_hoje_str, _hoje_str_hif)), None)
-    _df_hoje = _abas_hoje[_aba_hoje_nome].copy() if _aba_hoje_nome else pd.DataFrame()
-    if not _df_hoje.empty and 'Nº NF' in _df_hoje.columns:
-        _df_hoje = _df_hoje[_df_hoje['Nº NF'].notna()].copy()
-        _df_hoje['NF_NUM'] = pd.to_numeric(_df_hoje['Nº NF'], errors='coerce')
-        _df_hoje = _df_hoje.dropna(subset=['NF_NUM']).drop_duplicates('NF_NUM')
-        for _, _r in _df_hoje.iterrows():
-            _rota_val = str(_r.get('ROTA', '') or '').strip()
-            if _rota_val:
-                _rota_hoje_por_nf[int(_r['NF_NUM'])] = {
-                    'rota':  _rota_val,
-                    'placa': str(_r.get('PLACA', '') or '').strip(),
-                }
-    print(f"Em rota hoje ({_hoje_str}): {len(_rota_hoje_por_nf)} NF(s) | aba: {_aba_hoje_nome or 'não encontrada'}")
-except Exception as e:
-    print(f"[AVISO] Rota de hoje indisponível ({str(e)[:80]}) — 'em rota' fica sem dado")
+print(f"Em rota: {len(_rota_por_nf)} NF(s) com viagem atribuída (últimos {_meses_recentes.__defaults__[0]} meses)")
+print(f"Motivo de devolução: {len(_motivo_retorno_por_nf)} NF(s) com RETORNO mapeada(s) (últimos {_meses_recentes.__defaults__[0]} meses)")
 
 
 def _rota_info(numnota):
     try:
-        return _rota_hoje_por_nf.get(int(float(numnota)))
+        return _rota_por_nf.get(int(float(numnota)))
     except (TypeError, ValueError):
         return None
 
@@ -413,6 +439,18 @@ def _status_log(numnota, sistema=''):
         return _canhoto_por_nf.get(_nf_clean(numnota), '')
     try:
         return _status_por_nf.get(int(float(numnota)), '')
+    except (ValueError, TypeError):
+        return ''
+
+
+def _motivo_retorno(numnota, sistema=''):
+    """Motivo da devolução (Controle de Notas, colunas MOTIVO+OBSERVAÇÕES) —
+    só cobre RJ (CRC), mesma limitação de _status_por_nf acima. SP (Canhoto
+    Digital) não tem motivo estruturado, só o sub_status 'DEVOLUÇÃO'."""
+    if sistema == 'SPON':
+        return ''
+    try:
+        return _motivo_retorno_por_nf.get(int(float(numnota)), '')
     except (ValueError, TypeError):
         return ''
 
@@ -721,6 +759,7 @@ def _agrupar(df, com_status_log=False):
         r0 = grp.iloc[0]
         nf = _nf_clean(r0.get('NUMNOTA', ''))
         data_dt = r0.get('DATA_DT')
+        _obs = ' | '.join(x for x in [_s(r0['OBSENTREGA1']), _s(r0.get('OBSENTREGA2'))] if x)
         item = {
             'numped':     _s(numped),
             'numnota':    nf,
@@ -736,7 +775,15 @@ def _agrupar(df, com_status_log=False):
             'status_ped': _s(r0['STATUS']),
             'posicao':    _s(r0['POSICAO_LABEL']),
             'motivo':     _s(r0['MOTIVO']),
-            'obs':        _s(r0['OBSENTREGA1']),
+            # OBSENTREGA1 (PBI_PCPEDI) e OBSENTREGA2 (PCPEDC) são campos livres
+            # separados — quem digita no Winthor pode usar qualquer um dos
+            # dois pra anotar agendamento de entrega (confirmado em
+            # 2026-08-14, NUMPED 275000699: "AGENDADO PARA 24/08 07H" estava
+            # só na OBSENTREGA2, _agendamento() em pedidos.html não achava
+            # porque só recebia OBSENTREGA1). Concatena os dois pra cobrir
+            # ambos.
+            'obs':        _obs,
+            'agendado':   _agendamento_texto(_obs),
             'total':      round(float(grp['TOTAL'].sum()), 2),
             'itens': [
                 _item_pedido(sistema, numped, row)
@@ -772,6 +819,14 @@ def _agrupar(df, com_status_log=False):
             # Status Logística em vez de deixar em branco.
             item['status_log'] = _status if _status else ('EM ROTA' if _rota is not None else '')
             item['data_entrega'] = _data_entrega(nf, sistema) if nf else ''
+            # Motivo da devolução: só faz sentido quando o desfecho da
+            # logística foi RETORNO. 'motivo' (MOTIVOPOSICAO/FUNC_CANCEL) normalmente
+            # vem vazio pra pedido já faturado — reaproveita o mesmo campo pra
+            # aparecer no "Motivo: ..." do item expandido sem precisar de UI nova.
+            if item['status_log'] == 'RETORNO':
+                item['motivo_retorno'] = _motivo_retorno(nf, sistema) if nf else ''
+                if item['motivo_retorno'] and not item['motivo']:
+                    item['motivo'] = item['motivo_retorno']
         _preco_motivo = _preco_motivo_bloqueio(item)
         if _preco_motivo:
             (item['motivo_codprod'], item['motivo_produto'],
@@ -827,6 +882,20 @@ _faturados_agrupados  = _agrupar(_faturados, com_status_log=True)
 _cancelados_agrupados = _agrupar(_cancelados)
 _notas_pagas_agrupados = _agrupar(_notas_pagas, com_status_log=True)
 
+# Nota paga não pode simplesmente sumir da tela — o usuário perdia a
+# capacidade de conferir a NF (ex: status de entrega) assim que o pagamento
+# batia, às vezes no mesmo dia (confirmado em 2026-08-14, NF 420071: constava
+# ENTREGUE na planilha Controle de Notas mas não aparecia em nenhuma aba de
+# pedidos.html). _notas_pagas_agrupados sempre existiu só pra alimentar
+# logistica_por_nf (cross-reference do metas.html) — agora também entra em
+# "faturados" pro pedido continuar visível/buscável durante toda a janela de
+# DIAS_JANELA, com 'pago' marcando quais já quitaram pra quem precisar
+# distinguir (financeiro/AR).
+for _p in _faturados_agrupados:
+    _p['pago'] = False
+for _p in _notas_pagas_agrupados:
+    _p['pago'] = True
+
 # Índice leve de status de logística por nota (sistema+numnota), cobrindo
 # Faturados EM ABERTO e notas já pagas — usado por metas.html pra mostrar
 # ENTREGUE/EM ROTA/etc. em vez do rótulo genérico "EMITIDO". Cancelados fica
@@ -840,6 +909,7 @@ for _p in _faturados_agrupados + _notas_pagas_agrupados:
             'rota':         _p.get('rota', ''),
             'placa':        _p.get('placa', ''),
             'data_entrega': _p.get('data_entrega', ''),
+            'agendado':     _p.get('agendado', ''),
         }
 
 payload = {
@@ -847,14 +917,20 @@ payload = {
     'periodo_dias':         DIAS_JANELA,
     'fontes_indisponiveis': _fontes_indisponiveis,
     'pedidos_feitos':       _agrupar(_feitos),
-    'faturados':            _faturados_agrupados,
+    'faturados':            sorted(
+        _faturados_agrupados + _notas_pagas_agrupados,
+        key=lambda p: p['data_ord'], reverse=True
+    ),
     'cancelados':           _cancelados_agrupados,
     'logistica_por_nf':     _logistica_por_nf,
-    # Corte parcial (entregou parte) vem de Faturados; corte total (pedido
-    # inteiro cortado) vem de Cortados/Cancelados — os dois têm que entrar
-    # aqui, senão a aba "Produtos Cortados" só mostra metade dos cortes.
+    # Corte parcial (entregou parte) vem de Faturados (aberto + pago, mesmo
+    # motivo do 'pago' acima — corte não pode sumir só porque a nota foi
+    # quitada); corte total (pedido inteiro cortado) vem de
+    # Cortados/Cancelados — os três têm que entrar aqui, senão a aba
+    # "Produtos Cortados" só mostra parte dos cortes.
     'produtos_cortados':    sorted(
-        _extrair_cortados(_faturados_agrupados) + _extrair_cortados(_cancelados_agrupados),
+        _extrair_cortados(_faturados_agrupados) + _extrair_cortados(_notas_pagas_agrupados)
+        + _extrair_cortados(_cancelados_agrupados),
         key=lambda r: r['data_ord'], reverse=True
     ),
 }

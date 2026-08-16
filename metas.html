@@ -13,7 +13,6 @@
   <script src="gerentes_data.js"></script>
   <script src="fontes_status_data.js"></script>
   <script src="fontes_alert.js"></script>
-  <script src="pedidos_data.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4/dist/chart.umd.min.js"></script>
   <style>
     * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -714,11 +713,12 @@
   try {
     const s = JSON.parse(sessionStorage.getItem('rg_vendedor') || '{}');
     if (!s.rca) throw 0;
+    const _normVendAuth = s2 => (s2 || '').toLowerCase().replace(/\s*-\s*off trade\s*$/i, '').trim();
     const rcaUrl = _rca
       ? String(_rca)
       : (() => {
           const vv = (typeof METAS_DATA !== 'undefined' ? METAS_DATA.vendedores : [])
-            .find(x => x.nome.toLowerCase() === _vend.toLowerCase());
+            .find(x => x.nome.toLowerCase() === _vend.toLowerCase() || _normVendAuth(x.nome) === _normVendAuth(_vend));
           return vv ? String(vv.rca) : null;
         })();
     if (!rcaUrl || String(s.rca) !== rcaUrl) throw 0;
@@ -881,11 +881,10 @@ function _chavePedido(v, idx) {
 // Cruza com pedidos_data.js (pedidos.py) por sistema+número da nota, pra
 // mostrar o status de logística real (EM ROTA, ENTREGUE, etc — Controle de
 // Notas / Canhoto Digital) em vez de só "EMITIDO" — pedido do usuário em
-// 2026-08-13, mesma fonte que pedidos.html já usa. Usa logistica_por_nf (não
-// só PEDIDOS_DATA.faturados) porque nota já paga sai de "faturados" (regra
-// financeira de pedidos.py) mas continua tendo status de entrega real — sem
-// isso, nota paga rápido caía sempre em "EMITIDO" mesmo já entregue
-// (confirmado em 2026-08-13, NF 418022/Diogo Raposo). Só cobre pedidos.py::
+// 2026-08-13, mesma fonte que pedidos.html já usa. Usa logistica_por_nf
+// direto (mais simples que reconstruir o cruzamento a partir de
+// PEDIDOS_DATA.faturados, que desde 2026-08-14 já inclui as notas pagas
+// também — ver pedidos.py::_notas_pagas/'pago'). Só cobre pedidos.py::
 // DIAS_JANELA (90 dias) — fora dessa janela, cai de volta pra "EMITIDO"
 // genérico (sem dado de logística disponível).
 function _logisticaDoPedido(sistema, nunota) {
@@ -1014,7 +1013,26 @@ function _ordenarPedidosDesc(lista) {
 
 let _pedidosAtuais = [];
 
-function buildPedidosTable(pedidos) {
+// Liga NF de saída <-> NF de devolução pelo NUMPED (M.NUMPED do Oracle,
+// mesmo pedido Winthor gera um NUNOTA de saída e, se devolvido depois, um
+// NUNOTA de devolução separado — NUMNOTADEV não serve pra isso, ver
+// comentário em exportacao_meta.py::_query_vendas_historico). A saída pode
+// ter sido faturada em outro mês (ex: vendido em Jun, devolvido em Ago), por
+// isso varre TODOS os meses do vendedor em VENDAS_DATA, não só o mês aberto
+// (pedido do usuário em 2026-08-14: "precisa ter a nota de saída e de devolução").
+function _buscarNfPorNumped(nomeVendedor, numped, querDevolucao) {
+  if (!numped || typeof VENDAS_DATA === 'undefined') return null;
+  const porMes = VENDAS_DATA.por_vendedor[nomeVendedor] || {};
+  for (const mes in porMes) {
+    for (const it of porMes[mes]) {
+      const ehDevolucao = it.tipo === 'Devolução';
+      if (it.numped === numped && ehDevolucao === querDevolucao && it.nunota) return it.nunota;
+    }
+  }
+  return null;
+}
+
+function buildPedidosTable(pedidos, nomeVendedor) {
   _pedidosAtuais = pedidos;
   if (!pedidos || pedidos.length === 0) {
     return `<div class="vendas-empty">Nenhum pedido registrado este mês.</div>`;
@@ -1023,7 +1041,17 @@ function buildPedidosTable(pedidos) {
     const info = _statusPedidoInfo(p);
     const destacar = !!info.bg;
     const ref = p.itens[0];
-    const numPedido = ref.nunota ? `NF ${ref.nunota}` : (ref.numped ? `Ped ${ref.numped}` : '—');
+    let numPedido;
+    if (p.status === 'devolvido' && ref.numped) {
+      const ehDevolucao = ref.tipo === 'Devolução';
+      const nfSaida = ehDevolucao ? _buscarNfPorNumped(nomeVendedor, ref.numped, false) : ref.nunota;
+      const nfDev   = ehDevolucao ? ref.nunota : _buscarNfPorNumped(nomeVendedor, ref.numped, true);
+      numPedido = (nfSaida && nfDev) ? `NF ${nfSaida} &rarr; Devolu&ccedil;&atilde;o NF ${nfDev}`
+                : ref.nunota ? `NF ${ref.nunota}` : '—';
+    } else {
+      numPedido = ref.nunota ? `NF ${ref.nunota}` : (ref.numped ? `Ped ${ref.numped}` : '—');
+    }
+    const _agendado = ref.nunota ? (_logisticaDoPedido(p.sistema, ref.nunota) || {}).agendado : '';
     return `
     <tr${destacar ? ` style="background:${info.bg}"` : ''}>
       <td class="vendas-date">${p.data || '—'}</td>
@@ -1032,6 +1060,7 @@ function buildPedidosTable(pedidos) {
         <div class="vendas-prod">
           ${numPedido} &middot; ${p.itens.length} ${p.itens.length === 1 ? 'item' : 'itens'}
           <span style="font-size:.62rem;background:${info.bg || 'rgba(34,197,94,.15)'};color:${info.cor};border:1px solid ${info.cor}55;border-radius:4px;padding:1px 5px;font-weight:700;margin-left:4px">${info.label}</span>
+          ${_agendado ? `<span style="font-size:.62rem;background:rgba(59,130,246,.15);color:#3b82f6;border:1px solid #3b82f655;border-radius:4px;padding:1px 5px;font-weight:700;margin-left:4px">&#128197; ${_agendado}</span>` : ''}
         </div>
       </td>
       <td class="vendas-qt">${Number(p.qt).toLocaleString('pt-BR')}</td>
@@ -1068,6 +1097,7 @@ function abrirDetalhesPedido(idx) {
         ${it.devolvido ? ' <span style="font-size:.6rem;color:#a855f7;font-weight:700">DEV</span>' : ''}
         ${it.cancelado ? ' <span style="font-size:.6rem;color:#ef4444;font-weight:700">CANCELADO</span>' : ''}
         ${it.cancelado_parcial ? ' <span style="font-size:.6rem;color:#f97316;font-weight:700">CORTE</span>' : ''}
+        ${it.motivo ? `<div style="font-size:.68rem;color:var(--muted)">Motivo: ${it.motivo}</div>` : ''}
       </td>
       <td style="color:var(--muted);white-space:nowrap">${it.fantasia || '—'}</td>
       <td style="text-align:right">${Number(it.qt).toLocaleString('pt-BR')}</td>
@@ -1083,7 +1113,7 @@ function abrirDetalhesPedido(idx) {
           </div>
           <span style="font-size:.68rem;background:${info.bg || 'rgba(34,197,94,.15)'};color:${info.cor};border:1px solid ${info.cor}55;border-radius:5px;padding:2px 8px;font-weight:700;white-space:nowrap">${info.label}</span>
         </div>
-        ${p.logistica && (p.logistica.rota || p.logistica.data_entrega) ? `<div style="font-size:.74rem;color:var(--muted);margin-top:6px">${p.logistica.rota ? `Rota: ${p.logistica.rota}${p.logistica.placa ? ' · Placa ' + p.logistica.placa : ''}` : ''}${p.logistica.rota && p.logistica.data_entrega ? ' &middot; ' : ''}${p.logistica.data_entrega ? `Entrega: ${p.logistica.data_entrega.split('-').reverse().join('/')}` : ''}</div>` : ''}
+        ${p.logistica && (p.logistica.rota || p.logistica.data_entrega || p.logistica.agendado) ? `<div style="font-size:.74rem;color:var(--muted);margin-top:6px">${p.logistica.rota ? `Rota: ${p.logistica.rota}${p.logistica.placa ? ' · Placa ' + p.logistica.placa : ''}` : ''}${p.logistica.rota && p.logistica.data_entrega ? ' &middot; ' : ''}${p.logistica.data_entrega ? `Entrega: ${p.logistica.data_entrega.split('-').reverse().join('/')}` : ''}${(p.logistica.rota || p.logistica.data_entrega) && p.logistica.agendado ? ' &middot; ' : ''}${p.logistica.agendado ? `&#128197; Agendado: ${p.logistica.agendado}` : ''}</div>` : ''}
         <table class="vendas-table" style="margin-top:12px">
           <thead>
             <tr><th>Produto</th><th>Fornecedor</th><th style="text-align:right">Qtde</th><th style="text-align:right">Valor</th></tr>
@@ -1501,6 +1531,13 @@ function copyLink(nome, btn) {
 }
 
 function voltarParaTodos() {
+  // Sessão de vendedor (login por RCA) nunca pode virar gestor por essa
+  // senha client-side — mesmo incidente do Diogo Raposo em 2026-08-14: esse
+  // botão aparecia até na própria página de detalhe do vendedor.
+  if (sessionStorage.getItem('rg_vendedor')) {
+    alert('Função disponível apenas para gestores.');
+    return;
+  }
   const HASH = 'b4ba917b95850dc43cce91dba3be9fd1a4f029e18b81d6846a7183839c81d8dd';
   const senha = prompt('Digite a senha para acessar todos os vendedores:');
   if (senha === null) return;
@@ -1544,6 +1581,74 @@ function _buildAvisoPedidos(nomeVendedor) {
     <div class="detail-card" style="border-color:var(--red)">
       <div class="sec-title" style="color:var(--red)">&#9888; ${lista.length} pedido${lista.length > 1 ? 's' : ''} pendente${lista.length > 1 ? 's' : ''}/bloqueado${lista.length > 1 ? 's' : ''}</div>
       <div style="margin-top:10px">${itens}</div>
+    </div>`;
+}
+
+// Pedidos faturados do mês aberto (visão atual) que nunca ganharam status de
+// logística (nem ROTA nem desfecho na planilha Controle de Notas) — sinal de
+// que a nota pode ter ficado esquecida fora do acompanhamento de entrega.
+// 'emitido' é o status default de _statusPedidoInfo pra pedido faturado
+// normal (não cancelado/devolvido/cortado/bonificado) — pedido do usuário em
+// 2026-08-14.
+function _buildAlertaSemStatusLogistica(pedidos) {
+  const lista = (pedidos || []).filter(p =>
+    p.status === 'emitido' && !(p.logistica && p.logistica.status_log));
+  if (!lista.length) return '';
+  const itens = lista.map(p => {
+    const ref = p.itens[0];
+    return `
+    <div style="padding:6px 0;border-bottom:1px solid var(--border)">
+      <div><strong>NF ${ref.nunota || '—'}</strong> — ${p.cliente} — ${fmtFat(p.valor)}</div>
+      <div style="font-size:.72rem;color:var(--muted)">${p.data || '—'}</div>
+    </div>`;
+  }).join('');
+  return `
+    <div class="detail-card" style="border-color:#f97316">
+      <div class="sec-title" style="color:#f97316">&#9888; ${lista.length} pedido${lista.length > 1 ? 's' : ''} faturado${lista.length > 1 ? 's' : ''} sem status de log&iacute;stica</div>
+      <div style="margin-top:10px">${itens}</div>
+    </div>`;
+}
+
+// Mês calendário anterior a hoje (não o mês selecionado no dropdown — é
+// sempre "o mês que já fechou"), formato {ano, mes} com mes 1-12.
+function _mesAnteriorAoAtual() {
+  const hoje = new Date();
+  let mes = hoje.getMonth(); // já é o mês anterior em índice 0-11 (mês atual = getMonth()+1)
+  let ano = hoje.getFullYear();
+  if (mes === 0) { mes = 12; ano -= 1; }
+  return { mes, ano };
+}
+
+// Pedidos com agendamento de entrega (OBSENTREGA1/2 do Winthor, já
+// pré-calculado em pedidos.py) faturados no mês anterior — útil pra
+// conferir se agendamentos antigos já foram de fato entregues/rastreados,
+// independente do mês selecionado no dropdown do "Faturamento do mês"
+// (pedido do usuário em 2026-08-14).
+function _buildAlertaAgendadosMesAnterior(nomeVendedor) {
+  if (typeof PEDIDOS_DATA === 'undefined') return '';
+  const { mes, ano } = _mesAnteriorAoAtual();
+  const prefixo = `${ano}-${String(mes).padStart(2, '0')}`;
+  const alvo = _normNomePedido(nomeVendedor);
+  // Já ENTREGUE ou CANCELADA não precisa aparecer aqui — o alerta é pra
+  // achar agendamento antigo ainda em aberto, não pra listar tudo que já foi
+  // resolvido (pedido do usuário em 2026-08-14).
+  const _STATUS_RESOLVIDO = { 'ENTREGUE': 1, 'CANCELADA': 1 };
+  const lista = (PEDIDOS_DATA.faturados || []).filter(p =>
+    p.agendado && (p.data_ord || '').startsWith(prefixo) && _normNomePedido(p.nome) === alvo
+    && !_STATUS_RESOLVIDO[p.status_log]);
+  if (!lista.length) return '';
+  const itens = lista.map(p => `
+    <div style="padding:6px 0;border-bottom:1px solid var(--border)">
+      <div><strong>NF ${p.numnota || p.numped}</strong> — ${p.cliente} — ${fmtFat(p.total)}</div>
+      <div style="font-size:.72rem;color:var(--muted)">&#128197; Agendado: ${p.agendado}${p.status_log ? ` &middot; Status: ${p.status_log}` : ' &middot; sem status de logística'}</div>
+    </div>`).join('');
+  return `
+    <div class="detail-card" style="border-color:#3b82f6">
+      <div class="sec-header" onclick="toggleSec('sec-agendados-ant')">
+        <div class="sec-title" style="color:#3b82f6">&#128197; ${lista.length} pedido${lista.length > 1 ? 's' : ''} agendado${lista.length > 1 ? 's' : ''} do m&ecirc;s anterior</div>
+        <span id="sec-agendados-ant-ic" class="sec-ic">&#9660;</span>
+      </div>
+      <div id="sec-agendados-ant" class="sec-body">${itens}</div>
     </div>`;
 }
 
@@ -1642,7 +1747,7 @@ function renderDetail(v, mes) {
           <div><div class="kpi-label">Clientes</div><div class="kpi-val">${_nCli}</div></div>
           <div><div class="kpi-label">Itens</div><div class="kpi-val">${_nItens.toLocaleString('pt-BR')}</div></div>
         </div>
-        ${buildPedidosTable(_pedidos)}
+        ${buildPedidosTable(_pedidos, v.nome)}
         ${_vendas.length > 0 ? `<div style="text-align:right;margin-top:10px"><button class="btn btn-dl" onclick="exportarVendasCSV('${v.nome}', '${mes}')">&#8595; Baixar CSV</button></div>` : ''}
       </div>
     </div>`;
@@ -1700,10 +1805,12 @@ function renderDetail(v, mes) {
         <div class="detail-rca">RCA ${v.rca}</div>
       </div>
       <div style="display:flex;gap:8px;flex-wrap:wrap">
-        <button class="btn" onclick="voltarParaTodos()">&#8592; Todos</button>
+        ${sessionStorage.getItem('rg_vendedor') ? '' : '<button class="btn" onclick="voltarParaTodos()">&#8592; Todos</button>'}
       </div>
     </div>
     ${_buildAvisoPedidos(v.nome)}
+    ${_buildAlertaAgendadosMesAnterior(v.nome)}
+    ${_buildAlertaSemStatusLogistica(_pedidos)}
     ${metasHtml}
     ${vendasHtml}
     ${campanhasHtml}
@@ -2557,6 +2664,20 @@ function filterCards(q) {
       location.replace(dest);
       return;
     }
+    // RCA não achado em METAS_DATA.vendedores (pipeline não rodou ainda,
+    // vendedor removido por engano, etc.) NÃO pode cair pro "else" lá embaixo
+    // (renderAll com a lista inteira sem filtro nenhum) — isso vazava dados
+    // de TODOS os vendedores pra sessão de login de um vendedor só, porque a
+    // restrição de escopo abaixo só roda quando "!param && !rcaParam" (bug
+    // real confirmado em 2026-08-14, caso Diogo Raposo RCA 144 →
+    // metas.html?rca=144 → sumido de METAS_DATA.vendedores na hora →
+    // mostrava a equipe inteira pro login dele; reportado pelo usuário como
+    // falha grave de segurança). Mostra erro e para aqui.
+    document.getElementById('app').innerHTML = `
+      <div class="no-data">
+        <p>RCA "<strong>${rcaParam}</strong>" não encontrado.</p>
+      </div>`;
+    return;
   }
 
   // Restrição por estado só na visão agregada (sem vendedor específico na
@@ -2568,8 +2689,18 @@ function filterCards(q) {
     }
   }
 
+  // login.html::_doRedirect tira o sufixo "- OFF TRADE" do nome antes de
+  // montar essa URL (formato que MG/SP/ES precisam, com chave curta em
+  // vendas_mg/sp/es_data.js) — mas METAS_DATA.vendedores[].nome sempre tem o
+  // sufixo. Casamento exato sem normalizar isso fazia TODO vendedor do RJ
+  // logando cair em "Vendedor não encontrado" (bug real confirmado em
+  // 2026-08-14, caso Diogo Raposo — reportado como falha de segurança).
+  // Compara com e sem o sufixo dos dois lados pra aceitar ambos os formatos
+  // (login por RCA e link direto do gestor via copyLink, que já manda o
+  // nome completo).
+  const _normVend = s => (s || '').toLowerCase().replace(/\s*-\s*off trade\s*$/i, '').trim();
   const v = param
-    ? METAS_DATA.vendedores.find(x => x.nome.toLowerCase() === param.toLowerCase())
+    ? METAS_DATA.vendedores.find(x => x.nome.toLowerCase() === param.toLowerCase() || _normVend(x.nome) === _normVend(param))
     : null;
 
   if (param) {

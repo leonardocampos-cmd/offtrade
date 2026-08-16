@@ -24,7 +24,7 @@ from pathlib import Path
 
 import pandas as pd
 
-from meta import engine, engine_theking, engine_castas, engine_garrido, engine_spon, engine_mgon, carregar_dados, carregar_paralelo
+from meta import engine, engine_theking, engine_castas, engine_garrido, engine_spon, engine_mgon, engine_blended, carregar_dados, carregar_paralelo
 
 # RCA -> (nome, time). Cópia de exportacao_raiox_vendedores.py — não dá pra
 # importar de lá direto porque esse módulo roda a query inteira (Oracle +
@@ -62,6 +62,9 @@ _SOURCES = [
     ("GARRIDO",  engine_garrido),
     ("SPON",     engine_spon),
     ("MGON",     engine_mgon),
+    # Operação nova em SP (ver meta.py::engine_blended) — pedido do usuário
+    # em 2026-08-14, mesma lacuna já corrigida em exportacao_meta.py.
+    ("BLENDED",  engine_blended),
 ]
 
 _hoje = date.today()
