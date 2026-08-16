@@ -126,13 +126,17 @@ def _query_cadastro(schema):
 
 
 def _query_hierarquia(schema):
-    """RCA -> supervisor -> gerente. Mesma estrutura de exportacao_meta.py
-    (_query_hierarquia). Nem toda base tem PCSUPERV/PCGERENTE — quem chamar
-    trata a exceção e cai pra 'Sem gerente'."""
+    """RCA -> supervisor -> gerente -> CPF. Mesma estrutura de
+    exportacao_meta.py (_query_hierarquia). Nem toda base tem
+    PCSUPERV/PCGERENTE — quem chamar trata a exceção e cai pra
+    'Sem gerente'. CPF (pedido do usuário em 2026-08-16) identifica a mesma
+    pessoa cadastrada com CODUSUR diferente em mais de um sistema — usado
+    pra agrupar num "vendedor" único em vez de uma linha por sistema."""
     return f"""
         SELECT U.CODUSUR,
                COALESCE(S.NOME, 'Sem supervisor') AS NOME_SUPERVISOR,
-               COALESCE(G.NOMEGERENTE, 'Sem gerente') AS NOME_GERENTE
+               COALESCE(G.NOMEGERENTE, 'Sem gerente') AS NOME_GERENTE,
+               COALESCE(U.CPF, '') AS CPF
         FROM {schema}.PCUSUARI U
         LEFT JOIN {schema}.PCSUPERV S ON U.CODSUPERVISOR = S.CODSUPERVISOR
         LEFT JOIN {schema}.PCGERENTE G ON S.CODGERENTE = G.CODGERENTE
@@ -195,10 +199,24 @@ for (nome, _eng), resultado in zip(_SOURCES, carregar_paralelo(_chamadas_hier)):
     resultado['SISTEMA'] = nome
     _partes_hier.append(resultado)
 
-hierarquia = pd.concat(_partes_hier, ignore_index=True) if _partes_hier else pd.DataFrame(columns=['CODUSUR', 'NOME_SUPERVISOR', 'NOME_GERENTE', 'SISTEMA'])
+hierarquia = pd.concat(_partes_hier, ignore_index=True) if _partes_hier else pd.DataFrame(columns=['CODUSUR', 'NOME_SUPERVISOR', 'NOME_GERENTE', 'CPF', 'SISTEMA'])
 hierarquia['CODUSUR'] = pd.to_numeric(hierarquia['CODUSUR'], errors='coerce')
 hierarquia['CHAVE_RCA'] = hierarquia['SISTEMA'] + '-' + hierarquia['CODUSUR'].astype('Int64').astype(str)
 _gerente_por_chave = hierarquia.drop_duplicates(subset=['CHAVE_RCA']).set_index('CHAVE_RCA')['NOME_GERENTE'].to_dict()
+# Só os dígitos — evita CPF não bater por causa de máscara (000.000.000-00
+# vs 00000000000) entre bases diferentes.
+hierarquia['CPF'] = hierarquia['CPF'].fillna('').astype(str).str.replace(r'\D', '', regex=True)
+_cpf_por_chave = hierarquia.drop_duplicates(subset=['CHAVE_RCA']).set_index('CHAVE_RCA')['CPF'].to_dict()
+
+# CODCLI/CODPROD são só únicos DENTRO de cada schema — o mesmo número em
+# CRC e SPON são clientes/produtos diferentes. Enquanto cada "vendedor" do
+# payload era uma única CHAVE_RCA (== um único sistema), nunique(CODCLI) já
+# saía certo sem querer. Agora que um vendedor pode agrupar CHAVE_RCA de
+# sistemas diferentes (via CPF, ver abaixo), nunique correria risco de
+# colidir cliente/produto de bases diferentes com o mesmo código — por isso
+# as métricas passam a usar essas chaves prefixadas por sistema.
+vendas['CODCLI_G'] = vendas['SISTEMA'] + '-' + vendas['CODCLI'].astype(str)
+vendas['CODPROD_G'] = vendas['SISTEMA'] + '-' + vendas['CODPROD'].astype(str)
 
 
 def _time_de(sistema, estado, codusur):
@@ -218,6 +236,22 @@ _rca_info = (
 _rca_info['TIME'] = _rca_info.apply(lambda r: _time_de(r['SISTEMA'], r['ESTADO'], r['CODUSUR']), axis=1)
 _rca_info['GERENTE'] = _rca_info['CHAVE_RCA'].map(_gerente_por_chave).fillna('Sem gerente')
 _rca_info['NOME_EXIBICAO'] = _rca_info['NOME_RCA'].str.replace(' - OFF TRADE', '', regex=False).str.replace('-OFF TRADE', '', regex=False).str.strip()
+
+# Pedido do usuário em 2026-08-16: vendedor que vende em mais de um sistema
+# (CPF igual, CODUSUR diferente por base — ex. alguém ativo tanto na CRC
+# quanto na SPON) vira UMA linha só, não uma por sistema. Sem CPF (campo
+# vazio em PCUSUARI) não dá pra provar que é a mesma pessoa com segurança —
+# nesse caso cada CHAVE_RCA continua isolada (fallback pro comportamento
+# antigo).
+_rca_info['CPF'] = _rca_info['CHAVE_RCA'].map(_cpf_por_chave).fillna('')
+_rca_info['CHAVE_VENDEDOR'] = _rca_info.apply(
+    lambda r: f"CPF-{r['CPF']}" if r['CPF'] else r['CHAVE_RCA'], axis=1
+)
+# "Identidade" de exibição (nome/estado/tipo/sistema) do grupo = a do
+# CHAVE_RCA com maior faturamento no ano atual — desempata de forma estável
+# quando o mesmo CPF aparece em sistemas diferentes.
+_fat_atual_por_chave = vendas[vendas['ANO'] == _ANO_ATUAL].groupby('CHAVE_RCA')['VALOR'].sum().to_dict()
+_rca_info['FAT_ATUAL_CHAVE'] = _rca_info['CHAVE_RCA'].map(_fat_atual_por_chave).fillna(0.0)
 
 # ── Base cadastro por RCA (cliente com CODUSUR1 ou CODUSUR2 == RCA) ────────
 _base_cadastro_qtd = {}
@@ -250,12 +284,12 @@ def _metricas(df):
             'tdp': 0, 'qtd_sku_cliente': 0.0,
         }
     faturamento = round(float(df['VALOR'].sum()), 2)
-    positivacoes = int(df.groupby(['ANO', 'MES'])['CODCLI'].nunique().sum())
-    positivacoes_unicas = int(df['CODCLI'].nunique())
+    positivacoes = int(df.groupby(['ANO', 'MES'])['CODCLI_G'].nunique().sum())
+    positivacoes_unicas = int(df['CODCLI_G'].nunique())
     industrias = int(df['INDUSTRIA'].nunique())
-    qtd_industria_cliente = round(float(df.groupby('CODCLI')['INDUSTRIA'].nunique().mean()), 2)
-    tdp = int(df['CODPROD'].nunique())
-    qtd_sku_cliente = round(float(df.groupby('CODCLI')['CODPROD'].nunique().mean()), 2)
+    qtd_industria_cliente = round(float(df.groupby('CODCLI_G')['INDUSTRIA'].nunique().mean()), 2)
+    tdp = int(df['CODPROD_G'].nunique())
+    qtd_sku_cliente = round(float(df.groupby('CODCLI_G')['CODPROD_G'].nunique().mean()), 2)
     return {
         'faturamento': faturamento, 'positivacoes': positivacoes,
         'positivacoes_unicas': positivacoes_unicas, 'industrias': industrias,
@@ -271,11 +305,11 @@ def _serie_mensal(df):
         chave = f"{int(ano)}-{int(mes):02d}"
         serie[chave] = {
             'faturamento': round(float(grp['VALOR'].sum()), 2),
-            'positivacoes_unicas': int(grp['CODCLI'].nunique()),
+            'positivacoes_unicas': int(grp['CODCLI_G'].nunique()),
             'industrias': int(grp['INDUSTRIA'].nunique()),
-            'qtd_industria_cliente': round(float(grp.groupby('CODCLI')['INDUSTRIA'].nunique().mean()), 2),
-            'tdp': int(grp['CODPROD'].nunique()),
-            'qtd_sku_cliente': round(float(grp.groupby('CODCLI')['CODPROD'].nunique().mean()), 2),
+            'qtd_industria_cliente': round(float(grp.groupby('CODCLI_G')['INDUSTRIA'].nunique().mean()), 2),
+            'tdp': int(grp['CODPROD_G'].nunique()),
+            'qtd_sku_cliente': round(float(grp.groupby('CODCLI_G')['CODPROD_G'].nunique().mean()), 2),
         }
     return serie
 
@@ -286,10 +320,10 @@ def _serie_por_uf(df):
     for uf, grp in df.groupby('ESTADO'):
         serie[uf] = {
             'faturamento': round(float(grp['VALOR'].sum()), 2),
-            'positivacoes_unicas': int(grp['CODCLI'].nunique()),
+            'positivacoes_unicas': int(grp['CODCLI_G'].nunique()),
             'industrias': int(grp['INDUSTRIA'].nunique()),
-            'qtd_industria_cliente': round(float(grp.groupby('CODCLI')['INDUSTRIA'].nunique().mean()), 2),
-            'tdp': int(grp['CODPROD'].nunique()),
+            'qtd_industria_cliente': round(float(grp.groupby('CODCLI_G')['INDUSTRIA'].nunique().mean()), 2),
+            'tdp': int(grp['CODPROD_G'].nunique()),
         }
     return serie
 
@@ -303,9 +337,9 @@ def _serie_por_industria(df):
     for industria, grp in df.groupby('INDUSTRIA'):
         serie[industria] = {
             'faturamento': round(float(grp['VALOR'].sum()), 2),
-            'positivacoes_unicas': int(grp['CODCLI'].nunique()),
-            'tdp': int(grp['CODPROD'].nunique()),
-            'qtd_sku_cliente': round(float(grp.groupby('CODCLI')['CODPROD'].nunique().mean()), 2),
+            'positivacoes_unicas': int(grp['CODCLI_G'].nunique()),
+            'tdp': int(grp['CODPROD_G'].nunique()),
+            'qtd_sku_cliente': round(float(grp.groupby('CODCLI_G')['CODPROD_G'].nunique().mean()), 2),
         }
     return serie
 
@@ -319,27 +353,32 @@ def _bloco_periodo(df):
     }
 
 
-# ── Monta payload por vendedor ──────────────────────────────────────────────
+# ── Monta payload por vendedor (agrupado por CPF quando disponível — um
+# vendedor que vende em mais de um sistema vira uma linha só) ──────────────
 vendedores = []
-for _, r in _rca_info.iterrows():
-    chave = r['CHAVE_RCA']
-    df_rca = vendas[vendas['CHAVE_RCA'] == chave]
-    df_atual = df_rca[df_rca['ANO'] == _ANO_ATUAL]
-    df_anterior = df_rca[df_rca['ANO'] == _ANO_ANTERIOR]
-    base_cad = _base_cadastro_qtd.get(chave, 0)
-    pos_unicas_atual = int(df_atual['CODCLI'].nunique())
+for chave_vendedor, grupo in _rca_info.groupby('CHAVE_VENDEDOR'):
+    chaves_rca_grupo = set(grupo['CHAVE_RCA'])
+    principal = grupo.sort_values('FAT_ATUAL_CHAVE', ascending=False).iloc[0]
+    sistemas_grupo = sorted(grupo['SISTEMA'].unique().tolist())
+
+    df_grp = vendas[vendas['CHAVE_RCA'].isin(chaves_rca_grupo)]
+    df_atual = df_grp[df_grp['ANO'] == _ANO_ATUAL]
+    df_anterior = df_grp[df_grp['ANO'] == _ANO_ANTERIOR]
+    base_cad = sum(_base_cadastro_qtd.get(c, 0) for c in chaves_rca_grupo)
+    pos_unicas_atual = int(df_atual['CODCLI_G'].nunique())
     vendedores.append({
-        'chave': chave,
-        'sistema': r['SISTEMA'],
-        'rca': int(r['CODUSUR']),
-        'nome': r['NOME_EXIBICAO'],
-        'estado': r['ESTADO'],
-        'time': r['TIME'],
-        'time_label': TIME_LABEL[r['TIME']],
-        'gerente': r['GERENTE'],
-        'tipo_vendedor': r['TIPOVEND'],
+        'chave': chave_vendedor,
+        'sistema': principal['SISTEMA'],
+        'sistemas': sistemas_grupo,
+        'rca': int(principal['CODUSUR']),
+        'nome': principal['NOME_EXIBICAO'],
+        'estado': principal['ESTADO'],
+        'time': principal['TIME'],
+        'time_label': TIME_LABEL[principal['TIME']],
+        'gerente': principal['GERENTE'],
+        'tipo_vendedor': principal['TIPOVEND'],
         'base_cadastro': base_cad,
-        'base_ativa': int(_base_ativa_qtd.get(chave, 0)),
+        'base_ativa': int(sum(_base_ativa_qtd.get(c, 0) for c in chaves_rca_grupo)),
         'vs_base_pct': round(100 * pos_unicas_atual / base_cad, 1) if base_cad else None,
         str(_ANO_ATUAL):    _bloco_periodo(df_atual),
         str(_ANO_ANTERIOR): _bloco_periodo(df_anterior),
@@ -351,15 +390,18 @@ vendedores.sort(key=lambda v: v[str(_ANO_ATUAL)]['metricas']['faturamento'], rev
 # (hierarquia PCUSUARI->PCSUPERV->PCGERENTE), não por time comercial.
 gerentes = []
 for gerente_nome in sorted(_rca_info['GERENTE'].unique()):
-    chaves_ger = set(_rca_info[_rca_info['GERENTE'] == gerente_nome]['CHAVE_RCA'])
+    sub_ger = _rca_info[_rca_info['GERENTE'] == gerente_nome]
+    chaves_ger = set(sub_ger['CHAVE_RCA'])
     df_ger = vendas[vendas['CHAVE_RCA'].isin(chaves_ger)]
     df_atual = df_ger[df_ger['ANO'] == _ANO_ATUAL]
     df_anterior = df_ger[df_ger['ANO'] == _ANO_ANTERIOR]
     base_cad_ger = sum(_base_cadastro_qtd.get(c, 0) for c in chaves_ger)
-    pos_unicas_atual = int(df_atual['CODCLI'].nunique())
+    pos_unicas_atual = int(df_atual['CODCLI_G'].nunique())
     gerentes.append({
         'gerente': gerente_nome,
-        'qtd_vendedores': len(chaves_ger),
+        # Vendedor único (CPF), não CHAVE_RCA — sem isso, quem vende em 2
+        # sistemas sob o mesmo gerente contava 2x aqui.
+        'qtd_vendedores': sub_ger['CHAVE_VENDEDOR'].nunique(),
         'base_cadastro': base_cad_ger,
         'base_ativa': int(sum(_base_ativa_qtd.get(c, 0) for c in chaves_ger)),
         'vs_base_pct': round(100 * pos_unicas_atual / base_cad_ger, 1) if base_cad_ger else None,
