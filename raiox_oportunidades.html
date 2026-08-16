@@ -98,6 +98,11 @@
     .sub-tabela th { background: none; padding: 4px 8px; font-size: .62rem; }
     .sub-tabela td { padding: 4px 8px; font-size: .76rem; border-top: 1px solid var(--border); }
     .sub-vazio { color: var(--muted); font-size: .78rem; padding: 6px 8px; }
+    .btn-ver {
+      font-size: .74rem; color: var(--accent); text-decoration: none; white-space: nowrap;
+      border: 1px solid var(--border); border-radius: 7px; padding: 4px 9px; transition: all .15s;
+    }
+    .btn-ver:hover { border-color: var(--accent); background: rgba(245,197,24,.08); }
     .sub-tabela tr.clicavel-sub { cursor: pointer; }
     .sub-tabela tr.clicavel-sub td:first-child::before { content: '▸ '; color: var(--muted); font-size: .65rem; }
     .sub-tabela tr.clicavel-sub.expandida td:first-child::before { content: '▾ '; color: var(--accent); }
@@ -275,6 +280,7 @@
         { label: 'Qtd atual', render: r => num(r.qt_atual) },
         { label: 'Δ qtd mês', render: r => `<span class="${pctCls(r.queda_qt_mes_pct)}">${pctTxt(r.queda_qt_mes_pct)}</span>` },
         { label: 'Δ qtd ano', render: r => `<span class="${pctCls(r.queda_qt_ano_pct)}">${pctTxt(r.queda_qt_ano_pct)}</span>` },
+        { label: '', render: r => `<a class="btn-ver" href="raiox_cliente_detalhe.html?chave=${encodeURIComponent(r.chave)}" onclick="event.stopPropagation()">Ver ficha →</a>` },
       ],
       industrias: [
         { label: '#', tipo: 'idx' },
