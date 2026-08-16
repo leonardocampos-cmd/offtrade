@@ -34,7 +34,8 @@ def _query(schema, filiais):
         SELECT COALESCE(F.FANTASIA,'SEM FANTASIA') AS FORNECEDOR,
                M.CODCLI, COALESCE(C.FANTASIA, C.CLIENTE) NOME_CLIENTE,
                M.CODUSUR, U.NOME NOME_VENDEDOR,
-               TRUNC(M.DTMOV,'MM') AS MES, SUM(M.PUNIT*M.QT) AS FATURAMENTO
+               COALESCE(M.DESCRICAO, 'Produto ' || M.CODPROD) AS PRODUTO,
+               TRUNC(M.DTMOV,'MM') AS MES, SUM(M.PUNIT*M.QT) AS FATURAMENTO, SUM(M.QT) AS QTD
         FROM {schema}.PCMOV M
         JOIN {schema}.PCCLIENT C ON M.CODCLI = C.CODCLI
         JOIN {schema}.PCFORNEC F ON M.CODFORNEC = F.CODFORNEC
@@ -47,7 +48,7 @@ def _query(schema, filiais):
           AND TRUNC(M.DTMOV) >= TO_DATE('{MES_INI}','YYYY-MM-DD')
           AND TRUNC(M.DTMOV) <= TO_DATE('{MES_FIM}','YYYY-MM-DD')
         GROUP BY COALESCE(F.FANTASIA,'SEM FANTASIA'), M.CODCLI, COALESCE(C.FANTASIA, C.CLIENTE),
-                 M.CODUSUR, U.NOME, TRUNC(M.DTMOV,'MM')
+                 M.CODUSUR, U.NOME, COALESCE(M.DESCRICAO, 'Produto ' || M.CODPROD), TRUNC(M.DTMOV,'MM')
     """
 
 
@@ -67,10 +68,11 @@ for base in BASES:
         fontes_indisponiveis.append(estado)
 
 vendas = pd.concat(_partes, ignore_index=True) if _partes else pd.DataFrame(
-    columns=['FORNECEDOR', 'CODCLI', 'NOME_CLIENTE', 'CODUSUR', 'NOME_VENDEDOR', 'MES', 'FATURAMENTO', 'ESTADO'])
+    columns=['FORNECEDOR', 'CODCLI', 'NOME_CLIENTE', 'CODUSUR', 'NOME_VENDEDOR', 'PRODUTO', 'MES', 'FATURAMENTO', 'QTD', 'ESTADO'])
 vendas['MES'] = pd.to_datetime(vendas['MES'])
 vendas['FORNECEDOR'] = vendas['FORNECEDOR'].fillna('SEM FANTASIA').str.strip()
 vendas['NOME_CLIENTE'] = vendas['NOME_CLIENTE'].fillna('').str.strip()
+vendas['PRODUTO'] = vendas['PRODUTO'].fillna('').str.strip()
 vendas['NOME_VENDEDOR'] = vendas['NOME_VENDEDOR'].fillna('').str.replace('- OFF TRADE', '', regex=False).str.replace('-OFF TRADE', '', regex=False).str.strip()
 vendas['CLIENTE_KEY'] = vendas['ESTADO'] + '-' + vendas['CODCLI'].astype(str)
 vendas['VENDEDOR_KEY'] = vendas['ESTADO'] + '-' + vendas['CODUSUR'].astype(str)
@@ -107,6 +109,15 @@ for fantasia, grp in vendas.groupby('FORNECEDOR'):
         for (chave, est, nome_v), v in top_vendedores_s.head(15).items()
     ]
 
+    top_produtos_s = (
+        grp.groupby('PRODUTO')[['FATURAMENTO', 'QTD']].sum()
+        .sort_values('FATURAMENTO', ascending=False)
+    )
+    top_produtos = [
+        {'produto': produto or 'N/D', 'faturamento': round(float(row['FATURAMENTO']), 2), 'quantidade': round(float(row['QTD']), 2)}
+        for produto, row in top_produtos_s.head(15).iterrows()
+    ]
+
     fornecedores.append({
         'fantasia': fantasia,
         'faturamento_ytd': round(fat_ytd, 2),
@@ -116,6 +127,7 @@ for fantasia, grp in vendas.groupby('FORNECEDOR'):
         'por_mes': por_mes,
         'top_clientes': top_clientes,
         'top_vendedores': top_vendedores,
+        'top_produtos': top_produtos,
     })
 
 fornecedores.sort(key=lambda f: f['faturamento_ytd'], reverse=True)
