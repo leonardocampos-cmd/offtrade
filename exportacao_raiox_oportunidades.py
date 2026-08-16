@@ -243,19 +243,32 @@ for chave, grp in vendas.groupby('CLIENTE_KEY'):
         continue
     estado = primeira['ESTADO']
     _hier = None
+    _vendedor_nome = None
     for rca in (primeira['CODUSUR1'], primeira['CODUSUR2']):
         if (estado, rca) in _hier_por_chave:
             _hier = _hier_por_chave[(estado, rca)]
+            _vendedor_nome = _nome_por_chave.get((estado, rca))
             break
     chaves_rca = [f"{estado}-{rca}" for rca in (primeira['CODUSUR1'], primeira['CODUSUR2'])
                   if (estado, rca) in _hier_por_chave]
+
+    # Abertura por indústria dentro do próprio cliente — alimenta o drill-down
+    # "clicar no cliente mostra as indústrias" na página.
+    por_industria = [
+        {'fornecedor': fornecedor, **_metricas_periodo(grp_f)}
+        for fornecedor, grp_f in grp.groupby('FORNECEDOR')
+    ]
+    por_industria.sort(key=lambda x: x['queda_fat_mes_valor'], reverse=True)
+
     clientes.append({
         'codcli': int(primeira['CODCLI']), 'estado': estado, 'chave': chave,
         'nome': primeira['NOME_CLIENTE'] or primeira['CLIENTE'] or f"Cliente {primeira['CODCLI']}",
         'ramo': primeira['RAMO'],
+        'vendedor': _vendedor_nome or 'Sem vendedor',
         'gerente': _hier['gerente'] if _hier else 'Sem gerente',
         'supervisor': _hier['supervisor'] if _hier else 'Sem supervisor',
         'chaves_rca': chaves_rca,
+        'por_industria': por_industria,
         **m,
     })
 clientes.sort(key=lambda c: c['queda_fat_mes_valor'], reverse=True)
