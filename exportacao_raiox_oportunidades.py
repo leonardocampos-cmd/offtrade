@@ -252,12 +252,16 @@ for chave, grp in vendas.groupby('CLIENTE_KEY'):
     chaves_rca = [f"{estado}-{rca}" for rca in (primeira['CODUSUR1'], primeira['CODUSUR2'])
                   if (estado, rca) in _hier_por_chave]
 
-    # Abertura por indústria dentro do próprio cliente — alimenta o drill-down
-    # "clicar no cliente mostra as indústrias" na página.
-    por_industria = [
-        {'fornecedor': fornecedor, **_metricas_periodo(grp_f)}
-        for fornecedor, grp_f in grp.groupby('FORNECEDOR')
-    ]
+    # Abertura por indústria (e, dentro dela, por produto) do próprio cliente
+    # — alimenta o drill-down cliente -> indústria -> produto na página.
+    por_industria = []
+    for fornecedor, grp_f in grp.groupby('FORNECEDOR'):
+        por_produto = [
+            {'produto': produto, **_metricas_periodo(grp_p)}
+            for produto, grp_p in grp_f.groupby('PRODUTO')
+        ]
+        por_produto.sort(key=lambda x: x['queda_fat_mes_valor'], reverse=True)
+        por_industria.append({'fornecedor': fornecedor, 'por_produto': por_produto, **_metricas_periodo(grp_f)})
     por_industria.sort(key=lambda x: x['queda_fat_mes_valor'], reverse=True)
 
     clientes.append({
