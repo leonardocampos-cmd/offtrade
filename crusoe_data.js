@@ -1,5 +1,5 @@
 const CRUSOE_DATA = {
-  "atualizado_em": "17/08/2026 15:21",
+  "atualizado_em": "17/08/2026 16:05",
   "periodo": {
     "ini": "01/07/2026",
     "fim": "31/08/2026"
@@ -2699,14 +2699,14 @@ const CRUSOE_DATA = {
         {
           "rca": 419,
           "vendedor": "Natali de Oliveira",
-          "pedidos": 16,
-          "positivacoes": 14,
-          "novos_skus": 16,
-          "faturamento": 2505.12,
-          "pontos_positivacao": 70,
-          "pontos_novos_skus": 64,
+          "pedidos": 17,
+          "positivacoes": 15,
+          "novos_skus": 17,
+          "faturamento": 2754.62,
+          "pontos_positivacao": 75,
+          "pontos_novos_skus": 68,
           "pontos_pedidos_valor": 0,
-          "pontos_total": 134,
+          "pontos_total": 143,
           "vendas": [
             {
               "numnota": "409254",
@@ -3089,6 +3089,31 @@ const CRUSOE_DATA = {
                   "produto": "RC ATUM RALADO NATURAL 24X140G",
                   "qt": 1.0,
                   "valor": 129.9,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 4
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "numnota": "421920",
+              "data": "17/08/2026",
+              "cliente": "45.589.600 JORGE GIL SILVA DE ANDRADE",
+              "valor_pedido": 249.5,
+              "eventos": [
+                {
+                  "tipo": "positivação (novo/reativação)",
+                  "pontos": 5
+                }
+              ],
+              "itens": [
+                {
+                  "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
+                  "qt": 1.0,
+                  "valor": 249.5,
                   "pontuacoes": [
                     {
                       "tipo": "novo SKU",
