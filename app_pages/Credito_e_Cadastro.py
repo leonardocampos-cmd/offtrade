@@ -99,9 +99,17 @@ def _enviar_email(assunto: str, corpo: str, cc: str = None) -> bool:
         return False
 
 
-def _fetch_cnpj(cnpj_limpo: str) -> dict:
+def _fetch_cnpj(cnpj_limpo: str, incluir_registros: bool = True) -> dict:
+    """registrations=BR (Inscrição Estadual) usa um serviço à parte do
+    provedor (cnpja.com) que já ficou fora do ar sozinho (503 'ccc service
+    is offline', confirmado em 2026-08-17) mesmo com os dados básicos de
+    CNPJ disponíveis — por isso incluir_registros=False existe, pra quem
+    chama poder cair pro básico em vez de perder a consulta inteira."""
+    url = f"https://api.cnpja.com/office/{cnpj_limpo}?simples=true"
+    if incluir_registros:
+        url += "&registrations=BR"
     resp = requests.get(
-        f"https://api.cnpja.com/office/{cnpj_limpo}?simples=true&registrations=BR",
+        url,
         headers={"Authorization": CHAVE_API_CNPJ},
         verify=False,
         timeout=15,
@@ -115,7 +123,13 @@ def _consultar_cnpj_receita(cnpj: str) -> str:
         cnpj_limpo = re.sub(r"\D", "", cnpj)
         if len(cnpj_limpo) != 14:
             return ""
-        d        = _fetch_cnpj(cnpj_limpo)
+        try:
+            d = _fetch_cnpj(cnpj_limpo, incluir_registros=True)
+        except Exception:
+            # Serviço de IE fora do ar não pode derrubar o resto dos dados
+            # (razão social, endereço etc.) — cai pro básico, só perde a
+            # linha de Insc. Estadual do texto (ver docstring de _fetch_cnpj).
+            d = _fetch_cnpj(cnpj_limpo, incluir_registros=False)
         company  = d.get("company", {})
         address  = d.get("address", {})
 
@@ -267,6 +281,7 @@ if busca:
             st.warning("Cliente não cadastrado.")
             cnpj_limpo       = re.sub(r"\D", "", busca)
             bloqueio_receita = False
+            ie_indisponivel  = False
 
             if len(cnpj_limpo) in (12, 13):
                 # Perto do tamanho de CNPJ (14) mas não exatamente — sem isso
@@ -283,8 +298,28 @@ if busca:
             elif len(cnpj_limpo) == 14 and not CHAVE_API_CNPJ:
                 st.warning("⚠️ CHAVE_API_CNPJ não configurada — consulta à Receita Federal desativada. Configure a variável no .env.")
             elif len(cnpj_limpo) == 14:
+                dados_rf        = None
+                ie_indisponivel = False
                 try:
-                    dados_rf     = _fetch_cnpj(cnpj_limpo)
+                    dados_rf = _fetch_cnpj(cnpj_limpo, incluir_registros=True)
+                except Exception:
+                    # Consulta completa (CNPJ + Insc. Estadual) falhou — o
+                    # serviço de IE do provedor (cnpja.com) já teve
+                    # instabilidade própria (503 'ccc service is offline',
+                    # confirmado em 2026-08-17) mesmo com o CNPJ básico
+                    # disponível, então tenta de novo só com o básico em vez
+                    # de perder a consulta inteira (ver docstring de
+                    # _fetch_cnpj).
+                    try:
+                        dados_rf        = _fetch_cnpj(cnpj_limpo, incluir_registros=False)
+                        ie_indisponivel = True
+                    except Exception:
+                        dados_rf = None
+
+                if dados_rf is None:
+                    st.info("Não foi possível consultar a Receita Federal para este CNPJ.")
+                    bloqueio_receita = True
+                else:
                     company      = dados_rf.get("company", {})
                     address      = dados_rf.get("address", {})
                     status_cnpj  = dados_rf.get("status", {}).get("text", "—")
@@ -301,12 +336,17 @@ if busca:
                         if ie.get("status", {}).get("text", "").lower() not in _STATUS_IE_OK
                         and ie.get("status", {}).get("text", "")
                     ]
-                    ie_ok      = len(ie_pendencias) == 0
-                    ie_display = "Sem restrição" if (not ies or ie_ok) else " | ".join(
-                        f'{est}: {sts}' for est, sts in ie_pendencias
-                    )
+                    ie_ok = len(ie_pendencias) == 0 and not ie_indisponivel
+
+                    if ie_indisponivel:
+                        ie_display = "Não verificada — serviço de IE fora do ar"
+                        cor_ie     = "#f5c518"
+                    else:
+                        ie_display = "Sem restrição" if (not ies or ie_ok) else " | ".join(
+                            f'{est}: {sts}' for est, sts in ie_pendencias
+                        )
+                        cor_ie = "#28a745" if ie_ok else "#dc3545"
                     cor_cnpj = "#28a745" if cnpj_ok else "#dc3545"
-                    cor_ie   = "#28a745" if ie_ok   else "#dc3545"
 
                     st.markdown(f"""
 <div style="border:1px solid #444;border-radius:8px;padding:16px;margin:8px 0;background:#1a1a2e">
@@ -323,12 +363,11 @@ if busca:
                     if not cnpj_ok:
                         st.error(f"Cadastro bloqueado: situação '{status_cnpj}'. Apenas empresas 'Ativa' podem ser cadastradas.")
                         bloqueio_receita = True
-                    if not ie_ok:
+                    if ie_indisponivel:
+                        st.warning("Inscrição Estadual não pôde ser verificada agora (serviço do provedor fora do ar) — solicitação segue, mas o time de cadastro vai receber um aviso pra conferir manualmente.")
+                    elif not ie_ok:
                         st.error(f"Cadastro bloqueado: Inscrição Estadual com pendência — {', '.join(f'{e}: {s}' for e, s in ie_pendencias)}.")
                         bloqueio_receita = True
-
-                except Exception:
-                    st.info("Não foi possível consultar a Receita Federal para este CNPJ.")
 
             if not bloqueio_receita:
                 if rca_info.get("codusur"):
@@ -356,16 +395,22 @@ if busca:
                     _saudacao = "Bom dia" if _hora < 12 else ("Boa tarde" if _hora < 18 else "Boa noite")
                     dados_receita = _consultar_cnpj_receita(busca)
                     rca_linha     = f"RCA Solicitante  : {nome_rca} (cód. {codusur_input})"
+                    obs_ie = (
+                        "\n\n⚠️ Observação: a Inscrição Estadual não pôde ser verificada "
+                        "automaticamente no momento da solicitação (serviço do provedor fora "
+                        "do ar) — favor confirmar manualmente antes de aprovar o cadastro."
+                        if ie_indisponivel else ""
+                    )
                     if dados_receita:
                         corpo = (
                             f"{_saudacao},\n\nSolicito o cadastramento do cliente:\n\n"
-                            f"{rca_linha}\n\nDados da Receita Federal:\n\n{dados_receita}\n\n"
+                            f"{rca_linha}\n\nDados da Receita Federal:\n\n{dados_receita}{obs_ie}\n\n"
                             f"Podem realizar o cadastro?\n\nObrigado!"
                         )
                     else:
                         corpo = (
                             f"{_saudacao},\n\nSolicito o cadastramento do cliente:\n\n"
-                            f"{rca_linha}\n\nNão foi possível obter dados da Receita Federal.\n\n"
+                            f"{rca_linha}\n\nNão foi possível obter dados da Receita Federal.{obs_ie}\n\n"
                             f"Podem realizar o cadastro manualmente?\n\nObrigado!"
                         )
                     if _enviar_email("Solicitação de Cadastro de Cliente", corpo, cc=EMAIL_CADASTRO_CC):

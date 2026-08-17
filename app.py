@@ -9,7 +9,7 @@ menus administrativos irrelevantes pra eles).
 import streamlit as st
 from utils import inject_css, page_header, require_auth, SUPER_ADMIN_EMAIL
 
-st.set_page_config(page_title="OfftradeHub — Dashboard Comercial", page_icon="📊", layout="wide")
+st.set_page_config(page_title="OfftradeHub — Dashboard Comercial", page_icon="📊", layout="wide", initial_sidebar_state="expanded")
 inject_css()
 rca_info = require_auth()
 
