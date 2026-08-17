@@ -16287,6 +16287,20 @@ const AGENDAMENTO_DATA = {
       "nome": "JOSE MARCELO CARDOSO - OFF TRADE",
       "itens": [
         {
+          "codigo_cliente": "6278",
+          "cliente": "SUPERMERCADOS MUNDIAL LTDA",
+          "cnpj": "33.304.981/0001-10",
+          "filial": "INHAUMA",
+          "valor": 8748.0,
+          "nf": "",
+          "data_agendamento": "26/08/2026",
+          "data_ord": "2026-08-26",
+          "status": "A FATURAR",
+          "obs": "(PAGAMENTO NO PIX) - CADA SKU EM PALETTS DIFERENTES -  PALLET TEM QUE SER FILMADO",
+          "status_logistica": "",
+          "justificativa_logistica": ""
+        },
+        {
           "codigo_cliente": "18798",
           "cliente": "EMPORIO DO CADEG LTDA",
           "cnpj": "33.119.105/0001-13",
@@ -16297,20 +16311,6 @@ const AGENDAMENTO_DATA = {
           "data_ord": "2026-08-17",
           "status": "CANCELADO",
           "obs": "EMBARCAR AS CAIXAS ORIGINAIS E ÍNTEGRAS.",
-          "status_logistica": "",
-          "justificativa_logistica": ""
-        },
-        {
-          "codigo_cliente": "6278",
-          "cliente": "SUPERMERCADOS MUNDIAL LTDA",
-          "cnpj": "33.304.981/0001-10",
-          "filial": "INHAUMA",
-          "valor": 8748.0,
-          "nf": "",
-          "data_agendamento": "17/08/2026",
-          "data_ord": "2026-08-17",
-          "status": "A FATURAR",
-          "obs": "(PAGAMENTO NO PIX) - CADA SKU EM PALETTS DIFERENTES -  PALLET TEM QUE SER FILMADO",
           "status_logistica": "",
           "justificativa_logistica": ""
         },
@@ -22800,8 +22800,8 @@ const AGENDAMENTO_DATA = {
           "filial": "NOVA IGUAÇU",
           "valor": 1560.6,
           "nf": "7016",
-          "data_agendamento": "07/08/2026",
-          "data_ord": "2026-08-07",
+          "data_agendamento": "08/08/2026",
+          "data_ord": "2026-08-08",
           "status": "ENTREGUE",
           "obs": "CARGA SECA BATIDA - CANHOTO ASSINADO ELETRONICAMENTE",
           "status_logistica": "",
@@ -26582,7 +26582,7 @@ const AGENDAMENTO_DATA = {
       ]
     }
   ],
-  "atualizado_em": "17/08/2026 15:28",
+  "atualizado_em": "17/08/2026 16:10",
   "comparativo": [
     {
       "msg_id": "1a000be7acfbb4b6",
