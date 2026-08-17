@@ -1,5 +1,5 @@
 const CRUSOE_DATA = {
-  "atualizado_em": "17/08/2026 12:47",
+  "atualizado_em": "17/08/2026 15:21",
   "periodo": {
     "ini": "01/07/2026",
     "fim": "31/08/2026"
@@ -516,14 +516,14 @@ const CRUSOE_DATA = {
         {
           "rca": 412,
           "vendedor": "Barbara Cabral",
-          "pedidos": 20,
+          "pedidos": 25,
           "positivacoes": 15,
-          "novos_skus": 114,
-          "faturamento": 37467.75,
+          "novos_skus": 117,
+          "faturamento": 41582.05,
           "pontos_positivacao": 75,
-          "pontos_novos_skus": 456,
-          "pontos_pedidos_valor": 27,
-          "pontos_total": 558,
+          "pontos_novos_skus": 468,
+          "pontos_pedidos_valor": 33,
+          "pontos_total": 576,
           "vendas": [
             {
               "numnota": "408264",
@@ -2096,6 +2096,145 @@ const CRUSOE_DATA = {
                   ]
                 }
               ]
+            },
+            {
+              "numnota": "421918",
+              "data": "17/08/2026",
+              "cliente": "SUPERMERCADOS ADONAI LTDA",
+              "valor_pedido": 1090.4,
+              "eventos": [
+                {
+                  "tipo": "pedido (R$1001-3000)",
+                  "pontos": 2
+                }
+              ],
+              "itens": [
+                {
+                  "produto": "RC SARDINHA EM OLEO 50X125G",
+                  "qt": 2.0,
+                  "valor": 484.0,
+                  "pontuacoes": []
+                },
+                {
+                  "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
+                  "qt": 2.0,
+                  "valor": 484.0,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 4
+                    }
+                  ]
+                },
+                {
+                  "produto": "RC ATUM SOLIDO NAT MY PROTEIN 12X142G",
+                  "qt": 1.0,
+                  "valor": 122.4,
+                  "pontuacoes": []
+                }
+              ]
+            },
+            {
+              "numnota": "421919",
+              "data": "17/08/2026",
+              "cliente": "SUPERMERCADOS ADONAI LTDA",
+              "valor_pedido": 726.0,
+              "eventos": [
+                {
+                  "tipo": "pedido (R$500-1000)",
+                  "pontos": 1
+                }
+              ],
+              "itens": [
+                {
+                  "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
+                  "qt": 3.0,
+                  "valor": 726.0,
+                  "pontuacoes": []
+                }
+              ]
+            },
+            {
+              "numnota": "421963",
+              "data": "17/08/2026",
+              "cliente": "SUPERMERCADOS ADONAI LTDA",
+              "valor_pedido": 726.0,
+              "eventos": [
+                {
+                  "tipo": "pedido (R$500-1000)",
+                  "pontos": 1
+                }
+              ],
+              "itens": [
+                {
+                  "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
+                  "qt": 3.0,
+                  "valor": 726.0,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 4
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "numnota": "421971",
+              "data": "17/08/2026",
+              "cliente": "SUPERMERCADOS ADONAI LTDA",
+              "valor_pedido": 603.9,
+              "eventos": [
+                {
+                  "tipo": "pedido (R$500-1000)",
+                  "pontos": 1
+                }
+              ],
+              "itens": [
+                {
+                  "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
+                  "qt": 2.0,
+                  "valor": 484.0,
+                  "pontuacoes": []
+                },
+                {
+                  "produto": "RC SALADA DE ATUM - MEDITERRANEA 12X160G",
+                  "qt": 1.0,
+                  "valor": 119.9,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 4
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "numnota": "421985",
+              "data": "17/08/2026",
+              "cliente": "SUPERMERCADOS ADONAI LTDA",
+              "valor_pedido": 968.0,
+              "eventos": [
+                {
+                  "tipo": "pedido (R$500-1000)",
+                  "pontos": 1
+                }
+              ],
+              "itens": [
+                {
+                  "produto": "RC SARDINHA EM OLEO 50X125G",
+                  "qt": 2.0,
+                  "valor": 484.0,
+                  "pontuacoes": []
+                },
+                {
+                  "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
+                  "qt": 2.0,
+                  "valor": 484.0,
+                  "pontuacoes": []
+                }
+              ]
             }
           ]
         },
@@ -3521,10 +3660,10 @@ const CRUSOE_DATA = {
         {
           "rca": 431,
           "vendedor": "Adeilson Gonçalvez",
-          "clientes_gourmet": 2,
-          "faturamento": 5430.3,
-          "faturamento_gourmet": 229.8,
-          "pontos_total": 2,
+          "clientes_gourmet": 4,
+          "faturamento": 6277.53,
+          "faturamento_gourmet": 687.3,
+          "pontos_total": 4,
           "vendas": [
             {
               "numnota": "410590",
@@ -3553,6 +3692,43 @@ const CRUSOE_DATA = {
                   "pontos": 1
                 }
               ]
+            },
+            {
+              "numnota": "421959",
+              "data": "17/08/2026",
+              "cliente": "PADARIA PAO VIVO LTDA",
+              "produto": "RC PATE ATUM COM AZEITONAS 12X80G",
+              "qt": 1.0,
+              "valor": 178.8,
+              "pontuacoes": [
+                {
+                  "tipo": "cliente positivado (Linha Gourmet)",
+                  "pontos": 1
+                }
+              ]
+            },
+            {
+              "numnota": "421956",
+              "data": "17/08/2026",
+              "cliente": "BAR E RESTAURANTE 3 SIMOES LIMITADA",
+              "produto": "RC PATE ATUM COM AZEITONAS 12X80G",
+              "qt": 1.0,
+              "valor": 178.8,
+              "pontuacoes": [
+                {
+                  "tipo": "cliente positivado (Linha Gourmet)",
+                  "pontos": 1
+                }
+              ]
+            },
+            {
+              "numnota": "421959",
+              "data": "17/08/2026",
+              "cliente": "PADARIA PAO VIVO LTDA",
+              "produto": "RC SALADA DE ATUM - MEDITERRANEA 12X160G",
+              "qt": 1.0,
+              "valor": 99.9,
+              "pontuacoes": []
             }
           ]
         },
@@ -3560,7 +3736,7 @@ const CRUSOE_DATA = {
           "rca": 379,
           "vendedor": "Jorge Maciel",
           "clientes_gourmet": 0,
-          "faturamento": 11287.48,
+          "faturamento": 11930.98,
           "faturamento_gourmet": 0.0,
           "pontos_total": 0,
           "vendas": []
