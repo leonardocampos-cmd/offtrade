@@ -1,5 +1,5 @@
 const CRUSOE_DATA = {
-  "atualizado_em": "17/08/2026 17:14",
+  "atualizado_em": "17/08/2026 17:55",
   "periodo": {
     "ini": "01/07/2026",
     "fim": "31/08/2026"
@@ -3128,14 +3128,14 @@ const CRUSOE_DATA = {
         {
           "rca": 153,
           "vendedor": "Angelo Neves Suzart",
-          "pedidos": 8,
+          "pedidos": 9,
           "positivacoes": 2,
-          "novos_skus": 12,
-          "faturamento": 11943.15,
+          "novos_skus": 13,
+          "faturamento": 14038.15,
           "pontos_positivacao": 10,
-          "pontos_novos_skus": 48,
-          "pontos_pedidos_valor": 11,
-          "pontos_total": 69,
+          "pontos_novos_skus": 52,
+          "pontos_pedidos_valor": 13,
+          "pontos_total": 75,
           "vendas": [
             {
               "numnota": "408274",
@@ -3417,6 +3417,37 @@ const CRUSOE_DATA = {
                   "qt": 2.0,
                   "valor": 339.84,
                   "pontuacoes": []
+                }
+              ]
+            },
+            {
+              "numnota": "422129",
+              "data": "17/08/2026",
+              "cliente": "SUPERMERCADO JARDIM ATLANTICO LTDA",
+              "valor_pedido": 2095.0,
+              "eventos": [
+                {
+                  "tipo": "pedido (R$1001-3000)",
+                  "pontos": 2
+                }
+              ],
+              "itens": [
+                {
+                  "produto": "RC SARDINHA EM OLEO 50X125G",
+                  "qt": 5.0,
+                  "valor": 1047.5,
+                  "pontuacoes": []
+                },
+                {
+                  "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
+                  "qt": 5.0,
+                  "valor": 1047.5,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 4
+                    }
+                  ]
                 }
               ]
             }
