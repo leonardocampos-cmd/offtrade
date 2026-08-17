@@ -1,6 +1,6 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "17/08/2026 11:09",
+  "atualizado_em": "17/08/2026 11:39",
   "total": 22131,
   "clientes": [
     {
@@ -30064,6 +30064,22 @@ const CLIENTES_RCA_DATA = {
       "rede": "",
       "codusur1": "471",
       "nome_usur1": "ANA CLARA FASSANO - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "96052",
+      "razao": "66.173.809 LUIZ FERNANDO TAVARES BARALDI",
+      "fantasia": "LUIZ FERNANDO TAVARES BARALDI",
+      "bairro": "CAVALEIROS",
+      "cidade": "MACAE",
+      "cnpj": "66.173.809/0001-23",
+      "estado": "RJ",
+      "ramo": "CAFETERIA",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "159",
+      "nome_usur1": "GISELLE BARFER - OFF TRADE",
       "codusur2": "",
       "nome_usur2": ""
     },
@@ -179675,22 +179691,6 @@ const CLIENTES_RCA_DATA = {
       "cidade": "SAO PAULO",
       "cnpj": "313.586.168-68",
       "estado": "SP",
-      "ramo": "PESSOA FISICA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
-      "codcli": "36968",
-      "razao": "JAIR ANTONIO RAMOS",
-      "fantasia": "SKINAO BURGUER",
-      "bairro": "MARIA HELENA",
-      "cidade": "BELO HORIZONTE",
-      "cnpj": "359.882.746-68",
-      "estado": "MG",
       "ramo": "PESSOA FISICA",
       "key_account": false,
       "rede": "",
