@@ -1,7 +1,7 @@
 // Gerado automaticamente por exportacao_comissao.py — ESTIMATIVA, não é a apuração oficial
 
 const COMISSAO_DATA = {
-  "atualizado_em": "17/08/2026 15:32",
+  "atualizado_em": "17/08/2026 16:17",
   "mes_referencia": "08/2026",
   "pct_premio_taxa": 0.015,
   "vendedores": [
@@ -1029,18 +1029,18 @@ const COMISSAO_DATA = {
         {
           "label": "FATURAMENTO",
           "meta": 120000.0,
-          "realizado": 69006.25,
+          "realizado": 69627.05,
           "peso": 0.7,
-          "ating_meta": 0.575052,
-          "ating_acumulado": 0.402536
+          "ating_meta": 0.580225,
+          "ating_acumulado": 0.406157
         },
         {
           "label": "FATURAMENTO PERNOD",
           "meta": 7000.0,
-          "realizado": 3005.22,
+          "realizado": 3155.02,
           "peso": 0.05,
-          "ating_meta": 0.429317,
-          "ating_acumulado": 0.021466
+          "ating_meta": 0.450717,
+          "ating_acumulado": 0.022536
         },
         {
           "label": "FATURAMENTO CASTAS",
@@ -1069,10 +1069,10 @@ const COMISSAO_DATA = {
         {
           "label": "POSITIVAÇÃO",
           "meta": 90.0,
-          "realizado": 61,
+          "realizado": 62,
           "peso": 0.1,
-          "ating_meta": 0.677778,
-          "ating_acumulado": 0.067778
+          "ating_meta": 0.688889,
+          "ating_acumulado": 0.068889
         },
         {
           "label": "POSITIVAÇÃO ESSENZA",
@@ -1139,14 +1139,14 @@ const COMISSAO_DATA = {
           "ating_acumulado": 0.0
         }
       ],
-      "ating_acumulado_total": 0.573206,
-      "pct_premio": 0.00859809,
+      "ating_acumulado_total": 0.579008,
+      "pct_premio": 0.00868512,
       "liq_rigarr": 17926.41,
       "fat_castas": 4737.46,
       "teto_comissao": null,
-      "com_rigarr": 154.13,
-      "com_castas": 40.73,
-      "comissao_estimada": 194.86
+      "com_rigarr": 155.69,
+      "com_castas": 41.15,
+      "comissao_estimada": 196.84
     },
     {
       "nome": "MARIA LUIZA - OFF TRADE",
