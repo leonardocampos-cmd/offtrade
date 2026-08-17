@@ -6301,11 +6301,11 @@ const AGENDAMENTO_DATA = {
           "cliente": "SUPERMERCADO SHOW DE ECONOMIA LTDA",
           "cnpj": "49.949.145/0001-22",
           "filial": "JACAREPAGUA",
-          "valor": 563.6,
-          "nf": "",
+          "valor": 254.0,
+          "nf": "7726",
           "data_agendamento": "17/08/2026",
           "data_ord": "2026-08-17",
-          "status": "A FATURAR",
+          "status": "FATURADO",
           "obs": "Caixas e rótulos íntegros",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -6316,10 +6316,10 @@ const AGENDAMENTO_DATA = {
           "cnpj": "63.529.210/0001-91",
           "filial": "OSWALDO CRUZ",
           "valor": 14202.0,
-          "nf": "",
+          "nf": "7727",
           "data_agendamento": "17/08/2026",
           "data_ord": "2026-08-17",
-          "status": "A FATURAR",
+          "status": "FATURADO",
           "obs": "Caixas e rótulos íntegros",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -17491,8 +17491,8 @@ const AGENDAMENTO_DATA = {
           "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
           "cnpj": "08.628.825/0022-91",
           "filial": "DEL CASTILHO",
-          "valor": 1294.2,
-          "nf": "",
+          "valor": 1016.0,
+          "nf": "7714",
           "data_agendamento": "17/08/2026",
           "data_ord": "2026-08-17",
           "status": "A FATURAR",
@@ -26582,7 +26582,7 @@ const AGENDAMENTO_DATA = {
       ]
     }
   ],
-  "atualizado_em": "17/08/2026 10:21",
+  "atualizado_em": "17/08/2026 11:07",
   "comparativo": [
     {
       "msg_id": "1a000be7acfbb4b6",
