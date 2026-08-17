@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "17/08/2026 11:39",
-  "total": 22131,
+  "atualizado_em": "17/08/2026 12:09",
+  "total": 22130,
   "clientes": [
     {
       "codcli": "38586",
@@ -216132,6 +216132,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "39826",
+      "razao": "MAGLIONI RIBEIRO & CIA LTDA",
+      "fantasia": "MAGLIONI RIBEIRO & CIA LTDA",
+      "bairro": "CENTRO",
+      "cidade": "ALFENAS",
+      "cnpj": "21.414.958/0022-23",
+      "estado": "MG",
+      "ramo": "COMERCIO VAREJISTA (GERAL)",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "378",
+      "nome_usur1": "JETER LUCIO SOARES - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "51359",
       "razao": "MAGMAXX COMERCIAL LTDA",
       "fantasia": "MAGMAXX SUPERMERCADOS",
@@ -330052,22 +330068,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
-      "codcli": "86485",
-      "razao": "TATIANE STEFANI DA SILVA ANDRADE 12256010708",
-      "fantasia": "TATIANE STEFANI DA SILVA ANDRADE",
-      "bairro": "NOVA CAMPINAS",
-      "cidade": "DUQUE DE CAXIAS",
-      "cnpj": "25.197.072/0001-00",
-      "estado": "RJ",
-      "ramo": "DISTRIBUIDORA DE BEBIDA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
       "codcli": "92157",
       "razao": "TATU BOLA SP RESTAURANTES LTDA",
       "fantasia": "TATU BOLA CAETANO ALVARES",
@@ -350178,22 +350178,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "378",
       "nome_usur2": "FABIO VALOTTI - OFF TRADE"
-    },
-    {
-      "codcli": "68011",
-      "razao": "WILLAN DE MORAES AZEREDO 08538307703",
-      "fantasia": "WK VEICULOS",
-      "bairro": "VILA SAO SEBASTIAO",
-      "cidade": "DUQUE DE CAXIAS",
-      "cnpj": "38.499.611/0001-07",
-      "estado": "RJ",
-      "ramo": "MERCADO",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
     },
     {
       "codcli": "80111",
