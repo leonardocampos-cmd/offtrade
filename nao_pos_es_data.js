@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_es.py
 
 const NAO_POS_ES_DATA = {
-  "atualizado_em": "17/08/2026 16:11",
+  "atualizado_em": "17/08/2026 16:46",
   "por_vendedor": {
     "ADEILSON GONÇALVEZ": [
       {
@@ -1453,38 +1453,6 @@ const NAO_POS_ES_DATA = {
         ]
       },
       {
-        "codcli": "95753",
-        "cliente": "PANIFICADORA IMPERIO ELLISCH E KELLER LTDA",
-        "bairro": "CAMPO GRANDE",
-        "dtultcomp": "23/07/2026",
-        "produtos": [
-          {
-            "produto": "4 PACK RED BULL 250ML",
-            "fantasia": "RED BULL",
-            "qt": 3,
-            "valor": 89.88
-          },
-          {
-            "produto": "GUARAVITA NATURAL 24X290ML",
-            "fantasia": "VITON",
-            "qt": 2,
-            "valor": 63.99
-          },
-          {
-            "produto": "ST PIERRE ZERO LAT PINK LEMONADE 6X310ML",
-            "fantasia": "TATUZINHO",
-            "qt": 1,
-            "valor": 26.46
-          },
-          {
-            "produto": "ST PIERRE ZERO LATA RED MINT LT 6X310ML",
-            "fantasia": "TATUZINHO",
-            "qt": 1,
-            "valor": 26.46
-          }
-        ]
-      },
-      {
         "codcli": "92917",
         "cliente": "RINAPEN MERCADO LTDA",
         "bairro": "BACAXA",
@@ -2471,9 +2439,9 @@ const NAO_POS_ES_DATA = {
         ]
       },
       {
-        "codcli": "95525",
+        "codcli": "95534",
         "cliente": "G5 DROGARIAS LTDA",
-        "bairro": "COPACABANA",
+        "bairro": "IPANEMA",
         "dtultcomp": "30/06/2026",
         "produtos": [
           {
@@ -2509,9 +2477,9 @@ const NAO_POS_ES_DATA = {
         ]
       },
       {
-        "codcli": "95534",
+        "codcli": "95525",
         "cliente": "G5 DROGARIAS LTDA",
-        "bairro": "IPANEMA",
+        "bairro": "COPACABANA",
         "dtultcomp": "30/06/2026",
         "produtos": [
           {
@@ -4676,16 +4644,16 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
-        "codcli": "86310",
+        "codcli": "86307",
         "cliente": "CEREAIS IRENE LTDA",
-        "bairro": "NOVA CAMPINAS",
+        "bairro": "JARDIM ANHANGÁ",
         "dtultcomp": "nan",
         "produtos": []
       },
       {
-        "codcli": "86307",
+        "codcli": "86310",
         "cliente": "CEREAIS IRENE LTDA",
-        "bairro": "JARDIM ANHANGÁ",
+        "bairro": "NOVA CAMPINAS",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -7498,6 +7466,20 @@ const NAO_POS_ES_DATA = {
         ]
       },
       {
+        "codcli": "84077",
+        "cliente": "FORNERIA ORIGINAL COZINHA E COMESTIVEIS LTDA",
+        "bairro": "CAMORIM",
+        "dtultcomp": "22/07/2026",
+        "produtos": [
+          {
+            "produto": "AZEITE DE OLIVA EV ESSENZA COZINHAR 5L",
+            "fantasia": "CASTAS",
+            "qt": 2,
+            "valor": 399.8
+          }
+        ]
+      },
+      {
         "codcli": "81847",
         "cliente": "MERCADO ESPERANCA DE GUARATIBA LTDA",
         "bairro": "JACAREPAGUA",
@@ -7720,7 +7702,7 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
-        "codcli": "95807",
+        "codcli": "95804",
         "cliente": "GUARATIBA SUPERMERCADO & ALIMENTOS LTDA",
         "bairro": "GUARATIBA",
         "dtultcomp": "nan",
@@ -7734,7 +7716,7 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
-        "codcli": "95804",
+        "codcli": "95807",
         "cliente": "GUARATIBA SUPERMERCADO & ALIMENTOS LTDA",
         "bairro": "GUARATIBA",
         "dtultcomp": "nan",
@@ -9548,14 +9530,14 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
-        "codcli": "93650",
+        "codcli": "77557",
         "cliente": "COBATA COMERCIO E DISTRIBUICAO LTDA",
         "bairro": "TERMINAL INTERMODAL DA SERRA",
         "dtultcomp": "nan",
         "produtos": []
       },
       {
-        "codcli": "77557",
+        "codcli": "93650",
         "cliente": "COBATA COMERCIO E DISTRIBUICAO LTDA",
         "bairro": "TERMINAL INTERMODAL DA SERRA",
         "dtultcomp": "nan",
@@ -9674,14 +9656,14 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
-        "codcli": "95195",
+        "codcli": "95194",
         "cliente": "SUPERMERCADO E PADARIA TRARBACH LTDA",
         "bairro": "CENTRO",
         "dtultcomp": "nan",
         "produtos": []
       },
       {
-        "codcli": "95194",
+        "codcli": "95195",
         "cliente": "SUPERMERCADO E PADARIA TRARBACH LTDA",
         "bairro": "CENTRO",
         "dtultcomp": "nan",
@@ -11532,20 +11514,6 @@ const NAO_POS_ES_DATA = {
             "fantasia": "KAISER",
             "qt": 5,
             "valor": 217.0
-          }
-        ]
-      },
-      {
-        "codcli": "84077",
-        "cliente": "FORNERIA ORIGINAL COZINHA E COMESTIVEIS LTDA",
-        "bairro": "CAMORIM",
-        "dtultcomp": "22/07/2026",
-        "produtos": [
-          {
-            "produto": "AZEITE DE OLIVA EV ESSENZA COZINHAR 5L",
-            "fantasia": "CASTAS",
-            "qt": 2,
-            "valor": 399.8
           }
         ]
       },
