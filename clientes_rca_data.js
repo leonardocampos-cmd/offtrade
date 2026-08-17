@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "17/08/2026 10:22",
-  "total": 22129,
+  "atualizado_em": "17/08/2026 11:09",
+  "total": 22131,
   "clientes": [
     {
       "codcli": "38586",
@@ -123220,6 +123220,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "39815",
+      "razao": "DMINAS DISTRIBUIDOR ATACADISTA LTDA",
+      "fantasia": "DMINAS DISTRIBUIDOR",
+      "bairro": "CENTRO",
+      "cidade": "POUSO ALEGRE",
+      "cnpj": "10.297.699/0001-57",
+      "estado": "MG",
+      "ramo": "COMERCIO ATACADISTA (GERAL)",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "378",
+      "nome_usur1": "JETER LUCIO SOARES - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "90646",
       "razao": "DMJS EMPREENDIMENTOS LTDA",
       "fantasia": "CASA JUSTO",
@@ -216090,6 +216106,22 @@ const CLIENTES_RCA_DATA = {
       "bairro": "IPIRANGA",
       "cidade": "POUSO ALEGRE",
       "cnpj": "21.414.958/0017-66",
+      "estado": "MG",
+      "ramo": "COMERCIO VAREJISTA (GERAL)",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "378",
+      "nome_usur1": "JETER LUCIO SOARES - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
+      "codcli": "39816",
+      "razao": "MAGLIONI RIBEIRO & CIA LTDA",
+      "fantasia": "CASA ALVORADA",
+      "bairro": "CENTRO",
+      "cidade": "SANTA RITA DO SAPUCA",
+      "cnpj": "21.414.958/0001-07",
       "estado": "MG",
       "ramo": "COMERCIO VAREJISTA (GERAL)",
       "key_account": false,
