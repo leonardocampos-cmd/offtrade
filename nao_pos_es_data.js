@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_es.py
 
 const NAO_POS_ES_DATA = {
-  "atualizado_em": "17/08/2026 12:08",
+  "atualizado_em": "17/08/2026 13:35",
   "por_vendedor": {
     "ADEILSON GONÇALVEZ": [
       {
@@ -2601,44 +2601,6 @@ const NAO_POS_ES_DATA = {
         ]
       },
       {
-        "codcli": "95534",
-        "cliente": "G5 DROGARIAS LTDA",
-        "bairro": "IPANEMA",
-        "dtultcomp": "30/06/2026",
-        "produtos": [
-          {
-            "produto": "GUARAVITON GINSENG 12X500ML",
-            "fantasia": "VITON",
-            "qt": 1,
-            "valor": 31.89
-          },
-          {
-            "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
-            "fantasia": "TATUZINHO",
-            "qt": 1,
-            "valor": 94.68
-          },
-          {
-            "produto": "MOVING HYDRO PROTEIN LIMAO 12X500ML",
-            "fantasia": "TATUZINHO",
-            "qt": 1,
-            "valor": 94.68
-          },
-          {
-            "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
-            "fantasia": "TATUZINHO",
-            "qt": 1,
-            "valor": 94.68
-          },
-          {
-            "produto": "MOVING HYDRO PROTEIN UVA 12X500ML",
-            "fantasia": "TATUZINHO",
-            "qt": 1,
-            "valor": 94.68
-          }
-        ]
-      },
-      {
         "codcli": "95536",
         "cliente": "G5 DROGARIAS LTDA",
         "bairro": "COPACABANA",
@@ -2658,6 +2620,44 @@ const NAO_POS_ES_DATA = {
           },
           {
             "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+            "fantasia": "TATUZINHO",
+            "qt": 1,
+            "valor": 94.68
+          },
+          {
+            "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+            "fantasia": "TATUZINHO",
+            "qt": 1,
+            "valor": 94.68
+          },
+          {
+            "produto": "MOVING HYDRO PROTEIN UVA 12X500ML",
+            "fantasia": "TATUZINHO",
+            "qt": 1,
+            "valor": 94.68
+          }
+        ]
+      },
+      {
+        "codcli": "95534",
+        "cliente": "G5 DROGARIAS LTDA",
+        "bairro": "IPANEMA",
+        "dtultcomp": "30/06/2026",
+        "produtos": [
+          {
+            "produto": "GUARAVITON GINSENG 12X500ML",
+            "fantasia": "VITON",
+            "qt": 1,
+            "valor": 31.89
+          },
+          {
+            "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+            "fantasia": "TATUZINHO",
+            "qt": 1,
+            "valor": 94.68
+          },
+          {
+            "produto": "MOVING HYDRO PROTEIN LIMAO 12X500ML",
             "fantasia": "TATUZINHO",
             "qt": 1,
             "valor": 94.68
@@ -2747,6 +2747,38 @@ const NAO_POS_ES_DATA = {
             "fantasia": "COMARY",
             "qt": 1,
             "valor": 179.9
+          }
+        ]
+      },
+      {
+        "codcli": "2313",
+        "cliente": "MERCEARIA NOVA CINTRA - EIRELI - EPP",
+        "bairro": "CATETE",
+        "dtultcomp": "07/07/2026",
+        "produtos": [
+          {
+            "produto": "BAER MATE LN  6X350ML",
+            "fantasia": "KAISER",
+            "qt": 2,
+            "valor": 71.88
+          },
+          {
+            "produto": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
+            "fantasia": "TATUZINHO",
+            "qt": 1,
+            "valor": 94.7
+          },
+          {
+            "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+            "fantasia": "TATUZINHO",
+            "qt": 1,
+            "valor": 94.7
+          },
+          {
+            "produto": "SUCO DE UVA TTO INT QUINTA DO MORGADO 1L",
+            "fantasia": "FANTE",
+            "qt": 6,
+            "valor": 83.4
           }
         ]
       },
@@ -7689,6 +7721,20 @@ const NAO_POS_ES_DATA = {
         ]
       },
       {
+        "codcli": "91704",
+        "cliente": "57.131.206 FLAVIA DA SILVA PAULA DE CARVALHO",
+        "bairro": "GOVERNADOR PORTELA",
+        "dtultcomp": "01/07/2026",
+        "produtos": [
+          {
+            "produto": "CERVEJA HEINEKEN LONG 24X330ML",
+            "fantasia": "KAISER",
+            "qt": 3,
+            "valor": 381.0
+          }
+        ]
+      },
+      {
         "codcli": "2849",
         "cliente": "MERCEARIA JPA BARRA EIRELI",
         "bairro": "TAQUARA",
@@ -7895,32 +7941,6 @@ const NAO_POS_ES_DATA = {
             "fantasia": "DIAGEO",
             "qt": 2,
             "valor": 359.8
-          }
-        ]
-      },
-      {
-        "codcli": "91704",
-        "cliente": "57.131.206 FLAVIA DA SILVA PAULA DE CARVALHO",
-        "bairro": "GOVERNADOR PORTELA",
-        "dtultcomp": "22/07/2026",
-        "produtos": [
-          {
-            "produto": "CERVEJA AMSTEL PURO MALTE 12X473 ML",
-            "fantasia": "KAISER",
-            "qt": 2,
-            "valor": 109.8
-          },
-          {
-            "produto": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID",
-            "fantasia": "KAISER",
-            "qt": 4,
-            "valor": 255.6
-          },
-          {
-            "produto": "CERVEJA HEINEKEN LONG 24X330ML",
-            "fantasia": "KAISER",
-            "qt": 1,
-            "valor": 127.9
           }
         ]
       },
@@ -12447,6 +12467,32 @@ const NAO_POS_ES_DATA = {
         ]
       },
       {
+        "codcli": "80707",
+        "cliente": "AS COM DE BEBIDAS LTDA",
+        "bairro": "CAMPO DO OESTE",
+        "dtultcomp": "29/07/2026",
+        "produtos": [
+          {
+            "produto": "CHANDON RICHE DEMI-SEC 750 ML",
+            "fantasia": "HENNESSY",
+            "qt": 6,
+            "valor": 471.0
+          },
+          {
+            "produto": "ESPUMANTE CHANDON RESERVE BRUT 750ML",
+            "fantasia": "HENNESSY",
+            "qt": 6,
+            "valor": 438.0
+          },
+          {
+            "produto": "WHISKY ROYAL SALUTE 700ML",
+            "fantasia": "PERNOD",
+            "qt": 1,
+            "valor": 629.9
+          }
+        ]
+      },
+      {
         "codcli": "78649",
         "cliente": "CENTRO GASTRONOMICO RECANTO DOS PESCADORES SUSHI LTDA",
         "bairro": "VARZEA",
@@ -14672,6 +14718,13 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
+        "codcli": "83379",
+        "cliente": "CEREAIS E MERCEARIA ESPERANCA DE SANTA MARTA LTDA",
+        "bairro": "SAO JOSE",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
         "codcli": "94872",
         "cliente": "MERCADO FORTE DA GRAMA LTDA",
         "bairro": "PARQUE SAO MARTINHO",
@@ -14923,13 +14976,6 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
-        "codcli": "3754",
-        "cliente": "SUPERMERCADO BARRA OESTE LTDA",
-        "bairro": "RECREIO DOS BANDEIRANTES",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
         "codcli": "93791",
         "cliente": "SUPERMERCADO BARRA OESTE LTDA",
         "bairro": "BARRA DA TIJUCA",
@@ -14947,6 +14993,13 @@ const NAO_POS_ES_DATA = {
         "codcli": "67821",
         "cliente": "SUPERMERCADO BARRA OESTE LTDA",
         "bairro": "BARRA DA TIJUCA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "3754",
+        "cliente": "SUPERMERCADO BARRA OESTE LTDA",
+        "bairro": "RECREIO DOS BANDEIRANTES",
         "dtultcomp": "nan",
         "produtos": []
       }
