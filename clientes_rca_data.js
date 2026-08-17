@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "17/08/2026 17:25",
-  "total": 24531,
+  "atualizado_em": "17/08/2026 18:05",
+  "total": 24528,
   "clientes": [
     {
       "codcli": "38586",
@@ -122460,26 +122460,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "",
       "ultimo_rca": "",
       "ultimo_rca_nome": "",
-      "ultimo_rca_ot": "",
-      "ultimo_rca_ot_nome": ""
-    },
-    {
-      "codcli": "2761",
-      "razao": "CARINOLA SERVICOS DE ALIMENTACAO LTDA",
-      "fantasia": "HOTEL BOURBON BARRA",
-      "bairro": "BARRA DA TIJUCA",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "21.504.573/0002-03",
-      "estado": "RJ",
-      "ramo": "HOTELARIA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": "",
-      "ultimo_rca": "35",
-      "ultimo_rca_nome": "LAIS POPPE VILLANOVA",
       "ultimo_rca_ot": "",
       "ultimo_rca_ot_nome": ""
     },
@@ -455524,26 +455504,6 @@ const CLIENTES_RCA_DATA = {
       "ultimo_rca_ot_nome": ""
     },
     {
-      "codcli": "1020",
-      "razao": "TALHO CAFE LTDA",
-      "fantasia": "TALHO CAFE",
-      "bairro": "GAVEA",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "13.795.716/0001-74",
-      "estado": "RJ",
-      "ramo": "PADARIA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": "",
-      "ultimo_rca": "17",
-      "ultimo_rca_nome": "VENDEDOR 02",
-      "ultimo_rca_ot": "",
-      "ultimo_rca_ot_nome": ""
-    },
-    {
       "codcli": "4184",
       "razao": "TALHO CAPIXABA LTDA",
       "fantasia": "TALHO CAPIXABA",
@@ -488600,26 +488560,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "",
       "ultimo_rca": "319",
       "ultimo_rca_nome": "FABIANO MOURA",
-      "ultimo_rca_ot": "",
-      "ultimo_rca_ot_nome": ""
-    },
-    {
-      "codcli": "65849",
-      "razao": "ZAGURY SOARES ZANETTE COMERCIO DE ALIMENTOS LTDA",
-      "fantasia": "GENEAL",
-      "bairro": "GAVEA",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "46.257.265/0001-70",
-      "estado": "RJ",
-      "ramo": "CAFETERIA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": "",
-      "ultimo_rca": "112",
-      "ultimo_rca_nome": "LUCAS MATIAS",
       "ultimo_rca_ot": "",
       "ultimo_rca_ot_nome": ""
     },
