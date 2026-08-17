@@ -1,12 +1,12 @@
 const METAS_GERAIS_DATA = {
-  "atualizado_em": "17/08/2026 10:07",
+  "atualizado_em": "17/08/2026 10:43",
   "mes": "Ago/26",
   "mes_ant": "Jul/26",
   "dias_corridos": 17,
   "dias_no_mes": 31,
   "dias_restantes": 14,
   "resumo": {
-    "fat": 7240904.29,
+    "fat": 7274136.51,
     "fat_ant": 5426057.42,
     "fat_ant_completo": 13870374.56,
     "pos": 951,
@@ -15,11 +15,11 @@ const METAS_GERAIS_DATA = {
   },
   "total": {
     "meta": 12300000.0,
-    "fat": 7240904.29,
+    "fat": 7274136.51,
     "fat_ant": 5426057.42,
     "fat_ant_completo": 13870374.56,
-    "pct": 58.9,
-    "nec_dia": 361363.98
+    "pct": 59.1,
+    "nec_dia": 358990.25
   },
   "estados": [
     {
@@ -52,11 +52,11 @@ const METAS_GERAIS_DATA = {
       "estado": "ES",
       "label": "Espírito Santo",
       "meta": 1800000.0,
-      "fat": 298335.43,
+      "fat": 298584.93,
       "fat_ant": 220558.71,
       "pos": 39,
       "pct": 16.6,
-      "nec_dia": 107261.76,
+      "nec_dia": 107243.93,
       "fat_ant_completo": 735560.59,
       "pos_ant": 50,
       "pos_ant_completo": 90
@@ -65,11 +65,11 @@ const METAS_GERAIS_DATA = {
       "estado": "MG",
       "label": "Minas Gerais",
       "meta": 2100000.0,
-      "fat": 934686.98,
+      "fat": 967669.7,
       "fat_ant": 675564.88,
       "pos": 140,
-      "pct": 44.5,
-      "nec_dia": 83236.64,
+      "pct": 46.1,
+      "nec_dia": 80880.74,
       "fat_ant_completo": 1874444.01,
       "pos_ant": 180,
       "pos_ant_completo": 265
@@ -111,13 +111,13 @@ const METAS_GERAIS_DATA = {
     },
     {
       "fantasia": "RED BULL",
-      "fat": 726623.49,
+      "fat": 759606.21,
       "fat_ant": 248959.11,
       "por_estado": {
         "RJ": 132036.76,
         "SP": 302330.88,
         "ES": 170312.05,
-        "MG": 121943.8
+        "MG": 154926.52
       }
     },
     {
@@ -188,12 +188,12 @@ const METAS_GERAIS_DATA = {
     },
     {
       "fantasia": "ROBINSON CRUSOE",
-      "fat": 76664.94,
+      "fat": 76914.44,
       "fat_ant": 126511.82,
       "por_estado": {
         "RJ": 53378.94,
         "SP": 0.0,
-        "ES": 23286.0,
+        "ES": 23535.5,
         "MG": 0.0
       }
     },
