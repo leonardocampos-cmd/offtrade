@@ -1,7 +1,7 @@
 // Gerado automaticamente por exportacao_comissao.py — ESTIMATIVA, não é a apuração oficial
 
 const COMISSAO_DATA = {
-  "atualizado_em": "17/08/2026 16:17",
+  "atualizado_em": "17/08/2026 16:49",
   "mes_referencia": "08/2026",
   "pct_premio_taxa": 0.015,
   "vendedores": [
@@ -140,10 +140,10 @@ const COMISSAO_DATA = {
         {
           "label": "FATURAMENTO",
           "meta": 65000.0,
-          "realizado": 16557.16,
+          "realizado": 16736.92,
           "peso": 0.1,
-          "ating_meta": 0.254726,
-          "ating_acumulado": 0.025473
+          "ating_meta": 0.257491,
+          "ating_acumulado": 0.025749
         },
         {
           "label": "FATURAMENTO PERNOD",
@@ -180,10 +180,10 @@ const COMISSAO_DATA = {
         {
           "label": "POSITIVAÇÃO",
           "meta": 70.0,
-          "realizado": 29,
+          "realizado": 30,
           "peso": 0.65,
-          "ating_meta": 0.414286,
-          "ating_acumulado": 0.269286
+          "ating_meta": 0.428571,
+          "ating_acumulado": 0.278571
         },
         {
           "label": "POSITIVAÇÃO ESSENZA",
@@ -228,7 +228,7 @@ const COMISSAO_DATA = {
         {
           "label": "POSITIVAÇÃO RED BULL",
           "meta": 0.0,
-          "realizado": 12,
+          "realizado": 13,
           "peso": 0.0,
           "ating_meta": 0.0,
           "ating_acumulado": 0.0
@@ -250,14 +250,14 @@ const COMISSAO_DATA = {
           "ating_acumulado": 0.008333
         }
       ],
-      "ating_acumulado_total": 0.343868,
-      "pct_premio": 0.00515802,
+      "ating_acumulado_total": 0.353429,
+      "pct_premio": 0.00530143,
       "liq_rigarr": 27085.94,
       "fat_castas": 0.0,
       "teto_comissao": 2000.0,
-      "com_rigarr": 687.74,
+      "com_rigarr": 706.86,
       "com_castas": 0.0,
-      "comissao_estimada": 687.74
+      "comissao_estimada": 706.86
     },
     {
       "nome": "FABIO VALOTTI - OFF TRADE",
