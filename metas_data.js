@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const METAS_DATA = {
-  "atualizado_em": "17/08/2026 11:24",
+  "atualizado_em": "17/08/2026 11:53",
   "meses": [
     "Ago/26",
     "Jul/26",
@@ -12723,7 +12723,7 @@ const METAS_DATA = {
         "Ago/26": {
           "fat_tt": {
             "meta": 400000.0,
-            "realizado": 75998.25
+            "realizado": 73176.25
           },
           "fat_castas": {
             "meta": 10000.0,
@@ -14057,7 +14057,7 @@ const METAS_DATA = {
         }
       ],
       "previsao": {
-        "fat_proj": 145087.57,
+        "fat_proj": 139700.11,
         "fat_media_hist": 104062.0,
         "pos_proj": 30.5,
         "pos_media_hist": 38.3,
@@ -22150,18 +22150,6 @@ const METAS_DATA = {
           ]
         },
         {
-          "CODCLI": "50465",
-          "CLIENTE": "FPS - COMERCIO E IMPORTACAO DE ALIMENTOS E BEBIDAS EIRELI",
-          "BAIRROENT": "SAO GERALDO",
-          "DTULTCOMP": "06/08/2026",
-          "produtos": [
-            {
-              "FANTASIA": "",
-              "DESCRICAO": "VINHO ARESTI ESTATE S. CAB SAUV 187ML"
-            }
-          ]
-        },
-        {
           "CODCLI": "92020",
           "CLIENTE": "DIEGO BERNARDINO SILVA",
           "BAIRROENT": "VILA IZABEL",
@@ -22174,6 +22162,18 @@ const METAS_DATA = {
             {
               "FANTASIA": "",
               "DESCRICAO": "VINHO ARESTI ESTATE S. CHADY 750ML"
+            }
+          ]
+        },
+        {
+          "CODCLI": "50465",
+          "CLIENTE": "FPS - COMERCIO E IMPORTACAO DE ALIMENTOS E BEBIDAS EIRELI",
+          "BAIRROENT": "SAO GERALDO",
+          "DTULTCOMP": "06/08/2026",
+          "produtos": [
+            {
+              "FANTASIA": "",
+              "DESCRICAO": "VINHO ARESTI ESTATE S. CAB SAUV 187ML"
             }
           ]
         },
@@ -22194,6 +22194,30 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "90710",
+          "CLIENTE": "ALPHA GASTRONOMIA LTDA",
+          "BAIRROENT": "ALPHAVILLE GRACIOSA",
+          "DTULTCOMP": "16/07/2026",
+          "produtos": [
+            {
+              "FANTASIA": "",
+              "DESCRICAO": "VINHO ARESTI ESTATE S. CARMENERE 750ML"
+            },
+            {
+              "FANTASIA": "",
+              "DESCRICAO": "VINHO ARESTI ESTATE S. CAB SAUV 750ML"
+            },
+            {
+              "FANTASIA": "",
+              "DESCRICAO": "VINHO ARESTI ESTATE S. PINOT NOIR"
+            },
+            {
+              "FANTASIA": "",
+              "DESCRICAO": "VINHO ARESTI ESTATE S. CAB SAUV 187ML"
+            }
+          ]
+        },
+        {
           "CODCLI": "91141",
           "CLIENTE": "OLARIA BARIGUI COMERCIO DE ALIMENTOS E BEBIDAS LTDA",
           "BAIRROENT": "ABRANCHES",
@@ -22206,30 +22230,6 @@ const METAS_DATA = {
           ]
         },
         {
-          "CODCLI": "90710",
-          "CLIENTE": "ALPHA GASTRONOMIA LTDA",
-          "BAIRROENT": "ALPHAVILLE GRACIOSA",
-          "DTULTCOMP": "16/07/2026",
-          "produtos": [
-            {
-              "FANTASIA": "",
-              "DESCRICAO": "VINHO ARESTI ESTATE S. CAB SAUV 187ML"
-            },
-            {
-              "FANTASIA": "",
-              "DESCRICAO": "VINHO ARESTI ESTATE S. PINOT NOIR"
-            },
-            {
-              "FANTASIA": "",
-              "DESCRICAO": "VINHO ARESTI ESTATE S. CARMENERE 750ML"
-            },
-            {
-              "FANTASIA": "",
-              "DESCRICAO": "VINHO ARESTI ESTATE S. CAB SAUV 750ML"
-            }
-          ]
-        },
-        {
           "CODCLI": "52116",
           "CLIENTE": "JOSE APARECIDO GONCALVES DE MATOS",
           "BAIRROENT": "MIRANDOPOLIS",
@@ -22237,11 +22237,7 @@ const METAS_DATA = {
           "produtos": [
             {
               "FANTASIA": "",
-              "DESCRICAO": "SPINOGLIO TIERRA ALTA TANNAT RESERVA TTO"
-            },
-            {
-              "FANTASIA": "",
-              "DESCRICAO": "VINHO TINTO BURDIZZO APPASSIMENTO 750ML"
+              "DESCRICAO": "VINHO ARESTI ESTATE S. MERLOT 750ML"
             },
             {
               "FANTASIA": "",
@@ -22249,7 +22245,11 @@ const METAS_DATA = {
             },
             {
               "FANTASIA": "",
-              "DESCRICAO": "VINHO ARESTI ESTATE S. MERLOT 750ML"
+              "DESCRICAO": "VINHO TINTO BURDIZZO APPASSIMENTO 750ML"
+            },
+            {
+              "FANTASIA": "",
+              "DESCRICAO": "SPINOGLIO TIERRA ALTA TANNAT RESERVA TTO"
             }
           ]
         },
@@ -22265,7 +22265,23 @@ const METAS_DATA = {
             },
             {
               "FANTASIA": "",
+              "DESCRICAO": "VINHO ARESTI TRISQUEL GRAN R SYRAH 750ML"
+            },
+            {
+              "FANTASIA": "",
               "DESCRICAO": "VINHO ARESTI ESTATE S. CARMENERE 750ML"
+            },
+            {
+              "FANTASIA": "",
+              "DESCRICAO": "VINHO ARESTI ESTATE S. CAB SAUV 750ML"
+            },
+            {
+              "FANTASIA": "",
+              "DESCRICAO": "VINHO LOS ALJIBES TEMPRANILLO 750ML"
+            },
+            {
+              "FANTASIA": "",
+              "DESCRICAO": "VINHO TINTO BURDIZZO PRIMITIVO 750ML"
             },
             {
               "FANTASIA": "",
@@ -22281,23 +22297,7 @@ const METAS_DATA = {
             },
             {
               "FANTASIA": "",
-              "DESCRICAO": "VINHO LOS ALJIBES TEMPRANILLO 750ML"
-            },
-            {
-              "FANTASIA": "",
-              "DESCRICAO": "VINHO ARESTI TRISQUEL GRAN R SYRAH 750ML"
-            },
-            {
-              "FANTASIA": "",
-              "DESCRICAO": "VINHO TINTO BURDIZZO PRIMITIVO 750ML"
-            },
-            {
-              "FANTASIA": "",
               "DESCRICAO": "AZEITE ESSENZA D'ITALIA PREMIUM 12X500ML"
-            },
-            {
-              "FANTASIA": "",
-              "DESCRICAO": "VINHO ARESTI ESTATE S. CAB SAUV 750ML"
             }
           ]
         },
@@ -23034,7 +23034,7 @@ const METAS_DATA = {
           }
         }
       },
-      "clientes_cadastrados": 2,
+      "clientes_cadastrados": 3,
       "nao_positivados": [
         {
           "CODCLI": "78212",
