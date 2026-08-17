@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "17/08/2026 16:13",
-  "total": 24529,
+  "atualizado_em": "17/08/2026 16:47",
+  "total": 24530,
   "clientes": [
     {
       "codcli": "38586",
@@ -45318,8 +45318,8 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "",
       "nome_usur2": "",
-      "ultimo_rca": "214",
-      "ultimo_rca_nome": "DANILO DAIBERT",
+      "ultimo_rca": "365",
+      "ultimo_rca_nome": "IGOR PEREIRA",
       "ultimo_rca_ot": "",
       "ultimo_rca_ot_nome": ""
     },
@@ -45338,8 +45338,8 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "194",
       "nome_usur2": "NEWTON JUNIOR",
-      "ultimo_rca": "214",
-      "ultimo_rca_nome": "DANILO DAIBERT",
+      "ultimo_rca": "365",
+      "ultimo_rca_nome": "IGOR PEREIRA",
       "ultimo_rca_ot": "",
       "ultimo_rca_ot_nome": ""
     },
@@ -211434,10 +211434,10 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MERCADO",
       "key_account": false,
       "rede": "",
-      "codusur1": "159",
-      "nome_usur1": "GISELLE BARFER - OFF TRADE",
-      "codusur2": "229",
-      "nome_usur2": "LUIZA HASSEN",
+      "codusur1": "144",
+      "nome_usur1": "DIOGO RAPOSO - OFF TRADE",
+      "codusur2": "159",
+      "nome_usur2": "GISELLE BARFER - OFF TRADE",
       "ultimo_rca": "159",
       "ultimo_rca_nome": "GISELLE BARFER - OFF TRADE",
       "ultimo_rca_ot": "159",
@@ -232784,6 +232784,26 @@ const CLIENTES_RCA_DATA = {
       "ultimo_rca_ot_nome": ""
     },
     {
+      "codcli": "52516",
+      "razao": "HELIO FERNANDO DELALANA LTDA",
+      "fantasia": "ARMAZEM DO DELALANA",
+      "bairro": "VILA BAZANI",
+      "cidade": "ITAPIRA",
+      "cnpj": "52.213.063/0001-20",
+      "estado": "SP",
+      "ramo": "MERCEARIA",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "486",
+      "nome_usur1": "LEONARDO FLOREZI - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": "",
+      "ultimo_rca": "",
+      "ultimo_rca_nome": "",
+      "ultimo_rca_ot": "",
+      "ultimo_rca_ot_nome": ""
+    },
+    {
       "codcli": "38024",
       "razao": "HELIO SALGADO RIBEIRO JUNIOR 11926930606",
       "fantasia": "SUPERMERCADO UNIAO",
@@ -242218,10 +242238,10 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "JETER LUCIO SOARES - OFF TRADE",
       "codusur2": "",
       "nome_usur2": "",
-      "ultimo_rca": "353",
-      "ultimo_rca_nome": "MARIANA RESTUM",
-      "ultimo_rca_ot": "",
-      "ultimo_rca_ot_nome": ""
+      "ultimo_rca": "378",
+      "ultimo_rca_nome": "JETER LUCIO SOARES - OFF TRADE",
+      "ultimo_rca_ot": "378",
+      "ultimo_rca_ot_nome": "JETER LUCIO SOARES - OFF TRADE"
     },
     {
       "codcli": "34493",
@@ -367518,8 +367538,8 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "ADEILSON GONÇALVEZ - OFF TRADE",
       "codusur2": "",
       "nome_usur2": "",
-      "ultimo_rca": "",
-      "ultimo_rca_nome": "",
+      "ultimo_rca": "431",
+      "ultimo_rca_nome": "ADEILSON GONÇALVEZ - OFF TRADE",
       "ultimo_rca_ot": "431",
       "ultimo_rca_ot_nome": "ADEILSON GONÇALVEZ - OFF TRADE"
     },
