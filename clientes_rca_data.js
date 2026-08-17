@@ -1,6 +1,6 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "17/08/2026 12:09",
+  "atualizado_em": "17/08/2026 13:35",
   "total": 22130,
   "clientes": [
     {
@@ -41244,22 +41244,6 @@ const CLIENTES_RCA_DATA = {
       "cnpj": "235.668.108-60",
       "estado": "MG",
       "ramo": "OUTROS",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
-      "codcli": "32966",
-      "razao": "ALEXANDRE CAMPOS AMARAL VIEIRA ANDRES",
-      "fantasia": "ALEXANDRE CAMPOS AMARAL VIEIRA ANDRES",
-      "bairro": "BARRO PRETO",
-      "cidade": "BELO HORIZONTE",
-      "cnpj": "096.571.026-26",
-      "estado": "MG",
-      "ramo": "PESSOA FISICA",
       "key_account": false,
       "rede": "",
       "codusur1": "10",
@@ -92212,22 +92196,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "MANUELA ZAPPACOSTA - OFF TRADE"
     },
     {
-      "codcli": "95388",
-      "razao": "CAVERNA DO URSO BARBEARIA & PUB LTDA",
-      "fantasia": "CAVERNA DO URSO BARBEARIA & PUB",
-      "bairro": "TIJUCA",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "40.330.108/0001-67",
-      "estado": "RJ",
-      "ramo": "BAR",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
       "codcli": "3710",
       "razao": "CAWARRA COMESTIVEIS LTDA",
       "fantasia": "GULA GULA JARDIM BOTANICO",
@@ -119020,22 +118988,6 @@ const CLIENTES_RCA_DATA = {
       "cnpj": "47.388.983/0003-00",
       "estado": "RJ",
       "ramo": "MERCADO",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": ""
-    },
-    {
-      "codcli": "78123",
-      "razao": "DIONISIO RESTAURANTE E COMERCIO DE BEBIDAS LTDA",
-      "fantasia": "DIONISIO RESTAURANTE E COMERCIO DE BEBID",
-      "bairro": "PRAIA DO CANTO",
-      "cidade": "VITORIA",
-      "cnpj": "52.858.901/0001-12",
-      "estado": "ES",
-      "ramo": "RESTAURANTE",
       "key_account": false,
       "rede": "",
       "codusur1": "10",
@@ -216148,6 +216100,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": ""
     },
     {
+      "codcli": "39835",
+      "razao": "MAGLIONI RIBEIRO & CIA LTDA",
+      "fantasia": "MAGLIONI RIBEIRO & CIA LTDA",
+      "bairro": "SANTO ANTÔNIO",
+      "cidade": "POUSO ALEGRE",
+      "cnpj": "21.414.958/0031-14",
+      "estado": "MG",
+      "ramo": "COMERCIO VAREJISTA (GERAL)",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "378",
+      "nome_usur1": "JETER LUCIO SOARES - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "51359",
       "razao": "MAGMAXX COMERCIAL LTDA",
       "fantasia": "MAGMAXX SUPERMERCADOS",
@@ -233796,6 +233764,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "LAYZ WERNECK"
     },
     {
+      "codcli": "52506",
+      "razao": "MERCADO JOTA COMERCIO DE ALIMENTOS LTDA",
+      "fantasia": "MERCADO JOTA COMERCIO DE ALIMENTOS",
+      "bairro": "BALEIA",
+      "cidade": "SAO SEBASTIAO",
+      "cnpj": "57.940.387/0001-83",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "516",
+      "nome_usur1": "JOAQUIM ANGELO - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
+    },
+    {
       "codcli": "50514",
       "razao": "MERCADO JUQUICENTER LTDA",
       "fantasia": "ROD&RAF LOJA 16",
@@ -235490,6 +235474,22 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "SPON",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE"
+    },
+    {
+      "codcli": "50627",
+      "razao": "MERCADO SAO JOSE DOMINGOS LTDA",
+      "fantasia": "MERCADO SAO JOSE DOMINGOS",
+      "bairro": "JARDIM SANTA LÚCIA",
+      "cidade": "CAMPO LIMPO PAULISTA",
+      "cnpj": "05.569.828/0002-60",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "475",
+      "nome_usur1": "LUCAS BUENO - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": ""
     },
     {
       "codcli": "85080",
