@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_mg.py
 
 const NAO_POS_MG_DATA = {
-  "atualizado_em": "17/08/2026 11:39",
+  "atualizado_em": "17/08/2026 12:08",
   "por_vendedor": {
     "BRUNA CASTRO MELLO": [
       {
@@ -607,9 +607,9 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "37330",
+        "codcli": "37327",
         "cliente": "UNISSUL SUPERMERCADOS S/A",
-        "bairro": "NOVA ERA",
+        "bairro": "CENTRO",
         "dtultcomp": "30/07/2026",
         "produtos": [
           {
@@ -619,10 +619,10 @@ const NAO_POS_MG_DATA = {
             "valor": 514.8
           },
           {
-            "produto": "VILLA ROSA ROSE 750ML",
+            "produto": "VINHO FOODKILLER CAB SAUV MERLOT 750ML",
             "fantasia": "CASTAS",
             "qt": 6,
-            "valor": 257.4
+            "valor": 293.4
           },
           {
             "produto": "VODKA ORLOFF 1L - DEST",
@@ -665,9 +665,9 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "37327",
+        "codcli": "37330",
         "cliente": "UNISSUL SUPERMERCADOS S/A",
-        "bairro": "CENTRO",
+        "bairro": "NOVA ERA",
         "dtultcomp": "30/07/2026",
         "produtos": [
           {
@@ -677,10 +677,10 @@ const NAO_POS_MG_DATA = {
             "valor": 514.8
           },
           {
-            "produto": "VINHO FOODKILLER CAB SAUV MERLOT 750ML",
+            "produto": "VILLA ROSA ROSE 750ML",
             "fantasia": "CASTAS",
             "qt": 6,
-            "valor": 293.4
+            "valor": 257.4
           },
           {
             "produto": "VODKA ORLOFF 1L - DEST",
@@ -723,32 +723,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "37335",
-        "cliente": "UNISSUL SUPERMERCADOS S/A",
-        "bairro": "CENTRO",
-        "dtultcomp": "30/07/2026",
-        "produtos": [
-          {
-            "produto": "VILLA ROSA TINTO 750ML",
-            "fantasia": "CASTAS",
-            "qt": 6,
-            "valor": 257.4
-          },
-          {
-            "produto": "VINHO BCO ARCAIA PINOT GRIGIO 750ML",
-            "fantasia": "CASTAS",
-            "qt": 6,
-            "valor": 461.4
-          },
-          {
-            "produto": "VODKA ORLOFF 1L - DEST",
-            "fantasia": "",
-            "qt": 24,
-            "valor": 490.08
-          }
-        ]
-      },
-      {
         "codcli": "35222",
         "cliente": "UNISSUL SUPERMERCADOS S/A",
         "bairro": "JARDIM ANA MARIA",
@@ -787,6 +761,32 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
+        "codcli": "37335",
+        "cliente": "UNISSUL SUPERMERCADOS S/A",
+        "bairro": "CENTRO",
+        "dtultcomp": "30/07/2026",
+        "produtos": [
+          {
+            "produto": "VILLA ROSA TINTO 750ML",
+            "fantasia": "CASTAS",
+            "qt": 6,
+            "valor": 257.4
+          },
+          {
+            "produto": "VINHO BCO ARCAIA PINOT GRIGIO 750ML",
+            "fantasia": "CASTAS",
+            "qt": 6,
+            "valor": 461.4
+          },
+          {
+            "produto": "VODKA ORLOFF 1L - DEST",
+            "fantasia": "",
+            "qt": 24,
+            "valor": 490.08
+          }
+        ]
+      },
+      {
         "codcli": "37329",
         "cliente": "UNISSUL SUPERMERCADOS S/A",
         "bairro": "JARDIM BOA ESPERANÇA III",
@@ -814,16 +814,37 @@ const NAO_POS_MG_DATA = {
         "produtos": []
       },
       {
-        "codcli": "39818",
+        "codcli": "39817",
         "cliente": "MAGLIONI RIBEIRO & CIA LTDA",
-        "bairro": "VARGINHA",
+        "bairro": "CENTRO",
         "dtultcomp": "nan",
         "produtos": []
       },
       {
-        "codcli": "39817",
+        "codcli": "39825",
         "cliente": "MAGLIONI RIBEIRO & CIA LTDA",
         "bairro": "CENTRO",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "39821",
+        "cliente": "MAGLIONI RIBEIRO & CIA LTDA",
+        "bairro": "CENTRO",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "39827",
+        "cliente": "MAGLIONI RIBEIRO & CIA LTDA",
+        "bairro": "JARDIM ANDERE",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "39818",
+        "cliente": "MAGLIONI RIBEIRO & CIA LTDA",
+        "bairro": "VARGINHA",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -835,6 +856,13 @@ const NAO_POS_MG_DATA = {
         "produtos": []
       },
       {
+        "codcli": "39824",
+        "cliente": "MAGLIONI RIBEIRO & CIA LTDA",
+        "bairro": "BOA VISTA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
         "codcli": "39820",
         "cliente": "MAGLIONI RIBEIRO & CIA LTDA",
         "bairro": "CENTRO",
@@ -842,7 +870,14 @@ const NAO_POS_MG_DATA = {
         "produtos": []
       },
       {
-        "codcli": "39821",
+        "codcli": "39823",
+        "cliente": "MAGLIONI RIBEIRO & CIA LTDA",
+        "bairro": "CENTRO",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "39826",
         "cliente": "MAGLIONI RIBEIRO & CIA LTDA",
         "bairro": "CENTRO",
         "dtultcomp": "nan",
