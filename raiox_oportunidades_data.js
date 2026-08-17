@@ -1,6 +1,6 @@
 // Gerado automaticamente
 const RAIOX_OPORTUNIDADES_DATA = {
-  "atualizado_em": "17/08/2026 14:05",
+  "atualizado_em": "17/08/2026 15:20",
   "periodo_atual": {
     "inicio": "01/08/2026",
     "fim": "17/08/2026",
@@ -26310,420 +26310,6 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "queda_qt_ano_pct": null
     },
     {
-      "codcli": 84459,
-      "estado": "RJ",
-      "chave": "RJ-84459",
-      "nome": "COLDBEER",
-      "bairro": "REALENGO",
-      "ramo": "MERCADO",
-      "vendedor": "DIOGO RAPOSO",
-      "gerente": "ALLAN PAES",
-      "supervisor": "DANIELLE MOURA",
-      "chaves_rca": [
-        "RJ-144"
-      ],
-      "por_industria": [
-        {
-          "fornecedor": "DIAGEO",
-          "por_produto": [
-            {
-              "produto": "WHISKY J WALKER BLACK LABEL 1L",
-              "fat_atual": 0.0,
-              "fat_mes_anterior": 1728.0,
-              "fat_ano_anterior": 0.0,
-              "qt_atual": 0.0,
-              "qt_mes_anterior": 12.0,
-              "qt_ano_anterior": 0.0,
-              "queda_fat_mes_valor": 1728.0,
-              "queda_fat_ano_valor": 0.0,
-              "queda_fat_mes_pct": -100.0,
-              "queda_fat_ano_pct": null,
-              "queda_qt_mes_valor": 12.0,
-              "queda_qt_ano_valor": 0.0,
-              "queda_qt_mes_pct": -100.0,
-              "queda_qt_ano_pct": null
-            },
-            {
-              "produto": "WHISKY BUCHANANS 12 YEARS 1000 ML",
-              "fat_atual": 0.0,
-              "fat_mes_anterior": 864.0,
-              "fat_ano_anterior": 0.0,
-              "qt_atual": 0.0,
-              "qt_mes_anterior": 6.0,
-              "qt_ano_anterior": 0.0,
-              "queda_fat_mes_valor": 864.0,
-              "queda_fat_ano_valor": 0.0,
-              "queda_fat_mes_pct": -100.0,
-              "queda_fat_ano_pct": null,
-              "queda_qt_mes_valor": 6.0,
-              "queda_qt_ano_valor": 0.0,
-              "queda_qt_mes_pct": -100.0,
-              "queda_qt_ano_pct": null
-            },
-            {
-              "produto": "WHISKY J WALKER RED LABEL 1L",
-              "fat_atual": 0.0,
-              "fat_mes_anterior": 840.0,
-              "fat_ano_anterior": 0.0,
-              "qt_atual": 0.0,
-              "qt_mes_anterior": 12.0,
-              "qt_ano_anterior": 0.0,
-              "queda_fat_mes_valor": 840.0,
-              "queda_fat_ano_valor": 0.0,
-              "queda_fat_mes_pct": -100.0,
-              "queda_fat_ano_pct": null,
-              "queda_qt_mes_valor": 12.0,
-              "queda_qt_ano_valor": 0.0,
-              "queda_qt_mes_pct": -100.0,
-              "queda_qt_ano_pct": null
-            },
-            {
-              "produto": "VODCA SMIRNOFF RED 998 ML",
-              "fat_atual": 0.0,
-              "fat_mes_anterior": 330.0,
-              "fat_ano_anterior": 0.0,
-              "qt_atual": 0.0,
-              "qt_mes_anterior": 12.0,
-              "qt_ano_anterior": 0.0,
-              "queda_fat_mes_valor": 330.0,
-              "queda_fat_ano_valor": 0.0,
-              "queda_fat_mes_pct": -100.0,
-              "queda_fat_ano_pct": null,
-              "queda_qt_mes_valor": 12.0,
-              "queda_qt_ano_valor": 0.0,
-              "queda_qt_mes_pct": -100.0,
-              "queda_qt_ano_pct": null
-            }
-          ],
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 3762.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 42.0,
-          "qt_ano_anterior": 0.0,
-          "queda_fat_mes_valor": 3762.0,
-          "queda_fat_ano_valor": 0.0,
-          "queda_fat_mes_pct": -100.0,
-          "queda_fat_ano_pct": null,
-          "queda_qt_mes_valor": 42.0,
-          "queda_qt_ano_valor": 0.0,
-          "queda_qt_mes_pct": -100.0,
-          "queda_qt_ano_pct": null
-        },
-        {
-          "fornecedor": "RED BULL",
-          "por_produto": [
-            {
-              "produto": "RED BULL 24X250ML",
-              "fat_atual": 0.0,
-              "fat_mes_anterior": 1700.0,
-              "fat_ano_anterior": 0.0,
-              "qt_atual": 0.0,
-              "qt_mes_anterior": 10.0,
-              "qt_ano_anterior": 0.0,
-              "queda_fat_mes_valor": 1700.0,
-              "queda_fat_ano_valor": 0.0,
-              "queda_fat_mes_pct": -100.0,
-              "queda_fat_ano_pct": null,
-              "queda_qt_mes_valor": 10.0,
-              "queda_qt_ano_valor": 0.0,
-              "queda_qt_mes_pct": -100.0,
-              "queda_qt_ano_pct": null
-            },
-            {
-              "produto": "RED BULL MELANCIA 250ML CX C/24",
-              "fat_atual": 0.0,
-              "fat_mes_anterior": 340.0,
-              "fat_ano_anterior": 164.9,
-              "qt_atual": 0.0,
-              "qt_mes_anterior": 2.0,
-              "qt_ano_anterior": 1.0,
-              "queda_fat_mes_valor": 340.0,
-              "queda_fat_ano_valor": 164.9,
-              "queda_fat_mes_pct": -100.0,
-              "queda_fat_ano_pct": -100.0,
-              "queda_qt_mes_valor": 2.0,
-              "queda_qt_ano_valor": 1.0,
-              "queda_qt_mes_pct": -100.0,
-              "queda_qt_ano_pct": -100.0
-            },
-            {
-              "produto": "RED BULL TROPICAL 24X250ML",
-              "fat_atual": 0.0,
-              "fat_mes_anterior": 340.0,
-              "fat_ano_anterior": 0.0,
-              "qt_atual": 0.0,
-              "qt_mes_anterior": 2.0,
-              "qt_ano_anterior": 0.0,
-              "queda_fat_mes_valor": 340.0,
-              "queda_fat_ano_valor": 0.0,
-              "queda_fat_mes_pct": -100.0,
-              "queda_fat_ano_pct": null,
-              "queda_qt_mes_valor": 2.0,
-              "queda_qt_ano_valor": 0.0,
-              "queda_qt_mes_pct": -100.0,
-              "queda_qt_ano_pct": null
-            },
-            {
-              "produto": "RED BULL 250ML CAIXA C/24 UNID",
-              "fat_atual": 0.0,
-              "fat_mes_anterior": 0.0,
-              "fat_ano_anterior": 974.7,
-              "qt_atual": 0.0,
-              "qt_mes_anterior": 0.0,
-              "qt_ano_anterior": 6.0,
-              "queda_fat_mes_valor": 0.0,
-              "queda_fat_ano_valor": 974.7,
-              "queda_fat_mes_pct": null,
-              "queda_fat_ano_pct": -100.0,
-              "queda_qt_mes_valor": 0.0,
-              "queda_qt_ano_valor": 6.0,
-              "queda_qt_mes_pct": null,
-              "queda_qt_ano_pct": -100.0
-            },
-            {
-              "produto": "RED BULL SUGAR FREE 250 ML CX C/24",
-              "fat_atual": 0.0,
-              "fat_mes_anterior": 0.0,
-              "fat_ano_anterior": 164.9,
-              "qt_atual": 0.0,
-              "qt_mes_anterior": 0.0,
-              "qt_ano_anterior": 1.0,
-              "queda_fat_mes_valor": 0.0,
-              "queda_fat_ano_valor": 164.9,
-              "queda_fat_mes_pct": null,
-              "queda_fat_ano_pct": -100.0,
-              "queda_qt_mes_valor": 0.0,
-              "queda_qt_ano_valor": 1.0,
-              "queda_qt_mes_pct": null,
-              "queda_qt_ano_pct": -100.0
-            },
-            {
-              "produto": "RED BULL TROPICAL EDITION 250 ML CX C/24",
-              "fat_atual": 0.0,
-              "fat_mes_anterior": 0.0,
-              "fat_ano_anterior": 164.9,
-              "qt_atual": 0.0,
-              "qt_mes_anterior": 0.0,
-              "qt_ano_anterior": 1.0,
-              "queda_fat_mes_valor": 0.0,
-              "queda_fat_ano_valor": 164.9,
-              "queda_fat_mes_pct": null,
-              "queda_fat_ano_pct": -100.0,
-              "queda_qt_mes_valor": 0.0,
-              "queda_qt_ano_valor": 1.0,
-              "queda_qt_mes_pct": null,
-              "queda_qt_ano_pct": -100.0
-            }
-          ],
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 2380.0,
-          "fat_ano_anterior": 1469.4,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 14.0,
-          "qt_ano_anterior": 9.0,
-          "queda_fat_mes_valor": 2380.0,
-          "queda_fat_ano_valor": 1469.4,
-          "queda_fat_mes_pct": -100.0,
-          "queda_fat_ano_pct": -100.0,
-          "queda_qt_mes_valor": 14.0,
-          "queda_qt_ano_valor": 9.0,
-          "queda_qt_mes_pct": -100.0,
-          "queda_qt_ano_pct": -100.0
-        },
-        {
-          "fornecedor": "TATUZINHO",
-          "por_produto": [
-            {
-              "produto": "ST PIERRE LATA PINK LEMON LT 24X270ML",
-              "fat_atual": 0.0,
-              "fat_mes_anterior": 459.5,
-              "fat_ano_anterior": 0.0,
-              "qt_atual": 0.0,
-              "qt_mes_anterior": 5.0,
-              "qt_ano_anterior": 0.0,
-              "queda_fat_mes_valor": 459.5,
-              "queda_fat_ano_valor": 0.0,
-              "queda_fat_mes_pct": -100.0,
-              "queda_fat_ano_pct": null,
-              "queda_qt_mes_valor": 5.0,
-              "queda_qt_ano_valor": 0.0,
-              "queda_qt_mes_pct": -100.0,
-              "queda_qt_ano_pct": null
-            },
-            {
-              "produto": "ST PIERRE LATA RED MINT LT 24X270ML",
-              "fat_atual": 0.0,
-              "fat_mes_anterior": 183.8,
-              "fat_ano_anterior": 0.0,
-              "qt_atual": 0.0,
-              "qt_mes_anterior": 2.0,
-              "qt_ano_anterior": 0.0,
-              "queda_fat_mes_valor": 183.8,
-              "queda_fat_ano_valor": 0.0,
-              "queda_fat_mes_pct": -100.0,
-              "queda_fat_ano_pct": null,
-              "queda_qt_mes_valor": 2.0,
-              "queda_qt_ano_valor": 0.0,
-              "queda_qt_mes_pct": -100.0,
-              "queda_qt_ano_pct": null
-            },
-            {
-              "produto": "ST PIERRE LATA 270 ML PINK LEMON CX C/24",
-              "fat_atual": 0.0,
-              "fat_mes_anterior": 0.0,
-              "fat_ano_anterior": 179.8,
-              "qt_atual": 0.0,
-              "qt_mes_anterior": 0.0,
-              "qt_ano_anterior": 2.0,
-              "queda_fat_mes_valor": 0.0,
-              "queda_fat_ano_valor": 179.8,
-              "queda_fat_mes_pct": null,
-              "queda_fat_ano_pct": -100.0,
-              "queda_qt_mes_valor": 0.0,
-              "queda_qt_ano_valor": 2.0,
-              "queda_qt_mes_pct": null,
-              "queda_qt_ano_pct": -100.0
-            },
-            {
-              "produto": "ST PIERRE LATA 270ML RED MINT CX C/ 24",
-              "fat_atual": 0.0,
-              "fat_mes_anterior": 0.0,
-              "fat_ano_anterior": 179.8,
-              "qt_atual": 0.0,
-              "qt_mes_anterior": 0.0,
-              "qt_ano_anterior": 2.0,
-              "queda_fat_mes_valor": 0.0,
-              "queda_fat_ano_valor": 179.8,
-              "queda_fat_mes_pct": null,
-              "queda_fat_ano_pct": -100.0,
-              "queda_qt_mes_valor": 0.0,
-              "queda_qt_ano_valor": 2.0,
-              "queda_qt_mes_pct": null,
-              "queda_qt_ano_pct": -100.0
-            }
-          ],
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 643.3,
-          "fat_ano_anterior": 359.6,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 7.0,
-          "qt_ano_anterior": 4.0,
-          "queda_fat_mes_valor": 643.3,
-          "queda_fat_ano_valor": 359.6,
-          "queda_fat_mes_pct": -100.0,
-          "queda_fat_ano_pct": -100.0,
-          "queda_qt_mes_valor": 7.0,
-          "queda_qt_ano_valor": 4.0,
-          "queda_qt_mes_pct": -100.0,
-          "queda_qt_ano_pct": -100.0
-        },
-        {
-          "fornecedor": "PERNOD",
-          "por_produto": [
-            {
-              "produto": "WHISKY BALLANTINE S SUNSHINE 700ML",
-              "fat_atual": 0.0,
-              "fat_mes_anterior": 143.7,
-              "fat_ano_anterior": 0.0,
-              "qt_atual": 0.0,
-              "qt_mes_anterior": 3.0,
-              "qt_ano_anterior": 0.0,
-              "queda_fat_mes_valor": 143.7,
-              "queda_fat_ano_valor": 0.0,
-              "queda_fat_mes_pct": -100.0,
-              "queda_fat_ano_pct": null,
-              "queda_qt_mes_valor": 3.0,
-              "queda_qt_ano_valor": 0.0,
-              "queda_qt_mes_pct": -100.0,
-              "queda_qt_ano_pct": null
-            }
-          ],
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 143.7,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 3.0,
-          "qt_ano_anterior": 0.0,
-          "queda_fat_mes_valor": 143.7,
-          "queda_fat_ano_valor": 0.0,
-          "queda_fat_mes_pct": -100.0,
-          "queda_fat_ano_pct": null,
-          "queda_qt_mes_valor": 3.0,
-          "queda_qt_ano_valor": 0.0,
-          "queda_qt_mes_pct": -100.0,
-          "queda_qt_ano_pct": null
-        },
-        {
-          "fornecedor": "FANTE",
-          "por_produto": [
-            {
-              "produto": "GIN ROCKS STRAWBERRY 1000ML",
-              "fat_atual": 0.0,
-              "fat_mes_anterior": 67.5,
-              "fat_ano_anterior": 0.0,
-              "qt_atual": 0.0,
-              "qt_mes_anterior": 3.0,
-              "qt_ano_anterior": 0.0,
-              "queda_fat_mes_valor": 67.5,
-              "queda_fat_ano_valor": 0.0,
-              "queda_fat_mes_pct": -100.0,
-              "queda_fat_ano_pct": null,
-              "queda_qt_mes_valor": 3.0,
-              "queda_qt_ano_valor": 0.0,
-              "queda_qt_mes_pct": -100.0,
-              "queda_qt_ano_pct": null
-            },
-            {
-              "produto": "GIN ROCKS WATERMELON 1000ML",
-              "fat_atual": 0.0,
-              "fat_mes_anterior": 67.5,
-              "fat_ano_anterior": 0.0,
-              "qt_atual": 0.0,
-              "qt_mes_anterior": 3.0,
-              "qt_ano_anterior": 0.0,
-              "queda_fat_mes_valor": 67.5,
-              "queda_fat_ano_valor": 0.0,
-              "queda_fat_mes_pct": -100.0,
-              "queda_fat_ano_pct": null,
-              "queda_qt_mes_valor": 3.0,
-              "queda_qt_ano_valor": 0.0,
-              "queda_qt_mes_pct": -100.0,
-              "queda_qt_ano_pct": null
-            }
-          ],
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 135.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 6.0,
-          "qt_ano_anterior": 0.0,
-          "queda_fat_mes_valor": 135.0,
-          "queda_fat_ano_valor": 0.0,
-          "queda_fat_mes_pct": -100.0,
-          "queda_fat_ano_pct": null,
-          "queda_qt_mes_valor": 6.0,
-          "queda_qt_ano_valor": 0.0,
-          "queda_qt_mes_pct": -100.0,
-          "queda_qt_ano_pct": null
-        }
-      ],
-      "fat_atual": 0.0,
-      "fat_mes_anterior": 7064.0,
-      "fat_ano_anterior": 1829.0,
-      "qt_atual": 0.0,
-      "qt_mes_anterior": 72.0,
-      "qt_ano_anterior": 13.0,
-      "queda_fat_mes_valor": 7064.0,
-      "queda_fat_ano_valor": 1829.0,
-      "queda_fat_mes_pct": -100.0,
-      "queda_fat_ano_pct": -100.0,
-      "queda_qt_mes_valor": 72.0,
-      "queda_qt_ano_valor": 13.0,
-      "queda_qt_mes_pct": -100.0,
-      "queda_qt_ano_pct": -100.0
-    },
-    {
       "codcli": 51391,
       "estado": "SP",
       "chave": "SP-51391",
@@ -27671,282 +27257,6 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "queda_qt_mes_valor": 122.0,
       "queda_qt_ano_valor": 0.0,
       "queda_qt_mes_pct": -100.0,
-      "queda_qt_ano_pct": null
-    },
-    {
-      "codcli": 87086,
-      "estado": "RJ",
-      "chave": "RJ-87086",
-      "nome": "TAIS TERRA MONTEIRO",
-      "bairro": "MANGUINHOS",
-      "ramo": "BAR",
-      "vendedor": "RAPHAEL SANTOS",
-      "gerente": "DANIEL DINIZ",
-      "supervisor": "DANIEL DINIZ",
-      "chaves_rca": [
-        "RJ-155"
-      ],
-      "por_industria": [
-        {
-          "fornecedor": "PERNOD",
-          "por_produto": [
-            {
-              "produto": "VODKA ABSOLUT 1L",
-              "fat_atual": 0.0,
-              "fat_mes_anterior": 3174.0,
-              "fat_ano_anterior": 0.0,
-              "qt_atual": 0.0,
-              "qt_mes_anterior": 60.0,
-              "qt_ano_anterior": 0.0,
-              "queda_fat_mes_valor": 3174.0,
-              "queda_fat_ano_valor": 0.0,
-              "queda_fat_mes_pct": -100.0,
-              "queda_fat_ano_pct": null,
-              "queda_qt_mes_valor": 60.0,
-              "queda_qt_ano_valor": 0.0,
-              "queda_qt_mes_pct": -100.0,
-              "queda_qt_ano_pct": null
-            },
-            {
-              "produto": "GIN BEEFEATER 750ML",
-              "fat_atual": 0.0,
-              "fat_mes_anterior": 2192.4,
-              "fat_ano_anterior": 0.0,
-              "qt_atual": 0.0,
-              "qt_mes_anterior": 36.0,
-              "qt_ano_anterior": 0.0,
-              "queda_fat_mes_valor": 2192.4,
-              "queda_fat_ano_valor": 0.0,
-              "queda_fat_mes_pct": -100.0,
-              "queda_fat_ano_pct": null,
-              "queda_qt_mes_valor": 36.0,
-              "queda_qt_ano_valor": 0.0,
-              "queda_qt_mes_pct": -100.0,
-              "queda_qt_ano_pct": null
-            },
-            {
-              "produto": "RUM MONTILLA OURO 1L",
-              "fat_atual": 0.0,
-              "fat_mes_anterior": 788.4,
-              "fat_ano_anterior": 0.0,
-              "qt_atual": 0.0,
-              "qt_mes_anterior": 36.0,
-              "qt_ano_anterior": 0.0,
-              "queda_fat_mes_valor": 788.4,
-              "queda_fat_ano_valor": 0.0,
-              "queda_fat_mes_pct": -100.0,
-              "queda_fat_ano_pct": null,
-              "queda_qt_mes_valor": 36.0,
-              "queda_qt_ano_valor": 0.0,
-              "queda_qt_mes_pct": -100.0,
-              "queda_qt_ano_pct": null
-            },
-            {
-              "produto": "RUM MALIBU 750ML",
-              "fat_atual": 0.0,
-              "fat_mes_anterior": 598.8,
-              "fat_ano_anterior": 0.0,
-              "qt_atual": 0.0,
-              "qt_mes_anterior": 12.0,
-              "qt_ano_anterior": 0.0,
-              "queda_fat_mes_valor": 598.8,
-              "queda_fat_ano_valor": 0.0,
-              "queda_fat_mes_pct": -100.0,
-              "queda_fat_ano_pct": null,
-              "queda_qt_mes_valor": 12.0,
-              "queda_qt_ano_valor": 0.0,
-              "queda_qt_mes_pct": -100.0,
-              "queda_qt_ano_pct": null
-            },
-            {
-              "produto": "RUM MONTILLA CARTA BRANCA 1L",
-              "fat_atual": 0.0,
-              "fat_mes_anterior": 525.6,
-              "fat_ano_anterior": 0.0,
-              "qt_atual": 0.0,
-              "qt_mes_anterior": 24.0,
-              "qt_ano_anterior": 0.0,
-              "queda_fat_mes_valor": 525.6,
-              "queda_fat_ano_valor": 0.0,
-              "queda_fat_mes_pct": -100.0,
-              "queda_fat_ano_pct": null,
-              "queda_qt_mes_valor": 24.0,
-              "queda_qt_ano_valor": 0.0,
-              "queda_qt_mes_pct": -100.0,
-              "queda_qt_ano_pct": null
-            },
-            {
-              "produto": "CONHAQUE DOMECQ 1L",
-              "fat_atual": 346.8,
-              "fat_mes_anterior": 0.0,
-              "fat_ano_anterior": 0.0,
-              "qt_atual": 12.0,
-              "qt_mes_anterior": 0.0,
-              "qt_ano_anterior": 0.0,
-              "queda_fat_mes_valor": -346.8,
-              "queda_fat_ano_valor": -346.8,
-              "queda_fat_mes_pct": null,
-              "queda_fat_ano_pct": null,
-              "queda_qt_mes_valor": -12.0,
-              "queda_qt_ano_valor": -12.0,
-              "queda_qt_mes_pct": null,
-              "queda_qt_ano_pct": null
-            },
-            {
-              "produto": "RUM MONTILLA CRISTAL 1L",
-              "fat_atual": 788.4,
-              "fat_mes_anterior": 0.0,
-              "fat_ano_anterior": 0.0,
-              "qt_atual": 36.0,
-              "qt_mes_anterior": 0.0,
-              "qt_ano_anterior": 0.0,
-              "queda_fat_mes_valor": -788.4,
-              "queda_fat_ano_valor": -788.4,
-              "queda_fat_mes_pct": null,
-              "queda_fat_ano_pct": null,
-              "queda_qt_mes_valor": -36.0,
-              "queda_qt_ano_valor": -36.0,
-              "queda_qt_mes_pct": null,
-              "queda_qt_ano_pct": null
-            }
-          ],
-          "fat_atual": 1135.2,
-          "fat_mes_anterior": 7279.2,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 48.0,
-          "qt_mes_anterior": 168.0,
-          "qt_ano_anterior": 0.0,
-          "queda_fat_mes_valor": 6144.0,
-          "queda_fat_ano_valor": -1135.2,
-          "queda_fat_mes_pct": -84.4,
-          "queda_fat_ano_pct": null,
-          "queda_qt_mes_valor": 120.0,
-          "queda_qt_ano_valor": -48.0,
-          "queda_qt_mes_pct": -71.4,
-          "queda_qt_ano_pct": null
-        },
-        {
-          "fornecedor": "DIAGEO",
-          "por_produto": [
-            {
-              "produto": "GIN GORDONS 750 ML",
-              "fat_atual": 0.0,
-              "fat_mes_anterior": 658.8,
-              "fat_ano_anterior": 0.0,
-              "qt_atual": 0.0,
-              "qt_mes_anterior": 12.0,
-              "qt_ano_anterior": 0.0,
-              "queda_fat_mes_valor": 658.8,
-              "queda_fat_ano_valor": 0.0,
-              "queda_fat_mes_pct": -100.0,
-              "queda_fat_ano_pct": null,
-              "queda_qt_mes_valor": 12.0,
-              "queda_qt_ano_valor": 0.0,
-              "queda_qt_mes_pct": -100.0,
-              "queda_qt_ano_pct": null
-            }
-          ],
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 658.8,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 12.0,
-          "qt_ano_anterior": 0.0,
-          "queda_fat_mes_valor": 658.8,
-          "queda_fat_ano_valor": 0.0,
-          "queda_fat_mes_pct": -100.0,
-          "queda_fat_ano_pct": null,
-          "queda_qt_mes_valor": 12.0,
-          "queda_qt_ano_valor": 0.0,
-          "queda_qt_mes_pct": -100.0,
-          "queda_qt_ano_pct": null
-        },
-        {
-          "fornecedor": "RED BULL",
-          "por_produto": [
-            {
-              "produto": "RED BULL MORANGO PESSEGO 24X250ML",
-              "fat_atual": 0.0,
-              "fat_mes_anterior": 172.56,
-              "fat_ano_anterior": 0.0,
-              "qt_atual": 0.0,
-              "qt_mes_anterior": 1.0,
-              "qt_ano_anterior": 0.0,
-              "queda_fat_mes_valor": 172.56,
-              "queda_fat_ano_valor": 0.0,
-              "queda_fat_mes_pct": -100.0,
-              "queda_fat_ano_pct": null,
-              "queda_qt_mes_valor": 1.0,
-              "queda_qt_ano_valor": 0.0,
-              "queda_qt_mes_pct": -100.0,
-              "queda_qt_ano_pct": null
-            }
-          ],
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 172.56,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 1.0,
-          "qt_ano_anterior": 0.0,
-          "queda_fat_mes_valor": 172.56,
-          "queda_fat_ano_valor": 0.0,
-          "queda_fat_mes_pct": -100.0,
-          "queda_fat_ano_pct": null,
-          "queda_qt_mes_valor": 1.0,
-          "queda_qt_ano_valor": 0.0,
-          "queda_qt_mes_pct": -100.0,
-          "queda_qt_ano_pct": null
-        },
-        {
-          "fornecedor": "CAMPARI",
-          "por_produto": [
-            {
-              "produto": "CONHAQUE DREHER 900ML",
-              "fat_atual": 221.88,
-              "fat_mes_anterior": 0.0,
-              "fat_ano_anterior": 0.0,
-              "qt_atual": 12.0,
-              "qt_mes_anterior": 0.0,
-              "qt_ano_anterior": 0.0,
-              "queda_fat_mes_valor": -221.88,
-              "queda_fat_ano_valor": -221.88,
-              "queda_fat_mes_pct": null,
-              "queda_fat_ano_pct": null,
-              "queda_qt_mes_valor": -12.0,
-              "queda_qt_ano_valor": -12.0,
-              "queda_qt_mes_pct": null,
-              "queda_qt_ano_pct": null
-            }
-          ],
-          "fat_atual": 221.88,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 12.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0,
-          "queda_fat_mes_valor": -221.88,
-          "queda_fat_ano_valor": -221.88,
-          "queda_fat_mes_pct": null,
-          "queda_fat_ano_pct": null,
-          "queda_qt_mes_valor": -12.0,
-          "queda_qt_ano_valor": -12.0,
-          "queda_qt_mes_pct": null,
-          "queda_qt_ano_pct": null
-        }
-      ],
-      "fat_atual": 1357.08,
-      "fat_mes_anterior": 8110.56,
-      "fat_ano_anterior": 0.0,
-      "qt_atual": 60.0,
-      "qt_mes_anterior": 181.0,
-      "qt_ano_anterior": 0.0,
-      "queda_fat_mes_valor": 6753.48,
-      "queda_fat_ano_valor": -1357.08,
-      "queda_fat_mes_pct": -83.3,
-      "queda_fat_ano_pct": null,
-      "queda_qt_mes_valor": 121.0,
-      "queda_qt_ano_valor": -60.0,
-      "queda_qt_mes_pct": -66.9,
       "queda_qt_ano_pct": null
     },
     {
@@ -32787,6 +32097,316 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "queda_qt_mes_valor": 30.0,
       "queda_qt_ano_valor": 0.0,
       "queda_qt_mes_pct": -100.0,
+      "queda_qt_ano_pct": null
+    },
+    {
+      "codcli": 87086,
+      "estado": "RJ",
+      "chave": "RJ-87086",
+      "nome": "TAIS TERRA MONTEIRO",
+      "bairro": "MANGUINHOS",
+      "ramo": "BAR",
+      "vendedor": "RAPHAEL SANTOS",
+      "gerente": "DANIEL DINIZ",
+      "supervisor": "DANIEL DINIZ",
+      "chaves_rca": [
+        "RJ-155"
+      ],
+      "por_industria": [
+        {
+          "fornecedor": "PERNOD",
+          "por_produto": [
+            {
+              "produto": "VODKA ABSOLUT 1L",
+              "fat_atual": 0.0,
+              "fat_mes_anterior": 3174.0,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 0.0,
+              "qt_mes_anterior": 60.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": 3174.0,
+              "queda_fat_ano_valor": 0.0,
+              "queda_fat_mes_pct": -100.0,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": 60.0,
+              "queda_qt_ano_valor": 0.0,
+              "queda_qt_mes_pct": -100.0,
+              "queda_qt_ano_pct": null
+            },
+            {
+              "produto": "GIN BEEFEATER 750ML",
+              "fat_atual": 0.0,
+              "fat_mes_anterior": 2192.4,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 0.0,
+              "qt_mes_anterior": 36.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": 2192.4,
+              "queda_fat_ano_valor": 0.0,
+              "queda_fat_mes_pct": -100.0,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": 36.0,
+              "queda_qt_ano_valor": 0.0,
+              "queda_qt_mes_pct": -100.0,
+              "queda_qt_ano_pct": null
+            },
+            {
+              "produto": "RUM MONTILLA OURO 1L",
+              "fat_atual": 0.0,
+              "fat_mes_anterior": 788.4,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 0.0,
+              "qt_mes_anterior": 36.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": 788.4,
+              "queda_fat_ano_valor": 0.0,
+              "queda_fat_mes_pct": -100.0,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": 36.0,
+              "queda_qt_ano_valor": 0.0,
+              "queda_qt_mes_pct": -100.0,
+              "queda_qt_ano_pct": null
+            },
+            {
+              "produto": "RUM MALIBU 750ML",
+              "fat_atual": 0.0,
+              "fat_mes_anterior": 598.8,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 0.0,
+              "qt_mes_anterior": 12.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": 598.8,
+              "queda_fat_ano_valor": 0.0,
+              "queda_fat_mes_pct": -100.0,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": 12.0,
+              "queda_qt_ano_valor": 0.0,
+              "queda_qt_mes_pct": -100.0,
+              "queda_qt_ano_pct": null
+            },
+            {
+              "produto": "RUM MONTILLA CARTA BRANCA 1L",
+              "fat_atual": 0.0,
+              "fat_mes_anterior": 525.6,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 0.0,
+              "qt_mes_anterior": 24.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": 525.6,
+              "queda_fat_ano_valor": 0.0,
+              "queda_fat_mes_pct": -100.0,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": 24.0,
+              "queda_qt_ano_valor": 0.0,
+              "queda_qt_mes_pct": -100.0,
+              "queda_qt_ano_pct": null
+            },
+            {
+              "produto": "CONHAQUE DOMECQ 1L",
+              "fat_atual": 346.8,
+              "fat_mes_anterior": 0.0,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 12.0,
+              "qt_mes_anterior": 0.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": -346.8,
+              "queda_fat_ano_valor": -346.8,
+              "queda_fat_mes_pct": null,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": -12.0,
+              "queda_qt_ano_valor": -12.0,
+              "queda_qt_mes_pct": null,
+              "queda_qt_ano_pct": null
+            },
+            {
+              "produto": "RUM MONTILLA CRISTAL 1L",
+              "fat_atual": 788.4,
+              "fat_mes_anterior": 0.0,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 36.0,
+              "qt_mes_anterior": 0.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": -788.4,
+              "queda_fat_ano_valor": -788.4,
+              "queda_fat_mes_pct": null,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": -36.0,
+              "queda_qt_ano_valor": -36.0,
+              "queda_qt_mes_pct": null,
+              "queda_qt_ano_pct": null
+            },
+            {
+              "produto": "GIN BEEFEATER PINK 700ML",
+              "fat_atual": 1078.2,
+              "fat_mes_anterior": 0.0,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 18.0,
+              "qt_mes_anterior": 0.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": -1078.2,
+              "queda_fat_ano_valor": -1078.2,
+              "queda_fat_mes_pct": null,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": -18.0,
+              "queda_qt_ano_valor": -18.0,
+              "queda_qt_mes_pct": null,
+              "queda_qt_ano_pct": null
+            }
+          ],
+          "fat_atual": 2213.4,
+          "fat_mes_anterior": 7279.2,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 66.0,
+          "qt_mes_anterior": 168.0,
+          "qt_ano_anterior": 0.0,
+          "queda_fat_mes_valor": 5065.8,
+          "queda_fat_ano_valor": -2213.4,
+          "queda_fat_mes_pct": -69.6,
+          "queda_fat_ano_pct": null,
+          "queda_qt_mes_valor": 102.0,
+          "queda_qt_ano_valor": -66.0,
+          "queda_qt_mes_pct": -60.7,
+          "queda_qt_ano_pct": null
+        },
+        {
+          "fornecedor": "DIAGEO",
+          "por_produto": [
+            {
+              "produto": "GIN GORDONS 750 ML",
+              "fat_atual": 0.0,
+              "fat_mes_anterior": 658.8,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 0.0,
+              "qt_mes_anterior": 12.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": 658.8,
+              "queda_fat_ano_valor": 0.0,
+              "queda_fat_mes_pct": -100.0,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": 12.0,
+              "queda_qt_ano_valor": 0.0,
+              "queda_qt_mes_pct": -100.0,
+              "queda_qt_ano_pct": null
+            }
+          ],
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 658.8,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 12.0,
+          "qt_ano_anterior": 0.0,
+          "queda_fat_mes_valor": 658.8,
+          "queda_fat_ano_valor": 0.0,
+          "queda_fat_mes_pct": -100.0,
+          "queda_fat_ano_pct": null,
+          "queda_qt_mes_valor": 12.0,
+          "queda_qt_ano_valor": 0.0,
+          "queda_qt_mes_pct": -100.0,
+          "queda_qt_ano_pct": null
+        },
+        {
+          "fornecedor": "RED BULL",
+          "por_produto": [
+            {
+              "produto": "RED BULL MORANGO PESSEGO 24X250ML",
+              "fat_atual": 0.0,
+              "fat_mes_anterior": 172.56,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 0.0,
+              "qt_mes_anterior": 1.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": 172.56,
+              "queda_fat_ano_valor": 0.0,
+              "queda_fat_mes_pct": -100.0,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": 1.0,
+              "queda_qt_ano_valor": 0.0,
+              "queda_qt_mes_pct": -100.0,
+              "queda_qt_ano_pct": null
+            },
+            {
+              "produto": "4 PACK RED BULL SF MAÇA 4X250ML",
+              "fat_atual": 28.76,
+              "fat_mes_anterior": 0.0,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 1.0,
+              "qt_mes_anterior": 0.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": -28.76,
+              "queda_fat_ano_valor": -28.76,
+              "queda_fat_mes_pct": null,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": -1.0,
+              "queda_qt_ano_valor": -1.0,
+              "queda_qt_mes_pct": null,
+              "queda_qt_ano_pct": null
+            }
+          ],
+          "fat_atual": 28.76,
+          "fat_mes_anterior": 172.56,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 1.0,
+          "qt_mes_anterior": 1.0,
+          "qt_ano_anterior": 0.0,
+          "queda_fat_mes_valor": 143.8,
+          "queda_fat_ano_valor": -28.76,
+          "queda_fat_mes_pct": -83.3,
+          "queda_fat_ano_pct": null,
+          "queda_qt_mes_valor": 0.0,
+          "queda_qt_ano_valor": -1.0,
+          "queda_qt_mes_pct": 0.0,
+          "queda_qt_ano_pct": null
+        },
+        {
+          "fornecedor": "CAMPARI",
+          "por_produto": [
+            {
+              "produto": "CONHAQUE DREHER 900ML",
+              "fat_atual": 221.88,
+              "fat_mes_anterior": 0.0,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 12.0,
+              "qt_mes_anterior": 0.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": -221.88,
+              "queda_fat_ano_valor": -221.88,
+              "queda_fat_mes_pct": null,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": -12.0,
+              "queda_qt_ano_valor": -12.0,
+              "queda_qt_mes_pct": null,
+              "queda_qt_ano_pct": null
+            }
+          ],
+          "fat_atual": 221.88,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 12.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0,
+          "queda_fat_mes_valor": -221.88,
+          "queda_fat_ano_valor": -221.88,
+          "queda_fat_mes_pct": null,
+          "queda_fat_ano_pct": null,
+          "queda_qt_mes_valor": -12.0,
+          "queda_qt_ano_valor": -12.0,
+          "queda_qt_mes_pct": null,
+          "queda_qt_ano_pct": null
+        }
+      ],
+      "fat_atual": 2464.04,
+      "fat_mes_anterior": 8110.56,
+      "fat_ano_anterior": 0.0,
+      "qt_atual": 79.0,
+      "qt_mes_anterior": 181.0,
+      "qt_ano_anterior": 0.0,
+      "queda_fat_mes_valor": 5646.52,
+      "queda_fat_ano_valor": -2464.04,
+      "queda_fat_mes_pct": -69.6,
+      "queda_fat_ano_pct": null,
+      "queda_qt_mes_valor": 102.0,
+      "queda_qt_ano_valor": -79.0,
+      "queda_qt_mes_pct": -56.4,
       "queda_qt_ano_pct": null
     },
     {
@@ -38034,242 +37654,6 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "queda_qt_ano_pct": null
     },
     {
-      "codcli": 93379,
-      "estado": "RJ",
-      "chave": "RJ-93379",
-      "nome": "SUPERMERCADO ADONAI DE SANTA MARGARIDA",
-      "bairro": "COSMOS",
-      "ramo": "MERCADO",
-      "vendedor": "BARBARA CABRAL",
-      "gerente": "ALLAN PAES",
-      "supervisor": "DANIELLE MOURA",
-      "chaves_rca": [
-        "RJ-412"
-      ],
-      "por_industria": [
-        {
-          "fornecedor": "ROBINSON CRUSOE",
-          "por_produto": [
-            {
-              "produto": "RC SARDINHA EM OLEO 50X125G",
-              "fat_atual": 0.0,
-              "fat_mes_anterior": 748.5,
-              "fat_ano_anterior": 0.0,
-              "qt_atual": 0.0,
-              "qt_mes_anterior": 3.0,
-              "qt_ano_anterior": 0.0,
-              "queda_fat_mes_valor": 748.5,
-              "queda_fat_ano_valor": 0.0,
-              "queda_fat_mes_pct": -100.0,
-              "queda_fat_ano_pct": null,
-              "queda_qt_mes_valor": 3.0,
-              "queda_qt_ano_valor": 0.0,
-              "queda_qt_mes_pct": -100.0,
-              "queda_qt_ano_pct": null
-            },
-            {
-              "produto": "RC ATUM SOLIDO NATURAL 24X170G",
-              "fat_atual": 0.0,
-              "fat_mes_anterior": 625.68,
-              "fat_ano_anterior": 0.0,
-              "qt_atual": 0.0,
-              "qt_mes_anterior": 3.0,
-              "qt_ano_anterior": 0.0,
-              "queda_fat_mes_valor": 625.68,
-              "queda_fat_ano_valor": 0.0,
-              "queda_fat_mes_pct": -100.0,
-              "queda_fat_ano_pct": null,
-              "queda_qt_mes_valor": 3.0,
-              "queda_qt_ano_valor": 0.0,
-              "queda_qt_mes_pct": -100.0,
-              "queda_qt_ano_pct": null
-            },
-            {
-              "produto": "RC ATUM SOLIDO OLEO 24X170G",
-              "fat_atual": 0.0,
-              "fat_mes_anterior": 625.68,
-              "fat_ano_anterior": 0.0,
-              "qt_atual": 0.0,
-              "qt_mes_anterior": 3.0,
-              "qt_ano_anterior": 0.0,
-              "queda_fat_mes_valor": 625.68,
-              "queda_fat_ano_valor": 0.0,
-              "queda_fat_mes_pct": -100.0,
-              "queda_fat_ano_pct": null,
-              "queda_qt_mes_valor": 3.0,
-              "queda_qt_ano_valor": 0.0,
-              "queda_qt_mes_pct": -100.0,
-              "queda_qt_ano_pct": null
-            },
-            {
-              "produto": "RC ATUM PEDACOS EM OLEO 24X140G",
-              "fat_atual": 0.0,
-              "fat_mes_anterior": 575.28,
-              "fat_ano_anterior": 0.0,
-              "qt_atual": 0.0,
-              "qt_mes_anterior": 3.0,
-              "qt_ano_anterior": 0.0,
-              "queda_fat_mes_valor": 575.28,
-              "queda_fat_ano_valor": 0.0,
-              "queda_fat_mes_pct": -100.0,
-              "queda_fat_ano_pct": null,
-              "queda_qt_mes_valor": 3.0,
-              "queda_qt_ano_valor": 0.0,
-              "queda_qt_mes_pct": -100.0,
-              "queda_qt_ano_pct": null
-            },
-            {
-              "produto": "RC ATUM PEDACOS MOLHO DE TOMATE 24X140G",
-              "fat_atual": 0.0,
-              "fat_mes_anterior": 575.28,
-              "fat_ano_anterior": 0.0,
-              "qt_atual": 0.0,
-              "qt_mes_anterior": 3.0,
-              "qt_ano_anterior": 0.0,
-              "queda_fat_mes_valor": 575.28,
-              "queda_fat_ano_valor": 0.0,
-              "queda_fat_mes_pct": -100.0,
-              "queda_fat_ano_pct": null,
-              "queda_qt_mes_valor": 3.0,
-              "queda_qt_ano_valor": 0.0,
-              "queda_qt_mes_pct": -100.0,
-              "queda_qt_ano_pct": null
-            },
-            {
-              "produto": "RC ATUM PEDACOS NATURAL 24X140G",
-              "fat_atual": 0.0,
-              "fat_mes_anterior": 575.28,
-              "fat_ano_anterior": 0.0,
-              "qt_atual": 0.0,
-              "qt_mes_anterior": 3.0,
-              "qt_ano_anterior": 0.0,
-              "queda_fat_mes_valor": 575.28,
-              "queda_fat_ano_valor": 0.0,
-              "queda_fat_mes_pct": -100.0,
-              "queda_fat_ano_pct": null,
-              "queda_qt_mes_valor": 3.0,
-              "queda_qt_ano_valor": 0.0,
-              "queda_qt_mes_pct": -100.0,
-              "queda_qt_ano_pct": null
-            },
-            {
-              "produto": "RC SALADA DE ATUM - MEDITERRANEA 12X160G",
-              "fat_atual": 0.0,
-              "fat_mes_anterior": 479.6,
-              "fat_ano_anterior": 0.0,
-              "qt_atual": 0.0,
-              "qt_mes_anterior": 4.0,
-              "qt_ano_anterior": 0.0,
-              "queda_fat_mes_valor": 479.6,
-              "queda_fat_ano_valor": 0.0,
-              "queda_fat_mes_pct": -100.0,
-              "queda_fat_ano_pct": null,
-              "queda_qt_mes_valor": 4.0,
-              "queda_qt_ano_valor": 0.0,
-              "queda_qt_mes_pct": -100.0,
-              "queda_qt_ano_pct": null
-            },
-            {
-              "produto": "RC ATUM SOLIDO NAT MY PROTEIN 12X142G",
-              "fat_atual": 0.0,
-              "fat_mes_anterior": 251.8,
-              "fat_ano_anterior": 0.0,
-              "qt_atual": 0.0,
-              "qt_mes_anterior": 2.0,
-              "qt_ano_anterior": 0.0,
-              "queda_fat_mes_valor": 251.8,
-              "queda_fat_ano_valor": 0.0,
-              "queda_fat_mes_pct": -100.0,
-              "queda_fat_ano_pct": null,
-              "queda_qt_mes_valor": 2.0,
-              "queda_qt_ano_valor": 0.0,
-              "queda_qt_mes_pct": -100.0,
-              "queda_qt_ano_pct": null
-            },
-            {
-              "produto": "RC ATUM RALADO MOLHO DE TOMATE 24X140G",
-              "fat_atual": 0.0,
-              "fat_mes_anterior": 153.36,
-              "fat_ano_anterior": 0.0,
-              "qt_atual": 0.0,
-              "qt_mes_anterior": 1.0,
-              "qt_ano_anterior": 0.0,
-              "queda_fat_mes_valor": 153.36,
-              "queda_fat_ano_valor": 0.0,
-              "queda_fat_mes_pct": -100.0,
-              "queda_fat_ano_pct": null,
-              "queda_qt_mes_valor": 1.0,
-              "queda_qt_ano_valor": 0.0,
-              "queda_qt_mes_pct": -100.0,
-              "queda_qt_ano_pct": null
-            },
-            {
-              "produto": "RC ATUM RALADO NATURAL 24X140G",
-              "fat_atual": 0.0,
-              "fat_mes_anterior": 153.36,
-              "fat_ano_anterior": 0.0,
-              "qt_atual": 0.0,
-              "qt_mes_anterior": 1.0,
-              "qt_ano_anterior": 0.0,
-              "queda_fat_mes_valor": 153.36,
-              "queda_fat_ano_valor": 0.0,
-              "queda_fat_mes_pct": -100.0,
-              "queda_fat_ano_pct": null,
-              "queda_qt_mes_valor": 1.0,
-              "queda_qt_ano_valor": 0.0,
-              "queda_qt_mes_pct": -100.0,
-              "queda_qt_ano_pct": null
-            },
-            {
-              "produto": "RC ATUM RALADO OLEO 24X140G",
-              "fat_atual": 0.0,
-              "fat_mes_anterior": 153.36,
-              "fat_ano_anterior": 0.0,
-              "qt_atual": 0.0,
-              "qt_mes_anterior": 1.0,
-              "qt_ano_anterior": 0.0,
-              "queda_fat_mes_valor": 153.36,
-              "queda_fat_ano_valor": 0.0,
-              "queda_fat_mes_pct": -100.0,
-              "queda_fat_ano_pct": null,
-              "queda_qt_mes_valor": 1.0,
-              "queda_qt_ano_valor": 0.0,
-              "queda_qt_mes_pct": -100.0,
-              "queda_qt_ano_pct": null
-            }
-          ],
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 4917.18,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 27.0,
-          "qt_ano_anterior": 0.0,
-          "queda_fat_mes_valor": 4917.18,
-          "queda_fat_ano_valor": 0.0,
-          "queda_fat_mes_pct": -100.0,
-          "queda_fat_ano_pct": null,
-          "queda_qt_mes_valor": 27.0,
-          "queda_qt_ano_valor": 0.0,
-          "queda_qt_mes_pct": -100.0,
-          "queda_qt_ano_pct": null
-        }
-      ],
-      "fat_atual": 0.0,
-      "fat_mes_anterior": 4917.18,
-      "fat_ano_anterior": 0.0,
-      "qt_atual": 0.0,
-      "qt_mes_anterior": 27.0,
-      "qt_ano_anterior": 0.0,
-      "queda_fat_mes_valor": 4917.18,
-      "queda_fat_ano_valor": 0.0,
-      "queda_fat_mes_pct": -100.0,
-      "queda_fat_ano_pct": null,
-      "queda_qt_mes_valor": 27.0,
-      "queda_qt_ano_valor": 0.0,
-      "queda_qt_mes_pct": -100.0,
-      "queda_qt_ano_pct": null
-    },
-    {
       "codcli": 93281,
       "estado": "RJ",
       "chave": "RJ-93281",
@@ -38522,339 +37906,6 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "queda_qt_mes_valor": 33.0,
       "queda_qt_ano_valor": 0.0,
       "queda_qt_mes_pct": -100.0,
-      "queda_qt_ano_pct": null
-    },
-    {
-      "codcli": 91337,
-      "estado": "RJ",
-      "chave": "RJ-91337",
-      "nome": "LOBDOCES LTDA",
-      "bairro": "MARECHAL HERMES",
-      "ramo": "MERCADO",
-      "vendedor": "JORGE MACIEL",
-      "gerente": "ALLAN PAES",
-      "supervisor": "DANIELLE MOURA",
-      "chaves_rca": [
-        "RJ-379"
-      ],
-      "por_industria": [
-        {
-          "fornecedor": "CASA PERINI",
-          "por_produto": [
-            {
-              "produto": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
-              "fat_atual": 0.0,
-              "fat_mes_anterior": 4188.0,
-              "fat_ano_anterior": 0.0,
-              "qt_atual": 0.0,
-              "qt_mes_anterior": 120.0,
-              "qt_ano_anterior": 0.0,
-              "queda_fat_mes_valor": 4188.0,
-              "queda_fat_ano_valor": 0.0,
-              "queda_fat_mes_pct": -100.0,
-              "queda_fat_ano_pct": null,
-              "queda_qt_mes_valor": 120.0,
-              "queda_qt_ano_valor": 0.0,
-              "queda_qt_mes_pct": -100.0,
-              "queda_qt_ano_pct": null
-            }
-          ],
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 4188.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 120.0,
-          "qt_ano_anterior": 0.0,
-          "queda_fat_mes_valor": 4188.0,
-          "queda_fat_ano_valor": 0.0,
-          "queda_fat_mes_pct": -100.0,
-          "queda_fat_ano_pct": null,
-          "queda_qt_mes_valor": 120.0,
-          "queda_qt_ano_valor": 0.0,
-          "queda_qt_mes_pct": -100.0,
-          "queda_qt_ano_pct": null
-        },
-        {
-          "fornecedor": "KAISER",
-          "por_produto": [
-            {
-              "produto": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID",
-              "fat_atual": 0.0,
-              "fat_mes_anterior": 314.5,
-              "fat_ano_anterior": 0.0,
-              "qt_atual": 0.0,
-              "qt_mes_anterior": 5.0,
-              "qt_ano_anterior": 0.0,
-              "queda_fat_mes_valor": 314.5,
-              "queda_fat_ano_valor": 0.0,
-              "queda_fat_mes_pct": -100.0,
-              "queda_fat_ano_pct": null,
-              "queda_qt_mes_valor": 5.0,
-              "queda_qt_ano_valor": 0.0,
-              "queda_qt_mes_pct": -100.0,
-              "queda_qt_ano_pct": null
-            }
-          ],
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 314.5,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 5.0,
-          "qt_ano_anterior": 0.0,
-          "queda_fat_mes_valor": 314.5,
-          "queda_fat_ano_valor": 0.0,
-          "queda_fat_mes_pct": -100.0,
-          "queda_fat_ano_pct": null,
-          "queda_qt_mes_valor": 5.0,
-          "queda_qt_ano_valor": 0.0,
-          "queda_qt_mes_pct": -100.0,
-          "queda_qt_ano_pct": null
-        },
-        {
-          "fornecedor": "ROBINSON CRUSOE",
-          "por_produto": [
-            {
-              "produto": "RC SARDINHA EM OLEO 50X125G",
-              "fat_atual": 0.0,
-              "fat_mes_anterior": 224.5,
-              "fat_ano_anterior": 0.0,
-              "qt_atual": 0.0,
-              "qt_mes_anterior": 1.0,
-              "qt_ano_anterior": 0.0,
-              "queda_fat_mes_valor": 224.5,
-              "queda_fat_ano_valor": 0.0,
-              "queda_fat_mes_pct": -100.0,
-              "queda_fat_ano_pct": null,
-              "queda_qt_mes_valor": 1.0,
-              "queda_qt_ano_valor": 0.0,
-              "queda_qt_mes_pct": -100.0,
-              "queda_qt_ano_pct": null
-            }
-          ],
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 224.5,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 1.0,
-          "qt_ano_anterior": 0.0,
-          "queda_fat_mes_valor": 224.5,
-          "queda_fat_ano_valor": 0.0,
-          "queda_fat_mes_pct": -100.0,
-          "queda_fat_ano_pct": null,
-          "queda_qt_mes_valor": 1.0,
-          "queda_qt_ano_valor": 0.0,
-          "queda_qt_mes_pct": -100.0,
-          "queda_qt_ano_pct": null
-        },
-        {
-          "fornecedor": "RECKITT",
-          "por_produto": [
-            {
-              "produto": "VEJA MULTIUSO FLORAL 10% DESC 24X500ML",
-              "fat_atual": 0.0,
-              "fat_mes_anterior": 65.28,
-              "fat_ano_anterior": 0.0,
-              "qt_atual": 0.0,
-              "qt_mes_anterior": 1.0,
-              "qt_ano_anterior": 0.0,
-              "queda_fat_mes_valor": 65.28,
-              "queda_fat_ano_valor": 0.0,
-              "queda_fat_mes_pct": -100.0,
-              "queda_fat_ano_pct": null,
-              "queda_qt_mes_valor": 1.0,
-              "queda_qt_ano_valor": 0.0,
-              "queda_qt_mes_pct": -100.0,
-              "queda_qt_ano_pct": null
-            }
-          ],
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 65.28,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 1.0,
-          "qt_ano_anterior": 0.0,
-          "queda_fat_mes_valor": 65.28,
-          "queda_fat_ano_valor": 0.0,
-          "queda_fat_mes_pct": -100.0,
-          "queda_fat_ano_pct": null,
-          "queda_qt_mes_valor": 1.0,
-          "queda_qt_ano_valor": 0.0,
-          "queda_qt_mes_pct": -100.0,
-          "queda_qt_ano_pct": null
-        },
-        {
-          "fornecedor": "PERNOD",
-          "por_produto": [
-            {
-              "produto": "GIN BEEFEATER PINK 700ML",
-              "fat_atual": 0.0,
-              "fat_mes_anterior": 69.9,
-              "fat_ano_anterior": 0.0,
-              "qt_atual": 0.0,
-              "qt_mes_anterior": 1.0,
-              "qt_ano_anterior": 0.0,
-              "queda_fat_mes_valor": 69.9,
-              "queda_fat_ano_valor": 0.0,
-              "queda_fat_mes_pct": -100.0,
-              "queda_fat_ano_pct": null,
-              "queda_qt_mes_valor": 1.0,
-              "queda_qt_ano_valor": 0.0,
-              "queda_qt_mes_pct": -100.0,
-              "queda_qt_ano_pct": null
-            },
-            {
-              "produto": "VODKA ABSOLUT TABASCO 750ML",
-              "fat_atual": 0.0,
-              "fat_mes_anterior": 59.9,
-              "fat_ano_anterior": 0.0,
-              "qt_atual": 0.0,
-              "qt_mes_anterior": 1.0,
-              "qt_ano_anterior": 0.0,
-              "queda_fat_mes_valor": 59.9,
-              "queda_fat_ano_valor": 0.0,
-              "queda_fat_mes_pct": -100.0,
-              "queda_fat_ano_pct": null,
-              "queda_qt_mes_valor": 1.0,
-              "queda_qt_ano_valor": 0.0,
-              "queda_qt_mes_pct": -100.0,
-              "queda_qt_ano_pct": null
-            },
-            {
-              "produto": "GIN BEEFEATER 750ML",
-              "fat_atual": 139.8,
-              "fat_mes_anterior": 69.9,
-              "fat_ano_anterior": 0.0,
-              "qt_atual": 2.0,
-              "qt_mes_anterior": 1.0,
-              "qt_ano_anterior": 0.0,
-              "queda_fat_mes_valor": -69.9,
-              "queda_fat_ano_valor": -139.8,
-              "queda_fat_mes_pct": 100.0,
-              "queda_fat_ano_pct": null,
-              "queda_qt_mes_valor": -1.0,
-              "queda_qt_ano_valor": -2.0,
-              "queda_qt_mes_pct": 100.0,
-              "queda_qt_ano_pct": null
-            }
-          ],
-          "fat_atual": 139.8,
-          "fat_mes_anterior": 199.7,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 2.0,
-          "qt_mes_anterior": 3.0,
-          "qt_ano_anterior": 0.0,
-          "queda_fat_mes_valor": 59.9,
-          "queda_fat_ano_valor": -139.8,
-          "queda_fat_mes_pct": -30.0,
-          "queda_fat_ano_pct": null,
-          "queda_qt_mes_valor": 1.0,
-          "queda_qt_ano_valor": -2.0,
-          "queda_qt_mes_pct": -33.3,
-          "queda_qt_ano_pct": null
-        },
-        {
-          "fornecedor": "TATUZINHO",
-          "por_produto": [
-            {
-              "produto": "ST PIERRE ZERO LATA RED MINT LT 24X310ML",
-              "fat_atual": 93.6,
-              "fat_mes_anterior": 95.9,
-              "fat_ano_anterior": 0.0,
-              "qt_atual": 1.0,
-              "qt_mes_anterior": 1.0,
-              "qt_ano_anterior": 0.0,
-              "queda_fat_mes_valor": 2.3,
-              "queda_fat_ano_valor": -93.6,
-              "queda_fat_mes_pct": -2.4,
-              "queda_fat_ano_pct": null,
-              "queda_qt_mes_valor": 0.0,
-              "queda_qt_ano_valor": -1.0,
-              "queda_qt_mes_pct": 0.0,
-              "queda_qt_ano_pct": null
-            }
-          ],
-          "fat_atual": 93.6,
-          "fat_mes_anterior": 95.9,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 1.0,
-          "qt_mes_anterior": 1.0,
-          "qt_ano_anterior": 0.0,
-          "queda_fat_mes_valor": 2.3,
-          "queda_fat_ano_valor": -93.6,
-          "queda_fat_mes_pct": -2.4,
-          "queda_fat_ano_pct": null,
-          "queda_qt_mes_valor": 0.0,
-          "queda_qt_ano_valor": -1.0,
-          "queda_qt_mes_pct": 0.0,
-          "queda_qt_ano_pct": null
-        },
-        {
-          "fornecedor": "FANTE",
-          "por_produto": [
-            {
-              "produto": "SUCO DE UVA BCO INT QUINTA DO MORGADO 1L",
-              "fat_atual": 0.0,
-              "fat_mes_anterior": 12.99,
-              "fat_ano_anterior": 0.0,
-              "qt_atual": 0.0,
-              "qt_mes_anterior": 1.0,
-              "qt_ano_anterior": 0.0,
-              "queda_fat_mes_valor": 12.99,
-              "queda_fat_ano_valor": 0.0,
-              "queda_fat_mes_pct": -100.0,
-              "queda_fat_ano_pct": null,
-              "queda_qt_mes_valor": 1.0,
-              "queda_qt_ano_valor": 0.0,
-              "queda_qt_mes_pct": -100.0,
-              "queda_qt_ano_pct": null
-            },
-            {
-              "produto": "VINHO FRISANTE ROSE QUINTA MORGADO 750ML",
-              "fat_atual": 24.5,
-              "fat_mes_anterior": 0.0,
-              "fat_ano_anterior": 0.0,
-              "qt_atual": 1.0,
-              "qt_mes_anterior": 0.0,
-              "qt_ano_anterior": 0.0,
-              "queda_fat_mes_valor": -24.5,
-              "queda_fat_ano_valor": -24.5,
-              "queda_fat_mes_pct": null,
-              "queda_fat_ano_pct": null,
-              "queda_qt_mes_valor": -1.0,
-              "queda_qt_ano_valor": -1.0,
-              "queda_qt_mes_pct": null,
-              "queda_qt_ano_pct": null
-            }
-          ],
-          "fat_atual": 24.5,
-          "fat_mes_anterior": 12.99,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 1.0,
-          "qt_mes_anterior": 1.0,
-          "qt_ano_anterior": 0.0,
-          "queda_fat_mes_valor": -11.51,
-          "queda_fat_ano_valor": -24.5,
-          "queda_fat_mes_pct": 88.6,
-          "queda_fat_ano_pct": null,
-          "queda_qt_mes_valor": 0.0,
-          "queda_qt_ano_valor": -1.0,
-          "queda_qt_mes_pct": 0.0,
-          "queda_qt_ano_pct": null
-        }
-      ],
-      "fat_atual": 257.9,
-      "fat_mes_anterior": 5100.87,
-      "fat_ano_anterior": 0.0,
-      "qt_atual": 4.0,
-      "qt_mes_anterior": 132.0,
-      "qt_ano_anterior": 0.0,
-      "queda_fat_mes_valor": 4842.97,
-      "queda_fat_ano_valor": -257.9,
-      "queda_fat_mes_pct": -94.9,
-      "queda_fat_ano_pct": null,
-      "queda_qt_mes_valor": 128.0,
-      "queda_qt_ano_valor": -4.0,
-      "queda_qt_mes_pct": -97.0,
       "queda_qt_ano_pct": null
     },
     {
@@ -45873,6 +44924,259 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "queda_qt_ano_pct": null
     },
     {
+      "codcli": 93379,
+      "estado": "RJ",
+      "chave": "RJ-93379",
+      "nome": "SUPERMERCADO ADONAI DE SANTA MARGARIDA",
+      "bairro": "COSMOS",
+      "ramo": "MERCADO",
+      "vendedor": "BARBARA CABRAL",
+      "gerente": "ALLAN PAES",
+      "supervisor": "DANIELLE MOURA",
+      "chaves_rca": [
+        "RJ-412"
+      ],
+      "por_industria": [
+        {
+          "fornecedor": "ROBINSON CRUSOE",
+          "por_produto": [
+            {
+              "produto": "RC SARDINHA EM OLEO 50X125G",
+              "fat_atual": 0.0,
+              "fat_mes_anterior": 748.5,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 0.0,
+              "qt_mes_anterior": 3.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": 748.5,
+              "queda_fat_ano_valor": 0.0,
+              "queda_fat_mes_pct": -100.0,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": 3.0,
+              "queda_qt_ano_valor": 0.0,
+              "queda_qt_mes_pct": -100.0,
+              "queda_qt_ano_pct": null
+            },
+            {
+              "produto": "RC ATUM SOLIDO NATURAL 24X170G",
+              "fat_atual": 0.0,
+              "fat_mes_anterior": 625.68,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 0.0,
+              "qt_mes_anterior": 3.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": 625.68,
+              "queda_fat_ano_valor": 0.0,
+              "queda_fat_mes_pct": -100.0,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": 3.0,
+              "queda_qt_ano_valor": 0.0,
+              "queda_qt_mes_pct": -100.0,
+              "queda_qt_ano_pct": null
+            },
+            {
+              "produto": "RC ATUM SOLIDO OLEO 24X170G",
+              "fat_atual": 0.0,
+              "fat_mes_anterior": 625.68,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 0.0,
+              "qt_mes_anterior": 3.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": 625.68,
+              "queda_fat_ano_valor": 0.0,
+              "queda_fat_mes_pct": -100.0,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": 3.0,
+              "queda_qt_ano_valor": 0.0,
+              "queda_qt_mes_pct": -100.0,
+              "queda_qt_ano_pct": null
+            },
+            {
+              "produto": "RC ATUM PEDACOS EM OLEO 24X140G",
+              "fat_atual": 0.0,
+              "fat_mes_anterior": 575.28,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 0.0,
+              "qt_mes_anterior": 3.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": 575.28,
+              "queda_fat_ano_valor": 0.0,
+              "queda_fat_mes_pct": -100.0,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": 3.0,
+              "queda_qt_ano_valor": 0.0,
+              "queda_qt_mes_pct": -100.0,
+              "queda_qt_ano_pct": null
+            },
+            {
+              "produto": "RC ATUM PEDACOS MOLHO DE TOMATE 24X140G",
+              "fat_atual": 0.0,
+              "fat_mes_anterior": 575.28,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 0.0,
+              "qt_mes_anterior": 3.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": 575.28,
+              "queda_fat_ano_valor": 0.0,
+              "queda_fat_mes_pct": -100.0,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": 3.0,
+              "queda_qt_ano_valor": 0.0,
+              "queda_qt_mes_pct": -100.0,
+              "queda_qt_ano_pct": null
+            },
+            {
+              "produto": "RC ATUM PEDACOS NATURAL 24X140G",
+              "fat_atual": 0.0,
+              "fat_mes_anterior": 575.28,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 0.0,
+              "qt_mes_anterior": 3.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": 575.28,
+              "queda_fat_ano_valor": 0.0,
+              "queda_fat_mes_pct": -100.0,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": 3.0,
+              "queda_qt_ano_valor": 0.0,
+              "queda_qt_mes_pct": -100.0,
+              "queda_qt_ano_pct": null
+            },
+            {
+              "produto": "RC SALADA DE ATUM - MEDITERRANEA 12X160G",
+              "fat_atual": 0.0,
+              "fat_mes_anterior": 479.6,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 0.0,
+              "qt_mes_anterior": 4.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": 479.6,
+              "queda_fat_ano_valor": 0.0,
+              "queda_fat_mes_pct": -100.0,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": 4.0,
+              "queda_qt_ano_valor": 0.0,
+              "queda_qt_mes_pct": -100.0,
+              "queda_qt_ano_pct": null
+            },
+            {
+              "produto": "RC ATUM SOLIDO NAT MY PROTEIN 12X142G",
+              "fat_atual": 0.0,
+              "fat_mes_anterior": 251.8,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 0.0,
+              "qt_mes_anterior": 2.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": 251.8,
+              "queda_fat_ano_valor": 0.0,
+              "queda_fat_mes_pct": -100.0,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": 2.0,
+              "queda_qt_ano_valor": 0.0,
+              "queda_qt_mes_pct": -100.0,
+              "queda_qt_ano_pct": null
+            },
+            {
+              "produto": "RC ATUM RALADO MOLHO DE TOMATE 24X140G",
+              "fat_atual": 0.0,
+              "fat_mes_anterior": 153.36,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 0.0,
+              "qt_mes_anterior": 1.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": 153.36,
+              "queda_fat_ano_valor": 0.0,
+              "queda_fat_mes_pct": -100.0,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": 1.0,
+              "queda_qt_ano_valor": 0.0,
+              "queda_qt_mes_pct": -100.0,
+              "queda_qt_ano_pct": null
+            },
+            {
+              "produto": "RC ATUM RALADO NATURAL 24X140G",
+              "fat_atual": 0.0,
+              "fat_mes_anterior": 153.36,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 0.0,
+              "qt_mes_anterior": 1.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": 153.36,
+              "queda_fat_ano_valor": 0.0,
+              "queda_fat_mes_pct": -100.0,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": 1.0,
+              "queda_qt_ano_valor": 0.0,
+              "queda_qt_mes_pct": -100.0,
+              "queda_qt_ano_pct": null
+            },
+            {
+              "produto": "RC ATUM RALADO OLEO 24X140G",
+              "fat_atual": 0.0,
+              "fat_mes_anterior": 153.36,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 0.0,
+              "qt_mes_anterior": 1.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": 153.36,
+              "queda_fat_ano_valor": 0.0,
+              "queda_fat_mes_pct": -100.0,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": 1.0,
+              "queda_qt_ano_valor": 0.0,
+              "queda_qt_mes_pct": -100.0,
+              "queda_qt_ano_pct": null
+            },
+            {
+              "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
+              "fat_atual": 726.0,
+              "fat_mes_anterior": 0.0,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 3.0,
+              "qt_mes_anterior": 0.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": -726.0,
+              "queda_fat_ano_valor": -726.0,
+              "queda_fat_mes_pct": null,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": -3.0,
+              "queda_qt_ano_valor": -3.0,
+              "queda_qt_mes_pct": null,
+              "queda_qt_ano_pct": null
+            }
+          ],
+          "fat_atual": 726.0,
+          "fat_mes_anterior": 4917.18,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 3.0,
+          "qt_mes_anterior": 27.0,
+          "qt_ano_anterior": 0.0,
+          "queda_fat_mes_valor": 4191.18,
+          "queda_fat_ano_valor": -726.0,
+          "queda_fat_mes_pct": -85.2,
+          "queda_fat_ano_pct": null,
+          "queda_qt_mes_valor": 24.0,
+          "queda_qt_ano_valor": -3.0,
+          "queda_qt_mes_pct": -88.9,
+          "queda_qt_ano_pct": null
+        }
+      ],
+      "fat_atual": 726.0,
+      "fat_mes_anterior": 4917.18,
+      "fat_ano_anterior": 0.0,
+      "qt_atual": 3.0,
+      "qt_mes_anterior": 27.0,
+      "qt_ano_anterior": 0.0,
+      "queda_fat_mes_valor": 4191.18,
+      "queda_fat_ano_valor": -726.0,
+      "queda_fat_mes_pct": -85.2,
+      "queda_fat_ano_pct": null,
+      "queda_qt_mes_valor": 24.0,
+      "queda_qt_ano_valor": -3.0,
+      "queda_qt_mes_pct": -88.9,
+      "queda_qt_ano_pct": null
+    },
+    {
       "codcli": 91759,
       "estado": "RJ",
       "chave": "RJ-91759",
@@ -46781,6 +46085,390 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "queda_qt_ano_valor": 24.0,
       "queda_qt_mes_pct": -100.0,
       "queda_qt_ano_pct": -100.0
+    },
+    {
+      "codcli": 91337,
+      "estado": "RJ",
+      "chave": "RJ-91337",
+      "nome": "LOBDOCES LTDA",
+      "bairro": "MARECHAL HERMES",
+      "ramo": "MERCADO",
+      "vendedor": "JORGE MACIEL",
+      "gerente": "ALLAN PAES",
+      "supervisor": "DANIELLE MOURA",
+      "chaves_rca": [
+        "RJ-379"
+      ],
+      "por_industria": [
+        {
+          "fornecedor": "CASA PERINI",
+          "por_produto": [
+            {
+              "produto": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+              "fat_atual": 0.0,
+              "fat_mes_anterior": 4188.0,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 0.0,
+              "qt_mes_anterior": 120.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": 4188.0,
+              "queda_fat_ano_valor": 0.0,
+              "queda_fat_mes_pct": -100.0,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": 120.0,
+              "queda_qt_ano_valor": 0.0,
+              "queda_qt_mes_pct": -100.0,
+              "queda_qt_ano_pct": null
+            }
+          ],
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 4188.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 120.0,
+          "qt_ano_anterior": 0.0,
+          "queda_fat_mes_valor": 4188.0,
+          "queda_fat_ano_valor": 0.0,
+          "queda_fat_mes_pct": -100.0,
+          "queda_fat_ano_pct": null,
+          "queda_qt_mes_valor": 120.0,
+          "queda_qt_ano_valor": 0.0,
+          "queda_qt_mes_pct": -100.0,
+          "queda_qt_ano_pct": null
+        },
+        {
+          "fornecedor": "KAISER",
+          "por_produto": [
+            {
+              "produto": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID",
+              "fat_atual": 0.0,
+              "fat_mes_anterior": 314.5,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 0.0,
+              "qt_mes_anterior": 5.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": 314.5,
+              "queda_fat_ano_valor": 0.0,
+              "queda_fat_mes_pct": -100.0,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": 5.0,
+              "queda_qt_ano_valor": 0.0,
+              "queda_qt_mes_pct": -100.0,
+              "queda_qt_ano_pct": null
+            }
+          ],
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 314.5,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 5.0,
+          "qt_ano_anterior": 0.0,
+          "queda_fat_mes_valor": 314.5,
+          "queda_fat_ano_valor": 0.0,
+          "queda_fat_mes_pct": -100.0,
+          "queda_fat_ano_pct": null,
+          "queda_qt_mes_valor": 5.0,
+          "queda_qt_ano_valor": 0.0,
+          "queda_qt_mes_pct": -100.0,
+          "queda_qt_ano_pct": null
+        },
+        {
+          "fornecedor": "RECKITT",
+          "por_produto": [
+            {
+              "produto": "VEJA MULTIUSO FLORAL 10% DESC 24X500ML",
+              "fat_atual": 0.0,
+              "fat_mes_anterior": 65.28,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 0.0,
+              "qt_mes_anterior": 1.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": 65.28,
+              "queda_fat_ano_valor": 0.0,
+              "queda_fat_mes_pct": -100.0,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": 1.0,
+              "queda_qt_ano_valor": 0.0,
+              "queda_qt_mes_pct": -100.0,
+              "queda_qt_ano_pct": null
+            }
+          ],
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 65.28,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 1.0,
+          "qt_ano_anterior": 0.0,
+          "queda_fat_mes_valor": 65.28,
+          "queda_fat_ano_valor": 0.0,
+          "queda_fat_mes_pct": -100.0,
+          "queda_fat_ano_pct": null,
+          "queda_qt_mes_valor": 1.0,
+          "queda_qt_ano_valor": 0.0,
+          "queda_qt_mes_pct": -100.0,
+          "queda_qt_ano_pct": null
+        },
+        {
+          "fornecedor": "PERNOD",
+          "por_produto": [
+            {
+              "produto": "GIN BEEFEATER PINK 700ML",
+              "fat_atual": 0.0,
+              "fat_mes_anterior": 69.9,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 0.0,
+              "qt_mes_anterior": 1.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": 69.9,
+              "queda_fat_ano_valor": 0.0,
+              "queda_fat_mes_pct": -100.0,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": 1.0,
+              "queda_qt_ano_valor": 0.0,
+              "queda_qt_mes_pct": -100.0,
+              "queda_qt_ano_pct": null
+            },
+            {
+              "produto": "VODKA ABSOLUT TABASCO 750ML",
+              "fat_atual": 0.0,
+              "fat_mes_anterior": 59.9,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 0.0,
+              "qt_mes_anterior": 1.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": 59.9,
+              "queda_fat_ano_valor": 0.0,
+              "queda_fat_mes_pct": -100.0,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": 1.0,
+              "queda_qt_ano_valor": 0.0,
+              "queda_qt_mes_pct": -100.0,
+              "queda_qt_ano_pct": null
+            },
+            {
+              "produto": "GIN BEEFEATER 750ML",
+              "fat_atual": 139.8,
+              "fat_mes_anterior": 69.9,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 2.0,
+              "qt_mes_anterior": 1.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": -69.9,
+              "queda_fat_ano_valor": -139.8,
+              "queda_fat_mes_pct": 100.0,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": -1.0,
+              "queda_qt_ano_valor": -2.0,
+              "queda_qt_mes_pct": 100.0,
+              "queda_qt_ano_pct": null
+            }
+          ],
+          "fat_atual": 139.8,
+          "fat_mes_anterior": 199.7,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 2.0,
+          "qt_mes_anterior": 3.0,
+          "qt_ano_anterior": 0.0,
+          "queda_fat_mes_valor": 59.9,
+          "queda_fat_ano_valor": -139.8,
+          "queda_fat_mes_pct": -30.0,
+          "queda_fat_ano_pct": null,
+          "queda_qt_mes_valor": 1.0,
+          "queda_qt_ano_valor": -2.0,
+          "queda_qt_mes_pct": -33.3,
+          "queda_qt_ano_pct": null
+        },
+        {
+          "fornecedor": "FANTE",
+          "por_produto": [
+            {
+              "produto": "SUCO DE UVA BCO INT QUINTA DO MORGADO 1L",
+              "fat_atual": 0.0,
+              "fat_mes_anterior": 12.99,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 0.0,
+              "qt_mes_anterior": 1.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": 12.99,
+              "queda_fat_ano_valor": 0.0,
+              "queda_fat_mes_pct": -100.0,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": 1.0,
+              "queda_qt_ano_valor": 0.0,
+              "queda_qt_mes_pct": -100.0,
+              "queda_qt_ano_pct": null
+            },
+            {
+              "produto": "VINHO FRISANTE ROSE QUINTA MORGADO 750ML",
+              "fat_atual": 24.5,
+              "fat_mes_anterior": 0.0,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 1.0,
+              "qt_mes_anterior": 0.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": -24.5,
+              "queda_fat_ano_valor": -24.5,
+              "queda_fat_mes_pct": null,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": -1.0,
+              "queda_qt_ano_valor": -1.0,
+              "queda_qt_mes_pct": null,
+              "queda_qt_ano_pct": null
+            }
+          ],
+          "fat_atual": 24.5,
+          "fat_mes_anterior": 12.99,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 1.0,
+          "qt_mes_anterior": 1.0,
+          "qt_ano_anterior": 0.0,
+          "queda_fat_mes_valor": -11.51,
+          "queda_fat_ano_valor": -24.5,
+          "queda_fat_mes_pct": 88.6,
+          "queda_fat_ano_pct": null,
+          "queda_qt_mes_valor": 0.0,
+          "queda_qt_ano_valor": -1.0,
+          "queda_qt_mes_pct": 0.0,
+          "queda_qt_ano_pct": null
+        },
+        {
+          "fornecedor": "TATUZINHO",
+          "por_produto": [
+            {
+              "produto": "ST PIERRE ZERO LATA RED MINT LT 24X310ML",
+              "fat_atual": 93.6,
+              "fat_mes_anterior": 95.9,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 1.0,
+              "qt_mes_anterior": 1.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": 2.3,
+              "queda_fat_ano_valor": -93.6,
+              "queda_fat_mes_pct": -2.4,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": 0.0,
+              "queda_qt_ano_valor": -1.0,
+              "queda_qt_mes_pct": 0.0,
+              "queda_qt_ano_pct": null
+            },
+            {
+              "produto": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
+              "fat_atual": 94.7,
+              "fat_mes_anterior": 0.0,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 1.0,
+              "qt_mes_anterior": 0.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": -94.7,
+              "queda_fat_ano_valor": -94.7,
+              "queda_fat_mes_pct": null,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": -1.0,
+              "queda_qt_ano_valor": -1.0,
+              "queda_qt_mes_pct": null,
+              "queda_qt_ano_pct": null
+            },
+            {
+              "produto": "MOVING HYDRO PROTEIN UVA 12X500ML",
+              "fat_atual": 94.7,
+              "fat_mes_anterior": 0.0,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 1.0,
+              "qt_mes_anterior": 0.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": -94.7,
+              "queda_fat_ano_valor": -94.7,
+              "queda_fat_mes_pct": null,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": -1.0,
+              "queda_qt_ano_valor": -1.0,
+              "queda_qt_mes_pct": null,
+              "queda_qt_ano_pct": null
+            }
+          ],
+          "fat_atual": 283.0,
+          "fat_mes_anterior": 95.9,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 3.0,
+          "qt_mes_anterior": 1.0,
+          "qt_ano_anterior": 0.0,
+          "queda_fat_mes_valor": -187.1,
+          "queda_fat_ano_valor": -283.0,
+          "queda_fat_mes_pct": 195.1,
+          "queda_fat_ano_pct": null,
+          "queda_qt_mes_valor": -2.0,
+          "queda_qt_ano_valor": -3.0,
+          "queda_qt_mes_pct": 200.0,
+          "queda_qt_ano_pct": null
+        },
+        {
+          "fornecedor": "ROBINSON CRUSOE",
+          "por_produto": [
+            {
+              "produto": "RC SARDINHA EM OLEO 50X125G",
+              "fat_atual": 214.5,
+              "fat_mes_anterior": 224.5,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 1.0,
+              "qt_mes_anterior": 1.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": 10.0,
+              "queda_fat_ano_valor": -214.5,
+              "queda_fat_mes_pct": -4.5,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": 0.0,
+              "queda_qt_ano_valor": -1.0,
+              "queda_qt_mes_pct": 0.0,
+              "queda_qt_ano_pct": null
+            },
+            {
+              "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
+              "fat_atual": 429.0,
+              "fat_mes_anterior": 0.0,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 2.0,
+              "qt_mes_anterior": 0.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": -429.0,
+              "queda_fat_ano_valor": -429.0,
+              "queda_fat_mes_pct": null,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": -2.0,
+              "queda_qt_ano_valor": -2.0,
+              "queda_qt_mes_pct": null,
+              "queda_qt_ano_pct": null
+            }
+          ],
+          "fat_atual": 643.5,
+          "fat_mes_anterior": 224.5,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 3.0,
+          "qt_mes_anterior": 1.0,
+          "qt_ano_anterior": 0.0,
+          "queda_fat_mes_valor": -419.0,
+          "queda_fat_ano_valor": -643.5,
+          "queda_fat_mes_pct": 186.6,
+          "queda_fat_ano_pct": null,
+          "queda_qt_mes_valor": -2.0,
+          "queda_qt_ano_valor": -3.0,
+          "queda_qt_mes_pct": 200.0,
+          "queda_qt_ano_pct": null
+        }
+      ],
+      "fat_atual": 1090.8,
+      "fat_mes_anterior": 5100.87,
+      "fat_ano_anterior": 0.0,
+      "qt_atual": 9.0,
+      "qt_mes_anterior": 132.0,
+      "qt_ano_anterior": 0.0,
+      "queda_fat_mes_valor": 4010.07,
+      "queda_fat_ano_valor": -1090.8,
+      "queda_fat_mes_pct": -78.6,
+      "queda_fat_ano_pct": null,
+      "queda_qt_mes_valor": 123.0,
+      "queda_qt_ano_valor": -9.0,
+      "queda_qt_mes_pct": -93.2,
+      "queda_qt_ano_pct": null
     },
     {
       "codcli": 49466,
@@ -48503,259 +48191,6 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "queda_qt_ano_pct": null
     },
     {
-      "codcli": 93383,
-      "estado": "RJ",
-      "chave": "RJ-93383",
-      "nome": "SUPERMERCADO ADONAI DO MENDANHA",
-      "bairro": "CAMPO GRANDE",
-      "ramo": "MERCADO",
-      "vendedor": "BARBARA CABRAL",
-      "gerente": "ALLAN PAES",
-      "supervisor": "DANIELLE MOURA",
-      "chaves_rca": [
-        "RJ-412"
-      ],
-      "por_industria": [
-        {
-          "fornecedor": "ROBINSON CRUSOE",
-          "por_produto": [
-            {
-              "produto": "RC SARDINHA EM OLEO 50X125G",
-              "fat_atual": 0.0,
-              "fat_mes_anterior": 499.0,
-              "fat_ano_anterior": 0.0,
-              "qt_atual": 0.0,
-              "qt_mes_anterior": 2.0,
-              "qt_ano_anterior": 0.0,
-              "queda_fat_mes_valor": 499.0,
-              "queda_fat_ano_valor": 0.0,
-              "queda_fat_mes_pct": -100.0,
-              "queda_fat_ano_pct": null,
-              "queda_qt_mes_valor": 2.0,
-              "queda_qt_ano_valor": 0.0,
-              "queda_qt_mes_pct": -100.0,
-              "queda_qt_ano_pct": null
-            },
-            {
-              "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
-              "fat_atual": 0.0,
-              "fat_mes_anterior": 499.0,
-              "fat_ano_anterior": 0.0,
-              "qt_atual": 0.0,
-              "qt_mes_anterior": 2.0,
-              "qt_ano_anterior": 0.0,
-              "queda_fat_mes_valor": 499.0,
-              "queda_fat_ano_valor": 0.0,
-              "queda_fat_mes_pct": -100.0,
-              "queda_fat_ano_pct": null,
-              "queda_qt_mes_valor": 2.0,
-              "queda_qt_ano_valor": 0.0,
-              "queda_qt_mes_pct": -100.0,
-              "queda_qt_ano_pct": null
-            },
-            {
-              "produto": "RC ATUM SOLIDO NATURAL 24X170G",
-              "fat_atual": 0.0,
-              "fat_mes_anterior": 417.12,
-              "fat_ano_anterior": 0.0,
-              "qt_atual": 0.0,
-              "qt_mes_anterior": 2.0,
-              "qt_ano_anterior": 0.0,
-              "queda_fat_mes_valor": 417.12,
-              "queda_fat_ano_valor": 0.0,
-              "queda_fat_mes_pct": -100.0,
-              "queda_fat_ano_pct": null,
-              "queda_qt_mes_valor": 2.0,
-              "queda_qt_ano_valor": 0.0,
-              "queda_qt_mes_pct": -100.0,
-              "queda_qt_ano_pct": null
-            },
-            {
-              "produto": "RC ATUM SOLIDO OLEO 24X170G",
-              "fat_atual": 0.0,
-              "fat_mes_anterior": 417.12,
-              "fat_ano_anterior": 0.0,
-              "qt_atual": 0.0,
-              "qt_mes_anterior": 2.0,
-              "qt_ano_anterior": 0.0,
-              "queda_fat_mes_valor": 417.12,
-              "queda_fat_ano_valor": 0.0,
-              "queda_fat_mes_pct": -100.0,
-              "queda_fat_ano_pct": null,
-              "queda_qt_mes_valor": 2.0,
-              "queda_qt_ano_valor": 0.0,
-              "queda_qt_mes_pct": -100.0,
-              "queda_qt_ano_pct": null
-            },
-            {
-              "produto": "RC ATUM PEDACOS EM OLEO 24X140G",
-              "fat_atual": 0.0,
-              "fat_mes_anterior": 383.52,
-              "fat_ano_anterior": 0.0,
-              "qt_atual": 0.0,
-              "qt_mes_anterior": 2.0,
-              "qt_ano_anterior": 0.0,
-              "queda_fat_mes_valor": 383.52,
-              "queda_fat_ano_valor": 0.0,
-              "queda_fat_mes_pct": -100.0,
-              "queda_fat_ano_pct": null,
-              "queda_qt_mes_valor": 2.0,
-              "queda_qt_ano_valor": 0.0,
-              "queda_qt_mes_pct": -100.0,
-              "queda_qt_ano_pct": null
-            },
-            {
-              "produto": "RC ATUM PEDACOS MOLHO DE TOMATE 24X140G",
-              "fat_atual": 0.0,
-              "fat_mes_anterior": 383.52,
-              "fat_ano_anterior": 0.0,
-              "qt_atual": 0.0,
-              "qt_mes_anterior": 2.0,
-              "qt_ano_anterior": 0.0,
-              "queda_fat_mes_valor": 383.52,
-              "queda_fat_ano_valor": 0.0,
-              "queda_fat_mes_pct": -100.0,
-              "queda_fat_ano_pct": null,
-              "queda_qt_mes_valor": 2.0,
-              "queda_qt_ano_valor": 0.0,
-              "queda_qt_mes_pct": -100.0,
-              "queda_qt_ano_pct": null
-            },
-            {
-              "produto": "RC ATUM PEDACOS NATURAL 24X140G",
-              "fat_atual": 0.0,
-              "fat_mes_anterior": 383.52,
-              "fat_ano_anterior": 0.0,
-              "qt_atual": 0.0,
-              "qt_mes_anterior": 2.0,
-              "qt_ano_anterior": 0.0,
-              "queda_fat_mes_valor": 383.52,
-              "queda_fat_ano_valor": 0.0,
-              "queda_fat_mes_pct": -100.0,
-              "queda_fat_ano_pct": null,
-              "queda_qt_mes_valor": 2.0,
-              "queda_qt_ano_valor": 0.0,
-              "queda_qt_mes_pct": -100.0,
-              "queda_qt_ano_pct": null
-            },
-            {
-              "produto": "RC SALADA DE ATUM - MEDITERRANEA 12X160G",
-              "fat_atual": 0.0,
-              "fat_mes_anterior": 239.8,
-              "fat_ano_anterior": 0.0,
-              "qt_atual": 0.0,
-              "qt_mes_anterior": 2.0,
-              "qt_ano_anterior": 0.0,
-              "queda_fat_mes_valor": 239.8,
-              "queda_fat_ano_valor": 0.0,
-              "queda_fat_mes_pct": -100.0,
-              "queda_fat_ano_pct": null,
-              "queda_qt_mes_valor": 2.0,
-              "queda_qt_ano_valor": 0.0,
-              "queda_qt_mes_pct": -100.0,
-              "queda_qt_ano_pct": null
-            },
-            {
-              "produto": "RC ATUM RALADO MOLHO DE TOMATE 24X140G",
-              "fat_atual": 0.0,
-              "fat_mes_anterior": 153.36,
-              "fat_ano_anterior": 0.0,
-              "qt_atual": 0.0,
-              "qt_mes_anterior": 1.0,
-              "qt_ano_anterior": 0.0,
-              "queda_fat_mes_valor": 153.36,
-              "queda_fat_ano_valor": 0.0,
-              "queda_fat_mes_pct": -100.0,
-              "queda_fat_ano_pct": null,
-              "queda_qt_mes_valor": 1.0,
-              "queda_qt_ano_valor": 0.0,
-              "queda_qt_mes_pct": -100.0,
-              "queda_qt_ano_pct": null
-            },
-            {
-              "produto": "RC ATUM RALADO NATURAL 24X140G",
-              "fat_atual": 0.0,
-              "fat_mes_anterior": 153.36,
-              "fat_ano_anterior": 0.0,
-              "qt_atual": 0.0,
-              "qt_mes_anterior": 1.0,
-              "qt_ano_anterior": 0.0,
-              "queda_fat_mes_valor": 153.36,
-              "queda_fat_ano_valor": 0.0,
-              "queda_fat_mes_pct": -100.0,
-              "queda_fat_ano_pct": null,
-              "queda_qt_mes_valor": 1.0,
-              "queda_qt_ano_valor": 0.0,
-              "queda_qt_mes_pct": -100.0,
-              "queda_qt_ano_pct": null
-            },
-            {
-              "produto": "RC ATUM RALADO OLEO 24X140G",
-              "fat_atual": 0.0,
-              "fat_mes_anterior": 153.36,
-              "fat_ano_anterior": 0.0,
-              "qt_atual": 0.0,
-              "qt_mes_anterior": 1.0,
-              "qt_ano_anterior": 0.0,
-              "queda_fat_mes_valor": 153.36,
-              "queda_fat_ano_valor": 0.0,
-              "queda_fat_mes_pct": -100.0,
-              "queda_fat_ano_pct": null,
-              "queda_qt_mes_valor": 1.0,
-              "queda_qt_ano_valor": 0.0,
-              "queda_qt_mes_pct": -100.0,
-              "queda_qt_ano_pct": null
-            },
-            {
-              "produto": "RC ATUM SOLIDO NAT MY PROTEIN 12X142G",
-              "fat_atual": 0.0,
-              "fat_mes_anterior": 125.9,
-              "fat_ano_anterior": 0.0,
-              "qt_atual": 0.0,
-              "qt_mes_anterior": 1.0,
-              "qt_ano_anterior": 0.0,
-              "queda_fat_mes_valor": 125.9,
-              "queda_fat_ano_valor": 0.0,
-              "queda_fat_mes_pct": -100.0,
-              "queda_fat_ano_pct": null,
-              "queda_qt_mes_valor": 1.0,
-              "queda_qt_ano_valor": 0.0,
-              "queda_qt_mes_pct": -100.0,
-              "queda_qt_ano_pct": null
-            }
-          ],
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 3808.58,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 20.0,
-          "qt_ano_anterior": 0.0,
-          "queda_fat_mes_valor": 3808.58,
-          "queda_fat_ano_valor": 0.0,
-          "queda_fat_mes_pct": -100.0,
-          "queda_fat_ano_pct": null,
-          "queda_qt_mes_valor": 20.0,
-          "queda_qt_ano_valor": 0.0,
-          "queda_qt_mes_pct": -100.0,
-          "queda_qt_ano_pct": null
-        }
-      ],
-      "fat_atual": 0.0,
-      "fat_mes_anterior": 3808.58,
-      "fat_ano_anterior": 0.0,
-      "qt_atual": 0.0,
-      "qt_mes_anterior": 20.0,
-      "qt_ano_anterior": 0.0,
-      "queda_fat_mes_valor": 3808.58,
-      "queda_fat_ano_valor": 0.0,
-      "queda_fat_mes_pct": -100.0,
-      "queda_fat_ano_pct": null,
-      "queda_qt_mes_valor": 20.0,
-      "queda_qt_ano_valor": 0.0,
-      "queda_qt_mes_pct": -100.0,
-      "queda_qt_ano_pct": null
-    },
-    {
       "codcli": 51461,
       "estado": "SP",
       "chave": "SP-51461",
@@ -49552,6 +48987,473 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "queda_qt_ano_valor": -12.0,
       "queda_qt_mes_pct": -95.4,
       "queda_qt_ano_pct": null
+    },
+    {
+      "codcli": 84459,
+      "estado": "RJ",
+      "chave": "RJ-84459",
+      "nome": "COLDBEER",
+      "bairro": "REALENGO",
+      "ramo": "MERCADO",
+      "vendedor": "DIOGO RAPOSO",
+      "gerente": "ALLAN PAES",
+      "supervisor": "DANIELLE MOURA",
+      "chaves_rca": [
+        "RJ-144"
+      ],
+      "por_industria": [
+        {
+          "fornecedor": "DIAGEO",
+          "por_produto": [
+            {
+              "produto": "WHISKY J WALKER BLACK LABEL 1L",
+              "fat_atual": 0.0,
+              "fat_mes_anterior": 1728.0,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 0.0,
+              "qt_mes_anterior": 12.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": 1728.0,
+              "queda_fat_ano_valor": 0.0,
+              "queda_fat_mes_pct": -100.0,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": 12.0,
+              "queda_qt_ano_valor": 0.0,
+              "queda_qt_mes_pct": -100.0,
+              "queda_qt_ano_pct": null
+            },
+            {
+              "produto": "WHISKY BUCHANANS 12 YEARS 1000 ML",
+              "fat_atual": 0.0,
+              "fat_mes_anterior": 864.0,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 0.0,
+              "qt_mes_anterior": 6.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": 864.0,
+              "queda_fat_ano_valor": 0.0,
+              "queda_fat_mes_pct": -100.0,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": 6.0,
+              "queda_qt_ano_valor": 0.0,
+              "queda_qt_mes_pct": -100.0,
+              "queda_qt_ano_pct": null
+            },
+            {
+              "produto": "WHISKY J WALKER RED LABEL 1L",
+              "fat_atual": 0.0,
+              "fat_mes_anterior": 840.0,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 0.0,
+              "qt_mes_anterior": 12.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": 840.0,
+              "queda_fat_ano_valor": 0.0,
+              "queda_fat_mes_pct": -100.0,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": 12.0,
+              "queda_qt_ano_valor": 0.0,
+              "queda_qt_mes_pct": -100.0,
+              "queda_qt_ano_pct": null
+            },
+            {
+              "produto": "VODCA SMIRNOFF RED 998 ML",
+              "fat_atual": 294.0,
+              "fat_mes_anterior": 330.0,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 12.0,
+              "qt_mes_anterior": 12.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": 36.0,
+              "queda_fat_ano_valor": -294.0,
+              "queda_fat_mes_pct": -10.9,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": 0.0,
+              "queda_qt_ano_valor": -12.0,
+              "queda_qt_mes_pct": 0.0,
+              "queda_qt_ano_pct": null
+            }
+          ],
+          "fat_atual": 294.0,
+          "fat_mes_anterior": 3762.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 12.0,
+          "qt_mes_anterior": 42.0,
+          "qt_ano_anterior": 0.0,
+          "queda_fat_mes_valor": 3468.0,
+          "queda_fat_ano_valor": -294.0,
+          "queda_fat_mes_pct": -92.2,
+          "queda_fat_ano_pct": null,
+          "queda_qt_mes_valor": 30.0,
+          "queda_qt_ano_valor": -12.0,
+          "queda_qt_mes_pct": -71.4,
+          "queda_qt_ano_pct": null
+        },
+        {
+          "fornecedor": "TATUZINHO",
+          "por_produto": [
+            {
+              "produto": "ST PIERRE LATA PINK LEMON LT 24X270ML",
+              "fat_atual": 0.0,
+              "fat_mes_anterior": 459.5,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 0.0,
+              "qt_mes_anterior": 5.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": 459.5,
+              "queda_fat_ano_valor": 0.0,
+              "queda_fat_mes_pct": -100.0,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": 5.0,
+              "queda_qt_ano_valor": 0.0,
+              "queda_qt_mes_pct": -100.0,
+              "queda_qt_ano_pct": null
+            },
+            {
+              "produto": "ST PIERRE LATA RED MINT LT 24X270ML",
+              "fat_atual": 0.0,
+              "fat_mes_anterior": 183.8,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 0.0,
+              "qt_mes_anterior": 2.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": 183.8,
+              "queda_fat_ano_valor": 0.0,
+              "queda_fat_mes_pct": -100.0,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": 2.0,
+              "queda_qt_ano_valor": 0.0,
+              "queda_qt_mes_pct": -100.0,
+              "queda_qt_ano_pct": null
+            },
+            {
+              "produto": "ST PIERRE LATA 270 ML PINK LEMON CX C/24",
+              "fat_atual": 0.0,
+              "fat_mes_anterior": 0.0,
+              "fat_ano_anterior": 179.8,
+              "qt_atual": 0.0,
+              "qt_mes_anterior": 0.0,
+              "qt_ano_anterior": 2.0,
+              "queda_fat_mes_valor": 0.0,
+              "queda_fat_ano_valor": 179.8,
+              "queda_fat_mes_pct": null,
+              "queda_fat_ano_pct": -100.0,
+              "queda_qt_mes_valor": 0.0,
+              "queda_qt_ano_valor": 2.0,
+              "queda_qt_mes_pct": null,
+              "queda_qt_ano_pct": -100.0
+            },
+            {
+              "produto": "ST PIERRE LATA 270ML RED MINT CX C/ 24",
+              "fat_atual": 0.0,
+              "fat_mes_anterior": 0.0,
+              "fat_ano_anterior": 179.8,
+              "qt_atual": 0.0,
+              "qt_mes_anterior": 0.0,
+              "qt_ano_anterior": 2.0,
+              "queda_fat_mes_valor": 0.0,
+              "queda_fat_ano_valor": 179.8,
+              "queda_fat_mes_pct": null,
+              "queda_fat_ano_pct": -100.0,
+              "queda_qt_mes_valor": 0.0,
+              "queda_qt_ano_valor": 2.0,
+              "queda_qt_mes_pct": null,
+              "queda_qt_ano_pct": -100.0
+            }
+          ],
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 643.3,
+          "fat_ano_anterior": 359.6,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 7.0,
+          "qt_ano_anterior": 4.0,
+          "queda_fat_mes_valor": 643.3,
+          "queda_fat_ano_valor": 359.6,
+          "queda_fat_mes_pct": -100.0,
+          "queda_fat_ano_pct": -100.0,
+          "queda_qt_mes_valor": 7.0,
+          "queda_qt_ano_valor": 4.0,
+          "queda_qt_mes_pct": -100.0,
+          "queda_qt_ano_pct": -100.0
+        },
+        {
+          "fornecedor": "RED BULL",
+          "por_produto": [
+            {
+              "produto": "RED BULL 24X250ML",
+              "fat_atual": 862.8,
+              "fat_mes_anterior": 1700.0,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 5.0,
+              "qt_mes_anterior": 10.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": 837.2,
+              "queda_fat_ano_valor": -862.8,
+              "queda_fat_mes_pct": -49.2,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": 5.0,
+              "queda_qt_ano_valor": -5.0,
+              "queda_qt_mes_pct": -50.0,
+              "queda_qt_ano_pct": null
+            },
+            {
+              "produto": "RED BULL 250ML CAIXA C/24 UNID",
+              "fat_atual": 0.0,
+              "fat_mes_anterior": 0.0,
+              "fat_ano_anterior": 974.7,
+              "qt_atual": 0.0,
+              "qt_mes_anterior": 0.0,
+              "qt_ano_anterior": 6.0,
+              "queda_fat_mes_valor": 0.0,
+              "queda_fat_ano_valor": 974.7,
+              "queda_fat_mes_pct": null,
+              "queda_fat_ano_pct": -100.0,
+              "queda_qt_mes_valor": 0.0,
+              "queda_qt_ano_valor": 6.0,
+              "queda_qt_mes_pct": null,
+              "queda_qt_ano_pct": -100.0
+            },
+            {
+              "produto": "RED BULL SUGAR FREE 250 ML CX C/24",
+              "fat_atual": 0.0,
+              "fat_mes_anterior": 0.0,
+              "fat_ano_anterior": 164.9,
+              "qt_atual": 0.0,
+              "qt_mes_anterior": 0.0,
+              "qt_ano_anterior": 1.0,
+              "queda_fat_mes_valor": 0.0,
+              "queda_fat_ano_valor": 164.9,
+              "queda_fat_mes_pct": null,
+              "queda_fat_ano_pct": -100.0,
+              "queda_qt_mes_valor": 0.0,
+              "queda_qt_ano_valor": 1.0,
+              "queda_qt_mes_pct": null,
+              "queda_qt_ano_pct": -100.0
+            },
+            {
+              "produto": "RED BULL TROPICAL EDITION 250 ML CX C/24",
+              "fat_atual": 0.0,
+              "fat_mes_anterior": 0.0,
+              "fat_ano_anterior": 164.9,
+              "qt_atual": 0.0,
+              "qt_mes_anterior": 0.0,
+              "qt_ano_anterior": 1.0,
+              "queda_fat_mes_valor": 0.0,
+              "queda_fat_ano_valor": 164.9,
+              "queda_fat_mes_pct": null,
+              "queda_fat_ano_pct": -100.0,
+              "queda_qt_mes_valor": 0.0,
+              "queda_qt_ano_valor": 1.0,
+              "queda_qt_mes_pct": null,
+              "queda_qt_ano_pct": -100.0
+            },
+            {
+              "produto": "RED BULL MELANCIA 250ML CX C/24",
+              "fat_atual": 517.68,
+              "fat_mes_anterior": 340.0,
+              "fat_ano_anterior": 164.9,
+              "qt_atual": 3.0,
+              "qt_mes_anterior": 2.0,
+              "qt_ano_anterior": 1.0,
+              "queda_fat_mes_valor": -177.68,
+              "queda_fat_ano_valor": -352.78,
+              "queda_fat_mes_pct": 52.3,
+              "queda_fat_ano_pct": 213.9,
+              "queda_qt_mes_valor": -1.0,
+              "queda_qt_ano_valor": -2.0,
+              "queda_qt_mes_pct": 50.0,
+              "queda_qt_ano_pct": 200.0
+            },
+            {
+              "produto": "RED BULL TROPICAL 24X250ML",
+              "fat_atual": 517.68,
+              "fat_mes_anterior": 340.0,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 3.0,
+              "qt_mes_anterior": 2.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": -177.68,
+              "queda_fat_ano_valor": -517.68,
+              "queda_fat_mes_pct": 52.3,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": -1.0,
+              "queda_qt_ano_valor": -3.0,
+              "queda_qt_mes_pct": 50.0,
+              "queda_qt_ano_pct": null
+            }
+          ],
+          "fat_atual": 1898.16,
+          "fat_mes_anterior": 2380.0,
+          "fat_ano_anterior": 1469.4,
+          "qt_atual": 11.0,
+          "qt_mes_anterior": 14.0,
+          "qt_ano_anterior": 9.0,
+          "queda_fat_mes_valor": 481.84,
+          "queda_fat_ano_valor": -428.76,
+          "queda_fat_mes_pct": -20.2,
+          "queda_fat_ano_pct": 29.2,
+          "queda_qt_mes_valor": 3.0,
+          "queda_qt_ano_valor": -2.0,
+          "queda_qt_mes_pct": -21.4,
+          "queda_qt_ano_pct": 22.2
+        },
+        {
+          "fornecedor": "HOB",
+          "por_produto": [
+            {
+              "produto": "GIN MARINA ROSE 750ML",
+              "fat_atual": 39.9,
+              "fat_mes_anterior": 0.0,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 1.0,
+              "qt_mes_anterior": 0.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": -39.9,
+              "queda_fat_ano_valor": -39.9,
+              "queda_fat_mes_pct": null,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": -1.0,
+              "queda_qt_ano_valor": -1.0,
+              "queda_qt_mes_pct": null,
+              "queda_qt_ano_pct": null
+            }
+          ],
+          "fat_atual": 39.9,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 1.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0,
+          "queda_fat_mes_valor": -39.9,
+          "queda_fat_ano_valor": -39.9,
+          "queda_fat_mes_pct": null,
+          "queda_fat_ano_pct": null,
+          "queda_qt_mes_valor": -1.0,
+          "queda_qt_ano_valor": -1.0,
+          "queda_qt_mes_pct": null,
+          "queda_qt_ano_pct": null
+        },
+        {
+          "fornecedor": "PERNOD",
+          "por_produto": [
+            {
+              "produto": "WHISKY BALLANTINE S SUNSHINE 700ML",
+              "fat_atual": 0.0,
+              "fat_mes_anterior": 143.7,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 0.0,
+              "qt_mes_anterior": 3.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": 143.7,
+              "queda_fat_ano_valor": 0.0,
+              "queda_fat_mes_pct": -100.0,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": 3.0,
+              "queda_qt_ano_valor": 0.0,
+              "queda_qt_mes_pct": -100.0,
+              "queda_qt_ano_pct": null
+            },
+            {
+              "produto": "GIN BEEFEATER PINK 700ML",
+              "fat_atual": 359.4,
+              "fat_mes_anterior": 0.0,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 6.0,
+              "qt_mes_anterior": 0.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": -359.4,
+              "queda_fat_ano_valor": -359.4,
+              "queda_fat_mes_pct": null,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": -6.0,
+              "queda_qt_ano_valor": -6.0,
+              "queda_qt_mes_pct": null,
+              "queda_qt_ano_pct": null
+            }
+          ],
+          "fat_atual": 359.4,
+          "fat_mes_anterior": 143.7,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 6.0,
+          "qt_mes_anterior": 3.0,
+          "qt_ano_anterior": 0.0,
+          "queda_fat_mes_valor": -215.7,
+          "queda_fat_ano_valor": -359.4,
+          "queda_fat_mes_pct": 150.1,
+          "queda_fat_ano_pct": null,
+          "queda_qt_mes_valor": -3.0,
+          "queda_qt_ano_valor": -6.0,
+          "queda_qt_mes_pct": 100.0,
+          "queda_qt_ano_pct": null
+        },
+        {
+          "fornecedor": "FANTE",
+          "por_produto": [
+            {
+              "produto": "GIN ROCKS WATERMELON 1000ML",
+              "fat_atual": 0.0,
+              "fat_mes_anterior": 67.5,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 0.0,
+              "qt_mes_anterior": 3.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": 67.5,
+              "queda_fat_ano_valor": 0.0,
+              "queda_fat_mes_pct": -100.0,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": 3.0,
+              "queda_qt_ano_valor": 0.0,
+              "queda_qt_mes_pct": -100.0,
+              "queda_qt_ano_pct": null
+            },
+            {
+              "produto": "GIN ROCKS STRAWBERRY 1000ML",
+              "fat_atual": 810.0,
+              "fat_mes_anterior": 67.5,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 36.0,
+              "qt_mes_anterior": 3.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": -742.5,
+              "queda_fat_ano_valor": -810.0,
+              "queda_fat_mes_pct": 1100.0,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": -33.0,
+              "queda_qt_ano_valor": -36.0,
+              "queda_qt_mes_pct": 1100.0,
+              "queda_qt_ano_pct": null
+            }
+          ],
+          "fat_atual": 810.0,
+          "fat_mes_anterior": 135.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 36.0,
+          "qt_mes_anterior": 6.0,
+          "qt_ano_anterior": 0.0,
+          "queda_fat_mes_valor": -675.0,
+          "queda_fat_ano_valor": -810.0,
+          "queda_fat_mes_pct": 500.0,
+          "queda_fat_ano_pct": null,
+          "queda_qt_mes_valor": -30.0,
+          "queda_qt_ano_valor": -36.0,
+          "queda_qt_mes_pct": 500.0,
+          "queda_qt_ano_pct": null
+        }
+      ],
+      "fat_atual": 3401.46,
+      "fat_mes_anterior": 7064.0,
+      "fat_ano_anterior": 1829.0,
+      "qt_atual": 66.0,
+      "qt_mes_anterior": 72.0,
+      "qt_ano_anterior": 13.0,
+      "queda_fat_mes_valor": 3662.54,
+      "queda_fat_ano_valor": -1572.46,
+      "queda_fat_mes_pct": -51.8,
+      "queda_fat_ano_pct": 86.0,
+      "queda_qt_mes_valor": 6.0,
+      "queda_qt_ano_valor": -53.0,
+      "queda_qt_mes_pct": -8.3,
+      "queda_qt_ano_pct": 407.7
     },
     {
       "codcli": 50421,
@@ -51307,242 +51209,6 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "queda_fat_mes_pct": -100.0,
       "queda_fat_ano_pct": null,
       "queda_qt_mes_valor": 62.0,
-      "queda_qt_ano_valor": 0.0,
-      "queda_qt_mes_pct": -100.0,
-      "queda_qt_ano_pct": null
-    },
-    {
-      "codcli": 93381,
-      "estado": "RJ",
-      "chave": "RJ-93381",
-      "nome": "SUPERMERCADO ADONAI DE VILA NOVA",
-      "bairro": "CAMPO GRANDE",
-      "ramo": "MERCADO",
-      "vendedor": "BARBARA CABRAL",
-      "gerente": "ALLAN PAES",
-      "supervisor": "DANIELLE MOURA",
-      "chaves_rca": [
-        "RJ-412"
-      ],
-      "por_industria": [
-        {
-          "fornecedor": "ROBINSON CRUSOE",
-          "por_produto": [
-            {
-              "produto": "RC SARDINHA EM OLEO 50X125G",
-              "fat_atual": 0.0,
-              "fat_mes_anterior": 499.0,
-              "fat_ano_anterior": 0.0,
-              "qt_atual": 0.0,
-              "qt_mes_anterior": 2.0,
-              "qt_ano_anterior": 0.0,
-              "queda_fat_mes_valor": 499.0,
-              "queda_fat_ano_valor": 0.0,
-              "queda_fat_mes_pct": -100.0,
-              "queda_fat_ano_pct": null,
-              "queda_qt_mes_valor": 2.0,
-              "queda_qt_ano_valor": 0.0,
-              "queda_qt_mes_pct": -100.0,
-              "queda_qt_ano_pct": null
-            },
-            {
-              "produto": "RC ATUM SOLIDO NATURAL 24X170G",
-              "fat_atual": 0.0,
-              "fat_mes_anterior": 417.12,
-              "fat_ano_anterior": 0.0,
-              "qt_atual": 0.0,
-              "qt_mes_anterior": 2.0,
-              "qt_ano_anterior": 0.0,
-              "queda_fat_mes_valor": 417.12,
-              "queda_fat_ano_valor": 0.0,
-              "queda_fat_mes_pct": -100.0,
-              "queda_fat_ano_pct": null,
-              "queda_qt_mes_valor": 2.0,
-              "queda_qt_ano_valor": 0.0,
-              "queda_qt_mes_pct": -100.0,
-              "queda_qt_ano_pct": null
-            },
-            {
-              "produto": "RC ATUM SOLIDO OLEO 24X170G",
-              "fat_atual": 0.0,
-              "fat_mes_anterior": 417.12,
-              "fat_ano_anterior": 0.0,
-              "qt_atual": 0.0,
-              "qt_mes_anterior": 2.0,
-              "qt_ano_anterior": 0.0,
-              "queda_fat_mes_valor": 417.12,
-              "queda_fat_ano_valor": 0.0,
-              "queda_fat_mes_pct": -100.0,
-              "queda_fat_ano_pct": null,
-              "queda_qt_mes_valor": 2.0,
-              "queda_qt_ano_valor": 0.0,
-              "queda_qt_mes_pct": -100.0,
-              "queda_qt_ano_pct": null
-            },
-            {
-              "produto": "RC ATUM PEDACOS EM OLEO 24X140G",
-              "fat_atual": 0.0,
-              "fat_mes_anterior": 383.52,
-              "fat_ano_anterior": 0.0,
-              "qt_atual": 0.0,
-              "qt_mes_anterior": 2.0,
-              "qt_ano_anterior": 0.0,
-              "queda_fat_mes_valor": 383.52,
-              "queda_fat_ano_valor": 0.0,
-              "queda_fat_mes_pct": -100.0,
-              "queda_fat_ano_pct": null,
-              "queda_qt_mes_valor": 2.0,
-              "queda_qt_ano_valor": 0.0,
-              "queda_qt_mes_pct": -100.0,
-              "queda_qt_ano_pct": null
-            },
-            {
-              "produto": "RC ATUM PEDACOS MOLHO DE TOMATE 24X140G",
-              "fat_atual": 0.0,
-              "fat_mes_anterior": 383.52,
-              "fat_ano_anterior": 0.0,
-              "qt_atual": 0.0,
-              "qt_mes_anterior": 2.0,
-              "qt_ano_anterior": 0.0,
-              "queda_fat_mes_valor": 383.52,
-              "queda_fat_ano_valor": 0.0,
-              "queda_fat_mes_pct": -100.0,
-              "queda_fat_ano_pct": null,
-              "queda_qt_mes_valor": 2.0,
-              "queda_qt_ano_valor": 0.0,
-              "queda_qt_mes_pct": -100.0,
-              "queda_qt_ano_pct": null
-            },
-            {
-              "produto": "RC ATUM PEDACOS NATURAL 24X140G",
-              "fat_atual": 0.0,
-              "fat_mes_anterior": 383.52,
-              "fat_ano_anterior": 0.0,
-              "qt_atual": 0.0,
-              "qt_mes_anterior": 2.0,
-              "qt_ano_anterior": 0.0,
-              "queda_fat_mes_valor": 383.52,
-              "queda_fat_ano_valor": 0.0,
-              "queda_fat_mes_pct": -100.0,
-              "queda_fat_ano_pct": null,
-              "queda_qt_mes_valor": 2.0,
-              "queda_qt_ano_valor": 0.0,
-              "queda_qt_mes_pct": -100.0,
-              "queda_qt_ano_pct": null
-            },
-            {
-              "produto": "RC SALADA DE ATUM - MEDITERRANEA 12X160G",
-              "fat_atual": 0.0,
-              "fat_mes_anterior": 359.7,
-              "fat_ano_anterior": 0.0,
-              "qt_atual": 0.0,
-              "qt_mes_anterior": 3.0,
-              "qt_ano_anterior": 0.0,
-              "queda_fat_mes_valor": 359.7,
-              "queda_fat_ano_valor": 0.0,
-              "queda_fat_mes_pct": -100.0,
-              "queda_fat_ano_pct": null,
-              "queda_qt_mes_valor": 3.0,
-              "queda_qt_ano_valor": 0.0,
-              "queda_qt_mes_pct": -100.0,
-              "queda_qt_ano_pct": null
-            },
-            {
-              "produto": "RC ATUM RALADO MOLHO DE TOMATE 24X140G",
-              "fat_atual": 0.0,
-              "fat_mes_anterior": 153.36,
-              "fat_ano_anterior": 0.0,
-              "qt_atual": 0.0,
-              "qt_mes_anterior": 1.0,
-              "qt_ano_anterior": 0.0,
-              "queda_fat_mes_valor": 153.36,
-              "queda_fat_ano_valor": 0.0,
-              "queda_fat_mes_pct": -100.0,
-              "queda_fat_ano_pct": null,
-              "queda_qt_mes_valor": 1.0,
-              "queda_qt_ano_valor": 0.0,
-              "queda_qt_mes_pct": -100.0,
-              "queda_qt_ano_pct": null
-            },
-            {
-              "produto": "RC ATUM RALADO NATURAL 24X140G",
-              "fat_atual": 0.0,
-              "fat_mes_anterior": 153.36,
-              "fat_ano_anterior": 0.0,
-              "qt_atual": 0.0,
-              "qt_mes_anterior": 1.0,
-              "qt_ano_anterior": 0.0,
-              "queda_fat_mes_valor": 153.36,
-              "queda_fat_ano_valor": 0.0,
-              "queda_fat_mes_pct": -100.0,
-              "queda_fat_ano_pct": null,
-              "queda_qt_mes_valor": 1.0,
-              "queda_qt_ano_valor": 0.0,
-              "queda_qt_mes_pct": -100.0,
-              "queda_qt_ano_pct": null
-            },
-            {
-              "produto": "RC ATUM RALADO OLEO 24X140G",
-              "fat_atual": 0.0,
-              "fat_mes_anterior": 153.36,
-              "fat_ano_anterior": 0.0,
-              "qt_atual": 0.0,
-              "qt_mes_anterior": 1.0,
-              "qt_ano_anterior": 0.0,
-              "queda_fat_mes_valor": 153.36,
-              "queda_fat_ano_valor": 0.0,
-              "queda_fat_mes_pct": -100.0,
-              "queda_fat_ano_pct": null,
-              "queda_qt_mes_valor": 1.0,
-              "queda_qt_ano_valor": 0.0,
-              "queda_qt_mes_pct": -100.0,
-              "queda_qt_ano_pct": null
-            },
-            {
-              "produto": "RC ATUM SOLIDO NAT MY PROTEIN 12X142G",
-              "fat_atual": 0.0,
-              "fat_mes_anterior": 125.9,
-              "fat_ano_anterior": 0.0,
-              "qt_atual": 0.0,
-              "qt_mes_anterior": 1.0,
-              "qt_ano_anterior": 0.0,
-              "queda_fat_mes_valor": 125.9,
-              "queda_fat_ano_valor": 0.0,
-              "queda_fat_mes_pct": -100.0,
-              "queda_fat_ano_pct": null,
-              "queda_qt_mes_valor": 1.0,
-              "queda_qt_ano_valor": 0.0,
-              "queda_qt_mes_pct": -100.0,
-              "queda_qt_ano_pct": null
-            }
-          ],
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 3429.48,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 19.0,
-          "qt_ano_anterior": 0.0,
-          "queda_fat_mes_valor": 3429.48,
-          "queda_fat_ano_valor": 0.0,
-          "queda_fat_mes_pct": -100.0,
-          "queda_fat_ano_pct": null,
-          "queda_qt_mes_valor": 19.0,
-          "queda_qt_ano_valor": 0.0,
-          "queda_qt_mes_pct": -100.0,
-          "queda_qt_ano_pct": null
-        }
-      ],
-      "fat_atual": 0.0,
-      "fat_mes_anterior": 3429.48,
-      "fat_ano_anterior": 0.0,
-      "qt_atual": 0.0,
-      "qt_mes_anterior": 19.0,
-      "qt_ano_anterior": 0.0,
-      "queda_fat_mes_valor": 3429.48,
-      "queda_fat_ano_valor": 0.0,
-      "queda_fat_mes_pct": -100.0,
-      "queda_fat_ano_pct": null,
-      "queda_qt_mes_valor": 19.0,
       "queda_qt_ano_valor": 0.0,
       "queda_qt_mes_pct": -100.0,
       "queda_qt_ano_pct": null
@@ -54876,6 +54542,259 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "queda_qt_ano_valor": -2.0,
       "queda_qt_mes_pct": -80.6,
       "queda_qt_ano_pct": 50.0
+    },
+    {
+      "codcli": 93383,
+      "estado": "RJ",
+      "chave": "RJ-93383",
+      "nome": "SUPERMERCADO ADONAI DO MENDANHA",
+      "bairro": "CAMPO GRANDE",
+      "ramo": "MERCADO",
+      "vendedor": "BARBARA CABRAL",
+      "gerente": "ALLAN PAES",
+      "supervisor": "DANIELLE MOURA",
+      "chaves_rca": [
+        "RJ-412"
+      ],
+      "por_industria": [
+        {
+          "fornecedor": "ROBINSON CRUSOE",
+          "por_produto": [
+            {
+              "produto": "RC SARDINHA EM OLEO 50X125G",
+              "fat_atual": 0.0,
+              "fat_mes_anterior": 499.0,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 0.0,
+              "qt_mes_anterior": 2.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": 499.0,
+              "queda_fat_ano_valor": 0.0,
+              "queda_fat_mes_pct": -100.0,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": 2.0,
+              "queda_qt_ano_valor": 0.0,
+              "queda_qt_mes_pct": -100.0,
+              "queda_qt_ano_pct": null
+            },
+            {
+              "produto": "RC ATUM SOLIDO NATURAL 24X170G",
+              "fat_atual": 0.0,
+              "fat_mes_anterior": 417.12,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 0.0,
+              "qt_mes_anterior": 2.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": 417.12,
+              "queda_fat_ano_valor": 0.0,
+              "queda_fat_mes_pct": -100.0,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": 2.0,
+              "queda_qt_ano_valor": 0.0,
+              "queda_qt_mes_pct": -100.0,
+              "queda_qt_ano_pct": null
+            },
+            {
+              "produto": "RC ATUM SOLIDO OLEO 24X170G",
+              "fat_atual": 0.0,
+              "fat_mes_anterior": 417.12,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 0.0,
+              "qt_mes_anterior": 2.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": 417.12,
+              "queda_fat_ano_valor": 0.0,
+              "queda_fat_mes_pct": -100.0,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": 2.0,
+              "queda_qt_ano_valor": 0.0,
+              "queda_qt_mes_pct": -100.0,
+              "queda_qt_ano_pct": null
+            },
+            {
+              "produto": "RC ATUM PEDACOS EM OLEO 24X140G",
+              "fat_atual": 0.0,
+              "fat_mes_anterior": 383.52,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 0.0,
+              "qt_mes_anterior": 2.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": 383.52,
+              "queda_fat_ano_valor": 0.0,
+              "queda_fat_mes_pct": -100.0,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": 2.0,
+              "queda_qt_ano_valor": 0.0,
+              "queda_qt_mes_pct": -100.0,
+              "queda_qt_ano_pct": null
+            },
+            {
+              "produto": "RC ATUM PEDACOS MOLHO DE TOMATE 24X140G",
+              "fat_atual": 0.0,
+              "fat_mes_anterior": 383.52,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 0.0,
+              "qt_mes_anterior": 2.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": 383.52,
+              "queda_fat_ano_valor": 0.0,
+              "queda_fat_mes_pct": -100.0,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": 2.0,
+              "queda_qt_ano_valor": 0.0,
+              "queda_qt_mes_pct": -100.0,
+              "queda_qt_ano_pct": null
+            },
+            {
+              "produto": "RC ATUM PEDACOS NATURAL 24X140G",
+              "fat_atual": 0.0,
+              "fat_mes_anterior": 383.52,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 0.0,
+              "qt_mes_anterior": 2.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": 383.52,
+              "queda_fat_ano_valor": 0.0,
+              "queda_fat_mes_pct": -100.0,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": 2.0,
+              "queda_qt_ano_valor": 0.0,
+              "queda_qt_mes_pct": -100.0,
+              "queda_qt_ano_pct": null
+            },
+            {
+              "produto": "RC SALADA DE ATUM - MEDITERRANEA 12X160G",
+              "fat_atual": 0.0,
+              "fat_mes_anterior": 239.8,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 0.0,
+              "qt_mes_anterior": 2.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": 239.8,
+              "queda_fat_ano_valor": 0.0,
+              "queda_fat_mes_pct": -100.0,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": 2.0,
+              "queda_qt_ano_valor": 0.0,
+              "queda_qt_mes_pct": -100.0,
+              "queda_qt_ano_pct": null
+            },
+            {
+              "produto": "RC ATUM RALADO MOLHO DE TOMATE 24X140G",
+              "fat_atual": 0.0,
+              "fat_mes_anterior": 153.36,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 0.0,
+              "qt_mes_anterior": 1.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": 153.36,
+              "queda_fat_ano_valor": 0.0,
+              "queda_fat_mes_pct": -100.0,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": 1.0,
+              "queda_qt_ano_valor": 0.0,
+              "queda_qt_mes_pct": -100.0,
+              "queda_qt_ano_pct": null
+            },
+            {
+              "produto": "RC ATUM RALADO NATURAL 24X140G",
+              "fat_atual": 0.0,
+              "fat_mes_anterior": 153.36,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 0.0,
+              "qt_mes_anterior": 1.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": 153.36,
+              "queda_fat_ano_valor": 0.0,
+              "queda_fat_mes_pct": -100.0,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": 1.0,
+              "queda_qt_ano_valor": 0.0,
+              "queda_qt_mes_pct": -100.0,
+              "queda_qt_ano_pct": null
+            },
+            {
+              "produto": "RC ATUM RALADO OLEO 24X140G",
+              "fat_atual": 0.0,
+              "fat_mes_anterior": 153.36,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 0.0,
+              "qt_mes_anterior": 1.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": 153.36,
+              "queda_fat_ano_valor": 0.0,
+              "queda_fat_mes_pct": -100.0,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": 1.0,
+              "queda_qt_ano_valor": 0.0,
+              "queda_qt_mes_pct": -100.0,
+              "queda_qt_ano_pct": null
+            },
+            {
+              "produto": "RC ATUM SOLIDO NAT MY PROTEIN 12X142G",
+              "fat_atual": 0.0,
+              "fat_mes_anterior": 125.9,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 0.0,
+              "qt_mes_anterior": 1.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": 125.9,
+              "queda_fat_ano_valor": 0.0,
+              "queda_fat_mes_pct": -100.0,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": 1.0,
+              "queda_qt_ano_valor": 0.0,
+              "queda_qt_mes_pct": -100.0,
+              "queda_qt_ano_pct": null
+            },
+            {
+              "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
+              "fat_atual": 726.0,
+              "fat_mes_anterior": 499.0,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 3.0,
+              "qt_mes_anterior": 2.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": -227.0,
+              "queda_fat_ano_valor": -726.0,
+              "queda_fat_mes_pct": 45.5,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": -1.0,
+              "queda_qt_ano_valor": -3.0,
+              "queda_qt_mes_pct": 50.0,
+              "queda_qt_ano_pct": null
+            }
+          ],
+          "fat_atual": 726.0,
+          "fat_mes_anterior": 3808.58,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 3.0,
+          "qt_mes_anterior": 20.0,
+          "qt_ano_anterior": 0.0,
+          "queda_fat_mes_valor": 3082.58,
+          "queda_fat_ano_valor": -726.0,
+          "queda_fat_mes_pct": -80.9,
+          "queda_fat_ano_pct": null,
+          "queda_qt_mes_valor": 17.0,
+          "queda_qt_ano_valor": -3.0,
+          "queda_qt_mes_pct": -85.0,
+          "queda_qt_ano_pct": null
+        }
+      ],
+      "fat_atual": 726.0,
+      "fat_mes_anterior": 3808.58,
+      "fat_ano_anterior": 0.0,
+      "qt_atual": 3.0,
+      "qt_mes_anterior": 20.0,
+      "qt_ano_anterior": 0.0,
+      "queda_fat_mes_valor": 3082.58,
+      "queda_fat_ano_valor": -726.0,
+      "queda_fat_mes_pct": -80.9,
+      "queda_fat_ano_pct": null,
+      "queda_qt_mes_valor": 17.0,
+      "queda_qt_ano_valor": -3.0,
+      "queda_qt_mes_pct": -85.0,
+      "queda_qt_ano_pct": null
     },
     {
       "codcli": 51829,
@@ -64209,6 +64128,259 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "queda_qt_mes_valor": 183.0,
       "queda_qt_ano_valor": 0.0,
       "queda_qt_mes_pct": -100.0,
+      "queda_qt_ano_pct": null
+    },
+    {
+      "codcli": 93381,
+      "estado": "RJ",
+      "chave": "RJ-93381",
+      "nome": "SUPERMERCADO ADONAI DE VILA NOVA",
+      "bairro": "CAMPO GRANDE",
+      "ramo": "MERCADO",
+      "vendedor": "BARBARA CABRAL",
+      "gerente": "ALLAN PAES",
+      "supervisor": "DANIELLE MOURA",
+      "chaves_rca": [
+        "RJ-412"
+      ],
+      "por_industria": [
+        {
+          "fornecedor": "ROBINSON CRUSOE",
+          "por_produto": [
+            {
+              "produto": "RC ATUM SOLIDO NATURAL 24X170G",
+              "fat_atual": 0.0,
+              "fat_mes_anterior": 417.12,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 0.0,
+              "qt_mes_anterior": 2.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": 417.12,
+              "queda_fat_ano_valor": 0.0,
+              "queda_fat_mes_pct": -100.0,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": 2.0,
+              "queda_qt_ano_valor": 0.0,
+              "queda_qt_mes_pct": -100.0,
+              "queda_qt_ano_pct": null
+            },
+            {
+              "produto": "RC ATUM SOLIDO OLEO 24X170G",
+              "fat_atual": 0.0,
+              "fat_mes_anterior": 417.12,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 0.0,
+              "qt_mes_anterior": 2.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": 417.12,
+              "queda_fat_ano_valor": 0.0,
+              "queda_fat_mes_pct": -100.0,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": 2.0,
+              "queda_qt_ano_valor": 0.0,
+              "queda_qt_mes_pct": -100.0,
+              "queda_qt_ano_pct": null
+            },
+            {
+              "produto": "RC ATUM PEDACOS EM OLEO 24X140G",
+              "fat_atual": 0.0,
+              "fat_mes_anterior": 383.52,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 0.0,
+              "qt_mes_anterior": 2.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": 383.52,
+              "queda_fat_ano_valor": 0.0,
+              "queda_fat_mes_pct": -100.0,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": 2.0,
+              "queda_qt_ano_valor": 0.0,
+              "queda_qt_mes_pct": -100.0,
+              "queda_qt_ano_pct": null
+            },
+            {
+              "produto": "RC ATUM PEDACOS MOLHO DE TOMATE 24X140G",
+              "fat_atual": 0.0,
+              "fat_mes_anterior": 383.52,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 0.0,
+              "qt_mes_anterior": 2.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": 383.52,
+              "queda_fat_ano_valor": 0.0,
+              "queda_fat_mes_pct": -100.0,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": 2.0,
+              "queda_qt_ano_valor": 0.0,
+              "queda_qt_mes_pct": -100.0,
+              "queda_qt_ano_pct": null
+            },
+            {
+              "produto": "RC ATUM PEDACOS NATURAL 24X140G",
+              "fat_atual": 0.0,
+              "fat_mes_anterior": 383.52,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 0.0,
+              "qt_mes_anterior": 2.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": 383.52,
+              "queda_fat_ano_valor": 0.0,
+              "queda_fat_mes_pct": -100.0,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": 2.0,
+              "queda_qt_ano_valor": 0.0,
+              "queda_qt_mes_pct": -100.0,
+              "queda_qt_ano_pct": null
+            },
+            {
+              "produto": "RC SALADA DE ATUM - MEDITERRANEA 12X160G",
+              "fat_atual": 0.0,
+              "fat_mes_anterior": 359.7,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 0.0,
+              "qt_mes_anterior": 3.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": 359.7,
+              "queda_fat_ano_valor": 0.0,
+              "queda_fat_mes_pct": -100.0,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": 3.0,
+              "queda_qt_ano_valor": 0.0,
+              "queda_qt_mes_pct": -100.0,
+              "queda_qt_ano_pct": null
+            },
+            {
+              "produto": "RC ATUM RALADO MOLHO DE TOMATE 24X140G",
+              "fat_atual": 0.0,
+              "fat_mes_anterior": 153.36,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 0.0,
+              "qt_mes_anterior": 1.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": 153.36,
+              "queda_fat_ano_valor": 0.0,
+              "queda_fat_mes_pct": -100.0,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": 1.0,
+              "queda_qt_ano_valor": 0.0,
+              "queda_qt_mes_pct": -100.0,
+              "queda_qt_ano_pct": null
+            },
+            {
+              "produto": "RC ATUM RALADO NATURAL 24X140G",
+              "fat_atual": 0.0,
+              "fat_mes_anterior": 153.36,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 0.0,
+              "qt_mes_anterior": 1.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": 153.36,
+              "queda_fat_ano_valor": 0.0,
+              "queda_fat_mes_pct": -100.0,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": 1.0,
+              "queda_qt_ano_valor": 0.0,
+              "queda_qt_mes_pct": -100.0,
+              "queda_qt_ano_pct": null
+            },
+            {
+              "produto": "RC ATUM RALADO OLEO 24X140G",
+              "fat_atual": 0.0,
+              "fat_mes_anterior": 153.36,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 0.0,
+              "qt_mes_anterior": 1.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": 153.36,
+              "queda_fat_ano_valor": 0.0,
+              "queda_fat_mes_pct": -100.0,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": 1.0,
+              "queda_qt_ano_valor": 0.0,
+              "queda_qt_mes_pct": -100.0,
+              "queda_qt_ano_pct": null
+            },
+            {
+              "produto": "RC SARDINHA EM OLEO 50X125G",
+              "fat_atual": 484.0,
+              "fat_mes_anterior": 499.0,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 2.0,
+              "qt_mes_anterior": 2.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": 15.0,
+              "queda_fat_ano_valor": -484.0,
+              "queda_fat_mes_pct": -3.0,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": 0.0,
+              "queda_qt_ano_valor": -2.0,
+              "queda_qt_mes_pct": 0.0,
+              "queda_qt_ano_pct": null
+            },
+            {
+              "produto": "RC ATUM SOLIDO NAT MY PROTEIN 12X142G",
+              "fat_atual": 122.4,
+              "fat_mes_anterior": 125.9,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 1.0,
+              "qt_mes_anterior": 1.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": 3.5,
+              "queda_fat_ano_valor": -122.4,
+              "queda_fat_mes_pct": -2.8,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": 0.0,
+              "queda_qt_ano_valor": -1.0,
+              "queda_qt_mes_pct": 0.0,
+              "queda_qt_ano_pct": null
+            },
+            {
+              "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
+              "fat_atual": 484.0,
+              "fat_mes_anterior": 0.0,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 2.0,
+              "qt_mes_anterior": 0.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": -484.0,
+              "queda_fat_ano_valor": -484.0,
+              "queda_fat_mes_pct": null,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": -2.0,
+              "queda_qt_ano_valor": -2.0,
+              "queda_qt_mes_pct": null,
+              "queda_qt_ano_pct": null
+            }
+          ],
+          "fat_atual": 1090.4,
+          "fat_mes_anterior": 3429.48,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 5.0,
+          "qt_mes_anterior": 19.0,
+          "qt_ano_anterior": 0.0,
+          "queda_fat_mes_valor": 2339.08,
+          "queda_fat_ano_valor": -1090.4,
+          "queda_fat_mes_pct": -68.2,
+          "queda_fat_ano_pct": null,
+          "queda_qt_mes_valor": 14.0,
+          "queda_qt_ano_valor": -5.0,
+          "queda_qt_mes_pct": -73.7,
+          "queda_qt_ano_pct": null
+        }
+      ],
+      "fat_atual": 1090.4,
+      "fat_mes_anterior": 3429.48,
+      "fat_ano_anterior": 0.0,
+      "qt_atual": 5.0,
+      "qt_mes_anterior": 19.0,
+      "qt_ano_anterior": 0.0,
+      "queda_fat_mes_valor": 2339.08,
+      "queda_fat_ano_valor": -1090.4,
+      "queda_fat_mes_pct": -68.2,
+      "queda_fat_ano_pct": null,
+      "queda_qt_mes_valor": 14.0,
+      "queda_qt_ano_valor": -5.0,
+      "queda_qt_mes_pct": -73.7,
       "queda_qt_ano_pct": null
     },
     {
@@ -120110,109 +120282,6 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "queda_qt_ano_pct": null
     },
     {
-      "codcli": 91431,
-      "estado": "RJ",
-      "chave": "RJ-91431",
-      "nome": "MSP COM ALIMENTOS - BANGU",
-      "bairro": "BANGU",
-      "ramo": "MERCADO",
-      "vendedor": "ADEILSON GONÇALVEZ",
-      "gerente": "ALLAN PAES",
-      "supervisor": "DANIELLE MOURA",
-      "chaves_rca": [
-        "RJ-431",
-        "RJ-431.0"
-      ],
-      "por_industria": [
-        {
-          "fornecedor": "COMARY",
-          "por_produto": [
-            {
-              "produto": "COQUETEL COMPOSTO PINK MOON 6X2L",
-              "fat_atual": 0.0,
-              "fat_mes_anterior": 392.7,
-              "fat_ano_anterior": 0.0,
-              "qt_atual": 0.0,
-              "qt_mes_anterior": 3.0,
-              "qt_ano_anterior": 0.0,
-              "queda_fat_mes_valor": 392.7,
-              "queda_fat_ano_valor": 0.0,
-              "queda_fat_mes_pct": -100.0,
-              "queda_fat_ano_pct": null,
-              "queda_qt_mes_valor": 3.0,
-              "queda_qt_ano_valor": 0.0,
-              "queda_qt_mes_pct": -100.0,
-              "queda_qt_ano_pct": null
-            }
-          ],
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 392.7,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 3.0,
-          "qt_ano_anterior": 0.0,
-          "queda_fat_mes_valor": 392.7,
-          "queda_fat_ano_valor": 0.0,
-          "queda_fat_mes_pct": -100.0,
-          "queda_fat_ano_pct": null,
-          "queda_qt_mes_valor": 3.0,
-          "queda_qt_ano_valor": 0.0,
-          "queda_qt_mes_pct": -100.0,
-          "queda_qt_ano_pct": null
-        },
-        {
-          "fornecedor": "RED BULL",
-          "por_produto": [
-            {
-              "produto": "4 PACK RED BULL",
-              "fat_atual": 0.0,
-              "fat_mes_anterior": 180.0,
-              "fat_ano_anterior": 0.0,
-              "qt_atual": 0.0,
-              "qt_mes_anterior": 6.0,
-              "qt_ano_anterior": 0.0,
-              "queda_fat_mes_valor": 180.0,
-              "queda_fat_ano_valor": 0.0,
-              "queda_fat_mes_pct": -100.0,
-              "queda_fat_ano_pct": null,
-              "queda_qt_mes_valor": 6.0,
-              "queda_qt_ano_valor": 0.0,
-              "queda_qt_mes_pct": -100.0,
-              "queda_qt_ano_pct": null
-            }
-          ],
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 180.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 6.0,
-          "qt_ano_anterior": 0.0,
-          "queda_fat_mes_valor": 180.0,
-          "queda_fat_ano_valor": 0.0,
-          "queda_fat_mes_pct": -100.0,
-          "queda_fat_ano_pct": null,
-          "queda_qt_mes_valor": 6.0,
-          "queda_qt_ano_valor": 0.0,
-          "queda_qt_mes_pct": -100.0,
-          "queda_qt_ano_pct": null
-        }
-      ],
-      "fat_atual": 0.0,
-      "fat_mes_anterior": 572.7,
-      "fat_ano_anterior": 0.0,
-      "qt_atual": 0.0,
-      "qt_mes_anterior": 9.0,
-      "qt_ano_anterior": 0.0,
-      "queda_fat_mes_valor": 572.7,
-      "queda_fat_ano_valor": 0.0,
-      "queda_fat_mes_pct": -100.0,
-      "queda_fat_ano_pct": null,
-      "queda_qt_mes_valor": 9.0,
-      "queda_qt_ano_valor": 0.0,
-      "queda_qt_mes_pct": -100.0,
-      "queda_qt_ano_pct": null
-    },
-    {
       "codcli": 80354,
       "estado": "RJ",
       "chave": "RJ-80354",
@@ -125487,144 +125556,6 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "queda_fat_mes_pct": -100.0,
       "queda_fat_ano_pct": null,
       "queda_qt_mes_valor": 6.0,
-      "queda_qt_ano_valor": 0.0,
-      "queda_qt_mes_pct": -100.0,
-      "queda_qt_ano_pct": null
-    },
-    {
-      "codcli": 91491,
-      "estado": "RJ",
-      "chave": "RJ-91491",
-      "nome": "MERCADO SUPER PAO - REALENGO",
-      "bairro": "REALENGO",
-      "ramo": "MINI-MERCADO",
-      "vendedor": "ADEILSON GONÇALVEZ",
-      "gerente": "ALLAN PAES",
-      "supervisor": "DANIELLE MOURA",
-      "chaves_rca": [
-        "RJ-431"
-      ],
-      "por_industria": [
-        {
-          "fornecedor": "FANTE",
-          "por_produto": [
-            {
-              "produto": "VINHO BORDO QUINTA DO MORGADO 1LT",
-              "fat_atual": 0.0,
-              "fat_mes_anterior": 239.76,
-              "fat_ano_anterior": 0.0,
-              "qt_atual": 0.0,
-              "qt_mes_anterior": 12.0,
-              "qt_ano_anterior": 0.0,
-              "queda_fat_mes_valor": 239.76,
-              "queda_fat_ano_valor": 0.0,
-              "queda_fat_mes_pct": -100.0,
-              "queda_fat_ano_pct": null,
-              "queda_qt_mes_valor": 12.0,
-              "queda_qt_ano_valor": 0.0,
-              "queda_qt_mes_pct": -100.0,
-              "queda_qt_ano_pct": null
-            }
-          ],
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 239.76,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 12.0,
-          "qt_ano_anterior": 0.0,
-          "queda_fat_mes_valor": 239.76,
-          "queda_fat_ano_valor": 0.0,
-          "queda_fat_mes_pct": -100.0,
-          "queda_fat_ano_pct": null,
-          "queda_qt_mes_valor": 12.0,
-          "queda_qt_ano_valor": 0.0,
-          "queda_qt_mes_pct": -100.0,
-          "queda_qt_ano_pct": null
-        },
-        {
-          "fornecedor": "RECKITT",
-          "por_produto": [
-            {
-              "produto": "VEJA MULTIUSO FLORAL 10% DESC 24X500ML",
-              "fat_atual": 0.0,
-              "fat_mes_anterior": 143.52,
-              "fat_ano_anterior": 0.0,
-              "qt_atual": 0.0,
-              "qt_mes_anterior": 2.0,
-              "qt_ano_anterior": 0.0,
-              "queda_fat_mes_valor": 143.52,
-              "queda_fat_ano_valor": 0.0,
-              "queda_fat_mes_pct": -100.0,
-              "queda_fat_ano_pct": null,
-              "queda_qt_mes_valor": 2.0,
-              "queda_qt_ano_valor": 0.0,
-              "queda_qt_mes_pct": -100.0,
-              "queda_qt_ano_pct": null
-            }
-          ],
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 143.52,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 2.0,
-          "qt_ano_anterior": 0.0,
-          "queda_fat_mes_valor": 143.52,
-          "queda_fat_ano_valor": 0.0,
-          "queda_fat_mes_pct": -100.0,
-          "queda_fat_ano_pct": null,
-          "queda_qt_mes_valor": 2.0,
-          "queda_qt_ano_valor": 0.0,
-          "queda_qt_mes_pct": -100.0,
-          "queda_qt_ano_pct": null
-        },
-        {
-          "fornecedor": "VITON",
-          "por_produto": [
-            {
-              "produto": "GUARAVITA NATURAL 24X290ML",
-              "fat_atual": 0.0,
-              "fat_mes_anterior": 95.98,
-              "fat_ano_anterior": 0.0,
-              "qt_atual": 0.0,
-              "qt_mes_anterior": 3.0,
-              "qt_ano_anterior": 0.0,
-              "queda_fat_mes_valor": 95.98,
-              "queda_fat_ano_valor": 0.0,
-              "queda_fat_mes_pct": -100.0,
-              "queda_fat_ano_pct": null,
-              "queda_qt_mes_valor": 3.0,
-              "queda_qt_ano_valor": 0.0,
-              "queda_qt_mes_pct": -100.0,
-              "queda_qt_ano_pct": null
-            }
-          ],
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 95.98,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 3.0,
-          "qt_ano_anterior": 0.0,
-          "queda_fat_mes_valor": 95.98,
-          "queda_fat_ano_valor": 0.0,
-          "queda_fat_mes_pct": -100.0,
-          "queda_fat_ano_pct": null,
-          "queda_qt_mes_valor": 3.0,
-          "queda_qt_ano_valor": 0.0,
-          "queda_qt_mes_pct": -100.0,
-          "queda_qt_ano_pct": null
-        }
-      ],
-      "fat_atual": 0.0,
-      "fat_mes_anterior": 479.26,
-      "fat_ano_anterior": 0.0,
-      "qt_atual": 0.0,
-      "qt_mes_anterior": 17.0,
-      "qt_ano_anterior": 0.0,
-      "queda_fat_mes_valor": 479.26,
-      "queda_fat_ano_valor": 0.0,
-      "queda_fat_mes_pct": -100.0,
-      "queda_fat_ano_pct": null,
-      "queda_qt_mes_valor": 17.0,
       "queda_qt_ano_valor": 0.0,
       "queda_qt_mes_pct": -100.0,
       "queda_qt_ano_pct": null
@@ -134030,144 +133961,6 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "queda_qt_ano_pct": null
     },
     {
-      "codcli": 95386,
-      "estado": "RJ",
-      "chave": "RJ-95386",
-      "nome": "PADARIA DO ZINHO",
-      "bairro": "SANTA CRUZ",
-      "ramo": "PADARIA",
-      "vendedor": "NÁTALI DE OLIVEIRA",
-      "gerente": "ALLAN PAES",
-      "supervisor": "DANIELLE MOURA",
-      "chaves_rca": [
-        "RJ-419"
-      ],
-      "por_industria": [
-        {
-          "fornecedor": "ROBINSON CRUSOE",
-          "por_produto": [
-            {
-              "produto": "RC SARDINHA EM OLEO 50X125G",
-              "fat_atual": 0.0,
-              "fat_mes_anterior": 240.0,
-              "fat_ano_anterior": 0.0,
-              "qt_atual": 0.0,
-              "qt_mes_anterior": 1.0,
-              "qt_ano_anterior": 0.0,
-              "queda_fat_mes_valor": 240.0,
-              "queda_fat_ano_valor": 0.0,
-              "queda_fat_mes_pct": -100.0,
-              "queda_fat_ano_pct": null,
-              "queda_qt_mes_valor": 1.0,
-              "queda_qt_ano_valor": 0.0,
-              "queda_qt_mes_pct": -100.0,
-              "queda_qt_ano_pct": null
-            }
-          ],
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 240.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 1.0,
-          "qt_ano_anterior": 0.0,
-          "queda_fat_mes_valor": 240.0,
-          "queda_fat_ano_valor": 0.0,
-          "queda_fat_mes_pct": -100.0,
-          "queda_fat_ano_pct": null,
-          "queda_qt_mes_valor": 1.0,
-          "queda_qt_ano_valor": 0.0,
-          "queda_qt_mes_pct": -100.0,
-          "queda_qt_ano_pct": null
-        },
-        {
-          "fornecedor": "TATUZINHO",
-          "por_produto": [
-            {
-              "produto": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
-              "fat_atual": 0.0,
-              "fat_mes_anterior": 94.7,
-              "fat_ano_anterior": 0.0,
-              "qt_atual": 0.0,
-              "qt_mes_anterior": 1.0,
-              "qt_ano_anterior": 0.0,
-              "queda_fat_mes_valor": 94.7,
-              "queda_fat_ano_valor": 0.0,
-              "queda_fat_mes_pct": -100.0,
-              "queda_fat_ano_pct": null,
-              "queda_qt_mes_valor": 1.0,
-              "queda_qt_ano_valor": 0.0,
-              "queda_qt_mes_pct": -100.0,
-              "queda_qt_ano_pct": null
-            }
-          ],
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 94.7,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 1.0,
-          "qt_ano_anterior": 0.0,
-          "queda_fat_mes_valor": 94.7,
-          "queda_fat_ano_valor": 0.0,
-          "queda_fat_mes_pct": -100.0,
-          "queda_fat_ano_pct": null,
-          "queda_qt_mes_valor": 1.0,
-          "queda_qt_ano_valor": 0.0,
-          "queda_qt_mes_pct": -100.0,
-          "queda_qt_ano_pct": null
-        },
-        {
-          "fornecedor": "TIAL",
-          "por_produto": [
-            {
-              "produto": "NECTAR PESSEGO 12X1000ML",
-              "fat_atual": 0.0,
-              "fat_mes_anterior": 60.0,
-              "fat_ano_anterior": 0.0,
-              "qt_atual": 0.0,
-              "qt_mes_anterior": 1.0,
-              "qt_ano_anterior": 0.0,
-              "queda_fat_mes_valor": 60.0,
-              "queda_fat_ano_valor": 0.0,
-              "queda_fat_mes_pct": -100.0,
-              "queda_fat_ano_pct": null,
-              "queda_qt_mes_valor": 1.0,
-              "queda_qt_ano_valor": 0.0,
-              "queda_qt_mes_pct": -100.0,
-              "queda_qt_ano_pct": null
-            }
-          ],
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 60.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 1.0,
-          "qt_ano_anterior": 0.0,
-          "queda_fat_mes_valor": 60.0,
-          "queda_fat_ano_valor": 0.0,
-          "queda_fat_mes_pct": -100.0,
-          "queda_fat_ano_pct": null,
-          "queda_qt_mes_valor": 1.0,
-          "queda_qt_ano_valor": 0.0,
-          "queda_qt_mes_pct": -100.0,
-          "queda_qt_ano_pct": null
-        }
-      ],
-      "fat_atual": 0.0,
-      "fat_mes_anterior": 394.7,
-      "fat_ano_anterior": 0.0,
-      "qt_atual": 0.0,
-      "qt_mes_anterior": 3.0,
-      "qt_ano_anterior": 0.0,
-      "queda_fat_mes_valor": 394.7,
-      "queda_fat_ano_valor": 0.0,
-      "queda_fat_mes_pct": -100.0,
-      "queda_fat_ano_pct": null,
-      "queda_qt_mes_valor": 3.0,
-      "queda_qt_ano_valor": 0.0,
-      "queda_qt_mes_pct": -100.0,
-      "queda_qt_ano_pct": null
-    },
-    {
       "codcli": 35033,
       "estado": "MG",
       "chave": "MG-35033",
@@ -135161,331 +134954,6 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "queda_qt_ano_pct": -96.7
     },
     {
-      "codcli": 79902,
-      "estado": "RJ",
-      "chave": "RJ-79902",
-      "nome": "SAUCE & CO",
-      "bairro": "BARRA DA TIJUCA",
-      "ramo": "RESTAURANTE",
-      "vendedor": "FABIO VALOTTI",
-      "gerente": "ALLAN PAES",
-      "supervisor": "DANIELLE MOURA",
-      "chaves_rca": [
-        "RJ-378"
-      ],
-      "por_industria": [
-        {
-          "fornecedor": "TATUZINHO",
-          "por_produto": [
-            {
-              "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
-              "fat_atual": 0.0,
-              "fat_mes_anterior": 94.7,
-              "fat_ano_anterior": 0.0,
-              "qt_atual": 0.0,
-              "qt_mes_anterior": 1.0,
-              "qt_ano_anterior": 0.0,
-              "queda_fat_mes_valor": 94.7,
-              "queda_fat_ano_valor": 0.0,
-              "queda_fat_mes_pct": -100.0,
-              "queda_fat_ano_pct": null,
-              "queda_qt_mes_valor": 1.0,
-              "queda_qt_ano_valor": 0.0,
-              "queda_qt_mes_pct": -100.0,
-              "queda_qt_ano_pct": null
-            },
-            {
-              "produto": "MOVING HYDRO PROTEIN UVA 12X500ML",
-              "fat_atual": 0.0,
-              "fat_mes_anterior": 94.7,
-              "fat_ano_anterior": 0.0,
-              "qt_atual": 0.0,
-              "qt_mes_anterior": 1.0,
-              "qt_ano_anterior": 0.0,
-              "queda_fat_mes_valor": 94.7,
-              "queda_fat_ano_valor": 0.0,
-              "queda_fat_mes_pct": -100.0,
-              "queda_fat_ano_pct": null,
-              "queda_qt_mes_valor": 1.0,
-              "queda_qt_ano_valor": 0.0,
-              "queda_qt_mes_pct": -100.0,
-              "queda_qt_ano_pct": null
-            },
-            {
-              "produto": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
-              "fat_atual": 94.7,
-              "fat_mes_anterior": 94.7,
-              "fat_ano_anterior": 0.0,
-              "qt_atual": 1.0,
-              "qt_mes_anterior": 1.0,
-              "qt_ano_anterior": 0.0,
-              "queda_fat_mes_valor": 0.0,
-              "queda_fat_ano_valor": -94.7,
-              "queda_fat_mes_pct": 0.0,
-              "queda_fat_ano_pct": null,
-              "queda_qt_mes_valor": 0.0,
-              "queda_qt_ano_valor": -1.0,
-              "queda_qt_mes_pct": 0.0,
-              "queda_qt_ano_pct": null
-            },
-            {
-              "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
-              "fat_atual": 189.4,
-              "fat_mes_anterior": 189.4,
-              "fat_ano_anterior": 0.0,
-              "qt_atual": 2.0,
-              "qt_mes_anterior": 2.0,
-              "qt_ano_anterior": 0.0,
-              "queda_fat_mes_valor": 0.0,
-              "queda_fat_ano_valor": -189.4,
-              "queda_fat_mes_pct": 0.0,
-              "queda_fat_ano_pct": null,
-              "queda_qt_mes_valor": 0.0,
-              "queda_qt_ano_valor": -2.0,
-              "queda_qt_mes_pct": 0.0,
-              "queda_qt_ano_pct": null
-            }
-          ],
-          "fat_atual": 284.1,
-          "fat_mes_anterior": 473.5,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 3.0,
-          "qt_mes_anterior": 5.0,
-          "qt_ano_anterior": 0.0,
-          "queda_fat_mes_valor": 189.4,
-          "queda_fat_ano_valor": -284.1,
-          "queda_fat_mes_pct": -40.0,
-          "queda_fat_ano_pct": null,
-          "queda_qt_mes_valor": 2.0,
-          "queda_qt_ano_valor": -3.0,
-          "queda_qt_mes_pct": -40.0,
-          "queda_qt_ano_pct": null
-        },
-        {
-          "fornecedor": "KAISER",
-          "por_produto": [
-            {
-              "produto": "AGUA MAMBA PROTEIN ABACAXI HORT 6X350ML",
-              "fat_atual": 0.0,
-              "fat_mes_anterior": 118.2,
-              "fat_ano_anterior": 0.0,
-              "qt_atual": 0.0,
-              "qt_mes_anterior": 2.0,
-              "qt_ano_anterior": 0.0,
-              "queda_fat_mes_valor": 118.2,
-              "queda_fat_ano_valor": 0.0,
-              "queda_fat_mes_pct": -100.0,
-              "queda_fat_ano_pct": null,
-              "queda_qt_mes_valor": 2.0,
-              "queda_qt_ano_valor": 0.0,
-              "queda_qt_mes_pct": -100.0,
-              "queda_qt_ano_pct": null
-            },
-            {
-              "produto": "AGUA MAMBA PROTEIN LIMAO E FRAMB 6X350ML",
-              "fat_atual": 0.0,
-              "fat_mes_anterior": 118.2,
-              "fat_ano_anterior": 0.0,
-              "qt_atual": 0.0,
-              "qt_mes_anterior": 2.0,
-              "qt_ano_anterior": 0.0,
-              "queda_fat_mes_valor": 118.2,
-              "queda_fat_ano_valor": 0.0,
-              "queda_fat_mes_pct": -100.0,
-              "queda_fat_ano_pct": null,
-              "queda_qt_mes_valor": 2.0,
-              "queda_qt_ano_valor": 0.0,
-              "queda_qt_mes_pct": -100.0,
-              "queda_qt_ano_pct": null
-            },
-            {
-              "produto": "CERVEJA HEINEKEN LONG 24X330ML",
-              "fat_atual": 132.0,
-              "fat_mes_anterior": 0.0,
-              "fat_ano_anterior": 0.0,
-              "qt_atual": 1.0,
-              "qt_mes_anterior": 0.0,
-              "qt_ano_anterior": 0.0,
-              "queda_fat_mes_valor": -132.0,
-              "queda_fat_ano_valor": -132.0,
-              "queda_fat_mes_pct": null,
-              "queda_fat_ano_pct": null,
-              "queda_qt_mes_valor": -1.0,
-              "queda_qt_ano_valor": -1.0,
-              "queda_qt_mes_pct": null,
-              "queda_qt_ano_pct": null
-            }
-          ],
-          "fat_atual": 132.0,
-          "fat_mes_anterior": 236.4,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 1.0,
-          "qt_mes_anterior": 4.0,
-          "qt_ano_anterior": 0.0,
-          "queda_fat_mes_valor": 104.4,
-          "queda_fat_ano_valor": -132.0,
-          "queda_fat_mes_pct": -44.2,
-          "queda_fat_ano_pct": null,
-          "queda_qt_mes_valor": 3.0,
-          "queda_qt_ano_valor": -1.0,
-          "queda_qt_mes_pct": -75.0,
-          "queda_qt_ano_pct": null
-        },
-        {
-          "fornecedor": "RED BULL",
-          "por_produto": [
-            {
-              "produto": "4 PACK RED BULL SF NECTARINA 4X250ML",
-              "fat_atual": 0.0,
-              "fat_mes_anterior": 119.84,
-              "fat_ano_anterior": 0.0,
-              "qt_atual": 0.0,
-              "qt_mes_anterior": 4.0,
-              "qt_ano_anterior": 0.0,
-              "queda_fat_mes_valor": 119.84,
-              "queda_fat_ano_valor": 0.0,
-              "queda_fat_mes_pct": -100.0,
-              "queda_fat_ano_pct": null,
-              "queda_qt_mes_valor": 4.0,
-              "queda_qt_ano_valor": 0.0,
-              "queda_qt_mes_pct": -100.0,
-              "queda_qt_ano_pct": null
-            },
-            {
-              "produto": "4 PACK RED BULL",
-              "fat_atual": 0.0,
-              "fat_mes_anterior": 89.88,
-              "fat_ano_anterior": 89.88,
-              "qt_atual": 0.0,
-              "qt_mes_anterior": 3.0,
-              "qt_ano_anterior": 3.0,
-              "queda_fat_mes_valor": 89.88,
-              "queda_fat_ano_valor": 89.88,
-              "queda_fat_mes_pct": -100.0,
-              "queda_fat_ano_pct": -100.0,
-              "queda_qt_mes_valor": 3.0,
-              "queda_qt_ano_valor": 3.0,
-              "queda_qt_mes_pct": -100.0,
-              "queda_qt_ano_pct": -100.0
-            },
-            {
-              "produto": "4 PACK RED BULL SUGAR FREE",
-              "fat_atual": 0.0,
-              "fat_mes_anterior": 0.0,
-              "fat_ano_anterior": 89.88,
-              "qt_atual": 0.0,
-              "qt_mes_anterior": 0.0,
-              "qt_ano_anterior": 3.0,
-              "queda_fat_mes_valor": 0.0,
-              "queda_fat_ano_valor": 89.88,
-              "queda_fat_mes_pct": null,
-              "queda_fat_ano_pct": -100.0,
-              "queda_qt_mes_valor": 0.0,
-              "queda_qt_ano_valor": 3.0,
-              "queda_qt_mes_pct": null,
-              "queda_qt_ano_pct": -100.0
-            },
-            {
-              "produto": "4 PACK RED BULL ZERO",
-              "fat_atual": 149.8,
-              "fat_mes_anterior": 149.8,
-              "fat_ano_anterior": 0.0,
-              "qt_atual": 5.0,
-              "qt_mes_anterior": 5.0,
-              "qt_ano_anterior": 0.0,
-              "queda_fat_mes_valor": 0.0,
-              "queda_fat_ano_valor": -149.8,
-              "queda_fat_mes_pct": 0.0,
-              "queda_fat_ano_pct": null,
-              "queda_qt_mes_valor": 0.0,
-              "queda_qt_ano_valor": -5.0,
-              "queda_qt_mes_pct": 0.0,
-              "queda_qt_ano_pct": null
-            },
-            {
-              "produto": "4 PACK RED BULL MELANCIA",
-              "fat_atual": 29.96,
-              "fat_mes_anterior": 0.0,
-              "fat_ano_anterior": 0.0,
-              "qt_atual": 1.0,
-              "qt_mes_anterior": 0.0,
-              "qt_ano_anterior": 0.0,
-              "queda_fat_mes_valor": -29.96,
-              "queda_fat_ano_valor": -29.96,
-              "queda_fat_mes_pct": null,
-              "queda_fat_ano_pct": null,
-              "queda_qt_mes_valor": -1.0,
-              "queda_qt_ano_valor": -1.0,
-              "queda_qt_mes_pct": null,
-              "queda_qt_ano_pct": null
-            },
-            {
-              "produto": "4 PACK RED BULL SF AMORA",
-              "fat_atual": 59.92,
-              "fat_mes_anterior": 29.76,
-              "fat_ano_anterior": 0.0,
-              "qt_atual": 2.0,
-              "qt_mes_anterior": 1.0,
-              "qt_ano_anterior": 0.0,
-              "queda_fat_mes_valor": -30.16,
-              "queda_fat_ano_valor": -59.92,
-              "queda_fat_mes_pct": 101.3,
-              "queda_fat_ano_pct": null,
-              "queda_qt_mes_valor": -1.0,
-              "queda_qt_ano_valor": -2.0,
-              "queda_qt_mes_pct": 100.0,
-              "queda_qt_ano_pct": null
-            },
-            {
-              "produto": "4 PACK RED BULL 250ML",
-              "fat_atual": 59.92,
-              "fat_mes_anterior": 0.0,
-              "fat_ano_anterior": 0.0,
-              "qt_atual": 2.0,
-              "qt_mes_anterior": 0.0,
-              "qt_ano_anterior": 0.0,
-              "queda_fat_mes_valor": -59.92,
-              "queda_fat_ano_valor": -59.92,
-              "queda_fat_mes_pct": null,
-              "queda_fat_ano_pct": null,
-              "queda_qt_mes_valor": -2.0,
-              "queda_qt_ano_valor": -2.0,
-              "queda_qt_mes_pct": null,
-              "queda_qt_ano_pct": null
-            }
-          ],
-          "fat_atual": 299.6,
-          "fat_mes_anterior": 389.28,
-          "fat_ano_anterior": 179.76,
-          "qt_atual": 10.0,
-          "qt_mes_anterior": 13.0,
-          "qt_ano_anterior": 6.0,
-          "queda_fat_mes_valor": 89.68,
-          "queda_fat_ano_valor": -119.84,
-          "queda_fat_mes_pct": -23.0,
-          "queda_fat_ano_pct": 66.7,
-          "queda_qt_mes_valor": 3.0,
-          "queda_qt_ano_valor": -4.0,
-          "queda_qt_mes_pct": -23.1,
-          "queda_qt_ano_pct": 66.7
-        }
-      ],
-      "fat_atual": 715.7,
-      "fat_mes_anterior": 1099.18,
-      "fat_ano_anterior": 179.76,
-      "qt_atual": 14.0,
-      "qt_mes_anterior": 22.0,
-      "qt_ano_anterior": 6.0,
-      "queda_fat_mes_valor": 383.48,
-      "queda_fat_ano_valor": -535.94,
-      "queda_fat_mes_pct": -34.9,
-      "queda_fat_ano_pct": 298.1,
-      "queda_qt_mes_valor": 8.0,
-      "queda_qt_ano_valor": -8.0,
-      "queda_qt_mes_pct": -36.4,
-      "queda_qt_ano_pct": 133.3
-    },
-    {
       "codcli": 50480,
       "estado": "SP",
       "chave": "SP-50480",
@@ -136118,72 +135586,6 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "queda_qt_mes_valor": 17.0,
       "queda_qt_ano_valor": -8.0,
       "queda_qt_mes_pct": -68.0,
-      "queda_qt_ano_pct": null
-    },
-    {
-      "codcli": 91515,
-      "estado": "RJ",
-      "chave": "RJ-91515",
-      "nome": "BAR E MERCEARIA SANTOS MIRIM",
-      "bairro": "P MIRIM",
-      "ramo": "MERCADO",
-      "vendedor": "JORGE MACIEL",
-      "gerente": "ALLAN PAES",
-      "supervisor": "DANIELLE MOURA",
-      "chaves_rca": [
-        "RJ-379"
-      ],
-      "por_industria": [
-        {
-          "fornecedor": "KAISER",
-          "por_produto": [
-            {
-              "produto": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID",
-              "fat_atual": 0.0,
-              "fat_mes_anterior": 377.4,
-              "fat_ano_anterior": 0.0,
-              "qt_atual": 0.0,
-              "qt_mes_anterior": 6.0,
-              "qt_ano_anterior": 0.0,
-              "queda_fat_mes_valor": 377.4,
-              "queda_fat_ano_valor": 0.0,
-              "queda_fat_mes_pct": -100.0,
-              "queda_fat_ano_pct": null,
-              "queda_qt_mes_valor": 6.0,
-              "queda_qt_ano_valor": 0.0,
-              "queda_qt_mes_pct": -100.0,
-              "queda_qt_ano_pct": null
-            }
-          ],
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 377.4,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 6.0,
-          "qt_ano_anterior": 0.0,
-          "queda_fat_mes_valor": 377.4,
-          "queda_fat_ano_valor": 0.0,
-          "queda_fat_mes_pct": -100.0,
-          "queda_fat_ano_pct": null,
-          "queda_qt_mes_valor": 6.0,
-          "queda_qt_ano_valor": 0.0,
-          "queda_qt_mes_pct": -100.0,
-          "queda_qt_ano_pct": null
-        }
-      ],
-      "fat_atual": 0.0,
-      "fat_mes_anterior": 377.4,
-      "fat_ano_anterior": 0.0,
-      "qt_atual": 0.0,
-      "qt_mes_anterior": 6.0,
-      "qt_ano_anterior": 0.0,
-      "queda_fat_mes_valor": 377.4,
-      "queda_fat_ano_valor": 0.0,
-      "queda_fat_mes_pct": -100.0,
-      "queda_fat_ano_pct": null,
-      "queda_qt_mes_valor": 6.0,
-      "queda_qt_ano_valor": 0.0,
-      "queda_qt_mes_pct": -100.0,
       "queda_qt_ano_pct": null
     },
     {
@@ -143026,142 +142428,6 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "queda_qt_ano_pct": null
     },
     {
-      "codcli": 83643,
-      "estado": "RJ",
-      "chave": "RJ-83643",
-      "nome": "COMERCIO DE BEBIDAS DOS OLIVEIRAS",
-      "bairro": "JARDIM ANHANGA",
-      "ramo": "MERCADO",
-      "vendedor": "ANGELO NEVES SUZART",
-      "gerente": "ALLAN PAES",
-      "supervisor": "DANIELLE MOURA",
-      "chaves_rca": [
-        "RJ-153"
-      ],
-      "por_industria": [
-        {
-          "fornecedor": "CASTAS",
-          "por_produto": [
-            {
-              "produto": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
-              "fat_atual": 0.0,
-              "fat_mes_anterior": 239.6,
-              "fat_ano_anterior": 0.0,
-              "qt_atual": 0.0,
-              "qt_mes_anterior": 4.0,
-              "qt_ano_anterior": 0.0,
-              "queda_fat_mes_valor": 239.6,
-              "queda_fat_ano_valor": 0.0,
-              "queda_fat_mes_pct": -100.0,
-              "queda_fat_ano_pct": null,
-              "queda_qt_mes_valor": 4.0,
-              "queda_qt_ano_valor": 0.0,
-              "queda_qt_mes_pct": -100.0,
-              "queda_qt_ano_pct": null
-            },
-            {
-              "produto": "VINHO CAVAS DE ORO MALBEC 750ML",
-              "fat_atual": 0.0,
-              "fat_mes_anterior": 101.7,
-              "fat_ano_anterior": 0.0,
-              "qt_atual": 0.0,
-              "qt_mes_anterior": 3.0,
-              "qt_ano_anterior": 0.0,
-              "queda_fat_mes_valor": 101.7,
-              "queda_fat_ano_valor": 0.0,
-              "queda_fat_mes_pct": -100.0,
-              "queda_fat_ano_pct": null,
-              "queda_qt_mes_valor": 3.0,
-              "queda_qt_ano_valor": 0.0,
-              "queda_qt_mes_pct": -100.0,
-              "queda_qt_ano_pct": null
-            }
-          ],
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 341.3,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 7.0,
-          "qt_ano_anterior": 0.0,
-          "queda_fat_mes_valor": 341.3,
-          "queda_fat_ano_valor": 0.0,
-          "queda_fat_mes_pct": -100.0,
-          "queda_fat_ano_pct": null,
-          "queda_qt_mes_valor": 7.0,
-          "queda_qt_ano_valor": 0.0,
-          "queda_qt_mes_pct": -100.0,
-          "queda_qt_ano_pct": null
-        },
-        {
-          "fornecedor": "ROBINSON CRUSOE",
-          "por_produto": [
-            {
-              "produto": "SARDINHA EM OLEO ROBINSON CRUSOE 125G",
-              "fat_atual": 0.0,
-              "fat_mes_anterior": 0.0,
-              "fat_ano_anterior": 59.85,
-              "qt_atual": 0.0,
-              "qt_mes_anterior": 0.0,
-              "qt_ano_anterior": 15.0,
-              "queda_fat_mes_valor": 0.0,
-              "queda_fat_ano_valor": 59.85,
-              "queda_fat_mes_pct": null,
-              "queda_fat_ano_pct": -100.0,
-              "queda_qt_mes_valor": 0.0,
-              "queda_qt_ano_valor": 15.0,
-              "queda_qt_mes_pct": null,
-              "queda_qt_ano_pct": -100.0
-            },
-            {
-              "produto": "SARDINHA ROBINSON CRUSOE TOMATE 125G",
-              "fat_atual": 0.0,
-              "fat_mes_anterior": 0.0,
-              "fat_ano_anterior": 19.95,
-              "qt_atual": 0.0,
-              "qt_mes_anterior": 0.0,
-              "qt_ano_anterior": 5.0,
-              "queda_fat_mes_valor": 0.0,
-              "queda_fat_ano_valor": 19.95,
-              "queda_fat_mes_pct": null,
-              "queda_fat_ano_pct": -100.0,
-              "queda_qt_mes_valor": 0.0,
-              "queda_qt_ano_valor": 5.0,
-              "queda_qt_mes_pct": null,
-              "queda_qt_ano_pct": -100.0
-            }
-          ],
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 79.8,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 20.0,
-          "queda_fat_mes_valor": 0.0,
-          "queda_fat_ano_valor": 79.8,
-          "queda_fat_mes_pct": null,
-          "queda_fat_ano_pct": -100.0,
-          "queda_qt_mes_valor": 0.0,
-          "queda_qt_ano_valor": 20.0,
-          "queda_qt_mes_pct": null,
-          "queda_qt_ano_pct": -100.0
-        }
-      ],
-      "fat_atual": 0.0,
-      "fat_mes_anterior": 341.3,
-      "fat_ano_anterior": 79.8,
-      "qt_atual": 0.0,
-      "qt_mes_anterior": 7.0,
-      "qt_ano_anterior": 20.0,
-      "queda_fat_mes_valor": 341.3,
-      "queda_fat_ano_valor": 79.8,
-      "queda_fat_mes_pct": -100.0,
-      "queda_fat_ano_pct": -100.0,
-      "queda_qt_mes_valor": 7.0,
-      "queda_qt_ano_valor": 20.0,
-      "queda_qt_mes_pct": -100.0,
-      "queda_qt_ano_pct": -100.0
-    },
-    {
       "codcli": 29514,
       "estado": "MG",
       "chave": "MG-29514",
@@ -149540,6 +148806,180 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "queda_qt_ano_valor": 2.0,
       "queda_qt_mes_pct": -100.0,
       "queda_qt_ano_pct": -100.0
+    },
+    {
+      "codcli": 91491,
+      "estado": "RJ",
+      "chave": "RJ-91491",
+      "nome": "MERCADO SUPER PAO - REALENGO",
+      "bairro": "REALENGO",
+      "ramo": "MINI-MERCADO",
+      "vendedor": "ADEILSON GONÇALVEZ",
+      "gerente": "ALLAN PAES",
+      "supervisor": "DANIELLE MOURA",
+      "chaves_rca": [
+        "RJ-431"
+      ],
+      "por_industria": [
+        {
+          "fornecedor": "FANTE",
+          "por_produto": [
+            {
+              "produto": "VINHO BORDO QUINTA DO MORGADO 1LT",
+              "fat_atual": 0.0,
+              "fat_mes_anterior": 239.76,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 0.0,
+              "qt_mes_anterior": 12.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": 239.76,
+              "queda_fat_ano_valor": 0.0,
+              "queda_fat_mes_pct": -100.0,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": 12.0,
+              "queda_qt_ano_valor": 0.0,
+              "queda_qt_mes_pct": -100.0,
+              "queda_qt_ano_pct": null
+            }
+          ],
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 239.76,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 12.0,
+          "qt_ano_anterior": 0.0,
+          "queda_fat_mes_valor": 239.76,
+          "queda_fat_ano_valor": 0.0,
+          "queda_fat_mes_pct": -100.0,
+          "queda_fat_ano_pct": null,
+          "queda_qt_mes_valor": 12.0,
+          "queda_qt_ano_valor": 0.0,
+          "queda_qt_mes_pct": -100.0,
+          "queda_qt_ano_pct": null
+        },
+        {
+          "fornecedor": "RECKITT",
+          "por_produto": [
+            {
+              "produto": "VEJA MULTIUSO FLORAL 10% DESC 24X500ML",
+              "fat_atual": 0.0,
+              "fat_mes_anterior": 143.52,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 0.0,
+              "qt_mes_anterior": 2.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": 143.52,
+              "queda_fat_ano_valor": 0.0,
+              "queda_fat_mes_pct": -100.0,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": 2.0,
+              "queda_qt_ano_valor": 0.0,
+              "queda_qt_mes_pct": -100.0,
+              "queda_qt_ano_pct": null
+            }
+          ],
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 143.52,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 2.0,
+          "qt_ano_anterior": 0.0,
+          "queda_fat_mes_valor": 143.52,
+          "queda_fat_ano_valor": 0.0,
+          "queda_fat_mes_pct": -100.0,
+          "queda_fat_ano_pct": null,
+          "queda_qt_mes_valor": 2.0,
+          "queda_qt_ano_valor": 0.0,
+          "queda_qt_mes_pct": -100.0,
+          "queda_qt_ano_pct": null
+        },
+        {
+          "fornecedor": "VITON",
+          "por_produto": [
+            {
+              "produto": "GUARAVITA NATURAL 24X290ML",
+              "fat_atual": 0.0,
+              "fat_mes_anterior": 95.98,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 0.0,
+              "qt_mes_anterior": 3.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": 95.98,
+              "queda_fat_ano_valor": 0.0,
+              "queda_fat_mes_pct": -100.0,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": 3.0,
+              "queda_qt_ano_valor": 0.0,
+              "queda_qt_mes_pct": -100.0,
+              "queda_qt_ano_pct": null
+            }
+          ],
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 95.98,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 3.0,
+          "qt_ano_anterior": 0.0,
+          "queda_fat_mes_valor": 95.98,
+          "queda_fat_ano_valor": 0.0,
+          "queda_fat_mes_pct": -100.0,
+          "queda_fat_ano_pct": null,
+          "queda_qt_mes_valor": 3.0,
+          "queda_qt_ano_valor": 0.0,
+          "queda_qt_mes_pct": -100.0,
+          "queda_qt_ano_pct": null
+        },
+        {
+          "fornecedor": "RED BULL",
+          "por_produto": [
+            {
+              "produto": "4 PACK RED BULL 250ML",
+              "fat_atual": 179.76,
+              "fat_mes_anterior": 0.0,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 6.0,
+              "qt_mes_anterior": 0.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": -179.76,
+              "queda_fat_ano_valor": -179.76,
+              "queda_fat_mes_pct": null,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": -6.0,
+              "queda_qt_ano_valor": -6.0,
+              "queda_qt_mes_pct": null,
+              "queda_qt_ano_pct": null
+            }
+          ],
+          "fat_atual": 179.76,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 6.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0,
+          "queda_fat_mes_valor": -179.76,
+          "queda_fat_ano_valor": -179.76,
+          "queda_fat_mes_pct": null,
+          "queda_fat_ano_pct": null,
+          "queda_qt_mes_valor": -6.0,
+          "queda_qt_ano_valor": -6.0,
+          "queda_qt_mes_pct": null,
+          "queda_qt_ano_pct": null
+        }
+      ],
+      "fat_atual": 179.76,
+      "fat_mes_anterior": 479.26,
+      "fat_ano_anterior": 0.0,
+      "qt_atual": 6.0,
+      "qt_mes_anterior": 17.0,
+      "qt_ano_anterior": 0.0,
+      "queda_fat_mes_valor": 299.5,
+      "queda_fat_ano_valor": -179.76,
+      "queda_fat_mes_pct": -62.5,
+      "queda_fat_ano_pct": null,
+      "queda_qt_mes_valor": 11.0,
+      "queda_qt_ano_valor": -6.0,
+      "queda_qt_mes_pct": -64.7,
+      "queda_qt_ano_pct": null
     },
     {
       "codcli": 91782,
@@ -156444,6 +155884,144 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "queda_qt_ano_valor": 1.0,
       "queda_qt_mes_pct": -42.9,
       "queda_qt_ano_pct": -20.0
+    },
+    {
+      "codcli": 91913,
+      "estado": "RJ",
+      "chave": "RJ-91913",
+      "nome": "MERCADO ITAPIRU - CATUMBI",
+      "bairro": "CATUMBI",
+      "ramo": "MERCADO",
+      "vendedor": "FABIO VALOTTI",
+      "gerente": "ALLAN PAES",
+      "supervisor": "DANIELLE MOURA",
+      "chaves_rca": [
+        "RJ-378"
+      ],
+      "por_industria": [
+        {
+          "fornecedor": "RED BULL",
+          "por_produto": [
+            {
+              "produto": "4 PACK RED BULL",
+              "fat_atual": 0.0,
+              "fat_mes_anterior": 179.76,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 0.0,
+              "qt_mes_anterior": 6.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": 179.76,
+              "queda_fat_ano_valor": 0.0,
+              "queda_fat_mes_pct": -100.0,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": 6.0,
+              "queda_qt_ano_valor": 0.0,
+              "queda_qt_mes_pct": -100.0,
+              "queda_qt_ano_pct": null
+            }
+          ],
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 179.76,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 6.0,
+          "qt_ano_anterior": 0.0,
+          "queda_fat_mes_valor": 179.76,
+          "queda_fat_ano_valor": 0.0,
+          "queda_fat_mes_pct": -100.0,
+          "queda_fat_ano_pct": null,
+          "queda_qt_mes_valor": 6.0,
+          "queda_qt_ano_valor": 0.0,
+          "queda_qt_mes_pct": -100.0,
+          "queda_qt_ano_pct": null
+        },
+        {
+          "fornecedor": "TATUZINHO",
+          "por_produto": [
+            {
+              "produto": "CACHACA VELHO BARREIRO 910 ML",
+              "fat_atual": 0.0,
+              "fat_mes_anterior": 51.6,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 0.0,
+              "qt_mes_anterior": 4.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": 51.6,
+              "queda_fat_ano_valor": 0.0,
+              "queda_fat_mes_pct": -100.0,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": 4.0,
+              "queda_qt_ano_valor": 0.0,
+              "queda_qt_mes_pct": -100.0,
+              "queda_qt_ano_pct": null
+            }
+          ],
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 51.6,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 4.0,
+          "qt_ano_anterior": 0.0,
+          "queda_fat_mes_valor": 51.6,
+          "queda_fat_ano_valor": 0.0,
+          "queda_fat_mes_pct": -100.0,
+          "queda_fat_ano_pct": null,
+          "queda_qt_mes_valor": 4.0,
+          "queda_qt_ano_valor": 0.0,
+          "queda_qt_mes_pct": -100.0,
+          "queda_qt_ano_pct": null
+        },
+        {
+          "fornecedor": "COMARY",
+          "por_produto": [
+            {
+              "produto": "CANTINA DA SERRA 880 ML",
+              "fat_atual": 0.0,
+              "fat_mes_anterior": 5.49,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 0.0,
+              "qt_mes_anterior": 1.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": 5.49,
+              "queda_fat_ano_valor": 0.0,
+              "queda_fat_mes_pct": -100.0,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": 1.0,
+              "queda_qt_ano_valor": 0.0,
+              "queda_qt_mes_pct": -100.0,
+              "queda_qt_ano_pct": null
+            }
+          ],
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 5.49,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 1.0,
+          "qt_ano_anterior": 0.0,
+          "queda_fat_mes_valor": 5.49,
+          "queda_fat_ano_valor": 0.0,
+          "queda_fat_mes_pct": -100.0,
+          "queda_fat_ano_pct": null,
+          "queda_qt_mes_valor": 1.0,
+          "queda_qt_ano_valor": 0.0,
+          "queda_qt_mes_pct": -100.0,
+          "queda_qt_ano_pct": null
+        }
+      ],
+      "fat_atual": 0.0,
+      "fat_mes_anterior": 236.85,
+      "fat_ano_anterior": 0.0,
+      "qt_atual": 0.0,
+      "qt_mes_anterior": 11.0,
+      "qt_ano_anterior": 0.0,
+      "queda_fat_mes_valor": 236.85,
+      "queda_fat_ano_valor": 0.0,
+      "queda_fat_mes_pct": -100.0,
+      "queda_fat_ano_pct": null,
+      "queda_qt_mes_valor": 11.0,
+      "queda_qt_ano_valor": 0.0,
+      "queda_qt_mes_pct": -100.0,
+      "queda_qt_ano_pct": null
     },
     {
       "codcli": 3078,
@@ -164018,6 +163596,197 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "queda_qt_ano_pct": -91.7
     },
     {
+      "codcli": 95386,
+      "estado": "RJ",
+      "chave": "RJ-95386",
+      "nome": "PADARIA DO ZINHO",
+      "bairro": "SANTA CRUZ",
+      "ramo": "PADARIA",
+      "vendedor": "NÁTALI DE OLIVEIRA",
+      "gerente": "ALLAN PAES",
+      "supervisor": "DANIELLE MOURA",
+      "chaves_rca": [
+        "RJ-419"
+      ],
+      "por_industria": [
+        {
+          "fornecedor": "ROBINSON CRUSOE",
+          "por_produto": [
+            {
+              "produto": "RC SARDINHA EM OLEO 50X125G",
+              "fat_atual": 0.0,
+              "fat_mes_anterior": 240.0,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 0.0,
+              "qt_mes_anterior": 1.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": 240.0,
+              "queda_fat_ano_valor": 0.0,
+              "queda_fat_mes_pct": -100.0,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": 1.0,
+              "queda_qt_ano_valor": 0.0,
+              "queda_qt_mes_pct": -100.0,
+              "queda_qt_ano_pct": null
+            }
+          ],
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 240.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 1.0,
+          "qt_ano_anterior": 0.0,
+          "queda_fat_mes_valor": 240.0,
+          "queda_fat_ano_valor": 0.0,
+          "queda_fat_mes_pct": -100.0,
+          "queda_fat_ano_pct": null,
+          "queda_qt_mes_valor": 1.0,
+          "queda_qt_ano_valor": 0.0,
+          "queda_qt_mes_pct": -100.0,
+          "queda_qt_ano_pct": null
+        },
+        {
+          "fornecedor": "TIAL",
+          "por_produto": [
+            {
+              "produto": "NECTAR PESSEGO 12X1000ML",
+              "fat_atual": 0.0,
+              "fat_mes_anterior": 60.0,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 0.0,
+              "qt_mes_anterior": 1.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": 60.0,
+              "queda_fat_ano_valor": 0.0,
+              "queda_fat_mes_pct": -100.0,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": 1.0,
+              "queda_qt_ano_valor": 0.0,
+              "queda_qt_mes_pct": -100.0,
+              "queda_qt_ano_pct": null
+            }
+          ],
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 60.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 1.0,
+          "qt_ano_anterior": 0.0,
+          "queda_fat_mes_valor": 60.0,
+          "queda_fat_ano_valor": 0.0,
+          "queda_fat_mes_pct": -100.0,
+          "queda_fat_ano_pct": null,
+          "queda_qt_mes_valor": 1.0,
+          "queda_qt_ano_valor": 0.0,
+          "queda_qt_mes_pct": -100.0,
+          "queda_qt_ano_pct": null
+        },
+        {
+          "fornecedor": "PINATI",
+          "por_produto": [
+            {
+              "produto": "PINATI SIMPLE WHEY CHOCO BELGA 16X35G",
+              "fat_atual": 38.9,
+              "fat_mes_anterior": 0.0,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 1.0,
+              "qt_mes_anterior": 0.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": -38.9,
+              "queda_fat_ano_valor": -38.9,
+              "queda_fat_mes_pct": null,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": -1.0,
+              "queda_qt_ano_valor": -1.0,
+              "queda_qt_mes_pct": null,
+              "queda_qt_ano_pct": null
+            }
+          ],
+          "fat_atual": 38.9,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 1.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0,
+          "queda_fat_mes_valor": -38.9,
+          "queda_fat_ano_valor": -38.9,
+          "queda_fat_mes_pct": null,
+          "queda_fat_ano_pct": null,
+          "queda_qt_mes_valor": -1.0,
+          "queda_qt_ano_valor": -1.0,
+          "queda_qt_mes_pct": null,
+          "queda_qt_ano_pct": null
+        },
+        {
+          "fornecedor": "TATUZINHO",
+          "por_produto": [
+            {
+              "produto": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
+              "fat_atual": 94.7,
+              "fat_mes_anterior": 94.7,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 1.0,
+              "qt_mes_anterior": 1.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": 0.0,
+              "queda_fat_ano_valor": -94.7,
+              "queda_fat_mes_pct": 0.0,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": 0.0,
+              "queda_qt_ano_valor": -1.0,
+              "queda_qt_mes_pct": 0.0,
+              "queda_qt_ano_pct": null
+            },
+            {
+              "produto": "MOVING BOOSTER MORANGO ACEROLA  24X310ML",
+              "fat_atual": 175.2,
+              "fat_mes_anterior": 0.0,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 1.0,
+              "qt_mes_anterior": 0.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": -175.2,
+              "queda_fat_ano_valor": -175.2,
+              "queda_fat_mes_pct": null,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": -1.0,
+              "queda_qt_ano_valor": -1.0,
+              "queda_qt_mes_pct": null,
+              "queda_qt_ano_pct": null
+            }
+          ],
+          "fat_atual": 269.9,
+          "fat_mes_anterior": 94.7,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 2.0,
+          "qt_mes_anterior": 1.0,
+          "qt_ano_anterior": 0.0,
+          "queda_fat_mes_valor": -175.2,
+          "queda_fat_ano_valor": -269.9,
+          "queda_fat_mes_pct": 185.0,
+          "queda_fat_ano_pct": null,
+          "queda_qt_mes_valor": -1.0,
+          "queda_qt_ano_valor": -2.0,
+          "queda_qt_mes_pct": 100.0,
+          "queda_qt_ano_pct": null
+        }
+      ],
+      "fat_atual": 308.8,
+      "fat_mes_anterior": 394.7,
+      "fat_ano_anterior": 0.0,
+      "qt_atual": 3.0,
+      "qt_mes_anterior": 3.0,
+      "qt_ano_anterior": 0.0,
+      "queda_fat_mes_valor": 85.9,
+      "queda_fat_ano_valor": -308.8,
+      "queda_fat_mes_pct": -21.8,
+      "queda_fat_ano_pct": null,
+      "queda_qt_mes_valor": 0.0,
+      "queda_qt_ano_valor": -3.0,
+      "queda_qt_mes_pct": 0.0,
+      "queda_qt_ano_pct": null
+    },
+    {
       "codcli": 33224,
       "estado": "MG",
       "chave": "MG-33224",
@@ -164462,6 +164231,231 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "queda_qt_ano_valor": -5.0,
       "queda_qt_mes_pct": 0.0,
       "queda_qt_ano_pct": null
+    },
+    {
+      "codcli": 83643,
+      "estado": "RJ",
+      "chave": "RJ-83643",
+      "nome": "COMERCIO DE BEBIDAS DOS OLIVEIRAS",
+      "bairro": "JARDIM ANHANGA",
+      "ramo": "MERCADO",
+      "vendedor": "ANGELO NEVES SUZART",
+      "gerente": "ALLAN PAES",
+      "supervisor": "DANIELLE MOURA",
+      "chaves_rca": [
+        "RJ-153"
+      ],
+      "por_industria": [
+        {
+          "fornecedor": "CASTAS",
+          "por_produto": [
+            {
+              "produto": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
+              "fat_atual": 0.0,
+              "fat_mes_anterior": 239.6,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 0.0,
+              "qt_mes_anterior": 4.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": 239.6,
+              "queda_fat_ano_valor": 0.0,
+              "queda_fat_mes_pct": -100.0,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": 4.0,
+              "queda_qt_ano_valor": 0.0,
+              "queda_qt_mes_pct": -100.0,
+              "queda_qt_ano_pct": null
+            },
+            {
+              "produto": "VINHO CAVAS DE ORO MALBEC 750ML",
+              "fat_atual": 0.0,
+              "fat_mes_anterior": 101.7,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 0.0,
+              "qt_mes_anterior": 3.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": 101.7,
+              "queda_fat_ano_valor": 0.0,
+              "queda_fat_mes_pct": -100.0,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": 3.0,
+              "queda_qt_ano_valor": 0.0,
+              "queda_qt_mes_pct": -100.0,
+              "queda_qt_ano_pct": null
+            }
+          ],
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 341.3,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 7.0,
+          "qt_ano_anterior": 0.0,
+          "queda_fat_mes_valor": 341.3,
+          "queda_fat_ano_valor": 0.0,
+          "queda_fat_mes_pct": -100.0,
+          "queda_fat_ano_pct": null,
+          "queda_qt_mes_valor": 7.0,
+          "queda_qt_ano_valor": 0.0,
+          "queda_qt_mes_pct": -100.0,
+          "queda_qt_ano_pct": null
+        },
+        {
+          "fornecedor": "ROBINSON CRUSOE",
+          "por_produto": [
+            {
+              "produto": "SARDINHA EM OLEO ROBINSON CRUSOE 125G",
+              "fat_atual": 0.0,
+              "fat_mes_anterior": 0.0,
+              "fat_ano_anterior": 59.85,
+              "qt_atual": 0.0,
+              "qt_mes_anterior": 0.0,
+              "qt_ano_anterior": 15.0,
+              "queda_fat_mes_valor": 0.0,
+              "queda_fat_ano_valor": 59.85,
+              "queda_fat_mes_pct": null,
+              "queda_fat_ano_pct": -100.0,
+              "queda_qt_mes_valor": 0.0,
+              "queda_qt_ano_valor": 15.0,
+              "queda_qt_mes_pct": null,
+              "queda_qt_ano_pct": -100.0
+            },
+            {
+              "produto": "SARDINHA ROBINSON CRUSOE TOMATE 125G",
+              "fat_atual": 0.0,
+              "fat_mes_anterior": 0.0,
+              "fat_ano_anterior": 19.95,
+              "qt_atual": 0.0,
+              "qt_mes_anterior": 0.0,
+              "qt_ano_anterior": 5.0,
+              "queda_fat_mes_valor": 0.0,
+              "queda_fat_ano_valor": 19.95,
+              "queda_fat_mes_pct": null,
+              "queda_fat_ano_pct": -100.0,
+              "queda_qt_mes_valor": 0.0,
+              "queda_qt_ano_valor": 5.0,
+              "queda_qt_mes_pct": null,
+              "queda_qt_ano_pct": -100.0
+            }
+          ],
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 79.8,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 20.0,
+          "queda_fat_mes_valor": 0.0,
+          "queda_fat_ano_valor": 79.8,
+          "queda_fat_mes_pct": null,
+          "queda_fat_ano_pct": -100.0,
+          "queda_qt_mes_valor": 0.0,
+          "queda_qt_ano_valor": 20.0,
+          "queda_qt_mes_pct": null,
+          "queda_qt_ano_pct": -100.0
+        },
+        {
+          "fornecedor": "BROWN",
+          "por_produto": [
+            {
+              "produto": "WHISKY JACK DANIELS 1L",
+              "fat_atual": 119.9,
+              "fat_mes_anterior": 0.0,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 1.0,
+              "qt_mes_anterior": 0.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": -119.9,
+              "queda_fat_ano_valor": -119.9,
+              "queda_fat_mes_pct": null,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": -1.0,
+              "queda_qt_ano_valor": -1.0,
+              "queda_qt_mes_pct": null,
+              "queda_qt_ano_pct": null
+            }
+          ],
+          "fat_atual": 119.9,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 1.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0,
+          "queda_fat_mes_valor": -119.9,
+          "queda_fat_ano_valor": -119.9,
+          "queda_fat_mes_pct": null,
+          "queda_fat_ano_pct": null,
+          "queda_qt_mes_valor": -1.0,
+          "queda_qt_ano_valor": -1.0,
+          "queda_qt_mes_pct": null,
+          "queda_qt_ano_pct": null
+        },
+        {
+          "fornecedor": "BEAM SUNTORY",
+          "por_produto": [
+            {
+              "produto": "WHISKY JIM BEAM APPLE 1L",
+              "fat_atual": 70.9,
+              "fat_mes_anterior": 0.0,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 1.0,
+              "qt_mes_anterior": 0.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": -70.9,
+              "queda_fat_ano_valor": -70.9,
+              "queda_fat_mes_pct": null,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": -1.0,
+              "queda_qt_ano_valor": -1.0,
+              "queda_qt_mes_pct": null,
+              "queda_qt_ano_pct": null
+            },
+            {
+              "produto": "WHISKY JIM BEAM BLACK CHERRY 1L",
+              "fat_atual": 70.9,
+              "fat_mes_anterior": 0.0,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 1.0,
+              "qt_mes_anterior": 0.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": -70.9,
+              "queda_fat_ano_valor": -70.9,
+              "queda_fat_mes_pct": null,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": -1.0,
+              "queda_qt_ano_valor": -1.0,
+              "queda_qt_mes_pct": null,
+              "queda_qt_ano_pct": null
+            }
+          ],
+          "fat_atual": 141.8,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 2.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0,
+          "queda_fat_mes_valor": -141.8,
+          "queda_fat_ano_valor": -141.8,
+          "queda_fat_mes_pct": null,
+          "queda_fat_ano_pct": null,
+          "queda_qt_mes_valor": -2.0,
+          "queda_qt_ano_valor": -2.0,
+          "queda_qt_mes_pct": null,
+          "queda_qt_ano_pct": null
+        }
+      ],
+      "fat_atual": 261.7,
+      "fat_mes_anterior": 341.3,
+      "fat_ano_anterior": 79.8,
+      "qt_atual": 3.0,
+      "qt_mes_anterior": 7.0,
+      "qt_ano_anterior": 20.0,
+      "queda_fat_mes_valor": 79.6,
+      "queda_fat_ano_valor": -181.9,
+      "queda_fat_mes_pct": -23.3,
+      "queda_fat_ano_pct": 227.9,
+      "queda_qt_mes_valor": 4.0,
+      "queda_qt_ano_valor": 17.0,
+      "queda_qt_mes_pct": -57.1,
+      "queda_qt_ano_pct": -85.0
     },
     {
       "codcli": 94256,
@@ -165325,252 +165319,6 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "queda_qt_mes_valor": -6.0,
       "queda_qt_ano_valor": -18.0,
       "queda_qt_mes_pct": 50.0,
-      "queda_qt_ano_pct": null
-    },
-    {
-      "codcli": 91913,
-      "estado": "RJ",
-      "chave": "RJ-91913",
-      "nome": "MERCADO ITAPIRU - CATUMBI",
-      "bairro": "CATUMBI",
-      "ramo": "MERCADO",
-      "vendedor": "FABIO VALOTTI",
-      "gerente": "ALLAN PAES",
-      "supervisor": "DANIELLE MOURA",
-      "chaves_rca": [
-        "RJ-378"
-      ],
-      "por_industria": [
-        {
-          "fornecedor": "RED BULL",
-          "por_produto": [
-            {
-              "produto": "4 PACK RED BULL",
-              "fat_atual": 0.0,
-              "fat_mes_anterior": 179.76,
-              "fat_ano_anterior": 0.0,
-              "qt_atual": 0.0,
-              "qt_mes_anterior": 6.0,
-              "qt_ano_anterior": 0.0,
-              "queda_fat_mes_valor": 179.76,
-              "queda_fat_ano_valor": 0.0,
-              "queda_fat_mes_pct": -100.0,
-              "queda_fat_ano_pct": null,
-              "queda_qt_mes_valor": 6.0,
-              "queda_qt_ano_valor": 0.0,
-              "queda_qt_mes_pct": -100.0,
-              "queda_qt_ano_pct": null
-            }
-          ],
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 179.76,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 6.0,
-          "qt_ano_anterior": 0.0,
-          "queda_fat_mes_valor": 179.76,
-          "queda_fat_ano_valor": 0.0,
-          "queda_fat_mes_pct": -100.0,
-          "queda_fat_ano_pct": null,
-          "queda_qt_mes_valor": 6.0,
-          "queda_qt_ano_valor": 0.0,
-          "queda_qt_mes_pct": -100.0,
-          "queda_qt_ano_pct": null
-        },
-        {
-          "fornecedor": "TATUZINHO",
-          "por_produto": [
-            {
-              "produto": "CACHACA VELHO BARREIRO 910 ML",
-              "fat_atual": 0.0,
-              "fat_mes_anterior": 51.6,
-              "fat_ano_anterior": 0.0,
-              "qt_atual": 0.0,
-              "qt_mes_anterior": 4.0,
-              "qt_ano_anterior": 0.0,
-              "queda_fat_mes_valor": 51.6,
-              "queda_fat_ano_valor": 0.0,
-              "queda_fat_mes_pct": -100.0,
-              "queda_fat_ano_pct": null,
-              "queda_qt_mes_valor": 4.0,
-              "queda_qt_ano_valor": 0.0,
-              "queda_qt_mes_pct": -100.0,
-              "queda_qt_ano_pct": null
-            }
-          ],
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 51.6,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 4.0,
-          "qt_ano_anterior": 0.0,
-          "queda_fat_mes_valor": 51.6,
-          "queda_fat_ano_valor": 0.0,
-          "queda_fat_mes_pct": -100.0,
-          "queda_fat_ano_pct": null,
-          "queda_qt_mes_valor": 4.0,
-          "queda_qt_ano_valor": 0.0,
-          "queda_qt_mes_pct": -100.0,
-          "queda_qt_ano_pct": null
-        },
-        {
-          "fornecedor": "COMARY",
-          "por_produto": [
-            {
-              "produto": "CANTINA DA SERRA 880 ML",
-              "fat_atual": 0.0,
-              "fat_mes_anterior": 5.49,
-              "fat_ano_anterior": 0.0,
-              "qt_atual": 0.0,
-              "qt_mes_anterior": 1.0,
-              "qt_ano_anterior": 0.0,
-              "queda_fat_mes_valor": 5.49,
-              "queda_fat_ano_valor": 0.0,
-              "queda_fat_mes_pct": -100.0,
-              "queda_fat_ano_pct": null,
-              "queda_qt_mes_valor": 1.0,
-              "queda_qt_ano_valor": 0.0,
-              "queda_qt_mes_pct": -100.0,
-              "queda_qt_ano_pct": null
-            }
-          ],
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 5.49,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 1.0,
-          "qt_ano_anterior": 0.0,
-          "queda_fat_mes_valor": 5.49,
-          "queda_fat_ano_valor": 0.0,
-          "queda_fat_mes_pct": -100.0,
-          "queda_fat_ano_pct": null,
-          "queda_qt_mes_valor": 1.0,
-          "queda_qt_ano_valor": 0.0,
-          "queda_qt_mes_pct": -100.0,
-          "queda_qt_ano_pct": null
-        },
-        {
-          "fornecedor": "HOB",
-          "por_produto": [
-            {
-              "produto": "ZIN TONICA 12X310ML",
-              "fat_atual": 45.95,
-              "fat_mes_anterior": 0.0,
-              "fat_ano_anterior": 0.0,
-              "qt_atual": 1.0,
-              "qt_mes_anterior": 0.0,
-              "qt_ano_anterior": 0.0,
-              "queda_fat_mes_valor": -45.95,
-              "queda_fat_ano_valor": -45.95,
-              "queda_fat_mes_pct": null,
-              "queda_fat_ano_pct": null,
-              "queda_qt_mes_valor": -1.0,
-              "queda_qt_ano_valor": -1.0,
-              "queda_qt_mes_pct": null,
-              "queda_qt_ano_pct": null
-            }
-          ],
-          "fat_atual": 45.95,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 1.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0,
-          "queda_fat_mes_valor": -45.95,
-          "queda_fat_ano_valor": -45.95,
-          "queda_fat_mes_pct": null,
-          "queda_fat_ano_pct": null,
-          "queda_qt_mes_valor": -1.0,
-          "queda_qt_ano_valor": -1.0,
-          "queda_qt_mes_pct": null,
-          "queda_qt_ano_pct": null
-        },
-        {
-          "fornecedor": "CAMPARI",
-          "por_produto": [
-            {
-              "produto": "CONHAQUE DREHER 900ML",
-              "fat_atual": 56.7,
-              "fat_mes_anterior": 0.0,
-              "fat_ano_anterior": 0.0,
-              "qt_atual": 3.0,
-              "qt_mes_anterior": 0.0,
-              "qt_ano_anterior": 0.0,
-              "queda_fat_mes_valor": -56.7,
-              "queda_fat_ano_valor": -56.7,
-              "queda_fat_mes_pct": null,
-              "queda_fat_ano_pct": null,
-              "queda_qt_mes_valor": -3.0,
-              "queda_qt_ano_valor": -3.0,
-              "queda_qt_mes_pct": null,
-              "queda_qt_ano_pct": null
-            }
-          ],
-          "fat_atual": 56.7,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 3.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0,
-          "queda_fat_mes_valor": -56.7,
-          "queda_fat_ano_valor": -56.7,
-          "queda_fat_mes_pct": null,
-          "queda_fat_ano_pct": null,
-          "queda_qt_mes_valor": -3.0,
-          "queda_qt_ano_valor": -3.0,
-          "queda_qt_mes_pct": null,
-          "queda_qt_ano_pct": null
-        },
-        {
-          "fornecedor": "PERNOD",
-          "por_produto": [
-            {
-              "produto": "CONHAQUE DOMECQ 1L",
-              "fat_atual": 86.7,
-              "fat_mes_anterior": 0.0,
-              "fat_ano_anterior": 0.0,
-              "qt_atual": 3.0,
-              "qt_mes_anterior": 0.0,
-              "qt_ano_anterior": 0.0,
-              "queda_fat_mes_valor": -86.7,
-              "queda_fat_ano_valor": -86.7,
-              "queda_fat_mes_pct": null,
-              "queda_fat_ano_pct": null,
-              "queda_qt_mes_valor": -3.0,
-              "queda_qt_ano_valor": -3.0,
-              "queda_qt_mes_pct": null,
-              "queda_qt_ano_pct": null
-            }
-          ],
-          "fat_atual": 86.7,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 3.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0,
-          "queda_fat_mes_valor": -86.7,
-          "queda_fat_ano_valor": -86.7,
-          "queda_fat_mes_pct": null,
-          "queda_fat_ano_pct": null,
-          "queda_qt_mes_valor": -3.0,
-          "queda_qt_ano_valor": -3.0,
-          "queda_qt_mes_pct": null,
-          "queda_qt_ano_pct": null
-        }
-      ],
-      "fat_atual": 189.35,
-      "fat_mes_anterior": 236.85,
-      "fat_ano_anterior": 0.0,
-      "qt_atual": 7.0,
-      "qt_mes_anterior": 11.0,
-      "qt_ano_anterior": 0.0,
-      "queda_fat_mes_valor": 47.5,
-      "queda_fat_ano_valor": -189.35,
-      "queda_fat_mes_pct": -20.1,
-      "queda_fat_ano_pct": null,
-      "queda_qt_mes_valor": 4.0,
-      "queda_qt_ano_valor": -7.0,
-      "queda_qt_mes_pct": -36.4,
       "queda_qt_ano_pct": null
     },
     {
@@ -167632,161 +167380,6 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "queda_qt_ano_pct": null
     },
     {
-      "codcli": 64301,
-      "estado": "RJ",
-      "chave": "RJ-64301",
-      "nome": "SANSE CAFE BISTRO",
-      "bairro": "JOAO FERNANDES",
-      "ramo": "RESTAURANTE",
-      "vendedor": "RAPHAEL SANTOS",
-      "gerente": "DANIEL DINIZ",
-      "supervisor": "DANIEL DINIZ",
-      "chaves_rca": [
-        "RJ-155"
-      ],
-      "por_industria": [
-        {
-          "fornecedor": "CASTAS",
-          "por_produto": [
-            {
-              "produto": "ESPUMANTE ALUD BRANCO 750ML",
-              "fat_atual": 0.0,
-              "fat_mes_anterior": 209.4,
-              "fat_ano_anterior": 0.0,
-              "qt_atual": 0.0,
-              "qt_mes_anterior": 6.0,
-              "qt_ano_anterior": 0.0,
-              "queda_fat_mes_valor": 209.4,
-              "queda_fat_ano_valor": 0.0,
-              "queda_fat_mes_pct": -100.0,
-              "queda_fat_ano_pct": null,
-              "queda_qt_mes_valor": 6.0,
-              "queda_qt_ano_valor": 0.0,
-              "queda_qt_mes_pct": -100.0,
-              "queda_qt_ano_pct": null
-            }
-          ],
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 209.4,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 6.0,
-          "qt_ano_anterior": 0.0,
-          "queda_fat_mes_valor": 209.4,
-          "queda_fat_ano_valor": 0.0,
-          "queda_fat_mes_pct": -100.0,
-          "queda_fat_ano_pct": null,
-          "queda_qt_mes_valor": 6.0,
-          "queda_qt_ano_valor": 0.0,
-          "queda_qt_mes_pct": -100.0,
-          "queda_qt_ano_pct": null
-        },
-        {
-          "fornecedor": "BACARDI",
-          "por_produto": [
-            {
-              "produto": "RUM BACARDI SUPERIOR 980ML",
-              "fat_atual": 0.0,
-              "fat_mes_anterior": 71.8,
-              "fat_ano_anterior": 0.0,
-              "qt_atual": 0.0,
-              "qt_mes_anterior": 2.0,
-              "qt_ano_anterior": 0.0,
-              "queda_fat_mes_valor": 71.8,
-              "queda_fat_ano_valor": 0.0,
-              "queda_fat_mes_pct": -100.0,
-              "queda_fat_ano_pct": null,
-              "queda_qt_mes_valor": 2.0,
-              "queda_qt_ano_valor": 0.0,
-              "queda_qt_mes_pct": -100.0,
-              "queda_qt_ano_pct": null
-            },
-            {
-              "produto": "RUM BACARDI GOLD 980ML",
-              "fat_atual": 123.3,
-              "fat_mes_anterior": 0.0,
-              "fat_ano_anterior": 0.0,
-              "qt_atual": 3.0,
-              "qt_mes_anterior": 0.0,
-              "qt_ano_anterior": 0.0,
-              "queda_fat_mes_valor": -123.3,
-              "queda_fat_ano_valor": -123.3,
-              "queda_fat_mes_pct": null,
-              "queda_fat_ano_pct": null,
-              "queda_qt_mes_valor": -3.0,
-              "queda_qt_ano_valor": -3.0,
-              "queda_qt_mes_pct": null,
-              "queda_qt_ano_pct": null
-            }
-          ],
-          "fat_atual": 123.3,
-          "fat_mes_anterior": 71.8,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 3.0,
-          "qt_mes_anterior": 2.0,
-          "qt_ano_anterior": 0.0,
-          "queda_fat_mes_valor": -51.5,
-          "queda_fat_ano_valor": -123.3,
-          "queda_fat_mes_pct": 71.7,
-          "queda_fat_ano_pct": null,
-          "queda_qt_mes_valor": -1.0,
-          "queda_qt_ano_valor": -3.0,
-          "queda_qt_mes_pct": 50.0,
-          "queda_qt_ano_pct": null
-        },
-        {
-          "fornecedor": "DIAGEO",
-          "por_produto": [
-            {
-              "produto": "WHISKY J WALKER BLACK LABEL 1L",
-              "fat_atual": 149.9,
-              "fat_mes_anterior": 0.0,
-              "fat_ano_anterior": 0.0,
-              "qt_atual": 1.0,
-              "qt_mes_anterior": 0.0,
-              "qt_ano_anterior": 0.0,
-              "queda_fat_mes_valor": -149.9,
-              "queda_fat_ano_valor": -149.9,
-              "queda_fat_mes_pct": null,
-              "queda_fat_ano_pct": null,
-              "queda_qt_mes_valor": -1.0,
-              "queda_qt_ano_valor": -1.0,
-              "queda_qt_mes_pct": null,
-              "queda_qt_ano_pct": null
-            }
-          ],
-          "fat_atual": 149.9,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 1.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0,
-          "queda_fat_mes_valor": -149.9,
-          "queda_fat_ano_valor": -149.9,
-          "queda_fat_mes_pct": null,
-          "queda_fat_ano_pct": null,
-          "queda_qt_mes_valor": -1.0,
-          "queda_qt_ano_valor": -1.0,
-          "queda_qt_mes_pct": null,
-          "queda_qt_ano_pct": null
-        }
-      ],
-      "fat_atual": 273.2,
-      "fat_mes_anterior": 281.2,
-      "fat_ano_anterior": 0.0,
-      "qt_atual": 4.0,
-      "qt_mes_anterior": 8.0,
-      "qt_ano_anterior": 0.0,
-      "queda_fat_mes_valor": 8.0,
-      "queda_fat_ano_valor": -273.2,
-      "queda_fat_mes_pct": -2.8,
-      "queda_fat_ano_pct": null,
-      "queda_qt_mes_valor": 4.0,
-      "queda_qt_ano_valor": -4.0,
-      "queda_qt_mes_pct": -50.0,
-      "queda_qt_ano_pct": null
-    },
-    {
       "codcli": 92051,
       "estado": "RJ",
       "chave": "RJ-92051",
@@ -167970,6 +167563,331 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "queda_qt_ano_valor": 0.0,
       "queda_qt_mes_pct": 0.0,
       "queda_qt_ano_pct": 0.0
+    },
+    {
+      "codcli": 79902,
+      "estado": "RJ",
+      "chave": "RJ-79902",
+      "nome": "SAUCE & CO",
+      "bairro": "BARRA DA TIJUCA",
+      "ramo": "RESTAURANTE",
+      "vendedor": "FABIO VALOTTI",
+      "gerente": "ALLAN PAES",
+      "supervisor": "DANIELLE MOURA",
+      "chaves_rca": [
+        "RJ-378"
+      ],
+      "por_industria": [
+        {
+          "fornecedor": "KAISER",
+          "por_produto": [
+            {
+              "produto": "AGUA MAMBA PROTEIN ABACAXI HORT 6X350ML",
+              "fat_atual": 0.0,
+              "fat_mes_anterior": 118.2,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 0.0,
+              "qt_mes_anterior": 2.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": 118.2,
+              "queda_fat_ano_valor": 0.0,
+              "queda_fat_mes_pct": -100.0,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": 2.0,
+              "queda_qt_ano_valor": 0.0,
+              "queda_qt_mes_pct": -100.0,
+              "queda_qt_ano_pct": null
+            },
+            {
+              "produto": "AGUA MAMBA PROTEIN LIMAO E FRAMB 6X350ML",
+              "fat_atual": 0.0,
+              "fat_mes_anterior": 118.2,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 0.0,
+              "qt_mes_anterior": 2.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": 118.2,
+              "queda_fat_ano_valor": 0.0,
+              "queda_fat_mes_pct": -100.0,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": 2.0,
+              "queda_qt_ano_valor": 0.0,
+              "queda_qt_mes_pct": -100.0,
+              "queda_qt_ano_pct": null
+            },
+            {
+              "produto": "CERVEJA HEINEKEN LONG 24X330ML",
+              "fat_atual": 132.0,
+              "fat_mes_anterior": 0.0,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 1.0,
+              "qt_mes_anterior": 0.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": -132.0,
+              "queda_fat_ano_valor": -132.0,
+              "queda_fat_mes_pct": null,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": -1.0,
+              "queda_qt_ano_valor": -1.0,
+              "queda_qt_mes_pct": null,
+              "queda_qt_ano_pct": null
+            }
+          ],
+          "fat_atual": 132.0,
+          "fat_mes_anterior": 236.4,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 1.0,
+          "qt_mes_anterior": 4.0,
+          "qt_ano_anterior": 0.0,
+          "queda_fat_mes_valor": 104.4,
+          "queda_fat_ano_valor": -132.0,
+          "queda_fat_mes_pct": -44.2,
+          "queda_fat_ano_pct": null,
+          "queda_qt_mes_valor": 3.0,
+          "queda_qt_ano_valor": -1.0,
+          "queda_qt_mes_pct": -75.0,
+          "queda_qt_ano_pct": null
+        },
+        {
+          "fornecedor": "RED BULL",
+          "por_produto": [
+            {
+              "produto": "4 PACK RED BULL SF NECTARINA 4X250ML",
+              "fat_atual": 0.0,
+              "fat_mes_anterior": 119.84,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 0.0,
+              "qt_mes_anterior": 4.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": 119.84,
+              "queda_fat_ano_valor": 0.0,
+              "queda_fat_mes_pct": -100.0,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": 4.0,
+              "queda_qt_ano_valor": 0.0,
+              "queda_qt_mes_pct": -100.0,
+              "queda_qt_ano_pct": null
+            },
+            {
+              "produto": "4 PACK RED BULL",
+              "fat_atual": 0.0,
+              "fat_mes_anterior": 89.88,
+              "fat_ano_anterior": 89.88,
+              "qt_atual": 0.0,
+              "qt_mes_anterior": 3.0,
+              "qt_ano_anterior": 3.0,
+              "queda_fat_mes_valor": 89.88,
+              "queda_fat_ano_valor": 89.88,
+              "queda_fat_mes_pct": -100.0,
+              "queda_fat_ano_pct": -100.0,
+              "queda_qt_mes_valor": 3.0,
+              "queda_qt_ano_valor": 3.0,
+              "queda_qt_mes_pct": -100.0,
+              "queda_qt_ano_pct": -100.0
+            },
+            {
+              "produto": "4 PACK RED BULL SUGAR FREE",
+              "fat_atual": 0.0,
+              "fat_mes_anterior": 0.0,
+              "fat_ano_anterior": 89.88,
+              "qt_atual": 0.0,
+              "qt_mes_anterior": 0.0,
+              "qt_ano_anterior": 3.0,
+              "queda_fat_mes_valor": 0.0,
+              "queda_fat_ano_valor": 89.88,
+              "queda_fat_mes_pct": null,
+              "queda_fat_ano_pct": -100.0,
+              "queda_qt_mes_valor": 0.0,
+              "queda_qt_ano_valor": 3.0,
+              "queda_qt_mes_pct": null,
+              "queda_qt_ano_pct": -100.0
+            },
+            {
+              "produto": "4 PACK RED BULL ZERO",
+              "fat_atual": 149.8,
+              "fat_mes_anterior": 149.8,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 5.0,
+              "qt_mes_anterior": 5.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": 0.0,
+              "queda_fat_ano_valor": -149.8,
+              "queda_fat_mes_pct": 0.0,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": 0.0,
+              "queda_qt_ano_valor": -5.0,
+              "queda_qt_mes_pct": 0.0,
+              "queda_qt_ano_pct": null
+            },
+            {
+              "produto": "4 PACK RED BULL MELANCIA",
+              "fat_atual": 29.96,
+              "fat_mes_anterior": 0.0,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 1.0,
+              "qt_mes_anterior": 0.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": -29.96,
+              "queda_fat_ano_valor": -29.96,
+              "queda_fat_mes_pct": null,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": -1.0,
+              "queda_qt_ano_valor": -1.0,
+              "queda_qt_mes_pct": null,
+              "queda_qt_ano_pct": null
+            },
+            {
+              "produto": "4 PACK RED BULL SF AMORA",
+              "fat_atual": 59.92,
+              "fat_mes_anterior": 29.76,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 2.0,
+              "qt_mes_anterior": 1.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": -30.16,
+              "queda_fat_ano_valor": -59.92,
+              "queda_fat_mes_pct": 101.3,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": -1.0,
+              "queda_qt_ano_valor": -2.0,
+              "queda_qt_mes_pct": 100.0,
+              "queda_qt_ano_pct": null
+            },
+            {
+              "produto": "4 PACK RED BULL 250ML",
+              "fat_atual": 59.92,
+              "fat_mes_anterior": 0.0,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 2.0,
+              "qt_mes_anterior": 0.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": -59.92,
+              "queda_fat_ano_valor": -59.92,
+              "queda_fat_mes_pct": null,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": -2.0,
+              "queda_qt_ano_valor": -2.0,
+              "queda_qt_mes_pct": null,
+              "queda_qt_ano_pct": null
+            }
+          ],
+          "fat_atual": 299.6,
+          "fat_mes_anterior": 389.28,
+          "fat_ano_anterior": 179.76,
+          "qt_atual": 10.0,
+          "qt_mes_anterior": 13.0,
+          "qt_ano_anterior": 6.0,
+          "queda_fat_mes_valor": 89.68,
+          "queda_fat_ano_valor": -119.84,
+          "queda_fat_mes_pct": -23.0,
+          "queda_fat_ano_pct": 66.7,
+          "queda_qt_mes_valor": 3.0,
+          "queda_qt_ano_valor": -4.0,
+          "queda_qt_mes_pct": -23.1,
+          "queda_qt_ano_pct": 66.7
+        },
+        {
+          "fornecedor": "TATUZINHO",
+          "por_produto": [
+            {
+              "produto": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
+              "fat_atual": 94.7,
+              "fat_mes_anterior": 94.7,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 1.0,
+              "qt_mes_anterior": 1.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": 0.0,
+              "queda_fat_ano_valor": -94.7,
+              "queda_fat_mes_pct": 0.0,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": 0.0,
+              "queda_qt_ano_valor": -1.0,
+              "queda_qt_mes_pct": 0.0,
+              "queda_qt_ano_pct": null
+            },
+            {
+              "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+              "fat_atual": 189.4,
+              "fat_mes_anterior": 189.4,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 2.0,
+              "qt_mes_anterior": 2.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": 0.0,
+              "queda_fat_ano_valor": -189.4,
+              "queda_fat_mes_pct": 0.0,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": 0.0,
+              "queda_qt_ano_valor": -2.0,
+              "queda_qt_mes_pct": 0.0,
+              "queda_qt_ano_pct": null
+            },
+            {
+              "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+              "fat_atual": 189.4,
+              "fat_mes_anterior": 94.7,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 2.0,
+              "qt_mes_anterior": 1.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": -94.7,
+              "queda_fat_ano_valor": -189.4,
+              "queda_fat_mes_pct": 100.0,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": -1.0,
+              "queda_qt_ano_valor": -2.0,
+              "queda_qt_mes_pct": 100.0,
+              "queda_qt_ano_pct": null
+            },
+            {
+              "produto": "MOVING HYDRO PROTEIN UVA 12X500ML",
+              "fat_atual": 189.4,
+              "fat_mes_anterior": 94.7,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 2.0,
+              "qt_mes_anterior": 1.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": -94.7,
+              "queda_fat_ano_valor": -189.4,
+              "queda_fat_mes_pct": 100.0,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": -1.0,
+              "queda_qt_ano_valor": -2.0,
+              "queda_qt_mes_pct": 100.0,
+              "queda_qt_ano_pct": null
+            }
+          ],
+          "fat_atual": 662.9,
+          "fat_mes_anterior": 473.5,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 7.0,
+          "qt_mes_anterior": 5.0,
+          "qt_ano_anterior": 0.0,
+          "queda_fat_mes_valor": -189.4,
+          "queda_fat_ano_valor": -662.9,
+          "queda_fat_mes_pct": 40.0,
+          "queda_fat_ano_pct": null,
+          "queda_qt_mes_valor": -2.0,
+          "queda_qt_ano_valor": -7.0,
+          "queda_qt_mes_pct": 40.0,
+          "queda_qt_ano_pct": null
+        }
+      ],
+      "fat_atual": 1094.5,
+      "fat_mes_anterior": 1099.18,
+      "fat_ano_anterior": 179.76,
+      "qt_atual": 18.0,
+      "qt_mes_anterior": 22.0,
+      "qt_ano_anterior": 6.0,
+      "queda_fat_mes_valor": 4.68,
+      "queda_fat_ano_valor": -914.74,
+      "queda_fat_mes_pct": -0.4,
+      "queda_fat_ano_pct": 508.9,
+      "queda_qt_mes_valor": 4.0,
+      "queda_qt_ano_valor": -12.0,
+      "queda_qt_mes_pct": -18.2,
+      "queda_qt_ano_pct": 200.0
     },
     {
       "codcli": 40453,
@@ -196532,318 +196450,6 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "queda_qt_ano_pct": 8.3
     },
     {
-      "codcli": 82290,
-      "estado": "RJ",
-      "chave": "RJ-82290",
-      "nome": "NA BRASA BROTHERS",
-      "bairro": "MARINA",
-      "ramo": "MERCADO",
-      "vendedor": "RAPHAEL SANTOS",
-      "gerente": "DANIEL DINIZ",
-      "supervisor": "DANIEL DINIZ",
-      "chaves_rca": [
-        "RJ-155"
-      ],
-      "por_industria": [
-        {
-          "fornecedor": "DIAGEO",
-          "por_produto": [
-            {
-              "produto": "WHISKY J WALKER GOLD LABEL RESERVE 750ML",
-              "fat_atual": 0.0,
-              "fat_mes_anterior": 229.9,
-              "fat_ano_anterior": 0.0,
-              "qt_atual": 0.0,
-              "qt_mes_anterior": 1.0,
-              "qt_ano_anterior": 0.0,
-              "queda_fat_mes_valor": 229.9,
-              "queda_fat_ano_valor": 0.0,
-              "queda_fat_mes_pct": -100.0,
-              "queda_fat_ano_pct": null,
-              "queda_qt_mes_valor": 1.0,
-              "queda_qt_ano_valor": 0.0,
-              "queda_qt_mes_pct": -100.0,
-              "queda_qt_ano_pct": null
-            }
-          ],
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 229.9,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 1.0,
-          "qt_ano_anterior": 0.0,
-          "queda_fat_mes_valor": 229.9,
-          "queda_fat_ano_valor": 0.0,
-          "queda_fat_mes_pct": -100.0,
-          "queda_fat_ano_pct": null,
-          "queda_qt_mes_valor": 1.0,
-          "queda_qt_ano_valor": 0.0,
-          "queda_qt_mes_pct": -100.0,
-          "queda_qt_ano_pct": null
-        },
-        {
-          "fornecedor": "PERNOD",
-          "por_produto": [
-            {
-              "produto": "WHISKY CHIVAS REGAL 12 ANOS 1L",
-              "fat_atual": 0.0,
-              "fat_mes_anterior": 199.8,
-              "fat_ano_anterior": 0.0,
-              "qt_atual": 0.0,
-              "qt_mes_anterior": 2.0,
-              "qt_ano_anterior": 0.0,
-              "queda_fat_mes_valor": 199.8,
-              "queda_fat_ano_valor": 0.0,
-              "queda_fat_mes_pct": -100.0,
-              "queda_fat_ano_pct": null,
-              "queda_qt_mes_valor": 2.0,
-              "queda_qt_ano_valor": 0.0,
-              "queda_qt_mes_pct": -100.0,
-              "queda_qt_ano_pct": null
-            },
-            {
-              "produto": "RUM MALIBU 750 ML",
-              "fat_atual": 0.0,
-              "fat_mes_anterior": 0.0,
-              "fat_ano_anterior": 59.9,
-              "qt_atual": 0.0,
-              "qt_mes_anterior": 0.0,
-              "qt_ano_anterior": 1.0,
-              "queda_fat_mes_valor": 0.0,
-              "queda_fat_ano_valor": 59.9,
-              "queda_fat_mes_pct": null,
-              "queda_fat_ano_pct": -100.0,
-              "queda_qt_mes_valor": 0.0,
-              "queda_qt_ano_valor": 1.0,
-              "queda_qt_mes_pct": null,
-              "queda_qt_ano_pct": -100.0
-            }
-          ],
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 199.8,
-          "fat_ano_anterior": 59.9,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 2.0,
-          "qt_ano_anterior": 1.0,
-          "queda_fat_mes_valor": 199.8,
-          "queda_fat_ano_valor": 59.9,
-          "queda_fat_mes_pct": -100.0,
-          "queda_fat_ano_pct": -100.0,
-          "queda_qt_mes_valor": 2.0,
-          "queda_qt_ano_valor": 1.0,
-          "queda_qt_mes_pct": -100.0,
-          "queda_qt_ano_pct": -100.0
-        },
-        {
-          "fornecedor": "BACARDI",
-          "por_produto": [
-            {
-              "produto": "VODKA GREY GOOSE LE CITRON 750ML",
-              "fat_atual": 0.0,
-              "fat_mes_anterior": 137.9,
-              "fat_ano_anterior": 0.0,
-              "qt_atual": 0.0,
-              "qt_mes_anterior": 1.0,
-              "qt_ano_anterior": 0.0,
-              "queda_fat_mes_valor": 137.9,
-              "queda_fat_ano_valor": 0.0,
-              "queda_fat_mes_pct": -100.0,
-              "queda_fat_ano_pct": null,
-              "queda_qt_mes_valor": 1.0,
-              "queda_qt_ano_valor": 0.0,
-              "queda_qt_mes_pct": -100.0,
-              "queda_qt_ano_pct": null
-            }
-          ],
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 137.9,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 1.0,
-          "qt_ano_anterior": 0.0,
-          "queda_fat_mes_valor": 137.9,
-          "queda_fat_ano_valor": 0.0,
-          "queda_fat_mes_pct": -100.0,
-          "queda_fat_ano_pct": null,
-          "queda_qt_mes_valor": 1.0,
-          "queda_qt_ano_valor": 0.0,
-          "queda_qt_mes_pct": -100.0,
-          "queda_qt_ano_pct": null
-        },
-        {
-          "fornecedor": "KAISER",
-          "por_produto": [
-            {
-              "produto": "CERVEJA AMSTEL PURO MALTE 473 ML",
-              "fat_atual": 0.0,
-              "fat_mes_anterior": 0.0,
-              "fat_ano_anterior": 99.8,
-              "qt_atual": 0.0,
-              "qt_mes_anterior": 0.0,
-              "qt_ano_anterior": 2.0,
-              "queda_fat_mes_valor": 0.0,
-              "queda_fat_ano_valor": 99.8,
-              "queda_fat_mes_pct": null,
-              "queda_fat_ano_pct": -100.0,
-              "queda_qt_mes_valor": 0.0,
-              "queda_qt_ano_valor": 2.0,
-              "queda_qt_mes_pct": null,
-              "queda_qt_ano_pct": -100.0
-            },
-            {
-              "produto": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID",
-              "fat_atual": 1398.0,
-              "fat_mes_anterior": 1398.0,
-              "fat_ano_anterior": 699.0,
-              "qt_atual": 20.0,
-              "qt_mes_anterior": 20.0,
-              "qt_ano_anterior": 10.0,
-              "queda_fat_mes_valor": 0.0,
-              "queda_fat_ano_valor": -699.0,
-              "queda_fat_mes_pct": 0.0,
-              "queda_fat_ano_pct": 100.0,
-              "queda_qt_mes_valor": 0.0,
-              "queda_qt_ano_valor": -10.0,
-              "queda_qt_mes_pct": 0.0,
-              "queda_qt_ano_pct": 100.0
-            }
-          ],
-          "fat_atual": 1398.0,
-          "fat_mes_anterior": 1398.0,
-          "fat_ano_anterior": 798.8,
-          "qt_atual": 20.0,
-          "qt_mes_anterior": 20.0,
-          "qt_ano_anterior": 12.0,
-          "queda_fat_mes_valor": 0.0,
-          "queda_fat_ano_valor": -599.2,
-          "queda_fat_mes_pct": 0.0,
-          "queda_fat_ano_pct": 75.0,
-          "queda_qt_mes_valor": 0.0,
-          "queda_qt_ano_valor": -8.0,
-          "queda_qt_mes_pct": 0.0,
-          "queda_qt_ano_pct": 66.7
-        },
-        {
-          "fornecedor": "RED BULL",
-          "por_produto": [
-            {
-              "produto": "4 PACK RED BULL",
-              "fat_atual": 0.0,
-              "fat_mes_anterior": 0.0,
-              "fat_ano_anterior": 32.9,
-              "qt_atual": 0.0,
-              "qt_mes_anterior": 0.0,
-              "qt_ano_anterior": 1.0,
-              "queda_fat_mes_valor": 0.0,
-              "queda_fat_ano_valor": 32.9,
-              "queda_fat_mes_pct": null,
-              "queda_fat_ano_pct": -100.0,
-              "queda_qt_mes_valor": 0.0,
-              "queda_qt_ano_valor": 1.0,
-              "queda_qt_mes_pct": null,
-              "queda_qt_ano_pct": -100.0
-            },
-            {
-              "produto": "RED BULL 24X250ML",
-              "fat_atual": 345.12,
-              "fat_mes_anterior": 345.12,
-              "fat_ano_anterior": 0.0,
-              "qt_atual": 2.0,
-              "qt_mes_anterior": 2.0,
-              "qt_ano_anterior": 0.0,
-              "queda_fat_mes_valor": 0.0,
-              "queda_fat_ano_valor": -345.12,
-              "queda_fat_mes_pct": 0.0,
-              "queda_fat_ano_pct": null,
-              "queda_qt_mes_valor": 0.0,
-              "queda_qt_ano_valor": -2.0,
-              "queda_qt_mes_pct": 0.0,
-              "queda_qt_ano_pct": null
-            },
-            {
-              "produto": "RED BULL MORANGO PESSEGO 24X250ML",
-              "fat_atual": 172.56,
-              "fat_mes_anterior": 0.0,
-              "fat_ano_anterior": 0.0,
-              "qt_atual": 1.0,
-              "qt_mes_anterior": 0.0,
-              "qt_ano_anterior": 0.0,
-              "queda_fat_mes_valor": -172.56,
-              "queda_fat_ano_valor": -172.56,
-              "queda_fat_mes_pct": null,
-              "queda_fat_ano_pct": null,
-              "queda_qt_mes_valor": -1.0,
-              "queda_qt_ano_valor": -1.0,
-              "queda_qt_mes_pct": null,
-              "queda_qt_ano_pct": null
-            },
-            {
-              "produto": "RED BULL TROPICAL 24X250ML",
-              "fat_atual": 359.52,
-              "fat_mes_anterior": 172.56,
-              "fat_ano_anterior": 0.0,
-              "qt_atual": 2.0,
-              "qt_mes_anterior": 1.0,
-              "qt_ano_anterior": 0.0,
-              "queda_fat_mes_valor": -186.96,
-              "queda_fat_ano_valor": -359.52,
-              "queda_fat_mes_pct": 108.3,
-              "queda_fat_ano_pct": null,
-              "queda_qt_mes_valor": -1.0,
-              "queda_qt_ano_valor": -2.0,
-              "queda_qt_mes_pct": 100.0,
-              "queda_qt_ano_pct": null
-            },
-            {
-              "produto": "RED BULL ZERO  24X250ML",
-              "fat_atual": 359.52,
-              "fat_mes_anterior": 0.0,
-              "fat_ano_anterior": 0.0,
-              "qt_atual": 2.0,
-              "qt_mes_anterior": 0.0,
-              "qt_ano_anterior": 0.0,
-              "queda_fat_mes_valor": -359.52,
-              "queda_fat_ano_valor": -359.52,
-              "queda_fat_mes_pct": null,
-              "queda_fat_ano_pct": null,
-              "queda_qt_mes_valor": -2.0,
-              "queda_qt_ano_valor": -2.0,
-              "queda_qt_mes_pct": null,
-              "queda_qt_ano_pct": null
-            }
-          ],
-          "fat_atual": 1236.72,
-          "fat_mes_anterior": 517.68,
-          "fat_ano_anterior": 32.9,
-          "qt_atual": 7.0,
-          "qt_mes_anterior": 3.0,
-          "qt_ano_anterior": 1.0,
-          "queda_fat_mes_valor": -719.04,
-          "queda_fat_ano_valor": -1203.82,
-          "queda_fat_mes_pct": 138.9,
-          "queda_fat_ano_pct": 3659.0,
-          "queda_qt_mes_valor": -4.0,
-          "queda_qt_ano_valor": -6.0,
-          "queda_qt_mes_pct": 133.3,
-          "queda_qt_ano_pct": 600.0
-        }
-      ],
-      "fat_atual": 2634.72,
-      "fat_mes_anterior": 2483.28,
-      "fat_ano_anterior": 891.6,
-      "qt_atual": 27.0,
-      "qt_mes_anterior": 27.0,
-      "qt_ano_anterior": 14.0,
-      "queda_fat_mes_valor": -151.44,
-      "queda_fat_ano_valor": -1743.12,
-      "queda_fat_mes_pct": 6.1,
-      "queda_fat_ano_pct": 195.5,
-      "queda_qt_mes_valor": 0.0,
-      "queda_qt_ano_valor": -13.0,
-      "queda_qt_mes_pct": 0.0,
-      "queda_qt_ano_pct": 92.9
-    },
-    {
       "codcli": 51375,
       "estado": "SP",
       "chave": "SP-51375",
@@ -198394,161 +198000,6 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "queda_qt_ano_pct": null
     },
     {
-      "codcli": 82762,
-      "estado": "RJ",
-      "chave": "RJ-82762",
-      "nome": "EMPORIO DAS CARNES",
-      "bairro": "JARDIM METROPOLE",
-      "ramo": "MERCADO",
-      "vendedor": "JORGE MACIEL",
-      "gerente": "ALLAN PAES",
-      "supervisor": "DANIELLE MOURA",
-      "chaves_rca": [
-        "RJ-379"
-      ],
-      "por_industria": [
-        {
-          "fornecedor": "COMARY",
-          "por_produto": [
-            {
-              "produto": "CANTINA DA SERRA 1,5L",
-              "fat_atual": 0.0,
-              "fat_mes_anterior": 220.56,
-              "fat_ano_anterior": 0.0,
-              "qt_atual": 0.0,
-              "qt_mes_anterior": 24.0,
-              "qt_ano_anterior": 0.0,
-              "queda_fat_mes_valor": 220.56,
-              "queda_fat_ano_valor": 0.0,
-              "queda_fat_mes_pct": -100.0,
-              "queda_fat_ano_pct": null,
-              "queda_qt_mes_valor": 24.0,
-              "queda_qt_ano_valor": 0.0,
-              "queda_qt_mes_pct": -100.0,
-              "queda_qt_ano_pct": null
-            }
-          ],
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 220.56,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 24.0,
-          "qt_ano_anterior": 0.0,
-          "queda_fat_mes_valor": 220.56,
-          "queda_fat_ano_valor": 0.0,
-          "queda_fat_mes_pct": -100.0,
-          "queda_fat_ano_pct": null,
-          "queda_qt_mes_valor": 24.0,
-          "queda_qt_ano_valor": 0.0,
-          "queda_qt_mes_pct": -100.0,
-          "queda_qt_ano_pct": null
-        },
-        {
-          "fornecedor": "KAISER",
-          "por_produto": [
-            {
-              "produto": "CERVEJA HEINEKEN LONG 24X330ML",
-              "fat_atual": 383.7,
-              "fat_mes_anterior": 511.6,
-              "fat_ano_anterior": 0.0,
-              "qt_atual": 3.0,
-              "qt_mes_anterior": 4.0,
-              "qt_ano_anterior": 0.0,
-              "queda_fat_mes_valor": 127.9,
-              "queda_fat_ano_valor": -383.7,
-              "queda_fat_mes_pct": -25.0,
-              "queda_fat_ano_pct": null,
-              "queda_qt_mes_valor": 1.0,
-              "queda_qt_ano_valor": -3.0,
-              "queda_qt_mes_pct": -25.0,
-              "queda_qt_ano_pct": null
-            },
-            {
-              "produto": "CERVEJA HEINEKEN ZERO LONG  24X330ML",
-              "fat_atual": 127.9,
-              "fat_mes_anterior": 127.9,
-              "fat_ano_anterior": 0.0,
-              "qt_atual": 1.0,
-              "qt_mes_anterior": 1.0,
-              "qt_ano_anterior": 0.0,
-              "queda_fat_mes_valor": 0.0,
-              "queda_fat_ano_valor": -127.9,
-              "queda_fat_mes_pct": 0.0,
-              "queda_fat_ano_pct": null,
-              "queda_qt_mes_valor": 0.0,
-              "queda_qt_ano_valor": -1.0,
-              "queda_qt_mes_pct": 0.0,
-              "queda_qt_ano_pct": null
-            }
-          ],
-          "fat_atual": 511.6,
-          "fat_mes_anterior": 639.5,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 4.0,
-          "qt_mes_anterior": 5.0,
-          "qt_ano_anterior": 0.0,
-          "queda_fat_mes_valor": 127.9,
-          "queda_fat_ano_valor": -511.6,
-          "queda_fat_mes_pct": -20.0,
-          "queda_fat_ano_pct": null,
-          "queda_qt_mes_valor": 1.0,
-          "queda_qt_ano_valor": -4.0,
-          "queda_qt_mes_pct": -20.0,
-          "queda_qt_ano_pct": null
-        },
-        {
-          "fornecedor": "DIAGEO",
-          "por_produto": [
-            {
-              "produto": "WHISKY J WALKER GOLD LABEL RESERVE 750ML",
-              "fat_atual": 539.8,
-              "fat_mes_anterior": 0.0,
-              "fat_ano_anterior": 0.0,
-              "qt_atual": 2.0,
-              "qt_mes_anterior": 0.0,
-              "qt_ano_anterior": 0.0,
-              "queda_fat_mes_valor": -539.8,
-              "queda_fat_ano_valor": -539.8,
-              "queda_fat_mes_pct": null,
-              "queda_fat_ano_pct": null,
-              "queda_qt_mes_valor": -2.0,
-              "queda_qt_ano_valor": -2.0,
-              "queda_qt_mes_pct": null,
-              "queda_qt_ano_pct": null
-            }
-          ],
-          "fat_atual": 539.8,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 2.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0,
-          "queda_fat_mes_valor": -539.8,
-          "queda_fat_ano_valor": -539.8,
-          "queda_fat_mes_pct": null,
-          "queda_fat_ano_pct": null,
-          "queda_qt_mes_valor": -2.0,
-          "queda_qt_ano_valor": -2.0,
-          "queda_qt_mes_pct": null,
-          "queda_qt_ano_pct": null
-        }
-      ],
-      "fat_atual": 1051.4,
-      "fat_mes_anterior": 860.06,
-      "fat_ano_anterior": 0.0,
-      "qt_atual": 6.0,
-      "qt_mes_anterior": 29.0,
-      "qt_ano_anterior": 0.0,
-      "queda_fat_mes_valor": -191.34,
-      "queda_fat_ano_valor": -1051.4,
-      "queda_fat_mes_pct": 22.2,
-      "queda_fat_ano_pct": null,
-      "queda_qt_mes_valor": 23.0,
-      "queda_qt_ano_valor": -6.0,
-      "queda_qt_mes_pct": -79.3,
-      "queda_qt_ano_pct": null
-    },
-    {
       "codcli": 50978,
       "estado": "SP",
       "chave": "SP-50978",
@@ -199630,6 +199081,108 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "queda_qt_mes_valor": -12.0,
       "queda_qt_ano_valor": -48.0,
       "queda_qt_mes_pct": 33.3,
+      "queda_qt_ano_pct": null
+    },
+    {
+      "codcli": 91515,
+      "estado": "RJ",
+      "chave": "RJ-91515",
+      "nome": "BAR E MERCEARIA SANTOS MIRIM",
+      "bairro": "P MIRIM",
+      "ramo": "MERCADO",
+      "vendedor": "JORGE MACIEL",
+      "gerente": "ALLAN PAES",
+      "supervisor": "DANIELLE MOURA",
+      "chaves_rca": [
+        "RJ-379"
+      ],
+      "por_industria": [
+        {
+          "fornecedor": "KAISER",
+          "por_produto": [
+            {
+              "produto": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID",
+              "fat_atual": 447.3,
+              "fat_mes_anterior": 377.4,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 7.0,
+              "qt_mes_anterior": 6.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": -69.9,
+              "queda_fat_ano_valor": -447.3,
+              "queda_fat_mes_pct": 18.5,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": -1.0,
+              "queda_qt_ano_valor": -7.0,
+              "queda_qt_mes_pct": 16.7,
+              "queda_qt_ano_pct": null
+            }
+          ],
+          "fat_atual": 447.3,
+          "fat_mes_anterior": 377.4,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 7.0,
+          "qt_mes_anterior": 6.0,
+          "qt_ano_anterior": 0.0,
+          "queda_fat_mes_valor": -69.9,
+          "queda_fat_ano_valor": -447.3,
+          "queda_fat_mes_pct": 18.5,
+          "queda_fat_ano_pct": null,
+          "queda_qt_mes_valor": -1.0,
+          "queda_qt_ano_valor": -7.0,
+          "queda_qt_mes_pct": 16.7,
+          "queda_qt_ano_pct": null
+        },
+        {
+          "fornecedor": "FANTE",
+          "por_produto": [
+            {
+              "produto": "SUCO DE UVA TTO INT QUINTA DO MORGADO 1L",
+              "fat_atual": 155.88,
+              "fat_mes_anterior": 0.0,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 12.0,
+              "qt_mes_anterior": 0.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": -155.88,
+              "queda_fat_ano_valor": -155.88,
+              "queda_fat_mes_pct": null,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": -12.0,
+              "queda_qt_ano_valor": -12.0,
+              "queda_qt_mes_pct": null,
+              "queda_qt_ano_pct": null
+            }
+          ],
+          "fat_atual": 155.88,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 12.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0,
+          "queda_fat_mes_valor": -155.88,
+          "queda_fat_ano_valor": -155.88,
+          "queda_fat_mes_pct": null,
+          "queda_fat_ano_pct": null,
+          "queda_qt_mes_valor": -12.0,
+          "queda_qt_ano_valor": -12.0,
+          "queda_qt_mes_pct": null,
+          "queda_qt_ano_pct": null
+        }
+      ],
+      "fat_atual": 603.18,
+      "fat_mes_anterior": 377.4,
+      "fat_ano_anterior": 0.0,
+      "qt_atual": 19.0,
+      "qt_mes_anterior": 6.0,
+      "qt_ano_anterior": 0.0,
+      "queda_fat_mes_valor": -225.78,
+      "queda_fat_ano_valor": -603.18,
+      "queda_fat_mes_pct": 59.8,
+      "queda_fat_ano_pct": null,
+      "queda_qt_mes_valor": -13.0,
+      "queda_qt_ano_valor": -19.0,
+      "queda_qt_mes_pct": 216.7,
       "queda_qt_ano_pct": null
     },
     {
@@ -206084,6 +205637,108 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "queda_qt_ano_pct": null
     },
     {
+      "codcli": 51008,
+      "estado": "RJ",
+      "chave": "RJ-51008",
+      "nome": "N.DE.O.DA.S ARAUJO",
+      "bairro": "RESERVA DO PERO",
+      "ramo": "DISTRIBUIDORA DE BEBIDA",
+      "vendedor": "RAPHAEL SANTOS",
+      "gerente": "DANIEL DINIZ",
+      "supervisor": "DANIEL DINIZ",
+      "chaves_rca": [
+        "RJ-155"
+      ],
+      "por_industria": [
+        {
+          "fornecedor": "DIAGEO",
+          "por_produto": [
+            {
+              "produto": "TANQUERAY SEVILLA  CX C/ 12X50ML",
+              "fat_atual": 95.6,
+              "fat_mes_anterior": 0.0,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 1.0,
+              "qt_mes_anterior": 0.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": -95.6,
+              "queda_fat_ano_valor": -95.6,
+              "queda_fat_mes_pct": null,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": -1.0,
+              "queda_qt_ano_valor": -1.0,
+              "queda_qt_mes_pct": null,
+              "queda_qt_ano_pct": null
+            }
+          ],
+          "fat_atual": 95.6,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 1.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0,
+          "queda_fat_mes_valor": -95.6,
+          "queda_fat_ano_valor": -95.6,
+          "queda_fat_mes_pct": null,
+          "queda_fat_ano_pct": null,
+          "queda_qt_mes_valor": -1.0,
+          "queda_qt_ano_valor": -1.0,
+          "queda_qt_mes_pct": null,
+          "queda_qt_ano_pct": null
+        },
+        {
+          "fornecedor": "BROWN",
+          "por_produto": [
+            {
+              "produto": "WHISKY JACK DANIELS CX C/ 10X50 ML",
+              "fat_atual": 197.9,
+              "fat_mes_anterior": 0.0,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 1.0,
+              "qt_mes_anterior": 0.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": -197.9,
+              "queda_fat_ano_valor": -197.9,
+              "queda_fat_mes_pct": null,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": -1.0,
+              "queda_qt_ano_valor": -1.0,
+              "queda_qt_mes_pct": null,
+              "queda_qt_ano_pct": null
+            }
+          ],
+          "fat_atual": 197.9,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 1.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0,
+          "queda_fat_mes_valor": -197.9,
+          "queda_fat_ano_valor": -197.9,
+          "queda_fat_mes_pct": null,
+          "queda_fat_ano_pct": null,
+          "queda_qt_mes_valor": -1.0,
+          "queda_qt_ano_valor": -1.0,
+          "queda_qt_mes_pct": null,
+          "queda_qt_ano_pct": null
+        }
+      ],
+      "fat_atual": 293.5,
+      "fat_mes_anterior": 0.0,
+      "fat_ano_anterior": 0.0,
+      "qt_atual": 2.0,
+      "qt_mes_anterior": 0.0,
+      "qt_ano_anterior": 0.0,
+      "queda_fat_mes_valor": -293.5,
+      "queda_fat_ano_valor": -293.5,
+      "queda_fat_mes_pct": null,
+      "queda_fat_ano_pct": null,
+      "queda_qt_mes_valor": -2.0,
+      "queda_qt_ano_valor": -2.0,
+      "queda_qt_mes_pct": null,
+      "queda_qt_ano_pct": null
+    },
+    {
       "codcli": 50334,
       "estado": "SP",
       "chave": "SP-50334",
@@ -209378,6 +209033,368 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "queda_qt_mes_valor": -7.0,
       "queda_qt_ano_valor": -7.0,
       "queda_qt_mes_pct": null,
+      "queda_qt_ano_pct": null
+    },
+    {
+      "codcli": 91431,
+      "estado": "RJ",
+      "chave": "RJ-91431",
+      "nome": "MSP COM ALIMENTOS - BANGU",
+      "bairro": "BANGU",
+      "ramo": "MERCADO",
+      "vendedor": "ADEILSON GONÇALVEZ",
+      "gerente": "ALLAN PAES",
+      "supervisor": "DANIELLE MOURA",
+      "chaves_rca": [
+        "RJ-431",
+        "RJ-431.0"
+      ],
+      "por_industria": [
+        {
+          "fornecedor": "COMARY",
+          "por_produto": [
+            {
+              "produto": "COQUETEL COMPOSTO PINK MOON 6X2L",
+              "fat_atual": 0.0,
+              "fat_mes_anterior": 392.7,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 0.0,
+              "qt_mes_anterior": 3.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": 392.7,
+              "queda_fat_ano_valor": 0.0,
+              "queda_fat_mes_pct": -100.0,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": 3.0,
+              "queda_qt_ano_valor": 0.0,
+              "queda_qt_mes_pct": -100.0,
+              "queda_qt_ano_pct": null
+            }
+          ],
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 392.7,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 3.0,
+          "qt_ano_anterior": 0.0,
+          "queda_fat_mes_valor": 392.7,
+          "queda_fat_ano_valor": 0.0,
+          "queda_fat_mes_pct": -100.0,
+          "queda_fat_ano_pct": null,
+          "queda_qt_mes_valor": 3.0,
+          "queda_qt_ano_valor": 0.0,
+          "queda_qt_mes_pct": -100.0,
+          "queda_qt_ano_pct": null
+        },
+        {
+          "fornecedor": "TATUZINHO",
+          "por_produto": [
+            {
+              "produto": "ST PIERRE ZERO LATA RED MINT LT 24X310ML",
+              "fat_atual": 105.9,
+              "fat_mes_anterior": 0.0,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 1.0,
+              "qt_mes_anterior": 0.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": -105.9,
+              "queda_fat_ano_valor": -105.9,
+              "queda_fat_mes_pct": null,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": -1.0,
+              "queda_qt_ano_valor": -1.0,
+              "queda_qt_mes_pct": null,
+              "queda_qt_ano_pct": null
+            }
+          ],
+          "fat_atual": 105.9,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 1.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0,
+          "queda_fat_mes_valor": -105.9,
+          "queda_fat_ano_valor": -105.9,
+          "queda_fat_mes_pct": null,
+          "queda_fat_ano_pct": null,
+          "queda_qt_mes_valor": -1.0,
+          "queda_qt_ano_valor": -1.0,
+          "queda_qt_mes_pct": null,
+          "queda_qt_ano_pct": null
+        },
+        {
+          "fornecedor": "RED BULL",
+          "por_produto": [
+            {
+              "produto": "4 PACK RED BULL",
+              "fat_atual": 0.0,
+              "fat_mes_anterior": 180.0,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 0.0,
+              "qt_mes_anterior": 6.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": 180.0,
+              "queda_fat_ano_valor": 0.0,
+              "queda_fat_mes_pct": -100.0,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": 6.0,
+              "queda_qt_ano_valor": 0.0,
+              "queda_qt_mes_pct": -100.0,
+              "queda_qt_ano_pct": null
+            },
+            {
+              "produto": "4 PACK RED BULL CEREJA",
+              "fat_atual": 29.96,
+              "fat_mes_anterior": 0.0,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 1.0,
+              "qt_mes_anterior": 0.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": -29.96,
+              "queda_fat_ano_valor": -29.96,
+              "queda_fat_mes_pct": null,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": -1.0,
+              "queda_qt_ano_valor": -1.0,
+              "queda_qt_mes_pct": null,
+              "queda_qt_ano_pct": null
+            },
+            {
+              "produto": "4 PACK RED BULL MELANCIA",
+              "fat_atual": 29.96,
+              "fat_mes_anterior": 0.0,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 1.0,
+              "qt_mes_anterior": 0.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": -29.96,
+              "queda_fat_ano_valor": -29.96,
+              "queda_fat_mes_pct": null,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": -1.0,
+              "queda_qt_ano_valor": -1.0,
+              "queda_qt_mes_pct": null,
+              "queda_qt_ano_pct": null
+            },
+            {
+              "produto": "4 PACK RED BULL MELÃO C/ MARACUJA",
+              "fat_atual": 29.96,
+              "fat_mes_anterior": 0.0,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 1.0,
+              "qt_mes_anterior": 0.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": -29.96,
+              "queda_fat_ano_valor": -29.96,
+              "queda_fat_mes_pct": null,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": -1.0,
+              "queda_qt_ano_valor": -1.0,
+              "queda_qt_mes_pct": null,
+              "queda_qt_ano_pct": null
+            },
+            {
+              "produto": "4 PACK RED BULL SF BLUEBERRY BAUNILHA",
+              "fat_atual": 29.96,
+              "fat_mes_anterior": 0.0,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 1.0,
+              "qt_mes_anterior": 0.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": -29.96,
+              "queda_fat_ano_valor": -29.96,
+              "queda_fat_mes_pct": null,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": -1.0,
+              "queda_qt_ano_valor": -1.0,
+              "queda_qt_mes_pct": null,
+              "queda_qt_ano_pct": null
+            },
+            {
+              "produto": "4 PACK RED BULL SF NECTARINA 4X250ML",
+              "fat_atual": 29.96,
+              "fat_mes_anterior": 0.0,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 1.0,
+              "qt_mes_anterior": 0.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": -29.96,
+              "queda_fat_ano_valor": -29.96,
+              "queda_fat_mes_pct": null,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": -1.0,
+              "queda_qt_ano_valor": -1.0,
+              "queda_qt_mes_pct": null,
+              "queda_qt_ano_pct": null
+            },
+            {
+              "produto": "4 PACK RED BULL SF POMELO 4X250ML",
+              "fat_atual": 29.96,
+              "fat_mes_anterior": 0.0,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 1.0,
+              "qt_mes_anterior": 0.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": -29.96,
+              "queda_fat_ano_valor": -29.96,
+              "queda_fat_mes_pct": null,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": -1.0,
+              "queda_qt_ano_valor": -1.0,
+              "queda_qt_mes_pct": null,
+              "queda_qt_ano_pct": null
+            },
+            {
+              "produto": "4 PACK RED BULL SUGAR FREE",
+              "fat_atual": 29.96,
+              "fat_mes_anterior": 0.0,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 1.0,
+              "qt_mes_anterior": 0.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": -29.96,
+              "queda_fat_ano_valor": -29.96,
+              "queda_fat_mes_pct": null,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": -1.0,
+              "queda_qt_ano_valor": -1.0,
+              "queda_qt_mes_pct": null,
+              "queda_qt_ano_pct": null
+            },
+            {
+              "produto": "4 PACK RED BULL ZERO",
+              "fat_atual": 29.96,
+              "fat_mes_anterior": 0.0,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 1.0,
+              "qt_mes_anterior": 0.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": -29.96,
+              "queda_fat_ano_valor": -29.96,
+              "queda_fat_mes_pct": null,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": -1.0,
+              "queda_qt_ano_valor": -1.0,
+              "queda_qt_mes_pct": null,
+              "queda_qt_ano_pct": null
+            },
+            {
+              "produto": "4 PACK RED BULL 250ML",
+              "fat_atual": 179.76,
+              "fat_mes_anterior": 0.0,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 6.0,
+              "qt_mes_anterior": 0.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": -179.76,
+              "queda_fat_ano_valor": -179.76,
+              "queda_fat_mes_pct": null,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": -6.0,
+              "queda_qt_ano_valor": -6.0,
+              "queda_qt_mes_pct": null,
+              "queda_qt_ano_pct": null
+            }
+          ],
+          "fat_atual": 419.44,
+          "fat_mes_anterior": 180.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 14.0,
+          "qt_mes_anterior": 6.0,
+          "qt_ano_anterior": 0.0,
+          "queda_fat_mes_valor": -239.44,
+          "queda_fat_ano_valor": -419.44,
+          "queda_fat_mes_pct": 133.0,
+          "queda_fat_ano_pct": null,
+          "queda_qt_mes_valor": -8.0,
+          "queda_qt_ano_valor": -14.0,
+          "queda_qt_mes_pct": 133.3,
+          "queda_qt_ano_pct": null
+        },
+        {
+          "fornecedor": "ROBINSON CRUSOE",
+          "por_produto": [
+            {
+              "produto": "RC ATUM RALADO NATURAL 24X140G",
+              "fat_atual": 129.9,
+              "fat_mes_anterior": 0.0,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 1.0,
+              "qt_mes_anterior": 0.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": -129.9,
+              "queda_fat_ano_valor": -129.9,
+              "queda_fat_mes_pct": null,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": -1.0,
+              "queda_qt_ano_valor": -1.0,
+              "queda_qt_mes_pct": null,
+              "queda_qt_ano_pct": null
+            },
+            {
+              "produto": "RC ATUM RALADO OLEO 24X140G",
+              "fat_atual": 129.9,
+              "fat_mes_anterior": 0.0,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 1.0,
+              "qt_mes_anterior": 0.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": -129.9,
+              "queda_fat_ano_valor": -129.9,
+              "queda_fat_mes_pct": null,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": -1.0,
+              "queda_qt_ano_valor": -1.0,
+              "queda_qt_mes_pct": null,
+              "queda_qt_ano_pct": null
+            },
+            {
+              "produto": "RC ATUM RALADO MOLHO DE TOMATE 24X140G",
+              "fat_atual": 129.93,
+              "fat_mes_anterior": 0.0,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 1.0,
+              "qt_mes_anterior": 0.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": -129.93,
+              "queda_fat_ano_valor": -129.93,
+              "queda_fat_mes_pct": null,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": -1.0,
+              "queda_qt_ano_valor": -1.0,
+              "queda_qt_mes_pct": null,
+              "queda_qt_ano_pct": null
+            }
+          ],
+          "fat_atual": 389.73,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 3.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0,
+          "queda_fat_mes_valor": -389.73,
+          "queda_fat_ano_valor": -389.73,
+          "queda_fat_mes_pct": null,
+          "queda_fat_ano_pct": null,
+          "queda_qt_mes_valor": -3.0,
+          "queda_qt_ano_valor": -3.0,
+          "queda_qt_mes_pct": null,
+          "queda_qt_ano_pct": null
+        }
+      ],
+      "fat_atual": 915.07,
+      "fat_mes_anterior": 572.7,
+      "fat_ano_anterior": 0.0,
+      "qt_atual": 18.0,
+      "qt_mes_anterior": 9.0,
+      "qt_ano_anterior": 0.0,
+      "queda_fat_mes_valor": -342.37,
+      "queda_fat_ano_valor": -915.07,
+      "queda_fat_mes_pct": 59.8,
+      "queda_fat_ano_pct": null,
+      "queda_qt_mes_valor": -9.0,
+      "queda_qt_ano_valor": -18.0,
+      "queda_qt_mes_pct": 100.0,
       "queda_qt_ano_pct": null
     },
     {
@@ -214419,6 +214436,195 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "queda_qt_ano_pct": null
     },
     {
+      "codcli": 64301,
+      "estado": "RJ",
+      "chave": "RJ-64301",
+      "nome": "SANSE CAFE BISTRO",
+      "bairro": "JOAO FERNANDES",
+      "ramo": "RESTAURANTE",
+      "vendedor": "RAPHAEL SANTOS",
+      "gerente": "DANIEL DINIZ",
+      "supervisor": "DANIEL DINIZ",
+      "chaves_rca": [
+        "RJ-155"
+      ],
+      "por_industria": [
+        {
+          "fornecedor": "BACARDI",
+          "por_produto": [
+            {
+              "produto": "RUM BACARDI SUPERIOR 980ML",
+              "fat_atual": 0.0,
+              "fat_mes_anterior": 71.8,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 0.0,
+              "qt_mes_anterior": 2.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": 71.8,
+              "queda_fat_ano_valor": 0.0,
+              "queda_fat_mes_pct": -100.0,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": 2.0,
+              "queda_qt_ano_valor": 0.0,
+              "queda_qt_mes_pct": -100.0,
+              "queda_qt_ano_pct": null
+            },
+            {
+              "produto": "RUM BACARDI GOLD 980ML",
+              "fat_atual": 123.3,
+              "fat_mes_anterior": 0.0,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 3.0,
+              "qt_mes_anterior": 0.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": -123.3,
+              "queda_fat_ano_valor": -123.3,
+              "queda_fat_mes_pct": null,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": -3.0,
+              "queda_qt_ano_valor": -3.0,
+              "queda_qt_mes_pct": null,
+              "queda_qt_ano_pct": null
+            }
+          ],
+          "fat_atual": 123.3,
+          "fat_mes_anterior": 71.8,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 3.0,
+          "qt_mes_anterior": 2.0,
+          "qt_ano_anterior": 0.0,
+          "queda_fat_mes_valor": -51.5,
+          "queda_fat_ano_valor": -123.3,
+          "queda_fat_mes_pct": 71.7,
+          "queda_fat_ano_pct": null,
+          "queda_qt_mes_valor": -1.0,
+          "queda_qt_ano_valor": -3.0,
+          "queda_qt_mes_pct": 50.0,
+          "queda_qt_ano_pct": null
+        },
+        {
+          "fornecedor": "CASTAS",
+          "por_produto": [
+            {
+              "produto": "ESPUMANTE ALUD BRANCO 750ML",
+              "fat_atual": 0.0,
+              "fat_mes_anterior": 209.4,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 0.0,
+              "qt_mes_anterior": 6.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": 209.4,
+              "queda_fat_ano_valor": 0.0,
+              "queda_fat_mes_pct": -100.0,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": 6.0,
+              "queda_qt_ano_valor": 0.0,
+              "queda_qt_mes_pct": -100.0,
+              "queda_qt_ano_pct": null
+            },
+            {
+              "produto": "AZEITE ESSENZA D'ITALIA PREMIUM 12X500ML",
+              "fat_atual": 282.0,
+              "fat_mes_anterior": 0.0,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 1.0,
+              "qt_mes_anterior": 0.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": -282.0,
+              "queda_fat_ano_valor": -282.0,
+              "queda_fat_mes_pct": null,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": -1.0,
+              "queda_qt_ano_valor": -1.0,
+              "queda_qt_mes_pct": null,
+              "queda_qt_ano_pct": null
+            }
+          ],
+          "fat_atual": 282.0,
+          "fat_mes_anterior": 209.4,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 1.0,
+          "qt_mes_anterior": 6.0,
+          "qt_ano_anterior": 0.0,
+          "queda_fat_mes_valor": -72.6,
+          "queda_fat_ano_valor": -282.0,
+          "queda_fat_mes_pct": 34.7,
+          "queda_fat_ano_pct": null,
+          "queda_qt_mes_valor": 5.0,
+          "queda_qt_ano_valor": -1.0,
+          "queda_qt_mes_pct": -83.3,
+          "queda_qt_ano_pct": null
+        },
+        {
+          "fornecedor": "DIAGEO",
+          "por_produto": [
+            {
+              "produto": "GIN TANQUERAY  750 ML",
+              "fat_atual": 89.9,
+              "fat_mes_anterior": 0.0,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 1.0,
+              "qt_mes_anterior": 0.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": -89.9,
+              "queda_fat_ano_valor": -89.9,
+              "queda_fat_mes_pct": null,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": -1.0,
+              "queda_qt_ano_valor": -1.0,
+              "queda_qt_mes_pct": null,
+              "queda_qt_ano_pct": null
+            },
+            {
+              "produto": "WHISKY J WALKER BLACK LABEL 1L",
+              "fat_atual": 149.9,
+              "fat_mes_anterior": 0.0,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 1.0,
+              "qt_mes_anterior": 0.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": -149.9,
+              "queda_fat_ano_valor": -149.9,
+              "queda_fat_mes_pct": null,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": -1.0,
+              "queda_qt_ano_valor": -1.0,
+              "queda_qt_mes_pct": null,
+              "queda_qt_ano_pct": null
+            }
+          ],
+          "fat_atual": 239.8,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 2.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0,
+          "queda_fat_mes_valor": -239.8,
+          "queda_fat_ano_valor": -239.8,
+          "queda_fat_mes_pct": null,
+          "queda_fat_ano_pct": null,
+          "queda_qt_mes_valor": -2.0,
+          "queda_qt_ano_valor": -2.0,
+          "queda_qt_mes_pct": null,
+          "queda_qt_ano_pct": null
+        }
+      ],
+      "fat_atual": 645.1,
+      "fat_mes_anterior": 281.2,
+      "fat_ano_anterior": 0.0,
+      "qt_atual": 6.0,
+      "qt_mes_anterior": 8.0,
+      "qt_ano_anterior": 0.0,
+      "queda_fat_mes_valor": -363.9,
+      "queda_fat_ano_valor": -645.1,
+      "queda_fat_mes_pct": 129.4,
+      "queda_fat_ano_pct": null,
+      "queda_qt_mes_valor": 2.0,
+      "queda_qt_ano_valor": -6.0,
+      "queda_qt_mes_pct": -25.0,
+      "queda_qt_ano_pct": null
+    },
+    {
       "codcli": 50895,
       "estado": "SP",
       "chave": "SP-50895",
@@ -216878,6 +217084,144 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "queda_qt_ano_valor": 0.0,
       "queda_qt_mes_pct": null,
       "queda_qt_ano_pct": 0.0
+    },
+    {
+      "codcli": 90866,
+      "estado": "RJ",
+      "chave": "RJ-90866",
+      "nome": "XODO DE REALENGO",
+      "bairro": "REALENGO",
+      "ramo": "CAFETERIA",
+      "vendedor": "ADEILSON GONÇALVEZ",
+      "gerente": "ALLAN PAES",
+      "supervisor": "DANIELLE MOURA",
+      "chaves_rca": [
+        "RJ-431"
+      ],
+      "por_industria": [
+        {
+          "fornecedor": "RED BULL",
+          "por_produto": [
+            {
+              "produto": "4 PACK RED BULL 250ML",
+              "fat_atual": 89.88,
+              "fat_mes_anterior": 0.0,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 3.0,
+              "qt_mes_anterior": 0.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": -89.88,
+              "queda_fat_ano_valor": -89.88,
+              "queda_fat_mes_pct": null,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": -3.0,
+              "queda_qt_ano_valor": -3.0,
+              "queda_qt_mes_pct": null,
+              "queda_qt_ano_pct": null
+            }
+          ],
+          "fat_atual": 89.88,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 3.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0,
+          "queda_fat_mes_valor": -89.88,
+          "queda_fat_ano_valor": -89.88,
+          "queda_fat_mes_pct": null,
+          "queda_fat_ano_pct": null,
+          "queda_qt_mes_valor": -3.0,
+          "queda_qt_ano_valor": -3.0,
+          "queda_qt_mes_pct": null,
+          "queda_qt_ano_pct": null
+        },
+        {
+          "fornecedor": "MINALBA",
+          "por_produto": [
+            {
+              "produto": "AGUA MINERAL MINALBA C/ GAS 12X510ML",
+              "fat_atual": 115.6,
+              "fat_mes_anterior": 0.0,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 4.0,
+              "qt_mes_anterior": 0.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": -115.6,
+              "queda_fat_ano_valor": -115.6,
+              "queda_fat_mes_pct": null,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": -4.0,
+              "queda_qt_ano_valor": -4.0,
+              "queda_qt_mes_pct": null,
+              "queda_qt_ano_pct": null
+            }
+          ],
+          "fat_atual": 115.6,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 4.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0,
+          "queda_fat_mes_valor": -115.6,
+          "queda_fat_ano_valor": -115.6,
+          "queda_fat_mes_pct": null,
+          "queda_fat_ano_pct": null,
+          "queda_qt_mes_valor": -4.0,
+          "queda_qt_ano_valor": -4.0,
+          "queda_qt_mes_pct": null,
+          "queda_qt_ano_pct": null
+        },
+        {
+          "fornecedor": "ROBINSON CRUSOE",
+          "por_produto": [
+            {
+              "produto": "RC PATE ATUM COM AZEITONAS 12X80G",
+              "fat_atual": 178.8,
+              "fat_mes_anterior": 0.0,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 1.0,
+              "qt_mes_anterior": 0.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": -178.8,
+              "queda_fat_ano_valor": -178.8,
+              "queda_fat_mes_pct": null,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": -1.0,
+              "queda_qt_ano_valor": -1.0,
+              "queda_qt_mes_pct": null,
+              "queda_qt_ano_pct": null
+            }
+          ],
+          "fat_atual": 178.8,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 1.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0,
+          "queda_fat_mes_valor": -178.8,
+          "queda_fat_ano_valor": -178.8,
+          "queda_fat_mes_pct": null,
+          "queda_fat_ano_pct": null,
+          "queda_qt_mes_valor": -1.0,
+          "queda_qt_ano_valor": -1.0,
+          "queda_qt_mes_pct": null,
+          "queda_qt_ano_pct": null
+        }
+      ],
+      "fat_atual": 384.28,
+      "fat_mes_anterior": 0.0,
+      "fat_ano_anterior": 0.0,
+      "qt_atual": 8.0,
+      "qt_mes_anterior": 0.0,
+      "qt_ano_anterior": 0.0,
+      "queda_fat_mes_valor": -384.28,
+      "queda_fat_ano_valor": -384.28,
+      "queda_fat_mes_pct": null,
+      "queda_fat_ano_pct": null,
+      "queda_qt_mes_valor": -8.0,
+      "queda_qt_ano_valor": -8.0,
+      "queda_qt_mes_pct": null,
+      "queda_qt_ano_pct": null
     },
     {
       "codcli": 84747,
@@ -223609,157 +223953,6 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "queda_qt_ano_pct": null
     },
     {
-      "codcli": 94445,
-      "estado": "RJ",
-      "chave": "RJ-94445",
-      "nome": "PADARIA PAO VIVO",
-      "bairro": "BANGU",
-      "ramo": "MINI-MERCADO",
-      "vendedor": "ADEILSON GONÇALVEZ",
-      "gerente": "ALLAN PAES",
-      "supervisor": "DANIELLE MOURA",
-      "chaves_rca": [
-        "RJ-431"
-      ],
-      "por_industria": [
-        {
-          "fornecedor": "TIAL",
-          "por_produto": [
-            {
-              "produto": "NECTAR MISTO LARANJA E PERA 24X200ML KID",
-              "fat_atual": 40.56,
-              "fat_mes_anterior": 0.0,
-              "fat_ano_anterior": 0.0,
-              "qt_atual": 1.0,
-              "qt_mes_anterior": 0.0,
-              "qt_ano_anterior": 0.0,
-              "queda_fat_mes_valor": -40.56,
-              "queda_fat_ano_valor": -40.56,
-              "queda_fat_mes_pct": null,
-              "queda_fat_ano_pct": null,
-              "queda_qt_mes_valor": -1.0,
-              "queda_qt_ano_valor": -1.0,
-              "queda_qt_mes_pct": null,
-              "queda_qt_ano_pct": null
-            },
-            {
-              "produto": "NECTAR MANGA TIAL 12X250ML",
-              "fat_atual": 68.6,
-              "fat_mes_anterior": 0.0,
-              "fat_ano_anterior": 0.0,
-              "qt_atual": 2.0,
-              "qt_mes_anterior": 0.0,
-              "qt_ano_anterior": 0.0,
-              "queda_fat_mes_valor": -68.6,
-              "queda_fat_ano_valor": -68.6,
-              "queda_fat_mes_pct": null,
-              "queda_fat_ano_pct": null,
-              "queda_qt_mes_valor": -2.0,
-              "queda_qt_ano_valor": -2.0,
-              "queda_qt_mes_pct": null,
-              "queda_qt_ano_pct": null
-            },
-            {
-              "produto": "NECTAR MARACUJA TIAL 12X250ML",
-              "fat_atual": 68.6,
-              "fat_mes_anterior": 0.0,
-              "fat_ano_anterior": 0.0,
-              "qt_atual": 2.0,
-              "qt_mes_anterior": 0.0,
-              "qt_ano_anterior": 0.0,
-              "queda_fat_mes_valor": -68.6,
-              "queda_fat_ano_valor": -68.6,
-              "queda_fat_mes_pct": null,
-              "queda_fat_ano_pct": null,
-              "queda_qt_mes_valor": -2.0,
-              "queda_qt_ano_valor": -2.0,
-              "queda_qt_mes_pct": null,
-              "queda_qt_ano_pct": null
-            },
-            {
-              "produto": "NECTAR DE MARACUJA 24X200ML KIDS",
-              "fat_atual": 81.12,
-              "fat_mes_anterior": 0.0,
-              "fat_ano_anterior": 0.0,
-              "qt_atual": 2.0,
-              "qt_mes_anterior": 0.0,
-              "qt_ano_anterior": 0.0,
-              "queda_fat_mes_valor": -81.12,
-              "queda_fat_ano_valor": -81.12,
-              "queda_fat_mes_pct": null,
-              "queda_fat_ano_pct": null,
-              "queda_qt_mes_valor": -2.0,
-              "queda_qt_ano_valor": -2.0,
-              "queda_qt_mes_pct": null,
-              "queda_qt_ano_pct": null
-            },
-            {
-              "produto": "NECTAR MISTO PESSEGO E PERA 24X200ML KID",
-              "fat_atual": 81.12,
-              "fat_mes_anterior": 0.0,
-              "fat_ano_anterior": 0.0,
-              "qt_atual": 2.0,
-              "qt_mes_anterior": 0.0,
-              "qt_ano_anterior": 0.0,
-              "queda_fat_mes_valor": -81.12,
-              "queda_fat_ano_valor": -81.12,
-              "queda_fat_mes_pct": null,
-              "queda_fat_ano_pct": null,
-              "queda_qt_mes_valor": -2.0,
-              "queda_qt_ano_valor": -2.0,
-              "queda_qt_mes_pct": null,
-              "queda_qt_ano_pct": null
-            },
-            {
-              "produto": "NECTAR CAJU 12X1000ML",
-              "fat_atual": 119.76,
-              "fat_mes_anterior": 0.0,
-              "fat_ano_anterior": 0.0,
-              "qt_atual": 2.0,
-              "qt_mes_anterior": 0.0,
-              "qt_ano_anterior": 0.0,
-              "queda_fat_mes_valor": -119.76,
-              "queda_fat_ano_valor": -119.76,
-              "queda_fat_mes_pct": null,
-              "queda_fat_ano_pct": null,
-              "queda_qt_mes_valor": -2.0,
-              "queda_qt_ano_valor": -2.0,
-              "queda_qt_mes_pct": null,
-              "queda_qt_ano_pct": null
-            }
-          ],
-          "fat_atual": 459.76,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 11.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0,
-          "queda_fat_mes_valor": -459.76,
-          "queda_fat_ano_valor": -459.76,
-          "queda_fat_mes_pct": null,
-          "queda_fat_ano_pct": null,
-          "queda_qt_mes_valor": -11.0,
-          "queda_qt_ano_valor": -11.0,
-          "queda_qt_mes_pct": null,
-          "queda_qt_ano_pct": null
-        }
-      ],
-      "fat_atual": 459.76,
-      "fat_mes_anterior": 0.0,
-      "fat_ano_anterior": 0.0,
-      "qt_atual": 11.0,
-      "qt_mes_anterior": 0.0,
-      "qt_ano_anterior": 0.0,
-      "queda_fat_mes_valor": -459.76,
-      "queda_fat_ano_valor": -459.76,
-      "queda_fat_mes_pct": null,
-      "queda_fat_ano_pct": null,
-      "queda_qt_mes_valor": -11.0,
-      "queda_qt_ano_valor": -11.0,
-      "queda_qt_mes_pct": null,
-      "queda_qt_ano_pct": null
-    },
-    {
       "codcli": 51364,
       "estado": "SP",
       "chave": "SP-51364",
@@ -224896,6 +225089,125 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "queda_fat_ano_pct": null,
       "queda_qt_mes_valor": -24.0,
       "queda_qt_ano_valor": -24.0,
+      "queda_qt_mes_pct": null,
+      "queda_qt_ano_pct": null
+    },
+    {
+      "codcli": 84829,
+      "estado": "RJ",
+      "chave": "RJ-84829",
+      "nome": "GOMES SUPERMERCADOS",
+      "bairro": "CENTRO",
+      "ramo": "MERCADO",
+      "vendedor": "LEANDRO SOUZA",
+      "gerente": "ALLAN PAES",
+      "supervisor": "DANIELLE MOURA",
+      "chaves_rca": [
+        "RJ-450"
+      ],
+      "por_industria": [
+        {
+          "fornecedor": "TATUZINHO",
+          "por_produto": [
+            {
+              "produto": "ST PIERRE LATA PINK LEMON LT 24X270ML",
+              "fat_atual": 95.9,
+              "fat_mes_anterior": 0.0,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 1.0,
+              "qt_mes_anterior": 0.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": -95.9,
+              "queda_fat_ano_valor": -95.9,
+              "queda_fat_mes_pct": null,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": -1.0,
+              "queda_qt_ano_valor": -1.0,
+              "queda_qt_mes_pct": null,
+              "queda_qt_ano_pct": null
+            },
+            {
+              "produto": "ST PIERRE LATA RED MINT LT 24X270ML",
+              "fat_atual": 95.9,
+              "fat_mes_anterior": 0.0,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 1.0,
+              "qt_mes_anterior": 0.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": -95.9,
+              "queda_fat_ano_valor": -95.9,
+              "queda_fat_mes_pct": null,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": -1.0,
+              "queda_qt_ano_valor": -1.0,
+              "queda_qt_mes_pct": null,
+              "queda_qt_ano_pct": null
+            }
+          ],
+          "fat_atual": 191.8,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 2.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0,
+          "queda_fat_mes_valor": -191.8,
+          "queda_fat_ano_valor": -191.8,
+          "queda_fat_mes_pct": null,
+          "queda_fat_ano_pct": null,
+          "queda_qt_mes_valor": -2.0,
+          "queda_qt_ano_valor": -2.0,
+          "queda_qt_mes_pct": null,
+          "queda_qt_ano_pct": null
+        },
+        {
+          "fornecedor": "CASTAS",
+          "por_produto": [
+            {
+              "produto": "AZEITE ESSENZA D'ITALIA PREMIUM 12X500ML",
+              "fat_atual": 286.8,
+              "fat_mes_anterior": 0.0,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 1.0,
+              "qt_mes_anterior": 0.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": -286.8,
+              "queda_fat_ano_valor": -286.8,
+              "queda_fat_mes_pct": null,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": -1.0,
+              "queda_qt_ano_valor": -1.0,
+              "queda_qt_mes_pct": null,
+              "queda_qt_ano_pct": null
+            }
+          ],
+          "fat_atual": 286.8,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 1.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0,
+          "queda_fat_mes_valor": -286.8,
+          "queda_fat_ano_valor": -286.8,
+          "queda_fat_mes_pct": null,
+          "queda_fat_ano_pct": null,
+          "queda_qt_mes_valor": -1.0,
+          "queda_qt_ano_valor": -1.0,
+          "queda_qt_mes_pct": null,
+          "queda_qt_ano_pct": null
+        }
+      ],
+      "fat_atual": 478.6,
+      "fat_mes_anterior": 0.0,
+      "fat_ano_anterior": 0.0,
+      "qt_atual": 3.0,
+      "qt_mes_anterior": 0.0,
+      "qt_ano_anterior": 0.0,
+      "queda_fat_mes_valor": -478.6,
+      "queda_fat_ano_valor": -478.6,
+      "queda_fat_mes_pct": null,
+      "queda_fat_ano_pct": null,
+      "queda_qt_mes_valor": -3.0,
+      "queda_qt_ano_valor": -3.0,
       "queda_qt_mes_pct": null,
       "queda_qt_ano_pct": null
     },
@@ -229880,6 +230192,106 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "queda_qt_ano_pct": null
     },
     {
+      "codcli": 39420,
+      "estado": "MG",
+      "chave": "MG-39420",
+      "nome": "HL ALIMENTACAO LTDA.",
+      "bairro": "SÃO MATEUS",
+      "ramo": "RESTAURANTE",
+      "vendedor": "SAVIO NETO",
+      "gerente": "FERNANDO RISSON",
+      "supervisor": "FERNANDO RISSON",
+      "chaves_rca": [
+        "MG-331.0"
+      ],
+      "por_industria": [
+        {
+          "fornecedor": "DIAGEO",
+          "por_produto": [
+            {
+              "produto": "WHISKY WALKER RED LABEL 1L",
+              "fat_atual": 70.9,
+              "fat_mes_anterior": 0.0,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 1.0,
+              "qt_mes_anterior": 0.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": -70.9,
+              "queda_fat_ano_valor": -70.9,
+              "queda_fat_mes_pct": null,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": -1.0,
+              "queda_qt_ano_valor": -1.0,
+              "queda_qt_mes_pct": null,
+              "queda_qt_ano_pct": null
+            },
+            {
+              "produto": "WHISKY J WALKER BLACK LABEL 1L",
+              "fat_atual": 146.9,
+              "fat_mes_anterior": 0.0,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 1.0,
+              "qt_mes_anterior": 0.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": -146.9,
+              "queda_fat_ano_valor": -146.9,
+              "queda_fat_mes_pct": null,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": -1.0,
+              "queda_qt_ano_valor": -1.0,
+              "queda_qt_mes_pct": null,
+              "queda_qt_ano_pct": null
+            },
+            {
+              "produto": "VODKA SMIRNOFF RED 998 ML",
+              "fat_atual": 334.8,
+              "fat_mes_anterior": 0.0,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 12.0,
+              "qt_mes_anterior": 0.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": -334.8,
+              "queda_fat_ano_valor": -334.8,
+              "queda_fat_mes_pct": null,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": -12.0,
+              "queda_qt_ano_valor": -12.0,
+              "queda_qt_mes_pct": null,
+              "queda_qt_ano_pct": null
+            }
+          ],
+          "fat_atual": 552.6,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 14.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0,
+          "queda_fat_mes_valor": -552.6,
+          "queda_fat_ano_valor": -552.6,
+          "queda_fat_mes_pct": null,
+          "queda_fat_ano_pct": null,
+          "queda_qt_mes_valor": -14.0,
+          "queda_qt_ano_valor": -14.0,
+          "queda_qt_mes_pct": null,
+          "queda_qt_ano_pct": null
+        }
+      ],
+      "fat_atual": 552.6,
+      "fat_mes_anterior": 0.0,
+      "fat_ano_anterior": 0.0,
+      "qt_atual": 14.0,
+      "qt_mes_anterior": 0.0,
+      "qt_ano_anterior": 0.0,
+      "queda_fat_mes_valor": -552.6,
+      "queda_fat_ano_valor": -552.6,
+      "queda_fat_mes_pct": null,
+      "queda_fat_ano_pct": null,
+      "queda_qt_mes_valor": -14.0,
+      "queda_qt_ano_valor": -14.0,
+      "queda_qt_mes_pct": null,
+      "queda_qt_ano_pct": null
+    },
+    {
       "codcli": 95843,
       "estado": "RJ",
       "chave": "RJ-95843",
@@ -233717,6 +234129,89 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "queda_qt_ano_pct": null
     },
     {
+      "codcli": 93380,
+      "estado": "RJ",
+      "chave": "RJ-93380",
+      "nome": "SUPERMERCADO ADONAI DO KM 32",
+      "bairro": "KM 32",
+      "ramo": "MERCADO",
+      "vendedor": "BARBARA CABRAL",
+      "gerente": "ALLAN PAES",
+      "supervisor": "DANIELLE MOURA",
+      "chaves_rca": [
+        "RJ-412"
+      ],
+      "por_industria": [
+        {
+          "fornecedor": "ROBINSON CRUSOE",
+          "por_produto": [
+            {
+              "produto": "RC SALADA DE ATUM - MEDITERRANEA 12X160G",
+              "fat_atual": 119.9,
+              "fat_mes_anterior": 0.0,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 1.0,
+              "qt_mes_anterior": 0.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": -119.9,
+              "queda_fat_ano_valor": -119.9,
+              "queda_fat_mes_pct": null,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": -1.0,
+              "queda_qt_ano_valor": -1.0,
+              "queda_qt_mes_pct": null,
+              "queda_qt_ano_pct": null
+            },
+            {
+              "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
+              "fat_atual": 484.0,
+              "fat_mes_anterior": 0.0,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 2.0,
+              "qt_mes_anterior": 0.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": -484.0,
+              "queda_fat_ano_valor": -484.0,
+              "queda_fat_mes_pct": null,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": -2.0,
+              "queda_qt_ano_valor": -2.0,
+              "queda_qt_mes_pct": null,
+              "queda_qt_ano_pct": null
+            }
+          ],
+          "fat_atual": 603.9,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 3.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0,
+          "queda_fat_mes_valor": -603.9,
+          "queda_fat_ano_valor": -603.9,
+          "queda_fat_mes_pct": null,
+          "queda_fat_ano_pct": null,
+          "queda_qt_mes_valor": -3.0,
+          "queda_qt_ano_valor": -3.0,
+          "queda_qt_mes_pct": null,
+          "queda_qt_ano_pct": null
+        }
+      ],
+      "fat_atual": 603.9,
+      "fat_mes_anterior": 0.0,
+      "fat_ano_anterior": 0.0,
+      "qt_atual": 3.0,
+      "qt_mes_anterior": 0.0,
+      "qt_ano_anterior": 0.0,
+      "queda_fat_mes_valor": -603.9,
+      "queda_fat_ano_valor": -603.9,
+      "queda_fat_mes_pct": null,
+      "queda_fat_ano_pct": null,
+      "queda_qt_mes_valor": -3.0,
+      "queda_qt_ano_valor": -3.0,
+      "queda_qt_mes_pct": null,
+      "queda_qt_ano_pct": null
+    },
+    {
       "codcli": 94063,
       "estado": "RJ",
       "chave": "RJ-94063",
@@ -236831,6 +237326,197 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "queda_qt_mes_valor": -12.0,
       "queda_qt_ano_valor": -12.0,
       "queda_qt_mes_pct": null,
+      "queda_qt_ano_pct": null
+    },
+    {
+      "codcli": 82762,
+      "estado": "RJ",
+      "chave": "RJ-82762",
+      "nome": "EMPORIO DAS CARNES",
+      "bairro": "JARDIM METROPOLE",
+      "ramo": "MERCADO",
+      "vendedor": "JORGE MACIEL",
+      "gerente": "ALLAN PAES",
+      "supervisor": "DANIELLE MOURA",
+      "chaves_rca": [
+        "RJ-379"
+      ],
+      "por_industria": [
+        {
+          "fornecedor": "COMARY",
+          "por_produto": [
+            {
+              "produto": "CANTINA DA SERRA 1,5L",
+              "fat_atual": 0.0,
+              "fat_mes_anterior": 220.56,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 0.0,
+              "qt_mes_anterior": 24.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": 220.56,
+              "queda_fat_ano_valor": 0.0,
+              "queda_fat_mes_pct": -100.0,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": 24.0,
+              "queda_qt_ano_valor": 0.0,
+              "queda_qt_mes_pct": -100.0,
+              "queda_qt_ano_pct": null
+            }
+          ],
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 220.56,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 24.0,
+          "qt_ano_anterior": 0.0,
+          "queda_fat_mes_valor": 220.56,
+          "queda_fat_ano_valor": 0.0,
+          "queda_fat_mes_pct": -100.0,
+          "queda_fat_ano_pct": null,
+          "queda_qt_mes_valor": 24.0,
+          "queda_qt_ano_valor": 0.0,
+          "queda_qt_mes_pct": -100.0,
+          "queda_qt_ano_pct": null
+        },
+        {
+          "fornecedor": "KAISER",
+          "por_produto": [
+            {
+              "produto": "CERVEJA HEINEKEN LONG 24X330ML",
+              "fat_atual": 383.7,
+              "fat_mes_anterior": 511.6,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 3.0,
+              "qt_mes_anterior": 4.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": 127.9,
+              "queda_fat_ano_valor": -383.7,
+              "queda_fat_mes_pct": -25.0,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": 1.0,
+              "queda_qt_ano_valor": -3.0,
+              "queda_qt_mes_pct": -25.0,
+              "queda_qt_ano_pct": null
+            },
+            {
+              "produto": "CERVEJA HEINEKEN ZERO LONG  24X330ML",
+              "fat_atual": 127.9,
+              "fat_mes_anterior": 127.9,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 1.0,
+              "qt_mes_anterior": 1.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": 0.0,
+              "queda_fat_ano_valor": -127.9,
+              "queda_fat_mes_pct": 0.0,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": 0.0,
+              "queda_qt_ano_valor": -1.0,
+              "queda_qt_mes_pct": 0.0,
+              "queda_qt_ano_pct": null
+            }
+          ],
+          "fat_atual": 511.6,
+          "fat_mes_anterior": 639.5,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 4.0,
+          "qt_mes_anterior": 5.0,
+          "qt_ano_anterior": 0.0,
+          "queda_fat_mes_valor": 127.9,
+          "queda_fat_ano_valor": -511.6,
+          "queda_fat_mes_pct": -20.0,
+          "queda_fat_ano_pct": null,
+          "queda_qt_mes_valor": 1.0,
+          "queda_qt_ano_valor": -4.0,
+          "queda_qt_mes_pct": -20.0,
+          "queda_qt_ano_pct": null
+        },
+        {
+          "fornecedor": "INTERFOOD",
+          "por_produto": [
+            {
+              "produto": "AMARULA C LIQUEUR 750 ML + 1 COPO",
+              "fat_atual": 449.5,
+              "fat_mes_anterior": 0.0,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 5.0,
+              "qt_mes_anterior": 0.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": -449.5,
+              "queda_fat_ano_valor": -449.5,
+              "queda_fat_mes_pct": null,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": -5.0,
+              "queda_qt_ano_valor": -5.0,
+              "queda_qt_mes_pct": null,
+              "queda_qt_ano_pct": null
+            }
+          ],
+          "fat_atual": 449.5,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 5.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0,
+          "queda_fat_mes_valor": -449.5,
+          "queda_fat_ano_valor": -449.5,
+          "queda_fat_mes_pct": null,
+          "queda_fat_ano_pct": null,
+          "queda_qt_mes_valor": -5.0,
+          "queda_qt_ano_valor": -5.0,
+          "queda_qt_mes_pct": null,
+          "queda_qt_ano_pct": null
+        },
+        {
+          "fornecedor": "DIAGEO",
+          "por_produto": [
+            {
+              "produto": "WHISKY J WALKER GOLD LABEL RESERVE 750ML",
+              "fat_atual": 539.8,
+              "fat_mes_anterior": 0.0,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 2.0,
+              "qt_mes_anterior": 0.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": -539.8,
+              "queda_fat_ano_valor": -539.8,
+              "queda_fat_mes_pct": null,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": -2.0,
+              "queda_qt_ano_valor": -2.0,
+              "queda_qt_mes_pct": null,
+              "queda_qt_ano_pct": null
+            }
+          ],
+          "fat_atual": 539.8,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 2.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0,
+          "queda_fat_mes_valor": -539.8,
+          "queda_fat_ano_valor": -539.8,
+          "queda_fat_mes_pct": null,
+          "queda_fat_ano_pct": null,
+          "queda_qt_mes_valor": -2.0,
+          "queda_qt_ano_valor": -2.0,
+          "queda_qt_mes_pct": null,
+          "queda_qt_ano_pct": null
+        }
+      ],
+      "fat_atual": 1500.9,
+      "fat_mes_anterior": 860.06,
+      "fat_ano_anterior": 0.0,
+      "qt_atual": 11.0,
+      "qt_mes_anterior": 29.0,
+      "qt_ano_anterior": 0.0,
+      "queda_fat_mes_valor": -640.84,
+      "queda_fat_ano_valor": -1500.9,
+      "queda_fat_mes_pct": 74.5,
+      "queda_fat_ano_pct": null,
+      "queda_qt_mes_valor": 18.0,
+      "queda_qt_ano_valor": -11.0,
+      "queda_qt_mes_pct": -62.1,
       "queda_qt_ano_pct": null
     },
     {
@@ -243227,6 +243913,210 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "queda_qt_ano_pct": null
     },
     {
+      "codcli": 94445,
+      "estado": "RJ",
+      "chave": "RJ-94445",
+      "nome": "PADARIA PAO VIVO",
+      "bairro": "BANGU",
+      "ramo": "MINI-MERCADO",
+      "vendedor": "ADEILSON GONÇALVEZ",
+      "gerente": "ALLAN PAES",
+      "supervisor": "DANIELLE MOURA",
+      "chaves_rca": [
+        "RJ-431"
+      ],
+      "por_industria": [
+        {
+          "fornecedor": "ROBINSON CRUSOE",
+          "por_produto": [
+            {
+              "produto": "RC SALADA DE ATUM - MEDITERRANEA 12X160G",
+              "fat_atual": 99.9,
+              "fat_mes_anterior": 0.0,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 1.0,
+              "qt_mes_anterior": 0.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": -99.9,
+              "queda_fat_ano_valor": -99.9,
+              "queda_fat_mes_pct": null,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": -1.0,
+              "queda_qt_ano_valor": -1.0,
+              "queda_qt_mes_pct": null,
+              "queda_qt_ano_pct": null
+            },
+            {
+              "produto": "RC PATE ATUM COM AZEITONAS 12X80G",
+              "fat_atual": 178.8,
+              "fat_mes_anterior": 0.0,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 1.0,
+              "qt_mes_anterior": 0.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": -178.8,
+              "queda_fat_ano_valor": -178.8,
+              "queda_fat_mes_pct": null,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": -1.0,
+              "queda_qt_ano_valor": -1.0,
+              "queda_qt_mes_pct": null,
+              "queda_qt_ano_pct": null
+            }
+          ],
+          "fat_atual": 278.7,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 2.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0,
+          "queda_fat_mes_valor": -278.7,
+          "queda_fat_ano_valor": -278.7,
+          "queda_fat_mes_pct": null,
+          "queda_fat_ano_pct": null,
+          "queda_qt_mes_valor": -2.0,
+          "queda_qt_ano_valor": -2.0,
+          "queda_qt_mes_pct": null,
+          "queda_qt_ano_pct": null
+        },
+        {
+          "fornecedor": "TIAL",
+          "por_produto": [
+            {
+              "produto": "NECTAR MISTO LARANJA E PERA 24X200ML KID",
+              "fat_atual": 40.56,
+              "fat_mes_anterior": 0.0,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 1.0,
+              "qt_mes_anterior": 0.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": -40.56,
+              "queda_fat_ano_valor": -40.56,
+              "queda_fat_mes_pct": null,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": -1.0,
+              "queda_qt_ano_valor": -1.0,
+              "queda_qt_mes_pct": null,
+              "queda_qt_ano_pct": null
+            },
+            {
+              "produto": "NECTAR MANGA TIAL 12X250ML",
+              "fat_atual": 68.6,
+              "fat_mes_anterior": 0.0,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 2.0,
+              "qt_mes_anterior": 0.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": -68.6,
+              "queda_fat_ano_valor": -68.6,
+              "queda_fat_mes_pct": null,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": -2.0,
+              "queda_qt_ano_valor": -2.0,
+              "queda_qt_mes_pct": null,
+              "queda_qt_ano_pct": null
+            },
+            {
+              "produto": "NECTAR MARACUJA TIAL 12X250ML",
+              "fat_atual": 68.6,
+              "fat_mes_anterior": 0.0,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 2.0,
+              "qt_mes_anterior": 0.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": -68.6,
+              "queda_fat_ano_valor": -68.6,
+              "queda_fat_mes_pct": null,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": -2.0,
+              "queda_qt_ano_valor": -2.0,
+              "queda_qt_mes_pct": null,
+              "queda_qt_ano_pct": null
+            },
+            {
+              "produto": "NECTAR DE MARACUJA 24X200ML KIDS",
+              "fat_atual": 81.12,
+              "fat_mes_anterior": 0.0,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 2.0,
+              "qt_mes_anterior": 0.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": -81.12,
+              "queda_fat_ano_valor": -81.12,
+              "queda_fat_mes_pct": null,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": -2.0,
+              "queda_qt_ano_valor": -2.0,
+              "queda_qt_mes_pct": null,
+              "queda_qt_ano_pct": null
+            },
+            {
+              "produto": "NECTAR MISTO PESSEGO E PERA 24X200ML KID",
+              "fat_atual": 81.12,
+              "fat_mes_anterior": 0.0,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 2.0,
+              "qt_mes_anterior": 0.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": -81.12,
+              "queda_fat_ano_valor": -81.12,
+              "queda_fat_mes_pct": null,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": -2.0,
+              "queda_qt_ano_valor": -2.0,
+              "queda_qt_mes_pct": null,
+              "queda_qt_ano_pct": null
+            },
+            {
+              "produto": "NECTAR CAJU 12X1000ML",
+              "fat_atual": 119.76,
+              "fat_mes_anterior": 0.0,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 2.0,
+              "qt_mes_anterior": 0.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": -119.76,
+              "queda_fat_ano_valor": -119.76,
+              "queda_fat_mes_pct": null,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": -2.0,
+              "queda_qt_ano_valor": -2.0,
+              "queda_qt_mes_pct": null,
+              "queda_qt_ano_pct": null
+            }
+          ],
+          "fat_atual": 459.76,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 11.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0,
+          "queda_fat_mes_valor": -459.76,
+          "queda_fat_ano_valor": -459.76,
+          "queda_fat_mes_pct": null,
+          "queda_fat_ano_pct": null,
+          "queda_qt_mes_valor": -11.0,
+          "queda_qt_ano_valor": -11.0,
+          "queda_qt_mes_pct": null,
+          "queda_qt_ano_pct": null
+        }
+      ],
+      "fat_atual": 738.46,
+      "fat_mes_anterior": 0.0,
+      "fat_ano_anterior": 0.0,
+      "qt_atual": 13.0,
+      "qt_mes_anterior": 0.0,
+      "qt_ano_anterior": 0.0,
+      "queda_fat_mes_valor": -738.46,
+      "queda_fat_ano_valor": -738.46,
+      "queda_fat_mes_pct": null,
+      "queda_fat_ano_pct": null,
+      "queda_qt_mes_valor": -13.0,
+      "queda_qt_ano_valor": -13.0,
+      "queda_qt_mes_pct": null,
+      "queda_qt_ano_pct": null
+    },
+    {
       "codcli": 29896,
       "estado": "MG",
       "chave": "MG-29896",
@@ -247434,475 +248324,6 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "queda_qt_ano_valor": -28.0,
       "queda_qt_mes_pct": null,
       "queda_qt_ano_pct": null
-    },
-    {
-      "codcli": 79887,
-      "estado": "RJ",
-      "chave": "RJ-79887",
-      "nome": "AUTO POSTO CRUZADA PENINSULA",
-      "bairro": "BARRA DA TIJUCA",
-      "ramo": "POSTO DE GASOLINA",
-      "vendedor": "MARILENA TRAGEL",
-      "gerente": "ALLAN PAES",
-      "supervisor": "DANIELLE MOURA",
-      "chaves_rca": [
-        "RJ-156"
-      ],
-      "por_industria": [
-        {
-          "fornecedor": "AURORA",
-          "por_produto": [
-            {
-              "produto": "LICOR ESP DIEGO ZAMORA 43 CHOCOLATE",
-              "fat_atual": 0.0,
-              "fat_mes_anterior": 182.0,
-              "fat_ano_anterior": 0.0,
-              "qt_atual": 0.0,
-              "qt_mes_anterior": 1.0,
-              "qt_ano_anterior": 0.0,
-              "queda_fat_mes_valor": 182.0,
-              "queda_fat_ano_valor": 0.0,
-              "queda_fat_mes_pct": -100.0,
-              "queda_fat_ano_pct": null,
-              "queda_qt_mes_valor": 1.0,
-              "queda_qt_ano_valor": 0.0,
-              "queda_qt_mes_pct": -100.0,
-              "queda_qt_ano_pct": null
-            }
-          ],
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 182.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 1.0,
-          "qt_ano_anterior": 0.0,
-          "queda_fat_mes_valor": 182.0,
-          "queda_fat_ano_valor": 0.0,
-          "queda_fat_mes_pct": -100.0,
-          "queda_fat_ano_pct": null,
-          "queda_qt_mes_valor": 1.0,
-          "queda_qt_ano_valor": 0.0,
-          "queda_qt_mes_pct": -100.0,
-          "queda_qt_ano_pct": null
-        },
-        {
-          "fornecedor": "BACARDI",
-          "por_produto": [
-            {
-              "produto": "GIN BOMBAY SAPPHIRE 750ML",
-              "fat_atual": 0.0,
-              "fat_mes_anterior": 79.8,
-              "fat_ano_anterior": 0.0,
-              "qt_atual": 0.0,
-              "qt_mes_anterior": 1.0,
-              "qt_ano_anterior": 0.0,
-              "queda_fat_mes_valor": 79.8,
-              "queda_fat_ano_valor": 0.0,
-              "queda_fat_mes_pct": -100.0,
-              "queda_fat_ano_pct": null,
-              "queda_qt_mes_valor": 1.0,
-              "queda_qt_ano_valor": 0.0,
-              "queda_qt_mes_pct": -100.0,
-              "queda_qt_ano_pct": null
-            }
-          ],
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 79.8,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 1.0,
-          "qt_ano_anterior": 0.0,
-          "queda_fat_mes_valor": 79.8,
-          "queda_fat_ano_valor": 0.0,
-          "queda_fat_mes_pct": -100.0,
-          "queda_fat_ano_pct": null,
-          "queda_qt_mes_valor": 1.0,
-          "queda_qt_ano_valor": 0.0,
-          "queda_qt_mes_pct": -100.0,
-          "queda_qt_ano_pct": null
-        },
-        {
-          "fornecedor": "FANTE",
-          "por_produto": [
-            {
-              "produto": "SUCO UVA TTO INT QNT DO MORGADO 12X300ML",
-              "fat_atual": 104.56,
-              "fat_mes_anterior": 0.0,
-              "fat_ano_anterior": 0.0,
-              "qt_atual": 1.0,
-              "qt_mes_anterior": 0.0,
-              "qt_ano_anterior": 0.0,
-              "queda_fat_mes_valor": -104.56,
-              "queda_fat_ano_valor": -104.56,
-              "queda_fat_mes_pct": null,
-              "queda_fat_ano_pct": null,
-              "queda_qt_mes_valor": -1.0,
-              "queda_qt_ano_valor": -1.0,
-              "queda_qt_mes_pct": null,
-              "queda_qt_ano_pct": null
-            }
-          ],
-          "fat_atual": 104.56,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 1.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0,
-          "queda_fat_mes_valor": -104.56,
-          "queda_fat_ano_valor": -104.56,
-          "queda_fat_mes_pct": null,
-          "queda_fat_ano_pct": null,
-          "queda_qt_mes_valor": -1.0,
-          "queda_qt_ano_valor": -1.0,
-          "queda_qt_mes_pct": null,
-          "queda_qt_ano_pct": null
-        },
-        {
-          "fornecedor": "MINALBA",
-          "por_produto": [
-            {
-              "produto": "AGUA MINALBA C/ GAS 6X1,5L",
-              "fat_atual": 0.0,
-              "fat_mes_anterior": 0.0,
-              "fat_ano_anterior": 84.5,
-              "qt_atual": 0.0,
-              "qt_mes_anterior": 0.0,
-              "qt_ano_anterior": 5.0,
-              "queda_fat_mes_valor": 0.0,
-              "queda_fat_ano_valor": 84.5,
-              "queda_fat_mes_pct": null,
-              "queda_fat_ano_pct": -100.0,
-              "queda_qt_mes_valor": 0.0,
-              "queda_qt_ano_valor": 5.0,
-              "queda_qt_mes_pct": null,
-              "queda_qt_ano_pct": -100.0
-            },
-            {
-              "produto": "AGUA MINERAL MINALBA C/ GAS 12X510ML",
-              "fat_atual": 0.0,
-              "fat_mes_anterior": 0.0,
-              "fat_ano_anterior": 279.84,
-              "qt_atual": 0.0,
-              "qt_mes_anterior": 0.0,
-              "qt_ano_anterior": 16.0,
-              "queda_fat_mes_valor": 0.0,
-              "queda_fat_ano_valor": 279.84,
-              "queda_fat_mes_pct": null,
-              "queda_fat_ano_pct": -100.0,
-              "queda_qt_mes_valor": 0.0,
-              "queda_qt_ano_valor": 16.0,
-              "queda_qt_mes_pct": null,
-              "queda_qt_ano_pct": -100.0
-            },
-            {
-              "produto": "AGUA MINERAL MINALBA S/ GAS 12X510ML",
-              "fat_atual": 0.0,
-              "fat_mes_anterior": 0.0,
-              "fat_ano_anterior": 365.0,
-              "qt_atual": 0.0,
-              "qt_mes_anterior": 0.0,
-              "qt_ano_anterior": 25.0,
-              "queda_fat_mes_valor": 0.0,
-              "queda_fat_ano_valor": 365.0,
-              "queda_fat_mes_pct": null,
-              "queda_fat_ano_pct": -100.0,
-              "queda_qt_mes_valor": 0.0,
-              "queda_qt_ano_valor": 25.0,
-              "queda_qt_mes_pct": null,
-              "queda_qt_ano_pct": -100.0
-            },
-            {
-              "produto": "AGUA MINERAL MINALBA S/ GAS 6X1,5L",
-              "fat_atual": 0.0,
-              "fat_mes_anterior": 0.0,
-              "fat_ano_anterior": 417.0,
-              "qt_atual": 0.0,
-              "qt_mes_anterior": 0.0,
-              "qt_ano_anterior": 30.0,
-              "queda_fat_mes_valor": 0.0,
-              "queda_fat_ano_valor": 417.0,
-              "queda_fat_mes_pct": null,
-              "queda_fat_ano_pct": -100.0,
-              "queda_qt_mes_valor": 0.0,
-              "queda_qt_ano_valor": 30.0,
-              "queda_qt_mes_pct": null,
-              "queda_qt_ano_pct": -100.0
-            },
-            {
-              "produto": "AGUA SAN PELLEGRINO C/GÁS 250ML",
-              "fat_atual": 190.9,
-              "fat_mes_anterior": 0.0,
-              "fat_ano_anterior": 0.0,
-              "qt_atual": 1.0,
-              "qt_mes_anterior": 0.0,
-              "qt_ano_anterior": 0.0,
-              "queda_fat_mes_valor": -190.9,
-              "queda_fat_ano_valor": -190.9,
-              "queda_fat_mes_pct": null,
-              "queda_fat_ano_pct": null,
-              "queda_qt_mes_valor": -1.0,
-              "queda_qt_ano_valor": -1.0,
-              "queda_qt_mes_pct": null,
-              "queda_qt_ano_pct": null
-            }
-          ],
-          "fat_atual": 190.9,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 1146.34,
-          "qt_atual": 1.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 76.0,
-          "queda_fat_mes_valor": -190.9,
-          "queda_fat_ano_valor": 955.44,
-          "queda_fat_mes_pct": null,
-          "queda_fat_ano_pct": -83.3,
-          "queda_qt_mes_valor": -1.0,
-          "queda_qt_ano_valor": 75.0,
-          "queda_qt_mes_pct": null,
-          "queda_qt_ano_pct": -98.7
-        },
-        {
-          "fornecedor": "BALLENA",
-          "por_produto": [
-            {
-              "produto": "LICOR BALLENA CHOCOLATE E CARAMELO 750ML",
-              "fat_atual": 104.9,
-              "fat_mes_anterior": 0.0,
-              "fat_ano_anterior": 0.0,
-              "qt_atual": 1.0,
-              "qt_mes_anterior": 0.0,
-              "qt_ano_anterior": 0.0,
-              "queda_fat_mes_valor": -104.9,
-              "queda_fat_ano_valor": -104.9,
-              "queda_fat_mes_pct": null,
-              "queda_fat_ano_pct": null,
-              "queda_qt_mes_valor": -1.0,
-              "queda_qt_ano_valor": -1.0,
-              "queda_qt_mes_pct": null,
-              "queda_qt_ano_pct": null
-            },
-            {
-              "produto": "LICOR BALLENA COCO 750ML",
-              "fat_atual": 104.9,
-              "fat_mes_anterior": 0.0,
-              "fat_ano_anterior": 0.0,
-              "qt_atual": 1.0,
-              "qt_mes_anterior": 0.0,
-              "qt_ano_anterior": 0.0,
-              "queda_fat_mes_valor": -104.9,
-              "queda_fat_ano_valor": -104.9,
-              "queda_fat_mes_pct": null,
-              "queda_fat_ano_pct": null,
-              "queda_qt_mes_valor": -1.0,
-              "queda_qt_ano_valor": -1.0,
-              "queda_qt_mes_pct": null,
-              "queda_qt_ano_pct": null
-            }
-          ],
-          "fat_atual": 209.8,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 2.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0,
-          "queda_fat_mes_valor": -209.8,
-          "queda_fat_ano_valor": -209.8,
-          "queda_fat_mes_pct": null,
-          "queda_fat_ano_pct": null,
-          "queda_qt_mes_valor": -2.0,
-          "queda_qt_ano_valor": -2.0,
-          "queda_qt_mes_pct": null,
-          "queda_qt_ano_pct": null
-        },
-        {
-          "fornecedor": "DIAGEO",
-          "por_produto": [
-            {
-              "produto": "GIN TANQUERAY  750 ML",
-              "fat_atual": 94.9,
-              "fat_mes_anterior": 0.0,
-              "fat_ano_anterior": 0.0,
-              "qt_atual": 1.0,
-              "qt_mes_anterior": 0.0,
-              "qt_ano_anterior": 0.0,
-              "queda_fat_mes_valor": -94.9,
-              "queda_fat_ano_valor": -94.9,
-              "queda_fat_mes_pct": null,
-              "queda_fat_ano_pct": null,
-              "queda_qt_mes_valor": -1.0,
-              "queda_qt_ano_valor": -1.0,
-              "queda_qt_mes_pct": null,
-              "queda_qt_ano_pct": null
-            },
-            {
-              "produto": "SMIRNOFF ICE TROPICAL (LONG) 24X275ML",
-              "fat_atual": 132.9,
-              "fat_mes_anterior": 0.0,
-              "fat_ano_anterior": 0.0,
-              "qt_atual": 1.0,
-              "qt_mes_anterior": 0.0,
-              "qt_ano_anterior": 0.0,
-              "queda_fat_mes_valor": -132.9,
-              "queda_fat_ano_valor": -132.9,
-              "queda_fat_mes_pct": null,
-              "queda_fat_ano_pct": null,
-              "queda_qt_mes_valor": -1.0,
-              "queda_qt_ano_valor": -1.0,
-              "queda_qt_mes_pct": null,
-              "queda_qt_ano_pct": null
-            }
-          ],
-          "fat_atual": 227.8,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 2.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0,
-          "queda_fat_mes_valor": -227.8,
-          "queda_fat_ano_valor": -227.8,
-          "queda_fat_mes_pct": null,
-          "queda_fat_ano_pct": null,
-          "queda_qt_mes_valor": -2.0,
-          "queda_qt_ano_valor": -2.0,
-          "queda_qt_mes_pct": null,
-          "queda_qt_ano_pct": null
-        },
-        {
-          "fornecedor": "TATUZINHO",
-          "por_produto": [
-            {
-              "produto": "ST PIERRE LATA PINK LEMON LT 6X270ML",
-              "fat_atual": 0.0,
-              "fat_mes_anterior": 29.68,
-              "fat_ano_anterior": 0.0,
-              "qt_atual": 0.0,
-              "qt_mes_anterior": 1.0,
-              "qt_ano_anterior": 0.0,
-              "queda_fat_mes_valor": 29.68,
-              "queda_fat_ano_valor": 0.0,
-              "queda_fat_mes_pct": -100.0,
-              "queda_fat_ano_pct": null,
-              "queda_qt_mes_valor": 1.0,
-              "queda_qt_ano_valor": 0.0,
-              "queda_qt_mes_pct": -100.0,
-              "queda_qt_ano_pct": null
-            },
-            {
-              "produto": "ST PIERRE LATA RED MINT LT 6X270ML",
-              "fat_atual": 0.0,
-              "fat_mes_anterior": 29.68,
-              "fat_ano_anterior": 0.0,
-              "qt_atual": 0.0,
-              "qt_mes_anterior": 1.0,
-              "qt_ano_anterior": 0.0,
-              "queda_fat_mes_valor": 29.68,
-              "queda_fat_ano_valor": 0.0,
-              "queda_fat_mes_pct": -100.0,
-              "queda_fat_ano_pct": null,
-              "queda_qt_mes_valor": 1.0,
-              "queda_qt_ano_valor": 0.0,
-              "queda_qt_mes_pct": -100.0,
-              "queda_qt_ano_pct": null
-            },
-            {
-              "produto": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
-              "fat_atual": 94.7,
-              "fat_mes_anterior": 0.0,
-              "fat_ano_anterior": 0.0,
-              "qt_atual": 1.0,
-              "qt_mes_anterior": 0.0,
-              "qt_ano_anterior": 0.0,
-              "queda_fat_mes_valor": -94.7,
-              "queda_fat_ano_valor": -94.7,
-              "queda_fat_mes_pct": null,
-              "queda_fat_ano_pct": null,
-              "queda_qt_mes_valor": -1.0,
-              "queda_qt_ano_valor": -1.0,
-              "queda_qt_mes_pct": null,
-              "queda_qt_ano_pct": null
-            },
-            {
-              "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
-              "fat_atual": 94.7,
-              "fat_mes_anterior": 0.0,
-              "fat_ano_anterior": 0.0,
-              "qt_atual": 1.0,
-              "qt_mes_anterior": 0.0,
-              "qt_ano_anterior": 0.0,
-              "queda_fat_mes_valor": -94.7,
-              "queda_fat_ano_valor": -94.7,
-              "queda_fat_mes_pct": null,
-              "queda_fat_ano_pct": null,
-              "queda_qt_mes_valor": -1.0,
-              "queda_qt_ano_valor": -1.0,
-              "queda_qt_mes_pct": null,
-              "queda_qt_ano_pct": null
-            },
-            {
-              "produto": "MOVING HYDRO PROTEIN LIMAO 12X500ML",
-              "fat_atual": 94.7,
-              "fat_mes_anterior": 0.0,
-              "fat_ano_anterior": 0.0,
-              "qt_atual": 1.0,
-              "qt_mes_anterior": 0.0,
-              "qt_ano_anterior": 0.0,
-              "queda_fat_mes_valor": -94.7,
-              "queda_fat_ano_valor": -94.7,
-              "queda_fat_mes_pct": null,
-              "queda_fat_ano_pct": null,
-              "queda_qt_mes_valor": -1.0,
-              "queda_qt_ano_valor": -1.0,
-              "queda_qt_mes_pct": null,
-              "queda_qt_ano_pct": null
-            },
-            {
-              "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
-              "fat_atual": 94.7,
-              "fat_mes_anterior": 0.0,
-              "fat_ano_anterior": 0.0,
-              "qt_atual": 1.0,
-              "qt_mes_anterior": 0.0,
-              "qt_ano_anterior": 0.0,
-              "queda_fat_mes_valor": -94.7,
-              "queda_fat_ano_valor": -94.7,
-              "queda_fat_mes_pct": null,
-              "queda_fat_ano_pct": null,
-              "queda_qt_mes_valor": -1.0,
-              "queda_qt_ano_valor": -1.0,
-              "queda_qt_mes_pct": null,
-              "queda_qt_ano_pct": null
-            }
-          ],
-          "fat_atual": 378.8,
-          "fat_mes_anterior": 59.36,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 4.0,
-          "qt_mes_anterior": 2.0,
-          "qt_ano_anterior": 0.0,
-          "queda_fat_mes_valor": -319.44,
-          "queda_fat_ano_valor": -378.8,
-          "queda_fat_mes_pct": 538.1,
-          "queda_fat_ano_pct": null,
-          "queda_qt_mes_valor": -2.0,
-          "queda_qt_ano_valor": -4.0,
-          "queda_qt_mes_pct": 100.0,
-          "queda_qt_ano_pct": null
-        }
-      ],
-      "fat_atual": 1111.86,
-      "fat_mes_anterior": 321.16,
-      "fat_ano_anterior": 1146.34,
-      "qt_atual": 10.0,
-      "qt_mes_anterior": 4.0,
-      "qt_ano_anterior": 76.0,
-      "queda_fat_mes_valor": -790.7,
-      "queda_fat_ano_valor": 34.48,
-      "queda_fat_mes_pct": 246.2,
-      "queda_fat_ano_pct": -3.0,
-      "queda_qt_mes_valor": -6.0,
-      "queda_qt_ano_valor": 66.0,
-      "queda_qt_mes_pct": 150.0,
-      "queda_qt_ano_pct": -86.8
     },
     {
       "codcli": 48410,
@@ -256997,6 +257418,511 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "queda_qt_ano_pct": null
     },
     {
+      "codcli": 79887,
+      "estado": "RJ",
+      "chave": "RJ-79887",
+      "nome": "AUTO POSTO CRUZADA PENINSULA",
+      "bairro": "BARRA DA TIJUCA",
+      "ramo": "POSTO DE GASOLINA",
+      "vendedor": "MARILENA TRAGEL",
+      "gerente": "ALLAN PAES",
+      "supervisor": "DANIELLE MOURA",
+      "chaves_rca": [
+        "RJ-156"
+      ],
+      "por_industria": [
+        {
+          "fornecedor": "AURORA",
+          "por_produto": [
+            {
+              "produto": "LICOR ESP DIEGO ZAMORA 43 CHOCOLATE",
+              "fat_atual": 0.0,
+              "fat_mes_anterior": 182.0,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 0.0,
+              "qt_mes_anterior": 1.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": 182.0,
+              "queda_fat_ano_valor": 0.0,
+              "queda_fat_mes_pct": -100.0,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": 1.0,
+              "queda_qt_ano_valor": 0.0,
+              "queda_qt_mes_pct": -100.0,
+              "queda_qt_ano_pct": null
+            }
+          ],
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 182.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 1.0,
+          "qt_ano_anterior": 0.0,
+          "queda_fat_mes_valor": 182.0,
+          "queda_fat_ano_valor": 0.0,
+          "queda_fat_mes_pct": -100.0,
+          "queda_fat_ano_pct": null,
+          "queda_qt_mes_valor": 1.0,
+          "queda_qt_ano_valor": 0.0,
+          "queda_qt_mes_pct": -100.0,
+          "queda_qt_ano_pct": null
+        },
+        {
+          "fornecedor": "BACARDI",
+          "por_produto": [
+            {
+              "produto": "GIN BOMBAY SAPPHIRE 750ML",
+              "fat_atual": 0.0,
+              "fat_mes_anterior": 79.8,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 0.0,
+              "qt_mes_anterior": 1.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": 79.8,
+              "queda_fat_ano_valor": 0.0,
+              "queda_fat_mes_pct": -100.0,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": 1.0,
+              "queda_qt_ano_valor": 0.0,
+              "queda_qt_mes_pct": -100.0,
+              "queda_qt_ano_pct": null
+            }
+          ],
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 79.8,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 1.0,
+          "qt_ano_anterior": 0.0,
+          "queda_fat_mes_valor": 79.8,
+          "queda_fat_ano_valor": 0.0,
+          "queda_fat_mes_pct": -100.0,
+          "queda_fat_ano_pct": null,
+          "queda_qt_mes_valor": 1.0,
+          "queda_qt_ano_valor": 0.0,
+          "queda_qt_mes_pct": -100.0,
+          "queda_qt_ano_pct": null
+        },
+        {
+          "fornecedor": "FANTE",
+          "por_produto": [
+            {
+              "produto": "SUCO UVA TTO INT QNT DO MORGADO 12X300ML",
+              "fat_atual": 104.56,
+              "fat_mes_anterior": 0.0,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 1.0,
+              "qt_mes_anterior": 0.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": -104.56,
+              "queda_fat_ano_valor": -104.56,
+              "queda_fat_mes_pct": null,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": -1.0,
+              "queda_qt_ano_valor": -1.0,
+              "queda_qt_mes_pct": null,
+              "queda_qt_ano_pct": null
+            }
+          ],
+          "fat_atual": 104.56,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 1.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0,
+          "queda_fat_mes_valor": -104.56,
+          "queda_fat_ano_valor": -104.56,
+          "queda_fat_mes_pct": null,
+          "queda_fat_ano_pct": null,
+          "queda_qt_mes_valor": -1.0,
+          "queda_qt_ano_valor": -1.0,
+          "queda_qt_mes_pct": null,
+          "queda_qt_ano_pct": null
+        },
+        {
+          "fornecedor": "NOSSO CHOPE",
+          "por_produto": [
+            {
+              "produto": "NOSSO CHOP RED DRAFT VD 6X600ML",
+              "fat_atual": 111.0,
+              "fat_mes_anterior": 0.0,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 2.0,
+              "qt_mes_anterior": 0.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": -111.0,
+              "queda_fat_ano_valor": -111.0,
+              "queda_fat_mes_pct": null,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": -2.0,
+              "queda_qt_ano_valor": -2.0,
+              "queda_qt_mes_pct": null,
+              "queda_qt_ano_pct": null
+            }
+          ],
+          "fat_atual": 111.0,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 2.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0,
+          "queda_fat_mes_valor": -111.0,
+          "queda_fat_ano_valor": -111.0,
+          "queda_fat_mes_pct": null,
+          "queda_fat_ano_pct": null,
+          "queda_qt_mes_valor": -2.0,
+          "queda_qt_ano_valor": -2.0,
+          "queda_qt_mes_pct": null,
+          "queda_qt_ano_pct": null
+        },
+        {
+          "fornecedor": "MINALBA",
+          "por_produto": [
+            {
+              "produto": "AGUA MINALBA C/ GAS 6X1,5L",
+              "fat_atual": 0.0,
+              "fat_mes_anterior": 0.0,
+              "fat_ano_anterior": 84.5,
+              "qt_atual": 0.0,
+              "qt_mes_anterior": 0.0,
+              "qt_ano_anterior": 5.0,
+              "queda_fat_mes_valor": 0.0,
+              "queda_fat_ano_valor": 84.5,
+              "queda_fat_mes_pct": null,
+              "queda_fat_ano_pct": -100.0,
+              "queda_qt_mes_valor": 0.0,
+              "queda_qt_ano_valor": 5.0,
+              "queda_qt_mes_pct": null,
+              "queda_qt_ano_pct": -100.0
+            },
+            {
+              "produto": "AGUA MINERAL MINALBA C/ GAS 12X510ML",
+              "fat_atual": 0.0,
+              "fat_mes_anterior": 0.0,
+              "fat_ano_anterior": 279.84,
+              "qt_atual": 0.0,
+              "qt_mes_anterior": 0.0,
+              "qt_ano_anterior": 16.0,
+              "queda_fat_mes_valor": 0.0,
+              "queda_fat_ano_valor": 279.84,
+              "queda_fat_mes_pct": null,
+              "queda_fat_ano_pct": -100.0,
+              "queda_qt_mes_valor": 0.0,
+              "queda_qt_ano_valor": 16.0,
+              "queda_qt_mes_pct": null,
+              "queda_qt_ano_pct": -100.0
+            },
+            {
+              "produto": "AGUA MINERAL MINALBA S/ GAS 12X510ML",
+              "fat_atual": 0.0,
+              "fat_mes_anterior": 0.0,
+              "fat_ano_anterior": 365.0,
+              "qt_atual": 0.0,
+              "qt_mes_anterior": 0.0,
+              "qt_ano_anterior": 25.0,
+              "queda_fat_mes_valor": 0.0,
+              "queda_fat_ano_valor": 365.0,
+              "queda_fat_mes_pct": null,
+              "queda_fat_ano_pct": -100.0,
+              "queda_qt_mes_valor": 0.0,
+              "queda_qt_ano_valor": 25.0,
+              "queda_qt_mes_pct": null,
+              "queda_qt_ano_pct": -100.0
+            },
+            {
+              "produto": "AGUA MINERAL MINALBA S/ GAS 6X1,5L",
+              "fat_atual": 0.0,
+              "fat_mes_anterior": 0.0,
+              "fat_ano_anterior": 417.0,
+              "qt_atual": 0.0,
+              "qt_mes_anterior": 0.0,
+              "qt_ano_anterior": 30.0,
+              "queda_fat_mes_valor": 0.0,
+              "queda_fat_ano_valor": 417.0,
+              "queda_fat_mes_pct": null,
+              "queda_fat_ano_pct": -100.0,
+              "queda_qt_mes_valor": 0.0,
+              "queda_qt_ano_valor": 30.0,
+              "queda_qt_mes_pct": null,
+              "queda_qt_ano_pct": -100.0
+            },
+            {
+              "produto": "AGUA SAN PELLEGRINO C/GÁS 250ML",
+              "fat_atual": 190.9,
+              "fat_mes_anterior": 0.0,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 1.0,
+              "qt_mes_anterior": 0.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": -190.9,
+              "queda_fat_ano_valor": -190.9,
+              "queda_fat_mes_pct": null,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": -1.0,
+              "queda_qt_ano_valor": -1.0,
+              "queda_qt_mes_pct": null,
+              "queda_qt_ano_pct": null
+            }
+          ],
+          "fat_atual": 190.9,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 1146.34,
+          "qt_atual": 1.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 76.0,
+          "queda_fat_mes_valor": -190.9,
+          "queda_fat_ano_valor": 955.44,
+          "queda_fat_mes_pct": null,
+          "queda_fat_ano_pct": -83.3,
+          "queda_qt_mes_valor": -1.0,
+          "queda_qt_ano_valor": 75.0,
+          "queda_qt_mes_pct": null,
+          "queda_qt_ano_pct": -98.7
+        },
+        {
+          "fornecedor": "BALLENA",
+          "por_produto": [
+            {
+              "produto": "LICOR BALLENA CHOCOLATE E CARAMELO 750ML",
+              "fat_atual": 104.9,
+              "fat_mes_anterior": 0.0,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 1.0,
+              "qt_mes_anterior": 0.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": -104.9,
+              "queda_fat_ano_valor": -104.9,
+              "queda_fat_mes_pct": null,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": -1.0,
+              "queda_qt_ano_valor": -1.0,
+              "queda_qt_mes_pct": null,
+              "queda_qt_ano_pct": null
+            },
+            {
+              "produto": "LICOR BALLENA COCO 750ML",
+              "fat_atual": 104.9,
+              "fat_mes_anterior": 0.0,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 1.0,
+              "qt_mes_anterior": 0.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": -104.9,
+              "queda_fat_ano_valor": -104.9,
+              "queda_fat_mes_pct": null,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": -1.0,
+              "queda_qt_ano_valor": -1.0,
+              "queda_qt_mes_pct": null,
+              "queda_qt_ano_pct": null
+            }
+          ],
+          "fat_atual": 209.8,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 2.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0,
+          "queda_fat_mes_valor": -209.8,
+          "queda_fat_ano_valor": -209.8,
+          "queda_fat_mes_pct": null,
+          "queda_fat_ano_pct": null,
+          "queda_qt_mes_valor": -2.0,
+          "queda_qt_ano_valor": -2.0,
+          "queda_qt_mes_pct": null,
+          "queda_qt_ano_pct": null
+        },
+        {
+          "fornecedor": "TATUZINHO",
+          "por_produto": [
+            {
+              "produto": "ST PIERRE LATA PINK LEMON LT 6X270ML",
+              "fat_atual": 0.0,
+              "fat_mes_anterior": 29.68,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 0.0,
+              "qt_mes_anterior": 1.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": 29.68,
+              "queda_fat_ano_valor": 0.0,
+              "queda_fat_mes_pct": -100.0,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": 1.0,
+              "queda_qt_ano_valor": 0.0,
+              "queda_qt_mes_pct": -100.0,
+              "queda_qt_ano_pct": null
+            },
+            {
+              "produto": "ST PIERRE LATA RED MINT LT 6X270ML",
+              "fat_atual": 0.0,
+              "fat_mes_anterior": 29.68,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 0.0,
+              "qt_mes_anterior": 1.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": 29.68,
+              "queda_fat_ano_valor": 0.0,
+              "queda_fat_mes_pct": -100.0,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": 1.0,
+              "queda_qt_ano_valor": 0.0,
+              "queda_qt_mes_pct": -100.0,
+              "queda_qt_ano_pct": null
+            },
+            {
+              "produto": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
+              "fat_atual": 94.7,
+              "fat_mes_anterior": 0.0,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 1.0,
+              "qt_mes_anterior": 0.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": -94.7,
+              "queda_fat_ano_valor": -94.7,
+              "queda_fat_mes_pct": null,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": -1.0,
+              "queda_qt_ano_valor": -1.0,
+              "queda_qt_mes_pct": null,
+              "queda_qt_ano_pct": null
+            },
+            {
+              "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+              "fat_atual": 94.7,
+              "fat_mes_anterior": 0.0,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 1.0,
+              "qt_mes_anterior": 0.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": -94.7,
+              "queda_fat_ano_valor": -94.7,
+              "queda_fat_mes_pct": null,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": -1.0,
+              "queda_qt_ano_valor": -1.0,
+              "queda_qt_mes_pct": null,
+              "queda_qt_ano_pct": null
+            },
+            {
+              "produto": "MOVING HYDRO PROTEIN LIMAO 12X500ML",
+              "fat_atual": 94.7,
+              "fat_mes_anterior": 0.0,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 1.0,
+              "qt_mes_anterior": 0.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": -94.7,
+              "queda_fat_ano_valor": -94.7,
+              "queda_fat_mes_pct": null,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": -1.0,
+              "queda_qt_ano_valor": -1.0,
+              "queda_qt_mes_pct": null,
+              "queda_qt_ano_pct": null
+            },
+            {
+              "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+              "fat_atual": 94.7,
+              "fat_mes_anterior": 0.0,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 1.0,
+              "qt_mes_anterior": 0.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": -94.7,
+              "queda_fat_ano_valor": -94.7,
+              "queda_fat_mes_pct": null,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": -1.0,
+              "queda_qt_ano_valor": -1.0,
+              "queda_qt_mes_pct": null,
+              "queda_qt_ano_pct": null
+            }
+          ],
+          "fat_atual": 378.8,
+          "fat_mes_anterior": 59.36,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 4.0,
+          "qt_mes_anterior": 2.0,
+          "qt_ano_anterior": 0.0,
+          "queda_fat_mes_valor": -319.44,
+          "queda_fat_ano_valor": -378.8,
+          "queda_fat_mes_pct": 538.1,
+          "queda_fat_ano_pct": null,
+          "queda_qt_mes_valor": -2.0,
+          "queda_qt_ano_valor": -4.0,
+          "queda_qt_mes_pct": 100.0,
+          "queda_qt_ano_pct": null
+        },
+        {
+          "fornecedor": "DIAGEO",
+          "por_produto": [
+            {
+              "produto": "SMIRNOFF ICE TROPICAL (LONG) 24X275ML",
+              "fat_atual": 132.9,
+              "fat_mes_anterior": 0.0,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 1.0,
+              "qt_mes_anterior": 0.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": -132.9,
+              "queda_fat_ano_valor": -132.9,
+              "queda_fat_mes_pct": null,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": -1.0,
+              "queda_qt_ano_valor": -1.0,
+              "queda_qt_mes_pct": null,
+              "queda_qt_ano_pct": null
+            },
+            {
+              "produto": "GIN TANQUERAY  750 ML",
+              "fat_atual": 189.8,
+              "fat_mes_anterior": 0.0,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 2.0,
+              "qt_mes_anterior": 0.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": -189.8,
+              "queda_fat_ano_valor": -189.8,
+              "queda_fat_mes_pct": null,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": -2.0,
+              "queda_qt_ano_valor": -2.0,
+              "queda_qt_mes_pct": null,
+              "queda_qt_ano_pct": null
+            }
+          ],
+          "fat_atual": 322.7,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 3.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0,
+          "queda_fat_mes_valor": -322.7,
+          "queda_fat_ano_valor": -322.7,
+          "queda_fat_mes_pct": null,
+          "queda_fat_ano_pct": null,
+          "queda_qt_mes_valor": -3.0,
+          "queda_qt_ano_valor": -3.0,
+          "queda_qt_mes_pct": null,
+          "queda_qt_ano_pct": null
+        }
+      ],
+      "fat_atual": 1317.76,
+      "fat_mes_anterior": 321.16,
+      "fat_ano_anterior": 1146.34,
+      "qt_atual": 13.0,
+      "qt_mes_anterior": 4.0,
+      "qt_ano_anterior": 76.0,
+      "queda_fat_mes_valor": -996.6,
+      "queda_fat_ano_valor": -171.42,
+      "queda_fat_mes_pct": 310.3,
+      "queda_fat_ano_pct": 15.0,
+      "queda_qt_mes_valor": -9.0,
+      "queda_qt_ano_valor": 63.0,
+      "queda_qt_mes_pct": 225.0,
+      "queda_qt_ano_pct": -82.9
+    },
+    {
       "codcli": 38885,
       "estado": "SP",
       "chave": "SP-38885",
@@ -260565,144 +261491,6 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "queda_qt_ano_valor": 138.0,
       "queda_qt_mes_pct": null,
       "queda_qt_ano_pct": -85.7
-    },
-    {
-      "codcli": 32808,
-      "estado": "MG",
-      "chave": "MG-32808",
-      "nome": "RESTAURANTE E PESTISQUEIRA PEIXE FRITO",
-      "bairro": "SANTO AGOSTINHO",
-      "ramo": "BAR",
-      "vendedor": "JOÃO SANTOS",
-      "gerente": "FERNANDO RISSON",
-      "supervisor": "FERNANDO RISSON",
-      "chaves_rca": [
-        "MG-327"
-      ],
-      "por_industria": [
-        {
-          "fornecedor": "TATUZINHO",
-          "por_produto": [
-            {
-              "produto": "ST PIERRE TONICA LT 270MLX6",
-              "fat_atual": 107.6,
-              "fat_mes_anterior": 0.0,
-              "fat_ano_anterior": 0.0,
-              "qt_atual": 4.0,
-              "qt_mes_anterior": 0.0,
-              "qt_ano_anterior": 0.0,
-              "queda_fat_mes_valor": -107.6,
-              "queda_fat_ano_valor": -107.6,
-              "queda_fat_mes_pct": null,
-              "queda_fat_ano_pct": null,
-              "queda_qt_mes_valor": -4.0,
-              "queda_qt_ano_valor": -4.0,
-              "queda_qt_mes_pct": null,
-              "queda_qt_ano_pct": null
-            }
-          ],
-          "fat_atual": 107.6,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 4.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0,
-          "queda_fat_mes_valor": -107.6,
-          "queda_fat_ano_valor": -107.6,
-          "queda_fat_mes_pct": null,
-          "queda_fat_ano_pct": null,
-          "queda_qt_mes_valor": -4.0,
-          "queda_qt_ano_valor": -4.0,
-          "queda_qt_mes_pct": null,
-          "queda_qt_ano_pct": null
-        },
-        {
-          "fornecedor": "DIAGEO",
-          "por_produto": [
-            {
-              "produto": "SMIRNOFF ICE -24 UNIDADES (LONG  NECK)",
-              "fat_atual": 130.8,
-              "fat_mes_anterior": 0.0,
-              "fat_ano_anterior": 0.0,
-              "qt_atual": 1.0,
-              "qt_mes_anterior": 0.0,
-              "qt_ano_anterior": 0.0,
-              "queda_fat_mes_valor": -130.8,
-              "queda_fat_ano_valor": -130.8,
-              "queda_fat_mes_pct": null,
-              "queda_fat_ano_pct": null,
-              "queda_qt_mes_valor": -1.0,
-              "queda_qt_ano_valor": -1.0,
-              "queda_qt_mes_pct": null,
-              "queda_qt_ano_pct": null
-            }
-          ],
-          "fat_atual": 130.8,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 1.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0,
-          "queda_fat_mes_valor": -130.8,
-          "queda_fat_ano_valor": -130.8,
-          "queda_fat_mes_pct": null,
-          "queda_fat_ano_pct": null,
-          "queda_qt_mes_valor": -1.0,
-          "queda_qt_ano_valor": -1.0,
-          "queda_qt_mes_pct": null,
-          "queda_qt_ano_pct": null
-        },
-        {
-          "fornecedor": "SELETA",
-          "por_produto": [
-            {
-              "produto": "CACHACA SELETA 600ML",
-              "fat_atual": 837.6,
-              "fat_mes_anterior": 0.0,
-              "fat_ano_anterior": 0.0,
-              "qt_atual": 24.0,
-              "qt_mes_anterior": 0.0,
-              "qt_ano_anterior": 0.0,
-              "queda_fat_mes_valor": -837.6,
-              "queda_fat_ano_valor": -837.6,
-              "queda_fat_mes_pct": null,
-              "queda_fat_ano_pct": null,
-              "queda_qt_mes_valor": -24.0,
-              "queda_qt_ano_valor": -24.0,
-              "queda_qt_mes_pct": null,
-              "queda_qt_ano_pct": null
-            }
-          ],
-          "fat_atual": 837.6,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 24.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0,
-          "queda_fat_mes_valor": -837.6,
-          "queda_fat_ano_valor": -837.6,
-          "queda_fat_mes_pct": null,
-          "queda_fat_ano_pct": null,
-          "queda_qt_mes_valor": -24.0,
-          "queda_qt_ano_valor": -24.0,
-          "queda_qt_mes_pct": null,
-          "queda_qt_ano_pct": null
-        }
-      ],
-      "fat_atual": 1076.0,
-      "fat_mes_anterior": 0.0,
-      "fat_ano_anterior": 0.0,
-      "qt_atual": 29.0,
-      "qt_mes_anterior": 0.0,
-      "qt_ano_anterior": 0.0,
-      "queda_fat_mes_valor": -1076.0,
-      "queda_fat_ano_valor": -1076.0,
-      "queda_fat_mes_pct": null,
-      "queda_fat_ano_pct": null,
-      "queda_qt_mes_valor": -29.0,
-      "queda_qt_ano_valor": -29.0,
-      "queda_qt_mes_pct": null,
-      "queda_qt_ano_pct": null
     },
     {
       "codcli": 85148,
@@ -272595,6 +273383,106 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "queda_qt_ano_valor": 6.0,
       "queda_qt_mes_pct": null,
       "queda_qt_ano_pct": -42.9
+    },
+    {
+      "codcli": 74425,
+      "estado": "RJ",
+      "chave": "RJ-74425",
+      "nome": "MARIA LUCIENE AUGUSTO",
+      "bairro": "JARDIM MERITI",
+      "ramo": "MERCADO",
+      "vendedor": "JORGE MACIEL",
+      "gerente": "ALLAN PAES",
+      "supervisor": "DANIELLE MOURA",
+      "chaves_rca": [
+        "RJ-379"
+      ],
+      "por_industria": [
+        {
+          "fornecedor": "KAISER",
+          "por_produto": [
+            {
+              "produto": "CERVEJA HEINEKEN LONG 24X330ML",
+              "fat_atual": 255.8,
+              "fat_mes_anterior": 0.0,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 2.0,
+              "qt_mes_anterior": 0.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": -255.8,
+              "queda_fat_ano_valor": -255.8,
+              "queda_fat_mes_pct": null,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": -2.0,
+              "queda_qt_ano_valor": -2.0,
+              "queda_qt_mes_pct": null,
+              "queda_qt_ano_pct": null
+            },
+            {
+              "produto": "CERVEJA HEINEKEN ZERO LONG  24X330ML",
+              "fat_atual": 255.8,
+              "fat_mes_anterior": 0.0,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 2.0,
+              "qt_mes_anterior": 0.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": -255.8,
+              "queda_fat_ano_valor": -255.8,
+              "queda_fat_mes_pct": null,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": -2.0,
+              "queda_qt_ano_valor": -2.0,
+              "queda_qt_mes_pct": null,
+              "queda_qt_ano_pct": null
+            },
+            {
+              "produto": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID",
+              "fat_atual": 958.5,
+              "fat_mes_anterior": 0.0,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 15.0,
+              "qt_mes_anterior": 0.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": -958.5,
+              "queda_fat_ano_valor": -958.5,
+              "queda_fat_mes_pct": null,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": -15.0,
+              "queda_qt_ano_valor": -15.0,
+              "queda_qt_mes_pct": null,
+              "queda_qt_ano_pct": null
+            }
+          ],
+          "fat_atual": 1470.1,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 19.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0,
+          "queda_fat_mes_valor": -1470.1,
+          "queda_fat_ano_valor": -1470.1,
+          "queda_fat_mes_pct": null,
+          "queda_fat_ano_pct": null,
+          "queda_qt_mes_valor": -19.0,
+          "queda_qt_ano_valor": -19.0,
+          "queda_qt_mes_pct": null,
+          "queda_qt_ano_pct": null
+        }
+      ],
+      "fat_atual": 1470.1,
+      "fat_mes_anterior": 0.0,
+      "fat_ano_anterior": 0.0,
+      "qt_atual": 19.0,
+      "qt_mes_anterior": 0.0,
+      "qt_ano_anterior": 0.0,
+      "queda_fat_mes_valor": -1470.1,
+      "queda_fat_ano_valor": -1470.1,
+      "queda_fat_mes_pct": null,
+      "queda_fat_ano_pct": null,
+      "queda_qt_mes_valor": -19.0,
+      "queda_qt_ano_valor": -19.0,
+      "queda_qt_mes_pct": null,
+      "queda_qt_ano_pct": null
     },
     {
       "codcli": 49110,
@@ -288075,6 +288963,335 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "queda_qt_ano_pct": null
     },
     {
+      "codcli": 82290,
+      "estado": "RJ",
+      "chave": "RJ-82290",
+      "nome": "NA BRASA BROTHERS",
+      "bairro": "MARINA",
+      "ramo": "MERCADO",
+      "vendedor": "RAPHAEL SANTOS",
+      "gerente": "DANIEL DINIZ",
+      "supervisor": "DANIEL DINIZ",
+      "chaves_rca": [
+        "RJ-155"
+      ],
+      "por_industria": [
+        {
+          "fornecedor": "PERNOD",
+          "por_produto": [
+            {
+              "produto": "WHISKY CHIVAS REGAL 12 ANOS 1L",
+              "fat_atual": 0.0,
+              "fat_mes_anterior": 199.8,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 0.0,
+              "qt_mes_anterior": 2.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": 199.8,
+              "queda_fat_ano_valor": 0.0,
+              "queda_fat_mes_pct": -100.0,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": 2.0,
+              "queda_qt_ano_valor": 0.0,
+              "queda_qt_mes_pct": -100.0,
+              "queda_qt_ano_pct": null
+            },
+            {
+              "produto": "RUM MALIBU 750 ML",
+              "fat_atual": 0.0,
+              "fat_mes_anterior": 0.0,
+              "fat_ano_anterior": 59.9,
+              "qt_atual": 0.0,
+              "qt_mes_anterior": 0.0,
+              "qt_ano_anterior": 1.0,
+              "queda_fat_mes_valor": 0.0,
+              "queda_fat_ano_valor": 59.9,
+              "queda_fat_mes_pct": null,
+              "queda_fat_ano_pct": -100.0,
+              "queda_qt_mes_valor": 0.0,
+              "queda_qt_ano_valor": 1.0,
+              "queda_qt_mes_pct": null,
+              "queda_qt_ano_pct": -100.0
+            }
+          ],
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 199.8,
+          "fat_ano_anterior": 59.9,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 2.0,
+          "qt_ano_anterior": 1.0,
+          "queda_fat_mes_valor": 199.8,
+          "queda_fat_ano_valor": 59.9,
+          "queda_fat_mes_pct": -100.0,
+          "queda_fat_ano_pct": -100.0,
+          "queda_qt_mes_valor": 2.0,
+          "queda_qt_ano_valor": 1.0,
+          "queda_qt_mes_pct": -100.0,
+          "queda_qt_ano_pct": -100.0
+        },
+        {
+          "fornecedor": "BACARDI",
+          "por_produto": [
+            {
+              "produto": "VODKA GREY GOOSE LE CITRON 750ML",
+              "fat_atual": 0.0,
+              "fat_mes_anterior": 137.9,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 0.0,
+              "qt_mes_anterior": 1.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": 137.9,
+              "queda_fat_ano_valor": 0.0,
+              "queda_fat_mes_pct": -100.0,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": 1.0,
+              "queda_qt_ano_valor": 0.0,
+              "queda_qt_mes_pct": -100.0,
+              "queda_qt_ano_pct": null
+            }
+          ],
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 137.9,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 1.0,
+          "qt_ano_anterior": 0.0,
+          "queda_fat_mes_valor": 137.9,
+          "queda_fat_ano_valor": 0.0,
+          "queda_fat_mes_pct": -100.0,
+          "queda_fat_ano_pct": null,
+          "queda_qt_mes_valor": 1.0,
+          "queda_qt_ano_valor": 0.0,
+          "queda_qt_mes_pct": -100.0,
+          "queda_qt_ano_pct": null
+        },
+        {
+          "fornecedor": "RED BULL",
+          "por_produto": [
+            {
+              "produto": "4 PACK RED BULL",
+              "fat_atual": 0.0,
+              "fat_mes_anterior": 0.0,
+              "fat_ano_anterior": 32.9,
+              "qt_atual": 0.0,
+              "qt_mes_anterior": 0.0,
+              "qt_ano_anterior": 1.0,
+              "queda_fat_mes_valor": 0.0,
+              "queda_fat_ano_valor": 32.9,
+              "queda_fat_mes_pct": null,
+              "queda_fat_ano_pct": -100.0,
+              "queda_qt_mes_valor": 0.0,
+              "queda_qt_ano_valor": 1.0,
+              "queda_qt_mes_pct": null,
+              "queda_qt_ano_pct": -100.0
+            },
+            {
+              "produto": "RED BULL 24X250ML",
+              "fat_atual": 345.12,
+              "fat_mes_anterior": 345.12,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 2.0,
+              "qt_mes_anterior": 2.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": 0.0,
+              "queda_fat_ano_valor": -345.12,
+              "queda_fat_mes_pct": 0.0,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": 0.0,
+              "queda_qt_ano_valor": -2.0,
+              "queda_qt_mes_pct": 0.0,
+              "queda_qt_ano_pct": null
+            },
+            {
+              "produto": "RED BULL MORANGO PESSEGO 24X250ML",
+              "fat_atual": 172.56,
+              "fat_mes_anterior": 0.0,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 1.0,
+              "qt_mes_anterior": 0.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": -172.56,
+              "queda_fat_ano_valor": -172.56,
+              "queda_fat_mes_pct": null,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": -1.0,
+              "queda_qt_ano_valor": -1.0,
+              "queda_qt_mes_pct": null,
+              "queda_qt_ano_pct": null
+            },
+            {
+              "produto": "RED BULL TROPICAL 24X250ML",
+              "fat_atual": 359.52,
+              "fat_mes_anterior": 172.56,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 2.0,
+              "qt_mes_anterior": 1.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": -186.96,
+              "queda_fat_ano_valor": -359.52,
+              "queda_fat_mes_pct": 108.3,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": -1.0,
+              "queda_qt_ano_valor": -2.0,
+              "queda_qt_mes_pct": 100.0,
+              "queda_qt_ano_pct": null
+            },
+            {
+              "produto": "RED BULL ZERO  24X250ML",
+              "fat_atual": 359.52,
+              "fat_mes_anterior": 0.0,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 2.0,
+              "qt_mes_anterior": 0.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": -359.52,
+              "queda_fat_ano_valor": -359.52,
+              "queda_fat_mes_pct": null,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": -2.0,
+              "queda_qt_ano_valor": -2.0,
+              "queda_qt_mes_pct": null,
+              "queda_qt_ano_pct": null
+            }
+          ],
+          "fat_atual": 1236.72,
+          "fat_mes_anterior": 517.68,
+          "fat_ano_anterior": 32.9,
+          "qt_atual": 7.0,
+          "qt_mes_anterior": 3.0,
+          "qt_ano_anterior": 1.0,
+          "queda_fat_mes_valor": -719.04,
+          "queda_fat_ano_valor": -1203.82,
+          "queda_fat_mes_pct": 138.9,
+          "queda_fat_ano_pct": 3659.0,
+          "queda_qt_mes_valor": -4.0,
+          "queda_qt_ano_valor": -6.0,
+          "queda_qt_mes_pct": 133.3,
+          "queda_qt_ano_pct": 600.0
+        },
+        {
+          "fornecedor": "DIAGEO",
+          "por_produto": [
+            {
+              "produto": "WHISKY J WALKER GOLD LABEL RESERVE 750ML",
+              "fat_atual": 0.0,
+              "fat_mes_anterior": 229.9,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 0.0,
+              "qt_mes_anterior": 1.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": 229.9,
+              "queda_fat_ano_valor": 0.0,
+              "queda_fat_mes_pct": -100.0,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": 1.0,
+              "queda_qt_ano_valor": 0.0,
+              "queda_qt_mes_pct": -100.0,
+              "queda_qt_ano_pct": null
+            },
+            {
+              "produto": "VODCA BAM CIROC RED BERRY 750 ML",
+              "fat_atual": 959.4,
+              "fat_mes_anterior": 0.0,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 6.0,
+              "qt_mes_anterior": 0.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": -959.4,
+              "queda_fat_ano_valor": -959.4,
+              "queda_fat_mes_pct": null,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": -6.0,
+              "queda_qt_ano_valor": -6.0,
+              "queda_qt_mes_pct": null,
+              "queda_qt_ano_pct": null
+            }
+          ],
+          "fat_atual": 959.4,
+          "fat_mes_anterior": 229.9,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 6.0,
+          "qt_mes_anterior": 1.0,
+          "qt_ano_anterior": 0.0,
+          "queda_fat_mes_valor": -729.5,
+          "queda_fat_ano_valor": -959.4,
+          "queda_fat_mes_pct": 317.3,
+          "queda_fat_ano_pct": null,
+          "queda_qt_mes_valor": -5.0,
+          "queda_qt_ano_valor": -6.0,
+          "queda_qt_mes_pct": 500.0,
+          "queda_qt_ano_pct": null
+        },
+        {
+          "fornecedor": "KAISER",
+          "por_produto": [
+            {
+              "produto": "CERVEJA AMSTEL PURO MALTE 473 ML",
+              "fat_atual": 0.0,
+              "fat_mes_anterior": 0.0,
+              "fat_ano_anterior": 99.8,
+              "qt_atual": 0.0,
+              "qt_mes_anterior": 0.0,
+              "qt_ano_anterior": 2.0,
+              "queda_fat_mes_valor": 0.0,
+              "queda_fat_ano_valor": 99.8,
+              "queda_fat_mes_pct": null,
+              "queda_fat_ano_pct": -100.0,
+              "queda_qt_mes_valor": 0.0,
+              "queda_qt_ano_valor": 2.0,
+              "queda_qt_mes_pct": null,
+              "queda_qt_ano_pct": -100.0
+            },
+            {
+              "produto": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID",
+              "fat_atual": 2446.5,
+              "fat_mes_anterior": 1398.0,
+              "fat_ano_anterior": 699.0,
+              "qt_atual": 35.0,
+              "qt_mes_anterior": 20.0,
+              "qt_ano_anterior": 10.0,
+              "queda_fat_mes_valor": -1048.5,
+              "queda_fat_ano_valor": -1747.5,
+              "queda_fat_mes_pct": 75.0,
+              "queda_fat_ano_pct": 250.0,
+              "queda_qt_mes_valor": -15.0,
+              "queda_qt_ano_valor": -25.0,
+              "queda_qt_mes_pct": 75.0,
+              "queda_qt_ano_pct": 250.0
+            }
+          ],
+          "fat_atual": 2446.5,
+          "fat_mes_anterior": 1398.0,
+          "fat_ano_anterior": 798.8,
+          "qt_atual": 35.0,
+          "qt_mes_anterior": 20.0,
+          "qt_ano_anterior": 12.0,
+          "queda_fat_mes_valor": -1048.5,
+          "queda_fat_ano_valor": -1647.7,
+          "queda_fat_mes_pct": 75.0,
+          "queda_fat_ano_pct": 206.3,
+          "queda_qt_mes_valor": -15.0,
+          "queda_qt_ano_valor": -23.0,
+          "queda_qt_mes_pct": 75.0,
+          "queda_qt_ano_pct": 191.7
+        }
+      ],
+      "fat_atual": 4642.62,
+      "fat_mes_anterior": 2483.28,
+      "fat_ano_anterior": 891.6,
+      "qt_atual": 48.0,
+      "qt_mes_anterior": 27.0,
+      "qt_ano_anterior": 14.0,
+      "queda_fat_mes_valor": -2159.34,
+      "queda_fat_ano_valor": -3751.02,
+      "queda_fat_mes_pct": 87.0,
+      "queda_fat_ano_pct": 420.7,
+      "queda_qt_mes_valor": -21.0,
+      "queda_qt_ano_valor": -34.0,
+      "queda_qt_mes_pct": 77.8,
+      "queda_qt_ano_pct": 242.9
+    },
+    {
       "codcli": 50942,
       "estado": "SP",
       "chave": "SP-50942",
@@ -294038,6 +295255,197 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "qt_ano_anterior": 0.0,
       "queda_fat_mes_valor": -2507.6,
       "queda_fat_ano_valor": -2507.6,
+      "queda_fat_mes_pct": null,
+      "queda_fat_ano_pct": null,
+      "queda_qt_mes_valor": -39.0,
+      "queda_qt_ano_valor": -39.0,
+      "queda_qt_mes_pct": null,
+      "queda_qt_ano_pct": null
+    },
+    {
+      "codcli": 32808,
+      "estado": "MG",
+      "chave": "MG-32808",
+      "nome": "RESTAURANTE E PESTISQUEIRA PEIXE FRITO",
+      "bairro": "SANTO AGOSTINHO",
+      "ramo": "BAR",
+      "vendedor": "JOÃO SANTOS",
+      "gerente": "FERNANDO RISSON",
+      "supervisor": "FERNANDO RISSON",
+      "chaves_rca": [
+        "MG-327"
+      ],
+      "por_industria": [
+        {
+          "fornecedor": "TATUZINHO",
+          "por_produto": [
+            {
+              "produto": "ST PIERRE TONICA LT 270MLX6",
+              "fat_atual": 107.6,
+              "fat_mes_anterior": 0.0,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 4.0,
+              "qt_mes_anterior": 0.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": -107.6,
+              "queda_fat_ano_valor": -107.6,
+              "queda_fat_mes_pct": null,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": -4.0,
+              "queda_qt_ano_valor": -4.0,
+              "queda_qt_mes_pct": null,
+              "queda_qt_ano_pct": null
+            }
+          ],
+          "fat_atual": 107.6,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 4.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0,
+          "queda_fat_mes_valor": -107.6,
+          "queda_fat_ano_valor": -107.6,
+          "queda_fat_mes_pct": null,
+          "queda_fat_ano_pct": null,
+          "queda_qt_mes_valor": -4.0,
+          "queda_qt_ano_valor": -4.0,
+          "queda_qt_mes_pct": null,
+          "queda_qt_ano_pct": null
+        },
+        {
+          "fornecedor": "DIAGEO",
+          "por_produto": [
+            {
+              "produto": "SMIRNOFF ICE -24 UNIDADES (LONG  NECK)",
+              "fat_atual": 130.8,
+              "fat_mes_anterior": 0.0,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 1.0,
+              "qt_mes_anterior": 0.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": -130.8,
+              "queda_fat_ano_valor": -130.8,
+              "queda_fat_mes_pct": null,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": -1.0,
+              "queda_qt_ano_valor": -1.0,
+              "queda_qt_mes_pct": null,
+              "queda_qt_ano_pct": null
+            }
+          ],
+          "fat_atual": 130.8,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 1.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0,
+          "queda_fat_mes_valor": -130.8,
+          "queda_fat_ano_valor": -130.8,
+          "queda_fat_mes_pct": null,
+          "queda_fat_ano_pct": null,
+          "queda_qt_mes_valor": -1.0,
+          "queda_qt_ano_valor": -1.0,
+          "queda_qt_mes_pct": null,
+          "queda_qt_ano_pct": null
+        },
+        {
+          "fornecedor": "SELETA",
+          "por_produto": [
+            {
+              "produto": "CACHACA SELETA 600ML",
+              "fat_atual": 837.6,
+              "fat_mes_anterior": 0.0,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 24.0,
+              "qt_mes_anterior": 0.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": -837.6,
+              "queda_fat_ano_valor": -837.6,
+              "queda_fat_mes_pct": null,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": -24.0,
+              "queda_qt_ano_valor": -24.0,
+              "queda_qt_mes_pct": null,
+              "queda_qt_ano_pct": null
+            }
+          ],
+          "fat_atual": 837.6,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 24.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0,
+          "queda_fat_mes_valor": -837.6,
+          "queda_fat_ano_valor": -837.6,
+          "queda_fat_mes_pct": null,
+          "queda_fat_ano_pct": null,
+          "queda_qt_mes_valor": -24.0,
+          "queda_qt_ano_valor": -24.0,
+          "queda_qt_mes_pct": null,
+          "queda_qt_ano_pct": null
+        },
+        {
+          "fornecedor": "HEINEKEN",
+          "por_produto": [
+            {
+              "produto": "CERVEJA HEINEKEN  LONG ZERO 24X330ML",
+              "fat_atual": 718.8,
+              "fat_mes_anterior": 0.0,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 5.0,
+              "qt_mes_anterior": 0.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": -718.8,
+              "queda_fat_ano_valor": -718.8,
+              "queda_fat_mes_pct": null,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": -5.0,
+              "queda_qt_ano_valor": -5.0,
+              "queda_qt_mes_pct": null,
+              "queda_qt_ano_pct": null
+            },
+            {
+              "produto": "CERVEJA HEINEKEN LONG 24X330ML",
+              "fat_atual": 718.8,
+              "fat_mes_anterior": 0.0,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 5.0,
+              "qt_mes_anterior": 0.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": -718.8,
+              "queda_fat_ano_valor": -718.8,
+              "queda_fat_mes_pct": null,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": -5.0,
+              "queda_qt_ano_valor": -5.0,
+              "queda_qt_mes_pct": null,
+              "queda_qt_ano_pct": null
+            }
+          ],
+          "fat_atual": 1437.6,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 10.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0,
+          "queda_fat_mes_valor": -1437.6,
+          "queda_fat_ano_valor": -1437.6,
+          "queda_fat_mes_pct": null,
+          "queda_fat_ano_pct": null,
+          "queda_qt_mes_valor": -10.0,
+          "queda_qt_ano_valor": -10.0,
+          "queda_qt_mes_pct": null,
+          "queda_qt_ano_pct": null
+        }
+      ],
+      "fat_atual": 2513.6,
+      "fat_mes_anterior": 0.0,
+      "fat_ano_anterior": 0.0,
+      "qt_atual": 39.0,
+      "qt_mes_anterior": 0.0,
+      "qt_ano_anterior": 0.0,
+      "queda_fat_mes_valor": -2513.6,
+      "queda_fat_ano_valor": -2513.6,
       "queda_fat_mes_pct": null,
       "queda_fat_ano_pct": null,
       "queda_qt_mes_valor": -39.0,
@@ -338135,20 +339543,20 @@ const RAIOX_OPORTUNIDADES_DATA = {
     {
       "fornecedor": "BEAM SUNTORY",
       "estado": "RJ",
-      "fat_atual": 6333.2,
+      "fat_atual": 6475.0,
       "fat_mes_anterior": 104394.82,
       "fat_ano_anterior": 1489.7,
-      "qt_atual": 89.0,
+      "qt_atual": 91.0,
       "qt_mes_anterior": 1097.0,
       "qt_ano_anterior": 22.0,
-      "queda_fat_mes_valor": 98061.62,
-      "queda_fat_ano_valor": -4843.5,
-      "queda_fat_mes_pct": -93.9,
-      "queda_fat_ano_pct": 325.1,
-      "queda_qt_mes_valor": 1008.0,
-      "queda_qt_ano_valor": -67.0,
-      "queda_qt_mes_pct": -91.9,
-      "queda_qt_ano_pct": 304.5,
+      "queda_fat_mes_valor": 97919.82,
+      "queda_fat_ano_valor": -4985.3,
+      "queda_fat_mes_pct": -93.8,
+      "queda_fat_ano_pct": 334.7,
+      "queda_qt_mes_valor": 1006.0,
+      "queda_qt_ano_valor": -69.0,
+      "queda_qt_mes_pct": -91.7,
+      "queda_qt_ano_pct": 313.6,
       "por_vendedor": {
         "RJ-91": {
           "fat_atual": 0.0,
@@ -338167,10 +339575,10 @@ const RAIOX_OPORTUNIDADES_DATA = {
           "qt_ano_anterior": 0.0
         },
         "RJ-153": {
-          "fat_atual": 1587.1,
+          "fat_atual": 1728.9,
           "fat_mes_anterior": 4302.6,
           "fat_ano_anterior": 736.0,
-          "qt_atual": 19.0,
+          "qt_atual": 21.0,
           "qt_mes_anterior": 54.0,
           "qt_ano_anterior": 8.0
         },
@@ -339261,130 +340669,22 @@ const RAIOX_OPORTUNIDADES_DATA = {
       }
     },
     {
-      "fornecedor": "KAISER",
-      "estado": "RJ",
-      "fat_atual": 18724.0,
-      "fat_mes_anterior": 54917.71,
-      "fat_ano_anterior": 32333.8,
-      "qt_atual": 261.0,
-      "qt_mes_anterior": 805.0,
-      "qt_ano_anterior": 281.0,
-      "queda_fat_mes_valor": 36193.71,
-      "queda_fat_ano_valor": 13609.8,
-      "queda_fat_mes_pct": -65.9,
-      "queda_fat_ano_pct": -42.1,
-      "queda_qt_mes_valor": 544.0,
-      "queda_qt_ano_valor": 20.0,
-      "queda_qt_mes_pct": -67.6,
-      "queda_qt_ano_pct": -7.1,
-      "por_vendedor": {
-        "RJ-144": {
-          "fat_atual": 127.9,
-          "fat_mes_anterior": 34149.9,
-          "fat_ano_anterior": 28827.5,
-          "qt_atual": 1.0,
-          "qt_mes_anterior": 534.0,
-          "qt_ano_anterior": 240.0
-        },
-        "RJ-155": {
-          "fat_atual": 1695.6,
-          "fat_mes_anterior": 3342.85,
-          "fat_ano_anterior": 3236.3,
-          "qt_atual": 22.0,
-          "qt_mes_anterior": 39.0,
-          "qt_ano_anterior": 39.0
-        },
-        "RJ-156": {
-          "fat_atual": 613.3,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 12.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-159": {
-          "fat_atual": 3577.9,
-          "fat_mes_anterior": 10809.32,
-          "fat_ano_anterior": 270.0,
-          "qt_atual": 76.0,
-          "qt_mes_anterior": 144.0,
-          "qt_ano_anterior": 2.0
-        },
-        "RJ-174": {
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 63.2,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 2.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-378": {
-          "fat_atual": 2174.2,
-          "fat_mes_anterior": 10570.9,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 25.0,
-          "qt_mes_anterior": 186.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-379": {
-          "fat_atual": 5201.2,
-          "fat_mes_anterior": 5567.7,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 46.0,
-          "qt_mes_anterior": 77.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-412": {
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 397.7,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 4.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-419": {
-          "fat_atual": 1597.5,
-          "fat_mes_anterior": 194.7,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 25.0,
-          "qt_mes_anterior": 3.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-431": {
-          "fat_atual": 149.9,
-          "fat_mes_anterior": 152.13,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 1.0,
-          "qt_mes_anterior": 1.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-471": {
-          "fat_atual": 3586.5,
-          "fat_mes_anterior": 623.5,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 53.0,
-          "qt_mes_anterior": 7.0,
-          "qt_ano_anterior": 0.0
-        }
-      }
-    },
-    {
       "fornecedor": "RED BULL",
       "estado": "ES",
-      "fat_atual": 171989.65,
-      "fat_mes_anterior": 208165.76,
-      "fat_ano_anterior": 4579.58,
-      "qt_atual": 981.0,
-      "qt_mes_anterior": 1171.0,
-      "qt_ano_anterior": 44.0,
+      "fat_atual": 171960.49,
+      "fat_mes_anterior": 208136.6,
+      "fat_ano_anterior": 4486.7,
+      "qt_atual": 980.0,
+      "qt_mes_anterior": 1170.0,
+      "qt_ano_anterior": 41.0,
       "queda_fat_mes_valor": 36176.11,
-      "queda_fat_ano_valor": -167410.07,
+      "queda_fat_ano_valor": -167473.79,
       "queda_fat_mes_pct": -17.4,
-      "queda_fat_ano_pct": 3655.6,
+      "queda_fat_ano_pct": 3732.7,
       "queda_qt_mes_valor": 190.0,
-      "queda_qt_ano_valor": -937.0,
+      "queda_qt_ano_valor": -939.0,
       "queda_qt_mes_pct": -16.2,
-      "queda_qt_ano_pct": 2129.5,
+      "queda_qt_ano_pct": 2290.2,
       "por_vendedor": {
         "ES-230": {
           "fat_atual": 155312.64,
@@ -339419,12 +340719,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
           "qt_ano_anterior": 0.0
         },
         "ES-336": {
-          "fat_atual": 116.64,
-          "fat_mes_anterior": 170.96,
-          "fat_ano_anterior": 1693.96,
-          "qt_atual": 4.0,
-          "qt_mes_anterior": 6.0,
-          "qt_ano_anterior": 21.0
+          "fat_atual": 87.48,
+          "fat_mes_anterior": 141.8,
+          "fat_ano_anterior": 1601.08,
+          "qt_atual": 3.0,
+          "qt_mes_anterior": 5.0,
+          "qt_ano_anterior": 18.0
         },
         "ES-342": {
           "fat_atual": 29.16,
@@ -339505,150 +340805,110 @@ const RAIOX_OPORTUNIDADES_DATA = {
       }
     },
     {
-      "fornecedor": "PERNOD",
+      "fornecedor": "KAISER",
       "estado": "RJ",
-      "fat_atual": 72651.82,
-      "fat_mes_anterior": 102122.21,
-      "fat_ano_anterior": 28778.0,
-      "qt_atual": 2106.0,
-      "qt_mes_anterior": 2450.0,
-      "qt_ano_anterior": 380.0,
-      "queda_fat_mes_valor": 29470.39,
-      "queda_fat_ano_valor": -43873.82,
-      "queda_fat_mes_pct": -28.9,
-      "queda_fat_ano_pct": 152.5,
-      "queda_qt_mes_valor": 344.0,
-      "queda_qt_ano_valor": -1726.0,
-      "queda_qt_mes_pct": -14.0,
-      "queda_qt_ano_pct": 454.2,
+      "fat_atual": 21689.9,
+      "fat_mes_anterior": 54917.71,
+      "fat_ano_anterior": 32333.8,
+      "qt_atual": 302.0,
+      "qt_mes_anterior": 805.0,
+      "qt_ano_anterior": 281.0,
+      "queda_fat_mes_valor": 33227.81,
+      "queda_fat_ano_valor": 10643.9,
+      "queda_fat_mes_pct": -60.5,
+      "queda_fat_ano_pct": -32.9,
+      "queda_qt_mes_valor": 503.0,
+      "queda_qt_ano_valor": -21.0,
+      "queda_qt_mes_pct": -62.5,
+      "queda_qt_ano_pct": 7.5,
       "por_vendedor": {
         "RJ-144": {
-          "fat_atual": 3885.1,
-          "fat_mes_anterior": 10522.0,
-          "fat_ano_anterior": 1660.7,
-          "qt_atual": 73.0,
-          "qt_mes_anterior": 225.0,
-          "qt_ano_anterior": 23.0
-        },
-        "RJ-153": {
-          "fat_atual": 4636.5,
-          "fat_mes_anterior": 2477.88,
-          "fat_ano_anterior": 475.4,
-          "qt_atual": 105.0,
-          "qt_mes_anterior": 84.0,
-          "qt_ano_anterior": 10.0
+          "fat_atual": 127.9,
+          "fat_mes_anterior": 34149.9,
+          "fat_ano_anterior": 28827.5,
+          "qt_atual": 1.0,
+          "qt_mes_anterior": 534.0,
+          "qt_ano_anterior": 240.0
         },
         "RJ-155": {
-          "fat_atual": 8990.4,
-          "fat_mes_anterior": 11315.9,
-          "fat_ano_anterior": 11670.2,
-          "qt_atual": 210.0,
-          "qt_mes_anterior": 236.0,
-          "qt_ano_anterior": 138.0
+          "fat_atual": 2744.1,
+          "fat_mes_anterior": 3342.85,
+          "fat_ano_anterior": 3236.3,
+          "qt_atual": 37.0,
+          "qt_mes_anterior": 39.0,
+          "qt_ano_anterior": 39.0
         },
         "RJ-156": {
-          "fat_atual": 5161.52,
-          "fat_mes_anterior": 1897.0,
-          "fat_ano_anterior": 7640.6,
-          "qt_atual": 95.0,
-          "qt_mes_anterior": 30.0,
-          "qt_ano_anterior": 124.0
-        },
-        "RJ-158": {
-          "fat_atual": 32280.0,
-          "fat_mes_anterior": 2618.12,
+          "fat_atual": 613.3,
+          "fat_mes_anterior": 0.0,
           "fat_ano_anterior": 0.0,
-          "qt_atual": 1200.0,
-          "qt_mes_anterior": 50.0,
+          "qt_atual": 12.0,
+          "qt_mes_anterior": 0.0,
           "qt_ano_anterior": 0.0
         },
         "RJ-159": {
-          "fat_atual": 1224.8,
-          "fat_mes_anterior": 26224.3,
-          "fat_ano_anterior": 5696.1,
-          "qt_atual": 22.0,
-          "qt_mes_anterior": 810.0,
-          "qt_ano_anterior": 65.0
+          "fat_atual": 3577.9,
+          "fat_mes_anterior": 10809.32,
+          "fat_ano_anterior": 270.0,
+          "qt_atual": 76.0,
+          "qt_mes_anterior": 144.0,
+          "qt_ano_anterior": 2.0
         },
-        "RJ-172": {
-          "fat_atual": 951.6,
-          "fat_mes_anterior": 223.5,
-          "fat_ano_anterior": 331.6,
-          "qt_atual": 24.0,
-          "qt_mes_anterior": 5.0,
-          "qt_ano_anterior": 4.0
-        },
-        "RJ-241": {
-          "fat_atual": 7282.8,
-          "fat_mes_anterior": 9388.2,
-          "fat_ano_anterior": 958.8,
-          "qt_atual": 252.0,
-          "qt_mes_anterior": 318.0,
-          "qt_ano_anterior": 12.0
+        "RJ-174": {
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 63.2,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 2.0,
+          "qt_ano_anterior": 0.0
         },
         "RJ-378": {
-          "fat_atual": 3459.3,
-          "fat_mes_anterior": 5541.52,
+          "fat_atual": 2174.2,
+          "fat_mes_anterior": 10570.9,
           "fat_ano_anterior": 0.0,
-          "qt_atual": 57.0,
-          "qt_mes_anterior": 106.0,
+          "qt_atual": 25.0,
+          "qt_mes_anterior": 186.0,
           "qt_ano_anterior": 0.0
         },
         "RJ-379": {
-          "fat_atual": 1510.3,
-          "fat_mes_anterior": 7474.3,
+          "fat_atual": 7118.6,
+          "fat_mes_anterior": 5567.7,
           "fat_ano_anterior": 0.0,
-          "qt_atual": 21.0,
-          "qt_mes_anterior": 97.0,
+          "qt_atual": 72.0,
+          "qt_mes_anterior": 77.0,
           "qt_ano_anterior": 0.0
         },
         "RJ-412": {
           "fat_atual": 0.0,
-          "fat_mes_anterior": 197.7,
+          "fat_mes_anterior": 397.7,
           "fat_ano_anterior": 0.0,
           "qt_atual": 0.0,
-          "qt_mes_anterior": 3.0,
+          "qt_mes_anterior": 4.0,
           "qt_ano_anterior": 0.0
         },
         "RJ-419": {
-          "fat_atual": 317.5,
-          "fat_mes_anterior": 5742.9,
+          "fat_atual": 1597.5,
+          "fat_mes_anterior": 194.7,
           "fat_ano_anterior": 0.0,
-          "qt_atual": 5.0,
-          "qt_mes_anterior": 101.0,
+          "qt_atual": 25.0,
+          "qt_mes_anterior": 3.0,
           "qt_ano_anterior": 0.0
         },
         "RJ-431": {
-          "fat_atual": 446.6,
-          "fat_mes_anterior": 1156.74,
+          "fat_atual": 149.9,
+          "fat_mes_anterior": 152.13,
           "fat_ano_anterior": 0.0,
-          "qt_atual": 14.0,
-          "qt_mes_anterior": 35.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-439": {
-          "fat_atual": 643.0,
-          "fat_mes_anterior": 2063.9,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 20.0,
-          "qt_mes_anterior": 71.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-450": {
-          "fat_atual": 1398.0,
-          "fat_mes_anterior": 13507.93,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 2.0,
-          "qt_mes_anterior": 254.0,
+          "qt_atual": 1.0,
+          "qt_mes_anterior": 1.0,
           "qt_ano_anterior": 0.0
         },
         "RJ-471": {
-          "fat_atual": 464.4,
-          "fat_mes_anterior": 2668.82,
-          "fat_ano_anterior": 344.6,
-          "qt_atual": 6.0,
-          "qt_mes_anterior": 40.0,
-          "qt_ano_anterior": 4.0
+          "fat_atual": 3586.5,
+          "fat_mes_anterior": 623.5,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 53.0,
+          "qt_mes_anterior": 7.0,
+          "qt_ano_anterior": 0.0
         }
       }
     },
@@ -339761,6 +341021,154 @@ const RAIOX_OPORTUNIDADES_DATA = {
       }
     },
     {
+      "fornecedor": "PERNOD",
+      "estado": "RJ",
+      "fat_atual": 74002.72,
+      "fat_mes_anterior": 102122.21,
+      "fat_ano_anterior": 28778.0,
+      "qt_atual": 2127.0,
+      "qt_mes_anterior": 2450.0,
+      "qt_ano_anterior": 380.0,
+      "queda_fat_mes_valor": 28119.49,
+      "queda_fat_ano_valor": -45224.72,
+      "queda_fat_mes_pct": -27.5,
+      "queda_fat_ano_pct": 157.2,
+      "queda_qt_mes_valor": 323.0,
+      "queda_qt_ano_valor": -1747.0,
+      "queda_qt_mes_pct": -13.2,
+      "queda_qt_ano_pct": 459.7,
+      "por_vendedor": {
+        "RJ-144": {
+          "fat_atual": 4244.5,
+          "fat_mes_anterior": 10522.0,
+          "fat_ano_anterior": 1660.7,
+          "qt_atual": 79.0,
+          "qt_mes_anterior": 225.0,
+          "qt_ano_anterior": 23.0
+        },
+        "RJ-153": {
+          "fat_atual": 4636.5,
+          "fat_mes_anterior": 2477.88,
+          "fat_ano_anterior": 475.4,
+          "qt_atual": 105.0,
+          "qt_mes_anterior": 84.0,
+          "qt_ano_anterior": 10.0
+        },
+        "RJ-155": {
+          "fat_atual": 10068.6,
+          "fat_mes_anterior": 11315.9,
+          "fat_ano_anterior": 11670.2,
+          "qt_atual": 228.0,
+          "qt_mes_anterior": 236.0,
+          "qt_ano_anterior": 138.0
+        },
+        "RJ-156": {
+          "fat_atual": 5161.52,
+          "fat_mes_anterior": 1897.0,
+          "fat_ano_anterior": 7640.6,
+          "qt_atual": 95.0,
+          "qt_mes_anterior": 30.0,
+          "qt_ano_anterior": 124.0
+        },
+        "RJ-158": {
+          "fat_atual": 32280.0,
+          "fat_mes_anterior": 2618.12,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 1200.0,
+          "qt_mes_anterior": 50.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-159": {
+          "fat_atual": 1224.8,
+          "fat_mes_anterior": 26224.3,
+          "fat_ano_anterior": 5696.1,
+          "qt_atual": 22.0,
+          "qt_mes_anterior": 810.0,
+          "qt_ano_anterior": 65.0
+        },
+        "RJ-172": {
+          "fat_atual": 951.6,
+          "fat_mes_anterior": 223.5,
+          "fat_ano_anterior": 331.6,
+          "qt_atual": 24.0,
+          "qt_mes_anterior": 5.0,
+          "qt_ano_anterior": 4.0
+        },
+        "RJ-241": {
+          "fat_atual": 7282.8,
+          "fat_mes_anterior": 9388.2,
+          "fat_ano_anterior": 958.8,
+          "qt_atual": 252.0,
+          "qt_mes_anterior": 318.0,
+          "qt_ano_anterior": 12.0
+        },
+        "RJ-378": {
+          "fat_atual": 3372.6,
+          "fat_mes_anterior": 5541.52,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 54.0,
+          "qt_mes_anterior": 106.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-379": {
+          "fat_atual": 1510.3,
+          "fat_mes_anterior": 7474.3,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 21.0,
+          "qt_mes_anterior": 97.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-412": {
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 197.7,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 3.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-419": {
+          "fat_atual": 317.5,
+          "fat_mes_anterior": 5742.9,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 5.0,
+          "qt_mes_anterior": 101.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-431": {
+          "fat_atual": 446.6,
+          "fat_mes_anterior": 1156.74,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 14.0,
+          "qt_mes_anterior": 35.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-439": {
+          "fat_atual": 643.0,
+          "fat_mes_anterior": 2063.9,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 20.0,
+          "qt_mes_anterior": 71.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-450": {
+          "fat_atual": 1398.0,
+          "fat_mes_anterior": 13507.93,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 2.0,
+          "qt_mes_anterior": 254.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-471": {
+          "fat_atual": 464.4,
+          "fat_mes_anterior": 2668.82,
+          "fat_ano_anterior": 344.6,
+          "qt_atual": 6.0,
+          "qt_mes_anterior": 40.0,
+          "qt_ano_anterior": 4.0
+        }
+      }
+    },
+    {
       "fornecedor": "LVMH",
       "estado": "MG",
       "fat_atual": 24429.3,
@@ -339861,28 +341269,80 @@ const RAIOX_OPORTUNIDADES_DATA = {
       }
     },
     {
+      "fornecedor": "TATUZINHO",
+      "estado": "ES",
+      "fat_atual": 23921.53,
+      "fat_mes_anterior": 36737.04,
+      "fat_ano_anterior": 5677.39,
+      "qt_atual": 942.0,
+      "qt_mes_anterior": 1681.0,
+      "qt_ano_anterior": 82.0,
+      "queda_fat_mes_valor": 12815.51,
+      "queda_fat_ano_valor": -18244.14,
+      "queda_fat_mes_pct": -34.9,
+      "queda_fat_ano_pct": 321.3,
+      "queda_qt_mes_valor": 739.0,
+      "queda_qt_ano_valor": -860.0,
+      "queda_qt_mes_pct": -44.0,
+      "queda_qt_ano_pct": 1048.8,
+      "por_vendedor": {
+        "ES-260": {
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 547.08,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 10.0
+        },
+        "ES-388": {
+          "fat_atual": 23921.53,
+          "fat_mes_anterior": 30593.52,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 942.0,
+          "qt_mes_anterior": 1613.0,
+          "qt_ano_anterior": 0.0
+        },
+        "ES-508": {
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 6143.52,
+          "fat_ano_anterior": 4366.44,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 68.0,
+          "qt_ano_anterior": 57.0
+        },
+        "ES-521": {
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 763.87,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 15.0
+        }
+      }
+    },
+    {
       "fornecedor": "FANTE",
       "estado": "RJ",
-      "fat_atual": 24146.61,
+      "fat_atual": 25112.49,
       "fat_mes_anterior": 37514.54,
       "fat_ano_anterior": 0.0,
-      "qt_atual": 1341.0,
+      "qt_atual": 1389.0,
       "qt_mes_anterior": 2129.0,
       "qt_ano_anterior": 0.0,
-      "queda_fat_mes_valor": 13367.93,
-      "queda_fat_ano_valor": -24146.61,
-      "queda_fat_mes_pct": -35.6,
+      "queda_fat_mes_valor": 12402.05,
+      "queda_fat_ano_valor": -25112.49,
+      "queda_fat_mes_pct": -33.1,
       "queda_fat_ano_pct": null,
-      "queda_qt_mes_valor": 788.0,
-      "queda_qt_ano_valor": -1341.0,
-      "queda_qt_mes_pct": -37.0,
+      "queda_qt_mes_valor": 740.0,
+      "queda_qt_ano_valor": -1389.0,
+      "queda_qt_mes_pct": -34.8,
       "queda_qt_ano_pct": null,
       "por_vendedor": {
         "RJ-144": {
-          "fat_atual": 507.6,
+          "fat_atual": 1317.6,
           "fat_mes_anterior": 535.2,
           "fat_ano_anterior": 0.0,
-          "qt_atual": 24.0,
+          "qt_atual": 60.0,
           "qt_mes_anterior": 32.0,
           "qt_ano_anterior": 0.0
         },
@@ -339951,10 +341411,10 @@ const RAIOX_OPORTUNIDADES_DATA = {
           "qt_ano_anterior": 0.0
         },
         "RJ-379": {
-          "fat_atual": 1512.16,
+          "fat_atual": 1668.04,
           "fat_mes_anterior": 1494.48,
           "fat_ano_anterior": 0.0,
-          "qt_atual": 84.0,
+          "qt_atual": 96.0,
           "qt_mes_anterior": 71.0,
           "qt_ano_anterior": 0.0
         },
@@ -340005,58 +341465,6 @@ const RAIOX_OPORTUNIDADES_DATA = {
           "qt_atual": 14.0,
           "qt_mes_anterior": 60.0,
           "qt_ano_anterior": 0.0
-        }
-      }
-    },
-    {
-      "fornecedor": "TATUZINHO",
-      "estado": "ES",
-      "fat_atual": 23921.53,
-      "fat_mes_anterior": 36737.04,
-      "fat_ano_anterior": 5677.39,
-      "qt_atual": 942.0,
-      "qt_mes_anterior": 1681.0,
-      "qt_ano_anterior": 82.0,
-      "queda_fat_mes_valor": 12815.51,
-      "queda_fat_ano_valor": -18244.14,
-      "queda_fat_mes_pct": -34.9,
-      "queda_fat_ano_pct": 321.3,
-      "queda_qt_mes_valor": 739.0,
-      "queda_qt_ano_valor": -860.0,
-      "queda_qt_mes_pct": -44.0,
-      "queda_qt_ano_pct": 1048.8,
-      "por_vendedor": {
-        "ES-260": {
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 547.08,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 10.0
-        },
-        "ES-388": {
-          "fat_atual": 23921.53,
-          "fat_mes_anterior": 30593.52,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 942.0,
-          "qt_mes_anterior": 1613.0,
-          "qt_ano_anterior": 0.0
-        },
-        "ES-508": {
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 6143.52,
-          "fat_ano_anterior": 4366.44,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 68.0,
-          "qt_ano_anterior": 57.0
-        },
-        "ES-521": {
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 763.87,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 15.0
         }
       }
     },
@@ -340429,66 +341837,6 @@ const RAIOX_OPORTUNIDADES_DATA = {
       }
     },
     {
-      "fornecedor": "HEINEKEN",
-      "estado": "MG",
-      "fat_atual": 19644.0,
-      "fat_mes_anterior": 27042.04,
-      "fat_ano_anterior": 110485.96,
-      "qt_atual": 140.0,
-      "qt_mes_anterior": 183.0,
-      "qt_ano_anterior": 860.0,
-      "queda_fat_mes_valor": 7398.04,
-      "queda_fat_ano_valor": 90841.96,
-      "queda_fat_mes_pct": -27.4,
-      "queda_fat_ano_pct": -82.2,
-      "queda_qt_mes_valor": 43.0,
-      "queda_qt_ano_valor": 720.0,
-      "queda_qt_mes_pct": -23.5,
-      "queda_qt_ano_pct": -83.7,
-      "por_vendedor": {
-        "MG-327": {
-          "fat_atual": 13947.84,
-          "fat_mes_anterior": 19342.4,
-          "fat_ano_anterior": 13486.56,
-          "qt_atual": 94.0,
-          "qt_mes_anterior": 130.0,
-          "qt_ano_anterior": 86.0
-        },
-        "MG-331": {
-          "fat_atual": 1413.6,
-          "fat_mes_anterior": 3594.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 10.0,
-          "qt_mes_anterior": 25.0,
-          "qt_ano_anterior": 0.0
-        },
-        "MG-343": {
-          "fat_atual": 431.52,
-          "fat_mes_anterior": 364.32,
-          "fat_ano_anterior": 94492.0,
-          "qt_atual": 2.0,
-          "qt_mes_anterior": 2.0,
-          "qt_ano_anterior": 748.0
-        },
-        "MG-344": {
-          "fat_atual": 2882.16,
-          "fat_mes_anterior": 1366.76,
-          "fat_ano_anterior": 2507.4,
-          "qt_atual": 25.0,
-          "qt_mes_anterior": 10.0,
-          "qt_ano_anterior": 26.0
-        },
-        "MG-354": {
-          "fat_atual": 968.88,
-          "fat_mes_anterior": 2374.56,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 9.0,
-          "qt_mes_anterior": 16.0,
-          "qt_ano_anterior": 0.0
-        }
-      }
-    },
-    {
       "fornecedor": "TATUZINHO",
       "estado": "SP",
       "fat_atual": 1705.2,
@@ -340613,22 +341961,166 @@ const RAIOX_OPORTUNIDADES_DATA = {
       }
     },
     {
+      "fornecedor": "HEINEKEN",
+      "estado": "MG",
+      "fat_atual": 21081.6,
+      "fat_mes_anterior": 27042.04,
+      "fat_ano_anterior": 110485.96,
+      "qt_atual": 150.0,
+      "qt_mes_anterior": 183.0,
+      "qt_ano_anterior": 860.0,
+      "queda_fat_mes_valor": 5960.44,
+      "queda_fat_ano_valor": 89404.36,
+      "queda_fat_mes_pct": -22.0,
+      "queda_fat_ano_pct": -80.9,
+      "queda_qt_mes_valor": 33.0,
+      "queda_qt_ano_valor": 710.0,
+      "queda_qt_mes_pct": -18.0,
+      "queda_qt_ano_pct": -82.6,
+      "por_vendedor": {
+        "MG-327": {
+          "fat_atual": 15385.44,
+          "fat_mes_anterior": 19342.4,
+          "fat_ano_anterior": 13486.56,
+          "qt_atual": 104.0,
+          "qt_mes_anterior": 130.0,
+          "qt_ano_anterior": 86.0
+        },
+        "MG-331": {
+          "fat_atual": 1413.6,
+          "fat_mes_anterior": 3594.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 10.0,
+          "qt_mes_anterior": 25.0,
+          "qt_ano_anterior": 0.0
+        },
+        "MG-343": {
+          "fat_atual": 431.52,
+          "fat_mes_anterior": 364.32,
+          "fat_ano_anterior": 94492.0,
+          "qt_atual": 2.0,
+          "qt_mes_anterior": 2.0,
+          "qt_ano_anterior": 748.0
+        },
+        "MG-344": {
+          "fat_atual": 2882.16,
+          "fat_mes_anterior": 1366.76,
+          "fat_ano_anterior": 2507.4,
+          "qt_atual": 25.0,
+          "qt_mes_anterior": 10.0,
+          "qt_ano_anterior": 26.0
+        },
+        "MG-354": {
+          "fat_atual": 968.88,
+          "fat_mes_anterior": 2374.56,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 9.0,
+          "qt_mes_anterior": 16.0,
+          "qt_ano_anterior": 0.0
+        }
+      }
+    },
+    {
+      "fornecedor": "RECKITT",
+      "estado": "RJ",
+      "fat_atual": 418.31,
+      "fat_mes_anterior": 6166.16,
+      "fat_ano_anterior": 0.0,
+      "qt_atual": 4.0,
+      "qt_mes_anterior": 77.0,
+      "qt_ano_anterior": 0.0,
+      "queda_fat_mes_valor": 5747.85,
+      "queda_fat_ano_valor": -418.31,
+      "queda_fat_mes_pct": -93.2,
+      "queda_fat_ano_pct": null,
+      "queda_qt_mes_valor": 73.0,
+      "queda_qt_ano_valor": -4.0,
+      "queda_qt_mes_pct": -94.8,
+      "queda_qt_ano_pct": null,
+      "por_vendedor": {
+        "RJ-144": {
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 64.8,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 1.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-153": {
+          "fat_atual": 59.91,
+          "fat_mes_anterior": 2388.24,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 1.0,
+          "qt_mes_anterior": 33.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-378": {
+          "fat_atual": 92.0,
+          "fat_mes_anterior": 501.96,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 1.0,
+          "qt_mes_anterior": 5.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-379": {
+          "fat_atual": 266.4,
+          "fat_mes_anterior": 1833.7,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 2.0,
+          "qt_mes_anterior": 20.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-419": {
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 267.82,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 2.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-431": {
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 430.56,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 6.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-439": {
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 547.2,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 8.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-471": {
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 131.88,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 2.0,
+          "qt_ano_anterior": 0.0
+        }
+      }
+    },
+    {
       "fornecedor": "CASTAS",
       "estado": "RJ",
-      "fat_atual": 58221.36,
+      "fat_atual": 58790.16,
       "fat_mes_anterior": 64342.8,
       "fat_ano_anterior": 36293.24,
-      "qt_atual": 1171.0,
+      "qt_atual": 1173.0,
       "qt_mes_anterior": 1739.0,
       "qt_ano_anterior": 1257.0,
-      "queda_fat_mes_valor": 6121.44,
-      "queda_fat_ano_valor": -21928.12,
-      "queda_fat_mes_pct": -9.5,
-      "queda_fat_ano_pct": 60.4,
-      "queda_qt_mes_valor": 568.0,
-      "queda_qt_ano_valor": 86.0,
-      "queda_qt_mes_pct": -32.7,
-      "queda_qt_ano_pct": -6.8,
+      "queda_fat_mes_valor": 5552.64,
+      "queda_fat_ano_valor": -22496.92,
+      "queda_fat_mes_pct": -8.6,
+      "queda_fat_ano_pct": 62.0,
+      "queda_qt_mes_valor": 566.0,
+      "queda_qt_ano_valor": 84.0,
+      "queda_qt_mes_pct": -32.5,
+      "queda_qt_ano_pct": -6.7,
       "por_vendedor": {
         "RJ-91": {
           "fat_atual": 6674.4,
@@ -340655,10 +342147,10 @@ const RAIOX_OPORTUNIDADES_DATA = {
           "qt_ano_anterior": 30.0
         },
         "RJ-155": {
-          "fat_atual": 13596.7,
+          "fat_atual": 13878.7,
           "fat_mes_anterior": 8376.1,
           "fat_ano_anterior": 4900.7,
-          "qt_atual": 234.0,
+          "qt_atual": 235.0,
           "qt_mes_anterior": 200.0,
           "qt_ano_anterior": 85.0
         },
@@ -340759,10 +342251,10 @@ const RAIOX_OPORTUNIDADES_DATA = {
           "qt_ano_anterior": 0.0
         },
         "RJ-450": {
-          "fat_atual": 6490.2,
+          "fat_atual": 6777.0,
           "fat_mes_anterior": 2452.8,
           "fat_ano_anterior": 0.0,
-          "qt_atual": 138.0,
+          "qt_atual": 139.0,
           "qt_mes_anterior": 72.0,
           "qt_ano_anterior": 0.0
         },
@@ -340772,90 +342264,6 @@ const RAIOX_OPORTUNIDADES_DATA = {
           "fat_ano_anterior": 0.0,
           "qt_atual": 13.0,
           "qt_mes_anterior": 38.0,
-          "qt_ano_anterior": 0.0
-        }
-      }
-    },
-    {
-      "fornecedor": "RECKITT",
-      "estado": "RJ",
-      "fat_atual": 418.31,
-      "fat_mes_anterior": 6166.16,
-      "fat_ano_anterior": 0.0,
-      "qt_atual": 4.0,
-      "qt_mes_anterior": 77.0,
-      "qt_ano_anterior": 0.0,
-      "queda_fat_mes_valor": 5747.85,
-      "queda_fat_ano_valor": -418.31,
-      "queda_fat_mes_pct": -93.2,
-      "queda_fat_ano_pct": null,
-      "queda_qt_mes_valor": 73.0,
-      "queda_qt_ano_valor": -4.0,
-      "queda_qt_mes_pct": -94.8,
-      "queda_qt_ano_pct": null,
-      "por_vendedor": {
-        "RJ-144": {
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 64.8,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 1.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-153": {
-          "fat_atual": 59.91,
-          "fat_mes_anterior": 2388.24,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 1.0,
-          "qt_mes_anterior": 33.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-378": {
-          "fat_atual": 92.0,
-          "fat_mes_anterior": 501.96,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 1.0,
-          "qt_mes_anterior": 5.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-379": {
-          "fat_atual": 266.4,
-          "fat_mes_anterior": 1833.7,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 2.0,
-          "qt_mes_anterior": 20.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-419": {
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 267.82,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 2.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-431": {
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 430.56,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 6.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-439": {
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 547.2,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 8.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-471": {
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 131.88,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 2.0,
           "qt_ano_anterior": 0.0
         }
       }
@@ -341143,26 +342551,26 @@ const RAIOX_OPORTUNIDADES_DATA = {
     {
       "fornecedor": "HOB",
       "estado": "RJ",
-      "fat_atual": 2333.1,
+      "fat_atual": 2327.05,
       "fat_mes_anterior": 5798.45,
       "fat_ano_anterior": 4001.9,
       "qt_atual": 50.0,
       "qt_mes_anterior": 176.0,
       "qt_ano_anterior": 91.0,
-      "queda_fat_mes_valor": 3465.35,
-      "queda_fat_ano_valor": 1668.8,
-      "queda_fat_mes_pct": -59.8,
-      "queda_fat_ano_pct": -41.7,
+      "queda_fat_mes_valor": 3471.4,
+      "queda_fat_ano_valor": 1674.85,
+      "queda_fat_mes_pct": -59.9,
+      "queda_fat_ano_pct": -41.9,
       "queda_qt_mes_valor": 126.0,
       "queda_qt_ano_valor": 41.0,
       "queda_qt_mes_pct": -71.6,
       "queda_qt_ano_pct": -45.1,
       "por_vendedor": {
         "RJ-144": {
-          "fat_atual": 957.6,
+          "fat_atual": 997.5,
           "fat_mes_anterior": 718.2,
           "fat_ano_anterior": 0.0,
-          "qt_atual": 24.0,
+          "qt_atual": 25.0,
           "qt_mes_anterior": 18.0,
           "qt_ano_anterior": 0.0
         },
@@ -341215,10 +342623,10 @@ const RAIOX_OPORTUNIDADES_DATA = {
           "qt_ano_anterior": 0.0
         },
         "RJ-378": {
-          "fat_atual": 91.9,
+          "fat_atual": 45.95,
           "fat_mes_anterior": 91.9,
           "fat_ano_anterior": 0.0,
-          "qt_atual": 2.0,
+          "qt_atual": 1.0,
           "qt_mes_anterior": 2.0,
           "qt_ano_anterior": 0.0
         },
@@ -341389,98 +342797,6 @@ const RAIOX_OPORTUNIDADES_DATA = {
       }
     },
     {
-      "fornecedor": "BROWN",
-      "estado": "RJ",
-      "fat_atual": 5979.8,
-      "fat_mes_anterior": 9176.73,
-      "fat_ano_anterior": 3370.9,
-      "qt_atual": 52.0,
-      "qt_mes_anterior": 79.0,
-      "qt_ano_anterior": 29.0,
-      "queda_fat_mes_valor": 3196.93,
-      "queda_fat_ano_valor": -2608.9,
-      "queda_fat_mes_pct": -34.8,
-      "queda_fat_ano_pct": 77.4,
-      "queda_qt_mes_valor": 27.0,
-      "queda_qt_ano_valor": -23.0,
-      "queda_qt_mes_pct": -34.2,
-      "queda_qt_ano_pct": 79.3,
-      "por_vendedor": {
-        "RJ-144": {
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 109.9,
-          "fat_ano_anterior": 129.9,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 1.0,
-          "qt_ano_anterior": 1.0
-        },
-        "RJ-153": {
-          "fat_atual": 479.7,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 3.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-155": {
-          "fat_atual": 2398.0,
-          "fat_mes_anterior": 1996.4,
-          "fat_ano_anterior": 380.8,
-          "qt_atual": 20.0,
-          "qt_mes_anterior": 16.0,
-          "qt_ano_anterior": 3.0
-        },
-        "RJ-156": {
-          "fat_atual": 701.2,
-          "fat_mes_anterior": 390.1,
-          "fat_ano_anterior": 864.9,
-          "qt_atual": 8.0,
-          "qt_mes_anterior": 3.0,
-          "qt_ano_anterior": 8.0
-        },
-        "RJ-158": {
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 471.49,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 6.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-159": {
-          "fat_atual": 419.6,
-          "fat_mes_anterior": 1853.4,
-          "fat_ano_anterior": 1995.3,
-          "qt_atual": 4.0,
-          "qt_mes_anterior": 16.0,
-          "qt_ano_anterior": 17.0
-        },
-        "RJ-241": {
-          "fat_atual": 119.9,
-          "fat_mes_anterior": 1438.8,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 1.0,
-          "qt_mes_anterior": 12.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-379": {
-          "fat_atual": 1265.4,
-          "fat_mes_anterior": 1273.8,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 12.0,
-          "qt_mes_anterior": 12.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-450": {
-          "fat_atual": 596.0,
-          "fat_mes_anterior": 1642.84,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 4.0,
-          "qt_mes_anterior": 13.0,
-          "qt_ano_anterior": 0.0
-        }
-      }
-    },
-    {
       "fornecedor": "PINATI",
       "estado": "ES",
       "fat_atual": 8066.45,
@@ -341568,6 +342884,98 @@ const RAIOX_OPORTUNIDADES_DATA = {
           "fat_ano_anterior": 0.0,
           "qt_atual": 11.0,
           "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0
+        }
+      }
+    },
+    {
+      "fornecedor": "BROWN",
+      "estado": "RJ",
+      "fat_atual": 6297.6,
+      "fat_mes_anterior": 9176.73,
+      "fat_ano_anterior": 3370.9,
+      "qt_atual": 54.0,
+      "qt_mes_anterior": 79.0,
+      "qt_ano_anterior": 29.0,
+      "queda_fat_mes_valor": 2879.13,
+      "queda_fat_ano_valor": -2926.7,
+      "queda_fat_mes_pct": -31.4,
+      "queda_fat_ano_pct": 86.8,
+      "queda_qt_mes_valor": 25.0,
+      "queda_qt_ano_valor": -25.0,
+      "queda_qt_mes_pct": -31.6,
+      "queda_qt_ano_pct": 86.2,
+      "por_vendedor": {
+        "RJ-144": {
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 109.9,
+          "fat_ano_anterior": 129.9,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 1.0,
+          "qt_ano_anterior": 1.0
+        },
+        "RJ-153": {
+          "fat_atual": 599.6,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 4.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-155": {
+          "fat_atual": 2595.9,
+          "fat_mes_anterior": 1996.4,
+          "fat_ano_anterior": 380.8,
+          "qt_atual": 21.0,
+          "qt_mes_anterior": 16.0,
+          "qt_ano_anterior": 3.0
+        },
+        "RJ-156": {
+          "fat_atual": 701.2,
+          "fat_mes_anterior": 390.1,
+          "fat_ano_anterior": 864.9,
+          "qt_atual": 8.0,
+          "qt_mes_anterior": 3.0,
+          "qt_ano_anterior": 8.0
+        },
+        "RJ-158": {
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 471.49,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 6.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-159": {
+          "fat_atual": 419.6,
+          "fat_mes_anterior": 1853.4,
+          "fat_ano_anterior": 1995.3,
+          "qt_atual": 4.0,
+          "qt_mes_anterior": 16.0,
+          "qt_ano_anterior": 17.0
+        },
+        "RJ-241": {
+          "fat_atual": 119.9,
+          "fat_mes_anterior": 1438.8,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 1.0,
+          "qt_mes_anterior": 12.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-379": {
+          "fat_atual": 1265.4,
+          "fat_mes_anterior": 1273.8,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 12.0,
+          "qt_mes_anterior": 12.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-450": {
+          "fat_atual": 596.0,
+          "fat_mes_anterior": 1642.84,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 4.0,
+          "qt_mes_anterior": 13.0,
           "qt_ano_anterior": 0.0
         }
       }
@@ -341943,20 +343351,20 @@ const RAIOX_OPORTUNIDADES_DATA = {
     {
       "fornecedor": "CAMPARI",
       "estado": "RJ",
-      "fat_atual": 2461.26,
+      "fat_atual": 2404.56,
       "fat_mes_anterior": 4131.21,
       "fat_ano_anterior": 825.5,
-      "qt_atual": 90.0,
+      "qt_atual": 87.0,
       "qt_mes_anterior": 133.0,
       "qt_ano_anterior": 19.0,
-      "queda_fat_mes_valor": 1669.95,
-      "queda_fat_ano_valor": -1635.76,
-      "queda_fat_mes_pct": -40.4,
-      "queda_fat_ano_pct": 198.2,
-      "queda_qt_mes_valor": 43.0,
-      "queda_qt_ano_valor": -71.0,
-      "queda_qt_mes_pct": -32.3,
-      "queda_qt_ano_pct": 373.7,
+      "queda_fat_mes_valor": 1726.65,
+      "queda_fat_ano_valor": -1579.06,
+      "queda_fat_mes_pct": -41.8,
+      "queda_fat_ano_pct": 191.3,
+      "queda_qt_mes_valor": 46.0,
+      "queda_qt_ano_valor": -68.0,
+      "queda_qt_mes_pct": -34.6,
+      "queda_qt_ano_pct": 357.9,
       "por_vendedor": {
         "RJ-144": {
           "fat_atual": 770.5,
@@ -341999,10 +343407,10 @@ const RAIOX_OPORTUNIDADES_DATA = {
           "qt_ano_anterior": 0.0
         },
         "RJ-378": {
-          "fat_atual": 93.68,
+          "fat_atual": 36.98,
           "fat_mes_anterior": 244.86,
           "fat_ano_anterior": 0.0,
-          "qt_atual": 5.0,
+          "qt_atual": 2.0,
           "qt_mes_anterior": 14.0,
           "qt_ano_anterior": 0.0
         },
@@ -342567,19 +343975,19 @@ const RAIOX_OPORTUNIDADES_DATA = {
     {
       "fornecedor": "PINATI",
       "estado": "RJ",
-      "fat_atual": 655.79,
+      "fat_atual": 694.69,
       "fat_mes_anterior": 1514.57,
       "fat_ano_anterior": 0.0,
-      "qt_atual": 13.0,
+      "qt_atual": 14.0,
       "qt_mes_anterior": 25.0,
       "qt_ano_anterior": 0.0,
-      "queda_fat_mes_valor": 858.78,
-      "queda_fat_ano_valor": -655.79,
-      "queda_fat_mes_pct": -56.7,
+      "queda_fat_mes_valor": 819.88,
+      "queda_fat_ano_valor": -694.69,
+      "queda_fat_mes_pct": -54.1,
       "queda_fat_ano_pct": null,
-      "queda_qt_mes_valor": 12.0,
-      "queda_qt_ano_valor": -13.0,
-      "queda_qt_mes_pct": -48.0,
+      "queda_qt_mes_valor": 11.0,
+      "queda_qt_ano_valor": -14.0,
+      "queda_qt_mes_pct": -44.0,
       "queda_qt_ano_pct": null,
       "por_vendedor": {
         "RJ-156": {
@@ -342623,10 +344031,10 @@ const RAIOX_OPORTUNIDADES_DATA = {
           "qt_ano_anterior": 0.0
         },
         "RJ-419": {
-          "fat_atual": 375.8,
+          "fat_atual": 414.7,
           "fat_mes_anterior": 47.84,
           "fat_ano_anterior": 0.0,
-          "qt_atual": 8.0,
+          "qt_atual": 9.0,
           "qt_mes_anterior": 1.0,
           "qt_ano_anterior": 0.0
         },
@@ -343513,74 +344921,6 @@ const RAIOX_OPORTUNIDADES_DATA = {
       }
     },
     {
-      "fornecedor": "NOSSO CHOPE",
-      "estado": "RJ",
-      "fat_atual": 1372.3,
-      "fat_mes_anterior": 1000.6,
-      "fat_ano_anterior": 0.0,
-      "qt_atual": 19.0,
-      "qt_mes_anterior": 14.0,
-      "qt_ano_anterior": 0.0,
-      "queda_fat_mes_valor": -371.7,
-      "queda_fat_ano_valor": -1372.3,
-      "queda_fat_mes_pct": 37.1,
-      "queda_fat_ano_pct": null,
-      "queda_qt_mes_valor": -5.0,
-      "queda_qt_ano_valor": -19.0,
-      "queda_qt_mes_pct": 35.7,
-      "queda_qt_ano_pct": null,
-      "por_vendedor": {
-        "RJ-144": {
-          "fat_atual": 605.4,
-          "fat_mes_anterior": 177.4,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 6.0,
-          "qt_mes_anterior": 2.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-156": {
-          "fat_atual": 666.0,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 12.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-159": {
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 201.8,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 2.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-378": {
-          "fat_atual": 605.4,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 6.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-431": {
-          "fat_atual": 100.9,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 1.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-471": {
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 621.4,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 10.0,
-          "qt_ano_anterior": 0.0
-        }
-      }
-    },
-    {
       "fornecedor": "SELETA",
       "estado": "MG",
       "fat_atual": 1451.2,
@@ -343776,6 +345116,74 @@ const RAIOX_OPORTUNIDADES_DATA = {
           "fat_ano_anterior": 0.0,
           "qt_atual": 2.0,
           "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0
+        }
+      }
+    },
+    {
+      "fornecedor": "NOSSO CHOPE",
+      "estado": "RJ",
+      "fat_atual": 1483.3,
+      "fat_mes_anterior": 1000.6,
+      "fat_ano_anterior": 0.0,
+      "qt_atual": 21.0,
+      "qt_mes_anterior": 14.0,
+      "qt_ano_anterior": 0.0,
+      "queda_fat_mes_valor": -482.7,
+      "queda_fat_ano_valor": -1483.3,
+      "queda_fat_mes_pct": 48.2,
+      "queda_fat_ano_pct": null,
+      "queda_qt_mes_valor": -7.0,
+      "queda_qt_ano_valor": -21.0,
+      "queda_qt_mes_pct": 50.0,
+      "queda_qt_ano_pct": null,
+      "por_vendedor": {
+        "RJ-144": {
+          "fat_atual": 605.4,
+          "fat_mes_anterior": 177.4,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 6.0,
+          "qt_mes_anterior": 2.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-156": {
+          "fat_atual": 777.0,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 14.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-159": {
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 201.8,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 2.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-378": {
+          "fat_atual": 605.4,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 6.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-431": {
+          "fat_atual": 100.9,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 1.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-471": {
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 621.4,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 10.0,
           "qt_ano_anterior": 0.0
         }
       }
@@ -344217,114 +345625,6 @@ const RAIOX_OPORTUNIDADES_DATA = {
       }
     },
     {
-      "fornecedor": "MINALBA",
-      "estado": "RJ",
-      "fat_atual": 32235.4,
-      "fat_mes_anterior": 29913.93,
-      "fat_ano_anterior": 25618.94,
-      "qt_atual": 1300.0,
-      "qt_mes_anterior": 1416.0,
-      "qt_ano_anterior": 1660.0,
-      "queda_fat_mes_valor": -2321.47,
-      "queda_fat_ano_valor": -6616.46,
-      "queda_fat_mes_pct": 7.8,
-      "queda_fat_ano_pct": 25.8,
-      "queda_qt_mes_valor": 116.0,
-      "queda_qt_ano_valor": 360.0,
-      "queda_qt_mes_pct": -8.2,
-      "queda_qt_ano_pct": -21.7,
-      "por_vendedor": {
-        "RJ-144": {
-          "fat_atual": 258.5,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 751.4,
-          "qt_atual": 15.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 35.0
-        },
-        "RJ-153": {
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 34.98,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 2.0
-        },
-        "RJ-155": {
-          "fat_atual": 4998.8,
-          "fat_mes_anterior": 4547.8,
-          "fat_ano_anterior": 566.5,
-          "qt_atual": 56.0,
-          "qt_mes_anterior": 168.0,
-          "qt_ano_anterior": 35.0
-        },
-        "RJ-156": {
-          "fat_atual": 17700.1,
-          "fat_mes_anterior": 6042.9,
-          "fat_ano_anterior": 18367.73,
-          "qt_atual": 733.0,
-          "qt_mes_anterior": 251.0,
-          "qt_ano_anterior": 1206.0
-        },
-        "RJ-159": {
-          "fat_atual": 2145.5,
-          "fat_mes_anterior": 5322.5,
-          "fat_ano_anterior": 19.9,
-          "qt_atual": 95.0,
-          "qt_mes_anterior": 255.0,
-          "qt_ano_anterior": 1.0
-        },
-        "RJ-172": {
-          "fat_atual": 2583.0,
-          "fat_mes_anterior": 6101.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 150.0,
-          "qt_mes_anterior": 370.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-378": {
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 163.2,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 8.0
-        },
-        "RJ-379": {
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 1403.5,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 65.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-412": {
-          "fat_atual": 1132.5,
-          "fat_mes_anterior": 2754.53,
-          "fat_ano_anterior": 4032.83,
-          "qt_atual": 45.0,
-          "qt_mes_anterior": 112.0,
-          "qt_ano_anterior": 268.0
-        },
-        "RJ-431": {
-          "fat_atual": 199.2,
-          "fat_mes_anterior": 741.7,
-          "fat_ano_anterior": 1885.25,
-          "qt_atual": 8.0,
-          "qt_mes_anterior": 33.0,
-          "qt_ano_anterior": 125.0
-        },
-        "RJ-471": {
-          "fat_atual": 3707.8,
-          "fat_mes_anterior": 3000.0,
-          "fat_ano_anterior": 1622.0,
-          "qt_atual": 218.0,
-          "qt_mes_anterior": 162.0,
-          "qt_ano_anterior": 100.0
-        }
-      }
-    },
-    {
       "fornecedor": "BACARDI",
       "estado": "SP",
       "fat_atual": 179045.41,
@@ -344725,6 +346025,114 @@ const RAIOX_OPORTUNIDADES_DATA = {
       }
     },
     {
+      "fornecedor": "MINALBA",
+      "estado": "RJ",
+      "fat_atual": 32351.0,
+      "fat_mes_anterior": 29913.93,
+      "fat_ano_anterior": 25618.94,
+      "qt_atual": 1304.0,
+      "qt_mes_anterior": 1416.0,
+      "qt_ano_anterior": 1660.0,
+      "queda_fat_mes_valor": -2437.07,
+      "queda_fat_ano_valor": -6732.06,
+      "queda_fat_mes_pct": 8.1,
+      "queda_fat_ano_pct": 26.3,
+      "queda_qt_mes_valor": 112.0,
+      "queda_qt_ano_valor": 356.0,
+      "queda_qt_mes_pct": -7.9,
+      "queda_qt_ano_pct": -21.4,
+      "por_vendedor": {
+        "RJ-144": {
+          "fat_atual": 258.5,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 751.4,
+          "qt_atual": 15.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 35.0
+        },
+        "RJ-153": {
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 34.98,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 2.0
+        },
+        "RJ-155": {
+          "fat_atual": 4998.8,
+          "fat_mes_anterior": 4547.8,
+          "fat_ano_anterior": 566.5,
+          "qt_atual": 56.0,
+          "qt_mes_anterior": 168.0,
+          "qt_ano_anterior": 35.0
+        },
+        "RJ-156": {
+          "fat_atual": 17700.1,
+          "fat_mes_anterior": 6042.9,
+          "fat_ano_anterior": 18367.73,
+          "qt_atual": 733.0,
+          "qt_mes_anterior": 251.0,
+          "qt_ano_anterior": 1206.0
+        },
+        "RJ-159": {
+          "fat_atual": 2145.5,
+          "fat_mes_anterior": 5322.5,
+          "fat_ano_anterior": 19.9,
+          "qt_atual": 95.0,
+          "qt_mes_anterior": 255.0,
+          "qt_ano_anterior": 1.0
+        },
+        "RJ-172": {
+          "fat_atual": 2583.0,
+          "fat_mes_anterior": 6101.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 150.0,
+          "qt_mes_anterior": 370.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-378": {
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 163.2,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 8.0
+        },
+        "RJ-379": {
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 1403.5,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 65.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-412": {
+          "fat_atual": 1132.5,
+          "fat_mes_anterior": 2754.53,
+          "fat_ano_anterior": 4032.83,
+          "qt_atual": 45.0,
+          "qt_mes_anterior": 112.0,
+          "qt_ano_anterior": 268.0
+        },
+        "RJ-431": {
+          "fat_atual": 314.8,
+          "fat_mes_anterior": 741.7,
+          "fat_ano_anterior": 1885.25,
+          "qt_atual": 12.0,
+          "qt_mes_anterior": 33.0,
+          "qt_ano_anterior": 125.0
+        },
+        "RJ-471": {
+          "fat_atual": 3707.8,
+          "fat_mes_anterior": 3000.0,
+          "fat_ano_anterior": 1622.0,
+          "qt_atual": 218.0,
+          "qt_mes_anterior": 162.0,
+          "qt_ano_anterior": 100.0
+        }
+      }
+    },
+    {
       "fornecedor": "BEAM SUNTORY",
       "estado": "ES",
       "fat_atual": 2876.4,
@@ -345069,130 +346477,6 @@ const RAIOX_OPORTUNIDADES_DATA = {
       }
     },
     {
-      "fornecedor": "INTERFOOD",
-      "estado": "RJ",
-      "fat_atual": 16327.5,
-      "fat_mes_anterior": 12741.6,
-      "fat_ano_anterior": 112.9,
-      "qt_atual": 156.0,
-      "qt_mes_anterior": 86.0,
-      "qt_ano_anterior": 1.0,
-      "queda_fat_mes_valor": -3585.9,
-      "queda_fat_ano_valor": -16214.6,
-      "queda_fat_mes_pct": 28.1,
-      "queda_fat_ano_pct": 14361.9,
-      "queda_qt_mes_valor": -70.0,
-      "queda_qt_ano_valor": -155.0,
-      "queda_qt_mes_pct": 81.4,
-      "queda_qt_ano_pct": 15500.0,
-      "por_vendedor": {
-        "RJ-144": {
-          "fat_atual": 1066.8,
-          "fat_mes_anterior": 1363.5,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 12.0,
-          "qt_mes_anterior": 15.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-155": {
-          "fat_atual": 124.9,
-          "fat_mes_anterior": 2034.9,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 1.0,
-          "qt_mes_anterior": 21.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-156": {
-          "fat_atual": 654.3,
-          "fat_mes_anterior": 3415.8,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 7.0,
-          "qt_mes_anterior": 5.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-158": {
-          "fat_atual": 9061.2,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 108.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-159": {
-          "fat_atual": 239.8,
-          "fat_mes_anterior": 2689.0,
-          "fat_ano_anterior": 112.9,
-          "qt_atual": 2.0,
-          "qt_mes_anterior": 30.0,
-          "qt_ano_anterior": 1.0
-        },
-        "RJ-241": {
-          "fat_atual": 266.7,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 3.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-275": {
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 503.4,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 6.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-379": {
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 179.8,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 2.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-412": {
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 179.8,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 2.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-419": {
-          "fat_atual": 3280.5,
-          "fat_mes_anterior": 1296.6,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 6.0,
-          "qt_mes_anterior": 4.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-431": {
-          "fat_atual": 221.8,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 2.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-439": {
-          "fat_atual": 332.7,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 3.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-471": {
-          "fat_atual": 1078.8,
-          "fat_mes_anterior": 1078.8,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 12.0,
-          "qt_mes_anterior": 1.0,
-          "qt_ano_anterior": 0.0
-        }
-      }
-    },
-    {
       "fornecedor": "HENNESSY",
       "estado": "RJ",
       "fat_atual": 30789.0,
@@ -345356,6 +346640,130 @@ const RAIOX_OPORTUNIDADES_DATA = {
           "fat_ano_anterior": 0.0,
           "qt_atual": 48.0,
           "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0
+        }
+      }
+    },
+    {
+      "fornecedor": "INTERFOOD",
+      "estado": "RJ",
+      "fat_atual": 16777.0,
+      "fat_mes_anterior": 12741.6,
+      "fat_ano_anterior": 112.9,
+      "qt_atual": 161.0,
+      "qt_mes_anterior": 86.0,
+      "qt_ano_anterior": 1.0,
+      "queda_fat_mes_valor": -4035.4,
+      "queda_fat_ano_valor": -16664.1,
+      "queda_fat_mes_pct": 31.7,
+      "queda_fat_ano_pct": 14760.1,
+      "queda_qt_mes_valor": -75.0,
+      "queda_qt_ano_valor": -160.0,
+      "queda_qt_mes_pct": 87.2,
+      "queda_qt_ano_pct": 16000.0,
+      "por_vendedor": {
+        "RJ-144": {
+          "fat_atual": 1066.8,
+          "fat_mes_anterior": 1363.5,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 12.0,
+          "qt_mes_anterior": 15.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-155": {
+          "fat_atual": 124.9,
+          "fat_mes_anterior": 2034.9,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 1.0,
+          "qt_mes_anterior": 21.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-156": {
+          "fat_atual": 654.3,
+          "fat_mes_anterior": 3415.8,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 7.0,
+          "qt_mes_anterior": 5.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-158": {
+          "fat_atual": 9061.2,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 108.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-159": {
+          "fat_atual": 239.8,
+          "fat_mes_anterior": 2689.0,
+          "fat_ano_anterior": 112.9,
+          "qt_atual": 2.0,
+          "qt_mes_anterior": 30.0,
+          "qt_ano_anterior": 1.0
+        },
+        "RJ-241": {
+          "fat_atual": 266.7,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 3.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-275": {
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 503.4,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 6.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-379": {
+          "fat_atual": 449.5,
+          "fat_mes_anterior": 179.8,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 5.0,
+          "qt_mes_anterior": 2.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-412": {
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 179.8,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 2.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-419": {
+          "fat_atual": 3280.5,
+          "fat_mes_anterior": 1296.6,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 6.0,
+          "qt_mes_anterior": 4.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-431": {
+          "fat_atual": 221.8,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 2.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-439": {
+          "fat_atual": 332.7,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 3.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-471": {
+          "fat_atual": 1078.8,
+          "fat_mes_anterior": 1078.8,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 12.0,
+          "qt_mes_anterior": 1.0,
           "qt_ano_anterior": 0.0
         }
       }
@@ -345601,106 +347009,6 @@ const RAIOX_OPORTUNIDADES_DATA = {
       }
     },
     {
-      "fornecedor": "ROBINSON CRUSOE",
-      "estado": "RJ",
-      "fat_atual": 53378.94,
-      "fat_mes_anterior": 48237.97,
-      "fat_ano_anterior": 208318.91,
-      "qt_atual": 391.0,
-      "qt_mes_anterior": 260.0,
-      "qt_ano_anterior": 31948.0,
-      "queda_fat_mes_valor": -5140.97,
-      "queda_fat_ano_valor": 154939.97,
-      "queda_fat_mes_pct": 10.7,
-      "queda_fat_ano_pct": -74.4,
-      "queda_qt_mes_valor": -131.0,
-      "queda_qt_ano_valor": 31557.0,
-      "queda_qt_mes_pct": 50.4,
-      "queda_qt_ano_pct": -98.8,
-      "por_vendedor": {
-        "RJ-144": {
-          "fat_atual": 767.04,
-          "fat_mes_anterior": 1150.56,
-          "fat_ano_anterior": 958.8,
-          "qt_atual": 4.0,
-          "qt_mes_anterior": 6.0,
-          "qt_ano_anterior": 120.0
-        },
-        "RJ-153": {
-          "fat_atual": 2617.68,
-          "fat_mes_anterior": 9325.47,
-          "fat_ano_anterior": 2872.8,
-          "qt_atual": 18.0,
-          "qt_mes_anterior": 48.0,
-          "qt_ano_anterior": 720.0
-        },
-        "RJ-158": {
-          "fat_atual": 31828.08,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 203356.79,
-          "qt_atual": 269.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 30912.0
-        },
-        "RJ-275": {
-          "fat_atual": 12055.2,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 60.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-379": {
-          "fat_atual": 2027.7,
-          "fat_mes_anterior": 6826.78,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 12.0,
-          "qt_mes_anterior": 37.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-412": {
-          "fat_atual": 614.84,
-          "fat_mes_anterior": 26795.58,
-          "fat_ano_anterior": 1130.52,
-          "qt_atual": 3.0,
-          "qt_mes_anterior": 145.0,
-          "qt_ano_anterior": 196.0
-        },
-        "RJ-419": {
-          "fat_atual": 389.7,
-          "fat_mes_anterior": 2115.42,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 3.0,
-          "qt_mes_anterior": 14.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-431": {
-          "fat_atual": 2525.02,
-          "fat_mes_anterior": 666.78,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 19.0,
-          "qt_mes_anterior": 4.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-439": {
-          "fat_atual": 553.68,
-          "fat_mes_anterior": 858.38,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 3.0,
-          "qt_mes_anterior": 4.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-450": {
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 499.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 2.0,
-          "qt_ano_anterior": 0.0
-        }
-      }
-    },
-    {
       "fornecedor": "BROWN-FORMAN",
       "estado": "MG",
       "fat_atual": 21330.4,
@@ -345773,146 +347081,6 @@ const RAIOX_OPORTUNIDADES_DATA = {
           "qt_atual": 0.0,
           "qt_mes_anterior": 23.0,
           "qt_ano_anterior": 15.0
-        }
-      }
-    },
-    {
-      "fornecedor": "RED BULL",
-      "estado": "RJ",
-      "fat_atual": 184089.88,
-      "fat_mes_anterior": 178206.69,
-      "fat_ano_anterior": 100796.9,
-      "qt_atual": 1199.0,
-      "qt_mes_anterior": 1236.0,
-      "qt_ano_anterior": 688.0,
-      "queda_fat_mes_valor": -5883.19,
-      "queda_fat_ano_valor": -83292.98,
-      "queda_fat_mes_pct": 3.3,
-      "queda_fat_ano_pct": 82.6,
-      "queda_qt_mes_valor": 37.0,
-      "queda_qt_ano_valor": -511.0,
-      "queda_qt_mes_pct": -3.0,
-      "queda_qt_ano_pct": 74.3,
-      "por_vendedor": {
-        "RJ-91": {
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 898.8,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 5.0
-        },
-        "RJ-144": {
-          "fat_atual": 8416.9,
-          "fat_mes_anterior": 11614.22,
-          "fat_ano_anterior": 55467.04,
-          "qt_atual": 60.0,
-          "qt_mes_anterior": 79.0,
-          "qt_ano_anterior": 359.0
-        },
-        "RJ-153": {
-          "fat_atual": 35703.36,
-          "fat_mes_anterior": 60682.88,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 196.0,
-          "qt_mes_anterior": 333.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-155": {
-          "fat_atual": 48840.8,
-          "fat_mes_anterior": 37052.8,
-          "fat_ano_anterior": 14021.88,
-          "qt_atual": 299.0,
-          "qt_mes_anterior": 230.0,
-          "qt_ano_anterior": 100.0
-        },
-        "RJ-156": {
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 3433.92,
-          "fat_ano_anterior": 963.36,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 20.0,
-          "qt_ano_anterior": 6.0
-        },
-        "RJ-159": {
-          "fat_atual": 13989.84,
-          "fat_mes_anterior": 32643.76,
-          "fat_ano_anterior": 22390.78,
-          "qt_atual": 79.0,
-          "qt_mes_anterior": 234.0,
-          "qt_ano_anterior": 139.0
-        },
-        "RJ-172": {
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 1832.72,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 12.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-241": {
-          "fat_atual": 6381.48,
-          "fat_mes_anterior": 1866.24,
-          "fat_ano_anterior": 1961.16,
-          "qt_atual": 38.0,
-          "qt_mes_anterior": 13.0,
-          "qt_ano_anterior": 18.0
-        },
-        "RJ-378": {
-          "fat_atual": 8529.52,
-          "fat_mes_anterior": 6790.44,
-          "fat_ano_anterior": 2222.56,
-          "qt_atual": 83.0,
-          "qt_mes_anterior": 99.0,
-          "qt_ano_anterior": 37.0
-        },
-        "RJ-379": {
-          "fat_atual": 33777.3,
-          "fat_mes_anterior": 7368.76,
-          "fat_ano_anterior": 89.88,
-          "qt_atual": 204.0,
-          "qt_mes_anterior": 56.0,
-          "qt_ano_anterior": 3.0
-        },
-        "RJ-412": {
-          "fat_atual": 6356.16,
-          "fat_mes_anterior": 786.63,
-          "fat_ano_anterior": 1797.6,
-          "qt_atual": 36.0,
-          "qt_mes_anterior": 4.0,
-          "qt_ano_anterior": 10.0
-        },
-        "RJ-419": {
-          "fat_atual": 4558.56,
-          "fat_mes_anterior": 10380.8,
-          "fat_ano_anterior": 749.28,
-          "qt_atual": 26.0,
-          "qt_mes_anterior": 58.0,
-          "qt_ano_anterior": 8.0
-        },
-        "RJ-431": {
-          "fat_atual": 4405.72,
-          "fat_mes_anterior": 2996.16,
-          "fat_ano_anterior": 54.8,
-          "qt_atual": 94.0,
-          "qt_mes_anterior": 92.0,
-          "qt_ano_anterior": 2.0
-        },
-        "RJ-439": {
-          "fat_atual": 1905.36,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 16.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-471": {
-          "fat_atual": 12605.36,
-          "fat_mes_anterior": 1131.24,
-          "fat_ano_anterior": 179.76,
-          "qt_atual": 81.0,
-          "qt_mes_anterior": 9.0,
-          "qt_ano_anterior": 1.0
         }
       }
     },
@@ -346137,6 +347305,146 @@ const RAIOX_OPORTUNIDADES_DATA = {
       }
     },
     {
+      "fornecedor": "RED BULL",
+      "estado": "RJ",
+      "fat_atual": 186705.88,
+      "fat_mes_anterior": 178206.69,
+      "fat_ano_anterior": 100796.9,
+      "qt_atual": 1234.0,
+      "qt_mes_anterior": 1236.0,
+      "qt_ano_anterior": 688.0,
+      "queda_fat_mes_valor": -8499.19,
+      "queda_fat_ano_valor": -85908.98,
+      "queda_fat_mes_pct": 4.8,
+      "queda_fat_ano_pct": 85.2,
+      "queda_qt_mes_valor": 2.0,
+      "queda_qt_ano_valor": -546.0,
+      "queda_qt_mes_pct": -0.2,
+      "queda_qt_ano_pct": 79.4,
+      "por_vendedor": {
+        "RJ-91": {
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 898.8,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 5.0
+        },
+        "RJ-144": {
+          "fat_atual": 10315.06,
+          "fat_mes_anterior": 11614.22,
+          "fat_ano_anterior": 55467.04,
+          "qt_atual": 71.0,
+          "qt_mes_anterior": 79.0,
+          "qt_ano_anterior": 359.0
+        },
+        "RJ-153": {
+          "fat_atual": 35703.36,
+          "fat_mes_anterior": 60682.88,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 196.0,
+          "qt_mes_anterior": 333.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-155": {
+          "fat_atual": 48869.56,
+          "fat_mes_anterior": 37052.8,
+          "fat_ano_anterior": 14021.88,
+          "qt_atual": 300.0,
+          "qt_mes_anterior": 230.0,
+          "qt_ano_anterior": 100.0
+        },
+        "RJ-156": {
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 3433.92,
+          "fat_ano_anterior": 963.36,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 20.0,
+          "qt_ano_anterior": 6.0
+        },
+        "RJ-159": {
+          "fat_atual": 13989.84,
+          "fat_mes_anterior": 32643.76,
+          "fat_ano_anterior": 22390.78,
+          "qt_atual": 79.0,
+          "qt_mes_anterior": 234.0,
+          "qt_ano_anterior": 139.0
+        },
+        "RJ-172": {
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 1832.72,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 12.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-241": {
+          "fat_atual": 6381.48,
+          "fat_mes_anterior": 1866.24,
+          "fat_ano_anterior": 1961.16,
+          "qt_atual": 38.0,
+          "qt_mes_anterior": 13.0,
+          "qt_ano_anterior": 18.0
+        },
+        "RJ-378": {
+          "fat_atual": 8529.52,
+          "fat_mes_anterior": 6790.44,
+          "fat_ano_anterior": 2222.56,
+          "qt_atual": 83.0,
+          "qt_mes_anterior": 99.0,
+          "qt_ano_anterior": 37.0
+        },
+        "RJ-379": {
+          "fat_atual": 33777.3,
+          "fat_mes_anterior": 7368.76,
+          "fat_ano_anterior": 89.88,
+          "qt_atual": 204.0,
+          "qt_mes_anterior": 56.0,
+          "qt_ano_anterior": 3.0
+        },
+        "RJ-412": {
+          "fat_atual": 6356.16,
+          "fat_mes_anterior": 786.63,
+          "fat_ano_anterior": 1797.6,
+          "qt_atual": 36.0,
+          "qt_mes_anterior": 4.0,
+          "qt_ano_anterior": 10.0
+        },
+        "RJ-419": {
+          "fat_atual": 4558.56,
+          "fat_mes_anterior": 10380.8,
+          "fat_ano_anterior": 749.28,
+          "qt_atual": 26.0,
+          "qt_mes_anterior": 58.0,
+          "qt_ano_anterior": 8.0
+        },
+        "RJ-431": {
+          "fat_atual": 5094.8,
+          "fat_mes_anterior": 2996.16,
+          "fat_ano_anterior": 54.8,
+          "qt_atual": 117.0,
+          "qt_mes_anterior": 92.0,
+          "qt_ano_anterior": 2.0
+        },
+        "RJ-439": {
+          "fat_atual": 1905.36,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 16.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-471": {
+          "fat_atual": 12605.36,
+          "fat_mes_anterior": 1131.24,
+          "fat_ano_anterior": 179.76,
+          "qt_atual": 81.0,
+          "qt_mes_anterior": 9.0,
+          "qt_ano_anterior": 1.0
+        }
+      }
+    },
+    {
       "fornecedor": "DADINHO",
       "estado": "ES",
       "fat_atual": 17198.06,
@@ -346160,6 +347468,106 @@ const RAIOX_OPORTUNIDADES_DATA = {
           "fat_ano_anterior": 0.0,
           "qt_atual": 1870.0,
           "qt_mes_anterior": 800.0,
+          "qt_ano_anterior": 0.0
+        }
+      }
+    },
+    {
+      "fornecedor": "ROBINSON CRUSOE",
+      "estado": "RJ",
+      "fat_atual": 58015.97,
+      "fat_mes_anterior": 48237.97,
+      "fat_ano_anterior": 208318.91,
+      "qt_atual": 414.0,
+      "qt_mes_anterior": 260.0,
+      "qt_ano_anterior": 31948.0,
+      "queda_fat_mes_valor": -9778.0,
+      "queda_fat_ano_valor": 150302.94,
+      "queda_fat_mes_pct": 20.3,
+      "queda_fat_ano_pct": -72.2,
+      "queda_qt_mes_valor": -154.0,
+      "queda_qt_ano_valor": 31534.0,
+      "queda_qt_mes_pct": 59.2,
+      "queda_qt_ano_pct": -98.7,
+      "por_vendedor": {
+        "RJ-144": {
+          "fat_atual": 767.04,
+          "fat_mes_anterior": 1150.56,
+          "fat_ano_anterior": 958.8,
+          "qt_atual": 4.0,
+          "qt_mes_anterior": 6.0,
+          "qt_ano_anterior": 120.0
+        },
+        "RJ-153": {
+          "fat_atual": 2617.68,
+          "fat_mes_anterior": 9325.47,
+          "fat_ano_anterior": 2872.8,
+          "qt_atual": 18.0,
+          "qt_mes_anterior": 48.0,
+          "qt_ano_anterior": 720.0
+        },
+        "RJ-158": {
+          "fat_atual": 31828.08,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 203356.79,
+          "qt_atual": 269.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 30912.0
+        },
+        "RJ-275": {
+          "fat_atual": 12055.2,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 60.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-379": {
+          "fat_atual": 2671.2,
+          "fat_mes_anterior": 6826.78,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 15.0,
+          "qt_mes_anterior": 37.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-412": {
+          "fat_atual": 3761.14,
+          "fat_mes_anterior": 26795.58,
+          "fat_ano_anterior": 1130.52,
+          "qt_atual": 17.0,
+          "qt_mes_anterior": 145.0,
+          "qt_ano_anterior": 196.0
+        },
+        "RJ-419": {
+          "fat_atual": 389.7,
+          "fat_mes_anterior": 2115.42,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 3.0,
+          "qt_mes_anterior": 14.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-431": {
+          "fat_atual": 3372.25,
+          "fat_mes_anterior": 666.78,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 25.0,
+          "qt_mes_anterior": 4.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-439": {
+          "fat_atual": 553.68,
+          "fat_mes_anterior": 858.38,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 3.0,
+          "qt_mes_anterior": 4.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-450": {
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 499.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 2.0,
           "qt_ano_anterior": 0.0
         }
       }
@@ -346639,20 +348047,20 @@ const RAIOX_OPORTUNIDADES_DATA = {
     {
       "fornecedor": "TATUZINHO",
       "estado": "RJ",
-      "fat_atual": 65189.06,
+      "fat_atual": 66324.86,
       "fat_mes_anterior": 43435.11,
       "fat_ano_anterior": 4509.6,
-      "qt_atual": 806.0,
+      "qt_atual": 817.0,
       "qt_mes_anterior": 1027.0,
       "qt_ano_anterior": 115.0,
-      "queda_fat_mes_valor": -21753.95,
-      "queda_fat_ano_valor": -60679.46,
-      "queda_fat_mes_pct": 50.1,
-      "queda_fat_ano_pct": 1345.6,
-      "queda_qt_mes_valor": 221.0,
-      "queda_qt_ano_valor": -691.0,
-      "queda_qt_mes_pct": -21.5,
-      "queda_qt_ano_pct": 600.9,
+      "queda_fat_mes_valor": -22889.75,
+      "queda_fat_ano_valor": -61815.26,
+      "queda_fat_mes_pct": 52.7,
+      "queda_fat_ano_pct": 1370.7,
+      "queda_qt_mes_valor": 210.0,
+      "queda_qt_ano_valor": -702.0,
+      "queda_qt_mes_pct": -20.4,
+      "queda_qt_ano_pct": 610.4,
       "por_vendedor": {
         "RJ-144": {
           "fat_atual": 1335.5,
@@ -346719,18 +348127,18 @@ const RAIOX_OPORTUNIDADES_DATA = {
           "qt_ano_anterior": 0.0
         },
         "RJ-378": {
-          "fat_atual": 456.2,
+          "fat_atual": 835.0,
           "fat_mes_anterior": 3187.1,
           "fat_ano_anterior": 13.9,
-          "qt_atual": 10.0,
+          "qt_atual": 14.0,
           "qt_mes_anterior": 65.0,
           "qt_ano_anterior": 1.0
         },
         "RJ-379": {
-          "fat_atual": 852.8,
+          "fat_atual": 1042.2,
           "fat_mes_anterior": 564.57,
           "fat_ano_anterior": 0.0,
-          "qt_atual": 9.0,
+          "qt_atual": 11.0,
           "qt_mes_anterior": 40.0,
           "qt_ano_anterior": 0.0
         },
@@ -346743,10 +348151,10 @@ const RAIOX_OPORTUNIDADES_DATA = {
           "qt_ano_anterior": 2.0
         },
         "RJ-419": {
-          "fat_atual": 468.8,
+          "fat_atual": 738.7,
           "fat_mes_anterior": 1882.94,
           "fat_ano_anterior": 0.0,
-          "qt_atual": 5.0,
+          "qt_atual": 7.0,
           "qt_mes_anterior": 71.0,
           "qt_ano_anterior": 0.0
         },
@@ -346759,10 +348167,10 @@ const RAIOX_OPORTUNIDADES_DATA = {
           "qt_ano_anterior": 0.0
         },
         "RJ-431": {
-          "fat_atual": 2635.04,
+          "fat_atual": 2740.94,
           "fat_mes_anterior": 1918.66,
           "fat_ano_anterior": 0.0,
-          "qt_atual": 36.0,
+          "qt_atual": 37.0,
           "qt_mes_anterior": 138.0,
           "qt_ano_anterior": 0.0
         },
@@ -346775,10 +348183,10 @@ const RAIOX_OPORTUNIDADES_DATA = {
           "qt_ano_anterior": 0.0
         },
         "RJ-450": {
-          "fat_atual": 0.0,
+          "fat_atual": 191.8,
           "fat_mes_anterior": 1337.28,
           "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
+          "qt_atual": 2.0,
           "qt_mes_anterior": 14.0,
           "qt_ano_anterior": 0.0
         },
@@ -346907,26 +348315,26 @@ const RAIOX_OPORTUNIDADES_DATA = {
     {
       "fornecedor": "DIAGEO",
       "estado": "RJ",
-      "fat_atual": 99516.28,
+      "fat_atual": 101050.08,
       "fat_mes_anterior": 61271.22,
       "fat_ano_anterior": 24725.56,
-      "qt_atual": 1387.0,
+      "qt_atual": 1408.0,
       "qt_mes_anterior": 1142.0,
       "qt_ano_anterior": 338.0,
-      "queda_fat_mes_valor": -38245.06,
-      "queda_fat_ano_valor": -74790.72,
-      "queda_fat_mes_pct": 62.4,
-      "queda_fat_ano_pct": 302.5,
-      "queda_qt_mes_valor": -245.0,
-      "queda_qt_ano_valor": -1049.0,
-      "queda_qt_mes_pct": 21.5,
-      "queda_qt_ano_pct": 310.4,
+      "queda_fat_mes_valor": -39778.86,
+      "queda_fat_ano_valor": -76324.52,
+      "queda_fat_mes_pct": 64.9,
+      "queda_fat_ano_pct": 308.7,
+      "queda_qt_mes_valor": -266.0,
+      "queda_qt_ano_valor": -1070.0,
+      "queda_qt_mes_pct": 23.3,
+      "queda_qt_ano_pct": 316.6,
       "por_vendedor": {
         "RJ-144": {
-          "fat_atual": 43750.5,
+          "fat_atual": 44044.5,
           "fat_mes_anterior": 16092.3,
           "fat_ano_anterior": 5926.3,
-          "qt_atual": 733.0,
+          "qt_atual": 745.0,
           "qt_mes_anterior": 431.0,
           "qt_ano_anterior": 71.0
         },
@@ -346939,18 +348347,18 @@ const RAIOX_OPORTUNIDADES_DATA = {
           "qt_ano_anterior": 2.0
         },
         "RJ-155": {
-          "fat_atual": 20230.3,
+          "fat_atual": 21375.2,
           "fat_mes_anterior": 20319.4,
           "fat_ano_anterior": 3735.0,
-          "qt_atual": 243.0,
+          "qt_atual": 251.0,
           "qt_mes_anterior": 328.0,
           "qt_ano_anterior": 44.0
         },
         "RJ-156": {
-          "fat_atual": 15626.6,
+          "fat_atual": 15721.5,
           "fat_mes_anterior": 3425.83,
           "fat_ano_anterior": 10498.56,
-          "qt_atual": 161.0,
+          "qt_atual": 162.0,
           "qt_mes_anterior": 30.0,
           "qt_ano_anterior": 144.0
         },
@@ -347531,20 +348939,20 @@ const RAIOX_OPORTUNIDADES_DATA = {
     {
       "fornecedor": "DIAGEO",
       "estado": "MG",
-      "fat_atual": 650482.88,
+      "fat_atual": 651035.48,
       "fat_mes_anterior": 64078.8,
       "fat_ano_anterior": 715.9,
-      "qt_atual": 10328.0,
+      "qt_atual": 10342.0,
       "qt_mes_anterior": 850.0,
       "qt_ano_anterior": 11.0,
-      "queda_fat_mes_valor": -586404.08,
-      "queda_fat_ano_valor": -649766.98,
-      "queda_fat_mes_pct": 915.1,
-      "queda_fat_ano_pct": 90762.3,
-      "queda_qt_mes_valor": -9478.0,
-      "queda_qt_ano_valor": -10317.0,
-      "queda_qt_mes_pct": 1115.1,
-      "queda_qt_ano_pct": 93790.9,
+      "queda_fat_mes_valor": -586956.68,
+      "queda_fat_ano_valor": -650319.58,
+      "queda_fat_mes_pct": 916.0,
+      "queda_fat_ano_pct": 90839.4,
+      "queda_qt_mes_valor": -9492.0,
+      "queda_qt_ano_valor": -10331.0,
+      "queda_qt_mes_pct": 1116.7,
+      "queda_qt_ano_pct": 93918.2,
       "por_vendedor": {
         "MG-327": {
           "fat_atual": 10709.08,
@@ -347555,10 +348963,10 @@ const RAIOX_OPORTUNIDADES_DATA = {
           "qt_ano_anterior": 1.0
         },
         "MG-331": {
-          "fat_atual": 2664.7,
+          "fat_atual": 3217.3,
           "fat_mes_anterior": 2794.7,
           "fat_ano_anterior": 0.0,
-          "qt_atual": 73.0,
+          "qt_atual": 87.0,
           "qt_mes_anterior": 65.0,
           "qt_ano_anterior": 0.0
         },
@@ -352363,91 +353771,6 @@ const RAIOX_OPORTUNIDADES_DATA = {
       }
     },
     {
-      "produto": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID",
-      "fornecedor": "KAISER",
-      "estado": "RJ",
-      "fat_atual": 7551.8,
-      "fat_mes_anterior": 25653.0,
-      "fat_ano_anterior": 2321.5,
-      "qt_atual": 116.0,
-      "qt_mes_anterior": 407.0,
-      "qt_ano_anterior": 35.0,
-      "queda_fat_mes_valor": 18101.2,
-      "queda_fat_ano_valor": -5230.3,
-      "queda_fat_mes_pct": -70.6,
-      "queda_fat_ano_pct": 225.3,
-      "queda_qt_mes_valor": 291.0,
-      "queda_qt_ano_valor": -81.0,
-      "queda_qt_mes_pct": -71.5,
-      "queda_qt_ano_pct": 231.4,
-      "por_vendedor": {
-        "RJ-144": {
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 16741.2,
-          "fat_ano_anterior": 1622.5,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 268.0,
-          "qt_ano_anterior": 25.0
-        },
-        "RJ-155": {
-          "fat_atual": 1398.0,
-          "fat_mes_anterior": 1398.0,
-          "fat_ano_anterior": 699.0,
-          "qt_atual": 20.0,
-          "qt_mes_anterior": 20.0,
-          "qt_ano_anterior": 10.0
-        },
-        "RJ-159": {
-          "fat_atual": 973.5,
-          "fat_mes_anterior": 3958.9,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 15.0,
-          "qt_mes_anterior": 61.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-378": {
-          "fat_atual": 1130.5,
-          "fat_mes_anterior": 1071.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 17.0,
-          "qt_mes_anterior": 17.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-379": {
-          "fat_atual": 708.3,
-          "fat_mes_anterior": 3841.8,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 11.0,
-          "qt_mes_anterior": 62.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-412": {
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 69.9,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 1.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-419": {
-          "fat_atual": 1597.5,
-          "fat_mes_anterior": 194.7,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 25.0,
-          "qt_mes_anterior": 3.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-471": {
-          "fat_atual": 1744.0,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 28.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0
-        }
-      }
-    },
-    {
       "produto": "WHISKY CHANCELER 1L",
       "fornecedor": "CRS BRANDS",
       "estado": "SP",
@@ -352985,6 +354308,91 @@ const RAIOX_OPORTUNIDADES_DATA = {
           "fat_ano_anterior": 0.0,
           "qt_atual": 0.0,
           "qt_mes_anterior": 60.0,
+          "qt_ano_anterior": 0.0
+        }
+      }
+    },
+    {
+      "produto": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID",
+      "fornecedor": "KAISER",
+      "estado": "RJ",
+      "fat_atual": 10006.1,
+      "fat_mes_anterior": 25653.0,
+      "fat_ano_anterior": 2321.5,
+      "qt_atual": 153.0,
+      "qt_mes_anterior": 407.0,
+      "qt_ano_anterior": 35.0,
+      "queda_fat_mes_valor": 15646.9,
+      "queda_fat_ano_valor": -7684.6,
+      "queda_fat_mes_pct": -61.0,
+      "queda_fat_ano_pct": 331.0,
+      "queda_qt_mes_valor": 254.0,
+      "queda_qt_ano_valor": -118.0,
+      "queda_qt_mes_pct": -62.4,
+      "queda_qt_ano_pct": 337.1,
+      "por_vendedor": {
+        "RJ-144": {
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 16741.2,
+          "fat_ano_anterior": 1622.5,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 268.0,
+          "qt_ano_anterior": 25.0
+        },
+        "RJ-155": {
+          "fat_atual": 2446.5,
+          "fat_mes_anterior": 1398.0,
+          "fat_ano_anterior": 699.0,
+          "qt_atual": 35.0,
+          "qt_mes_anterior": 20.0,
+          "qt_ano_anterior": 10.0
+        },
+        "RJ-159": {
+          "fat_atual": 973.5,
+          "fat_mes_anterior": 3958.9,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 15.0,
+          "qt_mes_anterior": 61.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-378": {
+          "fat_atual": 1130.5,
+          "fat_mes_anterior": 1071.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 17.0,
+          "qt_mes_anterior": 17.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-379": {
+          "fat_atual": 2114.1,
+          "fat_mes_anterior": 3841.8,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 33.0,
+          "qt_mes_anterior": 62.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-412": {
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 69.9,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 1.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-419": {
+          "fat_atual": 1597.5,
+          "fat_mes_anterior": 194.7,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 25.0,
+          "qt_mes_anterior": 3.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-471": {
+          "fat_atual": 1744.0,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 28.0,
+          "qt_mes_anterior": 0.0,
           "qt_ano_anterior": 0.0
         }
       }
@@ -355354,19 +356762,19 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "produto": "CERVEJA HEINEKEN LONG 24X330ML",
       "fornecedor": "KAISER",
       "estado": "RJ",
-      "fat_atual": 5601.3,
+      "fat_atual": 5857.1,
       "fat_mes_anterior": 13112.23,
       "fat_ano_anterior": 0.0,
-      "qt_atual": 43.0,
+      "qt_atual": 45.0,
       "qt_mes_anterior": 101.0,
       "qt_ano_anterior": 0.0,
-      "queda_fat_mes_valor": 7510.93,
-      "queda_fat_ano_valor": -5601.3,
-      "queda_fat_mes_pct": -57.3,
+      "queda_fat_mes_valor": 7255.13,
+      "queda_fat_ano_valor": -5857.1,
+      "queda_fat_mes_pct": -55.3,
       "queda_fat_ano_pct": null,
-      "queda_qt_mes_valor": 58.0,
-      "queda_qt_ano_valor": -43.0,
-      "queda_qt_mes_pct": -57.4,
+      "queda_qt_mes_valor": 56.0,
+      "queda_qt_ano_valor": -45.0,
+      "queda_qt_mes_pct": -55.4,
       "queda_qt_ano_pct": null,
       "por_vendedor": {
         "RJ-144": {
@@ -355402,10 +356810,10 @@ const RAIOX_OPORTUNIDADES_DATA = {
           "qt_ano_anterior": 0.0
         },
         "RJ-379": {
-          "fat_atual": 3469.7,
+          "fat_atual": 3725.5,
           "fat_mes_anterior": 1534.8,
           "fat_ano_anterior": 0.0,
-          "qt_atual": 27.0,
+          "qt_atual": 29.0,
           "qt_mes_anterior": 12.0,
           "qt_ano_anterior": 0.0
         },
@@ -355468,26 +356876,26 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "produto": "WHISKY JIM BEAM APPLE 1L",
       "fornecedor": "BEAM SUNTORY",
       "estado": "RJ",
-      "fat_atual": 2708.4,
+      "fat_atual": 2779.3,
       "fat_mes_anterior": 9734.9,
       "fat_ano_anterior": 184.0,
-      "qt_atual": 30.0,
+      "qt_atual": 31.0,
       "qt_mes_anterior": 113.0,
       "qt_ano_anterior": 2.0,
-      "queda_fat_mes_valor": 7026.5,
-      "queda_fat_ano_valor": -2524.4,
-      "queda_fat_mes_pct": -72.2,
-      "queda_fat_ano_pct": 1372.0,
-      "queda_qt_mes_valor": 83.0,
-      "queda_qt_ano_valor": -28.0,
-      "queda_qt_mes_pct": -73.5,
-      "queda_qt_ano_pct": 1400.0,
+      "queda_fat_mes_valor": 6955.6,
+      "queda_fat_ano_valor": -2595.3,
+      "queda_fat_mes_pct": -71.5,
+      "queda_fat_ano_pct": 1410.5,
+      "queda_qt_mes_valor": 82.0,
+      "queda_qt_ano_valor": -29.0,
+      "queda_qt_mes_pct": -72.6,
+      "queda_qt_ano_pct": 1450.0,
       "por_vendedor": {
         "RJ-153": {
-          "fat_atual": 239.7,
+          "fat_atual": 310.6,
           "fat_mes_anterior": 1701.6,
           "fat_ano_anterior": 184.0,
-          "qt_atual": 3.0,
+          "qt_atual": 4.0,
           "qt_mes_anterior": 24.0,
           "qt_ano_anterior": 2.0
         },
@@ -356179,59 +357587,6 @@ const RAIOX_OPORTUNIDADES_DATA = {
       }
     },
     {
-      "produto": "CERVEJA HEINEKEN LONG 24X330ML",
-      "fornecedor": "HEINEKEN",
-      "estado": "MG",
-      "fat_atual": 15454.08,
-      "fat_mes_anterior": 21379.84,
-      "fat_ano_anterior": 8481.6,
-      "qt_atual": 108.0,
-      "qt_mes_anterior": 149.0,
-      "qt_ano_anterior": 60.0,
-      "queda_fat_mes_valor": 5925.76,
-      "queda_fat_ano_valor": -6972.48,
-      "queda_fat_mes_pct": -27.7,
-      "queda_fat_ano_pct": 82.2,
-      "queda_qt_mes_valor": 41.0,
-      "queda_qt_ano_valor": -48.0,
-      "queda_qt_mes_pct": -27.5,
-      "queda_qt_ano_pct": 80.0,
-      "por_vendedor": {
-        "MG-327": {
-          "fat_atual": 11498.4,
-          "fat_mes_anterior": 15054.8,
-          "fat_ano_anterior": 7916.16,
-          "qt_atual": 80.0,
-          "qt_mes_anterior": 105.0,
-          "qt_ano_anterior": 56.0
-        },
-        "MG-331": {
-          "fat_atual": 1413.6,
-          "fat_mes_anterior": 3594.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 10.0,
-          "qt_mes_anterior": 25.0,
-          "qt_ano_anterior": 0.0
-        },
-        "MG-344": {
-          "fat_atual": 1847.28,
-          "fat_mes_anterior": 574.64,
-          "fat_ano_anterior": 565.44,
-          "qt_atual": 13.0,
-          "qt_mes_anterior": 4.0,
-          "qt_ano_anterior": 4.0
-        },
-        "MG-354": {
-          "fat_atual": 694.8,
-          "fat_mes_anterior": 2156.4,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 5.0,
-          "qt_mes_anterior": 15.0,
-          "qt_ano_anterior": 0.0
-        }
-      }
-    },
-    {
       "produto": "LICOR IT VILLA MASSA LIMONCELLO",
       "fornecedor": "AURORA",
       "estado": "SP",
@@ -356317,6 +357672,59 @@ const RAIOX_OPORTUNIDADES_DATA = {
           "fat_ano_anterior": 0.0,
           "qt_atual": 0.0,
           "qt_mes_anterior": 11.0,
+          "qt_ano_anterior": 0.0
+        }
+      }
+    },
+    {
+      "produto": "CERVEJA HEINEKEN LONG 24X330ML",
+      "fornecedor": "HEINEKEN",
+      "estado": "MG",
+      "fat_atual": 16172.88,
+      "fat_mes_anterior": 21379.84,
+      "fat_ano_anterior": 8481.6,
+      "qt_atual": 113.0,
+      "qt_mes_anterior": 149.0,
+      "qt_ano_anterior": 60.0,
+      "queda_fat_mes_valor": 5206.96,
+      "queda_fat_ano_valor": -7691.28,
+      "queda_fat_mes_pct": -24.4,
+      "queda_fat_ano_pct": 90.7,
+      "queda_qt_mes_valor": 36.0,
+      "queda_qt_ano_valor": -53.0,
+      "queda_qt_mes_pct": -24.2,
+      "queda_qt_ano_pct": 88.3,
+      "por_vendedor": {
+        "MG-327": {
+          "fat_atual": 12217.2,
+          "fat_mes_anterior": 15054.8,
+          "fat_ano_anterior": 7916.16,
+          "qt_atual": 85.0,
+          "qt_mes_anterior": 105.0,
+          "qt_ano_anterior": 56.0
+        },
+        "MG-331": {
+          "fat_atual": 1413.6,
+          "fat_mes_anterior": 3594.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 10.0,
+          "qt_mes_anterior": 25.0,
+          "qt_ano_anterior": 0.0
+        },
+        "MG-344": {
+          "fat_atual": 1847.28,
+          "fat_mes_anterior": 574.64,
+          "fat_ano_anterior": 565.44,
+          "qt_atual": 13.0,
+          "qt_mes_anterior": 4.0,
+          "qt_ano_anterior": 4.0
+        },
+        "MG-354": {
+          "fat_atual": 694.8,
+          "fat_mes_anterior": 2156.4,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 5.0,
+          "qt_mes_anterior": 15.0,
           "qt_ano_anterior": 0.0
         }
       }
@@ -356492,75 +357900,6 @@ const RAIOX_OPORTUNIDADES_DATA = {
           "fat_ano_anterior": 0.0,
           "qt_atual": 6.0,
           "qt_mes_anterior": 4.0,
-          "qt_ano_anterior": 0.0
-        }
-      }
-    },
-    {
-      "produto": "RC SARDINHA EM OLEO 50X125G",
-      "fornecedor": "ROBINSON CRUSOE",
-      "estado": "RJ",
-      "fat_atual": 9712.9,
-      "fat_mes_anterior": 14423.0,
-      "fat_ano_anterior": 0.0,
-      "qt_atual": 48.0,
-      "qt_mes_anterior": 67.0,
-      "qt_ano_anterior": 0.0,
-      "queda_fat_mes_valor": 4710.1,
-      "queda_fat_ano_valor": -9712.9,
-      "queda_fat_mes_pct": -32.7,
-      "queda_fat_ano_pct": null,
-      "queda_qt_mes_valor": 19.0,
-      "queda_qt_ano_valor": -48.0,
-      "queda_qt_mes_pct": -28.4,
-      "queda_qt_ano_pct": null,
-      "por_vendedor": {
-        "RJ-153": {
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 5985.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 30.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-275": {
-          "fat_atual": 9041.4,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 45.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-379": {
-          "fat_atual": 429.0,
-          "fat_mes_anterior": 3466.5,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 2.0,
-          "qt_mes_anterior": 17.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-412": {
-          "fat_atual": 242.5,
-          "fat_mes_anterior": 3993.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 1.0,
-          "qt_mes_anterior": 16.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-419": {
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 729.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 3.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-450": {
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 249.5,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 1.0,
           "qt_ano_anterior": 0.0
         }
       }
@@ -357614,6 +358953,75 @@ const RAIOX_OPORTUNIDADES_DATA = {
       }
     },
     {
+      "produto": "RC SARDINHA EM OLEO 50X125G",
+      "fornecedor": "ROBINSON CRUSOE",
+      "estado": "RJ",
+      "fat_atual": 10411.4,
+      "fat_mes_anterior": 14423.0,
+      "fat_ano_anterior": 0.0,
+      "qt_atual": 51.0,
+      "qt_mes_anterior": 67.0,
+      "qt_ano_anterior": 0.0,
+      "queda_fat_mes_valor": 4011.6,
+      "queda_fat_ano_valor": -10411.4,
+      "queda_fat_mes_pct": -27.8,
+      "queda_fat_ano_pct": null,
+      "queda_qt_mes_valor": 16.0,
+      "queda_qt_ano_valor": -51.0,
+      "queda_qt_mes_pct": -23.9,
+      "queda_qt_ano_pct": null,
+      "por_vendedor": {
+        "RJ-153": {
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 5985.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 30.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-275": {
+          "fat_atual": 9041.4,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 45.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-379": {
+          "fat_atual": 643.5,
+          "fat_mes_anterior": 3466.5,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 3.0,
+          "qt_mes_anterior": 17.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-412": {
+          "fat_atual": 726.5,
+          "fat_mes_anterior": 3993.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 3.0,
+          "qt_mes_anterior": 16.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-419": {
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 729.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 3.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-450": {
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 249.5,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 1.0,
+          "qt_ano_anterior": 0.0
+        }
+      }
+    },
+    {
       "produto": "AMARULA C LIQUEUR 750 ML",
       "fornecedor": "INTERFOOD",
       "estado": "SP",
@@ -357959,107 +359367,6 @@ const RAIOX_OPORTUNIDADES_DATA = {
       }
     },
     {
-      "produto": "RED BULL MELANCIA 250ML CX C/24",
-      "fornecedor": "RED BULL",
-      "estado": "RJ",
-      "fat_atual": 17716.68,
-      "fat_mes_anterior": 21436.18,
-      "fat_ano_anterior": 11368.26,
-      "qt_atual": 100.0,
-      "qt_mes_anterior": 120.0,
-      "qt_ano_anterior": 72.0,
-      "queda_fat_mes_valor": 3719.5,
-      "queda_fat_ano_valor": -6348.42,
-      "queda_fat_mes_pct": -17.4,
-      "queda_fat_ano_pct": 55.8,
-      "queda_qt_mes_valor": 20.0,
-      "queda_qt_ano_valor": -28.0,
-      "queda_qt_mes_pct": -16.7,
-      "queda_qt_ano_pct": 38.9,
-      "por_vendedor": {
-        "RJ-144": {
-          "fat_atual": 698.26,
-          "fat_mes_anterior": 1214.5,
-          "fat_ano_anterior": 8007.86,
-          "qt_atual": 4.0,
-          "qt_mes_anterior": 7.0,
-          "qt_ano_anterior": 52.0
-        },
-        "RJ-153": {
-          "fat_atual": 4736.16,
-          "fat_mes_anterior": 5836.32,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 26.0,
-          "qt_mes_anterior": 32.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-155": {
-          "fat_atual": 5322.06,
-          "fat_mes_anterior": 8398.32,
-          "fat_ano_anterior": 1972.72,
-          "qt_atual": 30.0,
-          "qt_mes_anterior": 47.0,
-          "qt_ano_anterior": 12.0
-        },
-        "RJ-159": {
-          "fat_atual": 1574.64,
-          "fat_mes_anterior": 2274.48,
-          "fat_ano_anterior": 1207.92,
-          "qt_atual": 9.0,
-          "qt_mes_anterior": 13.0,
-          "qt_ano_anterior": 7.0
-        },
-        "RJ-172": {
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 532.08,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 3.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-378": {
-          "fat_atual": 532.08,
-          "fat_mes_anterior": 359.52,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 3.0,
-          "qt_mes_anterior": 2.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-379": {
-          "fat_atual": 2610.2,
-          "fat_mes_anterior": 1749.6,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 15.0,
-          "qt_mes_anterior": 10.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-412": {
-          "fat_atual": 345.12,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 179.76,
-          "qt_atual": 2.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 1.0
-        },
-        "RJ-419": {
-          "fat_atual": 172.56,
-          "fat_mes_anterior": 1071.36,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 1.0,
-          "qt_mes_anterior": 6.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-471": {
-          "fat_atual": 1725.6,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 10.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0
-        }
-      }
-    },
-    {
       "produto": "VODKA SMIRNOFF RED PET 1750ML",
       "fornecedor": "DIAGEO",
       "estado": "SP",
@@ -358121,59 +359428,6 @@ const RAIOX_OPORTUNIDADES_DATA = {
           "fat_ano_anterior": 0.0,
           "qt_atual": 0.0,
           "qt_mes_anterior": 12.0,
-          "qt_ano_anterior": 0.0
-        }
-      }
-    },
-    {
-      "produto": "RC SALADA DE ATUM - MEDITERRANEA 12X160G",
-      "fornecedor": "ROBINSON CRUSOE",
-      "estado": "RJ",
-      "fat_atual": 99.9,
-      "fat_mes_anterior": 3728.99,
-      "fat_ano_anterior": 0.0,
-      "qt_atual": 1.0,
-      "qt_mes_anterior": 31.0,
-      "qt_ano_anterior": 0.0,
-      "queda_fat_mes_valor": 3629.09,
-      "queda_fat_ano_valor": -99.9,
-      "queda_fat_mes_pct": -97.3,
-      "queda_fat_ano_pct": null,
-      "queda_qt_mes_valor": 30.0,
-      "queda_qt_ano_valor": -1.0,
-      "queda_qt_mes_pct": -96.8,
-      "queda_qt_ano_pct": null,
-      "por_vendedor": {
-        "RJ-153": {
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 371.19,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 3.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-412": {
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 2278.1,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 19.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-419": {
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 1079.7,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 9.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-431": {
-          "fat_atual": 99.9,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 1.0,
-          "qt_mes_anterior": 0.0,
           "qt_ano_anterior": 0.0
         }
       }
@@ -358662,6 +359916,160 @@ const RAIOX_OPORTUNIDADES_DATA = {
       }
     },
     {
+      "produto": "RC SALADA DE ATUM - MEDITERRANEA 12X160G",
+      "fornecedor": "ROBINSON CRUSOE",
+      "estado": "RJ",
+      "fat_atual": 319.7,
+      "fat_mes_anterior": 3728.99,
+      "fat_ano_anterior": 0.0,
+      "qt_atual": 3.0,
+      "qt_mes_anterior": 31.0,
+      "qt_ano_anterior": 0.0,
+      "queda_fat_mes_valor": 3409.29,
+      "queda_fat_ano_valor": -319.7,
+      "queda_fat_mes_pct": -91.4,
+      "queda_fat_ano_pct": null,
+      "queda_qt_mes_valor": 28.0,
+      "queda_qt_ano_valor": -3.0,
+      "queda_qt_mes_pct": -90.3,
+      "queda_qt_ano_pct": null,
+      "por_vendedor": {
+        "RJ-153": {
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 371.19,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 3.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-412": {
+          "fat_atual": 119.9,
+          "fat_mes_anterior": 2278.1,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 1.0,
+          "qt_mes_anterior": 19.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-419": {
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 1079.7,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 9.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-431": {
+          "fat_atual": 199.8,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 2.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0
+        }
+      }
+    },
+    {
+      "produto": "RED BULL MELANCIA 250ML CX C/24",
+      "fornecedor": "RED BULL",
+      "estado": "RJ",
+      "fat_atual": 18234.36,
+      "fat_mes_anterior": 21436.18,
+      "fat_ano_anterior": 11368.26,
+      "qt_atual": 103.0,
+      "qt_mes_anterior": 120.0,
+      "qt_ano_anterior": 72.0,
+      "queda_fat_mes_valor": 3201.82,
+      "queda_fat_ano_valor": -6866.1,
+      "queda_fat_mes_pct": -14.9,
+      "queda_fat_ano_pct": 60.4,
+      "queda_qt_mes_valor": 17.0,
+      "queda_qt_ano_valor": -31.0,
+      "queda_qt_mes_pct": -14.2,
+      "queda_qt_ano_pct": 43.1,
+      "por_vendedor": {
+        "RJ-144": {
+          "fat_atual": 1215.94,
+          "fat_mes_anterior": 1214.5,
+          "fat_ano_anterior": 8007.86,
+          "qt_atual": 7.0,
+          "qt_mes_anterior": 7.0,
+          "qt_ano_anterior": 52.0
+        },
+        "RJ-153": {
+          "fat_atual": 4736.16,
+          "fat_mes_anterior": 5836.32,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 26.0,
+          "qt_mes_anterior": 32.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-155": {
+          "fat_atual": 5322.06,
+          "fat_mes_anterior": 8398.32,
+          "fat_ano_anterior": 1972.72,
+          "qt_atual": 30.0,
+          "qt_mes_anterior": 47.0,
+          "qt_ano_anterior": 12.0
+        },
+        "RJ-159": {
+          "fat_atual": 1574.64,
+          "fat_mes_anterior": 2274.48,
+          "fat_ano_anterior": 1207.92,
+          "qt_atual": 9.0,
+          "qt_mes_anterior": 13.0,
+          "qt_ano_anterior": 7.0
+        },
+        "RJ-172": {
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 532.08,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 3.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-378": {
+          "fat_atual": 532.08,
+          "fat_mes_anterior": 359.52,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 3.0,
+          "qt_mes_anterior": 2.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-379": {
+          "fat_atual": 2610.2,
+          "fat_mes_anterior": 1749.6,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 15.0,
+          "qt_mes_anterior": 10.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-412": {
+          "fat_atual": 345.12,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 179.76,
+          "qt_atual": 2.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 1.0
+        },
+        "RJ-419": {
+          "fat_atual": 172.56,
+          "fat_mes_anterior": 1071.36,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 1.0,
+          "qt_mes_anterior": 6.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-471": {
+          "fat_atual": 1725.6,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 10.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0
+        }
+      }
+    },
+    {
       "produto": "KRUG GRAND CUVEE 750 ML",
       "fornecedor": "MOET HENNESY",
       "estado": "SP",
@@ -358686,123 +360094,6 @@ const RAIOX_OPORTUNIDADES_DATA = {
           "fat_ano_anterior": 0.0,
           "qt_atual": 0.0,
           "qt_mes_anterior": 2.0,
-          "qt_ano_anterior": 0.0
-        }
-      }
-    },
-    {
-      "produto": "VODCA SMIRNOFF RED 998 ML",
-      "fornecedor": "DIAGEO",
-      "estado": "RJ",
-      "fat_atual": 13288.2,
-      "fat_mes_anterior": 16402.3,
-      "fat_ano_anterior": 4189.92,
-      "qt_atual": 526.0,
-      "qt_mes_anterior": 625.0,
-      "qt_ano_anterior": 140.0,
-      "queda_fat_mes_valor": 3114.1,
-      "queda_fat_ano_valor": -9098.28,
-      "queda_fat_mes_pct": -19.0,
-      "queda_fat_ano_pct": 217.1,
-      "queda_qt_mes_valor": 99.0,
-      "queda_qt_ano_valor": -386.0,
-      "queda_qt_mes_pct": -15.8,
-      "queda_qt_ano_pct": 275.7,
-      "por_vendedor": {
-        "RJ-144": {
-          "fat_atual": 8158.5,
-          "fat_mes_anterior": 8792.7,
-          "fat_ano_anterior": 826.2,
-          "qt_atual": 333.0,
-          "qt_mes_anterior": 357.0,
-          "qt_ano_anterior": 27.0
-        },
-        "RJ-155": {
-          "fat_atual": 1850.4,
-          "fat_mes_anterior": 3905.7,
-          "fat_ano_anterior": 370.8,
-          "qt_atual": 72.0,
-          "qt_mes_anterior": 135.0,
-          "qt_ano_anterior": 12.0
-        },
-        "RJ-156": {
-          "fat_atual": 1397.1,
-          "fat_mes_anterior": 83.7,
-          "fat_ano_anterior": 1357.92,
-          "qt_atual": 53.0,
-          "qt_mes_anterior": 3.0,
-          "qt_ano_anterior": 48.0
-        },
-        "RJ-159": {
-          "fat_atual": 334.8,
-          "fat_mes_anterior": 2811.1,
-          "fat_ano_anterior": 1426.2,
-          "qt_atual": 12.0,
-          "qt_mes_anterior": 101.0,
-          "qt_ano_anterior": 46.0
-        },
-        "RJ-174": {
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 63.8,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 2.0
-        },
-        "RJ-378": {
-          "fat_atual": 279.0,
-          "fat_mes_anterior": 83.7,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 10.0,
-          "qt_mes_anterior": 3.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-379": {
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 63.8,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 2.0
-        },
-        "RJ-412": {
-          "fat_atual": 273.9,
-          "fat_mes_anterior": 55.8,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 11.0,
-          "qt_mes_anterior": 2.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-419": {
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 145.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 5.0
-        },
-        "RJ-431": {
-          "fat_atual": 492.3,
-          "fat_mes_anterior": 334.8,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 17.0,
-          "qt_mes_anterior": 12.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-439": {
-          "fat_atual": 167.4,
-          "fat_mes_anterior": 167.4,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 6.0,
-          "qt_mes_anterior": 6.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-471": {
-          "fat_atual": 334.8,
-          "fat_mes_anterior": 167.4,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 12.0,
-          "qt_mes_anterior": 6.0,
           "qt_ano_anterior": 0.0
         }
       }
@@ -359536,6 +360827,123 @@ const RAIOX_OPORTUNIDADES_DATA = {
           "fat_ano_anterior": 0.0,
           "qt_atual": 0.0,
           "qt_mes_anterior": 3.0,
+          "qt_ano_anterior": 0.0
+        }
+      }
+    },
+    {
+      "produto": "VODCA SMIRNOFF RED 998 ML",
+      "fornecedor": "DIAGEO",
+      "estado": "RJ",
+      "fat_atual": 13582.2,
+      "fat_mes_anterior": 16402.3,
+      "fat_ano_anterior": 4189.92,
+      "qt_atual": 538.0,
+      "qt_mes_anterior": 625.0,
+      "qt_ano_anterior": 140.0,
+      "queda_fat_mes_valor": 2820.1,
+      "queda_fat_ano_valor": -9392.28,
+      "queda_fat_mes_pct": -17.2,
+      "queda_fat_ano_pct": 224.2,
+      "queda_qt_mes_valor": 87.0,
+      "queda_qt_ano_valor": -398.0,
+      "queda_qt_mes_pct": -13.9,
+      "queda_qt_ano_pct": 284.3,
+      "por_vendedor": {
+        "RJ-144": {
+          "fat_atual": 8452.5,
+          "fat_mes_anterior": 8792.7,
+          "fat_ano_anterior": 826.2,
+          "qt_atual": 345.0,
+          "qt_mes_anterior": 357.0,
+          "qt_ano_anterior": 27.0
+        },
+        "RJ-155": {
+          "fat_atual": 1850.4,
+          "fat_mes_anterior": 3905.7,
+          "fat_ano_anterior": 370.8,
+          "qt_atual": 72.0,
+          "qt_mes_anterior": 135.0,
+          "qt_ano_anterior": 12.0
+        },
+        "RJ-156": {
+          "fat_atual": 1397.1,
+          "fat_mes_anterior": 83.7,
+          "fat_ano_anterior": 1357.92,
+          "qt_atual": 53.0,
+          "qt_mes_anterior": 3.0,
+          "qt_ano_anterior": 48.0
+        },
+        "RJ-159": {
+          "fat_atual": 334.8,
+          "fat_mes_anterior": 2811.1,
+          "fat_ano_anterior": 1426.2,
+          "qt_atual": 12.0,
+          "qt_mes_anterior": 101.0,
+          "qt_ano_anterior": 46.0
+        },
+        "RJ-174": {
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 63.8,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 2.0
+        },
+        "RJ-378": {
+          "fat_atual": 279.0,
+          "fat_mes_anterior": 83.7,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 10.0,
+          "qt_mes_anterior": 3.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-379": {
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 63.8,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 2.0
+        },
+        "RJ-412": {
+          "fat_atual": 273.9,
+          "fat_mes_anterior": 55.8,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 11.0,
+          "qt_mes_anterior": 2.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-419": {
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 145.0,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 5.0
+        },
+        "RJ-431": {
+          "fat_atual": 492.3,
+          "fat_mes_anterior": 334.8,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 17.0,
+          "qt_mes_anterior": 12.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-439": {
+          "fat_atual": 167.4,
+          "fat_mes_anterior": 167.4,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 6.0,
+          "qt_mes_anterior": 6.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-471": {
+          "fat_atual": 334.8,
+          "fat_mes_anterior": 167.4,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 12.0,
+          "qt_mes_anterior": 6.0,
           "qt_ano_anterior": 0.0
         }
       }
@@ -360316,115 +361724,6 @@ const RAIOX_OPORTUNIDADES_DATA = {
       }
     },
     {
-      "produto": "GIN ROCKS STRAWBERRY 1000ML",
-      "fornecedor": "FANTE",
-      "estado": "RJ",
-      "fat_atual": 1923.5,
-      "fat_mes_anterior": 4550.0,
-      "fat_ano_anterior": 0.0,
-      "qt_atual": 84.0,
-      "qt_mes_anterior": 202.0,
-      "qt_ano_anterior": 0.0,
-      "queda_fat_mes_valor": 2626.5,
-      "queda_fat_ano_valor": -1923.5,
-      "queda_fat_mes_pct": -57.7,
-      "queda_fat_ano_pct": null,
-      "queda_qt_mes_valor": 118.0,
-      "queda_qt_ano_valor": -84.0,
-      "queda_qt_mes_pct": -58.4,
-      "queda_qt_ano_pct": null,
-      "por_vendedor": {
-        "RJ-144": {
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 67.5,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 3.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-153": {
-          "fat_atual": 1323.0,
-          "fat_mes_anterior": 1455.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 60.0,
-          "qt_mes_anterior": 66.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-155": {
-          "fat_atual": 310.8,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 12.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-156": {
-          "fat_atual": 29.2,
-          "fat_mes_anterior": 49.8,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 1.0,
-          "qt_mes_anterior": 2.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-158": {
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 270.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 12.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-379": {
-          "fat_atual": 260.5,
-          "fat_mes_anterior": 191.2,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 11.0,
-          "qt_mes_anterior": 8.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-419": {
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 137.4,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 6.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-431": {
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 219.1,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 9.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-439": {
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 270.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 12.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-450": {
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 1350.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 60.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-471": {
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 540.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 24.0,
-          "qt_ano_anterior": 0.0
-        }
-      }
-    },
-    {
       "produto": "GIN TANQUERAY FLOR DE SEVILLA  700 ML",
       "fornecedor": "DIAGEO",
       "estado": "RJ",
@@ -360542,168 +361841,6 @@ const RAIOX_OPORTUNIDADES_DATA = {
           "fat_ano_anterior": 0.0,
           "qt_atual": 0.0,
           "qt_mes_anterior": 5.0,
-          "qt_ano_anterior": 0.0
-        }
-      }
-    },
-    {
-      "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
-      "fornecedor": "ROBINSON CRUSOE",
-      "estado": "RJ",
-      "fat_atual": 3685.3,
-      "fat_mes_anterior": 6260.5,
-      "fat_ano_anterior": 0.0,
-      "qt_atual": 18.0,
-      "qt_mes_anterior": 29.0,
-      "qt_ano_anterior": 0.0,
-      "queda_fat_mes_valor": 2575.2,
-      "queda_fat_ano_valor": -3685.3,
-      "queda_fat_mes_pct": -41.1,
-      "queda_fat_ano_pct": null,
-      "queda_qt_mes_valor": 11.0,
-      "queda_qt_ano_valor": -18.0,
-      "queda_qt_mes_pct": -37.9,
-      "queda_qt_ano_pct": null,
-      "por_vendedor": {
-        "RJ-153": {
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 2394.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 12.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-275": {
-          "fat_atual": 3013.8,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 15.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-379": {
-          "fat_atual": 429.0,
-          "fat_mes_anterior": 1621.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 2.0,
-          "qt_mes_anterior": 8.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-412": {
-          "fat_atual": 242.5,
-          "fat_mes_anterior": 1746.5,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 1.0,
-          "qt_mes_anterior": 7.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-439": {
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 249.5,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 1.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-450": {
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 249.5,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 1.0,
-          "qt_ano_anterior": 0.0
-        }
-      }
-    },
-    {
-      "produto": "SUCO DE UVA TTO INT QUINTA DO MORGADO 1L",
-      "fornecedor": "FANTE",
-      "estado": "RJ",
-      "fat_atual": 2843.48,
-      "fat_mes_anterior": 5414.64,
-      "fat_ano_anterior": 0.0,
-      "qt_atual": 232.0,
-      "qt_mes_anterior": 449.0,
-      "qt_ano_anterior": 0.0,
-      "queda_fat_mes_valor": 2571.16,
-      "queda_fat_ano_valor": -2843.48,
-      "queda_fat_mes_pct": -47.5,
-      "queda_fat_ano_pct": null,
-      "queda_qt_mes_valor": 217.0,
-      "queda_qt_ano_valor": -232.0,
-      "queda_qt_mes_pct": -48.3,
-      "queda_qt_ano_pct": null,
-      "por_vendedor": {
-        "RJ-144": {
-          "fat_atual": 214.8,
-          "fat_mes_anterior": 140.4,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 12.0,
-          "qt_mes_anterior": 12.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-153": {
-          "fat_atual": 2472.8,
-          "fat_mes_anterior": 3096.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 208.0,
-          "qt_mes_anterior": 264.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-156": {
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 83.94,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 6.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-378": {
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 392.6,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 30.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-379": {
-          "fat_atual": 155.88,
-          "fat_mes_anterior": 12.9,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 12.0,
-          "qt_mes_anterior": 1.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-412": {
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 139.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 10.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-431": {
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 500.4,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 36.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-450": {
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 966.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 84.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-471": {
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 83.4,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 6.0,
           "qt_ano_anterior": 0.0
         }
       }
@@ -361043,6 +362180,99 @@ const RAIOX_OPORTUNIDADES_DATA = {
           "fat_ano_anterior": 0.0,
           "qt_atual": 0.0,
           "qt_mes_anterior": 20.0,
+          "qt_ano_anterior": 0.0
+        }
+      }
+    },
+    {
+      "produto": "SUCO DE UVA TTO INT QUINTA DO MORGADO 1L",
+      "fornecedor": "FANTE",
+      "estado": "RJ",
+      "fat_atual": 2999.36,
+      "fat_mes_anterior": 5414.64,
+      "fat_ano_anterior": 0.0,
+      "qt_atual": 244.0,
+      "qt_mes_anterior": 449.0,
+      "qt_ano_anterior": 0.0,
+      "queda_fat_mes_valor": 2415.28,
+      "queda_fat_ano_valor": -2999.36,
+      "queda_fat_mes_pct": -44.6,
+      "queda_fat_ano_pct": null,
+      "queda_qt_mes_valor": 205.0,
+      "queda_qt_ano_valor": -244.0,
+      "queda_qt_mes_pct": -45.7,
+      "queda_qt_ano_pct": null,
+      "por_vendedor": {
+        "RJ-144": {
+          "fat_atual": 214.8,
+          "fat_mes_anterior": 140.4,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 12.0,
+          "qt_mes_anterior": 12.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-153": {
+          "fat_atual": 2472.8,
+          "fat_mes_anterior": 3096.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 208.0,
+          "qt_mes_anterior": 264.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-156": {
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 83.94,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 6.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-378": {
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 392.6,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 30.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-379": {
+          "fat_atual": 311.76,
+          "fat_mes_anterior": 12.9,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 24.0,
+          "qt_mes_anterior": 1.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-412": {
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 139.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 10.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-431": {
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 500.4,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 36.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-450": {
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 966.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 84.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-471": {
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 83.4,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 6.0,
           "qt_ano_anterior": 0.0
         }
       }
@@ -362454,99 +363684,6 @@ const RAIOX_OPORTUNIDADES_DATA = {
       }
     },
     {
-      "produto": "ST PIERRE LATA RED MINT LT 24X270ML",
-      "fornecedor": "TATUZINHO",
-      "estado": "RJ",
-      "fat_atual": 1238.7,
-      "fat_mes_anterior": 3131.94,
-      "fat_ano_anterior": 0.0,
-      "qt_atual": 13.0,
-      "qt_mes_anterior": 33.0,
-      "qt_ano_anterior": 0.0,
-      "queda_fat_mes_valor": 1893.24,
-      "queda_fat_ano_valor": -1238.7,
-      "queda_fat_mes_pct": -60.4,
-      "queda_fat_ano_pct": null,
-      "queda_qt_mes_valor": 20.0,
-      "queda_qt_ano_valor": -13.0,
-      "queda_qt_mes_pct": -60.6,
-      "queda_qt_ano_pct": null,
-      "por_vendedor": {
-        "RJ-144": {
-          "fat_atual": 191.8,
-          "fat_mes_anterior": 831.1,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 2.0,
-          "qt_mes_anterior": 9.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-153": {
-          "fat_atual": 479.5,
-          "fat_mes_anterior": 383.6,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 5.0,
-          "qt_mes_anterior": 4.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-155": {
-          "fat_atual": 375.6,
-          "fat_mes_anterior": 95.9,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 4.0,
-          "qt_mes_anterior": 1.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-156": {
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 95.9,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 1.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-378": {
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 275.7,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 3.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-419": {
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 575.4,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 6.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-439": {
-          "fat_atual": 95.9,
-          "fat_mes_anterior": 959.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 1.0,
-          "qt_mes_anterior": 10.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-450": {
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 191.04,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 2.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-471": {
-          "fat_atual": 95.9,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 1.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0
-        }
-      }
-    },
-    {
       "produto": "GUARAVITON GINSENG 12X500ML",
       "fornecedor": "VITON",
       "estado": "RJ",
@@ -362603,51 +363740,6 @@ const RAIOX_OPORTUNIDADES_DATA = {
           "fat_ano_anterior": 0.0,
           "qt_atual": 0.0,
           "qt_mes_anterior": 2.0,
-          "qt_ano_anterior": 0.0
-        }
-      }
-    },
-    {
-      "produto": "WHISKY JIM BEAM BLACK CHERRY 1L",
-      "fornecedor": "BEAM SUNTORY",
-      "estado": "RJ",
-      "fat_atual": 301.3,
-      "fat_mes_anterior": 2149.92,
-      "fat_ano_anterior": 184.0,
-      "qt_atual": 4.0,
-      "qt_mes_anterior": 24.0,
-      "qt_ano_anterior": 2.0,
-      "queda_fat_mes_valor": 1848.62,
-      "queda_fat_ano_valor": -117.3,
-      "queda_fat_mes_pct": -86.0,
-      "queda_fat_ano_pct": 63.8,
-      "queda_qt_mes_valor": 20.0,
-      "queda_qt_ano_valor": -2.0,
-      "queda_qt_mes_pct": -83.3,
-      "queda_qt_ano_pct": 100.0,
-      "por_vendedor": {
-        "RJ-153": {
-          "fat_atual": 159.8,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 184.0,
-          "qt_atual": 2.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 2.0
-        },
-        "RJ-156": {
-          "fat_atual": 141.5,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 2.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-275": {
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 2149.92,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 24.0,
           "qt_ano_anterior": 0.0
         }
       }
@@ -362794,6 +363886,115 @@ const RAIOX_OPORTUNIDADES_DATA = {
       }
     },
     {
+      "produto": "GIN ROCKS STRAWBERRY 1000ML",
+      "fornecedor": "FANTE",
+      "estado": "RJ",
+      "fat_atual": 2733.5,
+      "fat_mes_anterior": 4550.0,
+      "fat_ano_anterior": 0.0,
+      "qt_atual": 120.0,
+      "qt_mes_anterior": 202.0,
+      "qt_ano_anterior": 0.0,
+      "queda_fat_mes_valor": 1816.5,
+      "queda_fat_ano_valor": -2733.5,
+      "queda_fat_mes_pct": -39.9,
+      "queda_fat_ano_pct": null,
+      "queda_qt_mes_valor": 82.0,
+      "queda_qt_ano_valor": -120.0,
+      "queda_qt_mes_pct": -40.6,
+      "queda_qt_ano_pct": null,
+      "por_vendedor": {
+        "RJ-144": {
+          "fat_atual": 810.0,
+          "fat_mes_anterior": 67.5,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 36.0,
+          "qt_mes_anterior": 3.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-153": {
+          "fat_atual": 1323.0,
+          "fat_mes_anterior": 1455.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 60.0,
+          "qt_mes_anterior": 66.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-155": {
+          "fat_atual": 310.8,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 12.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-156": {
+          "fat_atual": 29.2,
+          "fat_mes_anterior": 49.8,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 1.0,
+          "qt_mes_anterior": 2.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-158": {
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 270.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 12.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-379": {
+          "fat_atual": 260.5,
+          "fat_mes_anterior": 191.2,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 11.0,
+          "qt_mes_anterior": 8.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-419": {
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 137.4,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 6.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-431": {
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 219.1,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 9.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-439": {
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 270.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 12.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-450": {
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 1350.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 60.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-471": {
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 540.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 24.0,
+          "qt_ano_anterior": 0.0
+        }
+      }
+    },
+    {
       "produto": "VINHO ARESTI EST SEL CAB SAUV 750ML",
       "fornecedor": "CASTAS",
       "estado": "MG",
@@ -362827,6 +364028,99 @@ const RAIOX_OPORTUNIDADES_DATA = {
           "qt_atual": 12.0,
           "qt_mes_anterior": 30.0,
           "qt_ano_anterior": 30.0
+        }
+      }
+    },
+    {
+      "produto": "ST PIERRE LATA RED MINT LT 24X270ML",
+      "fornecedor": "TATUZINHO",
+      "estado": "RJ",
+      "fat_atual": 1334.6,
+      "fat_mes_anterior": 3131.94,
+      "fat_ano_anterior": 0.0,
+      "qt_atual": 14.0,
+      "qt_mes_anterior": 33.0,
+      "qt_ano_anterior": 0.0,
+      "queda_fat_mes_valor": 1797.34,
+      "queda_fat_ano_valor": -1334.6,
+      "queda_fat_mes_pct": -57.4,
+      "queda_fat_ano_pct": null,
+      "queda_qt_mes_valor": 19.0,
+      "queda_qt_ano_valor": -14.0,
+      "queda_qt_mes_pct": -57.6,
+      "queda_qt_ano_pct": null,
+      "por_vendedor": {
+        "RJ-144": {
+          "fat_atual": 191.8,
+          "fat_mes_anterior": 831.1,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 2.0,
+          "qt_mes_anterior": 9.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-153": {
+          "fat_atual": 479.5,
+          "fat_mes_anterior": 383.6,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 5.0,
+          "qt_mes_anterior": 4.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-155": {
+          "fat_atual": 375.6,
+          "fat_mes_anterior": 95.9,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 4.0,
+          "qt_mes_anterior": 1.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-156": {
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 95.9,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 1.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-378": {
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 275.7,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 3.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-419": {
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 575.4,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 6.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-439": {
+          "fat_atual": 95.9,
+          "fat_mes_anterior": 959.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 1.0,
+          "qt_mes_anterior": 10.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-450": {
+          "fat_atual": 95.9,
+          "fat_mes_anterior": 191.04,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 1.0,
+          "qt_mes_anterior": 2.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-471": {
+          "fat_atual": 95.9,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 1.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0
         }
       }
     },
@@ -362900,6 +364194,51 @@ const RAIOX_OPORTUNIDADES_DATA = {
           "fat_ano_anterior": 0.0,
           "qt_atual": 0.0,
           "qt_mes_anterior": 8.0,
+          "qt_ano_anterior": 0.0
+        }
+      }
+    },
+    {
+      "produto": "WHISKY JIM BEAM BLACK CHERRY 1L",
+      "fornecedor": "BEAM SUNTORY",
+      "estado": "RJ",
+      "fat_atual": 372.2,
+      "fat_mes_anterior": 2149.92,
+      "fat_ano_anterior": 184.0,
+      "qt_atual": 5.0,
+      "qt_mes_anterior": 24.0,
+      "qt_ano_anterior": 2.0,
+      "queda_fat_mes_valor": 1777.72,
+      "queda_fat_ano_valor": -188.2,
+      "queda_fat_mes_pct": -82.7,
+      "queda_fat_ano_pct": 102.3,
+      "queda_qt_mes_valor": 19.0,
+      "queda_qt_ano_valor": -3.0,
+      "queda_qt_mes_pct": -79.2,
+      "queda_qt_ano_pct": 150.0,
+      "por_vendedor": {
+        "RJ-153": {
+          "fat_atual": 230.7,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 184.0,
+          "qt_atual": 3.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 2.0
+        },
+        "RJ-156": {
+          "fat_atual": 141.5,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 2.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-275": {
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 2149.92,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 24.0,
           "qt_ano_anterior": 0.0
         }
       }
@@ -365343,35 +366682,6 @@ const RAIOX_OPORTUNIDADES_DATA = {
       }
     },
     {
-      "produto": "RC ATUM SOLIDO NAT MY PROTEIN 12X142G",
-      "fornecedor": "ROBINSON CRUSOE",
-      "estado": "RJ",
-      "fat_atual": 0.0,
-      "fat_mes_anterior": 1133.1,
-      "fat_ano_anterior": 0.0,
-      "qt_atual": 0.0,
-      "qt_mes_anterior": 9.0,
-      "qt_ano_anterior": 0.0,
-      "queda_fat_mes_valor": 1133.1,
-      "queda_fat_ano_valor": 0.0,
-      "queda_fat_mes_pct": -100.0,
-      "queda_fat_ano_pct": null,
-      "queda_qt_mes_valor": 9.0,
-      "queda_qt_ano_valor": 0.0,
-      "queda_qt_mes_pct": -100.0,
-      "queda_qt_ano_pct": null,
-      "por_vendedor": {
-        "RJ-412": {
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 1133.1,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 9.0,
-          "qt_ano_anterior": 0.0
-        }
-      }
-    },
-    {
       "produto": "JACK DANIELS BONDED TRIPLE MASH 700ML",
       "fornecedor": "BROWN",
       "estado": "SP",
@@ -365897,6 +367207,35 @@ const RAIOX_OPORTUNIDADES_DATA = {
           "fat_ano_anterior": 0.0,
           "qt_atual": 0.0,
           "qt_mes_anterior": 6.0,
+          "qt_ano_anterior": 0.0
+        }
+      }
+    },
+    {
+      "produto": "RC ATUM SOLIDO NAT MY PROTEIN 12X142G",
+      "fornecedor": "ROBINSON CRUSOE",
+      "estado": "RJ",
+      "fat_atual": 122.4,
+      "fat_mes_anterior": 1133.1,
+      "fat_ano_anterior": 0.0,
+      "qt_atual": 1.0,
+      "qt_mes_anterior": 9.0,
+      "qt_ano_anterior": 0.0,
+      "queda_fat_mes_valor": 1010.7,
+      "queda_fat_ano_valor": -122.4,
+      "queda_fat_mes_pct": -89.2,
+      "queda_fat_ano_pct": null,
+      "queda_qt_mes_valor": 8.0,
+      "queda_qt_ano_valor": -1.0,
+      "queda_qt_mes_pct": -88.9,
+      "queda_qt_ano_pct": null,
+      "por_vendedor": {
+        "RJ-412": {
+          "fat_atual": 122.4,
+          "fat_mes_anterior": 1133.1,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 1.0,
+          "qt_mes_anterior": 9.0,
           "qt_ano_anterior": 0.0
         }
       }
@@ -366556,91 +367895,6 @@ const RAIOX_OPORTUNIDADES_DATA = {
           "fat_ano_anterior": 0.0,
           "qt_atual": 0.0,
           "qt_mes_anterior": 5.0,
-          "qt_ano_anterior": 0.0
-        }
-      }
-    },
-    {
-      "produto": "AZEITE ESSENZA D'ITALIA PREMIUM 12X500ML",
-      "fornecedor": "CASTAS",
-      "estado": "RJ",
-      "fat_atual": 2572.56,
-      "fat_mes_anterior": 3448.8,
-      "fat_ano_anterior": 0.0,
-      "qt_atual": 9.0,
-      "qt_mes_anterior": 12.0,
-      "qt_ano_anterior": 0.0,
-      "queda_fat_mes_valor": 876.24,
-      "queda_fat_ano_valor": -2572.56,
-      "queda_fat_mes_pct": -25.4,
-      "queda_fat_ano_pct": null,
-      "queda_qt_mes_valor": 3.0,
-      "queda_qt_ano_valor": -9.0,
-      "queda_qt_mes_pct": -25.0,
-      "queda_qt_ano_pct": null,
-      "por_vendedor": {
-        "RJ-153": {
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 1147.2,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 4.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-155": {
-          "fat_atual": 282.0,
-          "fat_mes_anterior": 318.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 1.0,
-          "qt_mes_anterior": 1.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-156": {
-          "fat_atual": 575.76,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 2.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-159": {
-          "fat_atual": 282.0,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 1.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-412": {
-          "fat_atual": 860.4,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 3.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-419": {
-          "fat_atual": 286.8,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 1.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-439": {
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 1434.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 5.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-471": {
-          "fat_atual": 285.6,
-          "fat_mes_anterior": 549.6,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 1.0,
-          "qt_mes_anterior": 2.0,
           "qt_ano_anterior": 0.0
         }
       }
@@ -369296,75 +370550,6 @@ const RAIOX_OPORTUNIDADES_DATA = {
       }
     },
     {
-      "produto": "4 PACK RED BULL ZERO",
-      "fornecedor": "RED BULL",
-      "estado": "RJ",
-      "fat_atual": 414.64,
-      "fat_mes_anterior": 929.84,
-      "fat_ano_anterior": 187.6,
-      "qt_atual": 14.0,
-      "qt_mes_anterior": 31.0,
-      "qt_ano_anterior": 7.0,
-      "queda_fat_mes_valor": 515.2,
-      "queda_fat_ano_valor": -227.04,
-      "queda_fat_mes_pct": -55.4,
-      "queda_fat_ano_pct": 121.0,
-      "queda_qt_mes_valor": 17.0,
-      "queda_qt_ano_valor": -7.0,
-      "queda_qt_mes_pct": -54.8,
-      "queda_qt_ano_pct": 100.0,
-      "por_vendedor": {
-        "RJ-155": {
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 115.04,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 4.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-241": {
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 90.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 3.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-378": {
-          "fat_atual": 296.0,
-          "fat_mes_anterior": 239.68,
-          "fat_ano_anterior": 187.6,
-          "qt_atual": 10.0,
-          "qt_mes_anterior": 8.0,
-          "qt_ano_anterior": 7.0
-        },
-        "RJ-379": {
-          "fat_atual": 29.96,
-          "fat_mes_anterior": 119.84,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 1.0,
-          "qt_mes_anterior": 4.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-431": {
-          "fat_atual": 59.92,
-          "fat_mes_anterior": 365.28,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 2.0,
-          "qt_mes_anterior": 12.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-471": {
-          "fat_atual": 28.76,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 1.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0
-        }
-      }
-    },
-    {
       "produto": "WHISKY J WALKER RED LABEL 750ML",
       "fornecedor": "DIAGEO",
       "estado": "RJ",
@@ -369741,6 +370926,75 @@ const RAIOX_OPORTUNIDADES_DATA = {
           "fat_ano_anterior": 0.0,
           "qt_atual": 0.0,
           "qt_mes_anterior": 4.0,
+          "qt_ano_anterior": 0.0
+        }
+      }
+    },
+    {
+      "produto": "4 PACK RED BULL ZERO",
+      "fornecedor": "RED BULL",
+      "estado": "RJ",
+      "fat_atual": 444.6,
+      "fat_mes_anterior": 929.84,
+      "fat_ano_anterior": 187.6,
+      "qt_atual": 15.0,
+      "qt_mes_anterior": 31.0,
+      "qt_ano_anterior": 7.0,
+      "queda_fat_mes_valor": 485.24,
+      "queda_fat_ano_valor": -257.0,
+      "queda_fat_mes_pct": -52.2,
+      "queda_fat_ano_pct": 137.0,
+      "queda_qt_mes_valor": 16.0,
+      "queda_qt_ano_valor": -8.0,
+      "queda_qt_mes_pct": -51.6,
+      "queda_qt_ano_pct": 114.3,
+      "por_vendedor": {
+        "RJ-155": {
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 115.04,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 4.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-241": {
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 90.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 3.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-378": {
+          "fat_atual": 296.0,
+          "fat_mes_anterior": 239.68,
+          "fat_ano_anterior": 187.6,
+          "qt_atual": 10.0,
+          "qt_mes_anterior": 8.0,
+          "qt_ano_anterior": 7.0
+        },
+        "RJ-379": {
+          "fat_atual": 29.96,
+          "fat_mes_anterior": 119.84,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 1.0,
+          "qt_mes_anterior": 4.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-431": {
+          "fat_atual": 89.88,
+          "fat_mes_anterior": 365.28,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 3.0,
+          "qt_mes_anterior": 12.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-471": {
+          "fat_atual": 28.76,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 1.0,
+          "qt_mes_anterior": 0.0,
           "qt_ano_anterior": 0.0
         }
       }
@@ -371208,67 +372462,6 @@ const RAIOX_OPORTUNIDADES_DATA = {
       }
     },
     {
-      "produto": "RC ATUM RALADO NATURAL 24X140G",
-      "fornecedor": "ROBINSON CRUSOE",
-      "estado": "RJ",
-      "fat_atual": 1168.92,
-      "fat_mes_anterior": 1558.08,
-      "fat_ano_anterior": 0.0,
-      "qt_atual": 9.0,
-      "qt_mes_anterior": 10.0,
-      "qt_ano_anterior": 0.0,
-      "queda_fat_mes_valor": 389.16,
-      "queda_fat_ano_valor": -1168.92,
-      "queda_fat_mes_pct": -25.0,
-      "queda_fat_ano_pct": null,
-      "queda_qt_mes_valor": 1.0,
-      "queda_qt_ano_valor": -9.0,
-      "queda_qt_mes_pct": -10.0,
-      "queda_qt_ano_pct": null,
-      "por_vendedor": {
-        "RJ-153": {
-          "fat_atual": 389.52,
-          "fat_mes_anterior": 191.76,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 3.0,
-          "qt_mes_anterior": 1.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-379": {
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 141.6,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 1.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-412": {
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 1224.72,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 8.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-419": {
-          "fat_atual": 389.7,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 3.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-431": {
-          "fat_atual": 389.7,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 3.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0
-        }
-      }
-    },
-    {
       "produto": "REFRESCO DE MORANGO MINECRAFT 24X200ML",
       "fornecedor": "TIAL",
       "estado": "RJ",
@@ -371661,59 +372854,6 @@ const RAIOX_OPORTUNIDADES_DATA = {
           "fat_ano_anterior": 0.0,
           "qt_atual": 0.0,
           "qt_mes_anterior": 2.0,
-          "qt_ano_anterior": 0.0
-        }
-      }
-    },
-    {
-      "produto": "AMARULA C LIQUEUR 750 ML + 1 COPO",
-      "fornecedor": "INTERFOOD",
-      "estado": "RJ",
-      "fat_atual": 419.6,
-      "fat_mes_anterior": 773.2,
-      "fat_ano_anterior": 0.0,
-      "qt_atual": 4.0,
-      "qt_mes_anterior": 8.0,
-      "qt_ano_anterior": 0.0,
-      "queda_fat_mes_valor": 353.6,
-      "queda_fat_ano_valor": -419.6,
-      "queda_fat_mes_pct": -45.7,
-      "queda_fat_ano_pct": null,
-      "queda_qt_mes_valor": 4.0,
-      "queda_qt_ano_valor": -4.0,
-      "queda_qt_mes_pct": -50.0,
-      "queda_qt_ano_pct": null,
-      "por_vendedor": {
-        "RJ-144": {
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 296.7,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 3.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-379": {
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 179.8,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 2.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-419": {
-          "fat_atual": 197.8,
-          "fat_mes_anterior": 296.7,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 2.0,
-          "qt_mes_anterior": 3.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-431": {
-          "fat_atual": 221.8,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 2.0,
-          "qt_mes_anterior": 0.0,
           "qt_ano_anterior": 0.0
         }
       }
@@ -372338,6 +373478,99 @@ const RAIOX_OPORTUNIDADES_DATA = {
       }
     },
     {
+      "produto": "AZEITE ESSENZA D'ITALIA PREMIUM 12X500ML",
+      "fornecedor": "CASTAS",
+      "estado": "RJ",
+      "fat_atual": 3141.36,
+      "fat_mes_anterior": 3448.8,
+      "fat_ano_anterior": 0.0,
+      "qt_atual": 11.0,
+      "qt_mes_anterior": 12.0,
+      "qt_ano_anterior": 0.0,
+      "queda_fat_mes_valor": 307.44,
+      "queda_fat_ano_valor": -3141.36,
+      "queda_fat_mes_pct": -8.9,
+      "queda_fat_ano_pct": null,
+      "queda_qt_mes_valor": 1.0,
+      "queda_qt_ano_valor": -11.0,
+      "queda_qt_mes_pct": -8.3,
+      "queda_qt_ano_pct": null,
+      "por_vendedor": {
+        "RJ-153": {
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 1147.2,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 4.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-155": {
+          "fat_atual": 564.0,
+          "fat_mes_anterior": 318.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 2.0,
+          "qt_mes_anterior": 1.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-156": {
+          "fat_atual": 575.76,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 2.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-159": {
+          "fat_atual": 282.0,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 1.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-412": {
+          "fat_atual": 860.4,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 3.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-419": {
+          "fat_atual": 286.8,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 1.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-439": {
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 1434.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 5.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-450": {
+          "fat_atual": 286.8,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 1.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-471": {
+          "fat_atual": 285.6,
+          "fat_mes_anterior": 549.6,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 1.0,
+          "qt_mes_anterior": 2.0,
+          "qt_ano_anterior": 0.0
+        }
+      }
+    },
+    {
       "produto": "ESPUM CASA PERINI CRISTAL EDITION 750ML",
       "fornecedor": "CASA PERINI",
       "estado": "RJ",
@@ -372859,59 +374092,6 @@ const RAIOX_OPORTUNIDADES_DATA = {
       }
     },
     {
-      "produto": "4 PACK RED BULL SF POMELO 4X250ML",
-      "fornecedor": "RED BULL",
-      "estado": "RJ",
-      "fat_atual": 149.8,
-      "fat_mes_anterior": 423.72,
-      "fat_ano_anterior": 137.2,
-      "qt_atual": 5.0,
-      "qt_mes_anterior": 15.0,
-      "qt_ano_anterior": 5.0,
-      "queda_fat_mes_valor": 273.92,
-      "queda_fat_ano_valor": -12.6,
-      "queda_fat_mes_pct": -64.6,
-      "queda_fat_ano_pct": 9.2,
-      "queda_qt_mes_valor": 10.0,
-      "queda_qt_ano_valor": 0.0,
-      "queda_qt_mes_pct": -66.7,
-      "queda_qt_ano_pct": 0.0,
-      "por_vendedor": {
-        "RJ-155": {
-          "fat_atual": 59.92,
-          "fat_mes_anterior": 57.52,
-          "fat_ano_anterior": 30.0,
-          "qt_atual": 2.0,
-          "qt_mes_anterior": 2.0,
-          "qt_ano_anterior": 1.0
-        },
-        "RJ-159": {
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 143.8,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 5.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-378": {
-          "fat_atual": 29.96,
-          "fat_mes_anterior": 222.4,
-          "fat_ano_anterior": 107.2,
-          "qt_atual": 1.0,
-          "qt_mes_anterior": 8.0,
-          "qt_ano_anterior": 4.0
-        },
-        "RJ-431": {
-          "fat_atual": 59.92,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 2.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0
-        }
-      }
-    },
-    {
       "produto": "RC ATUM RALADO NATURAL 24X140G",
       "fornecedor": "ROBINSON CRUSOE",
       "estado": "ES",
@@ -373068,6 +374248,67 @@ const RAIOX_OPORTUNIDADES_DATA = {
           "fat_ano_anterior": 0.0,
           "qt_atual": 0.0,
           "qt_mes_anterior": 12.0,
+          "qt_ano_anterior": 0.0
+        }
+      }
+    },
+    {
+      "produto": "RC ATUM RALADO NATURAL 24X140G",
+      "fornecedor": "ROBINSON CRUSOE",
+      "estado": "RJ",
+      "fat_atual": 1298.82,
+      "fat_mes_anterior": 1558.08,
+      "fat_ano_anterior": 0.0,
+      "qt_atual": 10.0,
+      "qt_mes_anterior": 10.0,
+      "qt_ano_anterior": 0.0,
+      "queda_fat_mes_valor": 259.26,
+      "queda_fat_ano_valor": -1298.82,
+      "queda_fat_mes_pct": -16.6,
+      "queda_fat_ano_pct": null,
+      "queda_qt_mes_valor": 0.0,
+      "queda_qt_ano_valor": -10.0,
+      "queda_qt_mes_pct": 0.0,
+      "queda_qt_ano_pct": null,
+      "por_vendedor": {
+        "RJ-153": {
+          "fat_atual": 389.52,
+          "fat_mes_anterior": 191.76,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 3.0,
+          "qt_mes_anterior": 1.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-379": {
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 141.6,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 1.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-412": {
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 1224.72,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 8.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-419": {
+          "fat_atual": 389.7,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 3.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-431": {
+          "fat_atual": 519.6,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 4.0,
+          "qt_mes_anterior": 0.0,
           "qt_ano_anterior": 0.0
         }
       }
@@ -373324,6 +374565,59 @@ const RAIOX_OPORTUNIDADES_DATA = {
       }
     },
     {
+      "produto": "4 PACK RED BULL SF POMELO 4X250ML",
+      "fornecedor": "RED BULL",
+      "estado": "RJ",
+      "fat_atual": 179.76,
+      "fat_mes_anterior": 423.72,
+      "fat_ano_anterior": 137.2,
+      "qt_atual": 6.0,
+      "qt_mes_anterior": 15.0,
+      "qt_ano_anterior": 5.0,
+      "queda_fat_mes_valor": 243.96,
+      "queda_fat_ano_valor": -42.56,
+      "queda_fat_mes_pct": -57.6,
+      "queda_fat_ano_pct": 31.0,
+      "queda_qt_mes_valor": 9.0,
+      "queda_qt_ano_valor": -1.0,
+      "queda_qt_mes_pct": -60.0,
+      "queda_qt_ano_pct": 20.0,
+      "por_vendedor": {
+        "RJ-155": {
+          "fat_atual": 59.92,
+          "fat_mes_anterior": 57.52,
+          "fat_ano_anterior": 30.0,
+          "qt_atual": 2.0,
+          "qt_mes_anterior": 2.0,
+          "qt_ano_anterior": 1.0
+        },
+        "RJ-159": {
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 143.8,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 5.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-378": {
+          "fat_atual": 29.96,
+          "fat_mes_anterior": 222.4,
+          "fat_ano_anterior": 107.2,
+          "qt_atual": 1.0,
+          "qt_mes_anterior": 8.0,
+          "qt_ano_anterior": 4.0
+        },
+        "RJ-431": {
+          "fat_atual": 89.88,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 3.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0
+        }
+      }
+    },
+    {
       "produto": "LICOR JAGERMEISTER 700 ML",
       "fornecedor": "INTERFOOD",
       "estado": "RJ",
@@ -373504,51 +374798,6 @@ const RAIOX_OPORTUNIDADES_DATA = {
           "fat_ano_anterior": 0.0,
           "qt_atual": 0.0,
           "qt_mes_anterior": 6.0,
-          "qt_ano_anterior": 0.0
-        }
-      }
-    },
-    {
-      "produto": "MOVING BOOSTER MORANGO ACEROLA  24X310ML",
-      "fornecedor": "TATUZINHO",
-      "estado": "RJ",
-      "fat_atual": 1138.56,
-      "fat_mes_anterior": 1377.6,
-      "fat_ano_anterior": 0.0,
-      "qt_atual": 8.0,
-      "qt_mes_anterior": 8.0,
-      "qt_ano_anterior": 0.0,
-      "queda_fat_mes_valor": 239.04,
-      "queda_fat_ano_valor": -1138.56,
-      "queda_fat_mes_pct": -17.4,
-      "queda_fat_ano_pct": null,
-      "queda_qt_mes_valor": 0.0,
-      "queda_qt_ano_valor": -8.0,
-      "queda_qt_mes_pct": 0.0,
-      "queda_qt_ano_pct": null,
-      "por_vendedor": {
-        "RJ-153": {
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 852.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 5.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-156": {
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 525.6,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 3.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-420": {
-          "fat_atual": 1138.56,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 8.0,
-          "qt_mes_anterior": 0.0,
           "qt_ano_anterior": 0.0
         }
       }
@@ -374212,75 +375461,6 @@ const RAIOX_OPORTUNIDADES_DATA = {
       }
     },
     {
-      "produto": "4 PACK RED BULL SUGAR FREE",
-      "fornecedor": "RED BULL",
-      "estado": "RJ",
-      "fat_atual": 355.92,
-      "fat_mes_anterior": 555.28,
-      "fat_ano_anterior": 296.28,
-      "qt_atual": 12.0,
-      "qt_mes_anterior": 19.0,
-      "qt_ano_anterior": 11.0,
-      "queda_fat_mes_valor": 199.36,
-      "queda_fat_ano_valor": -59.64,
-      "queda_fat_mes_pct": -35.9,
-      "queda_fat_ano_pct": 20.1,
-      "queda_qt_mes_valor": 7.0,
-      "queda_qt_ano_valor": -1.0,
-      "queda_qt_mes_pct": -36.8,
-      "queda_qt_ano_pct": 9.1,
-      "por_vendedor": {
-        "RJ-155": {
-          "fat_atual": 89.88,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 3.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-159": {
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 258.84,
-          "fat_ano_anterior": 89.88,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 9.0,
-          "qt_ano_anterior": 3.0
-        },
-        "RJ-378": {
-          "fat_atual": 116.24,
-          "fat_mes_anterior": 116.56,
-          "fat_ano_anterior": 176.44,
-          "qt_atual": 4.0,
-          "qt_mes_anterior": 4.0,
-          "qt_ano_anterior": 7.0
-        },
-        "RJ-379": {
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 29.96,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 1.0
-        },
-        "RJ-431": {
-          "fat_atual": 59.92,
-          "fat_mes_anterior": 179.88,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 2.0,
-          "qt_mes_anterior": 6.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-471": {
-          "fat_atual": 89.88,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 3.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0
-        }
-      }
-    },
-    {
       "produto": "VINHO VILLA ROSA FRISANTE BRANCO 750ML",
       "fornecedor": "CASTAS",
       "estado": "MG",
@@ -374508,35 +375688,6 @@ const RAIOX_OPORTUNIDADES_DATA = {
       }
     },
     {
-      "produto": "WHISKY JACK DANIELS CX C/ 10X50 ML",
-      "fornecedor": "BROWN",
-      "estado": "RJ",
-      "fat_atual": 0.0,
-      "fat_mes_anterior": 187.9,
-      "fat_ano_anterior": 0.0,
-      "qt_atual": 0.0,
-      "qt_mes_anterior": 1.0,
-      "qt_ano_anterior": 0.0,
-      "queda_fat_mes_valor": 187.9,
-      "queda_fat_ano_valor": 0.0,
-      "queda_fat_mes_pct": -100.0,
-      "queda_fat_ano_pct": null,
-      "queda_qt_mes_valor": 1.0,
-      "queda_qt_ano_valor": 0.0,
-      "queda_qt_mes_pct": -100.0,
-      "queda_qt_ano_pct": null,
-      "por_vendedor": {
-        "RJ-155": {
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 187.9,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 1.0,
-          "qt_ano_anterior": 0.0
-        }
-      }
-    },
-    {
       "produto": "VEJA COZINHA TR LIMAO PROMO 12X500ML",
       "fornecedor": "RECKITT",
       "estado": "RJ",
@@ -374561,6 +375712,91 @@ const RAIOX_OPORTUNIDADES_DATA = {
           "fat_ano_anterior": 0.0,
           "qt_atual": 0.0,
           "qt_mes_anterior": 1.0,
+          "qt_ano_anterior": 0.0
+        }
+      }
+    },
+    {
+      "produto": "CONHAQUE DREHER 900ML",
+      "fornecedor": "CAMPARI",
+      "estado": "RJ",
+      "fat_atual": 1048.16,
+      "fat_mes_anterior": 1235.71,
+      "fat_ano_anterior": 41.8,
+      "qt_atual": 59.0,
+      "qt_mes_anterior": 72.0,
+      "qt_ano_anterior": 2.0,
+      "queda_fat_mes_valor": 187.55,
+      "queda_fat_ano_valor": -1006.36,
+      "queda_fat_mes_pct": -15.2,
+      "queda_fat_ano_pct": 2407.6,
+      "queda_qt_mes_valor": 13.0,
+      "queda_qt_ano_valor": -57.0,
+      "queda_qt_mes_pct": -18.1,
+      "queda_qt_ano_pct": 2850.0,
+      "por_vendedor": {
+        "RJ-144": {
+          "fat_atual": 531.0,
+          "fat_mes_anterior": 676.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 30.0,
+          "qt_mes_anterior": 40.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-155": {
+          "fat_atual": 221.88,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 41.8,
+          "qt_atual": 12.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 2.0
+        },
+        "RJ-156": {
+          "fat_atual": 20.9,
+          "fat_mes_anterior": 55.47,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 1.0,
+          "qt_mes_anterior": 3.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-378": {
+          "fat_atual": 36.98,
+          "fat_mes_anterior": 244.86,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 2.0,
+          "qt_mes_anterior": 14.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-379": {
+          "fat_atual": 200.4,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 12.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-419": {
+          "fat_atual": 37.0,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 2.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-431": {
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 55.38,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 3.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-471": {
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 204.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 12.0,
           "qt_ano_anterior": 0.0
         }
       }
@@ -375008,6 +376244,75 @@ const RAIOX_OPORTUNIDADES_DATA = {
           "fat_ano_anterior": 0.0,
           "qt_atual": 0.0,
           "qt_mes_anterior": 2.0,
+          "qt_ano_anterior": 0.0
+        }
+      }
+    },
+    {
+      "produto": "4 PACK RED BULL SUGAR FREE",
+      "fornecedor": "RED BULL",
+      "estado": "RJ",
+      "fat_atual": 385.88,
+      "fat_mes_anterior": 555.28,
+      "fat_ano_anterior": 296.28,
+      "qt_atual": 13.0,
+      "qt_mes_anterior": 19.0,
+      "qt_ano_anterior": 11.0,
+      "queda_fat_mes_valor": 169.4,
+      "queda_fat_ano_valor": -89.6,
+      "queda_fat_mes_pct": -30.5,
+      "queda_fat_ano_pct": 30.2,
+      "queda_qt_mes_valor": 6.0,
+      "queda_qt_ano_valor": -2.0,
+      "queda_qt_mes_pct": -31.6,
+      "queda_qt_ano_pct": 18.2,
+      "por_vendedor": {
+        "RJ-155": {
+          "fat_atual": 89.88,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 3.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-159": {
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 258.84,
+          "fat_ano_anterior": 89.88,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 9.0,
+          "qt_ano_anterior": 3.0
+        },
+        "RJ-378": {
+          "fat_atual": 116.24,
+          "fat_mes_anterior": 116.56,
+          "fat_ano_anterior": 176.44,
+          "qt_atual": 4.0,
+          "qt_mes_anterior": 4.0,
+          "qt_ano_anterior": 7.0
+        },
+        "RJ-379": {
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 29.96,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 1.0
+        },
+        "RJ-431": {
+          "fat_atual": 89.88,
+          "fat_mes_anterior": 179.88,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 3.0,
+          "qt_mes_anterior": 6.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-471": {
+          "fat_atual": 89.88,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 3.0,
+          "qt_mes_anterior": 0.0,
           "qt_ano_anterior": 0.0
         }
       }
@@ -375980,91 +377285,6 @@ const RAIOX_OPORTUNIDADES_DATA = {
           "fat_ano_anterior": 0.0,
           "qt_atual": 0.0,
           "qt_mes_anterior": 7.0,
-          "qt_ano_anterior": 0.0
-        }
-      }
-    },
-    {
-      "produto": "CONHAQUE DREHER 900ML",
-      "fornecedor": "CAMPARI",
-      "estado": "RJ",
-      "fat_atual": 1104.86,
-      "fat_mes_anterior": 1235.71,
-      "fat_ano_anterior": 41.8,
-      "qt_atual": 62.0,
-      "qt_mes_anterior": 72.0,
-      "qt_ano_anterior": 2.0,
-      "queda_fat_mes_valor": 130.85,
-      "queda_fat_ano_valor": -1063.06,
-      "queda_fat_mes_pct": -10.6,
-      "queda_fat_ano_pct": 2543.2,
-      "queda_qt_mes_valor": 10.0,
-      "queda_qt_ano_valor": -60.0,
-      "queda_qt_mes_pct": -13.9,
-      "queda_qt_ano_pct": 3000.0,
-      "por_vendedor": {
-        "RJ-144": {
-          "fat_atual": 531.0,
-          "fat_mes_anterior": 676.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 30.0,
-          "qt_mes_anterior": 40.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-155": {
-          "fat_atual": 221.88,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 41.8,
-          "qt_atual": 12.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 2.0
-        },
-        "RJ-156": {
-          "fat_atual": 20.9,
-          "fat_mes_anterior": 55.47,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 1.0,
-          "qt_mes_anterior": 3.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-378": {
-          "fat_atual": 93.68,
-          "fat_mes_anterior": 244.86,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 5.0,
-          "qt_mes_anterior": 14.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-379": {
-          "fat_atual": 200.4,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 12.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-419": {
-          "fat_atual": 37.0,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 2.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-431": {
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 55.38,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 3.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-471": {
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 204.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 12.0,
           "qt_ano_anterior": 0.0
         }
       }
@@ -377430,120 +378650,6 @@ const RAIOX_OPORTUNIDADES_DATA = {
       }
     },
     {
-      "produto": "4 PACK RED BULL SF NECTARINA 4X250ML",
-      "fornecedor": "RED BULL",
-      "estado": "RJ",
-      "fat_atual": 149.8,
-      "fat_mes_anterior": 237.28,
-      "fat_ano_anterior": 0.0,
-      "qt_atual": 5.0,
-      "qt_mes_anterior": 8.0,
-      "qt_ano_anterior": 0.0,
-      "queda_fat_mes_valor": 87.48,
-      "queda_fat_ano_valor": -149.8,
-      "queda_fat_mes_pct": -36.9,
-      "queda_fat_ano_pct": null,
-      "queda_qt_mes_valor": 3.0,
-      "queda_qt_ano_valor": -5.0,
-      "queda_qt_mes_pct": -37.5,
-      "queda_qt_ano_pct": null,
-      "por_vendedor": {
-        "RJ-155": {
-          "fat_atual": 89.88,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 3.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-159": {
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 57.52,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 2.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-378": {
-          "fat_atual": 29.96,
-          "fat_mes_anterior": 179.76,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 1.0,
-          "qt_mes_anterior": 6.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-431": {
-          "fat_atual": 29.96,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 1.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0
-        }
-      }
-    },
-    {
-      "produto": "4 PACK RED BULL MELANCIA",
-      "fornecedor": "RED BULL",
-      "estado": "RJ",
-      "fat_atual": 385.88,
-      "fat_mes_anterior": 472.16,
-      "fat_ano_anterior": 60.0,
-      "qt_atual": 13.0,
-      "qt_mes_anterior": 16.0,
-      "qt_ano_anterior": 2.0,
-      "queda_fat_mes_valor": 86.28,
-      "queda_fat_ano_valor": -325.88,
-      "queda_fat_mes_pct": -18.3,
-      "queda_fat_ano_pct": 543.1,
-      "queda_qt_mes_valor": 3.0,
-      "queda_qt_ano_valor": -11.0,
-      "queda_qt_mes_pct": -18.8,
-      "queda_qt_ano_pct": 550.0,
-      "por_vendedor": {
-        "RJ-144": {
-          "fat_atual": 116.24,
-          "fat_mes_anterior": 88.68,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 4.0,
-          "qt_mes_anterior": 3.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-155": {
-          "fat_atual": 179.76,
-          "fat_mes_anterior": 149.8,
-          "fat_ano_anterior": 60.0,
-          "qt_atual": 6.0,
-          "qt_mes_anterior": 5.0,
-          "qt_ano_anterior": 2.0
-        },
-        "RJ-159": {
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 233.68,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 8.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-378": {
-          "fat_atual": 116.24,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 4.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-431": {
-          "fat_atual": 59.92,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 2.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0
-        }
-      }
-    },
-    {
       "produto": "PINATI DB WHEY BANANOFFE 12X50G",
       "fornecedor": "PINATI",
       "estado": "ES",
@@ -377822,6 +378928,59 @@ const RAIOX_OPORTUNIDADES_DATA = {
       }
     },
     {
+      "produto": "MOVING BOOSTER MORANGO ACEROLA  24X310ML",
+      "fornecedor": "TATUZINHO",
+      "estado": "RJ",
+      "fat_atual": 1313.76,
+      "fat_mes_anterior": 1377.6,
+      "fat_ano_anterior": 0.0,
+      "qt_atual": 9.0,
+      "qt_mes_anterior": 8.0,
+      "qt_ano_anterior": 0.0,
+      "queda_fat_mes_valor": 63.84,
+      "queda_fat_ano_valor": -1313.76,
+      "queda_fat_mes_pct": -4.6,
+      "queda_fat_ano_pct": null,
+      "queda_qt_mes_valor": -1.0,
+      "queda_qt_ano_valor": -9.0,
+      "queda_qt_mes_pct": 12.5,
+      "queda_qt_ano_pct": null,
+      "por_vendedor": {
+        "RJ-153": {
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 852.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 5.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-156": {
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 525.6,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 3.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-419": {
+          "fat_atual": 175.2,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 1.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-420": {
+          "fat_atual": 1138.56,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 8.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0
+        }
+      }
+    },
+    {
       "produto": "ST PIERRE VIDRO RED MINT LN 275X12",
       "fornecedor": "TATUZINHO",
       "estado": "RJ",
@@ -377949,6 +379108,120 @@ const RAIOX_OPORTUNIDADES_DATA = {
       }
     },
     {
+      "produto": "4 PACK RED BULL SF NECTARINA 4X250ML",
+      "fornecedor": "RED BULL",
+      "estado": "RJ",
+      "fat_atual": 179.76,
+      "fat_mes_anterior": 237.28,
+      "fat_ano_anterior": 0.0,
+      "qt_atual": 6.0,
+      "qt_mes_anterior": 8.0,
+      "qt_ano_anterior": 0.0,
+      "queda_fat_mes_valor": 57.52,
+      "queda_fat_ano_valor": -179.76,
+      "queda_fat_mes_pct": -24.2,
+      "queda_fat_ano_pct": null,
+      "queda_qt_mes_valor": 2.0,
+      "queda_qt_ano_valor": -6.0,
+      "queda_qt_mes_pct": -25.0,
+      "queda_qt_ano_pct": null,
+      "por_vendedor": {
+        "RJ-155": {
+          "fat_atual": 89.88,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 3.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-159": {
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 57.52,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 2.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-378": {
+          "fat_atual": 29.96,
+          "fat_mes_anterior": 179.76,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 1.0,
+          "qt_mes_anterior": 6.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-431": {
+          "fat_atual": 59.92,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 2.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0
+        }
+      }
+    },
+    {
+      "produto": "4 PACK RED BULL MELANCIA",
+      "fornecedor": "RED BULL",
+      "estado": "RJ",
+      "fat_atual": 415.84,
+      "fat_mes_anterior": 472.16,
+      "fat_ano_anterior": 60.0,
+      "qt_atual": 14.0,
+      "qt_mes_anterior": 16.0,
+      "qt_ano_anterior": 2.0,
+      "queda_fat_mes_valor": 56.32,
+      "queda_fat_ano_valor": -355.84,
+      "queda_fat_mes_pct": -11.9,
+      "queda_fat_ano_pct": 593.1,
+      "queda_qt_mes_valor": 2.0,
+      "queda_qt_ano_valor": -12.0,
+      "queda_qt_mes_pct": -12.5,
+      "queda_qt_ano_pct": 600.0,
+      "por_vendedor": {
+        "RJ-144": {
+          "fat_atual": 116.24,
+          "fat_mes_anterior": 88.68,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 4.0,
+          "qt_mes_anterior": 3.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-155": {
+          "fat_atual": 179.76,
+          "fat_mes_anterior": 149.8,
+          "fat_ano_anterior": 60.0,
+          "qt_atual": 6.0,
+          "qt_mes_anterior": 5.0,
+          "qt_ano_anterior": 2.0
+        },
+        "RJ-159": {
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 233.68,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 8.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-378": {
+          "fat_atual": 116.24,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 4.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-431": {
+          "fat_atual": 89.88,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 3.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0
+        }
+      }
+    },
+    {
       "produto": "ST PIERRE RED MINTL ZERO 310 ML",
       "fornecedor": "TATUZINHO",
       "estado": "MG",
@@ -377974,51 +379247,6 @@ const RAIOX_OPORTUNIDADES_DATA = {
           "qt_atual": 14.0,
           "qt_mes_anterior": 16.0,
           "qt_ano_anterior": 2.0
-        }
-      }
-    },
-    {
-      "produto": "4 PACK RED BULL SF BLUEBERRY BAUNILHA",
-      "fornecedor": "RED BULL",
-      "estado": "RJ",
-      "fat_atual": 89.88,
-      "fat_mes_anterior": 143.36,
-      "fat_ano_anterior": 26.8,
-      "qt_atual": 3.0,
-      "qt_mes_anterior": 5.0,
-      "qt_ano_anterior": 1.0,
-      "queda_fat_mes_valor": 53.48,
-      "queda_fat_ano_valor": -63.08,
-      "queda_fat_mes_pct": -37.3,
-      "queda_fat_ano_pct": 235.4,
-      "queda_qt_mes_valor": 2.0,
-      "queda_qt_ano_valor": -2.0,
-      "queda_qt_mes_pct": -40.0,
-      "queda_qt_ano_pct": 200.0,
-      "por_vendedor": {
-        "RJ-159": {
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 57.52,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 2.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-378": {
-          "fat_atual": 29.96,
-          "fat_mes_anterior": 85.84,
-          "fat_ano_anterior": 26.8,
-          "qt_atual": 1.0,
-          "qt_mes_anterior": 3.0,
-          "qt_ano_anterior": 1.0
-        },
-        "RJ-431": {
-          "fat_atual": 59.92,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 2.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0
         }
       }
     },
@@ -378182,75 +379410,6 @@ const RAIOX_OPORTUNIDADES_DATA = {
           "fat_ano_anterior": 0.0,
           "qt_atual": 0.0,
           "qt_mes_anterior": 9.0,
-          "qt_ano_anterior": 0.0
-        }
-      }
-    },
-    {
-      "produto": "WHISKY JACK DANIELS 1L",
-      "fornecedor": "BROWN",
-      "estado": "RJ",
-      "fat_atual": 2758.0,
-      "fat_mes_anterior": 2794.7,
-      "fat_ano_anterior": 661.5,
-      "qt_atual": 23.0,
-      "qt_mes_anterior": 23.0,
-      "qt_ano_anterior": 5.0,
-      "queda_fat_mes_valor": 36.7,
-      "queda_fat_ano_valor": -2096.5,
-      "queda_fat_mes_pct": -1.3,
-      "queda_fat_ano_pct": 316.9,
-      "queda_qt_mes_valor": 0.0,
-      "queda_qt_ano_valor": -18.0,
-      "queda_qt_mes_pct": 0.0,
-      "queda_qt_ano_pct": 360.0,
-      "por_vendedor": {
-        "RJ-144": {
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 109.9,
-          "fat_ano_anterior": 129.9,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 1.0,
-          "qt_ano_anterior": 1.0
-        },
-        "RJ-155": {
-          "fat_atual": 1918.4,
-          "fat_mes_anterior": 1808.5,
-          "fat_ano_anterior": 265.8,
-          "qt_atual": 16.0,
-          "qt_mes_anterior": 15.0,
-          "qt_ano_anterior": 2.0
-        },
-        "RJ-156": {
-          "fat_atual": 371.7,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 3.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-159": {
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 751.4,
-          "fat_ano_anterior": 265.8,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 6.0,
-          "qt_ano_anterior": 2.0
-        },
-        "RJ-241": {
-          "fat_atual": 119.9,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 1.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-379": {
-          "fat_atual": 348.0,
-          "fat_mes_anterior": 124.9,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 3.0,
-          "qt_mes_anterior": 1.0,
           "qt_ano_anterior": 0.0
         }
       }
@@ -378468,40 +379627,24 @@ const RAIOX_OPORTUNIDADES_DATA = {
       }
     },
     {
-      "produto": "4 PACK RED BULL CEREJA",
+      "produto": "4 PACK RED BULL SF BLUEBERRY BAUNILHA",
       "fornecedor": "RED BULL",
       "estado": "RJ",
-      "fat_atual": 179.76,
-      "fat_mes_anterior": 206.12,
-      "fat_ano_anterior": 0.0,
-      "qt_atual": 6.0,
-      "qt_mes_anterior": 7.0,
-      "qt_ano_anterior": 0.0,
-      "queda_fat_mes_valor": 26.36,
-      "queda_fat_ano_valor": -179.76,
-      "queda_fat_mes_pct": -12.8,
-      "queda_fat_ano_pct": null,
+      "fat_atual": 119.84,
+      "fat_mes_anterior": 143.36,
+      "fat_ano_anterior": 26.8,
+      "qt_atual": 4.0,
+      "qt_mes_anterior": 5.0,
+      "qt_ano_anterior": 1.0,
+      "queda_fat_mes_valor": 23.52,
+      "queda_fat_ano_valor": -93.04,
+      "queda_fat_mes_pct": -16.4,
+      "queda_fat_ano_pct": 347.2,
       "queda_qt_mes_valor": 1.0,
-      "queda_qt_ano_valor": -6.0,
-      "queda_qt_mes_pct": -14.3,
-      "queda_qt_ano_pct": null,
+      "queda_qt_ano_valor": -3.0,
+      "queda_qt_mes_pct": -20.0,
+      "queda_qt_ano_pct": 300.0,
       "por_vendedor": {
-        "RJ-144": {
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 28.76,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 1.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-155": {
-          "fat_atual": 89.88,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 3.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0
-        },
         "RJ-159": {
           "fat_atual": 0.0,
           "fat_mes_anterior": 57.52,
@@ -378512,25 +379655,17 @@ const RAIOX_OPORTUNIDADES_DATA = {
         },
         "RJ-378": {
           "fat_atual": 29.96,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
+          "fat_mes_anterior": 85.84,
+          "fat_ano_anterior": 26.8,
           "qt_atual": 1.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-379": {
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 119.84,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 4.0,
-          "qt_ano_anterior": 0.0
+          "qt_mes_anterior": 3.0,
+          "qt_ano_anterior": 1.0
         },
         "RJ-431": {
-          "fat_atual": 59.92,
+          "fat_atual": 89.88,
           "fat_mes_anterior": 0.0,
           "fat_ano_anterior": 0.0,
-          "qt_atual": 2.0,
+          "qt_atual": 3.0,
           "qt_mes_anterior": 0.0,
           "qt_ano_anterior": 0.0
         }
@@ -378701,59 +379836,6 @@ const RAIOX_OPORTUNIDADES_DATA = {
         "RJ-379": {
           "fat_atual": 0.0,
           "fat_mes_anterior": 12.99,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 1.0,
-          "qt_ano_anterior": 0.0
-        }
-      }
-    },
-    {
-      "produto": "PINATI SIMPLE WHEY CHOCO BELGA 16X35G",
-      "fornecedor": "PINATI",
-      "estado": "RJ",
-      "fat_atual": 155.6,
-      "fat_mes_anterior": 164.54,
-      "fat_ano_anterior": 0.0,
-      "qt_atual": 4.0,
-      "qt_mes_anterior": 4.0,
-      "qt_ano_anterior": 0.0,
-      "queda_fat_mes_valor": 8.94,
-      "queda_fat_ano_valor": -155.6,
-      "queda_fat_mes_pct": -5.4,
-      "queda_fat_ano_pct": null,
-      "queda_qt_mes_valor": 0.0,
-      "queda_qt_ano_valor": -4.0,
-      "queda_qt_mes_pct": 0.0,
-      "queda_qt_ano_pct": null,
-      "por_vendedor": {
-        "RJ-378": {
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 38.9,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 1.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-412": {
-          "fat_atual": 38.9,
-          "fat_mes_anterior": 38.9,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 1.0,
-          "qt_mes_anterior": 1.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-419": {
-          "fat_atual": 116.7,
-          "fat_mes_anterior": 47.84,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 3.0,
-          "qt_mes_anterior": 1.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-439": {
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 38.9,
           "fat_ano_anterior": 0.0,
           "qt_atual": 0.0,
           "qt_mes_anterior": 1.0,
@@ -386568,6 +387650,75 @@ const RAIOX_OPORTUNIDADES_DATA = {
       }
     },
     {
+      "produto": "4 PACK RED BULL CEREJA",
+      "fornecedor": "RED BULL",
+      "estado": "RJ",
+      "fat_atual": 209.72,
+      "fat_mes_anterior": 206.12,
+      "fat_ano_anterior": 0.0,
+      "qt_atual": 7.0,
+      "qt_mes_anterior": 7.0,
+      "qt_ano_anterior": 0.0,
+      "queda_fat_mes_valor": -3.6,
+      "queda_fat_ano_valor": -209.72,
+      "queda_fat_mes_pct": 1.7,
+      "queda_fat_ano_pct": null,
+      "queda_qt_mes_valor": 0.0,
+      "queda_qt_ano_valor": -7.0,
+      "queda_qt_mes_pct": 0.0,
+      "queda_qt_ano_pct": null,
+      "por_vendedor": {
+        "RJ-144": {
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 28.76,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 1.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-155": {
+          "fat_atual": 89.88,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 3.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-159": {
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 57.52,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 2.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-378": {
+          "fat_atual": 29.96,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 1.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-379": {
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 119.84,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 4.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-431": {
+          "fat_atual": 89.88,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 3.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0
+        }
+      }
+    },
+    {
       "produto": "CACHACA SELETA PRATA 1000ML",
       "fornecedor": "SELETA",
       "estado": "MG",
@@ -386667,6 +387818,35 @@ const RAIOX_OPORTUNIDADES_DATA = {
           "qt_atual": 9.0,
           "qt_mes_anterior": 7.0,
           "qt_ano_anterior": 3.0
+        }
+      }
+    },
+    {
+      "produto": "WHISKY JACK DANIELS CX C/ 10X50 ML",
+      "fornecedor": "BROWN",
+      "estado": "RJ",
+      "fat_atual": 197.9,
+      "fat_mes_anterior": 187.9,
+      "fat_ano_anterior": 0.0,
+      "qt_atual": 1.0,
+      "qt_mes_anterior": 1.0,
+      "qt_ano_anterior": 0.0,
+      "queda_fat_mes_valor": -10.0,
+      "queda_fat_ano_valor": -197.9,
+      "queda_fat_mes_pct": 5.3,
+      "queda_fat_ano_pct": null,
+      "queda_qt_mes_valor": 0.0,
+      "queda_qt_ano_valor": -1.0,
+      "queda_qt_mes_pct": 0.0,
+      "queda_qt_ano_pct": null,
+      "por_vendedor": {
+        "RJ-155": {
+          "fat_atual": 197.9,
+          "fat_mes_anterior": 187.9,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 1.0,
+          "qt_mes_anterior": 1.0,
+          "qt_ano_anterior": 0.0
         }
       }
     },
@@ -386912,6 +388092,59 @@ const RAIOX_OPORTUNIDADES_DATA = {
       }
     },
     {
+      "produto": "PINATI SIMPLE WHEY CHOCO BELGA 16X35G",
+      "fornecedor": "PINATI",
+      "estado": "RJ",
+      "fat_atual": 194.5,
+      "fat_mes_anterior": 164.54,
+      "fat_ano_anterior": 0.0,
+      "qt_atual": 5.0,
+      "qt_mes_anterior": 4.0,
+      "qt_ano_anterior": 0.0,
+      "queda_fat_mes_valor": -29.96,
+      "queda_fat_ano_valor": -194.5,
+      "queda_fat_mes_pct": 18.2,
+      "queda_fat_ano_pct": null,
+      "queda_qt_mes_valor": -1.0,
+      "queda_qt_ano_valor": -5.0,
+      "queda_qt_mes_pct": 25.0,
+      "queda_qt_ano_pct": null,
+      "por_vendedor": {
+        "RJ-378": {
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 38.9,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 1.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-412": {
+          "fat_atual": 38.9,
+          "fat_mes_anterior": 38.9,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 1.0,
+          "qt_mes_anterior": 1.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-419": {
+          "fat_atual": 155.6,
+          "fat_mes_anterior": 47.84,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 4.0,
+          "qt_mes_anterior": 1.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-439": {
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 38.9,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 1.0,
+          "qt_ano_anterior": 0.0
+        }
+      }
+    },
+    {
       "produto": "VODKA ORLOFF 1L",
       "fornecedor": "PERNOD",
       "estado": "RJ",
@@ -386959,43 +388192,6 @@ const RAIOX_OPORTUNIDADES_DATA = {
           "fat_mes_anterior": 137.4,
           "fat_ano_anterior": 0.0,
           "qt_atual": 0.0,
-          "qt_mes_anterior": 6.0,
-          "qt_ano_anterior": 0.0
-        }
-      }
-    },
-    {
-      "produto": "GIN MARINA ROSE 750ML",
-      "fornecedor": "HOB",
-      "estado": "RJ",
-      "fat_atual": 279.3,
-      "fat_mes_anterior": 239.4,
-      "fat_ano_anterior": 0.0,
-      "qt_atual": 7.0,
-      "qt_mes_anterior": 6.0,
-      "qt_ano_anterior": 0.0,
-      "queda_fat_mes_valor": -39.9,
-      "queda_fat_ano_valor": -279.3,
-      "queda_fat_mes_pct": 16.7,
-      "queda_fat_ano_pct": null,
-      "queda_qt_mes_valor": -1.0,
-      "queda_qt_ano_valor": -7.0,
-      "queda_qt_mes_pct": 16.7,
-      "queda_qt_ano_pct": null,
-      "por_vendedor": {
-        "RJ-144": {
-          "fat_atual": 239.4,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 6.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-155": {
-          "fat_atual": 39.9,
-          "fat_mes_anterior": 239.4,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 1.0,
           "qt_mes_anterior": 6.0,
           "qt_ano_anterior": 0.0
         }
@@ -387709,6 +388905,120 @@ const RAIOX_OPORTUNIDADES_DATA = {
       }
     },
     {
+      "produto": "GIN MARINA ROSE 750ML",
+      "fornecedor": "HOB",
+      "estado": "RJ",
+      "fat_atual": 319.2,
+      "fat_mes_anterior": 239.4,
+      "fat_ano_anterior": 0.0,
+      "qt_atual": 8.0,
+      "qt_mes_anterior": 6.0,
+      "qt_ano_anterior": 0.0,
+      "queda_fat_mes_valor": -79.8,
+      "queda_fat_ano_valor": -319.2,
+      "queda_fat_mes_pct": 33.3,
+      "queda_fat_ano_pct": null,
+      "queda_qt_mes_valor": -2.0,
+      "queda_qt_ano_valor": -8.0,
+      "queda_qt_mes_pct": 33.3,
+      "queda_qt_ano_pct": null,
+      "por_vendedor": {
+        "RJ-144": {
+          "fat_atual": 279.3,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 7.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-155": {
+          "fat_atual": 39.9,
+          "fat_mes_anterior": 239.4,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 1.0,
+          "qt_mes_anterior": 6.0,
+          "qt_ano_anterior": 0.0
+        }
+      }
+    },
+    {
+      "produto": "WHISKY JACK DANIELS 1L",
+      "fornecedor": "BROWN",
+      "estado": "RJ",
+      "fat_atual": 2877.9,
+      "fat_mes_anterior": 2794.7,
+      "fat_ano_anterior": 661.5,
+      "qt_atual": 24.0,
+      "qt_mes_anterior": 23.0,
+      "qt_ano_anterior": 5.0,
+      "queda_fat_mes_valor": -83.2,
+      "queda_fat_ano_valor": -2216.4,
+      "queda_fat_mes_pct": 3.0,
+      "queda_fat_ano_pct": 335.1,
+      "queda_qt_mes_valor": -1.0,
+      "queda_qt_ano_valor": -19.0,
+      "queda_qt_mes_pct": 4.3,
+      "queda_qt_ano_pct": 380.0,
+      "por_vendedor": {
+        "RJ-144": {
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 109.9,
+          "fat_ano_anterior": 129.9,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 1.0,
+          "qt_ano_anterior": 1.0
+        },
+        "RJ-153": {
+          "fat_atual": 119.9,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 1.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-155": {
+          "fat_atual": 1918.4,
+          "fat_mes_anterior": 1808.5,
+          "fat_ano_anterior": 265.8,
+          "qt_atual": 16.0,
+          "qt_mes_anterior": 15.0,
+          "qt_ano_anterior": 2.0
+        },
+        "RJ-156": {
+          "fat_atual": 371.7,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 3.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-159": {
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 751.4,
+          "fat_ano_anterior": 265.8,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 6.0,
+          "qt_ano_anterior": 2.0
+        },
+        "RJ-241": {
+          "fat_atual": 119.9,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 1.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-379": {
+          "fat_atual": 348.0,
+          "fat_mes_anterior": 124.9,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 3.0,
+          "qt_mes_anterior": 1.0,
+          "qt_ano_anterior": 0.0
+        }
+      }
+    },
+    {
       "produto": "RED BULL SF POMELO 24X250ML",
       "fornecedor": "RED BULL",
       "estado": "MG",
@@ -387757,91 +389067,6 @@ const RAIOX_OPORTUNIDADES_DATA = {
           "fat_ano_anterior": 0.0,
           "qt_atual": 5.0,
           "qt_mes_anterior": 11.0,
-          "qt_ano_anterior": 0.0
-        }
-      }
-    },
-    {
-      "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
-      "fornecedor": "TATUZINHO",
-      "estado": "RJ",
-      "fat_atual": 6583.9,
-      "fat_mes_anterior": 6499.42,
-      "fat_ano_anterior": 0.0,
-      "qt_atual": 82.0,
-      "qt_mes_anterior": 75.0,
-      "qt_ano_anterior": 0.0,
-      "queda_fat_mes_valor": -84.48,
-      "queda_fat_ano_valor": -6583.9,
-      "queda_fat_mes_pct": 1.3,
-      "queda_fat_ano_pct": null,
-      "queda_qt_mes_valor": -7.0,
-      "queda_qt_ano_valor": -82.0,
-      "queda_qt_mes_pct": 9.3,
-      "queda_qt_ano_pct": null,
-      "por_vendedor": {
-        "RJ-153": {
-          "fat_atual": 170.4,
-          "fat_mes_anterior": 852.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 2.0,
-          "qt_mes_anterior": 10.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-156": {
-          "fat_atual": 473.5,
-          "fat_mes_anterior": 847.5,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 5.0,
-          "qt_mes_anterior": 9.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-275": {
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 1640.6,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 20.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-378": {
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 757.6,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 8.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-412": {
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 1942.7,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 23.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-420": {
-          "fat_atual": 5940.0,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 75.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-431": {
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 269.66,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 3.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-471": {
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 189.36,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 2.0,
           "qt_ano_anterior": 0.0
         }
       }
@@ -388138,67 +389363,6 @@ const RAIOX_OPORTUNIDADES_DATA = {
       }
     },
     {
-      "produto": "4 PACK RED BULL MELÃO C/ MARACUJA",
-      "fornecedor": "RED BULL",
-      "estado": "RJ",
-      "fat_atual": 179.76,
-      "fat_mes_anterior": 86.28,
-      "fat_ano_anterior": 0.0,
-      "qt_atual": 6.0,
-      "qt_mes_anterior": 3.0,
-      "qt_ano_anterior": 0.0,
-      "queda_fat_mes_valor": -93.48,
-      "queda_fat_ano_valor": -179.76,
-      "queda_fat_mes_pct": 108.3,
-      "queda_fat_ano_pct": null,
-      "queda_qt_mes_valor": -3.0,
-      "queda_qt_ano_valor": -6.0,
-      "queda_qt_mes_pct": 100.0,
-      "queda_qt_ano_pct": null,
-      "por_vendedor": {
-        "RJ-144": {
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 28.76,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 1.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-155": {
-          "fat_atual": 89.88,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 3.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-159": {
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 57.52,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 2.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-378": {
-          "fat_atual": 29.96,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 1.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-431": {
-          "fat_atual": 59.92,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 2.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0
-        }
-      }
-    },
-    {
       "produto": "VINHO CAVAS DE ORO BLEND TINTO 750ML",
       "fornecedor": "CASTAS",
       "estado": "RJ",
@@ -388391,6 +389555,59 @@ const RAIOX_OPORTUNIDADES_DATA = {
           "qt_atual": 0.0,
           "qt_mes_anterior": 0.0,
           "qt_ano_anterior": 12.0
+        }
+      }
+    },
+    {
+      "produto": "AMARULA C LIQUEUR 750 ML + 1 COPO",
+      "fornecedor": "INTERFOOD",
+      "estado": "RJ",
+      "fat_atual": 869.1,
+      "fat_mes_anterior": 773.2,
+      "fat_ano_anterior": 0.0,
+      "qt_atual": 9.0,
+      "qt_mes_anterior": 8.0,
+      "qt_ano_anterior": 0.0,
+      "queda_fat_mes_valor": -95.9,
+      "queda_fat_ano_valor": -869.1,
+      "queda_fat_mes_pct": 12.4,
+      "queda_fat_ano_pct": null,
+      "queda_qt_mes_valor": -1.0,
+      "queda_qt_ano_valor": -9.0,
+      "queda_qt_mes_pct": 12.5,
+      "queda_qt_ano_pct": null,
+      "por_vendedor": {
+        "RJ-144": {
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 296.7,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 3.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-379": {
+          "fat_atual": 449.5,
+          "fat_mes_anterior": 179.8,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 5.0,
+          "qt_mes_anterior": 2.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-419": {
+          "fat_atual": 197.8,
+          "fat_mes_anterior": 296.7,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 2.0,
+          "qt_mes_anterior": 3.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-431": {
+          "fat_atual": 221.8,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 2.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0
         }
       }
     },
@@ -388822,6 +390039,67 @@ const RAIOX_OPORTUNIDADES_DATA = {
           "fat_mes_anterior": 0.0,
           "fat_ano_anterior": 0.0,
           "qt_atual": 4.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0
+        }
+      }
+    },
+    {
+      "produto": "4 PACK RED BULL MELÃO C/ MARACUJA",
+      "fornecedor": "RED BULL",
+      "estado": "RJ",
+      "fat_atual": 209.72,
+      "fat_mes_anterior": 86.28,
+      "fat_ano_anterior": 0.0,
+      "qt_atual": 7.0,
+      "qt_mes_anterior": 3.0,
+      "qt_ano_anterior": 0.0,
+      "queda_fat_mes_valor": -123.44,
+      "queda_fat_ano_valor": -209.72,
+      "queda_fat_mes_pct": 143.1,
+      "queda_fat_ano_pct": null,
+      "queda_qt_mes_valor": -4.0,
+      "queda_qt_ano_valor": -7.0,
+      "queda_qt_mes_pct": 133.3,
+      "queda_qt_ano_pct": null,
+      "por_vendedor": {
+        "RJ-144": {
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 28.76,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 1.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-155": {
+          "fat_atual": 89.88,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 3.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-159": {
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 57.52,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 2.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-378": {
+          "fat_atual": 29.96,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 1.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-431": {
+          "fat_atual": 89.88,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 3.0,
           "qt_mes_anterior": 0.0,
           "qt_ano_anterior": 0.0
         }
@@ -390355,67 +391633,6 @@ const RAIOX_OPORTUNIDADES_DATA = {
       }
     },
     {
-      "produto": "ST PIERRE ZERO LATA RED MINT LT 24X310ML",
-      "fornecedor": "TATUZINHO",
-      "estado": "RJ",
-      "fat_atual": 693.0,
-      "fat_mes_anterior": 488.36,
-      "fat_ano_anterior": 0.0,
-      "qt_atual": 7.0,
-      "qt_mes_anterior": 5.0,
-      "qt_ano_anterior": 0.0,
-      "queda_fat_mes_valor": -204.64,
-      "queda_fat_ano_valor": -693.0,
-      "queda_fat_mes_pct": 41.9,
-      "queda_fat_ano_pct": null,
-      "queda_qt_mes_valor": -2.0,
-      "queda_qt_ano_valor": -7.0,
-      "queda_qt_mes_pct": 40.0,
-      "queda_qt_ano_pct": null,
-      "por_vendedor": {
-        "RJ-156": {
-          "fat_atual": 99.9,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 1.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-379": {
-          "fat_atual": 93.6,
-          "fat_mes_anterior": 95.9,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 1.0,
-          "qt_mes_anterior": 1.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-431": {
-          "fat_atual": 403.6,
-          "fat_mes_anterior": 105.9,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 4.0,
-          "qt_mes_anterior": 1.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-439": {
-          "fat_atual": 95.9,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 1.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-450": {
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 286.56,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 3.0,
-          "qt_ano_anterior": 0.0
-        }
-      }
-    },
-    {
       "produto": "CERVEJA HEINEKEN 12X473ML (LATAO)",
       "fornecedor": "HEINEKEN",
       "estado": "MG",
@@ -390559,104 +391776,6 @@ const RAIOX_OPORTUNIDADES_DATA = {
           "fat_ano_anterior": 0.0,
           "qt_atual": 12.0,
           "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0
-        }
-      }
-    },
-    {
-      "produto": "RC ATUM RALADO MOLHO DE TOMATE 24X140G",
-      "fornecedor": "ROBINSON CRUSOE",
-      "estado": "RJ",
-      "fat_atual": 1588.32,
-      "fat_mes_anterior": 1366.48,
-      "fat_ano_anterior": 0.0,
-      "qt_atual": 12.0,
-      "qt_mes_anterior": 9.0,
-      "qt_ano_anterior": 0.0,
-      "queda_fat_mes_valor": -221.84,
-      "queda_fat_ano_valor": -1588.32,
-      "queda_fat_mes_pct": 16.2,
-      "queda_fat_ano_pct": null,
-      "queda_qt_mes_valor": -3.0,
-      "queda_qt_ano_valor": -12.0,
-      "queda_qt_mes_pct": 33.3,
-      "queda_qt_ano_pct": null,
-      "por_vendedor": {
-        "RJ-153": {
-          "fat_atual": 389.52,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 3.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-379": {
-          "fat_atual": 396.0,
-          "fat_mes_anterior": 141.6,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 3.0,
-          "qt_mes_anterior": 1.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-412": {
-          "fat_atual": 129.84,
-          "fat_mes_anterior": 1071.52,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 1.0,
-          "qt_mes_anterior": 7.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-419": {
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 153.36,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 1.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-431": {
-          "fat_atual": 672.96,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 5.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0
-        }
-      }
-    },
-    {
-      "produto": "NOSSO CHOP RED DRAFT VD 6X600ML",
-      "fornecedor": "NOSSO CHOPE",
-      "estado": "RJ",
-      "fat_atual": 666.0,
-      "fat_mes_anterior": 444.0,
-      "fat_ano_anterior": 0.0,
-      "qt_atual": 12.0,
-      "qt_mes_anterior": 8.0,
-      "qt_ano_anterior": 0.0,
-      "queda_fat_mes_valor": -222.0,
-      "queda_fat_ano_valor": -666.0,
-      "queda_fat_mes_pct": 50.0,
-      "queda_fat_ano_pct": null,
-      "queda_qt_mes_valor": -4.0,
-      "queda_qt_ano_valor": -12.0,
-      "queda_qt_mes_pct": 50.0,
-      "queda_qt_ano_pct": null,
-      "por_vendedor": {
-        "RJ-156": {
-          "fat_atual": 666.0,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 12.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-471": {
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 444.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 8.0,
           "qt_ano_anterior": 0.0
         }
       }
@@ -391291,53 +392410,45 @@ const RAIOX_OPORTUNIDADES_DATA = {
       }
     },
     {
-      "produto": "4 PACK RED BULL SF MAÇA 4X250ML",
+      "produto": "4 PACK RED BULL 250ML",
       "fornecedor": "RED BULL",
-      "estado": "RJ",
-      "fat_atual": 374.96,
-      "fat_mes_anterior": 115.04,
+      "estado": "ES",
+      "fat_atual": 262.44,
+      "fat_mes_anterior": 0.0,
       "fat_ano_anterior": 0.0,
-      "qt_atual": 13.0,
-      "qt_mes_anterior": 4.0,
+      "qt_atual": 9.0,
+      "qt_mes_anterior": 0.0,
       "qt_ano_anterior": 0.0,
-      "queda_fat_mes_valor": -259.92,
-      "queda_fat_ano_valor": -374.96,
-      "queda_fat_mes_pct": 225.9,
+      "queda_fat_mes_valor": -262.44,
+      "queda_fat_ano_valor": -262.44,
+      "queda_fat_mes_pct": null,
       "queda_fat_ano_pct": null,
       "queda_qt_mes_valor": -9.0,
-      "queda_qt_ano_valor": -13.0,
-      "queda_qt_mes_pct": 225.0,
+      "queda_qt_ano_valor": -9.0,
+      "queda_qt_mes_pct": null,
       "queda_qt_ano_pct": null,
       "por_vendedor": {
-        "RJ-144": {
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 28.76,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 1.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-155": {
-          "fat_atual": 231.28,
+        "ES-336": {
+          "fat_atual": 87.48,
           "fat_mes_anterior": 0.0,
           "fat_ano_anterior": 0.0,
-          "qt_atual": 8.0,
+          "qt_atual": 3.0,
           "qt_mes_anterior": 0.0,
           "qt_ano_anterior": 0.0
         },
-        "RJ-378": {
-          "fat_atual": 114.92,
-          "fat_mes_anterior": 86.28,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 4.0,
-          "qt_mes_anterior": 3.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-471": {
-          "fat_atual": 28.76,
+        "ES-370": {
+          "fat_atual": 116.64,
           "fat_mes_anterior": 0.0,
           "fat_ano_anterior": 0.0,
-          "qt_atual": 1.0,
+          "qt_atual": 4.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0
+        },
+        "ES-442": {
+          "fat_atual": 58.32,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 2.0,
           "qt_mes_anterior": 0.0,
           "qt_ano_anterior": 0.0
         }
@@ -391542,47 +392653,156 @@ const RAIOX_OPORTUNIDADES_DATA = {
       }
     },
     {
-      "produto": "CERVEJA HEINEKEN  LONG ZERO 24X330ML",
-      "fornecedor": "HEINEKEN",
-      "estado": "MG",
-      "fat_atual": 1430.4,
-      "fat_mes_anterior": 1150.08,
-      "fat_ano_anterior": 50405.44,
-      "qt_atual": 10.0,
-      "qt_mes_anterior": 8.0,
-      "qt_ano_anterior": 378.0,
-      "queda_fat_mes_valor": -280.32,
-      "queda_fat_ano_valor": 48975.04,
-      "queda_fat_mes_pct": 24.4,
-      "queda_fat_ano_pct": -97.2,
-      "queda_qt_mes_valor": -2.0,
-      "queda_qt_ano_valor": 368.0,
-      "queda_qt_mes_pct": 25.0,
-      "queda_qt_ano_pct": -97.4,
+      "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
+      "fornecedor": "ROBINSON CRUSOE",
+      "estado": "RJ",
+      "fat_atual": 6534.3,
+      "fat_mes_anterior": 6260.5,
+      "fat_ano_anterior": 0.0,
+      "qt_atual": 30.0,
+      "qt_mes_anterior": 29.0,
+      "qt_ano_anterior": 0.0,
+      "queda_fat_mes_valor": -273.8,
+      "queda_fat_ano_valor": -6534.3,
+      "queda_fat_mes_pct": 4.4,
+      "queda_fat_ano_pct": null,
+      "queda_qt_mes_valor": -1.0,
+      "queda_qt_ano_valor": -30.0,
+      "queda_qt_mes_pct": 3.4,
+      "queda_qt_ano_pct": null,
       "por_vendedor": {
-        "MG-327": {
-          "fat_atual": 862.56,
-          "fat_mes_anterior": 1006.32,
-          "fat_ano_anterior": 1554.96,
-          "qt_atual": 6.0,
-          "qt_mes_anterior": 7.0,
-          "qt_ano_anterior": 11.0
-        },
-        "MG-343": {
+        "RJ-153": {
           "fat_atual": 0.0,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 48412.0,
+          "fat_mes_anterior": 2394.0,
+          "fat_ano_anterior": 0.0,
           "qt_atual": 0.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 364.0
+          "qt_mes_anterior": 12.0,
+          "qt_ano_anterior": 0.0
         },
-        "MG-344": {
-          "fat_atual": 567.84,
-          "fat_mes_anterior": 143.76,
-          "fat_ano_anterior": 438.48,
+        "RJ-275": {
+          "fat_atual": 3013.8,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 15.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-379": {
+          "fat_atual": 858.0,
+          "fat_mes_anterior": 1621.0,
+          "fat_ano_anterior": 0.0,
           "qt_atual": 4.0,
+          "qt_mes_anterior": 8.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-412": {
+          "fat_atual": 2662.5,
+          "fat_mes_anterior": 1746.5,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 11.0,
+          "qt_mes_anterior": 7.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-439": {
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 249.5,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 0.0,
           "qt_mes_anterior": 1.0,
-          "qt_ano_anterior": 3.0
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-450": {
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 249.5,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 1.0,
+          "qt_ano_anterior": 0.0
+        }
+      }
+    },
+    {
+      "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+      "fornecedor": "TATUZINHO",
+      "estado": "RJ",
+      "fat_atual": 6773.3,
+      "fat_mes_anterior": 6499.42,
+      "fat_ano_anterior": 0.0,
+      "qt_atual": 84.0,
+      "qt_mes_anterior": 75.0,
+      "qt_ano_anterior": 0.0,
+      "queda_fat_mes_valor": -273.88,
+      "queda_fat_ano_valor": -6773.3,
+      "queda_fat_mes_pct": 4.2,
+      "queda_fat_ano_pct": null,
+      "queda_qt_mes_valor": -9.0,
+      "queda_qt_ano_valor": -84.0,
+      "queda_qt_mes_pct": 12.0,
+      "queda_qt_ano_pct": null,
+      "por_vendedor": {
+        "RJ-153": {
+          "fat_atual": 170.4,
+          "fat_mes_anterior": 852.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 2.0,
+          "qt_mes_anterior": 10.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-156": {
+          "fat_atual": 473.5,
+          "fat_mes_anterior": 847.5,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 5.0,
+          "qt_mes_anterior": 9.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-275": {
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 1640.6,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 20.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-378": {
+          "fat_atual": 189.4,
+          "fat_mes_anterior": 757.6,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 2.0,
+          "qt_mes_anterior": 8.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-412": {
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 1942.7,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 23.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-420": {
+          "fat_atual": 5940.0,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 75.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-431": {
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 269.66,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 3.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-471": {
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 189.36,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 2.0,
+          "qt_ano_anterior": 0.0
         }
       }
     },
@@ -391772,6 +392992,59 @@ const RAIOX_OPORTUNIDADES_DATA = {
       }
     },
     {
+      "produto": "4 PACK RED BULL SF MAÇA 4X250ML",
+      "fornecedor": "RED BULL",
+      "estado": "RJ",
+      "fat_atual": 403.72,
+      "fat_mes_anterior": 115.04,
+      "fat_ano_anterior": 0.0,
+      "qt_atual": 14.0,
+      "qt_mes_anterior": 4.0,
+      "qt_ano_anterior": 0.0,
+      "queda_fat_mes_valor": -288.68,
+      "queda_fat_ano_valor": -403.72,
+      "queda_fat_mes_pct": 250.9,
+      "queda_fat_ano_pct": null,
+      "queda_qt_mes_valor": -10.0,
+      "queda_qt_ano_valor": -14.0,
+      "queda_qt_mes_pct": 250.0,
+      "queda_qt_ano_pct": null,
+      "por_vendedor": {
+        "RJ-144": {
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 28.76,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 1.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-155": {
+          "fat_atual": 260.04,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 9.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-378": {
+          "fat_atual": 114.92,
+          "fat_mes_anterior": 86.28,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 4.0,
+          "qt_mes_anterior": 3.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-471": {
+          "fat_atual": 28.76,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 1.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0
+        }
+      }
+    },
+    {
       "produto": "CHABLIS PREMIER CRU VAILLONS 750ML",
       "fornecedor": "CASTAS",
       "estado": "RJ",
@@ -391795,51 +393068,6 @@ const RAIOX_OPORTUNIDADES_DATA = {
           "fat_mes_anterior": 0.0,
           "fat_ano_anterior": 0.0,
           "qt_atual": 1.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0
-        }
-      }
-    },
-    {
-      "produto": "4 PACK RED BULL 250ML",
-      "fornecedor": "RED BULL",
-      "estado": "ES",
-      "fat_atual": 291.6,
-      "fat_mes_anterior": 0.0,
-      "fat_ano_anterior": 0.0,
-      "qt_atual": 10.0,
-      "qt_mes_anterior": 0.0,
-      "qt_ano_anterior": 0.0,
-      "queda_fat_mes_valor": -291.6,
-      "queda_fat_ano_valor": -291.6,
-      "queda_fat_mes_pct": null,
-      "queda_fat_ano_pct": null,
-      "queda_qt_mes_valor": -10.0,
-      "queda_qt_ano_valor": -10.0,
-      "queda_qt_mes_pct": null,
-      "queda_qt_ano_pct": null,
-      "por_vendedor": {
-        "ES-336": {
-          "fat_atual": 116.64,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 4.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0
-        },
-        "ES-370": {
-          "fat_atual": 116.64,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 4.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0
-        },
-        "ES-442": {
-          "fat_atual": 58.32,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 2.0,
           "qt_mes_anterior": 0.0,
           "qt_ano_anterior": 0.0
         }
@@ -392137,6 +393365,67 @@ const RAIOX_OPORTUNIDADES_DATA = {
           "fat_ano_anterior": 0.0,
           "qt_atual": 1.0,
           "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0
+        }
+      }
+    },
+    {
+      "produto": "ST PIERRE ZERO LATA RED MINT LT 24X310ML",
+      "fornecedor": "TATUZINHO",
+      "estado": "RJ",
+      "fat_atual": 798.9,
+      "fat_mes_anterior": 488.36,
+      "fat_ano_anterior": 0.0,
+      "qt_atual": 8.0,
+      "qt_mes_anterior": 5.0,
+      "qt_ano_anterior": 0.0,
+      "queda_fat_mes_valor": -310.54,
+      "queda_fat_ano_valor": -798.9,
+      "queda_fat_mes_pct": 63.6,
+      "queda_fat_ano_pct": null,
+      "queda_qt_mes_valor": -3.0,
+      "queda_qt_ano_valor": -8.0,
+      "queda_qt_mes_pct": 60.0,
+      "queda_qt_ano_pct": null,
+      "por_vendedor": {
+        "RJ-156": {
+          "fat_atual": 99.9,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 1.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-379": {
+          "fat_atual": 93.6,
+          "fat_mes_anterior": 95.9,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 1.0,
+          "qt_mes_anterior": 1.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-431": {
+          "fat_atual": 509.5,
+          "fat_mes_anterior": 105.9,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 5.0,
+          "qt_mes_anterior": 1.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-439": {
+          "fat_atual": 95.9,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 1.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-450": {
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 286.56,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 3.0,
           "qt_ano_anterior": 0.0
         }
       }
@@ -392563,6 +393852,43 @@ const RAIOX_OPORTUNIDADES_DATA = {
       }
     },
     {
+      "produto": "NOSSO CHOP RED DRAFT VD 6X600ML",
+      "fornecedor": "NOSSO CHOPE",
+      "estado": "RJ",
+      "fat_atual": 777.0,
+      "fat_mes_anterior": 444.0,
+      "fat_ano_anterior": 0.0,
+      "qt_atual": 14.0,
+      "qt_mes_anterior": 8.0,
+      "qt_ano_anterior": 0.0,
+      "queda_fat_mes_valor": -333.0,
+      "queda_fat_ano_valor": -777.0,
+      "queda_fat_mes_pct": 75.0,
+      "queda_fat_ano_pct": null,
+      "queda_qt_mes_valor": -6.0,
+      "queda_qt_ano_valor": -14.0,
+      "queda_qt_mes_pct": 75.0,
+      "queda_qt_ano_pct": null,
+      "por_vendedor": {
+        "RJ-156": {
+          "fat_atual": 777.0,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 14.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-471": {
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 444.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 8.0,
+          "qt_ano_anterior": 0.0
+        }
+      }
+    },
+    {
       "produto": "PINATI DOUBLE BAR COCO E AMENDOIM 32X35G",
       "fornecedor": "PINATI",
       "estado": "ES",
@@ -392858,6 +394184,96 @@ const RAIOX_OPORTUNIDADES_DATA = {
           "fat_mes_anterior": 0.0,
           "fat_ano_anterior": 0.0,
           "qt_atual": 6.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0
+        }
+      }
+    },
+    {
+      "produto": "RC ATUM RALADO MOLHO DE TOMATE 24X140G",
+      "fornecedor": "ROBINSON CRUSOE",
+      "estado": "RJ",
+      "fat_atual": 1718.25,
+      "fat_mes_anterior": 1366.48,
+      "fat_ano_anterior": 0.0,
+      "qt_atual": 13.0,
+      "qt_mes_anterior": 9.0,
+      "qt_ano_anterior": 0.0,
+      "queda_fat_mes_valor": -351.77,
+      "queda_fat_ano_valor": -1718.25,
+      "queda_fat_mes_pct": 25.7,
+      "queda_fat_ano_pct": null,
+      "queda_qt_mes_valor": -4.0,
+      "queda_qt_ano_valor": -13.0,
+      "queda_qt_mes_pct": 44.4,
+      "queda_qt_ano_pct": null,
+      "por_vendedor": {
+        "RJ-153": {
+          "fat_atual": 389.52,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 3.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-379": {
+          "fat_atual": 396.0,
+          "fat_mes_anterior": 141.6,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 3.0,
+          "qt_mes_anterior": 1.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-412": {
+          "fat_atual": 129.84,
+          "fat_mes_anterior": 1071.52,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 1.0,
+          "qt_mes_anterior": 7.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-419": {
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 153.36,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 1.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-431": {
+          "fat_atual": 802.89,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 6.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0
+        }
+      }
+    },
+    {
+      "produto": "RC PATE ATUM COM AZEITONAS 12X80G",
+      "fornecedor": "ROBINSON CRUSOE",
+      "estado": "RJ",
+      "fat_atual": 357.6,
+      "fat_mes_anterior": 0.0,
+      "fat_ano_anterior": 0.0,
+      "qt_atual": 2.0,
+      "qt_mes_anterior": 0.0,
+      "qt_ano_anterior": 0.0,
+      "queda_fat_mes_valor": -357.6,
+      "queda_fat_ano_valor": -357.6,
+      "queda_fat_mes_pct": null,
+      "queda_fat_ano_pct": null,
+      "queda_qt_mes_valor": -2.0,
+      "queda_qt_ano_valor": -2.0,
+      "queda_qt_mes_pct": null,
+      "queda_qt_ano_pct": null,
+      "por_vendedor": {
+        "RJ-431": {
+          "fat_atual": 357.6,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 2.0,
           "qt_mes_anterior": 0.0,
           "qt_ano_anterior": 0.0
         }
@@ -393924,67 +395340,6 @@ const RAIOX_OPORTUNIDADES_DATA = {
       }
     },
     {
-      "produto": "WHISKY J WALKER BLACK LABEL 1L",
-      "fornecedor": "DIAGEO",
-      "estado": "MG",
-      "fat_atual": 6240.9,
-      "fat_mes_anterior": 5812.0,
-      "fat_ano_anterior": 0.0,
-      "qt_atual": 41.0,
-      "qt_mes_anterior": 40.0,
-      "qt_ano_anterior": 0.0,
-      "queda_fat_mes_valor": -428.9,
-      "queda_fat_ano_valor": -6240.9,
-      "queda_fat_mes_pct": 7.4,
-      "queda_fat_ano_pct": null,
-      "queda_qt_mes_valor": -1.0,
-      "queda_qt_ano_valor": -41.0,
-      "queda_qt_mes_pct": 2.5,
-      "queda_qt_ano_pct": null,
-      "por_vendedor": {
-        "MG-327": {
-          "fat_atual": 148.9,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 1.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0
-        },
-        "MG-331": {
-          "fat_atual": 291.8,
-          "fat_mes_anterior": 297.8,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 2.0,
-          "qt_mes_anterior": 2.0,
-          "qt_ano_anterior": 0.0
-        },
-        "MG-343": {
-          "fat_atual": 5653.3,
-          "fat_mes_anterior": 5216.4,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 37.0,
-          "qt_mes_anterior": 36.0,
-          "qt_ano_anterior": 0.0
-        },
-        "MG-344": {
-          "fat_atual": 146.9,
-          "fat_mes_anterior": 297.8,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 1.0,
-          "qt_mes_anterior": 2.0,
-          "qt_ano_anterior": 0.0
-        },
-        "MG-354": {
-          "fat_atual": 3789.6,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 24.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0
-        }
-      }
-    },
-    {
       "produto": "WHISKY JACK DANIELS 200 ML",
       "fornecedor": "BROWN",
       "estado": "ES",
@@ -394259,75 +395614,6 @@ const RAIOX_OPORTUNIDADES_DATA = {
           "fat_mes_anterior": 0.0,
           "fat_ano_anterior": 0.0,
           "qt_atual": 6.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0
-        }
-      }
-    },
-    {
-      "produto": "RC ATUM RALADO OLEO 24X140G",
-      "fornecedor": "ROBINSON CRUSOE",
-      "estado": "RJ",
-      "fat_atual": 2129.22,
-      "fat_mes_anterior": 1661.44,
-      "fat_ano_anterior": 0.0,
-      "qt_atual": 16.0,
-      "qt_mes_anterior": 11.0,
-      "qt_ano_anterior": 0.0,
-      "queda_fat_mes_valor": -467.78,
-      "queda_fat_ano_valor": -2129.22,
-      "queda_fat_mes_pct": 28.2,
-      "queda_fat_ano_pct": null,
-      "queda_qt_mes_valor": -5.0,
-      "queda_qt_ano_valor": -16.0,
-      "queda_qt_mes_pct": 45.5,
-      "queda_qt_ano_pct": null,
-      "por_vendedor": {
-        "RJ-153": {
-          "fat_atual": 649.2,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 5.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-379": {
-          "fat_atual": 264.0,
-          "fat_mes_anterior": 283.2,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 2.0,
-          "qt_mes_anterior": 2.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-412": {
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 1071.52,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 7.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-419": {
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 153.36,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 1.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-431": {
-          "fat_atual": 1062.66,
-          "fat_mes_anterior": 153.36,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 8.0,
-          "qt_mes_anterior": 1.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-439": {
-          "fat_atual": 153.36,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 1.0,
           "qt_mes_anterior": 0.0,
           "qt_ano_anterior": 0.0
         }
@@ -395688,6 +396974,67 @@ const RAIOX_OPORTUNIDADES_DATA = {
       }
     },
     {
+      "produto": "WHISKY J WALKER BLACK LABEL 1L",
+      "fornecedor": "DIAGEO",
+      "estado": "MG",
+      "fat_atual": 6387.8,
+      "fat_mes_anterior": 5812.0,
+      "fat_ano_anterior": 0.0,
+      "qt_atual": 42.0,
+      "qt_mes_anterior": 40.0,
+      "qt_ano_anterior": 0.0,
+      "queda_fat_mes_valor": -575.8,
+      "queda_fat_ano_valor": -6387.8,
+      "queda_fat_mes_pct": 9.9,
+      "queda_fat_ano_pct": null,
+      "queda_qt_mes_valor": -2.0,
+      "queda_qt_ano_valor": -42.0,
+      "queda_qt_mes_pct": 5.0,
+      "queda_qt_ano_pct": null,
+      "por_vendedor": {
+        "MG-327": {
+          "fat_atual": 148.9,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 1.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0
+        },
+        "MG-331": {
+          "fat_atual": 438.7,
+          "fat_mes_anterior": 297.8,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 3.0,
+          "qt_mes_anterior": 2.0,
+          "qt_ano_anterior": 0.0
+        },
+        "MG-343": {
+          "fat_atual": 5653.3,
+          "fat_mes_anterior": 5216.4,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 37.0,
+          "qt_mes_anterior": 36.0,
+          "qt_ano_anterior": 0.0
+        },
+        "MG-344": {
+          "fat_atual": 146.9,
+          "fat_mes_anterior": 297.8,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 1.0,
+          "qt_mes_anterior": 2.0,
+          "qt_ano_anterior": 0.0
+        },
+        "MG-354": {
+          "fat_atual": 3789.6,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 24.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0
+        }
+      }
+    },
+    {
       "produto": "VODKA BELVEDERE SUMMER 700 ML",
       "fornecedor": "MOET HENNESY",
       "estado": "SP",
@@ -395757,6 +397104,75 @@ const RAIOX_OPORTUNIDADES_DATA = {
           "fat_ano_anterior": 0.0,
           "qt_atual": 12.0,
           "qt_mes_anterior": 5.0,
+          "qt_ano_anterior": 0.0
+        }
+      }
+    },
+    {
+      "produto": "RC ATUM RALADO OLEO 24X140G",
+      "fornecedor": "ROBINSON CRUSOE",
+      "estado": "RJ",
+      "fat_atual": 2259.12,
+      "fat_mes_anterior": 1661.44,
+      "fat_ano_anterior": 0.0,
+      "qt_atual": 17.0,
+      "qt_mes_anterior": 11.0,
+      "qt_ano_anterior": 0.0,
+      "queda_fat_mes_valor": -597.68,
+      "queda_fat_ano_valor": -2259.12,
+      "queda_fat_mes_pct": 36.0,
+      "queda_fat_ano_pct": null,
+      "queda_qt_mes_valor": -6.0,
+      "queda_qt_ano_valor": -17.0,
+      "queda_qt_mes_pct": 54.5,
+      "queda_qt_ano_pct": null,
+      "por_vendedor": {
+        "RJ-153": {
+          "fat_atual": 649.2,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 5.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-379": {
+          "fat_atual": 264.0,
+          "fat_mes_anterior": 283.2,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 2.0,
+          "qt_mes_anterior": 2.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-412": {
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 1071.52,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 7.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-419": {
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 153.36,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 1.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-431": {
+          "fat_atual": 1192.56,
+          "fat_mes_anterior": 153.36,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 9.0,
+          "qt_mes_anterior": 1.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-439": {
+          "fat_atual": 153.36,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 1.0,
+          "qt_mes_anterior": 0.0,
           "qt_ano_anterior": 0.0
         }
       }
@@ -396153,107 +397569,6 @@ const RAIOX_OPORTUNIDADES_DATA = {
       }
     },
     {
-      "produto": "ST PIERRE LATA PINK LEMON LT 24X270ML",
-      "fornecedor": "TATUZINHO",
-      "estado": "RJ",
-      "fat_atual": 2817.0,
-      "fat_mes_anterior": 2189.08,
-      "fat_ano_anterior": 0.0,
-      "qt_atual": 30.0,
-      "qt_mes_anterior": 23.0,
-      "qt_ano_anterior": 0.0,
-      "queda_fat_mes_valor": -627.92,
-      "queda_fat_ano_valor": -2817.0,
-      "queda_fat_mes_pct": 28.7,
-      "queda_fat_ano_pct": null,
-      "queda_qt_mes_valor": -7.0,
-      "queda_qt_ano_valor": -30.0,
-      "queda_qt_mes_pct": 30.4,
-      "queda_qt_ano_pct": null,
-      "por_vendedor": {
-        "RJ-144": {
-          "fat_atual": 994.9,
-          "fat_mes_anterior": 735.2,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 11.0,
-          "qt_mes_anterior": 8.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-153": {
-          "fat_atual": 575.4,
-          "fat_mes_anterior": 287.7,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 6.0,
-          "qt_mes_anterior": 3.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-155": {
-          "fat_atual": 759.2,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 8.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-156": {
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 95.9,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 1.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-378": {
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 275.7,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 3.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-419": {
-          "fat_atual": 191.8,
-          "fat_mes_anterior": 575.4,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 2.0,
-          "qt_mes_anterior": 6.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-431": {
-          "fat_atual": 199.8,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 2.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-439": {
-          "fat_atual": 95.9,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 1.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-450": {
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 95.52,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 1.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-471": {
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 399.36,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 4.0,
-          "qt_ano_anterior": 0.0
-        }
-      }
-    },
-    {
       "produto": "VINHO TINTO VENTOZELO RESERVA 750ML",
       "fornecedor": "CASTAS",
       "estado": "RJ",
@@ -396332,115 +397647,6 @@ const RAIOX_OPORTUNIDADES_DATA = {
           "qt_atual": 0.0,
           "qt_mes_anterior": 1.0,
           "qt_ano_anterior": 0.0
-        }
-      }
-    },
-    {
-      "produto": "AGUA MINERAL MINALBA C/ GAS 12X510ML",
-      "fornecedor": "MINALBA",
-      "estado": "RJ",
-      "fat_atual": 7572.8,
-      "fat_mes_anterior": 6931.2,
-      "fat_ano_anterior": 6814.64,
-      "qt_atual": 302.0,
-      "qt_mes_anterior": 308.0,
-      "qt_ano_anterior": 386.0,
-      "queda_fat_mes_valor": -641.6,
-      "queda_fat_ano_valor": -758.16,
-      "queda_fat_mes_pct": 9.3,
-      "queda_fat_ano_pct": 11.1,
-      "queda_qt_mes_valor": 6.0,
-      "queda_qt_ano_valor": 84.0,
-      "queda_qt_mes_pct": -1.9,
-      "queda_qt_ano_pct": -21.8,
-      "por_vendedor": {
-        "RJ-144": {
-          "fat_atual": 89.5,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 5.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-153": {
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 34.98,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 2.0
-        },
-        "RJ-155": {
-          "fat_atual": 86.7,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 268.5,
-          "qt_atual": 3.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 15.0
-        },
-        "RJ-156": {
-          "fat_atual": 4132.7,
-          "fat_mes_anterior": 1445.0,
-          "fat_ano_anterior": 5282.13,
-          "qt_atual": 143.0,
-          "qt_mes_anterior": 50.0,
-          "qt_ano_anterior": 302.0
-        },
-        "RJ-159": {
-          "fat_atual": 578.0,
-          "fat_mes_anterior": 722.5,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 20.0,
-          "qt_mes_anterior": 25.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-172": {
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 1920.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 100.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-378": {
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 47.8,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 2.0
-        },
-        "RJ-379": {
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 289.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 10.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-412": {
-          "fat_atual": 433.5,
-          "fat_mes_anterior": 433.5,
-          "fat_ano_anterior": 1049.83,
-          "qt_atual": 15.0,
-          "qt_mes_anterior": 15.0,
-          "qt_ano_anterior": 60.0
-        },
-        "RJ-431": {
-          "fat_atual": 115.6,
-          "fat_mes_anterior": 231.2,
-          "fat_ano_anterior": 437.25,
-          "qt_atual": 4.0,
-          "qt_mes_anterior": 8.0,
-          "qt_ano_anterior": 25.0
-        },
-        "RJ-471": {
-          "fat_atual": 2136.8,
-          "fat_mes_anterior": 1890.0,
-          "fat_ano_anterior": 219.0,
-          "qt_atual": 112.0,
-          "qt_mes_anterior": 100.0,
-          "qt_ano_anterior": 10.0
         }
       }
     },
@@ -397021,6 +398227,107 @@ const RAIOX_OPORTUNIDADES_DATA = {
       }
     },
     {
+      "produto": "ST PIERRE LATA PINK LEMON LT 24X270ML",
+      "fornecedor": "TATUZINHO",
+      "estado": "RJ",
+      "fat_atual": 2912.9,
+      "fat_mes_anterior": 2189.08,
+      "fat_ano_anterior": 0.0,
+      "qt_atual": 31.0,
+      "qt_mes_anterior": 23.0,
+      "qt_ano_anterior": 0.0,
+      "queda_fat_mes_valor": -723.82,
+      "queda_fat_ano_valor": -2912.9,
+      "queda_fat_mes_pct": 33.1,
+      "queda_fat_ano_pct": null,
+      "queda_qt_mes_valor": -8.0,
+      "queda_qt_ano_valor": -31.0,
+      "queda_qt_mes_pct": 34.8,
+      "queda_qt_ano_pct": null,
+      "por_vendedor": {
+        "RJ-144": {
+          "fat_atual": 994.9,
+          "fat_mes_anterior": 735.2,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 11.0,
+          "qt_mes_anterior": 8.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-153": {
+          "fat_atual": 575.4,
+          "fat_mes_anterior": 287.7,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 6.0,
+          "qt_mes_anterior": 3.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-155": {
+          "fat_atual": 759.2,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 8.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-156": {
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 95.9,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 1.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-378": {
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 275.7,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 3.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-419": {
+          "fat_atual": 191.8,
+          "fat_mes_anterior": 575.4,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 2.0,
+          "qt_mes_anterior": 6.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-431": {
+          "fat_atual": 199.8,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 2.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-439": {
+          "fat_atual": 95.9,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 1.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-450": {
+          "fat_atual": 95.9,
+          "fat_mes_anterior": 95.52,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 1.0,
+          "qt_mes_anterior": 1.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-471": {
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 399.36,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 4.0,
+          "qt_ano_anterior": 0.0
+        }
+      }
+    },
+    {
       "produto": "WHISKY AME EAGLE RARE 750ML",
       "fornecedor": "AURORA",
       "estado": "SP",
@@ -397157,6 +398464,115 @@ const RAIOX_OPORTUNIDADES_DATA = {
           "qt_atual": 6.0,
           "qt_mes_anterior": 0.0,
           "qt_ano_anterior": 0.0
+        }
+      }
+    },
+    {
+      "produto": "AGUA MINERAL MINALBA C/ GAS 12X510ML",
+      "fornecedor": "MINALBA",
+      "estado": "RJ",
+      "fat_atual": 7688.4,
+      "fat_mes_anterior": 6931.2,
+      "fat_ano_anterior": 6814.64,
+      "qt_atual": 306.0,
+      "qt_mes_anterior": 308.0,
+      "qt_ano_anterior": 386.0,
+      "queda_fat_mes_valor": -757.2,
+      "queda_fat_ano_valor": -873.76,
+      "queda_fat_mes_pct": 10.9,
+      "queda_fat_ano_pct": 12.8,
+      "queda_qt_mes_valor": 2.0,
+      "queda_qt_ano_valor": 80.0,
+      "queda_qt_mes_pct": -0.6,
+      "queda_qt_ano_pct": -20.7,
+      "por_vendedor": {
+        "RJ-144": {
+          "fat_atual": 89.5,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 5.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-153": {
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 34.98,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 2.0
+        },
+        "RJ-155": {
+          "fat_atual": 86.7,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 268.5,
+          "qt_atual": 3.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 15.0
+        },
+        "RJ-156": {
+          "fat_atual": 4132.7,
+          "fat_mes_anterior": 1445.0,
+          "fat_ano_anterior": 5282.13,
+          "qt_atual": 143.0,
+          "qt_mes_anterior": 50.0,
+          "qt_ano_anterior": 302.0
+        },
+        "RJ-159": {
+          "fat_atual": 578.0,
+          "fat_mes_anterior": 722.5,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 20.0,
+          "qt_mes_anterior": 25.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-172": {
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 1920.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 100.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-378": {
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 47.8,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 2.0
+        },
+        "RJ-379": {
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 289.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 10.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-412": {
+          "fat_atual": 433.5,
+          "fat_mes_anterior": 433.5,
+          "fat_ano_anterior": 1049.83,
+          "qt_atual": 15.0,
+          "qt_mes_anterior": 15.0,
+          "qt_ano_anterior": 60.0
+        },
+        "RJ-431": {
+          "fat_atual": 231.2,
+          "fat_mes_anterior": 231.2,
+          "fat_ano_anterior": 437.25,
+          "qt_atual": 8.0,
+          "qt_mes_anterior": 8.0,
+          "qt_ano_anterior": 25.0
+        },
+        "RJ-471": {
+          "fat_atual": 2136.8,
+          "fat_mes_anterior": 1890.0,
+          "fat_ano_anterior": 219.0,
+          "qt_atual": 112.0,
+          "qt_mes_anterior": 100.0,
+          "qt_ano_anterior": 10.0
         }
       }
     },
@@ -397793,59 +399209,6 @@ const RAIOX_OPORTUNIDADES_DATA = {
       }
     },
     {
-      "produto": "CERVEJA HEINEKEN ZERO LONG  24X330ML",
-      "fornecedor": "KAISER",
-      "estado": "RJ",
-      "fat_atual": 1155.2,
-      "fat_mes_anterior": 256.8,
-      "fat_ano_anterior": 595.0,
-      "qt_atual": 9.0,
-      "qt_mes_anterior": 2.0,
-      "qt_ano_anterior": 5.0,
-      "queda_fat_mes_valor": -898.4,
-      "queda_fat_ano_valor": -560.2,
-      "queda_fat_mes_pct": 349.8,
-      "queda_fat_ano_pct": 94.2,
-      "queda_qt_mes_valor": -7.0,
-      "queda_qt_ano_valor": -4.0,
-      "queda_qt_mes_pct": 350.0,
-      "queda_qt_ano_pct": 80.0,
-      "por_vendedor": {
-        "RJ-144": {
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 595.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 5.0
-        },
-        "RJ-378": {
-          "fat_atual": 132.0,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 1.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-379": {
-          "fat_atual": 1023.2,
-          "fat_mes_anterior": 127.9,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 8.0,
-          "qt_mes_anterior": 1.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-412": {
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 128.9,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 1.0,
-          "qt_ano_anterior": 0.0
-        }
-      }
-    },
-    {
       "produto": "VINHO LOS ALJIBES (VA) BRANCO 750ML",
       "fornecedor": "CASTAS",
       "estado": "RJ",
@@ -398315,6 +399678,51 @@ const RAIOX_OPORTUNIDADES_DATA = {
           "qt_atual": 11.0,
           "qt_mes_anterior": 0.0,
           "qt_ano_anterior": 0.0
+        }
+      }
+    },
+    {
+      "produto": "CERVEJA HEINEKEN  LONG ZERO 24X330ML",
+      "fornecedor": "HEINEKEN",
+      "estado": "MG",
+      "fat_atual": 2149.2,
+      "fat_mes_anterior": 1150.08,
+      "fat_ano_anterior": 50405.44,
+      "qt_atual": 15.0,
+      "qt_mes_anterior": 8.0,
+      "qt_ano_anterior": 378.0,
+      "queda_fat_mes_valor": -999.12,
+      "queda_fat_ano_valor": 48256.24,
+      "queda_fat_mes_pct": 86.9,
+      "queda_fat_ano_pct": -95.7,
+      "queda_qt_mes_valor": -7.0,
+      "queda_qt_ano_valor": 363.0,
+      "queda_qt_mes_pct": 87.5,
+      "queda_qt_ano_pct": -96.0,
+      "por_vendedor": {
+        "MG-327": {
+          "fat_atual": 1581.36,
+          "fat_mes_anterior": 1006.32,
+          "fat_ano_anterior": 1554.96,
+          "qt_atual": 11.0,
+          "qt_mes_anterior": 7.0,
+          "qt_ano_anterior": 11.0
+        },
+        "MG-343": {
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 48412.0,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 364.0
+        },
+        "MG-344": {
+          "fat_atual": 567.84,
+          "fat_mes_anterior": 143.76,
+          "fat_ano_anterior": 438.48,
+          "qt_atual": 4.0,
+          "qt_mes_anterior": 1.0,
+          "qt_ano_anterior": 3.0
         }
       }
     },
@@ -399156,6 +400564,59 @@ const RAIOX_OPORTUNIDADES_DATA = {
         "MG-362": {
           "fat_atual": 0.0,
           "fat_mes_anterior": 54.9,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 1.0,
+          "qt_ano_anterior": 0.0
+        }
+      }
+    },
+    {
+      "produto": "CERVEJA HEINEKEN ZERO LONG  24X330ML",
+      "fornecedor": "KAISER",
+      "estado": "RJ",
+      "fat_atual": 1411.0,
+      "fat_mes_anterior": 256.8,
+      "fat_ano_anterior": 595.0,
+      "qt_atual": 11.0,
+      "qt_mes_anterior": 2.0,
+      "qt_ano_anterior": 5.0,
+      "queda_fat_mes_valor": -1154.2,
+      "queda_fat_ano_valor": -816.0,
+      "queda_fat_mes_pct": 449.5,
+      "queda_fat_ano_pct": 137.1,
+      "queda_qt_mes_valor": -9.0,
+      "queda_qt_ano_valor": -6.0,
+      "queda_qt_mes_pct": 450.0,
+      "queda_qt_ano_pct": 120.0,
+      "por_vendedor": {
+        "RJ-144": {
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 595.0,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 5.0
+        },
+        "RJ-378": {
+          "fat_atual": 132.0,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 1.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-379": {
+          "fat_atual": 1279.0,
+          "fat_mes_anterior": 127.9,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 10.0,
+          "qt_mes_anterior": 1.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-412": {
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 128.9,
           "fat_ano_anterior": 0.0,
           "qt_atual": 0.0,
           "qt_mes_anterior": 1.0,
@@ -400008,91 +401469,6 @@ const RAIOX_OPORTUNIDADES_DATA = {
       }
     },
     {
-      "produto": "MOVING HYDRO PROTEIN UVA 12X500ML",
-      "fornecedor": "TATUZINHO",
-      "estado": "RJ",
-      "fat_atual": 6484.4,
-      "fat_mes_anterior": 5201.6,
-      "fat_ano_anterior": 0.0,
-      "qt_atual": 81.0,
-      "qt_mes_anterior": 60.0,
-      "qt_ano_anterior": 0.0,
-      "queda_fat_mes_valor": -1282.8,
-      "queda_fat_ano_valor": -6484.4,
-      "queda_fat_mes_pct": 24.7,
-      "queda_fat_ano_pct": null,
-      "queda_qt_mes_valor": -21.0,
-      "queda_qt_ano_valor": -81.0,
-      "queda_qt_mes_pct": 35.0,
-      "queda_qt_ano_pct": null,
-      "por_vendedor": {
-        "RJ-153": {
-          "fat_atual": 170.4,
-          "fat_mes_anterior": 766.8,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 2.0,
-          "qt_mes_anterior": 9.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-156": {
-          "fat_atual": 374.0,
-          "fat_mes_anterior": 1027.3,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 4.0,
-          "qt_mes_anterior": 11.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-275": {
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 984.36,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 12.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-378": {
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 473.5,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 5.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-412": {
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 1680.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 20.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-420": {
-          "fat_atual": 5940.0,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 75.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-431": {
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 174.96,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 2.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-471": {
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 94.68,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 1.0,
-          "qt_ano_anterior": 0.0
-        }
-      }
-    },
-    {
       "produto": "TEQUILA PATRON REPOSADO",
       "fornecedor": "BACARDI",
       "estado": "SP",
@@ -400871,86 +402247,94 @@ const RAIOX_OPORTUNIDADES_DATA = {
       }
     },
     {
-      "produto": "GIN TANQUERAY  750 ML",
-      "fornecedor": "DIAGEO",
+      "produto": "MOVING HYDRO PROTEIN UVA 12X500ML",
+      "fornecedor": "TATUZINHO",
       "estado": "RJ",
-      "fat_atual": 8036.4,
-      "fat_mes_anterior": 6464.29,
-      "fat_ano_anterior": 3076.7,
-      "qt_atual": 88.0,
-      "qt_mes_anterior": 64.0,
-      "qt_ano_anterior": 33.0,
-      "queda_fat_mes_valor": -1572.11,
-      "queda_fat_ano_valor": -4959.7,
-      "queda_fat_mes_pct": 24.3,
-      "queda_fat_ano_pct": 161.2,
+      "fat_atual": 6768.5,
+      "fat_mes_anterior": 5201.6,
+      "fat_ano_anterior": 0.0,
+      "qt_atual": 84.0,
+      "qt_mes_anterior": 60.0,
+      "qt_ano_anterior": 0.0,
+      "queda_fat_mes_valor": -1566.9,
+      "queda_fat_ano_valor": -6768.5,
+      "queda_fat_mes_pct": 30.1,
+      "queda_fat_ano_pct": null,
       "queda_qt_mes_valor": -24.0,
-      "queda_qt_ano_valor": -55.0,
-      "queda_qt_mes_pct": 37.5,
-      "queda_qt_ano_pct": 166.7,
+      "queda_qt_ano_valor": -84.0,
+      "queda_qt_mes_pct": 40.0,
+      "queda_qt_ano_pct": null,
       "por_vendedor": {
-        "RJ-144": {
-          "fat_atual": 4405.1,
-          "fat_mes_anterior": 359.6,
-          "fat_ano_anterior": 712.92,
-          "qt_atual": 49.0,
-          "qt_mes_anterior": 4.0,
-          "qt_ano_anterior": 7.0
-        },
-        "RJ-155": {
-          "fat_atual": 1078.8,
-          "fat_mes_anterior": 4875.4,
+        "RJ-153": {
+          "fat_atual": 170.4,
+          "fat_mes_anterior": 766.8,
           "fat_ano_anterior": 0.0,
-          "qt_atual": 12.0,
-          "qt_mes_anterior": 46.0,
+          "qt_atual": 2.0,
+          "qt_mes_anterior": 9.0,
           "qt_ano_anterior": 0.0
         },
         "RJ-156": {
-          "fat_atual": 1718.4,
-          "fat_mes_anterior": 94.9,
-          "fat_ano_anterior": 2162.88,
-          "qt_atual": 18.0,
-          "qt_mes_anterior": 1.0,
-          "qt_ano_anterior": 24.0
+          "fat_atual": 374.0,
+          "fat_mes_anterior": 1027.3,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 4.0,
+          "qt_mes_anterior": 11.0,
+          "qt_ano_anterior": 0.0
         },
-        "RJ-159": {
-          "fat_atual": 179.8,
-          "fat_mes_anterior": 185.8,
-          "fat_ano_anterior": 103.9,
+        "RJ-275": {
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 984.36,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 12.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-378": {
+          "fat_atual": 189.4,
+          "fat_mes_anterior": 473.5,
+          "fat_ano_anterior": 0.0,
           "qt_atual": 2.0,
-          "qt_mes_anterior": 2.0,
-          "qt_ano_anterior": 1.0
+          "qt_mes_anterior": 5.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-379": {
+          "fat_atual": 94.7,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 1.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0
         },
         "RJ-412": {
-          "fat_atual": 189.8,
-          "fat_mes_anterior": 190.8,
-          "fat_ano_anterior": 97.0,
-          "qt_atual": 2.0,
-          "qt_mes_anterior": 2.0,
-          "qt_ano_anterior": 1.0
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 1680.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 20.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-420": {
+          "fat_atual": 5940.0,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 75.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0
         },
         "RJ-431": {
           "fat_atual": 0.0,
-          "fat_mes_anterior": 193.8,
+          "fat_mes_anterior": 174.96,
           "fat_ano_anterior": 0.0,
           "qt_atual": 0.0,
           "qt_mes_anterior": 2.0,
           "qt_ano_anterior": 0.0
         },
-        "RJ-450": {
+        "RJ-471": {
           "fat_atual": 0.0,
-          "fat_mes_anterior": 563.99,
+          "fat_mes_anterior": 94.68,
           "fat_ano_anterior": 0.0,
           "qt_atual": 0.0,
-          "qt_mes_anterior": 7.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-471": {
-          "fat_atual": 464.5,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 5.0,
-          "qt_mes_anterior": 0.0,
+          "qt_mes_anterior": 1.0,
           "qt_ano_anterior": 0.0
         }
       }
@@ -401513,6 +402897,91 @@ const RAIOX_OPORTUNIDADES_DATA = {
           "fat_ano_anterior": 0.0,
           "qt_atual": 132.0,
           "qt_mes_anterior": 72.0,
+          "qt_ano_anterior": 0.0
+        }
+      }
+    },
+    {
+      "produto": "GIN TANQUERAY  750 ML",
+      "fornecedor": "DIAGEO",
+      "estado": "RJ",
+      "fat_atual": 8221.2,
+      "fat_mes_anterior": 6464.29,
+      "fat_ano_anterior": 3076.7,
+      "qt_atual": 90.0,
+      "qt_mes_anterior": 64.0,
+      "qt_ano_anterior": 33.0,
+      "queda_fat_mes_valor": -1756.91,
+      "queda_fat_ano_valor": -5144.5,
+      "queda_fat_mes_pct": 27.2,
+      "queda_fat_ano_pct": 167.2,
+      "queda_qt_mes_valor": -26.0,
+      "queda_qt_ano_valor": -57.0,
+      "queda_qt_mes_pct": 40.6,
+      "queda_qt_ano_pct": 172.7,
+      "por_vendedor": {
+        "RJ-144": {
+          "fat_atual": 4405.1,
+          "fat_mes_anterior": 359.6,
+          "fat_ano_anterior": 712.92,
+          "qt_atual": 49.0,
+          "qt_mes_anterior": 4.0,
+          "qt_ano_anterior": 7.0
+        },
+        "RJ-155": {
+          "fat_atual": 1168.7,
+          "fat_mes_anterior": 4875.4,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 13.0,
+          "qt_mes_anterior": 46.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-156": {
+          "fat_atual": 1813.3,
+          "fat_mes_anterior": 94.9,
+          "fat_ano_anterior": 2162.88,
+          "qt_atual": 19.0,
+          "qt_mes_anterior": 1.0,
+          "qt_ano_anterior": 24.0
+        },
+        "RJ-159": {
+          "fat_atual": 179.8,
+          "fat_mes_anterior": 185.8,
+          "fat_ano_anterior": 103.9,
+          "qt_atual": 2.0,
+          "qt_mes_anterior": 2.0,
+          "qt_ano_anterior": 1.0
+        },
+        "RJ-412": {
+          "fat_atual": 189.8,
+          "fat_mes_anterior": 190.8,
+          "fat_ano_anterior": 97.0,
+          "qt_atual": 2.0,
+          "qt_mes_anterior": 2.0,
+          "qt_ano_anterior": 1.0
+        },
+        "RJ-431": {
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 193.8,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 2.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-450": {
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 563.99,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 7.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-471": {
+          "fat_atual": 464.5,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 5.0,
+          "qt_mes_anterior": 0.0,
           "qt_ano_anterior": 0.0
         }
       }
@@ -403362,176 +404831,6 @@ const RAIOX_OPORTUNIDADES_DATA = {
       }
     },
     {
-      "produto": "4 PACK RED BULL 250ML",
-      "fornecedor": "RED BULL",
-      "estado": "RJ",
-      "fat_atual": 2912.56,
-      "fat_mes_anterior": 0.0,
-      "fat_ano_anterior": 0.0,
-      "qt_atual": 98.0,
-      "qt_mes_anterior": 0.0,
-      "qt_ano_anterior": 0.0,
-      "queda_fat_mes_valor": -2912.56,
-      "queda_fat_ano_valor": -2912.56,
-      "queda_fat_mes_pct": null,
-      "queda_fat_ano_pct": null,
-      "queda_qt_mes_valor": -98.0,
-      "queda_qt_ano_valor": -98.0,
-      "queda_qt_mes_pct": null,
-      "queda_qt_ano_pct": null,
-      "por_vendedor": {
-        "RJ-241": {
-          "fat_atual": 89.88,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 3.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-378": {
-          "fat_atual": 176.16,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 6.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-379": {
-          "fat_atual": 355.92,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 12.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-431": {
-          "fat_atual": 1967.04,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 66.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-439": {
-          "fat_atual": 179.76,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 6.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-471": {
-          "fat_atual": 143.8,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 5.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0
-        }
-      }
-    },
-    {
-      "produto": "GIN BEEFEATER PINK 700ML",
-      "fornecedor": "PERNOD",
-      "estado": "RJ",
-      "fat_atual": 5171.9,
-      "fat_mes_anterior": 2245.9,
-      "fat_ano_anterior": 0.0,
-      "qt_atual": 81.0,
-      "qt_mes_anterior": 31.0,
-      "qt_ano_anterior": 0.0,
-      "queda_fat_mes_valor": -2926.0,
-      "queda_fat_ano_valor": -5171.9,
-      "queda_fat_mes_pct": 130.3,
-      "queda_fat_ano_pct": null,
-      "queda_qt_mes_valor": -50.0,
-      "queda_qt_ano_valor": -81.0,
-      "queda_qt_mes_pct": 161.3,
-      "queda_qt_ano_pct": null,
-      "por_vendedor": {
-        "RJ-144": {
-          "fat_atual": 898.5,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 15.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-153": {
-          "fat_atual": 1258.2,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 18.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-155": {
-          "fat_atual": 1390.7,
-          "fat_mes_anterior": 565.2,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 23.0,
-          "qt_mes_anterior": 8.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-156": {
-          "fat_atual": 1139.2,
-          "fat_mes_anterior": 298.6,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 18.0,
-          "qt_mes_anterior": 4.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-378": {
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 874.8,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 12.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-379": {
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 69.9,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 1.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-419": {
-          "fat_atual": 145.8,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 2.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-431": {
-          "fat_atual": 159.8,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 2.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-439": {
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 437.4,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 6.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-471": {
-          "fat_atual": 179.7,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 3.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0
-        }
-      }
-    },
-    {
       "produto": "WHISKY J WALKER GOLD LABEL RESERVE 750ML",
       "fornecedor": "DIAGEO",
       "estado": "MG",
@@ -403806,6 +405105,75 @@ const RAIOX_OPORTUNIDADES_DATA = {
           "fat_mes_anterior": 0.0,
           "fat_ano_anterior": 0.0,
           "qt_atual": 84.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0
+        }
+      }
+    },
+    {
+      "produto": "4 PACK RED BULL 250ML",
+      "fornecedor": "RED BULL",
+      "estado": "RJ",
+      "fat_atual": 3361.96,
+      "fat_mes_anterior": 0.0,
+      "fat_ano_anterior": 0.0,
+      "qt_atual": 113.0,
+      "qt_mes_anterior": 0.0,
+      "qt_ano_anterior": 0.0,
+      "queda_fat_mes_valor": -3361.96,
+      "queda_fat_ano_valor": -3361.96,
+      "queda_fat_mes_pct": null,
+      "queda_fat_ano_pct": null,
+      "queda_qt_mes_valor": -113.0,
+      "queda_qt_ano_valor": -113.0,
+      "queda_qt_mes_pct": null,
+      "queda_qt_ano_pct": null,
+      "por_vendedor": {
+        "RJ-241": {
+          "fat_atual": 89.88,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 3.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-378": {
+          "fat_atual": 176.16,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 6.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-379": {
+          "fat_atual": 355.92,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 12.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-431": {
+          "fat_atual": 2416.44,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 81.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-439": {
+          "fat_atual": 179.76,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 6.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-471": {
+          "fat_atual": 143.8,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 5.0,
           "qt_mes_anterior": 0.0,
           "qt_ano_anterior": 0.0
         }
@@ -404394,6 +405762,107 @@ const RAIOX_OPORTUNIDADES_DATA = {
           "fat_mes_anterior": 0.0,
           "fat_ano_anterior": 0.0,
           "qt_atual": 264.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0
+        }
+      }
+    },
+    {
+      "produto": "GIN BEEFEATER PINK 700ML",
+      "fornecedor": "PERNOD",
+      "estado": "RJ",
+      "fat_atual": 6609.5,
+      "fat_mes_anterior": 2245.9,
+      "fat_ano_anterior": 0.0,
+      "qt_atual": 105.0,
+      "qt_mes_anterior": 31.0,
+      "qt_ano_anterior": 0.0,
+      "queda_fat_mes_valor": -4363.6,
+      "queda_fat_ano_valor": -6609.5,
+      "queda_fat_mes_pct": 194.3,
+      "queda_fat_ano_pct": null,
+      "queda_qt_mes_valor": -74.0,
+      "queda_qt_ano_valor": -105.0,
+      "queda_qt_mes_pct": 238.7,
+      "queda_qt_ano_pct": null,
+      "por_vendedor": {
+        "RJ-144": {
+          "fat_atual": 1257.9,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 21.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-153": {
+          "fat_atual": 1258.2,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 18.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-155": {
+          "fat_atual": 2468.9,
+          "fat_mes_anterior": 565.2,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 41.0,
+          "qt_mes_anterior": 8.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-156": {
+          "fat_atual": 1139.2,
+          "fat_mes_anterior": 298.6,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 18.0,
+          "qt_mes_anterior": 4.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-378": {
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 874.8,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 12.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-379": {
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 69.9,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 1.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-419": {
+          "fat_atual": 145.8,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 2.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-431": {
+          "fat_atual": 159.8,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 2.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-439": {
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 437.4,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 6.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-471": {
+          "fat_atual": 179.7,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 3.0,
           "qt_mes_anterior": 0.0,
           "qt_ano_anterior": 0.0
         }
@@ -405986,75 +407455,6 @@ const RAIOX_OPORTUNIDADES_DATA = {
       }
     },
     {
-      "produto": "VODKA SMIRNOFF RED 998 ML",
-      "fornecedor": "DIAGEO",
-      "estado": "MG",
-      "fat_atual": 13885.1,
-      "fat_mes_anterior": 7056.6,
-      "fat_ano_anterior": 221.4,
-      "qt_atual": 463.0,
-      "qt_mes_anterior": 224.0,
-      "qt_ano_anterior": 6.0,
-      "queda_fat_mes_valor": -6828.5,
-      "queda_fat_ano_valor": -13663.7,
-      "queda_fat_mes_pct": 96.8,
-      "queda_fat_ano_pct": 6171.5,
-      "queda_qt_mes_valor": -239.0,
-      "queda_qt_ano_valor": -457.0,
-      "queda_qt_mes_pct": 106.7,
-      "queda_qt_ano_pct": 7616.7,
-      "por_vendedor": {
-        "MG-327": {
-          "fat_atual": 2208.6,
-          "fat_mes_anterior": 2367.8,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 78.0,
-          "qt_mes_anterior": 82.0,
-          "qt_ano_anterior": 0.0
-        },
-        "MG-331": {
-          "fat_atual": 1004.4,
-          "fat_mes_anterior": 1052.4,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 36.0,
-          "qt_mes_anterior": 36.0,
-          "qt_ano_anterior": 0.0
-        },
-        "MG-343": {
-          "fat_atual": 8959.2,
-          "fat_mes_anterior": 3350.4,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 288.0,
-          "qt_mes_anterior": 96.0,
-          "qt_ano_anterior": 0.0
-        },
-        "MG-344": {
-          "fat_atual": 541.1,
-          "fat_mes_anterior": 286.0,
-          "fat_ano_anterior": 221.4,
-          "qt_atual": 19.0,
-          "qt_mes_anterior": 10.0,
-          "qt_ano_anterior": 6.0
-        },
-        "MG-349": {
-          "fat_atual": 3515.4,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 126.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0
-        },
-        "MG-354": {
-          "fat_atual": 6280.8,
-          "fat_mes_anterior": 3350.4,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 192.0,
-          "qt_mes_anterior": 96.0,
-          "qt_ano_anterior": 0.0
-        }
-      }
-    },
-    {
       "produto": "VINHO LATITUD 33 MALBEC  750 ML",
       "fornecedor": "HENNESSY",
       "estado": "RJ",
@@ -406177,6 +407577,75 @@ const RAIOX_OPORTUNIDADES_DATA = {
       }
     },
     {
+      "produto": "VODKA SMIRNOFF RED 998 ML",
+      "fornecedor": "DIAGEO",
+      "estado": "MG",
+      "fat_atual": 14219.9,
+      "fat_mes_anterior": 7056.6,
+      "fat_ano_anterior": 221.4,
+      "qt_atual": 475.0,
+      "qt_mes_anterior": 224.0,
+      "qt_ano_anterior": 6.0,
+      "queda_fat_mes_valor": -7163.3,
+      "queda_fat_ano_valor": -13998.5,
+      "queda_fat_mes_pct": 101.5,
+      "queda_fat_ano_pct": 6322.7,
+      "queda_qt_mes_valor": -251.0,
+      "queda_qt_ano_valor": -469.0,
+      "queda_qt_mes_pct": 112.1,
+      "queda_qt_ano_pct": 7816.7,
+      "por_vendedor": {
+        "MG-327": {
+          "fat_atual": 2208.6,
+          "fat_mes_anterior": 2367.8,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 78.0,
+          "qt_mes_anterior": 82.0,
+          "qt_ano_anterior": 0.0
+        },
+        "MG-331": {
+          "fat_atual": 1339.2,
+          "fat_mes_anterior": 1052.4,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 48.0,
+          "qt_mes_anterior": 36.0,
+          "qt_ano_anterior": 0.0
+        },
+        "MG-343": {
+          "fat_atual": 8959.2,
+          "fat_mes_anterior": 3350.4,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 288.0,
+          "qt_mes_anterior": 96.0,
+          "qt_ano_anterior": 0.0
+        },
+        "MG-344": {
+          "fat_atual": 541.1,
+          "fat_mes_anterior": 286.0,
+          "fat_ano_anterior": 221.4,
+          "qt_atual": 19.0,
+          "qt_mes_anterior": 10.0,
+          "qt_ano_anterior": 6.0
+        },
+        "MG-349": {
+          "fat_atual": 3515.4,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 126.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0
+        },
+        "MG-354": {
+          "fat_atual": 6280.8,
+          "fat_mes_anterior": 3350.4,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 192.0,
+          "qt_mes_anterior": 96.0,
+          "qt_ano_anterior": 0.0
+        }
+      }
+    },
+    {
       "produto": "SMIRNOFF ICE -24 UNIDADES (LONG  NECK)",
       "fornecedor": "DIAGEO",
       "estado": "MG",
@@ -406249,19 +407718,19 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "produto": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
       "fornecedor": "TATUZINHO",
       "estado": "RJ",
-      "fat_atual": 10181.6,
+      "fat_atual": 10371.0,
       "fat_mes_anterior": 2802.22,
       "fat_ano_anterior": 0.0,
-      "qt_atual": 121.0,
+      "qt_atual": 123.0,
       "qt_mes_anterior": 31.0,
       "qt_ano_anterior": 0.0,
-      "queda_fat_mes_valor": -7379.38,
-      "queda_fat_ano_valor": -10181.6,
-      "queda_fat_mes_pct": 263.3,
+      "queda_fat_mes_valor": -7568.78,
+      "queda_fat_ano_valor": -10371.0,
+      "queda_fat_mes_pct": 270.1,
       "queda_fat_ano_pct": null,
-      "queda_qt_mes_valor": -90.0,
-      "queda_qt_ano_valor": -121.0,
-      "queda_qt_mes_pct": 290.3,
+      "queda_qt_mes_valor": -92.0,
+      "queda_qt_ano_valor": -123.0,
+      "queda_qt_mes_pct": 296.8,
       "queda_qt_ano_pct": null,
       "por_vendedor": {
         "RJ-153": {
@@ -406297,10 +407766,10 @@ const RAIOX_OPORTUNIDADES_DATA = {
           "qt_ano_anterior": 0.0
         },
         "RJ-379": {
-          "fat_atual": 189.4,
+          "fat_atual": 284.1,
           "fat_mes_anterior": 0.0,
           "fat_ano_anterior": 0.0,
-          "qt_atual": 2.0,
+          "qt_atual": 3.0,
           "qt_mes_anterior": 0.0,
           "qt_ano_anterior": 0.0
         },
@@ -406313,10 +407782,10 @@ const RAIOX_OPORTUNIDADES_DATA = {
           "qt_ano_anterior": 0.0
         },
         "RJ-419": {
-          "fat_atual": 94.7,
+          "fat_atual": 189.4,
           "fat_mes_anterior": 94.7,
           "fat_ano_anterior": 0.0,
-          "qt_atual": 1.0,
+          "qt_atual": 2.0,
           "qt_mes_anterior": 1.0,
           "qt_ano_anterior": 0.0
         },
@@ -406669,19 +408138,19 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "produto": "CONHAQUE DOMECQ 1L",
       "fornecedor": "PERNOD",
       "estado": "RJ",
-      "fat_atual": 42559.1,
+      "fat_atual": 42472.4,
       "fat_mes_anterior": 34092.44,
       "fat_ano_anterior": 0.0,
-      "qt_atual": 1559.0,
+      "qt_atual": 1556.0,
       "qt_mes_anterior": 1257.0,
       "qt_ano_anterior": 0.0,
-      "queda_fat_mes_valor": -8466.66,
-      "queda_fat_ano_valor": -42559.1,
-      "queda_fat_mes_pct": 24.8,
+      "queda_fat_mes_valor": -8379.96,
+      "queda_fat_ano_valor": -42472.4,
+      "queda_fat_mes_pct": 24.6,
       "queda_fat_ano_pct": null,
-      "queda_qt_mes_valor": -302.0,
-      "queda_qt_ano_valor": -1559.0,
-      "queda_qt_mes_pct": 24.0,
+      "queda_qt_mes_valor": -299.0,
+      "queda_qt_ano_valor": -1556.0,
+      "queda_qt_mes_pct": 23.8,
       "queda_qt_ano_pct": null,
       "por_vendedor": {
         "RJ-144": {
@@ -406749,10 +408218,10 @@ const RAIOX_OPORTUNIDADES_DATA = {
           "qt_ano_anterior": 0.0
         },
         "RJ-378": {
-          "fat_atual": 144.5,
+          "fat_atual": 57.8,
           "fat_mes_anterior": 725.4,
           "fat_ano_anterior": 0.0,
-          "qt_atual": 5.0,
+          "qt_atual": 2.0,
           "qt_mes_anterior": 26.0,
           "qt_ano_anterior": 0.0
         },
@@ -406802,131 +408271,6 @@ const RAIOX_OPORTUNIDADES_DATA = {
           "fat_ano_anterior": 0.0,
           "qt_atual": 0.0,
           "qt_mes_anterior": 18.0,
-          "qt_ano_anterior": 0.0
-        }
-      }
-    },
-    {
-      "produto": "RED BULL 24X250ML",
-      "fornecedor": "RED BULL",
-      "estado": "RJ",
-      "fat_atual": 104933.66,
-      "fat_mes_anterior": 96417.51,
-      "fat_ano_anterior": 0.0,
-      "qt_atual": 591.0,
-      "qt_mes_anterior": 538.0,
-      "qt_ano_anterior": 0.0,
-      "queda_fat_mes_valor": -8516.15,
-      "queda_fat_ano_valor": -104933.66,
-      "queda_fat_mes_pct": 8.8,
-      "queda_fat_ano_pct": null,
-      "queda_qt_mes_valor": -53.0,
-      "queda_qt_ano_valor": -591.0,
-      "queda_qt_mes_pct": 9.9,
-      "queda_qt_ano_pct": null,
-      "por_vendedor": {
-        "RJ-144": {
-          "fat_atual": 4172.18,
-          "fat_mes_anterior": 4142.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 24.0,
-          "qt_mes_anterior": 24.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-153": {
-          "fat_atual": 18762.48,
-          "fat_mes_anterior": 49711.28,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 103.0,
-          "qt_mes_anterior": 273.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-155": {
-          "fat_atual": 20067.42,
-          "fat_mes_anterior": 13992.24,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 112.0,
-          "qt_mes_anterior": 79.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-156": {
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 1372.8,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 8.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-159": {
-          "fat_atual": 10286.88,
-          "fat_mes_anterior": 15919.28,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 58.0,
-          "qt_mes_anterior": 91.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-241": {
-          "fat_atual": 4853.52,
-          "fat_mes_anterior": 1776.24,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 27.0,
-          "qt_mes_anterior": 10.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-378": {
-          "fat_atual": 5220.0,
-          "fat_mes_anterior": 898.8,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 30.0,
-          "qt_mes_anterior": 5.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-379": {
-          "fat_atual": 25762.38,
-          "fat_mes_anterior": 2125.92,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 147.0,
-          "qt_mes_anterior": 12.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-412": {
-          "fat_atual": 2708.4,
-          "fat_mes_anterior": 590.07,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 15.0,
-          "qt_mes_anterior": 3.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-419": {
-          "fat_atual": 3178.08,
-          "fat_mes_anterior": 5018.88,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 18.0,
-          "qt_mes_anterior": 28.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-431": {
-          "fat_atual": 1929.36,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 11.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-439": {
-          "fat_atual": 1553.04,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 9.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-471": {
-          "fat_atual": 7647.84,
-          "fat_mes_anterior": 1042.56,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 44.0,
-          "qt_mes_anterior": 6.0,
           "qt_ano_anterior": 0.0
         }
       }
@@ -407073,6 +408417,131 @@ const RAIOX_OPORTUNIDADES_DATA = {
           "fat_ano_anterior": 0.0,
           "qt_atual": 23.0,
           "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0
+        }
+      }
+    },
+    {
+      "produto": "RED BULL 24X250ML",
+      "fornecedor": "RED BULL",
+      "estado": "RJ",
+      "fat_atual": 105796.46,
+      "fat_mes_anterior": 96417.51,
+      "fat_ano_anterior": 0.0,
+      "qt_atual": 596.0,
+      "qt_mes_anterior": 538.0,
+      "qt_ano_anterior": 0.0,
+      "queda_fat_mes_valor": -9378.95,
+      "queda_fat_ano_valor": -105796.46,
+      "queda_fat_mes_pct": 9.7,
+      "queda_fat_ano_pct": null,
+      "queda_qt_mes_valor": -58.0,
+      "queda_qt_ano_valor": -596.0,
+      "queda_qt_mes_pct": 10.8,
+      "queda_qt_ano_pct": null,
+      "por_vendedor": {
+        "RJ-144": {
+          "fat_atual": 5034.98,
+          "fat_mes_anterior": 4142.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 29.0,
+          "qt_mes_anterior": 24.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-153": {
+          "fat_atual": 18762.48,
+          "fat_mes_anterior": 49711.28,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 103.0,
+          "qt_mes_anterior": 273.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-155": {
+          "fat_atual": 20067.42,
+          "fat_mes_anterior": 13992.24,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 112.0,
+          "qt_mes_anterior": 79.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-156": {
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 1372.8,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 8.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-159": {
+          "fat_atual": 10286.88,
+          "fat_mes_anterior": 15919.28,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 58.0,
+          "qt_mes_anterior": 91.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-241": {
+          "fat_atual": 4853.52,
+          "fat_mes_anterior": 1776.24,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 27.0,
+          "qt_mes_anterior": 10.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-378": {
+          "fat_atual": 5220.0,
+          "fat_mes_anterior": 898.8,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 30.0,
+          "qt_mes_anterior": 5.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-379": {
+          "fat_atual": 25762.38,
+          "fat_mes_anterior": 2125.92,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 147.0,
+          "qt_mes_anterior": 12.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-412": {
+          "fat_atual": 2708.4,
+          "fat_mes_anterior": 590.07,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 15.0,
+          "qt_mes_anterior": 3.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-419": {
+          "fat_atual": 3178.08,
+          "fat_mes_anterior": 5018.88,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 18.0,
+          "qt_mes_anterior": 28.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-431": {
+          "fat_atual": 1929.36,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 11.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-439": {
+          "fat_atual": 1553.04,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 9.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-471": {
+          "fat_atual": 7647.84,
+          "fat_mes_anterior": 1042.56,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 44.0,
+          "qt_mes_anterior": 6.0,
           "qt_ano_anterior": 0.0
         }
       }
@@ -407789,123 +409258,6 @@ const RAIOX_OPORTUNIDADES_DATA = {
       }
     },
     {
-      "produto": "RED BULL TROPICAL 24X250ML",
-      "fornecedor": "RED BULL",
-      "estado": "RJ",
-      "fat_atual": 41949.4,
-      "fat_mes_anterior": 29456.12,
-      "fat_ano_anterior": 0.0,
-      "qt_atual": 235.0,
-      "qt_mes_anterior": 166.0,
-      "qt_ano_anterior": 0.0,
-      "queda_fat_mes_valor": -12493.28,
-      "queda_fat_ano_valor": -41949.4,
-      "queda_fat_mes_pct": 42.4,
-      "queda_fat_ano_pct": null,
-      "queda_qt_mes_valor": -69.0,
-      "queda_qt_ano_valor": -235.0,
-      "queda_qt_mes_pct": 41.6,
-      "queda_qt_ano_pct": null,
-      "por_vendedor": {
-        "RJ-144": {
-          "fat_atual": 2961.92,
-          "fat_mes_anterior": 2098.72,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 17.0,
-          "qt_mes_anterior": 12.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-153": {
-          "fat_atual": 11293.92,
-          "fat_mes_anterior": 4751.76,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 62.0,
-          "qt_mes_anterior": 26.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-155": {
-          "fat_atual": 19137.12,
-          "fat_mes_anterior": 9102.96,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 107.0,
-          "qt_mes_anterior": 51.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-156": {
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 1372.8,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 8.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-159": {
-          "fat_atual": 2128.32,
-          "fat_mes_anterior": 6631.68,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 12.0,
-          "qt_mes_anterior": 38.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-172": {
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 886.8,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 5.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-241": {
-          "fat_atual": 179.76,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 1.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-378": {
-          "fat_atual": 1229.52,
-          "fat_mes_anterior": 359.52,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 7.0,
-          "qt_mes_anterior": 2.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-379": {
-          "fat_atual": 2603.0,
-          "fat_mes_anterior": 2109.12,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 15.0,
-          "qt_mes_anterior": 12.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-412": {
-          "fat_atual": 345.12,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 2.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-419": {
-          "fat_atual": 345.12,
-          "fat_mes_anterior": 2142.76,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 2.0,
-          "qt_mes_anterior": 12.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-471": {
-          "fat_atual": 1725.6,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 10.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0
-        }
-      }
-    },
-    {
       "produto": "WHISKY JACK DANIELS 375 ML",
       "fornecedor": "BROWN",
       "estado": "SP",
@@ -408029,6 +409381,123 @@ const RAIOX_OPORTUNIDADES_DATA = {
           "qt_atual": 24.0,
           "qt_mes_anterior": 0.0,
           "qt_ano_anterior": 36.0
+        }
+      }
+    },
+    {
+      "produto": "RED BULL TROPICAL 24X250ML",
+      "fornecedor": "RED BULL",
+      "estado": "RJ",
+      "fat_atual": 42467.08,
+      "fat_mes_anterior": 29456.12,
+      "fat_ano_anterior": 0.0,
+      "qt_atual": 238.0,
+      "qt_mes_anterior": 166.0,
+      "qt_ano_anterior": 0.0,
+      "queda_fat_mes_valor": -13010.96,
+      "queda_fat_ano_valor": -42467.08,
+      "queda_fat_mes_pct": 44.2,
+      "queda_fat_ano_pct": null,
+      "queda_qt_mes_valor": -72.0,
+      "queda_qt_ano_valor": -238.0,
+      "queda_qt_mes_pct": 43.4,
+      "queda_qt_ano_pct": null,
+      "por_vendedor": {
+        "RJ-144": {
+          "fat_atual": 3479.6,
+          "fat_mes_anterior": 2098.72,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 20.0,
+          "qt_mes_anterior": 12.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-153": {
+          "fat_atual": 11293.92,
+          "fat_mes_anterior": 4751.76,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 62.0,
+          "qt_mes_anterior": 26.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-155": {
+          "fat_atual": 19137.12,
+          "fat_mes_anterior": 9102.96,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 107.0,
+          "qt_mes_anterior": 51.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-156": {
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 1372.8,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 8.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-159": {
+          "fat_atual": 2128.32,
+          "fat_mes_anterior": 6631.68,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 12.0,
+          "qt_mes_anterior": 38.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-172": {
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 886.8,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 5.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-241": {
+          "fat_atual": 179.76,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 1.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-378": {
+          "fat_atual": 1229.52,
+          "fat_mes_anterior": 359.52,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 7.0,
+          "qt_mes_anterior": 2.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-379": {
+          "fat_atual": 2603.0,
+          "fat_mes_anterior": 2109.12,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 15.0,
+          "qt_mes_anterior": 12.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-412": {
+          "fat_atual": 345.12,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 2.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-419": {
+          "fat_atual": 345.12,
+          "fat_mes_anterior": 2142.76,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 2.0,
+          "qt_mes_anterior": 12.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-471": {
+          "fat_atual": 1725.6,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 10.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0
         }
       }
     },
@@ -408458,59 +409927,6 @@ const RAIOX_OPORTUNIDADES_DATA = {
       }
     },
     {
-      "produto": "VODCA BAM CIROC RED BERRY 750 ML",
-      "fornecedor": "DIAGEO",
-      "estado": "RJ",
-      "fat_atual": 16078.2,
-      "fat_mes_anterior": 0.0,
-      "fat_ano_anterior": 173.9,
-      "qt_atual": 110.0,
-      "qt_mes_anterior": 0.0,
-      "qt_ano_anterior": 1.0,
-      "queda_fat_mes_valor": -16078.2,
-      "queda_fat_ano_valor": -15904.3,
-      "queda_fat_mes_pct": null,
-      "queda_fat_ano_pct": 9145.7,
-      "queda_qt_mes_valor": -110.0,
-      "queda_qt_ano_valor": -109.0,
-      "queda_qt_mes_pct": null,
-      "queda_qt_ano_pct": 10900.0,
-      "por_vendedor": {
-        "RJ-144": {
-          "fat_atual": 3117.6,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 24.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-155": {
-          "fat_atual": 9193.8,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 62.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0
-        },
-        "RJ-159": {
-          "fat_atual": 1908.0,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 173.9,
-          "qt_atual": 12.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 1.0
-        },
-        "RJ-378": {
-          "fat_atual": 1858.8,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 12.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0
-        }
-      }
-    },
-    {
       "produto": "VINHO DOM BOSCO TINTO SECO 750ML",
       "fornecedor": "CRS BRANDS",
       "estado": "SP",
@@ -408865,6 +410281,59 @@ const RAIOX_OPORTUNIDADES_DATA = {
           "fat_ano_anterior": 0.0,
           "qt_atual": 0.0,
           "qt_mes_anterior": 1.0,
+          "qt_ano_anterior": 0.0
+        }
+      }
+    },
+    {
+      "produto": "VODCA BAM CIROC RED BERRY 750 ML",
+      "fornecedor": "DIAGEO",
+      "estado": "RJ",
+      "fat_atual": 17037.6,
+      "fat_mes_anterior": 0.0,
+      "fat_ano_anterior": 173.9,
+      "qt_atual": 116.0,
+      "qt_mes_anterior": 0.0,
+      "qt_ano_anterior": 1.0,
+      "queda_fat_mes_valor": -17037.6,
+      "queda_fat_ano_valor": -16863.7,
+      "queda_fat_mes_pct": null,
+      "queda_fat_ano_pct": 9697.4,
+      "queda_qt_mes_valor": -116.0,
+      "queda_qt_ano_valor": -115.0,
+      "queda_qt_mes_pct": null,
+      "queda_qt_ano_pct": 11500.0,
+      "por_vendedor": {
+        "RJ-144": {
+          "fat_atual": 3117.6,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 24.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-155": {
+          "fat_atual": 10153.2,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 68.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-159": {
+          "fat_atual": 1908.0,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 173.9,
+          "qt_atual": 12.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 1.0
+        },
+        "RJ-378": {
+          "fat_atual": 1858.8,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 12.0,
+          "qt_mes_anterior": 0.0,
           "qt_ano_anterior": 0.0
         }
       }
@@ -412967,19 +414436,19 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "produto": "WHISKY WALKER RED LABEL 1L",
       "fornecedor": "DIAGEO",
       "estado": "MG",
-      "fat_atual": 548177.6,
+      "fat_atual": 548248.5,
       "fat_mes_anterior": 15716.6,
       "fat_ano_anterior": 0.0,
-      "qt_atual": 8204.0,
+      "qt_atual": 8205.0,
       "qt_mes_anterior": 214.0,
       "qt_ano_anterior": 0.0,
-      "queda_fat_mes_valor": -532461.0,
-      "queda_fat_ano_valor": -548177.6,
-      "queda_fat_mes_pct": 3387.9,
+      "queda_fat_mes_valor": -532531.9,
+      "queda_fat_ano_valor": -548248.5,
+      "queda_fat_mes_pct": 3388.3,
       "queda_fat_ano_pct": null,
-      "queda_qt_mes_valor": -7990.0,
-      "queda_qt_ano_valor": -8204.0,
-      "queda_qt_mes_pct": 3733.6,
+      "queda_qt_mes_valor": -7991.0,
+      "queda_qt_ano_valor": -8205.0,
+      "queda_qt_mes_pct": 3734.1,
       "queda_qt_ano_pct": null,
       "por_vendedor": {
         "MG-327": {
@@ -412991,10 +414460,10 @@ const RAIOX_OPORTUNIDADES_DATA = {
           "qt_ano_anterior": 0.0
         },
         "MG-331": {
-          "fat_atual": 283.6,
+          "fat_atual": 354.5,
           "fat_mes_anterior": 0.0,
           "fat_ano_anterior": 0.0,
-          "qt_atual": 4.0,
+          "qt_atual": 5.0,
           "qt_mes_anterior": 0.0,
           "qt_ano_anterior": 0.0
         },
