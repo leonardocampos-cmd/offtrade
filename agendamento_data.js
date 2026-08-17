@@ -17459,6 +17459,34 @@ const AGENDAMENTO_DATA = {
       "nome": "LEANDRO SOUZA - OFF TRADE",
       "itens": [
         {
+          "codigo_cliente": "58584",
+          "cliente": "SUPERMARKET - ALVORADA",
+          "cnpj": "17.833.301/0001-07",
+          "filial": "ENGENHO VELHO",
+          "valor": 19980.0,
+          "nf": "",
+          "data_agendamento": "18/08/2026",
+          "data_ord": "2026-08-18",
+          "status": "A FATURAR",
+          "obs": "DESCARGA: R$20,00 P/ PALLET - R$1,00 POR BATIDA - R$25,00 POR PALLET PALETIZADO",
+          "status_logistica": "",
+          "justificativa_logistica": ""
+        },
+        {
+          "codigo_cliente": "58584",
+          "cliente": "SUPERMARKET - ALVORADA",
+          "cnpj": "17.833.301/0001-07",
+          "filial": "ENGENHO VELHO",
+          "valor": 13986.0,
+          "nf": "",
+          "data_agendamento": "18/08/2026",
+          "data_ord": "2026-08-18",
+          "status": "A FATURAR",
+          "obs": "DESCARGA: R$20,00 P/ PALLET - R$1,00 POR BATIDA - R$25,00 POR PALLET PALETIZADO",
+          "status_logistica": "",
+          "justificativa_logistica": ""
+        },
+        {
           "codigo_cliente": "91996",
           "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
           "cnpj": "05.546.194/0027-88",
@@ -22612,6 +22640,20 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
+          "codigo_cliente": "6269",
+          "cliente": "SUPERMERCADO ZONA SUL S/A",
+          "cnpj": "33.381.286/0001-51",
+          "filial": "OLARIA",
+          "valor": 15510.24,
+          "nf": "",
+          "data_agendamento": "19/08/2026",
+          "data_ord": "2026-08-19",
+          "status": "A FATURAR",
+          "obs": "ENTREGAR DAS 07HS ÀS 11HS",
+          "status_logistica": "",
+          "justificativa_logistica": ""
+        },
+        {
           "codigo_cliente": "84034",
           "cliente": "EMISE SUPERMERCADO LTDA",
           "cnpj": "17.659.742/0002-07",
@@ -22636,20 +22678,6 @@ const AGENDAMENTO_DATA = {
           "data_ord": "2026-08-17",
           "status": "A FATURAR",
           "obs": "",
-          "status_logistica": "",
-          "justificativa_logistica": ""
-        },
-        {
-          "codigo_cliente": "6269",
-          "cliente": "SUPERMERCADO ZONA SUL S/A",
-          "cnpj": "33.381.286/0001-51",
-          "filial": "OLARIA",
-          "valor": 15510.24,
-          "nf": "",
-          "data_agendamento": "17/08/2026",
-          "data_ord": "2026-08-17",
-          "status": "A FATURAR",
-          "obs": "ENTREGAR DAS 07HS ÀS 11HS",
           "status_logistica": "",
           "justificativa_logistica": ""
         },
@@ -26582,7 +26610,7 @@ const AGENDAMENTO_DATA = {
       ]
     }
   ],
-  "atualizado_em": "17/08/2026 16:10",
+  "atualizado_em": "17/08/2026 16:45",
   "comparativo": [
     {
       "msg_id": "1a000be7acfbb4b6",
