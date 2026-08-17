@@ -17468,7 +17468,7 @@ const AGENDAMENTO_DATA = {
           "data_agendamento": "18/08/2026",
           "data_ord": "2026-08-18",
           "status": "A FATURAR",
-          "obs": "DESCARGA: R$20,00 P/ PALLET - R$1,00 POR BATIDA - R$25,00 POR PALLET PALETIZADO",
+          "obs": "DESCARGA: R$25,00 POR PALLET PALETIZADO - CARRO DEDICADO.",
           "status_logistica": "",
           "justificativa_logistica": ""
         },
@@ -17482,7 +17482,7 @@ const AGENDAMENTO_DATA = {
           "data_agendamento": "18/08/2026",
           "data_ord": "2026-08-18",
           "status": "A FATURAR",
-          "obs": "DESCARGA: R$20,00 P/ PALLET - R$1,00 POR BATIDA - R$25,00 POR PALLET PALETIZADO",
+          "obs": "DESCARGA: R$25,00 POR PALLET PALETIZADO - CARRO DEDICADO.",
           "status_logistica": "",
           "justificativa_logistica": ""
         },
@@ -26610,7 +26610,7 @@ const AGENDAMENTO_DATA = {
       ]
     }
   ],
-  "atualizado_em": "17/08/2026 16:45",
+  "atualizado_em": "17/08/2026 17:22",
   "comparativo": [
     {
       "msg_id": "1a000be7acfbb4b6",
