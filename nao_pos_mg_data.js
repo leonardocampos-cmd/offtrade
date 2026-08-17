@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_mg.py
 
 const NAO_POS_MG_DATA = {
-  "atualizado_em": "17/08/2026 16:11",
+  "atualizado_em": "17/08/2026 16:46",
   "por_vendedor": {
     "BRUNA CASTRO MELLO": [
       {
@@ -549,32 +549,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "34495",
-        "cliente": "IRMAOS FONSECA LTDA",
-        "bairro": "BAIRRO DE FATIMA",
-        "dtultcomp": "18/02/2026",
-        "produtos": [
-          {
-            "produto": "ST PIERRE PINK LEMONADE LN 275MLX12",
-            "fantasia": "TATUZINHO",
-            "qt": 1,
-            "valor": 52.9
-          },
-          {
-            "produto": "ST PIERRE RED MINT LN 275MLX12",
-            "fantasia": "TATUZINHO",
-            "qt": 1,
-            "valor": 52.9
-          },
-          {
-            "produto": "ST PIERRE TONICA LT 270MLX6",
-            "fantasia": "TATUZINHO",
-            "qt": 2,
-            "valor": 52.8
-          }
-        ]
-      },
-      {
         "codcli": "35090",
         "cliente": "UNISSUL SUPERMERCADOS S A",
         "bairro": "PRIMAVERA",
@@ -603,6 +577,32 @@ const NAO_POS_MG_DATA = {
             "fantasia": "",
             "qt": 24,
             "valor": 490.08
+          }
+        ]
+      },
+      {
+        "codcli": "37330",
+        "cliente": "UNISSUL SUPERMERCADOS S/A",
+        "bairro": "NOVA ERA",
+        "dtultcomp": "30/07/2026",
+        "produtos": [
+          {
+            "produto": "VILLA ROSA BRANCO 750ML",
+            "fantasia": "CASTAS",
+            "qt": 12,
+            "valor": 514.8
+          },
+          {
+            "produto": "VILLA ROSA ROSE 750ML",
+            "fantasia": "CASTAS",
+            "qt": 6,
+            "valor": 257.4
+          },
+          {
+            "produto": "VODKA ORLOFF 1L - DEST",
+            "fantasia": "",
+            "qt": 12,
+            "valor": 245.04
           }
         ]
       },
@@ -665,32 +665,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "37330",
-        "cliente": "UNISSUL SUPERMERCADOS S/A",
-        "bairro": "NOVA ERA",
-        "dtultcomp": "30/07/2026",
-        "produtos": [
-          {
-            "produto": "VILLA ROSA BRANCO 750ML",
-            "fantasia": "CASTAS",
-            "qt": 12,
-            "valor": 514.8
-          },
-          {
-            "produto": "VILLA ROSA ROSE 750ML",
-            "fantasia": "CASTAS",
-            "qt": 6,
-            "valor": 257.4
-          },
-          {
-            "produto": "VODKA ORLOFF 1L - DEST",
-            "fantasia": "",
-            "qt": 12,
-            "valor": 245.04
-          }
-        ]
-      },
-      {
         "codcli": "37909",
         "cliente": "UNISSUL SUPERMERCADOS S/A",
         "bairro": "MUARAMA",
@@ -719,32 +693,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "PERNOD",
             "qt": 3,
             "valor": 177.54
-          }
-        ]
-      },
-      {
-        "codcli": "37335",
-        "cliente": "UNISSUL SUPERMERCADOS S/A",
-        "bairro": "CENTRO",
-        "dtultcomp": "30/07/2026",
-        "produtos": [
-          {
-            "produto": "VILLA ROSA TINTO 750ML",
-            "fantasia": "CASTAS",
-            "qt": 6,
-            "valor": 257.4
-          },
-          {
-            "produto": "VINHO BCO ARCAIA PINOT GRIGIO 750ML",
-            "fantasia": "CASTAS",
-            "qt": 6,
-            "valor": 461.4
-          },
-          {
-            "produto": "VODKA ORLOFF 1L - DEST",
-            "fantasia": "",
-            "qt": 24,
-            "valor": 490.08
           }
         ]
       },
@@ -787,6 +735,32 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
+        "codcli": "37335",
+        "cliente": "UNISSUL SUPERMERCADOS S/A",
+        "bairro": "CENTRO",
+        "dtultcomp": "30/07/2026",
+        "produtos": [
+          {
+            "produto": "VILLA ROSA TINTO 750ML",
+            "fantasia": "CASTAS",
+            "qt": 6,
+            "valor": 257.4
+          },
+          {
+            "produto": "VINHO BCO ARCAIA PINOT GRIGIO 750ML",
+            "fantasia": "CASTAS",
+            "qt": 6,
+            "valor": 461.4
+          },
+          {
+            "produto": "VODKA ORLOFF 1L - DEST",
+            "fantasia": "",
+            "qt": 24,
+            "valor": 490.08
+          }
+        ]
+      },
+      {
         "codcli": "37329",
         "cliente": "UNISSUL SUPERMERCADOS S/A",
         "bairro": "JARDIM BOA ESPERANÇA III",
@@ -809,6 +783,48 @@ const NAO_POS_MG_DATA = {
       {
         "codcli": "39815",
         "cliente": "DMINAS DISTRIBUIDOR ATACADISTA LTDA",
+        "bairro": "CENTRO",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "39818",
+        "cliente": "MAGLIONI RIBEIRO & CIA LTDA",
+        "bairro": "VARGINHA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "39821",
+        "cliente": "MAGLIONI RIBEIRO & CIA LTDA",
+        "bairro": "CENTRO",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "39827",
+        "cliente": "MAGLIONI RIBEIRO & CIA LTDA",
+        "bairro": "JARDIM ANDERE",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "39826",
+        "cliente": "MAGLIONI RIBEIRO & CIA LTDA",
+        "bairro": "CENTRO",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "39832",
+        "cliente": "MAGLIONI RIBEIRO & CIA LTDA",
+        "bairro": "CENTRO",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "39823",
+        "cliente": "MAGLIONI RIBEIRO & CIA LTDA",
         "bairro": "CENTRO",
         "dtultcomp": "nan",
         "produtos": []
@@ -863,6 +879,13 @@ const NAO_POS_MG_DATA = {
         "produtos": []
       },
       {
+        "codcli": "39829",
+        "cliente": "MAGLIONI RIBEIRO & CIA LTDA",
+        "bairro": "CENTRO",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
         "codcli": "39836",
         "cliente": "MAGLIONI RIBEIRO & CIA LTDA",
         "bairro": "VARGEM",
@@ -884,42 +907,7 @@ const NAO_POS_MG_DATA = {
         "produtos": []
       },
       {
-        "codcli": "39829",
-        "cliente": "MAGLIONI RIBEIRO & CIA LTDA",
-        "bairro": "CENTRO",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "39821",
-        "cliente": "MAGLIONI RIBEIRO & CIA LTDA",
-        "bairro": "CENTRO",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "39818",
-        "cliente": "MAGLIONI RIBEIRO & CIA LTDA",
-        "bairro": "VARGINHA",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "39835",
-        "cliente": "MAGLIONI RIBEIRO & CIA LTDA",
-        "bairro": "SANTO ANTÔNIO",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "39823",
-        "cliente": "MAGLIONI RIBEIRO & CIA LTDA",
-        "bairro": "CENTRO",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "39832",
+        "codcli": "39817",
         "cliente": "MAGLIONI RIBEIRO & CIA LTDA",
         "bairro": "CENTRO",
         "dtultcomp": "nan",
@@ -933,23 +921,9 @@ const NAO_POS_MG_DATA = {
         "produtos": []
       },
       {
-        "codcli": "39826",
+        "codcli": "39835",
         "cliente": "MAGLIONI RIBEIRO & CIA LTDA",
-        "bairro": "CENTRO",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "39827",
-        "cliente": "MAGLIONI RIBEIRO & CIA LTDA",
-        "bairro": "JARDIM ANDERE",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "39817",
-        "cliente": "MAGLIONI RIBEIRO & CIA LTDA",
-        "bairro": "CENTRO",
+        "bairro": "SANTO ANTÔNIO",
         "dtultcomp": "nan",
         "produtos": []
       }
@@ -1652,26 +1626,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "33014",
-        "cliente": "ER COZINHA ARTESANAL LTDA",
-        "bairro": "LOURDES",
-        "dtultcomp": "18/06/2026",
-        "produtos": [
-          {
-            "produto": "YVY DESTILADO GIN AR LT 710ML",
-            "fantasia": "YVY",
-            "qt": 4,
-            "valor": 159.6
-          },
-          {
-            "produto": "YVY DESTILADO GIN MAR  LT 710ML",
-            "fantasia": "YVY",
-            "qt": 4,
-            "valor": 159.6
-          }
-        ]
-      },
-      {
         "codcli": "32871",
         "cliente": "ER COZINHA ARTESANAL LTDA",
         "bairro": "VILA DA SERRA",
@@ -1688,6 +1642,26 @@ const NAO_POS_MG_DATA = {
             "fantasia": "YVY",
             "qt": 6,
             "valor": 239.4
+          }
+        ]
+      },
+      {
+        "codcli": "33014",
+        "cliente": "ER COZINHA ARTESANAL LTDA",
+        "bairro": "LOURDES",
+        "dtultcomp": "18/06/2026",
+        "produtos": [
+          {
+            "produto": "YVY DESTILADO GIN AR LT 710ML",
+            "fantasia": "YVY",
+            "qt": 4,
+            "valor": 159.6
+          },
+          {
+            "produto": "YVY DESTILADO GIN MAR  LT 710ML",
+            "fantasia": "YVY",
+            "qt": 4,
+            "valor": 159.6
           }
         ]
       },
@@ -3358,46 +3332,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "33288",
-        "cliente": "ARMAZEM BRASIL LIMITADA",
-        "bairro": "SÃO SEBASTIAO",
-        "dtultcomp": "30/07/2026",
-        "produtos": [
-          {
-            "produto": "AMARULA C LIQUEUR 750 ML",
-            "fantasia": "AURORA",
-            "qt": 12,
-            "valor": 1318.8
-          },
-          {
-            "produto": "GIN ORLOFF 1L",
-            "fantasia": "PERNOD",
-            "qt": 12,
-            "valor": 538.8
-          }
-        ]
-      },
-      {
-        "codcli": "33290",
-        "cliente": "ARMAZEM BRASIL LIMITADA",
-        "bairro": "ANGÉLICA",
-        "dtultcomp": "30/07/2026",
-        "produtos": [
-          {
-            "produto": "AMARULA C LIQUEUR 750 ML",
-            "fantasia": "AURORA",
-            "qt": 12,
-            "valor": 1318.8
-          },
-          {
-            "produto": "GIN BEEFEATER 750ML",
-            "fantasia": "PERNOD",
-            "qt": 6,
-            "valor": 509.4
-          }
-        ]
-      },
-      {
         "codcli": "33293",
         "cliente": "ARMAZEM BRASIL LIMITADA",
         "bairro": "CENTRO",
@@ -3438,6 +3372,46 @@ const NAO_POS_MG_DATA = {
             "fantasia": "CASTAS",
             "qt": 12,
             "valor": 478.8
+          }
+        ]
+      },
+      {
+        "codcli": "33290",
+        "cliente": "ARMAZEM BRASIL LIMITADA",
+        "bairro": "ANGÉLICA",
+        "dtultcomp": "30/07/2026",
+        "produtos": [
+          {
+            "produto": "AMARULA C LIQUEUR 750 ML",
+            "fantasia": "AURORA",
+            "qt": 12,
+            "valor": 1318.8
+          },
+          {
+            "produto": "GIN BEEFEATER 750ML",
+            "fantasia": "PERNOD",
+            "qt": 6,
+            "valor": 509.4
+          }
+        ]
+      },
+      {
+        "codcli": "33288",
+        "cliente": "ARMAZEM BRASIL LIMITADA",
+        "bairro": "SÃO SEBASTIAO",
+        "dtultcomp": "30/07/2026",
+        "produtos": [
+          {
+            "produto": "AMARULA C LIQUEUR 750 ML",
+            "fantasia": "AURORA",
+            "qt": 12,
+            "valor": 1318.8
+          },
+          {
+            "produto": "GIN ORLOFF 1L",
+            "fantasia": "PERNOD",
+            "qt": 12,
+            "valor": 538.8
           }
         ]
       },
@@ -3498,26 +3472,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "MONIN",
             "qt": 84,
             "valor": 2007.6
-          }
-        ]
-      },
-      {
-        "codcli": "35169",
-        "cliente": "ADIÇÃO DISTRIBUIÇÃO EXPRESS S/A",
-        "bairro": "ZONA RURAL",
-        "dtultcomp": "31/07/2026",
-        "produtos": [
-          {
-            "produto": "XAROPE MONIN GENGIBRE (GINGER) 700 ML",
-            "fantasia": "MONIN",
-            "qt": 72,
-            "valor": 3376.8
-          },
-          {
-            "produto": "XAROPE MONIN MACA VERDE (APPLE) 700 ML",
-            "fantasia": "MONIN",
-            "qt": 12,
-            "valor": 562.8
           }
         ]
       },
