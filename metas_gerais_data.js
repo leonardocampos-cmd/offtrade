@@ -1,25 +1,25 @@
 const METAS_GERAIS_DATA = {
-  "atualizado_em": "17/08/2026 10:43",
+  "atualizado_em": "17/08/2026 11:27",
   "mes": "Ago/26",
   "mes_ant": "Jul/26",
   "dias_corridos": 17,
   "dias_no_mes": 31,
   "dias_restantes": 14,
   "resumo": {
-    "fat": 7274136.51,
+    "fat": 7274432.21,
     "fat_ant": 5426057.42,
     "fat_ant_completo": 13870374.56,
-    "pos": 951,
+    "pos": 950,
     "pos_ant": 1115,
     "pos_ant_completo": 1803
   },
   "total": {
     "meta": 12300000.0,
-    "fat": 7274136.51,
+    "fat": 7274432.21,
     "fat_ant": 5426057.42,
     "fat_ant_completo": 13870374.56,
     "pct": 59.1,
-    "nec_dia": 358990.25
+    "nec_dia": 358969.13
   },
   "estados": [
     {
@@ -39,11 +39,11 @@ const METAS_GERAIS_DATA = {
       "estado": "SP",
       "label": "São Paulo",
       "meta": 5500000.0,
-      "fat": 3945232.76,
+      "fat": 3943850.86,
       "fat_ant": 3537298.91,
-      "pos": 450,
+      "pos": 449,
       "pct": 71.7,
-      "nec_dia": 111054.8,
+      "nec_dia": 111153.51,
       "fat_ant_completo": 8553260.78,
       "pos_ant": 446,
       "pos_ant_completo": 725
@@ -52,11 +52,11 @@ const METAS_GERAIS_DATA = {
       "estado": "ES",
       "label": "Espírito Santo",
       "meta": 1800000.0,
-      "fat": 298584.93,
+      "fat": 300262.53,
       "fat_ant": 220558.71,
       "pos": 39,
-      "pct": 16.6,
-      "nec_dia": 107243.93,
+      "pct": 16.7,
+      "nec_dia": 107124.1,
       "fat_ant_completo": 735560.59,
       "pos_ant": 50,
       "pos_ant_completo": 90
@@ -78,45 +78,45 @@ const METAS_GERAIS_DATA = {
   "industrias": [
     {
       "fantasia": "PERNOD",
-      "fat": 2230748.41,
+      "fat": 2230638.61,
       "fat_ant": 2714470.16,
       "por_estado": {
         "RJ": 90641.12,
-        "SP": 2036062.61,
+        "SP": 2035952.81,
         "ES": 6979.8,
         "MG": 97064.88
       }
     },
     {
       "fantasia": "DIAGEO",
-      "fat": 1783933.05,
+      "fat": 1782940.75,
       "fat_ant": 127492.22,
       "por_estado": {
         "RJ": 1404561.18,
-        "SP": 48664.49,
+        "SP": 47672.19,
         "ES": 0.0,
         "MG": 330707.38
       }
     },
     {
       "fantasia": "BROWN",
-      "fat": 818541.26,
+      "fat": 818261.46,
       "fat_ant": 522223.01,
       "por_estado": {
         "RJ": 51099.8,
-        "SP": 767004.06,
+        "SP": 766724.26,
         "ES": 437.4,
         "MG": 0.0
       }
     },
     {
       "fantasia": "RED BULL",
-      "fat": 759606.21,
+      "fat": 761283.81,
       "fat_ant": 248959.11,
       "por_estado": {
         "RJ": 132036.76,
         "SP": 302330.88,
-        "ES": 170312.05,
+        "ES": 171989.65,
         "MG": 154926.52
       }
     },
