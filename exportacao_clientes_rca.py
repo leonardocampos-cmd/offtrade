@@ -62,6 +62,42 @@ def _query(schema, incluir_inativo=True):
     """
 
 
+def _query_ultima_venda(schema):
+    """Último RCA (qualquer um) que vendeu pra cada cliente — casa PCMOV pela
+    própria PCCLIENT.DTULTCOMP (data já mantida pelo Winthor) em vez de
+    escanear todo o histórico de PCMOV por cliente: mesmo resultado, muito
+    mais rápido (~18s vs minutos em teste manual de 2026-08-17 na base CRC)."""
+    s = schema.upper()
+    return f"""
+        SELECT M.CODCLI,
+               MIN(M.CODUSUR) KEEP (DENSE_RANK FIRST ORDER BY M.NUMNOTA DESC) AS CODUSUR_ULT,
+               MIN(U.NOME)    KEEP (DENSE_RANK FIRST ORDER BY M.NUMNOTA DESC) AS NOME_ULT
+        FROM {s}.PCCLIENT C
+        JOIN {s}.PCMOV M ON M.CODCLI = C.CODCLI AND M.DTMOV = C.DTULTCOMP
+        JOIN {s}.PCUSUARI U ON M.CODUSUR = U.CODUSUR
+        WHERE M.CODOPER IN ('S','SB') AND M.NUMNOTADEV IS NULL AND M.DTCANCEL IS NULL
+        GROUP BY M.CODCLI
+    """
+
+
+def _query_ultima_venda_offtrade(schema):
+    """Último RCA especificamente OFF TRADE que vendeu pra cada cliente —
+    pode ser diferente do último RCA geral acima (ex: cliente comprou
+    recentemente por outro canal, mas o último vendedor OFF TRADE foi antes).
+    Filtra por NOME OFF TRADE já no JOIN (não no WHERE) pra reduzir o
+    PCMOV escaneado antes de agregar (só ~10% do volume total em CRC)."""
+    s = schema.upper()
+    return f"""
+        SELECT M.CODCLI,
+               MAX(M.CODUSUR) KEEP (DENSE_RANK FIRST ORDER BY M.DTMOV DESC) AS CODUSUR_OT,
+               MAX(U.NOME)    KEEP (DENSE_RANK FIRST ORDER BY M.DTMOV DESC) AS NOME_OT
+        FROM {s}.PCMOV M
+        JOIN {s}.PCUSUARI U ON M.CODUSUR = U.CODUSUR AND U.NOME LIKE '%OFF TRADE%'
+        WHERE M.CODOPER IN ('S','SB') AND M.NUMNOTADEV IS NULL AND M.DTCANCEL IS NULL
+        GROUP BY M.CODCLI
+    """
+
+
 _sources = [
     ("CRC",     engine,         True),
     ("thekings",engine_theking, True),
@@ -74,9 +110,27 @@ _sources = [
 parts = []
 for schema, eng, incluir_inativo in _sources:
     try:
-        df = carregar_dados(_query(schema, incluir_inativo), eng, f"clientes_{schema}")
-        df['_SRC'] = schema
-        parts.append(df)
+        df_s = carregar_dados(_query(schema, incluir_inativo), eng, f"clientes_{schema}")
+        df_s['_SRC'] = schema
+        df_s['CODCLI'] = pd.to_numeric(df_s['CODCLI'], errors='coerce')
+
+        try:
+            ult = carregar_dados(_query_ultima_venda(schema), eng, f"ultima_venda_{schema}")
+            ult['CODCLI'] = pd.to_numeric(ult['CODCLI'], errors='coerce')
+            df_s = df_s.merge(ult, on='CODCLI', how='left')
+        except Exception as ex:
+            print(f"[AVISO] ultima_venda_{schema} falhou ({str(ex)[:80]}) — segue sem essa coluna")
+            df_s['CODUSUR_ULT'], df_s['NOME_ULT'] = None, None
+
+        try:
+            ult_ot = carregar_dados(_query_ultima_venda_offtrade(schema), eng, f"ultima_venda_ot_{schema}")
+            ult_ot['CODCLI'] = pd.to_numeric(ult_ot['CODCLI'], errors='coerce')
+            df_s = df_s.merge(ult_ot, on='CODCLI', how='left')
+        except Exception as ex:
+            print(f"[AVISO] ultima_venda_ot_{schema} falhou ({str(ex)[:80]}) — segue sem essa coluna")
+            df_s['CODUSUR_OT'], df_s['NOME_OT'] = None, None
+
+        parts.append(df_s)
     except Exception as ex:
         print(f"[AVISO] clientes_{schema} falhou ({str(ex)[:80]}) — ignorado")
 
@@ -132,6 +186,10 @@ for _, r in df.iterrows():
         'nome_usur1': n1,
         'codusur2':   str(int(r['CODUSUR2'])) if pd.notna(r['CODUSUR2']) else '',
         'nome_usur2': n2,
+        'ultimo_rca':         str(int(r['CODUSUR_ULT'])) if pd.notna(r.get('CODUSUR_ULT')) else '',
+        'ultimo_rca_nome':    r['NOME_ULT'].strip() if pd.notna(r.get('NOME_ULT')) else '',
+        'ultimo_rca_ot':      str(int(r['CODUSUR_OT'])) if pd.notna(r.get('CODUSUR_OT')) else '',
+        'ultimo_rca_ot_nome': r['NOME_OT'].strip() if pd.notna(r.get('NOME_OT')) else '',
     })
 
 clientes.sort(key=lambda x: x['razao'])
