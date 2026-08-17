@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "17/08/2026 15:51",
-  "total": 24530,
+  "atualizado_em": "17/08/2026 16:13",
+  "total": 24529,
   "clientes": [
     {
       "codcli": "38586",
@@ -81554,8 +81554,8 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MERCADO",
       "key_account": true,
       "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "codusur1": "458",
+      "nome_usur1": "BRUNO COSMO - OFF TRADE",
       "codusur2": "190",
       "nome_usur2": "ROMARIO DOS SANTOS",
       "ultimo_rca": "236",
@@ -127440,26 +127440,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "MARIANA LAGES",
       "ultimo_rca": "317",
       "ultimo_rca_nome": "LEO OLIVEIRA",
-      "ultimo_rca_ot": "",
-      "ultimo_rca_ot_nome": ""
-    },
-    {
-      "codcli": "30625",
-      "razao": "CASA MONTI COZINHA GOURMET LTDA",
-      "fantasia": "CASA MONTI COZINHA GOURMET",
-      "bairro": "LUXEMBURGO",
-      "cidade": "BELO HORIZONTE",
-      "cnpj": "27.044.535/0001-10",
-      "estado": "MG",
-      "ramo": "RESTAURANTE",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO",
-      "codusur2": "351",
-      "nome_usur2": "MARIANA LAGES",
-      "ultimo_rca": "311",
-      "ultimo_rca_nome": "DALMO SOARES",
       "ultimo_rca_ot": "",
       "ultimo_rca_ot_nome": ""
     },
@@ -457318,8 +457298,8 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "",
       "nome_usur2": "",
-      "ultimo_rca": "214",
-      "ultimo_rca_nome": "DANILO DAIBERT",
+      "ultimo_rca": "10",
+      "ultimo_rca_nome": "INATIVO3",
       "ultimo_rca_ot": "",
       "ultimo_rca_ot_nome": ""
     },
