@@ -1,9 +1,15 @@
 """
 Gera clientes_rca_data.js com base de clientes por CODUSUR1 e CODUSUR2.
-Filtra RCAs com NOME LIKE '%OFF TRADE%', 'W.S' exato, ou com '%INATIVO%'
+Filtra RCAs com NOME LIKE '%OFF TRADE%', 'W.S' exato, com '%INATIVO%'
 (clientes reatribuídos a um vendedor "estacionamento" tipo "INATIVO3" quando
 desativados/duplicados — sem esse filtro, ficavam invisíveis nessa página
-mesmo tendo sido clientes OFF TRADE no passado).
+mesmo tendo sido clientes OFF TRADE no passado), ou CODUSUR = 200 ("Novos
+Clientes"/"Inativo - Televendas" dependendo do schema — bucket de prospects
+que a página de clientes_rca usa pro link "Novos Clientes" de
+metas/sp/mg/es.html). CODUSUR 200 entra por número, não por NOME (o texto
+varia entre schemas) e sem exigir histórico de venda (diferente da cláusula
+INATIVO): cliente novo por definição pode não ter vendido ainda — confirmado
+em 2026-08-17, RCA 200 estava com 0 registros porque exigia PCMOV.
 """
 import json
 import pandas as pd
@@ -50,7 +56,8 @@ def _query(schema, incluir_inativo=True):
         LEFT JOIN {s}.PCUSUARI      U2 ON C.CODUSUR2 = U2.CODUSUR
         LEFT JOIN {s}.PCREDECLIENTE R  ON C.CODREDE  = R.CODREDE
         WHERE (U1.NOME LIKE '%OFF TRADE%' OR U2.NOME LIKE '%OFF TRADE%'
-               OR U1.NOME = 'W.S' OR U2.NOME = 'W.S')
+               OR U1.NOME = 'W.S' OR U2.NOME = 'W.S'
+               OR C.CODUSUR1 = 200 OR C.CODUSUR2 = 200)
            {clausula_inativo}
     """
 

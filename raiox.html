@@ -83,11 +83,18 @@
       } catch (e) { /* cross-origin ou ainda carregando — ignora */ }
     }
 
+    // ?estado=UF na própria URL (vindo do link "Novos Clientes" em
+    // metas.html/sp.html/mg.html/es.html via clientes_rca.html) — repassa
+    // pro iframe da aba Clientes, que trava o próprio select de Estado.
+    const _estadoFixo = new URLSearchParams(location.search).get('estado') || '';
+
     function trocarAba(aba, atualizarHash) {
       if (!PAGINAS[aba]) aba = 'clientes';
       abaAtual = aba;
       document.querySelectorAll('.tab-btn').forEach(b => b.classList.toggle('ativo', b.dataset.aba === aba));
-      frame.src = PAGINAS[aba] + '?embed=1';
+      let src = PAGINAS[aba] + '?embed=1';
+      if (aba === 'clientes' && _estadoFixo) src += '&estado=' + encodeURIComponent(_estadoFixo);
+      frame.src = src;
       if (atualizarHash !== false) location.hash = aba;
     }
 

@@ -107,7 +107,11 @@
     document.getElementById('atualizacao').textContent =
       `Atualizado em ${data.atualizado_em} · mês de referência: ${data.mes_atual}`;
 
-    let filtroEstado = '', filtroGerente = '', filtroSupervisor = '', filtroVendedor = '';
+    // ?estado=UF (vindo de raiox.html, repassado do link "Novos Clientes" em
+    // clientes_rca.html) — trava o filtro de Estado nessa aba embutida, pra
+    // quem quiser outro estado voltar em clientes_rca.html em vez de mexer aqui.
+    const _estadoTravado = new URLSearchParams(location.search).get('estado') || '';
+    let filtroEstado = _estadoTravado, filtroGerente = '', filtroSupervisor = '', filtroVendedor = '';
 
     function vendedoresFiltrados(estado, gerente, supervisor) {
       return (data.vendedores || []).filter(v =>
@@ -244,6 +248,7 @@
       selEstado.innerHTML = ['<option value="">Todos</option>']
         .concat(estados.map(e => `<option value="${e}">${e}</option>`)).join('');
       selEstado.value = filtroEstado;
+      if (_estadoTravado) selEstado.disabled = true;
 
       const gerentes = [...new Set(vendedoresFiltrados(filtroEstado, '', '').map(v => v.gerente))].sort();
       selGerente.innerHTML = ['<option value="">Todos</option>']

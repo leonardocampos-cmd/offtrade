@@ -574,7 +574,8 @@ function renderDetalhe(nome) {
   history.pushState({}, '', '?vendedor=' + encodeURIComponent(nome));
   document.getElementById('header-actions').innerHTML =
     '<button class="btn btn-dl" onclick="exportarCSV(\'' + nome.replace(/'/g,"\\'") + '\')">&#8595; CSV</button>' +
-    '<button class="btn" onclick="renderMain()">&#8592; Todos</button>';
+    '<button class="btn" onclick="renderMain()">&#8592; Todos</button>' +
+    '<a class="btn" href="clientes_rca.html?estado=MG&rcas=10,200" target="_blank" rel="noopener">&#128230; Novos Clientes</a>';
   document.getElementById('app').innerHTML =
     '<div class="detail-header"><div>' +
       '<div class="detail-name">' + nome + '</div>' +
