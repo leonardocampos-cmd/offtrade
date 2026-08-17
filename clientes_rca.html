@@ -135,6 +135,8 @@
         <th>UF</th>
         <th>RCA 1</th>
         <th class="hide-mob">RCA 2</th>
+        <th class="hide-mob">Último RCA (venda)</th>
+        <th class="hide-mob">Último RCA OFF TRADE (venda)</th>
       </tr>
     </thead>
     <tbody id="tbody"></tbody>
@@ -156,7 +158,7 @@ const _rcasFixo    = (_params.get('rcas') || '').split(',').map(s => s.trim()).f
 const _modoTravado = !!(_estadoFixo || _rcasFixo.length);
 
 if (!DATA) {
-  document.getElementById('tbody').innerHTML = '<tr><td colspan="11" class="empty">Dados não encontrados. Execute o pipeline para gerar clientes_rca_data.js.</td></tr>';
+  document.getElementById('tbody').innerHTML = '<tr><td colspan="13" class="empty">Dados não encontrados. Execute o pipeline para gerar clientes_rca_data.js.</td></tr>';
 } else {
   document.getElementById('header-sub').textContent = 'Atualizado ' + DATA.atualizado_em;
   montarEstados();
@@ -297,7 +299,7 @@ function aplicarFiltro() {
 
   const tbody = document.getElementById('tbody');
   if (!lista.length) {
-    tbody.innerHTML = '<tr><td colspan="11" class="empty">Nenhum cliente encontrado.</td></tr>';
+    tbody.innerHTML = '<tr><td colspan="13" class="empty">Nenhum cliente encontrado.</td></tr>';
     return;
   }
 
@@ -314,6 +316,8 @@ function aplicarFiltro() {
       <td style="color:var(--muted);font-size:.78rem;font-weight:700">${c.estado || ''}</td>
       <td>${c.codusur1 ? `<span class="rca-badge">${c.codusur1} · ${_esc(c.nome_usur1.replace(' - OFF TRADE',''))}</span>` : ''}</td>
       <td class="hide-mob">${c.codusur2 ? `<span class="rca-badge">${c.codusur2} · ${_esc(c.nome_usur2.replace(' - OFF TRADE',''))}</span>` : ''}</td>
+      <td class="hide-mob">${c.ultimo_rca ? `<span class="rca-badge">${c.ultimo_rca} · ${_esc(c.ultimo_rca_nome.replace(' - OFF TRADE',''))}</span>` : ''}</td>
+      <td class="hide-mob">${c.ultimo_rca_ot ? `<span class="rca-badge">${c.ultimo_rca_ot} · ${_esc(c.ultimo_rca_ot_nome.replace(' - OFF TRADE',''))}</span>` : ''}</td>
     </tr>`).join('');
 }
 
@@ -344,7 +348,7 @@ function _fmtCnpj(v) {
 
 function exportarCSV() {
   const lista = _filtrados();
-  const header = ['Codigo','CNPJ','Razao Social','Fantasia','Ramo','Rede','Bairro','Cidade','UF','Key Account','Cod RCA1','RCA1','Cod RCA2','RCA2'];
+  const header = ['Codigo','CNPJ','Razao Social','Fantasia','Ramo','Rede','Bairro','Cidade','UF','Key Account','Cod RCA1','RCA1','Cod RCA2','RCA2','Cod Ultimo RCA','Ultimo RCA','Cod Ultimo RCA OFF TRADE','Ultimo RCA OFF TRADE'];
   const linhas = lista.map(c => [
     c.codcli,
     c.cnpj,
@@ -360,6 +364,10 @@ function exportarCSV() {
     c.nome_usur1.replace(' - OFF TRADE',''),
     c.codusur2,
     c.nome_usur2.replace(' - OFF TRADE',''),
+    c.ultimo_rca,
+    (c.ultimo_rca_nome || '').replace(' - OFF TRADE',''),
+    c.ultimo_rca_ot,
+    (c.ultimo_rca_ot_nome || '').replace(' - OFF TRADE',''),
   ].map(v => `"${String(v||'').replace(/"/g,'""')}"`).join(';'));
 
   const csv = '﻿' + [header.join(';'), ...linhas].join('\r\n');
