@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "17/08/2026 16:47",
-  "total": 24530,
+  "atualizado_em": "17/08/2026 17:25",
+  "total": 24531,
   "clientes": [
     {
       "codcli": "38586",
@@ -188634,8 +188634,8 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MINI-MERCADO",
       "key_account": false,
       "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "SPON",
+      "codusur1": "475",
+      "nome_usur1": "LUCAS BUENO - OFF TRADE",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE",
       "ultimo_rca": "356",
@@ -239538,8 +239538,8 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "RQ",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE",
-      "ultimo_rca": "1",
-      "ultimo_rca_nome": "RQ",
+      "ultimo_rca": "",
+      "ultimo_rca_nome": "",
       "ultimo_rca_ot": "",
       "ultimo_rca_ot_nome": ""
     },
@@ -431804,6 +431804,26 @@ const CLIENTES_RCA_DATA = {
       "ultimo_rca_ot_nome": ""
     },
     {
+      "codcli": "48778",
+      "razao": "SENHOR SABOR RESTAURANTE LTDA",
+      "fantasia": "SENHOR SABOR RESTAURANTE EIRELI",
+      "bairro": "CAMPO BELO",
+      "cidade": "SAO PAULO",
+      "cnpj": "33.576.534/0001-10",
+      "estado": "SP",
+      "ramo": "RESTAURANTE",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "475",
+      "nome_usur1": "LUCAS BUENO - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": "",
+      "ultimo_rca": "",
+      "ultimo_rca_nome": "",
+      "ultimo_rca_ot": "",
+      "ultimo_rca_ot_nome": ""
+    },
+    {
       "codcli": "29557",
       "razao": "SENHORA OLGA BAR E RESTAURANTE LTDA.",
       "fantasia": "OLGA NUR SOLAR DO ROSARIO",
@@ -445234,8 +445254,8 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MERCADO",
       "key_account": false,
       "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "SPON",
+      "codusur1": "475",
+      "nome_usur1": "LUCAS BUENO - OFF TRADE",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE",
       "ultimo_rca": "356",
