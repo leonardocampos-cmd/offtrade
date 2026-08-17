@@ -6305,7 +6305,7 @@ const AGENDAMENTO_DATA = {
           "nf": "7726",
           "data_agendamento": "17/08/2026",
           "data_ord": "2026-08-17",
-          "status": "FATURADO",
+          "status": "ENTREGUE",
           "obs": "Caixas e rótulos íntegros",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -6319,7 +6319,7 @@ const AGENDAMENTO_DATA = {
           "nf": "7727",
           "data_agendamento": "17/08/2026",
           "data_ord": "2026-08-17",
-          "status": "FATURADO",
+          "status": "ENTREGUE",
           "obs": "Caixas e rótulos íntegros",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -17487,20 +17487,6 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "78665",
-          "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
-          "cnpj": "08.628.825/0022-91",
-          "filial": "DEL CASTILHO",
-          "valor": 1016.0,
-          "nf": "7714",
-          "data_agendamento": "17/08/2026",
-          "data_ord": "2026-08-17",
-          "status": "A FATURAR",
-          "obs": "SUPERMERCADO SUPERMAKET - PRODUTOS EM ENCARTE",
-          "status_logistica": "",
-          "justificativa_logistica": ""
-        },
-        {
           "codigo_cliente": "91984",
           "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
           "cnpj": "05.546.194/0005-72",
@@ -17847,6 +17833,20 @@ const AGENDAMENTO_DATA = {
           "data_ord": "2026-08-14",
           "status": "EM ROTA",
           "obs": "SUPERMERCADO SUPERMAKET - URGENTE",
+          "status_logistica": "",
+          "justificativa_logistica": ""
+        },
+        {
+          "codigo_cliente": "78665",
+          "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
+          "cnpj": "08.628.825/0022-91",
+          "filial": "DEL CASTILHO",
+          "valor": 1016.0,
+          "nf": "7714",
+          "data_agendamento": "14/08/2026",
+          "data_ord": "2026-08-14",
+          "status": "ENTREGUE",
+          "obs": "SUPERMERCADO SUPERMAKET - PRODUTOS EM ENCARTE",
           "status_logistica": "",
           "justificativa_logistica": ""
         },
@@ -26582,7 +26582,7 @@ const AGENDAMENTO_DATA = {
       ]
     }
   ],
-  "atualizado_em": "17/08/2026 13:34",
+  "atualizado_em": "17/08/2026 15:28",
   "comparativo": [
     {
       "msg_id": "1a000be7acfbb4b6",
