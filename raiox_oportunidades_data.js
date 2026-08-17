@@ -1,6 +1,6 @@
 // Gerado automaticamente
 const RAIOX_OPORTUNIDADES_DATA = {
-  "atualizado_em": "17/08/2026 10:15",
+  "atualizado_em": "17/08/2026 10:50",
   "periodo_atual": {
     "inicio": "01/08/2026",
     "fim": "17/08/2026",
@@ -200188,6 +200188,72 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "queda_qt_ano_pct": null
     },
     {
+      "codcli": 96039,
+      "estado": "ES",
+      "chave": "ES-96039",
+      "nome": "RESTAURANTE E CHURRASCARIA RIO NEGRO LTD",
+      "bairro": "SEAC",
+      "ramo": "RESTAURANTE",
+      "vendedor": "OZISLLAN RAMALHO DE SOUZA",
+      "gerente": "DANIEL DINIZ",
+      "supervisor": "EROCLES OLIVEIRA",
+      "chaves_rca": [
+        "ES-269"
+      ],
+      "por_industria": [
+        {
+          "fornecedor": "ROBINSON CRUSOE",
+          "por_produto": [
+            {
+              "produto": "RC SARDINHA EM OLEO 50X125G",
+              "fat_atual": 249.5,
+              "fat_mes_anterior": 0.0,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 1.0,
+              "qt_mes_anterior": 0.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": -249.5,
+              "queda_fat_ano_valor": -249.5,
+              "queda_fat_mes_pct": null,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": -1.0,
+              "queda_qt_ano_valor": -1.0,
+              "queda_qt_mes_pct": null,
+              "queda_qt_ano_pct": null
+            }
+          ],
+          "fat_atual": 249.5,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 1.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0,
+          "queda_fat_mes_valor": -249.5,
+          "queda_fat_ano_valor": -249.5,
+          "queda_fat_mes_pct": null,
+          "queda_fat_ano_pct": null,
+          "queda_qt_mes_valor": -1.0,
+          "queda_qt_ano_valor": -1.0,
+          "queda_qt_mes_pct": null,
+          "queda_qt_ano_pct": null
+        }
+      ],
+      "fat_atual": 249.5,
+      "fat_mes_anterior": 0.0,
+      "fat_ano_anterior": 0.0,
+      "qt_atual": 1.0,
+      "qt_mes_anterior": 0.0,
+      "qt_ano_anterior": 0.0,
+      "queda_fat_mes_valor": -249.5,
+      "queda_fat_ano_valor": -249.5,
+      "queda_fat_mes_pct": null,
+      "queda_fat_ano_pct": null,
+      "queda_qt_mes_valor": -1.0,
+      "queda_qt_ano_valor": -1.0,
+      "queda_qt_mes_pct": null,
+      "queda_qt_ano_pct": null
+    },
+    {
       "codcli": 84321,
       "estado": "RJ",
       "chave": "RJ-84321",
@@ -334345,192 +334411,6 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "queda_qt_ano_pct": -54.6
     },
     {
-      "codcli": 31722,
-      "estado": "MG",
-      "chave": "MG-31722",
-      "nome": "THAYANE MICELE",
-      "bairro": "INGÁ",
-      "ramo": "BAR",
-      "vendedor": "JOÃO SANTOS",
-      "gerente": "FERNANDO RISSON",
-      "supervisor": "FERNANDO RISSON",
-      "chaves_rca": [
-        "MG-327",
-        "MG-343.0"
-      ],
-      "por_industria": [
-        {
-          "fornecedor": "RED BULL",
-          "por_produto": [
-            {
-              "produto": "RED BULL AMORA EDITION SF 24X250ML",
-              "fat_atual": 0.0,
-              "fat_mes_anterior": 0.0,
-              "fat_ano_anterior": 1845.6,
-              "qt_atual": 0.0,
-              "qt_mes_anterior": 0.0,
-              "qt_ano_anterior": 10.0,
-              "queda_fat_mes_valor": 0.0,
-              "queda_fat_ano_valor": 1845.6,
-              "queda_fat_mes_pct": null,
-              "queda_fat_ano_pct": -100.0,
-              "queda_qt_mes_valor": 0.0,
-              "queda_qt_ano_valor": 10.0,
-              "queda_qt_mes_pct": null,
-              "queda_qt_ano_pct": -100.0
-            },
-            {
-              "produto": "RED BULL SUMMER MELÃO MARACUJA  24X250ML",
-              "fat_atual": 0.0,
-              "fat_mes_anterior": 0.0,
-              "fat_ano_anterior": 738.24,
-              "qt_atual": 0.0,
-              "qt_mes_anterior": 0.0,
-              "qt_ano_anterior": 4.0,
-              "queda_fat_mes_valor": 0.0,
-              "queda_fat_ano_valor": 738.24,
-              "queda_fat_mes_pct": null,
-              "queda_fat_ano_pct": -100.0,
-              "queda_qt_mes_valor": 0.0,
-              "queda_qt_ano_valor": 4.0,
-              "queda_qt_mes_pct": null,
-              "queda_qt_ano_pct": -100.0
-            },
-            {
-              "produto": "RED BULL MORANGO E PESSEGO 250ML CX24",
-              "fat_atual": 1917.6,
-              "fat_mes_anterior": 0.0,
-              "fat_ano_anterior": 922.8,
-              "qt_atual": 10.0,
-              "qt_mes_anterior": 0.0,
-              "qt_ano_anterior": 5.0,
-              "queda_fat_mes_valor": -1917.6,
-              "queda_fat_ano_valor": -994.8,
-              "queda_fat_mes_pct": null,
-              "queda_fat_ano_pct": 107.8,
-              "queda_qt_mes_valor": -10.0,
-              "queda_qt_ano_valor": -5.0,
-              "queda_qt_mes_pct": null,
-              "queda_qt_ano_pct": 100.0
-            },
-            {
-              "produto": "RED BULL SUGAR FREE  250 ML CX C/24",
-              "fat_atual": 5752.8,
-              "fat_mes_anterior": 0.0,
-              "fat_ano_anterior": 0.0,
-              "qt_atual": 30.0,
-              "qt_mes_anterior": 0.0,
-              "qt_ano_anterior": 0.0,
-              "queda_fat_mes_valor": -5752.8,
-              "queda_fat_ano_valor": -5752.8,
-              "queda_fat_mes_pct": null,
-              "queda_fat_ano_pct": null,
-              "queda_qt_mes_valor": -30.0,
-              "queda_qt_ano_valor": -30.0,
-              "queda_qt_mes_pct": null,
-              "queda_qt_ano_pct": null
-            },
-            {
-              "produto": "RED BULL MELANCIA 24X250ML",
-              "fat_atual": 9588.0,
-              "fat_mes_anterior": 0.0,
-              "fat_ano_anterior": 1845.6,
-              "qt_atual": 50.0,
-              "qt_mes_anterior": 0.0,
-              "qt_ano_anterior": 10.0,
-              "queda_fat_mes_valor": -9588.0,
-              "queda_fat_ano_valor": -7742.4,
-              "queda_fat_mes_pct": null,
-              "queda_fat_ano_pct": 419.5,
-              "queda_qt_mes_valor": -50.0,
-              "queda_qt_ano_valor": -40.0,
-              "queda_qt_mes_pct": null,
-              "queda_qt_ano_pct": 400.0
-            },
-            {
-              "produto": "RED BULL ZERO 24X250ML",
-              "fat_atual": 9588.0,
-              "fat_mes_anterior": 0.0,
-              "fat_ano_anterior": 1845.6,
-              "qt_atual": 50.0,
-              "qt_mes_anterior": 0.0,
-              "qt_ano_anterior": 10.0,
-              "queda_fat_mes_valor": -9588.0,
-              "queda_fat_ano_valor": -7742.4,
-              "queda_fat_mes_pct": null,
-              "queda_fat_ano_pct": 419.5,
-              "queda_qt_mes_valor": -50.0,
-              "queda_qt_ano_valor": -40.0,
-              "queda_qt_mes_pct": null,
-              "queda_qt_ano_pct": 400.0
-            },
-            {
-              "produto": "RED BULL TROPICAL EDITION 250 ML CX C/24",
-              "fat_atual": 11505.6,
-              "fat_mes_anterior": 0.0,
-              "fat_ano_anterior": 2768.4,
-              "qt_atual": 60.0,
-              "qt_mes_anterior": 0.0,
-              "qt_ano_anterior": 15.0,
-              "queda_fat_mes_valor": -11505.6,
-              "queda_fat_ano_valor": -8737.2,
-              "queda_fat_mes_pct": null,
-              "queda_fat_ano_pct": 315.6,
-              "queda_qt_mes_valor": -60.0,
-              "queda_qt_ano_valor": -45.0,
-              "queda_qt_mes_pct": null,
-              "queda_qt_ano_pct": 300.0
-            },
-            {
-              "produto": "RED BULL 250ML CAIXA C/24 UNID",
-              "fat_atual": 43146.0,
-              "fat_mes_anterior": 0.0,
-              "fat_ano_anterior": 12550.08,
-              "qt_atual": 225.0,
-              "qt_mes_anterior": 0.0,
-              "qt_ano_anterior": 68.0,
-              "queda_fat_mes_valor": -43146.0,
-              "queda_fat_ano_valor": -30595.92,
-              "queda_fat_mes_pct": null,
-              "queda_fat_ano_pct": 243.8,
-              "queda_qt_mes_valor": -225.0,
-              "queda_qt_ano_valor": -157.0,
-              "queda_qt_mes_pct": null,
-              "queda_qt_ano_pct": 230.9
-            }
-          ],
-          "fat_atual": 81498.0,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 22516.32,
-          "qt_atual": 425.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 122.0,
-          "queda_fat_mes_valor": -81498.0,
-          "queda_fat_ano_valor": -58981.68,
-          "queda_fat_mes_pct": null,
-          "queda_fat_ano_pct": 262.0,
-          "queda_qt_mes_valor": -425.0,
-          "queda_qt_ano_valor": -303.0,
-          "queda_qt_mes_pct": null,
-          "queda_qt_ano_pct": 248.4
-        }
-      ],
-      "fat_atual": 81498.0,
-      "fat_mes_anterior": 0.0,
-      "fat_ano_anterior": 22516.32,
-      "qt_atual": 425.0,
-      "qt_mes_anterior": 0.0,
-      "qt_ano_anterior": 122.0,
-      "queda_fat_mes_valor": -81498.0,
-      "queda_fat_ano_valor": -58981.68,
-      "queda_fat_mes_pct": null,
-      "queda_fat_ano_pct": 262.0,
-      "queda_qt_mes_valor": -425.0,
-      "queda_qt_ano_valor": -303.0,
-      "queda_qt_mes_pct": null,
-      "queda_qt_ano_pct": 248.4
-    },
-    {
       "codcli": 33139,
       "estado": "MG",
       "chave": "MG-33139",
@@ -334805,6 +334685,209 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "queda_qt_ano_valor": -2040.0,
       "queda_qt_mes_pct": null,
       "queda_qt_ano_pct": null
+    },
+    {
+      "codcli": 31722,
+      "estado": "MG",
+      "chave": "MG-31722",
+      "nome": "THAYANE MICELE",
+      "bairro": "INGÁ",
+      "ramo": "BAR",
+      "vendedor": "JOÃO SANTOS",
+      "gerente": "FERNANDO RISSON",
+      "supervisor": "FERNANDO RISSON",
+      "chaves_rca": [
+        "MG-327",
+        "MG-343.0"
+      ],
+      "por_industria": [
+        {
+          "fornecedor": "RED BULL",
+          "por_produto": [
+            {
+              "produto": "RED BULL AMORA EDITION SF 24X250ML",
+              "fat_atual": 0.0,
+              "fat_mes_anterior": 0.0,
+              "fat_ano_anterior": 1845.6,
+              "qt_atual": 0.0,
+              "qt_mes_anterior": 0.0,
+              "qt_ano_anterior": 10.0,
+              "queda_fat_mes_valor": 0.0,
+              "queda_fat_ano_valor": 1845.6,
+              "queda_fat_mes_pct": null,
+              "queda_fat_ano_pct": -100.0,
+              "queda_qt_mes_valor": 0.0,
+              "queda_qt_ano_valor": 10.0,
+              "queda_qt_mes_pct": null,
+              "queda_qt_ano_pct": -100.0
+            },
+            {
+              "produto": "RED BULL SUMMER MELÃO MARACUJA  24X250ML",
+              "fat_atual": 0.0,
+              "fat_mes_anterior": 0.0,
+              "fat_ano_anterior": 738.24,
+              "qt_atual": 0.0,
+              "qt_mes_anterior": 0.0,
+              "qt_ano_anterior": 4.0,
+              "queda_fat_mes_valor": 0.0,
+              "queda_fat_ano_valor": 738.24,
+              "queda_fat_mes_pct": null,
+              "queda_fat_ano_pct": -100.0,
+              "queda_qt_mes_valor": 0.0,
+              "queda_qt_ano_valor": 4.0,
+              "queda_qt_mes_pct": null,
+              "queda_qt_ano_pct": -100.0
+            },
+            {
+              "produto": "4 PACK  RED BULL",
+              "fat_atual": 383.52,
+              "fat_mes_anterior": 0.0,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 12.0,
+              "qt_mes_anterior": 0.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": -383.52,
+              "queda_fat_ano_valor": -383.52,
+              "queda_fat_mes_pct": null,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": -12.0,
+              "queda_qt_ano_valor": -12.0,
+              "queda_qt_mes_pct": null,
+              "queda_qt_ano_pct": null
+            },
+            {
+              "produto": "RED BULL MORANGO E PESSEGO 250ML CX24",
+              "fat_atual": 1917.6,
+              "fat_mes_anterior": 0.0,
+              "fat_ano_anterior": 922.8,
+              "qt_atual": 10.0,
+              "qt_mes_anterior": 0.0,
+              "qt_ano_anterior": 5.0,
+              "queda_fat_mes_valor": -1917.6,
+              "queda_fat_ano_valor": -994.8,
+              "queda_fat_mes_pct": null,
+              "queda_fat_ano_pct": 107.8,
+              "queda_qt_mes_valor": -10.0,
+              "queda_qt_ano_valor": -5.0,
+              "queda_qt_mes_pct": null,
+              "queda_qt_ano_pct": 100.0
+            },
+            {
+              "produto": "RED BULL SUGAR FREE  250 ML CX C/24",
+              "fat_atual": 11505.6,
+              "fat_mes_anterior": 0.0,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 60.0,
+              "qt_mes_anterior": 0.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": -11505.6,
+              "queda_fat_ano_valor": -11505.6,
+              "queda_fat_mes_pct": null,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": -60.0,
+              "queda_qt_ano_valor": -60.0,
+              "queda_qt_mes_pct": null,
+              "queda_qt_ano_pct": null
+            },
+            {
+              "produto": "RED BULL ZERO 24X250ML",
+              "fat_atual": 15340.8,
+              "fat_mes_anterior": 0.0,
+              "fat_ano_anterior": 1845.6,
+              "qt_atual": 80.0,
+              "qt_mes_anterior": 0.0,
+              "qt_ano_anterior": 10.0,
+              "queda_fat_mes_valor": -15340.8,
+              "queda_fat_ano_valor": -13495.2,
+              "queda_fat_mes_pct": null,
+              "queda_fat_ano_pct": 731.2,
+              "queda_qt_mes_valor": -80.0,
+              "queda_qt_ano_valor": -70.0,
+              "queda_qt_mes_pct": null,
+              "queda_qt_ano_pct": 700.0
+            },
+            {
+              "produto": "RED BULL MELANCIA 24X250ML",
+              "fat_atual": 17258.4,
+              "fat_mes_anterior": 0.0,
+              "fat_ano_anterior": 1845.6,
+              "qt_atual": 90.0,
+              "qt_mes_anterior": 0.0,
+              "qt_ano_anterior": 10.0,
+              "queda_fat_mes_valor": -17258.4,
+              "queda_fat_ano_valor": -15412.8,
+              "queda_fat_mes_pct": null,
+              "queda_fat_ano_pct": 835.1,
+              "queda_qt_mes_valor": -90.0,
+              "queda_qt_ano_valor": -80.0,
+              "queda_qt_mes_pct": null,
+              "queda_qt_ano_pct": 800.0
+            },
+            {
+              "produto": "RED BULL TROPICAL EDITION 250 ML CX C/24",
+              "fat_atual": 23011.2,
+              "fat_mes_anterior": 0.0,
+              "fat_ano_anterior": 2768.4,
+              "qt_atual": 120.0,
+              "qt_mes_anterior": 0.0,
+              "qt_ano_anterior": 15.0,
+              "queda_fat_mes_valor": -23011.2,
+              "queda_fat_ano_valor": -20242.8,
+              "queda_fat_mes_pct": null,
+              "queda_fat_ano_pct": 731.2,
+              "queda_qt_mes_valor": -120.0,
+              "queda_qt_ano_valor": -105.0,
+              "queda_qt_mes_pct": null,
+              "queda_qt_ano_pct": 700.0
+            },
+            {
+              "produto": "RED BULL 250ML CAIXA C/24 UNID",
+              "fat_atual": 45063.6,
+              "fat_mes_anterior": 0.0,
+              "fat_ano_anterior": 12550.08,
+              "qt_atual": 235.0,
+              "qt_mes_anterior": 0.0,
+              "qt_ano_anterior": 68.0,
+              "queda_fat_mes_valor": -45063.6,
+              "queda_fat_ano_valor": -32513.52,
+              "queda_fat_mes_pct": null,
+              "queda_fat_ano_pct": 259.1,
+              "queda_qt_mes_valor": -235.0,
+              "queda_qt_ano_valor": -167.0,
+              "queda_qt_mes_pct": null,
+              "queda_qt_ano_pct": 245.6
+            }
+          ],
+          "fat_atual": 114480.72,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 22516.32,
+          "qt_atual": 607.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 122.0,
+          "queda_fat_mes_valor": -114480.72,
+          "queda_fat_ano_valor": -91964.4,
+          "queda_fat_mes_pct": null,
+          "queda_fat_ano_pct": 408.4,
+          "queda_qt_mes_valor": -607.0,
+          "queda_qt_ano_valor": -485.0,
+          "queda_qt_mes_pct": null,
+          "queda_qt_ano_pct": 397.5
+        }
+      ],
+      "fat_atual": 114480.72,
+      "fat_mes_anterior": 0.0,
+      "fat_ano_anterior": 22516.32,
+      "qt_atual": 607.0,
+      "qt_mes_anterior": 0.0,
+      "qt_ano_anterior": 122.0,
+      "queda_fat_mes_valor": -114480.72,
+      "queda_fat_ano_valor": -91964.4,
+      "queda_fat_mes_pct": null,
+      "queda_fat_ano_pct": 408.4,
+      "queda_qt_mes_valor": -607.0,
+      "queda_qt_ano_valor": -485.0,
+      "queda_qt_mes_pct": null,
+      "queda_qt_ano_pct": 397.5
     },
     {
       "codcli": 42942,
@@ -338718,20 +338801,20 @@ const RAIOX_OPORTUNIDADES_DATA = {
     {
       "fornecedor": "ROBINSON CRUSOE",
       "estado": "ES",
-      "fat_atual": 23286.0,
+      "fat_atual": 23535.5,
       "fat_mes_anterior": 78273.85,
       "fat_ano_anterior": 71426.26,
-      "qt_atual": 100.0,
+      "qt_atual": 101.0,
       "qt_mes_anterior": 370.0,
       "qt_ano_anterior": 384.0,
-      "queda_fat_mes_valor": 54987.85,
-      "queda_fat_ano_valor": 48140.26,
-      "queda_fat_mes_pct": -70.3,
-      "queda_fat_ano_pct": -67.4,
-      "queda_qt_mes_valor": 270.0,
-      "queda_qt_ano_valor": 284.0,
-      "queda_qt_mes_pct": -73.0,
-      "queda_qt_ano_pct": -74.0,
+      "queda_fat_mes_valor": 54738.35,
+      "queda_fat_ano_valor": 47890.76,
+      "queda_fat_mes_pct": -69.9,
+      "queda_fat_ano_pct": -67.0,
+      "queda_qt_mes_valor": 269.0,
+      "queda_qt_ano_valor": 283.0,
+      "queda_qt_mes_pct": -72.7,
+      "queda_qt_ano_pct": -73.7,
       "por_vendedor": {
         "ES-260": {
           "fat_atual": 0.0,
@@ -338740,6 +338823,14 @@ const RAIOX_OPORTUNIDADES_DATA = {
           "qt_atual": 0.0,
           "qt_mes_anterior": 0.0,
           "qt_ano_anterior": 1.0
+        },
+        "ES-269": {
+          "fat_atual": 249.5,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 1.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0
         },
         "ES-388": {
           "fat_atual": 23286.0,
@@ -347214,26 +347305,26 @@ const RAIOX_OPORTUNIDADES_DATA = {
     {
       "fornecedor": "RED BULL",
       "estado": "MG",
-      "fat_atual": 156706.6,
+      "fat_atual": 189689.32,
       "fat_mes_anterior": 77166.42,
       "fat_ano_anterior": 266146.96,
-      "qt_atual": 860.0,
+      "qt_atual": 1042.0,
       "qt_mes_anterior": 469.0,
       "qt_ano_anterior": 1718.0,
-      "queda_fat_mes_valor": -79540.18,
-      "queda_fat_ano_valor": 109440.36,
-      "queda_fat_mes_pct": 103.1,
-      "queda_fat_ano_pct": -41.1,
-      "queda_qt_mes_valor": -391.0,
-      "queda_qt_ano_valor": 858.0,
-      "queda_qt_mes_pct": 83.4,
-      "queda_qt_ano_pct": -49.9,
+      "queda_fat_mes_valor": -112522.9,
+      "queda_fat_ano_valor": 76457.64,
+      "queda_fat_mes_pct": 145.8,
+      "queda_fat_ano_pct": -28.7,
+      "queda_qt_mes_valor": -573.0,
+      "queda_qt_ano_valor": 676.0,
+      "queda_qt_mes_pct": 122.2,
+      "queda_qt_ano_pct": -39.3,
       "por_vendedor": {
         "MG-327": {
-          "fat_atual": 91725.92,
+          "fat_atual": 124708.64,
           "fat_mes_anterior": 10367.28,
           "fat_ano_anterior": 28753.92,
-          "qt_atual": 497.0,
+          "qt_atual": 679.0,
           "qt_mes_anterior": 93.0,
           "qt_ano_anterior": 223.0
         },
@@ -347246,10 +347337,10 @@ const RAIOX_OPORTUNIDADES_DATA = {
           "qt_ano_anterior": 0.0
         },
         "MG-343": {
-          "fat_atual": 135862.32,
+          "fat_atual": 168845.04,
           "fat_mes_anterior": 52772.68,
           "fat_ano_anterior": 254504.76,
-          "qt_atual": 712.0,
+          "qt_atual": 894.0,
           "qt_mes_anterior": 273.0,
           "qt_ano_anterior": 1561.0
         },
@@ -352749,35 +352840,6 @@ const RAIOX_OPORTUNIDADES_DATA = {
       }
     },
     {
-      "produto": "RC SARDINHA EM OLEO 50X125G",
-      "fornecedor": "ROBINSON CRUSOE",
-      "estado": "ES",
-      "fat_atual": 23286.0,
-      "fat_mes_anterior": 39051.8,
-      "fat_ano_anterior": 0.0,
-      "qt_atual": 100.0,
-      "qt_mes_anterior": 170.0,
-      "qt_ano_anterior": 0.0,
-      "queda_fat_mes_valor": 15765.8,
-      "queda_fat_ano_valor": -23286.0,
-      "queda_fat_mes_pct": -40.4,
-      "queda_fat_ano_pct": null,
-      "queda_qt_mes_valor": 70.0,
-      "queda_qt_ano_valor": -100.0,
-      "queda_qt_mes_pct": -41.2,
-      "queda_qt_ano_pct": null,
-      "por_vendedor": {
-        "ES-388": {
-          "fat_atual": 23286.0,
-          "fat_mes_anterior": 39051.8,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 100.0,
-          "qt_mes_anterior": 170.0,
-          "qt_ano_anterior": 0.0
-        }
-      }
-    },
-    {
       "produto": "WHISKY CHIVAS REGAL XV 750ML",
       "fornecedor": "PERNOD",
       "estado": "SP",
@@ -352810,6 +352872,43 @@ const RAIOX_OPORTUNIDADES_DATA = {
           "fat_ano_anterior": 0.0,
           "qt_atual": 12.0,
           "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0
+        }
+      }
+    },
+    {
+      "produto": "RC SARDINHA EM OLEO 50X125G",
+      "fornecedor": "ROBINSON CRUSOE",
+      "estado": "ES",
+      "fat_atual": 23535.5,
+      "fat_mes_anterior": 39051.8,
+      "fat_ano_anterior": 0.0,
+      "qt_atual": 101.0,
+      "qt_mes_anterior": 170.0,
+      "qt_ano_anterior": 0.0,
+      "queda_fat_mes_valor": 15516.3,
+      "queda_fat_ano_valor": -23535.5,
+      "queda_fat_mes_pct": -39.7,
+      "queda_fat_ano_pct": null,
+      "queda_qt_mes_valor": 69.0,
+      "queda_qt_ano_valor": -101.0,
+      "queda_qt_mes_pct": -40.6,
+      "queda_qt_ano_pct": null,
+      "por_vendedor": {
+        "ES-269": {
+          "fat_atual": 249.5,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 1.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0
+        },
+        "ES-388": {
+          "fat_atual": 23286.0,
+          "fat_mes_anterior": 39051.8,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 100.0,
+          "qt_mes_anterior": 170.0,
           "qt_ano_anterior": 0.0
         }
       }
@@ -372472,59 +372571,6 @@ const RAIOX_OPORTUNIDADES_DATA = {
       }
     },
     {
-      "produto": "4 PACK  RED BULL",
-      "fornecedor": "RED BULL",
-      "estado": "MG",
-      "fat_atual": 257.68,
-      "fat_mes_anterior": 537.16,
-      "fat_ano_anterior": 1101.76,
-      "qt_atual": 8.0,
-      "qt_mes_anterior": 17.0,
-      "qt_ano_anterior": 36.0,
-      "queda_fat_mes_valor": 279.48,
-      "queda_fat_ano_valor": 844.08,
-      "queda_fat_mes_pct": -52.0,
-      "queda_fat_ano_pct": -76.6,
-      "queda_qt_mes_valor": 9.0,
-      "queda_qt_ano_valor": 28.0,
-      "queda_qt_mes_pct": -52.9,
-      "queda_qt_ano_pct": -77.8,
-      "por_vendedor": {
-        "MG-327": {
-          "fat_atual": 193.76,
-          "fat_mes_anterior": 415.48,
-          "fat_ano_anterior": 747.84,
-          "qt_atual": 6.0,
-          "qt_mes_anterior": 13.0,
-          "qt_ano_anterior": 24.0
-        },
-        "MG-343": {
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 31.96,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 1.0,
-          "qt_ano_anterior": 0.0
-        },
-        "MG-344": {
-          "fat_atual": 63.92,
-          "fat_mes_anterior": 87.72,
-          "fat_ano_anterior": 353.92,
-          "qt_atual": 2.0,
-          "qt_mes_anterior": 3.0,
-          "qt_ano_anterior": 12.0
-        },
-        "MG-354": {
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 33.96,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 1.0,
-          "qt_ano_anterior": 0.0
-        }
-      }
-    },
-    {
       "produto": "MARTINI EXTRA DRY 750 ML",
       "fornecedor": "BACARDI",
       "estado": "MG",
@@ -388351,6 +388397,59 @@ const RAIOX_OPORTUNIDADES_DATA = {
           "qt_atual": 0.0,
           "qt_mes_anterior": 0.0,
           "qt_ano_anterior": 12.0
+        }
+      }
+    },
+    {
+      "produto": "4 PACK  RED BULL",
+      "fornecedor": "RED BULL",
+      "estado": "MG",
+      "fat_atual": 641.2,
+      "fat_mes_anterior": 537.16,
+      "fat_ano_anterior": 1101.76,
+      "qt_atual": 20.0,
+      "qt_mes_anterior": 17.0,
+      "qt_ano_anterior": 36.0,
+      "queda_fat_mes_valor": -104.04,
+      "queda_fat_ano_valor": 460.56,
+      "queda_fat_mes_pct": 19.4,
+      "queda_fat_ano_pct": -41.8,
+      "queda_qt_mes_valor": -3.0,
+      "queda_qt_ano_valor": 16.0,
+      "queda_qt_mes_pct": 17.6,
+      "queda_qt_ano_pct": -44.4,
+      "por_vendedor": {
+        "MG-327": {
+          "fat_atual": 577.28,
+          "fat_mes_anterior": 415.48,
+          "fat_ano_anterior": 747.84,
+          "qt_atual": 18.0,
+          "qt_mes_anterior": 13.0,
+          "qt_ano_anterior": 24.0
+        },
+        "MG-343": {
+          "fat_atual": 383.52,
+          "fat_mes_anterior": 31.96,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 12.0,
+          "qt_mes_anterior": 1.0,
+          "qt_ano_anterior": 0.0
+        },
+        "MG-344": {
+          "fat_atual": 63.92,
+          "fat_mes_anterior": 87.72,
+          "fat_ano_anterior": 353.92,
+          "qt_atual": 2.0,
+          "qt_mes_anterior": 3.0,
+          "qt_ano_anterior": 12.0
+        },
+        "MG-354": {
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 33.96,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 1.0,
+          "qt_ano_anterior": 0.0
         }
       }
     },
@@ -407029,136 +407128,6 @@ const RAIOX_OPORTUNIDADES_DATA = {
       }
     },
     {
-      "produto": "RED BULL ZERO 24X250ML",
-      "fornecedor": "RED BULL",
-      "estado": "MG",
-      "fat_atual": 20066.16,
-      "fat_mes_anterior": 8810.4,
-      "fat_ano_anterior": 5445.12,
-      "qt_atual": 107.0,
-      "qt_mes_anterior": 51.0,
-      "qt_ano_anterior": 31.0,
-      "queda_fat_mes_valor": -11255.76,
-      "queda_fat_ano_valor": -14621.04,
-      "queda_fat_mes_pct": 127.8,
-      "queda_fat_ano_pct": 268.5,
-      "queda_qt_mes_valor": -56.0,
-      "queda_qt_ano_valor": -76.0,
-      "queda_qt_mes_pct": 109.8,
-      "queda_qt_ano_pct": 245.2,
-      "por_vendedor": {
-        "MG-327": {
-          "fat_atual": 10719.36,
-          "fat_mes_anterior": 575.28,
-          "fat_ano_anterior": 2394.48,
-          "qt_atual": 56.0,
-          "qt_mes_anterior": 3.0,
-          "qt_ano_anterior": 13.0
-        },
-        "MG-331": {
-          "fat_atual": 369.12,
-          "fat_mes_anterior": 728.64,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 2.0,
-          "qt_mes_anterior": 4.0,
-          "qt_ano_anterior": 0.0
-        },
-        "MG-343": {
-          "fat_atual": 14914.32,
-          "fat_mes_anterior": 2602.08,
-          "fat_ano_anterior": 4898.16,
-          "qt_atual": 77.0,
-          "qt_mes_anterior": 13.0,
-          "qt_ano_anterior": 28.0
-        },
-        "MG-344": {
-          "fat_atual": 3651.36,
-          "fat_mes_anterior": 4722.24,
-          "fat_ano_anterior": 175.44,
-          "qt_atual": 22.0,
-          "qt_mes_anterior": 30.0,
-          "qt_ano_anterior": 1.0
-        },
-        "MG-354": {
-          "fat_atual": 4403.52,
-          "fat_mes_anterior": 2602.08,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 22.0,
-          "qt_mes_anterior": 13.0,
-          "qt_ano_anterior": 0.0
-        },
-        "MG-362": {
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 182.16,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 1.0,
-          "qt_ano_anterior": 0.0
-        }
-      }
-    },
-    {
-      "produto": "RED BULL MELANCIA 24X250ML",
-      "fornecedor": "RED BULL",
-      "estado": "MG",
-      "fat_atual": 19750.08,
-      "fat_mes_anterior": 8287.68,
-      "fat_ano_anterior": 23110.8,
-      "qt_atual": 103.0,
-      "qt_mes_anterior": 43.0,
-      "qt_ano_anterior": 138.0,
-      "queda_fat_mes_valor": -11462.4,
-      "queda_fat_ano_valor": 3360.72,
-      "queda_fat_mes_pct": 138.3,
-      "queda_fat_ano_pct": -14.5,
-      "queda_qt_mes_valor": -60.0,
-      "queda_qt_ano_valor": 35.0,
-      "queda_qt_mes_pct": 139.5,
-      "queda_qt_ano_pct": -25.4,
-      "por_vendedor": {
-        "MG-327": {
-          "fat_atual": 11114.88,
-          "fat_mes_anterior": 1131.36,
-          "fat_ano_anterior": 3120.72,
-          "qt_atual": 58.0,
-          "qt_mes_anterior": 6.0,
-          "qt_ano_anterior": 17.0
-        },
-        "MG-343": {
-          "fat_atual": 18223.2,
-          "fat_mes_anterior": 6044.16,
-          "fat_ano_anterior": 20379.36,
-          "qt_atual": 95.0,
-          "qt_mes_anterior": 31.0,
-          "qt_ano_anterior": 123.0
-        },
-        "MG-344": {
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 1112.16,
-          "fat_ano_anterior": 1633.68,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 6.0,
-          "qt_ano_anterior": 9.0
-        },
-        "MG-354": {
-          "fat_atual": 1000.8,
-          "fat_mes_anterior": 4203.36,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 5.0,
-          "qt_mes_anterior": 21.0,
-          "qt_ano_anterior": 0.0
-        },
-        "MG-360": {
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 790.8,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 5.0
-        }
-      }
-    },
-    {
       "produto": "WHISKY ESC MACALLAN SHERRY OAK 12YO700ML",
       "fornecedor": "BEAM SUNTORY",
       "estado": "MG",
@@ -407200,67 +407169,6 @@ const RAIOX_OPORTUNIDADES_DATA = {
           "qt_atual": 12.0,
           "qt_mes_anterior": 0.0,
           "qt_ano_anterior": 12.0
-        }
-      }
-    },
-    {
-      "produto": "RED BULL SUGAR FREE  250 ML CX C/24",
-      "fornecedor": "RED BULL",
-      "estado": "MG",
-      "fat_atual": 17813.76,
-      "fat_mes_anterior": 6086.16,
-      "fat_ano_anterior": 26535.12,
-      "qt_atual": 96.0,
-      "qt_mes_anterior": 31.0,
-      "qt_ano_anterior": 157.0,
-      "queda_fat_mes_valor": -11727.6,
-      "queda_fat_ano_valor": 8721.36,
-      "queda_fat_mes_pct": 192.7,
-      "queda_fat_ano_pct": -32.9,
-      "queda_qt_mes_valor": -65.0,
-      "queda_qt_ano_valor": 61.0,
-      "queda_qt_mes_pct": 209.7,
-      "queda_qt_ano_pct": -38.9,
-      "por_vendedor": {
-        "MG-327": {
-          "fat_atual": 6136.32,
-          "fat_mes_anterior": 546.48,
-          "fat_ano_anterior": 532.08,
-          "qt_atual": 32.0,
-          "qt_mes_anterior": 3.0,
-          "qt_ano_anterior": 3.0
-        },
-        "MG-343": {
-          "fat_atual": 15949.44,
-          "fat_mes_anterior": 5539.68,
-          "fat_ano_anterior": 24689.52,
-          "qt_atual": 84.0,
-          "qt_mes_anterior": 28.0,
-          "qt_ano_anterior": 147.0
-        },
-        "MG-344": {
-          "fat_atual": 1480.8,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 1845.6,
-          "qt_atual": 10.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 10.0
-        },
-        "MG-354": {
-          "fat_atual": 4803.84,
-          "fat_mes_anterior": 4803.84,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 24.0,
-          "qt_mes_anterior": 24.0,
-          "qt_ano_anterior": 0.0
-        },
-        "MG-360": {
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 24157.44,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 144.0
         }
       }
     },
@@ -407741,83 +407649,6 @@ const RAIOX_OPORTUNIDADES_DATA = {
           "qt_atual": 24.0,
           "qt_mes_anterior": 0.0,
           "qt_ano_anterior": 36.0
-        }
-      }
-    },
-    {
-      "produto": "RED BULL TROPICAL EDITION 250 ML CX C/24",
-      "fornecedor": "RED BULL",
-      "estado": "MG",
-      "fat_atual": 26651.04,
-      "fat_mes_anterior": 13550.16,
-      "fat_ano_anterior": 32318.16,
-      "qt_atual": 139.0,
-      "qt_mes_anterior": 71.0,
-      "qt_ano_anterior": 191.0,
-      "queda_fat_mes_valor": -13100.88,
-      "queda_fat_ano_valor": 5667.12,
-      "queda_fat_mes_pct": 96.7,
-      "queda_fat_ano_pct": -17.5,
-      "queda_qt_mes_valor": -68.0,
-      "queda_qt_ano_valor": 52.0,
-      "queda_qt_mes_pct": 95.8,
-      "queda_qt_ano_pct": -27.2,
-      "por_vendedor": {
-        "MG-327": {
-          "fat_atual": 14938.08,
-          "fat_mes_anterior": 2847.6,
-          "fat_ano_anterior": 3324.48,
-          "qt_atual": 78.0,
-          "qt_mes_anterior": 15.0,
-          "qt_ano_anterior": 18.0
-        },
-        "MG-331": {
-          "fat_atual": 1476.48,
-          "fat_mes_anterior": 1661.04,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 8.0,
-          "qt_mes_anterior": 9.0,
-          "qt_ano_anterior": 0.0
-        },
-        "MG-343": {
-          "fat_atual": 22120.8,
-          "fat_mes_anterior": 7950.96,
-          "fat_ano_anterior": 31939.44,
-          "qt_atual": 115.0,
-          "qt_mes_anterior": 41.0,
-          "qt_ano_anterior": 189.0
-        },
-        "MG-344": {
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 1291.92,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 7.0,
-          "qt_ano_anterior": 0.0
-        },
-        "MG-354": {
-          "fat_atual": 2602.08,
-          "fat_mes_anterior": 4803.84,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 13.0,
-          "qt_mes_anterior": 24.0,
-          "qt_ano_anterior": 0.0
-        },
-        "MG-360": {
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 24948.24,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 149.0
-        },
-        "MG-362": {
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 182.16,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 1.0,
-          "qt_ano_anterior": 0.0
         }
       }
     },
@@ -408662,6 +408493,75 @@ const RAIOX_OPORTUNIDADES_DATA = {
       }
     },
     {
+      "produto": "RED BULL ZERO 24X250ML",
+      "fornecedor": "RED BULL",
+      "estado": "MG",
+      "fat_atual": 25818.96,
+      "fat_mes_anterior": 8810.4,
+      "fat_ano_anterior": 5445.12,
+      "qt_atual": 137.0,
+      "qt_mes_anterior": 51.0,
+      "qt_ano_anterior": 31.0,
+      "queda_fat_mes_valor": -17008.56,
+      "queda_fat_ano_valor": -20373.84,
+      "queda_fat_mes_pct": 193.1,
+      "queda_fat_ano_pct": 374.2,
+      "queda_qt_mes_valor": -86.0,
+      "queda_qt_ano_valor": -106.0,
+      "queda_qt_mes_pct": 168.6,
+      "queda_qt_ano_pct": 341.9,
+      "por_vendedor": {
+        "MG-327": {
+          "fat_atual": 16472.16,
+          "fat_mes_anterior": 575.28,
+          "fat_ano_anterior": 2394.48,
+          "qt_atual": 86.0,
+          "qt_mes_anterior": 3.0,
+          "qt_ano_anterior": 13.0
+        },
+        "MG-331": {
+          "fat_atual": 369.12,
+          "fat_mes_anterior": 728.64,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 2.0,
+          "qt_mes_anterior": 4.0,
+          "qt_ano_anterior": 0.0
+        },
+        "MG-343": {
+          "fat_atual": 20667.12,
+          "fat_mes_anterior": 2602.08,
+          "fat_ano_anterior": 4898.16,
+          "qt_atual": 107.0,
+          "qt_mes_anterior": 13.0,
+          "qt_ano_anterior": 28.0
+        },
+        "MG-344": {
+          "fat_atual": 3651.36,
+          "fat_mes_anterior": 4722.24,
+          "fat_ano_anterior": 175.44,
+          "qt_atual": 22.0,
+          "qt_mes_anterior": 30.0,
+          "qt_ano_anterior": 1.0
+        },
+        "MG-354": {
+          "fat_atual": 4403.52,
+          "fat_mes_anterior": 2602.08,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 22.0,
+          "qt_mes_anterior": 13.0,
+          "qt_ano_anterior": 0.0
+        },
+        "MG-362": {
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 182.16,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 1.0,
+          "qt_ano_anterior": 0.0
+        }
+      }
+    },
+    {
       "produto": "WHISKY ROYAL SALUTE 700 ML",
       "fornecedor": "PERNOD",
       "estado": "MG",
@@ -408703,6 +408603,67 @@ const RAIOX_OPORTUNIDADES_DATA = {
           "qt_atual": 24.0,
           "qt_mes_anterior": 0.0,
           "qt_ano_anterior": 0.0
+        }
+      }
+    },
+    {
+      "produto": "RED BULL SUGAR FREE  250 ML CX C/24",
+      "fornecedor": "RED BULL",
+      "estado": "MG",
+      "fat_atual": 23566.56,
+      "fat_mes_anterior": 6086.16,
+      "fat_ano_anterior": 26535.12,
+      "qt_atual": 126.0,
+      "qt_mes_anterior": 31.0,
+      "qt_ano_anterior": 157.0,
+      "queda_fat_mes_valor": -17480.4,
+      "queda_fat_ano_valor": 2968.56,
+      "queda_fat_mes_pct": 287.2,
+      "queda_fat_ano_pct": -11.2,
+      "queda_qt_mes_valor": -95.0,
+      "queda_qt_ano_valor": 31.0,
+      "queda_qt_mes_pct": 306.5,
+      "queda_qt_ano_pct": -19.7,
+      "por_vendedor": {
+        "MG-327": {
+          "fat_atual": 11889.12,
+          "fat_mes_anterior": 546.48,
+          "fat_ano_anterior": 532.08,
+          "qt_atual": 62.0,
+          "qt_mes_anterior": 3.0,
+          "qt_ano_anterior": 3.0
+        },
+        "MG-343": {
+          "fat_atual": 21702.24,
+          "fat_mes_anterior": 5539.68,
+          "fat_ano_anterior": 24689.52,
+          "qt_atual": 114.0,
+          "qt_mes_anterior": 28.0,
+          "qt_ano_anterior": 147.0
+        },
+        "MG-344": {
+          "fat_atual": 1480.8,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 1845.6,
+          "qt_atual": 10.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 10.0
+        },
+        "MG-354": {
+          "fat_atual": 4803.84,
+          "fat_mes_anterior": 4803.84,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 24.0,
+          "qt_mes_anterior": 24.0,
+          "qt_ano_anterior": 0.0
+        },
+        "MG-360": {
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 24157.44,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 144.0
         }
       }
     },
@@ -408910,6 +408871,67 @@ const RAIOX_OPORTUNIDADES_DATA = {
           "qt_atual": 12.0,
           "qt_mes_anterior": 0.0,
           "qt_ano_anterior": 0.0
+        }
+      }
+    },
+    {
+      "produto": "RED BULL MELANCIA 24X250ML",
+      "fornecedor": "RED BULL",
+      "estado": "MG",
+      "fat_atual": 27420.48,
+      "fat_mes_anterior": 8287.68,
+      "fat_ano_anterior": 23110.8,
+      "qt_atual": 143.0,
+      "qt_mes_anterior": 43.0,
+      "qt_ano_anterior": 138.0,
+      "queda_fat_mes_valor": -19132.8,
+      "queda_fat_ano_valor": -4309.68,
+      "queda_fat_mes_pct": 230.9,
+      "queda_fat_ano_pct": 18.6,
+      "queda_qt_mes_valor": -100.0,
+      "queda_qt_ano_valor": -5.0,
+      "queda_qt_mes_pct": 232.6,
+      "queda_qt_ano_pct": 3.6,
+      "por_vendedor": {
+        "MG-327": {
+          "fat_atual": 18785.28,
+          "fat_mes_anterior": 1131.36,
+          "fat_ano_anterior": 3120.72,
+          "qt_atual": 98.0,
+          "qt_mes_anterior": 6.0,
+          "qt_ano_anterior": 17.0
+        },
+        "MG-343": {
+          "fat_atual": 25893.6,
+          "fat_mes_anterior": 6044.16,
+          "fat_ano_anterior": 20379.36,
+          "qt_atual": 135.0,
+          "qt_mes_anterior": 31.0,
+          "qt_ano_anterior": 123.0
+        },
+        "MG-344": {
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 1112.16,
+          "fat_ano_anterior": 1633.68,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 6.0,
+          "qt_ano_anterior": 9.0
+        },
+        "MG-354": {
+          "fat_atual": 1000.8,
+          "fat_mes_anterior": 4203.36,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 5.0,
+          "qt_mes_anterior": 21.0,
+          "qt_ano_anterior": 0.0
+        },
+        "MG-360": {
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 790.8,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 5.0
         }
       }
     },
@@ -409935,6 +409957,83 @@ const RAIOX_OPORTUNIDADES_DATA = {
       }
     },
     {
+      "produto": "RED BULL TROPICAL EDITION 250 ML CX C/24",
+      "fornecedor": "RED BULL",
+      "estado": "MG",
+      "fat_atual": 38156.64,
+      "fat_mes_anterior": 13550.16,
+      "fat_ano_anterior": 32318.16,
+      "qt_atual": 199.0,
+      "qt_mes_anterior": 71.0,
+      "qt_ano_anterior": 191.0,
+      "queda_fat_mes_valor": -24606.48,
+      "queda_fat_ano_valor": -5838.48,
+      "queda_fat_mes_pct": 181.6,
+      "queda_fat_ano_pct": 18.1,
+      "queda_qt_mes_valor": -128.0,
+      "queda_qt_ano_valor": -8.0,
+      "queda_qt_mes_pct": 180.3,
+      "queda_qt_ano_pct": 4.2,
+      "por_vendedor": {
+        "MG-327": {
+          "fat_atual": 26443.68,
+          "fat_mes_anterior": 2847.6,
+          "fat_ano_anterior": 3324.48,
+          "qt_atual": 138.0,
+          "qt_mes_anterior": 15.0,
+          "qt_ano_anterior": 18.0
+        },
+        "MG-331": {
+          "fat_atual": 1476.48,
+          "fat_mes_anterior": 1661.04,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 8.0,
+          "qt_mes_anterior": 9.0,
+          "qt_ano_anterior": 0.0
+        },
+        "MG-343": {
+          "fat_atual": 33626.4,
+          "fat_mes_anterior": 7950.96,
+          "fat_ano_anterior": 31939.44,
+          "qt_atual": 175.0,
+          "qt_mes_anterior": 41.0,
+          "qt_ano_anterior": 189.0
+        },
+        "MG-344": {
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 1291.92,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 7.0,
+          "qt_ano_anterior": 0.0
+        },
+        "MG-354": {
+          "fat_atual": 2602.08,
+          "fat_mes_anterior": 4803.84,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 13.0,
+          "qt_mes_anterior": 24.0,
+          "qt_ano_anterior": 0.0
+        },
+        "MG-360": {
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 24948.24,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 149.0
+        },
+        "MG-362": {
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 182.16,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 1.0,
+          "qt_ano_anterior": 0.0
+        }
+      }
+    },
+    {
       "produto": "WHISKY JACK DANIELS FIRE 1000 ML",
       "fornecedor": "BROWN",
       "estado": "SP",
@@ -410933,83 +411032,6 @@ const RAIOX_OPORTUNIDADES_DATA = {
       }
     },
     {
-      "produto": "RED BULL 250ML CAIXA C/24 UNID",
-      "fornecedor": "RED BULL",
-      "estado": "MG",
-      "fat_atual": 62557.68,
-      "fat_mes_anterior": 27971.76,
-      "fat_ano_anterior": 155504.64,
-      "qt_atual": 326.0,
-      "qt_mes_anterior": 148.0,
-      "qt_ano_anterior": 922.0,
-      "queda_fat_mes_valor": -34585.92,
-      "queda_fat_ano_valor": 92946.96,
-      "queda_fat_mes_pct": 123.6,
-      "queda_fat_ano_pct": -59.8,
-      "queda_qt_mes_valor": -178.0,
-      "queda_qt_ano_valor": 596.0,
-      "queda_qt_mes_pct": 120.3,
-      "queda_qt_ano_pct": -64.6,
-      "por_vendedor": {
-        "MG-327": {
-          "fat_atual": 46197.36,
-          "fat_mes_anterior": 3590.64,
-          "fat_ano_anterior": 12869.76,
-          "qt_atual": 241.0,
-          "qt_mes_anterior": 19.0,
-          "qt_ano_anterior": 70.0
-        },
-        "MG-331": {
-          "fat_atual": 738.24,
-          "fat_mes_anterior": 1114.56,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 4.0,
-          "qt_mes_anterior": 6.0,
-          "qt_ano_anterior": 0.0
-        },
-        "MG-343": {
-          "fat_atual": 57299.28,
-          "fat_mes_anterior": 21065.76,
-          "fat_ano_anterior": 154834.08,
-          "qt_atual": 298.0,
-          "qt_mes_anterior": 111.0,
-          "qt_ano_anterior": 918.0
-        },
-        "MG-344": {
-          "fat_atual": 1468.8,
-          "fat_mes_anterior": 1107.84,
-          "fat_ano_anterior": 350.88,
-          "qt_atual": 8.0,
-          "qt_mes_anterior": 6.0,
-          "qt_ano_anterior": 2.0
-        },
-        "MG-354": {
-          "fat_atual": 5404.32,
-          "fat_mes_anterior": 8606.88,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 27.0,
-          "qt_mes_anterior": 43.0,
-          "qt_ano_anterior": 0.0
-        },
-        "MG-360": {
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 120787.2,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 720.0
-        },
-        "MG-362": {
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 1092.96,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 6.0,
-          "qt_ano_anterior": 0.0
-        }
-      }
-    },
-    {
       "produto": "WHISKY JACK DANIELS APPLE 1L - DEST",
       "fornecedor": "BROWN",
       "estado": "SP",
@@ -411082,6 +411104,83 @@ const RAIOX_OPORTUNIDADES_DATA = {
           "fat_ano_anterior": 0.0,
           "qt_atual": 3.0,
           "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0
+        }
+      }
+    },
+    {
+      "produto": "RED BULL 250ML CAIXA C/24 UNID",
+      "fornecedor": "RED BULL",
+      "estado": "MG",
+      "fat_atual": 64475.28,
+      "fat_mes_anterior": 27971.76,
+      "fat_ano_anterior": 155504.64,
+      "qt_atual": 336.0,
+      "qt_mes_anterior": 148.0,
+      "qt_ano_anterior": 922.0,
+      "queda_fat_mes_valor": -36503.52,
+      "queda_fat_ano_valor": 91029.36,
+      "queda_fat_mes_pct": 130.5,
+      "queda_fat_ano_pct": -58.5,
+      "queda_qt_mes_valor": -188.0,
+      "queda_qt_ano_valor": 586.0,
+      "queda_qt_mes_pct": 127.0,
+      "queda_qt_ano_pct": -63.6,
+      "por_vendedor": {
+        "MG-327": {
+          "fat_atual": 48114.96,
+          "fat_mes_anterior": 3590.64,
+          "fat_ano_anterior": 12869.76,
+          "qt_atual": 251.0,
+          "qt_mes_anterior": 19.0,
+          "qt_ano_anterior": 70.0
+        },
+        "MG-331": {
+          "fat_atual": 738.24,
+          "fat_mes_anterior": 1114.56,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 4.0,
+          "qt_mes_anterior": 6.0,
+          "qt_ano_anterior": 0.0
+        },
+        "MG-343": {
+          "fat_atual": 59216.88,
+          "fat_mes_anterior": 21065.76,
+          "fat_ano_anterior": 154834.08,
+          "qt_atual": 308.0,
+          "qt_mes_anterior": 111.0,
+          "qt_ano_anterior": 918.0
+        },
+        "MG-344": {
+          "fat_atual": 1468.8,
+          "fat_mes_anterior": 1107.84,
+          "fat_ano_anterior": 350.88,
+          "qt_atual": 8.0,
+          "qt_mes_anterior": 6.0,
+          "qt_ano_anterior": 2.0
+        },
+        "MG-354": {
+          "fat_atual": 5404.32,
+          "fat_mes_anterior": 8606.88,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 27.0,
+          "qt_mes_anterior": 43.0,
+          "qt_ano_anterior": 0.0
+        },
+        "MG-360": {
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 120787.2,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 720.0
+        },
+        "MG-362": {
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 1092.96,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 6.0,
           "qt_ano_anterior": 0.0
         }
       }
