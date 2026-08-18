@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_es.py
 
 const NAO_POS_ES_DATA = {
-  "atualizado_em": "18/08/2026 15:54",
+  "atualizado_em": "18/08/2026 16:37",
   "por_vendedor": {
     "ADEILSON GONÇALVEZ": [
       {
@@ -13821,21 +13821,14 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
-        "codcli": "93791",
+        "codcli": "67822",
         "cliente": "SUPERMERCADO BARRA OESTE LTDA",
         "bairro": "BARRA DA TIJUCA",
         "dtultcomp": "nan",
         "produtos": []
       },
       {
-        "codcli": "3754",
-        "cliente": "SUPERMERCADO BARRA OESTE LTDA",
-        "bairro": "RECREIO DOS BANDEIRANTES",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "67822",
+        "codcli": "93791",
         "cliente": "SUPERMERCADO BARRA OESTE LTDA",
         "bairro": "BARRA DA TIJUCA",
         "dtultcomp": "nan",
@@ -13845,6 +13838,13 @@ const NAO_POS_ES_DATA = {
         "codcli": "67821",
         "cliente": "SUPERMERCADO BARRA OESTE LTDA",
         "bairro": "BARRA DA TIJUCA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "3754",
+        "cliente": "SUPERMERCADO BARRA OESTE LTDA",
+        "bairro": "RECREIO DOS BANDEIRANTES",
         "dtultcomp": "nan",
         "produtos": []
       }
@@ -20705,6 +20705,13 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
+        "codcli": "91309",
+        "cliente": "CERVEJARIA MULTIMARCAS LTDA",
+        "bairro": "GURIRI NORTE",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
         "codcli": "82213",
         "cliente": "COMERCIO DE MERCADORIAS COLATO LTDA",
         "bairro": "CENTRO",
@@ -20733,21 +20740,21 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
+        "codcli": "90560",
+        "cliente": "JV SUPERMERCADOS LTDA",
+        "bairro": "AGUA LIMPA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "95944",
+        "cliente": "JV SUPERMERCADOS LTDA",
+        "bairro": "BARRA DE ITAPEMIRIM",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
         "codcli": "90559",
-        "cliente": "JV SUPERMERCADOS LTDA",
-        "bairro": "CENTRO",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "95945",
-        "cliente": "JV SUPERMERCADOS LTDA",
-        "bairro": "ITAIPAVA",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "93233",
         "cliente": "JV SUPERMERCADOS LTDA",
         "bairro": "CENTRO",
         "dtultcomp": "nan",
@@ -20761,16 +20768,16 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
-        "codcli": "90560",
+        "codcli": "93233",
         "cliente": "JV SUPERMERCADOS LTDA",
-        "bairro": "AGUA LIMPA",
+        "bairro": "CENTRO",
         "dtultcomp": "nan",
         "produtos": []
       },
       {
-        "codcli": "95944",
+        "codcli": "95945",
         "cliente": "JV SUPERMERCADOS LTDA",
-        "bairro": "BARRA DE ITAPEMIRIM",
+        "bairro": "ITAIPAVA",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -22854,6 +22861,44 @@ const NAO_POS_ES_DATA = {
       }
     ],
     "ZEINALDO DE OLIVEIRA": [
+      {
+        "codcli": "90319",
+        "cliente": "62.299.341 VICTOR ALVARENGA SOUZA E SOUZA",
+        "bairro": "MIRANTE DA LAGOA",
+        "dtultcomp": "19/05/2026",
+        "produtos": [
+          {
+            "produto": "4 PACK RED BULL ZERO",
+            "fantasia": "RED BULL",
+            "qt": 3,
+            "valor": 95.88
+          },
+          {
+            "produto": "GUARAVITA NATURAL 24X290ML",
+            "fantasia": "VITON",
+            "qt": 10,
+            "valor": 218.0
+          },
+          {
+            "produto": "WHISKY CHIVAS REGAL 12 ANOS 1L",
+            "fantasia": "PERNOD",
+            "qt": 1,
+            "valor": 99.9
+          },
+          {
+            "produto": "WHISKY J WALKER RED LABEL 1L",
+            "fantasia": "DIAGEO",
+            "qt": 1,
+            "valor": 78.9
+          },
+          {
+            "produto": "WHISKY JACK DANIELS 1L",
+            "fantasia": "BROWN",
+            "qt": 1,
+            "valor": 119.0
+          }
+        ]
+      },
       {
         "codcli": "95164",
         "cliente": "P H G DOS SANTOS DISTRIBUIDORA DE BEBIDAS",
