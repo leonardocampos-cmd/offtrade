@@ -18,7 +18,7 @@ from pathlib import Path
 
 import pandas as pd
 
-from meta import engine, engine_spon, engine_mgon, carregar_dados
+from meta import engine, engine_spon, engine_mgon, engine_blended, carregar_dados
 from utils import git_commit_push
 
 HOJE = date.today()
@@ -29,11 +29,16 @@ DIA_CORTE = HOJE.day
 # variação de R$20 vira "queda de 90%".
 MIN_FATURAMENTO_RELEVANTE = 100.0
 
+# filtra_por_estado=False: schema inteiro já é considerado daquele estado
+# (BLENDED, sem PCUSUARI.ESTADO preenchido — mesmo caso de
+# exportacao_sp.py/exportacao_meta.py) — filtrar por ESTADO='SP' aqui
+# zerava a base inteira.
 BASES = [
-    {"estado": "RJ", "engine": engine,      "schema": "CRC",  "filiais": ["2", "4"]},
-    {"estado": "ES", "engine": engine,      "schema": "CRC",  "filiais": ["1"]},
-    {"estado": "SP", "engine": engine_spon, "schema": "SPON", "filiais": ["1", "2"]},
-    {"estado": "MG", "engine": engine_mgon, "schema": "MGON", "filiais": ["1", "2"]},
+    {"estado": "RJ", "engine": engine,         "schema": "CRC",     "filiais": ["2", "4"], "filtra_por_estado": True},
+    {"estado": "ES", "engine": engine,         "schema": "CRC",     "filiais": ["1"],      "filtra_por_estado": True},
+    {"estado": "SP", "engine": engine_spon,    "schema": "SPON",    "filiais": ["1", "2"], "filtra_por_estado": True},
+    {"estado": "SP", "engine": engine_blended, "schema": "BLENDED", "filiais": None,       "filtra_por_estado": False},
+    {"estado": "MG", "engine": engine_mgon,    "schema": "MGON",    "filiais": ["1", "2"], "filtra_por_estado": True},
 ]
 
 
@@ -76,7 +81,8 @@ _FILTRO_DATAS = f"""(
 )"""
 
 
-def _query_vendedores(schema, estado):
+def _query_vendedores(schema, estado, filtra_por_estado=True):
+    estado_clause = f"AND U.ESTADO = '{estado}'" if filtra_por_estado else ""
     return f"""
         SELECT U.CODUSUR, U.NOME,
                COALESCE(S.NOME, 'Sem supervisor') AS SUPERVISOR,
@@ -84,15 +90,16 @@ def _query_vendedores(schema, estado):
         FROM {schema}.PCUSUARI U
         LEFT JOIN {schema}.PCSUPERV S ON U.CODSUPERVISOR = S.CODSUPERVISOR
         LEFT JOIN {schema}.PCGERENTE G ON S.CODGERENTE = G.CODGERENTE
-        WHERE U.NOME LIKE '%OFF TRADE%' AND U.ESTADO = '{estado}'
+        WHERE U.NOME LIKE '%OFF TRADE%' {estado_clause}
     """
 
 
-def _query_vendas(schema, filiais, estado):
+def _query_vendas(schema, filiais, estado, filtra_por_estado=True):
     fil_clause = f"AND M.CODFILIAL IN ({','.join(filiais)})" if filiais else ""
+    estado_clause = f"AND (U1.ESTADO = '{estado}' OR U2.ESTADO = '{estado}')" if filtra_por_estado else ""
     return f"""
         SELECT M.CODCLI, C.CLIENTE, COALESCE(C.FANTASIA, C.CLIENTE) AS NOME_CLIENTE,
-               COALESCE(C.BAIRROENT,'') AS BAIRRO,
+               COALESCE(C.BAIRROENT,'') AS BAIRRO, COALESCE(C.CGCENT,'') AS CNPJ,
                COALESCE(A.RAMO,'OUTROS') RAMO, TRUNC(M.DTMOV,'MM') AS MES,
                COALESCE(F.FANTASIA,'SEM FANTASIA') AS FORNECEDOR,
                COALESCE(M.DESCRICAO, 'Produto ' || M.CODPROD) AS PRODUTO,
@@ -105,13 +112,13 @@ def _query_vendas(schema, filiais, estado):
         LEFT JOIN {schema}.PCUSUARI U1 ON C.CODUSUR1 = U1.CODUSUR
         LEFT JOIN {schema}.PCUSUARI U2 ON C.CODUSUR2 = U2.CODUSUR
         WHERE (U1.NOME LIKE '%OFF TRADE%' OR U2.NOME LIKE '%OFF TRADE%')
-          AND (U1.ESTADO = '{estado}' OR U2.ESTADO = '{estado}')
+          {estado_clause}
           {fil_clause}
           AND M.CODOPER = 'S'
           AND M.NUMNOTADEV IS NULL
           AND M.DTCANCEL IS NULL
           AND {_FILTRO_DATAS}
-        GROUP BY M.CODCLI, C.CLIENTE, COALESCE(C.FANTASIA, C.CLIENTE), COALESCE(C.BAIRROENT,''),
+        GROUP BY M.CODCLI, C.CLIENTE, COALESCE(C.FANTASIA, C.CLIENTE), COALESCE(C.BAIRROENT,''), COALESCE(C.CGCENT,''),
                  COALESCE(A.RAMO,'OUTROS'), TRUNC(M.DTMOV,'MM'), COALESCE(F.FANTASIA,'SEM FANTASIA'),
                  COALESCE(M.DESCRICAO, 'Produto ' || M.CODPROD), C.CODUSUR1, C.CODUSUR2
     """
@@ -122,40 +129,55 @@ fontes_indisponiveis = []
 
 for base in BASES:
     estado, eng, schema, filiais = base["estado"], base["engine"], base["schema"], base["filiais"]
+    filtra_por_estado = base["filtra_por_estado"]
     try:
-        v = carregar_dados(_query_vendedores(schema, estado), eng, f"oport_vendedores_{estado}")
+        v = carregar_dados(_query_vendedores(schema, estado, filtra_por_estado), eng, f"oport_vendedores_{estado}_{schema}")
         v.columns = v.columns.str.upper()
         v['ESTADO'] = estado
+        v['SCHEMA'] = schema
         _vend_partes.append(v)
 
-        vd = carregar_dados(_query_vendas(schema, filiais, estado), eng, f"oport_vendas_{estado}")
+        vd = carregar_dados(_query_vendas(schema, filiais, estado, filtra_por_estado), eng, f"oport_vendas_{estado}_{schema}")
         vd.columns = vd.columns.str.upper()
         vd['ESTADO'] = estado
+        vd['SCHEMA'] = schema
         _vendas_partes.append(vd)
-        print(f"  OK {estado}: {len(vd)} linhas")
+        print(f"  OK {estado}/{schema}: {len(vd)} linhas")
     except Exception as e:
-        print(f"  [AVISO] {estado} falhou ({str(e)[:150]}) — ignorado")
-        fontes_indisponiveis.append(estado)
+        print(f"  [AVISO] {estado}/{schema} falhou ({str(e)[:150]}) — ignorado")
+        fontes_indisponiveis.append(f"{estado}/{schema}")
 
-vendedores_off_trade = pd.concat(_vend_partes, ignore_index=True) if _vend_partes else pd.DataFrame(columns=['CODUSUR', 'NOME', 'SUPERVISOR', 'GERENTE', 'ESTADO'])
+# CODUSUR/CODCLI são chaves surrogate de cada instância Oracle — SP tem duas
+# fontes independentes (SPON e BLENDED) cuja numeração colide quase inteira
+# (confirmado 2026-08-18: 42977/44100 CODCLI e 15/15 CODUSUR em comum). Sem
+# incluir SCHEMA na chave, um CODCLI/CODUSUR de BLENDED se misturava com um
+# CODUSUR/CODCLI não relacionado do SPON — cliente/vendedor errado no ranking.
+vendedores_off_trade = pd.concat(_vend_partes, ignore_index=True) if _vend_partes else pd.DataFrame(columns=['CODUSUR', 'NOME', 'SUPERVISOR', 'GERENTE', 'ESTADO', 'SCHEMA'])
 _nome_por_chave = {
-    (r['ESTADO'], int(r['CODUSUR'])): r['NOME'].replace('- OFF TRADE', '').replace('-OFF TRADE', '').strip()
+    (r['ESTADO'], r['SCHEMA'], int(r['CODUSUR'])): r['NOME'].replace('- OFF TRADE', '').replace('-OFF TRADE', '').strip()
     for _, r in vendedores_off_trade.iterrows()
 }
 _hier_por_chave = {
-    (r['ESTADO'], int(r['CODUSUR'])): {'supervisor': r['SUPERVISOR'], 'gerente': r['GERENTE']}
+    (r['ESTADO'], r['SCHEMA'], int(r['CODUSUR'])): {'supervisor': r['SUPERVISOR'], 'gerente': r['GERENTE']}
     for _, r in vendedores_off_trade.iterrows()
 }
 
 vendas = pd.concat(_vendas_partes, ignore_index=True) if _vendas_partes else pd.DataFrame(
-    columns=['CODCLI', 'CLIENTE', 'NOME_CLIENTE', 'BAIRRO', 'RAMO', 'MES', 'FORNECEDOR', 'PRODUTO',
-             'CODUSUR1', 'CODUSUR2', 'QTD', 'FATURAMENTO', 'ESTADO'])
+    columns=['CODCLI', 'CLIENTE', 'NOME_CLIENTE', 'BAIRRO', 'CNPJ', 'RAMO', 'MES', 'FORNECEDOR', 'PRODUTO',
+             'CODUSUR1', 'CODUSUR2', 'QTD', 'FATURAMENTO', 'ESTADO', 'SCHEMA'])
 vendas['MES'] = pd.to_datetime(vendas['MES'])
 vendas['RAMO'] = vendas['RAMO'].fillna('OUTROS').str.strip()
 vendas['FORNECEDOR'] = vendas['FORNECEDOR'].fillna('SEM FANTASIA').str.strip()
 vendas['PRODUTO'] = vendas['PRODUTO'].fillna('').str.strip()
 vendas['NOME_CLIENTE'] = vendas['NOME_CLIENTE'].fillna('').str.strip()
 vendas['BAIRRO'] = vendas['BAIRRO'].fillna('').str.strip()
+vendas['CNPJ'] = vendas['CNPJ'].fillna('').astype(str).str.strip()
+# SPON grava CGCENT formatado com pontuação ("46.443.440/0001-14", 18
+# caracteres) enquanto BLENDED/CRC gravam só os dígitos (14) — confirmado
+# 2026-08-18. Sem remover a pontuação, nenhum CNPJ do SPON batia com o
+# equivalente do BLENDED (comparação de string pura sempre falhava,
+# silenciosamente caindo no fallback pra todo cliente do SPON).
+vendas['CNPJ'] = vendas['CNPJ'].str.replace(r'\D', '', regex=True)
 for col in ('CODUSUR1', 'CODUSUR2'):
     vendas[col] = vendas[col].apply(lambda v: int(v) if str(v).strip().replace('.0', '').isdigit() else None)
 
@@ -167,23 +189,32 @@ if len(fontes_indisponiveis) == len(BASES):
 # concatenar Series vazia (dtype null, quando uma base falha) com um literal
 # Python quebra (ArrowNotImplementedError). astype(object) força texto puro
 # e evita o crash independente de quantas bases tiverem dado certo.
-vendas['CLIENTE_KEY'] = vendas['ESTADO'].astype(object) + '-' + vendas['CODCLI'].astype(str)
+# Cliente identificado por CNPJ (14 dígitos, mesmo padrão de
+# exportacao_clientes_rca.py::_CNPJ14) quando disponível — assim um mesmo
+# cliente real cadastrado tanto no SPON quanto no BLENDED (mesmo CNPJ, CODCLI
+# diferente em cada base) entra como UM só no ranking, com faturamento
+# somado. Sem CNPJ válido, cai no fallback schema-qualificado (evita
+# colisão de CODCLI entre bases independentes, ver comentário acima).
+_cnpj14 = vendas['CNPJ'].where(vendas['CNPJ'].str.len() == 14, '')
+vendas['CLIENTE_KEY'] = vendas['ESTADO'].astype(object) + '|' + _cnpj14.where(
+    _cnpj14 != '', vendas['SCHEMA'].astype(object) + '#' + vendas['CODCLI'].astype(str)
+)
 vendas['PERIODO'] = vendas['MES'].apply(lambda d: _PERIODO_POR_ANOMES.get((d.year, d.month)))
 vendas = vendas[vendas['PERIODO'].notna()].copy()
 
 rcas_com_venda = sorted(
-    {(estado, rca) for estado, rca in
-     list(zip(vendas['ESTADO'], vendas['CODUSUR1'])) + list(zip(vendas['ESTADO'], vendas['CODUSUR2']))
+    {(estado, schema, rca) for estado, schema, rca in
+     list(zip(vendas['ESTADO'], vendas['SCHEMA'], vendas['CODUSUR1'])) + list(zip(vendas['ESTADO'], vendas['SCHEMA'], vendas['CODUSUR2']))
      if pd.notna(rca)}
     & set(_nome_por_chave)
 )
 
 vendedores_lista = sorted(
-    ({'rca': rca, 'estado': estado, 'chave': f"{estado}-{rca}",
-      'nome': _nome_por_chave.get((estado, rca), f"RCA {rca}"),
-      'supervisor': _hier_por_chave.get((estado, rca), {}).get('supervisor', 'Sem supervisor'),
-      'gerente': _hier_por_chave.get((estado, rca), {}).get('gerente', 'Sem gerente')}
-     for estado, rca in rcas_com_venda),
+    ({'rca': rca, 'estado': estado, 'chave': f"{estado}-{schema}-{rca}",
+      'nome': _nome_por_chave.get((estado, schema, rca), f"RCA {rca}"),
+      'supervisor': _hier_por_chave.get((estado, schema, rca), {}).get('supervisor', 'Sem supervisor'),
+      'gerente': _hier_por_chave.get((estado, schema, rca), {}).get('gerente', 'Sem gerente')}
+     for estado, schema, rca in rcas_com_venda),
     key=lambda v: v['nome']
 )
 
@@ -215,13 +246,13 @@ def _por_vendedor(df: pd.DataFrame) -> dict:
     (a página soma os brutos do recorte e recalcula % lá, igual
     raiox_industrias.html::metricasMescladas)."""
     resultado = {}
-    for estado, rca in rcas_com_venda:
-        sub = df[(df['ESTADO'] == estado) & ((df['CODUSUR1'] == rca) | (df['CODUSUR2'] == rca))]
+    for estado, schema, rca in rcas_com_venda:
+        sub = df[(df['ESTADO'] == estado) & (df['SCHEMA'] == schema) & ((df['CODUSUR1'] == rca) | (df['CODUSUR2'] == rca))]
         if sub.empty:
             continue
         fat = sub.groupby('PERIODO')['FATURAMENTO'].sum().to_dict()
         qtd = sub.groupby('PERIODO')['QTD'].sum().to_dict()
-        resultado[f"{estado}-{rca}"] = {
+        resultado[f"{estado}-{schema}-{rca}"] = {
             'fat_atual': round(float(fat.get('atual', 0)), 2),
             'fat_mes_anterior': round(float(fat.get('mes_anterior', 0)), 2),
             'fat_ano_anterior': round(float(fat.get('ano_anterior', 0)), 2),
@@ -244,15 +275,22 @@ for chave, grp in vendas.groupby('CLIENTE_KEY'):
     if not _relevante(m):
         continue
     estado = primeira['ESTADO']
+    # Cliente com CNPJ igual em SPON e BLENDED cai no mesmo grupo (mesma
+    # CLIENTE_KEY) mas com linhas de schemas diferentes — não dá pra pegar
+    # RCA só da primeira linha, senão o vendedor da outra base some.
+    _candidatos_rca = {
+        (row['ESTADO'], row['SCHEMA'], rca)
+        for _, row in grp[['ESTADO', 'SCHEMA', 'CODUSUR1', 'CODUSUR2']].drop_duplicates().iterrows()
+        for rca in (row['CODUSUR1'], row['CODUSUR2']) if rca is not None
+    }
     _hier = None
     _vendedor_nome = None
-    for rca in (primeira['CODUSUR1'], primeira['CODUSUR2']):
-        if (estado, rca) in _hier_por_chave:
-            _hier = _hier_por_chave[(estado, rca)]
-            _vendedor_nome = _nome_por_chave.get((estado, rca))
+    for chave_rca in _candidatos_rca:
+        if chave_rca in _hier_por_chave:
+            _hier = _hier_por_chave[chave_rca]
+            _vendedor_nome = _nome_por_chave.get(chave_rca)
             break
-    chaves_rca = [f"{estado}-{rca}" for rca in (primeira['CODUSUR1'], primeira['CODUSUR2'])
-                  if (estado, rca) in _hier_por_chave]
+    chaves_rca = [f"{est}-{sch}-{rca}" for est, sch, rca in _candidatos_rca if (est, sch, rca) in _hier_por_chave]
 
     # Abertura por indústria (e, dentro dela, por produto) do próprio cliente
     # — alimenta o drill-down cliente -> indústria -> produto na página.
@@ -266,8 +304,17 @@ for chave, grp in vendas.groupby('CLIENTE_KEY'):
         por_industria.append({'fornecedor': fornecedor, 'por_produto': por_produto, **_metricas_periodo(grp_f)})
     por_industria.sort(key=lambda x: x['queda_fat_mes_valor'], reverse=True)
 
+    # 'chave' de exibição fica no formato antigo (ESTADO-CODCLI, sem SCHEMA)
+    # pra não quebrar o link "Ver ficha" -> raiox_cliente_detalhe.html, que
+    # espera esse formato e não conhece BLENDED. Só quando um CODCLI do
+    # BLENDED coincidir com um CODCLI de cliente relevante do SPON (raro,
+    # já que o corte de relevância filtra a maioria) essa chave de exibição
+    # pode colidir entre dois clientes reais diferentes — o agrupamento
+    # interno (CLIENTE_KEY, com SCHEMA) já garante que os números de cada um
+    # não se misturam, só a navegação "Ver ficha"/estado de expansão da
+    # tabela que pode ambiguar nesse caso raro.
     clientes.append({
-        'codcli': int(primeira['CODCLI']), 'estado': estado, 'chave': chave,
+        'codcli': int(primeira['CODCLI']), 'estado': estado, 'chave': f"{estado}-{int(primeira['CODCLI'])}",
         'nome': primeira['NOME_CLIENTE'] or primeira['CLIENTE'] or f"Cliente {primeira['CODCLI']}",
         'bairro': primeira['BAIRRO'] or '',
         'ramo': primeira['RAMO'],
