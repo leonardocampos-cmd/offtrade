@@ -1,6 +1,6 @@
 // Gerado automaticamente
 const RAIOX_INDUSTRIA_DETALHE_DATA = {
-  "atualizado_em": "16/08/2026 17:52",
+  "atualizado_em": "18/08/2026 17:04",
   "meses_com_dado": [
     "2026-01",
     "2026-02",
@@ -10,13 +10,13 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
     "2026-06",
     "2026-07"
   ],
-  "faturamento_total_ytd": 63730549.13,
+  "faturamento_total_ytd": 63696580.57,
   "fornecedores": [
     {
       "fantasia": "PERNOD",
-      "faturamento_ytd": 22795420.27,
-      "participacao_pct": 35.77,
-      "media_mensal": 3256488.61,
+      "faturamento_ytd": 22793127.23,
+      "participacao_pct": 35.78,
+      "media_mensal": 3256161.03,
       "clientes_positivados": 1642,
       "por_mes": {
         "2026-01": 1116270.68,
@@ -25,7 +25,7 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
         "2026-04": 2584265.17,
         "2026-05": 4232409.32,
         "2026-06": 3961772.45,
-        "2026-07": 4511141.16
+        "2026-07": 4508848.12
       },
       "top_clientes": [
         {
@@ -219,8 +219,8 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
         },
         {
           "produto": "CONHAQUE DOMECQ 1L",
-          "faturamento": 2256291.11,
-          "quantidade": 85327.0
+          "faturamento": 2256233.31,
+          "quantidade": 85325.0
         },
         {
           "produto": "GIN BEEFEATER 750ML",
@@ -849,7 +849,7 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
     {
       "fantasia": "DIAGEO",
       "faturamento_ytd": 3372891.63,
-      "participacao_pct": 5.29,
+      "participacao_pct": 5.3,
       "media_mensal": 481841.66,
       "clientes_positivados": 1025,
       "por_mes": {
@@ -976,13 +976,13 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "rca": "144",
           "estado": "RJ",
           "nome": "DIOGO RAPOSO",
-          "faturamento": 208181.34
+          "faturamento": 207721.64
         },
         {
           "rca": "159",
           "estado": "RJ",
           "nome": "GISELLE BARFER",
-          "faturamento": 197091.63
+          "faturamento": 197551.33
         },
         {
           "rca": "349",
@@ -1126,10 +1126,10 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
     },
     {
       "fantasia": "CASTAS",
-      "faturamento_ytd": 2445987.78,
-      "participacao_pct": 3.84,
-      "media_mensal": 349426.83,
-      "clientes_positivados": 746,
+      "faturamento_ytd": 2438056.98,
+      "participacao_pct": 3.83,
+      "media_mensal": 348293.85,
+      "clientes_positivados": 742,
       "por_mes": {
         "2026-01": 255158.56,
         "2026-02": 280555.57,
@@ -1137,7 +1137,7 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
         "2026-04": 290350.99,
         "2026-05": 628018.6,
         "2026-06": 286848.41,
-        "2026-07": 306080.61
+        "2026-07": 298149.81
       },
       "top_clientes": [
         {
@@ -1278,7 +1278,7 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "rca": "275",
           "estado": "RJ",
           "nome": "MARIA LUIZA",
-          "faturamento": 84122.34
+          "faturamento": 76191.54
         },
         {
           "rca": "156",
@@ -1336,8 +1336,8 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
         },
         {
           "produto": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
-          "faturamento": 179388.34,
-          "quantidade": 2519.0
+          "faturamento": 179052.94,
+          "quantidade": 2513.0
         },
         {
           "produto": "ESPUMANTE ALUD BRANCO 750ML",
@@ -1351,8 +1351,8 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
         },
         {
           "produto": "VILLA ROSA TINTO 750ML",
-          "faturamento": 93440.03,
-          "quantidade": 3253.0
+          "faturamento": 89972.03,
+          "quantidade": 3133.0
         },
         {
           "produto": "AZEITE OLIV EV ZE TONA COZINHAR 12X500ML",
@@ -1376,8 +1376,8 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
         },
         {
           "produto": "VILLA ROSA  ROSE 750ML",
-          "faturamento": 47440.05,
-          "quantidade": 1793.0
+          "faturamento": 44318.85,
+          "quantidade": 1685.0
         },
         {
           "produto": "VINHO ARESTI EST SEL CHARDONNAY 750ML",
@@ -1404,10 +1404,10 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
     },
     {
       "fantasia": "BEAM SUNTORY",
-      "faturamento_ytd": 2411934.67,
+      "faturamento_ytd": 2408855.23,
       "participacao_pct": 3.78,
-      "media_mensal": 344562.1,
-      "clientes_positivados": 487,
+      "media_mensal": 344122.18,
+      "clientes_positivados": 485,
       "por_mes": {
         "2026-01": 484673.9,
         "2026-02": 283215.44,
@@ -1415,7 +1415,7 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
         "2026-04": 286570.73,
         "2026-05": 209455.21,
         "2026-06": 283159.68,
-        "2026-07": 437708.12
+        "2026-07": 434628.68
       },
       "top_clientes": [
         {
@@ -1514,7 +1514,7 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "rca": "275",
           "estado": "RJ",
           "nome": "MARIA LUIZA",
-          "faturamento": 534602.08
+          "faturamento": 531522.64
         },
         {
           "rca": "360",
@@ -1604,8 +1604,8 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
       "top_produtos": [
         {
           "produto": "WHISKY JIM BEAM WHITE 1L",
-          "faturamento": 827375.22,
-          "quantidade": 9394.0
+          "faturamento": 826359.3,
+          "quantidade": 9382.0
         },
         {
           "produto": "WHISKY JIM BEAM HONEY 1L",
@@ -1634,8 +1634,8 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
         },
         {
           "produto": "GIN LARIOS ORIGINAL 700ML",
-          "faturamento": 58822.76,
-          "quantidade": 1412.0
+          "faturamento": 56759.24,
+          "quantidade": 1364.0
         },
         {
           "produto": "WHISKY ESC MACALLAN SHERRY OAK 12YO700ML",
@@ -1682,9 +1682,9 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
     },
     {
       "fantasia": "CASA PERINI",
-      "faturamento_ytd": 1896429.54,
-      "participacao_pct": 2.98,
-      "media_mensal": 270918.51,
+      "faturamento_ytd": 1891288.14,
+      "participacao_pct": 2.97,
+      "media_mensal": 270184.02,
       "clientes_positivados": 408,
       "por_mes": {
         "2026-01": 82740.69,
@@ -1693,7 +1693,7 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
         "2026-04": 584265.26,
         "2026-05": 411731.07,
         "2026-06": 355660.9,
-        "2026-07": 247896.9
+        "2026-07": 242755.5
       },
       "top_clientes": [
         {
@@ -1807,16 +1807,16 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "faturamento": 279337.42
         },
         {
-          "rca": "275",
-          "estado": "RJ",
-          "nome": "MARIA LUIZA",
-          "faturamento": 138278.4
-        },
-        {
           "rca": "144",
           "estado": "RJ",
           "nome": "DIOGO RAPOSO",
           "faturamento": 137549.2
+        },
+        {
+          "rca": "275",
+          "estado": "RJ",
+          "nome": "MARIA LUIZA",
+          "faturamento": 133137.0
         },
         {
           "rca": "153",
@@ -1882,28 +1882,28 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
       "top_produtos": [
         {
           "produto": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
-          "faturamento": 1228426.1,
-          "quantidade": 37143.0
+          "faturamento": 1226021.3,
+          "quantidade": 37071.0
         },
         {
           "produto": "ESPUM CASA PERINI BRUT ROSE 750ML",
-          "faturamento": 197825.05,
-          "quantidade": 5692.0
+          "faturamento": 196461.85,
+          "quantidade": 5656.0
         },
         {
           "produto": "ESPUM CASA PERINI BRUT 750ML",
-          "faturamento": 195410.07,
-          "quantidade": 5678.0
+          "faturamento": 195213.87,
+          "quantidade": 5672.0
         },
         {
           "produto": "ESPUM CASA PERINI MOSCATEL 750ML",
-          "faturamento": 167778.45,
-          "quantidade": 4923.0
+          "faturamento": 166993.65,
+          "quantidade": 4899.0
         },
         {
           "produto": "ESPUM CASA PERINI PROSECCO 750ML",
-          "faturamento": 34007.2,
-          "quantidade": 1020.0
+          "faturamento": 33614.8,
+          "quantidade": 1008.0
         },
         {
           "produto": "ESPUM CASA PERINI DEMI-SEC 750ML",
@@ -1961,7 +1961,7 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
     {
       "fantasia": "BACARDI",
       "faturamento_ytd": 1723712.9,
-      "participacao_pct": 2.7,
+      "participacao_pct": 2.71,
       "media_mensal": 246244.7,
       "clientes_positivados": 648,
       "por_mes": {
@@ -2516,10 +2516,10 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
     },
     {
       "fantasia": "SEM FANTASIA",
-      "faturamento_ytd": 1556055.21,
+      "faturamento_ytd": 1555067.01,
       "participacao_pct": 2.44,
-      "media_mensal": 222293.6,
-      "clientes_positivados": 417,
+      "media_mensal": 222152.43,
+      "clientes_positivados": 416,
       "por_mes": {
         "2026-01": 110766.47,
         "2026-02": 106452.69,
@@ -2527,7 +2527,7 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
         "2026-04": 569782.95,
         "2026-05": 360216.39,
         "2026-06": 215071.03,
-        "2026-07": 139417.86
+        "2026-07": 138429.66
       },
       "top_clientes": [
         {
@@ -3072,9 +3072,9 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
     },
     {
       "fantasia": "HENNESSY",
-      "faturamento_ytd": 1130651.63,
+      "faturamento_ytd": 1130045.03,
       "participacao_pct": 1.77,
-      "media_mensal": 161521.66,
+      "media_mensal": 161435.0,
       "clientes_positivados": 238,
       "por_mes": {
         "2026-01": 476090.87,
@@ -3083,7 +3083,7 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
         "2026-04": 101362.75,
         "2026-05": 95849.42,
         "2026-06": 129952.74,
-        "2026-07": 99141.58
+        "2026-07": 98534.98
       },
       "top_clientes": [
         {
@@ -3194,7 +3194,7 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "rca": "159",
           "estado": "RJ",
           "nome": "GISELLE BARFER",
-          "faturamento": 116643.95
+          "faturamento": 117361.55
         },
         {
           "rca": "238",
@@ -3206,13 +3206,13 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "rca": "144",
           "estado": "RJ",
           "nome": "DIOGO RAPOSO",
-          "faturamento": 75752.2
+          "faturamento": 75034.6
         },
         {
           "rca": "275",
           "estado": "RJ",
           "nome": "MARIA LUIZA",
-          "faturamento": 67527.0
+          "faturamento": 66920.4
         },
         {
           "rca": "155",
@@ -3302,8 +3302,8 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
         },
         {
           "produto": "VINHO LATITUD 33 MALBEC  750 ML",
-          "faturamento": 34016.42,
-          "quantidade": 881.0
+          "faturamento": 33409.82,
+          "quantidade": 863.0
         },
         {
           "produto": "CHANDON BABY RESERVE BRUT 187 ML",
@@ -3350,9 +3350,9 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
     },
     {
       "fantasia": "AURORA",
-      "faturamento_ytd": 1121958.39,
+      "faturamento_ytd": 1121421.99,
       "participacao_pct": 1.76,
-      "media_mensal": 160279.77,
+      "media_mensal": 160203.14,
       "clientes_positivados": 566,
       "por_mes": {
         "2026-01": 113567.48,
@@ -3360,7 +3360,7 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
         "2026-03": 71236.3,
         "2026-04": 58326.36,
         "2026-05": 152031.87,
-        "2026-06": 355103.45,
+        "2026-06": 354567.05,
         "2026-07": 241136.71
       },
       "top_clientes": [
@@ -3401,15 +3401,15 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "faturamento": 14095.2
         },
         {
-          "codcli": "27557",
-          "estado": "SP",
-          "nome": "ATENTO ATACADISTA",
-          "faturamento": 14028.0
-        },
-        {
           "codcli": "50374",
           "estado": "SP",
           "nome": "REDE STAR",
+          "faturamento": 14028.0
+        },
+        {
+          "codcli": "27557",
+          "estado": "SP",
+          "nome": "ATENTO ATACADISTA",
           "faturamento": 14028.0
         },
         {
@@ -3541,10 +3541,10 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "faturamento": 14992.6
         },
         {
-          "rca": "471",
-          "estado": "RJ",
-          "nome": "ANA CLARA FASSANO",
-          "faturamento": 14981.48
+          "rca": "327",
+          "estado": "MG",
+          "nome": "JOÃO SANTOS",
+          "faturamento": 14468.4
         }
       ],
       "top_produtos": [
@@ -3600,8 +3600,8 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
         },
         {
           "produto": "MOLHO TABASCO RED PEPPER SAUCE 12X60ML",
-          "faturamento": 13377.28,
-          "quantidade": 73.0
+          "faturamento": 12840.88,
+          "quantidade": 70.0
         },
         {
           "produto": "LICOR CAN FIREBALL 750ML",
@@ -3628,9 +3628,9 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
     },
     {
       "fantasia": "KAISER",
-      "faturamento_ytd": 974826.31,
+      "faturamento_ytd": 974333.01,
       "participacao_pct": 1.53,
-      "media_mensal": 139260.9,
+      "media_mensal": 139190.43,
       "clientes_positivados": 193,
       "por_mes": {
         "2026-01": 517287.74,
@@ -3639,7 +3639,7 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
         "2026-04": 114999.24,
         "2026-05": 82409.7,
         "2026-06": 54202.89,
-        "2026-07": 96403.31
+        "2026-07": 95910.01
       },
       "top_clientes": [
         {
@@ -3738,7 +3738,7 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "rca": "144",
           "estado": "RJ",
           "nome": "DIOGO RAPOSO",
-          "faturamento": 330853.55
+          "faturamento": 330360.25
         },
         {
           "rca": "417",
@@ -3816,8 +3816,8 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
       "top_produtos": [
         {
           "produto": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID",
-          "faturamento": 423005.69,
-          "quantidade": 6723.0
+          "faturamento": 422750.09,
+          "quantidade": 6719.0
         },
         {
           "produto": "CERVEJA HEINEKEN LONG 330ML",
@@ -3826,8 +3826,8 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
         },
         {
           "produto": "CERVEJA AMSTEL PURO MALTE 12X473 ML",
-          "faturamento": 111500.71,
-          "quantidade": 2295.0
+          "faturamento": 111390.91,
+          "quantidade": 2293.0
         },
         {
           "produto": "CERVEJA AMSTEL PURO MALTE 473 ML",
@@ -3836,8 +3836,8 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
         },
         {
           "produto": "CERVEJA HEINEKEN LONG 24X330ML",
-          "faturamento": 82637.53,
-          "quantidade": 640.0
+          "faturamento": 82509.63,
+          "quantidade": 639.0
         },
         {
           "produto": "CERVEJA HEINEKEN RET 24X600ML",
@@ -5751,7 +5751,7 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "rca": "159",
           "estado": "RJ",
           "nome": "GISELLE BARFER",
-          "faturamento": 86489.35
+          "faturamento": 87992.35
         },
         {
           "rca": "412",
@@ -5775,7 +5775,7 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "rca": "144",
           "estado": "RJ",
           "nome": "DIOGO RAPOSO",
-          "faturamento": 12559.0
+          "faturamento": 11056.0
         },
         {
           "rca": "379",
@@ -5898,231 +5898,6 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
         }
       ],
       "posicao": 22
-    },
-    {
-      "fantasia": "MONIN",
-      "faturamento_ytd": 535933.4,
-      "participacao_pct": 0.84,
-      "media_mensal": 267966.7,
-      "clientes_positivados": 60,
-      "por_mes": {
-        "2026-06": 276358.3,
-        "2026-07": 259575.1
-      },
-      "top_clientes": [
-        {
-          "codcli": "34048",
-          "estado": "MG",
-          "nome": "MART MINAS DISTRIBUICAO",
-          "faturamento": 286228.8
-        },
-        {
-          "codcli": "30723",
-          "estado": "MG",
-          "nome": "SUPERMERCADO BAHAMAS S/A",
-          "faturamento": 113685.0
-        },
-        {
-          "codcli": "30231",
-          "estado": "MG",
-          "nome": "ORGANIZACAO VERDEMAR LTDA",
-          "faturamento": 36162.0
-        },
-        {
-          "codcli": "35170",
-          "estado": "MG",
-          "nome": "SUPERMERCADOS ABC",
-          "faturamento": 33515.4
-        },
-        {
-          "codcli": "33139",
-          "estado": "MG",
-          "nome": "CORDEIRO SUPERMERCADOS",
-          "faturamento": 21443.4
-        },
-        {
-          "codcli": "35169",
-          "estado": "MG",
-          "nome": "SUPERMERCADOS ABC",
-          "faturamento": 10411.8
-        },
-        {
-          "codcli": "34032",
-          "estado": "MG",
-          "nome": "UPSIDE DISTRIBUICAO DE ALIMENTOS",
-          "faturamento": 7273.8
-        },
-        {
-          "codcli": "34568",
-          "estado": "MG",
-          "nome": "BIG MAIS SUPERMERCADOS",
-          "faturamento": 6196.2
-        },
-        {
-          "codcli": "38497",
-          "estado": "MG",
-          "nome": "SUPERMERCADO IMPERIAL",
-          "faturamento": 4310.4
-        },
-        {
-          "codcli": "33176",
-          "estado": "MG",
-          "nome": "HELP BAR",
-          "faturamento": 3892.2
-        },
-        {
-          "codcli": "33350",
-          "estado": "MG",
-          "nome": "CASA QUATRO",
-          "faturamento": 998.0
-        },
-        {
-          "codcli": "30105",
-          "estado": "MG",
-          "nome": "RESTAURANTE E EMPORIO MORADA MEXICANA EIRELI",
-          "faturamento": 822.3
-        },
-        {
-          "codcli": "33951",
-          "estado": "MG",
-          "nome": "RESTAURANTE LA TRAVIATA",
-          "faturamento": 648.7
-        },
-        {
-          "codcli": "29917",
-          "estado": "MG",
-          "nome": "EMPORIO PARAISO",
-          "faturamento": 598.8
-        },
-        {
-          "codcli": "33631",
-          "estado": "MG",
-          "nome": "COCO BAMBU CONCEITO DEL REY",
-          "faturamento": 499.0
-        }
-      ],
-      "top_vendedores": [
-        {
-          "rca": "360",
-          "estado": "MG",
-          "nome": "LEANDRO OLIVEIRA",
-          "faturamento": 501446.4
-        },
-        {
-          "rca": "327",
-          "estado": "MG",
-          "nome": "JOÃO SANTOS",
-          "faturamento": 11942.2
-        },
-        {
-          "rca": "388",
-          "estado": "MG",
-          "nome": "DOUGLAS FERREIRA SILVA",
-          "faturamento": 7273.8
-        },
-        {
-          "rca": "378",
-          "estado": "MG",
-          "nome": "JETER LUCIO SOARES",
-          "faturamento": 6196.2
-        },
-        {
-          "rca": "344",
-          "estado": "MG",
-          "nome": "TIAGO ANDRADE",
-          "faturamento": 5300.3
-        },
-        {
-          "rca": "354",
-          "estado": "MG",
-          "nome": "MATHEUS DE SOUZA",
-          "faturamento": 3335.5
-        },
-        {
-          "rca": "362",
-          "estado": "MG",
-          "nome": "BRUNA CASTRO MELLO",
-          "faturamento": 439.0
-        }
-      ],
-      "top_produtos": [
-        {
-          "produto": "XAROPE MONIN MACA VERDE (APPLE) 700 ML",
-          "faturamento": 114110.8,
-          "quantidade": 2652.0
-        },
-        {
-          "produto": "XAROPE MONIN MORANGO (STRAWBERRY) 700ML",
-          "faturamento": 104577.6,
-          "quantidade": 2426.0
-        },
-        {
-          "produto": "XAROPE MONIN TANGERINA (MANDARIM) 700ML",
-          "faturamento": 62076.9,
-          "quantidade": 1431.0
-        },
-        {
-          "produto": "XAROPE MONIN LIMAO SICILIANO 700 ML",
-          "faturamento": 61758.6,
-          "quantidade": 1434.0
-        },
-        {
-          "produto": "XAROPE  MONIN  MAÇA VERDE 330 ML",
-          "faturamento": 43586.6,
-          "quantidade": 1977.0
-        },
-        {
-          "produto": "XAROPE  MONIN TANGERINA 330 ML",
-          "faturamento": 34278.1,
-          "quantidade": 1501.0
-        },
-        {
-          "produto": "XAROPE MONIN LIMÃO GLASCO 330 ML",
-          "faturamento": 31854.6,
-          "quantidade": 1458.0
-        },
-        {
-          "produto": "XAROPE  MONIN CRANBERRY 330 ML",
-          "faturamento": 29461.2,
-          "quantidade": 1308.0
-        },
-        {
-          "produto": "XAROPE MONIN MORANGO 330 ML",
-          "faturamento": 20985.3,
-          "quantidade": 972.0
-        },
-        {
-          "produto": "XAROPE MONIN GENGIBRE 330 ML",
-          "faturamento": 9079.0,
-          "quantidade": 378.0
-        },
-        {
-          "produto": "XAROPE MONIN GENGIBRE (GINGER) 700 ML",
-          "faturamento": 4015.4,
-          "quantidade": 86.0
-        },
-        {
-          "produto": "XAROPE MONIN FLOR DE SABUGUEIRO 700 ML",
-          "faturamento": 3193.6,
-          "quantidade": 64.0
-        },
-        {
-          "produto": "PURE MONIN FRUTAS VERMELHAS 330ML",
-          "faturamento": 1970.1,
-          "quantidade": 81.0
-        },
-        {
-          "produto": "PURE MONIN MANGA MARACUJÁ  330ML",
-          "faturamento": 1964.8,
-          "quantidade": 80.0
-        },
-        {
-          "produto": "XAROPE MONIN MELANCIA 700ML",
-          "faturamento": 1861.9,
-          "quantidade": 41.0
-        }
-      ],
-      "posicao": 23
     },
     {
       "fantasia": "MOET HENNESY",
@@ -6398,6 +6173,231 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "produto": "VODKA BELVEDERE B10 700 ML",
           "faturamento": 3910.2,
           "quantidade": 6.0
+        }
+      ],
+      "posicao": 23
+    },
+    {
+      "fantasia": "MONIN",
+      "faturamento_ytd": 523211.0,
+      "participacao_pct": 0.82,
+      "media_mensal": 261605.5,
+      "clientes_positivados": 60,
+      "por_mes": {
+        "2026-06": 263635.9,
+        "2026-07": 259575.1
+      },
+      "top_clientes": [
+        {
+          "codcli": "34048",
+          "estado": "MG",
+          "nome": "MART MINAS DISTRIBUICAO",
+          "faturamento": 286228.8
+        },
+        {
+          "codcli": "30723",
+          "estado": "MG",
+          "nome": "SUPERMERCADO BAHAMAS S/A",
+          "faturamento": 113685.0
+        },
+        {
+          "codcli": "30231",
+          "estado": "MG",
+          "nome": "ORGANIZACAO VERDEMAR LTDA",
+          "faturamento": 36162.0
+        },
+        {
+          "codcli": "33139",
+          "estado": "MG",
+          "nome": "CORDEIRO SUPERMERCADOS",
+          "faturamento": 21443.4
+        },
+        {
+          "codcli": "35170",
+          "estado": "MG",
+          "nome": "SUPERMERCADOS ABC",
+          "faturamento": 20793.0
+        },
+        {
+          "codcli": "35169",
+          "estado": "MG",
+          "nome": "SUPERMERCADOS ABC",
+          "faturamento": 10411.8
+        },
+        {
+          "codcli": "34032",
+          "estado": "MG",
+          "nome": "UPSIDE DISTRIBUICAO DE ALIMENTOS",
+          "faturamento": 7273.8
+        },
+        {
+          "codcli": "34568",
+          "estado": "MG",
+          "nome": "BIG MAIS SUPERMERCADOS",
+          "faturamento": 6196.2
+        },
+        {
+          "codcli": "38497",
+          "estado": "MG",
+          "nome": "SUPERMERCADO IMPERIAL",
+          "faturamento": 4310.4
+        },
+        {
+          "codcli": "33176",
+          "estado": "MG",
+          "nome": "HELP BAR",
+          "faturamento": 3892.2
+        },
+        {
+          "codcli": "33350",
+          "estado": "MG",
+          "nome": "CASA QUATRO",
+          "faturamento": 998.0
+        },
+        {
+          "codcli": "30105",
+          "estado": "MG",
+          "nome": "RESTAURANTE E EMPORIO MORADA MEXICANA EIRELI",
+          "faturamento": 822.3
+        },
+        {
+          "codcli": "33951",
+          "estado": "MG",
+          "nome": "RESTAURANTE LA TRAVIATA",
+          "faturamento": 648.7
+        },
+        {
+          "codcli": "29917",
+          "estado": "MG",
+          "nome": "EMPORIO PARAISO",
+          "faturamento": 598.8
+        },
+        {
+          "codcli": "33631",
+          "estado": "MG",
+          "nome": "COCO BAMBU CONCEITO DEL REY",
+          "faturamento": 499.0
+        }
+      ],
+      "top_vendedores": [
+        {
+          "rca": "360",
+          "estado": "MG",
+          "nome": "LEANDRO OLIVEIRA",
+          "faturamento": 488724.0
+        },
+        {
+          "rca": "327",
+          "estado": "MG",
+          "nome": "JOÃO SANTOS",
+          "faturamento": 11942.2
+        },
+        {
+          "rca": "388",
+          "estado": "MG",
+          "nome": "DOUGLAS FERREIRA SILVA",
+          "faturamento": 7273.8
+        },
+        {
+          "rca": "378",
+          "estado": "MG",
+          "nome": "JETER LUCIO SOARES",
+          "faturamento": 6196.2
+        },
+        {
+          "rca": "344",
+          "estado": "MG",
+          "nome": "TIAGO ANDRADE",
+          "faturamento": 5300.3
+        },
+        {
+          "rca": "354",
+          "estado": "MG",
+          "nome": "MATHEUS DE SOUZA",
+          "faturamento": 3335.5
+        },
+        {
+          "rca": "362",
+          "estado": "MG",
+          "nome": "BRUNA CASTRO MELLO",
+          "faturamento": 439.0
+        }
+      ],
+      "top_produtos": [
+        {
+          "produto": "XAROPE MONIN MACA VERDE (APPLE) 700 ML",
+          "faturamento": 114110.8,
+          "quantidade": 2652.0
+        },
+        {
+          "produto": "XAROPE MONIN MORANGO (STRAWBERRY) 700ML",
+          "faturamento": 104577.6,
+          "quantidade": 2426.0
+        },
+        {
+          "produto": "XAROPE MONIN TANGERINA (MANDARIM) 700ML",
+          "faturamento": 62076.9,
+          "quantidade": 1431.0
+        },
+        {
+          "produto": "XAROPE MONIN LIMAO SICILIANO 700 ML",
+          "faturamento": 61758.6,
+          "quantidade": 1434.0
+        },
+        {
+          "produto": "XAROPE  MONIN  MAÇA VERDE 330 ML",
+          "faturamento": 41075.6,
+          "quantidade": 1887.0
+        },
+        {
+          "produto": "XAROPE MONIN LIMÃO GLASCO 330 ML",
+          "faturamento": 31854.6,
+          "quantidade": 1458.0
+        },
+        {
+          "produto": "XAROPE  MONIN TANGERINA 330 ML",
+          "faturamento": 30093.1,
+          "quantidade": 1351.0
+        },
+        {
+          "produto": "XAROPE  MONIN CRANBERRY 330 ML",
+          "faturamento": 24439.2,
+          "quantidade": 1128.0
+        },
+        {
+          "produto": "XAROPE MONIN MORANGO 330 ML",
+          "faturamento": 20985.3,
+          "quantidade": 972.0
+        },
+        {
+          "produto": "XAROPE MONIN GENGIBRE 330 ML",
+          "faturamento": 8074.6,
+          "quantidade": 342.0
+        },
+        {
+          "produto": "XAROPE MONIN GENGIBRE (GINGER) 700 ML",
+          "faturamento": 4015.4,
+          "quantidade": 86.0
+        },
+        {
+          "produto": "XAROPE MONIN FLOR DE SABUGUEIRO 700 ML",
+          "faturamento": 3193.6,
+          "quantidade": 64.0
+        },
+        {
+          "produto": "PURE MONIN FRUTAS VERMELHAS 330ML",
+          "faturamento": 1970.1,
+          "quantidade": 81.0
+        },
+        {
+          "produto": "PURE MONIN MANGA MARACUJÁ  330ML",
+          "faturamento": 1964.8,
+          "quantidade": 80.0
+        },
+        {
+          "produto": "XAROPE MONIN MELANCIA 700ML",
+          "faturamento": 1861.9,
+          "quantidade": 41.0
         }
       ],
       "posicao": 24
@@ -6880,9 +6880,9 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
     },
     {
       "fantasia": "INTERFOOD",
-      "faturamento_ytd": 307989.07,
+      "faturamento_ytd": 307812.09,
       "participacao_pct": 0.48,
-      "media_mensal": 43998.44,
+      "media_mensal": 43973.16,
       "clientes_positivados": 295,
       "por_mes": {
         "2026-01": 39622.2,
@@ -6891,7 +6891,7 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
         "2026-04": 104405.43,
         "2026-05": 13899.62,
         "2026-06": 70273.74,
-        "2026-07": 35323.3
+        "2026-07": 35146.32
       },
       "top_clientes": [
         {
@@ -7085,8 +7085,8 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
         },
         {
           "produto": "LICOR COINTREAU 700 ML",
-          "faturamento": 49517.01,
-          "quantidade": 520.0
+          "faturamento": 49340.03,
+          "quantidade": 518.0
         },
         {
           "produto": "AMARULA C LIQUEUR 750 ML",
@@ -8174,7 +8174,7 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
     {
       "fantasia": "VITON",
       "faturamento_ytd": 219861.1,
-      "participacao_pct": 0.34,
+      "participacao_pct": 0.35,
       "media_mensal": 31408.73,
       "clientes_positivados": 323,
       "por_mes": {
