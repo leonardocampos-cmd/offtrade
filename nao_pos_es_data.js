@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_es.py
 
 const NAO_POS_ES_DATA = {
-  "atualizado_em": "18/08/2026 13:10",
+  "atualizado_em": "18/08/2026 14:14",
   "por_vendedor": {
     "ADEILSON GONÇALVEZ": [
       {
@@ -2415,6 +2415,44 @@ const NAO_POS_ES_DATA = {
         ]
       },
       {
+        "codcli": "95534",
+        "cliente": "G5 DROGARIAS LTDA",
+        "bairro": "IPANEMA",
+        "dtultcomp": "30/06/2026",
+        "produtos": [
+          {
+            "produto": "GUARAVITON GINSENG 12X500ML",
+            "fantasia": "VITON",
+            "qt": 1,
+            "valor": 31.89
+          },
+          {
+            "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+            "fantasia": "TATUZINHO",
+            "qt": 1,
+            "valor": 94.68
+          },
+          {
+            "produto": "MOVING HYDRO PROTEIN LIMAO 12X500ML",
+            "fantasia": "TATUZINHO",
+            "qt": 1,
+            "valor": 94.68
+          },
+          {
+            "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+            "fantasia": "TATUZINHO",
+            "qt": 1,
+            "valor": 94.68
+          },
+          {
+            "produto": "MOVING HYDRO PROTEIN UVA 12X500ML",
+            "fantasia": "TATUZINHO",
+            "qt": 1,
+            "valor": 94.68
+          }
+        ]
+      },
+      {
         "codcli": "95536",
         "cliente": "G5 DROGARIAS LTDA",
         "bairro": "COPACABANA",
@@ -2456,44 +2494,6 @@ const NAO_POS_ES_DATA = {
         "codcli": "95525",
         "cliente": "G5 DROGARIAS LTDA",
         "bairro": "COPACABANA",
-        "dtultcomp": "30/06/2026",
-        "produtos": [
-          {
-            "produto": "GUARAVITON GINSENG 12X500ML",
-            "fantasia": "VITON",
-            "qt": 1,
-            "valor": 31.89
-          },
-          {
-            "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
-            "fantasia": "TATUZINHO",
-            "qt": 1,
-            "valor": 94.68
-          },
-          {
-            "produto": "MOVING HYDRO PROTEIN LIMAO 12X500ML",
-            "fantasia": "TATUZINHO",
-            "qt": 1,
-            "valor": 94.68
-          },
-          {
-            "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
-            "fantasia": "TATUZINHO",
-            "qt": 1,
-            "valor": 94.68
-          },
-          {
-            "produto": "MOVING HYDRO PROTEIN UVA 12X500ML",
-            "fantasia": "TATUZINHO",
-            "qt": 1,
-            "valor": 94.68
-          }
-        ]
-      },
-      {
-        "codcli": "95534",
-        "cliente": "G5 DROGARIAS LTDA",
-        "bairro": "IPANEMA",
         "dtultcomp": "30/06/2026",
         "produtos": [
           {
@@ -3103,6 +3103,13 @@ const NAO_POS_ES_DATA = {
             "valor": 56.7
           }
         ]
+      },
+      {
+        "codcli": "96063",
+        "cliente": "FARMACIA ALVORADA LTDA",
+        "bairro": "BOTAFOGO",
+        "dtultcomp": "nan",
+        "produtos": []
       },
       {
         "codcli": "95074",
@@ -12067,6 +12074,40 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       }
     ],
+    "JOAO VICTOR DA ROCHA": [
+      {
+        "codcli": "82693",
+        "cliente": "SHEILA LUZIA DA SILVA 00450831779",
+        "bairro": "CARANGOLA",
+        "dtultcomp": "08/04/2026",
+        "produtos": [
+          {
+            "produto": "CANTINA DA SERRA 1,5L",
+            "fantasia": "COMARY",
+            "qt": 6,
+            "valor": 65.4
+          },
+          {
+            "produto": "CATUABA SELVAGEM 900ML",
+            "fantasia": "COMARY",
+            "qt": 4,
+            "valor": 59.6
+          },
+          {
+            "produto": "COQUETEL BANANINHA REGGIANI 950ML",
+            "fantasia": "CATUABA",
+            "qt": 2,
+            "valor": 38.6
+          },
+          {
+            "produto": "COQUETEL PINK MOON 12X600ML - PET",
+            "fantasia": "COMARY",
+            "qt": 1,
+            "valor": 78.3
+          }
+        ]
+      }
+    ],
     "JORGE MACIEL": [
       {
         "codcli": "84160",
@@ -13995,9 +14036,9 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
-        "codcli": "93791",
+        "codcli": "3754",
         "cliente": "SUPERMERCADO BARRA OESTE LTDA",
-        "bairro": "BARRA DA TIJUCA",
+        "bairro": "RECREIO DOS BANDEIRANTES",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -14009,9 +14050,9 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
-        "codcli": "3754",
+        "codcli": "93791",
         "cliente": "SUPERMERCADO BARRA OESTE LTDA",
-        "bairro": "RECREIO DOS BANDEIRANTES",
+        "bairro": "BARRA DA TIJUCA",
         "dtultcomp": "nan",
         "produtos": []
       }
