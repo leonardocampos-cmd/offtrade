@@ -1197,8 +1197,16 @@ if _hier_parts:
         sup     = str(hier_row.get('NOME_SUPERVISOR','') or '') or 'Sem Supervisor'
         estado  = str(hier_row.get('ESTADO_VENDEDOR','') or '').strip()
 
-        # Vendas deste RCA nesta empresa
-        mask        = (_vh['RCA'] == rca_num) & (_vh['EMPRESA'] == empresa)
+        # Vendas deste RCA nesta empresa — ~DEVOLVIDO exclui devoluções
+        # (CODOPER='ED' e vendas com NUMNOTADEV preenchido), mesmo filtro que
+        # o resto do script já aplica (linha 665) antes de somar faturamento.
+        # Sem isso, uma devolução somava de novo em cima da venda original
+        # (ou sozinha, já que a query de _vh inclui 'ED'), inflando o
+        # faturamento de gerentes_data.js — confirmado 2026-08-18, Maria
+        # Luiza RJ (RCA 275): R$ 76.137,99 aqui vs R$ 14.318,16 real
+        # (performance_equipe.html), diferença batendo exato com R$ 61.787,13
+        # de devoluções de agosto somadas por engano.
+        mask        = (_vh['RCA'] == rca_num) & (_vh['EMPRESA'] == empresa) & (~_vh['DEVOLVIDO'])
         vend_sales  = _vh[mask]
         por_mes_vend = {}
         for mes_str, grp in vend_sales.groupby('MES_STR'):
