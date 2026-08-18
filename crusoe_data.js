@@ -1,5 +1,5 @@
 const CRUSOE_DATA = {
-  "atualizado_em": "18/08/2026 14:07",
+  "atualizado_em": "18/08/2026 15:05",
   "periodo": {
     "ini": "01/07/2026",
     "fim": "31/08/2026"
@@ -3798,8 +3798,8 @@ const CRUSOE_DATA = {
           "rca": 431,
           "vendedor": "Adeilson Gonçalvez",
           "clientes_gourmet": 6,
-          "faturamento": 6992.73,
-          "faturamento_gourmet": 1044.9,
+          "faturamento": 7171.53,
+          "faturamento_gourmet": 1223.7,
           "pontos_total": 6,
           "vendas": [
             {
@@ -3894,6 +3894,15 @@ const CRUSOE_DATA = {
               "qt": 1.0,
               "valor": 99.9,
               "pontuacoes": []
+            },
+            {
+              "numnota": "422464",
+              "data": "18/08/2026",
+              "cliente": "BAR E RESTAURANTE 3 SIMOES LIMITADA",
+              "produto": "RC PATE ATUM COM AZEITONAS 12X80G",
+              "qt": 1.0,
+              "valor": 178.8,
+              "pontuacoes": []
             }
           ]
         },
@@ -3901,7 +3910,7 @@ const CRUSOE_DATA = {
           "rca": 379,
           "vendedor": "Jorge Maciel",
           "clientes_gourmet": 0,
-          "faturamento": 13217.98,
+          "faturamento": 13861.48,
           "faturamento_gourmet": 0.0,
           "pontos_total": 0,
           "vendas": []
