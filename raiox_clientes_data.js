@@ -1,6 +1,6 @@
 // Gerado automaticamente
 const RAIOX_CLIENTES_DATA = {
-  "atualizado_em": "21/07/2026 18:40",
+  "atualizado_em": "18/08/2026 17:01",
   "mes_atual": "07/2026",
   "meses_com_dado": [
     "2026-01",
@@ -35,14 +35,6 @@ const RAIOX_CLIENTES_DATA = {
       "nome": "ADRIANO VEZZANI",
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI"
-    },
-    {
-      "rca": 440,
-      "estado": "ES",
-      "chave": "ES-440",
-      "nome": "ALDICEIA PEIXOTO",
-      "supervisor": "DANIEL DINIZ",
-      "gerente": "DANIEL DINIZ"
     },
     {
       "rca": 511,
@@ -269,6 +261,14 @@ const RAIOX_CLIENTES_DATA = {
       "gerente": "ALLAN PAES"
     },
     {
+      "rca": 388,
+      "estado": "MG",
+      "chave": "MG-388",
+      "nome": "DOUGLAS FERREIRA SILVA",
+      "supervisor": "FERNANDO RISSON",
+      "gerente": "FERNANDO RISSON"
+    },
+    {
       "rca": 260,
       "estado": "ES",
       "chave": "ES-260",
@@ -282,14 +282,6 @@ const RAIOX_CLIENTES_DATA = {
       "chave": "SP-490",
       "nome": "DOUGLAS TEIXEIRA",
       "supervisor": "PRISCILLA BONACHE",
-      "gerente": "MARCUS TANAMACHI"
-    },
-    {
-      "rca": 495,
-      "estado": "SP",
-      "chave": "SP-495",
-      "nome": "EDUARDO COUTO",
-      "supervisor": "MARCUS TANAMACHI",
       "gerente": "MARCUS TANAMACHI"
     },
     {
@@ -315,6 +307,14 @@ const RAIOX_CLIENTES_DATA = {
       "nome": "EUDES MORGAN",
       "supervisor": "SUPERVISOR OFF - ES",
       "gerente": "EROCLES OLIVEIRA"
+    },
+    {
+      "rca": 525,
+      "estado": "SP",
+      "chave": "SP-525",
+      "nome": "EVANDRO DORTA",
+      "supervisor": "PRISCILLA BONACHE",
+      "gerente": "MARCUS TANAMACHI"
     },
     {
       "rca": 378,
@@ -365,14 +365,6 @@ const RAIOX_CLIENTES_DATA = {
       "gerente": "EROCLES OLIVEIRA"
     },
     {
-      "rca": 415,
-      "estado": "RJ",
-      "chave": "RJ-415",
-      "nome": "FÁBIO OLIVEIRA",
-      "supervisor": "DANIEL DINIZ",
-      "gerente": "DANIEL DINIZ"
-    },
-    {
       "rca": 491,
       "estado": "SP",
       "chave": "SP-491",
@@ -405,6 +397,14 @@ const RAIOX_CLIENTES_DATA = {
       "gerente": "MARCUS TANAMACHI"
     },
     {
+      "rca": 514,
+      "estado": "SP",
+      "chave": "SP-514",
+      "nome": "HELENA CAVALCANTI",
+      "supervisor": "ANDERSON CANAVEIS",
+      "gerente": "MARCUS TANAMACHI"
+    },
+    {
       "rca": 513,
       "estado": "SP",
       "chave": "SP-513",
@@ -429,6 +429,22 @@ const RAIOX_CLIENTES_DATA = {
       "gerente": "EROCLES OLIVEIRA"
     },
     {
+      "rca": 378,
+      "estado": "MG",
+      "chave": "MG-378",
+      "nome": "JETER LUCIO SOARES",
+      "supervisor": "FERNANDO RISSON",
+      "gerente": "FERNANDO RISSON"
+    },
+    {
+      "rca": 507,
+      "estado": "SP",
+      "chave": "SP-507",
+      "nome": "JOAO AUGUSTO -  OFF TRADE",
+      "supervisor": "ANDERSON CANAVEIS",
+      "gerente": "MARCUS TANAMACHI"
+    },
+    {
       "rca": 312,
       "estado": "SP",
       "chave": "SP-312",
@@ -441,8 +457,8 @@ const RAIOX_CLIENTES_DATA = {
       "estado": "RJ",
       "chave": "RJ-172",
       "nome": "JOAO PEDRO",
-      "supervisor": "DANIEL DINIZ",
-      "gerente": "DANIEL DINIZ"
+      "supervisor": "ALLAN PAES",
+      "gerente": "ALLAN PAES"
     },
     {
       "rca": 435,
@@ -563,14 +579,6 @@ const RAIOX_CLIENTES_DATA = {
       "nome": "LUIS MACHADO",
       "supervisor": "ANDERSON CANAVEIS",
       "gerente": "MARCUS TANAMACHI"
-    },
-    {
-      "rca": 542,
-      "estado": "MG",
-      "chave": "MG-542",
-      "nome": "LUIZ FERNANDO SALGADO",
-      "supervisor": "FERNANDO RISSON",
-      "gerente": "FERNANDO RISSON"
     },
     {
       "rca": 487,
@@ -701,6 +709,14 @@ const RAIOX_CLIENTES_DATA = {
       "gerente": "ALLAN PAES"
     },
     {
+      "rca": 269,
+      "estado": "ES",
+      "chave": "ES-269",
+      "nome": "OZISLLAN RAMALHO DE SOUZA",
+      "supervisor": "EROCLES OLIVEIRA",
+      "gerente": "DANIEL DINIZ"
+    },
+    {
       "rca": 469,
       "estado": "SP",
       "chave": "SP-469",
@@ -730,6 +746,22 @@ const RAIOX_CLIENTES_DATA = {
       "chave": "SP-500",
       "nome": "PAULO MOREIRA",
       "supervisor": "ANDERSON CANAVEIS",
+      "gerente": "MARCUS TANAMACHI"
+    },
+    {
+      "rca": 508,
+      "estado": "SP",
+      "chave": "SP-508",
+      "nome": "PAULO SALES",
+      "supervisor": "PRISCILLA BONACHE",
+      "gerente": "MARCUS TANAMACHI"
+    },
+    {
+      "rca": 518,
+      "estado": "SP",
+      "chave": "SP-518",
+      "nome": "PAULO THOMAZI",
+      "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI"
     },
     {
@@ -813,6 +845,14 @@ const RAIOX_CLIENTES_DATA = {
       "gerente": "MARCUS TANAMACHI"
     },
     {
+      "rca": 510,
+      "estado": "SP",
+      "chave": "SP-510",
+      "nome": "ROSANA AFFONSO",
+      "supervisor": "PRISCILLA BONACHE",
+      "gerente": "MARCUS TANAMACHI"
+    },
+    {
       "rca": 331,
       "estado": "MG",
       "chave": "MG-331",
@@ -861,6 +901,14 @@ const RAIOX_CLIENTES_DATA = {
       "gerente": "MARCUS TANAMACHI"
     },
     {
+      "rca": 521,
+      "estado": "ES",
+      "chave": "ES-521",
+      "nome": "WESLEY CARCHENO",
+      "supervisor": "EROCLES OLIVEIRA",
+      "gerente": "DANIEL DINIZ"
+    },
+    {
       "rca": 349,
       "estado": "MG",
       "chave": "MG-349",
@@ -888,81 +936,81 @@ const RAIOX_CLIENTES_DATA = {
   "canais": [
     {
       "ramo": "MERCADO",
-      "total_clientes": 1743,
-      "clientes_ativos_mes": 524,
-      "cobertura_pct": 30.1,
-      "faturamento_ytd": 48835416.62,
-      "media_mensal": 6976488.09,
+      "total_clientes": 1691,
+      "clientes_ativos_mes": 743,
+      "cobertura_pct": 43.9,
+      "faturamento_ytd": 64618785.14,
+      "media_mensal": 9231255.02,
       "por_mes": {
-        "2026-01": 5658280.31,
-        "2026-02": 5064593.76,
-        "2026-03": 8350433.46,
-        "2026-04": 6675562.52,
-        "2026-05": 9080246.9,
-        "2026-06": 9458937.37,
-        "2026-07": 4547362.31
+        "2026-01": 7010775.24,
+        "2026-02": 6667218.4,
+        "2026-03": 10470029.6,
+        "2026-04": 8387019.87,
+        "2026-05": 9934340.92,
+        "2026-06": 11446220.17,
+        "2026-07": 10703180.94
       },
       "top_cidades": [
         {
           "cidade": "RIO DE JANEIRO",
-          "clientes": 458
+          "clientes": 431
         },
         {
           "cidade": "SAO PAULO",
-          "clientes": 197
-        },
-        {
-          "cidade": "SERRA",
-          "clientes": 67
+          "clientes": 202
         },
         {
           "cidade": "DUQUE DE CAXIAS",
-          "clientes": 47
+          "clientes": 46
+        },
+        {
+          "cidade": "SERRA",
+          "clientes": 43
         },
         {
           "cidade": "ANGRA DOS REIS",
-          "clientes": 33
+          "clientes": 31
         },
         {
           "cidade": "SAO JOAO DE MER",
-          "clientes": 30
+          "clientes": 29
         },
         {
-          "cidade": "ARMACAO DOS BUZ",
-          "clientes": 27
-        },
-        {
-          "cidade": "CACHOEIRO DE IT",
-          "clientes": 27
-        },
-        {
-          "cidade": "CARIACICA",
-          "clientes": 26
+          "cidade": "CAMPINAS",
+          "clientes": 28
         },
         {
           "cidade": "VILA VELHA",
-          "clientes": 24
+          "clientes": 27
+        },
+        {
+          "cidade": "NITEROI",
+          "clientes": 23
+        },
+        {
+          "cidade": "ARMACAO DOS BUZ",
+          "clientes": 23
         }
       ],
       "por_vendedor": {
         "ES-260": {
-          "total_clientes": 20,
+          "total_clientes": 15,
           "clientes_ativos_mes": 0,
           "cobertura_pct": 0.0,
-          "faturamento_ytd": 40880.64,
-          "media_mensal": 6813.44,
+          "faturamento_ytd": 33961.36,
+          "media_mensal": 5660.23,
           "por_mes": {
-            "2026-01": 7723.34,
-            "2026-02": 5962.85,
-            "2026-03": 8622.93,
+            "2026-01": 7351.53,
+            "2026-02": 3551.71,
+            "2026-03": 8234.81,
             "2026-04": 2130.31,
-            "2026-05": 12675.72,
+            "2026-05": 8927.51,
             "2026-06": 3765.5
           },
           "top_cidades": [
             {
               "cidade": "SERRA",
-              "clientes": 17
+              "clientes": 12
             },
             {
               "cidade": "VITORIA",
@@ -974,154 +1022,154 @@ const RAIOX_CLIENTES_DATA = {
             }
           ]
         },
-        "ES-335": {
-          "total_clientes": 28,
+        "ES-269": {
+          "total_clientes": 14,
           "clientes_ativos_mes": 0,
           "cobertura_pct": 0.0,
-          "faturamento_ytd": 75061.94,
-          "media_mensal": 12510.32,
+          "faturamento_ytd": 6845.47,
+          "media_mensal": 3422.74,
           "por_mes": {
-            "2026-01": 8829.24,
-            "2026-02": 15374.9,
-            "2026-03": 24894.67,
-            "2026-04": 10662.68,
-            "2026-05": 12213.81,
+            "2026-02": 1790.3,
+            "2026-03": 5055.17
+          },
+          "top_cidades": [
+            {
+              "cidade": "JAGUARE",
+              "clientes": 6
+            },
+            {
+              "cidade": "SAO MATEUS",
+              "clientes": 5
+            },
+            {
+              "cidade": "MARATAIZES",
+              "clientes": 2
+            },
+            {
+              "cidade": "ITAPEMIRIM",
+              "clientes": 1
+            }
+          ]
+        },
+        "ES-335": {
+          "total_clientes": 18,
+          "clientes_ativos_mes": 0,
+          "cobertura_pct": 0.0,
+          "faturamento_ytd": 49440.4,
+          "media_mensal": 8240.07,
+          "por_mes": {
+            "2026-01": 7258.9,
+            "2026-02": 9510.61,
+            "2026-03": 18579.7,
+            "2026-04": 2128.08,
+            "2026-05": 8876.46,
             "2026-06": 3086.65
           },
           "top_cidades": [
             {
               "cidade": "CACHOEIRO DE IT",
-              "clientes": 24
+              "clientes": 17
             },
             {
               "cidade": "CASTELO",
-              "clientes": 1
-            },
-            {
-              "cidade": "MARATAIZES",
-              "clientes": 1
-            },
-            {
-              "cidade": "PIUMA",
-              "clientes": 1
-            },
-            {
-              "cidade": "VARGEM ALTA",
               "clientes": 1
             }
           ]
         },
         "ES-336": {
-          "total_clientes": 28,
+          "total_clientes": 7,
           "clientes_ativos_mes": 0,
           "cobertura_pct": 0.0,
-          "faturamento_ytd": 81617.13,
-          "media_mensal": 16323.43,
+          "faturamento_ytd": 15518.29,
+          "media_mensal": 3103.66,
           "por_mes": {
-            "2026-01": 19642.85,
-            "2026-02": 10727.14,
-            "2026-03": 18392.49,
-            "2026-04": 24282.0,
-            "2026-05": 8572.66
+            "2026-01": 3335.78,
+            "2026-02": 603.56,
+            "2026-03": 6396.67,
+            "2026-04": 3811.0,
+            "2026-05": 1371.28
           },
           "top_cidades": [
             {
               "cidade": "SERRA",
-              "clientes": 27
-            },
-            {
-              "cidade": "FUNDAO",
-              "clientes": 1
+              "clientes": 7
             }
           ]
         },
         "ES-342": {
-          "total_clientes": 12,
+          "total_clientes": 3,
           "clientes_ativos_mes": 0,
           "cobertura_pct": 0.0,
-          "faturamento_ytd": 39708.84,
-          "media_mensal": 13236.28,
+          "faturamento_ytd": 15534.98,
+          "media_mensal": 5178.33,
           "por_mes": {
-            "2026-01": 15760.76,
-            "2026-03": 9481.92,
-            "2026-05": 14466.16
+            "2026-01": 4792.28,
+            "2026-03": 4325.24,
+            "2026-05": 6417.47
           },
           "top_cidades": [
             {
               "cidade": "SAO MATEUS",
-              "clientes": 7
-            },
-            {
-              "cidade": "CONCEICAO DA BA",
               "clientes": 2
             },
             {
               "cidade": "NOVA VENECIA",
-              "clientes": 2
-            },
-            {
-              "cidade": "PEDRO CANARIO",
               "clientes": 1
             }
           ]
         },
         "ES-343": {
-          "total_clientes": 7,
+          "total_clientes": 2,
           "clientes_ativos_mes": 0,
           "cobertura_pct": 0.0,
-          "faturamento_ytd": 7970.82,
-          "media_mensal": 1594.16,
+          "faturamento_ytd": 1320.24,
+          "media_mensal": 440.08,
           "por_mes": {
-            "2026-01": 454.56,
-            "2026-02": 287.76,
-            "2026-03": 2495.96,
-            "2026-04": 2730.1,
-            "2026-05": 2002.44
+            "2026-03": 718.24,
+            "2026-04": 122.96,
+            "2026-05": 479.04
           },
           "top_cidades": [
             {
               "cidade": "CARIACICA",
-              "clientes": 5
+              "clientes": 1
             },
             {
               "cidade": "VIANA",
-              "clientes": 2
+              "clientes": 1
             }
           ]
         },
         "ES-370": {
-          "total_clientes": 29,
-          "clientes_ativos_mes": 0,
-          "cobertura_pct": 0.0,
-          "faturamento_ytd": 286880.36,
-          "media_mensal": 47813.39,
+          "total_clientes": 15,
+          "clientes_ativos_mes": 1,
+          "cobertura_pct": 6.7,
+          "faturamento_ytd": 239399.45,
+          "media_mensal": 34199.92,
           "por_mes": {
-            "2026-01": 22662.7,
-            "2026-02": 16761.4,
-            "2026-03": 116645.6,
-            "2026-04": 48455.54,
-            "2026-05": 64207.4,
-            "2026-06": 18147.72
+            "2026-01": 15286.35,
+            "2026-02": 12054.94,
+            "2026-03": 93653.27,
+            "2026-04": 41339.16,
+            "2026-05": 58888.85,
+            "2026-06": 18147.72,
+            "2026-07": 29.16
           },
           "top_cidades": [
             {
               "cidade": "VENDA NOVA DO I",
-              "clientes": 10
-            },
-            {
-              "cidade": "DOMINGOS MARTIN",
-              "clientes": 8
-            },
-            {
-              "cidade": "AFONSO CLAUDIO",
               "clientes": 4
             },
             {
-              "cidade": "GUACUI",
-              "clientes": 2
+              "cidade": "DOMINGOS MARTIN",
+              "clientes": 3
             },
             {
-              "cidade": "MARECHAL FLORIA",
+              "cidade": "AFONSO CLAUDIO",
+              "clientes": 3
+            },
+            {
+              "cidade": "GUACUI",
               "clientes": 2
             },
             {
@@ -1139,36 +1187,36 @@ const RAIOX_CLIENTES_DATA = {
           ]
         },
         "ES-388": {
-          "total_clientes": 70,
-          "clientes_ativos_mes": 30,
-          "cobertura_pct": 42.9,
-          "faturamento_ytd": 2259203.1,
-          "media_mensal": 322743.3,
+          "total_clientes": 75,
+          "clientes_ativos_mes": 36,
+          "cobertura_pct": 48.0,
+          "faturamento_ytd": 2548234.17,
+          "media_mensal": 364033.45,
           "por_mes": {
-            "2026-01": 438060.28,
-            "2026-02": 142898.02,
-            "2026-03": 660509.79,
-            "2026-04": 188445.68,
-            "2026-05": 409019.76,
+            "2026-01": 445643.07,
+            "2026-02": 148153.28,
+            "2026-03": 671888.07,
+            "2026-04": 181871.34,
+            "2026-05": 403672.76,
             "2026-06": 91504.93,
-            "2026-07": 328764.65
+            "2026-07": 605500.73
           },
           "top_cidades": [
             {
               "cidade": "SERRA",
-              "clientes": 18
+              "clientes": 20
             },
             {
               "cidade": "VILA VELHA",
-              "clientes": 12
+              "clientes": 13
             },
             {
               "cidade": "VITORIA",
-              "clientes": 10
+              "clientes": 12
             },
             {
               "cidade": "CARIACICA",
-              "clientes": 8
+              "clientes": 7
             },
             {
               "cidade": "LINHARES",
@@ -1183,12 +1231,12 @@ const RAIOX_CLIENTES_DATA = {
               "clientes": 3
             },
             {
-              "cidade": "VIANA",
+              "cidade": "FUNDAO",
               "clientes": 2
             },
             {
-              "cidade": "ARACRUZ",
-              "clientes": 1
+              "cidade": "VIANA",
+              "clientes": 2
             },
             {
               "cidade": "ANCHIETA",
@@ -1196,42 +1244,25 @@ const RAIOX_CLIENTES_DATA = {
             }
           ]
         },
-        "ES-440": {
-          "total_clientes": 1,
-          "clientes_ativos_mes": 0,
-          "cobertura_pct": 0.0,
-          "faturamento_ytd": 1394.4,
-          "media_mensal": 697.2,
-          "por_mes": {
-            "2026-02": 358.8,
-            "2026-05": 1035.6
-          },
-          "top_cidades": [
-            {
-              "cidade": "SERRA",
-              "clientes": 1
-            }
-          ]
-        },
         "ES-442": {
-          "total_clientes": 11,
+          "total_clientes": 9,
           "clientes_ativos_mes": 1,
-          "cobertura_pct": 9.1,
-          "faturamento_ytd": 91708.19,
-          "media_mensal": 13101.17,
+          "cobertura_pct": 11.1,
+          "faturamento_ytd": 93820.02,
+          "media_mensal": 13402.86,
           "por_mes": {
-            "2026-01": 4045.79,
+            "2026-01": 3911.13,
             "2026-02": 16262.42,
-            "2026-03": 13323.65,
-            "2026-04": 8649.79,
-            "2026-05": 24822.14,
+            "2026-03": 13250.71,
+            "2026-04": 8290.99,
+            "2026-05": 24648.45,
             "2026-06": 24278.48,
-            "2026-07": 325.92
+            "2026-07": 3177.84
           },
           "top_cidades": [
             {
               "cidade": "ARACRUZ",
-              "clientes": 6
+              "clientes": 4
             },
             {
               "cidade": "FUNDAO",
@@ -1256,27 +1287,28 @@ const RAIOX_CLIENTES_DATA = {
           ]
         },
         "ES-458": {
-          "total_clientes": 21,
-          "clientes_ativos_mes": 0,
-          "cobertura_pct": 0.0,
-          "faturamento_ytd": 148987.48,
-          "media_mensal": 24831.25,
+          "total_clientes": 18,
+          "clientes_ativos_mes": 9,
+          "cobertura_pct": 50.0,
+          "faturamento_ytd": 129488.05,
+          "media_mensal": 18498.29,
           "por_mes": {
-            "2026-01": 32595.48,
-            "2026-02": 22582.13,
-            "2026-03": 21533.06,
-            "2026-04": 27473.18,
-            "2026-05": 36703.61,
-            "2026-06": 8100.02
+            "2026-01": 31138.36,
+            "2026-02": 13359.7,
+            "2026-03": 28342.54,
+            "2026-04": 24307.94,
+            "2026-05": 19810.72,
+            "2026-06": 2221.53,
+            "2026-07": 10307.25
           },
           "top_cidades": [
             {
               "cidade": "CARIACICA",
-              "clientes": 11
+              "clientes": 10
             },
             {
               "cidade": "VILA VELHA",
-              "clientes": 7
+              "clientes": 5
             },
             {
               "cidade": "VIANA",
@@ -1289,24 +1321,24 @@ const RAIOX_CLIENTES_DATA = {
           ]
         },
         "ES-508": {
-          "total_clientes": 7,
+          "total_clientes": 11,
           "clientes_ativos_mes": 7,
-          "cobertura_pct": 100.0,
-          "faturamento_ytd": 483174.74,
-          "media_mensal": 69024.96,
+          "cobertura_pct": 63.6,
+          "faturamento_ytd": 542075.02,
+          "media_mensal": 77439.29,
           "por_mes": {
-            "2026-01": 117099.44,
-            "2026-02": 105676.11,
-            "2026-03": 114202.6,
-            "2026-04": 27470.79,
-            "2026-05": 56862.98,
-            "2026-06": 27079.26,
-            "2026-07": 34783.56
+            "2026-01": 127318.82,
+            "2026-02": 119554.75,
+            "2026-03": 119260.16,
+            "2026-04": 30373.89,
+            "2026-05": 73409.89,
+            "2026-06": 33263.58,
+            "2026-07": 38893.92
           },
           "top_cidades": [
             {
               "cidade": "VILA VELHA",
-              "clientes": 4
+              "clientes": 8
             },
             {
               "cidade": "CARIACICA",
@@ -1322,15 +1354,38 @@ const RAIOX_CLIENTES_DATA = {
             }
           ]
         },
+        "ES-521": {
+          "total_clientes": 2,
+          "clientes_ativos_mes": 0,
+          "cobertura_pct": 0.0,
+          "faturamento_ytd": 155961.04,
+          "media_mensal": 25993.51,
+          "por_mes": {
+            "2026-01": 35355.18,
+            "2026-02": 3652.62,
+            "2026-03": 43836.28,
+            "2026-04": 54657.4,
+            "2026-05": 6154.09,
+            "2026-06": 12305.47
+          },
+          "top_cidades": [
+            {
+              "cidade": "ARACRUZ",
+              "clientes": 1
+            },
+            {
+              "cidade": "LINHARES",
+              "clientes": 1
+            }
+          ]
+        },
         "RJ-91": {
           "total_clientes": 19,
           "clientes_ativos_mes": 1,
           "cobertura_pct": 5.3,
-          "faturamento_ytd": 72884.68,
-          "media_mensal": 10412.1,
+          "faturamento_ytd": 64676.68,
+          "media_mensal": 12935.34,
           "por_mes": {
-            "2026-01": 4816.8,
-            "2026-02": 3391.2,
             "2026-03": 63033.28,
             "2026-04": 187.3,
             "2026-05": 256.7,
@@ -1355,7 +1410,7 @@ const RAIOX_CLIENTES_DATA = {
               "clientes": 2
             },
             {
-              "cidade": "ARMACAO DOS BUZ",
+              "cidade": "GUARULHOS",
               "clientes": 1
             },
             {
@@ -1382,18 +1437,18 @@ const RAIOX_CLIENTES_DATA = {
         },
         "RJ-144": {
           "total_clientes": 38,
-          "clientes_ativos_mes": 13,
-          "cobertura_pct": 34.2,
-          "faturamento_ytd": 456482.59,
-          "media_mensal": 65211.8,
+          "clientes_ativos_mes": 20,
+          "cobertura_pct": 52.6,
+          "faturamento_ytd": 506549.98,
+          "media_mensal": 72364.28,
           "por_mes": {
             "2026-01": 114533.29,
             "2026-02": 23739.97,
-            "2026-03": 51542.0,
-            "2026-04": 47189.3,
-            "2026-05": 87226.05,
+            "2026-03": 50862.77,
+            "2026-04": 71096.0,
+            "2026-05": 82055.57,
             "2026-06": 93614.58,
-            "2026-07": 38637.4
+            "2026-07": 70647.8
           },
           "top_cidades": [
             {
@@ -1411,51 +1466,39 @@ const RAIOX_CLIENTES_DATA = {
           ]
         },
         "RJ-153": {
-          "total_clientes": 58,
+          "total_clientes": 49,
           "clientes_ativos_mes": 25,
-          "cobertura_pct": 43.1,
-          "faturamento_ytd": 1297940.47,
-          "media_mensal": 185420.07,
+          "cobertura_pct": 51.0,
+          "faturamento_ytd": 557269.56,
+          "media_mensal": 79609.94,
           "por_mes": {
-            "2026-01": 95594.88,
-            "2026-02": 54223.81,
-            "2026-03": 604337.73,
-            "2026-04": 67114.51,
-            "2026-05": 114079.54,
-            "2026-06": 273766.75,
-            "2026-07": 88823.25
+            "2026-01": 44695.26,
+            "2026-02": 52946.77,
+            "2026-03": 89791.49,
+            "2026-04": 65176.26,
+            "2026-05": 100883.14,
+            "2026-06": 106162.27,
+            "2026-07": 97614.36
           },
           "top_cidades": [
             {
               "cidade": "DUQUE DE CAXIAS",
-              "clientes": 30
+              "clientes": 28
             },
             {
               "cidade": "RIO DE JANEIRO",
-              "clientes": 8
+              "clientes": 7
             },
             {
               "cidade": "MAGE",
               "clientes": 4
             },
             {
-              "cidade": "NOVA IGUACU",
-              "clientes": 3
-            },
-            {
-              "cidade": "PETROPOLIS",
-              "clientes": 2
-            },
-            {
-              "cidade": "GUAPIMIRIM",
-              "clientes": 2
-            },
-            {
-              "cidade": "BELFORD ROXO",
+              "cidade": "ITAGUAI",
               "clientes": 1
             },
             {
-              "cidade": "MARICA",
+              "cidade": "GUAPIMIRIM",
               "clientes": 1
             },
             {
@@ -1463,34 +1506,46 @@ const RAIOX_CLIENTES_DATA = {
               "clientes": 1
             },
             {
-              "cidade": "ITAGUAI",
+              "cidade": "MARICA",
+              "clientes": 1
+            },
+            {
+              "cidade": "NILOPOLIS",
+              "clientes": 1
+            },
+            {
+              "cidade": "MIGUEL PEREIRA",
+              "clientes": 1
+            },
+            {
+              "cidade": "PETROPOLIS",
               "clientes": 1
             }
           ]
         },
         "RJ-155": {
-          "total_clientes": 27,
-          "clientes_ativos_mes": 12,
-          "cobertura_pct": 44.4,
-          "faturamento_ytd": 356376.29,
-          "media_mensal": 50910.9,
+          "total_clientes": 24,
+          "clientes_ativos_mes": 15,
+          "cobertura_pct": 62.5,
+          "faturamento_ytd": 349524.62,
+          "media_mensal": 49932.09,
           "por_mes": {
-            "2026-01": 108267.72,
-            "2026-02": 82621.19,
-            "2026-03": 53223.56,
-            "2026-04": 31947.62,
-            "2026-05": 18530.94,
+            "2026-01": 91990.35,
+            "2026-02": 81212.39,
+            "2026-03": 52231.4,
+            "2026-04": 31338.42,
+            "2026-05": 16943.46,
             "2026-06": 49638.1,
-            "2026-07": 12147.16
+            "2026-07": 26170.5
           },
           "top_cidades": [
             {
               "cidade": "ARMACAO DOS BUZ",
-              "clientes": 15
+              "clientes": 13
             },
             {
               "cidade": "CABO FRIO",
-              "clientes": 7
+              "clientes": 6
             },
             {
               "cidade": "ARARUAMA",
@@ -1515,24 +1570,24 @@ const RAIOX_CLIENTES_DATA = {
           ]
         },
         "RJ-156": {
-          "total_clientes": 63,
-          "clientes_ativos_mes": 16,
-          "cobertura_pct": 25.4,
-          "faturamento_ytd": 342495.47,
-          "media_mensal": 48927.92,
+          "total_clientes": 62,
+          "clientes_ativos_mes": 19,
+          "cobertura_pct": 30.6,
+          "faturamento_ytd": 351643.81,
+          "media_mensal": 50234.83,
           "por_mes": {
-            "2026-01": 70748.0,
-            "2026-02": 50350.58,
-            "2026-03": 48540.57,
-            "2026-04": 43339.98,
-            "2026-05": 41743.27,
+            "2026-01": 70777.04,
+            "2026-02": 51437.04,
+            "2026-03": 49132.61,
+            "2026-04": 43127.38,
+            "2026-05": 41226.37,
             "2026-06": 72479.8,
-            "2026-07": 15293.28
+            "2026-07": 23463.57
           },
           "top_cidades": [
             {
               "cidade": "RIO DE JANEIRO",
-              "clientes": 41
+              "clientes": 40
             },
             {
               "cidade": "DUQUE DE CAXIAS",
@@ -1569,24 +1624,24 @@ const RAIOX_CLIENTES_DATA = {
           ]
         },
         "RJ-158": {
-          "total_clientes": 22,
+          "total_clientes": 12,
           "clientes_ativos_mes": 7,
-          "cobertura_pct": 31.8,
-          "faturamento_ytd": 2320493.28,
-          "media_mensal": 331499.04,
+          "cobertura_pct": 58.3,
+          "faturamento_ytd": 2466145.08,
+          "media_mensal": 352306.44,
           "por_mes": {
             "2026-01": 392764.56,
             "2026-02": 320846.1,
             "2026-03": 382148.2,
             "2026-04": 569337.84,
-            "2026-05": 473289.97,
+            "2026-05": 447335.77,
             "2026-06": 78789.72,
-            "2026-07": 103316.89
+            "2026-07": 274922.89
           },
           "top_cidades": [
             {
               "cidade": "RIO DE JANEIRO",
-              "clientes": 20
+              "clientes": 10
             },
             {
               "cidade": "MESQUITA",
@@ -1599,19 +1654,19 @@ const RAIOX_CLIENTES_DATA = {
           ]
         },
         "RJ-159": {
-          "total_clientes": 25,
-          "clientes_ativos_mes": 13,
-          "cobertura_pct": 52.0,
-          "faturamento_ytd": 303489.18,
-          "media_mensal": 43355.6,
+          "total_clientes": 23,
+          "clientes_ativos_mes": 18,
+          "cobertura_pct": 78.3,
+          "faturamento_ytd": 323473.12,
+          "media_mensal": 46210.45,
           "por_mes": {
-            "2026-01": 64712.88,
-            "2026-02": 72980.94,
-            "2026-03": 52732.98,
-            "2026-04": 12536.16,
-            "2026-05": 34787.1,
+            "2026-01": 64295.38,
+            "2026-02": 61629.52,
+            "2026-03": 51771.44,
+            "2026-04": 32811.36,
+            "2026-05": 34111.14,
             "2026-06": 37941.66,
-            "2026-07": 27797.46
+            "2026-07": 40912.62
           },
           "top_cidades": [
             {
@@ -1619,27 +1674,19 @@ const RAIOX_CLIENTES_DATA = {
               "clientes": 9
             },
             {
-              "cidade": "CABO FRIO",
+              "cidade": "RIO DE JANEIRO",
               "clientes": 3
+            },
+            {
+              "cidade": "CABO FRIO",
+              "clientes": 2
             },
             {
               "cidade": "CASIMIRO DE ABR",
               "clientes": 2
             },
             {
-              "cidade": "RIO DE JANEIRO",
-              "clientes": 2
-            },
-            {
               "cidade": "ARARUAMA",
-              "clientes": 1
-            },
-            {
-              "cidade": "CAMPOS DOS GOYT",
-              "clientes": 1
-            },
-            {
-              "cidade": "ARRAIAL DO CABO",
               "clientes": 1
             },
             {
@@ -1652,6 +1699,14 @@ const RAIOX_CLIENTES_DATA = {
             },
             {
               "cidade": "ITABORAI",
+              "clientes": 1
+            },
+            {
+              "cidade": "PETROPOLIS",
+              "clientes": 1
+            },
+            {
+              "cidade": "RIO DAS OSTRAS",
               "clientes": 1
             }
           ]
@@ -1700,26 +1755,23 @@ const RAIOX_CLIENTES_DATA = {
         },
         "RJ-238": {
           "total_clientes": 6,
-          "clientes_ativos_mes": 0,
-          "cobertura_pct": 0.0,
-          "faturamento_ytd": 462005.88,
-          "media_mensal": 77000.98,
+          "clientes_ativos_mes": 2,
+          "cobertura_pct": 33.3,
+          "faturamento_ytd": 594363.54,
+          "media_mensal": 84909.08,
           "por_mes": {
             "2026-01": 1563.84,
-            "2026-02": 12407.52,
+            "2026-02": 7613.64,
             "2026-03": 183700.98,
-            "2026-04": 4852.26,
-            "2026-05": 5117.4,
-            "2026-06": 254363.88
+            "2026-04": 3861.06,
+            "2026-05": 4374.0,
+            "2026-06": 252117.72,
+            "2026-07": 141132.3
           },
           "top_cidades": [
             {
               "cidade": "RIO DE JANEIRO",
-              "clientes": 3
-            },
-            {
-              "cidade": "MESQUITA",
-              "clientes": 1
+              "clientes": 4
             },
             {
               "cidade": "NITEROI",
@@ -1732,19 +1784,19 @@ const RAIOX_CLIENTES_DATA = {
           ]
         },
         "RJ-241": {
-          "total_clientes": 17,
-          "clientes_ativos_mes": 4,
-          "cobertura_pct": 23.5,
-          "faturamento_ytd": 84667.36,
-          "media_mensal": 12095.34,
+          "total_clientes": 16,
+          "clientes_ativos_mes": 6,
+          "cobertura_pct": 37.5,
+          "faturamento_ytd": 73071.67,
+          "media_mensal": 10438.81,
           "por_mes": {
-            "2026-01": 25664.65,
-            "2026-02": 12552.4,
-            "2026-03": 11198.08,
-            "2026-04": 10527.23,
-            "2026-05": 3622.88,
+            "2026-01": 12270.98,
+            "2026-02": 11143.6,
+            "2026-03": 10373.68,
+            "2026-04": 7465.69,
+            "2026-05": 2412.8,
             "2026-06": 14226.6,
-            "2026-07": 6875.52
+            "2026-07": 15178.32
           },
           "top_cidades": [
             {
@@ -1754,10 +1806,6 @@ const RAIOX_CLIENTES_DATA = {
             {
               "cidade": "CABO FRIO",
               "clientes": 3
-            },
-            {
-              "cidade": "ARMACAO DOS BUZ",
-              "clientes": 1
             },
             {
               "cidade": "CASIMIRO DE ABR",
@@ -1770,39 +1818,43 @@ const RAIOX_CLIENTES_DATA = {
           ]
         },
         "RJ-275": {
-          "total_clientes": 50,
-          "clientes_ativos_mes": 25,
-          "cobertura_pct": 50.0,
-          "faturamento_ytd": 1882508.53,
-          "media_mensal": 268929.79,
+          "total_clientes": 53,
+          "clientes_ativos_mes": 35,
+          "cobertura_pct": 66.0,
+          "faturamento_ytd": 2095083.45,
+          "media_mensal": 299297.64,
           "por_mes": {
             "2026-01": 249225.72,
-            "2026-02": 330889.53,
-            "2026-03": 76119.24,
-            "2026-04": 391389.55,
-            "2026-05": 293842.63,
-            "2026-06": 232134.51,
-            "2026-07": 308907.35
+            "2026-02": 329574.33,
+            "2026-03": 83296.46,
+            "2026-04": 393977.61,
+            "2026-05": 274915.21,
+            "2026-06": 213961.33,
+            "2026-07": 550132.79
           },
           "top_cidades": [
+            {
+              "cidade": "RIO DE JANEIRO",
+              "clientes": 9
+            },
             {
               "cidade": "NOVA IGUACU",
               "clientes": 8
             },
             {
-              "cidade": "RIO DE JANEIRO",
-              "clientes": 8
-            },
-            {
               "cidade": "VOLTA REDONDA",
-              "clientes": 6
+              "clientes": 5
             },
             {
               "cidade": "RESENDE",
               "clientes": 3
             },
             {
-              "cidade": "ANGRA DOS REIS",
+              "cidade": "MESQUITA",
+              "clientes": 2
+            },
+            {
+              "cidade": "SAO PEDRO DA AL",
               "clientes": 2
             },
             {
@@ -1810,15 +1862,11 @@ const RAIOX_CLIENTES_DATA = {
               "clientes": 2
             },
             {
-              "cidade": "BARRA MANSA",
-              "clientes": 2
-            },
-            {
               "cidade": "TRES RIOS",
               "clientes": 2
             },
             {
-              "cidade": "MESQUITA",
+              "cidade": "ANGRA DOS REIS",
               "clientes": 2
             },
             {
@@ -1828,70 +1876,66 @@ const RAIOX_CLIENTES_DATA = {
           ]
         },
         "RJ-378": {
-          "total_clientes": 17,
-          "clientes_ativos_mes": 7,
-          "cobertura_pct": 41.2,
-          "faturamento_ytd": 210080.25,
-          "media_mensal": 30011.46,
+          "total_clientes": 15,
+          "clientes_ativos_mes": 10,
+          "cobertura_pct": 66.7,
+          "faturamento_ytd": 162938.87,
+          "media_mensal": 23276.98,
           "por_mes": {
-            "2026-01": 20957.18,
-            "2026-02": 43813.96,
+            "2026-01": 14154.58,
+            "2026-02": 42514.12,
             "2026-03": 41991.08,
-            "2026-04": 48467.25,
-            "2026-05": 11354.4,
-            "2026-06": 17957.27,
-            "2026-07": 25539.11
+            "2026-04": 36196.49,
+            "2026-05": 2969.12,
+            "2026-06": 14351.67,
+            "2026-07": 10761.81
           },
           "top_cidades": [
             {
               "cidade": "RIO DE JANEIRO",
-              "clientes": 16
-            },
-            {
-              "cidade": "PATY DO ALFERES",
-              "clientes": 1
+              "clientes": 15
             }
           ]
         },
         "RJ-379": {
-          "total_clientes": 55,
-          "clientes_ativos_mes": 27,
-          "cobertura_pct": 49.1,
-          "faturamento_ytd": 635128.42,
-          "media_mensal": 90732.63,
+          "total_clientes": 56,
+          "clientes_ativos_mes": 38,
+          "cobertura_pct": 67.9,
+          "faturamento_ytd": 662114.82,
+          "media_mensal": 94587.83,
           "por_mes": {
-            "2026-01": 33355.37,
+            "2026-01": 34980.65,
             "2026-02": 28592.39,
-            "2026-03": 411862.89,
-            "2026-04": 32518.65,
-            "2026-05": 41135.14,
-            "2026-06": 51674.87,
-            "2026-07": 35989.11
+            "2026-03": 414389.37,
+            "2026-04": 34020.85,
+            "2026-05": 40939.3,
+            "2026-06": 52432.67,
+            "2026-07": 56759.59
           },
           "top_cidades": [
             {
               "cidade": "SAO JOAO DE MER",
-              "clientes": 22
+              "clientes": 21
             },
             {
               "cidade": "RIO DE JANEIRO",
-              "clientes": 12
+              "clientes": 13
             },
             {
               "cidade": "NILOPOLIS",
-              "clientes": 7
+              "clientes": 6
+            },
+            {
+              "cidade": "BELFORD ROXO",
+              "clientes": 5
             },
             {
               "cidade": "MESQUITA",
               "clientes": 5
             },
             {
-              "cidade": "BELFORD ROXO",
-              "clientes": 4
-            },
-            {
               "cidade": "NOVA IGUACU",
-              "clientes": 4
+              "clientes": 5
             },
             {
               "cidade": "DUQUE DE CAXIAS",
@@ -1900,7 +1944,7 @@ const RAIOX_CLIENTES_DATA = {
           ]
         },
         "RJ-405": {
-          "total_clientes": 2,
+          "total_clientes": 1,
           "clientes_ativos_mes": 0,
           "cobertura_pct": 0.0,
           "faturamento_ytd": 0.0,
@@ -1909,29 +1953,29 @@ const RAIOX_CLIENTES_DATA = {
           "top_cidades": [
             {
               "cidade": "RIO DAS OSTRAS",
-              "clientes": 2
+              "clientes": 1
             }
           ]
         },
         "RJ-412": {
-          "total_clientes": 45,
-          "clientes_ativos_mes": 21,
-          "cobertura_pct": 46.7,
-          "faturamento_ytd": 392629.98,
-          "media_mensal": 56090.0,
+          "total_clientes": 46,
+          "clientes_ativos_mes": 28,
+          "cobertura_pct": 60.9,
+          "faturamento_ytd": 409029.82,
+          "media_mensal": 58432.83,
           "por_mes": {
-            "2026-01": 15955.49,
-            "2026-02": 72200.42,
-            "2026-03": 23100.4,
-            "2026-04": 42348.17,
-            "2026-05": 55148.04,
+            "2026-01": 14111.08,
+            "2026-02": 70969.74,
+            "2026-03": 22290.6,
+            "2026-04": 42303.87,
+            "2026-05": 54714.04,
             "2026-06": 134501.13,
-            "2026-07": 49376.32
+            "2026-07": 70139.35
           },
           "top_cidades": [
             {
               "cidade": "RIO DE JANEIRO",
-              "clientes": 41
+              "clientes": 42
             },
             {
               "cidade": "DUQUE DE CAXIAS",
@@ -1952,32 +1996,24 @@ const RAIOX_CLIENTES_DATA = {
           ]
         },
         "RJ-419": {
-          "total_clientes": 24,
-          "clientes_ativos_mes": 4,
-          "cobertura_pct": 16.7,
-          "faturamento_ytd": 244321.34,
-          "media_mensal": 34903.05,
+          "total_clientes": 20,
+          "clientes_ativos_mes": 10,
+          "cobertura_pct": 50.0,
+          "faturamento_ytd": 244787.8,
+          "media_mensal": 34969.69,
           "por_mes": {
-            "2026-01": 37918.41,
-            "2026-02": 22448.21,
+            "2026-01": 37377.81,
+            "2026-02": 16468.67,
             "2026-03": 48962.3,
-            "2026-04": 40988.66,
-            "2026-05": 69625.76,
+            "2026-04": 40450.46,
+            "2026-05": 66087.5,
             "2026-06": 19211.2,
-            "2026-07": 5166.8
+            "2026-07": 16229.86
           },
           "top_cidades": [
             {
               "cidade": "RIO DE JANEIRO",
-              "clientes": 22
-            },
-            {
-              "cidade": "NILOPOLIS",
-              "clientes": 1
-            },
-            {
-              "cidade": "NOVA IGUACU",
-              "clientes": 1
+              "clientes": 20
             }
           ]
         },
@@ -2001,24 +2037,28 @@ const RAIOX_CLIENTES_DATA = {
           ]
         },
         "RJ-431": {
-          "total_clientes": 48,
-          "clientes_ativos_mes": 14,
-          "cobertura_pct": 29.2,
-          "faturamento_ytd": 329732.32,
-          "media_mensal": 47104.62,
+          "total_clientes": 34,
+          "clientes_ativos_mes": 21,
+          "cobertura_pct": 61.8,
+          "faturamento_ytd": 329759.7,
+          "media_mensal": 47108.53,
           "por_mes": {
-            "2026-01": 8736.5,
-            "2026-02": 237498.43,
-            "2026-03": 15774.2,
-            "2026-04": 18646.03,
-            "2026-05": 20377.52,
-            "2026-06": 17347.4,
-            "2026-07": 11352.26
+            "2026-01": 8440.01,
+            "2026-02": 237222.47,
+            "2026-03": 15459.0,
+            "2026-04": 16920.21,
+            "2026-05": 15758.64,
+            "2026-06": 16968.2,
+            "2026-07": 18991.18
           },
           "top_cidades": [
             {
               "cidade": "RIO DE JANEIRO",
-              "clientes": 46
+              "clientes": 31
+            },
+            {
+              "cidade": "DUQUE DE CAXIAS",
+              "clientes": 1
             },
             {
               "cidade": "PETROPOLIS",
@@ -2031,24 +2071,24 @@ const RAIOX_CLIENTES_DATA = {
           ]
         },
         "RJ-439": {
-          "total_clientes": 36,
-          "clientes_ativos_mes": 7,
-          "cobertura_pct": 19.4,
-          "faturamento_ytd": 327994.54,
-          "media_mensal": 46856.36,
+          "total_clientes": 34,
+          "clientes_ativos_mes": 13,
+          "cobertura_pct": 38.2,
+          "faturamento_ytd": 340288.06,
+          "media_mensal": 48612.58,
           "por_mes": {
             "2026-01": 142045.22,
-            "2026-02": 13136.35,
-            "2026-03": 55945.59,
-            "2026-04": 35342.62,
+            "2026-02": 12689.47,
+            "2026-03": 53739.95,
+            "2026-04": 33441.82,
             "2026-05": 41153.36,
-            "2026-06": 32432.84,
-            "2026-07": 7938.57
+            "2026-06": 31118.48,
+            "2026-07": 26099.77
           },
           "top_cidades": [
             {
               "cidade": "ANGRA DOS REIS",
-              "clientes": 28
+              "clientes": 26
             },
             {
               "cidade": "PARATI",
@@ -2065,19 +2105,19 @@ const RAIOX_CLIENTES_DATA = {
           ]
         },
         "RJ-450": {
-          "total_clientes": 62,
-          "clientes_ativos_mes": 41,
-          "cobertura_pct": 66.1,
-          "faturamento_ytd": 832792.09,
-          "media_mensal": 118970.3,
+          "total_clientes": 59,
+          "clientes_ativos_mes": 49,
+          "cobertura_pct": 83.1,
+          "faturamento_ytd": 854354.35,
+          "media_mensal": 122050.62,
           "por_mes": {
             "2026-01": 28571.46,
-            "2026-02": 77622.82,
+            "2026-02": 80160.7,
             "2026-03": 63261.6,
-            "2026-04": 70469.53,
-            "2026-05": 182991.97,
-            "2026-06": 237507.2,
-            "2026-07": 172367.51
+            "2026-04": 71089.33,
+            "2026-05": 162773.16,
+            "2026-06": 234164.12,
+            "2026-07": 214333.98
           },
           "top_cidades": [
             {
@@ -2086,31 +2126,27 @@ const RAIOX_CLIENTES_DATA = {
             },
             {
               "cidade": "NITEROI",
-              "clientes": 10
+              "clientes": 9
             },
             {
               "cidade": "SAO GONCALO",
-              "clientes": 7
-            },
-            {
-              "cidade": "SAQUAREMA",
-              "clientes": 6
+              "clientes": 8
             },
             {
               "cidade": "MARICA",
               "clientes": 6
             },
             {
-              "cidade": "ITABORAI",
-              "clientes": 4
+              "cidade": "SAQUAREMA",
+              "clientes": 6
             },
             {
               "cidade": "SAO JOAO DE MER",
               "clientes": 4
             },
             {
-              "cidade": "NOVA IGUACU",
-              "clientes": 2
+              "cidade": "ITABORAI",
+              "clientes": 3
             },
             {
               "cidade": "DUQUE DE CAXIAS",
@@ -2119,11 +2155,15 @@ const RAIOX_CLIENTES_DATA = {
             {
               "cidade": "PETROPOLIS",
               "clientes": 2
+            },
+            {
+              "cidade": "NOVA IGUACU",
+              "clientes": 2
             }
           ]
         },
         "RJ-460": {
-          "total_clientes": 2,
+          "total_clientes": 1,
           "clientes_ativos_mes": 0,
           "cobertura_pct": 0.0,
           "faturamento_ytd": 0.0,
@@ -2132,50 +2172,47 @@ const RAIOX_CLIENTES_DATA = {
           "top_cidades": [
             {
               "cidade": "RIO DE JANEIRO",
-              "clientes": 2
+              "clientes": 1
             }
           ]
         },
         "RJ-471": {
-          "total_clientes": 23,
-          "clientes_ativos_mes": 14,
-          "cobertura_pct": 60.9,
-          "faturamento_ytd": 104512.5,
-          "media_mensal": 14930.36,
+          "total_clientes": 24,
+          "clientes_ativos_mes": 21,
+          "cobertura_pct": 87.5,
+          "faturamento_ytd": 121014.51,
+          "media_mensal": 17287.79,
           "por_mes": {
-            "2026-01": 1793.0,
-            "2026-02": 2313.6,
-            "2026-03": 17067.65,
-            "2026-04": 21208.44,
-            "2026-05": 31992.95,
-            "2026-06": 19720.62,
-            "2026-07": 10416.24
+            "2026-01": 3746.72,
+            "2026-02": 3847.92,
+            "2026-03": 20025.52,
+            "2026-04": 22057.44,
+            "2026-05": 32202.65,
+            "2026-06": 20283.22,
+            "2026-07": 18851.04
           },
           "top_cidades": [
             {
               "cidade": "RIO DE JANEIRO",
-              "clientes": 23
+              "clientes": 24
             }
           ]
         },
         "SP-232": {
-          "total_clientes": 3,
-          "clientes_ativos_mes": 0,
-          "cobertura_pct": 0.0,
-          "faturamento_ytd": 5375267.39,
-          "media_mensal": 1075053.48,
+          "total_clientes": 1,
+          "clientes_ativos_mes": 1,
+          "cobertura_pct": 100.0,
+          "faturamento_ytd": 6112401.38,
+          "media_mensal": 1018733.56,
           "por_mes": {
             "2026-02": 887225.52,
             "2026-03": 1816223.24,
             "2026-04": 200869.92,
             "2026-05": 995728.92,
-            "2026-06": 1475219.79
+            "2026-06": 1473430.8,
+            "2026-07": 738922.98
           },
           "top_cidades": [
-            {
-              "cidade": "SAO PAULO",
-              "clientes": 2
-            },
             {
               "cidade": "ARUJA",
               "clientes": 1
@@ -2183,19 +2220,18 @@ const RAIOX_CLIENTES_DATA = {
           ]
         },
         "SP-310": {
-          "total_clientes": 2,
+          "total_clientes": 1,
           "clientes_ativos_mes": 0,
           "cobertura_pct": 0.0,
-          "faturamento_ytd": 154968.0,
-          "media_mensal": 77484.0,
+          "faturamento_ytd": 111372.0,
+          "media_mensal": 111372.0,
           "por_mes": {
-            "2026-04": 43596.0,
             "2026-06": 111372.0
           },
           "top_cidades": [
             {
               "cidade": "BRASILIA",
-              "clientes": 2
+              "clientes": 1
             }
           ]
         },
@@ -2203,8 +2239,8 @@ const RAIOX_CLIENTES_DATA = {
           "total_clientes": 13,
           "clientes_ativos_mes": 13,
           "cobertura_pct": 100.0,
-          "faturamento_ytd": 486292.84,
-          "media_mensal": 69470.41,
+          "faturamento_ytd": 494324.68,
+          "media_mensal": 70617.81,
           "por_mes": {
             "2026-01": 136344.9,
             "2026-02": 92684.04,
@@ -2212,7 +2248,7 @@ const RAIOX_CLIENTES_DATA = {
             "2026-04": 45239.34,
             "2026-05": 56140.11,
             "2026-06": 36958.78,
-            "2026-07": 55764.28
+            "2026-07": 63796.12
           },
           "top_cidades": [
             {
@@ -2261,12 +2297,12 @@ const RAIOX_CLIENTES_DATA = {
           "total_clientes": 1,
           "clientes_ativos_mes": 1,
           "cobertura_pct": 100.0,
-          "faturamento_ytd": 473419.2,
-          "media_mensal": 157806.4,
+          "faturamento_ytd": 1859864.64,
+          "media_mensal": 619954.88,
           "por_mes": {
             "2026-01": 30780.0,
             "2026-02": 5016.0,
-            "2026-07": 437623.2
+            "2026-07": 1824068.64
           },
           "top_cidades": [
             {
@@ -2295,40 +2331,36 @@ const RAIOX_CLIENTES_DATA = {
           ]
         },
         "SP-371": {
-          "total_clientes": 40,
-          "clientes_ativos_mes": 9,
-          "cobertura_pct": 22.5,
-          "faturamento_ytd": 2721718.98,
-          "media_mensal": 388817.0,
+          "total_clientes": 34,
+          "clientes_ativos_mes": 17,
+          "cobertura_pct": 50.0,
+          "faturamento_ytd": 2790863.69,
+          "media_mensal": 398694.81,
           "por_mes": {
             "2026-01": 174676.92,
             "2026-02": 738897.72,
             "2026-03": 765066.74,
             "2026-04": 365398.14,
-            "2026-05": 485373.17,
-            "2026-06": 177782.39,
-            "2026-07": 14523.9
+            "2026-05": 479705.81,
+            "2026-06": 177176.98,
+            "2026-07": 89941.38
           },
           "top_cidades": [
             {
               "cidade": "SAO PAULO",
-              "clientes": 26
+              "clientes": 24
             },
             {
               "cidade": "TABOAO DA SERRA",
               "clientes": 4
             },
             {
-              "cidade": "OSASCO",
-              "clientes": 3
-            },
-            {
               "cidade": "EMBU",
               "clientes": 3
             },
             {
-              "cidade": "ITAPECERICA DA SERRA",
-              "clientes": 3
+              "cidade": "OSASCO",
+              "clientes": 2
             },
             {
               "cidade": "GUARUJA",
@@ -2337,43 +2369,27 @@ const RAIOX_CLIENTES_DATA = {
           ]
         },
         "SP-391": {
-          "total_clientes": 22,
-          "clientes_ativos_mes": 5,
-          "cobertura_pct": 22.7,
-          "faturamento_ytd": 6275776.62,
-          "media_mensal": 896539.52,
+          "total_clientes": 25,
+          "clientes_ativos_mes": 10,
+          "cobertura_pct": 40.0,
+          "faturamento_ytd": 7263426.97,
+          "media_mensal": 1037632.42,
           "por_mes": {
-            "2026-01": 14511.48,
+            "2026-01": 17196.88,
             "2026-02": 1019852.17,
-            "2026-03": 1873275.39,
-            "2026-04": 440808.42,
-            "2026-05": 1108818.47,
-            "2026-06": 1790856.69,
-            "2026-07": 27654.0
+            "2026-03": 1873069.89,
+            "2026-04": 624585.43,
+            "2026-05": 1133621.19,
+            "2026-06": 1802940.99,
+            "2026-07": 792160.42
           },
           "top_cidades": [
             {
               "cidade": "SAO PAULO",
-              "clientes": 15
+              "clientes": 22
             },
             {
               "cidade": "ARUJA",
-              "clientes": 1
-            },
-            {
-              "cidade": "BOM JESUS DOS PERDOES",
-              "clientes": 1
-            },
-            {
-              "cidade": "ATIBAIA",
-              "clientes": 1
-            },
-            {
-              "cidade": "BRAGANCA PAULISTA",
-              "clientes": 1
-            },
-            {
-              "cidade": "COTIA",
               "clientes": 1
             },
             {
@@ -2387,19 +2403,19 @@ const RAIOX_CLIENTES_DATA = {
           ]
         },
         "SP-399": {
-          "total_clientes": 289,
-          "clientes_ativos_mes": 20,
-          "cobertura_pct": 6.9,
-          "faturamento_ytd": 12120506.45,
-          "media_mensal": 1731500.92,
+          "total_clientes": 302,
+          "clientes_ativos_mes": 31,
+          "cobertura_pct": 10.3,
+          "faturamento_ytd": 24722011.83,
+          "media_mensal": 3531715.98,
           "por_mes": {
-            "2026-01": 1936761.28,
-            "2026-02": 812981.32,
-            "2026-03": 1215371.47,
-            "2026-04": 1905273.07,
-            "2026-05": 2089582.01,
-            "2026-06": 2629603.98,
-            "2026-07": 1530933.33
+            "2026-01": 3320820.38,
+            "2026-02": 2427219.45,
+            "2026-03": 3810910.08,
+            "2026-04": 3614120.57,
+            "2026-05": 3110330.14,
+            "2026-06": 4822449.17,
+            "2026-07": 3616162.05
           },
           "top_cidades": [
             {
@@ -2408,11 +2424,15 @@ const RAIOX_CLIENTES_DATA = {
             },
             {
               "cidade": "SAO PAULO",
-              "clientes": 62
+              "clientes": 70
             },
             {
               "cidade": "NITEROI",
               "clientes": 7
+            },
+            {
+              "cidade": "CAMPINAS",
+              "clientes": 5
             },
             {
               "cidade": "DUQUE DE CAXIAS",
@@ -2427,47 +2447,51 @@ const RAIOX_CLIENTES_DATA = {
               "clientes": 3
             },
             {
+              "cidade": "GUARULHOS",
+              "clientes": 3
+            },
+            {
+              "cidade": "INDAIATUBA",
+              "clientes": 3
+            },
+            {
               "cidade": "ANGRA DOS REIS",
               "clientes": 3
-            },
-            {
-              "cidade": "CAMPINAS",
-              "clientes": 3
-            },
-            {
-              "cidade": "ARARUAMA",
-              "clientes": 2
-            },
-            {
-              "cidade": "ARMACAO DOS BUZ",
-              "clientes": 2
             }
           ]
         },
         "SP-425": {
-          "total_clientes": 20,
-          "clientes_ativos_mes": 13,
-          "cobertura_pct": 65.0,
-          "faturamento_ytd": 468065.84,
-          "media_mensal": 93613.17,
+          "total_clientes": 28,
+          "clientes_ativos_mes": 19,
+          "cobertura_pct": 67.9,
+          "faturamento_ytd": 489616.34,
+          "media_mensal": 97923.27,
           "por_mes": {
             "2026-03": 2881.55,
-            "2026-04": 294222.12,
-            "2026-05": 50748.83,
-            "2026-06": 38752.81,
-            "2026-07": 81460.53
+            "2026-04": 296316.72,
+            "2026-05": 54162.83,
+            "2026-06": 42046.81,
+            "2026-07": 94208.43
           },
           "top_cidades": [
+            {
+              "cidade": "CAMPINAS",
+              "clientes": 6
+            },
             {
               "cidade": "RIO CLARO",
               "clientes": 6
             },
             {
-              "cidade": "CAMPINAS",
-              "clientes": 4
+              "cidade": "VALINHOS",
+              "clientes": 3
             },
             {
               "cidade": "AMERICANA",
+              "clientes": 3
+            },
+            {
+              "cidade": "LIMEIRA",
               "clientes": 2
             },
             {
@@ -2475,11 +2499,7 @@ const RAIOX_CLIENTES_DATA = {
               "clientes": 2
             },
             {
-              "cidade": "LIMEIRA",
-              "clientes": 2
-            },
-            {
-              "cidade": "NOVA ODESSA",
+              "cidade": "HOLAMBRA",
               "clientes": 1
             },
             {
@@ -2487,41 +2507,45 @@ const RAIOX_CLIENTES_DATA = {
               "clientes": 1
             },
             {
-              "cidade": "SANTA GERTRUDES",
+              "cidade": "RIBEIRAO PRETO",
               "clientes": 1
             },
             {
-              "cidade": "VALINHOS",
+              "cidade": "PIRACICABA",
               "clientes": 1
             }
           ]
         },
         "SP-426": {
-          "total_clientes": 55,
-          "clientes_ativos_mes": 27,
-          "cobertura_pct": 49.1,
-          "faturamento_ytd": 5134734.29,
-          "media_mensal": 733533.47,
+          "total_clientes": 49,
+          "clientes_ativos_mes": 31,
+          "cobertura_pct": 63.3,
+          "faturamento_ytd": 5408358.01,
+          "media_mensal": 772622.57,
           "por_mes": {
             "2026-01": 515286.26,
             "2026-02": 324639.28,
-            "2026-03": 475549.08,
-            "2026-04": 987708.08,
-            "2026-05": 1338831.54,
-            "2026-06": 883911.97,
-            "2026-07": 608808.07
+            "2026-03": 505296.48,
+            "2026-04": 982205.3,
+            "2026-05": 1312295.94,
+            "2026-06": 871923.97,
+            "2026-07": 896710.77
           },
           "top_cidades": [
             {
               "cidade": "SAO PAULO",
-              "clientes": 15
+              "clientes": 16
             },
             {
               "cidade": "LIMEIRA",
-              "clientes": 8
+              "clientes": 7
             },
             {
-              "cidade": "ASSIS",
+              "cidade": "BROTAS",
+              "clientes": 2
+            },
+            {
+              "cidade": "GUARULHOS",
               "clientes": 2
             },
             {
@@ -2529,11 +2553,7 @@ const RAIOX_CLIENTES_DATA = {
               "clientes": 2
             },
             {
-              "cidade": "PIRACICABA",
-              "clientes": 2
-            },
-            {
-              "cidade": "RIBEIRAO PRETO",
+              "cidade": "DOIS CORREGOS",
               "clientes": 2
             },
             {
@@ -2541,12 +2561,12 @@ const RAIOX_CLIENTES_DATA = {
               "clientes": 2
             },
             {
-              "cidade": "DOIS CORREGOS",
-              "clientes": 2
+              "cidade": "CATANDUVA",
+              "clientes": 1
             },
             {
-              "cidade": "GUARULHOS",
-              "clientes": 2
+              "cidade": "CARAPICUIBA",
+              "clientes": 1
             },
             {
               "cidade": "BARRA BONITA",
@@ -2577,73 +2597,65 @@ const RAIOX_CLIENTES_DATA = {
           ]
         },
         "SP-429": {
-          "total_clientes": 2,
+          "total_clientes": 1,
           "clientes_ativos_mes": 1,
-          "cobertura_pct": 50.0,
-          "faturamento_ytd": 95674.4,
-          "media_mensal": 13667.77,
+          "cobertura_pct": 100.0,
+          "faturamento_ytd": 79858.4,
+          "media_mensal": 11408.34,
           "por_mes": {
             "2026-01": 8472.7,
             "2026-02": 467.4,
             "2026-03": 16938.7,
             "2026-04": 13678.2,
-            "2026-05": 44150.4,
+            "2026-05": 28334.4,
             "2026-06": 5030.5,
             "2026-07": 6936.5
           },
           "top_cidades": [
             {
               "cidade": "SAO PAULO",
-              "clientes": 2
+              "clientes": 1
             }
           ]
         },
         "SP-433": {
-          "total_clientes": 44,
-          "clientes_ativos_mes": 17,
-          "cobertura_pct": 38.6,
-          "faturamento_ytd": 284621.1,
-          "media_mensal": 40660.16,
+          "total_clientes": 27,
+          "clientes_ativos_mes": 20,
+          "cobertura_pct": 74.1,
+          "faturamento_ytd": 298070.76,
+          "media_mensal": 42581.54,
           "por_mes": {
             "2026-01": 3543.72,
             "2026-02": 3461.52,
             "2026-03": 68202.96,
-            "2026-04": 39182.82,
-            "2026-05": 33850.02,
-            "2026-06": 91384.44,
-            "2026-07": 44995.62
+            "2026-04": 35104.02,
+            "2026-05": 22934.82,
+            "2026-06": 73791.0,
+            "2026-07": 91032.72
           },
           "top_cidades": [
             {
               "cidade": "SAO PAULO",
-              "clientes": 24
-            },
-            {
-              "cidade": "TUPA",
-              "clientes": 2
+              "clientes": 9
             },
             {
               "cidade": "COTIA",
               "clientes": 2
             },
             {
-              "cidade": "RIBEIRAO PRETO",
+              "cidade": "SAO CARLOS",
               "clientes": 2
             },
             {
-              "cidade": "LIMEIRA",
+              "cidade": "TUPA",
               "clientes": 2
-            },
-            {
-              "cidade": "AMERICO BRASILIENSE",
-              "clientes": 1
             },
             {
               "cidade": "GUARULHOS",
               "clientes": 1
             },
             {
-              "cidade": "DOIS CORREGOS",
+              "cidade": "AMERICO BRASILIENSE",
               "clientes": 1
             },
             {
@@ -2651,27 +2663,31 @@ const RAIOX_CLIENTES_DATA = {
               "clientes": 1
             },
             {
+              "cidade": "DOIS CORREGOS",
+              "clientes": 1
+            },
+            {
               "cidade": "JAGUARIUNA",
+              "clientes": 1
+            },
+            {
+              "cidade": "ITAPECERICA DA SERRA",
               "clientes": 1
             }
           ]
         },
         "SP-438": {
-          "total_clientes": 5,
+          "total_clientes": 2,
           "clientes_ativos_mes": 0,
           "cobertura_pct": 0.0,
-          "faturamento_ytd": 391062.04,
-          "media_mensal": 130354.01,
+          "faturamento_ytd": 259612.8,
+          "media_mensal": 86537.6,
           "por_mes": {
-            "2026-04": 127405.64,
-            "2026-05": 251506.7,
-            "2026-06": 12149.7
+            "2026-04": 32256.0,
+            "2026-05": 226842.0,
+            "2026-06": 514.8
           },
           "top_cidades": [
-            {
-              "cidade": "SAO PAULO",
-              "clientes": 3
-            },
             {
               "cidade": "COTIA",
               "clientes": 1
@@ -2683,20 +2699,20 @@ const RAIOX_CLIENTES_DATA = {
           ]
         },
         "SP-460": {
-          "total_clientes": 27,
-          "clientes_ativos_mes": 16,
-          "cobertura_pct": 59.3,
-          "faturamento_ytd": 178348.01,
-          "media_mensal": 59449.34,
+          "total_clientes": 31,
+          "clientes_ativos_mes": 20,
+          "cobertura_pct": 64.5,
+          "faturamento_ytd": 222142.55,
+          "media_mensal": 74047.52,
           "por_mes": {
-            "2026-05": 41471.95,
+            "2026-05": 41221.15,
             "2026-06": 94761.69,
-            "2026-07": 42114.37
+            "2026-07": 86159.71
           },
           "top_cidades": [
             {
               "cidade": "SAO JOSE DOS CAMPOS",
-              "clientes": 17
+              "clientes": 19
             },
             {
               "cidade": "ITANHAEM",
@@ -2707,15 +2723,15 @@ const RAIOX_CLIENTES_DATA = {
               "clientes": 2
             },
             {
+              "cidade": "PINDAMONHANGABA",
+              "clientes": 2
+            },
+            {
               "cidade": "CRUZEIRO",
-              "clientes": 1
+              "clientes": 2
             },
             {
               "cidade": "CAMPOS DO JORDAO",
-              "clientes": 1
-            },
-            {
-              "cidade": "PINDAMONHANGABA",
               "clientes": 1
             },
             {
@@ -2725,31 +2741,32 @@ const RAIOX_CLIENTES_DATA = {
           ]
         },
         "SP-461": {
-          "total_clientes": 15,
-          "clientes_ativos_mes": 9,
-          "cobertura_pct": 60.0,
-          "faturamento_ytd": 224812.21,
-          "media_mensal": 37468.7,
+          "total_clientes": 17,
+          "clientes_ativos_mes": 12,
+          "cobertura_pct": 70.6,
+          "faturamento_ytd": 284842.09,
+          "media_mensal": 40691.73,
           "por_mes": {
-            "2026-01": 7524.0,
-            "2026-03": 7524.0,
-            "2026-04": 23943.48,
-            "2026-05": 53683.63,
-            "2026-06": 78193.69,
-            "2026-07": 53943.41
+            "2026-01": 14014.08,
+            "2026-02": 4156.68,
+            "2026-03": 17759.68,
+            "2026-04": 28655.22,
+            "2026-05": 56589.33,
+            "2026-06": 82269.79,
+            "2026-07": 81397.31
           },
           "top_cidades": [
+            {
+              "cidade": "FERRAZ DE VASCONCELOS",
+              "clientes": 6
+            },
             {
               "cidade": "SAO PAULO",
               "clientes": 6
             },
             {
-              "cidade": "FERRAZ DE VASCONCELOS",
-              "clientes": 5
-            },
-            {
               "cidade": "MOGI DAS CRUZES",
-              "clientes": 2
+              "clientes": 3
             },
             {
               "cidade": "ITAQUAQUECETUBA",
@@ -2765,13 +2782,13 @@ const RAIOX_CLIENTES_DATA = {
           "total_clientes": 1,
           "clientes_ativos_mes": 1,
           "cobertura_pct": 100.0,
-          "faturamento_ytd": 358566.76,
-          "media_mensal": 89641.69,
+          "faturamento_ytd": 394701.16,
+          "media_mensal": 98675.29,
           "por_mes": {
             "2026-04": 28176.0,
             "2026-05": 121577.16,
             "2026-06": 165876.4,
-            "2026-07": 42937.2
+            "2026-07": 79071.6
           },
           "top_cidades": [
             {
@@ -2781,23 +2798,27 @@ const RAIOX_CLIENTES_DATA = {
           ]
         },
         "SP-463": {
-          "total_clientes": 22,
-          "clientes_ativos_mes": 4,
-          "cobertura_pct": 18.2,
-          "faturamento_ytd": 78494.88,
-          "media_mensal": 26164.96,
+          "total_clientes": 24,
+          "clientes_ativos_mes": 6,
+          "cobertura_pct": 25.0,
+          "faturamento_ytd": 80979.27,
+          "media_mensal": 26993.09,
           "por_mes": {
             "2026-05": 33526.66,
             "2026-06": 42664.58,
-            "2026-07": 2303.64
+            "2026-07": 4788.04
           },
           "top_cidades": [
             {
               "cidade": "MOGI DAS CRUZES",
-              "clientes": 14
+              "clientes": 15
             },
             {
               "cidade": "BIRITIBA MIRIM",
+              "clientes": 2
+            },
+            {
+              "cidade": "SANTA BRANCA",
               "clientes": 2
             },
             {
@@ -2810,10 +2831,6 @@ const RAIOX_CLIENTES_DATA = {
             },
             {
               "cidade": "SALESOPOLIS",
-              "clientes": 1
-            },
-            {
-              "cidade": "SANTA BRANCA",
               "clientes": 1
             },
             {
@@ -2830,10 +2847,10 @@ const RAIOX_CLIENTES_DATA = {
           "total_clientes": 7,
           "clientes_ativos_mes": 1,
           "cobertura_pct": 14.3,
-          "faturamento_ytd": 10069.56,
-          "media_mensal": 5034.78,
+          "faturamento_ytd": 9772.86,
+          "media_mensal": 4886.43,
           "por_mes": {
-            "2026-05": 9333.62,
+            "2026-05": 9036.92,
             "2026-07": 735.94
           },
           "top_cidades": [
@@ -2843,25 +2860,29 @@ const RAIOX_CLIENTES_DATA = {
             },
             {
               "cidade": "SANTO ANDRE",
-              "clientes": 2
+              "clientes": 1
+            },
+            {
+              "cidade": "SAO BERNARDO DO CAMPO",
+              "clientes": 1
             }
           ]
         },
         "SP-465": {
-          "total_clientes": 10,
+          "total_clientes": 8,
           "clientes_ativos_mes": 2,
-          "cobertura_pct": 20.0,
-          "faturamento_ytd": 9851.0,
-          "media_mensal": 3283.67,
+          "cobertura_pct": 25.0,
+          "faturamento_ytd": 8868.3,
+          "media_mensal": 2956.1,
           "por_mes": {
-            "2026-05": 4659.58,
+            "2026-05": 3676.88,
             "2026-06": 4585.48,
             "2026-07": 605.94
           },
           "top_cidades": [
             {
               "cidade": "TAUBATE",
-              "clientes": 7
+              "clientes": 5
             },
             {
               "cidade": "CACAPAVA",
@@ -2878,16 +2899,16 @@ const RAIOX_CLIENTES_DATA = {
           ]
         },
         "SP-466": {
-          "total_clientes": 17,
-          "clientes_ativos_mes": 8,
-          "cobertura_pct": 47.1,
-          "faturamento_ytd": 58547.06,
-          "media_mensal": 14636.77,
+          "total_clientes": 11,
+          "clientes_ativos_mes": 9,
+          "cobertura_pct": 81.8,
+          "faturamento_ytd": 64179.76,
+          "media_mensal": 16044.94,
           "por_mes": {
             "2026-04": 5838.24,
             "2026-05": 18875.57,
             "2026-06": 19364.46,
-            "2026-07": 14468.79
+            "2026-07": 20101.49
           },
           "top_cidades": [
             {
@@ -2903,51 +2924,31 @@ const RAIOX_CLIENTES_DATA = {
               "clientes": 2
             },
             {
-              "cidade": "CRUZEIRO",
-              "clientes": 1
-            },
-            {
-              "cidade": "CACHOEIRA PAULISTA",
-              "clientes": 1
-            },
-            {
-              "cidade": "JACAREI",
-              "clientes": 1
-            },
-            {
               "cidade": "MOGI DAS CRUZES",
               "clientes": 1
             },
             {
               "cidade": "PIQUETE",
               "clientes": 1
-            },
-            {
-              "cidade": "SAO JOSE DOS CAMPOS",
-              "clientes": 1
-            },
-            {
-              "cidade": "SILVEIRAS",
-              "clientes": 1
             }
           ]
         },
         "SP-467": {
-          "total_clientes": 6,
-          "clientes_ativos_mes": 3,
-          "cobertura_pct": 50.0,
-          "faturamento_ytd": 139551.42,
-          "media_mensal": 34887.85,
+          "total_clientes": 7,
+          "clientes_ativos_mes": 6,
+          "cobertura_pct": 85.7,
+          "faturamento_ytd": 182085.54,
+          "media_mensal": 45521.38,
           "por_mes": {
             "2026-04": 752.4,
             "2026-05": 94180.76,
             "2026-06": 32675.56,
-            "2026-07": 11942.7
+            "2026-07": 54476.82
           },
           "top_cidades": [
             {
               "cidade": "GUARULHOS",
-              "clientes": 4
+              "clientes": 5
             },
             {
               "cidade": "SANTO ANDRE",
@@ -2960,103 +2961,87 @@ const RAIOX_CLIENTES_DATA = {
           ]
         },
         "SP-468": {
-          "total_clientes": 22,
-          "clientes_ativos_mes": 8,
-          "cobertura_pct": 36.4,
-          "faturamento_ytd": 623156.1,
-          "media_mensal": 89022.3,
+          "total_clientes": 29,
+          "clientes_ativos_mes": 19,
+          "cobertura_pct": 65.5,
+          "faturamento_ytd": 652303.9,
+          "media_mensal": 93186.27,
           "por_mes": {
             "2026-01": 137100.91,
             "2026-02": 48290.7,
             "2026-03": 57450.0,
             "2026-04": 56896.92,
-            "2026-05": 170313.57,
+            "2026-05": 168628.77,
             "2026-06": 44136.12,
-            "2026-07": 108967.88
+            "2026-07": 139800.48
           },
           "top_cidades": [
             {
               "cidade": "SAO PAULO",
-              "clientes": 15
+              "clientes": 23
             },
             {
               "cidade": "GUARULHOS",
               "clientes": 3
             },
             {
-              "cidade": "SUZANO",
-              "clientes": 2
+              "cidade": "ITAQUAQUECETUBA",
+              "clientes": 1
             },
             {
               "cidade": "MAIRIPORA",
               "clientes": 1
             },
             {
-              "cidade": "ITAQUAQUECETUBA",
+              "cidade": "SUZANO",
               "clientes": 1
             }
           ]
         },
         "SP-469": {
-          "total_clientes": 16,
-          "clientes_ativos_mes": 3,
-          "cobertura_pct": 18.8,
-          "faturamento_ytd": 39021.87,
-          "media_mensal": 13007.29,
+          "total_clientes": 14,
+          "clientes_ativos_mes": 4,
+          "cobertura_pct": 28.6,
+          "faturamento_ytd": 33761.27,
+          "media_mensal": 11253.76,
           "por_mes": {
-            "2026-05": 16853.26,
-            "2026-06": 11093.37,
-            "2026-07": 11075.24
+            "2026-05": 10177.76,
+            "2026-06": 12385.47,
+            "2026-07": 11198.04
           },
           "top_cidades": [
             {
               "cidade": "CAMPINAS",
-              "clientes": 11
-            },
-            {
-              "cidade": "VALINHOS",
-              "clientes": 2
-            },
-            {
-              "cidade": "LIMEIRA",
-              "clientes": 1
-            },
-            {
-              "cidade": "SAO PAULO",
-              "clientes": 1
-            },
-            {
-              "cidade": "VINHEDO",
-              "clientes": 1
-            }
-          ]
-        },
-        "SP-470": {
-          "total_clientes": 4,
-          "clientes_ativos_mes": 0,
-          "cobertura_pct": 0.0,
-          "faturamento_ytd": 2946811.26,
-          "media_mensal": 491135.21,
-          "por_mes": {
-            "2026-01": 603360.0,
-            "2026-02": 121800.0,
-            "2026-03": 484008.0,
-            "2026-04": 293431.68,
-            "2026-05": 565911.84,
-            "2026-06": 878299.74
-          },
-          "top_cidades": [
-            {
-              "cidade": "CAMPINAS",
-              "clientes": 1
+              "clientes": 12
             },
             {
               "cidade": "JUNDIAI",
               "clientes": 1
             },
             {
-              "cidade": "PAULINIA",
+              "cidade": "LIMEIRA",
               "clientes": 1
+            }
+          ]
+        },
+        "SP-470": {
+          "total_clientes": 3,
+          "clientes_ativos_mes": 0,
+          "cobertura_pct": 0.0,
+          "faturamento_ytd": 2945519.16,
+          "media_mensal": 490919.86,
+          "por_mes": {
+            "2026-01": 603360.0,
+            "2026-02": 121800.0,
+            "2026-03": 484008.0,
+            "2026-04": 293431.68,
+            "2026-05": 565911.84,
+            "2026-06": 877007.64
+          },
+          "top_cidades": [
+            {
+              "cidade": "CAMPINAS",
+              "clientes": 2
             },
             {
               "cidade": "TAUBATE",
@@ -3066,18 +3051,22 @@ const RAIOX_CLIENTES_DATA = {
         },
         "SP-471": {
           "total_clientes": 15,
-          "clientes_ativos_mes": 0,
-          "cobertura_pct": 0.0,
-          "faturamento_ytd": 28769.57,
-          "media_mensal": 14384.79,
+          "clientes_ativos_mes": 3,
+          "cobertura_pct": 20.0,
+          "faturamento_ytd": 48868.38,
+          "media_mensal": 8144.73,
           "por_mes": {
-            "2026-05": 10543.43,
-            "2026-06": 18226.14
+            "2026-01": 8719.26,
+            "2026-03": 3662.04,
+            "2026-04": 1748.28,
+            "2026-05": 9922.03,
+            "2026-06": 18226.14,
+            "2026-07": 6590.62
           },
           "top_cidades": [
             {
               "cidade": "SANTA ISABEL",
-              "clientes": 6
+              "clientes": 7
             },
             {
               "cidade": "IGARATA",
@@ -3090,28 +3079,24 @@ const RAIOX_CLIENTES_DATA = {
             {
               "cidade": "ARUJA",
               "clientes": 1
-            },
-            {
-              "cidade": "MOGI DAS CRUZES",
-              "clientes": 1
             }
           ]
         },
         "SP-472": {
-          "total_clientes": 7,
+          "total_clientes": 6,
           "clientes_ativos_mes": 4,
-          "cobertura_pct": 57.1,
-          "faturamento_ytd": 49500.62,
-          "media_mensal": 16500.21,
+          "cobertura_pct": 66.7,
+          "faturamento_ytd": 53433.56,
+          "media_mensal": 17811.19,
           "por_mes": {
             "2026-05": 21084.66,
             "2026-06": 11553.3,
-            "2026-07": 16862.66
+            "2026-07": 20795.6
           },
           "top_cidades": [
             {
               "cidade": "PINDAMONHANGABA",
-              "clientes": 6
+              "clientes": 5
             },
             {
               "cidade": "TAUBATE",
@@ -3147,11 +3132,11 @@ const RAIOX_CLIENTES_DATA = {
           "total_clientes": 2,
           "clientes_ativos_mes": 2,
           "cobertura_pct": 100.0,
-          "faturamento_ytd": 15245.7,
-          "media_mensal": 7622.85,
+          "faturamento_ytd": 15569.34,
+          "media_mensal": 7784.67,
           "por_mes": {
             "2026-06": 9470.1,
-            "2026-07": 5775.6
+            "2026-07": 6099.24
           },
           "top_cidades": [
             {
@@ -3165,41 +3150,42 @@ const RAIOX_CLIENTES_DATA = {
           ]
         },
         "SP-475": {
-          "total_clientes": 5,
+          "total_clientes": 10,
           "clientes_ativos_mes": 3,
-          "cobertura_pct": 60.0,
-          "faturamento_ytd": 14090.2,
-          "media_mensal": 4696.73,
+          "cobertura_pct": 30.0,
+          "faturamento_ytd": 15333.4,
+          "media_mensal": 3833.35,
           "por_mes": {
+            "2026-03": 1243.2,
             "2026-05": 202.8,
             "2026-06": 2369.56,
             "2026-07": 11517.84
           },
           "top_cidades": [
             {
-              "cidade": "VARZEA PAULISTA",
-              "clientes": 3
+              "cidade": "JARINU",
+              "clientes": 4
             },
             {
               "cidade": "CAMPO LIMPO PAULISTA",
-              "clientes": 1
+              "clientes": 3
             },
             {
-              "cidade": "JARINU",
-              "clientes": 1
+              "cidade": "VARZEA PAULISTA",
+              "clientes": 3
             }
           ]
         },
         "SP-476": {
-          "total_clientes": 19,
-          "clientes_ativos_mes": 10,
-          "cobertura_pct": 52.6,
-          "faturamento_ytd": 127738.88,
-          "media_mensal": 42579.63,
+          "total_clientes": 13,
+          "clientes_ativos_mes": 11,
+          "cobertura_pct": 84.6,
+          "faturamento_ytd": 157177.35,
+          "media_mensal": 52392.45,
           "por_mes": {
             "2026-05": 29751.64,
             "2026-06": 55947.18,
-            "2026-07": 42040.06
+            "2026-07": 71478.53
           },
           "top_cidades": [
             {
@@ -3209,56 +3195,52 @@ const RAIOX_CLIENTES_DATA = {
             {
               "cidade": "PARDINHO",
               "clientes": 3
-            },
-            {
-              "cidade": "MACATUBA",
-              "clientes": 2
-            },
-            {
-              "cidade": "LENCOIS PAULISTA",
-              "clientes": 2
-            },
-            {
-              "cidade": "CAMPINAS",
-              "clientes": 1
-            },
-            {
-              "cidade": "ITATINGA",
-              "clientes": 1
             }
           ]
         },
         "SP-477": {
-          "total_clientes": 12,
-          "clientes_ativos_mes": 9,
-          "cobertura_pct": 75.0,
-          "faturamento_ytd": 76559.31,
-          "media_mensal": 19139.83,
+          "total_clientes": 17,
+          "clientes_ativos_mes": 11,
+          "cobertura_pct": 64.7,
+          "faturamento_ytd": 86372.98,
+          "media_mensal": 21593.25,
           "por_mes": {
             "2026-04": 8434.68,
             "2026-05": 11663.4,
             "2026-06": 46182.62,
-            "2026-07": 10278.6
+            "2026-07": 20092.28
           },
           "top_cidades": [
+            {
+              "cidade": "CERQUEIRA CESAR",
+              "clientes": 4
+            },
             {
               "cidade": "AVARE",
               "clientes": 3
             },
             {
-              "cidade": "CERQUEIRA CESAR",
-              "clientes": 3
+              "cidade": "TAQUARITUBA",
+              "clientes": 2
+            },
+            {
+              "cidade": "MANDURI",
+              "clientes": 2
             },
             {
               "cidade": "ARANDU",
               "clientes": 1
             },
             {
-              "cidade": "IARAS",
+              "cidade": "FARTURA",
               "clientes": 1
             },
             {
-              "cidade": "MANDURI",
+              "cidade": "ITATINGA",
+              "clientes": 1
+            },
+            {
+              "cidade": "IARAS",
               "clientes": 1
             },
             {
@@ -3268,25 +3250,39 @@ const RAIOX_CLIENTES_DATA = {
             {
               "cidade": "PIRAJU",
               "clientes": 1
-            },
+            }
+          ]
+        },
+        "SP-483": {
+          "total_clientes": 1,
+          "clientes_ativos_mes": 1,
+          "cobertura_pct": 100.0,
+          "faturamento_ytd": 31152.0,
+          "media_mensal": 15576.0,
+          "por_mes": {
+            "2026-05": 15816.0,
+            "2026-07": 15336.0
+          },
+          "top_cidades": [
             {
-              "cidade": "TAQUARITUBA",
+              "cidade": "SAO PAULO",
               "clientes": 1
             }
           ]
         },
         "SP-485": {
-          "total_clientes": 4,
-          "clientes_ativos_mes": 0,
-          "cobertura_pct": 0.0,
-          "faturamento_ytd": 32853.92,
-          "media_mensal": 6570.78,
+          "total_clientes": 5,
+          "clientes_ativos_mes": 4,
+          "cobertura_pct": 80.0,
+          "faturamento_ytd": 39575.72,
+          "media_mensal": 6595.95,
           "por_mes": {
             "2026-02": 933.0,
             "2026-03": 17088.0,
             "2026-04": 1940.4,
             "2026-05": 5018.88,
-            "2026-06": 7873.64
+            "2026-06": 7873.64,
+            "2026-07": 6721.8
           },
           "top_cidades": [
             {
@@ -3296,53 +3292,62 @@ const RAIOX_CLIENTES_DATA = {
             {
               "cidade": "PORTO FELIZ",
               "clientes": 1
+            },
+            {
+              "cidade": "SAO LUIS",
+              "clientes": 1
             }
           ]
         },
         "SP-486": {
-          "total_clientes": 23,
-          "clientes_ativos_mes": 8,
-          "cobertura_pct": 34.8,
-          "faturamento_ytd": 31801.43,
-          "media_mensal": 6360.29,
+          "total_clientes": 35,
+          "clientes_ativos_mes": 13,
+          "cobertura_pct": 37.1,
+          "faturamento_ytd": 41355.72,
+          "media_mensal": 6892.62,
           "por_mes": {
             "2026-01": 5944.74,
             "2026-02": 466.8,
-            "2026-04": 256.38,
-            "2026-06": 13480.37,
-            "2026-07": 11653.14
+            "2026-04": 4082.46,
+            "2026-05": 2352.3,
+            "2026-06": 12101.57,
+            "2026-07": 16407.85
           },
           "top_cidades": [
             {
               "cidade": "PAULINIA",
+              "clientes": 8
+            },
+            {
+              "cidade": "ITAPIRA",
+              "clientes": 5
+            },
+            {
+              "cidade": "CAMPINAS",
               "clientes": 5
             },
             {
               "cidade": "MOGI MIRIM",
-              "clientes": 4
+              "clientes": 5
             },
             {
               "cidade": "MOGI GUACU",
               "clientes": 4
             },
             {
-              "cidade": "CAMPINAS",
-              "clientes": 3
-            },
-            {
-              "cidade": "AMPARO",
-              "clientes": 2
-            },
-            {
-              "cidade": "ITAPIRA",
+              "cidade": "JAGUARIUNA",
               "clientes": 2
             },
             {
               "cidade": "HORTOLANDIA",
+              "clientes": 2
+            },
+            {
+              "cidade": "ENGENHEIRO COELHO",
               "clientes": 1
             },
             {
-              "cidade": "JAGUARIUNA",
+              "cidade": "CONCHAL",
               "clientes": 1
             },
             {
@@ -3352,13 +3357,13 @@ const RAIOX_CLIENTES_DATA = {
           ]
         },
         "SP-487": {
-          "total_clientes": 6,
+          "total_clientes": 4,
           "clientes_ativos_mes": 0,
           "cobertura_pct": 0.0,
-          "faturamento_ytd": 5419.3,
-          "media_mensal": 5419.3,
+          "faturamento_ytd": 3705.6,
+          "media_mensal": 3705.6,
           "por_mes": {
-            "2026-06": 5419.3
+            "2026-06": 3705.6
           },
           "top_cidades": [
             {
@@ -3366,19 +3371,11 @@ const RAIOX_CLIENTES_DATA = {
               "clientes": 2
             },
             {
-              "cidade": "BORACEIA",
-              "clientes": 1
-            },
-            {
               "cidade": "FERNANDOPOLIS",
               "clientes": 1
             },
             {
               "cidade": "PONGAI",
-              "clientes": 1
-            },
-            {
-              "cidade": "SAO JOSE DO RIO PRETO",
               "clientes": 1
             }
           ]
@@ -3404,19 +3401,15 @@ const RAIOX_CLIENTES_DATA = {
           ]
         },
         "SP-489": {
-          "total_clientes": 5,
-          "clientes_ativos_mes": 2,
-          "cobertura_pct": 40.0,
-          "faturamento_ytd": 7753.2,
-          "media_mensal": 7753.2,
+          "total_clientes": 3,
+          "clientes_ativos_mes": 3,
+          "cobertura_pct": 100.0,
+          "faturamento_ytd": 12307.2,
+          "media_mensal": 12307.2,
           "por_mes": {
-            "2026-07": 7753.2
+            "2026-07": 12307.2
           },
           "top_cidades": [
-            {
-              "cidade": "TATUI",
-              "clientes": 2
-            },
             {
               "cidade": "LARANJAL PAULISTA",
               "clientes": 1
@@ -3435,15 +3428,15 @@ const RAIOX_CLIENTES_DATA = {
           "total_clientes": 9,
           "clientes_ativos_mes": 9,
           "cobertura_pct": 100.0,
-          "faturamento_ytd": 60875.3,
-          "media_mensal": 10145.88,
+          "faturamento_ytd": 77083.43,
+          "media_mensal": 12847.24,
           "por_mes": {
             "2026-01": 2643.12,
             "2026-02": 3228.0,
             "2026-04": 13849.3,
             "2026-05": 2156.7,
             "2026-06": 9850.4,
-            "2026-07": 29147.78
+            "2026-07": 45355.91
           },
           "top_cidades": [
             {
@@ -3473,14 +3466,14 @@ const RAIOX_CLIENTES_DATA = {
           ]
         },
         "SP-491": {
-          "total_clientes": 9,
-          "clientes_ativos_mes": 3,
-          "cobertura_pct": 33.3,
-          "faturamento_ytd": 16522.44,
-          "media_mensal": 8261.22,
+          "total_clientes": 8,
+          "clientes_ativos_mes": 6,
+          "cobertura_pct": 75.0,
+          "faturamento_ytd": 24212.21,
+          "media_mensal": 12106.11,
           "por_mes": {
-            "2026-06": 10786.35,
-            "2026-07": 5736.1
+            "2026-06": 12760.35,
+            "2026-07": 11451.87
           },
           "top_cidades": [
             {
@@ -3488,11 +3481,15 @@ const RAIOX_CLIENTES_DATA = {
               "clientes": 4
             },
             {
-              "cidade": "JAU",
-              "clientes": 3
+              "cidade": "IGARACU DO TIETE",
+              "clientes": 1
             },
             {
-              "cidade": "IGARACU DO TIETE",
+              "cidade": "ITAJU",
+              "clientes": 1
+            },
+            {
+              "cidade": "JAU",
               "clientes": 1
             },
             {
@@ -3521,13 +3518,13 @@ const RAIOX_CLIENTES_DATA = {
           "total_clientes": 9,
           "clientes_ativos_mes": 3,
           "cobertura_pct": 33.3,
-          "faturamento_ytd": 10692.21,
-          "media_mensal": 2673.05,
+          "faturamento_ytd": 10620.01,
+          "media_mensal": 2655.0,
           "por_mes": {
             "2026-01": 5290.0,
             "2026-04": 382.8,
             "2026-06": 3548.79,
-            "2026-07": 1470.62
+            "2026-07": 1398.42
           },
           "top_cidades": [
             {
@@ -3548,38 +3545,34 @@ const RAIOX_CLIENTES_DATA = {
             }
           ]
         },
-        "SP-497": {
-          "total_clientes": 19,
-          "clientes_ativos_mes": 4,
-          "cobertura_pct": 21.1,
-          "faturamento_ytd": 3765.59,
-          "media_mensal": 3765.59,
+        "SP-496": {
+          "total_clientes": 1,
+          "clientes_ativos_mes": 1,
+          "cobertura_pct": 100.0,
+          "faturamento_ytd": 58392.87,
+          "media_mensal": 58392.87,
           "por_mes": {
-            "2026-07": 3765.59
+            "2026-07": 58392.87
           },
           "top_cidades": [
             {
-              "cidade": "PEDRO DE TOLEDO",
-              "clientes": 4
-            },
-            {
-              "cidade": "REGISTRO",
-              "clientes": 3
-            },
+              "cidade": "SAO PAULO",
+              "clientes": 1
+            }
+          ]
+        },
+        "SP-497": {
+          "total_clientes": 7,
+          "clientes_ativos_mes": 6,
+          "cobertura_pct": 85.7,
+          "faturamento_ytd": 3582.03,
+          "media_mensal": 3582.03,
+          "por_mes": {
+            "2026-07": 3582.03
+          },
+          "top_cidades": [
             {
               "cidade": "PARIQUERA ACU",
-              "clientes": 3
-            },
-            {
-              "cidade": "JUQUIA",
-              "clientes": 2
-            },
-            {
-              "cidade": "MIRACATU",
-              "clientes": 2
-            },
-            {
-              "cidade": "SETE BARRAS",
               "clientes": 2
             },
             {
@@ -3591,82 +3584,92 @@ const RAIOX_CLIENTES_DATA = {
               "clientes": 1
             },
             {
-              "cidade": "ITARIRI",
+              "cidade": "JUQUIA",
+              "clientes": 1
+            },
+            {
+              "cidade": "MIRACATU",
+              "clientes": 1
+            },
+            {
+              "cidade": "REGISTRO",
               "clientes": 1
             }
           ]
         },
         "SP-498": {
-          "total_clientes": 7,
-          "clientes_ativos_mes": 3,
-          "cobertura_pct": 42.9,
-          "faturamento_ytd": 15870.64,
-          "media_mensal": 7935.32,
+          "total_clientes": 5,
+          "clientes_ativos_mes": 4,
+          "cobertura_pct": 80.0,
+          "faturamento_ytd": 19646.22,
+          "media_mensal": 9823.11,
           "por_mes": {
             "2026-06": 9726.5,
-            "2026-07": 6144.14
+            "2026-07": 9919.72
           },
           "top_cidades": [
-            {
-              "cidade": "ITAPOLIS",
-              "clientes": 3
-            },
             {
               "cidade": "IBITINGA",
               "clientes": 2
             },
             {
-              "cidade": "BORBOREMA",
-              "clientes": 1
+              "cidade": "ITAPOLIS",
+              "clientes": 2
             },
             {
-              "cidade": "BORACEIA",
+              "cidade": "TABATINGA",
               "clientes": 1
             }
           ]
         },
         "SP-499": {
-          "total_clientes": 8,
-          "clientes_ativos_mes": 0,
-          "cobertura_pct": 0.0,
-          "faturamento_ytd": 0.0,
-          "media_mensal": 0.0,
-          "por_mes": {},
+          "total_clientes": 6,
+          "clientes_ativos_mes": 4,
+          "cobertura_pct": 66.7,
+          "faturamento_ytd": 4529.94,
+          "media_mensal": 4529.94,
+          "por_mes": {
+            "2026-07": 4529.94
+          },
           "top_cidades": [
             {
               "cidade": "SAO PAULO",
-              "clientes": 7
-            },
-            {
-              "cidade": "MAUA",
-              "clientes": 1
+              "clientes": 6
             }
           ]
         },
         "SP-500": {
-          "total_clientes": 4,
-          "clientes_ativos_mes": 2,
-          "cobertura_pct": 50.0,
-          "faturamento_ytd": 1610.88,
-          "media_mensal": 1610.88,
+          "total_clientes": 14,
+          "clientes_ativos_mes": 3,
+          "cobertura_pct": 21.4,
+          "faturamento_ytd": 2614.02,
+          "media_mensal": 2614.02,
           "por_mes": {
-            "2026-07": 1610.88
+            "2026-07": 2614.02
           },
           "top_cidades": [
             {
               "cidade": "SANTOS",
-              "clientes": 2
+              "clientes": 7
             },
             {
               "cidade": "SAO VICENTE",
-              "clientes": 2
+              "clientes": 5
+            },
+            {
+              "cidade": "PRAIA GRANDE",
+              "clientes": 1
+            },
+            {
+              "cidade": "CUBATAO",
+              "clientes": 1
             }
           ]
         },
         "SP-502": {
-          "total_clientes": 8,
+          "total_clientes": 1,
           "clientes_ativos_mes": 1,
-          "cobertura_pct": 12.5,
+          "cobertura_pct": 100.0,
           "faturamento_ytd": 1930.74,
           "media_mensal": 1930.74,
           "por_mes": {
@@ -3675,35 +3678,27 @@ const RAIOX_CLIENTES_DATA = {
           "top_cidades": [
             {
               "cidade": "PRAIA GRANDE",
-              "clientes": 7
-            },
-            {
-              "cidade": "SAO VICENTE",
               "clientes": 1
             }
           ]
         },
         "SP-504": {
-          "total_clientes": 33,
-          "clientes_ativos_mes": 6,
-          "cobertura_pct": 18.2,
-          "faturamento_ytd": 3928.01,
-          "media_mensal": 3928.01,
+          "total_clientes": 21,
+          "clientes_ativos_mes": 20,
+          "cobertura_pct": 95.2,
+          "faturamento_ytd": 44018.78,
+          "media_mensal": 44018.78,
           "por_mes": {
-            "2026-07": 3928.01
+            "2026-07": 44018.78
           },
           "top_cidades": [
             {
               "cidade": "PIRACICABA",
-              "clientes": 12
-            },
-            {
-              "cidade": "CAPIVARI",
               "clientes": 5
             },
             {
-              "cidade": "ELIAS FAUSTO",
-              "clientes": 2
+              "cidade": "CAPIVARI",
+              "clientes": 4
             },
             {
               "cidade": "LIMEIRA",
@@ -3714,7 +3709,11 @@ const RAIOX_CLIENTES_DATA = {
               "clientes": 2
             },
             {
-              "cidade": "CERQUILHO",
+              "cidade": "HORTOLANDIA",
+              "clientes": 1
+            },
+            {
+              "cidade": "CONCHAS",
               "clientes": 1
             },
             {
@@ -3722,15 +3721,15 @@ const RAIOX_CLIENTES_DATA = {
               "clientes": 1
             },
             {
+              "cidade": "LEME",
+              "clientes": 1
+            },
+            {
               "cidade": "IRACEMAPOLIS",
               "clientes": 1
             },
             {
-              "cidade": "HORTOLANDIA",
-              "clientes": 1
-            },
-            {
-              "cidade": "CONCHAS",
+              "cidade": "SALTINHO",
               "clientes": 1
             }
           ]
@@ -3749,31 +3748,83 @@ const RAIOX_CLIENTES_DATA = {
             }
           ]
         },
-        "SP-509": {
-          "total_clientes": 3,
-          "clientes_ativos_mes": 0,
-          "cobertura_pct": 0.0,
-          "faturamento_ytd": 725.4,
-          "media_mensal": 362.7,
+        "SP-507": {
+          "total_clientes": 12,
+          "clientes_ativos_mes": 1,
+          "cobertura_pct": 8.3,
+          "faturamento_ytd": 3859.55,
+          "media_mensal": 1286.52,
           "por_mes": {
-            "2026-02": 396.0,
-            "2026-05": 329.4
+            "2026-05": 755.07,
+            "2026-06": 2320.28,
+            "2026-07": 784.2
           },
           "top_cidades": [
             {
-              "cidade": "PORTO FELIZ",
+              "cidade": "GUARUJA",
+              "clientes": 11
+            },
+            {
+              "cidade": "SANTOS",
+              "clientes": 1
+            }
+          ]
+        },
+        "SP-508": {
+          "total_clientes": 7,
+          "clientes_ativos_mes": 4,
+          "cobertura_pct": 57.1,
+          "faturamento_ytd": 45870.03,
+          "media_mensal": 7645.01,
+          "por_mes": {
+            "2026-01": 10687.02,
+            "2026-02": 7084.79,
+            "2026-03": 7399.96,
+            "2026-04": 599.9,
+            "2026-05": 4674.2,
+            "2026-07": 15424.16
+          },
+          "top_cidades": [
+            {
+              "cidade": "SOROCABA",
               "clientes": 3
+            },
+            {
+              "cidade": "SAO ROQUE",
+              "clientes": 2
+            },
+            {
+              "cidade": "IPERO",
+              "clientes": 1
+            },
+            {
+              "cidade": "CAPELA DO ALTO",
+              "clientes": 1
+            }
+          ]
+        },
+        "SP-510": {
+          "total_clientes": 2,
+          "clientes_ativos_mes": 0,
+          "cobertura_pct": 0.0,
+          "faturamento_ytd": 0.0,
+          "media_mensal": 0.0,
+          "por_mes": {},
+          "top_cidades": [
+            {
+              "cidade": "SOROCABA",
+              "clientes": 2
             }
           ]
         },
         "SP-511": {
-          "total_clientes": 7,
-          "clientes_ativos_mes": 2,
-          "cobertura_pct": 28.6,
-          "faturamento_ytd": 1298.71,
-          "media_mensal": 1298.71,
+          "total_clientes": 8,
+          "clientes_ativos_mes": 6,
+          "cobertura_pct": 75.0,
+          "faturamento_ytd": 15618.47,
+          "media_mensal": 15618.47,
           "por_mes": {
-            "2026-07": 1298.71
+            "2026-07": 15618.47
           },
           "top_cidades": [
             {
@@ -3786,52 +3837,77 @@ const RAIOX_CLIENTES_DATA = {
             },
             {
               "cidade": "SAO BENTO DO SAPUCAI",
-              "clientes": 1
+              "clientes": 2
             }
           ]
         },
         "SP-512": {
-          "total_clientes": 6,
-          "clientes_ativos_mes": 3,
-          "cobertura_pct": 50.0,
-          "faturamento_ytd": 229367.38,
-          "media_mensal": 32766.77,
+          "total_clientes": 17,
+          "clientes_ativos_mes": 8,
+          "cobertura_pct": 47.1,
+          "faturamento_ytd": 236111.2,
+          "media_mensal": 33730.17,
           "por_mes": {
             "2026-01": 25824.0,
             "2026-02": 40193.76,
             "2026-03": 39638.24,
             "2026-04": 36763.8,
             "2026-05": 24184.68,
-            "2026-06": 4507.02,
-            "2026-07": 58255.88
+            "2026-06": 6296.01,
+            "2026-07": 63210.71
           },
           "top_cidades": [
             {
               "cidade": "SAO PAULO",
-              "clientes": 4
-            },
-            {
-              "cidade": "SANTO ANDRE",
-              "clientes": 1
+              "clientes": 10
             },
             {
               "cidade": "SAO BERNARDO DO CAMPO",
-              "clientes": 1
+              "clientes": 5
+            },
+            {
+              "cidade": "SANTO ANDRE",
+              "clientes": 2
             }
           ]
         },
         "SP-513": {
-          "total_clientes": 5,
+          "total_clientes": 3,
           "clientes_ativos_mes": 1,
-          "cobertura_pct": 20.0,
-          "faturamento_ytd": 86963.26,
-          "media_mensal": 17392.65,
+          "cobertura_pct": 33.3,
+          "faturamento_ytd": 86301.78,
+          "media_mensal": 14383.63,
           "por_mes": {
-            "2026-02": 13068.0,
-            "2026-03": 6534.0,
-            "2026-04": 52185.9,
-            "2026-05": 11344.36,
+            "2026-01": 32456.58,
+            "2026-02": 15279.6,
+            "2026-03": 11034.6,
+            "2026-04": 17766.0,
+            "2026-05": 5934.0,
             "2026-07": 3831.0
+          },
+          "top_cidades": [
+            {
+              "cidade": "COTIA",
+              "clientes": 1
+            },
+            {
+              "cidade": "EMBU GUACU",
+              "clientes": 1
+            },
+            {
+              "cidade": "SAO PAULO",
+              "clientes": 1
+            }
+          ]
+        },
+        "SP-515": {
+          "total_clientes": 9,
+          "clientes_ativos_mes": 2,
+          "cobertura_pct": 22.2,
+          "faturamento_ytd": 5940.34,
+          "media_mensal": 5940.34,
+          "por_mes": {
+            "2026-07": 5940.34
           },
           "top_cidades": [
             {
@@ -3839,31 +3915,91 @@ const RAIOX_CLIENTES_DATA = {
               "clientes": 3
             },
             {
-              "cidade": "EMBU",
+              "cidade": "CARAPICUIBA",
               "clientes": 1
             },
             {
-              "cidade": "OSASCO",
+              "cidade": "BARUERI",
+              "clientes": 1
+            },
+            {
+              "cidade": "ITAPECERICA DA SERRA",
+              "clientes": 1
+            },
+            {
+              "cidade": "PIRAPORA DO BOM JESUS",
+              "clientes": 1
+            },
+            {
+              "cidade": "SANTANA DE PARNAIBA",
+              "clientes": 1
+            },
+            {
+              "cidade": "VARZEA PAULISTA",
               "clientes": 1
             }
           ]
         },
-        "SP-515": {
-          "total_clientes": 2,
+        "SP-516": {
+          "total_clientes": 26,
           "clientes_ativos_mes": 1,
-          "cobertura_pct": 50.0,
-          "faturamento_ytd": 2397.6,
-          "media_mensal": 2397.6,
+          "cobertura_pct": 3.8,
+          "faturamento_ytd": 13486.75,
+          "media_mensal": 2697.35,
           "por_mes": {
-            "2026-07": 2397.6
+            "2026-01": 3809.4,
+            "2026-02": 2584.8,
+            "2026-04": 4570.08,
+            "2026-05": 1920.6,
+            "2026-07": 601.87
           },
           "top_cidades": [
             {
-              "cidade": "OSASCO",
+              "cidade": "UBATUBA",
+              "clientes": 13
+            },
+            {
+              "cidade": "CARAGUATATUBA",
+              "clientes": 8
+            },
+            {
+              "cidade": "SAO SEBASTIAO",
+              "clientes": 3
+            },
+            {
+              "cidade": "LAGOINHA",
               "clientes": 1
             },
             {
-              "cidade": "SAO PAULO",
+              "cidade": "ILHABELA",
+              "clientes": 1
+            }
+          ]
+        },
+        "SP-518": {
+          "total_clientes": 6,
+          "clientes_ativos_mes": 3,
+          "cobertura_pct": 50.0,
+          "faturamento_ytd": 43830.19,
+          "media_mensal": 8766.04,
+          "por_mes": {
+            "2026-01": 8481.6,
+            "2026-04": 14280.0,
+            "2026-05": 6760.8,
+            "2026-06": 7557.24,
+            "2026-07": 6750.55
+          },
+          "top_cidades": [
+            {
+              "cidade": "LIMEIRA",
+              "clientes": 4
+            },
+            {
+              "cidade": "BAURU",
+              "clientes": 1
+            },
+            {
+              "cidade": "SAO SEBASTIAO",
               "clientes": 1
             }
           ]
@@ -3872,9 +4008,9 @@ const RAIOX_CLIENTES_DATA = {
     },
     {
       "ramo": "BENEFICIO FISCAL - ES",
-      "total_clientes": 5,
+      "total_clientes": 6,
       "clientes_ativos_mes": 2,
-      "cobertura_pct": 40.0,
+      "cobertura_pct": 33.3,
       "faturamento_ytd": 34072101.45,
       "media_mensal": 4867443.06,
       "por_mes": {
@@ -3892,11 +4028,11 @@ const RAIOX_CLIENTES_DATA = {
           "clientes": 2
         },
         {
-          "cidade": "CARIACICA",
-          "clientes": 1
+          "cidade": "VIANA",
+          "clientes": 2
         },
         {
-          "cidade": "VIANA",
+          "cidade": "CARIACICA",
           "clientes": 1
         },
         {
@@ -3978,6 +4114,20 @@ const RAIOX_CLIENTES_DATA = {
             }
           ]
         },
+        "ES-458": {
+          "total_clientes": 1,
+          "clientes_ativos_mes": 0,
+          "cobertura_pct": 0.0,
+          "faturamento_ytd": 0.0,
+          "media_mensal": 0.0,
+          "por_mes": {},
+          "top_cidades": [
+            {
+              "cidade": "VIANA",
+              "clientes": 1
+            }
+          ]
+        },
         "ES-508": {
           "total_clientes": 1,
           "clientes_ativos_mes": 1,
@@ -4002,28 +4152,28 @@ const RAIOX_CLIENTES_DATA = {
     },
     {
       "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "total_clientes": 357,
-      "clientes_ativos_mes": 85,
-      "cobertura_pct": 23.8,
-      "faturamento_ytd": 10987357.23,
-      "media_mensal": 1569622.46,
+      "total_clientes": 368,
+      "clientes_ativos_mes": 114,
+      "cobertura_pct": 31.0,
+      "faturamento_ytd": 11896019.08,
+      "media_mensal": 1699431.3,
       "por_mes": {
-        "2026-01": 1858689.74,
-        "2026-02": 2296586.72,
-        "2026-03": 1608020.42,
-        "2026-04": 1962964.84,
-        "2026-05": 1527700.14,
-        "2026-06": 1356528.9,
-        "2026-07": 376866.47
+        "2026-01": 1834673.98,
+        "2026-02": 2281864.66,
+        "2026-03": 1596910.34,
+        "2026-04": 1939659.82,
+        "2026-05": 1509924.72,
+        "2026-06": 1327675.38,
+        "2026-07": 1405310.18
       },
       "top_cidades": [
         {
           "cidade": "BELO HORIZONTE",
-          "clientes": 93
+          "clientes": 86
         },
         {
           "cidade": "CONTAGEM",
-          "clientes": 45
+          "clientes": 41
         },
         {
           "cidade": "JUIZ DE FORA",
@@ -4034,57 +4184,57 @@ const RAIOX_CLIENTES_DATA = {
           "clientes": 20
         },
         {
-          "cidade": "VESPASIANO",
-          "clientes": 12
-        },
-        {
-          "cidade": "BETIM",
-          "clientes": 11
-        },
-        {
           "cidade": "CONSELHEIRO LAFAIETE",
           "clientes": 11
         },
         {
-          "cidade": "SANTA LUZIA",
-          "clientes": 9
+          "cidade": "BETIM",
+          "clientes": 10
         },
         {
-          "cidade": "NOVA LIMA",
-          "clientes": 7
+          "cidade": "POUSO ALEGRE",
+          "clientes": 10
         },
         {
           "cidade": "LAGOA SANTA",
-          "clientes": 7
+          "clientes": 10
+        },
+        {
+          "cidade": "VESPASIANO",
+          "clientes": 10
+        },
+        {
+          "cidade": "SANTA LUZIA",
+          "clientes": 9
         }
       ],
       "por_vendedor": {
         "MG-327": {
-          "total_clientes": 9,
-          "clientes_ativos_mes": 5,
-          "cobertura_pct": 55.6,
-          "faturamento_ytd": 83423.74,
-          "media_mensal": 11917.68,
+          "total_clientes": 11,
+          "clientes_ativos_mes": 6,
+          "cobertura_pct": 54.5,
+          "faturamento_ytd": 75975.62,
+          "media_mensal": 10853.66,
           "por_mes": {
-            "2026-01": 10647.76,
-            "2026-02": 6268.26,
-            "2026-03": 16274.34,
-            "2026-04": 8767.22,
-            "2026-05": 15882.36,
-            "2026-06": 14156.1,
-            "2026-07": 11427.7
+            "2026-01": 11705.44,
+            "2026-02": 2058.0,
+            "2026-03": 9883.46,
+            "2026-04": 3995.22,
+            "2026-05": 28891.68,
+            "2026-06": 10609.3,
+            "2026-07": 8832.52
           },
           "top_cidades": [
             {
               "cidade": "BELO HORIZONTE",
-              "clientes": 6
-            },
-            {
-              "cidade": "BETIM",
-              "clientes": 2
+              "clientes": 8
             },
             {
               "cidade": "CONTAGEM",
+              "clientes": 2
+            },
+            {
+              "cidade": "BETIM",
               "clientes": 1
             }
           ]
@@ -4109,27 +4259,27 @@ const RAIOX_CLIENTES_DATA = {
         },
         "MG-343": {
           "total_clientes": 255,
-          "clientes_ativos_mes": 41,
-          "cobertura_pct": 16.1,
-          "faturamento_ytd": 7927273.22,
-          "media_mensal": 1132467.6,
+          "clientes_ativos_mes": 65,
+          "cobertura_pct": 25.5,
+          "faturamento_ytd": 8733394.72,
+          "media_mensal": 1247627.82,
           "por_mes": {
-            "2026-01": 1266429.6,
-            "2026-02": 1861613.2,
-            "2026-03": 1421400.44,
-            "2026-04": 1270719.2,
-            "2026-05": 1013656.98,
-            "2026-06": 851296.96,
-            "2026-07": 242156.84
+            "2026-01": 1244906.88,
+            "2026-02": 1855565.2,
+            "2026-03": 1422209.24,
+            "2026-04": 1261355.28,
+            "2026-05": 1020237.74,
+            "2026-06": 842551.36,
+            "2026-07": 1086569.02
           },
           "top_cidades": [
             {
               "cidade": "BELO HORIZONTE",
-              "clientes": 55
+              "clientes": 54
             },
             {
               "cidade": "CONTAGEM",
-              "clientes": 28
+              "clientes": 29
             },
             {
               "cidade": "JUIZ DE FORA",
@@ -4166,24 +4316,28 @@ const RAIOX_CLIENTES_DATA = {
           ]
         },
         "MG-344": {
-          "total_clientes": 28,
-          "clientes_ativos_mes": 10,
-          "cobertura_pct": 35.7,
-          "faturamento_ytd": 1396702.94,
-          "media_mensal": 199528.99,
+          "total_clientes": 30,
+          "clientes_ativos_mes": 20,
+          "cobertura_pct": 66.7,
+          "faturamento_ytd": 1410471.83,
+          "media_mensal": 201495.98,
           "por_mes": {
-            "2026-01": 528172.04,
-            "2026-02": 248247.58,
-            "2026-03": 56163.3,
-            "2026-04": 270179.36,
-            "2026-05": 270366.08,
-            "2026-06": 16425.12,
-            "2026-07": 7149.46
+            "2026-01": 530327.24,
+            "2026-02": 247018.66,
+            "2026-03": 57177.66,
+            "2026-04": 267815.64,
+            "2026-05": 267168.4,
+            "2026-06": 27070.1,
+            "2026-07": 13894.13
           },
           "top_cidades": [
             {
               "cidade": "BELO HORIZONTE",
-              "clientes": 21
+              "clientes": 20
+            },
+            {
+              "cidade": "CONTAGEM",
+              "clientes": 3
             },
             {
               "cidade": "NOVA LIMA",
@@ -4194,34 +4348,34 @@ const RAIOX_CLIENTES_DATA = {
               "clientes": 2
             },
             {
-              "cidade": "LAGOA SANTA",
+              "cidade": "BETIM",
               "clientes": 1
             },
             {
-              "cidade": "BETIM",
+              "cidade": "LAGOA SANTA",
               "clientes": 1
             }
           ]
         },
         "MG-349": {
-          "total_clientes": 10,
-          "clientes_ativos_mes": 6,
-          "cobertura_pct": 60.0,
-          "faturamento_ytd": 428025.15,
-          "media_mensal": 61146.45,
+          "total_clientes": 15,
+          "clientes_ativos_mes": 5,
+          "cobertura_pct": 33.3,
+          "faturamento_ytd": 449001.81,
+          "media_mensal": 64143.12,
           "por_mes": {
-            "2026-01": 50304.66,
+            "2026-01": 57566.02,
             "2026-02": 18133.68,
-            "2026-03": 52578.9,
-            "2026-04": 167610.58,
-            "2026-05": 31716.62,
-            "2026-06": 58038.36,
-            "2026-07": 49642.35
+            "2026-03": 61782.86,
+            "2026-04": 193618.62,
+            "2026-05": 29770.92,
+            "2026-06": 55038.96,
+            "2026-07": 33090.75
           },
           "top_cidades": [
             {
               "cidade": "JUIZ DE FORA",
-              "clientes": 9
+              "clientes": 14
             },
             {
               "cidade": "BARBACENA",
@@ -4230,51 +4384,47 @@ const RAIOX_CLIENTES_DATA = {
           ]
         },
         "MG-354": {
-          "total_clientes": 59,
+          "total_clientes": 60,
           "clientes_ativos_mes": 42,
-          "cobertura_pct": 71.2,
-          "faturamento_ytd": 1000446.36,
-          "media_mensal": 142920.91,
+          "cobertura_pct": 70.0,
+          "faturamento_ytd": 1103298.64,
+          "media_mensal": 157614.09,
           "por_mes": {
             "2026-01": 128369.74,
             "2026-02": 223166.28,
-            "2026-03": 150898.82,
-            "2026-04": 41925.38,
+            "2026-03": 150623.12,
+            "2026-04": 55175.58,
             "2026-05": 210352.9,
-            "2026-06": 153728.7,
-            "2026-07": 92004.54
+            "2026-06": 156303.0,
+            "2026-07": 179308.02
           },
           "top_cidades": [
             {
               "cidade": "BELO HORIZONTE",
-              "clientes": 14
+              "clientes": 15
             },
             {
               "cidade": "RIBEIRAO DAS NEVES",
               "clientes": 12
             },
             {
-              "cidade": "VESPASIANO",
-              "clientes": 8
+              "cidade": "LAGOA SANTA",
+              "clientes": 7
             },
             {
-              "cidade": "SANTA LUZIA",
-              "clientes": 5
+              "cidade": "VESPASIANO",
+              "clientes": 7
             },
             {
               "cidade": "CONTAGEM",
               "clientes": 5
             },
             {
-              "cidade": "LAGOA SANTA",
+              "cidade": "SANTA LUZIA",
               "clientes": 4
             },
             {
               "cidade": "PEDRO LEOPOLDO",
-              "clientes": 2
-            },
-            {
-              "cidade": "SETE LAGOAS",
               "clientes": 2
             },
             {
@@ -4284,35 +4434,39 @@ const RAIOX_CLIENTES_DATA = {
             {
               "cidade": "CAETE",
               "clientes": 1
+            },
+            {
+              "cidade": "CONFINS",
+              "clientes": 1
             }
           ]
         },
         "MG-360": {
-          "total_clientes": 23,
-          "clientes_ativos_mes": 8,
-          "cobertura_pct": 34.8,
-          "faturamento_ytd": 3862728.64,
-          "media_mensal": 551818.38,
+          "total_clientes": 19,
+          "clientes_ativos_mes": 14,
+          "cobertura_pct": 73.7,
+          "faturamento_ytd": 3726969.22,
+          "media_mensal": 532424.17,
           "por_mes": {
-            "2026-01": 484543.74,
+            "2026-01": 384054.54,
             "2026-02": 475752.9,
-            "2026-03": 562540.98,
-            "2026-04": 760557.96,
-            "2026-05": 536782.84,
-            "2026-06": 896156.1,
-            "2026-07": 146394.12
+            "2026-03": 472521.78,
+            "2026-04": 624282.84,
+            "2026-05": 454638.64,
+            "2026-06": 827154.9,
+            "2026-07": 488563.62
           },
           "top_cidades": [
             {
               "cidade": "CONSELHEIRO LAFAIETE",
-              "clientes": 8
-            },
-            {
-              "cidade": "BELO HORIZONTE",
-              "clientes": 2
+              "clientes": 6
             },
             {
               "cidade": "CONTAGEM",
+              "clientes": 2
+            },
+            {
+              "cidade": "BELO HORIZONTE",
               "clientes": 2
             },
             {
@@ -4320,11 +4474,11 @@ const RAIOX_CLIENTES_DATA = {
               "clientes": 2
             },
             {
-              "cidade": "CARMO DO CAJURU",
+              "cidade": "BETIM",
               "clientes": 1
             },
             {
-              "cidade": "BETIM",
+              "cidade": "CARMO DO CAJURU",
               "clientes": 1
             },
             {
@@ -4336,50 +4490,120 @@ const RAIOX_CLIENTES_DATA = {
               "clientes": 1
             },
             {
-              "cidade": "GOVERNADOR VALADARES",
+              "cidade": "JUIZ DE FORA",
               "clientes": 1
             },
             {
-              "cidade": "JUIZ DE FORA",
+              "cidade": "LAVRAS",
               "clientes": 1
             }
           ]
         },
         "MG-362": {
-          "total_clientes": 38,
-          "clientes_ativos_mes": 8,
-          "cobertura_pct": 21.1,
-          "faturamento_ytd": 117029.78,
-          "media_mensal": 16718.54,
+          "total_clientes": 15,
+          "clientes_ativos_mes": 6,
+          "cobertura_pct": 40.0,
+          "faturamento_ytd": 34099.84,
+          "media_mensal": 5683.31,
           "por_mes": {
-            "2026-01": 10170.34,
-            "2026-02": 2880.48,
-            "2026-03": 7297.1,
-            "2026-04": 13895.84,
-            "2026-05": 40219.2,
-            "2026-06": 33118.7,
-            "2026-07": 9448.12
+            "2026-01": 245.7,
+            "2026-03": 1839.24,
+            "2026-04": 3775.1,
+            "2026-05": 11190.5,
+            "2026-06": 10095.2,
+            "2026-07": 6954.1
           },
           "top_cidades": [
             {
               "cidade": "BELO HORIZONTE",
-              "clientes": 17
+              "clientes": 7
             },
             {
               "cidade": "CONTAGEM",
-              "clientes": 16
-            },
-            {
-              "cidade": "IBIRITE",
-              "clientes": 2
+              "clientes": 5
             },
             {
               "cidade": "RIBEIRAO DAS NEVES",
               "clientes": 2
             },
             {
-              "cidade": "SABARA",
+              "cidade": "IBIRITE",
               "clientes": 1
+            }
+          ]
+        },
+        "MG-378": {
+          "total_clientes": 35,
+          "clientes_ativos_mes": 9,
+          "cobertura_pct": 25.7,
+          "faturamento_ytd": 525583.04,
+          "media_mensal": 75083.29,
+          "por_mes": {
+            "2026-01": 102120.0,
+            "2026-02": 1789.4,
+            "2026-03": 90019.2,
+            "2026-04": 125769.6,
+            "2026-05": 82144.2,
+            "2026-06": 55800.0,
+            "2026-07": 67940.64
+          },
+          "top_cidades": [
+            {
+              "cidade": "POUSO ALEGRE",
+              "clientes": 8
+            },
+            {
+              "cidade": "ITAJUBA",
+              "clientes": 5
+            },
+            {
+              "cidade": "ALFENAS",
+              "clientes": 4
+            },
+            {
+              "cidade": "VARGINHA",
+              "clientes": 3
+            },
+            {
+              "cidade": "OURO FINO",
+              "clientes": 2
+            },
+            {
+              "cidade": "MACHADO",
+              "clientes": 2
+            },
+            {
+              "cidade": "POCOS DE CALDAS",
+              "clientes": 2
+            },
+            {
+              "cidade": "BORDA DA MATA",
+              "clientes": 1
+            },
+            {
+              "cidade": "GOVERNADOR VALADARES",
+              "clientes": 1
+            },
+            {
+              "cidade": "CAMPOS GERAIS",
+              "clientes": 1
+            }
+          ]
+        },
+        "MG-388": {
+          "total_clientes": 3,
+          "clientes_ativos_mes": 2,
+          "cobertura_pct": 66.7,
+          "faturamento_ytd": 317804.04,
+          "media_mensal": 158902.02,
+          "por_mes": {
+            "2026-01": 55407.36,
+            "2026-07": 262396.68
+          },
+          "top_cidades": [
+            {
+              "cidade": "CONTAGEM",
+              "clientes": 3
             }
           ]
         }
@@ -4387,28 +4611,28 @@ const RAIOX_CLIENTES_DATA = {
     },
     {
       "ramo": "BAR",
-      "total_clientes": 302,
-      "clientes_ativos_mes": 146,
-      "cobertura_pct": 48.3,
-      "faturamento_ytd": 5602395.11,
-      "media_mensal": 800342.16,
+      "total_clientes": 312,
+      "clientes_ativos_mes": 181,
+      "cobertura_pct": 58.0,
+      "faturamento_ytd": 6201302.78,
+      "media_mensal": 885900.4,
       "por_mes": {
-        "2026-01": 1116502.64,
-        "2026-02": 885135.29,
-        "2026-03": 965279.68,
-        "2026-04": 535804.94,
-        "2026-05": 787440.28,
-        "2026-06": 730145.0,
-        "2026-07": 582087.28
+        "2026-01": 1122950.25,
+        "2026-02": 953185.99,
+        "2026-03": 1014835.92,
+        "2026-04": 561596.39,
+        "2026-05": 781918.06,
+        "2026-06": 794868.2,
+        "2026-07": 971947.96
       },
       "top_cidades": [
         {
           "cidade": "BELO HORIZONTE",
-          "clientes": 60
+          "clientes": 58
         },
         {
           "cidade": "RIO DE JANEIRO",
-          "clientes": 56
+          "clientes": 54
         },
         {
           "cidade": "ARMACAO DOS BUZ",
@@ -4416,30 +4640,30 @@ const RAIOX_CLIENTES_DATA = {
         },
         {
           "cidade": "CABO FRIO",
-          "clientes": 11
+          "clientes": 12
         },
         {
           "cidade": "MACAE",
+          "clientes": 10
+        },
+        {
+          "cidade": "JUIZ DE FORA",
           "clientes": 9
         },
         {
           "cidade": "CONTAGEM",
-          "clientes": 9
-        },
-        {
-          "cidade": "BOTUCATU",
           "clientes": 8
-        },
-        {
-          "cidade": "JUIZ DE FORA",
-          "clientes": 8
-        },
-        {
-          "cidade": "RIO DAS OSTRAS",
-          "clientes": 6
         },
         {
           "cidade": "SAO JOSE DOS CAMPOS",
+          "clientes": 7
+        },
+        {
+          "cidade": "BOTUCATU",
+          "clientes": 7
+        },
+        {
+          "cidade": "BETIM",
           "clientes": 6
         }
       ],
@@ -4464,39 +4688,23 @@ const RAIOX_CLIENTES_DATA = {
           ]
         },
         "ES-336": {
-          "total_clientes": 4,
-          "clientes_ativos_mes": 4,
+          "total_clientes": 3,
+          "clientes_ativos_mes": 3,
           "cobertura_pct": 100.0,
-          "faturamento_ytd": 6165.2,
-          "media_mensal": 1027.53,
+          "faturamento_ytd": 3892.4,
+          "media_mensal": 648.73,
           "por_mes": {
-            "2026-01": 1898.16,
+            "2026-01": 862.8,
             "2026-02": 893.48,
-            "2026-03": 968.52,
-            "2026-04": 1179.36,
-            "2026-05": 1109.04,
-            "2026-07": 116.64
+            "2026-03": 546.48,
+            "2026-04": 982.8,
+            "2026-05": 519.36,
+            "2026-07": 87.48
           },
           "top_cidades": [
             {
               "cidade": "SERRA",
-              "clientes": 4
-            }
-          ]
-        },
-        "ES-342": {
-          "total_clientes": 1,
-          "clientes_ativos_mes": 0,
-          "cobertura_pct": 0.0,
-          "faturamento_ytd": 600.39,
-          "media_mensal": 600.39,
-          "por_mes": {
-            "2026-04": 600.39
-          },
-          "top_cidades": [
-            {
-              "cidade": "SAO MATEUS",
-              "clientes": 1
+              "clientes": 3
             }
           ]
         },
@@ -4532,24 +4740,24 @@ const RAIOX_CLIENTES_DATA = {
           ]
         },
         "MG-327": {
-          "total_clientes": 43,
-          "clientes_ativos_mes": 23,
-          "cobertura_pct": 53.5,
-          "faturamento_ytd": 568308.6,
-          "media_mensal": 81186.94,
+          "total_clientes": 45,
+          "clientes_ativos_mes": 30,
+          "cobertura_pct": 66.7,
+          "faturamento_ytd": 650062.71,
+          "media_mensal": 92866.1,
           "por_mes": {
             "2026-01": 59077.16,
-            "2026-02": 61227.9,
-            "2026-03": 69687.82,
-            "2026-04": 70074.02,
-            "2026-05": 102497.6,
+            "2026-02": 59318.78,
+            "2026-03": 69518.98,
+            "2026-04": 63056.58,
+            "2026-05": 102011.54,
             "2026-06": 144384.28,
-            "2026-07": 61359.82
+            "2026-07": 152695.39
           },
           "top_cidades": [
             {
               "cidade": "BELO HORIZONTE",
-              "clientes": 34
+              "clientes": 35
             },
             {
               "cidade": "BETIM",
@@ -4566,36 +4774,40 @@ const RAIOX_CLIENTES_DATA = {
             {
               "cidade": "IBIRITE",
               "clientes": 1
+            },
+            {
+              "cidade": "SARZEDO",
+              "clientes": 1
             }
           ]
         },
         "MG-331": {
-          "total_clientes": 6,
-          "clientes_ativos_mes": 1,
-          "cobertura_pct": 16.7,
-          "faturamento_ytd": 49756.64,
-          "media_mensal": 8292.77,
+          "total_clientes": 7,
+          "clientes_ativos_mes": 3,
+          "cobertura_pct": 42.9,
+          "faturamento_ytd": 57435.52,
+          "media_mensal": 9572.59,
           "por_mes": {
             "2026-02": 778.5,
             "2026-03": 1001.0,
             "2026-04": 842.6,
             "2026-05": 17222.88,
             "2026-06": 17128.56,
-            "2026-07": 12783.1
+            "2026-07": 20461.98
           },
           "top_cidades": [
             {
               "cidade": "JUIZ DE FORA",
-              "clientes": 6
+              "clientes": 7
             }
           ]
         },
         "MG-343": {
           "total_clientes": 30,
-          "clientes_ativos_mes": 6,
-          "cobertura_pct": 20.0,
-          "faturamento_ytd": 1751632.52,
-          "media_mensal": 250233.22,
+          "clientes_ativos_mes": 8,
+          "cobertura_pct": 26.7,
+          "faturamento_ytd": 1878710.22,
+          "media_mensal": 268387.17,
           "por_mes": {
             "2026-01": 375653.76,
             "2026-02": 417002.18,
@@ -4603,7 +4815,7 @@ const RAIOX_CLIENTES_DATA = {
             "2026-04": 86770.18,
             "2026-05": 183516.48,
             "2026-06": 240314.92,
-            "2026-07": 71484.78
+            "2026-07": 198562.48
           },
           "top_cidades": [
             {
@@ -4649,24 +4861,24 @@ const RAIOX_CLIENTES_DATA = {
           ]
         },
         "MG-344": {
-          "total_clientes": 14,
-          "clientes_ativos_mes": 7,
-          "cobertura_pct": 50.0,
-          "faturamento_ytd": 62911.17,
-          "media_mensal": 8987.31,
+          "total_clientes": 12,
+          "clientes_ativos_mes": 11,
+          "cobertura_pct": 91.7,
+          "faturamento_ytd": 74959.49,
+          "media_mensal": 10708.5,
           "por_mes": {
             "2026-01": 4729.98,
-            "2026-02": 8098.12,
+            "2026-02": 7668.52,
             "2026-03": 15444.51,
-            "2026-04": 7471.28,
+            "2026-04": 6441.68,
             "2026-05": 11100.8,
             "2026-06": 10897.12,
-            "2026-07": 5169.36
+            "2026-07": 18676.88
           },
           "top_cidades": [
             {
               "cidade": "BELO HORIZONTE",
-              "clientes": 14
+              "clientes": 12
             }
           ]
         },
@@ -4708,24 +4920,19 @@ const RAIOX_CLIENTES_DATA = {
           ]
         },
         "MG-362": {
-          "total_clientes": 3,
-          "clientes_ativos_mes": 3,
+          "total_clientes": 1,
+          "clientes_ativos_mes": 1,
           "cobertura_pct": 100.0,
-          "faturamento_ytd": 7268.96,
-          "media_mensal": 1817.24,
+          "faturamento_ytd": 4603.78,
+          "media_mensal": 1534.59,
           "por_mes": {
-            "2026-03": 2627.5,
-            "2026-04": 324.46,
-            "2026-06": 1775.0,
-            "2026-07": 2542.0
+            "2026-03": 1869.78,
+            "2026-06": 1468.4,
+            "2026-07": 1265.6
           },
           "top_cidades": [
             {
               "cidade": "BELO HORIZONTE",
-              "clientes": 2
-            },
-            {
-              "cidade": "CONTAGEM",
               "clientes": 1
             }
           ]
@@ -4762,10 +4969,10 @@ const RAIOX_CLIENTES_DATA = {
         },
         "RJ-144": {
           "total_clientes": 11,
-          "clientes_ativos_mes": 6,
-          "cobertura_pct": 54.5,
-          "faturamento_ytd": 226940.08,
-          "media_mensal": 32420.01,
+          "clientes_ativos_mes": 8,
+          "cobertura_pct": 72.7,
+          "faturamento_ytd": 241838.68,
+          "media_mensal": 34548.38,
           "por_mes": {
             "2026-01": 11758.98,
             "2026-02": 3384.56,
@@ -4773,7 +4980,7 @@ const RAIOX_CLIENTES_DATA = {
             "2026-04": 65939.38,
             "2026-05": 17815.3,
             "2026-06": 43482.1,
-            "2026-07": 36138.64
+            "2026-07": 51037.24
           },
           "top_cidades": [
             {
@@ -4794,8 +5001,8 @@ const RAIOX_CLIENTES_DATA = {
           "total_clientes": 2,
           "clientes_ativos_mes": 2,
           "cobertura_pct": 100.0,
-          "faturamento_ytd": 424199.06,
-          "media_mensal": 60599.87,
+          "faturamento_ytd": 451158.74,
+          "media_mensal": 64451.25,
           "por_mes": {
             "2026-01": 26796.0,
             "2026-02": 47618.64,
@@ -4803,7 +5010,7 @@ const RAIOX_CLIENTES_DATA = {
             "2026-04": 40223.24,
             "2026-05": 77793.12,
             "2026-06": 62662.56,
-            "2026-07": 81274.76
+            "2026-07": 108234.44
           },
           "top_cidades": [
             {
@@ -4818,18 +5025,18 @@ const RAIOX_CLIENTES_DATA = {
         },
         "RJ-155": {
           "total_clientes": 39,
-          "clientes_ativos_mes": 25,
-          "cobertura_pct": 64.1,
-          "faturamento_ytd": 816505.53,
-          "media_mensal": 116643.65,
+          "clientes_ativos_mes": 27,
+          "cobertura_pct": 69.2,
+          "faturamento_ytd": 831710.64,
+          "media_mensal": 118815.81,
           "por_mes": {
-            "2026-01": 256449.91,
-            "2026-02": 111076.79,
-            "2026-03": 112330.17,
-            "2026-04": 119350.1,
-            "2026-05": 85151.2,
+            "2026-01": 260225.69,
+            "2026-02": 107984.86,
+            "2026-03": 105351.59,
+            "2026-04": 117801.36,
+            "2026-05": 84322.46,
             "2026-06": 68862.72,
-            "2026-07": 63284.63
+            "2026-07": 87161.95
           },
           "top_cidades": [
             {
@@ -4841,6 +5048,10 @@ const RAIOX_CLIENTES_DATA = {
               "clientes": 8
             },
             {
+              "cidade": "ARRAIAL DO CABO",
+              "clientes": 2
+            },
+            {
               "cidade": "NITEROI",
               "clientes": 2
             },
@@ -4849,19 +5060,11 @@ const RAIOX_CLIENTES_DATA = {
               "clientes": 1
             },
             {
-              "cidade": "ARRAIAL DO CABO",
-              "clientes": 1
-            },
-            {
               "cidade": "MACAE",
               "clientes": 1
             },
             {
               "cidade": "RIO DAS OSTRAS",
-              "clientes": 1
-            },
-            {
-              "cidade": "RIO DE JANEIRO",
               "clientes": 1
             },
             {
@@ -4876,17 +5079,17 @@ const RAIOX_CLIENTES_DATA = {
         },
         "RJ-156": {
           "total_clientes": 5,
-          "clientes_ativos_mes": 1,
-          "cobertura_pct": 20.0,
-          "faturamento_ytd": 9069.68,
-          "media_mensal": 1511.61,
+          "clientes_ativos_mes": 2,
+          "cobertura_pct": 40.0,
+          "faturamento_ytd": 10280.08,
+          "media_mensal": 1713.35,
           "por_mes": {
             "2026-01": 1482.0,
             "2026-02": 1063.5,
             "2026-03": 405.6,
             "2026-04": 99.5,
             "2026-05": 2973.88,
-            "2026-07": 3045.2
+            "2026-07": 4255.6
           },
           "top_cidades": [
             {
@@ -4904,32 +5107,28 @@ const RAIOX_CLIENTES_DATA = {
           ]
         },
         "RJ-159": {
-          "total_clientes": 20,
-          "clientes_ativos_mes": 9,
-          "cobertura_pct": 45.0,
-          "faturamento_ytd": 549441.61,
-          "media_mensal": 78491.66,
+          "total_clientes": 21,
+          "clientes_ativos_mes": 12,
+          "cobertura_pct": 57.1,
+          "faturamento_ytd": 573451.23,
+          "media_mensal": 81921.6,
           "por_mes": {
-            "2026-01": 163171.89,
-            "2026-02": 118189.25,
-            "2026-03": 106412.17,
-            "2026-04": 54680.24,
+            "2026-01": 164391.12,
+            "2026-02": 121705.01,
+            "2026-03": 105904.51,
+            "2026-04": 53826.01,
             "2026-05": 29449.58,
             "2026-06": 48232.36,
-            "2026-07": 29306.12
+            "2026-07": 49942.64
           },
           "top_cidades": [
             {
               "cidade": "MACAE",
-              "clientes": 8
-            },
-            {
-              "cidade": "SAQUAREMA",
-              "clientes": 2
+              "clientes": 9
             },
             {
               "cidade": "CABO FRIO",
-              "clientes": 2
+              "clientes": 3
             },
             {
               "cidade": "PETROPOLIS",
@@ -4940,8 +5139,8 @@ const RAIOX_CLIENTES_DATA = {
               "clientes": 2
             },
             {
-              "cidade": "ARRAIAL DO CABO",
-              "clientes": 1
+              "cidade": "SAQUAREMA",
+              "clientes": 2
             },
             {
               "cidade": "NITEROI",
@@ -4994,10 +5193,10 @@ const RAIOX_CLIENTES_DATA = {
         },
         "RJ-241": {
           "total_clientes": 11,
-          "clientes_ativos_mes": 5,
-          "cobertura_pct": 45.5,
-          "faturamento_ytd": 136193.39,
-          "media_mensal": 19456.2,
+          "clientes_ativos_mes": 6,
+          "cobertura_pct": 54.5,
+          "faturamento_ytd": 136899.71,
+          "media_mensal": 19557.1,
           "por_mes": {
             "2026-01": 19801.8,
             "2026-02": 17362.69,
@@ -5005,7 +5204,7 @@ const RAIOX_CLIENTES_DATA = {
             "2026-04": 1073.02,
             "2026-05": 86111.9,
             "2026-06": 3171.74,
-            "2026-07": 5320.52
+            "2026-07": 6026.84
           },
           "top_cidades": [
             {
@@ -5023,39 +5222,39 @@ const RAIOX_CLIENTES_DATA = {
           ]
         },
         "RJ-378": {
-          "total_clientes": 5,
-          "clientes_ativos_mes": 4,
-          "cobertura_pct": 80.0,
-          "faturamento_ytd": 113496.74,
-          "media_mensal": 16213.82,
+          "total_clientes": 6,
+          "clientes_ativos_mes": 5,
+          "cobertura_pct": 83.3,
+          "faturamento_ytd": 134290.2,
+          "media_mensal": 19184.31,
           "por_mes": {
             "2026-01": 10945.18,
-            "2026-02": 2180.98,
-            "2026-03": 20316.28,
+            "2026-02": 2498.88,
+            "2026-03": 20488.08,
             "2026-04": 35871.1,
             "2026-05": 13908.54,
             "2026-06": 15122.06,
-            "2026-07": 15152.6
+            "2026-07": 35456.36
           },
           "top_cidades": [
             {
               "cidade": "RIO DE JANEIRO",
-              "clientes": 5
+              "clientes": 6
             }
           ]
         },
         "RJ-379": {
-          "total_clientes": 5,
+          "total_clientes": 4,
           "clientes_ativos_mes": 4,
-          "cobertura_pct": 80.0,
-          "faturamento_ytd": 26647.41,
-          "media_mensal": 3806.77,
+          "cobertura_pct": 100.0,
+          "faturamento_ytd": 18807.49,
+          "media_mensal": 2686.78,
           "por_mes": {
             "2026-01": 1599.34,
-            "2026-02": 4114.75,
+            "2026-02": 2744.47,
             "2026-03": 2432.62,
-            "2026-04": 8368.43,
-            "2026-05": 6021.27,
+            "2026-04": 5782.33,
+            "2026-05": 2137.73,
             "2026-06": 1546.46,
             "2026-07": 2564.54
           },
@@ -5065,10 +5264,6 @@ const RAIOX_CLIENTES_DATA = {
               "clientes": 3
             },
             {
-              "cidade": "NOVA IGUACU",
-              "clientes": 1
-            },
-            {
               "cidade": "SAO JOAO DE MER",
               "clientes": 1
             }
@@ -5076,10 +5271,10 @@ const RAIOX_CLIENTES_DATA = {
         },
         "RJ-419": {
           "total_clientes": 12,
-          "clientes_ativos_mes": 8,
-          "cobertura_pct": 66.7,
-          "faturamento_ytd": 140047.64,
-          "media_mensal": 20006.81,
+          "clientes_ativos_mes": 11,
+          "cobertura_pct": 91.7,
+          "faturamento_ytd": 170457.64,
+          "media_mensal": 24351.09,
           "por_mes": {
             "2026-01": 20461.25,
             "2026-02": 9831.49,
@@ -5087,7 +5282,7 @@ const RAIOX_CLIENTES_DATA = {
             "2026-04": 21613.58,
             "2026-05": 9854.04,
             "2026-06": 38039.01,
-            "2026-07": 10022.5
+            "2026-07": 40432.5
           },
           "top_cidades": [
             {
@@ -5101,54 +5296,58 @@ const RAIOX_CLIENTES_DATA = {
           ]
         },
         "RJ-431": {
-          "total_clientes": 5,
+          "total_clientes": 3,
           "clientes_ativos_mes": 2,
-          "cobertura_pct": 40.0,
-          "faturamento_ytd": 32980.26,
-          "media_mensal": 4711.47,
+          "cobertura_pct": 66.7,
+          "faturamento_ytd": 28182.99,
+          "media_mensal": 4026.14,
           "por_mes": {
-            "2026-01": 6140.62,
-            "2026-02": 2891.19,
-            "2026-03": 2414.95,
-            "2026-04": 6094.77,
-            "2026-05": 4341.49,
+            "2026-01": 4745.38,
+            "2026-02": 463.6,
+            "2026-03": 2147.75,
+            "2026-04": 5223.33,
+            "2026-05": 4205.89,
             "2026-06": 5891.18,
-            "2026-07": 5206.06
+            "2026-07": 5505.86
           },
           "top_cidades": [
             {
               "cidade": "RIO DE JANEIRO",
-              "clientes": 5
+              "clientes": 3
             }
           ]
         },
         "RJ-439": {
-          "total_clientes": 4,
-          "clientes_ativos_mes": 3,
-          "cobertura_pct": 75.0,
-          "faturamento_ytd": 18143.8,
-          "media_mensal": 3023.97,
+          "total_clientes": 5,
+          "clientes_ativos_mes": 4,
+          "cobertura_pct": 80.0,
+          "faturamento_ytd": 23898.24,
+          "media_mensal": 3983.04,
           "por_mes": {
-            "2026-01": 8586.6,
-            "2026-03": 922.8,
+            "2026-01": 10264.2,
+            "2026-03": 3545.44,
             "2026-04": 2406.9,
             "2026-05": 2462.8,
-            "2026-06": 1700.4,
-            "2026-07": 2064.3
+            "2026-06": 2175.6,
+            "2026-07": 3043.3
           },
           "top_cidades": [
             {
               "cidade": "ANGRA DOS REIS",
               "clientes": 4
+            },
+            {
+              "cidade": "MANGARATIBA",
+              "clientes": 1
             }
           ]
         },
         "RJ-471": {
           "total_clientes": 5,
-          "clientes_ativos_mes": 2,
-          "cobertura_pct": 40.0,
-          "faturamento_ytd": 55180.54,
-          "media_mensal": 7882.93,
+          "clientes_ativos_mes": 3,
+          "cobertura_pct": 60.0,
+          "faturamento_ytd": 56597.74,
+          "media_mensal": 8085.39,
           "por_mes": {
             "2026-01": 1941.02,
             "2026-02": 16058.4,
@@ -5156,7 +5355,7 @@ const RAIOX_CLIENTES_DATA = {
             "2026-04": 4832.8,
             "2026-05": 20462.08,
             "2026-06": 4355.88,
-            "2026-07": 3789.22
+            "2026-07": 5206.42
           },
           "top_cidades": [
             {
@@ -5183,6 +5382,26 @@ const RAIOX_CLIENTES_DATA = {
           "top_cidades": [
             {
               "cidade": "GUARUJA",
+              "clientes": 1
+            }
+          ]
+        },
+        "SP-318": {
+          "total_clientes": 1,
+          "clientes_ativos_mes": 1,
+          "cobertura_pct": 100.0,
+          "faturamento_ytd": 242162.4,
+          "media_mensal": 48432.48,
+          "por_mes": {
+            "2026-02": 70014.0,
+            "2026-03": 50160.0,
+            "2026-04": 40820.4,
+            "2026-06": 67374.0,
+            "2026-07": 13794.0
+          },
+          "top_cidades": [
+            {
+              "cidade": "EMBU",
               "clientes": 1
             }
           ]
@@ -5244,7 +5463,7 @@ const RAIOX_CLIENTES_DATA = {
           ]
         },
         "SP-425": {
-          "total_clientes": 1,
+          "total_clientes": 3,
           "clientes_ativos_mes": 0,
           "cobertura_pct": 0.0,
           "faturamento_ytd": 780.24,
@@ -5255,6 +5474,14 @@ const RAIOX_CLIENTES_DATA = {
           },
           "top_cidades": [
             {
+              "cidade": "PIRACICABA",
+              "clientes": 1
+            },
+            {
+              "cidade": "SAO JOSE DOS CAMPOS",
+              "clientes": 1
+            },
+            {
               "cidade": "SAO PEDRO",
               "clientes": 1
             }
@@ -5264,8 +5491,8 @@ const RAIOX_CLIENTES_DATA = {
           "total_clientes": 3,
           "clientes_ativos_mes": 2,
           "cobertura_pct": 66.7,
-          "faturamento_ytd": 230373.81,
-          "media_mensal": 32910.54,
+          "faturamento_ytd": 247362.92,
+          "media_mensal": 35337.56,
           "por_mes": {
             "2026-01": 43604.17,
             "2026-02": 50300.0,
@@ -5273,7 +5500,7 @@ const RAIOX_CLIENTES_DATA = {
             "2026-04": 26944.92,
             "2026-05": 23459.4,
             "2026-06": 21607.92,
-            "2026-07": 22389.9
+            "2026-07": 39379.01
           },
           "top_cidades": [
             {
@@ -5294,16 +5521,16 @@ const RAIOX_CLIENTES_DATA = {
           "total_clientes": 2,
           "clientes_ativos_mes": 1,
           "cobertura_pct": 50.0,
-          "faturamento_ytd": 111964.32,
-          "media_mensal": 15994.9,
+          "faturamento_ytd": 129743.52,
+          "media_mensal": 18534.79,
           "por_mes": {
             "2026-01": 2368.8,
             "2026-02": 7755.6,
             "2026-03": 31599.6,
             "2026-04": 15783.0,
             "2026-05": 3468.97,
-            "2026-06": 38923.8,
-            "2026-07": 12064.55
+            "2026-06": 36104.4,
+            "2026-07": 32663.15
           },
           "top_cidades": [
             {
@@ -5339,12 +5566,12 @@ const RAIOX_CLIENTES_DATA = {
           "total_clientes": 6,
           "clientes_ativos_mes": 5,
           "cobertura_pct": 83.3,
-          "faturamento_ytd": 42107.76,
-          "media_mensal": 14035.92,
+          "faturamento_ytd": 43377.36,
+          "media_mensal": 14459.12,
           "por_mes": {
             "2026-05": 11990.4,
             "2026-06": 15583.96,
-            "2026-07": 14533.4
+            "2026-07": 15803.0
           },
           "top_cidades": [
             {
@@ -5362,19 +5589,19 @@ const RAIOX_CLIENTES_DATA = {
           ]
         },
         "SP-465": {
-          "total_clientes": 2,
+          "total_clientes": 1,
           "clientes_ativos_mes": 1,
-          "cobertura_pct": 50.0,
-          "faturamento_ytd": 2440.8,
-          "media_mensal": 1220.4,
+          "cobertura_pct": 100.0,
+          "faturamento_ytd": 1404.6,
+          "media_mensal": 702.3,
           "por_mes": {
-            "2026-05": 1849.3,
+            "2026-05": 813.1,
             "2026-07": 591.5
           },
           "top_cidades": [
             {
               "cidade": "TAUBATE",
-              "clientes": 2
+              "clientes": 1
             }
           ]
         },
@@ -5382,12 +5609,12 @@ const RAIOX_CLIENTES_DATA = {
           "total_clientes": 2,
           "clientes_ativos_mes": 1,
           "cobertura_pct": 50.0,
-          "faturamento_ytd": 10665.1,
-          "media_mensal": 3555.03,
+          "faturamento_ytd": 13278.7,
+          "media_mensal": 4426.23,
           "por_mes": {
             "2026-05": 1338.0,
             "2026-06": 1785.0,
-            "2026-07": 7542.1
+            "2026-07": 10155.7
           },
           "top_cidades": [
             {
@@ -5397,36 +5624,40 @@ const RAIOX_CLIENTES_DATA = {
           ]
         },
         "SP-467": {
-          "total_clientes": 4,
-          "clientes_ativos_mes": 2,
-          "cobertura_pct": 50.0,
-          "faturamento_ytd": 16116.22,
-          "media_mensal": 2686.04,
+          "total_clientes": 3,
+          "clientes_ativos_mes": 3,
+          "cobertura_pct": 100.0,
+          "faturamento_ytd": 22335.12,
+          "media_mensal": 3722.52,
           "por_mes": {
             "2026-01": 771.5,
             "2026-02": 308.7,
             "2026-04": 155.7,
             "2026-05": 4082.34,
             "2026-06": 3357.28,
-            "2026-07": 7440.7
+            "2026-07": 13659.6
           },
           "top_cidades": [
             {
               "cidade": "GUARULHOS",
-              "clientes": 4
+              "clientes": 3
             }
           ]
         },
         "SP-469": {
-          "total_clientes": 1,
-          "clientes_ativos_mes": 1,
+          "total_clientes": 2,
+          "clientes_ativos_mes": 2,
           "cobertura_pct": 100.0,
-          "faturamento_ytd": 4603.2,
-          "media_mensal": 4603.2,
+          "faturamento_ytd": 4866.0,
+          "media_mensal": 4866.0,
           "por_mes": {
-            "2026-07": 4603.2
+            "2026-07": 4866.0
           },
           "top_cidades": [
+            {
+              "cidade": "HORTOLANDIA",
+              "clientes": 1
+            },
             {
               "cidade": "LIMEIRA",
               "clientes": 1
@@ -5468,20 +5699,20 @@ const RAIOX_CLIENTES_DATA = {
           ]
         },
         "SP-476": {
-          "total_clientes": 8,
-          "clientes_ativos_mes": 5,
-          "cobertura_pct": 62.5,
-          "faturamento_ytd": 30447.53,
-          "media_mensal": 10149.18,
+          "total_clientes": 7,
+          "clientes_ativos_mes": 6,
+          "cobertura_pct": 85.7,
+          "faturamento_ytd": 36098.47,
+          "media_mensal": 12032.82,
           "por_mes": {
             "2026-05": 2618.2,
             "2026-06": 10620.69,
-            "2026-07": 17208.64
+            "2026-07": 22859.59
           },
           "top_cidades": [
             {
               "cidade": "BOTUCATU",
-              "clientes": 8
+              "clientes": 7
             }
           ]
         },
@@ -5503,18 +5734,18 @@ const RAIOX_CLIENTES_DATA = {
           ]
         },
         "SP-486": {
-          "total_clientes": 4,
-          "clientes_ativos_mes": 1,
-          "cobertura_pct": 25.0,
-          "faturamento_ytd": 6152.48,
-          "media_mensal": 1025.41,
+          "total_clientes": 5,
+          "clientes_ativos_mes": 2,
+          "cobertura_pct": 40.0,
+          "faturamento_ytd": 9537.12,
+          "media_mensal": 1589.52,
           "por_mes": {
             "2026-01": 2914.4,
             "2026-02": 457.0,
             "2026-03": 1127.4,
             "2026-04": 423.3,
             "2026-05": 428.9,
-            "2026-07": 801.48
+            "2026-07": 4186.12
           },
           "top_cidades": [
             {
@@ -5528,20 +5759,28 @@ const RAIOX_CLIENTES_DATA = {
             {
               "cidade": "PAULINIA",
               "clientes": 1
+            },
+            {
+              "cidade": "SANTA BARBARA D OESTE",
+              "clientes": 1
             }
           ]
         },
         "SP-489": {
-          "total_clientes": 1,
+          "total_clientes": 2,
           "clientes_ativos_mes": 1,
-          "cobertura_pct": 100.0,
-          "faturamento_ytd": 4991.3,
-          "media_mensal": 2495.65,
+          "cobertura_pct": 50.0,
+          "faturamento_ytd": 6543.8,
+          "media_mensal": 3271.9,
           "por_mes": {
             "2026-06": 2092.2,
-            "2026-07": 2899.1
+            "2026-07": 4451.6
           },
           "top_cidades": [
+            {
+              "cidade": "CERQUILHO",
+              "clientes": 1
+            },
             {
               "cidade": "LARANJAL PAULISTA",
               "clientes": 1
@@ -5566,19 +5805,15 @@ const RAIOX_CLIENTES_DATA = {
           ]
         },
         "SP-491": {
-          "total_clientes": 2,
+          "total_clientes": 1,
           "clientes_ativos_mes": 1,
-          "cobertura_pct": 50.0,
+          "cobertura_pct": 100.0,
           "faturamento_ytd": 448.2,
           "media_mensal": 448.2,
           "por_mes": {
             "2026-07": 448.2
           },
           "top_cidades": [
-            {
-              "cidade": "BARIRI",
-              "clientes": 1
-            },
             {
               "cidade": "JAU",
               "clientes": 1
@@ -5605,28 +5840,14 @@ const RAIOX_CLIENTES_DATA = {
           "total_clientes": 1,
           "clientes_ativos_mes": 1,
           "cobertura_pct": 100.0,
-          "faturamento_ytd": 4338.3,
-          "media_mensal": 4338.3,
+          "faturamento_ytd": 5636.7,
+          "media_mensal": 5636.7,
           "por_mes": {
-            "2026-07": 4338.3
+            "2026-07": 5636.7
           },
           "top_cidades": [
             {
               "cidade": "IBITINGA",
-              "clientes": 1
-            }
-          ]
-        },
-        "SP-502": {
-          "total_clientes": 1,
-          "clientes_ativos_mes": 0,
-          "cobertura_pct": 0.0,
-          "faturamento_ytd": 0.0,
-          "media_mensal": 0.0,
-          "por_mes": {},
-          "top_cidades": [
-            {
-              "cidade": "PRAIA GRANDE",
               "clientes": 1
             }
           ]
@@ -5646,24 +5867,116 @@ const RAIOX_CLIENTES_DATA = {
               "clientes": 1
             }
           ]
+        },
+        "SP-507": {
+          "total_clientes": 1,
+          "clientes_ativos_mes": 0,
+          "cobertura_pct": 0.0,
+          "faturamento_ytd": 0.0,
+          "media_mensal": 0.0,
+          "por_mes": {},
+          "top_cidades": [
+            {
+              "cidade": "GUARUJA",
+              "clientes": 1
+            }
+          ]
+        },
+        "SP-510": {
+          "total_clientes": 2,
+          "clientes_ativos_mes": 1,
+          "cobertura_pct": 50.0,
+          "faturamento_ytd": 2397.0,
+          "media_mensal": 2397.0,
+          "por_mes": {
+            "2026-07": 2397.0
+          },
+          "top_cidades": [
+            {
+              "cidade": "SOROCABA",
+              "clientes": 2
+            }
+          ]
+        },
+        "SP-512": {
+          "total_clientes": 1,
+          "clientes_ativos_mes": 1,
+          "cobertura_pct": 100.0,
+          "faturamento_ytd": 1305.6,
+          "media_mensal": 1305.6,
+          "por_mes": {
+            "2026-07": 1305.6
+          },
+          "top_cidades": [
+            {
+              "cidade": "SAO BERNARDO DO CAMPO",
+              "clientes": 1
+            }
+          ]
+        },
+        "SP-515": {
+          "total_clientes": 2,
+          "clientes_ativos_mes": 1,
+          "cobertura_pct": 50.0,
+          "faturamento_ytd": 13149.4,
+          "media_mensal": 2629.88,
+          "por_mes": {
+            "2026-01": 2205.6,
+            "2026-02": 3431.56,
+            "2026-03": 5703.84,
+            "2026-05": 1437.6,
+            "2026-07": 370.8
+          },
+          "top_cidades": [
+            {
+              "cidade": "FRANCO DA ROCHA",
+              "clientes": 1
+            },
+            {
+              "cidade": "SAO PAULO",
+              "clientes": 1
+            }
+          ]
+        },
+        "SP-516": {
+          "total_clientes": 6,
+          "clientes_ativos_mes": 0,
+          "cobertura_pct": 0.0,
+          "faturamento_ytd": 0.0,
+          "media_mensal": 0.0,
+          "por_mes": {},
+          "top_cidades": [
+            {
+              "cidade": "CARAGUATATUBA",
+              "clientes": 4
+            },
+            {
+              "cidade": "SAO SEBASTIAO",
+              "clientes": 1
+            },
+            {
+              "cidade": "UBATUBA",
+              "clientes": 1
+            }
+          ]
         }
       }
     },
     {
       "ramo": "EVENTOS",
-      "total_clientes": 38,
-      "clientes_ativos_mes": 12,
-      "cobertura_pct": 31.6,
-      "faturamento_ytd": 3298029.86,
-      "media_mensal": 471147.12,
+      "total_clientes": 36,
+      "clientes_ativos_mes": 18,
+      "cobertura_pct": 50.0,
+      "faturamento_ytd": 3492404.83,
+      "media_mensal": 498914.98,
       "por_mes": {
-        "2026-01": 752462.66,
-        "2026-02": 601189.64,
-        "2026-03": 625077.43,
-        "2026-04": 183929.51,
-        "2026-05": 525838.97,
-        "2026-06": 463431.68,
-        "2026-07": 146099.96
+        "2026-01": 1035296.78,
+        "2026-02": 721881.22,
+        "2026-03": 490220.63,
+        "2026-04": 129061.72,
+        "2026-05": 374292.47,
+        "2026-06": 447224.22,
+        "2026-07": 294427.78
       },
       "top_cidades": [
         {
@@ -5672,23 +5985,19 @@ const RAIOX_CLIENTES_DATA = {
         },
         {
           "cidade": "BELO HORIZONTE",
-          "clientes": 6
+          "clientes": 5
+        },
+        {
+          "cidade": "SAO PAULO",
+          "clientes": 5
         },
         {
           "cidade": "BETIM",
           "clientes": 4
         },
         {
-          "cidade": "SAO PAULO",
-          "clientes": 4
-        },
-        {
           "cidade": "CONTAGEM",
           "clientes": 2
-        },
-        {
-          "cidade": "ARARUAMA",
-          "clientes": 1
         },
         {
           "cidade": "ALEGRE",
@@ -5703,58 +6012,29 @@ const RAIOX_CLIENTES_DATA = {
           "clientes": 1
         },
         {
-          "cidade": "MACAE",
+          "cidade": "CABO FRIO",
+          "clientes": 1
+        },
+        {
+          "cidade": "ARARUAMA",
           "clientes": 1
         }
       ],
       "por_vendedor": {
-        "ES-260": {
-          "total_clientes": 1,
-          "clientes_ativos_mes": 0,
-          "cobertura_pct": 0.0,
-          "faturamento_ytd": 202.56,
-          "media_mensal": 202.56,
-          "por_mes": {
-            "2026-05": 202.56
-          },
-          "top_cidades": [
-            {
-              "cidade": "DOMINGOS MARTIN",
-              "clientes": 1
-            }
-          ]
-        },
-        "ES-342": {
-          "total_clientes": 1,
-          "clientes_ativos_mes": 0,
-          "cobertura_pct": 0.0,
-          "faturamento_ytd": 841.15,
-          "media_mensal": 420.58,
-          "por_mes": {
-            "2026-03": 358.56,
-            "2026-04": 482.59
-          },
-          "top_cidades": [
-            {
-              "cidade": "SAO MATEUS",
-              "clientes": 1
-            }
-          ]
-        },
         "MG-327": {
-          "total_clientes": 8,
-          "clientes_ativos_mes": 5,
-          "cobertura_pct": 62.5,
-          "faturamento_ytd": 180746.31,
-          "media_mensal": 25820.9,
+          "total_clientes": 7,
+          "clientes_ativos_mes": 6,
+          "cobertura_pct": 85.7,
+          "faturamento_ytd": 178673.37,
+          "media_mensal": 25524.77,
           "por_mes": {
             "2026-01": 4126.12,
-            "2026-02": 4537.52,
-            "2026-03": 16504.57,
-            "2026-04": 52712.88,
-            "2026-05": 51011.1,
-            "2026-06": 42584.76,
-            "2026-07": 9269.36
+            "2026-02": 2849.6,
+            "2026-03": 13020.53,
+            "2026-04": 47765.28,
+            "2026-05": 46204.86,
+            "2026-06": 35658.12,
+            "2026-07": 29048.86
           },
           "top_cidades": [
             {
@@ -5763,7 +6043,7 @@ const RAIOX_CLIENTES_DATA = {
             },
             {
               "cidade": "BELO HORIZONTE",
-              "clientes": 3
+              "clientes": 2
             },
             {
               "cidade": "NOVA LIMA",
@@ -5773,10 +6053,10 @@ const RAIOX_CLIENTES_DATA = {
         },
         "MG-343": {
           "total_clientes": 7,
-          "clientes_ativos_mes": 3,
-          "cobertura_pct": 42.9,
-          "faturamento_ytd": 1921728.34,
-          "media_mensal": 274532.62,
+          "clientes_ativos_mes": 4,
+          "cobertura_pct": 57.1,
+          "faturamento_ytd": 2024185.54,
+          "media_mensal": 289169.36,
           "por_mes": {
             "2026-01": 671839.92,
             "2026-02": 530947.0,
@@ -5784,7 +6064,7 @@ const RAIOX_CLIENTES_DATA = {
             "2026-04": 68307.26,
             "2026-05": 189578.9,
             "2026-06": 182330.16,
-            "2026-07": 79382.86
+            "2026-07": 181840.06
           },
           "top_cidades": [
             {
@@ -5811,12 +6091,13 @@ const RAIOX_CLIENTES_DATA = {
         },
         "MG-344": {
           "total_clientes": 1,
-          "clientes_ativos_mes": 0,
-          "cobertura_pct": 0.0,
-          "faturamento_ytd": 547.7,
-          "media_mensal": 547.7,
+          "clientes_ativos_mes": 1,
+          "cobertura_pct": 100.0,
+          "faturamento_ytd": 2487.2,
+          "media_mensal": 1243.6,
           "por_mes": {
-            "2026-05": 547.7
+            "2026-05": 547.7,
+            "2026-07": 1939.5
           },
           "top_cidades": [
             {
@@ -5826,25 +6107,15 @@ const RAIOX_CLIENTES_DATA = {
           ]
         },
         "RJ-91": {
-          "total_clientes": 3,
+          "total_clientes": 1,
           "clientes_ativos_mes": 0,
           "cobertura_pct": 0.0,
-          "faturamento_ytd": 348191.0,
-          "media_mensal": 69638.2,
-          "por_mes": {
-            "2026-01": 7361.28,
-            "2026-03": 131014.2,
-            "2026-04": 49437.6,
-            "2026-05": 146537.7,
-            "2026-06": 13840.22
-          },
+          "faturamento_ytd": 0.0,
+          "media_mensal": 0.0,
+          "por_mes": {},
           "top_cidades": [
             {
               "cidade": "RIO DE JANEIRO",
-              "clientes": 2
-            },
-            {
-              "cidade": "SAO PAULO",
               "clientes": 1
             }
           ]
@@ -5912,15 +6183,15 @@ const RAIOX_CLIENTES_DATA = {
           "total_clientes": 3,
           "clientes_ativos_mes": 2,
           "cobertura_pct": 66.7,
-          "faturamento_ytd": 13929.03,
-          "media_mensal": 2321.51,
+          "faturamento_ytd": 14521.13,
+          "media_mensal": 2420.19,
           "por_mes": {
             "2026-01": 649.4,
             "2026-03": 1797.9,
             "2026-04": 1233.0,
             "2026-05": 2032.83,
             "2026-06": 2648.3,
-            "2026-07": 5567.6
+            "2026-07": 6159.7
           },
           "top_cidades": [
             {
@@ -5937,17 +6208,32 @@ const RAIOX_CLIENTES_DATA = {
             }
           ]
         },
-        "RJ-378": {
+        "RJ-238": {
           "total_clientes": 1,
           "clientes_ativos_mes": 0,
           "cobertura_pct": 0.0,
-          "faturamento_ytd": 1581.08,
-          "media_mensal": 395.27,
+          "faturamento_ytd": 0.0,
+          "media_mensal": 0.0,
+          "por_mes": {},
+          "top_cidades": [
+            {
+              "cidade": "RIO DE JANEIRO",
+              "clientes": 1
+            }
+          ]
+        },
+        "RJ-378": {
+          "total_clientes": 1,
+          "clientes_ativos_mes": 1,
+          "cobertura_pct": 100.0,
+          "faturamento_ytd": 1751.0,
+          "media_mensal": 350.2,
           "por_mes": {
             "2026-01": 584.36,
             "2026-02": 402.0,
             "2026-05": 424.8,
-            "2026-06": 169.92
+            "2026-06": 169.92,
+            "2026-07": 169.92
           },
           "top_cidades": [
             {
@@ -5992,15 +6278,16 @@ const RAIOX_CLIENTES_DATA = {
         },
         "RJ-439": {
           "total_clientes": 3,
-          "clientes_ativos_mes": 0,
-          "cobertura_pct": 0.0,
-          "faturamento_ytd": 4034.72,
-          "media_mensal": 1008.68,
+          "clientes_ativos_mes": 2,
+          "cobertura_pct": 66.7,
+          "faturamento_ytd": 4933.32,
+          "media_mensal": 986.66,
           "por_mes": {
             "2026-01": 843.54,
             "2026-04": 2300.18,
             "2026-05": 481.0,
-            "2026-06": 410.0
+            "2026-06": 410.0,
+            "2026-07": 898.6
           },
           "top_cidades": [
             {
@@ -6017,25 +6304,41 @@ const RAIOX_CLIENTES_DATA = {
             }
           ]
         },
-        "SP-399": {
-          "total_clientes": 5,
-          "clientes_ativos_mes": 1,
-          "cobertura_pct": 20.0,
-          "faturamento_ytd": 770142.32,
-          "media_mensal": 110020.33,
+        "SP-391": {
+          "total_clientes": 1,
+          "clientes_ativos_mes": 0,
+          "cobertura_pct": 0.0,
+          "faturamento_ytd": 4559.4,
+          "media_mensal": 4559.4,
           "por_mes": {
-            "2026-01": 59233.36,
-            "2026-02": 53908.5,
-            "2026-03": 268816.76,
-            "2026-04": 5219.4,
-            "2026-05": 128303.7,
-            "2026-06": 206078.6,
-            "2026-07": 48582.0
+            "2026-06": 4559.4
           },
           "top_cidades": [
             {
               "cidade": "SAO PAULO",
-              "clientes": 2
+              "clientes": 1
+            }
+          ]
+        },
+        "SP-399": {
+          "total_clientes": 6,
+          "clientes_ativos_mes": 1,
+          "cobertura_pct": 16.7,
+          "faturamento_ytd": 1205208.22,
+          "media_mensal": 172172.6,
+          "por_mes": {
+            "2026-01": 349428.76,
+            "2026-02": 176288.0,
+            "2026-03": 268816.76,
+            "2026-04": 5219.4,
+            "2026-05": 128303.7,
+            "2026-06": 206078.6,
+            "2026-07": 71073.0
+          },
+          "top_cidades": [
+            {
+              "cidade": "SAO PAULO",
+              "clientes": 3
             },
             {
               "cidade": "ALEGRE",
@@ -6068,49 +6371,1187 @@ const RAIOX_CLIENTES_DATA = {
       }
     },
     {
-      "ramo": "RESTAURANTE",
-      "total_clientes": 332,
-      "clientes_ativos_mes": 145,
+      "ramo": "DISTRIBUIDORA DE BEBIDA",
+      "total_clientes": 199,
+      "clientes_ativos_mes": 87,
       "cobertura_pct": 43.7,
-      "faturamento_ytd": 2418087.51,
-      "media_mensal": 345441.07,
+      "faturamento_ytd": 2936350.88,
+      "media_mensal": 419478.7,
       "por_mes": {
-        "2026-01": 452584.44,
-        "2026-02": 325797.56,
-        "2026-03": 365406.38,
-        "2026-04": 354449.23,
-        "2026-05": 356241.78,
-        "2026-06": 347332.7,
-        "2026-07": 216275.42
+        "2026-01": 459726.55,
+        "2026-02": 223565.16,
+        "2026-03": 637103.92,
+        "2026-04": 125902.55,
+        "2026-05": 602267.65,
+        "2026-06": 396915.77,
+        "2026-07": 490869.28
+      },
+      "top_cidades": [
+        {
+          "cidade": "RIO DE JANEIRO",
+          "clientes": 24
+        },
+        {
+          "cidade": "SAO PAULO",
+          "clientes": 23
+        },
+        {
+          "cidade": "CAMPINAS",
+          "clientes": 8
+        },
+        {
+          "cidade": "BOTUCATU",
+          "clientes": 8
+        },
+        {
+          "cidade": "BELO HORIZONTE",
+          "clientes": 8
+        },
+        {
+          "cidade": "CARAGUATATUBA",
+          "clientes": 7
+        },
+        {
+          "cidade": "CABO FRIO",
+          "clientes": 6
+        },
+        {
+          "cidade": "BETIM",
+          "clientes": 5
+        },
+        {
+          "cidade": "SAO BERNARDO DO CAMPO",
+          "clientes": 5
+        },
+        {
+          "cidade": "ARMACAO DOS BUZ",
+          "clientes": 4
+        }
+      ],
+      "por_vendedor": {
+        "ES-343": {
+          "total_clientes": 1,
+          "clientes_ativos_mes": 0,
+          "cobertura_pct": 0.0,
+          "faturamento_ytd": 0.0,
+          "media_mensal": 0.0,
+          "por_mes": {},
+          "top_cidades": [
+            {
+              "cidade": "CARIACICA",
+              "clientes": 1
+            }
+          ]
+        },
+        "ES-376": {
+          "total_clientes": 1,
+          "clientes_ativos_mes": 0,
+          "cobertura_pct": 0.0,
+          "faturamento_ytd": 0.0,
+          "media_mensal": 0.0,
+          "por_mes": {},
+          "top_cidades": [
+            {
+              "cidade": "BRASILIA",
+              "clientes": 1
+            }
+          ]
+        },
+        "MG-327": {
+          "total_clientes": 2,
+          "clientes_ativos_mes": 0,
+          "cobertura_pct": 0.0,
+          "faturamento_ytd": 7605.48,
+          "media_mensal": 1901.37,
+          "por_mes": {
+            "2026-02": 3366.96,
+            "2026-04": 2845.8,
+            "2026-05": 778.8,
+            "2026-06": 613.92
+          },
+          "top_cidades": [
+            {
+              "cidade": "BELO HORIZONTE",
+              "clientes": 2
+            }
+          ]
+        },
+        "MG-343": {
+          "total_clientes": 19,
+          "clientes_ativos_mes": 2,
+          "cobertura_pct": 10.5,
+          "faturamento_ytd": 368155.54,
+          "media_mensal": 52593.65,
+          "por_mes": {
+            "2026-01": 117345.74,
+            "2026-02": 617.4,
+            "2026-03": 3624.0,
+            "2026-04": 14649.0,
+            "2026-05": 103789.2,
+            "2026-06": 1849.34,
+            "2026-07": 126280.86
+          },
+          "top_cidades": [
+            {
+              "cidade": "BELO HORIZONTE",
+              "clientes": 5
+            },
+            {
+              "cidade": "BETIM",
+              "clientes": 5
+            },
+            {
+              "cidade": "CONTAGEM",
+              "clientes": 2
+            },
+            {
+              "cidade": "PARA DE MINAS",
+              "clientes": 2
+            },
+            {
+              "cidade": "BARBACENA",
+              "clientes": 1
+            },
+            {
+              "cidade": "NOVA LIMA",
+              "clientes": 1
+            },
+            {
+              "cidade": "POCOS DE CALDAS",
+              "clientes": 1
+            },
+            {
+              "cidade": "RIBEIRAO DAS NEVES",
+              "clientes": 1
+            },
+            {
+              "cidade": "VARGINHA",
+              "clientes": 1
+            }
+          ]
+        },
+        "MG-344": {
+          "total_clientes": 1,
+          "clientes_ativos_mes": 0,
+          "cobertura_pct": 0.0,
+          "faturamento_ytd": 1484.0,
+          "media_mensal": 742.0,
+          "por_mes": {
+            "2026-02": 267.8,
+            "2026-06": 1216.2
+          },
+          "top_cidades": [
+            {
+              "cidade": "BELO HORIZONTE",
+              "clientes": 1
+            }
+          ]
+        },
+        "RJ-91": {
+          "total_clientes": 1,
+          "clientes_ativos_mes": 0,
+          "cobertura_pct": 0.0,
+          "faturamento_ytd": 480.0,
+          "media_mensal": 480.0,
+          "por_mes": {
+            "2026-01": 480.0
+          },
+          "top_cidades": [
+            {
+              "cidade": "PORTO ALEGRE",
+              "clientes": 1
+            }
+          ]
+        },
+        "RJ-144": {
+          "total_clientes": 2,
+          "clientes_ativos_mes": 1,
+          "cobertura_pct": 50.0,
+          "faturamento_ytd": 3057.8,
+          "media_mensal": 3057.8,
+          "por_mes": {
+            "2026-07": 3057.8
+          },
+          "top_cidades": [
+            {
+              "cidade": "RIO DE JANEIRO",
+              "clientes": 2
+            }
+          ]
+        },
+        "RJ-153": {
+          "total_clientes": 1,
+          "clientes_ativos_mes": 0,
+          "cobertura_pct": 0.0,
+          "faturamento_ytd": 677545.92,
+          "media_mensal": 169386.48,
+          "por_mes": {
+            "2026-01": 44352.0,
+            "2026-03": 501776.64,
+            "2026-05": 262.08,
+            "2026-06": 131155.2
+          },
+          "top_cidades": [
+            {
+              "cidade": "RIO DE JANEIRO",
+              "clientes": 1
+            }
+          ]
+        },
+        "RJ-155": {
+          "total_clientes": 11,
+          "clientes_ativos_mes": 6,
+          "cobertura_pct": 54.5,
+          "faturamento_ytd": 113685.53,
+          "media_mensal": 16240.79,
+          "por_mes": {
+            "2026-01": 37157.97,
+            "2026-02": 30500.4,
+            "2026-03": 13548.32,
+            "2026-04": 4194.6,
+            "2026-05": 1959.0,
+            "2026-06": 8594.88,
+            "2026-07": 17730.36
+          },
+          "top_cidades": [
+            {
+              "cidade": "ARMACAO DOS BUZ",
+              "clientes": 4
+            },
+            {
+              "cidade": "CABO FRIO",
+              "clientes": 4
+            },
+            {
+              "cidade": "ARRAIAL DO CABO",
+              "clientes": 1
+            },
+            {
+              "cidade": "NITEROI",
+              "clientes": 1
+            },
+            {
+              "cidade": "RIO DE JANEIRO",
+              "clientes": 1
+            }
+          ]
+        },
+        "RJ-156": {
+          "total_clientes": 2,
+          "clientes_ativos_mes": 0,
+          "cobertura_pct": 0.0,
+          "faturamento_ytd": 0.0,
+          "media_mensal": 0.0,
+          "por_mes": {},
+          "top_cidades": [
+            {
+              "cidade": "RIO DE JANEIRO",
+              "clientes": 2
+            }
+          ]
+        },
+        "RJ-158": {
+          "total_clientes": 2,
+          "clientes_ativos_mes": 1,
+          "cobertura_pct": 50.0,
+          "faturamento_ytd": 94560.72,
+          "media_mensal": 15760.12,
+          "por_mes": {
+            "2026-01": 54791.4,
+            "2026-02": 6532.2,
+            "2026-03": 18930.96,
+            "2026-04": 11520.0,
+            "2026-05": 1588.56,
+            "2026-07": 1197.6
+          },
+          "top_cidades": [
+            {
+              "cidade": "ITABORAI",
+              "clientes": 1
+            },
+            {
+              "cidade": "RIO DE JANEIRO",
+              "clientes": 1
+            }
+          ]
+        },
+        "RJ-159": {
+          "total_clientes": 6,
+          "clientes_ativos_mes": 5,
+          "cobertura_pct": 83.3,
+          "faturamento_ytd": 147707.58,
+          "media_mensal": 24617.93,
+          "por_mes": {
+            "2026-01": 13403.7,
+            "2026-02": 12235.8,
+            "2026-04": 266.7,
+            "2026-05": 51870.6,
+            "2026-06": 36120.9,
+            "2026-07": 33809.88
+          },
+          "top_cidades": [
+            {
+              "cidade": "MACAE",
+              "clientes": 3
+            },
+            {
+              "cidade": "CABO FRIO",
+              "clientes": 1
+            },
+            {
+              "cidade": "RIO DE JANEIRO",
+              "clientes": 1
+            },
+            {
+              "cidade": "SAO PEDRO DA AL",
+              "clientes": 1
+            }
+          ]
+        },
+        "RJ-241": {
+          "total_clientes": 6,
+          "clientes_ativos_mes": 4,
+          "cobertura_pct": 66.7,
+          "faturamento_ytd": 24885.88,
+          "media_mensal": 4147.65,
+          "por_mes": {
+            "2026-01": 1647.0,
+            "2026-02": 4208.3,
+            "2026-03": 716.8,
+            "2026-05": 1438.8,
+            "2026-06": 9014.2,
+            "2026-07": 7860.78
+          },
+          "top_cidades": [
+            {
+              "cidade": "RIO DAS OSTRAS",
+              "clientes": 4
+            },
+            {
+              "cidade": "CABO FRIO",
+              "clientes": 1
+            },
+            {
+              "cidade": "MACAE",
+              "clientes": 1
+            }
+          ]
+        },
+        "RJ-275": {
+          "total_clientes": 1,
+          "clientes_ativos_mes": 0,
+          "cobertura_pct": 0.0,
+          "faturamento_ytd": 14902.2,
+          "media_mensal": 7451.1,
+          "por_mes": {
+            "2026-03": 8347.2,
+            "2026-05": 6555.0
+          },
+          "top_cidades": [
+            {
+              "cidade": "QUEIMADOS",
+              "clientes": 1
+            }
+          ]
+        },
+        "RJ-378": {
+          "total_clientes": 3,
+          "clientes_ativos_mes": 2,
+          "cobertura_pct": 66.7,
+          "faturamento_ytd": 3274.62,
+          "media_mensal": 1637.31,
+          "por_mes": {
+            "2026-06": 59.88,
+            "2026-07": 3214.74
+          },
+          "top_cidades": [
+            {
+              "cidade": "RIO DE JANEIRO",
+              "clientes": 3
+            }
+          ]
+        },
+        "RJ-379": {
+          "total_clientes": 6,
+          "clientes_ativos_mes": 4,
+          "cobertura_pct": 66.7,
+          "faturamento_ytd": 87548.4,
+          "media_mensal": 12506.91,
+          "por_mes": {
+            "2026-01": 34563.62,
+            "2026-02": 9801.54,
+            "2026-03": 8066.94,
+            "2026-04": 13712.3,
+            "2026-05": 14567.46,
+            "2026-06": 1123.6,
+            "2026-07": 5712.94
+          },
+          "top_cidades": [
+            {
+              "cidade": "SAO JOAO DE MER",
+              "clientes": 3
+            },
+            {
+              "cidade": "RIO DE JANEIRO",
+              "clientes": 2
+            },
+            {
+              "cidade": "NOVA IGUACU",
+              "clientes": 1
+            }
+          ]
+        },
+        "RJ-419": {
+          "total_clientes": 3,
+          "clientes_ativos_mes": 3,
+          "cobertura_pct": 100.0,
+          "faturamento_ytd": 48994.35,
+          "media_mensal": 6999.19,
+          "por_mes": {
+            "2026-01": 18853.25,
+            "2026-02": 3778.14,
+            "2026-03": 13930.58,
+            "2026-04": 2718.61,
+            "2026-05": 4358.6,
+            "2026-06": 3041.14,
+            "2026-07": 2314.04
+          },
+          "top_cidades": [
+            {
+              "cidade": "RIO DE JANEIRO",
+              "clientes": 3
+            }
+          ]
+        },
+        "RJ-439": {
+          "total_clientes": 3,
+          "clientes_ativos_mes": 3,
+          "cobertura_pct": 100.0,
+          "faturamento_ytd": 16439.02,
+          "media_mensal": 2348.43,
+          "por_mes": {
+            "2026-01": 3558.84,
+            "2026-02": 3212.44,
+            "2026-03": 1315.7,
+            "2026-04": 3364.78,
+            "2026-05": 1262.36,
+            "2026-06": 946.2,
+            "2026-07": 2778.7
+          },
+          "top_cidades": [
+            {
+              "cidade": "ANGRA DOS REIS",
+              "clientes": 3
+            }
+          ]
+        },
+        "RJ-471": {
+          "total_clientes": 3,
+          "clientes_ativos_mes": 3,
+          "cobertura_pct": 100.0,
+          "faturamento_ytd": 129677.38,
+          "media_mensal": 21612.9,
+          "por_mes": {
+            "2026-01": 45197.84,
+            "2026-02": 25175.0,
+            "2026-04": 13618.0,
+            "2026-05": 33391.14,
+            "2026-06": 2719.0,
+            "2026-07": 9576.4
+          },
+          "top_cidades": [
+            {
+              "cidade": "RIO DE JANEIRO",
+              "clientes": 3
+            }
+          ]
+        },
+        "SP-399": {
+          "total_clientes": 23,
+          "clientes_ativos_mes": 4,
+          "cobertura_pct": 17.4,
+          "faturamento_ytd": 97349.49,
+          "media_mensal": 13907.07,
+          "por_mes": {
+            "2026-01": 9195.14,
+            "2026-02": 17715.02,
+            "2026-03": 17620.26,
+            "2026-04": 8289.84,
+            "2026-05": 169.9,
+            "2026-06": 30672.82,
+            "2026-07": 13686.51
+          },
+          "top_cidades": [
+            {
+              "cidade": "SAO PAULO",
+              "clientes": 12
+            },
+            {
+              "cidade": "RIO DE JANEIRO",
+              "clientes": 5
+            },
+            {
+              "cidade": "CAMPINAS",
+              "clientes": 1
+            },
+            {
+              "cidade": "GUARULHOS",
+              "clientes": 1
+            },
+            {
+              "cidade": "OSASCO",
+              "clientes": 1
+            },
+            {
+              "cidade": "INDAIATUBA",
+              "clientes": 1
+            },
+            {
+              "cidade": "PIRACICABA",
+              "clientes": 1
+            },
+            {
+              "cidade": "VILA VELHA",
+              "clientes": 1
+            }
+          ]
+        },
+        "SP-425": {
+          "total_clientes": 2,
+          "clientes_ativos_mes": 1,
+          "cobertura_pct": 50.0,
+          "faturamento_ytd": 346.8,
+          "media_mensal": 346.8,
+          "por_mes": {
+            "2026-07": 346.8
+          },
+          "top_cidades": [
+            {
+              "cidade": "INDAIATUBA",
+              "clientes": 1
+            },
+            {
+              "cidade": "PAULINIA",
+              "clientes": 1
+            }
+          ]
+        },
+        "SP-426": {
+          "total_clientes": 5,
+          "clientes_ativos_mes": 2,
+          "cobertura_pct": 40.0,
+          "faturamento_ytd": 326205.5,
+          "media_mensal": 54367.58,
+          "por_mes": {
+            "2026-01": 70727.6,
+            "2026-02": 105603.36,
+            "2026-04": 14044.8,
+            "2026-05": 50703.48,
+            "2026-06": 59615.56,
+            "2026-07": 25510.7
+          },
+          "top_cidades": [
+            {
+              "cidade": "BARRA BONITA",
+              "clientes": 1
+            },
+            {
+              "cidade": "BRAGANCA PAULISTA",
+              "clientes": 1
+            },
+            {
+              "cidade": "GUARULHOS",
+              "clientes": 1
+            },
+            {
+              "cidade": "MOGI GUACU",
+              "clientes": 1
+            },
+            {
+              "cidade": "SERRANA",
+              "clientes": 1
+            }
+          ]
+        },
+        "SP-433": {
+          "total_clientes": 14,
+          "clientes_ativos_mes": 7,
+          "cobertura_pct": 50.0,
+          "faturamento_ytd": 216001.65,
+          "media_mensal": 36000.28,
+          "por_mes": {
+            "2026-01": 1469.16,
+            "2026-03": 13718.52,
+            "2026-04": 36678.12,
+            "2026-05": 51229.8,
+            "2026-06": 49797.42,
+            "2026-07": 63108.63
+          },
+          "top_cidades": [
+            {
+              "cidade": "SAO PAULO",
+              "clientes": 3
+            },
+            {
+              "cidade": "PIRACICABA",
+              "clientes": 2
+            },
+            {
+              "cidade": "CAMPINAS",
+              "clientes": 1
+            },
+            {
+              "cidade": "PEDREIRA",
+              "clientes": 1
+            },
+            {
+              "cidade": "HORTOLANDIA",
+              "clientes": 1
+            },
+            {
+              "cidade": "SAO BERNARDO DO CAMPO",
+              "clientes": 1
+            },
+            {
+              "cidade": "SANTA RITA DO PASSA QUATR",
+              "clientes": 1
+            },
+            {
+              "cidade": "SAO CARLOS",
+              "clientes": 1
+            },
+            {
+              "cidade": "SAO JOSE DO RIO PRETO",
+              "clientes": 1
+            },
+            {
+              "cidade": "SERRANA",
+              "clientes": 1
+            }
+          ]
+        },
+        "SP-460": {
+          "total_clientes": 1,
+          "clientes_ativos_mes": 0,
+          "cobertura_pct": 0.0,
+          "faturamento_ytd": 654.36,
+          "media_mensal": 654.36,
+          "por_mes": {
+            "2026-06": 654.36
+          },
+          "top_cidades": [
+            {
+              "cidade": "SAO JOSE DOS CAMPOS",
+              "clientes": 1
+            }
+          ]
+        },
+        "SP-461": {
+          "total_clientes": 1,
+          "clientes_ativos_mes": 1,
+          "cobertura_pct": 100.0,
+          "faturamento_ytd": 2397.6,
+          "media_mensal": 2397.6,
+          "por_mes": {
+            "2026-07": 2397.6
+          },
+          "top_cidades": [
+            {
+              "cidade": "FERRAZ DE VASCONCELOS",
+              "clientes": 1
+            }
+          ]
+        },
+        "SP-466": {
+          "total_clientes": 1,
+          "clientes_ativos_mes": 0,
+          "cobertura_pct": 0.0,
+          "faturamento_ytd": 0.0,
+          "media_mensal": 0.0,
+          "por_mes": {},
+          "top_cidades": [
+            {
+              "cidade": "LORENA",
+              "clientes": 1
+            }
+          ]
+        },
+        "SP-468": {
+          "total_clientes": 3,
+          "clientes_ativos_mes": 0,
+          "cobertura_pct": 0.0,
+          "faturamento_ytd": 309611.27,
+          "media_mensal": 154805.64,
+          "por_mes": {
+            "2026-03": 35508.0,
+            "2026-05": 274103.27
+          },
+          "top_cidades": [
+            {
+              "cidade": "GUARULHOS",
+              "clientes": 1
+            },
+            {
+              "cidade": "POA",
+              "clientes": 1
+            },
+            {
+              "cidade": "SAO PAULO",
+              "clientes": 1
+            }
+          ]
+        },
+        "SP-469": {
+          "total_clientes": 1,
+          "clientes_ativos_mes": 1,
+          "cobertura_pct": 100.0,
+          "faturamento_ytd": 8329.02,
+          "media_mensal": 2776.34,
+          "por_mes": {
+            "2026-05": 718.8,
+            "2026-06": 2319.6,
+            "2026-07": 5290.62
+          },
+          "top_cidades": [
+            {
+              "cidade": "CAMPINAS",
+              "clientes": 1
+            }
+          ]
+        },
+        "SP-470": {
+          "total_clientes": 1,
+          "clientes_ativos_mes": 1,
+          "cobertura_pct": 100.0,
+          "faturamento_ytd": 1522.24,
+          "media_mensal": 1522.24,
+          "por_mes": {
+            "2026-07": 1522.24
+          },
+          "top_cidades": [
+            {
+              "cidade": "PIRACICABA",
+              "clientes": 1
+            }
+          ]
+        },
+        "SP-472": {
+          "total_clientes": 1,
+          "clientes_ativos_mes": 1,
+          "cobertura_pct": 100.0,
+          "faturamento_ytd": 6701.4,
+          "media_mensal": 3350.7,
+          "por_mes": {
+            "2026-06": 6234.6,
+            "2026-07": 466.8
+          },
+          "top_cidades": [
+            {
+              "cidade": "PINDAMONHANGABA",
+              "clientes": 1
+            }
+          ]
+        },
+        "SP-473": {
+          "total_clientes": 1,
+          "clientes_ativos_mes": 0,
+          "cobertura_pct": 0.0,
+          "faturamento_ytd": 0.0,
+          "media_mensal": 0.0,
+          "por_mes": {},
+          "top_cidades": [
+            {
+              "cidade": "MOGI MIRIM",
+              "clientes": 1
+            }
+          ]
+        },
+        "SP-476": {
+          "total_clientes": 9,
+          "clientes_ativos_mes": 8,
+          "cobertura_pct": 88.9,
+          "faturamento_ytd": 59659.76,
+          "media_mensal": 19886.59,
+          "por_mes": {
+            "2026-05": 3520.8,
+            "2026-06": 21535.5,
+            "2026-07": 34603.46
+          },
+          "top_cidades": [
+            {
+              "cidade": "BOTUCATU",
+              "clientes": 8
+            },
+            {
+              "cidade": "AREIOPOLIS",
+              "clientes": 1
+            }
+          ]
+        },
+        "SP-477": {
+          "total_clientes": 1,
+          "clientes_ativos_mes": 1,
+          "cobertura_pct": 100.0,
+          "faturamento_ytd": 5967.68,
+          "media_mensal": 2983.84,
+          "por_mes": {
+            "2026-06": 3653.98,
+            "2026-07": 2313.7
+          },
+          "top_cidades": [
+            {
+              "cidade": "ITAI",
+              "clientes": 1
+            }
+          ]
+        },
+        "SP-478": {
+          "total_clientes": 1,
+          "clientes_ativos_mes": 0,
+          "cobertura_pct": 0.0,
+          "faturamento_ytd": 0.0,
+          "media_mensal": 0.0,
+          "por_mes": {},
+          "top_cidades": [
+            {
+              "cidade": "SAO PAULO",
+              "clientes": 1
+            }
+          ]
+        },
+        "SP-486": {
+          "total_clientes": 13,
+          "clientes_ativos_mes": 7,
+          "cobertura_pct": 53.8,
+          "faturamento_ytd": 27428.32,
+          "media_mensal": 9142.77,
+          "por_mes": {
+            "2026-01": 5102.3,
+            "2026-06": 4676.12,
+            "2026-07": 17649.9
+          },
+          "top_cidades": [
+            {
+              "cidade": "CAMPINAS",
+              "clientes": 5
+            },
+            {
+              "cidade": "PAULINIA",
+              "clientes": 2
+            },
+            {
+              "cidade": "HORTOLANDIA",
+              "clientes": 1
+            },
+            {
+              "cidade": "AMPARO",
+              "clientes": 1
+            },
+            {
+              "cidade": "JAGUARIUNA",
+              "clientes": 1
+            },
+            {
+              "cidade": "MOGI GUACU",
+              "clientes": 1
+            },
+            {
+              "cidade": "SANTA BARBARA D OESTE",
+              "clientes": 1
+            },
+            {
+              "cidade": "SUMARE",
+              "clientes": 1
+            }
+          ]
+        },
+        "SP-487": {
+          "total_clientes": 3,
+          "clientes_ativos_mes": 1,
+          "cobertura_pct": 33.3,
+          "faturamento_ytd": 4689.0,
+          "media_mensal": 4689.0,
+          "por_mes": {
+            "2026-07": 4689.0
+          },
+          "top_cidades": [
+            {
+              "cidade": "SAO JOSE DO RIO PRETO",
+              "clientes": 3
+            }
+          ]
+        },
+        "SP-489": {
+          "total_clientes": 3,
+          "clientes_ativos_mes": 3,
+          "cobertura_pct": 100.0,
+          "faturamento_ytd": 77053.7,
+          "media_mensal": 77053.7,
+          "por_mes": {
+            "2026-07": 77053.7
+          },
+          "top_cidades": [
+            {
+              "cidade": "CERQUILHO",
+              "clientes": 3
+            }
+          ]
+        },
+        "SP-490": {
+          "total_clientes": 1,
+          "clientes_ativos_mes": 0,
+          "cobertura_pct": 0.0,
+          "faturamento_ytd": 0.0,
+          "media_mensal": 0.0,
+          "por_mes": {},
+          "top_cidades": [
+            {
+              "cidade": "JAGUARIUNA",
+              "clientes": 1
+            }
+          ]
+        },
+        "SP-491": {
+          "total_clientes": 1,
+          "clientes_ativos_mes": 1,
+          "cobertura_pct": 100.0,
+          "faturamento_ytd": 778.5,
+          "media_mensal": 778.5,
+          "por_mes": {
+            "2026-07": 778.5
+          },
+          "top_cidades": [
+            {
+              "cidade": "ITAPUI",
+              "clientes": 1
+            }
+          ]
+        },
+        "SP-492": {
+          "total_clientes": 2,
+          "clientes_ativos_mes": 1,
+          "cobertura_pct": 50.0,
+          "faturamento_ytd": 559.6,
+          "media_mensal": 559.6,
+          "por_mes": {
+            "2026-07": 559.6
+          },
+          "top_cidades": [
+            {
+              "cidade": "SAO PAULO",
+              "clientes": 2
+            }
+          ]
+        },
+        "SP-493": {
+          "total_clientes": 5,
+          "clientes_ativos_mes": 4,
+          "cobertura_pct": 80.0,
+          "faturamento_ytd": 7426.74,
+          "media_mensal": 3713.37,
+          "por_mes": {
+            "2026-06": 4321.86,
+            "2026-07": 3104.88
+          },
+          "top_cidades": [
+            {
+              "cidade": "SAO PAULO",
+              "clientes": 2
+            },
+            {
+              "cidade": "ITAQUAQUECETUBA",
+              "clientes": 1
+            },
+            {
+              "cidade": "MAUA",
+              "clientes": 1
+            },
+            {
+              "cidade": "SUZANO",
+              "clientes": 1
+            }
+          ]
+        },
+        "SP-498": {
+          "total_clientes": 1,
+          "clientes_ativos_mes": 1,
+          "cobertura_pct": 100.0,
+          "faturamento_ytd": 2585.1,
+          "media_mensal": 2585.1,
+          "por_mes": {
+            "2026-07": 2585.1
+          },
+          "top_cidades": [
+            {
+              "cidade": "IBITINGA",
+              "clientes": 1
+            }
+          ]
+        },
+        "SP-507": {
+          "total_clientes": 1,
+          "clientes_ativos_mes": 0,
+          "cobertura_pct": 0.0,
+          "faturamento_ytd": 0.0,
+          "media_mensal": 0.0,
+          "por_mes": {},
+          "top_cidades": [
+            {
+              "cidade": "SANTOS",
+              "clientes": 1
+            }
+          ]
+        },
+        "SP-512": {
+          "total_clientes": 8,
+          "clientes_ativos_mes": 4,
+          "cobertura_pct": 50.0,
+          "faturamento_ytd": 12340.44,
+          "media_mensal": 4113.48,
+          "por_mes": {
+            "2026-01": 1881.0,
+            "2026-02": 550.8,
+            "2026-07": 9908.64
+          },
+          "top_cidades": [
+            {
+              "cidade": "SAO BERNARDO DO CAMPO",
+              "clientes": 4
+            },
+            {
+              "cidade": "DIADEMA",
+              "clientes": 3
+            },
+            {
+              "cidade": "JUNDIAI",
+              "clientes": 1
+            }
+          ]
+        },
+        "SP-515": {
+          "total_clientes": 4,
+          "clientes_ativos_mes": 2,
+          "cobertura_pct": 50.0,
+          "faturamento_ytd": 6124.8,
+          "media_mensal": 6124.8,
+          "por_mes": {
+            "2026-07": 6124.8
+          },
+          "top_cidades": [
+            {
+              "cidade": "BARUERI",
+              "clientes": 2
+            },
+            {
+              "cidade": "SAO PAULO",
+              "clientes": 2
+            }
+          ]
+        },
+        "SP-516": {
+          "total_clientes": 13,
+          "clientes_ativos_mes": 2,
+          "cobertura_pct": 15.4,
+          "faturamento_ytd": 5634.0,
+          "media_mensal": 5634.0,
+          "por_mes": {
+            "2026-07": 5634.0
+          },
+          "top_cidades": [
+            {
+              "cidade": "CARAGUATATUBA",
+              "clientes": 7
+            },
+            {
+              "cidade": "SAO SEBASTIAO",
+              "clientes": 3
+            },
+            {
+              "cidade": "UBATUBA",
+              "clientes": 2
+            },
+            {
+              "cidade": "ILHABELA",
+              "clientes": 1
+            }
+          ]
+        },
+        "SP-518": {
+          "total_clientes": 6,
+          "clientes_ativos_mes": 0,
+          "cobertura_pct": 0.0,
+          "faturamento_ytd": 0.0,
+          "media_mensal": 0.0,
+          "por_mes": {},
+          "top_cidades": [
+            {
+              "cidade": "SUMARE",
+              "clientes": 2
+            },
+            {
+              "cidade": "BEBEDOURO",
+              "clientes": 1
+            },
+            {
+              "cidade": "GUARARAPES",
+              "clientes": 1
+            },
+            {
+              "cidade": "INDAIATUBA",
+              "clientes": 1
+            },
+            {
+              "cidade": "SOCORRO",
+              "clientes": 1
+            }
+          ]
+        }
+      }
+    },
+    {
+      "ramo": "RESTAURANTE",
+      "total_clientes": 324,
+      "clientes_ativos_mes": 183,
+      "cobertura_pct": 56.5,
+      "faturamento_ytd": 2431798.83,
+      "media_mensal": 347399.83,
+      "por_mes": {
+        "2026-01": 421301.24,
+        "2026-02": 301302.02,
+        "2026-03": 331162.08,
+        "2026-04": 323973.54,
+        "2026-05": 326782.76,
+        "2026-06": 340239.26,
+        "2026-07": 387037.93
       },
       "top_cidades": [
         {
           "cidade": "BELO HORIZONTE",
-          "clientes": 81
+          "clientes": 76
         },
         {
           "cidade": "RIO DE JANEIRO",
-          "clientes": 46
-        },
-        {
-          "cidade": "ARMACAO DOS BUZ",
-          "clientes": 29
+          "clientes": 51
         },
         {
           "cidade": "CURITIBA",
           "clientes": 24
         },
         {
-          "cidade": "MACAE",
-          "clientes": 13
+          "cidade": "ARMACAO DOS BUZ",
+          "clientes": 24
         },
         {
           "cidade": "SAO PAULO",
+          "clientes": 13
+        },
+        {
+          "cidade": "MACAE",
           "clientes": 11
         },
         {
           "cidade": "CABO FRIO",
-          "clientes": 10
+          "clientes": 11
         },
         {
           "cidade": "BETIM",
@@ -6118,27 +7559,25 @@ const RAIOX_CLIENTES_DATA = {
         },
         {
           "cidade": "NOVA LIMA",
-          "clientes": 8
+          "clientes": 9
         },
         {
           "cidade": "RIO DAS OSTRAS",
-          "clientes": 7
+          "clientes": 8
         }
       ],
       "por_vendedor": {
-        "ES-260": {
-          "total_clientes": 1,
+        "ES-269": {
+          "total_clientes": 2,
           "clientes_ativos_mes": 0,
           "cobertura_pct": 0.0,
-          "faturamento_ytd": 315.26,
-          "media_mensal": 315.26,
-          "por_mes": {
-            "2026-05": 315.26
-          },
+          "faturamento_ytd": 0.0,
+          "media_mensal": 0.0,
+          "por_mes": {},
           "top_cidades": [
             {
-              "cidade": "SERRA",
-              "clientes": 1
+              "cidade": "SAO MATEUS",
+              "clientes": 2
             }
           ]
         },
@@ -6177,25 +7616,21 @@ const RAIOX_CLIENTES_DATA = {
           ]
         },
         "ES-370": {
-          "total_clientes": 9,
-          "clientes_ativos_mes": 5,
-          "cobertura_pct": 55.6,
-          "faturamento_ytd": 33164.21,
-          "media_mensal": 4737.74,
+          "total_clientes": 6,
+          "clientes_ativos_mes": 4,
+          "cobertura_pct": 66.7,
+          "faturamento_ytd": 17510.71,
+          "media_mensal": 2501.53,
           "por_mes": {
-            "2026-01": 3072.18,
+            "2026-01": 2984.14,
             "2026-02": 2505.86,
-            "2026-03": 2576.44,
+            "2026-03": 2138.54,
             "2026-04": 1457.6,
-            "2026-05": 20675.53,
+            "2026-05": 5577.13,
             "2026-06": 2730.8,
-            "2026-07": 145.8
+            "2026-07": 116.64
           },
           "top_cidades": [
-            {
-              "cidade": "DOMINGOS MARTIN",
-              "clientes": 3
-            },
             {
               "cidade": "MARECHAL FLORIA",
               "clientes": 3
@@ -6205,39 +7640,22 @@ const RAIOX_CLIENTES_DATA = {
               "clientes": 2
             },
             {
-              "cidade": "CONCEICAO DO CA",
-              "clientes": 1
-            }
-          ]
-        },
-        "ES-440": {
-          "total_clientes": 1,
-          "clientes_ativos_mes": 0,
-          "cobertura_pct": 0.0,
-          "faturamento_ytd": 4962.78,
-          "media_mensal": 2481.39,
-          "por_mes": {
-            "2026-03": 4795.68,
-            "2026-04": 167.1
-          },
-          "top_cidades": [
-            {
-              "cidade": "VILA VELHA",
+              "cidade": "DOMINGOS MARTIN",
               "clientes": 1
             }
           ]
         },
         "ES-442": {
-          "total_clientes": 5,
+          "total_clientes": 3,
           "clientes_ativos_mes": 2,
-          "cobertura_pct": 40.0,
-          "faturamento_ytd": 6118.68,
-          "media_mensal": 874.1,
+          "cobertura_pct": 66.7,
+          "faturamento_ytd": 4222.78,
+          "media_mensal": 603.25,
           "por_mes": {
-            "2026-01": 1031.83,
-            "2026-02": 1243.7,
-            "2026-03": 2250.05,
-            "2026-04": 984.81,
+            "2026-01": 585.65,
+            "2026-02": 808.32,
+            "2026-03": 1873.27,
+            "2026-04": 347.25,
             "2026-05": 224.05,
             "2026-06": 325.92,
             "2026-07": 58.32
@@ -6245,10 +7663,6 @@ const RAIOX_CLIENTES_DATA = {
           "top_cidades": [
             {
               "cidade": "COLATINA",
-              "clientes": 2
-            },
-            {
-              "cidade": "ARACRUZ",
               "clientes": 1
             },
             {
@@ -6262,48 +7676,49 @@ const RAIOX_CLIENTES_DATA = {
           ]
         },
         "MG-327": {
-          "total_clientes": 61,
-          "clientes_ativos_mes": 33,
-          "cobertura_pct": 54.1,
-          "faturamento_ytd": 610518.73,
-          "media_mensal": 87216.96,
+          "total_clientes": 60,
+          "clientes_ativos_mes": 44,
+          "cobertura_pct": 73.3,
+          "faturamento_ytd": 633147.21,
+          "media_mensal": 90449.6,
           "por_mes": {
-            "2026-01": 92035.2,
-            "2026-02": 85691.97,
-            "2026-03": 83869.74,
-            "2026-04": 105058.44,
-            "2026-05": 94591.83,
-            "2026-06": 93396.59,
-            "2026-07": 55874.96
+            "2026-01": 89524.38,
+            "2026-02": 80974.39,
+            "2026-03": 76801.16,
+            "2026-04": 97596.36,
+            "2026-05": 90963.59,
+            "2026-06": 91111.27,
+            "2026-07": 106176.06
           },
           "top_cidades": [
             {
               "cidade": "BELO HORIZONTE",
-              "clientes": 47
+              "clientes": 46
             },
             {
               "cidade": "BETIM",
               "clientes": 9
             },
             {
-              "cidade": "CONTAGEM",
+              "cidade": "NOVA LIMA",
               "clientes": 3
             },
             {
-              "cidade": "NOVA LIMA",
+              "cidade": "CONTAGEM",
               "clientes": 2
             }
           ]
         },
         "MG-331": {
           "total_clientes": 2,
-          "clientes_ativos_mes": 0,
-          "cobertura_pct": 0.0,
-          "faturamento_ytd": 1828.27,
-          "media_mensal": 914.13,
+          "clientes_ativos_mes": 1,
+          "cobertura_pct": 50.0,
+          "faturamento_ytd": 3242.17,
+          "media_mensal": 1080.72,
           "por_mes": {
             "2026-05": 845.77,
-            "2026-06": 982.5
+            "2026-06": 982.5,
+            "2026-07": 1413.9
           },
           "top_cidades": [
             {
@@ -6316,8 +7731,8 @@ const RAIOX_CLIENTES_DATA = {
           "total_clientes": 7,
           "clientes_ativos_mes": 4,
           "cobertura_pct": 57.1,
-          "faturamento_ytd": 71458.7,
-          "media_mensal": 10208.39,
+          "faturamento_ytd": 76543.7,
+          "media_mensal": 10934.81,
           "por_mes": {
             "2026-01": 16616.4,
             "2026-02": 11884.56,
@@ -6325,7 +7740,7 @@ const RAIOX_CLIENTES_DATA = {
             "2026-04": 7361.82,
             "2026-05": 12177.74,
             "2026-06": 3564.72,
-            "2026-07": 10542.28
+            "2026-07": 15627.28
           },
           "top_cidades": [
             {
@@ -6355,24 +7770,24 @@ const RAIOX_CLIENTES_DATA = {
           ]
         },
         "MG-344": {
-          "total_clientes": 39,
-          "clientes_ativos_mes": 25,
-          "cobertura_pct": 64.1,
-          "faturamento_ytd": 319735.98,
-          "media_mensal": 45676.57,
+          "total_clientes": 35,
+          "clientes_ativos_mes": 30,
+          "cobertura_pct": 85.7,
+          "faturamento_ytd": 320732.84,
+          "media_mensal": 45818.98,
           "por_mes": {
-            "2026-01": 51545.69,
-            "2026-02": 38019.88,
-            "2026-03": 55057.35,
-            "2026-04": 36505.48,
-            "2026-05": 58000.92,
+            "2026-01": 47066.19,
+            "2026-02": 35069.08,
+            "2026-03": 52710.61,
+            "2026-04": 35868.38,
+            "2026-05": 55599.1,
             "2026-06": 47286.8,
-            "2026-07": 33319.86
+            "2026-07": 47132.68
           },
           "top_cidades": [
             {
               "cidade": "BELO HORIZONTE",
-              "clientes": 33
+              "clientes": 29
             },
             {
               "cidade": "NOVA LIMA",
@@ -6384,14 +7799,14 @@ const RAIOX_CLIENTES_DATA = {
           "total_clientes": 1,
           "clientes_ativos_mes": 1,
           "cobertura_pct": 100.0,
-          "faturamento_ytd": 2745.4,
-          "media_mensal": 549.08,
+          "faturamento_ytd": 3181.72,
+          "media_mensal": 636.34,
           "por_mes": {
             "2026-01": 349.86,
             "2026-03": 932.4,
             "2026-05": 568.08,
             "2026-06": 587.0,
-            "2026-07": 308.06
+            "2026-07": 744.38
           },
           "top_cidades": [
             {
@@ -6402,12 +7817,13 @@ const RAIOX_CLIENTES_DATA = {
         },
         "MG-360": {
           "total_clientes": 1,
-          "clientes_ativos_mes": 0,
-          "cobertura_pct": 0.0,
-          "faturamento_ytd": 573.6,
-          "media_mensal": 573.6,
+          "clientes_ativos_mes": 1,
+          "cobertura_pct": 100.0,
+          "faturamento_ytd": 884.3,
+          "media_mensal": 442.15,
           "por_mes": {
-            "2026-04": 573.6
+            "2026-04": 573.6,
+            "2026-07": 310.7
           },
           "top_cidades": [
             {
@@ -6417,20 +7833,19 @@ const RAIOX_CLIENTES_DATA = {
           ]
         },
         "MG-362": {
-          "total_clientes": 2,
+          "total_clientes": 1,
           "clientes_ativos_mes": 0,
           "cobertura_pct": 0.0,
-          "faturamento_ytd": 4821.46,
-          "media_mensal": 1607.15,
+          "faturamento_ytd": 2047.78,
+          "media_mensal": 1023.89,
           "por_mes": {
-            "2026-04": 853.44,
-            "2026-05": 2843.04,
+            "2026-05": 922.8,
             "2026-06": 1124.98
           },
           "top_cidades": [
             {
               "cidade": "CONTAGEM",
-              "clientes": 2
+              "clientes": 1
             }
           ]
         },
@@ -6480,16 +7895,16 @@ const RAIOX_CLIENTES_DATA = {
           "total_clientes": 8,
           "clientes_ativos_mes": 3,
           "cobertura_pct": 37.5,
-          "faturamento_ytd": 199398.28,
-          "media_mensal": 28485.47,
+          "faturamento_ytd": 211109.68,
+          "media_mensal": 30158.53,
           "por_mes": {
-            "2026-01": 33751.42,
-            "2026-02": 25770.16,
-            "2026-03": 26439.82,
-            "2026-04": 38443.9,
+            "2026-01": 32944.42,
+            "2026-02": 25371.16,
+            "2026-03": 26251.92,
+            "2026-04": 38369.5,
             "2026-05": 23929.9,
             "2026-06": 43600.0,
-            "2026-07": 7463.08
+            "2026-07": 20642.78
           },
           "top_cidades": [
             {
@@ -6499,24 +7914,24 @@ const RAIOX_CLIENTES_DATA = {
           ]
         },
         "RJ-155": {
-          "total_clientes": 37,
-          "clientes_ativos_mes": 19,
-          "cobertura_pct": 51.4,
-          "faturamento_ytd": 424112.05,
-          "media_mensal": 60587.44,
+          "total_clientes": 32,
+          "clientes_ativos_mes": 26,
+          "cobertura_pct": 81.2,
+          "faturamento_ytd": 374517.02,
+          "media_mensal": 53502.43,
           "por_mes": {
-            "2026-01": 91921.98,
-            "2026-02": 75786.33,
-            "2026-03": 58021.81,
-            "2026-04": 67643.93,
-            "2026-05": 50065.18,
-            "2026-06": 52976.06,
-            "2026-07": 27696.76
+            "2026-01": 69482.61,
+            "2026-02": 62380.35,
+            "2026-03": 51759.83,
+            "2026-04": 59274.36,
+            "2026-05": 46543.78,
+            "2026-06": 47164.28,
+            "2026-07": 37911.82
           },
           "top_cidades": [
             {
               "cidade": "ARMACAO DOS BUZ",
-              "clientes": 24
+              "clientes": 20
             },
             {
               "cidade": "CABO FRIO",
@@ -6527,15 +7942,11 @@ const RAIOX_CLIENTES_DATA = {
               "clientes": 4
             },
             {
-              "cidade": "ARRAIAL DO CABO",
-              "clientes": 1
-            },
-            {
               "cidade": "ARARUAMA",
               "clientes": 1
             },
             {
-              "cidade": "RIO DE JANEIRO",
+              "cidade": "ARRAIAL DO CABO",
               "clientes": 1
             },
             {
@@ -6559,24 +7970,28 @@ const RAIOX_CLIENTES_DATA = {
           ]
         },
         "RJ-159": {
-          "total_clientes": 42,
-          "clientes_ativos_mes": 25,
-          "cobertura_pct": 59.5,
-          "faturamento_ytd": 347124.8,
-          "media_mensal": 49589.26,
+          "total_clientes": 47,
+          "clientes_ativos_mes": 30,
+          "cobertura_pct": 63.8,
+          "faturamento_ytd": 398215.96,
+          "media_mensal": 56887.99,
           "por_mes": {
-            "2026-01": 93143.58,
-            "2026-02": 42762.99,
-            "2026-03": 55449.62,
-            "2026-04": 32348.94,
-            "2026-05": 32850.13,
+            "2026-01": 91252.74,
+            "2026-02": 41326.55,
+            "2026-03": 55356.28,
+            "2026-04": 30552.74,
+            "2026-05": 30976.87,
             "2026-06": 48841.08,
-            "2026-07": 41728.46
+            "2026-07": 99909.7
           },
           "top_cidades": [
             {
               "cidade": "MACAE",
-              "clientes": 13
+              "clientes": 11
+            },
+            {
+              "cidade": "RIO DE JANEIRO",
+              "clientes": 8
             },
             {
               "cidade": "RIO DAS OSTRAS",
@@ -6584,34 +7999,30 @@ const RAIOX_CLIENTES_DATA = {
             },
             {
               "cidade": "CABO FRIO",
-              "clientes": 5
-            },
-            {
-              "cidade": "RIO DE JANEIRO",
-              "clientes": 4
+              "clientes": 6
             },
             {
               "cidade": "ARMACAO DOS BUZ",
               "clientes": 4
             },
             {
+              "cidade": "TERESOPOLIS",
+              "clientes": 3
+            },
+            {
+              "cidade": "NITEROI",
+              "clientes": 2
+            },
+            {
               "cidade": "SAQUAREMA",
               "clientes": 2
             },
             {
-              "cidade": "PETROPOLIS",
-              "clientes": 2
-            },
-            {
-              "cidade": "TERESOPOLIS",
-              "clientes": 2
-            },
-            {
-              "cidade": "ARRAIAL DO CABO",
+              "cidade": "ITABORAI",
               "clientes": 1
             },
             {
-              "cidade": "NITEROI",
+              "cidade": "ARRAIAL DO CABO",
               "clientes": 1
             }
           ]
@@ -6634,8 +8045,8 @@ const RAIOX_CLIENTES_DATA = {
           "total_clientes": 1,
           "clientes_ativos_mes": 1,
           "cobertura_pct": 100.0,
-          "faturamento_ytd": 137011.22,
-          "media_mensal": 19573.03,
+          "faturamento_ytd": 141321.1,
+          "media_mensal": 20188.73,
           "por_mes": {
             "2026-01": 23143.98,
             "2026-02": 14934.32,
@@ -6643,7 +8054,7 @@ const RAIOX_CLIENTES_DATA = {
             "2026-04": 19889.44,
             "2026-05": 24330.84,
             "2026-06": 20801.96,
-            "2026-07": 10711.62
+            "2026-07": 15021.5
           },
           "top_cidades": [
             {
@@ -6653,7 +8064,7 @@ const RAIOX_CLIENTES_DATA = {
           ]
         },
         "RJ-241": {
-          "total_clientes": 1,
+          "total_clientes": 2,
           "clientes_ativos_mes": 0,
           "cobertura_pct": 0.0,
           "faturamento_ytd": 5071.17,
@@ -6668,15 +8079,19 @@ const RAIOX_CLIENTES_DATA = {
             {
               "cidade": "CASIMIRO DE ABR",
               "clientes": 1
+            },
+            {
+              "cidade": "RIO DAS OSTRAS",
+              "clientes": 1
             }
           ]
         },
         "RJ-378": {
-          "total_clientes": 5,
-          "clientes_ativos_mes": 4,
-          "cobertura_pct": 80.0,
-          "faturamento_ytd": 20018.93,
-          "media_mensal": 2859.85,
+          "total_clientes": 6,
+          "clientes_ativos_mes": 6,
+          "cobertura_pct": 100.0,
+          "faturamento_ytd": 22369.89,
+          "media_mensal": 3195.7,
           "por_mes": {
             "2026-01": 2883.59,
             "2026-02": 1333.88,
@@ -6684,12 +8099,12 @@ const RAIOX_CLIENTES_DATA = {
             "2026-04": 2597.58,
             "2026-05": 3054.32,
             "2026-06": 2468.58,
-            "2026-07": 3943.65
+            "2026-07": 6294.61
           },
           "top_cidades": [
             {
               "cidade": "RIO DE JANEIRO",
-              "clientes": 5
+              "clientes": 6
             }
           ]
         },
@@ -6720,19 +8135,19 @@ const RAIOX_CLIENTES_DATA = {
           ]
         },
         "RJ-412": {
-          "total_clientes": 2,
-          "clientes_ativos_mes": 1,
-          "cobertura_pct": 50.0,
-          "faturamento_ytd": 80308.46,
-          "media_mensal": 11472.64,
+          "total_clientes": 3,
+          "clientes_ativos_mes": 2,
+          "cobertura_pct": 66.7,
+          "faturamento_ytd": 86214.57,
+          "media_mensal": 12316.37,
           "por_mes": {
-            "2026-01": 12752.26,
-            "2026-02": 19663.88,
-            "2026-03": 14073.1,
-            "2026-04": 14283.42,
-            "2026-05": 9947.94,
+            "2026-01": 13659.61,
+            "2026-02": 19998.68,
+            "2026-03": 14436.7,
+            "2026-04": 15122.78,
+            "2026-05": 10510.84,
             "2026-06": 8691.56,
-            "2026-07": 896.3
+            "2026-07": 3794.4
           },
           "top_cidades": [
             {
@@ -6740,23 +8155,11 @@ const RAIOX_CLIENTES_DATA = {
               "clientes": 1
             },
             {
-              "cidade": "SEROPEDICA",
+              "cidade": "RIO DE JANEIRO",
               "clientes": 1
-            }
-          ]
-        },
-        "RJ-415": {
-          "total_clientes": 1,
-          "clientes_ativos_mes": 0,
-          "cobertura_pct": 0.0,
-          "faturamento_ytd": 394.8,
-          "media_mensal": 394.8,
-          "por_mes": {
-            "2026-04": 394.8
-          },
-          "top_cidades": [
+            },
             {
-              "cidade": "ARMACAO DOS BUZ",
+              "cidade": "SEROPEDICA",
               "clientes": 1
             }
           ]
@@ -6779,24 +8182,24 @@ const RAIOX_CLIENTES_DATA = {
           ]
         },
         "RJ-431": {
-          "total_clientes": 7,
+          "total_clientes": 6,
           "clientes_ativos_mes": 2,
-          "cobertura_pct": 28.6,
-          "faturamento_ytd": 12863.63,
-          "media_mensal": 1837.66,
+          "cobertura_pct": 33.3,
+          "faturamento_ytd": 10730.82,
+          "media_mensal": 1532.97,
           "por_mes": {
-            "2026-01": 4469.67,
-            "2026-02": 2590.26,
-            "2026-03": 1803.62,
+            "2026-01": 3365.75,
+            "2026-02": 1105.1,
+            "2026-03": 1532.12,
             "2026-04": 462.68,
-            "2026-05": 588.48,
+            "2026-05": 359.18,
             "2026-06": 2023.0,
-            "2026-07": 925.92
+            "2026-07": 1882.98
           },
           "top_cidades": [
             {
               "cidade": "RIO DE JANEIRO",
-              "clientes": 7
+              "clientes": 6
             }
           ]
         },
@@ -6804,8 +8207,8 @@ const RAIOX_CLIENTES_DATA = {
           "total_clientes": 1,
           "clientes_ativos_mes": 1,
           "cobertura_pct": 100.0,
-          "faturamento_ytd": 3664.14,
-          "media_mensal": 523.45,
+          "faturamento_ytd": 4260.66,
+          "media_mensal": 608.67,
           "por_mes": {
             "2026-01": 448.81,
             "2026-02": 245.9,
@@ -6813,7 +8216,7 @@ const RAIOX_CLIENTES_DATA = {
             "2026-04": 541.79,
             "2026-05": 480.9,
             "2026-06": 575.44,
-            "2026-07": 633.52
+            "2026-07": 1230.04
           },
           "top_cidades": [
             {
@@ -6823,19 +8226,23 @@ const RAIOX_CLIENTES_DATA = {
           ]
         },
         "RJ-471": {
-          "total_clientes": 3,
-          "clientes_ativos_mes": 2,
-          "cobertura_pct": 66.7,
-          "faturamento_ytd": 2627.2,
-          "media_mensal": 1313.6,
+          "total_clientes": 4,
+          "clientes_ativos_mes": 3,
+          "cobertura_pct": 75.0,
+          "faturamento_ytd": 10568.76,
+          "media_mensal": 1761.46,
           "por_mes": {
-            "2026-06": 1204.2,
-            "2026-07": 1423.0
+            "2026-01": 359.52,
+            "2026-03": 168.5,
+            "2026-04": 1184.5,
+            "2026-05": 155.5,
+            "2026-06": 2207.86,
+            "2026-07": 6492.88
           },
           "top_cidades": [
             {
               "cidade": "RIO DE JANEIRO",
-              "clientes": 3
+              "clientes": 4
             }
           ]
         },
@@ -6874,19 +8281,19 @@ const RAIOX_CLIENTES_DATA = {
           ]
         },
         "SP-399": {
-          "total_clientes": 22,
-          "clientes_ativos_mes": 5,
-          "cobertura_pct": 22.7,
-          "faturamento_ytd": 43790.23,
-          "media_mensal": 6255.75,
+          "total_clientes": 24,
+          "clientes_ativos_mes": 8,
+          "cobertura_pct": 33.3,
+          "faturamento_ytd": 47542.27,
+          "media_mensal": 6791.75,
           "por_mes": {
             "2026-01": 7426.02,
             "2026-02": 3109.19,
             "2026-03": 5942.33,
             "2026-04": 9064.68,
-            "2026-05": 5437.02,
+            "2026-05": 6547.62,
             "2026-06": 7634.2,
-            "2026-07": 5176.8
+            "2026-07": 7818.24
           },
           "top_cidades": [
             {
@@ -6894,12 +8301,16 @@ const RAIOX_CLIENTES_DATA = {
               "clientes": 9
             },
             {
+              "cidade": "SAO PAULO",
+              "clientes": 7
+            },
+            {
               "cidade": "GUARULHOS",
               "clientes": 6
             },
             {
-              "cidade": "SAO PAULO",
-              "clientes": 6
+              "cidade": "SAO CAETANO DO SUL",
+              "clientes": 1
             },
             {
               "cidade": "VOLTA REDONDA",
@@ -6909,66 +8320,42 @@ const RAIOX_CLIENTES_DATA = {
         },
         "SP-425": {
           "total_clientes": 5,
-          "clientes_ativos_mes": 1,
-          "cobertura_pct": 20.0,
-          "faturamento_ytd": 5984.72,
-          "media_mensal": 1994.91,
+          "clientes_ativos_mes": 2,
+          "cobertura_pct": 40.0,
+          "faturamento_ytd": 3351.12,
+          "media_mensal": 1117.04,
           "por_mes": {
-            "2026-04": 1865.3,
-            "2026-05": 3458.9,
-            "2026-07": 660.52
+            "2026-01": 1215.6,
+            "2026-05": 1158.8,
+            "2026-07": 976.72
           },
           "top_cidades": [
+            {
+              "cidade": "AMERICANA",
+              "clientes": 2
+            },
             {
               "cidade": "CAMPINAS",
               "clientes": 2
             },
             {
-              "cidade": "AMERICANA",
-              "clientes": 1
-            },
-            {
-              "cidade": "VALINHOS",
-              "clientes": 1
-            },
-            {
-              "cidade": "VOTORANTIM",
+              "cidade": "RIBEIRAO PRETO",
               "clientes": 1
             }
           ]
         },
         "SP-426": {
-          "total_clientes": 2,
+          "total_clientes": 1,
           "clientes_ativos_mes": 1,
-          "cobertura_pct": 50.0,
-          "faturamento_ytd": 29118.0,
-          "media_mensal": 9706.0,
+          "cobertura_pct": 100.0,
+          "faturamento_ytd": 5940.0,
+          "media_mensal": 5940.0,
           "por_mes": {
-            "2026-03": 12936.0,
-            "2026-04": 10242.0,
             "2026-07": 5940.0
           },
           "top_cidades": [
             {
-              "cidade": "CAMPINAS",
-              "clientes": 1
-            },
-            {
               "cidade": "SAO PAULO",
-              "clientes": 1
-            }
-          ]
-        },
-        "SP-460": {
-          "total_clientes": 1,
-          "clientes_ativos_mes": 0,
-          "cobertura_pct": 0.0,
-          "faturamento_ytd": 0.0,
-          "media_mensal": 0.0,
-          "por_mes": {},
-          "top_cidades": [
-            {
-              "cidade": "SAO JOSE DOS CAMPOS",
               "clientes": 1
             }
           ]
@@ -7067,15 +8454,15 @@ const RAIOX_CLIENTES_DATA = {
           "por_mes": {},
           "top_cidades": [
             {
-              "cidade": "JARINU",
+              "cidade": "SAO PAULO",
               "clientes": 1
             }
           ]
         },
         "SP-476": {
-          "total_clientes": 3,
+          "total_clientes": 2,
           "clientes_ativos_mes": 2,
-          "cobertura_pct": 66.7,
+          "cobertura_pct": 100.0,
           "faturamento_ytd": 2277.45,
           "media_mensal": 2277.45,
           "por_mes": {
@@ -7084,7 +8471,7 @@ const RAIOX_CLIENTES_DATA = {
           "top_cidades": [
             {
               "cidade": "BOTUCATU",
-              "clientes": 3
+              "clientes": 2
             }
           ]
         },
@@ -7152,28 +8539,14 @@ const RAIOX_CLIENTES_DATA = {
             }
           ]
         },
-        "SP-495": {
-          "total_clientes": 1,
-          "clientes_ativos_mes": 0,
-          "cobertura_pct": 0.0,
-          "faturamento_ytd": 0.0,
-          "media_mensal": 0.0,
-          "por_mes": {},
-          "top_cidades": [
-            {
-              "cidade": "EMBU",
-              "clientes": 1
-            }
-          ]
-        },
         "SP-498": {
           "total_clientes": 1,
           "clientes_ativos_mes": 1,
           "cobertura_pct": 100.0,
-          "faturamento_ytd": 799.2,
-          "media_mensal": 799.2,
+          "faturamento_ytd": 1654.5,
+          "media_mensal": 1654.5,
           "por_mes": {
-            "2026-07": 799.2
+            "2026-07": 1654.5
           },
           "top_cidades": [
             {
@@ -7182,7 +8555,23 @@ const RAIOX_CLIENTES_DATA = {
             }
           ]
         },
-        "SP-511": {
+        "SP-510": {
+          "total_clientes": 3,
+          "clientes_ativos_mes": 1,
+          "cobertura_pct": 33.3,
+          "faturamento_ytd": 863.0,
+          "media_mensal": 863.0,
+          "por_mes": {
+            "2026-07": 863.0
+          },
+          "top_cidades": [
+            {
+              "cidade": "SOROCABA",
+              "clientes": 3
+            }
+          ]
+        },
+        "SP-516": {
           "total_clientes": 1,
           "clientes_ativos_mes": 0,
           "cobertura_pct": 0.0,
@@ -7191,7 +8580,7 @@ const RAIOX_CLIENTES_DATA = {
           "por_mes": {},
           "top_cidades": [
             {
-              "cidade": "CAMPOS DO JORDAO",
+              "cidade": "CARAGUATATUBA",
               "clientes": 1
             }
           ]
@@ -7200,43 +8589,39 @@ const RAIOX_CLIENTES_DATA = {
     },
     {
       "ramo": "OUTROS",
-      "total_clientes": 104,
-      "clientes_ativos_mes": 21,
-      "cobertura_pct": 20.2,
-      "faturamento_ytd": 2360394.3,
-      "media_mensal": 337199.19,
+      "total_clientes": 80,
+      "clientes_ativos_mes": 28,
+      "cobertura_pct": 35.0,
+      "faturamento_ytd": 2363767.92,
+      "media_mensal": 337681.13,
       "por_mes": {
-        "2026-01": 645510.74,
-        "2026-02": 364109.16,
-        "2026-03": 289877.48,
-        "2026-04": 396662.14,
-        "2026-05": 539753.64,
-        "2026-06": 94522.07,
-        "2026-07": 29959.07
+        "2026-01": 642469.42,
+        "2026-02": 363447.48,
+        "2026-03": 286318.48,
+        "2026-04": 390805.73,
+        "2026-05": 531870.36,
+        "2026-06": 86044.23,
+        "2026-07": 62812.23
       },
       "top_cidades": [
         {
-          "cidade": "BELO HORIZONTE",
-          "clientes": 30
+          "cidade": "RIO DE JANEIRO",
+          "clientes": 25
         },
         {
-          "cidade": "RIO DE JANEIRO",
-          "clientes": 29
+          "cidade": "BELO HORIZONTE",
+          "clientes": 18
         },
         {
           "cidade": "SERRA",
-          "clientes": 8
-        },
-        {
-          "cidade": "SAO PAULO",
-          "clientes": 3
-        },
-        {
-          "cidade": "CABO FRIO",
-          "clientes": 2
+          "clientes": 4
         },
         {
           "cidade": "BETIM",
+          "clientes": 3
+        },
+        {
+          "cidade": "NOVA LIMA",
           "clientes": 2
         },
         {
@@ -7244,37 +8629,41 @@ const RAIOX_CLIENTES_DATA = {
           "clientes": 2
         },
         {
+          "cidade": "SAO PAULO",
+          "clientes": 2
+        },
+        {
           "cidade": "CURITIBA",
+          "clientes": 2
+        },
+        {
+          "cidade": "CONTAGEM",
           "clientes": 2
         },
         {
           "cidade": "VIANA",
           "clientes": 2
-        },
-        {
-          "cidade": "NOVA LIMA",
-          "clientes": 2
         }
       ],
       "por_vendedor": {
         "ES-260": {
-          "total_clientes": 4,
+          "total_clientes": 3,
           "clientes_ativos_mes": 0,
           "cobertura_pct": 0.0,
-          "faturamento_ytd": 4186.36,
-          "media_mensal": 697.73,
+          "faturamento_ytd": 3870.85,
+          "media_mensal": 645.14,
           "por_mes": {
             "2026-01": 363.0,
             "2026-02": 482.49,
             "2026-03": 1164.57,
-            "2026-04": 673.33,
+            "2026-04": 357.82,
             "2026-05": 1291.57,
             "2026-06": 211.4
           },
           "top_cidades": [
             {
               "cidade": "SERRA",
-              "clientes": 4
+              "clientes": 3
             }
           ]
         },
@@ -7293,51 +8682,45 @@ const RAIOX_CLIENTES_DATA = {
           ]
         },
         "ES-336": {
-          "total_clientes": 5,
+          "total_clientes": 1,
           "clientes_ativos_mes": 0,
           "cobertura_pct": 0.0,
-          "faturamento_ytd": 5176.44,
-          "media_mensal": 1035.29,
+          "faturamento_ytd": 728.16,
+          "media_mensal": 242.72,
           "por_mes": {
-            "2026-01": 358.59,
-            "2026-02": 1386.24,
-            "2026-03": 1039.69,
-            "2026-04": 1093.28,
-            "2026-05": 1298.64
+            "2026-02": 314.16,
+            "2026-03": 62.16,
+            "2026-05": 351.84
           },
           "top_cidades": [
             {
               "cidade": "SERRA",
-              "clientes": 4
-            },
-            {
-              "cidade": "CARIACICA",
               "clientes": 1
             }
           ]
         },
-        "ES-342": {
+        "ES-442": {
           "total_clientes": 2,
           "clientes_ativos_mes": 0,
           "cobertura_pct": 0.0,
-          "faturamento_ytd": 1431.42,
-          "media_mensal": 715.71,
+          "faturamento_ytd": 889.2,
+          "media_mensal": 444.6,
           "por_mes": {
-            "2026-03": 940.05,
-            "2026-04": 491.37
+            "2026-03": 524.88,
+            "2026-05": 364.32
           },
           "top_cidades": [
             {
-              "cidade": "JAGUARE",
+              "cidade": "COLATINA",
               "clientes": 1
             },
             {
-              "cidade": "SAO MATEUS",
+              "cidade": "IBIRACU",
               "clientes": 1
             }
           ]
         },
-        "ES-388": {
+        "ES-458": {
           "total_clientes": 1,
           "clientes_ativos_mes": 0,
           "cobertura_pct": 0.0,
@@ -7351,52 +8734,25 @@ const RAIOX_CLIENTES_DATA = {
             }
           ]
         },
-        "ES-442": {
-          "total_clientes": 3,
-          "clientes_ativos_mes": 0,
-          "cobertura_pct": 0.0,
-          "faturamento_ytd": 5452.85,
-          "media_mensal": 1363.21,
-          "por_mes": {
-            "2026-01": 884.33,
-            "2026-03": 1785.12,
-            "2026-05": 364.32,
-            "2026-06": 2419.08
-          },
-          "top_cidades": [
-            {
-              "cidade": "COLATINA",
-              "clientes": 1
-            },
-            {
-              "cidade": "IBIRACU",
-              "clientes": 1
-            },
-            {
-              "cidade": "SANTA MARIA DE",
-              "clientes": 1
-            }
-          ]
-        },
         "MG-327": {
-          "total_clientes": 20,
+          "total_clientes": 12,
           "clientes_ativos_mes": 5,
-          "cobertura_pct": 25.0,
-          "faturamento_ytd": 77546.12,
-          "media_mensal": 11078.02,
+          "cobertura_pct": 41.7,
+          "faturamento_ytd": 57812.5,
+          "media_mensal": 8258.93,
           "por_mes": {
             "2026-01": 7446.82,
-            "2026-02": 7808.02,
-            "2026-03": 11619.14,
-            "2026-04": 11497.12,
-            "2026-05": 15902.8,
-            "2026-06": 18667.38,
-            "2026-07": 4604.84
+            "2026-02": 4973.18,
+            "2026-03": 7445.86,
+            "2026-04": 8340.08,
+            "2026-05": 8434.28,
+            "2026-06": 14426.58,
+            "2026-07": 6745.7
           },
           "top_cidades": [
             {
               "cidade": "BELO HORIZONTE",
-              "clientes": 17
+              "clientes": 9
             },
             {
               "cidade": "BETIM",
@@ -7409,24 +8765,28 @@ const RAIOX_CLIENTES_DATA = {
           ]
         },
         "MG-343": {
-          "total_clientes": 7,
-          "clientes_ativos_mes": 1,
-          "cobertura_pct": 14.3,
-          "faturamento_ytd": 330800.28,
-          "media_mensal": 47257.18,
+          "total_clientes": 8,
+          "clientes_ativos_mes": 2,
+          "cobertura_pct": 25.0,
+          "faturamento_ytd": 338311.72,
+          "media_mensal": 48330.25,
           "por_mes": {
             "2026-01": 683.4,
             "2026-02": 33631.44,
-            "2026-03": 149811.84,
-            "2026-04": 53716.8,
-            "2026-05": 47302.8,
-            "2026-06": 38271.6,
-            "2026-07": 7382.4
+            "2026-03": 151609.68,
+            "2026-04": 54852.96,
+            "2026-05": 49329.84,
+            "2026-06": 38911.68,
+            "2026-07": 9292.72
           },
           "top_cidades": [
             {
               "cidade": "BELO HORIZONTE",
               "clientes": 3
+            },
+            {
+              "cidade": "BETIM",
+              "clientes": 1
             },
             {
               "cidade": "GOVERNADOR VALADARES",
@@ -7447,24 +8807,24 @@ const RAIOX_CLIENTES_DATA = {
           ]
         },
         "MG-344": {
-          "total_clientes": 8,
-          "clientes_ativos_mes": 3,
-          "cobertura_pct": 37.5,
-          "faturamento_ytd": 52990.65,
-          "media_mensal": 7570.09,
+          "total_clientes": 5,
+          "clientes_ativos_mes": 4,
+          "cobertura_pct": 80.0,
+          "faturamento_ytd": 51790.95,
+          "media_mensal": 7398.71,
           "por_mes": {
-            "2026-01": 7088.94,
-            "2026-02": 5419.73,
-            "2026-03": 7372.84,
-            "2026-04": 5805.66,
-            "2026-05": 11947.02,
-            "2026-06": 6403.32,
-            "2026-07": 8953.14
+            "2026-01": 6915.82,
+            "2026-02": 5008.57,
+            "2026-03": 5859.0,
+            "2026-04": 4845.46,
+            "2026-05": 11499.38,
+            "2026-06": 5837.88,
+            "2026-07": 11824.84
           },
           "top_cidades": [
             {
               "cidade": "BELO HORIZONTE",
-              "clientes": 7
+              "clientes": 4
             },
             {
               "cidade": "CONTAGEM",
@@ -7473,27 +8833,24 @@ const RAIOX_CLIENTES_DATA = {
           ]
         },
         "MG-354": {
-          "total_clientes": 4,
-          "clientes_ativos_mes": 0,
-          "cobertura_pct": 0.0,
-          "faturamento_ytd": 4645.86,
-          "media_mensal": 774.31,
+          "total_clientes": 2,
+          "clientes_ativos_mes": 1,
+          "cobertura_pct": 50.0,
+          "faturamento_ytd": 4944.66,
+          "media_mensal": 706.38,
           "por_mes": {
             "2026-01": 1408.32,
             "2026-02": 634.8,
             "2026-03": 526.92,
             "2026-04": 621.12,
             "2026-05": 854.22,
-            "2026-06": 600.48
+            "2026-06": 600.48,
+            "2026-07": 298.8
           },
           "top_cidades": [
             {
               "cidade": "BELO HORIZONTE",
-              "clientes": 3
-            },
-            {
-              "cidade": "SETE LAGOAS",
-              "clientes": 1
+              "clientes": 2
             }
           ]
         },
@@ -7561,24 +8918,23 @@ const RAIOX_CLIENTES_DATA = {
           ]
         },
         "RJ-156": {
-          "total_clientes": 6,
-          "clientes_ativos_mes": 2,
-          "cobertura_pct": 33.3,
-          "faturamento_ytd": 23356.48,
-          "media_mensal": 3336.64,
+          "total_clientes": 5,
+          "clientes_ativos_mes": 1,
+          "cobertura_pct": 20.0,
+          "faturamento_ytd": 22087.52,
+          "media_mensal": 3681.25,
           "por_mes": {
             "2026-01": 2809.0,
-            "2026-02": 6771.48,
+            "2026-02": 6231.72,
             "2026-03": 3945.6,
             "2026-04": 4249.8,
             "2026-05": 4515.4,
-            "2026-06": 364.6,
-            "2026-07": 700.6
+            "2026-07": 336.0
           },
           "top_cidades": [
             {
               "cidade": "RIO DE JANEIRO",
-              "clientes": 4
+              "clientes": 3
             },
             {
               "cidade": "ARMACAO DOS BUZ",
@@ -7667,15 +9023,16 @@ const RAIOX_CLIENTES_DATA = {
         },
         "RJ-378": {
           "total_clientes": 2,
-          "clientes_ativos_mes": 0,
-          "cobertura_pct": 0.0,
-          "faturamento_ytd": 26815.19,
-          "media_mensal": 6703.8,
+          "clientes_ativos_mes": 2,
+          "cobertura_pct": 100.0,
+          "faturamento_ytd": 27459.09,
+          "media_mensal": 5491.82,
           "por_mes": {
             "2026-02": 1961.67,
             "2026-03": 11166.1,
             "2026-04": 13411.82,
-            "2026-06": 275.6
+            "2026-06": 275.6,
+            "2026-07": 643.9
           },
           "top_cidades": [
             {
@@ -7685,59 +9042,18 @@ const RAIOX_CLIENTES_DATA = {
           ]
         },
         "RJ-379": {
-          "total_clientes": 3,
-          "clientes_ativos_mes": 2,
-          "cobertura_pct": 66.7,
-          "faturamento_ytd": 11538.72,
-          "media_mensal": 1923.12,
-          "por_mes": {
-            "2026-01": 2120.58,
-            "2026-02": 196.6,
-            "2026-03": 2651.28,
-            "2026-04": 2017.5,
-            "2026-06": 2629.7,
-            "2026-07": 1923.06
-          },
-          "top_cidades": [
-            {
-              "cidade": "RIO DE JANEIRO",
-              "clientes": 3
-            }
-          ]
-        },
-        "RJ-412": {
-          "total_clientes": 3,
-          "clientes_ativos_mes": 1,
-          "cobertura_pct": 33.3,
-          "faturamento_ytd": 7010.78,
-          "media_mensal": 1001.54,
-          "por_mes": {
-            "2026-01": 2952.96,
-            "2026-02": 107.6,
-            "2026-03": 623.0,
-            "2026-04": 321.99,
-            "2026-05": 1075.76,
-            "2026-06": 1032.64,
-            "2026-07": 896.83
-          },
-          "top_cidades": [
-            {
-              "cidade": "RIO DE JANEIRO",
-              "clientes": 3
-            }
-          ]
-        },
-        "RJ-419": {
           "total_clientes": 1,
           "clientes_ativos_mes": 1,
           "cobertura_pct": 100.0,
-          "faturamento_ytd": 2251.76,
-          "media_mensal": 562.94,
+          "faturamento_ytd": 3384.96,
+          "media_mensal": 564.16,
           "por_mes": {
-            "2026-03": 1080.0,
-            "2026-05": 544.56,
-            "2026-06": 267.4,
-            "2026-07": 359.8
+            "2026-01": 495.3,
+            "2026-02": 196.6,
+            "2026-03": 124.8,
+            "2026-04": 65.9,
+            "2026-06": 1871.9,
+            "2026-07": 630.46
           },
           "top_cidades": [
             {
@@ -7746,37 +9062,60 @@ const RAIOX_CLIENTES_DATA = {
             }
           ]
         },
-        "RJ-431": {
-          "total_clientes": 5,
-          "clientes_ativos_mes": 1,
-          "cobertura_pct": 20.0,
-          "faturamento_ytd": 4056.23,
-          "media_mensal": 676.04,
+        "RJ-412": {
+          "total_clientes": 3,
+          "clientes_ativos_mes": 2,
+          "cobertura_pct": 66.7,
+          "faturamento_ytd": 7294.38,
+          "media_mensal": 1042.05,
           "por_mes": {
-            "2026-02": 851.02,
-            "2026-03": 1073.14,
-            "2026-04": 521.32,
-            "2026-05": 1022.52,
-            "2026-06": 308.42,
-            "2026-07": 279.81
+            "2026-01": 2952.96,
+            "2026-02": 107.6,
+            "2026-03": 623.0,
+            "2026-04": 321.99,
+            "2026-05": 1075.76,
+            "2026-06": 1032.64,
+            "2026-07": 1180.43
           },
           "top_cidades": [
             {
               "cidade": "RIO DE JANEIRO",
-              "clientes": 5
+              "clientes": 3
+            }
+          ]
+        },
+        "RJ-431": {
+          "total_clientes": 6,
+          "clientes_ativos_mes": 3,
+          "cobertura_pct": 50.0,
+          "faturamento_ytd": 4642.59,
+          "media_mensal": 773.76,
+          "por_mes": {
+            "2026-02": 851.02,
+            "2026-03": 1073.14,
+            "2026-04": 593.08,
+            "2026-05": 1022.52,
+            "2026-06": 308.42,
+            "2026-07": 794.41
+          },
+          "top_cidades": [
+            {
+              "cidade": "RIO DE JANEIRO",
+              "clientes": 6
             }
           ]
         },
         "RJ-439": {
           "total_clientes": 1,
-          "clientes_ativos_mes": 0,
-          "cobertura_pct": 0.0,
-          "faturamento_ytd": 774.58,
-          "media_mensal": 258.19,
+          "clientes_ativos_mes": 1,
+          "cobertura_pct": 100.0,
+          "faturamento_ytd": 1491.98,
+          "media_mensal": 373.0,
           "por_mes": {
             "2026-04": 225.98,
             "2026-05": 257.4,
-            "2026-06": 291.2
+            "2026-06": 291.2,
+            "2026-07": 717.4
           },
           "top_cidades": [
             {
@@ -7785,66 +9124,17 @@ const RAIOX_CLIENTES_DATA = {
             }
           ]
         },
-        "RJ-460": {
-          "total_clientes": 1,
-          "clientes_ativos_mes": 0,
-          "cobertura_pct": 0.0,
-          "faturamento_ytd": 0.0,
-          "media_mensal": 0.0,
-          "por_mes": {},
-          "top_cidades": [
-            {
-              "cidade": "RIO DE JANEIRO",
-              "clientes": 1
-            }
-          ]
-        },
-        "RJ-471": {
-          "total_clientes": 1,
-          "clientes_ativos_mes": 1,
-          "cobertura_pct": 100.0,
-          "faturamento_ytd": 1939.68,
-          "media_mensal": 646.56,
-          "por_mes": {
-            "2026-03": 544.7,
-            "2026-04": 1115.18,
-            "2026-07": 279.8
-          },
-          "top_cidades": [
-            {
-              "cidade": "RIO DE JANEIRO",
-              "clientes": 1
-            }
-          ]
-        },
-        "SP-312": {
-          "total_clientes": 1,
-          "clientes_ativos_mes": 0,
-          "cobertura_pct": 0.0,
-          "faturamento_ytd": 1005.6,
-          "media_mensal": 502.8,
-          "por_mes": {
-            "2026-05": 502.8,
-            "2026-06": 502.8
-          },
-          "top_cidades": [
-            {
-              "cidade": "SAO PAULO",
-              "clientes": 1
-            }
-          ]
-        },
         "SP-399": {
-          "total_clientes": 8,
+          "total_clientes": 9,
           "clientes_ativos_mes": 1,
-          "cobertura_pct": 12.5,
-          "faturamento_ytd": 6798.53,
-          "media_mensal": 1133.09,
+          "cobertura_pct": 11.1,
+          "faturamento_ytd": 20224.4,
+          "media_mensal": 3370.73,
           "por_mes": {
             "2026-01": 1758.58,
-            "2026-02": 1574.64,
-            "2026-03": 1238.32,
-            "2026-04": 1246.5,
+            "2026-02": 5770.8,
+            "2026-03": 8897.59,
+            "2026-04": 2816.94,
             "2026-06": 300.0,
             "2026-07": 680.49
           },
@@ -7858,28 +9148,32 @@ const RAIOX_CLIENTES_DATA = {
               "clientes": 2
             },
             {
+              "cidade": "CAJAMAR",
+              "clientes": 1
+            },
+            {
               "cidade": "CARIACICA",
               "clientes": 1
             },
             {
-              "cidade": "CAJAMAR",
+              "cidade": "SAO BERNARDO DO CAMPO",
               "clientes": 1
             }
           ]
         },
         "SP-425": {
           "total_clientes": 2,
-          "clientes_ativos_mes": 1,
-          "cobertura_pct": 50.0,
-          "faturamento_ytd": 79741.87,
-          "media_mensal": 13290.31,
+          "clientes_ativos_mes": 2,
+          "cobertura_pct": 100.0,
+          "faturamento_ytd": 83352.36,
+          "media_mensal": 13892.06,
           "por_mes": {
             "2026-02": 23140.07,
             "2026-03": 30618.94,
             "2026-04": 4945.64,
             "2026-05": 4033.04,
             "2026-06": 15843.49,
-            "2026-07": 1160.7
+            "2026-07": 4771.19
           },
           "top_cidades": [
             {
@@ -7910,15 +9204,16 @@ const RAIOX_CLIENTES_DATA = {
         },
         "SP-429": {
           "total_clientes": 1,
-          "clientes_ativos_mes": 0,
-          "cobertura_pct": 0.0,
-          "faturamento_ytd": 63306.19,
-          "media_mensal": 15826.55,
+          "clientes_ativos_mes": 1,
+          "cobertura_pct": 100.0,
+          "faturamento_ytd": 66399.19,
+          "media_mensal": 13279.84,
           "por_mes": {
             "2026-02": 20966.43,
             "2026-03": 30618.94,
             "2026-05": 2664.54,
-            "2026-06": 9056.28
+            "2026-06": 9056.28,
+            "2026-07": 3093.0
           },
           "top_cidades": [
             {
@@ -7946,14 +9241,15 @@ const RAIOX_CLIENTES_DATA = {
         },
         "SP-460": {
           "total_clientes": 1,
-          "clientes_ativos_mes": 0,
-          "cobertura_pct": 0.0,
-          "faturamento_ytd": 26806.2,
-          "media_mensal": 8935.4,
+          "clientes_ativos_mes": 1,
+          "cobertura_pct": 100.0,
+          "faturamento_ytd": 48964.5,
+          "media_mensal": 12241.12,
           "por_mes": {
             "2026-01": 12711.6,
             "2026-05": 9072.6,
-            "2026-06": 5022.0
+            "2026-06": 5022.0,
+            "2026-07": 22158.3
           },
           "top_cidades": [
             {
@@ -7965,444 +9261,61 @@ const RAIOX_CLIENTES_DATA = {
       }
     },
     {
-      "ramo": "DISTRIBUIDORA DE BEBIDA",
-      "total_clientes": 143,
-      "clientes_ativos_mes": 54,
-      "cobertura_pct": 37.8,
-      "faturamento_ytd": 1947879.37,
-      "media_mensal": 278268.48,
+      "ramo": "EMPORIO/BAZAR",
+      "total_clientes": 12,
+      "clientes_ativos_mes": 6,
+      "cobertura_pct": 50.0,
+      "faturamento_ytd": 2109862.14,
+      "media_mensal": 301408.88,
       "por_mes": {
-        "2026-01": 408557.09,
-        "2026-02": 206695.34,
-        "2026-03": 87653.1,
-        "2026-04": 125499.11,
-        "2026-05": 337479.68,
-        "2026-06": 442588.75,
-        "2026-07": 339406.29
+        "2026-01": 115764.72,
+        "2026-02": 299230.6,
+        "2026-03": 126580.92,
+        "2026-04": 278657.58,
+        "2026-05": 240042.31,
+        "2026-06": 907137.25,
+        "2026-07": 142448.75
       },
       "top_cidades": [
         {
-          "cidade": "RIO DE JANEIRO",
-          "clientes": 19
-        },
-        {
           "cidade": "SAO PAULO",
-          "clientes": 16
+          "clientes": 6
         },
         {
-          "cidade": "BELO HORIZONTE",
-          "clientes": 8
+          "cidade": "RIO DE JANEIRO",
+          "clientes": 2
         },
         {
-          "cidade": "BOTUCATU",
-          "clientes": 8
-        },
-        {
-          "cidade": "CABO FRIO",
-          "clientes": 5
+          "cidade": "MIRACATU",
+          "clientes": 1
         },
         {
           "cidade": "CAMPINAS",
-          "clientes": 5
+          "clientes": 1
         },
         {
-          "cidade": "BETIM",
-          "clientes": 5
+          "cidade": "SAO CARLOS",
+          "clientes": 1
         },
         {
-          "cidade": "PIRACICABA",
-          "clientes": 4
-        },
-        {
-          "cidade": "SAO BERNARDO DO CAMPO",
-          "clientes": 4
-        },
-        {
-          "cidade": "MACAE",
-          "clientes": 4
+          "cidade": "UBATUBA",
+          "clientes": 1
         }
       ],
       "por_vendedor": {
-        "ES-343": {
-          "total_clientes": 1,
-          "clientes_ativos_mes": 0,
-          "cobertura_pct": 0.0,
-          "faturamento_ytd": 0.0,
-          "media_mensal": 0.0,
-          "por_mes": {},
-          "top_cidades": [
-            {
-              "cidade": "CARIACICA",
-              "clientes": 1
-            }
-          ]
-        },
-        "ES-376": {
-          "total_clientes": 1,
-          "clientes_ativos_mes": 0,
-          "cobertura_pct": 0.0,
-          "faturamento_ytd": 168420.0,
-          "media_mensal": 168420.0,
-          "por_mes": {
-            "2026-06": 168420.0
-          },
-          "top_cidades": [
-            {
-              "cidade": "BRASILIA",
-              "clientes": 1
-            }
-          ]
-        },
-        "MG-327": {
-          "total_clientes": 2,
-          "clientes_ativos_mes": 0,
-          "cobertura_pct": 0.0,
-          "faturamento_ytd": 7605.48,
-          "media_mensal": 1901.37,
-          "por_mes": {
-            "2026-02": 3366.96,
-            "2026-04": 2845.8,
-            "2026-05": 778.8,
-            "2026-06": 613.92
-          },
-          "top_cidades": [
-            {
-              "cidade": "BELO HORIZONTE",
-              "clientes": 2
-            }
-          ]
-        },
-        "MG-343": {
-          "total_clientes": 19,
-          "clientes_ativos_mes": 2,
-          "cobertura_pct": 10.5,
-          "faturamento_ytd": 335533.18,
-          "media_mensal": 47933.31,
-          "por_mes": {
-            "2026-01": 117345.74,
-            "2026-02": 617.4,
-            "2026-03": 3624.0,
-            "2026-04": 14649.0,
-            "2026-05": 103789.2,
-            "2026-06": 1849.34,
-            "2026-07": 93658.5
-          },
-          "top_cidades": [
-            {
-              "cidade": "BELO HORIZONTE",
-              "clientes": 5
-            },
-            {
-              "cidade": "BETIM",
-              "clientes": 5
-            },
-            {
-              "cidade": "CONTAGEM",
-              "clientes": 2
-            },
-            {
-              "cidade": "PARA DE MINAS",
-              "clientes": 2
-            },
-            {
-              "cidade": "BARBACENA",
-              "clientes": 1
-            },
-            {
-              "cidade": "NOVA LIMA",
-              "clientes": 1
-            },
-            {
-              "cidade": "POCOS DE CALDAS",
-              "clientes": 1
-            },
-            {
-              "cidade": "RIBEIRAO DAS NEVES",
-              "clientes": 1
-            },
-            {
-              "cidade": "VARGINHA",
-              "clientes": 1
-            }
-          ]
-        },
-        "MG-344": {
-          "total_clientes": 1,
-          "clientes_ativos_mes": 0,
-          "cobertura_pct": 0.0,
-          "faturamento_ytd": 1484.0,
-          "media_mensal": 742.0,
-          "por_mes": {
-            "2026-02": 267.8,
-            "2026-06": 1216.2
-          },
-          "top_cidades": [
-            {
-              "cidade": "BELO HORIZONTE",
-              "clientes": 1
-            }
-          ]
-        },
-        "RJ-91": {
-          "total_clientes": 1,
-          "clientes_ativos_mes": 0,
-          "cobertura_pct": 0.0,
-          "faturamento_ytd": 480.0,
-          "media_mensal": 480.0,
-          "por_mes": {
-            "2026-01": 480.0
-          },
-          "top_cidades": [
-            {
-              "cidade": "PORTO ALEGRE",
-              "clientes": 1
-            }
-          ]
-        },
-        "RJ-144": {
-          "total_clientes": 2,
-          "clientes_ativos_mes": 1,
-          "cobertura_pct": 50.0,
-          "faturamento_ytd": 2010.0,
-          "media_mensal": 2010.0,
-          "por_mes": {
-            "2026-07": 2010.0
-          },
-          "top_cidades": [
-            {
-              "cidade": "RIO DE JANEIRO",
-              "clientes": 2
-            }
-          ]
-        },
-        "RJ-155": {
-          "total_clientes": 5,
-          "clientes_ativos_mes": 3,
-          "cobertura_pct": 60.0,
-          "faturamento_ytd": 98834.53,
-          "media_mensal": 14119.22,
-          "por_mes": {
-            "2026-01": 35901.95,
-            "2026-02": 29169.0,
-            "2026-03": 13380.56,
-            "2026-04": 4194.6,
-            "2026-05": 1581.6,
-            "2026-06": 8594.88,
-            "2026-07": 6011.94
-          },
-          "top_cidades": [
-            {
-              "cidade": "CABO FRIO",
-              "clientes": 3
-            },
-            {
-              "cidade": "ARMACAO DOS BUZ",
-              "clientes": 2
-            }
-          ]
-        },
-        "RJ-156": {
-          "total_clientes": 2,
-          "clientes_ativos_mes": 0,
-          "cobertura_pct": 0.0,
-          "faturamento_ytd": 0.0,
-          "media_mensal": 0.0,
-          "por_mes": {},
-          "top_cidades": [
-            {
-              "cidade": "RIO DE JANEIRO",
-              "clientes": 2
-            }
-          ]
-        },
         "RJ-158": {
-          "total_clientes": 2,
-          "clientes_ativos_mes": 1,
-          "cobertura_pct": 50.0,
-          "faturamento_ytd": 94560.72,
-          "media_mensal": 15760.12,
-          "por_mes": {
-            "2026-01": 54791.4,
-            "2026-02": 6532.2,
-            "2026-03": 18930.96,
-            "2026-04": 11520.0,
-            "2026-05": 1588.56,
-            "2026-07": 1197.6
-          },
-          "top_cidades": [
-            {
-              "cidade": "ITABORAI",
-              "clientes": 1
-            },
-            {
-              "cidade": "RIO DE JANEIRO",
-              "clientes": 1
-            }
-          ]
-        },
-        "RJ-159": {
-          "total_clientes": 4,
-          "clientes_ativos_mes": 2,
-          "cobertura_pct": 50.0,
-          "faturamento_ytd": 143513.3,
-          "media_mensal": 23918.88,
-          "por_mes": {
-            "2026-01": 13403.7,
-            "2026-02": 12235.8,
-            "2026-04": 266.7,
-            "2026-05": 51870.6,
-            "2026-06": 36120.9,
-            "2026-07": 29615.6
-          },
-          "top_cidades": [
-            {
-              "cidade": "MACAE",
-              "clientes": 3
-            },
-            {
-              "cidade": "CABO FRIO",
-              "clientes": 1
-            }
-          ]
-        },
-        "RJ-241": {
-          "total_clientes": 5,
-          "clientes_ativos_mes": 2,
-          "cobertura_pct": 40.0,
-          "faturamento_ytd": 19133.56,
-          "media_mensal": 3188.93,
-          "por_mes": {
-            "2026-01": 1647.0,
-            "2026-02": 4208.3,
-            "2026-03": 716.8,
-            "2026-05": 1438.8,
-            "2026-06": 9014.2,
-            "2026-07": 2108.46
-          },
-          "top_cidades": [
-            {
-              "cidade": "RIO DAS OSTRAS",
-              "clientes": 3
-            },
-            {
-              "cidade": "CABO FRIO",
-              "clientes": 1
-            },
-            {
-              "cidade": "MACAE",
-              "clientes": 1
-            }
-          ]
-        },
-        "RJ-275": {
-          "total_clientes": 2,
-          "clientes_ativos_mes": 0,
-          "cobertura_pct": 0.0,
-          "faturamento_ytd": 14902.2,
-          "media_mensal": 7451.1,
-          "por_mes": {
-            "2026-03": 8347.2,
-            "2026-05": 6555.0
-          },
-          "top_cidades": [
-            {
-              "cidade": "PARACAMBI",
-              "clientes": 1
-            },
-            {
-              "cidade": "QUEIMADOS",
-              "clientes": 1
-            }
-          ]
-        },
-        "RJ-378": {
-          "total_clientes": 3,
-          "clientes_ativos_mes": 1,
-          "cobertura_pct": 33.3,
-          "faturamento_ytd": 56921.98,
-          "media_mensal": 9487.0,
-          "por_mes": {
-            "2026-01": 33590.2,
-            "2026-02": 8538.5,
-            "2026-03": 5912.24,
-            "2026-04": 7573.4,
-            "2026-06": 329.58,
-            "2026-07": 978.06
-          },
-          "top_cidades": [
-            {
-              "cidade": "RIO DE JANEIRO",
-              "clientes": 2
-            },
-            {
-              "cidade": "SAO JOAO DE MER",
-              "clientes": 1
-            }
-          ]
-        },
-        "RJ-379": {
-          "total_clientes": 5,
-          "clientes_ativos_mes": 3,
-          "cobertura_pct": 60.0,
-          "faturamento_ytd": 87008.6,
-          "media_mensal": 12429.8,
-          "por_mes": {
-            "2026-01": 34563.62,
-            "2026-02": 9801.54,
-            "2026-03": 8066.94,
-            "2026-04": 13712.3,
-            "2026-05": 14567.46,
-            "2026-06": 1123.6,
-            "2026-07": 5173.14
-          },
-          "top_cidades": [
-            {
-              "cidade": "SAO JOAO DE MER",
-              "clientes": 3
-            },
-            {
-              "cidade": "NOVA IGUACU",
-              "clientes": 1
-            },
-            {
-              "cidade": "RIO DE JANEIRO",
-              "clientes": 1
-            }
-          ]
-        },
-        "RJ-419": {
-          "total_clientes": 3,
-          "clientes_ativos_mes": 2,
-          "cobertura_pct": 66.7,
-          "faturamento_ytd": 47628.19,
-          "media_mensal": 6804.03,
-          "por_mes": {
-            "2026-01": 18853.25,
-            "2026-02": 3778.14,
-            "2026-03": 13930.58,
-            "2026-04": 2718.61,
-            "2026-05": 4358.6,
-            "2026-06": 3041.14,
-            "2026-07": 947.88
-          },
-          "top_cidades": [
-            {
-              "cidade": "RIO DE JANEIRO",
-              "clientes": 3
-            }
-          ]
-        },
-        "RJ-431": {
           "total_clientes": 1,
-          "clientes_ativos_mes": 0,
-          "cobertura_pct": 0.0,
-          "faturamento_ytd": 24960.65,
-          "media_mensal": 6240.16,
+          "clientes_ativos_mes": 1,
+          "cobertura_pct": 100.0,
+          "faturamento_ytd": 71678.74,
+          "media_mensal": 11946.46,
           "por_mes": {
-            "2026-01": 45.8,
-            "2026-03": 73.76,
-            "2026-05": 9954.78,
-            "2026-06": 14886.31
+            "2026-01": 436.6,
+            "2026-03": 403.08,
+            "2026-04": 16507.2,
+            "2026-05": 49684.22,
+            "2026-06": 2310.26,
+            "2026-07": 2337.38
           },
           "top_cidades": [
             {
@@ -8411,29 +9324,7 @@ const RAIOX_CLIENTES_DATA = {
             }
           ]
         },
-        "RJ-439": {
-          "total_clientes": 3,
-          "clientes_ativos_mes": 2,
-          "cobertura_pct": 66.7,
-          "faturamento_ytd": 16015.22,
-          "media_mensal": 2287.89,
-          "por_mes": {
-            "2026-01": 3558.84,
-            "2026-02": 3212.44,
-            "2026-03": 1315.7,
-            "2026-04": 3364.78,
-            "2026-05": 1262.36,
-            "2026-06": 946.2,
-            "2026-07": 2354.9
-          },
-          "top_cidades": [
-            {
-              "cidade": "ANGRA DOS REIS",
-              "clientes": 3
-            }
-          ]
-        },
-        "RJ-450": {
+        "RJ-412": {
           "total_clientes": 1,
           "clientes_ativos_mes": 0,
           "cobertura_pct": 0.0,
@@ -8442,282 +9333,73 @@ const RAIOX_CLIENTES_DATA = {
           "por_mes": {},
           "top_cidades": [
             {
-              "cidade": "SAQUAREMA",
-              "clientes": 1
-            }
-          ]
-        },
-        "RJ-471": {
-          "total_clientes": 2,
-          "clientes_ativos_mes": 1,
-          "cobertura_pct": 50.0,
-          "faturamento_ytd": 124543.78,
-          "media_mensal": 20757.3,
-          "por_mes": {
-            "2026-01": 45197.84,
-            "2026-02": 25175.0,
-            "2026-04": 13618.0,
-            "2026-05": 33391.14,
-            "2026-06": 2719.0,
-            "2026-07": 4442.8
-          },
-          "top_cidades": [
-            {
               "cidade": "RIO DE JANEIRO",
-              "clientes": 2
+              "clientes": 1
             }
           ]
         },
         "SP-399": {
-          "total_clientes": 21,
-          "clientes_ativos_mes": 2,
-          "cobertura_pct": 9.5,
-          "faturamento_ytd": 48789.95,
-          "media_mensal": 6969.99,
+          "total_clientes": 5,
+          "clientes_ativos_mes": 4,
+          "cobertura_pct": 80.0,
+          "faturamento_ytd": 2020667.89,
+          "media_mensal": 288666.84,
           "por_mes": {
-            "2026-01": 5468.9,
-            "2026-02": 2727.4,
-            "2026-03": 5548.08,
-            "2026-04": 7886.4,
-            "2026-05": 169.9,
-            "2026-06": 23834.02,
-            "2026-07": 3155.25
+            "2026-01": 115328.12,
+            "2026-02": 299230.6,
+            "2026-03": 126177.84,
+            "2026-04": 259652.94,
+            "2026-05": 178685.28,
+            "2026-06": 902092.55,
+            "2026-07": 139500.56
           },
           "top_cidades": [
             {
               "cidade": "SAO PAULO",
-              "clientes": 10
-            },
-            {
-              "cidade": "RIO DE JANEIRO",
               "clientes": 5
-            },
-            {
-              "cidade": "CAMPINAS",
-              "clientes": 1
-            },
-            {
-              "cidade": "GUARULHOS",
-              "clientes": 1
-            },
-            {
-              "cidade": "OSASCO",
-              "clientes": 1
-            },
-            {
-              "cidade": "INDAIATUBA",
-              "clientes": 1
-            },
-            {
-              "cidade": "PIRACICABA",
-              "clientes": 1
-            },
-            {
-              "cidade": "VILA VELHA",
-              "clientes": 1
             }
           ]
         },
         "SP-425": {
-          "total_clientes": 5,
-          "clientes_ativos_mes": 0,
-          "cobertura_pct": 0.0,
-          "faturamento_ytd": 0.0,
-          "media_mensal": 0.0,
-          "por_mes": {},
-          "top_cidades": [
-            {
-              "cidade": "CAMPINAS",
-              "clientes": 2
-            },
-            {
-              "cidade": "PAULINIA",
-              "clientes": 1
-            },
-            {
-              "cidade": "PIRACICABA",
-              "clientes": 1
-            },
-            {
-              "cidade": "SOROCABA",
-              "clientes": 1
-            }
-          ]
-        },
-        "SP-426": {
-          "total_clientes": 5,
-          "clientes_ativos_mes": 2,
-          "cobertura_pct": 40.0,
-          "faturamento_ytd": 332246.98,
-          "media_mensal": 55374.5,
+          "total_clientes": 1,
+          "clientes_ativos_mes": 1,
+          "cobertura_pct": 100.0,
+          "faturamento_ytd": 9528.46,
+          "media_mensal": 2382.11,
           "por_mes": {
-            "2026-01": 70727.6,
-            "2026-02": 105603.36,
-            "2026-04": 21931.2,
-            "2026-05": 50703.48,
-            "2026-06": 57770.64,
-            "2026-07": 25510.7
+            "2026-04": 2497.44,
+            "2026-05": 3685.76,
+            "2026-06": 2734.44,
+            "2026-07": 610.82
           },
           "top_cidades": [
             {
-              "cidade": "BARRA BONITA",
-              "clientes": 1
-            },
-            {
-              "cidade": "BRAGANCA PAULISTA",
-              "clientes": 1
-            },
-            {
               "cidade": "CAMPINAS",
-              "clientes": 1
-            },
-            {
-              "cidade": "GUARULHOS",
-              "clientes": 1
-            },
-            {
-              "cidade": "SERRANA",
               "clientes": 1
             }
           ]
         },
         "SP-433": {
-          "total_clientes": 11,
-          "clientes_ativos_mes": 5,
-          "cobertura_pct": 45.5,
-          "faturamento_ytd": 203730.12,
-          "media_mensal": 33955.02,
+          "total_clientes": 2,
+          "clientes_ativos_mes": 0,
+          "cobertura_pct": 0.0,
+          "faturamento_ytd": 7987.05,
+          "media_mensal": 7987.05,
           "por_mes": {
-            "2026-01": 1469.16,
-            "2026-03": 13718.52,
-            "2026-04": 36678.12,
-            "2026-05": 51229.8,
-            "2026-06": 52003.02,
-            "2026-07": 48631.5
+            "2026-05": 7987.05
           },
           "top_cidades": [
-            {
-              "cidade": "SAO PAULO",
-              "clientes": 3
-            },
-            {
-              "cidade": "CAMPINAS",
-              "clientes": 1
-            },
-            {
-              "cidade": "HORTOLANDIA",
-              "clientes": 1
-            },
-            {
-              "cidade": "PIRACICABA",
-              "clientes": 1
-            },
-            {
-              "cidade": "PEDREIRA",
-              "clientes": 1
-            },
-            {
-              "cidade": "SAO BERNARDO DO CAMPO",
-              "clientes": 1
-            },
             {
               "cidade": "SAO CARLOS",
               "clientes": 1
             },
             {
-              "cidade": "SERRANA",
-              "clientes": 1
-            },
-            {
-              "cidade": "VALINHOS",
+              "cidade": "SAO PAULO",
               "clientes": 1
             }
           ]
         },
-        "SP-460": {
-          "total_clientes": 1,
-          "clientes_ativos_mes": 0,
-          "cobertura_pct": 0.0,
-          "faturamento_ytd": 654.36,
-          "media_mensal": 654.36,
-          "por_mes": {
-            "2026-06": 654.36
-          },
-          "top_cidades": [
-            {
-              "cidade": "SAO JOSE DOS CAMPOS",
-              "clientes": 1
-            }
-          ]
-        },
-        "SP-461": {
-          "total_clientes": 1,
-          "clientes_ativos_mes": 1,
-          "cobertura_pct": 100.0,
-          "faturamento_ytd": 2397.6,
-          "media_mensal": 2397.6,
-          "por_mes": {
-            "2026-07": 2397.6
-          },
-          "top_cidades": [
-            {
-              "cidade": "FERRAZ DE VASCONCELOS",
-              "clientes": 1
-            }
-          ]
-        },
-        "SP-469": {
-          "total_clientes": 1,
-          "clientes_ativos_mes": 1,
-          "cobertura_pct": 100.0,
-          "faturamento_ytd": 4708.7,
-          "media_mensal": 1569.57,
-          "por_mes": {
-            "2026-05": 718.8,
-            "2026-06": 2319.6,
-            "2026-07": 1670.3
-          },
-          "top_cidades": [
-            {
-              "cidade": "CAMPINAS",
-              "clientes": 1
-            }
-          ]
-        },
-        "SP-470": {
-          "total_clientes": 1,
-          "clientes_ativos_mes": 1,
-          "cobertura_pct": 100.0,
-          "faturamento_ytd": 1522.24,
-          "media_mensal": 1522.24,
-          "por_mes": {
-            "2026-07": 1522.24
-          },
-          "top_cidades": [
-            {
-              "cidade": "PIRACICABA",
-              "clientes": 1
-            }
-          ]
-        },
-        "SP-472": {
-          "total_clientes": 1,
-          "clientes_ativos_mes": 1,
-          "cobertura_pct": 100.0,
-          "faturamento_ytd": 6701.4,
-          "media_mensal": 3350.7,
-          "por_mes": {
-            "2026-06": 6234.6,
-            "2026-07": 466.8
-          },
-          "top_cidades": [
-            {
-              "cidade": "PINDAMONHANGABA",
-              "clientes": 1
-            }
-          ]
-        },
-        "SP-473": {
+        "SP-497": {
           "total_clientes": 1,
           "clientes_ativos_mes": 0,
           "cobertura_pct": 0.0,
@@ -8726,203 +9408,8 @@ const RAIOX_CLIENTES_DATA = {
           "por_mes": {},
           "top_cidades": [
             {
-              "cidade": "MOGI GUACU",
+              "cidade": "MIRACATU",
               "clientes": 1
-            }
-          ]
-        },
-        "SP-476": {
-          "total_clientes": 9,
-          "clientes_ativos_mes": 8,
-          "cobertura_pct": 88.9,
-          "faturamento_ytd": 54912.96,
-          "media_mensal": 18304.32,
-          "por_mes": {
-            "2026-05": 3520.8,
-            "2026-06": 21535.5,
-            "2026-07": 29856.66
-          },
-          "top_cidades": [
-            {
-              "cidade": "BOTUCATU",
-              "clientes": 8
-            },
-            {
-              "cidade": "AREIOPOLIS",
-              "clientes": 1
-            }
-          ]
-        },
-        "SP-477": {
-          "total_clientes": 1,
-          "clientes_ativos_mes": 0,
-          "cobertura_pct": 0.0,
-          "faturamento_ytd": 3653.98,
-          "media_mensal": 3653.98,
-          "por_mes": {
-            "2026-06": 3653.98
-          },
-          "top_cidades": [
-            {
-              "cidade": "ITAI",
-              "clientes": 1
-            }
-          ]
-        },
-        "SP-486": {
-          "total_clientes": 6,
-          "clientes_ativos_mes": 5,
-          "cobertura_pct": 83.3,
-          "faturamento_ytd": 20357.48,
-          "media_mensal": 6785.83,
-          "por_mes": {
-            "2026-01": 5102.3,
-            "2026-06": 2831.2,
-            "2026-07": 12423.98
-          },
-          "top_cidades": [
-            {
-              "cidade": "PAULINIA",
-              "clientes": 2
-            },
-            {
-              "cidade": "AMPARO",
-              "clientes": 1
-            },
-            {
-              "cidade": "HORTOLANDIA",
-              "clientes": 1
-            },
-            {
-              "cidade": "SANTA BARBARA D OESTE",
-              "clientes": 1
-            },
-            {
-              "cidade": "SUMARE",
-              "clientes": 1
-            }
-          ]
-        },
-        "SP-487": {
-          "total_clientes": 2,
-          "clientes_ativos_mes": 1,
-          "cobertura_pct": 50.0,
-          "faturamento_ytd": 4689.0,
-          "media_mensal": 4689.0,
-          "por_mes": {
-            "2026-07": 4689.0
-          },
-          "top_cidades": [
-            {
-              "cidade": "SAO JOSE DO RIO PRETO",
-              "clientes": 2
-            }
-          ]
-        },
-        "SP-489": {
-          "total_clientes": 2,
-          "clientes_ativos_mes": 2,
-          "cobertura_pct": 100.0,
-          "faturamento_ytd": 53944.5,
-          "media_mensal": 53944.5,
-          "por_mes": {
-            "2026-07": 53944.5
-          },
-          "top_cidades": [
-            {
-              "cidade": "CERQUILHO",
-              "clientes": 2
-            }
-          ]
-        },
-        "SP-491": {
-          "total_clientes": 1,
-          "clientes_ativos_mes": 1,
-          "cobertura_pct": 100.0,
-          "faturamento_ytd": 778.5,
-          "media_mensal": 778.5,
-          "por_mes": {
-            "2026-07": 778.5
-          },
-          "top_cidades": [
-            {
-              "cidade": "ITAPUI",
-              "clientes": 1
-            }
-          ]
-        },
-        "SP-492": {
-          "total_clientes": 1,
-          "clientes_ativos_mes": 0,
-          "cobertura_pct": 0.0,
-          "faturamento_ytd": 0.0,
-          "media_mensal": 0.0,
-          "por_mes": {},
-          "top_cidades": [
-            {
-              "cidade": "SAO PAULO",
-              "clientes": 1
-            }
-          ]
-        },
-        "SP-493": {
-          "total_clientes": 5,
-          "clientes_ativos_mes": 2,
-          "cobertura_pct": 40.0,
-          "faturamento_ytd": 6257.94,
-          "media_mensal": 3128.97,
-          "por_mes": {
-            "2026-06": 4321.86,
-            "2026-07": 1936.08
-          },
-          "top_cidades": [
-            {
-              "cidade": "SAO PAULO",
-              "clientes": 2
-            },
-            {
-              "cidade": "ITAQUAQUECETUBA",
-              "clientes": 1
-            },
-            {
-              "cidade": "MAUA",
-              "clientes": 1
-            },
-            {
-              "cidade": "SUZANO",
-              "clientes": 1
-            }
-          ]
-        },
-        "SP-498": {
-          "total_clientes": 1,
-          "clientes_ativos_mes": 1,
-          "cobertura_pct": 100.0,
-          "faturamento_ytd": 2585.1,
-          "media_mensal": 2585.1,
-          "por_mes": {
-            "2026-07": 2585.1
-          },
-          "top_cidades": [
-            {
-              "cidade": "IBITINGA",
-              "clientes": 1
-            }
-          ]
-        },
-        "SP-512": {
-          "total_clientes": 3,
-          "clientes_ativos_mes": 1,
-          "cobertura_pct": 33.3,
-          "faturamento_ytd": 1339.2,
-          "media_mensal": 1339.2,
-          "por_mes": {
-            "2026-07": 1339.2
-          },
-          "top_cidades": [
-            {
-              "cidade": "SAO BERNARDO DO CAMPO",
-              "clientes": 3
             }
           ]
         },
@@ -8944,19 +9431,19 @@ const RAIOX_CLIENTES_DATA = {
     },
     {
       "ramo": "ADEGA",
-      "total_clientes": 91,
-      "clientes_ativos_mes": 53,
-      "cobertura_pct": 58.2,
-      "faturamento_ytd": 1269776.65,
-      "media_mensal": 181396.66,
+      "total_clientes": 93,
+      "clientes_ativos_mes": 67,
+      "cobertura_pct": 72.0,
+      "faturamento_ytd": 1647114.52,
+      "media_mensal": 235302.07,
       "por_mes": {
-        "2026-01": 63490.74,
-        "2026-02": 23548.76,
-        "2026-03": 89872.47,
-        "2026-04": 322492.16,
-        "2026-05": 104655.35,
-        "2026-06": 360816.66,
-        "2026-07": 304900.51
+        "2026-01": 62460.74,
+        "2026-02": 19669.94,
+        "2026-03": 158088.7,
+        "2026-04": 337388.2,
+        "2026-05": 235344.77,
+        "2026-06": 364398.16,
+        "2026-07": 469764.0
       },
       "top_cidades": [
         {
@@ -8965,18 +9452,14 @@ const RAIOX_CLIENTES_DATA = {
         },
         {
           "cidade": "SAO BERNARDO DO CAMPO",
-          "clientes": 6
-        },
-        {
-          "cidade": "RIBEIRAO PRETO",
-          "clientes": 5
-        },
-        {
-          "cidade": "CAMPINAS",
-          "clientes": 4
+          "clientes": 8
         },
         {
           "cidade": "RIO DE JANEIRO",
+          "clientes": 7
+        },
+        {
+          "cidade": "CAMPINAS",
           "clientes": 4
         },
         {
@@ -8984,46 +9467,65 @@ const RAIOX_CLIENTES_DATA = {
           "clientes": 4
         },
         {
+          "cidade": "RIBEIRAO PRETO",
+          "clientes": 4
+        },
+        {
           "cidade": "ANGRA DOS REIS",
-          "clientes": 3
-        },
-        {
-          "cidade": "MOGI GUACU",
-          "clientes": 3
-        },
-        {
-          "cidade": "PORTO FELIZ",
           "clientes": 3
         },
         {
           "cidade": "SAO JOSE DOS CAMPOS",
           "clientes": 3
+        },
+        {
+          "cidade": "MOGI DAS CRUZES",
+          "clientes": 3
+        },
+        {
+          "cidade": "GUARULHOS",
+          "clientes": 2
         }
       ],
       "por_vendedor": {
         "RJ-91": {
-          "total_clientes": 1,
-          "clientes_ativos_mes": 0,
-          "cobertura_pct": 0.0,
-          "faturamento_ytd": 0.0,
-          "media_mensal": 0.0,
-          "por_mes": {},
+          "total_clientes": 3,
+          "clientes_ativos_mes": 1,
+          "cobertura_pct": 33.3,
+          "faturamento_ytd": 350576.6,
+          "media_mensal": 58429.43,
+          "por_mes": {
+            "2026-01": 7361.28,
+            "2026-03": 131014.2,
+            "2026-04": 49437.6,
+            "2026-05": 146537.7,
+            "2026-06": 13840.22,
+            "2026-07": 2385.6
+          },
           "top_cidades": [
             {
               "cidade": "CURITIBA",
+              "clientes": 1
+            },
+            {
+              "cidade": "RIO DE JANEIRO",
+              "clientes": 1
+            },
+            {
+              "cidade": "SAO PAULO",
               "clientes": 1
             }
           ]
         },
         "RJ-155": {
-          "total_clientes": 2,
+          "total_clientes": 3,
           "clientes_ativos_mes": 2,
-          "cobertura_pct": 100.0,
-          "faturamento_ytd": 8941.48,
-          "media_mensal": 4470.74,
+          "cobertura_pct": 66.7,
+          "faturamento_ytd": 9893.2,
+          "media_mensal": 4946.6,
           "por_mes": {
             "2026-06": 818.52,
-            "2026-07": 8122.96
+            "2026-07": 9074.68
           },
           "top_cidades": [
             {
@@ -9032,6 +9534,10 @@ const RAIOX_CLIENTES_DATA = {
             },
             {
               "cidade": "ARMACAO DOS BUZ",
+              "clientes": 1
+            },
+            {
+              "cidade": "RIO DE JANEIRO",
               "clientes": 1
             }
           ]
@@ -9057,10 +9563,10 @@ const RAIOX_CLIENTES_DATA = {
           "total_clientes": 1,
           "clientes_ativos_mes": 1,
           "cobertura_pct": 100.0,
-          "faturamento_ytd": 957.6,
-          "media_mensal": 957.6,
+          "faturamento_ytd": 1794.0,
+          "media_mensal": 1794.0,
           "por_mes": {
-            "2026-07": 957.6
+            "2026-07": 1794.0
           },
           "top_cidades": [
             {
@@ -9073,11 +9579,11 @@ const RAIOX_CLIENTES_DATA = {
           "total_clientes": 1,
           "clientes_ativos_mes": 1,
           "cobertura_pct": 100.0,
-          "faturamento_ytd": 2869.29,
-          "media_mensal": 1434.65,
+          "faturamento_ytd": 4616.79,
+          "media_mensal": 2308.4,
           "por_mes": {
             "2026-06": 836.42,
-            "2026-07": 2032.87
+            "2026-07": 3780.37
           },
           "top_cidades": [
             {
@@ -9090,8 +9596,8 @@ const RAIOX_CLIENTES_DATA = {
           "total_clientes": 2,
           "clientes_ativos_mes": 2,
           "cobertura_pct": 100.0,
-          "faturamento_ytd": 14736.24,
-          "media_mensal": 2105.18,
+          "faturamento_ytd": 15418.84,
+          "media_mensal": 2202.69,
           "por_mes": {
             "2026-01": 4758.3,
             "2026-02": 1336.42,
@@ -9099,7 +9605,7 @@ const RAIOX_CLIENTES_DATA = {
             "2026-04": 2053.7,
             "2026-05": 2780.82,
             "2026-06": 1437.6,
-            "2026-07": 619.5
+            "2026-07": 1302.1
           },
           "top_cidades": [
             {
@@ -9135,22 +9641,22 @@ const RAIOX_CLIENTES_DATA = {
           ]
         },
         "RJ-471": {
-          "total_clientes": 2,
-          "clientes_ativos_mes": 1,
-          "cobertura_pct": 50.0,
-          "faturamento_ytd": 2352.76,
-          "media_mensal": 470.55,
+          "total_clientes": 3,
+          "clientes_ativos_mes": 2,
+          "cobertura_pct": 66.7,
+          "faturamento_ytd": 3329.06,
+          "media_mensal": 665.81,
           "por_mes": {
             "2026-03": 330.72,
             "2026-04": 1035.32,
             "2026-05": 432.4,
             "2026-06": 273.6,
-            "2026-07": 280.72
+            "2026-07": 1257.02
           },
           "top_cidades": [
             {
               "cidade": "RIO DE JANEIRO",
-              "clientes": 2
+              "clientes": 3
             }
           ]
         },
@@ -9158,8 +9664,8 @@ const RAIOX_CLIENTES_DATA = {
           "total_clientes": 1,
           "clientes_ativos_mes": 1,
           "cobertura_pct": 100.0,
-          "faturamento_ytd": 130113.41,
-          "media_mensal": 18587.63,
+          "faturamento_ytd": 144952.58,
+          "media_mensal": 20707.51,
           "por_mes": {
             "2026-01": 22548.47,
             "2026-02": 4178.52,
@@ -9167,7 +9673,7 @@ const RAIOX_CLIENTES_DATA = {
             "2026-04": 19759.62,
             "2026-05": 2815.8,
             "2026-06": 46746.94,
-            "2026-07": 14470.72
+            "2026-07": 29309.88
           },
           "top_cidades": [
             {
@@ -9180,13 +9686,13 @@ const RAIOX_CLIENTES_DATA = {
           "total_clientes": 1,
           "clientes_ativos_mes": 1,
           "cobertura_pct": 100.0,
-          "faturamento_ytd": 293230.8,
-          "media_mensal": 73307.7,
+          "faturamento_ytd": 386605.18,
+          "media_mensal": 96651.29,
           "por_mes": {
             "2026-01": 8748.0,
             "2026-04": 156453.0,
             "2026-06": 61378.2,
-            "2026-07": 66651.6
+            "2026-07": 160025.98
           },
           "top_cidades": [
             {
@@ -9199,36 +9705,43 @@ const RAIOX_CLIENTES_DATA = {
           "total_clientes": 1,
           "clientes_ativos_mes": 1,
           "cobertura_pct": 100.0,
-          "faturamento_ytd": 158476.45,
-          "media_mensal": 22639.49,
+          "faturamento_ytd": 144952.58,
+          "media_mensal": 20707.51,
           "por_mes": {
-            "2026-01": 14097.52,
-            "2026-02": 16135.62,
-            "2026-03": 56218.37,
-            "2026-04": 41962.26,
-            "2026-05": 17199.88,
-            "2026-06": 3632.4,
-            "2026-07": 9230.4
+            "2026-01": 22548.47,
+            "2026-02": 4178.52,
+            "2026-03": 19593.34,
+            "2026-04": 19759.62,
+            "2026-05": 2815.8,
+            "2026-06": 46746.94,
+            "2026-07": 29309.88
           },
           "top_cidades": [
             {
-              "cidade": "CAMPINAS",
+              "cidade": "SAO PAULO",
               "clientes": 1
             }
           ]
         },
         "SP-425": {
-          "total_clientes": 1,
-          "clientes_ativos_mes": 0,
-          "cobertura_pct": 0.0,
-          "faturamento_ytd": 449.9,
-          "media_mensal": 449.9,
+          "total_clientes": 2,
+          "clientes_ativos_mes": 1,
+          "cobertura_pct": 50.0,
+          "faturamento_ytd": 4907.6,
+          "media_mensal": 1226.9,
           "por_mes": {
-            "2026-06": 449.9
+            "2026-04": 2404.7,
+            "2026-05": 1351.6,
+            "2026-06": 449.9,
+            "2026-07": 701.4
           },
           "top_cidades": [
             {
               "cidade": "JUNDIAI",
+              "clientes": 1
+            },
+            {
+              "cidade": "RIO CLARO",
               "clientes": 1
             }
           ]
@@ -9256,24 +9769,16 @@ const RAIOX_CLIENTES_DATA = {
           ]
         },
         "SP-433": {
-          "total_clientes": 7,
-          "clientes_ativos_mes": 2,
-          "cobertura_pct": 28.6,
-          "faturamento_ytd": 29280.27,
-          "media_mensal": 14640.14,
+          "total_clientes": 5,
+          "clientes_ativos_mes": 3,
+          "cobertura_pct": 60.0,
+          "faturamento_ytd": 29077.47,
+          "media_mensal": 14538.74,
           "por_mes": {
-            "2026-06": 19782.27,
-            "2026-07": 9498.0
+            "2026-06": 15000.87,
+            "2026-07": 14076.6
           },
           "top_cidades": [
-            {
-              "cidade": "ASSIS",
-              "clientes": 1
-            },
-            {
-              "cidade": "BAURU",
-              "clientes": 1
-            },
             {
               "cidade": "LIMEIRA",
               "clientes": 1
@@ -9300,11 +9805,11 @@ const RAIOX_CLIENTES_DATA = {
           "total_clientes": 3,
           "clientes_ativos_mes": 2,
           "cobertura_pct": 66.7,
-          "faturamento_ytd": 30889.41,
-          "media_mensal": 15444.71,
+          "faturamento_ytd": 34773.21,
+          "media_mensal": 17386.61,
           "por_mes": {
             "2026-06": 13064.93,
-            "2026-07": 17824.48
+            "2026-07": 21708.28
           },
           "top_cidades": [
             {
@@ -9395,12 +9900,13 @@ const RAIOX_CLIENTES_DATA = {
         },
         "SP-469": {
           "total_clientes": 1,
-          "clientes_ativos_mes": 0,
-          "cobertura_pct": 0.0,
-          "faturamento_ytd": 199.8,
-          "media_mensal": 199.8,
+          "clientes_ativos_mes": 1,
+          "cobertura_pct": 100.0,
+          "faturamento_ytd": 462.6,
+          "media_mensal": 231.3,
           "por_mes": {
-            "2026-06": 199.8
+            "2026-06": 199.8,
+            "2026-07": 262.8
           },
           "top_cidades": [
             {
@@ -9448,14 +9954,14 @@ const RAIOX_CLIENTES_DATA = {
         },
         "SP-476": {
           "total_clientes": 6,
-          "clientes_ativos_mes": 2,
-          "cobertura_pct": 33.3,
-          "faturamento_ytd": 17555.0,
-          "media_mensal": 5851.67,
+          "clientes_ativos_mes": 3,
+          "cobertura_pct": 50.0,
+          "faturamento_ytd": 18149.6,
+          "media_mensal": 6049.87,
           "por_mes": {
             "2026-05": 1016.4,
             "2026-06": 10674.8,
-            "2026-07": 5863.8
+            "2026-07": 6458.4
           },
           "top_cidades": [
             {
@@ -9468,6 +9974,22 @@ const RAIOX_CLIENTES_DATA = {
             },
             {
               "cidade": "SAO MANUEL",
+              "clientes": 1
+            }
+          ]
+        },
+        "SP-477": {
+          "total_clientes": 1,
+          "clientes_ativos_mes": 1,
+          "cobertura_pct": 100.0,
+          "faturamento_ytd": 305.6,
+          "media_mensal": 305.6,
+          "por_mes": {
+            "2026-07": 305.6
+          },
+          "top_cidades": [
+            {
+              "cidade": "AVARE",
               "clientes": 1
             }
           ]
@@ -9508,12 +10030,12 @@ const RAIOX_CLIENTES_DATA = {
           "total_clientes": 6,
           "clientes_ativos_mes": 5,
           "cobertura_pct": 83.3,
-          "faturamento_ytd": 16101.78,
-          "media_mensal": 5367.26,
+          "faturamento_ytd": 22476.71,
+          "media_mensal": 7492.24,
           "por_mes": {
             "2026-04": 875.1,
-            "2026-06": 2582.32,
-            "2026-07": 12644.36
+            "2026-06": 737.4,
+            "2026-07": 20864.21
           },
           "top_cidades": [
             {
@@ -9529,19 +10051,19 @@ const RAIOX_CLIENTES_DATA = {
               "clientes": 1
             },
             {
-              "cidade": "MOGI GUACU",
+              "cidade": "PEDREIRA",
               "clientes": 1
             },
             {
-              "cidade": "PEDREIRA",
+              "cidade": "SUMARE",
               "clientes": 1
             }
           ]
         },
         "SP-487": {
-          "total_clientes": 4,
+          "total_clientes": 2,
           "clientes_ativos_mes": 1,
-          "cobertura_pct": 25.0,
+          "cobertura_pct": 50.0,
           "faturamento_ytd": 4386.2,
           "media_mensal": 2193.1,
           "por_mes": {
@@ -9551,11 +10073,7 @@ const RAIOX_CLIENTES_DATA = {
           "top_cidades": [
             {
               "cidade": "RIBEIRAO PRETO",
-              "clientes": 3
-            },
-            {
-              "cidade": "SAO JOSE DO RIO PRETO",
-              "clientes": 1
+              "clientes": 2
             }
           ]
         },
@@ -9563,11 +10081,11 @@ const RAIOX_CLIENTES_DATA = {
           "total_clientes": 4,
           "clientes_ativos_mes": 4,
           "cobertura_pct": 100.0,
-          "faturamento_ytd": 58000.93,
-          "media_mensal": 29000.46,
+          "faturamento_ytd": 62060.53,
+          "media_mensal": 31030.26,
           "por_mes": {
             "2026-06": 21725.86,
-            "2026-07": 36275.07
+            "2026-07": 40334.67
           },
           "top_cidades": [
             {
@@ -9617,9 +10135,9 @@ const RAIOX_CLIENTES_DATA = {
           ]
         },
         "SP-492": {
-          "total_clientes": 2,
+          "total_clientes": 1,
           "clientes_ativos_mes": 1,
-          "cobertura_pct": 50.0,
+          "cobertura_pct": 100.0,
           "faturamento_ytd": 279.98,
           "media_mensal": 279.98,
           "por_mes": {
@@ -9628,18 +10146,19 @@ const RAIOX_CLIENTES_DATA = {
           "top_cidades": [
             {
               "cidade": "SAO PAULO",
-              "clientes": 2
+              "clientes": 1
             }
           ]
         },
         "SP-493": {
           "total_clientes": 2,
-          "clientes_ativos_mes": 0,
-          "cobertura_pct": 0.0,
-          "faturamento_ytd": 1962.59,
-          "media_mensal": 1962.59,
+          "clientes_ativos_mes": 1,
+          "cobertura_pct": 50.0,
+          "faturamento_ytd": 2378.19,
+          "media_mensal": 1189.1,
           "por_mes": {
-            "2026-06": 1962.59
+            "2026-06": 1962.59,
+            "2026-07": 415.6
           },
           "top_cidades": [
             {
@@ -9653,9 +10172,9 @@ const RAIOX_CLIENTES_DATA = {
           ]
         },
         "SP-497": {
-          "total_clientes": 2,
+          "total_clientes": 1,
           "clientes_ativos_mes": 1,
-          "cobertura_pct": 50.0,
+          "cobertura_pct": 100.0,
           "faturamento_ytd": 5039.7,
           "media_mensal": 5039.7,
           "por_mes": {
@@ -9664,10 +10183,6 @@ const RAIOX_CLIENTES_DATA = {
           "top_cidades": [
             {
               "cidade": "JUQUIA",
-              "clientes": 1
-            },
-            {
-              "cidade": "PERUIBE",
               "clientes": 1
             }
           ]
@@ -9684,20 +10199,6 @@ const RAIOX_CLIENTES_DATA = {
           "top_cidades": [
             {
               "cidade": "IBITINGA",
-              "clientes": 1
-            }
-          ]
-        },
-        "SP-502": {
-          "total_clientes": 1,
-          "clientes_ativos_mes": 0,
-          "cobertura_pct": 0.0,
-          "faturamento_ytd": 0.0,
-          "media_mensal": 0.0,
-          "por_mes": {},
-          "top_cidades": [
-            {
-              "cidade": "PRAIA GRANDE",
               "clientes": 1
             }
           ]
@@ -9719,9 +10220,9 @@ const RAIOX_CLIENTES_DATA = {
           ]
         },
         "SP-509": {
-          "total_clientes": 3,
+          "total_clientes": 1,
           "clientes_ativos_mes": 1,
-          "cobertura_pct": 33.3,
+          "cobertura_pct": 100.0,
           "faturamento_ytd": 1674.0,
           "media_mensal": 1674.0,
           "por_mes": {
@@ -9730,24 +10231,25 @@ const RAIOX_CLIENTES_DATA = {
           "top_cidades": [
             {
               "cidade": "PORTO FELIZ",
-              "clientes": 3
+              "clientes": 1
             }
           ]
         },
         "SP-512": {
-          "total_clientes": 10,
-          "clientes_ativos_mes": 5,
-          "cobertura_pct": 50.0,
-          "faturamento_ytd": 38532.24,
-          "media_mensal": 19266.12,
+          "total_clientes": 12,
+          "clientes_ativos_mes": 11,
+          "cobertura_pct": 91.7,
+          "faturamento_ytd": 83073.94,
+          "media_mensal": 27691.31,
           "por_mes": {
+            "2026-01": 12096.4,
             "2026-04": 774.0,
-            "2026-07": 37758.24
+            "2026-07": 70203.54
           },
           "top_cidades": [
             {
               "cidade": "SAO BERNARDO DO CAMPO",
-              "clientes": 6
+              "clientes": 8
             },
             {
               "cidade": "DIADEMA",
@@ -9759,14 +10261,31 @@ const RAIOX_CLIENTES_DATA = {
             }
           ]
         },
+        "SP-513": {
+          "total_clientes": 1,
+          "clientes_ativos_mes": 1,
+          "cobertura_pct": 100.0,
+          "faturamento_ytd": 5702.88,
+          "media_mensal": 2851.44,
+          "por_mes": {
+            "2026-02": 4012.8,
+            "2026-07": 1690.08
+          },
+          "top_cidades": [
+            {
+              "cidade": "EMBU",
+              "clientes": 1
+            }
+          ]
+        },
         "SP-515": {
           "total_clientes": 2,
           "clientes_ativos_mes": 2,
           "cobertura_pct": 100.0,
-          "faturamento_ytd": 3396.0,
-          "media_mensal": 3396.0,
+          "faturamento_ytd": 4539.0,
+          "media_mensal": 4539.0,
           "por_mes": {
-            "2026-07": 3396.0
+            "2026-07": 4539.0
           },
           "top_cidades": [
             {
@@ -9780,82 +10299,7 @@ const RAIOX_CLIENTES_DATA = {
           ]
         },
         "SP-516": {
-          "total_clientes": 2,
-          "clientes_ativos_mes": 0,
-          "cobertura_pct": 0.0,
-          "faturamento_ytd": 12969.76,
-          "media_mensal": 6484.88,
-          "por_mes": {
-            "2026-01": 6390.16,
-            "2026-03": 6579.6
-          },
-          "top_cidades": [
-            {
-              "cidade": "CARAGUATATUBA",
-              "clientes": 2
-            }
-          ]
-        }
-      }
-    },
-    {
-      "ramo": "EMPORIO/BAZAR",
-      "total_clientes": 11,
-      "clientes_ativos_mes": 4,
-      "cobertura_pct": 36.4,
-      "faturamento_ytd": 1144304.54,
-      "media_mensal": 163472.08,
-      "por_mes": {
-        "2026-01": 35082.4,
-        "2026-02": 108012.48,
-        "2026-03": 61269.42,
-        "2026-04": 169431.93,
-        "2026-05": 118513.93,
-        "2026-06": 572569.69,
-        "2026-07": 79424.69
-      },
-      "top_cidades": [
-        {
-          "cidade": "SAO PAULO",
-          "clientes": 5
-        },
-        {
-          "cidade": "RIO DE JANEIRO",
-          "clientes": 4
-        },
-        {
-          "cidade": "MIRACATU",
-          "clientes": 1
-        },
-        {
-          "cidade": "CAMPINAS",
-          "clientes": 1
-        }
-      ],
-      "por_vendedor": {
-        "RJ-158": {
-          "total_clientes": 1,
-          "clientes_ativos_mes": 1,
-          "cobertura_pct": 100.0,
-          "faturamento_ytd": 71981.82,
-          "media_mensal": 11996.97,
-          "por_mes": {
-            "2026-01": 436.6,
-            "2026-03": 403.08,
-            "2026-04": 16507.2,
-            "2026-05": 49684.22,
-            "2026-06": 2310.26,
-            "2026-07": 2640.46
-          },
-          "top_cidades": [
-            {
-              "cidade": "RIO DE JANEIRO",
-              "clientes": 1
-            }
-          ]
-        },
-        "RJ-460": {
-          "total_clientes": 3,
+          "total_clientes": 4,
           "clientes_ativos_mes": 0,
           "cobertura_pct": 0.0,
           "faturamento_ytd": 0.0,
@@ -9863,77 +10307,32 @@ const RAIOX_CLIENTES_DATA = {
           "por_mes": {},
           "top_cidades": [
             {
-              "cidade": "RIO DE JANEIRO",
-              "clientes": 3
-            }
-          ]
-        },
-        "SP-399": {
-          "total_clientes": 4,
-          "clientes_ativos_mes": 3,
-          "cobertura_pct": 75.0,
-          "faturamento_ytd": 1055418.03,
-          "media_mensal": 150774.0,
-          "por_mes": {
-            "2026-01": 34645.8,
-            "2026-02": 108012.48,
-            "2026-03": 60866.34,
-            "2026-04": 150427.29,
-            "2026-05": 57156.9,
-            "2026-06": 567524.99,
-            "2026-07": 76784.23
-          },
-          "top_cidades": [
+              "cidade": "UBATUBA",
+              "clientes": 2
+            },
             {
-              "cidade": "SAO PAULO",
-              "clientes": 4
+              "cidade": "CARAGUATATUBA",
+              "clientes": 1
+            },
+            {
+              "cidade": "SAO SEBASTIAO",
+              "clientes": 1
             }
           ]
         },
-        "SP-425": {
+        "SP-518": {
           "total_clientes": 1,
           "clientes_ativos_mes": 0,
           "cobertura_pct": 0.0,
-          "faturamento_ytd": 8917.64,
-          "media_mensal": 2972.55,
+          "faturamento_ytd": 13260.0,
+          "media_mensal": 6630.0,
           "por_mes": {
-            "2026-04": 2497.44,
-            "2026-05": 3685.76,
-            "2026-06": 2734.44
+            "2026-02": 8244.0,
+            "2026-04": 5016.0
           },
           "top_cidades": [
             {
               "cidade": "CAMPINAS",
-              "clientes": 1
-            }
-          ]
-        },
-        "SP-433": {
-          "total_clientes": 1,
-          "clientes_ativos_mes": 0,
-          "cobertura_pct": 0.0,
-          "faturamento_ytd": 7987.05,
-          "media_mensal": 7987.05,
-          "por_mes": {
-            "2026-05": 7987.05
-          },
-          "top_cidades": [
-            {
-              "cidade": "SAO PAULO",
-              "clientes": 1
-            }
-          ]
-        },
-        "SP-497": {
-          "total_clientes": 1,
-          "clientes_ativos_mes": 0,
-          "cobertura_pct": 0.0,
-          "faturamento_ytd": 0.0,
-          "media_mensal": 0.0,
-          "por_mes": {},
-          "top_cidades": [
-            {
-              "cidade": "MIRACATU",
               "clientes": 1
             }
           ]
@@ -9942,102 +10341,117 @@ const RAIOX_CLIENTES_DATA = {
     },
     {
       "ramo": "MINI-MERCADO",
-      "total_clientes": 243,
-      "clientes_ativos_mes": 88,
-      "cobertura_pct": 36.2,
-      "faturamento_ytd": 988487.92,
-      "media_mensal": 141212.56,
+      "total_clientes": 297,
+      "clientes_ativos_mes": 146,
+      "cobertura_pct": 49.2,
+      "faturamento_ytd": 1296664.36,
+      "media_mensal": 185237.77,
       "por_mes": {
-        "2026-01": 51675.94,
-        "2026-02": 83104.85,
-        "2026-03": 113146.39,
-        "2026-04": 197565.11,
-        "2026-05": 135611.06,
-        "2026-06": 184196.03,
-        "2026-07": 223188.55
+        "2026-01": 72618.9,
+        "2026-02": 83809.78,
+        "2026-03": 117234.89,
+        "2026-04": 291979.33,
+        "2026-05": 132476.13,
+        "2026-06": 184252.55,
+        "2026-07": 414292.79
       },
       "top_cidades": [
         {
           "cidade": "RIO DE JANEIRO",
-          "clientes": 42
+          "clientes": 58
         },
         {
           "cidade": "SAO PAULO",
-          "clientes": 25
+          "clientes": 29
         },
         {
-          "cidade": "PRAIA GRANDE",
-          "clientes": 24
-        },
-        {
-          "cidade": "SAO JOSE DOS CAMPOS",
-          "clientes": 10
-        },
-        {
-          "cidade": "BOTUCATU",
-          "clientes": 9
-        },
-        {
-          "cidade": "NOVA IGUACU",
-          "clientes": 7
-        },
-        {
-          "cidade": "MOGI DAS CRUZES",
-          "clientes": 6
-        },
-        {
-          "cidade": "CAMPINAS",
-          "clientes": 6
-        },
-        {
-          "cidade": "PINDAMONHANGABA",
-          "clientes": 6
+          "cidade": "SAO SEBASTIAO",
+          "clientes": 15
         },
         {
           "cidade": "UBATUBA",
-          "clientes": 5
+          "clientes": 15
+        },
+        {
+          "cidade": "CARAGUATATUBA",
+          "clientes": 8
+        },
+        {
+          "cidade": "BOTUCATU",
+          "clientes": 8
+        },
+        {
+          "cidade": "MOGI DAS CRUZES",
+          "clientes": 7
+        },
+        {
+          "cidade": "SAO JOSE DOS CAMPOS",
+          "clientes": 7
+        },
+        {
+          "cidade": "GUARULHOS",
+          "clientes": 7
+        },
+        {
+          "cidade": "GUARUJA",
+          "clientes": 6
         }
       ],
       "por_vendedor": {
         "ES-335": {
-          "total_clientes": 2,
+          "total_clientes": 1,
           "clientes_ativos_mes": 0,
           "cobertura_pct": 0.0,
-          "faturamento_ytd": 2013.38,
-          "media_mensal": 503.34,
+          "faturamento_ytd": 413.64,
+          "media_mensal": 206.82,
           "por_mes": {
-            "2026-01": 508.89,
             "2026-02": 118.43,
-            "2026-03": 550.7,
-            "2026-05": 835.36
+            "2026-03": 295.22
           },
           "top_cidades": [
             {
               "cidade": "CACHOEIRO DE IT",
-              "clientes": 2
+              "clientes": 1
+            }
+          ]
+        },
+        "RJ-91": {
+          "total_clientes": 1,
+          "clientes_ativos_mes": 0,
+          "cobertura_pct": 0.0,
+          "faturamento_ytd": 99820.8,
+          "media_mensal": 99820.8,
+          "por_mes": {
+            "2026-04": 99820.8
+          },
+          "top_cidades": [
+            {
+              "cidade": "SAO PAULO",
+              "clientes": 1
             }
           ]
         },
         "RJ-144": {
-          "total_clientes": 2,
-          "clientes_ativos_mes": 0,
-          "cobertura_pct": 0.0,
-          "faturamento_ytd": 44785.9,
-          "media_mensal": 14928.63,
+          "total_clientes": 8,
+          "clientes_ativos_mes": 2,
+          "cobertura_pct": 25.0,
+          "faturamento_ytd": 55301.5,
+          "media_mensal": 13825.38,
           "por_mes": {
             "2026-04": 25817.5,
             "2026-05": 18160.8,
-            "2026-06": 807.6
+            "2026-06": 807.6,
+            "2026-07": 10515.6
           },
           "top_cidades": [
             {
               "cidade": "RIO DE JANEIRO",
-              "clientes": 2
+              "clientes": 8
             }
           ]
         },
         "RJ-153": {
-          "total_clientes": 4,
+          "total_clientes": 5,
           "clientes_ativos_mes": 0,
           "cobertura_pct": 0.0,
           "faturamento_ytd": 32617.3,
@@ -10057,40 +10471,57 @@ const RAIOX_CLIENTES_DATA = {
             {
               "cidade": "RIO DE JANEIRO",
               "clientes": 2
+            },
+            {
+              "cidade": "MAGE",
+              "clientes": 1
             }
           ]
         },
         "RJ-155": {
-          "total_clientes": 2,
-          "clientes_ativos_mes": 1,
+          "total_clientes": 6,
+          "clientes_ativos_mes": 3,
           "cobertura_pct": 50.0,
-          "faturamento_ytd": 6344.82,
-          "media_mensal": 1057.47,
+          "faturamento_ytd": 28006.45,
+          "media_mensal": 4000.92,
           "por_mes": {
-            "2026-02": 1804.5,
-            "2026-03": 1239.31,
-            "2026-04": 1292.13,
-            "2026-05": 405.98,
+            "2026-01": 14889.95,
+            "2026-02": 3213.3,
+            "2026-03": 2063.71,
+            "2026-04": 2690.13,
+            "2026-05": 1616.06,
             "2026-06": 334.7,
-            "2026-07": 1268.2
+            "2026-07": 3198.6
           },
           "top_cidades": [
             {
               "cidade": "ARMACAO DOS BUZ",
-              "clientes": 2
+              "clientes": 4
+            },
+            {
+              "cidade": "BELFORD ROXO",
+              "clientes": 1
+            },
+            {
+              "cidade": "CABO FRIO",
+              "clientes": 1
             }
           ]
         },
         "RJ-158": {
-          "total_clientes": 1,
+          "total_clientes": 2,
           "clientes_ativos_mes": 1,
-          "cobertura_pct": 100.0,
+          "cobertura_pct": 50.0,
           "faturamento_ytd": 1721.94,
           "media_mensal": 1721.94,
           "por_mes": {
             "2026-07": 1721.94
           },
           "top_cidades": [
+            {
+              "cidade": "ITABORAI",
+              "clientes": 1
+            },
             {
               "cidade": "MESQUITA",
               "clientes": 1
@@ -10114,78 +10545,77 @@ const RAIOX_CLIENTES_DATA = {
           ]
         },
         "RJ-241": {
-          "total_clientes": 1,
+          "total_clientes": 2,
           "clientes_ativos_mes": 0,
           "cobertura_pct": 0.0,
-          "faturamento_ytd": 1719.59,
-          "media_mensal": 859.79,
+          "faturamento_ytd": 10089.36,
+          "media_mensal": 5044.68,
           "por_mes": {
-            "2026-02": 913.27,
-            "2026-04": 806.32
+            "2026-01": 6878.16,
+            "2026-03": 3211.2
           },
           "top_cidades": [
             {
-              "cidade": "RIO DAS OSTRAS",
+              "cidade": "ARMACAO DOS BUZ",
+              "clientes": 1
+            },
+            {
+              "cidade": "CABO FRIO",
               "clientes": 1
             }
           ]
         },
         "RJ-378": {
-          "total_clientes": 9,
-          "clientes_ativos_mes": 7,
-          "cobertura_pct": 77.8,
-          "faturamento_ytd": 34134.54,
-          "media_mensal": 4876.36,
+          "total_clientes": 11,
+          "clientes_ativos_mes": 10,
+          "cobertura_pct": 90.9,
+          "faturamento_ytd": 12654.18,
+          "media_mensal": 2109.03,
           "por_mes": {
-            "2026-01": 12928.25,
-            "2026-02": 5020.26,
-            "2026-03": 1347.82,
-            "2026-04": 7322.9,
+            "2026-02": 557.56,
+            "2026-03": 4716.32,
+            "2026-04": 1348.26,
             "2026-05": 623.28,
-            "2026-06": 4354.96,
-            "2026-07": 2537.07
+            "2026-06": 961.36,
+            "2026-07": 4447.39
           },
           "top_cidades": [
             {
               "cidade": "RIO DE JANEIRO",
-              "clientes": 8
-            },
-            {
-              "cidade": "DUQUE DE CAXIAS",
-              "clientes": 1
+              "clientes": 11
             }
           ]
         },
         "RJ-379": {
-          "total_clientes": 21,
-          "clientes_ativos_mes": 11,
-          "cobertura_pct": 52.4,
-          "faturamento_ytd": 71486.04,
-          "media_mensal": 10212.29,
+          "total_clientes": 18,
+          "clientes_ativos_mes": 15,
+          "cobertura_pct": 83.3,
+          "faturamento_ytd": 84629.95,
+          "media_mensal": 12089.99,
           "por_mes": {
-            "2026-01": 17175.85,
+            "2026-01": 15843.15,
             "2026-02": 6288.56,
             "2026-03": 5696.01,
-            "2026-04": 10397.4,
+            "2026-04": 10140.6,
             "2026-05": 6961.48,
             "2026-06": 9916.2,
-            "2026-07": 15050.54
+            "2026-07": 29783.95
           },
           "top_cidades": [
             {
               "cidade": "NOVA IGUACU",
-              "clientes": 7
+              "clientes": 5
             },
             {
-              "cidade": "RIO DE JANEIRO",
-              "clientes": 4
+              "cidade": "NILOPOLIS",
+              "clientes": 3
             },
             {
               "cidade": "MESQUITA",
               "clientes": 3
             },
             {
-              "cidade": "NILOPOLIS",
+              "cidade": "RIO DE JANEIRO",
               "clientes": 3
             },
             {
@@ -10204,15 +10634,12 @@ const RAIOX_CLIENTES_DATA = {
         },
         "RJ-412": {
           "total_clientes": 3,
-          "clientes_ativos_mes": 1,
-          "cobertura_pct": 33.3,
-          "faturamento_ytd": 1797.36,
-          "media_mensal": 449.34,
+          "clientes_ativos_mes": 0,
+          "cobertura_pct": 0.0,
+          "faturamento_ytd": 309.4,
+          "media_mensal": 309.4,
           "por_mes": {
-            "2026-03": 284.1,
-            "2026-04": 378.8,
-            "2026-05": 936.22,
-            "2026-07": 198.24
+            "2026-05": 309.4
           },
           "top_cidades": [
             {
@@ -10222,59 +10649,67 @@ const RAIOX_CLIENTES_DATA = {
           ]
         },
         "RJ-419": {
-          "total_clientes": 3,
-          "clientes_ativos_mes": 1,
-          "cobertura_pct": 33.3,
-          "faturamento_ytd": 2427.6,
-          "media_mensal": 809.2,
+          "total_clientes": 8,
+          "clientes_ativos_mes": 5,
+          "cobertura_pct": 62.5,
+          "faturamento_ytd": 8678.4,
+          "media_mensal": 2169.6,
           "por_mes": {
-            "2026-04": 775.2,
+            "2026-01": 776.64,
+            "2026-03": 2535.36,
             "2026-06": 720.0,
-            "2026-07": 932.4
+            "2026-07": 4646.4
           },
           "top_cidades": [
             {
               "cidade": "RIO DE JANEIRO",
-              "clientes": 3
+              "clientes": 8
             }
           ]
         },
         "RJ-431": {
-          "total_clientes": 11,
-          "clientes_ativos_mes": 2,
-          "cobertura_pct": 18.2,
-          "faturamento_ytd": 23855.19,
-          "media_mensal": 3407.88,
+          "total_clientes": 17,
+          "clientes_ativos_mes": 7,
+          "cobertura_pct": 41.2,
+          "faturamento_ytd": 29879.65,
+          "media_mensal": 4268.52,
           "por_mes": {
             "2026-01": 2931.62,
             "2026-02": 1394.69,
             "2026-03": 4716.9,
-            "2026-04": 8153.91,
-            "2026-05": 2073.8,
-            "2026-06": 3771.41,
-            "2026-07": 812.86
+            "2026-04": 8510.93,
+            "2026-05": 2148.7,
+            "2026-06": 4150.61,
+            "2026-07": 6026.2
           },
           "top_cidades": [
             {
               "cidade": "RIO DE JANEIRO",
-              "clientes": 11
+              "clientes": 15
+            },
+            {
+              "cidade": "SAO PEDRO DA AL",
+              "clientes": 2
             }
           ]
         },
         "RJ-439": {
-          "total_clientes": 2,
-          "clientes_ativos_mes": 1,
-          "cobertura_pct": 50.0,
-          "faturamento_ytd": 3102.84,
-          "media_mensal": 1551.42,
+          "total_clientes": 3,
+          "clientes_ativos_mes": 3,
+          "cobertura_pct": 100.0,
+          "faturamento_ytd": 8018.2,
+          "media_mensal": 1603.64,
           "por_mes": {
-            "2026-03": 1759.56,
-            "2026-07": 1343.28
+            "2026-01": 239.8,
+            "2026-02": 209.4,
+            "2026-03": 1948.96,
+            "2026-04": 287.42,
+            "2026-07": 5332.62
           },
           "top_cidades": [
             {
               "cidade": "ANGRA DOS REIS",
-              "clientes": 1
+              "clientes": 2
             },
             {
               "cidade": "RESENDE",
@@ -10282,32 +10717,16 @@ const RAIOX_CLIENTES_DATA = {
             }
           ]
         },
-        "RJ-460": {
-          "total_clientes": 1,
-          "clientes_ativos_mes": 0,
-          "cobertura_pct": 0.0,
-          "faturamento_ytd": 0.0,
-          "media_mensal": 0.0,
-          "por_mes": {},
-          "top_cidades": [
-            {
-              "cidade": "RIO DE JANEIRO",
-              "clientes": 1
-            }
-          ]
-        },
         "RJ-471": {
           "total_clientes": 3,
-          "clientes_ativos_mes": 1,
-          "cobertura_pct": 33.3,
-          "faturamento_ytd": 9613.76,
-          "media_mensal": 1922.75,
+          "clientes_ativos_mes": 2,
+          "cobertura_pct": 66.7,
+          "faturamento_ytd": 9704.94,
+          "media_mensal": 3234.98,
           "por_mes": {
-            "2026-02": 426.1,
-            "2026-03": 3368.5,
             "2026-05": 2048.75,
             "2026-06": 1381.84,
-            "2026-07": 2388.58
+            "2026-07": 6274.35
           },
           "top_cidades": [
             {
@@ -10317,9 +10736,25 @@ const RAIOX_CLIENTES_DATA = {
           ]
         },
         "SP-232": {
-          "total_clientes": 2,
+          "total_clientes": 1,
           "clientes_ativos_mes": 1,
-          "cobertura_pct": 50.0,
+          "cobertura_pct": 100.0,
+          "faturamento_ytd": 967.56,
+          "media_mensal": 967.56,
+          "por_mes": {
+            "2026-07": 967.56
+          },
+          "top_cidades": [
+            {
+              "cidade": "SAO PAULO",
+              "clientes": 1
+            }
+          ]
+        },
+        "SP-317": {
+          "total_clientes": 1,
+          "clientes_ativos_mes": 1,
+          "cobertura_pct": 100.0,
           "faturamento_ytd": 2693.82,
           "media_mensal": 1346.91,
           "por_mes": {
@@ -10329,20 +10764,20 @@ const RAIOX_CLIENTES_DATA = {
           "top_cidades": [
             {
               "cidade": "SAO PAULO",
-              "clientes": 2
+              "clientes": 1
             }
           ]
         },
         "SP-371": {
           "total_clientes": 9,
-          "clientes_ativos_mes": 8,
-          "cobertura_pct": 88.9,
-          "faturamento_ytd": 10376.92,
-          "media_mensal": 3458.97,
+          "clientes_ativos_mes": 4,
+          "cobertura_pct": 44.4,
+          "faturamento_ytd": 9249.4,
+          "media_mensal": 3083.13,
           "por_mes": {
             "2026-04": 6746.08,
             "2026-06": 1375.8,
-            "2026-07": 2255.04
+            "2026-07": 1127.52
           },
           "top_cidades": [
             {
@@ -10361,14 +10796,15 @@ const RAIOX_CLIENTES_DATA = {
         },
         "SP-391": {
           "total_clientes": 2,
-          "clientes_ativos_mes": 0,
-          "cobertura_pct": 0.0,
-          "faturamento_ytd": 46202.51,
-          "media_mensal": 15400.84,
+          "clientes_ativos_mes": 1,
+          "cobertura_pct": 50.0,
+          "faturamento_ytd": 48841.61,
+          "media_mensal": 12210.4,
           "por_mes": {
             "2026-03": 10080.0,
             "2026-05": 23568.11,
-            "2026-06": 12554.4
+            "2026-06": 12554.4,
+            "2026-07": 2639.1
           },
           "top_cidades": [
             {
@@ -10378,46 +10814,64 @@ const RAIOX_CLIENTES_DATA = {
           ]
         },
         "SP-399": {
-          "total_clientes": 8,
-          "clientes_ativos_mes": 1,
-          "cobertura_pct": 12.5,
-          "faturamento_ytd": 156675.64,
-          "media_mensal": 22382.23,
+          "total_clientes": 16,
+          "clientes_ativos_mes": 9,
+          "cobertura_pct": 56.2,
+          "faturamento_ytd": 169989.25,
+          "media_mensal": 24284.18,
           "por_mes": {
             "2026-01": 14796.6,
             "2026-02": 64572.3,
             "2026-03": 23616.84,
-            "2026-04": 23858.1,
-            "2026-05": 10168.6,
-            "2026-06": 8162.4,
-            "2026-07": 11500.8
+            "2026-04": 28016.44,
+            "2026-05": 11407.72,
+            "2026-06": 12405.55,
+            "2026-07": 15173.8
           },
           "top_cidades": [
+            {
+              "cidade": "SAO PAULO",
+              "clientes": 6
+            },
             {
               "cidade": "RIO DE JANEIRO",
               "clientes": 4
             },
             {
-              "cidade": "SAO PAULO",
-              "clientes": 2
+              "cidade": "CAMPINAS",
+              "clientes": 1
+            },
+            {
+              "cidade": "EMBU",
+              "clientes": 1
+            },
+            {
+              "cidade": "JARINU",
+              "clientes": 1
+            },
+            {
+              "cidade": "HOLAMBRA",
+              "clientes": 1
             },
             {
               "cidade": "PIRAPORA DO BOM JESUS",
               "clientes": 1
             },
             {
-              "cidade": "JARINU",
+              "cidade": "TABOAO DA SERRA",
               "clientes": 1
             }
           ]
         },
         "SP-425": {
           "total_clientes": 2,
-          "clientes_ativos_mes": 0,
-          "cobertura_pct": 0.0,
-          "faturamento_ytd": 0.0,
-          "media_mensal": 0.0,
-          "por_mes": {},
+          "clientes_ativos_mes": 1,
+          "cobertura_pct": 50.0,
+          "faturamento_ytd": 1715.4,
+          "media_mensal": 1715.4,
+          "por_mes": {
+            "2026-07": 1715.4
+          },
           "top_cidades": [
             {
               "cidade": "ITATIBA",
@@ -10431,16 +10885,16 @@ const RAIOX_CLIENTES_DATA = {
         },
         "SP-426": {
           "total_clientes": 3,
-          "clientes_ativos_mes": 2,
-          "cobertura_pct": 66.7,
-          "faturamento_ytd": 158545.38,
-          "media_mensal": 31709.08,
+          "clientes_ativos_mes": 3,
+          "cobertura_pct": 100.0,
+          "faturamento_ytd": 160822.38,
+          "media_mensal": 32164.48,
           "por_mes": {
             "2026-03": 51480.0,
             "2026-04": 61570.8,
             "2026-05": 2672.64,
             "2026-06": 6299.58,
-            "2026-07": 36522.36
+            "2026-07": 38799.36
           },
           "top_cidades": [
             {
@@ -10482,13 +10936,13 @@ const RAIOX_CLIENTES_DATA = {
           "total_clientes": 10,
           "clientes_ativos_mes": 8,
           "cobertura_pct": 80.0,
-          "faturamento_ytd": 51215.2,
-          "media_mensal": 12803.8,
+          "faturamento_ytd": 52760.2,
+          "media_mensal": 13190.05,
           "por_mes": {
             "2026-04": 10249.8,
             "2026-05": 6874.1,
             "2026-06": 16523.92,
-            "2026-07": 17567.38
+            "2026-07": 19112.38
           },
           "top_cidades": [
             {
@@ -10522,13 +10976,13 @@ const RAIOX_CLIENTES_DATA = {
           ]
         },
         "SP-460": {
-          "total_clientes": 11,
+          "total_clientes": 8,
           "clientes_ativos_mes": 4,
-          "cobertura_pct": 36.4,
-          "faturamento_ytd": 33015.76,
-          "media_mensal": 8253.94,
+          "cobertura_pct": 50.0,
+          "faturamento_ytd": 32667.5,
+          "media_mensal": 8166.87,
           "por_mes": {
-            "2026-04": 610.33,
+            "2026-04": 262.07,
             "2026-05": 1921.14,
             "2026-06": 5507.61,
             "2026-07": 24976.68
@@ -10536,7 +10990,7 @@ const RAIOX_CLIENTES_DATA = {
           "top_cidades": [
             {
               "cidade": "SAO JOSE DOS CAMPOS",
-              "clientes": 10
+              "clientes": 7
             },
             {
               "cidade": "JACAREI",
@@ -10546,36 +11000,40 @@ const RAIOX_CLIENTES_DATA = {
         },
         "SP-461": {
           "total_clientes": 3,
-          "clientes_ativos_mes": 2,
-          "cobertura_pct": 66.7,
-          "faturamento_ytd": 3057.32,
-          "media_mensal": 1528.66,
+          "clientes_ativos_mes": 3,
+          "cobertura_pct": 100.0,
+          "faturamento_ytd": 7812.92,
+          "media_mensal": 3906.46,
           "por_mes": {
             "2026-06": 990.4,
-            "2026-07": 2066.92
+            "2026-07": 6822.52
           },
           "top_cidades": [
             {
               "cidade": "FERRAZ DE VASCONCELOS",
-              "clientes": 3
+              "clientes": 2
+            },
+            {
+              "cidade": "POA",
+              "clientes": 1
             }
           ]
         },
         "SP-463": {
-          "total_clientes": 6,
-          "clientes_ativos_mes": 1,
-          "cobertura_pct": 16.7,
-          "faturamento_ytd": 13815.98,
-          "media_mensal": 4605.33,
+          "total_clientes": 7,
+          "clientes_ativos_mes": 3,
+          "cobertura_pct": 42.9,
+          "faturamento_ytd": 15371.98,
+          "media_mensal": 5123.99,
           "por_mes": {
             "2026-05": 2177.04,
             "2026-06": 10511.18,
-            "2026-07": 1127.76
+            "2026-07": 2683.76
           },
           "top_cidades": [
             {
               "cidade": "MOGI DAS CRUZES",
-              "clientes": 6
+              "clientes": 7
             }
           ]
         },
@@ -10617,17 +11075,21 @@ const RAIOX_CLIENTES_DATA = {
           ]
         },
         "SP-466": {
-          "total_clientes": 3,
-          "clientes_ativos_mes": 1,
-          "cobertura_pct": 33.3,
-          "faturamento_ytd": 18320.17,
-          "media_mensal": 6106.72,
+          "total_clientes": 5,
+          "clientes_ativos_mes": 2,
+          "cobertura_pct": 40.0,
+          "faturamento_ytd": 29203.93,
+          "media_mensal": 9734.64,
           "por_mes": {
             "2026-05": 8599.83,
             "2026-06": 8780.04,
-            "2026-07": 940.3
+            "2026-07": 11824.06
           },
           "top_cidades": [
+            {
+              "cidade": "CUNHA",
+              "clientes": 2
+            },
             {
               "cidade": "LORENA",
               "clientes": 2
@@ -10639,49 +11101,51 @@ const RAIOX_CLIENTES_DATA = {
           ]
         },
         "SP-467": {
-          "total_clientes": 2,
-          "clientes_ativos_mes": 1,
-          "cobertura_pct": 50.0,
-          "faturamento_ytd": 47446.0,
-          "media_mensal": 15815.33,
+          "total_clientes": 7,
+          "clientes_ativos_mes": 7,
+          "cobertura_pct": 100.0,
+          "faturamento_ytd": 87375.7,
+          "media_mensal": 29125.23,
           "por_mes": {
-            "2026-04": 6514.2,
+            "2026-04": 3582.0,
             "2026-06": 10969.8,
-            "2026-07": 29962.0
+            "2026-07": 72823.9
           },
           "top_cidades": [
             {
               "cidade": "GUARULHOS",
-              "clientes": 2
+              "clientes": 7
             }
           ]
         },
         "SP-468": {
-          "total_clientes": 6,
-          "clientes_ativos_mes": 0,
-          "cobertura_pct": 0.0,
-          "faturamento_ytd": 4251.56,
-          "media_mensal": 2125.78,
+          "total_clientes": 4,
+          "clientes_ativos_mes": 2,
+          "cobertura_pct": 50.0,
+          "faturamento_ytd": 3625.72,
+          "media_mensal": 1208.57,
           "por_mes": {
-            "2026-05": 2862.92,
-            "2026-06": 1388.64
+            "2026-05": 1442.22,
+            "2026-06": 1388.64,
+            "2026-07": 794.86
           },
           "top_cidades": [
             {
               "cidade": "SAO PAULO",
-              "clientes": 6
+              "clientes": 4
             }
           ]
         },
         "SP-469": {
           "total_clientes": 3,
-          "clientes_ativos_mes": 0,
-          "cobertura_pct": 0.0,
-          "faturamento_ytd": 29067.99,
-          "media_mensal": 14533.99,
+          "clientes_ativos_mes": 1,
+          "cobertura_pct": 33.3,
+          "faturamento_ytd": 29504.25,
+          "media_mensal": 9834.75,
           "por_mes": {
-            "2026-05": 15403.19,
-            "2026-06": 13664.8
+            "2026-05": 15243.17,
+            "2026-06": 13968.48,
+            "2026-07": 292.6
           },
           "top_cidades": [
             {
@@ -10691,44 +11155,41 @@ const RAIOX_CLIENTES_DATA = {
           ]
         },
         "SP-470": {
-          "total_clientes": 3,
+          "total_clientes": 1,
           "clientes_ativos_mes": 1,
-          "cobertura_pct": 33.3,
-          "faturamento_ytd": 6922.4,
-          "media_mensal": 1384.48,
+          "cobertura_pct": 100.0,
+          "faturamento_ytd": 1158.0,
+          "media_mensal": 579.0,
           "por_mes": {
-            "2026-03": 2132.28,
-            "2026-04": 1951.44,
-            "2026-05": 1377.0,
-            "2026-06": 1215.08,
+            "2026-06": 911.4,
             "2026-07": 246.6
           },
           "top_cidades": [
             {
               "cidade": "CAMPINAS",
-              "clientes": 2
-            },
-            {
-              "cidade": "JUNDIAI",
               "clientes": 1
             }
           ]
         },
         "SP-471": {
-          "total_clientes": 3,
-          "clientes_ativos_mes": 1,
-          "cobertura_pct": 33.3,
-          "faturamento_ytd": 12910.76,
-          "media_mensal": 4303.59,
+          "total_clientes": 4,
+          "clientes_ativos_mes": 2,
+          "cobertura_pct": 50.0,
+          "faturamento_ytd": 16014.2,
+          "media_mensal": 5338.07,
           "por_mes": {
             "2026-05": 6943.31,
             "2026-06": 3548.38,
-            "2026-07": 2419.06
+            "2026-07": 5522.5
           },
           "top_cidades": [
             {
               "cidade": "SANTA ISABEL",
               "clientes": 2
+            },
+            {
+              "cidade": "ARUJA",
+              "clientes": 1
             },
             {
               "cidade": "GUARAREMA",
@@ -10737,20 +11198,20 @@ const RAIOX_CLIENTES_DATA = {
           ]
         },
         "SP-472": {
-          "total_clientes": 6,
-          "clientes_ativos_mes": 1,
-          "cobertura_pct": 16.7,
-          "faturamento_ytd": 2558.79,
-          "media_mensal": 852.93,
+          "total_clientes": 3,
+          "clientes_ativos_mes": 2,
+          "cobertura_pct": 66.7,
+          "faturamento_ytd": 4500.61,
+          "media_mensal": 1500.2,
           "por_mes": {
             "2026-05": 1347.47,
             "2026-06": 716.14,
-            "2026-07": 495.17
+            "2026-07": 2436.99
           },
           "top_cidades": [
             {
               "cidade": "PINDAMONHANGABA",
-              "clientes": 6
+              "clientes": 3
             }
           ]
         },
@@ -10758,12 +11219,12 @@ const RAIOX_CLIENTES_DATA = {
           "total_clientes": 1,
           "clientes_ativos_mes": 1,
           "cobertura_pct": 100.0,
-          "faturamento_ytd": 3664.88,
-          "media_mensal": 1221.63,
+          "faturamento_ytd": 5454.58,
+          "media_mensal": 1818.19,
           "por_mes": {
             "2026-05": 839.2,
             "2026-06": 2503.5,
-            "2026-07": 322.18
+            "2026-07": 2111.88
           },
           "top_cidades": [
             {
@@ -10773,14 +11234,15 @@ const RAIOX_CLIENTES_DATA = {
           ]
         },
         "SP-475": {
-          "total_clientes": 7,
+          "total_clientes": 8,
           "clientes_ativos_mes": 4,
-          "cobertura_pct": 57.1,
-          "faturamento_ytd": 8606.17,
-          "media_mensal": 2868.72,
+          "cobertura_pct": 50.0,
+          "faturamento_ytd": 8905.09,
+          "media_mensal": 2226.27,
           "por_mes": {
+            "2026-03": 621.6,
             "2026-05": 2637.5,
-            "2026-06": 3838.66,
+            "2026-06": 3515.98,
             "2026-07": 2130.01
           },
           "top_cidades": [
@@ -10793,26 +11255,30 @@ const RAIOX_CLIENTES_DATA = {
               "clientes": 2
             },
             {
+              "cidade": "JARINU",
+              "clientes": 1
+            },
+            {
               "cidade": "CAMPO LIMPO PAULISTA",
               "clientes": 1
             }
           ]
         },
         "SP-476": {
-          "total_clientes": 10,
-          "clientes_ativos_mes": 4,
-          "cobertura_pct": 40.0,
-          "faturamento_ytd": 21288.86,
-          "media_mensal": 7096.29,
+          "total_clientes": 9,
+          "clientes_ativos_mes": 6,
+          "cobertura_pct": 66.7,
+          "faturamento_ytd": 28943.32,
+          "media_mensal": 9647.77,
           "por_mes": {
             "2026-05": 2210.3,
             "2026-06": 12658.38,
-            "2026-07": 6420.18
+            "2026-07": 14074.64
           },
           "top_cidades": [
             {
               "cidade": "BOTUCATU",
-              "clientes": 9
+              "clientes": 8
             },
             {
               "cidade": "ITATINGA",
@@ -10824,12 +11290,12 @@ const RAIOX_CLIENTES_DATA = {
           "total_clientes": 4,
           "clientes_ativos_mes": 3,
           "cobertura_pct": 75.0,
-          "faturamento_ytd": 13700.65,
-          "media_mensal": 4566.88,
+          "faturamento_ytd": 12770.95,
+          "media_mensal": 4256.98,
           "por_mes": {
             "2026-05": 2148.6,
             "2026-06": 6889.65,
-            "2026-07": 4662.4
+            "2026-07": 3732.7
           },
           "top_cidades": [
             {
@@ -10869,14 +11335,14 @@ const RAIOX_CLIENTES_DATA = {
           ]
         },
         "SP-486": {
-          "total_clientes": 5,
-          "clientes_ativos_mes": 3,
-          "cobertura_pct": 60.0,
-          "faturamento_ytd": 6573.93,
-          "media_mensal": 3286.96,
+          "total_clientes": 6,
+          "clientes_ativos_mes": 5,
+          "cobertura_pct": 83.3,
+          "faturamento_ytd": 19885.23,
+          "media_mensal": 9942.61,
           "por_mes": {
             "2026-06": 2840.83,
-            "2026-07": 3733.1
+            "2026-07": 17044.4
           },
           "top_cidades": [
             {
@@ -10898,43 +11364,51 @@ const RAIOX_CLIENTES_DATA = {
             {
               "cidade": "PAULINIA",
               "clientes": 1
+            },
+            {
+              "cidade": "SUMARE",
+              "clientes": 1
             }
           ]
         },
         "SP-487": {
-          "total_clientes": 3,
-          "clientes_ativos_mes": 2,
-          "cobertura_pct": 66.7,
-          "faturamento_ytd": 17268.0,
-          "media_mensal": 8634.0,
+          "total_clientes": 6,
+          "clientes_ativos_mes": 1,
+          "cobertura_pct": 16.7,
+          "faturamento_ytd": 29572.2,
+          "media_mensal": 14786.1,
           "por_mes": {
             "2026-06": 874.8,
-            "2026-07": 16393.2
+            "2026-07": 28697.4
           },
           "top_cidades": [
+            {
+              "cidade": "VIRADOURO",
+              "clientes": 3
+            },
             {
               "cidade": "FERNANDOPOLIS",
               "clientes": 1
             },
             {
-              "cidade": "RIBEIRAO PRETO",
+              "cidade": "MORRO AGUDO",
               "clientes": 1
             },
             {
-              "cidade": "VIRADOURO",
+              "cidade": "RIBEIRAO PRETO",
               "clientes": 1
             }
           ]
         },
         "SP-489": {
           "total_clientes": 5,
-          "clientes_ativos_mes": 2,
-          "cobertura_pct": 40.0,
-          "faturamento_ytd": 7873.2,
-          "media_mensal": 3936.6,
+          "clientes_ativos_mes": 3,
+          "cobertura_pct": 60.0,
+          "faturamento_ytd": 10392.9,
+          "media_mensal": 5196.45,
           "por_mes": {
             "2026-06": 4884.96,
-            "2026-07": 2988.24
+            "2026-07": 5507.94
           },
           "top_cidades": [
             {
@@ -10955,8 +11429,36 @@ const RAIOX_CLIENTES_DATA = {
             }
           ]
         },
-        "SP-493": {
+        "SP-490": {
           "total_clientes": 1,
+          "clientes_ativos_mes": 0,
+          "cobertura_pct": 0.0,
+          "faturamento_ytd": 0.0,
+          "media_mensal": 0.0,
+          "por_mes": {},
+          "top_cidades": [
+            {
+              "cidade": "IRACEMAPOLIS",
+              "clientes": 1
+            }
+          ]
+        },
+        "SP-492": {
+          "total_clientes": 2,
+          "clientes_ativos_mes": 0,
+          "cobertura_pct": 0.0,
+          "faturamento_ytd": 0.0,
+          "media_mensal": 0.0,
+          "por_mes": {},
+          "top_cidades": [
+            {
+              "cidade": "SAO PAULO",
+              "clientes": 2
+            }
+          ]
+        },
+        "SP-493": {
+          "total_clientes": 2,
           "clientes_ativos_mes": 0,
           "cobertura_pct": 0.0,
           "faturamento_ytd": 539.4,
@@ -10967,50 +11469,14 @@ const RAIOX_CLIENTES_DATA = {
           "top_cidades": [
             {
               "cidade": "RIO GRANDE DA SERRA",
-              "clientes": 1
-            }
-          ]
-        },
-        "SP-496": {
-          "total_clientes": 1,
-          "clientes_ativos_mes": 0,
-          "cobertura_pct": 0.0,
-          "faturamento_ytd": 0.0,
-          "media_mensal": 0.0,
-          "por_mes": {},
-          "top_cidades": [
-            {
-              "cidade": "SAO PAULO",
-              "clientes": 1
-            }
-          ]
-        },
-        "SP-497": {
-          "total_clientes": 5,
-          "clientes_ativos_mes": 0,
-          "cobertura_pct": 0.0,
-          "faturamento_ytd": 0.0,
-          "media_mensal": 0.0,
-          "por_mes": {},
-          "top_cidades": [
-            {
-              "cidade": "JUQUIA",
               "clientes": 2
-            },
-            {
-              "cidade": "REGISTRO",
-              "clientes": 2
-            },
-            {
-              "cidade": "PEDRO DE TOLEDO",
-              "clientes": 1
             }
           ]
         },
         "SP-498": {
-          "total_clientes": 1,
+          "total_clientes": 2,
           "clientes_ativos_mes": 1,
-          "cobertura_pct": 100.0,
+          "cobertura_pct": 50.0,
           "faturamento_ytd": 1198.8,
           "media_mensal": 1198.8,
           "por_mes": {
@@ -11019,6 +11485,10 @@ const RAIOX_CLIENTES_DATA = {
           "top_cidades": [
             {
               "cidade": "IBITINGA",
+              "clientes": 1
+            },
+            {
+              "cidade": "TABATINGA",
               "clientes": 1
             }
           ]
@@ -11040,9 +11510,9 @@ const RAIOX_CLIENTES_DATA = {
           ]
         },
         "SP-500": {
-          "total_clientes": 4,
+          "total_clientes": 7,
           "clientes_ativos_mes": 1,
-          "cobertura_pct": 25.0,
+          "cobertura_pct": 14.3,
           "faturamento_ytd": 704.52,
           "media_mensal": 704.52,
           "por_mes": {
@@ -11051,22 +11521,18 @@ const RAIOX_CLIENTES_DATA = {
           "top_cidades": [
             {
               "cidade": "SANTOS",
-              "clientes": 2
+              "clientes": 4
             },
             {
               "cidade": "CUBATAO",
-              "clientes": 1
-            },
-            {
-              "cidade": "PRAIA GRANDE",
-              "clientes": 1
+              "clientes": 3
             }
           ]
         },
         "SP-502": {
-          "total_clientes": 31,
+          "total_clientes": 6,
           "clientes_ativos_mes": 3,
-          "cobertura_pct": 9.7,
+          "cobertura_pct": 50.0,
           "faturamento_ytd": 1891.85,
           "media_mensal": 1891.85,
           "por_mes": {
@@ -11075,29 +11541,64 @@ const RAIOX_CLIENTES_DATA = {
           "top_cidades": [
             {
               "cidade": "PRAIA GRANDE",
-              "clientes": 23
-            },
-            {
-              "cidade": "SAO VICENTE",
               "clientes": 5
             },
             {
-              "cidade": "CUBATAO",
-              "clientes": 3
+              "cidade": "SAO VICENTE",
+              "clientes": 1
             }
           ]
         },
-        "SP-509": {
-          "total_clientes": 2,
-          "clientes_ativos_mes": 0,
-          "cobertura_pct": 0.0,
-          "faturamento_ytd": 0.0,
-          "media_mensal": 0.0,
-          "por_mes": {},
+        "SP-505": {
+          "total_clientes": 1,
+          "clientes_ativos_mes": 1,
+          "cobertura_pct": 100.0,
+          "faturamento_ytd": 2693.82,
+          "media_mensal": 1346.91,
+          "por_mes": {
+            "2026-06": 827.28,
+            "2026-07": 1866.54
+          },
           "top_cidades": [
             {
-              "cidade": "PORTO FELIZ",
-              "clientes": 2
+              "cidade": "SAO PAULO",
+              "clientes": 1
+            }
+          ]
+        },
+        "SP-507": {
+          "total_clientes": 6,
+          "clientes_ativos_mes": 1,
+          "cobertura_pct": 16.7,
+          "faturamento_ytd": 773.7,
+          "media_mensal": 773.7,
+          "por_mes": {
+            "2026-07": 773.7
+          },
+          "top_cidades": [
+            {
+              "cidade": "GUARUJA",
+              "clientes": 6
+            }
+          ]
+        },
+        "SP-508": {
+          "total_clientes": 2,
+          "clientes_ativos_mes": 2,
+          "cobertura_pct": 100.0,
+          "faturamento_ytd": 14024.4,
+          "media_mensal": 14024.4,
+          "por_mes": {
+            "2026-07": 14024.4
+          },
+          "top_cidades": [
+            {
+              "cidade": "ARACOIABA DA SERRA",
+              "clientes": 1
+            },
+            {
+              "cidade": "SOROCABA",
+              "clientes": 1
             }
           ]
         },
@@ -11105,10 +11606,10 @@ const RAIOX_CLIENTES_DATA = {
           "total_clientes": 2,
           "clientes_ativos_mes": 1,
           "cobertura_pct": 50.0,
-          "faturamento_ytd": 695.65,
-          "media_mensal": 695.65,
+          "faturamento_ytd": 1649.75,
+          "media_mensal": 1649.75,
           "por_mes": {
-            "2026-07": 695.65
+            "2026-07": 1649.75
           },
           "top_cidades": [
             {
@@ -11122,25 +11623,99 @@ const RAIOX_CLIENTES_DATA = {
           ]
         },
         "SP-512": {
-          "total_clientes": 2,
-          "clientes_ativos_mes": 0,
-          "cobertura_pct": 0.0,
-          "faturamento_ytd": 0.0,
-          "media_mensal": 0.0,
-          "por_mes": {},
+          "total_clientes": 7,
+          "clientes_ativos_mes": 2,
+          "cobertura_pct": 28.6,
+          "faturamento_ytd": 3998.04,
+          "media_mensal": 3998.04,
+          "por_mes": {
+            "2026-07": 3998.04
+          },
           "top_cidades": [
             {
+              "cidade": "SAO PAULO",
+              "clientes": 3
+            },
+            {
               "cidade": "SANTO ANDRE",
+              "clientes": 2
+            },
+            {
+              "cidade": "DIADEMA",
               "clientes": 1
             },
             {
+              "cidade": "SAO BERNARDO DO CAMPO",
+              "clientes": 1
+            }
+          ]
+        },
+        "SP-514": {
+          "total_clientes": 1,
+          "clientes_ativos_mes": 1,
+          "cobertura_pct": 100.0,
+          "faturamento_ytd": 598.8,
+          "media_mensal": 598.8,
+          "por_mes": {
+            "2026-07": 598.8
+          },
+          "top_cidades": [
+            {
+              "cidade": "SAO BERNARDO DO CAMPO",
+              "clientes": 1
+            }
+          ]
+        },
+        "SP-515": {
+          "total_clientes": 3,
+          "clientes_ativos_mes": 1,
+          "cobertura_pct": 33.3,
+          "faturamento_ytd": 2132.1,
+          "media_mensal": 2132.1,
+          "por_mes": {
+            "2026-07": 2132.1
+          },
+          "top_cidades": [
+            {
               "cidade": "SAO PAULO",
+              "clientes": 2
+            },
+            {
+              "cidade": "COTIA",
               "clientes": 1
             }
           ]
         },
         "SP-516": {
-          "total_clientes": 6,
+          "total_clientes": 40,
+          "clientes_ativos_mes": 10,
+          "cobertura_pct": 25.0,
+          "faturamento_ytd": 12072.96,
+          "media_mensal": 12072.96,
+          "por_mes": {
+            "2026-07": 12072.96
+          },
+          "top_cidades": [
+            {
+              "cidade": "UBATUBA",
+              "clientes": 15
+            },
+            {
+              "cidade": "SAO SEBASTIAO",
+              "clientes": 15
+            },
+            {
+              "cidade": "CARAGUATATUBA",
+              "clientes": 8
+            },
+            {
+              "cidade": "ILHABELA",
+              "clientes": 2
+            }
+          ]
+        },
+        "SP-518": {
+          "total_clientes": 1,
           "clientes_ativos_mes": 0,
           "cobertura_pct": 0.0,
           "faturamento_ytd": 0.0,
@@ -11148,11 +11723,21 @@ const RAIOX_CLIENTES_DATA = {
           "por_mes": {},
           "top_cidades": [
             {
-              "cidade": "UBATUBA",
-              "clientes": 5
-            },
+              "cidade": "SAO CARLOS",
+              "clientes": 1
+            }
+          ]
+        },
+        "SP-525": {
+          "total_clientes": 1,
+          "clientes_ativos_mes": 0,
+          "cobertura_pct": 0.0,
+          "faturamento_ytd": 0.0,
+          "media_mensal": 0.0,
+          "por_mes": {},
+          "top_cidades": [
             {
-              "cidade": "CARAGUATATUBA",
+              "cidade": "PAULINIA",
               "clientes": 1
             }
           ]
@@ -11161,18 +11746,18 @@ const RAIOX_CLIENTES_DATA = {
     },
     {
       "ramo": "SUPERMERCADO",
-      "total_clientes": 5,
-      "clientes_ativos_mes": 1,
-      "cobertura_pct": 20.0,
-      "faturamento_ytd": 810624.12,
-      "media_mensal": 135104.02,
+      "total_clientes": 6,
+      "clientes_ativos_mes": 2,
+      "cobertura_pct": 33.3,
+      "faturamento_ytd": 953206.93,
+      "media_mensal": 158867.82,
       "por_mes": {
-        "2026-01": 101948.88,
-        "2026-03": 24090.0,
-        "2026-04": 240666.96,
+        "2026-01": 103133.2,
+        "2026-03": 25408.83,
+        "2026-04": 242944.26,
         "2026-05": 77337.42,
         "2026-06": 147099.0,
-        "2026-07": 219481.86
+        "2026-07": 357284.22
       },
       "top_cidades": [
         {
@@ -11181,6 +11766,10 @@ const RAIOX_CLIENTES_DATA = {
         },
         {
           "cidade": "GOVERNADOR VALADARES",
+          "clientes": 1
+        },
+        {
+          "cidade": "JUIZ DE FORA",
           "clientes": 1
         },
         {
@@ -11199,14 +11788,15 @@ const RAIOX_CLIENTES_DATA = {
       "por_vendedor": {
         "MG-343": {
           "total_clientes": 4,
-          "clientes_ativos_mes": 0,
-          "cobertura_pct": 0.0,
-          "faturamento_ytd": 7369.68,
-          "media_mensal": 2456.56,
+          "clientes_ativos_mes": 1,
+          "cobertura_pct": 25.0,
+          "faturamento_ytd": 7705.08,
+          "media_mensal": 1926.27,
           "por_mes": {
             "2026-04": 3674.16,
             "2026-05": 369.12,
-            "2026-06": 3326.4
+            "2026-06": 3326.4,
+            "2026-07": 335.4
           },
           "top_cidades": [
             {
@@ -11227,16 +11817,35 @@ const RAIOX_CLIENTES_DATA = {
             }
           ]
         },
-        "MG-354": {
+        "MG-349": {
           "total_clientes": 1,
           "clientes_ativos_mes": 0,
           "cobertura_pct": 0.0,
-          "faturamento_ytd": 7369.68,
-          "media_mensal": 2456.56,
+          "faturamento_ytd": 4780.45,
+          "media_mensal": 1593.48,
+          "por_mes": {
+            "2026-01": 1184.32,
+            "2026-03": 1318.83,
+            "2026-04": 2277.3
+          },
+          "top_cidades": [
+            {
+              "cidade": "JUIZ DE FORA",
+              "clientes": 1
+            }
+          ]
+        },
+        "MG-354": {
+          "total_clientes": 1,
+          "clientes_ativos_mes": 1,
+          "cobertura_pct": 100.0,
+          "faturamento_ytd": 7705.08,
+          "media_mensal": 1926.27,
           "por_mes": {
             "2026-04": 3674.16,
             "2026-05": 369.12,
-            "2026-06": 3326.4
+            "2026-06": 3326.4,
+            "2026-07": 335.4
           },
           "top_cidades": [
             {
@@ -11249,15 +11858,15 @@ const RAIOX_CLIENTES_DATA = {
           "total_clientes": 1,
           "clientes_ativos_mes": 1,
           "cobertura_pct": 100.0,
-          "faturamento_ytd": 803254.44,
-          "media_mensal": 133875.74,
+          "faturamento_ytd": 940721.4,
+          "media_mensal": 156786.9,
           "por_mes": {
             "2026-01": 101948.88,
             "2026-03": 24090.0,
             "2026-04": 236992.8,
             "2026-05": 76968.3,
             "2026-06": 143772.6,
-            "2026-07": 219481.86
+            "2026-07": 356948.82
           },
           "top_cidades": [
             {
@@ -11270,28 +11879,32 @@ const RAIOX_CLIENTES_DATA = {
     },
     {
       "ramo": "CAFETERIA",
-      "total_clientes": 88,
-      "clientes_ativos_mes": 35,
-      "cobertura_pct": 39.8,
-      "faturamento_ytd": 661383.44,
-      "media_mensal": 94483.35,
+      "total_clientes": 90,
+      "clientes_ativos_mes": 50,
+      "cobertura_pct": 55.6,
+      "faturamento_ytd": 671474.51,
+      "media_mensal": 95924.93,
       "por_mes": {
-        "2026-01": 143865.61,
-        "2026-02": 242860.56,
-        "2026-03": 53787.24,
-        "2026-04": 40164.7,
-        "2026-05": 50953.42,
-        "2026-06": 80689.24,
-        "2026-07": 49062.68
+        "2026-01": 142262.43,
+        "2026-02": 241357.2,
+        "2026-03": 52106.37,
+        "2026-04": 39206.34,
+        "2026-05": 49347.54,
+        "2026-06": 78801.13,
+        "2026-07": 68393.51
       },
       "top_cidades": [
         {
           "cidade": "RIO DE JANEIRO",
-          "clientes": 34
+          "clientes": 36
         },
         {
           "cidade": "SAO PAULO",
-          "clientes": 9
+          "clientes": 7
+        },
+        {
+          "cidade": "MACAE",
+          "clientes": 4
         },
         {
           "cidade": "NITEROI",
@@ -11302,27 +11915,23 @@ const RAIOX_CLIENTES_DATA = {
           "clientes": 3
         },
         {
-          "cidade": "MACAE",
-          "clientes": 3
-        },
-        {
           "cidade": "BOTUCATU",
           "clientes": 3
-        },
-        {
-          "cidade": "SAO JOAO DE MER",
-          "clientes": 2
-        },
-        {
-          "cidade": "TAUBATE",
-          "clientes": 2
         },
         {
           "cidade": "CURITIBA",
           "clientes": 2
         },
         {
+          "cidade": "SAQUAREMA",
+          "clientes": 2
+        },
+        {
           "cidade": "ARARUAMA",
+          "clientes": 2
+        },
+        {
+          "cidade": "CARAGUATATUBA",
           "clientes": 2
         }
       ],
@@ -11349,13 +11958,14 @@ const RAIOX_CLIENTES_DATA = {
         },
         "ES-335": {
           "total_clientes": 1,
-          "clientes_ativos_mes": 0,
-          "cobertura_pct": 0.0,
-          "faturamento_ytd": 1253.0,
-          "media_mensal": 626.5,
+          "clientes_ativos_mes": 1,
+          "cobertura_pct": 100.0,
+          "faturamento_ytd": 1282.16,
+          "media_mensal": 427.39,
           "por_mes": {
             "2026-04": 1253.0,
-            "2026-05": 0.0
+            "2026-05": 0.0,
+            "2026-07": 29.16
           },
           "top_cidades": [
             {
@@ -11364,33 +11974,16 @@ const RAIOX_CLIENTES_DATA = {
             }
           ]
         },
-        "ES-336": {
-          "total_clientes": 1,
-          "clientes_ativos_mes": 0,
-          "cobertura_pct": 0.0,
-          "faturamento_ytd": 663.74,
-          "media_mensal": 221.25,
-          "por_mes": {
-            "2026-01": 232.98,
-            "2026-03": 207.32,
-            "2026-05": 223.44
-          },
-          "top_cidades": [
-            {
-              "cidade": "SERRA",
-              "clientes": 1
-            }
-          ]
-        },
         "ES-343": {
           "total_clientes": 1,
-          "clientes_ativos_mes": 0,
-          "cobertura_pct": 0.0,
-          "faturamento_ytd": 1607.72,
-          "media_mensal": 803.86,
+          "clientes_ativos_mes": 1,
+          "cobertura_pct": 100.0,
+          "faturamento_ytd": 1636.88,
+          "media_mensal": 545.63,
           "por_mes": {
             "2026-03": 819.72,
-            "2026-05": 788.0
+            "2026-05": 788.0,
+            "2026-07": 29.16
           },
           "top_cidades": [
             {
@@ -11399,41 +11992,19 @@ const RAIOX_CLIENTES_DATA = {
             }
           ]
         },
-        "ES-370": {
-          "total_clientes": 2,
-          "clientes_ativos_mes": 0,
-          "cobertura_pct": 0.0,
-          "faturamento_ytd": 2176.66,
-          "media_mensal": 544.16,
-          "por_mes": {
-            "2026-01": 202.1,
-            "2026-02": 204.0,
-            "2026-03": 392.45,
-            "2026-06": 1378.11
-          },
-          "top_cidades": [
-            {
-              "cidade": "DOMINGOS MARTIN",
-              "clientes": 1
-            },
-            {
-              "cidade": "VENDA NOVA DO I",
-              "clientes": 1
-            }
-          ]
-        },
         "ES-442": {
           "total_clientes": 4,
-          "clientes_ativos_mes": 0,
-          "cobertura_pct": 0.0,
-          "faturamento_ytd": 4034.72,
-          "media_mensal": 806.94,
+          "clientes_ativos_mes": 3,
+          "cobertura_pct": 75.0,
+          "faturamento_ytd": 4122.2,
+          "media_mensal": 687.03,
           "por_mes": {
             "2026-02": 613.06,
             "2026-03": 1448.4,
             "2026-04": 811.96,
             "2026-05": 280.08,
-            "2026-06": 881.22
+            "2026-06": 881.22,
+            "2026-07": 87.48
           },
           "top_cidades": [
             {
@@ -11513,11 +12084,11 @@ const RAIOX_CLIENTES_DATA = {
           ]
         },
         "RJ-155": {
-          "total_clientes": 3,
+          "total_clientes": 5,
           "clientes_ativos_mes": 2,
-          "cobertura_pct": 66.7,
-          "faturamento_ytd": 257014.82,
-          "media_mensal": 36716.4,
+          "cobertura_pct": 40.0,
+          "faturamento_ytd": 257325.62,
+          "media_mensal": 36760.8,
           "por_mes": {
             "2026-01": 67288.32,
             "2026-02": 169783.14,
@@ -11525,9 +12096,13 @@ const RAIOX_CLIENTES_DATA = {
             "2026-04": 865.1,
             "2026-05": 3397.2,
             "2026-06": 11414.92,
-            "2026-07": 1602.48
+            "2026-07": 1913.28
           },
           "top_cidades": [
+            {
+              "cidade": "SAQUAREMA",
+              "clientes": 2
+            },
             {
               "cidade": "ARARUAMA",
               "clientes": 1
@@ -11537,7 +12112,7 @@ const RAIOX_CLIENTES_DATA = {
               "clientes": 1
             },
             {
-              "cidade": "SAQUAREMA",
+              "cidade": "RIO DE JANEIRO",
               "clientes": 1
             }
           ]
@@ -11570,11 +12145,11 @@ const RAIOX_CLIENTES_DATA = {
           ]
         },
         "RJ-159": {
-          "total_clientes": 9,
-          "clientes_ativos_mes": 4,
-          "cobertura_pct": 44.4,
-          "faturamento_ytd": 91698.84,
-          "media_mensal": 13099.83,
+          "total_clientes": 10,
+          "clientes_ativos_mes": 6,
+          "cobertura_pct": 60.0,
+          "faturamento_ytd": 94502.38,
+          "media_mensal": 13500.34,
           "por_mes": {
             "2026-01": 14134.7,
             "2026-02": 12507.46,
@@ -11582,15 +12157,15 @@ const RAIOX_CLIENTES_DATA = {
             "2026-04": 10852.54,
             "2026-05": 9887.41,
             "2026-06": 14762.87,
-            "2026-07": 12639.5
+            "2026-07": 15443.03
           },
           "top_cidades": [
             {
-              "cidade": "CABO FRIO",
-              "clientes": 3
+              "cidade": "MACAE",
+              "clientes": 4
             },
             {
-              "cidade": "MACAE",
+              "cidade": "CABO FRIO",
               "clientes": 3
             },
             {
@@ -11609,18 +12184,18 @@ const RAIOX_CLIENTES_DATA = {
         },
         "RJ-378": {
           "total_clientes": 10,
-          "clientes_ativos_mes": 8,
-          "cobertura_pct": 80.0,
-          "faturamento_ytd": 20278.19,
-          "media_mensal": 2896.88,
+          "clientes_ativos_mes": 9,
+          "cobertura_pct": 90.0,
+          "faturamento_ytd": 18177.07,
+          "media_mensal": 2596.72,
           "por_mes": {
-            "2026-01": 2887.01,
-            "2026-02": 2826.14,
-            "2026-03": 2636.82,
-            "2026-04": 3751.78,
-            "2026-05": 1872.04,
-            "2026-06": 2839.07,
-            "2026-07": 3465.32
+            "2026-01": 2317.71,
+            "2026-02": 2660.78,
+            "2026-03": 1915.12,
+            "2026-04": 3152.82,
+            "2026-05": 1433.24,
+            "2026-06": 2329.07,
+            "2026-07": 4368.32
           },
           "top_cidades": [
             {
@@ -11652,13 +12227,14 @@ const RAIOX_CLIENTES_DATA = {
         },
         "RJ-412": {
           "total_clientes": 2,
-          "clientes_ativos_mes": 0,
-          "cobertura_pct": 0.0,
-          "faturamento_ytd": 4101.4,
-          "media_mensal": 2050.7,
+          "clientes_ativos_mes": 1,
+          "cobertura_pct": 50.0,
+          "faturamento_ytd": 4574.9,
+          "media_mensal": 1524.97,
           "por_mes": {
             "2026-04": 3548.8,
-            "2026-05": 552.6
+            "2026-05": 552.6,
+            "2026-07": 473.5
           },
           "top_cidades": [
             {
@@ -11673,16 +12249,17 @@ const RAIOX_CLIENTES_DATA = {
         },
         "RJ-419": {
           "total_clientes": 2,
-          "clientes_ativos_mes": 0,
-          "cobertura_pct": 0.0,
-          "faturamento_ytd": 2103.54,
-          "media_mensal": 420.71,
+          "clientes_ativos_mes": 1,
+          "cobertura_pct": 50.0,
+          "faturamento_ytd": 2463.34,
+          "media_mensal": 410.56,
           "por_mes": {
             "2026-01": 754.09,
             "2026-03": 185.77,
             "2026-04": 192.92,
             "2026-05": 415.76,
-            "2026-06": 555.0
+            "2026-06": 555.0,
+            "2026-07": 359.8
           },
           "top_cidades": [
             {
@@ -11692,11 +12269,11 @@ const RAIOX_CLIENTES_DATA = {
           ]
         },
         "RJ-431": {
-          "total_clientes": 6,
-          "clientes_ativos_mes": 2,
-          "cobertura_pct": 33.3,
-          "faturamento_ytd": 21149.9,
-          "media_mensal": 3021.41,
+          "total_clientes": 8,
+          "clientes_ativos_mes": 4,
+          "cobertura_pct": 50.0,
+          "faturamento_ytd": 22002.38,
+          "media_mensal": 3143.2,
           "por_mes": {
             "2026-01": 6369.39,
             "2026-02": 1698.32,
@@ -11704,26 +12281,27 @@ const RAIOX_CLIENTES_DATA = {
             "2026-04": 829.3,
             "2026-05": 906.42,
             "2026-06": 5017.06,
-            "2026-07": 902.3
+            "2026-07": 1754.78
           },
           "top_cidades": [
             {
               "cidade": "RIO DE JANEIRO",
-              "clientes": 6
+              "clientes": 8
             }
           ]
         },
         "RJ-439": {
           "total_clientes": 1,
-          "clientes_ativos_mes": 0,
-          "cobertura_pct": 0.0,
-          "faturamento_ytd": 1375.8,
-          "media_mensal": 343.95,
+          "clientes_ativos_mes": 1,
+          "cobertura_pct": 100.0,
+          "faturamento_ytd": 1735.6,
+          "media_mensal": 347.12,
           "por_mes": {
             "2026-02": 314.1,
             "2026-03": 412.2,
             "2026-04": 259.8,
-            "2026-05": 389.7
+            "2026-05": 389.7,
+            "2026-07": 359.8
           },
           "top_cidades": [
             {
@@ -11733,23 +12311,23 @@ const RAIOX_CLIENTES_DATA = {
           ]
         },
         "RJ-471": {
-          "total_clientes": 3,
-          "clientes_ativos_mes": 2,
-          "cobertura_pct": 66.7,
-          "faturamento_ytd": 7273.7,
-          "media_mensal": 1212.28,
+          "total_clientes": 2,
+          "clientes_ativos_mes": 1,
+          "cobertura_pct": 50.0,
+          "faturamento_ytd": 3307.5,
+          "media_mensal": 551.25,
           "por_mes": {
-            "2026-01": 773.76,
-            "2026-02": 1254.82,
-            "2026-03": 1804.76,
-            "2026-04": 900.6,
-            "2026-05": 981.2,
-            "2026-07": 1558.56
+            "2026-01": 174.96,
+            "2026-02": 120.82,
+            "2026-03": 1445.36,
+            "2026-04": 541.2,
+            "2026-05": 295.2,
+            "2026-07": 729.96
           },
           "top_cidades": [
             {
               "cidade": "RIO DE JANEIRO",
-              "clientes": 3
+              "clientes": 2
             }
           ]
         },
@@ -11757,14 +12335,14 @@ const RAIOX_CLIENTES_DATA = {
           "total_clientes": 1,
           "clientes_ativos_mes": 1,
           "cobertura_pct": 100.0,
-          "faturamento_ytd": 8257.2,
-          "media_mensal": 1651.44,
+          "faturamento_ytd": 8878.8,
+          "media_mensal": 1775.76,
           "por_mes": {
             "2026-03": 1338.0,
             "2026-04": 2270.4,
             "2026-05": 1756.8,
             "2026-06": 1756.8,
-            "2026-07": 1135.2
+            "2026-07": 1756.8
           },
           "top_cidades": [
             {
@@ -11774,21 +12352,20 @@ const RAIOX_CLIENTES_DATA = {
           ]
         },
         "SP-371": {
-          "total_clientes": 2,
+          "total_clientes": 1,
           "clientes_ativos_mes": 0,
           "cobertura_pct": 0.0,
-          "faturamento_ytd": 2035.59,
-          "media_mensal": 508.9,
+          "faturamento_ytd": 1777.95,
+          "media_mensal": 592.65,
           "por_mes": {
             "2026-03": 814.08,
             "2026-04": 496.77,
-            "2026-05": 257.64,
             "2026-06": 467.1
           },
           "top_cidades": [
             {
               "cidade": "SAO PAULO",
-              "clientes": 2
+              "clientes": 1
             }
           ]
         },
@@ -11814,8 +12391,8 @@ const RAIOX_CLIENTES_DATA = {
           "total_clientes": 8,
           "clientes_ativos_mes": 4,
           "cobertura_pct": 50.0,
-          "faturamento_ytd": 164463.69,
-          "media_mensal": 23494.81,
+          "faturamento_ytd": 166413.41,
+          "media_mensal": 23773.34,
           "por_mes": {
             "2026-01": 49824.12,
             "2026-02": 48618.18,
@@ -11823,7 +12400,7 @@ const RAIOX_CLIENTES_DATA = {
             "2026-04": 13673.0,
             "2026-05": 20522.0,
             "2026-06": 10271.19,
-            "2026-07": 10670.66
+            "2026-07": 12620.38
           },
           "top_cidades": [
             {
@@ -11837,21 +12414,25 @@ const RAIOX_CLIENTES_DATA = {
           ]
         },
         "SP-425": {
-          "total_clientes": 1,
-          "clientes_ativos_mes": 1,
+          "total_clientes": 2,
+          "clientes_ativos_mes": 2,
           "cobertura_pct": 100.0,
-          "faturamento_ytd": 15922.3,
-          "media_mensal": 3184.46,
+          "faturamento_ytd": 19229.32,
+          "media_mensal": 3845.86,
           "por_mes": {
             "2026-02": 3571.9,
             "2026-04": 762.2,
             "2026-05": 4380.8,
             "2026-06": 5810.9,
-            "2026-07": 1396.5
+            "2026-07": 4703.52
           },
           "top_cidades": [
             {
               "cidade": "AMERICANA",
+              "clientes": 1
+            },
+            {
+              "cidade": "CAMPINAS",
               "clientes": 1
             }
           ]
@@ -11889,7 +12470,7 @@ const RAIOX_CLIENTES_DATA = {
           ]
         },
         "SP-465": {
-          "total_clientes": 2,
+          "total_clientes": 1,
           "clientes_ativos_mes": 0,
           "cobertura_pct": 0.0,
           "faturamento_ytd": 453.6,
@@ -11900,34 +12481,30 @@ const RAIOX_CLIENTES_DATA = {
           "top_cidades": [
             {
               "cidade": "TAUBATE",
-              "clientes": 2
+              "clientes": 1
             }
           ]
         },
         "SP-467": {
-          "total_clientes": 2,
+          "total_clientes": 1,
           "clientes_ativos_mes": 1,
-          "cobertura_pct": 50.0,
-          "faturamento_ytd": 479.4,
-          "media_mensal": 479.4,
+          "cobertura_pct": 100.0,
+          "faturamento_ytd": 885.0,
+          "media_mensal": 885.0,
           "por_mes": {
-            "2026-07": 479.4
+            "2026-07": 885.0
           },
           "top_cidades": [
             {
               "cidade": "GUARULHOS",
               "clientes": 1
-            },
-            {
-              "cidade": "SAO PAULO",
-              "clientes": 1
             }
           ]
         },
         "SP-476": {
-          "total_clientes": 3,
+          "total_clientes": 4,
           "clientes_ativos_mes": 3,
-          "cobertura_pct": 100.0,
+          "cobertura_pct": 75.0,
           "faturamento_ytd": 20292.61,
           "media_mensal": 10146.3,
           "por_mes": {
@@ -11938,6 +12515,10 @@ const RAIOX_CLIENTES_DATA = {
             {
               "cidade": "BOTUCATU",
               "clientes": 3
+            },
+            {
+              "cidade": "AREIOPOLIS",
+              "clientes": 1
             }
           ]
         },
@@ -11959,10 +12540,10 @@ const RAIOX_CLIENTES_DATA = {
           "total_clientes": 1,
           "clientes_ativos_mes": 1,
           "cobertura_pct": 100.0,
-          "faturamento_ytd": 1964.77,
-          "media_mensal": 1964.77,
+          "faturamento_ytd": 2164.67,
+          "media_mensal": 2164.67,
           "por_mes": {
-            "2026-07": 1964.77
+            "2026-07": 2164.67
           },
           "top_cidades": [
             {
@@ -11971,7 +12552,7 @@ const RAIOX_CLIENTES_DATA = {
             }
           ]
         },
-        "SP-493": {
+        "SP-510": {
           "total_clientes": 1,
           "clientes_ativos_mes": 0,
           "cobertura_pct": 0.0,
@@ -11980,21 +12561,27 @@ const RAIOX_CLIENTES_DATA = {
           "por_mes": {},
           "top_cidades": [
             {
-              "cidade": "RIO GRANDE DA SERRA",
+              "cidade": "SOCORRO",
               "clientes": 1
             }
           ]
         },
         "SP-516": {
-          "total_clientes": 1,
-          "clientes_ativos_mes": 0,
-          "cobertura_pct": 0.0,
-          "faturamento_ytd": 0.0,
-          "media_mensal": 0.0,
-          "por_mes": {},
+          "total_clientes": 3,
+          "clientes_ativos_mes": 1,
+          "cobertura_pct": 33.3,
+          "faturamento_ytd": 3948.48,
+          "media_mensal": 3948.48,
+          "por_mes": {
+            "2026-07": 3948.48
+          },
           "top_cidades": [
             {
               "cidade": "CARAGUATATUBA",
+              "clientes": 2
+            },
+            {
+              "cidade": "SAO SEBASTIAO",
               "clientes": 1
             }
           ]
@@ -12003,51 +12590,51 @@ const RAIOX_CLIENTES_DATA = {
     },
     {
       "ramo": "PADARIA",
-      "total_clientes": 144,
-      "clientes_ativos_mes": 15,
-      "cobertura_pct": 10.4,
-      "faturamento_ytd": 405965.21,
-      "media_mensal": 57995.03,
+      "total_clientes": 139,
+      "clientes_ativos_mes": 24,
+      "cobertura_pct": 17.3,
+      "faturamento_ytd": 436983.48,
+      "media_mensal": 62426.21,
       "por_mes": {
-        "2026-01": 50747.09,
-        "2026-02": 40706.89,
-        "2026-03": 86520.72,
-        "2026-04": 81903.38,
-        "2026-05": 52739.69,
-        "2026-06": 50769.01,
-        "2026-07": 42578.43
+        "2026-01": 49340.02,
+        "2026-02": 62258.02,
+        "2026-03": 84477.82,
+        "2026-04": 89478.98,
+        "2026-05": 50617.14,
+        "2026-06": 49121.41,
+        "2026-07": 51690.1
       },
       "top_cidades": [
         {
           "cidade": "RIO DE JANEIRO",
-          "clientes": 86
-        },
-        {
-          "cidade": "SERRA",
-          "clientes": 9
+          "clientes": 87
         },
         {
           "cidade": "SAO PAULO",
           "clientes": 5
         },
         {
-          "cidade": "SAO JOAO DE MER",
+          "cidade": "CARIACICA",
           "clientes": 4
+        },
+        {
+          "cidade": "SERRA",
+          "clientes": 4
+        },
+        {
+          "cidade": "SAO JOAO DE MER",
+          "clientes": 3
         },
         {
           "cidade": "BETIM",
           "clientes": 3
         },
         {
-          "cidade": "REGISTRO",
+          "cidade": "LAGOA SANTA",
           "clientes": 2
         },
         {
-          "cidade": "PRAIA GRANDE",
-          "clientes": 2
-        },
-        {
-          "cidade": "BELO HORIZONTE",
+          "cidade": "NITEROI",
           "clientes": 2
         },
         {
@@ -12055,26 +12642,27 @@ const RAIOX_CLIENTES_DATA = {
           "clientes": 2
         },
         {
-          "cidade": "CARIACICA",
+          "cidade": "BELO HORIZONTE",
           "clientes": 2
         }
       ],
       "por_vendedor": {
         "ES-260": {
-          "total_clientes": 5,
-          "clientes_ativos_mes": 0,
-          "cobertura_pct": 0.0,
-          "faturamento_ytd": 5020.7,
-          "media_mensal": 1673.57,
+          "total_clientes": 3,
+          "clientes_ativos_mes": 1,
+          "cobertura_pct": 33.3,
+          "faturamento_ytd": 3604.7,
+          "media_mensal": 901.17,
           "por_mes": {
-            "2026-02": 1028.84,
-            "2026-03": 735.89,
-            "2026-05": 3255.97
+            "2026-02": 516.0,
+            "2026-03": 518.0,
+            "2026-05": 2541.54,
+            "2026-07": 29.16
           },
           "top_cidades": [
             {
               "cidade": "SERRA",
-              "clientes": 5
+              "clientes": 3
             }
           ]
         },
@@ -12098,102 +12686,97 @@ const RAIOX_CLIENTES_DATA = {
           ]
         },
         "ES-336": {
-          "total_clientes": 4,
+          "total_clientes": 1,
           "clientes_ativos_mes": 0,
           "cobertura_pct": 0.0,
-          "faturamento_ytd": 7176.64,
-          "media_mensal": 1435.33,
+          "faturamento_ytd": 979.08,
+          "media_mensal": 244.77,
           "por_mes": {
-            "2026-01": 1798.06,
-            "2026-02": 1107.18,
-            "2026-03": 2354.14,
-            "2026-04": 646.9,
-            "2026-05": 1270.36
+            "2026-01": 202.49,
+            "2026-02": 136.17,
+            "2026-03": 375.06,
+            "2026-05": 265.36
           },
           "top_cidades": [
             {
               "cidade": "SERRA",
-              "clientes": 4
+              "clientes": 1
             }
           ]
         },
         "ES-342": {
-          "total_clientes": 3,
+          "total_clientes": 1,
           "clientes_ativos_mes": 0,
           "cobertura_pct": 0.0,
-          "faturamento_ytd": 1922.58,
-          "media_mensal": 640.86,
+          "faturamento_ytd": 462.63,
+          "media_mensal": 231.31,
           "por_mes": {
-            "2026-03": 1071.51,
-            "2026-04": 450.84,
-            "2026-05": 400.23
+            "2026-04": 287.52,
+            "2026-05": 175.11
           },
           "top_cidades": [
             {
               "cidade": "SAO MATEUS",
-              "clientes": 2
-            },
-            {
-              "cidade": "CONCEICAO DA BA",
               "clientes": 1
             }
           ]
         },
         "ES-343": {
-          "total_clientes": 2,
+          "total_clientes": 1,
           "clientes_ativos_mes": 0,
           "cobertura_pct": 0.0,
-          "faturamento_ytd": 1165.32,
-          "media_mensal": 388.44,
+          "faturamento_ytd": 843.72,
+          "media_mensal": 421.86,
           "por_mes": {
-            "2026-03": 431.44,
-            "2026-04": 165.8,
+            "2026-03": 275.64,
             "2026-05": 568.08
           },
           "top_cidades": [
             {
               "cidade": "CARIACICA",
-              "clientes": 2
-            }
-          ]
-        },
-        "ES-370": {
-          "total_clientes": 1,
-          "clientes_ativos_mes": 0,
-          "cobertura_pct": 0.0,
-          "faturamento_ytd": 1280.44,
-          "media_mensal": 426.81,
-          "por_mes": {
-            "2026-02": 906.82,
-            "2026-03": 195.62,
-            "2026-05": 178.0
-          },
-          "top_cidades": [
-            {
-              "cidade": "VENDA NOVA DO I",
               "clientes": 1
             }
           ]
         },
-        "MG-327": {
+        "ES-458": {
           "total_clientes": 3,
           "clientes_ativos_mes": 1,
           "cobertura_pct": 33.3,
-          "faturamento_ytd": 7951.98,
-          "media_mensal": 1136.0,
+          "faturamento_ytd": 496.08,
+          "media_mensal": 496.08,
+          "por_mes": {
+            "2026-07": 496.08
+          },
+          "top_cidades": [
+            {
+              "cidade": "CARIACICA",
+              "clientes": 3
+            }
+          ]
+        },
+        "MG-327": {
+          "total_clientes": 4,
+          "clientes_ativos_mes": 1,
+          "cobertura_pct": 25.0,
+          "faturamento_ytd": 9950.66,
+          "media_mensal": 1421.52,
           "por_mes": {
             "2026-01": 886.32,
             "2026-02": 1468.48,
-            "2026-03": 1930.72,
+            "2026-03": 3552.16,
             "2026-04": 1012.84,
             "2026-05": 930.7,
             "2026-06": 1315.96,
-            "2026-07": 406.96
+            "2026-07": 784.2
           },
           "top_cidades": [
             {
               "cidade": "BETIM",
               "clientes": 3
+            },
+            {
+              "cidade": "BELO HORIZONTE",
+              "clientes": 1
             }
           ]
         },
@@ -12217,9 +12800,9 @@ const RAIOX_CLIENTES_DATA = {
           ]
         },
         "MG-344": {
-          "total_clientes": 2,
+          "total_clientes": 1,
           "clientes_ativos_mes": 1,
-          "cobertura_pct": 50.0,
+          "cobertura_pct": 100.0,
           "faturamento_ytd": 4627.6,
           "media_mensal": 1156.9,
           "por_mes": {
@@ -12231,14 +12814,14 @@ const RAIOX_CLIENTES_DATA = {
           "top_cidades": [
             {
               "cidade": "BELO HORIZONTE",
-              "clientes": 2
+              "clientes": 1
             }
           ]
         },
         "MG-354": {
-          "total_clientes": 2,
+          "total_clientes": 3,
           "clientes_ativos_mes": 1,
-          "cobertura_pct": 50.0,
+          "cobertura_pct": 33.3,
           "faturamento_ytd": 32836.08,
           "media_mensal": 5472.68,
           "por_mes": {
@@ -12252,7 +12835,7 @@ const RAIOX_CLIENTES_DATA = {
           "top_cidades": [
             {
               "cidade": "LAGOA SANTA",
-              "clientes": 1
+              "clientes": 2
             },
             {
               "cidade": "MONTES CLAROS",
@@ -12261,39 +12844,41 @@ const RAIOX_CLIENTES_DATA = {
           ]
         },
         "RJ-144": {
-          "total_clientes": 3,
-          "clientes_ativos_mes": 1,
-          "cobertura_pct": 33.3,
-          "faturamento_ytd": 164365.62,
-          "media_mensal": 23480.8,
+          "total_clientes": 2,
+          "clientes_ativos_mes": 0,
+          "cobertura_pct": 0.0,
+          "faturamento_ytd": 830.3,
+          "media_mensal": 415.15,
           "por_mes": {
-            "2026-01": 30557.28,
-            "2026-02": 25170.2,
-            "2026-03": 26920.34,
-            "2026-04": 43803.56,
-            "2026-05": 9315.3,
-            "2026-06": 12416.02,
-            "2026-07": 16182.92
+            "2026-05": 515.8,
+            "2026-06": 314.5
           },
           "top_cidades": [
             {
               "cidade": "RIO DE JANEIRO",
-              "clientes": 3
+              "clientes": 2
             }
           ]
         },
         "RJ-153": {
-          "total_clientes": 1,
-          "clientes_ativos_mes": 1,
+          "total_clientes": 2,
+          "clientes_ativos_mes": 2,
           "cobertura_pct": 100.0,
-          "faturamento_ytd": 1036.5,
-          "media_mensal": 1036.5,
+          "faturamento_ytd": 37416.18,
+          "media_mensal": 9354.04,
           "por_mes": {
-            "2026-07": 1036.5
+            "2026-01": 143.8,
+            "2026-02": 23941.8,
+            "2026-04": 8569.28,
+            "2026-07": 4761.3
           },
           "top_cidades": [
             {
               "cidade": "DUQUE DE CAXIAS",
+              "clientes": 1
+            },
+            {
+              "cidade": "NOVA FRIBURGO",
               "clientes": 1
             }
           ]
@@ -12322,8 +12907,8 @@ const RAIOX_CLIENTES_DATA = {
           "total_clientes": 1,
           "clientes_ativos_mes": 1,
           "cobertura_pct": 100.0,
-          "faturamento_ytd": 9131.92,
-          "media_mensal": 1304.56,
+          "faturamento_ytd": 9521.92,
+          "media_mensal": 1360.27,
           "por_mes": {
             "2026-01": 1473.22,
             "2026-02": 988.82,
@@ -12331,7 +12916,7 @@ const RAIOX_CLIENTES_DATA = {
             "2026-04": 2459.6,
             "2026-05": 1633.5,
             "2026-06": 996.9,
-            "2026-07": 1201.08
+            "2026-07": 1591.08
           },
           "top_cidades": [
             {
@@ -12364,17 +12949,18 @@ const RAIOX_CLIENTES_DATA = {
         },
         "RJ-241": {
           "total_clientes": 2,
-          "clientes_ativos_mes": 0,
-          "cobertura_pct": 0.0,
-          "faturamento_ytd": 11053.16,
-          "media_mensal": 1842.19,
+          "clientes_ativos_mes": 1,
+          "cobertura_pct": 50.0,
+          "faturamento_ytd": 12131.72,
+          "media_mensal": 1733.1,
           "por_mes": {
             "2026-01": 1732.24,
             "2026-02": 3513.1,
             "2026-03": 870.7,
             "2026-04": 2527.84,
             "2026-05": 611.68,
-            "2026-06": 1797.6
+            "2026-06": 1797.6,
+            "2026-07": 1078.56
           },
           "top_cidades": [
             {
@@ -12407,24 +12993,29 @@ const RAIOX_CLIENTES_DATA = {
         },
         "RJ-379": {
           "total_clientes": 5,
-          "clientes_ativos_mes": 0,
-          "cobertura_pct": 0.0,
-          "faturamento_ytd": 5148.52,
-          "media_mensal": 1029.7,
+          "clientes_ativos_mes": 1,
+          "cobertura_pct": 20.0,
+          "faturamento_ytd": 6105.02,
+          "media_mensal": 1017.5,
           "por_mes": {
-            "2026-01": 1122.05,
-            "2026-03": 958.11,
-            "2026-04": 1854.64,
+            "2026-01": 1166.75,
+            "2026-03": 1197.71,
+            "2026-04": 2251.74,
             "2026-05": 547.66,
-            "2026-06": 666.06
+            "2026-06": 666.06,
+            "2026-07": 275.1
           },
           "top_cidades": [
             {
               "cidade": "SAO JOAO DE MER",
-              "clientes": 4
+              "clientes": 3
             },
             {
               "cidade": "MESQUITA",
+              "clientes": 1
+            },
+            {
+              "cidade": "RIO DE JANEIRO",
               "clientes": 1
             }
           ]
@@ -12433,10 +13024,9 @@ const RAIOX_CLIENTES_DATA = {
           "total_clientes": 2,
           "clientes_ativos_mes": 0,
           "cobertura_pct": 0.0,
-          "faturamento_ytd": 1554.2,
-          "media_mensal": 777.1,
+          "faturamento_ytd": 1328.8,
+          "media_mensal": 1328.8,
           "por_mes": {
-            "2026-04": 225.4,
             "2026-05": 1328.8
           },
           "top_cidades": [
@@ -12447,9 +13037,9 @@ const RAIOX_CLIENTES_DATA = {
           ]
         },
         "RJ-419": {
-          "total_clientes": 1,
+          "total_clientes": 2,
           "clientes_ativos_mes": 1,
-          "cobertura_pct": 100.0,
+          "cobertura_pct": 50.0,
           "faturamento_ytd": 681.5,
           "media_mensal": 340.75,
           "por_mes": {
@@ -12459,29 +13049,29 @@ const RAIOX_CLIENTES_DATA = {
           "top_cidades": [
             {
               "cidade": "RIO DE JANEIRO",
-              "clientes": 1
+              "clientes": 2
             }
           ]
         },
         "RJ-431": {
-          "total_clientes": 13,
-          "clientes_ativos_mes": 1,
-          "cobertura_pct": 7.7,
-          "faturamento_ytd": 20495.42,
-          "media_mensal": 2927.92,
+          "total_clientes": 12,
+          "clientes_ativos_mes": 4,
+          "cobertura_pct": 33.3,
+          "faturamento_ytd": 20935.15,
+          "media_mensal": 2990.74,
           "por_mes": {
             "2026-01": 3049.82,
             "2026-02": 1745.06,
-            "2026-03": 4993.55,
-            "2026-04": 2817.56,
+            "2026-03": 4709.51,
+            "2026-04": 2628.2,
             "2026-05": 4203.71,
             "2026-06": 2983.36,
-            "2026-07": 702.36
+            "2026-07": 1615.49
           },
           "top_cidades": [
             {
               "cidade": "RIO DE JANEIRO",
-              "clientes": 13
+              "clientes": 12
             }
           ]
         },
@@ -12489,11 +13079,11 @@ const RAIOX_CLIENTES_DATA = {
           "total_clientes": 1,
           "clientes_ativos_mes": 0,
           "cobertura_pct": 0.0,
-          "faturamento_ytd": 12715.14,
-          "media_mensal": 6357.57,
+          "faturamento_ytd": 11067.54,
+          "media_mensal": 5533.77,
           "por_mes": {
             "2026-03": 6536.34,
-            "2026-06": 6178.8
+            "2026-06": 4531.2
           },
           "top_cidades": [
             {
@@ -12504,14 +13094,15 @@ const RAIOX_CLIENTES_DATA = {
         },
         "RJ-471": {
           "total_clientes": 2,
-          "clientes_ativos_mes": 0,
-          "cobertura_pct": 0.0,
-          "faturamento_ytd": 2693.46,
-          "media_mensal": 897.82,
+          "clientes_ativos_mes": 1,
+          "cobertura_pct": 50.0,
+          "faturamento_ytd": 4161.06,
+          "media_mensal": 1040.27,
           "por_mes": {
             "2026-02": 165.36,
             "2026-04": 1329.3,
-            "2026-05": 1198.8
+            "2026-05": 1198.8,
+            "2026-07": 1467.6
           },
           "top_cidades": [
             {
@@ -12521,18 +13112,19 @@ const RAIOX_CLIENTES_DATA = {
           ]
         },
         "SP-399": {
-          "total_clientes": 72,
-          "clientes_ativos_mes": 0,
-          "cobertura_pct": 0.0,
-          "faturamento_ytd": 45842.22,
-          "media_mensal": 7640.37,
+          "total_clientes": 73,
+          "clientes_ativos_mes": 1,
+          "cobertura_pct": 1.4,
+          "faturamento_ytd": 55708.38,
+          "media_mensal": 7958.34,
           "por_mes": {
             "2026-01": 985.12,
             "2026-02": 2404.1,
             "2026-03": 38805.3,
             "2026-04": 821.3,
             "2026-05": 2303.8,
-            "2026-06": 522.6
+            "2026-06": 9189.96,
+            "2026-07": 1198.8
           },
           "top_cidades": [
             {
@@ -12540,11 +13132,11 @@ const RAIOX_CLIENTES_DATA = {
               "clientes": 63
             },
             {
-              "cidade": "NITEROI",
+              "cidade": "SAO PAULO",
               "clientes": 2
             },
             {
-              "cidade": "SAO PAULO",
+              "cidade": "NITEROI",
               "clientes": 2
             },
             {
@@ -12552,11 +13144,15 @@ const RAIOX_CLIENTES_DATA = {
               "clientes": 1
             },
             {
-              "cidade": "NILOPOLIS",
+              "cidade": "MAIRINQUE",
               "clientes": 1
             },
             {
-              "cidade": "MAIRINQUE",
+              "cidade": "PAULINIA",
+              "clientes": 1
+            },
+            {
+              "cidade": "NILOPOLIS",
               "clientes": 1
             },
             {
@@ -12565,6 +13161,20 @@ const RAIOX_CLIENTES_DATA = {
             },
             {
               "cidade": "SAO ROQUE",
+              "clientes": 1
+            }
+          ]
+        },
+        "SP-425": {
+          "total_clientes": 1,
+          "clientes_ativos_mes": 0,
+          "cobertura_pct": 0.0,
+          "faturamento_ytd": 0.0,
+          "media_mensal": 0.0,
+          "por_mes": {},
+          "top_cidades": [
+            {
+              "cidade": "AMERICANA",
               "clientes": 1
             }
           ]
@@ -12621,14 +13231,13 @@ const RAIOX_CLIENTES_DATA = {
           ]
         },
         "SP-470": {
-          "total_clientes": 3,
+          "total_clientes": 2,
           "clientes_ativos_mes": 1,
-          "cobertura_pct": 33.3,
-          "faturamento_ytd": 49932.72,
-          "media_mensal": 12483.18,
+          "cobertura_pct": 50.0,
+          "faturamento_ytd": 10392.72,
+          "media_mensal": 3464.24,
           "por_mes": {
-            "2026-04": 19770.0,
-            "2026-05": 20020.8,
+            "2026-05": 250.8,
             "2026-06": 8943.12,
             "2026-07": 1198.8
           },
@@ -12636,22 +13245,16 @@ const RAIOX_CLIENTES_DATA = {
             {
               "cidade": "PAULINIA",
               "clientes": 2
-            },
-            {
-              "cidade": "SAO PAULO",
-              "clientes": 1
             }
           ]
         },
         "SP-473": {
           "total_clientes": 1,
-          "clientes_ativos_mes": 1,
-          "cobertura_pct": 100.0,
-          "faturamento_ytd": 406.8,
-          "media_mensal": 406.8,
-          "por_mes": {
-            "2026-07": 406.8
-          },
+          "clientes_ativos_mes": 0,
+          "cobertura_pct": 0.0,
+          "faturamento_ytd": 0.0,
+          "media_mensal": 0.0,
+          "por_mes": {},
           "top_cidades": [
             {
               "cidade": "MOGI MIRIM",
@@ -12675,8 +13278,26 @@ const RAIOX_CLIENTES_DATA = {
             }
           ]
         },
-        "SP-493": {
+        "SP-485": {
           "total_clientes": 1,
+          "clientes_ativos_mes": 1,
+          "cobertura_pct": 100.0,
+          "faturamento_ytd": 40306.8,
+          "media_mensal": 13435.6,
+          "por_mes": {
+            "2026-04": 19770.0,
+            "2026-05": 19770.0,
+            "2026-07": 766.8
+          },
+          "top_cidades": [
+            {
+              "cidade": "SAO PAULO",
+              "clientes": 1
+            }
+          ]
+        },
+        "SP-493": {
+          "total_clientes": 2,
           "clientes_ativos_mes": 0,
           "cobertura_pct": 0.0,
           "faturamento_ytd": 852.63,
@@ -12688,13 +13309,17 @@ const RAIOX_CLIENTES_DATA = {
             {
               "cidade": "RIBEIRAO PIRES",
               "clientes": 1
+            },
+            {
+              "cidade": "SUZANO",
+              "clientes": 1
             }
           ]
         },
         "SP-497": {
-          "total_clientes": 2,
+          "total_clientes": 1,
           "clientes_ativos_mes": 1,
-          "cobertura_pct": 50.0,
+          "cobertura_pct": 100.0,
           "faturamento_ytd": 215.76,
           "media_mensal": 215.76,
           "por_mes": {
@@ -12703,11 +13328,11 @@ const RAIOX_CLIENTES_DATA = {
           "top_cidades": [
             {
               "cidade": "REGISTRO",
-              "clientes": 2
+              "clientes": 1
             }
           ]
         },
-        "SP-500": {
+        "SP-510": {
           "total_clientes": 1,
           "clientes_ativos_mes": 0,
           "cobertura_pct": 0.0,
@@ -12716,22 +13341,8 @@ const RAIOX_CLIENTES_DATA = {
           "por_mes": {},
           "top_cidades": [
             {
-              "cidade": "SANTOS",
+              "cidade": "SOROCABA",
               "clientes": 1
-            }
-          ]
-        },
-        "SP-502": {
-          "total_clientes": 2,
-          "clientes_ativos_mes": 0,
-          "cobertura_pct": 0.0,
-          "faturamento_ytd": 0.0,
-          "media_mensal": 0.0,
-          "por_mes": {},
-          "top_cidades": [
-            {
-              "cidade": "PRAIA GRANDE",
-              "clientes": 2
             }
           ]
         }
@@ -12739,47 +13350,39 @@ const RAIOX_CLIENTES_DATA = {
     },
     {
       "ramo": "MERCEARIA",
-      "total_clientes": 175,
-      "clientes_ativos_mes": 35,
-      "cobertura_pct": 20.0,
-      "faturamento_ytd": 351258.64,
-      "media_mensal": 50179.81,
+      "total_clientes": 173,
+      "clientes_ativos_mes": 50,
+      "cobertura_pct": 28.9,
+      "faturamento_ytd": 390020.3,
+      "media_mensal": 55717.19,
       "por_mes": {
         "2026-01": 27422.53,
-        "2026-02": 11915.99,
+        "2026-02": 11558.51,
         "2026-03": 12027.12,
         "2026-04": 21447.11,
-        "2026-05": 93356.12,
+        "2026-05": 93152.72,
         "2026-06": 101779.88,
-        "2026-07": 83309.88
+        "2026-07": 122632.43
       },
       "top_cidades": [
         {
           "cidade": "RIO DE JANEIRO",
-          "clientes": 90
+          "clientes": 91
         },
         {
           "cidade": "BELFORD ROXO",
           "clientes": 7
         },
         {
+          "cidade": "SAO JOSE DOS CAMPOS",
+          "clientes": 6
+        },
+        {
           "cidade": "SAO PAULO",
-          "clientes": 5
+          "clientes": 6
         },
         {
           "cidade": "NOVA IGUACU",
-          "clientes": 4
-        },
-        {
-          "cidade": "MAUA",
-          "clientes": 4
-        },
-        {
-          "cidade": "SAO JOSE DOS CAMPOS",
-          "clientes": 4
-        },
-        {
-          "cidade": "SANTA BARBARA D OESTE",
           "clientes": 4
         },
         {
@@ -12787,7 +13390,15 @@ const RAIOX_CLIENTES_DATA = {
           "clientes": 4
         },
         {
+          "cidade": "SANTA BARBARA D OESTE",
+          "clientes": 4
+        },
+        {
           "cidade": "BOTUCATU",
+          "clientes": 3
+        },
+        {
+          "cidade": "MAUA",
           "clientes": 3
         },
         {
@@ -12796,24 +13407,56 @@ const RAIOX_CLIENTES_DATA = {
         }
       ],
       "por_vendedor": {
-        "RJ-144": {
+        "ES-269": {
           "total_clientes": 2,
-          "clientes_ativos_mes": 1,
-          "cobertura_pct": 50.0,
-          "faturamento_ytd": 24937.14,
-          "media_mensal": 4156.19,
+          "clientes_ativos_mes": 0,
+          "cobertura_pct": 0.0,
+          "faturamento_ytd": 0.0,
+          "media_mensal": 0.0,
+          "por_mes": {},
+          "top_cidades": [
+            {
+              "cidade": "ESPIRITO SANTO",
+              "clientes": 1
+            },
+            {
+              "cidade": "SAO MATEUS",
+              "clientes": 1
+            }
+          ]
+        },
+        "ES-458": {
+          "total_clientes": 1,
+          "clientes_ativos_mes": 0,
+          "cobertura_pct": 0.0,
+          "faturamento_ytd": 0.0,
+          "media_mensal": 0.0,
+          "por_mes": {},
+          "top_cidades": [
+            {
+              "cidade": "CARIACICA",
+              "clientes": 1
+            }
+          ]
+        },
+        "RJ-144": {
+          "total_clientes": 4,
+          "clientes_ativos_mes": 4,
+          "cobertura_pct": 100.0,
+          "faturamento_ytd": 28976.94,
+          "media_mensal": 4829.49,
           "por_mes": {
             "2026-01": 19021.96,
             "2026-02": 1389.6,
             "2026-04": 1695.98,
             "2026-05": 1066.5,
             "2026-06": 1299.9,
-            "2026-07": 463.2
+            "2026-07": 4503.0
           },
           "top_cidades": [
             {
               "cidade": "RIO DE JANEIRO",
-              "clientes": 2
+              "clientes": 4
             }
           ]
         },
@@ -12821,8 +13464,8 @@ const RAIOX_CLIENTES_DATA = {
           "total_clientes": 2,
           "clientes_ativos_mes": 2,
           "cobertura_pct": 100.0,
-          "faturamento_ytd": 45210.51,
-          "media_mensal": 6458.64,
+          "faturamento_ytd": 47726.55,
+          "media_mensal": 6818.08,
           "por_mes": {
             "2026-01": 6072.78,
             "2026-02": 9199.11,
@@ -12830,7 +13473,7 @@ const RAIOX_CLIENTES_DATA = {
             "2026-04": 8703.76,
             "2026-05": 3747.0,
             "2026-06": 6264.94,
-            "2026-07": 4472.12
+            "2026-07": 6988.16
           },
           "top_cidades": [
             {
@@ -12840,30 +13483,23 @@ const RAIOX_CLIENTES_DATA = {
           ]
         },
         "RJ-156": {
-          "total_clientes": 2,
+          "total_clientes": 1,
           "clientes_ativos_mes": 0,
           "cobertura_pct": 0.0,
-          "faturamento_ytd": 560.88,
-          "media_mensal": 280.44,
-          "por_mes": {
-            "2026-02": 357.48,
-            "2026-05": 203.4
-          },
+          "faturamento_ytd": 0.0,
+          "media_mensal": 0.0,
+          "por_mes": {},
           "top_cidades": [
             {
               "cidade": "ARMACAO DOS BUZ",
-              "clientes": 1
-            },
-            {
-              "cidade": "RIO DE JANEIRO",
               "clientes": 1
             }
           ]
         },
         "RJ-378": {
-          "total_clientes": 1,
+          "total_clientes": 2,
           "clientes_ativos_mes": 1,
-          "cobertura_pct": 100.0,
+          "cobertura_pct": 50.0,
           "faturamento_ytd": 3121.81,
           "media_mensal": 1560.91,
           "por_mes": {
@@ -12873,23 +13509,23 @@ const RAIOX_CLIENTES_DATA = {
           "top_cidades": [
             {
               "cidade": "RIO DE JANEIRO",
-              "clientes": 1
+              "clientes": 2
             }
           ]
         },
         "RJ-379": {
           "total_clientes": 12,
-          "clientes_ativos_mes": 5,
-          "cobertura_pct": 41.7,
-          "faturamento_ytd": 25660.46,
-          "media_mensal": 4276.74,
+          "clientes_ativos_mes": 9,
+          "cobertura_pct": 75.0,
+          "faturamento_ytd": 30234.78,
+          "media_mensal": 5039.13,
           "por_mes": {
             "2026-01": 823.69,
             "2026-03": 1569.82,
             "2026-04": 550.26,
             "2026-05": 15371.2,
             "2026-06": 3658.39,
-            "2026-07": 3687.1
+            "2026-07": 8261.42
           },
           "top_cidades": [
             {
@@ -12946,11 +13582,11 @@ const RAIOX_CLIENTES_DATA = {
           ]
         },
         "RJ-471": {
-          "total_clientes": 8,
-          "clientes_ativos_mes": 4,
-          "cobertura_pct": 50.0,
-          "faturamento_ytd": 41672.6,
-          "media_mensal": 5953.23,
+          "total_clientes": 7,
+          "clientes_ativos_mes": 5,
+          "cobertura_pct": 71.4,
+          "faturamento_ytd": 45281.1,
+          "media_mensal": 6468.73,
           "por_mes": {
             "2026-01": 1504.1,
             "2026-02": 969.8,
@@ -12958,12 +13594,12 @@ const RAIOX_CLIENTES_DATA = {
             "2026-04": 10001.88,
             "2026-05": 6850.54,
             "2026-06": 10644.64,
-            "2026-07": 8208.4
+            "2026-07": 11816.9
           },
           "top_cidades": [
             {
               "cidade": "RIO DE JANEIRO",
-              "clientes": 8
+              "clientes": 7
             }
           ]
         },
@@ -12984,12 +13620,14 @@ const RAIOX_CLIENTES_DATA = {
           ]
         },
         "SP-399": {
-          "total_clientes": 86,
+          "total_clientes": 87,
           "clientes_ativos_mes": 0,
           "cobertura_pct": 0.0,
-          "faturamento_ytd": 0.0,
-          "media_mensal": 0.0,
-          "por_mes": {},
+          "faturamento_ytd": 455.04,
+          "media_mensal": 455.04,
+          "por_mes": {
+            "2026-06": 455.04
+          },
           "top_cidades": [
             {
               "cidade": "RIO DE JANEIRO",
@@ -13000,19 +13638,19 @@ const RAIOX_CLIENTES_DATA = {
               "clientes": 2
             },
             {
-              "cidade": "NOVA IGUACU",
+              "cidade": "SAO PAULO",
               "clientes": 2
             },
             {
-              "cidade": "ARRAIAL DO CABO",
-              "clientes": 1
+              "cidade": "NOVA IGUACU",
+              "clientes": 2
             },
             {
               "cidade": "BELFORD ROXO",
               "clientes": 1
             },
             {
-              "cidade": "DUQUE DE CAXIAS",
+              "cidade": "ARRAIAL DO CABO",
               "clientes": 1
             },
             {
@@ -13020,11 +13658,11 @@ const RAIOX_CLIENTES_DATA = {
               "clientes": 1
             },
             {
-              "cidade": "SAO GONCALO",
+              "cidade": "DUQUE DE CAXIAS",
               "clientes": 1
             },
             {
-              "cidade": "SAO PAULO",
+              "cidade": "SAO GONCALO",
               "clientes": 1
             },
             {
@@ -13048,15 +13686,15 @@ const RAIOX_CLIENTES_DATA = {
           ]
         },
         "SP-433": {
-          "total_clientes": 6,
+          "total_clientes": 5,
           "clientes_ativos_mes": 3,
-          "cobertura_pct": 50.0,
-          "faturamento_ytd": 55715.7,
-          "media_mensal": 18571.9,
+          "cobertura_pct": 60.0,
+          "faturamento_ytd": 56878.12,
+          "media_mensal": 18959.37,
           "por_mes": {
             "2026-05": 7789.2,
-            "2026-06": 23146.02,
-            "2026-07": 24780.48
+            "2026-06": 18871.32,
+            "2026-07": 30217.61
           },
           "top_cidades": [
             {
@@ -13076,42 +13714,46 @@ const RAIOX_CLIENTES_DATA = {
               "clientes": 1
             },
             {
-              "cidade": "SANTO ANTONIO DE POSSE",
-              "clientes": 1
-            },
-            {
               "cidade": "VALINHOS",
               "clientes": 1
             }
           ]
         },
         "SP-460": {
-          "total_clientes": 4,
-          "clientes_ativos_mes": 1,
-          "cobertura_pct": 25.0,
-          "faturamento_ytd": 28838.8,
-          "media_mensal": 9612.93,
+          "total_clientes": 8,
+          "clientes_ativos_mes": 3,
+          "cobertura_pct": 37.5,
+          "faturamento_ytd": 29968.46,
+          "media_mensal": 9989.49,
           "por_mes": {
             "2026-05": 4908.07,
             "2026-06": 22272.53,
-            "2026-07": 1658.2
+            "2026-07": 2787.86
           },
           "top_cidades": [
             {
               "cidade": "SAO JOSE DOS CAMPOS",
-              "clientes": 4
+              "clientes": 6
+            },
+            {
+              "cidade": "CRUZEIRO",
+              "clientes": 1
+            },
+            {
+              "cidade": "LORENA",
+              "clientes": 1
             }
           ]
         },
         "SP-461": {
           "total_clientes": 3,
-          "clientes_ativos_mes": 2,
-          "cobertura_pct": 66.7,
-          "faturamento_ytd": 16981.76,
-          "media_mensal": 8490.88,
+          "clientes_ativos_mes": 3,
+          "cobertura_pct": 100.0,
+          "faturamento_ytd": 24859.16,
+          "media_mensal": 12429.58,
           "por_mes": {
             "2026-06": 6387.28,
-            "2026-07": 10594.48
+            "2026-07": 18471.88
           },
           "top_cidades": [
             {
@@ -13146,16 +13788,35 @@ const RAIOX_CLIENTES_DATA = {
             }
           ]
         },
-        "SP-469": {
+        "SP-468": {
           "total_clientes": 1,
           "clientes_ativos_mes": 0,
           "cobertura_pct": 0.0,
-          "faturamento_ytd": 1509.6,
-          "media_mensal": 1509.6,
+          "faturamento_ytd": 0.0,
+          "media_mensal": 0.0,
+          "por_mes": {},
+          "top_cidades": [
+            {
+              "cidade": "SAO PAULO",
+              "clientes": 1
+            }
+          ]
+        },
+        "SP-469": {
+          "total_clientes": 2,
+          "clientes_ativos_mes": 1,
+          "cobertura_pct": 50.0,
+          "faturamento_ytd": 2329.6,
+          "media_mensal": 1164.8,
           "por_mes": {
-            "2026-06": 1509.6
+            "2026-06": 1964.2,
+            "2026-07": 365.4
           },
           "top_cidades": [
+            {
+              "cidade": "CAMPINAS",
+              "clientes": 1
+            },
             {
               "cidade": "PIRACICABA",
               "clientes": 1
@@ -13163,20 +13824,15 @@ const RAIOX_CLIENTES_DATA = {
           ]
         },
         "SP-470": {
-          "total_clientes": 2,
+          "total_clientes": 1,
           "clientes_ativos_mes": 0,
           "cobertura_pct": 0.0,
-          "faturamento_ytd": 822.26,
-          "media_mensal": 411.13,
+          "faturamento_ytd": 367.66,
+          "media_mensal": 367.66,
           "por_mes": {
-            "2026-05": 367.66,
-            "2026-06": 454.6
+            "2026-05": 367.66
           },
           "top_cidades": [
-            {
-              "cidade": "CAMPINAS",
-              "clientes": 1
-            },
             {
               "cidade": "VALINHOS",
               "clientes": 1
@@ -13205,12 +13861,12 @@ const RAIOX_CLIENTES_DATA = {
           "total_clientes": 5,
           "clientes_ativos_mes": 2,
           "cobertura_pct": 40.0,
-          "faturamento_ytd": 8919.2,
-          "media_mensal": 2973.07,
+          "faturamento_ytd": 11019.8,
+          "media_mensal": 3673.27,
           "por_mes": {
             "2026-05": 2443.4,
             "2026-06": 3570.9,
-            "2026-07": 2904.9
+            "2026-07": 5005.5
           },
           "top_cidades": [
             {
@@ -13243,12 +13899,12 @@ const RAIOX_CLIENTES_DATA = {
           "total_clientes": 3,
           "clientes_ativos_mes": 3,
           "cobertura_pct": 100.0,
-          "faturamento_ytd": 17153.88,
-          "media_mensal": 5717.96,
+          "faturamento_ytd": 18733.08,
+          "media_mensal": 6244.36,
           "por_mes": {
             "2026-05": 4605.2,
             "2026-06": 4399.3,
-            "2026-07": 8149.38
+            "2026-07": 9728.58
           },
           "top_cidades": [
             {
@@ -13259,12 +13915,13 @@ const RAIOX_CLIENTES_DATA = {
         },
         "SP-477": {
           "total_clientes": 1,
-          "clientes_ativos_mes": 0,
-          "cobertura_pct": 0.0,
-          "faturamento_ytd": 6300.37,
-          "media_mensal": 6300.37,
+          "clientes_ativos_mes": 1,
+          "cobertura_pct": 100.0,
+          "faturamento_ytd": 11154.57,
+          "media_mensal": 5577.29,
           "por_mes": {
-            "2026-06": 6300.37
+            "2026-06": 6300.37,
+            "2026-07": 4854.21
           },
           "top_cidades": [
             {
@@ -13274,9 +13931,9 @@ const RAIOX_CLIENTES_DATA = {
           ]
         },
         "SP-486": {
-          "total_clientes": 3,
+          "total_clientes": 2,
           "clientes_ativos_mes": 1,
-          "cobertura_pct": 33.3,
+          "cobertura_pct": 50.0,
           "faturamento_ytd": 799.2,
           "media_mensal": 799.2,
           "por_mes": {
@@ -13284,40 +13941,44 @@ const RAIOX_CLIENTES_DATA = {
           },
           "top_cidades": [
             {
-              "cidade": "CAMPINAS",
-              "clientes": 1
-            },
-            {
               "cidade": "HORTOLANDIA",
               "clientes": 1
             },
             {
-              "cidade": "JAGUARIUNA",
+              "cidade": "ITAPIRA",
               "clientes": 1
             }
           ]
         },
-        "SP-491": {
-          "total_clientes": 1,
+        "SP-490": {
+          "total_clientes": 2,
           "clientes_ativos_mes": 0,
           "cobertura_pct": 0.0,
-          "faturamento_ytd": 0.0,
-          "media_mensal": 0.0,
-          "por_mes": {},
+          "faturamento_ytd": 4274.7,
+          "media_mensal": 4274.7,
+          "por_mes": {
+            "2026-06": 4274.7
+          },
           "top_cidades": [
             {
-              "cidade": "BARIRI",
+              "cidade": "AMPARO",
+              "clientes": 1
+            },
+            {
+              "cidade": "SANTO ANTONIO DE POSSE",
               "clientes": 1
             }
           ]
         },
         "SP-492": {
           "total_clientes": 1,
-          "clientes_ativos_mes": 0,
-          "cobertura_pct": 0.0,
-          "faturamento_ytd": 0.0,
-          "media_mensal": 0.0,
-          "por_mes": {},
+          "clientes_ativos_mes": 1,
+          "cobertura_pct": 100.0,
+          "faturamento_ytd": 559.6,
+          "media_mensal": 559.6,
+          "por_mes": {
+            "2026-07": 559.6
+          },
           "top_cidades": [
             {
               "cidade": "SAO PAULO",
@@ -13326,26 +13987,22 @@ const RAIOX_CLIENTES_DATA = {
           ]
         },
         "SP-493": {
-          "total_clientes": 7,
+          "total_clientes": 5,
           "clientes_ativos_mes": 3,
-          "cobertura_pct": 42.9,
-          "faturamento_ytd": 5491.34,
-          "media_mensal": 2745.67,
+          "cobertura_pct": 60.0,
+          "faturamento_ytd": 5926.04,
+          "media_mensal": 2963.02,
           "por_mes": {
             "2026-06": 3908.94,
-            "2026-07": 1582.4
+            "2026-07": 2017.1
           },
           "top_cidades": [
             {
               "cidade": "MAUA",
-              "clientes": 4
+              "clientes": 3
             },
             {
               "cidade": "RIBEIRAO PIRES",
-              "clientes": 1
-            },
-            {
-              "cidade": "RIO GRANDE DA SERRA",
               "clientes": 1
             },
             {
@@ -13355,37 +14012,21 @@ const RAIOX_CLIENTES_DATA = {
           ]
         },
         "SP-497": {
-          "total_clientes": 9,
-          "clientes_ativos_mes": 1,
-          "cobertura_pct": 11.1,
-          "faturamento_ytd": 202.8,
-          "media_mensal": 202.8,
+          "total_clientes": 2,
+          "clientes_ativos_mes": 2,
+          "cobertura_pct": 100.0,
+          "faturamento_ytd": 448.8,
+          "media_mensal": 448.8,
           "por_mes": {
-            "2026-07": 202.8
+            "2026-07": 448.8
           },
           "top_cidades": [
             {
-              "cidade": "MIRACATU",
-              "clientes": 2
-            },
-            {
-              "cidade": "JUQUIA",
-              "clientes": 2
-            },
-            {
-              "cidade": "REGISTRO",
-              "clientes": 2
-            },
-            {
-              "cidade": "CAJATI",
-              "clientes": 1
-            },
-            {
-              "cidade": "ELDORADO",
-              "clientes": 1
-            },
-            {
               "cidade": "ITARIRI",
+              "clientes": 1
+            },
+            {
+              "cidade": "MIRACATU",
               "clientes": 1
             }
           ]
@@ -13406,20 +14047,6 @@ const RAIOX_CLIENTES_DATA = {
             },
             {
               "cidade": "NOVA EUROPA",
-              "clientes": 1
-            }
-          ]
-        },
-        "SP-499": {
-          "total_clientes": 1,
-          "clientes_ativos_mes": 0,
-          "cobertura_pct": 0.0,
-          "faturamento_ytd": 0.0,
-          "media_mensal": 0.0,
-          "por_mes": {},
-          "top_cidades": [
-            {
-              "cidade": "SANTO ANDRE",
               "clientes": 1
             }
           ]
@@ -13445,18 +14072,18 @@ const RAIOX_CLIENTES_DATA = {
     {
       "ramo": "COMERCIO ATACADISTA (GERAL)",
       "total_clientes": 11,
-      "clientes_ativos_mes": 3,
-      "cobertura_pct": 27.3,
-      "faturamento_ytd": 339801.28,
-      "media_mensal": 48543.04,
+      "clientes_ativos_mes": 5,
+      "cobertura_pct": 45.5,
+      "faturamento_ytd": 322644.4,
+      "media_mensal": 46092.06,
       "por_mes": {
         "2026-01": 116545.28,
-        "2026-02": 48831.96,
+        "2026-02": 38444.16,
         "2026-03": 1177.5,
-        "2026-04": 54756.74,
+        "2026-04": 44597.54,
         "2026-05": 69789.78,
         "2026-06": 12786.42,
-        "2026-07": 35913.6
+        "2026-07": 39303.72
       },
       "top_cidades": [
         {
@@ -13464,11 +14091,11 @@ const RAIOX_CLIENTES_DATA = {
           "clientes": 3
         },
         {
-          "cidade": "BELO HORIZONTE",
+          "cidade": "CONTAGEM",
           "clientes": 2
         },
         {
-          "cidade": "BETIM",
+          "cidade": "BELO HORIZONTE",
           "clientes": 1
         },
         {
@@ -13476,7 +14103,7 @@ const RAIOX_CLIENTES_DATA = {
           "clientes": 1
         },
         {
-          "cidade": "CONTAGEM",
+          "cidade": "BETIM",
           "clientes": 1
         },
         {
@@ -13488,31 +14115,17 @@ const RAIOX_CLIENTES_DATA = {
           "clientes": 1
         },
         {
-          "cidade": "POCOS DE CALDAS",
+          "cidade": "POUSO ALEGRE",
           "clientes": 1
         }
       ],
       "por_vendedor": {
-        "MG-327": {
-          "total_clientes": 1,
-          "clientes_ativos_mes": 0,
-          "cobertura_pct": 0.0,
-          "faturamento_ytd": 0.0,
-          "media_mensal": 0.0,
-          "por_mes": {},
-          "top_cidades": [
-            {
-              "cidade": "BELO HORIZONTE",
-              "clientes": 1
-            }
-          ]
-        },
         "MG-343": {
           "total_clientes": 5,
-          "clientes_ativos_mes": 2,
-          "cobertura_pct": 40.0,
-          "faturamento_ytd": 153803.96,
-          "media_mensal": 21971.99,
+          "clientes_ativos_mes": 3,
+          "cobertura_pct": 60.0,
+          "faturamento_ytd": 156944.96,
+          "media_mensal": 22420.71,
           "por_mes": {
             "2026-01": 90014.0,
             "2026-02": 29333.16,
@@ -13520,7 +14133,7 @@ const RAIOX_CLIENTES_DATA = {
             "2026-04": 6578.22,
             "2026-05": 6600.18,
             "2026-06": 3672.3,
-            "2026-07": 16758.0
+            "2026-07": 19899.0
           },
           "top_cidades": [
             {
@@ -13562,19 +14175,19 @@ const RAIOX_CLIENTES_DATA = {
           ]
         },
         "MG-354": {
-          "total_clientes": 4,
-          "clientes_ativos_mes": 1,
-          "cobertura_pct": 25.0,
-          "faturamento_ytd": 29373.44,
-          "media_mensal": 4196.21,
+          "total_clientes": 3,
+          "clientes_ativos_mes": 2,
+          "cobertura_pct": 66.7,
+          "faturamento_ytd": 9075.56,
+          "media_mensal": 1296.51,
           "por_mes": {
             "2026-01": 679.2,
-            "2026-02": 10723.2,
+            "2026-02": 335.4,
             "2026-03": 1177.5,
-            "2026-04": 11137.52,
+            "2026-04": 978.32,
             "2026-05": 682.8,
             "2026-06": 4302.42,
-            "2026-07": 670.8
+            "2026-07": 919.92
           },
           "top_cidades": [
             {
@@ -13586,7 +14199,28 @@ const RAIOX_CLIENTES_DATA = {
               "clientes": 1
             },
             {
-              "cidade": "POCOS DE CALDAS",
+              "cidade": "RIBEIRAO DAS NEVES",
+              "clientes": 1
+            }
+          ]
+        },
+        "MG-360": {
+          "total_clientes": 2,
+          "clientes_ativos_mes": 1,
+          "cobertura_pct": 50.0,
+          "faturamento_ytd": 278326.04,
+          "media_mensal": 46387.67,
+          "por_mes": {
+            "2026-01": 115866.08,
+            "2026-02": 38108.76,
+            "2026-04": 43619.22,
+            "2026-05": 69106.98,
+            "2026-06": 8484.0,
+            "2026-07": 3141.0
+          },
+          "top_cidades": [
+            {
+              "cidade": "CONTAGEM",
               "clientes": 1
             },
             {
@@ -13595,38 +14229,27 @@ const RAIOX_CLIENTES_DATA = {
             }
           ]
         },
-        "MG-360": {
+        "MG-378": {
           "total_clientes": 1,
           "clientes_ativos_mes": 0,
           "cobertura_pct": 0.0,
-          "faturamento_ytd": 144344.88,
-          "media_mensal": 28868.98,
-          "por_mes": {
-            "2026-01": 26531.28,
-            "2026-02": 9111.0,
-            "2026-04": 37376.4,
-            "2026-05": 62842.2,
-            "2026-06": 8484.0
-          },
+          "faturamento_ytd": 0.0,
+          "media_mensal": 0.0,
+          "por_mes": {},
           "top_cidades": [
             {
-              "cidade": "RIBEIRAO DAS NEVES",
+              "cidade": "POUSO ALEGRE",
               "clientes": 1
             }
           ]
         },
-        "MG-542": {
+        "MG-388": {
           "total_clientes": 1,
           "clientes_ativos_mes": 0,
           "cobertura_pct": 0.0,
-          "faturamento_ytd": 130840.16,
-          "media_mensal": 32710.04,
-          "por_mes": {
-            "2026-01": 89334.8,
-            "2026-02": 28997.76,
-            "2026-04": 6242.82,
-            "2026-05": 6264.78
-          },
+          "faturamento_ytd": 0.0,
+          "media_mensal": 0.0,
+          "por_mes": {},
           "top_cidades": [
             {
               "cidade": "CONTAGEM",
@@ -13638,32 +14261,32 @@ const RAIOX_CLIENTES_DATA = {
     },
     {
       "ramo": "CONVENIENCIA",
-      "total_clientes": 130,
-      "clientes_ativos_mes": 15,
-      "cobertura_pct": 11.5,
-      "faturamento_ytd": 260336.4,
-      "media_mensal": 37190.91,
+      "total_clientes": 129,
+      "clientes_ativos_mes": 21,
+      "cobertura_pct": 16.3,
+      "faturamento_ytd": 256805.09,
+      "media_mensal": 36686.44,
       "por_mes": {
-        "2026-01": 38957.79,
-        "2026-02": 47968.97,
-        "2026-03": 39076.0,
-        "2026-04": 36209.35,
-        "2026-05": 35294.46,
-        "2026-06": 52526.67,
-        "2026-07": 10303.15
+        "2026-01": 39024.73,
+        "2026-02": 46019.91,
+        "2026-03": 36119.42,
+        "2026-04": 34336.27,
+        "2026-05": 33953.5,
+        "2026-06": 52233.47,
+        "2026-07": 15117.78
       },
       "top_cidades": [
         {
           "cidade": "RIO DE JANEIRO",
-          "clientes": 94
+          "clientes": 92
         },
         {
           "cidade": "NITEROI",
-          "clientes": 10
+          "clientes": 9
         },
         {
           "cidade": "SAO PAULO",
-          "clientes": 7
+          "clientes": 5
         },
         {
           "cidade": "ARARUAMA",
@@ -13682,49 +14305,29 @@ const RAIOX_CLIENTES_DATA = {
           "clientes": 2
         },
         {
+          "cidade": "AMPARO",
+          "clientes": 1
+        },
+        {
           "cidade": "ARMACAO DOS BUZ",
           "clientes": 1
         },
         {
-          "cidade": "LINHARES",
-          "clientes": 1
-        },
-        {
-          "cidade": "IBITINGA",
+          "cidade": "ANGRA DOS REIS",
           "clientes": 1
         }
       ],
       "por_vendedor": {
-        "ES-336": {
+        "ES-458": {
           "total_clientes": 1,
           "clientes_ativos_mes": 0,
           "cobertura_pct": 0.0,
-          "faturamento_ytd": 487.1,
-          "media_mensal": 162.37,
-          "por_mes": {
-            "2026-01": 135.18,
-            "2026-02": 171.86,
-            "2026-05": 180.06
-          },
+          "faturamento_ytd": 0.0,
+          "media_mensal": 0.0,
+          "por_mes": {},
           "top_cidades": [
             {
-              "cidade": "SERRA",
-              "clientes": 1
-            }
-          ]
-        },
-        "ES-442": {
-          "total_clientes": 1,
-          "clientes_ativos_mes": 0,
-          "cobertura_pct": 0.0,
-          "faturamento_ytd": 485.28,
-          "media_mensal": 485.28,
-          "por_mes": {
-            "2026-04": 485.28
-          },
-          "top_cidades": [
-            {
-              "cidade": "LINHARES",
+              "cidade": "CARIACICA",
               "clientes": 1
             }
           ]
@@ -13749,40 +14352,44 @@ const RAIOX_CLIENTES_DATA = {
           ]
         },
         "RJ-156": {
-          "total_clientes": 90,
-          "clientes_ativos_mes": 11,
-          "cobertura_pct": 12.2,
-          "faturamento_ytd": 236830.18,
-          "media_mensal": 33832.88,
+          "total_clientes": 87,
+          "clientes_ativos_mes": 14,
+          "cobertura_pct": 16.1,
+          "faturamento_ytd": 229142.74,
+          "media_mensal": 32734.68,
           "por_mes": {
-            "2026-01": 36260.97,
-            "2026-02": 43464.77,
-            "2026-03": 36668.26,
-            "2026-04": 32791.74,
-            "2026-05": 33745.74,
-            "2026-06": 46403.53,
-            "2026-07": 7495.17
+            "2026-01": 34914.37,
+            "2026-02": 41472.57,
+            "2026-03": 33278.08,
+            "2026-04": 31192.24,
+            "2026-05": 32584.84,
+            "2026-06": 46110.33,
+            "2026-07": 9590.32
           },
           "top_cidades": [
             {
               "cidade": "RIO DE JANEIRO",
-              "clientes": 70
+              "clientes": 67
             },
             {
               "cidade": "NITEROI",
-              "clientes": 9
+              "clientes": 8
             },
             {
               "cidade": "ARARUAMA",
               "clientes": 4
             },
             {
+              "cidade": "SAQUAREMA",
+              "clientes": 2
+            },
+            {
               "cidade": "DUQUE DE CAXIAS",
               "clientes": 2
             },
             {
-              "cidade": "SAQUAREMA",
-              "clientes": 2
+              "cidade": "PIRAI",
+              "clientes": 1
             },
             {
               "cidade": "ARMACAO DOS BUZ",
@@ -13799,23 +14406,23 @@ const RAIOX_CLIENTES_DATA = {
           ]
         },
         "RJ-412": {
-          "total_clientes": 2,
-          "clientes_ativos_mes": 1,
-          "cobertura_pct": 50.0,
-          "faturamento_ytd": 4928.68,
-          "media_mensal": 821.45,
+          "total_clientes": 3,
+          "clientes_ativos_mes": 2,
+          "cobertura_pct": 66.7,
+          "faturamento_ytd": 7686.2,
+          "media_mensal": 1281.03,
           "por_mes": {
-            "2026-01": 1226.26,
-            "2026-02": 1706.96,
-            "2026-03": 851.17,
-            "2026-04": 311.8,
+            "2026-01": 2774.98,
+            "2026-02": 1921.96,
+            "2026-03": 1284.77,
+            "2026-04": 523.5,
             "2026-06": 597.0,
-            "2026-07": 235.5
+            "2026-07": 584.0
           },
           "top_cidades": [
             {
               "cidade": "RIO DE JANEIRO",
-              "clientes": 1
+              "clientes": 2
             },
             {
               "cidade": "SEROPEDICA",
@@ -13827,12 +14434,12 @@ const RAIOX_CLIENTES_DATA = {
           "total_clientes": 1,
           "clientes_ativos_mes": 1,
           "cobertura_pct": 100.0,
-          "faturamento_ytd": 4839.18,
-          "media_mensal": 1613.06,
+          "faturamento_ytd": 6449.96,
+          "media_mensal": 2149.99,
           "por_mes": {
             "2026-01": 165.3,
             "2026-06": 4123.4,
-            "2026-07": 550.48
+            "2026-07": 2161.26
           },
           "top_cidades": [
             {
@@ -13843,14 +14450,15 @@ const RAIOX_CLIENTES_DATA = {
         },
         "RJ-439": {
           "total_clientes": 1,
-          "clientes_ativos_mes": 0,
-          "cobertura_pct": 0.0,
-          "faturamento_ytd": 6107.36,
-          "media_mensal": 2035.79,
+          "clientes_ativos_mes": 1,
+          "cobertura_pct": 100.0,
+          "faturamento_ytd": 6733.76,
+          "media_mensal": 1683.44,
           "por_mes": {
             "2026-02": 2313.38,
             "2026-03": 1556.58,
-            "2026-04": 2237.4
+            "2026-04": 2237.4,
+            "2026-07": 626.4
           },
           "top_cidades": [
             {
@@ -13861,14 +14469,15 @@ const RAIOX_CLIENTES_DATA = {
         },
         "SP-399": {
           "total_clientes": 28,
-          "clientes_ativos_mes": 0,
-          "cobertura_pct": 0.0,
-          "faturamento_ytd": 1668.61,
-          "media_mensal": 556.2,
+          "clientes_ativos_mes": 1,
+          "cobertura_pct": 3.6,
+          "faturamento_ytd": 1802.41,
+          "media_mensal": 450.6,
           "por_mes": {
             "2026-02": 312.0,
             "2026-05": 1035.67,
-            "2026-06": 320.94
+            "2026-06": 320.94,
+            "2026-07": 133.8
           },
           "top_cidades": [
             {
@@ -13907,7 +14516,7 @@ const RAIOX_CLIENTES_DATA = {
             }
           ]
         },
-        "SP-468": {
+        "SP-469": {
           "total_clientes": 2,
           "clientes_ativos_mes": 0,
           "cobertura_pct": 0.0,
@@ -13916,8 +14525,26 @@ const RAIOX_CLIENTES_DATA = {
           "por_mes": {},
           "top_cidades": [
             {
-              "cidade": "SAO PAULO",
-              "clientes": 2
+              "cidade": "AMPARO",
+              "clientes": 1
+            },
+            {
+              "cidade": "INDAIATUBA",
+              "clientes": 1
+            }
+          ]
+        },
+        "SP-471": {
+          "total_clientes": 1,
+          "clientes_ativos_mes": 0,
+          "cobertura_pct": 0.0,
+          "faturamento_ytd": 0.0,
+          "media_mensal": 0.0,
+          "por_mes": {},
+          "top_cidades": [
+            {
+              "cidade": "SANTA ISABEL",
+              "clientes": 1
             }
           ]
         },
@@ -13937,7 +14564,7 @@ const RAIOX_CLIENTES_DATA = {
             }
           ]
         },
-        "SP-498": {
+        "SP-487": {
           "total_clientes": 1,
           "clientes_ativos_mes": 0,
           "cobertura_pct": 0.0,
@@ -13946,21 +14573,36 @@ const RAIOX_CLIENTES_DATA = {
           "por_mes": {},
           "top_cidades": [
             {
-              "cidade": "IBITINGA",
+              "cidade": "VIRADOURO",
+              "clientes": 1
+            }
+          ]
+        },
+        "SP-490": {
+          "total_clientes": 1,
+          "clientes_ativos_mes": 0,
+          "cobertura_pct": 0.0,
+          "faturamento_ytd": 0.0,
+          "media_mensal": 0.0,
+          "por_mes": {},
+          "top_cidades": [
+            {
+              "cidade": "BRAGANCA PAULISTA",
               "clientes": 1
             }
           ]
         },
         "SP-512": {
           "total_clientes": 1,
-          "clientes_ativos_mes": 0,
-          "cobertura_pct": 0.0,
-          "faturamento_ytd": 1668.61,
-          "media_mensal": 556.2,
+          "clientes_ativos_mes": 1,
+          "cobertura_pct": 100.0,
+          "faturamento_ytd": 1802.41,
+          "media_mensal": 450.6,
           "por_mes": {
             "2026-02": 312.0,
             "2026-05": 1035.67,
-            "2026-06": 320.94
+            "2026-06": 320.94,
+            "2026-07": 133.8
           },
           "top_cidades": [
             {
@@ -13974,27 +14616,23 @@ const RAIOX_CLIENTES_DATA = {
     {
       "ramo": "HOTELARIA",
       "total_clientes": 21,
-      "clientes_ativos_mes": 7,
-      "cobertura_pct": 33.3,
-      "faturamento_ytd": 210648.2,
-      "media_mensal": 30092.6,
+      "clientes_ativos_mes": 11,
+      "cobertura_pct": 52.4,
+      "faturamento_ytd": 211103.8,
+      "media_mensal": 30157.69,
       "por_mes": {
-        "2026-01": 34085.72,
-        "2026-02": 37404.24,
-        "2026-03": 30819.99,
-        "2026-04": 31678.72,
-        "2026-05": 42614.33,
+        "2026-01": 31420.76,
+        "2026-02": 35610.24,
+        "2026-03": 27635.67,
+        "2026-04": 28718.08,
+        "2026-05": 39968.69,
         "2026-06": 25970.68,
-        "2026-07": 8074.52
+        "2026-07": 21779.68
       },
       "top_cidades": [
         {
           "cidade": "ARMACAO DOS BUZ",
           "clientes": 5
-        },
-        {
-          "cidade": "SERRA",
-          "clientes": 4
         },
         {
           "cidade": "RIO DE JANEIRO",
@@ -14005,11 +14643,11 @@ const RAIOX_CLIENTES_DATA = {
           "clientes": 2
         },
         {
-          "cidade": "ANGRA DOS REIS",
-          "clientes": 1
+          "cidade": "SERRA",
+          "clientes": 2
         },
         {
-          "cidade": "CACHOEIRO DE IT",
+          "cidade": "ANGRA DOS REIS",
           "clientes": 1
         },
         {
@@ -14017,7 +14655,7 @@ const RAIOX_CLIENTES_DATA = {
           "clientes": 1
         },
         {
-          "cidade": "GUARARAPES",
+          "cidade": "CACHOEIRO DE IT",
           "clientes": 1
         },
         {
@@ -14025,7 +14663,11 @@ const RAIOX_CLIENTES_DATA = {
           "clientes": 1
         },
         {
-          "cidade": "RIO DAS OSTRAS",
+          "cidade": "GUARARAPES",
+          "clientes": 1
+        },
+        {
+          "cidade": "MONTE MOR",
           "clientes": 1
         }
       ],
@@ -14048,34 +14690,36 @@ const RAIOX_CLIENTES_DATA = {
           ]
         },
         "ES-336": {
-          "total_clientes": 4,
-          "clientes_ativos_mes": 0,
-          "cobertura_pct": 0.0,
-          "faturamento_ytd": 8047.92,
-          "media_mensal": 1609.58,
+          "total_clientes": 2,
+          "clientes_ativos_mes": 2,
+          "cobertura_pct": 100.0,
+          "faturamento_ytd": 5107.68,
+          "media_mensal": 851.28,
           "por_mes": {
-            "2026-01": 1222.32,
+            "2026-01": 179.76,
             "2026-02": 179.76,
-            "2026-03": 1682.64,
-            "2026-04": 2702.76,
-            "2026-05": 2260.44
+            "2026-03": 1318.32,
+            "2026-04": 1897.32,
+            "2026-05": 1474.2,
+            "2026-07": 58.32
           },
           "top_cidades": [
             {
               "cidade": "SERRA",
-              "clientes": 4
+              "clientes": 2
             }
           ]
         },
         "ES-370": {
           "total_clientes": 1,
-          "clientes_ativos_mes": 0,
-          "cobertura_pct": 0.0,
-          "faturamento_ytd": 1168.42,
-          "media_mensal": 584.21,
+          "clientes_ativos_mes": 1,
+          "cobertura_pct": 100.0,
+          "faturamento_ytd": 1197.58,
+          "media_mensal": 399.19,
           "por_mes": {
             "2026-01": 794.98,
-            "2026-03": 373.44
+            "2026-03": 373.44,
+            "2026-07": 29.16
           },
           "top_cidades": [
             {
@@ -14106,8 +14750,8 @@ const RAIOX_CLIENTES_DATA = {
           "total_clientes": 1,
           "clientes_ativos_mes": 1,
           "cobertura_pct": 100.0,
-          "faturamento_ytd": 84119.94,
-          "media_mensal": 12017.13,
+          "faturamento_ytd": 93912.94,
+          "media_mensal": 13416.13,
           "por_mes": {
             "2026-01": 12343.74,
             "2026-02": 14218.8,
@@ -14115,7 +14759,7 @@ const RAIOX_CLIENTES_DATA = {
             "2026-04": 12987.1,
             "2026-05": 17513.64,
             "2026-06": 18559.46,
-            "2026-07": 3006.4
+            "2026-07": 12799.4
           },
           "top_cidades": [
             {
@@ -14125,49 +14769,53 @@ const RAIOX_CLIENTES_DATA = {
           ]
         },
         "RJ-155": {
-          "total_clientes": 5,
+          "total_clientes": 6,
           "clientes_ativos_mes": 5,
-          "cobertura_pct": 100.0,
-          "faturamento_ytd": 59605.2,
-          "media_mensal": 8515.03,
+          "cobertura_pct": 83.3,
+          "faturamento_ytd": 58826.2,
+          "media_mensal": 8403.74,
           "por_mes": {
-            "2026-01": 17111.0,
-            "2026-02": 8758.6,
-            "2026-03": 11682.6,
-            "2026-04": 6017.7,
-            "2026-05": 8345.7,
+            "2026-01": 15488.6,
+            "2026-02": 6964.6,
+            "2026-03": 8862.6,
+            "2026-04": 7732.5,
+            "2026-05": 10038.9,
             "2026-06": 2966.6,
-            "2026-07": 4723.0
+            "2026-07": 6772.4
           },
           "top_cidades": [
             {
               "cidade": "ARMACAO DOS BUZ",
               "clientes": 5
+            },
+            {
+              "cidade": "ARRAIAL DO CABO",
+              "clientes": 1
             }
           ]
         },
         "RJ-159": {
-          "total_clientes": 4,
+          "total_clientes": 3,
           "clientes_ativos_mes": 1,
-          "cobertura_pct": 25.0,
-          "faturamento_ytd": 20032.77,
-          "media_mensal": 2861.82,
+          "cobertura_pct": 33.3,
+          "faturamento_ytd": 13594.65,
+          "media_mensal": 1942.09,
           "por_mes": {
             "2026-01": 1859.28,
             "2026-02": 3343.88,
             "2026-03": 3226.73,
-            "2026-04": 5728.06,
-            "2026-05": 4775.38,
+            "2026-04": 1858.06,
+            "2026-05": 1222.78,
             "2026-06": 754.32,
-            "2026-07": 345.12
+            "2026-07": 1329.6
           },
           "top_cidades": [
             {
               "cidade": "ARRAIAL DO CABO",
-              "clientes": 2
+              "clientes": 1
             },
             {
-              "cidade": "RIO DAS OSTRAS",
+              "cidade": "MACAE",
               "clientes": 1
             },
             {
@@ -14178,16 +14826,17 @@ const RAIOX_CLIENTES_DATA = {
         },
         "RJ-439": {
           "total_clientes": 1,
-          "clientes_ativos_mes": 0,
-          "cobertura_pct": 0.0,
-          "faturamento_ytd": 18167.97,
-          "media_mensal": 3633.59,
+          "clientes_ativos_mes": 1,
+          "cobertura_pct": 100.0,
+          "faturamento_ytd": 18958.77,
+          "media_mensal": 3159.79,
           "por_mes": {
             "2026-01": 467.6,
             "2026-02": 10146.6,
             "2026-03": 1145.0,
             "2026-04": 3955.7,
-            "2026-05": 2453.07
+            "2026-05": 2453.07,
+            "2026-07": 790.8
           },
           "top_cidades": [
             {
@@ -14215,6 +14864,20 @@ const RAIOX_CLIENTES_DATA = {
             }
           ]
         },
+        "SP-425": {
+          "total_clientes": 1,
+          "clientes_ativos_mes": 0,
+          "cobertura_pct": 0.0,
+          "faturamento_ytd": 0.0,
+          "media_mensal": 0.0,
+          "por_mes": {},
+          "top_cidades": [
+            {
+              "cidade": "MONTE MOR",
+              "clientes": 1
+            }
+          ]
+        },
         "SP-433": {
           "total_clientes": 1,
           "clientes_ativos_mes": 0,
@@ -14231,33 +14894,43 @@ const RAIOX_CLIENTES_DATA = {
               "clientes": 1
             }
           ]
+        },
+        "SP-510": {
+          "total_clientes": 1,
+          "clientes_ativos_mes": 0,
+          "cobertura_pct": 0.0,
+          "faturamento_ytd": 0.0,
+          "media_mensal": 0.0,
+          "por_mes": {},
+          "top_cidades": [
+            {
+              "cidade": "SOROCABA",
+              "clientes": 1
+            }
+          ]
         }
       }
     },
     {
       "ramo": "POSTO DE GASOLINA",
-      "total_clientes": 87,
-      "clientes_ativos_mes": 13,
-      "cobertura_pct": 14.9,
-      "faturamento_ytd": 200792.29,
-      "media_mensal": 28684.61,
+      "total_clientes": 54,
+      "clientes_ativos_mes": 19,
+      "cobertura_pct": 35.2,
+      "faturamento_ytd": 204105.55,
+      "media_mensal": 29157.94,
       "por_mes": {
-        "2026-01": 32988.73,
-        "2026-02": 34638.93,
-        "2026-03": 31745.97,
-        "2026-04": 28467.2,
-        "2026-05": 32617.45,
-        "2026-06": 31666.51,
-        "2026-07": 8667.49
+        "2026-01": 30346.56,
+        "2026-02": 35640.86,
+        "2026-03": 31865.36,
+        "2026-04": 27189.44,
+        "2026-05": 32246.43,
+        "2026-06": 31959.71,
+        "2026-07": 14857.18
       },
       "top_cidades": [
         {
           "cidade": "RIO DE JANEIRO",
-          "clientes": 36
-        },
-        {
-          "cidade": "SAO PAULO",
-          "clientes": 9
+          "clientes": 38
         },
         {
           "cidade": "NITEROI",
@@ -14265,89 +14938,57 @@ const RAIOX_CLIENTES_DATA = {
         },
         {
           "cidade": "DUQUE DE CAXIAS",
-          "clientes": 4
-        },
-        {
-          "cidade": "EMBU",
           "clientes": 3
-        },
-        {
-          "cidade": "OSASCO",
-          "clientes": 2
         },
         {
           "cidade": "PETROPOLIS",
           "clientes": 2
         },
         {
-          "cidade": "VINHEDO",
-          "clientes": 2
+          "cidade": "AVARE",
+          "clientes": 1
         },
         {
-          "cidade": "SOROCABA",
-          "clientes": 2
+          "cidade": "MARICA",
+          "clientes": 1
         },
         {
-          "cidade": "CACHOEIRO DE IT",
-          "clientes": 2
+          "cidade": "NILOPOLIS",
+          "clientes": 1
+        },
+        {
+          "cidade": "NOVA IGUACU",
+          "clientes": 1
+        },
+        {
+          "cidade": "SANTO ANDRE",
+          "clientes": 1
+        },
+        {
+          "cidade": "SAO JOAO DE MER",
+          "clientes": 1
         }
       ],
       "por_vendedor": {
-        "ES-335": {
-          "total_clientes": 2,
-          "clientes_ativos_mes": 0,
-          "cobertura_pct": 0.0,
-          "faturamento_ytd": 1260.82,
-          "media_mensal": 252.16,
-          "por_mes": {
-            "2026-01": 272.32,
-            "2026-02": 322.15,
-            "2026-03": 132.0,
-            "2026-04": 294.09,
-            "2026-05": 240.26
-          },
-          "top_cidades": [
-            {
-              "cidade": "CACHOEIRO DE IT",
-              "clientes": 2
-            }
-          ]
-        },
-        "RJ-153": {
-          "total_clientes": 1,
-          "clientes_ativos_mes": 0,
-          "cobertura_pct": 0.0,
-          "faturamento_ytd": 161.8,
-          "media_mensal": 161.8,
-          "por_mes": {
-            "2026-04": 161.8
-          },
-          "top_cidades": [
-            {
-              "cidade": "DUQUE DE CAXIAS",
-              "clientes": 1
-            }
-          ]
-        },
         "RJ-156": {
-          "total_clientes": 35,
-          "clientes_ativos_mes": 10,
-          "cobertura_pct": 28.6,
-          "faturamento_ytd": 169217.92,
-          "media_mensal": 24173.99,
+          "total_clientes": 37,
+          "clientes_ativos_mes": 12,
+          "cobertura_pct": 32.4,
+          "faturamento_ytd": 177255.21,
+          "media_mensal": 25322.17,
           "por_mes": {
-            "2026-01": 25018.72,
-            "2026-02": 30314.48,
-            "2026-03": 26885.0,
-            "2026-04": 22944.21,
-            "2026-05": 28890.09,
-            "2026-06": 27814.31,
-            "2026-07": 7351.1
+            "2026-01": 25325.91,
+            "2026-02": 32328.26,
+            "2026-03": 27845.8,
+            "2026-04": 22523.61,
+            "2026-05": 29148.49,
+            "2026-06": 28107.51,
+            "2026-07": 11975.62
           },
           "top_cidades": [
             {
               "cidade": "RIO DE JANEIRO",
-              "clientes": 26
+              "clientes": 29
             },
             {
               "cidade": "DUQUE DE CAXIAS",
@@ -14356,10 +14997,6 @@ const RAIOX_CLIENTES_DATA = {
             {
               "cidade": "NITEROI",
               "clientes": 3
-            },
-            {
-              "cidade": "ITABORAI",
-              "clientes": 1
             },
             {
               "cidade": "MARICA",
@@ -14386,28 +15023,32 @@ const RAIOX_CLIENTES_DATA = {
           ]
         },
         "RJ-412": {
-          "total_clientes": 14,
-          "clientes_ativos_mes": 2,
-          "cobertura_pct": 14.3,
-          "faturamento_ytd": 33013.85,
-          "media_mensal": 4716.26,
+          "total_clientes": 12,
+          "clientes_ativos_mes": 4,
+          "cobertura_pct": 33.3,
+          "faturamento_ytd": 28796.34,
+          "media_mensal": 4113.76,
           "por_mes": {
-            "2026-01": 8269.29,
-            "2026-02": 5682.9,
-            "2026-03": 4728.97,
-            "2026-04": 5067.1,
-            "2026-05": 4145.5,
+            "2026-01": 5592.25,
+            "2026-02": 4993.2,
+            "2026-03": 4019.56,
+            "2026-04": 4665.83,
+            "2026-05": 3756.34,
             "2026-06": 4282.5,
-            "2026-07": 837.59
+            "2026-07": 1486.66
           },
           "top_cidades": [
             {
               "cidade": "RIO DE JANEIRO",
-              "clientes": 7
+              "clientes": 6
             },
             {
               "cidade": "PETROPOLIS",
               "clientes": 2
+            },
+            {
+              "cidade": "NITEROI",
+              "clientes": 1
             },
             {
               "cidade": "NILOPOLIS",
@@ -14418,23 +15059,15 @@ const RAIOX_CLIENTES_DATA = {
               "clientes": 1
             },
             {
-              "cidade": "NITEROI",
-              "clientes": 1
-            },
-            {
               "cidade": "SAO JOAO DE MER",
-              "clientes": 1
-            },
-            {
-              "cidade": "SAQUAREMA",
               "clientes": 1
             }
           ]
         },
         "SP-232": {
-          "total_clientes": 2,
+          "total_clientes": 1,
           "clientes_ativos_mes": 1,
-          "cobertura_pct": 50.0,
+          "cobertura_pct": 100.0,
           "faturamento_ytd": 478.8,
           "media_mensal": 478.8,
           "por_mes": {
@@ -14443,10 +15076,6 @@ const RAIOX_CLIENTES_DATA = {
           "top_cidades": [
             {
               "cidade": "SANTO ANDRE",
-              "clientes": 1
-            },
-            {
-              "cidade": "SAO PAULO",
               "clientes": 1
             }
           ]
@@ -14465,28 +15094,15 @@ const RAIOX_CLIENTES_DATA = {
             }
           ]
         },
-        "SP-468": {
-          "total_clientes": 2,
-          "clientes_ativos_mes": 0,
-          "cobertura_pct": 0.0,
-          "faturamento_ytd": 0.0,
-          "media_mensal": 0.0,
-          "por_mes": {},
-          "top_cidades": [
-            {
-              "cidade": "SAO PAULO",
-              "clientes": 2
-            }
-          ]
-        },
         "SP-477": {
           "total_clientes": 1,
-          "clientes_ativos_mes": 0,
-          "cobertura_pct": 0.0,
-          "faturamento_ytd": 778.8,
-          "media_mensal": 778.8,
+          "clientes_ativos_mes": 1,
+          "cobertura_pct": 100.0,
+          "faturamento_ytd": 1389.6,
+          "media_mensal": 694.8,
           "por_mes": {
-            "2026-06": 778.8
+            "2026-06": 778.8,
+            "2026-07": 610.8
           },
           "top_cidades": [
             {
@@ -14495,52 +15111,18 @@ const RAIOX_CLIENTES_DATA = {
             }
           ]
         },
-        "SP-495": {
-          "total_clientes": 28,
-          "clientes_ativos_mes": 0,
-          "cobertura_pct": 0.0,
-          "faturamento_ytd": 0.0,
-          "media_mensal": 0.0,
-          "por_mes": {},
+        "SP-512": {
+          "total_clientes": 1,
+          "clientes_ativos_mes": 1,
+          "cobertura_pct": 100.0,
+          "faturamento_ytd": 305.3,
+          "media_mensal": 305.3,
+          "por_mes": {
+            "2026-07": 305.3
+          },
           "top_cidades": [
             {
               "cidade": "SAO PAULO",
-              "clientes": 6
-            },
-            {
-              "cidade": "EMBU",
-              "clientes": 3
-            },
-            {
-              "cidade": "COTIA",
-              "clientes": 2
-            },
-            {
-              "cidade": "CAMPINAS",
-              "clientes": 2
-            },
-            {
-              "cidade": "VINHEDO",
-              "clientes": 2
-            },
-            {
-              "cidade": "SOROCABA",
-              "clientes": 2
-            },
-            {
-              "cidade": "OSASCO",
-              "clientes": 2
-            },
-            {
-              "cidade": "AMPARO",
-              "clientes": 1
-            },
-            {
-              "cidade": "ITAPECERICA DA SERRA",
-              "clientes": 1
-            },
-            {
-              "cidade": "IBIUNA",
               "clientes": 1
             }
           ]
@@ -14549,27 +15131,27 @@ const RAIOX_CLIENTES_DATA = {
     },
     {
       "ramo": "DELIVERY",
-      "total_clientes": 12,
+      "total_clientes": 11,
       "clientes_ativos_mes": 6,
-      "cobertura_pct": 50.0,
-      "faturamento_ytd": 194064.36,
-      "media_mensal": 27723.48,
+      "cobertura_pct": 54.5,
+      "faturamento_ytd": 190842.72,
+      "media_mensal": 27263.25,
       "por_mes": {
         "2026-01": 72953.83,
         "2026-02": 8860.47,
-        "2026-03": 20159.02,
-        "2026-04": 29135.18,
-        "2026-05": 20074.03,
+        "2026-03": 17530.62,
+        "2026-04": 26046.88,
+        "2026-05": 19909.13,
         "2026-06": 26910.38,
-        "2026-07": 15971.46
+        "2026-07": 18631.42
       },
       "top_cidades": [
         {
           "cidade": "RIO DE JANEIRO",
-          "clientes": 7
+          "clientes": 6
         },
         {
-          "cidade": "ITABORAI",
+          "cidade": "HOLAMBRA",
           "clientes": 1
         },
         {
@@ -14594,8 +15176,8 @@ const RAIOX_CLIENTES_DATA = {
           "total_clientes": 1,
           "clientes_ativos_mes": 1,
           "cobertura_pct": 100.0,
-          "faturamento_ytd": 1949.79,
-          "media_mensal": 278.54,
+          "faturamento_ytd": 2244.49,
+          "media_mensal": 320.64,
           "por_mes": {
             "2026-01": 149.9,
             "2026-02": 182.5,
@@ -14603,7 +15185,7 @@ const RAIOX_CLIENTES_DATA = {
             "2026-04": 172.9,
             "2026-05": 442.3,
             "2026-06": 260.79,
-            "2026-07": 521.7
+            "2026-07": 816.4
           },
           "top_cidades": [
             {
@@ -14616,8 +15198,8 @@ const RAIOX_CLIENTES_DATA = {
           "total_clientes": 1,
           "clientes_ativos_mes": 1,
           "cobertura_pct": 100.0,
-          "faturamento_ytd": 29736.64,
-          "media_mensal": 4248.09,
+          "faturamento_ytd": 32101.9,
+          "media_mensal": 4585.99,
           "por_mes": {
             "2026-01": 8655.6,
             "2026-02": 4354.12,
@@ -14625,7 +15207,7 @@ const RAIOX_CLIENTES_DATA = {
             "2026-04": 4808.3,
             "2026-05": 1945.96,
             "2026-06": 529.5,
-            "2026-07": 5002.74
+            "2026-07": 7368.0
           },
           "top_cidades": [
             {
@@ -14666,22 +15248,6 @@ const RAIOX_CLIENTES_DATA = {
           "top_cidades": [
             {
               "cidade": "MACAE",
-              "clientes": 1
-            }
-          ]
-        },
-        "RJ-161": {
-          "total_clientes": 1,
-          "clientes_ativos_mes": 0,
-          "cobertura_pct": 0.0,
-          "faturamento_ytd": 164.9,
-          "media_mensal": 164.9,
-          "por_mes": {
-            "2026-05": 164.9
-          },
-          "top_cidades": [
-            {
-              "cidade": "ITABORAI",
               "clientes": 1
             }
           ]
@@ -14732,19 +15298,16 @@ const RAIOX_CLIENTES_DATA = {
             }
           ]
         },
-        "RJ-471": {
+        "SP-425": {
           "total_clientes": 1,
           "clientes_ativos_mes": 0,
           "cobertura_pct": 0.0,
-          "faturamento_ytd": 5716.7,
-          "media_mensal": 2858.35,
-          "por_mes": {
-            "2026-03": 2628.4,
-            "2026-04": 3088.3
-          },
+          "faturamento_ytd": 0.0,
+          "media_mensal": 0.0,
+          "por_mes": {},
           "top_cidades": [
             {
-              "cidade": "RIO DE JANEIRO",
+              "cidade": "HOLAMBRA",
               "clientes": 1
             }
           ]
@@ -14753,31 +15316,31 @@ const RAIOX_CLIENTES_DATA = {
     },
     {
       "ramo": "SERVIÇOS",
-      "total_clientes": 54,
-      "clientes_ativos_mes": 15,
-      "cobertura_pct": 27.8,
-      "faturamento_ytd": 170987.96,
-      "media_mensal": 24426.85,
+      "total_clientes": 57,
+      "clientes_ativos_mes": 31,
+      "cobertura_pct": 54.4,
+      "faturamento_ytd": 189234.63,
+      "media_mensal": 27033.52,
       "por_mes": {
-        "2026-01": 24649.97,
-        "2026-02": 5246.97,
-        "2026-03": 18118.99,
-        "2026-04": 5062.48,
-        "2026-05": 17686.43,
-        "2026-06": 50713.21,
-        "2026-07": 49509.91
+        "2026-01": 26313.26,
+        "2026-02": 5786.73,
+        "2026-03": 20640.85,
+        "2026-04": 6643.5,
+        "2026-05": 21055.74,
+        "2026-06": 49440.29,
+        "2026-07": 59354.27
       },
       "top_cidades": [
         {
           "cidade": "RIO DE JANEIRO",
-          "clientes": 16
+          "clientes": 20
         },
         {
           "cidade": "SAO PAULO",
           "clientes": 4
         },
         {
-          "cidade": "SERRA",
+          "cidade": "CABO FRIO",
           "clientes": 4
         },
         {
@@ -14785,11 +15348,11 @@ const RAIOX_CLIENTES_DATA = {
           "clientes": 3
         },
         {
-          "cidade": "CABO FRIO",
+          "cidade": "SERRA",
           "clientes": 3
         },
         {
-          "cidade": "PRAIA GRANDE",
+          "cidade": "POA",
           "clientes": 2
         },
         {
@@ -14801,8 +15364,8 @@ const RAIOX_CLIENTES_DATA = {
           "clientes": 2
         },
         {
-          "cidade": "POA",
-          "clientes": 2
+          "cidade": "ALFREDO CHAVES",
+          "clientes": 1
         },
         {
           "cidade": "MARICA",
@@ -14828,15 +15391,16 @@ const RAIOX_CLIENTES_DATA = {
         },
         "ES-260": {
           "total_clientes": 1,
-          "clientes_ativos_mes": 0,
-          "cobertura_pct": 0.0,
-          "faturamento_ytd": 5315.19,
-          "media_mensal": 1328.8,
+          "clientes_ativos_mes": 1,
+          "cobertura_pct": 100.0,
+          "faturamento_ytd": 5344.35,
+          "media_mensal": 1068.87,
           "por_mes": {
             "2026-01": 632.64,
             "2026-02": 1439.89,
             "2026-03": 1550.84,
-            "2026-05": 1691.82
+            "2026-05": 1691.82,
+            "2026-07": 29.16
           },
           "top_cidades": [
             {
@@ -14847,12 +15411,13 @@ const RAIOX_CLIENTES_DATA = {
         },
         "ES-335": {
           "total_clientes": 1,
-          "clientes_ativos_mes": 0,
-          "cobertura_pct": 0.0,
-          "faturamento_ytd": 167.76,
-          "media_mensal": 167.76,
+          "clientes_ativos_mes": 1,
+          "cobertura_pct": 100.0,
+          "faturamento_ytd": 196.92,
+          "media_mensal": 98.46,
           "por_mes": {
-            "2026-03": 167.76
+            "2026-03": 167.76,
+            "2026-07": 29.16
           },
           "top_cidades": [
             {
@@ -14862,37 +15427,22 @@ const RAIOX_CLIENTES_DATA = {
           ]
         },
         "ES-336": {
-          "total_clientes": 3,
-          "clientes_ativos_mes": 0,
-          "cobertura_pct": 0.0,
-          "faturamento_ytd": 5152.23,
-          "media_mensal": 1288.06,
+          "total_clientes": 2,
+          "clientes_ativos_mes": 2,
+          "cobertura_pct": 100.0,
+          "faturamento_ytd": 4859.92,
+          "media_mensal": 971.98,
           "por_mes": {
             "2026-01": 1830.22,
             "2026-02": 617.46,
-            "2026-03": 1301.89,
-            "2026-05": 1402.66
+            "2026-03": 1213.85,
+            "2026-05": 1140.07,
+            "2026-07": 58.32
           },
           "top_cidades": [
             {
               "cidade": "SERRA",
-              "clientes": 3
-            }
-          ]
-        },
-        "ES-342": {
-          "total_clientes": 1,
-          "clientes_ativos_mes": 0,
-          "cobertura_pct": 0.0,
-          "faturamento_ytd": 385.92,
-          "media_mensal": 385.92,
-          "por_mes": {
-            "2026-04": 385.92
-          },
-          "top_cidades": [
-            {
-              "cidade": "SAO MATEUS",
-              "clientes": 1
+              "clientes": 2
             }
           ]
         },
@@ -14908,6 +15458,31 @@ const RAIOX_CLIENTES_DATA = {
           "top_cidades": [
             {
               "cidade": "ALFREDO CHAVES",
+              "clientes": 1
+            }
+          ]
+        },
+        "ES-458": {
+          "total_clientes": 2,
+          "clientes_ativos_mes": 1,
+          "cobertura_pct": 50.0,
+          "faturamento_ytd": 7667.69,
+          "media_mensal": 1277.95,
+          "por_mes": {
+            "2026-01": 1663.29,
+            "2026-03": 2065.2,
+            "2026-04": 851.76,
+            "2026-05": 639.2,
+            "2026-06": 2419.08,
+            "2026-07": 29.16
+          },
+          "top_cidades": [
+            {
+              "cidade": "SANTA MARIA DE",
+              "clientes": 1
+            },
+            {
+              "cidade": "VILA VELHA",
               "clientes": 1
             }
           ]
@@ -14950,13 +15525,14 @@ const RAIOX_CLIENTES_DATA = {
         },
         "RJ-153": {
           "total_clientes": 2,
-          "clientes_ativos_mes": 0,
-          "cobertura_pct": 0.0,
-          "faturamento_ytd": 1792.8,
-          "media_mensal": 896.4,
+          "clientes_ativos_mes": 1,
+          "cobertura_pct": 50.0,
+          "faturamento_ytd": 2067.68,
+          "media_mensal": 689.23,
           "por_mes": {
             "2026-05": 1518.0,
-            "2026-06": 274.8
+            "2026-06": 274.8,
+            "2026-07": 274.88
           },
           "top_cidades": [
             {
@@ -14966,49 +15542,50 @@ const RAIOX_CLIENTES_DATA = {
           ]
         },
         "RJ-155": {
-          "total_clientes": 2,
+          "total_clientes": 3,
           "clientes_ativos_mes": 2,
-          "cobertura_pct": 100.0,
-          "faturamento_ytd": 10097.84,
-          "media_mensal": 2524.46,
+          "cobertura_pct": 66.7,
+          "faturamento_ytd": 10417.36,
+          "media_mensal": 2604.34,
           "por_mes": {
             "2026-01": 7208.3,
             "2026-03": 867.6,
             "2026-06": 621.56,
-            "2026-07": 1400.38
+            "2026-07": 1719.9
           },
           "top_cidades": [
             {
-              "cidade": "ARMACAO DOS BUZ",
-              "clientes": 1
+              "cidade": "CABO FRIO",
+              "clientes": 2
             },
             {
-              "cidade": "CABO FRIO",
+              "cidade": "ARMACAO DOS BUZ",
               "clientes": 1
             }
           ]
         },
         "RJ-156": {
-          "total_clientes": 2,
-          "clientes_ativos_mes": 1,
-          "cobertura_pct": 50.0,
-          "faturamento_ytd": 1891.16,
-          "media_mensal": 315.19,
+          "total_clientes": 3,
+          "clientes_ativos_mes": 3,
+          "cobertura_pct": 100.0,
+          "faturamento_ytd": 3479.72,
+          "media_mensal": 497.1,
           "por_mes": {
             "2026-01": 134.7,
+            "2026-02": 539.76,
             "2026-03": 241.4,
             "2026-04": 248.4,
             "2026-05": 437.2,
-            "2026-06": 524.06,
-            "2026-07": 305.4
+            "2026-06": 888.66,
+            "2026-07": 989.6
           },
           "top_cidades": [
             {
-              "cidade": "CABO FRIO",
-              "clientes": 1
+              "cidade": "RIO DE JANEIRO",
+              "clientes": 2
             },
             {
-              "cidade": "RIO DE JANEIRO",
+              "cidade": "CABO FRIO",
               "clientes": 1
             }
           ]
@@ -15036,11 +15613,11 @@ const RAIOX_CLIENTES_DATA = {
           ]
         },
         "RJ-159": {
-          "total_clientes": 5,
-          "clientes_ativos_mes": 1,
-          "cobertura_pct": 20.0,
-          "faturamento_ytd": 8293.98,
-          "media_mensal": 1184.85,
+          "total_clientes": 6,
+          "clientes_ativos_mes": 2,
+          "cobertura_pct": 33.3,
+          "faturamento_ytd": 8811.66,
+          "media_mensal": 1258.81,
           "por_mes": {
             "2026-01": 350.1,
             "2026-02": 1369.04,
@@ -15048,7 +15625,7 @@ const RAIOX_CLIENTES_DATA = {
             "2026-04": 114.8,
             "2026-05": 2232.3,
             "2026-06": 2659.4,
-            "2026-07": 279.3
+            "2026-07": 796.98
           },
           "top_cidades": [
             {
@@ -15061,6 +15638,10 @@ const RAIOX_CLIENTES_DATA = {
             },
             {
               "cidade": "CABO FRIO",
+              "clientes": 1
+            },
+            {
+              "cidade": "MACAE",
               "clientes": 1
             },
             {
@@ -15088,7 +15669,7 @@ const RAIOX_CLIENTES_DATA = {
           ]
         },
         "RJ-378": {
-          "total_clientes": 2,
+          "total_clientes": 1,
           "clientes_ativos_mes": 0,
           "cobertura_pct": 0.0,
           "faturamento_ytd": 498.6,
@@ -15098,10 +15679,6 @@ const RAIOX_CLIENTES_DATA = {
             "2026-05": 254.92
           },
           "top_cidades": [
-            {
-              "cidade": "NITEROI",
-              "clientes": 1
-            },
             {
               "cidade": "RIO DE JANEIRO",
               "clientes": 1
@@ -15128,8 +15705,8 @@ const RAIOX_CLIENTES_DATA = {
           "total_clientes": 3,
           "clientes_ativos_mes": 3,
           "cobertura_pct": 100.0,
-          "faturamento_ytd": 43475.26,
-          "media_mensal": 6210.75,
+          "faturamento_ytd": 46912.06,
+          "media_mensal": 6701.72,
           "por_mes": {
             "2026-01": 12441.11,
             "2026-02": 69.8,
@@ -15137,7 +15714,7 @@ const RAIOX_CLIENTES_DATA = {
             "2026-04": 1301.0,
             "2026-05": 2411.6,
             "2026-06": 5230.16,
-            "2026-07": 11519.46
+            "2026-07": 14956.26
           },
           "top_cidades": [
             {
@@ -15167,46 +15744,67 @@ const RAIOX_CLIENTES_DATA = {
           ]
         },
         "RJ-450": {
-          "total_clientes": 1,
-          "clientes_ativos_mes": 0,
-          "cobertura_pct": 0.0,
-          "faturamento_ytd": 789.4,
-          "media_mensal": 394.7,
+          "total_clientes": 2,
+          "clientes_ativos_mes": 2,
+          "cobertura_pct": 100.0,
+          "faturamento_ytd": 1501.09,
+          "media_mensal": 500.36,
           "por_mes": {
             "2026-05": 448.2,
-            "2026-06": 341.2
+            "2026-06": 341.2,
+            "2026-07": 711.69
           },
           "top_cidades": [
             {
               "cidade": "RIO DE JANEIRO",
-              "clientes": 1
+              "clientes": 2
             }
           ]
         },
-        "SP-317": {
-          "total_clientes": 1,
+        "RJ-471": {
+          "total_clientes": 2,
           "clientes_ativos_mes": 1,
-          "cobertura_pct": 100.0,
-          "faturamento_ytd": 2110.57,
-          "media_mensal": 1055.29,
+          "cobertura_pct": 50.0,
+          "faturamento_ytd": 2667.45,
+          "media_mensal": 889.15,
           "por_mes": {
-            "2026-06": 1899.22,
-            "2026-07": 211.35
+            "2026-03": 544.7,
+            "2026-04": 1115.18,
+            "2026-07": 1007.57
           },
           "top_cidades": [
             {
-              "cidade": "CAMPINAS",
+              "cidade": "RIO DE JANEIRO",
+              "clientes": 2
+            }
+          ]
+        },
+        "SP-312": {
+          "total_clientes": 1,
+          "clientes_ativos_mes": 0,
+          "cobertura_pct": 0.0,
+          "faturamento_ytd": 1005.6,
+          "media_mensal": 502.8,
+          "por_mes": {
+            "2026-05": 502.8,
+            "2026-06": 502.8
+          },
+          "top_cidades": [
+            {
+              "cidade": "SAO PAULO",
               "clientes": 1
             }
           ]
         },
         "SP-371": {
           "total_clientes": 2,
-          "clientes_ativos_mes": 0,
-          "cobertura_pct": 0.0,
-          "faturamento_ytd": 0.0,
-          "media_mensal": 0.0,
-          "por_mes": {},
+          "clientes_ativos_mes": 2,
+          "cobertura_pct": 100.0,
+          "faturamento_ytd": 487.18,
+          "media_mensal": 487.18,
+          "por_mes": {
+            "2026-07": 487.18
+          },
           "top_cidades": [
             {
               "cidade": "SAO PAULO",
@@ -15214,18 +15812,19 @@ const RAIOX_CLIENTES_DATA = {
             }
           ]
         },
-        "SP-391": {
+        "SP-399": {
           "total_clientes": 1,
-          "clientes_ativos_mes": 0,
-          "cobertura_pct": 0.0,
-          "faturamento_ytd": 4559.4,
-          "media_mensal": 4559.4,
+          "clientes_ativos_mes": 1,
+          "cobertura_pct": 100.0,
+          "faturamento_ytd": 3541.71,
+          "media_mensal": 1770.85,
           "por_mes": {
-            "2026-06": 4559.4
+            "2026-06": 1899.22,
+            "2026-07": 1642.49
           },
           "top_cidades": [
             {
-              "cidade": "SAO PAULO",
+              "cidade": "CAMPINAS",
               "clientes": 1
             }
           ]
@@ -15240,22 +15839,6 @@ const RAIOX_CLIENTES_DATA = {
           "top_cidades": [
             {
               "cidade": "PIRACICABA",
-              "clientes": 1
-            }
-          ]
-        },
-        "SP-426": {
-          "total_clientes": 1,
-          "clientes_ativos_mes": 0,
-          "cobertura_pct": 0.0,
-          "faturamento_ytd": 3108.0,
-          "media_mensal": 3108.0,
-          "por_mes": {
-            "2026-05": 3108.0
-          },
-          "top_cidades": [
-            {
-              "cidade": "FRANCA",
               "clientes": 1
             }
           ]
@@ -15309,34 +15892,23 @@ const RAIOX_CLIENTES_DATA = {
           ]
         },
         "SP-469": {
-          "total_clientes": 1,
-          "clientes_ativos_mes": 0,
-          "cobertura_pct": 0.0,
-          "faturamento_ytd": 453.3,
-          "media_mensal": 453.3,
-          "por_mes": {
-            "2026-06": 453.3
-          },
-          "top_cidades": [
-            {
-              "cidade": "CAMPINAS",
-              "clientes": 1
-            }
-          ]
-        },
-        "SP-470": {
-          "total_clientes": 1,
-          "clientes_ativos_mes": 0,
-          "cobertura_pct": 0.0,
-          "faturamento_ytd": 966.5,
-          "media_mensal": 483.25,
+          "total_clientes": 3,
+          "clientes_ativos_mes": 1,
+          "cobertura_pct": 33.3,
+          "faturamento_ytd": 1696.5,
+          "media_mensal": 565.5,
           "por_mes": {
             "2026-05": 481.2,
-            "2026-06": 485.3
+            "2026-06": 938.6,
+            "2026-07": 276.7
           },
           "top_cidades": [
             {
               "cidade": "CAMPINAS",
+              "clientes": 2
+            },
+            {
+              "cidade": "VINHEDO",
               "clientes": 1
             }
           ]
@@ -15367,11 +15939,11 @@ const RAIOX_CLIENTES_DATA = {
           "total_clientes": 2,
           "clientes_ativos_mes": 2,
           "cobertura_pct": 100.0,
-          "faturamento_ytd": 32838.27,
-          "media_mensal": 16419.14,
+          "faturamento_ytd": 34269.41,
+          "media_mensal": 17134.7,
           "por_mes": {
             "2026-06": 1899.22,
-            "2026-07": 30939.05
+            "2026-07": 32370.19
           },
           "top_cidades": [
             {
@@ -15385,9 +15957,9 @@ const RAIOX_CLIENTES_DATA = {
           ]
         },
         "SP-487": {
-          "total_clientes": 3,
+          "total_clientes": 1,
           "clientes_ativos_mes": 1,
-          "cobertura_pct": 33.3,
+          "cobertura_pct": 100.0,
           "faturamento_ytd": 3771.7,
           "media_mensal": 1885.85,
           "por_mes": {
@@ -15396,14 +15968,6 @@ const RAIOX_CLIENTES_DATA = {
           },
           "top_cidades": [
             {
-              "cidade": "JOSE BONIFACIO",
-              "clientes": 1
-            },
-            {
-              "cidade": "MATAO",
-              "clientes": 1
-            },
-            {
               "cidade": "RIBEIRAO PRETO",
               "clientes": 1
             }
@@ -15411,12 +15975,13 @@ const RAIOX_CLIENTES_DATA = {
         },
         "SP-490": {
           "total_clientes": 1,
-          "clientes_ativos_mes": 0,
-          "cobertura_pct": 0.0,
-          "faturamento_ytd": 603.9,
-          "media_mensal": 603.9,
+          "clientes_ativos_mes": 1,
+          "cobertura_pct": 100.0,
+          "faturamento_ytd": 1155.1,
+          "media_mensal": 577.55,
           "por_mes": {
-            "2026-06": 603.9
+            "2026-06": 603.9,
+            "2026-07": 551.2
           },
           "top_cidades": [
             {
@@ -15440,9 +16005,9 @@ const RAIOX_CLIENTES_DATA = {
           ]
         },
         "SP-502": {
-          "total_clientes": 2,
+          "total_clientes": 1,
           "clientes_ativos_mes": 1,
-          "cobertura_pct": 50.0,
+          "cobertura_pct": 100.0,
           "faturamento_ytd": 536.36,
           "media_mensal": 536.36,
           "por_mes": {
@@ -15451,119 +16016,6 @@ const RAIOX_CLIENTES_DATA = {
           "top_cidades": [
             {
               "cidade": "PRAIA GRANDE",
-              "clientes": 2
-            }
-          ]
-        }
-      }
-    },
-    {
-      "ramo": "CAFÉ/LANCHONETE",
-      "total_clientes": 25,
-      "clientes_ativos_mes": 5,
-      "cobertura_pct": 20.0,
-      "faturamento_ytd": 100430.07,
-      "media_mensal": 14347.15,
-      "por_mes": {
-        "2026-01": 5613.62,
-        "2026-02": 12923.78,
-        "2026-03": 14705.69,
-        "2026-04": 17765.98,
-        "2026-05": 24045.58,
-        "2026-06": 20744.08,
-        "2026-07": 4631.34
-      },
-      "top_cidades": [
-        {
-          "cidade": "BELO HORIZONTE",
-          "clientes": 23
-        },
-        {
-          "cidade": "GOVERNADOR VALADARES",
-          "clientes": 1
-        },
-        {
-          "cidade": "NOVA LIMA",
-          "clientes": 1
-        }
-      ],
-      "por_vendedor": {
-        "MG-327": {
-          "total_clientes": 13,
-          "clientes_ativos_mes": 4,
-          "cobertura_pct": 30.8,
-          "faturamento_ytd": 77321.26,
-          "media_mensal": 11045.89,
-          "por_mes": {
-            "2026-01": 4218.48,
-            "2026-02": 9022.66,
-            "2026-03": 11192.5,
-            "2026-04": 13866.5,
-            "2026-05": 18227.4,
-            "2026-06": 16611.78,
-            "2026-07": 4181.94
-          },
-          "top_cidades": [
-            {
-              "cidade": "BELO HORIZONTE",
-              "clientes": 13
-            }
-          ]
-        },
-        "MG-343": {
-          "total_clientes": 1,
-          "clientes_ativos_mes": 0,
-          "cobertura_pct": 0.0,
-          "faturamento_ytd": 0.0,
-          "media_mensal": 0.0,
-          "por_mes": {},
-          "top_cidades": [
-            {
-              "cidade": "GOVERNADOR VALADARES",
-              "clientes": 1
-            }
-          ]
-        },
-        "MG-344": {
-          "total_clientes": 9,
-          "clientes_ativos_mes": 1,
-          "cobertura_pct": 11.1,
-          "faturamento_ytd": 21513.23,
-          "media_mensal": 3073.32,
-          "por_mes": {
-            "2026-01": 1395.14,
-            "2026-02": 3901.12,
-            "2026-03": 3513.19,
-            "2026-04": 3481.8,
-            "2026-05": 5371.26,
-            "2026-06": 3401.32,
-            "2026-07": 449.4
-          },
-          "top_cidades": [
-            {
-              "cidade": "BELO HORIZONTE",
-              "clientes": 9
-            }
-          ]
-        },
-        "MG-362": {
-          "total_clientes": 2,
-          "clientes_ativos_mes": 0,
-          "cobertura_pct": 0.0,
-          "faturamento_ytd": 1595.58,
-          "media_mensal": 531.86,
-          "por_mes": {
-            "2026-04": 417.68,
-            "2026-05": 446.92,
-            "2026-06": 730.98
-          },
-          "top_cidades": [
-            {
-              "cidade": "BELO HORIZONTE",
-              "clientes": 1
-            },
-            {
-              "cidade": "NOVA LIMA",
               "clientes": 1
             }
           ]
@@ -15572,19 +16024,19 @@ const RAIOX_CLIENTES_DATA = {
     },
     {
       "ramo": "TABACARIA",
-      "total_clientes": 13,
+      "total_clientes": 11,
       "clientes_ativos_mes": 6,
-      "cobertura_pct": 46.2,
-      "faturamento_ytd": 85358.99,
-      "media_mensal": 12194.14,
+      "cobertura_pct": 54.5,
+      "faturamento_ytd": 70560.99,
+      "media_mensal": 10080.14,
       "por_mes": {
         "2026-01": 2307.0,
-        "2026-02": 9684.22,
-        "2026-03": 9236.96,
-        "2026-04": 7362.18,
-        "2026-05": 19783.4,
-        "2026-06": 19793.3,
-        "2026-07": 17191.93
+        "2026-02": 8657.62,
+        "2026-03": 8103.56,
+        "2026-04": 3529.0,
+        "2026-05": 12857.2,
+        "2026-06": 14196.9,
+        "2026-07": 20909.71
       },
       "top_cidades": [
         {
@@ -15608,10 +16060,6 @@ const RAIOX_CLIENTES_DATA = {
           "clientes": 1
         },
         {
-          "cidade": "CONTAGEM",
-          "clientes": 1
-        },
-        {
           "cidade": "BRAGANCA PAULISTA",
           "clientes": 1
         },
@@ -15620,46 +16068,27 @@ const RAIOX_CLIENTES_DATA = {
           "clientes": 1
         },
         {
-          "cidade": "JUQUIA",
+          "cidade": "MOGI DAS CRUZES",
           "clientes": 1
         },
         {
-          "cidade": "MOGI DAS CRUZES",
+          "cidade": "PRESIDENTE EPITACIO",
           "clientes": 1
         }
       ],
       "por_vendedor": {
         "MG-343": {
           "total_clientes": 1,
-          "clientes_ativos_mes": 0,
-          "cobertura_pct": 0.0,
-          "faturamento_ytd": 0.0,
-          "media_mensal": 0.0,
-          "por_mes": {},
-          "top_cidades": [
-            {
-              "cidade": "BELO HORIZONTE",
-              "clientes": 1
-            }
-          ]
-        },
-        "MG-362": {
-          "total_clientes": 1,
           "clientes_ativos_mes": 1,
           "cobertura_pct": 100.0,
-          "faturamento_ytd": 16900.6,
-          "media_mensal": 2816.77,
+          "faturamento_ytd": 30.08,
+          "media_mensal": 30.08,
           "por_mes": {
-            "2026-02": 1026.6,
-            "2026-03": 1133.4,
-            "2026-04": 471.5,
-            "2026-05": 6926.2,
-            "2026-06": 5596.4,
-            "2026-07": 1746.5
+            "2026-07": 30.08
           },
           "top_cidades": [
             {
-              "cidade": "CONTAGEM",
+              "cidade": "BELO HORIZONTE",
               "clientes": 1
             }
           ]
@@ -15696,8 +16125,8 @@ const RAIOX_CLIENTES_DATA = {
           "total_clientes": 2,
           "clientes_ativos_mes": 2,
           "cobertura_pct": 100.0,
-          "faturamento_ytd": 40188.5,
-          "media_mensal": 5741.21,
+          "faturamento_ytd": 42604.7,
+          "media_mensal": 6086.39,
           "por_mes": {
             "2026-01": 2307.0,
             "2026-02": 8657.62,
@@ -15705,7 +16134,7 @@ const RAIOX_CLIENTES_DATA = {
             "2026-04": 3529.0,
             "2026-05": 4537.2,
             "2026-06": 7951.2,
-            "2026-07": 5102.92
+            "2026-07": 7519.12
           },
           "top_cidades": [
             {
@@ -15714,18 +16143,16 @@ const RAIOX_CLIENTES_DATA = {
             }
           ]
         },
-        "SP-426": {
+        "SP-433": {
           "total_clientes": 1,
           "clientes_ativos_mes": 0,
           "cobertura_pct": 0.0,
-          "faturamento_ytd": 3361.68,
-          "media_mensal": 3361.68,
-          "por_mes": {
-            "2026-04": 3361.68
-          },
+          "faturamento_ytd": 0.0,
+          "media_mensal": 0.0,
+          "por_mes": {},
           "top_cidades": [
             {
-              "cidade": "SAO PAULO",
+              "cidade": "PRESIDENTE EPITACIO",
               "clientes": 1
             }
           ]
@@ -15768,10 +16195,10 @@ const RAIOX_CLIENTES_DATA = {
           "total_clientes": 1,
           "clientes_ativos_mes": 1,
           "cobertura_pct": 100.0,
-          "faturamento_ytd": 7656.0,
-          "media_mensal": 7656.0,
+          "faturamento_ytd": 10674.0,
+          "media_mensal": 10674.0,
           "por_mes": {
-            "2026-07": 7656.0
+            "2026-07": 10674.0
           },
           "top_cidades": [
             {
@@ -15796,8 +16223,53 @@ const RAIOX_CLIENTES_DATA = {
               "clientes": 1
             }
           ]
+        }
+      }
+    },
+    {
+      "ramo": "BARDEGA",
+      "total_clientes": 2,
+      "clientes_ativos_mes": 1,
+      "cobertura_pct": 50.0,
+      "faturamento_ytd": 68523.76,
+      "media_mensal": 11420.63,
+      "por_mes": {
+        "2026-01": 15450.28,
+        "2026-03": 10827.92,
+        "2026-04": 3768.72,
+        "2026-05": 13674.5,
+        "2026-06": 9913.58,
+        "2026-07": 14888.76
+      },
+      "top_cidades": [
+        {
+          "cidade": "SAO PAULO",
+          "clientes": 2
+        }
+      ],
+      "por_vendedor": {
+        "SP-433": {
+          "total_clientes": 1,
+          "clientes_ativos_mes": 1,
+          "cobertura_pct": 100.0,
+          "faturamento_ytd": 68523.76,
+          "media_mensal": 11420.63,
+          "por_mes": {
+            "2026-01": 15450.28,
+            "2026-03": 10827.92,
+            "2026-04": 3768.72,
+            "2026-05": 13674.5,
+            "2026-06": 9913.58,
+            "2026-07": 14888.76
+          },
+          "top_cidades": [
+            {
+              "cidade": "SAO PAULO",
+              "clientes": 1
+            }
+          ]
         },
-        "SP-497": {
+        "SP-515": {
           "total_clientes": 1,
           "clientes_ativos_mes": 0,
           "cobertura_pct": 0.0,
@@ -15806,7 +16278,7 @@ const RAIOX_CLIENTES_DATA = {
           "por_mes": {},
           "top_cidades": [
             {
-              "cidade": "JUQUIA",
+              "cidade": "SAO PAULO",
               "clientes": 1
             }
           ]
@@ -15816,10 +16288,10 @@ const RAIOX_CLIENTES_DATA = {
     {
       "ramo": "HOTEL",
       "total_clientes": 6,
-      "clientes_ativos_mes": 3,
-      "cobertura_pct": 50.0,
-      "faturamento_ytd": 62351.52,
-      "media_mensal": 8907.36,
+      "clientes_ativos_mes": 6,
+      "cobertura_pct": 100.0,
+      "faturamento_ytd": 67060.32,
+      "media_mensal": 9580.05,
       "por_mes": {
         "2026-01": 9122.98,
         "2026-02": 8565.9,
@@ -15827,7 +16299,7 @@ const RAIOX_CLIENTES_DATA = {
         "2026-04": 12182.4,
         "2026-05": 5313.12,
         "2026-06": 6871.6,
-        "2026-07": 9754.08
+        "2026-07": 14462.88
       },
       "top_cidades": [
         {
@@ -15846,17 +16318,17 @@ const RAIOX_CLIENTES_DATA = {
       "por_vendedor": {
         "MG-327": {
           "total_clientes": 4,
-          "clientes_ativos_mes": 1,
-          "cobertura_pct": 25.0,
-          "faturamento_ytd": 24476.14,
-          "media_mensal": 4079.36,
+          "clientes_ativos_mes": 4,
+          "cobertura_pct": 100.0,
+          "faturamento_ytd": 29184.94,
+          "media_mensal": 4864.16,
           "por_mes": {
             "2026-02": 2827.2,
             "2026-03": 6003.94,
             "2026-04": 6073.2,
             "2026-05": 2821.92,
             "2026-06": 3203.4,
-            "2026-07": 3546.48
+            "2026-07": 8255.28
           },
           "top_cidades": [
             {
@@ -15910,81 +16382,36 @@ const RAIOX_CLIENTES_DATA = {
       }
     },
     {
-      "ramo": "BARDEGA",
-      "total_clientes": 1,
-      "clientes_ativos_mes": 1,
-      "cobertura_pct": 100.0,
-      "faturamento_ytd": 55165.06,
-      "media_mensal": 9194.18,
-      "por_mes": {
-        "2026-01": 15450.28,
-        "2026-03": 10827.92,
-        "2026-04": 3768.72,
-        "2026-05": 13674.5,
-        "2026-06": 9913.58,
-        "2026-07": 1530.06
-      },
-      "top_cidades": [
-        {
-          "cidade": "SAO PAULO",
-          "clientes": 1
-        }
-      ],
-      "por_vendedor": {
-        "SP-433": {
-          "total_clientes": 1,
-          "clientes_ativos_mes": 1,
-          "cobertura_pct": 100.0,
-          "faturamento_ytd": 55165.06,
-          "media_mensal": 9194.18,
-          "por_mes": {
-            "2026-01": 15450.28,
-            "2026-03": 10827.92,
-            "2026-04": 3768.72,
-            "2026-05": 13674.5,
-            "2026-06": 9913.58,
-            "2026-07": 1530.06
-          },
-          "top_cidades": [
-            {
-              "cidade": "SAO PAULO",
-              "clientes": 1
-            }
-          ]
-        }
-      }
-    },
-    {
       "ramo": "LOJA",
       "total_clientes": 14,
-      "clientes_ativos_mes": 3,
-      "cobertura_pct": 21.4,
-      "faturamento_ytd": 36361.25,
-      "media_mensal": 5194.46,
+      "clientes_ativos_mes": 4,
+      "cobertura_pct": 28.6,
+      "faturamento_ytd": 36182.49,
+      "media_mensal": 5168.93,
       "por_mes": {
         "2026-01": 1096.08,
-        "2026-02": 449.8,
+        "2026-02": 393.88,
         "2026-03": 6421.28,
         "2026-04": 2596.56,
-        "2026-05": 13827.34,
+        "2026-05": 13172.14,
         "2026-06": 9745.0,
-        "2026-07": 2225.19
+        "2026-07": 2757.55
       },
       "top_cidades": [
         {
-          "cidade": "RIO DE JANEIRO",
-          "clientes": 3
+          "cidade": "AMERICANA",
+          "clientes": 1
         },
         {
           "cidade": "ARMACAO DOS BUZ",
           "clientes": 1
         },
         {
-          "cidade": "CABO FRIO",
+          "cidade": "BELFORD ROXO",
           "clientes": 1
         },
         {
-          "cidade": "BOTUCATU",
+          "cidade": "CABO FRIO",
           "clientes": 1
         },
         {
@@ -15996,19 +16423,19 @@ const RAIOX_CLIENTES_DATA = {
           "clientes": 1
         },
         {
-          "cidade": "COSMOPOLIS",
-          "clientes": 1
-        },
-        {
           "cidade": "CARIACICA",
           "clientes": 1
         },
         {
-          "cidade": "JARINU",
+          "cidade": "COSMOPOLIS",
           "clientes": 1
         },
         {
-          "cidade": "NITEROI",
+          "cidade": "ITAQUAQUECETUBA",
+          "clientes": 1
+        },
+        {
+          "cidade": "JARINU",
           "clientes": 1
         }
       ],
@@ -16053,18 +16480,23 @@ const RAIOX_CLIENTES_DATA = {
           ]
         },
         "RJ-155": {
-          "total_clientes": 1,
-          "clientes_ativos_mes": 0,
-          "cobertura_pct": 0.0,
-          "faturamento_ytd": 4127.02,
-          "media_mensal": 1031.76,
+          "total_clientes": 2,
+          "clientes_ativos_mes": 1,
+          "cobertura_pct": 50.0,
+          "faturamento_ytd": 4659.38,
+          "media_mensal": 931.88,
           "por_mes": {
             "2026-01": 301.6,
             "2026-04": 2224.68,
             "2026-05": 785.4,
-            "2026-06": 815.34
+            "2026-06": 815.34,
+            "2026-07": 532.36
           },
           "top_cidades": [
+            {
+              "cidade": "BELFORD ROXO",
+              "clientes": 1
+            },
             {
               "cidade": "SAQUAREMA",
               "clientes": 1
@@ -16111,30 +16543,13 @@ const RAIOX_CLIENTES_DATA = {
           ]
         },
         "RJ-419": {
-          "total_clientes": 2,
-          "clientes_ativos_mes": 0,
-          "cobertura_pct": 0.0,
-          "faturamento_ytd": 938.14,
-          "media_mensal": 469.07,
-          "por_mes": {
-            "2026-05": 655.2,
-            "2026-06": 282.94
-          },
-          "top_cidades": [
-            {
-              "cidade": "RIO DE JANEIRO",
-              "clientes": 2
-            }
-          ]
-        },
-        "RJ-431": {
           "total_clientes": 1,
           "clientes_ativos_mes": 0,
           "cobertura_pct": 0.0,
-          "faturamento_ytd": 55.92,
-          "media_mensal": 55.92,
+          "faturamento_ytd": 282.94,
+          "media_mensal": 282.94,
           "por_mes": {
-            "2026-02": 55.92
+            "2026-06": 282.94
           },
           "top_cidades": [
             {
@@ -16157,6 +16572,20 @@ const RAIOX_CLIENTES_DATA = {
             }
           ]
         },
+        "SP-474": {
+          "total_clientes": 1,
+          "clientes_ativos_mes": 0,
+          "cobertura_pct": 0.0,
+          "faturamento_ytd": 0.0,
+          "media_mensal": 0.0,
+          "por_mes": {},
+          "top_cidades": [
+            {
+              "cidade": "AMERICANA",
+              "clientes": 1
+            }
+          ]
+        },
         "SP-475": {
           "total_clientes": 1,
           "clientes_ativos_mes": 1,
@@ -16171,20 +16600,6 @@ const RAIOX_CLIENTES_DATA = {
           "top_cidades": [
             {
               "cidade": "JARINU",
-              "clientes": 1
-            }
-          ]
-        },
-        "SP-476": {
-          "total_clientes": 1,
-          "clientes_ativos_mes": 0,
-          "cobertura_pct": 0.0,
-          "faturamento_ytd": 0.0,
-          "media_mensal": 0.0,
-          "por_mes": {},
-          "top_cidades": [
-            {
-              "cidade": "BOTUCATU",
               "clientes": 1
             }
           ]
@@ -16221,76 +16636,241 @@ const RAIOX_CLIENTES_DATA = {
               "clientes": 1
             }
           ]
+        },
+        "SP-518": {
+          "total_clientes": 1,
+          "clientes_ativos_mes": 0,
+          "cobertura_pct": 0.0,
+          "faturamento_ytd": 0.0,
+          "media_mensal": 0.0,
+          "por_mes": {},
+          "top_cidades": [
+            {
+              "cidade": "ITAQUAQUECETUBA",
+              "clientes": 1
+            }
+          ]
+        }
+      }
+    },
+    {
+      "ramo": "CAFÉ/LANCHONETE",
+      "total_clientes": 9,
+      "clientes_ativos_mes": 4,
+      "cobertura_pct": 44.4,
+      "faturamento_ytd": 30218.98,
+      "media_mensal": 4317.0,
+      "por_mes": {
+        "2026-01": 4292.22,
+        "2026-02": 5211.94,
+        "2026-03": 3348.74,
+        "2026-04": 4129.94,
+        "2026-05": 4966.54,
+        "2026-06": 4929.0,
+        "2026-07": 3340.6
+      },
+      "top_cidades": [
+        {
+          "cidade": "BELO HORIZONTE",
+          "clientes": 7
+        },
+        {
+          "cidade": "GOVERNADOR VALADARES",
+          "clientes": 1
+        },
+        {
+          "cidade": "NOVA LIMA",
+          "clientes": 1
+        }
+      ],
+      "por_vendedor": {
+        "MG-327": {
+          "total_clientes": 3,
+          "clientes_ativos_mes": 3,
+          "cobertura_pct": 100.0,
+          "faturamento_ytd": 22016.96,
+          "media_mensal": 3145.28,
+          "por_mes": {
+            "2026-01": 3373.16,
+            "2026-02": 3331.34,
+            "2026-03": 3210.94,
+            "2026-04": 3328.86,
+            "2026-05": 3506.24,
+            "2026-06": 2375.22,
+            "2026-07": 2891.2
+          },
+          "top_cidades": [
+            {
+              "cidade": "BELO HORIZONTE",
+              "clientes": 3
+            }
+          ]
+        },
+        "MG-343": {
+          "total_clientes": 1,
+          "clientes_ativos_mes": 0,
+          "cobertura_pct": 0.0,
+          "faturamento_ytd": 0.0,
+          "media_mensal": 0.0,
+          "por_mes": {},
+          "top_cidades": [
+            {
+              "cidade": "GOVERNADOR VALADARES",
+              "clientes": 1
+            }
+          ]
+        },
+        "MG-344": {
+          "total_clientes": 4,
+          "clientes_ativos_mes": 1,
+          "cobertura_pct": 25.0,
+          "faturamento_ytd": 7053.36,
+          "media_mensal": 1007.62,
+          "por_mes": {
+            "2026-01": 919.06,
+            "2026-02": 1880.6,
+            "2026-03": 137.8,
+            "2026-04": 383.4,
+            "2026-05": 1460.3,
+            "2026-06": 1822.8,
+            "2026-07": 449.4
+          },
+          "top_cidades": [
+            {
+              "cidade": "BELO HORIZONTE",
+              "clientes": 4
+            }
+          ]
+        },
+        "MG-362": {
+          "total_clientes": 1,
+          "clientes_ativos_mes": 0,
+          "cobertura_pct": 0.0,
+          "faturamento_ytd": 1148.66,
+          "media_mensal": 574.33,
+          "por_mes": {
+            "2026-04": 417.68,
+            "2026-06": 730.98
+          },
+          "top_cidades": [
+            {
+              "cidade": "NOVA LIMA",
+              "clientes": 1
+            }
+          ]
+        }
+      }
+    },
+    {
+      "ramo": "TRANSPORTADOR",
+      "total_clientes": 2,
+      "clientes_ativos_mes": 2,
+      "cobertura_pct": 100.0,
+      "faturamento_ytd": 28938.26,
+      "media_mensal": 7234.56,
+      "por_mes": {
+        "2026-03": 1080.0,
+        "2026-05": 544.56,
+        "2026-06": 24171.4,
+        "2026-07": 3142.3
+      },
+      "top_cidades": [
+        {
+          "cidade": "RIO DE JANEIRO",
+          "clientes": 1
+        },
+        {
+          "cidade": "SAO PAULO",
+          "clientes": 1
+        }
+      ],
+      "por_vendedor": {
+        "RJ-419": {
+          "total_clientes": 1,
+          "clientes_ativos_mes": 1,
+          "cobertura_pct": 100.0,
+          "faturamento_ytd": 2251.76,
+          "media_mensal": 562.94,
+          "por_mes": {
+            "2026-03": 1080.0,
+            "2026-05": 544.56,
+            "2026-06": 267.4,
+            "2026-07": 359.8
+          },
+          "top_cidades": [
+            {
+              "cidade": "RIO DE JANEIRO",
+              "clientes": 1
+            }
+          ]
+        },
+        "SP-399": {
+          "total_clientes": 1,
+          "clientes_ativos_mes": 0,
+          "cobertura_pct": 0.0,
+          "faturamento_ytd": 0.0,
+          "media_mensal": 0.0,
+          "por_mes": {},
+          "top_cidades": [
+            {
+              "cidade": "SAO PAULO",
+              "clientes": 1
+            }
+          ]
         }
       }
     },
     {
       "ramo": "FARMACIA",
-      "total_clientes": 42,
-      "clientes_ativos_mes": 7,
-      "cobertura_pct": 16.7,
-      "faturamento_ytd": 34496.33,
-      "media_mensal": 4928.05,
+      "total_clientes": 39,
+      "clientes_ativos_mes": 9,
+      "cobertura_pct": 23.1,
+      "faturamento_ytd": 27200.73,
+      "media_mensal": 3885.82,
       "por_mes": {
-        "2026-01": 5653.33,
-        "2026-02": 3719.22,
-        "2026-03": 4608.31,
-        "2026-04": 5083.45,
-        "2026-05": 4848.31,
+        "2026-01": 4822.94,
+        "2026-02": 1440.92,
+        "2026-03": 2939.97,
+        "2026-04": 3038.43,
+        "2026-05": 3044.24,
         "2026-06": 7943.91,
-        "2026-07": 2639.81
+        "2026-07": 3970.33
       },
       "top_cidades": [
         {
           "cidade": "RIO DE JANEIRO",
-          "clientes": 37
+          "clientes": 33
         },
         {
-          "cidade": "VENDA NOVA DO I",
+          "cidade": "VALENCA",
           "clientes": 3
         },
         {
-          "cidade": "SERRA",
+          "cidade": "VASSOURAS",
           "clientes": 2
+        },
+        {
+          "cidade": "VENDA NOVA DO I",
+          "clientes": 1
         }
       ],
       "por_vendedor": {
-        "ES-336": {
-          "total_clientes": 2,
-          "clientes_ativos_mes": 0,
-          "cobertura_pct": 0.0,
-          "faturamento_ytd": 3277.98,
-          "media_mensal": 819.5,
-          "por_mes": {
-            "2026-02": 1160.04,
-            "2026-03": 653.72,
-            "2026-04": 1096.54,
-            "2026-05": 367.68
-          },
-          "top_cidades": [
-            {
-              "cidade": "SERRA",
-              "clientes": 2
-            }
-          ]
-        },
         "ES-370": {
-          "total_clientes": 3,
+          "total_clientes": 1,
           "clientes_ativos_mes": 0,
           "cobertura_pct": 0.0,
-          "faturamento_ytd": 4618.98,
-          "media_mensal": 923.8,
+          "faturamento_ytd": 2562.68,
+          "media_mensal": 640.67,
           "por_mes": {
-            "2026-01": 1023.94,
-            "2026-02": 565.76,
-            "2026-03": 1301.76,
-            "2026-04": 142.23,
-            "2026-05": 1585.29
+            "2026-01": 591.77,
+            "2026-02": 183.76,
+            "2026-03": 824.86,
+            "2026-05": 962.29
           },
           "top_cidades": [
             {
               "cidade": "VENDA NOVA DO I",
-              "clientes": 3
+              "clientes": 1
             }
           ]
         },
@@ -16309,53 +16889,73 @@ const RAIOX_CLIENTES_DATA = {
           ]
         },
         "RJ-412": {
-          "total_clientes": 8,
-          "clientes_ativos_mes": 1,
-          "cobertura_pct": 12.5,
-          "faturamento_ytd": 6569.34,
-          "media_mensal": 938.48,
+          "total_clientes": 5,
+          "clientes_ativos_mes": 2,
+          "cobertura_pct": 40.0,
+          "faturamento_ytd": 5379.75,
+          "media_mensal": 768.54,
           "por_mes": {
-            "2026-01": 2192.5,
-            "2026-02": 953.22,
+            "2026-01": 1906.5,
+            "2026-02": 530.36,
             "2026-03": 685.2,
-            "2026-04": 920.22,
-            "2026-05": 605.65,
+            "2026-04": 381.14,
+            "2026-05": 310.8,
             "2026-06": 933.55,
-            "2026-07": 279.0
+            "2026-07": 632.2
           },
           "top_cidades": [
             {
               "cidade": "RIO DE JANEIRO",
-              "clientes": 8
+              "clientes": 5
             }
           ]
         },
         "RJ-431": {
-          "total_clientes": 10,
+          "total_clientes": 7,
           "clientes_ativos_mes": 4,
-          "cobertura_pct": 40.0,
-          "faturamento_ytd": 14001.63,
-          "media_mensal": 2000.23,
+          "cobertura_pct": 57.1,
+          "faturamento_ytd": 12910.9,
+          "media_mensal": 1844.41,
           "por_mes": {
-            "2026-01": 2436.89,
-            "2026-02": 1040.2,
-            "2026-03": 1967.63,
-            "2026-04": 2924.46,
-            "2026-05": 2289.69,
+            "2026-01": 2324.67,
+            "2026-02": 726.8,
+            "2026-03": 1429.91,
+            "2026-04": 2657.29,
+            "2026-05": 1771.15,
             "2026-06": 1735.22,
-            "2026-07": 1607.54
+            "2026-07": 2265.86
           },
           "top_cidades": [
             {
               "cidade": "RIO DE JANEIRO",
-              "clientes": 10
+              "clientes": 7
+            }
+          ]
+        },
+        "RJ-439": {
+          "total_clientes": 5,
+          "clientes_ativos_mes": 1,
+          "cobertura_pct": 20.0,
+          "faturamento_ytd": 319.0,
+          "media_mensal": 319.0,
+          "por_mes": {
+            "2026-07": 319.0
+          },
+          "top_cidades": [
+            {
+              "cidade": "VALENCA",
+              "clientes": 3
+            },
+            {
+              "cidade": "VASSOURAS",
+              "clientes": 2
             }
           ]
         },
         "RJ-471": {
-          "total_clientes": 16,
+          "total_clientes": 18,
           "clientes_ativos_mes": 2,
-          "cobertura_pct": 12.5,
+          "cobertura_pct": 11.1,
           "faturamento_ytd": 6028.41,
           "media_mensal": 3014.2,
           "por_mes": {
@@ -16365,365 +16965,7 @@ const RAIOX_CLIENTES_DATA = {
           "top_cidades": [
             {
               "cidade": "RIO DE JANEIRO",
-              "clientes": 16
-            }
-          ]
-        }
-      }
-    },
-    {
-      "ramo": "PESSOA FISICA",
-      "total_clientes": 42,
-      "clientes_ativos_mes": 9,
-      "cobertura_pct": 21.4,
-      "faturamento_ytd": 29580.8,
-      "media_mensal": 4225.83,
-      "por_mes": {
-        "2026-01": 3200.11,
-        "2026-02": 2397.87,
-        "2026-03": 8305.83,
-        "2026-04": 4168.7,
-        "2026-05": 6869.05,
-        "2026-06": 4094.18,
-        "2026-07": 545.06
-      },
-      "top_cidades": [
-        {
-          "cidade": "BELO HORIZONTE",
-          "clientes": 15
-        },
-        {
-          "cidade": "SERRA",
-          "clientes": 10
-        },
-        {
-          "cidade": "ARACRUZ",
-          "clientes": 5
-        },
-        {
-          "cidade": "RIO DE JANEIRO",
-          "clientes": 4
-        },
-        {
-          "cidade": "VESPASIANO",
-          "clientes": 2
-        },
-        {
-          "cidade": "ANGRA DOS REIS",
-          "clientes": 1
-        },
-        {
-          "cidade": "SANTA LUZIA",
-          "clientes": 1
-        },
-        {
-          "cidade": "SAO MATEUS",
-          "clientes": 1
-        },
-        {
-          "cidade": "TERESOPOLIS",
-          "clientes": 1
-        },
-        {
-          "cidade": "VENDA NOVA DO I",
-          "clientes": 1
-        }
-      ],
-      "por_vendedor": {
-        "ES-230": {
-          "total_clientes": 1,
-          "clientes_ativos_mes": 1,
-          "cobertura_pct": 100.0,
-          "faturamento_ytd": 455.99,
-          "media_mensal": 76.0,
-          "por_mes": {
-            "2026-02": 110.8,
-            "2026-03": 149.9,
-            "2026-04": 0.0,
-            "2026-05": 84.33,
-            "2026-06": 83.8,
-            "2026-07": 27.16
-          },
-          "top_cidades": [
-            {
-              "cidade": "SERRA",
-              "clientes": 1
-            }
-          ]
-        },
-        "ES-336": {
-          "total_clientes": 8,
-          "clientes_ativos_mes": 2,
-          "cobertura_pct": 25.0,
-          "faturamento_ytd": 6705.43,
-          "media_mensal": 957.92,
-          "por_mes": {
-            "2026-01": 1534.34,
-            "2026-02": 868.51,
-            "2026-03": 2067.96,
-            "2026-04": 983.36,
-            "2026-05": 1142.62,
-            "2026-06": 54.32,
-            "2026-07": 54.32
-          },
-          "top_cidades": [
-            {
-              "cidade": "SERRA",
-              "clientes": 8
-            }
-          ]
-        },
-        "ES-342": {
-          "total_clientes": 1,
-          "clientes_ativos_mes": 0,
-          "cobertura_pct": 0.0,
-          "faturamento_ytd": 1281.14,
-          "media_mensal": 427.05,
-          "por_mes": {
-            "2026-03": 915.27,
-            "2026-04": 0.0,
-            "2026-05": 365.87
-          },
-          "top_cidades": [
-            {
-              "cidade": "SAO MATEUS",
-              "clientes": 1
-            }
-          ]
-        },
-        "ES-370": {
-          "total_clientes": 1,
-          "clientes_ativos_mes": 0,
-          "cobertura_pct": 0.0,
-          "faturamento_ytd": 299.19,
-          "media_mensal": 99.73,
-          "por_mes": {
-            "2026-01": 179.4,
-            "2026-03": 119.79,
-            "2026-05": 0.0
-          },
-          "top_cidades": [
-            {
-              "cidade": "VENDA NOVA DO I",
-              "clientes": 1
-            }
-          ]
-        },
-        "ES-388": {
-          "total_clientes": 1,
-          "clientes_ativos_mes": 1,
-          "cobertura_pct": 100.0,
-          "faturamento_ytd": 1558.1,
-          "media_mensal": 311.62,
-          "por_mes": {
-            "2026-02": 240.0,
-            "2026-03": 955.5,
-            "2026-04": 109.08,
-            "2026-05": 226.36,
-            "2026-07": 27.16
-          },
-          "top_cidades": [
-            {
-              "cidade": "VILA VELHA",
-              "clientes": 1
-            }
-          ]
-        },
-        "ES-442": {
-          "total_clientes": 5,
-          "clientes_ativos_mes": 0,
-          "cobertura_pct": 0.0,
-          "faturamento_ytd": 1910.48,
-          "media_mensal": 636.83,
-          "por_mes": {
-            "2026-03": 912.85,
-            "2026-04": 189.42,
-            "2026-05": 808.21
-          },
-          "top_cidades": [
-            {
-              "cidade": "ARACRUZ",
-              "clientes": 5
-            }
-          ]
-        },
-        "MG-327": {
-          "total_clientes": 9,
-          "clientes_ativos_mes": 0,
-          "cobertura_pct": 0.0,
-          "faturamento_ytd": 10893.82,
-          "media_mensal": 2723.46,
-          "por_mes": {
-            "2026-03": 2791.56,
-            "2026-04": 1437.16,
-            "2026-05": 3257.48,
-            "2026-06": 3407.62
-          },
-          "top_cidades": [
-            {
-              "cidade": "BELO HORIZONTE",
-              "clientes": 9
-            }
-          ]
-        },
-        "MG-343": {
-          "total_clientes": 1,
-          "clientes_ativos_mes": 0,
-          "cobertura_pct": 0.0,
-          "faturamento_ytd": 0.0,
-          "media_mensal": 0.0,
-          "por_mes": {},
-          "top_cidades": [
-            {
-              "cidade": "VESPASIANO",
-              "clientes": 1
-            }
-          ]
-        },
-        "MG-344": {
-          "total_clientes": 2,
-          "clientes_ativos_mes": 0,
-          "cobertura_pct": 0.0,
-          "faturamento_ytd": 5073.05,
-          "media_mensal": 845.51,
-          "por_mes": {
-            "2026-01": 1486.37,
-            "2026-02": 1178.56,
-            "2026-03": 393.0,
-            "2026-04": 1449.68,
-            "2026-05": 282.72,
-            "2026-06": 282.72
-          },
-          "top_cidades": [
-            {
-              "cidade": "BELO HORIZONTE",
-              "clientes": 2
-            }
-          ]
-        },
-        "MG-354": {
-          "total_clientes": 5,
-          "clientes_ativos_mes": 4,
-          "cobertura_pct": 80.0,
-          "faturamento_ytd": 814.64,
-          "media_mensal": 271.55,
-          "por_mes": {
-            "2026-05": 295.5,
-            "2026-06": 265.72,
-            "2026-07": 253.42
-          },
-          "top_cidades": [
-            {
-              "cidade": "BELO HORIZONTE",
-              "clientes": 3
-            },
-            {
-              "cidade": "SANTA LUZIA",
-              "clientes": 1
-            },
-            {
-              "cidade": "VESPASIANO",
-              "clientes": 1
-            }
-          ]
-        },
-        "MG-362": {
-          "total_clientes": 1,
-          "clientes_ativos_mes": 1,
-          "cobertura_pct": 100.0,
-          "faturamento_ytd": 588.96,
-          "media_mensal": 294.48,
-          "por_mes": {
-            "2026-05": 405.96,
-            "2026-07": 183.0
-          },
-          "top_cidades": [
-            {
-              "cidade": "BELO HORIZONTE",
-              "clientes": 1
-            }
-          ]
-        },
-        "RJ-91": {
-          "total_clientes": 5,
-          "clientes_ativos_mes": 0,
-          "cobertura_pct": 0.0,
-          "faturamento_ytd": 0.0,
-          "media_mensal": 0.0,
-          "por_mes": {},
-          "top_cidades": [
-            {
-              "cidade": "RIO DE JANEIRO",
-              "clientes": 3
-            },
-            {
-              "cidade": "SERRA",
-              "clientes": 1
-            },
-            {
-              "cidade": "TERESOPOLIS",
-              "clientes": 1
-            }
-          ]
-        },
-        "RJ-119": {
-          "total_clientes": 1,
-          "clientes_ativos_mes": 0,
-          "cobertura_pct": 0.0,
-          "faturamento_ytd": 0.0,
-          "media_mensal": 0.0,
-          "por_mes": {},
-          "top_cidades": [
-            {
-              "cidade": "RIO DE JANEIRO",
-              "clientes": 1
-            }
-          ]
-        },
-        "RJ-156": {
-          "total_clientes": 1,
-          "clientes_ativos_mes": 0,
-          "cobertura_pct": 0.0,
-          "faturamento_ytd": 0.0,
-          "media_mensal": 0.0,
-          "por_mes": {},
-          "top_cidades": [
-            {
-              "cidade": "ANGRA DOS REIS",
-              "clientes": 1
-            }
-          ]
-        }
-      }
-    },
-    {
-      "ramo": "TRANSPORTADOR",
-      "total_clientes": 1,
-      "clientes_ativos_mes": 0,
-      "cobertura_pct": 0.0,
-      "faturamento_ytd": 23904.0,
-      "media_mensal": 23904.0,
-      "por_mes": {
-        "2026-06": 23904.0
-      },
-      "top_cidades": [
-        {
-          "cidade": "SAO PAULO",
-          "clientes": 1
-        }
-      ],
-      "por_vendedor": {
-        "SP-399": {
-          "total_clientes": 1,
-          "clientes_ativos_mes": 0,
-          "cobertura_pct": 0.0,
-          "faturamento_ytd": 0.0,
-          "media_mensal": 0.0,
-          "por_mes": {},
-          "top_cidades": [
-            {
-              "cidade": "SAO PAULO",
-              "clientes": 1
+              "clientes": 18
             }
           ]
         }
@@ -16732,10 +16974,10 @@ const RAIOX_CLIENTES_DATA = {
     {
       "ramo": "CANTINA",
       "total_clientes": 5,
-      "clientes_ativos_mes": 2,
-      "cobertura_pct": 40.0,
-      "faturamento_ytd": 21118.11,
-      "media_mensal": 3016.87,
+      "clientes_ativos_mes": 5,
+      "cobertura_pct": 100.0,
+      "faturamento_ytd": 22817.96,
+      "media_mensal": 3259.71,
       "por_mes": {
         "2026-01": 2407.23,
         "2026-02": 3370.8,
@@ -16743,7 +16985,7 @@ const RAIOX_CLIENTES_DATA = {
         "2026-04": 3467.63,
         "2026-05": 2766.7,
         "2026-06": 3268.31,
-        "2026-07": 1028.04
+        "2026-07": 2727.89
       },
       "top_cidades": [
         {
@@ -16754,17 +16996,18 @@ const RAIOX_CLIENTES_DATA = {
       "por_vendedor": {
         "RJ-378": {
           "total_clientes": 2,
-          "clientes_ativos_mes": 0,
-          "cobertura_pct": 0.0,
-          "faturamento_ytd": 2430.44,
-          "media_mensal": 405.07,
+          "clientes_ativos_mes": 2,
+          "cobertura_pct": 100.0,
+          "faturamento_ytd": 2869.76,
+          "media_mensal": 409.97,
           "por_mes": {
             "2026-01": 402.0,
             "2026-02": 576.96,
             "2026-03": 279.6,
             "2026-04": 277.56,
             "2026-05": 424.8,
-            "2026-06": 469.52
+            "2026-06": 469.52,
+            "2026-07": 439.32
           },
           "top_cidades": [
             {
@@ -16775,10 +17018,10 @@ const RAIOX_CLIENTES_DATA = {
         },
         "RJ-431": {
           "total_clientes": 3,
-          "clientes_ativos_mes": 2,
-          "cobertura_pct": 66.7,
-          "faturamento_ytd": 18687.67,
-          "media_mensal": 2669.67,
+          "clientes_ativos_mes": 3,
+          "cobertura_pct": 100.0,
+          "faturamento_ytd": 19948.2,
+          "media_mensal": 2849.74,
           "por_mes": {
             "2026-01": 2005.23,
             "2026-02": 2793.84,
@@ -16786,7 +17029,7 @@ const RAIOX_CLIENTES_DATA = {
             "2026-04": 3190.07,
             "2026-05": 2341.9,
             "2026-06": 2798.79,
-            "2026-07": 1028.04
+            "2026-07": 2288.57
           },
           "top_cidades": [
             {
@@ -16882,10 +17125,10 @@ const RAIOX_CLIENTES_DATA = {
     {
       "ramo": "QUIOSQUE",
       "total_clientes": 2,
-      "clientes_ativos_mes": 1,
-      "cobertura_pct": 50.0,
-      "faturamento_ytd": 18470.2,
-      "media_mensal": 2638.6,
+      "clientes_ativos_mes": 2,
+      "cobertura_pct": 100.0,
+      "faturamento_ytd": 18830.0,
+      "media_mensal": 2690.0,
       "por_mes": {
         "2026-01": 3397.08,
         "2026-02": 562.68,
@@ -16893,7 +17136,7 @@ const RAIOX_CLIENTES_DATA = {
         "2026-04": 4211.88,
         "2026-05": 1547.96,
         "2026-06": 3191.34,
-        "2026-07": 1927.48
+        "2026-07": 2287.28
       },
       "top_cidades": [
         {
@@ -16930,104 +17173,22 @@ const RAIOX_CLIENTES_DATA = {
         },
         "RJ-156": {
           "total_clientes": 1,
-          "clientes_ativos_mes": 0,
-          "cobertura_pct": 0.0,
-          "faturamento_ytd": 4593.24,
-          "media_mensal": 918.65,
+          "clientes_ativos_mes": 1,
+          "cobertura_pct": 100.0,
+          "faturamento_ytd": 4953.04,
+          "media_mensal": 825.51,
           "por_mes": {
             "2026-01": 830.84,
             "2026-03": 466.2,
             "2026-04": 757.6,
             "2026-05": 1000.2,
-            "2026-06": 1538.4
+            "2026-06": 1538.4,
+            "2026-07": 359.8
           },
           "top_cidades": [
             {
               "cidade": "RIO DE JANEIRO",
               "clientes": 1
-            }
-          ]
-        }
-      }
-    },
-    {
-      "ramo": "LANCHONETE",
-      "total_clientes": 8,
-      "clientes_ativos_mes": 0,
-      "cobertura_pct": 0.0,
-      "faturamento_ytd": 17238.62,
-      "media_mensal": 3447.72,
-      "por_mes": {
-        "2026-02": 649.2,
-        "2026-03": 3332.56,
-        "2026-04": 5536.6,
-        "2026-05": 5499.2,
-        "2026-06": 2221.06
-      },
-      "top_cidades": [
-        {
-          "cidade": "BELO HORIZONTE",
-          "clientes": 7
-        },
-        {
-          "cidade": "JUIZ DE FORA",
-          "clientes": 1
-        }
-      ],
-      "por_vendedor": {
-        "MG-327": {
-          "total_clientes": 2,
-          "clientes_ativos_mes": 0,
-          "cobertura_pct": 0.0,
-          "faturamento_ytd": 10503.0,
-          "media_mensal": 2100.6,
-          "por_mes": {
-            "2026-02": 649.2,
-            "2026-03": 2856.48,
-            "2026-04": 3486.88,
-            "2026-05": 2379.56,
-            "2026-06": 1130.88
-          },
-          "top_cidades": [
-            {
-              "cidade": "BELO HORIZONTE",
-              "clientes": 2
-            }
-          ]
-        },
-        "MG-331": {
-          "total_clientes": 1,
-          "clientes_ativos_mes": 0,
-          "cobertura_pct": 0.0,
-          "faturamento_ytd": 1406.18,
-          "media_mensal": 703.09,
-          "por_mes": {
-            "2026-05": 1093.48,
-            "2026-06": 312.7
-          },
-          "top_cidades": [
-            {
-              "cidade": "JUIZ DE FORA",
-              "clientes": 1
-            }
-          ]
-        },
-        "MG-344": {
-          "total_clientes": 5,
-          "clientes_ativos_mes": 0,
-          "cobertura_pct": 0.0,
-          "faturamento_ytd": 5329.44,
-          "media_mensal": 1332.36,
-          "por_mes": {
-            "2026-03": 476.08,
-            "2026-04": 2049.72,
-            "2026-05": 2026.16,
-            "2026-06": 777.48
-          },
-          "top_cidades": [
-            {
-              "cidade": "BELO HORIZONTE",
-              "clientes": 5
             }
           ]
         }
@@ -17095,54 +17256,267 @@ const RAIOX_CLIENTES_DATA = {
       }
     },
     {
-      "ramo": "FORNEC. DE ALIMENTOS PREPARADOS",
-      "total_clientes": 3,
-      "clientes_ativos_mes": 1,
+      "ramo": "PESSOA FISICA",
+      "total_clientes": 30,
+      "clientes_ativos_mes": 10,
       "cobertura_pct": 33.3,
-      "faturamento_ytd": 12266.3,
-      "media_mensal": 1752.33,
+      "faturamento_ytd": 12515.43,
+      "media_mensal": 1787.92,
       "por_mes": {
-        "2026-01": 273.6,
-        "2026-02": 2051.12,
-        "2026-03": 3294.92,
-        "2026-04": 2419.56,
-        "2026-05": 1758.18,
-        "2026-06": 1790.92,
-        "2026-07": 678.0
+        "2026-01": 541.85,
+        "2026-02": 943.6,
+        "2026-03": 2640.75,
+        "2026-04": 2169.18,
+        "2026-05": 3793.75,
+        "2026-06": 1723.2,
+        "2026-07": 703.1
       },
       "top_cidades": [
         {
           "cidade": "BELO HORIZONTE",
-          "clientes": 2
+          "clientes": 11
+        },
+        {
+          "cidade": "SERRA",
+          "clientes": 6
+        },
+        {
+          "cidade": "RIO DE JANEIRO",
+          "clientes": 4
+        },
+        {
+          "cidade": "ARACRUZ",
+          "clientes": 4
+        },
+        {
+          "cidade": "ANGRA DOS REIS",
+          "clientes": 1
         },
         {
           "cidade": "SANTA LUZIA",
           "clientes": 1
+        },
+        {
+          "cidade": "TERESOPOLIS",
+          "clientes": 1
+        },
+        {
+          "cidade": "VESPASIANO",
+          "clientes": 1
+        },
+        {
+          "cidade": "VILA VELHA",
+          "clientes": 1
         }
       ],
       "por_vendedor": {
-        "MG-327": {
-          "total_clientes": 3,
+        "ES-230": {
+          "total_clientes": 1,
           "clientes_ativos_mes": 1,
-          "cobertura_pct": 33.3,
-          "faturamento_ytd": 12266.3,
-          "media_mensal": 1752.33,
+          "cobertura_pct": 100.0,
+          "faturamento_ytd": 455.99,
+          "media_mensal": 76.0,
           "por_mes": {
-            "2026-01": 273.6,
-            "2026-02": 2051.12,
-            "2026-03": 3294.92,
-            "2026-04": 2419.56,
-            "2026-05": 1758.18,
-            "2026-06": 1790.92,
-            "2026-07": 678.0
+            "2026-02": 110.8,
+            "2026-03": 149.9,
+            "2026-04": 0.0,
+            "2026-05": 84.33,
+            "2026-06": 83.8,
+            "2026-07": 27.16
+          },
+          "top_cidades": [
+            {
+              "cidade": "SERRA",
+              "clientes": 1
+            }
+          ]
+        },
+        "ES-336": {
+          "total_clientes": 4,
+          "clientes_ativos_mes": 2,
+          "cobertura_pct": 50.0,
+          "faturamento_ytd": 1788.4,
+          "media_mensal": 255.49,
+          "por_mes": {
+            "2026-01": 332.45,
+            "2026-02": 150.0,
+            "2026-03": 338.0,
+            "2026-04": 388.88,
+            "2026-05": 470.43,
+            "2026-06": 54.32,
+            "2026-07": 54.32
+          },
+          "top_cidades": [
+            {
+              "cidade": "SERRA",
+              "clientes": 4
+            }
+          ]
+        },
+        "ES-388": {
+          "total_clientes": 1,
+          "clientes_ativos_mes": 1,
+          "cobertura_pct": 100.0,
+          "faturamento_ytd": 1558.1,
+          "media_mensal": 311.62,
+          "por_mes": {
+            "2026-02": 240.0,
+            "2026-03": 955.5,
+            "2026-04": 109.08,
+            "2026-05": 226.36,
+            "2026-07": 27.16
+          },
+          "top_cidades": [
+            {
+              "cidade": "VILA VELHA",
+              "clientes": 1
+            }
+          ]
+        },
+        "ES-442": {
+          "total_clientes": 4,
+          "clientes_ativos_mes": 0,
+          "cobertura_pct": 0.0,
+          "faturamento_ytd": 1625.98,
+          "media_mensal": 541.99,
+          "por_mes": {
+            "2026-03": 804.35,
+            "2026-04": 189.42,
+            "2026-05": 632.21
+          },
+          "top_cidades": [
+            {
+              "cidade": "ARACRUZ",
+              "clientes": 4
+            }
+          ]
+        },
+        "MG-327": {
+          "total_clientes": 6,
+          "clientes_ativos_mes": 0,
+          "cobertura_pct": 0.0,
+          "faturamento_ytd": 3658.0,
+          "media_mensal": 1219.33,
+          "por_mes": {
+            "2026-04": 659.68,
+            "2026-05": 1678.96,
+            "2026-06": 1319.36
           },
           "top_cidades": [
             {
               "cidade": "BELO HORIZONTE",
-              "clientes": 2
+              "clientes": 6
+            }
+          ]
+        },
+        "MG-344": {
+          "total_clientes": 1,
+          "clientes_ativos_mes": 0,
+          "cobertura_pct": 0.0,
+          "faturamento_ytd": 1867.32,
+          "media_mensal": 466.83,
+          "por_mes": {
+            "2026-01": 209.4,
+            "2026-02": 442.8,
+            "2026-03": 393.0,
+            "2026-04": 822.12
+          },
+          "top_cidades": [
+            {
+              "cidade": "BELO HORIZONTE",
+              "clientes": 1
+            }
+          ]
+        },
+        "MG-354": {
+          "total_clientes": 5,
+          "clientes_ativos_mes": 5,
+          "cobertura_pct": 100.0,
+          "faturamento_ytd": 972.68,
+          "media_mensal": 324.23,
+          "por_mes": {
+            "2026-05": 295.5,
+            "2026-06": 265.72,
+            "2026-07": 411.46
+          },
+          "top_cidades": [
+            {
+              "cidade": "BELO HORIZONTE",
+              "clientes": 3
             },
             {
               "cidade": "SANTA LUZIA",
+              "clientes": 1
+            },
+            {
+              "cidade": "VESPASIANO",
+              "clientes": 1
+            }
+          ]
+        },
+        "MG-362": {
+          "total_clientes": 1,
+          "clientes_ativos_mes": 1,
+          "cobertura_pct": 100.0,
+          "faturamento_ytd": 588.96,
+          "media_mensal": 294.48,
+          "por_mes": {
+            "2026-05": 405.96,
+            "2026-07": 183.0
+          },
+          "top_cidades": [
+            {
+              "cidade": "BELO HORIZONTE",
+              "clientes": 1
+            }
+          ]
+        },
+        "RJ-91": {
+          "total_clientes": 5,
+          "clientes_ativos_mes": 0,
+          "cobertura_pct": 0.0,
+          "faturamento_ytd": 0.0,
+          "media_mensal": 0.0,
+          "por_mes": {},
+          "top_cidades": [
+            {
+              "cidade": "RIO DE JANEIRO",
+              "clientes": 3
+            },
+            {
+              "cidade": "SERRA",
+              "clientes": 1
+            },
+            {
+              "cidade": "TERESOPOLIS",
+              "clientes": 1
+            }
+          ]
+        },
+        "RJ-119": {
+          "total_clientes": 1,
+          "clientes_ativos_mes": 0,
+          "cobertura_pct": 0.0,
+          "faturamento_ytd": 0.0,
+          "media_mensal": 0.0,
+          "por_mes": {},
+          "top_cidades": [
+            {
+              "cidade": "RIO DE JANEIRO",
+              "clientes": 1
+            }
+          ]
+        },
+        "RJ-156": {
+          "total_clientes": 1,
+          "clientes_ativos_mes": 0,
+          "cobertura_pct": 0.0,
+          "faturamento_ytd": 0.0,
+          "media_mensal": 0.0,
+          "por_mes": {},
+          "top_cidades": [
+            {
+              "cidade": "ANGRA DOS REIS",
               "clientes": 1
             }
           ]
@@ -17151,17 +17525,17 @@ const RAIOX_CLIENTES_DATA = {
     },
     {
       "ramo": "FABRICAÇÃO DE PRODUTOS DE PADARIA",
-      "total_clientes": 3,
+      "total_clientes": 2,
       "clientes_ativos_mes": 2,
-      "cobertura_pct": 66.7,
-      "faturamento_ytd": 10898.52,
-      "media_mensal": 2179.7,
+      "cobertura_pct": 100.0,
+      "faturamento_ytd": 11218.12,
+      "media_mensal": 2243.62,
       "por_mes": {
         "2026-01": 2999.04,
         "2026-02": 4596.48,
         "2026-03": 282.0,
         "2026-06": 544.96,
-        "2026-07": 2476.04
+        "2026-07": 2795.64
       },
       "top_cidades": [
         {
@@ -17171,17 +17545,30 @@ const RAIOX_CLIENTES_DATA = {
         {
           "cidade": "PEDRO LEOPOLDO",
           "clientes": 1
-        },
-        {
-          "cidade": "PRUDENTE DE MORAIS",
-          "clientes": 1
         }
       ],
       "por_vendedor": {
-        "MG-354": {
-          "total_clientes": 2,
+        "MG-344": {
+          "total_clientes": 1,
           "clientes_ativos_mes": 1,
-          "cobertura_pct": 50.0,
+          "cobertura_pct": 100.0,
+          "faturamento_ytd": 1184.2,
+          "media_mensal": 592.1,
+          "por_mes": {
+            "2026-06": 544.96,
+            "2026-07": 639.24
+          },
+          "top_cidades": [
+            {
+              "cidade": "CONTAGEM",
+              "clientes": 1
+            }
+          ]
+        },
+        "MG-354": {
+          "total_clientes": 1,
+          "clientes_ativos_mes": 1,
+          "cobertura_pct": 100.0,
           "faturamento_ytd": 10033.92,
           "media_mensal": 2508.48,
           "por_mes": {
@@ -17194,117 +17581,53 @@ const RAIOX_CLIENTES_DATA = {
             {
               "cidade": "PEDRO LEOPOLDO",
               "clientes": 1
-            },
-            {
-              "cidade": "PRUDENTE DE MORAIS",
-              "clientes": 1
-            }
-          ]
-        },
-        "MG-362": {
-          "total_clientes": 1,
-          "clientes_ativos_mes": 1,
-          "cobertura_pct": 100.0,
-          "faturamento_ytd": 864.6,
-          "media_mensal": 432.3,
-          "por_mes": {
-            "2026-06": 544.96,
-            "2026-07": 319.64
-          },
-          "top_cidades": [
-            {
-              "cidade": "CONTAGEM",
-              "clientes": 1
             }
           ]
         }
       }
     },
     {
-      "ramo": "ACADEMIA",
-      "total_clientes": 5,
-      "clientes_ativos_mes": 2,
-      "cobertura_pct": 40.0,
-      "faturamento_ytd": 7379.88,
-      "media_mensal": 1054.27,
+      "ramo": "FORNEC. DE ALIMENTOS PREPARADOS",
+      "total_clientes": 1,
+      "clientes_ativos_mes": 1,
+      "cobertura_pct": 100.0,
+      "faturamento_ytd": 8863.54,
+      "media_mensal": 1266.22,
       "por_mes": {
-        "2026-01": 2596.72,
-        "2026-02": 1000.88,
-        "2026-03": 402.0,
-        "2026-04": 339.84,
-        "2026-05": 1274.12,
-        "2026-06": 642.08,
-        "2026-07": 1124.24
+        "2026-01": 273.6,
+        "2026-02": 1769.8,
+        "2026-03": 1823.4,
+        "2026-04": 393.4,
+        "2026-05": 1758.18,
+        "2026-06": 1178.36,
+        "2026-07": 1666.8
       },
       "top_cidades": [
         {
-          "cidade": "RIO DE JANEIRO",
-          "clientes": 3
-        },
-        {
-          "cidade": "ARACRUZ",
-          "clientes": 1
-        },
-        {
-          "cidade": "SERRA",
+          "cidade": "BELO HORIZONTE",
           "clientes": 1
         }
       ],
       "por_vendedor": {
-        "ES-336": {
+        "MG-327": {
           "total_clientes": 1,
-          "clientes_ativos_mes": 0,
-          "cobertura_pct": 0.0,
-          "faturamento_ytd": 651.1,
-          "media_mensal": 217.03,
+          "clientes_ativos_mes": 1,
+          "cobertura_pct": 100.0,
+          "faturamento_ytd": 8863.54,
+          "media_mensal": 1266.22,
           "por_mes": {
-            "2026-01": 393.42,
-            "2026-02": 88.04,
-            "2026-05": 169.64
+            "2026-01": 273.6,
+            "2026-02": 1769.8,
+            "2026-03": 1823.4,
+            "2026-04": 393.4,
+            "2026-05": 1758.18,
+            "2026-06": 1178.36,
+            "2026-07": 1666.8
           },
           "top_cidades": [
             {
-              "cidade": "SERRA",
+              "cidade": "BELO HORIZONTE",
               "clientes": 1
-            }
-          ]
-        },
-        "ES-442": {
-          "total_clientes": 1,
-          "clientes_ativos_mes": 0,
-          "cobertura_pct": 0.0,
-          "faturamento_ytd": 486.92,
-          "media_mensal": 243.46,
-          "por_mes": {
-            "2026-02": 269.64,
-            "2026-06": 217.28
-          },
-          "top_cidades": [
-            {
-              "cidade": "ARACRUZ",
-              "clientes": 1
-            }
-          ]
-        },
-        "RJ-378": {
-          "total_clientes": 3,
-          "clientes_ativos_mes": 2,
-          "cobertura_pct": 66.7,
-          "faturamento_ytd": 6241.86,
-          "media_mensal": 891.69,
-          "por_mes": {
-            "2026-01": 2203.3,
-            "2026-02": 643.2,
-            "2026-03": 402.0,
-            "2026-04": 339.84,
-            "2026-05": 1104.48,
-            "2026-06": 424.8,
-            "2026-07": 1124.24
-          },
-          "top_cidades": [
-            {
-              "cidade": "RIO DE JANEIRO",
-              "clientes": 3
             }
           ]
         }
@@ -17312,24 +17635,32 @@ const RAIOX_CLIENTES_DATA = {
     },
     {
       "ramo": "ACOUGUE",
-      "total_clientes": 4,
-      "clientes_ativos_mes": 1,
-      "cobertura_pct": 25.0,
-      "faturamento_ytd": 6384.31,
-      "media_mensal": 912.04,
+      "total_clientes": 6,
+      "clientes_ativos_mes": 2,
+      "cobertura_pct": 33.3,
+      "faturamento_ytd": 7273.27,
+      "media_mensal": 1039.04,
       "por_mes": {
         "2026-01": 608.55,
         "2026-02": 107.5,
         "2026-03": 353.5,
         "2026-04": 1597.09,
-        "2026-05": 459.66,
-        "2026-06": 2013.22,
-        "2026-07": 1244.79
+        "2026-05": 294.3,
+        "2026-06": 2760.82,
+        "2026-07": 1551.51
       },
       "top_cidades": [
         {
           "cidade": "RIO DE JANEIRO",
           "clientes": 3
+        },
+        {
+          "cidade": "ARUJA",
+          "clientes": 1
+        },
+        {
+          "cidade": "BELFORD ROXO",
+          "clientes": 1
         },
         {
           "cidade": "SAO JOAO DE MER",
@@ -17360,19 +17691,34 @@ const RAIOX_CLIENTES_DATA = {
           ]
         },
         "RJ-431": {
-          "total_clientes": 2,
+          "total_clientes": 1,
           "clientes_ativos_mes": 0,
           "cobertura_pct": 0.0,
-          "faturamento_ytd": 607.86,
-          "media_mensal": 303.93,
+          "faturamento_ytd": 442.5,
+          "media_mensal": 442.5,
           "por_mes": {
-            "2026-05": 165.36,
             "2026-06": 442.5
           },
           "top_cidades": [
             {
               "cidade": "RIO DE JANEIRO",
-              "clientes": 2
+              "clientes": 1
+            }
+          ]
+        },
+        "RJ-460": {
+          "total_clientes": 1,
+          "clientes_ativos_mes": 1,
+          "cobertura_pct": 100.0,
+          "faturamento_ytd": 306.72,
+          "media_mensal": 306.72,
+          "por_mes": {
+            "2026-07": 306.72
+          },
+          "top_cidades": [
+            {
+              "cidade": "BELFORD ROXO",
+              "clientes": 1
             }
           ]
         },
@@ -17393,23 +17739,54 @@ const RAIOX_CLIENTES_DATA = {
               "clientes": 1
             }
           ]
+        },
+        "SP-399": {
+          "total_clientes": 1,
+          "clientes_ativos_mes": 0,
+          "cobertura_pct": 0.0,
+          "faturamento_ytd": 0.0,
+          "media_mensal": 0.0,
+          "por_mes": {},
+          "top_cidades": [
+            {
+              "cidade": "RIO DE JANEIRO",
+              "clientes": 1
+            }
+          ]
+        },
+        "SP-471": {
+          "total_clientes": 1,
+          "clientes_ativos_mes": 0,
+          "cobertura_pct": 0.0,
+          "faturamento_ytd": 747.6,
+          "media_mensal": 747.6,
+          "por_mes": {
+            "2026-06": 747.6
+          },
+          "top_cidades": [
+            {
+              "cidade": "ARUJA",
+              "clientes": 1
+            }
+          ]
         }
       }
     },
     {
-      "ramo": "ESCRITORIO",
-      "total_clientes": 4,
-      "clientes_ativos_mes": 0,
-      "cobertura_pct": 0.0,
-      "faturamento_ytd": 6205.91,
-      "media_mensal": 1034.32,
+      "ramo": "ACADEMIA",
+      "total_clientes": 5,
+      "clientes_ativos_mes": 3,
+      "cobertura_pct": 60.0,
+      "faturamento_ytd": 6643.82,
+      "media_mensal": 949.12,
       "por_mes": {
-        "2026-01": 1279.42,
-        "2026-02": 1336.9,
-        "2026-03": 1411.28,
-        "2026-04": 607.08,
-        "2026-05": 725.3,
-        "2026-06": 845.93
+        "2026-01": 2203.3,
+        "2026-02": 912.84,
+        "2026-03": 402.0,
+        "2026-04": 339.84,
+        "2026-05": 1104.48,
+        "2026-06": 642.08,
+        "2026-07": 1039.28
       },
       "top_cidades": [
         {
@@ -17417,7 +17794,105 @@ const RAIOX_CLIENTES_DATA = {
           "clientes": 3
         },
         {
-          "cidade": "IARAS",
+          "cidade": "ARACRUZ",
+          "clientes": 1
+        },
+        {
+          "cidade": "NOVA IGUACU",
+          "clientes": 1
+        }
+      ],
+      "por_vendedor": {
+        "ES-442": {
+          "total_clientes": 1,
+          "clientes_ativos_mes": 0,
+          "cobertura_pct": 0.0,
+          "faturamento_ytd": 486.92,
+          "media_mensal": 243.46,
+          "por_mes": {
+            "2026-02": 269.64,
+            "2026-06": 217.28
+          },
+          "top_cidades": [
+            {
+              "cidade": "ARACRUZ",
+              "clientes": 1
+            }
+          ]
+        },
+        "RJ-378": {
+          "total_clientes": 3,
+          "clientes_ativos_mes": 3,
+          "cobertura_pct": 100.0,
+          "faturamento_ytd": 6156.9,
+          "media_mensal": 879.56,
+          "por_mes": {
+            "2026-01": 2203.3,
+            "2026-02": 643.2,
+            "2026-03": 402.0,
+            "2026-04": 339.84,
+            "2026-05": 1104.48,
+            "2026-06": 424.8,
+            "2026-07": 1039.28
+          },
+          "top_cidades": [
+            {
+              "cidade": "RIO DE JANEIRO",
+              "clientes": 3
+            }
+          ]
+        },
+        "RJ-379": {
+          "total_clientes": 1,
+          "clientes_ativos_mes": 0,
+          "cobertura_pct": 0.0,
+          "faturamento_ytd": 0.0,
+          "media_mensal": 0.0,
+          "por_mes": {},
+          "top_cidades": [
+            {
+              "cidade": "NOVA IGUACU",
+              "clientes": 1
+            }
+          ]
+        }
+      }
+    },
+    {
+      "ramo": "ESCRITORIO",
+      "total_clientes": 8,
+      "clientes_ativos_mes": 1,
+      "cobertura_pct": 12.5,
+      "faturamento_ytd": 6468.71,
+      "media_mensal": 924.1,
+      "por_mes": {
+        "2026-01": 1279.42,
+        "2026-02": 1336.9,
+        "2026-03": 1411.28,
+        "2026-04": 607.08,
+        "2026-05": 725.3,
+        "2026-06": 845.93,
+        "2026-07": 262.8
+      },
+      "top_cidades": [
+        {
+          "cidade": "RIO DE JANEIRO",
+          "clientes": 4
+        },
+        {
+          "cidade": "COTIA",
+          "clientes": 1
+        },
+        {
+          "cidade": "SAO JOSE DOS CAMPOS",
+          "clientes": 1
+        },
+        {
+          "cidade": "SAO PAULO",
+          "clientes": 1
+        },
+        {
+          "cidade": "VOTORANTIM",
           "clientes": 1
         }
       ],
@@ -17443,8 +17918,8 @@ const RAIOX_CLIENTES_DATA = {
             }
           ]
         },
-        "SP-477": {
-          "total_clientes": 1,
+        "SP-399": {
+          "total_clientes": 2,
           "clientes_ativos_mes": 0,
           "cobertura_pct": 0.0,
           "faturamento_ytd": 0.0,
@@ -17452,7 +17927,122 @@ const RAIOX_CLIENTES_DATA = {
           "por_mes": {},
           "top_cidades": [
             {
-              "cidade": "IARAS",
+              "cidade": "RIO DE JANEIRO",
+              "clientes": 1
+            },
+            {
+              "cidade": "SAO PAULO",
+              "clientes": 1
+            }
+          ]
+        },
+        "SP-460": {
+          "total_clientes": 1,
+          "clientes_ativos_mes": 1,
+          "cobertura_pct": 100.0,
+          "faturamento_ytd": 262.8,
+          "media_mensal": 262.8,
+          "por_mes": {
+            "2026-07": 262.8
+          },
+          "top_cidades": [
+            {
+              "cidade": "SAO JOSE DOS CAMPOS",
+              "clientes": 1
+            }
+          ]
+        },
+        "SP-469": {
+          "total_clientes": 2,
+          "clientes_ativos_mes": 0,
+          "cobertura_pct": 0.0,
+          "faturamento_ytd": 0.0,
+          "media_mensal": 0.0,
+          "por_mes": {},
+          "top_cidades": [
+            {
+              "cidade": "COTIA",
+              "clientes": 1
+            },
+            {
+              "cidade": "VOTORANTIM",
+              "clientes": 1
+            }
+          ]
+        }
+      }
+    },
+    {
+      "ramo": "LANCHONETE",
+      "total_clientes": 5,
+      "clientes_ativos_mes": 1,
+      "cobertura_pct": 20.0,
+      "faturamento_ytd": 5928.68,
+      "media_mensal": 1976.23,
+      "por_mes": {
+        "2026-05": 1093.48,
+        "2026-06": 1905.4,
+        "2026-07": 2929.8
+      },
+      "top_cidades": [
+        {
+          "cidade": "BELO HORIZONTE",
+          "clientes": 3
+        },
+        {
+          "cidade": "DIVINOPOLIS",
+          "clientes": 1
+        },
+        {
+          "cidade": "JUIZ DE FORA",
+          "clientes": 1
+        }
+      ],
+      "por_vendedor": {
+        "MG-327": {
+          "total_clientes": 3,
+          "clientes_ativos_mes": 0,
+          "cobertura_pct": 0.0,
+          "faturamento_ytd": 0.0,
+          "media_mensal": 0.0,
+          "por_mes": {},
+          "top_cidades": [
+            {
+              "cidade": "BELO HORIZONTE",
+              "clientes": 3
+            }
+          ]
+        },
+        "MG-331": {
+          "total_clientes": 1,
+          "clientes_ativos_mes": 0,
+          "cobertura_pct": 0.0,
+          "faturamento_ytd": 1406.18,
+          "media_mensal": 703.09,
+          "por_mes": {
+            "2026-05": 1093.48,
+            "2026-06": 312.7
+          },
+          "top_cidades": [
+            {
+              "cidade": "JUIZ DE FORA",
+              "clientes": 1
+            }
+          ]
+        },
+        "MG-343": {
+          "total_clientes": 1,
+          "clientes_ativos_mes": 1,
+          "cobertura_pct": 100.0,
+          "faturamento_ytd": 4522.5,
+          "media_mensal": 2261.25,
+          "por_mes": {
+            "2026-06": 1592.7,
+            "2026-07": 2929.8
+          },
+          "top_cidades": [
+            {
+              "cidade": "DIVINOPOLIS",
               "clientes": 1
             }
           ]
@@ -17539,33 +18129,51 @@ const RAIOX_CLIENTES_DATA = {
     },
     {
       "ramo": "BANCA DE JORNAL",
-      "total_clientes": 1,
-      "clientes_ativos_mes": 1,
+      "total_clientes": 2,
+      "clientes_ativos_mes": 2,
       "cobertura_pct": 100.0,
-      "faturamento_ytd": 1714.9,
-      "media_mensal": 571.63,
+      "faturamento_ytd": 2663.75,
+      "media_mensal": 665.94,
       "por_mes": {
+        "2026-04": 189.4,
         "2026-05": 554.8,
         "2026-06": 773.4,
-        "2026-07": 386.7
+        "2026-07": 1146.15
       },
       "top_cidades": [
         {
           "cidade": "RIO DE JANEIRO",
-          "clientes": 1
+          "clientes": 2
         }
       ],
       "por_vendedor": {
+        "RJ-378": {
+          "total_clientes": 1,
+          "clientes_ativos_mes": 1,
+          "cobertura_pct": 100.0,
+          "faturamento_ytd": 433.25,
+          "media_mensal": 216.62,
+          "por_mes": {
+            "2026-04": 189.4,
+            "2026-07": 243.85
+          },
+          "top_cidades": [
+            {
+              "cidade": "RIO DE JANEIRO",
+              "clientes": 1
+            }
+          ]
+        },
         "RJ-471": {
           "total_clientes": 1,
           "clientes_ativos_mes": 1,
           "cobertura_pct": 100.0,
-          "faturamento_ytd": 1714.9,
-          "media_mensal": 571.63,
+          "faturamento_ytd": 2230.5,
+          "media_mensal": 743.5,
           "por_mes": {
             "2026-05": 554.8,
             "2026-06": 773.4,
-            "2026-07": 386.7
+            "2026-07": 902.3
           },
           "top_cidades": [
             {
@@ -17614,70 +18222,34 @@ const RAIOX_CLIENTES_DATA = {
       }
     },
     {
-      "ramo": "AÇOUGUE",
-      "total_clientes": 3,
-      "clientes_ativos_mes": 0,
-      "cobertura_pct": 0.0,
-      "faturamento_ytd": 747.6,
-      "media_mensal": 747.6,
+      "ramo": "SERVIÇOS DE ORGANIZACAO DE FEIRAS, CONGR",
+      "total_clientes": 1,
+      "clientes_ativos_mes": 1,
+      "cobertura_pct": 100.0,
+      "faturamento_ytd": 750.4,
+      "media_mensal": 750.4,
       "por_mes": {
-        "2026-06": 747.6
+        "2026-07": 750.4
       },
       "top_cidades": [
         {
-          "cidade": "ARUJA",
-          "clientes": 1
-        },
-        {
-          "cidade": "RIO DE JANEIRO",
-          "clientes": 1
-        },
-        {
-          "cidade": "SANTO ANTONIO DO PINHAL",
+          "cidade": "JUIZ DE FORA",
           "clientes": 1
         }
       ],
       "por_vendedor": {
-        "SP-399": {
+        "MG-331": {
           "total_clientes": 1,
-          "clientes_ativos_mes": 0,
-          "cobertura_pct": 0.0,
-          "faturamento_ytd": 0.0,
-          "media_mensal": 0.0,
-          "por_mes": {},
-          "top_cidades": [
-            {
-              "cidade": "RIO DE JANEIRO",
-              "clientes": 1
-            }
-          ]
-        },
-        "SP-471": {
-          "total_clientes": 1,
-          "clientes_ativos_mes": 0,
-          "cobertura_pct": 0.0,
-          "faturamento_ytd": 747.6,
-          "media_mensal": 747.6,
+          "clientes_ativos_mes": 1,
+          "cobertura_pct": 100.0,
+          "faturamento_ytd": 750.4,
+          "media_mensal": 750.4,
           "por_mes": {
-            "2026-06": 747.6
+            "2026-07": 750.4
           },
           "top_cidades": [
             {
-              "cidade": "ARUJA",
-              "clientes": 1
-            }
-          ]
-        },
-        "SP-511": {
-          "total_clientes": 1,
-          "clientes_ativos_mes": 0,
-          "cobertura_pct": 0.0,
-          "faturamento_ytd": 0.0,
-          "media_mensal": 0.0,
-          "por_mes": {},
-          "top_cidades": [
-            {
-              "cidade": "SANTO ANTONIO DO PINHAL",
+              "cidade": "JUIZ DE FORA",
               "clientes": 1
             }
           ]
@@ -17720,71 +18292,34 @@ const RAIOX_CLIENTES_DATA = {
       }
     },
     {
-      "ramo": "ATIVIDADES DE CONDICIONAMENTO FISICO",
+      "ramo": "CLUBE ESPORTIVO",
       "total_clientes": 1,
-      "clientes_ativos_mes": 0,
-      "cobertura_pct": 0.0,
-      "faturamento_ytd": 457.68,
-      "media_mensal": 228.84,
+      "clientes_ativos_mes": 1,
+      "cobertura_pct": 100.0,
+      "faturamento_ytd": 235.7,
+      "media_mensal": 235.7,
       "por_mes": {
-        "2026-01": 287.28,
-        "2026-05": 170.4
+        "2026-07": 235.7
       },
       "top_cidades": [
         {
-          "cidade": "BELO HORIZONTE",
+          "cidade": "RIBEIRAO PIRES",
           "clientes": 1
         }
       ],
       "por_vendedor": {
-        "MG-327": {
+        "SP-499": {
           "total_clientes": 1,
-          "clientes_ativos_mes": 0,
-          "cobertura_pct": 0.0,
-          "faturamento_ytd": 457.68,
-          "media_mensal": 228.84,
+          "clientes_ativos_mes": 1,
+          "cobertura_pct": 100.0,
+          "faturamento_ytd": 235.7,
+          "media_mensal": 235.7,
           "por_mes": {
-            "2026-01": 287.28,
-            "2026-05": 170.4
+            "2026-07": 235.7
           },
           "top_cidades": [
             {
-              "cidade": "BELO HORIZONTE",
-              "clientes": 1
-            }
-          ]
-        }
-      }
-    },
-    {
-      "ramo": "ATIVIDADES DE ASS. DE DEF DE DIREITOS SO",
-      "total_clientes": 1,
-      "clientes_ativos_mes": 0,
-      "cobertura_pct": 0.0,
-      "faturamento_ytd": 282.72,
-      "media_mensal": 282.72,
-      "por_mes": {
-        "2026-04": 282.72
-      },
-      "top_cidades": [
-        {
-          "cidade": "BELO HORIZONTE",
-          "clientes": 1
-        }
-      ],
-      "por_vendedor": {
-        "MG-327": {
-          "total_clientes": 1,
-          "clientes_ativos_mes": 0,
-          "cobertura_pct": 0.0,
-          "faturamento_ytd": 282.72,
-          "media_mensal": 282.72,
-          "por_mes": {
-            "2026-04": 282.72
-          },
-          "top_cidades": [
-            {
-              "cidade": "BELO HORIZONTE",
+              "cidade": "RIBEIRAO PIRES",
               "clientes": 1
             }
           ]
@@ -17793,7 +18328,7 @@ const RAIOX_CLIENTES_DATA = {
     },
     {
       "ramo": "ESCRITÓRIO",
-      "total_clientes": 3,
+      "total_clientes": 1,
       "clientes_ativos_mes": 0,
       "cobertura_pct": 0.0,
       "faturamento_ytd": 0.0,
@@ -17802,14 +18337,6 @@ const RAIOX_CLIENTES_DATA = {
       "top_cidades": [
         {
           "cidade": "BELO HORIZONTE",
-          "clientes": 1
-        },
-        {
-          "cidade": "RIO DE JANEIRO",
-          "clientes": 1
-        },
-        {
-          "cidade": "SAO PAULO",
           "clientes": 1
         }
       ],
@@ -17824,24 +18351,6 @@ const RAIOX_CLIENTES_DATA = {
           "top_cidades": [
             {
               "cidade": "BELO HORIZONTE",
-              "clientes": 1
-            }
-          ]
-        },
-        "SP-399": {
-          "total_clientes": 2,
-          "clientes_ativos_mes": 0,
-          "cobertura_pct": 0.0,
-          "faturamento_ytd": 0.0,
-          "media_mensal": 0.0,
-          "por_mes": {},
-          "top_cidades": [
-            {
-              "cidade": "RIO DE JANEIRO",
-              "clientes": 1
-            },
-            {
-              "cidade": "SAO PAULO",
               "clientes": 1
             }
           ]
@@ -17881,7 +18390,7 @@ const RAIOX_CLIENTES_DATA = {
     },
     {
       "ramo": "INDÚSTRIA",
-      "total_clientes": 3,
+      "total_clientes": 4,
       "clientes_ativos_mes": 0,
       "cobertura_pct": 0.0,
       "faturamento_ytd": 0.0,
@@ -17894,6 +18403,10 @@ const RAIOX_CLIENTES_DATA = {
         },
         {
           "cidade": "CARIACICA",
+          "clientes": 1
+        },
+        {
+          "cidade": "SAO CARLOS",
           "clientes": 1
         }
       ],
@@ -17912,6 +18425,20 @@ const RAIOX_CLIENTES_DATA = {
             },
             {
               "cidade": "CARIACICA",
+              "clientes": 1
+            }
+          ]
+        },
+        "SP-469": {
+          "total_clientes": 1,
+          "clientes_ativos_mes": 0,
+          "cobertura_pct": 0.0,
+          "faturamento_ytd": 0.0,
+          "media_mensal": 0.0,
+          "por_mes": {},
+          "top_cidades": [
+            {
+              "cidade": "SAO CARLOS",
               "clientes": 1
             }
           ]
@@ -17943,6 +18470,37 @@ const RAIOX_CLIENTES_DATA = {
           "top_cidades": [
             {
               "cidade": "RIO DE JANEIRO",
+              "clientes": 1
+            }
+          ]
+        }
+      }
+    },
+    {
+      "ramo": "SERVICO DE CONSULTORIA",
+      "total_clientes": 1,
+      "clientes_ativos_mes": 0,
+      "cobertura_pct": 0.0,
+      "faturamento_ytd": 0.0,
+      "media_mensal": 0.0,
+      "por_mes": {},
+      "top_cidades": [
+        {
+          "cidade": "BELO HORIZONTE",
+          "clientes": 1
+        }
+      ],
+      "por_vendedor": {
+        "MG-344": {
+          "total_clientes": 1,
+          "clientes_ativos_mes": 0,
+          "cobertura_pct": 0.0,
+          "faturamento_ytd": 0.0,
+          "media_mensal": 0.0,
+          "por_mes": {},
+          "top_cidades": [
+            {
+              "cidade": "BELO HORIZONTE",
               "clientes": 1
             }
           ]
