@@ -1,6 +1,6 @@
 // Gerado automaticamente
 const RAIOX_OPORTUNIDADES_DATA = {
-  "atualizado_em": "18/08/2026 11:23",
+  "atualizado_em": "18/08/2026 12:06",
   "periodo_atual": {
     "inicio": "01/08/2026",
     "fim": "18/08/2026",
@@ -5184,11 +5184,11 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "bairro": "AGUA FUNDA",
       "ramo": "EMPORIO/BAZAR",
       "vendedor": "BRYAN PALOPOLI",
-      "gerente": "Sem gerente",
-      "supervisor": "Sem supervisor",
+      "gerente": "MARCUS TANAMACHI",
+      "supervisor": "MARCUS TANAMACHI",
       "chaves_rca": [
-        "SP-BLENDED-399.0",
-        "SP-SPON-399.0"
+        "SP-SPON-399.0",
+        "SP-BLENDED-399.0"
       ],
       "por_industria": [
         {
@@ -5789,12 +5789,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "UPSIDE DISTRIBUICAO DE ALIMENTOS",
       "bairro": "CHÁCARAS COTIA",
       "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "vendedor": "FERNANDO RISSON",
+      "vendedor": "DOUGLAS FERREIRA SILVA",
       "gerente": "FERNANDO RISSON",
       "supervisor": "FERNANDO RISSON",
       "chaves_rca": [
-        "MG-MGON-343.0",
-        "MG-MGON-388"
+        "MG-MGON-388",
+        "MG-MGON-343.0"
       ],
       "por_industria": [
         {
@@ -6969,11 +6969,11 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "bairro": "VILA IPOJUCA",
       "ramo": "MERCADO",
       "vendedor": "BRYAN PALOPOLI",
-      "gerente": "Sem gerente",
-      "supervisor": "Sem supervisor",
+      "gerente": "MARCUS TANAMACHI",
+      "supervisor": "MARCUS TANAMACHI",
       "chaves_rca": [
-        "SP-BLENDED-399.0",
-        "SP-SPON-399.0"
+        "SP-SPON-399.0",
+        "SP-BLENDED-399.0"
       ],
       "por_industria": [
         {
@@ -10299,12 +10299,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "RARO INDUSTRIA DE ALIMENTOS",
       "bairro": "TAPERA",
       "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "vendedor": "FERNANDO RISSON",
+      "vendedor": "LEANDRO OLIVEIRA",
       "gerente": "FERNANDO RISSON",
       "supervisor": "FERNANDO RISSON",
       "chaves_rca": [
-        "MG-MGON-343.0",
-        "MG-MGON-360"
+        "MG-MGON-360",
+        "MG-MGON-343.0"
       ],
       "por_industria": [
         {
@@ -14061,12 +14061,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "SUPERMERCADO SUPER LUNA S.A",
       "bairro": "BANDEIRINHAS",
       "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "vendedor": "FERNANDO RISSON",
+      "vendedor": "LEANDRO OLIVEIRA",
       "gerente": "FERNANDO RISSON",
       "supervisor": "FERNANDO RISSON",
       "chaves_rca": [
-        "MG-MGON-343.0",
-        "MG-MGON-360"
+        "MG-MGON-360",
+        "MG-MGON-343.0"
       ],
       "por_industria": [
         {
@@ -23098,11 +23098,11 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "bairro": "BELA VISTA",
       "ramo": "MERCADO",
       "vendedor": "BRYAN PALOPOLI",
-      "gerente": "Sem gerente",
-      "supervisor": "Sem supervisor",
+      "gerente": "MARCUS TANAMACHI",
+      "supervisor": "MARCUS TANAMACHI",
       "chaves_rca": [
-        "SP-BLENDED-399.0",
-        "SP-SPON-399.0"
+        "SP-SPON-399.0",
+        "SP-BLENDED-399.0"
       ],
       "por_industria": [
         {
@@ -24731,12 +24731,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "SUPERMERCADOS ABC",
       "bairro": "BOM PASTOR",
       "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "vendedor": "FERNANDO RISSON",
+      "vendedor": "LEANDRO OLIVEIRA",
       "gerente": "FERNANDO RISSON",
       "supervisor": "FERNANDO RISSON",
       "chaves_rca": [
-        "MG-MGON-343.0",
-        "MG-MGON-360"
+        "MG-MGON-360",
+        "MG-MGON-343.0"
       ],
       "por_industria": [
         {
@@ -38221,12 +38221,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "SUPERMERCADOS ABC",
       "bairro": "ZONA RURAL",
       "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "vendedor": "FERNANDO RISSON",
+      "vendedor": "LEANDRO OLIVEIRA",
       "gerente": "FERNANDO RISSON",
       "supervisor": "FERNANDO RISSON",
       "chaves_rca": [
-        "MG-MGON-343.0",
-        "MG-MGON-360"
+        "MG-MGON-360",
+        "MG-MGON-343.0"
       ],
       "por_industria": [
         {
@@ -38324,12 +38324,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS",
       "bairro": "BALNEARIO PRAIA DO PEREQUÊ",
       "ramo": "MERCADO",
-      "vendedor": "ROBSON DA SILVA",
+      "vendedor": "BRYAN PALOPOLI",
       "gerente": "MARCUS TANAMACHI",
-      "supervisor": "ANDERSON CANAVEIS",
+      "supervisor": "MARCUS TANAMACHI",
       "chaves_rca": [
-        "SP-SPON-317",
-        "SP-SPON-399.0"
+        "SP-SPON-399.0",
+        "SP-SPON-317"
       ],
       "por_industria": [
         {
@@ -42458,12 +42458,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "SUPERMERCADO DA FREGUESIA LTDA",
       "bairro": "NOSSA SENHORA DO Ó",
       "ramo": "MERCADO",
-      "vendedor": "ANDRE SILVA",
+      "vendedor": "BRYAN PALOPOLI",
       "gerente": "MARCUS TANAMACHI",
-      "supervisor": "ANDERSON CANAVEIS",
+      "supervisor": "MARCUS TANAMACHI",
       "chaves_rca": [
-        "SP-SPON-391",
-        "SP-SPON-399.0"
+        "SP-SPON-399.0",
+        "SP-SPON-391"
       ],
       "por_industria": [
         {
@@ -66889,12 +66889,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "DUARTE DISTRIBUIDORA",
       "bairro": "ANGOLA",
       "ramo": "EVENTOS",
-      "vendedor": "JOÃO SANTOS",
+      "vendedor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "supervisor": "FERNANDO RISSON",
       "chaves_rca": [
-        "MG-MGON-327",
-        "MG-MGON-343.0"
+        "MG-MGON-343.0",
+        "MG-MGON-327"
       ],
       "por_industria": [
         {
@@ -79629,12 +79629,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "SUPERMERCADO SANI",
       "bairro": "CENTRO",
       "ramo": "MINI-MERCADO",
-      "vendedor": "LEONARDO FLOREZI",
+      "vendedor": "BRYAN PALOPOLI",
       "gerente": "MARCUS TANAMACHI",
-      "supervisor": "PRISCILLA BONACHE",
+      "supervisor": "MARCUS TANAMACHI",
       "chaves_rca": [
-        "SP-SPON-486",
-        "SP-SPON-399.0"
+        "SP-SPON-399.0",
+        "SP-SPON-486"
       ],
       "por_industria": [
         {
@@ -80116,12 +80116,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "SUPERMERCADO BRASIL",
       "bairro": "ANGÉLICA",
       "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "vendedor": "FERNANDO RISSON",
+      "vendedor": "LEANDRO OLIVEIRA",
       "gerente": "FERNANDO RISSON",
       "supervisor": "FERNANDO RISSON",
       "chaves_rca": [
-        "MG-MGON-343.0",
-        "MG-MGON-360"
+        "MG-MGON-360",
+        "MG-MGON-343.0"
       ],
       "por_industria": [
         {
@@ -100932,12 +100932,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "MERCADINHO MATO DENTRO",
       "bairro": "MATO DENTRO",
       "ramo": "MERCADO",
-      "vendedor": "RENATO JUNIOR",
+      "vendedor": "BRYAN PALOPOLI",
       "gerente": "MARCUS TANAMACHI",
       "supervisor": "MARCUS TANAMACHI",
       "chaves_rca": [
-        "SP-SPON-468",
-        "SP-SPON-399.0"
+        "SP-SPON-399.0",
+        "SP-SPON-468"
       ],
       "por_industria": [
         {
@@ -105777,12 +105777,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "BENDITO CAFE E PADARIA",
       "bairro": "CENTRO",
       "ramo": "PADARIA",
-      "vendedor": "TIAGO ANDRADE",
+      "vendedor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "supervisor": "FERNANDO RISSON",
       "chaves_rca": [
-        "MG-MGON-344",
-        "MG-MGON-343.0"
+        "MG-MGON-343.0",
+        "MG-MGON-344"
       ],
       "por_industria": [
         {
@@ -112864,12 +112864,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "PARANAIBA VALE DAS ORQUIDEAS ALIMENTOS",
       "bairro": "VALE DAS ORQUÍDEAS",
       "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "vendedor": "FERNANDO RISSON",
+      "vendedor": "MATHEUS DE SOUZA",
       "gerente": "FERNANDO RISSON",
       "supervisor": "FERNANDO RISSON",
       "chaves_rca": [
-        "MG-MGON-343.0",
-        "MG-MGON-354"
+        "MG-MGON-354",
+        "MG-MGON-343.0"
       ],
       "por_industria": [
         {
@@ -120559,12 +120559,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "ZE DO CHURRASCO BAR E COMERCIO",
       "bairro": "BURITIS",
       "ramo": "RESTAURANTE",
-      "vendedor": "JOÃO SANTOS",
+      "vendedor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "supervisor": "FERNANDO RISSON",
       "chaves_rca": [
-        "MG-MGON-327",
-        "MG-MGON-343.0"
+        "MG-MGON-343.0",
+        "MG-MGON-327"
       ],
       "por_industria": [
         {
@@ -120732,12 +120732,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "PARANAIBA FORTALEZA",
       "bairro": "SAO JOAO BATISTA (VENDA NOVA)",
       "ramo": "COMERCIO ATACADISTA (GERAL)",
-      "vendedor": "FERNANDO RISSON",
+      "vendedor": "MATHEUS DE SOUZA",
       "gerente": "FERNANDO RISSON",
       "supervisor": "FERNANDO RISSON",
       "chaves_rca": [
-        "MG-MGON-343.0",
-        "MG-MGON-354"
+        "MG-MGON-354",
+        "MG-MGON-343.0"
       ],
       "por_industria": [
         {
@@ -122106,12 +122106,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "COMERCIAL DE PRODUTOS ALIMENTICIOS MINARDI",
       "bairro": "PARQUE SAO JORGE",
       "ramo": "MERCADO",
-      "vendedor": "ADER ALONSO",
+      "vendedor": "LUCIANO TOSCHI",
       "gerente": "MARCUS TANAMACHI",
       "supervisor": "PRISCILLA BONACHE",
       "chaves_rca": [
-        "SP-SPON-426",
-        "SP-SPON-477.0"
+        "SP-SPON-477.0",
+        "SP-SPON-426"
       ],
       "por_industria": [
         {
@@ -132027,12 +132027,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "ARMAZEM BRASIL LIMITADA",
       "bairro": "JARDIM AMÉRICA",
       "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "vendedor": "FERNANDO RISSON",
+      "vendedor": "LEANDRO OLIVEIRA",
       "gerente": "FERNANDO RISSON",
       "supervisor": "FERNANDO RISSON",
       "chaves_rca": [
-        "MG-MGON-343.0",
-        "MG-MGON-360"
+        "MG-MGON-360",
+        "MG-MGON-343.0"
       ],
       "por_industria": [
         {
@@ -133777,12 +133777,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "PARANAIBA EXPRESS",
       "bairro": "ALPHAVILLE VESPASIANO",
       "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "vendedor": "FERNANDO RISSON",
+      "vendedor": "MATHEUS DE SOUZA",
       "gerente": "FERNANDO RISSON",
       "supervisor": "FERNANDO RISSON",
       "chaves_rca": [
-        "MG-MGON-343.0",
-        "MG-MGON-354"
+        "MG-MGON-354",
+        "MG-MGON-343.0"
       ],
       "por_industria": [
         {
@@ -138201,12 +138201,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "SAO LUIS CONVENIENCIA",
       "bairro": "AEROPORTO",
       "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "vendedor": "TIAGO ANDRADE",
+      "vendedor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "supervisor": "FERNANDO RISSON",
       "chaves_rca": [
-        "MG-MGON-344",
-        "MG-MGON-343.0"
+        "MG-MGON-343.0",
+        "MG-MGON-344"
       ],
       "por_industria": [
         {
@@ -139624,12 +139624,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "PARANAIBA VESPASIANO",
       "bairro": "SANTA CLARA",
       "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "vendedor": "FERNANDO RISSON",
+      "vendedor": "MATHEUS DE SOUZA",
       "gerente": "FERNANDO RISSON",
       "supervisor": "FERNANDO RISSON",
       "chaves_rca": [
-        "MG-MGON-343.0",
-        "MG-MGON-354"
+        "MG-MGON-354",
+        "MG-MGON-343.0"
       ],
       "por_industria": [
         {
@@ -148749,12 +148749,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "PARANAIBA TUPI",
       "bairro": "TUPI B",
       "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "vendedor": "FERNANDO RISSON",
+      "vendedor": "MATHEUS DE SOUZA",
       "gerente": "FERNANDO RISSON",
       "supervisor": "FERNANDO RISSON",
       "chaves_rca": [
-        "MG-MGON-343.0",
-        "MG-MGON-354"
+        "MG-MGON-354",
+        "MG-MGON-343.0"
       ],
       "por_industria": [
         {
@@ -148816,12 +148816,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "PARANAIBA RIO BRANCO SUPERMERCADOS EIRELI",
       "bairro": "RIO BRANCO",
       "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "vendedor": "FERNANDO RISSON",
+      "vendedor": "MATHEUS DE SOUZA",
       "gerente": "FERNANDO RISSON",
       "supervisor": "FERNANDO RISSON",
       "chaves_rca": [
-        "MG-MGON-343.0",
-        "MG-MGON-354"
+        "MG-MGON-354",
+        "MG-MGON-343.0"
       ],
       "por_industria": [
         {
@@ -148883,12 +148883,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "PARANAIBA GUANABARA ALIMENTOS LTDA",
       "bairro": "JARDIM GUANABARA",
       "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "vendedor": "FERNANDO RISSON",
+      "vendedor": "MATHEUS DE SOUZA",
       "gerente": "FERNANDO RISSON",
       "supervisor": "FERNANDO RISSON",
       "chaves_rca": [
-        "MG-MGON-343.0",
-        "MG-MGON-354"
+        "MG-MGON-354",
+        "MG-MGON-343.0"
       ],
       "por_industria": [
         {
@@ -148950,12 +148950,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "SUPERMERCADOS PARANAIBA",
       "bairro": "CAPITAO EDURARDO",
       "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "vendedor": "FERNANDO RISSON",
+      "vendedor": "MATHEUS DE SOUZA",
       "gerente": "FERNANDO RISSON",
       "supervisor": "FERNANDO RISSON",
       "chaves_rca": [
-        "MG-MGON-343.0",
-        "MG-MGON-354"
+        "MG-MGON-354",
+        "MG-MGON-343.0"
       ],
       "por_industria": [
         {
@@ -153714,12 +153714,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "PARANAIBA SERRA VERDE",
       "bairro": "SERRA VERDE (VENDA NOVA)",
       "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "vendedor": "FERNANDO RISSON",
+      "vendedor": "MATHEUS DE SOUZA",
       "gerente": "FERNANDO RISSON",
       "supervisor": "FERNANDO RISSON",
       "chaves_rca": [
-        "MG-MGON-343.0",
-        "MG-MGON-354"
+        "MG-MGON-354",
+        "MG-MGON-343.0"
       ],
       "por_industria": [
         {
@@ -154110,12 +154110,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "BR MANIA",
       "bairro": "SANTO ANTONIO",
       "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "vendedor": "JOÃO SANTOS",
+      "vendedor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "supervisor": "FERNANDO RISSON",
       "chaves_rca": [
-        "MG-MGON-327",
-        "MG-MGON-343.0"
+        "MG-MGON-343.0",
+        "MG-MGON-327"
       ],
       "por_industria": [
         {
@@ -157127,12 +157127,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "BRUNNA MURIEL ANTUNES DE ANDRADE MEDINA MERCADINHO, PADARIA",
       "bairro": "PARAISÓPOLIS",
       "ramo": "MINI-MERCADO",
-      "vendedor": "BRYAN PALOPOLI",
+      "vendedor": "CARLOS DE ALMEIDA",
       "gerente": "MARCUS TANAMACHI",
-      "supervisor": "MARCUS TANAMACHI",
+      "supervisor": "ANDERSON CANAVEIS",
       "chaves_rca": [
-        "SP-SPON-399.0",
-        "SP-SPON-371"
+        "SP-SPON-371",
+        "SP-SPON-399.0"
       ],
       "por_industria": [
         {
@@ -157211,12 +157211,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "SUPERMERCADO NOVA CENTRAL 7",
       "bairro": "JARDIM SAPORITO",
       "ramo": "MINI-MERCADO",
-      "vendedor": "BRYAN PALOPOLI",
+      "vendedor": "CARLOS DE ALMEIDA",
       "gerente": "MARCUS TANAMACHI",
-      "supervisor": "MARCUS TANAMACHI",
+      "supervisor": "ANDERSON CANAVEIS",
       "chaves_rca": [
-        "SP-SPON-399.0",
-        "SP-SPON-371"
+        "SP-SPON-371",
+        "SP-SPON-399.0"
       ],
       "por_industria": [
         {
@@ -157295,12 +157295,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "SUPERMERCADO NOVA CENTRAL 8",
       "bairro": "VILA OLINDA",
       "ramo": "MINI-MERCADO",
-      "vendedor": "BRYAN PALOPOLI",
+      "vendedor": "CARLOS DE ALMEIDA",
       "gerente": "MARCUS TANAMACHI",
-      "supervisor": "MARCUS TANAMACHI",
+      "supervisor": "ANDERSON CANAVEIS",
       "chaves_rca": [
-        "SP-SPON-399.0",
-        "SP-SPON-371"
+        "SP-SPON-371",
+        "SP-SPON-399.0"
       ],
       "por_industria": [
         {
@@ -157379,12 +157379,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "SUPERMERCADO NOVA CENTRAL VILA SONIA LTDA",
       "bairro": "VILA SÔNIA",
       "ramo": "MINI-MERCADO",
-      "vendedor": "BRYAN PALOPOLI",
+      "vendedor": "CARLOS DE ALMEIDA",
       "gerente": "MARCUS TANAMACHI",
-      "supervisor": "MARCUS TANAMACHI",
+      "supervisor": "ANDERSON CANAVEIS",
       "chaves_rca": [
-        "SP-SPON-399.0",
-        "SP-SPON-371"
+        "SP-SPON-371",
+        "SP-SPON-399.0"
       ],
       "por_industria": [
         {
@@ -183975,12 +183975,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "CABRAL BEER",
       "bairro": "CABRAL",
       "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "vendedor": "TIAGO ANDRADE",
+      "vendedor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "supervisor": "FERNANDO RISSON",
       "chaves_rca": [
-        "MG-MGON-344",
-        "MG-MGON-343.0"
+        "MG-MGON-343.0",
+        "MG-MGON-344"
       ],
       "por_industria": [
         {
@@ -185015,12 +185015,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "SUPERMERCADO BRASIL",
       "bairro": "SÃO SEBASTIAO",
       "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "vendedor": "FERNANDO RISSON",
+      "vendedor": "LEANDRO OLIVEIRA",
       "gerente": "FERNANDO RISSON",
       "supervisor": "FERNANDO RISSON",
       "chaves_rca": [
-        "MG-MGON-343.0",
-        "MG-MGON-360"
+        "MG-MGON-360",
+        "MG-MGON-343.0"
       ],
       "por_industria": [
         {
@@ -185152,12 +185152,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "ARMAZEM BRASIL LIMITADA",
       "bairro": "SANTA MATILDE",
       "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "vendedor": "FERNANDO RISSON",
+      "vendedor": "LEANDRO OLIVEIRA",
       "gerente": "FERNANDO RISSON",
       "supervisor": "FERNANDO RISSON",
       "chaves_rca": [
-        "MG-MGON-343.0",
-        "MG-MGON-360"
+        "MG-MGON-360",
+        "MG-MGON-343.0"
       ],
       "por_industria": [
         {
@@ -185340,12 +185340,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "SUPERMERCADO BRASIL",
       "bairro": "CENTRO",
       "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "vendedor": "FERNANDO RISSON",
+      "vendedor": "LEANDRO OLIVEIRA",
       "gerente": "FERNANDO RISSON",
       "supervisor": "FERNANDO RISSON",
       "chaves_rca": [
-        "MG-MGON-343.0",
-        "MG-MGON-360"
+        "MG-MGON-360",
+        "MG-MGON-343.0"
       ],
       "por_industria": [
         {
@@ -185630,12 +185630,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "SUPERMERCADOS REX LTDA",
       "bairro": "SANTA EFIGENIA",
       "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "vendedor": "FERNANDO RISSON",
+      "vendedor": "LEANDRO OLIVEIRA",
       "gerente": "FERNANDO RISSON",
       "supervisor": "FERNANDO RISSON",
       "chaves_rca": [
-        "MG-MGON-343.0",
-        "MG-MGON-360"
+        "MG-MGON-360",
+        "MG-MGON-343.0"
       ],
       "por_industria": [
         {
@@ -187731,12 +187731,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "ESTORIL CONVENIENCIA LTDA",
       "bairro": "NOVA SUÍSSA",
       "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "vendedor": "TIAGO ANDRADE",
+      "vendedor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "supervisor": "FERNANDO RISSON",
       "chaves_rca": [
-        "MG-MGON-344",
-        "MG-MGON-343.0"
+        "MG-MGON-343.0",
+        "MG-MGON-344"
       ],
       "por_industria": [
         {
@@ -188099,12 +188099,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "PIO XII CONVENIENCIA",
       "bairro": "ÁGUA BRANCA",
       "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "vendedor": "TIAGO ANDRADE",
+      "vendedor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "supervisor": "FERNANDO RISSON",
       "chaves_rca": [
-        "MG-MGON-344",
-        "MG-MGON-343.0"
+        "MG-MGON-343.0",
+        "MG-MGON-344"
       ],
       "por_industria": [
         {
@@ -196731,12 +196731,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "VITTORIA MAIS SUPERMERCADO EIRELI",
       "bairro": "JOAO ARANHA",
       "ramo": "PADARIA",
-      "vendedor": "PRISCILLA BONACHE",
+      "vendedor": "BRYAN PALOPOLI",
       "gerente": "MARCUS TANAMACHI",
-      "supervisor": "PRISCILLA BONACHE",
+      "supervisor": "MARCUS TANAMACHI",
       "chaves_rca": [
-        "SP-SPON-470",
-        "SP-SPON-399.0"
+        "SP-SPON-399.0",
+        "SP-SPON-470"
       ],
       "por_industria": [
         {
@@ -197084,11 +197084,11 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "bairro": "VILA PLANA",
       "ramo": "EVENTOS",
       "vendedor": "BRYAN PALOPOLI",
-      "gerente": "Sem gerente",
-      "supervisor": "Sem supervisor",
+      "gerente": "MARCUS TANAMACHI",
+      "supervisor": "MARCUS TANAMACHI",
       "chaves_rca": [
-        "SP-BLENDED-399.0",
-        "SP-SPON-399.0"
+        "SP-SPON-399.0",
+        "SP-BLENDED-399.0"
       ],
       "por_industria": [
         {
@@ -218705,12 +218705,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "VAREJAO PLANALTO LTDA.",
       "bairro": "PLANALTO",
       "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "vendedor": "FERNANDO RISSON",
+      "vendedor": "MATHEUS DE SOUZA",
       "gerente": "FERNANDO RISSON",
       "supervisor": "FERNANDO RISSON",
       "chaves_rca": [
-        "MG-MGON-343.0",
-        "MG-MGON-354"
+        "MG-MGON-354",
+        "MG-MGON-343.0"
       ],
       "por_industria": [
         {
@@ -221975,12 +221975,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "CACAU PARK",
       "bairro": "CENTRO",
       "ramo": "SERVIÇOS",
-      "vendedor": "LEONARDO FLOREZI",
+      "vendedor": "BRYAN PALOPOLI",
       "gerente": "MARCUS TANAMACHI",
-      "supervisor": "PRISCILLA BONACHE",
+      "supervisor": "MARCUS TANAMACHI",
       "chaves_rca": [
-        "SP-SPON-486",
-        "SP-SPON-399.0"
+        "SP-SPON-399.0",
+        "SP-SPON-486"
       ],
       "por_industria": [
         {
@@ -229479,11 +229479,11 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "bairro": "CASA BELLA BOSQUE RESIDENCIAL",
       "ramo": "MERCADO",
       "vendedor": "BRYAN PALOPOLI",
-      "gerente": "Sem gerente",
-      "supervisor": "Sem supervisor",
+      "gerente": "MARCUS TANAMACHI",
+      "supervisor": "MARCUS TANAMACHI",
       "chaves_rca": [
-        "SP-BLENDED-399.0",
-        "SP-SPON-399.0"
+        "SP-SPON-399.0",
+        "SP-BLENDED-399.0"
       ],
       "por_industria": [
         {
@@ -237195,12 +237195,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "SUPERMERCADO RAVAGIO",
       "bairro": "JARDIM DAS ACACIAS",
       "ramo": "MERCADO",
-      "vendedor": "GILSON DE OLIVEIRA",
+      "vendedor": "MANUELA ZAPPACOSTA",
       "gerente": "MARCUS TANAMACHI",
       "supervisor": "PRISCILLA BONACHE",
       "chaves_rca": [
-        "SP-SPON-491.0",
-        "SP-SPON-433"
+        "SP-SPON-433",
+        "SP-SPON-491.0"
       ],
       "por_industria": [
         {
@@ -238200,12 +238200,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "L R",
       "bairro": "PINHEIROS",
       "ramo": "CONVENIENCIA",
-      "vendedor": "BRYAN PALOPOLI",
+      "vendedor": "WILLIAM GONCALVES",
       "gerente": "MARCUS TANAMACHI",
-      "supervisor": "MARCUS TANAMACHI",
+      "supervisor": "ANDERSON CANAVEIS",
       "chaves_rca": [
-        "SP-SPON-399.0",
-        "SP-SPON-512"
+        "SP-SPON-512",
+        "SP-SPON-399.0"
       ],
       "por_industria": [
         {
@@ -255961,12 +255961,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "A PRACINHA",
       "bairro": "VILA NOVA CONCEIÇÃO",
       "ramo": "CAFETERIA",
-      "vendedor": "JOAO LUPORINI",
+      "vendedor": "BRYAN PALOPOLI",
       "gerente": "MARCUS TANAMACHI",
-      "supervisor": "ANDERSON CANAVEIS",
+      "supervisor": "MARCUS TANAMACHI",
       "chaves_rca": [
-        "SP-SPON-312",
-        "SP-SPON-399.0"
+        "SP-SPON-399.0",
+        "SP-SPON-312"
       ],
       "por_industria": [
         {
@@ -256655,12 +256655,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "NACIONAL PARANAIBA ALIMENTOS EIRELI",
       "bairro": "SÃO JANUÁRIO (JUSTINÓPOLIS)",
       "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "vendedor": "FERNANDO RISSON",
+      "vendedor": "MATHEUS DE SOUZA",
       "gerente": "FERNANDO RISSON",
       "supervisor": "FERNANDO RISSON",
       "chaves_rca": [
-        "MG-MGON-343.0",
-        "MG-MGON-354"
+        "MG-MGON-354",
+        "MG-MGON-343.0"
       ],
       "por_industria": [
         {
@@ -264805,12 +264805,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "SUPER MERCADO JOIA LIMITADA",
       "bairro": "VILA LIGYA",
       "ramo": "MERCADO",
-      "vendedor": "JOAO AUGUSTO -  OFF TRADE",
+      "vendedor": "CARLOS DE ALMEIDA",
       "gerente": "MARCUS TANAMACHI",
       "supervisor": "ANDERSON CANAVEIS",
       "chaves_rca": [
-        "SP-SPON-507.0",
-        "SP-SPON-371"
+        "SP-SPON-371",
+        "SP-SPON-507.0"
       ],
       "por_industria": [
         {
@@ -266197,12 +266197,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "SUPERMERCADO CATROQUE",
       "bairro": "MARACANA",
       "ramo": "MERCADO",
-      "vendedor": "LUCAS BUENO",
+      "vendedor": "BRYAN PALOPOLI",
       "gerente": "MARCUS TANAMACHI",
-      "supervisor": "PRISCILLA BONACHE",
+      "supervisor": "MARCUS TANAMACHI",
       "chaves_rca": [
-        "SP-SPON-475",
-        "SP-SPON-399.0"
+        "SP-SPON-399.0",
+        "SP-SPON-475"
       ],
       "por_industria": [
         {
@@ -266406,12 +266406,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "SUPERMERCADO CATROQUE",
       "bairro": "CENTRO",
       "ramo": "MERCADO",
-      "vendedor": "LUCAS BUENO",
+      "vendedor": "BRYAN PALOPOLI",
       "gerente": "MARCUS TANAMACHI",
-      "supervisor": "PRISCILLA BONACHE",
+      "supervisor": "MARCUS TANAMACHI",
       "chaves_rca": [
-        "SP-SPON-475",
-        "SP-SPON-399.0"
+        "SP-SPON-399.0",
+        "SP-SPON-475"
       ],
       "por_industria": [
         {
@@ -268624,12 +268624,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "SUPERMERCADO PARANAIBA",
       "bairro": "JAQUELINE",
       "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "vendedor": "FERNANDO RISSON",
+      "vendedor": "MATHEUS DE SOUZA",
       "gerente": "FERNANDO RISSON",
       "supervisor": "FERNANDO RISSON",
       "chaves_rca": [
-        "MG-MGON-343.0",
-        "MG-MGON-354"
+        "MG-MGON-354",
+        "MG-MGON-343.0"
       ],
       "por_industria": [
         {
@@ -293342,12 +293342,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "VAREJÃO AVENIDA ¿ RAUL FRANCO",
       "bairro": "CENTRO",
       "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "vendedor": "FERNANDO RISSON",
+      "vendedor": "MATHEUS DE SOUZA",
       "gerente": "FERNANDO RISSON",
       "supervisor": "FERNANDO RISSON",
       "chaves_rca": [
-        "MG-MGON-343.0",
-        "MG-MGON-354"
+        "MG-MGON-354",
+        "MG-MGON-343.0"
       ],
       "por_industria": [
         {
@@ -297798,12 +297798,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "VARANDA FRUTAS E MERCEARIA",
       "bairro": "CIDADE JARDIM",
       "ramo": "MERCADO",
-      "vendedor": "ANDRE PINHEIRO",
+      "vendedor": "BRYAN PALOPOLI",
       "gerente": "MARCUS TANAMACHI",
       "supervisor": "MARCUS TANAMACHI",
       "chaves_rca": [
-        "SP-SPON-485",
-        "SP-SPON-399.0"
+        "SP-SPON-399.0",
+        "SP-SPON-485"
       ],
       "por_industria": [
         {
@@ -303846,12 +303846,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "BURITIS CONVENIENCIA LTDA",
       "bairro": "ESTORIL",
       "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "vendedor": "TIAGO ANDRADE",
+      "vendedor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "supervisor": "FERNANDO RISSON",
       "chaves_rca": [
-        "MG-MGON-344",
-        "MG-MGON-343.0"
+        "MG-MGON-343.0",
+        "MG-MGON-344"
       ],
       "por_industria": [
         {
@@ -311406,12 +311406,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "EMPORIO SAO PAULO",
       "bairro": "VILA NOVA CONCEICAO",
       "ramo": "MERCADO",
-      "vendedor": "WILLIAM GONCALVES",
+      "vendedor": "BRYAN PALOPOLI",
       "gerente": "MARCUS TANAMACHI",
-      "supervisor": "ANDERSON CANAVEIS",
+      "supervisor": "MARCUS TANAMACHI",
       "chaves_rca": [
-        "SP-SPON-512.0",
-        "SP-SPON-399"
+        "SP-SPON-399",
+        "SP-SPON-512.0"
       ],
       "por_industria": [
         {
@@ -323772,11 +323772,11 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "bairro": "CONSOLACAO",
       "ramo": "MERCADO",
       "vendedor": "BRYAN PALOPOLI",
-      "gerente": "MARCUS TANAMACHI",
-      "supervisor": "MARCUS TANAMACHI",
+      "gerente": "Sem gerente",
+      "supervisor": "Sem supervisor",
       "chaves_rca": [
-        "SP-SPON-399.0",
-        "SP-BLENDED-399.0"
+        "SP-BLENDED-399.0",
+        "SP-SPON-399.0"
       ],
       "por_industria": [
         {
@@ -327881,12 +327881,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "HIPER OPA LTDA - SARAMENHA",
       "bairro": "GUARANI",
       "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "vendedor": "FERNANDO RISSON",
+      "vendedor": "MATHEUS DE SOUZA",
       "gerente": "FERNANDO RISSON",
       "supervisor": "FERNANDO RISSON",
       "chaves_rca": [
-        "MG-MGON-343.0",
-        "MG-MGON-354"
+        "MG-MGON-354",
+        "MG-MGON-343.0"
       ],
       "por_industria": [
         {
@@ -331527,12 +331527,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "VAREJÃO AVENIDA - JOÃO PINHEIRO",
       "bairro": "CAETÉ",
       "ramo": "BAR",
-      "vendedor": "FERNANDO RISSON",
+      "vendedor": "MATHEUS DE SOUZA",
       "gerente": "FERNANDO RISSON",
       "supervisor": "FERNANDO RISSON",
       "chaves_rca": [
-        "MG-MGON-343.0",
-        "MG-MGON-354"
+        "MG-MGON-354",
+        "MG-MGON-343.0"
       ],
       "por_industria": [
         {
@@ -333265,12 +333265,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "HIPER OPA LTDA - MINASLÂNDIA",
       "bairro": "PROVIDÊNCIA",
       "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "vendedor": "FERNANDO RISSON",
+      "vendedor": "MATHEUS DE SOUZA",
       "gerente": "FERNANDO RISSON",
       "supervisor": "FERNANDO RISSON",
       "chaves_rca": [
-        "MG-MGON-343.0",
-        "MG-MGON-354"
+        "MG-MGON-354",
+        "MG-MGON-343.0"
       ],
       "por_industria": [
         {
@@ -333455,12 +333455,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "CEVAROLI SUPERMERCADOS ¿ PLANALTO",
       "bairro": "VILA CLORIS",
       "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "vendedor": "FERNANDO RISSON",
+      "vendedor": "MATHEUS DE SOUZA",
       "gerente": "FERNANDO RISSON",
       "supervisor": "FERNANDO RISSON",
       "chaves_rca": [
-        "MG-MGON-343.0",
-        "MG-MGON-354"
+        "MG-MGON-354",
+        "MG-MGON-343.0"
       ],
       "por_industria": [
         {
@@ -335371,12 +335371,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "OPA SUPERMERCADOS",
       "bairro": "NAZARE",
       "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "vendedor": "FERNANDO RISSON",
+      "vendedor": "MATHEUS DE SOUZA",
       "gerente": "FERNANDO RISSON",
       "supervisor": "FERNANDO RISSON",
       "chaves_rca": [
-        "MG-MGON-343.0",
-        "MG-MGON-354"
+        "MG-MGON-354",
+        "MG-MGON-343.0"
       ],
       "por_industria": [
         {
@@ -340165,12 +340165,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "BEER EXPRESS",
       "bairro": "JARDIM DONA IRMA",
       "ramo": "MERCADO",
-      "vendedor": "LEONARDO FLOREZI",
+      "vendedor": "MANUELA ZAPPACOSTA",
       "gerente": "MARCUS TANAMACHI",
       "supervisor": "PRISCILLA BONACHE",
       "chaves_rca": [
-        "SP-SPON-486.0",
-        "SP-SPON-433"
+        "SP-SPON-433",
+        "SP-SPON-486.0"
       ],
       "por_industria": [
         {
@@ -341810,12 +341810,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "CEVAROLI SUPERMERCADOS  FERNÃO DIAS",
       "bairro": "FERNÃO DIAS",
       "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "vendedor": "FERNANDO RISSON",
+      "vendedor": "MATHEUS DE SOUZA",
       "gerente": "FERNANDO RISSON",
       "supervisor": "FERNANDO RISSON",
       "chaves_rca": [
-        "MG-MGON-343.0",
-        "MG-MGON-354"
+        "MG-MGON-354",
+        "MG-MGON-343.0"
       ],
       "por_industria": [
         {
@@ -344683,12 +344683,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "DMA DISTRIBUIDORA S/A",
       "bairro": "VILA PARIS",
       "ramo": "COMERCIO ATACADISTA (GERAL)",
-      "vendedor": "FERNANDO RISSON",
+      "vendedor": "LEANDRO OLIVEIRA",
       "gerente": "FERNANDO RISSON",
       "supervisor": "FERNANDO RISSON",
       "chaves_rca": [
-        "MG-MGON-343.0",
-        "MG-MGON-360"
+        "MG-MGON-360",
+        "MG-MGON-343.0"
       ],
       "por_industria": [
         {
@@ -345119,12 +345119,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "TREND CAPITAL DISTRIBUICAO E COMERCIO DE BEBIDAS",
       "bairro": "JARDIM LONDRINA",
       "ramo": "ADEGA",
-      "vendedor": "BRYAN PALOPOLI",
+      "vendedor": "CARLOS DE ALMEIDA",
       "gerente": "MARCUS TANAMACHI",
-      "supervisor": "MARCUS TANAMACHI",
+      "supervisor": "ANDERSON CANAVEIS",
       "chaves_rca": [
-        "SP-SPON-399.0",
-        "SP-SPON-371"
+        "SP-SPON-371",
+        "SP-SPON-399.0"
       ],
       "por_industria": [
         {
@@ -346141,12 +346141,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "DAKI OFFICE BELO HORIZONTE",
       "bairro": "ARVOREDO 2ª SECAO",
       "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "vendedor": "FERNANDO RISSON",
+      "vendedor": "MATHEUS DE SOUZA",
       "gerente": "FERNANDO RISSON",
       "supervisor": "FERNANDO RISSON",
       "chaves_rca": [
-        "MG-MGON-343.0",
-        "MG-MGON-354"
+        "MG-MGON-354",
+        "MG-MGON-343.0"
       ],
       "por_industria": [
         {
@@ -346957,12 +346957,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "SUPERMERCADO BAHAMAS S/A",
       "bairro": "DISTRITO INDUSTRIAL",
       "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "vendedor": "FERNANDO RISSON",
+      "vendedor": "LEANDRO OLIVEIRA",
       "gerente": "FERNANDO RISSON",
       "supervisor": "FERNANDO RISSON",
       "chaves_rca": [
-        "MG-MGON-343.0",
-        "MG-MGON-360"
+        "MG-MGON-360",
+        "MG-MGON-343.0"
       ],
       "por_industria": [
         {
@@ -350127,12 +350127,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "SUPERMERCADO E PADARIA VERDEMAR",
       "bairro": "CARMO",
       "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "vendedor": "FERNANDO RISSON",
+      "vendedor": "LEANDRO OLIVEIRA",
       "gerente": "FERNANDO RISSON",
       "supervisor": "FERNANDO RISSON",
       "chaves_rca": [
-        "MG-MGON-343.0",
-        "MG-MGON-360"
+        "MG-MGON-360",
+        "MG-MGON-343.0"
       ],
       "por_industria": [
         {
@@ -350314,11 +350314,11 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "bairro": "INTERLAGOS",
       "ramo": "MERCADO",
       "vendedor": "BRYAN PALOPOLI",
-      "gerente": "Sem gerente",
-      "supervisor": "Sem supervisor",
+      "gerente": "MARCUS TANAMACHI",
+      "supervisor": "MARCUS TANAMACHI",
       "chaves_rca": [
-        "SP-BLENDED-399.0",
-        "SP-SPON-399.0"
+        "SP-SPON-399.0",
+        "SP-BLENDED-399.0"
       ],
       "por_industria": [
         {
@@ -352232,12 +352232,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "CENTRO DE DISTRIBUICAO SANTA HELENA",
       "bairro": "JARDIM PRIMAVERA L",
       "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "vendedor": "FERNANDO RISSON",
+      "vendedor": "MATHEUS DE SOUZA",
       "gerente": "FERNANDO RISSON",
       "supervisor": "FERNANDO RISSON",
       "chaves_rca": [
-        "MG-MGON-343.0",
-        "MG-MGON-354"
+        "MG-MGON-354",
+        "MG-MGON-343.0"
       ],
       "por_industria": [
         {
@@ -355522,11 +355522,11 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "bairro": "JARDIM SAO LUIS",
       "ramo": "MERCADO",
       "vendedor": "BRYAN PALOPOLI",
-      "gerente": "MARCUS TANAMACHI",
-      "supervisor": "MARCUS TANAMACHI",
+      "gerente": "Sem gerente",
+      "supervisor": "Sem supervisor",
       "chaves_rca": [
-        "SP-SPON-399.0",
-        "SP-BLENDED-399.0"
+        "SP-BLENDED-399.0",
+        "SP-SPON-399.0"
       ],
       "por_industria": [
         {
@@ -356995,12 +356995,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "THAYANE MICELE",
       "bairro": "INGÁ",
       "ramo": "BAR",
-      "vendedor": "JOÃO SANTOS",
+      "vendedor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "supervisor": "FERNANDO RISSON",
       "chaves_rca": [
-        "MG-MGON-327",
-        "MG-MGON-343.0"
+        "MG-MGON-343.0",
+        "MG-MGON-327"
       ],
       "por_industria": [
         {
@@ -358649,12 +358649,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "BIG MAIS SUPERMERCADOS",
       "bairro": "VILA ISA",
       "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "vendedor": "JETER LUCIO SOARES",
+      "vendedor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "supervisor": "FERNANDO RISSON",
       "chaves_rca": [
-        "MG-MGON-378",
-        "MG-MGON-343.0"
+        "MG-MGON-343.0",
+        "MG-MGON-378"
       ],
       "por_industria": [
         {
