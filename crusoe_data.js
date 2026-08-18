@@ -1,5 +1,5 @@
 const CRUSOE_DATA = {
-  "atualizado_em": "18/08/2026 16:25",
+  "atualizado_em": "18/08/2026 17:09",
   "periodo": {
     "ini": "01/07/2026",
     "fim": "31/08/2026"
@@ -516,14 +516,14 @@ const CRUSOE_DATA = {
         {
           "rca": 412,
           "vendedor": "Barbara Cabral",
-          "pedidos": 26,
-          "positivacoes": 15,
-          "novos_skus": 117,
-          "faturamento": 44397.61,
-          "pontos_positivacao": 75,
-          "pontos_novos_skus": 468,
+          "pedidos": 25,
+          "positivacoes": 14,
+          "novos_skus": 115,
+          "faturamento": 43912.61,
+          "pontos_positivacao": 70,
+          "pontos_novos_skus": 460,
           "pontos_pedidos_valor": 35,
-          "pontos_total": 578,
+          "pontos_total": 565,
           "vendas": [
             {
               "numnota": "408264",
@@ -2052,42 +2052,6 @@ const CRUSOE_DATA = {
                   "produto": "RC ATUM RALADO MOLHO DE TOMATE 24X140G",
                   "qt": 1.0,
                   "valor": 129.84,
-                  "pontuacoes": [
-                    {
-                      "tipo": "novo SKU",
-                      "pontos": 4
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "numnota": "421832",
-              "data": "15/08/2026",
-              "cliente": "MERCADO MIX CERTO LTDA",
-              "valor_pedido": 485.0,
-              "eventos": [
-                {
-                  "tipo": "positivação (novo/reativação)",
-                  "pontos": 5
-                }
-              ],
-              "itens": [
-                {
-                  "produto": "RC SARDINHA EM OLEO 50X125G",
-                  "qt": 1.0,
-                  "valor": 242.5,
-                  "pontuacoes": [
-                    {
-                      "tipo": "novo SKU",
-                      "pontos": 4
-                    }
-                  ]
-                },
-                {
-                  "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
-                  "qt": 1.0,
-                  "valor": 242.5,
                   "pontuacoes": [
                     {
                       "tipo": "novo SKU",
