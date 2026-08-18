@@ -22710,6 +22710,20 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
+          "codigo_cliente": "60708",
+          "cliente": "H S COUTINHO INDUSTRIA E COMERCIO LTDA",
+          "cnpj": "28.580.702/0007-04",
+          "filial": "BARRA DO PIRAÍ",
+          "valor": 4686.42,
+          "nf": "",
+          "data_agendamento": "20/08/2026",
+          "data_ord": "2026-08-20",
+          "status": "A FATURAR",
+          "obs": "ENVIAR UM DIA ANTES O XML DO E-MAIL (nfehs@casadoarroz.com.br)                                    De 0 a 15 volumes R$ 15,00\nDe 16 a 30 Volumes R$ 22,00\nRemontagem de Pallet  R$ 45,00\nMercado AGENDADO",
+          "status_logistica": "",
+          "justificativa_logistica": ""
+        },
+        {
           "codigo_cliente": "6269",
           "cliente": "SUPERMERCADO ZONA SUL S/A",
           "cnpj": "33.381.286/0001-51",
@@ -23014,20 +23028,6 @@ const AGENDAMENTO_DATA = {
           "data_ord": "2026-08-06",
           "status": "FATURADO",
           "obs": "CARGA SECA BATIDA - CANHOTO ASSINADO ELETRONICAMENTE",
-          "status_logistica": "",
-          "justificativa_logistica": ""
-        },
-        {
-          "codigo_cliente": "60708",
-          "cliente": "H S COUTINHO INDUSTRIA E COMERCIO LTDA",
-          "cnpj": "28.580.702/0007-04",
-          "filial": "BARRA DO PIRAÍ",
-          "valor": 4686.42,
-          "nf": "7056",
-          "data_agendamento": "06/08/2026",
-          "data_ord": "2026-08-06",
-          "status": "FATURADO",
-          "obs": "ENVIAR UM DIA ANTES O XML DO E-MAIL (nfehs@casadoarroz.com.br)                                    De 0 a 15 volumes R$ 15,00\nDe 16 a 30 Volumes R$ 22,00\nRemontagem de Pallet  R$ 45,00\nMercado AGENDADO",
           "status_logistica": "",
           "justificativa_logistica": ""
         },
@@ -26680,7 +26680,7 @@ const AGENDAMENTO_DATA = {
       ]
     }
   ],
-  "atualizado_em": "18/08/2026 14:13",
+  "atualizado_em": "18/08/2026 15:12",
   "comparativo": [
     {
       "msg_id": "1a000be7acfbb4b6",
