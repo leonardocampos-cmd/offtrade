@@ -1,7 +1,7 @@
 // Gerado automaticamente por exportacao_comissao.py — ESTIMATIVA, não é a apuração oficial
 
 const COMISSAO_DATA = {
-  "atualizado_em": "18/08/2026 13:13",
+  "atualizado_em": "18/08/2026 14:17",
   "mes_referencia": "08/2026",
   "pct_premio_taxa": 0.015,
   "vendedores": [
@@ -379,7 +379,7 @@ const COMISSAO_DATA = {
       ],
       "ating_acumulado_total": 0.364317,
       "pct_premio": 0.00546475,
-      "liq_rigarr": 29044.74,
+      "liq_rigarr": 29304.56,
       "fat_castas": 0.0,
       "teto_comissao": 2000.0,
       "com_rigarr": 728.63,
@@ -1029,18 +1029,18 @@ const COMISSAO_DATA = {
         {
           "label": "FATURAMENTO",
           "meta": 120000.0,
-          "realizado": 72653.11,
+          "realizado": 68492.61,
           "peso": 0.7,
-          "ating_meta": 0.605443,
-          "ating_acumulado": 0.42381
+          "ating_meta": 0.570772,
+          "ating_acumulado": 0.39954
         },
         {
           "label": "FATURAMENTO PERNOD",
           "meta": 7000.0,
-          "realizado": 4068.86,
+          "realizado": 3905.16,
           "peso": 0.05,
-          "ating_meta": 0.581266,
-          "ating_acumulado": 0.029063
+          "ating_meta": 0.55788,
+          "ating_acumulado": 0.027894
         },
         {
           "label": "FATURAMENTO CASTAS",
@@ -1139,14 +1139,14 @@ const COMISSAO_DATA = {
           "ating_acumulado": 0.0
         }
       ],
-      "ating_acumulado_total": 0.60541,
-      "pct_premio": 0.00908115,
+      "ating_acumulado_total": 0.579971,
+      "pct_premio": 0.00869956,
       "liq_rigarr": 22894.67,
       "fat_castas": 4737.46,
       "teto_comissao": null,
-      "com_rigarr": 207.91,
-      "com_castas": 43.02,
-      "comissao_estimada": 250.93
+      "com_rigarr": 199.17,
+      "com_castas": 41.21,
+      "comissao_estimada": 240.38
     },
     {
       "nome": "MARIA LUIZA - OFF TRADE",
