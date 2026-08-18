@@ -1,6 +1,6 @@
 // Gerado automaticamente
 const RAIOX_VENDEDOR_DETALHE_DATA = {
-  "atualizado_em": "21/07/2026 18:15",
+  "atualizado_em": "18/08/2026 17:04",
   "meses_com_dado": [
     "2026-01",
     "2026-02",
@@ -18,76 +18,86 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
       "nome": "LEANDRO OLIVEIRA",
       "time": "OUTROS",
       "time_label": "Outros / sem time definido",
-      "total_clientes_ativos": 38,
-      "faturamento_ytd": 4627503.44,
-      "media_mensal": 771250.57,
+      "total_clientes_ativos": 39,
+      "faturamento_ytd": 5107807.84,
+      "media_mensal": 851301.31,
       "por_mes": {
         "2026-02": 658435.14,
         "2026-03": 571616.4,
         "2026-04": 1106013.96,
         "2026-05": 896376.5,
-        "2026-06": 1039602.9,
-        "2026-07": 355458.54
+        "2026-06": 1026401.7,
+        "2026-07": 848964.14
       },
       "top_industrias": [
         {
           "fantasia": "SEM FANTASIA",
-          "faturamento": 1493052.06,
-          "pct": 32.3
+          "faturamento": 1030420.64,
+          "pct": 20.2
         },
         {
           "fantasia": "DIAGEO",
-          "faturamento": 920446.2,
-          "pct": 19.9
+          "faturamento": 971217.6,
+          "pct": 19.0
         },
         {
           "fantasia": "PERNOD",
-          "faturamento": 553511.4,
-          "pct": 12.0
+          "faturamento": 640231.68,
+          "pct": 12.5
+        },
+        {
+          "fantasia": "LVMH",
+          "faturamento": 506093.52,
+          "pct": 9.9
         },
         {
           "fantasia": "BEAM SUNTORY",
-          "faturamento": 459043.32,
+          "faturamento": 505553.88,
           "pct": 9.9
         },
         {
           "fantasia": "MONIN",
-          "faturamento": 302016.6,
-          "pct": 6.5
+          "faturamento": 488724.0,
+          "pct": 9.6
         },
         {
           "fantasia": "BALLENA",
-          "faturamento": 274636.92,
-          "pct": 5.9
+          "faturamento": 294864.12,
+          "pct": 5.8
+        },
+        {
+          "fantasia": "AURORA",
+          "faturamento": 174332.5,
+          "pct": 3.4
         },
         {
           "fantasia": "HEINEKEN",
           "faturamento": 174276.96,
-          "pct": 3.8
-        },
-        {
-          "fantasia": "AURORA",
-          "faturamento": 170376.1,
-          "pct": 3.7
+          "pct": 3.4
         },
         {
           "fantasia": "DON LUIZ",
-          "faturamento": 136123.44,
+          "faturamento": 148763.04,
           "pct": 2.9
         },
         {
           "fantasia": "YVY",
-          "faturamento": 95790.24,
-          "pct": 2.1
+          "faturamento": 119912.64,
+          "pct": 2.3
         },
         {
           "fantasia": "CASTAS",
-          "faturamento": 41986.6,
+          "faturamento": 44614.06,
           "pct": 0.9
         },
         {
           "fantasia": "BROWN-FORMAN",
           "faturamento": 5670.0,
+          "pct": 0.1
+        },
+        {
+          "fantasia": "TATUZINHO",
+          "faturamento": 2559.6,
           "pct": 0.1
         },
         {
@@ -100,17 +110,17 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
         {
           "codcli": "34048",
           "nome": "MART MINAS DISTRIBUICAO",
-          "faturamento": 826543.38
+          "faturamento": 898615.38
         },
         {
           "codcli": "30231",
           "nome": "ORGANIZACAO VERDEMAR LTDA",
-          "faturamento": 810648.12
+          "faturamento": 879023.52
         },
         {
           "codcli": "37710",
           "nome": "MULTICOM ATACADO E VAREJO S/A",
-          "faturamento": 701305.56
+          "faturamento": 838772.52
         },
         {
           "codcli": "30909",
@@ -125,7 +135,12 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
         {
           "codcli": "30232",
           "nome": "SUPERMERCADO E PADARIA VERDEMAR",
-          "faturamento": 239031.6
+          "faturamento": 265208.16
+        },
+        {
+          "codcli": "30723",
+          "nome": "SUPERMERCADO BAHAMAS S/A",
+          "faturamento": 226066.2
         },
         {
           "codcli": "34568",
@@ -135,17 +150,12 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
         {
           "codcli": "33491",
           "nome": "SUPERMERCADO SUPER LUNA S.A",
-          "faturamento": 146820.72
+          "faturamento": 165588.24
         },
         {
           "codcli": "31062",
           "nome": "SUPERMERCADOS REX LTDA",
           "faturamento": 100521.12
-        },
-        {
-          "codcli": "30723",
-          "nome": "SUPERMERCADO BAHAMAS S/A",
-          "faturamento": 96547.2
         },
         {
           "codcli": "34006",
@@ -158,6 +168,11 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
           "faturamento": 66463.26
         },
         {
+          "codcli": "35170",
+          "nome": "SUPERMERCADOS ABC",
+          "faturamento": 40419.3
+        },
+        {
           "codcli": "33077",
           "nome": "CEVAROLI SUPERMERCADOS ¿ PLANALTO",
           "faturamento": 38015.28
@@ -166,11 +181,46 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
           "codcli": "33076",
           "nome": "CEVAROLI SUPERMERCADOS  FERNÃO DIAS",
           "faturamento": 37345.78
+        }
+      ]
+    },
+    {
+      "rca": 318,
+      "estado": "SP",
+      "chave": "SP-318",
+      "nome": "MARCUS TANAMACHI",
+      "time": "OUTROS",
+      "time_label": "Outros / sem time definido",
+      "total_clientes_ativos": 2,
+      "faturamento_ytd": 2898198.24,
+      "media_mensal": 966066.08,
+      "por_mes": {
+        "2026-04": 174034.2,
+        "2026-05": 900095.4,
+        "2026-07": 1824068.64
+      },
+      "top_industrias": [
+        {
+          "fantasia": "PERNOD",
+          "faturamento": 2747032.8,
+          "pct": 94.8
         },
         {
-          "codcli": "34336",
-          "nome": "ECONOMART",
-          "faturamento": 35497.44
+          "fantasia": "RED BULL",
+          "faturamento": 151165.44,
+          "pct": 5.2
+        }
+      ],
+      "top_clientes": [
+        {
+          "codcli": "46386",
+          "nome": "ATACADO SOARES",
+          "faturamento": 1824068.64
+        },
+        {
+          "codcli": "47425",
+          "nome": "COMERCIAL ESPERANCA ATACADISTA",
+          "faturamento": 1074129.6
         }
       ]
     },
@@ -181,68 +231,68 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
       "nome": "ADER ALONSO",
       "time": "OUTROS",
       "time_label": "Outros / sem time definido",
-      "total_clientes_ativos": 99,
-      "faturamento_ytd": 2719390.21,
-      "media_mensal": 388484.32,
+      "total_clientes_ativos": 100,
+      "faturamento_ytd": 2846467.32,
+      "media_mensal": 406638.19,
       "por_mes": {
         "2026-01": 36070.74,
         "2026-02": 76064.58,
         "2026-03": 218666.62,
         "2026-04": 772099.48,
         "2026-05": 917060.15,
-        "2026-06": 475975.57,
-        "2026-07": 223453.07
+        "2026-06": 463987.57,
+        "2026-07": 362518.18
       },
       "top_industrias": [
         {
           "fantasia": "PERNOD",
-          "faturamento": 1715586.62,
-          "pct": 63.1
+          "faturamento": 1827403.82,
+          "pct": 64.2
         },
         {
           "fantasia": "BACARDI",
-          "faturamento": 314869.58,
-          "pct": 11.6
+          "faturamento": 317074.5,
+          "pct": 11.1
         },
         {
           "fantasia": "BROWN",
-          "faturamento": 269173.08,
-          "pct": 9.9
+          "faturamento": 260062.68,
+          "pct": 9.1
         },
         {
           "fantasia": "AURORA",
-          "faturamento": 135384.2,
-          "pct": 5.0
+          "faturamento": 136787.0,
+          "pct": 4.8
         },
         {
           "fantasia": "MOET HENNESY",
-          "faturamento": 67700.71,
-          "pct": 2.5
+          "faturamento": 68539.51,
+          "pct": 2.4
         },
         {
           "fantasia": "BEAM SUNTORY BRASIL",
-          "faturamento": 54492.36,
-          "pct": 2.0
+          "faturamento": 60020.46,
+          "pct": 2.1
+        },
+        {
+          "fantasia": "BALLENA",
+          "faturamento": 47042.4,
+          "pct": 1.7
         },
         {
           "fantasia": "LUCIA",
           "faturamento": 45866.4,
-          "pct": 1.7
+          "pct": 1.6
         },
         {
-          "fantasia": "BALLENA",
-          "faturamento": 43686.6,
-          "pct": 1.6
+          "fantasia": "CRS BRANDS",
+          "faturamento": 29451.36,
+          "pct": 1.0
         },
         {
           "fantasia": "SEM FANTASIA",
           "faturamento": 21401.28,
           "pct": 0.8
-        },
-        {
-          "fantasia": "CRS BRANDS",
-          "faturamento": 18903.48,
-          "pct": 0.7
         },
         {
           "fantasia": "INTERFOOD",
@@ -251,7 +301,7 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
         },
         {
           "fantasia": "FANTE",
-          "faturamento": 5790.78,
+          "faturamento": 6282.78,
           "pct": 0.2
         },
         {
@@ -262,7 +312,7 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
         {
           "fantasia": "KIKKOMAN DO BRASIL",
           "faturamento": 4152.0,
-          "pct": 0.2
+          "pct": 0.1
         },
         {
           "fantasia": "TATUZINHO",
@@ -294,12 +344,22 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
         {
           "codcli": "31155",
           "nome": "MALTE COMERCIO DE BEBIDAS",
-          "faturamento": 124535.08
+          "faturamento": 142965.88
         },
         {
           "codcli": "27557",
           "nome": "ATENTO ATACADISTA",
-          "faturamento": 109069.26
+          "faturamento": 121409.76
+        },
+        {
+          "codcli": "31084",
+          "nome": "COMERCIAL BOLSAO DE BEBIDAS LTDA",
+          "faturamento": 103611.68
+        },
+        {
+          "codcli": "49494",
+          "nome": "COMERCIO DE BEBIDAS JAU",
+          "faturamento": 81082.87
         },
         {
           "codcli": "27224",
@@ -307,29 +367,19 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
           "faturamento": 81070.92
         },
         {
-          "codcli": "31084",
-          "nome": "COMERCIAL BOLSAO DE BEBIDAS LTDA",
-          "faturamento": 76059.68
-        },
-        {
           "codcli": "39396",
           "nome": "BOLSAO DO TADEU DISTRIBUIDORA DE BEBIDAS",
           "faturamento": 74243.52
         },
         {
+          "codcli": "27228",
+          "nome": "BOB PECHINCA ATACADISTA",
+          "faturamento": 71816.4
+        },
+        {
           "codcli": "47670",
           "nome": "PRESTIGIO COMERCIO E DISTRIBUIDORA DE BEBIDAS",
           "faturamento": 70319.88
-        },
-        {
-          "codcli": "49494",
-          "nome": "COMERCIO DE BEBIDAS JAU",
-          "faturamento": 69170.52
-        },
-        {
-          "codcli": "27228",
-          "nome": "BOB PECHINCA ATACADISTA",
-          "faturamento": 67148.4
         },
         {
           "codcli": "21330",
@@ -356,8 +406,8 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
       "time": "KEY_ACCOUNT",
       "time_label": "Key Account",
       "total_clientes_ativos": 29,
-      "faturamento_ytd": 2536185.35,
-      "media_mensal": 362312.19,
+      "faturamento_ytd": 2707488.27,
+      "media_mensal": 386784.04,
       "por_mes": {
         "2026-01": 471676.84,
         "2026-02": 336468.1,
@@ -365,42 +415,42 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
         "2026-04": 616057.52,
         "2026-05": 529437.68,
         "2026-06": 81099.98,
-        "2026-07": 108876.89
+        "2026-07": 280179.81
       },
       "top_industrias": [
         {
           "fantasia": "ROBINSON CRUSOE",
-          "faturamento": 1668026.17,
-          "pct": 65.8
+          "faturamento": 1834730.17,
+          "pct": 67.8
         },
         {
           "fantasia": "CASA PERINI",
           "faturamento": 316629.6,
-          "pct": 12.5
+          "pct": 11.7
         },
         {
           "fantasia": "BEAM SUNTORY",
-          "faturamento": 214273.46,
-          "pct": 8.4
+          "faturamento": 214415.26,
+          "pct": 7.9
         },
         {
           "fantasia": "HENNESSY",
-          "faturamento": 135959.76,
-          "pct": 5.4
+          "faturamento": 139403.76,
+          "pct": 5.1
         },
         {
           "fantasia": "FANTE",
-          "faturamento": 48284.64,
-          "pct": 1.9
+          "faturamento": 48419.64,
+          "pct": 1.8
         },
         {
           "fantasia": "BACARDI",
-          "faturamento": 38136.1,
-          "pct": 1.5
+          "faturamento": 37900.78,
+          "pct": 1.4
         },
         {
           "fantasia": "PERNOD",
-          "faturamento": 33450.02,
+          "faturamento": 34169.0,
           "pct": 1.3
         },
         {
@@ -415,17 +465,17 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
         },
         {
           "fantasia": "INTERFOOD",
-          "faturamento": 10306.86,
+          "faturamento": 10036.96,
           "pct": 0.4
         },
         {
           "fantasia": "TATUZINHO",
           "faturamento": 9174.42,
-          "pct": 0.4
+          "pct": 0.3
         },
         {
           "fantasia": "DIAGEO",
-          "faturamento": 8700.72,
+          "faturamento": 8936.52,
           "pct": 0.3
         },
         {
@@ -435,12 +485,12 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
         },
         {
           "fantasia": "CATUABA",
-          "faturamento": 2952.0,
+          "faturamento": 2760.84,
           "pct": 0.1
         },
         {
           "fantasia": "AURORA",
-          "faturamento": 2544.88,
+          "faturamento": 2260.4,
           "pct": 0.1
         }
       ],
@@ -448,7 +498,7 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
         {
           "codcli": "6278",
           "nome": "SUPERMERCADOS MUNDIAL - INHAUMA",
-          "faturamento": 2083004.17
+          "faturamento": 2249708.17
         },
         {
           "codcli": "3755",
@@ -463,7 +513,7 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
         {
           "codcli": "18798",
           "nome": "EMPORIO GOURMET SHOW",
-          "faturamento": 71981.82
+          "faturamento": 71678.74
         },
         {
           "codcli": "73082",
@@ -496,6 +546,11 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
           "faturamento": 9391.68
         },
         {
+          "codcli": "71185",
+          "nome": "ANB DISTRIBUIDORA DE ALIMENTOS E BEBIDAS",
+          "faturamento": 8850.0
+        },
+        {
           "codcli": "82219",
           "nome": "OLIVIER WINE BEER",
           "faturamento": 6671.16
@@ -509,11 +564,6 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
           "codcli": "67822",
           "nome": "BARRA OESTE - BARRA DA TIJU",
           "faturamento": 5774.4
-        },
-        {
-          "codcli": "71185",
-          "nome": "ANB DISTRIBUIDORA DE ALIMENTOS E BEBIDAS",
-          "faturamento": 3948.0
         },
         {
           "codcli": "93791",
@@ -559,56 +609,56 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
       "time": "OUTROS",
       "time_label": "Outros / sem time definido",
       "total_clientes_ativos": 53,
-      "faturamento_ytd": 2101475.36,
-      "media_mensal": 300210.77,
+      "faturamento_ytd": 2180256.26,
+      "media_mensal": 311465.18,
       "por_mes": {
         "2026-01": 22548.47,
         "2026-02": 327130.38,
         "2026-03": 762868.6,
         "2026-04": 319986.31,
         "2026-05": 428989.75,
-        "2026-06": 208702.19,
-        "2026-07": 31249.66
+        "2026-06": 208096.78,
+        "2026-07": 110635.96
       },
       "top_industrias": [
         {
           "fantasia": "PERNOD",
-          "faturamento": 1605262.52,
-          "pct": 76.4
+          "faturamento": 1670876.72,
+          "pct": 76.6
         },
         {
           "fantasia": "BEAM SUNTORY BRASIL",
-          "faturamento": 151576.56,
-          "pct": 7.2
+          "faturamento": 152388.13,
+          "pct": 7.0
         },
         {
           "fantasia": "BROWN",
-          "faturamento": 96391.5,
-          "pct": 4.6
+          "faturamento": 97611.0,
+          "pct": 4.5
         },
         {
           "fantasia": "DIAGEO",
-          "faturamento": 67470.57,
-          "pct": 3.2
+          "faturamento": 67351.5,
+          "pct": 3.1
         },
         {
           "fantasia": "AURORA",
-          "faturamento": 49789.76,
-          "pct": 2.4
+          "faturamento": 50193.04,
+          "pct": 2.3
         },
         {
           "fantasia": "CRS BRANDS",
-          "faturamento": 32391.66,
-          "pct": 1.5
+          "faturamento": 36418.2,
+          "pct": 1.7
         },
         {
           "fantasia": "BACARDI",
-          "faturamento": 31824.38,
+          "faturamento": 33405.06,
           "pct": 1.5
         },
         {
           "fantasia": "MOET HENNESY",
-          "faturamento": 25316.37,
+          "faturamento": 27059.57,
           "pct": 1.2
         },
         {
@@ -617,18 +667,18 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
           "pct": 0.6
         },
         {
+          "fantasia": "LUCIA",
+          "faturamento": 11382.6,
+          "pct": 0.5
+        },
+        {
           "fantasia": "SEM FANTASIA",
           "faturamento": 9261.9,
           "pct": 0.4
         },
         {
-          "fantasia": "LUCIA",
-          "faturamento": 8698.8,
-          "pct": 0.4
-        },
-        {
           "fantasia": "COMARY",
-          "faturamento": 3354.48,
+          "faturamento": 4171.68,
           "pct": 0.2
         },
         {
@@ -644,14 +694,14 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
         {
           "fantasia": "TATUZINHO",
           "faturamento": 1083.6,
-          "pct": 0.1
+          "pct": 0.0
         }
       ],
       "top_clientes": [
         {
           "codcli": "36186",
           "nome": "AKKI LOJA 2",
-          "faturamento": 272395.82
+          "faturamento": 285141.62
         },
         {
           "codcli": "36191",
@@ -661,7 +711,12 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
         {
           "codcli": "36190",
           "nome": "AKKI LOJA 6",
-          "faturamento": 247277.88
+          "faturamento": 249224.88
+        },
+        {
+          "codcli": "36189",
+          "nome": "AKKI LOJA 5",
+          "faturamento": 235320.38
         },
         {
           "codcli": "36188",
@@ -669,29 +724,24 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
           "faturamento": 232803.36
         },
         {
-          "codcli": "36189",
-          "nome": "AKKI LOJA 5",
-          "faturamento": 227796.38
-        },
-        {
           "codcli": "36170",
           "nome": "AKKI LOJA 1",
-          "faturamento": 166401.36
+          "faturamento": 172184.16
         },
         {
           "codcli": "36187",
           "nome": "AKKI LOJA 3",
-          "faturamento": 155051.66
+          "faturamento": 165850.46
         },
         {
           "codcli": "48318",
           "nome": "KAÇULA CENTRO DE DISTRIBUIÇÃO",
-          "faturamento": 137016.0
+          "faturamento": 163021.68
         },
         {
           "codcli": "47200",
           "nome": "TREND CAPITAL DISTRIBUICAO E COMERCIO DE BEBIDAS",
-          "faturamento": 130113.41
+          "faturamento": 144952.58
         },
         {
           "codcli": "32508",
@@ -701,7 +751,7 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
         {
           "codcli": "44215",
           "nome": "AKKI LOJA 11",
-          "faturamento": 71135.04
+          "faturamento": 71518.44
         },
         {
           "codcli": "49844",
@@ -732,9 +782,9 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
       "nome": "RAPHAEL SANTOS",
       "time": "OUTROS",
       "time_label": "Outros / sem time definido",
-      "total_clientes_ativos": 167,
-      "faturamento_ytd": 2048542.82,
-      "media_mensal": 292648.97,
+      "total_clientes_ativos": 172,
+      "faturamento_ytd": 2121931.79,
+      "media_mensal": 303133.11,
       "por_mes": {
         "2026-01": 572545.36,
         "2026-02": 517461.5,
@@ -742,82 +792,82 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
         "2026-04": 224907.01,
         "2026-05": 122820.02,
         "2026-06": 208188.28,
-        "2026-07": 119694.13
+        "2026-07": 193083.1
       },
       "top_industrias": [
         {
           "fantasia": "RED BULL",
-          "faturamento": 854895.28,
-          "pct": 41.7
+          "faturamento": 863236.12,
+          "pct": 40.7
         },
         {
           "fantasia": "DIAGEO",
-          "faturamento": 242665.41,
-          "pct": 11.8
+          "faturamento": 264198.25,
+          "pct": 12.5
         },
         {
           "fantasia": "CASTAS",
-          "faturamento": 228002.33,
-          "pct": 11.1
+          "faturamento": 241200.23,
+          "pct": 11.4
         },
         {
           "fantasia": "PERNOD",
-          "faturamento": 179484.89,
-          "pct": 8.8
+          "faturamento": 191897.59,
+          "pct": 9.0
         },
         {
           "fantasia": "MINALBA",
-          "faturamento": 94997.77,
-          "pct": 4.6
+          "faturamento": 95664.17,
+          "pct": 4.5
         },
         {
           "fantasia": "BROWN",
-          "faturamento": 66044.95,
-          "pct": 3.2
+          "faturamento": 66672.65,
+          "pct": 3.1
         },
         {
           "fantasia": "HENNESSY",
-          "faturamento": 58169.1,
+          "faturamento": 59254.8,
           "pct": 2.8
         },
         {
           "fantasia": "BACARDI",
-          "faturamento": 54487.67,
-          "pct": 2.7
+          "faturamento": 55174.47,
+          "pct": 2.6
         },
         {
           "fantasia": "CASA PERINI",
-          "faturamento": 41921.92,
+          "faturamento": 42333.52,
           "pct": 2.0
+        },
+        {
+          "fantasia": "AURORA",
+          "faturamento": 33469.8,
+          "pct": 1.6
         },
         {
           "fantasia": "KAISER",
           "faturamento": 32020.8,
-          "pct": 1.6
-        },
-        {
-          "fantasia": "AURORA",
-          "faturamento": 30962.7,
           "pct": 1.5
         },
         {
           "fantasia": "TATUZINHO",
-          "faturamento": 24735.52,
+          "faturamento": 26228.32,
           "pct": 1.2
         },
         {
           "fantasia": "INTERFOOD",
-          "faturamento": 24511.5,
+          "faturamento": 25936.0,
           "pct": 1.2
         },
         {
           "fantasia": "CAMPARI",
-          "faturamento": 19415.88,
-          "pct": 0.9
+          "faturamento": 21492.48,
+          "pct": 1.0
         },
         {
-          "fantasia": "TIAL",
-          "faturamento": 13187.74,
+          "fantasia": "HOB",
+          "faturamento": 13782.6,
           "pct": 0.6
         }
       ],
@@ -825,7 +875,7 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
         {
           "codcli": "54862",
           "nome": "BARBUDO DEPOSITO DE BEBIDAS",
-          "faturamento": 251220.0
+          "faturamento": 251530.8
         },
         {
           "codcli": "87086",
@@ -835,17 +885,17 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
         {
           "codcli": "86028",
           "nome": "PATO NA JANELA LOUNGE",
-          "faturamento": 101356.1
+          "faturamento": 104890.68
         },
         {
           "codcli": "79271",
           "nome": "XERELETE BAR",
-          "faturamento": 78388.0
+          "faturamento": 81597.9
         },
         {
           "codcli": "74297",
           "nome": "CONVENIENCIA BUZIANA LTDA",
-          "faturamento": 77671.11
+          "faturamento": 81591.75
         },
         {
           "codcli": "78148",
@@ -855,17 +905,17 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
         {
           "codcli": "73559",
           "nome": "COMUKERIA ALIMENTOS",
-          "faturamento": 59164.98
+          "faturamento": 61766.84
         },
         {
           "codcli": "71846",
           "nome": "LA GARE RESTAURANTE",
-          "faturamento": 50130.7
+          "faturamento": 52077.1
         },
         {
           "codcli": "71195",
           "nome": "ALTAS HORAS BAR E COMERCIO DE BEBIDAS",
-          "faturamento": 46951.56
+          "faturamento": 48085.56
         },
         {
           "codcli": "18987",
@@ -878,372 +928,24 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
           "faturamento": 41974.52
         },
         {
+          "codcli": "72894",
+          "nome": "DREIFISON RODRIGUES",
+          "faturamento": 40326.24
+        },
+        {
           "codcli": "20765",
           "nome": "J.W.C. BEBIDAS",
           "faturamento": 39308.14
         },
         {
-          "codcli": "72894",
-          "nome": "DREIFISON RODRIGUES",
-          "faturamento": 38569.44
-        },
-        {
-          "codcli": "5531",
-          "nome": "GOLDEN MARKET",
-          "faturamento": 29894.91
-        },
-        {
           "codcli": "86260",
           "nome": "LOUNGE CAMBOINHAS",
-          "faturamento": 29736.64
-        }
-      ]
-    },
-    {
-      "rca": 159,
-      "estado": "RJ",
-      "chave": "RJ-159",
-      "nome": "GISELLE BARFER",
-      "time": "OUTROS",
-      "time_label": "Outros / sem time definido",
-      "total_clientes_ativos": 159,
-      "faturamento_ytd": 1910832.33,
-      "media_mensal": 272976.05,
-      "por_mes": {
-        "2026-01": 491921.21,
-        "2026-02": 347158.73,
-        "2026-03": 334823.74,
-        "2026-04": 169258.69,
-        "2026-05": 184921.52,
-        "2026-06": 229741.84,
-        "2026-07": 153006.6
-      },
-      "top_industrias": [
-        {
-          "fantasia": "RED BULL",
-          "faturamento": 790288.77,
-          "pct": 41.4
+          "faturamento": 32101.9
         },
         {
-          "fantasia": "PERNOD",
-          "faturamento": 210178.78,
-          "pct": 11.0
-        },
-        {
-          "fantasia": "CASTAS",
-          "faturamento": 194985.32,
-          "pct": 10.2
-        },
-        {
-          "fantasia": "DIAGEO",
-          "faturamento": 185436.73,
-          "pct": 9.7
-        },
-        {
-          "fantasia": "HENNESSY",
-          "faturamento": 91155.35,
-          "pct": 4.8
-        },
-        {
-          "fantasia": "KAISER",
-          "faturamento": 88682.36,
-          "pct": 4.6
-        },
-        {
-          "fantasia": "MINALBA",
-          "faturamento": 85906.55,
-          "pct": 4.5
-        },
-        {
-          "fantasia": "CASA PERINI",
-          "faturamento": 43302.7,
-          "pct": 2.3
-        },
-        {
-          "fantasia": "AURORA",
-          "faturamento": 43003.7,
-          "pct": 2.3
-        },
-        {
-          "fantasia": "BROWN",
-          "faturamento": 24941.18,
-          "pct": 1.3
-        },
-        {
-          "fantasia": "BACARDI",
-          "faturamento": 20615.35,
-          "pct": 1.1
-        },
-        {
-          "fantasia": "CAMPARI",
-          "faturamento": 14083.4,
-          "pct": 0.7
-        },
-        {
-          "fantasia": "INTERFOOD",
-          "faturamento": 13967.5,
-          "pct": 0.7
-        },
-        {
-          "fantasia": "HOB",
-          "faturamento": 11870.85,
-          "pct": 0.6
-        },
-        {
-          "fantasia": "51",
-          "faturamento": 11430.3,
-          "pct": 0.6
-        }
-      ],
-      "top_clientes": [
-        {
-          "codcli": "3143",
-          "nome": "PORT FOOD COMERCIO INDUSTRIA",
-          "faturamento": 157879.92
-        },
-        {
-          "codcli": "66026",
-          "nome": "CHOPERIA FORTE BEER",
-          "faturamento": 151265.24
-        },
-        {
-          "codcli": "84845",
-          "nome": "PEDRO HENRIQUE PAIVA CARNEIRO",
-          "faturamento": 137726.06
-        },
-        {
-          "codcli": "80460",
-          "nome": "TMT",
-          "faturamento": 119711.7
-        },
-        {
-          "codcli": "80707",
-          "nome": "AS BEBIDAS",
-          "faturamento": 70456.46
-        },
-        {
-          "codcli": "81924",
-          "nome": "EDEN GASTRONOMIA E CHOPERIA",
-          "faturamento": 68620.08
-        },
-        {
-          "codcli": "80238",
-          "nome": "SERRANA BEBIDAS",
-          "faturamento": 63820.12
-        },
-        {
-          "codcli": "78271",
-          "nome": "P P A",
-          "faturamento": 58751.59
-        },
-        {
-          "codcli": "82202",
-          "nome": "PAELO HAMBURGUERIA",
-          "faturamento": 50702.3
-        },
-        {
-          "codcli": "79197",
-          "nome": "TCA COMERCIO CABO FRIO",
-          "faturamento": 48795.97
-        },
-        {
-          "codcli": "81698",
-          "nome": "SUPERMERCADO SAO JOSE",
-          "faturamento": 36680.16
-        },
-        {
-          "codcli": "93329",
-          "nome": "EMPORIO DO ALEMAO",
-          "faturamento": 35686.32
-        },
-        {
-          "codcli": "93361",
-          "nome": "EZEQUIEL ROGELIO GARCIA",
-          "faturamento": 35167.2
-        },
-        {
-          "codcli": "76745",
-          "nome": "ARMAZEM PUB CAFE",
-          "faturamento": 33677.76
-        },
-        {
-          "codcli": "72102",
-          "nome": "ESPETARIA RECREIO",
-          "faturamento": 30222.15
-        }
-      ]
-    },
-    {
-      "rca": 327,
-      "estado": "MG",
-      "chave": "MG-327",
-      "nome": "JOÃO SANTOS",
-      "time": "OUTROS",
-      "time_label": "Outros / sem time definido",
-      "total_clientes_ativos": 214,
-      "faturamento_ytd": 1818136.34,
-      "media_mensal": 259733.76,
-      "por_mes": {
-        "2026-01": 269855.66,
-        "2026-02": 201518.07,
-        "2026-03": 252299.11,
-        "2026-04": 288642.52,
-        "2026-05": 312476.97,
-        "2026-06": 341993.95,
-        "2026-07": 151350.06
-      },
-      "top_industrias": [
-        {
-          "fantasia": "RED BULL",
-          "faturamento": 529119.95,
-          "pct": 29.1
-        },
-        {
-          "fantasia": "CASTAS",
-          "faturamento": 404055.37,
-          "pct": 22.2
-        },
-        {
-          "fantasia": "HEINEKEN",
-          "faturamento": 320400.88,
-          "pct": 17.6
-        },
-        {
-          "fantasia": "SEM FANTASIA",
-          "faturamento": 165983.65,
-          "pct": 9.1
-        },
-        {
-          "fantasia": "DIAGEO",
-          "faturamento": 134481.92,
-          "pct": 7.4
-        },
-        {
-          "fantasia": "PERNOD",
-          "faturamento": 92394.33,
-          "pct": 5.1
-        },
-        {
-          "fantasia": "YVY",
-          "faturamento": 49755.7,
-          "pct": 2.7
-        },
-        {
-          "fantasia": "TATUZINHO",
-          "faturamento": 29505.28,
-          "pct": 1.6
-        },
-        {
-          "fantasia": "NSG",
-          "faturamento": 21774.4,
-          "pct": 1.2
-        },
-        {
-          "fantasia": "BROWN-FORMAN",
-          "faturamento": 20820.6,
-          "pct": 1.1
-        },
-        {
-          "fantasia": "AURORA",
-          "faturamento": 13325.3,
-          "pct": 0.7
-        },
-        {
-          "fantasia": "BEAM SUNTORY",
-          "faturamento": 10301.3,
-          "pct": 0.6
-        },
-        {
-          "fantasia": "BETTER DRINKS",
-          "faturamento": 7813.86,
-          "pct": 0.4
-        },
-        {
-          "fantasia": "MONIN",
-          "faturamento": 6029.7,
-          "pct": 0.3
-        },
-        {
-          "fantasia": "BACARDI",
-          "faturamento": 3662.1,
-          "pct": 0.2
-        }
-      ],
-      "top_clientes": [
-        {
-          "codcli": "31722",
-          "nome": "THAYANE MICELE",
-          "faturamento": 179441.96
-        },
-        {
-          "codcli": "30374",
-          "nome": "EL MAI",
-          "faturamento": 116399.78
-        },
-        {
-          "codcli": "30091",
-          "nome": "COMERCIAL COLOMBO EIRELI",
-          "faturamento": 87197.1
-        },
-        {
-          "codcli": "33176",
-          "nome": "HELP BAR",
-          "faturamento": 63701.0
-        },
-        {
-          "codcli": "34032",
-          "nome": "UPSIDE DISTRIBUICAO DE ALIMENTOS",
-          "faturamento": 55407.36
-        },
-        {
-          "codcli": "33951",
-          "nome": "RESTAURANTE LA TRAVIATA",
-          "faturamento": 52832.68
-        },
-        {
-          "codcli": "31673",
-          "nome": "ESQUINA DO CHOPP JARA",
-          "faturamento": 47935.9
-        },
-        {
-          "codcli": "31402",
-          "nome": "RESTAURANTE E LANCHONETE UNIVERSITARIO PUC II",
-          "faturamento": 44418.24
-        },
-        {
-          "codcli": "32805",
-          "nome": "SOS BIRINYTE",
-          "faturamento": 36210.0
-        },
-        {
-          "codcli": "33010",
-          "nome": "GOLDEN ALIMENTOS",
-          "faturamento": 35579.3
-        },
-        {
-          "codcli": "37207",
-          "nome": "MEZZA LOUNGE",
-          "faturamento": 29202.98
-        },
-        {
-          "codcli": "33224",
-          "nome": "CULINARIA JAPAN GDA",
-          "faturamento": 28078.78
-        },
-        {
-          "codcli": "33615",
-          "nome": "MONKA CERVEJARIA LTDA",
-          "faturamento": 27364.36
-        },
-        {
-          "codcli": "33925",
-          "nome": "CULINARIA JAPAN GDA",
-          "faturamento": 25568.22
-        },
-        {
-          "codcli": "35318",
-          "nome": "ASSOCIACAO ATLETICA ESPORTIVA",
-          "faturamento": 21852.44
+          "codcli": "1827",
+          "nome": "CASAS BRANCAS HOTEL E SPA",
+          "faturamento": 30916.2
         }
       ]
     },
@@ -1254,78 +956,78 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
       "nome": "EUDES MORGAN",
       "time": "OUTROS",
       "time_label": "Outros / sem time definido",
-      "total_clientes_ativos": 81,
-      "faturamento_ytd": 1781777.25,
-      "media_mensal": 254539.61,
+      "total_clientes_ativos": 82,
+      "faturamento_ytd": 2058424.53,
+      "media_mensal": 294060.65,
       "por_mes": {
         "2026-01": 449266.71,
         "2026-02": 216670.79,
-        "2026-03": 295024.96,
+        "2026-03": 294936.16,
         "2026-04": 118062.39,
         "2026-05": 284639.21,
         "2026-06": 89348.53,
-        "2026-07": 328764.65
+        "2026-07": 605500.73
       },
       "top_industrias": [
         {
-          "fantasia": "HENNESSY",
-          "faturamento": 340979.07,
-          "pct": 19.1
-        },
-        {
-          "fantasia": "BEAM SUNTORY",
-          "faturamento": 325680.72,
-          "pct": 18.3
+          "fantasia": "ROBINSON CRUSOE",
+          "faturamento": 454859.84,
+          "pct": 22.1
         },
         {
           "fantasia": "BACARDI",
-          "faturamento": 323266.69,
-          "pct": 18.1
+          "faturamento": 349703.53,
+          "pct": 17.0
         },
         {
-          "fantasia": "ROBINSON CRUSOE",
-          "faturamento": 288800.06,
-          "pct": 16.2
+          "fantasia": "HENNESSY",
+          "faturamento": 340979.58,
+          "pct": 16.6
+        },
+        {
+          "fantasia": "BEAM SUNTORY",
+          "faturamento": 335380.06,
+          "pct": 16.3
         },
         {
           "fantasia": "TATUZINHO",
-          "faturamento": 152400.04,
-          "pct": 8.6
+          "faturamento": 187424.76,
+          "pct": 9.1
         },
         {
           "fantasia": "PINATI",
-          "faturamento": 148289.09,
-          "pct": 8.3
+          "faturamento": 163836.69,
+          "pct": 8.0
+        },
+        {
+          "fantasia": "DADINHO",
+          "faturamento": 64371.26,
+          "pct": 3.1
         },
         {
           "fantasia": "NAVEIA",
           "faturamento": 51785.4,
-          "pct": 2.9
-        },
-        {
-          "fantasia": "DADINHO",
-          "faturamento": 48883.82,
-          "pct": 2.7
-        },
-        {
-          "fantasia": "FABBRI",
-          "faturamento": 27144.54,
-          "pct": 1.5
+          "pct": 2.5
         },
         {
           "fantasia": "BALLENA",
-          "faturamento": 25830.84,
+          "faturamento": 32118.84,
+          "pct": 1.6
+        },
+        {
+          "fantasia": "FABBRI",
+          "faturamento": 29464.54,
           "pct": 1.4
         },
         {
           "fantasia": "PERNOD",
           "faturamento": 23010.78,
-          "pct": 1.3
+          "pct": 1.1
         },
         {
           "fantasia": "BANANINHA CARIOCA",
           "faturamento": 8274.0,
-          "pct": 0.5
+          "pct": 0.4
         },
         {
           "fantasia": "CASTAS",
@@ -1334,7 +1036,7 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
         },
         {
           "fantasia": "DIALCOOL",
-          "faturamento": 7754.0,
+          "faturamento": 7537.06,
           "pct": 0.4
         },
         {
@@ -1347,7 +1049,7 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
         {
           "codcli": "74376",
           "nome": "CARONE - GALPAO",
-          "faturamento": 962900.08
+          "faturamento": 1147828.34
         },
         {
           "codcli": "79819",
@@ -1370,6 +1072,26 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
           "faturamento": 35592.68
         },
         {
+          "codcli": "85420",
+          "nome": "SUPERMERCADOS BH",
+          "faturamento": 29892.7
+        },
+        {
+          "codcli": "85424",
+          "nome": "SUPERMERCADOS BH",
+          "faturamento": 29591.52
+        },
+        {
+          "codcli": "85418",
+          "nome": "SUPERMERCADOS BH",
+          "faturamento": 25588.75
+        },
+        {
+          "codcli": "85403",
+          "nome": "SUPERMERCADOS BH",
+          "faturamento": 21620.52
+        },
+        {
           "codcli": "85438",
           "nome": "SUPERMERCADOS BH",
           "faturamento": 17349.37
@@ -1380,9 +1102,9 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
           "faturamento": 15935.21
         },
         {
-          "codcli": "85424",
+          "codcli": "91292",
           "nome": "SUPERMERCADOS BH",
-          "faturamento": 15271.7
+          "faturamento": 15632.51
         },
         {
           "codcli": "74418",
@@ -1398,82 +1120,453 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
           "codcli": "85437",
           "nome": "SUPERMERCADOS BH",
           "faturamento": 14226.18
-        },
-        {
-          "codcli": "82541",
-          "nome": "SUPERATACADO SEMPRETEM",
-          "faturamento": 13848.36
-        },
-        {
-          "codcli": "21215",
-          "nome": "SUPERMERCADOS CARONE",
-          "faturamento": 13562.88
-        },
-        {
-          "codcli": "76075",
-          "nome": "SUPERMERCADO CARONE",
-          "faturamento": 13184.52
-        },
-        {
-          "codcli": "85401",
-          "nome": "SUPERMERCADOS BH",
-          "faturamento": 13142.62
         }
       ]
     },
     {
-      "rca": 376,
-      "estado": "ES",
-      "chave": "ES-376",
-      "nome": "CARLOS TERRA",
+      "rca": 232,
+      "estado": "SP",
+      "chave": "SP-232",
+      "nome": "ANDERSON CANAVEIS",
       "time": "OUTROS",
       "time_label": "Outros / sem time definido",
-      "total_clientes_ativos": 4,
-      "faturamento_ytd": 1761805.2,
-      "media_mensal": 440451.3,
+      "total_clientes_ativos": 7,
+      "faturamento_ytd": 2050124.06,
+      "media_mensal": 1025062.03,
       "por_mes": {
-        "2026-03": 514950.0,
-        "2026-04": 69110.4,
-        "2026-05": 628024.32,
-        "2026-06": 549720.48
+        "2026-06": 1476502.11,
+        "2026-07": 573621.96
       },
       "top_industrias": [
         {
-          "fantasia": "RED BULL",
-          "faturamento": 1009324.81,
-          "pct": 57.3
+          "fantasia": "PERNOD",
+          "faturamento": 2045052.26,
+          "pct": 99.8
         },
         {
-          "fantasia": "PERNOD",
-          "faturamento": 688220.4,
-          "pct": 39.1
+          "fantasia": "CASTAS",
+          "faturamento": 1701.6,
+          "pct": 0.1
+        },
+        {
+          "fantasia": "CRS BRANDS",
+          "faturamento": 1280.52,
+          "pct": 0.1
         },
         {
           "fantasia": "BROWN",
-          "faturamento": 64260.0,
-          "pct": 3.6
+          "faturamento": 599.4,
+          "pct": 0.0
+        },
+        {
+          "fantasia": "BACARDI",
+          "faturamento": 586.99,
+          "pct": 0.0
+        },
+        {
+          "fantasia": "AURORA",
+          "faturamento": 478.8,
+          "pct": 0.0
+        },
+        {
+          "fantasia": "INTERFOOD",
+          "faturamento": 188.1,
+          "pct": 0.0
+        },
+        {
+          "fantasia": "CAMPARI",
+          "faturamento": 149.7,
+          "pct": 0.0
+        },
+        {
+          "fantasia": "DIAGEO",
+          "faturamento": 86.7,
+          "pct": 0.0
         }
       ],
       "top_clientes": [
         {
-          "codcli": "95150",
-          "nome": "UNIKA ATACADISTA DE BEBIDAS E ALIMENTOS",
-          "faturamento": 1009324.81
+          "codcli": "47425",
+          "nome": "COMERCIAL ESPERANCA ATACADISTA",
+          "faturamento": 2043739.86
         },
         {
-          "codcli": "93861",
-          "nome": "META ATACADO E DISTRIBUICAO",
-          "faturamento": 386568.0
+          "codcli": "51139",
+          "nome": "BIG BOM SANTO ANDRE MINIMERCADO",
+          "faturamento": 2693.82
         },
         {
-          "codcli": "93809",
-          "nome": "ULTRAVALLE",
-          "faturamento": 197492.4
+          "codcli": "51354",
+          "nome": "SUPERMERCADO YAMATO",
+          "faturamento": 1513.23
         },
         {
-          "codcli": "95477",
-          "nome": "ATACADO DO VAREJISTA",
-          "faturamento": 168420.0
+          "codcli": "51970",
+          "nome": "MERCADO NOVO LIDER PONTO CERTO",
+          "faturamento": 967.56
+        },
+        {
+          "codcli": "51503",
+          "nome": "AUTO POSTO RAMALHAO LTDA",
+          "faturamento": 478.8
+        },
+        {
+          "codcli": "51123",
+          "nome": "BONZAO COMERCIO DE DOCES",
+          "faturamento": 455.04
+        },
+        {
+          "codcli": "51421",
+          "nome": "MERCADO CABRAL & COUTINHO",
+          "faturamento": 275.76
+        }
+      ]
+    },
+    {
+      "rca": 159,
+      "estado": "RJ",
+      "chave": "RJ-159",
+      "nome": "GISELLE BARFER",
+      "time": "OUTROS",
+      "time_label": "Outros / sem time definido",
+      "total_clientes_ativos": 168,
+      "faturamento_ytd": 2033443.42,
+      "media_mensal": 290491.92,
+      "por_mes": {
+        "2026-01": 491921.21,
+        "2026-02": 347158.73,
+        "2026-03": 334823.74,
+        "2026-04": 169258.69,
+        "2026-05": 184921.52,
+        "2026-06": 229741.84,
+        "2026-07": 275617.69
+      },
+      "top_industrias": [
+        {
+          "fantasia": "RED BULL",
+          "faturamento": 818000.65,
+          "pct": 40.2
+        },
+        {
+          "fantasia": "PERNOD",
+          "faturamento": 226405.28,
+          "pct": 11.1
+        },
+        {
+          "fantasia": "CASTAS",
+          "faturamento": 214206.72,
+          "pct": 10.5
+        },
+        {
+          "fantasia": "DIAGEO",
+          "faturamento": 197551.33,
+          "pct": 9.7
+        },
+        {
+          "fantasia": "HENNESSY",
+          "faturamento": 117361.55,
+          "pct": 5.8
+        },
+        {
+          "fantasia": "KAISER",
+          "faturamento": 90701.96,
+          "pct": 4.5
+        },
+        {
+          "fantasia": "MINALBA",
+          "faturamento": 87992.35,
+          "pct": 4.3
+        },
+        {
+          "fantasia": "AURORA",
+          "faturamento": 47071.28,
+          "pct": 2.3
+        },
+        {
+          "fantasia": "CASA PERINI",
+          "faturamento": 44563.6,
+          "pct": 2.2
+        },
+        {
+          "fantasia": "BROWN",
+          "faturamento": 26503.58,
+          "pct": 1.3
+        },
+        {
+          "fantasia": "BACARDI",
+          "faturamento": 21248.25,
+          "pct": 1.0
+        },
+        {
+          "fantasia": "CAMPARI",
+          "faturamento": 15701.9,
+          "pct": 0.8
+        },
+        {
+          "fantasia": "INTERFOOD",
+          "faturamento": 14945.4,
+          "pct": 0.7
+        },
+        {
+          "fantasia": "51",
+          "faturamento": 12516.24,
+          "pct": 0.6
+        },
+        {
+          "fantasia": "BEAM SUNTORY",
+          "faturamento": 12148.0,
+          "pct": 0.6
+        }
+      ],
+      "top_clientes": [
+        {
+          "codcli": "3143",
+          "nome": "PORT FOOD COMERCIO INDUSTRIA",
+          "faturamento": 160919.92
+        },
+        {
+          "codcli": "66026",
+          "nome": "CHOPERIA FORTE BEER",
+          "faturamento": 154967.24
+        },
+        {
+          "codcli": "84845",
+          "nome": "PEDRO HENRIQUE PAIVA CARNEIRO",
+          "faturamento": 137726.06
+        },
+        {
+          "codcli": "80460",
+          "nome": "TMT",
+          "faturamento": 133127.7
+        },
+        {
+          "codcli": "81924",
+          "nome": "EDEN GASTRONOMIA E CHOPERIA",
+          "faturamento": 81164.4
+        },
+        {
+          "codcli": "80707",
+          "nome": "AS BEBIDAS",
+          "faturamento": 75446.56
+        },
+        {
+          "codcli": "80238",
+          "nome": "SERRANA BEBIDAS",
+          "faturamento": 63820.12
+        },
+        {
+          "codcli": "78271",
+          "nome": "P P A",
+          "faturamento": 58751.59
+        },
+        {
+          "codcli": "79197",
+          "nome": "TCA COMERCIO CABO FRIO",
+          "faturamento": 54493.09
+        },
+        {
+          "codcli": "82202",
+          "nome": "PAELO HAMBURGUERIA",
+          "faturamento": 50702.3
+        },
+        {
+          "codcli": "67668",
+          "nome": "R R RESTAURANTE CARIOCA",
+          "faturamento": 44392.2
+        },
+        {
+          "codcli": "93329",
+          "nome": "EMPORIO DO ALEMAO",
+          "faturamento": 38387.12
+        },
+        {
+          "codcli": "81698",
+          "nome": "SUPERMERCADO SAO JOSE",
+          "faturamento": 36680.16
+        },
+        {
+          "codcli": "76745",
+          "nome": "ARMAZEM PUB CAFE",
+          "faturamento": 35691.76
+        },
+        {
+          "codcli": "93361",
+          "nome": "EZEQUIEL ROGELIO GARCIA",
+          "faturamento": 35167.2
+        }
+      ]
+    },
+    {
+      "rca": 327,
+      "estado": "MG",
+      "chave": "MG-327",
+      "nome": "JOÃO SANTOS",
+      "time": "OUTROS",
+      "time_label": "Outros / sem time definido",
+      "total_clientes_ativos": 219,
+      "faturamento_ytd": 1993154.77,
+      "media_mensal": 284736.4,
+      "por_mes": {
+        "2026-01": 269855.66,
+        "2026-02": 201518.07,
+        "2026-03": 252299.11,
+        "2026-04": 288642.52,
+        "2026-05": 312476.97,
+        "2026-06": 341993.95,
+        "2026-07": 326368.49
+      },
+      "top_industrias": [
+        {
+          "fantasia": "RED BULL",
+          "faturamento": 602150.19,
+          "pct": 30.2
+        },
+        {
+          "fantasia": "CASTAS",
+          "faturamento": 439472.77,
+          "pct": 22.0
+        },
+        {
+          "fantasia": "HEINEKEN",
+          "faturamento": 330746.4,
+          "pct": 16.6
+        },
+        {
+          "fantasia": "DIAGEO",
+          "faturamento": 146125.3,
+          "pct": 7.3
+        },
+        {
+          "fantasia": "SEM FANTASIA",
+          "faturamento": 116975.88,
+          "pct": 5.9
+        },
+        {
+          "fantasia": "PERNOD",
+          "faturamento": 102729.05,
+          "pct": 5.2
+        },
+        {
+          "fantasia": "LVMH",
+          "faturamento": 62658.2,
+          "pct": 3.1
+        },
+        {
+          "fantasia": "YVY",
+          "faturamento": 55222.0,
+          "pct": 2.8
+        },
+        {
+          "fantasia": "TATUZINHO",
+          "faturamento": 30643.7,
+          "pct": 1.5
+        },
+        {
+          "fantasia": "BROWN-FORMAN",
+          "faturamento": 23948.0,
+          "pct": 1.2
+        },
+        {
+          "fantasia": "NSG",
+          "faturamento": 23073.9,
+          "pct": 1.2
+        },
+        {
+          "fantasia": "AURORA",
+          "faturamento": 14468.4,
+          "pct": 0.7
+        },
+        {
+          "fantasia": "BEAM SUNTORY",
+          "faturamento": 12091.3,
+          "pct": 0.6
+        },
+        {
+          "fantasia": "MONIN",
+          "faturamento": 11942.2,
+          "pct": 0.6
+        },
+        {
+          "fantasia": "BETTER DRINKS",
+          "faturamento": 8154.18,
+          "pct": 0.4
+        }
+      ],
+      "top_clientes": [
+        {
+          "codcli": "31722",
+          "nome": "THAYANE MICELE",
+          "faturamento": 243489.8
+        },
+        {
+          "codcli": "30374",
+          "nome": "EL MAI",
+          "faturamento": 122893.74
+        },
+        {
+          "codcli": "30091",
+          "nome": "COMERCIAL COLOMBO EIRELI",
+          "faturamento": 95129.3
+        },
+        {
+          "codcli": "33176",
+          "nome": "HELP BAR",
+          "faturamento": 82509.0
+        },
+        {
+          "codcli": "33951",
+          "nome": "RESTAURANTE LA TRAVIATA",
+          "faturamento": 59018.86
+        },
+        {
+          "codcli": "34032",
+          "nome": "UPSIDE DISTRIBUICAO DE ALIMENTOS",
+          "faturamento": 55407.36
+        },
+        {
+          "codcli": "31673",
+          "nome": "ESQUINA DO CHOPP JARA",
+          "faturamento": 51456.22
+        },
+        {
+          "codcli": "31402",
+          "nome": "RESTAURANTE E LANCHONETE UNIVERSITARIO PUC II",
+          "faturamento": 44418.24
+        },
+        {
+          "codcli": "33010",
+          "nome": "GOLDEN ALIMENTOS",
+          "faturamento": 40081.22
+        },
+        {
+          "codcli": "32805",
+          "nome": "SOS BIRINYTE",
+          "faturamento": 36210.0
+        },
+        {
+          "codcli": "37207",
+          "nome": "MEZZA LOUNGE",
+          "faturamento": 31356.54
+        },
+        {
+          "codcli": "33224",
+          "nome": "CULINARIA JAPAN GDA",
+          "faturamento": 28749.82
+        },
+        {
+          "codcli": "33615",
+          "nome": "MONKA CERVEJARIA LTDA",
+          "faturamento": 28035.68
+        },
+        {
+          "codcli": "33925",
+          "nome": "CULINARIA JAPAN GDA",
+          "faturamento": 25951.74
+        },
+        {
+          "codcli": "31632",
+          "nome": "TONEL BEBIDAS LTDA",
+          "faturamento": 22916.16
         }
       ]
     },
@@ -1484,73 +1577,73 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
       "nome": "ANDRE SILVA",
       "time": "OUTROS",
       "time_label": "Outros / sem time definido",
-      "total_clientes_ativos": 31,
-      "faturamento_ytd": 1702975.35,
-      "media_mensal": 243282.19,
+      "total_clientes_ativos": 35,
+      "faturamento_ytd": 1895675.41,
+      "media_mensal": 270810.77,
       "por_mes": {
         "2026-01": 109964.08,
         "2026-02": 541093.05,
         "2026-03": 166766.57,
         "2026-04": 331089.89,
         "2026-05": 248776.42,
-        "2026-06": 141022.19,
-        "2026-07": 164263.14
+        "2026-06": 136885.79,
+        "2026-07": 361099.6
       },
       "top_industrias": [
         {
           "fantasia": "PERNOD",
-          "faturamento": 759957.93,
-          "pct": 44.6
+          "faturamento": 768731.13,
+          "pct": 40.6
         },
         {
           "fantasia": "BACARDI",
-          "faturamento": 270820.88,
-          "pct": 15.9
+          "faturamento": 443630.6,
+          "pct": 23.4
         },
         {
           "fantasia": "LUCIA",
-          "faturamento": 215770.8,
-          "pct": 12.7
+          "faturamento": 210019.8,
+          "pct": 11.1
         },
         {
           "fantasia": "BEAM SUNTORY BRASIL",
           "faturamento": 120106.02,
-          "pct": 7.1
+          "pct": 6.3
         },
         {
           "fantasia": "AURORA",
           "faturamento": 97487.5,
-          "pct": 5.7
+          "pct": 5.1
         },
         {
           "fantasia": "MOET HENNESY",
-          "faturamento": 56238.13,
-          "pct": 3.3
+          "faturamento": 58325.53,
+          "pct": 3.1
         },
         {
           "fantasia": "CASTAS",
-          "faturamento": 47396.28,
-          "pct": 2.8
+          "faturamento": 46017.48,
+          "pct": 2.4
+        },
+        {
+          "fantasia": "BROWN",
+          "faturamento": 44572.4,
+          "pct": 2.4
         },
         {
           "fantasia": "DIAGEO",
           "faturamento": 42106.64,
-          "pct": 2.5
-        },
-        {
-          "fantasia": "BROWN",
-          "faturamento": 31382.0,
-          "pct": 1.8
+          "pct": 2.2
         },
         {
           "fantasia": "INTERFOOD",
-          "faturamento": 23383.74,
-          "pct": 1.4
+          "faturamento": 24383.64,
+          "pct": 1.3
         },
         {
           "fantasia": "CAMPARI",
-          "faturamento": 14480.4,
-          "pct": 0.9
+          "faturamento": 14737.8,
+          "pct": 0.8
         },
         {
           "fantasia": "PERINI",
@@ -1558,14 +1651,14 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
           "pct": 0.5
         },
         {
-          "fantasia": "TATUZINHO",
-          "faturamento": 4644.0,
+          "fantasia": "YVY",
+          "faturamento": 5756.2,
           "pct": 0.3
         },
         {
-          "fantasia": "YVY",
-          "faturamento": 4463.8,
-          "pct": 0.3
+          "fantasia": "TATUZINHO",
+          "faturamento": 4644.0,
+          "pct": 0.2
         },
         {
           "fantasia": "CRS BRANDS",
@@ -1577,7 +1670,7 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
         {
           "codcli": "47425",
           "nome": "COMERCIAL ESPERANCA ATACADISTA",
-          "faturamento": 631908.98
+          "faturamento": 800522.9
         },
         {
           "codcli": "23845",
@@ -1587,7 +1680,7 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
         {
           "codcli": "23052",
           "nome": "FLV COMERCIO DE HORTIFRUTO LTDA",
-          "faturamento": 121727.68
+          "faturamento": 123020.08
         },
         {
           "codcli": "44020",
@@ -1607,7 +1700,7 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
         {
           "codcli": "33273",
           "nome": "SAO JORGE ATACADISTA",
-          "faturamento": 61959.8
+          "faturamento": 56208.8
         },
         {
           "codcli": "49613",
@@ -1635,6 +1728,11 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
           "faturamento": 29328.0
         },
         {
+          "codcli": "47400",
+          "nome": "SUPERMERCADOS BERGAMINI",
+          "faturamento": 18978.0
+        },
+        {
           "codcli": "31134",
           "nome": "POMAR DA VILA",
           "faturamento": 18051.6
@@ -1643,11 +1741,226 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
           "codcli": "27534",
           "nome": "POMAR DA VILA",
           "faturamento": 17624.88
+        }
+      ]
+    },
+    {
+      "rca": 275,
+      "estado": "RJ",
+      "chave": "RJ-275",
+      "nome": "Maria Luiza",
+      "time": "KEY_ACCOUNT",
+      "time_label": "Key Account",
+      "total_clientes_ativos": 54,
+      "faturamento_ytd": 1647594.97,
+      "media_mensal": 235370.71,
+      "por_mes": {
+        "2026-01": 249225.72,
+        "2026-02": 100451.04,
+        "2026-03": 32693.54,
+        "2026-04": 231774.56,
+        "2026-05": 269355.99,
+        "2026-06": 213961.33,
+        "2026-07": 550132.79
+      },
+      "top_industrias": [
+        {
+          "fantasia": "BEAM SUNTORY",
+          "faturamento": 531522.64,
+          "pct": 32.3
         },
         {
-          "codcli": "38500",
-          "nome": "CONVEM SUPERMERCADOS",
-          "faturamento": 16239.39
+          "fantasia": "AGUA NA CAIXA",
+          "faturamento": 328396.5,
+          "pct": 19.9
+        },
+        {
+          "fantasia": "LUCIA",
+          "faturamento": 202709.1,
+          "pct": 12.3
+        },
+        {
+          "fantasia": "ROBINSON CRUSOE",
+          "faturamento": 149874.55,
+          "pct": 9.1
+        },
+        {
+          "fantasia": "CASA PERINI",
+          "faturamento": 133137.0,
+          "pct": 8.1
+        },
+        {
+          "fantasia": "CASTAS",
+          "faturamento": 76191.54,
+          "pct": 4.6
+        },
+        {
+          "fantasia": "HENNESSY",
+          "faturamento": 66920.4,
+          "pct": 4.1
+        },
+        {
+          "fantasia": "HOB",
+          "faturamento": 65438.96,
+          "pct": 4.0
+        },
+        {
+          "fantasia": "MACROEX",
+          "faturamento": 37392.0,
+          "pct": 2.3
+        },
+        {
+          "fantasia": "TATUZINHO",
+          "faturamento": 36375.09,
+          "pct": 2.2
+        },
+        {
+          "fantasia": "DRYCAT DESTLARIA LTDA",
+          "faturamento": 6768.0,
+          "pct": 0.4
+        },
+        {
+          "fantasia": "DIAGEO",
+          "faturamento": 4395.0,
+          "pct": 0.3
+        },
+        {
+          "fantasia": "INTERFOOD",
+          "faturamento": 2661.0,
+          "pct": 0.2
+        },
+        {
+          "fantasia": "CAPIM BRANCO",
+          "faturamento": 2332.2,
+          "pct": 0.1
+        },
+        {
+          "fantasia": "BACARDI",
+          "faturamento": 985.69,
+          "pct": 0.1
+        }
+      ],
+      "top_clientes": [
+        {
+          "codcli": "6269",
+          "nome": "SUPERMERCADO ZONA SUL",
+          "faturamento": 587101.46
+        },
+        {
+          "codcli": "91668",
+          "nome": "SENDAS DISTRIBUIDORA S/A",
+          "faturamento": 380914.8
+        },
+        {
+          "codcli": "7886",
+          "nome": "PREZUNIC - PENHA",
+          "faturamento": 236911.56
+        },
+        {
+          "codcli": "84030",
+          "nome": "KETEK COMERCIAL",
+          "faturamento": 54696.86
+        },
+        {
+          "codcli": "84029",
+          "nome": "EMISE SUPERMERCADO",
+          "faturamento": 40183.76
+        },
+        {
+          "codcli": "84031",
+          "nome": "ROYAL CENTER COMERCIAL",
+          "faturamento": 32489.16
+        },
+        {
+          "codcli": "84033",
+          "nome": "EMISE SUPERMERCADO - VIGA",
+          "faturamento": 31381.29
+        },
+        {
+          "codcli": "84032",
+          "nome": "KETEK COMERCIAL",
+          "faturamento": 30016.99
+        },
+        {
+          "codcli": "84025",
+          "nome": "ROYAL COMERCIO E DISTRIBUIDORA",
+          "faturamento": 29805.41
+        },
+        {
+          "codcli": "84034",
+          "nome": "EMISE SUPERMERCADO",
+          "faturamento": 25514.22
+        },
+        {
+          "codcli": "94914",
+          "nome": "CASAFRUTI CD",
+          "faturamento": 19870.8
+        },
+        {
+          "codcli": "91839",
+          "nome": "DOM ATACADISTA",
+          "faturamento": 16607.94
+        },
+        {
+          "codcli": "60846",
+          "nome": "DOM ATACADISTA TERESOPOLIS",
+          "faturamento": 15450.84
+        },
+        {
+          "codcli": "83962",
+          "nome": "ATLAS DE IGUACU DISTRIBUIDORA",
+          "faturamento": 14902.2
+        },
+        {
+          "codcli": "85095",
+          "nome": "CARONE CABO FRIO - CENTRO",
+          "faturamento": 14033.41
+        }
+      ]
+    },
+    {
+      "rca": 376,
+      "estado": "ES",
+      "chave": "ES-376",
+      "nome": "CARLOS TERRA",
+      "time": "OUTROS",
+      "time_label": "Outros / sem time definido",
+      "total_clientes_ativos": 3,
+      "faturamento_ytd": 1593385.21,
+      "media_mensal": 398346.3,
+      "por_mes": {
+        "2026-03": 514950.0,
+        "2026-04": 69110.4,
+        "2026-05": 628024.32,
+        "2026-06": 381300.48
+      },
+      "top_industrias": [
+        {
+          "fantasia": "RED BULL",
+          "faturamento": 1009324.81,
+          "pct": 63.3
+        },
+        {
+          "fantasia": "PERNOD",
+          "faturamento": 584060.4,
+          "pct": 36.7
+        }
+      ],
+      "top_clientes": [
+        {
+          "codcli": "95150",
+          "nome": "UNIKA ATACADISTA DE BEBIDAS E ALIMENTOS",
+          "faturamento": 1009324.81
+        },
+        {
+          "codcli": "93861",
+          "nome": "META ATACADO E DISTRIBUICAO",
+          "faturamento": 386568.0
+        },
+        {
+          "codcli": "93809",
+          "nome": "ULTRAVALLE",
+          "faturamento": 197492.4
         }
       ]
     },
@@ -1659,19 +1972,19 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
       "time": "OUTROS",
       "time_label": "Outros / sem time definido",
       "total_clientes_ativos": 17,
-      "faturamento_ytd": 1592610.9,
-      "media_mensal": 398152.73,
+      "faturamento_ytd": 1590454.5,
+      "media_mensal": 397613.63,
       "por_mes": {
         "2026-03": 518686.19,
         "2026-04": 544946.32,
         "2026-05": 317650.91,
-        "2026-06": 211327.48
+        "2026-06": 209171.08
       },
       "top_industrias": [
         {
           "fantasia": "PERNOD",
           "faturamento": 1168804.94,
-          "pct": 73.4
+          "pct": 73.5
         },
         {
           "fantasia": "CASTAS",
@@ -1685,8 +1998,8 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
         },
         {
           "fantasia": "BEAM SUNTORY BRASIL",
-          "faturamento": 32945.11,
-          "pct": 2.1
+          "faturamento": 30788.71,
+          "pct": 1.9
         },
         {
           "fantasia": "DIAGEO",
@@ -1752,8 +2065,8 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
         },
         {
           "codcli": "47400",
-          "nome": "SUPERMERCADOS BERGAMINI LTDA",
-          "faturamento": 109975.05
+          "nome": "SUPERMERCADOS BERGAMINI",
+          "faturamento": 107818.65
         },
         {
           "codcli": "38470",
@@ -1762,7 +2075,7 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
         },
         {
           "codcli": "47399",
-          "nome": "SUPERMERCADOS BERGAMINI LTDA",
+          "nome": "SUPERMERCADOS BERGAMINI",
           "faturamento": 20516.59
         },
         {
@@ -1809,130 +2122,6 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
           "codcli": "50722",
           "nome": "DISTRIBUIDORA DE ALIMENTOS SUPER COTIA",
           "faturamento": 514.8
-        }
-      ]
-    },
-    {
-      "rca": 318,
-      "estado": "SP",
-      "chave": "SP-318",
-      "nome": "MARCUS TANAMACHI",
-      "time": "OUTROS",
-      "time_label": "Outros / sem time definido",
-      "total_clientes_ativos": 2,
-      "faturamento_ytd": 1511752.8,
-      "media_mensal": 503917.6,
-      "por_mes": {
-        "2026-04": 174034.2,
-        "2026-05": 900095.4,
-        "2026-07": 437623.2
-      },
-      "top_industrias": [
-        {
-          "fantasia": "PERNOD",
-          "faturamento": 1511752.8,
-          "pct": 100.0
-        }
-      ],
-      "top_clientes": [
-        {
-          "codcli": "47425",
-          "nome": "COMERCIAL ESPERANCA ATACADISTA",
-          "faturamento": 1074129.6
-        },
-        {
-          "codcli": "46386",
-          "nome": "ATACADO SOARES",
-          "faturamento": 437623.2
-        }
-      ]
-    },
-    {
-      "rca": 232,
-      "estado": "SP",
-      "chave": "SP-232",
-      "nome": "ANDERSON CANAVEIS",
-      "time": "OUTROS",
-      "time_label": "Outros / sem time definido",
-      "total_clientes_ativos": 6,
-      "faturamento_ytd": 1478847.44,
-      "media_mensal": 739423.72,
-      "por_mes": {
-        "2026-06": 1476502.11,
-        "2026-07": 2345.34
-      },
-      "top_industrias": [
-        {
-          "fantasia": "PERNOD",
-          "faturamento": 1474341.3,
-          "pct": 99.7
-        },
-        {
-          "fantasia": "CASTAS",
-          "faturamento": 1701.6,
-          "pct": 0.1
-        },
-        {
-          "fantasia": "CRS BRANDS",
-          "faturamento": 1040.76,
-          "pct": 0.1
-        },
-        {
-          "fantasia": "BROWN",
-          "faturamento": 599.4,
-          "pct": 0.0
-        },
-        {
-          "fantasia": "AURORA",
-          "faturamento": 478.8,
-          "pct": 0.0
-        },
-        {
-          "fantasia": "BACARDI",
-          "faturamento": 449.19,
-          "pct": 0.0
-        },
-        {
-          "fantasia": "CAMPARI",
-          "faturamento": 149.7,
-          "pct": 0.0
-        },
-        {
-          "fantasia": "DIAGEO",
-          "faturamento": 86.7,
-          "pct": 0.0
-        }
-      ],
-      "top_clientes": [
-        {
-          "codcli": "47425",
-          "nome": "COMERCIAL ESPERANCA ATACADISTA",
-          "faturamento": 1473430.8
-        },
-        {
-          "codcli": "51139",
-          "nome": "BIG BOM SANTO ANDRE MINIMERCADO",
-          "faturamento": 2693.82
-        },
-        {
-          "codcli": "51354",
-          "nome": "SUPERMERCADO YAMATO",
-          "faturamento": 1513.23
-        },
-        {
-          "codcli": "51503",
-          "nome": "AUTO POSTO RAMALHAO LTDA",
-          "faturamento": 478.8
-        },
-        {
-          "codcli": "51123",
-          "nome": "BONZAO COMERCIO DE DOCES",
-          "faturamento": 455.04
-        },
-        {
-          "codcli": "51421",
-          "nome": "MERCADO CABRAL & COUTINHO",
-          "faturamento": 275.76
         }
       ]
     },
@@ -2072,176 +2261,176 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
       ]
     },
     {
-      "rca": 275,
+      "rca": 238,
       "estado": "RJ",
-      "chave": "RJ-275",
-      "nome": "Maria Luiza",
-      "time": "KEY_ACCOUNT",
-      "time_label": "Key Account",
-      "total_clientes_ativos": 56,
-      "faturamento_ytd": 1442495.13,
-      "media_mensal": 206070.73,
+      "chave": "RJ-238",
+      "nome": "DANIELLE MOURA",
+      "time": "OUTROS",
+      "time_label": "Outros / sem time definido",
+      "total_clientes_ativos": 68,
+      "faturamento_ytd": 1285648.86,
+      "media_mensal": 183664.12,
       "por_mes": {
-        "2026-01": 249225.72,
-        "2026-02": 100451.04,
-        "2026-03": 32693.54,
-        "2026-04": 231774.56,
-        "2026-05": 287308.41,
-        "2026-06": 232134.51,
-        "2026-07": 308907.35
+        "2026-01": 19561.56,
+        "2026-02": 371146.79,
+        "2026-03": 284063.08,
+        "2026-04": 201153.01,
+        "2026-05": 17463.22,
+        "2026-06": 249642.7,
+        "2026-07": 142618.5
       },
       "top_industrias": [
         {
-          "fantasia": "BEAM SUNTORY",
-          "faturamento": 465530.64,
-          "pct": 32.3
+          "fantasia": "ROBINSON CRUSOE",
+          "faturamento": 301583.62,
+          "pct": 23.5
         },
         {
-          "fantasia": "AGUA NA CAIXA",
-          "faturamento": 328604.7,
-          "pct": 22.8
-        },
-        {
-          "fantasia": "LUCIA",
-          "faturamento": 185951.1,
-          "pct": 12.9
+          "fantasia": "FANTE",
+          "faturamento": 281844.18,
+          "pct": 21.9
         },
         {
           "fantasia": "CASA PERINI",
-          "faturamento": 140422.8,
-          "pct": 9.7
+          "faturamento": 279337.42,
+          "pct": 21.7
         },
         {
-          "fantasia": "CASTAS",
-          "faturamento": 66286.93,
-          "pct": 4.6
+          "fantasia": "BEAM SUNTORY",
+          "faturamento": 223333.78,
+          "pct": 17.4
         },
         {
           "fantasia": "HENNESSY",
-          "faturamento": 64535.4,
-          "pct": 4.5
+          "faturamento": 86138.44,
+          "pct": 6.7
         },
         {
-          "fantasia": "HOB",
-          "faturamento": 56477.96,
-          "pct": 3.9
+          "fantasia": "CASTAS",
+          "faturamento": 51899.41,
+          "pct": 4.0
         },
         {
-          "fantasia": "ROBINSON CRUSOE",
-          "faturamento": 40953.6,
-          "pct": 2.8
+          "fantasia": "PERNOD",
+          "faturamento": 21710.42,
+          "pct": 1.7
+        },
+        {
+          "fantasia": "AURORA",
+          "faturamento": 14992.6,
+          "pct": 1.2
         },
         {
           "fantasia": "TATUZINHO",
-          "faturamento": 38073.2,
-          "pct": 2.6
-        },
-        {
-          "fantasia": "MACROEX",
-          "faturamento": 37392.0,
-          "pct": 2.6
-        },
-        {
-          "fantasia": "DRYCAT DESTLARIA LTDA",
-          "faturamento": 6768.0,
+          "faturamento": 6817.38,
           "pct": 0.5
         },
         {
-          "fantasia": "DIAGEO",
-          "faturamento": 3594.0,
-          "pct": 0.2
+          "fantasia": "51",
+          "faturamento": 4201.92,
+          "pct": 0.3
         },
         {
           "fantasia": "INTERFOOD",
-          "faturamento": 2661.0,
+          "faturamento": 2772.9,
           "pct": 0.2
         },
         {
-          "fantasia": "CAPIM BRANCO",
-          "faturamento": 2332.2,
+          "fantasia": "DIAGEO",
+          "faturamento": 2072.66,
           "pct": 0.2
         },
         {
-          "fantasia": "BACARDI",
-          "faturamento": 985.69,
+          "fantasia": "PINATI",
+          "faturamento": 1260.8,
+          "pct": 0.1
+        },
+        {
+          "fantasia": "BALLENA",
+          "faturamento": 1258.08,
+          "pct": 0.1
+        },
+        {
+          "fantasia": "BROWN",
+          "faturamento": 1043.27,
           "pct": 0.1
         }
       ],
       "top_clientes": [
         {
-          "codcli": "6269",
-          "nome": "SUPERMERCADO ZONA SUL",
-          "faturamento": 560992.46
-        },
-        {
-          "codcli": "91668",
-          "nome": "SENDAS DISTRIBUIDORA S/A",
-          "faturamento": 330279.6
+          "codcli": "2978",
+          "nome": "FILIAL 01 - BARROS FILHO",
+          "faturamento": 572447.4
         },
         {
           "codcli": "7886",
           "nome": "PREZUNIC - PENHA",
-          "faturamento": 117303.14
+          "faturamento": 301583.62
         },
         {
-          "codcli": "84030",
-          "nome": "KETEK COMERCIAL",
-          "faturamento": 54696.86
-        },
-        {
-          "codcli": "84029",
-          "nome": "EMISE SUPERMERCADO",
-          "faturamento": 40183.76
-        },
-        {
-          "codcli": "84031",
-          "nome": "ROYAL CENTER COMERCIAL",
-          "faturamento": 38793.07
-        },
-        {
-          "codcli": "84033",
-          "nome": "EMISE SUPERMERCADO - VIGA",
-          "faturamento": 31381.29
-        },
-        {
-          "codcli": "84032",
-          "nome": "KETEK COMERCIAL",
-          "faturamento": 30016.99
-        },
-        {
-          "codcli": "84025",
-          "nome": "ROYAL COMERCIO E DISTRIBUIDORA",
-          "faturamento": 29805.41
-        },
-        {
-          "codcli": "84034",
-          "nome": "EMISE SUPERMERCADO",
-          "faturamento": 25514.22
+          "codcli": "91838",
+          "nome": "DOM ATACAREJO S.A.",
+          "faturamento": 47977.56
         },
         {
           "codcli": "91839",
           "nome": "DOM ATACADISTA",
-          "faturamento": 17196.54
+          "faturamento": 39146.04
         },
         {
-          "codcli": "94914",
-          "nome": "CASAFRUTI CD",
-          "faturamento": 16115.4
+          "codcli": "89197",
+          "nome": "SUPERPAO - PAISSANDU",
+          "faturamento": 32654.88
         },
         {
-          "codcli": "60846",
-          "nome": "DOM ATACADISTA TERESOPOLIS",
-          "faturamento": 15450.84
+          "codcli": "91051",
+          "nome": "CADORE/TORRE - COELHO DA ROCHA",
+          "faturamento": 20970.0
         },
         {
-          "codcli": "83962",
-          "nome": "ATLAS DE IGUACU DISTRIBUIDORA",
-          "faturamento": 14902.2
+          "codcli": "74401",
+          "nome": "DOM ATACAREJO",
+          "faturamento": 14408.04
         },
         {
-          "codcli": "83581",
-          "nome": "POSTO DE VENDAS N 19 - CANTAGALO",
-          "faturamento": 10206.0
+          "codcli": "74406",
+          "nome": "DOM ATACAREJO",
+          "faturamento": 12803.52
+        },
+        {
+          "codcli": "78665",
+          "nome": "SUPERMARKET - DEL CASTILHO",
+          "faturamento": 12352.59
+        },
+        {
+          "codcli": "74400",
+          "nome": "DOM ATACAREJO",
+          "faturamento": 11415.92
+        },
+        {
+          "codcli": "61684",
+          "nome": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE",
+          "faturamento": 9955.38
+        },
+        {
+          "codcli": "74407",
+          "nome": "DOM ATACAREJO",
+          "faturamento": 9895.44
+        },
+        {
+          "codcli": "74838",
+          "nome": "PRIME MARKETS",
+          "faturamento": 9577.44
+        },
+        {
+          "codcli": "91841",
+          "nome": "SUPERMARKET",
+          "faturamento": 9032.76
+        },
+        {
+          "codcli": "91197",
+          "nome": "SUPERMERCADO PADRAO DO FONSECA LTDA.",
+          "faturamento": 8699.04
         }
       ]
     },
@@ -2266,14 +2455,14 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
           "pct": 62.8
         },
         {
-          "fantasia": "SEM FANTASIA",
-          "faturamento": 127265.88,
-          "pct": 10.5
-        },
-        {
           "fantasia": "BEAM SUNTORY",
           "faturamento": 93019.5,
           "pct": 7.7
+        },
+        {
+          "fantasia": "LVMH",
+          "faturamento": 81948.36,
+          "pct": 6.8
         },
         {
           "fantasia": "DIAGEO",
@@ -2284,6 +2473,11 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
           "fantasia": "BALLENA",
           "faturamento": 79811.4,
           "pct": 6.6
+        },
+        {
+          "fantasia": "SEM FANTASIA",
+          "faturamento": 45317.52,
+          "pct": 3.7
         },
         {
           "fantasia": "AURORA",
@@ -2385,189 +2579,15 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
       ]
     },
     {
-      "rca": 238,
-      "estado": "RJ",
-      "chave": "RJ-238",
-      "nome": "DANIELLE MOURA",
-      "time": "OUTROS",
-      "time_label": "Outros / sem time definido",
-      "total_clientes_ativos": 68,
-      "faturamento_ytd": 1145448.36,
-      "media_mensal": 163635.48,
-      "por_mes": {
-        "2026-01": 19561.56,
-        "2026-02": 371146.79,
-        "2026-03": 284063.08,
-        "2026-04": 201153.01,
-        "2026-05": 17463.22,
-        "2026-06": 249642.7,
-        "2026-07": 2418.0
-      },
-      "top_industrias": [
-        {
-          "fantasia": "ROBINSON CRUSOE",
-          "faturamento": 301583.62,
-          "pct": 26.3
-        },
-        {
-          "fantasia": "FANTE",
-          "faturamento": 281844.18,
-          "pct": 24.6
-        },
-        {
-          "fantasia": "CASA PERINI",
-          "faturamento": 197714.62,
-          "pct": 17.3
-        },
-        {
-          "fantasia": "BEAM SUNTORY",
-          "faturamento": 193168.78,
-          "pct": 16.9
-        },
-        {
-          "fantasia": "HENNESSY",
-          "faturamento": 71885.74,
-          "pct": 6.3
-        },
-        {
-          "fantasia": "CASTAS",
-          "faturamento": 51899.41,
-          "pct": 4.5
-        },
-        {
-          "fantasia": "PERNOD",
-          "faturamento": 21710.42,
-          "pct": 1.9
-        },
-        {
-          "fantasia": "TATUZINHO",
-          "faturamento": 6817.38,
-          "pct": 0.6
-        },
-        {
-          "fantasia": "51",
-          "faturamento": 4201.92,
-          "pct": 0.4
-        },
-        {
-          "fantasia": "INTERFOOD",
-          "faturamento": 2772.9,
-          "pct": 0.2
-        },
-        {
-          "fantasia": "DIAGEO",
-          "faturamento": 2072.66,
-          "pct": 0.2
-        },
-        {
-          "fantasia": "PINATI",
-          "faturamento": 1260.8,
-          "pct": 0.1
-        },
-        {
-          "fantasia": "BALLENA",
-          "faturamento": 1258.08,
-          "pct": 0.1
-        },
-        {
-          "fantasia": "BROWN",
-          "faturamento": 1043.27,
-          "pct": 0.1
-        },
-        {
-          "fantasia": "CATUABA",
-          "faturamento": 1042.8,
-          "pct": 0.1
-        }
-      ],
-      "top_clientes": [
-        {
-          "codcli": "2978",
-          "nome": "FILIAL 01 - BARROS FILHO",
-          "faturamento": 432246.9
-        },
-        {
-          "codcli": "7886",
-          "nome": "PREZUNIC - PENHA",
-          "faturamento": 301583.62
-        },
-        {
-          "codcli": "91838",
-          "nome": "DOM ATACAREJO S.A.",
-          "faturamento": 47977.56
-        },
-        {
-          "codcli": "91839",
-          "nome": "DOM ATACADISTA",
-          "faturamento": 39146.04
-        },
-        {
-          "codcli": "89197",
-          "nome": "SUPERPAO - PAISSANDU",
-          "faturamento": 32654.88
-        },
-        {
-          "codcli": "91051",
-          "nome": "CADORE/TORRE - COELHO DA ROCHA",
-          "faturamento": 20970.0
-        },
-        {
-          "codcli": "74401",
-          "nome": "DOM ATACAREJO",
-          "faturamento": 14408.04
-        },
-        {
-          "codcli": "74406",
-          "nome": "DOM ATACAREJO",
-          "faturamento": 12803.52
-        },
-        {
-          "codcli": "78665",
-          "nome": "SUPERMARKET - DEL CASTILHO",
-          "faturamento": 12352.59
-        },
-        {
-          "codcli": "74400",
-          "nome": "DOM ATACAREJO",
-          "faturamento": 11415.92
-        },
-        {
-          "codcli": "61684",
-          "nome": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE",
-          "faturamento": 9955.38
-        },
-        {
-          "codcli": "74407",
-          "nome": "DOM ATACAREJO",
-          "faturamento": 9895.44
-        },
-        {
-          "codcli": "74838",
-          "nome": "PRIME MARKETS",
-          "faturamento": 9577.44
-        },
-        {
-          "codcli": "91841",
-          "nome": "SUPERMARKET",
-          "faturamento": 9032.76
-        },
-        {
-          "codcli": "91197",
-          "nome": "SUPERMERCADO PADRAO DO FONSECA LTDA.",
-          "faturamento": 8699.04
-        }
-      ]
-    },
-    {
       "rca": 144,
       "estado": "RJ",
       "chave": "RJ-144",
       "nome": "Diogo Raposo",
       "time": "ATACAREJO",
       "time_label": "Atacarejo (Pequeno e médio varejo)",
-      "total_clientes_ativos": 75,
-      "faturamento_ytd": 1117742.51,
-      "media_mensal": 159677.5,
+      "total_clientes_ativos": 79,
+      "faturamento_ytd": 1198815.49,
+      "media_mensal": 171259.36,
       "por_mes": {
         "2026-01": 249930.47,
         "2026-02": 72065.42,
@@ -2575,82 +2595,82 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
         "2026-04": 220003.25,
         "2026-05": 159667.33,
         "2026-06": 201291.65,
-        "2026-07": 87698.94
+        "2026-07": 168771.92
       },
       "top_industrias": [
         {
           "fantasia": "KAISER",
-          "faturamento": 318650.75,
-          "pct": 28.5
+          "faturamento": 330360.25,
+          "pct": 27.6
         },
         {
           "fantasia": "DIAGEO",
-          "faturamento": 192001.24,
-          "pct": 17.2
+          "faturamento": 207721.64,
+          "pct": 17.3
         },
         {
           "fantasia": "CASA PERINI",
-          "faturamento": 133272.2,
-          "pct": 11.9
+          "faturamento": 137549.2,
+          "pct": 11.5
         },
         {
           "fantasia": "RED BULL",
-          "faturamento": 104931.06,
-          "pct": 9.4
+          "faturamento": 123256.14,
+          "pct": 10.3
         },
         {
           "fantasia": "HENNESSY",
-          "faturamento": 64259.5,
-          "pct": 5.7
+          "faturamento": 75034.6,
+          "pct": 6.3
         },
         {
           "fantasia": "PERNOD",
-          "faturamento": 50308.26,
-          "pct": 4.5
+          "faturamento": 56047.86,
+          "pct": 4.7
         },
         {
           "fantasia": "CASTAS",
-          "faturamento": 33363.26,
-          "pct": 3.0
+          "faturamento": 35040.26,
+          "pct": 2.9
         },
         {
           "fantasia": "TATUZINHO",
-          "faturamento": 28396.09,
+          "faturamento": 30394.09,
           "pct": 2.5
         },
         {
           "fantasia": "ROBINSON CRUSOE",
           "faturamento": 27371.04,
-          "pct": 2.4
+          "pct": 2.3
         },
         {
           "fantasia": "TIAL",
-          "faturamento": 15754.9,
+          "faturamento": 16294.9,
           "pct": 1.4
         },
         {
           "fantasia": "51",
-          "faturamento": 14324.88,
-          "pct": 1.3
-        },
-        {
-          "fantasia": "BACARDI",
-          "faturamento": 13866.0,
+          "faturamento": 14510.88,
           "pct": 1.2
         },
         {
-          "fantasia": "MINALBA",
-          "faturamento": 12559.0,
-          "pct": 1.1
+          "fantasia": "BACARDI",
+          "faturamento": 14043.6,
+          "pct": 1.2
         },
         {
           "fantasia": "COMARY",
           "faturamento": 12327.37,
-          "pct": 1.1
+          "pct": 1.0
         },
         {
-          "fantasia": "VITON",
-          "faturamento": 10033.73,
+          "fantasia": "FANTE",
+          "faturamento": 11798.39,
+          "pct": 1.0
+        },
+        {
+          "fantasia": "MINALBA",
+          "faturamento": 11056.0,
           "pct": 0.9
         }
       ],
@@ -2658,37 +2678,37 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
         {
           "codcli": "81490",
           "nome": "MAYRON S BAR",
-          "faturamento": 181656.3
-        },
-        {
-          "codcli": "50853",
-          "nome": "VIP'S MOTEL SOCIEDADE UNIPESSOAL",
-          "faturamento": 84119.94
+          "faturamento": 192753.6
         },
         {
           "codcli": "77422",
           "nome": "LUCRE BEM MERCEARIA - BANGU",
-          "faturamento": 82212.44
+          "faturamento": 95602.84
+        },
+        {
+          "codcli": "50853",
+          "nome": "VIP'S MOTEL SOCIEDADE UNIPESSOAL",
+          "faturamento": 93912.94
         },
         {
           "codcli": "86503",
           "nome": "DENILSON GOMES DOS SANTOS",
-          "faturamento": 73036.44
+          "faturamento": 76527.52
         },
         {
           "codcli": "84459",
           "nome": "COLDBEER",
-          "faturamento": 71640.16
+          "faturamento": 73551.16
         },
         {
           "codcli": "92136",
           "nome": "KAUE ALVES DA SILVA SARAIVA",
-          "faturamento": 61134.6
+          "faturamento": 70194.1
         },
         {
           "codcli": "86115",
           "nome": "MINIMERCADO ALFERES - PQ. BARCELLOS",
-          "faturamento": 47812.4
+          "faturamento": 52459.4
         },
         {
           "codcli": "3863",
@@ -2698,12 +2718,12 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
         {
           "codcli": "81631",
           "nome": "LUIZ VICTOR SOUZA PINTO",
-          "faturamento": 40880.06
+          "faturamento": 41621.46
         },
         {
           "codcli": "83863",
           "nome": "RENATO CRUZ DA SILVA",
-          "faturamento": 30890.74
+          "faturamento": 33847.24
         },
         {
           "codcli": "91155",
@@ -2713,12 +2733,12 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
         {
           "codcli": "78141",
           "nome": "MARCIO GARCIA SANCHES 01351218760",
-          "faturamento": 26345.28
+          "faturamento": 27195.28
         },
         {
           "codcli": "86257",
           "nome": "MERCADO BOA OPCAO",
-          "faturamento": 23663.54
+          "faturamento": 25283.34
         },
         {
           "codcli": "94840",
@@ -2739,54 +2759,59 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
       "nome": "MANUELA ZAPPACOSTA",
       "time": "OUTROS",
       "time_label": "Outros / sem time definido",
-      "total_clientes_ativos": 70,
-      "faturamento_ytd": 1108364.99,
-      "media_mensal": 277091.25,
+      "total_clientes_ativos": 74,
+      "faturamento_ytd": 1190366.59,
+      "media_mensal": 297591.65,
       "por_mes": {
         "2026-04": 262330.44,
         "2026-05": 449220.07,
-        "2026-06": 224919.91,
-        "2026-07": 171894.57
+        "2026-06": 217932.91,
+        "2026-07": 260883.17
       },
       "top_industrias": [
         {
           "fantasia": "PERNOD",
-          "faturamento": 800937.6,
-          "pct": 72.3
+          "faturamento": 849628.15,
+          "pct": 71.4
         },
         {
           "fantasia": "BROWN",
-          "faturamento": 105618.0,
-          "pct": 9.5
+          "faturamento": 108015.6,
+          "pct": 9.1
         },
         {
           "fantasia": "AURORA",
-          "faturamento": 65653.3,
-          "pct": 5.9
+          "faturamento": 62542.3,
+          "pct": 5.3
         },
         {
           "fantasia": "BACARDI",
-          "faturamento": 29746.74,
-          "pct": 2.7
+          "faturamento": 47633.63,
+          "pct": 4.0
         },
         {
           "fantasia": "CRS BRANDS",
-          "faturamento": 25274.04,
+          "faturamento": 26998.92,
           "pct": 2.3
+        },
+        {
+          "fantasia": "BALLENA",
+          "faturamento": 18670.67,
+          "pct": 1.6
+        },
+        {
+          "fantasia": "BEAM SUNTORY BRASIL",
+          "faturamento": 15850.8,
+          "pct": 1.3
         },
         {
           "fantasia": "MOET HENNESY",
           "faturamento": 14159.4,
-          "pct": 1.3
+          "pct": 1.2
         },
         {
           "fantasia": "PERINI",
           "faturamento": 13011.0,
-          "pct": 1.2
-        },
-        {
-          "fantasia": "BALLENA",
-          "faturamento": 11799.27,
           "pct": 1.1
         },
         {
@@ -2796,18 +2821,13 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
         },
         {
           "fantasia": "FANTE",
-          "faturamento": 10691.94,
+          "faturamento": 11440.02,
           "pct": 1.0
-        },
-        {
-          "fantasia": "BEAM SUNTORY BRASIL",
-          "faturamento": 9057.6,
-          "pct": 0.8
         },
         {
           "fantasia": "INTERFOOD",
           "faturamento": 5196.6,
-          "pct": 0.5
+          "pct": 0.4
         },
         {
           "fantasia": "DIAGEO",
@@ -2837,24 +2857,39 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
           "faturamento": 64785.24
         },
         {
+          "codcli": "45521",
+          "nome": "ADEGA DO PREA",
+          "faturamento": 27776.21
+        },
+        {
+          "codcli": "30685",
+          "nome": "CIE - BEBIDAS IMPORTADAS",
+          "faturamento": 27173.75
+        },
+        {
+          "codcli": "52054",
+          "nome": "LEVE FACIL ATACADO DE ALIMENTOS E BEBIDAS",
+          "faturamento": 26086.8
+        },
+        {
+          "codcli": "51073",
+          "nome": "CRISTO REI",
+          "faturamento": 25492.8
+        },
+        {
           "codcli": "31513",
           "nome": "VENTUCCI",
           "faturamento": 25040.5
         },
         {
+          "codcli": "41307",
+          "nome": "JJ ADEGA TERRACOS",
+          "faturamento": 24728.04
+        },
+        {
           "codcli": "49284",
           "nome": "JEWINE COMERCIAL LTDA",
           "faturamento": 24357.0
-        },
-        {
-          "codcli": "45521",
-          "nome": "ADEGA DO PREA",
-          "faturamento": 22339.08
-        },
-        {
-          "codcli": "30685",
-          "nome": "CIE - BEBIDAS IMPORTADAS",
-          "faturamento": 21065.75
         },
         {
           "codcli": "51257",
@@ -2865,11 +2900,6 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
           "codcli": "23136",
           "nome": "ADEGA GLOBAL LTDA",
           "faturamento": 19699.8
-        },
-        {
-          "codcli": "41307",
-          "nome": "JJ ADEGA TERRACOS",
-          "faturamento": 17796.54
         },
         {
           "codcli": "51732",
@@ -2890,16 +2920,180 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
           "codcli": "23323",
           "nome": "DEPOSITO DE BEBIDAS ALVES",
           "faturamento": 11856.6
+        }
+      ]
+    },
+    {
+      "rca": 354,
+      "estado": "MG",
+      "chave": "MG-354",
+      "nome": "MATHEUS DE SOUZA",
+      "time": "OUTROS",
+      "time_label": "Outros / sem time definido",
+      "total_clientes_ativos": 90,
+      "faturamento_ytd": 1169567.88,
+      "media_mensal": 167081.13,
+      "por_mes": {
+        "2026-01": 194544.5,
+        "2026-02": 208448.7,
+        "2026-03": 157779.38,
+        "2026-04": 58591.42,
+        "2026-05": 175829.04,
+        "2026-06": 168142.6,
+        "2026-07": 206232.24
+      },
+      "top_industrias": [
+        {
+          "fantasia": "PERNOD",
+          "faturamento": 221838.48,
+          "pct": 19.0
         },
         {
-          "codcli": "51082",
-          "nome": "MASSUR COMERCIO DE BEBIDAS",
-          "faturamento": 11475.42
+          "fantasia": "DIAGEO",
+          "faturamento": 217184.78,
+          "pct": 18.6
         },
         {
-          "codcli": "36582",
-          "nome": "CDB DISTRIBUIDORA DE BEBIDAS E ALIMENTOS LTDA",
-          "faturamento": 11148.0
+          "fantasia": "RED BULL",
+          "faturamento": 186781.58,
+          "pct": 16.0
+        },
+        {
+          "fantasia": "HEINEKEN",
+          "faturamento": 127038.0,
+          "pct": 10.9
+        },
+        {
+          "fantasia": "BROWN-FORMAN",
+          "faturamento": 80445.8,
+          "pct": 6.9
+        },
+        {
+          "fantasia": "SEM FANTASIA",
+          "faturamento": 76571.24,
+          "pct": 6.5
+        },
+        {
+          "fantasia": "AURORA",
+          "faturamento": 60855.4,
+          "pct": 5.2
+        },
+        {
+          "fantasia": "BALLENA",
+          "faturamento": 41497.9,
+          "pct": 3.5
+        },
+        {
+          "fantasia": "NSG",
+          "faturamento": 38401.58,
+          "pct": 3.3
+        },
+        {
+          "fantasia": "BEAM SUNTORY",
+          "faturamento": 38259.68,
+          "pct": 3.3
+        },
+        {
+          "fantasia": "LVMH",
+          "faturamento": 21958.5,
+          "pct": 1.9
+        },
+        {
+          "fantasia": "BACARDI",
+          "faturamento": 18266.66,
+          "pct": 1.6
+        },
+        {
+          "fantasia": "DON LUIZ",
+          "faturamento": 18073.0,
+          "pct": 1.5
+        },
+        {
+          "fantasia": "CASTAS",
+          "faturamento": 15329.7,
+          "pct": 1.3
+        },
+        {
+          "fantasia": "MONIN",
+          "faturamento": 3335.5,
+          "pct": 0.3
+        }
+      ],
+      "top_clientes": [
+        {
+          "codcli": "30538",
+          "nome": "DAKI OFFICE BELO HORIZONTE",
+          "faturamento": 628364.7
+        },
+        {
+          "codcli": "38044",
+          "nome": "SUPERMERCADO E PADARIA CONFINS",
+          "faturamento": 40938.96
+        },
+        {
+          "codcli": "35989",
+          "nome": "EMBOL",
+          "faturamento": 34213.8
+        },
+        {
+          "codcli": "37254",
+          "nome": "REDE PARANAIBA",
+          "faturamento": 33840.0
+        },
+        {
+          "codcli": "37368",
+          "nome": "C & R PADARIA E SUPERMERCADOS LTDA",
+          "faturamento": 28828.38
+        },
+        {
+          "codcli": "33955",
+          "nome": "TAUA RESORT CAETE",
+          "faturamento": 28574.18
+        },
+        {
+          "codcli": "35186",
+          "nome": "TEM MAIS CLUBE DE COMPRAS",
+          "faturamento": 20547.0
+        },
+        {
+          "codcli": "37627",
+          "nome": "SUPERMERCADO PARANAIBA",
+          "faturamento": 19694.52
+        },
+        {
+          "codcli": "37718",
+          "nome": "PARANAIBA VALE DAS ORQUIDEAS ALIMENTOS",
+          "faturamento": 16764.44
+        },
+        {
+          "codcli": "37938",
+          "nome": "SUPERMERCADO AVENIDA",
+          "faturamento": 13115.64
+        },
+        {
+          "codcli": "34421",
+          "nome": "SUPRIFORTE",
+          "faturamento": 12599.88
+        },
+        {
+          "codcli": "29514",
+          "nome": "PARANAIBA GUANABARA ALIMENTOS LTDA",
+          "faturamento": 12502.2
+        },
+        {
+          "codcli": "29332",
+          "nome": "SUPERMERCADO PARANAIBA",
+          "faturamento": 10859.6
+        },
+        {
+          "codcli": "39205",
+          "nome": "SUPERMERCADO NOVO HORIZONTE",
+          "faturamento": 10760.5
+        },
+        {
+          "codcli": "29333",
+          "nome": "PARANAIBA LAGOA SANTA VARZEA SUPERMERCADO",
+          "faturamento": 10469.64
         }
       ]
     },
@@ -2973,180 +3167,6 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
       ]
     },
     {
-      "rca": 354,
-      "estado": "MG",
-      "chave": "MG-354",
-      "nome": "MATHEUS DE SOUZA",
-      "time": "OUTROS",
-      "time_label": "Outros / sem time definido",
-      "total_clientes_ativos": 90,
-      "faturamento_ytd": 1066681.26,
-      "media_mensal": 152383.04,
-      "por_mes": {
-        "2026-01": 194544.5,
-        "2026-02": 208448.7,
-        "2026-03": 157779.38,
-        "2026-04": 58591.42,
-        "2026-05": 175829.04,
-        "2026-06": 168142.6,
-        "2026-07": 103345.62
-      },
-      "top_industrias": [
-        {
-          "fantasia": "PERNOD",
-          "faturamento": 208137.12,
-          "pct": 19.5
-        },
-        {
-          "fantasia": "DIAGEO",
-          "faturamento": 191913.32,
-          "pct": 18.0
-        },
-        {
-          "fantasia": "RED BULL",
-          "faturamento": 142946.54,
-          "pct": 13.4
-        },
-        {
-          "fantasia": "HEINEKEN",
-          "faturamento": 125063.64,
-          "pct": 11.7
-        },
-        {
-          "fantasia": "SEM FANTASIA",
-          "faturamento": 98182.94,
-          "pct": 9.2
-        },
-        {
-          "fantasia": "BROWN-FORMAN",
-          "faturamento": 68173.1,
-          "pct": 6.4
-        },
-        {
-          "fantasia": "AURORA",
-          "faturamento": 59176.6,
-          "pct": 5.5
-        },
-        {
-          "fantasia": "BALLENA",
-          "faturamento": 41168.2,
-          "pct": 3.9
-        },
-        {
-          "fantasia": "NSG",
-          "faturamento": 38401.58,
-          "pct": 3.6
-        },
-        {
-          "fantasia": "BEAM SUNTORY",
-          "faturamento": 38259.68,
-          "pct": 3.6
-        },
-        {
-          "fantasia": "BACARDI",
-          "faturamento": 18721.46,
-          "pct": 1.8
-        },
-        {
-          "fantasia": "CASTAS",
-          "faturamento": 15759.9,
-          "pct": 1.5
-        },
-        {
-          "fantasia": "DON LUIZ",
-          "faturamento": 14417.8,
-          "pct": 1.4
-        },
-        {
-          "fantasia": "MONIN",
-          "faturamento": 3335.5,
-          "pct": 0.3
-        },
-        {
-          "fantasia": "YVY",
-          "faturamento": 1580.16,
-          "pct": 0.1
-        }
-      ],
-      "top_clientes": [
-        {
-          "codcli": "30538",
-          "nome": "DAKI OFFICE BELO HORIZONTE",
-          "faturamento": 544285.5
-        },
-        {
-          "codcli": "38044",
-          "nome": "SUPERMERCADO E PADARIA CONFINS",
-          "faturamento": 39808.08
-        },
-        {
-          "codcli": "35989",
-          "nome": "EMBOL",
-          "faturamento": 34213.8
-        },
-        {
-          "codcli": "37254",
-          "nome": "REDE PARANAIBA",
-          "faturamento": 33840.0
-        },
-        {
-          "codcli": "33955",
-          "nome": "TAUA RESORT CAETE",
-          "faturamento": 28574.18
-        },
-        {
-          "codcli": "35186",
-          "nome": "TEM MAIS CLUBE DE COMPRAS",
-          "faturamento": 20547.0
-        },
-        {
-          "codcli": "37627",
-          "nome": "SUPERMERCADO PARANAIBA",
-          "faturamento": 19694.52
-        },
-        {
-          "codcli": "29514",
-          "nome": "PARANAIBA GUANABARA ALIMENTOS LTDA",
-          "faturamento": 13401.6
-        },
-        {
-          "codcli": "37938",
-          "nome": "SUPERMERCADO AVENIDA",
-          "faturamento": 13115.64
-        },
-        {
-          "codcli": "34421",
-          "nome": "SUPRIFORTE",
-          "faturamento": 12599.88
-        },
-        {
-          "codcli": "37368",
-          "nome": "C & R PADARIA E SUPERMERCADOS LTDA",
-          "faturamento": 12548.52
-        },
-        {
-          "codcli": "37718",
-          "nome": "PARANAIBA VALE DAS ORQUIDEAS ALIMENTOS",
-          "faturamento": 12270.44
-        },
-        {
-          "codcli": "29332",
-          "nome": "SUPERMERCADO PARANAIBA",
-          "faturamento": 11281.7
-        },
-        {
-          "codcli": "29333",
-          "nome": "PARANAIBA LAGOA SANTA VARZEA SUPERMERCADO",
-          "faturamento": 10805.04
-        },
-        {
-          "codcli": "39205",
-          "nome": "SUPERMERCADO NOVO HORIZONTE",
-          "faturamento": 10760.5
-        }
-      ]
-    },
-    {
       "rca": 420,
       "estado": "RJ",
       "chave": "RJ-420",
@@ -3210,8 +3230,8 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
       "time": "CONVENIENCE",
       "time_label": "Convenience (Varejo tradicional e Conveniência)",
       "total_clientes_ativos": 153,
-      "faturamento_ytd": 880252.2,
-      "media_mensal": 125750.31,
+      "faturamento_ytd": 896896.07,
+      "media_mensal": 128128.01,
       "por_mes": {
         "2026-01": 180606.14,
         "2026-02": 155812.22,
@@ -3219,43 +3239,43 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
         "2026-04": 114506.92,
         "2026-05": 120276.35,
         "2026-06": 134830.89,
-        "2026-07": 37576.23
+        "2026-07": 54220.1
       },
       "top_industrias": [
         {
           "fantasia": "MINALBA",
-          "faturamento": 218257.78,
-          "pct": 24.8
+          "faturamento": 226671.58,
+          "pct": 25.3
         },
         {
           "fantasia": "TATUZINHO",
-          "faturamento": 170209.5,
+          "faturamento": 173068.8,
           "pct": 19.3
         },
         {
           "fantasia": "DIAGEO",
-          "faturamento": 121380.47,
+          "faturamento": 123864.57,
           "pct": 13.8
         },
         {
           "fantasia": "CASTAS",
-          "faturamento": 69759.41,
-          "pct": 7.9
+          "faturamento": 70117.01,
+          "pct": 7.8
         },
         {
           "fantasia": "VITON",
-          "faturamento": 58614.68,
-          "pct": 6.7
+          "faturamento": 59015.63,
+          "pct": 6.6
         },
         {
           "fantasia": "AURORA",
-          "faturamento": 45160.07,
+          "faturamento": 45710.69,
           "pct": 5.1
         },
         {
           "fantasia": "PERNOD",
-          "faturamento": 36920.62,
-          "pct": 4.2
+          "faturamento": 36990.52,
+          "pct": 4.1
         },
         {
           "fantasia": "HENNESSY",
@@ -3265,7 +3285,7 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
         {
           "fantasia": "FANTE",
           "faturamento": 20920.5,
-          "pct": 2.4
+          "pct": 2.3
         },
         {
           "fantasia": "CASA PERINI",
@@ -3285,11 +3305,11 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
         {
           "fantasia": "BROWN",
           "faturamento": 12076.0,
-          "pct": 1.4
+          "pct": 1.3
         },
         {
           "fantasia": "BALLENA",
-          "faturamento": 11422.6,
+          "faturamento": 11845.2,
           "pct": 1.3
         },
         {
@@ -3302,7 +3322,7 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
         {
           "codcli": "14047",
           "nome": "LOJA DE CONVENIENCIA CANARIO LTDA",
-          "faturamento": 33381.66
+          "faturamento": 33782.86
         },
         {
           "codcli": "3467",
@@ -3315,6 +3335,11 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
           "faturamento": 25832.8
         },
         {
+          "codcli": "91093",
+          "nome": "BELO CAPIVARI CONVENIENCIA",
+          "faturamento": 25070.76
+        },
+        {
           "codcli": "74671",
           "nome": "LOJA DE CONVENIENCIA ESTRELA DE CAXIAS",
           "faturamento": 24327.38
@@ -3325,14 +3350,9 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
           "faturamento": 23849.88
         },
         {
-          "codcli": "91093",
-          "nome": "BELO CAPIVARI CONVENIENCIA",
-          "faturamento": 22157.57
-        },
-        {
           "codcli": "80616",
           "nome": "POSTO LAGOA",
-          "faturamento": 21859.65
+          "faturamento": 22673.25
         },
         {
           "codcli": "85669",
@@ -3342,7 +3362,7 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
         {
           "codcli": "76248",
           "nome": "POSTO TORCEDOR",
-          "faturamento": 18672.97
+          "faturamento": 19794.97
         },
         {
           "codcli": "85671",
@@ -3352,7 +3372,7 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
         {
           "codcli": "3551",
           "nome": "AUTO POSTO ABAST. ESTRELA DO OCEANO",
-          "faturamento": 17425.71
+          "faturamento": 18106.63
         },
         {
           "codcli": "63587",
@@ -3365,14 +3385,14 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
           "faturamento": 16689.06
         },
         {
+          "codcli": "81665",
+          "nome": "HORA DO RECREIO COMERCIO DE ALIMENTOS",
+          "faturamento": 14098.97
+        },
+        {
           "codcli": "84465",
           "nome": "FALACOMIGO CONVENIENCIA",
           "faturamento": 13773.96
-        },
-        {
-          "codcli": "92886",
-          "nome": "SNACK STORE - BAIA FORMOSA",
-          "faturamento": 13564.72
         }
       ]
     },
@@ -3383,73 +3403,73 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
       "nome": "Angelo Neves Suzart",
       "time": "ATACAREJO",
       "time_label": "Atacarejo (Pequeno e médio varejo)",
-      "total_clientes_ativos": 79,
-      "faturamento_ytd": 722125.21,
-      "media_mensal": 103160.74,
+      "total_clientes_ativos": 80,
+      "faturamento_ytd": 733686.24,
+      "media_mensal": 104812.32,
       "por_mes": {
         "2026-01": 57990.45,
         "2026-02": 75401.45,
         "2026-03": 143479.65,
         "2026-04": 108370.81,
         "2026-05": 118697.02,
-        "2026-06": 125591.97,
-        "2026-07": 92593.86
+        "2026-06": 123633.57,
+        "2026-07": 106113.29
       },
       "top_industrias": [
         {
           "fantasia": "CASA PERINI",
-          "faturamento": 129839.1,
-          "pct": 18.0
+          "faturamento": 129246.9,
+          "pct": 17.6
         },
         {
           "fantasia": "RECKITT",
-          "faturamento": 103528.34,
-          "pct": 14.3
+          "faturamento": 99611.54,
+          "pct": 13.6
         },
         {
           "fantasia": "FANTE",
-          "faturamento": 73544.2,
+          "faturamento": 74819.56,
           "pct": 10.2
         },
         {
           "fantasia": "CASTAS",
-          "faturamento": 62969.99,
-          "pct": 8.7
+          "faturamento": 67328.47,
+          "pct": 9.2
         },
         {
           "fantasia": "ROBINSON CRUSOE",
-          "faturamento": 61297.26,
-          "pct": 8.5
+          "faturamento": 60724.09,
+          "pct": 8.3
         },
         {
           "fantasia": "KAISER",
-          "faturamento": 46438.0,
-          "pct": 6.4
-        },
-        {
-          "fantasia": "TATUZINHO",
-          "faturamento": 40161.49,
-          "pct": 5.6
+          "faturamento": 52863.0,
+          "pct": 7.2
         },
         {
           "fantasia": "RED BULL",
-          "faturamento": 37514.46,
-          "pct": 5.2
+          "faturamento": 45433.5,
+          "pct": 6.2
+        },
+        {
+          "fantasia": "TATUZINHO",
+          "faturamento": 37062.19,
+          "pct": 5.1
         },
         {
           "fantasia": "TIAL",
-          "faturamento": 34991.88,
-          "pct": 4.8
+          "faturamento": 36395.9,
+          "pct": 5.0
         },
         {
           "fantasia": "PERNOD",
-          "faturamento": 30151.76,
-          "pct": 4.2
+          "faturamento": 29528.36,
+          "pct": 4.0
         },
         {
           "fantasia": "BEAM SUNTORY",
-          "faturamento": 25101.2,
-          "pct": 3.5
+          "faturamento": 23257.8,
+          "pct": 3.2
         },
         {
           "fantasia": "DIAGEO",
@@ -3464,29 +3484,29 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
         {
           "fantasia": "HENNESSY",
           "faturamento": 7669.85,
-          "pct": 1.1
+          "pct": 1.0
         },
         {
           "fantasia": "BROWN",
-          "faturamento": 6811.4,
-          "pct": 0.9
+          "faturamento": 6152.0,
+          "pct": 0.8
         }
       ],
       "top_clientes": [
         {
-          "codcli": "90484",
-          "nome": "MERCADO RC DE ITAGUAI",
-          "faturamento": 76416.11
-        },
-        {
           "codcli": "83574",
           "nome": "ALTAS HORAS COMERCIO",
-          "faturamento": 74970.2
+          "faturamento": 90072.4
+        },
+        {
+          "codcli": "90484",
+          "nome": "MERCADO RC DE ITAGUAI",
+          "faturamento": 74457.71
         },
         {
           "codcli": "86195",
           "nome": "MERCADO RC DE MIGUEL PEREIRA",
-          "faturamento": 49406.36
+          "faturamento": 47813.36
         },
         {
           "codcli": "85897",
@@ -3539,14 +3559,14 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
           "faturamento": 14666.97
         },
         {
+          "codcli": "85931",
+          "nome": "ALEX DO GAS",
+          "faturamento": 13076.98
+        },
+        {
           "codcli": "84202",
           "nome": "RIO SUL DO PANTANAL - VILA SANTO ANTONIO",
           "faturamento": 12666.24
-        },
-        {
-          "codcli": "58811",
-          "nome": "CEREAIS MARREQUINHO",
-          "faturamento": 12532.56
         }
       ]
     },
@@ -3557,98 +3577,98 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
       "nome": "Leandro Souza",
       "time": "ATACAREJO",
       "time_label": "Atacarejo (Pequeno e médio varejo)",
-      "total_clientes_ativos": 63,
-      "faturamento_ytd": 647390.22,
-      "media_mensal": 129478.04,
+      "total_clientes_ativos": 64,
+      "faturamento_ytd": 686725.3,
+      "media_mensal": 137345.06,
       "por_mes": {
         "2026-03": 21007.04,
         "2026-04": 29614.42,
         "2026-05": 186552.85,
-        "2026-06": 237848.4,
-        "2026-07": 172367.51
+        "2026-06": 234505.32,
+        "2026-07": 215045.67
       },
       "top_industrias": [
         {
           "fantasia": "CASA PERINI",
-          "faturamento": 122935.71,
-          "pct": 19.0
+          "faturamento": 125812.41,
+          "pct": 18.3
         },
         {
           "fantasia": "FANTE",
-          "faturamento": 99650.79,
-          "pct": 15.4
+          "faturamento": 103560.4,
+          "pct": 15.1
         },
         {
           "fantasia": "PERNOD",
-          "faturamento": 72646.59,
-          "pct": 11.2
+          "faturamento": 77870.27,
+          "pct": 11.3
+        },
+        {
+          "fantasia": "DIAGEO",
+          "faturamento": 57730.11,
+          "pct": 8.4
         },
         {
           "fantasia": "HENNESSY",
           "faturamento": 57381.46,
-          "pct": 8.9
+          "pct": 8.4
         },
         {
           "fantasia": "BROWN",
-          "faturamento": 54444.04,
-          "pct": 8.4
-        },
-        {
-          "fantasia": "DIAGEO",
-          "faturamento": 54095.01,
-          "pct": 8.4
+          "faturamento": 57126.3,
+          "pct": 8.3
         },
         {
           "fantasia": "TATUZINHO",
-          "faturamento": 52210.18,
+          "faturamento": 55967.14,
           "pct": 8.1
         },
         {
           "fantasia": "BEAM SUNTORY",
           "faturamento": 44908.08,
-          "pct": 6.9
+          "pct": 6.5
         },
         {
           "fantasia": "CASTAS",
-          "faturamento": 20601.48,
-          "pct": 3.2
-        },
-        {
-          "fantasia": "JURUPINGA",
-          "faturamento": 12365.22,
-          "pct": 1.9
+          "faturamento": 24332.28,
+          "pct": 3.5
         },
         {
           "fantasia": "BACARDI",
-          "faturamento": 10946.61,
-          "pct": 1.7
+          "faturamento": 16085.68,
+          "pct": 2.3
+        },
+        {
+          "fantasia": "JURUPINGA",
+          "faturamento": 12639.18,
+          "pct": 1.8
+        },
+        {
+          "fantasia": "AURORA",
+          "faturamento": 10840.37,
+          "pct": 1.6
         },
         {
           "fantasia": "INTERFOOD",
           "faturamento": 9524.8,
-          "pct": 1.5
-        },
-        {
-          "fantasia": "AURORA",
-          "faturamento": 8015.21,
-          "pct": 1.2
+          "pct": 1.4
         },
         {
           "fantasia": "ROBINSON CRUSOE",
-          "faturamento": 7306.56,
-          "pct": 1.1
+          "faturamento": 8240.82,
+          "pct": 1.2
         },
         {
           "fantasia": "TIAL",
-          "faturamento": 4947.24,
-          "pct": 0.8
+          "faturamento": 6502.68,
+          "pct": 0.9
         }
       ],
       "top_clientes": [
         {
           "codcli": "58584",
           "nome": "SUPERMARKET - ENGENHO VELHO",
-          "faturamento": 182700.84
+          "faturamento": 197497.32
         },
         {
           "codcli": "7755",
@@ -3658,12 +3678,12 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
         {
           "codcli": "69759",
           "nome": "ATACADAO DAS BEBIDAS",
-          "faturamento": 45376.31
+          "faturamento": 46398.71
         },
         {
           "codcli": "61684",
           "nome": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE",
-          "faturamento": 32032.95
+          "faturamento": 33964.11
         },
         {
           "codcli": "77079",
@@ -3686,14 +3706,14 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
           "faturamento": 15154.78
         },
         {
-          "codcli": "84612",
-          "nome": "BOM DE PRECO COMERCIO E DISTRIBUIDORA",
-          "faturamento": 13209.08
-        },
-        {
           "codcli": "73217",
           "nome": "GMAP SUPERMERCADOS",
-          "faturamento": 13076.36
+          "faturamento": 15060.8
+        },
+        {
+          "codcli": "84612",
+          "nome": "BOM DE PRECO COMERCIO E DISTRIBUIDORA",
+          "faturamento": 14476.34
         },
         {
           "codcli": "91982",
@@ -3701,24 +3721,24 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
           "faturamento": 11337.36
         },
         {
+          "codcli": "28385",
+          "nome": "RIO DO OURO",
+          "faturamento": 10872.28
+        },
+        {
           "codcli": "56716",
           "nome": "REDE ECONOMIA - VENDA DAS PEDRAS",
           "faturamento": 10659.6
         },
         {
-          "codcli": "28385",
-          "nome": "RIO DO OURO",
-          "faturamento": 9352.48
-        },
-        {
           "codcli": "28386",
           "nome": "MIX CERTO",
-          "faturamento": 8939.02
+          "faturamento": 10509.22
         },
         {
-          "codcli": "94797",
-          "nome": "GOMES SUPERMERCADOS DE SAO PEDRO DA ALDE",
-          "faturamento": 8452.31
+          "codcli": "80353",
+          "nome": "BOM DE PRECO COMERCIO E DISTRIBUIDORA",
+          "faturamento": 8701.95
         }
       ]
     },
@@ -3856,6 +3876,180 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
       ]
     },
     {
+      "rca": 379,
+      "estado": "RJ",
+      "chave": "RJ-379",
+      "nome": "Jorge Maciel",
+      "time": "CONVENIENCE",
+      "time_label": "Convenience (Varejo tradicional e Conveniência)",
+      "total_clientes_ativos": 124,
+      "faturamento_ytd": 604275.18,
+      "media_mensal": 86325.03,
+      "por_mes": {
+        "2026-01": 120189.01,
+        "2026-02": 43093.73,
+        "2026-03": 83205.4,
+        "2026-04": 81357.56,
+        "2026-05": 88600.15,
+        "2026-06": 75140.05,
+        "2026-07": 112689.27
+      },
+      "top_industrias": [
+        {
+          "fantasia": "KAISER",
+          "faturamento": 100409.72,
+          "pct": 16.6
+        },
+        {
+          "fantasia": "RED BULL",
+          "faturamento": 77063.54,
+          "pct": 12.8
+        },
+        {
+          "fantasia": "CASA PERINI",
+          "faturamento": 54551.28,
+          "pct": 9.0
+        },
+        {
+          "fantasia": "PERNOD",
+          "faturamento": 51789.14,
+          "pct": 8.6
+        },
+        {
+          "fantasia": "ROBINSON CRUSOE",
+          "faturamento": 50814.56,
+          "pct": 8.4
+        },
+        {
+          "fantasia": "FANTE",
+          "faturamento": 38310.18,
+          "pct": 6.3
+        },
+        {
+          "fantasia": "DIAGEO",
+          "faturamento": 30546.58,
+          "pct": 5.1
+        },
+        {
+          "fantasia": "RECKITT",
+          "faturamento": 30138.05,
+          "pct": 5.0
+        },
+        {
+          "fantasia": "VITON",
+          "faturamento": 26589.7,
+          "pct": 4.4
+        },
+        {
+          "fantasia": "TIAL",
+          "faturamento": 20420.62,
+          "pct": 3.4
+        },
+        {
+          "fantasia": "INTERFOOD",
+          "faturamento": 18899.0,
+          "pct": 3.1
+        },
+        {
+          "fantasia": "INVICTUS",
+          "faturamento": 16846.35,
+          "pct": 2.8
+        },
+        {
+          "fantasia": "BEAM SUNTORY",
+          "faturamento": 16754.42,
+          "pct": 2.8
+        },
+        {
+          "fantasia": "BROWN",
+          "faturamento": 8803.15,
+          "pct": 1.5
+        },
+        {
+          "fantasia": "TATUZINHO",
+          "faturamento": 8474.67,
+          "pct": 1.4
+        }
+      ],
+      "top_clientes": [
+        {
+          "codcli": "91386",
+          "nome": "PRISCILA BESSA DE PAULA",
+          "faturamento": 48347.96
+        },
+        {
+          "codcli": "82639",
+          "nome": "ADEMILSON RODRIGUES RAMOS",
+          "faturamento": 37546.65
+        },
+        {
+          "codcli": "94865",
+          "nome": "3D SALGADOS",
+          "faturamento": 32228.52
+        },
+        {
+          "codcli": "91674",
+          "nome": "ANTONIO PEREIRA DA PENHA",
+          "faturamento": 26913.29
+        },
+        {
+          "codcli": "66299",
+          "nome": "SAL COM ERVAS - COELHO DA ROCHA",
+          "faturamento": 24702.7
+        },
+        {
+          "codcli": "91484",
+          "nome": "MERCADO NOVA FAZENDA",
+          "faturamento": 16111.02
+        },
+        {
+          "codcli": "68791",
+          "nome": "J R J 2005 COMERCIO DE BEBIDAS",
+          "faturamento": 13730.09
+        },
+        {
+          "codcli": "72641",
+          "nome": "LDK EVENTOS",
+          "faturamento": 13207.04
+        },
+        {
+          "codcli": "83387",
+          "nome": "CGX COMERCIO DE ALIMENTOS",
+          "faturamento": 12506.46
+        },
+        {
+          "codcli": "92855",
+          "nome": "SUPERMERCADOS UNIDOS",
+          "faturamento": 12419.76
+        },
+        {
+          "codcli": "71758",
+          "nome": "VIVIANE REGINA SILVA DE ALMEI",
+          "faturamento": 12072.88
+        },
+        {
+          "codcli": "91337",
+          "nome": "LOBDOCES LTDA",
+          "faturamento": 12049.26
+        },
+        {
+          "codcli": "91432",
+          "nome": "REIZINHO DO METROPOLE",
+          "faturamento": 11591.88
+        },
+        {
+          "codcli": "95118",
+          "nome": "CASA MARAVILHA",
+          "faturamento": 11549.5
+        },
+        {
+          "codcli": "92040",
+          "nome": "ELITE MERITI COMERCIO ATACADISTA E VAREJ",
+          "faturamento": 11102.56
+        }
+      ]
+    },
+    {
       "rca": 417,
       "estado": "RJ",
       "chave": "RJ-417",
@@ -3863,27 +4057,27 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
       "time": "OUTROS",
       "time_label": "Outros / sem time definido",
       "total_clientes_ativos": 43,
-      "faturamento_ytd": 576566.0,
-      "media_mensal": 82366.57,
+      "faturamento_ytd": 574918.4,
+      "media_mensal": 82131.2,
       "por_mes": {
         "2026-01": 369574.46,
         "2026-02": 44985.12,
         "2026-03": 70649.8,
         "2026-04": 38238.97,
         "2026-05": 22716.91,
-        "2026-06": 29374.74,
+        "2026-06": 27727.14,
         "2026-07": 1026.0
       },
       "top_industrias": [
         {
           "fantasia": "KAISER",
           "faturamento": 192085.9,
-          "pct": 33.3
+          "pct": 33.4
         },
         {
           "fantasia": "RED BULL",
           "faturamento": 77414.06,
-          "pct": 13.4
+          "pct": 13.5
         },
         {
           "fantasia": "DIAGEO",
@@ -3893,17 +4087,17 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
         {
           "fantasia": "CASA PERINI",
           "faturamento": 62418.5,
-          "pct": 10.8
+          "pct": 10.9
         },
         {
           "fantasia": "PERNOD",
           "faturamento": 34227.68,
-          "pct": 5.9
+          "pct": 6.0
         },
         {
           "fantasia": "TATUZINHO",
-          "faturamento": 19593.05,
-          "pct": 3.4
+          "faturamento": 17945.45,
+          "pct": 3.1
         },
         {
           "fantasia": "MINALBA",
@@ -3943,7 +4137,7 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
         {
           "fantasia": "BROWN",
           "faturamento": 7762.74,
-          "pct": 1.3
+          "pct": 1.4
         },
         {
           "fantasia": "SEM FANTASIA",
@@ -4008,11 +4202,6 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
           "faturamento": 13859.64
         },
         {
-          "codcli": "8876",
-          "nome": "REDEMARKET - PARATY",
-          "faturamento": 12715.14
-        },
-        {
           "codcli": "70129",
           "nome": "BARUD MOTO-BIKE - VEROLME",
           "faturamento": 12256.2
@@ -4026,180 +4215,185 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
           "codcli": "75764",
           "nome": "GRAZIELI GOMES DE SOUZA",
           "faturamento": 11568.0
+        },
+        {
+          "codcli": "69965",
+          "nome": "DISTRIBUIDORA DE DOCES E BEBIDAS BORBORE",
+          "faturamento": 11429.75
         }
       ]
     },
     {
-      "rca": 379,
+      "rca": 412,
       "estado": "RJ",
-      "chave": "RJ-379",
-      "nome": "Jorge Maciel",
-      "time": "CONVENIENCE",
-      "time_label": "Convenience (Varejo tradicional e Conveniência)",
-      "total_clientes_ativos": 123,
-      "faturamento_ytd": 559287.13,
-      "media_mensal": 79898.16,
+      "chave": "RJ-412",
+      "nome": "Barbara Cabral",
+      "time": "ATACAREJO",
+      "time_label": "Atacarejo (Pequeno e médio varejo)",
+      "total_clientes_ativos": 105,
+      "faturamento_ytd": 564749.01,
+      "media_mensal": 80678.43,
       "por_mes": {
-        "2026-01": 120189.01,
-        "2026-02": 43093.73,
-        "2026-03": 83205.4,
-        "2026-04": 81357.56,
-        "2026-05": 88600.15,
-        "2026-06": 75140.05,
-        "2026-07": 67701.22
+        "2026-01": 50031.92,
+        "2026-02": 99519.11,
+        "2026-03": 41583.87,
+        "2026-04": 72550.99,
+        "2026-05": 73273.91,
+        "2026-06": 149498.68,
+        "2026-07": 78290.54
       },
       "top_industrias": [
         {
-          "fantasia": "KAISER",
-          "faturamento": 93091.52,
-          "pct": 16.6
-        },
-        {
-          "fantasia": "RED BULL",
-          "faturamento": 69933.5,
-          "pct": 12.5
-        },
-        {
-          "fantasia": "PERNOD",
-          "faturamento": 49622.84,
-          "pct": 8.9
-        },
-        {
-          "fantasia": "ROBINSON CRUSOE",
-          "faturamento": 48713.06,
-          "pct": 8.7
-        },
-        {
           "fantasia": "CASA PERINI",
-          "faturamento": 42056.58,
-          "pct": 7.5
+          "faturamento": 118047.46,
+          "pct": 20.9
         },
         {
-          "fantasia": "FANTE",
-          "faturamento": 35705.58,
-          "pct": 6.4
-        },
-        {
-          "fantasia": "RECKITT",
-          "faturamento": 30095.09,
-          "pct": 5.4
-        },
-        {
-          "fantasia": "VITON",
-          "faturamento": 26589.7,
-          "pct": 4.8
-        },
-        {
-          "fantasia": "DIAGEO",
-          "faturamento": 24743.38,
-          "pct": 4.4
-        },
-        {
-          "fantasia": "TIAL",
-          "faturamento": 20052.22,
-          "pct": 3.6
-        },
-        {
-          "fantasia": "INTERFOOD",
-          "faturamento": 18269.7,
-          "pct": 3.3
-        },
-        {
-          "fantasia": "BEAM SUNTORY",
-          "faturamento": 16754.42,
-          "pct": 3.0
-        },
-        {
-          "fantasia": "INVICTUS",
-          "faturamento": 16066.95,
-          "pct": 2.9
-        },
-        {
-          "fantasia": "BROWN",
-          "faturamento": 8803.15,
-          "pct": 1.6
+          "fantasia": "MINALBA",
+          "faturamento": 75228.38,
+          "pct": 13.3
         },
         {
           "fantasia": "TATUZINHO",
-          "faturamento": 8151.48,
-          "pct": 1.5
+          "faturamento": 65766.39,
+          "pct": 11.6
+        },
+        {
+          "fantasia": "ROBINSON CRUSOE",
+          "faturamento": 64754.5,
+          "pct": 11.5
+        },
+        {
+          "fantasia": "BEAM SUNTORY",
+          "faturamento": 40756.6,
+          "pct": 7.2
+        },
+        {
+          "fantasia": "RED BULL",
+          "faturamento": 40441.03,
+          "pct": 7.2
+        },
+        {
+          "fantasia": "CASTAS",
+          "faturamento": 26345.98,
+          "pct": 4.7
+        },
+        {
+          "fantasia": "VITON",
+          "faturamento": 23946.51,
+          "pct": 4.2
+        },
+        {
+          "fantasia": "LUCIA",
+          "faturamento": 18208.78,
+          "pct": 3.2
+        },
+        {
+          "fantasia": "DIAGEO",
+          "faturamento": 17478.4,
+          "pct": 3.1
+        },
+        {
+          "fantasia": "TIAL",
+          "faturamento": 9889.45,
+          "pct": 1.8
+        },
+        {
+          "fantasia": "KAISER",
+          "faturamento": 9460.71,
+          "pct": 1.7
+        },
+        {
+          "fantasia": "FANTE",
+          "faturamento": 7752.97,
+          "pct": 1.4
+        },
+        {
+          "fantasia": "COMARY",
+          "faturamento": 7635.11,
+          "pct": 1.4
+        },
+        {
+          "fantasia": "51",
+          "faturamento": 6142.68,
+          "pct": 1.1
         }
       ],
       "top_clientes": [
         {
-          "codcli": "91386",
-          "nome": "PRISCILA BESSA DE PAULA",
-          "faturamento": 47808.16
+          "codcli": "4321",
+          "nome": "SUPERPRIX- DEP CAXIAS - PARQUE DUQUE",
+          "faturamento": 68616.72
         },
         {
-          "codcli": "82639",
-          "nome": "ADEMILSON RODRIGUES RAMOS",
-          "faturamento": 37546.65
+          "codcli": "80157",
+          "nome": "PARADA MAIS",
+          "faturamento": 66297.68
         },
         {
-          "codcli": "94865",
-          "nome": "3D SALGADOS",
-          "faturamento": 29829.78
+          "codcli": "91230",
+          "nome": "SUPERMERCADOS ADONAI",
+          "faturamento": 59220.0
         },
         {
-          "codcli": "66299",
-          "nome": "SAL COM ERVAS - COELHO DA ROCHA",
-          "faturamento": 23560.6
+          "codcli": "93388",
+          "nome": "SUPERMERCADO ADONAI - VARGEM PEQUENA",
+          "faturamento": 21780.12
         },
         {
-          "codcli": "91674",
-          "nome": "ANTONIO PEREIRA DA PENHA",
-          "faturamento": 22186.25
+          "codcli": "3813",
+          "nome": "JULIA'S HORTIFRUTI - BANGU",
+          "faturamento": 21248.19
         },
         {
-          "codcli": "91484",
-          "nome": "MERCADO NOVA FAZENDA",
-          "faturamento": 15023.62
+          "codcli": "79969",
+          "nome": "WMDIAS 24H",
+          "faturamento": 20142.23
         },
         {
-          "codcli": "68791",
-          "nome": "J R J 2005 COMERCIO DE BEBIDAS",
-          "faturamento": 13730.09
+          "codcli": "86454",
+          "nome": "COSTA VERDE GASTRONOMIA - BRISA MAR",
+          "faturamento": 16908.88
         },
         {
-          "codcli": "72641",
-          "nome": "LDK BAR E GARCOM",
-          "faturamento": 13207.04
+          "codcli": "74838",
+          "nome": "PRIME MARKETS",
+          "faturamento": 15976.19
         },
         {
-          "codcli": "92855",
-          "nome": "SUPERMERCADOS UNIDOS",
-          "faturamento": 12419.76
+          "codcli": "82781",
+          "nome": "ADONAI ATACADISTA",
+          "faturamento": 15641.48
         },
         {
-          "codcli": "91337",
-          "nome": "LOBDOCES LTDA",
-          "faturamento": 12049.26
+          "codcli": "93386",
+          "nome": "SUPERMERCADO ADONAI DA CACHAMORRA",
+          "faturamento": 15255.0
         },
         {
-          "codcli": "71758",
-          "nome": "VIVIANE REGINA SILVA DE ALMEI",
-          "faturamento": 11212.48
+          "codcli": "74688",
+          "nome": "POSTO DE GASOLINA AVENIDA",
+          "faturamento": 14073.2
         },
         {
-          "codcli": "92040",
-          "nome": "ELITE MERITI COMERCIO ATACADISTA E VAREJ",
-          "faturamento": 11102.56
+          "codcli": "93382",
+          "nome": "SUPERMERCADO ADONAI DE VARGEM",
+          "faturamento": 13222.12
         },
         {
-          "codcli": "95118",
-          "nome": "CASA MARAVILHA",
-          "faturamento": 11009.7
+          "codcli": "93385",
+          "nome": "SUPERMERCADO ADONAI DO MATO ALTO",
+          "faturamento": 12801.56
         },
         {
-          "codcli": "91432",
-          "nome": "REIZINHO DO METROPOLE",
-          "faturamento": 10909.28
+          "codcli": "93383",
+          "nome": "SUPERMERCADO ADONAI DO MENDANHA",
+          "faturamento": 9982.64
         },
         {
-          "codcli": "90444",
-          "nome": "DEPOSITO DA LULU",
-          "faturamento": 10790.3
+          "codcli": "93389",
+          "nome": "SUPERMERCADO ADONAI DE IRAJA",
+          "faturamento": 9802.48
         }
       ]
     },
@@ -4211,8 +4405,8 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
       "time": "OUTROS",
       "time_label": "Outros / sem time definido",
       "total_clientes_ativos": 14,
-      "faturamento_ytd": 556106.36,
-      "media_mensal": 79443.77,
+      "faturamento_ytd": 564138.2,
+      "media_mensal": 80591.17,
       "por_mes": {
         "2026-01": 164476.08,
         "2026-02": 104036.76,
@@ -4220,43 +4414,43 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
         "2026-04": 49244.94,
         "2026-05": 63873.61,
         "2026-06": 39139.9,
-        "2026-07": 58875.88
+        "2026-07": 66907.72
       },
       "top_industrias": [
         {
           "fantasia": "PERNOD",
-          "faturamento": 347494.83,
-          "pct": 62.5
+          "faturamento": 349351.23,
+          "pct": 61.9
         },
         {
           "fantasia": "BROWN",
           "faturamento": 63557.4,
-          "pct": 11.4
+          "pct": 11.3
         },
         {
           "fantasia": "DIAGEO",
-          "faturamento": 39606.72,
+          "faturamento": 40083.0,
           "pct": 7.1
         },
         {
           "fantasia": "BACARDI",
           "faturamento": 36098.47,
-          "pct": 6.5
+          "pct": 6.4
         },
         {
           "fantasia": "BEAM SUNTORY BRASIL",
           "faturamento": 28702.8,
-          "pct": 5.2
+          "pct": 5.1
         },
         {
           "fantasia": "AURORA",
-          "faturamento": 14930.22,
-          "pct": 2.7
+          "faturamento": 18437.22,
+          "pct": 3.3
         },
         {
           "fantasia": "INTERFOOD",
           "faturamento": 10969.92,
-          "pct": 2.0
+          "pct": 1.9
         },
         {
           "fantasia": "SEM FANTASIA",
@@ -4265,13 +4459,13 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
         },
         {
           "fantasia": "FANTE",
-          "faturamento": 4067.82,
-          "pct": 0.7
+          "faturamento": 5420.82,
+          "pct": 1.0
         },
         {
           "fantasia": "CRS BRANDS",
-          "faturamento": 1918.08,
-          "pct": 0.3
+          "faturamento": 2757.24,
+          "pct": 0.5
         },
         {
           "fantasia": "BALLENA",
@@ -4303,7 +4497,7 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
         {
           "codcli": "40446",
           "nome": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS",
-          "faturamento": 53099.58
+          "faturamento": 54618.78
         },
         {
           "codcli": "40456",
@@ -4323,7 +4517,7 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
         {
           "codcli": "38513",
           "nome": "MERCADAO ATACADISTA",
-          "faturamento": 42698.2
+          "faturamento": 43765.48
         },
         {
           "codcli": "40454",
@@ -4331,14 +4525,14 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
           "faturamento": 37845.66
         },
         {
+          "codcli": "38491",
+          "nome": "MERCADAO ATACADISTA",
+          "faturamento": 35285.22
+        },
+        {
           "codcli": "40453",
           "nome": "MERCADAO ATACADISTA",
           "faturamento": 33270.84
-        },
-        {
-          "codcli": "38491",
-          "nome": "MERCADAO ATACADISTA",
-          "faturamento": 32123.46
         },
         {
           "codcli": "40445",
@@ -4353,12 +4547,12 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
         {
           "codcli": "40451",
           "nome": "MERCADAO ATACADISTA",
-          "faturamento": 12920.76
+          "faturamento": 13889.04
         },
         {
           "codcli": "40452",
           "nome": "MERCADAO ATACADISTA",
-          "faturamento": 10962.48
+          "faturamento": 12277.8
         }
       ]
     },
@@ -4369,9 +4563,9 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
       "nome": "RAQUEL ARAUJO",
       "time": "OUTROS",
       "time_label": "Outros / sem time definido",
-      "total_clientes_ativos": 56,
-      "faturamento_ytd": 540518.96,
-      "media_mensal": 77216.99,
+      "total_clientes_ativos": 57,
+      "faturamento_ytd": 540606.44,
+      "media_mensal": 77229.49,
       "por_mes": {
         "2026-01": 19304.79,
         "2026-02": 25980.52,
@@ -4379,7 +4573,7 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
         "2026-04": 90000.17,
         "2026-05": 123102.3,
         "2026-06": 41507.45,
-        "2026-07": 248.44
+        "2026-07": 335.92
       },
       "top_industrias": [
         {
@@ -4394,7 +4588,7 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
         },
         {
           "fantasia": "RED BULL",
-          "faturamento": 36802.36,
+          "faturamento": 36889.84,
           "pct": 6.8
         },
         {
@@ -4537,343 +4731,15 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
       ]
     },
     {
-      "rca": 412,
-      "estado": "RJ",
-      "chave": "RJ-412",
-      "nome": "Barbara Cabral",
-      "time": "ATACAREJO",
-      "time_label": "Atacarejo (Pequeno e médio varejo)",
-      "total_clientes_ativos": 106,
-      "faturamento_ytd": 539178.26,
-      "media_mensal": 77025.47,
-      "por_mes": {
-        "2026-01": 50031.92,
-        "2026-02": 99519.11,
-        "2026-03": 41583.87,
-        "2026-04": 72550.99,
-        "2026-05": 73273.91,
-        "2026-06": 149498.68,
-        "2026-07": 52719.79
-      },
-      "top_industrias": [
-        {
-          "fantasia": "CASA PERINI",
-          "faturamento": 117580.66,
-          "pct": 21.8
-        },
-        {
-          "fantasia": "MINALBA",
-          "faturamento": 72643.98,
-          "pct": 13.5
-        },
-        {
-          "fantasia": "ROBINSON CRUSOE",
-          "faturamento": 63893.09,
-          "pct": 11.9
-        },
-        {
-          "fantasia": "TATUZINHO",
-          "faturamento": 62360.99,
-          "pct": 11.6
-        },
-        {
-          "fantasia": "RED BULL",
-          "faturamento": 38311.63,
-          "pct": 7.1
-        },
-        {
-          "fantasia": "BEAM SUNTORY",
-          "faturamento": 33561.0,
-          "pct": 6.2
-        },
-        {
-          "fantasia": "CASTAS",
-          "faturamento": 23284.68,
-          "pct": 4.3
-        },
-        {
-          "fantasia": "VITON",
-          "faturamento": 23201.38,
-          "pct": 4.3
-        },
-        {
-          "fantasia": "LUCIA",
-          "faturamento": 18208.78,
-          "pct": 3.4
-        },
-        {
-          "fantasia": "DIAGEO",
-          "faturamento": 17010.7,
-          "pct": 3.2
-        },
-        {
-          "fantasia": "KAISER",
-          "faturamento": 9460.71,
-          "pct": 1.8
-        },
-        {
-          "fantasia": "FANTE",
-          "faturamento": 7597.57,
-          "pct": 1.4
-        },
-        {
-          "fantasia": "TIAL",
-          "faturamento": 6964.19,
-          "pct": 1.3
-        },
-        {
-          "fantasia": "COMARY",
-          "faturamento": 6496.91,
-          "pct": 1.2
-        },
-        {
-          "fantasia": "51",
-          "faturamento": 5906.88,
-          "pct": 1.1
-        }
-      ],
-      "top_clientes": [
-        {
-          "codcli": "80157",
-          "nome": "PARADA MAIS",
-          "faturamento": 65083.88
-        },
-        {
-          "codcli": "4321",
-          "nome": "SUPERPRIX- DEP CAXIAS - PARQUE DUQUE",
-          "faturamento": 61704.72
-        },
-        {
-          "codcli": "91230",
-          "nome": "SUPERMERCADOS ADONAI",
-          "faturamento": 59220.0
-        },
-        {
-          "codcli": "93388",
-          "nome": "SUPERMERCADO ADONAI - VARGEM PEQUENA",
-          "faturamento": 21780.12
-        },
-        {
-          "codcli": "79969",
-          "nome": "WMDIAS 24H",
-          "faturamento": 19337.01
-        },
-        {
-          "codcli": "3813",
-          "nome": "JULIA'S HORTIFRUTI - BANGU",
-          "faturamento": 18494.43
-        },
-        {
-          "codcli": "82781",
-          "nome": "ADONAI ATACADISTA",
-          "faturamento": 15641.48
-        },
-        {
-          "codcli": "93386",
-          "nome": "SUPERMERCADO ADONAI DA CACHAMORRA",
-          "faturamento": 15255.0
-        },
-        {
-          "codcli": "86454",
-          "nome": "COSTA VERDE GASTRONOMIA - BRISA MAR",
-          "faturamento": 15224.58
-        },
-        {
-          "codcli": "93382",
-          "nome": "SUPERMERCADO ADONAI DE VARGEM",
-          "faturamento": 13222.12
-        },
-        {
-          "codcli": "93385",
-          "nome": "SUPERMERCADO ADONAI DO MATO ALTO",
-          "faturamento": 12801.56
-        },
-        {
-          "codcli": "74838",
-          "nome": "PRIME MARKETS",
-          "faturamento": 12624.48
-        },
-        {
-          "codcli": "74688",
-          "nome": "POSTO DE GASOLINA AVENIDA",
-          "faturamento": 11363.7
-        },
-        {
-          "codcli": "93383",
-          "nome": "SUPERMERCADO ADONAI DO MENDANHA",
-          "faturamento": 9982.64
-        },
-        {
-          "codcli": "93389",
-          "nome": "SUPERMERCADO ADONAI DE IRAJA",
-          "faturamento": 9802.48
-        }
-      ]
-    },
-    {
-      "rca": 349,
-      "estado": "MG",
-      "chave": "MG-349",
-      "nome": "WILLIAM ALVES DA SILVA",
-      "time": "OUTROS",
-      "time_label": "Outros / sem time definido",
-      "total_clientes_ativos": 29,
-      "faturamento_ytd": 494632.08,
-      "media_mensal": 70661.73,
-      "por_mes": {
-        "2026-01": 81706.34,
-        "2026-02": 25814.64,
-        "2026-03": 44089.13,
-        "2026-04": 200526.96,
-        "2026-05": 35798.3,
-        "2026-06": 57054.36,
-        "2026-07": 49642.35
-      },
-      "top_industrias": [
-        {
-          "fantasia": "DIAGEO",
-          "faturamento": 185196.19,
-          "pct": 37.4
-        },
-        {
-          "fantasia": "BROWN-FORMAN",
-          "faturamento": 112282.8,
-          "pct": 22.7
-        },
-        {
-          "fantasia": "SEM FANTASIA",
-          "faturamento": 78483.94,
-          "pct": 15.9
-        },
-        {
-          "fantasia": "PERNOD",
-          "faturamento": 67694.81,
-          "pct": 13.7
-        },
-        {
-          "fantasia": "BALLENA",
-          "faturamento": 20028.6,
-          "pct": 4.0
-        },
-        {
-          "fantasia": "RED BULL",
-          "faturamento": 9897.84,
-          "pct": 2.0
-        },
-        {
-          "fantasia": "BACARDI",
-          "faturamento": 7932.1,
-          "pct": 1.6
-        },
-        {
-          "fantasia": "NSG",
-          "faturamento": 5396.4,
-          "pct": 1.1
-        },
-        {
-          "fantasia": "CASTAS",
-          "faturamento": 3402.0,
-          "pct": 0.7
-        },
-        {
-          "fantasia": "BEAM SUNTORY",
-          "faturamento": 3176.4,
-          "pct": 0.6
-        },
-        {
-          "fantasia": "AURORA",
-          "faturamento": 1141.0,
-          "pct": 0.2
-        }
-      ],
-      "top_clientes": [
-        {
-          "codcli": "30530",
-          "nome": "DISTRIBUIDORA CAMPOS",
-          "faturamento": 215200.38
-        },
-        {
-          "codcli": "33979",
-          "nome": "DISTRUIBUIDORA DO BE",
-          "faturamento": 73192.32
-        },
-        {
-          "codcli": "36560",
-          "nome": "EMPORIO DAS BEBIDAS",
-          "faturamento": 42176.7
-        },
-        {
-          "codcli": "35114",
-          "nome": "ORGANIZACOES PAIS FILHOS",
-          "faturamento": 21742.16
-        },
-        {
-          "codcli": "35116",
-          "nome": "ORGANIZACOES PAIS FILHOS",
-          "faturamento": 12771.69
-        },
-        {
-          "codcli": "36512",
-          "nome": "GARRAFARIA DISTRIBUIDORA DE BEBIDAS LTDA",
-          "faturamento": 12290.88
-        },
-        {
-          "codcli": "37449",
-          "nome": "VGA DISTRIBUIDORA",
-          "faturamento": 11831.55
-        },
-        {
-          "codcli": "33998",
-          "nome": "LA TRAVIATA ESPACO GASTRONOMICO",
-          "faturamento": 9897.84
-        },
-        {
-          "codcli": "35135",
-          "nome": "ORGANIZACOES PAIS FILHOS",
-          "faturamento": 9442.03
-        },
-        {
-          "codcli": "38148",
-          "nome": "ORGANIZACOES PAIS & FILHOS LTDA",
-          "faturamento": 9342.52
-        },
-        {
-          "codcli": "35407",
-          "nome": "ORGANIZACOES PAIS & FILHOS LTDA",
-          "faturamento": 8541.86
-        },
-        {
-          "codcli": "38644",
-          "nome": "CHAMA DISTRIBUIDORA DE BEBIDAS LTDA",
-          "faturamento": 8266.08
-        },
-        {
-          "codcli": "37493",
-          "nome": "ZERO GRAU CHOPERIA E DISTRIBUIDORA LTDA",
-          "faturamento": 7303.38
-        },
-        {
-          "codcli": "37752",
-          "nome": "ORGANIZAÇOES PAIS & FILHOS",
-          "faturamento": 6942.06
-        },
-        {
-          "codcli": "35024",
-          "nome": "SUPERMERCADO PAIS E FILHOS REDE SUPERMAIS",
-          "faturamento": 6264.49
-        }
-      ]
-    },
-    {
       "rca": 419,
       "estado": "RJ",
       "chave": "RJ-419",
       "nome": "Natali de Oliveira",
       "time": "ATACAREJO",
       "time_label": "Atacarejo (Pequeno e médio varejo)",
-      "total_clientes_ativos": 68,
-      "faturamento_ytd": 459135.72,
-      "media_mensal": 65590.82,
+      "total_clientes_ativos": 74,
+      "faturamento_ytd": 509388.42,
+      "media_mensal": 72769.77,
       "por_mes": {
         "2026-01": 151609.71,
         "2026-02": 34983.46,
@@ -4881,95 +4747,95 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
         "2026-04": 47733.55,
         "2026-05": 38615.83,
         "2026-06": 62944.11,
-        "2026-07": 36241.08
+        "2026-07": 86493.78
       },
       "top_industrias": [
         {
           "fantasia": "KAISER",
-          "faturamento": 100532.4,
-          "pct": 21.9
+          "faturamento": 104566.2,
+          "pct": 20.5
         },
         {
           "fantasia": "RED BULL",
-          "faturamento": 82561.8,
-          "pct": 18.0
+          "faturamento": 89339.2,
+          "pct": 17.5
         },
         {
           "fantasia": "PERNOD",
-          "faturamento": 60444.68,
-          "pct": 13.2
+          "faturamento": 63101.38,
+          "pct": 12.4
         },
         {
           "fantasia": "TATUZINHO",
-          "faturamento": 43090.42,
-          "pct": 9.4
+          "faturamento": 45080.32,
+          "pct": 8.8
         },
         {
           "fantasia": "CASA PERINI",
-          "faturamento": 29032.3,
-          "pct": 6.3
+          "faturamento": 31467.7,
+          "pct": 6.2
         },
         {
           "fantasia": "DIAGEO",
-          "faturamento": 19578.17,
-          "pct": 4.3
+          "faturamento": 25333.97,
+          "pct": 5.0
         },
         {
           "fantasia": "FANTE",
-          "faturamento": 18814.62,
-          "pct": 4.1
+          "faturamento": 21664.62,
+          "pct": 4.3
         },
         {
           "fantasia": "51",
           "faturamento": 17251.78,
-          "pct": 3.8
-        },
-        {
-          "fantasia": "CATUABA",
-          "faturamento": 8364.9,
-          "pct": 1.8
+          "pct": 3.4
         },
         {
           "fantasia": "CASTAS",
-          "faturamento": 7780.42,
-          "pct": 1.7
+          "faturamento": 15356.62,
+          "pct": 3.0
+        },
+        {
+          "fantasia": "CAMPARI",
+          "faturamento": 11265.47,
+          "pct": 2.2
+        },
+        {
+          "fantasia": "CATUABA",
+          "faturamento": 9034.5,
+          "pct": 1.8
+        },
+        {
+          "fantasia": "INTERFOOD",
+          "faturamento": 7943.8,
+          "pct": 1.6
         },
         {
           "fantasia": "BROWN",
           "faturamento": 7523.84,
-          "pct": 1.6
+          "pct": 1.5
         },
         {
           "fantasia": "ROBINSON CRUSOE",
           "faturamento": 6967.57,
-          "pct": 1.5
-        },
-        {
-          "fantasia": "INTERFOOD",
-          "faturamento": 6943.9,
-          "pct": 1.5
+          "pct": 1.4
         },
         {
           "fantasia": "TIAL",
           "faturamento": 5957.02,
-          "pct": 1.3
-        },
-        {
-          "fantasia": "SEM FANTASIA",
-          "faturamento": 5883.3,
-          "pct": 1.3
+          "pct": 1.2
         }
       ],
       "top_clientes": [
         {
           "codcli": "90148",
           "nome": "MATHEUS FONSECA PEREIRA",
-          "faturamento": 62912.21
+          "faturamento": 76978.81
         },
         {
           "codcli": "77937",
-          "nome": "HD DISTRIBUIDOR DE BEBIDAS CONVENIENCIA",
-          "faturamento": 62763.23
+          "nome": "HD DISTRIBUIDOR DE BEBIDAS & CONVENIENCI",
+          "faturamento": 64798.13
         },
         {
           "codcli": "90147",
@@ -4977,24 +4843,24 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
           "faturamento": 46376.6
         },
         {
+          "codcli": "90761",
+          "nome": "ROBSON WEBER DE CARVALHO",
+          "faturamento": 44413.2
+        },
+        {
           "codcli": "91172",
           "nome": "CARLOS HENRIQUE DA SILVA FELIPE",
-          "faturamento": 33220.22
+          "faturamento": 36657.02
+        },
+        {
+          "codcli": "67706",
+          "nome": "DEPOSITO DA TORRE",
+          "faturamento": 31310.97
         },
         {
           "codcli": "82050",
           "nome": "SABRINA CORREIA DE OLIVEIRA",
           "faturamento": 30668.13
-        },
-        {
-          "codcli": "67706",
-          "nome": "DEPOSITO DA TORRE",
-          "faturamento": 30411.37
-        },
-        {
-          "codcli": "90761",
-          "nome": "ROBSON WEBER DE CARVALHO",
-          "faturamento": 28825.8
         },
         {
           "codcli": "70944",
@@ -5027,14 +4893,14 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
           "faturamento": 7118.56
         },
         {
-          "codcli": "87273",
-          "nome": "ARIANE DE CARVALHO ALVES",
-          "faturamento": 4835.31
+          "codcli": "91771",
+          "nome": "EMANUEL COMERCIO DE GENEROS ALIMENTICIOS",
+          "faturamento": 5400.0
         },
         {
-          "codcli": "73653",
-          "nome": "DEPOSITO PAI E FILHO",
-          "faturamento": 4561.5
+          "codcli": "87273",
+          "nome": "ARIANE DE CARVALHO ALVES",
+          "faturamento": 5301.87
         }
       ]
     },
@@ -5045,49 +4911,49 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
       "nome": "RENATO JUNIOR",
       "time": "OUTROS",
       "time_label": "Outros / sem time definido",
-      "total_clientes_ativos": 28,
-      "faturamento_ytd": 448635.21,
-      "media_mensal": 149545.07,
+      "total_clientes_ativos": 37,
+      "faturamento_ytd": 480461.36,
+      "media_mensal": 160153.79,
       "por_mes": {
         "2026-05": 286653.33,
         "2026-06": 34230.13,
-        "2026-07": 127751.74
+        "2026-07": 159577.89
       },
       "top_industrias": [
         {
           "fantasia": "PERNOD",
-          "faturamento": 338748.66,
-          "pct": 75.5
+          "faturamento": 356844.64,
+          "pct": 74.3
         },
         {
           "fantasia": "BROWN",
-          "faturamento": 30390.7,
-          "pct": 6.8
+          "faturamento": 33268.3,
+          "pct": 6.9
         },
         {
           "fantasia": "CRS BRANDS",
-          "faturamento": 25299.68,
-          "pct": 5.6
+          "faturamento": 28931.12,
+          "pct": 6.0
         },
         {
           "fantasia": "DIAGEO",
-          "faturamento": 17383.92,
-          "pct": 3.9
+          "faturamento": 19117.92,
+          "pct": 4.0
         },
         {
           "fantasia": "BACARDI",
-          "faturamento": 14496.23,
-          "pct": 3.2
+          "faturamento": 16636.16,
+          "pct": 3.5
+        },
+        {
+          "fantasia": "BEAM SUNTORY BRASIL",
+          "faturamento": 8365.7,
+          "pct": 1.7
         },
         {
           "fantasia": "CASTAS",
           "faturamento": 6894.23,
-          "pct": 1.5
-        },
-        {
-          "fantasia": "BEAM SUNTORY BRASIL",
-          "faturamento": 5346.5,
-          "pct": 1.2
+          "pct": 1.4
         },
         {
           "fantasia": "JURUPINGA",
@@ -5115,13 +4981,13 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
           "pct": 0.2
         },
         {
-          "fantasia": "AURORA",
-          "faturamento": 350.7,
+          "fantasia": "FANTE",
+          "faturamento": 678.4,
           "pct": 0.1
         },
         {
-          "fantasia": "FANTE",
-          "faturamento": 350.4,
+          "fantasia": "AURORA",
+          "faturamento": 350.7,
           "pct": 0.1
         },
         {
@@ -5144,7 +5010,7 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
         {
           "codcli": "31084",
           "nome": "COMERCIAL BOLSAO DE BEBIDAS LTDA",
-          "faturamento": 78930.03
+          "faturamento": 79128.73
         },
         {
           "codcli": "46624",
@@ -5157,19 +5023,19 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
           "faturamento": 36875.37
         },
         {
+          "codcli": "50710",
+          "nome": "OXAN ATACADISTA",
+          "faturamento": 25233.93
+        },
+        {
           "codcli": "42982",
           "nome": "SPEED ATACADISTA",
           "faturamento": 21709.5
         },
         {
-          "codcli": "50710",
-          "nome": "OXAN ATACADISTA",
-          "faturamento": 18076.2
-        },
-        {
           "codcli": "50200",
           "nome": "ADEGA DO GORDAO",
-          "faturamento": 14933.57
+          "faturamento": 16132.37
         },
         {
           "codcli": "50295",
@@ -5192,19 +5058,178 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
           "faturamento": 4035.78
         },
         {
+          "codcli": "50945",
+          "nome": "CASA NEGREIROS",
+          "faturamento": 3988.68
+        },
+        {
+          "codcli": "50953",
+          "nome": "SUPERMERCADO TRIALBA",
+          "faturamento": 3456.12
+        },
+        {
           "codcli": "50467",
           "nome": "MERCADINHO MATO DENTRO",
           "faturamento": 3428.97
+        }
+      ]
+    },
+    {
+      "rca": 349,
+      "estado": "MG",
+      "chave": "MG-349",
+      "nome": "WILLIAM ALVES DA SILVA",
+      "time": "OUTROS",
+      "time_label": "Outros / sem time definido",
+      "total_clientes_ativos": 28,
+      "faturamento_ytd": 473135.38,
+      "media_mensal": 67590.77,
+      "por_mes": {
+        "2026-01": 81706.34,
+        "2026-02": 25814.64,
+        "2026-03": 44089.13,
+        "2026-04": 200526.96,
+        "2026-05": 33852.6,
+        "2026-06": 54054.96,
+        "2026-07": 33090.75
+      },
+      "top_industrias": [
+        {
+          "fantasia": "DIAGEO",
+          "faturamento": 176746.99,
+          "pct": 37.4
         },
         {
-          "codcli": "50137",
-          "nome": "MERCADO DA VILA",
-          "faturamento": 2933.95
+          "fantasia": "BROWN-FORMAN",
+          "faturamento": 111183.9,
+          "pct": 23.5
         },
         {
-          "codcli": "51828",
-          "nome": "ADEGA PIT STOP COMERCIO DE BEBIDAS",
-          "faturamento": 2180.4
+          "fantasia": "PERNOD",
+          "faturamento": 53037.41,
+          "pct": 11.2
+        },
+        {
+          "fantasia": "SEM FANTASIA",
+          "faturamento": 41298.44,
+          "pct": 8.7
+        },
+        {
+          "fantasia": "LVMH",
+          "faturamento": 40411.7,
+          "pct": 8.5
+        },
+        {
+          "fantasia": "BALLENA",
+          "faturamento": 20028.6,
+          "pct": 4.2
+        },
+        {
+          "fantasia": "RED BULL",
+          "faturamento": 9897.84,
+          "pct": 2.1
+        },
+        {
+          "fantasia": "BACARDI",
+          "faturamento": 7854.3,
+          "pct": 1.7
+        },
+        {
+          "fantasia": "NSG",
+          "faturamento": 5396.4,
+          "pct": 1.1
+        },
+        {
+          "fantasia": "CASTAS",
+          "faturamento": 3402.0,
+          "pct": 0.7
+        },
+        {
+          "fantasia": "BEAM SUNTORY",
+          "faturamento": 3176.4,
+          "pct": 0.7
+        },
+        {
+          "fantasia": "AURORA",
+          "faturamento": 701.4,
+          "pct": 0.1
+        }
+      ],
+      "top_clientes": [
+        {
+          "codcli": "30530",
+          "nome": "DISTRIBUIDORA CAMPOS",
+          "faturamento": 220180.38
+        },
+        {
+          "codcli": "33979",
+          "nome": "DISTRUIBUIDORA DO BE",
+          "faturamento": 73192.32
+        },
+        {
+          "codcli": "36560",
+          "nome": "EMPORIO DAS BEBIDAS",
+          "faturamento": 24522.3
+        },
+        {
+          "codcli": "35114",
+          "nome": "ORGANIZACOES PAIS FILHOS",
+          "faturamento": 19796.46
+        },
+        {
+          "codcli": "35116",
+          "nome": "ORGANIZACOES PAIS FILHOS",
+          "faturamento": 12771.69
+        },
+        {
+          "codcli": "36512",
+          "nome": "GARRAFARIA DISTRIBUIDORA DE BEBIDAS LTDA",
+          "faturamento": 12290.88
+        },
+        {
+          "codcli": "37449",
+          "nome": "VGA DISTRIBUIDORA",
+          "faturamento": 11831.55
+        },
+        {
+          "codcli": "33998",
+          "nome": "LA TRAVIATA ESPACO GASTRONOMICO",
+          "faturamento": 9897.84
+        },
+        {
+          "codcli": "35135",
+          "nome": "ORGANIZACOES PAIS FILHOS",
+          "faturamento": 9442.03
+        },
+        {
+          "codcli": "35407",
+          "nome": "ORGANIZACOES PAIS & FILHOS LTDA",
+          "faturamento": 8541.86
+        },
+        {
+          "codcli": "38644",
+          "nome": "CHAMA DISTRIBUIDORA DE BEBIDAS LTDA",
+          "faturamento": 8266.08
+        },
+        {
+          "codcli": "38148",
+          "nome": "ORGANIZACOES PAIS & FILHOS LTDA",
+          "faturamento": 7542.88
+        },
+        {
+          "codcli": "37493",
+          "nome": "ZERO GRAU CHOPERIA E DISTRIBUIDORA LTDA",
+          "faturamento": 7303.38
+        },
+        {
+          "codcli": "35024",
+          "nome": "SUPERMERCADO PAIS E FILHOS REDE SUPERMAIS",
+          "faturamento": 6264.49
+        },
+        {
+          "codcli": "37752",
+          "nome": "ORGANIZAÇOES PAIS & FILHOS",
+          "faturamento": 5742.3
         }
       ]
     },
@@ -5216,30 +5241,31 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
       "time": "OUTROS",
       "time_label": "Outros / sem time definido",
       "total_clientes_ativos": 6,
-      "faturamento_ytd": 420843.0,
-      "media_mensal": 84168.6,
+      "faturamento_ytd": 423228.6,
+      "media_mensal": 70538.1,
       "por_mes": {
         "2026-01": 10754.88,
         "2026-03": 200272.6,
         "2026-04": 49437.6,
         "2026-05": 146537.7,
-        "2026-06": 13840.22
+        "2026-06": 13840.22,
+        "2026-07": 2385.6
       },
       "top_industrias": [
         {
           "fantasia": "PERNOD",
           "faturamento": 261010.8,
-          "pct": 62.0
+          "pct": 61.7
         },
         {
           "fantasia": "CASTAS",
-          "faturamento": 113661.42,
-          "pct": 27.0
+          "faturamento": 116047.02,
+          "pct": 27.4
         },
         {
           "fantasia": "HENNESSY",
           "faturamento": 36000.0,
-          "pct": 8.6
+          "pct": 8.5
         },
         {
           "fantasia": "DIAGEO",
@@ -5266,7 +5292,7 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
         {
           "codcli": "55908",
           "nome": "WOODS WINE COMERCIO E INTERMEDIACAO DE B",
-          "faturamento": 87180.2
+          "faturamento": 89565.8
         },
         {
           "codcli": "91616",
@@ -5298,8 +5324,8 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
       "time": "OUTROS",
       "time_label": "Outros / sem time definido",
       "total_clientes_ativos": 118,
-      "faturamento_ytd": 418070.23,
-      "media_mensal": 59724.32,
+      "faturamento_ytd": 418157.71,
+      "media_mensal": 59736.82,
       "por_mes": {
         "2026-01": 35695.6,
         "2026-02": 40424.6,
@@ -5307,7 +5333,7 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
         "2026-04": 52764.12,
         "2026-05": 106627.26,
         "2026-06": 24655.69,
-        "2026-07": 116.64
+        "2026-07": 204.12
       },
       "top_industrias": [
         {
@@ -5317,7 +5343,7 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
         },
         {
           "fantasia": "RED BULL",
-          "faturamento": 60959.52,
+          "faturamento": 61047.0,
           "pct": 14.6
         },
         {
@@ -5390,7 +5416,7 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
         {
           "codcli": "72623",
           "nome": "COMERCIAL PRIMOS",
-          "faturamento": 88986.53
+          "faturamento": 89015.69
         },
         {
           "codcli": "79858",
@@ -5622,6 +5648,579 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
       ]
     },
     {
+      "rca": 462,
+      "estado": "SP",
+      "chave": "SP-462",
+      "nome": "ELIZANGELA RODRIGUES",
+      "time": "OUTROS",
+      "time_label": "Outros / sem time definido",
+      "total_clientes_ativos": 1,
+      "faturamento_ytd": 394701.16,
+      "media_mensal": 98675.29,
+      "por_mes": {
+        "2026-04": 28176.0,
+        "2026-05": 121577.16,
+        "2026-06": 165876.4,
+        "2026-07": 79071.6
+      },
+      "top_industrias": [
+        {
+          "fantasia": "PERNOD",
+          "faturamento": 327839.8,
+          "pct": 83.1
+        },
+        {
+          "fantasia": "BROWN",
+          "faturamento": 34645.2,
+          "pct": 8.8
+        },
+        {
+          "fantasia": "FANTE",
+          "faturamento": 12327.0,
+          "pct": 3.1
+        },
+        {
+          "fantasia": "BACARDI",
+          "faturamento": 8685.0,
+          "pct": 2.2
+        },
+        {
+          "fantasia": "AURORA",
+          "faturamento": 7014.0,
+          "pct": 1.8
+        },
+        {
+          "fantasia": "SEM FANTASIA",
+          "faturamento": 4190.16,
+          "pct": 1.1
+        }
+      ],
+      "top_clientes": [
+        {
+          "codcli": "47374",
+          "nome": "SIMUS BEBIDAS",
+          "faturamento": 394701.16
+        }
+      ]
+    },
+    {
+      "rca": 460,
+      "estado": "SP",
+      "chave": "SP-460",
+      "nome": "CRISTIANE MORAIS",
+      "time": "OUTROS",
+      "time_label": "Outros / sem time definido",
+      "total_clientes_ativos": 58,
+      "faturamento_ytd": 378496.66,
+      "media_mensal": 94624.16,
+      "por_mes": {
+        "2026-04": 1113.12,
+        "2026-05": 59264.83,
+        "2026-06": 158477.06,
+        "2026-07": 159641.64
+      },
+      "top_industrias": [
+        {
+          "fantasia": "PERNOD",
+          "faturamento": 250959.18,
+          "pct": 66.3
+        },
+        {
+          "fantasia": "SEM FANTASIA",
+          "faturamento": 26950.07,
+          "pct": 7.1
+        },
+        {
+          "fantasia": "BROWN",
+          "faturamento": 20421.54,
+          "pct": 5.4
+        },
+        {
+          "fantasia": "FANTE",
+          "faturamento": 19680.7,
+          "pct": 5.2
+        },
+        {
+          "fantasia": "DIAGEO",
+          "faturamento": 13060.03,
+          "pct": 3.5
+        },
+        {
+          "fantasia": "LUCIA",
+          "faturamento": 9190.0,
+          "pct": 2.4
+        },
+        {
+          "fantasia": "AURORA",
+          "faturamento": 8162.26,
+          "pct": 2.2
+        },
+        {
+          "fantasia": "BACARDI",
+          "faturamento": 6163.28,
+          "pct": 1.6
+        },
+        {
+          "fantasia": "BALLENA",
+          "faturamento": 4794.0,
+          "pct": 1.3
+        },
+        {
+          "fantasia": "MOET HENNESY",
+          "faturamento": 4471.1,
+          "pct": 1.2
+        },
+        {
+          "fantasia": "INTERFOOD",
+          "faturamento": 3001.27,
+          "pct": 0.8
+        },
+        {
+          "fantasia": "BEAM SUNTORY BRASIL",
+          "faturamento": 2886.32,
+          "pct": 0.8
+        },
+        {
+          "fantasia": "CRS BRANDS",
+          "faturamento": 2775.18,
+          "pct": 0.7
+        },
+        {
+          "fantasia": "CAMPARI",
+          "faturamento": 2156.7,
+          "pct": 0.6
+        },
+        {
+          "fantasia": "PERINI",
+          "faturamento": 1554.2,
+          "pct": 0.4
+        }
+      ],
+      "top_clientes": [
+        {
+          "codcli": "50311",
+          "nome": "FAMILIA ZERO DOZE DISTRIBUIDORA",
+          "faturamento": 100151.94
+        },
+        {
+          "codcli": "47136",
+          "nome": "FEMAR BEBIDAS",
+          "faturamento": 36252.9
+        },
+        {
+          "codcli": "51405",
+          "nome": "CEVADACADABRA",
+          "faturamento": 32152.8
+        },
+        {
+          "codcli": "38205",
+          "nome": "COMERCIAL VILLA SIMPATIA",
+          "faturamento": 32046.0
+        },
+        {
+          "codcli": "51569",
+          "nome": "MERCADINHO VIANA & VIANA",
+          "faturamento": 18230.78
+        },
+        {
+          "codcli": "50128",
+          "nome": "ALEMAO DISTRIBUIDORA DE BEBIDAS E COMERCIO EM GERAL LTDA",
+          "faturamento": 17108.52
+        },
+        {
+          "codcli": "50917",
+          "nome": "IMPERIAL BEBIDAS",
+          "faturamento": 12354.3
+        },
+        {
+          "codcli": "50719",
+          "nome": "BROTHERS BEER COMERCIO DE BEBIDAS",
+          "faturamento": 11345.1
+        },
+        {
+          "codcli": "50029",
+          "nome": "ADEGA SEMAFORO",
+          "faturamento": 10686.49
+        },
+        {
+          "codcli": "51390",
+          "nome": "RENATO MENDES RICARDO",
+          "faturamento": 9884.52
+        },
+        {
+          "codcli": "38641",
+          "nome": "E. OMENA DE MENEZES",
+          "faturamento": 9148.93
+        },
+        {
+          "codcli": "50218",
+          "nome": "L F DA SILVA MERCEARIA",
+          "faturamento": 6754.23
+        },
+        {
+          "codcli": "38800",
+          "nome": "ADEGA MENEZES",
+          "faturamento": 5692.32
+        },
+        {
+          "codcli": "51195",
+          "nome": "VILLARREAL",
+          "faturamento": 5498.62
+        },
+        {
+          "codcli": "51200",
+          "nome": "VILLARREAL",
+          "faturamento": 5473.47
+        }
+      ]
+    },
+    {
+      "rca": 344,
+      "estado": "MG",
+      "chave": "MG-344",
+      "nome": "TIAGO ANDRADE",
+      "time": "OUTROS",
+      "time_label": "Outros / sem time definido",
+      "total_clientes_ativos": 121,
+      "faturamento_ytd": 376591.53,
+      "media_mensal": 75318.31,
+      "por_mes": {
+        "2026-03": 74.7,
+        "2026-04": 65306.52,
+        "2026-05": 111009.88,
+        "2026-06": 85308.22,
+        "2026-07": 114892.21
+      },
+      "top_industrias": [
+        {
+          "fantasia": "CASTAS",
+          "faturamento": 140773.4,
+          "pct": 37.4
+        },
+        {
+          "fantasia": "RED BULL",
+          "faturamento": 81907.7,
+          "pct": 21.7
+        },
+        {
+          "fantasia": "DIAGEO",
+          "faturamento": 38109.53,
+          "pct": 10.1
+        },
+        {
+          "fantasia": "SEM FANTASIA",
+          "faturamento": 26177.16,
+          "pct": 7.0
+        },
+        {
+          "fantasia": "YVY",
+          "faturamento": 20954.3,
+          "pct": 5.6
+        },
+        {
+          "fantasia": "HEINEKEN",
+          "faturamento": 20658.26,
+          "pct": 5.5
+        },
+        {
+          "fantasia": "PERNOD",
+          "faturamento": 16868.08,
+          "pct": 4.5
+        },
+        {
+          "fantasia": "LVMH",
+          "faturamento": 15381.7,
+          "pct": 4.1
+        },
+        {
+          "fantasia": "MONIN",
+          "faturamento": 5300.3,
+          "pct": 1.4
+        },
+        {
+          "fantasia": "BROWN-FORMAN",
+          "faturamento": 3180.4,
+          "pct": 0.8
+        },
+        {
+          "fantasia": "SELETA",
+          "faturamento": 2179.8,
+          "pct": 0.6
+        },
+        {
+          "fantasia": "BEAM SUNTORY",
+          "faturamento": 1278.5,
+          "pct": 0.3
+        },
+        {
+          "fantasia": "TATUZINHO",
+          "faturamento": 981.3,
+          "pct": 0.3
+        },
+        {
+          "fantasia": "AURORA",
+          "faturamento": 978.3,
+          "pct": 0.3
+        },
+        {
+          "fantasia": "DON LUIZ",
+          "faturamento": 828.7,
+          "pct": 0.2
+        }
+      ],
+      "top_clientes": [
+        {
+          "codcli": "34916",
+          "nome": "SODEXO",
+          "faturamento": 21337.44
+        },
+        {
+          "codcli": "31529",
+          "nome": "MASSAS MADONINA LTDA",
+          "faturamento": 20730.4
+        },
+        {
+          "codcli": "38497",
+          "nome": "SUPERMERCADO IMPERIAL",
+          "faturamento": 19155.6
+        },
+        {
+          "codcli": "36028",
+          "nome": "CHOPP DA FÁBRICA",
+          "faturamento": 19031.98
+        },
+        {
+          "codcli": "34139",
+          "nome": "CHEF PALMEIRA",
+          "faturamento": 14714.2
+        },
+        {
+          "codcli": "33637",
+          "nome": "DIAMOND FOODS",
+          "faturamento": 13470.76
+        },
+        {
+          "codcli": "34283",
+          "nome": "ARCA DRINKS",
+          "faturamento": 11810.58
+        },
+        {
+          "codcli": "30203",
+          "nome": "ELIS BAR",
+          "faturamento": 9884.3
+        },
+        {
+          "codcli": "35993",
+          "nome": "MFB COMERCIAL",
+          "faturamento": 9503.76
+        },
+        {
+          "codcli": "37813",
+          "nome": "ARMAZEM DA CERVEJA",
+          "faturamento": 9397.03
+        },
+        {
+          "codcli": "34476",
+          "nome": "CASA DE FRIOS E MASSAS AO GOSTO",
+          "faturamento": 7358.16
+        },
+        {
+          "codcli": "34357",
+          "nome": "VILLAGE FOODS",
+          "faturamento": 6691.3
+        },
+        {
+          "codcli": "34920",
+          "nome": "RESTAURANTE BETANIA",
+          "faturamento": 6600.96
+        },
+        {
+          "codcli": "35444",
+          "nome": "ULTRA COFFEE PUC BH",
+          "faturamento": 6573.24
+        },
+        {
+          "codcli": "35888",
+          "nome": "SUSHI MIX PAMPULHA",
+          "faturamento": 6517.48
+        }
+      ]
+    },
+    {
+      "rca": 425,
+      "estado": "SP",
+      "chave": "SP-425",
+      "nome": "BRUNO BARBOSA",
+      "time": "OUTROS",
+      "time_label": "Outros / sem time definido",
+      "total_clientes_ativos": 43,
+      "faturamento_ytd": 376395.85,
+      "media_mensal": 53770.84,
+      "por_mes": {
+        "2026-01": 14097.52,
+        "2026-02": 34234.29,
+        "2026-03": 23236.24,
+        "2026-04": 72324.12,
+        "2026-05": 43682.63,
+        "2026-06": 59276.18,
+        "2026-07": 129544.88
+      },
+      "top_industrias": [
+        {
+          "fantasia": "PERNOD",
+          "faturamento": 151699.62,
+          "pct": 40.3
+        },
+        {
+          "fantasia": "MOET HENNESY",
+          "faturamento": 74156.84,
+          "pct": 19.7
+        },
+        {
+          "fantasia": "BROWN",
+          "faturamento": 33321.08,
+          "pct": 8.9
+        },
+        {
+          "fantasia": "LUCIA",
+          "faturamento": 20652.56,
+          "pct": 5.5
+        },
+        {
+          "fantasia": "BALLENA",
+          "faturamento": 14708.55,
+          "pct": 3.9
+        },
+        {
+          "fantasia": "BEAM SUNTORY BRASIL",
+          "faturamento": 12336.81,
+          "pct": 3.3
+        },
+        {
+          "fantasia": "AURORA",
+          "faturamento": 12240.78,
+          "pct": 3.3
+        },
+        {
+          "fantasia": "DIAGEO",
+          "faturamento": 10139.13,
+          "pct": 2.7
+        },
+        {
+          "fantasia": "PERINI",
+          "faturamento": 8002.04,
+          "pct": 2.1
+        },
+        {
+          "fantasia": "CAMPARI",
+          "faturamento": 7396.4,
+          "pct": 2.0
+        },
+        {
+          "fantasia": "BACARDI",
+          "faturamento": 7277.53,
+          "pct": 1.9
+        },
+        {
+          "fantasia": "CRS BRANDS",
+          "faturamento": 7167.14,
+          "pct": 1.9
+        },
+        {
+          "fantasia": "INTERFOOD",
+          "faturamento": 5012.78,
+          "pct": 1.3
+        },
+        {
+          "fantasia": "TATUZINHO",
+          "faturamento": 4024.8,
+          "pct": 1.1
+        },
+        {
+          "fantasia": "KIKKOMAN DO BRASIL",
+          "faturamento": 3718.84,
+          "pct": 1.0
+        }
+      ],
+      "top_clientes": [
+        {
+          "codcli": "39897",
+          "nome": "MIAMI STORE",
+          "faturamento": 49007.59
+        },
+        {
+          "codcli": "28991",
+          "nome": "MRF DISTRIBUIDORA DE BEBIDAS E GENEROS ALIMENTICIOS",
+          "faturamento": 46374.87
+        },
+        {
+          "codcli": "32426",
+          "nome": "PIRANA - AUTO SERVICO",
+          "faturamento": 24245.14
+        },
+        {
+          "codcli": "32797",
+          "nome": "EMPORIO DOS PRIMOS",
+          "faturamento": 21279.15
+        },
+        {
+          "codcli": "49387",
+          "nome": "INFANGER & CIA",
+          "faturamento": 19277.46
+        },
+        {
+          "codcli": "47840",
+          "nome": "JOHN GOW IRISH PUB",
+          "faturamento": 18923.66
+        },
+        {
+          "codcli": "43134",
+          "nome": "VAREJAO TATU LTDA",
+          "faturamento": 16953.17
+        },
+        {
+          "codcli": "48117",
+          "nome": "SUPERMERCADOS DALBEN TAQUARAL",
+          "faturamento": 14924.64
+        },
+        {
+          "codcli": "48115",
+          "nome": "SUPERMERCADOS DALBEN BARAO GERALDO",
+          "faturamento": 14924.64
+        },
+        {
+          "codcli": "40668",
+          "nome": "SUPERMERCADOS DALBEN",
+          "faturamento": 14181.84
+        },
+        {
+          "codcli": "48116",
+          "nome": "SUPERMERCADOS DALBEN MANSOES",
+          "faturamento": 14181.84
+        },
+        {
+          "codcli": "43143",
+          "nome": "BRAIT & PELLISSON LTDA",
+          "faturamento": 12182.4
+        },
+        {
+          "codcli": "49459",
+          "nome": "EXAMINE SUPERMERCADOS - LOJA 03",
+          "faturamento": 9801.49
+        },
+        {
+          "codcli": "49455",
+          "nome": "EXAMINE SUPERMERCADOS - LOJA 07",
+          "faturamento": 9659.41
+        },
+        {
+          "codcli": "25075",
+          "nome": "EMPORIO SANTA VERENA",
+          "faturamento": 9528.46
+        }
+      ]
+    },
+    {
       "rca": 331,
       "estado": "MG",
       "chave": "MG-331",
@@ -5668,14 +6267,14 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
           "pct": 4.1
         },
         {
-          "fantasia": "SEM FANTASIA",
-          "faturamento": 10934.52,
-          "pct": 2.9
-        },
-        {
           "fantasia": "BROWN-FORMAN",
           "faturamento": 10190.98,
           "pct": 2.7
+        },
+        {
+          "fantasia": "SEM FANTASIA",
+          "faturamento": 9016.02,
+          "pct": 2.4
         },
         {
           "fantasia": "BALLENA",
@@ -5696,6 +6295,11 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
           "fantasia": "NSG",
           "faturamento": 2520.8,
           "pct": 0.7
+        },
+        {
+          "fantasia": "LVMH",
+          "faturamento": 1918.5,
+          "pct": 0.5
         },
         {
           "fantasia": "SELETA",
@@ -5999,8 +6603,8 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
         },
         {
           "fantasia": "SEM FANTASIA",
-          "faturamento": 20492.92,
-          "pct": 5.6
+          "faturamento": 15606.52,
+          "pct": 4.3
         },
         {
           "fantasia": "DIAGEO",
@@ -6016,6 +6620,11 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
           "fantasia": "BETTER DRINKS",
           "faturamento": 7488.96,
           "pct": 2.1
+        },
+        {
+          "fantasia": "LVMH",
+          "faturamento": 4886.4,
+          "pct": 1.3
         },
         {
           "fantasia": "BEAM SUNTORY",
@@ -6045,11 +6654,6 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
         {
           "fantasia": "AURORA",
           "faturamento": 714.5,
-          "pct": 0.2
-        },
-        {
-          "fantasia": "BACARDI",
-          "faturamento": 598.7,
           "pct": 0.2
         }
       ],
@@ -6132,404 +6736,172 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
       ]
     },
     {
-      "rca": 462,
+      "rca": 476,
       "estado": "SP",
-      "chave": "SP-462",
-      "nome": "ELIZANGELA RODRIGUES",
+      "chave": "SP-476",
+      "nome": "RODRIGO LIMA",
       "time": "OUTROS",
       "time_label": "Outros / sem time definido",
-      "total_clientes_ativos": 1,
-      "faturamento_ytd": 358566.76,
-      "media_mensal": 89641.69,
+      "total_clientes_ativos": 48,
+      "faturamento_ytd": 351211.88,
+      "media_mensal": 117070.63,
       "por_mes": {
-        "2026-04": 28176.0,
-        "2026-05": 121577.16,
-        "2026-06": 165876.4,
-        "2026-07": 42937.2
+        "2026-05": 43722.54,
+        "2026-06": 127558.03,
+        "2026-07": 179931.31
       },
       "top_industrias": [
         {
           "fantasia": "PERNOD",
-          "faturamento": 297699.4,
-          "pct": 83.0
+          "faturamento": 166097.45,
+          "pct": 47.3
         },
         {
           "fantasia": "BROWN",
-          "faturamento": 28651.2,
-          "pct": 8.0
-        },
-        {
-          "fantasia": "FANTE",
-          "faturamento": 12327.0,
-          "pct": 3.4
-        },
-        {
-          "fantasia": "BACARDI",
-          "faturamento": 8685.0,
-          "pct": 2.4
+          "faturamento": 127796.3,
+          "pct": 36.4
         },
         {
           "fantasia": "AURORA",
-          "faturamento": 7014.0,
-          "pct": 2.0
-        },
-        {
-          "fantasia": "SEM FANTASIA",
-          "faturamento": 4190.16,
-          "pct": 1.2
-        }
-      ],
-      "top_clientes": [
-        {
-          "codcli": "47374",
-          "nome": "SIMUS BEBIDAS",
-          "faturamento": 358566.76
-        }
-      ]
-    },
-    {
-      "rca": 425,
-      "estado": "SP",
-      "chave": "SP-425",
-      "nome": "BRUNO BARBOSA",
-      "time": "OUTROS",
-      "time_label": "Outros / sem time definido",
-      "total_clientes_ativos": 35,
-      "faturamento_ytd": 349080.31,
-      "media_mensal": 49868.62,
-      "por_mes": {
-        "2026-01": 14097.52,
-        "2026-02": 34234.29,
-        "2026-03": 23236.24,
-        "2026-04": 72324.12,
-        "2026-05": 43682.63,
-        "2026-06": 59276.18,
-        "2026-07": 102229.34
-      },
-      "top_industrias": [
-        {
-          "fantasia": "PERNOD",
-          "faturamento": 143587.1,
-          "pct": 41.1
-        },
-        {
-          "fantasia": "MOET HENNESY",
-          "faturamento": 65088.44,
-          "pct": 18.6
-        },
-        {
-          "fantasia": "BROWN",
-          "faturamento": 32041.9,
-          "pct": 9.2
-        },
-        {
-          "fantasia": "LUCIA",
-          "faturamento": 20454.86,
-          "pct": 5.9
-        },
-        {
-          "fantasia": "BALLENA",
-          "faturamento": 12950.8,
-          "pct": 3.7
-        },
-        {
-          "fantasia": "BEAM SUNTORY BRASIL",
-          "faturamento": 11959.41,
-          "pct": 3.4
-        },
-        {
-          "fantasia": "AURORA",
-          "faturamento": 9674.11,
-          "pct": 2.8
+          "faturamento": 25240.12,
+          "pct": 7.2
         },
         {
           "fantasia": "DIAGEO",
-          "faturamento": 9519.93,
-          "pct": 2.7
-        },
-        {
-          "fantasia": "PERINI",
-          "faturamento": 8002.04,
-          "pct": 2.3
-        },
-        {
-          "fantasia": "CRS BRANDS",
-          "faturamento": 6861.48,
-          "pct": 2.0
-        },
-        {
-          "fantasia": "CAMPARI",
-          "faturamento": 6573.2,
-          "pct": 1.9
-        },
-        {
-          "fantasia": "BACARDI",
-          "faturamento": 5519.18,
+          "faturamento": 5528.06,
           "pct": 1.6
         },
         {
-          "fantasia": "INTERFOOD",
-          "faturamento": 4563.28,
-          "pct": 1.3
-        },
-        {
-          "fantasia": "TATUZINHO",
-          "faturamento": 4024.8,
-          "pct": 1.2
-        },
-        {
-          "fantasia": "KIKKOMAN DO BRASIL",
-          "faturamento": 3718.84,
+          "fantasia": "BEAM SUNTORY BRASIL",
+          "faturamento": 3962.7,
           "pct": 1.1
-        }
-      ],
-      "top_clientes": [
-        {
-          "codcli": "39897",
-          "nome": "MIAMI STORE",
-          "faturamento": 45914.59
         },
         {
-          "codcli": "28991",
-          "nome": "MRF DISTRIBUIDORA DE BEBIDAS E GENEROS ALIMENTICIOS",
-          "faturamento": 44455.47
+          "fantasia": "CRS BRANDS",
+          "faturamento": 3691.64,
+          "pct": 1.1
         },
         {
-          "codcli": "32797",
-          "nome": "EMPORIO DOS PRIMOS",
-          "faturamento": 21279.15
+          "fantasia": "FANTE",
+          "faturamento": 3620.71,
+          "pct": 1.0
         },
         {
-          "codcli": "32426",
-          "nome": "PIRANA - AUTO SERVICO",
-          "faturamento": 19746.94
-        },
-        {
-          "codcli": "49387",
-          "nome": "INFANGER & CIA",
-          "faturamento": 19277.46
-        },
-        {
-          "codcli": "43134",
-          "nome": "VAREJAO TATU LTDA",
-          "faturamento": 16435.69
-        },
-        {
-          "codcli": "47840",
-          "nome": "JOHN GOW IRISH PUB",
-          "faturamento": 15922.3
-        },
-        {
-          "codcli": "48117",
-          "nome": "SUPERMERCADOS DALBEN TAQUARAL",
-          "faturamento": 14924.64
-        },
-        {
-          "codcli": "48115",
-          "nome": "SUPERMERCADOS DALBEN BARAO GERALDO",
-          "faturamento": 14924.64
-        },
-        {
-          "codcli": "48116",
-          "nome": "SUPERMERCADOS DALBEN MANSOES",
-          "faturamento": 14181.84
-        },
-        {
-          "codcli": "40668",
-          "nome": "SUPERMERCADOS DALBEN",
-          "faturamento": 14181.84
-        },
-        {
-          "codcli": "49459",
-          "nome": "EXAMINE SUPERMERCADOS - LOJA 03",
-          "faturamento": 9801.49
-        },
-        {
-          "codcli": "49455",
-          "nome": "EXAMINE SUPERMERCADOS - LOJA 07",
-          "faturamento": 9659.41
-        },
-        {
-          "codcli": "43143",
-          "nome": "BRAIT & PELLISSON LTDA",
-          "faturamento": 9029.54
-        },
-        {
-          "codcli": "25075",
-          "nome": "EMPORIO SANTA VERENA",
-          "faturamento": 8917.64
-        }
-      ]
-    },
-    {
-      "rca": 344,
-      "estado": "MG",
-      "chave": "MG-344",
-      "nome": "TIAGO ANDRADE",
-      "time": "OUTROS",
-      "time_label": "Outros / sem time definido",
-      "total_clientes_ativos": 115,
-      "faturamento_ytd": 337715.34,
-      "media_mensal": 67543.07,
-      "por_mes": {
-        "2026-03": 74.7,
-        "2026-04": 65306.52,
-        "2026-05": 111009.88,
-        "2026-06": 85308.22,
-        "2026-07": 76016.02
-      },
-      "top_industrias": [
-        {
-          "fantasia": "CASTAS",
-          "faturamento": 128741.2,
-          "pct": 38.1
-        },
-        {
-          "fantasia": "RED BULL",
-          "faturamento": 76731.54,
-          "pct": 22.7
-        },
-        {
-          "fantasia": "SEM FANTASIA",
-          "faturamento": 39258.1,
-          "pct": 11.6
-        },
-        {
-          "fantasia": "DIAGEO",
-          "faturamento": 32382.28,
-          "pct": 9.6
-        },
-        {
-          "fantasia": "HEINEKEN",
-          "faturamento": 19651.94,
-          "pct": 5.8
-        },
-        {
-          "fantasia": "PERNOD",
-          "faturamento": 16398.58,
-          "pct": 4.9
-        },
-        {
-          "fantasia": "YVY",
-          "faturamento": 10150.5,
-          "pct": 3.0
-        },
-        {
-          "fantasia": "MONIN",
-          "faturamento": 5104.7,
-          "pct": 1.5
-        },
-        {
-          "fantasia": "BROWN-FORMAN",
-          "faturamento": 3040.5,
+          "fantasia": "MOET HENNESY",
+          "faturamento": 3174.7,
           "pct": 0.9
         },
         {
-          "fantasia": "SELETA",
-          "faturamento": 1409.8,
-          "pct": 0.4
+          "fantasia": "CAMPARI",
+          "faturamento": 2417.6,
+          "pct": 0.7
         },
         {
-          "fantasia": "BEAM SUNTORY",
-          "faturamento": 1278.5,
-          "pct": 0.4
+          "fantasia": "BACARDI",
+          "faturamento": 2080.74,
+          "pct": 0.6
         },
         {
           "fantasia": "TATUZINHO",
-          "faturamento": 981.3,
+          "faturamento": 1857.6,
+          "pct": 0.5
+        },
+        {
+          "fantasia": "SEM FANTASIA",
+          "faturamento": 1433.6,
+          "pct": 0.4
+        },
+        {
+          "fantasia": "BALLENA",
+          "faturamento": 1270.46,
+          "pct": 0.4
+        },
+        {
+          "fantasia": "STOCK",
+          "faturamento": 980.78,
           "pct": 0.3
         },
         {
-          "fantasia": "AURORA",
-          "faturamento": 833.4,
-          "pct": 0.2
-        },
-        {
-          "fantasia": "DON LUIZ",
-          "faturamento": 768.8,
-          "pct": 0.2
-        },
-        {
-          "fantasia": "NSG",
-          "faturamento": 590.7,
-          "pct": 0.2
+          "fantasia": "PERINI",
+          "faturamento": 941.85,
+          "pct": 0.3
         }
       ],
       "top_clientes": [
         {
-          "codcli": "34916",
-          "nome": "SODEXO",
-          "faturamento": 19856.64
+          "codcli": "50420",
+          "nome": "SUPER OSMARAJA EMPORIO",
+          "faturamento": 78855.53
         },
         {
-          "codcli": "38497",
-          "nome": "SUPERMERCADO IMPERIAL",
-          "faturamento": 19155.6
+          "codcli": "49993",
+          "nome": "DEPOSITO DE BEBIDAS GOMES",
+          "faturamento": 36254.5
         },
         {
-          "codcli": "31529",
-          "nome": "MASSAS MADONINA LTDA",
-          "faturamento": 18142.0
+          "codcli": "50795",
+          "nome": "LEONARDO PIOVESAN PRIETO DENADAI",
+          "faturamento": 34006.2
         },
         {
-          "codcli": "36028",
-          "nome": "CHOPP DA FÁBRICA",
-          "faturamento": 17250.38
+          "codcli": "50099",
+          "nome": "JULIO C. DA SILVA JUNIOR",
+          "faturamento": 17269.82
         },
         {
-          "codcli": "34139",
-          "nome": "CHEF PALMEIRA",
-          "faturamento": 13198.6
+          "codcli": "50413",
+          "nome": "ALEXANDRE APARECIDO STEFANI",
+          "faturamento": 16640.85
         },
         {
-          "codcli": "33637",
-          "nome": "DIAMOND FOODS",
-          "faturamento": 12749.9
+          "codcli": "50896",
+          "nome": "SUZANA DOS SANTOS ROMERO",
+          "faturamento": 16305.1
         },
         {
-          "codcli": "35993",
-          "nome": "MFB COMERCIAL",
-          "faturamento": 9184.16
+          "codcli": "50661",
+          "nome": "BRUNO SILVA CANCIO",
+          "faturamento": 12910.5
         },
         {
-          "codcli": "37813",
-          "nome": "ARMAZEM DA CERVEJA",
-          "faturamento": 8569.48
+          "codcli": "51151",
+          "nome": "RONALDO ANSELMO DE SOUZA JUNIOR",
+          "faturamento": 10674.0
         },
         {
-          "codcli": "30203",
-          "nome": "ELIS BAR",
-          "faturamento": 8285.3
+          "codcli": "50458",
+          "nome": "EMPORIO DOS GORDINHOS",
+          "faturamento": 9968.99
         },
         {
-          "codcli": "34476",
-          "nome": "CASA DE FRIOS E MASSAS AO GOSTO",
-          "faturamento": 7358.16
+          "codcli": "50421",
+          "nome": "MARTINS ARAUJO E DA SILVA SUPERMERCADO",
+          "faturamento": 9433.49
         },
         {
-          "codcli": "34920",
-          "nome": "RESTAURANTE BETANIA",
-          "faturamento": 6600.96
+          "codcli": "50459",
+          "nome": "DISTRIBUIDORA DE BEBIDAS CENTRO OESTE PAULISTA",
+          "faturamento": 8716.8
         },
         {
-          "codcli": "35444",
-          "nome": "ULTRA COFFEE PUC BH",
-          "faturamento": 6573.24
+          "codcli": "50216",
+          "nome": "PIT STOP BEBIDAS",
+          "faturamento": 8225.26
         },
         {
-          "codcli": "34357",
-          "nome": "VILLAGE FOODS",
-          "faturamento": 6211.9
+          "codcli": "50804",
+          "nome": "ADEGA DA TIA",
+          "faturamento": 8031.3
         },
         {
-          "codcli": "34478",
-          "nome": "8ZH7 RESTAURANTE",
-          "faturamento": 5901.1
+          "codcli": "51282",
+          "nome": "ANA MARIA LUCIO CARNIETTO",
+          "faturamento": 7083.39
         },
         {
-          "codcli": "35888",
-          "nome": "SUSHI MIX PAMPULHA",
-          "faturamento": 5584.08
+          "codcli": "49991",
+          "nome": "JULIO CESAR DA SILVA JUNIOR & CIA",
+          "faturamento": 5967.7
         }
       ]
     },
@@ -6540,9 +6912,9 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
       "nome": "Fabio Valotti",
       "time": "CONVENIENCE",
       "time_label": "Convenience (Varejo tradicional e Conveniência)",
-      "total_clientes_ativos": 69,
-      "faturamento_ytd": 318411.6,
-      "media_mensal": 45487.37,
+      "total_clientes_ativos": 77,
+      "faturamento_ytd": 348967.06,
+      "media_mensal": 49852.44,
       "por_mes": {
         "2026-01": 30910.68,
         "2026-02": 68927.86,
@@ -6550,83 +6922,83 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
         "2026-04": 59211.56,
         "2026-05": 19052.5,
         "2026-06": 35637.82,
-        "2026-07": 27339.69
+        "2026-07": 57895.15
       },
       "top_industrias": [
         {
           "fantasia": "RED BULL",
-          "faturamento": 217511.15,
-          "pct": 68.3
+          "faturamento": 221283.31,
+          "pct": 63.4
         },
         {
           "fantasia": "TATUZINHO",
-          "faturamento": 40277.06,
-          "pct": 12.6
+          "faturamento": 42172.16,
+          "pct": 12.1
         },
         {
           "fantasia": "PERNOD",
-          "faturamento": 11951.82,
-          "pct": 3.8
+          "faturamento": 15639.96,
+          "pct": 4.5
+        },
+        {
+          "fantasia": "KAISER",
+          "faturamento": 8642.86,
+          "pct": 2.5
+        },
+        {
+          "fantasia": "CASA PERINI",
+          "faturamento": 7859.0,
+          "pct": 2.3
+        },
+        {
+          "fantasia": "DIAGEO",
+          "faturamento": 6984.0,
+          "pct": 2.0
         },
         {
           "fantasia": "ROBINSON CRUSOE",
           "faturamento": 5768.54,
-          "pct": 1.8
-        },
-        {
-          "fantasia": "KAISER",
-          "faturamento": 5694.56,
-          "pct": 1.8
-        },
-        {
-          "fantasia": "PINATI",
-          "faturamento": 5325.73,
           "pct": 1.7
         },
         {
-          "fantasia": "CASA PERINI",
-          "faturamento": 5080.4,
+          "fantasia": "PINATI",
+          "faturamento": 5445.53,
           "pct": 1.6
+        },
+        {
+          "fantasia": "COMARY",
+          "faturamento": 5127.47,
+          "pct": 1.5
+        },
+        {
+          "fantasia": "MINALBA",
+          "faturamento": 4637.45,
+          "pct": 1.3
         },
         {
           "fantasia": "CATUABA",
           "faturamento": 4353.55,
-          "pct": 1.4
+          "pct": 1.2
         },
         {
-          "fantasia": "MINALBA",
-          "faturamento": 4342.75,
-          "pct": 1.4
+          "fantasia": "TIAL",
+          "faturamento": 3790.51,
+          "pct": 1.1
         },
         {
           "fantasia": "RECKITT",
           "faturamento": 3070.82,
-          "pct": 1.0
-        },
-        {
-          "fantasia": "COMARY",
-          "faturamento": 2729.31,
           "pct": 0.9
         },
         {
-          "fantasia": "VITON",
-          "faturamento": 1963.51,
-          "pct": 0.6
-        },
-        {
           "fantasia": "AURORA",
-          "faturamento": 1915.78,
+          "faturamento": 2094.58,
           "pct": 0.6
         },
         {
-          "fantasia": "TIAL",
-          "faturamento": 1402.0,
-          "pct": 0.4
-        },
-        {
-          "fantasia": "FANTE",
-          "faturamento": 1193.5,
-          "pct": 0.4
+          "fantasia": "VITON",
+          "faturamento": 2091.48,
+          "pct": 0.6
         }
       ],
       "top_clientes": [
@@ -6636,9 +7008,14 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
           "faturamento": 131709.19
         },
         {
+          "codcli": "89901",
+          "nome": "DANY STAR",
+          "faturamento": 28265.01
+        },
+        {
           "codcli": "93695",
           "nome": "BAR BARBEARIA PIRRO",
-          "faturamento": 26247.02
+          "faturamento": 26606.82
         },
         {
           "codcli": "93245",
@@ -6648,12 +7025,7 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
         {
           "codcli": "93281",
           "nome": "FOOD SC - SAO CONRADO",
-          "faturamento": 12679.36
-        },
-        {
-          "codcli": "89901",
-          "nome": "DANY STAR",
-          "faturamento": 12040.54
+          "faturamento": 13626.36
         },
         {
           "codcli": "93890",
@@ -6678,7 +7050,7 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
         {
           "codcli": "79902",
           "nome": "SAUCE & CO",
-          "faturamento": 6853.6
+          "faturamento": 7407.34
         },
         {
           "codcli": "52102",
@@ -6696,185 +7068,490 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
           "faturamento": 4999.04
         },
         {
-          "codcli": "90389",
-          "nome": "TO NA SERRA BAR E RESTAURANTE",
-          "faturamento": 4142.46
+          "codcli": "95495",
+          "nome": "44.493.539 JONATHAN LOPES DE AGUIAR",
+          "faturamento": 4616.79
         },
         {
-          "codcli": "91988",
-          "nome": "GOLLAN'S LANCHES - BOTAFOGO",
-          "faturamento": 3558.94
+          "codcli": "90389",
+          "nome": "TO NA SERRA BAR E RESTAURANTE",
+          "faturamento": 4501.98
         }
       ]
     },
     {
-      "rca": 460,
+      "rca": 461,
       "estado": "SP",
-      "chave": "SP-460",
-      "nome": "CRISTIANE MORAIS",
+      "chave": "SP-461",
+      "nome": "SUELY SANTOS",
       "time": "OUTROS",
       "time_label": "Outros / sem time definido",
-      "total_clientes_ativos": 52,
-      "faturamento_ytd": 307016.76,
-      "media_mensal": 76754.19,
+      "total_clientes_ativos": 34,
+      "faturamento_ytd": 307013.14,
+      "media_mensal": 76753.28,
       "por_mes": {
-        "2026-04": 1113.12,
-        "2026-05": 59264.83,
-        "2026-06": 158477.06,
-        "2026-07": 88161.75
+        "2026-04": 34481.46,
+        "2026-05": 73132.92,
+        "2026-06": 103869.97,
+        "2026-07": 95528.79
       },
       "top_industrias": [
         {
           "fantasia": "PERNOD",
-          "faturamento": 196273.43,
-          "pct": 63.9
-        },
-        {
-          "fantasia": "SEM FANTASIA",
-          "faturamento": 26950.07,
-          "pct": 8.8
+          "faturamento": 157879.9,
+          "pct": 51.4
         },
         {
           "fantasia": "BROWN",
-          "faturamento": 17244.24,
-          "pct": 5.6
-        },
-        {
-          "fantasia": "FANTE",
-          "faturamento": 16318.7,
-          "pct": 5.3
+          "faturamento": 70905.13,
+          "pct": 23.1
         },
         {
           "fantasia": "DIAGEO",
-          "faturamento": 13060.03,
-          "pct": 4.3
+          "faturamento": 37984.44,
+          "pct": 12.4
         },
         {
-          "fantasia": "LUCIA",
-          "faturamento": 8295.4,
-          "pct": 2.7
-        },
-        {
-          "fantasia": "AURORA",
-          "faturamento": 5151.56,
-          "pct": 1.7
-        },
-        {
-          "fantasia": "BALLENA",
-          "faturamento": 4794.0,
-          "pct": 1.6
+          "fantasia": "FANTE",
+          "faturamento": 10818.89,
+          "pct": 3.5
         },
         {
           "fantasia": "BACARDI",
-          "faturamento": 4653.11,
-          "pct": 1.5
-        },
-        {
-          "fantasia": "MOET HENNESY",
-          "faturamento": 3533.6,
-          "pct": 1.2
-        },
-        {
-          "fantasia": "BEAM SUNTORY BRASIL",
-          "faturamento": 2508.92,
-          "pct": 0.8
+          "faturamento": 9072.9,
+          "pct": 3.0
         },
         {
           "fantasia": "CRS BRANDS",
-          "faturamento": 2235.66,
-          "pct": 0.7
+          "faturamento": 5068.92,
+          "pct": 1.7
+        },
+        {
+          "fantasia": "SEM FANTASIA",
+          "faturamento": 4340.82,
+          "pct": 1.4
+        },
+        {
+          "fantasia": "BEAM SUNTORY BRASIL",
+          "faturamento": 3522.4,
+          "pct": 1.1
         },
         {
           "fantasia": "CAMPARI",
-          "faturamento": 2156.7,
+          "faturamento": 2884.2,
+          "pct": 0.9
+        },
+        {
+          "fantasia": "BALLENA",
+          "faturamento": 2105.98,
           "pct": 0.7
         },
         {
-          "fantasia": "PERINI",
-          "faturamento": 1554.2,
-          "pct": 0.5
+          "fantasia": "AURORA",
+          "faturamento": 1865.26,
+          "pct": 0.6
         },
         {
-          "fantasia": "TOP BIRRA",
-          "faturamento": 1433.09,
-          "pct": 0.5
+          "fantasia": "INTERFOOD",
+          "faturamento": 564.29,
+          "pct": 0.2
         }
       ],
       "top_clientes": [
         {
-          "codcli": "50311",
-          "nome": "FAMILIA ZERO DOZE DISTRIBUIDORA",
-          "faturamento": 78852.64
+          "codcli": "25880",
+          "nome": "COMERCIO DE BEBIDAS PADRE ALEIXO LTDA",
+          "faturamento": 45956.52
         },
         {
-          "codcli": "38205",
-          "nome": "COMERCIAL VILLA SIMPATIA",
-          "faturamento": 32046.0
+          "codcli": "47295",
+          "nome": "ADEGA DA NOVE DISTRIBUIDORA DE BEBIDAS",
+          "faturamento": 23290.19
         },
         {
-          "codcli": "51405",
-          "nome": "CEVADACADABRA",
-          "faturamento": 28269.0
+          "codcli": "49732",
+          "nome": "ADEGA DO TIOZINHO",
+          "faturamento": 21882.69
         },
         {
-          "codcli": "51569",
-          "nome": "MERCADINHO VIANA & VIANA",
-          "faturamento": 18230.78
+          "codcli": "49729",
+          "nome": "GILVANDA ANDRADE SANTOS",
+          "faturamento": 21393.51
         },
         {
-          "codcli": "50128",
-          "nome": "ALEMAO DISTRIBUIDORA DE BEBIDAS E COMERCIO EM GERAL LTDA",
-          "faturamento": 17108.52
+          "codcli": "40491",
+          "nome": "ICARO ADRIANO BOMFIM",
+          "faturamento": 20426.89
         },
         {
-          "codcli": "47136",
-          "nome": "FEMAR BEBIDAS",
-          "faturamento": 14094.6
+          "codcli": "49731",
+          "nome": "ADEGA DO IVO",
+          "faturamento": 19807.86
         },
         {
-          "codcli": "50917",
-          "nome": "IMPERIAL BEBIDAS",
-          "faturamento": 12354.3
+          "codcli": "49961",
+          "nome": "DISTRIBUIDORA DO TIOZINHO",
+          "faturamento": 19631.04
         },
         {
-          "codcli": "50719",
-          "nome": "BROTHERS BEER COMERCIO DE BEBIDAS",
-          "faturamento": 11345.1
+          "codcli": "50913",
+          "nome": "CARLOS EDUARDO SANTANA CORREA",
+          "faturamento": 17547.22
         },
         {
-          "codcli": "50029",
-          "nome": "ADEGA SEMAFORO",
-          "faturamento": 10438.89
+          "codcli": "50253",
+          "nome": "JESSICA SANTIAGO JARDIM",
+          "faturamento": 13312.6
         },
         {
-          "codcli": "51390",
-          "nome": "RENATO MENDES RICARDO",
-          "faturamento": 9884.52
+          "codcli": "50042",
+          "nome": "ADEGA E HOJE",
+          "faturamento": 12948.96
         },
         {
-          "codcli": "38641",
-          "nome": "E. OMENA DE MENEZES",
-          "faturamento": 8901.33
+          "codcli": "49892",
+          "nome": "POINT DA NEBLINA",
+          "faturamento": 12137.76
         },
         {
-          "codcli": "50218",
-          "nome": "L F DA SILVA MERCEARIA",
-          "faturamento": 6754.23
+          "codcli": "50354",
+          "nome": "MARIANA VIEIRA SANTIAGO",
+          "faturamento": 11979.0
         },
         {
-          "codcli": "50094",
-          "nome": "BROTHERS BEER",
-          "faturamento": 4533.75
+          "codcli": "50111",
+          "nome": "SOCIAL FLUXO",
+          "faturamento": 11497.08
         },
         {
-          "codcli": "38800",
-          "nome": "ADEGA MENEZES",
-          "faturamento": 3988.32
+          "codcli": "51253",
+          "nome": "MEDRADO BURGUER",
+          "faturamento": 6287.74
         },
         {
-          "codcli": "50789",
-          "nome": "L M MERCEARIA",
-          "faturamento": 3481.2
+          "codcli": "50046",
+          "nome": "EMPORIO MARECHAL",
+          "faturamento": 5355.17
+        }
+      ]
+    },
+    {
+      "rca": 467,
+      "estado": "SP",
+      "chave": "SP-467",
+      "nome": "MARLENE RODRIGUES",
+      "time": "OUTROS",
+      "time_label": "Outros / sem time definido",
+      "total_clientes_ativos": 22,
+      "faturamento_ytd": 305538.76,
+      "media_mensal": 76384.69,
+      "por_mes": {
+        "2026-04": 7266.6,
+        "2026-05": 107487.4,
+        "2026-06": 52463.84,
+        "2026-07": 138320.92
+      },
+      "top_industrias": [
+        {
+          "fantasia": "PERNOD",
+          "faturamento": 141651.0,
+          "pct": 46.4
+        },
+        {
+          "fantasia": "BROWN",
+          "faturamento": 112975.42,
+          "pct": 37.0
+        },
+        {
+          "fantasia": "BEAM SUNTORY BRASIL",
+          "faturamento": 16605.6,
+          "pct": 5.4
+        },
+        {
+          "fantasia": "CRS BRANDS",
+          "faturamento": 13185.6,
+          "pct": 4.3
+        },
+        {
+          "fantasia": "DIAGEO",
+          "faturamento": 8599.0,
+          "pct": 2.8
+        },
+        {
+          "fantasia": "BALLENA",
+          "faturamento": 6715.82,
+          "pct": 2.2
+        },
+        {
+          "fantasia": "CAMPARI",
+          "faturamento": 3438.0,
+          "pct": 1.1
+        },
+        {
+          "fantasia": "BACARDI",
+          "faturamento": 1246.92,
+          "pct": 0.4
+        },
+        {
+          "fantasia": "MOET HENNESY",
+          "faturamento": 874.8,
+          "pct": 0.3
+        },
+        {
+          "fantasia": "FANTE",
+          "faturamento": 246.6,
+          "pct": 0.1
+        }
+      ],
+      "top_clientes": [
+        {
+          "codcli": "50548",
+          "nome": "FONTE NOVA MAIA",
+          "faturamento": 60177.0
+        },
+        {
+          "codcli": "49543",
+          "nome": "MERCADO FONTE NOVA BELA VISTA",
+          "faturamento": 46192.6
+        },
+        {
+          "codcli": "34252",
+          "nome": "SABIO BOEMIO",
+          "faturamento": 42299.2
+        },
+        {
+          "codcli": "50568",
+          "nome": "MERCADO FONTE NOVA BELA VISTA LTDA",
+          "faturamento": 40983.36
+        },
+        {
+          "codcli": "49542",
+          "nome": "BAR & ADEGA SOUZA",
+          "faturamento": 13319.66
+        },
+        {
+          "codcli": "50570",
+          "nome": "MERCADO FONTE NOVA RECREIO",
+          "faturamento": 13105.5
+        },
+        {
+          "codcli": "49953",
+          "nome": "ADEGA ZERO GRAU LTDA - ME",
+          "faturamento": 12236.74
+        },
+        {
+          "codcli": "50523",
+          "nome": "JAGA BEBIDAS",
+          "faturamento": 12227.2
+        },
+        {
+          "codcli": "50549",
+          "nome": "MERCADO FONTE NOVA BELA VISTA",
+          "faturamento": 12028.32
+        },
+        {
+          "codcli": "50087",
+          "nome": "MARCIO",
+          "faturamento": 9625.2
+        },
+        {
+          "codcli": "46946",
+          "nome": "ADEGA E TABACARIA ACAPULCO HOOKAH",
+          "faturamento": 8456.88
+        },
+        {
+          "codcli": "50571",
+          "nome": "MERCADINHO FONTE NOVA SANTA EMILIA LTDA",
+          "faturamento": 7044.6
+        },
+        {
+          "codcli": "50575",
+          "nome": "MERCADO FONTE NOVA JD. MUNIRA LTDA",
+          "faturamento": 5632.8
+        },
+        {
+          "codcli": "50576",
+          "nome": "MERCADO FONTE NOVA TURMALINA",
+          "faturamento": 4302.0
+        },
+        {
+          "codcli": "50573",
+          "nome": "FONTE NOVA RECREIO SAO JORGE",
+          "faturamento": 3690.6
+        }
+      ]
+    },
+    {
+      "rca": 431,
+      "estado": "RJ",
+      "chave": "RJ-431",
+      "nome": "Adeilson Gonçalvez",
+      "time": "CONVENIENCE",
+      "time_label": "Convenience (Varejo tradicional e Conveniência)",
+      "total_clientes_ativos": 153,
+      "faturamento_ytd": 304257.53,
+      "media_mensal": 43465.36,
+      "por_mes": {
+        "2026-01": 42407.53,
+        "2026-02": 29311.2,
+        "2026-03": 45698.21,
+        "2026-04": 42773.83,
+        "2026-05": 42105.35,
+        "2026-06": 58255.14,
+        "2026-07": 43706.27
+      },
+      "top_industrias": [
+        {
+          "fantasia": "VITON",
+          "faturamento": 54698.81,
+          "pct": 18.0
+        },
+        {
+          "fantasia": "TATUZINHO",
+          "faturamento": 54594.71,
+          "pct": 17.9
+        },
+        {
+          "fantasia": "RED BULL",
+          "faturamento": 44281.39,
+          "pct": 14.6
+        },
+        {
+          "fantasia": "DIAGEO",
+          "faturamento": 27370.31,
+          "pct": 9.0
+        },
+        {
+          "fantasia": "TIAL",
+          "faturamento": 15842.3,
+          "pct": 5.2
+        },
+        {
+          "fantasia": "MINALBA",
+          "faturamento": 14876.07,
+          "pct": 4.9
+        },
+        {
+          "fantasia": "PERNOD",
+          "faturamento": 14724.6,
+          "pct": 4.8
+        },
+        {
+          "fantasia": "RECKITT",
+          "faturamento": 12279.58,
+          "pct": 4.0
+        },
+        {
+          "fantasia": "FANTE",
+          "faturamento": 10845.35,
+          "pct": 3.6
+        },
+        {
+          "fantasia": "PINATI",
+          "faturamento": 8285.5,
+          "pct": 2.7
+        },
+        {
+          "fantasia": "CASTAS",
+          "faturamento": 8007.13,
+          "pct": 2.6
+        },
+        {
+          "fantasia": "51",
+          "faturamento": 6981.06,
+          "pct": 2.3
+        },
+        {
+          "fantasia": "ROBINSON CRUSOE",
+          "faturamento": 6053.07,
+          "pct": 2.0
+        },
+        {
+          "fantasia": "COMARY",
+          "faturamento": 5236.99,
+          "pct": 1.7
+        },
+        {
+          "fantasia": "KAISER",
+          "faturamento": 3622.32,
+          "pct": 1.2
+        }
+      ],
+      "top_clientes": [
+        {
+          "codcli": "91059",
+          "nome": "MM CONVENIENCIA LTDA",
+          "faturamento": 25462.83
+        },
+        {
+          "codcli": "92144",
+          "nome": "DISTRIBUIDORA BARAO ABAIXO DE ZERO",
+          "faturamento": 19157.89
+        },
+        {
+          "codcli": "91619",
+          "nome": "MAX LUCRO",
+          "faturamento": 10031.27
+        },
+        {
+          "codcli": "80577",
+          "nome": "GRAND CAFE RIO - LEBLON",
+          "faturamento": 9974.53
+        },
+        {
+          "codcli": "6671",
+          "nome": "MERCADELLI",
+          "faturamento": 9063.54
+        },
+        {
+          "codcli": "83952",
+          "nome": "COSTELAS BAR",
+          "faturamento": 9023.71
+        },
+        {
+          "codcli": "91471",
+          "nome": "3 IRMAOS - MAGALHAES BASTOS",
+          "faturamento": 8353.45
+        },
+        {
+          "codcli": "91617",
+          "nome": "MERCADINHO E MERCEARIA LIMA",
+          "faturamento": 8337.31
+        },
+        {
+          "codcli": "91357",
+          "nome": "JLCC MM COM PROD FARMACEUTICOS REALENGO",
+          "faturamento": 8116.07
+        },
+        {
+          "codcli": "76984",
+          "nome": "GRAND CAFE RIO - CAMPO GRANDE",
+          "faturamento": 7214.26
+        },
+        {
+          "codcli": "91431",
+          "nome": "MSP COM ALIMENTOS - BANGU",
+          "faturamento": 7059.12
+        },
+        {
+          "codcli": "92917",
+          "nome": "PKP MERCADO",
+          "faturamento": 6878.71
+        },
+        {
+          "codcli": "91491",
+          "nome": "MERCADO SUPER PAO - REALENGO",
+          "faturamento": 6025.36
+        },
+        {
+          "codcli": "91330",
+          "nome": "OS FILHOS DE FRANCISCO - OLARIA",
+          "faturamento": 5262.31
+        },
+        {
+          "codcli": "84572",
+          "nome": "COMERCIO DE HORTIFRUTI MIGUEL ARCANJO 20",
+          "faturamento": 4993.38
         }
       ]
     },
@@ -6960,366 +7637,23 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
       ]
     },
     {
-      "rca": 476,
-      "estado": "SP",
-      "chave": "SP-476",
-      "nome": "RODRIGO LIMA",
-      "time": "OUTROS",
-      "time_label": "Outros / sem time definido",
-      "total_clientes_ativos": 45,
-      "faturamento_ytd": 298529.41,
-      "media_mensal": 99509.8,
-      "por_mes": {
-        "2026-05": 43722.54,
-        "2026-06": 127558.03,
-        "2026-07": 127248.84
-      },
-      "top_industrias": [
-        {
-          "fantasia": "PERNOD",
-          "faturamento": 142095.1,
-          "pct": 47.6
-        },
-        {
-          "fantasia": "BROWN",
-          "faturamento": 111422.8,
-          "pct": 37.3
-        },
-        {
-          "fantasia": "AURORA",
-          "faturamento": 19779.7,
-          "pct": 6.6
-        },
-        {
-          "fantasia": "DIAGEO",
-          "faturamento": 4931.58,
-          "pct": 1.7
-        },
-        {
-          "fantasia": "FANTE",
-          "faturamento": 3280.39,
-          "pct": 1.1
-        },
-        {
-          "fantasia": "BEAM SUNTORY BRASIL",
-          "faturamento": 3019.2,
-          "pct": 1.0
-        },
-        {
-          "fantasia": "CAMPARI",
-          "faturamento": 2417.6,
-          "pct": 0.8
-        },
-        {
-          "fantasia": "MOET HENNESY",
-          "faturamento": 2335.9,
-          "pct": 0.8
-        },
-        {
-          "fantasia": "CRS BRANDS",
-          "faturamento": 2181.32,
-          "pct": 0.7
-        },
-        {
-          "fantasia": "SEM FANTASIA",
-          "faturamento": 1433.6,
-          "pct": 0.5
-        },
-        {
-          "fantasia": "BALLENA",
-          "faturamento": 1270.46,
-          "pct": 0.4
-        },
-        {
-          "fantasia": "BACARDI",
-          "faturamento": 1253.94,
-          "pct": 0.4
-        },
-        {
-          "fantasia": "PERINI",
-          "faturamento": 941.85,
-          "pct": 0.3
-        },
-        {
-          "fantasia": "STOCK",
-          "faturamento": 900.98,
-          "pct": 0.3
-        },
-        {
-          "fantasia": "JURUPINGA",
-          "faturamento": 322.8,
-          "pct": 0.1
-        }
-      ],
-      "top_clientes": [
-        {
-          "codcli": "50420",
-          "nome": "SUPER OSMARAJA EMPORIO",
-          "faturamento": 65306.81
-        },
-        {
-          "codcli": "50795",
-          "nome": "LEONARDO PIOVESAN PRIETO DENADAI",
-          "faturamento": 30847.8
-        },
-        {
-          "codcli": "49993",
-          "nome": "DEPOSITO DE BEBIDAS GOMES",
-          "faturamento": 27627.1
-        },
-        {
-          "codcli": "50413",
-          "nome": "ALEXANDRE APARECIDO STEFANI",
-          "faturamento": 16640.85
-        },
-        {
-          "codcli": "50896",
-          "nome": "SUZANA DOS SANTOS ROMERO",
-          "faturamento": 16305.1
-        },
-        {
-          "codcli": "50661",
-          "nome": "BRUNO SILVA CANCIO",
-          "faturamento": 12910.5
-        },
-        {
-          "codcli": "50099",
-          "nome": "JULIO C. DA SILVA JUNIOR",
-          "faturamento": 11880.0
-        },
-        {
-          "codcli": "50421",
-          "nome": "MARTINS ARAUJO E DA SILVA SUPERMERCADO",
-          "faturamento": 9433.49
-        },
-        {
-          "codcli": "50459",
-          "nome": "DISTRIBUIDORA DE BEBIDAS CENTRO OESTE PAULISTA",
-          "faturamento": 8716.8
-        },
-        {
-          "codcli": "50458",
-          "nome": "EMPORIO DOS GORDINHOS",
-          "faturamento": 8060.19
-        },
-        {
-          "codcli": "50804",
-          "nome": "ADEGA DA TIA",
-          "faturamento": 8031.3
-        },
-        {
-          "codcli": "51151",
-          "nome": "RONALDO ANSELMO DE SOUZA JUNIOR",
-          "faturamento": 7656.0
-        },
-        {
-          "codcli": "50216",
-          "nome": "PIT STOP BEBIDAS",
-          "faturamento": 5928.7
-        },
-        {
-          "codcli": "51565",
-          "nome": "HOUSE BEER ATACADO - FESTAS",
-          "faturamento": 4871.3
-        },
-        {
-          "codcli": "49991",
-          "nome": "JULIO CESAR DA SILVA JUNIOR & CIA",
-          "faturamento": 4631.5
-        }
-      ]
-    },
-    {
-      "rca": 431,
-      "estado": "RJ",
-      "chave": "RJ-431",
-      "nome": "Adeilson Gonçalvez",
-      "time": "CONVENIENCE",
-      "time_label": "Convenience (Varejo tradicional e Conveniência)",
-      "total_clientes_ativos": 149,
-      "faturamento_ytd": 284338.57,
-      "media_mensal": 40619.8,
-      "por_mes": {
-        "2026-01": 42407.53,
-        "2026-02": 29311.2,
-        "2026-03": 45698.21,
-        "2026-04": 42773.83,
-        "2026-05": 42105.35,
-        "2026-06": 58255.14,
-        "2026-07": 23787.31
-      },
-      "top_industrias": [
-        {
-          "fantasia": "TATUZINHO",
-          "faturamento": 53855.43,
-          "pct": 18.9
-        },
-        {
-          "fantasia": "VITON",
-          "faturamento": 53579.06,
-          "pct": 18.8
-        },
-        {
-          "fantasia": "RED BULL",
-          "faturamento": 35513.72,
-          "pct": 12.5
-        },
-        {
-          "fantasia": "DIAGEO",
-          "faturamento": 25358.21,
-          "pct": 8.9
-        },
-        {
-          "fantasia": "TIAL",
-          "faturamento": 14592.4,
-          "pct": 5.1
-        },
-        {
-          "fantasia": "PERNOD",
-          "faturamento": 14449.8,
-          "pct": 5.1
-        },
-        {
-          "fantasia": "MINALBA",
-          "faturamento": 14328.27,
-          "pct": 5.0
-        },
-        {
-          "fantasia": "RECKITT",
-          "faturamento": 12197.98,
-          "pct": 4.3
-        },
-        {
-          "fantasia": "FANTE",
-          "faturamento": 10758.41,
-          "pct": 3.8
-        },
-        {
-          "fantasia": "PINATI",
-          "faturamento": 8285.5,
-          "pct": 2.9
-        },
-        {
-          "fantasia": "CASTAS",
-          "faturamento": 8007.13,
-          "pct": 2.8
-        },
-        {
-          "fantasia": "51",
-          "faturamento": 6806.16,
-          "pct": 2.4
-        },
-        {
-          "fantasia": "COMARY",
-          "faturamento": 4464.19,
-          "pct": 1.6
-        },
-        {
-          "fantasia": "ROBINSON CRUSOE",
-          "faturamento": 3944.47,
-          "pct": 1.4
-        },
-        {
-          "fantasia": "AURORA",
-          "faturamento": 3107.53,
-          "pct": 1.1
-        }
-      ],
-      "top_clientes": [
-        {
-          "codcli": "91059",
-          "nome": "MM CONVENIENCIA LTDA",
-          "faturamento": 25163.03
-        },
-        {
-          "codcli": "92144",
-          "nome": "DISTRIBUIDORA BARAO ABAIXO DE ZERO",
-          "faturamento": 19157.89
-        },
-        {
-          "codcli": "91619",
-          "nome": "MAX LUCRO",
-          "faturamento": 10031.27
-        },
-        {
-          "codcli": "80577",
-          "nome": "GRAND CAFE RIO - LEBLON",
-          "faturamento": 9392.25
-        },
-        {
-          "codcli": "83952",
-          "nome": "COSTELAS BAR",
-          "faturamento": 9023.71
-        },
-        {
-          "codcli": "91617",
-          "nome": "MERCADINHO E MERCEARIA LIMA",
-          "faturamento": 7973.65
-        },
-        {
-          "codcli": "6671",
-          "nome": "MERCADELLI",
-          "faturamento": 7779.84
-        },
-        {
-          "codcli": "91357",
-          "nome": "JLCC MM COM PROD FARMACEUTICOS REALENGO",
-          "faturamento": 7457.75
-        },
-        {
-          "codcli": "76984",
-          "nome": "GRAND CAFE RIO - CAMPO GRANDE",
-          "faturamento": 6791.95
-        },
-        {
-          "codcli": "91431",
-          "nome": "MSP COM ALIMENTOS - BANGU",
-          "faturamento": 6639.68
-        },
-        {
-          "codcli": "92917",
-          "nome": "PKP MERCADO",
-          "faturamento": 6599.11
-        },
-        {
-          "codcli": "91330",
-          "nome": "OS FILHOS DE FRANCISCO - OLARIA",
-          "faturamento": 5262.31
-        },
-        {
-          "codcli": "91491",
-          "nome": "MERCADO SUPER PAO - REALENGO",
-          "faturamento": 5056.84
-        },
-        {
-          "codcli": "84572",
-          "nome": "COMERCIO DE HORTIFRUTI MIGUEL ARCANJO 20",
-          "faturamento": 4993.38
-        },
-        {
-          "codcli": "91471",
-          "nome": "3 IRMAOS - MAGALHAES BASTOS",
-          "faturamento": 4758.25
-        }
-      ]
-    },
-    {
       "rca": 260,
       "estado": "ES",
       "chave": "ES-260",
       "nome": "DOUGLAS SCHADE",
       "time": "OUTROS",
       "time_label": "Outros / sem time definido",
-      "total_clientes_ativos": 92,
-      "faturamento_ytd": 283797.4,
-      "media_mensal": 47299.57,
+      "total_clientes_ativos": 93,
+      "faturamento_ytd": 283512.44,
+      "media_mensal": 40501.78,
       "por_mes": {
         "2026-01": 36125.44,
         "2026-02": 31607.81,
         "2026-03": 62317.78,
-        "2026-04": 30212.62,
+        "2026-04": 29869.34,
         "2026-05": 94203.04,
-        "2026-06": 29330.7
+        "2026-06": 29330.7,
+        "2026-07": 58.32
       },
       "top_industrias": [
         {
@@ -7339,13 +7673,13 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
         },
         {
           "fantasia": "TATUZINHO",
-          "faturamento": 29968.94,
-          "pct": 10.6
+          "faturamento": 29625.66,
+          "pct": 10.4
         },
         {
           "fantasia": "RED BULL",
-          "faturamento": 24506.64,
-          "pct": 8.6
+          "faturamento": 24564.96,
+          "pct": 8.7
         },
         {
           "fantasia": "BACARDI",
@@ -7417,7 +7751,7 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
         {
           "codcli": "20944",
           "nome": "SUPERMERCADOS PERIM",
-          "faturamento": 18060.21
+          "faturamento": 17716.93
         },
         {
           "codcli": "81701",
@@ -7472,7 +7806,7 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
         {
           "codcli": "82386",
           "nome": "CENTRO AUTOMOTIVO RIVA'S",
-          "faturamento": 5315.19
+          "faturamento": 5344.35
         }
       ]
     },
@@ -7605,158 +7939,50 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
       ]
     },
     {
-      "rca": 461,
-      "estado": "SP",
-      "chave": "SP-461",
-      "nome": "SUELY SANTOS",
+      "rca": 388,
+      "estado": "MG",
+      "chave": "MG-388",
+      "nome": "DOUGLAS FERREIRA SILVA",
       "time": "OUTROS",
       "time_label": "Outros / sem time definido",
-      "total_clientes_ativos": 32,
-      "faturamento_ytd": 272842.24,
-      "media_mensal": 68210.56,
+      "total_clientes_ativos": 2,
+      "faturamento_ytd": 262396.68,
+      "media_mensal": 262396.68,
       "por_mes": {
-        "2026-04": 34481.46,
-        "2026-05": 73132.92,
-        "2026-06": 103869.97,
-        "2026-07": 61357.89
+        "2026-07": 262396.68
       },
       "top_industrias": [
         {
           "fantasia": "PERNOD",
-          "faturamento": 141093.8,
-          "pct": 51.7
+          "faturamento": 221948.28,
+          "pct": 84.6
         },
         {
-          "fantasia": "BROWN",
-          "faturamento": 62693.23,
-          "pct": 23.0
-        },
-        {
-          "fantasia": "DIAGEO",
-          "faturamento": 31992.74,
-          "pct": 11.7
-        },
-        {
-          "fantasia": "BACARDI",
-          "faturamento": 9072.9,
-          "pct": 3.3
-        },
-        {
-          "fantasia": "FANTE",
-          "faturamento": 8973.89,
-          "pct": 3.3
+          "fantasia": "LVMH",
+          "faturamento": 23670.0,
+          "pct": 9.0
         },
         {
           "fantasia": "SEM FANTASIA",
-          "faturamento": 4340.82,
-          "pct": 1.6
+          "faturamento": 9504.6,
+          "pct": 3.6
         },
         {
-          "fantasia": "CRS BRANDS",
-          "faturamento": 3990.12,
-          "pct": 1.5
-        },
-        {
-          "fantasia": "BEAM SUNTORY BRASIL",
-          "faturamento": 3522.4,
-          "pct": 1.3
-        },
-        {
-          "fantasia": "CAMPARI",
-          "faturamento": 2626.8,
-          "pct": 1.0
-        },
-        {
-          "fantasia": "BALLENA",
-          "faturamento": 2105.98,
-          "pct": 0.8
-        },
-        {
-          "fantasia": "AURORA",
-          "faturamento": 1865.26,
-          "pct": 0.7
-        },
-        {
-          "fantasia": "INTERFOOD",
-          "faturamento": 564.29,
-          "pct": 0.2
+          "fantasia": "MONIN",
+          "faturamento": 7273.8,
+          "pct": 2.8
         }
       ],
       "top_clientes": [
         {
-          "codcli": "25880",
-          "nome": "COMERCIO DE BEBIDAS PADRE ALEIXO LTDA",
-          "faturamento": 43842.12
+          "codcli": "37822",
+          "nome": "BEROLA DISTRIBUIDOR E ATACADISTA LTDA",
+          "faturamento": 135728.4
         },
         {
-          "codcli": "47295",
-          "nome": "ADEGA DA NOVE DISTRIBUIDORA DE BEBIDAS",
-          "faturamento": 23290.19
-        },
-        {
-          "codcli": "49729",
-          "nome": "GILVANDA ANDRADE SANTOS",
-          "faturamento": 21393.51
-        },
-        {
-          "codcli": "49732",
-          "nome": "ADEGA DO TIOZINHO",
-          "faturamento": 18286.29
-        },
-        {
-          "codcli": "40491",
-          "nome": "ICARO ADRIANO BOMFIM",
-          "faturamento": 17999.29
-        },
-        {
-          "codcli": "49731",
-          "nome": "ADEGA DO IVO",
-          "faturamento": 14316.06
-        },
-        {
-          "codcli": "49961",
-          "nome": "DISTRIBUIDORA DO TIOZINHO",
-          "faturamento": 13639.44
-        },
-        {
-          "codcli": "50042",
-          "nome": "ADEGA E HOJE",
-          "faturamento": 12948.96
-        },
-        {
-          "codcli": "49892",
-          "nome": "POINT DA NEBLINA",
-          "faturamento": 12137.76
-        },
-        {
-          "codcli": "50253",
-          "nome": "JESSICA SANTIAGO JARDIM",
-          "faturamento": 12043.0
-        },
-        {
-          "codcli": "50354",
-          "nome": "MARIANA VIEIRA SANTIAGO",
-          "faturamento": 11979.0
-        },
-        {
-          "codcli": "50111",
-          "nome": "SOCIAL FLUXO",
-          "faturamento": 11497.08
-        },
-        {
-          "codcli": "50913",
-          "nome": "CARLOS EDUARDO SANTANA CORREA",
-          "faturamento": 11387.62
-        },
-        {
-          "codcli": "51253",
-          "nome": "MEDRADO BURGUER",
-          "faturamento": 5594.14
-        },
-        {
-          "codcli": "50046",
-          "nome": "EMPORIO MARECHAL",
-          "faturamento": 5355.17
+          "codcli": "34032",
+          "nome": "UPSIDE DISTRIBUICAO DE ALIMENTOS",
+          "faturamento": 126668.28
         }
       ]
     },
@@ -8001,6 +8227,178 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
       ]
     },
     {
+      "rca": 471,
+      "estado": "RJ",
+      "chave": "RJ-471",
+      "nome": "Ana Clara Fassano",
+      "time": "ATACAREJO",
+      "time_label": "Atacarejo (Pequeno e médio varejo)",
+      "total_clientes_ativos": 78,
+      "faturamento_ytd": 234972.67,
+      "media_mensal": 46994.53,
+      "por_mes": {
+        "2026-03": 51636.1,
+        "2026-04": 39504.83,
+        "2026-05": 45291.1,
+        "2026-06": 42874.99,
+        "2026-07": 55665.65
+      },
+      "top_industrias": [
+        {
+          "fantasia": "PERNOD",
+          "faturamento": 26485.68,
+          "pct": 11.3
+        },
+        {
+          "fantasia": "RECKITT",
+          "faturamento": 24110.56,
+          "pct": 10.3
+        },
+        {
+          "fantasia": "AGUA NA CAIXA",
+          "faturamento": 22106.78,
+          "pct": 9.4
+        },
+        {
+          "fantasia": "CASA PERINI",
+          "faturamento": 20632.5,
+          "pct": 8.8
+        },
+        {
+          "fantasia": "AURORA",
+          "faturamento": 14445.08,
+          "pct": 6.1
+        },
+        {
+          "fantasia": "TATUZINHO",
+          "faturamento": 13801.02,
+          "pct": 5.9
+        },
+        {
+          "fantasia": "CASTAS",
+          "faturamento": 12669.4,
+          "pct": 5.4
+        },
+        {
+          "fantasia": "KAISER",
+          "faturamento": 12137.8,
+          "pct": 5.2
+        },
+        {
+          "fantasia": "DIAGEO",
+          "faturamento": 11976.9,
+          "pct": 5.1
+        },
+        {
+          "fantasia": "RED BULL",
+          "faturamento": 9811.7,
+          "pct": 4.2
+        },
+        {
+          "fantasia": "BACARDI",
+          "faturamento": 8597.88,
+          "pct": 3.7
+        },
+        {
+          "fantasia": "HENNESSY",
+          "faturamento": 8220.8,
+          "pct": 3.5
+        },
+        {
+          "fantasia": "FANTE",
+          "faturamento": 7121.88,
+          "pct": 3.0
+        },
+        {
+          "fantasia": "INTERFOOD",
+          "faturamento": 6496.78,
+          "pct": 2.8
+        },
+        {
+          "fantasia": "ROBINSON CRUSOE",
+          "faturamento": 6490.12,
+          "pct": 2.8
+        }
+      ],
+      "top_clientes": [
+        {
+          "codcli": "2610",
+          "nome": "MERCADO ULTRA - CATETE",
+          "faturamento": 14708.04
+        },
+        {
+          "codcli": "93736",
+          "nome": "MERCADINHO PERNAMBUCO",
+          "faturamento": 11314.36
+        },
+        {
+          "codcli": "95109",
+          "nome": "VIA 021",
+          "faturamento": 11236.56
+        },
+        {
+          "codcli": "93899",
+          "nome": "QUALIPLUS",
+          "faturamento": 10440.0
+        },
+        {
+          "codcli": "3717",
+          "nome": "MULTI-FRUTI SANTA CLARA",
+          "faturamento": 10382.9
+        },
+        {
+          "codcli": "6325",
+          "nome": "ULTRA FLAMENGO",
+          "faturamento": 9927.48
+        },
+        {
+          "codcli": "3816",
+          "nome": "FARINHA PURA",
+          "faturamento": 9528.12
+        },
+        {
+          "codcli": "78872",
+          "nome": "BAR E RESTAURANTE SOCIAL TRAPIA",
+          "faturamento": 9280.2
+        },
+        {
+          "codcli": "95112",
+          "nome": "RIO DELLI COMERCIO DE ALIMENTOS",
+          "faturamento": 8703.74
+        },
+        {
+          "codcli": "2710",
+          "nome": "VERDANO",
+          "faturamento": 6759.22
+        },
+        {
+          "codcli": "5371",
+          "nome": "LEDEPANNEUR SHOPPING LEBLON",
+          "faturamento": 6669.5
+        },
+        {
+          "codcli": "91081",
+          "nome": "O ECONOMICO DA GAVEA LTDA",
+          "faturamento": 5808.64
+        },
+        {
+          "codcli": "93759",
+          "nome": "FABIO RODRIGUES DE ANDRADE",
+          "faturamento": 5716.7
+        },
+        {
+          "codcli": "95168",
+          "nome": "PASSARELA BAR",
+          "faturamento": 5406.4
+        },
+        {
+          "codcli": "6281",
+          "nome": "ULTRA COPACABANA",
+          "faturamento": 5097.36
+        }
+      ]
+    },
+    {
       "rca": 335,
       "estado": "ES",
       "chave": "ES-335",
@@ -8008,21 +8406,22 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
       "time": "OUTROS",
       "time_label": "Outros / sem time definido",
       "total_clientes_ativos": 80,
-      "faturamento_ytd": 223639.59,
-      "media_mensal": 37273.26,
+      "faturamento_ytd": 223697.91,
+      "media_mensal": 31956.84,
       "por_mes": {
         "2026-01": 16546.83,
         "2026-02": 52062.0,
         "2026-03": 111607.56,
         "2026-04": 23427.9,
         "2026-05": 16908.64,
-        "2026-06": 3086.65
+        "2026-06": 3086.65,
+        "2026-07": 58.32
       },
       "top_industrias": [
         {
           "fantasia": "RED BULL",
-          "faturamento": 43256.52,
-          "pct": 19.3
+          "faturamento": 43314.84,
+          "pct": 19.4
         },
         {
           "fantasia": "CASTAS",
@@ -8174,137 +8573,6 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
       ]
     },
     {
-      "rca": 467,
-      "estado": "SP",
-      "chave": "SP-467",
-      "nome": "MARLENE RODRIGUES",
-      "time": "OUTROS",
-      "time_label": "Outros / sem time definido",
-      "total_clientes_ativos": 14,
-      "faturamento_ytd": 219440.24,
-      "media_mensal": 54860.06,
-      "por_mes": {
-        "2026-04": 7266.6,
-        "2026-05": 107487.4,
-        "2026-06": 52463.84,
-        "2026-07": 52222.4
-      },
-      "top_industrias": [
-        {
-          "fantasia": "PERNOD",
-          "faturamento": 101852.1,
-          "pct": 46.4
-        },
-        {
-          "fantasia": "BROWN",
-          "faturamento": 90451.52,
-          "pct": 41.2
-        },
-        {
-          "fantasia": "CRS BRANDS",
-          "faturamento": 13185.6,
-          "pct": 6.0
-        },
-        {
-          "fantasia": "DIAGEO",
-          "faturamento": 7322.2,
-          "pct": 3.3
-        },
-        {
-          "fantasia": "BALLENA",
-          "faturamento": 2880.62,
-          "pct": 1.3
-        },
-        {
-          "fantasia": "CAMPARI",
-          "faturamento": 2626.8,
-          "pct": 1.2
-        },
-        {
-          "fantasia": "MOET HENNESY",
-          "faturamento": 874.8,
-          "pct": 0.4
-        },
-        {
-          "fantasia": "FANTE",
-          "faturamento": 246.6,
-          "pct": 0.1
-        }
-      ],
-      "top_clientes": [
-        {
-          "codcli": "49543",
-          "nome": "MERCADO FONTE NOVA BELA VISTA LTDA",
-          "faturamento": 44513.8
-        },
-        {
-          "codcli": "34252",
-          "nome": "SABIO BOEMIO",
-          "faturamento": 42299.2
-        },
-        {
-          "codcli": "50568",
-          "nome": "MERCADO FONTE NOVA BELA VISTA LTDA",
-          "faturamento": 38012.16
-        },
-        {
-          "codcli": "50548",
-          "nome": "FONTE NOVA MAIA",
-          "faturamento": 35636.4
-        },
-        {
-          "codcli": "49542",
-          "nome": "BAR & ADEGA SOUZA",
-          "faturamento": 13319.66
-        },
-        {
-          "codcli": "50523",
-          "nome": "JAGA BEBIDAS",
-          "faturamento": 12227.2
-        },
-        {
-          "codcli": "50087",
-          "nome": "MARCIO",
-          "faturamento": 9625.2
-        },
-        {
-          "codcli": "49953",
-          "nome": "ADEGA ZERO GRAU LTDA - ME",
-          "faturamento": 7700.24
-        },
-        {
-          "codcli": "46946",
-          "nome": "ADEGA E TABACARIA ACAPULCO HOOKAH",
-          "faturamento": 7180.08
-        },
-        {
-          "codcli": "50439",
-          "nome": "ADEGA DO PAULINHO",
-          "faturamento": 3301.9
-        },
-        {
-          "codcli": "49952",
-          "nome": "REAL VITAL",
-          "faturamento": 2932.2
-        },
-        {
-          "codcli": "50972",
-          "nome": "HOSMILTON SOARES DA SILVA ADEGA",
-          "faturamento": 1554.0
-        },
-        {
-          "codcli": "48506",
-          "nome": "ADEGA DO BIRA",
-          "faturamento": 658.8
-        },
-        {
-          "codcli": "51436",
-          "nome": "JOSE EDVALDO FERNANDES FREITAS",
-          "faturamento": 479.4
-        }
-      ]
-    },
-    {
       "rca": 336,
       "estado": "ES",
       "chave": "ES-336",
@@ -8312,20 +8580,20 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
       "time": "OUTROS",
       "time_label": "Outros / sem time definido",
       "total_clientes_ativos": 186,
-      "faturamento_ytd": 214809.09,
-      "media_mensal": 35801.51,
+      "faturamento_ytd": 214954.89,
+      "media_mensal": 35825.81,
       "por_mes": {
         "2026-01": 41815.51,
         "2026-02": 34258.01,
         "2026-03": 73296.07,
         "2026-04": 45028.71,
         "2026-05": 20294.14,
-        "2026-07": 116.64
+        "2026-07": 262.44
       },
       "top_industrias": [
         {
           "fantasia": "RED BULL",
-          "faturamento": 77914.09,
+          "faturamento": 78059.89,
           "pct": 36.3
         },
         {
@@ -8443,7 +8711,7 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
         {
           "codcli": "71252",
           "nome": "STATUS ELEGANCE HOTEL",
-          "faturamento": 3907.2
+          "faturamento": 3936.36
         },
         {
           "codcli": "80277",
@@ -8649,187 +8917,15 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
       ]
     },
     {
-      "rca": 471,
-      "estado": "RJ",
-      "chave": "RJ-471",
-      "nome": "Ana Clara Fassano",
-      "time": "ATACAREJO",
-      "time_label": "Atacarejo (Pequeno e médio varejo)",
-      "total_clientes_ativos": 75,
-      "faturamento_ytd": 209025.67,
-      "media_mensal": 41805.13,
-      "por_mes": {
-        "2026-03": 51636.1,
-        "2026-04": 39504.83,
-        "2026-05": 45291.1,
-        "2026-06": 43411.39,
-        "2026-07": 29182.24
-      },
-      "top_industrias": [
-        {
-          "fantasia": "RECKITT",
-          "faturamento": 23420.66,
-          "pct": 11.2
-        },
-        {
-          "fantasia": "AGUA NA CAIXA",
-          "faturamento": 21945.28,
-          "pct": 10.5
-        },
-        {
-          "fantasia": "PERNOD",
-          "faturamento": 20197.32,
-          "pct": 9.7
-        },
-        {
-          "fantasia": "CASA PERINI",
-          "faturamento": 19894.5,
-          "pct": 9.5
-        },
-        {
-          "fantasia": "TATUZINHO",
-          "faturamento": 13628.34,
-          "pct": 6.5
-        },
-        {
-          "fantasia": "AURORA",
-          "faturamento": 12801.68,
-          "pct": 6.1
-        },
-        {
-          "fantasia": "CASTAS",
-          "faturamento": 11028.0,
-          "pct": 5.3
-        },
-        {
-          "fantasia": "KAISER",
-          "faturamento": 9763.2,
-          "pct": 4.7
-        },
-        {
-          "fantasia": "DIAGEO",
-          "faturamento": 9325.8,
-          "pct": 4.5
-        },
-        {
-          "fantasia": "HENNESSY",
-          "faturamento": 7565.8,
-          "pct": 3.6
-        },
-        {
-          "fantasia": "BACARDI",
-          "faturamento": 6994.28,
-          "pct": 3.3
-        },
-        {
-          "fantasia": "INTERFOOD",
-          "faturamento": 6496.78,
-          "pct": 3.1
-        },
-        {
-          "fantasia": "FANTE",
-          "faturamento": 6415.08,
-          "pct": 3.1
-        },
-        {
-          "fantasia": "RED BULL",
-          "faturamento": 6312.5,
-          "pct": 3.0
-        },
-        {
-          "fantasia": "ROBINSON CRUSOE",
-          "faturamento": 6106.6,
-          "pct": 2.9
-        }
-      ],
-      "top_clientes": [
-        {
-          "codcli": "2610",
-          "nome": "MERCADO ULTRA - CATETE",
-          "faturamento": 14350.44
-        },
-        {
-          "codcli": "93736",
-          "nome": "MERCADINHO PERNAMBUCO",
-          "faturamento": 10637.14
-        },
-        {
-          "codcli": "93899",
-          "nome": "QUALIPLUS",
-          "faturamento": 10440.0
-        },
-        {
-          "codcli": "6325",
-          "nome": "ULTRA FLAMENGO",
-          "faturamento": 9927.48
-        },
-        {
-          "codcli": "95109",
-          "nome": "VIA 021",
-          "faturamento": 9738.16
-        },
-        {
-          "codcli": "3816",
-          "nome": "FARINHA PURA",
-          "faturamento": 9528.12
-        },
-        {
-          "codcli": "3717",
-          "nome": "MULTIFRUTI",
-          "faturamento": 8632.6
-        },
-        {
-          "codcli": "78872",
-          "nome": "BAR E RESTAURANTE SOCIAL TRAPIA",
-          "faturamento": 8612.4
-        },
-        {
-          "codcli": "2710",
-          "nome": "VERDANO",
-          "faturamento": 6759.22
-        },
-        {
-          "codcli": "5371",
-          "nome": "LEDEPANNEUR SHOPPING LEBLON",
-          "faturamento": 6669.5
-        },
-        {
-          "codcli": "93759",
-          "nome": "FABIO RODRIGUES DE ANDRADE",
-          "faturamento": 5716.7
-        },
-        {
-          "codcli": "6281",
-          "nome": "ULTRA COPACABANA",
-          "faturamento": 5097.36
-        },
-        {
-          "codcli": "8984",
-          "nome": "ULTRA GAVEA",
-          "faturamento": 4998.84
-        },
-        {
-          "codcli": "95112",
-          "nome": "RIO DELLI COMERCIO DE ALIMENTOS",
-          "faturamento": 4874.66
-        },
-        {
-          "codcli": "8497",
-          "nome": "D' PLANETA BEBIDAS E COMEST¿VEIS",
-          "faturamento": 4672.58
-        }
-      ]
-    },
-    {
       "rca": 241,
       "estado": "RJ",
       "chave": "RJ-241",
       "nome": "ZEINALDO DE OLIVEIRA",
       "time": "OUTROS",
       "time_label": "Outros / sem time definido",
-      "total_clientes_ativos": 47,
-      "faturamento_ytd": 183142.6,
-      "media_mensal": 26163.23,
+      "total_clientes_ativos": 48,
+      "faturamento_ytd": 198982.6,
+      "media_mensal": 28426.09,
       "por_mes": {
         "2026-01": 51615.94,
         "2026-02": 39470.32,
@@ -8837,73 +8933,73 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
         "2026-04": 16316.8,
         "2026-05": 12828.86,
         "2026-06": 28929.18,
-        "2026-07": 13404.9
+        "2026-07": 29244.9
       },
       "top_industrias": [
         {
           "fantasia": "RED BULL",
-          "faturamento": 103997.3,
-          "pct": 56.8
+          "faturamento": 114782.9,
+          "pct": 57.7
         },
         {
           "fantasia": "PERNOD",
-          "faturamento": 23431.14,
-          "pct": 12.8
+          "faturamento": 24124.74,
+          "pct": 12.1
         },
         {
           "fantasia": "DIAGEO",
           "faturamento": 13885.68,
-          "pct": 7.6
+          "pct": 7.0
         },
         {
           "fantasia": "BROWN",
           "faturamento": 10590.5,
-          "pct": 5.8
+          "pct": 5.3
+        },
+        {
+          "fantasia": "COMARY",
+          "faturamento": 6609.93,
+          "pct": 3.3
         },
         {
           "fantasia": "FANTE",
           "faturamento": 5792.94,
-          "pct": 3.2
+          "pct": 2.9
         },
         {
           "fantasia": "VITON",
           "faturamento": 4219.2,
-          "pct": 2.3
+          "pct": 2.1
         },
         {
           "fantasia": "CASA PERINI",
           "faturamento": 3800.7,
-          "pct": 2.1
+          "pct": 1.9
         },
         {
           "fantasia": "SEM FANTASIA",
           "faturamento": 3362.4,
-          "pct": 1.8
+          "pct": 1.7
         },
         {
           "fantasia": "BACARDI",
           "faturamento": 2586.1,
-          "pct": 1.4
-        },
-        {
-          "fantasia": "COMARY",
-          "faturamento": 2249.13,
-          "pct": 1.2
+          "pct": 1.3
         },
         {
           "fantasia": "BOAZINHA",
           "faturamento": 1859.5,
-          "pct": 1.0
+          "pct": 0.9
         },
         {
           "fantasia": "CAMPARI",
           "faturamento": 1784.86,
-          "pct": 1.0
+          "pct": 0.9
         },
         {
           "fantasia": "AURORA",
           "faturamento": 1468.56,
-          "pct": 0.8
+          "pct": 0.7
         },
         {
           "fantasia": "BALLENA",
@@ -8920,7 +9016,17 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
         {
           "codcli": "86480",
           "nome": "RAYSSA OLIVEIRA DA SILVA",
-          "faturamento": 26795.53
+          "faturamento": 27155.05
+        },
+        {
+          "codcli": "90603",
+          "nome": "ARIONI DE JESUS DE SOUZA BARC",
+          "faturamento": 14246.72
+        },
+        {
+          "codcli": "92280",
+          "nome": "JF DISTRIBUIDORA",
+          "faturamento": 13881.6
         },
         {
           "codcli": "85484",
@@ -8933,19 +9039,9 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
           "faturamento": 10616.14
         },
         {
-          "codcli": "92280",
-          "nome": "JF DISTRIBUIDORA",
-          "faturamento": 10359.6
-        },
-        {
           "codcli": "92333",
           "nome": "CAVERNA DO BISCOITO & MERCADO",
           "faturamento": 10089.36
-        },
-        {
-          "codcli": "90603",
-          "nome": "ARIONI DE JESUS DE SOUZA BARC",
-          "faturamento": 9752.72
         },
         {
           "codcli": "57633",
@@ -8958,6 +9054,11 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
           "faturamento": 8688.0
         },
         {
+          "codcli": "93312",
+          "nome": "LUCIANA DA SILVA PROCOPIO DAS NEVES",
+          "faturamento": 7227.99
+        },
+        {
           "codcli": "90269",
           "nome": "SANDRA GONCALVES MUNIZ",
           "faturamento": 7151.04
@@ -8968,9 +9069,9 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
           "faturamento": 7118.0
         },
         {
-          "codcli": "93312",
-          "nome": "LUCIANA DA SILVA PROCOPIO DAS NEVES",
-          "faturamento": 6042.39
+          "codcli": "90206",
+          "nome": "PADARIA, MERCEARIA E DEPOSITO DE BEBIDAS",
+          "faturamento": 6378.12
         },
         {
           "codcli": "90319",
@@ -8978,19 +9079,183 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
           "faturamento": 5753.6
         },
         {
-          "codcli": "90206",
-          "nome": "PADARIA, MERCEARIA E DEPOSITO DE BEBIDAS",
-          "faturamento": 5299.56
-        },
-        {
           "codcli": "85148",
           "nome": "CLAUDIO LUIZ PEREIRA FARIA",
           "faturamento": 5071.17
         },
         {
-          "codcli": "87066",
-          "nome": "MARCELO DA SILVA AZEREDO",
-          "faturamento": 3504.96
+          "codcli": "86202",
+          "nome": "59.469.082 FERNANDO TAVARES FIUSA",
+          "faturamento": 3738.84
+        }
+      ]
+    },
+    {
+      "rca": 489,
+      "estado": "SP",
+      "chave": "SP-489",
+      "nome": "FERNANDO BERTIN",
+      "time": "OUTROS",
+      "time_label": "Outros / sem time definido",
+      "total_clientes_ativos": 17,
+      "faturamento_ytd": 170522.8,
+      "media_mensal": 85261.4,
+      "por_mes": {
+        "2026-06": 28703.02,
+        "2026-07": 141819.78
+      },
+      "top_industrias": [
+        {
+          "fantasia": "PERNOD",
+          "faturamento": 77168.0,
+          "pct": 45.3
+        },
+        {
+          "fantasia": "BROWN",
+          "faturamento": 46529.3,
+          "pct": 27.3
+        },
+        {
+          "fantasia": "MOET HENNESY",
+          "faturamento": 23550.56,
+          "pct": 13.8
+        },
+        {
+          "fantasia": "BEAM SUNTORY BRASIL",
+          "faturamento": 8107.64,
+          "pct": 4.8
+        },
+        {
+          "fantasia": "CRS BRANDS",
+          "faturamento": 6365.16,
+          "pct": 3.7
+        },
+        {
+          "fantasia": "AURORA",
+          "faturamento": 3749.28,
+          "pct": 2.2
+        },
+        {
+          "fantasia": "DIAGEO",
+          "faturamento": 2138.6,
+          "pct": 1.3
+        },
+        {
+          "fantasia": "INTERFOOD",
+          "faturamento": 1288.6,
+          "pct": 0.8
+        },
+        {
+          "fantasia": "LUCIA",
+          "faturamento": 449.3,
+          "pct": 0.3
+        },
+        {
+          "fantasia": "FANTE",
+          "faturamento": 396.7,
+          "pct": 0.2
+        },
+        {
+          "fantasia": "PERINI",
+          "faturamento": 233.4,
+          "pct": 0.1
+        },
+        {
+          "fantasia": "TOP BIRRA",
+          "faturamento": 224.7,
+          "pct": 0.1
+        },
+        {
+          "fantasia": "BALLENA",
+          "faturamento": 159.8,
+          "pct": 0.1
+        },
+        {
+          "fantasia": "BACARDI",
+          "faturamento": 99.9,
+          "pct": 0.1
+        },
+        {
+          "fantasia": "BANANINHA CARIOCA",
+          "faturamento": 61.86,
+          "pct": 0.0
+        }
+      ],
+      "top_clientes": [
+        {
+          "codcli": "51138",
+          "nome": "MARIA DENIR FONSECA DA SILVA",
+          "faturamento": 62028.0
+        },
+        {
+          "codcli": "51110",
+          "nome": "DISTRIBUIDORA CIDADE JARDIM",
+          "faturamento": 39260.21
+        },
+        {
+          "codcli": "38476",
+          "nome": "UTI DA CERVEJA",
+          "faturamento": 20250.32
+        },
+        {
+          "codcli": "51179",
+          "nome": "SOL NASCENTE DISTRIBUIDORA",
+          "faturamento": 9080.1
+        },
+        {
+          "codcli": "51660",
+          "nome": "SUPERMERCADO LIBARDI",
+          "faturamento": 6718.2
+        },
+        {
+          "codcli": "51170",
+          "nome": "62.384.846 PAULO ROBERTO FLORIANO",
+          "faturamento": 6543.8
+        },
+        {
+          "codcli": "52117",
+          "nome": "COMIDA LIQUIDA DISTRIBUIDORA",
+          "faturamento": 5945.6
+        },
+        {
+          "codcli": "51332",
+          "nome": "COOPERATIVA DE CONSUMO POPULAR DE CERQUILHO",
+          "faturamento": 4554.0
+        },
+        {
+          "codcli": "51178",
+          "nome": "J.F. DOS SANTOS",
+          "faturamento": 3516.96
+        },
+        {
+          "codcli": "51168",
+          "nome": "EMPORIO IMPERIAL",
+          "faturamento": 2613.9
+        },
+        {
+          "codcli": "51174",
+          "nome": "LANCHONETE BELA VISTA",
+          "faturamento": 2164.67
+        },
+        {
+          "codcli": "51169",
+          "nome": "ROGERIO DAS NEVES BOITUVA",
+          "faturamento": 2104.44
+        },
+        {
+          "codcli": "51177",
+          "nome": "EMPORIO RUSCONI",
+          "faturamento": 1998.0
+        },
+        {
+          "codcli": "51330",
+          "nome": "MINIMERCADO KI JOIA",
+          "faturamento": 1078.8
+        },
+        {
+          "codcli": "51329",
+          "nome": "MINIMERCADO KI JOIA",
+          "faturamento": 1078.8
         }
       ]
     },
@@ -9165,6 +9430,180 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
       ]
     },
     {
+      "rca": 439,
+      "estado": "RJ",
+      "chave": "RJ-439",
+      "nome": "Mateus Cardoso",
+      "time": "ATACAREJO",
+      "time_label": "Atacarejo (Pequeno e médio varejo)",
+      "total_clientes_ativos": 50,
+      "faturamento_ytd": 161939.27,
+      "media_mensal": 23134.18,
+      "por_mes": {
+        "2026-01": 47497.47,
+        "2026-02": 13391.83,
+        "2026-03": 17957.91,
+        "2026-04": 16002.25,
+        "2026-05": 10494.51,
+        "2026-06": 13253.08,
+        "2026-07": 43342.22
+      },
+      "top_industrias": [
+        {
+          "fantasia": "KAISER",
+          "faturamento": 35368.5,
+          "pct": 21.8
+        },
+        {
+          "fantasia": "ROBINSON CRUSOE",
+          "faturamento": 15536.32,
+          "pct": 9.6
+        },
+        {
+          "fantasia": "CASA PERINI",
+          "faturamento": 13463.4,
+          "pct": 8.3
+        },
+        {
+          "fantasia": "VITON",
+          "faturamento": 11299.16,
+          "pct": 7.0
+        },
+        {
+          "fantasia": "PERNOD",
+          "faturamento": 10963.06,
+          "pct": 6.8
+        },
+        {
+          "fantasia": "CASTAS",
+          "faturamento": 10821.4,
+          "pct": 6.7
+        },
+        {
+          "fantasia": "DIAGEO",
+          "faturamento": 10657.1,
+          "pct": 6.6
+        },
+        {
+          "fantasia": "RECKITT",
+          "faturamento": 9541.26,
+          "pct": 5.9
+        },
+        {
+          "fantasia": "COMARY",
+          "faturamento": 6860.07,
+          "pct": 4.2
+        },
+        {
+          "fantasia": "FANTE",
+          "faturamento": 6277.51,
+          "pct": 3.9
+        },
+        {
+          "fantasia": "TATUZINHO",
+          "faturamento": 5990.4,
+          "pct": 3.7
+        },
+        {
+          "fantasia": "HENNESSY",
+          "faturamento": 3537.9,
+          "pct": 2.2
+        },
+        {
+          "fantasia": "AURORA",
+          "faturamento": 2617.9,
+          "pct": 1.6
+        },
+        {
+          "fantasia": "HOB",
+          "faturamento": 2020.86,
+          "pct": 1.2
+        },
+        {
+          "fantasia": "BROWN",
+          "faturamento": 1999.72,
+          "pct": 1.2
+        }
+      ],
+      "top_clientes": [
+        {
+          "codcli": "75192",
+          "nome": "J. W. DISTRIBUIDORA - PANTANAL",
+          "faturamento": 16828.67
+        },
+        {
+          "codcli": "93110",
+          "nome": "PORTO MIX",
+          "faturamento": 14409.54
+        },
+        {
+          "codcli": "13729",
+          "nome": "PRECO OTIMO SUPERMERCADO",
+          "faturamento": 12437.86
+        },
+        {
+          "codcli": "93127",
+          "nome": "M VINICIUS BAR - CENTRO (ANGRA)",
+          "faturamento": 12057.5
+        },
+        {
+          "codcli": "75240",
+          "nome": "MERCADO E ATACADO MORAIS",
+          "faturamento": 8419.16
+        },
+        {
+          "codcli": "82069",
+          "nome": "POUP MARKET",
+          "faturamento": 7272.34
+        },
+        {
+          "codcli": "75420",
+          "nome": "MERCADO OSB",
+          "faturamento": 6714.07
+        },
+        {
+          "codcli": "61399",
+          "nome": "COMERCIAL ITINGA DE ALIMENTOS LTDA",
+          "faturamento": 6027.78
+        },
+        {
+          "codcli": "74975",
+          "nome": "CENTRO COMERCIAL DO CHICAO",
+          "faturamento": 5858.51
+        },
+        {
+          "codcli": "69649",
+          "nome": "MERCADO ENSEADA DO SOL LTDA",
+          "faturamento": 4974.8
+        },
+        {
+          "codcli": "93868",
+          "nome": "AVALON MERCEARIA DA TERRA",
+          "faturamento": 4620.0
+        },
+        {
+          "codcli": "69045",
+          "nome": "MERCADO S.A GARATUCAIA - GARATUCAIA",
+          "faturamento": 4484.35
+        },
+        {
+          "codcli": "74928",
+          "nome": "BIG RUSSO",
+          "faturamento": 4260.66
+        },
+        {
+          "codcli": "93873",
+          "nome": "GRAN ARMAZEM",
+          "faturamento": 4097.76
+        },
+        {
+          "codcli": "74979",
+          "nome": "CLEVERSON CARLOS SANTOS LIMA",
+          "faturamento": 4015.38
+        }
+      ]
+    },
+    {
       "rca": 310,
       "estado": "SP",
       "chave": "SP-310",
@@ -9222,11 +9661,6 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
           "pct": 30.3
         },
         {
-          "fantasia": "SEM FANTASIA",
-          "faturamento": 20950.74,
-          "pct": 14.9
-        },
-        {
           "fantasia": "PERNOD",
           "faturamento": 18287.58,
           "pct": 13.0
@@ -9237,9 +9671,19 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
           "pct": 12.0
         },
         {
+          "fantasia": "SEM FANTASIA",
+          "faturamento": 11242.94,
+          "pct": 8.0
+        },
+        {
           "fantasia": "HEINEKEN",
           "faturamento": 10472.52,
           "pct": 7.4
+        },
+        {
+          "fantasia": "LVMH",
+          "faturamento": 9707.8,
+          "pct": 6.9
         },
         {
           "fantasia": "CASTAS",
@@ -9285,11 +9729,6 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
           "fantasia": "MONIN",
           "faturamento": 439.0,
           "pct": 0.3
-        },
-        {
-          "fantasia": "TATUZINHO",
-          "faturamento": 295.9,
-          "pct": 0.2
         }
       ],
       "top_clientes": [
@@ -9371,340 +9810,319 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
       ]
     },
     {
-      "rca": 439,
-      "estado": "RJ",
-      "chave": "RJ-439",
-      "nome": "Mateus Cardoso",
-      "time": "ATACAREJO",
-      "time_label": "Atacarejo (Pequeno e médio varejo)",
-      "total_clientes_ativos": 45,
-      "faturamento_ytd": 136386.41,
-      "media_mensal": 19483.77,
+      "rca": 512,
+      "estado": "SP",
+      "chave": "SP-512",
+      "nome": "WILLIAM GONCALVES",
+      "time": "OUTROS",
+      "time_label": "Outros / sem time definido",
+      "total_clientes_ativos": 27,
+      "faturamento_ytd": 138644.23,
+      "media_mensal": 138644.23,
       "por_mes": {
-        "2026-01": 47497.47,
-        "2026-02": 13391.83,
-        "2026-03": 17957.91,
-        "2026-04": 16002.25,
-        "2026-05": 10494.51,
-        "2026-06": 14567.44,
-        "2026-07": 16475.0
+        "2026-07": 138644.23
       },
       "top_industrias": [
         {
-          "fantasia": "KAISER",
-          "faturamento": 35368.5,
-          "pct": 25.9
-        },
-        {
-          "fantasia": "CASA PERINI",
-          "faturamento": 13242.0,
-          "pct": 9.7
-        },
-        {
-          "fantasia": "VITON",
-          "faturamento": 10702.65,
-          "pct": 7.8
-        },
-        {
           "fantasia": "PERNOD",
-          "faturamento": 10587.36,
-          "pct": 7.8
-        },
-        {
-          "fantasia": "RECKITT",
-          "faturamento": 9541.26,
-          "pct": 7.0
-        },
-        {
-          "fantasia": "DIAGEO",
-          "faturamento": 8626.6,
-          "pct": 6.3
-        },
-        {
-          "fantasia": "CASTAS",
-          "faturamento": 8340.9,
-          "pct": 6.1
-        },
-        {
-          "fantasia": "COMARY",
-          "faturamento": 6830.37,
-          "pct": 5.0
-        },
-        {
-          "fantasia": "FANTE",
-          "faturamento": 5717.81,
-          "pct": 4.2
-        },
-        {
-          "fantasia": "TATUZINHO",
-          "faturamento": 5191.5,
-          "pct": 3.8
-        },
-        {
-          "fantasia": "HENNESSY",
-          "faturamento": 3094.5,
-          "pct": 2.3
-        },
-        {
-          "fantasia": "AURORA",
-          "faturamento": 2617.9,
-          "pct": 1.9
-        },
-        {
-          "fantasia": "ROBINSON CRUSOE",
-          "faturamento": 2136.42,
-          "pct": 1.6
+          "faturamento": 115057.15,
+          "pct": 83.0
         },
         {
           "fantasia": "BROWN",
-          "faturamento": 1999.72,
-          "pct": 1.5
+          "faturamento": 6474.0,
+          "pct": 4.7
         },
         {
-          "fantasia": "TIAL",
-          "faturamento": 1926.79,
-          "pct": 1.4
+          "fantasia": "CRS BRANDS",
+          "faturamento": 6317.4,
+          "pct": 4.6
+        },
+        {
+          "fantasia": "FANTE",
+          "faturamento": 3373.2,
+          "pct": 2.4
+        },
+        {
+          "fantasia": "BACARDI",
+          "faturamento": 2857.5,
+          "pct": 2.1
+        },
+        {
+          "fantasia": "BEAM SUNTORY BRASIL",
+          "faturamento": 1635.4,
+          "pct": 1.2
+        },
+        {
+          "fantasia": "TOP BIRRA",
+          "faturamento": 838.88,
+          "pct": 0.6
+        },
+        {
+          "fantasia": "AURORA",
+          "faturamento": 676.5,
+          "pct": 0.5
+        },
+        {
+          "fantasia": "DIAGEO",
+          "faturamento": 540.0,
+          "pct": 0.4
+        },
+        {
+          "fantasia": "BALLENA",
+          "faturamento": 479.4,
+          "pct": 0.3
+        },
+        {
+          "fantasia": "STOCK",
+          "faturamento": 394.8,
+          "pct": 0.3
         }
       ],
       "top_clientes": [
         {
-          "codcli": "75192",
-          "nome": "J. W. DISTRIBUIDORA - PANTANAL",
-          "faturamento": 16828.67
+          "codcli": "51790",
+          "nome": "ADEGA MEIRELES",
+          "faturamento": 37762.44
         },
         {
-          "codcli": "93110",
-          "nome": "PORTO MIX",
-          "faturamento": 14409.54
+          "codcli": "36749",
+          "nome": "COMERCIO DE BEBIDAS CHORAO",
+          "faturamento": 37476.6
         },
         {
-          "codcli": "93127",
-          "nome": "M VINICIUS BAR - CENTRO (ANGRA)",
-          "faturamento": 12057.5
+          "codcli": "26588",
+          "nome": "ADEGA BARONESA",
+          "faturamento": 10389.9
         },
         {
-          "codcli": "75240",
-          "nome": "MERCADO E ATACADO MORAIS",
-          "faturamento": 9733.52
+          "codcli": "48204",
+          "nome": "ADEGA & TABACARIA MESQUITA",
+          "faturamento": 10357.88
         },
         {
-          "codcli": "82069",
-          "nome": "POUP MARKET",
-          "faturamento": 7272.34
+          "codcli": "26151",
+          "nome": "ADEGA SACOMA",
+          "faturamento": 6456.0
         },
         {
-          "codcli": "75420",
-          "nome": "MERCADO OSB",
-          "faturamento": 6714.07
+          "codcli": "51803",
+          "nome": "DISTRIBUIDORA DE BEBIDAS NOVA ONDA",
+          "faturamento": 3501.0
         },
         {
-          "codcli": "74975",
-          "nome": "CENTRO COMERCIAL DO CHICAO",
-          "faturamento": 4984.21
+          "codcli": "51808",
+          "nome": "2 COELHOS COMERCIAL",
+          "faturamento": 3141.0
         },
         {
-          "codcli": "69649",
-          "nome": "MERCADO ENSEADA DO SOL LTDA",
-          "faturamento": 4915.0
+          "codcli": "51802",
+          "nome": "MERCADO REAL",
+          "faturamento": 2943.36
         },
         {
-          "codcli": "69045",
-          "nome": "MERCADO S.A GARATUCAIA - GARATUCAIA",
-          "faturamento": 4484.35
+          "codcli": "41590",
+          "nome": "BISTRO EBA COMERCIO DE BEBIDAS",
+          "faturamento": 2927.28
         },
         {
-          "codcli": "13729",
-          "nome": "PRECO OTIMO SUPERMERCADO",
-          "faturamento": 4102.56
+          "codcli": "51801",
+          "nome": "JD REPRESENTACAO COMERCIAL",
+          "faturamento": 2757.6
         },
         {
-          "codcli": "74979",
-          "nome": "CLEVERSON CARLOS SANTOS LIMA",
-          "faturamento": 4015.38
+          "codcli": "30300",
+          "nome": "DL10 BEBIDAS",
+          "faturamento": 2670.84
         },
         {
-          "codcli": "74928",
-          "nome": "BIG RUSSO",
-          "faturamento": 3664.14
+          "codcli": "51809",
+          "nome": "JV ANJOS ALEXANDRINO DE LIMA",
+          "faturamento": 2397.6
         },
         {
-          "codcli": "79194",
-          "nome": "MINIMERCADO MARTINS",
-          "faturamento": 3353.24
+          "codcli": "51841",
+          "nome": "OS BRABOS COMERCIO DE BEBIDAS",
+          "faturamento": 2397.6
         },
         {
-          "codcli": "69463",
-          "nome": "J. A. M. DA SILVA - MAMBUCABINHA",
-          "faturamento": 3252.4
+          "codcli": "43060",
+          "nome": "DJ DISTRIBUIDORA DE BEBIDAS",
+          "faturamento": 2008.8
         },
         {
-          "codcli": "75217",
-          "nome": "MERCADINHO ESTRELA",
-          "faturamento": 2963.3
+          "codcli": "51842",
+          "nome": "DISTRIBUIDORA DE BEBIDAS FM",
+          "faturamento": 1869.0
         }
       ]
     },
     {
-      "rca": 489,
+      "rca": 486,
       "estado": "SP",
-      "chave": "SP-489",
-      "nome": "FERNANDO BERTIN",
+      "chave": "SP-486",
+      "nome": "LEONARDO FLOREZI",
       "time": "OUTROS",
       "time_label": "Outros / sem time definido",
-      "total_clientes_ativos": 15,
-      "faturamento_ytd": 134527.9,
-      "media_mensal": 67263.95,
+      "total_clientes_ativos": 44,
+      "faturamento_ytd": 132781.15,
+      "media_mensal": 66390.57,
       "por_mes": {
-        "2026-06": 28703.02,
-        "2026-07": 105824.88
+        "2026-06": 24390.36,
+        "2026-07": 108390.78
       },
       "top_industrias": [
         {
           "fantasia": "PERNOD",
-          "faturamento": 69496.7,
-          "pct": 51.7
+          "faturamento": 50386.62,
+          "pct": 37.9
         },
         {
           "fantasia": "BROWN",
-          "faturamento": 24313.6,
-          "pct": 18.1
-        },
-        {
-          "fantasia": "MOET HENNESY",
-          "faturamento": 19695.66,
-          "pct": 14.6
-        },
-        {
-          "fantasia": "BEAM SUNTORY BRASIL",
-          "faturamento": 7352.84,
-          "pct": 5.5
+          "faturamento": 26626.4,
+          "pct": 20.1
         },
         {
           "fantasia": "CRS BRANDS",
-          "faturamento": 6365.16,
-          "pct": 4.7
-        },
-        {
-          "fantasia": "AURORA",
-          "faturamento": 3398.58,
-          "pct": 2.5
+          "faturamento": 14056.25,
+          "pct": 10.6
         },
         {
           "fantasia": "DIAGEO",
-          "faturamento": 2138.6,
-          "pct": 1.6
-        },
-        {
-          "fantasia": "INTERFOOD",
-          "faturamento": 749.2,
-          "pct": 0.6
-        },
-        {
-          "fantasia": "FANTE",
-          "faturamento": 396.7,
-          "pct": 0.3
-        },
-        {
-          "fantasia": "PERINI",
-          "faturamento": 233.4,
-          "pct": 0.2
-        },
-        {
-          "fantasia": "BALLENA",
-          "faturamento": 159.8,
-          "pct": 0.1
+          "faturamento": 8798.72,
+          "pct": 6.6
         },
         {
           "fantasia": "BACARDI",
-          "faturamento": 99.9,
-          "pct": 0.1
+          "faturamento": 7876.19,
+          "pct": 5.9
         },
         {
-          "fantasia": "LUCIA",
-          "faturamento": 65.9,
-          "pct": 0.0
+          "fantasia": "AURORA",
+          "faturamento": 6806.64,
+          "pct": 5.1
         },
         {
-          "fantasia": "BANANINHA CARIOCA",
-          "faturamento": 61.86,
-          "pct": 0.0
+          "fantasia": "FANTE",
+          "faturamento": 4024.78,
+          "pct": 3.0
+        },
+        {
+          "fantasia": "CASTAS",
+          "faturamento": 3770.02,
+          "pct": 2.8
+        },
+        {
+          "fantasia": "BALLENA",
+          "faturamento": 2796.5,
+          "pct": 2.1
+        },
+        {
+          "fantasia": "CAMPARI",
+          "faturamento": 2784.2,
+          "pct": 2.1
+        },
+        {
+          "fantasia": "BEAM SUNTORY BRASIL",
+          "faturamento": 1432.53,
+          "pct": 1.1
+        },
+        {
+          "fantasia": "MOET HENNESY",
+          "faturamento": 1006.9,
+          "pct": 0.8
+        },
+        {
+          "fantasia": "TATUZINHO",
+          "faturamento": 928.8,
+          "pct": 0.7
+        },
+        {
+          "fantasia": "SEM FANTASIA",
+          "faturamento": 585.58,
+          "pct": 0.4
+        },
+        {
+          "fantasia": "STOCK",
+          "faturamento": 401.22,
+          "pct": 0.3
         }
       ],
       "top_clientes": [
         {
-          "codcli": "51138",
-          "nome": "MARIA DENIR FONSECA DA SILVA",
-          "faturamento": 44864.4
+          "codcli": "51538",
+          "nome": "COMERCIAL MIGOTTO",
+          "faturamento": 30727.7
         },
         {
-          "codcli": "51110",
-          "nome": "DISTRIBUIDORA CIDADE JARDIM",
-          "faturamento": 37022.21
+          "codcli": "51572",
+          "nome": "ADEGA 68",
+          "faturamento": 11013.45
         },
         {
-          "codcli": "38476",
-          "nome": "UTI DA CERVEJA",
-          "faturamento": 18428.72
+          "codcli": "51927",
+          "nome": "SUPER SETE SUPERMERCADO",
+          "faturamento": 10428.0
         },
         {
-          "codcli": "51179",
-          "nome": "SOL NASCENTE DISTRIBUIDORA",
-          "faturamento": 9080.1
+          "codcli": "32521",
+          "nome": "ADEGA DO GORDAO",
+          "faturamento": 7923.84
         },
         {
-          "codcli": "51660",
-          "nome": "SUPERMERCADO LIBARDI",
-          "faturamento": 6718.2
+          "codcli": "51461",
+          "nome": "ADEGA MALIBU",
+          "faturamento": 5300.06
         },
         {
-          "codcli": "51170",
-          "nome": "62.384.846 PAULO ROBERTO FLORIANO",
-          "faturamento": 4991.3
+          "codcli": "51115",
+          "nome": "STOCK SUPERMERCADO",
+          "faturamento": 4926.08
         },
         {
-          "codcli": "51178",
-          "nome": "J.F. DOS SANTOS",
-          "faturamento": 2727.36
+          "codcli": "49381",
+          "nome": "ESTACAO DA CERVEJA",
+          "faturamento": 3707.2
         },
         {
-          "codcli": "51169",
-          "nome": "ROGERIO DAS NEVES BOITUVA",
-          "faturamento": 2104.44
+          "codcli": "50893",
+          "nome": "CACAU PARK",
+          "faturamento": 3541.71
         },
         {
-          "codcli": "51177",
-          "nome": "EMPORIO RUSCONI",
-          "faturamento": 1998.0
+          "codcli": "37935",
+          "nome": "BEER POINT PLN",
+          "faturamento": 3384.64
         },
         {
-          "codcli": "51174",
-          "nome": "LANCHONETE BELA VISTA",
-          "faturamento": 1964.77
+          "codcli": "51510",
+          "nome": "ADEGA IMPERIO DESTILADOS",
+          "faturamento": 3288.96
         },
         {
-          "codcli": "51329",
-          "nome": "MINIMERCADO KI JOIA",
-          "faturamento": 1078.8
+          "codcli": "50933",
+          "nome": "GESIO FUJII CARDOSO COMERCIO DE BEBIDAS",
+          "faturamento": 3116.9
         },
         {
-          "codcli": "51330",
-          "nome": "MINIMERCADO KI JOIA",
-          "faturamento": 1078.8
+          "codcli": "51214",
+          "nome": "SUPERMERCADO KAMEL II",
+          "faturamento": 3069.21
         },
         {
-          "codcli": "51836",
-          "nome": "SUPERMERCADO SAO JOSE",
-          "faturamento": 1035.0
+          "codcli": "51028",
+          "nome": "SUPERMERCADO SANI",
+          "faturamento": 2832.85
         },
         {
-          "codcli": "51168",
-          "nome": "EMPORIO IMPERIAL",
-          "faturamento": 883.8
+          "codcli": "50820",
+          "nome": "34.210.777 WALLACE AMAURI ARAUJO DAS VIRGENS",
+          "faturamento": 2593.76
         },
         {
-          "codcli": "51444",
-          "nome": "MARIA DENIR FONSECA DA SILVA",
-          "faturamento": 552.0
+          "codcli": "50864",
+          "nome": "SUPERMERCADO IRMÃOS TEIXEIRA",
+          "faturamento": 2583.64
         }
       ]
     },
@@ -9809,6 +10227,125 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
           "codcli": "40068",
           "nome": "T & T RODRIGUES EMPORIOS",
           "faturamento": 54979.17
+        }
+      ]
+    },
+    {
+      "rca": 508,
+      "estado": "ES",
+      "chave": "ES-508",
+      "nome": "MARCELO DE SOUZA",
+      "time": "OUTROS",
+      "time_label": "Outros / sem time definido",
+      "total_clientes_ativos": 11,
+      "faturamento_ytd": 125414.28,
+      "media_mensal": 62707.14,
+      "por_mes": {
+        "2026-06": 1224.0,
+        "2026-07": 124190.28
+      },
+      "top_industrias": [
+        {
+          "fantasia": "RED BULL",
+          "faturamento": 77656.32,
+          "pct": 61.9
+        },
+        {
+          "fantasia": "PERNOD",
+          "faturamento": 14553.36,
+          "pct": 11.6
+        },
+        {
+          "fantasia": "TATUZINHO",
+          "faturamento": 11570.28,
+          "pct": 9.2
+        },
+        {
+          "fantasia": "PINATI",
+          "faturamento": 9628.8,
+          "pct": 7.7
+        },
+        {
+          "fantasia": "CASTAS",
+          "faturamento": 6133.08,
+          "pct": 4.9
+        },
+        {
+          "fantasia": "HENNESSY",
+          "faturamento": 1814.22,
+          "pct": 1.4
+        },
+        {
+          "fantasia": "FABBRI",
+          "faturamento": 1628.22,
+          "pct": 1.3
+        },
+        {
+          "fantasia": "BEAM SUNTORY",
+          "faturamento": 1506.96,
+          "pct": 1.2
+        },
+        {
+          "fantasia": "DIALCOOL",
+          "faturamento": 923.04,
+          "pct": 0.7
+        }
+      ],
+      "top_clientes": [
+        {
+          "codcli": "92448",
+          "nome": "SANTOS IMPORTACAO E INTERMEDIACAO DE NEG",
+          "faturamento": 77656.32
+        },
+        {
+          "codcli": "20941",
+          "nome": "SUPERMERCADOS  PERIM",
+          "faturamento": 11646.35
+        },
+        {
+          "codcli": "20942",
+          "nome": "SUPERMERCADOS  PERIM",
+          "faturamento": 8228.18
+        },
+        {
+          "codcli": "20938",
+          "nome": "SUPERMERCADOS PERIM",
+          "faturamento": 6336.83
+        },
+        {
+          "codcli": "20944",
+          "nome": "SUPERMERCADOS PERIM",
+          "faturamento": 5470.44
+        },
+        {
+          "codcli": "20947",
+          "nome": "SUPERMERCADOS CALVI",
+          "faturamento": 4072.56
+        },
+        {
+          "codcli": "78311",
+          "nome": "SUPERMERCADOS  PERIM",
+          "faturamento": 3366.04
+        },
+        {
+          "codcli": "20943",
+          "nome": "SUPERMERCADOS  PERIM",
+          "faturamento": 2643.4
+        },
+        {
+          "codcli": "20939",
+          "nome": "SUPERMERCADOS  PERIM",
+          "faturamento": 2426.68
+        },
+        {
+          "codcli": "20950",
+          "nome": "SUPERMERCADOS CALVI",
+          "faturamento": 1933.08
+        },
+        {
+          "codcli": "84121",
+          "nome": "SUPERMERCADOS CALVI",
+          "faturamento": 1634.4
         }
       ]
     },
@@ -9984,416 +10521,80 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
       ]
     },
     {
-      "rca": 508,
-      "estado": "ES",
-      "chave": "ES-508",
-      "nome": "MARCELO DE SOUZA",
-      "time": "OUTROS",
-      "time_label": "Outros / sem time definido",
-      "total_clientes_ativos": 8,
-      "faturamento_ytd": 113663.88,
-      "media_mensal": 56831.94,
-      "por_mes": {
-        "2026-06": 1224.0,
-        "2026-07": 112439.88
-      },
-      "top_industrias": [
-        {
-          "fantasia": "RED BULL",
-          "faturamento": 77656.32,
-          "pct": 68.3
-        },
-        {
-          "fantasia": "PERNOD",
-          "faturamento": 14553.36,
-          "pct": 12.8
-        },
-        {
-          "fantasia": "PINATI",
-          "faturamento": 11832.0,
-          "pct": 10.4
-        },
-        {
-          "fantasia": "TATUZINHO",
-          "faturamento": 6143.52,
-          "pct": 5.4
-        },
-        {
-          "fantasia": "HENNESSY",
-          "faturamento": 1814.22,
-          "pct": 1.6
-        },
-        {
-          "fantasia": "DIALCOOL",
-          "faturamento": 923.04,
-          "pct": 0.8
-        },
-        {
-          "fantasia": "FABBRI",
-          "faturamento": 741.42,
-          "pct": 0.7
-        }
-      ],
-      "top_clientes": [
-        {
-          "codcli": "92448",
-          "nome": "SANTOS IMPORTACAO E INTERMEDIACAO DE NEG",
-          "faturamento": 77656.32
-        },
-        {
-          "codcli": "20941",
-          "nome": "SUPERMERCADOS  PERIM",
-          "faturamento": 10752.88
-        },
-        {
-          "codcli": "20942",
-          "nome": "SUPERMERCADOS  PERIM",
-          "faturamento": 7525.08
-        },
-        {
-          "codcli": "20944",
-          "nome": "SUPERMERCADOS PERIM",
-          "faturamento": 5819.94
-        },
-        {
-          "codcli": "20938",
-          "nome": "SUPERMERCADOS PERIM",
-          "faturamento": 4420.06
-        },
-        {
-          "codcli": "78311",
-          "nome": "SUPERMERCADOS  PERIM",
-          "faturamento": 2892.78
-        },
-        {
-          "codcli": "20939",
-          "nome": "SUPERMERCADOS  PERIM",
-          "faturamento": 2426.68
-        },
-        {
-          "codcli": "20943",
-          "nome": "SUPERMERCADOS  PERIM",
-          "faturamento": 2170.14
-        }
-      ]
-    },
-    {
-      "rca": 486,
-      "estado": "SP",
-      "chave": "SP-486",
-      "nome": "LEONARDO FLOREZI",
-      "time": "OUTROS",
-      "time_label": "Outros / sem time definido",
-      "total_clientes_ativos": 36,
-      "faturamento_ytd": 100330.68,
-      "media_mensal": 50165.34,
-      "por_mes": {
-        "2026-06": 25769.16,
-        "2026-07": 74561.52
-      },
-      "top_industrias": [
-        {
-          "fantasia": "PERNOD",
-          "faturamento": 40685.32,
-          "pct": 40.6
-        },
-        {
-          "fantasia": "BROWN",
-          "faturamento": 20785.0,
-          "pct": 20.7
-        },
-        {
-          "fantasia": "BACARDI",
-          "faturamento": 6612.74,
-          "pct": 6.6
-        },
-        {
-          "fantasia": "AURORA",
-          "faturamento": 6096.84,
-          "pct": 6.1
-        },
-        {
-          "fantasia": "DIAGEO",
-          "faturamento": 5386.36,
-          "pct": 5.4
-        },
-        {
-          "fantasia": "CASTAS",
-          "faturamento": 4775.71,
-          "pct": 4.8
-        },
-        {
-          "fantasia": "FANTE",
-          "faturamento": 3532.78,
-          "pct": 3.5
-        },
-        {
-          "fantasia": "CRS BRANDS",
-          "faturamento": 3007.91,
-          "pct": 3.0
-        },
-        {
-          "fantasia": "BALLENA",
-          "faturamento": 2796.5,
-          "pct": 2.8
-        },
-        {
-          "fantasia": "CAMPARI",
-          "faturamento": 2381.8,
-          "pct": 2.4
-        },
-        {
-          "fantasia": "BEAM SUNTORY BRASIL",
-          "faturamento": 1432.53,
-          "pct": 1.4
-        },
-        {
-          "fantasia": "TATUZINHO",
-          "faturamento": 928.8,
-          "pct": 0.9
-        },
-        {
-          "fantasia": "MOET HENNESY",
-          "faturamento": 673.2,
-          "pct": 0.7
-        },
-        {
-          "fantasia": "SEM FANTASIA",
-          "faturamento": 585.58,
-          "pct": 0.6
-        },
-        {
-          "fantasia": "STOCK",
-          "faturamento": 401.22,
-          "pct": 0.4
-        }
-      ],
-      "top_clientes": [
-        {
-          "codcli": "51538",
-          "nome": "COMERCIAL MIGOTTO",
-          "faturamento": 30727.7
-        },
-        {
-          "codcli": "32521",
-          "nome": "ADEGA DO GORDAO",
-          "faturamento": 7923.84
-        },
-        {
-          "codcli": "51115",
-          "nome": "STOCK SUPERMERCADO",
-          "faturamento": 4926.08
-        },
-        {
-          "codcli": "51572",
-          "nome": "ADEGA 68",
-          "faturamento": 4866.0
-        },
-        {
-          "codcli": "50864",
-          "nome": "SUPERMERCADO IRMÃOS TEIXEIRA",
-          "faturamento": 3962.44
-        },
-        {
-          "codcli": "51461",
-          "nome": "ADEGA MALIBU",
-          "faturamento": 3796.46
-        },
-        {
-          "codcli": "49381",
-          "nome": "ESTACAO DA CERVEJA",
-          "faturamento": 3467.8
-        },
-        {
-          "codcli": "51214",
-          "nome": "SUPERMERCADO KAMEL II",
-          "faturamento": 3069.21
-        },
-        {
-          "codcli": "51028",
-          "nome": "SUPERMERCADO SANI",
-          "faturamento": 2832.85
-        },
-        {
-          "codcli": "50933",
-          "nome": "GESIO FUJII CARDOSO COMERCIO DE BEBIDAS",
-          "faturamento": 2587.5
-        },
-        {
-          "codcli": "33061",
-          "nome": "DISTRIBUIDORA DE BEBIDAS AGUIA REAL",
-          "faturamento": 2435.98
-        },
-        {
-          "codcli": "51278",
-          "nome": "STEVANATTO",
-          "faturamento": 2427.82
-        },
-        {
-          "codcli": "51815",
-          "nome": "SUPERMERCADO E VAREJO BRASIL",
-          "faturamento": 2383.4
-        },
-        {
-          "codcli": "50820",
-          "nome": "34.210.777 WALLACE AMAURI ARAUJO DAS VIRGENS",
-          "faturamento": 2174.36
-        },
-        {
-          "codcli": "50893",
-          "nome": "CACAU PARK",
-          "faturamento": 2110.57
-        }
-      ]
-    },
-    {
-      "rca": 512,
-      "estado": "SP",
-      "chave": "SP-512",
-      "nome": "WILLIAM GONCALVES",
-      "time": "OUTROS",
-      "time_label": "Outros / sem time definido",
-      "total_clientes_ativos": 8,
-      "faturamento_ytd": 86931.92,
-      "media_mensal": 86931.92,
-      "por_mes": {
-        "2026-07": 86931.92
-      },
-      "top_industrias": [
-        {
-          "fantasia": "PERNOD",
-          "faturamento": 80578.8,
-          "pct": 92.7
-        },
-        {
-          "fantasia": "CRS BRANDS",
-          "faturamento": 5514.24,
-          "pct": 6.3
-        },
-        {
-          "fantasia": "TOP BIRRA",
-          "faturamento": 838.88,
-          "pct": 1.0
-        }
-      ],
-      "top_clientes": [
-        {
-          "codcli": "36749",
-          "nome": "COMERCIO DE BEBIDAS CHORAO",
-          "faturamento": 37476.6
-        },
-        {
-          "codcli": "51790",
-          "nome": "ADEGA MEIRELES",
-          "faturamento": 25073.64
-        },
-        {
-          "codcli": "48204",
-          "nome": "ADEGA & TABACARIA MESQUITA",
-          "faturamento": 10357.88
-        },
-        {
-          "codcli": "26151",
-          "nome": "ADEGA SACOMA",
-          "faturamento": 6456.0
-        },
-        {
-          "codcli": "51808",
-          "nome": "2 COELHOS COMERCIAL",
-          "faturamento": 3141.0
-        },
-        {
-          "codcli": "43060",
-          "nome": "DJ DISTRIBUIDORA DE BEBIDAS",
-          "faturamento": 2008.8
-        },
-        {
-          "codcli": "51840",
-          "nome": "DISTRIBUIDORA DE BEBIDAS BEM BOLADO",
-          "faturamento": 1339.2
-        },
-        {
-          "codcli": "51801",
-          "nome": "JD REPRESENTACAO COMERCIAL",
-          "faturamento": 1078.8
-        }
-      ]
-    },
-    {
       "rca": 469,
       "estado": "SP",
       "chave": "SP-469",
       "nome": "PATRICIA RAMOS",
       "time": "OUTROS",
       "time_label": "Outros / sem time definido",
-      "total_clientes_ativos": 25,
-      "faturamento_ytd": 85877.42,
-      "media_mensal": 28625.81,
+      "total_clientes_ativos": 30,
+      "faturamento_ytd": 91080.83,
+      "media_mensal": 30360.28,
       "por_mes": {
         "2026-05": 39288.21,
         "2026-06": 29240.46,
-        "2026-07": 17348.74
+        "2026-07": 22552.16
       },
       "top_industrias": [
         {
           "fantasia": "PERNOD",
-          "faturamento": 50777.2,
-          "pct": 59.1
+          "faturamento": 51131.0,
+          "pct": 56.1
         },
         {
           "fantasia": "CASTAS",
           "faturamento": 8114.4,
-          "pct": 9.4
+          "pct": 8.9
         },
         {
           "fantasia": "BROWN",
-          "faturamento": 7053.3,
-          "pct": 8.2
+          "faturamento": 7923.0,
+          "pct": 8.7
         },
         {
           "fantasia": "DIAGEO",
-          "faturamento": 6014.81,
-          "pct": 7.0
+          "faturamento": 7610.12,
+          "pct": 8.4
+        },
+        {
+          "fantasia": "AURORA",
+          "faturamento": 3896.3,
+          "pct": 4.3
         },
         {
           "fantasia": "BACARDI",
           "faturamento": 3303.19,
-          "pct": 3.8
+          "pct": 3.6
         },
         {
           "fantasia": "BEAM SUNTORY BRASIL",
           "faturamento": 3150.1,
-          "pct": 3.7
+          "pct": 3.5
         },
         {
-          "fantasia": "AURORA",
-          "faturamento": 2376.6,
-          "pct": 2.8
+          "fantasia": "CAMPARI",
+          "faturamento": 1325.4,
+          "pct": 1.5
         },
         {
           "fantasia": "FANTE",
-          "faturamento": 1150.24,
-          "pct": 1.3
+          "faturamento": 1273.24,
+          "pct": 1.4
         },
         {
           "fantasia": "BALLENA",
-          "faturamento": 1030.76,
-          "pct": 1.2
+          "faturamento": 1270.46,
+          "pct": 1.4
         },
         {
           "fantasia": "MOET HENNESY",
           "faturamento": 932.7,
-          "pct": 1.1
+          "pct": 1.0
         },
         {
           "fantasia": "PERINI",
           "faturamento": 861.6,
-          "pct": 1.0
-        },
-        {
-          "fantasia": "CAMPARI",
-          "faturamento": 823.2,
-          "pct": 1.0
+          "pct": 0.9
         },
         {
           "fantasia": "STOCK",
@@ -10413,6 +10614,11 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
           "faturamento": 27323.4
         },
         {
+          "codcli": "50620",
+          "nome": "ALEMAO COMERCIO E DISTRIBUIDORA DE BEBIDAS E MERCEARIA",
+          "faturamento": 8329.02
+        },
+        {
           "codcli": "51301",
           "nome": "TERRANA LOJA",
           "faturamento": 7228.8
@@ -10420,7 +10626,7 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
         {
           "codcli": "50772",
           "nome": "SUPERMERCADO TAQUARAL",
-          "faturamento": 6968.1
+          "faturamento": 6333.3
         },
         {
           "codcli": "50129",
@@ -10433,11 +10639,6 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
           "faturamento": 5986.74
         },
         {
-          "codcli": "50620",
-          "nome": "ALEMAO COMERCIO E DISTRIBUIDORA DE BEBIDAS E MERCEARIA",
-          "faturamento": 4708.7
-        },
-        {
           "codcli": "50621",
           "nome": "LEANDRO BILHAR",
           "faturamento": 4603.2
@@ -10448,14 +10649,14 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
           "faturamento": 3780.06
         },
         {
-          "codcli": "50157",
-          "nome": "SUPERMERCADO ITAJARA LTDA",
-          "faturamento": 3473.37
-        },
-        {
           "codcli": "50409",
           "nome": "SUPERMERCADO FELTRIN",
           "faturamento": 3290.1
+        },
+        {
+          "codcli": "50157",
+          "nome": "SUPERMERCADO ITAJARA LTDA",
+          "faturamento": 3078.57
         },
         {
           "codcli": "50668",
@@ -10468,6 +10669,11 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
           "faturamento": 1509.6
         },
         {
+          "codcli": "51266",
+          "nome": "SUPERMERCADO SANTA GERTRUDES",
+          "faturamento": 1152.4
+        },
+        {
           "codcli": "50298",
           "nome": "SHOPPING FARTURA COMERCIO DE HORTIFRUTIGRANJEIROS",
           "faturamento": 1132.2
@@ -10476,11 +10682,327 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
           "codcli": "50322",
           "nome": "SHOPPING FARTURA VINHEDO COMERCIO DE HORTIFRUTIGRANJEIROS LT",
           "faturamento": 1132.2
+        }
+      ]
+    },
+    {
+      "rca": 466,
+      "estado": "SP",
+      "chave": "SP-466",
+      "nome": "DANIELLE DOS SANTOS",
+      "time": "OUTROS",
+      "time_label": "Outros / sem time definido",
+      "total_clientes_ativos": 14,
+      "faturamento_ytd": 86235.49,
+      "media_mensal": 21558.87,
+      "por_mes": {
+        "2026-04": 3810.24,
+        "2026-05": 23626.12,
+        "2026-06": 23817.8,
+        "2026-07": 34981.33
+      },
+      "top_industrias": [
+        {
+          "fantasia": "PERNOD",
+          "faturamento": 41257.09,
+          "pct": 47.8
         },
         {
-          "codcli": "50323",
-          "nome": "SHOPPING FARTURA VALINHOS",
-          "faturamento": 1132.2
+          "fantasia": "DIAGEO",
+          "faturamento": 10926.46,
+          "pct": 12.7
+        },
+        {
+          "fantasia": "AURORA",
+          "faturamento": 10142.8,
+          "pct": 11.8
+        },
+        {
+          "fantasia": "BROWN",
+          "faturamento": 7613.41,
+          "pct": 8.8
+        },
+        {
+          "fantasia": "BACARDI",
+          "faturamento": 4832.09,
+          "pct": 5.6
+        },
+        {
+          "fantasia": "FANTE",
+          "faturamento": 2472.12,
+          "pct": 2.9
+        },
+        {
+          "fantasia": "MOET HENNESY",
+          "faturamento": 2253.03,
+          "pct": 2.6
+        },
+        {
+          "fantasia": "CRS BRANDS",
+          "faturamento": 2103.72,
+          "pct": 2.4
+        },
+        {
+          "fantasia": "BALLENA",
+          "faturamento": 1654.08,
+          "pct": 1.9
+        },
+        {
+          "fantasia": "SEM FANTASIA",
+          "faturamento": 1223.32,
+          "pct": 1.4
+        },
+        {
+          "fantasia": "BEAM SUNTORY BRASIL",
+          "faturamento": 889.67,
+          "pct": 1.0
+        },
+        {
+          "fantasia": "CAMPARI",
+          "faturamento": 460.2,
+          "pct": 0.5
+        },
+        {
+          "fantasia": "INTERFOOD",
+          "faturamento": 209.8,
+          "pct": 0.2
+        },
+        {
+          "fantasia": "LUCIA",
+          "faturamento": 197.7,
+          "pct": 0.2
+        }
+      ],
+      "top_clientes": [
+        {
+          "codcli": "49685",
+          "nome": "RECOBASE COMERCIAL LTDA",
+          "faturamento": 23128.09
+        },
+        {
+          "codcli": "50199",
+          "nome": "MERCADO SOUZA",
+          "faturamento": 20523.49
+        },
+        {
+          "codcli": "50543",
+          "nome": "LEDUINO E LEDUINO",
+          "faturamento": 11190.7
+        },
+        {
+          "codcli": "50595",
+          "nome": "CAMBREIA BEBIDAS VAREJISTA",
+          "faturamento": 7951.89
+        },
+        {
+          "codcli": "49912",
+          "nome": "SUPERMERCADO DO CARLAO",
+          "faturamento": 4330.5
+        },
+        {
+          "codcli": "49885",
+          "nome": "MERCADINHO DO NEY",
+          "faturamento": 3685.2
+        },
+        {
+          "codcli": "49889",
+          "nome": "MINIMERCADO TERRACO",
+          "faturamento": 3149.98
+        },
+        {
+          "codcli": "49974",
+          "nome": "AGNALDO ALMEIDA MENDES",
+          "faturamento": 2961.59
+        },
+        {
+          "codcli": "49854",
+          "nome": "RENATO SUPERMERCADO",
+          "faturamento": 2539.08
+        },
+        {
+          "codcli": "51025",
+          "nome": "SUPERMERCADO PAGUE MENOS II",
+          "faturamento": 2494.67
+        },
+        {
+          "codcli": "50080",
+          "nome": "SUPERMERCADO SORRISO",
+          "faturamento": 2088.0
+        },
+        {
+          "codcli": "49913",
+          "nome": "SUPERMERCADO DO CARLAO",
+          "faturamento": 1050.18
+        },
+        {
+          "codcli": "50585",
+          "nome": "PAULO BATISTA DA SILVA MERCEARIA",
+          "faturamento": 728.56
+        },
+        {
+          "codcli": "50394",
+          "nome": "SUPERMERCADO AVENIDA",
+          "faturamento": 413.57
+        }
+      ]
+    },
+    {
+      "rca": 477,
+      "estado": "SP",
+      "chave": "SP-477",
+      "nome": "LUCIANO TOSCHI",
+      "time": "OUTROS",
+      "time_label": "Outros / sem time definido",
+      "total_clientes_ativos": 27,
+      "faturamento_ytd": 81516.74,
+      "media_mensal": 27172.25,
+      "por_mes": {
+        "2026-05": 14757.0,
+        "2026-06": 33475.38,
+        "2026-07": 33284.36
+      },
+      "top_industrias": [
+        {
+          "fantasia": "PERNOD",
+          "faturamento": 42098.2,
+          "pct": 51.6
+        },
+        {
+          "fantasia": "BROWN",
+          "faturamento": 14310.0,
+          "pct": 17.6
+        },
+        {
+          "fantasia": "DIAGEO",
+          "faturamento": 9219.06,
+          "pct": 11.3
+        },
+        {
+          "fantasia": "CRS BRANDS",
+          "faturamento": 5073.39,
+          "pct": 6.2
+        },
+        {
+          "fantasia": "BALLENA",
+          "faturamento": 4873.9,
+          "pct": 6.0
+        },
+        {
+          "fantasia": "BACARDI",
+          "faturamento": 2047.77,
+          "pct": 2.5
+        },
+        {
+          "fantasia": "AURORA",
+          "faturamento": 1870.4,
+          "pct": 2.3
+        },
+        {
+          "fantasia": "FANTE",
+          "faturamento": 739.2,
+          "pct": 0.9
+        },
+        {
+          "fantasia": "PERINI",
+          "faturamento": 430.8,
+          "pct": 0.5
+        },
+        {
+          "fantasia": "JURUPINGA",
+          "faturamento": 304.66,
+          "pct": 0.4
+        },
+        {
+          "fantasia": "CAMPARI",
+          "faturamento": 252.7,
+          "pct": 0.3
+        },
+        {
+          "fantasia": "INTERFOOD",
+          "faturamento": 191.8,
+          "pct": 0.2
+        },
+        {
+          "fantasia": "TOP BIRRA",
+          "faturamento": 104.86,
+          "pct": 0.1
+        }
+      ],
+      "top_clientes": [
+        {
+          "codcli": "50047",
+          "nome": "COMERCIAL DE PRODUTOS ALIMENTICIOS MINARDI",
+          "faturamento": 13324.15
+        },
+        {
+          "codcli": "50861",
+          "nome": "ADEGA HR",
+          "faturamento": 11154.57
+        },
+        {
+          "codcli": "50486",
+          "nome": "SUPERMERCADO DIAS MORAES",
+          "faturamento": 6882.97
+        },
+        {
+          "codcli": "50525",
+          "nome": "MERCADINHO DO LAURO",
+          "faturamento": 6736.85
+        },
+        {
+          "codcli": "50494",
+          "nome": "M. MESSIAS PEDRO - COMERCIO DE BEBIDAS",
+          "faturamento": 5967.68
+        },
+        {
+          "codcli": "51388",
+          "nome": "DONNA MARIA SUPERMERCADOS",
+          "faturamento": 5879.22
+        },
+        {
+          "codcli": "49922",
+          "nome": "JHULLY NARGGS",
+          "faturamento": 4760.82
+        },
+        {
+          "codcli": "50761",
+          "nome": "WALLACE MORAES ANTUNES 44143439840",
+          "faturamento": 3718.9
+        },
+        {
+          "codcli": "50481",
+          "nome": "NATALE TANI FLEX SUPERMERCADOS",
+          "faturamento": 3261.88
+        },
+        {
+          "codcli": "50500",
+          "nome": "SUPERMERCADO BOA ESPERANCA",
+          "faturamento": 2565.0
+        },
+        {
+          "codcli": "50476",
+          "nome": "ELIAS DIAS RAMOS & CIA",
+          "faturamento": 2396.31
+        },
+        {
+          "codcli": "50504",
+          "nome": "PANIFICADORA E CONFEITARIA SANTANA",
+          "faturamento": 1793.4
+        },
+        {
+          "codcli": "51105",
+          "nome": "MERCADO DO JAIMAO",
+          "faturamento": 1606.12
+        },
+        {
+          "codcli": "50493",
+          "nome": "POSTO ESTRELA",
+          "faturamento": 1389.6
+        },
+        {
+          "codcli": "50513",
+          "nome": "MERCADO PIT STOP",
+          "faturamento": 1209.6
         }
       ]
     },
@@ -10700,163 +11222,162 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
       ]
     },
     {
-      "rca": 466,
+      "rca": 472,
       "estado": "SP",
-      "chave": "SP-466",
-      "nome": "DANIELLE DOS SANTOS",
+      "chave": "SP-472",
+      "nome": "FLAVIO RIBEIRO",
       "time": "OUTROS",
       "time_label": "Outros / sem time definido",
-      "total_clientes_ativos": 14,
-      "faturamento_ytd": 69533.04,
-      "media_mensal": 17383.26,
+      "total_clientes_ativos": 13,
+      "faturamento_ytd": 69644.62,
+      "media_mensal": 23214.87,
       "por_mes": {
-        "2026-04": 3810.24,
-        "2026-05": 23626.12,
-        "2026-06": 23817.8,
-        "2026-07": 18278.88
+        "2026-05": 22904.64,
+        "2026-06": 21236.32,
+        "2026-07": 25503.65
       },
       "top_industrias": [
         {
           "fantasia": "PERNOD",
-          "faturamento": 35152.69,
-          "pct": 50.6
-        },
-        {
-          "fantasia": "DIAGEO",
-          "faturamento": 8810.62,
-          "pct": 12.7
-        },
-        {
-          "fantasia": "AURORA",
-          "faturamento": 8272.4,
-          "pct": 11.9
-        },
-        {
-          "fantasia": "BACARDI",
-          "faturamento": 4768.72,
-          "pct": 6.9
+          "faturamento": 37214.6,
+          "pct": 53.4
         },
         {
           "fantasia": "BROWN",
-          "faturamento": 2901.31,
-          "pct": 4.2
-        },
-        {
-          "fantasia": "MOET HENNESY",
-          "faturamento": 2253.03,
-          "pct": 3.2
-        },
-        {
-          "fantasia": "CRS BRANDS",
-          "faturamento": 1780.08,
-          "pct": 2.6
-        },
-        {
-          "fantasia": "BALLENA",
-          "faturamento": 1574.18,
-          "pct": 2.3
+          "faturamento": 7676.6,
+          "pct": 11.0
         },
         {
           "fantasia": "FANTE",
-          "faturamento": 1242.12,
-          "pct": 1.8
+          "faturamento": 7230.0,
+          "pct": 10.4
         },
         {
-          "fantasia": "SEM FANTASIA",
-          "faturamento": 1223.32,
-          "pct": 1.8
+          "fantasia": "BALLENA",
+          "faturamento": 4953.8,
+          "pct": 7.1
         },
         {
-          "fantasia": "BEAM SUNTORY BRASIL",
-          "faturamento": 889.67,
-          "pct": 1.3
+          "fantasia": "AURORA",
+          "faturamento": 4242.88,
+          "pct": 6.1
+        },
+        {
+          "fantasia": "DIAGEO",
+          "faturamento": 3349.1,
+          "pct": 4.8
+        },
+        {
+          "fantasia": "COMARY",
+          "faturamento": 1999.82,
+          "pct": 2.9
+        },
+        {
+          "fantasia": "CRS BRANDS",
+          "faturamento": 779.16,
+          "pct": 1.1
+        },
+        {
+          "fantasia": "MOET HENNESY",
+          "faturamento": 547.5,
+          "pct": 0.8
+        },
+        {
+          "fantasia": "BACARDI",
+          "faturamento": 546.0,
+          "pct": 0.8
         },
         {
           "fantasia": "CAMPARI",
-          "faturamento": 257.4,
+          "faturamento": 405.6,
+          "pct": 0.6
+        },
+        {
+          "fantasia": "CASTAS",
+          "faturamento": 275.76,
           "pct": 0.4
         },
         {
-          "fantasia": "INTERFOOD",
-          "faturamento": 209.8,
+          "fantasia": "INVICTUS",
+          "faturamento": 203.7,
           "pct": 0.3
         },
         {
-          "fantasia": "LUCIA",
-          "faturamento": 197.7,
-          "pct": 0.3
+          "fantasia": "KIKKOMAN DO BRASIL",
+          "faturamento": 102.85,
+          "pct": 0.1
+        },
+        {
+          "fantasia": "JURUPINGA",
+          "faturamento": 76.16,
+          "pct": 0.1
         }
       ],
       "top_clientes": [
         {
-          "codcli": "49685",
-          "nome": "RECOBASE COMERCIAL LTDA",
-          "faturamento": 21805.09
+          "codcli": "50356",
+          "nome": "VAREJISTA DE BEBIDA TIRIBAS",
+          "faturamento": 37663.8
         },
         {
-          "codcli": "50199",
-          "nome": "MERCADO SOUZA",
-          "faturamento": 11215.83
+          "codcli": "50289",
+          "nome": "ROSELIA A.C.TOMAZ SALGADO",
+          "faturamento": 12504.34
         },
         {
-          "codcli": "50543",
-          "nome": "LEDUINO E LEDUINO",
-          "faturamento": 8577.1
+          "codcli": "50998",
+          "nome": "MARIANA EUGENIO DE CAMPOS GONCALVES BEBIDAS",
+          "faturamento": 6701.4
         },
         {
-          "codcli": "50595",
-          "nome": "CAMBREIA BEBIDAS VAREJISTA",
-          "faturamento": 6375.79
+          "codcli": "50824",
+          "nome": "COMERCIAL PARAIBA ALIMENTOS E BEBIDAS",
+          "faturamento": 3986.1
         },
         {
-          "codcli": "49912",
-          "nome": "SUPERMERCADO DO CARLAO",
-          "faturamento": 4330.5
+          "codcli": "51946",
+          "nome": "COMERCIAL DE ALIMENTOS IDEIAL",
+          "faturamento": 1941.82
         },
         {
-          "codcli": "49885",
-          "nome": "MERCADINHO DO NEY",
-          "faturamento": 3685.2
+          "codcli": "50526",
+          "nome": "H. DE SOUZA MINIMERCADO",
+          "faturamento": 1510.9
         },
         {
-          "codcli": "49974",
-          "nome": "AGNALDO ALMEIDA MENDES",
-          "faturamento": 2961.59
+          "codcli": "50527",
+          "nome": "MARCELO SALLES LEITE MINIMERCADO",
+          "faturamento": 1508.45
         },
         {
-          "codcli": "49854",
-          "nome": "RENATO SUPERMERCADO",
-          "faturamento": 2539.08
+          "codcli": "50308",
+          "nome": "MERCADO SALES",
+          "faturamento": 1050.34
         },
         {
-          "codcli": "51025",
-          "nome": "SUPERMERCADO PAGUE MENOS II",
-          "faturamento": 2494.67
+          "codcli": "50547",
+          "nome": "MERCEARIA DA ZEZE",
+          "faturamento": 765.4
         },
         {
-          "codcli": "50080",
-          "nome": "SUPERMERCADO SORRISO",
-          "faturamento": 2088.0
+          "codcli": "50355",
+          "nome": "MERCADINHO DELUCAS",
+          "faturamento": 737.32
         },
         {
-          "codcli": "49889",
-          "nome": "MINIMERCADO TERRACO",
-          "faturamento": 1267.89
+          "codcli": "50451",
+          "nome": "MERCEARIA DO SOUZA",
+          "faturamento": 688.27
         },
         {
-          "codcli": "49913",
-          "nome": "SUPERMERCADO DO CARLAO",
-          "faturamento": 1050.18
+          "codcli": "50895",
+          "nome": "MERCEARIA MORITA",
+          "faturamento": 334.68
         },
         {
-          "codcli": "50585",
-          "nome": "PAULO BATISTA DA SILVA MERCEARIA",
-          "faturamento": 728.56
-        },
-        {
-          "codcli": "50394",
-          "nome": "SUPERMERCADO AVENIDA",
-          "faturamento": 413.57
+          "codcli": "50780",
+          "nome": "SUPERMERCADO VILLA",
+          "faturamento": 251.8
         }
       ]
     },
@@ -10867,79 +11388,79 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
       "nome": "ROBERTO DOS SANTOS",
       "time": "OUTROS",
       "time_label": "Outros / sem time definido",
-      "total_clientes_ativos": 29,
-      "faturamento_ytd": 64909.16,
-      "media_mensal": 21636.39,
+      "total_clientes_ativos": 30,
+      "faturamento_ytd": 68949.55,
+      "media_mensal": 22983.18,
       "por_mes": {
         "2026-05": 7656.4,
         "2026-06": 53175.76,
-        "2026-07": 4077.0
+        "2026-07": 8117.4
       },
       "top_industrias": [
         {
           "fantasia": "PERNOD",
-          "faturamento": 24774.86,
-          "pct": 38.2
+          "faturamento": 25997.56,
+          "pct": 37.7
         },
         {
           "fantasia": "BROWN",
-          "faturamento": 9354.6,
+          "faturamento": 9954.0,
           "pct": 14.4
         },
         {
           "fantasia": "DIAGEO",
           "faturamento": 6800.14,
-          "pct": 10.5
+          "pct": 9.9
+        },
+        {
+          "fantasia": "FANTE",
+          "faturamento": 4824.21,
+          "pct": 7.0
         },
         {
           "fantasia": "MOET HENNESY",
           "faturamento": 4165.5,
-          "pct": 6.4
-        },
-        {
-          "fantasia": "FANTE",
-          "faturamento": 4086.21,
-          "pct": 6.3
+          "pct": 6.0
         },
         {
           "fantasia": "CRS BRANDS",
-          "faturamento": 3428.52,
-          "pct": 5.3
+          "faturamento": 3860.04,
+          "pct": 5.6
         },
         {
           "fantasia": "SEM FANTASIA",
           "faturamento": 3385.2,
-          "pct": 5.2
+          "pct": 4.9
         },
         {
           "fantasia": "AURORA",
-          "faturamento": 2610.72,
-          "pct": 4.0
+          "faturamento": 3312.12,
+          "pct": 4.8
         },
         {
           "fantasia": "CAMPARI",
           "faturamento": 2488.2,
-          "pct": 3.8
+          "pct": 3.6
         },
         {
           "fantasia": "PERINI",
           "faturamento": 1884.6,
-          "pct": 2.9
+          "pct": 2.7
+        },
+        {
+          "fantasia": "BACARDI",
+          "faturamento": 760.42,
+          "pct": 1.1
         },
         {
           "fantasia": "BALLENA",
           "faturamento": 719.1,
-          "pct": 1.1
-        },
-        {
-          "fantasia": "BACARDI",
-          "faturamento": 413.04,
-          "pct": 0.6
+          "pct": 1.0
         },
         {
           "fantasia": "INTERFOOD",
           "faturamento": 293.0,
-          "pct": 0.5
+          "pct": 0.4
         },
         {
           "fantasia": "STOCK",
@@ -10984,14 +11505,14 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
           "faturamento": 3542.16
         },
         {
+          "codcli": "49826",
+          "nome": "BRUNO BARRETO PAIXAO MERCADO",
+          "faturamento": 3078.5
+        },
+        {
           "codcli": "50054",
           "nome": "MARCIO SIBUYA AMERICO",
           "faturamento": 2710.26
-        },
-        {
-          "codcli": "49826",
-          "nome": "BRUNO BARRETO PAIXAO MERCADO",
-          "faturamento": 2448.6
         },
         {
           "codcli": "50646",
@@ -10999,9 +11520,19 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
           "faturamento": 2251.25
         },
         {
+          "codcli": "49726",
+          "nome": "MERCADO VITAL",
+          "faturamento": 2066.22
+        },
+        {
           "codcli": "50055",
           "nome": "JOSE VIEIRA DA SILVA",
           "faturamento": 1777.98
+        },
+        {
+          "codcli": "50380",
+          "nome": "SUPERMERCADO ALEGRIA",
+          "faturamento": 1749.54
         },
         {
           "codcli": "49909",
@@ -11017,326 +11548,560 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
           "codcli": "50660",
           "nome": "JARDIM DAS FLORES MERCADO",
           "faturamento": 1643.23
-        },
-        {
-          "codcli": "50657",
-          "nome": "MERCAZAO",
-          "faturamento": 1539.96
-        },
-        {
-          "codcli": "50658",
-          "nome": "JARDIM DAS FLORES MERCADO",
-          "faturamento": 1142.26
         }
       ]
     },
     {
-      "rca": 477,
-      "estado": "SP",
-      "chave": "SP-477",
-      "nome": "LUCIANO TOSCHI",
+      "rca": 378,
+      "estado": "MG",
+      "chave": "MG-378",
+      "nome": "JETER LUCIO SOARES",
       "time": "OUTROS",
       "time_label": "Outros / sem time definido",
-      "total_clientes_ativos": 25,
-      "faturamento_ytd": 64548.46,
-      "media_mensal": 21516.15,
+      "total_clientes_ativos": 9,
+      "faturamento_ytd": 67940.64,
+      "media_mensal": 67940.64,
       "por_mes": {
-        "2026-05": 14757.0,
-        "2026-06": 33475.38,
-        "2026-07": 16316.08
+        "2026-07": 67940.64
       },
       "top_industrias": [
         {
-          "fantasia": "PERNOD",
-          "faturamento": 35502.1,
-          "pct": 55.0
-        },
-        {
-          "fantasia": "BROWN",
-          "faturamento": 7761.6,
-          "pct": 12.0
-        },
-        {
-          "fantasia": "BALLENA",
-          "faturamento": 6791.5,
-          "pct": 10.5
-        },
-        {
           "fantasia": "DIAGEO",
-          "faturamento": 5878.65,
-          "pct": 9.1
+          "faturamento": 21870.0,
+          "pct": 32.2
         },
-        {
-          "fantasia": "CRS BRANDS",
-          "faturamento": 4521.99,
-          "pct": 7.0
-        },
-        {
-          "fantasia": "BACARDI",
-          "faturamento": 1496.3,
-          "pct": 2.3
-        },
-        {
-          "fantasia": "AURORA",
-          "faturamento": 818.3,
-          "pct": 1.3
-        },
-        {
-          "fantasia": "FANTE",
-          "faturamento": 493.2,
-          "pct": 0.8
-        },
-        {
-          "fantasia": "PERINI",
-          "faturamento": 430.8,
-          "pct": 0.7
-        },
-        {
-          "fantasia": "JURUPINGA",
-          "faturamento": 304.66,
-          "pct": 0.5
-        },
-        {
-          "fantasia": "CAMPARI",
-          "faturamento": 252.7,
-          "pct": 0.4
-        },
-        {
-          "fantasia": "INTERFOOD",
-          "faturamento": 191.8,
-          "pct": 0.3
-        },
-        {
-          "fantasia": "TOP BIRRA",
-          "faturamento": 104.86,
-          "pct": 0.2
-        }
-      ],
-      "top_clientes": [
-        {
-          "codcli": "50525",
-          "nome": "MERCADINHO DO LAURO",
-          "faturamento": 8654.45
-        },
-        {
-          "codcli": "50047",
-          "nome": "COMERCIAL DE PRODUTOS ALIMENTICIOS MINARDI",
-          "faturamento": 8636.65
-        },
-        {
-          "codcli": "50486",
-          "nome": "SUPERMERCADO DIAS MORAES",
-          "faturamento": 6882.97
-        },
-        {
-          "codcli": "50861",
-          "nome": "ADEGA HR",
-          "faturamento": 6300.37
-        },
-        {
-          "codcli": "49922",
-          "nome": "JHULLY NARGGS",
-          "faturamento": 4021.32
-        },
-        {
-          "codcli": "50494",
-          "nome": "M. MESSIAS PEDRO - COMERCIO DE BEBIDAS",
-          "faturamento": 3653.98
-        },
-        {
-          "codcli": "51388",
-          "nome": "DONNA MARIA SUPERMERCADOS",
-          "faturamento": 3407.88
-        },
-        {
-          "codcli": "50481",
-          "nome": "NATALE TANI FLEX SUPERMERCADOS",
-          "faturamento": 2751.02
-        },
-        {
-          "codcli": "50761",
-          "nome": "WALLACE MORAES ANTUNES 44143439840",
-          "faturamento": 2731.0
-        },
-        {
-          "codcli": "50476",
-          "nome": "ELIAS DIAS RAMOS & CIA",
-          "faturamento": 2396.31
-        },
-        {
-          "codcli": "50500",
-          "nome": "SUPERMERCADO BOA ESPERANCA",
-          "faturamento": 1919.4
-        },
-        {
-          "codcli": "50504",
-          "nome": "PANIFICADORA E CONFEITARIA SANTANA",
-          "faturamento": 1793.4
-        },
-        {
-          "codcli": "51105",
-          "nome": "MERCADO DO JAIMAO",
-          "faturamento": 1606.12
-        },
-        {
-          "codcli": "50513",
-          "nome": "MERCADO PIT STOP",
-          "faturamento": 1209.6
-        },
-        {
-          "codcli": "50491",
-          "nome": "COMERCIAL MARINHO",
-          "faturamento": 1184.4
-        }
-      ]
-    },
-    {
-      "rca": 472,
-      "estado": "SP",
-      "chave": "SP-472",
-      "nome": "FLAVIO RIBEIRO",
-      "time": "OUTROS",
-      "time_label": "Outros / sem time definido",
-      "total_clientes_ativos": 12,
-      "faturamento_ytd": 63769.86,
-      "media_mensal": 21256.62,
-      "por_mes": {
-        "2026-05": 22904.64,
-        "2026-06": 21236.32,
-        "2026-07": 19628.89
-      },
-      "top_industrias": [
         {
           "fantasia": "PERNOD",
-          "faturamento": 33959.7,
-          "pct": 53.3
-        },
-        {
-          "fantasia": "BROWN",
-          "faturamento": 7277.0,
-          "pct": 11.4
-        },
-        {
-          "fantasia": "FANTE",
-          "faturamento": 7107.0,
-          "pct": 11.1
-        },
-        {
-          "fantasia": "BALLENA",
-          "faturamento": 4953.8,
-          "pct": 7.8
-        },
-        {
-          "fantasia": "AURORA",
-          "faturamento": 4075.08,
-          "pct": 6.4
-        },
-        {
-          "fantasia": "DIAGEO",
-          "faturamento": 3204.3,
-          "pct": 5.0
-        },
-        {
-          "fantasia": "COMARY",
-          "faturamento": 1386.78,
-          "pct": 2.2
-        },
-        {
-          "fantasia": "CRS BRANDS",
-          "faturamento": 563.4,
-          "pct": 0.9
-        },
-        {
-          "fantasia": "BACARDI",
-          "faturamento": 413.4,
-          "pct": 0.6
-        },
-        {
-          "fantasia": "CAMPARI",
-          "faturamento": 405.6,
-          "pct": 0.6
-        },
-        {
-          "fantasia": "INVICTUS",
-          "faturamento": 203.7,
-          "pct": 0.3
-        },
-        {
-          "fantasia": "KIKKOMAN DO BRASIL",
-          "faturamento": 102.85,
-          "pct": 0.2
-        },
-        {
-          "fantasia": "JURUPINGA",
-          "faturamento": 76.16,
-          "pct": 0.1
+          "faturamento": 18556.56,
+          "pct": 27.3
         },
         {
           "fantasia": "SEM FANTASIA",
-          "faturamento": 41.08,
-          "pct": 0.1
+          "faturamento": 15192.48,
+          "pct": 22.4
+        },
+        {
+          "fantasia": "MONIN",
+          "faturamento": 6196.2,
+          "pct": 9.1
+        },
+        {
+          "fantasia": "CASTAS",
+          "faturamento": 6125.4,
+          "pct": 9.0
         }
       ],
       "top_clientes": [
         {
-          "codcli": "50356",
-          "nome": "VAREJISTA DE BEBIDA TIRIBAS",
-          "faturamento": 37663.8
+          "codcli": "34568",
+          "nome": "BIG MAIS SUPERMERCADOS",
+          "faturamento": 58164.6
         },
         {
-          "codcli": "50289",
-          "nome": "ROSELIA A.C.TOMAZ SALGADO",
-          "faturamento": 8948.9
+          "codcli": "35222",
+          "nome": "UNISSUL SUPERMERCADOS",
+          "faturamento": 1728.18
         },
         {
-          "codcli": "50998",
-          "nome": "MARIANA EUGENIO DE CAMPOS GONCALVES BEBIDAS",
-          "faturamento": 6701.4
+          "codcli": "35090",
+          "nome": "UNISSUL SUPERMERCADOS",
+          "faturamento": 1723.68
         },
         {
-          "codcli": "50824",
-          "nome": "COMERCIAL PARAIBA ALIMENTOS E BEBIDAS",
-          "faturamento": 3986.1
+          "codcli": "37335",
+          "nome": "UNISSUL",
+          "faturamento": 1208.88
         },
         {
-          "codcli": "50527",
-          "nome": "MARCELO SALLES LEITE MINIMERCADO",
-          "faturamento": 1508.45
+          "codcli": "37909",
+          "nome": "UNISSUL SUPERMERCADOS S/A",
+          "faturamento": 1194.78
         },
         {
-          "codcli": "50526",
-          "nome": "H. DE SOUZA MINIMERCADO",
-          "faturamento": 1133.4
+          "codcli": "37333",
+          "nome": "UNISSUL SUPERMERCADOS S/A",
+          "faturamento": 1182.42
         },
         {
-          "codcli": "50308",
-          "nome": "MERCADO SALES",
-          "faturamento": 1050.34
+          "codcli": "37327",
+          "nome": "UNISSUL SUPERMERCADOS S/A",
+          "faturamento": 1053.24
         },
         {
-          "codcli": "50547",
-          "nome": "MERCEARIA DA ZEZE",
-          "faturamento": 765.4
+          "codcli": "37330",
+          "nome": "UNISSUL SUPERMERCADOS",
+          "faturamento": 1017.24
         },
         {
-          "codcli": "50355",
-          "nome": "MERCADINHO DELUCAS",
-          "faturamento": 737.32
+          "codcli": "37329",
+          "nome": "UNISSUL SUPERMERCADOS S/A",
+          "faturamento": 667.62
+        }
+      ]
+    },
+    {
+      "rca": 490,
+      "estado": "SP",
+      "chave": "SP-490",
+      "nome": "DOUGLAS TEIXEIRA",
+      "time": "OUTROS",
+      "time_label": "Outros / sem time definido",
+      "total_clientes_ativos": 13,
+      "faturamento_ytd": 60834.3,
+      "media_mensal": 30417.15,
+      "por_mes": {
+        "2026-06": 14579.79,
+        "2026-07": 46254.51
+      },
+      "top_industrias": [
+        {
+          "fantasia": "PERNOD",
+          "faturamento": 34555.21,
+          "pct": 56.8
         },
         {
-          "codcli": "50451",
-          "nome": "MERCEARIA DO SOUZA",
-          "faturamento": 688.27
+          "fantasia": "BROWN",
+          "faturamento": 9814.2,
+          "pct": 16.1
         },
         {
-          "codcli": "50895",
-          "nome": "MERCEARIA MORITA",
-          "faturamento": 334.68
+          "fantasia": "CRS BRANDS",
+          "faturamento": 3919.8,
+          "pct": 6.4
         },
         {
-          "codcli": "50780",
-          "nome": "SUPERMERCADO VILLA",
-          "faturamento": 251.8
+          "fantasia": "BACARDI",
+          "faturamento": 3076.5,
+          "pct": 5.1
+        },
+        {
+          "fantasia": "BALLENA",
+          "faturamento": 2077.4,
+          "pct": 3.4
+        },
+        {
+          "fantasia": "CAMPARI",
+          "faturamento": 2028.0,
+          "pct": 3.3
+        },
+        {
+          "fantasia": "AURORA",
+          "faturamento": 1753.5,
+          "pct": 2.9
+        },
+        {
+          "fantasia": "INTERFOOD",
+          "faturamento": 1258.8,
+          "pct": 2.1
+        },
+        {
+          "fantasia": "DIAGEO",
+          "faturamento": 806.72,
+          "pct": 1.3
+        },
+        {
+          "fantasia": "BEAM SUNTORY BRASIL",
+          "faturamento": 754.8,
+          "pct": 1.2
+        },
+        {
+          "fantasia": "FANTE",
+          "faturamento": 639.2,
+          "pct": 1.1
+        },
+        {
+          "fantasia": "STOCK",
+          "faturamento": 150.16,
+          "pct": 0.2
+        }
+      ],
+      "top_clientes": [
+        {
+          "codcli": "46274",
+          "nome": "COMERCIO 5 ESTRELAS BEBIDAS E ALIMENTOS",
+          "faturamento": 20332.96
+        },
+        {
+          "codcli": "47058",
+          "nome": "EMPORIUM 5 ESTRELAS",
+          "faturamento": 15034.1
+        },
+        {
+          "codcli": "49378",
+          "nome": "DISTRIBUIDORA ATACADISTA E VAREJISTA BEER HOUSE",
+          "faturamento": 9125.62
+        },
+        {
+          "codcli": "51887",
+          "nome": "BONETTI SUPERMERCADOS",
+          "faturamento": 4018.0
+        },
+        {
+          "codcli": "51886",
+          "nome": "BONETTI SUPERMERCADOS",
+          "faturamento": 4018.0
+        },
+        {
+          "codcli": "39315",
+          "nome": "BAR E LANCHONETE PAULISTA",
+          "faturamento": 3165.0
+        },
+        {
+          "codcli": "51189",
+          "nome": "M S KURODA & CIA",
+          "faturamento": 1609.0
+        },
+        {
+          "codcli": "51232",
+          "nome": "CARLOS HENRIQUE FABRI",
+          "faturamento": 1155.1
+        },
+        {
+          "codcli": "51075",
+          "nome": "TRAIRAGEM BAR",
+          "faturamento": 1104.49
+        },
+        {
+          "codcli": "51188",
+          "nome": "KURODA ATACAREJO",
+          "faturamento": 501.93
+        },
+        {
+          "codcli": "51780",
+          "nome": "MODELO",
+          "faturamento": 354.0
+        },
+        {
+          "codcli": "51186",
+          "nome": "M S KURODA & CIA LTDA",
+          "faturamento": 212.7
+        },
+        {
+          "codcli": "51185",
+          "nome": "ADEGA DO ALEMAO",
+          "faturamento": 203.4
+        }
+      ]
+    },
+    {
+      "rca": 496,
+      "estado": "SP",
+      "chave": "SP-496",
+      "nome": "DEMETRIUS PELEGRINI",
+      "time": "OUTROS",
+      "time_label": "Outros / sem time definido",
+      "total_clientes_ativos": 1,
+      "faturamento_ytd": 58392.87,
+      "media_mensal": 58392.87,
+      "por_mes": {
+        "2026-07": 58392.87
+      },
+      "top_industrias": [
+        {
+          "fantasia": "PERNOD",
+          "faturamento": 40798.8,
+          "pct": 69.9
+        },
+        {
+          "fantasia": "CRS BRANDS",
+          "faturamento": 11001.36,
+          "pct": 18.8
+        },
+        {
+          "fantasia": "FANTE",
+          "faturamento": 2460.0,
+          "pct": 4.2
+        },
+        {
+          "fantasia": "MOET HENNESY",
+          "faturamento": 1342.2,
+          "pct": 2.3
+        },
+        {
+          "fantasia": "BACARDI",
+          "faturamento": 1044.51,
+          "pct": 1.8
+        },
+        {
+          "fantasia": "AURORA",
+          "faturamento": 1006.8,
+          "pct": 1.7
+        },
+        {
+          "fantasia": "STOCK",
+          "faturamento": 739.2,
+          "pct": 1.3
+        }
+      ],
+      "top_clientes": [
+        {
+          "codcli": "34090",
+          "nome": "PEDREIRA COMERCIO ATACADISTA E VAREJISTA DE ALIMENTOS",
+          "faturamento": 58392.87
+        }
+      ]
+    },
+    {
+      "rca": 487,
+      "estado": "SP",
+      "chave": "SP-487",
+      "nome": "LUIZ RIGLER",
+      "time": "OUTROS",
+      "time_label": "Outros / sem time definido",
+      "total_clientes_ativos": 9,
+      "faturamento_ytd": 55851.2,
+      "media_mensal": 27925.6,
+      "por_mes": {
+        "2026-06": 18601.2,
+        "2026-07": 37250.0
+      },
+      "top_industrias": [
+        {
+          "fantasia": "PERNOD",
+          "faturamento": 26263.8,
+          "pct": 47.0
+        },
+        {
+          "fantasia": "BROWN",
+          "faturamento": 17648.5,
+          "pct": 31.6
+        },
+        {
+          "fantasia": "BACARDI",
+          "faturamento": 10525.7,
+          "pct": 18.8
+        },
+        {
+          "fantasia": "AURORA",
+          "faturamento": 1006.8,
+          "pct": 1.8
+        },
+        {
+          "fantasia": "FANTE",
+          "faturamento": 246.6,
+          "pct": 0.4
+        },
+        {
+          "fantasia": "BALLENA",
+          "faturamento": 159.8,
+          "pct": 0.3
+        }
+      ],
+      "top_clientes": [
+        {
+          "codcli": "51024",
+          "nome": "ADEGA CONVENIENCIA",
+          "faturamento": 28697.4
+        },
+        {
+          "codcli": "51021",
+          "nome": "SAO JOSE SUPERMERCADO",
+          "faturamento": 9726.5
+        },
+        {
+          "codcli": "51081",
+          "nome": "ADEGA VALENTINA",
+          "faturamento": 4689.0
+        },
+        {
+          "codcli": "50978",
+          "nome": "52.712.792 TALITA VITORIA MATOS NASCIMENTO FERREIRA",
+          "faturamento": 3771.7
+        },
+        {
+          "codcli": "50988",
+          "nome": "61.083.324 ANDERSON THIAGO FERREIRA DOS SANTOS",
+          "faturamento": 2903.9
+        },
+        {
+          "codcli": "50962",
+          "nome": "VITO SUPERMERCADOS",
+          "faturamento": 2506.8
+        },
+        {
+          "codcli": "50968",
+          "nome": "IMPERIALLE COMERCIO DE BEBIDAS",
+          "faturamento": 1482.3
+        },
+        {
+          "codcli": "50963",
+          "nome": "VITO SUPERMERCADOS",
+          "faturamento": 1198.8
+        },
+        {
+          "codcli": "50969",
+          "nome": "CASA CASTELARES",
+          "faturamento": 874.8
+        }
+      ]
+    },
+    {
+      "rca": 471,
+      "estado": "SP",
+      "chave": "SP-471",
+      "nome": "PAULO JUNIOR",
+      "time": "OUTROS",
+      "time_label": "Outros / sem time definido",
+      "total_clientes_ativos": 20,
+      "faturamento_ytd": 52121.99,
+      "media_mensal": 17374.0,
+      "por_mes": {
+        "2026-05": 17486.74,
+        "2026-06": 22522.12,
+        "2026-07": 12113.13
+      },
+      "top_industrias": [
+        {
+          "fantasia": "PERNOD",
+          "faturamento": 26006.02,
+          "pct": 49.9
+        },
+        {
+          "fantasia": "CAMPARI",
+          "faturamento": 5494.2,
+          "pct": 10.5
+        },
+        {
+          "fantasia": "BROWN",
+          "faturamento": 4078.5,
+          "pct": 7.8
+        },
+        {
+          "fantasia": "DIAGEO",
+          "faturamento": 3730.05,
+          "pct": 7.2
+        },
+        {
+          "fantasia": "MOET HENNESY",
+          "faturamento": 2656.1,
+          "pct": 5.1
+        },
+        {
+          "fantasia": "AURORA",
+          "faturamento": 2582.5,
+          "pct": 5.0
+        },
+        {
+          "fantasia": "BACARDI",
+          "faturamento": 2411.97,
+          "pct": 4.6
+        },
+        {
+          "fantasia": "BEAM SUNTORY BRASIL",
+          "faturamento": 2075.7,
+          "pct": 4.0
+        },
+        {
+          "fantasia": "COMARY",
+          "faturamento": 817.2,
+          "pct": 1.6
+        },
+        {
+          "fantasia": "BALLENA",
+          "faturamento": 639.2,
+          "pct": 1.2
+        },
+        {
+          "fantasia": "TOP BIRRA",
+          "faturamento": 419.44,
+          "pct": 0.8
+        },
+        {
+          "fantasia": "LUCIA",
+          "faturamento": 395.4,
+          "pct": 0.8
+        },
+        {
+          "fantasia": "INTERFOOD",
+          "faturamento": 282.15,
+          "pct": 0.5
+        },
+        {
+          "fantasia": "FANTE",
+          "faturamento": 246.48,
+          "pct": 0.5
+        },
+        {
+          "fantasia": "SEM FANTASIA",
+          "faturamento": 167.2,
+          "pct": 0.3
+        }
+      ],
+      "top_clientes": [
+        {
+          "codcli": "50340",
+          "nome": "BEBIDAS CAZALI",
+          "faturamento": 10579.12
+        },
+        {
+          "codcli": "50267",
+          "nome": "COMERCIO ALIMENTICIOS ARANTES",
+          "faturamento": 8519.6
+        },
+        {
+          "codcli": "50263",
+          "nome": "CATANHO E CATANHO",
+          "faturamento": 3994.2
+        },
+        {
+          "codcli": "50341",
+          "nome": "COMERCIAL DE ALIMENTOS CAETANO GUARAREMA LTDA",
+          "faturamento": 3817.24
+        },
+        {
+          "codcli": "42749",
+          "nome": "3 CHICO - IGARATA",
+          "faturamento": 2583.59
+        },
+        {
+          "codcli": "50273",
+          "nome": "LAJ COMERCIO DE ALIMENTOS",
+          "faturamento": 2493.48
+        },
+        {
+          "codcli": "50261",
+          "nome": "COMERCIAL STYLLUS CENTER DE ARUJA",
+          "faturamento": 2441.4
+        },
+        {
+          "codcli": "50266",
+          "nome": "STILUS",
+          "faturamento": 2340.84
+        },
+        {
+          "codcli": "52043",
+          "nome": "SAO JOSE",
+          "faturamento": 2329.74
+        },
+        {
+          "codcli": "50339",
+          "nome": "SALUTTE DISTRIBUIDORA DE BEBIDAS",
+          "faturamento": 2111.84
+        },
+        {
+          "codcli": "46155",
+          "nome": "IMPERIO TABACARIA E DISTRIBUIDORA DE BEBIDAS",
+          "faturamento": 1794.6
+        },
+        {
+          "codcli": "50268",
+          "nome": "MERCADINHO DA DINHA",
+          "faturamento": 1768.52
+        },
+        {
+          "codcli": "50264",
+          "nome": "COMERCIAL SANTA ISABEL MAIS",
+          "faturamento": 1580.4
+        },
+        {
+          "codcli": "50272",
+          "nome": "MERCADINHO ROCHA",
+          "faturamento": 993.5
+        },
+        {
+          "codcli": "50344",
+          "nome": "COMERCIAL DE ALIMENTOS CAETANO GUARAREMA LTDA",
+          "faturamento": 915.1
         }
       ]
     },
@@ -11591,415 +12356,300 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
       ]
     },
     {
-      "rca": 487,
+      "rca": 504,
       "estado": "SP",
-      "chave": "SP-487",
-      "nome": "LUIZ RIGLER",
+      "chave": "SP-504",
+      "nome": "GILVAN AMORIM",
       "time": "OUTROS",
       "time_label": "Outros / sem time definido",
-      "total_clientes_ativos": 11,
-      "faturamento_ytd": 45260.7,
-      "media_mensal": 22630.35,
+      "total_clientes_ativos": 22,
+      "faturamento_ytd": 46432.14,
+      "media_mensal": 46432.14,
       "por_mes": {
-        "2026-06": 20314.9,
-        "2026-07": 24945.8
+        "2026-07": 46432.14
       },
       "top_industrias": [
         {
           "fantasia": "PERNOD",
-          "faturamento": 26203.6,
-          "pct": 57.9
-        },
-        {
-          "fantasia": "BACARDI",
-          "faturamento": 10525.7,
-          "pct": 23.3
-        },
-        {
-          "fantasia": "BROWN",
-          "faturamento": 7621.6,
-          "pct": 16.8
-        },
-        {
-          "fantasia": "AURORA",
-          "faturamento": 503.4,
-          "pct": 1.1
+          "faturamento": 17300.9,
+          "pct": 37.3
         },
         {
           "fantasia": "FANTE",
-          "faturamento": 246.6,
-          "pct": 0.5
-        },
-        {
-          "fantasia": "BALLENA",
-          "faturamento": 159.8,
-          "pct": 0.4
-        }
-      ],
-      "top_clientes": [
-        {
-          "codcli": "51024",
-          "nome": "ADEGA CONVENIENCIA",
-          "faturamento": 15716.4
-        },
-        {
-          "codcli": "51021",
-          "nome": "SAO JOSE SUPERMERCADO",
-          "faturamento": 9726.5
-        },
-        {
-          "codcli": "51081",
-          "nome": "ADEGA VALENTINA",
-          "faturamento": 4689.0
-        },
-        {
-          "codcli": "50978",
-          "nome": "52.712.792 TALITA VITORIA MATOS NASCIMENTO FERREIRA",
-          "faturamento": 3771.7
-        },
-        {
-          "codcli": "50988",
-          "nome": "61.083.324 ANDERSON THIAGO FERREIRA DOS SANTOS",
-          "faturamento": 2903.9
-        },
-        {
-          "codcli": "50962",
-          "nome": "VITO SUPERMERCADOS",
-          "faturamento": 2506.8
-        },
-        {
-          "codcli": "51104",
-          "nome": "00SUPERMERCADO BRUMATTI",
-          "faturamento": 1713.7
-        },
-        {
-          "codcli": "50968",
-          "nome": "IMPERIALLE COMERCIO DE BEBIDAS",
-          "faturamento": 1482.3
-        },
-        {
-          "codcli": "50963",
-          "nome": "VITO SUPERMERCADOS",
-          "faturamento": 1198.8
-        },
-        {
-          "codcli": "50969",
-          "nome": "CASA CASTELARES",
-          "faturamento": 874.8
-        },
-        {
-          "codcli": "50997",
-          "nome": "EMPORIO E MERCEARIA MARINGA",
-          "faturamento": 676.8
-        }
-      ]
-    },
-    {
-      "rca": 490,
-      "estado": "SP",
-      "chave": "SP-490",
-      "nome": "DOUGLAS TEIXEIRA",
-      "time": "OUTROS",
-      "time_label": "Outros / sem time definido",
-      "total_clientes_ativos": 13,
-      "faturamento_ytd": 44074.97,
-      "media_mensal": 22037.48,
-      "por_mes": {
-        "2026-06": 14579.79,
-        "2026-07": 29495.18
-      },
-      "top_industrias": [
-        {
-          "fantasia": "PERNOD",
-          "faturamento": 19945.66,
-          "pct": 45.3
-        },
-        {
-          "fantasia": "BROWN",
-          "faturamento": 9814.2,
-          "pct": 22.3
-        },
-        {
-          "fantasia": "CRS BRANDS",
-          "faturamento": 3811.92,
-          "pct": 8.6
-        },
-        {
-          "fantasia": "BACARDI",
-          "faturamento": 3076.5,
-          "pct": 7.0
-        },
-        {
-          "fantasia": "CAMPARI",
-          "faturamento": 2028.0,
-          "pct": 4.6
-        },
-        {
-          "fantasia": "BALLENA",
-          "faturamento": 1917.6,
-          "pct": 4.4
+          "faturamento": 8898.92,
+          "pct": 19.2
         },
         {
           "fantasia": "AURORA",
-          "faturamento": 1519.7,
-          "pct": 3.4
-        },
-        {
-          "fantasia": "DIAGEO",
-          "faturamento": 806.72,
-          "pct": 1.8
-        },
-        {
-          "fantasia": "BEAM SUNTORY BRASIL",
-          "faturamento": 754.8,
-          "pct": 1.7
-        },
-        {
-          "fantasia": "FANTE",
-          "faturamento": 249.7,
-          "pct": 0.6
-        },
-        {
-          "fantasia": "STOCK",
-          "faturamento": 150.16,
-          "pct": 0.3
-        }
-      ],
-      "top_clientes": [
-        {
-          "codcli": "46274",
-          "nome": "COMERCIO 5 ESTRELAS BEBIDAS E ALIMENTOS",
-          "faturamento": 13876.96
-        },
-        {
-          "codcli": "47058",
-          "nome": "EMPORIUM 5 ESTRELAS",
-          "faturamento": 8578.1
-        },
-        {
-          "codcli": "49378",
-          "nome": "DISTRIBUIDORA ATACADISTA E VAREJISTA BEER HOUSE",
-          "faturamento": 6385.22
-        },
-        {
-          "codcli": "51887",
-          "nome": "BONETTI SUPERMERCADOS",
-          "faturamento": 4018.0
-        },
-        {
-          "codcli": "51886",
-          "nome": "BONETTI SUPERMERCADOS",
-          "faturamento": 4018.0
-        },
-        {
-          "codcli": "39315",
-          "nome": "BAR E LANCHONETE PAULISTA",
-          "faturamento": 3165.0
-        },
-        {
-          "codcli": "51189",
-          "nome": "M S KURODA & CIA",
-          "faturamento": 1342.5
-        },
-        {
-          "codcli": "51075",
-          "nome": "TRAIRAGEM BAR",
-          "faturamento": 1104.49
-        },
-        {
-          "codcli": "51232",
-          "nome": "CARLOS HENRIQUE FABRI",
-          "faturamento": 603.9
-        },
-        {
-          "codcli": "51780",
-          "nome": "MODELO",
-          "faturamento": 354.0
-        },
-        {
-          "codcli": "51186",
-          "nome": "M S KURODA & CIA LTDA",
-          "faturamento": 212.7
-        },
-        {
-          "codcli": "51188",
-          "nome": "KURODA ATACAREJO",
-          "faturamento": 212.7
-        },
-        {
-          "codcli": "51185",
-          "nome": "ADEGA DO ALEMAO",
-          "faturamento": 203.4
-        }
-      ]
-    },
-    {
-      "rca": 471,
-      "estado": "SP",
-      "chave": "SP-471",
-      "nome": "PAULO JUNIOR",
-      "time": "OUTROS",
-      "time_label": "Outros / sem time definido",
-      "total_clientes_ativos": 18,
-      "faturamento_ytd": 42427.93,
-      "media_mensal": 14142.64,
-      "por_mes": {
-        "2026-05": 17486.74,
-        "2026-06": 22522.12,
-        "2026-07": 2419.06
-      },
-      "top_industrias": [
-        {
-          "fantasia": "PERNOD",
-          "faturamento": 20980.48,
-          "pct": 49.4
-        },
-        {
-          "fantasia": "CAMPARI",
-          "faturamento": 4722.0,
-          "pct": 11.1
-        },
-        {
-          "fantasia": "DIAGEO",
-          "faturamento": 2790.68,
-          "pct": 6.6
+          "faturamento": 6782.5,
+          "pct": 14.6
         },
         {
           "fantasia": "BROWN",
-          "faturamento": 2770.2,
-          "pct": 6.5
+          "faturamento": 6593.4,
+          "pct": 14.2
         },
         {
-          "fantasia": "MOET HENNESY",
-          "faturamento": 2556.6,
-          "pct": 6.0
+          "fantasia": "BALLENA",
+          "faturamento": 1837.7,
+          "pct": 4.0
+        },
+        {
+          "fantasia": "TATUZINHO",
+          "faturamento": 1612.5,
+          "pct": 3.5
+        },
+        {
+          "fantasia": "DIAGEO",
+          "faturamento": 1370.6,
+          "pct": 3.0
         },
         {
           "fantasia": "BACARDI",
-          "faturamento": 2411.97,
-          "pct": 5.7
-        },
-        {
-          "fantasia": "AURORA",
-          "faturamento": 2384.8,
-          "pct": 5.6
-        },
-        {
-          "fantasia": "BEAM SUNTORY BRASIL",
-          "faturamento": 1006.4,
-          "pct": 2.4
-        },
-        {
-          "fantasia": "COMARY",
-          "faturamento": 817.2,
+          "faturamento": 868.44,
           "pct": 1.9
         },
         {
-          "fantasia": "BALLENA",
-          "faturamento": 639.2,
-          "pct": 1.5
-        },
-        {
-          "fantasia": "TOP BIRRA",
-          "faturamento": 419.44,
-          "pct": 1.0
-        },
-        {
-          "fantasia": "LUCIA",
-          "faturamento": 395.4,
-          "pct": 0.9
-        },
-        {
-          "fantasia": "FANTE",
-          "faturamento": 246.48,
-          "pct": 0.6
-        },
-        {
-          "fantasia": "SEM FANTASIA",
-          "faturamento": 167.2,
-          "pct": 0.4
-        },
-        {
           "fantasia": "CRS BRANDS",
-          "faturamento": 119.88,
+          "faturamento": 723.78,
+          "pct": 1.6
+        },
+        {
+          "fantasia": "INTERFOOD",
+          "faturamento": 314.7,
+          "pct": 0.7
+        },
+        {
+          "fantasia": "CAMPARI",
+          "faturamento": 128.7,
           "pct": 0.3
         }
       ],
       "top_clientes": [
         {
-          "codcli": "50340",
-          "nome": "BEBIDAS CAZALI",
-          "faturamento": 9805.42
+          "codcli": "51684",
+          "nome": "DE CASA",
+          "faturamento": 12872.6
         },
         {
-          "codcli": "50267",
-          "nome": "COMERCIO ALIMENTICIOS ARANTES",
-          "faturamento": 4530.28
+          "codcli": "51676",
+          "nome": "VIZINHO SUPERMERCADOS",
+          "faturamento": 5537.7
         },
         {
-          "codcli": "50263",
-          "nome": "CATANHO E CATANHO",
-          "faturamento": 3994.2
+          "codcli": "51692",
+          "nome": "DE CASA",
+          "faturamento": 4410.3
         },
         {
-          "codcli": "50341",
-          "nome": "COMERCIAL DE ALIMENTOS CAETANO GUARAREMA LTDA",
-          "faturamento": 3817.24
+          "codcli": "51917",
+          "nome": "VIZINHO SUPERMERCADOS",
+          "faturamento": 4152.0
         },
         {
-          "codcli": "42749",
-          "nome": "3 CHICO - IGARATA",
-          "faturamento": 2583.59
+          "codcli": "51683",
+          "nome": "VIZINHO SUPERMERCADOS",
+          "faturamento": 2127.6
         },
         {
-          "codcli": "50261",
-          "nome": "COMERCIAL STYLLUS CENTER DE ARUJA",
-          "faturamento": 2441.4
+          "codcli": "51691",
+          "nome": "SERTOP OPERACAO E GESTAO DO VAREJO ALIMENTICIO",
+          "faturamento": 2018.8
         },
         {
-          "codcli": "50266",
-          "nome": "STILUS",
-          "faturamento": 2340.84
+          "codcli": "51507",
+          "nome": "XULAS BAR",
+          "faturamento": 1673.68
         },
         {
-          "codcli": "50339",
-          "nome": "SALUTTE DISTRIBUIDORA DE BEBIDAS",
-          "faturamento": 2111.84
+          "codcli": "51686",
+          "nome": "SERTOP OPERACAO E GESTAO DO VAREJO ALIMENTICIO",
+          "faturamento": 1638.3
         },
         {
-          "codcli": "50268",
-          "nome": "MERCADINHO DA DINHA",
-          "faturamento": 1768.52
+          "codcli": "51694",
+          "nome": "SERTOP OPERACAO E GESTAO DO VAREJO ALIMENTICIO",
+          "faturamento": 1458.0
         },
         {
-          "codcli": "50273",
-          "nome": "LAJ COMERCIO DE ALIMENTOS",
-          "faturamento": 1686.78
+          "codcli": "51487",
+          "nome": "IRMAOS BRESCIANI SUPERMERCADO",
+          "faturamento": 1226.98
         },
         {
-          "codcli": "50264",
-          "nome": "COMERCIAL SANTA ISABEL MAIS",
-          "faturamento": 1580.4
+          "codcli": "51557",
+          "nome": "SUPERMERCADO ARMELIN",
+          "faturamento": 1161.29
         },
         {
-          "codcli": "50272",
-          "nome": "MERCADINHO ROCHA",
-          "faturamento": 993.5
+          "codcli": "51673",
+          "nome": "VIZINHO SUPERMERCADOS",
+          "faturamento": 1065.3
         },
         {
-          "codcli": "50344",
-          "nome": "COMERCIAL DE ALIMENTOS CAETANO GUARAREMA LTDA",
-          "faturamento": 915.1
+          "codcli": "51685",
+          "nome": "SERTOP OPERACAO E GESTAO DO VAREJO ALIMENTICIO",
+          "faturamento": 1030.5
         },
         {
-          "codcli": "50337",
-          "nome": "FAMILIA PIRES DOCES LTDA",
-          "faturamento": 899.3
+          "codcli": "51558",
+          "nome": "ALTO GIRO SUPERMERCADOS",
+          "faturamento": 1013.7
         },
         {
-          "codcli": "50262",
-          "nome": "STYLLUS SUPERMERCADOS",
-          "faturamento": 891.72
+          "codcli": "51682",
+          "nome": "VIZINHO SUPERMERCADOS",
+          "faturamento": 986.1
+        }
+      ]
+    },
+    {
+      "rca": 474,
+      "estado": "SP",
+      "chave": "SP-474",
+      "nome": "FRANCIS SILVA",
+      "time": "OUTROS",
+      "time_label": "Outros / sem time definido",
+      "total_clientes_ativos": 14,
+      "faturamento_ytd": 41450.91,
+      "media_mensal": 13816.97,
+      "por_mes": {
+        "2026-05": 4509.8,
+        "2026-06": 21107.07,
+        "2026-07": 15834.05
+      },
+      "top_industrias": [
+        {
+          "fantasia": "PERNOD",
+          "faturamento": 16438.2,
+          "pct": 39.7
+        },
+        {
+          "fantasia": "BROWN",
+          "faturamento": 11332.1,
+          "pct": 27.3
+        },
+        {
+          "fantasia": "DIAGEO",
+          "faturamento": 7603.01,
+          "pct": 18.3
+        },
+        {
+          "fantasia": "AURORA",
+          "faturamento": 1775.02,
+          "pct": 4.3
+        },
+        {
+          "fantasia": "CAMPARI",
+          "faturamento": 1081.7,
+          "pct": 2.6
+        },
+        {
+          "fantasia": "BACARDI",
+          "faturamento": 902.88,
+          "pct": 2.2
+        },
+        {
+          "fantasia": "SEM FANTASIA",
+          "faturamento": 837.4,
+          "pct": 2.0
+        },
+        {
+          "fantasia": "FANTE",
+          "faturamento": 739.8,
+          "pct": 1.8
+        },
+        {
+          "fantasia": "CRS BRANDS",
+          "faturamento": 476.54,
+          "pct": 1.1
+        },
+        {
+          "fantasia": "INTERFOOD",
+          "faturamento": 209.8,
+          "pct": 0.5
+        },
+        {
+          "fantasia": "MOET HENNESY",
+          "faturamento": 28.67,
+          "pct": 0.1
+        },
+        {
+          "fantasia": "TATUZINHO",
+          "faturamento": 25.8,
+          "pct": 0.1
+        }
+      ],
+      "top_clientes": [
+        {
+          "codcli": "34970",
+          "nome": "MDM DISTRIBUIDORA DE BEBIDAS E CONVENIENCIA",
+          "faturamento": 14850.9
+        },
+        {
+          "codcli": "50782",
+          "nome": "ADEGA NOVO MUNDO",
+          "faturamento": 5454.58
+        },
+        {
+          "codcli": "50732",
+          "nome": "CHICOTE DEPOSITO DE BEBIDAS",
+          "faturamento": 4910.41
+        },
+        {
+          "codcli": "50442",
+          "nome": "MARIA APARECIDA DA SILVA ANDREAZA",
+          "faturamento": 4793.2
+        },
+        {
+          "codcli": "50443",
+          "nome": "NATHALIA PERES CORDEIRO",
+          "faturamento": 2403.9
+        },
+        {
+          "codcli": "50438",
+          "nome": "LSERVICE COMERCIO E SERVICOS ADMINISTRATIVOS",
+          "faturamento": 2348.8
+        },
+        {
+          "codcli": "50437",
+          "nome": "JOSE ARAUJO DE OLIVEIRA",
+          "faturamento": 2124.3
+        },
+        {
+          "codcli": "50440",
+          "nome": "MAICON DEIVIS MACARI",
+          "faturamento": 1533.1
+        },
+        {
+          "codcli": "51229",
+          "nome": "OTAVIO AUGUSTO DIAS DE FREITAS",
+          "faturamento": 794.62
+        },
+        {
+          "codcli": "51069",
+          "nome": "SBO VISTA ALEGRE SUPERMERCADO",
+          "faturamento": 718.44
+        },
+        {
+          "codcli": "50707",
+          "nome": "JOANA FRANCISCO DE OLIVEIRA TOMAZ",
+          "faturamento": 572.17
+        },
+        {
+          "codcli": "50432",
+          "nome": "JOSIMARA CRUZ PEREIRA DE OLIVEIRA",
+          "faturamento": 514.8
+        },
+        {
+          "codcli": "51292",
+          "nome": "JOHNNY HENRIQUE ESCOBAR",
+          "faturamento": 266.4
+        },
+        {
+          "codcli": "51375",
+          "nome": "CASA DO NORTE",
+          "faturamento": 165.3
         }
       ]
     },
@@ -12175,156 +12825,6 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
       ]
     },
     {
-      "rca": 474,
-      "estado": "SP",
-      "chave": "SP-474",
-      "nome": "FRANCIS SILVA",
-      "time": "OUTROS",
-      "time_label": "Outros / sem time definido",
-      "total_clientes_ativos": 14,
-      "faturamento_ytd": 37236.97,
-      "media_mensal": 12412.32,
-      "por_mes": {
-        "2026-05": 4509.8,
-        "2026-06": 21107.07,
-        "2026-07": 11620.11
-      },
-      "top_industrias": [
-        {
-          "fantasia": "PERNOD",
-          "faturamento": 13941.7,
-          "pct": 37.4
-        },
-        {
-          "fantasia": "BROWN",
-          "faturamento": 11332.1,
-          "pct": 30.4
-        },
-        {
-          "fantasia": "DIAGEO",
-          "faturamento": 6209.21,
-          "pct": 16.7
-        },
-        {
-          "fantasia": "AURORA",
-          "faturamento": 1775.02,
-          "pct": 4.8
-        },
-        {
-          "fantasia": "CAMPARI",
-          "faturamento": 1081.7,
-          "pct": 2.9
-        },
-        {
-          "fantasia": "BACARDI",
-          "faturamento": 902.88,
-          "pct": 2.4
-        },
-        {
-          "fantasia": "SEM FANTASIA",
-          "faturamento": 837.4,
-          "pct": 2.2
-        },
-        {
-          "fantasia": "FANTE",
-          "faturamento": 739.8,
-          "pct": 2.0
-        },
-        {
-          "fantasia": "INTERFOOD",
-          "faturamento": 209.8,
-          "pct": 0.6
-        },
-        {
-          "fantasia": "CRS BRANDS",
-          "faturamento": 152.9,
-          "pct": 0.4
-        },
-        {
-          "fantasia": "MOET HENNESY",
-          "faturamento": 28.67,
-          "pct": 0.1
-        },
-        {
-          "fantasia": "TATUZINHO",
-          "faturamento": 25.8,
-          "pct": 0.1
-        }
-      ],
-      "top_clientes": [
-        {
-          "codcli": "34970",
-          "nome": "MDM DISTRIBUIDORA DE BEBIDAS E CONVENIENCIA",
-          "faturamento": 14850.9
-        },
-        {
-          "codcli": "50732",
-          "nome": "CHICOTE DEPOSITO DE BEBIDAS",
-          "faturamento": 4910.41
-        },
-        {
-          "codcli": "50442",
-          "nome": "MARIA APARECIDA DA SILVA ANDREAZA",
-          "faturamento": 3733.0
-        },
-        {
-          "codcli": "50782",
-          "nome": "ADEGA NOVO MUNDO",
-          "faturamento": 3664.88
-        },
-        {
-          "codcli": "50438",
-          "nome": "LSERVICE COMERCIO E SERVICOS ADMINISTRATIVOS",
-          "faturamento": 2348.8
-        },
-        {
-          "codcli": "50437",
-          "nome": "JOSE ARAUJO DE OLIVEIRA",
-          "faturamento": 2124.3
-        },
-        {
-          "codcli": "50440",
-          "nome": "MAICON DEIVIS MACARI",
-          "faturamento": 1533.1
-        },
-        {
-          "codcli": "50443",
-          "nome": "NATHALIA PERES CORDEIRO",
-          "faturamento": 1363.5
-        },
-        {
-          "codcli": "51229",
-          "nome": "OTAVIO AUGUSTO DIAS DE FREITAS",
-          "faturamento": 794.62
-        },
-        {
-          "codcli": "50707",
-          "nome": "JOANA FRANCISCO DE OLIVEIRA TOMAZ",
-          "faturamento": 572.17
-        },
-        {
-          "codcli": "50432",
-          "nome": "JOSIMARA CRUZ PEREIRA DE OLIVEIRA",
-          "faturamento": 514.8
-        },
-        {
-          "codcli": "51069",
-          "nome": "SBO VISTA ALEGRE SUPERMERCADO",
-          "faturamento": 394.8
-        },
-        {
-          "codcli": "51292",
-          "nome": "JOHNNY HENRIQUE ESCOBAR",
-          "faturamento": 266.4
-        },
-        {
-          "codcli": "51375",
-          "nome": "CASA DO NORTE",
-          "faturamento": 165.3
-        }
-      ]
-    },
-    {
       "rca": 265,
       "estado": "ES",
       "chave": "ES-265",
@@ -12475,40 +12975,143 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
       ]
     },
     {
+      "rca": 498,
+      "estado": "SP",
+      "chave": "SP-498",
+      "nome": "CELSO OLIVEIRA",
+      "time": "OUTROS",
+      "time_label": "Outros / sem time definido",
+      "total_clientes_ativos": 11,
+      "faturamento_ytd": 35762.02,
+      "media_mensal": 35762.02,
+      "por_mes": {
+        "2026-07": 35762.02
+      },
+      "top_industrias": [
+        {
+          "fantasia": "PERNOD",
+          "faturamento": 22717.5,
+          "pct": 63.5
+        },
+        {
+          "fantasia": "BROWN",
+          "faturamento": 6493.5,
+          "pct": 18.2
+        },
+        {
+          "fantasia": "BACARDI",
+          "faturamento": 3156.78,
+          "pct": 8.8
+        },
+        {
+          "fantasia": "CRS BRANDS",
+          "faturamento": 2181.24,
+          "pct": 6.1
+        },
+        {
+          "fantasia": "AURORA",
+          "faturamento": 866.2,
+          "pct": 2.4
+        },
+        {
+          "fantasia": "DIAGEO",
+          "faturamento": 346.8,
+          "pct": 1.0
+        }
+      ],
+      "top_clientes": [
+        {
+          "codcli": "51391",
+          "nome": "GUILHERME DE SOUZA MARTINS",
+          "faturamento": 8382.6
+        },
+        {
+          "codcli": "51406",
+          "nome": "DEPOSITO DE GAS TIETE",
+          "faturamento": 5985.0
+        },
+        {
+          "codcli": "51465",
+          "nome": "LARISSA CRISTINA DE OLIVEIRA",
+          "faturamento": 5636.7
+        },
+        {
+          "codcli": "51448",
+          "nome": "SUPERMERCADO ATLANTICO",
+          "faturamento": 3181.41
+        },
+        {
+          "codcli": "51323",
+          "nome": "PAULO JOSE SALINA & CIA",
+          "faturamento": 2996.24
+        },
+        {
+          "codcli": "51334",
+          "nome": "PAULO JOSE SALINA & CIA",
+          "faturamento": 2598.11
+        },
+        {
+          "codcli": "51315",
+          "nome": "ADEGA DO CAMPO",
+          "faturamento": 2585.1
+        },
+        {
+          "codcli": "51470",
+          "nome": "PALONE GASTROBAR",
+          "faturamento": 1654.5
+        },
+        {
+          "codcli": "51466",
+          "nome": "WESLLEY LAUAN RAMOS LINO",
+          "faturamento": 1198.8
+        },
+        {
+          "codcli": "52047",
+          "nome": "SUPERMERCADO PRINCIPAL",
+          "faturamento": 1143.96
+        },
+        {
+          "codcli": "51778",
+          "nome": "BENEDITO ANTONIO RODRIGUES NOVA EUROPA",
+          "faturamento": 399.6
+        }
+      ]
+    },
+    {
       "rca": 473,
       "estado": "SP",
       "chave": "SP-473",
       "nome": "MARCELO PEREIRA",
       "time": "OUTROS",
       "time_label": "Outros / sem time definido",
-      "total_clientes_ativos": 5,
-      "faturamento_ytd": 35901.76,
-      "media_mensal": 11967.25,
+      "total_clientes_ativos": 4,
+      "faturamento_ytd": 35494.96,
+      "media_mensal": 11831.65,
       "por_mes": {
         "2026-05": 19765.2,
         "2026-06": 3443.8,
-        "2026-07": 12692.76
+        "2026-07": 12285.96
       },
       "top_industrias": [
         {
           "fantasia": "PERNOD",
-          "faturamento": 28698.2,
-          "pct": 79.9
+          "faturamento": 28291.4,
+          "pct": 79.7
         },
         {
           "fantasia": "BROWN",
           "faturamento": 2399.76,
-          "pct": 6.7
+          "pct": 6.8
         },
         {
           "fantasia": "DIAGEO",
           "faturamento": 1734.0,
-          "pct": 4.8
+          "pct": 4.9
         },
         {
           "fantasia": "BEAM SUNTORY BRASIL",
           "faturamento": 1509.6,
-          "pct": 4.2
+          "pct": 4.3
         },
         {
           "fantasia": "AURORA",
@@ -12541,104 +13144,74 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
           "codcli": "51795",
           "nome": "BEER DO PEREIRA",
           "faturamento": 685.4
-        },
-        {
-          "codcli": "51816",
-          "nome": "PADARIA FLORESTA II",
-          "faturamento": 406.8
         }
       ]
     },
     {
-      "rca": 498,
+      "rca": 508,
       "estado": "SP",
-      "chave": "SP-498",
-      "nome": "CELSO OLIVEIRA",
+      "chave": "SP-508",
+      "nome": "PAULO SALES",
       "time": "OUTROS",
       "time_label": "Outros / sem time definido",
-      "total_clientes_ativos": 10,
-      "faturamento_ytd": 29832.74,
-      "media_mensal": 29832.74,
+      "total_clientes_ativos": 6,
+      "faturamento_ytd": 29448.56,
+      "media_mensal": 29448.56,
       "por_mes": {
-        "2026-07": 29832.74
+        "2026-07": 29448.56
       },
       "top_industrias": [
         {
-          "fantasia": "PERNOD",
-          "faturamento": 21050.3,
-          "pct": 70.6
-        },
-        {
-          "fantasia": "BROWN",
-          "faturamento": 5994.0,
-          "pct": 20.1
-        },
-        {
           "fantasia": "CRS BRANDS",
-          "faturamento": 1641.84,
-          "pct": 5.5
+          "faturamento": 28264.56,
+          "pct": 96.0
         },
         {
-          "fantasia": "BACARDI",
-          "faturamento": 831.9,
-          "pct": 2.8
+          "fantasia": "PERNOD",
+          "faturamento": 659.9,
+          "pct": 2.2
+        },
+        {
+          "fantasia": "SEM FANTASIA",
+          "faturamento": 299.4,
+          "pct": 1.0
         },
         {
           "fantasia": "AURORA",
-          "faturamento": 314.7,
-          "pct": 1.1
+          "faturamento": 224.7,
+          "pct": 0.8
         }
       ],
       "top_clientes": [
         {
-          "codcli": "51391",
-          "nome": "GUILHERME DE SOUZA MARTINS",
-          "faturamento": 8382.6
+          "codcli": "52013",
+          "nome": "SUPERMERCADO SUPER JOSE",
+          "faturamento": 9277.68
         },
         {
-          "codcli": "51406",
-          "nome": "DEPOSITO DE GAS TIETE",
-          "faturamento": 5985.0
+          "codcli": "52007",
+          "nome": "FILIAL 1",
+          "faturamento": 5933.4
         },
         {
-          "codcli": "51465",
-          "nome": "LARISSA CRISTINA DE OLIVEIRA",
-          "faturamento": 4338.3
+          "codcli": "52011",
+          "nome": "SUPERMERCADO SUPER JOSE IPANEMA",
+          "faturamento": 4746.72
         },
         {
-          "codcli": "51323",
-          "nome": "PAULO JOSE SALINA & CIA",
-          "faturamento": 2678.84
+          "codcli": "52010",
+          "nome": "FILIAL 2",
+          "faturamento": 4746.72
         },
         {
-          "codcli": "51315",
-          "nome": "ADEGA DO CAMPO",
-          "faturamento": 2585.1
+          "codcli": "52009",
+          "nome": "COMERCIAL SUPER SAO JOSE",
+          "faturamento": 3560.04
         },
         {
-          "codcli": "51334",
-          "nome": "PAULO JOSE SALINA & CIA",
-          "faturamento": 2236.53
-        },
-        {
-          "codcli": "51448",
-          "nome": "SUPERMERCADO ATLANTICO",
-          "faturamento": 1228.77
-        },
-        {
-          "codcli": "51466",
-          "nome": "WESLLEY LAUAN RAMOS LINO",
-          "faturamento": 1198.8
-        },
-        {
-          "codcli": "51470",
-          "nome": "PALONE GASTROBAR",
-          "faturamento": 799.2
-        },
-        {
-          "codcli": "51778",
-          "nome": "BENEDITO ANTONIO RODRIGUES NOVA EUROPA",
-          "faturamento": 399.6
+          "codcli": "47040",
+          "nome": "ROYALLE EMPÓRIO DE BEBIDAS",
+          "faturamento": 1184.0
         }
       ]
     },
@@ -12780,33 +13353,33 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
       "time": "OUTROS",
       "time_label": "Outros / sem time definido",
       "total_clientes_ativos": 13,
-      "faturamento_ytd": 26411.26,
-      "media_mensal": 8803.75,
+      "faturamento_ytd": 26088.58,
+      "media_mensal": 8696.19,
       "por_mes": {
         "2026-05": 4040.1,
-        "2026-06": 6883.26,
+        "2026-06": 6560.58,
         "2026-07": 15487.9
       },
       "top_industrias": [
         {
           "fantasia": "PERNOD",
           "faturamento": 14014.2,
-          "pct": 53.1
+          "pct": 53.7
         },
         {
           "fantasia": "CRS BRANDS",
-          "faturamento": 3773.01,
-          "pct": 14.3
+          "faturamento": 3653.13,
+          "pct": 14.0
         },
         {
           "fantasia": "BROWN",
           "faturamento": 3596.4,
-          "pct": 13.6
+          "pct": 13.8
         },
         {
           "fantasia": "CAMPARI",
-          "faturamento": 2078.7,
-          "pct": 7.9
+          "faturamento": 1875.9,
+          "pct": 7.2
         },
         {
           "fantasia": "BEAM SUNTORY BRASIL",
@@ -12831,7 +13404,7 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
         {
           "fantasia": "COMARY",
           "faturamento": 326.96,
-          "pct": 1.2
+          "pct": 1.3
         },
         {
           "fantasia": "TATUZINHO",
@@ -12886,11 +13459,6 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
           "faturamento": 845.26
         },
         {
-          "codcli": "50636",
-          "nome": "SUPERMERCADO RAMA",
-          "faturamento": 645.36
-        },
-        {
           "codcli": "50664",
           "nome": "MERCADINHO 15 DE AGOSTO",
           "faturamento": 539.4
@@ -12899,6 +13467,11 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
           "codcli": "51434",
           "nome": "MERCADO SILVA JUNDIAI",
           "faturamento": 323.64
+        },
+        {
+          "codcli": "50636",
+          "nome": "SUPERMERCADO RAMA",
+          "faturamento": 322.68
         },
         {
           "codcli": "51392",
@@ -12915,69 +13488,69 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
       "time": "OUTROS",
       "time_label": "Outros / sem time definido",
       "total_clientes_ativos": 25,
-      "faturamento_ytd": 22722.19,
-      "media_mensal": 11361.09,
+      "faturamento_ytd": 24669.09,
+      "media_mensal": 12334.54,
       "por_mes": {
         "2026-06": 16518.11,
-        "2026-07": 6204.08
+        "2026-07": 8150.98
       },
       "top_industrias": [
         {
           "fantasia": "PERNOD",
-          "faturamento": 12858.5,
-          "pct": 56.6
+          "faturamento": 13395.8,
+          "pct": 54.3
         },
         {
           "fantasia": "CRS BRANDS",
           "faturamento": 4632.76,
-          "pct": 20.4
+          "pct": 18.8
+        },
+        {
+          "fantasia": "BROWN",
+          "faturamento": 1898.1,
+          "pct": 7.7
         },
         {
           "fantasia": "DIAGEO",
           "faturamento": 1377.39,
-          "pct": 6.1
+          "pct": 5.6
         },
         {
           "fantasia": "FANTE",
           "faturamento": 1364.58,
-          "pct": 6.0
-        },
-        {
-          "fantasia": "BROWN",
-          "faturamento": 799.2,
-          "pct": 3.5
+          "pct": 5.5
         },
         {
           "fantasia": "BEAM SUNTORY BRASIL",
           "faturamento": 754.8,
-          "pct": 3.3
+          "pct": 3.1
+        },
+        {
+          "fantasia": "BACARDI",
+          "faturamento": 415.6,
+          "pct": 1.7
         },
         {
           "fantasia": "CAMPARI",
           "faturamento": 405.6,
-          "pct": 1.8
+          "pct": 1.6
         },
         {
           "fantasia": "BALLENA",
           "faturamento": 319.6,
-          "pct": 1.4
-        },
-        {
-          "fantasia": "AURORA",
-          "faturamento": 104.9,
-          "pct": 0.5
+          "pct": 1.3
         },
         {
           "fantasia": "TOP BIRRA",
           "faturamento": 104.86,
-          "pct": 0.5
+          "pct": 0.4
         }
       ],
       "top_clientes": [
         {
           "codcli": "51231",
           "nome": "F 3 M SERVICOS E COMERCIO",
-          "faturamento": 3460.2
+          "faturamento": 3894.9
         },
         {
           "codcli": "51353",
@@ -12987,12 +13560,12 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
         {
           "codcli": "51317",
           "nome": "ADEGA DISTRIBUIDORA SEM LIMITES",
-          "faturamento": 1596.78
+          "faturamento": 2166.18
         },
         {
           "codcli": "51296",
           "nome": "JESSICA BRITO DIAS",
-          "faturamento": 1461.6
+          "faturamento": 1877.2
         },
         {
           "codcli": "51316",
@@ -13015,6 +13588,11 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
           "faturamento": 976.5
         },
         {
+          "codcli": "51248",
+          "nome": "EMILE SUPERMERCADOS",
+          "faturamento": 966.9
+        },
+        {
           "codcli": "51410",
           "nome": "PADARIA E MERCADINHO NOVA SUICA",
           "faturamento": 852.63
@@ -13035,19 +13613,128 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
           "faturamento": 647.28
         },
         {
+          "codcli": "51756",
+          "nome": "REINALDO FERNANDES BALIERO",
+          "faturamento": 599.4
+        },
+        {
           "codcli": "51312",
           "nome": "MINI-MERCADO NILSON",
           "faturamento": 539.4
+        }
+      ]
+    },
+    {
+      "rca": 491,
+      "estado": "SP",
+      "chave": "SP-491",
+      "nome": "GILSON DE OLIVEIRA",
+      "time": "OUTROS",
+      "time_label": "Outros / sem time definido",
+      "total_clientes_ativos": 9,
+      "faturamento_ytd": 23802.65,
+      "media_mensal": 11901.32,
+      "por_mes": {
+        "2026-06": 10786.35,
+        "2026-07": 13016.3
+      },
+      "top_industrias": [
+        {
+          "fantasia": "PERNOD",
+          "faturamento": 9216.7,
+          "pct": 38.7
         },
         {
-          "codcli": "51248",
-          "nome": "EMILE SUPERMERCADOS",
-          "faturamento": 539.4
+          "fantasia": "AURORA",
+          "faturamento": 5347.2,
+          "pct": 22.5
         },
         {
-          "codcli": "51254",
-          "nome": "MERCADO BEM BARATO",
-          "faturamento": 539.4
+          "fantasia": "BACARDI",
+          "faturamento": 2429.65,
+          "pct": 10.2
+        },
+        {
+          "fantasia": "BROWN",
+          "faturamento": 2397.6,
+          "pct": 10.1
+        },
+        {
+          "fantasia": "BALLENA",
+          "faturamento": 2015.5,
+          "pct": 8.5
+        },
+        {
+          "fantasia": "CRS BRANDS",
+          "faturamento": 1042.32,
+          "pct": 4.4
+        },
+        {
+          "fantasia": "BEAM SUNTORY BRASIL",
+          "faturamento": 880.6,
+          "pct": 3.7
+        },
+        {
+          "fantasia": "STOCK",
+          "faturamento": 225.25,
+          "pct": 0.9
+        },
+        {
+          "fantasia": "DIAGEO",
+          "faturamento": 146.43,
+          "pct": 0.6
+        },
+        {
+          "fantasia": "CAMPARI",
+          "faturamento": 101.4,
+          "pct": 0.4
+        }
+      ],
+      "top_clientes": [
+        {
+          "codcli": "51119",
+          "nome": "SUPERMERCADO MICHELASSI",
+          "faturamento": 10050.4
+        },
+        {
+          "codcli": "51120",
+          "nome": "SUPERMERCADOS MICHELASSI",
+          "faturamento": 3799.5
+        },
+        {
+          "codcli": "51103",
+          "nome": "KRISKAN DISTRIBUIDORA E TRANSPORTES",
+          "faturamento": 3399.9
+        },
+        {
+          "codcli": "51067",
+          "nome": "CENTRO DE DISTRIBUICAO ATACADISTA AQUILANTE",
+          "faturamento": 2468.08
+        },
+        {
+          "codcli": "51172",
+          "nome": "SUPERMERCADO PEGORIN",
+          "faturamento": 2072.14
+        },
+        {
+          "codcli": "51463",
+          "nome": "SUPERMERCADO DO NENA",
+          "faturamento": 778.5
+        },
+        {
+          "codcli": "51414",
+          "nome": "CASARAO 682",
+          "faturamento": 448.2
+        },
+        {
+          "codcli": "52110",
+          "nome": "EMPORIO SUPERMERCADOS LTDA",
+          "faturamento": 448.2
+        },
+        {
+          "codcli": "51430",
+          "nome": "LUANA MARQUES DA SILVA",
+          "faturamento": 337.73
         }
       ]
     },
@@ -13059,8 +13746,8 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
       "time": "OUTROS",
       "time_label": "Outros / sem time definido",
       "total_clientes_ativos": 7,
-      "faturamento_ytd": 22705.8,
-      "media_mensal": 3243.69,
+      "faturamento_ytd": 23327.4,
+      "media_mensal": 3332.49,
       "por_mes": {
         "2026-01": 499.8,
         "2026-02": 919.2,
@@ -13068,12 +13755,12 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
         "2026-04": 2892.0,
         "2026-05": 2259.6,
         "2026-06": 2881.2,
-        "2026-07": 1135.2
+        "2026-07": 1756.8
       },
       "top_industrias": [
         {
           "fantasia": "CASTAS",
-          "faturamento": 22705.8,
+          "faturamento": 23327.4,
           "pct": 100.0
         }
       ],
@@ -13086,7 +13773,7 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
         {
           "codcli": "48398",
           "nome": "A PRACINHA",
-          "faturamento": 8257.2
+          "faturamento": 8878.8
         },
         {
           "codcli": "49375",
@@ -13116,111 +13803,352 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
       ]
     },
     {
-      "rca": 491,
+      "rca": 516,
       "estado": "SP",
-      "chave": "SP-491",
-      "nome": "GILSON DE OLIVEIRA",
+      "chave": "SP-516",
+      "nome": "JOAQUIM ANGELO",
       "time": "OUTROS",
       "time_label": "Outros / sem time definido",
-      "total_clientes_ativos": 8,
-      "faturamento_ytd": 18086.88,
-      "media_mensal": 9043.44,
+      "total_clientes_ativos": 14,
+      "faturamento_ytd": 22257.31,
+      "media_mensal": 22257.31,
       "por_mes": {
-        "2026-06": 10786.35,
-        "2026-07": 7300.53
+        "2026-07": 22257.31
       },
       "top_industrias": [
         {
           "fantasia": "PERNOD",
-          "faturamento": 6190.3,
-          "pct": 34.2
-        },
-        {
-          "fantasia": "AURORA",
-          "faturamento": 5431.1,
-          "pct": 30.0
-        },
-        {
-          "fantasia": "BALLENA",
-          "faturamento": 2015.5,
-          "pct": 11.1
-        },
-        {
-          "fantasia": "BACARDI",
-          "faturamento": 1286.7,
-          "pct": 7.1
+          "faturamento": 8743.7,
+          "pct": 39.3
         },
         {
           "fantasia": "BROWN",
-          "faturamento": 1198.8,
-          "pct": 6.6
-        },
-        {
-          "fantasia": "BEAM SUNTORY BRASIL",
-          "faturamento": 880.6,
-          "pct": 4.9
-        },
-        {
-          "fantasia": "CRS BRANDS",
-          "faturamento": 610.8,
-          "pct": 3.4
-        },
-        {
-          "fantasia": "STOCK",
-          "faturamento": 225.25,
-          "pct": 1.2
+          "faturamento": 4635.6,
+          "pct": 20.8
         },
         {
           "fantasia": "DIAGEO",
-          "faturamento": 146.43,
-          "pct": 0.8
+          "faturamento": 2178.8,
+          "pct": 9.8
+        },
+        {
+          "fantasia": "CRS BRANDS",
+          "faturamento": 1510.32,
+          "pct": 6.8
+        },
+        {
+          "fantasia": "FANTE",
+          "faturamento": 1476.0,
+          "pct": 6.6
+        },
+        {
+          "fantasia": "BACARDI",
+          "faturamento": 988.09,
+          "pct": 4.4
+        },
+        {
+          "fantasia": "MOET HENNESY",
+          "faturamento": 922.8,
+          "pct": 4.1
         },
         {
           "fantasia": "CAMPARI",
-          "faturamento": 101.4,
+          "faturamento": 768.3,
+          "pct": 3.5
+        },
+        {
+          "fantasia": "BALLENA",
+          "faturamento": 479.4,
+          "pct": 2.2
+        },
+        {
+          "fantasia": "AURORA",
+          "faturamento": 209.8,
+          "pct": 0.9
+        },
+        {
+          "fantasia": "TATUZINHO",
+          "faturamento": 154.8,
+          "pct": 0.7
+        },
+        {
+          "fantasia": "BEAM SUNTORY BRASIL",
+          "faturamento": 125.8,
+          "pct": 0.6
+        },
+        {
+          "fantasia": "LUCIA",
+          "faturamento": 63.9,
+          "pct": 0.3
+        }
+      ],
+      "top_clientes": [
+        {
+          "codcli": "52058",
+          "nome": "THE MOORS",
+          "faturamento": 4527.0
+        },
+        {
+          "codcli": "51920",
+          "nome": "GILDEVAN RIBEIRO SANTOS",
+          "faturamento": 3948.48
+        },
+        {
+          "codcli": "52002",
+          "nome": "A.A DISTRIBUICAO E MERCADO",
+          "faturamento": 2844.52
+        },
+        {
+          "codcli": "51982",
+          "nome": "MERCADO ARCO IRIS",
+          "faturamento": 1904.53
+        },
+        {
+          "codcli": "52041",
+          "nome": "FABIO PORTUGAL DO CARMO",
+          "faturamento": 1641.08
+        },
+        {
+          "codcli": "51944",
+          "nome": "ERIK WILLIAM LIMA DA CRUZ MINIMERCADO",
+          "faturamento": 1411.7
+        },
+        {
+          "codcli": "52029",
+          "nome": "MINI MERCADO DO FRANCISCO",
+          "faturamento": 1165.6
+        },
+        {
+          "codcli": "52028",
+          "nome": "J.S. MORAES - BEBIDAS",
+          "faturamento": 1107.0
+        },
+        {
+          "codcli": "52068",
+          "nome": "MINIMERCADO DO ADSON",
+          "faturamento": 992.4
+        },
+        {
+          "codcli": "51989",
+          "nome": "JOSE ELIEZER GOMES FILHO",
+          "faturamento": 796.7
+        },
+        {
+          "codcli": "51975",
+          "nome": "SUPERMERCADO CANTO BRAVO",
+          "faturamento": 601.87
+        },
+        {
+          "codcli": "51963",
+          "nome": "MERCADO DO LAZARO",
+          "faturamento": 600.05
+        },
+        {
+          "codcli": "52062",
+          "nome": "LARA MINIMERCADO",
+          "faturamento": 405.7
+        },
+        {
+          "codcli": "51971",
+          "nome": "CHUVAS",
+          "faturamento": 310.68
+        }
+      ]
+    },
+    {
+      "rca": 483,
+      "estado": "SP",
+      "chave": "SP-483",
+      "nome": "ALEXANDRE TONON",
+      "time": "OUTROS",
+      "time_label": "Outros / sem time definido",
+      "total_clientes_ativos": 3,
+      "faturamento_ytd": 20706.44,
+      "media_mensal": 10353.22,
+      "por_mes": {
+        "2026-06": 4579.64,
+        "2026-07": 16126.8
+      },
+      "top_industrias": [
+        {
+          "fantasia": "LUCIA",
+          "faturamento": 18762.8,
+          "pct": 90.6
+        },
+        {
+          "fantasia": "PERNOD",
+          "faturamento": 1943.64,
+          "pct": 9.4
+        }
+      ],
+      "top_clientes": [
+        {
+          "codcli": "50176",
+          "nome": "FRIBAL",
+          "faturamento": 15336.0
+        },
+        {
+          "codcli": "23070",
+          "nome": "VARANDA FRUTAS E MERCEARIA",
+          "faturamento": 4579.64
+        },
+        {
+          "codcli": "51517",
+          "nome": "EMPORIO DONA MATILDE",
+          "faturamento": 790.8
+        }
+      ]
+    },
+    {
+      "rca": 515,
+      "estado": "SP",
+      "chave": "SP-515",
+      "nome": "RAFAEL REIS",
+      "time": "OUTROS",
+      "time_label": "Outros / sem time definido",
+      "total_clientes_ativos": 9,
+      "faturamento_ytd": 19906.04,
+      "media_mensal": 19906.04,
+      "por_mes": {
+        "2026-07": 19906.04
+      },
+      "top_industrias": [
+        {
+          "fantasia": "BROWN",
+          "faturamento": 7593.0,
+          "pct": 38.1
+        },
+        {
+          "fantasia": "PERNOD",
+          "faturamento": 6342.2,
+          "pct": 31.9
+        },
+        {
+          "fantasia": "BALLENA",
+          "faturamento": 2505.0,
+          "pct": 12.6
+        },
+        {
+          "fantasia": "FANTE",
+          "faturamento": 2460.0,
+          "pct": 12.4
+        },
+        {
+          "fantasia": "MOET HENNESY",
+          "faturamento": 878.04,
+          "pct": 4.4
+        },
+        {
+          "fantasia": "LUCIA",
+          "faturamento": 127.8,
           "pct": 0.6
         }
       ],
       "top_clientes": [
         {
-          "codcli": "51119",
-          "nome": "SUPERMERCADO MICHELASSI",
-          "faturamento": 7776.45
+          "codcli": "51888",
+          "nome": "COMERCIAL GENESIO DE ALIMENTOS",
+          "faturamento": 5227.34
         },
         {
-          "codcli": "51103",
-          "nome": "KRISKAN DISTRIBUIDORA E TRANSPORTES",
-          "faturamento": 3399.9
+          "codcli": "32086",
+          "nome": "COMERCIAL DAVITEC",
+          "faturamento": 4039.2
         },
         {
-          "codcli": "51120",
-          "nome": "SUPERMERCADOS MICHELASSI",
-          "faturamento": 3009.9
+          "codcli": "51883",
+          "nome": "ADEGA BELLA",
+          "faturamento": 3286.2
         },
         {
-          "codcli": "51172",
-          "nome": "SUPERMERCADO PEGORIN",
-          "faturamento": 1329.72
+          "codcli": "52138",
+          "nome": "MERCEARIA E ADEGA PARADOES LTDA",
+          "faturamento": 2132.1
         },
         {
-          "codcli": "51067",
-          "nome": "CENTRO DE DISTRIBUICAO ATACADISTA AQUILANTE",
-          "faturamento": 1006.48
+          "codcli": "52021",
+          "nome": "MARCELO MOREIRA BASTOS",
+          "faturamento": 2085.6
         },
         {
-          "codcli": "51463",
-          "nome": "SUPERMERCADO DO NENA",
-          "faturamento": 778.5
+          "codcli": "51884",
+          "nome": "ROZELI MORAIS DOS SANTOS",
+          "faturamento": 1252.8
         },
         {
-          "codcli": "51414",
-          "nome": "CASARAO 682",
-          "faturamento": 448.2
+          "codcli": "52125",
+          "nome": "RLAZIN COMERCIO DE PRODUTOS ALIMENTICIOS E TRANSPORTES",
+          "faturamento": 799.0
         },
         {
-          "codcli": "51430",
-          "nome": "LUANA MARQUES DA SILVA",
-          "faturamento": 337.73
+          "codcli": "52124",
+          "nome": "KACULA SUPERMERCADO",
+          "faturamento": 713.0
+        },
+        {
+          "codcli": "52140",
+          "nome": "JAQUELINE CARDOSO MOREIRA - ADEGA",
+          "faturamento": 370.8
+        }
+      ]
+    },
+    {
+      "rca": 485,
+      "estado": "SP",
+      "chave": "SP-485",
+      "nome": "ANDRE PINHEIRO",
+      "time": "OUTROS",
+      "time_label": "Outros / sem time definido",
+      "total_clientes_ativos": 7,
+      "faturamento_ytd": 12233.4,
+      "media_mensal": 4077.8,
+      "por_mes": {
+        "2026-05": 790.8,
+        "2026-06": 3954.0,
+        "2026-07": 7488.6
+      },
+      "top_industrias": [
+        {
+          "fantasia": "LUCIA",
+          "faturamento": 12233.4,
+          "pct": 100.0
+        }
+      ],
+      "top_clientes": [
+        {
+          "codcli": "52044",
+          "nome": "ARMAZEM MATEUS",
+          "faturamento": 4744.8
+        },
+        {
+          "codcli": "21908",
+          "nome": "MINI MERCADO HORTISABOR",
+          "faturamento": 3954.0
+        },
+        {
+          "codcli": "50727",
+          "nome": "VARANDA FRUTAS E MERCEARIA",
+          "faturamento": 1186.2
+        },
+        {
+          "codcli": "23070",
+          "nome": "VARANDA FRUTAS E MERCEARIA",
+          "faturamento": 790.8
+        },
+        {
+          "codcli": "49832",
+          "nome": "EMPORIO DO BEM",
+          "faturamento": 766.8
+        },
+        {
+          "codcli": "23144",
+          "nome": "VARANDA FRUTAS E MERCEARIA LTDA",
+          "faturamento": 593.1
+        },
+        {
+          "codcli": "23791",
+          "nome": "VARANDA - CIDADE JARDIM",
+          "faturamento": 197.7
         }
       ]
     },
@@ -13424,27 +14352,27 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
       "nome": "LUIS MACHADO",
       "time": "OUTROS",
       "time_label": "Outros / sem time definido",
-      "total_clientes_ativos": 7,
-      "faturamento_ytd": 9223.85,
-      "media_mensal": 9223.85,
+      "total_clientes_ativos": 10,
+      "faturamento_ytd": 9286.29,
+      "media_mensal": 9286.29,
       "por_mes": {
-        "2026-07": 9223.85
+        "2026-07": 9286.29
       },
       "top_industrias": [
         {
           "fantasia": "PERNOD",
-          "faturamento": 3887.1,
-          "pct": 42.1
+          "faturamento": 4102.3,
+          "pct": 44.2
         },
         {
           "fantasia": "CRS BRANDS",
-          "faturamento": 3371.58,
-          "pct": 36.6
+          "faturamento": 3155.82,
+          "pct": 34.0
         },
         {
           "fantasia": "FANTE",
-          "faturamento": 984.6,
-          "pct": 10.7
+          "faturamento": 984.0,
+          "pct": 10.6
         },
         {
           "fantasia": "DIAGEO",
@@ -13453,13 +14381,8 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
         },
         {
           "fantasia": "CAMPARI",
-          "faturamento": 202.8,
-          "pct": 2.2
-        },
-        {
-          "fantasia": "SEM FANTASIA",
-          "faturamento": 193.8,
-          "pct": 2.1
+          "faturamento": 460.2,
+          "pct": 5.0
         }
       ],
       "top_clientes": [
@@ -13474,24 +14397,39 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
           "faturamento": 1689.36
         },
         {
-          "codcli": "51474",
-          "nome": "SUPERMERCADO POPULAR DE REGISTRO LTDA",
-          "faturamento": 979.8
-        },
-        {
           "codcli": "51475",
           "nome": "SUPERMERCADO SERTANIA COMERCIO DE ALIMENTOS LTDA",
           "faturamento": 664.91
         },
         {
-          "codcli": "51371",
-          "nome": "SUPERMERCADO JC",
-          "faturamento": 431.52
+          "codcli": "51474",
+          "nome": "SUPERMERCADO POPULAR DE REGISTRO LTDA",
+          "faturamento": 539.4
+        },
+        {
+          "codcli": "51357",
+          "nome": "J G DE AMORIM CIA ALIMENTOS",
+          "faturamento": 257.4
+        },
+        {
+          "codcli": "51364",
+          "nome": "MINI-MERCADO CANOSSA",
+          "faturamento": 246.0
         },
         {
           "codcli": "51477",
           "nome": "SUPREMO COMERCIO DE ALIMENTOS",
           "faturamento": 215.76
+        },
+        {
+          "codcli": "51342",
+          "nome": "SUPERMERCADO EPA",
+          "faturamento": 215.76
+        },
+        {
+          "codcli": "51339",
+          "nome": "SUPERMERCADOS DA ILHA",
+          "faturamento": 215.2
         },
         {
           "codcli": "51370",
@@ -13501,148 +14439,95 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
       ]
     },
     {
-      "rca": 504,
+      "rca": 511,
       "estado": "SP",
-      "chave": "SP-504",
-      "nome": "GILVAN AMORIM",
+      "chave": "SP-511",
+      "nome": "ALEXANDRE SOUZA",
       "time": "OUTROS",
       "time_label": "Outros / sem time definido",
-      "total_clientes_ativos": 8,
-      "faturamento_ytd": 6341.37,
-      "media_mensal": 6341.37,
+      "total_clientes_ativos": 6,
+      "faturamento_ytd": 6156.22,
+      "media_mensal": 6156.22,
       "por_mes": {
-        "2026-07": 6341.37
+        "2026-07": 6156.22
       },
       "top_industrias": [
         {
-          "fantasia": "PERNOD",
-          "faturamento": 2132.9,
-          "pct": 33.6
-        },
-        {
-          "fantasia": "FANTE",
-          "faturamento": 862.92,
-          "pct": 13.6
-        },
-        {
-          "fantasia": "BACARDI",
-          "faturamento": 694.75,
-          "pct": 11.0
-        },
-        {
-          "fantasia": "CRS BRANDS",
-          "faturamento": 615.9,
-          "pct": 9.7
-        },
-        {
-          "fantasia": "BROWN",
-          "faturamento": 599.4,
-          "pct": 9.5
-        },
-        {
-          "fantasia": "AURORA",
-          "faturamento": 560.5,
-          "pct": 8.8
-        },
-        {
-          "fantasia": "BALLENA",
-          "faturamento": 399.5,
-          "pct": 6.3
+          "fantasia": "CASTAS",
+          "faturamento": 2850.45,
+          "pct": 46.3
         },
         {
           "fantasia": "DIAGEO",
-          "faturamento": 346.8,
-          "pct": 5.5
-        },
-        {
-          "fantasia": "CAMPARI",
-          "faturamento": 128.7,
-          "pct": 2.0
-        }
-      ],
-      "top_clientes": [
-        {
-          "codcli": "51507",
-          "nome": "XULAS BAR",
-          "faturamento": 1673.68
-        },
-        {
-          "codcli": "51487",
-          "nome": "IRMAOS BRESCIANI SUPERMERCADO",
-          "faturamento": 1226.98
-        },
-        {
-          "codcli": "51558",
-          "nome": "ALTO GIRO SUPERMERCADOS",
-          "faturamento": 1013.7
-        },
-        {
-          "codcli": "51456",
-          "nome": "DISTRIBUIDORA INTER",
-          "faturamento": 739.68
-        },
-        {
-          "codcli": "51560",
-          "nome": "ALTO GIRO SUPERMERCADOS",
-          "faturamento": 560.5
-        },
-        {
-          "codcli": "51488",
-          "nome": "SUPERMERCADO BRESCIANI",
-          "faturamento": 470.62
-        },
-        {
-          "codcli": "51557",
-          "nome": "SUPERMERCADO ARMELIN",
-          "faturamento": 467.4
-        },
-        {
-          "codcli": "51568",
-          "nome": "A.G. MAIS SUPERMERCADO",
-          "faturamento": 188.82
-        }
-      ]
-    },
-    {
-      "rca": 515,
-      "estado": "SP",
-      "chave": "SP-515",
-      "nome": "RAFAEL REIS",
-      "time": "OUTROS",
-      "time_label": "Outros / sem time definido",
-      "total_clientes_ativos": 3,
-      "faturamento_ytd": 5793.6,
-      "media_mensal": 5793.6,
-      "por_mes": {
-        "2026-07": 5793.6
-      },
-      "top_industrias": [
-        {
-          "fantasia": "BROWN",
-          "faturamento": 4195.8,
-          "pct": 72.4
+          "faturamento": 1632.06,
+          "pct": 26.5
         },
         {
           "fantasia": "PERNOD",
-          "faturamento": 1597.8,
-          "pct": 27.6
+          "faturamento": 626.7,
+          "pct": 10.2
+        },
+        {
+          "fantasia": "FANTE",
+          "faturamento": 492.0,
+          "pct": 8.0
+        },
+        {
+          "fantasia": "BACARDI",
+          "faturamento": 429.31,
+          "pct": 7.0
+        },
+        {
+          "fantasia": "SEM FANTASIA",
+          "faturamento": 82.9,
+          "pct": 1.3
+        },
+        {
+          "fantasia": "MINALBA",
+          "faturamento": 17.0,
+          "pct": 0.3
+        },
+        {
+          "fantasia": "CAMPARI",
+          "faturamento": 16.9,
+          "pct": 0.3
+        },
+        {
+          "fantasia": "COMARY",
+          "faturamento": 8.9,
+          "pct": 0.1
         }
       ],
       "top_clientes": [
         {
-          "codcli": "51888",
-          "nome": "COMERCIAL GENESIO DE ALIMENTOS",
-          "faturamento": 2397.6
+          "codcli": "51767",
+          "nome": "MERCADINHO",
+          "faturamento": 1649.75
         },
         {
-          "codcli": "51883",
-          "nome": "ADEGA BELLA",
-          "faturamento": 2143.2
+          "codcli": "51687",
+          "nome": "FULVIO SUPERMERCADO",
+          "faturamento": 1488.3
         },
         {
-          "codcli": "51884",
-          "nome": "ROZELI MORAIS DOS SANTOS",
-          "faturamento": 1252.8
+          "codcli": "52019",
+          "nome": "DE PAULA E DIAS COMERCIO DE ALIMENTOS E BEBIDAS",
+          "faturamento": 1277.06
+        },
+        {
+          "codcli": "51885",
+          "nome": "MERCADO BACANA",
+          "faturamento": 869.4
+        },
+        {
+          "codcli": "51766",
+          "nome": "SUPERMERCADO CARDOSO FILHOS",
+          "faturamento": 442.4
+        },
+        {
+          "codcli": "51772",
+          "nome": "NOVA ROMA SUPERMERCADO E PANIFICADORA",
+          "faturamento": 429.31
         }
       ]
     },
@@ -13695,49 +14580,78 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
       ]
     },
     {
-      "rca": 483,
+      "rca": 499,
       "estado": "SP",
-      "chave": "SP-483",
-      "nome": "ALEXANDRE TONON",
+      "chave": "SP-499",
+      "nome": "JOSE SILVA",
       "time": "OUTROS",
       "time_label": "Outros / sem time definido",
-      "total_clientes_ativos": 2,
-      "faturamento_ytd": 5370.44,
-      "media_mensal": 2685.22,
+      "total_clientes_ativos": 6,
+      "faturamento_ytd": 5256.04,
+      "media_mensal": 5256.04,
       "por_mes": {
-        "2026-06": 4579.64,
-        "2026-07": 790.8
+        "2026-07": 5256.04
       },
       "top_industrias": [
         {
-          "fantasia": "LUCIA",
-          "faturamento": 3426.8,
-          "pct": 63.8
+          "fantasia": "PERNOD",
+          "faturamento": 3900.1,
+          "pct": 74.2
         },
         {
-          "fantasia": "PERNOD",
-          "faturamento": 1943.64,
-          "pct": 36.2
+          "fantasia": "CRS BRANDS",
+          "faturamento": 863.04,
+          "pct": 16.4
+        },
+        {
+          "fantasia": "CAMPARI",
+          "faturamento": 405.6,
+          "pct": 7.7
+        },
+        {
+          "fantasia": "INVICTUS",
+          "faturamento": 87.3,
+          "pct": 1.7
         }
       ],
       "top_clientes": [
         {
-          "codcli": "23070",
-          "nome": "VARANDA FRUTAS E MERCEARIA",
-          "faturamento": 4579.64
+          "codcli": "49479",
+          "nome": "SJX COMERCIAL ATACADISTA DE MERCADORIAS LTDA",
+          "faturamento": 2057.1
         },
         {
-          "codcli": "51517",
-          "nome": "EMPORIO DONA MATILDE",
-          "faturamento": 790.8
+          "codcli": "49478",
+          "nome": "SACOLAO STA CATARINA",
+          "faturamento": 958.44
+        },
+        {
+          "codcli": "51931",
+          "nome": "NINKI SUPERMERCADOS",
+          "faturamento": 765.48
+        },
+        {
+          "codcli": "49480",
+          "nome": "SJX COMERCIAL ATACADISTA DE MERCADORIAS",
+          "faturamento": 748.92
+        },
+        {
+          "codcli": "51562",
+          "nome": "MERCADO D' VILLA",
+          "faturamento": 490.4
+        },
+        {
+          "codcli": "52038",
+          "nome": "MARIA DE LOURDES DA SILVA RIBEIRAO PIRES",
+          "faturamento": 235.7
         }
       ]
     },
     {
-      "rca": 505,
+      "rca": 502,
       "estado": "SP",
-      "chave": "SP-505",
-      "nome": "LUCELIA BARROS",
+      "chave": "SP-502",
+      "nome": "GUSTAVO MARTINS",
       "time": "OUTROS",
       "time_label": "Outros / sem time definido",
       "total_clientes_ativos": 6,
@@ -13812,85 +14726,51 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
       ]
     },
     {
-      "rca": 485,
-      "estado": "SP",
-      "chave": "SP-485",
-      "nome": "ANDRE PINHEIRO",
-      "time": "OUTROS",
-      "time_label": "Outros / sem time definido",
-      "total_clientes_ativos": 4,
-      "faturamento_ytd": 4744.8,
-      "media_mensal": 2372.4,
-      "por_mes": {
-        "2026-05": 790.8,
-        "2026-06": 3954.0
-      },
-      "top_industrias": [
-        {
-          "fantasia": "LUCIA",
-          "faturamento": 4744.8,
-          "pct": 100.0
-        }
-      ],
-      "top_clientes": [
-        {
-          "codcli": "21908",
-          "nome": "MINI MERCADO HORTISABOR",
-          "faturamento": 3954.0
-        },
-        {
-          "codcli": "50727",
-          "nome": "VARANDA FRUTAS E MERCEARIA",
-          "faturamento": 395.4
-        },
-        {
-          "codcli": "23144",
-          "nome": "VARANDA FRUTAS E MERCEARIA LTDA",
-          "faturamento": 197.7
-        },
-        {
-          "codcli": "23791",
-          "nome": "VARANDA - CIDADE JARDIM",
-          "faturamento": 197.7
-        }
-      ]
-    },
-    {
       "rca": 500,
       "estado": "SP",
       "chave": "SP-500",
       "nome": "PAULO MOREIRA",
       "time": "OUTROS",
       "time_label": "Outros / sem time definido",
-      "total_clientes_ativos": 3,
-      "faturamento_ytd": 2315.4,
-      "media_mensal": 2315.4,
+      "total_clientes_ativos": 4,
+      "faturamento_ytd": 3318.54,
+      "media_mensal": 3318.54,
       "por_mes": {
-        "2026-07": 2315.4
+        "2026-07": 3318.54
       },
       "top_industrias": [
         {
-          "fantasia": "DIAGEO",
-          "faturamento": 1082.28,
-          "pct": 46.7
+          "fantasia": "PERNOD",
+          "faturamento": 1112.4,
+          "pct": 33.5
         },
         {
-          "fantasia": "PERNOD",
-          "faturamento": 556.2,
-          "pct": 24.0
+          "fantasia": "DIAGEO",
+          "faturamento": 1082.28,
+          "pct": 32.6
         },
         {
           "fantasia": "CRS BRANDS",
-          "faturamento": 431.52,
-          "pct": 18.6
+          "faturamento": 755.16,
+          "pct": 22.8
         },
         {
           "fantasia": "PERINI",
           "faturamento": 245.4,
-          "pct": 10.6
+          "pct": 7.4
+        },
+        {
+          "fantasia": "FANTE",
+          "faturamento": 123.3,
+          "pct": 3.7
         }
       ],
       "top_clientes": [
+        {
+          "codcli": "51868",
+          "nome": "SUPERMERCADOS M FARIA E R GRAVINA",
+          "faturamento": 1003.14
+        },
         {
           "codcli": "51652",
           "nome": "SUPERMERCADO TALISMA DE SAO VICENTE LTDA",
@@ -13909,60 +14789,50 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
       ]
     },
     {
-      "rca": 511,
+      "rca": 510,
       "estado": "SP",
-      "chave": "SP-511",
-      "nome": "ALEXANDRE SOUZA",
+      "chave": "SP-510",
+      "nome": "ROSANA AFFONSO",
       "time": "OUTROS",
       "time_label": "Outros / sem time definido",
-      "total_clientes_ativos": 3,
-      "faturamento_ytd": 1994.36,
-      "media_mensal": 1994.36,
+      "total_clientes_ativos": 2,
+      "faturamento_ytd": 3260.0,
+      "media_mensal": 3260.0,
       "por_mes": {
-        "2026-07": 1994.36
+        "2026-07": 3260.0
       },
       "top_industrias": [
         {
-          "fantasia": "CASTAS",
-          "faturamento": 538.85,
-          "pct": 27.0
+          "fantasia": "BALLENA",
+          "faturamento": 2397.0,
+          "pct": 73.5
+        },
+        {
+          "fantasia": "INTERFOOD",
+          "faturamento": 359.6,
+          "pct": 11.0
+        },
+        {
+          "fantasia": "BROWN",
+          "faturamento": 326.7,
+          "pct": 10.0
         },
         {
           "fantasia": "PERNOD",
-          "faturamento": 517.2,
-          "pct": 25.9
-        },
-        {
-          "fantasia": "FANTE",
-          "faturamento": 492.0,
-          "pct": 24.7
-        },
-        {
-          "fantasia": "BACARDI",
-          "faturamento": 429.31,
-          "pct": 21.5
-        },
-        {
-          "fantasia": "MINALBA",
-          "faturamento": 17.0,
-          "pct": 0.9
+          "faturamento": 176.7,
+          "pct": 5.4
         }
       ],
       "top_clientes": [
         {
-          "codcli": "51885",
-          "nome": "MERCADO BACANA",
-          "faturamento": 869.4
+          "codcli": "52023",
+          "nome": "ADEGA GOLDEN BEER",
+          "faturamento": 2397.0
         },
         {
-          "codcli": "51767",
-          "nome": "MERCADINHO",
-          "faturamento": 695.65
-        },
-        {
-          "codcli": "51772",
-          "nome": "NOVA ROMA SUPERMERCADO E PANIFICADORA",
-          "faturamento": 429.31
+          "codcli": "51872",
+          "nome": "BOTEQUIM DA FRANCISCA",
+          "faturamento": 863.0
         }
       ]
     },
@@ -13973,47 +14843,47 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
       "nome": "ANDERSON MOTTA",
       "time": "OUTROS",
       "time_label": "Outros / sem time definido",
-      "total_clientes_ativos": 4,
-      "faturamento_ytd": 1904.1,
-      "media_mensal": 1904.1,
+      "total_clientes_ativos": 6,
+      "faturamento_ytd": 3023.3,
+      "media_mensal": 3023.3,
       "por_mes": {
-        "2026-07": 1904.1
+        "2026-07": 3023.3
       },
       "top_industrias": [
         {
+          "fantasia": "BROWN",
+          "faturamento": 1399.18,
+          "pct": 46.3
+        },
+        {
           "fantasia": "CRS BRANDS",
           "faturamento": 431.52,
-          "pct": 22.7
+          "pct": 14.3
         },
         {
           "fantasia": "PERNOD",
           "faturamento": 343.5,
-          "pct": 18.0
-        },
-        {
-          "fantasia": "BROWN",
-          "faturamento": 279.98,
-          "pct": 14.7
+          "pct": 11.4
         },
         {
           "fantasia": "DIAGEO",
           "faturamento": 251.8,
-          "pct": 13.2
+          "pct": 8.3
         },
         {
           "fantasia": "BALLENA",
           "faturamento": 239.7,
-          "pct": 12.6
+          "pct": 7.9
         },
         {
           "fantasia": "CAMPARI",
           "faturamento": 202.8,
-          "pct": 10.7
+          "pct": 6.7
         },
         {
           "fantasia": "TATUZINHO",
           "faturamento": 154.8,
-          "pct": 8.1
+          "pct": 5.1
         }
       ],
       "top_clientes": [
@@ -14021,6 +14891,16 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
           "codcli": "51805",
           "nome": "67.593.520 MARIA EDUARDA MEDEIROS SANTANA",
           "faturamento": 803.9
+        },
+        {
+          "codcli": "25618",
+          "nome": "SANTA MONICA",
+          "faturamento": 559.6
+        },
+        {
+          "codcli": "51906",
+          "nome": "JENNIFER STEFANNI DE PAULA DA SILVA",
+          "faturamento": 559.6
         },
         {
           "codcli": "51916",
@@ -14036,6 +14916,74 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
           "codcli": "51452",
           "nome": "MERCADO M.A",
           "faturamento": 279.98
+        }
+      ]
+    },
+    {
+      "rca": 458,
+      "estado": "ES",
+      "chave": "ES-458",
+      "nome": "BRUNO COSMO",
+      "time": "OUTROS",
+      "time_label": "Outros / sem time definido",
+      "total_clientes_ativos": 7,
+      "faturamento_ytd": 2561.1,
+      "media_mensal": 2561.1,
+      "por_mes": {
+        "2026-07": 2561.1
+      },
+      "top_industrias": [
+        {
+          "fantasia": "ROBINSON CRUSOE",
+          "faturamento": 1563.5,
+          "pct": 61.0
+        },
+        {
+          "fantasia": "RED BULL",
+          "faturamento": 688.2,
+          "pct": 26.9
+        },
+        {
+          "fantasia": "NAVEIA",
+          "faturamento": 309.4,
+          "pct": 12.1
+        }
+      ],
+      "top_clientes": [
+        {
+          "codcli": "81247",
+          "nome": "ECONOMIA SUPERMERCADOS",
+          "faturamento": 664.5
+        },
+        {
+          "codcli": "95767",
+          "nome": "PADARIA FORNO GRANDE",
+          "faturamento": 496.08
+        },
+        {
+          "codcli": "81246",
+          "nome": "ECONOMIA SUPERMERCADOS",
+          "faturamento": 443.0
+        },
+        {
+          "codcli": "84067",
+          "nome": "COMERCIAL BEM ESTAR",
+          "faturamento": 397.46
+        },
+        {
+          "codcli": "95091",
+          "nome": "CANTO DOS GRAOS",
+          "faturamento": 309.4
+        },
+        {
+          "codcli": "81248",
+          "nome": "ECONOMIA SUPERMERCADOS",
+          "faturamento": 221.5
+        },
+        {
+          "codcli": "72888",
+          "nome": "CROWN ITAPARICA",
+          "faturamento": 29.16
         }
       ]
     },
@@ -14068,42 +15016,117 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
       ]
     },
     {
-      "rca": 499,
+      "rca": 507,
       "estado": "SP",
-      "chave": "SP-499",
-      "nome": "JOSE SILVA",
+      "chave": "SP-507",
+      "nome": "JOAO AUGUSTO -  OFF TRADE",
       "time": "OUTROS",
       "time_label": "Outros / sem time definido",
-      "total_clientes_ativos": 1,
-      "faturamento_ytd": 490.4,
-      "media_mensal": 490.4,
+      "total_clientes_ativos": 2,
+      "faturamento_ytd": 1557.9,
+      "media_mensal": 1557.9,
       "por_mes": {
-        "2026-07": 490.4
+        "2026-07": 1557.9
       },
       "top_industrias": [
         {
-          "fantasia": "CAMPARI",
-          "faturamento": 202.8,
-          "pct": 41.4
-        },
-        {
           "fantasia": "PERNOD",
-          "faturamento": 200.3,
-          "pct": 40.8
+          "faturamento": 902.7,
+          "pct": 57.9
         },
         {
-          "fantasia": "INVICTUS",
-          "faturamento": 87.3,
-          "pct": 17.8
+          "fantasia": "MOET HENNESY",
+          "faturamento": 461.4,
+          "pct": 29.6
+        },
+        {
+          "fantasia": "BACARDI",
+          "faturamento": 193.8,
+          "pct": 12.4
         }
       ],
       "top_clientes": [
         {
-          "codcli": "51562",
-          "nome": "MERCADO D' VILLA",
-          "faturamento": 490.4
+          "codcli": "51892",
+          "nome": "SUPERMERCADO FORTE DA BARRA",
+          "faturamento": 784.2
+        },
+        {
+          "codcli": "51921",
+          "nome": "NELSON VICENTE DA SILVA JUNIOR",
+          "faturamento": 773.7
         }
       ]
+    },
+    {
+      "rca": 514,
+      "estado": "SP",
+      "chave": "SP-514",
+      "nome": "HELENA CAVALCANTI",
+      "time": "OUTROS",
+      "time_label": "Outros / sem time definido",
+      "total_clientes_ativos": 1,
+      "faturamento_ytd": 598.8,
+      "media_mensal": 598.8,
+      "por_mes": {
+        "2026-07": 598.8
+      },
+      "top_industrias": [
+        {
+          "fantasia": "CAMPARI",
+          "faturamento": 598.8,
+          "pct": 100.0
+        }
+      ],
+      "top_clientes": [
+        {
+          "codcli": "52012",
+          "nome": "MINI MERCADO E HORTIFRUTIS DANTAS",
+          "faturamento": 598.8
+        }
+      ]
+    },
+    {
+      "rca": 460,
+      "estado": "RJ",
+      "chave": "RJ-460",
+      "nome": "IVANILDO MAIA",
+      "time": "OUTROS",
+      "time_label": "Outros / sem time definido",
+      "total_clientes_ativos": 1,
+      "faturamento_ytd": 306.72,
+      "media_mensal": 306.72,
+      "por_mes": {
+        "2026-07": 306.72
+      },
+      "top_industrias": [
+        {
+          "fantasia": "ROBINSON CRUSOE",
+          "faturamento": 306.72,
+          "pct": 100.0
+        }
+      ],
+      "top_clientes": [
+        {
+          "codcli": "95798",
+          "nome": "BOUTIQUE DAS CARNES",
+          "faturamento": 306.72
+        }
+      ]
+    },
+    {
+      "rca": 269,
+      "estado": "ES",
+      "chave": "ES-269",
+      "nome": "OZISLLAN RAMALHO DE SOUZA",
+      "time": "OUTROS",
+      "time_label": "Outros / sem time definido",
+      "total_clientes_ativos": 0,
+      "faturamento_ytd": 0.0,
+      "media_mensal": 0.0,
+      "por_mes": {},
+      "top_industrias": [],
+      "top_clientes": []
     },
     {
       "rca": 398,
@@ -14120,10 +15143,10 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
       "top_clientes": []
     },
     {
-      "rca": 458,
+      "rca": 502,
       "estado": "ES",
-      "chave": "ES-458",
-      "nome": "BRUNO COSMO",
+      "chave": "ES-502",
+      "nome": "MARCELO DE CAMPOS",
       "time": "OUTROS",
       "time_label": "Outros / sem time definido",
       "total_clientes_ativos": 0,
@@ -14134,10 +15157,10 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
       "top_clientes": []
     },
     {
-      "rca": 502,
+      "rca": 521,
       "estado": "ES",
-      "chave": "ES-502",
-      "nome": "MARCELO DE CAMPOS",
+      "chave": "ES-521",
+      "nome": "WESLEY CARCHENO",
       "time": "OUTROS",
       "time_label": "Outros / sem time definido",
       "total_clientes_ativos": 0,
@@ -14260,6 +15283,34 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
       "top_clientes": []
     },
     {
+      "rca": 283,
+      "estado": "RJ",
+      "chave": "RJ-283",
+      "nome": "KESSYA OURIQUE",
+      "time": "OUTROS",
+      "time_label": "Outros / sem time definido",
+      "total_clientes_ativos": 0,
+      "faturamento_ytd": 0.0,
+      "media_mensal": 0.0,
+      "por_mes": {},
+      "top_industrias": [],
+      "top_clientes": []
+    },
+    {
+      "rca": 306,
+      "estado": "RJ",
+      "chave": "RJ-306",
+      "nome": "DANIEL DINIZ",
+      "time": "OUTROS",
+      "time_label": "Outros / sem time definido",
+      "total_clientes_ativos": 0,
+      "faturamento_ytd": 0.0,
+      "media_mensal": 0.0,
+      "por_mes": {},
+      "top_industrias": [],
+      "top_clientes": []
+    },
+    {
       "rca": 405,
       "estado": "RJ",
       "chave": "RJ-405",
@@ -14292,20 +15343,6 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
       "estado": "RJ",
       "chave": "RJ-416",
       "nome": "LORRAYNE SANTOS",
-      "time": "OUTROS",
-      "time_label": "Outros / sem time definido",
-      "total_clientes_ativos": 0,
-      "faturamento_ytd": 0.0,
-      "media_mensal": 0.0,
-      "por_mes": {},
-      "top_industrias": [],
-      "top_clientes": []
-    },
-    {
-      "rca": 460,
-      "estado": "RJ",
-      "chave": "RJ-460",
-      "nome": "IVANILDO MAIA",
       "time": "OUTROS",
       "time_label": "Outros / sem time definido",
       "total_clientes_ativos": 0,
@@ -14498,20 +15535,6 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
       "top_clientes": []
     },
     {
-      "rca": 496,
-      "estado": "SP",
-      "chave": "SP-496",
-      "nome": "DEMETRIUS PELEGRINI",
-      "time": "OUTROS",
-      "time_label": "Outros / sem time definido",
-      "total_clientes_ativos": 0,
-      "faturamento_ytd": 0.0,
-      "media_mensal": 0.0,
-      "por_mes": {},
-      "top_industrias": [],
-      "top_clientes": []
-    },
-    {
       "rca": 501,
       "estado": "SP",
       "chave": "SP-501",
@@ -14526,10 +15549,10 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
       "top_clientes": []
     },
     {
-      "rca": 502,
+      "rca": 505,
       "estado": "SP",
-      "chave": "SP-502",
-      "nome": "GUSTAVO MARTINS",
+      "chave": "SP-505",
+      "nome": "LUCELIA BARROS",
       "time": "OUTROS",
       "time_label": "Outros / sem time definido",
       "total_clientes_ativos": 0,
@@ -14540,10 +15563,38 @@ const RAIOX_VENDEDOR_DETALHE_DATA = {
       "top_clientes": []
     },
     {
-      "rca": 516,
+      "rca": 518,
       "estado": "SP",
-      "chave": "SP-516",
-      "nome": "JOAQUIM ANGELO",
+      "chave": "SP-518",
+      "nome": "PAULO THOMAZI",
+      "time": "OUTROS",
+      "time_label": "Outros / sem time definido",
+      "total_clientes_ativos": 0,
+      "faturamento_ytd": 0.0,
+      "media_mensal": 0.0,
+      "por_mes": {},
+      "top_industrias": [],
+      "top_clientes": []
+    },
+    {
+      "rca": 519,
+      "estado": "SP",
+      "chave": "SP-519",
+      "nome": "SANDRO ALVES",
+      "time": "OUTROS",
+      "time_label": "Outros / sem time definido",
+      "total_clientes_ativos": 0,
+      "faturamento_ytd": 0.0,
+      "media_mensal": 0.0,
+      "por_mes": {},
+      "top_industrias": [],
+      "top_clientes": []
+    },
+    {
+      "rca": 525,
+      "estado": "SP",
+      "chave": "SP-525",
+      "nome": "EVANDRO DORTA",
       "time": "OUTROS",
       "time_label": "Outros / sem time definido",
       "total_clientes_ativos": 0,
