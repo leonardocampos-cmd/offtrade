@@ -159,7 +159,14 @@ df['NOME_USUR2'] = df['NOME_USUR2'].fillna('').str.strip()
 # O mesmo cliente pode aparecer com RCAs diferentes em bases diferentes
 df['CODUSUR1_S'] = df['CODUSUR1'].fillna('').astype(str)
 df['CODUSUR2_S'] = df['CODUSUR2'].fillna('').astype(str)
-df['_CNPJ14'] = df['CNPJ'].apply(lambda v: v[:14] if len(str(v).strip()) >= 14 else '')
+# SPON grava CGCENT formatado com pontuação ("46.443.440/0001-14", 18
+# caracteres) enquanto as demais bases gravam só os dígitos (14) —
+# confirmado 2026-08-18 (mesmo problema achado em
+# exportacao_raiox_oportunidades.py). Sem remover a pontuação antes de medir
+# o tamanho, o corte de 14 caracteres pegava um pedaço truncado e ainda com
+# pontos/barra do CNPJ do SPON (nunca um CNPJ real), então nenhuma linha do
+# SPON dava match por CNPJ com as outras bases.
+df['_CNPJ14'] = df['CNPJ'].str.replace(r'\D', '', regex=True).apply(lambda v: v if len(v) == 14 else '')
 df['_KEY'] = df.apply(
     lambda r: f"{r['_CNPJ14'] or (r['_SRC'] + '_' + str(r['CODCLI']))}|{r['CODUSUR1_S']}|{r['CODUSUR2_S']}",
     axis=1
