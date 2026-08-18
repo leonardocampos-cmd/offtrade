@@ -23,7 +23,7 @@ SCHEMA             = "CRC"
 # última venda, nem elegibilidade de troca de RCA).
 FONTES_CLIENTE     = [("crc", "CRC"), ("garrido", "GARRIDO")]
 EMAIL_FINANCEIRO   = "cadastro@rigarr.com.br"
-EMAIL_CADASTRO_CC  = "offtrade@rigarr.com.br"
+EMAIL_CADASTRO_CC  = "danielle.soares@rigarr.com.br"
 WHATSAPP_FINANCEIRO = "5521964384318"
 CHAVE_API_CNPJ     = os.getenv("CHAVE_API_CNPJ", "")
 EVOLUTION_API_URL  = os.getenv("EVOLUTION_API_URL", os.getenv("EVOLUTION_BASE_URL", ""))
@@ -474,7 +474,12 @@ Cód: {row["CODCLI"]} &nbsp;|&nbsp; CNPJ: {cnpj_fmt}
                 f"Cliente: {row['NOME']} ({cnpj_fmt}) — Cód. {row['CODCLI']}\n{rca_linha}"
             )
 
-            # ── Troca de RCA ─────────────────────────────────────────────────
+            # ── Motivo de troca de RCA ───────────────────────────────────────
+            # O envio da solicitação em si foi removido daqui (2026-08-18) —
+            # agora acontece pela seção "Alteração de Cadastro" abaixo
+            # (campos RCA 1/RCA 2). Mantido só o aviso do motivo (RCA
+            # "estacionamento"/inativo ou sem compra há muito tempo), que
+            # ajuda o RCA solicitante a saber se vale a pena pedir a troca.
             # codusur1 = 10 é o RCA "estacionamento" usado pro cadastro pra
             # marcar cliente sem vendedor ativo (ver clientes_inativos.html /
             # exportacao_clientes_inativos.py — mesma convenção usada lá).
@@ -485,41 +490,49 @@ Cód: {row["CODCLI"]} &nbsp;|&nbsp; CNPJ: {cnpj_fmt}
             rca_inativo         = codusur_atual in RCAS_SEM_VENDEDOR
             sem_compra_limite   = dias_sem_compra is None or dias_sem_compra > DIAS_LIMITE_TROCA
             elegivel_troca      = rca_inativo or sem_compra_limite
-            confirmar_key       = f"confirmar_troca_{row['CODCLI']}"
 
             if elegivel_troca:
                 motivo = f"RCA inativo (cód. {codusur_atual})" if rca_inativo else (
                     "nunca comprou" if dias_sem_compra is None else f"{dias_sem_compra} dias sem compra"
                 )
                 st.warning(f"⚠️ Cliente sem vendedor ativo — {motivo}.")
-
-                if st.button("🔄 Pedir Troca de RCA", key=f"btn_{confirmar_key}"):
-                    st.session_state[confirmar_key] = True
-
-                if st.session_state.get(confirmar_key):
-                    st.info(
-                        f"Confirma a solicitação de troca de RCA de **{row['NOME']}** "
-                        f"para **{rca_info.get('nome', '—')}** (cód. {codusur_solicitante if codusur_solicitante else '—'})?"
-                    )
-                    col_ok, col_cancel = st.columns(2)
-                    if col_ok.button("✅ Confirmar", key=f"ok_{confirmar_key}"):
-                        corpo_troca = (
-                            f"Solicito a troca de RCA do cliente:\n\n"
-                            f"Cliente: {row['NOME']} ({cnpj_fmt}) — Cód. {row['CODCLI']}\n"
-                            f"RCA Atual  : {nome_rca_atual} (cód. {codusur_atual if codusur_atual else '—'})\n"
-                            f"Motivo     : {motivo}\n"
-                            f"Última venda: {ultima_venda_txt}\n\n"
-                            f"{rca_linha}\n\n"
-                            f"Podem realizar a troca de RCA para o solicitante?\n\nObrigado!"
-                        )
-                        if _enviar_email(f"Solicitação de Troca de RCA — {row['NOME']}", corpo_troca, cc=EMAIL_CADASTRO_CC):
-                            st.success("Solicitação de troca de RCA enviada ao cadastro.")
-                            st.session_state[confirmar_key] = False
-                    if col_cancel.button("Cancelar", key=f"cancel_{confirmar_key}"):
-                        st.session_state[confirmar_key] = False
-                        st.rerun()
             elif codusur_solicitante and codusur_atual and codusur_atual != codusur_solicitante:
                 st.info(f"ℹ️ Este cliente já possui vendedor dedicado: **{nome_rca_atual}** (cód. {codusur_atual}).")
+
+            # ── Alteração de Cadastro ────────────────────────────────────────
+            # Campos estruturados (não texto livre) — cada campo selecionado
+            # ganha seu próprio input de "novo valor", igual ao padrão de
+            # e-mail estruturado já usado em Troca de RCA/Limite acima.
+            st.markdown("---")
+            st.markdown("#### ✏️ Alteração de Cadastro")
+            campos_alteracao = st.multiselect(
+                "Quais informações precisam ser atualizadas?",
+                ["Nome Fantasia", "Razão Social", "Endereço", "Bairro", "Cidade/UF", "CEP",
+                 "Telefone", "E-mail", "Contato/Responsável", "RCA 1", "RCA 2", "Outro"],
+                key=f"campos_alt_{row['CODCLI']}",
+            )
+            if campos_alteracao:
+                with st.form(f"form_alteracao_{row['CODCLI']}"):
+                    novos_valores = {
+                        campo: st.text_input(f"Novo valor — {campo}", key=f"novo_{campo}_{row['CODCLI']}")
+                        for campo in campos_alteracao
+                    }
+                    enviado_alt = st.form_submit_button("📧 Enviar Solicitação de Alteração")
+
+                if enviado_alt:
+                    preenchidos = {c: v.strip() for c, v in novos_valores.items() if v.strip()}
+                    if not preenchidos:
+                        st.warning("Preencha ao menos um novo valor antes de enviar.")
+                    else:
+                        linhas_campos = "\n".join(f"{c}: {v}" for c, v in preenchidos.items())
+                        corpo_alt = (
+                            f"Solicito a atualização de cadastro do cliente:\n\n"
+                            f"{info_cliente}\n\n"
+                            f"Campos a alterar:\n{linhas_campos}\n\n"
+                            f"Podem realizar a atualização?\n\nObrigado!"
+                        )
+                        if _enviar_email(f"Solicitação de Alteração de Cadastro — {row['NOME']}", corpo_alt, cc=EMAIL_CADASTRO_CC):
+                            st.success("Solicitação de alteração enviada ao time de cadastro.")
 
             st.markdown("---")
             # st.form + st.form_submit_button em vez de widgets soltos + st.button:
