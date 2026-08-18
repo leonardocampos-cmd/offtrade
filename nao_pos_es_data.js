@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_es.py
 
 const NAO_POS_ES_DATA = {
-  "atualizado_em": "18/08/2026 14:14",
+  "atualizado_em": "18/08/2026 15:13",
   "por_vendedor": {
     "ADEILSON GONÇALVEZ": [
       {
@@ -3103,6 +3103,13 @@ const NAO_POS_ES_DATA = {
             "valor": 56.7
           }
         ]
+      },
+      {
+        "codcli": "96067",
+        "cliente": "DROGARIA SOROCABA LTDA",
+        "bairro": "BOTAFOGO",
+        "dtultcomp": "nan",
+        "produtos": []
       },
       {
         "codcli": "96063",
@@ -6865,26 +6872,6 @@ const NAO_POS_ES_DATA = {
         ]
       },
       {
-        "codcli": "90826",
-        "cliente": "MERCADO BOA OPCAO LTDA",
-        "bairro": "ITANHANGA",
-        "dtultcomp": "22/06/2026",
-        "produtos": [
-          {
-            "produto": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID",
-            "fantasia": "KAISER",
-            "qt": 15,
-            "valor": 945.0
-          },
-          {
-            "produto": "CERVEJA HEINEKEN LONG 24X330ML",
-            "fantasia": "KAISER",
-            "qt": 8,
-            "valor": 1016.0
-          }
-        ]
-      },
-      {
         "codcli": "86264",
         "cliente": "JC LOJA DE CONVENIENCIA LTDA",
         "bairro": "TAQUARA",
@@ -7413,26 +7400,6 @@ const NAO_POS_ES_DATA = {
         ]
       },
       {
-        "codcli": "86257",
-        "cliente": "MINI MERCADO BOA OPCAO LTDA",
-        "bairro": "ITANHANGA",
-        "dtultcomp": "27/07/2026",
-        "produtos": [
-          {
-            "produto": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID",
-            "fantasia": "KAISER",
-            "qt": 20,
-            "valor": 1260.0
-          },
-          {
-            "produto": "WHISKY J WALKER BLACK LABEL 1L",
-            "fantasia": "DIAGEO",
-            "qt": 2,
-            "valor": 359.8
-          }
-        ]
-      },
-      {
         "codcli": "81446",
         "cliente": "REZENDE ALIMENTOS JPA LTDA",
         "bairro": "JACAREPAGUA",
@@ -7519,32 +7486,6 @@ const NAO_POS_ES_DATA = {
         ]
       },
       {
-        "codcli": "86435",
-        "cliente": "MERCADINHO 03 IRMAOS LTDA",
-        "bairro": "ITANHANGA",
-        "dtultcomp": "31/07/2026",
-        "produtos": [
-          {
-            "produto": "AGUARDENTE OLD CESAR 88 965 ML",
-            "fantasia": "CRS BRANDS",
-            "qt": 24,
-            "valor": 266.4
-          },
-          {
-            "produto": "CERVEJA HEINEKEN LONG 24X330ML",
-            "fantasia": "KAISER",
-            "qt": 5,
-            "valor": 635.0
-          },
-          {
-            "produto": "CONHAQUE DREHER 900ML",
-            "fantasia": "CAMPARI",
-            "qt": 12,
-            "valor": 202.8
-          }
-        ]
-      },
-      {
         "codcli": "83863",
         "cliente": "RENATO CRUZ DA SILVA 15335044748",
         "bairro": "GUARATIBA",
@@ -7580,20 +7521,6 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
-        "codcli": "95806",
-        "cliente": "GUARATIBA SUPERMERCADO & ALIMENTOS LTDA",
-        "bairro": "GUARATIBA",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "95804",
-        "cliente": "GUARATIBA SUPERMERCADO & ALIMENTOS LTDA",
-        "bairro": "GUARATIBA",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
         "codcli": "95805",
         "cliente": "GUARATIBA SUPERMERCADO & ALIMENTOS LTDA",
         "bairro": "BARRA DE GUARATIBA",
@@ -7602,6 +7529,20 @@ const NAO_POS_ES_DATA = {
       },
       {
         "codcli": "95807",
+        "cliente": "GUARATIBA SUPERMERCADO & ALIMENTOS LTDA",
+        "bairro": "GUARATIBA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "95806",
+        "cliente": "GUARATIBA SUPERMERCADO & ALIMENTOS LTDA",
+        "bairro": "GUARATIBA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "95804",
         "cliente": "GUARATIBA SUPERMERCADO & ALIMENTOS LTDA",
         "bairro": "GUARATIBA",
         "dtultcomp": "nan",
@@ -10127,74 +10068,6 @@ const NAO_POS_ES_DATA = {
             "fantasia": "RED BULL",
             "qt": 1,
             "valor": 179.76
-          }
-        ]
-      },
-      {
-        "codcli": "77585",
-        "cliente": "SALES DE SOUZA E FRANCA BAR LTDA",
-        "bairro": "PRAIA CAMPISTA",
-        "dtultcomp": "18/06/2026",
-        "produtos": [
-          {
-            "produto": "ESPUMANTE ALUD BRANCO 750ML",
-            "fantasia": "CASTAS",
-            "qt": 4,
-            "valor": 131.6
-          },
-          {
-            "produto": "ESPUMANTE ALUD ROSE 750ML",
-            "fantasia": "CASTAS",
-            "qt": 4,
-            "valor": 131.6
-          },
-          {
-            "produto": "HUMB. CANALE DENARIO MALBEC 750ML",
-            "fantasia": "CASTAS",
-            "qt": 6,
-            "valor": 419.4
-          },
-          {
-            "produto": "HUMB. CANALE DENARIO SAUV. BLANC",
-            "fantasia": "CASTAS",
-            "qt": 6,
-            "valor": 419.4
-          },
-          {
-            "produto": "MAXIME BRANCO 750ML",
-            "fantasia": "CASTAS",
-            "qt": 6,
-            "valor": 329.4
-          },
-          {
-            "produto": "VINHO ARESTI ESTATE S. CAB SAUV 750ML",
-            "fantasia": "CASTAS",
-            "qt": 6,
-            "valor": 269.4
-          },
-          {
-            "produto": "VINHO ARESTI ESTATE S. CARMENERE 750ML",
-            "fantasia": "CASTAS",
-            "qt": 6,
-            "valor": 269.4
-          },
-          {
-            "produto": "VINHO ARESTI ESTATE S. CHARDONNAY 750ML",
-            "fantasia": "CASTAS",
-            "qt": 6,
-            "valor": 269.4
-          },
-          {
-            "produto": "VINHO BCO ARCAIA PINOT GRIGIO 750ML",
-            "fantasia": "CASTAS",
-            "qt": 6,
-            "valor": 449.4
-          },
-          {
-            "produto": "VINHO CAVAS DE ORO MALBEC 750ML",
-            "fantasia": "CASTAS",
-            "qt": 6,
-            "valor": 299.4
           }
         ]
       },
@@ -13112,20 +12985,6 @@ const NAO_POS_ES_DATA = {
         ]
       },
       {
-        "codcli": "95709",
-        "cliente": "JOAO CANDIDO DE AZEVEDO NETO 05732934308",
-        "bairro": "CABUCU",
-        "dtultcomp": "15/07/2026",
-        "produtos": [
-          {
-            "produto": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID",
-            "fantasia": "KAISER",
-            "qt": 10,
-            "valor": 629.0
-          }
-        ]
-      },
-      {
         "codcli": "88933",
         "cliente": "MERCADO E PADARIA PONTO ALTO DO KM 32 LTDA",
         "bairro": "PQE S FCO DE PAULA",
@@ -13496,32 +13355,6 @@ const NAO_POS_ES_DATA = {
             "fantasia": "DIAGEO",
             "qt": 2,
             "valor": 359.8
-          }
-        ]
-      },
-      {
-        "codcli": "95116",
-        "cliente": "CRISTINA DA S R NOBRE MERCADO",
-        "bairro": "JARDIM NOVA ERA",
-        "dtultcomp": "23/07/2026",
-        "produtos": [
-          {
-            "produto": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID",
-            "fantasia": "KAISER",
-            "qt": 10,
-            "valor": 600.0
-          },
-          {
-            "produto": "RC ATUM PEDACOS EM OLEO 24X140G",
-            "fantasia": "ROBINSON CRUSOE",
-            "qt": 1,
-            "valor": 141.6
-          },
-          {
-            "produto": "RC ATUM SOLIDO OLEO 24X170G",
-            "fantasia": "ROBINSON CRUSOE",
-            "qt": 1,
-            "valor": 141.6
           }
         ]
       },
@@ -14036,9 +13869,9 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
-        "codcli": "3754",
+        "codcli": "93791",
         "cliente": "SUPERMERCADO BARRA OESTE LTDA",
-        "bairro": "RECREIO DOS BANDEIRANTES",
+        "bairro": "BARRA DA TIJUCA",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -14050,9 +13883,9 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
-        "codcli": "93791",
+        "codcli": "3754",
         "cliente": "SUPERMERCADO BARRA OESTE LTDA",
-        "bairro": "BARRA DA TIJUCA",
+        "bairro": "RECREIO DOS BANDEIRANTES",
         "dtultcomp": "nan",
         "produtos": []
       }
@@ -22077,32 +21910,6 @@ const NAO_POS_ES_DATA = {
         ]
       },
       {
-        "codcli": "84435",
-        "cliente": "BEATRIZ CRISTINA SERPA MOTA DA SILVA 13928427784",
-        "bairro": "RASA",
-        "dtultcomp": "21/07/2026",
-        "produtos": [
-          {
-            "produto": "RED BULL MELANCIA 250ML CX C/24",
-            "fantasia": "RED BULL",
-            "qt": 1,
-            "valor": 172.56
-          },
-          {
-            "produto": "RED BULL TROPICAL 24X250ML",
-            "fantasia": "RED BULL",
-            "qt": 1,
-            "valor": 172.56
-          },
-          {
-            "produto": "VODKA ABSOLUT 1L",
-            "fantasia": "PERNOD",
-            "qt": 3,
-            "valor": 164.7
-          }
-        ]
-      },
-      {
         "codcli": "58597",
         "cliente": "BZ 01 LA PEDRERA POUSADA LTDA",
         "bairro": "JOAO FERNANDES",
@@ -22327,20 +22134,6 @@ const NAO_POS_ES_DATA = {
             "fantasia": "CASTAS",
             "qt": 8,
             "valor": 279.2
-          }
-        ]
-      },
-      {
-        "codcli": "79500",
-        "cliente": "CONVENIENCIA E TABACARIA DA DRICA LTDA",
-        "bairro": "RASA",
-        "dtultcomp": "24/07/2026",
-        "produtos": [
-          {
-            "produto": "RUM MALIBU 750ML",
-            "fantasia": "PERNOD",
-            "qt": 6,
-            "valor": 299.4
           }
         ]
       },
