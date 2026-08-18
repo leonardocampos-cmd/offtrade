@@ -16291,10 +16291,24 @@ const AGENDAMENTO_DATA = {
           "cliente": "SUPERMERCADOS MUNDIAL LTDA",
           "cnpj": "33.304.981/0001-10",
           "filial": "INHAUMA",
-          "valor": 8748.0,
+          "valor": 166704.0,
           "nf": "",
           "data_agendamento": "26/08/2026",
           "data_ord": "2026-08-26",
+          "status": "A FATURAR",
+          "obs": "(PAGAMENTO NO PIX) - CADA SKU EM PALETTS DIFERENTES -  PALLET TEM QUE SER FILMADO",
+          "status_logistica": "",
+          "justificativa_logistica": ""
+        },
+        {
+          "codigo_cliente": "6278",
+          "cliente": "SUPERMERCADOS MUNDIAL LTDA",
+          "cnpj": "33.304.981/0001-10",
+          "filial": "INHAUMA",
+          "valor": 8748.0,
+          "nf": "",
+          "data_agendamento": "19/08/2026",
+          "data_ord": "2026-08-19",
           "status": "A FATURAR",
           "obs": "(PAGAMENTO NO PIX) - CADA SKU EM PALETTS DIFERENTES -  PALLET TEM QUE SER FILMADO",
           "status_logistica": "",
@@ -26680,7 +26694,7 @@ const AGENDAMENTO_DATA = {
       ]
     }
   ],
-  "atualizado_em": "18/08/2026 15:53",
+  "atualizado_em": "18/08/2026 16:35",
   "comparativo": [
     {
       "msg_id": "1a000be7acfbb4b6",
