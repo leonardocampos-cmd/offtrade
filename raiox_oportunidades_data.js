@@ -1,6 +1,6 @@
 // Gerado automaticamente
 const RAIOX_OPORTUNIDADES_DATA = {
-  "atualizado_em": "18/08/2026 17:09",
+  "atualizado_em": "18/08/2026 17:33",
   "periodo_atual": {
     "inicio": "01/08/2026",
     "fim": "18/08/2026",
@@ -25654,12 +25654,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "DISTRIBUIDORA CAMPOS",
       "bairro": "PONTILHAO",
       "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "vendedor": "FERNANDO RISSON",
+      "vendedor": "WILLIAM ALVES DA SILVA",
       "gerente": "FERNANDO RISSON",
       "supervisor": "FERNANDO RISSON",
       "chaves_rca": [
-        "MG-MGON-343.0",
-        "MG-MGON-349"
+        "MG-MGON-349",
+        "MG-MGON-343.0"
       ],
       "por_industria": [
         {
@@ -34888,12 +34888,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "BIANCA DUARTE PIMENTA",
       "bairro": "ARARAS",
       "ramo": "BAR",
-      "vendedor": "GISELLE BARFER",
-      "gerente": "DANIEL DINIZ",
-      "supervisor": "DANIEL DINIZ",
+      "vendedor": "DIOGO RAPOSO",
+      "gerente": "ALLAN PAES",
+      "supervisor": "DANIELLE MOURA",
       "chaves_rca": [
-        "RJ-CRC-159.0",
-        "RJ-CRC-144"
+        "RJ-CRC-144",
+        "RJ-CRC-159.0"
       ],
       "por_industria": [
         {
@@ -37492,12 +37492,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS",
       "bairro": "BALNEARIO PRAIA DO PEREQUÊ",
       "ramo": "MERCADO",
-      "vendedor": "BRYAN PALOPOLI",
+      "vendedor": "ROBSON DA SILVA",
       "gerente": "MARCUS TANAMACHI",
-      "supervisor": "MARCUS TANAMACHI",
+      "supervisor": "ANDERSON CANAVEIS",
       "chaves_rca": [
-        "SP-SPON-399.0",
-        "SP-SPON-317"
+        "SP-SPON-317",
+        "SP-SPON-399.0"
       ],
       "por_industria": [
         {
@@ -41626,12 +41626,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "SUPERMERCADO DA FREGUESIA LTDA",
       "bairro": "NOSSA SENHORA DO Ó",
       "ramo": "MERCADO",
-      "vendedor": "BRYAN PALOPOLI",
+      "vendedor": "ANDRE SILVA",
       "gerente": "MARCUS TANAMACHI",
-      "supervisor": "MARCUS TANAMACHI",
+      "supervisor": "ANDERSON CANAVEIS",
       "chaves_rca": [
-        "SP-SPON-399.0",
-        "SP-SPON-391"
+        "SP-SPON-391",
+        "SP-SPON-399.0"
       ],
       "por_industria": [
         {
@@ -77583,12 +77583,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "SUPERMERCADO SANI",
       "bairro": "CENTRO",
       "ramo": "MINI-MERCADO",
-      "vendedor": "BRYAN PALOPOLI",
+      "vendedor": "LEONARDO FLOREZI",
       "gerente": "MARCUS TANAMACHI",
-      "supervisor": "MARCUS TANAMACHI",
+      "supervisor": "PRISCILLA BONACHE",
       "chaves_rca": [
-        "SP-SPON-399.0",
-        "SP-SPON-486"
+        "SP-SPON-486",
+        "SP-SPON-399.0"
       ],
       "por_industria": [
         {
@@ -87731,89 +87731,6 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "queda_fat_mes_pct": -100.0,
       "queda_fat_ano_pct": null,
       "queda_qt_mes_valor": 38.0,
-      "queda_qt_ano_valor": 0.0,
-      "queda_qt_mes_pct": -100.0,
-      "queda_qt_ano_pct": null
-    },
-    {
-      "codcli": 51884,
-      "estado": "SP",
-      "chave": "SP-51884",
-      "nome": "ROZELI MORAIS DOS SANTOS",
-      "bairro": "RECANTO VISTA ALEGRE",
-      "ramo": "ADEGA",
-      "vendedor": "RAFAEL REIS",
-      "gerente": "MARCUS TANAMACHI",
-      "supervisor": "ANDERSON CANAVEIS",
-      "chaves_rca": [
-        "SP-SPON-515"
-      ],
-      "por_industria": [
-        {
-          "fornecedor": "PERNOD",
-          "por_produto": [
-            {
-              "produto": "GIN BEEFEATER 750ML",
-              "fat_atual": 0.0,
-              "fat_mes_anterior": 838.8,
-              "fat_ano_anterior": 0.0,
-              "qt_atual": 0.0,
-              "qt_mes_anterior": 12.0,
-              "qt_ano_anterior": 0.0,
-              "queda_fat_mes_valor": 838.8,
-              "queda_fat_ano_valor": 0.0,
-              "queda_fat_mes_pct": -100.0,
-              "queda_fat_ano_pct": null,
-              "queda_qt_mes_valor": 12.0,
-              "queda_qt_ano_valor": 0.0,
-              "queda_qt_mes_pct": -100.0,
-              "queda_qt_ano_pct": null
-            },
-            {
-              "produto": "WHISKY PASSPORT 1L",
-              "fat_atual": 0.0,
-              "fat_mes_anterior": 414.0,
-              "fat_ano_anterior": 0.0,
-              "qt_atual": 0.0,
-              "qt_mes_anterior": 12.0,
-              "qt_ano_anterior": 0.0,
-              "queda_fat_mes_valor": 414.0,
-              "queda_fat_ano_valor": 0.0,
-              "queda_fat_mes_pct": -100.0,
-              "queda_fat_ano_pct": null,
-              "queda_qt_mes_valor": 12.0,
-              "queda_qt_ano_valor": 0.0,
-              "queda_qt_mes_pct": -100.0,
-              "queda_qt_ano_pct": null
-            }
-          ],
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 1252.8,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 24.0,
-          "qt_ano_anterior": 0.0,
-          "queda_fat_mes_valor": 1252.8,
-          "queda_fat_ano_valor": 0.0,
-          "queda_fat_mes_pct": -100.0,
-          "queda_fat_ano_pct": null,
-          "queda_qt_mes_valor": 24.0,
-          "queda_qt_ano_valor": 0.0,
-          "queda_qt_mes_pct": -100.0,
-          "queda_qt_ano_pct": null
-        }
-      ],
-      "fat_atual": 0.0,
-      "fat_mes_anterior": 1252.8,
-      "fat_ano_anterior": 0.0,
-      "qt_atual": 0.0,
-      "qt_mes_anterior": 24.0,
-      "qt_ano_anterior": 0.0,
-      "queda_fat_mes_valor": 1252.8,
-      "queda_fat_ano_valor": 0.0,
-      "queda_fat_mes_pct": -100.0,
-      "queda_fat_ano_pct": null,
-      "queda_qt_mes_valor": 24.0,
       "queda_qt_ano_valor": 0.0,
       "queda_qt_mes_pct": -100.0,
       "queda_qt_ano_pct": null
@@ -98594,12 +98511,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "LEANDRO FREITAS RODRIGUES",
       "bairro": "OLARIA",
       "ramo": "BAR",
-      "vendedor": "ALLAN PAES",
+      "vendedor": "JORGE MACIEL",
       "gerente": "ALLAN PAES",
       "supervisor": "DANIELLE MOURA",
       "chaves_rca": [
-        "RJ-CRC-174.0",
-        "RJ-CRC-379"
+        "RJ-CRC-379",
+        "RJ-CRC-174.0"
       ],
       "por_industria": [
         {
@@ -110032,12 +109949,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "PARANAIBA VALE DAS ORQUIDEAS ALIMENTOS",
       "bairro": "VALE DAS ORQUÍDEAS",
       "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "vendedor": "MATHEUS DE SOUZA",
+      "vendedor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "supervisor": "FERNANDO RISSON",
       "chaves_rca": [
-        "MG-MGON-354",
-        "MG-MGON-343.0"
+        "MG-MGON-343.0",
+        "MG-MGON-354"
       ],
       "por_industria": [
         {
@@ -117900,12 +117817,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "PARANAIBA FORTALEZA",
       "bairro": "SAO JOAO BATISTA (VENDA NOVA)",
       "ramo": "COMERCIO ATACADISTA (GERAL)",
-      "vendedor": "MATHEUS DE SOUZA",
+      "vendedor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "supervisor": "FERNANDO RISSON",
       "chaves_rca": [
-        "MG-MGON-354",
-        "MG-MGON-343.0"
+        "MG-MGON-343.0",
+        "MG-MGON-354"
       ],
       "por_industria": [
         {
@@ -130747,12 +130664,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "PARANAIBA EXPRESS",
       "bairro": "ALPHAVILLE VESPASIANO",
       "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "vendedor": "MATHEUS DE SOUZA",
+      "vendedor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "supervisor": "FERNANDO RISSON",
       "chaves_rca": [
-        "MG-MGON-354",
-        "MG-MGON-343.0"
+        "MG-MGON-343.0",
+        "MG-MGON-354"
       ],
       "por_industria": [
         {
@@ -136337,12 +136254,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "PARANAIBA VESPASIANO",
       "bairro": "SANTA CLARA",
       "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "vendedor": "MATHEUS DE SOUZA",
+      "vendedor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "supervisor": "FERNANDO RISSON",
       "chaves_rca": [
-        "MG-MGON-354",
-        "MG-MGON-343.0"
+        "MG-MGON-343.0",
+        "MG-MGON-354"
       ],
       "por_industria": [
         {
@@ -145258,12 +145175,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "PARANAIBA TUPI",
       "bairro": "TUPI B",
       "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "vendedor": "MATHEUS DE SOUZA",
+      "vendedor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "supervisor": "FERNANDO RISSON",
       "chaves_rca": [
-        "MG-MGON-354",
-        "MG-MGON-343.0"
+        "MG-MGON-343.0",
+        "MG-MGON-354"
       ],
       "por_industria": [
         {
@@ -145325,12 +145242,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "PARANAIBA RIO BRANCO SUPERMERCADOS EIRELI",
       "bairro": "RIO BRANCO",
       "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "vendedor": "MATHEUS DE SOUZA",
+      "vendedor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "supervisor": "FERNANDO RISSON",
       "chaves_rca": [
-        "MG-MGON-354",
-        "MG-MGON-343.0"
+        "MG-MGON-343.0",
+        "MG-MGON-354"
       ],
       "por_industria": [
         {
@@ -145392,12 +145309,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "PARANAIBA GUANABARA ALIMENTOS LTDA",
       "bairro": "JARDIM GUANABARA",
       "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "vendedor": "MATHEUS DE SOUZA",
+      "vendedor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "supervisor": "FERNANDO RISSON",
       "chaves_rca": [
-        "MG-MGON-354",
-        "MG-MGON-343.0"
+        "MG-MGON-343.0",
+        "MG-MGON-354"
       ],
       "por_industria": [
         {
@@ -145459,12 +145376,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "SUPERMERCADOS PARANAIBA",
       "bairro": "CAPITAO EDURARDO",
       "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "vendedor": "MATHEUS DE SOUZA",
+      "vendedor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "supervisor": "FERNANDO RISSON",
       "chaves_rca": [
-        "MG-MGON-354",
-        "MG-MGON-343.0"
+        "MG-MGON-343.0",
+        "MG-MGON-354"
       ],
       "por_industria": [
         {
@@ -150009,12 +149926,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "PARANAIBA SERRA VERDE",
       "bairro": "SERRA VERDE (VENDA NOVA)",
       "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "vendedor": "MATHEUS DE SOUZA",
+      "vendedor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "supervisor": "FERNANDO RISSON",
       "chaves_rca": [
-        "MG-MGON-354",
-        "MG-MGON-343.0"
+        "MG-MGON-343.0",
+        "MG-MGON-354"
       ],
       "por_industria": [
         {
@@ -156287,12 +156204,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "BIG BOM SANTO ANDRE MINIMERCADO",
       "bairro": "JARDIM LALLO",
       "ramo": "MINI-MERCADO",
-      "vendedor": "LUCELIA BARROS",
+      "vendedor": "ROBSON DA SILVA",
       "gerente": "MARCUS TANAMACHI",
       "supervisor": "ANDERSON CANAVEIS",
       "chaves_rca": [
-        "SP-SPON-505",
-        "SP-SPON-317.0"
+        "SP-SPON-317.0",
+        "SP-SPON-505"
       ],
       "por_industria": [
         {
@@ -193759,12 +193676,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "VITTORIA MAIS SUPERMERCADO EIRELI",
       "bairro": "JOAO ARANHA",
       "ramo": "PADARIA",
-      "vendedor": "BRYAN PALOPOLI",
+      "vendedor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI",
-      "supervisor": "MARCUS TANAMACHI",
+      "supervisor": "PRISCILLA BONACHE",
       "chaves_rca": [
-        "SP-SPON-399.0",
-        "SP-SPON-470"
+        "SP-SPON-470",
+        "SP-SPON-399.0"
       ],
       "por_industria": [
         {
@@ -194112,11 +194029,11 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "bairro": "VILA PLANA",
       "ramo": "EVENTOS",
       "vendedor": "BRYAN PALOPOLI",
-      "gerente": "MARCUS TANAMACHI",
-      "supervisor": "MARCUS TANAMACHI",
+      "gerente": "Sem gerente",
+      "supervisor": "Sem supervisor",
       "chaves_rca": [
-        "SP-SPON-399.0",
-        "SP-BLENDED-399.0"
+        "SP-BLENDED-399.0",
+        "SP-SPON-399.0"
       ],
       "por_industria": [
         {
@@ -212079,12 +211996,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "COSTELAS BAR",
       "bairro": "CURICICA",
       "ramo": "CAFETERIA",
-      "vendedor": "DIOGO RAPOSO",
+      "vendedor": "ADEILSON GONÇALVEZ",
       "gerente": "ALLAN PAES",
       "supervisor": "DANIELLE MOURA",
       "chaves_rca": [
-        "RJ-CRC-144.0",
-        "RJ-CRC-431"
+        "RJ-CRC-431",
+        "RJ-CRC-144.0"
       ],
       "por_industria": [
         {
@@ -216198,12 +216115,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "VAREJAO PLANALTO LTDA.",
       "bairro": "PLANALTO",
       "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "vendedor": "MATHEUS DE SOUZA",
+      "vendedor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "supervisor": "FERNANDO RISSON",
       "chaves_rca": [
-        "MG-MGON-354",
-        "MG-MGON-343.0"
+        "MG-MGON-343.0",
+        "MG-MGON-354"
       ],
       "por_industria": [
         {
@@ -219570,12 +219487,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "CACAU PARK",
       "bairro": "CENTRO",
       "ramo": "SERVIÇOS",
-      "vendedor": "BRYAN PALOPOLI",
+      "vendedor": "LEONARDO FLOREZI",
       "gerente": "MARCUS TANAMACHI",
-      "supervisor": "MARCUS TANAMACHI",
+      "supervisor": "PRISCILLA BONACHE",
       "chaves_rca": [
-        "SP-SPON-399.0",
-        "SP-SPON-486"
+        "SP-SPON-486",
+        "SP-SPON-399.0"
       ],
       "por_industria": [
         {
@@ -234174,12 +234091,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "SUPERMERCADO RAVAGIO",
       "bairro": "JARDIM DAS ACACIAS",
       "ramo": "MERCADO",
-      "vendedor": "MANUELA ZAPPACOSTA",
+      "vendedor": "GILSON DE OLIVEIRA",
       "gerente": "MARCUS TANAMACHI",
       "supervisor": "PRISCILLA BONACHE",
       "chaves_rca": [
-        "SP-SPON-433",
-        "SP-SPON-491.0"
+        "SP-SPON-491.0",
+        "SP-SPON-433"
       ],
       "por_industria": [
         {
@@ -246941,176 +246858,6 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "queda_qt_ano_pct": null
     },
     {
-      "codcli": 52124,
-      "estado": "SP",
-      "chave": "SP-52124",
-      "nome": "KACULA SUPERMERCADO",
-      "bairro": "JARDIM MUTINGA",
-      "ramo": "MERCADO",
-      "vendedor": "RAFAEL REIS",
-      "gerente": "MARCUS TANAMACHI",
-      "supervisor": "ANDERSON CANAVEIS",
-      "chaves_rca": [
-        "SP-SPON-515"
-      ],
-      "por_industria": [
-        {
-          "fornecedor": "CRS BRANDS",
-          "por_produto": [
-            {
-              "produto": "VINHO DOM BOSCO TINTO SECO 750ML",
-              "fat_atual": 107.88,
-              "fat_mes_anterior": 0.0,
-              "fat_ano_anterior": 0.0,
-              "qt_atual": 12.0,
-              "qt_mes_anterior": 0.0,
-              "qt_ano_anterior": 0.0,
-              "queda_fat_mes_valor": -107.88,
-              "queda_fat_ano_valor": -107.88,
-              "queda_fat_mes_pct": null,
-              "queda_fat_ano_pct": null,
-              "queda_qt_mes_valor": -12.0,
-              "queda_qt_ano_valor": -12.0,
-              "queda_qt_mes_pct": null,
-              "queda_qt_ano_pct": null
-            },
-            {
-              "produto": "VINHO DOM BOSCO TINTO SUAVE 750ML",
-              "fat_atual": 107.88,
-              "fat_mes_anterior": 0.0,
-              "fat_ano_anterior": 0.0,
-              "qt_atual": 12.0,
-              "qt_mes_anterior": 0.0,
-              "qt_ano_anterior": 0.0,
-              "queda_fat_mes_valor": -107.88,
-              "queda_fat_ano_valor": -107.88,
-              "queda_fat_mes_pct": null,
-              "queda_fat_ano_pct": null,
-              "queda_qt_mes_valor": -12.0,
-              "queda_qt_ano_valor": -12.0,
-              "queda_qt_mes_pct": null,
-              "queda_qt_ano_pct": null
-            }
-          ],
-          "fat_atual": 215.76,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 24.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0,
-          "queda_fat_mes_valor": -215.76,
-          "queda_fat_ano_valor": -215.76,
-          "queda_fat_mes_pct": null,
-          "queda_fat_ano_pct": null,
-          "queda_qt_mes_valor": -24.0,
-          "queda_qt_ano_valor": -24.0,
-          "queda_qt_mes_pct": null,
-          "queda_qt_ano_pct": null
-        },
-        {
-          "fornecedor": "PERNOD",
-          "por_produto": [
-            {
-              "produto": "VODKA ORLOFF 1L",
-              "fat_atual": 59.7,
-              "fat_mes_anterior": 0.0,
-              "fat_ano_anterior": 0.0,
-              "qt_atual": 3.0,
-              "qt_mes_anterior": 0.0,
-              "qt_ano_anterior": 0.0,
-              "queda_fat_mes_valor": -59.7,
-              "queda_fat_ano_valor": -59.7,
-              "queda_fat_mes_pct": null,
-              "queda_fat_ano_pct": null,
-              "queda_qt_mes_valor": -3.0,
-              "queda_qt_ano_valor": -3.0,
-              "queda_qt_mes_pct": null,
-              "queda_qt_ano_pct": null
-            },
-            {
-              "produto": "WHISKY PASSPORT APPLE 670ML",
-              "fat_atual": 98.7,
-              "fat_mes_anterior": 0.0,
-              "fat_ano_anterior": 0.0,
-              "qt_atual": 3.0,
-              "qt_mes_anterior": 0.0,
-              "qt_ano_anterior": 0.0,
-              "queda_fat_mes_valor": -98.7,
-              "queda_fat_ano_valor": -98.7,
-              "queda_fat_mes_pct": null,
-              "queda_fat_ano_pct": null,
-              "queda_qt_mes_valor": -3.0,
-              "queda_qt_ano_valor": -3.0,
-              "queda_qt_mes_pct": null,
-              "queda_qt_ano_pct": null
-            },
-            {
-              "produto": "WHISKY PASSPORT HONEY 670ML",
-              "fat_atual": 98.7,
-              "fat_mes_anterior": 0.0,
-              "fat_ano_anterior": 0.0,
-              "qt_atual": 3.0,
-              "qt_mes_anterior": 0.0,
-              "qt_ano_anterior": 0.0,
-              "queda_fat_mes_valor": -98.7,
-              "queda_fat_ano_valor": -98.7,
-              "queda_fat_mes_pct": null,
-              "queda_fat_ano_pct": null,
-              "queda_qt_mes_valor": -3.0,
-              "queda_qt_ano_valor": -3.0,
-              "queda_qt_mes_pct": null,
-              "queda_qt_ano_pct": null
-            },
-            {
-              "produto": "WHISKY BALLANTINE S FINEST 1L",
-              "fat_atual": 158.7,
-              "fat_mes_anterior": 0.0,
-              "fat_ano_anterior": 0.0,
-              "qt_atual": 3.0,
-              "qt_mes_anterior": 0.0,
-              "qt_ano_anterior": 0.0,
-              "queda_fat_mes_valor": -158.7,
-              "queda_fat_ano_valor": -158.7,
-              "queda_fat_mes_pct": null,
-              "queda_fat_ano_pct": null,
-              "queda_qt_mes_valor": -3.0,
-              "queda_qt_ano_valor": -3.0,
-              "queda_qt_mes_pct": null,
-              "queda_qt_ano_pct": null
-            }
-          ],
-          "fat_atual": 415.8,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 12.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0,
-          "queda_fat_mes_valor": -415.8,
-          "queda_fat_ano_valor": -415.8,
-          "queda_fat_mes_pct": null,
-          "queda_fat_ano_pct": null,
-          "queda_qt_mes_valor": -12.0,
-          "queda_qt_ano_valor": -12.0,
-          "queda_qt_mes_pct": null,
-          "queda_qt_ano_pct": null
-        }
-      ],
-      "fat_atual": 631.56,
-      "fat_mes_anterior": 0.0,
-      "fat_ano_anterior": 0.0,
-      "qt_atual": 36.0,
-      "qt_mes_anterior": 0.0,
-      "qt_ano_anterior": 0.0,
-      "queda_fat_mes_valor": -631.56,
-      "queda_fat_ano_valor": -631.56,
-      "queda_fat_mes_pct": null,
-      "queda_fat_ano_pct": null,
-      "queda_qt_mes_valor": -36.0,
-      "queda_qt_ano_valor": -36.0,
-      "queda_qt_mes_pct": null,
-      "queda_qt_ano_pct": null
-    },
-    {
       "codcli": 24789,
       "estado": "SP",
       "chave": "SP-24789",
@@ -253300,12 +253047,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "DISTRIBUIDORA DE BEBIDAS MIRA",
       "bairro": "JARDIM HORIZONTE",
       "ramo": "DISTRIBUIDORA DE BEBIDA",
-      "vendedor": "ADER ALONSO",
+      "vendedor": "LEONARDO FLOREZI",
       "gerente": "MARCUS TANAMACHI",
       "supervisor": "PRISCILLA BONACHE",
       "chaves_rca": [
-        "SP-SPON-426.0",
-        "SP-SPON-486"
+        "SP-SPON-486",
+        "SP-SPON-426.0"
       ],
       "por_industria": [
         {
@@ -254109,12 +253856,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "A PRACINHA",
       "bairro": "VILA NOVA CONCEIÇÃO",
       "ramo": "CAFETERIA",
-      "vendedor": "BRYAN PALOPOLI",
+      "vendedor": "JOAO LUPORINI",
       "gerente": "MARCUS TANAMACHI",
-      "supervisor": "MARCUS TANAMACHI",
+      "supervisor": "ANDERSON CANAVEIS",
       "chaves_rca": [
-        "SP-SPON-399.0",
-        "SP-SPON-312"
+        "SP-SPON-312",
+        "SP-SPON-399.0"
       ],
       "por_industria": [
         {
@@ -254956,12 +254703,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "NACIONAL PARANAIBA ALIMENTOS EIRELI",
       "bairro": "SÃO JANUÁRIO (JUSTINÓPOLIS)",
       "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "vendedor": "MATHEUS DE SOUZA",
+      "vendedor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "supervisor": "FERNANDO RISSON",
       "chaves_rca": [
-        "MG-MGON-354",
-        "MG-MGON-343.0"
+        "MG-MGON-343.0",
+        "MG-MGON-354"
       ],
       "por_industria": [
         {
@@ -265133,12 +264880,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "SUPERMERCADO CATROQUE",
       "bairro": "MARACANA",
       "ramo": "MERCADO",
-      "vendedor": "BRYAN PALOPOLI",
+      "vendedor": "LUCAS BUENO",
       "gerente": "MARCUS TANAMACHI",
-      "supervisor": "MARCUS TANAMACHI",
+      "supervisor": "PRISCILLA BONACHE",
       "chaves_rca": [
-        "SP-SPON-399.0",
-        "SP-SPON-475"
+        "SP-SPON-475",
+        "SP-SPON-399.0"
       ],
       "por_industria": [
         {
@@ -265342,12 +265089,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "SUPERMERCADO CATROQUE",
       "bairro": "CENTRO",
       "ramo": "MERCADO",
-      "vendedor": "BRYAN PALOPOLI",
+      "vendedor": "LUCAS BUENO",
       "gerente": "MARCUS TANAMACHI",
-      "supervisor": "MARCUS TANAMACHI",
+      "supervisor": "PRISCILLA BONACHE",
       "chaves_rca": [
-        "SP-SPON-399.0",
-        "SP-SPON-475"
+        "SP-SPON-475",
+        "SP-SPON-399.0"
       ],
       "por_industria": [
         {
@@ -267698,12 +267445,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "SUPERMERCADO PARANAIBA",
       "bairro": "JAQUELINE",
       "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "vendedor": "MATHEUS DE SOUZA",
+      "vendedor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "supervisor": "FERNANDO RISSON",
       "chaves_rca": [
-        "MG-MGON-354",
-        "MG-MGON-343.0"
+        "MG-MGON-343.0",
+        "MG-MGON-354"
       ],
       "por_industria": [
         {
@@ -270143,12 +269890,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "DENILSON GOMES DOS SANTOS",
       "bairro": "JACAREPAGUA",
       "ramo": "BAR",
-      "vendedor": "FABIO VALOTTI",
+      "vendedor": "DIOGO RAPOSO",
       "gerente": "ALLAN PAES",
       "supervisor": "DANIELLE MOURA",
       "chaves_rca": [
-        "RJ-CRC-378.0",
-        "RJ-CRC-144"
+        "RJ-CRC-144",
+        "RJ-CRC-378.0"
       ],
       "por_industria": [
         {
@@ -270811,125 +270558,6 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "queda_fat_ano_pct": null,
       "queda_qt_mes_valor": -22.0,
       "queda_qt_ano_valor": -22.0,
-      "queda_qt_mes_pct": null,
-      "queda_qt_ano_pct": null
-    },
-    {
-      "codcli": 52263,
-      "estado": "SP",
-      "chave": "SP-52263",
-      "nome": "ADEGA DO PEDRAO",
-      "bairro": "PARQUE DOS CAMARGOS",
-      "ramo": "DISTRIBUIDORA DE BEBIDA",
-      "vendedor": "RAFAEL REIS",
-      "gerente": "MARCUS TANAMACHI",
-      "supervisor": "ANDERSON CANAVEIS",
-      "chaves_rca": [
-        "SP-SPON-515"
-      ],
-      "por_industria": [
-        {
-          "fornecedor": "CRS BRANDS",
-          "por_produto": [
-            {
-              "produto": "VINHO DOM BOSCO TINTO SUAVE 750ML",
-              "fat_atual": 107.88,
-              "fat_mes_anterior": 0.0,
-              "fat_ano_anterior": 0.0,
-              "qt_atual": 12.0,
-              "qt_mes_anterior": 0.0,
-              "qt_ano_anterior": 0.0,
-              "queda_fat_mes_valor": -107.88,
-              "queda_fat_ano_valor": -107.88,
-              "queda_fat_mes_pct": null,
-              "queda_fat_ano_pct": null,
-              "queda_qt_mes_valor": -12.0,
-              "queda_qt_ano_valor": -12.0,
-              "queda_qt_mes_pct": null,
-              "queda_qt_ano_pct": null
-            }
-          ],
-          "fat_atual": 107.88,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 12.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0,
-          "queda_fat_mes_valor": -107.88,
-          "queda_fat_ano_valor": -107.88,
-          "queda_fat_mes_pct": null,
-          "queda_fat_ano_pct": null,
-          "queda_qt_mes_valor": -12.0,
-          "queda_qt_ano_valor": -12.0,
-          "queda_qt_mes_pct": null,
-          "queda_qt_ano_pct": null
-        },
-        {
-          "fornecedor": "PERNOD",
-          "por_produto": [
-            {
-              "produto": "VODKA ABSOLUT 1L",
-              "fat_atual": 105.8,
-              "fat_mes_anterior": 0.0,
-              "fat_ano_anterior": 0.0,
-              "qt_atual": 2.0,
-              "qt_mes_anterior": 0.0,
-              "qt_ano_anterior": 0.0,
-              "queda_fat_mes_valor": -105.8,
-              "queda_fat_ano_valor": -105.8,
-              "queda_fat_mes_pct": null,
-              "queda_fat_ano_pct": null,
-              "queda_qt_mes_valor": -2.0,
-              "queda_qt_ano_valor": -2.0,
-              "queda_qt_mes_pct": null,
-              "queda_qt_ano_pct": null
-            },
-            {
-              "produto": "WHISKY PASSPORT 1L",
-              "fat_atual": 789.6,
-              "fat_mes_anterior": 0.0,
-              "fat_ano_anterior": 0.0,
-              "qt_atual": 24.0,
-              "qt_mes_anterior": 0.0,
-              "qt_ano_anterior": 0.0,
-              "queda_fat_mes_valor": -789.6,
-              "queda_fat_ano_valor": -789.6,
-              "queda_fat_mes_pct": null,
-              "queda_fat_ano_pct": null,
-              "queda_qt_mes_valor": -24.0,
-              "queda_qt_ano_valor": -24.0,
-              "queda_qt_mes_pct": null,
-              "queda_qt_ano_pct": null
-            }
-          ],
-          "fat_atual": 895.4,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 26.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0,
-          "queda_fat_mes_valor": -895.4,
-          "queda_fat_ano_valor": -895.4,
-          "queda_fat_mes_pct": null,
-          "queda_fat_ano_pct": null,
-          "queda_qt_mes_valor": -26.0,
-          "queda_qt_ano_valor": -26.0,
-          "queda_qt_mes_pct": null,
-          "queda_qt_ano_pct": null
-        }
-      ],
-      "fat_atual": 1003.28,
-      "fat_mes_anterior": 0.0,
-      "fat_ano_anterior": 0.0,
-      "qt_atual": 38.0,
-      "qt_mes_anterior": 0.0,
-      "qt_ano_anterior": 0.0,
-      "queda_fat_mes_valor": -1003.28,
-      "queda_fat_ano_valor": -1003.28,
-      "queda_fat_mes_pct": null,
-      "queda_fat_ano_pct": null,
-      "queda_qt_mes_valor": -38.0,
-      "queda_qt_ano_valor": -38.0,
       "queda_qt_mes_pct": null,
       "queda_qt_ano_pct": null
     },
@@ -293947,12 +293575,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "VAREJÃO AVENIDA ¿ RAUL FRANCO",
       "bairro": "CENTRO",
       "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "vendedor": "MATHEUS DE SOUZA",
+      "vendedor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "supervisor": "FERNANDO RISSON",
       "chaves_rca": [
-        "MG-MGON-354",
-        "MG-MGON-343.0"
+        "MG-MGON-343.0",
+        "MG-MGON-354"
       ],
       "por_industria": [
         {
@@ -295767,157 +295395,6 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "queda_fat_ano_pct": null,
       "queda_qt_mes_valor": -23.0,
       "queda_qt_ano_valor": -23.0,
-      "queda_qt_mes_pct": null,
-      "queda_qt_ano_pct": null
-    },
-    {
-      "codcli": 52127,
-      "estado": "SP",
-      "chave": "SP-52127",
-      "nome": "SUPERMERCADO CKJ",
-      "bairro": "PARQUE PAYOL",
-      "ramo": "MERCADO",
-      "vendedor": "RAFAEL REIS",
-      "gerente": "MARCUS TANAMACHI",
-      "supervisor": "ANDERSON CANAVEIS",
-      "chaves_rca": [
-        "SP-SPON-515"
-      ],
-      "por_industria": [
-        {
-          "fornecedor": "PERNOD",
-          "por_produto": [
-            {
-              "produto": "VODKA ABSOLUT 1L",
-              "fat_atual": 158.97,
-              "fat_mes_anterior": 0.0,
-              "fat_ano_anterior": 0.0,
-              "qt_atual": 3.0,
-              "qt_mes_anterior": 0.0,
-              "qt_ano_anterior": 0.0,
-              "queda_fat_mes_valor": -158.97,
-              "queda_fat_ano_valor": -158.97,
-              "queda_fat_mes_pct": null,
-              "queda_fat_ano_pct": null,
-              "queda_qt_mes_valor": -3.0,
-              "queda_qt_ano_valor": -3.0,
-              "queda_qt_mes_pct": null,
-              "queda_qt_ano_pct": null
-            },
-            {
-              "produto": "VODKA ABSOLUT RASPBERRY - 750ML",
-              "fat_atual": 164.7,
-              "fat_mes_anterior": 0.0,
-              "fat_ano_anterior": 0.0,
-              "qt_atual": 3.0,
-              "qt_mes_anterior": 0.0,
-              "qt_ano_anterior": 0.0,
-              "queda_fat_mes_valor": -164.7,
-              "queda_fat_ano_valor": -164.7,
-              "queda_fat_mes_pct": null,
-              "queda_fat_ano_pct": null,
-              "queda_qt_mes_valor": -3.0,
-              "queda_qt_ano_valor": -3.0,
-              "queda_qt_mes_pct": null,
-              "queda_qt_ano_pct": null
-            },
-            {
-              "produto": "VODKA ABSOLUT TABASCO 750ML",
-              "fat_atual": 164.7,
-              "fat_mes_anterior": 0.0,
-              "fat_ano_anterior": 0.0,
-              "qt_atual": 3.0,
-              "qt_mes_anterior": 0.0,
-              "qt_ano_anterior": 0.0,
-              "queda_fat_mes_valor": -164.7,
-              "queda_fat_ano_valor": -164.7,
-              "queda_fat_mes_pct": null,
-              "queda_fat_ano_pct": null,
-              "queda_qt_mes_valor": -3.0,
-              "queda_qt_ano_valor": -3.0,
-              "queda_qt_mes_pct": null,
-              "queda_qt_ano_pct": null
-            },
-            {
-              "produto": "VODKA ABSOLUT VANILLA 750ML",
-              "fat_atual": 164.7,
-              "fat_mes_anterior": 0.0,
-              "fat_ano_anterior": 0.0,
-              "qt_atual": 3.0,
-              "qt_mes_anterior": 0.0,
-              "qt_ano_anterior": 0.0,
-              "queda_fat_mes_valor": -164.7,
-              "queda_fat_ano_valor": -164.7,
-              "queda_fat_mes_pct": null,
-              "queda_fat_ano_pct": null,
-              "queda_qt_mes_valor": -3.0,
-              "queda_qt_ano_valor": -3.0,
-              "queda_qt_mes_pct": null,
-              "queda_qt_ano_pct": null
-            },
-            {
-              "produto": "GIN BEEFEATER PINK 700ML",
-              "fat_atual": 353.4,
-              "fat_mes_anterior": 0.0,
-              "fat_ano_anterior": 0.0,
-              "qt_atual": 6.0,
-              "qt_mes_anterior": 0.0,
-              "qt_ano_anterior": 0.0,
-              "queda_fat_mes_valor": -353.4,
-              "queda_fat_ano_valor": -353.4,
-              "queda_fat_mes_pct": null,
-              "queda_fat_ano_pct": null,
-              "queda_qt_mes_valor": -6.0,
-              "queda_qt_ano_valor": -6.0,
-              "queda_qt_mes_pct": null,
-              "queda_qt_ano_pct": null
-            },
-            {
-              "produto": "GIN BEEFEATER 750ML",
-              "fat_atual": 706.8,
-              "fat_mes_anterior": 0.0,
-              "fat_ano_anterior": 0.0,
-              "qt_atual": 12.0,
-              "qt_mes_anterior": 0.0,
-              "qt_ano_anterior": 0.0,
-              "queda_fat_mes_valor": -706.8,
-              "queda_fat_ano_valor": -706.8,
-              "queda_fat_mes_pct": null,
-              "queda_fat_ano_pct": null,
-              "queda_qt_mes_valor": -12.0,
-              "queda_qt_ano_valor": -12.0,
-              "queda_qt_mes_pct": null,
-              "queda_qt_ano_pct": null
-            }
-          ],
-          "fat_atual": 1713.27,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 30.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0,
-          "queda_fat_mes_valor": -1713.27,
-          "queda_fat_ano_valor": -1713.27,
-          "queda_fat_mes_pct": null,
-          "queda_fat_ano_pct": null,
-          "queda_qt_mes_valor": -30.0,
-          "queda_qt_ano_valor": -30.0,
-          "queda_qt_mes_pct": null,
-          "queda_qt_ano_pct": null
-        }
-      ],
-      "fat_atual": 1713.27,
-      "fat_mes_anterior": 0.0,
-      "fat_ano_anterior": 0.0,
-      "qt_atual": 30.0,
-      "qt_mes_anterior": 0.0,
-      "qt_ano_anterior": 0.0,
-      "queda_fat_mes_valor": -1713.27,
-      "queda_fat_ano_valor": -1713.27,
-      "queda_fat_mes_pct": null,
-      "queda_fat_ano_pct": null,
-      "queda_qt_mes_valor": -30.0,
-      "queda_qt_ano_valor": -30.0,
       "queda_qt_mes_pct": null,
       "queda_qt_ano_pct": null
     },
@@ -304206,12 +303683,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "ORGANIZACOES PAIS & FILHOS",
       "bairro": "CENTRO",
       "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "vendedor": "FERNANDO RISSON",
+      "vendedor": "WILLIAM ALVES DA SILVA",
       "gerente": "FERNANDO RISSON",
       "supervisor": "FERNANDO RISSON",
       "chaves_rca": [
-        "MG-MGON-343.0",
-        "MG-MGON-349"
+        "MG-MGON-349",
+        "MG-MGON-343.0"
       ],
       "por_industria": [
         {
@@ -305804,125 +305281,6 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "queda_qt_mes_valor": -13.0,
       "queda_qt_ano_valor": -22.0,
       "queda_qt_mes_pct": 144.4,
-      "queda_qt_ano_pct": null
-    },
-    {
-      "codcli": 52246,
-      "estado": "SP",
-      "chave": "SP-52246",
-      "nome": "SUPERMERCADO YUFEI COMERCIO DE PRODUTOS ALIMENTICIOS",
-      "bairro": "VILA SILVIÂNIA",
-      "ramo": "MERCADO",
-      "vendedor": "RAFAEL REIS",
-      "gerente": "MARCUS TANAMACHI",
-      "supervisor": "ANDERSON CANAVEIS",
-      "chaves_rca": [
-        "SP-SPON-515"
-      ],
-      "por_industria": [
-        {
-          "fornecedor": "CRS BRANDS",
-          "por_produto": [
-            {
-              "produto": "VINHO DOM BOSCO TINTO SUAVE 750ML",
-              "fat_atual": 539.4,
-              "fat_mes_anterior": 0.0,
-              "fat_ano_anterior": 0.0,
-              "qt_atual": 60.0,
-              "qt_mes_anterior": 0.0,
-              "qt_ano_anterior": 0.0,
-              "queda_fat_mes_valor": -539.4,
-              "queda_fat_ano_valor": -539.4,
-              "queda_fat_mes_pct": null,
-              "queda_fat_ano_pct": null,
-              "queda_qt_mes_valor": -60.0,
-              "queda_qt_ano_valor": -60.0,
-              "queda_qt_mes_pct": null,
-              "queda_qt_ano_pct": null
-            }
-          ],
-          "fat_atual": 539.4,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 60.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0,
-          "queda_fat_mes_valor": -539.4,
-          "queda_fat_ano_valor": -539.4,
-          "queda_fat_mes_pct": null,
-          "queda_fat_ano_pct": null,
-          "queda_qt_mes_valor": -60.0,
-          "queda_qt_ano_valor": -60.0,
-          "queda_qt_mes_pct": null,
-          "queda_qt_ano_pct": null
-        },
-        {
-          "fornecedor": "BROWN",
-          "por_produto": [
-            {
-              "produto": "WHISKY JACK DANIELS APPLE 1L - DEST",
-              "fat_atual": 299.7,
-              "fat_mes_anterior": 0.0,
-              "fat_ano_anterior": 0.0,
-              "qt_atual": 3.0,
-              "qt_mes_anterior": 0.0,
-              "qt_ano_anterior": 0.0,
-              "queda_fat_mes_valor": -299.7,
-              "queda_fat_ano_valor": -299.7,
-              "queda_fat_mes_pct": null,
-              "queda_fat_ano_pct": null,
-              "queda_qt_mes_valor": -3.0,
-              "queda_qt_ano_valor": -3.0,
-              "queda_qt_mes_pct": null,
-              "queda_qt_ano_pct": null
-            },
-            {
-              "produto": "WHISKY JACK DANIELS 1L",
-              "fat_atual": 1198.8,
-              "fat_mes_anterior": 0.0,
-              "fat_ano_anterior": 0.0,
-              "qt_atual": 12.0,
-              "qt_mes_anterior": 0.0,
-              "qt_ano_anterior": 0.0,
-              "queda_fat_mes_valor": -1198.8,
-              "queda_fat_ano_valor": -1198.8,
-              "queda_fat_mes_pct": null,
-              "queda_fat_ano_pct": null,
-              "queda_qt_mes_valor": -12.0,
-              "queda_qt_ano_valor": -12.0,
-              "queda_qt_mes_pct": null,
-              "queda_qt_ano_pct": null
-            }
-          ],
-          "fat_atual": 1498.5,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 15.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0,
-          "queda_fat_mes_valor": -1498.5,
-          "queda_fat_ano_valor": -1498.5,
-          "queda_fat_mes_pct": null,
-          "queda_fat_ano_pct": null,
-          "queda_qt_mes_valor": -15.0,
-          "queda_qt_ano_valor": -15.0,
-          "queda_qt_mes_pct": null,
-          "queda_qt_ano_pct": null
-        }
-      ],
-      "fat_atual": 2037.9,
-      "fat_mes_anterior": 0.0,
-      "fat_ano_anterior": 0.0,
-      "qt_atual": 75.0,
-      "qt_mes_anterior": 0.0,
-      "qt_ano_anterior": 0.0,
-      "queda_fat_mes_valor": -2037.9,
-      "queda_fat_ano_valor": -2037.9,
-      "queda_fat_mes_pct": null,
-      "queda_fat_ano_pct": null,
-      "queda_qt_mes_valor": -75.0,
-      "queda_qt_ano_valor": -75.0,
-      "queda_qt_mes_pct": null,
       "queda_qt_ano_pct": null
     },
     {
@@ -310452,12 +309810,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "SUPERMERCADO PAIS E FILHOS REDE SUPERMAIS",
       "bairro": "FONTESVILLE",
       "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "vendedor": "FERNANDO RISSON",
+      "vendedor": "WILLIAM ALVES DA SILVA",
       "gerente": "FERNANDO RISSON",
       "supervisor": "FERNANDO RISSON",
       "chaves_rca": [
-        "MG-MGON-343.0",
-        "MG-MGON-349"
+        "MG-MGON-349",
+        "MG-MGON-343.0"
       ],
       "por_industria": [
         {
@@ -317942,120 +317300,18 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "queda_qt_ano_pct": null
     },
     {
-      "codcli": 51888,
-      "estado": "SP",
-      "chave": "SP-51888",
-      "nome": "COMERCIAL GENESIO DE ALIMENTOS",
-      "bairro": "VILA FANTON",
-      "ramo": "MERCADO",
-      "vendedor": "RAFAEL REIS",
-      "gerente": "MARCUS TANAMACHI",
-      "supervisor": "ANDERSON CANAVEIS",
-      "chaves_rca": [
-        "SP-SPON-515"
-      ],
-      "por_industria": [
-        {
-          "fornecedor": "DIAGEO",
-          "por_produto": [
-            {
-              "produto": "GIN TANQUERAY  750 ML",
-              "fat_atual": 1096.7,
-              "fat_mes_anterior": 0.0,
-              "fat_ano_anterior": 0.0,
-              "qt_atual": 12.0,
-              "qt_mes_anterior": 0.0,
-              "qt_ano_anterior": 0.0,
-              "queda_fat_mes_valor": -1096.7,
-              "queda_fat_ano_valor": -1096.7,
-              "queda_fat_mes_pct": null,
-              "queda_fat_ano_pct": null,
-              "queda_qt_mes_valor": -12.0,
-              "queda_qt_ano_valor": -12.0,
-              "queda_qt_mes_pct": null,
-              "queda_qt_ano_pct": null
-            }
-          ],
-          "fat_atual": 1096.7,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 12.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0,
-          "queda_fat_mes_valor": -1096.7,
-          "queda_fat_ano_valor": -1096.7,
-          "queda_fat_mes_pct": null,
-          "queda_fat_ano_pct": null,
-          "queda_qt_mes_valor": -12.0,
-          "queda_qt_ano_valor": -12.0,
-          "queda_qt_mes_pct": null,
-          "queda_qt_ano_pct": null
-        },
-        {
-          "fornecedor": "PERNOD",
-          "por_produto": [
-            {
-              "produto": "GIN BEEFEATER PINK 700ML",
-              "fat_atual": 1677.6,
-              "fat_mes_anterior": 0.0,
-              "fat_ano_anterior": 0.0,
-              "qt_atual": 24.0,
-              "qt_mes_anterior": 0.0,
-              "qt_ano_anterior": 0.0,
-              "queda_fat_mes_valor": -1677.6,
-              "queda_fat_ano_valor": -1677.6,
-              "queda_fat_mes_pct": null,
-              "queda_fat_ano_pct": null,
-              "queda_qt_mes_valor": -24.0,
-              "queda_qt_ano_valor": -24.0,
-              "queda_qt_mes_pct": null,
-              "queda_qt_ano_pct": null
-            }
-          ],
-          "fat_atual": 1677.6,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 24.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0,
-          "queda_fat_mes_valor": -1677.6,
-          "queda_fat_ano_valor": -1677.6,
-          "queda_fat_mes_pct": null,
-          "queda_fat_ano_pct": null,
-          "queda_qt_mes_valor": -24.0,
-          "queda_qt_ano_valor": -24.0,
-          "queda_qt_mes_pct": null,
-          "queda_qt_ano_pct": null
-        }
-      ],
-      "fat_atual": 2774.3,
-      "fat_mes_anterior": 0.0,
-      "fat_ano_anterior": 0.0,
-      "qt_atual": 36.0,
-      "qt_mes_anterior": 0.0,
-      "qt_ano_anterior": 0.0,
-      "queda_fat_mes_valor": -2774.3,
-      "queda_fat_ano_valor": -2774.3,
-      "queda_fat_mes_pct": null,
-      "queda_fat_ano_pct": null,
-      "queda_qt_mes_valor": -36.0,
-      "queda_qt_ano_valor": -36.0,
-      "queda_qt_mes_pct": null,
-      "queda_qt_ano_pct": null
-    },
-    {
       "codcli": 33979,
       "estado": "MG",
       "chave": "MG-33979",
       "nome": "DISTRUIBUIDORA DO BE",
       "bairro": "JARDIM DE ALÁ",
       "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "vendedor": "FERNANDO RISSON",
+      "vendedor": "WILLIAM ALVES DA SILVA",
       "gerente": "FERNANDO RISSON",
       "supervisor": "FERNANDO RISSON",
       "chaves_rca": [
-        "MG-MGON-343.0",
-        "MG-MGON-349"
+        "MG-MGON-349",
+        "MG-MGON-343.0"
       ],
       "por_industria": [
         {
@@ -321756,12 +321012,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "ORGANIZACOES PAIS FILHOS",
       "bairro": "INDUSTRIAL",
       "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "vendedor": "FERNANDO RISSON",
+      "vendedor": "WILLIAM ALVES DA SILVA",
       "gerente": "FERNANDO RISSON",
       "supervisor": "FERNANDO RISSON",
       "chaves_rca": [
-        "MG-MGON-343.0",
-        "MG-MGON-349"
+        "MG-MGON-349",
+        "MG-MGON-343.0"
       ],
       "por_industria": [
         {
@@ -325083,12 +324339,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "ORGANIZACOES PAIS & FILHOS LTDA",
       "bairro": "BENFICA",
       "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "vendedor": "FERNANDO RISSON",
+      "vendedor": "WILLIAM ALVES DA SILVA",
       "gerente": "FERNANDO RISSON",
       "supervisor": "FERNANDO RISSON",
       "chaves_rca": [
-        "MG-MGON-343.0",
-        "MG-MGON-349"
+        "MG-MGON-349",
+        "MG-MGON-343.0"
       ],
       "por_industria": [
         {
@@ -325307,12 +324563,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "ORGANIZACOES PAIS FILHOS",
       "bairro": "PAINEIRAS",
       "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "vendedor": "FERNANDO RISSON",
+      "vendedor": "WILLIAM ALVES DA SILVA",
       "gerente": "FERNANDO RISSON",
       "supervisor": "FERNANDO RISSON",
       "chaves_rca": [
-        "MG-MGON-343.0",
-        "MG-MGON-349"
+        "MG-MGON-349",
+        "MG-MGON-343.0"
       ],
       "por_industria": [
         {
@@ -330264,12 +329520,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "HIPER OPA LTDA - SARAMENHA",
       "bairro": "GUARANI",
       "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "vendedor": "MATHEUS DE SOUZA",
+      "vendedor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "supervisor": "FERNANDO RISSON",
       "chaves_rca": [
-        "MG-MGON-354",
-        "MG-MGON-343.0"
+        "MG-MGON-343.0",
+        "MG-MGON-354"
       ],
       "por_industria": [
         {
@@ -331278,12 +330534,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "ORGANIZACOES PAIS FILHOS",
       "bairro": "NOVA ERA",
       "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "vendedor": "FERNANDO RISSON",
+      "vendedor": "WILLIAM ALVES DA SILVA",
       "gerente": "FERNANDO RISSON",
       "supervisor": "FERNANDO RISSON",
       "chaves_rca": [
-        "MG-MGON-343.0",
-        "MG-MGON-349"
+        "MG-MGON-349",
+        "MG-MGON-343.0"
       ],
       "por_industria": [
         {
@@ -334312,12 +333568,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "VAREJÃO AVENIDA - JOÃO PINHEIRO",
       "bairro": "CAETÉ",
       "ramo": "BAR",
-      "vendedor": "MATHEUS DE SOUZA",
+      "vendedor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "supervisor": "FERNANDO RISSON",
       "chaves_rca": [
-        "MG-MGON-354",
-        "MG-MGON-343.0"
+        "MG-MGON-343.0",
+        "MG-MGON-354"
       ],
       "por_industria": [
         {
@@ -336050,12 +335306,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "HIPER OPA LTDA - MINASLÂNDIA",
       "bairro": "PROVIDÊNCIA",
       "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "vendedor": "MATHEUS DE SOUZA",
+      "vendedor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "supervisor": "FERNANDO RISSON",
       "chaves_rca": [
-        "MG-MGON-354",
-        "MG-MGON-343.0"
+        "MG-MGON-343.0",
+        "MG-MGON-354"
       ],
       "por_industria": [
         {
@@ -336240,12 +335496,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "CEVAROLI SUPERMERCADOS ¿ PLANALTO",
       "bairro": "VILA CLORIS",
       "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "vendedor": "MATHEUS DE SOUZA",
+      "vendedor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "supervisor": "FERNANDO RISSON",
       "chaves_rca": [
-        "MG-MGON-354",
-        "MG-MGON-343.0"
+        "MG-MGON-343.0",
+        "MG-MGON-354"
       ],
       "por_industria": [
         {
@@ -336594,89 +335850,6 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "queda_qt_ano_valor": -34.0,
       "queda_qt_mes_pct": null,
       "queda_qt_ano_pct": 283.3
-    },
-    {
-      "codcli": 46045,
-      "estado": "SP",
-      "chave": "SP-46045",
-      "nome": "ADEGA FLASH DRINKS",
-      "bairro": "JARDIM SANTO ELIAS",
-      "ramo": "BAR",
-      "vendedor": "RAFAEL REIS",
-      "gerente": "MARCUS TANAMACHI",
-      "supervisor": "ANDERSON CANAVEIS",
-      "chaves_rca": [
-        "SP-SPON-515"
-      ],
-      "por_industria": [
-        {
-          "fornecedor": "PERNOD",
-          "por_produto": [
-            {
-              "produto": "VODKA ABSOLUT TABASCO 750ML",
-              "fat_atual": 682.8,
-              "fat_mes_anterior": 0.0,
-              "fat_ano_anterior": 0.0,
-              "qt_atual": 12.0,
-              "qt_mes_anterior": 0.0,
-              "qt_ano_anterior": 0.0,
-              "queda_fat_mes_valor": -682.8,
-              "queda_fat_ano_valor": -682.8,
-              "queda_fat_mes_pct": null,
-              "queda_fat_ano_pct": null,
-              "queda_qt_mes_valor": -12.0,
-              "queda_qt_ano_valor": -12.0,
-              "queda_qt_mes_pct": null,
-              "queda_qt_ano_pct": null
-            },
-            {
-              "produto": "WHISKY PASSPORT HONEY 670ML",
-              "fat_atual": 4935.0,
-              "fat_mes_anterior": 0.0,
-              "fat_ano_anterior": 0.0,
-              "qt_atual": 150.0,
-              "qt_mes_anterior": 0.0,
-              "qt_ano_anterior": 0.0,
-              "queda_fat_mes_valor": -4935.0,
-              "queda_fat_ano_valor": -4935.0,
-              "queda_fat_mes_pct": null,
-              "queda_fat_ano_pct": null,
-              "queda_qt_mes_valor": -150.0,
-              "queda_qt_ano_valor": -150.0,
-              "queda_qt_mes_pct": null,
-              "queda_qt_ano_pct": null
-            }
-          ],
-          "fat_atual": 5617.8,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 162.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0,
-          "queda_fat_mes_valor": -5617.8,
-          "queda_fat_ano_valor": -5617.8,
-          "queda_fat_mes_pct": null,
-          "queda_fat_ano_pct": null,
-          "queda_qt_mes_valor": -162.0,
-          "queda_qt_ano_valor": -162.0,
-          "queda_qt_mes_pct": null,
-          "queda_qt_ano_pct": null
-        }
-      ],
-      "fat_atual": 5617.8,
-      "fat_mes_anterior": 0.0,
-      "fat_ano_anterior": 0.0,
-      "qt_atual": 162.0,
-      "qt_mes_anterior": 0.0,
-      "qt_ano_anterior": 0.0,
-      "queda_fat_mes_valor": -5617.8,
-      "queda_fat_ano_valor": -5617.8,
-      "queda_fat_mes_pct": null,
-      "queda_fat_ano_pct": null,
-      "queda_qt_mes_valor": -162.0,
-      "queda_qt_ano_valor": -162.0,
-      "queda_qt_mes_pct": null,
-      "queda_qt_ano_pct": null
     },
     {
       "codcli": 78665,
@@ -338156,12 +337329,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "OPA SUPERMERCADOS",
       "bairro": "NAZARE",
       "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "vendedor": "MATHEUS DE SOUZA",
+      "vendedor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "supervisor": "FERNANDO RISSON",
       "chaves_rca": [
-        "MG-MGON-354",
-        "MG-MGON-343.0"
+        "MG-MGON-343.0",
+        "MG-MGON-354"
       ],
       "por_industria": [
         {
@@ -342761,12 +341934,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "BEER EXPRESS",
       "bairro": "JARDIM DONA IRMA",
       "ramo": "MERCADO",
-      "vendedor": "MANUELA ZAPPACOSTA",
+      "vendedor": "LEONARDO FLOREZI",
       "gerente": "MARCUS TANAMACHI",
       "supervisor": "PRISCILLA BONACHE",
       "chaves_rca": [
-        "SP-SPON-433",
-        "SP-SPON-486.0"
+        "SP-SPON-486.0",
+        "SP-SPON-433"
       ],
       "por_industria": [
         {
@@ -344406,12 +343579,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "CEVAROLI SUPERMERCADOS  FERNÃO DIAS",
       "bairro": "FERNÃO DIAS",
       "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "vendedor": "MATHEUS DE SOUZA",
+      "vendedor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "supervisor": "FERNANDO RISSON",
       "chaves_rca": [
-        "MG-MGON-354",
-        "MG-MGON-343.0"
+        "MG-MGON-343.0",
+        "MG-MGON-354"
       ],
       "por_industria": [
         {
@@ -350906,12 +350079,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "DAKI OFFICE BELO HORIZONTE",
       "bairro": "ARVOREDO 2ª SECAO",
       "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "vendedor": "MATHEUS DE SOUZA",
+      "vendedor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "supervisor": "FERNANDO RISSON",
       "chaves_rca": [
-        "MG-MGON-354",
-        "MG-MGON-343.0"
+        "MG-MGON-343.0",
+        "MG-MGON-354"
       ],
       "por_industria": [
         {
@@ -355465,12 +354638,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "CENTRO DE DISTRIBUICAO SANTA HELENA",
       "bairro": "JARDIM PRIMAVERA L",
       "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "vendedor": "MATHEUS DE SOUZA",
+      "vendedor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "supervisor": "FERNANDO RISSON",
       "chaves_rca": [
-        "MG-MGON-354",
-        "MG-MGON-343.0"
+        "MG-MGON-343.0",
+        "MG-MGON-354"
       ],
       "por_industria": [
         {
@@ -356583,12 +355756,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "MAX ATACAREJO",
       "bairro": "CENTRO",
       "ramo": "MERCADO",
-      "vendedor": "ADER ALONSO",
+      "vendedor": "BRUNO BARBOSA",
       "gerente": "MARCUS TANAMACHI",
       "supervisor": "PRISCILLA BONACHE",
       "chaves_rca": [
-        "SP-SPON-426.0",
-        "SP-SPON-425"
+        "SP-SPON-425",
+        "SP-SPON-426.0"
       ],
       "por_industria": [
         {
@@ -358190,12 +357363,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "COMERCIAL ESPERANCA ATACADISTA",
       "bairro": "FONTES",
       "ramo": "MERCADO",
-      "vendedor": "ANDERSON CANAVEIS",
+      "vendedor": "ANDRE SILVA",
       "gerente": "MARCUS TANAMACHI",
       "supervisor": "ANDERSON CANAVEIS",
       "chaves_rca": [
-        "SP-SPON-232",
-        "SP-SPON-391.0"
+        "SP-SPON-391.0",
+        "SP-SPON-232"
       ],
       "por_industria": [
         {
@@ -363040,19 +362213,19 @@ const RAIOX_OPORTUNIDADES_DATA = {
     {
       "fornecedor": "DIAGEO",
       "estado": "SP",
-      "fat_atual": 309576.36,
+      "fat_atual": 308479.66,
       "fat_mes_anterior": 504605.23,
       "fat_ano_anterior": 0.0,
-      "qt_atual": 2642.0,
+      "qt_atual": 2630.0,
       "qt_mes_anterior": 6307.0,
       "qt_ano_anterior": 0.0,
-      "queda_fat_mes_valor": 195028.87,
-      "queda_fat_ano_valor": -309576.36,
-      "queda_fat_mes_pct": -38.6,
+      "queda_fat_mes_valor": 196125.56,
+      "queda_fat_ano_valor": -308479.66,
+      "queda_fat_mes_pct": -38.9,
       "queda_fat_ano_pct": null,
-      "queda_qt_mes_valor": 3665.0,
-      "queda_qt_ano_valor": -2642.0,
-      "queda_qt_mes_pct": -58.1,
+      "queda_qt_mes_valor": 3677.0,
+      "queda_qt_ano_valor": -2630.0,
+      "queda_qt_mes_pct": -58.3,
       "queda_qt_ano_pct": null,
       "por_vendedor": {
         "SP-SPON-317": {
@@ -363344,10 +362517,10 @@ const RAIOX_OPORTUNIDADES_DATA = {
           "qt_ano_anterior": 0.0
         },
         "SP-SPON-515": {
-          "fat_atual": 1443.5,
+          "fat_atual": 346.8,
           "fat_mes_anterior": 0.0,
           "fat_ano_anterior": 0.0,
-          "qt_atual": 24.0,
+          "qt_atual": 12.0,
           "qt_mes_anterior": 0.0,
           "qt_ano_anterior": 0.0
         },
@@ -363589,6 +362762,450 @@ const RAIOX_OPORTUNIDADES_DATA = {
           "fat_ano_anterior": 0.0,
           "qt_atual": 0.0,
           "qt_mes_anterior": 6.0,
+          "qt_ano_anterior": 0.0
+        }
+      }
+    },
+    {
+      "fornecedor": "PERNOD",
+      "estado": "SP",
+      "fat_atual": 2355248.04,
+      "fat_mes_anterior": 2445642.29,
+      "fat_ano_anterior": 0.0,
+      "qt_atual": 67686.0,
+      "qt_mes_anterior": 61058.0,
+      "qt_ano_anterior": 0.0,
+      "queda_fat_mes_valor": 90394.25,
+      "queda_fat_ano_valor": -2355248.04,
+      "queda_fat_mes_pct": -3.7,
+      "queda_fat_ano_pct": null,
+      "queda_qt_mes_valor": -6628.0,
+      "queda_qt_ano_valor": -67686.0,
+      "queda_qt_mes_pct": 10.9,
+      "queda_qt_ano_pct": null,
+      "por_vendedor": {
+        "SP-SPON-317": {
+          "fat_atual": 1750.5,
+          "fat_mes_anterior": 26029.5,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 90.0,
+          "qt_mes_anterior": 849.0,
+          "qt_ano_anterior": 0.0
+        },
+        "SP-SPON-318": {
+          "fat_atual": 1167.9,
+          "fat_mes_anterior": 437623.2,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 21.0,
+          "qt_mes_anterior": 8568.0,
+          "qt_ano_anterior": 0.0
+        },
+        "SP-SPON-371": {
+          "fat_atual": 105654.1,
+          "fat_mes_anterior": 3613.2,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 1167.0,
+          "qt_mes_anterior": 68.0,
+          "qt_ano_anterior": 0.0
+        },
+        "SP-SPON-391": {
+          "fat_atual": 82062.6,
+          "fat_mes_anterior": 39145.8,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 564.0,
+          "qt_mes_anterior": 123.0,
+          "qt_ano_anterior": 0.0
+        },
+        "SP-SPON-399": {
+          "fat_atual": 692227.2,
+          "fat_mes_anterior": 931369.26,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 14939.0,
+          "qt_mes_anterior": 21693.0,
+          "qt_ano_anterior": 0.0
+        },
+        "SP-SPON-425": {
+          "fat_atual": 44869.11,
+          "fat_mes_anterior": 41829.05,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 725.0,
+          "qt_mes_anterior": 750.0,
+          "qt_ano_anterior": 0.0
+        },
+        "SP-SPON-426": {
+          "fat_atual": 530420.33,
+          "fat_mes_anterior": 449152.39,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 19475.0,
+          "qt_mes_anterior": 14651.0,
+          "qt_ano_anterior": 0.0
+        },
+        "SP-SPON-428": {
+          "fat_atual": 359.2,
+          "fat_mes_anterior": 2533.4,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 8.0,
+          "qt_mes_anterior": 26.0,
+          "qt_ano_anterior": 0.0
+        },
+        "SP-SPON-429": {
+          "fat_atual": 155.8,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 2.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0
+        },
+        "SP-SPON-433": {
+          "fat_atual": 55893.3,
+          "fat_mes_anterior": 69904.4,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 1431.0,
+          "qt_mes_anterior": 2254.0,
+          "qt_ano_anterior": 0.0
+        },
+        "SP-SPON-460": {
+          "fat_atual": 28734.08,
+          "fat_mes_anterior": 54064.49,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 1034.0,
+          "qt_mes_anterior": 1248.0,
+          "qt_ano_anterior": 0.0
+        },
+        "SP-SPON-461": {
+          "fat_atual": 5324.88,
+          "fat_mes_anterior": 21616.68,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 112.0,
+          "qt_mes_anterior": 450.0,
+          "qt_ano_anterior": 0.0
+        },
+        "SP-SPON-462": {
+          "fat_atual": 66760.2,
+          "fat_mes_anterior": 32148.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 2868.0,
+          "qt_mes_anterior": 840.0,
+          "qt_ano_anterior": 0.0
+        },
+        "SP-SPON-463": {
+          "fat_atual": 1739.5,
+          "fat_mes_anterior": 1397.1,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 47.0,
+          "qt_mes_anterior": 42.0,
+          "qt_ano_anterior": 0.0
+        },
+        "SP-SPON-464": {
+          "fat_atual": 181.6,
+          "fat_mes_anterior": 850.88,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 4.0,
+          "qt_mes_anterior": 23.0,
+          "qt_ano_anterior": 0.0
+        },
+        "SP-SPON-465": {
+          "fat_atual": 5555.1,
+          "fat_mes_anterior": 262.8,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 249.0,
+          "qt_mes_anterior": 12.0,
+          "qt_ano_anterior": 0.0
+        },
+        "SP-SPON-466": {
+          "fat_atual": 6418.4,
+          "fat_mes_anterior": 12635.55,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 96.0,
+          "qt_mes_anterior": 271.0,
+          "qt_ano_anterior": 0.0
+        },
+        "SP-SPON-467": {
+          "fat_atual": 15382.8,
+          "fat_mes_anterior": 21439.3,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 732.0,
+          "qt_mes_anterior": 479.0,
+          "qt_ano_anterior": 0.0
+        },
+        "SP-SPON-468": {
+          "fat_atual": 127548.12,
+          "fat_mes_anterior": 64186.5,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 4978.0,
+          "qt_mes_anterior": 2445.0,
+          "qt_ano_anterior": 0.0
+        },
+        "SP-SPON-469": {
+          "fat_atual": 2482.95,
+          "fat_mes_anterior": 3604.8,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 57.0,
+          "qt_mes_anterior": 98.0,
+          "qt_ano_anterior": 0.0
+        },
+        "SP-SPON-470": {
+          "fat_atual": 89093.4,
+          "fat_mes_anterior": 364.3,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 2412.0,
+          "qt_mes_anterior": 7.0,
+          "qt_ano_anterior": 0.0
+        },
+        "SP-SPON-471": {
+          "fat_atual": 8530.5,
+          "fat_mes_anterior": 629.1,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 175.0,
+          "qt_mes_anterior": 9.0,
+          "qt_ano_anterior": 0.0
+        },
+        "SP-SPON-472": {
+          "fat_atual": 13369.8,
+          "fat_mes_anterior": 10845.1,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 612.0,
+          "qt_mes_anterior": 341.0,
+          "qt_ano_anterior": 0.0
+        },
+        "SP-SPON-473": {
+          "fat_atual": 15792.0,
+          "fat_mes_anterior": 8526.2,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 672.0,
+          "qt_mes_anterior": 278.0,
+          "qt_ano_anterior": 0.0
+        },
+        "SP-SPON-474": {
+          "fat_atual": 1862.4,
+          "fat_mes_anterior": 4407.4,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 28.0,
+          "qt_mes_anterior": 84.0,
+          "qt_ano_anterior": 0.0
+        },
+        "SP-SPON-475": {
+          "fat_atual": 4472.7,
+          "fat_mes_anterior": 6658.5,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 94.0,
+          "qt_mes_anterior": 127.0,
+          "qt_ano_anterior": 0.0
+        },
+        "SP-SPON-476": {
+          "fat_atual": 47394.2,
+          "fat_mes_anterior": 48405.9,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 1063.0,
+          "qt_mes_anterior": 1417.0,
+          "qt_ano_anterior": 0.0
+        },
+        "SP-SPON-477": {
+          "fat_atual": 10312.45,
+          "fat_mes_anterior": 7162.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 275.0,
+          "qt_mes_anterior": 244.0,
+          "qt_ano_anterior": 0.0
+        },
+        "SP-SPON-486": {
+          "fat_atual": 15040.5,
+          "fat_mes_anterior": 35113.42,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 303.0,
+          "qt_mes_anterior": 743.0,
+          "qt_ano_anterior": 0.0
+        },
+        "SP-SPON-487": {
+          "fat_atual": 18355.5,
+          "fat_mes_anterior": 19563.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 695.0,
+          "qt_mes_anterior": 702.0,
+          "qt_ano_anterior": 0.0
+        },
+        "SP-SPON-488": {
+          "fat_atual": 14367.3,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 327.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0
+        },
+        "SP-SPON-489": {
+          "fat_atual": 7638.1,
+          "fat_mes_anterior": 65276.6,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 137.0,
+          "qt_mes_anterior": 1880.0,
+          "qt_ano_anterior": 0.0
+        },
+        "SP-SPON-490": {
+          "fat_atual": 2006.2,
+          "fat_mes_anterior": 13088.06,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 38.0,
+          "qt_mes_anterior": 471.0,
+          "qt_ano_anterior": 0.0
+        },
+        "SP-SPON-491": {
+          "fat_atual": 2101.32,
+          "fat_mes_anterior": 3493.3,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 51.0,
+          "qt_mes_anterior": 113.0,
+          "qt_ano_anterior": 0.0
+        },
+        "SP-SPON-492": {
+          "fat_atual": 317.4,
+          "fat_mes_anterior": 80.7,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 6.0,
+          "qt_mes_anterior": 3.0,
+          "qt_ano_anterior": 0.0
+        },
+        "SP-SPON-493": {
+          "fat_atual": 1022.2,
+          "fat_mes_anterior": 1203.3,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 38.0,
+          "qt_mes_anterior": 53.0,
+          "qt_ano_anterior": 0.0
+        },
+        "SP-SPON-496": {
+          "fat_atual": 2740.2,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 78.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0
+        },
+        "SP-SPON-497": {
+          "fat_atual": 650.55,
+          "fat_mes_anterior": 394.8,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 21.0,
+          "qt_mes_anterior": 12.0,
+          "qt_ano_anterior": 0.0
+        },
+        "SP-SPON-498": {
+          "fat_atual": 3253.8,
+          "fat_mes_anterior": 21050.3,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 66.0,
+          "qt_mes_anterior": 549.0,
+          "qt_ano_anterior": 0.0
+        },
+        "SP-SPON-499": {
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 200.3,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 8.0,
+          "qt_ano_anterior": 0.0
+        },
+        "SP-SPON-500": {
+          "fat_atual": 4926.2,
+          "fat_mes_anterior": 556.2,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 148.0,
+          "qt_mes_anterior": 24.0,
+          "qt_ano_anterior": 0.0
+        },
+        "SP-SPON-502": {
+          "fat_atual": 766.95,
+          "fat_mes_anterior": 1008.1,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 23.0,
+          "qt_mes_anterior": 39.0,
+          "qt_ano_anterior": 0.0
+        },
+        "SP-SPON-504": {
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 2132.9,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 57.0,
+          "qt_ano_anterior": 0.0
+        },
+        "SP-SPON-505": {
+          "fat_atual": 116.7,
+          "fat_mes_anterior": 312.9,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 6.0,
+          "qt_mes_anterior": 9.0,
+          "qt_ano_anterior": 0.0
+        },
+        "SP-SPON-507": {
+          "fat_atual": 1557.6,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 54.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0
+        },
+        "SP-SPON-509": {
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 1674.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 60.0,
+          "qt_ano_anterior": 0.0
+        },
+        "SP-SPON-510": {
+          "fat_atual": 2347.5,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 35.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0
+        },
+        "SP-SPON-511": {
+          "fat_atual": 18149.2,
+          "fat_mes_anterior": 4776.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 798.0,
+          "qt_mes_anterior": 240.0,
+          "qt_ano_anterior": 0.0
+        },
+        "SP-SPON-512": {
+          "fat_atual": 256647.1,
+          "fat_mes_anterior": 38588.4,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 8923.0,
+          "qt_mes_anterior": 1086.0,
+          "qt_ano_anterior": 0.0
+        },
+        "SP-SPON-513": {
+          "fat_atual": 5388.0,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 120.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0
+        },
+        "SP-SPON-515": {
+          "fat_atual": 2660.1,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 79.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0
+        },
+        "SP-SPON-516": {
+          "fat_atual": 42950.2,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 1176.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0
+        },
+        "SP-SPON-518": {
+          "fat_atual": 40970.7,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 1401.0,
+          "qt_mes_anterior": 0.0,
           "qt_ano_anterior": 0.0
         }
       }
@@ -364004,450 +363621,6 @@ const RAIOX_OPORTUNIDADES_DATA = {
           "fat_mes_anterior": 0.0,
           "fat_ano_anterior": 0.0,
           "qt_atual": 132.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0
-        }
-      }
-    },
-    {
-      "fornecedor": "PERNOD",
-      "estado": "SP",
-      "fat_atual": 2365567.91,
-      "fat_mes_anterior": 2446895.09,
-      "fat_ano_anterior": 0.0,
-      "qt_atual": 67940.0,
-      "qt_mes_anterior": 61082.0,
-      "qt_ano_anterior": 0.0,
-      "queda_fat_mes_valor": 81327.18,
-      "queda_fat_ano_valor": -2365567.91,
-      "queda_fat_mes_pct": -3.3,
-      "queda_fat_ano_pct": null,
-      "queda_qt_mes_valor": -6858.0,
-      "queda_qt_ano_valor": -67940.0,
-      "queda_qt_mes_pct": 11.2,
-      "queda_qt_ano_pct": null,
-      "por_vendedor": {
-        "SP-SPON-317": {
-          "fat_atual": 1750.5,
-          "fat_mes_anterior": 26029.5,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 90.0,
-          "qt_mes_anterior": 849.0,
-          "qt_ano_anterior": 0.0
-        },
-        "SP-SPON-318": {
-          "fat_atual": 1167.9,
-          "fat_mes_anterior": 437623.2,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 21.0,
-          "qt_mes_anterior": 8568.0,
-          "qt_ano_anterior": 0.0
-        },
-        "SP-SPON-371": {
-          "fat_atual": 105654.1,
-          "fat_mes_anterior": 3613.2,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 1167.0,
-          "qt_mes_anterior": 68.0,
-          "qt_ano_anterior": 0.0
-        },
-        "SP-SPON-391": {
-          "fat_atual": 82062.6,
-          "fat_mes_anterior": 39145.8,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 564.0,
-          "qt_mes_anterior": 123.0,
-          "qt_ano_anterior": 0.0
-        },
-        "SP-SPON-399": {
-          "fat_atual": 692227.2,
-          "fat_mes_anterior": 931369.26,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 14939.0,
-          "qt_mes_anterior": 21693.0,
-          "qt_ano_anterior": 0.0
-        },
-        "SP-SPON-425": {
-          "fat_atual": 44869.11,
-          "fat_mes_anterior": 41829.05,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 725.0,
-          "qt_mes_anterior": 750.0,
-          "qt_ano_anterior": 0.0
-        },
-        "SP-SPON-426": {
-          "fat_atual": 530420.33,
-          "fat_mes_anterior": 449152.39,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 19475.0,
-          "qt_mes_anterior": 14651.0,
-          "qt_ano_anterior": 0.0
-        },
-        "SP-SPON-428": {
-          "fat_atual": 359.2,
-          "fat_mes_anterior": 2533.4,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 8.0,
-          "qt_mes_anterior": 26.0,
-          "qt_ano_anterior": 0.0
-        },
-        "SP-SPON-429": {
-          "fat_atual": 155.8,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 2.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0
-        },
-        "SP-SPON-433": {
-          "fat_atual": 55893.3,
-          "fat_mes_anterior": 69904.4,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 1431.0,
-          "qt_mes_anterior": 2254.0,
-          "qt_ano_anterior": 0.0
-        },
-        "SP-SPON-460": {
-          "fat_atual": 28734.08,
-          "fat_mes_anterior": 54064.49,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 1034.0,
-          "qt_mes_anterior": 1248.0,
-          "qt_ano_anterior": 0.0
-        },
-        "SP-SPON-461": {
-          "fat_atual": 5324.88,
-          "fat_mes_anterior": 21616.68,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 112.0,
-          "qt_mes_anterior": 450.0,
-          "qt_ano_anterior": 0.0
-        },
-        "SP-SPON-462": {
-          "fat_atual": 66760.2,
-          "fat_mes_anterior": 32148.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 2868.0,
-          "qt_mes_anterior": 840.0,
-          "qt_ano_anterior": 0.0
-        },
-        "SP-SPON-463": {
-          "fat_atual": 1739.5,
-          "fat_mes_anterior": 1397.1,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 47.0,
-          "qt_mes_anterior": 42.0,
-          "qt_ano_anterior": 0.0
-        },
-        "SP-SPON-464": {
-          "fat_atual": 181.6,
-          "fat_mes_anterior": 850.88,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 4.0,
-          "qt_mes_anterior": 23.0,
-          "qt_ano_anterior": 0.0
-        },
-        "SP-SPON-465": {
-          "fat_atual": 5555.1,
-          "fat_mes_anterior": 262.8,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 249.0,
-          "qt_mes_anterior": 12.0,
-          "qt_ano_anterior": 0.0
-        },
-        "SP-SPON-466": {
-          "fat_atual": 6418.4,
-          "fat_mes_anterior": 12635.55,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 96.0,
-          "qt_mes_anterior": 271.0,
-          "qt_ano_anterior": 0.0
-        },
-        "SP-SPON-467": {
-          "fat_atual": 15382.8,
-          "fat_mes_anterior": 21439.3,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 732.0,
-          "qt_mes_anterior": 479.0,
-          "qt_ano_anterior": 0.0
-        },
-        "SP-SPON-468": {
-          "fat_atual": 127548.12,
-          "fat_mes_anterior": 64186.5,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 4978.0,
-          "qt_mes_anterior": 2445.0,
-          "qt_ano_anterior": 0.0
-        },
-        "SP-SPON-469": {
-          "fat_atual": 2482.95,
-          "fat_mes_anterior": 3604.8,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 57.0,
-          "qt_mes_anterior": 98.0,
-          "qt_ano_anterior": 0.0
-        },
-        "SP-SPON-470": {
-          "fat_atual": 89093.4,
-          "fat_mes_anterior": 364.3,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 2412.0,
-          "qt_mes_anterior": 7.0,
-          "qt_ano_anterior": 0.0
-        },
-        "SP-SPON-471": {
-          "fat_atual": 8530.5,
-          "fat_mes_anterior": 629.1,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 175.0,
-          "qt_mes_anterior": 9.0,
-          "qt_ano_anterior": 0.0
-        },
-        "SP-SPON-472": {
-          "fat_atual": 13369.8,
-          "fat_mes_anterior": 10845.1,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 612.0,
-          "qt_mes_anterior": 341.0,
-          "qt_ano_anterior": 0.0
-        },
-        "SP-SPON-473": {
-          "fat_atual": 15792.0,
-          "fat_mes_anterior": 8526.2,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 672.0,
-          "qt_mes_anterior": 278.0,
-          "qt_ano_anterior": 0.0
-        },
-        "SP-SPON-474": {
-          "fat_atual": 1862.4,
-          "fat_mes_anterior": 4407.4,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 28.0,
-          "qt_mes_anterior": 84.0,
-          "qt_ano_anterior": 0.0
-        },
-        "SP-SPON-475": {
-          "fat_atual": 4472.7,
-          "fat_mes_anterior": 6658.5,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 94.0,
-          "qt_mes_anterior": 127.0,
-          "qt_ano_anterior": 0.0
-        },
-        "SP-SPON-476": {
-          "fat_atual": 47394.2,
-          "fat_mes_anterior": 48405.9,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 1063.0,
-          "qt_mes_anterior": 1417.0,
-          "qt_ano_anterior": 0.0
-        },
-        "SP-SPON-477": {
-          "fat_atual": 10312.45,
-          "fat_mes_anterior": 7162.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 275.0,
-          "qt_mes_anterior": 244.0,
-          "qt_ano_anterior": 0.0
-        },
-        "SP-SPON-486": {
-          "fat_atual": 15040.5,
-          "fat_mes_anterior": 35113.42,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 303.0,
-          "qt_mes_anterior": 743.0,
-          "qt_ano_anterior": 0.0
-        },
-        "SP-SPON-487": {
-          "fat_atual": 18355.5,
-          "fat_mes_anterior": 19563.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 695.0,
-          "qt_mes_anterior": 702.0,
-          "qt_ano_anterior": 0.0
-        },
-        "SP-SPON-488": {
-          "fat_atual": 14367.3,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 327.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0
-        },
-        "SP-SPON-489": {
-          "fat_atual": 7638.1,
-          "fat_mes_anterior": 65276.6,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 137.0,
-          "qt_mes_anterior": 1880.0,
-          "qt_ano_anterior": 0.0
-        },
-        "SP-SPON-490": {
-          "fat_atual": 2006.2,
-          "fat_mes_anterior": 13088.06,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 38.0,
-          "qt_mes_anterior": 471.0,
-          "qt_ano_anterior": 0.0
-        },
-        "SP-SPON-491": {
-          "fat_atual": 2101.32,
-          "fat_mes_anterior": 3493.3,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 51.0,
-          "qt_mes_anterior": 113.0,
-          "qt_ano_anterior": 0.0
-        },
-        "SP-SPON-492": {
-          "fat_atual": 317.4,
-          "fat_mes_anterior": 80.7,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 6.0,
-          "qt_mes_anterior": 3.0,
-          "qt_ano_anterior": 0.0
-        },
-        "SP-SPON-493": {
-          "fat_atual": 1022.2,
-          "fat_mes_anterior": 1203.3,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 38.0,
-          "qt_mes_anterior": 53.0,
-          "qt_ano_anterior": 0.0
-        },
-        "SP-SPON-496": {
-          "fat_atual": 2740.2,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 78.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0
-        },
-        "SP-SPON-497": {
-          "fat_atual": 650.55,
-          "fat_mes_anterior": 394.8,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 21.0,
-          "qt_mes_anterior": 12.0,
-          "qt_ano_anterior": 0.0
-        },
-        "SP-SPON-498": {
-          "fat_atual": 3253.8,
-          "fat_mes_anterior": 21050.3,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 66.0,
-          "qt_mes_anterior": 549.0,
-          "qt_ano_anterior": 0.0
-        },
-        "SP-SPON-499": {
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 200.3,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 8.0,
-          "qt_ano_anterior": 0.0
-        },
-        "SP-SPON-500": {
-          "fat_atual": 4926.2,
-          "fat_mes_anterior": 556.2,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 148.0,
-          "qt_mes_anterior": 24.0,
-          "qt_ano_anterior": 0.0
-        },
-        "SP-SPON-502": {
-          "fat_atual": 766.95,
-          "fat_mes_anterior": 1008.1,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 23.0,
-          "qt_mes_anterior": 39.0,
-          "qt_ano_anterior": 0.0
-        },
-        "SP-SPON-504": {
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 2132.9,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 57.0,
-          "qt_ano_anterior": 0.0
-        },
-        "SP-SPON-505": {
-          "fat_atual": 116.7,
-          "fat_mes_anterior": 312.9,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 6.0,
-          "qt_mes_anterior": 9.0,
-          "qt_ano_anterior": 0.0
-        },
-        "SP-SPON-507": {
-          "fat_atual": 1557.6,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 54.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0
-        },
-        "SP-SPON-509": {
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 1674.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 60.0,
-          "qt_ano_anterior": 0.0
-        },
-        "SP-SPON-510": {
-          "fat_atual": 2347.5,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 35.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0
-        },
-        "SP-SPON-511": {
-          "fat_atual": 18149.2,
-          "fat_mes_anterior": 4776.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 798.0,
-          "qt_mes_anterior": 240.0,
-          "qt_ano_anterior": 0.0
-        },
-        "SP-SPON-512": {
-          "fat_atual": 256647.1,
-          "fat_mes_anterior": 38588.4,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 8923.0,
-          "qt_mes_anterior": 1086.0,
-          "qt_ano_anterior": 0.0
-        },
-        "SP-SPON-513": {
-          "fat_atual": 5388.0,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 120.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0
-        },
-        "SP-SPON-515": {
-          "fat_atual": 12979.97,
-          "fat_mes_anterior": 1252.8,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 333.0,
-          "qt_mes_anterior": 24.0,
-          "qt_ano_anterior": 0.0
-        },
-        "SP-SPON-516": {
-          "fat_atual": 42950.2,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 1176.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0
-        },
-        "SP-SPON-518": {
-          "fat_atual": 40970.7,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 1401.0,
           "qt_mes_anterior": 0.0,
           "qt_ano_anterior": 0.0
         }
@@ -370660,19 +369833,19 @@ const RAIOX_OPORTUNIDADES_DATA = {
     {
       "fornecedor": "CRS BRANDS",
       "estado": "SP",
-      "fat_atual": 139225.11,
+      "fat_atual": 138362.07,
       "fat_mes_anterior": 132356.22,
       "fat_ano_anterior": 0.0,
-      "qt_atual": 15542.0,
+      "qt_atual": 15446.0,
       "qt_mes_anterior": 13950.0,
       "qt_ano_anterior": 0.0,
-      "queda_fat_mes_valor": -6868.89,
-      "queda_fat_ano_valor": -139225.11,
-      "queda_fat_mes_pct": 5.2,
+      "queda_fat_mes_valor": -6005.85,
+      "queda_fat_ano_valor": -138362.07,
+      "queda_fat_mes_pct": 4.5,
       "queda_fat_ano_pct": null,
-      "queda_qt_mes_valor": -1592.0,
-      "queda_qt_ano_valor": -15542.0,
-      "queda_qt_mes_pct": 11.4,
+      "queda_qt_mes_valor": -1496.0,
+      "queda_qt_ano_valor": -15446.0,
+      "queda_qt_mes_pct": 10.7,
       "queda_qt_ano_pct": null,
       "por_vendedor": {
         "SP-SPON-317": {
@@ -370956,10 +370129,10 @@ const RAIOX_OPORTUNIDADES_DATA = {
           "qt_ano_anterior": 0.0
         },
         "SP-SPON-515": {
-          "fat_atual": 970.92,
+          "fat_atual": 107.88,
           "fat_mes_anterior": 0.0,
           "fat_ano_anterior": 0.0,
-          "qt_atual": 108.0,
+          "qt_atual": 12.0,
           "qt_mes_anterior": 0.0,
           "qt_ano_anterior": 0.0
         },
@@ -373672,19 +372845,19 @@ const RAIOX_OPORTUNIDADES_DATA = {
     {
       "fornecedor": "BROWN",
       "estado": "SP",
-      "fat_atual": 1301493.76,
+      "fat_atual": 1299995.26,
       "fat_mes_anterior": 585840.06,
       "fat_ano_anterior": 0.0,
-      "qt_atual": 14042.0,
+      "qt_atual": 14027.0,
       "qt_mes_anterior": 6064.0,
       "qt_ano_anterior": 0.0,
-      "queda_fat_mes_valor": -715653.7,
-      "queda_fat_ano_valor": -1301493.76,
-      "queda_fat_mes_pct": 122.2,
+      "queda_fat_mes_valor": -714155.2,
+      "queda_fat_ano_valor": -1299995.26,
+      "queda_fat_mes_pct": 121.9,
       "queda_fat_ano_pct": null,
-      "queda_qt_mes_valor": -7978.0,
-      "queda_qt_ano_valor": -14042.0,
-      "queda_qt_mes_pct": 131.6,
+      "queda_qt_mes_valor": -7963.0,
+      "queda_qt_ano_valor": -14027.0,
+      "queda_qt_mes_pct": 131.3,
       "queda_qt_ano_pct": null,
       "por_vendedor": {
         "SP-SPON-317": {
@@ -374007,14 +373180,6 @@ const RAIOX_OPORTUNIDADES_DATA = {
           "qt_mes_anterior": 6.0,
           "qt_ano_anterior": 0.0
         },
-        "SP-SPON-515": {
-          "fat_atual": 1498.5,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 15.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0
-        },
         "SP-SPON-516": {
           "fat_atual": 3696.5,
           "fat_mes_anterior": 0.0,
@@ -374115,19 +373280,19 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "produto": "GIN BEEFEATER 750ML",
       "fornecedor": "PERNOD",
       "estado": "SP",
-      "fat_atual": 184176.08,
-      "fat_mes_anterior": 429708.87,
+      "fat_atual": 183469.28,
+      "fat_mes_anterior": 428870.07,
       "fat_ano_anterior": 0.0,
-      "qt_atual": 3190.0,
-      "qt_mes_anterior": 7766.0,
+      "qt_atual": 3178.0,
+      "qt_mes_anterior": 7754.0,
       "qt_ano_anterior": 0.0,
-      "queda_fat_mes_valor": 245532.79,
-      "queda_fat_ano_valor": -184176.08,
-      "queda_fat_mes_pct": -57.1,
+      "queda_fat_mes_valor": 245400.79,
+      "queda_fat_ano_valor": -183469.28,
+      "queda_fat_mes_pct": -57.2,
       "queda_fat_ano_pct": null,
       "queda_qt_mes_valor": 4576.0,
-      "queda_qt_ano_valor": -3190.0,
-      "queda_qt_mes_pct": -58.9,
+      "queda_qt_ano_valor": -3178.0,
+      "queda_qt_mes_pct": -59.0,
       "queda_qt_ano_pct": null,
       "por_vendedor": {
         "SP-SPON-318": {
@@ -374378,14 +373543,6 @@ const RAIOX_OPORTUNIDADES_DATA = {
           "qt_mes_anterior": 0.0,
           "qt_ano_anterior": 0.0
         },
-        "SP-SPON-515": {
-          "fat_atual": 706.8,
-          "fat_mes_anterior": 838.8,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 12.0,
-          "qt_mes_anterior": 12.0,
-          "qt_ano_anterior": 0.0
-        },
         "SP-SPON-516": {
           "fat_atual": 1480.6,
           "fat_mes_anterior": 0.0,
@@ -374589,18 +373746,18 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "produto": "WHISKY BALLANTINE S FINEST 1L",
       "fornecedor": "PERNOD",
       "estado": "SP",
-      "fat_atual": 137281.5,
+      "fat_atual": 137122.8,
       "fat_mes_anterior": 283103.93,
       "fat_ano_anterior": 0.0,
-      "qt_atual": 2779.0,
+      "qt_atual": 2776.0,
       "qt_mes_anterior": 5750.0,
       "qt_ano_anterior": 0.0,
-      "queda_fat_mes_valor": 145822.43,
-      "queda_fat_ano_valor": -137281.5,
-      "queda_fat_mes_pct": -51.5,
+      "queda_fat_mes_valor": 145981.13,
+      "queda_fat_ano_valor": -137122.8,
+      "queda_fat_mes_pct": -51.6,
       "queda_fat_ano_pct": null,
-      "queda_qt_mes_valor": 2971.0,
-      "queda_qt_ano_valor": -2779.0,
+      "queda_qt_mes_valor": 2974.0,
+      "queda_qt_ano_valor": -2776.0,
       "queda_qt_mes_pct": -51.7,
       "queda_qt_ano_pct": null,
       "por_vendedor": {
@@ -374852,14 +374009,6 @@ const RAIOX_OPORTUNIDADES_DATA = {
           "qt_mes_anterior": 0.0,
           "qt_ano_anterior": 0.0
         },
-        "SP-SPON-515": {
-          "fat_atual": 158.7,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 3.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0
-        },
         "SP-SPON-516": {
           "fat_atual": 6322.8,
           "fat_mes_anterior": 0.0,
@@ -374935,19 +374084,19 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "produto": "WHISKY PASSPORT 1L",
       "fornecedor": "PERNOD",
       "estado": "SP",
-      "fat_atual": 306755.6,
-      "fat_mes_anterior": 432450.99,
+      "fat_atual": 305966.0,
+      "fat_mes_anterior": 432036.99,
       "fat_ano_anterior": 0.0,
-      "qt_atual": 9910.0,
-      "qt_mes_anterior": 13570.0,
+      "qt_atual": 9886.0,
+      "qt_mes_anterior": 13558.0,
       "qt_ano_anterior": 0.0,
-      "queda_fat_mes_valor": 125695.39,
-      "queda_fat_ano_valor": -306755.6,
-      "queda_fat_mes_pct": -29.1,
+      "queda_fat_mes_valor": 126070.99,
+      "queda_fat_ano_valor": -305966.0,
+      "queda_fat_mes_pct": -29.2,
       "queda_fat_ano_pct": null,
-      "queda_qt_mes_valor": 3660.0,
-      "queda_qt_ano_valor": -9910.0,
-      "queda_qt_mes_pct": -27.0,
+      "queda_qt_mes_valor": 3672.0,
+      "queda_qt_ano_valor": -9886.0,
+      "queda_qt_mes_pct": -27.1,
       "queda_qt_ano_pct": null,
       "por_vendedor": {
         "SP-SPON-317": {
@@ -375222,14 +374371,6 @@ const RAIOX_OPORTUNIDADES_DATA = {
           "qt_mes_anterior": 744.0,
           "qt_ano_anterior": 0.0
         },
-        "SP-SPON-515": {
-          "fat_atual": 789.6,
-          "fat_mes_anterior": 414.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 24.0,
-          "qt_mes_anterior": 12.0,
-          "qt_ano_anterior": 0.0
-        },
         "SP-SPON-516": {
           "fat_atual": 5770.3,
           "fat_mes_anterior": 0.0,
@@ -375252,19 +374393,19 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "produto": "GIN TANQUERAY  750 ML",
       "fornecedor": "DIAGEO",
       "estado": "SP",
-      "fat_atual": 3480.4,
+      "fat_atual": 2383.7,
       "fat_mes_anterior": 127462.26,
       "fat_ano_anterior": 0.0,
-      "qt_atual": 38.0,
+      "qt_atual": 26.0,
       "qt_mes_anterior": 1696.0,
       "qt_ano_anterior": 0.0,
-      "queda_fat_mes_valor": 123981.86,
-      "queda_fat_ano_valor": -3480.4,
-      "queda_fat_mes_pct": -97.3,
+      "queda_fat_mes_valor": 125078.56,
+      "queda_fat_ano_valor": -2383.7,
+      "queda_fat_mes_pct": -98.1,
       "queda_fat_ano_pct": null,
-      "queda_qt_mes_valor": 1658.0,
-      "queda_qt_ano_valor": -38.0,
-      "queda_qt_mes_pct": -97.8,
+      "queda_qt_mes_valor": 1670.0,
+      "queda_qt_ano_valor": -26.0,
+      "queda_qt_mes_pct": -98.5,
       "queda_qt_ano_pct": null,
       "por_vendedor": {
         "SP-SPON-399": {
@@ -375323,14 +374464,6 @@ const RAIOX_OPORTUNIDADES_DATA = {
           "qt_mes_anterior": 1.0,
           "qt_ano_anterior": 0.0
         },
-        "SP-SPON-515": {
-          "fat_atual": 1096.7,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 12.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0
-        },
         "SP-SPON-516": {
           "fat_atual": 1279.48,
           "fat_mes_anterior": 0.0,
@@ -375345,19 +374478,19 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "produto": "VODKA ABSOLUT 1L",
       "fornecedor": "PERNOD",
       "estado": "SP",
-      "fat_atual": 98120.21,
+      "fat_atual": 97855.44,
       "fat_mes_anterior": 216467.47,
       "fat_ano_anterior": 0.0,
-      "qt_atual": 1879.0,
+      "qt_atual": 1874.0,
       "qt_mes_anterior": 4257.0,
       "qt_ano_anterior": 0.0,
-      "queda_fat_mes_valor": 118347.26,
-      "queda_fat_ano_valor": -98120.21,
-      "queda_fat_mes_pct": -54.7,
+      "queda_fat_mes_valor": 118612.03,
+      "queda_fat_ano_valor": -97855.44,
+      "queda_fat_mes_pct": -54.8,
       "queda_fat_ano_pct": null,
-      "queda_qt_mes_valor": 2378.0,
-      "queda_qt_ano_valor": -1879.0,
-      "queda_qt_mes_pct": -55.9,
+      "queda_qt_mes_valor": 2383.0,
+      "queda_qt_ano_valor": -1874.0,
+      "queda_qt_mes_pct": -56.0,
       "queda_qt_ano_pct": null,
       "por_vendedor": {
         "SP-SPON-318": {
@@ -375617,10 +374750,10 @@ const RAIOX_OPORTUNIDADES_DATA = {
           "qt_ano_anterior": 0.0
         },
         "SP-SPON-515": {
-          "fat_atual": 899.57,
+          "fat_atual": 634.8,
           "fat_mes_anterior": 0.0,
           "fat_ano_anterior": 0.0,
-          "qt_atual": 17.0,
+          "qt_atual": 12.0,
           "qt_mes_anterior": 0.0,
           "qt_ano_anterior": 0.0
         },
@@ -375646,19 +374779,19 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "produto": "WHISKY PASSPORT HONEY 670ML",
       "fornecedor": "PERNOD",
       "estado": "SP",
-      "fat_atual": 91831.55,
+      "fat_atual": 86797.85,
       "fat_mes_anterior": 190622.62,
       "fat_ano_anterior": 0.0,
-      "qt_atual": 2915.0,
+      "qt_atual": 2762.0,
       "qt_mes_anterior": 5551.0,
       "qt_ano_anterior": 0.0,
-      "queda_fat_mes_valor": 98791.07,
-      "queda_fat_ano_valor": -91831.55,
-      "queda_fat_mes_pct": -51.8,
+      "queda_fat_mes_valor": 103824.77,
+      "queda_fat_ano_valor": -86797.85,
+      "queda_fat_mes_pct": -54.5,
       "queda_fat_ano_pct": null,
-      "queda_qt_mes_valor": 2636.0,
-      "queda_qt_ano_valor": -2915.0,
-      "queda_qt_mes_pct": -47.5,
+      "queda_qt_mes_valor": 2789.0,
+      "queda_qt_ano_valor": -2762.0,
+      "queda_qt_mes_pct": -50.2,
       "queda_qt_ano_pct": null,
       "por_vendedor": {
         "SP-SPON-371": {
@@ -375859,14 +374992,6 @@ const RAIOX_OPORTUNIDADES_DATA = {
           "fat_ano_anterior": 0.0,
           "qt_atual": 15.0,
           "qt_mes_anterior": 15.0,
-          "qt_ano_anterior": 0.0
-        },
-        "SP-SPON-515": {
-          "fat_atual": 5033.7,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 153.0,
-          "qt_mes_anterior": 0.0,
           "qt_ano_anterior": 0.0
         },
         "SP-SPON-516": {
@@ -379464,6 +378589,179 @@ const RAIOX_OPORTUNIDADES_DATA = {
       }
     },
     {
+      "produto": "VODKA ABSOLUT TABASCO 750ML",
+      "fornecedor": "PERNOD",
+      "estado": "SP",
+      "fat_atual": 9125.2,
+      "fat_mes_anterior": 22168.36,
+      "fat_ano_anterior": 0.0,
+      "qt_atual": 168.0,
+      "qt_mes_anterior": 426.0,
+      "qt_ano_anterior": 0.0,
+      "queda_fat_mes_valor": 13043.16,
+      "queda_fat_ano_valor": -9125.2,
+      "queda_fat_mes_pct": -58.8,
+      "queda_fat_ano_pct": null,
+      "queda_qt_mes_valor": 258.0,
+      "queda_qt_ano_valor": -168.0,
+      "queda_qt_mes_pct": -60.6,
+      "queda_qt_ano_pct": null,
+      "por_vendedor": {
+        "SP-SPON-318": {
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 7879.2,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 168.0,
+          "qt_ano_anterior": 0.0
+        },
+        "SP-SPON-399": {
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 754.8,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 12.0,
+          "qt_ano_anterior": 0.0
+        },
+        "SP-SPON-425": {
+          "fat_atual": 1362.3,
+          "fat_mes_anterior": 2635.16,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 27.0,
+          "qt_mes_anterior": 48.0,
+          "qt_ano_anterior": 0.0
+        },
+        "SP-SPON-426": {
+          "fat_atual": 3832.8,
+          "fat_mes_anterior": 2635.2,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 72.0,
+          "qt_mes_anterior": 48.0,
+          "qt_ano_anterior": 0.0
+        },
+        "SP-SPON-433": {
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 2635.2,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 48.0,
+          "qt_ano_anterior": 0.0
+        },
+        "SP-SPON-460": {
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 3294.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 60.0,
+          "qt_ano_anterior": 0.0
+        },
+        "SP-SPON-464": {
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 59.9,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 1.0,
+          "qt_ano_anterior": 0.0
+        },
+        "SP-SPON-468": {
+          "fat_atual": 1420.5,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 25.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0
+        },
+        "SP-SPON-474": {
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 180.7,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 3.0,
+          "qt_ano_anterior": 0.0
+        },
+        "SP-SPON-476": {
+          "fat_atual": 54.9,
+          "fat_mes_anterior": 658.8,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 1.0,
+          "qt_mes_anterior": 12.0,
+          "qt_ano_anterior": 0.0
+        },
+        "SP-SPON-477": {
+          "fat_atual": 317.4,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 6.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0
+        },
+        "SP-SPON-486": {
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 1427.4,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 26.0,
+          "qt_ano_anterior": 0.0
+        },
+        "SP-SPON-489": {
+          "fat_atual": 113.8,
+          "fat_mes_anterior": 549.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 2.0,
+          "qt_mes_anterior": 10.0,
+          "qt_ano_anterior": 0.0
+        },
+        "SP-SPON-490": {
+          "fat_atual": 109.8,
+          "fat_mes_anterior": 54.9,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 2.0,
+          "qt_mes_anterior": 1.0,
+          "qt_ano_anterior": 0.0
+        },
+        "SP-SPON-504": {
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 62.9,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 1.0,
+          "qt_ano_anterior": 0.0
+        },
+        "SP-SPON-511": {
+          "fat_atual": 113.8,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 2.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0
+        },
+        "SP-SPON-512": {
+          "fat_atual": 1482.3,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 27.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0
+        },
+        "SP-SPON-513": {
+          "fat_atual": 658.8,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 12.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0
+        },
+        "SP-SPON-516": {
+          "fat_atual": 856.4,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 16.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0
+        }
+      }
+    },
+    {
       "produto": "WHISKY JAMESON 750ML",
       "fornecedor": "PERNOD",
       "estado": "MG",
@@ -379655,187 +378953,6 @@ const RAIOX_OPORTUNIDADES_DATA = {
           "fat_ano_anterior": 0.0,
           "qt_atual": 0.0,
           "qt_mes_anterior": 2.0,
-          "qt_ano_anterior": 0.0
-        }
-      }
-    },
-    {
-      "produto": "VODKA ABSOLUT TABASCO 750ML",
-      "fornecedor": "PERNOD",
-      "estado": "SP",
-      "fat_atual": 9972.7,
-      "fat_mes_anterior": 22168.36,
-      "fat_ano_anterior": 0.0,
-      "qt_atual": 183.0,
-      "qt_mes_anterior": 426.0,
-      "qt_ano_anterior": 0.0,
-      "queda_fat_mes_valor": 12195.66,
-      "queda_fat_ano_valor": -9972.7,
-      "queda_fat_mes_pct": -55.0,
-      "queda_fat_ano_pct": null,
-      "queda_qt_mes_valor": 243.0,
-      "queda_qt_ano_valor": -183.0,
-      "queda_qt_mes_pct": -57.0,
-      "queda_qt_ano_pct": null,
-      "por_vendedor": {
-        "SP-SPON-318": {
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 7879.2,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 168.0,
-          "qt_ano_anterior": 0.0
-        },
-        "SP-SPON-399": {
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 754.8,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 12.0,
-          "qt_ano_anterior": 0.0
-        },
-        "SP-SPON-425": {
-          "fat_atual": 1362.3,
-          "fat_mes_anterior": 2635.16,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 27.0,
-          "qt_mes_anterior": 48.0,
-          "qt_ano_anterior": 0.0
-        },
-        "SP-SPON-426": {
-          "fat_atual": 3832.8,
-          "fat_mes_anterior": 2635.2,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 72.0,
-          "qt_mes_anterior": 48.0,
-          "qt_ano_anterior": 0.0
-        },
-        "SP-SPON-433": {
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 2635.2,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 48.0,
-          "qt_ano_anterior": 0.0
-        },
-        "SP-SPON-460": {
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 3294.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 60.0,
-          "qt_ano_anterior": 0.0
-        },
-        "SP-SPON-464": {
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 59.9,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 1.0,
-          "qt_ano_anterior": 0.0
-        },
-        "SP-SPON-468": {
-          "fat_atual": 1420.5,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 25.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0
-        },
-        "SP-SPON-474": {
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 180.7,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 3.0,
-          "qt_ano_anterior": 0.0
-        },
-        "SP-SPON-476": {
-          "fat_atual": 54.9,
-          "fat_mes_anterior": 658.8,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 1.0,
-          "qt_mes_anterior": 12.0,
-          "qt_ano_anterior": 0.0
-        },
-        "SP-SPON-477": {
-          "fat_atual": 317.4,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 6.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0
-        },
-        "SP-SPON-486": {
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 1427.4,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 26.0,
-          "qt_ano_anterior": 0.0
-        },
-        "SP-SPON-489": {
-          "fat_atual": 113.8,
-          "fat_mes_anterior": 549.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 2.0,
-          "qt_mes_anterior": 10.0,
-          "qt_ano_anterior": 0.0
-        },
-        "SP-SPON-490": {
-          "fat_atual": 109.8,
-          "fat_mes_anterior": 54.9,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 2.0,
-          "qt_mes_anterior": 1.0,
-          "qt_ano_anterior": 0.0
-        },
-        "SP-SPON-504": {
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 62.9,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 1.0,
-          "qt_ano_anterior": 0.0
-        },
-        "SP-SPON-511": {
-          "fat_atual": 113.8,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 2.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0
-        },
-        "SP-SPON-512": {
-          "fat_atual": 1482.3,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 27.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0
-        },
-        "SP-SPON-513": {
-          "fat_atual": 658.8,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 12.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0
-        },
-        "SP-SPON-515": {
-          "fat_atual": 847.5,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 15.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0
-        },
-        "SP-SPON-516": {
-          "fat_atual": 856.4,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 16.0,
-          "qt_mes_anterior": 0.0,
           "qt_ano_anterior": 0.0
         }
       }
@@ -384153,19 +383270,19 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "produto": "VODKA ORLOFF 1L",
       "fornecedor": "PERNOD",
       "estado": "SP",
-      "fat_atual": 20109.1,
+      "fat_atual": 20049.4,
       "fat_mes_anterior": 23543.1,
       "fat_ano_anterior": 0.0,
-      "qt_atual": 1009.0,
+      "qt_atual": 1006.0,
       "qt_mes_anterior": 1209.0,
       "qt_ano_anterior": 0.0,
-      "queda_fat_mes_valor": 3434.0,
-      "queda_fat_ano_valor": -20109.1,
-      "queda_fat_mes_pct": -14.6,
+      "queda_fat_mes_valor": 3493.7,
+      "queda_fat_ano_valor": -20049.4,
+      "queda_fat_mes_pct": -14.8,
       "queda_fat_ano_pct": null,
-      "queda_qt_mes_valor": 200.0,
-      "queda_qt_ano_valor": -1009.0,
-      "queda_qt_mes_pct": -16.5,
+      "queda_qt_mes_valor": 203.0,
+      "queda_qt_ano_valor": -1006.0,
+      "queda_qt_mes_pct": -16.8,
       "queda_qt_ano_pct": null,
       "por_vendedor": {
         "SP-SPON-317": {
@@ -384301,14 +383418,6 @@ const RAIOX_OPORTUNIDADES_DATA = {
           "fat_mes_anterior": 0.0,
           "fat_ano_anterior": 0.0,
           "qt_atual": 75.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0
-        },
-        "SP-SPON-515": {
-          "fat_atual": 59.7,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 3.0,
           "qt_mes_anterior": 0.0,
           "qt_ano_anterior": 0.0
         },
@@ -384453,6 +383562,163 @@ const RAIOX_OPORTUNIDADES_DATA = {
           "fat_ano_anterior": 0.0,
           "qt_atual": 5.0,
           "qt_mes_anterior": 15.0,
+          "qt_ano_anterior": 0.0
+        }
+      }
+    },
+    {
+      "produto": "VODKA ABSOLUT RASPBERRY - 750ML",
+      "fornecedor": "PERNOD",
+      "estado": "SP",
+      "fat_atual": 9472.7,
+      "fat_mes_anterior": 12624.31,
+      "fat_ano_anterior": 0.0,
+      "qt_atual": 173.0,
+      "qt_mes_anterior": 237.0,
+      "qt_ano_anterior": 0.0,
+      "queda_fat_mes_valor": 3151.61,
+      "queda_fat_ano_valor": -9472.7,
+      "queda_fat_mes_pct": -25.0,
+      "queda_fat_ano_pct": null,
+      "queda_qt_mes_valor": 64.0,
+      "queda_qt_ano_valor": -173.0,
+      "queda_qt_mes_pct": -27.0,
+      "queda_qt_ano_pct": null,
+      "por_vendedor": {
+        "SP-SPON-399": {
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 6850.8,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 132.0,
+          "qt_ano_anterior": 0.0
+        },
+        "SP-SPON-425": {
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 549.01,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 10.0,
+          "qt_ano_anterior": 0.0
+        },
+        "SP-SPON-426": {
+          "fat_atual": 1976.4,
+          "fat_mes_anterior": 658.8,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 36.0,
+          "qt_mes_anterior": 12.0,
+          "qt_ano_anterior": 0.0
+        },
+        "SP-SPON-433": {
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 1976.4,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 36.0,
+          "qt_ano_anterior": 0.0
+        },
+        "SP-SPON-464": {
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 54.9,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 1.0,
+          "qt_ano_anterior": 0.0
+        },
+        "SP-SPON-467": {
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 658.8,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 12.0,
+          "qt_ano_anterior": 0.0
+        },
+        "SP-SPON-468": {
+          "fat_atual": 1317.6,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 24.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0
+        },
+        "SP-SPON-474": {
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 221.4,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 4.0,
+          "qt_ano_anterior": 0.0
+        },
+        "SP-SPON-475": {
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 666.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 12.0,
+          "qt_ano_anterior": 0.0
+        },
+        "SP-SPON-476": {
+          "fat_atual": 983.4,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 18.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0
+        },
+        "SP-SPON-486": {
+          "fat_atual": 164.7,
+          "fat_mes_anterior": 1317.6,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 3.0,
+          "qt_mes_anterior": 24.0,
+          "qt_ano_anterior": 0.0
+        },
+        "SP-SPON-489": {
+          "fat_atual": 166.5,
+          "fat_mes_anterior": 329.4,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 3.0,
+          "qt_mes_anterior": 6.0,
+          "qt_ano_anterior": 0.0
+        },
+        "SP-SPON-510": {
+          "fat_atual": 658.8,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 12.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0
+        },
+        "SP-SPON-512": {
+          "fat_atual": 1317.6,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 24.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0
+        },
+        "SP-SPON-513": {
+          "fat_atual": 658.8,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 12.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0
+        },
+        "SP-SPON-516": {
+          "fat_atual": 911.3,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 17.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0
+        },
+        "SP-SPON-518": {
+          "fat_atual": 1317.6,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 24.0,
+          "qt_mes_anterior": 0.0,
           "qt_ano_anterior": 0.0
         }
       }
@@ -384697,171 +383963,6 @@ const RAIOX_OPORTUNIDADES_DATA = {
           "fat_ano_anterior": 0.0,
           "qt_atual": 0.0,
           "qt_mes_anterior": 2.0,
-          "qt_ano_anterior": 0.0
-        }
-      }
-    },
-    {
-      "produto": "VODKA ABSOLUT RASPBERRY - 750ML",
-      "fornecedor": "PERNOD",
-      "estado": "SP",
-      "fat_atual": 9637.4,
-      "fat_mes_anterior": 12624.31,
-      "fat_ano_anterior": 0.0,
-      "qt_atual": 176.0,
-      "qt_mes_anterior": 237.0,
-      "qt_ano_anterior": 0.0,
-      "queda_fat_mes_valor": 2986.91,
-      "queda_fat_ano_valor": -9637.4,
-      "queda_fat_mes_pct": -23.7,
-      "queda_fat_ano_pct": null,
-      "queda_qt_mes_valor": 61.0,
-      "queda_qt_ano_valor": -176.0,
-      "queda_qt_mes_pct": -25.7,
-      "queda_qt_ano_pct": null,
-      "por_vendedor": {
-        "SP-SPON-399": {
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 6850.8,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 132.0,
-          "qt_ano_anterior": 0.0
-        },
-        "SP-SPON-425": {
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 549.01,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 10.0,
-          "qt_ano_anterior": 0.0
-        },
-        "SP-SPON-426": {
-          "fat_atual": 1976.4,
-          "fat_mes_anterior": 658.8,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 36.0,
-          "qt_mes_anterior": 12.0,
-          "qt_ano_anterior": 0.0
-        },
-        "SP-SPON-433": {
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 1976.4,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 36.0,
-          "qt_ano_anterior": 0.0
-        },
-        "SP-SPON-464": {
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 54.9,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 1.0,
-          "qt_ano_anterior": 0.0
-        },
-        "SP-SPON-467": {
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 658.8,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 12.0,
-          "qt_ano_anterior": 0.0
-        },
-        "SP-SPON-468": {
-          "fat_atual": 1317.6,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 24.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0
-        },
-        "SP-SPON-474": {
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 221.4,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 4.0,
-          "qt_ano_anterior": 0.0
-        },
-        "SP-SPON-475": {
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 666.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 12.0,
-          "qt_ano_anterior": 0.0
-        },
-        "SP-SPON-476": {
-          "fat_atual": 983.4,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 18.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0
-        },
-        "SP-SPON-486": {
-          "fat_atual": 164.7,
-          "fat_mes_anterior": 1317.6,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 3.0,
-          "qt_mes_anterior": 24.0,
-          "qt_ano_anterior": 0.0
-        },
-        "SP-SPON-489": {
-          "fat_atual": 166.5,
-          "fat_mes_anterior": 329.4,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 3.0,
-          "qt_mes_anterior": 6.0,
-          "qt_ano_anterior": 0.0
-        },
-        "SP-SPON-510": {
-          "fat_atual": 658.8,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 12.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0
-        },
-        "SP-SPON-512": {
-          "fat_atual": 1317.6,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 24.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0
-        },
-        "SP-SPON-513": {
-          "fat_atual": 658.8,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 12.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0
-        },
-        "SP-SPON-515": {
-          "fat_atual": 164.7,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 3.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0
-        },
-        "SP-SPON-516": {
-          "fat_atual": 911.3,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 17.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0
-        },
-        "SP-SPON-518": {
-          "fat_atual": 1317.6,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 24.0,
-          "qt_mes_anterior": 0.0,
           "qt_ano_anterior": 0.0
         }
       }
@@ -390944,6 +390045,107 @@ const RAIOX_OPORTUNIDADES_DATA = {
       }
     },
     {
+      "produto": "VODKA ABSOLUT VANILLA 750ML",
+      "fornecedor": "PERNOD",
+      "estado": "SP",
+      "fat_atual": 1155.28,
+      "fat_mes_anterior": 2360.7,
+      "fat_ano_anterior": 0.0,
+      "qt_atual": 21.0,
+      "qt_mes_anterior": 43.0,
+      "qt_ano_anterior": 0.0,
+      "queda_fat_mes_valor": 1205.42,
+      "queda_fat_ano_valor": -1155.28,
+      "queda_fat_mes_pct": -51.1,
+      "queda_fat_ano_pct": null,
+      "queda_qt_mes_valor": 22.0,
+      "queda_qt_ano_valor": -21.0,
+      "queda_qt_mes_pct": -51.2,
+      "queda_qt_ano_pct": null,
+      "por_vendedor": {
+        "SP-SPON-318": {
+          "fat_atual": 164.7,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 3.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0
+        },
+        "SP-SPON-399": {
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 658.8,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 12.0,
+          "qt_ano_anterior": 0.0
+        },
+        "SP-SPON-425": {
+          "fat_atual": 274.48,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 5.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0
+        },
+        "SP-SPON-433": {
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 658.8,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 12.0,
+          "qt_ano_anterior": 0.0
+        },
+        "SP-SPON-460": {
+          "fat_atual": 220.2,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 4.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0
+        },
+        "SP-SPON-474": {
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 54.9,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 1.0,
+          "qt_ano_anterior": 0.0
+        },
+        "SP-SPON-476": {
+          "fat_atual": 164.7,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 3.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0
+        },
+        "SP-SPON-486": {
+          "fat_atual": 109.8,
+          "fat_mes_anterior": 658.8,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 2.0,
+          "qt_mes_anterior": 12.0,
+          "qt_ano_anterior": 0.0
+        },
+        "SP-SPON-489": {
+          "fat_atual": 166.5,
+          "fat_mes_anterior": 329.4,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 3.0,
+          "qt_mes_anterior": 6.0,
+          "qt_ano_anterior": 0.0
+        },
+        "SP-SPON-516": {
+          "fat_atual": 219.6,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 4.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0
+        }
+      }
+    },
+    {
       "produto": "WHISKY ESC MACALLAN SHERRY OAK 12Y 700ML",
       "fornecedor": "BEAM SUNTORY BRASIL",
       "estado": "SP",
@@ -391471,115 +390673,6 @@ const RAIOX_OPORTUNIDADES_DATA = {
           "fat_ano_anterior": 0.0,
           "qt_atual": 0.0,
           "qt_mes_anterior": 96.0,
-          "qt_ano_anterior": 0.0
-        }
-      }
-    },
-    {
-      "produto": "VODKA ABSOLUT VANILLA 750ML",
-      "fornecedor": "PERNOD",
-      "estado": "SP",
-      "fat_atual": 1319.98,
-      "fat_mes_anterior": 2360.7,
-      "fat_ano_anterior": 0.0,
-      "qt_atual": 24.0,
-      "qt_mes_anterior": 43.0,
-      "qt_ano_anterior": 0.0,
-      "queda_fat_mes_valor": 1040.72,
-      "queda_fat_ano_valor": -1319.98,
-      "queda_fat_mes_pct": -44.1,
-      "queda_fat_ano_pct": null,
-      "queda_qt_mes_valor": 19.0,
-      "queda_qt_ano_valor": -24.0,
-      "queda_qt_mes_pct": -44.2,
-      "queda_qt_ano_pct": null,
-      "por_vendedor": {
-        "SP-SPON-318": {
-          "fat_atual": 164.7,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 3.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0
-        },
-        "SP-SPON-399": {
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 658.8,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 12.0,
-          "qt_ano_anterior": 0.0
-        },
-        "SP-SPON-425": {
-          "fat_atual": 274.48,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 5.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0
-        },
-        "SP-SPON-433": {
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 658.8,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 12.0,
-          "qt_ano_anterior": 0.0
-        },
-        "SP-SPON-460": {
-          "fat_atual": 220.2,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 4.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0
-        },
-        "SP-SPON-474": {
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 54.9,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 1.0,
-          "qt_ano_anterior": 0.0
-        },
-        "SP-SPON-476": {
-          "fat_atual": 164.7,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 3.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0
-        },
-        "SP-SPON-486": {
-          "fat_atual": 109.8,
-          "fat_mes_anterior": 658.8,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 2.0,
-          "qt_mes_anterior": 12.0,
-          "qt_ano_anterior": 0.0
-        },
-        "SP-SPON-489": {
-          "fat_atual": 166.5,
-          "fat_mes_anterior": 329.4,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 3.0,
-          "qt_mes_anterior": 6.0,
-          "qt_ano_anterior": 0.0
-        },
-        "SP-SPON-515": {
-          "fat_atual": 164.7,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 3.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0
-        },
-        "SP-SPON-516": {
-          "fat_atual": 219.6,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 4.0,
-          "qt_mes_anterior": 0.0,
           "qt_ano_anterior": 0.0
         }
       }
@@ -436685,19 +435778,19 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "produto": "WHISKY PASSPORT APPLE 670ML",
       "fornecedor": "PERNOD",
       "estado": "SP",
-      "fat_atual": 15769.3,
+      "fat_atual": 15670.6,
       "fat_mes_anterior": 7291.66,
       "fat_ano_anterior": 0.0,
-      "qt_atual": 487.0,
+      "qt_atual": 484.0,
       "qt_mes_anterior": 213.0,
       "qt_ano_anterior": 0.0,
-      "queda_fat_mes_valor": -8477.64,
-      "queda_fat_ano_valor": -15769.3,
-      "queda_fat_mes_pct": 116.3,
+      "queda_fat_mes_valor": -8378.94,
+      "queda_fat_ano_valor": -15670.6,
+      "queda_fat_mes_pct": 114.9,
       "queda_fat_ano_pct": null,
-      "queda_qt_mes_valor": -274.0,
-      "queda_qt_ano_valor": -487.0,
-      "queda_qt_mes_pct": 128.6,
+      "queda_qt_mes_valor": -271.0,
+      "queda_qt_ano_valor": -484.0,
+      "queda_qt_mes_pct": 127.2,
       "queda_qt_ano_pct": null,
       "por_vendedor": {
         "SP-SPON-426": {
@@ -436857,14 +435950,6 @@ const RAIOX_OPORTUNIDADES_DATA = {
           "fat_mes_anterior": 0.0,
           "fat_ano_anterior": 0.0,
           "qt_atual": 12.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0
-        },
-        "SP-SPON-515": {
-          "fat_atual": 98.7,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 3.0,
           "qt_mes_anterior": 0.0,
           "qt_ano_anterior": 0.0
         },
@@ -439056,19 +438141,19 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "produto": "VINHO DOM BOSCO TINTO SECO 750ML",
       "fornecedor": "CRS BRANDS",
       "estado": "SP",
-      "fat_atual": 23840.76,
+      "fat_atual": 23732.88,
       "fat_mes_anterior": 5816.55,
       "fat_ano_anterior": 0.0,
-      "qt_atual": 2724.0,
+      "qt_atual": 2712.0,
       "qt_mes_anterior": 645.0,
       "qt_ano_anterior": 0.0,
-      "queda_fat_mes_valor": -18024.21,
-      "queda_fat_ano_valor": -23840.76,
-      "queda_fat_mes_pct": 309.9,
+      "queda_fat_mes_valor": -17916.33,
+      "queda_fat_ano_valor": -23732.88,
+      "queda_fat_mes_pct": 308.0,
       "queda_fat_ano_pct": null,
-      "queda_qt_mes_valor": -2079.0,
-      "queda_qt_ano_valor": -2724.0,
-      "queda_qt_mes_pct": 322.3,
+      "queda_qt_mes_valor": -2067.0,
+      "queda_qt_ano_valor": -2712.0,
+      "queda_qt_mes_pct": 320.5,
       "queda_qt_ano_pct": null,
       "por_vendedor": {
         "SP-SPON-317": {
@@ -439285,14 +438370,6 @@ const RAIOX_OPORTUNIDADES_DATA = {
           "fat_ano_anterior": 0.0,
           "qt_atual": 120.0,
           "qt_mes_anterior": 36.0,
-          "qt_ano_anterior": 0.0
-        },
-        "SP-SPON-515": {
-          "fat_atual": 107.88,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 12.0,
-          "qt_mes_anterior": 0.0,
           "qt_ano_anterior": 0.0
         },
         "SP-SPON-516": {
@@ -440020,280 +439097,22 @@ const RAIOX_OPORTUNIDADES_DATA = {
       }
     },
     {
-      "produto": "MARTINI BIANCO 750 ML",
-      "fornecedor": "BACARDI",
-      "estado": "SP",
-      "fat_atual": 39194.15,
-      "fat_mes_anterior": 14922.05,
-      "fat_ano_anterior": 0.0,
-      "qt_atual": 1380.0,
-      "qt_mes_anterior": 525.0,
-      "qt_ano_anterior": 0.0,
-      "queda_fat_mes_valor": -24272.1,
-      "queda_fat_ano_valor": -39194.15,
-      "queda_fat_mes_pct": 162.7,
-      "queda_fat_ano_pct": null,
-      "queda_qt_mes_valor": -855.0,
-      "queda_qt_ano_valor": -1380.0,
-      "queda_qt_mes_pct": 162.9,
-      "queda_qt_ano_pct": null,
-      "por_vendedor": {
-        "SP-SPON-317": {
-          "fat_atual": 86.84,
-          "fat_mes_anterior": 1736.98,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 3.0,
-          "qt_mes_anterior": 60.0,
-          "qt_ano_anterior": 0.0
-        },
-        "SP-SPON-391": {
-          "fat_atual": 2870.4,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 96.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0
-        },
-        "SP-SPON-399": {
-          "fat_atual": 416.7,
-          "fat_mes_anterior": 694.75,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 14.0,
-          "qt_mes_anterior": 24.0,
-          "qt_ano_anterior": 0.0
-        },
-        "SP-SPON-426": {
-          "fat_atual": 22234.9,
-          "fat_mes_anterior": 9045.35,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 780.0,
-          "qt_mes_anterior": 322.0,
-          "qt_ano_anterior": 0.0
-        },
-        "SP-SPON-460": {
-          "fat_atual": 347.38,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 12.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0
-        },
-        "SP-SPON-466": {
-          "fat_atual": 347.38,
-          "fat_mes_anterior": 347.38,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 12.0,
-          "qt_mes_anterior": 12.0,
-          "qt_ano_anterior": 0.0
-        },
-        "SP-SPON-468": {
-          "fat_atual": 3474.0,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 120.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0
-        },
-        "SP-SPON-469": {
-          "fat_atual": 716.52,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 24.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0
-        },
-        "SP-SPON-470": {
-          "fat_atual": 3594.24,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 144.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0
-        },
-        "SP-SPON-477": {
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 636.85,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 22.0,
-          "qt_ano_anterior": 0.0
-        },
-        "SP-SPON-486": {
-          "fat_atual": 57.9,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 2.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0
-        },
-        "SP-SPON-488": {
-          "fat_atual": 752.7,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 26.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0
-        },
-        "SP-SPON-489": {
-          "fat_atual": 694.75,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 24.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0
-        },
-        "SP-SPON-490": {
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 1737.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 60.0,
-          "qt_ano_anterior": 0.0
-        },
-        "SP-SPON-491": {
-          "fat_atual": 694.75,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 24.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0
-        },
-        "SP-SPON-498": {
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 665.85,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 23.0,
-          "qt_ano_anterior": 0.0
-        },
-        "SP-SPON-500": {
-          "fat_atual": 1389.6,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 48.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0
-        },
-        "SP-SPON-502": {
-          "fat_atual": 173.69,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 6.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0
-        },
-        "SP-SPON-504": {
-          "fat_atual": 1070.69,
-          "fat_mes_anterior": 694.75,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 36.0,
-          "qt_mes_anterior": 24.0,
-          "qt_ano_anterior": 0.0
-        },
-        "SP-SPON-505": {
-          "fat_atual": 86.84,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 3.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0
-        },
-        "SP-SPON-507": {
-          "fat_atual": 347.38,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 12.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0
-        },
-        "SP-SPON-512": {
-          "fat_atual": 2084.28,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 72.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0
-        },
-        "SP-SPON-516": {
-          "fat_atual": 1024.6,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 35.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0
-        },
-        "SP-SPON-518": {
-          "fat_atual": 347.38,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 12.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0
-        }
-      }
-    },
-    {
-      "produto": "COQUETEL ALCOÓLICO DON CREAM DULCE DE LE",
-      "fornecedor": "DON LUIZ",
-      "estado": "MG",
-      "fat_atual": 24305.7,
-      "fat_mes_anterior": 0.0,
-      "fat_ano_anterior": 0.0,
-      "qt_atual": 393.0,
-      "qt_mes_anterior": 0.0,
-      "qt_ano_anterior": 0.0,
-      "queda_fat_mes_valor": -24305.7,
-      "queda_fat_ano_valor": -24305.7,
-      "queda_fat_mes_pct": null,
-      "queda_fat_ano_pct": null,
-      "queda_qt_mes_valor": -393.0,
-      "queda_qt_ano_valor": -393.0,
-      "queda_qt_mes_pct": null,
-      "queda_qt_ano_pct": null,
-      "por_vendedor": {
-        "MG-MGON-343": {
-          "fat_atual": 9750.0,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 150.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0
-        },
-        "MG-MGON-344": {
-          "fat_atual": 179.7,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 3.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0
-        },
-        "MG-MGON-360": {
-          "fat_atual": 24126.0,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 390.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0
-        }
-      }
-    },
-    {
       "produto": "VINHO DOM BOSCO TINTO SUAVE 750ML",
       "fornecedor": "CRS BRANDS",
       "estado": "SP",
-      "fat_atual": 97194.31,
+      "fat_atual": 96439.15,
       "fat_mes_anterior": 72770.42,
       "fat_ano_anterior": 0.0,
-      "qt_atual": 11069.0,
+      "qt_atual": 10985.0,
       "qt_mes_anterior": 8398.0,
       "qt_ano_anterior": 0.0,
-      "queda_fat_mes_valor": -24423.89,
-      "queda_fat_ano_valor": -97194.31,
-      "queda_fat_mes_pct": 33.6,
+      "queda_fat_mes_valor": -23668.73,
+      "queda_fat_ano_valor": -96439.15,
+      "queda_fat_mes_pct": 32.5,
       "queda_fat_ano_pct": null,
-      "queda_qt_mes_valor": -2671.0,
-      "queda_qt_ano_valor": -11069.0,
-      "queda_qt_mes_pct": 31.8,
+      "queda_qt_mes_valor": -2587.0,
+      "queda_qt_ano_valor": -10985.0,
+      "queda_qt_mes_pct": 30.8,
       "queda_qt_ano_pct": null,
       "por_vendedor": {
         "SP-SPON-317": {
@@ -440553,10 +439372,10 @@ const RAIOX_OPORTUNIDADES_DATA = {
           "qt_ano_anterior": 0.0
         },
         "SP-SPON-515": {
-          "fat_atual": 863.04,
+          "fat_atual": 107.88,
           "fat_mes_anterior": 0.0,
           "fat_ano_anterior": 0.0,
-          "qt_atual": 96.0,
+          "qt_atual": 12.0,
           "qt_mes_anterior": 0.0,
           "qt_ano_anterior": 0.0
         },
@@ -440565,6 +439384,264 @@ const RAIOX_OPORTUNIDADES_DATA = {
           "fat_mes_anterior": 0.0,
           "fat_ano_anterior": 0.0,
           "qt_atual": 60.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0
+        }
+      }
+    },
+    {
+      "produto": "MARTINI BIANCO 750 ML",
+      "fornecedor": "BACARDI",
+      "estado": "SP",
+      "fat_atual": 39194.15,
+      "fat_mes_anterior": 14922.05,
+      "fat_ano_anterior": 0.0,
+      "qt_atual": 1380.0,
+      "qt_mes_anterior": 525.0,
+      "qt_ano_anterior": 0.0,
+      "queda_fat_mes_valor": -24272.1,
+      "queda_fat_ano_valor": -39194.15,
+      "queda_fat_mes_pct": 162.7,
+      "queda_fat_ano_pct": null,
+      "queda_qt_mes_valor": -855.0,
+      "queda_qt_ano_valor": -1380.0,
+      "queda_qt_mes_pct": 162.9,
+      "queda_qt_ano_pct": null,
+      "por_vendedor": {
+        "SP-SPON-317": {
+          "fat_atual": 86.84,
+          "fat_mes_anterior": 1736.98,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 3.0,
+          "qt_mes_anterior": 60.0,
+          "qt_ano_anterior": 0.0
+        },
+        "SP-SPON-391": {
+          "fat_atual": 2870.4,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 96.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0
+        },
+        "SP-SPON-399": {
+          "fat_atual": 416.7,
+          "fat_mes_anterior": 694.75,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 14.0,
+          "qt_mes_anterior": 24.0,
+          "qt_ano_anterior": 0.0
+        },
+        "SP-SPON-426": {
+          "fat_atual": 22234.9,
+          "fat_mes_anterior": 9045.35,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 780.0,
+          "qt_mes_anterior": 322.0,
+          "qt_ano_anterior": 0.0
+        },
+        "SP-SPON-460": {
+          "fat_atual": 347.38,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 12.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0
+        },
+        "SP-SPON-466": {
+          "fat_atual": 347.38,
+          "fat_mes_anterior": 347.38,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 12.0,
+          "qt_mes_anterior": 12.0,
+          "qt_ano_anterior": 0.0
+        },
+        "SP-SPON-468": {
+          "fat_atual": 3474.0,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 120.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0
+        },
+        "SP-SPON-469": {
+          "fat_atual": 716.52,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 24.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0
+        },
+        "SP-SPON-470": {
+          "fat_atual": 3594.24,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 144.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0
+        },
+        "SP-SPON-477": {
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 636.85,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 22.0,
+          "qt_ano_anterior": 0.0
+        },
+        "SP-SPON-486": {
+          "fat_atual": 57.9,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 2.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0
+        },
+        "SP-SPON-488": {
+          "fat_atual": 752.7,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 26.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0
+        },
+        "SP-SPON-489": {
+          "fat_atual": 694.75,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 24.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0
+        },
+        "SP-SPON-490": {
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 1737.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 60.0,
+          "qt_ano_anterior": 0.0
+        },
+        "SP-SPON-491": {
+          "fat_atual": 694.75,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 24.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0
+        },
+        "SP-SPON-498": {
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 665.85,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 23.0,
+          "qt_ano_anterior": 0.0
+        },
+        "SP-SPON-500": {
+          "fat_atual": 1389.6,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 48.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0
+        },
+        "SP-SPON-502": {
+          "fat_atual": 173.69,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 6.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0
+        },
+        "SP-SPON-504": {
+          "fat_atual": 1070.69,
+          "fat_mes_anterior": 694.75,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 36.0,
+          "qt_mes_anterior": 24.0,
+          "qt_ano_anterior": 0.0
+        },
+        "SP-SPON-505": {
+          "fat_atual": 86.84,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 3.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0
+        },
+        "SP-SPON-507": {
+          "fat_atual": 347.38,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 12.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0
+        },
+        "SP-SPON-512": {
+          "fat_atual": 2084.28,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 72.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0
+        },
+        "SP-SPON-516": {
+          "fat_atual": 1024.6,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 35.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0
+        },
+        "SP-SPON-518": {
+          "fat_atual": 347.38,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 12.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0
+        }
+      }
+    },
+    {
+      "produto": "COQUETEL ALCOÓLICO DON CREAM DULCE DE LE",
+      "fornecedor": "DON LUIZ",
+      "estado": "MG",
+      "fat_atual": 24305.7,
+      "fat_mes_anterior": 0.0,
+      "fat_ano_anterior": 0.0,
+      "qt_atual": 393.0,
+      "qt_mes_anterior": 0.0,
+      "qt_ano_anterior": 0.0,
+      "queda_fat_mes_valor": -24305.7,
+      "queda_fat_ano_valor": -24305.7,
+      "queda_fat_mes_pct": null,
+      "queda_fat_ano_pct": null,
+      "queda_qt_mes_valor": -393.0,
+      "queda_qt_ano_valor": -393.0,
+      "queda_qt_mes_pct": null,
+      "queda_qt_ano_pct": null,
+      "por_vendedor": {
+        "MG-MGON-343": {
+          "fat_atual": 9750.0,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 150.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0
+        },
+        "MG-MGON-344": {
+          "fat_atual": 179.7,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 3.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0
+        },
+        "MG-MGON-360": {
+          "fat_atual": 24126.0,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 390.0,
           "qt_mes_anterior": 0.0,
           "qt_ano_anterior": 0.0
         }
@@ -441888,19 +440965,19 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "produto": "WHISKY JACK DANIELS APPLE 1L - DEST",
       "fornecedor": "BROWN",
       "estado": "SP",
-      "fat_atual": 48628.9,
+      "fat_atual": 48329.2,
       "fat_mes_anterior": 13886.1,
       "fat_ano_anterior": 0.0,
-      "qt_atual": 491.0,
+      "qt_atual": 488.0,
       "qt_mes_anterior": 139.0,
       "qt_ano_anterior": 0.0,
-      "queda_fat_mes_valor": -34742.8,
-      "queda_fat_ano_valor": -48628.9,
-      "queda_fat_mes_pct": 250.2,
+      "queda_fat_mes_valor": -34443.1,
+      "queda_fat_ano_valor": -48329.2,
+      "queda_fat_mes_pct": 248.0,
       "queda_fat_ano_pct": null,
-      "queda_qt_mes_valor": -352.0,
-      "queda_qt_ano_valor": -491.0,
-      "queda_qt_mes_pct": 253.2,
+      "queda_qt_mes_valor": -349.0,
+      "queda_qt_ano_valor": -488.0,
+      "queda_qt_mes_pct": 251.1,
       "queda_qt_ano_pct": null,
       "por_vendedor": {
         "SP-SPON-461": {
@@ -441957,14 +441034,6 @@ const RAIOX_OPORTUNIDADES_DATA = {
           "fat_ano_anterior": 0.0,
           "qt_atual": 0.0,
           "qt_mes_anterior": 6.0,
-          "qt_ano_anterior": 0.0
-        },
-        "SP-SPON-515": {
-          "fat_atual": 299.7,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 3.0,
-          "qt_mes_anterior": 0.0,
           "qt_ano_anterior": 0.0
         }
       }
@@ -442782,6 +441851,115 @@ const RAIOX_OPORTUNIDADES_DATA = {
       }
     },
     {
+      "produto": "GIN BEEFEATER PINK 700ML",
+      "fornecedor": "PERNOD",
+      "estado": "SP",
+      "fat_atual": 145113.9,
+      "fat_mes_anterior": 0.0,
+      "fat_ano_anterior": 0.0,
+      "qt_atual": 2541.0,
+      "qt_mes_anterior": 0.0,
+      "qt_ano_anterior": 0.0,
+      "queda_fat_mes_valor": -145113.9,
+      "queda_fat_ano_valor": -145113.9,
+      "queda_fat_mes_pct": null,
+      "queda_fat_ano_pct": null,
+      "queda_qt_mes_valor": -2541.0,
+      "queda_qt_ano_valor": -2541.0,
+      "queda_qt_mes_pct": null,
+      "queda_qt_ano_pct": null,
+      "por_vendedor": {
+        "SP-SPON-399": {
+          "fat_atual": 139470.0,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 2460.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0
+        },
+        "SP-SPON-425": {
+          "fat_atual": 629.1,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 9.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0
+        },
+        "SP-SPON-433": {
+          "fat_atual": 838.8,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 12.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0
+        },
+        "SP-SPON-463": {
+          "fat_atual": 419.4,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 6.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0
+        },
+        "SP-SPON-468": {
+          "fat_atual": 419.4,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 6.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0
+        },
+        "SP-SPON-474": {
+          "fat_atual": 139.8,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 2.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0
+        },
+        "SP-SPON-476": {
+          "fat_atual": 401.4,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 6.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0
+        },
+        "SP-SPON-490": {
+          "fat_atual": 209.7,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 3.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0
+        },
+        "SP-SPON-498": {
+          "fat_atual": 1258.2,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 18.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0
+        },
+        "SP-SPON-516": {
+          "fat_atual": 908.7,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 13.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0
+        },
+        "SP-SPON-518": {
+          "fat_atual": 419.4,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 6.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0
+        }
+      }
+    },
+    {
       "produto": "ESPUMANTE CHANDON RESERVE BRUT 750ML",
       "fornecedor": "MOET HENNESY",
       "estado": "SP",
@@ -442881,123 +442059,6 @@ const RAIOX_OPORTUNIDADES_DATA = {
           "qt_ano_anterior": 0.0
         },
         "SP-SPON-516": {
-          "fat_atual": 419.4,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 6.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0
-        }
-      }
-    },
-    {
-      "produto": "GIN BEEFEATER PINK 700ML",
-      "fornecedor": "PERNOD",
-      "estado": "SP",
-      "fat_atual": 147144.9,
-      "fat_mes_anterior": 0.0,
-      "fat_ano_anterior": 0.0,
-      "qt_atual": 2571.0,
-      "qt_mes_anterior": 0.0,
-      "qt_ano_anterior": 0.0,
-      "queda_fat_mes_valor": -147144.9,
-      "queda_fat_ano_valor": -147144.9,
-      "queda_fat_mes_pct": null,
-      "queda_fat_ano_pct": null,
-      "queda_qt_mes_valor": -2571.0,
-      "queda_qt_ano_valor": -2571.0,
-      "queda_qt_mes_pct": null,
-      "queda_qt_ano_pct": null,
-      "por_vendedor": {
-        "SP-SPON-399": {
-          "fat_atual": 139470.0,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 2460.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0
-        },
-        "SP-SPON-425": {
-          "fat_atual": 629.1,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 9.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0
-        },
-        "SP-SPON-433": {
-          "fat_atual": 838.8,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 12.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0
-        },
-        "SP-SPON-463": {
-          "fat_atual": 419.4,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 6.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0
-        },
-        "SP-SPON-468": {
-          "fat_atual": 419.4,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 6.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0
-        },
-        "SP-SPON-474": {
-          "fat_atual": 139.8,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 2.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0
-        },
-        "SP-SPON-476": {
-          "fat_atual": 401.4,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 6.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0
-        },
-        "SP-SPON-490": {
-          "fat_atual": 209.7,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 3.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0
-        },
-        "SP-SPON-498": {
-          "fat_atual": 1258.2,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 18.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0
-        },
-        "SP-SPON-515": {
-          "fat_atual": 2031.0,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 30.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0
-        },
-        "SP-SPON-516": {
-          "fat_atual": 908.7,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 13.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0
-        },
-        "SP-SPON-518": {
           "fat_atual": 419.4,
           "fat_mes_anterior": 0.0,
           "fat_ano_anterior": 0.0,
@@ -443690,19 +442751,19 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "produto": "WHISKY JACK DANIELS 1L",
       "fornecedor": "BROWN",
       "estado": "SP",
-      "fat_atual": 1002128.26,
+      "fat_atual": 1000929.46,
       "fat_mes_anterior": 305975.2,
       "fat_ano_anterior": 0.0,
-      "qt_atual": 10731.0,
+      "qt_atual": 10719.0,
       "qt_mes_anterior": 3206.0,
       "qt_ano_anterior": 0.0,
-      "queda_fat_mes_valor": -696153.06,
-      "queda_fat_ano_valor": -1002128.26,
-      "queda_fat_mes_pct": 227.5,
+      "queda_fat_mes_valor": -694954.26,
+      "queda_fat_ano_valor": -1000929.46,
+      "queda_fat_mes_pct": 227.1,
       "queda_fat_ano_pct": null,
-      "queda_qt_mes_valor": -7525.0,
-      "queda_qt_ano_valor": -10731.0,
-      "queda_qt_mes_pct": 234.7,
+      "queda_qt_mes_valor": -7513.0,
+      "queda_qt_ano_valor": -10719.0,
+      "queda_qt_mes_pct": 234.3,
       "queda_qt_ano_pct": null,
       "por_vendedor": {
         "SP-SPON-371": {
@@ -443966,14 +443027,6 @@ const RAIOX_OPORTUNIDADES_DATA = {
           "fat_mes_anterior": 0.0,
           "fat_ano_anterior": 0.0,
           "qt_atual": 8.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0
-        },
-        "SP-SPON-515": {
-          "fat_atual": 1198.8,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 12.0,
           "qt_mes_anterior": 0.0,
           "qt_ano_anterior": 0.0
         },
