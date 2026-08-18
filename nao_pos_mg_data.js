@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_mg.py
 
 const NAO_POS_MG_DATA = {
-  "atualizado_em": "18/08/2026 15:54",
+  "atualizado_em": "18/08/2026 16:37",
   "por_vendedor": {
     "BRUNA CASTRO MELLO": [
       {
@@ -930,6 +930,20 @@ const NAO_POS_MG_DATA = {
     ],
     "JOÃO SANTOS": [
       {
+        "codcli": "36789",
+        "cliente": "SOFT MIX ORGANIZACAO COMERCIAL LTDA",
+        "bairro": "PALMEIRAS",
+        "dtultcomp": "13/11/2025",
+        "produtos": [
+          {
+            "produto": "VODKA ABSOLUT VANILLA - 750 ML",
+            "fantasia": "PERNOD",
+            "qt": 60,
+            "valor": 3729.6
+          }
+        ]
+      },
+      {
         "codcli": "37137",
         "cliente": "OMNI CENTRO DE TREINAMENTO LTDA",
         "bairro": "SÃO PEDRO",
@@ -1626,26 +1640,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "33014",
-        "cliente": "ER COZINHA ARTESANAL LTDA",
-        "bairro": "LOURDES",
-        "dtultcomp": "18/06/2026",
-        "produtos": [
-          {
-            "produto": "YVY DESTILADO GIN AR LT 710ML",
-            "fantasia": "YVY",
-            "qt": 4,
-            "valor": 159.6
-          },
-          {
-            "produto": "YVY DESTILADO GIN MAR  LT 710ML",
-            "fantasia": "YVY",
-            "qt": 4,
-            "valor": 159.6
-          }
-        ]
-      },
-      {
         "codcli": "32871",
         "cliente": "ER COZINHA ARTESANAL LTDA",
         "bairro": "VILA DA SERRA",
@@ -1662,6 +1656,26 @@ const NAO_POS_MG_DATA = {
             "fantasia": "YVY",
             "qt": 6,
             "valor": 239.4
+          }
+        ]
+      },
+      {
+        "codcli": "33014",
+        "cliente": "ER COZINHA ARTESANAL LTDA",
+        "bairro": "LOURDES",
+        "dtultcomp": "18/06/2026",
+        "produtos": [
+          {
+            "produto": "YVY DESTILADO GIN AR LT 710ML",
+            "fantasia": "YVY",
+            "qt": 4,
+            "valor": 159.6
+          },
+          {
+            "produto": "YVY DESTILADO GIN MAR  LT 710ML",
+            "fantasia": "YVY",
+            "qt": 4,
+            "valor": 159.6
           }
         ]
       },
@@ -3823,26 +3837,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "35033",
-        "cliente": "SUPERMERCADO NOVO HORIZONTE BOA ESPERANCA LTDA",
-        "bairro": "ESPERANCA (JUSTINOPOLIS)",
-        "dtultcomp": "03/07/2026",
-        "produtos": [
-          {
-            "produto": "LICOR BALLENA COCO 750ML",
-            "fantasia": "BALLENA",
-            "qt": 3,
-            "valor": 347.7
-          },
-          {
-            "produto": "MARTINI BIANCO 750 ML",
-            "fantasia": "BACARDI",
-            "qt": 1,
-            "valor": 43.9
-          }
-        ]
-      },
-      {
         "codcli": "35497",
         "cliente": "SUPERMERCADO NOVO HORIZONTE PLUS LTDA",
         "bairro": "SANTA MARTINHA",
@@ -4033,32 +4027,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "PERNOD",
             "qt": 2,
             "valor": 199.8
-          }
-        ]
-      },
-      {
-        "codcli": "39205",
-        "cliente": "SUPERMERCADO NOVO HORIZONTE SAO JOAO DE DEUS LTDA",
-        "bairro": "SÃO JOÃO DE DEUS (JUSTINÓPOLIS)",
-        "dtultcomp": "13/07/2026",
-        "produtos": [
-          {
-            "produto": "MARTINI EXTRA DRY 750 ML",
-            "fantasia": "BACARDI",
-            "qt": 3,
-            "valor": 143.7
-          },
-          {
-            "produto": "MARTINI ROSSO 750 ML",
-            "fantasia": "BACARDI",
-            "qt": 3,
-            "valor": 149.7
-          },
-          {
-            "produto": "RUM MALIBU 750 ML",
-            "fantasia": "PERNOD",
-            "qt": 2,
-            "valor": 129.8
           }
         ]
       },
