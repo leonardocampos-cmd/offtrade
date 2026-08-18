@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_mg.py
 
 const NAO_POS_MG_DATA = {
-  "atualizado_em": "18/08/2026 16:37",
+  "atualizado_em": "18/08/2026 17:41",
   "por_vendedor": {
     "BRUNA CASTRO MELLO": [
       {
@@ -3120,34 +3120,6 @@ const NAO_POS_MG_DATA = {
     ],
     "LEANDRO OLIVEIRA": [
       {
-        "codcli": "34011",
-        "cliente": "CASA RENA S/A",
-        "bairro": "MORRO DO ENGENHO",
-        "dtultcomp": "29/05/2026",
-        "produtos": [
-          {
-            "produto": "WHISKY BUCHANANS 12 YEARS 1LT",
-            "fantasia": "DIAGEO",
-            "qt": 12,
-            "valor": 1798.8
-          }
-        ]
-      },
-      {
-        "codcli": "38378",
-        "cliente": "CASA RENA S/A",
-        "bairro": "GRACAS",
-        "dtultcomp": "29/05/2026",
-        "produtos": [
-          {
-            "produto": "WHISKY ROYAL SALUTE 700 ML",
-            "fantasia": "PERNOD",
-            "qt": 6,
-            "valor": 4194.0
-          }
-        ]
-      },
-      {
         "codcli": "31062",
         "cliente": "SUPERMERCADOS REX LTDA",
         "bairro": "SANTA EFIGENIA",
@@ -4501,9 +4473,9 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "30324",
+        "codcli": "39403",
         "cliente": "CASA DE FRIOS E MASSAS AO GOSTO LTDA",
-        "bairro": "BELVEDERE",
+        "bairro": "COMITECO",
         "dtultcomp": "29/05/2026",
         "produtos": [
           {
@@ -4521,9 +4493,9 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "39403",
+        "codcli": "30324",
         "cliente": "CASA DE FRIOS E MASSAS AO GOSTO LTDA",
-        "bairro": "COMITECO",
+        "bairro": "BELVEDERE",
         "dtultcomp": "29/05/2026",
         "produtos": [
           {
@@ -4713,32 +4685,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "30323",
-        "cliente": "CASA DE FRIOS E MASSAS AO GOSTO LTDA",
-        "bairro": "SANTO ANTONIO",
-        "dtultcomp": "23/06/2026",
-        "produtos": [
-          {
-            "produto": "4 PACK RED BULL MELANCIA",
-            "fantasia": "RED BULL",
-            "qt": 3,
-            "valor": 89.88
-          },
-          {
-            "produto": "4 PACK RED BULL SUMMER MELAO MARACUJA",
-            "fantasia": "RED BULL",
-            "qt": 3,
-            "valor": 89.88
-          },
-          {
-            "produto": "RED BULL SUGAR FREE  250 ML CX C/24",
-            "fantasia": "RED BULL",
-            "qt": 1,
-            "valor": 179.76
-          }
-        ]
-      },
-      {
         "codcli": "38776",
         "cliente": "CASA DE FRIOS E MASSAS AO GOSTO LTDA",
         "bairro": "ESTORIL",
@@ -4767,6 +4713,32 @@ const NAO_POS_MG_DATA = {
             "fantasia": "RED BULL",
             "qt": 1,
             "valor": 29.96
+          },
+          {
+            "produto": "RED BULL SUGAR FREE  250 ML CX C/24",
+            "fantasia": "RED BULL",
+            "qt": 1,
+            "valor": 179.76
+          }
+        ]
+      },
+      {
+        "codcli": "30323",
+        "cliente": "CASA DE FRIOS E MASSAS AO GOSTO LTDA",
+        "bairro": "SANTO ANTONIO",
+        "dtultcomp": "23/06/2026",
+        "produtos": [
+          {
+            "produto": "4 PACK RED BULL MELANCIA",
+            "fantasia": "RED BULL",
+            "qt": 3,
+            "valor": 89.88
+          },
+          {
+            "produto": "4 PACK RED BULL SUMMER MELAO MARACUJA",
+            "fantasia": "RED BULL",
+            "qt": 3,
+            "valor": 89.88
           },
           {
             "produto": "RED BULL SUGAR FREE  250 ML CX C/24",
@@ -5011,26 +4983,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "PERNOD",
             "qt": 1,
             "valor": 153.9
-          }
-        ]
-      },
-      {
-        "codcli": "31850",
-        "cliente": "LA MACELLERIA VILA DA SERRA ACOUGUE GOURMET E RESTAURANTE LT",
-        "bairro": "VILA DA SERRA",
-        "dtultcomp": "13/07/2026",
-        "produtos": [
-          {
-            "produto": "APERITIVO APEROL 750 ML",
-            "fantasia": "",
-            "qt": 3,
-            "valor": 128.7
-          },
-          {
-            "produto": "VODKA ABSOLUT - 1 LITRO",
-            "fantasia": "PERNOD",
-            "qt": 3,
-            "valor": 224.7
           }
         ]
       },
@@ -5415,44 +5367,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "RED BULL",
             "qt": 1,
             "valor": 179.76
-          }
-        ]
-      },
-      {
-        "codcli": "34139",
-        "cliente": "CHEF PALMEIRA & CIA LTDA",
-        "bairro": "SAVASSI",
-        "dtultcomp": "29/07/2026",
-        "produtos": [
-          {
-            "produto": "VINHO ARESTI EST SEL CAB SAUV 750ML",
-            "fantasia": "CASTAS",
-            "qt": 6,
-            "valor": 329.4
-          },
-          {
-            "produto": "VINHO ARESTI EST SEL SAUV BLANC 750ML",
-            "fantasia": "CASTAS",
-            "qt": 6,
-            "valor": 329.4
-          },
-          {
-            "produto": "VINHO ARESTI ESTATE S. CHARDONNAY 187ML",
-            "fantasia": "CASTAS",
-            "qt": 10,
-            "valor": 189.0
-          },
-          {
-            "produto": "VINHO ARESTI ESTATE S.CAB SAUV 187ML",
-            "fantasia": "CASTAS",
-            "qt": 10,
-            "valor": 189.0
-          },
-          {
-            "produto": "VINHO HORIZONTE BRANCO 750ML",
-            "fantasia": "CASTAS",
-            "qt": 12,
-            "valor": 478.8
           }
         ]
       },
