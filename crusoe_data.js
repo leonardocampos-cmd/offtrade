@@ -1,5 +1,5 @@
 const CRUSOE_DATA = {
-  "atualizado_em": "17/08/2026 17:55",
+  "atualizado_em": "18/08/2026 11:23",
   "periodo": {
     "ini": "01/07/2026",
     "fim": "31/08/2026"
@@ -516,14 +516,14 @@ const CRUSOE_DATA = {
         {
           "rca": 412,
           "vendedor": "Barbara Cabral",
-          "pedidos": 25,
+          "pedidos": 26,
           "positivacoes": 15,
           "novos_skus": 117,
-          "faturamento": 41582.05,
+          "faturamento": 44397.61,
           "pontos_positivacao": 75,
           "pontos_novos_skus": 468,
-          "pontos_pedidos_valor": 33,
-          "pontos_total": 576,
+          "pontos_pedidos_valor": 35,
+          "pontos_total": 578,
           "vendas": [
             {
               "numnota": "408264",
@@ -2235,6 +2235,56 @@ const CRUSOE_DATA = {
                   "pontuacoes": []
                 }
               ]
+            },
+            {
+              "numnota": "422275",
+              "data": "17/08/2026",
+              "cliente": "ADONAI ATACADISTA LTDA",
+              "valor_pedido": 2815.56,
+              "eventos": [
+                {
+                  "tipo": "pedido (R$1001-3000)",
+                  "pontos": 2
+                }
+              ],
+              "itens": [
+                {
+                  "produto": "RC SARDINHA EM OLEO 50X125G",
+                  "qt": 4.0,
+                  "valor": 968.0,
+                  "pontuacoes": []
+                },
+                {
+                  "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
+                  "qt": 4.0,
+                  "valor": 968.0,
+                  "pontuacoes": []
+                },
+                {
+                  "produto": "RC ATUM SOLIDO NATURAL 24X170G",
+                  "qt": 2.0,
+                  "valor": 405.12,
+                  "pontuacoes": []
+                },
+                {
+                  "produto": "RC ATUM SOLIDO OLEO 24X170G",
+                  "qt": 1.0,
+                  "valor": 202.76,
+                  "pontuacoes": []
+                },
+                {
+                  "produto": "RC ATUM SOLIDO NAT MY PROTEIN 12X142G",
+                  "qt": 1.0,
+                  "valor": 122.4,
+                  "pontuacoes": []
+                },
+                {
+                  "produto": "RC ATUM RALADO MOLHO DE TOMATE 24X140G",
+                  "qt": 1.0,
+                  "valor": 149.28,
+                  "pontuacoes": []
+                }
+              ]
             }
           ]
         },
@@ -3128,14 +3178,14 @@ const CRUSOE_DATA = {
         {
           "rca": 153,
           "vendedor": "Angelo Neves Suzart",
-          "pedidos": 9,
+          "pedidos": 10,
           "positivacoes": 2,
-          "novos_skus": 13,
-          "faturamento": 14038.15,
+          "novos_skus": 14,
+          "faturamento": 15295.15,
           "pontos_positivacao": 10,
-          "pontos_novos_skus": 52,
-          "pontos_pedidos_valor": 13,
-          "pontos_total": 75,
+          "pontos_novos_skus": 56,
+          "pontos_pedidos_valor": 15,
+          "pontos_total": 81,
           "vendas": [
             {
               "numnota": "408274",
@@ -3450,6 +3500,37 @@ const CRUSOE_DATA = {
                   ]
                 }
               ]
+            },
+            {
+              "numnota": "422284",
+              "data": "17/08/2026",
+              "cliente": "SUPERMERCADO SUPREMO DA VILA LTDA",
+              "valor_pedido": 1257.0,
+              "eventos": [
+                {
+                  "tipo": "pedido (R$1001-3000)",
+                  "pontos": 2
+                }
+              ],
+              "itens": [
+                {
+                  "produto": "RC SARDINHA EM OLEO 50X125G",
+                  "qt": 3.0,
+                  "valor": 628.5,
+                  "pontuacoes": []
+                },
+                {
+                  "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
+                  "qt": 3.0,
+                  "valor": 628.5,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 4
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -3716,10 +3797,10 @@ const CRUSOE_DATA = {
         {
           "rca": 431,
           "vendedor": "Adeilson Gonçalvez",
-          "clientes_gourmet": 4,
-          "faturamento": 6277.53,
-          "faturamento_gourmet": 687.3,
-          "pontos_total": 4,
+          "clientes_gourmet": 6,
+          "faturamento": 6992.73,
+          "faturamento_gourmet": 1044.9,
+          "pontos_total": 6,
           "vendas": [
             {
               "numnota": "410590",
@@ -3750,6 +3831,20 @@ const CRUSOE_DATA = {
               ]
             },
             {
+              "numnota": "422278",
+              "data": "17/08/2026",
+              "cliente": "DESCARTAVEIS CENTRAL DE SANTA CRUZ LTDA",
+              "produto": "RC PATE ATUM COM AZEITONAS 12X80G",
+              "qt": 1.0,
+              "valor": 178.8,
+              "pontuacoes": [
+                {
+                  "tipo": "cliente positivado (Linha Gourmet)",
+                  "pontos": 1
+                }
+              ]
+            },
+            {
               "numnota": "421959",
               "data": "17/08/2026",
               "cliente": "PADARIA PAO VIVO LTDA",
@@ -3764,9 +3859,23 @@ const CRUSOE_DATA = {
               ]
             },
             {
-              "numnota": "421956",
+              "numnota": "422351",
               "data": "17/08/2026",
               "cliente": "BAR E RESTAURANTE 3 SIMOES LIMITADA",
+              "produto": "RC PATE ATUM COM AZEITONAS 12X80G",
+              "qt": 1.0,
+              "valor": 178.8,
+              "pontuacoes": [
+                {
+                  "tipo": "cliente positivado (Linha Gourmet)",
+                  "pontos": 1
+                }
+              ]
+            },
+            {
+              "numnota": "422277",
+              "data": "17/08/2026",
+              "cliente": "LANCHONETE SEVES LTDA",
               "produto": "RC PATE ATUM COM AZEITONAS 12X80G",
               "qt": 1.0,
               "valor": 178.8,
@@ -3792,7 +3901,7 @@ const CRUSOE_DATA = {
           "rca": 379,
           "vendedor": "Jorge Maciel",
           "clientes_gourmet": 0,
-          "faturamento": 11930.98,
+          "faturamento": 13217.98,
           "faturamento_gourmet": 0.0,
           "pontos_total": 0,
           "vendas": []
