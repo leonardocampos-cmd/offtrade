@@ -1,6 +1,6 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "18/08/2026 15:55",
+  "atualizado_em": "18/08/2026 16:39",
   "total": 25401,
   "clientes": [
     {
@@ -15358,10 +15358,10 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "FERNANDO BERTIN - OFF TRADE",
       "codusur2": "",
       "nome_usur2": "",
-      "ultimo_rca": "",
-      "ultimo_rca_nome": "",
-      "ultimo_rca_ot": "",
-      "ultimo_rca_ot_nome": ""
+      "ultimo_rca": "489",
+      "ultimo_rca_nome": "FERNANDO BERTIN - OFF TRADE",
+      "ultimo_rca_ot": "489",
+      "ultimo_rca_ot_nome": "FERNANDO BERTIN - OFF TRADE"
     },
     {
       "codcli": "82686",
@@ -41578,8 +41578,8 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "ZEINALDO DE OLIVEIRA - OFF TRADE",
       "codusur2": "43",
       "nome_usur2": "SOUZA",
-      "ultimo_rca": "241",
-      "ultimo_rca_nome": "ZEINALDO DE OLIVEIRA - OFF TRADE",
+      "ultimo_rca": "",
+      "ultimo_rca_nome": "",
       "ultimo_rca_ot": "241",
       "ultimo_rca_ot_nome": "ZEINALDO DE OLIVEIRA - OFF TRADE"
     },
@@ -210538,8 +210538,8 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "",
       "nome_usur2": "",
-      "ultimo_rca": "190",
-      "ultimo_rca_nome": "ROMARIO DOS SANTOS",
+      "ultimo_rca": "",
+      "ultimo_rca_nome": "",
       "ultimo_rca_ot": "",
       "ultimo_rca_ot_nome": ""
     },
@@ -271800,6 +271800,26 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "ALLAN PAES - OFF TRADE",
       "ultimo_rca": "98",
       "ultimo_rca_nome": "CARLOS ARTHUR NETO",
+      "ultimo_rca_ot": "",
+      "ultimo_rca_ot_nome": ""
+    },
+    {
+      "codcli": "75299",
+      "razao": "JULIO A REPRESENTACOES COMERCIAIS E PADARIA LTDA",
+      "fantasia": "J.A REPRESENTACOES COMERCIAIS",
+      "bairro": "PONTE BRANCA",
+      "cidade": "PARATI",
+      "cnpj": "25.236.452/0001-06",
+      "estado": "RJ",
+      "ramo": "PADARIA",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "76",
+      "nome_usur1": "INATIVO5",
+      "codusur2": "",
+      "nome_usur2": "",
+      "ultimo_rca": "",
+      "ultimo_rca_nome": "",
       "ultimo_rca_ot": "",
       "ultimo_rca_ot_nome": ""
     },
@@ -451814,8 +451834,8 @@ const CLIENTES_RCA_DATA = {
       "ramo": "BAR",
       "key_account": false,
       "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO",
+      "codusur1": "327",
+      "nome_usur1": "JOÃO SANTOS - OFF TRADE",
       "codusur2": "",
       "nome_usur2": "",
       "ultimo_rca": "335",
@@ -487800,26 +487820,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "",
       "ultimo_rca": "",
       "ultimo_rca_nome": "",
-      "ultimo_rca_ot": "",
-      "ultimo_rca_ot_nome": ""
-    },
-    {
-      "codcli": "73962",
-      "razao": "VALMIR NOBRE DE SOUSA 07360390745",
-      "fantasia": "MERCADO DO BARAO",
-      "bairro": "CASCADURA",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "47.249.279/0001-05",
-      "estado": "RJ",
-      "ramo": "MERCADO",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "312",
-      "nome_usur2": "LAYZ WERNECK",
-      "ultimo_rca": "107",
-      "ultimo_rca_nome": "MARCUS VINICIUS",
       "ultimo_rca_ot": "",
       "ultimo_rca_ot_nome": ""
     },
