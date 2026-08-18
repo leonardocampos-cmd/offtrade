@@ -1,5 +1,5 @@
 const CRUSOE_DATA = {
-  "atualizado_em": "18/08/2026 17:09",
+  "atualizado_em": "18/08/2026 17:33",
   "periodo": {
     "ini": "01/07/2026",
     "fim": "31/08/2026"
@@ -2713,14 +2713,14 @@ const CRUSOE_DATA = {
         {
           "rca": 419,
           "vendedor": "Natali de Oliveira",
-          "pedidos": 17,
-          "positivacoes": 15,
-          "novos_skus": 17,
-          "faturamento": 2754.62,
-          "pontos_positivacao": 75,
-          "pontos_novos_skus": 68,
+          "pedidos": 18,
+          "positivacoes": 16,
+          "novos_skus": 18,
+          "faturamento": 2924.52,
+          "pontos_positivacao": 80,
+          "pontos_novos_skus": 72,
           "pontos_pedidos_valor": 0,
-          "pontos_total": 143,
+          "pontos_total": 152,
           "vendas": [
             {
               "numnota": "409254",
@@ -3128,6 +3128,31 @@ const CRUSOE_DATA = {
                   "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
                   "qt": 1.0,
                   "valor": 249.5,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 4
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "numnota": "422577",
+              "data": "18/08/2026",
+              "cliente": "47.093.098 MARCIA CRISTINA MENDONCA DO NASCIMENTO",
+              "valor_pedido": 169.9,
+              "eventos": [
+                {
+                  "tipo": "positivação (novo/reativação)",
+                  "pontos": 5
+                }
+              ],
+              "itens": [
+                {
+                  "produto": "RC ATUM SOLIDO NATURAL 24X170G",
+                  "qt": 1.0,
+                  "valor": 169.9,
                   "pontuacoes": [
                     {
                       "tipo": "novo SKU",
