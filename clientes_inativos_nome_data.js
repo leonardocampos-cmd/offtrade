@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_INATIVOS_NOME_DATA = {
-  "atualizado_em": "22/07/2026 14:57",
-  "total_universo": 14600,
+  "atualizado_em": "18/08/2026 17:05",
+  "total_universo": 14949,
   "clientes": [
     {
       "codcli": 78194,
@@ -264,54 +264,6 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       ]
     },
     {
-      "codcli": 2969,
-      "grupo_estado": "RJ/ES",
-      "chave": "RJ/ES-2969",
-      "nome": "QUIOSQUE K08 - QB 08A/B",
-      "razao_social": "K8 BAR E LANCHONETE LTDA",
-      "cidade": "RIO DE JANEIRO",
-      "estado_cliente": "RJ",
-      "ramo": "QUIOSQUE",
-      "ultima_compra": "13/04/2026",
-      "ultimo_vendedor": "LUCAS MATIAS",
-      "ultimo_vendedor_data": "13/04/2026",
-      "faturamento_historico_total": 703697.72,
-      "top_fornecedores_historico": [
-        {
-          "fantasia": "RED BULL",
-          "valor_historico": 339326.49
-        },
-        {
-          "fantasia": "HENNESSY",
-          "valor_historico": 140696.22
-        },
-        {
-          "fantasia": "DIAGEO",
-          "valor_historico": 77577.8
-        },
-        {
-          "fantasia": "BACARDI",
-          "valor_historico": 37564.4
-        },
-        {
-          "fantasia": "BROWN",
-          "valor_historico": 16718.7
-        },
-        {
-          "fantasia": "AURORA",
-          "valor_historico": 11414.7
-        },
-        {
-          "fantasia": "PERNOD",
-          "valor_historico": 11294.42
-        },
-        {
-          "fantasia": "CAMPARI",
-          "valor_historico": 7048.8
-        }
-      ]
-    },
-    {
       "codcli": 70953,
       "grupo_estado": "RJ/ES",
       "chave": "RJ/ES-70953",
@@ -436,90 +388,6 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       ]
     },
     {
-      "codcli": 70977,
-      "grupo_estado": "RJ/ES",
-      "chave": "RJ/ES-70977",
-      "nome": "EXQUINA 2",
-      "razao_social": "EXQUINA 2 GASTROBAR BAR E RESTAURANTE LTDA",
-      "cidade": "RIO DE JANEIRO",
-      "estado_cliente": "RJ",
-      "ramo": "BAR",
-      "ultima_compra": "17/03/2026",
-      "ultimo_vendedor": "LAIS POPPE VILLANOVA",
-      "ultimo_vendedor_data": "17/03/2026",
-      "faturamento_historico_total": 665219.86,
-      "top_fornecedores_historico": [
-        {
-          "fantasia": "RED BULL",
-          "valor_historico": 223642.82
-        },
-        {
-          "fantasia": "KAISER",
-          "valor_historico": 216263.71
-        },
-        {
-          "fantasia": "DIAGEO",
-          "valor_historico": 190463.17
-        },
-        {
-          "fantasia": "CATUABA",
-          "valor_historico": 6721.5
-        },
-        {
-          "fantasia": "TATUZINHO",
-          "valor_historico": 6401.0
-        },
-        {
-          "fantasia": "HOB",
-          "valor_historico": 5377.2
-        },
-        {
-          "fantasia": "BEAM SUNTORY",
-          "valor_historico": 2601.0
-        },
-        {
-          "fantasia": "BROWN",
-          "valor_historico": 2351.2
-        }
-      ]
-    },
-    {
-      "codcli": 57806,
-      "grupo_estado": "RJ/ES",
-      "chave": "RJ/ES-57806",
-      "nome": "DEPOSITO BARAO DA GAMBOA",
-      "razao_social": "GERALDO MARQUES CAMARA FILHO DEPOSITO DE BEBIDAS",
-      "cidade": "RIO DE JANEIRO",
-      "estado_cliente": "RJ",
-      "ramo": "MERCADO",
-      "ultima_compra": "26/03/2026",
-      "ultimo_vendedor": "VINICIUS AMARAL",
-      "ultimo_vendedor_data": "26/03/2026",
-      "faturamento_historico_total": 658715.04,
-      "top_fornecedores_historico": [
-        {
-          "fantasia": "KAISER",
-          "valor_historico": 616689.3
-        },
-        {
-          "fantasia": "RED BULL",
-          "valor_historico": 41478.44
-        },
-        {
-          "fantasia": "BROWN",
-          "valor_historico": 289.8
-        },
-        {
-          "fantasia": "CAPIM BRANCO",
-          "valor_historico": 146.6
-        },
-        {
-          "fantasia": "BALLENA",
-          "valor_historico": 110.9
-        }
-      ]
-    },
-    {
       "codcli": 50343,
       "grupo_estado": "RJ/ES",
       "chave": "RJ/ES-50343",
@@ -564,6 +432,54 @@ const CLIENTES_INATIVOS_NOME_DATA = {
         {
           "fantasia": "INTERFOOD",
           "valor_historico": 13757.81
+        }
+      ]
+    },
+    {
+      "codcli": 29357,
+      "grupo_estado": "MG",
+      "chave": "MG-29357",
+      "nome": "MEU BHAR MINEIRAO",
+      "razao_social": "MEU BHAR MINEIRAO - BAR E RESTAURANTE LTDA",
+      "cidade": "BELO HORIZONTE",
+      "estado_cliente": "MG",
+      "ramo": "RESTAURANTE",
+      "ultima_compra": "27/04/2026",
+      "ultimo_vendedor": "DALMO SOARES",
+      "ultimo_vendedor_data": "27/04/2026",
+      "faturamento_historico_total": 652765.18,
+      "top_fornecedores_historico": [
+        {
+          "fantasia": "RED BULL",
+          "valor_historico": 459380.29
+        },
+        {
+          "fantasia": "HEINEKEN",
+          "valor_historico": 137741.52
+        },
+        {
+          "fantasia": "PERNOD",
+          "valor_historico": 13112.95
+        },
+        {
+          "fantasia": "DIAGEO",
+          "valor_historico": 4719.8
+        },
+        {
+          "fantasia": "BROWN-FORMAN",
+          "valor_historico": 1259.0
+        },
+        {
+          "fantasia": "AURORA",
+          "valor_historico": 439.7
+        },
+        {
+          "fantasia": "COMARY",
+          "valor_historico": 279.5
+        },
+        {
+          "fantasia": "BACARDI",
+          "valor_historico": 234.5
         }
       ]
     },
@@ -632,6 +548,30 @@ const CLIENTES_INATIVOS_NOME_DATA = {
         {
           "fantasia": "AURORA",
           "valor_historico": 3710.1
+        }
+      ]
+    },
+    {
+      "codcli": 90698,
+      "grupo_estado": "RJ/ES",
+      "chave": "RJ/ES-90698",
+      "nome": "SOST COMERCIAL",
+      "razao_social": "SOST INDUSTRIA E COMERCIO DE ALIMENTOS LTDA",
+      "cidade": "LAURO DE FREITA",
+      "estado_cliente": "BA",
+      "ramo": "OUTROS",
+      "ultima_compra": "31/07/2026",
+      "ultimo_vendedor": "ALYSSON RODRIGUES",
+      "ultimo_vendedor_data": "31/07/2026",
+      "faturamento_historico_total": 649547.04,
+      "top_fornecedores_historico": [
+        {
+          "fantasia": "BACARDI",
+          "valor_historico": 611147.04
+        },
+        {
+          "fantasia": "BEAM SUNTORY",
+          "valor_historico": 38400.0
         }
       ]
     },
@@ -862,16 +802,16 @@ const CLIENTES_INATIVOS_NOME_DATA = {
           "valor_historico": 4622.91
         },
         {
+          "fantasia": "LVMH",
+          "valor_historico": 3933.6
+        },
+        {
           "fantasia": "BROWN-FORMAN",
           "valor_historico": 719.4
         },
         {
           "fantasia": "TATUZINHO",
           "valor_historico": 287.28
-        },
-        {
-          "fantasia": "BALLENA",
-          "valor_historico": 119.9
         }
       ]
     },
@@ -1188,26 +1128,6 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       ]
     },
     {
-      "codcli": 36460,
-      "grupo_estado": "MG",
-      "chave": "MG-36460",
-      "nome": "KIT PARANA",
-      "razao_social": "KIT PARANA COMERCIO DE BEBIDAS LTDA",
-      "cidade": "DIVINOPOLIS",
-      "estado_cliente": "MG",
-      "ramo": "COMERCIO ATACADISTA (GERAL)",
-      "ultima_compra": "13/10/2025",
-      "ultimo_vendedor": "FELIPE TOMAZ",
-      "ultimo_vendedor_data": "09/10/2025",
-      "faturamento_historico_total": 532085.76,
-      "top_fornecedores_historico": [
-        {
-          "fantasia": "RED BULL",
-          "valor_historico": 400965.12
-        }
-      ]
-    },
-    {
       "codcli": 72416,
       "grupo_estado": "RJ/ES",
       "chave": "RJ/ES-72416",
@@ -1376,6 +1296,34 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       ]
     },
     {
+      "codcli": 73070,
+      "grupo_estado": "RJ/ES",
+      "chave": "RJ/ES-73070",
+      "nome": "LANCHONETE E MINI-MERCADO DA PRACA",
+      "razao_social": "V A ROSSETTO COMERCIO DE ALIMENTOS",
+      "cidade": "RIO DE JANEIRO",
+      "estado_cliente": "RJ",
+      "ramo": "CAFETERIA",
+      "ultima_compra": "13/05/2026",
+      "ultimo_vendedor": "FERNANDO CESAR",
+      "ultimo_vendedor_data": "13/05/2026",
+      "faturamento_historico_total": 493136.64,
+      "top_fornecedores_historico": [
+        {
+          "fantasia": "RED BULL",
+          "valor_historico": 484077.84
+        },
+        {
+          "fantasia": "PERNOD",
+          "valor_historico": 7258.8
+        },
+        {
+          "fantasia": "DIAGEO",
+          "valor_historico": 1800.0
+        }
+      ]
+    },
+    {
       "codcli": 6448,
       "grupo_estado": "RJ/ES",
       "chave": "RJ/ES-6448",
@@ -1486,8 +1434,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
           "valor_historico": 5321.3
         },
         {
-          "fantasia": "BACARDI",
-          "valor_historico": 652.2
+          "fantasia": "LVMH",
+          "valor_historico": 1018.8
         }
       ]
     },
@@ -1660,6 +1608,42 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       ]
     },
     {
+      "codcli": 74435,
+      "grupo_estado": "RJ/ES",
+      "chave": "RJ/ES-74435",
+      "nome": "ATACAREJO APOTEOSE",
+      "razao_social": "APOTEOSE VAREJISTA LTDA",
+      "cidade": "RIO DE JANEIRO",
+      "estado_cliente": "RJ",
+      "ramo": "MERCADO",
+      "ultima_compra": "27/04/2026",
+      "ultimo_vendedor": "FERNANDO CESAR",
+      "ultimo_vendedor_data": "27/04/2026",
+      "faturamento_historico_total": 443936.91,
+      "top_fornecedores_historico": [
+        {
+          "fantasia": "KAISER",
+          "valor_historico": 240191.02
+        },
+        {
+          "fantasia": "RED BULL",
+          "valor_historico": 202773.29
+        },
+        {
+          "fantasia": "DIAGEO",
+          "valor_historico": 717.6
+        },
+        {
+          "fantasia": "CAPIM BRANCO",
+          "valor_historico": 159.6
+        },
+        {
+          "fantasia": "PARATUDO",
+          "valor_historico": 95.4
+        }
+      ]
+    },
+    {
       "codcli": 84349,
       "grupo_estado": "RJ/ES",
       "chave": "RJ/ES-84349",
@@ -1676,6 +1660,46 @@ const CLIENTES_INATIVOS_NOME_DATA = {
         {
           "fantasia": "CASTAS",
           "valor_historico": 443397.35
+        }
+      ]
+    },
+    {
+      "codcli": 37353,
+      "grupo_estado": "RJ/ES",
+      "chave": "RJ/ES-37353",
+      "nome": "DEPOSITO DO MARCAO",
+      "razao_social": "BAZAR FAMILIA CABUCU LTDA",
+      "cidade": "RIO DE JANEIRO",
+      "estado_cliente": "RJ",
+      "ramo": "MERCADO",
+      "ultima_compra": "19/12/2025",
+      "ultimo_vendedor": "MARCUS VINICIUS",
+      "ultimo_vendedor_data": "19/12/2025",
+      "faturamento_historico_total": 435076.04,
+      "top_fornecedores_historico": [
+        {
+          "fantasia": "KAISER",
+          "valor_historico": 355397.0
+        },
+        {
+          "fantasia": "TATUZINHO",
+          "valor_historico": 11470.5
+        },
+        {
+          "fantasia": "INTERFOOD",
+          "valor_historico": 9108.0
+        },
+        {
+          "fantasia": "RED BULL",
+          "valor_historico": 9050.44
+        },
+        {
+          "fantasia": "CASTAS",
+          "valor_historico": 179.4
+        },
+        {
+          "fantasia": "RECKITT",
+          "valor_historico": 86.7
         }
       ]
     },
@@ -1712,26 +1736,6 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       ]
     },
     {
-      "codcli": 90698,
-      "grupo_estado": "RJ/ES",
-      "chave": "RJ/ES-90698",
-      "nome": "SOST COMERCIAL",
-      "razao_social": "SOST INDUSTRIA E COMERCIO DE ALIMENTOS LTDA",
-      "cidade": "LAURO DE FREITA",
-      "estado_cliente": "BA",
-      "ramo": "OUTROS",
-      "ultima_compra": "30/12/2025",
-      "ultimo_vendedor": "BALCAO",
-      "ultimo_vendedor_data": "30/12/2025",
-      "faturamento_historico_total": 428997.84,
-      "top_fornecedores_historico": [
-        {
-          "fantasia": "BACARDI",
-          "valor_historico": 428997.84
-        }
-      ]
-    },
-    {
       "codcli": 82288,
       "grupo_estado": "RJ/ES",
       "chave": "RJ/ES-82288",
@@ -1748,6 +1752,30 @@ const CLIENTES_INATIVOS_NOME_DATA = {
         {
           "fantasia": "CASTAS",
           "valor_historico": 421468.68
+        }
+      ]
+    },
+    {
+      "codcli": 29505,
+      "grupo_estado": "MG",
+      "chave": "MG-29505",
+      "nome": "GIRA.ARTE",
+      "razao_social": "GIRA.ARTE & BAR LTDA",
+      "cidade": "BELO HORIZONTE",
+      "estado_cliente": "MG",
+      "ramo": "BAR",
+      "ultima_compra": "29/04/2026",
+      "ultimo_vendedor": "MATHEUS ROCHA",
+      "ultimo_vendedor_data": "29/04/2026",
+      "faturamento_historico_total": 416686.59,
+      "top_fornecedores_historico": [
+        {
+          "fantasia": "CASTAS",
+          "valor_historico": 297089.59
+        },
+        {
+          "fantasia": "YVY",
+          "valor_historico": 3032.4
         }
       ]
     },
@@ -1820,54 +1848,6 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       ]
     },
     {
-      "codcli": 437,
-      "grupo_estado": "RJ/ES",
-      "chave": "RJ/ES-437",
-      "nome": "CASA CAMOLESE",
-      "razao_social": "MIRANDA RESTAURANTE E EVENTOS LTDA",
-      "cidade": "RIO DE JANEIRO",
-      "estado_cliente": "RJ",
-      "ramo": "RESTAURANTE",
-      "ultima_compra": "08/04/2026",
-      "ultimo_vendedor": "CARLOS ARTHUR NETO",
-      "ultimo_vendedor_data": "08/04/2026",
-      "faturamento_historico_total": 409071.18,
-      "top_fornecedores_historico": [
-        {
-          "fantasia": "DIAGEO",
-          "valor_historico": 251179.74
-        },
-        {
-          "fantasia": "RED BULL",
-          "valor_historico": 87169.83
-        },
-        {
-          "fantasia": "KAISER",
-          "valor_historico": 15493.2
-        },
-        {
-          "fantasia": "AURORA",
-          "valor_historico": 9818.23
-        },
-        {
-          "fantasia": "PERNOD",
-          "valor_historico": 9126.31
-        },
-        {
-          "fantasia": "BEAM SUNTORY",
-          "valor_historico": 8224.88
-        },
-        {
-          "fantasia": "CAMPARI",
-          "valor_historico": 7183.5
-        },
-        {
-          "fantasia": "INTERFOOD",
-          "valor_historico": 3834.5
-        }
-      ]
-    },
-    {
       "codcli": 32897,
       "grupo_estado": "MG",
       "chave": "MG-32897",
@@ -1898,6 +1878,10 @@ const CLIENTES_INATIVOS_NOME_DATA = {
           "valor_historico": 7715.0
         },
         {
+          "fantasia": "LVMH",
+          "valor_historico": 6117.7
+        },
+        {
           "fantasia": "HEINEKEN",
           "valor_historico": 4240.8
         },
@@ -1908,10 +1892,6 @@ const CLIENTES_INATIVOS_NOME_DATA = {
         {
           "fantasia": "BROWN-FORMAN",
           "valor_historico": 3574.1
-        },
-        {
-          "fantasia": "COMARY",
-          "valor_historico": 899.5
         }
       ]
     },
@@ -2228,6 +2208,54 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       ]
     },
     {
+      "codcli": 74732,
+      "grupo_estado": "RJ/ES",
+      "chave": "RJ/ES-74732",
+      "nome": "PINEAPPLE",
+      "razao_social": "J' JOHNSON BAR E RESTAURANTE LTDA",
+      "cidade": "RIO DE JANEIRO",
+      "estado_cliente": "RJ",
+      "ramo": "RESTAURANTE",
+      "ultima_compra": "13/05/2026",
+      "ultimo_vendedor": "LUCAS MATIAS",
+      "ultimo_vendedor_data": "07/05/2026",
+      "faturamento_historico_total": 382910.08,
+      "top_fornecedores_historico": [
+        {
+          "fantasia": "CASTAS",
+          "valor_historico": 160452.32
+        },
+        {
+          "fantasia": "DIAGEO",
+          "valor_historico": 80114.5
+        },
+        {
+          "fantasia": "RED BULL",
+          "valor_historico": 45790.08
+        },
+        {
+          "fantasia": "BETTER DRINKS",
+          "valor_historico": 20624.64
+        },
+        {
+          "fantasia": "HENNESSY",
+          "valor_historico": 20091.2
+        },
+        {
+          "fantasia": "BEAM SUNTORY",
+          "valor_historico": 16813.42
+        },
+        {
+          "fantasia": "PERNOD",
+          "valor_historico": 11527.64
+        },
+        {
+          "fantasia": "BACARDI",
+          "valor_historico": 7655.9
+        }
+      ]
+    },
+    {
       "codcli": 21339,
       "grupo_estado": "RJ/ES",
       "chave": "RJ/ES-21339",
@@ -2336,6 +2364,54 @@ const CLIENTES_INATIVOS_NOME_DATA = {
         {
           "fantasia": "RED BULL",
           "valor_historico": 372496.32
+        }
+      ]
+    },
+    {
+      "codcli": 34379,
+      "grupo_estado": "MG",
+      "chave": "MG-34379",
+      "nome": "NOOK",
+      "razao_social": "NOOK EVENTOS LTDA",
+      "cidade": "JUIZ DE FORA",
+      "estado_cliente": "MG",
+      "ramo": "BAR",
+      "ultima_compra": "28/04/2026",
+      "ultimo_vendedor": "DALMO SOARES",
+      "ultimo_vendedor_data": "28/04/2026",
+      "faturamento_historico_total": 370563.49,
+      "top_fornecedores_historico": [
+        {
+          "fantasia": "RED BULL",
+          "valor_historico": 217277.6
+        },
+        {
+          "fantasia": "DIAGEO",
+          "valor_historico": 38443.2
+        },
+        {
+          "fantasia": "HEINEKEN",
+          "valor_historico": 32103.73
+        },
+        {
+          "fantasia": "PERNOD",
+          "valor_historico": 16636.36
+        },
+        {
+          "fantasia": "LVMH",
+          "valor_historico": 12227.08
+        },
+        {
+          "fantasia": "AURORA",
+          "valor_historico": 9364.1
+        },
+        {
+          "fantasia": "BALLENA",
+          "valor_historico": 3205.4
+        },
+        {
+          "fantasia": "NSG",
+          "valor_historico": 339.8
         }
       ]
     },
@@ -2568,30 +2644,6 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       ]
     },
     {
-      "codcli": 29583,
-      "grupo_estado": "MG",
-      "chave": "MG-29583",
-      "nome": "O MURINGUEIRO",
-      "razao_social": "MICHELLE POLIANE FONSECA - BAR O MURINGUEIRO",
-      "cidade": "BELO HORIZONTE",
-      "estado_cliente": "MG",
-      "ramo": "BAR",
-      "ultima_compra": "06/04/2026",
-      "ultimo_vendedor": "FELIPE TOMAZ",
-      "ultimo_vendedor_data": "06/04/2026",
-      "faturamento_historico_total": 354227.5,
-      "top_fornecedores_historico": [
-        {
-          "fantasia": "HEINEKEN",
-          "valor_historico": 354199.94
-        },
-        {
-          "fantasia": "RED BULL",
-          "valor_historico": 27.56
-        }
-      ]
-    },
-    {
       "codcli": 29556,
       "grupo_estado": "MG",
       "chave": "MG-29556",
@@ -2712,6 +2764,10 @@ const CLIENTES_INATIVOS_NOME_DATA = {
         {
           "fantasia": "BROWN-FORMAN",
           "valor_historico": 3880.9
+        },
+        {
+          "fantasia": "LVMH",
+          "valor_historico": 1486.2
         }
       ]
     },
@@ -2868,6 +2924,90 @@ const CLIENTES_INATIVOS_NOME_DATA = {
         {
           "fantasia": "RED BULL",
           "valor_historico": 337172.8
+        }
+      ]
+    },
+    {
+      "codcli": 82767,
+      "grupo_estado": "RJ/ES",
+      "chave": "RJ/ES-82767",
+      "nome": "MERCEARIA E MERCADO PRECO BOM 1",
+      "razao_social": "MERCEARIA E MERCADO PRECO BOM 1 LTDA",
+      "cidade": "RIO DE JANEIRO",
+      "estado_cliente": "RJ",
+      "ramo": "MERCADO",
+      "ultima_compra": "15/05/2026",
+      "ultimo_vendedor": "RQ",
+      "ultimo_vendedor_data": "28/04/2026",
+      "faturamento_historico_total": 336430.14,
+      "top_fornecedores_historico": [
+        {
+          "fantasia": "RED BULL",
+          "valor_historico": 279791.04
+        },
+        {
+          "fantasia": "TOP BIRRA",
+          "valor_historico": 31920.0
+        },
+        {
+          "fantasia": "KAISER",
+          "valor_historico": 12065.0
+        },
+        {
+          "fantasia": "TATUZINHO",
+          "valor_historico": 11755.1
+        },
+        {
+          "fantasia": "BACARDI",
+          "valor_historico": 899.0
+        }
+      ]
+    },
+    {
+      "codcli": 33771,
+      "grupo_estado": "MG",
+      "chave": "MG-33771",
+      "nome": "ARMAZEM POINT BEER",
+      "razao_social": "ARMAZEM POINT BEER LTDA",
+      "cidade": "BELO HORIZONTE",
+      "estado_cliente": "MG",
+      "ramo": "BAR",
+      "ultima_compra": "15/05/2026",
+      "ultimo_vendedor": "DALMO SOARES",
+      "ultimo_vendedor_data": "15/05/2026",
+      "faturamento_historico_total": 334839.28,
+      "top_fornecedores_historico": [
+        {
+          "fantasia": "RED BULL",
+          "valor_historico": 268455.56
+        },
+        {
+          "fantasia": "PERNOD",
+          "valor_historico": 20472.56
+        },
+        {
+          "fantasia": "LVMH",
+          "valor_historico": 13202.4
+        },
+        {
+          "fantasia": "BALLENA",
+          "valor_historico": 3479.4
+        },
+        {
+          "fantasia": "TATUZINHO",
+          "valor_historico": 840.24
+        },
+        {
+          "fantasia": "BACARDI",
+          "valor_historico": 799.5
+        },
+        {
+          "fantasia": "DON LUIZ",
+          "valor_historico": 524.3
+        },
+        {
+          "fantasia": "NSG",
+          "valor_historico": 50.0
         }
       ]
     },
@@ -3032,6 +3172,34 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       ]
     },
     {
+      "codcli": 50427,
+      "grupo_estado": "RJ/ES",
+      "chave": "RJ/ES-50427",
+      "nome": "CARLINHO BAR VEM QUE TE",
+      "razao_social": "RAFAEL DO NASCIMENTO CUZINE 14070793798",
+      "cidade": "RIO DE JANEIRO",
+      "estado_cliente": "RJ",
+      "ramo": "BAR",
+      "ultima_compra": "29/04/2026",
+      "ultimo_vendedor": "FERNANDO CESAR",
+      "ultimo_vendedor_data": "29/04/2026",
+      "faturamento_historico_total": 327871.55,
+      "top_fornecedores_historico": [
+        {
+          "fantasia": "RED BULL",
+          "valor_historico": 313298.75
+        },
+        {
+          "fantasia": "BACARDI",
+          "valor_historico": 13482.0
+        },
+        {
+          "fantasia": "51",
+          "valor_historico": 1090.8
+        }
+      ]
+    },
+    {
       "codcli": 71234,
       "grupo_estado": "RJ/ES",
       "chave": "RJ/ES-71234",
@@ -3180,6 +3348,10 @@ const CLIENTES_INATIVOS_NOME_DATA = {
         {
           "fantasia": "BALLENA",
           "valor_historico": 4734.3
+        },
+        {
+          "fantasia": "LVMH",
+          "valor_historico": 4086.4
         },
         {
           "fantasia": "DIAGEO",
@@ -3544,50 +3716,38 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       ]
     },
     {
-      "codcli": 84233,
+      "codcli": 68917,
       "grupo_estado": "RJ/ES",
-      "chave": "RJ/ES-84233",
-      "nome": "BOUTIQUE CARIOCA COMERCIO DE MERCADORIAS",
-      "razao_social": "BOUTIQUE CARIOCA COMERCIO DE MERCADORIAS LTDA",
+      "chave": "RJ/ES-68917",
+      "nome": "GOLDEN PIZZA",
+      "razao_social": "GOLDEN COMERCIO DE PIZZA LTDA",
       "cidade": "RIO DE JANEIRO",
       "estado_cliente": "RJ",
-      "ramo": "BAR",
-      "ultima_compra": "03/02/2026",
-      "ultimo_vendedor": "MICHELE ALCANTARA",
-      "ultimo_vendedor_data": "03/02/2026",
-      "faturamento_historico_total": 310332.17,
+      "ramo": "CAFETERIA",
+      "ultima_compra": "29/04/2026",
+      "ultimo_vendedor": "HXO",
+      "ultimo_vendedor_data": "29/04/2026",
+      "faturamento_historico_total": 312354.56,
       "top_fornecedores_historico": [
         {
+          "fantasia": "RED BULL",
+          "valor_historico": 304521.36
+        },
+        {
           "fantasia": "DIAGEO",
-          "valor_historico": 279920.63
-        },
-        {
-          "fantasia": "CASTAS",
-          "valor_historico": 7981.3
-        },
-        {
-          "fantasia": "PERNOD",
-          "valor_historico": 5293.2
-        },
-        {
-          "fantasia": "AURORA",
-          "valor_historico": 3669.6
+          "valor_historico": 3228.0
         },
         {
           "fantasia": "KAISER",
-          "valor_historico": 3597.6
+          "valor_historico": 2850.0
         },
         {
-          "fantasia": "CAMPARI",
-          "valor_historico": 1917.0
+          "fantasia": "BEAM SUNTORY",
+          "valor_historico": 916.2
         },
         {
-          "fantasia": "CASA PERINI",
-          "valor_historico": 1783.2
-        },
-        {
-          "fantasia": "RED BULL",
-          "valor_historico": 1736.64
+          "fantasia": "TATUZINHO",
+          "valor_historico": 839.0
         }
       ]
     },
@@ -3608,6 +3768,10 @@ const CLIENTES_INATIVOS_NOME_DATA = {
         {
           "fantasia": "RED BULL",
           "valor_historico": 280904.64
+        },
+        {
+          "fantasia": "LVMH",
+          "valor_historico": 18671.4
         },
         {
           "fantasia": "BALLENA",
@@ -3700,6 +3864,54 @@ const CLIENTES_INATIVOS_NOME_DATA = {
         {
           "fantasia": "RED BULL",
           "valor_historico": 304339.92
+        }
+      ]
+    },
+    {
+      "codcli": 4183,
+      "grupo_estado": "RJ/ES",
+      "chave": "RJ/ES-4183",
+      "nome": "PATO COM LARANJA",
+      "razao_social": "PIRAJA BAR E RESTAURANTE LTDA",
+      "cidade": "RIO DE JANEIRO",
+      "estado_cliente": "RJ",
+      "ramo": "RESTAURANTE",
+      "ultima_compra": "06/05/2026",
+      "ultimo_vendedor": "AUGUSTO SILVA",
+      "ultimo_vendedor_data": "06/05/2026",
+      "faturamento_historico_total": 302389.67,
+      "top_fornecedores_historico": [
+        {
+          "fantasia": "DIAGEO",
+          "valor_historico": 122999.8
+        },
+        {
+          "fantasia": "RED BULL",
+          "valor_historico": 56514.88
+        },
+        {
+          "fantasia": "CASTAS",
+          "valor_historico": 41368.69
+        },
+        {
+          "fantasia": "KAISER",
+          "valor_historico": 17786.66
+        },
+        {
+          "fantasia": "BETTER DRINKS",
+          "valor_historico": 16082.16
+        },
+        {
+          "fantasia": "AURORA",
+          "valor_historico": 4491.4
+        },
+        {
+          "fantasia": "CAMPARI",
+          "valor_historico": 4324.3
+        },
+        {
+          "fantasia": "HENNESSY",
+          "valor_historico": 4074.0
         }
       ]
     },
@@ -4040,6 +4252,98 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       ]
     },
     {
+      "codcli": 29389,
+      "grupo_estado": "MG",
+      "chave": "MG-29389",
+      "nome": "DARK STORE CASTELO",
+      "razao_social": "ZE SOLUCOES TECNOLOGICAS DE COMERCIO DE BEBIDAS LTDA",
+      "cidade": "BELO HORIZONTE",
+      "estado_cliente": "MG",
+      "ramo": "COMERCIO VAREJISTA (GERAL)",
+      "ultima_compra": "07/05/2026",
+      "ultimo_vendedor": "YAGO DOS ANJOS",
+      "ultimo_vendedor_data": "07/05/2026",
+      "faturamento_historico_total": 286367.59,
+      "top_fornecedores_historico": [
+        {
+          "fantasia": "HEINEKEN",
+          "valor_historico": 99088.12
+        },
+        {
+          "fantasia": "RED BULL",
+          "valor_historico": 57106.36
+        },
+        {
+          "fantasia": "DIAGEO",
+          "valor_historico": 41141.34
+        },
+        {
+          "fantasia": "PERNOD",
+          "valor_historico": 40652.52
+        },
+        {
+          "fantasia": "BROWN-FORMAN",
+          "valor_historico": 18928.2
+        },
+        {
+          "fantasia": "CASTAS",
+          "valor_historico": 4843.6
+        },
+        {
+          "fantasia": "DON LUIZ",
+          "valor_historico": 3685.0
+        },
+        {
+          "fantasia": "BALLENA",
+          "valor_historico": 2366.1
+        }
+      ]
+    },
+    {
+      "codcli": 71821,
+      "grupo_estado": "RJ/ES",
+      "chave": "RJ/ES-71821",
+      "nome": "BAR DO GAGO",
+      "razao_social": "EVANIR ALVES DE PAIVA 02808360746",
+      "cidade": "RIO DE JANEIRO",
+      "estado_cliente": "RJ",
+      "ramo": "RESTAURANTE",
+      "ultima_compra": "28/04/2026",
+      "ultimo_vendedor": "FERNANDO CESAR",
+      "ultimo_vendedor_data": "28/04/2026",
+      "faturamento_historico_total": 285956.36,
+      "top_fornecedores_historico": [
+        {
+          "fantasia": "RED BULL",
+          "valor_historico": 249365.48
+        },
+        {
+          "fantasia": "KAISER",
+          "valor_historico": 27088.28
+        },
+        {
+          "fantasia": "ALTACOPPO",
+          "valor_historico": 1390.8
+        },
+        {
+          "fantasia": "COMARY",
+          "valor_historico": 1020.1
+        },
+        {
+          "fantasia": "PERNOD",
+          "valor_historico": 841.5
+        },
+        {
+          "fantasia": "DIAGEO",
+          "valor_historico": 358.8
+        },
+        {
+          "fantasia": "CAMPARI",
+          "valor_historico": 141.0
+        }
+      ]
+    },
+    {
       "codcli": 73632,
       "grupo_estado": "RJ/ES",
       "chave": "RJ/ES-73632",
@@ -4340,6 +4644,30 @@ const CLIENTES_INATIVOS_NOME_DATA = {
         {
           "fantasia": "RED BULL",
           "valor_historico": 272977.2
+        }
+      ]
+    },
+    {
+      "codcli": 29858,
+      "grupo_estado": "MG",
+      "chave": "MG-29858",
+      "nome": "A2 BISTRO",
+      "razao_social": "ALEXANDRE SANTIAGO AZEVEDO ANDRADE - CPF: 107.978.496-96",
+      "cidade": "BELO HORIZONTE",
+      "estado_cliente": "MG",
+      "ramo": "BAR",
+      "ultima_compra": "27/04/2026",
+      "ultimo_vendedor": "FELIPE TOMAZ",
+      "ultimo_vendedor_data": "11/02/2026",
+      "faturamento_historico_total": 271876.25,
+      "top_fornecedores_historico": [
+        {
+          "fantasia": "CASTAS",
+          "valor_historico": 254001.35
+        },
+        {
+          "fantasia": "LVMH",
+          "valor_historico": 8173.1
         }
       ]
     },
@@ -5076,6 +5404,26 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       ]
     },
     {
+      "codcli": 38790,
+      "grupo_estado": "MG",
+      "chave": "MG-38790",
+      "nome": "WISSO ENTERTAINMENT",
+      "razao_social": "WISSO ENTERTAINMENT LTDA",
+      "cidade": "UBERLANDIA",
+      "estado_cliente": "MG",
+      "ramo": "OUTROS",
+      "ultima_compra": "14/05/2026",
+      "ultimo_vendedor": "FABIO DUARTE",
+      "ultimo_vendedor_data": "14/05/2026",
+      "faturamento_historico_total": 256936.32,
+      "top_fornecedores_historico": [
+        {
+          "fantasia": "RED BULL",
+          "valor_historico": 253077.12
+        }
+      ]
+    },
+    {
       "codcli": 70037,
       "grupo_estado": "RJ/ES",
       "chave": "RJ/ES-70037",
@@ -5112,6 +5460,54 @@ const CLIENTES_INATIVOS_NOME_DATA = {
         {
           "fantasia": "PERNOD",
           "valor_historico": 32.9
+        }
+      ]
+    },
+    {
+      "codcli": 78089,
+      "grupo_estado": "RJ/ES",
+      "chave": "RJ/ES-78089",
+      "nome": "UNICO GASTROBAR",
+      "razao_social": "UNICO GASTROBAR LTDA",
+      "cidade": "RIO DE JANEIRO",
+      "estado_cliente": "RJ",
+      "ramo": "RESTAURANTE",
+      "ultima_compra": "28/04/2026",
+      "ultimo_vendedor": "INGRID ARAUJO",
+      "ultimo_vendedor_data": "28/04/2026",
+      "faturamento_historico_total": 255737.64,
+      "top_fornecedores_historico": [
+        {
+          "fantasia": "DIAGEO",
+          "valor_historico": 151705.48
+        },
+        {
+          "fantasia": "RED BULL",
+          "valor_historico": 45798.04
+        },
+        {
+          "fantasia": "PERNOD",
+          "valor_historico": 21782.92
+        },
+        {
+          "fantasia": "CASA PERINI",
+          "valor_historico": 10794.0
+        },
+        {
+          "fantasia": "1883",
+          "valor_historico": 5239.5
+        },
+        {
+          "fantasia": "BACARDI",
+          "valor_historico": 4084.7
+        },
+        {
+          "fantasia": "TATUZINHO",
+          "valor_historico": 3382.3
+        },
+        {
+          "fantasia": "CASTAS",
+          "valor_historico": 3325.0
         }
       ]
     },
@@ -5200,6 +5596,54 @@ const CLIENTES_INATIVOS_NOME_DATA = {
         {
           "fantasia": "51",
           "valor_historico": 1639.8
+        }
+      ]
+    },
+    {
+      "codcli": 32140,
+      "grupo_estado": "MG",
+      "chave": "MG-32140",
+      "nome": "CIRCUITO SAVASSI",
+      "razao_social": "CIRCUITO SAVASSI BAR E RESTAURANTE LTDA",
+      "cidade": "BELO HORIZONTE",
+      "estado_cliente": "MG",
+      "ramo": "BAR",
+      "ultima_compra": "15/05/2026",
+      "ultimo_vendedor": "DALMO SOARES",
+      "ultimo_vendedor_data": "15/05/2026",
+      "faturamento_historico_total": 252623.84,
+      "top_fornecedores_historico": [
+        {
+          "fantasia": "RED BULL",
+          "valor_historico": 67628.12
+        },
+        {
+          "fantasia": "PERNOD",
+          "valor_historico": 61814.64
+        },
+        {
+          "fantasia": "BROWN-FORMAN",
+          "valor_historico": 30434.7
+        },
+        {
+          "fantasia": "AURORA",
+          "valor_historico": 27982.0
+        },
+        {
+          "fantasia": "HEINEKEN",
+          "valor_historico": 23294.48
+        },
+        {
+          "fantasia": "DIAGEO",
+          "valor_historico": 18117.7
+        },
+        {
+          "fantasia": "CASTAS",
+          "valor_historico": 5120.6
+        },
+        {
+          "fantasia": "NSG",
+          "valor_historico": 2534.3
         }
       ]
     },
@@ -5402,12 +5846,12 @@ const CLIENTES_INATIVOS_NOME_DATA = {
           "valor_historico": 10503.8
         },
         {
-          "fantasia": "BACARDI",
-          "valor_historico": 7072.8
+          "fantasia": "LVMH",
+          "valor_historico": 7335.6
         },
         {
-          "fantasia": "AURORA",
-          "valor_historico": 3423.3
+          "fantasia": "BACARDI",
+          "valor_historico": 7072.8
         }
       ]
     },
@@ -5580,6 +6024,10 @@ const CLIENTES_INATIVOS_NOME_DATA = {
         {
           "fantasia": "BACARDI",
           "valor_historico": 297.5
+        },
+        {
+          "fantasia": "LVMH",
+          "valor_historico": 159.8
         }
       ]
     },
@@ -5984,6 +6432,26 @@ const CLIENTES_INATIVOS_NOME_DATA = {
         {
           "fantasia": "AURORA",
           "valor_historico": 1367.4
+        }
+      ]
+    },
+    {
+      "codcli": 94257,
+      "grupo_estado": "RJ/ES",
+      "chave": "RJ/ES-94257",
+      "nome": "AVENIDA BRASIL BEBIDAS",
+      "razao_social": "AVENIDA BRASIL BEBIDAS LTDA",
+      "cidade": "RIO DE JANEIRO",
+      "estado_cliente": "RJ",
+      "ramo": "MERCADO",
+      "ultima_compra": "07/05/2026",
+      "ultimo_vendedor": "HXO",
+      "ultimo_vendedor_data": "07/05/2026",
+      "faturamento_historico_total": 237087.36,
+      "top_fornecedores_historico": [
+        {
+          "fantasia": "RED BULL",
+          "valor_historico": 237087.36
         }
       ]
     },
@@ -6738,6 +7206,10 @@ const CLIENTES_INATIVOS_NOME_DATA = {
           "valor_historico": 8131.2
         },
         {
+          "fantasia": "LVMH",
+          "valor_historico": 6519.6
+        },
+        {
           "fantasia": "DIAGEO",
           "valor_historico": 1305.08
         },
@@ -6752,10 +7224,6 @@ const CLIENTES_INATIVOS_NOME_DATA = {
         {
           "fantasia": "BACARDI",
           "valor_historico": 526.8
-        },
-        {
-          "fantasia": "BETTER DRINKS",
-          "valor_historico": 389.4
         }
       ]
     },
@@ -6910,16 +7378,16 @@ const CLIENTES_INATIVOS_NOME_DATA = {
           "valor_historico": 5613.12
         },
         {
+          "fantasia": "LVMH",
+          "valor_historico": 3540.6
+        },
+        {
           "fantasia": "DIAGEO",
           "valor_historico": 1779.9
         },
         {
           "fantasia": "PERNOD",
           "valor_historico": 1288.7
-        },
-        {
-          "fantasia": "COMARY",
-          "valor_historico": 783.3
         }
       ]
     },
@@ -6956,54 +7424,6 @@ const CLIENTES_INATIVOS_NOME_DATA = {
         {
           "fantasia": "CASA PERINI",
           "valor_historico": 442.8
-        }
-      ]
-    },
-    {
-      "codcli": 89197,
-      "grupo_estado": "RJ/ES",
-      "chave": "RJ/ES-89197",
-      "nome": "SUPERPAO - PAISSANDU",
-      "razao_social": "PAO COM LETRAS PANIFICADORA LTDA.",
-      "cidade": "NOVA FRIBURGO",
-      "estado_cliente": "RJ",
-      "ramo": "PADARIA",
-      "ultima_compra": "15/04/2026",
-      "ultimo_vendedor": "DANIELLE MOURA",
-      "ultimo_vendedor_data": "15/04/2026",
-      "faturamento_historico_total": 219317.85,
-      "top_fornecedores_historico": [
-        {
-          "fantasia": "CASA PERINI",
-          "valor_historico": 97193.3
-        },
-        {
-          "fantasia": "HENNESSY",
-          "valor_historico": 58635.1
-        },
-        {
-          "fantasia": "PERNOD",
-          "valor_historico": 31921.67
-        },
-        {
-          "fantasia": "CASTAS",
-          "valor_historico": 21989.7
-        },
-        {
-          "fantasia": "INTERFOOD",
-          "valor_historico": 3458.2
-        },
-        {
-          "fantasia": "BEAM SUNTORY",
-          "valor_historico": 2508.3
-        },
-        {
-          "fantasia": "DIAGEO",
-          "valor_historico": 1201.88
-        },
-        {
-          "fantasia": "AURORA",
-          "valor_historico": 1020.2
         }
       ]
     },
@@ -7514,6 +7934,10 @@ const CLIENTES_INATIVOS_NOME_DATA = {
           "valor_historico": 5611.28
         },
         {
+          "fantasia": "LVMH",
+          "valor_historico": 1078.8
+        },
+        {
           "fantasia": "AURORA",
           "valor_historico": 279.8
         },
@@ -7570,8 +7994,8 @@ const CLIENTES_INATIVOS_NOME_DATA = {
           "valor_historico": 1904.3
         },
         {
-          "fantasia": "TATUZINHO",
-          "valor_historico": 93.75
+          "fantasia": "LVMH",
+          "valor_historico": 254.7
         }
       ]
     },
@@ -7600,6 +8024,10 @@ const CLIENTES_INATIVOS_NOME_DATA = {
         {
           "fantasia": "BROWN-FORMAN",
           "valor_historico": 1598.0
+        },
+        {
+          "fantasia": "LVMH",
+          "valor_historico": 899.0
         },
         {
           "fantasia": "CASTAS",
@@ -7824,6 +8252,54 @@ const CLIENTES_INATIVOS_NOME_DATA = {
         {
           "fantasia": "BACARDI-MARTINI",
           "valor_historico": 404.1
+        }
+      ]
+    },
+    {
+      "codcli": 67008,
+      "grupo_estado": "RJ/ES",
+      "chave": "RJ/ES-67008",
+      "nome": "ESTACAO DAS BEBIDAS",
+      "razao_social": "JUSSIARA FERREIRA NOBRE 06913964340",
+      "cidade": "RIO DE JANEIRO",
+      "estado_cliente": "RJ",
+      "ramo": "DELIVERY",
+      "ultima_compra": "28/04/2026",
+      "ultimo_vendedor": "MARCUS VINICIUS",
+      "ultimo_vendedor_data": "28/04/2026",
+      "faturamento_historico_total": 203249.0,
+      "top_fornecedores_historico": [
+        {
+          "fantasia": "RED BULL",
+          "valor_historico": 152011.2
+        },
+        {
+          "fantasia": "KAISER",
+          "valor_historico": 34934.0
+        },
+        {
+          "fantasia": "PERNOD",
+          "valor_historico": 6350.7
+        },
+        {
+          "fantasia": "DIAGEO",
+          "valor_historico": 1924.3
+        },
+        {
+          "fantasia": "BROWN",
+          "valor_historico": 1438.8
+        },
+        {
+          "fantasia": "AURORA",
+          "valor_historico": 1354.8
+        },
+        {
+          "fantasia": "TOP BIRRA",
+          "valor_historico": 1198.8
+        },
+        {
+          "fantasia": "BACARDI",
+          "valor_historico": 948.0
         }
       ]
     },
@@ -8203,6 +8679,10 @@ const CLIENTES_INATIVOS_NOME_DATA = {
         {
           "fantasia": "AURORA",
           "valor_historico": 3940.1
+        },
+        {
+          "fantasia": "LVMH",
+          "valor_historico": 2819.4
         },
         {
           "fantasia": "BROWN-FORMAN",
@@ -8587,6 +9067,26 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       ]
     },
     {
+      "codcli": 90354,
+      "grupo_estado": "RJ/ES",
+      "chave": "RJ/ES-90354",
+      "nome": "31.334.817 JORGE MICHEL DE ALMEIDA MENDE",
+      "razao_social": "31.334.817 JORGE MICHEL DE ALMEIDA MENDES",
+      "cidade": "MARICA",
+      "estado_cliente": "RJ",
+      "ramo": "ESCRITORIO",
+      "ultima_compra": "05/05/2026",
+      "ultimo_vendedor": "HXO",
+      "ultimo_vendedor_data": "05/05/2026",
+      "faturamento_historico_total": 191491.92,
+      "top_fornecedores_historico": [
+        {
+          "fantasia": "RED BULL",
+          "valor_historico": 191491.92
+        }
+      ]
+    },
+    {
       "codcli": 50498,
       "grupo_estado": "RJ/ES",
       "chave": "RJ/ES-50498",
@@ -8723,86 +9223,74 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       ]
     },
     {
-      "codcli": 73131,
+      "codcli": 9476,
       "grupo_estado": "RJ/ES",
-      "chave": "RJ/ES-73131",
-      "nome": "ESPAÇO ZERO 1",
-      "razao_social": "HELEVAN SOLUCOES DE FESTAS E EVENTOS LTDA",
-      "cidade": "RIO DE JANEIRO",
+      "chave": "RJ/ES-9476",
+      "nome": "NORDICOS BAR",
+      "razao_social": "NORDICOS BAR LTDA",
+      "cidade": "NILOPOLIS",
       "estado_cliente": "RJ",
-      "ramo": "CASA NOTURNA",
-      "ultima_compra": "08/10/2024",
-      "ultimo_vendedor": "RQ",
-      "ultimo_vendedor_data": "08/10/2024",
-      "faturamento_historico_total": 186138.3,
+      "ramo": "BAR",
+      "ultima_compra": "13/05/2026",
+      "ultimo_vendedor": "CARLOS ARTHUR NETO",
+      "ultimo_vendedor_data": "13/05/2026",
+      "faturamento_historico_total": 187219.37,
       "top_fornecedores_historico": [
         {
           "fantasia": "RED BULL",
-          "valor_historico": 169923.6
+          "valor_historico": 169571.53
         },
         {
-          "fantasia": "DIAGEO",
-          "valor_historico": 14516.0
+          "fantasia": "SUPERMIX",
+          "valor_historico": 4208.4
         },
         {
-          "fantasia": "AURORA",
-          "valor_historico": 815.4
-        },
-        {
-          "fantasia": "TATUZINHO",
-          "valor_historico": 464.5
+          "fantasia": "BROWN",
+          "valor_historico": 3216.3
         },
         {
           "fantasia": "CASA PERINI",
-          "valor_historico": 418.8
+          "valor_historico": 1167.0
+        },
+        {
+          "fantasia": "DIAGEO",
+          "valor_historico": 1141.5
+        },
+        {
+          "fantasia": "CATUABA",
+          "valor_historico": 340.2
+        },
+        {
+          "fantasia": "BEAM SUNTORY",
+          "valor_historico": 206.48
+        },
+        {
+          "fantasia": "CAPIM BRANCO",
+          "valor_historico": 79.8
         }
       ]
     },
     {
-      "codcli": 50434,
+      "codcli": 74725,
       "grupo_estado": "RJ/ES",
-      "chave": "RJ/ES-50434",
-      "nome": "ENCONTRO FELIZ",
-      "razao_social": "FLAVIA BRAGA DA SILVA BAR",
+      "chave": "RJ/ES-74725",
+      "nome": "JOSE PEREIRA DA COSTA",
+      "razao_social": "52.609.078 JOSE PEREIRA DA COSTA",
       "cidade": "RIO DE JANEIRO",
       "estado_cliente": "RJ",
       "ramo": "BAR",
-      "ultima_compra": "16/04/2026",
-      "ultimo_vendedor": "MARCUS VINICIUS",
-      "ultimo_vendedor_data": "16/04/2026",
-      "faturamento_historico_total": 184714.08,
+      "ultima_compra": "04/05/2026",
+      "ultimo_vendedor": "JOHNATTAN MATHEUS",
+      "ultimo_vendedor_data": "04/05/2026",
+      "faturamento_historico_total": 185470.08,
       "top_fornecedores_historico": [
         {
-          "fantasia": "KAISER",
-          "valor_historico": 74536.3
-        },
-        {
           "fantasia": "RED BULL",
-          "valor_historico": 35070.76
+          "valor_historico": 123547.68
         },
         {
-          "fantasia": "COMARY",
-          "valor_historico": 9250.2
-        },
-        {
-          "fantasia": "TATUZINHO",
-          "valor_historico": 5118.1
-        },
-        {
-          "fantasia": "BROWN",
-          "valor_historico": 4522.2
-        },
-        {
-          "fantasia": "DIAGEO",
-          "valor_historico": 4297.2
-        },
-        {
-          "fantasia": "51",
-          "valor_historico": 3068.1
-        },
-        {
-          "fantasia": "CATUABA",
-          "valor_historico": 2701.8
+          "fantasia": "KAISER",
+          "valor_historico": 61922.4
         }
       ]
     },
@@ -8901,6 +9389,10 @@ const CLIENTES_INATIVOS_NOME_DATA = {
           "valor_historico": 173372.72
         },
         {
+          "fantasia": "LVMH",
+          "valor_historico": 3104.52
+        },
+        {
           "fantasia": "HEINEKEN",
           "valor_historico": 1504.56
         },
@@ -8923,10 +9415,54 @@ const CLIENTES_INATIVOS_NOME_DATA = {
         {
           "fantasia": "RED BULL",
           "valor_historico": 290.4
+        }
+      ]
+    },
+    {
+      "codcli": 62927,
+      "grupo_estado": "RJ/ES",
+      "chave": "RJ/ES-62927",
+      "nome": "CASABLANCA",
+      "razao_social": "BAR E RESTAURANTE MUNICH EIRELI",
+      "cidade": "RIO DE JANEIRO",
+      "estado_cliente": "RJ",
+      "ramo": "BAR",
+      "ultima_compra": "05/05/2026",
+      "ultimo_vendedor": "VINICIUS AMARAL",
+      "ultimo_vendedor_data": "05/05/2026",
+      "faturamento_historico_total": 182754.72,
+      "top_fornecedores_historico": [
+        {
+          "fantasia": "RED BULL",
+          "valor_historico": 97031.17
+        },
+        {
+          "fantasia": "KAISER",
+          "valor_historico": 26073.72
+        },
+        {
+          "fantasia": "BROWN",
+          "valor_historico": 12018.0
+        },
+        {
+          "fantasia": "DIAGEO",
+          "valor_historico": 10604.4
+        },
+        {
+          "fantasia": "HENNESSY",
+          "valor_historico": 9998.4
         },
         {
           "fantasia": "PERNOD",
-          "valor_historico": 157.8
+          "valor_historico": 9990.44
+        },
+        {
+          "fantasia": "CASA PERINI",
+          "valor_historico": 8079.6
+        },
+        {
+          "fantasia": "AURORA",
+          "valor_historico": 1887.6
         }
       ]
     },
@@ -8995,6 +9531,38 @@ const CLIENTES_INATIVOS_NOME_DATA = {
         {
           "fantasia": "RED BULL",
           "valor_historico": 182575.2
+        }
+      ]
+    },
+    {
+      "codcli": 93704,
+      "grupo_estado": "RJ/ES",
+      "chave": "RJ/ES-93704",
+      "nome": "CRETA COMERCIO DE ALIMENTOS E BEBIDAS",
+      "razao_social": "CRETA COMERCIO DE ALIMENTOS E BEBIDAS LTDA",
+      "cidade": "VILA VELHA",
+      "estado_cliente": "ES",
+      "ramo": "BENEFICIO FISCAL - ES",
+      "ultima_compra": "22/04/2026",
+      "ultimo_vendedor": "BALCAO",
+      "ultimo_vendedor_data": "22/04/2026",
+      "faturamento_historico_total": 181469.76,
+      "top_fornecedores_historico": [
+        {
+          "fantasia": "RED BULL",
+          "valor_historico": 96629.76
+        },
+        {
+          "fantasia": "BALLENA",
+          "valor_historico": 48900.0
+        },
+        {
+          "fantasia": "BACARDI",
+          "valor_historico": 23376.0
+        },
+        {
+          "fantasia": "HENNESSY",
+          "valor_historico": 12564.0
         }
       ]
     },
@@ -9075,6 +9643,10 @@ const CLIENTES_INATIVOS_NOME_DATA = {
         {
           "fantasia": "AURORA",
           "valor_historico": 1438.8
+        },
+        {
+          "fantasia": "LVMH",
+          "valor_historico": 319.6
         }
       ]
     },
@@ -9211,6 +9783,54 @@ const CLIENTES_INATIVOS_NOME_DATA = {
         {
           "fantasia": "RED BULL",
           "valor_historico": 177201.84
+        }
+      ]
+    },
+    {
+      "codcli": 4208,
+      "grupo_estado": "RJ/ES",
+      "chave": "RJ/ES-4208",
+      "nome": "GREEN TEA",
+      "razao_social": "GREEN TEA COMERCIO EIRELI",
+      "cidade": "RIO DE JANEIRO",
+      "estado_cliente": "RJ",
+      "ramo": "RESTAURANTE",
+      "ultima_compra": "15/05/2026",
+      "ultimo_vendedor": "CARLOS ARTHUR NETO",
+      "ultimo_vendedor_data": "15/05/2026",
+      "faturamento_historico_total": 176985.12,
+      "top_fornecedores_historico": [
+        {
+          "fantasia": "KAISER",
+          "valor_historico": 74724.6
+        },
+        {
+          "fantasia": "CASTAS",
+          "valor_historico": 48392.01
+        },
+        {
+          "fantasia": "CAPIM BRANCO",
+          "valor_historico": 22639.8
+        },
+        {
+          "fantasia": "DIAGEO",
+          "valor_historico": 9910.4
+        },
+        {
+          "fantasia": "PERNOD",
+          "valor_historico": 3668.4
+        },
+        {
+          "fantasia": "RED BULL",
+          "valor_historico": 2684.79
+        },
+        {
+          "fantasia": "TATUZINHO",
+          "valor_historico": 2537.6
+        },
+        {
+          "fantasia": "MINALBA",
+          "valor_historico": 1267.5
         }
       ]
     },
@@ -9387,6 +10007,54 @@ const CLIENTES_INATIVOS_NOME_DATA = {
       ]
     },
     {
+      "codcli": 90348,
+      "grupo_estado": "RJ/ES",
+      "chave": "RJ/ES-90348",
+      "nome": "CLUB SUBSTATION",
+      "razao_social": "SANTOS E AROEIRA ENTRETENIMENTO LTDA",
+      "cidade": "RIO DE JANEIRO",
+      "estado_cliente": "RJ",
+      "ramo": "RESTAURANTE",
+      "ultima_compra": "05/05/2026",
+      "ultimo_vendedor": "LAIS POPPE VILLANOVA",
+      "ultimo_vendedor_data": "05/05/2026",
+      "faturamento_historico_total": 172897.12,
+      "top_fornecedores_historico": [
+        {
+          "fantasia": "RED BULL",
+          "valor_historico": 65010.72
+        },
+        {
+          "fantasia": "DIAGEO",
+          "valor_historico": 32700.7
+        },
+        {
+          "fantasia": "BACARDI",
+          "valor_historico": 17410.9
+        },
+        {
+          "fantasia": "HENNESSY",
+          "valor_historico": 15564.3
+        },
+        {
+          "fantasia": "AURORA",
+          "valor_historico": 11070.0
+        },
+        {
+          "fantasia": "PERNOD",
+          "valor_historico": 10311.4
+        },
+        {
+          "fantasia": "51",
+          "valor_historico": 5550.0
+        },
+        {
+          "fantasia": "MINALBA",
+          "valor_historico": 4526.8
+        }
+      ]
+    },
+    {
       "codcli": 78579,
       "grupo_estado": "RJ/ES",
       "chave": "RJ/ES-78579",
@@ -9411,6 +10079,54 @@ const CLIENTES_INATIVOS_NOME_DATA = {
         {
           "fantasia": "DIAGEO",
           "valor_historico": 3779.6
+        }
+      ]
+    },
+    {
+      "codcli": 21382,
+      "grupo_estado": "RJ/ES",
+      "chave": "RJ/ES-21382",
+      "nome": "GRINGOS NA COZINHA",
+      "razao_social": "ORZO PASTA BAR LTDA",
+      "cidade": "RIO DE JANEIRO",
+      "estado_cliente": "RJ",
+      "ramo": "RESTAURANTE",
+      "ultima_compra": "11/05/2026",
+      "ultimo_vendedor": "AUGUSTO SILVA",
+      "ultimo_vendedor_data": "11/05/2026",
+      "faturamento_historico_total": 172371.37,
+      "top_fornecedores_historico": [
+        {
+          "fantasia": "CASTAS",
+          "valor_historico": 142454.95
+        },
+        {
+          "fantasia": "PERNOD",
+          "valor_historico": 6793.2
+        },
+        {
+          "fantasia": "CAPIM BRANCO",
+          "valor_historico": 5183.3
+        },
+        {
+          "fantasia": "BEAM SUNTORY",
+          "valor_historico": 4383.3
+        },
+        {
+          "fantasia": "CAMPARI",
+          "valor_historico": 3168.9
+        },
+        {
+          "fantasia": "KAISER",
+          "valor_historico": 2941.7
+        },
+        {
+          "fantasia": "AURORA",
+          "valor_historico": 1689.3
+        },
+        {
+          "fantasia": "BACARDI",
+          "valor_historico": 1244.5
         }
       ]
     },
@@ -9611,6 +10327,10 @@ const CLIENTES_INATIVOS_NOME_DATA = {
         {
           "fantasia": "DIAGEO",
           "valor_historico": 4180.5
+        },
+        {
+          "fantasia": "LVMH",
+          "valor_historico": 399.5
         }
       ]
     },
@@ -10191,714 +10911,6 @@ const CLIENTES_INATIVOS_NOME_DATA = {
         {
           "fantasia": "DIAGEO",
           "valor_historico": 1317.6
-        }
-      ]
-    },
-    {
-      "codcli": 77776,
-      "grupo_estado": "RJ/ES",
-      "chave": "RJ/ES-77776",
-      "nome": "THIAGO FRANCA SILVA",
-      "razao_social": "THIAGO FRANCA SILVA 02075097194",
-      "cidade": "RIO DE JANEIRO",
-      "estado_cliente": "RJ",
-      "ramo": "BAR",
-      "ultima_compra": "05/02/2025",
-      "ultimo_vendedor": "JULIANA MARCAL",
-      "ultimo_vendedor_data": "05/02/2025",
-      "faturamento_historico_total": 157545.14,
-      "top_fornecedores_historico": [
-        {
-          "fantasia": "RED BULL",
-          "valor_historico": 96243.64
-        },
-        {
-          "fantasia": "DIAGEO",
-          "valor_historico": 49073.1
-        },
-        {
-          "fantasia": "HENNESSY",
-          "valor_historico": 3682.5
-        },
-        {
-          "fantasia": "BEAM SUNTORY",
-          "valor_historico": 3188.4
-        },
-        {
-          "fantasia": "TATUZINHO",
-          "valor_historico": 2091.7
-        },
-        {
-          "fantasia": "PERNOD",
-          "valor_historico": 1615.4
-        },
-        {
-          "fantasia": "1883",
-          "valor_historico": 718.5
-        },
-        {
-          "fantasia": "BETTER DRINKS",
-          "valor_historico": 401.76
-        }
-      ]
-    },
-    {
-      "codcli": 72303,
-      "grupo_estado": "RJ/ES",
-      "chave": "RJ/ES-72303",
-      "nome": "DRINK BUFFET",
-      "razao_social": "NIBP PRODUCOES E EVENTOS LTDA",
-      "cidade": "COLATINA",
-      "estado_cliente": "ES",
-      "ramo": "RESTAURANTE",
-      "ultima_compra": "30/07/2024",
-      "ultimo_vendedor": "VENDEDOR 03",
-      "ultimo_vendedor_data": "30/07/2024",
-      "faturamento_historico_total": 157514.72,
-      "top_fornecedores_historico": [
-        {
-          "fantasia": "RED BULL",
-          "valor_historico": 157514.72
-        }
-      ]
-    },
-    {
-      "codcli": 72124,
-      "grupo_estado": "RJ/ES",
-      "chave": "RJ/ES-72124",
-      "nome": "MERCEARIA BRASAS",
-      "razao_social": "50.493.902 BARBARA SILVA DE ARAUJO",
-      "cidade": "RIO DE JANEIRO",
-      "estado_cliente": "RJ",
-      "ramo": "TABACARIA",
-      "ultima_compra": "13/02/2026",
-      "ultimo_vendedor": "FERNANDO CESAR",
-      "ultimo_vendedor_data": "22/01/2026",
-      "faturamento_historico_total": 156718.58,
-      "top_fornecedores_historico": [
-        {
-          "fantasia": "KAISER",
-          "valor_historico": 104439.6
-        },
-        {
-          "fantasia": "RED BULL",
-          "valor_historico": 30266.94
-        },
-        {
-          "fantasia": "CASA PERINI",
-          "valor_historico": 8749.2
-        },
-        {
-          "fantasia": "CATUABA",
-          "valor_historico": 3760.92
-        },
-        {
-          "fantasia": "TATUZINHO",
-          "valor_historico": 3753.4
-        },
-        {
-          "fantasia": "JURUPINGA",
-          "valor_historico": 1625.76
-        },
-        {
-          "fantasia": "FANTE",
-          "valor_historico": 1591.2
-        },
-        {
-          "fantasia": "DIAGEO",
-          "valor_historico": 790.2
-        }
-      ]
-    },
-    {
-      "codcli": 29724,
-      "grupo_estado": "MG",
-      "chave": "MG-29724",
-      "nome": "MERCADINHO DA KELLY",
-      "razao_social": "KELLY STEPHANI DA SILVA 08800479685",
-      "cidade": "BELO HORIZONTE",
-      "estado_cliente": "MG",
-      "ramo": "BAR",
-      "ultima_compra": "09/10/2025",
-      "ultimo_vendedor": "FELIPE TOMAZ",
-      "ultimo_vendedor_data": "09/10/2025",
-      "faturamento_historico_total": 155815.54,
-      "top_fornecedores_historico": [
-        {
-          "fantasia": "RED BULL",
-          "valor_historico": 66726.8
-        },
-        {
-          "fantasia": "BROWN-FORMAN",
-          "valor_historico": 52492.62
-        },
-        {
-          "fantasia": "HEINEKEN",
-          "valor_historico": 23114.64
-        },
-        {
-          "fantasia": "PERNOD",
-          "valor_historico": 6887.88
-        },
-        {
-          "fantasia": "BALLENA",
-          "valor_historico": 1543.8
-        },
-        {
-          "fantasia": "BETTER DRINKS",
-          "valor_historico": 886.68
-        },
-        {
-          "fantasia": "BEAM SUNTORY",
-          "valor_historico": 359.6
-        }
-      ]
-    },
-    {
-      "codcli": 71091,
-      "grupo_estado": "RJ/ES",
-      "chave": "RJ/ES-71091",
-      "nome": "TH COMERCIO DE BEBIDAS",
-      "razao_social": "DEPOSITO E WHISKERIA 2 IRMAOS LTDA",
-      "cidade": "NILOPOLIS",
-      "estado_cliente": "RJ",
-      "ramo": "DELIVERY",
-      "ultima_compra": "18/06/2025",
-      "ultimo_vendedor": "HXO",
-      "ultimo_vendedor_data": "18/06/2025",
-      "faturamento_historico_total": 154665.1,
-      "top_fornecedores_historico": [
-        {
-          "fantasia": "RED BULL",
-          "valor_historico": 95803.56
-        },
-        {
-          "fantasia": "KAISER",
-          "valor_historico": 53298.0
-        },
-        {
-          "fantasia": "HENNESSY",
-          "valor_historico": 4600.8
-        },
-        {
-          "fantasia": "MSLR",
-          "valor_historico": 359.4
-        },
-        {
-          "fantasia": "BROWN",
-          "valor_historico": 124.9
-        }
-      ]
-    },
-    {
-      "codcli": 73580,
-      "grupo_estado": "RJ/ES",
-      "chave": "RJ/ES-73580",
-      "nome": "BAR DA INDIA ASTROS E ESTRELAS",
-      "razao_social": "NEIZE MARIA CARVALHO DE MEDEIROS 88383709749",
-      "cidade": "RIO DE JANEIRO",
-      "estado_cliente": "RJ",
-      "ramo": "BAR",
-      "ultima_compra": "06/01/2025",
-      "ultimo_vendedor": "VENDEDOR 02",
-      "ultimo_vendedor_data": "06/01/2025",
-      "faturamento_historico_total": 153909.36,
-      "top_fornecedores_historico": [
-        {
-          "fantasia": "RED BULL",
-          "valor_historico": 153909.36
-        }
-      ]
-    },
-    {
-      "codcli": 20925,
-      "grupo_estado": "RJ/ES",
-      "chave": "RJ/ES-20925",
-      "nome": "DAY BY DAY VINHOS",
-      "razao_social": "DAY BY DAY VINHOS LTDA",
-      "cidade": "VITORIA",
-      "estado_cliente": "ES",
-      "ramo": "RESTAURANTE",
-      "ultima_compra": "06/12/2023",
-      "ultimo_vendedor": "MARTINHO GOMES",
-      "ultimo_vendedor_data": "06/12/2023",
-      "faturamento_historico_total": 153652.24,
-      "top_fornecedores_historico": [
-        {
-          "fantasia": "CASTAS",
-          "valor_historico": 86562.82
-        },
-        {
-          "fantasia": "BROWN",
-          "valor_historico": 23340.3
-        },
-        {
-          "fantasia": "RED BULL",
-          "valor_historico": 8172.56
-        },
-        {
-          "fantasia": "BACARDI",
-          "valor_historico": 7077.47
-        },
-        {
-          "fantasia": "AURORA",
-          "valor_historico": 3976.38
-        },
-        {
-          "fantasia": "NATIQUE",
-          "valor_historico": 299.7
-        }
-      ]
-    },
-    {
-      "codcli": 50365,
-      "grupo_estado": "RJ/ES",
-      "chave": "RJ/ES-50365",
-      "nome": "CASA DO LATAO",
-      "razao_social": "A L A BRANDAO MERCADO",
-      "cidade": "VASSOURAS",
-      "estado_cliente": "RJ",
-      "ramo": "MERCADO",
-      "ultima_compra": "21/09/2024",
-      "ultimo_vendedor": "FERNANDO CESAR",
-      "ultimo_vendedor_data": "22/05/2024",
-      "faturamento_historico_total": 153506.62,
-      "top_fornecedores_historico": [
-        {
-          "fantasia": "KAISER",
-          "valor_historico": 85719.36
-        },
-        {
-          "fantasia": "RED BULL",
-          "valor_historico": 10979.4
-        },
-        {
-          "fantasia": "DIAGEO",
-          "valor_historico": 2734.1
-        },
-        {
-          "fantasia": "PERNOD",
-          "valor_historico": 2277.7
-        },
-        {
-          "fantasia": "CATUABA",
-          "valor_historico": 1506.6
-        },
-        {
-          "fantasia": "BROWN",
-          "valor_historico": 1455.2
-        },
-        {
-          "fantasia": "AURORA",
-          "valor_historico": 1229.0
-        },
-        {
-          "fantasia": "CRS BRANDS",
-          "valor_historico": 1186.8
-        }
-      ]
-    },
-    {
-      "codcli": 78053,
-      "grupo_estado": "RJ/ES",
-      "chave": "RJ/ES-78053",
-      "nome": "ENTRETER PRODUCOES E EVENTOS",
-      "razao_social": "ENTRETER PRODUCOES E EVENTOS LTDA",
-      "cidade": "VILA VELHA",
-      "estado_cliente": "ES",
-      "ramo": "MERCADO",
-      "ultima_compra": "09/01/2025",
-      "ultimo_vendedor": "VENDEDOR 03",
-      "ultimo_vendedor_data": "03/01/2025",
-      "faturamento_historico_total": 152554.51,
-      "top_fornecedores_historico": [
-        {
-          "fantasia": "BACARDI",
-          "valor_historico": 91606.71
-        },
-        {
-          "fantasia": "RED BULL",
-          "valor_historico": 36925.0
-        },
-        {
-          "fantasia": "PERNOD",
-          "valor_historico": 19158.0
-        },
-        {
-          "fantasia": "HENNESSY",
-          "valor_historico": 2814.0
-        },
-        {
-          "fantasia": "CASTAS",
-          "valor_historico": 2050.8
-        }
-      ]
-    },
-    {
-      "codcli": 77897,
-      "grupo_estado": "RJ/ES",
-      "chave": "RJ/ES-77897",
-      "nome": "ROBERTO ADRIANO DOS SANTOS",
-      "razao_social": "ROBERTO ADRIANO DOS SANTOS 14252107750",
-      "cidade": "RIO DE JANEIRO",
-      "estado_cliente": "RJ",
-      "ramo": "MERCADO",
-      "ultima_compra": "08/08/2025",
-      "ultimo_vendedor": "MICHELE ALCANTARA",
-      "ultimo_vendedor_data": "08/08/2025",
-      "faturamento_historico_total": 152258.68,
-      "top_fornecedores_historico": [
-        {
-          "fantasia": "KAISER",
-          "valor_historico": 123103.0
-        },
-        {
-          "fantasia": "RED BULL",
-          "valor_historico": 27920.88
-        },
-        {
-          "fantasia": "DIAGEO",
-          "valor_historico": 1234.8
-        }
-      ]
-    },
-    {
-      "codcli": 61757,
-      "grupo_estado": "RJ/ES",
-      "chave": "RJ/ES-61757",
-      "nome": "HOLYSHIPP!",
-      "razao_social": "HOLYSHIPP COMERCIO DE BEBIDAS LTDA",
-      "cidade": "NITEROI",
-      "estado_cliente": "RJ",
-      "ramo": "MERCADO",
-      "ultima_compra": "08/11/2024",
-      "ultimo_vendedor": "FERNANDO CESAR",
-      "ultimo_vendedor_data": "20/08/2024",
-      "faturamento_historico_total": 152210.46,
-      "top_fornecedores_historico": [
-        {
-          "fantasia": "BEAM SUNTORY",
-          "valor_historico": 78273.32
-        },
-        {
-          "fantasia": "PERNOD",
-          "valor_historico": 31793.7
-        },
-        {
-          "fantasia": "AURORA",
-          "valor_historico": 18934.8
-        },
-        {
-          "fantasia": "DIAGEO",
-          "valor_historico": 12772.2
-        },
-        {
-          "fantasia": "BACARDI",
-          "valor_historico": 4779.6
-        },
-        {
-          "fantasia": "BROWN",
-          "valor_historico": 3920.2
-        },
-        {
-          "fantasia": "CAMPARI",
-          "valor_historico": 1132.8
-        },
-        {
-          "fantasia": "RED BULL",
-          "valor_historico": 603.84
-        }
-      ]
-    },
-    {
-      "codcli": 29939,
-      "grupo_estado": "MG",
-      "chave": "MG-29939",
-      "nome": "ESPETARIA TO NO TRABALHO",
-      "razao_social": "ESPETARIA ALVES & AMORIM LTDA",
-      "cidade": "LAGOA SANTA",
-      "estado_cliente": "MG",
-      "ramo": "BAR",
-      "ultima_compra": "05/05/2025",
-      "ultimo_vendedor": "JULIANA TAVARES",
-      "ultimo_vendedor_data": "05/05/2025",
-      "faturamento_historico_total": 152104.15,
-      "top_fornecedores_historico": [
-        {
-          "fantasia": "HEINEKEN",
-          "valor_historico": 149451.33
-        },
-        {
-          "fantasia": "RED BULL",
-          "valor_historico": 1046.12
-        },
-        {
-          "fantasia": "BROWN-FORMAN",
-          "valor_historico": 777.4
-        },
-        {
-          "fantasia": "AURORA",
-          "valor_historico": 419.7
-        },
-        {
-          "fantasia": "PERNOD",
-          "valor_historico": 229.8
-        },
-        {
-          "fantasia": "BEAM SUNTORY",
-          "valor_historico": 179.8
-        }
-      ]
-    },
-    {
-      "codcli": 76545,
-      "grupo_estado": "RJ/ES",
-      "chave": "RJ/ES-76545",
-      "nome": "DEPOSITO DO PARA",
-      "razao_social": "F S DA LUZ COMERCIO DE BEBIDAS E MERCEARIA",
-      "cidade": "RIO DE JANEIRO",
-      "estado_cliente": "RJ",
-      "ramo": "MERCADO",
-      "ultima_compra": "30/09/2024",
-      "ultimo_vendedor": "VINICIUS AMARAL",
-      "ultimo_vendedor_data": "30/09/2024",
-      "faturamento_historico_total": 150167.36,
-      "top_fornecedores_historico": [
-        {
-          "fantasia": "KAISER",
-          "valor_historico": 98775.8
-        },
-        {
-          "fantasia": "RED BULL",
-          "valor_historico": 47606.16
-        },
-        {
-          "fantasia": "CRS BRANDS",
-          "valor_historico": 1782.0
-        },
-        {
-          "fantasia": "CATUABA",
-          "valor_historico": 894.0
-        },
-        {
-          "fantasia": "DIAGEO",
-          "valor_historico": 524.7
-        },
-        {
-          "fantasia": "VITON",
-          "valor_historico": 259.9
-        },
-        {
-          "fantasia": "CASA PERINI",
-          "valor_historico": 228.0
-        },
-        {
-          "fantasia": "PERNOD",
-          "valor_historico": 69.9
-        }
-      ]
-    },
-    {
-      "codcli": 81926,
-      "grupo_estado": "RJ/ES",
-      "chave": "RJ/ES-81926",
-      "nome": "HORA DA AGONIA CONVENIENCIA",
-      "razao_social": "COMERCIO DE BEBIDAS E CONVENIENCIAS HORA DA AGONIA LTDA",
-      "cidade": "RIO DE JANEIRO",
-      "estado_cliente": "RJ",
-      "ramo": "MERCADO",
-      "ultima_compra": "15/12/2025",
-      "ultimo_vendedor": "RQ",
-      "ultimo_vendedor_data": "15/12/2025",
-      "faturamento_historico_total": 149927.78,
-      "top_fornecedores_historico": [
-        {
-          "fantasia": "KAISER",
-          "valor_historico": 149927.78
-        }
-      ]
-    },
-    {
-      "codcli": 74438,
-      "grupo_estado": "RJ/ES",
-      "chave": "RJ/ES-74438",
-      "nome": "MJBEER",
-      "razao_social": "MJBEER COMERCIO DE BEBIDAS LTDA",
-      "cidade": "RIO DE JANEIRO",
-      "estado_cliente": "RJ",
-      "ramo": "BAR",
-      "ultima_compra": "15/01/2026",
-      "ultimo_vendedor": "MICHELE ALCANTARA",
-      "ultimo_vendedor_data": "15/01/2026",
-      "faturamento_historico_total": 148935.42,
-      "top_fornecedores_historico": [
-        {
-          "fantasia": "RED BULL",
-          "valor_historico": 86769.85
-        },
-        {
-          "fantasia": "TATUZINHO",
-          "valor_historico": 14667.78
-        },
-        {
-          "fantasia": "DIAGEO",
-          "valor_historico": 12698.9
-        },
-        {
-          "fantasia": "PERNOD",
-          "valor_historico": 10408.24
-        },
-        {
-          "fantasia": "BROWN",
-          "valor_historico": 6388.8
-        },
-        {
-          "fantasia": "CASTAS",
-          "valor_historico": 3694.36
-        },
-        {
-          "fantasia": "FANTE",
-          "valor_historico": 2165.4
-        },
-        {
-          "fantasia": "COMARY",
-          "valor_historico": 1516.5
-        }
-      ]
-    },
-    {
-      "codcli": 68972,
-      "grupo_estado": "RJ/ES",
-      "chave": "RJ/ES-68972",
-      "nome": "DEPOSITO DO BRAGANCA",
-      "razao_social": "ALEX DE SOUZA BRAGANCA CORNELIO 15098485762",
-      "cidade": "RIO DE JANEIRO",
-      "estado_cliente": "RJ",
-      "ramo": "TABACARIA",
-      "ultima_compra": "15/06/2026",
-      "ultimo_vendedor": "RC",
-      "ultimo_vendedor_data": "15/06/2026",
-      "faturamento_historico_total": 148490.55,
-      "top_fornecedores_historico": [
-        {
-          "fantasia": "RED BULL",
-          "valor_historico": 127860.05
-        },
-        {
-          "fantasia": "KAISER",
-          "valor_historico": 19760.0
-        },
-        {
-          "fantasia": "FANTE",
-          "valor_historico": 466.2
-        },
-        {
-          "fantasia": "DIAGEO",
-          "valor_historico": 186.0
-        },
-        {
-          "fantasia": "BACARDI",
-          "valor_historico": 110.9
-        },
-        {
-          "fantasia": "CATUABA",
-          "valor_historico": 107.4
-        }
-      ]
-    },
-    {
-      "codcli": 68284,
-      "grupo_estado": "RJ/ES",
-      "chave": "RJ/ES-68284",
-      "nome": "BAIA EMERSON",
-      "razao_social": "EMERSON PEREIRA BAIA 08120618700",
-      "cidade": "RIO DE JANEIRO",
-      "estado_cliente": "RJ",
-      "ramo": "BAR",
-      "ultima_compra": "05/12/2025",
-      "ultimo_vendedor": "THIAGO NASCIMENTO",
-      "ultimo_vendedor_data": "05/12/2025",
-      "faturamento_historico_total": 148281.94,
-      "top_fornecedores_historico": [
-        {
-          "fantasia": "KAISER",
-          "valor_historico": 123717.6
-        },
-        {
-          "fantasia": "RED BULL",
-          "valor_historico": 17550.64
-        },
-        {
-          "fantasia": "DIAGEO",
-          "valor_historico": 1442.8
-        },
-        {
-          "fantasia": "51",
-          "valor_historico": 1190.1
-        },
-        {
-          "fantasia": "PERNOD",
-          "valor_historico": 1139.1
-        },
-        {
-          "fantasia": "BROWN",
-          "valor_historico": 528.6
-        },
-        {
-          "fantasia": "VINICOLA GALIOTO",
-          "valor_historico": 453.6
-        },
-        {
-          "fantasia": "COMARY",
-          "valor_historico": 357.4
-        }
-      ]
-    },
-    {
-      "codcli": 71192,
-      "grupo_estado": "RJ/ES",
-      "chave": "RJ/ES-71192",
-      "nome": "QUALITY SYNC GROUP",
-      "razao_social": "22.529.900 THIAGO DUCRAUX PRADO",
-      "cidade": "RIO DE JANEIRO",
-      "estado_cliente": "RJ",
-      "ramo": "ESCRITORIO",
-      "ultima_compra": "22/04/2025",
-      "ultimo_vendedor": "FERNANDO CESAR",
-      "ultimo_vendedor_data": "22/04/2025",
-      "faturamento_historico_total": 147315.27,
-      "top_fornecedores_historico": [
-        {
-          "fantasia": "RED BULL",
-          "valor_historico": 136077.92
-        },
-        {
-          "fantasia": "KAISER",
-          "valor_historico": 5207.0
-        },
-        {
-          "fantasia": "DIAGEO",
-          "valor_historico": 1728.6
-        },
-        {
-          "fantasia": "COMARY",
-          "valor_historico": 999.8
-        },
-        {
-          "fantasia": "CATUABA",
-          "valor_historico": 483.0
-        },
-        {
-          "fantasia": "BACARDI",
-          "valor_historico": 444.5
-        },
-        {
-          "fantasia": "BETTER DRINKS",
-          "valor_historico": 418.5
-        },
-        {
-          "fantasia": "TATUZINHO",
-          "valor_historico": 298.8
         }
       ]
     }
