@@ -1,5 +1,5 @@
 const CRUSOE_DATA = {
-  "atualizado_em": "18/08/2026 15:45",
+  "atualizado_em": "18/08/2026 16:25",
   "periodo": {
     "ini": "01/07/2026",
     "fim": "31/08/2026"
@@ -3178,14 +3178,14 @@ const CRUSOE_DATA = {
         {
           "rca": 153,
           "vendedor": "Angelo Neves Suzart",
-          "pedidos": 10,
+          "pedidos": 11,
           "positivacoes": 2,
           "novos_skus": 14,
-          "faturamento": 15295.15,
+          "faturamento": 17390.15,
           "pontos_positivacao": 10,
           "pontos_novos_skus": 56,
-          "pontos_pedidos_valor": 15,
-          "pontos_total": 81,
+          "pontos_pedidos_valor": 17,
+          "pontos_total": 83,
           "vendas": [
             {
               "numnota": "408274",
@@ -3531,6 +3531,32 @@ const CRUSOE_DATA = {
                   ]
                 }
               ]
+            },
+            {
+              "numnota": "422516",
+              "data": "18/08/2026",
+              "cliente": "MERCADO RC DE ITAGUAI LTDA",
+              "valor_pedido": 2095.0,
+              "eventos": [
+                {
+                  "tipo": "pedido (R$1001-3000)",
+                  "pontos": 2
+                }
+              ],
+              "itens": [
+                {
+                  "produto": "RC SARDINHA EM OLEO 50X125G",
+                  "qt": 5.0,
+                  "valor": 1047.5,
+                  "pontuacoes": []
+                },
+                {
+                  "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
+                  "qt": 5.0,
+                  "valor": 1047.5,
+                  "pontuacoes": []
+                }
+              ]
             }
           ]
         },
@@ -3798,7 +3824,7 @@ const CRUSOE_DATA = {
           "rca": 431,
           "vendedor": "Adeilson Gonçalvez",
           "clientes_gourmet": 6,
-          "faturamento": 7171.53,
+          "faturamento": 7431.33,
           "faturamento_gourmet": 1223.7,
           "pontos_total": 6,
           "vendas": [
