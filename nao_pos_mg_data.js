@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_mg.py
 
 const NAO_POS_MG_DATA = {
-  "atualizado_em": "19/08/2026 17:16",
+  "atualizado_em": "19/08/2026 17:45",
   "por_vendedor": {
     "BRUNA CASTRO MELLO": [
       {
@@ -3082,20 +3082,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "33295",
-        "cliente": "ARMAZEM BRASIL LIMITADA",
-        "bairro": "JARDIM AMÉRICA",
-        "dtultcomp": "08/07/2026",
-        "produtos": [
-          {
-            "produto": "VILLA ROSA TINTO 750ML",
-            "fantasia": "CASTAS",
-            "qt": 12,
-            "valor": 478.8
-          }
-        ]
-      },
-      {
         "codcli": "34006",
         "cliente": "RARO INDUSTRIA DE ALIMENTOS LTDA",
         "bairro": "TAPERA",
@@ -3112,70 +3098,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "BEAM SUNTORY",
             "qt": 132,
             "valor": 12394.8
-          }
-        ]
-      },
-      {
-        "codcli": "33293",
-        "cliente": "ARMAZEM BRASIL LIMITADA",
-        "bairro": "CENTRO",
-        "dtultcomp": "30/07/2026",
-        "produtos": [
-          {
-            "produto": "AMARULA C LIQUEUR 750 ML",
-            "fantasia": "AURORA",
-            "qt": 12,
-            "valor": 1318.8
-          },
-          {
-            "produto": "GIN BEEFEATER 750ML",
-            "fantasia": "PERNOD",
-            "qt": 6,
-            "valor": 509.4
-          },
-          {
-            "produto": "VILLA ROSA BRANCO 750ML",
-            "fantasia": "CASTAS",
-            "qt": 12,
-            "valor": 478.8
-          },
-          {
-            "produto": "VILLA ROSA COLHEITA TINTO  750ML",
-            "fantasia": "CASTAS",
-            "qt": 1,
-            "valor": 69.9
-          },
-          {
-            "produto": "VILLA ROSA ROSE 750ML",
-            "fantasia": "CASTAS",
-            "qt": 12,
-            "valor": 478.8
-          },
-          {
-            "produto": "VINHO VILLA ROSA FRISANTE BRANCO 750ML",
-            "fantasia": "CASTAS",
-            "qt": 12,
-            "valor": 478.8
-          }
-        ]
-      },
-      {
-        "codcli": "33288",
-        "cliente": "ARMAZEM BRASIL LIMITADA",
-        "bairro": "SÃO SEBASTIAO",
-        "dtultcomp": "30/07/2026",
-        "produtos": [
-          {
-            "produto": "AMARULA C LIQUEUR 750 ML",
-            "fantasia": "AURORA",
-            "qt": 12,
-            "valor": 1318.8
-          },
-          {
-            "produto": "GIN ORLOFF 1L",
-            "fantasia": "PERNOD",
-            "qt": 12,
-            "valor": 538.8
           }
         ]
       },
@@ -3200,6 +3122,26 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
+        "codcli": "33288",
+        "cliente": "ARMAZEM BRASIL LIMITADA",
+        "bairro": "SÃO SEBASTIAO",
+        "dtultcomp": "30/07/2026",
+        "produtos": [
+          {
+            "produto": "AMARULA C LIQUEUR 750 ML",
+            "fantasia": "AURORA",
+            "qt": 12,
+            "valor": 1318.8
+          },
+          {
+            "produto": "GIN ORLOFF 1L",
+            "fantasia": "PERNOD",
+            "qt": 12,
+            "valor": 538.8
+          }
+        ]
+      },
+      {
         "codcli": "33292",
         "cliente": "ARMAZEM BRASIL LIMITADA",
         "bairro": "SANTA EFIGÊNIA",
@@ -3216,20 +3158,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "CASTAS",
             "qt": 12,
             "valor": 478.8
-          }
-        ]
-      },
-      {
-        "codcli": "33291",
-        "cliente": "ARMAZEM BRASIL LIMITADA",
-        "bairro": "SANTA MATILDE",
-        "dtultcomp": "30/07/2026",
-        "produtos": [
-          {
-            "produto": "WHISKY BALLANTINES 10 YO 750ML",
-            "fantasia": "PERNOD",
-            "qt": 12,
-            "valor": 634.8
           }
         ]
       },
