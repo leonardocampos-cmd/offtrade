@@ -22756,7 +22756,7 @@ const AGENDAMENTO_DATA = {
           "cliente": "SUPERMERCADO ZONA SUL S/A",
           "cnpj": "33.381.286/0001-51",
           "filial": "OLARIA",
-          "valor": 15510.24,
+          "valor": 16787.52,
           "nf": "",
           "data_agendamento": "19/08/2026",
           "data_ord": "2026-08-19",
@@ -26722,7 +26722,7 @@ const AGENDAMENTO_DATA = {
       ]
     }
   ],
-  "atualizado_em": "18/08/2026 17:39",
+  "atualizado_em": "19/08/2026 10:36",
   "comparativo": [
     {
       "msg_id": "1a000be7acfbb4b6",
