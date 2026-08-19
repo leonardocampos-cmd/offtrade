@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const METAS_DATA = {
-  "atualizado_em": "19/08/2026 17:27",
+  "atualizado_em": "19/08/2026 17:56",
   "meses": [
     "Ago/26",
     "Jul/26",
@@ -5895,7 +5895,7 @@ const METAS_DATA = {
         },
         {
           "mes": "Aug/26",
-          "fat": 27663.08,
+          "fat": 29400.96,
           "pos": 20
         }
       ],
@@ -20564,7 +20564,7 @@ const METAS_DATA = {
         },
         {
           "mes": "Aug/26",
-          "fat": 31094.7,
+          "fat": 31844.1,
           "pos": 18
         }
       ],
@@ -22201,11 +22201,11 @@ const METAS_DATA = {
             },
             {
               "FANTASIA": "",
-              "DESCRICAO": "VILLA ROSA TINTO 750ML"
+              "DESCRICAO": "VINHO FOODKILLER CARMENERE 750ML"
             },
             {
               "FANTASIA": "",
-              "DESCRICAO": "VINHO FOODKILLER CARMENERE 750ML"
+              "DESCRICAO": "VILLA ROSA TINTO 750ML"
             },
             {
               "FANTASIA": "",
@@ -22293,15 +22293,15 @@ const METAS_DATA = {
             },
             {
               "FANTASIA": "",
-              "DESCRICAO": "VINHO TINTO BURDIZZO APPASSIMENTO 750ML"
-            },
-            {
-              "FANTASIA": "",
               "DESCRICAO": "HUMB. CANALE DENARIO RESERVA CAB. FRANC"
             },
             {
               "FANTASIA": "",
               "DESCRICAO": "VINHO ARESTI ESTATE S. MERLOT 750ML"
+            },
+            {
+              "FANTASIA": "",
+              "DESCRICAO": "VINHO TINTO BURDIZZO APPASSIMENTO 750ML"
             }
           ]
         },
@@ -22317,15 +22317,15 @@ const METAS_DATA = {
             },
             {
               "FANTASIA": "",
-              "DESCRICAO": "VINHO ARESTI ESTATE S. CARMENERE 750ML"
-            },
-            {
-              "FANTASIA": "",
               "DESCRICAO": "BARBERA D'ALBA SUPERIORE 750ML"
             },
             {
               "FANTASIA": "",
               "DESCRICAO": "DOLCETTO D'ALBA 750ML"
+            },
+            {
+              "FANTASIA": "",
+              "DESCRICAO": "VINHO ARESTI ESTATE S. CARMENERE 750ML"
             },
             {
               "FANTASIA": "",
@@ -25484,7 +25484,7 @@ const METAS_DATA = {
         },
         {
           "mes": "Aug/26",
-          "fat": 118196.58,
+          "fat": 118229.5,
           "pos": 36
         }
       ],
