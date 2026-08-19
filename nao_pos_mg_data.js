@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_mg.py
 
 const NAO_POS_MG_DATA = {
-  "atualizado_em": "19/08/2026 14:40",
+  "atualizado_em": "19/08/2026 17:16",
   "por_vendedor": {
     "BRUNA CASTRO MELLO": [
       {
@@ -2750,38 +2750,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "37208",
-        "cliente": "JT BARES LTDA",
-        "bairro": "HORTO",
-        "dtultcomp": "29/07/2026",
-        "produtos": [
-          {
-            "produto": "RED BULL MELANCIA 24X250ML",
-            "fantasia": "RED BULL",
-            "qt": 1,
-            "valor": 191.76
-          },
-          {
-            "produto": "RED BULL TROPICAL EDITION 250 ML CX C/24",
-            "fantasia": "RED BULL",
-            "qt": 1,
-            "valor": 191.76
-          },
-          {
-            "produto": "WHISKY J WALKER BLONDE 750 ML",
-            "fantasia": "DIAGEO",
-            "qt": 1,
-            "valor": 92.9
-          },
-          {
-            "produto": "XAROPE MONIN TANGERINA (MANDARIM) 700ML",
-            "fantasia": "MONIN",
-            "qt": 1,
-            "valor": 49.9
-          }
-        ]
-      },
-      {
         "codcli": "33681",
         "cliente": "A. B. CAFETERIA LTDA",
         "bairro": "BELVEDERE",
@@ -2976,44 +2944,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "33010",
-        "cliente": "GOLDEN ALIMENTOS LTDA",
-        "bairro": "VILA DA SERRA",
-        "dtultcomp": "31/07/2026",
-        "produtos": [
-          {
-            "produto": "CHANDON BRUT ROSE 750ML",
-            "fantasia": "LVMH",
-            "qt": 6,
-            "valor": 689.4
-          },
-          {
-            "produto": "CHANDON PASSION ON ICE 750ML",
-            "fantasia": "LVMH",
-            "qt": 12,
-            "valor": 1318.8
-          },
-          {
-            "produto": "RED BULL TROPICAL EDITION 250 ML CX C/24",
-            "fantasia": "RED BULL",
-            "qt": 1,
-            "valor": 191.76
-          },
-          {
-            "produto": "RED BULL ZERO 24X250ML",
-            "fantasia": "RED BULL",
-            "qt": 1,
-            "valor": 174.96
-          },
-          {
-            "produto": "YVY DESTILADO GIN AR LT 710ML",
-            "fantasia": "YVY",
-            "qt": 6,
-            "valor": 239.4
-          }
-        ]
-      },
-      {
         "codcli": "35189",
         "cliente": "MAGNUS SOCIEDADE COMERCIAL LIMITADA",
         "bairro": "SANTA HELENA",
@@ -3085,6 +3015,20 @@ const NAO_POS_MG_DATA = {
       }
     ],
     "LEANDRO OLIVEIRA": [
+      {
+        "codcli": "37255",
+        "cliente": "ARMAZEM BRASIL LIMITADA",
+        "bairro": "SION",
+        "dtultcomp": "28/04/2026",
+        "produtos": [
+          {
+            "produto": "COQUETEL ALCOÓLICO DON CREAM DULCE DE LE",
+            "fantasia": "DON LUIZ",
+            "qt": 6,
+            "valor": 419.4
+          }
+        ]
+      },
       {
         "codcli": "31062",
         "cliente": "SUPERMERCADOS REX LTDA",
@@ -3216,26 +3160,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "33290",
-        "cliente": "ARMAZEM BRASIL LIMITADA",
-        "bairro": "ANGÉLICA",
-        "dtultcomp": "30/07/2026",
-        "produtos": [
-          {
-            "produto": "AMARULA C LIQUEUR 750 ML",
-            "fantasia": "AURORA",
-            "qt": 12,
-            "valor": 1318.8
-          },
-          {
-            "produto": "GIN BEEFEATER 750ML",
-            "fantasia": "PERNOD",
-            "qt": 6,
-            "valor": 509.4
-          }
-        ]
-      },
-      {
         "codcli": "33288",
         "cliente": "ARMAZEM BRASIL LIMITADA",
         "bairro": "SÃO SEBASTIAO",
@@ -3252,6 +3176,26 @@ const NAO_POS_MG_DATA = {
             "fantasia": "PERNOD",
             "qt": 12,
             "valor": 538.8
+          }
+        ]
+      },
+      {
+        "codcli": "33290",
+        "cliente": "ARMAZEM BRASIL LIMITADA",
+        "bairro": "ANGÉLICA",
+        "dtultcomp": "30/07/2026",
+        "produtos": [
+          {
+            "produto": "AMARULA C LIQUEUR 750 ML",
+            "fantasia": "AURORA",
+            "qt": 12,
+            "valor": 1318.8
+          },
+          {
+            "produto": "GIN BEEFEATER 750ML",
+            "fantasia": "PERNOD",
+            "qt": 6,
+            "valor": 509.4
           }
         ]
       },
@@ -4323,29 +4267,16 @@ const NAO_POS_MG_DATA = {
         "bairro": "VILA MARIA III",
         "dtultcomp": "nan",
         "produtos": []
+      },
+      {
+        "codcli": "39855",
+        "cliente": "TSUKI EXPRESS RESTAURANTE E FAST FOOD LTDA",
+        "bairro": "SÃO GERALDO",
+        "dtultcomp": "nan",
+        "produtos": []
       }
     ],
     "TIAGO ANDRADE": [
-      {
-        "codcli": "33041",
-        "cliente": "MARCELO KOJIMA",
-        "bairro": "VALE DO SERENO",
-        "dtultcomp": "15/12/2025",
-        "produtos": [
-          {
-            "produto": "VINHO ARCAIA ROSE 750ML",
-            "fantasia": "CASTAS",
-            "qt": 6,
-            "valor": 449.4
-          },
-          {
-            "produto": "VINHO ORO GRAN RESERA MALBEC 750ML",
-            "fantasia": "CASTAS",
-            "qt": 6,
-            "valor": 419.4
-          }
-        ]
-      },
       {
         "codcli": "30909",
         "cliente": "PRODUTOS ALIMENTICIOS BETINENSE LTDA",
@@ -4651,32 +4582,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "30323",
-        "cliente": "CASA DE FRIOS E MASSAS AO GOSTO LTDA",
-        "bairro": "SANTO ANTONIO",
-        "dtultcomp": "23/06/2026",
-        "produtos": [
-          {
-            "produto": "4 PACK RED BULL MELANCIA",
-            "fantasia": "RED BULL",
-            "qt": 3,
-            "valor": 89.88
-          },
-          {
-            "produto": "4 PACK RED BULL SUMMER MELAO MARACUJA",
-            "fantasia": "RED BULL",
-            "qt": 3,
-            "valor": 89.88
-          },
-          {
-            "produto": "RED BULL SUGAR FREE  250 ML CX C/24",
-            "fantasia": "RED BULL",
-            "qt": 1,
-            "valor": 179.76
-          }
-        ]
-      },
-      {
         "codcli": "38776",
         "cliente": "CASA DE FRIOS E MASSAS AO GOSTO LTDA",
         "bairro": "ESTORIL",
@@ -4705,6 +4610,32 @@ const NAO_POS_MG_DATA = {
             "fantasia": "RED BULL",
             "qt": 1,
             "valor": 29.96
+          },
+          {
+            "produto": "RED BULL SUGAR FREE  250 ML CX C/24",
+            "fantasia": "RED BULL",
+            "qt": 1,
+            "valor": 179.76
+          }
+        ]
+      },
+      {
+        "codcli": "30323",
+        "cliente": "CASA DE FRIOS E MASSAS AO GOSTO LTDA",
+        "bairro": "SANTO ANTONIO",
+        "dtultcomp": "23/06/2026",
+        "produtos": [
+          {
+            "produto": "4 PACK RED BULL MELANCIA",
+            "fantasia": "RED BULL",
+            "qt": 3,
+            "valor": 89.88
+          },
+          {
+            "produto": "4 PACK RED BULL SUMMER MELAO MARACUJA",
+            "fantasia": "RED BULL",
+            "qt": 3,
+            "valor": 89.88
           },
           {
             "produto": "RED BULL SUGAR FREE  250 ML CX C/24",
@@ -5285,20 +5216,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "DIAGEO",
             "qt": 3,
             "valor": 314.7
-          }
-        ]
-      },
-      {
-        "codcli": "36510",
-        "cliente": "SUPERMERCADO ALIPAO LTDA",
-        "bairro": "ALÍPIO DE MELO",
-        "dtultcomp": "24/07/2026",
-        "produtos": [
-          {
-            "produto": "GIN GORDONS 750 ML",
-            "fantasia": "DIAGEO",
-            "qt": 7,
-            "valor": 349.3
           }
         ]
       },
