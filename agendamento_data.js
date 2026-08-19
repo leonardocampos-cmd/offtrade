@@ -26736,7 +26736,7 @@ const AGENDAMENTO_DATA = {
       ]
     }
   ],
-  "atualizado_em": "19/08/2026 17:56",
+  "atualizado_em": "19/08/2026 17:58",
   "comparativo": [
     {
       "msg_id": "1a01bc9a975c4cab",
@@ -27194,6 +27194,70 @@ const AGENDAMENTO_DATA = {
           "qt": 60,
           "preco": 35.9,
           "total": 2154.0,
+          "qt_faturada": 0.0,
+          "valor_faturado": 0.0,
+          "status": "Pendente",
+          "nf": "",
+          "agendado": false
+        }
+      ]
+    },
+    {
+      "msg_id": "1a01bcebbc50657c",
+      "subject": "Fwd: Pedido do cliente 83800 Supermercado Rio Sul de Comendador Soares",
+      "data_email": "2026-08-19",
+      "sistema": "CRC - 04",
+      "cod_cliente": "83800",
+      "razao_social": "SUPERMERCADOS RIO SUL DE COMERCIADOR SOARES LTDA",
+      "fantasia": "SUPERMERCADOS RIO SUL DE COMERCIADOR SOAR",
+      "cnpj": "44.747.049/0001-88",
+      "rca": "153 - ANGELO NEVES SUZART - OFF TRADE",
+      "bonificacao": false,
+      "prazo": "28",
+      "obs": "entregar no dia 18/08 com pagamento de descarga no valor R$60,00 por pallets horario das 08:00 às 14:00hr por ordem de chegada pedido 88611",
+      "itens": [
+        {
+          "cod_prod": "381",
+          "descricao": "CACHACA VELHO BARREIRO 910 ML",
+          "qt": 24,
+          "preco": 12.3,
+          "total": 309.6,
+          "qt_faturada": 0.0,
+          "valor_faturado": 0.0,
+          "status": "Pendente",
+          "nf": "",
+          "agendado": false
+        },
+        {
+          "cod_prod": "663",
+          "descricao": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+          "qt": 24,
+          "preco": 36.3,
+          "total": 871.8,
+          "qt_faturada": 0.0,
+          "valor_faturado": 0.0,
+          "status": "Pendente",
+          "nf": "",
+          "agendado": false
+        },
+        {
+          "cod_prod": "271",
+          "descricao": "ESPUM CASA PERINI MOSCATEL 750ML",
+          "qt": 12,
+          "preco": 36.3,
+          "total": 435.6,
+          "qt_faturada": 0.0,
+          "valor_faturado": 0.0,
+          "status": "Pendente",
+          "nf": "",
+          "agendado": false
+        },
+        {
+          "cod_prod": "7081",
+          "descricao": "SUCO DE UVA TITOTI QUINTA DO MORGADO 1L",
+          "qt": 36,
+          "preco": 11.3,
+          "total": 428.4,
           "qt_faturada": 0.0,
           "valor_faturado": 0.0,
           "status": "Pendente",
