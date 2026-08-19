@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_mg.py
 
 const NAO_POS_MG_DATA = {
-  "atualizado_em": "18/08/2026 17:41",
+  "atualizado_em": "19/08/2026 10:41",
   "por_vendedor": {
     "BRUNA CASTRO MELLO": [
       {
@@ -1860,26 +1860,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "30892",
-        "cliente": "JL CAFETERIA EIRELI",
-        "bairro": "VILA DA SERRA",
-        "dtultcomp": "30/06/2026",
-        "produtos": [
-          {
-            "produto": "ST PIERRE SUGAR FREE LT 270MLX6",
-            "fantasia": "TATUZINHO",
-            "qt": 4,
-            "valor": 107.6
-          },
-          {
-            "produto": "ST PIERRE TONICA LT 270MLX6",
-            "fantasia": "TATUZINHO",
-            "qt": 8,
-            "valor": 215.2
-          }
-        ]
-      },
-      {
         "codcli": "30114",
         "cliente": "EMPREENDIMENTOS VIP LTDA",
         "bairro": "SANTO ANTONIO",
@@ -2020,6 +2000,20 @@ const NAO_POS_MG_DATA = {
             "fantasia": "HEINEKEN",
             "qt": 4,
             "valor": 875.04
+          }
+        ]
+      },
+      {
+        "codcli": "33182",
+        "cliente": "BUTECO FIADO LTDA",
+        "bairro": "LOURDES",
+        "dtultcomp": "08/07/2026",
+        "produtos": [
+          {
+            "produto": "YVY DESTILADO GIN AR LT 710ML",
+            "fantasia": "YVY",
+            "qt": 12,
+            "valor": 346.8
           }
         ]
       },
