@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_es.py
 
 const NAO_POS_ES_DATA = {
-  "atualizado_em": "19/08/2026 17:16",
+  "atualizado_em": "19/08/2026 17:44",
   "por_vendedor": {
     "ADEILSON GONÇALVEZ": [
       {
@@ -13565,21 +13565,14 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
-        "codcli": "93791",
+        "codcli": "67822",
         "cliente": "SUPERMERCADO BARRA OESTE LTDA",
         "bairro": "BARRA DA TIJUCA",
         "dtultcomp": "nan",
         "produtos": []
       },
       {
-        "codcli": "3754",
-        "cliente": "SUPERMERCADO BARRA OESTE LTDA",
-        "bairro": "RECREIO DOS BANDEIRANTES",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "67822",
+        "codcli": "93791",
         "cliente": "SUPERMERCADO BARRA OESTE LTDA",
         "bairro": "BARRA DA TIJUCA",
         "dtultcomp": "nan",
@@ -13589,6 +13582,13 @@ const NAO_POS_ES_DATA = {
         "codcli": "67821",
         "cliente": "SUPERMERCADO BARRA OESTE LTDA",
         "bairro": "BARRA DA TIJUCA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "3754",
+        "cliente": "SUPERMERCADO BARRA OESTE LTDA",
+        "bairro": "RECREIO DOS BANDEIRANTES",
         "dtultcomp": "nan",
         "produtos": []
       }
@@ -20180,98 +20180,6 @@ const NAO_POS_ES_DATA = {
         ]
       },
       {
-        "codcli": "83576",
-        "cliente": "SUPER ATLANTICO MERCADO LTDA",
-        "bairro": "CAMINHO DE BUZIOS",
-        "dtultcomp": "08/01/2026",
-        "produtos": [
-          {
-            "produto": "RED BULL  MELAO MARACUJA 24X250ML",
-            "fantasia": "RED BULL",
-            "qt": 1,
-            "valor": 174.9
-          },
-          {
-            "produto": "RED BULL 24X250ML",
-            "fantasia": "RED BULL",
-            "qt": 5,
-            "valor": 874.8
-          },
-          {
-            "produto": "RED BULL CEREJA 24X250ML",
-            "fantasia": "RED BULL",
-            "qt": 1,
-            "valor": 174.96
-          },
-          {
-            "produto": "RED BULL MELANCIA 250ML CX C/24",
-            "fantasia": "RED BULL",
-            "qt": 1,
-            "valor": 174.96
-          },
-          {
-            "produto": "RED BULL MORANGO PESSEGO 24X250ML",
-            "fantasia": "RED BULL",
-            "qt": 1,
-            "valor": 174.96
-          },
-          {
-            "produto": "RED BULL SF AMORA 24X250ML",
-            "fantasia": "RED BULL",
-            "qt": 1,
-            "valor": 174.96
-          },
-          {
-            "produto": "RED BULL SF BLUEBERRY BAUNILHA  24X250ML",
-            "fantasia": "RED BULL",
-            "qt": 1,
-            "valor": 174.96
-          },
-          {
-            "produto": "RED BULL SF NECTARINA 24X250ML",
-            "fantasia": "RED BULL",
-            "qt": 1,
-            "valor": 174.96
-          },
-          {
-            "produto": "RED BULL SF POMELO 24X250ML",
-            "fantasia": "RED BULL",
-            "qt": 1,
-            "valor": 174.96
-          },
-          {
-            "produto": "RED BULL SUGAR FREE 24X250ML",
-            "fantasia": "RED BULL",
-            "qt": 1,
-            "valor": 174.96
-          },
-          {
-            "produto": "RED BULL TROPICAL 24X250ML",
-            "fantasia": "RED BULL",
-            "qt": 1,
-            "valor": 174.96
-          },
-          {
-            "produto": "RED BULL ZERO  24X250ML",
-            "fantasia": "RED BULL",
-            "qt": 1,
-            "valor": 174.96
-          },
-          {
-            "produto": "VODKA ABSOLUT 1L",
-            "fantasia": "PERNOD",
-            "qt": 2,
-            "valor": 131.8
-          },
-          {
-            "produto": "WHISKY JACK DANIELS  700ML",
-            "fantasia": "BROWN",
-            "qt": 2,
-            "valor": 199.8
-          }
-        ]
-      },
-      {
         "codcli": "50446",
         "cliente": "LEONARDO ALVES TARDELLI 17947773777",
         "bairro": "MANGUINHOS",
@@ -20810,20 +20718,6 @@ const NAO_POS_ES_DATA = {
             "fantasia": "DIAGEO",
             "qt": 12,
             "valor": 790.8
-          }
-        ]
-      },
-      {
-        "codcli": "82167",
-        "cliente": "RESTAURANTE DO MERGULHADOR LTDA",
-        "bairro": "TUCUNS",
-        "dtultcomp": "01/07/2026",
-        "produtos": [
-          {
-            "produto": "CERVEJA HEINEKEN RET 24X600ML",
-            "fantasia": "KAISER",
-            "qt": 2,
-            "valor": 419.8
           }
         ]
       },
