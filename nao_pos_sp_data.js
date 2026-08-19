@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_sp.py
 
 const NAO_POS_SP_DATA = {
-  "atualizado_em": "19/08/2026 13:43",
+  "atualizado_em": "19/08/2026 14:39",
   "por_vendedor": {
     "ADER ALONSO": [
       {
@@ -10059,6 +10059,13 @@ const NAO_POS_SP_DATA = {
         "codcli": "52488",
         "cliente": "MATEUS CESTARI MATOS LTDA",
         "bairro": "CENTRO",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "52560",
+        "cliente": "PSPC DISTRIBUIDORA DE BEBIDAS LTDA",
+        "bairro": "QUINTINO FACCI II",
         "dtultcomp": "nan",
         "produtos": []
       },
