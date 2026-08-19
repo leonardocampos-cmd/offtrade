@@ -1,5 +1,5 @@
 const CRUSOE_DATA = {
-  "atualizado_em": "18/08/2026 17:33",
+  "atualizado_em": "19/08/2026 10:25",
   "periodo": {
     "ini": "01/07/2026",
     "fim": "31/08/2026"
@@ -3167,14 +3167,14 @@ const CRUSOE_DATA = {
         {
           "rca": 153,
           "vendedor": "Angelo Neves Suzart",
-          "pedidos": 11,
+          "pedidos": 12,
           "positivacoes": 2,
-          "novos_skus": 14,
-          "faturamento": 17390.15,
+          "novos_skus": 15,
+          "faturamento": 18647.15,
           "pontos_positivacao": 10,
-          "pontos_novos_skus": 56,
-          "pontos_pedidos_valor": 17,
-          "pontos_total": 83,
+          "pontos_novos_skus": 60,
+          "pontos_pedidos_valor": 19,
+          "pontos_total": 89,
           "vendas": [
             {
               "numnota": "408274",
@@ -3544,6 +3544,37 @@ const CRUSOE_DATA = {
                   "qt": 5.0,
                   "valor": 1047.5,
                   "pontuacoes": []
+                }
+              ]
+            },
+            {
+              "numnota": "422710",
+              "data": "18/08/2026",
+              "cliente": "SUPERMERCADO RIO SUL DE PRIMAVERA LTDA",
+              "valor_pedido": 1257.0,
+              "eventos": [
+                {
+                  "tipo": "pedido (R$1001-3000)",
+                  "pontos": 2
+                }
+              ],
+              "itens": [
+                {
+                  "produto": "RC SARDINHA EM OLEO 50X125G",
+                  "qt": 3.0,
+                  "valor": 628.5,
+                  "pontuacoes": []
+                },
+                {
+                  "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
+                  "qt": 3.0,
+                  "valor": 628.5,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 4
+                    }
+                  ]
                 }
               ]
             }
@@ -3925,7 +3956,7 @@ const CRUSOE_DATA = {
           "rca": 379,
           "vendedor": "Jorge Maciel",
           "clientes_gourmet": 0,
-          "faturamento": 13861.48,
+          "faturamento": 14504.98,
           "faturamento_gourmet": 0.0,
           "pontos_total": 0,
           "vendas": []
