@@ -1,5 +1,5 @@
 const ACAO_AMARULA_DATA = {
-  "atualizado_em": "19/08/2026 14:22",
+  "atualizado_em": "19/08/2026 17:06",
   "periodo": {
     "ini": "19/08/2026",
     "fim": "19/09/2026"
@@ -18,13 +18,20 @@ const ACAO_AMARULA_DATA = {
     200
   ],
   "total_vendedores": 27,
-  "total_volume": 0,
-  "total_faturamento": 0.0,
+  "total_volume": 7,
+  "total_faturamento": 692.3,
   "ranking": [
     {
+      "vendedor": "MATEUS CARDOSO",
+      "volume": 6,
+      "faturamento": 593.4,
+      "elegivel": false,
+      "premio": null
+    },
+    {
       "vendedor": "ADEILSON GONÇALVEZ",
-      "volume": 0,
-      "faturamento": 0.0,
+      "volume": 1,
+      "faturamento": 98.9,
       "elegivel": false,
       "premio": null
     },
@@ -177,13 +184,6 @@ const ACAO_AMARULA_DATA = {
     },
     {
       "vendedor": "MARILENA TRAGEL",
-      "volume": 0,
-      "faturamento": 0.0,
-      "elegivel": false,
-      "premio": null
-    },
-    {
-      "vendedor": "MATEUS CARDOSO",
       "volume": 0,
       "faturamento": 0.0,
       "elegivel": false,
