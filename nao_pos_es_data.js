@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_es.py
 
 const NAO_POS_ES_DATA = {
-  "atualizado_em": "19/08/2026 13:44",
+  "atualizado_em": "19/08/2026 14:39",
   "por_vendedor": {
     "ADEILSON GONÇALVEZ": [
       {
@@ -1703,9 +1703,23 @@ const NAO_POS_ES_DATA = {
         ]
       },
       {
+        "codcli": "96105",
+        "cliente": "42.559.760 ADRIANO PASSOS LOPES ANTUNES",
+        "bairro": "REALENGO",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
         "codcli": "95599",
         "cliente": "DROGARIA FREGUESIA DA ILHA LTDA",
         "bairro": "FREGUESIA (ILHA DO GOVERNADOR)",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "84081",
+        "cliente": "WALMES COMERCIO DE ALIMENTOS LTDA",
+        "bairro": "CURICICA",
         "dtultcomp": "nan",
         "produtos": []
       }
@@ -2428,44 +2442,6 @@ const NAO_POS_ES_DATA = {
         ]
       },
       {
-        "codcli": "95534",
-        "cliente": "G5 DROGARIAS LTDA",
-        "bairro": "IPANEMA",
-        "dtultcomp": "30/06/2026",
-        "produtos": [
-          {
-            "produto": "GUARAVITON GINSENG 12X500ML",
-            "fantasia": "VITON",
-            "qt": 1,
-            "valor": 31.89
-          },
-          {
-            "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
-            "fantasia": "TATUZINHO",
-            "qt": 1,
-            "valor": 94.68
-          },
-          {
-            "produto": "MOVING HYDRO PROTEIN LIMAO 12X500ML",
-            "fantasia": "TATUZINHO",
-            "qt": 1,
-            "valor": 94.68
-          },
-          {
-            "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
-            "fantasia": "TATUZINHO",
-            "qt": 1,
-            "valor": 94.68
-          },
-          {
-            "produto": "MOVING HYDRO PROTEIN UVA 12X500ML",
-            "fantasia": "TATUZINHO",
-            "qt": 1,
-            "valor": 94.68
-          }
-        ]
-      },
-      {
         "codcli": "95536",
         "cliente": "G5 DROGARIAS LTDA",
         "bairro": "COPACABANA",
@@ -2485,6 +2461,44 @@ const NAO_POS_ES_DATA = {
           },
           {
             "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+            "fantasia": "TATUZINHO",
+            "qt": 1,
+            "valor": 94.68
+          },
+          {
+            "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+            "fantasia": "TATUZINHO",
+            "qt": 1,
+            "valor": 94.68
+          },
+          {
+            "produto": "MOVING HYDRO PROTEIN UVA 12X500ML",
+            "fantasia": "TATUZINHO",
+            "qt": 1,
+            "valor": 94.68
+          }
+        ]
+      },
+      {
+        "codcli": "95534",
+        "cliente": "G5 DROGARIAS LTDA",
+        "bairro": "IPANEMA",
+        "dtultcomp": "30/06/2026",
+        "produtos": [
+          {
+            "produto": "GUARAVITON GINSENG 12X500ML",
+            "fantasia": "VITON",
+            "qt": 1,
+            "valor": 31.89
+          },
+          {
+            "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+            "fantasia": "TATUZINHO",
+            "qt": 1,
+            "valor": 94.68
+          },
+          {
+            "produto": "MOVING HYDRO PROTEIN LIMAO 12X500ML",
             "fantasia": "TATUZINHO",
             "qt": 1,
             "valor": 94.68
@@ -3083,6 +3097,13 @@ const NAO_POS_ES_DATA = {
         "codcli": "96067",
         "cliente": "DROGARIA SOROCABA LTDA",
         "bairro": "BOTAFOGO",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "96107",
+        "cliente": "MERCEARIA E DISTRIBUIDORA DE PRODUTOS ALIMENTICIOS ATODO VAP",
+        "bairro": "GÁVEA",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -22296,6 +22317,13 @@ const NAO_POS_ES_DATA = {
         "codcli": "95846",
         "cliente": "CK ATACAREJO LTDA",
         "bairro": "PECHINCHA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "96106",
+        "cliente": "IMOBILIARIA ALIANCA VENDA, COMPRA E LOCACAO DE IMOVEIS LTDA",
+        "bairro": "CENTRO",
         "dtultcomp": "nan",
         "produtos": []
       },
