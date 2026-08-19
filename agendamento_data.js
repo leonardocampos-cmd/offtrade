@@ -45,7 +45,7 @@ const AGENDAMENTO_DATA = {
           "nf": "7734",
           "data_agendamento": "17/08/2026",
           "data_ord": "2026-08-17",
-          "status": "EM ROTA",
+          "status": "ENTREGUE",
           "obs": "Caixas e rótulos íntegros.",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -733,6 +733,20 @@ const AGENDAMENTO_DATA = {
       "nome": "ANGELO NEVES SUZART - OFF TRADE",
       "itens": [
         {
+          "codigo_cliente": "95241",
+          "cliente": "BEATRIZ SENNA",
+          "cnpj": "66.870.979/0001-67",
+          "filial": "MEIER",
+          "valor": 274.8,
+          "nf": "",
+          "data_agendamento": "20/08/2026",
+          "data_ord": "2026-08-20",
+          "status": "A FATURAR",
+          "obs": "",
+          "status_logistica": "",
+          "justificativa_logistica": ""
+        },
+        {
           "codigo_cliente": "83800",
           "cliente": "SUPERMERCADOS RIO SUL DE COMENDADOR SOARES",
           "cnpj": "44.747.049/00001-88",
@@ -769,7 +783,7 @@ const AGENDAMENTO_DATA = {
           "nf": "7735",
           "data_agendamento": "17/08/2026",
           "data_ord": "2026-08-17",
-          "status": "EM ROTA",
+          "status": "ENTREGUE",
           "obs": "",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -783,7 +797,7 @@ const AGENDAMENTO_DATA = {
           "nf": "7730",
           "data_agendamento": "17/08/2026",
           "data_ord": "2026-08-17",
-          "status": "EM ROTA",
+          "status": "ENTREGUE",
           "obs": "",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -797,7 +811,7 @@ const AGENDAMENTO_DATA = {
           "nf": "7733",
           "data_agendamento": "17/08/2026",
           "data_ord": "2026-08-17",
-          "status": "EM ROTA",
+          "status": "ENTREGUE",
           "obs": "",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -811,7 +825,7 @@ const AGENDAMENTO_DATA = {
           "nf": "417778",
           "data_agendamento": "17/08/2026",
           "data_ord": "2026-08-17",
-          "status": "EM ROTA",
+          "status": "ENTREGUE",
           "obs": "Embarcar caixas originais e íntegras.",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -825,7 +839,7 @@ const AGENDAMENTO_DATA = {
           "nf": "7732",
           "data_agendamento": "17/08/2026",
           "data_ord": "2026-08-17",
-          "status": "EM ROTA",
+          "status": "ENTREGUE",
           "obs": "",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -3920,7 +3934,7 @@ const AGENDAMENTO_DATA = {
           "nf": "7073",
           "data_agendamento": "17/08/2026",
           "data_ord": "2026-08-17",
-          "status": "EM ROTA",
+          "status": "ENTREGUE",
           "obs": "IR CARRO DEDICADO SOMENTE COM A MERCADORIA DESTE MERCADO                                                                                                                                                                  Carga paletizada;\nSem atrasos, ou faltas, o pedidos são agendados no portal da rede;                                   Rótulos inviolados, caixas originais, carga completa, sem fração.",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -3934,7 +3948,7 @@ const AGENDAMENTO_DATA = {
           "nf": "7074",
           "data_agendamento": "17/08/2026",
           "data_ord": "2026-08-17",
-          "status": "EM ROTA",
+          "status": "ENTREGUE",
           "obs": "IR CARRO DEDICADO SOMENTE COM A MERCADORIA DESTE MERCADO                                                                                                                                                                  Carga paletizada;\nSem atrasos, ou faltas, o pedidos são agendados no portal da rede;                                   Rótulos inviolados, caixas originais, carga completa, sem fração.",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -3948,7 +3962,7 @@ const AGENDAMENTO_DATA = {
           "nf": "7076",
           "data_agendamento": "17/08/2026",
           "data_ord": "2026-08-17",
-          "status": "EM ROTA",
+          "status": "ENTREGUE",
           "obs": "IR CARRO DEDICADO SOMENTE COM A MERCADORIA DESTE MERCADO                                                                                                                                                                  Carga paletizada;\nSem atrasos, ou faltas, o pedidos são agendados no portal da rede;                                   Rótulos inviolados, caixas originais, carga completa, sem fração.",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -6347,7 +6361,7 @@ const AGENDAMENTO_DATA = {
           "nf": "7698",
           "data_agendamento": "14/08/2026",
           "data_ord": "2026-08-14",
-          "status": "EM ROTA",
+          "status": "ENTREGUE",
           "obs": "Caixas e rótulos íntegros",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -6361,7 +6375,7 @@ const AGENDAMENTO_DATA = {
           "nf": "7696",
           "data_agendamento": "14/08/2026",
           "data_ord": "2026-08-14",
-          "status": "EM ROTA",
+          "status": "ENTREGUE",
           "obs": "",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -16351,7 +16365,7 @@ const AGENDAMENTO_DATA = {
           "nf": "7729",
           "data_agendamento": "17/08/2026",
           "data_ord": "2026-08-17",
-          "status": "EM ROTA",
+          "status": "ENTREGUE",
           "obs": "",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -16365,7 +16379,7 @@ const AGENDAMENTO_DATA = {
           "nf": "7731",
           "data_agendamento": "17/08/2026",
           "data_ord": "2026-08-17",
-          "status": "EM ROTA",
+          "status": "ENTREGUE",
           "obs": "O cliente recebe na hora sem espera, não tem valor de descarga.",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -17733,7 +17747,7 @@ const AGENDAMENTO_DATA = {
           "nf": "7746",
           "data_agendamento": "18/08/2026",
           "data_ord": "2026-08-18",
-          "status": "EM ROTA",
+          "status": "ENTREGUE",
           "obs": "Caixas e rótulos íntegros",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -17747,7 +17761,7 @@ const AGENDAMENTO_DATA = {
           "nf": "7750",
           "data_agendamento": "18/08/2026",
           "data_ord": "2026-08-18",
-          "status": "EM ROTA",
+          "status": "ENTREGUE",
           "obs": "DESCARGA: R$25,00 POR PALLET PALETIZADO - CARRO DEDICADO.",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -17775,7 +17789,7 @@ const AGENDAMENTO_DATA = {
           "nf": "7433",
           "data_agendamento": "18/08/2026",
           "data_ord": "2026-08-18",
-          "status": "EM ROTA",
+          "status": "ENTREGUE",
           "obs": "Caixas e rótulos íntegros;",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -17789,7 +17803,7 @@ const AGENDAMENTO_DATA = {
           "nf": "7759",
           "data_agendamento": "18/08/2026",
           "data_ord": "2026-08-18",
-          "status": "EM ROTA",
+          "status": "ENTREGUE",
           "obs": "Caixas e rótulos íntegros;",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -17803,7 +17817,7 @@ const AGENDAMENTO_DATA = {
           "nf": "7429",
           "data_agendamento": "18/08/2026",
           "data_ord": "2026-08-18",
-          "status": "EM ROTA",
+          "status": "ENTREGUE",
           "obs": "Caixas e rótulos íntegros;",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -17817,7 +17831,7 @@ const AGENDAMENTO_DATA = {
           "nf": "7747",
           "data_agendamento": "18/08/2026",
           "data_ord": "2026-08-18",
-          "status": "EM ROTA",
+          "status": "ENTREGUE",
           "obs": "Caixas e rótulos íntegros;",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -17831,7 +17845,7 @@ const AGENDAMENTO_DATA = {
           "nf": "7766",
           "data_agendamento": "18/08/2026",
           "data_ord": "2026-08-18",
-          "status": "EM ROTA",
+          "status": "ENTREGUE",
           "obs": "CAIXAS E RÓTULOS ÍNTEGROS E ORIGINAIS",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -17845,7 +17859,7 @@ const AGENDAMENTO_DATA = {
           "nf": "7757",
           "data_agendamento": "18/08/2026",
           "data_ord": "2026-08-18",
-          "status": "EM ROTA",
+          "status": "ENTREGUE",
           "obs": "SUPERMERCADO SUPERMAKET - PRODUTOS EM ENCARTE",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -17915,7 +17929,7 @@ const AGENDAMENTO_DATA = {
           "nf": "7755",
           "data_agendamento": "18/08/2026",
           "data_ord": "2026-08-18",
-          "status": "EM ROTA",
+          "status": "ENTREGUE",
           "obs": "Caixas e rótulos íntegros;",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -17929,7 +17943,7 @@ const AGENDAMENTO_DATA = {
           "nf": "7302",
           "data_agendamento": "17/08/2026",
           "data_ord": "2026-08-17",
-          "status": "EM ROTA",
+          "status": "ENTREGUE",
           "obs": "SUPERMERCADO SUPERMAKET - BONIFICAÇÃO",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -17943,7 +17957,7 @@ const AGENDAMENTO_DATA = {
           "nf": "7728",
           "data_agendamento": "17/08/2026",
           "data_ord": "2026-08-17",
-          "status": "EM ROTA",
+          "status": "ENTREGUE",
           "obs": "SUPERMERCADO SUPERMAKET - PRODUTOS EM ENCARTE",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -17957,7 +17971,7 @@ const AGENDAMENTO_DATA = {
           "nf": "7714",
           "data_agendamento": "14/08/2026",
           "data_ord": "2026-08-14",
-          "status": "EM ROTA",
+          "status": "ENTREGUE",
           "obs": "SUPERMERCADO SUPERMAKET - URGENTE",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -22788,7 +22802,7 @@ const AGENDAMENTO_DATA = {
           "nf": "7756",
           "data_agendamento": "18/08/2026",
           "data_ord": "2026-08-18",
-          "status": "EM ROTA",
+          "status": "ENTREGUE",
           "obs": "",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -26722,7 +26736,7 @@ const AGENDAMENTO_DATA = {
       ]
     }
   ],
-  "atualizado_em": "19/08/2026 14:37",
+  "atualizado_em": "19/08/2026 17:14",
   "comparativo": [
     {
       "msg_id": "1a000be7acfbb4b6",
