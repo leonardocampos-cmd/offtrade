@@ -1,6 +1,6 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "19/08/2026 17:17",
+  "atualizado_em": "19/08/2026 17:45",
   "total": 25421,
   "clientes": [
     {
@@ -15820,26 +15820,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "ROMARIO DOS SANTOS",
       "ultimo_rca": "264",
       "ultimo_rca_nome": "EDUARDO SIRQUEIRA",
-      "ultimo_rca_ot": "",
-      "ultimo_rca_ot_nome": ""
-    },
-    {
-      "codcli": "78186",
-      "razao": "46.015.381 MYLLENA VIRGINIA NUNES PEREIRA",
-      "fantasia": "MYLLENA VIRGINIA NUNES PEREIR",
-      "bairro": "OSWALDO CRUZ",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "46.015.381/0001-83",
-      "estado": "RJ",
-      "ramo": "BAR",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": "",
-      "ultimo_rca": "437",
-      "ultimo_rca_nome": "BEES",
       "ultimo_rca_ot": "",
       "ultimo_rca_ot_nome": ""
     },
@@ -158338,8 +158318,8 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "W.S",
       "codusur2": "426",
       "nome_usur2": "ADER ALONSO - OFF TRADE",
-      "ultimo_rca": "1",
-      "ultimo_rca_nome": "RQ",
+      "ultimo_rca": "426",
+      "ultimo_rca_nome": "ADER ALONSO - OFF TRADE",
       "ultimo_rca_ot": "426",
       "ultimo_rca_ot_nome": "ADER ALONSO - OFF TRADE"
     },
@@ -399384,6 +399364,26 @@ const CLIENTES_RCA_DATA = {
       "ultimo_rca_ot_nome": "ADER ALONSO - OFF TRADE"
     },
     {
+      "codcli": "33031",
+      "razao": "PRIDE COMERCIO DE BEBIDAS LTDA",
+      "fantasia": "ADEGA PRIDE",
+      "bairro": "JARDIM ROBERTO",
+      "cidade": "OSASCO",
+      "cnpj": "37.680.107/0001-38",
+      "estado": "SP",
+      "ramo": "ADEGA",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "588",
+      "nome_usur1": "W.S",
+      "codusur2": "",
+      "nome_usur2": "",
+      "ultimo_rca": "588",
+      "ultimo_rca_nome": "W.S",
+      "ultimo_rca_ot": "",
+      "ultimo_rca_ot_nome": ""
+    },
+    {
       "codcli": "5257",
       "razao": "PRIMA 5 LEMAX 1 LANCHONETE LTDA EPP",
       "fantasia": "LEMAX",
@@ -446678,10 +446678,10 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "WILLIAM GONCALVES - OFF TRADE",
       "codusur2": "",
       "nome_usur2": "",
-      "ultimo_rca": "146",
-      "ultimo_rca_nome": "DIEGO ZAMBARDINO",
-      "ultimo_rca_ot": "",
-      "ultimo_rca_ot_nome": ""
+      "ultimo_rca": "512",
+      "ultimo_rca_nome": "WILLIAM GONCALVES - OFF TRADE",
+      "ultimo_rca_ot": "512",
+      "ultimo_rca_ot_nome": "WILLIAM GONCALVES - OFF TRADE"
     },
     {
       "codcli": "38196",
