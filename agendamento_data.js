@@ -747,20 +747,6 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "83800",
-          "cliente": "SUPERMERCADOS RIO SUL DE COMENDADOR SOARES",
-          "cnpj": "44.747.049/00001-88",
-          "filial": "NOVA IGUAÇU",
-          "valor": 1992.6,
-          "nf": "",
-          "data_agendamento": "19/08/2026",
-          "data_ord": "2026-08-19",
-          "status": "A FATURAR",
-          "obs": "Caixas e rótulos íntegros.",
-          "status_logistica": "",
-          "justificativa_logistica": ""
-        },
-        {
           "codigo_cliente": "84130",
           "cliente": "VILA SANTA CRUZ COMERCIO DE GENEROS ALIMENTICIOS LTDA",
           "cnpj": "35.602.394/0001-32",
@@ -3123,6 +3109,20 @@ const AGENDAMENTO_DATA = {
           "data_ord": "2025-10-27",
           "status": "ENTREGUE",
           "obs": "ecebimento da entrega esta agendada com a senha de entrega que estará no corpo da NF / clientes tem pagamento de descarga por pallet.",
+          "status_logistica": "",
+          "justificativa_logistica": ""
+        },
+        {
+          "codigo_cliente": "83800",
+          "cliente": "SUPERMERCADOS RIO SUL DE COMENDADOR SOARES",
+          "cnpj": "44.747.049/00001-88",
+          "filial": "NOVA IGUAÇU",
+          "valor": 1992.6,
+          "nf": "",
+          "data_agendamento": "",
+          "data_ord": "",
+          "status": "A FATURAR",
+          "obs": "Caixas e rótulos íntegros.",
           "status_logistica": "",
           "justificativa_logistica": ""
         }
@@ -26736,7 +26736,7 @@ const AGENDAMENTO_DATA = {
       ]
     }
   ],
-  "atualizado_em": "19/08/2026 17:14",
+  "atualizado_em": "19/08/2026 17:43",
   "comparativo": [
     {
       "msg_id": "1a000be7acfbb4b6",
