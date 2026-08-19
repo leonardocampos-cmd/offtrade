@@ -1,5 +1,5 @@
 const CRUSOE_DATA = {
-  "atualizado_em": "19/08/2026 13:34",
+  "atualizado_em": "19/08/2026 14:21",
   "periodo": {
     "ini": "01/07/2026",
     "fim": "31/08/2026"
@@ -61,6 +61,28 @@ const CRUSOE_DATA = {
               ],
               "itens": [
                 {
+                  "produto": "RC ATUM SOLIDO NATURAL 24X170G",
+                  "qt": 5.0,
+                  "valor": 838.45,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 5
+                    }
+                  ]
+                },
+                {
+                  "produto": "RC ATUM PEDACOS NATURAL 24X140G",
+                  "qt": 2.0,
+                  "valor": 389.18,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 5
+                    }
+                  ]
+                },
+                {
                   "produto": "RC ATUM RALADO NATURAL 24X140G",
                   "qt": 5.0,
                   "valor": 760.35,
@@ -83,17 +105,6 @@ const CRUSOE_DATA = {
                   ]
                 },
                 {
-                  "produto": "RC ATUM SOLIDO NATURAL 24X170G",
-                  "qt": 5.0,
-                  "valor": 838.45,
-                  "pontuacoes": [
-                    {
-                      "tipo": "novo SKU",
-                      "pontos": 5
-                    }
-                  ]
-                },
-                {
                   "produto": "RC ATUM SOLIDO OLEO 24X170G",
                   "qt": 2.0,
                   "valor": 335.38,
@@ -108,17 +119,6 @@ const CRUSOE_DATA = {
                   "produto": "RC ATUM PEDACOS EM OLEO 24X140G",
                   "qt": 5.0,
                   "valor": 972.85,
-                  "pontuacoes": [
-                    {
-                      "tipo": "novo SKU",
-                      "pontos": 5
-                    }
-                  ]
-                },
-                {
-                  "produto": "RC ATUM PEDACOS NATURAL 24X140G",
-                  "qt": 2.0,
-                  "valor": 389.18,
                   "pontuacoes": [
                     {
                       "tipo": "novo SKU",
@@ -167,6 +167,28 @@ const CRUSOE_DATA = {
               ],
               "itens": [
                 {
+                  "produto": "RC ATUM SOLIDO NATURAL 24X170G",
+                  "qt": 15.0,
+                  "valor": 2515.35,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 5
+                    }
+                  ]
+                },
+                {
+                  "produto": "RC ATUM PEDACOS NATURAL 24X140G",
+                  "qt": 5.0,
+                  "valor": 972.95,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 5
+                    }
+                  ]
+                },
+                {
                   "produto": "RC ATUM RALADO NATURAL 24X140G",
                   "qt": 5.0,
                   "valor": 760.35,
@@ -189,17 +211,6 @@ const CRUSOE_DATA = {
                   ]
                 },
                 {
-                  "produto": "RC ATUM SOLIDO NATURAL 24X170G",
-                  "qt": 15.0,
-                  "valor": 2515.35,
-                  "pontuacoes": [
-                    {
-                      "tipo": "novo SKU",
-                      "pontos": 5
-                    }
-                  ]
-                },
-                {
                   "produto": "RC ATUM SOLIDO OLEO 24X170G",
                   "qt": 10.0,
                   "valor": 1676.9,
@@ -214,17 +225,6 @@ const CRUSOE_DATA = {
                   "produto": "RC ATUM PEDACOS EM OLEO 24X140G",
                   "qt": 10.0,
                   "valor": 1945.7,
-                  "pontuacoes": [
-                    {
-                      "tipo": "novo SKU",
-                      "pontos": 5
-                    }
-                  ]
-                },
-                {
-                  "produto": "RC ATUM PEDACOS NATURAL 24X140G",
-                  "qt": 5.0,
-                  "valor": 972.95,
                   "pontuacoes": [
                     {
                       "tipo": "novo SKU",
@@ -269,13 +269,13 @@ const CRUSOE_DATA = {
               ],
               "itens": [
                 {
-                  "produto": "RC ATUM PEDACOS EM OLEO 24X140G",
+                  "produto": "RC ATUM PEDACOS NATURAL 24X140G",
                   "qt": 184.0,
                   "valor": 31342.31,
                   "pontuacoes": []
                 },
                 {
-                  "produto": "RC ATUM PEDACOS NATURAL 24X140G",
+                  "produto": "RC ATUM PEDACOS EM OLEO 24X140G",
                   "qt": 184.0,
                   "valor": 31342.31,
                   "pontuacoes": []
@@ -295,12 +295,6 @@ const CRUSOE_DATA = {
               ],
               "itens": [
                 {
-                  "produto": "RC ATUM RALADO NATURAL 24X140G",
-                  "qt": 46.0,
-                  "valor": 6200.33,
-                  "pontuacoes": []
-                },
-                {
                   "produto": "RC ATUM SOLIDO NATURAL 24X170G",
                   "qt": 30.0,
                   "valor": 5554.52,
@@ -310,6 +304,12 @@ const CRUSOE_DATA = {
                       "pontos": 5
                     }
                   ]
+                },
+                {
+                  "produto": "RC ATUM RALADO NATURAL 24X140G",
+                  "qt": 46.0,
+                  "valor": 6200.33,
+                  "pontuacoes": []
                 },
                 {
                   "produto": "RC ATUM SOLIDO OLEO 24X170G",
@@ -542,9 +542,9 @@ const CRUSOE_DATA = {
               ],
               "itens": [
                 {
-                  "produto": "RC SARDINHA EM OLEO 50X125G",
+                  "produto": "RC ATUM SOLIDO NATURAL 24X170G",
                   "qt": 3.0,
-                  "valor": 748.5,
+                  "valor": 625.68,
                   "pontuacoes": [
                     {
                       "tipo": "novo SKU",
@@ -553,9 +553,20 @@ const CRUSOE_DATA = {
                   ]
                 },
                 {
-                  "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
+                  "produto": "RC ATUM PEDACOS NATURAL 24X140G",
                   "qt": 3.0,
-                  "valor": 748.5,
+                  "valor": 575.28,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 4
+                    }
+                  ]
+                },
+                {
+                  "produto": "RC SALADA DE ATUM - MEDITERRANEA 12X160G",
+                  "qt": 4.0,
+                  "valor": 479.6,
                   "pontuacoes": [
                     {
                       "tipo": "novo SKU",
@@ -586,17 +597,6 @@ const CRUSOE_DATA = {
                   ]
                 },
                 {
-                  "produto": "RC ATUM SOLIDO NATURAL 24X170G",
-                  "qt": 3.0,
-                  "valor": 625.68,
-                  "pontuacoes": [
-                    {
-                      "tipo": "novo SKU",
-                      "pontos": 4
-                    }
-                  ]
-                },
-                {
                   "produto": "RC ATUM SOLIDO OLEO 24X170G",
                   "qt": 3.0,
                   "valor": 625.68,
@@ -611,28 +611,6 @@ const CRUSOE_DATA = {
                   "produto": "RC ATUM PEDACOS EM OLEO 24X140G",
                   "qt": 3.0,
                   "valor": 575.28,
-                  "pontuacoes": [
-                    {
-                      "tipo": "novo SKU",
-                      "pontos": 4
-                    }
-                  ]
-                },
-                {
-                  "produto": "RC ATUM PEDACOS NATURAL 24X140G",
-                  "qt": 3.0,
-                  "valor": 575.28,
-                  "pontuacoes": [
-                    {
-                      "tipo": "novo SKU",
-                      "pontos": 4
-                    }
-                  ]
-                },
-                {
-                  "produto": "RC SALADA DE ATUM - MEDITERRANEA 12X160G",
-                  "qt": 4.0,
-                  "valor": 479.6,
                   "pontuacoes": [
                     {
                       "tipo": "novo SKU",
@@ -672,6 +650,28 @@ const CRUSOE_DATA = {
                       "pontos": 4
                     }
                   ]
+                },
+                {
+                  "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
+                  "qt": 3.0,
+                  "valor": 748.5,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 4
+                    }
+                  ]
+                },
+                {
+                  "produto": "RC SARDINHA EM OLEO 50X125G",
+                  "qt": 3.0,
+                  "valor": 748.5,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 4
+                    }
+                  ]
                 }
               ]
             },
@@ -691,6 +691,39 @@ const CRUSOE_DATA = {
                 }
               ],
               "itens": [
+                {
+                  "produto": "RC ATUM SOLIDO NATURAL 24X170G",
+                  "qt": 1.0,
+                  "valor": 208.56,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 4
+                    }
+                  ]
+                },
+                {
+                  "produto": "RC ATUM PEDACOS NATURAL 24X140G",
+                  "qt": 1.0,
+                  "valor": 191.76,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 4
+                    }
+                  ]
+                },
+                {
+                  "produto": "RC SALADA DE ATUM - MEDITERRANEA 12X160G",
+                  "qt": 2.0,
+                  "valor": 239.8,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 4
+                    }
+                  ]
+                },
                 {
                   "produto": "RC SARDINHA EM OLEO 50X125G",
                   "qt": 1.0,
@@ -736,17 +769,6 @@ const CRUSOE_DATA = {
                   ]
                 },
                 {
-                  "produto": "RC ATUM SOLIDO NATURAL 24X170G",
-                  "qt": 1.0,
-                  "valor": 208.56,
-                  "pontuacoes": [
-                    {
-                      "tipo": "novo SKU",
-                      "pontos": 4
-                    }
-                  ]
-                },
-                {
                   "produto": "RC ATUM SOLIDO OLEO 24X170G",
                   "qt": 1.0,
                   "valor": 208.56,
@@ -761,28 +783,6 @@ const CRUSOE_DATA = {
                   "produto": "RC ATUM PEDACOS EM OLEO 24X140G",
                   "qt": 1.0,
                   "valor": 191.76,
-                  "pontuacoes": [
-                    {
-                      "tipo": "novo SKU",
-                      "pontos": 4
-                    }
-                  ]
-                },
-                {
-                  "produto": "RC ATUM PEDACOS NATURAL 24X140G",
-                  "qt": 1.0,
-                  "valor": 191.76,
-                  "pontuacoes": [
-                    {
-                      "tipo": "novo SKU",
-                      "pontos": 4
-                    }
-                  ]
-                },
-                {
-                  "produto": "RC SALADA DE ATUM - MEDITERRANEA 12X160G",
-                  "qt": 2.0,
-                  "valor": 239.8,
                   "pontuacoes": [
                     {
                       "tipo": "novo SKU",
@@ -842,9 +842,9 @@ const CRUSOE_DATA = {
               ],
               "itens": [
                 {
-                  "produto": "RC SARDINHA EM OLEO 50X125G",
+                  "produto": "RC ATUM SOLIDO NATURAL 24X170G",
                   "qt": 2.0,
-                  "valor": 499.0,
+                  "valor": 417.12,
                   "pontuacoes": [
                     {
                       "tipo": "novo SKU",
@@ -853,9 +853,20 @@ const CRUSOE_DATA = {
                   ]
                 },
                 {
-                  "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
+                  "produto": "RC ATUM PEDACOS NATURAL 24X140G",
                   "qt": 2.0,
-                  "valor": 499.0,
+                  "valor": 383.52,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 4
+                    }
+                  ]
+                },
+                {
+                  "produto": "RC SALADA DE ATUM - MEDITERRANEA 12X160G",
+                  "qt": 2.0,
+                  "valor": 239.8,
                   "pontuacoes": [
                     {
                       "tipo": "novo SKU",
@@ -886,17 +897,6 @@ const CRUSOE_DATA = {
                   ]
                 },
                 {
-                  "produto": "RC ATUM SOLIDO NATURAL 24X170G",
-                  "qt": 2.0,
-                  "valor": 417.12,
-                  "pontuacoes": [
-                    {
-                      "tipo": "novo SKU",
-                      "pontos": 4
-                    }
-                  ]
-                },
-                {
                   "produto": "RC ATUM SOLIDO OLEO 24X170G",
                   "qt": 2.0,
                   "valor": 417.12,
@@ -911,28 +911,6 @@ const CRUSOE_DATA = {
                   "produto": "RC ATUM PEDACOS EM OLEO 24X140G",
                   "qt": 2.0,
                   "valor": 383.52,
-                  "pontuacoes": [
-                    {
-                      "tipo": "novo SKU",
-                      "pontos": 4
-                    }
-                  ]
-                },
-                {
-                  "produto": "RC ATUM PEDACOS NATURAL 24X140G",
-                  "qt": 2.0,
-                  "valor": 383.52,
-                  "pontuacoes": [
-                    {
-                      "tipo": "novo SKU",
-                      "pontos": 4
-                    }
-                  ]
-                },
-                {
-                  "produto": "RC SALADA DE ATUM - MEDITERRANEA 12X160G",
-                  "qt": 2.0,
-                  "valor": 239.8,
                   "pontuacoes": [
                     {
                       "tipo": "novo SKU",
@@ -972,6 +950,28 @@ const CRUSOE_DATA = {
                       "pontos": 4
                     }
                   ]
+                },
+                {
+                  "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
+                  "qt": 2.0,
+                  "valor": 499.0,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 4
+                    }
+                  ]
+                },
+                {
+                  "produto": "RC SARDINHA EM OLEO 50X125G",
+                  "qt": 2.0,
+                  "valor": 499.0,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 4
+                    }
+                  ]
                 }
               ]
             },
@@ -991,6 +991,39 @@ const CRUSOE_DATA = {
                 }
               ],
               "itens": [
+                {
+                  "produto": "RC ATUM SOLIDO NATURAL 24X170G",
+                  "qt": 1.0,
+                  "valor": 208.56,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 4
+                    }
+                  ]
+                },
+                {
+                  "produto": "RC ATUM PEDACOS NATURAL 24X140G",
+                  "qt": 1.0,
+                  "valor": 191.76,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 4
+                    }
+                  ]
+                },
+                {
+                  "produto": "RC SALADA DE ATUM - MEDITERRANEA 12X160G",
+                  "qt": 2.0,
+                  "valor": 239.8,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 4
+                    }
+                  ]
+                },
                 {
                   "produto": "RC SARDINHA EM OLEO 50X125G",
                   "qt": 1.0,
@@ -1025,17 +1058,6 @@ const CRUSOE_DATA = {
                   ]
                 },
                 {
-                  "produto": "RC ATUM SOLIDO NATURAL 24X170G",
-                  "qt": 1.0,
-                  "valor": 208.56,
-                  "pontuacoes": [
-                    {
-                      "tipo": "novo SKU",
-                      "pontos": 4
-                    }
-                  ]
-                },
-                {
                   "produto": "RC ATUM SOLIDO OLEO 24X170G",
                   "qt": 1.0,
                   "valor": 208.56,
@@ -1050,28 +1072,6 @@ const CRUSOE_DATA = {
                   "produto": "RC ATUM PEDACOS EM OLEO 24X140G",
                   "qt": 1.0,
                   "valor": 191.76,
-                  "pontuacoes": [
-                    {
-                      "tipo": "novo SKU",
-                      "pontos": 4
-                    }
-                  ]
-                },
-                {
-                  "produto": "RC ATUM PEDACOS NATURAL 24X140G",
-                  "qt": 1.0,
-                  "valor": 191.76,
-                  "pontuacoes": [
-                    {
-                      "tipo": "novo SKU",
-                      "pontos": 4
-                    }
-                  ]
-                },
-                {
-                  "produto": "RC SALADA DE ATUM - MEDITERRANEA 12X160G",
-                  "qt": 2.0,
-                  "valor": 239.8,
                   "pontuacoes": [
                     {
                       "tipo": "novo SKU",
@@ -1131,9 +1131,31 @@ const CRUSOE_DATA = {
               ],
               "itens": [
                 {
-                  "produto": "RC SARDINHA EM OLEO 50X125G",
+                  "produto": "RC ATUM SOLIDO NATURAL 24X170G",
                   "qt": 2.0,
-                  "valor": 499.0,
+                  "valor": 417.12,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 4
+                    }
+                  ]
+                },
+                {
+                  "produto": "RC ATUM PEDACOS NATURAL 24X140G",
+                  "qt": 2.0,
+                  "valor": 383.52,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 4
+                    }
+                  ]
+                },
+                {
+                  "produto": "RC SALADA DE ATUM - MEDITERRANEA 12X160G",
+                  "qt": 2.0,
+                  "valor": 239.8,
                   "pontuacoes": [
                     {
                       "tipo": "novo SKU",
@@ -1164,17 +1186,6 @@ const CRUSOE_DATA = {
                   ]
                 },
                 {
-                  "produto": "RC ATUM SOLIDO NATURAL 24X170G",
-                  "qt": 2.0,
-                  "valor": 417.12,
-                  "pontuacoes": [
-                    {
-                      "tipo": "novo SKU",
-                      "pontos": 4
-                    }
-                  ]
-                },
-                {
                   "produto": "RC ATUM SOLIDO OLEO 24X170G",
                   "qt": 2.0,
                   "valor": 417.12,
@@ -1189,28 +1200,6 @@ const CRUSOE_DATA = {
                   "produto": "RC ATUM PEDACOS EM OLEO 24X140G",
                   "qt": 2.0,
                   "valor": 383.52,
-                  "pontuacoes": [
-                    {
-                      "tipo": "novo SKU",
-                      "pontos": 4
-                    }
-                  ]
-                },
-                {
-                  "produto": "RC ATUM PEDACOS NATURAL 24X140G",
-                  "qt": 2.0,
-                  "valor": 383.52,
-                  "pontuacoes": [
-                    {
-                      "tipo": "novo SKU",
-                      "pontos": 4
-                    }
-                  ]
-                },
-                {
-                  "produto": "RC SALADA DE ATUM - MEDITERRANEA 12X160G",
-                  "qt": 2.0,
-                  "valor": 239.8,
                   "pontuacoes": [
                     {
                       "tipo": "novo SKU",
@@ -1250,6 +1239,17 @@ const CRUSOE_DATA = {
                       "pontos": 4
                     }
                   ]
+                },
+                {
+                  "produto": "RC SARDINHA EM OLEO 50X125G",
+                  "qt": 2.0,
+                  "valor": 499.0,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 4
+                    }
+                  ]
                 }
               ]
             },
@@ -1266,13 +1266,7 @@ const CRUSOE_DATA = {
               ],
               "itens": [
                 {
-                  "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
-                  "qt": 1.0,
-                  "valor": 249.5,
-                  "pontuacoes": []
-                },
-                {
-                  "produto": "RC ATUM PEDACOS EM OLEO 24X140G",
+                  "produto": "RC ATUM PEDACOS NATURAL 24X140G",
                   "qt": 1.0,
                   "valor": 191.76,
                   "pontuacoes": [
@@ -1283,7 +1277,13 @@ const CRUSOE_DATA = {
                   ]
                 },
                 {
-                  "produto": "RC ATUM PEDACOS NATURAL 24X140G",
+                  "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
+                  "qt": 1.0,
+                  "valor": 249.5,
+                  "pontuacoes": []
+                },
+                {
+                  "produto": "RC ATUM PEDACOS EM OLEO 24X140G",
                   "qt": 1.0,
                   "valor": 191.76,
                   "pontuacoes": [
@@ -1382,9 +1382,31 @@ const CRUSOE_DATA = {
               ],
               "itens": [
                 {
-                  "produto": "RC SARDINHA EM OLEO 50X125G",
+                  "produto": "RC ATUM SOLIDO NATURAL 24X170G",
                   "qt": 2.0,
-                  "valor": 499.0,
+                  "valor": 417.12,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 4
+                    }
+                  ]
+                },
+                {
+                  "produto": "RC ATUM PEDACOS NATURAL 24X140G",
+                  "qt": 2.0,
+                  "valor": 383.52,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 4
+                    }
+                  ]
+                },
+                {
+                  "produto": "RC SALADA DE ATUM - MEDITERRANEA 12X160G",
+                  "qt": 3.0,
+                  "valor": 359.7,
                   "pontuacoes": [
                     {
                       "tipo": "novo SKU",
@@ -1415,17 +1437,6 @@ const CRUSOE_DATA = {
                   ]
                 },
                 {
-                  "produto": "RC ATUM SOLIDO NATURAL 24X170G",
-                  "qt": 2.0,
-                  "valor": 417.12,
-                  "pontuacoes": [
-                    {
-                      "tipo": "novo SKU",
-                      "pontos": 4
-                    }
-                  ]
-                },
-                {
                   "produto": "RC ATUM SOLIDO OLEO 24X170G",
                   "qt": 2.0,
                   "valor": 417.12,
@@ -1440,28 +1451,6 @@ const CRUSOE_DATA = {
                   "produto": "RC ATUM PEDACOS EM OLEO 24X140G",
                   "qt": 2.0,
                   "valor": 383.52,
-                  "pontuacoes": [
-                    {
-                      "tipo": "novo SKU",
-                      "pontos": 4
-                    }
-                  ]
-                },
-                {
-                  "produto": "RC ATUM PEDACOS NATURAL 24X140G",
-                  "qt": 2.0,
-                  "valor": 383.52,
-                  "pontuacoes": [
-                    {
-                      "tipo": "novo SKU",
-                      "pontos": 4
-                    }
-                  ]
-                },
-                {
-                  "produto": "RC SALADA DE ATUM - MEDITERRANEA 12X160G",
-                  "qt": 3.0,
-                  "valor": 359.7,
                   "pontuacoes": [
                     {
                       "tipo": "novo SKU",
@@ -1501,6 +1490,17 @@ const CRUSOE_DATA = {
                       "pontos": 4
                     }
                   ]
+                },
+                {
+                  "produto": "RC SARDINHA EM OLEO 50X125G",
+                  "qt": 2.0,
+                  "valor": 499.0,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 4
+                    }
+                  ]
                 }
               ]
             },
@@ -1521,9 +1521,31 @@ const CRUSOE_DATA = {
               ],
               "itens": [
                 {
-                  "produto": "RC SARDINHA EM OLEO 50X125G",
+                  "produto": "RC ATUM SOLIDO NATURAL 24X170G",
                   "qt": 3.0,
-                  "valor": 748.5,
+                  "valor": 625.68,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 4
+                    }
+                  ]
+                },
+                {
+                  "produto": "RC ATUM PEDACOS NATURAL 24X140G",
+                  "qt": 3.0,
+                  "valor": 575.28,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 4
+                    }
+                  ]
+                },
+                {
+                  "produto": "RC SALADA DE ATUM - MEDITERRANEA 12X160G",
+                  "qt": 4.0,
+                  "valor": 479.6,
                   "pontuacoes": [
                     {
                       "tipo": "novo SKU",
@@ -1554,17 +1576,6 @@ const CRUSOE_DATA = {
                   ]
                 },
                 {
-                  "produto": "RC ATUM SOLIDO NATURAL 24X170G",
-                  "qt": 3.0,
-                  "valor": 625.68,
-                  "pontuacoes": [
-                    {
-                      "tipo": "novo SKU",
-                      "pontos": 4
-                    }
-                  ]
-                },
-                {
                   "produto": "RC ATUM SOLIDO OLEO 24X170G",
                   "qt": 3.0,
                   "valor": 625.68,
@@ -1579,28 +1590,6 @@ const CRUSOE_DATA = {
                   "produto": "RC ATUM PEDACOS EM OLEO 24X140G",
                   "qt": 3.0,
                   "valor": 575.28,
-                  "pontuacoes": [
-                    {
-                      "tipo": "novo SKU",
-                      "pontos": 4
-                    }
-                  ]
-                },
-                {
-                  "produto": "RC ATUM PEDACOS NATURAL 24X140G",
-                  "qt": 3.0,
-                  "valor": 575.28,
-                  "pontuacoes": [
-                    {
-                      "tipo": "novo SKU",
-                      "pontos": 4
-                    }
-                  ]
-                },
-                {
-                  "produto": "RC SALADA DE ATUM - MEDITERRANEA 12X160G",
-                  "qt": 4.0,
-                  "valor": 479.6,
                   "pontuacoes": [
                     {
                       "tipo": "novo SKU",
@@ -1640,6 +1629,17 @@ const CRUSOE_DATA = {
                       "pontos": 4
                     }
                   ]
+                },
+                {
+                  "produto": "RC SARDINHA EM OLEO 50X125G",
+                  "qt": 3.0,
+                  "valor": 748.5,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 4
+                    }
+                  ]
                 }
               ]
             },
@@ -1660,29 +1660,7 @@ const CRUSOE_DATA = {
               ],
               "itens": [
                 {
-                  "produto": "RC SARDINHA EM OLEO 50X125G",
-                  "qt": 1.0,
-                  "valor": 249.0,
-                  "pontuacoes": [
-                    {
-                      "tipo": "novo SKU",
-                      "pontos": 4
-                    }
-                  ]
-                },
-                {
                   "produto": "RC ATUM SOLIDO NATURAL 24X170G",
-                  "qt": 1.0,
-                  "valor": 208.9,
-                  "pontuacoes": [
-                    {
-                      "tipo": "novo SKU",
-                      "pontos": 4
-                    }
-                  ]
-                },
-                {
-                  "produto": "RC ATUM SOLIDO OLEO 24X170G",
                   "qt": 1.0,
                   "valor": 208.9,
                   "pontuacoes": [
@@ -1696,6 +1674,28 @@ const CRUSOE_DATA = {
                   "produto": "RC ATUM PEDACOS NATURAL 24X140G",
                   "qt": 1.0,
                   "valor": 191.76,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 4
+                    }
+                  ]
+                },
+                {
+                  "produto": "RC SARDINHA EM OLEO 50X125G",
+                  "qt": 1.0,
+                  "valor": 249.0,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 4
+                    }
+                  ]
+                },
+                {
+                  "produto": "RC ATUM SOLIDO OLEO 24X170G",
+                  "qt": 1.0,
+                  "valor": 208.9,
                   "pontuacoes": [
                     {
                       "tipo": "novo SKU",
@@ -1722,53 +1722,9 @@ const CRUSOE_DATA = {
               ],
               "itens": [
                 {
-                  "produto": "RC ATUM RALADO NATURAL 24X140G",
-                  "qt": 1.0,
-                  "valor": 153.36,
-                  "pontuacoes": [
-                    {
-                      "tipo": "novo SKU",
-                      "pontos": 4
-                    }
-                  ]
-                },
-                {
-                  "produto": "RC ATUM RALADO OLEO 24X140G",
-                  "qt": 1.0,
-                  "valor": 153.36,
-                  "pontuacoes": [
-                    {
-                      "tipo": "novo SKU",
-                      "pontos": 4
-                    }
-                  ]
-                },
-                {
                   "produto": "RC ATUM SOLIDO NATURAL 24X170G",
                   "qt": 3.0,
                   "valor": 625.68,
-                  "pontuacoes": [
-                    {
-                      "tipo": "novo SKU",
-                      "pontos": 4
-                    }
-                  ]
-                },
-                {
-                  "produto": "RC ATUM SOLIDO OLEO 24X170G",
-                  "qt": 3.0,
-                  "valor": 625.68,
-                  "pontuacoes": [
-                    {
-                      "tipo": "novo SKU",
-                      "pontos": 4
-                    }
-                  ]
-                },
-                {
-                  "produto": "RC ATUM PEDACOS EM OLEO 24X140G",
-                  "qt": 3.0,
-                  "valor": 575.28,
                   "pontuacoes": [
                     {
                       "tipo": "novo SKU",
@@ -1791,6 +1747,50 @@ const CRUSOE_DATA = {
                   "produto": "RC SALADA DE ATUM - MEDITERRANEA 12X160G",
                   "qt": 4.0,
                   "valor": 479.6,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 4
+                    }
+                  ]
+                },
+                {
+                  "produto": "RC ATUM RALADO NATURAL 24X140G",
+                  "qt": 1.0,
+                  "valor": 153.36,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 4
+                    }
+                  ]
+                },
+                {
+                  "produto": "RC ATUM RALADO OLEO 24X140G",
+                  "qt": 1.0,
+                  "valor": 153.36,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 4
+                    }
+                  ]
+                },
+                {
+                  "produto": "RC ATUM SOLIDO OLEO 24X170G",
+                  "qt": 3.0,
+                  "valor": 625.68,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 4
+                    }
+                  ]
+                },
+                {
+                  "produto": "RC ATUM PEDACOS EM OLEO 24X140G",
+                  "qt": 3.0,
+                  "valor": 575.28,
                   "pontuacoes": [
                     {
                       "tipo": "novo SKU",
@@ -1850,53 +1850,9 @@ const CRUSOE_DATA = {
               ],
               "itens": [
                 {
-                  "produto": "RC ATUM RALADO NATURAL 24X140G",
-                  "qt": 1.0,
-                  "valor": 153.36,
-                  "pontuacoes": [
-                    {
-                      "tipo": "novo SKU",
-                      "pontos": 4
-                    }
-                  ]
-                },
-                {
-                  "produto": "RC ATUM RALADO OLEO 24X140G",
-                  "qt": 1.0,
-                  "valor": 153.36,
-                  "pontuacoes": [
-                    {
-                      "tipo": "novo SKU",
-                      "pontos": 4
-                    }
-                  ]
-                },
-                {
                   "produto": "RC ATUM SOLIDO NATURAL 24X170G",
                   "qt": 3.0,
                   "valor": 625.68,
-                  "pontuacoes": [
-                    {
-                      "tipo": "novo SKU",
-                      "pontos": 4
-                    }
-                  ]
-                },
-                {
-                  "produto": "RC ATUM SOLIDO OLEO 24X170G",
-                  "qt": 3.0,
-                  "valor": 625.68,
-                  "pontuacoes": [
-                    {
-                      "tipo": "novo SKU",
-                      "pontos": 4
-                    }
-                  ]
-                },
-                {
-                  "produto": "RC ATUM PEDACOS EM OLEO 24X140G",
-                  "qt": 3.0,
-                  "valor": 575.28,
                   "pontuacoes": [
                     {
                       "tipo": "novo SKU",
@@ -1919,6 +1875,50 @@ const CRUSOE_DATA = {
                   "produto": "RC SALADA DE ATUM - MEDITERRANEA 12X160G",
                   "qt": 4.0,
                   "valor": 479.6,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 4
+                    }
+                  ]
+                },
+                {
+                  "produto": "RC ATUM RALADO NATURAL 24X140G",
+                  "qt": 1.0,
+                  "valor": 153.36,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 4
+                    }
+                  ]
+                },
+                {
+                  "produto": "RC ATUM RALADO OLEO 24X140G",
+                  "qt": 1.0,
+                  "valor": 153.36,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 4
+                    }
+                  ]
+                },
+                {
+                  "produto": "RC ATUM SOLIDO OLEO 24X170G",
+                  "qt": 3.0,
+                  "valor": 625.68,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 4
+                    }
+                  ]
+                },
+                {
+                  "produto": "RC ATUM PEDACOS EM OLEO 24X140G",
+                  "qt": 3.0,
+                  "valor": 575.28,
                   "pontuacoes": [
                     {
                       "tipo": "novo SKU",
@@ -2074,9 +2074,9 @@ const CRUSOE_DATA = {
               ],
               "itens": [
                 {
-                  "produto": "RC SARDINHA EM OLEO 50X125G",
-                  "qt": 2.0,
-                  "valor": 484.0,
+                  "produto": "RC ATUM SOLIDO NAT MY PROTEIN 12X142G",
+                  "qt": 1.0,
+                  "valor": 122.4,
                   "pontuacoes": []
                 },
                 {
@@ -2091,9 +2091,9 @@ const CRUSOE_DATA = {
                   ]
                 },
                 {
-                  "produto": "RC ATUM SOLIDO NAT MY PROTEIN 12X142G",
-                  "qt": 1.0,
-                  "valor": 122.4,
+                  "produto": "RC SARDINHA EM OLEO 50X125G",
+                  "qt": 2.0,
+                  "valor": 484.0,
                   "pontuacoes": []
                 }
               ]
@@ -2156,12 +2156,6 @@ const CRUSOE_DATA = {
               ],
               "itens": [
                 {
-                  "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
-                  "qt": 2.0,
-                  "valor": 484.0,
-                  "pontuacoes": []
-                },
-                {
                   "produto": "RC SALADA DE ATUM - MEDITERRANEA 12X160G",
                   "qt": 1.0,
                   "valor": 119.9,
@@ -2171,6 +2165,12 @@ const CRUSOE_DATA = {
                       "pontos": 4
                     }
                   ]
+                },
+                {
+                  "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
+                  "qt": 2.0,
+                  "valor": 484.0,
+                  "pontuacoes": []
                 }
               ]
             },
@@ -2187,13 +2187,13 @@ const CRUSOE_DATA = {
               ],
               "itens": [
                 {
-                  "produto": "RC SARDINHA EM OLEO 50X125G",
+                  "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
                   "qt": 2.0,
                   "valor": 484.0,
                   "pontuacoes": []
                 },
                 {
-                  "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
+                  "produto": "RC SARDINHA EM OLEO 50X125G",
                   "qt": 2.0,
                   "valor": 484.0,
                   "pontuacoes": []
@@ -2212,18 +2212,6 @@ const CRUSOE_DATA = {
                 }
               ],
               "itens": [
-                {
-                  "produto": "RC SARDINHA EM OLEO 50X125G",
-                  "qt": 4.0,
-                  "valor": 968.0,
-                  "pontuacoes": []
-                },
-                {
-                  "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
-                  "qt": 4.0,
-                  "valor": 968.0,
-                  "pontuacoes": []
-                },
                 {
                   "produto": "RC ATUM SOLIDO NATURAL 24X170G",
                   "qt": 2.0,
@@ -2246,6 +2234,18 @@ const CRUSOE_DATA = {
                   "produto": "RC ATUM RALADO MOLHO DE TOMATE 24X140G",
                   "qt": 1.0,
                   "valor": 149.28,
+                  "pontuacoes": []
+                },
+                {
+                  "produto": "RC SARDINHA EM OLEO 50X125G",
+                  "qt": 4.0,
+                  "valor": 968.0,
+                  "pontuacoes": []
+                },
+                {
+                  "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
+                  "qt": 4.0,
+                  "valor": 968.0,
                   "pontuacoes": []
                 }
               ]
@@ -2357,6 +2357,17 @@ const CRUSOE_DATA = {
               ],
               "itens": [
                 {
+                  "produto": "RC ATUM PEDACOS NATURAL 24X140G",
+                  "qt": 4.0,
+                  "valor": 679.6,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 4
+                    }
+                  ]
+                },
+                {
                   "produto": "RC ATUM RALADO NATURAL 24X140G",
                   "qt": 4.0,
                   "valor": 519.6,
@@ -2382,17 +2393,6 @@ const CRUSOE_DATA = {
                   "produto": "RC ATUM PEDACOS EM OLEO 24X140G",
                   "qt": 3.0,
                   "valor": 509.7,
-                  "pontuacoes": [
-                    {
-                      "tipo": "novo SKU",
-                      "pontos": 4
-                    }
-                  ]
-                },
-                {
-                  "produto": "RC ATUM PEDACOS NATURAL 24X140G",
-                  "qt": 4.0,
-                  "valor": 679.6,
                   "pontuacoes": [
                     {
                       "tipo": "novo SKU",
@@ -2674,6 +2674,17 @@ const CRUSOE_DATA = {
               ],
               "itens": [
                 {
+                  "produto": "RC ATUM PEDACOS NATURAL 24X140G",
+                  "qt": 1.0,
+                  "valor": 191.76,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 4
+                    }
+                  ]
+                },
+                {
                   "produto": "RC ATUM RALADO OLEO 24X140G",
                   "qt": 1.0,
                   "valor": 153.36,
@@ -2688,17 +2699,6 @@ const CRUSOE_DATA = {
                   "produto": "RC ATUM SOLIDO OLEO 24X170G",
                   "qt": 1.0,
                   "valor": 208.56,
-                  "pontuacoes": [
-                    {
-                      "tipo": "novo SKU",
-                      "pontos": 4
-                    }
-                  ]
-                },
-                {
-                  "produto": "RC ATUM PEDACOS NATURAL 24X140G",
-                  "qt": 1.0,
-                  "valor": 191.76,
                   "pontuacoes": [
                     {
                       "tipo": "novo SKU",
@@ -3189,6 +3189,17 @@ const CRUSOE_DATA = {
               ],
               "itens": [
                 {
+                  "produto": "RC SALADA DE ATUM - MEDITERRANEA 12X160G",
+                  "qt": 3.0,
+                  "valor": 371.19,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 4
+                    }
+                  ]
+                },
+                {
                   "produto": "RC SARDINHA EM OLEO 50X125G",
                   "qt": 10.0,
                   "valor": 1995.0,
@@ -3199,17 +3210,6 @@ const CRUSOE_DATA = {
                   "qt": 10.0,
                   "valor": 1995.0,
                   "pontuacoes": []
-                },
-                {
-                  "produto": "RC SALADA DE ATUM - MEDITERRANEA 12X160G",
-                  "qt": 3.0,
-                  "valor": 371.19,
-                  "pontuacoes": [
-                    {
-                      "tipo": "novo SKU",
-                      "pontos": 4
-                    }
-                  ]
                 }
               ]
             },
@@ -3324,10 +3324,15 @@ const CRUSOE_DATA = {
               ],
               "itens": [
                 {
-                  "produto": "RC SARDINHA EM OLEO 50X125G",
-                  "qt": 5.0,
-                  "valor": 997.5,
-                  "pontuacoes": []
+                  "produto": "RC ATUM PEDACOS NATURAL 24X140G",
+                  "qt": 1.0,
+                  "valor": 191.76,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 4
+                    }
+                  ]
                 },
                 {
                   "produto": "RC ATUM RALADO NATURAL 24X140G",
@@ -3352,15 +3357,10 @@ const CRUSOE_DATA = {
                   ]
                 },
                 {
-                  "produto": "RC ATUM PEDACOS NATURAL 24X140G",
-                  "qt": 1.0,
-                  "valor": 191.76,
-                  "pontuacoes": [
-                    {
-                      "tipo": "novo SKU",
-                      "pontos": 4
-                    }
-                  ]
+                  "produto": "RC SARDINHA EM OLEO 50X125G",
+                  "qt": 5.0,
+                  "valor": 997.5,
+                  "pontuacoes": []
                 }
               ]
             },
@@ -3435,6 +3435,12 @@ const CRUSOE_DATA = {
               ],
               "itens": [
                 {
+                  "produto": "RC ATUM PEDACOS NATURAL 24X140G",
+                  "qt": 2.0,
+                  "valor": 339.84,
+                  "pontuacoes": []
+                },
+                {
                   "produto": "RC ATUM RALADO OLEO 24X140G",
                   "qt": 2.0,
                   "valor": 259.68,
@@ -3447,12 +3453,6 @@ const CRUSOE_DATA = {
                 },
                 {
                   "produto": "RC ATUM SOLIDO OLEO 24X170G",
-                  "qt": 2.0,
-                  "valor": 339.84,
-                  "pontuacoes": []
-                },
-                {
-                  "produto": "RC ATUM PEDACOS NATURAL 24X140G",
                   "qt": 2.0,
                   "valor": 339.84,
                   "pontuacoes": []
@@ -3503,12 +3503,6 @@ const CRUSOE_DATA = {
               ],
               "itens": [
                 {
-                  "produto": "RC SARDINHA EM OLEO 50X125G",
-                  "qt": 3.0,
-                  "valor": 628.5,
-                  "pontuacoes": []
-                },
-                {
                   "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
                   "qt": 3.0,
                   "valor": 628.5,
@@ -3518,6 +3512,12 @@ const CRUSOE_DATA = {
                       "pontos": 4
                     }
                   ]
+                },
+                {
+                  "produto": "RC SARDINHA EM OLEO 50X125G",
+                  "qt": 3.0,
+                  "valor": 628.5,
+                  "pontuacoes": []
                 }
               ]
             },
@@ -3560,12 +3560,6 @@ const CRUSOE_DATA = {
               ],
               "itens": [
                 {
-                  "produto": "RC SARDINHA EM OLEO 50X125G",
-                  "qt": 3.0,
-                  "valor": 628.5,
-                  "pontuacoes": []
-                },
-                {
                   "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
                   "qt": 3.0,
                   "valor": 628.5,
@@ -3575,6 +3569,12 @@ const CRUSOE_DATA = {
                       "pontos": 4
                     }
                   ]
+                },
+                {
+                  "produto": "RC SARDINHA EM OLEO 50X125G",
+                  "qt": 3.0,
+                  "valor": 628.5,
+                  "pontuacoes": []
                 }
               ]
             }
@@ -3637,6 +3637,12 @@ const CRUSOE_DATA = {
                   ]
                 },
                 {
+                  "produto": "RC ATUM PEDACOS NATURAL 24X140G",
+                  "qt": 1.0,
+                  "valor": 191.76,
+                  "pontuacoes": []
+                },
+                {
                   "produto": "RC ATUM SOLIDO OLEO 24X170G",
                   "qt": 1.0,
                   "valor": 208.56,
@@ -3649,12 +3655,6 @@ const CRUSOE_DATA = {
                 },
                 {
                   "produto": "RC ATUM PEDACOS EM OLEO 24X140G",
-                  "qt": 1.0,
-                  "valor": 191.76,
-                  "pontuacoes": []
-                },
-                {
-                  "produto": "RC ATUM PEDACOS NATURAL 24X140G",
                   "qt": 1.0,
                   "valor": 191.76,
                   "pontuacoes": []
