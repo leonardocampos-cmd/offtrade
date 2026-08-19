@@ -10956,5 +10956,2249 @@
         "tipo_segmento": "OFF TRADE"
       }
     ]
+  },
+  "1a01bc9a975c4cab": {
+    "subject": "Fwd: Pedido do cliente 83800 Supermercado Rio Sul de Comendador Soares",
+    "data_email": "2026-08-19",
+    "blocos": [
+      {
+        "sistema": "CRC - 04",
+        "cod_cliente": "83800",
+        "razao_social": "SUPERMERCADOS RIO SUL DE COMERCIADOR SOARES LTDA",
+        "fantasia": "SUPERMERCADOS RIO SUL DE COMERCIADOR SOAR",
+        "cnpj": "44.747.049/0001-88",
+        "praca": "RUA TOMAS FONSECA, COMERCIADOR SOARES - NOVA IGUAÇU",
+        "forma_pg": "Boleto",
+        "rca": "153 - ANGELO NEVES SUZART - OFF TRADE",
+        "bonificacao": false,
+        "tipo_segmento": "OFF TRADE",
+        "obs": "entregar no dia 18/08 com pagamento de descarga no valor R$60,00 por pallets horario das 08:00 às 14:00hr por ordem de chegada pedido 88611",
+        "prazo": "28",
+        "itens": [
+          {
+            "cod_prod": "381",
+            "descricao": "CACHACA VELHO BARREIRO 910 ML",
+            "qt": 24,
+            "preco": 12.3,
+            "total": 309.6
+          },
+          {
+            "cod_prod": "663",
+            "descricao": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+            "qt": 24,
+            "preco": 36.3,
+            "total": 871.8
+          },
+          {
+            "cod_prod": "271",
+            "descricao": "ESPUM CASA PERINI MOSCATEL 750ML",
+            "qt": 12,
+            "preco": 36.3,
+            "total": 435.6
+          },
+          {
+            "cod_prod": "7081",
+            "descricao": "SUCO DE UVA TITOTI QUINTA DO MORGADO 1L",
+            "qt": 36,
+            "preco": 11.3,
+            "total": 428.4
+          }
+        ]
+      }
+    ]
+  },
+  "1a01b4a95481dfbc": {
+    "subject": "Re: PEDIDO ROBINSON CRUSOE - DRIFT - RJ",
+    "data_email": "2026-08-19",
+    "blocos": [
+      {
+        "sistema": "CRC - 04",
+        "cod_cliente": "85921",
+        "razao_social": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+        "fantasia": "SEMPRE TEM SÃO PEDRO DA ALDEIA",
+        "cnpj": "28.129.260/0032-87",
+        "praca": "CAMPO REDONDO",
+        "forma_pg": "Boleto",
+        "rca": "275 - MARIA LUIZA - OFF TRADE",
+        "bonificacao": false,
+        "tipo_segmento": "OFF TRADE",
+        "obs": "",
+        "prazo": "28 DIAS",
+        "itens": [
+          {
+            "cod_prod": "5762",
+            "descricao": "RC ATUM PEDACOS NATURAL 24X140G",
+            "qt": 20,
+            "preco": 184.59,
+            "total": 3718.8
+          },
+          {
+            "cod_prod": "7331",
+            "descricao": "RC ATUM PEÇADOS MOLHO DE TOMATE 24X140G",
+            "qt": 5,
+            "preco": 184.57,
+            "total": 922.85
+          },
+          {
+            "cod_prod": "5759",
+            "descricao": "RC ATUM PEÇADOS EM MOLHO 24X140G",
+            "qt": 5,
+            "preco": 184.57,
+            "total": 922.85
+          },
+          {
+            "cod_prod": "5582",
+            "descricao": "RC ATUM RALADO NATURAL 24X140G",
+            "qt": 5,
+            "preco": 184.57,
+            "total": 922.85
+          },
+          {
+            "cod_prod": "5581",
+            "descricao": "RC ATUM RALADO MOLHO DE TOMATE 24X140G",
+            "qt": 5,
+            "preco": 184.57,
+            "total": 922.85
+          },
+          {
+            "cod_prod": "5583",
+            "descricao": "RC ATUM AMALDO MOLHO DE TOMATE 24X140G",
+            "qt": 5,
+            "preco": 184.57,
+            "total": 922.85
+          },
+          {
+            "cod_prod": "5758",
+            "descricao": "RC SARDINHA EM ÓLEO 24X125G",
+            "qt": 5,
+            "preco": 184.57,
+            "total": 922.85
+          },
+          {
+            "cod_prod": "5584",
+            "descricao": "RC ATUM SOLIDO NATURAL 24X170G",
+            "qt": 5,
+            "preco": 184.57,
+            "total": 922.85
+          },
+          {
+            "cod_prod": "5585",
+            "descricao": "RC ATUM SOLIDO NATURAL 24X170G",
+            "qt": 5,
+            "preco": 184.57,
+            "total": 922.85
+          },
+          {
+            "cod_prod": "5579",
+            "descricao": "RC SARDINHA EM ÓLEO 50X125G",
+            "qt": 30,
+            "preco": 184.57,
+            "total": 5537.1
+          }
+        ]
+      }
+    ]
+  },
+  "1a01b4986a477e5d": {
+    "subject": "pedido crc4 - padrao do fonseca",
+    "data_email": "2026-08-19",
+    "blocos": [
+      {
+        "sistema": "CRC - 04",
+        "cod_cliente": "78665",
+        "razao_social": "SUPERMERCADO PADRAO DO FONSECA LTDA",
+        "fantasia": "SUPERMARKET - DEL CASTILHO",
+        "cnpj": "08.628.825/0022-91",
+        "praca": "DEL CASTILHO",
+        "forma_pg": "Boleto",
+        "rca": "450 - LEANDRO SOUZA - OFF TRADE",
+        "bonificacao": false,
+        "tipo_segmento": "OFF TRADE",
+        "obs": "",
+        "prazo": "28 DIAS",
+        "itens": [
+          {
+            "cod_prod": "3282B",
+            "descricao": "LATITUD 33 CABERNET SAUVIGNON",
+            "qt": 12,
+            "preco": 35,
+            "total": 420
+          }
+        ]
+      },
+      {
+        "sistema": "CRC - 04",
+        "cod_cliente": "9603",
+        "razao_social": "SUPERMERCADO PADRAO DO FONSECA EIRELI",
+        "fantasia": "REDE SUPERMARKET (PADR?O DO FONSECA - IT",
+        "cnpj": "08.628.825/0004-00",
+        "praca": "ITAIPU",
+        "forma_pg": "Boleto",
+        "rca": "450 - LEANDRO SOUZA - OFF TRADE",
+        "bonificacao": false,
+        "tipo_segmento": "OFF TRADE",
+        "obs": "",
+        "prazo": "28 DIAS",
+        "itens": [
+          {
+            "cod_prod": "2781",
+            "descricao": "ESPUM CASA PERINI MOSCATEL 750ML",
+            "qt": 12,
+            "preco": 38.9,
+            "total": 466.8
+          }
+        ]
+      }
+    ]
+  },
+  "1a01b1936c0941c3": {
+    "subject": "PEDIDO ROBINSON CRUSOE - DRIFT - RJ",
+    "data_email": "2026-08-19",
+    "blocos": [
+      {
+        "sistema": "CRC - 04",
+        "cod_cliente": "85921",
+        "razao_social": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+        "fantasia": "SEMPRE TEM SÃO PEDRO DA ALDEIA",
+        "cnpj": "28.129.260/0032-87",
+        "praca": "CAMPO REDONDO",
+        "forma_pg": "Boleto",
+        "rca": "275 - MARIA LUIZA - OFF TRADE",
+        "bonificacao": false,
+        "tipo_segmento": "OFF TRADE",
+        "obs": "",
+        "prazo": "28 DIAS",
+        "itens": [
+          {
+            "cod_prod": "5762",
+            "descricao": "RC ATUM PEDACOS NATURAL 24X140G",
+            "qt": 20,
+            "preco": 184.59,
+            "total": 3718.8
+          },
+          {
+            "cod_prod": "7331",
+            "descricao": "RC ATUM PEÇADOS MOLHO DE TOMATE 24X140G",
+            "qt": 5,
+            "preco": 184.59,
+            "total": 922.95
+          },
+          {
+            "cod_prod": "5759",
+            "descricao": "RC ATUM PEÇADOS EM MOLHO 24X140G",
+            "qt": 5,
+            "preco": 184.59,
+            "total": 922.95
+          },
+          {
+            "cod_prod": "5582",
+            "descricao": "RC ATUM RALADO NATURAL 24X140G",
+            "qt": 5,
+            "preco": 184.59,
+            "total": 922.95
+          },
+          {
+            "cod_prod": "5581",
+            "descricao": "RC ATUM RALADO MOLHO DE TOMATE 24X140G",
+            "qt": 5,
+            "preco": 184.59,
+            "total": 922.95
+          },
+          {
+            "cod_prod": "5583",
+            "descricao": "RC ATUM MALADO NATUREL 24X140G",
+            "qt": 5,
+            "preco": 184.59,
+            "total": 922.95
+          },
+          {
+            "cod_prod": "5758",
+            "descricao": "RC SARDINHA EM MOLHO DE TOMATE 24X125G",
+            "qt": 5,
+            "preco": 184.59,
+            "total": 922.95
+          },
+          {
+            "cod_prod": "5584",
+            "descricao": "RC ATUM SOLIDO NATURAL 24X170G",
+            "qt": 5,
+            "preco": 184.59,
+            "total": 922.95
+          },
+          {
+            "cod_prod": "5579",
+            "descricao": "RC SARDINHA EM OLEO 50X125G",
+            "qt": 30,
+            "preco": 184.59,
+            "total": 5537.7
+          }
+        ]
+      }
+    ]
+  },
+  "1a01b147b11d9ff6": {
+    "subject": "PEDIDO DA REDE PADRAO DE FONSECA",
+    "data_email": "2026-08-19",
+    "blocos": [
+      {
+        "sistema": "CRC - 04",
+        "bonificacao": false,
+        "itens": [
+          {
+            "cod_prod": "3828",
+            "descricao": "LATITUD 33 CABERNET SAUVIGNON",
+            "qt": 12,
+            "preco": 35.0,
+            "total": 420.0
+          }
+        ],
+        "cod_cliente": "78665",
+        "razao_social": "SUPERMERCADO PADRAO DO FONSECA LTDA",
+        "fantasia": "SUPERMARKET - DEL CASTILHO",
+        "cnpj": "08.628.825/0022-91",
+        "endereco": "AV PR MARTIN LUTHER KING JR, 126 BLOCO 1 LOJA 102 E 111",
+        "praca": "DEL CASTILHO",
+        "forma_pg": "Boleto",
+        "rca": "450 - LEANDRO SOUZA - OFF TRADE",
+        "tipo_segmento": "OFF TRADE"
+      },
+      {
+        "sistema": "CRC - 04",
+        "bonificacao": false,
+        "itens": [
+          {
+            "cod_prod": "2781",
+            "descricao": "ESPUM CASA PERINI MOSCATEL 750ML",
+            "qt": 12,
+            "preco": 38.9,
+            "total": 466.8
+          }
+        ],
+        "cod_cliente": "9603",
+        "razao_social": "SUPERMERCADO PADRAO DO FONSECA EIRELI",
+        "fantasia": "REDE SUPERMARKET (PADR?O DO FONSECA - IT",
+        "cnpj": "08.628.825/0004-00",
+        "endereco": "AV CENTRAL EWERTON XAVIER - 1",
+        "praca": "ITAIPU",
+        "forma_pg": "Boleto",
+        "rca": "450 - LEANDRO SOUZA - OFF TRADE",
+        "tipo_segmento": "OFF TRADE"
+      }
+    ]
+  },
+  "1a01b0202d52081c": {
+    "subject": "Fwd: PEDIDO CRC 04",
+    "data_email": "2026-08-19",
+    "blocos": []
+  },
+  "1a01afd792eb8d86": {
+    "subject": "Re: PEDIDO CRC 04",
+    "data_email": "2026-08-19",
+    "blocos": []
+  },
+  "1a01af7d35ef7162": {
+    "subject": "PEDIDO CRC 04",
+    "data_email": "2026-08-19",
+    "blocos": []
+  },
+  "1a01aee120f0f971": {
+    "subject": "PEDIDO CRC 02",
+    "data_email": "2026-08-19",
+    "blocos": []
+  },
+  "1a01adc713790c1a": {
+    "subject": "pedido crc4 - turbo 1.000",
+    "data_email": "2026-08-19",
+    "blocos": [
+      {
+        "sistema": "CRC - 04",
+        "cod_cliente": "95583",
+        "razao_social": "MERCADO TURBO 1000",
+        "fantasia": "MERCADO TURBO 1000",
+        "cnpj": "088316220002-5",
+        "praca": "MESQUITA",
+        "forma_pg": "Boleto",
+        "rca": "158",
+        "bonificacao": false,
+        "tipo_segmento": "OFF TRADE",
+        "obs": "",
+        "prazo": "",
+        "itens": [
+          {
+            "cod_prod": "663",
+            "descricao": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+            "qt": 60,
+            "preco": 35.9,
+            "total": 2154.0
+          }
+        ]
+      }
+    ]
+  },
+  "1a01aaf633e81022": {
+    "subject": "Pedido 27% - Mercado Turbo 1000",
+    "data_email": "2026-08-19",
+    "blocos": [
+      {
+        "sistema": "CRC - 04",
+        "cod_cliente": "95583",
+        "razao_social": "MERCADO TURBO 1000",
+        "fantasia": "MERCADO TURBO 1000",
+        "cnpj": "088316220002-5",
+        "praca": "MESQUITA",
+        "forma_pg": "Boleto",
+        "rca": "158",
+        "bonificacao": false,
+        "tipo_segmento": "OFF TRADE",
+        "obs": "",
+        "prazo": "",
+        "itens": [
+          {
+            "cod_prod": "663",
+            "descricao": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+            "qt": 60,
+            "preco": 35.9,
+            "total": 2154.0
+          }
+        ]
+      }
+    ]
+  },
+  "1a016eb342438ca9": {
+    "subject": "Re: PEDIDO CLIENTE CASA DO ARROZ - HS COUTINHO",
+    "data_email": "2026-08-18",
+    "blocos": [
+      {
+        "sistema": "CRC - 04",
+        "cod_cliente": "60708",
+        "razao_social": "H S COUTINHO INDUSTRIA E COMERCIO LTDA",
+        "fantasia": "CASA DO ARROZ",
+        "cnpj": "28.580.702/0007-04",
+        "praca": "VILA HELENA",
+        "forma_pg": "Boleto",
+        "rca": "275 - MARIA LUIZA - OFF TRADE",
+        "bonificacao": false,
+        "tipo_segmento": "OFF TRADE",
+        "obs": "",
+        "prazo": "28 Dias",
+        "itens": [
+          {
+            "cod_prod": "1186",
+            "descricao": "VODKA ABSOLUT - 750 ML",
+            "qt": 36,
+            "preco": 37.72,
+            "total": 1367.92
+          },
+          {
+            "cod_prod": "3827",
+            "descricao": "VINHO LATITUD 33 MALBEC 750 ML",
+            "qt": 12,
+            "preco": 49.9,
+            "total": 598.8
+          },
+          {
+            "cod_prod": "663",
+            "descricao": "ESPUM CASA PERINI AGUARELA ROSE 750ML",
+            "qt": 12,
+            "preco": 29.9,
+            "total": 358.8
+          },
+          {
+            "cod_prod": "666",
+            "descricao": "ESPUM CASA PERINI BRUT ROSE 750ML",
+            "qt": 12,
+            "preco": 29.9,
+            "total": 358.8
+          },
+          {
+            "cod_prod": "66",
+            "descricao": "RUM MONTILLA CRISTAL 1000ML",
+            "qt": 12,
+            "preco": 49.9,
+            "total": 598.8
+          },
+          {
+            "cod_prod": "272",
+            "descricao": "LICOR Cointreau 700 ML",
+            "qt": 12,
+            "preco": 49.9,
+            "total": 598.8
+          }
+        ]
+      }
+    ]
+  },
+  "1a01693de992db54": {
+    "subject": "Re: pedido crc4 - KAUE alves",
+    "data_email": "2026-08-18",
+    "blocos": [
+      {
+        "sistema": "CRC - 04",
+        "cod_cliente": "92136",
+        "razao_social": "63.529.210 KAUE ALVES DA SILVA SARAIVA",
+        "fantasia": "KAUE ALVES DA SILVA SARAIVA",
+        "cnpj": "63.529.210/0001-91",
+        "praca": "OSWALDO CRUZ",
+        "forma_pg": "Pix",
+        "rca": "144 - DIOGO RAPOSO - OFF TRADE",
+        "bonificacao": false,
+        "tipo_segmento": "OFF TRADE",
+        "obs": "ENTREGAR NO DIA 18/08 SO ABRE DEPOIS DAS 10",
+        "prazo": "PIX",
+        "itens": [
+          {
+            "cod_prod": "4477",
+            "descricao": "GIN TANQUERAY BOSSA NOVA 700 ML",
+            "qt": 300,
+            "preco": 78.9,
+            "total": 23670
+          },
+          {
+            "cod_prod": "674",
+            "descricao": "GIN GORDONS 750 ML",
+            "qt": 6,
+            "preco": 49.9,
+            "total": 299.4
+          }
+        ]
+      }
+    ]
+  },
+  "1a0165b421ae6a74": {
+    "subject": "Fwd: Pedido 27% - MUNDIAL",
+    "data_email": "2026-08-18",
+    "blocos": [
+      {
+        "sistema": "CRC - 04",
+        "cod_cliente": "6278",
+        "razao_social": "SUPERMERCADOS MUNDIAL LTDA",
+        "fantasia": "SUPERMERCADOS MUNDIAL",
+        "cnpj": "33.304.981/0001-10",
+        "praca": "INHAUMA",
+        "forma_pg": "Boleto",
+        "rca": "158",
+        "bonificacao": false,
+        "tipo_segmento": "OFF TRADE",
+        "obs": "",
+        "prazo": "35 DIAS",
+        "itens": [
+          {
+            "cod_prod": "3451",
+            "descricao": "WHISKY ESC MACALLAN DOUBLE 12 YO 700ML",
+            "qt": 12,
+            "preco": 729,
+            "total": 8748
+          }
+        ]
+      }
+    ]
+  },
+  "1a01648a11f41da2": {
+    "subject": "pedido crc4 - KAUE alves",
+    "data_email": "2026-08-18",
+    "blocos": [
+      {
+        "sistema": "CRC - 04",
+        "cod_cliente": "92136",
+        "razao_social": "63.529.210 KAUE ALVES DA SILVA SARAIVA",
+        "fantasia": "KAUE ALVES DA SILVA SARAIVA",
+        "cnpj": "63.529.210/0001-91",
+        "praca": "OSWALDO CRUZ",
+        "forma_pg": "Pix",
+        "rca": "144 - DIOGO RAPOSO - OFF TRADE",
+        "bonificacao": false,
+        "tipo_segmento": "OFF TRADE",
+        "obs": "ENTREGAR NO DIA 18/08 SO ABRE DEPOIS DAS 10",
+        "prazo": "PIX",
+        "itens": [
+          {
+            "cod_prod": "4477",
+            "descricao": "GIN TANQUERAY BOSSA NOVA 700 ML",
+            "qt": 300,
+            "preco": 78.9,
+            "total": 23670.0
+          },
+          {
+            "cod_prod": "674",
+            "descricao": "GIN GORDONS 750 ML",
+            "qt": 6,
+            "preco": 49.9,
+            "total": 299.4
+          }
+        ]
+      }
+    ]
+  },
+  "1a016466381b344d": {
+    "subject": "PEDIDO CRC4 - MATHEUS FONSECA",
+    "data_email": "2026-08-18",
+    "blocos": [
+      {
+        "sistema": "CRC - 04",
+        "cod_cliente": "90148",
+        "razao_social": "54.789.676 MATHEUS FONSECA PEREIRA",
+        "fantasia": "MATHEUS FONSECA PEREIRA",
+        "cnpj": "54.789.676/0001-35",
+        "praca": "AVENIDA AREIA BRANCA, SANTA CRUZ - RIO DE JANEIRO",
+        "forma_pg": "Boleto",
+        "rca": "419 - NATALI",
+        "bonificacao": false,
+        "tipo_segmento": "OFF TRADE",
+        "obs": "",
+        "prazo": "28 DIAS",
+        "itens": [
+          {
+            "cod_prod": "4477",
+            "descricao": "GIN TANQUERAY BOSSA NOVA 700 ML",
+            "qt": 24,
+            "preco": 89.9,
+            "total": 2157.6
+          },
+          {
+            "cod_prod": "4067",
+            "descricao": "VINHO VILLA ROSA FRISANTE BRANCO",
+            "qt": 1,
+            "preco": 25.9,
+            "total": 25.9
+          },
+          {
+            "cod_prod": "4328",
+            "descricao": "WHISKY ROYAL SALUTE GRAIN 700ML",
+            "qt": 1,
+            "preco": 629.9,
+            "total": 629.9
+          },
+          {
+            "cod_prod": "99",
+            "descricao": "GIN BOMBAY SAPPHIRE 750ML",
+            "qt": 6,
+            "preco": 70.9,
+            "total": 425.4
+          }
+        ]
+      }
+    ]
+  },
+  "1a0163c79ce183c3": {
+    "subject": "Pedido do cliente 83574 Altas Horas",
+    "data_email": "2026-08-18",
+    "blocos": [
+      {
+        "sistema": "CRC - 04",
+        "cod_cliente": "83574",
+        "razao_social": "ALTAS HORAS COMERCIO VAREJISTA LTDA",
+        "fantasia": "ALTAS HORAS COMERCIO",
+        "cnpj": "38.416.391/0001-00",
+        "praca": "PARQUE SÃO JOÃO",
+        "forma_pg": "Boleto",
+        "rca": "153 - ANGELO NEVES SUZART - OFF TRADE",
+        "bonificacao": false,
+        "tipo_segmento": "OFF TRADE",
+        "obs": "entregar no dia 19/08 não tem pagamento de descarga horario das 10:00 às 18:00hr",
+        "prazo": "21/28/35",
+        "itens": [
+          {
+            "cod_prod": "18",
+            "descricao": "WHISKY BUCHANANS 12 YEARS 1000 ML",
+            "qt": 60,
+            "preco": 182.9,
+            "total": 7344.0
+          },
+          {
+            "cod_prod": "3138",
+            "descricao": "WHISKY BUCHANANS 12 YEARS 750 ML",
+            "qt": 36,
+            "preco": 96.9,
+            "total": 3488.4
+          },
+          {
+            "cod_prod": "266",
+            "descricao": "GIN TANQUERAY 750 ML",
+            "qt": 120,
+            "preco": 76.9,
+            "total": 9228.0
+          }
+        ]
+      }
+    ]
+  },
+  "1a01635c070062ad": {
+    "subject": "PEDIDO CRC 04",
+    "data_email": "2026-08-18",
+    "blocos": [
+      {
+        "sistema": "CRC - 04",
+        "bonificacao": false,
+        "itens": [
+          {
+            "cod_prod": "4477",
+            "descricao": "GIN TANQUERAY BOSSA NOVA 700 ML",
+            "qt": 300,
+            "preco": 78.9,
+            "total": 23670.0
+          },
+          {
+            "cod_prod": "674",
+            "descricao": "GIN GORDONS 750 ML",
+            "qt": 6,
+            "preco": 49.9,
+            "total": 299.4
+          }
+        ],
+        "cod_cliente": "92136",
+        "razao_social": "63.529.210 KAUE ALVES DA SILVA SARAIVA",
+        "fantasia": "KAUE ALVES DA SILVA SARAIVA",
+        "cnpj": "63.529.210/0001-91",
+        "endereco": "RUA ANTÔNIO RIEDLINGER JÚNIOR, OSWALDO CRUZ - RIO DE JANEIRO",
+        "praca": "OSWALDO CRUZ",
+        "forma_pg": "Pix",
+        "rca": "144 - DIOGO RAPOSO - OFF TRADE",
+        "tipo_segmento": "OFF TRADE"
+      }
+    ]
+  },
+  "1a0162ef83a802a3": {
+    "subject": "Pedido crc4",
+    "data_email": "2026-08-18",
+    "blocos": []
+  },
+  "1a015ef2672efa4d": {
+    "subject": "Fwd: PEDIDO CLIENTE CASA DO ARROZ - HS COUTINHO",
+    "data_email": "2026-08-18",
+    "blocos": [
+      {
+        "sistema": "CRC - 04",
+        "cod_cliente": "60708",
+        "razao_social": "H S COUTINHO INDUSTRIA E COMERCIO LTDA",
+        "fantasia": "CASA DO ARROZ",
+        "cnpj": "28.580.702/0007-04",
+        "praca": "VILA HELENA",
+        "forma_pg": "Boleto",
+        "rca": "275 - MARIA LUIZA - OFF TRADE",
+        "bonificacao": false,
+        "tipo_segmento": "OFF TRADE",
+        "obs": "",
+        "prazo": "28 Dias",
+        "itens": [
+          {
+            "cod_prod": "1186",
+            "descricao": "VODKA ABSOLUT - 750 ML",
+            "qt": 36,
+            "preco": 37.72,
+            "total": 1360.92
+          },
+          {
+            "cod_prod": "3827",
+            "descricao": "VINHO LATITUD 750 MALBEC 750 ML",
+            "qt": 12,
+            "preco": 49.9,
+            "total": 598.8
+          },
+          {
+            "cod_prod": "663",
+            "descricao": "ESPUM CASA PERINI AGUARELA ROSE 750ML",
+            "qt": 12,
+            "preco": 29.9,
+            "total": 358.8
+          },
+          {
+            "cod_prod": "666",
+            "descricao": "ESPUM CASA PERINI BRUT ROSE 750ML",
+            "qt": 12,
+            "preco": 29.9,
+            "total": 358.8
+          },
+          {
+            "cod_prod": "66",
+            "descricao": "RUM MONTILLA CRISTAL 1000ML",
+            "qt": 12,
+            "preco": 39.9,
+            "total": 478.8
+          },
+          {
+            "cod_prod": "272",
+            "descricao": "LICOR Cointreau 700 ML",
+            "qt": 6,
+            "preco": 99.9,
+            "total": 599.4
+          }
+        ]
+      }
+    ]
+  },
+  "1a015d526532539e": {
+    "subject": "PEDIDO CLIENTE CASA DO ARROZ - HS COUTINHO",
+    "data_email": "2026-08-18",
+    "blocos": [
+      {
+        "sistema": "CRC - 04",
+        "cod_cliente": "60708",
+        "razao_social": "H S COUTINHO INDUSTRIA E COMERCIO LTDA",
+        "fantasia": "CASA DO ARROZ",
+        "cnpj": "28.580.702/0007-04",
+        "praca": "VILA HELENA",
+        "forma_pg": "Boleto",
+        "rca": "275 - MARIA LUIZA - OFF TRADE",
+        "bonificacao": false,
+        "tipo_segmento": "OFF TRADE",
+        "obs": "",
+        "prazo": "28 Dias",
+        "itens": [
+          {
+            "cod_prod": "1186",
+            "descricao": "VODKA ABSOLUT - 750 ML",
+            "qt": 36,
+            "preco": 1372.44,
+            "total": 49368.84
+          },
+          {
+            "cod_prod": "3827",
+            "descricao": "VINHO LATITUD 750 MALBEC 750 ML",
+            "qt": 12,
+            "preco": 59.9,
+            "total": 718.8
+          },
+          {
+            "cod_prod": "663",
+            "descricao": "ESPUM CASA PERINI AGUARELA ROSE 750ML",
+            "qt": 12,
+            "preco": 29.9,
+            "total": 358.8
+          },
+          {
+            "cod_prod": "666",
+            "descricao": "ESPUM CASA PERINI BRUT ROSE 750ML",
+            "qt": 12,
+            "preco": 29.9,
+            "total": 358.8
+          },
+          {
+            "cod_prod": "66",
+            "descricao": "RUM MONTILLA CRISTAL 1000ML",
+            "qt": 12,
+            "preco": 49.9,
+            "total": 598.8
+          },
+          {
+            "cod_prod": "272",
+            "descricao": "LICOR Cointreau 700 ML",
+            "qt": 12,
+            "preco": 99.9,
+            "total": 1198.8
+          }
+        ]
+      }
+    ]
+  },
+  "1a015b8bc648511d": {
+    "subject": "Re: PEDIDO DO MERCADO (90411) DA REDE PADRAO DO FONSECA",
+    "data_email": "2026-08-18",
+    "blocos": [
+      {
+        "sistema": "CRC - 04",
+        "bonificacao": false,
+        "itens": [
+          {
+            "cod_prod": "3826",
+            "descricao": "VINHO LATITUD 33 CHARDONNAY 750 ML",
+            "qt": 12,
+            "preco": 35.0,
+            "total": 420.0
+          }
+        ],
+        "cod_cliente": "90411",
+        "razao_social": "SUPERMERCADO PADRAO DO FONSECA LTDA",
+        "fantasia": "SUPERMARKET",
+        "cnpj": "08.628.825/0018-05",
+        "endereco": "R PARANA, 14",
+        "praca": "CENTRO",
+        "forma_pg": "Boleto",
+        "rca": "450 - LEANDRO SOUZA - OFF TRADE",
+        "tipo_segmento": "OFF TRADE"
+      },
+      {
+        "sistema": "CRC - 04",
+        "bonificacao": false,
+        "itens": [
+          {
+            "cod_prod": "6259",
+            "descricao": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+            "qt": 3,
+            "preco": 86.28,
+            "total": 258.84
+          }
+        ],
+        "cod_cliente": "90411",
+        "razao_social": "SUPERMERCADO PADRAO DO FONSECA LTDA",
+        "fantasia": "SUPERMARKET",
+        "cnpj": "08.628.825/0018-05",
+        "endereco": "R PARANA, 14",
+        "praca": "CENTRO",
+        "forma_pg": "Boleto",
+        "rca": "450 - LEANDRO SOUZA - OFF TRADE",
+        "tipo_segmento": "OFF TRADE"
+      }
+    ]
+  },
+  "1a0156fd8deff280": {
+    "subject": "Re: PEDIDO DO MERCADO (90411) DA REDE PADRAO DO FONSECA",
+    "data_email": "2026-08-18",
+    "blocos": [
+      {
+        "sistema": "CRC - 04",
+        "bonificacao": false,
+        "itens": [
+          {
+            "cod_prod": "3826",
+            "descricao": "VINHO LATITUD 33 CHARDONNAY 750 ML",
+            "qt": 12,
+            "preco": 35.0,
+            "total": 420.0
+          }
+        ],
+        "cod_cliente": "90411",
+        "razao_social": "SUPERMERCADO PADRAO DO FONSECA LTDA",
+        "fantasia": "SUPERMARKET",
+        "cnpj": "08.628.825/0018-05",
+        "endereco": "R PARANA, 14",
+        "praca": "CENTRO",
+        "forma_pg": "Boleto",
+        "rca": "450 - LEANDRO SOUZA - OFF TRADE",
+        "tipo_segmento": "OFF TRADE"
+      },
+      {
+        "sistema": "CRC - 04",
+        "bonificacao": false,
+        "itens": [
+          {
+            "cod_prod": "6259",
+            "descricao": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+            "qt": 3,
+            "preco": 86.28,
+            "total": 258.84
+          }
+        ],
+        "cod_cliente": "90411",
+        "razao_social": "SUPERMERCADO PADRAO DO FONSECA LTDA",
+        "fantasia": "SUPERMARKET",
+        "cnpj": "08.628.825/0018-05",
+        "endereco": "R PARANA, 14",
+        "praca": "CENTRO",
+        "forma_pg": "Boleto",
+        "rca": "450 - LEANDRO SOUZA - OFF TRADE",
+        "tipo_segmento": "OFF TRADE"
+      }
+    ]
+  },
+  "1a01290347d75b27": {
+    "subject": "Re: PEDIDO DO MERCADO (90411) DA REDE PADRAO DO FONSECA",
+    "data_email": "2026-08-17",
+    "blocos": [
+      {
+        "sistema": "CRC - 04",
+        "bonificacao": false,
+        "itens": [
+          {
+            "cod_prod": "3826",
+            "descricao": "VINHO LATITUD 33 CHARDONNAY 750 ML",
+            "qt": 12,
+            "preco": 35.0,
+            "total": 420.0
+          }
+        ],
+        "cod_cliente": "90411",
+        "razao_social": "SUPERMERCADO PADRAO DO FONSECA LTDA",
+        "fantasia": "SUPERMARKET",
+        "cnpj": "08.628.825/0018-05",
+        "endereco": "R PARANA, 14",
+        "praca": "CENTRO",
+        "forma_pg": "Boleto",
+        "rca": "450 - LEANDRO SOUZA - OFF TRADE",
+        "tipo_segmento": "OFF TRADE"
+      },
+      {
+        "sistema": "CRC - 04",
+        "bonificacao": false,
+        "itens": [
+          {
+            "cod_prod": "6259",
+            "descricao": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+            "qt": 3,
+            "preco": 86.28,
+            "total": 258.84
+          }
+        ],
+        "cod_cliente": "90411",
+        "razao_social": "SUPERMERCADO PADRAO DO FONSECA LTDA",
+        "fantasia": "SUPERMARKET",
+        "cnpj": "08.628.825/0018-05",
+        "endereco": "R PARANA, 14",
+        "praca": "CENTRO",
+        "forma_pg": "Boleto",
+        "rca": "450 - LEANDRO SOUZA - OFF TRADE",
+        "tipo_segmento": "OFF TRADE"
+      }
+    ]
+  },
+  "1a0116dd288bb642": {
+    "subject": "Fwd: PEDIDO REDE DE MERCADO GOMES",
+    "data_email": "2026-08-17",
+    "blocos": [
+      {
+        "sistema": "CRC - 04",
+        "bonificacao": false,
+        "itens": [
+          {
+            "cod_prod": "3828",
+            "descricao": "VINHO LATITUD 33 CABERNET SAUVIGNON",
+            "qt": 12,
+            "preco": 36.0,
+            "total": 432.0
+          },
+          {
+            "cod_prod": "3827",
+            "descricao": "VINHO LATITUD 33 MALBEC 750 ML",
+            "qt": 12,
+            "preco": 36.0,
+            "total": 432.0
+          },
+          {
+            "cod_prod": "3650",
+            "descricao": "VINHO LATITUD 33 SAUVIGNON BLANC 750 ML",
+            "qt": 6,
+            "preco": 36.0,
+            "total": 216.0
+          },
+          {
+            "cod_prod": "3830",
+            "descricao": "VINHO LATITUD 33 ROSE 750 ML",
+            "qt": 6,
+            "preco": 36.0,
+            "total": 216.0
+          },
+          {
+            "cod_prod": "1186",
+            "descricao": "VODKA ABSOLUT - 750 ML",
+            "qt": 12,
+            "preco": 55.9,
+            "total": 670.8
+          },
+          {
+            "cod_prod": "3826",
+            "descricao": "VINHO LATITUD 33 CHARDONNAY 750 ML",
+            "qt": 6,
+            "preco": 36.0,
+            "total": 216.0
+          },
+          {
+            "cod_prod": "7082",
+            "descricao": "BEBIDA DE UVA BRANCA GAS 660ML",
+            "qt": 12,
+            "preco": 17.4,
+            "total": 208.8
+          },
+          {
+            "cod_prod": "7083",
+            "descricao": "BEBIDA DE UVA ROSE GAS QM 660ML",
+            "qt": 12,
+            "preco": 17.4,
+            "total": 208.8
+          },
+          {
+            "cod_prod": "3759",
+            "descricao": "ESPUMANTE CHANDON RESEVE BRUT ROSE",
+            "qt": 12,
+            "preco": 76.0,
+            "total": 912.0
+          },
+          {
+            "cod_prod": "3766",
+            "descricao": "CHANDON PASSION ROSE 750ML",
+            "qt": 6,
+            "preco": 76.0,
+            "total": 456.0
+          },
+          {
+            "cod_prod": "6259",
+            "descricao": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+            "qt": 1,
+            "preco": 86.28,
+            "total": 86.28
+          },
+          {
+            "cod_prod": "6256",
+            "descricao": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+            "qt": 1,
+            "preco": 86.28,
+            "total": 86.28
+          }
+        ],
+        "cod_cliente": "84829",
+        "razao_social": "V&R MINIMERCADO PORTO DA ROCA LTDA",
+        "fantasia": "GOMES SUPERMERCADOS",
+        "cnpj": "46.866.453/0001-04",
+        "endereco": "AVENIDA SAQUAREMA 511",
+        "praca": "114 - SAQUAREMA",
+        "forma_pg": "Boleto",
+        "rca": "450 - LEANDRO PEREIRA DE SOUZA"
+      },
+      {
+        "sistema": "CRC - 04",
+        "bonificacao": false,
+        "itens": [
+          {
+            "cod_prod": "3828",
+            "descricao": "VINHO LATITUD 33 CABERNET SAUVIGNON",
+            "qt": 6,
+            "preco": 36.0,
+            "total": 216.0
+          },
+          {
+            "cod_prod": "3827",
+            "descricao": "VINHO LATITUD 33 MALBEC 750 ML",
+            "qt": 6,
+            "preco": 36.0,
+            "total": 216.0
+          },
+          {
+            "cod_prod": "2965",
+            "descricao": "PINK LEMONADE ST PIERRE LT 270MLX24",
+            "qt": 1,
+            "preco": 95.9,
+            "total": 95.9
+          },
+          {
+            "cod_prod": "3109",
+            "descricao": "RED MINT ST PIERRE LT 270MLX24",
+            "qt": 1,
+            "preco": 95.9,
+            "total": 95.9
+          }
+        ],
+        "cod_cliente": "2277",
+        "razao_social": "V&J MINIMERCADO PORTO DA ROCA LTDA",
+        "fantasia": "V&J MINIMERCADO PORTO DA ROCA",
+        "cnpj": "18.749.311/0001-13",
+        "endereco": "AVN SAQUAREMA, BACAXA - SAQUAREMA 4201",
+        "praca": "BACAXA",
+        "forma_pg": "Boleto",
+        "rca": "450 - LEANDRO PEREIRA DE SOUZA"
+      }
+    ]
+  },
+  "1a01148836c74dd0": {
+    "subject": "Fwd: PEDIDO ZONA SUL - AGOSTO",
+    "data_email": "2026-08-17",
+    "blocos": [
+      {
+        "sistema": "CRC - 04",
+        "cod_cliente": "6269",
+        "razao_social": "SUPERMERCADO ZONA SUL S/A",
+        "fantasia": "SUPERMERCADO ZONA SUL",
+        "cnpj": "33.381.286/0001-51",
+        "praca": "OLARIA",
+        "forma_pg": "Boleto",
+        "rca": "275 - MARIA LUIZA - OFF TRADE",
+        "bonificacao": false,
+        "tipo_segmento": "OFF TRADE",
+        "obs": "CRC4",
+        "prazo": "45 DIAS",
+        "itens": [
+          {
+            "cod_prod": "6798",
+            "descricao": "YVV DESTILADO GIN AR 6X710ML LT",
+            "qt": 6,
+            "preco": 197.64,
+            "total": 1185.84
+          },
+          {
+            "cod_prod": "6800",
+            "descricao": "YVV DESTILADO GIN TERRA 6X710ML LT",
+            "qt": 5,
+            "preco": 197.64,
+            "total": 988.2
+          },
+          {
+            "cod_prod": "7107",
+            "descricao": "APERITIVO LUCIA 750ML",
+            "qt": 120,
+            "preco": 73.5,
+            "total": 8820.0
+          },
+          {
+            "cod_prod": "5243",
+            "descricao": "YVV DESTILADO GIN AR 750ML",
+            "qt": 36,
+            "preco": 43.0,
+            "total": 1548.0
+          },
+          {
+            "cod_prod": "4516",
+            "descricao": "YVV DESTILADO GIN MAR 750ML",
+            "qt": 36,
+            "preco": 43.0,
+            "total": 1548.0
+          }
+        ]
+      },
+      {
+        "sistema": "CRC - 04",
+        "cod_cliente": "6269",
+        "razao_social": "SUPERMERCADO ZONA SUL S/A",
+        "fantasia": "SUPERMERCADO ZONA SUL",
+        "cnpj": "33.381.286/0001-51",
+        "praca": "OLARIA",
+        "forma_pg": "Boleto",
+        "rca": "Z75 - MARIA LUIZA - OFF TRADE",
+        "bonificacao": false,
+        "tipo_segmento": "OFF TRADE",
+        "obs": "CRC4 PEDIDO N. 9309838",
+        "prazo": "45 DIAS",
+        "itens": [
+          {
+            "cod_prod": "6798",
+            "descricao": "YVV DESTILADO GIN AR 6X710ML LT",
+            "qt": 10,
+            "preco": 197.64,
+            "total": 1976.4
+          },
+          {
+            "cod_prod": "6799",
+            "descricao": "YVV DESTILADO GIN AR 6X710ML LT",
+            "qt": 5,
+            "preco": 197.64,
+            "total": 988.2
+          },
+          {
+            "cod_prod": "6800",
+            "descricao": "YVV DESTILADO GIN TERRA 6X710ML LT",
+            "qt": 5,
+            "preco": 592.92,
+            "total": 2964.6
+          },
+          {
+            "cod_prod": "7107",
+            "descricao": "APERITIVO LUCIA 750ML",
+            "qt": 120,
+            "preco": 73.5,
+            "total": 8820.0
+          },
+          {
+            "cod_prod": "5243",
+            "descricao": "YVV DESTILADO GIN AR 750ML",
+            "qt": 10,
+            "preco": 49.0,
+            "total": 490.0
+          },
+          {
+            "cod_prod": "4516",
+            "descricao": "YVV DESTILADO GIN AR 750ML",
+            "qt": 10,
+            "preco": 49.0,
+            "total": 490.0
+          }
+        ]
+      }
+    ]
+  },
+  "1a01108dd9768c3d": {
+    "subject": "Fwd: PEDIDO 2 DA REDE DE MERCADO ALVORADA",
+    "data_email": "2026-08-17",
+    "blocos": [
+      {
+        "sistema": "CRC - 04",
+        "bonificacao": false,
+        "itens": [
+          {
+            "cod_prod": "3138",
+            "descricao": "WHISKY BUCHANANS 12 YEARS 750 ML",
+            "qt": 180,
+            "preco": 111.0,
+            "total": 19980.0
+          }
+        ],
+        "cod_cliente": "58584",
+        "razao_social": "SUPERMERCADO ALVORADA EIRELI",
+        "fantasia": "SUPERMARKET - ENGENHO VELHO",
+        "cnpj": "17.833.301/0001-07",
+        "endereco": "AVENIDA VINTE E DOIS DE MAIO, ENGENHO VELHO - ITABORAI",
+        "praca": "ENGENHO VELHO",
+        "forma_pg": "Boleto",
+        "rca": "450 - LEANDRO SOUZA - OFF TRADE",
+        "tipo_segmento": "OFF TRADE"
+      }
+    ]
+  },
+  "1a010f40bf2cabc8": {
+    "subject": "Fwd: PEDIDO ZONA SUL - AGOSTO",
+    "data_email": "2026-08-17",
+    "blocos": [
+      {
+        "sistema": "CRC - 04",
+        "cod_cliente": "6269",
+        "razao_social": "SUPERMERCADO ZONA SUL S/A",
+        "fantasia": "SUPERMERCADO ZONA SUL",
+        "cnpj": "33.381.286/0001-51",
+        "praca": "OLARIA",
+        "forma_pg": "Boleto",
+        "rca": "275 - MARIA LUIZA - OFF TRADE",
+        "bonificacao": false,
+        "tipo_segmento": "OFF TRADE",
+        "obs": "CRC4",
+        "prazo": "45 DIAS",
+        "itens": [
+          {
+            "cod_prod": "6798",
+            "descricao": "YVV DESTILADO GIN AR 6X710ML LT",
+            "qt": 6,
+            "preco": 197.64,
+            "total": 1185.84
+          },
+          {
+            "cod_prod": "6800",
+            "descricao": "YVV DESTILADO GIN TERRA 6X710ML LT",
+            "qt": 5,
+            "preco": 197.64,
+            "total": 988.2
+          },
+          {
+            "cod_prod": "7107",
+            "descricao": "APERITIVO LUCIA 750ML",
+            "qt": 120,
+            "preco": 73.5,
+            "total": 8820.0
+          },
+          {
+            "cod_prod": "5243",
+            "descricao": "YVV DESTILADO GIN AR 750ML",
+            "qt": 36,
+            "preco": 43.0,
+            "total": 1548.0
+          },
+          {
+            "cod_prod": "4516",
+            "descricao": "YVV DESTILADO GIN MAR 750ML",
+            "qt": 36,
+            "preco": 43.0,
+            "total": 1548.0
+          }
+        ]
+      }
+    ]
+  },
+  "1a010cebb3d18b58": {
+    "subject": "PEDIDO 2 DA REDE DE MERCADO ALVORADA",
+    "data_email": "2026-08-17",
+    "blocos": [
+      {
+        "sistema": "CRC - 04",
+        "bonificacao": false,
+        "itens": [
+          {
+            "cod_prod": "3138",
+            "descricao": "WHISKY BUCHANANS 12 YEARS 750 ML",
+            "qt": 180,
+            "preco": 111.0,
+            "total": 19980.0
+          }
+        ],
+        "cod_cliente": "58584",
+        "razao_social": "SUPERMERCADO ALVORADA EIRELI",
+        "fantasia": "SUPERMARKET - ENGENHO VELHO",
+        "cnpj": "17.833.301/0001-07",
+        "endereco": "AVENIDA VINTE E DOIS DE MAIO, ENGENHO VELHO - ITABORAI",
+        "praca": "ENGENHO VELHO",
+        "forma_pg": "Boleto",
+        "rca": "450 - LEANDRO SOUZA - OFF TRADE",
+        "tipo_segmento": "OFF TRADE"
+      }
+    ]
+  },
+  "1a010c7ea962127a": {
+    "subject": "PEDIDO 1 DA REDE DE MERCADO ALVORADA",
+    "data_email": "2026-08-17",
+    "blocos": [
+      {
+        "sistema": "CRC - 04",
+        "bonificacao": false,
+        "itens": [
+          {
+            "cod_prod": "4477",
+            "descricao": "GIN TANQUERAY BOSSA NOVA 700 ML",
+            "qt": 24,
+            "preco": 81.0,
+            "total": 1944.0
+          },
+          {
+            "cod_prod": "2221",
+            "descricao": "GIN TANQUERAY FLOR DE SEVILLA 700 ML",
+            "qt": 6,
+            "preco": 81.0,
+            "total": 486.0
+          },
+          {
+            "cod_prod": "69",
+            "descricao": "RUM MONTILLA CARTA BRANCA 1000ML",
+            "qt": 12,
+            "preco": 21.0,
+            "total": 252.0
+          },
+          {
+            "cod_prod": "603",
+            "descricao": "WHISKY GENTLEMAN JACK 1L",
+            "qt": 72,
+            "preco": 157.0,
+            "total": 11304.0
+          }
+        ],
+        "cod_cliente": "58584",
+        "razao_social": "SUPERMERCADO ALVORADA EIRELI",
+        "fantasia": "SUPERMARKET - ENGENHO VELHO",
+        "cnpj": "17.833.301/0001-07",
+        "endereco": "AVENIDA VINTE E DOIS DE MAIO, ENGENHO VELHO - ITABORAI",
+        "praca": "ENGENHO VELHO",
+        "forma_pg": "Boleto",
+        "rca": "450 - LEANDRO SOUZA - OFF TRADE",
+        "tipo_segmento": "OFF TRADE"
+      }
+    ]
+  },
+  "1a0102d577c596e0": {
+    "subject": "PEDIDO DA REDE JUZAN",
+    "data_email": "2026-08-17",
+    "blocos": [
+      {
+        "sistema": "CRC - 04",
+        "bonificacao": false,
+        "itens": [
+          {
+            "cod_prod": "6285",
+            "descricao": "CANTINA DA SERRA 750ML",
+            "qt": 48,
+            "preco": 3.9,
+            "total": 187.2
+          },
+          {
+            "cod_prod": "4071",
+            "descricao": "VODKA OUSADIA VID 900ML",
+            "qt": 12,
+            "preco": 9.5,
+            "total": 114.0
+          },
+          {
+            "cod_prod": "4009",
+            "descricao": "IMPERADOR 900ML",
+            "qt": 6,
+            "preco": 10.0,
+            "total": 60.0
+          }
+        ],
+        "cod_cliente": "94956",
+        "razao_social": "JNH SUPERMERCADOS LTDA",
+        "fantasia": "MERCADO JUZAN FILIAL",
+        "cnpj": "32.455.926/0002-49",
+        "endereco": "AVENIDA SAQUAREMA, 4433, PORTO DA ROÇA II (BACAXÁ) - SAQUAREMA",
+        "praca": "PORTO DA ROÇA II (BACAXÁ)",
+        "forma_pg": "Boleto",
+        "rca": "450 - LEANDRO SOUZA - OFF TRADE",
+        "tipo_segmento": "OFF TRADE"
+      },
+      {
+        "sistema": "CRC - 04",
+        "bonificacao": false,
+        "itens": [
+          {
+            "cod_prod": "6285",
+            "descricao": "CANTINA DA SERRA 750ML",
+            "qt": 36,
+            "preco": 3.9,
+            "total": 140.4
+          },
+          {
+            "cod_prod": "4071",
+            "descricao": "VODKA OUSADIA VID 900ML",
+            "qt": 12,
+            "preco": 9.5,
+            "total": 114.0
+          }
+        ],
+        "cod_cliente": "94955",
+        "razao_social": "COMERCIO DE CEREAIS IZANITA LIMITADA",
+        "fantasia": "MERCADO ATAKAREJO",
+        "cnpj": "07.258.484/0001-12",
+        "endereco": "ROD AMARAL PEIXOTO, SN, BACAXA - SAQUAREMA",
+        "praca": "BACAXA",
+        "forma_pg": "Boleto",
+        "rca": "450 - LEANDRO SOUZA - OFF TRADE",
+        "tipo_segmento": "OFF TRADE"
+      },
+      {
+        "sistema": "CRC - 04",
+        "bonificacao": false,
+        "itens": [
+          {
+            "cod_prod": "6285",
+            "descricao": "CANTINA DA SERRA 750ML",
+            "qt": 36,
+            "preco": 3.9,
+            "total": 140.4
+          },
+          {
+            "cod_prod": "4071",
+            "descricao": "VODKA OUSADIA VID 900ML",
+            "qt": 12,
+            "preco": 9.5,
+            "total": 114.0
+          }
+        ],
+        "cod_cliente": "94954",
+        "razao_social": "COMERCIO DE CEREAIS IZANITA LIMITADA",
+        "fantasia": "MERCADO ATAKAREJO FILIAL",
+        "cnpj": "07.258.484/0002-01",
+        "endereco": "ESTRADA VELHA PALMITAL, SN, RIO DA AREIA (BACAXÁ) - SAQUAREMA",
+        "praca": "RIO DA AREIA (BACAXÁ)",
+        "forma_pg": "Boleto",
+        "rca": "450 - LEANDRO SOUZA - OFF TRADE",
+        "tipo_segmento": "OFF TRADE"
+      }
+    ]
+  },
+  "1a010184ccef7b9a": {
+    "subject": "PEDIDO REDE DE MERCADO GOMES",
+    "data_email": "2026-08-17",
+    "blocos": [
+      {
+        "sistema": "CRC - 04",
+        "bonificacao": false,
+        "itens": [
+          {
+            "cod_prod": "3828",
+            "descricao": "VINHO LATITUD 33 CABERNET SAUVIGNON",
+            "qt": 12,
+            "preco": 36.0,
+            "total": 432.0
+          },
+          {
+            "cod_prod": "3827",
+            "descricao": "VINHO LATITUD 33 MALBEC 750 ML",
+            "qt": 12,
+            "preco": 36.0,
+            "total": 432.0
+          },
+          {
+            "cod_prod": "3650",
+            "descricao": "VINHO LATITUD 33 SAUVIGNON BLANC 750 ML",
+            "qt": 6,
+            "preco": 36.0,
+            "total": 216.0
+          },
+          {
+            "cod_prod": "3830",
+            "descricao": "VINHO LATITUD 33 ROSE 750 ML",
+            "qt": 6,
+            "preco": 36.0,
+            "total": 216.0
+          },
+          {
+            "cod_prod": "1186",
+            "descricao": "VODKA ABSOLUT - 750 ML",
+            "qt": 12,
+            "preco": 55.9,
+            "total": 670.8
+          },
+          {
+            "cod_prod": "3826",
+            "descricao": "VINHO LATITUD 33 CHARDONNAY 750 ML",
+            "qt": 6,
+            "preco": 36.0,
+            "total": 216.0
+          },
+          {
+            "cod_prod": "7082",
+            "descricao": "BEBIDA DE UVA BRANCA GAS 660ML",
+            "qt": 12,
+            "preco": 17.4,
+            "total": 208.8
+          },
+          {
+            "cod_prod": "7083",
+            "descricao": "BEBIDA DE UVA ROSE GAS QM 660ML",
+            "qt": 12,
+            "preco": 17.4,
+            "total": 208.8
+          },
+          {
+            "cod_prod": "3759",
+            "descricao": "ESPUMANTE CHANDON RESEVE BRUT ROSE",
+            "qt": 12,
+            "preco": 76.0,
+            "total": 912.0
+          },
+          {
+            "cod_prod": "3766",
+            "descricao": "CHANDON PASSION ROSE 750ML",
+            "qt": 6,
+            "preco": 76.0,
+            "total": 456.0
+          },
+          {
+            "cod_prod": "6259",
+            "descricao": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+            "qt": 1,
+            "preco": 86.28,
+            "total": 86.28
+          },
+          {
+            "cod_prod": "6256",
+            "descricao": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+            "qt": 1,
+            "preco": 86.28,
+            "total": 86.28
+          }
+        ],
+        "cod_cliente": "84829",
+        "razao_social": "V&R MINIMERCADO PORTO DA ROCA LTDA",
+        "fantasia": "GOMES SUPERMERCADOS",
+        "cnpj": "46.866.453/0001-04",
+        "endereco": "AVENIDA SAQUAREMA 511",
+        "praca": "114 - SAQUAREMA",
+        "forma_pg": "Boleto",
+        "rca": "450 - LEANDRO PEREIRA DE SOUZA"
+      },
+      {
+        "sistema": "CRC - 04",
+        "bonificacao": false,
+        "itens": [
+          {
+            "cod_prod": "3828",
+            "descricao": "VINHO LATITUD 33 CABERNET SAUVIGNON",
+            "qt": 6,
+            "preco": 36.0,
+            "total": 216.0
+          },
+          {
+            "cod_prod": "3827",
+            "descricao": "VINHO LATITUD 33 MALBEC 750 ML",
+            "qt": 6,
+            "preco": 36.0,
+            "total": 216.0
+          },
+          {
+            "cod_prod": "2965",
+            "descricao": "PINK LEMONADE ST PIERRE LT 270MLX24",
+            "qt": 1,
+            "preco": 95.9,
+            "total": 95.9
+          },
+          {
+            "cod_prod": "3109",
+            "descricao": "RED MINT ST PIERRE LT 270MLX24",
+            "qt": 1,
+            "preco": 95.9,
+            "total": 95.9
+          }
+        ],
+        "cod_cliente": "2277",
+        "razao_social": "V&J MINIMERCADO PORTO DA ROCA LTDA",
+        "fantasia": "V&J MINIMERCADO PORTO DA ROCA",
+        "cnpj": "18.749.311/0001-13",
+        "endereco": "AVN SAQUAREMA, BACAXA - SAQUAREMA 4201",
+        "praca": "BACAXA",
+        "forma_pg": "Boleto",
+        "rca": "450 - LEANDRO PEREIRA DE SOUZA"
+      }
+    ]
+  },
+  "1a00fcafe0c6741c": {
+    "subject": "Re: PEDIDO MUNDIAL",
+    "data_email": "2026-08-17",
+    "blocos": []
+  },
+  "1a00efd6e518c2a8": {
+    "subject": "PEDIDO MUNDIAL",
+    "data_email": "2026-08-17",
+    "blocos": [
+      {
+        "sistema": "CRC - 04",
+        "cod_cliente": "6278",
+        "razao_social": "SUPERMERCADOS MUNDIAL LTDA",
+        "fantasia": "SUPERMERCADOS MUNDIAL",
+        "cnpj": "33.304.981/0001-10",
+        "praca": "INHAUMA",
+        "forma_pg": "Boleto",
+        "rca": "158",
+        "bonificacao": false,
+        "tipo_segmento": "OFF TRADE",
+        "obs": "nº pedido 315244",
+        "prazo": "35 DIAS",
+        "itens": [
+          {
+            "cod_prod": "5585",
+            "descricao": "RC ATUM SOLIDO NATURAL 24X170G",
+            "qt": 552,
+            "preco": 181.2,
+            "total": 100022.4
+          },
+          {
+            "cod_prod": "5586",
+            "descricao": "RC ATUM SOLIDO OLEO 24X170G",
+            "qt": 368,
+            "preco": 181.2,
+            "total": 66816.8
+          }
+        ]
+      }
+    ]
+  },
+  "1a00200a35901648": {
+    "subject": "Pedido do cliente 83800 Supermercado Rio Sul de Comendador Soares",
+    "data_email": "2026-08-14",
+    "blocos": [
+      {
+        "sistema": "CRC - 04",
+        "cod_cliente": "83800",
+        "razao_social": "SUPERMERCADOS RIO SUL DE COMERCIADOR SOARES LTDA",
+        "fantasia": "SUPERMERCADOS RIO SUL DE COMERCIADOR SOAR",
+        "cnpj": "44.747.049/0001-88",
+        "praca": "RUA TOMAS FONSECA, COMERCIADOR SOARES - NOVA IGUAÇU",
+        "forma_pg": "Boleto",
+        "rca": "153 - ANGELO NEVES SUZART - OFF TRADE",
+        "bonificacao": false,
+        "tipo_segmento": "OFF TRADE",
+        "obs": "entregar no dia 18/08 com pagamento de descarga no valor R$60,00 por pallets horario das 08:00 às 14:00hr por ordem de chegada pedido 88611",
+        "prazo": "28",
+        "itens": [
+          {
+            "cod_prod": "381",
+            "descricao": "CACHACA VELHO BARREIRO 910 ML",
+            "qt": 24,
+            "preco": 12.3,
+            "total": 309.6
+          },
+          {
+            "cod_prod": "663",
+            "descricao": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+            "qt": 24,
+            "preco": 36.3,
+            "total": 871.8
+          },
+          {
+            "cod_prod": "271",
+            "descricao": "ESPUM CASA PERINI MOSCATEL 750ML",
+            "qt": 12,
+            "preco": 36.3,
+            "total": 435.6
+          },
+          {
+            "cod_prod": "7081",
+            "descricao": "SUCO DE UVA TITOTI QUINTA DO MORGADO 1L",
+            "qt": 36,
+            "preco": 11.3,
+            "total": 428.4
+          }
+        ]
+      }
+    ]
+  },
+  "1a001faef24cd55d": {
+    "subject": "PEDIDO MERCADO ULTRA - RCA 471",
+    "data_email": "2026-08-14",
+    "blocos": [
+      {
+        "sistema": "CRC - 04",
+        "bonificacao": false,
+        "itens": [
+          {
+            "cod_prod": "71",
+            "descricao": "AGUARDENTE OLD CESAR 88 965 ML",
+            "qt": 36,
+            "preco": 10.9,
+            "total": 392.4
+          }
+        ],
+        "cod_cliente": "6690",
+        "razao_social": "SUPERMERCADO ULTRA 12 LTDA",
+        "fantasia": "SUPERMERCADO ULTRA 12",
+        "cnpj": "05.669.831/0001-74",
+        "endereco": "RUA VISCONDE DE PIRAJA, IPANEMA - RIO DE JANEIRO",
+        "praca": "TIJUCA",
+        "forma_pg": "Boleto",
+        "rca": "471 - ANA CLARA",
+        "tipo_segmento": "OFF TRADE"
+      }
+    ]
+  },
+  "1a001b250549adf6": {
+    "subject": "Pedido 27% - MUNDIAL",
+    "data_email": "2026-08-14",
+    "blocos": [
+      {
+        "sistema": "CRC - 04",
+        "cod_cliente": "6278",
+        "razao_social": "SUPERMERCADOS MUNDIAL LTDA",
+        "fantasia": "SUPERMERCADOS MUNDIAL",
+        "cnpj": "33.304.981/0001-10",
+        "praca": "INHAUMA",
+        "forma_pg": "Boleto",
+        "rca": "158",
+        "bonificacao": false,
+        "tipo_segmento": "OFF TRADE",
+        "obs": "",
+        "prazo": "35 DIAS",
+        "itens": [
+          {
+            "cod_prod": "3451",
+            "descricao": "WHISKY ESC MACALLAN DOUBLE 12 YO 700ML",
+            "qt": 12,
+            "preco": 729,
+            "total": 8748
+          }
+        ]
+      }
+    ]
+  },
+  "1a0019fa44a94ccc": {
+    "subject": "Fwd: Pedido 27% - PORTAL RIO SUL/ Srº AGOSTINHO",
+    "data_email": "2026-08-14",
+    "blocos": [
+      {
+        "sistema": "CRC - 04",
+        "cod_cliente": "16159",
+        "razao_social": "PORTAL RIO SUL ALIMENTOS E BEBIDAS EIRELLI",
+        "fantasia": "PORTAL RIO SUL ALIMENTOS E BEBIDAS EIREL",
+        "cnpj": "33.060.720/0001-00",
+        "praca": "PENHA CIRCULAR",
+        "forma_pg": "Boleto",
+        "rca": "158",
+        "bonificacao": false,
+        "tipo_segmento": "OFF TRADE",
+        "obs": "",
+        "prazo": "28 DIAS",
+        "itens": [
+          {
+            "cod_prod": "272",
+            "descricao": "LICOR COINTREAU 700 ML",
+            "qt": 120,
+            "preco": 83.9,
+            "total": 10068.0
+          }
+        ]
+      }
+    ]
+  },
+  "1a00196f897eb5e7": {
+    "subject": "Fwd: PEDIDO DO MERCADO (90411) DA REDE PADRAO DO FONSECA",
+    "data_email": "2026-08-14",
+    "blocos": [
+      {
+        "sistema": "CRC - 04",
+        "bonificacao": false,
+        "itens": [
+          {
+            "cod_prod": "3826",
+            "descricao": "VINHO LATITUD 33 CHARDONNAY 750 ML",
+            "qt": 12,
+            "preco": 35.0,
+            "total": 420.0
+          }
+        ],
+        "cod_cliente": "90411",
+        "razao_social": "SUPERMERCADO PADRAO DO FONSECA LTDA",
+        "fantasia": "SUPERMARKET",
+        "cnpj": "08.628.825/0018-05",
+        "endereco": "R PARANA, 14",
+        "praca": "CENTRO",
+        "forma_pg": "Boleto",
+        "rca": "450 - LEANDRO SOUZA - OFF TRADE",
+        "tipo_segmento": "OFF TRADE"
+      },
+      {
+        "sistema": "CRC - 04",
+        "bonificacao": false,
+        "itens": [
+          {
+            "cod_prod": "6259",
+            "descricao": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+            "qt": 3,
+            "preco": 86.28,
+            "total": 258.84
+          }
+        ],
+        "cod_cliente": "90411",
+        "razao_social": "SUPERMERCADO PADRAO DO FONSECA LTDA",
+        "fantasia": "SUPERMARKET",
+        "cnpj": "08.628.825/0018-05",
+        "endereco": "R PARANA, 14",
+        "praca": "CENTRO",
+        "forma_pg": "Boleto",
+        "rca": "450 - LEANDRO SOUZA - OFF TRADE",
+        "tipo_segmento": "OFF TRADE"
+      }
+    ]
+  },
+  "1a00195ca0f1be37": {
+    "subject": "Pedido 27% - PORTAL RIO SUL/ Srº AGOSTINHO",
+    "data_email": "2026-08-14",
+    "blocos": [
+      {
+        "sistema": "CRC - 04",
+        "cod_cliente": "16159",
+        "razao_social": "PORTAL RIO SUL ALIMENTOS E BEBIDAS EIRELLI",
+        "fantasia": "PORTAL RIO SUL ALIMENTOS E BEBIDAS EIREL",
+        "cnpj": "33.060.720/0001-00",
+        "praca": "PENHA CIRCULAR",
+        "forma_pg": "Boleto",
+        "rca": "158",
+        "bonificacao": false,
+        "tipo_segmento": "OFF TRADE",
+        "obs": "",
+        "prazo": "28 DIAS",
+        "itens": [
+          {
+            "cod_prod": "272",
+            "descricao": "LICOR COINTREAU 700 ML",
+            "qt": 120,
+            "preco": 83.9,
+            "total": 10068.0
+          }
+        ]
+      }
+    ]
+  },
+  "1a001909f1eddb33": {
+    "subject": "Fwd: PEDIDO ROYAL - PARA ENTREGAR SEGUNDA 17/08",
+    "data_email": "2026-08-14",
+    "blocos": []
+  },
+  "1a0018ec6c606df7": {
+    "subject": "PEDIDO DO MERCADO (90411) DA REDE PADRAO DO FONSECA",
+    "data_email": "2026-08-14",
+    "blocos": [
+      {
+        "sistema": "CRC - 04",
+        "bonificacao": false,
+        "itens": [
+          {
+            "cod_prod": "3826",
+            "descricao": "VINHO LATITUD 33 CHARDONNAY 750 ML",
+            "qt": 12,
+            "preco": 35.0,
+            "total": 420.0
+          }
+        ],
+        "cod_cliente": "90411",
+        "razao_social": "SUPERMERCADO PADRAO DO FONSECA LTDA",
+        "fantasia": "SUPERMARKET",
+        "cnpj": "08.628.825/0018-05",
+        "endereco": "R PARANA, 14",
+        "praca": "CENTRO",
+        "forma_pg": "Boleto",
+        "rca": "450 - LEANDRO SOUZA - OFF TRADE",
+        "tipo_segmento": "OFF TRADE"
+      },
+      {
+        "sistema": "CRC - 04",
+        "bonificacao": false,
+        "itens": [
+          {
+            "cod_prod": "6259",
+            "descricao": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+            "qt": 3,
+            "preco": 86.28,
+            "total": 258.84
+          }
+        ],
+        "cod_cliente": "90411",
+        "razao_social": "SUPERMERCADO PADRAO DO FONSECA LTDA",
+        "fantasia": "SUPERMARKET",
+        "cnpj": "08.628.825/0018-05",
+        "endereco": "R PARANA, 14",
+        "praca": "CENTRO",
+        "forma_pg": "Boleto",
+        "rca": "450 - LEANDRO SOUZA - OFF TRADE",
+        "tipo_segmento": "OFF TRADE"
+      }
+    ]
+  },
+  "1a0018d49994afab": {
+    "subject": "PEDIDO ROYAL - PARA ENTREGAR SEGUNDA 17/08",
+    "data_email": "2026-08-14",
+    "blocos": []
+  },
+  "1a0018d341d87e2b": {
+    "subject": "Fwd: PEDIDO DO MERCADO (9604 ) DA REDE PADRAO DO FONSECA",
+    "data_email": "2026-08-14",
+    "blocos": [
+      {
+        "sistema": "CRC - 04",
+        "bonificacao": false,
+        "itens": [
+          {
+            "cod_prod": "3828",
+            "descricao": "LATITUD 33 CABERNET SAUVIGNON",
+            "qt": 6,
+            "preco": 35.0,
+            "total": 210.0
+          },
+          {
+            "cod_prod": "3827",
+            "descricao": "VINHO LATITUD 33 MALBEC 750 ML",
+            "qt": 12,
+            "preco": 35.0,
+            "total": 420.0
+          }
+        ],
+        "cod_cliente": "9604",
+        "razao_social": "SUPERMERCADO PADRAO DO FONSECA EIRELI",
+        "fantasia": "SUPERMARKET FONSECA - PIRATININGA",
+        "cnpj": "08.628.825/0003-29",
+        "endereco": "AVENIDA ALMIRANTE TAMANDARE, 597 PIRATININGA - NITEROI",
+        "praca": "PIRATININGA",
+        "forma_pg": "Boleto",
+        "rca": "450 - LEANDRO SOUZA - OFF TRADE",
+        "tipo_segmento": "OFF TRADE"
+      },
+      {
+        "sistema": "CRC - 04",
+        "bonificacao": false,
+        "itens": [
+          {
+            "cod_prod": "6256",
+            "descricao": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+            "qt": 3,
+            "preco": 86.28,
+            "total": 258.84
+          }
+        ],
+        "cod_cliente": "9604",
+        "razao_social": "SUPERMERCADO PADRAO DO FONSECA EIRELI",
+        "fantasia": "SUPERMARKET FONSECA - PIRATININGA",
+        "cnpj": "08.628.825/0003-29",
+        "endereco": "AVENIDA ALMIRANTE TAMANDARE, 597 PIRATININGA - NITEROI",
+        "praca": "PIRATININGA",
+        "forma_pg": "Boleto",
+        "rca": "450 - LEANDRO SOUZA - OFF TRADE",
+        "tipo_segmento": "OFF TRADE"
+      }
+    ]
+  },
+  "1a0018c713760ab0": {
+    "subject": "Re: PEDIDO DO MERCADO (9604 ) DA REDE PADRAO DO FONSECA",
+    "data_email": "2026-08-14",
+    "blocos": [
+      {
+        "sistema": "CRC - 04",
+        "bonificacao": false,
+        "itens": [
+          {
+            "cod_prod": "3828",
+            "descricao": "LATITUD 33 CABERNET SAUVIGNON",
+            "qt": 6,
+            "preco": 35.0,
+            "total": 210.0
+          },
+          {
+            "cod_prod": "3827",
+            "descricao": "VINHO LATITUD 33 MALBEC 750 ML",
+            "qt": 12,
+            "preco": 35.0,
+            "total": 420.0
+          }
+        ],
+        "cod_cliente": "9604",
+        "razao_social": "SUPERMERCADO PADRAO DO FONSECA EIRELI",
+        "fantasia": "SUPERMARKET FONSECA - PIRATININGA",
+        "cnpj": "08.628.825/0003-29",
+        "endereco": "AVENIDA ALMIRANTE TAMANDARE, 597 PIRATININGA - NITEROI",
+        "praca": "PIRATININGA",
+        "forma_pg": "Boleto",
+        "rca": "450 - LEANDRO SOUZA - OFF TRADE",
+        "tipo_segmento": "OFF TRADE"
+      },
+      {
+        "sistema": "CRC - 04",
+        "bonificacao": false,
+        "itens": [
+          {
+            "cod_prod": "6256",
+            "descricao": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+            "qt": 3,
+            "preco": 86.28,
+            "total": 258.84
+          }
+        ],
+        "cod_cliente": "9604",
+        "razao_social": "SUPERMERCADO PADRAO DO FONSECA EIRELI",
+        "fantasia": "SUPERMARKET FONSECA - PIRATININGA",
+        "cnpj": "08.628.825/0003-29",
+        "endereco": "AVENIDA ALMIRANTE TAMANDARE, 597 PIRATININGA - NITEROI",
+        "praca": "PIRATININGA",
+        "forma_pg": "Boleto",
+        "rca": "450 - LEANDRO SOUZA - OFF TRADE",
+        "tipo_segmento": "OFF TRADE"
+      }
+    ]
+  },
+  "1a001807a294e00f": {
+    "subject": "PEDIDO DO MERCADO (9604 ) DA REDE PADRAO DO FONSECA",
+    "data_email": "2026-08-14",
+    "blocos": [
+      {
+        "sistema": "CRC - 04",
+        "bonificacao": false,
+        "itens": [
+          {
+            "cod_prod": "3828",
+            "descricao": "LATITUD 33 CABERNET SAUVIGNON",
+            "qt": 6,
+            "preco": 35.0,
+            "total": 210.0
+          },
+          {
+            "cod_prod": "3827",
+            "descricao": "VINHO LATITUD 33 MALBEC 750 ML",
+            "qt": 12,
+            "preco": 35.0,
+            "total": 420.0
+          }
+        ],
+        "cod_cliente": "9604",
+        "razao_social": "SUPERMERCADO PADRAO DO FONSECA EIRELI",
+        "fantasia": "SUPERMARKET FONSECA - PIRATININGA",
+        "cnpj": "08.628.825/0003-29",
+        "endereco": "AVENIDA ALMIRANTE TAMANDARE, 597 PIRATININGA - NITEROI",
+        "praca": "PIRATININGA",
+        "forma_pg": "Boleto",
+        "rca": "450 - LEANDRO SOUZA - OFF TRADE",
+        "tipo_segmento": "OFF TRADE"
+      },
+      {
+        "sistema": "CRC - 04",
+        "bonificacao": false,
+        "itens": [
+          {
+            "cod_prod": "6256",
+            "descricao": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+            "qt": 3,
+            "preco": 86.28,
+            "total": 258.84
+          }
+        ],
+        "cod_cliente": "9604",
+        "razao_social": "SUPERMERCADO PADRAO DO FONSECA EIRELI",
+        "fantasia": "SUPERMARKET FONSECA - PIRATININGA",
+        "cnpj": "08.628.825/0003-29",
+        "endereco": "AVENIDA ALMIRANTE TAMANDARE, 597 PIRATININGA - NITEROI",
+        "praca": "PIRATININGA",
+        "forma_pg": "Boleto",
+        "rca": "450 - LEANDRO SOUZA - OFF TRADE",
+        "tipo_segmento": "OFF TRADE"
+      }
+    ]
+  },
+  "1a0013e948788d67": {
+    "subject": "Fwd: PEDIDO CRC 04",
+    "data_email": "2026-08-14",
+    "blocos": [
+      {
+        "sistema": "CRC - 04",
+        "bonificacao": false,
+        "itens": [
+          {
+            "cod_prod": "1518",
+            "descricao": "CANTINA DA SERRA 1,5L",
+            "qt": 12,
+            "preco": 8.9,
+            "total": 106.8
+          },
+          {
+            "cod_prod": "6285",
+            "descricao": "CANTINA DA SERRA 750ML",
+            "qt": 12,
+            "preco": 4.0,
+            "total": 48.0
+          },
+          {
+            "cod_prod": "7777",
+            "descricao": "VINHO DOM BOSCO TINTO SUAVE",
+            "qt": 12,
+            "preco": 12.9,
+            "total": 154.8
+          },
+          {
+            "cod_prod": "296",
+            "descricao": "SMIRNOFF ICE - 24 UNIDADES (LONG NECK)",
+            "qt": 2,
+            "preco": 127.0,
+            "total": 254.0
+          }
+        ],
+        "cod_cliente": "78947",
+        "razao_social": "SUPERMERCADO SHOW DE ECONOMIA LTDA.",
+        "fantasia": "SHOW DE ECONOMIA - JACAREPAGUA",
+        "cnpj": "49.949.145/0001-22",
+        "endereco": "AVENIDA ADAUTO BOTELHO, JACAREPAGUÁ - RIO DE JANEIRO",
+        "praca": "JACAREPAGUÁ",
+        "forma_pg": "Boleto",
+        "rca": "144 - DIOGO RAPOSO - OFF TRADE",
+        "tipo_segmento": "OFF TRADE"
+      }
+    ]
+  },
+  "1a000f67627760e2": {
+    "subject": "Fwd: PEDIDO CRC 04",
+    "data_email": "2026-08-14",
+    "blocos": [
+      {
+        "sistema": "CRC - 04",
+        "bonificacao": false,
+        "itens": [
+          {
+            "cod_prod": "4477",
+            "descricao": "GIN TANQUERAY BOSSA NOVA 700 ML",
+            "qt": 180,
+            "preco": 78.9,
+            "total": 14202.0
+          }
+        ],
+        "cod_cliente": "92136",
+        "razao_social": "63.529.210 KAUE ALVES DA SILVA SARAIVA",
+        "fantasia": "KAUE ALVES DA SILVA SARAIVA",
+        "cnpj": "63.529.210/0001-91",
+        "endereco": "RUA ANTÔNIO RIEDLINGER JÚNIOR, OSWALDO CRUZ - RIO DE JANEIRO",
+        "praca": "OSWALDO CRUZ",
+        "forma_pg": "Pix",
+        "rca": "144 - DIOGO RAPOSO - OFF TRADE",
+        "tipo_segmento": "OFF TRADE"
+      }
+    ]
+  },
+  "1a000f164977712a": {
+    "subject": "PEDIDO CRC 04",
+    "data_email": "2026-08-14",
+    "blocos": [
+      {
+        "sistema": "CRC - 04",
+        "bonificacao": false,
+        "itens": [
+          {
+            "cod_prod": "4477",
+            "descricao": "GIN TANQUERAY BOSSA NOVA 700 ML",
+            "qt": 180,
+            "preco": 78.9,
+            "total": 14202.0
+          }
+        ],
+        "cod_cliente": "92136",
+        "razao_social": "63.529.210 KAUE ALVES DA SILVA SARAIVA",
+        "fantasia": "KAUE ALVES DA SILVA SARAIVA",
+        "cnpj": "63.529.210/0001-91",
+        "endereco": "RUA ANTÔNIO RIEDLINGER JÚNIOR, OSWALDO CRUZ - RIO DE JANEIRO",
+        "praca": "OSWALDO CRUZ",
+        "forma_pg": "Pix",
+        "rca": "144 - DIOGO RAPOSO - OFF TRADE",
+        "tipo_segmento": "OFF TRADE"
+      }
+    ]
   }
 }
