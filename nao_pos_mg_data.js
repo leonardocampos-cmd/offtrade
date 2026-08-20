@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_mg.py
 
 const NAO_POS_MG_DATA = {
-  "atualizado_em": "20/08/2026 14:12",
+  "atualizado_em": "20/08/2026 15:02",
   "por_vendedor": {
     "BRUNA CASTRO MELLO": [
       {
@@ -2422,20 +2422,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "39070",
-        "cliente": "EMPREENDIMENTOS SUNRITZ LTDA",
-        "bairro": "ESTORIL",
-        "dtultcomp": "24/07/2026",
-        "produtos": [
-          {
-            "produto": "ESPUMANTE CHANDON RESERVE BRUT 750ML",
-            "fantasia": "LVMH",
-            "qt": 4,
-            "valor": 419.6
-          }
-        ]
-      },
-      {
         "codcli": "37790",
         "cliente": "BSB COMERCIALIZACAO DE CARNES NOBRES E CHURRASCARIA LTDA",
         "bairro": "SÃO LUIZ",
@@ -3074,26 +3060,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "33288",
-        "cliente": "ARMAZEM BRASIL LIMITADA",
-        "bairro": "SÃO SEBASTIAO",
-        "dtultcomp": "30/07/2026",
-        "produtos": [
-          {
-            "produto": "AMARULA C LIQUEUR 750 ML",
-            "fantasia": "AURORA",
-            "qt": 12,
-            "valor": 1318.8
-          },
-          {
-            "produto": "GIN ORLOFF 1L",
-            "fantasia": "PERNOD",
-            "qt": 12,
-            "valor": 538.8
-          }
-        ]
-      },
-      {
         "codcli": "33292",
         "cliente": "ARMAZEM BRASIL LIMITADA",
         "bairro": "SANTA EFIGÊNIA",
@@ -3168,20 +3134,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "MONIN",
             "qt": 420,
             "valor": 18018.0
-          }
-        ]
-      },
-      {
-        "codcli": "39202",
-        "cliente": "RESTAURANTE E LANCHONETE STRADEIRO LTDA",
-        "bairro": "RIBEIRAO DE EIXO",
-        "dtultcomp": "31/07/2026",
-        "produtos": [
-          {
-            "produto": "AZEITE DE OLIVA EV ESSENZA 500ML",
-            "fantasia": "",
-            "qt": 13,
-            "valor": 310.7
           }
         ]
       },
