@@ -1,7 +1,7 @@
 // Gerado automaticamente por exportacao_comissao.py — ESTIMATIVA, não é a apuração oficial
 
 const COMISSAO_DATA = {
-  "atualizado_em": "20/08/2026 13:32",
+  "atualizado_em": "20/08/2026 14:15",
   "mes_referencia": "08/2026",
   "pct_premio_taxa": 0.015,
   "vendedores": [
@@ -521,10 +521,10 @@ const COMISSAO_DATA = {
         {
           "label": "FATURAMENTO",
           "meta": 65000.0,
-          "realizado": 22096.47,
+          "realizado": 21231.29,
           "peso": 0.1,
-          "ating_meta": 0.339946,
-          "ating_acumulado": 0.033995
+          "ating_meta": 0.326635,
+          "ating_acumulado": 0.032664
         },
         {
           "label": "FATURAMENTO PERNOD",
@@ -631,14 +631,14 @@ const COMISSAO_DATA = {
           "ating_acumulado": 0.0125
         }
       ],
-      "ating_acumulado_total": 0.450452,
-      "pct_premio": 0.00675678,
+      "ating_acumulado_total": 0.449121,
+      "pct_premio": 0.00673681,
       "liq_rigarr": 30829.35,
       "fat_castas": 0.0,
       "teto_comissao": 2000.0,
-      "com_rigarr": 900.9,
+      "com_rigarr": 898.24,
       "com_castas": 0.0,
-      "comissao_estimada": 900.9
+      "comissao_estimada": 898.24
     },
     {
       "nome": "DIOGO RAPOSO - OFF TRADE",
