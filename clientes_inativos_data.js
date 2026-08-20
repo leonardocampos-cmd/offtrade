@@ -1,7 +1,7 @@
 // Gerado automaticamente
 
 const INATIVOS_DATA = {
-  "atualizado_em": "20/08/2026 16:40",
+  "atualizado_em": "20/08/2026 17:31",
   "por_vendedor": {
     "ADEILSON GONÇALVEZ - OFF TRADE": {
       "rca": "431",
@@ -798,6 +798,15 @@ const INATIVOS_DATA = {
       ],
       "sem_compra": [
         {
+          "codcli": "94235",
+          "cliente": "TAM TAM MINI MERCADO LTDA",
+          "bairro": "REALENGO",
+          "cidade": "RIO DE JANEIRO",
+          "dtultcomp": "13/05/2026",
+          "dias": 99,
+          "media": 208.94
+        },
+        {
           "codcli": "82480",
           "cliente": "CEREALISTA 90 DE SANTISSIMO LTDA",
           "bairro": "SENADOR CAMARA",
@@ -834,15 +843,6 @@ const INATIVOS_DATA = {
           "media": 19740.0
         },
         {
-          "codcli": "76233",
-          "cliente": "LOJA NOVO PEDAGIO CONVENIENCIA LTDA",
-          "bairro": "SANTA ALICE",
-          "cidade": "SEROPEDICA",
-          "dtultcomp": "15/06/2026",
-          "dias": 66,
-          "media": 199.0
-        },
-        {
           "codcli": "89944",
           "cliente": "SAO BENTO DE ITAIPU AUTO POSTO LTDA",
           "bairro": "SERRA GRANDE",
@@ -850,6 +850,15 @@ const INATIVOS_DATA = {
           "dtultcomp": "15/06/2026",
           "dias": 66,
           "media": 86.85
+        },
+        {
+          "codcli": "76233",
+          "cliente": "LOJA NOVO PEDAGIO CONVENIENCIA LTDA",
+          "bairro": "SANTA ALICE",
+          "cidade": "SEROPEDICA",
+          "dtultcomp": "15/06/2026",
+          "dias": 66,
+          "media": 199.0
         },
         {
           "codcli": "90670",
@@ -879,15 +888,6 @@ const INATIVOS_DATA = {
           "media": 117.82
         },
         {
-          "codcli": "93389",
-          "cliente": "SUPERMERCADOS ADONAI LTDA",
-          "bairro": "IRAJA",
-          "cidade": "RIO DE JANEIRO",
-          "dtultcomp": "30/06/2026",
-          "dias": 51,
-          "media": 1802.11
-        },
-        {
           "codcli": "93390",
           "cliente": "SUPERMERCADOS ADONAI LTDA",
           "bairro": "VARGEM GRANDE",
@@ -895,6 +895,15 @@ const INATIVOS_DATA = {
           "dtultcomp": "30/06/2026",
           "dias": 51,
           "media": 880.43
+        },
+        {
+          "codcli": "93389",
+          "cliente": "SUPERMERCADOS ADONAI LTDA",
+          "bairro": "IRAJA",
+          "cidade": "RIO DE JANEIRO",
+          "dtultcomp": "30/06/2026",
+          "dias": 51,
+          "media": 1802.11
         },
         {
           "codcli": "93391",
@@ -7257,6 +7266,15 @@ const INATIVOS_DATA = {
       ],
       "novos": [
         {
+          "codcli": "96140",
+          "cliente": "54.017.573 LUCIANA FIGUEIREDO FERNANDES",
+          "bairro": "SÃO JOSÉ",
+          "cidade": "ARMACAO DOS BUZ",
+          "dtcadastro": "20/08/2026",
+          "dtultcomp": null,
+          "media": 0.0
+        },
+        {
           "codcli": "96052",
           "cliente": "66.173.809 LUIZ FERNANDO TAVARES BARALDI",
           "bairro": "CAVALEIROS",
@@ -11455,15 +11473,6 @@ const INATIVOS_DATA = {
           "media": 520.33
         },
         {
-          "codcli": "81681",
-          "cliente": "PARMA COMERCIAL LTDA",
-          "bairro": "ITACIBA",
-          "cidade": "CARIACICA",
-          "dtultcomp": "27/05/2026",
-          "dias": 85,
-          "media": 520.33
-        },
-        {
           "codcli": "81690",
           "cliente": "PARMA COMERCIAL LTDA",
           "bairro": "PORTO DE SANTANA",
@@ -11476,6 +11485,15 @@ const INATIVOS_DATA = {
           "codcli": "81696",
           "cliente": "PARMA COMERCIAL LTDA",
           "bairro": "PORTO NOVO",
+          "cidade": "CARIACICA",
+          "dtultcomp": "27/05/2026",
+          "dias": 85,
+          "media": 520.33
+        },
+        {
+          "codcli": "81681",
+          "cliente": "PARMA COMERCIAL LTDA",
+          "bairro": "ITACIBA",
           "cidade": "CARIACICA",
           "dtultcomp": "27/05/2026",
           "dias": 85,
@@ -17179,24 +17197,6 @@ const INATIVOS_DATA = {
           "bairro": "JARDIM MELINA I",
           "cidade": "CAMPINAS",
           "dtcadastro": "30/07/2026",
-          "dtultcomp": null,
-          "media": 0.0
-        },
-        {
-          "codcli": "52107",
-          "cliente": "DAVID BARBOZA SUPERMERCADO LTDA",
-          "bairro": "PARQUE SÃO JORGE",
-          "cidade": "ITAPIRA",
-          "dtcadastro": "28/07/2026",
-          "dtultcomp": null,
-          "media": 0.0
-        },
-        {
-          "codcli": "52103",
-          "cliente": "DAVID BARBOZA SUPERMERCADO LTDA",
-          "bairro": "SANTA FÉ",
-          "cidade": "ITAPIRA",
-          "dtcadastro": "28/07/2026",
           "dtultcomp": null,
           "media": 0.0
         },
