@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "20/08/2026 16:38",
-  "total": 25425,
+  "atualizado_em": "20/08/2026 17:27",
+  "total": 25426,
   "clientes": [
     {
       "codcli": "38586",
@@ -29720,6 +29720,26 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "",
       "ultimo_rca": "560",
       "ultimo_rca_nome": "BRUNO AUGUSTO DE OLIVEIRA",
+      "ultimo_rca_ot": "",
+      "ultimo_rca_ot_nome": ""
+    },
+    {
+      "codcli": "96140",
+      "razao": "54.017.573 LUCIANA FIGUEIREDO FERNANDES",
+      "fantasia": "LUCIANA FIGUEIREDO FERNANDES",
+      "bairro": "SÃO JOSÉ",
+      "cidade": "ARMACAO DOS BUZ",
+      "cnpj": "54.017.573/0001-57",
+      "estado": "RJ",
+      "ramo": "SERVIÇOS",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "159",
+      "nome_usur1": "GISELLE BARFER - OFF TRADE",
+      "codusur2": "313",
+      "nome_usur2": "ANDRE MATTOS",
+      "ultimo_rca": "",
+      "ultimo_rca_nome": "",
       "ultimo_rca_ot": "",
       "ultimo_rca_ot_nome": ""
     },
@@ -161978,10 +161998,10 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "LEONARDO FLOREZI - OFF TRADE",
       "codusur2": "",
       "nome_usur2": "",
-      "ultimo_rca": "",
-      "ultimo_rca_nome": "",
-      "ultimo_rca_ot": "",
-      "ultimo_rca_ot_nome": ""
+      "ultimo_rca": "486",
+      "ultimo_rca_nome": "LEONARDO FLOREZI - OFF TRADE",
+      "ultimo_rca_ot": "486",
+      "ultimo_rca_ot_nome": "LEONARDO FLOREZI - OFF TRADE"
     },
     {
       "codcli": "52104",
@@ -162018,10 +162038,10 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "LEONARDO FLOREZI - OFF TRADE",
       "codusur2": "",
       "nome_usur2": "",
-      "ultimo_rca": "",
-      "ultimo_rca_nome": "",
-      "ultimo_rca_ot": "",
-      "ultimo_rca_ot_nome": ""
+      "ultimo_rca": "486",
+      "ultimo_rca_nome": "LEONARDO FLOREZI - OFF TRADE",
+      "ultimo_rca_ot": "486",
+      "ultimo_rca_ot_nome": "LEONARDO FLOREZI - OFF TRADE"
     },
     {
       "codcli": "33211",
@@ -257618,8 +257638,8 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "BRUNA ANGELO",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE",
-      "ultimo_rca": "",
-      "ultimo_rca_nome": "",
+      "ultimo_rca": "131",
+      "ultimo_rca_nome": "BRUNA ANGELO",
       "ultimo_rca_ot": "",
       "ultimo_rca_ot_nome": ""
     },
@@ -327758,8 +327778,8 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "ENEIVA RODRIGUES - OFF TRADE",
       "codusur2": "192",
       "nome_usur2": "BALCAO",
-      "ultimo_rca": "192",
-      "ultimo_rca_nome": "BALCAO",
+      "ultimo_rca": "1",
+      "ultimo_rca_nome": "RQ",
       "ultimo_rca_ot": "230",
       "ultimo_rca_ot_nome": "ENEIVA RODRIGUES - OFF TRADE"
     },
@@ -472514,10 +472534,10 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MINI-MERCADO",
       "key_account": false,
       "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": "",
+      "codusur1": "412",
+      "nome_usur1": "BARBARA CABRAL - OFF TRADE",
+      "codusur2": "238",
+      "nome_usur2": "DANIELLE MOURA - OFF TRADE",
       "ultimo_rca": "412",
       "ultimo_rca_nome": "BARBARA CABRAL - OFF TRADE",
       "ultimo_rca_ot": "412",
