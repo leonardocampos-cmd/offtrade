@@ -1,5 +1,5 @@
 const CRUSOE_DATA = {
-  "atualizado_em": "20/08/2026 11:30",
+  "atualizado_em": "20/08/2026 13:09",
   "periodo": {
     "ini": "01/07/2026",
     "fim": "31/08/2026"
@@ -413,18 +413,18 @@ const CRUSOE_DATA = {
         {
           "rca": 158,
           "vendedor": "Jose Marcelo Cardoso",
-          "pedidos": 2,
+          "pedidos": 3,
           "novos_skus": 2,
           "reativacoes": 0,
-          "faturamento": 198532.08,
+          "faturamento": 363605.28,
           "meta_definida": false,
           "meta_valor": null,
           "meta_atingida": false,
-          "pontos_pedidos": 2,
+          "pontos_pedidos": 3,
           "pontos_novos_skus": 10,
           "pontos_reativacoes": 0,
           "pontos_meta": 0,
-          "pontos_total": 12,
+          "pontos_total": 13,
           "vendas": [
             {
               "numnota": "415927",
@@ -478,6 +478,32 @@ const CRUSOE_DATA = {
                   "produto": "RC ATUM SOLIDO YF EM OLIVA 12X170G",
                   "qt": 269.0,
                   "valor": 31828.08,
+                  "pontuacoes": []
+                }
+              ]
+            },
+            {
+              "numnota": "423319",
+              "data": "20/08/2026",
+              "cliente": "SUPERMERCADOS MUNDIAL LTDA",
+              "valor_pedido": 165073.2,
+              "eventos": [
+                {
+                  "tipo": "pedido",
+                  "pontos": 1
+                }
+              ],
+              "itens": [
+                {
+                  "produto": "RC ATUM SOLIDO NATURAL 24X170G",
+                  "qt": 543.0,
+                  "valor": 98391.6,
+                  "pontuacoes": []
+                },
+                {
+                  "produto": "RC ATUM SOLIDO OLEO 24X170G",
+                  "qt": 368.0,
+                  "valor": 66681.6,
                   "pontuacoes": []
                 }
               ]
