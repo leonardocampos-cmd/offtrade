@@ -13250,5 +13250,25 @@
         ]
       }
     ]
+  },
+  "1a01facd15a08707": {
+    "subject": "Faturamento pedido SPON p/ RJ",
+    "data_email": "2026-08-20",
+    "blocos": []
+  },
+  "1a01f2f855e7ef39": {
+    "subject": "PEDIDO CRC 04",
+    "data_email": "2026-08-20",
+    "blocos": []
+  },
+  "1a01c627d71d2da2": {
+    "subject": "Re: PEDIDO CRC 04",
+    "data_email": "2026-08-19",
+    "blocos": []
+  },
+  "1a01c60e0e0facbf": {
+    "subject": "Re: pedido crc4 - padrao do fonseca",
+    "data_email": "2026-08-19",
+    "blocos": []
   }
 }

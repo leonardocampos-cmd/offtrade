@@ -26792,7 +26792,7 @@ const AGENDAMENTO_DATA = {
       ]
     }
   ],
-  "atualizado_em": "20/08/2026 14:10",
+  "atualizado_em": "20/08/2026 14:11",
   "comparativo": [
     {
       "msg_id": "1a01bc9a975c4cab",
@@ -27017,7 +27017,7 @@ const AGENDAMENTO_DATA = {
           "qt_faturada": 12.0,
           "valor_faturado": 466.8,
           "status": "Faturado",
-          "nf": "",
+          "nf": "7811",
           "agendado": false
         }
       ]
@@ -27197,7 +27197,7 @@ const AGENDAMENTO_DATA = {
           "qt_faturada": 12.0,
           "valor_faturado": 466.8,
           "status": "Faturado",
-          "nf": "",
+          "nf": "7811",
           "agendado": false
         }
       ]
@@ -27211,7 +27211,7 @@ const AGENDAMENTO_DATA = {
       "razao_social": "MERCADO TURBO 1000",
       "fantasia": "MERCADO TURBO 1000",
       "cnpj": "088316220002-5",
-      "rca": "158",
+      "rca": "158 - JOSE MARCELO CARDOSO - OFF TRADE",
       "bonificacao": false,
       "prazo": "",
       "obs": "",
@@ -27222,10 +27222,10 @@ const AGENDAMENTO_DATA = {
           "qt": 60,
           "preco": 35.9,
           "total": 2154.0,
-          "qt_faturada": 0.0,
-          "valor_faturado": 0.0,
-          "status": "Pendente",
-          "nf": "",
+          "qt_faturada": 60.0,
+          "valor_faturado": 2154.0,
+          "status": "Faturado",
+          "nf": "7810",
           "agendado": false
         }
       ]
@@ -27239,7 +27239,7 @@ const AGENDAMENTO_DATA = {
       "razao_social": "MERCADO TURBO 1000",
       "fantasia": "MERCADO TURBO 1000",
       "cnpj": "088316220002-5",
-      "rca": "158",
+      "rca": "158 - JOSE MARCELO CARDOSO - OFF TRADE",
       "bonificacao": false,
       "prazo": "",
       "obs": "",
@@ -27250,10 +27250,10 @@ const AGENDAMENTO_DATA = {
           "qt": 60,
           "preco": 35.9,
           "total": 2154.0,
-          "qt_faturada": 0.0,
-          "valor_faturado": 0.0,
-          "status": "Pendente",
-          "nf": "",
+          "qt_faturada": 60.0,
+          "valor_faturado": 2154.0,
+          "status": "Faturado",
+          "nf": "7810",
           "agendado": false
         }
       ]
@@ -27346,7 +27346,7 @@ const AGENDAMENTO_DATA = {
           "valor_faturado": 2715.84,
           "status": "Faturado",
           "nf": "7056, 7785",
-          "agendado": false
+          "agendado": true
         },
         {
           "cod_prod": "3827",
@@ -27370,7 +27370,7 @@ const AGENDAMENTO_DATA = {
           "valor_faturado": 717.6,
           "status": "Faturado",
           "nf": "7056, 7785",
-          "agendado": false
+          "agendado": true
         },
         {
           "cod_prod": "666",
@@ -27382,7 +27382,7 @@ const AGENDAMENTO_DATA = {
           "valor_faturado": 1794.0,
           "status": "Faturado",
           "nf": "7056, 7785",
-          "agendado": false
+          "agendado": true
         },
         {
           "cod_prod": "66",
@@ -27459,7 +27459,7 @@ const AGENDAMENTO_DATA = {
       "razao_social": "SUPERMERCADOS MUNDIAL LTDA",
       "fantasia": "SUPERMERCADOS MUNDIAL",
       "cnpj": "33.304.981/0001-10",
-      "rca": "158",
+      "rca": "158 - JOSE MARCELO CARDOSO - OFF TRADE",
       "bonificacao": false,
       "prazo": "35 DIAS",
       "obs": "",
@@ -27698,7 +27698,7 @@ const AGENDAMENTO_DATA = {
           "valor_faturado": 2715.84,
           "status": "Faturado",
           "nf": "7056, 7785",
-          "agendado": false
+          "agendado": true
         },
         {
           "cod_prod": "3827",
@@ -27722,7 +27722,7 @@ const AGENDAMENTO_DATA = {
           "valor_faturado": 717.6,
           "status": "Faturado",
           "nf": "7056, 7785",
-          "agendado": false
+          "agendado": true
         },
         {
           "cod_prod": "666",
@@ -27734,7 +27734,7 @@ const AGENDAMENTO_DATA = {
           "valor_faturado": 1794.0,
           "status": "Faturado",
           "nf": "7056, 7785",
-          "agendado": false
+          "agendado": true
         },
         {
           "cod_prod": "66",
@@ -27786,7 +27786,7 @@ const AGENDAMENTO_DATA = {
           "valor_faturado": 98815.68,
           "status": "Faturado",
           "nf": "7056, 7785",
-          "agendado": false
+          "agendado": true
         },
         {
           "cod_prod": "3827",
@@ -27810,7 +27810,7 @@ const AGENDAMENTO_DATA = {
           "valor_faturado": 717.6,
           "status": "Faturado",
           "nf": "7056, 7785",
-          "agendado": false
+          "agendado": true
         },
         {
           "cod_prod": "666",
@@ -27822,7 +27822,7 @@ const AGENDAMENTO_DATA = {
           "valor_faturado": 1794.0,
           "status": "Faturado",
           "nf": "7056, 7785",
-          "agendado": false
+          "agendado": true
         },
         {
           "cod_prod": "66",
@@ -28967,7 +28967,7 @@ const AGENDAMENTO_DATA = {
       "razao_social": "SUPERMERCADOS MUNDIAL LTDA",
       "fantasia": "SUPERMERCADOS MUNDIAL",
       "cnpj": "33.304.981/0001-10",
-      "rca": "158",
+      "rca": "158 - JOSE MARCELO CARDOSO - OFF TRADE",
       "bonificacao": false,
       "prazo": "35 DIAS",
       "obs": "nº pedido 315244",
@@ -29555,7 +29555,7 @@ const AGENDAMENTO_DATA = {
       "razao_social": "SUPERMERCADOS MUNDIAL LTDA",
       "fantasia": "SUPERMERCADOS MUNDIAL",
       "cnpj": "33.304.981/0001-10",
-      "rca": "158",
+      "rca": "158 - JOSE MARCELO CARDOSO - OFF TRADE",
       "bonificacao": false,
       "prazo": "35 DIAS",
       "obs": "",
@@ -29583,7 +29583,7 @@ const AGENDAMENTO_DATA = {
       "razao_social": "PORTAL RIO SUL ALIMENTOS E BEBIDAS EIRELLI",
       "fantasia": "PORTAL RIO SUL ALIMENTOS E BEBIDAS EIREL",
       "cnpj": "33.060.720/0001-00",
-      "rca": "158",
+      "rca": "158 - JOSE MARCELO CARDOSO - OFF TRADE",
       "bonificacao": false,
       "prazo": "28 DIAS",
       "obs": "",
@@ -29667,7 +29667,7 @@ const AGENDAMENTO_DATA = {
       "razao_social": "PORTAL RIO SUL ALIMENTOS E BEBIDAS EIRELLI",
       "fantasia": "PORTAL RIO SUL ALIMENTOS E BEBIDAS EIREL",
       "cnpj": "33.060.720/0001-00",
-      "rca": "158",
+      "rca": "158 - JOSE MARCELO CARDOSO - OFF TRADE",
       "bonificacao": false,
       "prazo": "28 DIAS",
       "obs": "",
@@ -32523,7 +32523,7 @@ const AGENDAMENTO_DATA = {
       "razao_social": "ANB DISTRIBUIDORA DE ALIMENTOS E BEBIDAS LTDA",
       "fantasia": "ANB DISTRIBUIDORA DE ALIMENTOS E BEBIDAS",
       "cnpj": "49.306.432/0001-14",
-      "rca": "158",
+      "rca": "158 - JOSE MARCELO CARDOSO - OFF TRADE",
       "bonificacao": false,
       "prazo": "28/35/42",
       "obs": "",
@@ -33627,7 +33627,7 @@ const AGENDAMENTO_DATA = {
       "razao_social": "EMPORIO DO CADEG LTDA",
       "fantasia": "EMPORIO GOURMET SHOW",
       "cnpj": "33.119.105/0001-13",
-      "rca": "158",
+      "rca": "158 - JOSE MARCELO CARDOSO - OFF TRADE",
       "bonificacao": false,
       "prazo": "28 DIAS",
       "obs": "",
@@ -33779,7 +33779,7 @@ const AGENDAMENTO_DATA = {
       "razao_social": "EMPORIO DO CADEG LTDA",
       "fantasia": "EMPORIO GOURMET SHOW",
       "cnpj": "33.119.105/0001-13",
-      "rca": "158",
+      "rca": "158 - JOSE MARCELO CARDOSO - OFF TRADE",
       "bonificacao": false,
       "prazo": "28 DIAS",
       "obs": "",
@@ -33955,7 +33955,7 @@ const AGENDAMENTO_DATA = {
       "razao_social": "ANB DISTRIBUIDORA DE ALIMENTOS E BEBIDAS LTDA",
       "fantasia": "ANB DISTRIBUIDORA DE ALIMENTOS E BEBIDAS",
       "cnpj": "49.306.432/0001-14",
-      "rca": "158",
+      "rca": "158 - JOSE MARCELO CARDOSO - OFF TRADE",
       "bonificacao": false,
       "prazo": "28/35/42",
       "obs": "",
@@ -34434,7 +34434,7 @@ const AGENDAMENTO_DATA = {
           "valor_faturado": 98815.68,
           "status": "Faturado",
           "nf": "7056, 7785",
-          "agendado": false
+          "agendado": true
         },
         {
           "cod_prod": "3827",
@@ -34458,7 +34458,7 @@ const AGENDAMENTO_DATA = {
           "valor_faturado": 1197.6,
           "status": "Faturado",
           "nf": "7056, 7785",
-          "agendado": false
+          "agendado": true
         },
         {
           "cod_prod": "666",
@@ -34470,7 +34470,7 @@ const AGENDAMENTO_DATA = {
           "valor_faturado": 2994.0,
           "status": "Faturado",
           "nf": "7056, 7785",
-          "agendado": false
+          "agendado": true
         },
         {
           "cod_prod": "66",
@@ -34675,7 +34675,7 @@ const AGENDAMENTO_DATA = {
       "razao_social": "RIO SUL LAGUNA",
       "fantasia": "RIO SUL LAGUNA",
       "cnpj": "67.521.676/0001-00",
-      "rca": "144",
+      "rca": "144 - DIOGO RAPOSO - OFF TRADE",
       "bonificacao": false,
       "prazo": "28 DIAS",
       "obs": "ENTREGAR NO DIA 30/07 NÃO TEM DESCARGA",
@@ -34763,7 +34763,7 @@ const AGENDAMENTO_DATA = {
       "razao_social": "MERCADO DM",
       "fantasia": "MERCADO DM",
       "cnpj": "64.471.268/0001-94",
-      "rca": "144",
+      "rca": "144 - DIOGO RAPOSO - OFF TRADE",
       "bonificacao": false,
       "prazo": "14 DIAS",
       "obs": "ENTREGAR NO DIA 30/07 NÃO TEM DESCARGA",
@@ -34803,7 +34803,7 @@ const AGENDAMENTO_DATA = {
       "razao_social": "MERCADO DM",
       "fantasia": "MERCADO DM",
       "cnpj": "64.471.268/0001-94",
-      "rca": "144",
+      "rca": "144 - DIOGO RAPOSO - OFF TRADE",
       "bonificacao": false,
       "prazo": "",
       "obs": "",
@@ -34843,7 +34843,7 @@ const AGENDAMENTO_DATA = {
       "razao_social": "RIO SUL LAGUNA",
       "fantasia": "RIO SUL LAGUNA",
       "cnpj": "67.521.676/0001-00",
-      "rca": "144",
+      "rca": "144 - DIOGO RAPOSO - OFF TRADE",
       "bonificacao": false,
       "prazo": "",
       "obs": "",
@@ -35059,7 +35059,7 @@ const AGENDAMENTO_DATA = {
       "razao_social": "GUARATIBA SUPERMERCADOS E ALIMENTOS",
       "fantasia": "MERCADO UNIDOS",
       "cnpj": "64.934.380/0002-03",
-      "rca": "144",
+      "rca": "144 - DIOGO RAPOSO - OFF TRADE",
       "bonificacao": false,
       "prazo": "14 / 21 / 28",
       "obs": "ENTREGAR NO DIA 29/07 NÃO TEM DESCARGA",
@@ -35263,7 +35263,7 @@ const AGENDAMENTO_DATA = {
       "razao_social": "GUARATIBA SUPERMERCADOS E ALIMENTOS",
       "fantasia": "MERCADO UNIDOS",
       "cnpj": "64.934.380/0002-03",
-      "rca": "144",
+      "rca": "144 - DIOGO RAPOSO - OFF TRADE",
       "bonificacao": false,
       "prazo": "",
       "obs": "",
@@ -42095,7 +42095,7 @@ const AGENDAMENTO_DATA = {
       "razao_social": "DM COMERCIO",
       "fantasia": "MERCADO DM FAMILIA",
       "cnpj": "64471268/0001-94",
-      "rca": "144",
+      "rca": "144 - DIOGO RAPOSO - OFF TRADE",
       "bonificacao": false,
       "prazo": "",
       "obs": "",
