@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_mg.py
 
 const NAO_POS_MG_DATA = {
-  "atualizado_em": "20/08/2026 15:02",
+  "atualizado_em": "20/08/2026 15:55",
   "por_vendedor": {
     "BRUNA CASTRO MELLO": [
       {
@@ -553,6 +553,38 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
+        "codcli": "37333",
+        "cliente": "UNISSUL SUPERMERCADOS S/A",
+        "bairro": "CENTRO",
+        "dtultcomp": "30/07/2026",
+        "produtos": [
+          {
+            "produto": "VILLA ROSA BRANCO 750ML",
+            "fantasia": "CASTAS",
+            "qt": 6,
+            "valor": 257.4
+          },
+          {
+            "produto": "VILLA ROSA ROSE 750ML",
+            "fantasia": "CASTAS",
+            "qt": 6,
+            "valor": 257.4
+          },
+          {
+            "produto": "VODKA ORLOFF 1L - DEST",
+            "fantasia": "",
+            "qt": 24,
+            "valor": 490.08
+          },
+          {
+            "produto": "WHISKY BALLANTINE'S FINEST 1L",
+            "fantasia": "PERNOD",
+            "qt": 3,
+            "valor": 177.54
+          }
+        ]
+      },
+      {
         "codcli": "37330",
         "cliente": "UNISSUL SUPERMERCADOS S/A",
         "bairro": "NOVA ERA",
@@ -601,38 +633,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "",
             "qt": 12,
             "valor": 245.04
-          }
-        ]
-      },
-      {
-        "codcli": "37333",
-        "cliente": "UNISSUL SUPERMERCADOS S/A",
-        "bairro": "CENTRO",
-        "dtultcomp": "30/07/2026",
-        "produtos": [
-          {
-            "produto": "VILLA ROSA BRANCO 750ML",
-            "fantasia": "CASTAS",
-            "qt": 6,
-            "valor": 257.4
-          },
-          {
-            "produto": "VILLA ROSA ROSE 750ML",
-            "fantasia": "CASTAS",
-            "qt": 6,
-            "valor": 257.4
-          },
-          {
-            "produto": "VODKA ORLOFF 1L - DEST",
-            "fantasia": "",
-            "qt": 24,
-            "valor": 490.08
-          },
-          {
-            "produto": "WHISKY BALLANTINE'S FINEST 1L",
-            "fantasia": "PERNOD",
-            "qt": 3,
-            "valor": 177.54
           }
         ]
       },
@@ -760,9 +760,9 @@ const NAO_POS_MG_DATA = {
         "produtos": []
       },
       {
-        "codcli": "39829",
+        "codcli": "39834",
         "cliente": "MAGLIONI RIBEIRO & CIA LTDA",
-        "bairro": "CENTRO",
+        "bairro": "NOSSA SENHORA DE FÁTIMA",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -788,13 +788,6 @@ const NAO_POS_MG_DATA = {
         "produtos": []
       },
       {
-        "codcli": "39835",
-        "cliente": "MAGLIONI RIBEIRO & CIA LTDA",
-        "bairro": "SANTO ANTÔNIO",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
         "codcli": "39820",
         "cliente": "MAGLIONI RIBEIRO & CIA LTDA",
         "bairro": "CENTRO",
@@ -802,9 +795,23 @@ const NAO_POS_MG_DATA = {
         "produtos": []
       },
       {
+        "codcli": "39835",
+        "cliente": "MAGLIONI RIBEIRO & CIA LTDA",
+        "bairro": "SANTO ANTÔNIO",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
         "codcli": "39821",
         "cliente": "MAGLIONI RIBEIRO & CIA LTDA",
         "bairro": "CENTRO",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "39824",
+        "cliente": "MAGLIONI RIBEIRO & CIA LTDA",
+        "bairro": "BOA VISTA",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -844,9 +851,9 @@ const NAO_POS_MG_DATA = {
         "produtos": []
       },
       {
-        "codcli": "39824",
+        "codcli": "39831",
         "cliente": "MAGLIONI RIBEIRO & CIA LTDA",
-        "bairro": "BOA VISTA",
+        "bairro": "JARDIM SÃO CARLOS",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -872,16 +879,16 @@ const NAO_POS_MG_DATA = {
         "produtos": []
       },
       {
-        "codcli": "39834",
+        "codcli": "39836",
         "cliente": "MAGLIONI RIBEIRO & CIA LTDA",
-        "bairro": "NOSSA SENHORA DE FÁTIMA",
+        "bairro": "VARGEM",
         "dtultcomp": "nan",
         "produtos": []
       },
       {
-        "codcli": "39831",
+        "codcli": "39829",
         "cliente": "MAGLIONI RIBEIRO & CIA LTDA",
-        "bairro": "JARDIM SÃO CARLOS",
+        "bairro": "CENTRO",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -889,13 +896,6 @@ const NAO_POS_MG_DATA = {
         "codcli": "39828",
         "cliente": "MAGLIONI RIBEIRO & CIA LTDA",
         "bairro": "CENTRO",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "39836",
-        "cliente": "MAGLIONI RIBEIRO & CIA LTDA",
-        "bairro": "VARGEM",
         "dtultcomp": "nan",
         "produtos": []
       }
@@ -4720,26 +4720,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "CASTAS",
             "qt": 10,
             "valor": 429.0
-          }
-        ]
-      },
-      {
-        "codcli": "33464",
-        "cliente": "KRABI EXPRESS RESTAURANTE LTDA",
-        "bairro": "SANTO AGOSTINHO",
-        "dtultcomp": "15/07/2026",
-        "produtos": [
-          {
-            "produto": "VINHO ARESTI ESTATE S. CHARDONNAY 187ML",
-            "fantasia": "CASTAS",
-            "qt": 24,
-            "valor": 453.6
-          },
-          {
-            "produto": "VINHO ARESTI ESTATE S.CAB SAUV 187ML",
-            "fantasia": "CASTAS",
-            "qt": 24,
-            "valor": 453.6
           }
         ]
       },
