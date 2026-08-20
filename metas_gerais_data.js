@@ -1,36 +1,36 @@
 const METAS_GERAIS_DATA = {
-  "atualizado_em": "20/08/2026 11:16",
+  "atualizado_em": "20/08/2026 12:56",
   "mes": "Ago/26",
   "mes_ant": "Jul/26",
   "dias_corridos": 20,
   "dias_no_mes": 31,
   "dias_restantes": 11,
   "resumo": {
-    "fat": 8863595.47,
-    "fat_ant": 6202871.67,
-    "fat_ant_completo": 13508470.0,
+    "fat": 9033941.99,
+    "fat_ant": 6202618.25,
+    "fat_ant_completo": 13508216.58,
     "pos": 1197,
-    "pos_ant": 1244,
-    "pos_ant_completo": 1796
+    "pos_ant": 1240,
+    "pos_ant_completo": 1792
   },
   "total": {
     "meta": 12300000.0,
-    "fat": 8863595.47,
-    "fat_ant": 6202871.67,
-    "fat_ant_completo": 13508470.0,
-    "pct": 72.1,
-    "nec_dia": 312400.41
+    "fat": 9033941.99,
+    "fat_ant": 6202618.25,
+    "fat_ant_completo": 13508216.58,
+    "pct": 73.4,
+    "nec_dia": 296914.36
   },
   "estados": [
     {
       "estado": "RJ",
       "label": "Rio de Janeiro",
       "meta": 2900000.0,
-      "fat": 2435350.11,
+      "fat": 2600423.31,
       "fat_ant": 1136767.55,
       "pos": 450,
-      "pct": 84.0,
-      "nec_dia": 42240.9,
+      "pct": 89.7,
+      "nec_dia": 27234.24,
       "fat_ant_completo": 2687387.62,
       "pos_ant": 489,
       "pos_ant_completo": 717
@@ -65,14 +65,14 @@ const METAS_GERAIS_DATA = {
       "estado": "MG",
       "label": "Minas Gerais",
       "meta": 2100000.0,
-      "fat": 1065822.88,
-      "fat_ant": 751015.15,
+      "fat": 1071096.2,
+      "fat_ant": 750761.73,
       "pos": 167,
-      "pct": 50.8,
-      "nec_dia": 94016.1,
-      "fat_ant_completo": 1874444.01,
-      "pos_ant": 193,
-      "pos_ant_completo": 265
+      "pct": 51.0,
+      "nec_dia": 93536.71,
+      "fat_ant_completo": 1874190.59,
+      "pos_ant": 189,
+      "pos_ant_completo": 261
     }
   ],
   "industrias": [
@@ -89,13 +89,13 @@ const METAS_GERAIS_DATA = {
     },
     {
       "fantasia": "DIAGEO",
-      "fat": 1896885.95,
-      "fat_ant": 151706.05,
+      "fat": 1898186.75,
+      "fat_ant": 151644.15,
       "por_estado": {
         "RJ": 1461718.68,
         "SP": 98066.69,
         "ES": 0.0,
-        "MG": 337100.58
+        "MG": 338401.38
       }
     },
     {
@@ -111,13 +111,24 @@ const METAS_GERAIS_DATA = {
     },
     {
       "fantasia": "RED BULL",
-      "fat": 811495.05,
-      "fat_ant": 270750.59,
+      "fat": 813007.81,
+      "fat_ant": 270682.67,
       "por_estado": {
         "RJ": 169912.16,
         "SP": 302330.88,
         "ES": 172832.61,
-        "MG": 166419.4
+        "MG": 167932.16
+      }
+    },
+    {
+      "fantasia": "ROBINSON CRUSOE",
+      "fat": 450879.55,
+      "fat_ant": 195349.64,
+      "por_estado": {
+        "RJ": 263816.05,
+        "SP": 0.0,
+        "ES": 187063.5,
+        "MG": 0.0
       }
     },
     {
@@ -129,17 +140,6 @@ const METAS_GERAIS_DATA = {
         "SP": 229552.51,
         "ES": 32012.58,
         "MG": 2256.8
-      }
-    },
-    {
-      "fantasia": "ROBINSON CRUSOE",
-      "fat": 285806.35,
-      "fat_ant": 195349.64,
-      "por_estado": {
-        "RJ": 98742.85,
-        "SP": 0.0,
-        "ES": 187063.5,
-        "MG": 0.0
       }
     },
     {
@@ -155,13 +155,13 @@ const METAS_GERAIS_DATA = {
     },
     {
       "fantasia": "CASTAS",
-      "fat": 173587.08,
-      "fat_ant": 132009.62,
+      "fat": 174465.48,
+      "fat_ant": 131966.72,
       "por_estado": {
         "RJ": 80851.86,
         "SP": 36175.52,
         "ES": 0.0,
-        "MG": 56559.7
+        "MG": 57438.1
       }
     },
     {
@@ -200,7 +200,7 @@ const METAS_GERAIS_DATA = {
     {
       "fantasia": "TATUZINHO",
       "fat": 125554.48,
-      "fat_ant": 113470.83,
+      "fat_ant": 113390.13,
       "por_estado": {
         "RJ": 82658.9,
         "SP": 4060.5,
@@ -331,13 +331,13 @@ const METAS_GERAIS_DATA = {
     },
     {
       "fantasia": "HEINEKEN",
-      "fat": 23184.76,
+      "fat": 24766.12,
       "fat_ant": 24952.6,
       "por_estado": {
         "RJ": 0.0,
         "SP": 0.0,
         "ES": 0.0,
-        "MG": 23184.76
+        "MG": 24766.12
       }
     },
     {
