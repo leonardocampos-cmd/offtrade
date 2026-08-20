@@ -1,7 +1,7 @@
 // Gerado automaticamente
 
 const INATIVOS_DATA = {
-  "atualizado_em": "20/08/2026 11:58",
+  "atualizado_em": "20/08/2026 13:33",
   "por_vendedor": {
     "ADEILSON GONÇALVEZ - OFF TRADE": {
       "rca": "431",
@@ -16959,6 +16959,15 @@ const INATIVOS_DATA = {
         }
       ],
       "novos": [
+        {
+          "codcli": "52581",
+          "cliente": "58.668.307 MARIA FERREIRA DE LIMA",
+          "bairro": "JARDIM CAMPO BELO",
+          "cidade": "CAMPINAS",
+          "dtcadastro": "20/08/2026",
+          "dtultcomp": null,
+          "media": 0.0
+        },
         {
           "codcli": "52557",
           "cliente": "DANIELE CRISTINA DA SILVA 23598717814",
