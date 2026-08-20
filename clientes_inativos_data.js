@@ -1,7 +1,7 @@
 // Gerado automaticamente
 
 const INATIVOS_DATA = {
-  "atualizado_em": "20/08/2026 14:16",
+  "atualizado_em": "20/08/2026 15:08",
   "por_vendedor": {
     "ADEILSON GONÇALVEZ - OFF TRADE": {
       "rca": "431",
@@ -16949,6 +16949,15 @@ const INATIVOS_DATA = {
         }
       ],
       "novos": [
+        {
+          "codcli": "52583",
+          "cliente": "DAVILA SUPERMERCADO LTDA",
+          "bairro": "CENTRO",
+          "cidade": "SANTO ANTONIO DE POSSE",
+          "dtcadastro": "20/08/2026",
+          "dtultcomp": null,
+          "media": 0.0
+        },
         {
           "codcli": "52581",
           "cliente": "58.668.307 MARIA FERREIRA DE LIMA",
