@@ -1,6 +1,6 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "20/08/2026 10:47",
+  "atualizado_em": "20/08/2026 11:54",
   "total": 25429,
   "clientes": [
     {
@@ -228478,8 +228478,8 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "MATHEUS DE SOUZA - OFF TRADE",
       "codusur2": "351",
       "nome_usur2": "MARIANA LAGES",
-      "ultimo_rca": "354",
-      "ultimo_rca_nome": "MATHEUS DE SOUZA - OFF TRADE",
+      "ultimo_rca": "",
+      "ultimo_rca_nome": "",
       "ultimo_rca_ot": "354",
       "ultimo_rca_ot_nome": "MATHEUS DE SOUZA - OFF TRADE"
     },
@@ -275098,8 +275098,8 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "MATHEUS DE SOUZA - OFF TRADE",
       "codusur2": "",
       "nome_usur2": "",
-      "ultimo_rca": "354",
-      "ultimo_rca_nome": "MATHEUS DE SOUZA - OFF TRADE",
+      "ultimo_rca": "",
+      "ultimo_rca_nome": "",
       "ultimo_rca_ot": "354",
       "ultimo_rca_ot_nome": "MATHEUS DE SOUZA - OFF TRADE"
     },
@@ -287938,8 +287938,8 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "MATHEUS DE SOUZA - OFF TRADE",
       "codusur2": "",
       "nome_usur2": "",
-      "ultimo_rca": "354",
-      "ultimo_rca_nome": "MATHEUS DE SOUZA - OFF TRADE",
+      "ultimo_rca": "",
+      "ultimo_rca_nome": "",
       "ultimo_rca_ot": "354",
       "ultimo_rca_ot_nome": "MATHEUS DE SOUZA - OFF TRADE"
     },
@@ -321320,6 +321320,26 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "ROMARIO DOS SANTOS",
       "ultimo_rca": "190",
       "ultimo_rca_nome": "ROMARIO DOS SANTOS",
+      "ultimo_rca_ot": "",
+      "ultimo_rca_ot_nome": ""
+    },
+    {
+      "codcli": "48462",
+      "razao": "MARKET EXPRESS E CIA LTDA",
+      "fantasia": "MARKET EXPRESS E CIA",
+      "bairro": "JARDIM OURO PRETO",
+      "cidade": "CAMPINAS",
+      "cnpj": "63.595.501/0001-88",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "187",
+      "nome_usur1": "NATHALIA XAVIER",
+      "codusur2": "486",
+      "nome_usur2": "LEONARDO FLOREZI - OFF TRADE",
+      "ultimo_rca": "187",
+      "ultimo_rca_nome": "NATHALIA XAVIER",
       "ultimo_rca_ot": "",
       "ultimo_rca_ot_nome": ""
     },
@@ -431880,26 +431900,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "ROMARIO DOS SANTOS",
       "ultimo_rca": "395",
       "ultimo_rca_nome": "FRANCIELY DA SILVA",
-      "ultimo_rca_ot": "",
-      "ultimo_rca_ot_nome": ""
-    },
-    {
-      "codcli": "30816",
-      "razao": "ROGERIO VIANA DE CASTRO 07982787738",
-      "fantasia": "NR DISTRIBUIDORA DE BEBIDAS DA 38",
-      "bairro": "COSMOS",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "20.165.990/0001-25",
-      "estado": "RJ",
-      "ramo": "MERCADO",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": "",
-      "ultimo_rca": "135",
-      "ultimo_rca_nome": "INGRID ARAUJO",
       "ultimo_rca_ot": "",
       "ultimo_rca_ot_nome": ""
     },
