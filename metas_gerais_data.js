@@ -1,12 +1,12 @@
 const METAS_GERAIS_DATA = {
-  "atualizado_em": "20/08/2026 10:14",
+  "atualizado_em": "20/08/2026 11:16",
   "mes": "Ago/26",
   "mes_ant": "Jul/26",
   "dias_corridos": 20,
   "dias_no_mes": 31,
   "dias_restantes": 11,
   "resumo": {
-    "fat": 8855810.96,
+    "fat": 8863595.47,
     "fat_ant": 6202871.67,
     "fat_ant_completo": 13508470.0,
     "pos": 1197,
@@ -15,11 +15,11 @@ const METAS_GERAIS_DATA = {
   },
   "total": {
     "meta": 12300000.0,
-    "fat": 8855810.96,
+    "fat": 8863595.47,
     "fat_ant": 6202871.67,
     "fat_ant_completo": 13508470.0,
-    "pct": 72.0,
-    "nec_dia": 313108.09
+    "pct": 72.1,
+    "nec_dia": 312400.41
   },
   "estados": [
     {
@@ -52,11 +52,11 @@ const METAS_GERAIS_DATA = {
       "estado": "ES",
       "label": "Espírito Santo",
       "meta": 1800000.0,
-      "fat": 469430.21,
+      "fat": 477214.72,
       "fat_ant": 280140.43,
       "pos": 42,
-      "pct": 26.1,
-      "nec_dia": 120960.89,
+      "pct": 26.5,
+      "nec_dia": 120253.21,
       "fat_ant_completo": 735560.59,
       "pos_ant": 56,
       "pos_ant_completo": 90
@@ -199,12 +199,12 @@ const METAS_GERAIS_DATA = {
     },
     {
       "fantasia": "TATUZINHO",
-      "fat": 117769.97,
+      "fat": 125554.48,
       "fat_ant": 113470.83,
       "por_estado": {
         "RJ": 82658.9,
         "SP": 4060.5,
-        "ES": 27878.11,
+        "ES": 35662.62,
         "MG": 3172.46
       }
     },
