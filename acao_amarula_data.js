@@ -1,5 +1,5 @@
 const ACAO_AMARULA_DATA = {
-  "atualizado_em": "19/08/2026 17:40",
+  "atualizado_em": "20/08/2026 10:27",
   "periodo": {
     "ini": "19/08/2026",
     "fim": "19/09/2026"
@@ -18,13 +18,13 @@ const ACAO_AMARULA_DATA = {
     200
   ],
   "total_vendedores": 27,
-  "total_volume": 7,
-  "total_faturamento": 692.3,
+  "total_volume": 13,
+  "total_faturamento": 1285.7,
   "ranking": [
     {
       "vendedor": "MATEUS CARDOSO",
-      "volume": 6,
-      "faturamento": 593.4,
+      "volume": 12,
+      "faturamento": 1186.8,
       "elegivel": false,
       "premio": null
     },
