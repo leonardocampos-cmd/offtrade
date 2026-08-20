@@ -733,6 +733,20 @@ const AGENDAMENTO_DATA = {
       "nome": "ANGELO NEVES SUZART - OFF TRADE",
       "itens": [
         {
+          "codigo_cliente": "83800",
+          "cliente": "SUPERMERCADOS RIO SUL DE COMENDADOR SOARES",
+          "cnpj": "44.747.049/00001-88",
+          "filial": "NOVA IGUAÇU",
+          "valor": 1992.6,
+          "nf": "",
+          "data_agendamento": "20/08/2026",
+          "data_ord": "2026-08-20",
+          "status": "A FATURAR",
+          "obs": "Caixas e rótulos íntegros. VALIDADE ACIMA DE 5 MESES",
+          "status_logistica": "",
+          "justificativa_logistica": ""
+        },
+        {
           "codigo_cliente": "95241",
           "cliente": "BEATRIZ SENNA",
           "cnpj": "66.870.979/0001-67",
@@ -3109,20 +3123,6 @@ const AGENDAMENTO_DATA = {
           "data_ord": "2025-10-27",
           "status": "ENTREGUE",
           "obs": "ecebimento da entrega esta agendada com a senha de entrega que estará no corpo da NF / clientes tem pagamento de descarga por pallet.",
-          "status_logistica": "",
-          "justificativa_logistica": ""
-        },
-        {
-          "codigo_cliente": "83800",
-          "cliente": "SUPERMERCADOS RIO SUL DE COMENDADOR SOARES",
-          "cnpj": "44.747.049/00001-88",
-          "filial": "NOVA IGUAÇU",
-          "valor": 1992.6,
-          "nf": "",
-          "data_agendamento": "",
-          "data_ord": "",
-          "status": "A FATURAR",
-          "obs": "Caixas e rótulos íntegros.",
           "status_logistica": "",
           "justificativa_logistica": ""
         }
@@ -6311,6 +6311,20 @@ const AGENDAMENTO_DATA = {
       "nome": "DIOGO RAPOSO - OFF TRADE",
       "itens": [
         {
+          "codigo_cliente": "78947",
+          "cliente": "SUPERMERCADO SHOW DE ECONOMIA LTDA",
+          "cnpj": "49.949.145/0001-22",
+          "filial": "JACAREPAGUA",
+          "valor": 9930.7,
+          "nf": "",
+          "data_agendamento": "20/08/2026",
+          "data_ord": "2026-08-20",
+          "status": "A FATURAR",
+          "obs": "Caixas e rótulos íntegros",
+          "status_logistica": "",
+          "justificativa_logistica": ""
+        },
+        {
           "codigo_cliente": "92136",
           "cliente": "KAUE ALVES DA SILVA",
           "cnpj": "63.529.210/0001-91",
@@ -6389,7 +6403,7 @@ const AGENDAMENTO_DATA = {
           "nf": "7656",
           "data_agendamento": "12/08/2026",
           "data_ord": "2026-08-12",
-          "status": "EM ROTA",
+          "status": "ENTREGUE",
           "obs": "",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -6403,7 +6417,7 @@ const AGENDAMENTO_DATA = {
           "nf": "7657",
           "data_agendamento": "12/08/2026",
           "data_ord": "2026-08-12",
-          "status": "EM ROTA",
+          "status": "ENTREGUE",
           "obs": "",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -17543,6 +17557,34 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
+          "codigo_cliente": "78665",
+          "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
+          "cnpj": "08.628.825/0022-91",
+          "filial": "DEL CASTILHO",
+          "valor": 420.0,
+          "nf": "",
+          "data_agendamento": "20/08/2026",
+          "data_ord": "2026-08-20",
+          "status": "A FATURAR",
+          "obs": "SUPERMERCADO SUPERMAKET - PRODUTOS EM ENCARTE",
+          "status_logistica": "",
+          "justificativa_logistica": ""
+        },
+        {
+          "codigo_cliente": "9603",
+          "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
+          "cnpj": "08.628.825/0004-00",
+          "filial": "ITAIPU",
+          "valor": 466.8,
+          "nf": "",
+          "data_agendamento": "20/08/2026",
+          "data_ord": "2026-08-20",
+          "status": "A FATURAR",
+          "obs": "SUPERMERCADO SUPERMAKET - PRODUTOS EM ENCARTE",
+          "status_logistica": "",
+          "justificativa_logistica": ""
+        },
+        {
           "codigo_cliente": "9604",
           "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
           "cnpj": "08.628.825/0003-29",
@@ -22439,6 +22481,20 @@ const AGENDAMENTO_DATA = {
       "nome": "MARCELO LORES - OFF TRADE",
       "itens": [
         {
+          "codigo_cliente": "95583",
+          "cliente": "MERCADO TURBO 1000",
+          "cnpj": "08.831.622/0002-54",
+          "filial": "MESQUITA",
+          "valor": 2154.0,
+          "nf": "",
+          "data_agendamento": "20/08/2026",
+          "data_ord": "2026-08-20",
+          "status": "A FATURAR",
+          "obs": "",
+          "status_logistica": "",
+          "justificativa_logistica": ""
+        },
+        {
           "codigo_cliente": "31190",
           "cliente": "MERCADO TURBO 1000",
           "cnpj": "08.831.622/0001-73",
@@ -22757,10 +22813,10 @@ const AGENDAMENTO_DATA = {
           "cnpj": "28.580.702/0007-04",
           "filial": "BARRA DO PIRAÍ",
           "valor": 4686.42,
-          "nf": "",
+          "nf": "7785",
           "data_agendamento": "20/08/2026",
           "data_ord": "2026-08-20",
-          "status": "A FATURAR",
+          "status": "FATURADO",
           "obs": "ENVIAR UM DIA ANTES O XML DO E-MAIL (nfehs@casadoarroz.com.br)                                    De 0 a 15 volumes R$ 15,00\nDe 16 a 30 Volumes R$ 22,00\nRemontagem de Pallet  R$ 45,00\nMercado AGENDADO",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -25697,12 +25753,12 @@ const AGENDAMENTO_DATA = {
           "cliente": "MERCADO IDEAL DE JACAREI LTDA",
           "cnpj": "09.567.039/0001-60",
           "filial": "MANGARATIBA",
-          "valor": 257.88,
-          "nf": "6517",
-          "data_agendamento": "13/08/2026",
-          "data_ord": "2026-08-13",
-          "status": "CANCELADO",
-          "obs": "ROTA DE VIAGEM",
+          "valor": 1303.68,
+          "nf": "7310",
+          "data_agendamento": "20/08/2026",
+          "data_ord": "2026-08-20",
+          "status": "FATURADO",
+          "obs": "ROTA DE VIAGEM - Produtos em caixa original e com rótulos íntegros;",
           "status_logistica": "",
           "justificativa_logistica": ""
         },
@@ -25711,12 +25767,12 @@ const AGENDAMENTO_DATA = {
           "cliente": "MERCADO IDEAL DE JACAREI LTDA",
           "cnpj": "09.567.039/0001-60",
           "filial": "MANGARATIBA",
-          "valor": 1303.68,
-          "nf": "7310",
+          "valor": 257.88,
+          "nf": "6517",
           "data_agendamento": "13/08/2026",
           "data_ord": "2026-08-13",
-          "status": "FATURADO",
-          "obs": "ROTA DE VIAGEM - Produtos em caixa original e com rótulos íntegros;",
+          "status": "CANCELADO",
+          "obs": "ROTA DE VIAGEM",
           "status_logistica": "",
           "justificativa_logistica": ""
         },
@@ -26736,7 +26792,7 @@ const AGENDAMENTO_DATA = {
       ]
     }
   ],
-  "atualizado_em": "19/08/2026 17:58",
+  "atualizado_em": "20/08/2026 10:41",
   "comparativo": [
     {
       "msg_id": "1a01bc9a975c4cab",
