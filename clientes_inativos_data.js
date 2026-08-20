@@ -1,7 +1,7 @@
 // Gerado automaticamente
 
 const INATIVOS_DATA = {
-  "atualizado_em": "20/08/2026 10:51",
+  "atualizado_em": "20/08/2026 11:58",
   "por_vendedor": {
     "ADEILSON GONÇALVEZ - OFF TRADE": {
       "rca": "431",
@@ -22920,7 +22920,7 @@ const INATIVOS_DATA = {
           "cidade": "BELO HORIZONTE",
           "dtultcomp": "15/07/2026",
           "dias": 36,
-          "media": 42.23
+          "media": 24.3
         },
         {
           "codcli": "39533",
@@ -22929,7 +22929,7 @@ const INATIVOS_DATA = {
           "cidade": "BELO HORIZONTE",
           "dtultcomp": "15/07/2026",
           "dias": 36,
-          "media": 39.31
+          "media": 16.67
         },
         {
           "codcli": "38898",
@@ -22938,7 +22938,7 @@ const INATIVOS_DATA = {
           "cidade": "VESPASIANO",
           "dtultcomp": "15/07/2026",
           "dias": 36,
-          "media": 48.23
+          "media": 24.97
         },
         {
           "codcli": "38525",
@@ -22947,7 +22947,7 @@ const INATIVOS_DATA = {
           "cidade": "SANTA LUZIA",
           "dtultcomp": "15/07/2026",
           "dias": 36,
-          "media": 43.27
+          "media": 22.64
         },
         {
           "codcli": "30614",
