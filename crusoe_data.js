@@ -1,5 +1,5 @@
 const CRUSOE_DATA = {
-  "atualizado_em": "20/08/2026 14:03",
+  "atualizado_em": "20/08/2026 14:48",
   "periodo": {
     "ini": "01/07/2026",
     "fim": "31/08/2026"
@@ -4079,8 +4079,8 @@ const CRUSOE_DATA = {
           "rca": 431,
           "vendedor": "Adeilson Gonçalvez",
           "clientes_gourmet": 6,
-          "faturamento": 7431.33,
-          "faturamento_gourmet": 1223.7,
+          "faturamento": 6992.73,
+          "faturamento_gourmet": 1044.9,
           "pontos_total": 6,
           "vendas": [
             {
@@ -4174,15 +4174,6 @@ const CRUSOE_DATA = {
               "produto": "RC SALADA DE ATUM - MEDITERRANEA 12X160G",
               "qt": 1.0,
               "valor": 99.9,
-              "pontuacoes": []
-            },
-            {
-              "numnota": "422464",
-              "data": "18/08/2026",
-              "cliente": "BAR E RESTAURANTE 3 SIMOES LIMITADA",
-              "produto": "RC PATE ATUM COM AZEITONAS 12X80G",
-              "qt": 1.0,
-              "valor": 178.8,
               "pontuacoes": []
             }
           ]
