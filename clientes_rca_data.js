@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "20/08/2026 15:05",
-  "total": 25426,
+  "atualizado_em": "20/08/2026 15:57",
+  "total": 25427,
   "clientes": [
     {
       "codcli": "38586",
@@ -8242,6 +8242,26 @@ const CLIENTES_RCA_DATA = {
       "ultimo_rca_nome": "LUCAS LIMA - OFF TRADE",
       "ultimo_rca_ot": "265",
       "ultimo_rca_ot_nome": "LUCAS LIMA - OFF TRADE"
+    },
+    {
+      "codcli": "96134",
+      "razao": "33.970.147 PEDRO LEME DE REZENDE CARVALHO",
+      "fantasia": "PEDRO LEME DE REZENDE CARVALHO",
+      "bairro": "MANGUINHOS",
+      "cidade": "ARMACAO DOS BUZ",
+      "cnpj": "33.970.147/0001-63",
+      "estado": "RJ",
+      "ramo": "RESTAURANTE",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "159",
+      "nome_usur1": "GISELLE BARFER - OFF TRADE",
+      "codusur2": "313",
+      "nome_usur2": "ANDRE MATTOS",
+      "ultimo_rca": "",
+      "ultimo_rca_nome": "",
+      "ultimo_rca_ot": "",
+      "ultimo_rca_ot_nome": ""
     },
     {
       "codcli": "87247",
@@ -50738,8 +50758,8 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "RAPHAELA RIBAS",
       "codusur2": "461",
       "nome_usur2": "SUELY SANTOS - OFF TRADE",
-      "ultimo_rca": "329",
-      "ultimo_rca_nome": "RAPHAELA RIBAS",
+      "ultimo_rca": "461",
+      "ultimo_rca_nome": "SUELY SANTOS - OFF TRADE",
       "ultimo_rca_ot": "461",
       "ultimo_rca_ot_nome": "SUELY SANTOS - OFF TRADE"
     },
@@ -77524,6 +77544,26 @@ const CLIENTES_RCA_DATA = {
       "ultimo_rca_ot_nome": ""
     },
     {
+      "codcli": "96136",
+      "razao": "ATACADAO DO DESCONTO MERCADO LTDA",
+      "fantasia": "ATACADAO DO DESCONTO MERCADO",
+      "bairro": "VILA HOMERO THON",
+      "cidade": "SANTO ANDRE",
+      "cnpj": "62.670.506/0001-65",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "512",
+      "nome_usur1": "WILLIAM GONCALVES - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": "",
+      "ultimo_rca": "",
+      "ultimo_rca_nome": "",
+      "ultimo_rca_ot": "",
+      "ultimo_rca_ot_nome": ""
+    },
+    {
       "codcli": "94890",
       "razao": "ATACADAO MAROMBA BOTAFOGO LTDA",
       "fantasia": "ATACADAO MAROMBA BOTAFOGO",
@@ -84560,26 +84600,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "",
       "ultimo_rca": "",
       "ultimo_rca_nome": "",
-      "ultimo_rca_ot": "",
-      "ultimo_rca_ot_nome": ""
-    },
-    {
-      "codcli": "50232",
-      "razao": "BALAIO DO ZE SERVICOS DE GASTRONOMIA LTDA",
-      "fantasia": "BALAIO DO ZE",
-      "bairro": "FLAMENGO",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "42.860.578/0001-68",
-      "estado": "RJ",
-      "ramo": "RESTAURANTE",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "319",
-      "nome_usur2": "FERNANDA CAMBOIM",
-      "ultimo_rca": "92",
-      "ultimo_rca_nome": "AUGUSTO SILVA",
       "ultimo_rca_ot": "",
       "ultimo_rca_ot_nome": ""
     },
@@ -133598,8 +133618,8 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "RQ",
       "codusur2": "371",
       "nome_usur2": "CARLOS DE ALMEIDA - OFF TRADE",
-      "ultimo_rca": "1",
-      "ultimo_rca_nome": "RQ",
+      "ultimo_rca": "371",
+      "ultimo_rca_nome": "CARLOS DE ALMEIDA - OFF TRADE",
       "ultimo_rca_ot": "371",
       "ultimo_rca_ot_nome": "CARLOS DE ALMEIDA - OFF TRADE"
     },
@@ -145318,8 +145338,8 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "PAULO JUNIOR - OFF TRADE",
       "codusur2": "",
       "nome_usur2": "",
-      "ultimo_rca": "471",
-      "ultimo_rca_nome": "PAULO JUNIOR - OFF TRADE",
+      "ultimo_rca": "",
+      "ultimo_rca_nome": "",
       "ultimo_rca_ot": "471",
       "ultimo_rca_ot_nome": "PAULO JUNIOR - OFF TRADE"
     },
@@ -161978,10 +161998,10 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "LEONARDO FLOREZI - OFF TRADE",
       "codusur2": "",
       "nome_usur2": "",
-      "ultimo_rca": "",
-      "ultimo_rca_nome": "",
-      "ultimo_rca_ot": "",
-      "ultimo_rca_ot_nome": ""
+      "ultimo_rca": "486",
+      "ultimo_rca_nome": "LEONARDO FLOREZI - OFF TRADE",
+      "ultimo_rca_ot": "486",
+      "ultimo_rca_ot_nome": "LEONARDO FLOREZI - OFF TRADE"
     },
     {
       "codcli": "52107",
@@ -165114,10 +165134,10 @@ const CLIENTES_RCA_DATA = {
       "ramo": "RESTAURANTE",
       "key_account": false,
       "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "319",
-      "nome_usur2": "FERNANDA CAMBOIM",
+      "codusur1": "471",
+      "nome_usur1": "ANA CLARA FASSANO - OFF TRADE",
+      "codusur2": "238",
+      "nome_usur2": "DANIELLE MOURA - OFF TRADE",
       "ultimo_rca": "35",
       "ultimo_rca_nome": "LAIS POPPE VILLANOVA",
       "ultimo_rca_ot": "",
@@ -172838,8 +172858,8 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "RAPHAELA RIBAS",
       "codusur2": "461",
       "nome_usur2": "SUELY SANTOS - OFF TRADE",
-      "ultimo_rca": "461",
-      "ultimo_rca_nome": "SUELY SANTOS - OFF TRADE",
+      "ultimo_rca": "329",
+      "ultimo_rca_nome": "RAPHAELA RIBAS",
       "ultimo_rca_ot": "461",
       "ultimo_rca_ot_nome": "SUELY SANTOS - OFF TRADE"
     },
@@ -178578,8 +178598,8 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "THIAGO CANTISANI",
       "codusur2": "431",
       "nome_usur2": "ADEILSON GONÇALVEZ - OFF TRADE",
-      "ultimo_rca": "431",
-      "ultimo_rca_nome": "ADEILSON GONÇALVEZ - OFF TRADE",
+      "ultimo_rca": "",
+      "ultimo_rca_nome": "",
       "ultimo_rca_ot": "431",
       "ultimo_rca_ot_nome": "ADEILSON GONÇALVEZ - OFF TRADE"
     },
@@ -190398,10 +190418,10 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "FLAVIO RIBEIRO - OFF TRADE",
       "codusur2": "",
       "nome_usur2": "",
-      "ultimo_rca": "",
-      "ultimo_rca_nome": "",
-      "ultimo_rca_ot": "",
-      "ultimo_rca_ot_nome": ""
+      "ultimo_rca": "472",
+      "ultimo_rca_nome": "FLAVIO RIBEIRO - OFF TRADE",
+      "ultimo_rca_ot": "472",
+      "ultimo_rca_ot_nome": "FLAVIO RIBEIRO - OFF TRADE"
     },
     {
       "codcli": "88134",
@@ -213418,8 +213438,8 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "W.S",
       "codusur2": "",
       "nome_usur2": "",
-      "ultimo_rca": "547",
-      "ultimo_rca_nome": "TLR",
+      "ultimo_rca": "588",
+      "ultimo_rca_nome": "W.S",
       "ultimo_rca_ot": "",
       "ultimo_rca_ot_nome": ""
     },
@@ -237558,10 +237578,10 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "SILVIO LIMA - OFF TRADE",
       "codusur2": "",
       "nome_usur2": "",
-      "ultimo_rca": "",
-      "ultimo_rca_nome": "",
-      "ultimo_rca_ot": "",
-      "ultimo_rca_ot_nome": ""
+      "ultimo_rca": "521",
+      "ultimo_rca_nome": "SILVIO LIMA - OFF TRADE",
+      "ultimo_rca_ot": "521",
+      "ultimo_rca_ot_nome": "SILVIO LIMA - OFF TRADE"
     },
     {
       "codcli": "52524",
@@ -237578,10 +237598,10 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "SILVIO LIMA - OFF TRADE",
       "codusur2": "",
       "nome_usur2": "",
-      "ultimo_rca": "",
-      "ultimo_rca_nome": "",
-      "ultimo_rca_ot": "",
-      "ultimo_rca_ot_nome": ""
+      "ultimo_rca": "521",
+      "ultimo_rca_nome": "SILVIO LIMA - OFF TRADE",
+      "ultimo_rca_ot": "521",
+      "ultimo_rca_ot_nome": "SILVIO LIMA - OFF TRADE"
     },
     {
       "codcli": "52525",
@@ -237598,10 +237618,10 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "SILVIO LIMA - OFF TRADE",
       "codusur2": "",
       "nome_usur2": "",
-      "ultimo_rca": "",
-      "ultimo_rca_nome": "",
-      "ultimo_rca_ot": "",
-      "ultimo_rca_ot_nome": ""
+      "ultimo_rca": "521",
+      "ultimo_rca_nome": "SILVIO LIMA - OFF TRADE",
+      "ultimo_rca_ot": "521",
+      "ultimo_rca_ot_nome": "SILVIO LIMA - OFF TRADE"
     },
     {
       "codcli": "36820",
@@ -340998,10 +341018,10 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "ADEILSON GONÇALVEZ - OFF TRADE",
       "codusur2": "",
       "nome_usur2": "",
-      "ultimo_rca": "144",
-      "ultimo_rca_nome": "DIOGO RAPOSO - OFF TRADE",
-      "ultimo_rca_ot": "144",
-      "ultimo_rca_ot_nome": "DIOGO RAPOSO - OFF TRADE"
+      "ultimo_rca": "431",
+      "ultimo_rca_nome": "ADEILSON GONÇALVEZ - OFF TRADE",
+      "ultimo_rca_ot": "431",
+      "ultimo_rca_ot_nome": "ADEILSON GONÇALVEZ - OFF TRADE"
     },
     {
       "codcli": "36862",
@@ -343678,8 +343698,8 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "GILSON DE OLIVEIRA - OFF TRADE",
       "codusur2": "",
       "nome_usur2": "",
-      "ultimo_rca": "491",
-      "ultimo_rca_nome": "GILSON DE OLIVEIRA - OFF TRADE",
+      "ultimo_rca": "",
+      "ultimo_rca_nome": "",
       "ultimo_rca_ot": "491",
       "ultimo_rca_ot_nome": "GILSON DE OLIVEIRA - OFF TRADE"
     },
@@ -344100,26 +344120,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "",
       "ultimo_rca": "196",
       "ultimo_rca_nome": "VENDEDOR 03",
-      "ultimo_rca_ot": "",
-      "ultimo_rca_ot_nome": ""
-    },
-    {
-      "codcli": "67098",
-      "razao": "MILA CRISTINA GUEDES PINTO DE LACERDA 08532291716",
-      "fantasia": "DEPOSITO DA MILA GUEDES",
-      "bairro": "PARQUE FLUMINENSE",
-      "cidade": "DUQUE DE CAXIAS",
-      "cnpj": "37.129.457/0001-00",
-      "estado": "RJ",
-      "ramo": "DISTRIBUIDORA DE BEBIDA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": "",
-      "ultimo_rca": "107",
-      "ultimo_rca_nome": "MARCUS VINICIUS",
       "ultimo_rca_ot": "",
       "ultimo_rca_ot_nome": ""
     },
@@ -452784,6 +452784,26 @@ const CLIENTES_RCA_DATA = {
       "ultimo_rca_ot_nome": ""
     },
     {
+      "codcli": "46888",
+      "razao": "SOLARE COMERCIO DE PRODUTOS ALIMENTICIOS LTDA",
+      "fantasia": "MERCADO BEM LOCAL",
+      "bairro": "GUAIAUNA",
+      "cidade": "SAO PAULO",
+      "cnpj": "61.768.365/0001-55",
+      "estado": "SP",
+      "ramo": "MERCEARIA",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "521",
+      "nome_usur1": "SILVIO LIMA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": "",
+      "ultimo_rca": "",
+      "ultimo_rca_nome": "",
+      "ultimo_rca_ot": "",
+      "ultimo_rca_ot_nome": ""
+    },
+    {
       "codcli": "77517",
       "razao": "SOLEIL PRODUCOES ARTISTICAS LTDA",
       "fantasia": "SOLEIL PRODUCOES ARTISTICAS",
@@ -459718,10 +459738,10 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "SILVIO LIMA - OFF TRADE",
       "codusur2": "",
       "nome_usur2": "",
-      "ultimo_rca": "",
-      "ultimo_rca_nome": "",
-      "ultimo_rca_ot": "",
-      "ultimo_rca_ot_nome": ""
+      "ultimo_rca": "521",
+      "ultimo_rca_nome": "SILVIO LIMA - OFF TRADE",
+      "ultimo_rca_ot": "521",
+      "ultimo_rca_ot_nome": "SILVIO LIMA - OFF TRADE"
     },
     {
       "codcli": "80824",
