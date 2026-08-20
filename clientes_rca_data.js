@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "20/08/2026 15:57",
-  "total": 25427,
+  "atualizado_em": "20/08/2026 16:38",
+  "total": 25425,
   "clientes": [
     {
       "codcli": "38586",
@@ -119934,8 +119934,8 @@ const CLIENTES_RCA_DATA = {
       "ramo": "BAR",
       "key_account": false,
       "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "codusur1": "155",
+      "nome_usur1": "RAPHAEL SANTOS - OFF TRADE",
       "codusur2": "312",
       "nome_usur2": "LAYZ WERNECK",
       "ultimo_rca": "413",
@@ -292082,26 +292082,6 @@ const CLIENTES_RCA_DATA = {
       "ultimo_rca_nome": "ROSENIR RIBEIRO - OFF TRADE",
       "ultimo_rca_ot": "268",
       "ultimo_rca_ot_nome": "ROSENIR RIBEIRO - OFF TRADE"
-    },
-    {
-      "codcli": "82261",
-      "razao": "LINDOMAR LUIZ BONDAN 03405285917",
-      "fantasia": "BAR DOS GAUCHOS",
-      "bairro": "GUARATIBA",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "37.756.865/0001-92",
-      "estado": "RJ",
-      "ramo": "RESTAURANTE",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": "",
-      "ultimo_rca": "437",
-      "ultimo_rca_nome": "BEES",
-      "ultimo_rca_ot": "",
-      "ultimo_rca_ot_nome": ""
     },
     {
       "codcli": "35699",
@@ -499040,26 +499020,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "",
       "ultimo_rca": "152",
       "ultimo_rca_nome": "PEDRO RANGEL",
-      "ultimo_rca_ot": "",
-      "ultimo_rca_ot_nome": ""
-    },
-    {
-      "codcli": "21001",
-      "razao": "W. A. A VIEIRA BAR E PETISCO EIRELI",
-      "fantasia": "RECANTO DA BEBIDA",
-      "bairro": "COLINA DE LARANJEIRAS",
-      "cidade": "SERRA",
-      "cnpj": "28.208.521/0001-58",
-      "estado": "ES",
-      "ramo": "BAR",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "190",
-      "nome_usur2": "ROMARIO DOS SANTOS",
-      "ultimo_rca": "190",
-      "ultimo_rca_nome": "ROMARIO DOS SANTOS",
       "ultimo_rca_ot": "",
       "ultimo_rca_ot_nome": ""
     },
