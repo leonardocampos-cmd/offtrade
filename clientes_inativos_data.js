@@ -1,7 +1,7 @@
 // Gerado automaticamente
 
 const INATIVOS_DATA = {
-  "atualizado_em": "20/08/2026 13:33",
+  "atualizado_em": "20/08/2026 14:16",
   "por_vendedor": {
     "ADEILSON GONÇALVEZ - OFF TRADE": {
       "rca": "431",
@@ -6077,16 +6077,6 @@ const INATIVOS_DATA = {
           "cidade": "RIO DE JANEIRO",
           "dtultcomp": "14/04/2016",
           "dias": 3780,
-          "rca_inativo": "N",
-          "media": 0.0
-        },
-        {
-          "codcli": "46164",
-          "cliente": "V A ROSSETTO COMERCIO DE ALIMENTOS",
-          "bairro": "CIDADE DE DEUS",
-          "cidade": "RIO DE JANEIRO",
-          "dtultcomp": "12/05/2026",
-          "dias": 100,
           "rca_inativo": "N",
           "media": 0.0
         },
