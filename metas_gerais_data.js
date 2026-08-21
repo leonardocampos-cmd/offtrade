@@ -1,5 +1,5 @@
 const METAS_GERAIS_DATA = {
-  "atualizado_em": "21/08/2026 13:14",
+  "atualizado_em": "21/08/2026 14:11",
   "mes": "Ago/26",
   "mes_ant": "Jul/26",
   "dias_corridos": 21,
@@ -7,8 +7,8 @@ const METAS_GERAIS_DATA = {
   "dias_restantes": 10,
   "resumo": {
     "fat": 9601642.65,
-    "fat_ant": 6754516.61,
-    "fat_ant_completo": 13504735.18,
+    "fat_ant": 6752826.61,
+    "fat_ant_completo": 13503045.18,
     "pos": 1236,
     "pos_ant": 1311,
     "pos_ant_completo": 1791
@@ -16,8 +16,8 @@ const METAS_GERAIS_DATA = {
   "total": {
     "meta": 12300000.0,
     "fat": 9601642.65,
-    "fat_ant": 6754516.61,
-    "fat_ant_completo": 13504735.18,
+    "fat_ant": 6752826.61,
+    "fat_ant_completo": 13503045.18,
     "pct": 78.1,
     "nec_dia": 269835.73
   },
@@ -27,11 +27,11 @@ const METAS_GERAIS_DATA = {
       "label": "Rio de Janeiro",
       "meta": 2900000.0,
       "fat": 2668375.58,
-      "fat_ant": 1314071.49,
+      "fat_ant": 1312381.49,
       "pos": 465,
       "pct": 92.0,
       "nec_dia": 23162.44,
-      "fat_ant_completo": 2684743.12,
+      "fat_ant_completo": 2683053.12,
       "pos_ant": 520,
       "pos_ant_completo": 717
     },
@@ -321,7 +321,7 @@ const METAS_GERAIS_DATA = {
     {
       "fantasia": "MINALBA",
       "fat": 27653.9,
-      "fat_ant": 29291.83,
+      "fat_ant": 27601.83,
       "por_estado": {
         "RJ": 27653.9,
         "SP": 0.0,
