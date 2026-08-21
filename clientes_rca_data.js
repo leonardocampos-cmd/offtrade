@@ -1,6 +1,6 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "21/08/2026 16:32",
+  "atualizado_em": "21/08/2026 17:21",
   "total": 25423,
   "clientes": [
     {
@@ -201618,10 +201618,10 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "BRUNO BARBOSA - OFF TRADE",
       "codusur2": "",
       "nome_usur2": "",
-      "ultimo_rca": "",
-      "ultimo_rca_nome": "",
-      "ultimo_rca_ot": "",
-      "ultimo_rca_ot_nome": ""
+      "ultimo_rca": "425",
+      "ultimo_rca_nome": "BRUNO BARBOSA - OFF TRADE",
+      "ultimo_rca_ot": "425",
+      "ultimo_rca_ot_nome": "BRUNO BARBOSA - OFF TRADE"
     },
     {
       "codcli": "70821",
@@ -209158,8 +209158,8 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "LEONARDO FLOREZI - OFF TRADE",
       "codusur2": "",
       "nome_usur2": "",
-      "ultimo_rca": "",
-      "ultimo_rca_nome": "",
+      "ultimo_rca": "486",
+      "ultimo_rca_nome": "LEONARDO FLOREZI - OFF TRADE",
       "ultimo_rca_ot": "486",
       "ultimo_rca_ot_nome": "LEONARDO FLOREZI - OFF TRADE"
     },
