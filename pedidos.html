@@ -130,6 +130,7 @@
     .status-log-carregado { background: rgba(59,130,246,.15);  color: var(--blue); }
     .status-log-emrota    { background: rgba(34,197,94,.15);   color: var(--green); }
     .status-log-aberto    { background: var(--card2); border: 1px solid var(--border); color: var(--muted); }
+    .status-log-devolvido { background: rgba(168,85,247,.15); color: #a855f7; }
     .badge-agendado {
       display: inline-block; background: rgba(59,130,246,.15); color: var(--blue);
       border-radius: 20px; padding: 1px 8px; font-size: .68rem; font-weight: 700;
@@ -264,7 +265,7 @@ const ABAS = [
     chave: 'faturados', label: 'Faturados', cor: 'status-faturado',
     colExtra: {
       campo: 'status_log', label: 'Status Logística',
-      render: p => `<span class="cod">${_esc(p.sistema)}</span> ${_statusLogBadge(p.status_log)}`
+      render: p => `<span class="cod">${_esc(p.sistema)}</span> ${_statusLogBadge(p.status_log)}${_statusSistemaBadge(p.status_sistema)}`
         + (p.status_log === 'RETORNO' && p.motivo_retorno
           ? `<div style="margin-top:4px;color:var(--orange);font-size:.72rem">${_esc(p.motivo_retorno)}</div>`
           : ''),
@@ -975,7 +976,7 @@ function _agendamento(obs) {
 function _montarItens(p) {
   if (!p.itens || !p.itens.length) return '<span class="status-none">Sem itens.</span>';
   const linhas = p.itens.map(it => `
-    <tr class="${it.cortado ? 'item-cortado' : ''}"><td>${_esc(it.desc)}${it.cortado ? `<span class="tag-falta">cortou ${it.qtd_cortada_total}</span>` : ''}</td><td>${it.qt}</td><td>${brl(it.val)}</td></tr>
+    <tr class="${it.cortado ? 'item-cortado' : ''}"><td>${_esc(it.desc)}${it.cortado ? `<span class="tag-falta">cortou ${it.qtd_cortada_total}</span>` : ''}${it.devolvido ? ' <span style="font-size:.6rem;color:#a855f7;font-weight:700">DEV</span>' : ''}${it.cancelada_pos_nf ? ' <span style="font-size:.6rem;color:var(--red);font-weight:700">CANCELADA</span>' : ''}</td><td>${it.qt}</td><td>${brl(it.val)}</td></tr>
   `).join('');
   const precoMotivo = (p.motivo_preco_digitado != null && p.motivo_preco_tabela != null)
     ? ` <span style="color:var(--muted)">— ${_esc(p.motivo_codprod)} ${_esc(p.motivo_produto)} (digitado ${brl(p.motivo_preco_digitado)} · tabela ${brl(p.motivo_preco_tabela)})</span>`
@@ -1019,6 +1020,12 @@ function _statusLogBadge(status) {
     : s === 'ABERTO' ? 'status-log-aberto'
     : 'status-log-outro';
   return `<span class="status-badge ${cls}">${_esc(status)}</span>`;
+}
+
+function _statusSistemaBadge(status) {
+  if (!status) return '';
+  const cls = status.startsWith('DEVOLU') ? 'status-log-devolvido' : 'status-log-cancelada';
+  return `<span class="status-badge ${cls}" style="margin-left:4px">${_esc(status)}</span>`;
 }
 
 function _saldoBadge(v) {
@@ -1067,7 +1074,7 @@ function exportarCSV() {
   const abaInfo = ABAS.find(a => a.chave === _abaAtual);
   const cancelados = _abaAtual === 'cancelados';
   const mostraSistema = _abaAtual === 'faturados';
-  const header = ['Pedido','NF','Data','Vendedor','Estado','Cidade','Cliente','Agendamento', ...(mostraSistema ? ['Sistema'] : []), ...(abaInfo.colExtra ? [abaInfo.colExtra.label] : []), 'Produto', 'Qtd', 'Valor Produto', cancelados ? 'Valor Cortado' : 'Total Pedido'];
+  const header = ['Pedido','NF','Data','Vendedor','Estado','Cidade','Cliente','Agendamento', ...(mostraSistema ? ['Sistema'] : []), ...(abaInfo.colExtra ? [abaInfo.colExtra.label] : []), ...(mostraSistema ? ['Status Sistema'] : []), 'Produto', 'Qtd', 'Valor Produto', cancelados ? 'Valor Cortado' : 'Total Pedido'];
   const linhas = lista.flatMap(p => {
     const itens = (p.itens && p.itens.length) ? p.itens : [{ desc: '', qt: '', val: '' }];
     return itens.map(it => [
@@ -1081,6 +1088,7 @@ function exportarCSV() {
       _agendamento(p.obs) || '',
       ...(mostraSistema ? [p.sistema] : []),
       ...(abaInfo.colExtra ? [p[abaInfo.colExtra.campo]] : []),
+      ...(mostraSistema ? [p.status_sistema || ''] : []),
       it.desc,
       it.qt,
       it.val,

@@ -134,6 +134,26 @@ def _query_motivo_corte(schema):
     """
 
 
+def _query_status_pos_nf(schema):
+    """Devolução (CODOPER='ED') e cancelamento de NF já emitida (DTCANCEL
+    preenchido) acontecem DEPOIS da nota existir — não aparecem em
+    PBI_PCPEDI.STATUS (esse campo só reflete corte pré-NF, ver comentário
+    nos "baldes mutuamente exclusivos" abaixo). Só dá pra ver isso direto no
+    PCMOV. Restrita às linhas de exceção (senão viraria a base inteira de
+    movimentação de 90 dias) — mesma lógica de
+    exportacao_meta.py::_query_vendas_historico pra CODOPER='ED', e mesma
+    decisão de linkar por NUMPED em vez de NUMNOTADEV (não confiável, ver
+    comentário lá)."""
+    return f"""
+        SELECT NUMPED, CODPROD, CODOPER,
+               CASE WHEN DTCANCEL IS NOT NULL THEN 'S' ELSE 'N' END AS CANCELADA
+        FROM {schema}.PCMOV
+        WHERE DTMOV >= SYSDATE - {DIAS_JANELA}
+          AND CODOPER IN ('S', 'SB', 'ED')
+          AND (CODOPER = 'ED' OR DTCANCEL IS NOT NULL)
+    """
+
+
 # thekings não tem essa view (ORA-00942, mesmo motivo documentado em
 # exportacao_meta.py) — excluída daqui pra não derrubar engine_theking pro
 # resto do script (3 retentativas + 10s cada por fonte morta).
@@ -215,6 +235,30 @@ for (_nome, _eng, _extra, _filiais), _res in zip(_SOURCES_COM_MOTIVO_CORTE, carr
         _subtot = pd.to_numeric(_row.get('SUBTOT'), errors='coerce')
         if pd.notna(_subtot):
             _valor_corte_pedido_lookup[_chave_pedido] = _valor_corte_pedido_lookup.get(_chave_pedido, 0.0) + float(_subtot)
+
+# ── Devolução e cancelamento pós-NF (PCMOV), por (SISTEMA, NUMPED, CODPROD) ──
+# Ver _query_status_pos_nf: só traz linha de devolução (CODOPER='ED') ou
+# movimento com DTCANCEL preenchido — o resto do PCMOV (imenso) fica de fora.
+_devolvidos_produtos = set()
+_cancelados_pos_nf_produtos = set()
+_chamadas_status_pos_nf = [
+    (_query_status_pos_nf(_nome), _eng, f"status_pos_nf_{_nome}")
+    for _nome, _eng, _extra, _filiais in _SOURCES
+]
+for (_nome, _eng, _extra, _filiais), _res in zip(_SOURCES, carregar_paralelo(_chamadas_status_pos_nf)):
+    if isinstance(_res, Exception):
+        print(f"[AVISO] status_pos_nf_{_nome} falhou ({str(_res)[:80]}) — ignorado (devolução/cancelamento pós-NF dessa base fica de fora)")
+        continue
+    _res.columns = _res.columns.str.upper()
+    for _, _row in _res.iterrows():
+        try:
+            _chave = (_nome, int(_row['NUMPED']), int(_row['CODPROD']))
+        except (TypeError, ValueError):
+            continue
+        if str(_row['CODOPER']).strip().upper() == 'ED':
+            _devolvidos_produtos.add(_chave)
+        if str(_row['CANCELADA']).strip().upper() == 'S':
+            _cancelados_pos_nf_produtos.add(_chave)
 
 tabela_pedidos = pd.concat(_parts, ignore_index=True)
 tabela_pedidos.columns = tabela_pedidos.columns.str.upper()
@@ -736,6 +780,10 @@ def _item_pedido(sistema, numped, row):
         float(_pvenda) if pd.notna(_pvenda) else None
     )
     _valor_cortado = round(qtd_cortada_total * _preco_unit, 2) if _preco_unit is not None else None
+    try:
+        _chave_status = (sistema, int(numped), int(row['CODPROD_NUM']))
+    except (TypeError, ValueError):
+        _chave_status = None
     return {
         'desc':              _s(row['DESCRICAO']),
         'industria':         _s(row.get('FANTASIA_FORNEC')) or _s(row.get('FORNECEDOR')),
@@ -748,6 +796,8 @@ def _item_pedido(sistema, numped, row):
         'valor_cortado':     _valor_cortado,
         'motivo_corte':      _motivo_corte(sistema, numped, row['CODPROD_NUM']),
         'cortado':           qtd_cortada_total > 0,
+        'devolvido':         _chave_status in _devolvidos_produtos,
+        'cancelada_pos_nf':  _chave_status in _cancelados_pos_nf_produtos,
         'codprod':   _int_s(row['CODPROD_NUM']),
         'codfilial': _int_s(row['CODFILIAL_NUM']),
         'pvenda':    round(float(_pvenda), 2) if pd.notna(_pvenda) else None,
@@ -835,6 +885,24 @@ def _agrupar(df, com_status_log=False):
                 item['motivo_retorno'] = _motivo_retorno(nf, sistema) if nf else ''
                 if item['motivo_retorno'] and not item['motivo']:
                     item['motivo'] = item['motivo_retorno']
+            # Status "no sistema" (Winthor), separado do status de logística
+            # acima: devolução/cancelamento pós-NF não aparecem em
+            # PBI_PCPEDI.STATUS (ver _query_status_pos_nf) — só dá pra saber
+            # olhando o PCMOV item a item. "Parcial" cobre pedido com vários
+            # produtos onde só parte foi devolvida/cancelada depois da nota.
+            _n_itens = len(item['itens'])
+            _n_dev  = sum(1 for it in item['itens'] if it['devolvido'])
+            _n_canc = sum(1 for it in item['itens'] if it['cancelada_pos_nf'])
+            if _n_itens and _n_dev == _n_itens:
+                item['status_sistema'] = 'DEVOLVIDO'
+            elif _n_dev:
+                item['status_sistema'] = 'DEVOLUÇÃO PARCIAL'
+            elif _n_itens and _n_canc == _n_itens:
+                item['status_sistema'] = 'CANCELADA'
+            elif _n_canc:
+                item['status_sistema'] = 'CANCELAMENTO PARCIAL'
+            else:
+                item['status_sistema'] = ''
         _preco_motivo = _preco_motivo_bloqueio(item)
         if _preco_motivo:
             (item['motivo_codprod'], item['motivo_produto'],
