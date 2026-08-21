@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_mg.py
 
 const NAO_POS_MG_DATA = {
-  "atualizado_em": "21/08/2026 14:34",
+  "atualizado_em": "21/08/2026 16:31",
   "por_vendedor": {
     "BRUNA CASTRO MELLO": [
       {
@@ -3222,20 +3222,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "37627",
-        "cliente": "PARANAIBA JABOTICATUBAS ALIMENTOS LTDA",
-        "bairro": "SÃO BENEDITO",
-        "dtultcomp": "27/05/2026",
-        "produtos": [
-          {
-            "produto": "WHISKY JACK DANIELS 700 ML",
-            "fantasia": "BROWN-FORMAN",
-            "qt": 12,
-            "valor": 1054.8
-          }
-        ]
-      },
-      {
         "codcli": "34421",
         "cliente": "SUPRIFORTE SUPRIMENTOS ATACADO E VAREJO LTDA",
         "bairro": "FELIPE CLÁUDIO DE SALES",
@@ -3322,26 +3308,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "MONIN",
             "qt": 2,
             "valor": 45.8
-          }
-        ]
-      },
-      {
-        "codcli": "31553",
-        "cliente": "SUPERMERCADO PARANAIBA SANTA LUZIA LTDA",
-        "bairro": "QUARENTA E DOIS",
-        "dtultcomp": "09/06/2026",
-        "produtos": [
-          {
-            "produto": "GIN GORDONS 750 ML",
-            "fantasia": "DIAGEO",
-            "qt": 3,
-            "valor": 159.45
-          },
-          {
-            "produto": "GIN GORDONS PINK 700ML",
-            "fantasia": "DIAGEO",
-            "qt": 3,
-            "valor": 159.45
           }
         ]
       },
@@ -3944,26 +3910,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "38022",
-        "cliente": "COMERCIAL JP ALIMENTOS LTDA",
-        "bairro": "JOÃO PINHEIRO",
-        "dtultcomp": "23/07/2026",
-        "produtos": [
-          {
-            "produto": "RUM MONTILLA CARTA BRANCA 1000 ML",
-            "fantasia": "PERNOD",
-            "qt": 6,
-            "valor": 149.4
-          },
-          {
-            "produto": "RUM MONTILLA OURO 1000ML",
-            "fantasia": "PERNOD",
-            "qt": 6,
-            "valor": 149.4
-          }
-        ]
-      },
-      {
         "codcli": "38025",
         "cliente": "LATICINIOS DA LAPA LTDA",
         "bairro": "DOM PEDRO I",
@@ -3994,20 +3940,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "HEINEKEN",
             "qt": 6,
             "valor": 848.16
-          }
-        ]
-      },
-      {
-        "codcli": "39321",
-        "cliente": "JEFERSON COSTA CARDOSO",
-        "bairro": "VILA ZILAH SPÓSITO",
-        "dtultcomp": "27/07/2026",
-        "produtos": [
-          {
-            "produto": "CERVEJA AMSTEL PURO MALTE 473 ML",
-            "fantasia": "HEINEKEN",
-            "qt": 3,
-            "valor": 158.04
           }
         ]
       },
