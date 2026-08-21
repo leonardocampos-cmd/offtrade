@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_sp.py
 
 const NAO_POS_SP_DATA = {
-  "atualizado_em": "21/08/2026 16:30",
+  "atualizado_em": "21/08/2026 17:20",
   "por_vendedor": {
     "ADER ALONSO": [
       {
@@ -1787,9 +1787,9 @@ const NAO_POS_SP_DATA = {
         ]
       },
       {
-        "codcli": "40668",
+        "codcli": "48117",
         "cliente": "SUPERMERCADOS DALBEN LTDA",
-        "bairro": "PARQUE NOVA SUÍÇA",
+        "bairro": "JARDIM BELA VISTA",
         "dtultcomp": "03/07/2026",
         "produtos": [
           {
@@ -1839,9 +1839,9 @@ const NAO_POS_SP_DATA = {
         ]
       },
       {
-        "codcli": "48117",
+        "codcli": "40668",
         "cliente": "SUPERMERCADOS DALBEN LTDA",
-        "bairro": "JARDIM BELA VISTA",
+        "bairro": "PARQUE NOVA SUÍÇA",
         "dtultcomp": "03/07/2026",
         "produtos": [
           {
@@ -2053,7 +2053,7 @@ const NAO_POS_SP_DATA = {
         ]
       },
       {
-        "codcli": "49440",
+        "codcli": "51990",
         "cliente": "NOVO HORTIFRUTI COMERCIO DE HORTIFRUTIGRANJEIROS LTDA",
         "bairro": "SWISS PARK",
         "dtultcomp": "27/07/2026",
@@ -2067,7 +2067,7 @@ const NAO_POS_SP_DATA = {
         ]
       },
       {
-        "codcli": "51990",
+        "codcli": "49440",
         "cliente": "NOVO HORTIFRUTI COMERCIO DE HORTIFRUTIGRANJEIROS LTDA",
         "bairro": "SWISS PARK",
         "dtultcomp": "27/07/2026",
@@ -2175,13 +2175,6 @@ const NAO_POS_SP_DATA = {
         "codcli": "50983",
         "cliente": "CH CREATIVE HUB SERVICES LTDA",
         "bairro": "CIDADE JARDIM",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "38918",
-        "cliente": "ESTR COMERCIO E PARTICIPACOES LTDA.",
-        "bairro": "VILA DO GOLF",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -8242,26 +8235,6 @@ const NAO_POS_SP_DATA = {
         ]
       },
       {
-        "codcli": "50927",
-        "cliente": "FAST VENDAS SUPERMERCADO LTDA",
-        "bairro": "VILA SAO JOAO",
-        "dtultcomp": "14/07/2026",
-        "produtos": [
-          {
-            "produto": "RUM BACARDI LIMON 700ML",
-            "fantasia": "BACARDI",
-            "qt": 12,
-            "valor": 396.0
-          },
-          {
-            "produto": "WHISKY DEWARS WHITE LABEL 750ML",
-            "fantasia": "BACARDI",
-            "qt": 1,
-            "valor": 69.9
-          }
-        ]
-      },
-      {
         "codcli": "51214",
         "cliente": "PALOMO & CROCHIQUIA LTDA",
         "bairro": "JARDIM SOARES",
@@ -8875,7 +8848,7 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
-        "codcli": "51834",
+        "codcli": "51833",
         "cliente": "SUPERMERCADO IBIRAPUERA LTDA",
         "bairro": "JOAO ARANHA",
         "dtultcomp": "nan",
@@ -8889,7 +8862,7 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
-        "codcli": "51833",
+        "codcli": "51834",
         "cliente": "SUPERMERCADO IBIRAPUERA LTDA",
         "bairro": "JOAO ARANHA",
         "dtultcomp": "nan",
