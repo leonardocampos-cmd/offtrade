@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Estoque — OfftradeHub</title>
   <script src="estoque_data.js"></script>
+  <script src="estoque_movimentacao_data.js"></script>
   <style>
     * { box-sizing: border-box; margin: 0; padding: 0; }
     :root {
@@ -91,6 +92,45 @@
       font-size: .65rem; font-weight: 700; white-space: nowrap;
     }
     .empty { text-align: center; padding: 48px; color: var(--muted); font-size: .9rem; }
+    .btn-timeline {
+      background: transparent; border: 1px solid var(--border); color: var(--muted);
+      border-radius: 6px; padding: 3px 8px; font-size: .68rem; font-family: inherit;
+      cursor: pointer; margin-top: 4px; white-space: nowrap;
+    }
+    .btn-timeline:hover { border-color: var(--accent); color: var(--accent); }
+    .modal-overlay {
+      display: none; position: fixed; inset: 0; background: rgba(0,0,0,.6);
+      z-index: 100; align-items: flex-start; justify-content: center; padding: 40px 16px;
+      overflow-y: auto;
+    }
+    .modal-overlay.open { display: flex; }
+    .modal-box {
+      background: var(--card); border: 1px solid var(--border); border-radius: 12px;
+      max-width: 640px; width: 100%; max-height: 85vh; display: flex; flex-direction: column;
+    }
+    .modal-header {
+      display: flex; justify-content: space-between; align-items: flex-start;
+      padding: 16px 20px; border-bottom: 1px solid var(--border); gap: 12px;
+    }
+    .modal-header h2 { font-size: .95rem; color: var(--accent); }
+    .modal-header p { font-size: .75rem; color: var(--muted); margin-top: 3px; }
+    .modal-close {
+      background: transparent; border: none; color: var(--muted); font-size: 1.3rem;
+      cursor: pointer; line-height: 1; padding: 0 4px;
+    }
+    .modal-close:hover { color: var(--text); }
+    .modal-body { overflow-y: auto; padding: 12px 20px 20px; }
+    .modal-body table { width: 100%; border-collapse: collapse; font-size: .82rem; }
+    .modal-body th {
+      text-align: left; color: var(--muted); font-size: .68rem; text-transform: uppercase;
+      letter-spacing: .05em; padding: 6px 8px; position: sticky; top: 0; background: var(--card);
+    }
+    .modal-body td { padding: 6px 8px; border-top: 1px solid var(--border); }
+    .mov-badge {
+      display: inline-block; border-radius: 20px; padding: 1px 9px; font-size: .7rem; font-weight: 700;
+    }
+    .mov-entrada { background: rgba(34,197,94,.15); color: var(--green); }
+    .mov-saida { background: rgba(239,68,68,.15); color: var(--red); }
 
     @media (max-width: 640px) {
       body { padding: 12px; }
@@ -164,8 +204,52 @@
   </table>
 </div>
 
+<div class="modal-overlay" id="modal-timeline" onclick="if(event.target===this) fecharLinhaDoTempo()">
+  <div class="modal-box">
+    <div class="modal-header">
+      <div>
+        <h2 id="modal-titulo">Linha do tempo</h2>
+        <p id="modal-sub">—</p>
+      </div>
+      <button class="modal-close" onclick="fecharLinhaDoTempo()">✕</button>
+    </div>
+    <div class="modal-body">
+      <table>
+        <thead>
+          <tr><th>Data</th><th>Tipo</th><th style="text-align:right">Qtd</th><th style="text-align:right">Saldo Após</th></tr>
+        </thead>
+        <tbody id="modal-tbody"></tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
 <script>
 const DATA = typeof ESTOQUE_DATA !== 'undefined' ? ESTOQUE_DATA : null;
+const MOV_DATA = typeof ESTOQUE_MOVIMENTACAO_DATA !== 'undefined' ? ESTOQUE_MOVIMENTACAO_DATA : null;
+
+function abrirLinhaDoTempo(empresa, codfilial, codprod, descricao) {
+  const chave = `${empresa}|${codfilial}|${codprod}`;
+  const linhas = MOV_DATA && MOV_DATA.movimentos ? (MOV_DATA.movimentos[chave] || []) : [];
+  document.getElementById('modal-titulo').textContent = descricao || 'Linha do tempo';
+  document.getElementById('modal-sub').textContent = MOV_DATA
+    ? `Cód. ${codprod} · ${empresa}/filial ${codfilial} · últimos ${MOV_DATA.dias_janela} dias · atualizado ${MOV_DATA.atualizado_em}`
+    : 'Dados de movimentação não encontrados.';
+  document.getElementById('modal-tbody').innerHTML = linhas.length
+    ? linhas.map(m => `
+      <tr>
+        <td>${_esc(m.data)}</td>
+        <td><span class="mov-badge ${m.tipo === 'ENTRADA' ? 'mov-entrada' : 'mov-saida'}">${m.tipo === 'ENTRADA' ? '↓ Entrada' : '↑ Saída'}</span></td>
+        <td class="qtd">${fmtNum(m.qt)}</td>
+        <td class="qtd">${fmtNum(m.saldo_apos)}</td>
+      </tr>`).join('')
+    : '<tr><td colspan="4" class="empty">Sem movimentação registrada no período.</td></tr>';
+  document.getElementById('modal-timeline').classList.add('open');
+}
+
+function fecharLinhaDoTempo() {
+  document.getElementById('modal-timeline').classList.remove('open');
+}
 let _ordem = { campo: 'descricao', asc: true };
 
 if (!DATA) {
@@ -273,6 +357,7 @@ function aplicarFiltro() {
       <td>
         <div class="produto-desc">${_esc(p.descricao)}${p.foralinha ? '<span class="tag-fora-linha">FORA DE LINHA</span>' : ''}</div>
         <div class="produto-sub cod">${p.codprod}${p.fantasia ? ' · ' + _esc(p.fantasia) : ''}</div>
+        <button class="btn-timeline" onclick="abrirLinhaDoTempo('${p.empresa}','${p.codfilial}','${p.codprod}','${_esc(p.descricao).replace(/'/g,"\\'")}')">🕒 Linha do tempo</button>
       </td>
       <td class="hide-mob" style="color:var(--muted)">${_esc(p.fornecedor)}</td>
       <td class="hide-mob" style="color:var(--muted);font-size:.78rem">${_esc(p.departamento)}${p.secao ? ' / ' + _esc(p.secao) : ''}</td>
