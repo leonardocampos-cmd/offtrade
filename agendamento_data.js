@@ -6329,7 +6329,7 @@ const AGENDAMENTO_DATA = {
           "cliente": "KAUE ALVES DA SILVA",
           "cnpj": "63.529.210/0001-91",
           "filial": "OSWALDO CRUZ",
-          "valor": 71010.0,
+          "valor": 94680.0,
           "nf": "",
           "data_agendamento": "24/08/2026",
           "data_ord": "2026-08-24",
@@ -16043,6 +16043,20 @@ const AGENDAMENTO_DATA = {
       "nome": "GISELLE BARFER - OFF TRADE",
       "itens": [
         {
+          "codigo_cliente": "80460",
+          "cliente": "TMT COMERCIO E DISTRIBUICAO DE ALIMENTOS E BEBIDAS LTDA",
+          "cnpj": "57.531.339/0001-31",
+          "filial": "MACAE",
+          "valor": 19764.0,
+          "nf": "",
+          "data_agendamento": "22/08/2026",
+          "data_ord": "2026-08-22",
+          "status": "A FATURAR",
+          "obs": "EMBARCAR AS CAIXAS ORIGINAIS E ÍNTEGRAS.",
+          "status_logistica": "",
+          "justificativa_logistica": ""
+        },
+        {
           "codigo_cliente": "80238",
           "cliente": "SERRANA COMERCIO DE BEBIDAS LTDA",
           "cnpj": "13.835.708/0001-04",
@@ -17529,6 +17543,20 @@ const AGENDAMENTO_DATA = {
       "nome": "LEANDRO SOUZA - OFF TRADE",
       "itens": [
         {
+          "codigo_cliente": "91993",
+          "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
+          "cnpj": "05.546.194/0025-16",
+          "filial": "COELHO NETO",
+          "valor": 431.4,
+          "nf": "",
+          "data_agendamento": "24/08/2026",
+          "data_ord": "2026-08-24",
+          "status": "A FATURAR",
+          "obs": "Caixas e rótulos íntegros; Bonificação",
+          "status_logistica": "",
+          "justificativa_logistica": ""
+        },
+        {
           "codigo_cliente": "90820",
           "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
           "cnpj": "08.628.825/0001-67",
@@ -17711,16 +17739,16 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "91993",
-          "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
-          "cnpj": "05.546.194/0025-16",
-          "filial": "COELHO NETO",
-          "valor": 431.4,
+          "codigo_cliente": "80355",
+          "cliente": "BOM DE PRECO COMERCIO - REDE ECONOMIA",
+          "cnpj": "18.322.565/0006-65",
+          "filial": "SÃO GONÇALO",
+          "valor": 509.4,
           "nf": "",
-          "data_agendamento": "21/08/2026",
-          "data_ord": "2026-08-21",
+          "data_agendamento": "24/08/2026",
+          "data_ord": "2026-08-24",
           "status": "A FATURAR",
-          "obs": "Caixas e rótulos íntegros; Bonificação",
+          "obs": "CONTATO 21974318449 (VITORIA)",
           "status_logistica": "",
           "justificativa_logistica": ""
         },
@@ -22892,6 +22920,34 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
+          "codigo_cliente": "74407",
+          "cliente": "DOM ATACAREJO SA",
+          "cnpj": "31.698.759/0012-76",
+          "filial": "PRAIA DA CHACARA (ANGRA II)",
+          "valor": 7016.4,
+          "nf": "7070",
+          "data_agendamento": "24/08/2026",
+          "data_ord": "2026-08-24",
+          "status": "FATURADO",
+          "obs": "CARGA SECA BATIDA - CANHOTO ASSINADO \nELETRONICAMENTE",
+          "status_logistica": "",
+          "justificativa_logistica": ""
+        },
+        {
+          "codigo_cliente": "84034",
+          "cliente": "EMISE SUPERMERCADO LTDA",
+          "cnpj": "17.659.742/0002-07",
+          "filial": "BARRA MANSA",
+          "valor": 328.32,
+          "nf": "",
+          "data_agendamento": "24/08/2026",
+          "data_ord": "2026-08-24",
+          "status": "A FATURAR",
+          "obs": "ROTA DE VIAGEM",
+          "status_logistica": "",
+          "justificativa_logistica": ""
+        },
+        {
           "codigo_cliente": "60844",
           "cliente": "DOM ATACAREJO SA",
           "cnpj": "31.698.759/0004-66",
@@ -22944,20 +23000,6 @@ const AGENDAMENTO_DATA = {
           "data_ord": "2026-08-24",
           "status": "A FATURAR",
           "obs": "",
-          "status_logistica": "",
-          "justificativa_logistica": ""
-        },
-        {
-          "codigo_cliente": "84034",
-          "cliente": "EMISE SUPERMERCADO LTDA",
-          "cnpj": "17.659.742/0002-07",
-          "filial": "BARRA MANSA",
-          "valor": 328.32,
-          "nf": "",
-          "data_agendamento": "21/08/2026",
-          "data_ord": "2026-08-21",
-          "status": "A FATURAR",
-          "obs": "ROTA DE VIAGEM",
           "status_logistica": "",
           "justificativa_logistica": ""
         },
@@ -23238,20 +23280,6 @@ const AGENDAMENTO_DATA = {
           "data_ord": "2026-08-06",
           "status": "FATURADO",
           "obs": "CARGA SECA BATIDA - CANHOTO ASSINADO ELETRONICAMENTE",
-          "status_logistica": "",
-          "justificativa_logistica": ""
-        },
-        {
-          "codigo_cliente": "74407",
-          "cliente": "DOM ATACAREJO SA",
-          "cnpj": "31.698.759/0012-76",
-          "filial": "PRAIA DA CHACARA (ANGRA II)",
-          "valor": 7016.4,
-          "nf": "7070",
-          "data_agendamento": "06/08/2026",
-          "data_ord": "2026-08-06",
-          "status": "FATURADO",
-          "obs": "CARGA SECA BATIDA - CANHOTO ASSINADO \nELETRONICAMENTE",
           "status_logistica": "",
           "justificativa_logistica": ""
         },
@@ -26090,6 +26118,20 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
+          "codigo_cliente": "72989",
+          "cliente": "ARMAZEM DO PEN - GUARATIBA",
+          "cnpj": "41.473.025/0001-90",
+          "filial": "GUARATIBA",
+          "valor": 441.0,
+          "nf": "",
+          "data_agendamento": "24/08/2026",
+          "data_ord": "2026-08-24",
+          "status": "A FATURAR",
+          "obs": "",
+          "status_logistica": "",
+          "justificativa_logistica": ""
+        },
+        {
           "codigo_cliente": "90148",
           "cliente": "MATHEUS FONSECA",
           "cnpj": "54.789.676/0001-35",
@@ -26876,7 +26918,7 @@ const AGENDAMENTO_DATA = {
       ]
     }
   ],
-  "atualizado_em": "21/08/2026 16:28",
+  "atualizado_em": "21/08/2026 17:16",
   "comparativo": [
     {
       "msg_id": "1a01bc9a975c4cab",
