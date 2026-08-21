@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_mg.py
 
 const NAO_POS_MG_DATA = {
-  "atualizado_em": "20/08/2026 17:26",
+  "atualizado_em": "21/08/2026 13:39",
   "por_vendedor": {
     "BRUNA CASTRO MELLO": [
       {
@@ -760,9 +760,9 @@ const NAO_POS_MG_DATA = {
         "produtos": []
       },
       {
-        "codcli": "39829",
+        "codcli": "39830",
         "cliente": "MAGLIONI RIBEIRO & CIA LTDA",
-        "bairro": "CENTRO",
+        "bairro": "BOM RECANTO",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -777,6 +777,13 @@ const NAO_POS_MG_DATA = {
         "codcli": "39817",
         "cliente": "MAGLIONI RIBEIRO & CIA LTDA",
         "bairro": "CENTRO",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "39866",
+        "cliente": "MAGLIONI RIBEIRO & CIA LTDA",
+        "bairro": "BOM PASTOR",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -830,16 +837,16 @@ const NAO_POS_MG_DATA = {
         "produtos": []
       },
       {
-        "codcli": "39823",
+        "codcli": "39833",
         "cliente": "MAGLIONI RIBEIRO & CIA LTDA",
-        "bairro": "CENTRO",
+        "bairro": "JARDIM BERNADETE",
         "dtultcomp": "nan",
         "produtos": []
       },
       {
-        "codcli": "39833",
+        "codcli": "39828",
         "cliente": "MAGLIONI RIBEIRO & CIA LTDA",
-        "bairro": "JARDIM BERNADETE",
+        "bairro": "CENTRO",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -851,16 +858,16 @@ const NAO_POS_MG_DATA = {
         "produtos": []
       },
       {
-        "codcli": "39837",
+        "codcli": "39823",
         "cliente": "MAGLIONI RIBEIRO & CIA LTDA",
         "bairro": "CENTRO",
         "dtultcomp": "nan",
         "produtos": []
       },
       {
-        "codcli": "39830",
+        "codcli": "39829",
         "cliente": "MAGLIONI RIBEIRO & CIA LTDA",
-        "bairro": "BOM RECANTO",
+        "bairro": "CENTRO",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -872,13 +879,6 @@ const NAO_POS_MG_DATA = {
         "produtos": []
       },
       {
-        "codcli": "39834",
-        "cliente": "MAGLIONI RIBEIRO & CIA LTDA",
-        "bairro": "NOSSA SENHORA DE FÁTIMA",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
         "codcli": "39831",
         "cliente": "MAGLIONI RIBEIRO & CIA LTDA",
         "bairro": "JARDIM SÃO CARLOS",
@@ -886,7 +886,14 @@ const NAO_POS_MG_DATA = {
         "produtos": []
       },
       {
-        "codcli": "39828",
+        "codcli": "39834",
+        "cliente": "MAGLIONI RIBEIRO & CIA LTDA",
+        "bairro": "NOSSA SENHORA DE FÁTIMA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "39837",
         "cliente": "MAGLIONI RIBEIRO & CIA LTDA",
         "bairro": "CENTRO",
         "dtultcomp": "nan",
@@ -1374,38 +1381,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "30262",
-        "cliente": "RESTAURANTE CANTO DO BURITIS LTDA",
-        "bairro": "BURITIS",
-        "dtultcomp": "11/06/2026",
-        "produtos": [
-          {
-            "produto": "WHISKY JIM BEAM APPLE 1L",
-            "fantasia": "BEAM SUNTORY",
-            "qt": 1,
-            "valor": 89.9
-          },
-          {
-            "produto": "WHISKY JIM BEAM CHERRY 1L",
-            "fantasia": "BEAM SUNTORY",
-            "qt": 1,
-            "valor": 89.9
-          },
-          {
-            "produto": "WHISKY JIM BEAM HONEY 1L",
-            "fantasia": "BEAM SUNTORY",
-            "qt": 1,
-            "valor": 89.9
-          },
-          {
-            "produto": "WHISKY JIM BEAM WHITE 1L",
-            "fantasia": "BEAM SUNTORY",
-            "qt": 1,
-            "valor": 89.9
-          }
-        ]
-      },
-      {
         "codcli": "39221",
         "cliente": "HENRIQUE PEREIRA FURTADO",
         "bairro": "PAMPULHA",
@@ -1612,26 +1587,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "33014",
-        "cliente": "ER COZINHA ARTESANAL LTDA",
-        "bairro": "LOURDES",
-        "dtultcomp": "18/06/2026",
-        "produtos": [
-          {
-            "produto": "YVY DESTILADO GIN AR LT 710ML",
-            "fantasia": "YVY",
-            "qt": 4,
-            "valor": 159.6
-          },
-          {
-            "produto": "YVY DESTILADO GIN MAR  LT 710ML",
-            "fantasia": "YVY",
-            "qt": 4,
-            "valor": 159.6
-          }
-        ]
-      },
-      {
         "codcli": "32871",
         "cliente": "ER COZINHA ARTESANAL LTDA",
         "bairro": "VILA DA SERRA",
@@ -1648,6 +1603,26 @@ const NAO_POS_MG_DATA = {
             "fantasia": "YVY",
             "qt": 6,
             "valor": 239.4
+          }
+        ]
+      },
+      {
+        "codcli": "33014",
+        "cliente": "ER COZINHA ARTESANAL LTDA",
+        "bairro": "LOURDES",
+        "dtultcomp": "18/06/2026",
+        "produtos": [
+          {
+            "produto": "YVY DESTILADO GIN AR LT 710ML",
+            "fantasia": "YVY",
+            "qt": 4,
+            "valor": 159.6
+          },
+          {
+            "produto": "YVY DESTILADO GIN MAR  LT 710ML",
+            "fantasia": "YVY",
+            "qt": 4,
+            "valor": 159.6
           }
         ]
       },
@@ -2780,20 +2755,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "36006",
-        "cliente": "CAMP NOU ARENA LTDA",
-        "bairro": "PALMEIRAS",
-        "dtultcomp": "30/07/2026",
-        "produtos": [
-          {
-            "produto": "RED BULL ZERO 24X250ML",
-            "fantasia": "RED BULL",
-            "qt": 2,
-            "valor": 359.52
-          }
-        ]
-      },
-      {
         "codcli": "33617",
         "cliente": "CERVEJARIA COLDER INDUSTRIA E COMERCIO LTDA",
         "bairro": "CENTRO",
@@ -3241,6 +3202,26 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
+        "codcli": "38043",
+        "cliente": "SUPERMERCADO SERRA DO CIPO LTDA",
+        "bairro": "CARDEAL MOTA",
+        "dtultcomp": "06/05/2026",
+        "produtos": [
+          {
+            "produto": "GIN GORDONS 750 ML",
+            "fantasia": "DIAGEO",
+            "qt": 6,
+            "valor": 329.4
+          },
+          {
+            "produto": "SMIRNOFF ICE -24 UNIDADES (LONG  NECK)",
+            "fantasia": "DIAGEO",
+            "qt": 20,
+            "valor": 2395.2
+          }
+        ]
+      },
+      {
         "codcli": "37627",
         "cliente": "PARANAIBA JABOTICATUBAS ALIMENTOS LTDA",
         "bairro": "SÃO BENEDITO",
@@ -3271,6 +3252,44 @@ const NAO_POS_MG_DATA = {
             "fantasia": "PERNOD",
             "qt": 48,
             "valor": 2400.0
+          }
+        ]
+      },
+      {
+        "codcli": "29386",
+        "cliente": "SUPERMERCADO PARANAIBA JARDIM ITAU LTDA",
+        "bairro": "PARQUE JARDIM ITAÚ",
+        "dtultcomp": "05/06/2026",
+        "produtos": [
+          {
+            "produto": "PURE MONIN FRUTAS VERMELHAS 330ML",
+            "fantasia": "MONIN",
+            "qt": 3,
+            "valor": 68.7
+          },
+          {
+            "produto": "PURE MONIN MAÇA VERDE 330ML",
+            "fantasia": "MONIN",
+            "qt": 3,
+            "valor": 68.7
+          },
+          {
+            "produto": "XAROPE  MONIN TANGERINA 330 ML",
+            "fantasia": "MONIN",
+            "qt": 3,
+            "valor": 68.7
+          },
+          {
+            "produto": "XAROPE MONIN MARACUJA 330 ML",
+            "fantasia": "MONIN",
+            "qt": 3,
+            "valor": 68.7
+          },
+          {
+            "produto": "XAROPE MONIN MORANGO 330 ML",
+            "fantasia": "MONIN",
+            "qt": 3,
+            "valor": 68.7
           }
         ]
       },
@@ -4003,26 +4022,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "HEINEKEN",
             "qt": 2,
             "valor": 436.32
-          }
-        ]
-      },
-      {
-        "codcli": "29386",
-        "cliente": "SUPERMERCADO PARANAIBA JARDIM ITAU LTDA",
-        "bairro": "PARQUE JARDIM ITAÚ",
-        "dtultcomp": "28/07/2026",
-        "produtos": [
-          {
-            "produto": "AMARULA C LIQUEUR 750 ML",
-            "fantasia": "AURORA",
-            "qt": 3,
-            "valor": 329.7
-          },
-          {
-            "produto": "MARTINI BIANCO 750 ML",
-            "fantasia": "BACARDI-MARTINI ",
-            "qt": 6,
-            "valor": 227.4
           }
         ]
       },
@@ -4934,20 +4933,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "DIAGEO",
             "qt": 24,
             "valor": 588.0
-          }
-        ]
-      },
-      {
-        "codcli": "38983",
-        "cliente": "COMERCIAL REIS LTDA",
-        "bairro": "NOVA VISTA",
-        "dtultcomp": "22/07/2026",
-        "produtos": [
-          {
-            "produto": "CACHACA BOAZINHA 1000ML",
-            "fantasia": "SELETA",
-            "qt": 12,
-            "valor": 442.8
           }
         ]
       },
