@@ -1,7 +1,7 @@
 // Gerado automaticamente por exportacao_comissao.py — ESTIMATIVA, não é a apuração oficial
 
 const COMISSAO_DATA = {
-  "atualizado_em": "21/08/2026 16:34",
+  "atualizado_em": "21/08/2026 17:23",
   "mes_referencia": "08/2026",
   "pct_premio_taxa": 0.015,
   "vendedores": [
@@ -267,10 +267,10 @@ const COMISSAO_DATA = {
         {
           "label": "FATURAMENTO",
           "meta": 65000.0,
-          "realizado": 35250.09,
+          "realizado": 35615.69,
           "peso": 0.1,
-          "ating_meta": 0.542309,
-          "ating_acumulado": 0.054231
+          "ating_meta": 0.547934,
+          "ating_acumulado": 0.054793
         },
         {
           "label": "FATURAMENTO PERNOD",
@@ -377,14 +377,14 @@ const COMISSAO_DATA = {
           "ating_acumulado": 0.004167
         }
       ],
-      "ating_acumulado_total": 0.496911,
-      "pct_premio": 0.00745366,
+      "ating_acumulado_total": 0.497473,
+      "pct_premio": 0.0074621,
       "liq_rigarr": 33534.64,
       "fat_castas": 1435.8,
       "teto_comissao": 2000.0,
-      "com_rigarr": 993.82,
-      "com_castas": 10.7,
-      "comissao_estimada": 1004.52
+      "com_rigarr": 994.95,
+      "com_castas": 10.71,
+      "comissao_estimada": 1005.66
     },
     {
       "nome": "FABIO VALOTTI - OFF TRADE",
@@ -1283,10 +1283,10 @@ const COMISSAO_DATA = {
         {
           "label": "FATURAMENTO",
           "meta": 130000.0,
-          "realizado": 54023.79,
+          "realizado": 55794.69,
           "peso": 0.7,
-          "ating_meta": 0.415568,
-          "ating_acumulado": 0.290898
+          "ating_meta": 0.42919,
+          "ating_acumulado": 0.300433
         },
         {
           "label": "FATURAMENTO PERNOD",
@@ -1379,7 +1379,7 @@ const COMISSAO_DATA = {
         {
           "label": "POSITIVAÇÃO TATUZINHO",
           "meta": 0.0,
-          "realizado": 5,
+          "realizado": 6,
           "peso": 0.0,
           "ating_meta": 0.0,
           "ating_acumulado": 0.0
@@ -1393,14 +1393,14 @@ const COMISSAO_DATA = {
           "ating_acumulado": 0.0
         }
       ],
-      "ating_acumulado_total": 0.453704,
-      "pct_premio": 0.00680556,
+      "ating_acumulado_total": 0.463239,
+      "pct_premio": 0.00694858,
       "liq_rigarr": 23182.94,
       "fat_castas": 5945.5,
       "teto_comissao": null,
-      "com_rigarr": 157.77,
-      "com_castas": 40.46,
-      "comissao_estimada": 198.23
+      "com_rigarr": 161.09,
+      "com_castas": 41.31,
+      "comissao_estimada": 202.4
     },
     {
       "nome": "BARBARA CABRAL - OFF TRADE",
