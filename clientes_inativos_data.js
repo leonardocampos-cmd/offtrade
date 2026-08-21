@@ -1,7 +1,7 @@
 // Gerado automaticamente
 
 const INATIVOS_DATA = {
-  "atualizado_em": "21/08/2026 16:44",
+  "atualizado_em": "21/08/2026 17:31",
   "por_vendedor": {
     "ADEILSON GONÇALVEZ - OFF TRADE": {
       "rca": "431",
@@ -15246,6 +15246,15 @@ const INATIVOS_DATA = {
           "dtultcomp": "21/07/2026",
           "dias": 31,
           "media": 159.52
+        },
+        {
+          "codcli": "51906",
+          "cliente": "48.782.513 JENNIFER STEFANNI DE PAULA DA SILVA",
+          "bairro": "PARQUE BOTURUSSU",
+          "cidade": "SAO PAULO",
+          "dtultcomp": "22/07/2026",
+          "dias": 30,
+          "media": 93.27
         }
       ],
       "novos": [
@@ -15356,6 +15365,15 @@ const INATIVOS_DATA = {
           "media": 11478.0
         },
         {
+          "codcli": "50897",
+          "cliente": "REDE SUPERMERCADOS CONFIANCA LTDA",
+          "bairro": "JARDIM PERI",
+          "cidade": "SAO PAULO",
+          "dtultcomp": "09/06/2026",
+          "dias": 73,
+          "media": 529.4
+        },
+        {
           "codcli": "50903",
           "cliente": "REDE SUPERMERCADOS CONFIANCA LTDA",
           "bairro": "PARQUE NOVO MUNDO",
@@ -15372,15 +15390,6 @@ const INATIVOS_DATA = {
           "dtultcomp": "09/06/2026",
           "dias": 73,
           "media": 659.2
-        },
-        {
-          "codcli": "50897",
-          "cliente": "REDE SUPERMERCADOS CONFIANCA LTDA",
-          "bairro": "JARDIM PERI",
-          "cidade": "SAO PAULO",
-          "dtultcomp": "09/06/2026",
-          "dias": 73,
-          "media": 529.4
         },
         {
           "codcli": "49376",
@@ -15437,15 +15446,6 @@ const INATIVOS_DATA = {
           "media": 12882.3
         },
         {
-          "codcli": "23845",
-          "cliente": "GRUPO FARTURA DE HORTIFRUT S.A.",
-          "bairro": "PARQUE BANDEIRANTES I (NOVA VENEZA)",
-          "cidade": "SUMARE",
-          "dtultcomp": "22/07/2026",
-          "dias": 30,
-          "media": 47887.4
-        },
-        {
           "codcli": "33273",
           "cliente": "SJX - COMERCIAL ATACADISTA DE MERCADORIAS LTDA.",
           "bairro": "VILA LEOPOLDINA",
@@ -15453,6 +15453,15 @@ const INATIVOS_DATA = {
           "dtultcomp": "22/07/2026",
           "dias": 30,
           "media": 5543.03
+        },
+        {
+          "codcli": "23845",
+          "cliente": "GRUPO FARTURA DE HORTIFRUT S.A.",
+          "bairro": "PARQUE BANDEIRANTES I (NOVA VENEZA)",
+          "cidade": "SUMARE",
+          "dtultcomp": "22/07/2026",
+          "dias": 30,
+          "media": 47887.4
         }
       ],
       "novos": []
