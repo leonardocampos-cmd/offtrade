@@ -1,7 +1,7 @@
 // Gerado automaticamente
 
 const GERENTES_DATA = {
-  "atualizado_em": "21/08/2026 16:08",
+  "atualizado_em": "21/08/2026 16:56",
   "meses": [
     "Ago/26",
     "Jul/26",
@@ -35,8 +35,8 @@ const GERENTES_DATA = {
           "qt": 36396
         },
         "Ago/26": {
-          "fat": 651260.64,
-          "qt": 8139
+          "fat": 651596.16,
+          "qt": 8141
         }
       },
       "gerentes": [
@@ -47,8 +47,8 @@ const GERENTES_DATA = {
           ],
           "por_mes": {
             "Ago/26": {
-              "fat": 20678.2,
-              "qt": 179
+              "fat": 21013.72,
+              "qt": 181
             }
           },
           "supervisores": [
@@ -59,8 +59,8 @@ const GERENTES_DATA = {
               ],
               "por_mes": {
                 "Ago/26": {
-                  "fat": 20678.2,
-                  "qt": 179
+                  "fat": 21013.72,
+                  "qt": 181
                 }
               },
               "vendedores": [
@@ -70,8 +70,8 @@ const GERENTES_DATA = {
                   "estado": "ES",
                   "por_mes": {
                     "Ago/26": {
-                      "fat": 15876.2,
-                      "qt": 102
+                      "fat": 16211.72,
+                      "qt": 104
                     }
                   }
                 },
@@ -893,8 +893,8 @@ const GERENTES_DATA = {
           "qt": 29120
         },
         "Jul/26": {
-          "fat": 2803592.89,
-          "qt": 50501
+          "fat": 2801301.61,
+          "qt": 50474
         },
         "Jun/26": {
           "fat": 3026624.24,
@@ -1568,8 +1568,8 @@ const GERENTES_DATA = {
               "qt": 13029
             },
             "Jul/26": {
-              "fat": 493611.18,
-              "qt": 8827
+              "fat": 491319.9,
+              "qt": 8800
             },
             "Jun/26": {
               "fat": 465782.9,
@@ -1600,8 +1600,8 @@ const GERENTES_DATA = {
                   "qt": 13029
                 },
                 "Jul/26": {
-                  "fat": 493611.18,
-                  "qt": 8827
+                  "fat": 491319.9,
+                  "qt": 8800
                 },
                 "Jun/26": {
                   "fat": 465782.9,
@@ -1678,8 +1678,8 @@ const GERENTES_DATA = {
                       "qt": 1346
                     },
                     "Jul/26": {
-                      "fat": 272973.19,
-                      "qt": 4665
+                      "fat": 270681.91,
+                      "qt": 4638
                     },
                     "Jun/26": {
                       "fat": 228665.44,
@@ -1789,8 +1789,8 @@ const GERENTES_DATA = {
           "qt": 122235
         },
         "Ago/26": {
-          "fat": 5185551.98,
-          "qt": 144936
+          "fat": 5208394.42,
+          "qt": 145615
         },
         "Jul/26": {
           "fat": 8136942.45,
@@ -1951,8 +1951,8 @@ const GERENTES_DATA = {
               "qt": 60405
             },
             "Ago/26": {
-              "fat": 3141960.41,
-              "qt": 81462
+              "fat": 3164802.85,
+              "qt": 82141
             },
             "Jul/26": {
               "fat": 5497652.28,
@@ -1983,8 +1983,8 @@ const GERENTES_DATA = {
                   "qt": 29594
                 },
                 "Ago/26": {
-                  "fat": 495674.75,
-                  "qt": 9547
+                  "fat": 508438.87,
+                  "qt": 10079
                 },
                 "Jul/26": {
                   "fat": 1369380.14,
@@ -2353,8 +2353,8 @@ const GERENTES_DATA = {
                   "estado": "SP",
                   "por_mes": {
                     "Ago/26": {
-                      "fat": 64542.17,
-                      "qt": 2324
+                      "fat": 77306.29,
+                      "qt": 2856
                     },
                     "Jul/26": {
                       "fat": 138644.23,
@@ -2379,8 +2379,8 @@ const GERENTES_DATA = {
                   "qt": 16015
                 },
                 "Ago/26": {
-                  "fat": 1284000.6,
-                  "qt": 31032
+                  "fat": 1285499.7,
+                  "qt": 31071
                 },
                 "Jul/26": {
                   "fat": 2512783.55,
@@ -2566,8 +2566,8 @@ const GERENTES_DATA = {
                       "qt": 132
                     },
                     "Ago/26": {
-                      "fat": 19355.16,
-                      "qt": 587
+                      "fat": 20854.26,
+                      "qt": 626
                     },
                     "Jul/26": {
                       "fat": 34981.34,
@@ -2792,8 +2792,8 @@ const GERENTES_DATA = {
                   "qt": 20672
                 },
                 "Ago/26": {
-                  "fat": 1362285.06,
-                  "qt": 40883
+                  "fat": 1370864.28,
+                  "qt": 40991
                 },
                 "Jul/26": {
                   "fat": 1615488.59,
@@ -2880,8 +2880,8 @@ const GERENTES_DATA = {
                       "qt": 926
                     },
                     "Ago/26": {
-                      "fat": 94697.67,
-                      "qt": 1329
+                      "fat": 99657.69,
+                      "qt": 1389
                     },
                     "Jul/26": {
                       "fat": 129544.82,
@@ -3056,8 +3056,8 @@ const GERENTES_DATA = {
                   "estado": "SP",
                   "por_mes": {
                     "Ago/26": {
-                      "fat": 89109.88,
-                      "qt": 2619
+                      "fat": 91170.28,
+                      "qt": 2655
                     },
                     "Jul/26": {
                       "fat": 108390.76,
@@ -3304,8 +3304,8 @@ const GERENTES_DATA = {
                   "estado": "SP",
                   "por_mes": {
                     "Ago/26": {
-                      "fat": 89823.24,
-                      "qt": 2169
+                      "fat": 91382.04,
+                      "qt": 2181
                     },
                     "Jul/26": {
                       "fat": 179931.31,
