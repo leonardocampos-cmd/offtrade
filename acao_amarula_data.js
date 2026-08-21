@@ -1,5 +1,5 @@
 const ACAO_AMARULA_DATA = {
-  "atualizado_em": "20/08/2026 18:01",
+  "atualizado_em": "21/08/2026 13:24",
   "periodo": {
     "ini": "19/08/2026",
     "fim": "19/09/2026"

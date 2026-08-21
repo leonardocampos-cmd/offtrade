@@ -1,5 +1,5 @@
 const CRUSOE_DATA = {
-  "atualizado_em": "20/08/2026 18:01",
+  "atualizado_em": "21/08/2026 13:24",
   "periodo": {
     "ini": "01/07/2026",
     "fim": "31/08/2026"
@@ -2948,14 +2948,14 @@ const CRUSOE_DATA = {
         {
           "rca": 419,
           "vendedor": "Natali de Oliveira",
-          "pedidos": 18,
-          "positivacoes": 16,
-          "novos_skus": 18,
-          "faturamento": 2924.52,
-          "pontos_positivacao": 80,
-          "pontos_novos_skus": 72,
+          "pedidos": 17,
+          "positivacoes": 15,
+          "novos_skus": 17,
+          "faturamento": 2675.02,
+          "pontos_positivacao": 75,
+          "pontos_novos_skus": 68,
           "pontos_pedidos_valor": 0,
-          "pontos_total": 152,
+          "pontos_total": 143,
           "vendas": [
             {
               "numnota": "409254",
@@ -3338,31 +3338,6 @@ const CRUSOE_DATA = {
                   "produto": "RC ATUM RALADO NATURAL 24X140G",
                   "qt": 1.0,
                   "valor": 129.9,
-                  "pontuacoes": [
-                    {
-                      "tipo": "novo SKU",
-                      "pontos": 4
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "numnota": "421920",
-              "data": "17/08/2026",
-              "cliente": "45.589.600 JORGE GIL SILVA DE ANDRADE",
-              "valor_pedido": 249.5,
-              "eventos": [
-                {
-                  "tipo": "positivação (novo/reativação)",
-                  "pontos": 5
-                }
-              ],
-              "itens": [
-                {
-                  "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
-                  "qt": 1.0,
-                  "valor": 249.5,
                   "pontuacoes": [
                     {
                       "tipo": "novo SKU",
@@ -3816,6 +3791,129 @@ const CRUSOE_DATA = {
           ]
         },
         {
+          "rca": 144,
+          "vendedor": "Diogo Raposo",
+          "pedidos": 5,
+          "positivacoes": 1,
+          "novos_skus": 2,
+          "faturamento": 12055.2,
+          "pontos_positivacao": 5,
+          "pontos_novos_skus": 8,
+          "pontos_pedidos_valor": 5,
+          "pontos_total": 18,
+          "vendas": [
+            {
+              "numnota": "408373",
+              "data": "01/07/2026",
+              "cliente": "CENTRO DE EDUCACAO RELIGIOSA ISRAELITA",
+              "valor_pedido": 575.28,
+              "eventos": [
+                {
+                  "tipo": "pedido (R$500-1000)",
+                  "pontos": 1
+                }
+              ],
+              "itens": [
+                {
+                  "produto": "RC ATUM PEDACOS EM OLEO 24X140G",
+                  "qt": 3.0,
+                  "valor": 575.28,
+                  "pontuacoes": []
+                }
+              ]
+            },
+            {
+              "numnota": "411531",
+              "data": "13/07/2026",
+              "cliente": "CENTRO DE EDUCACAO RELIGIOSA ISRAELITA",
+              "valor_pedido": 575.28,
+              "eventos": [
+                {
+                  "tipo": "pedido (R$500-1000)",
+                  "pontos": 1
+                }
+              ],
+              "itens": [
+                {
+                  "produto": "RC ATUM PEDACOS EM OLEO 24X140G",
+                  "qt": 3.0,
+                  "valor": 575.28,
+                  "pontuacoes": []
+                }
+              ]
+            },
+            {
+              "numnota": "419098",
+              "data": "05/08/2026",
+              "cliente": "CENTRO DE EDUCACAO RELIGIOSA ISRAELITA",
+              "valor_pedido": 383.52,
+              "eventos": [],
+              "itens": [
+                {
+                  "produto": "RC ATUM PEDACOS NATURAL 24X140G",
+                  "qt": 2.0,
+                  "valor": 383.52,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 4
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "numnota": "419099",
+              "data": "05/08/2026",
+              "cliente": "CENTRO DE EDUCACAO RELIGIOSA ISRAELITA",
+              "valor_pedido": 383.52,
+              "eventos": [],
+              "itens": [
+                {
+                  "produto": "RC ATUM PEDACOS NATURAL 24X140G",
+                  "qt": 2.0,
+                  "valor": 383.52,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 4
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "numnota": "423528",
+              "data": "20/08/2026",
+              "cliente": "FORNERIA ORIGINAL COZINHA E COMESTIVEIS LTDA",
+              "valor_pedido": 10137.6,
+              "eventos": [
+                {
+                  "tipo": "pedido (acima de R$3001)",
+                  "pontos": 3
+                },
+                {
+                  "tipo": "positivação (novo/reativação)",
+                  "pontos": 5
+                }
+              ],
+              "itens": [
+                {
+                  "produto": "RC ATUM PEDACOS EM OLEO 24X140G",
+                  "qt": 60.0,
+                  "valor": 10137.6,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 4
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
           "rca": 450,
           "vendedor": "Leandro Souza",
           "pedidos": 2,
@@ -3967,100 +4065,6 @@ const CRUSOE_DATA = {
               ]
             }
           ]
-        },
-        {
-          "rca": 144,
-          "vendedor": "Diogo Raposo",
-          "pedidos": 4,
-          "positivacoes": 0,
-          "novos_skus": 1,
-          "faturamento": 1917.6,
-          "pontos_positivacao": 0,
-          "pontos_novos_skus": 4,
-          "pontos_pedidos_valor": 2,
-          "pontos_total": 6,
-          "vendas": [
-            {
-              "numnota": "408373",
-              "data": "01/07/2026",
-              "cliente": "CENTRO DE EDUCACAO RELIGIOSA ISRAELITA",
-              "valor_pedido": 575.28,
-              "eventos": [
-                {
-                  "tipo": "pedido (R$500-1000)",
-                  "pontos": 1
-                }
-              ],
-              "itens": [
-                {
-                  "produto": "RC ATUM PEDACOS EM OLEO 24X140G",
-                  "qt": 3.0,
-                  "valor": 575.28,
-                  "pontuacoes": []
-                }
-              ]
-            },
-            {
-              "numnota": "411531",
-              "data": "13/07/2026",
-              "cliente": "CENTRO DE EDUCACAO RELIGIOSA ISRAELITA",
-              "valor_pedido": 575.28,
-              "eventos": [
-                {
-                  "tipo": "pedido (R$500-1000)",
-                  "pontos": 1
-                }
-              ],
-              "itens": [
-                {
-                  "produto": "RC ATUM PEDACOS EM OLEO 24X140G",
-                  "qt": 3.0,
-                  "valor": 575.28,
-                  "pontuacoes": []
-                }
-              ]
-            },
-            {
-              "numnota": "419098",
-              "data": "05/08/2026",
-              "cliente": "CENTRO DE EDUCACAO RELIGIOSA ISRAELITA",
-              "valor_pedido": 383.52,
-              "eventos": [],
-              "itens": [
-                {
-                  "produto": "RC ATUM PEDACOS NATURAL 24X140G",
-                  "qt": 2.0,
-                  "valor": 383.52,
-                  "pontuacoes": [
-                    {
-                      "tipo": "novo SKU",
-                      "pontos": 4
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "numnota": "419099",
-              "data": "05/08/2026",
-              "cliente": "CENTRO DE EDUCACAO RELIGIOSA ISRAELITA",
-              "valor_pedido": 383.52,
-              "eventos": [],
-              "itens": [
-                {
-                  "produto": "RC ATUM PEDACOS NATURAL 24X140G",
-                  "qt": 2.0,
-                  "valor": 383.52,
-                  "pontuacoes": [
-                    {
-                      "tipo": "novo SKU",
-                      "pontos": 4
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
         }
       ]
     },
@@ -4078,10 +4082,10 @@ const CRUSOE_DATA = {
         {
           "rca": 431,
           "vendedor": "Adeilson Gonçalvez",
-          "clientes_gourmet": 6,
-          "faturamento": 7122.63,
-          "faturamento_gourmet": 1044.9,
-          "pontos_total": 6,
+          "clientes_gourmet": 5,
+          "faturamento": 6943.83,
+          "faturamento_gourmet": 866.1,
+          "pontos_total": 5,
           "vendas": [
             {
               "numnota": "410590",
@@ -4129,20 +4133,6 @@ const CRUSOE_DATA = {
               "numnota": "421959",
               "data": "17/08/2026",
               "cliente": "PADARIA PAO VIVO LTDA",
-              "produto": "RC PATE ATUM COM AZEITONAS 12X80G",
-              "qt": 1.0,
-              "valor": 178.8,
-              "pontuacoes": [
-                {
-                  "tipo": "cliente positivado (Linha Gourmet)",
-                  "pontos": 1
-                }
-              ]
-            },
-            {
-              "numnota": "422351",
-              "data": "17/08/2026",
-              "cliente": "BAR E RESTAURANTE 3 SIMOES LIMITADA",
               "produto": "RC PATE ATUM COM AZEITONAS 12X80G",
               "qt": 1.0,
               "valor": 178.8,
