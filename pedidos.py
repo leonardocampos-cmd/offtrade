@@ -86,6 +86,7 @@ def _query_pedidos(schema, extra_nomes=None, filiais=None):
     return f"""
         SELECT PED.NUMPED, PED.NUMNOTA, PED.NOME, PED.DATA, PED.CODUSUR, PED.CLIENTE, PED.STATUS,
                PED.DESCRICAO, PED.PVENDA, PED.QT, PED.QTFALTA, PED.TOTAL, PED.OBSENTREGA1, PC.OBSENTREGA2,
+               PC.NUMPEDCLI,
                PED.FUNC_CANCEL, PC.POSICAO, PC.MOTIVOPOSICAO, PC.VLBONIFIC, PED.CODPROD, PED.CODFILIAL,
                PED.FORNECEDOR, PED.FANTASIA_FORNEC,
                U.ESTADO AS ESTADO_VENDEDOR, S.NOME AS NOME_SUPERVISOR, G.NOMEGERENTE,
@@ -784,6 +785,13 @@ def _agrupar(df, com_status_log=False):
             # ambos.
             'obs':        _obs,
             'agendado':   _agendamento_texto(_obs),
+            # Número do pedido no sistema do próprio cliente (PCPEDC.NUMPEDCLI,
+            # texto livre digitado no Winthor) — pedido do usuário em
+            # 2026-08-19 depois de confirmar que o valor existe no ERP
+            # (ex: NUMPED 588003413/SPON, "3735/WENEO") mas não aparecia em
+            # nenhum campo já exibido (OBSENTREGA1/2 vinham vazios pra esse
+            # pedido).
+            'pedido_cliente': _s(r0.get('NUMPEDCLI')),
             'total':      round(float(grp['TOTAL'].sum()), 2),
             'itens': [
                 _item_pedido(sistema, numped, row)

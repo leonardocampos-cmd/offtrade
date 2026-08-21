@@ -1,0 +1,77 @@
+### journalctl -u l2tp-connect-sp.service --no-pager -n 30 2>&1
+Aug 13 15:32:55 srv1575382 systemd[1]: Starting l2tp-connect-sp.service - Conecta chamada L2TP redundancia-sp...
+Aug 13 15:33:00 srv1575382 systemd[1]: Finished l2tp-connect-sp.service - Conecta chamada L2TP redundancia-sp.
+
+
+### journalctl -u xl2tpd --no-pager -n 30 2>&1
+Aug 13 15:33:00 srv1575382 pppd[1289957]: rcvd [IPCP ConfNak id=0x2 <addr 192.168.250.21> <ms-dns1 192.168.250.1> <ms-dns2 8.8.8.8>]
+Aug 13 15:33:00 srv1575382 pppd[1289957]: sent [IPCP ConfReq id=0x3 <addr 192.168.250.21> <ms-dns1 192.168.250.1> <ms-dns2 8.8.8.8>]
+Aug 13 15:33:00 srv1575382 pppd[1289957]: rcvd [IPCP ConfAck id=0x3 <addr 192.168.250.21> <ms-dns1 192.168.250.1> <ms-dns2 8.8.8.8>]
+Aug 13 15:33:00 srv1575382 pppd[1289957]: Script /etc/ppp/ip-pre-up started (pid 1289964)
+Aug 13 15:33:00 srv1575382 pppd[1289957]: Script /etc/ppp/ip-pre-up finished (pid 1289964), status = 0x0
+Aug 13 15:33:00 srv1575382 pppd[1289957]: local  IP address 192.168.250.21
+Aug 13 15:33:00 srv1575382 pppd[1289957]: remote IP address 192.168.250.1
+Aug 13 15:33:00 srv1575382 pppd[1289957]: primary   DNS address 192.168.250.1
+Aug 13 15:33:00 srv1575382 pppd[1289957]: secondary DNS address 8.8.8.8
+Aug 13 15:33:00 srv1575382 pppd[1289957]: Script /etc/ppp/ip-up started (pid 1289967)
+Aug 13 15:33:00 srv1575382 castas-route[1289973]: rota 10.131.62.0/24 via ppp0 adicionada
+Aug 13 15:33:00 srv1575382 pppd[1289957]: Script /etc/ppp/ip-up finished (pid 1289967), status = 0x0
+Aug 14 13:34:04 srv1575382 xl2tpd[1289944]: check_control: Received out of order control packet on tunnel 96 (got 1322, expected 1323)
+Aug 14 13:34:04 srv1575382 xl2tpd[1289944]: handle_control: bad control packet!
+Aug 15 23:00:38 srv1575382 xl2tpd[1289944]: Maximum retries exceeded for tunnel 1614.  Closing.
+Aug 15 23:00:38 srv1575382 xl2tpd[1289944]: Terminating pppd: sending TERM signal to pid 1289957
+Aug 15 23:00:38 srv1575382 xl2tpd[1289944]: Connection 96 closed to 200.246.200.166, port 1701 (Timeout)
+Aug 15 23:00:38 srv1575382 pppd[1289957]: Modem hangup
+Aug 15 23:00:38 srv1575382 pppd[1289957]: Connect time 3327.7 minutes.
+Aug 15 23:00:38 srv1575382 pppd[1289957]: Sent 6084336 bytes, received 18867034 bytes.
+Aug 15 23:00:38 srv1575382 pppd[1289957]: Script /etc/ppp/ip-down started (pid 1430546)
+Aug 15 23:00:38 srv1575382 pppd[1289957]: Script /etc/ppp/ipv6-down started (pid 1430549)
+Aug 15 23:00:38 srv1575382 pppd[1289957]: Connection terminated.
+Aug 15 23:00:38 srv1575382 pppd[1289957]: Connect time 3327.7 minutes.
+Aug 15 23:00:38 srv1575382 pppd[1289957]: Sent 6084336 bytes, received 18867034 bytes.
+Aug 15 23:00:39 srv1575382 pppd[1289957]: Terminating on signal 15
+Aug 15 23:00:39 srv1575382 pppd[1289957]: Script /etc/ppp/ip-down finished (pid 1430546), status = 0x0
+Aug 15 23:00:39 srv1575382 pppd[1289957]: Script /etc/ppp/ipv6-down finished (pid 1430549), status = 0x0
+Aug 15 23:00:39 srv1575382 pppd[1289957]: Exit.
+Aug 15 23:01:09 srv1575382 xl2tpd[1289944]: Unable to deliver closing message for tunnel 1614. Destroying anyway.
+
+
+### journalctl -u strongswan-starter --no-pager -n 30 2>&1
+Aug 17 16:00:14 srv1575382 ipsec[1289908]: 16[NET] sending packet: from 2a02:4780:14:1ed5::1[4500] to 2a06:4880::4[20700] (36 bytes)
+Aug 17 16:00:14 srv1575382 ipsec[1289908]: 14[NET] received packet: from 2a06:4882:d000::ee[29981] to 2a02:4780:14:1ed5::1[4500] (580 bytes)
+Aug 17 16:00:14 srv1575382 ipsec[1289908]: 14[ENC] parsed IKE_SA_INIT request 0 [ SA KE No ]
+Aug 17 16:00:14 srv1575382 ipsec[1289908]: 14[IKE] no IKE config found for 2a02:4780:14:1ed5::1...2a06:4882:d000::ee, sending NO_PROPOSAL_CHOSEN
+Aug 17 16:00:14 srv1575382 ipsec[1289908]: 14[ENC] generating IKE_SA_INIT response 0 [ N(NO_PROP) ]
+Aug 17 16:00:14 srv1575382 ipsec[1289908]: 14[NET] sending packet: from 2a02:4780:14:1ed5::1[4500] to 2a06:4882:d000::ee[29981] (36 bytes)
+Aug 17 16:00:14 srv1575382 ipsec[1289908]: 07[NET] received packet: from 2a06:4882:d000::ee[29981] to 2a02:4780:14:1ed5::1[4500] (312 bytes)
+Aug 17 16:00:14 srv1575382 ipsec[1289908]: 07[ENC] parsed ID_PROT request 0 [ SA V ]
+Aug 17 16:00:14 srv1575382 ipsec[1289908]: 07[IKE] no IKE config found for 2a02:4780:14:1ed5::1...2a06:4882:d000::ee, sending NO_PROPOSAL_CHOSEN
+Aug 17 16:00:14 srv1575382 ipsec[1289908]: 07[ENC] generating INFORMATIONAL_V1 request 825179949 [ N(NO_PROP) ]
+Aug 17 16:00:14 srv1575382 ipsec[1289908]: 07[NET] sending packet: from 2a02:4780:14:1ed5::1[4500] to 2a06:4882:d000::ee[29981] (40 bytes)
+Aug 17 16:00:14 srv1575382 ipsec[1289908]: 15[NET] received packet: from 2a06:4882:d000::ee[29981] to 2a02:4780:14:1ed5::1[4500] (448 bytes)
+Aug 17 16:00:14 srv1575382 ipsec[1289908]: 15[ENC] parsed AGGRESSIVE request 0 [ SA KE No ID V ]
+Aug 17 16:00:14 srv1575382 ipsec[1289908]: 15[IKE] no IKE config found for 2a02:4780:14:1ed5::1...2a06:4882:d000::ee, sending NO_PROPOSAL_CHOSEN
+Aug 17 16:00:14 srv1575382 ipsec[1289908]: 15[ENC] generating INFORMATIONAL_V1 request 3468665908 [ N(NO_PROP) ]
+Aug 17 16:00:14 srv1575382 ipsec[1289908]: 15[NET] sending packet: from 2a02:4780:14:1ed5::1[4500] to 2a06:4882:d000::ee[29981] (40 bytes)
+Aug 17 16:00:14 srv1575382 ipsec[1289908]: 06[NET] received packet: from 2a06:4882:d000::e1[29783] to 2a02:4780:14:1ed5::1[500] (580 bytes)
+Aug 17 16:00:14 srv1575382 ipsec[1289908]: 06[ENC] parsed IKE_SA_INIT request 0 [ SA KE No ]
+Aug 17 16:00:14 srv1575382 ipsec[1289908]: 06[IKE] no IKE config found for 2a02:4780:14:1ed5::1...2a06:4882:d000::e1, sending NO_PROPOSAL_CHOSEN
+Aug 17 16:00:14 srv1575382 ipsec[1289908]: 06[ENC] generating IKE_SA_INIT response 0 [ N(NO_PROP) ]
+Aug 17 16:00:14 srv1575382 charon[1289908]: 04[NET] received packet: from 2a06:4882:d000::e1[29783] to 2a02:4780:14:1ed5::1[500] (312 bytes)
+Aug 17 16:00:14 srv1575382 charon[1289908]: 04[ENC] parsed ID_PROT request 0 [ SA V ]
+Aug 17 16:00:14 srv1575382 charon[1289908]: 04[IKE] no IKE config found for 2a02:4780:14:1ed5::1...2a06:4882:d000::e1, sending NO_PROPOSAL_CHOSEN
+Aug 17 16:00:14 srv1575382 charon[1289908]: 04[ENC] generating INFORMATIONAL_V1 request 1529523930 [ N(NO_PROP) ]
+Aug 17 16:00:14 srv1575382 charon[1289908]: 04[NET] sending packet: from 2a02:4780:14:1ed5::1[500] to 2a06:4882:d000::e1[29783] (40 bytes)
+Aug 17 16:00:14 srv1575382 charon[1289908]: 05[NET] received packet: from 2a06:4882:d000::e1[29783] to 2a02:4780:14:1ed5::1[500] (448 bytes)
+Aug 17 16:00:14 srv1575382 charon[1289908]: 05[ENC] parsed AGGRESSIVE request 0 [ SA KE No ID V ]
+Aug 17 16:00:14 srv1575382 charon[1289908]: 05[IKE] no IKE config found for 2a02:4780:14:1ed5::1...2a06:4882:d000::e1, sending NO_PROPOSAL_CHOSEN
+Aug 17 16:00:14 srv1575382 charon[1289908]: 05[ENC] generating INFORMATIONAL_V1 request 3106483943 [ N(NO_PROP) ]
+Aug 17 16:00:14 srv1575382 charon[1289908]: 05[NET] sending packet: from 2a02:4780:14:1ed5::1[500] to 2a06:4882:d000::e1[29783] (40 bytes)
+
+
+### ip a | grep -E "ppp|inet "
+    inet 127.0.0.1/8 scope host lo
+    inet 147.79.107.137/24 brd 147.79.107.255 scope global eth0
+    inet 172.17.0.1/16 brd 172.17.255.255 scope global docker0
+    inet 10.20.30.3/24 brd 10.20.30.255 scope global tun0
+

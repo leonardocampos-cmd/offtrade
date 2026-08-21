@@ -237,6 +237,21 @@ def main():
             print("[AVISO] campanha_crusoe falhou — ignorado, pipeline continua.")
             traceback.print_exc()
 
+        step("4/8 - Ação Amarula Off Trade (acao_amarula_data.js)")
+        try:
+            import subprocess, sys as _sys
+            result = subprocess.run(
+                [_sys.executable, "campanha_acao_amarula.py"],
+                capture_output=True, text=True, timeout=600
+            )
+            print(result.stdout)
+            if result.returncode != 0:
+                print("[AVISO] campanha_acao_amarula falhou — ignorado, pipeline continua.")
+                print(result.stderr)
+        except Exception:
+            print("[AVISO] campanha_acao_amarula falhou — ignorado, pipeline continua.")
+            traceback.print_exc()
+
         # Conferência de preços desativada a pedido do usuário em 2026-07-31.
         # Reativar descomentando o bloco abaixo quando for pedido novamente.
         # step("4/8 - Conferência de preços")
@@ -397,6 +412,21 @@ def main():
                 print(result.stderr)
         except Exception:
             print("[AVISO] exportacao_vendedores_auth falhou — ignorado, pipeline continua.")
+            traceback.print_exc()
+
+        step("8c - Promotoria: relatório Max Promotor (promotoria_data.js)")
+        try:
+            import subprocess, sys as _sys
+            result = subprocess.run(
+                [_sys.executable, "exportacao_promotoria.py"],
+                capture_output=True, text=True, timeout=600
+            )
+            print(result.stdout)
+            if result.returncode != 0:
+                print("[AVISO] exportacao_promotoria falhou — ignorado, pipeline continua.")
+                print(result.stderr)
+        except Exception:
+            print("[AVISO] exportacao_promotoria falhou — ignorado, pipeline continua.")
             traceback.print_exc()
 
         step("9/9 - Clientes inativos / sem compra / novos (clientes_inativos_data.js)")

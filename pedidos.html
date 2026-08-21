@@ -929,7 +929,7 @@ function aplicarFiltro() {
       <td class="hide-mob"><span class="rca-badge">${_esc((p.nome || '').replace(' - OFF TRADE',''))}</span></td>
       <td class="hide-mob">${_esc(p.estado)}</td>
       <td class="hide-mob">${_esc(p.cidade)}</td>
-      <td>${_esc(p.cliente)}${agendado ? ` <span class="badge-agendado">📅 ${agendado}</span>` : ''}${(_abaAtual === 'faturados' && p.tem_corte) ? ` <span class="badge-corte">✂ CORTE PARCIAL</span>` : ''}${(_abaAtual === 'faturados' && p.em_rota) ? ` <span class="badge-rota">🚚 EM ROTA${p.rota ? ': ' + _esc(p.rota) : ''}</span>` : ''}${(_abaAtual === 'faturados' && p.pago) ? ` <span class="badge-pago">💰 PAGO</span>` : ''}${_abaAtual === 'pedidos_feitos' ? _posicaoBadge(p.posicao) : ''}</td>
+      <td>${_esc(p.cliente)}${agendado ? ` <span class="badge-agendado">📅 ${agendado}</span>` : ''}${(_abaAtual === 'faturados' && p.tem_corte) ? ` <span class="badge-corte">✂ CORTE PARCIAL</span>` : ''}${(_abaAtual === 'faturados' && p.pago) ? ` <span class="badge-pago">💰 PAGO</span>` : ''}${_abaAtual === 'pedidos_feitos' ? _posicaoBadge(p.posicao) : ''}</td>
       ${abaInfo.colExtra ? `<td>${abaInfo.colExtra.render(p)}</td>` : ''}
       <td>${brl(_abaAtual === 'cancelados' ? p.valor_cortado_pedido : p.total)}</td>
     </tr>
@@ -982,10 +982,13 @@ function _montarItens(p) {
     : '';
   const motivo = p.motivo ? `<div style="margin-top:6px;color:var(--orange);font-size:.78rem">Motivo: ${_esc(p.motivo)}${precoMotivo}</div>` : '';
   const obs = p.obs ? `<div style="margin-top:6px;color:var(--muted);font-size:.78rem">Obs.: ${_esc(p.obs)}</div>` : '';
+  const pedidoCliente = (_abaAtual === 'faturados' && p.pedido_cliente)
+    ? `<div style="margin-top:6px;color:var(--muted);font-size:.78rem">Pedido Cliente: ${_esc(p.pedido_cliente)}</div>`
+    : '';
   return `<table class="itens-table">
     <thead><tr><th>Produto</th><th>Qtd</th><th>Valor</th></tr></thead>
     <tbody>${linhas}</tbody>
-  </table>${motivo}${obs}`;
+  </table>${motivo}${obs}${pedidoCliente}`;
 }
 
 function toggleItens(chave) {

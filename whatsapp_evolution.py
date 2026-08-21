@@ -10,6 +10,8 @@ dois direto via curl, depois que o endpoint /api/login-erro (que só roda
 na VPS) começou a retornar 400 "instance requires property textMessage"
 usando o formato flat que os outros scripts já usavam local com sucesso.
 """
+import base64
+import mimetypes
 import os
 
 import requests
@@ -29,3 +31,26 @@ def enviar_whatsapp(numero, mensagem):
     campo_texto = {"textMessage": {"text": mensagem}} if is_vps else {"text": mensagem}
     payload = {"number": numero, **campo_texto}
     return requests.post(url, json=payload, headers=headers, timeout=15)
+
+
+def enviar_whatsapp_imagem(numero, caminho_imagem, legenda=""):
+    """Envia imagem via sendMedia. Schema flat (local v2.3.7) confirmado nos
+    docs oficiais; schema aninhado da VPS (v1.8.7, 'mediaMessage': {...}) é
+    inferido por analogia ao mesmo padrão de enviar_whatsapp() acima
+    ('textMessage': {...}) — nunca testado na VPS, testar antes de usar em
+    produção lá."""
+    url = f"{os.getenv('EVOLUTION_BASE_URL', 'http://localhost:8083')}/message/sendMedia/{os.getenv('EVOLUTION_INSTANCE', 'bees')}"
+    headers = {"apikey": os.getenv("EVOLUTION_KEY", ""), "Content-Type": "application/json"}
+    is_vps = os.getenv("OFFTRADE_RUNTIME", "local") == "vps"
+    with open(caminho_imagem, "rb") as f:
+        media_b64 = base64.b64encode(f.read()).decode()
+    mimetype = mimetypes.guess_type(caminho_imagem)[0] or "image/jpeg"
+    campo_media = {
+        "mediatype": "image",
+        "mimetype": mimetype,
+        "media": media_b64,
+        "fileName": os.path.basename(caminho_imagem),
+        "caption": legenda,
+    }
+    payload = {"number": numero, "mediaMessage": campo_media} if is_vps else {"number": numero, **campo_media}
+    return requests.post(url, json=payload, headers=headers, timeout=30)

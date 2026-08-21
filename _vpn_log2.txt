@@ -1,0 +1,10 @@
+### xl2tpd recente
+-- No entries --
+
+### ip a
+    inet 127.0.0.1/8 scope host lo
+    inet 147.79.107.137/24 brd 147.79.107.255 scope global eth0
+    inet 172.17.0.1/16 brd 172.17.255.255 scope global docker0
+    inet 10.20.30.3/24 brd 10.20.30.255 scope global tun0
+
+### control

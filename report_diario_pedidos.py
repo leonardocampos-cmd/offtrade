@@ -22,7 +22,7 @@ import json
 import re
 import io
 import unicodedata
-from datetime import date, datetime, timedelta
+from datetime import date, datetime
 from email.mime.application import MIMEApplication
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
@@ -138,22 +138,6 @@ def _parse_agendamento(obs):
     except ValueError:
         return None
     return f'{dd}/{mm}/{yy}'
-
-
-def _filtrar_faturados_relatorio(pedidos):
-    """Report diário (ajustado em 2026-08-12): pedidos com status de entrega
-    (ENTREGUE/COMPROVADO/ENTREGA TOTAL — mesmo critério do badge verde em
-    pedidos.html) só entram se a entrega foi no dia anterior ('data_entrega',
-    ver pedidos.py) — senão o relatório reacumula toda entrega antiga já
-    resolvida. Pedidos com qualquer outro status (ainda sem desfecho: em
-    rota, aberto, cancelada, retorno, sem status...) entram sempre, sem
-    filtro de data, porque esses são os que ainda precisam de atenção. Só
-    afeta o report — pedidos.html continua mostrando tudo, sem esse filtro."""
-    ontem = (date.today() - timedelta(days=1)).strftime('%Y-%m-%d')
-    return [
-        p for p in pedidos
-        if not _eh_status_entregue(p.get('status_log')) or p.get('data_entrega') == ontem
-    ]
 
 
 def _dias_sem_entrega(status_log, agendamento_str):
@@ -282,7 +266,7 @@ def _resumo(tabelas_pedidos, cortados_filtrados):
             linhas.append({'Métrica': f'{aba} — Bloqueados', 'Valor': qtd_bloqueado})
         if aba == 'Faturados':
             qtd_entregues = sum(1 for p in pedidos if _eh_status_entregue(p.get('status_log')))
-            linhas.append({'Métrica': f'{aba} — Entregues (dia anterior)', 'Valor': qtd_entregues})
+            linhas.append({'Métrica': f'{aba} — Entregues', 'Valor': qtd_entregues})
 
             qtd_aberto = sum(1 for p in pedidos if (p.get('status_log') or '').strip().upper() == 'ABERTO')
             linhas.append({'Métrica': f'{aba} — Notas em Aberto', 'Valor': qtd_aberto})
@@ -320,8 +304,6 @@ def montar_tabelas(payload, estoque_idx, estado):
     tabelas_pedidos = []
     for chave, campo_extra, label_extra, aba in _ABAS_PEDIDOS:
         pedidos_filtrados = _filtrar_estado(payload.get(chave, []), estado)
-        if chave == 'faturados':
-            pedidos_filtrados = _filtrar_faturados_relatorio(pedidos_filtrados)
         tabelas_pedidos.append((aba, pedidos_filtrados))
 
     cortados_filtrados = _filtrar_estado(payload.get('produtos_cortados', []), estado)
@@ -859,7 +841,7 @@ function atualizarCards(tabela) {{
     setCard(aba + ' — Bloqueados', Object.keys(bloqueados).length);
   }}
   if (aba === 'Faturados') {{
-    setCard(aba + ' — Entregues (dia anterior)', Object.keys(entregues).length);
+    setCard(aba + ' — Entregues', Object.keys(entregues).length);
     setCard(aba + ' — Notas em Aberto', Object.keys(abertos).length);
     setCard(aba + ' — Sem Status/Entrega', Object.keys(semStatus).length);
     setCard(aba + ' — Aguardando Rota (fora Região Metrop.)', Object.keys(aguardandoRota).length);

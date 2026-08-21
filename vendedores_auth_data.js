@@ -1,5 +1,13 @@
-// Gerado em 14/08/2026 17:43
+// Gerado em 20/08/2026 17:30
 const VENDEDORES_AUTH = {
+  "159": [
+    {
+      "nome": "GISELLE BARFER - OFF TRADE",
+      "email": "barfer.contato@gmail.com",
+      "email2": "",
+      "estado": "RJ"
+    }
+  ],
   "156": [
     {
       "nome": "MARILENA TRAGEL - OFF TRADE",
@@ -13,6 +21,14 @@ const VENDEDORES_AUTH = {
       "nome": "DIOGO RAPOSO - OFF TRADE",
       "email": "raposo.diogo87@gmail.com",
       "email2": "diogo.raposo@rigarr.com.br",
+      "estado": "RJ"
+    }
+  ],
+  "155": [
+    {
+      "nome": "RAPHAEL SANTOS - OFF TRADE",
+      "email": "raphael.santos@rigarr.com.br",
+      "email2": "",
       "estado": "RJ"
     }
   ],
@@ -68,6 +84,14 @@ const VENDEDORES_AUTH = {
     {
       "nome": "LEANDRO SOUZA - OFF TRADE",
       "email": "leandro.souza@rigarr.com.br",
+      "email2": "",
+      "estado": "RJ"
+    }
+  ],
+  "241": [
+    {
+      "nome": "ZEINALDO DE OLIVEIRA - OFF TRADE",
+      "email": "lemosbebidaslagos@hotmail.com",
       "email2": "",
       "estado": "RJ"
     }

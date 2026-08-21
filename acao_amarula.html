@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <script src="auth.js"></script>
+  <script src="fontes_status_data.js"></script>
+  <script src="fontes_alert.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ação Amarula Off Trade 2026</title>
+  <script src="acao_amarula_data.js"></script>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg:           #0d0b08;
+      --card:         #1c1812;
+      --card2:        #26211a;
+      --accent:       #d4962a;
+      --accent-light: #f5d48a;
+      --green:        #4ade80;
+      --text:         #ede8de;
+      --muted:        #9a8a76;
+      --border:       #33291e;
+      --gold-grad:    linear-gradient(135deg, #d4962a, #c07820);
+    }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'Segoe UI', system-ui, sans-serif;
+      min-height: 100vh;
+      padding: 16px;
+      max-width: 920px;
+      margin: 0 auto;
+    }
+
+    .nav-back { display:inline-flex; align-items:center; gap:6px; color:var(--muted); font-size:0.8rem; text-decoration:none; margin-bottom:20px; transition:color .15s; }
+    .nav-back:hover { color:var(--accent-light); }
+
+    /* ── Header ──────────────────────────────────────────────── */
+    header {
+      text-align: center;
+      padding: 28px 20px 22px;
+      margin-bottom: 22px;
+      border-bottom: 1px solid var(--border);
+    }
+    .camp-badge {
+      display: inline-block;
+      background: var(--gold-grad);
+      color: #fff;
+      font-size: 0.62rem;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      padding: 3px 12px;
+      border-radius: 20px;
+      margin-bottom: 12px;
+    }
+    header h1 {
+      font-size: 1.9rem;
+      font-weight: 800;
+      color: var(--accent);
+      letter-spacing: -0.02em;
+      margin-bottom: 4px;
+    }
+    .camp-sub {
+      font-size: 0.78rem;
+      color: var(--muted);
+      margin-bottom: 6px;
+    }
+    .camp-periodo {
+      display: inline-block;
+      background: var(--card2);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 5px 16px;
+      font-size: 0.85rem;
+      color: var(--accent-light);
+      font-weight: 600;
+      margin-bottom: 16px;
+    }
+
+    /* ── Item da campanha ────────────────────────────────────── */
+    .camp-item {
+      display: inline-flex;
+      align-items: center;
+      gap: 14px;
+      background: var(--card2);
+      border: 1px solid #d4962a44;
+      border-radius: 12px;
+      padding: 12px 20px;
+      margin: 0 auto 18px;
+    }
+    .camp-item-label { font-size: 0.62rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted); }
+    .camp-item-nome { font-size: 1rem; font-weight: 700; color: var(--text); }
+    .camp-item-cod { font-size: 0.72rem; color: var(--muted); }
+    .camp-item-valor { font-size: 1.1rem; font-weight: 800; color: var(--accent); }
+
+    .camp-premios {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+    .camp-premio-box {
+      background: var(--card2);
+      border: 1px solid #d4962a44;
+      border-radius: 10px;
+      padding: 8px 18px;
+      text-align: center;
+      min-width: 90px;
+    }
+    .camp-premio-label {
+      font-size: 0.6rem;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--muted);
+      margin-bottom: 3px;
+    }
+    .camp-premio-val {
+      font-size: 1.05rem;
+      font-weight: 800;
+      color: var(--accent);
+    }
+    .camp-meta-nota {
+      margin-top: 12px;
+      font-size: 0.72rem;
+      color: var(--muted);
+    }
+
+    /* ── KPIs ─────────────────────────────────────────────────── */
+    .kpis {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 10px;
+      margin-bottom: 22px;
+    }
+    .kpi {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 14px 12px;
+      text-align: center;
+    }
+    .kpi-label {
+      font-size: 0.63rem;
+      text-transform: uppercase;
+      letter-spacing: 0.07em;
+      color: var(--muted);
+      margin-bottom: 5px;
+    }
+    .kpi-val {
+      font-size: 1.35rem;
+      font-weight: 800;
+      color: var(--accent-light);
+      line-height: 1;
+    }
+    .kpi-sub {
+      font-size: 0.62rem;
+      color: var(--muted);
+      margin-top: 4px;
+    }
+
+    /* ── Ranking ──────────────────────────────────────────────── */
+    .rank-card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      overflow: hidden;
+      margin-bottom: 24px;
+    }
+    .rank-header {
+      padding: 13px 16px;
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: var(--card2);
+    }
+    .rank-title { font-size: 0.9rem; font-weight: 700; }
+    .rank-prize-label { font-size: 0.75rem; font-weight: 700; color: var(--accent); }
+    .rank-list { padding: 4px 0; }
+    .rank-row {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 10px 16px;
+      border-bottom: 1px solid rgba(51,41,30,0.5);
+      transition: background 0.15s;
+    }
+    .rank-row:last-child { border-bottom: none; }
+    .rank-row:hover { background: var(--card2); }
+    .rank-row.premiado {
+      background: linear-gradient(90deg, #2a1e0a, #1c1812);
+      border-left: 3px solid var(--accent);
+    }
+    .rank-row.fora .rank-nome { color: var(--muted); }
+    .rank-pos {
+      font-size: 1.05rem;
+      width: 28px;
+      text-align: center;
+      flex-shrink: 0;
+    }
+    .rank-nome {
+      flex: 1;
+      font-size: 0.84rem;
+      font-weight: 500;
+      color: var(--text);
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    .rank-val-box { text-align: right; flex-shrink: 0; }
+    .rank-val {
+      font-size: 0.9rem;
+      font-weight: 700;
+      color: var(--accent-light);
+      white-space: nowrap;
+    }
+    .rank-meta-tag {
+      display: block;
+      font-size: 0.6rem;
+      color: var(--muted);
+      margin-top: 2px;
+      text-align: right;
+    }
+    .rank-prize-tag {
+      display: block;
+      background: var(--gold-grad);
+      color: #111;
+      font-size: 0.62rem;
+      font-weight: 800;
+      padding: 1px 7px;
+      border-radius: 4px;
+      margin-top: 3px;
+      text-align: center;
+    }
+    .rank-empty {
+      padding: 40px 16px;
+      text-align: center;
+      color: var(--muted);
+      font-size: 0.85rem;
+      line-height: 1.6;
+    }
+
+    footer {
+      text-align: center;
+      padding-top: 16px;
+      border-top: 1px solid var(--border);
+      color: var(--muted);
+      font-size: 0.72rem;
+      line-height: 1.8;
+    }
+    footer strong { color: var(--text); }
+
+    @media (max-width: 620px) {
+      .kpis { grid-template-columns: 1fr 1fr; }
+      header h1 { font-size: 1.5rem; }
+    }
+    @media (max-width: 380px) {
+      .kpis { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+  <div style="margin-bottom:12px"><a href="index.html" style="color:var(--muted,#94a3b8);font-size:.8rem;text-decoration:none;padding:6px 12px;border:1px solid var(--border,#2d3144);border-radius:8px;background:var(--card,#1a1d27)">&#8962; Home</a></div>
+
+  <header>
+    <div class="camp-badge">Campanha Ativa</div>
+    <h1>Ação Amarula Off Trade</h1>
+    <p class="camp-sub" id="escopo"></p>
+    <div class="camp-periodo" id="periodo"></div>
+
+    <div>
+      <div class="camp-item">
+        <div>
+          <div class="camp-item-label">Item</div>
+          <div class="camp-item-nome" id="item-nome"></div>
+          <div class="camp-item-cod" id="item-cod"></div>
+        </div>
+        <div class="camp-item-valor" id="item-valor"></div>
+      </div>
+    </div>
+
+    <div class="camp-premios" id="premios"></div>
+    <div class="camp-meta-nota" id="meta-nota"></div>
+  </header>
+
+  <div class="kpis" id="kpis"></div>
+
+  <div class="rank-card">
+    <div class="rank-header">
+      <span class="rank-title">Ranking &mdash; unidades vendidas</span>
+      <span class="rank-prize-label" id="rank-prize-label"></span>
+    </div>
+    <div class="rank-list" id="rank-list"></div>
+  </div>
+
+  <footer>
+    Atualizado em <strong id="atualizado"></strong>
+    &bull; Refresh em <strong><span id="countdown">5:00</span></strong>
+  </footer>
+
+  <script>
+    const D = ACAO_AMARULA_DATA;
+    const MEDALS = ['🥇', '🥈', '🥉', '4º'];
+
+    document.getElementById('atualizado').textContent = D.atualizado_em;
+    document.getElementById('escopo').textContent = D.escopo;
+    document.getElementById('periodo').textContent = `${D.periodo.ini} a ${D.periodo.fim}`;
+    document.getElementById('item-nome').textContent = D.item.descricao;
+    document.getElementById('item-cod').textContent = `Cód ${D.item.codigo}`;
+    document.getElementById('item-valor').textContent = 'R$ ' + D.item.valor.toLocaleString('pt-BR', {minimumFractionDigits: 2, maximumFractionDigits: 2});
+    document.getElementById('meta-nota').textContent = `Meta mínima: ${D.meta_minima} unidades por vendedor para concorrer à premiação`;
+
+    document.getElementById('premios').innerHTML = D.premios.map((v, i) => `
+      <div class="camp-premio-box">
+        <div class="camp-premio-label">${i + 1}&ordm; Lugar</div>
+        <div class="camp-premio-val">R$ ${v.toLocaleString('pt-BR')}</div>
+      </div>`).join('');
+
+    document.getElementById('rank-prize-label').textContent =
+      D.premios.map((v, i) => `${i + 1}&ordm; R$ ${v}`).join(' | ').replace(/&ordm;/g, 'º');
+
+    function fmtVol(v) { return v.toLocaleString('pt-BR') + ' un'; }
+
+    document.getElementById('kpis').innerHTML = [
+      { label: 'Vendedores',       val: D.total_vendedores.toLocaleString('pt-BR'), sub: 'com venda do item' },
+      { label: 'Volume Total',     val: fmtVol(D.total_volume),                     sub: 'unidades vendidas' },
+      { label: 'Meta Mínima',      val: fmtVol(D.meta_minima),                      sub: 'p/ concorrer' },
+    ].map(k => `
+      <div class="kpi">
+        <div class="kpi-label">${k.label}</div>
+        <div class="kpi-val">${k.val}</div>
+        <div class="kpi-sub">${k.sub}</div>
+      </div>`).join('');
+
+    function buildRanking() {
+      const el = document.getElementById('rank-list');
+      if (!D.ranking || !D.ranking.length) {
+        el.innerHTML = `<div class="rank-empty">Sem vendas do item registradas ainda.<br>A campanha vai de ${D.periodo.ini} a ${D.periodo.fim}.</div>`;
+        return;
+      }
+      el.innerHTML = D.ranking.map((r, i) => {
+        const pos = r.premio != null ? MEDALS[i] : (i + 1);
+        const rowCls = r.premio != null ? ' premiado' : (!r.elegivel ? ' fora' : '');
+        const metaTag = !r.elegivel
+          ? `<span class="rank-meta-tag">abaixo da meta (${D.meta_minima} un)</span>`
+          : '';
+        const prizeTag = r.premio != null
+          ? `<span class="rank-prize-tag">R$ ${r.premio.toLocaleString('pt-BR')}</span>`
+          : '';
+        return `
+          <div class="rank-row${rowCls}">
+            <span class="rank-pos">${pos}</span>
+            <span class="rank-nome" title="${r.vendedor}">${r.vendedor}</span>
+            <div class="rank-val-box">
+              <div class="rank-val">${fmtVol(r.volume)}</div>
+              ${prizeTag}${metaTag}
+            </div>
+          </div>`;
+      }).join('');
+    }
+    buildRanking();
+
+    // ── Countdown auto-refresh (5 min) ────────────────────────
+    let secs = 300;
+    setInterval(() => {
+      secs--;
+      if (secs <= 0) { location.reload(); return; }
+      const m = Math.floor(secs / 60);
+      const s = String(secs % 60).padStart(2, '0');
+      document.getElementById('countdown').textContent = `${m}:${s}`;
+    }, 1000);
+  </script>
+</body>
+</html>

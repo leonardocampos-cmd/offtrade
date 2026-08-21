@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <script src="auth.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Produtos Cortados Sem Estoque — OfftradeHub</title>
+  <script src="pedidos_data.js"></script>
+  <script src="estoque_data.js"></script>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --bg: #0f1117; --card: #1a1d27; --card2: #22263a;
+      --accent: #f5c518; --text: #e2e8f0; --muted: #94a3b8;
+      --border: #2d3144; --red: #ef4444;
+    }
+    html, body { background: var(--bg); color: var(--text); font-family: 'Segoe UI', system-ui, sans-serif; }
+    body { min-height: 100vh; padding: 16px; }
+    header {
+      display: flex; align-items: center; justify-content: space-between;
+      margin-bottom: 20px; padding-bottom: 16px;
+      border-bottom: 1px solid var(--border); gap: 12px; flex-wrap: wrap;
+    }
+    header h1 { font-size: 1.1rem; font-weight: 700; color: var(--accent); }
+    header p  { font-size: .8rem; color: var(--muted); margin-top: 3px; }
+    header .nav a {
+      color: var(--muted); text-decoration: none; font-size: .82rem;
+      padding: 6px 12px; border-radius: 7px; border: 1px solid var(--border);
+      transition: all .15s;
+    }
+    header .nav a:hover { border-color: var(--accent); color: var(--accent); }
+    .controls { display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: 16px; align-items: flex-end; }
+    .controls .campo { display: flex; flex-direction: column; gap: 5px; }
+    .controls label { font-size: .68rem; color: var(--muted); text-transform: uppercase; letter-spacing: .05em; }
+    select {
+      background: var(--card); border: 1px solid var(--border);
+      color: var(--text); border-radius: 8px; padding: 8px 12px;
+      font-size: .88rem; outline: none; font-family: inherit; min-width: 200px;
+    }
+    select:focus { border-color: var(--accent); }
+    .kpis { display: flex; gap: 12px; flex-wrap: wrap; margin-bottom: 16px; }
+    .kpi {
+      background: var(--card); border: 1px solid var(--border); border-radius: 10px;
+      padding: 14px 18px; flex: 1; min-width: 160px;
+    }
+    .kpi .label { font-size: .65rem; text-transform: uppercase; letter-spacing: .08em; color: var(--muted); margin-bottom: 6px; }
+    .kpi .val { font-size: 1.25rem; font-weight: 800; }
+    table { width: 100%; border-collapse: collapse; background: var(--card); border-radius: 12px; overflow: hidden; border: 1px solid var(--border); }
+    th {
+      background: #1f2233; padding: 10px 14px; font-size: .7rem; color: var(--muted);
+      text-transform: uppercase; letter-spacing: .05em; text-align: right; font-weight: 600;
+      cursor: pointer; user-select: none; white-space: nowrap;
+    }
+    th:first-child { text-align: left; }
+    td { padding: 10px 14px; font-size: .85rem; border-top: 1px solid var(--border); text-align: right; white-space: nowrap; }
+    td:first-child { text-align: left; }
+    tr.industria { cursor: pointer; }
+    tr.industria:hover td { background: #1f2233; }
+    tr.industria td:first-child::before { content: '▸ '; color: var(--muted); font-size: .7rem; }
+    tr.industria.expandida td:first-child::before { content: '▾ '; color: var(--accent); }
+    tr.industria td:first-child { font-weight: 700; }
+    tr.produto td { background: #14161a; font-size: .8rem; color: var(--muted); }
+    tr.produto td:first-child { padding-left: 30px; color: var(--text); }
+    .valor-cortado { color: var(--red); font-weight: 600; }
+    .sem-dados { text-align: center; padding: 40px 20px; color: var(--muted); }
+  </style>
+</head>
+<body>
+  <header>
+    <div>
+      <h1>Produtos Cortados Sem Estoque</h1>
+      <p id="header-sub"></p>
+    </div>
+    <div class="nav"><a href="index.html">← Painel</a></div>
+  </header>
+
+  <div class="controls">
+    <div class="campo">
+      <label>Mês</label>
+      <select id="f-mes"></select>
+    </div>
+    <div class="campo">
+      <label>Estado</label>
+      <select id="f-estado"></select>
+    </div>
+  </div>
+
+  <div class="kpis">
+    <div class="kpi">
+      <div class="label">Indústrias com corte</div>
+      <div class="val" id="kpi-industrias">—</div>
+    </div>
+    <div class="kpi">
+      <div class="label">Qtd Cortada Total</div>
+      <div class="val" id="kpi-qtd">—</div>
+    </div>
+    <div class="kpi">
+      <div class="label">Valor Cortado Total</div>
+      <div class="val" id="kpi-valor">—</div>
+    </div>
+  </div>
+
+  <table>
+    <thead>
+      <tr>
+        <th onclick="ordenarPor('industria')">Indústria</th>
+        <th onclick="ordenarPor('qtd')">Qtd Cortada</th>
+        <th onclick="ordenarPor('valor')">Valor Cortado</th>
+        <th>Saldo do Sistema</th>
+      </tr>
+    </thead>
+    <tbody id="tbody"></tbody>
+  </table>
+
+  <script>
+    const DATA    = typeof PEDIDOS_DATA !== 'undefined' ? PEDIDOS_DATA : null;
+    const ESTOQUE = typeof ESTOQUE_DATA !== 'undefined' ? ESTOQUE_DATA : null;
+
+    const brl = v => new Intl.NumberFormat('pt-BR', { style: 'currency', currency: 'BRL', maximumFractionDigits: 0 }).format(v || 0);
+    const num = v => new Intl.NumberFormat('pt-BR').format(v || 0);
+
+    // Índice de estoque (sistema+filial+produto -> qtestoque), mesma lógica
+    // de pedidos.html — chaves numéricas normalizadas pra não depender do
+    // formato exato ("1" vs "1.0") que cada base devolve.
+    const _estoqueIdx = new Map();
+    if (ESTOQUE && ESTOQUE.produtos) {
+      ESTOQUE.produtos.forEach(p => {
+        const fil = parseInt(p.codfilial, 10);
+        const prod = parseInt(p.codprod, 10);
+        if (Number.isNaN(fil) || Number.isNaN(prod)) return;
+        _estoqueIdx.set(`${(p.empresa || '').toUpperCase()}|${fil}|${prod}`, p.qtestoque);
+      });
+    }
+    function saldoSistema(item) {
+      const fil = parseInt(item.codfilial, 10);
+      const prod = parseInt(item.codprod, 10);
+      if (Number.isNaN(fil) || Number.isNaN(prod)) return null;
+      const key = `${(item.sistema || '').toUpperCase()}|${fil}|${prod}`;
+      return _estoqueIdx.has(key) ? _estoqueIdx.get(key) : null;
+    }
+
+    let _mesSel = '';
+    let _estadoSel = '';
+    let _ordem = { campo: 'valor', asc: false };
+    let _expandidas = new Set();
+
+    if (!DATA || !DATA.produtos_cortados) {
+      document.getElementById('tbody').innerHTML = '<tr><td colspan="4" class="sem-dados">Dados não encontrados. Execute pedidos.py para gerar pedidos_data.js.</td></tr>';
+    } else {
+      document.getElementById('header-sub').textContent = 'Atualizado ' + DATA.atualizado_em + ' · últimos ' + DATA.periodo_dias + ' dias';
+      montarFiltros();
+      render();
+    }
+
+    function montarFiltros() {
+      const itens = DATA.produtos_cortados;
+
+      const meses = [...new Set(itens.map(i => (i.data_ord || '').slice(0, 7)).filter(Boolean))].sort().reverse();
+      const selMes = document.getElementById('f-mes');
+      selMes.innerHTML = '<option value="">Todos</option>' + meses.map(m => {
+        const [ano, mes] = m.split('-');
+        return `<option value="${m}">${mes}/${ano}</option>`;
+      }).join('');
+      selMes.onchange = () => { _mesSel = selMes.value; render(); };
+
+      const estados = [...new Set(itens.map(i => i.estado).filter(Boolean))].sort();
+      const selEstado = document.getElementById('f-estado');
+      selEstado.innerHTML = '<option value="">Todos</option>' + estados.map(e => `<option value="${e}">${e}</option>`).join('');
+      selEstado.onchange = () => { _estadoSel = selEstado.value; render(); };
+    }
+
+    // Só produtos sem saldo no sistema (saldo <= 0 ou produto não encontrado
+    // no estoque atual) — o resto do corte já pode ter estoque de novo,
+    // não é mais prioridade de reposição.
+    function itensFiltrados() {
+      return DATA.produtos_cortados.filter(i =>
+        (!_mesSel || (i.data_ord || '').slice(0, 7) === _mesSel) &&
+        (!_estadoSel || i.estado === _estadoSel) &&
+        (saldoSistema(i) == null || saldoSistema(i) <= 0)
+      );
+    }
+
+    function agruparPorIndustria(itens) {
+      const grupos = new Map();
+      itens.forEach(i => {
+        const nome = i.industria || '(sem indústria)';
+        if (!grupos.has(nome)) grupos.set(nome, { industria: nome, qtd: 0, valor: 0, produtos: new Map() });
+        const g = grupos.get(nome);
+        g.qtd += i.qtd_cortada_total || 0;
+        g.valor += i.valor_cortado || 0;
+
+        const chaveProd = `${i.sistema}|${i.codfilial}|${i.codprod}`;
+        if (!g.produtos.has(chaveProd)) {
+          g.produtos.set(chaveProd, { desc: i.desc, qtd: 0, valor: 0, saldo: saldoSistema(i) });
+        }
+        const p = g.produtos.get(chaveProd);
+        p.qtd += i.qtd_cortada_total || 0;
+        p.valor += i.valor_cortado || 0;
+      });
+      return [...grupos.values()];
+    }
+
+    function ordenarPor(campo) {
+      if (_ordem.campo === campo) { _ordem.asc = !_ordem.asc; } else { _ordem = { campo, asc: false }; }
+      render();
+    }
+
+    function render() {
+      const itens = itensFiltrados();
+      const grupos = agruparPorIndustria(itens);
+
+      grupos.sort((a, b) => {
+        let va = a[_ordem.campo], vb = b[_ordem.campo];
+        if (typeof va === 'string') { va = va.toLowerCase(); vb = vb.toLowerCase(); }
+        if (va < vb) return _ordem.asc ? -1 : 1;
+        if (va > vb) return _ordem.asc ? 1 : -1;
+        return 0;
+      });
+
+      document.getElementById('kpi-industrias').textContent = num(grupos.length);
+      document.getElementById('kpi-qtd').textContent = num(itens.reduce((s, i) => s + (i.qtd_cortada_total || 0), 0));
+      document.getElementById('kpi-valor').textContent = brl(itens.reduce((s, i) => s + (i.valor_cortado || 0), 0));
+
+      const tbody = document.getElementById('tbody');
+      if (!grupos.length) {
+        tbody.innerHTML = '<tr><td colspan="4" class="sem-dados">Nenhum produto cortado no período selecionado.</td></tr>';
+        return;
+      }
+
+      tbody.innerHTML = grupos.map(g => {
+        const aberto = _expandidas.has(g.industria);
+        const linhaIndustria = `
+          <tr class="industria ${aberto ? 'expandida' : ''}" onclick="toggleIndustria('${g.industria.replace(/'/g, "\\'")}')">
+            <td>${g.industria}</td>
+            <td>${num(g.qtd)}</td>
+            <td class="valor-cortado">${brl(g.valor)}</td>
+            <td>—</td>
+          </tr>`;
+        if (!aberto) return linhaIndustria;
+
+        const produtos = [...g.produtos.values()].sort((a, b) => b.valor - a.valor);
+        const linhasProdutos = produtos.map(p => `
+          <tr class="produto">
+            <td>${p.desc}</td>
+            <td>${num(p.qtd)}</td>
+            <td class="valor-cortado">${brl(p.valor)}</td>
+            <td>${p.saldo == null ? '—' : num(p.saldo)}</td>
+          </tr>`).join('');
+        return linhaIndustria + linhasProdutos;
+      }).join('');
+    }
+
+    function toggleIndustria(nome) {
+      if (_expandidas.has(nome)) _expandidas.delete(nome); else _expandidas.add(nome);
+      render();
+    }
+  </script>
+</body>
+</html>

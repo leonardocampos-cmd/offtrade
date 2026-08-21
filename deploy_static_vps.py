@@ -38,6 +38,11 @@ EXCLUDE_JS = {
     "acessos_data.js",
     "metas_data.js", "vendas_data.js", "vendas_es_data.js",
     "vendas_mg_data.js", "vendas_sp_data.js", "fontes_status_data.js",
+    # promotoria_data.js: mesmo motivo de metas/vendas acima — a VPS gera o
+    # dela sozinha (exportacao_promotoria.py, via main.py) e a cópia local
+    # fica velha entre uma rodada e outra; sincronizar por cima sobrescreveria
+    # o dado fresco (2026-08-21).
+    "promotoria_data.js",
 }
 
 

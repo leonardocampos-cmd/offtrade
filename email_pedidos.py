@@ -25,6 +25,7 @@ import re
 import socket
 import subprocess
 import sys
+import time
 from datetime import datetime
 from pathlib import Path
 
@@ -81,7 +82,24 @@ def _get_service():
     creds = Credentials.from_authorized_user_file(str(TOKEN_GMAIL), SCOPES)
     if not creds.valid:
         if creds.expired and creds.refresh_token:
-            creds.refresh(Request())
+            # oauth2.googleapis.com deu SSLEOFError repetidamente (blip de
+            # rede/VPN transitório) em TODAS as execuções horárias de
+            # 15 a 19/08/2026 — sem retry, um único blip derrubava a etapa
+            # inteira, e como não há fallback, agendamento.html ficou 5 dias
+            # sem nenhum e-mail novo (confirmado no offtrade.log). Mesmo
+            # padrão de retry de meta.py::carregar_dados (3 tentativas).
+            _ultimo_erro = None
+            for _tentativa in range(1, 4):
+                try:
+                    creds.refresh(Request())
+                    break
+                except Exception as _ex:
+                    _ultimo_erro = _ex
+                    print(f"[AVISO] refresh do token Gmail falhou (tentativa {_tentativa}/3): {str(_ex)[:120]}")
+                    if _tentativa < 3:
+                        time.sleep(10)
+            else:
+                raise _ultimo_erro
             TOKEN_GMAIL.write_text(creds.to_json(), encoding="utf-8")
         else:
             raise RuntimeError(
@@ -415,6 +433,16 @@ def _construir_comparativo(cache: dict) -> list:
             if not itens_out:
                 continue
             fallback = cliente_info.get(cod_cli_num, {})
+            # A extração (HTML/OCR/vision) às vezes só pega o código do RCA,
+            # sem o nome (ex: '144'). Nesse caso o cadastro do cliente no
+            # Oracle (fallback, já vem como 'código - nome') é mais completo
+            # e deve prevalecer — só usa o que a extração leu se ela conseguiu
+            # também o nome.
+            rca_extraido = str(bloco.get('rca') or '').strip()
+            if rca_extraido and not re.fullmatch(r'\d+', rca_extraido):
+                rca_final = rca_extraido
+            else:
+                rca_final = fallback.get('rca', '') or rca_extraido
             resultado.append({
                 'msg_id':       msg_id,
                 'subject':      msg.get('subject', ''),
@@ -424,7 +452,7 @@ def _construir_comparativo(cache: dict) -> list:
                 'razao_social': bloco.get('razao_social') or fallback.get('razao_social', ''),
                 'fantasia':     bloco.get('fantasia') or fallback.get('fantasia', ''),
                 'cnpj':         bloco.get('cnpj') or fallback.get('cnpj', ''),
-                'rca':          bloco.get('rca') or fallback.get('rca', ''),
+                'rca':          rca_final,
                 'bonificacao':  _to_bool(bloco.get('bonificacao')),
                 'prazo':        bloco.get('prazo', ''),
                 'obs':          bloco.get('obs', ''),

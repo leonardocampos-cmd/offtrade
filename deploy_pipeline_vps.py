@@ -49,6 +49,8 @@ PIPELINE_FILES = [
     "report_diario_pedidos.py",
     "baixar_planilhas_drive.py",
     "campanha_crusoe.py",
+    "campanha_acao_amarula.py",
+    "login_api_watchdog.py",
     "requirements.txt",
     "metas_config.json",
     "canhoto_status.json",

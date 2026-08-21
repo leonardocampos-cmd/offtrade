@@ -181,6 +181,9 @@
       font-size: .75rem; color: var(--muted); margin-top: 2px;
       white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
     }
+    .venda-status {
+      font-weight: 600; border: 1px solid; border-radius: 4px; padding: 0 5px;
+    }
     .venda-valor {
       font-size: .9rem; font-weight: 700; color: var(--accent); white-space: nowrap;
     }
@@ -438,14 +441,26 @@
         // Agrupa por cliente e soma valores
         const porCliente = {};
         vendasMes.forEach(v => {
-          if (!porCliente[v.codcli]) porCliente[v.codcli] = { cliente: v.cliente, data: v.data, total: 0, itens: 0 };
+          if (!porCliente[v.codcli]) porCliente[v.codcli] = { cliente: v.cliente, data: v.data, total: 0, itens: 0, devolvido: false, cancelado: false };
           porCliente[v.codcli].total += v.valor;
           porCliente[v.codcli].itens++;
+          if (v.devolvido) porCliente[v.codcli].devolvido = true;
+          if (v.cancelado || v.cancelado_parcial) porCliente[v.codcli].cancelado = true;
         });
 
         const clientes = Object.values(porCliente)
           .sort((a, b) => b.total - a.total)
           .slice(0, 20);
+
+        // Status de entrega por venda: sem flag de "entregue" explícita na
+        // fonte (isso só existe em pedidos.html/PCPEDC), mas devolvido/
+        // cancelado(_parcial) já vêm em vendas_data.js — pedido do usuário
+        // em 2026-08-20 pra RCA sem meta ver isso na Área do Vendedor.
+        const statusBadge = c => {
+          if (c.devolvido) return `<span class="venda-status" style="color:var(--red);border-color:var(--red)">Devolvido</span>`;
+          if (c.cancelado) return `<span class="venda-status" style="color:var(--yellow);border-color:var(--yellow)">Cancelado</span>`;
+          return `<span class="venda-status" style="color:var(--green);border-color:var(--green)">Entregue</span>`;
+        };
 
         html += `<div class="vendas-list">`;
         clientes.forEach(c => {
@@ -454,7 +469,7 @@
               <div class="venda-data">${c.data}</div>
               <div class="venda-info">
                 <div class="venda-cliente">${c.cliente}</div>
-                <div class="venda-produto">${c.itens} iten${c.itens !== 1 ? 's' : ''}</div>
+                <div class="venda-produto">${c.itens} iten${c.itens !== 1 ? 's' : ''} · ${statusBadge(c)}</div>
               </div>
               <div class="venda-valor">${brl(c.total)}</div>
             </div>`;

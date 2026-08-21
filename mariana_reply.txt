@@ -1,0 +1,30 @@
+From: Cadastro Rigarr <cadastro@rigarr.com.br>
+Date: Thu, 20 Aug 2026 14:55:03 -0300
+Body:
+Inseri os email ja
+
+
+
+Atenciosamente,
+Mariana Borges
+
+
+
+
+Em qui., 20 de ago. de 2026 às 14:42, Leonardo Da Silva Campos <
+leonardo.campos@rigarr.com.br> escreveu:
+
+> Boa tarde Mariana! Testei aqui - Senha e Telefone entraram certinho, valeu!
+>
+> Vi que faltou o E-mail no cadastro (sem ele o login da Area do
+> Vendedor nao funciona). Poderia acrescentar tambem?
+>
+> CODUSUR | EMAIL
+> 155 | raphael.santos@rigarr.com.br
+> 159 | barfer.contato@gmail.com
+> 241 | lemosbebidaslagos@hotmail.com
+>
+> At.te,
+> Leonardo Campos
+>
+

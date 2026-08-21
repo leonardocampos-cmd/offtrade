@@ -10,6 +10,7 @@
   <script src="pedidos_data.js"></script>
   <script src="amarula_data.js"></script>
   <script src="crusoe_data.js"></script>
+  <script src="acao_amarula_data.js"></script>
   <script src="gerentes_data.js"></script>
   <script src="fontes_status_data.js"></script>
   <script src="fontes_alert.js"></script>
@@ -741,6 +742,7 @@
 <div class="camp-bar">
   <span class="camp-bar-label">Campanhas:</span>
   <a href="crusoe.html"  class="camp-pill cp-amarula"><span class="dot"></span>Crusoe <em style="font-style:normal;font-size:.6rem;opacity:.8">Ativa</em></a>
+  <a href="acao_amarula.html"  class="camp-pill cp-amarula"><span class="dot"></span>Ação Amarula <em style="font-style:normal;font-size:.6rem;opacity:.8">Ativa</em></a>
 </div>
 
 <div id="app"></div>
@@ -1696,7 +1698,7 @@ function renderDetail(v, mes) {
         <div class="metas-grid" style="margin-top:12px">
           ${_metaKpi('Faturamento', m('fat_tt') > 0 ? r('fat_tt') : _fatVendasMes(v.nome, mes), m('fat_tt'), 'fat', _cmpMesAnterior(v, mes, 'fat_tt', 'fat'))}
           ${_metaKpi('Positivação', m('pos_tt') > 0 ? r('pos_tt') : _posVendasMes(v.nome, mes), m('pos_tt'), 'pos', _cmpMesAnterior(v, mes, 'pos_tt', 'pos'))}
-          ${_statKpi('Indústrias', r('industrias'), _cmpMesAnterior(v, mes, 'industrias', 'pos'))}
+          ${_statKpi('Indústrias', m('industrias') > 0 ? r('industrias') : _industriasVendasMes(v.nome, mes), _cmpMesAnterior(v, mes, 'industrias', 'pos'))}
           ${m('fat_castas')          > 0 ? _metaKpi('Castas',          r('fat_castas'),          m('fat_castas'),          'fat') : ''}
           ${m('fat_hob_azeite')      > 0 ? _metaKpi('HOB + Azeite',    r('fat_hob_azeite'),      m('fat_hob_azeite'),      'fat') : ''}
           ${m('fat_domecq_passport') > 0 ? _metaKpi('Domecq+Passport', r('fat_domecq_passport'), m('fat_domecq_passport'), 'fat') : ''}
@@ -1754,7 +1756,7 @@ function renderDetail(v, mes) {
     </div>`;
 
   // ── Seção: Campanhas ──────────────────────────────────────
-  const _campConteudo = buildAllCampanhas(v) + buildAmarulaDetail(v, mes) + buildMovingDetail(v, mes) + buildCrusoeDetail(v, mes);
+  const _campConteudo = buildAllCampanhas(v) + buildAmarulaDetail(v, mes) + buildMovingDetail(v, mes) + buildCrusoeDetail(v, mes) + buildAcaoAmarulaDetail(v, mes);
   const campanhasHtml = _campConteudo.trim().length > 80 ? `
     <div class="detail-card">
       <div class="sec-header" onclick="toggleSec('sec-camp')">
@@ -2322,6 +2324,53 @@ function buildCrusoeDetail(v, mes) {
     </div>`;
 }
 
+function buildAcaoAmarulaDetail(v, mes) {
+  if (typeof ACAO_AMARULA_DATA === 'undefined') return '';
+  const periodoMeses = ['Ago/26', 'Set/26'];
+  if (mes && !periodoMeses.includes(mes)) return '';
+
+  // v.nome vem do METAS_DATA no formato bruto do Oracle ("DIOGO RAPOSO - OFF
+  // TRADE"); ACAO_AMARULA_DATA.ranking já vem sem o sufixo " - OFF TRADE"
+  // (ver campanha_acao_amarula.py) — normaliza dos dois lados pra casar.
+  const nomeNorm = String(v.nome || '').replace(' - OFF TRADE', '').replace('-OFF TRADE', '').trim();
+  const idx = ACAO_AMARULA_DATA.ranking.findIndex(r => r.vendedor === nomeNorm);
+  if (idx < 0) return '';
+
+  const entry = ACAO_AMARULA_DATA.ranking[idx];
+  const medals = ['🥇', '🥈', '🥉', '4º'];
+  const D = ACAO_AMARULA_DATA;
+
+  const semVendas = entry.volume <= 0;
+  const rankTxt = semVendas
+    ? 'Sem vendas ainda'
+    : (entry.premio != null ? `${medals[idx]} ${idx + 1}º lugar` : `${idx + 1}º lugar`);
+  const prizeSpan = entry.premio != null
+    ? `<span class="campanha-rank-prize">R$ ${entry.premio.toLocaleString('pt-BR')}</span>`
+    : '';
+  const metaSpan = (!entry.elegivel && !semVendas)
+    ? `<span style="color:var(--muted);font-size:0.72rem">abaixo da meta (faltam ${D.meta_minima - entry.volume} un)</span>`
+    : '';
+
+  return `
+    <div class="campanha-detail-box" style="border-color:#d4962a55;background:#1c1810">
+      <div class="campanha-detail-title" style="color:#d4962a">Ação Amarula Off Trade &middot; ${D.item.descricao} &middot; ${D.periodo.ini}–${D.periodo.fim}</div>
+      <div class="campanha-detail-row">
+        <span style="color:var(--muted);font-size:0.78rem">Meta mínima ${D.meta_minima} un</span>
+        <span style="display:flex;align-items:center;gap:6px;flex-wrap:wrap;justify-content:flex-end">
+          <span class="campanha-rank-val">${entry.volume.toLocaleString('pt-BR')} un</span>
+          ${metaSpan}
+        </span>
+      </div>
+      <div class="campanha-detail-row">
+        <span style="font-weight:700">Posição no ranking</span>
+        <span style="display:flex;align-items:center;gap:6px;flex-wrap:wrap;justify-content:flex-end">
+          <span style="font-weight:700">${rankTxt}</span>
+          ${prizeSpan}
+        </span>
+      </div>
+    </div>`;
+}
+
 // ── Filtro Gerente / Supervisor ───────────────────────────────────────────────
 
 const _ESTADO_ATUAL = 'RJ';
@@ -2499,6 +2548,12 @@ function _posVendasMes(nomeVendedor, mes) {
   return new Set(vendas.filter(x => x.offtrade && !x.devolvido && !x.cancelado && !x.cancelado_parcial).map(x => x.codcli || x.cliente)).size;
 }
 
+function _industriasVendasMes(nomeVendedor, mes) {
+  if (typeof VENDAS_DATA === 'undefined') return 0;
+  const vendas = (VENDAS_DATA.por_vendedor[nomeVendedor] || {})[mes] || [];
+  return new Set(vendas.filter(x => x.offtrade && !x.devolvido && !x.cancelado && !x.cancelado_parcial).map(x => x.fantasia)).size;
+}
+
 function _fatOrdenacao(v, mes) {
   const pm   = _pm(v, mes);
   const fatM = _mv(pm, 'fat_tt', 'meta');
@@ -2540,6 +2595,7 @@ function _buildCards(vendedores, mes) {
         ${buildAmarulaDetail(v, mes)}
         ${buildMovingDetail(v, mes)}
         ${buildCrusoeDetail(v, mes)}
+        ${buildAcaoAmarulaDetail(v, mes)}
         <div class="card-actions" style="gap:8px">
           <button class="btn" onclick="copyLink('${v.nome.replace(/'/g,"\\'")}', this)">&#128279; Link</button>
           <a class="btn btn-primary" href="?vendedor=${encodeURIComponent(v.nome)}">Ver detalhes</a>
