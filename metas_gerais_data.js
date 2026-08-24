@@ -1,25 +1,25 @@
 const METAS_GERAIS_DATA = {
-  "atualizado_em": "24/08/2026 12:32",
+  "atualizado_em": "24/08/2026 14:08",
   "mes": "Ago/26",
   "mes_ant": "Jul/26",
   "dias_corridos": 24,
   "dias_no_mes": 31,
   "dias_restantes": 7,
   "resumo": {
-    "fat": 10008528.8,
+    "fat": 10009104.08,
     "fat_ant": 8817065.62,
     "fat_ant_completo": 13467661.44,
-    "pos": 1284,
+    "pos": 1285,
     "pos_ant": 1462,
     "pos_ant_completo": 1790
   },
   "total": {
     "meta": 12300000.0,
-    "fat": 10008528.8,
+    "fat": 10009104.08,
     "fat_ant": 8817065.62,
     "fat_ant_completo": 13467661.44,
     "pct": 81.4,
-    "nec_dia": 327353.03
+    "nec_dia": 327270.85
   },
   "estados": [
     {
@@ -65,11 +65,11 @@ const METAS_GERAIS_DATA = {
       "estado": "MG",
       "label": "Minas Gerais",
       "meta": 2100000.0,
-      "fat": 1154553.52,
+      "fat": 1155128.8,
       "fat_ant": 995285.34,
-      "pos": 178,
+      "pos": 179,
       "pct": 55.0,
-      "nec_dia": 135063.78,
+      "nec_dia": 134981.6,
       "fat_ant_completo": 1873633.49,
       "pos_ant": 218,
       "pos_ant_completo": 260
@@ -111,13 +111,13 @@ const METAS_GERAIS_DATA = {
     },
     {
       "fantasia": "RED BULL",
-      "fat": 867110.81,
+      "fat": 867686.09,
       "fat_ant": 391464.35,
       "por_estado": {
         "RJ": 222132.4,
         "SP": 302330.88,
         "ES": 174076.17,
-        "MG": 168571.36
+        "MG": 169146.64
       }
     },
     {
