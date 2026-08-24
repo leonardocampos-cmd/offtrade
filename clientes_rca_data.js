@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "24/08/2026 17:16",
-  "total": 25513,
+  "atualizado_em": "24/08/2026 18:07",
+  "total": 25515,
   "clientes": [
     {
       "codcli": "38586",
@@ -37518,10 +37518,10 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "LEONARDO FLOREZI - OFF TRADE",
       "codusur2": "",
       "nome_usur2": "",
-      "ultimo_rca": "",
-      "ultimo_rca_nome": "",
-      "ultimo_rca_ot": "",
-      "ultimo_rca_ot_nome": ""
+      "ultimo_rca": "486",
+      "ultimo_rca_nome": "LEONARDO FLOREZI - OFF TRADE",
+      "ultimo_rca_ot": "486",
+      "ultimo_rca_ot_nome": "LEONARDO FLOREZI - OFF TRADE"
     },
     {
       "codcli": "84046",
@@ -78580,6 +78580,26 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "ROMARIO DOS SANTOS",
       "ultimo_rca": "190",
       "ultimo_rca_nome": "ROMARIO DOS SANTOS",
+      "ultimo_rca_ot": "",
+      "ultimo_rca_ot_nome": ""
+    },
+    {
+      "codcli": "47018",
+      "razao": "ATACADO TETS AL. XAVIER LTDA",
+      "fantasia": "ADEGA TETS",
+      "bairro": "PARQUE CONTINENTAL",
+      "cidade": "SAO VICENTE",
+      "cnpj": "51.290.894/0001-32",
+      "estado": "SP",
+      "ramo": "DISTRIBUIDORA DE BEBIDA",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "588",
+      "nome_usur1": "W.S",
+      "codusur2": "",
+      "nome_usur2": "",
+      "ultimo_rca": "588",
+      "ultimo_rca_nome": "W.S",
       "ultimo_rca_ot": "",
       "ultimo_rca_ot_nome": ""
     },
@@ -152998,10 +153018,10 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "RONALDO BASSI - OFF TRADE",
       "codusur2": "",
       "nome_usur2": "",
-      "ultimo_rca": "",
-      "ultimo_rca_nome": "",
-      "ultimo_rca_ot": "",
-      "ultimo_rca_ot_nome": ""
+      "ultimo_rca": "523",
+      "ultimo_rca_nome": "RONALDO BASSI - OFF TRADE",
+      "ultimo_rca_ot": "523",
+      "ultimo_rca_ot_nome": "RONALDO BASSI - OFF TRADE"
     },
     {
       "codcli": "80270",
@@ -240864,6 +240884,26 @@ const CLIENTES_RCA_DATA = {
       "ultimo_rca_ot_nome": ""
     },
     {
+      "codcli": "52637",
+      "razao": "HERCULANO DE JESUS",
+      "fantasia": "BAR E MERCEARIA HERCULANO",
+      "bairro": "COLINAS DA ANHANGÜERA",
+      "cidade": "SANTANA DE PARNAIBA",
+      "cnpj": "21.042.960/0001-94",
+      "estado": "SP",
+      "ramo": "BAR",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "588",
+      "nome_usur1": "W.S",
+      "codusur2": "",
+      "nome_usur2": "",
+      "ultimo_rca": "",
+      "ultimo_rca_nome": "",
+      "ultimo_rca_ot": "",
+      "ultimo_rca_ot_nome": ""
+    },
+    {
       "codcli": "50199",
       "razao": "HERICA ROQUE TORRES 07057574630",
       "fantasia": "DE CASTRO BAR E DEPOSITO DE BEBIDA",
@@ -245460,6 +245500,26 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "",
       "ultimo_rca": "437",
       "ultimo_rca_nome": "BEES",
+      "ultimo_rca_ot": "",
+      "ultimo_rca_ot_nome": ""
+    },
+    {
+      "codcli": "78046",
+      "razao": "I.M.K. MIRANDA CENTRO DE TREINAMENTOS LTDA",
+      "fantasia": "ACADEMIA CORPORY CENTER",
+      "bairro": "FEU ROSA",
+      "cidade": "SERRA",
+      "cnpj": "39.380.532/0001-37",
+      "estado": "ES",
+      "ramo": "OUTROS",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "10",
+      "nome_usur1": "INATIVO3",
+      "codusur2": "190",
+      "nome_usur2": "ROMARIO DOS SANTOS",
+      "ultimo_rca": "528",
+      "ultimo_rca_nome": "CLAUDIA DORNELAS",
       "ultimo_rca_ot": "",
       "ultimo_rca_ot_nome": ""
     },
@@ -261958,8 +262018,8 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "ADEILSON GONÇALVEZ - OFF TRADE",
       "codusur2": "",
       "nome_usur2": "",
-      "ultimo_rca": "",
-      "ultimo_rca_nome": "",
+      "ultimo_rca": "431",
+      "ultimo_rca_nome": "ADEILSON GONÇALVEZ - OFF TRADE",
       "ultimo_rca_ot": "431",
       "ultimo_rca_ot_nome": "ADEILSON GONÇALVEZ - OFF TRADE"
     },
@@ -289024,26 +289084,6 @@ const CLIENTES_RCA_DATA = {
       "ultimo_rca_ot_nome": ""
     },
     {
-      "codcli": "80726",
-      "razao": "LEME PRAIA COMERCIO DE ALIMENTOS LTDA",
-      "fantasia": "JOAQUINA",
-      "bairro": "COPACABANA",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "12.506.064/0001-48",
-      "estado": "RJ",
-      "ramo": "BAR",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": "",
-      "ultimo_rca": "",
-      "ultimo_rca_nome": "",
-      "ultimo_rca_ot": "",
-      "ultimo_rca_ot_nome": ""
-    },
-    {
       "codcli": "89924",
       "razao": "LEMKE COMERCIO VAREJISTA LTDA",
       "fantasia": "LEMKE COMERCIO VAREJISTA",
@@ -305218,8 +305258,8 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "RAPHAEL SANTOS - OFF TRADE",
       "codusur2": "313",
       "nome_usur2": "ANDRE MATTOS",
-      "ultimo_rca": "155",
-      "ultimo_rca_nome": "RAPHAEL SANTOS - OFF TRADE",
+      "ultimo_rca": "324",
+      "ultimo_rca_nome": "LUIZ OLIVEIRA",
       "ultimo_rca_ot": "155",
       "ultimo_rca_ot_nome": "RAPHAEL SANTOS - OFF TRADE"
     },
@@ -305998,8 +306038,8 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "DOUGLAS TEIXEIRA - OFF TRADE",
       "codusur2": "",
       "nome_usur2": "",
-      "ultimo_rca": "490",
-      "ultimo_rca_nome": "DOUGLAS TEIXEIRA - OFF TRADE",
+      "ultimo_rca": "",
+      "ultimo_rca_nome": "",
       "ultimo_rca_ot": "490",
       "ultimo_rca_ot_nome": "DOUGLAS TEIXEIRA - OFF TRADE"
     },
@@ -337258,8 +337298,8 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "ANGELO NEVES SUZART - OFF TRADE",
       "codusur2": "312",
       "nome_usur2": "LAYZ WERNECK",
-      "ultimo_rca": "",
-      "ultimo_rca_nome": "",
+      "ultimo_rca": "153",
+      "ultimo_rca_nome": "ANGELO NEVES SUZART - OFF TRADE",
       "ultimo_rca_ot": "153",
       "ultimo_rca_ot_nome": "ANGELO NEVES SUZART - OFF TRADE"
     },
@@ -337574,14 +337614,14 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MERCADO",
       "key_account": false,
       "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "312",
-      "nome_usur2": "LAYZ WERNECK",
-      "ultimo_rca": "450",
-      "ultimo_rca_nome": "LEANDRO SOUZA - OFF TRADE",
-      "ultimo_rca_ot": "450",
-      "ultimo_rca_ot_nome": "LEANDRO SOUZA - OFF TRADE"
+      "codusur1": "144",
+      "nome_usur1": "DIOGO RAPOSO - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": "",
+      "ultimo_rca": "144",
+      "ultimo_rca_nome": "DIOGO RAPOSO - OFF TRADE",
+      "ultimo_rca_ot": "144",
+      "ultimo_rca_ot_nome": "DIOGO RAPOSO - OFF TRADE"
     },
     {
       "codcli": "83627",
@@ -344978,8 +345018,8 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "GILSON DE OLIVEIRA - OFF TRADE",
       "codusur2": "",
       "nome_usur2": "",
-      "ultimo_rca": "",
-      "ultimo_rca_nome": "",
+      "ultimo_rca": "491",
+      "ultimo_rca_nome": "GILSON DE OLIVEIRA - OFF TRADE",
       "ultimo_rca_ot": "491",
       "ultimo_rca_ot_nome": "GILSON DE OLIVEIRA - OFF TRADE"
     },
@@ -353578,8 +353618,8 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "W.S",
       "codusur2": "1",
       "nome_usur2": "RQ",
-      "ultimo_rca": "588",
-      "ultimo_rca_nome": "W.S",
+      "ultimo_rca": "425",
+      "ultimo_rca_nome": "BRUNO BARBOSA - OFF TRADE",
       "ultimo_rca_ot": "425",
       "ultimo_rca_ot_nome": "BRUNO BARBOSA - OFF TRADE"
     },
@@ -402538,10 +402578,10 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "RONALDO BASSI - OFF TRADE",
       "codusur2": "",
       "nome_usur2": "",
-      "ultimo_rca": "",
-      "ultimo_rca_nome": "",
-      "ultimo_rca_ot": "",
-      "ultimo_rca_ot_nome": ""
+      "ultimo_rca": "523",
+      "ultimo_rca_nome": "RONALDO BASSI - OFF TRADE",
+      "ultimo_rca_ot": "523",
+      "ultimo_rca_ot_nome": "RONALDO BASSI - OFF TRADE"
     },
     {
       "codcli": "30521",
