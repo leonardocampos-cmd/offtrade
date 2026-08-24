@@ -1,9 +1,61 @@
 // Gerado automaticamente pelo exportacao_nao_pos_es.py
 
 const NAO_POS_ES_DATA = {
-  "atualizado_em": "24/08/2026 11:53",
+  "atualizado_em": "24/08/2026 13:29",
   "por_vendedor": {
     "ADEILSON GONÇALVEZ": [
+      {
+        "codcli": "2869",
+        "cliente": "POSTO DE GASOLINA BOA FE LTDA",
+        "bairro": "REALENGO",
+        "dtultcomp": "16/12/2025",
+        "produtos": [
+          {
+            "produto": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+            "fantasia": "CASA PERINI",
+            "qt": 1,
+            "valor": 33.9
+          },
+          {
+            "produto": "ESPUM CASA PERINI BRUT ROSE 750ML",
+            "fantasia": "CASA PERINI",
+            "qt": 1,
+            "valor": 33.9
+          },
+          {
+            "produto": "GIN ROCKS 1000ML",
+            "fantasia": "FANTE",
+            "qt": 2,
+            "valor": 48.0
+          },
+          {
+            "produto": "SMIRNOFF ICE - 24 UNIDADES (LONG NECK)",
+            "fantasia": "DIAGEO",
+            "qt": 1,
+            "valor": 107.9
+          }
+        ]
+      },
+      {
+        "codcli": "3077",
+        "cliente": "AUTO CENTER DUDUCA LTDA",
+        "bairro": "REALENGO",
+        "dtultcomp": "05/01/2026",
+        "produtos": [
+          {
+            "produto": "AGUA MINERAL MINALBA C/ GAS 12X510ML",
+            "fantasia": "MINALBA",
+            "qt": 50,
+            "valor": 974.5
+          },
+          {
+            "produto": "AGUA MINERAL MINALBA S/ GAS 6X1,5L",
+            "fantasia": "MINALBA",
+            "qt": 60,
+            "valor": 858.0
+          }
+        ]
+      },
       {
         "codcli": "94426",
         "cliente": "MINIMERCADO E BAR BUROCK LTDA",
@@ -1687,6 +1739,38 @@ const NAO_POS_ES_DATA = {
       }
     ],
     "ANA CLARA FASSANO": [
+      {
+        "codcli": "50345",
+        "cliente": "DEMI COPA BAR E RESTAURANTE LTDA",
+        "bairro": "COPACABANA",
+        "dtultcomp": "29/01/2025",
+        "produtos": [
+          {
+            "produto": "APERITIVO APEROL 750 ML",
+            "fantasia": "CAMPARI",
+            "qt": 3,
+            "valor": 148.5
+          },
+          {
+            "produto": "APERITIVO CAMPARI 998ML",
+            "fantasia": "CAMPARI",
+            "qt": 1,
+            "valor": 52.5
+          },
+          {
+            "produto": "CACHACA VELHO BARREIRO 910 ML",
+            "fantasia": "TATUZINHO",
+            "qt": 12,
+            "valor": 166.8
+          },
+          {
+            "produto": "VODCA SMIRNOFF RED 998 ML",
+            "fantasia": "DIAGEO",
+            "qt": 1,
+            "valor": 31.9
+          }
+        ]
+      },
       {
         "codcli": "60729",
         "cliente": "COMAL RIO COMERCIAL DE ALIMENTOS LTDA",
@@ -3982,6 +4066,68 @@ const NAO_POS_ES_DATA = {
     ],
     "BARBARA CABRAL": [
       {
+        "codcli": "76833",
+        "cliente": "JOSE EUDES OLIVEIRA COSTA PADARIA",
+        "bairro": "CAMPO GRANDE",
+        "dtultcomp": "12/02/2025",
+        "produtos": [
+          {
+            "produto": "AGUA MINERAL MINALBA S/ GAS 6X1,5L",
+            "fantasia": "MINALBA",
+            "qt": 10,
+            "valor": 144.0
+          },
+          {
+            "produto": "CHEETOS LUA 95G",
+            "fantasia": "PEPSICO",
+            "qt": 4,
+            "valor": 30.8
+          },
+          {
+            "produto": "DORITOS NACHO 75G",
+            "fantasia": "PEPSICO",
+            "qt": 12,
+            "valor": 93.48
+          },
+          {
+            "produto": "FANDANGOS PRESUNTO 105G",
+            "fantasia": "PEPSICO",
+            "qt": 11,
+            "valor": 84.7
+          },
+          {
+            "produto": "GUARAVITA NATURAL 24X290ML",
+            "fantasia": "VITON",
+            "qt": 1,
+            "valor": 20.4
+          },
+          {
+            "produto": "LAYS SOUR CREAM 35G",
+            "fantasia": "PEPSICO",
+            "qt": 10,
+            "valor": 40.9
+          },
+          {
+            "produto": "RUFFLES ORIGINAL 76G",
+            "fantasia": "PEPSICO",
+            "qt": 6,
+            "valor": 56.4
+          },
+          {
+            "produto": "SENSACOES PEITO DE PERU 40G",
+            "fantasia": "PEPSICO",
+            "qt": 6,
+            "valor": 32.94
+          },
+          {
+            "produto": "STIKSY 30G",
+            "fantasia": "PEPSICO",
+            "qt": 10,
+            "valor": 16.9
+          }
+        ]
+      },
+      {
         "codcli": "89939",
         "cliente": "TINGAS DO BRASIL POSTO DE GASOLINA LTDA",
         "bairro": "CAMPO GRANDE",
@@ -4248,86 +4394,6 @@ const NAO_POS_ES_DATA = {
         ]
       },
       {
-        "codcli": "93390",
-        "cliente": "SUPERMERCADOS ADONAI LTDA",
-        "bairro": "VARGEM GRANDE",
-        "dtultcomp": "30/06/2026",
-        "produtos": [
-          {
-            "produto": "RC ATUM PEDACOS EM OLEO 24X140G",
-            "fantasia": "ROBINSON CRUSOE",
-            "qt": 1,
-            "valor": 191.76
-          },
-          {
-            "produto": "RC ATUM PEDACOS MOLHO DE TOMATE 24X140G",
-            "fantasia": "ROBINSON CRUSOE",
-            "qt": 1,
-            "valor": 191.76
-          },
-          {
-            "produto": "RC ATUM PEDACOS NATURAL 24X140G",
-            "fantasia": "ROBINSON CRUSOE",
-            "qt": 1,
-            "valor": 191.76
-          },
-          {
-            "produto": "RC ATUM RALADO MOLHO DE TOMATE 24X140G",
-            "fantasia": "ROBINSON CRUSOE",
-            "qt": 1,
-            "valor": 153.36
-          },
-          {
-            "produto": "RC ATUM RALADO NATURAL 24X140G",
-            "fantasia": "ROBINSON CRUSOE",
-            "qt": 1,
-            "valor": 153.36
-          },
-          {
-            "produto": "RC ATUM RALADO OLEO 24X140G",
-            "fantasia": "ROBINSON CRUSOE",
-            "qt": 1,
-            "valor": 153.36
-          },
-          {
-            "produto": "RC ATUM SOLIDO NAT MY PROTEIN 12X142G",
-            "fantasia": "ROBINSON CRUSOE",
-            "qt": 1,
-            "valor": 125.9
-          },
-          {
-            "produto": "RC ATUM SOLIDO NATURAL 24X170G",
-            "fantasia": "ROBINSON CRUSOE",
-            "qt": 1,
-            "valor": 208.56
-          },
-          {
-            "produto": "RC ATUM SOLIDO OLEO 24X170G",
-            "fantasia": "ROBINSON CRUSOE",
-            "qt": 1,
-            "valor": 208.56
-          },
-          {
-            "produto": "RC SALADA DE ATUM - MEDITERRANEA 12X160G",
-            "fantasia": "ROBINSON CRUSOE",
-            "qt": 2,
-            "valor": 239.8
-          },
-          {
-            "produto": "RC SARDINHA EM OLEO 50X125G",
-            "fantasia": "ROBINSON CRUSOE",
-            "qt": 1,
-            "valor": 249.5
-          },
-          {
-            "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
-            "fantasia": "ROBINSON CRUSOE",
-            "qt": 1,
-            "valor": 249.5
-          }
-        ]
-      },
-      {
         "codcli": "93388",
         "cliente": "SUPERMERCADOS ADONAI LTDA",
         "bairro": "VARGEM PEQUENA",
@@ -4404,6 +4470,86 @@ const NAO_POS_ES_DATA = {
             "fantasia": "ROBINSON CRUSOE",
             "qt": 3,
             "valor": 748.5
+          }
+        ]
+      },
+      {
+        "codcli": "93390",
+        "cliente": "SUPERMERCADOS ADONAI LTDA",
+        "bairro": "VARGEM GRANDE",
+        "dtultcomp": "30/06/2026",
+        "produtos": [
+          {
+            "produto": "RC ATUM PEDACOS EM OLEO 24X140G",
+            "fantasia": "ROBINSON CRUSOE",
+            "qt": 1,
+            "valor": 191.76
+          },
+          {
+            "produto": "RC ATUM PEDACOS MOLHO DE TOMATE 24X140G",
+            "fantasia": "ROBINSON CRUSOE",
+            "qt": 1,
+            "valor": 191.76
+          },
+          {
+            "produto": "RC ATUM PEDACOS NATURAL 24X140G",
+            "fantasia": "ROBINSON CRUSOE",
+            "qt": 1,
+            "valor": 191.76
+          },
+          {
+            "produto": "RC ATUM RALADO MOLHO DE TOMATE 24X140G",
+            "fantasia": "ROBINSON CRUSOE",
+            "qt": 1,
+            "valor": 153.36
+          },
+          {
+            "produto": "RC ATUM RALADO NATURAL 24X140G",
+            "fantasia": "ROBINSON CRUSOE",
+            "qt": 1,
+            "valor": 153.36
+          },
+          {
+            "produto": "RC ATUM RALADO OLEO 24X140G",
+            "fantasia": "ROBINSON CRUSOE",
+            "qt": 1,
+            "valor": 153.36
+          },
+          {
+            "produto": "RC ATUM SOLIDO NAT MY PROTEIN 12X142G",
+            "fantasia": "ROBINSON CRUSOE",
+            "qt": 1,
+            "valor": 125.9
+          },
+          {
+            "produto": "RC ATUM SOLIDO NATURAL 24X170G",
+            "fantasia": "ROBINSON CRUSOE",
+            "qt": 1,
+            "valor": 208.56
+          },
+          {
+            "produto": "RC ATUM SOLIDO OLEO 24X170G",
+            "fantasia": "ROBINSON CRUSOE",
+            "qt": 1,
+            "valor": 208.56
+          },
+          {
+            "produto": "RC SALADA DE ATUM - MEDITERRANEA 12X160G",
+            "fantasia": "ROBINSON CRUSOE",
+            "qt": 2,
+            "valor": 239.8
+          },
+          {
+            "produto": "RC SARDINHA EM OLEO 50X125G",
+            "fantasia": "ROBINSON CRUSOE",
+            "qt": 1,
+            "valor": 249.5
+          },
+          {
+            "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
+            "fantasia": "ROBINSON CRUSOE",
+            "qt": 1,
+            "valor": 249.5
           }
         ]
       },
@@ -4850,7 +4996,7 @@ const NAO_POS_ES_DATA = {
         ]
       },
       {
-        "codcli": "93386",
+        "codcli": "93385",
         "cliente": "SUPERMERCADOS ADONAI LTDA",
         "bairro": "CAMPO GRANDE",
         "dtultcomp": "20/07/2026",
@@ -4918,7 +5064,7 @@ const NAO_POS_ES_DATA = {
         ]
       },
       {
-        "codcli": "93385",
+        "codcli": "93386",
         "cliente": "SUPERMERCADOS ADONAI LTDA",
         "bairro": "CAMPO GRANDE",
         "dtultcomp": "20/07/2026",
@@ -5509,16 +5655,16 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
-        "codcli": "81681",
+        "codcli": "81690",
         "cliente": "PARMA COMERCIAL LTDA",
-        "bairro": "ITACIBA",
+        "bairro": "PORTO DE SANTANA",
         "dtultcomp": "nan",
         "produtos": []
       },
       {
-        "codcli": "81690",
+        "codcli": "81678",
         "cliente": "PARMA COMERCIAL LTDA",
-        "bairro": "PORTO DE SANTANA",
+        "bairro": "CAMPO GRANDE",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -5537,9 +5683,9 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
-        "codcli": "81678",
+        "codcli": "81681",
         "cliente": "PARMA COMERCIAL LTDA",
-        "bairro": "CAMPO GRANDE",
+        "bairro": "ITACIBA",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -5572,9 +5718,9 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
-        "codcli": "20947",
+        "codcli": "20950",
         "cliente": "SUPERMERCADOS CALVI LTDA",
-        "bairro": "VILA PALESTINA",
+        "bairro": "COBILANDIA",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -5586,9 +5732,9 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
-        "codcli": "20950",
+        "codcli": "20947",
         "cliente": "SUPERMERCADOS CALVI LTDA",
-        "bairro": "COBILANDIA",
+        "bairro": "VILA PALESTINA",
         "dtultcomp": "nan",
         "produtos": []
       }
