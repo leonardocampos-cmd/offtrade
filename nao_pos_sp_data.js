@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_sp.py
 
 const NAO_POS_SP_DATA = {
-  "atualizado_em": "24/08/2026 13:29",
+  "atualizado_em": "24/08/2026 14:35",
   "por_vendedor": {
     "ADER ALONSO": [
       {
@@ -12368,16 +12368,16 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
-        "codcli": "52126",
+        "codcli": "52123",
         "cliente": "SUPERMERCADO CKJ LTDA",
-        "bairro": "CHÁCARA DO SOLAR I (FAZENDINHA)",
+        "bairro": "JARDIM MIRANTE",
         "dtultcomp": "nan",
         "produtos": []
       },
       {
-        "codcli": "52123",
+        "codcli": "52126",
         "cliente": "SUPERMERCADO CKJ LTDA",
-        "bairro": "JARDIM MIRANTE",
+        "bairro": "CHÁCARA DO SOLAR I (FAZENDINHA)",
         "dtultcomp": "nan",
         "produtos": []
       }
@@ -13621,38 +13621,6 @@ const NAO_POS_SP_DATA = {
         ]
       },
       {
-        "codcli": "40451",
-        "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
-        "bairro": "JARDIM LEME",
-        "dtultcomp": "31/07/2026",
-        "produtos": [
-          {
-            "produto": "AGUARDENTE OLD CESAR 88 965 ML",
-            "fantasia": "CRS BRANDS",
-            "qt": 12,
-            "valor": 119.88
-          },
-          {
-            "produto": "GIN ROCKS 1LT",
-            "fantasia": "FANTE",
-            "qt": 12,
-            "valor": 246.0
-          },
-          {
-            "produto": "GIN ROCKS STRAWBERRY 1LT",
-            "fantasia": "FANTE",
-            "qt": 18,
-            "valor": 369.0
-          },
-          {
-            "produto": "RUM MONTILLA OURO 1L",
-            "fantasia": "PERNOD",
-            "qt": 12,
-            "valor": 233.4
-          }
-        ]
-      },
-      {
         "codcli": "40452",
         "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
         "bairro": "PARQUE DO LAGO",
@@ -13687,6 +13655,38 @@ const NAO_POS_SP_DATA = {
             "fantasia": "DIAGEO",
             "qt": 12,
             "valor": 476.28
+          }
+        ]
+      },
+      {
+        "codcli": "40451",
+        "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
+        "bairro": "JARDIM LEME",
+        "dtultcomp": "31/07/2026",
+        "produtos": [
+          {
+            "produto": "AGUARDENTE OLD CESAR 88 965 ML",
+            "fantasia": "CRS BRANDS",
+            "qt": 12,
+            "valor": 119.88
+          },
+          {
+            "produto": "GIN ROCKS 1LT",
+            "fantasia": "FANTE",
+            "qt": 12,
+            "valor": 246.0
+          },
+          {
+            "produto": "GIN ROCKS STRAWBERRY 1LT",
+            "fantasia": "FANTE",
+            "qt": 18,
+            "valor": 369.0
+          },
+          {
+            "produto": "RUM MONTILLA OURO 1L",
+            "fantasia": "PERNOD",
+            "qt": 12,
+            "valor": 233.4
           }
         ]
       },
@@ -14076,6 +14076,13 @@ const NAO_POS_SP_DATA = {
     ],
     "RONALDO BASSI": [
       {
+        "codcli": "51026",
+        "cliente": "40.647.192 MARCIA MAMPRIM",
+        "bairro": "JARDIM SAO JOAO",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
         "codcli": "52566",
         "cliente": "57.072.488 VINICIUS DUCCI MOURA",
         "bairro": "CENTRO",
@@ -14100,6 +14107,13 @@ const NAO_POS_SP_DATA = {
         "codcli": "52487",
         "cliente": "ERIVELTON APARECIDO JORGE",
         "bairro": "SAO PEDRO",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "52626",
+        "cliente": "LEANDRO APARECIDO SARANSO ROSA",
+        "bairro": "CENTRO",
         "dtultcomp": "nan",
         "produtos": []
       },
