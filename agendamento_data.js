@@ -17589,11 +17589,11 @@ const AGENDAMENTO_DATA = {
           "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
           "cnpj": "18.322.565/0004-01",
           "filial": "MARICÁ",
-          "valor": 311.88,
-          "nf": "",
+          "valor": 442.8,
+          "nf": "7851",
           "data_agendamento": "25/08/2026",
           "data_ord": "2026-08-25",
-          "status": "A FATURAR",
+          "status": "FATURADO",
           "obs": "CONTATO 21974318449 (VITORIA)",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -17650,6 +17650,20 @@ const AGENDAMENTO_DATA = {
           "data_agendamento": "25/08/2026",
           "data_ord": "2026-08-25",
           "status": "A FATURAR",
+          "obs": "CONTATO 21974318449 (VITORIA)",
+          "status_logistica": "",
+          "justificativa_logistica": ""
+        },
+        {
+          "codigo_cliente": "28386",
+          "cliente": "MIXCERTO COMERCIO E DISTRIBUIDORA DE ALIMENTOS EIRELI-ME",
+          "cnpj": "36.095.420/0001-46",
+          "filial": "SAO JOSE DO IMBASSAI",
+          "valor": 1434.3,
+          "nf": "7865",
+          "data_agendamento": "25/08/2026",
+          "data_ord": "2026-08-25",
+          "status": "FATURADO",
           "obs": "CONTATO 21974318449 (VITORIA)",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -17759,20 +17773,6 @@ const AGENDAMENTO_DATA = {
           "filial": "SÃO GONÇALO",
           "valor": 509.4,
           "nf": "7855",
-          "data_agendamento": "24/08/2026",
-          "data_ord": "2026-08-24",
-          "status": "EM ROTA",
-          "obs": "CONTATO 21974318449 (VITORIA)",
-          "status_logistica": "",
-          "justificativa_logistica": ""
-        },
-        {
-          "codigo_cliente": "28386",
-          "cliente": "MIXCERTO COMERCIO E DISTRIBUIDORA DE ALIMENTOS EIRELI-ME",
-          "cnpj": "36.095.420/0001-46",
-          "filial": "SAO JOSE DO IMBASSAI",
-          "valor": 1434.3,
-          "nf": "7865",
           "data_agendamento": "24/08/2026",
           "data_ord": "2026-08-24",
           "status": "EM ROTA",
@@ -26988,7 +26988,7 @@ const AGENDAMENTO_DATA = {
       ]
     }
   ],
-  "atualizado_em": "24/08/2026 16:20",
+  "atualizado_em": "24/08/2026 17:12",
   "comparativo": [
     {
       "msg_id": "1a01bc9a975c4cab",
