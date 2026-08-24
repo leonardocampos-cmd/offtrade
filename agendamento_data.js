@@ -733,6 +733,20 @@ const AGENDAMENTO_DATA = {
       "nome": "ANGELO NEVES SUZART - OFF TRADE",
       "itens": [
         {
+          "codigo_cliente": "83800",
+          "cliente": "SUPERMERCADOS RIO SUL DE COMENDADOR SOARES",
+          "cnpj": "44.747.049/00001-88",
+          "filial": "NOVA IGUAÇU",
+          "valor": 1992.6,
+          "nf": "7828",
+          "data_agendamento": "25/08/2026",
+          "data_ord": "2026-08-25",
+          "status": "FATURADO",
+          "obs": "Caixas e rótulos íntegros. VALIDADE ACIMA DE 5 MESES",
+          "status_logistica": "",
+          "justificativa_logistica": ""
+        },
+        {
           "codigo_cliente": "84130",
           "cliente": "VILA SANTA CRUZ COMERCIO DE GENEROS ALIMENTICIOS LTDA",
           "cnpj": "35.602.394/0001-32",
@@ -743,20 +757,6 @@ const AGENDAMENTO_DATA = {
           "data_ord": "2026-08-24",
           "status": "FATURADO",
           "obs": "",
-          "status_logistica": "",
-          "justificativa_logistica": ""
-        },
-        {
-          "codigo_cliente": "83800",
-          "cliente": "SUPERMERCADOS RIO SUL DE COMENDADOR SOARES",
-          "cnpj": "44.747.049/00001-88",
-          "filial": "NOVA IGUAÇU",
-          "valor": 1992.6,
-          "nf": "7828",
-          "data_agendamento": "21/08/2026",
-          "data_ord": "2026-08-21",
-          "status": "EM ROTA",
-          "obs": "Caixas e rótulos íntegros. VALIDADE ACIMA DE 5 MESES",
           "status_logistica": "",
           "justificativa_logistica": ""
         },
@@ -6361,7 +6361,7 @@ const AGENDAMENTO_DATA = {
           "nf": "7827",
           "data_agendamento": "21/08/2026",
           "data_ord": "2026-08-21",
-          "status": "EM ROTA",
+          "status": "ENTREGUE",
           "obs": "Caixas e rótulos íntegros",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -16062,10 +16062,10 @@ const AGENDAMENTO_DATA = {
           "cnpj": "57.531.339/0001-31",
           "filial": "MACAE",
           "valor": 19764.0,
-          "nf": "",
+          "nf": "7846",
           "data_agendamento": "22/08/2026",
           "data_ord": "2026-08-22",
-          "status": "A FATURAR",
+          "status": "ENTREGUE",
           "obs": "EMBARCAR AS CAIXAS ORIGINAIS E ÍNTEGRAS.",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -17557,6 +17557,76 @@ const AGENDAMENTO_DATA = {
       "nome": "LEANDRO SOUZA - OFF TRADE",
       "itens": [
         {
+          "codigo_cliente": "80354",
+          "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
+          "cnpj": "18.322.565/0004-01",
+          "filial": "MARICÁ",
+          "valor": 311.88,
+          "nf": "",
+          "data_agendamento": "25/08/2026",
+          "data_ord": "2026-08-25",
+          "status": "A FATURAR",
+          "obs": "CONTATO 21974318449 (VITORIA)",
+          "status_logistica": "",
+          "justificativa_logistica": ""
+        },
+        {
+          "codigo_cliente": "9604",
+          "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
+          "cnpj": "08.628.825/0003-29",
+          "filial": "PIRATININGA",
+          "valor": 258.84,
+          "nf": "",
+          "data_agendamento": "25/08/2026",
+          "data_ord": "2026-08-25",
+          "status": "A FATURAR",
+          "obs": "SUPERMERCADO SUPERMAKET - PRODUTOS EM ENCARTE",
+          "status_logistica": "",
+          "justificativa_logistica": ""
+        },
+        {
+          "codigo_cliente": "94956",
+          "cliente": "JNH SUPERMERCADOS LTDA",
+          "cnpj": "32.455.926/0002-49",
+          "filial": "PORTO DA ROÇA",
+          "valor": 361.2,
+          "nf": "",
+          "data_agendamento": "25/08/2026",
+          "data_ord": "2026-08-25",
+          "status": "A FATURAR",
+          "obs": "CAIXAS E RÓTULOS ÍNTEGROS E ORIGINAIS - PRISCILLA 22998066371",
+          "status_logistica": "",
+          "justificativa_logistica": ""
+        },
+        {
+          "codigo_cliente": "94954",
+          "cliente": "COMERCIO DE CEREAIS IZANITA LIMITADA",
+          "cnpj": "07.258.484/0002-01",
+          "filial": "RIO DA AREIA",
+          "valor": 254.4,
+          "nf": "",
+          "data_agendamento": "25/08/2026",
+          "data_ord": "2026-08-25",
+          "status": "A FATURAR",
+          "obs": "CAIXAS E RÓTULOS ÍNTEGROS E ORIGINAIS - PRISCILLA 22998066371",
+          "status_logistica": "",
+          "justificativa_logistica": ""
+        },
+        {
+          "codigo_cliente": "28385",
+          "cliente": "BOM DE PRECO COMERCIO - REDE ECONOMIA",
+          "cnpj": "18.322.565/0002-31",
+          "filial": "SÃO GONÇALO",
+          "valor": 152.2,
+          "nf": "",
+          "data_agendamento": "25/08/2026",
+          "data_ord": "2026-08-25",
+          "status": "A FATURAR",
+          "obs": "CONTATO 21974318449 (VITORIA)",
+          "status_logistica": "",
+          "justificativa_logistica": ""
+        },
+        {
           "codigo_cliente": "94955",
           "cliente": "COMERCIO DE CEREAIS IZANITA LIMITADA",
           "cnpj": "07.258.484/0001-12",
@@ -17641,20 +17711,6 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "80354",
-          "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
-          "cnpj": "18.322.565/0004-01",
-          "filial": "MARICÁ",
-          "valor": 311.88,
-          "nf": "",
-          "data_agendamento": "24/08/2026",
-          "data_ord": "2026-08-24",
-          "status": "A FATURAR",
-          "obs": "CONTATO 21974318449 (VITORIA)",
-          "status_logistica": "",
-          "justificativa_logistica": ""
-        },
-        {
           "codigo_cliente": "92003",
           "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
           "cnpj": "05.546.194/0028-69",
@@ -17669,48 +17725,6 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "9604",
-          "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
-          "cnpj": "08.628.825/0003-29",
-          "filial": "PIRATININGA",
-          "valor": 258.84,
-          "nf": "",
-          "data_agendamento": "24/08/2026",
-          "data_ord": "2026-08-24",
-          "status": "A FATURAR",
-          "obs": "SUPERMERCADO SUPERMAKET - PRODUTOS EM ENCARTE",
-          "status_logistica": "",
-          "justificativa_logistica": ""
-        },
-        {
-          "codigo_cliente": "94956",
-          "cliente": "JNH SUPERMERCADOS LTDA",
-          "cnpj": "32.455.926/0002-49",
-          "filial": "PORTO DA ROÇA",
-          "valor": 361.2,
-          "nf": "",
-          "data_agendamento": "24/08/2026",
-          "data_ord": "2026-08-24",
-          "status": "A FATURAR",
-          "obs": "CAIXAS E RÓTULOS ÍNTEGROS E ORIGINAIS - PRISCILLA 22998066371",
-          "status_logistica": "",
-          "justificativa_logistica": ""
-        },
-        {
-          "codigo_cliente": "94954",
-          "cliente": "COMERCIO DE CEREAIS IZANITA LIMITADA",
-          "cnpj": "07.258.484/0002-01",
-          "filial": "RIO DA AREIA",
-          "valor": 254.4,
-          "nf": "",
-          "data_agendamento": "24/08/2026",
-          "data_ord": "2026-08-24",
-          "status": "A FATURAR",
-          "obs": "CAIXAS E RÓTULOS ÍNTEGROS E ORIGINAIS - PRISCILLA 22998066371",
-          "status_logistica": "",
-          "justificativa_logistica": ""
-        },
-        {
           "codigo_cliente": "91982",
           "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
           "cnpj": "05.546.194/0017-06",
@@ -17721,20 +17735,6 @@ const AGENDAMENTO_DATA = {
           "data_ord": "2026-08-24",
           "status": "EM ROTA",
           "obs": "Caixas e rótulos íntegros;",
-          "status_logistica": "",
-          "justificativa_logistica": ""
-        },
-        {
-          "codigo_cliente": "28385",
-          "cliente": "BOM DE PRECO COMERCIO - REDE ECONOMIA",
-          "cnpj": "18.322.565/0002-31",
-          "filial": "SÃO GONÇALO",
-          "valor": 152.2,
-          "nf": "",
-          "data_agendamento": "24/08/2026",
-          "data_ord": "2026-08-24",
-          "status": "A FATURAR",
-          "obs": "CONTATO 21974318449 (VITORIA)",
           "status_logistica": "",
           "justificativa_logistica": ""
         },
@@ -17775,7 +17775,7 @@ const AGENDAMENTO_DATA = {
           "nf": "7754",
           "data_agendamento": "21/08/2026",
           "data_ord": "2026-08-21",
-          "status": "EM ROTA",
+          "status": "ENTREGUE",
           "obs": "Caixas e rótulos íntegros;",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -17789,7 +17789,7 @@ const AGENDAMENTO_DATA = {
           "nf": "7811",
           "data_agendamento": "21/08/2026",
           "data_ord": "2026-08-21",
-          "status": "EM ROTA",
+          "status": "ENTREGUE",
           "obs": "SUPERMERCADO SUPERMAKET - PRODUTOS EM ENCARTE",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -22615,7 +22615,7 @@ const AGENDAMENTO_DATA = {
           "nf": "7810",
           "data_agendamento": "21/08/2026",
           "data_ord": "2026-08-21",
-          "status": "EM ROTA",
+          "status": "ENTREGUE",
           "obs": "",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -25903,6 +25903,20 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
+          "codigo_cliente": "78916",
+          "cliente": "JM LISAMAR SUPERMERCADO LTDA",
+          "cnpj": "17.386.414/0001-01",
+          "filial": "CONCEICAO DE JACAREI",
+          "valor": 346.8,
+          "nf": "",
+          "data_agendamento": "27/08/2026",
+          "data_ord": "2026-08-27",
+          "status": "A FATURAR",
+          "obs": "ROTA DE VIAGEM",
+          "status_logistica": "",
+          "justificativa_logistica": ""
+        },
+        {
           "codigo_cliente": "82069",
           "cliente": "MERCADO IDEAL DE JACAREI LTDA",
           "cnpj": "09.567.039/0001-60",
@@ -26146,29 +26160,29 @@ const AGENDAMENTO_DATA = {
       "nome": "NÁTALI DE OLIVEIRA - OFF TRADE",
       "itens": [
         {
-          "codigo_cliente": "72989",
-          "cliente": "ARMAZEM DO PEN - GUARATIBA",
-          "cnpj": "41.473.025/0001-90",
-          "filial": "GUARATIBA",
-          "valor": 441.0,
-          "nf": "",
-          "data_agendamento": "24/08/2026",
-          "data_ord": "2026-08-24",
-          "status": "A FATURAR",
-          "obs": "",
-          "status_logistica": "",
-          "justificativa_logistica": ""
-        },
-        {
           "codigo_cliente": "19230",
           "cliente": "MERCADO VALE VERDE DE PACIENCIA (SUPER COMPRAS)",
           "cnpj": "28.423.936/0001-44",
           "filial": "PACIENCIA",
           "valor": 2386.2,
           "nf": "7101",
+          "data_agendamento": "25/08/2026",
+          "data_ord": "2026-08-25",
+          "status": "FATURADO",
+          "obs": "",
+          "status_logistica": "",
+          "justificativa_logistica": ""
+        },
+        {
+          "codigo_cliente": "72989",
+          "cliente": "ARMAZEM DO PEN - GUARATIBA",
+          "cnpj": "41.473.025/0001-90",
+          "filial": "GUARATIBA",
+          "valor": 441.0,
+          "nf": "7847",
           "data_agendamento": "24/08/2026",
           "data_ord": "2026-08-24",
-          "status": "FATURADO",
+          "status": "ENTREGUE",
           "obs": "",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -26960,7 +26974,7 @@ const AGENDAMENTO_DATA = {
       ]
     }
   ],
-  "atualizado_em": "24/08/2026 13:15",
+  "atualizado_em": "24/08/2026 14:32",
   "comparativo": [
     {
       "msg_id": "1a01bc9a975c4cab",
