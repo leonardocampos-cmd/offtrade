@@ -733,6 +733,20 @@ const AGENDAMENTO_DATA = {
       "nome": "ANGELO NEVES SUZART - OFF TRADE",
       "itens": [
         {
+          "codigo_cliente": "84130",
+          "cliente": "VILA SANTA CRUZ COMERCIO DE GENEROS ALIMENTICIOS LTDA",
+          "cnpj": "35.602.394/0001-32",
+          "filial": "SANTA CRUZ",
+          "valor": 1115.0,
+          "nf": "",
+          "data_agendamento": "25/08/2026",
+          "data_ord": "2026-08-25",
+          "status": "FATURADO",
+          "obs": "",
+          "status_logistica": "",
+          "justificativa_logistica": ""
+        },
+        {
           "codigo_cliente": "83800",
           "cliente": "SUPERMERCADOS RIO SUL DE COMENDADOR SOARES",
           "cnpj": "44.747.049/00001-88",
@@ -743,20 +757,6 @@ const AGENDAMENTO_DATA = {
           "data_ord": "2026-08-25",
           "status": "FATURADO",
           "obs": "Caixas e rótulos íntegros. VALIDADE ACIMA DE 5 MESES",
-          "status_logistica": "",
-          "justificativa_logistica": ""
-        },
-        {
-          "codigo_cliente": "84130",
-          "cliente": "VILA SANTA CRUZ COMERCIO DE GENEROS ALIMENTICIOS LTDA",
-          "cnpj": "35.602.394/0001-32",
-          "filial": "SANTA CRUZ",
-          "valor": 1115.0,
-          "nf": "",
-          "data_agendamento": "24/08/2026",
-          "data_ord": "2026-08-24",
-          "status": "FATURADO",
-          "obs": "",
           "status_logistica": "",
           "justificativa_logistica": ""
         },
@@ -6325,6 +6325,20 @@ const AGENDAMENTO_DATA = {
       "nome": "DIOGO RAPOSO - OFF TRADE",
       "itens": [
         {
+          "codigo_cliente": "92136",
+          "cliente": "KAUE ALVES DA SILVA",
+          "cnpj": "63.529.210/0001-91",
+          "filial": "OSWALDO CRUZ",
+          "valor": 94680.0,
+          "nf": "",
+          "data_agendamento": "25/08/2026",
+          "data_ord": "2026-08-25",
+          "status": "A FATURAR",
+          "obs": "Caixas e rótulos íntegros",
+          "status_logistica": "",
+          "justificativa_logistica": ""
+        },
+        {
           "codigo_cliente": "76883",
           "cliente": "MERCADO SANTO AGOSTINHO LTDA",
           "cnpj": "53.660.273/0001-29",
@@ -6335,20 +6349,6 @@ const AGENDAMENTO_DATA = {
           "data_ord": "2026-08-25",
           "status": "A FATURAR",
           "obs": "",
-          "status_logistica": "",
-          "justificativa_logistica": ""
-        },
-        {
-          "codigo_cliente": "92136",
-          "cliente": "KAUE ALVES DA SILVA",
-          "cnpj": "63.529.210/0001-91",
-          "filial": "OSWALDO CRUZ",
-          "valor": 94680.0,
-          "nf": "",
-          "data_agendamento": "24/08/2026",
-          "data_ord": "2026-08-24",
-          "status": "A FATURAR",
-          "obs": "Caixas e rótulos íntegros",
           "status_logistica": "",
           "justificativa_logistica": ""
         },
@@ -17557,6 +17557,34 @@ const AGENDAMENTO_DATA = {
       "nome": "LEANDRO SOUZA - OFF TRADE",
       "itens": [
         {
+          "codigo_cliente": "94955",
+          "cliente": "COMERCIO DE CEREAIS IZANITA LIMITADA",
+          "cnpj": "07.258.484/0001-12",
+          "filial": "BACAXA",
+          "valor": 254.4,
+          "nf": "",
+          "data_agendamento": "25/08/2026",
+          "data_ord": "2026-08-25",
+          "status": "A FATURAR",
+          "obs": "CAIXAS E RÓTULOS ÍNTEGROS E ORIGINAIS - PRISCILLA 22998066371",
+          "status_logistica": "",
+          "justificativa_logistica": ""
+        },
+        {
+          "codigo_cliente": "91993",
+          "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
+          "cnpj": "05.546.194/0025-16",
+          "filial": "COELHO NETO",
+          "valor": 431.4,
+          "nf": "",
+          "data_agendamento": "25/08/2026",
+          "data_ord": "2026-08-25",
+          "status": "A FATURAR",
+          "obs": "Caixas e rótulos íntegros; Bonificação",
+          "status_logistica": "",
+          "justificativa_logistica": ""
+        },
+        {
           "codigo_cliente": "80354",
           "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
           "cnpj": "18.322.565/0004-01",
@@ -17627,16 +17655,16 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "94955",
-          "cliente": "COMERCIO DE CEREAIS IZANITA LIMITADA",
-          "cnpj": "07.258.484/0001-12",
-          "filial": "BACAXA",
-          "valor": 254.4,
+          "codigo_cliente": "58584",
+          "cliente": "SUPERMARKET - ALVORADA",
+          "cnpj": "17.833.301/0001-07",
+          "filial": "ENGENHO VELHO",
+          "valor": 12042.0,
           "nf": "",
-          "data_agendamento": "24/08/2026",
-          "data_ord": "2026-08-24",
+          "data_agendamento": "25/08/2026",
+          "data_ord": "2026-08-25",
           "status": "A FATURAR",
-          "obs": "CAIXAS E RÓTULOS ÍNTEGROS E ORIGINAIS - PRISCILLA 22998066371",
+          "obs": "DESCARGA: R$25,00 POR PALLET PALETIZADO - CARRO DEDICADO.",
           "status_logistica": "",
           "justificativa_logistica": ""
         },
@@ -17651,20 +17679,6 @@ const AGENDAMENTO_DATA = {
           "data_ord": "2026-08-24",
           "status": "EM ROTA",
           "obs": "CONTATO 21974318449 (VITORIA)",
-          "status_logistica": "",
-          "justificativa_logistica": ""
-        },
-        {
-          "codigo_cliente": "91993",
-          "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
-          "cnpj": "05.546.194/0025-16",
-          "filial": "COELHO NETO",
-          "valor": 431.4,
-          "nf": "",
-          "data_agendamento": "24/08/2026",
-          "data_ord": "2026-08-24",
-          "status": "A FATURAR",
-          "obs": "Caixas e rótulos íntegros; Bonificação",
           "status_logistica": "",
           "justificativa_logistica": ""
         },
@@ -26974,7 +26988,7 @@ const AGENDAMENTO_DATA = {
       ]
     }
   ],
-  "atualizado_em": "24/08/2026 14:32",
+  "atualizado_em": "24/08/2026 15:30",
   "comparativo": [
     {
       "msg_id": "1a01bc9a975c4cab",
