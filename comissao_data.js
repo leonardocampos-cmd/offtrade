@@ -1,7 +1,7 @@
 // Gerado automaticamente por exportacao_comissao.py — ESTIMATIVA, não é a apuração oficial
 
 const COMISSAO_DATA = {
-  "atualizado_em": "24/08/2026 13:31",
+  "atualizado_em": "24/08/2026 14:40",
   "mes_referencia": "08/2026",
   "pct_premio_taxa": 0.015,
   "vendedores": [
@@ -379,7 +379,7 @@ const COMISSAO_DATA = {
       ],
       "ating_acumulado_total": 0.509527,
       "pct_premio": 0.00764291,
-      "liq_rigarr": 36967.31,
+      "liq_rigarr": 42334.39,
       "fat_castas": 0.0,
       "teto_comissao": 2000.0,
       "com_rigarr": 1019.05,
@@ -506,7 +506,7 @@ const COMISSAO_DATA = {
       ],
       "ating_acumulado_total": 0.497473,
       "pct_premio": 0.0074621,
-      "liq_rigarr": 34740.4,
+      "liq_rigarr": 35100.0,
       "fat_castas": 1435.8,
       "teto_comissao": 2000.0,
       "com_rigarr": 994.95,
@@ -887,7 +887,7 @@ const COMISSAO_DATA = {
       ],
       "ating_acumulado_total": 0.453655,
       "pct_premio": 0.00680482,
-      "liq_rigarr": 33556.59,
+      "liq_rigarr": 33814.27,
       "fat_castas": 0.0,
       "teto_comissao": 2000.0,
       "com_rigarr": 907.31,
@@ -1141,12 +1141,12 @@ const COMISSAO_DATA = {
       ],
       "ating_acumulado_total": 0.448612,
       "pct_premio": 0.00672918,
-      "liq_rigarr": 83619.94,
+      "liq_rigarr": 83894.74,
       "fat_castas": 9062.7,
       "teto_comissao": null,
-      "com_rigarr": 562.69,
+      "com_rigarr": 564.54,
       "com_castas": 60.98,
-      "comissao_estimada": 623.67
+      "comissao_estimada": 625.52
     },
     {
       "nome": "MARILENA TRAGEL - OFF TRADE",
