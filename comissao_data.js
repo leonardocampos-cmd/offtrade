@@ -1,7 +1,7 @@
 // Gerado automaticamente por exportacao_comissao.py — ESTIMATIVA, não é a apuração oficial
 
 const COMISSAO_DATA = {
-  "atualizado_em": "24/08/2026 10:43",
+  "atualizado_em": "24/08/2026 11:57",
   "mes_referencia": "08/2026",
   "pct_premio_taxa": 0.015,
   "vendedores": [
@@ -1522,12 +1522,12 @@ const COMISSAO_DATA = {
       ],
       "ating_acumulado_total": 0.195429,
       "pct_premio": 0.00293144,
-      "liq_rigarr": 51530.5,
+      "liq_rigarr": 54834.1,
       "fat_castas": 1495.1,
       "teto_comissao": null,
-      "com_rigarr": 151.06,
+      "com_rigarr": 160.74,
       "com_castas": 4.38,
-      "comissao_estimada": 155.44
+      "comissao_estimada": 165.12
     },
     {
       "nome": "DANIELLE MOURA - OFF TRADE",
