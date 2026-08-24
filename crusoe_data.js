@@ -1,5 +1,5 @@
 const CRUSOE_DATA = {
-  "atualizado_em": "21/08/2026 17:12",
+  "atualizado_em": "24/08/2026 10:24",
   "periodo": {
     "ini": "01/07/2026",
     "fim": "31/08/2026"
@@ -31,18 +31,18 @@ const CRUSOE_DATA = {
         {
           "rca": 275,
           "vendedor": "Maria Luiza",
-          "pedidos": 6,
+          "pedidos": 8,
           "novos_skus": 22,
           "reativacoes": 2,
-          "faturamento": 120976.15,
+          "faturamento": 156599.51,
           "meta_definida": false,
           "meta_valor": null,
           "meta_atingida": false,
-          "pontos_pedidos": 6,
+          "pontos_pedidos": 8,
           "pontos_novos_skus": 110,
           "pontos_reativacoes": 10,
           "pontos_meta": 0,
-          "pontos_total": 126,
+          "pontos_total": 128,
           "vendas": [
             {
               "numnota": "417035",
@@ -405,6 +405,130 @@ const CRUSOE_DATA = {
                       "pontos": 5
                     }
                   ]
+                }
+              ]
+            },
+            {
+              "numnota": "424038",
+              "data": "21/08/2026",
+              "cliente": "DRIFT COMERCIO DE ALIMENTOS S A",
+              "valor_pedido": 11639.96,
+              "eventos": [
+                {
+                  "tipo": "pedido",
+                  "pontos": 1
+                }
+              ],
+              "itens": [
+                {
+                  "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
+                  "qt": 3.0,
+                  "valor": 602.76,
+                  "pontuacoes": []
+                },
+                {
+                  "produto": "RC ATUM RALADO NATURAL 24X140G",
+                  "qt": 5.0,
+                  "valor": 760.35,
+                  "pontuacoes": []
+                },
+                {
+                  "produto": "RC ATUM RALADO OLEO 24X140G",
+                  "qt": 5.0,
+                  "valor": 760.4,
+                  "pontuacoes": []
+                },
+                {
+                  "produto": "RC ATUM PEDACOS EM OLEO 24X140G",
+                  "qt": 20.0,
+                  "valor": 3891.4,
+                  "pontuacoes": []
+                },
+                {
+                  "produto": "RC ATUM PEDACOS NATURAL 24X140G",
+                  "qt": 20.0,
+                  "valor": 3891.8,
+                  "pontuacoes": []
+                },
+                {
+                  "produto": "RC ATUM PEDACOS MOLHO DE TOMATE 24X140G",
+                  "qt": 5.0,
+                  "valor": 972.85,
+                  "pontuacoes": []
+                },
+                {
+                  "produto": "RC ATUM RALADO MOLHO DE TOMATE 24X140G",
+                  "qt": 5.0,
+                  "valor": 760.4,
+                  "pontuacoes": []
+                }
+              ]
+            },
+            {
+              "numnota": "424039",
+              "data": "21/08/2026",
+              "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
+              "valor_pedido": 23983.4,
+              "eventos": [
+                {
+                  "tipo": "pedido",
+                  "pontos": 1
+                }
+              ],
+              "itens": [
+                {
+                  "produto": "RC SARDINHA EM OLEO 50X125G",
+                  "qt": 30.0,
+                  "valor": 6027.6,
+                  "pontuacoes": []
+                },
+                {
+                  "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
+                  "qt": 5.0,
+                  "valor": 1004.6,
+                  "pontuacoes": []
+                },
+                {
+                  "produto": "RC ATUM RALADO NATURAL 24X140G",
+                  "qt": 20.0,
+                  "valor": 3041.4,
+                  "pontuacoes": []
+                },
+                {
+                  "produto": "RC ATUM RALADO OLEO 24X140G",
+                  "qt": 15.0,
+                  "valor": 2281.2,
+                  "pontuacoes": []
+                },
+                {
+                  "produto": "RC ATUM SOLIDO OLEO 24X170G",
+                  "qt": 30.0,
+                  "valor": 5030.7,
+                  "pontuacoes": []
+                },
+                {
+                  "produto": "RC ATUM PEDACOS EM OLEO 24X140G",
+                  "qt": 5.0,
+                  "valor": 972.85,
+                  "pontuacoes": []
+                },
+                {
+                  "produto": "RC ATUM PEDACOS NATURAL 24X140G",
+                  "qt": 20.0,
+                  "valor": 3891.8,
+                  "pontuacoes": []
+                },
+                {
+                  "produto": "RC ATUM PEDACOS MOLHO DE TOMATE 24X140G",
+                  "qt": 5.0,
+                  "valor": 972.85,
+                  "pontuacoes": []
+                },
+                {
+                  "produto": "RC ATUM RALADO MOLHO DE TOMATE 24X140G",
+                  "qt": 5.0,
+                  "valor": 760.4,
+                  "pontuacoes": []
                 }
               ]
             }
@@ -3377,14 +3501,14 @@ const CRUSOE_DATA = {
         {
           "rca": 153,
           "vendedor": "Angelo Neves Suzart",
-          "pedidos": 12,
-          "positivacoes": 2,
-          "novos_skus": 15,
-          "faturamento": 18647.15,
-          "pontos_positivacao": 10,
-          "pontos_novos_skus": 60,
-          "pontos_pedidos_valor": 19,
-          "pontos_total": 89,
+          "pedidos": 15,
+          "positivacoes": 5,
+          "novos_skus": 23,
+          "faturamento": 21919.28,
+          "pontos_positivacao": 25,
+          "pontos_novos_skus": 92,
+          "pontos_pedidos_valor": 24,
+          "pontos_total": 141,
           "vendas": [
             {
               "numnota": "408274",
@@ -3779,6 +3903,148 @@ const CRUSOE_DATA = {
                   "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
                   "qt": 3.0,
                   "valor": 628.5,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 4
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "numnota": "424040",
+              "data": "21/08/2026",
+              "cliente": "MERCADO JARDINS DA ILHA LTDA",
+              "valor_pedido": 1177.13,
+              "eventos": [
+                {
+                  "tipo": "pedido (R$1001-3000)",
+                  "pontos": 2
+                },
+                {
+                  "tipo": "positivação (novo/reativação)",
+                  "pontos": 5
+                }
+              ],
+              "itens": [
+                {
+                  "produto": "RC SARDINHA EM OLEO 50X125G",
+                  "qt": 2.0,
+                  "valor": 419.0,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 4
+                    }
+                  ]
+                },
+                {
+                  "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
+                  "qt": 2.0,
+                  "valor": 419.0,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 4
+                    }
+                  ]
+                },
+                {
+                  "produto": "RC ATUM SOLIDO OLEO 24X170G",
+                  "qt": 1.0,
+                  "valor": 169.92,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 4
+                    }
+                  ]
+                },
+                {
+                  "produto": "RC ATUM PEDACOS NATURAL 24X140G",
+                  "qt": 1.0,
+                  "valor": 169.21,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 4
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "numnota": "424041",
+              "data": "21/08/2026",
+              "cliente": "MERCADO JARDINS DA ILHA LTDA",
+              "valor_pedido": 838.0,
+              "eventos": [
+                {
+                  "tipo": "pedido (R$500-1000)",
+                  "pontos": 1
+                },
+                {
+                  "tipo": "positivação (novo/reativação)",
+                  "pontos": 5
+                }
+              ],
+              "itens": [
+                {
+                  "produto": "RC SARDINHA EM OLEO 50X125G",
+                  "qt": 2.0,
+                  "valor": 419.0,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 4
+                    }
+                  ]
+                },
+                {
+                  "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
+                  "qt": 2.0,
+                  "valor": 419.0,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 4
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "numnota": "424046",
+              "data": "21/08/2026",
+              "cliente": "MERCADO JARDINS DA ILHA LTDA",
+              "valor_pedido": 1257.0,
+              "eventos": [
+                {
+                  "tipo": "pedido (R$1001-3000)",
+                  "pontos": 2
+                },
+                {
+                  "tipo": "positivação (novo/reativação)",
+                  "pontos": 5
+                }
+              ],
+              "itens": [
+                {
+                  "produto": "RC SARDINHA EM OLEO 50X125G",
+                  "qt": 2.0,
+                  "valor": 419.0,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 4
+                    }
+                  ]
+                },
+                {
+                  "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
+                  "qt": 4.0,
+                  "valor": 838.0,
                   "pontuacoes": [
                     {
                       "tipo": "novo SKU",
