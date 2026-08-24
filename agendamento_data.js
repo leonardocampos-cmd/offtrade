@@ -6325,6 +6325,20 @@ const AGENDAMENTO_DATA = {
       "nome": "DIOGO RAPOSO - OFF TRADE",
       "itens": [
         {
+          "codigo_cliente": "76883",
+          "cliente": "MERCADO SANTO AGOSTINHO LTDA",
+          "cnpj": "53.660.273/0001-29",
+          "filial": "BARRA DA TIJUCA",
+          "valor": 2450.2,
+          "nf": "",
+          "data_agendamento": "25/08/2026",
+          "data_ord": "2026-08-25",
+          "status": "A FATURAR",
+          "obs": "",
+          "status_logistica": "",
+          "justificativa_logistica": ""
+        },
+        {
           "codigo_cliente": "92136",
           "cliente": "KAUE ALVES DA SILVA",
           "cnpj": "63.529.210/0001-91",
@@ -17607,7 +17621,7 @@ const AGENDAMENTO_DATA = {
           "nf": "7854",
           "data_agendamento": "24/08/2026",
           "data_ord": "2026-08-24",
-          "status": "EM ROTA",
+          "status": "ENTREGUE",
           "obs": "CONTATO 21974318449 (VITORIA)",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -22906,6 +22920,62 @@ const AGENDAMENTO_DATA = {
       "nome": "MARIA LUIZA - OFF TRADE",
       "itens": [
         {
+          "codigo_cliente": "84034",
+          "cliente": "EMISE SUPERMERCADO LTDA",
+          "cnpj": "17.659.742/0002-07",
+          "filial": "BARRA MANSA",
+          "valor": 328.32,
+          "nf": "",
+          "data_agendamento": "25/08/2026",
+          "data_ord": "2026-08-25",
+          "status": "A FATURAR",
+          "obs": "ROTA DE VIAGEM",
+          "status_logistica": "",
+          "justificativa_logistica": ""
+        },
+        {
+          "codigo_cliente": "84031",
+          "cliente": "ROYAL CENTER COMERCIAL LTDA",
+          "cnpj": "00.784.394/0001-16",
+          "filial": "RESENDE",
+          "valor": 473.4,
+          "nf": "",
+          "data_agendamento": "25/08/2026",
+          "data_ord": "2026-08-25",
+          "status": "A FATURAR",
+          "obs": "ROTA DE VIAGEM",
+          "status_logistica": "",
+          "justificativa_logistica": ""
+        },
+        {
+          "codigo_cliente": "84032",
+          "cliente": "KETEK COMERCIAL LTDA",
+          "cnpj": "11.404.442/0002-09",
+          "filial": "TRES RIOS",
+          "valor": 551.52,
+          "nf": "",
+          "data_agendamento": "25/08/2026",
+          "data_ord": "2026-08-25",
+          "status": "A FATURAR",
+          "obs": "ROTA DE VIAGEM",
+          "status_logistica": "",
+          "justificativa_logistica": ""
+        },
+        {
+          "codigo_cliente": "84029",
+          "cliente": "EMISE SUPERMERCADO LTDA",
+          "cnpj": "17.659.742/0005-50",
+          "filial": "VOLTA REDONDA",
+          "valor": 515.64,
+          "nf": "",
+          "data_agendamento": "25/08/2026",
+          "data_ord": "2026-08-25",
+          "status": "A FATURAR",
+          "obs": "",
+          "status_logistica": "",
+          "justificativa_logistica": ""
+        },
+        {
           "codigo_cliente": "60844",
           "cliente": "DOM ATACAREJO SA",
           "cnpj": "31.698.759/0004-66",
@@ -22934,20 +23004,6 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "84034",
-          "cliente": "EMISE SUPERMERCADO LTDA",
-          "cnpj": "17.659.742/0002-07",
-          "filial": "BARRA MANSA",
-          "valor": 328.32,
-          "nf": "",
-          "data_agendamento": "24/08/2026",
-          "data_ord": "2026-08-24",
-          "status": "A FATURAR",
-          "obs": "ROTA DE VIAGEM",
-          "status_logistica": "",
-          "justificativa_logistica": ""
-        },
-        {
           "codigo_cliente": "74407",
           "cliente": "DOM ATACAREJO SA",
           "cnpj": "31.698.759/0012-76",
@@ -22958,48 +23014,6 @@ const AGENDAMENTO_DATA = {
           "data_ord": "2026-08-24",
           "status": "FATURADO",
           "obs": "CARGA SECA BATIDA - CANHOTO ASSINADO \nELETRONICAMENTE",
-          "status_logistica": "",
-          "justificativa_logistica": ""
-        },
-        {
-          "codigo_cliente": "84031",
-          "cliente": "ROYAL CENTER COMERCIAL LTDA",
-          "cnpj": "00.784.394/0001-16",
-          "filial": "RESENDE",
-          "valor": 473.4,
-          "nf": "",
-          "data_agendamento": "24/08/2026",
-          "data_ord": "2026-08-24",
-          "status": "A FATURAR",
-          "obs": "ROTA DE VIAGEM",
-          "status_logistica": "",
-          "justificativa_logistica": ""
-        },
-        {
-          "codigo_cliente": "84032",
-          "cliente": "KETEK COMERCIAL LTDA",
-          "cnpj": "11.404.442/0002-09",
-          "filial": "TRES RIOS",
-          "valor": 551.52,
-          "nf": "",
-          "data_agendamento": "24/08/2026",
-          "data_ord": "2026-08-24",
-          "status": "A FATURAR",
-          "obs": "ROTA DE VIAGEM",
-          "status_logistica": "",
-          "justificativa_logistica": ""
-        },
-        {
-          "codigo_cliente": "84029",
-          "cliente": "EMISE SUPERMERCADO LTDA",
-          "cnpj": "17.659.742/0005-50",
-          "filial": "VOLTA REDONDA",
-          "valor": 515.64,
-          "nf": "",
-          "data_agendamento": "24/08/2026",
-          "data_ord": "2026-08-24",
-          "status": "A FATURAR",
-          "obs": "",
           "status_logistica": "",
           "justificativa_logistica": ""
         },
@@ -26946,7 +26960,7 @@ const AGENDAMENTO_DATA = {
       ]
     }
   ],
-  "atualizado_em": "24/08/2026 10:34",
+  "atualizado_em": "24/08/2026 11:47",
   "comparativo": [
     {
       "msg_id": "1a01bc9a975c4cab",
