@@ -1,5 +1,5 @@
 const CRUSOE_DATA = {
-  "atualizado_em": "24/08/2026 17:05",
+  "atualizado_em": "24/08/2026 17:55",
   "periodo": {
     "ini": "01/07/2026",
     "fim": "31/08/2026"
@@ -666,14 +666,14 @@ const CRUSOE_DATA = {
         {
           "rca": 412,
           "vendedor": "Barbara Cabral",
-          "pedidos": 26,
+          "pedidos": 27,
           "positivacoes": 15,
-          "novos_skus": 115,
-          "faturamento": 43658.93,
+          "novos_skus": 116,
+          "faturamento": 44158.93,
           "pontos_positivacao": 75,
-          "pontos_novos_skus": 460,
-          "pontos_pedidos_valor": 34,
-          "pontos_total": 569,
+          "pontos_novos_skus": 464,
+          "pontos_pedidos_valor": 35,
+          "pontos_total": 574,
           "vendas": [
             {
               "numnota": "408264",
@@ -2405,6 +2405,37 @@ const CRUSOE_DATA = {
                   "produto": "RC ATUM RALADO OLEO 24X140G",
                   "qt": 1.0,
                   "valor": 129.84,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 4
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "numnota": "424362",
+              "data": "24/08/2026",
+              "cliente": "BRASIL WEST ALIMENTOS LTDA",
+              "valor_pedido": 500.0,
+              "eventos": [
+                {
+                  "tipo": "pedido (R$500-1000)",
+                  "pontos": 1
+                }
+              ],
+              "itens": [
+                {
+                  "produto": "RC SARDINHA EM OLEO 50X125G",
+                  "qt": 1.0,
+                  "valor": 250.0,
+                  "pontuacoes": []
+                },
+                {
+                  "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
+                  "qt": 1.0,
+                  "valor": 250.0,
                   "pontuacoes": [
                     {
                       "tipo": "novo SKU",
