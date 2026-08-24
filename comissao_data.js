@@ -1,7 +1,7 @@
 // Gerado automaticamente por exportacao_comissao.py — ESTIMATIVA, não é a apuração oficial
 
 const COMISSAO_DATA = {
-  "atualizado_em": "24/08/2026 14:40",
+  "atualizado_em": "24/08/2026 15:35",
   "mes_referencia": "08/2026",
   "pct_premio_taxa": 0.015,
   "vendedores": [
@@ -125,7 +125,7 @@ const COMISSAO_DATA = {
       ],
       "ating_acumulado_total": 0.658468,
       "pct_premio": 0.00987702,
-      "liq_rigarr": 79967.96,
+      "liq_rigarr": 93772.76,
       "fat_castas": 1679.2,
       "teto_comissao": 3000.0,
       "com_rigarr": 1975.4,
@@ -267,10 +267,10 @@ const COMISSAO_DATA = {
         {
           "label": "FATURAMENTO",
           "meta": 65000.0,
-          "realizado": 44325.93,
+          "realizado": 44591.01,
           "peso": 0.1,
-          "ating_meta": 0.681937,
-          "ating_acumulado": 0.068194
+          "ating_meta": 0.686016,
+          "ating_acumulado": 0.068602
         },
         {
           "label": "FATURAMENTO PERNOD",
@@ -377,14 +377,14 @@ const COMISSAO_DATA = {
           "ating_acumulado": 0.033333
         }
       ],
-      "ating_acumulado_total": 0.509527,
-      "pct_premio": 0.00764291,
+      "ating_acumulado_total": 0.509935,
+      "pct_premio": 0.00764903,
       "liq_rigarr": 42334.39,
       "fat_castas": 0.0,
       "teto_comissao": 2000.0,
-      "com_rigarr": 1019.05,
+      "com_rigarr": 1019.87,
       "com_castas": 0.0,
-      "comissao_estimada": 1019.05
+      "comissao_estimada": 1019.87
     },
     {
       "nome": "ANA CLARA FASSANO - OFF TRADE",
@@ -506,7 +506,7 @@ const COMISSAO_DATA = {
       ],
       "ating_acumulado_total": 0.497473,
       "pct_premio": 0.0074621,
-      "liq_rigarr": 35100.0,
+      "liq_rigarr": 37348.09,
       "fat_castas": 1435.8,
       "teto_comissao": 2000.0,
       "com_rigarr": 994.95,
@@ -648,10 +648,10 @@ const COMISSAO_DATA = {
         {
           "label": "FATURAMENTO",
           "meta": 250000.0,
-          "realizado": 84459.34,
+          "realizado": 86763.34,
           "peso": 0.7,
-          "ating_meta": 0.337837,
-          "ating_acumulado": 0.236486
+          "ating_meta": 0.347053,
+          "ating_acumulado": 0.242937
         },
         {
           "label": "FATURAMENTO PERNOD",
@@ -744,7 +744,7 @@ const COMISSAO_DATA = {
         {
           "label": "POSITIVAÇÃO TATUZINHO",
           "meta": 0.0,
-          "realizado": 20,
+          "realizado": 24,
           "peso": 0.0,
           "ating_meta": 0.0,
           "ating_acumulado": 0.0
@@ -758,14 +758,14 @@ const COMISSAO_DATA = {
           "ating_acumulado": 0.0
         }
       ],
-      "ating_acumulado_total": 0.390597,
-      "pct_premio": 0.00585895,
+      "ating_acumulado_total": 0.397048,
+      "pct_premio": 0.00595572,
       "liq_rigarr": 152976.6,
       "fat_castas": 6777.0,
       "teto_comissao": null,
-      "com_rigarr": 896.28,
-      "com_castas": 39.71,
-      "comissao_estimada": 935.99
+      "com_rigarr": 911.09,
+      "com_castas": 40.36,
+      "comissao_estimada": 951.45
     },
     {
       "nome": "ADEILSON GONÇALVEZ - OFF TRADE",
@@ -1156,10 +1156,10 @@ const COMISSAO_DATA = {
         {
           "label": "FATURAMENTO",
           "meta": 120000.0,
-          "realizado": 77807.84,
+          "realizado": 78920.38,
           "peso": 0.7,
-          "ating_meta": 0.648399,
-          "ating_acumulado": 0.453879
+          "ating_meta": 0.65767,
+          "ating_acumulado": 0.460369
         },
         {
           "label": "FATURAMENTO PERNOD",
@@ -1196,10 +1196,10 @@ const COMISSAO_DATA = {
         {
           "label": "POSITIVAÇÃO",
           "meta": 90.0,
-          "realizado": 75,
+          "realizado": 76,
           "peso": 0.1,
-          "ating_meta": 0.833333,
-          "ating_acumulado": 0.083333
+          "ating_meta": 0.844444,
+          "ating_acumulado": 0.084444
         },
         {
           "label": "POSITIVAÇÃO ESSENZA",
@@ -1252,7 +1252,7 @@ const COMISSAO_DATA = {
         {
           "label": "POSITIVAÇÃO TATUZINHO",
           "meta": 0.0,
-          "realizado": 44,
+          "realizado": 45,
           "peso": 0.0,
           "ating_meta": 0.0,
           "ating_acumulado": 0.0
@@ -1266,14 +1266,14 @@ const COMISSAO_DATA = {
           "ating_acumulado": 0.0
         }
       ],
-      "ating_acumulado_total": 0.672652,
-      "pct_premio": 0.01008978,
+      "ating_acumulado_total": 0.680253,
+      "pct_premio": 0.01020379,
       "liq_rigarr": 41911.95,
       "fat_castas": 6984.26,
       "teto_comissao": null,
-      "com_rigarr": 422.88,
-      "com_castas": 70.47,
-      "comissao_estimada": 493.35
+      "com_rigarr": 427.66,
+      "com_castas": 71.27,
+      "comissao_estimada": 498.93
     },
     {
       "nome": "NÁTALI DE OLIVEIRA - OFF TRADE",
@@ -1395,12 +1395,12 @@ const COMISSAO_DATA = {
       ],
       "ating_acumulado_total": 0.472288,
       "pct_premio": 0.00708432,
-      "liq_rigarr": 39524.88,
+      "liq_rigarr": 40483.57,
       "fat_castas": 5945.5,
       "teto_comissao": null,
-      "com_rigarr": 280.01,
+      "com_rigarr": 286.8,
       "com_castas": 42.12,
-      "comissao_estimada": 322.13
+      "comissao_estimada": 328.92
     },
     {
       "nome": "BARBARA CABRAL - OFF TRADE",
