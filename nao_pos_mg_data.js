@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_mg.py
 
 const NAO_POS_MG_DATA = {
-  "atualizado_em": "24/08/2026 15:32",
+  "atualizado_em": "24/08/2026 16:23",
   "por_vendedor": {
     "BRUNA CASTRO MELLO": [
       {
@@ -209,20 +209,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "DIAGEO",
             "qt": 1,
             "valor": 91.43
-          }
-        ]
-      },
-      {
-        "codcli": "33304",
-        "cliente": "SG COMERCIO E VAREJO LTDA",
-        "bairro": "SÃO JOSÉ",
-        "dtultcomp": "02/07/2026",
-        "produtos": [
-          {
-            "produto": "COQUETEL ALCOÓLICO DON CREAM DULCE DE LE",
-            "fantasia": "DON LUIZ",
-            "qt": 18,
-            "valor": 1078.2
           }
         ]
       },
@@ -4211,6 +4197,32 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
+        "codcli": "30323",
+        "cliente": "CASA DE FRIOS E MASSAS AO GOSTO LTDA",
+        "bairro": "SANTO ANTONIO",
+        "dtultcomp": "23/06/2026",
+        "produtos": [
+          {
+            "produto": "4 PACK RED BULL MELANCIA",
+            "fantasia": "RED BULL",
+            "qt": 3,
+            "valor": 89.88
+          },
+          {
+            "produto": "4 PACK RED BULL SUMMER MELAO MARACUJA",
+            "fantasia": "RED BULL",
+            "qt": 3,
+            "valor": 89.88
+          },
+          {
+            "produto": "RED BULL SUGAR FREE  250 ML CX C/24",
+            "fantasia": "RED BULL",
+            "qt": 1,
+            "valor": 179.76
+          }
+        ]
+      },
+      {
         "codcli": "38776",
         "cliente": "CASA DE FRIOS E MASSAS AO GOSTO LTDA",
         "bairro": "ESTORIL",
@@ -4239,32 +4251,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "RED BULL",
             "qt": 1,
             "valor": 29.96
-          },
-          {
-            "produto": "RED BULL SUGAR FREE  250 ML CX C/24",
-            "fantasia": "RED BULL",
-            "qt": 1,
-            "valor": 179.76
-          }
-        ]
-      },
-      {
-        "codcli": "30323",
-        "cliente": "CASA DE FRIOS E MASSAS AO GOSTO LTDA",
-        "bairro": "SANTO ANTONIO",
-        "dtultcomp": "23/06/2026",
-        "produtos": [
-          {
-            "produto": "4 PACK RED BULL MELANCIA",
-            "fantasia": "RED BULL",
-            "qt": 3,
-            "valor": 89.88
-          },
-          {
-            "produto": "4 PACK RED BULL SUMMER MELAO MARACUJA",
-            "fantasia": "RED BULL",
-            "qt": 3,
-            "valor": 89.88
           },
           {
             "produto": "RED BULL SUGAR FREE  250 ML CX C/24",
@@ -4625,44 +4611,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "RED BULL",
             "qt": 1,
             "valor": 184.56
-          }
-        ]
-      },
-      {
-        "codcli": "30089",
-        "cliente": "VILLA FERNANDA FOODS LTDA",
-        "bairro": "VILA DA SERRA",
-        "dtultcomp": "17/07/2026",
-        "produtos": [
-          {
-            "produto": "J W BLACK LABEL 12/50 ML",
-            "fantasia": "DIAGEO",
-            "qt": 2,
-            "valor": 501.6
-          },
-          {
-            "produto": "J W RED LABEL 12/50 ML",
-            "fantasia": "DIAGEO",
-            "qt": 4,
-            "valor": 311.6
-          },
-          {
-            "produto": "MINIATURA BEEFEATER  12 X 50ML",
-            "fantasia": "PERNOD",
-            "qt": 2,
-            "valor": 307.8
-          },
-          {
-            "produto": "MINIATURA CHIVAS 12YO 12 X 50ML",
-            "fantasia": "PERNOD",
-            "qt": 2,
-            "valor": 319.8
-          },
-          {
-            "produto": "MINIATURA JAMESON 12 X 50ML",
-            "fantasia": "PERNOD",
-            "qt": 1,
-            "valor": 99.9
           }
         ]
       },
@@ -5069,20 +5017,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "PERNOD",
             "qt": 12,
             "valor": 1318.8
-          }
-        ]
-      },
-      {
-        "codcli": "30530",
-        "cliente": "DISTRIBUIDORA CAMPOS - BARBACENA LTDA",
-        "bairro": "PONTILHAO",
-        "dtultcomp": "27/07/2026",
-        "produtos": [
-          {
-            "produto": "ESPUMANTE CHANDON RESERVE BRUT 750ML",
-            "fantasia": "LVMH",
-            "qt": 60,
-            "valor": 4980.0
           }
         ]
       },
