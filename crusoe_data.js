@@ -1,5 +1,5 @@
 const CRUSOE_DATA = {
-  "atualizado_em": "24/08/2026 11:35",
+  "atualizado_em": "24/08/2026 13:07",
   "periodo": {
     "ini": "01/07/2026",
     "fim": "31/08/2026"
@@ -668,12 +668,12 @@ const CRUSOE_DATA = {
           "vendedor": "Barbara Cabral",
           "pedidos": 26,
           "positivacoes": 15,
-          "novos_skus": 116,
-          "faturamento": 44042.45,
+          "novos_skus": 115,
+          "faturamento": 43658.93,
           "pontos_positivacao": 75,
-          "pontos_novos_skus": 464,
-          "pontos_pedidos_valor": 35,
-          "pontos_total": 574,
+          "pontos_novos_skus": 460,
+          "pontos_pedidos_valor": 34,
+          "pontos_total": 569,
           "vendas": [
             {
               "numnota": "408264",
@@ -1268,11 +1268,11 @@ const CRUSOE_DATA = {
               "numnota": "408539",
               "data": "01/07/2026",
               "cliente": "MERCADO ADONAI DE INHOAIBA LTDA",
-              "valor_pedido": 3303.58,
+              "valor_pedido": 2920.06,
               "eventos": [
                 {
-                  "tipo": "pedido (acima de R$3001)",
-                  "pontos": 3
+                  "tipo": "pedido (R$1001-3000)",
+                  "pontos": 2
                 },
                 {
                   "tipo": "positivação (novo/reativação)",
@@ -1328,17 +1328,6 @@ const CRUSOE_DATA = {
                   "produto": "RC ATUM SOLIDO OLEO 24X170G",
                   "qt": 2.0,
                   "valor": 417.12,
-                  "pontuacoes": [
-                    {
-                      "tipo": "novo SKU",
-                      "pontos": 4
-                    }
-                  ]
-                },
-                {
-                  "produto": "RC ATUM PEDACOS EM OLEO 24X140G",
-                  "qt": 2.0,
-                  "valor": 383.52,
                   "pontuacoes": [
                     {
                       "tipo": "novo SKU",
