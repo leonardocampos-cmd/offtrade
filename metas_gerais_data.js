@@ -1,12 +1,12 @@
 const METAS_GERAIS_DATA = {
-  "atualizado_em": "24/08/2026 14:08",
+  "atualizado_em": "24/08/2026 15:13",
   "mes": "Ago/26",
   "mes_ant": "Jul/26",
   "dias_corridos": 24,
   "dias_no_mes": 31,
   "dias_restantes": 7,
   "resumo": {
-    "fat": 10009104.08,
+    "fat": 10014424.16,
     "fat_ant": 8817065.62,
     "fat_ant_completo": 13467661.44,
     "pos": 1285,
@@ -15,11 +15,11 @@ const METAS_GERAIS_DATA = {
   },
   "total": {
     "meta": 12300000.0,
-    "fat": 10009104.08,
+    "fat": 10014424.16,
     "fat_ant": 8817065.62,
     "fat_ant_completo": 13467661.44,
     "pct": 81.4,
-    "nec_dia": 327270.85
+    "nec_dia": 326510.83
   },
   "estados": [
     {
@@ -65,11 +65,11 @@ const METAS_GERAIS_DATA = {
       "estado": "MG",
       "label": "Minas Gerais",
       "meta": 2100000.0,
-      "fat": 1155128.8,
+      "fat": 1160448.88,
       "fat_ant": 995285.34,
       "pos": 179,
-      "pct": 55.0,
-      "nec_dia": 134981.6,
+      "pct": 55.3,
+      "nec_dia": 134221.59,
       "fat_ant_completo": 1873633.49,
       "pos_ant": 218,
       "pos_ant_completo": 260
@@ -111,13 +111,13 @@ const METAS_GERAIS_DATA = {
     },
     {
       "fantasia": "RED BULL",
-      "fat": 867686.09,
+      "fat": 869987.21,
       "fat_ant": 391464.35,
       "por_estado": {
         "RJ": 222132.4,
         "SP": 302330.88,
         "ES": 174076.17,
-        "MG": 169146.64
+        "MG": 171447.76
       }
     },
     {
@@ -319,6 +319,17 @@ const METAS_GERAIS_DATA = {
       }
     },
     {
+      "fantasia": "HEINEKEN",
+      "fat": 30863.68,
+      "fat_ant": 32420.8,
+      "por_estado": {
+        "RJ": 0.0,
+        "SP": 0.0,
+        "ES": 0.0,
+        "MG": 30863.68
+      }
+    },
+    {
       "fantasia": "CASA PERINI",
       "fat": 30307.5,
       "fat_ant": 137398.9,
@@ -327,17 +338,6 @@ const METAS_GERAIS_DATA = {
         "SP": 0.0,
         "ES": 0.0,
         "MG": 0.0
-      }
-    },
-    {
-      "fantasia": "HEINEKEN",
-      "fat": 27844.72,
-      "fat_ant": 32420.8,
-      "por_estado": {
-        "RJ": 0.0,
-        "SP": 0.0,
-        "ES": 0.0,
-        "MG": 27844.72
       }
     },
     {
