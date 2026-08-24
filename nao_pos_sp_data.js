@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_sp.py
 
 const NAO_POS_SP_DATA = {
-  "atualizado_em": "24/08/2026 16:22",
+  "atualizado_em": "24/08/2026 17:14",
   "por_vendedor": {
     "ADER ALONSO": [
       {
@@ -10737,6 +10737,13 @@ const NAO_POS_SP_DATA = {
         "bairro": "ATHENAS PAULISTA",
         "dtultcomp": "nan",
         "produtos": []
+      },
+      {
+        "codcli": "52636",
+        "cliente": "LEANDRO DA SILVA MUNIZ LTDA",
+        "bairro": "JARDIM SAO BENEDITO",
+        "dtultcomp": "nan",
+        "produtos": []
       }
     ],
     "PATRICIA RAMOS": [
@@ -11051,14 +11058,14 @@ const NAO_POS_SP_DATA = {
           {
             "produto": "GIN ROCKS STRAWBERRY 1LT",
             "fantasia": "FANTE",
-            "qt": 20,
-            "valor": 410.8
+            "qt": 24,
+            "valor": 492.96
           },
           {
             "produto": "GIN ROCKS STRAWBERRY 1LT",
             "fantasia": "FANTE",
-            "qt": 24,
-            "valor": 492.96
+            "qt": 20,
+            "valor": 410.8
           },
           {
             "produto": "GIN ROCKS WATERMELON 1LT",
@@ -11688,14 +11695,14 @@ const NAO_POS_SP_DATA = {
           {
             "produto": "ESPUMANTE CHANDON BRUT ROSE 750ML",
             "fantasia": "MOET HENNESY",
-            "qt": 6,
-            "valor": 455.4
+            "qt": 12,
+            "valor": 910.8
           },
           {
             "produto": "ESPUMANTE CHANDON BRUT ROSE 750ML",
             "fantasia": "MOET HENNESY",
-            "qt": 12,
-            "valor": 910.8
+            "qt": 6,
+            "valor": 455.4
           }
         ]
       },
@@ -12003,6 +12010,26 @@ const NAO_POS_SP_DATA = {
         ]
       },
       {
+        "codcli": "52009",
+        "cliente": "COMERCIAL SUPER SAO JOSE LTDA",
+        "bairro": "ALTOS DE IPANEMA",
+        "dtultcomp": "27/07/2026",
+        "produtos": [
+          {
+            "produto": "VINHO DOM BOSCO TINTO SECO 750ML",
+            "fantasia": "CRS BRANDS",
+            "qt": 36,
+            "valor": 323.64
+          },
+          {
+            "produto": "VINHO DOM BOSCO TINTO SUAVE 750ML",
+            "fantasia": "CRS BRANDS",
+            "qt": 360,
+            "valor": 3236.4
+          }
+        ]
+      },
+      {
         "codcli": "52010",
         "cliente": "COMERCIAL SUPER SAO JOSE LTDA",
         "bairro": "JARDIM SÃO CONRADO",
@@ -12039,26 +12066,6 @@ const NAO_POS_SP_DATA = {
             "fantasia": "CRS BRANDS",
             "qt": 600,
             "valor": 5394.0
-          }
-        ]
-      },
-      {
-        "codcli": "52009",
-        "cliente": "COMERCIAL SUPER SAO JOSE LTDA",
-        "bairro": "ALTOS DE IPANEMA",
-        "dtultcomp": "27/07/2026",
-        "produtos": [
-          {
-            "produto": "VINHO DOM BOSCO TINTO SECO 750ML",
-            "fantasia": "CRS BRANDS",
-            "qt": 36,
-            "valor": 323.64
-          },
-          {
-            "produto": "VINHO DOM BOSCO TINTO SUAVE 750ML",
-            "fantasia": "CRS BRANDS",
-            "qt": 360,
-            "valor": 3236.4
           }
         ]
       },
@@ -13552,6 +13559,44 @@ const NAO_POS_SP_DATA = {
         ]
       },
       {
+        "codcli": "40452",
+        "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
+        "bairro": "PARQUE DO LAGO",
+        "dtultcomp": "31/07/2026",
+        "produtos": [
+          {
+            "produto": "AGUARDENTE OLD CESAR 88 965 ML",
+            "fantasia": "CRS BRANDS",
+            "qt": 36,
+            "valor": 359.64
+          },
+          {
+            "produto": "GIN ROCKS 1LT",
+            "fantasia": "FANTE",
+            "qt": 6,
+            "valor": 123.0
+          },
+          {
+            "produto": "GIN ROCKS STRAWBERRY 1LT",
+            "fantasia": "FANTE",
+            "qt": 6,
+            "valor": 123.0
+          },
+          {
+            "produto": "RUM MONTILLA OURO 1L",
+            "fantasia": "PERNOD",
+            "qt": 12,
+            "valor": 233.4
+          },
+          {
+            "produto": "WHISKY BELLS 700ML",
+            "fantasia": "DIAGEO",
+            "qt": 12,
+            "valor": 476.28
+          }
+        ]
+      },
+      {
         "codcli": "38491",
         "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
         "bairro": "VILA ANDRADE",
@@ -13612,44 +13657,6 @@ const NAO_POS_SP_DATA = {
             "fantasia": "PERNOD",
             "qt": 12,
             "valor": 233.4
-          }
-        ]
-      },
-      {
-        "codcli": "40452",
-        "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
-        "bairro": "PARQUE DO LAGO",
-        "dtultcomp": "31/07/2026",
-        "produtos": [
-          {
-            "produto": "AGUARDENTE OLD CESAR 88 965 ML",
-            "fantasia": "CRS BRANDS",
-            "qt": 36,
-            "valor": 359.64
-          },
-          {
-            "produto": "GIN ROCKS 1LT",
-            "fantasia": "FANTE",
-            "qt": 6,
-            "valor": 123.0
-          },
-          {
-            "produto": "GIN ROCKS STRAWBERRY 1LT",
-            "fantasia": "FANTE",
-            "qt": 6,
-            "valor": 123.0
-          },
-          {
-            "produto": "RUM MONTILLA OURO 1L",
-            "fantasia": "PERNOD",
-            "qt": 12,
-            "valor": 233.4
-          },
-          {
-            "produto": "WHISKY BELLS 700ML",
-            "fantasia": "DIAGEO",
-            "qt": 12,
-            "valor": 476.28
           }
         ]
       },
@@ -14051,6 +14058,13 @@ const NAO_POS_SP_DATA = {
       {
         "codcli": "52488",
         "cliente": "MATEUS CESTARI MATOS LTDA",
+        "bairro": "CENTRO",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "52635",
+        "cliente": "PAVAN SUPERMERCADOS LTDA",
         "bairro": "CENTRO",
         "dtultcomp": "nan",
         "produtos": []
