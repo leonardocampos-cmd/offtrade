@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_mg.py
 
 const NAO_POS_MG_DATA = {
-  "atualizado_em": "21/08/2026 17:20",
+  "atualizado_em": "24/08/2026 10:39",
   "por_vendedor": {
     "BRUNA CASTRO MELLO": [
       {
@@ -461,66 +461,6 @@ const NAO_POS_MG_DATA = {
     ],
     "JETER LUCIO SOARES": [
       {
-        "codcli": "31432",
-        "cliente": "MAGLIONI RIBEIRO & CIA LTDA",
-        "bairro": "IPIRANGA",
-        "dtultcomp": "07/02/2023",
-        "produtos": [
-          {
-            "produto": "WHISKY BALLANTINE'S FINEST 750 ML",
-            "fantasia": "PERNOD",
-            "qt": 240,
-            "valor": 11256.0
-          }
-        ]
-      },
-      {
-        "codcli": "35177",
-        "cliente": "VILA SUL COMERCIO DE ALIMENTOS LTDA",
-        "bairro": "CENTRO",
-        "dtultcomp": "18/09/2025",
-        "produtos": [
-          {
-            "produto": "MARTINI ROSATO 750 ML",
-            "fantasia": "BACARDI",
-            "qt": 12,
-            "valor": 490.8
-          },
-          {
-            "produto": "RUM BACARDI MOJITO 980ML",
-            "fantasia": "BACARDI",
-            "qt": 12,
-            "valor": 526.8
-          }
-        ]
-      },
-      {
-        "codcli": "37337",
-        "cliente": "VILA SUL COMERCIO DE ALIMENTOS LTDA",
-        "bairro": "VALE DAS ANTAS",
-        "dtultcomp": "25/09/2025",
-        "produtos": [
-          {
-            "produto": "COQUETEL ALCOÓLICO DON CREAM DULCE DE LE",
-            "fantasia": "DON LUIZ",
-            "qt": 12,
-            "valor": 838.8
-          },
-          {
-            "produto": "MARTINI ROSATO 750 ML",
-            "fantasia": "BACARDI",
-            "qt": 12,
-            "valor": 490.8
-          },
-          {
-            "produto": "RUM BACARDI MOJITO 980ML",
-            "fantasia": "BACARDI",
-            "qt": 12,
-            "valor": 526.8
-          }
-        ]
-      },
-      {
         "codcli": "35090",
         "cliente": "UNISSUL SUPERMERCADOS S A",
         "bairro": "PRIMAVERA",
@@ -553,32 +493,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "37330",
-        "cliente": "UNISSUL SUPERMERCADOS S/A",
-        "bairro": "NOVA ERA",
-        "dtultcomp": "30/07/2026",
-        "produtos": [
-          {
-            "produto": "VILLA ROSA BRANCO 750ML",
-            "fantasia": "CASTAS",
-            "qt": 12,
-            "valor": 514.8
-          },
-          {
-            "produto": "VILLA ROSA ROSE 750ML",
-            "fantasia": "CASTAS",
-            "qt": 6,
-            "valor": 257.4
-          },
-          {
-            "produto": "VODKA ORLOFF 1L - DEST",
-            "fantasia": "",
-            "qt": 12,
-            "valor": 245.04
-          }
-        ]
-      },
-      {
         "codcli": "37327",
         "cliente": "UNISSUL SUPERMERCADOS S/A",
         "bairro": "CENTRO",
@@ -595,6 +509,32 @@ const NAO_POS_MG_DATA = {
             "fantasia": "CASTAS",
             "qt": 6,
             "valor": 293.4
+          },
+          {
+            "produto": "VODKA ORLOFF 1L - DEST",
+            "fantasia": "",
+            "qt": 12,
+            "valor": 245.04
+          }
+        ]
+      },
+      {
+        "codcli": "37330",
+        "cliente": "UNISSUL SUPERMERCADOS S/A",
+        "bairro": "NOVA ERA",
+        "dtultcomp": "30/07/2026",
+        "produtos": [
+          {
+            "produto": "VILLA ROSA BRANCO 750ML",
+            "fantasia": "CASTAS",
+            "qt": 12,
+            "valor": 514.8
+          },
+          {
+            "produto": "VILLA ROSA ROSE 750ML",
+            "fantasia": "CASTAS",
+            "qt": 6,
+            "valor": 257.4
           },
           {
             "produto": "VODKA ORLOFF 1L - DEST",
@@ -669,32 +609,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "37335",
-        "cliente": "UNISSUL SUPERMERCADOS S/A",
-        "bairro": "CENTRO",
-        "dtultcomp": "30/07/2026",
-        "produtos": [
-          {
-            "produto": "VILLA ROSA TINTO 750ML",
-            "fantasia": "CASTAS",
-            "qt": 6,
-            "valor": 257.4
-          },
-          {
-            "produto": "VINHO BCO ARCAIA PINOT GRIGIO 750ML",
-            "fantasia": "CASTAS",
-            "qt": 6,
-            "valor": 461.4
-          },
-          {
-            "produto": "VODKA ORLOFF 1L - DEST",
-            "fantasia": "",
-            "qt": 24,
-            "valor": 490.08
-          }
-        ]
-      },
-      {
         "codcli": "35222",
         "cliente": "UNISSUL SUPERMERCADOS S/A",
         "bairro": "JARDIM ANA MARIA",
@@ -733,6 +647,32 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
+        "codcli": "37335",
+        "cliente": "UNISSUL SUPERMERCADOS S/A",
+        "bairro": "CENTRO",
+        "dtultcomp": "30/07/2026",
+        "produtos": [
+          {
+            "produto": "VILLA ROSA TINTO 750ML",
+            "fantasia": "CASTAS",
+            "qt": 6,
+            "valor": 257.4
+          },
+          {
+            "produto": "VINHO BCO ARCAIA PINOT GRIGIO 750ML",
+            "fantasia": "CASTAS",
+            "qt": 6,
+            "valor": 461.4
+          },
+          {
+            "produto": "VODKA ORLOFF 1L - DEST",
+            "fantasia": "",
+            "qt": 24,
+            "valor": 490.08
+          }
+        ]
+      },
+      {
         "codcli": "37329",
         "cliente": "UNISSUL SUPERMERCADOS S/A",
         "bairro": "JARDIM BOA ESPERANÇA III",
@@ -760,62 +700,6 @@ const NAO_POS_MG_DATA = {
         "produtos": []
       },
       {
-        "codcli": "39830",
-        "cliente": "MAGLIONI RIBEIRO & CIA LTDA",
-        "bairro": "BOM RECANTO",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "39818",
-        "cliente": "MAGLIONI RIBEIRO & CIA LTDA",
-        "bairro": "VARGINHA",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "39817",
-        "cliente": "MAGLIONI RIBEIRO & CIA LTDA",
-        "bairro": "CENTRO",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "39866",
-        "cliente": "MAGLIONI RIBEIRO & CIA LTDA",
-        "bairro": "BOM PASTOR",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "39825",
-        "cliente": "MAGLIONI RIBEIRO & CIA LTDA",
-        "bairro": "CENTRO",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "39835",
-        "cliente": "MAGLIONI RIBEIRO & CIA LTDA",
-        "bairro": "SANTO ANTÔNIO",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "39820",
-        "cliente": "MAGLIONI RIBEIRO & CIA LTDA",
-        "bairro": "CENTRO",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "39821",
-        "cliente": "MAGLIONI RIBEIRO & CIA LTDA",
-        "bairro": "CENTRO",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
         "codcli": "39827",
         "cliente": "MAGLIONI RIBEIRO & CIA LTDA",
         "bairro": "JARDIM ANDERE",
@@ -830,23 +714,9 @@ const NAO_POS_MG_DATA = {
         "produtos": []
       },
       {
-        "codcli": "39832",
-        "cliente": "MAGLIONI RIBEIRO & CIA LTDA",
-        "bairro": "CENTRO",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
         "codcli": "39833",
         "cliente": "MAGLIONI RIBEIRO & CIA LTDA",
         "bairro": "JARDIM BERNADETE",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "39828",
-        "cliente": "MAGLIONI RIBEIRO & CIA LTDA",
-        "bairro": "CENTRO",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -858,6 +728,13 @@ const NAO_POS_MG_DATA = {
         "produtos": []
       },
       {
+        "codcli": "39816",
+        "cliente": "MAGLIONI RIBEIRO & CIA LTDA",
+        "bairro": "CENTRO",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
         "codcli": "39823",
         "cliente": "MAGLIONI RIBEIRO & CIA LTDA",
         "bairro": "CENTRO",
@@ -865,16 +742,23 @@ const NAO_POS_MG_DATA = {
         "produtos": []
       },
       {
-        "codcli": "39829",
+        "codcli": "39821",
         "cliente": "MAGLIONI RIBEIRO & CIA LTDA",
         "bairro": "CENTRO",
         "dtultcomp": "nan",
         "produtos": []
       },
       {
-        "codcli": "39816",
+        "codcli": "39820",
         "cliente": "MAGLIONI RIBEIRO & CIA LTDA",
         "bairro": "CENTRO",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "39818",
+        "cliente": "MAGLIONI RIBEIRO & CIA LTDA",
+        "bairro": "VARGINHA",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -886,9 +770,9 @@ const NAO_POS_MG_DATA = {
         "produtos": []
       },
       {
-        "codcli": "39834",
+        "codcli": "39832",
         "cliente": "MAGLIONI RIBEIRO & CIA LTDA",
-        "bairro": "NOSSA SENHORA DE FÁTIMA",
+        "bairro": "CENTRO",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -905,23 +789,65 @@ const NAO_POS_MG_DATA = {
         "bairro": "VARGEM",
         "dtultcomp": "nan",
         "produtos": []
+      },
+      {
+        "codcli": "39835",
+        "cliente": "MAGLIONI RIBEIRO & CIA LTDA",
+        "bairro": "SANTO ANTÔNIO",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "39834",
+        "cliente": "MAGLIONI RIBEIRO & CIA LTDA",
+        "bairro": "NOSSA SENHORA DE FÁTIMA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "39828",
+        "cliente": "MAGLIONI RIBEIRO & CIA LTDA",
+        "bairro": "CENTRO",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "39866",
+        "cliente": "MAGLIONI RIBEIRO & CIA LTDA",
+        "bairro": "BOM PASTOR",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "39829",
+        "cliente": "MAGLIONI RIBEIRO & CIA LTDA",
+        "bairro": "CENTRO",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "39830",
+        "cliente": "MAGLIONI RIBEIRO & CIA LTDA",
+        "bairro": "BOM RECANTO",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "39817",
+        "cliente": "MAGLIONI RIBEIRO & CIA LTDA",
+        "bairro": "CENTRO",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "39825",
+        "cliente": "MAGLIONI RIBEIRO & CIA LTDA",
+        "bairro": "CENTRO",
+        "dtultcomp": "nan",
+        "produtos": []
       }
     ],
     "JOÃO SANTOS": [
-      {
-        "codcli": "36789",
-        "cliente": "SOFT MIX ORGANIZACAO COMERCIAL LTDA",
-        "bairro": "PALMEIRAS",
-        "dtultcomp": "13/11/2025",
-        "produtos": [
-          {
-            "produto": "VODKA ABSOLUT VANILLA - 750 ML",
-            "fantasia": "PERNOD",
-            "qt": 60,
-            "valor": 3729.6
-          }
-        ]
-      },
       {
         "codcli": "37137",
         "cliente": "OMNI CENTRO DE TREINAMENTO LTDA",
@@ -991,20 +917,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "BEAM SUNTORY",
             "qt": 1,
             "valor": 89.9
-          }
-        ]
-      },
-      {
-        "codcli": "32796",
-        "cliente": "COMERCIAL DISK FESTAS LTDA",
-        "bairro": "CIDADE JARDIM",
-        "dtultcomp": "21/05/2026",
-        "produtos": [
-          {
-            "produto": "BAER MATE LN  6X350ML",
-            "fantasia": "BETTER DRINKS",
-            "qt": 20,
-            "valor": 778.8
           }
         ]
       },
@@ -1587,26 +1499,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "32871",
-        "cliente": "ER COZINHA ARTESANAL LTDA",
-        "bairro": "VILA DA SERRA",
-        "dtultcomp": "18/06/2026",
-        "produtos": [
-          {
-            "produto": "YVY DESTILADO GIN AR LT 710ML",
-            "fantasia": "YVY",
-            "qt": 6,
-            "valor": 239.4
-          },
-          {
-            "produto": "YVY DESTILADO GIN MAR  LT 710ML",
-            "fantasia": "YVY",
-            "qt": 6,
-            "valor": 239.4
-          }
-        ]
-      },
-      {
         "codcli": "33014",
         "cliente": "ER COZINHA ARTESANAL LTDA",
         "bairro": "LOURDES",
@@ -1623,6 +1515,26 @@ const NAO_POS_MG_DATA = {
             "fantasia": "YVY",
             "qt": 4,
             "valor": 159.6
+          }
+        ]
+      },
+      {
+        "codcli": "32871",
+        "cliente": "ER COZINHA ARTESANAL LTDA",
+        "bairro": "VILA DA SERRA",
+        "dtultcomp": "18/06/2026",
+        "produtos": [
+          {
+            "produto": "YVY DESTILADO GIN AR LT 710ML",
+            "fantasia": "YVY",
+            "qt": 6,
+            "valor": 239.4
+          },
+          {
+            "produto": "YVY DESTILADO GIN MAR  LT 710ML",
+            "fantasia": "YVY",
+            "qt": 6,
+            "valor": 239.4
           }
         ]
       },
@@ -2926,13 +2838,6 @@ const NAO_POS_MG_DATA = {
         "produtos": []
       },
       {
-        "codcli": "39649",
-        "cliente": "REQUINTE BARTENDER DRINKS LTDA",
-        "bairro": "RIACHO DAS PEDRAS",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
         "codcli": "39683",
         "cliente": "RESTAURANTE CASA CAJU LTDA",
         "bairro": "POMPÉIA",
@@ -3995,26 +3900,6 @@ const NAO_POS_MG_DATA = {
     ],
     "TIAGO ANDRADE": [
       {
-        "codcli": "30909",
-        "cliente": "PRODUTOS ALIMENTICIOS BETINENSE LTDA",
-        "bairro": "NITEROI",
-        "dtultcomp": "21/05/2026",
-        "produtos": [
-          {
-            "produto": "RED BULL 24X250ML ENERG",
-            "fantasia": "",
-            "qt": 690,
-            "valor": 117410.4
-          },
-          {
-            "produto": "RED BULL TROPICAL 24X250 ML - ENERG",
-            "fantasia": "",
-            "qt": 30,
-            "valor": 5248.8
-          }
-        ]
-      },
-      {
         "codcli": "30264",
         "cliente": "CAFETERIA E PRODUCAO BOLOS DE JULIETA LTDA.",
         "bairro": "OURO PRETO",
@@ -4087,9 +3972,9 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "39403",
+        "codcli": "30324",
         "cliente": "CASA DE FRIOS E MASSAS AO GOSTO LTDA",
-        "bairro": "COMITECO",
+        "bairro": "BELVEDERE",
         "dtultcomp": "29/05/2026",
         "produtos": [
           {
@@ -4107,9 +3992,9 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "30324",
+        "codcli": "39403",
         "cliente": "CASA DE FRIOS E MASSAS AO GOSTO LTDA",
-        "bairro": "BELVEDERE",
+        "bairro": "COMITECO",
         "dtultcomp": "29/05/2026",
         "produtos": [
           {
