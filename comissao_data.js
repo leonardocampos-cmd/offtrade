@@ -1,7 +1,7 @@
 // Gerado automaticamente por exportacao_comissao.py — ESTIMATIVA, não é a apuração oficial
 
 const COMISSAO_DATA = {
-  "atualizado_em": "25/08/2026 13:42",
+  "atualizado_em": "25/08/2026 14:36",
   "mes_referencia": "08/2026",
   "pct_premio_taxa": 0.015,
   "vendedores": [
@@ -775,10 +775,10 @@ const COMISSAO_DATA = {
         {
           "label": "FATURAMENTO",
           "meta": 65000.0,
-          "realizado": 22892.81,
+          "realizado": 22257.47,
           "peso": 0.1,
-          "ating_meta": 0.352197,
-          "ating_acumulado": 0.03522
+          "ating_meta": 0.342423,
+          "ating_acumulado": 0.034242
         },
         {
           "label": "FATURAMENTO PERNOD",
@@ -815,10 +815,10 @@ const COMISSAO_DATA = {
         {
           "label": "POSITIVAÇÃO",
           "meta": 70.0,
-          "realizado": 40,
+          "realizado": 39,
           "peso": 0.65,
-          "ating_meta": 0.571429,
-          "ating_acumulado": 0.371429
+          "ating_meta": 0.557143,
+          "ating_acumulado": 0.362143
         },
         {
           "label": "POSITIVAÇÃO ESSENZA",
@@ -863,7 +863,7 @@ const COMISSAO_DATA = {
         {
           "label": "POSITIVAÇÃO RED BULL",
           "meta": 0.0,
-          "realizado": 17,
+          "realizado": 16,
           "peso": 0.0,
           "ating_meta": 0.0,
           "ating_acumulado": 0.0
@@ -871,10 +871,10 @@ const COMISSAO_DATA = {
         {
           "label": "POSITIVAÇÃO TATUZINHO",
           "meta": 15.0,
-          "realizado": 11,
+          "realizado": 10,
           "peso": 0.05,
-          "ating_meta": 0.733333,
-          "ating_acumulado": 0.036667
+          "ating_meta": 0.666667,
+          "ating_acumulado": 0.033333
         },
         {
           "label": "POSITIVAÇÃO TIAL",
@@ -885,14 +885,14 @@ const COMISSAO_DATA = {
           "ating_acumulado": 0.016667
         }
       ],
-      "ating_acumulado_total": 0.474416,
-      "pct_premio": 0.00711624,
+      "ating_acumulado_total": 0.460818,
+      "pct_premio": 0.00691227,
       "liq_rigarr": 34911.45,
       "fat_castas": 0.0,
       "teto_comissao": 2000.0,
-      "com_rigarr": 948.83,
+      "com_rigarr": 921.64,
       "com_castas": 0.0,
-      "comissao_estimada": 948.83
+      "comissao_estimada": 921.64
     },
     {
       "nome": "MARIA LUIZA - OFF TRADE",
