@@ -1,5 +1,5 @@
 const CRUSOE_DATA = {
-  "atualizado_em": "25/08/2026 16:21",
+  "atualizado_em": "25/08/2026 17:21",
   "periodo": {
     "ini": "01/07/2026",
     "fim": "31/08/2026"
@@ -34,7 +34,7 @@ const CRUSOE_DATA = {
           "pedidos": 8,
           "novos_skus": 22,
           "reativacoes": 2,
-          "faturamento": 156599.51,
+          "faturamento": 145541.21,
           "meta_definida": false,
           "meta_valor": null,
           "meta_atingida": false,
@@ -468,7 +468,7 @@ const CRUSOE_DATA = {
               "numnota": "424039",
               "data": "21/08/2026",
               "cliente": "DRIFT COMERCIO DE ALIMENTOS S/A.",
-              "valor_pedido": 23983.4,
+              "valor_pedido": 12925.1,
               "eventos": [
                 {
                   "tipo": "pedido",
@@ -476,12 +476,6 @@ const CRUSOE_DATA = {
                 }
               ],
               "itens": [
-                {
-                  "produto": "RC SARDINHA EM OLEO 50X125G",
-                  "qt": 30.0,
-                  "valor": 6027.6,
-                  "pontuacoes": []
-                },
                 {
                   "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
                   "qt": 5.0,
@@ -498,12 +492,6 @@ const CRUSOE_DATA = {
                   "produto": "RC ATUM RALADO OLEO 24X140G",
                   "qt": 15.0,
                   "valor": 2281.2,
-                  "pontuacoes": []
-                },
-                {
-                  "produto": "RC ATUM SOLIDO OLEO 24X170G",
-                  "qt": 30.0,
-                  "valor": 5030.7,
                   "pontuacoes": []
                 },
                 {
