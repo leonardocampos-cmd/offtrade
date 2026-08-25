@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_es.py
 
 const NAO_POS_ES_DATA = {
-  "atualizado_em": "25/08/2026 12:08",
+  "atualizado_em": "25/08/2026 13:39",
   "por_vendedor": {
     "ADEILSON GONÇALVEZ": [
       {
@@ -935,7 +935,7 @@ const NAO_POS_ES_DATA = {
         "dtultcomp": "14/04/2026",
         "produtos": [
           {
-            "produto": "PINATI NUTS COCO L4P3 20X30G",
+            "produto": "PINATI NUTS COCO 20X30G",
             "fantasia": "PINATI",
             "qt": 1,
             "valor": 39.2
@@ -1073,7 +1073,7 @@ const NAO_POS_ES_DATA = {
         "dtultcomp": "04/05/2026",
         "produtos": [
           {
-            "produto": "PINATI NUTS ORIGINAL L4P3 20X30G",
+            "produto": "PINATI NUTS ORIGINAL 20X30G",
             "fantasia": "PINATI",
             "qt": 1,
             "valor": 44.31
@@ -1139,7 +1139,7 @@ const NAO_POS_ES_DATA = {
             "valor": 81.84
           },
           {
-            "produto": "PINATI NUTS ORIGINAL L4P3 20X30G",
+            "produto": "PINATI NUTS ORIGINAL 20X30G",
             "fantasia": "PINATI",
             "qt": 1,
             "valor": 38.0
@@ -3127,7 +3127,7 @@ const NAO_POS_ES_DATA = {
             "valor": 298.26
           },
           {
-            "produto": "PINATI NUTS ORIGINAL L4P3 20X30G",
+            "produto": "PINATI NUTS ORIGINAL 20X30G",
             "fantasia": "PINATI",
             "qt": 2,
             "valor": 78.4
