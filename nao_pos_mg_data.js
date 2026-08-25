@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_mg.py
 
 const NAO_POS_MG_DATA = {
-  "atualizado_em": "25/08/2026 14:33",
+  "atualizado_em": "25/08/2026 15:36",
   "por_vendedor": {
     "BRUNA CASTRO MELLO": [
       {
@@ -3354,20 +3354,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "MONIN",
             "qt": 3,
             "valor": 149.7
-          }
-        ]
-      },
-      {
-        "codcli": "38546",
-        "cliente": "ADILSON SANTOS REIS",
-        "bairro": "VILA MARIA III",
-        "dtultcomp": "24/06/2026",
-        "produtos": [
-          {
-            "produto": "CERVEJA HEINEKEN LONG 24X330ML",
-            "fantasia": "HEINEKEN",
-            "qt": 2,
-            "valor": 287.52
           }
         ]
       },
