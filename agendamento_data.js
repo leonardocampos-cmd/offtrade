@@ -37,6 +37,34 @@ const AGENDAMENTO_DATA = {
       "nome": "ANA CLARA FASSANO - OFF TRADE",
       "itens": [
         {
+          "codigo_cliente": "8984",
+          "cliente": "SUPERMERCADO ULTRA 07 LTDA",
+          "cnpj": "27220597000136",
+          "filial": "GAVEA",
+          "valor": 366.0,
+          "nf": "",
+          "data_agendamento": "26/08/2026",
+          "data_ord": "2026-08-26",
+          "status": "A FATURAR",
+          "obs": "",
+          "status_logistica": "",
+          "justificativa_logistica": ""
+        },
+        {
+          "codigo_cliente": "3816",
+          "cliente": "ORGANIZAÇÕES FARINHA PURA LTDA",
+          "cnpj": "29.298.312/0001-05",
+          "filial": "HUMAITA",
+          "valor": 162.0,
+          "nf": "",
+          "data_agendamento": "26/08/2026",
+          "data_ord": "2026-08-26",
+          "status": "A FATURAR",
+          "obs": "",
+          "status_logistica": "",
+          "justificativa_logistica": ""
+        },
+        {
           "codigo_cliente": "6690",
           "cliente": "SUPERMERCADO ULTRA 12 LTDA",
           "cnpj": "5669831000174",
@@ -26988,7 +27016,7 @@ const AGENDAMENTO_DATA = {
       ]
     }
   ],
-  "atualizado_em": "24/08/2026 18:02",
+  "atualizado_em": "25/08/2026 12:05",
   "comparativo": [
     {
       "msg_id": "1a01bc9a975c4cab",
