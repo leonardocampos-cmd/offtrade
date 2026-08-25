@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_mg.py
 
 const NAO_POS_MG_DATA = {
-  "atualizado_em": "25/08/2026 12:08",
+  "atualizado_em": "25/08/2026 13:39",
   "por_vendedor": {
     "BRUNA CASTRO MELLO": [
       {
@@ -525,6 +525,32 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
+        "codcli": "37330",
+        "cliente": "UNISSUL SUPERMERCADOS S/A",
+        "bairro": "NOVA ERA",
+        "dtultcomp": "30/07/2026",
+        "produtos": [
+          {
+            "produto": "VILLA ROSA BRANCO 750ML",
+            "fantasia": "CASTAS",
+            "qt": 12,
+            "valor": 514.8
+          },
+          {
+            "produto": "VILLA ROSA ROSE 750ML",
+            "fantasia": "CASTAS",
+            "qt": 6,
+            "valor": 257.4
+          },
+          {
+            "produto": "VODKA ORLOFF 1L - DEST",
+            "fantasia": "",
+            "qt": 12,
+            "valor": 245.04
+          }
+        ]
+      },
+      {
         "codcli": "37333",
         "cliente": "UNISSUL SUPERMERCADOS S/A",
         "bairro": "CENTRO",
@@ -553,32 +579,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "PERNOD",
             "qt": 3,
             "valor": 177.54
-          }
-        ]
-      },
-      {
-        "codcli": "37330",
-        "cliente": "UNISSUL SUPERMERCADOS S/A",
-        "bairro": "NOVA ERA",
-        "dtultcomp": "30/07/2026",
-        "produtos": [
-          {
-            "produto": "VILLA ROSA BRANCO 750ML",
-            "fantasia": "CASTAS",
-            "qt": 12,
-            "valor": 514.8
-          },
-          {
-            "produto": "VILLA ROSA ROSE 750ML",
-            "fantasia": "CASTAS",
-            "qt": 6,
-            "valor": 257.4
-          },
-          {
-            "produto": "VODKA ORLOFF 1L - DEST",
-            "fantasia": "",
-            "qt": 12,
-            "valor": 245.04
           }
         ]
       },
@@ -732,14 +732,35 @@ const NAO_POS_MG_DATA = {
         "produtos": []
       },
       {
-        "codcli": "39827",
+        "codcli": "39820",
         "cliente": "MAGLIONI RIBEIRO & CIA LTDA",
-        "bairro": "JARDIM ANDERE",
+        "bairro": "CENTRO",
         "dtultcomp": "nan",
         "produtos": []
       },
       {
-        "codcli": "39826",
+        "codcli": "39830",
+        "cliente": "MAGLIONI RIBEIRO & CIA LTDA",
+        "bairro": "BOM RECANTO",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "39831",
+        "cliente": "MAGLIONI RIBEIRO & CIA LTDA",
+        "bairro": "JARDIM SÃO CARLOS",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "39833",
+        "cliente": "MAGLIONI RIBEIRO & CIA LTDA",
+        "bairro": "JARDIM BERNADETE",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "39823",
         "cliente": "MAGLIONI RIBEIRO & CIA LTDA",
         "bairro": "CENTRO",
         "dtultcomp": "nan",
@@ -753,37 +774,37 @@ const NAO_POS_MG_DATA = {
         "produtos": []
       },
       {
-        "codcli": "39823",
+        "codcli": "39826",
         "cliente": "MAGLIONI RIBEIRO & CIA LTDA",
         "bairro": "CENTRO",
         "dtultcomp": "nan",
         "produtos": []
       },
       {
-        "codcli": "39833",
-        "cliente": "MAGLIONI RIBEIRO & CIA LTDA",
-        "bairro": "JARDIM BERNADETE",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "39831",
-        "cliente": "MAGLIONI RIBEIRO & CIA LTDA",
-        "bairro": "JARDIM SÃO CARLOS",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "39830",
-        "cliente": "MAGLIONI RIBEIRO & CIA LTDA",
-        "bairro": "BOM RECANTO",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "39820",
+        "codcli": "39817",
         "cliente": "MAGLIONI RIBEIRO & CIA LTDA",
         "bairro": "CENTRO",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "39829",
+        "cliente": "MAGLIONI RIBEIRO & CIA LTDA",
+        "bairro": "CENTRO",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "39818",
+        "cliente": "MAGLIONI RIBEIRO & CIA LTDA",
+        "bairro": "VARGINHA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "39866",
+        "cliente": "MAGLIONI RIBEIRO & CIA LTDA",
+        "bairro": "BOM PASTOR",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -791,6 +812,13 @@ const NAO_POS_MG_DATA = {
         "codcli": "39825",
         "cliente": "MAGLIONI RIBEIRO & CIA LTDA",
         "bairro": "CENTRO",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "39824",
+        "cliente": "MAGLIONI RIBEIRO & CIA LTDA",
+        "bairro": "BOA VISTA",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -809,30 +837,9 @@ const NAO_POS_MG_DATA = {
         "produtos": []
       },
       {
-        "codcli": "39866",
+        "codcli": "39827",
         "cliente": "MAGLIONI RIBEIRO & CIA LTDA",
-        "bairro": "BOM PASTOR",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "39818",
-        "cliente": "MAGLIONI RIBEIRO & CIA LTDA",
-        "bairro": "VARGINHA",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "39829",
-        "cliente": "MAGLIONI RIBEIRO & CIA LTDA",
-        "bairro": "CENTRO",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "39817",
-        "cliente": "MAGLIONI RIBEIRO & CIA LTDA",
-        "bairro": "CENTRO",
+        "bairro": "JARDIM ANDERE",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -854,13 +861,6 @@ const NAO_POS_MG_DATA = {
         "codcli": "39828",
         "cliente": "MAGLIONI RIBEIRO & CIA LTDA",
         "bairro": "CENTRO",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "39824",
-        "cliente": "MAGLIONI RIBEIRO & CIA LTDA",
-        "bairro": "BOA VISTA",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -1531,26 +1531,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "32871",
-        "cliente": "ER COZINHA ARTESANAL LTDA",
-        "bairro": "VILA DA SERRA",
-        "dtultcomp": "18/06/2026",
-        "produtos": [
-          {
-            "produto": "YVY DESTILADO GIN AR LT 710ML",
-            "fantasia": "YVY",
-            "qt": 6,
-            "valor": 239.4
-          },
-          {
-            "produto": "YVY DESTILADO GIN MAR  LT 710ML",
-            "fantasia": "YVY",
-            "qt": 6,
-            "valor": 239.4
-          }
-        ]
-      },
-      {
         "codcli": "33014",
         "cliente": "ER COZINHA ARTESANAL LTDA",
         "bairro": "LOURDES",
@@ -1567,6 +1547,26 @@ const NAO_POS_MG_DATA = {
             "fantasia": "YVY",
             "qt": 4,
             "valor": 159.6
+          }
+        ]
+      },
+      {
+        "codcli": "32871",
+        "cliente": "ER COZINHA ARTESANAL LTDA",
+        "bairro": "VILA DA SERRA",
+        "dtultcomp": "18/06/2026",
+        "produtos": [
+          {
+            "produto": "YVY DESTILADO GIN AR LT 710ML",
+            "fantasia": "YVY",
+            "qt": 6,
+            "valor": 239.4
+          },
+          {
+            "produto": "YVY DESTILADO GIN MAR  LT 710ML",
+            "fantasia": "YVY",
+            "qt": 6,
+            "valor": 239.4
           }
         ]
       },
@@ -4201,44 +4201,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "CASTAS",
             "qt": 24,
             "valor": 1677.6
-          }
-        ]
-      },
-      {
-        "codcli": "38776",
-        "cliente": "CASA DE FRIOS E MASSAS AO GOSTO LTDA",
-        "bairro": "ESTORIL",
-        "dtultcomp": "23/06/2026",
-        "produtos": [
-          {
-            "produto": "4 PACK RED BULL MELANCIA",
-            "fantasia": "RED BULL",
-            "qt": 2,
-            "valor": 59.92
-          },
-          {
-            "produto": "4 PACK RED BULL POMELO SF",
-            "fantasia": "RED BULL",
-            "qt": 2,
-            "valor": 59.92
-          },
-          {
-            "produto": "4 PACK RED BULL SUMMER MELAO MARACUJA",
-            "fantasia": "RED BULL",
-            "qt": 1,
-            "valor": 29.96
-          },
-          {
-            "produto": "4 PACK RED BULL TROPICAL",
-            "fantasia": "RED BULL",
-            "qt": 1,
-            "valor": 29.96
-          },
-          {
-            "produto": "RED BULL SUGAR FREE  250 ML CX C/24",
-            "fantasia": "RED BULL",
-            "qt": 1,
-            "valor": 179.76
           }
         ]
       },
