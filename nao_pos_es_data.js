@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_es.py
 
 const NAO_POS_ES_DATA = {
-  "atualizado_em": "25/08/2026 15:13",
+  "atualizado_em": "25/08/2026 16:32",
   "por_vendedor": {
     "ADEILSON GONÇALVEZ": [
       {
@@ -6746,6 +6746,46 @@ const NAO_POS_ES_DATA = {
         ]
       },
       {
+        "codcli": "86207",
+        "cliente": "DELICIAS D'ARCADIA RESTAURANTE E LANCHONETE LTDA",
+        "bairro": "ARCADIA",
+        "dtultcomp": "10/12/2025",
+        "produtos": [
+          {
+            "produto": "AGUA MINERAL MINALBA C/ GAS 12X510ML",
+            "fantasia": "MINALBA",
+            "qt": 10,
+            "valor": 171.0
+          },
+          {
+            "produto": "AGUA MINERAL MINALBA S/ GAS 12X510ML",
+            "fantasia": "MINALBA",
+            "qt": 20,
+            "valor": 282.0
+          },
+          {
+            "produto": "GUARAVITA NATURAL 24X290ML",
+            "fantasia": "VITON",
+            "qt": 10,
+            "valor": 204.0
+          }
+        ]
+      },
+      {
+        "codcli": "86212",
+        "cliente": "MIMOS D'ARCADIA PRESENTES E ARTESANATOS LTDA",
+        "bairro": "MIGUEL PEREIRA",
+        "dtultcomp": "18/12/2025",
+        "produtos": [
+          {
+            "produto": "AGUA MINERAL MINALBA S/ GAS 12X510ML",
+            "fantasia": "MINALBA",
+            "qt": 10,
+            "valor": 141.0
+          }
+        ]
+      },
+      {
         "codcli": "86239",
         "cliente": "MERCADO BELOT LTDA",
         "bairro": "CENTRO/GOV PORTELA",
@@ -6824,6 +6864,20 @@ const NAO_POS_ES_DATA = {
             "fantasia": "TIAL",
             "qt": 1,
             "valor": 119.0
+          }
+        ]
+      },
+      {
+        "codcli": "86214",
+        "cliente": "PARADA ARCADIA PADARIA MERCEARIA E ARTESANATO LTDA",
+        "bairro": "MIGUEL PEREIRA",
+        "dtultcomp": "15/04/2026",
+        "produtos": [
+          {
+            "produto": "GUARAVITA NATURAL 24X290ML",
+            "fantasia": "VITON",
+            "qt": 20,
+            "valor": 438.0
           }
         ]
       },
@@ -7837,6 +7891,13 @@ const NAO_POS_ES_DATA = {
         "codcli": "96040",
         "cliente": "67.555.512 THIAGO DE OLIVEIRA CARDOSO",
         "bairro": "PADRE MIGUEL",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "96179",
+        "cliente": "67.992.521 AMELIA FLORENCIO DA COSTA",
+        "bairro": "PRAÇA SECA",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -20189,20 +20250,6 @@ const NAO_POS_ES_DATA = {
         ]
       },
       {
-        "codcli": "5762",
-        "cliente": "ANEXO 392 BAR E RESTAURANTE LTDA",
-        "bairro": "CENTRO",
-        "dtultcomp": "28/07/2026",
-        "produtos": [
-          {
-            "produto": "LICOR ESP DIEGO ZAMORA 43 700ML",
-            "fantasia": "AURORA",
-            "qt": 2,
-            "valor": 250.0
-          }
-        ]
-      },
-      {
         "codcli": "71195",
         "cliente": "COMERCIO E DEPOSITO DE BEBIDAS SUBZERO LTDA",
         "bairro": "GRANJA DOS CAVALEIROS",
@@ -20560,16 +20607,16 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
-        "codcli": "94126",
+        "codcli": "85951",
         "cliente": "KINKAS COMERCIO VAREJISTA LTDA",
-        "bairro": "CENTRO",
+        "bairro": "VILA NOVA",
         "dtultcomp": "nan",
         "produtos": []
       },
       {
-        "codcli": "85951",
+        "codcli": "94126",
         "cliente": "KINKAS COMERCIO VAREJISTA LTDA",
-        "bairro": "VILA NOVA",
+        "bairro": "CENTRO",
         "dtultcomp": "nan",
         "produtos": []
       },
