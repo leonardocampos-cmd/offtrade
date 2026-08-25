@@ -783,7 +783,7 @@ const AGENDAMENTO_DATA = {
           "nf": "7828",
           "data_agendamento": "25/08/2026",
           "data_ord": "2026-08-25",
-          "status": "FATURADO",
+          "status": "EM ROTA",
           "obs": "Caixas e rótulos íntegros. VALIDADE ACIMA DE 5 MESES",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -6371,11 +6371,11 @@ const AGENDAMENTO_DATA = {
           "cliente": "MERCADO SANTO AGOSTINHO LTDA",
           "cnpj": "53.660.273/0001-29",
           "filial": "BARRA DA TIJUCA",
-          "valor": 2450.2,
-          "nf": "",
+          "valor": 1765.2,
+          "nf": "7877",
           "data_agendamento": "25/08/2026",
           "data_ord": "2026-08-25",
-          "status": "A FATURAR",
+          "status": "EM ROTA",
           "obs": "",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -16085,6 +16085,20 @@ const AGENDAMENTO_DATA = {
       "nome": "GISELLE BARFER - OFF TRADE",
       "itens": [
         {
+          "codigo_cliente": "81698",
+          "cliente": "I C OTTE MONTEIRO SUPERMERCADO LTDA",
+          "cnpj": "04.287.842/0001-27",
+          "filial": "MACAE",
+          "valor": 4596.0,
+          "nf": "",
+          "data_agendamento": "27/08/2026",
+          "data_ord": "2026-08-27",
+          "status": "FATURADO",
+          "obs": "",
+          "status_logistica": "",
+          "justificativa_logistica": ""
+        },
+        {
           "codigo_cliente": "80460",
           "cliente": "TMT COMERCIO E DISTRIBUICAO DE ALIMENTOS E BEBIDAS LTDA",
           "cnpj": "57.531.339/0001-31",
@@ -17585,6 +17599,20 @@ const AGENDAMENTO_DATA = {
       "nome": "LEANDRO SOUZA - OFF TRADE",
       "itens": [
         {
+          "codigo_cliente": "69759",
+          "cliente": "MORAES E CIA COMERCIO DE BEBIDAS E ALIMENTOS LTDA",
+          "cnpj": "24.305.769/0001-86",
+          "filial": "ITABORAI",
+          "valor": 1260.0,
+          "nf": "",
+          "data_agendamento": "26/08/2026",
+          "data_ord": "2026-08-26",
+          "status": "A FATURAR",
+          "obs": "EMBARCAR AS CAIXAS ORIGINAIS E ÍNTEGRAS",
+          "status_logistica": "",
+          "justificativa_logistica": ""
+        },
+        {
           "codigo_cliente": "94955",
           "cliente": "COMERCIO DE CEREAIS IZANITA LIMITADA",
           "cnpj": "07.258.484/0001-12",
@@ -17702,10 +17730,10 @@ const AGENDAMENTO_DATA = {
           "cnpj": "17.833.301/0001-07",
           "filial": "ENGENHO VELHO",
           "valor": 12042.0,
-          "nf": "",
+          "nf": "7872",
           "data_agendamento": "25/08/2026",
           "data_ord": "2026-08-25",
-          "status": "A FATURAR",
+          "status": "EM ROTA",
           "obs": "DESCARGA: R$25,00 POR PALLET PALETIZADO - CARRO DEDICADO.",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -27016,7 +27044,7 @@ const AGENDAMENTO_DATA = {
       ]
     }
   ],
-  "atualizado_em": "25/08/2026 16:29",
+  "atualizado_em": "25/08/2026 17:29",
   "comparativo": [
     {
       "msg_id": "1a01bc9a975c4cab",
