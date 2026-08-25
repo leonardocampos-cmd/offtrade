@@ -1,5 +1,5 @@
 const CRUSOE_DATA = {
-  "atualizado_em": "24/08/2026 17:55",
+  "atualizado_em": "25/08/2026 12:01",
   "periodo": {
     "ini": "01/07/2026",
     "fim": "31/08/2026"
@@ -2450,14 +2450,14 @@ const CRUSOE_DATA = {
         {
           "rca": 439,
           "vendedor": "Mateus Cardoso",
-          "pedidos": 14,
+          "pedidos": 13,
           "positivacoes": 10,
-          "novos_skus": 36,
-          "faturamento": 36272.82,
+          "novos_skus": 33,
+          "faturamento": 32765.52,
           "pontos_positivacao": 50,
-          "pontos_novos_skus": 144,
-          "pontos_pedidos_valor": 27,
-          "pontos_total": 221,
+          "pontos_novos_skus": 132,
+          "pontos_pedidos_valor": 24,
+          "pontos_total": 206,
           "vendas": [
             {
               "numnota": "410357",
@@ -2773,57 +2773,6 @@ const CRUSOE_DATA = {
               ]
             },
             {
-              "numnota": "414670",
-              "data": "22/07/2026",
-              "cliente": "COMERCIAL ITINGA DE ALIMENTOS LTDA",
-              "valor_pedido": 3507.3,
-              "eventos": [
-                {
-                  "tipo": "pedido (acima de R$3001)",
-                  "pontos": 3
-                },
-                {
-                  "tipo": "positivação (novo/reativação)",
-                  "pontos": 5
-                }
-              ],
-              "itens": [
-                {
-                  "produto": "RC ATUM RALADO NATURAL 24X140G",
-                  "qt": 9.0,
-                  "valor": 1169.1,
-                  "pontuacoes": [
-                    {
-                      "tipo": "novo SKU",
-                      "pontos": 4
-                    }
-                  ]
-                },
-                {
-                  "produto": "RC ATUM RALADO OLEO 24X140G",
-                  "qt": 9.0,
-                  "valor": 1169.1,
-                  "pontuacoes": [
-                    {
-                      "tipo": "novo SKU",
-                      "pontos": 4
-                    }
-                  ]
-                },
-                {
-                  "produto": "RC ATUM RALADO MOLHO DE TOMATE 24X140G",
-                  "qt": 9.0,
-                  "valor": 1169.1,
-                  "pontuacoes": [
-                    {
-                      "tipo": "novo SKU",
-                      "pontos": 4
-                    }
-                  ]
-                }
-              ]
-            },
-            {
               "numnota": "416976",
               "data": "29/07/2026",
               "cliente": "MERCADO PRAIA BRAVA DE ANGRA DOS REIS LTDA",
@@ -2948,6 +2897,10 @@ const CRUSOE_DATA = {
                 {
                   "tipo": "pedido (acima de R$3001)",
                   "pontos": 3
+                },
+                {
+                  "tipo": "positivação (novo/reativação)",
+                  "pontos": 5
                 }
               ],
               "itens": [
