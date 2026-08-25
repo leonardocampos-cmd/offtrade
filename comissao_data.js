@@ -1,7 +1,7 @@
 // Gerado automaticamente por exportacao_comissao.py — ESTIMATIVA, não é a apuração oficial
 
 const COMISSAO_DATA = {
-  "atualizado_em": "25/08/2026 15:38",
+  "atualizado_em": "25/08/2026 16:34",
   "mes_referencia": "08/2026",
   "pct_premio_taxa": 0.015,
   "vendedores": [
@@ -1156,10 +1156,10 @@ const COMISSAO_DATA = {
         {
           "label": "FATURAMENTO",
           "meta": 120000.0,
-          "realizado": 88258.5,
+          "realizado": 89891.8,
           "peso": 0.7,
-          "ating_meta": 0.735487,
-          "ating_acumulado": 0.514841
+          "ating_meta": 0.749098,
+          "ating_acumulado": 0.524369
         },
         {
           "label": "FATURAMENTO PERNOD",
@@ -1266,14 +1266,14 @@ const COMISSAO_DATA = {
           "ating_acumulado": 0.0
         }
       ],
-      "ating_acumulado_total": 0.757086,
-      "pct_premio": 0.01135629,
+      "ating_acumulado_total": 0.766614,
+      "pct_premio": 0.01149921,
       "liq_rigarr": 46512.88,
       "fat_castas": 8413.26,
       "teto_comissao": null,
-      "com_rigarr": 528.21,
-      "com_castas": 95.54,
-      "comissao_estimada": 623.75
+      "com_rigarr": 534.86,
+      "com_castas": 96.75,
+      "comissao_estimada": 631.61
     },
     {
       "nome": "NÁTALI DE OLIVEIRA - OFF TRADE",
@@ -1410,10 +1410,10 @@ const COMISSAO_DATA = {
         {
           "label": "FATURAMENTO",
           "meta": 150000.0,
-          "realizado": 24856.4,
+          "realizado": 25329.9,
           "peso": 0.7,
-          "ating_meta": 0.165709,
-          "ating_acumulado": 0.115996
+          "ating_meta": 0.168866,
+          "ating_acumulado": 0.118206
         },
         {
           "label": "FATURAMENTO PERNOD",
@@ -1520,14 +1520,14 @@ const COMISSAO_DATA = {
           "ating_acumulado": 0.0
         }
       ],
-      "ating_acumulado_total": 0.223855,
-      "pct_premio": 0.00335782,
+      "ating_acumulado_total": 0.226065,
+      "pct_premio": 0.00339098,
       "liq_rigarr": 62008.19,
       "fat_castas": 1495.1,
       "teto_comissao": null,
-      "com_rigarr": 208.21,
-      "com_castas": 5.02,
-      "comissao_estimada": 213.23
+      "com_rigarr": 210.27,
+      "com_castas": 5.07,
+      "comissao_estimada": 215.34
     },
     {
       "nome": "DANIELLE MOURA - OFF TRADE",
