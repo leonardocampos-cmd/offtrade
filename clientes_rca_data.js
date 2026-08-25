@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "25/08/2026 17:32",
-  "total": 25522,
+  "atualizado_em": "25/08/2026 18:28",
+  "total": 25523,
   "clientes": [
     {
       "codcli": "38586",
@@ -4318,8 +4318,8 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "SUELY SANTOS - OFF TRADE",
       "codusur2": "346",
       "nome_usur2": "ARLEN SOARES",
-      "ultimo_rca": "131",
-      "ultimo_rca_nome": "BRUNA ANGELO",
+      "ultimo_rca": "346",
+      "ultimo_rca_nome": "ARLEN SOARES",
       "ultimo_rca_ot": "461",
       "ultimo_rca_ot_nome": "SUELY SANTOS - OFF TRADE"
     },
@@ -80478,10 +80478,10 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "ADEILSON GONÇALVEZ - OFF TRADE",
       "codusur2": "",
       "nome_usur2": "",
-      "ultimo_rca": "17",
-      "ultimo_rca_nome": "VENDEDOR 02",
-      "ultimo_rca_ot": "412",
-      "ultimo_rca_ot_nome": "BARBARA CABRAL - OFF TRADE"
+      "ultimo_rca": "431",
+      "ultimo_rca_nome": "ADEILSON GONÇALVEZ - OFF TRADE",
+      "ultimo_rca_ot": "431",
+      "ultimo_rca_ot_nome": "ADEILSON GONÇALVEZ - OFF TRADE"
     },
     {
       "codcli": "91011",
@@ -116194,10 +116194,10 @@ const CLIENTES_RCA_DATA = {
       "ramo": "HOTELARIA",
       "key_account": false,
       "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "319",
-      "nome_usur2": "FERNANDA CAMBOIM",
+      "codusur1": "155",
+      "nome_usur1": "RAPHAEL SANTOS - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": "",
       "ultimo_rca": "176",
       "ultimo_rca_nome": "MICHELE ALCANTARA",
       "ultimo_rca_ot": "",
@@ -134158,8 +134158,8 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "RQ",
       "codusur2": "371",
       "nome_usur2": "CARLOS DE ALMEIDA - OFF TRADE",
-      "ultimo_rca": "371",
-      "ultimo_rca_nome": "CARLOS DE ALMEIDA - OFF TRADE",
+      "ultimo_rca": "1",
+      "ultimo_rca_nome": "RQ",
       "ultimo_rca_ot": "371",
       "ultimo_rca_ot_nome": "CARLOS DE ALMEIDA - OFF TRADE"
     },
@@ -184184,26 +184184,6 @@ const CLIENTES_RCA_DATA = {
       "ultimo_rca_ot_nome": "BARBARA CABRAL - OFF TRADE"
     },
     {
-      "codcli": "31173",
-      "razao": "DUMANGA BAR & RESTAURANTE LTDA",
-      "fantasia": "DUMANGA COMIDARIA",
-      "bairro": "LOURDES",
-      "cidade": "BELO HORIZONTE",
-      "cnpj": "35.877.756/0001-06",
-      "estado": "MG",
-      "ramo": "RESTAURANTE",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO",
-      "codusur2": "",
-      "nome_usur2": "",
-      "ultimo_rca": "308",
-      "ultimo_rca_nome": "JULIANA TAVARES",
-      "ultimo_rca_ot": "",
-      "ultimo_rca_ot_nome": ""
-    },
-    {
       "codcli": "70954",
       "razao": "DUMAR BAR E RESTAURANTE LAZER DE COPA LTDA",
       "fantasia": "DUMAR BAR E RESTAURANTE LAZER DE COPA LT",
@@ -191198,10 +191178,10 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "RONALDO BASSI - OFF TRADE",
       "codusur2": "",
       "nome_usur2": "",
-      "ultimo_rca": "",
-      "ultimo_rca_nome": "",
-      "ultimo_rca_ot": "",
-      "ultimo_rca_ot_nome": ""
+      "ultimo_rca": "523",
+      "ultimo_rca_nome": "RONALDO BASSI - OFF TRADE",
+      "ultimo_rca_ot": "523",
+      "ultimo_rca_ot_nome": "RONALDO BASSI - OFF TRADE"
     },
     {
       "codcli": "37753",
@@ -273158,10 +273138,10 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "JOAQUIM ANGELO - OFF TRADE",
       "codusur2": "",
       "nome_usur2": "",
-      "ultimo_rca": "",
-      "ultimo_rca_nome": "",
-      "ultimo_rca_ot": "",
-      "ultimo_rca_ot_nome": ""
+      "ultimo_rca": "516",
+      "ultimo_rca_nome": "JOAQUIM ANGELO - OFF TRADE",
+      "ultimo_rca_ot": "516",
+      "ultimo_rca_ot_nome": "JOAQUIM ANGELO - OFF TRADE"
     },
     {
       "codcli": "50099",
@@ -314338,10 +314318,10 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "JOAQUIM ANGELO - OFF TRADE",
       "codusur2": "",
       "nome_usur2": "",
-      "ultimo_rca": "",
-      "ultimo_rca_nome": "",
-      "ultimo_rca_ot": "",
-      "ultimo_rca_ot_nome": ""
+      "ultimo_rca": "516",
+      "ultimo_rca_nome": "JOAQUIM ANGELO - OFF TRADE",
+      "ultimo_rca_ot": "516",
+      "ultimo_rca_ot_nome": "JOAQUIM ANGELO - OFF TRADE"
     },
     {
       "codcli": "35583",
@@ -346082,6 +346062,26 @@ const CLIENTES_RCA_DATA = {
       "ultimo_rca_nome": "SAVIO NETO - OFF TRADE",
       "ultimo_rca_ot": "331",
       "ultimo_rca_ot_nome": "SAVIO NETO - OFF TRADE"
+    },
+    {
+      "codcli": "39888",
+      "razao": "MINAS FEST FORMATURAS CERIMONIAIS E EVENTOS LTDA",
+      "fantasia": "FEAT PRODUCOES",
+      "bairro": "SÃO MATEUS",
+      "cidade": "JUIZ DE FORA",
+      "cnpj": "08.694.340/0001-71",
+      "estado": "MG",
+      "ramo": "OUTROS",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "349",
+      "nome_usur1": "WILLIAM ALVES DA SILVA - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": "",
+      "ultimo_rca": "",
+      "ultimo_rca_nome": "",
+      "ultimo_rca_ot": "",
+      "ultimo_rca_ot_nome": ""
     },
     {
       "codcli": "31545",
@@ -382958,10 +382958,10 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "BRUNO COSMO - OFF TRADE",
       "codusur2": "190",
       "nome_usur2": "ROMARIO DOS SANTOS",
-      "ultimo_rca": "458",
-      "ultimo_rca_nome": "BRUNO COSMO - OFF TRADE",
-      "ultimo_rca_ot": "458",
-      "ultimo_rca_ot_nome": "BRUNO COSMO - OFF TRADE"
+      "ultimo_rca": "",
+      "ultimo_rca_nome": "",
+      "ultimo_rca_ot": "343",
+      "ultimo_rca_ot_nome": "JOSIETH LIMA - OFF TRADE"
     },
     {
       "codcli": "81681",
@@ -382978,10 +382978,10 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "BRUNO COSMO - OFF TRADE",
       "codusur2": "190",
       "nome_usur2": "ROMARIO DOS SANTOS",
-      "ultimo_rca": "458",
-      "ultimo_rca_nome": "BRUNO COSMO - OFF TRADE",
-      "ultimo_rca_ot": "458",
-      "ultimo_rca_ot_nome": "BRUNO COSMO - OFF TRADE"
+      "ultimo_rca": "",
+      "ultimo_rca_nome": "",
+      "ultimo_rca_ot": "343",
+      "ultimo_rca_ot_nome": "JOSIETH LIMA - OFF TRADE"
     },
     {
       "codcli": "81677",
@@ -383018,10 +383018,10 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "BRUNO COSMO - OFF TRADE",
       "codusur2": "190",
       "nome_usur2": "ROMARIO DOS SANTOS",
-      "ultimo_rca": "458",
-      "ultimo_rca_nome": "BRUNO COSMO - OFF TRADE",
-      "ultimo_rca_ot": "458",
-      "ultimo_rca_ot_nome": "BRUNO COSMO - OFF TRADE"
+      "ultimo_rca": "",
+      "ultimo_rca_nome": "",
+      "ultimo_rca_ot": "343",
+      "ultimo_rca_ot_nome": "JOSIETH LIMA - OFF TRADE"
     },
     {
       "codcli": "81696",
@@ -383038,10 +383038,10 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "BRUNO COSMO - OFF TRADE",
       "codusur2": "190",
       "nome_usur2": "ROMARIO DOS SANTOS",
-      "ultimo_rca": "458",
-      "ultimo_rca_nome": "BRUNO COSMO - OFF TRADE",
-      "ultimo_rca_ot": "458",
-      "ultimo_rca_ot_nome": "BRUNO COSMO - OFF TRADE"
+      "ultimo_rca": "",
+      "ultimo_rca_nome": "",
+      "ultimo_rca_ot": "343",
+      "ultimo_rca_ot_nome": "JOSIETH LIMA - OFF TRADE"
     },
     {
       "codcli": "89908",
@@ -457664,6 +457664,26 @@ const CLIENTES_RCA_DATA = {
       "ultimo_rca_ot_nome": ""
     },
     {
+      "codcli": "33958",
+      "razao": "STOP BAR LTDA",
+      "fantasia": "VALENCA BAR E PARRILHA",
+      "bairro": "GUTIERREZ",
+      "cidade": "BELO HORIZONTE",
+      "cnpj": "09.397.786/0001-05",
+      "estado": "MG",
+      "ramo": "BAR",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "327",
+      "nome_usur1": "JOÃO SANTOS - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": "",
+      "ultimo_rca": "315",
+      "ultimo_rca_nome": "LUCAS SILVA",
+      "ultimo_rca_ot": "",
+      "ultimo_rca_ot_nome": ""
+    },
+    {
       "codcli": "81129",
       "razao": "STOP HERE BAR LTDA",
       "fantasia": "STOP HERE BAR",
@@ -463798,10 +463818,10 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "JOAQUIM ANGELO - OFF TRADE",
       "codusur2": "",
       "nome_usur2": "",
-      "ultimo_rca": "",
-      "ultimo_rca_nome": "",
-      "ultimo_rca_ot": "",
-      "ultimo_rca_ot_nome": ""
+      "ultimo_rca": "516",
+      "ultimo_rca_nome": "JOAQUIM ANGELO - OFF TRADE",
+      "ultimo_rca_ot": "516",
+      "ultimo_rca_ot_nome": "JOAQUIM ANGELO - OFF TRADE"
     },
     {
       "codcli": "39006",
@@ -481458,10 +481478,10 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "GISELLE BARFER - OFF TRADE",
       "codusur2": "",
       "nome_usur2": "",
-      "ultimo_rca": "",
-      "ultimo_rca_nome": "",
-      "ultimo_rca_ot": "",
-      "ultimo_rca_ot_nome": ""
+      "ultimo_rca": "159",
+      "ultimo_rca_nome": "GISELLE BARFER - OFF TRADE",
+      "ultimo_rca_ot": "159",
+      "ultimo_rca_ot_nome": "GISELLE BARFER - OFF TRADE"
     },
     {
       "codcli": "67398",
