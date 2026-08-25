@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_mg.py
 
 const NAO_POS_MG_DATA = {
-  "atualizado_em": "25/08/2026 17:31",
+  "atualizado_em": "25/08/2026 18:27",
   "por_vendedor": {
     "BRUNA CASTRO MELLO": [
       {
@@ -565,6 +565,32 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
+        "codcli": "37327",
+        "cliente": "UNISSUL SUPERMERCADOS S/A",
+        "bairro": "CENTRO",
+        "dtultcomp": "30/07/2026",
+        "produtos": [
+          {
+            "produto": "VILLA ROSA BRANCO 750ML",
+            "fantasia": "CASTAS",
+            "qt": 12,
+            "valor": 514.8
+          },
+          {
+            "produto": "VINHO FOODKILLER CAB SAUV MERLOT 750ML",
+            "fantasia": "CASTAS",
+            "qt": 6,
+            "valor": 293.4
+          },
+          {
+            "produto": "VODKA ORLOFF 1L - DEST",
+            "fantasia": "",
+            "qt": 12,
+            "valor": 245.04
+          }
+        ]
+      },
+      {
         "codcli": "37333",
         "cliente": "UNISSUL SUPERMERCADOS S/A",
         "bairro": "CENTRO",
@@ -593,32 +619,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "PERNOD",
             "qt": 3,
             "valor": 177.54
-          }
-        ]
-      },
-      {
-        "codcli": "37327",
-        "cliente": "UNISSUL SUPERMERCADOS S/A",
-        "bairro": "CENTRO",
-        "dtultcomp": "30/07/2026",
-        "produtos": [
-          {
-            "produto": "VILLA ROSA BRANCO 750ML",
-            "fantasia": "CASTAS",
-            "qt": 12,
-            "valor": 514.8
-          },
-          {
-            "produto": "VINHO FOODKILLER CAB SAUV MERLOT 750ML",
-            "fantasia": "CASTAS",
-            "qt": 6,
-            "valor": 293.4
-          },
-          {
-            "produto": "VODKA ORLOFF 1L - DEST",
-            "fantasia": "",
-            "qt": 12,
-            "valor": 245.04
           }
         ]
       },
@@ -746,6 +746,20 @@ const NAO_POS_MG_DATA = {
         "produtos": []
       },
       {
+        "codcli": "39830",
+        "cliente": "MAGLIONI RIBEIRO & CIA LTDA",
+        "bairro": "BOM RECANTO",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "39829",
+        "cliente": "MAGLIONI RIBEIRO & CIA LTDA",
+        "bairro": "CENTRO",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
         "codcli": "39818",
         "cliente": "MAGLIONI RIBEIRO & CIA LTDA",
         "bairro": "VARGINHA",
@@ -768,6 +782,13 @@ const NAO_POS_MG_DATA = {
       },
       {
         "codcli": "39821",
+        "cliente": "MAGLIONI RIBEIRO & CIA LTDA",
+        "bairro": "CENTRO",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "39820",
         "cliente": "MAGLIONI RIBEIRO & CIA LTDA",
         "bairro": "CENTRO",
         "dtultcomp": "nan",
@@ -802,51 +823,9 @@ const NAO_POS_MG_DATA = {
         "produtos": []
       },
       {
-        "codcli": "39823",
-        "cliente": "MAGLIONI RIBEIRO & CIA LTDA",
-        "bairro": "CENTRO",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
         "codcli": "39833",
         "cliente": "MAGLIONI RIBEIRO & CIA LTDA",
         "bairro": "JARDIM BERNADETE",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "39831",
-        "cliente": "MAGLIONI RIBEIRO & CIA LTDA",
-        "bairro": "JARDIM SÃO CARLOS",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "39830",
-        "cliente": "MAGLIONI RIBEIRO & CIA LTDA",
-        "bairro": "BOM RECANTO",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "39820",
-        "cliente": "MAGLIONI RIBEIRO & CIA LTDA",
-        "bairro": "CENTRO",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "39824",
-        "cliente": "MAGLIONI RIBEIRO & CIA LTDA",
-        "bairro": "BOA VISTA",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "39834",
-        "cliente": "MAGLIONI RIBEIRO & CIA LTDA",
-        "bairro": "NOSSA SENHORA DE FÁTIMA",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -858,28 +837,14 @@ const NAO_POS_MG_DATA = {
         "produtos": []
       },
       {
-        "codcli": "39828",
+        "codcli": "39834",
         "cliente": "MAGLIONI RIBEIRO & CIA LTDA",
-        "bairro": "CENTRO",
+        "bairro": "NOSSA SENHORA DE FÁTIMA",
         "dtultcomp": "nan",
         "produtos": []
       },
       {
-        "codcli": "39836",
-        "cliente": "MAGLIONI RIBEIRO & CIA LTDA",
-        "bairro": "VARGEM",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "39816",
-        "cliente": "MAGLIONI RIBEIRO & CIA LTDA",
-        "bairro": "CENTRO",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "39829",
+        "codcli": "39823",
         "cliente": "MAGLIONI RIBEIRO & CIA LTDA",
         "bairro": "CENTRO",
         "dtultcomp": "nan",
@@ -891,9 +856,76 @@ const NAO_POS_MG_DATA = {
         "bairro": "CENTRO",
         "dtultcomp": "nan",
         "produtos": []
+      },
+      {
+        "codcli": "39816",
+        "cliente": "MAGLIONI RIBEIRO & CIA LTDA",
+        "bairro": "CENTRO",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "39831",
+        "cliente": "MAGLIONI RIBEIRO & CIA LTDA",
+        "bairro": "JARDIM SÃO CARLOS",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "39836",
+        "cliente": "MAGLIONI RIBEIRO & CIA LTDA",
+        "bairro": "VARGEM",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "39824",
+        "cliente": "MAGLIONI RIBEIRO & CIA LTDA",
+        "bairro": "BOA VISTA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "39828",
+        "cliente": "MAGLIONI RIBEIRO & CIA LTDA",
+        "bairro": "CENTRO",
+        "dtultcomp": "nan",
+        "produtos": []
       }
     ],
     "JOÃO SANTOS": [
+      {
+        "codcli": "33958",
+        "cliente": "STOP BAR LTDA",
+        "bairro": "GUTIERREZ",
+        "dtultcomp": "17/06/2024",
+        "produtos": [
+          {
+            "produto": "RED BULL 250ML CAIXA C/24 UNID",
+            "fantasia": "RED BULL",
+            "qt": 2,
+            "valor": 359.52
+          },
+          {
+            "produto": "RED BULL MELANCIA 24X250ML",
+            "fantasia": "RED BULL",
+            "qt": 2,
+            "valor": 359.52
+          },
+          {
+            "produto": "RED BULL SUGAR FREE  250 ML CX C/24",
+            "fantasia": "RED BULL",
+            "qt": 2,
+            "valor": 359.52
+          },
+          {
+            "produto": "RED BULL TROPICAL EDITION 250 ML CX C/24",
+            "fantasia": "RED BULL",
+            "qt": 2,
+            "valor": 359.52
+          }
+        ]
+      },
       {
         "codcli": "37137",
         "cliente": "OMNI CENTRO DE TREINAMENTO LTDA",
@@ -4810,6 +4842,13 @@ const NAO_POS_MG_DATA = {
         "codcli": "39881",
         "cliente": "LEONARDO MACHADO COELHO 10001137603",
         "bairro": "MG",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "39888",
+        "cliente": "MINAS FEST FORMATURAS CERIMONIAIS E EVENTOS LTDA",
+        "bairro": "SÃO MATEUS",
         "dtultcomp": "nan",
         "produtos": []
       }
