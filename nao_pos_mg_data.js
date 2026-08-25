@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_mg.py
 
 const NAO_POS_MG_DATA = {
-  "atualizado_em": "24/08/2026 18:05",
+  "atualizado_em": "25/08/2026 12:08",
   "por_vendedor": {
     "BRUNA CASTRO MELLO": [
       {
@@ -3206,44 +3206,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "29386",
-        "cliente": "SUPERMERCADO PARANAIBA JARDIM ITAU LTDA",
-        "bairro": "PARQUE JARDIM ITAÚ",
-        "dtultcomp": "05/06/2026",
-        "produtos": [
-          {
-            "produto": "PURE MONIN FRUTAS VERMELHAS 330ML",
-            "fantasia": "MONIN",
-            "qt": 3,
-            "valor": 68.7
-          },
-          {
-            "produto": "PURE MONIN MAÇA VERDE 330ML",
-            "fantasia": "MONIN",
-            "qt": 3,
-            "valor": 68.7
-          },
-          {
-            "produto": "XAROPE  MONIN TANGERINA 330 ML",
-            "fantasia": "MONIN",
-            "qt": 3,
-            "valor": 68.7
-          },
-          {
-            "produto": "XAROPE MONIN MARACUJA 330 ML",
-            "fantasia": "MONIN",
-            "qt": 3,
-            "valor": 68.7
-          },
-          {
-            "produto": "XAROPE MONIN MORANGO 330 ML",
-            "fantasia": "MONIN",
-            "qt": 3,
-            "valor": 68.7
-          }
-        ]
-      },
-      {
         "codcli": "29334",
         "cliente": "COMERCIAL PARANAIBA DE ALIMENTOS LTDA",
         "bairro": "PLANALTO",
@@ -3498,20 +3460,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "MONIN",
             "qt": 1,
             "valor": 25.0
-          }
-        ]
-      },
-      {
-        "codcli": "37423",
-        "cliente": "PARANAIBA RIBEIRO DE ABREU SUPERMERCADOS LTDA",
-        "bairro": "CAPITAO EDURARDO",
-        "dtultcomp": "01/07/2026",
-        "produtos": [
-          {
-            "produto": "GIN GORDONS 750 ML",
-            "fantasia": "DIAGEO",
-            "qt": 6,
-            "valor": 335.4
           }
         ]
       },
@@ -3959,6 +3907,20 @@ const NAO_POS_MG_DATA = {
     ],
     "TIAGO ANDRADE": [
       {
+        "codcli": "32979",
+        "cliente": "ENGENHEIROS CRUZEIRO RESTAURANTE LTDA",
+        "bairro": "SERRA",
+        "dtultcomp": "21/05/2026",
+        "produtos": [
+          {
+            "produto": "BAER MATE LATA 6X269ML",
+            "fantasia": "BETTER DRINKS",
+            "qt": 12,
+            "valor": 395.28
+          }
+        ]
+      },
+      {
         "codcli": "30264",
         "cliente": "CAFETERIA E PRODUCAO BOLOS DE JULIETA LTDA.",
         "bairro": "OURO PRETO",
@@ -4243,32 +4205,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "30323",
-        "cliente": "CASA DE FRIOS E MASSAS AO GOSTO LTDA",
-        "bairro": "SANTO ANTONIO",
-        "dtultcomp": "23/06/2026",
-        "produtos": [
-          {
-            "produto": "4 PACK RED BULL MELANCIA",
-            "fantasia": "RED BULL",
-            "qt": 3,
-            "valor": 89.88
-          },
-          {
-            "produto": "4 PACK RED BULL SUMMER MELAO MARACUJA",
-            "fantasia": "RED BULL",
-            "qt": 3,
-            "valor": 89.88
-          },
-          {
-            "produto": "RED BULL SUGAR FREE  250 ML CX C/24",
-            "fantasia": "RED BULL",
-            "qt": 1,
-            "valor": 179.76
-          }
-        ]
-      },
-      {
         "codcli": "38776",
         "cliente": "CASA DE FRIOS E MASSAS AO GOSTO LTDA",
         "bairro": "ESTORIL",
@@ -4297,6 +4233,32 @@ const NAO_POS_MG_DATA = {
             "fantasia": "RED BULL",
             "qt": 1,
             "valor": 29.96
+          },
+          {
+            "produto": "RED BULL SUGAR FREE  250 ML CX C/24",
+            "fantasia": "RED BULL",
+            "qt": 1,
+            "valor": 179.76
+          }
+        ]
+      },
+      {
+        "codcli": "30323",
+        "cliente": "CASA DE FRIOS E MASSAS AO GOSTO LTDA",
+        "bairro": "SANTO ANTONIO",
+        "dtultcomp": "23/06/2026",
+        "produtos": [
+          {
+            "produto": "4 PACK RED BULL MELANCIA",
+            "fantasia": "RED BULL",
+            "qt": 3,
+            "valor": 89.88
+          },
+          {
+            "produto": "4 PACK RED BULL SUMMER MELAO MARACUJA",
+            "fantasia": "RED BULL",
+            "qt": 3,
+            "valor": 89.88
           },
           {
             "produto": "RED BULL SUGAR FREE  250 ML CX C/24",
@@ -5085,6 +5047,13 @@ const NAO_POS_MG_DATA = {
             "valor": 658.8
           }
         ]
+      },
+      {
+        "codcli": "39881",
+        "cliente": "LEONARDO MACHADO COELHO 10001137603",
+        "bairro": "MG",
+        "dtultcomp": "nan",
+        "produtos": []
       }
     ]
   }
