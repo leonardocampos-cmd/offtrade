@@ -1,25 +1,25 @@
 const METAS_GERAIS_DATA = {
-  "atualizado_em": "25/08/2026 13:19",
+  "atualizado_em": "25/08/2026 14:14",
   "mes": "Ago/26",
   "mes_ant": "Jul/26",
   "dias_corridos": 25,
   "dias_no_mes": 31,
   "dias_restantes": 6,
   "resumo": {
-    "fat": 10903718.57,
+    "fat": 10907887.07,
     "fat_ant": 8941466.25,
     "fat_ant_completo": 13458016.33,
-    "pos": 1346,
+    "pos": 1347,
     "pos_ant": 1501,
     "pos_ant_completo": 1789
   },
   "total": {
     "meta": 12300000.0,
-    "fat": 10903718.57,
+    "fat": 10907887.07,
     "fat_ant": 8941466.25,
     "fat_ant_completo": 13458016.33,
-    "pct": 88.6,
-    "nec_dia": 232713.57
+    "pct": 88.7,
+    "nec_dia": 232018.82
   },
   "estados": [
     {
@@ -39,7 +39,7 @@ const METAS_GERAIS_DATA = {
       "estado": "SP",
       "label": "São Paulo",
       "meta": 5500000.0,
-      "fat": 6089595.53,
+      "fat": 6089200.73,
       "fat_ant": 5866428.02,
       "pos": 592,
       "pct": 110.7,
@@ -65,11 +65,11 @@ const METAS_GERAIS_DATA = {
       "estado": "MG",
       "label": "Minas Gerais",
       "meta": 2100000.0,
-      "fat": 1263870.66,
+      "fat": 1268433.96,
       "fat_ant": 995285.34,
-      "pos": 184,
-      "pct": 60.2,
-      "nec_dia": 139354.89,
+      "pos": 185,
+      "pct": 60.4,
+      "nec_dia": 138594.34,
       "fat_ant_completo": 1873633.49,
       "pos_ant": 218,
       "pos_ant_completo": 260
@@ -78,24 +78,24 @@ const METAS_GERAIS_DATA = {
   "industrias": [
     {
       "fantasia": "PERNOD",
-      "fat": 3374088.83,
+      "fat": 3373694.03,
       "fat_ant": 4556101.94,
       "por_estado": {
         "RJ": 215335.0,
-        "SP": 2976990.55,
+        "SP": 2976595.75,
         "ES": 62701.2,
         "MG": 119062.08
       }
     },
     {
       "fantasia": "DIAGEO",
-      "fat": 1986131.79,
+      "fat": 1987719.79,
       "fat_ant": 294145.27,
       "por_estado": {
         "RJ": 1476877.84,
         "SP": 110806.53,
         "ES": 0.0,
-        "MG": 398447.42
+        "MG": 400035.42
       }
     },
     {
@@ -166,13 +166,13 @@ const METAS_GERAIS_DATA = {
     },
     {
       "fantasia": "CASTAS",
-      "fat": 211631.26,
+      "fat": 213061.16,
       "fat_ant": 173971.28,
       "por_estado": {
         "RJ": 91970.56,
         "SP": 40221.2,
         "ES": 0.0,
-        "MG": 79439.5
+        "MG": 80869.4
       }
     },
     {
@@ -188,13 +188,13 @@ const METAS_GERAIS_DATA = {
     },
     {
       "fantasia": "SEM FORNECEDOR",
-      "fat": 171348.36,
+      "fat": 171456.16,
       "fat_ant": 130448.22,
       "por_estado": {
         "RJ": 164.7,
         "SP": 62617.83,
         "ES": 0.0,
-        "MG": 108565.83
+        "MG": 108673.63
       }
     },
     {
@@ -331,13 +331,13 @@ const METAS_GERAIS_DATA = {
     },
     {
       "fantasia": "HEINEKEN",
-      "fat": 33736.24,
+      "fat": 35173.84,
       "fat_ant": 32420.8,
       "por_estado": {
         "RJ": 0.0,
         "SP": 0.0,
         "ES": 0.0,
-        "MG": 33736.24
+        "MG": 35173.84
       }
     },
     {
