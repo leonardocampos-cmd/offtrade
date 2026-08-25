@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_mg.py
 
 const NAO_POS_MG_DATA = {
-  "atualizado_em": "25/08/2026 16:32",
+  "atualizado_em": "25/08/2026 17:31",
   "por_vendedor": {
     "BRUNA CASTRO MELLO": [
       {
@@ -565,32 +565,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "37327",
-        "cliente": "UNISSUL SUPERMERCADOS S/A",
-        "bairro": "CENTRO",
-        "dtultcomp": "30/07/2026",
-        "produtos": [
-          {
-            "produto": "VILLA ROSA BRANCO 750ML",
-            "fantasia": "CASTAS",
-            "qt": 12,
-            "valor": 514.8
-          },
-          {
-            "produto": "VINHO FOODKILLER CAB SAUV MERLOT 750ML",
-            "fantasia": "CASTAS",
-            "qt": 6,
-            "valor": 293.4
-          },
-          {
-            "produto": "VODKA ORLOFF 1L - DEST",
-            "fantasia": "",
-            "qt": 12,
-            "valor": 245.04
-          }
-        ]
-      },
-      {
         "codcli": "37333",
         "cliente": "UNISSUL SUPERMERCADOS S/A",
         "bairro": "CENTRO",
@@ -619,6 +593,32 @@ const NAO_POS_MG_DATA = {
             "fantasia": "PERNOD",
             "qt": 3,
             "valor": 177.54
+          }
+        ]
+      },
+      {
+        "codcli": "37327",
+        "cliente": "UNISSUL SUPERMERCADOS S/A",
+        "bairro": "CENTRO",
+        "dtultcomp": "30/07/2026",
+        "produtos": [
+          {
+            "produto": "VILLA ROSA BRANCO 750ML",
+            "fantasia": "CASTAS",
+            "qt": 12,
+            "valor": 514.8
+          },
+          {
+            "produto": "VINHO FOODKILLER CAB SAUV MERLOT 750ML",
+            "fantasia": "CASTAS",
+            "qt": 6,
+            "valor": 293.4
+          },
+          {
+            "produto": "VODKA ORLOFF 1L - DEST",
+            "fantasia": "",
+            "qt": 12,
+            "valor": 245.04
           }
         ]
       },
@@ -746,20 +746,6 @@ const NAO_POS_MG_DATA = {
         "produtos": []
       },
       {
-        "codcli": "39817",
-        "cliente": "MAGLIONI RIBEIRO & CIA LTDA",
-        "bairro": "CENTRO",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "39829",
-        "cliente": "MAGLIONI RIBEIRO & CIA LTDA",
-        "bairro": "CENTRO",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
         "codcli": "39818",
         "cliente": "MAGLIONI RIBEIRO & CIA LTDA",
         "bairro": "VARGINHA",
@@ -777,20 +763,6 @@ const NAO_POS_MG_DATA = {
         "codcli": "39835",
         "cliente": "MAGLIONI RIBEIRO & CIA LTDA",
         "bairro": "SANTO ANTÔNIO",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "39830",
-        "cliente": "MAGLIONI RIBEIRO & CIA LTDA",
-        "bairro": "BOM RECANTO",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "39820",
-        "cliente": "MAGLIONI RIBEIRO & CIA LTDA",
-        "bairro": "CENTRO",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -837,16 +809,9 @@ const NAO_POS_MG_DATA = {
         "produtos": []
       },
       {
-        "codcli": "39834",
+        "codcli": "39833",
         "cliente": "MAGLIONI RIBEIRO & CIA LTDA",
-        "bairro": "NOSSA SENHORA DE FÁTIMA",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "39824",
-        "cliente": "MAGLIONI RIBEIRO & CIA LTDA",
-        "bairro": "BOA VISTA",
+        "bairro": "JARDIM BERNADETE",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -858,7 +823,42 @@ const NAO_POS_MG_DATA = {
         "produtos": []
       },
       {
-        "codcli": "39816",
+        "codcli": "39830",
+        "cliente": "MAGLIONI RIBEIRO & CIA LTDA",
+        "bairro": "BOM RECANTO",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "39820",
+        "cliente": "MAGLIONI RIBEIRO & CIA LTDA",
+        "bairro": "CENTRO",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "39824",
+        "cliente": "MAGLIONI RIBEIRO & CIA LTDA",
+        "bairro": "BOA VISTA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "39834",
+        "cliente": "MAGLIONI RIBEIRO & CIA LTDA",
+        "bairro": "NOSSA SENHORA DE FÁTIMA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "39837",
+        "cliente": "MAGLIONI RIBEIRO & CIA LTDA",
+        "bairro": "CENTRO",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "39828",
         "cliente": "MAGLIONI RIBEIRO & CIA LTDA",
         "bairro": "CENTRO",
         "dtultcomp": "nan",
@@ -872,21 +872,21 @@ const NAO_POS_MG_DATA = {
         "produtos": []
       },
       {
-        "codcli": "39833",
-        "cliente": "MAGLIONI RIBEIRO & CIA LTDA",
-        "bairro": "JARDIM BERNADETE",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "39837",
+        "codcli": "39816",
         "cliente": "MAGLIONI RIBEIRO & CIA LTDA",
         "bairro": "CENTRO",
         "dtultcomp": "nan",
         "produtos": []
       },
       {
-        "codcli": "39828",
+        "codcli": "39829",
+        "cliente": "MAGLIONI RIBEIRO & CIA LTDA",
+        "bairro": "CENTRO",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "39817",
         "cliente": "MAGLIONI RIBEIRO & CIA LTDA",
         "bairro": "CENTRO",
         "dtultcomp": "nan",
@@ -1319,38 +1319,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "39221",
-        "cliente": "HENRIQUE PEREIRA FURTADO",
-        "bairro": "PAMPULHA",
-        "dtultcomp": "15/06/2026",
-        "produtos": [
-          {
-            "produto": "4 PACK RED BULL TROPICAL",
-            "fantasia": "RED BULL",
-            "qt": 2,
-            "valor": 47.12
-          },
-          {
-            "produto": "RED BULL 250ML CAIXA C/24 UNID",
-            "fantasia": "RED BULL",
-            "qt": 1,
-            "valor": 141.36
-          },
-          {
-            "produto": "RED BULL NECTARINA SF 24X250ML",
-            "fantasia": "RED BULL",
-            "qt": 1,
-            "valor": 141.36
-          },
-          {
-            "produto": "RED BULL SF POMELO 24X250ML",
-            "fantasia": "RED BULL",
-            "qt": 1,
-            "valor": 141.36
-          }
-        ]
-      },
-      {
         "codcli": "35327",
         "cliente": "PRODUCAO JR. CONSULTORIA & ASSESSORIA",
         "bairro": "CAMPUS UFMG",
@@ -1525,26 +1493,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "33014",
-        "cliente": "ER COZINHA ARTESANAL LTDA",
-        "bairro": "LOURDES",
-        "dtultcomp": "18/06/2026",
-        "produtos": [
-          {
-            "produto": "YVY DESTILADO GIN AR LT 710ML",
-            "fantasia": "YVY",
-            "qt": 4,
-            "valor": 159.6
-          },
-          {
-            "produto": "YVY DESTILADO GIN MAR  LT 710ML",
-            "fantasia": "YVY",
-            "qt": 4,
-            "valor": 159.6
-          }
-        ]
-      },
-      {
         "codcli": "32871",
         "cliente": "ER COZINHA ARTESANAL LTDA",
         "bairro": "VILA DA SERRA",
@@ -1561,6 +1509,26 @@ const NAO_POS_MG_DATA = {
             "fantasia": "YVY",
             "qt": 6,
             "valor": 239.4
+          }
+        ]
+      },
+      {
+        "codcli": "33014",
+        "cliente": "ER COZINHA ARTESANAL LTDA",
+        "bairro": "LOURDES",
+        "dtultcomp": "18/06/2026",
+        "produtos": [
+          {
+            "produto": "YVY DESTILADO GIN AR LT 710ML",
+            "fantasia": "YVY",
+            "qt": 4,
+            "valor": 159.6
+          },
+          {
+            "produto": "YVY DESTILADO GIN MAR  LT 710ML",
+            "fantasia": "YVY",
+            "qt": 4,
+            "valor": 159.6
           }
         ]
       },
@@ -2361,50 +2329,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "32823",
-        "cliente": "F A MENDONCA GASTRONOMIA LTDA",
-        "bairro": "ANGOLA",
-        "dtultcomp": "27/07/2026",
-        "produtos": [
-          {
-            "produto": "HUMB. CANALE DENARIO MALBEC 750ML",
-            "fantasia": "CASTAS",
-            "qt": 2,
-            "valor": 153.8
-          },
-          {
-            "produto": "VILLA ROSA COLHEITA TINTO  750ML",
-            "fantasia": "CASTAS",
-            "qt": 2,
-            "valor": 149.8
-          },
-          {
-            "produto": "VINHO FOODKILLER CAB SAUV MERLOT 750ML",
-            "fantasia": "CASTAS",
-            "qt": 4,
-            "valor": 195.6
-          },
-          {
-            "produto": "VINHO GRAVEDAD SAUV. BLANC 750ML",
-            "fantasia": "CASTAS",
-            "qt": 1,
-            "valor": 44.9
-          },
-          {
-            "produto": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
-            "fantasia": "CASTAS",
-            "qt": 3,
-            "valor": 239.7
-          },
-          {
-            "produto": "VINHO TTO BERTOLI CHIANTI DOCG 750ML",
-            "fantasia": "CASTAS",
-            "qt": 1,
-            "valor": 76.9
-          }
-        ]
-      },
-      {
         "codcli": "31113",
         "cliente": "FELIPE ROBERTO SILVA RIBEIRO 08734193677",
         "bairro": "ANGOLA",
@@ -3072,20 +2996,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "38049",
-        "cliente": "VAREJAO ASTEKA LTDA",
-        "bairro": "ASTECA (SÃO BENEDITO)",
-        "dtultcomp": "29/04/2026",
-        "produtos": [
-          {
-            "produto": "RED BULL 24X250ML ENERG",
-            "fantasia": "",
-            "qt": 2,
-            "valor": 335.52
-          }
-        ]
-      },
-      {
         "codcli": "38043",
         "cliente": "SUPERMERCADO SERRA DO CIPO LTDA",
         "bairro": "CARDEAL MOTA",
@@ -3738,26 +3648,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "",
             "qt": 12,
             "valor": 346.8
-          }
-        ]
-      },
-      {
-        "codcli": "38044",
-        "cliente": "CONFINS COMERCIO VAREJISTA DE PRODUTOS INDUSTRIALIZADOS LTDA",
-        "bairro": "CENTRO",
-        "dtultcomp": "24/07/2026",
-        "produtos": [
-          {
-            "produto": "CERVEJA HEINEKEN  LONG ZERO 24X330ML",
-            "fantasia": "HEINEKEN",
-            "qt": 2,
-            "valor": 282.72
-          },
-          {
-            "produto": "CERVEJA HEINEKEN LONG 24X330ML",
-            "fantasia": "HEINEKEN",
-            "qt": 6,
-            "valor": 848.16
           }
         ]
       },
