@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_mg.py
 
 const NAO_POS_MG_DATA = {
-  "atualizado_em": "25/08/2026 15:36",
+  "atualizado_em": "25/08/2026 16:32",
   "por_vendedor": {
     "BRUNA CASTRO MELLO": [
       {
@@ -539,16 +539,16 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "37333",
+        "codcli": "37330",
         "cliente": "UNISSUL SUPERMERCADOS S/A",
-        "bairro": "CENTRO",
+        "bairro": "NOVA ERA",
         "dtultcomp": "30/07/2026",
         "produtos": [
           {
             "produto": "VILLA ROSA BRANCO 750ML",
             "fantasia": "CASTAS",
-            "qt": 6,
-            "valor": 257.4
+            "qt": 12,
+            "valor": 514.8
           },
           {
             "produto": "VILLA ROSA ROSE 750ML",
@@ -559,14 +559,8 @@ const NAO_POS_MG_DATA = {
           {
             "produto": "VODKA ORLOFF 1L - DEST",
             "fantasia": "",
-            "qt": 24,
-            "valor": 490.08
-          },
-          {
-            "produto": "WHISKY BALLANTINE'S FINEST 1L",
-            "fantasia": "PERNOD",
-            "qt": 3,
-            "valor": 177.54
+            "qt": 12,
+            "valor": 245.04
           }
         ]
       },
@@ -597,16 +591,16 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "37330",
+        "codcli": "37333",
         "cliente": "UNISSUL SUPERMERCADOS S/A",
-        "bairro": "NOVA ERA",
+        "bairro": "CENTRO",
         "dtultcomp": "30/07/2026",
         "produtos": [
           {
             "produto": "VILLA ROSA BRANCO 750ML",
             "fantasia": "CASTAS",
-            "qt": 12,
-            "valor": 514.8
+            "qt": 6,
+            "valor": 257.4
           },
           {
             "produto": "VILLA ROSA ROSE 750ML",
@@ -617,8 +611,14 @@ const NAO_POS_MG_DATA = {
           {
             "produto": "VODKA ORLOFF 1L - DEST",
             "fantasia": "",
-            "qt": 12,
-            "valor": 245.04
+            "qt": 24,
+            "valor": 490.08
+          },
+          {
+            "produto": "WHISKY BALLANTINE'S FINEST 1L",
+            "fantasia": "PERNOD",
+            "qt": 3,
+            "valor": 177.54
           }
         ]
       },
@@ -746,90 +746,6 @@ const NAO_POS_MG_DATA = {
         "produtos": []
       },
       {
-        "codcli": "39832",
-        "cliente": "MAGLIONI RIBEIRO & CIA LTDA",
-        "bairro": "CENTRO",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "39823",
-        "cliente": "MAGLIONI RIBEIRO & CIA LTDA",
-        "bairro": "CENTRO",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "39833",
-        "cliente": "MAGLIONI RIBEIRO & CIA LTDA",
-        "bairro": "JARDIM BERNADETE",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "39831",
-        "cliente": "MAGLIONI RIBEIRO & CIA LTDA",
-        "bairro": "JARDIM SÃO CARLOS",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "39830",
-        "cliente": "MAGLIONI RIBEIRO & CIA LTDA",
-        "bairro": "BOM RECANTO",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "39820",
-        "cliente": "MAGLIONI RIBEIRO & CIA LTDA",
-        "bairro": "CENTRO",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "39824",
-        "cliente": "MAGLIONI RIBEIRO & CIA LTDA",
-        "bairro": "BOA VISTA",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "39834",
-        "cliente": "MAGLIONI RIBEIRO & CIA LTDA",
-        "bairro": "NOSSA SENHORA DE FÁTIMA",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "39837",
-        "cliente": "MAGLIONI RIBEIRO & CIA LTDA",
-        "bairro": "CENTRO",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "39828",
-        "cliente": "MAGLIONI RIBEIRO & CIA LTDA",
-        "bairro": "CENTRO",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "39836",
-        "cliente": "MAGLIONI RIBEIRO & CIA LTDA",
-        "bairro": "VARGEM",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "39816",
-        "cliente": "MAGLIONI RIBEIRO & CIA LTDA",
-        "bairro": "CENTRO",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
         "codcli": "39817",
         "cliente": "MAGLIONI RIBEIRO & CIA LTDA",
         "bairro": "CENTRO",
@@ -865,6 +781,20 @@ const NAO_POS_MG_DATA = {
         "produtos": []
       },
       {
+        "codcli": "39830",
+        "cliente": "MAGLIONI RIBEIRO & CIA LTDA",
+        "bairro": "BOM RECANTO",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "39820",
+        "cliente": "MAGLIONI RIBEIRO & CIA LTDA",
+        "bairro": "CENTRO",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
         "codcli": "39821",
         "cliente": "MAGLIONI RIBEIRO & CIA LTDA",
         "bairro": "CENTRO",
@@ -879,6 +809,13 @@ const NAO_POS_MG_DATA = {
         "produtos": []
       },
       {
+        "codcli": "39827",
+        "cliente": "MAGLIONI RIBEIRO & CIA LTDA",
+        "bairro": "JARDIM ANDERE",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
         "codcli": "39826",
         "cliente": "MAGLIONI RIBEIRO & CIA LTDA",
         "bairro": "CENTRO",
@@ -886,9 +823,72 @@ const NAO_POS_MG_DATA = {
         "produtos": []
       },
       {
-        "codcli": "39827",
+        "codcli": "39832",
         "cliente": "MAGLIONI RIBEIRO & CIA LTDA",
-        "bairro": "JARDIM ANDERE",
+        "bairro": "CENTRO",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "39823",
+        "cliente": "MAGLIONI RIBEIRO & CIA LTDA",
+        "bairro": "CENTRO",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "39834",
+        "cliente": "MAGLIONI RIBEIRO & CIA LTDA",
+        "bairro": "NOSSA SENHORA DE FÁTIMA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "39824",
+        "cliente": "MAGLIONI RIBEIRO & CIA LTDA",
+        "bairro": "BOA VISTA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "39831",
+        "cliente": "MAGLIONI RIBEIRO & CIA LTDA",
+        "bairro": "JARDIM SÃO CARLOS",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "39816",
+        "cliente": "MAGLIONI RIBEIRO & CIA LTDA",
+        "bairro": "CENTRO",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "39836",
+        "cliente": "MAGLIONI RIBEIRO & CIA LTDA",
+        "bairro": "VARGEM",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "39833",
+        "cliente": "MAGLIONI RIBEIRO & CIA LTDA",
+        "bairro": "JARDIM BERNADETE",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "39837",
+        "cliente": "MAGLIONI RIBEIRO & CIA LTDA",
+        "bairro": "CENTRO",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "39828",
+        "cliente": "MAGLIONI RIBEIRO & CIA LTDA",
+        "bairro": "CENTRO",
         "dtultcomp": "nan",
         "produtos": []
       }
@@ -1525,26 +1525,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "32871",
-        "cliente": "ER COZINHA ARTESANAL LTDA",
-        "bairro": "VILA DA SERRA",
-        "dtultcomp": "18/06/2026",
-        "produtos": [
-          {
-            "produto": "YVY DESTILADO GIN AR LT 710ML",
-            "fantasia": "YVY",
-            "qt": 6,
-            "valor": 239.4
-          },
-          {
-            "produto": "YVY DESTILADO GIN MAR  LT 710ML",
-            "fantasia": "YVY",
-            "qt": 6,
-            "valor": 239.4
-          }
-        ]
-      },
-      {
         "codcli": "33014",
         "cliente": "ER COZINHA ARTESANAL LTDA",
         "bairro": "LOURDES",
@@ -1561,6 +1541,26 @@ const NAO_POS_MG_DATA = {
             "fantasia": "YVY",
             "qt": 4,
             "valor": 159.6
+          }
+        ]
+      },
+      {
+        "codcli": "32871",
+        "cliente": "ER COZINHA ARTESANAL LTDA",
+        "bairro": "VILA DA SERRA",
+        "dtultcomp": "18/06/2026",
+        "produtos": [
+          {
+            "produto": "YVY DESTILADO GIN AR LT 710ML",
+            "fantasia": "YVY",
+            "qt": 6,
+            "valor": 239.4
+          },
+          {
+            "produto": "YVY DESTILADO GIN MAR  LT 710ML",
+            "fantasia": "YVY",
+            "qt": 6,
+            "valor": 239.4
           }
         ]
       },
@@ -2836,51 +2836,9 @@ const NAO_POS_MG_DATA = {
         "produtos": []
       },
       {
-        "codcli": "39686",
-        "cliente": "CASA CAJU LTDA",
-        "bairro": "SERRA VERDE (VENDA NOVA)",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "39688",
-        "cliente": "EMPORIO FP LTDA",
-        "bairro": "SERRA VERDE (VENDA NOVA)",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "39687",
-        "cliente": "F J RESTAURANTE LTDA",
-        "bairro": "SERRA VERDE (VENDA NOVA)",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "39684",
-        "cliente": "FPP RESTAURANTE LTDA",
-        "bairro": "SERRA VERDE (VENDA NOVA)",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "39685",
-        "cliente": "JARDIM 360 LTDA",
-        "bairro": "SERRA VERDE (VENDA NOVA)",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
         "codcli": "39683",
         "cliente": "RESTAURANTE CASA CAJU LTDA",
         "bairro": "POMPÉIA",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "39689",
-        "cliente": "TORRE CAFE LTDA",
-        "bairro": "SERRA VERDE (VENDA NOVA)",
         "dtultcomp": "nan",
         "produtos": []
       }
@@ -3021,38 +2979,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "MONIN",
             "qt": 84,
             "valor": 2007.6
-          }
-        ]
-      },
-      {
-        "codcli": "34048",
-        "cliente": "MART MINAS DISTRIBUICAO LTDA",
-        "bairro": "CHACARAS COTIA",
-        "dtultcomp": "31/07/2026",
-        "produtos": [
-          {
-            "produto": "XAROPE MONIN LIMAO SICILIANO 700 ML",
-            "fantasia": "MONIN",
-            "qt": 420,
-            "valor": 18018.0
-          },
-          {
-            "produto": "XAROPE MONIN MACA VERDE (APPLE) 700 ML",
-            "fantasia": "MONIN",
-            "qt": 420,
-            "valor": 18018.0
-          },
-          {
-            "produto": "XAROPE MONIN MORANGO (STRAWBERRY) 700ML",
-            "fantasia": "MONIN",
-            "qt": 420,
-            "valor": 18018.0
-          },
-          {
-            "produto": "XAROPE MONIN TANGERINA (MANDARIM) 700ML",
-            "fantasia": "MONIN",
-            "qt": 420,
-            "valor": 18018.0
           }
         ]
       },
