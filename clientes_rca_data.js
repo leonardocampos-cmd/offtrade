@@ -1,6 +1,6 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "26/08/2026 15:21",
+  "atualizado_em": "26/08/2026 16:08",
   "total": 25515,
   "clientes": [
     {
@@ -22658,10 +22658,10 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "JOAQUIM ANGELO - OFF TRADE",
       "codusur2": "",
       "nome_usur2": "",
-      "ultimo_rca": "",
-      "ultimo_rca_nome": "",
-      "ultimo_rca_ot": "",
-      "ultimo_rca_ot_nome": ""
+      "ultimo_rca": "516",
+      "ultimo_rca_nome": "JOAQUIM ANGELO - OFF TRADE",
+      "ultimo_rca_ot": "516",
+      "ultimo_rca_ot_nome": "JOAQUIM ANGELO - OFF TRADE"
     },
     {
       "codcli": "38510",
@@ -31098,8 +31098,8 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "SUELY SANTOS - OFF TRADE",
       "codusur2": "",
       "nome_usur2": "",
-      "ultimo_rca": "461",
-      "ultimo_rca_nome": "SUELY SANTOS - OFF TRADE",
+      "ultimo_rca": "437",
+      "ultimo_rca_nome": "BEES",
       "ultimo_rca_ot": "461",
       "ultimo_rca_ot_nome": "SUELY SANTOS - OFF TRADE"
     },
@@ -50778,10 +50778,10 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "JOAQUIM ANGELO - OFF TRADE",
       "codusur2": "",
       "nome_usur2": "",
-      "ultimo_rca": "",
-      "ultimo_rca_nome": "",
-      "ultimo_rca_ot": "",
-      "ultimo_rca_ot_nome": ""
+      "ultimo_rca": "516",
+      "ultimo_rca_nome": "JOAQUIM ANGELO - OFF TRADE",
+      "ultimo_rca_ot": "516",
+      "ultimo_rca_ot_nome": "JOAQUIM ANGELO - OFF TRADE"
     },
     {
       "codcli": "36411",
@@ -95022,26 +95022,6 @@ const CLIENTES_RCA_DATA = {
       "ultimo_rca_nome": "MARCUS VINICIUS",
       "ultimo_rca_ot": "",
       "ultimo_rca_ot_nome": ""
-    },
-    {
-      "codcli": "90969",
-      "razao": "BARAO DA OFELIA DELIVERY LTDA",
-      "fantasia": "BARAO DA OFELIA",
-      "bairro": "IPANEMA",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "62.976.371/0001-60",
-      "estado": "RJ",
-      "ramo": "BAR",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "471",
-      "nome_usur1": "ANA CLARA FASSANO - OFF TRADE",
-      "codusur2": "",
-      "nome_usur2": "",
-      "ultimo_rca": "",
-      "ultimo_rca_nome": "",
-      "ultimo_rca_ot": "471",
-      "ultimo_rca_ot_nome": "ANA CLARA FASSANO - OFF TRADE"
     },
     {
       "codcli": "94280",
@@ -223624,26 +223604,6 @@ const CLIENTES_RCA_DATA = {
       "ultimo_rca_ot_nome": ""
     },
     {
-      "codcli": "31870",
-      "razao": "GABRIEL GUABIRABA ALVES DE QUEIROZ 47746999859",
-      "fantasia": "EL PATRON BEBIDAS",
-      "bairro": "PARQUE VITORIA REGIA",
-      "cidade": "SOROCABA",
-      "cnpj": "39.869.240/0001-62",
-      "estado": "SP",
-      "ramo": "MERCADO",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "588",
-      "nome_usur1": "W.S",
-      "codusur2": "",
-      "nome_usur2": "",
-      "ultimo_rca": "588",
-      "ultimo_rca_nome": "W.S",
-      "ultimo_rca_ot": "",
-      "ultimo_rca_ot_nome": ""
-    },
-    {
       "codcli": "33118",
       "razao": "GABRIEL HENRIQUE DE JESUS",
       "fantasia": "GABRIEL HENRIQUE DE JESUS",
@@ -309058,10 +309018,10 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "JETER LUCIO SOARES - OFF TRADE",
       "codusur2": "",
       "nome_usur2": "",
-      "ultimo_rca": "",
-      "ultimo_rca_nome": "",
-      "ultimo_rca_ot": "",
-      "ultimo_rca_ot_nome": ""
+      "ultimo_rca": "378",
+      "ultimo_rca_nome": "JETER LUCIO SOARES - OFF TRADE",
+      "ultimo_rca_ot": "378",
+      "ultimo_rca_ot_nome": "JETER LUCIO SOARES - OFF TRADE"
     },
     {
       "codcli": "39866",
@@ -309078,10 +309038,10 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "JETER LUCIO SOARES - OFF TRADE",
       "codusur2": "",
       "nome_usur2": "",
-      "ultimo_rca": "",
-      "ultimo_rca_nome": "",
-      "ultimo_rca_ot": "",
-      "ultimo_rca_ot_nome": ""
+      "ultimo_rca": "378",
+      "ultimo_rca_nome": "JETER LUCIO SOARES - OFF TRADE",
+      "ultimo_rca_ot": "378",
+      "ultimo_rca_ot_nome": "JETER LUCIO SOARES - OFF TRADE"
     },
     {
       "codcli": "39817",
@@ -309098,10 +309058,10 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "JETER LUCIO SOARES - OFF TRADE",
       "codusur2": "",
       "nome_usur2": "",
-      "ultimo_rca": "",
-      "ultimo_rca_nome": "",
-      "ultimo_rca_ot": "",
-      "ultimo_rca_ot_nome": ""
+      "ultimo_rca": "378",
+      "ultimo_rca_nome": "JETER LUCIO SOARES - OFF TRADE",
+      "ultimo_rca_ot": "378",
+      "ultimo_rca_ot_nome": "JETER LUCIO SOARES - OFF TRADE"
     },
     {
       "codcli": "39818",
@@ -309118,10 +309078,10 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "JETER LUCIO SOARES - OFF TRADE",
       "codusur2": "",
       "nome_usur2": "",
-      "ultimo_rca": "",
-      "ultimo_rca_nome": "",
-      "ultimo_rca_ot": "",
-      "ultimo_rca_ot_nome": ""
+      "ultimo_rca": "378",
+      "ultimo_rca_nome": "JETER LUCIO SOARES - OFF TRADE",
+      "ultimo_rca_ot": "378",
+      "ultimo_rca_ot_nome": "JETER LUCIO SOARES - OFF TRADE"
     },
     {
       "codcli": "39820",
@@ -309138,10 +309098,10 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "JETER LUCIO SOARES - OFF TRADE",
       "codusur2": "",
       "nome_usur2": "",
-      "ultimo_rca": "",
-      "ultimo_rca_nome": "",
-      "ultimo_rca_ot": "",
-      "ultimo_rca_ot_nome": ""
+      "ultimo_rca": "378",
+      "ultimo_rca_nome": "JETER LUCIO SOARES - OFF TRADE",
+      "ultimo_rca_ot": "378",
+      "ultimo_rca_ot_nome": "JETER LUCIO SOARES - OFF TRADE"
     },
     {
       "codcli": "39821",
@@ -309178,10 +309138,10 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "JETER LUCIO SOARES - OFF TRADE",
       "codusur2": "",
       "nome_usur2": "",
-      "ultimo_rca": "",
-      "ultimo_rca_nome": "",
-      "ultimo_rca_ot": "",
-      "ultimo_rca_ot_nome": ""
+      "ultimo_rca": "378",
+      "ultimo_rca_nome": "JETER LUCIO SOARES - OFF TRADE",
+      "ultimo_rca_ot": "378",
+      "ultimo_rca_ot_nome": "JETER LUCIO SOARES - OFF TRADE"
     },
     {
       "codcli": "39824",
@@ -309198,10 +309158,10 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "JETER LUCIO SOARES - OFF TRADE",
       "codusur2": "",
       "nome_usur2": "",
-      "ultimo_rca": "",
-      "ultimo_rca_nome": "",
-      "ultimo_rca_ot": "",
-      "ultimo_rca_ot_nome": ""
+      "ultimo_rca": "378",
+      "ultimo_rca_nome": "JETER LUCIO SOARES - OFF TRADE",
+      "ultimo_rca_ot": "378",
+      "ultimo_rca_ot_nome": "JETER LUCIO SOARES - OFF TRADE"
     },
     {
       "codcli": "39825",
@@ -309218,10 +309178,10 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "JETER LUCIO SOARES - OFF TRADE",
       "codusur2": "",
       "nome_usur2": "",
-      "ultimo_rca": "",
-      "ultimo_rca_nome": "",
-      "ultimo_rca_ot": "",
-      "ultimo_rca_ot_nome": ""
+      "ultimo_rca": "378",
+      "ultimo_rca_nome": "JETER LUCIO SOARES - OFF TRADE",
+      "ultimo_rca_ot": "378",
+      "ultimo_rca_ot_nome": "JETER LUCIO SOARES - OFF TRADE"
     },
     {
       "codcli": "39826",
@@ -309238,10 +309198,10 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "JETER LUCIO SOARES - OFF TRADE",
       "codusur2": "",
       "nome_usur2": "",
-      "ultimo_rca": "",
-      "ultimo_rca_nome": "",
-      "ultimo_rca_ot": "",
-      "ultimo_rca_ot_nome": ""
+      "ultimo_rca": "378",
+      "ultimo_rca_nome": "JETER LUCIO SOARES - OFF TRADE",
+      "ultimo_rca_ot": "378",
+      "ultimo_rca_ot_nome": "JETER LUCIO SOARES - OFF TRADE"
     },
     {
       "codcli": "39827",
@@ -309258,10 +309218,10 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "JETER LUCIO SOARES - OFF TRADE",
       "codusur2": "",
       "nome_usur2": "",
-      "ultimo_rca": "",
-      "ultimo_rca_nome": "",
-      "ultimo_rca_ot": "",
-      "ultimo_rca_ot_nome": ""
+      "ultimo_rca": "378",
+      "ultimo_rca_nome": "JETER LUCIO SOARES - OFF TRADE",
+      "ultimo_rca_ot": "378",
+      "ultimo_rca_ot_nome": "JETER LUCIO SOARES - OFF TRADE"
     },
     {
       "codcli": "39828",
@@ -309278,10 +309238,10 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "JETER LUCIO SOARES - OFF TRADE",
       "codusur2": "",
       "nome_usur2": "",
-      "ultimo_rca": "",
-      "ultimo_rca_nome": "",
-      "ultimo_rca_ot": "",
-      "ultimo_rca_ot_nome": ""
+      "ultimo_rca": "378",
+      "ultimo_rca_nome": "JETER LUCIO SOARES - OFF TRADE",
+      "ultimo_rca_ot": "378",
+      "ultimo_rca_ot_nome": "JETER LUCIO SOARES - OFF TRADE"
     },
     {
       "codcli": "39829",
@@ -309298,10 +309258,10 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "JETER LUCIO SOARES - OFF TRADE",
       "codusur2": "",
       "nome_usur2": "",
-      "ultimo_rca": "",
-      "ultimo_rca_nome": "",
-      "ultimo_rca_ot": "",
-      "ultimo_rca_ot_nome": ""
+      "ultimo_rca": "378",
+      "ultimo_rca_nome": "JETER LUCIO SOARES - OFF TRADE",
+      "ultimo_rca_ot": "378",
+      "ultimo_rca_ot_nome": "JETER LUCIO SOARES - OFF TRADE"
     },
     {
       "codcli": "39830",
@@ -309318,10 +309278,10 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "JETER LUCIO SOARES - OFF TRADE",
       "codusur2": "",
       "nome_usur2": "",
-      "ultimo_rca": "",
-      "ultimo_rca_nome": "",
-      "ultimo_rca_ot": "",
-      "ultimo_rca_ot_nome": ""
+      "ultimo_rca": "378",
+      "ultimo_rca_nome": "JETER LUCIO SOARES - OFF TRADE",
+      "ultimo_rca_ot": "378",
+      "ultimo_rca_ot_nome": "JETER LUCIO SOARES - OFF TRADE"
     },
     {
       "codcli": "39831",
@@ -309338,10 +309298,10 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "JETER LUCIO SOARES - OFF TRADE",
       "codusur2": "",
       "nome_usur2": "",
-      "ultimo_rca": "",
-      "ultimo_rca_nome": "",
-      "ultimo_rca_ot": "",
-      "ultimo_rca_ot_nome": ""
+      "ultimo_rca": "378",
+      "ultimo_rca_nome": "JETER LUCIO SOARES - OFF TRADE",
+      "ultimo_rca_ot": "378",
+      "ultimo_rca_ot_nome": "JETER LUCIO SOARES - OFF TRADE"
     },
     {
       "codcli": "39832",
@@ -309358,10 +309318,10 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "JETER LUCIO SOARES - OFF TRADE",
       "codusur2": "",
       "nome_usur2": "",
-      "ultimo_rca": "",
-      "ultimo_rca_nome": "",
-      "ultimo_rca_ot": "",
-      "ultimo_rca_ot_nome": ""
+      "ultimo_rca": "378",
+      "ultimo_rca_nome": "JETER LUCIO SOARES - OFF TRADE",
+      "ultimo_rca_ot": "378",
+      "ultimo_rca_ot_nome": "JETER LUCIO SOARES - OFF TRADE"
     },
     {
       "codcli": "39833",
@@ -309378,10 +309338,10 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "JETER LUCIO SOARES - OFF TRADE",
       "codusur2": "",
       "nome_usur2": "",
-      "ultimo_rca": "",
-      "ultimo_rca_nome": "",
-      "ultimo_rca_ot": "",
-      "ultimo_rca_ot_nome": ""
+      "ultimo_rca": "378",
+      "ultimo_rca_nome": "JETER LUCIO SOARES - OFF TRADE",
+      "ultimo_rca_ot": "378",
+      "ultimo_rca_ot_nome": "JETER LUCIO SOARES - OFF TRADE"
     },
     {
       "codcli": "39834",
@@ -309398,10 +309358,10 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "JETER LUCIO SOARES - OFF TRADE",
       "codusur2": "",
       "nome_usur2": "",
-      "ultimo_rca": "",
-      "ultimo_rca_nome": "",
-      "ultimo_rca_ot": "",
-      "ultimo_rca_ot_nome": ""
+      "ultimo_rca": "378",
+      "ultimo_rca_nome": "JETER LUCIO SOARES - OFF TRADE",
+      "ultimo_rca_ot": "378",
+      "ultimo_rca_ot_nome": "JETER LUCIO SOARES - OFF TRADE"
     },
     {
       "codcli": "39835",
@@ -309418,10 +309378,10 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "JETER LUCIO SOARES - OFF TRADE",
       "codusur2": "",
       "nome_usur2": "",
-      "ultimo_rca": "",
-      "ultimo_rca_nome": "",
-      "ultimo_rca_ot": "",
-      "ultimo_rca_ot_nome": ""
+      "ultimo_rca": "378",
+      "ultimo_rca_nome": "JETER LUCIO SOARES - OFF TRADE",
+      "ultimo_rca_ot": "378",
+      "ultimo_rca_ot_nome": "JETER LUCIO SOARES - OFF TRADE"
     },
     {
       "codcli": "39836",
@@ -309438,10 +309398,10 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "JETER LUCIO SOARES - OFF TRADE",
       "codusur2": "",
       "nome_usur2": "",
-      "ultimo_rca": "",
-      "ultimo_rca_nome": "",
-      "ultimo_rca_ot": "",
-      "ultimo_rca_ot_nome": ""
+      "ultimo_rca": "378",
+      "ultimo_rca_nome": "JETER LUCIO SOARES - OFF TRADE",
+      "ultimo_rca_ot": "378",
+      "ultimo_rca_ot_nome": "JETER LUCIO SOARES - OFF TRADE"
     },
     {
       "codcli": "39837",
@@ -309458,10 +309418,10 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "JETER LUCIO SOARES - OFF TRADE",
       "codusur2": "",
       "nome_usur2": "",
-      "ultimo_rca": "",
-      "ultimo_rca_nome": "",
-      "ultimo_rca_ot": "",
-      "ultimo_rca_ot_nome": ""
+      "ultimo_rca": "378",
+      "ultimo_rca_nome": "JETER LUCIO SOARES - OFF TRADE",
+      "ultimo_rca_ot": "378",
+      "ultimo_rca_ot_nome": "JETER LUCIO SOARES - OFF TRADE"
     },
     {
       "codcli": "51359",
@@ -337134,8 +337094,8 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MERCADO",
       "key_account": false,
       "rede": "RIO SUL",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "codusur1": "153",
+      "nome_usur1": "ANGELO NEVES SUZART - OFF TRADE",
       "codusur2": "312",
       "nome_usur2": "LAYZ WERNECK",
       "ultimo_rca": "153",
@@ -343062,6 +343022,26 @@ const CLIENTES_RCA_DATA = {
       "ultimo_rca_nome": "ANGELO NEVES SUZART - OFF TRADE",
       "ultimo_rca_ot": "153",
       "ultimo_rca_ot_nome": "ANGELO NEVES SUZART - OFF TRADE"
+    },
+    {
+      "codcli": "2498",
+      "razao": "MERCEARIAS VIENA LTDA",
+      "fantasia": "MERCEARIAS VIENA",
+      "bairro": "TIJUCA",
+      "cidade": "RIO DE JANEIRO",
+      "cnpj": "33.212.200/0001-67",
+      "estado": "RJ",
+      "ramo": "MERCEARIA",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "378",
+      "nome_usur1": "FABIO VALOTTI - OFF TRADE",
+      "codusur2": "238",
+      "nome_usur2": "DANIELLE MOURA - OFF TRADE",
+      "ultimo_rca": "",
+      "ultimo_rca_nome": "",
+      "ultimo_rca_ot": "",
+      "ultimo_rca_ot_nome": ""
     },
     {
       "codcli": "78015",
@@ -353740,6 +353720,26 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "",
       "ultimo_rca": "152",
       "ultimo_rca_nome": "PEDRO RANGEL",
+      "ultimo_rca_ot": "",
+      "ultimo_rca_ot_nome": ""
+    },
+    {
+      "codcli": "52713",
+      "razao": "MS DISTRIBUIDORA DE BEBIDAS LTDA",
+      "fantasia": "MS DISTRIBUIDORA DE BEBIDAS",
+      "bairro": "JOÃO ARANHA",
+      "cidade": "PAULINIA",
+      "cnpj": "62.435.008/0001-38",
+      "estado": "SP",
+      "ramo": "DISTRIBUIDORA DE BEBIDA",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "486",
+      "nome_usur1": "LEONARDO FLOREZI - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": "",
+      "ultimo_rca": "",
+      "ultimo_rca_nome": "",
       "ultimo_rca_ot": "",
       "ultimo_rca_ot_nome": ""
     },
@@ -457378,10 +457378,10 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "JOÃO SANTOS - OFF TRADE",
       "codusur2": "",
       "nome_usur2": "",
-      "ultimo_rca": "315",
-      "ultimo_rca_nome": "LUCAS SILVA",
-      "ultimo_rca_ot": "",
-      "ultimo_rca_ot_nome": ""
+      "ultimo_rca": "327",
+      "ultimo_rca_nome": "JOÃO SANTOS - OFF TRADE",
+      "ultimo_rca_ot": "327",
+      "ultimo_rca_ot_nome": "JOÃO SANTOS - OFF TRADE"
     },
     {
       "codcli": "81129",
@@ -473818,8 +473818,8 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "319",
       "nome_usur2": "FERNANDA CAMBOIM",
-      "ultimo_rca": "214",
-      "ultimo_rca_nome": "DANILO DAIBERT",
+      "ultimo_rca": "365",
+      "ultimo_rca_nome": "IGOR PEREIRA",
       "ultimo_rca_ot": "",
       "ultimo_rca_ot_nome": ""
     },
@@ -492704,26 +492704,6 @@ const CLIENTES_RCA_DATA = {
       "ultimo_rca_ot_nome": ""
     },
     {
-      "codcli": "5859",
-      "razao": "VENIT PARTICIPACOES HOTELEIRAS LTDA",
-      "fantasia": "HOTEL VENIT",
-      "bairro": "BARRA DA TIJUCA",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "17.817.992/0001-47",
-      "estado": "RJ",
-      "ramo": "HOTELARIA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": "",
-      "ultimo_rca": "35",
-      "ultimo_rca_nome": "LAIS POPPE VILLANOVA",
-      "ultimo_rca_ot": "",
-      "ultimo_rca_ot_nome": ""
-    },
-    {
       "codcli": "50656",
       "razao": "VENTANIA COMERCIO DE ALIMENTOS LTDA.",
       "fantasia": "VENTANIA COMERCIO DE ALIMENTOS LTDA.",
@@ -495238,6 +495218,26 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "NOVOS CLIENTES",
       "codusur2": "",
       "nome_usur2": "",
+      "ultimo_rca": "",
+      "ultimo_rca_nome": "",
+      "ultimo_rca_ot": "",
+      "ultimo_rca_ot_nome": ""
+    },
+    {
+      "codcli": "76982",
+      "razao": "VIDAL COMERCIO DE PRODUTOS ALIMENTICIOS LTDA",
+      "fantasia": "VIDAL COMERCIO DE DOCES",
+      "bairro": "CAMPO GRANDE",
+      "cidade": "RIO DE JANEIRO",
+      "cnpj": "20.750.408/0001-98",
+      "estado": "RJ",
+      "ramo": "MERCADO",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "471",
+      "nome_usur1": "ANA CLARA FASSANO - OFF TRADE",
+      "codusur2": "238",
+      "nome_usur2": "DANIELLE MOURA - OFF TRADE",
       "ultimo_rca": "",
       "ultimo_rca_nome": "",
       "ultimo_rca_ot": "",
@@ -498038,10 +498038,10 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "JOAQUIM ANGELO - OFF TRADE",
       "codusur2": "",
       "nome_usur2": "",
-      "ultimo_rca": "",
-      "ultimo_rca_nome": "",
-      "ultimo_rca_ot": "",
-      "ultimo_rca_ot_nome": ""
+      "ultimo_rca": "516",
+      "ultimo_rca_nome": "JOAQUIM ANGELO - OFF TRADE",
+      "ultimo_rca_ot": "516",
+      "ultimo_rca_ot_nome": "JOAQUIM ANGELO - OFF TRADE"
     },
     {
       "codcli": "84514",
