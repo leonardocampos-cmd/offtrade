@@ -731,6 +731,20 @@ const AGENDAMENTO_DATA = {
       "codusur": "153",
       "itens": [
         {
+          "codigo_cliente": "83627",
+          "cliente": "MERCADO SANTO ALEIXO",
+          "cnpj": "48.878.208/0001-34",
+          "filial": "SANTO ALEIXO",
+          "valor": 709.0,
+          "nf": "",
+          "data_agendamento": "27/08/2026",
+          "data_ord": "2026-08-27",
+          "status": "A FATURAR",
+          "obs": "",
+          "status_logistica": "",
+          "justificativa_logistica": ""
+        },
+        {
           "codigo_cliente": "84130",
           "cliente": "VILA SANTA CRUZ COMERCIO DE GENEROS ALIMENTICIOS LTDA",
           "cnpj": "35.602.394/0001-32",
@@ -25935,6 +25949,20 @@ const AGENDAMENTO_DATA = {
       "codusur": "439",
       "itens": [
         {
+          "codigo_cliente": "82069",
+          "cliente": "MERCADO IDEAL DE JACAREI LTDA",
+          "cnpj": "09.567.039/0001-60",
+          "filial": "MANGARATIBA",
+          "valor": 1303.68,
+          "nf": "7310",
+          "data_agendamento": "27/08/2026",
+          "data_ord": "2026-08-27",
+          "status": "FATURADO",
+          "obs": "ROTA DE VIAGEM - Produtos em caixa original e com rótulos íntegros;",
+          "status_logistica": "",
+          "justificativa_logistica": ""
+        },
+        {
           "codigo_cliente": "78916",
           "cliente": "JM LISAMAR SUPERMERCADO LTDA",
           "cnpj": "17.386.414/0001-01",
@@ -25973,20 +26001,6 @@ const AGENDAMENTO_DATA = {
           "data_ord": "2026-08-27",
           "status": "A FATURAR",
           "obs": "",
-          "status_logistica": "",
-          "justificativa_logistica": ""
-        },
-        {
-          "codigo_cliente": "82069",
-          "cliente": "MERCADO IDEAL DE JACAREI LTDA",
-          "cnpj": "09.567.039/0001-60",
-          "filial": "MANGARATIBA",
-          "valor": 1303.68,
-          "nf": "7310",
-          "data_agendamento": "24/08/2026",
-          "data_ord": "2026-08-24",
-          "status": "FATURADO",
-          "obs": "ROTA DE VIAGEM - Produtos em caixa original e com rótulos íntegros;",
           "status_logistica": "",
           "justificativa_logistica": ""
         },
@@ -27035,7 +27049,7 @@ const AGENDAMENTO_DATA = {
       ]
     }
   ],
-  "atualizado_em": "26/08/2026 14:51",
+  "atualizado_em": "26/08/2026 15:17",
   "comparativo": [
     {
       "msg_id": "1a01bc9a975c4cab",
