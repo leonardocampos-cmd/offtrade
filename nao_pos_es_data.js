@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_es.py
 
 const NAO_POS_ES_DATA = {
-  "atualizado_em": "26/08/2026 16:07",
+  "atualizado_em": "26/08/2026 16:59",
   "por_vendedor": {
     "ADEILSON GONÇALVEZ": [
       {
@@ -3086,6 +3086,20 @@ const NAO_POS_ES_DATA = {
     ],
     "ANA CLARA FASSANO": [
       {
+        "codcli": "82122",
+        "cliente": "BUNGALOW PIZZARIA E RESTAURANTE LTDA",
+        "bairro": "BOTAFOGO",
+        "dtultcomp": "19/02/2025",
+        "produtos": [
+          {
+            "produto": "VODKA ABSOLUT 1L",
+            "fantasia": "PERNOD",
+            "qt": 4,
+            "valor": 319.6
+          }
+        ]
+      },
+      {
         "codcli": "60729",
         "cliente": "COMAL RIO COMERCIAL DE ALIMENTOS LTDA",
         "bairro": "PENHA CIRCULAR",
@@ -3658,6 +3672,44 @@ const NAO_POS_ES_DATA = {
         ]
       },
       {
+        "codcli": "95534",
+        "cliente": "G5 DROGARIAS LTDA",
+        "bairro": "IPANEMA",
+        "dtultcomp": "30/06/2026",
+        "produtos": [
+          {
+            "produto": "GUARAVITON GINSENG 12X500ML",
+            "fantasia": "VITON",
+            "qt": 1,
+            "valor": 31.89
+          },
+          {
+            "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+            "fantasia": "TATUZINHO",
+            "qt": 1,
+            "valor": 94.68
+          },
+          {
+            "produto": "MOVING HYDRO PROTEIN LIMAO 12X500ML",
+            "fantasia": "TATUZINHO",
+            "qt": 1,
+            "valor": 94.68
+          },
+          {
+            "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+            "fantasia": "TATUZINHO",
+            "qt": 1,
+            "valor": 94.68
+          },
+          {
+            "produto": "MOVING HYDRO PROTEIN UVA 12X500ML",
+            "fantasia": "TATUZINHO",
+            "qt": 1,
+            "valor": 94.68
+          }
+        ]
+      },
+      {
         "codcli": "95536",
         "cliente": "G5 DROGARIAS LTDA",
         "bairro": "COPACABANA",
@@ -3699,44 +3751,6 @@ const NAO_POS_ES_DATA = {
         "codcli": "95525",
         "cliente": "G5 DROGARIAS LTDA",
         "bairro": "COPACABANA",
-        "dtultcomp": "30/06/2026",
-        "produtos": [
-          {
-            "produto": "GUARAVITON GINSENG 12X500ML",
-            "fantasia": "VITON",
-            "qt": 1,
-            "valor": 31.89
-          },
-          {
-            "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
-            "fantasia": "TATUZINHO",
-            "qt": 1,
-            "valor": 94.68
-          },
-          {
-            "produto": "MOVING HYDRO PROTEIN LIMAO 12X500ML",
-            "fantasia": "TATUZINHO",
-            "qt": 1,
-            "valor": 94.68
-          },
-          {
-            "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
-            "fantasia": "TATUZINHO",
-            "qt": 1,
-            "valor": 94.68
-          },
-          {
-            "produto": "MOVING HYDRO PROTEIN UVA 12X500ML",
-            "fantasia": "TATUZINHO",
-            "qt": 1,
-            "valor": 94.68
-          }
-        ]
-      },
-      {
-        "codcli": "95534",
-        "cliente": "G5 DROGARIAS LTDA",
-        "bairro": "IPANEMA",
         "dtultcomp": "30/06/2026",
         "produtos": [
           {
@@ -6786,38 +6800,6 @@ const NAO_POS_ES_DATA = {
         ]
       },
       {
-        "codcli": "91995",
-        "cliente": "DOIS AMIGOS CHOPERIA LTDA",
-        "bairro": "ANIL",
-        "dtultcomp": "18/06/2026",
-        "produtos": [
-          {
-            "produto": "ESPUMANTE ALUD ROSE 750ML",
-            "fantasia": "CASTAS",
-            "qt": 6,
-            "valor": 168.0
-          },
-          {
-            "produto": "GIN ROCKS 1000ML",
-            "fantasia": "FANTE",
-            "qt": 12,
-            "valor": 270.0
-          },
-          {
-            "produto": "GIN TANQUERAY  750 ML",
-            "fantasia": "DIAGEO",
-            "qt": 12,
-            "valor": 1080.0
-          },
-          {
-            "produto": "VEJA MULTIUSO 500ML",
-            "fantasia": "RECKITT",
-            "qt": 2,
-            "valor": 5.6
-          }
-        ]
-      },
-      {
         "codcli": "86264",
         "cliente": "JC LOJA DE CONVENIENCIA LTDA",
         "bairro": "TAQUARA",
@@ -7010,40 +6992,6 @@ const NAO_POS_ES_DATA = {
             "fantasia": "KAISER",
             "qt": 6,
             "valor": 378.0
-          }
-        ]
-      },
-      {
-        "codcli": "62087",
-        "cliente": "F.F.G.F.DO COUTO COMERCIO DE BEBIDAS",
-        "bairro": "GUARATIBA",
-        "dtultcomp": "29/06/2026",
-        "produtos": [
-          {
-            "produto": "AMARULA C LIQUEUR 750 ML + 1 COPO",
-            "fantasia": "INTERFOOD",
-            "qt": 1,
-            "valor": 98.9
-          },
-          {
-            "produto": "NOSSO CHOP RED DRAFT PET 12X600ML",
-            "fantasia": "NOSSO CHOPE",
-            "qt": 2,
-            "valor": 177.4
-          }
-        ]
-      },
-      {
-        "codcli": "91704",
-        "cliente": "57.131.206 FLAVIA DA SILVA PAULA DE CARVALHO",
-        "bairro": "GOVERNADOR PORTELA",
-        "dtultcomp": "01/07/2026",
-        "produtos": [
-          {
-            "produto": "CERVEJA HEINEKEN LONG 24X330ML",
-            "fantasia": "KAISER",
-            "qt": 3,
-            "valor": 381.0
           }
         ]
       },
@@ -11020,20 +10968,6 @@ const NAO_POS_ES_DATA = {
             "fantasia": "DIAGEO",
             "qt": 30,
             "valor": 2607.0
-          }
-        ]
-      },
-      {
-        "codcli": "83387",
-        "cliente": "CGX COMERCIO DE ALIMENTOS LTDA",
-        "bairro": "GUADALUPE",
-        "dtultcomp": "29/01/2026",
-        "produtos": [
-          {
-            "produto": "DETERGENTE LIMPOL NEUTRO - 500ML",
-            "fantasia": "",
-            "qt": 109,
-            "valor": 206.01
           }
         ]
       },
