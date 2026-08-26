@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <script src="auth.js"></script>
+  <script src="fontes_status_data.js"></script>
+  <script src="fontes_alert.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pedidos Bloqueados</title>
+  <script src="pedidos_bloqueados_data.js"></script>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --bg: #0f1117; --card: #1a1d27; --card2: #22263a;
+      --accent: #f5c518; --blue: #3b82f6; --text: #e2e8f0;
+      --muted: #94a3b8; --border: #2d3144; --green: #22c55e;
+      --red: #ef4444; --orange: #f97316;
+    }
+    body {
+      background: var(--bg); color: var(--text);
+      font-family: 'Segoe UI', system-ui, sans-serif;
+      min-height: 100vh; padding: 16px;
+    }
+    header {
+      display: flex; align-items: center; justify-content: space-between;
+      margin-bottom: 20px; padding-bottom: 16px;
+      border-bottom: 1px solid var(--border); gap: 12px; flex-wrap: wrap;
+    }
+    header h1 { font-size: 1.1rem; font-weight: 700; color: var(--orange); }
+    header p  { font-size: .8rem; color: var(--muted); margin-top: 3px; }
+    .kpis { display: flex; gap: 12px; flex-wrap: wrap; margin-bottom: 16px; }
+    .kpi {
+      background: var(--card); border: 1px solid var(--border); border-radius: 10px;
+      padding: 14px 18px; flex: 1; min-width: 160px;
+    }
+    .kpi .label {
+      font-size: .65rem; text-transform: uppercase; letter-spacing: .08em;
+      color: var(--muted); margin-bottom: 6px;
+    }
+    .kpi .val { font-size: 1.25rem; font-weight: 800; }
+    .controls {
+      display: flex; gap: 10px; flex-wrap: wrap;
+      margin-bottom: 16px; align-items: center;
+    }
+    select, input[type=text] {
+      background: var(--card); border: 1px solid var(--border);
+      color: var(--text); border-radius: 8px; padding: 8px 12px;
+      font-size: .88rem; outline: none; font-family: inherit;
+    }
+    select:focus, input[type=text]:focus { border-color: var(--blue); }
+    select { min-width: 200px; }
+    input[type=text] { min-width: 220px; }
+    .btn-csv {
+      background: var(--green); color: #0f1117; border: none;
+      border-radius: 8px; padding: 8px 16px; font-size: .88rem;
+      font-weight: 700; cursor: pointer; font-family: inherit;
+    }
+    .btn-csv:hover { opacity: .88; }
+    .info { font-size: .8rem; color: var(--muted); margin-left: auto; }
+    .table-wrap { overflow-x: auto; border-radius: 10px; border: 1px solid var(--border); }
+    table { width: 100%; border-collapse: collapse; font-size: .82rem; }
+    thead th {
+      background: var(--card2); padding: 10px 12px; text-align: left;
+      font-size: .72rem; text-transform: uppercase; letter-spacing: .05em;
+      color: var(--muted); border-bottom: 1px solid var(--border);
+      white-space: nowrap; cursor: pointer;
+    }
+    thead th:hover { color: var(--text); }
+    tbody tr.linha-pedido { border-bottom: 1px solid var(--border); cursor: pointer; }
+    tbody tr.linha-pedido:hover { background: var(--card2); }
+    tbody td { padding: 9px 12px; vertical-align: middle; white-space: nowrap; }
+    .cod  { color: var(--muted); font-size: .78rem; font-family: monospace; }
+    .rca-badge {
+      display: inline-block; background: var(--card2); border: 1px solid var(--border);
+      border-radius: 5px; padding: 2px 7px; font-size: .72rem; color: var(--accent);
+    }
+    .posicao { font-weight: 700; padding: 2px 8px; border-radius: 20px; font-size: .76rem; white-space: nowrap; }
+    .posicao-bloqueado { background: rgba(239,68,68,.15);  color: var(--red); }
+    .posicao-pendente  { background: rgba(249,115,22,.15); color: var(--orange); }
+    .preco-venda  { font-weight: 700; }
+    .preco-acima  { color: var(--red); }
+    .preco-tabela { color: var(--muted); }
+    .sem-preco { color: var(--muted); }
+    .motivo { white-space: normal; max-width: 340px; color: var(--muted); font-size: .78rem; }
+    .expand-icon { display: inline-block; width: 14px; color: var(--muted); }
+    tr.linha-itens td { background: #14161f; padding: 0; }
+    .itens-wrap { padding: 10px 12px 14px 40px; }
+    .itens-wrap table { font-size: .78rem; }
+    .itens-wrap th { background: transparent; color: var(--muted); padding: 4px 10px; cursor: default; }
+    .itens-wrap td { padding: 4px 10px; white-space: normal; }
+    .empty { text-align: center; padding: 48px; color: var(--muted); font-size: .9rem; }
+
+    @media (max-width: 640px) {
+      body { padding: 12px; }
+      .kpi { min-width: 130px; padding: 12px 14px; }
+      select { min-width: 140px; }
+      input[type=text] { min-width: 140px; }
+      table { font-size: .76rem; }
+      thead th, tbody td { padding: 8px 9px; }
+      .hide-mob { display: none; }
+      .motivo { max-width: 160px; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div>
+    <h1>🚫 PEDIDOS BLOQUEADOS</h1>
+    <p id="header-sub">—</p>
+  </div>
+  <a href="index.html" style="color:var(--muted);font-size:.8rem;text-decoration:none">← Painel</a>
+</header>
+
+<div class="kpis" id="kpis"></div>
+
+<div class="controls">
+  <select id="sel-sistema" onchange="aplicarFiltro()">
+    <option value="">Todos os Sistemas</option>
+  </select>
+  <select id="sel-estado" onchange="aplicarFiltro()">
+    <option value="">Todos os Estados</option>
+  </select>
+  <select id="sel-posicao" onchange="aplicarFiltro()">
+    <option value="">Bloqueado + Pendente</option>
+  </select>
+  <select id="sel-vendedor" onchange="aplicarFiltro()">
+    <option value="">Todos os Vendedores</option>
+  </select>
+  <input type="text" id="busca" placeholder="Buscar por pedido, cliente, produto, motivo..." oninput="aplicarFiltro()">
+  <button class="btn-csv" onclick="exportarCSV()">⬇ Exportar CSV</button>
+  <span class="info" id="info-count"></span>
+</div>
+
+<div class="table-wrap">
+  <table id="tabela">
+    <thead>
+      <tr>
+        <th style="width:18px"></th>
+        <th onclick="ordenarPor('numped')">Pedido</th>
+        <th class="hide-mob" onclick="ordenarPor('sistema')">Sistema</th>
+        <th class="hide-mob" onclick="ordenarPor('estado')">UF</th>
+        <th onclick="ordenarPor('vendedor')">Vendedor</th>
+        <th class="hide-mob" onclick="ordenarPor('cliente')">Cliente</th>
+        <th onclick="ordenarPor('posicao')">Posição</th>
+        <th onclick="ordenarPor('preco_venda')">Preço de Venda</th>
+        <th onclick="ordenarPor('preco_tabela')">Preço de Tabela</th>
+        <th class="hide-mob" onclick="ordenarPor('data_ord')">Data</th>
+        <th class="hide-mob">Motivo</th>
+      </tr>
+    </thead>
+    <tbody id="tbody"></tbody>
+  </table>
+</div>
+
+<script>
+const DATA = typeof PEDIDOS_BLOQUEADOS_DATA !== 'undefined' ? PEDIDOS_BLOQUEADOS_DATA : null;
+const PEDIDOS = DATA ? DATA.pedidos : [];
+
+let _ordem = { campo: 'data_ord', asc: false };
+let _expandidos = new Set();
+
+if (!DATA) {
+  document.getElementById('tbody').innerHTML = '<tr><td colspan="11" class="empty">Dados não encontrados. Execute exportacao_pedidos_bloqueados.py para gerar pedidos_bloqueados_data.js.</td></tr>';
+} else {
+  document.getElementById('header-sub').textContent =
+    'Atualizado ' + DATA.atualizado_em +
+    (DATA.fontes_indisponiveis && DATA.fontes_indisponiveis.length
+      ? ' · ⚠️ fonte(s) fora do ar: ' + DATA.fontes_indisponiveis.join(', ')
+      : '');
+  montarFiltros();
+  aplicarFiltro();
+}
+
+function montarKpis(lista) {
+  const bloqueados = lista.filter(p => p.posicao === 'Bloqueado').length;
+  const pendentes  = lista.filter(p => p.posicao === 'Pendente').length;
+  const vendedores = new Set(lista.map(p => p.vendedor)).size;
+  document.getElementById('kpis').innerHTML = `
+    <div class="kpi">
+      <div class="label">Pedidos Bloqueados</div>
+      <div class="val" style="color:var(--red)">${bloqueados}</div>
+    </div>
+    <div class="kpi">
+      <div class="label">Pedidos Pendentes</div>
+      <div class="val" style="color:var(--orange)">${pendentes}</div>
+    </div>
+    <div class="kpi">
+      <div class="label">Vendedores Envolvidos</div>
+      <div class="val">${vendedores}</div>
+    </div>`;
+}
+
+function montarFiltros() {
+  const sisAtual = document.getElementById('sel-sistema').value;
+  const selSis = document.getElementById('sel-sistema');
+  selSis.innerHTML = '<option value="">Todos os Sistemas</option>';
+  [...new Set(PEDIDOS.map(p => p.sistema))].sort().forEach(s => {
+    const o = document.createElement('option');
+    o.value = s; o.textContent = s;
+    if (s === sisAtual) o.selected = true;
+    selSis.appendChild(o);
+  });
+
+  const estAtual = document.getElementById('sel-estado').value;
+  const selEst = document.getElementById('sel-estado');
+  selEst.innerHTML = '<option value="">Todos os Estados</option>';
+  [...new Set(PEDIDOS.map(p => p.estado))].sort().forEach(e => {
+    const o = document.createElement('option');
+    o.value = e; o.textContent = e;
+    if (e === estAtual) o.selected = true;
+    selEst.appendChild(o);
+  });
+
+  const posAtual = document.getElementById('sel-posicao').value;
+  const selPos = document.getElementById('sel-posicao');
+  selPos.innerHTML = '<option value="">Bloqueado + Pendente</option>';
+  [...new Set(PEDIDOS.map(p => p.posicao))].sort().forEach(p => {
+    const o = document.createElement('option');
+    o.value = p; o.textContent = p;
+    if (p === posAtual) o.selected = true;
+    selPos.appendChild(o);
+  });
+
+  const vendAtual = document.getElementById('sel-vendedor').value;
+  const selVend = document.getElementById('sel-vendedor');
+  selVend.innerHTML = '<option value="">Todos os Vendedores</option>';
+  [...new Set(PEDIDOS.map(p => p.vendedor))].sort().forEach(v => {
+    const o = document.createElement('option');
+    o.value = v; o.textContent = v.replace(' - OFF TRADE', '');
+    if (v === vendAtual) o.selected = true;
+    selVend.appendChild(o);
+  });
+}
+
+function ordenarPor(campo) {
+  if (_ordem.campo === campo) {
+    _ordem.asc = !_ordem.asc;
+  } else {
+    _ordem = { campo, asc: true };
+  }
+  aplicarFiltro();
+}
+
+function _filtrados() {
+  if (!DATA) return [];
+  const sistema  = document.getElementById('sel-sistema').value;
+  const estado   = document.getElementById('sel-estado').value;
+  const posicao  = document.getElementById('sel-posicao').value;
+  const vendedor = document.getElementById('sel-vendedor').value;
+  const busca    = document.getElementById('busca').value.trim().toLowerCase();
+  let lista = PEDIDOS.filter(p => {
+    const matchSistema  = !sistema || p.sistema === sistema;
+    const matchEstado   = !estado || p.estado === estado;
+    const matchPosicao  = !posicao || p.posicao === posicao;
+    const matchVendedor = !vendedor || p.vendedor === vendedor;
+    const matchBusca = !busca || [p.numped, p.cliente, p.motivo, ...(p.itens || []).map(i => i.descricao)]
+      .some(v => v && String(v).toLowerCase().includes(busca));
+    return matchSistema && matchEstado && matchPosicao && matchVendedor && matchBusca;
+  });
+  const { campo, asc } = _ordem;
+  lista = [...lista].sort((a, b) => {
+    let va = a[campo], vb = b[campo];
+    if (va === null || va === undefined) va = asc ? Infinity : -Infinity;
+    if (vb === null || vb === undefined) vb = asc ? Infinity : -Infinity;
+    if (typeof va === 'string') { va = va.toLowerCase(); vb = String(vb || '').toLowerCase(); }
+    if (va < vb) return asc ? -1 : 1;
+    if (va > vb) return asc ? 1 : -1;
+    return 0;
+  });
+  return lista;
+}
+
+function aplicarFiltro() {
+  const lista = _filtrados();
+  montarKpis(lista);
+  document.getElementById('info-count').textContent = lista.length + ' pedido(s)';
+
+  const tbody = document.getElementById('tbody');
+  if (!lista.length) {
+    tbody.innerHTML = '<tr><td colspan="11" class="empty">Nenhum pedido bloqueado encontrado.</td></tr>';
+    return;
+  }
+
+  tbody.innerHTML = lista.map(p => {
+    const chave = p.sistema + '|' + p.numped;
+    const aberto = _expandidos.has(chave);
+    const temVariosItens = (p.itens || []).length > 1;
+    let html = `
+    <tr class="linha-pedido" onclick="toggleItens('${_escAttr(chave)}')">
+      <td><span class="expand-icon">${temVariosItens ? (aberto ? '▾' : '▸') : ''}</span></td>
+      <td class="cod">${_esc(p.numped)}</td>
+      <td class="cod hide-mob">${_esc(p.sistema)}</td>
+      <td class="hide-mob" style="color:var(--muted);font-weight:700">${_esc(p.estado)}</td>
+      <td><span class="rca-badge">${_esc(p.vendedor.replace(' - OFF TRADE',''))}</span></td>
+      <td class="hide-mob">${_esc(p.cliente)}</td>
+      <td>${_posicaoBadge(p.posicao)}</td>
+      <td>${_precoVenda(p)}</td>
+      <td>${_precoTabela(p.preco_tabela)}</td>
+      <td class="hide-mob">${_esc(p.data)}</td>
+      <td class="hide-mob motivo">${_esc(p.motivo)}</td>
+    </tr>`;
+    if (aberto) {
+      html += `<tr class="linha-itens"><td colspan="11"><div class="itens-wrap">
+        <table><thead><tr><th>Produto</th><th>Preço de Venda</th><th>Preço de Tabela</th></tr></thead><tbody>
+        ${(p.itens || []).map(it => `<tr>
+          <td>${_esc(it.descricao)} <span class="cod">(${_esc(it.codprod)})</span></td>
+          <td>${_precoVendaItem(it)}</td>
+          <td>${_precoTabela(it.preco_tabela)}</td>
+        </tr>`).join('')}
+        </tbody></table>
+      </div></td></tr>`;
+    }
+    return html;
+  }).join('');
+}
+
+function toggleItens(chave) {
+  if (_expandidos.has(chave)) _expandidos.delete(chave);
+  else _expandidos.add(chave);
+  aplicarFiltro();
+}
+
+function _posicaoBadge(posicao) {
+  const cls = posicao === 'Bloqueado' ? 'posicao-bloqueado' : 'posicao-pendente';
+  return `<span class="posicao ${cls}">${_esc(posicao)}</span>`;
+}
+
+function _precoVenda(p) {
+  if (p.preco_venda === null || p.preco_venda === undefined) return '<span class="sem-preco">—</span>';
+  const acima = p.preco_tabela !== null && p.preco_tabela !== undefined && p.preco_venda < p.preco_tabela;
+  return `<span class="preco-venda ${acima ? 'preco-acima' : ''}">${brl(p.preco_venda)}</span>`;
+}
+
+function _precoVendaItem(it) {
+  if (it.preco_venda === null || it.preco_venda === undefined) return '<span class="sem-preco">—</span>';
+  const acima = it.preco_tabela !== null && it.preco_tabela !== undefined && it.preco_venda < it.preco_tabela;
+  return `<span class="preco-venda ${acima ? 'preco-acima' : ''}">${brl(it.preco_venda)}</span>`;
+}
+
+function _precoTabela(v) {
+  if (v === null || v === undefined) return '<span class="sem-preco">—</span>';
+  return `<span class="preco-tabela">${brl(v)}</span>`;
+}
+
+function brl(v) {
+  return 'R$ ' + Number(v || 0).toLocaleString('pt-BR', {minimumFractionDigits: 2, maximumFractionDigits: 2});
+}
+
+function _esc(s) {
+  return String(s || '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+}
+
+function _escAttr(s) {
+  return _esc(s).replace(/'/g, '&#39;');
+}
+
+function exportarCSV() {
+  const lista = _filtrados();
+  const header = ['Pedido','Sistema','UF','Vendedor','Cliente','Posicao','Preco de Venda','Preco de Tabela','Data','Motivo'];
+  const linhas = lista.map(p => [
+    p.numped,
+    p.sistema,
+    p.estado,
+    p.vendedor.replace(' - OFF TRADE',''),
+    p.cliente,
+    p.posicao,
+    p.preco_venda ?? '',
+    p.preco_tabela ?? '',
+    p.data,
+    p.motivo,
+  ].map(v => `"${String(v??'').replace(/"/g,'""')}"`).join(';'));
+
+  const csv = '﻿' + [header.join(';'), ...linhas].join('\r\n');
+  const blob = new Blob([csv], { type: 'text/csv;charset=utf-8;' });
+  const url  = URL.createObjectURL(blob);
+  const a    = document.createElement('a');
+  a.href = url;
+  a.download = `pedidos_bloqueados_${new Date().toISOString().slice(0,10)}.csv`;
+  a.click();
+  URL.revokeObjectURL(url);
+}
+</script>
+<script src="sticky_hscroll.js"></script>
+</body>
+</html>

@@ -38,11 +38,17 @@ EXCLUDE_JS = {
     "acessos_data.js",
     "metas_data.js", "vendas_data.js", "vendas_es_data.js",
     "vendas_mg_data.js", "vendas_sp_data.js", "fontes_status_data.js",
-    # promotoria_data.js: mesmo motivo de metas/vendas acima — a VPS gera o
-    # dela sozinha (exportacao_promotoria.py, via main.py) e a cópia local
+    # promotoria_data.js / estoque_movimentacao_data.js: mesmo motivo de
+    # metas/vendas acima — a VPS gera sozinha (via main.py) e a cópia local
     # fica velha entre uma rodada e outra; sincronizar por cima sobrescreveria
     # o dado fresco (2026-08-21).
     "promotoria_data.js",
+    "estoque_movimentacao_data.js",
+    # pedidos_bloqueados_data.js: exportacao_pedidos_bloqueados.py roda só na
+    # VPS, cron próprio de 5 em 5 min, fora do main.py (pedido do usuário em
+    # 2026-08-25) — mesmo motivo de metas/vendas acima, sem cópia local pra
+    # sincronizar (nem deveria existir uma).
+    "pedidos_bloqueados_data.js",
 }
 
 
