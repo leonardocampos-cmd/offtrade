@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_es.py
 
 const NAO_POS_ES_DATA = {
-  "atualizado_em": "26/08/2026 10:41",
+  "atualizado_em": "26/08/2026 11:32",
   "por_vendedor": {
     "ADEILSON GONÇALVEZ": [
       {
@@ -1851,6 +1851,26 @@ const NAO_POS_ES_DATA = {
         ]
       },
       {
+        "codcli": "89936",
+        "cliente": "POSTO DE GASOLINA SANTA BARBARA DO MEIER LTDA",
+        "bairro": "MEIER",
+        "dtultcomp": "23/06/2026",
+        "produtos": [
+          {
+            "produto": "GUARAVITA NATURAL 24X290ML",
+            "fantasia": "VITON",
+            "qt": 5,
+            "valor": 159.96
+          },
+          {
+            "produto": "GUARAVITON GINSENG 12X500ML",
+            "fantasia": "VITON",
+            "qt": 4,
+            "valor": 148.03
+          }
+        ]
+      },
+      {
         "codcli": "84572",
         "cliente": "COMERCIO DE HORTIFRUTI MIGUEL ARCANJO 2021 LTDA",
         "bairro": "TAQUARA",
@@ -2325,26 +2345,6 @@ const NAO_POS_ES_DATA = {
             "fantasia": "FANTE",
             "qt": 6,
             "valor": 119.4
-          }
-        ]
-      },
-      {
-        "codcli": "89936",
-        "cliente": "POSTO DE GASOLINA SANTA BARBARA DO MEIER LTDA",
-        "bairro": "MEIER",
-        "dtultcomp": "16/07/2026",
-        "produtos": [
-          {
-            "produto": "GUARAVITA NATURAL 24X290ML",
-            "fantasia": "VITON",
-            "qt": 8,
-            "valor": 255.94
-          },
-          {
-            "produto": "RED BULL 24X250ML",
-            "fantasia": "RED BULL",
-            "qt": 1,
-            "valor": 196.95
           }
         ]
       },
