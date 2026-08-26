@@ -26235,6 +26235,20 @@ const AGENDAMENTO_DATA = {
       "codusur": "419",
       "itens": [
         {
+          "codigo_cliente": "3935",
+          "cliente": "SUPERMERCADOS CELEIRO LTDA",
+          "cnpj": "07.678.203/0001-80",
+          "filial": "CAMPO GRANDE",
+          "valor": 1149.6,
+          "nf": "",
+          "data_agendamento": "27/08/2026",
+          "data_ord": "2026-08-27",
+          "status": "A FATURAR",
+          "obs": "",
+          "status_logistica": "",
+          "justificativa_logistica": ""
+        },
+        {
           "codigo_cliente": "19230",
           "cliente": "MERCADO VALE VERDE DE PACIENCIA (SUPER COMPRAS)",
           "cnpj": "28.423.936/0001-44",
@@ -27049,7 +27063,7 @@ const AGENDAMENTO_DATA = {
       ]
     }
   ],
-  "atualizado_em": "26/08/2026 15:17",
+  "atualizado_em": "26/08/2026 16:04",
   "comparativo": [
     {
       "msg_id": "1a01bc9a975c4cab",
