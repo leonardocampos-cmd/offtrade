@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_es.py
 
 const NAO_POS_ES_DATA = {
-  "atualizado_em": "26/08/2026 15:20",
+  "atualizado_em": "26/08/2026 16:07",
   "por_vendedor": {
     "ADEILSON GONÇALVEZ": [
       {
@@ -3112,32 +3112,6 @@ const NAO_POS_ES_DATA = {
         ]
       },
       {
-        "codcli": "90969",
-        "cliente": "BARAO DA OFELIA DELIVERY LTDA",
-        "bairro": "IPANEMA",
-        "dtultcomp": "13/04/2026",
-        "produtos": [
-          {
-            "produto": "CONHAQUE DOMECQ 1L",
-            "fantasia": "PERNOD",
-            "qt": 2,
-            "valor": 67.8
-          },
-          {
-            "produto": "LICOR COINTREAU 700 ML",
-            "fantasia": "INTERFOOD",
-            "qt": 2,
-            "valor": 235.8
-          },
-          {
-            "produto": "WHISKY JIM BEAM WHITE 1L",
-            "fantasia": "BEAM SUNTORY",
-            "qt": 2,
-            "valor": 131.8
-          }
-        ]
-      },
-      {
         "codcli": "10734",
         "cliente": "PASSIONE PER GELATO COMERCIO DE SORVETES E LANCHES LTDA.",
         "bairro": "LEBLON",
@@ -4243,6 +4217,13 @@ const NAO_POS_ES_DATA = {
         "bairro": "LEBLON",
         "dtultcomp": "nan",
         "produtos": []
+      },
+      {
+        "codcli": "76982",
+        "cliente": "VIDAL COMERCIO DE PRODUTOS ALIMENTICIOS LTDA",
+        "bairro": "CAMPO GRANDE",
+        "dtultcomp": "nan",
+        "produtos": []
       }
     ],
     "ANGELO NEVES SUZART": [
@@ -4657,6 +4638,104 @@ const NAO_POS_ES_DATA = {
             "fantasia": "TATUZINHO",
             "qt": 1,
             "valor": 87.6
+          }
+        ]
+      },
+      {
+        "codcli": "89956",
+        "cliente": "MERCADO RIO SUL DE HELIOPOLIS LTDA",
+        "bairro": "HELIOPOLIS",
+        "dtultcomp": "13/04/2026",
+        "produtos": [
+          {
+            "produto": "AGUA DE COCO TIAL 12X1000ML",
+            "fantasia": "TIAL",
+            "qt": 1,
+            "valor": 130.8
+          },
+          {
+            "produto": "NECTAR ABACAXI 12X1000ML",
+            "fantasia": "TIAL",
+            "qt": 1,
+            "valor": 59.88
+          },
+          {
+            "produto": "NECTAR CAJU 12X1000ML",
+            "fantasia": "TIAL",
+            "qt": 1,
+            "valor": 59.88
+          },
+          {
+            "produto": "NECTAR GOIABA 12X1000ML",
+            "fantasia": "TIAL",
+            "qt": 1,
+            "valor": 59.88
+          },
+          {
+            "produto": "NECTAR LARANJA 12X1000ML",
+            "fantasia": "TIAL",
+            "qt": 1,
+            "valor": 59.88
+          },
+          {
+            "produto": "NECTAR MANGA 12X1000ML",
+            "fantasia": "TIAL",
+            "qt": 1,
+            "valor": 59.88
+          },
+          {
+            "produto": "NECTAR MARACUJA 12X1000ML",
+            "fantasia": "TIAL",
+            "qt": 1,
+            "valor": 59.88
+          },
+          {
+            "produto": "NECTAR MISTO UVA E PERA 12X1000ML",
+            "fantasia": "TIAL",
+            "qt": 3,
+            "valor": 179.64
+          },
+          {
+            "produto": "REFRESCO DE MARACUJA MINECRAFT 24X200ML",
+            "fantasia": "TIAL",
+            "qt": 1,
+            "valor": 47.76
+          },
+          {
+            "produto": "REFRESCO DE MORANGO MINECRAFT 24X200ML",
+            "fantasia": "TIAL",
+            "qt": 1,
+            "valor": 47.76
+          },
+          {
+            "produto": "REFRESCO DE UVA MINECRAFT 24X200ML",
+            "fantasia": "TIAL",
+            "qt": 1,
+            "valor": 47.76
+          },
+          {
+            "produto": "ST PIERRE VIDRO PINK LIMONADE LN 275X12",
+            "fantasia": "TATUZINHO",
+            "qt": 1,
+            "valor": 45.9
+          },
+          {
+            "produto": "ST PIERRE VIDRO RED MINT LN 275X12",
+            "fantasia": "TATUZINHO",
+            "qt": 1,
+            "valor": 45.9
+          },
+          {
+            "produto": "SUCO DE UVA TTO INT QUINTA DO MORGADO 1L",
+            "fantasia": "FANTE",
+            "qt": 12,
+            "valor": 140.4
+          },
+          {
+            "produto": "SUCO MISTO UVA 100% 24X200ML KIDS",
+            "fantasia": "TIAL",
+            "qt": 1,
+            "valor": 59.76
           }
         ]
       },
@@ -8719,6 +8798,13 @@ const NAO_POS_ES_DATA = {
         "codcli": "82219",
         "cliente": "M&N COMERCIO DE BEBIDAS E ALIMENTOS LTDA",
         "bairro": "BENFICA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "2498",
+        "cliente": "MERCEARIAS VIENA LTDA",
+        "bairro": "TIJUCA",
         "dtultcomp": "nan",
         "produtos": []
       },
