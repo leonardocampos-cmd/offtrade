@@ -1,6 +1,6 @@
 // Gerado automaticamente
 const RAIOX_OPORTUNIDADES_DATA = {
-  "atualizado_em": "26/08/2026 14:15",
+  "atualizado_em": "26/08/2026 15:13",
   "periodo_atual": {
     "inicio": "01/08/2026",
     "fim": "26/08/2026",
@@ -43951,12 +43951,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "BIANCA DUARTE PIMENTA",
       "bairro": "ARARAS",
       "ramo": "BAR",
-      "vendedor": "GISELLE BARFER",
-      "gerente": "DANIEL DINIZ",
-      "supervisor": "DANIEL DINIZ",
+      "vendedor": "DIOGO RAPOSO",
+      "gerente": "ALLAN PAES",
+      "supervisor": "DANIELLE MOURA",
       "chaves_rca": [
-        "RJ-CRC-159.0",
-        "RJ-CRC-144"
+        "RJ-CRC-144",
+        "RJ-CRC-159.0"
       ],
       "por_industria": [
         {
@@ -47566,12 +47566,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS",
       "bairro": "BALNEARIO PRAIA DO PEREQUÊ",
       "ramo": "MERCADO",
-      "vendedor": "BRYAN PALOPOLI",
+      "vendedor": "ROBSON DA SILVA",
       "gerente": "MARCUS TANAMACHI",
-      "supervisor": "MARCUS TANAMACHI",
+      "supervisor": "ANDERSON CANAVEIS",
       "chaves_rca": [
-        "SP-SPON-399.0",
-        "SP-SPON-317"
+        "SP-SPON-317",
+        "SP-SPON-399.0"
       ],
       "por_industria": [
         {
@@ -89229,12 +89229,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "DUARTE DISTRIBUIDORA",
       "bairro": "ANGOLA",
       "ramo": "EVENTOS",
-      "vendedor": "FERNANDO RISSON",
+      "vendedor": "JOÃO SANTOS",
       "gerente": "FERNANDO RISSON",
       "supervisor": "FERNANDO RISSON",
       "chaves_rca": [
-        "MG-MGON-343.0",
-        "MG-MGON-327"
+        "MG-MGON-327",
+        "MG-MGON-343.0"
       ],
       "por_industria": [
         {
@@ -108544,12 +108544,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "ZE DO CHURRASCO BAR E COMERCIO",
       "bairro": "BURITIS",
       "ramo": "RESTAURANTE",
-      "vendedor": "FERNANDO RISSON",
+      "vendedor": "JOÃO SANTOS",
       "gerente": "FERNANDO RISSON",
       "supervisor": "FERNANDO RISSON",
       "chaves_rca": [
-        "MG-MGON-343.0",
-        "MG-MGON-327"
+        "MG-MGON-327",
+        "MG-MGON-343.0"
       ],
       "por_industria": [
         {
@@ -110881,12 +110881,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "BOLSAO DO TADEU DISTRIBUIDORA DE BEBIDAS",
       "bairro": "JARDIM SAO GERALDO",
       "ramo": "MERCADO",
-      "vendedor": "ADER ALONSO",
+      "vendedor": "RENATO JUNIOR",
       "gerente": "MARCUS TANAMACHI",
-      "supervisor": "PRISCILLA BONACHE",
+      "supervisor": "MARCUS TANAMACHI",
       "chaves_rca": [
-        "SP-SPON-426",
-        "SP-SPON-468.0"
+        "SP-SPON-468.0",
+        "SP-SPON-426"
       ],
       "por_industria": [
         {
@@ -112367,12 +112367,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "SUPERMERCADO SANI",
       "bairro": "CENTRO",
       "ramo": "MINI-MERCADO",
-      "vendedor": "BRYAN PALOPOLI",
+      "vendedor": "LEONARDO FLOREZI",
       "gerente": "MARCUS TANAMACHI",
-      "supervisor": "MARCUS TANAMACHI",
+      "supervisor": "PRISCILLA BONACHE",
       "chaves_rca": [
-        "SP-SPON-399.0",
-        "SP-SPON-486"
+        "SP-SPON-486",
+        "SP-SPON-399.0"
       ],
       "por_industria": [
         {
@@ -114052,12 +114052,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "BEM QUE TEM",
       "bairro": "BARREIRO",
       "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "vendedor": "FERNANDO RISSON",
+      "vendedor": "JOÃO SANTOS",
       "gerente": "FERNANDO RISSON",
       "supervisor": "FERNANDO RISSON",
       "chaves_rca": [
-        "MG-MGON-343.0",
-        "MG-MGON-327"
+        "MG-MGON-327",
+        "MG-MGON-343.0"
       ],
       "por_industria": [
         {
@@ -115924,12 +115924,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "BENDITO CAFE E PADARIA",
       "bairro": "CENTRO",
       "ramo": "PADARIA",
-      "vendedor": "FERNANDO RISSON",
+      "vendedor": "TIAGO ANDRADE",
       "gerente": "FERNANDO RISSON",
       "supervisor": "FERNANDO RISSON",
       "chaves_rca": [
-        "MG-MGON-343.0",
-        "MG-MGON-344"
+        "MG-MGON-344",
+        "MG-MGON-343.0"
       ],
       "por_industria": [
         {
@@ -117913,12 +117913,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "MERCEARIA TURBO 1000",
       "bairro": "VILA EMIL",
       "ramo": "MERCADO",
-      "vendedor": "JORGE MACIEL",
+      "vendedor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "supervisor": "DANIELLE MOURA",
       "chaves_rca": [
-        "RJ-CRC-379",
-        "RJ-CRC-238.0"
+        "RJ-CRC-238.0",
+        "RJ-CRC-379"
       ],
       "por_industria": [
         {
@@ -121902,12 +121902,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "BEM QUE TEM",
       "bairro": "SANTA LUCIA",
       "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "vendedor": "FERNANDO RISSON",
+      "vendedor": "JOÃO SANTOS",
       "gerente": "FERNANDO RISSON",
       "supervisor": "FERNANDO RISSON",
       "chaves_rca": [
-        "MG-MGON-343.0",
-        "MG-MGON-327"
+        "MG-MGON-327",
+        "MG-MGON-343.0"
       ],
       "por_industria": [
         {
@@ -143638,12 +143638,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "GRAO DE MOSTARDA DERIVADOS DE CHOCOLATES",
       "bairro": "COPACABANA",
       "ramo": "MERCADO",
-      "vendedor": "VIVIANI ALVES",
+      "vendedor": "ANA CLARA FASSANO",
       "gerente": "ALLAN PAES",
       "supervisor": "DANIELLE MOURA",
       "chaves_rca": [
-        "RJ-CRC-91.0",
-        "RJ-CRC-471"
+        "RJ-CRC-471",
+        "RJ-CRC-91.0"
       ],
       "por_industria": [
         {
@@ -169280,12 +169280,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "DISTRUIBUIDORA DO BE",
       "bairro": "JARDIM DE ALÁ",
       "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "vendedor": "FERNANDO RISSON",
+      "vendedor": "WILLIAM ALVES DA SILVA",
       "gerente": "FERNANDO RISSON",
       "supervisor": "FERNANDO RISSON",
       "chaves_rca": [
-        "MG-MGON-343.0",
-        "MG-MGON-349"
+        "MG-MGON-349",
+        "MG-MGON-343.0"
       ],
       "por_industria": [
         {
@@ -181962,12 +181962,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "LEANDRO FREITAS RODRIGUES",
       "bairro": "OLARIA",
       "ramo": "BAR",
-      "vendedor": "JORGE MACIEL",
+      "vendedor": "ALLAN PAES",
       "gerente": "ALLAN PAES",
       "supervisor": "DANIELLE MOURA",
       "chaves_rca": [
-        "RJ-CRC-379",
-        "RJ-CRC-174.0"
+        "RJ-CRC-174.0",
+        "RJ-CRC-379"
       ],
       "por_industria": [
         {
@@ -186545,12 +186545,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "M TERUYA & CIA LTDA",
       "bairro": "CONJUNTO HABITACIONAL JUSCELINO KUBITSCH",
       "ramo": "MINI-MERCADO",
-      "vendedor": "BRYAN PALOPOLI",
+      "vendedor": "RENATO JUNIOR",
       "gerente": "MARCUS TANAMACHI",
       "supervisor": "MARCUS TANAMACHI",
       "chaves_rca": [
-        "SP-SPON-399.0",
-        "SP-SPON-468"
+        "SP-SPON-468",
+        "SP-SPON-399.0"
       ],
       "por_industria": [
         {
@@ -188088,12 +188088,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "VARANDA FRUTAS E MERCEARIA LTDA",
       "bairro": "BELA VISTA",
       "ramo": "MERCADO",
-      "vendedor": "BRYAN PALOPOLI",
+      "vendedor": "ANDRE PINHEIRO",
       "gerente": "MARCUS TANAMACHI",
       "supervisor": "MARCUS TANAMACHI",
       "chaves_rca": [
-        "SP-SPON-399.0",
-        "SP-SPON-485"
+        "SP-SPON-485",
+        "SP-SPON-399.0"
       ],
       "por_industria": [
         {
@@ -188880,12 +188880,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "MERCADO TERUYA",
       "bairro": "JARDIM SAO PAULO",
       "ramo": "MERCADO",
-      "vendedor": "BRYAN PALOPOLI",
+      "vendedor": "RENATO JUNIOR",
       "gerente": "MARCUS TANAMACHI",
       "supervisor": "MARCUS TANAMACHI",
       "chaves_rca": [
-        "SP-SPON-399.0",
-        "SP-SPON-468"
+        "SP-SPON-468",
+        "SP-SPON-399.0"
       ],
       "por_industria": [
         {
@@ -190336,12 +190336,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "MERCADO TERUYA JK LTDA",
       "bairro": "CONJUNTO HABITACIONAL JUSCELINO KUBITSCH",
       "ramo": "MINI-MERCADO",
-      "vendedor": "BRYAN PALOPOLI",
+      "vendedor": "RENATO JUNIOR",
       "gerente": "MARCUS TANAMACHI",
       "supervisor": "MARCUS TANAMACHI",
       "chaves_rca": [
-        "SP-SPON-399.0",
-        "SP-SPON-468"
+        "SP-SPON-468",
+        "SP-SPON-399.0"
       ],
       "por_industria": [
         {
@@ -198223,12 +198223,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "SUPERMARKET",
       "bairro": "PENHA",
       "ramo": "MERCADO",
-      "vendedor": "DANIELLE MOURA",
+      "vendedor": "LEANDRO SOUZA",
       "gerente": "ALLAN PAES",
       "supervisor": "DANIELLE MOURA",
       "chaves_rca": [
-        "RJ-CRC-238.0",
-        "RJ-CRC-450"
+        "RJ-CRC-450",
+        "RJ-CRC-238.0"
       ],
       "por_industria": [
         {
@@ -203337,12 +203337,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "BR MANIA",
       "bairro": "SANTO ANTONIO",
       "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "vendedor": "FERNANDO RISSON",
+      "vendedor": "JOÃO SANTOS",
       "gerente": "FERNANDO RISSON",
       "supervisor": "FERNANDO RISSON",
       "chaves_rca": [
-        "MG-MGON-343.0",
-        "MG-MGON-327"
+        "MG-MGON-327",
+        "MG-MGON-343.0"
       ],
       "por_industria": [
         {
@@ -204286,6 +204286,89 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "queda_qt_ano_valor": 2.0,
       "queda_qt_mes_pct": -100.0,
       "queda_qt_ano_pct": -100.0
+    },
+    {
+      "codcli": 38022,
+      "estado": "MG",
+      "chave": "MG-38022",
+      "nome": "SUPERMERCADO JP",
+      "bairro": "JOÃO PINHEIRO",
+      "ramo": "OUTROS",
+      "vendedor": "MATHEUS DE SOUZA",
+      "gerente": "FERNANDO RISSON",
+      "supervisor": "FERNANDO RISSON",
+      "chaves_rca": [
+        "MG-MGON-354"
+      ],
+      "por_industria": [
+        {
+          "fornecedor": "PERNOD",
+          "por_produto": [
+            {
+              "produto": "RUM MONTILLA CARTA BRANCA 1000 ML",
+              "fat_atual": 0.0,
+              "fat_mes_anterior": 149.4,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 0.0,
+              "qt_mes_anterior": 6.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": 149.4,
+              "queda_fat_ano_valor": 0.0,
+              "queda_fat_mes_pct": -100.0,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": 6.0,
+              "queda_qt_ano_valor": 0.0,
+              "queda_qt_mes_pct": -100.0,
+              "queda_qt_ano_pct": null
+            },
+            {
+              "produto": "RUM MONTILLA OURO 1000ML",
+              "fat_atual": 0.0,
+              "fat_mes_anterior": 149.4,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 0.0,
+              "qt_mes_anterior": 6.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": 149.4,
+              "queda_fat_ano_valor": 0.0,
+              "queda_fat_mes_pct": -100.0,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": 6.0,
+              "queda_qt_ano_valor": 0.0,
+              "queda_qt_mes_pct": -100.0,
+              "queda_qt_ano_pct": null
+            }
+          ],
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 298.8,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 12.0,
+          "qt_ano_anterior": 0.0,
+          "queda_fat_mes_valor": 298.8,
+          "queda_fat_ano_valor": 0.0,
+          "queda_fat_mes_pct": -100.0,
+          "queda_fat_ano_pct": null,
+          "queda_qt_mes_valor": 12.0,
+          "queda_qt_ano_valor": 0.0,
+          "queda_qt_mes_pct": -100.0,
+          "queda_qt_ano_pct": null
+        }
+      ],
+      "fat_atual": 0.0,
+      "fat_mes_anterior": 298.8,
+      "fat_ano_anterior": 0.0,
+      "qt_atual": 0.0,
+      "qt_mes_anterior": 12.0,
+      "qt_ano_anterior": 0.0,
+      "queda_fat_mes_valor": 298.8,
+      "queda_fat_ano_valor": 0.0,
+      "queda_fat_mes_pct": -100.0,
+      "queda_fat_ano_pct": null,
+      "queda_qt_mes_valor": 12.0,
+      "queda_qt_ano_valor": 0.0,
+      "queda_qt_mes_pct": -100.0,
+      "queda_qt_ano_pct": null
     },
     {
       "codcli": 75420,
@@ -210170,12 +210253,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "BIG BOM SANTO ANDRE MINIMERCADO",
       "bairro": "JARDIM LALLO",
       "ramo": "MINI-MERCADO",
-      "vendedor": "LUCELIA BARROS",
+      "vendedor": "ROBSON DA SILVA",
       "gerente": "MARCUS TANAMACHI",
       "supervisor": "ANDERSON CANAVEIS",
       "chaves_rca": [
-        "SP-SPON-505",
-        "SP-SPON-317.0"
+        "SP-SPON-317.0",
+        "SP-SPON-505"
       ],
       "por_industria": [
         {
@@ -218773,12 +218856,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "DENILSON GOMES DOS SANTOS",
       "bairro": "JACAREPAGUA",
       "ramo": "BAR",
-      "vendedor": "FABIO VALOTTI",
+      "vendedor": "DIOGO RAPOSO",
       "gerente": "ALLAN PAES",
       "supervisor": "DANIELLE MOURA",
       "chaves_rca": [
-        "RJ-CRC-378.0",
-        "RJ-CRC-144"
+        "RJ-CRC-144",
+        "RJ-CRC-378.0"
       ],
       "por_industria": [
         {
@@ -229554,12 +229637,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "MERCADINHO MATO DENTRO",
       "bairro": "MATO DENTRO",
       "ramo": "MERCADO",
-      "vendedor": "BRYAN PALOPOLI",
+      "vendedor": "RENATO JUNIOR",
       "gerente": "MARCUS TANAMACHI",
       "supervisor": "MARCUS TANAMACHI",
       "chaves_rca": [
-        "SP-SPON-399.0",
-        "SP-SPON-468"
+        "SP-SPON-468",
+        "SP-SPON-399.0"
       ],
       "por_industria": [
         {
@@ -239638,12 +239721,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "CABRAL BEER",
       "bairro": "CABRAL",
       "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "vendedor": "FERNANDO RISSON",
+      "vendedor": "TIAGO ANDRADE",
       "gerente": "FERNANDO RISSON",
       "supervisor": "FERNANDO RISSON",
       "chaves_rca": [
-        "MG-MGON-343.0",
-        "MG-MGON-344"
+        "MG-MGON-344",
+        "MG-MGON-343.0"
       ],
       "por_industria": [
         {
@@ -240897,12 +240980,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "MAGNUS SOCIEDADE COMERCIAL",
       "bairro": "SANTA HELENA",
       "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "vendedor": "FERNANDO RISSON",
+      "vendedor": "JOÃO SANTOS",
       "gerente": "FERNANDO RISSON",
       "supervisor": "FERNANDO RISSON",
       "chaves_rca": [
-        "MG-MGON-343.0",
-        "MG-MGON-327"
+        "MG-MGON-327",
+        "MG-MGON-343.0"
       ],
       "por_industria": [
         {
@@ -244069,12 +244152,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "ESTORIL CONVENIENCIA LTDA",
       "bairro": "NOVA SUÍSSA",
       "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "vendedor": "FERNANDO RISSON",
+      "vendedor": "TIAGO ANDRADE",
       "gerente": "FERNANDO RISSON",
       "supervisor": "FERNANDO RISSON",
       "chaves_rca": [
-        "MG-MGON-343.0",
-        "MG-MGON-344"
+        "MG-MGON-344",
+        "MG-MGON-343.0"
       ],
       "por_industria": [
         {
@@ -244594,12 +244677,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "PIO XII CONVENIENCIA",
       "bairro": "ÁGUA BRANCA",
       "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "vendedor": "FERNANDO RISSON",
+      "vendedor": "TIAGO ANDRADE",
       "gerente": "FERNANDO RISSON",
       "supervisor": "FERNANDO RISSON",
       "chaves_rca": [
-        "MG-MGON-343.0",
-        "MG-MGON-344"
+        "MG-MGON-344",
+        "MG-MGON-343.0"
       ],
       "por_industria": [
         {
@@ -254086,12 +254169,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "MUITO MAIS VOCE - ROCHA MIRANDA",
       "bairro": "ROCHA MIRANDA",
       "ramo": "MERCADO",
-      "vendedor": "DANIELLE MOURA",
+      "vendedor": "ADEILSON GONÇALVEZ",
       "gerente": "ALLAN PAES",
       "supervisor": "DANIELLE MOURA",
       "chaves_rca": [
-        "RJ-CRC-238.0",
-        "RJ-CRC-431"
+        "RJ-CRC-431",
+        "RJ-CRC-238.0"
       ],
       "por_industria": [
         {
@@ -258958,161 +259041,6 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "queda_qt_mes_valor": 0.0,
       "queda_qt_ano_valor": -4.0,
       "queda_qt_mes_pct": 0.0,
-      "queda_qt_ano_pct": null
-    },
-    {
-      "codcli": 38022,
-      "estado": "MG",
-      "chave": "MG-38022",
-      "nome": "SUPERMERCADO JP",
-      "bairro": "JOÃO PINHEIRO",
-      "ramo": "OUTROS",
-      "vendedor": "MATHEUS DE SOUZA",
-      "gerente": "FERNANDO RISSON",
-      "supervisor": "FERNANDO RISSON",
-      "chaves_rca": [
-        "MG-MGON-354"
-      ],
-      "por_industria": [
-        {
-          "fornecedor": "PERNOD",
-          "por_produto": [
-            {
-              "produto": "RUM MONTILLA CARTA BRANCA 1000 ML",
-              "fat_atual": 0.0,
-              "fat_mes_anterior": 149.4,
-              "fat_ano_anterior": 0.0,
-              "qt_atual": 0.0,
-              "qt_mes_anterior": 6.0,
-              "qt_ano_anterior": 0.0,
-              "queda_fat_mes_valor": 149.4,
-              "queda_fat_ano_valor": 0.0,
-              "queda_fat_mes_pct": -100.0,
-              "queda_fat_ano_pct": null,
-              "queda_qt_mes_valor": 6.0,
-              "queda_qt_ano_valor": 0.0,
-              "queda_qt_mes_pct": -100.0,
-              "queda_qt_ano_pct": null
-            },
-            {
-              "produto": "RUM MONTILLA OURO 1000ML",
-              "fat_atual": 0.0,
-              "fat_mes_anterior": 149.4,
-              "fat_ano_anterior": 0.0,
-              "qt_atual": 0.0,
-              "qt_mes_anterior": 6.0,
-              "qt_ano_anterior": 0.0,
-              "queda_fat_mes_valor": 149.4,
-              "queda_fat_ano_valor": 0.0,
-              "queda_fat_mes_pct": -100.0,
-              "queda_fat_ano_pct": null,
-              "queda_qt_mes_valor": 6.0,
-              "queda_qt_ano_valor": 0.0,
-              "queda_qt_mes_pct": -100.0,
-              "queda_qt_ano_pct": null
-            }
-          ],
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 298.8,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 12.0,
-          "qt_ano_anterior": 0.0,
-          "queda_fat_mes_valor": 298.8,
-          "queda_fat_ano_valor": 0.0,
-          "queda_fat_mes_pct": -100.0,
-          "queda_fat_ano_pct": null,
-          "queda_qt_mes_valor": 12.0,
-          "queda_qt_ano_valor": 0.0,
-          "queda_qt_mes_pct": -100.0,
-          "queda_qt_ano_pct": null
-        },
-        {
-          "fornecedor": "DIAGEO",
-          "por_produto": [
-            {
-              "produto": "SMIRNOFF ICE RASPBERRY -24 UNIDADES (LN)",
-              "fat_atual": 129.84,
-              "fat_mes_anterior": 0.0,
-              "fat_ano_anterior": 0.0,
-              "qt_atual": 1.0,
-              "qt_mes_anterior": 0.0,
-              "qt_ano_anterior": 0.0,
-              "queda_fat_mes_valor": -129.84,
-              "queda_fat_ano_valor": -129.84,
-              "queda_fat_mes_pct": null,
-              "queda_fat_ano_pct": null,
-              "queda_qt_mes_valor": -1.0,
-              "queda_qt_ano_valor": -1.0,
-              "queda_qt_mes_pct": null,
-              "queda_qt_ano_pct": null
-            }
-          ],
-          "fat_atual": 129.84,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 1.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0,
-          "queda_fat_mes_valor": -129.84,
-          "queda_fat_ano_valor": -129.84,
-          "queda_fat_mes_pct": null,
-          "queda_fat_ano_pct": null,
-          "queda_qt_mes_valor": -1.0,
-          "queda_qt_ano_valor": -1.0,
-          "queda_qt_mes_pct": null,
-          "queda_qt_ano_pct": null
-        },
-        {
-          "fornecedor": "DON LUIZ",
-          "por_produto": [
-            {
-              "produto": "COQUETEL ALCOÓLICO DON CREAM DULCE DE LE",
-              "fat_atual": 179.7,
-              "fat_mes_anterior": 0.0,
-              "fat_ano_anterior": 0.0,
-              "qt_atual": 3.0,
-              "qt_mes_anterior": 0.0,
-              "qt_ano_anterior": 0.0,
-              "queda_fat_mes_valor": -179.7,
-              "queda_fat_ano_valor": -179.7,
-              "queda_fat_mes_pct": null,
-              "queda_fat_ano_pct": null,
-              "queda_qt_mes_valor": -3.0,
-              "queda_qt_ano_valor": -3.0,
-              "queda_qt_mes_pct": null,
-              "queda_qt_ano_pct": null
-            }
-          ],
-          "fat_atual": 179.7,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 3.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0,
-          "queda_fat_mes_valor": -179.7,
-          "queda_fat_ano_valor": -179.7,
-          "queda_fat_mes_pct": null,
-          "queda_fat_ano_pct": null,
-          "queda_qt_mes_valor": -3.0,
-          "queda_qt_ano_valor": -3.0,
-          "queda_qt_mes_pct": null,
-          "queda_qt_ano_pct": null
-        }
-      ],
-      "fat_atual": 309.54,
-      "fat_mes_anterior": 298.8,
-      "fat_ano_anterior": 0.0,
-      "qt_atual": 4.0,
-      "qt_mes_anterior": 12.0,
-      "qt_ano_anterior": 0.0,
-      "queda_fat_mes_valor": -10.74,
-      "queda_fat_ano_valor": -309.54,
-      "queda_fat_mes_pct": 3.6,
-      "queda_fat_ano_pct": null,
-      "queda_qt_mes_valor": 8.0,
-      "queda_qt_ano_valor": -4.0,
-      "queda_qt_mes_pct": -66.7,
       "queda_qt_ano_pct": null
     },
     {
@@ -275371,12 +275299,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "SAO LUIS CONVENIENCIA",
       "bairro": "AEROPORTO",
       "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "vendedor": "FERNANDO RISSON",
+      "vendedor": "TIAGO ANDRADE",
       "gerente": "FERNANDO RISSON",
       "supervisor": "FERNANDO RISSON",
       "chaves_rca": [
-        "MG-MGON-343.0",
-        "MG-MGON-344"
+        "MG-MGON-344",
+        "MG-MGON-343.0"
       ],
       "por_industria": [
         {
@@ -284113,12 +284041,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "SUPERMARKET",
       "bairro": "VALVERDE",
       "ramo": "MERCADO",
-      "vendedor": "DANIELLE MOURA",
+      "vendedor": "LEANDRO SOUZA",
       "gerente": "ALLAN PAES",
       "supervisor": "DANIELLE MOURA",
       "chaves_rca": [
-        "RJ-CRC-238.0",
-        "RJ-CRC-450"
+        "RJ-CRC-450",
+        "RJ-CRC-238.0"
       ],
       "por_industria": [
         {
@@ -299078,12 +299006,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "POSTO NOVA ESPERANCA DE NOVA IGUACU",
       "bairro": "CENTRO",
       "ramo": "POSTO DE GASOLINA",
-      "vendedor": "DANIELLE MOURA",
+      "vendedor": "ADEILSON GONÇALVEZ",
       "gerente": "ALLAN PAES",
       "supervisor": "DANIELLE MOURA",
       "chaves_rca": [
-        "RJ-CRC-238.0",
-        "RJ-CRC-431"
+        "RJ-CRC-431",
+        "RJ-CRC-238.0"
       ],
       "por_industria": [
         {
@@ -303126,12 +303054,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "L R",
       "bairro": "PINHEIROS",
       "ramo": "CONVENIENCIA",
-      "vendedor": "BRYAN PALOPOLI",
+      "vendedor": "WILLIAM GONCALVES",
       "gerente": "MARCUS TANAMACHI",
-      "supervisor": "MARCUS TANAMACHI",
+      "supervisor": "ANDERSON CANAVEIS",
       "chaves_rca": [
-        "SP-SPON-399.0",
-        "SP-SPON-512"
+        "SP-SPON-512",
+        "SP-SPON-399.0"
       ],
       "por_industria": [
         {
@@ -304713,12 +304641,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "POSTO DE GASOLINA GURUPI - GRAJAU",
       "bairro": "GRAJAU",
       "ramo": "POSTO DE GASOLINA",
-      "vendedor": "DANIELLE MOURA",
+      "vendedor": "ADEILSON GONÇALVEZ",
       "gerente": "ALLAN PAES",
       "supervisor": "DANIELLE MOURA",
       "chaves_rca": [
-        "RJ-CRC-238.0",
-        "RJ-CRC-431"
+        "RJ-CRC-431",
+        "RJ-CRC-238.0"
       ],
       "por_industria": [
         {
@@ -307044,12 +306972,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "EMPORIO CATROQUE",
       "bairro": "ALAMBIQUE",
       "ramo": "MINI-MERCADO",
-      "vendedor": "BRYAN PALOPOLI",
+      "vendedor": "LUCAS BUENO",
       "gerente": "MARCUS TANAMACHI",
-      "supervisor": "MARCUS TANAMACHI",
+      "supervisor": "PRISCILLA BONACHE",
       "chaves_rca": [
-        "SP-SPON-399.0",
-        "SP-SPON-475"
+        "SP-SPON-475",
+        "SP-SPON-399.0"
       ],
       "por_industria": [
         {
@@ -308016,12 +307944,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "SUPERMARKET",
       "bairro": "INHAUMA",
       "ramo": "MERCADO",
-      "vendedor": "DANIELLE MOURA",
+      "vendedor": "LEANDRO SOUZA",
       "gerente": "ALLAN PAES",
       "supervisor": "DANIELLE MOURA",
       "chaves_rca": [
-        "RJ-CRC-238.0",
-        "RJ-CRC-450"
+        "RJ-CRC-450",
+        "RJ-CRC-238.0"
       ],
       "por_industria": [
         {
@@ -313355,12 +313283,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "MERCADO TURBO 1000",
       "bairro": "JACUTINGA",
       "ramo": "MINI-MERCADO",
-      "vendedor": "JORGE MACIEL",
+      "vendedor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "supervisor": "DANIELLE MOURA",
       "chaves_rca": [
-        "RJ-CRC-379",
-        "RJ-CRC-238.0"
+        "RJ-CRC-238.0",
+        "RJ-CRC-379"
       ],
       "por_industria": [
         {
@@ -320618,12 +320546,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "GALAPAGOS - CENTRO (SAO JOAO DE MERITI)",
       "bairro": "CENTRO",
       "ramo": "POSTO DE GASOLINA",
-      "vendedor": "BARBARA CABRAL",
+      "vendedor": "MARILENA TRAGEL",
       "gerente": "ALLAN PAES",
       "supervisor": "DANIELLE MOURA",
       "chaves_rca": [
-        "RJ-CRC-412.0",
-        "RJ-CRC-156"
+        "RJ-CRC-156",
+        "RJ-CRC-412.0"
       ],
       "por_industria": [
         {
@@ -330713,12 +330641,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "CVS SUPERMERCADOS",
       "bairro": "JARDIM ALLAH",
       "ramo": "MERCADO",
-      "vendedor": "CRISTIANE MORAIS",
+      "vendedor": "ROBSON DA SILVA",
       "gerente": "MARCUS TANAMACHI",
-      "supervisor": "MARCUS TANAMACHI",
+      "supervisor": "ANDERSON CANAVEIS",
       "chaves_rca": [
-        "SP-SPON-460",
-        "SP-SPON-317.0"
+        "SP-SPON-317.0",
+        "SP-SPON-460"
       ],
       "por_industria": [
         {
@@ -344234,12 +344162,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "DISTRIBUIDORA DE BEBIDAS MIRA",
       "bairro": "JARDIM HORIZONTE",
       "ramo": "DISTRIBUIDORA DE BEBIDA",
-      "vendedor": "ADER ALONSO",
+      "vendedor": "LEONARDO FLOREZI",
       "gerente": "MARCUS TANAMACHI",
       "supervisor": "PRISCILLA BONACHE",
       "chaves_rca": [
-        "SP-SPON-426.0",
-        "SP-SPON-486"
+        "SP-SPON-486",
+        "SP-SPON-426.0"
       ],
       "por_industria": [
         {
@@ -358620,12 +358548,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "SUPERMERCADO CATROQUE",
       "bairro": "MARACANA",
       "ramo": "MERCADO",
-      "vendedor": "BRYAN PALOPOLI",
+      "vendedor": "LUCAS BUENO",
       "gerente": "MARCUS TANAMACHI",
-      "supervisor": "MARCUS TANAMACHI",
+      "supervisor": "PRISCILLA BONACHE",
       "chaves_rca": [
-        "SP-SPON-399.0",
-        "SP-SPON-475"
+        "SP-SPON-475",
+        "SP-SPON-399.0"
       ],
       "por_industria": [
         {
@@ -358980,12 +358908,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "SUPERMERCADO CATROQUE",
       "bairro": "CENTRO",
       "ramo": "MERCADO",
-      "vendedor": "BRYAN PALOPOLI",
+      "vendedor": "LUCAS BUENO",
       "gerente": "MARCUS TANAMACHI",
-      "supervisor": "MARCUS TANAMACHI",
+      "supervisor": "PRISCILLA BONACHE",
       "chaves_rca": [
-        "SP-SPON-399.0",
-        "SP-SPON-475"
+        "SP-SPON-475",
+        "SP-SPON-399.0"
       ],
       "por_industria": [
         {
@@ -366258,12 +366186,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "VARANDA FRUTAS E MERCEARIA",
       "bairro": "CIDADE JARDIM",
       "ramo": "MERCADO",
-      "vendedor": "BRYAN PALOPOLI",
+      "vendedor": "ANDRE PINHEIRO",
       "gerente": "MARCUS TANAMACHI",
       "supervisor": "MARCUS TANAMACHI",
       "chaves_rca": [
-        "SP-SPON-399.0",
-        "SP-SPON-485"
+        "SP-SPON-485",
+        "SP-SPON-399.0"
       ],
       "por_industria": [
         {
@@ -369193,12 +369121,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "DEMI COPA BAR",
       "bairro": "COPACABANA",
       "ramo": "RESTAURANTE",
-      "vendedor": "DANIELLE MOURA",
+      "vendedor": "ANA CLARA FASSANO",
       "gerente": "ALLAN PAES",
       "supervisor": "DANIELLE MOURA",
       "chaves_rca": [
-        "RJ-CRC-238.0",
-        "RJ-CRC-471"
+        "RJ-CRC-471",
+        "RJ-CRC-238.0"
       ],
       "por_industria": [
         {
@@ -370802,12 +370730,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "COSTELAS BAR",
       "bairro": "CURICICA",
       "ramo": "CAFETERIA",
-      "vendedor": "DIOGO RAPOSO",
+      "vendedor": "ADEILSON GONÇALVEZ",
       "gerente": "ALLAN PAES",
       "supervisor": "DANIELLE MOURA",
       "chaves_rca": [
-        "RJ-CRC-144.0",
-        "RJ-CRC-431"
+        "RJ-CRC-431",
+        "RJ-CRC-144.0"
       ],
       "por_industria": [
         {
@@ -373408,12 +373336,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "LIDERANCA DE NOVA IGUACU - CENTRO",
       "bairro": "CENTRO",
       "ramo": "MERCADO",
-      "vendedor": "DANIELLE MOURA",
+      "vendedor": "ADEILSON GONÇALVEZ",
       "gerente": "ALLAN PAES",
       "supervisor": "DANIELLE MOURA",
       "chaves_rca": [
-        "RJ-CRC-238.0",
-        "RJ-CRC-431"
+        "RJ-CRC-431",
+        "RJ-CRC-238.0"
       ],
       "por_industria": [
         {
@@ -373641,12 +373569,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "JHONATA ARAUJO DE OLIVEIRA",
       "bairro": "REALENGO",
       "ramo": "EVENTOS",
-      "vendedor": "DANIELLE MOURA",
+      "vendedor": "ANA CLARA FASSANO",
       "gerente": "ALLAN PAES",
       "supervisor": "DANIELLE MOURA",
       "chaves_rca": [
-        "RJ-CRC-238.0",
-        "RJ-CRC-471"
+        "RJ-CRC-471",
+        "RJ-CRC-238.0"
       ],
       "por_industria": [
         {
@@ -403501,6 +403429,108 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "queda_qt_ano_pct": null
     },
     {
+      "codcli": 96071,
+      "estado": "ES",
+      "chave": "ES-96071",
+      "nome": "ROBSON PEREIRA DA SILVA",
+      "bairro": "NOVA ERA",
+      "ramo": "MERCEARIA",
+      "vendedor": "OZISLLAN RAMALHO DE SOUZA",
+      "gerente": "DANIEL DINIZ",
+      "supervisor": "EROCLES OLIVEIRA",
+      "chaves_rca": [
+        "ES-CRC-269"
+      ],
+      "por_industria": [
+        {
+          "fornecedor": "PERNOD",
+          "por_produto": [
+            {
+              "produto": "VODKA ABSOLUT CX C/ 12X 50ML",
+              "fat_atual": 133.2,
+              "fat_mes_anterior": 0.0,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 1.0,
+              "qt_mes_anterior": 0.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": -133.2,
+              "queda_fat_ano_valor": -133.2,
+              "queda_fat_mes_pct": null,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": -1.0,
+              "queda_qt_ano_valor": -1.0,
+              "queda_qt_mes_pct": null,
+              "queda_qt_ano_pct": null
+            }
+          ],
+          "fat_atual": 133.2,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 1.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0,
+          "queda_fat_mes_valor": -133.2,
+          "queda_fat_ano_valor": -133.2,
+          "queda_fat_mes_pct": null,
+          "queda_fat_ano_pct": null,
+          "queda_qt_mes_valor": -1.0,
+          "queda_qt_ano_valor": -1.0,
+          "queda_qt_mes_pct": null,
+          "queda_qt_ano_pct": null
+        },
+        {
+          "fornecedor": "RED BULL",
+          "por_produto": [
+            {
+              "produto": "RED BULL 24X250ML",
+              "fat_atual": 1677.6,
+              "fat_mes_anterior": 0.0,
+              "fat_ano_anterior": 0.0,
+              "qt_atual": 10.0,
+              "qt_mes_anterior": 0.0,
+              "qt_ano_anterior": 0.0,
+              "queda_fat_mes_valor": -1677.6,
+              "queda_fat_ano_valor": -1677.6,
+              "queda_fat_mes_pct": null,
+              "queda_fat_ano_pct": null,
+              "queda_qt_mes_valor": -10.0,
+              "queda_qt_ano_valor": -10.0,
+              "queda_qt_mes_pct": null,
+              "queda_qt_ano_pct": null
+            }
+          ],
+          "fat_atual": 1677.6,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 10.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0,
+          "queda_fat_mes_valor": -1677.6,
+          "queda_fat_ano_valor": -1677.6,
+          "queda_fat_mes_pct": null,
+          "queda_fat_ano_pct": null,
+          "queda_qt_mes_valor": -10.0,
+          "queda_qt_ano_valor": -10.0,
+          "queda_qt_mes_pct": null,
+          "queda_qt_ano_pct": null
+        }
+      ],
+      "fat_atual": 1810.8,
+      "fat_mes_anterior": 0.0,
+      "fat_ano_anterior": 0.0,
+      "qt_atual": 11.0,
+      "qt_mes_anterior": 0.0,
+      "qt_ano_anterior": 0.0,
+      "queda_fat_mes_valor": -1810.8,
+      "queda_fat_ano_valor": -1810.8,
+      "queda_fat_mes_pct": null,
+      "queda_fat_ano_pct": null,
+      "queda_qt_mes_valor": -11.0,
+      "queda_qt_ano_valor": -11.0,
+      "queda_qt_mes_pct": null,
+      "queda_qt_ano_pct": null
+    },
+    {
       "codcli": 96112,
       "estado": "ES",
       "chave": "ES-96112",
@@ -408553,12 +408583,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "ORGANIZACOES PAIS & FILHOS",
       "bairro": "CENTRO",
       "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "vendedor": "FERNANDO RISSON",
+      "vendedor": "WILLIAM ALVES DA SILVA",
       "gerente": "FERNANDO RISSON",
       "supervisor": "FERNANDO RISSON",
       "chaves_rca": [
-        "MG-MGON-343.0",
-        "MG-MGON-349"
+        "MG-MGON-349",
+        "MG-MGON-343.0"
       ],
       "por_industria": [
         {
@@ -410021,12 +410051,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "BURITIS CONVENIENCIA LTDA",
       "bairro": "ESTORIL",
       "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "vendedor": "FERNANDO RISSON",
+      "vendedor": "TIAGO ANDRADE",
       "gerente": "FERNANDO RISSON",
       "supervisor": "FERNANDO RISSON",
       "chaves_rca": [
-        "MG-MGON-343.0",
-        "MG-MGON-344"
+        "MG-MGON-344",
+        "MG-MGON-343.0"
       ],
       "por_industria": [
         {
@@ -412943,12 +412973,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "CACAU PARK",
       "bairro": "CENTRO",
       "ramo": "SERVIÇOS",
-      "vendedor": "BRYAN PALOPOLI",
+      "vendedor": "LEONARDO FLOREZI",
       "gerente": "MARCUS TANAMACHI",
-      "supervisor": "MARCUS TANAMACHI",
+      "supervisor": "PRISCILLA BONACHE",
       "chaves_rca": [
-        "SP-SPON-399.0",
-        "SP-SPON-486"
+        "SP-SPON-486",
+        "SP-SPON-399.0"
       ],
       "por_industria": [
         {
@@ -416445,12 +416475,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "IRMAOS FONSECA",
       "bairro": "FRANCISCA AUGUSTA RIOS",
       "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "vendedor": "FERNANDO RISSON",
+      "vendedor": "JETER LUCIO SOARES",
       "gerente": "FERNANDO RISSON",
       "supervisor": "FERNANDO RISSON",
       "chaves_rca": [
-        "MG-MGON-343.0",
-        "MG-MGON-378"
+        "MG-MGON-378",
+        "MG-MGON-343.0"
       ],
       "por_industria": [
         {
@@ -416824,12 +416854,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "SUPERMERCADO PAIS E FILHOS REDE SUPERMAIS",
       "bairro": "FONTESVILLE",
       "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "vendedor": "FERNANDO RISSON",
+      "vendedor": "WILLIAM ALVES DA SILVA",
       "gerente": "FERNANDO RISSON",
       "supervisor": "FERNANDO RISSON",
       "chaves_rca": [
-        "MG-MGON-343.0",
-        "MG-MGON-349"
+        "MG-MGON-349",
+        "MG-MGON-343.0"
       ],
       "por_industria": [
         {
@@ -422944,12 +422974,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "EMPORIO SAO PAULO",
       "bairro": "VILA NOVA CONCEICAO",
       "ramo": "MERCADO",
-      "vendedor": "BRYAN PALOPOLI",
+      "vendedor": "WILLIAM GONCALVES",
       "gerente": "MARCUS TANAMACHI",
-      "supervisor": "MARCUS TANAMACHI",
+      "supervisor": "ANDERSON CANAVEIS",
       "chaves_rca": [
-        "SP-SPON-399",
-        "SP-SPON-512.0"
+        "SP-SPON-512.0",
+        "SP-SPON-399"
       ],
       "por_industria": [
         {
@@ -432567,12 +432597,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "ORGANIZACOES PAIS FILHOS",
       "bairro": "INDUSTRIAL",
       "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "vendedor": "FERNANDO RISSON",
+      "vendedor": "WILLIAM ALVES DA SILVA",
       "gerente": "FERNANDO RISSON",
       "supervisor": "FERNANDO RISSON",
       "chaves_rca": [
-        "MG-MGON-343.0",
-        "MG-MGON-349"
+        "MG-MGON-349",
+        "MG-MGON-343.0"
       ],
       "por_industria": [
         {
@@ -437368,12 +437398,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "ORGANIZACOES PAIS & FILHOS LTDA",
       "bairro": "BENFICA",
       "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "vendedor": "FERNANDO RISSON",
+      "vendedor": "WILLIAM ALVES DA SILVA",
       "gerente": "FERNANDO RISSON",
       "supervisor": "FERNANDO RISSON",
       "chaves_rca": [
-        "MG-MGON-343.0",
-        "MG-MGON-349"
+        "MG-MGON-349",
+        "MG-MGON-343.0"
       ],
       "por_industria": [
         {
@@ -437854,12 +437884,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "ORGANIZACOES PAIS FILHOS",
       "bairro": "PAINEIRAS",
       "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "vendedor": "FERNANDO RISSON",
+      "vendedor": "WILLIAM ALVES DA SILVA",
       "gerente": "FERNANDO RISSON",
       "supervisor": "FERNANDO RISSON",
       "chaves_rca": [
-        "MG-MGON-343.0",
-        "MG-MGON-349"
+        "MG-MGON-349",
+        "MG-MGON-343.0"
       ],
       "por_industria": [
         {
@@ -446916,12 +446946,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "ORGANIZACOES PAIS FILHOS",
       "bairro": "NOVA ERA",
       "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "vendedor": "FERNANDO RISSON",
+      "vendedor": "WILLIAM ALVES DA SILVA",
       "gerente": "FERNANDO RISSON",
       "supervisor": "FERNANDO RISSON",
       "chaves_rca": [
-        "MG-MGON-343.0",
-        "MG-MGON-349"
+        "MG-MGON-349",
+        "MG-MGON-343.0"
       ],
       "por_industria": [
         {
@@ -467970,12 +468000,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "FORNERIA ORIGINAL COZINHA - CAMORIM",
       "bairro": "CAMORIM",
       "ramo": "MERCADO",
-      "vendedor": "GISELLE BARFER",
-      "gerente": "DANIEL DINIZ",
-      "supervisor": "DANIEL DINIZ",
+      "vendedor": "DIOGO RAPOSO",
+      "gerente": "ALLAN PAES",
+      "supervisor": "DANIELLE MOURA",
       "chaves_rca": [
-        "RJ-CRC-159.0",
-        "RJ-CRC-144"
+        "RJ-CRC-144",
+        "RJ-CRC-159.0"
       ],
       "por_industria": [
         {
@@ -476019,12 +476049,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "DISTRIBUIDORA CAMPOS",
       "bairro": "PONTILHAO",
       "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "vendedor": "FERNANDO RISSON",
+      "vendedor": "WILLIAM ALVES DA SILVA",
       "gerente": "FERNANDO RISSON",
       "supervisor": "FERNANDO RISSON",
       "chaves_rca": [
-        "MG-MGON-343.0",
-        "MG-MGON-349"
+        "MG-MGON-349",
+        "MG-MGON-343.0"
       ],
       "por_industria": [
         {
@@ -482570,12 +482600,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "COMERCIAL ESPERANCA ATACADISTA",
       "bairro": "FONTES",
       "ramo": "MERCADO",
-      "vendedor": "ANDRE SILVA",
+      "vendedor": "ANDERSON CANAVEIS",
       "gerente": "MARCUS TANAMACHI",
       "supervisor": "ANDERSON CANAVEIS",
       "chaves_rca": [
-        "SP-SPON-391.0",
-        "SP-SPON-232"
+        "SP-SPON-232",
+        "SP-SPON-391.0"
       ],
       "por_industria": [
         {
@@ -487121,12 +487151,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "THAYANE MICELE",
       "bairro": "INGÁ",
       "ramo": "BAR",
-      "vendedor": "FERNANDO RISSON",
+      "vendedor": "JOÃO SANTOS",
       "gerente": "FERNANDO RISSON",
       "supervisor": "FERNANDO RISSON",
       "chaves_rca": [
-        "MG-MGON-343.0",
-        "MG-MGON-327"
+        "MG-MGON-327",
+        "MG-MGON-343.0"
       ],
       "por_industria": [
         {
@@ -490185,12 +490215,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "BIG MAIS SUPERMERCADOS",
       "bairro": "VILA ISA",
       "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "vendedor": "FERNANDO RISSON",
+      "vendedor": "JETER LUCIO SOARES",
       "gerente": "FERNANDO RISSON",
       "supervisor": "FERNANDO RISSON",
       "chaves_rca": [
-        "MG-MGON-343.0",
-        "MG-MGON-378"
+        "MG-MGON-378",
+        "MG-MGON-343.0"
       ],
       "por_industria": [
         {
@@ -498953,122 +498983,6 @@ const RAIOX_OPORTUNIDADES_DATA = {
       }
     },
     {
-      "fornecedor": "RED BULL",
-      "estado": "ES",
-      "fat_atual": 210255.01,
-      "fat_mes_anterior": 208751.0,
-      "fat_ano_anterior": 6543.31,
-      "qt_atual": 1217.0,
-      "qt_mes_anterior": 1185.0,
-      "qt_ano_anterior": 95.0,
-      "queda_fat_mes_valor": -1504.01,
-      "queda_fat_ano_valor": -203711.7,
-      "queda_fat_mes_pct": 0.7,
-      "queda_fat_ano_pct": 3113.3,
-      "queda_qt_mes_valor": -32.0,
-      "queda_qt_ano_valor": -1122.0,
-      "queda_qt_mes_pct": 2.7,
-      "queda_qt_ano_pct": 1181.1,
-      "por_vendedor": {
-        "ES-CRC-230": {
-          "fat_atual": 181198.08,
-          "fat_mes_anterior": 129454.36,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 1008.0,
-          "qt_mes_anterior": 721.0,
-          "qt_ano_anterior": 0.0
-        },
-        "ES-CRC-260": {
-          "fat_atual": 58.32,
-          "fat_mes_anterior": 326.92,
-          "fat_ano_anterior": 571.68,
-          "qt_atual": 2.0,
-          "qt_mes_anterior": 2.0,
-          "qt_ano_anterior": 3.0
-        },
-        "ES-CRC-269": {
-          "fat_atual": 25666.77,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 153.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0
-        },
-        "ES-CRC-335": {
-          "fat_atual": 58.32,
-          "fat_mes_anterior": 58.32,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 2.0,
-          "qt_mes_anterior": 2.0,
-          "qt_ano_anterior": 0.0
-        },
-        "ES-CRC-336": {
-          "fat_atual": 204.12,
-          "fat_mes_anterior": 141.8,
-          "fat_ano_anterior": 1569.92,
-          "qt_atual": 7.0,
-          "qt_mes_anterior": 5.0,
-          "qt_ano_anterior": 17.0
-        },
-        "ES-CRC-342": {
-          "fat_atual": 29.16,
-          "fat_mes_anterior": 29.16,
-          "fat_ano_anterior": 619.2,
-          "qt_atual": 1.0,
-          "qt_mes_anterior": 1.0,
-          "qt_ano_anterior": 5.0
-        },
-        "ES-CRC-343": {
-          "fat_atual": 29.16,
-          "fat_mes_anterior": 29.16,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 1.0,
-          "qt_mes_anterior": 1.0,
-          "qt_ano_anterior": 0.0
-        },
-        "ES-CRC-370": {
-          "fat_atual": 174.96,
-          "fat_mes_anterior": 116.64,
-          "fat_ano_anterior": 949.75,
-          "qt_atual": 6.0,
-          "qt_mes_anterior": 4.0,
-          "qt_ano_anterior": 5.0
-        },
-        "ES-CRC-388": {
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 27.16,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 1.0,
-          "qt_ano_anterior": 0.0
-        },
-        "ES-CRC-442": {
-          "fat_atual": 145.8,
-          "fat_mes_anterior": 442.56,
-          "fat_ano_anterior": 1510.84,
-          "qt_atual": 5.0,
-          "qt_mes_anterior": 6.0,
-          "qt_ano_anterior": 14.0
-        },
-        "ES-CRC-458": {
-          "fat_atual": 2690.32,
-          "fat_mes_anterior": 468.6,
-          "fat_ano_anterior": 1321.92,
-          "qt_atual": 32.0,
-          "qt_mes_anterior": 10.0,
-          "qt_ano_anterior": 51.0
-        },
-        "ES-CRC-508": {
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 77656.32,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 432.0,
-          "qt_ano_anterior": 0.0
-        }
-      }
-    },
-    {
       "fornecedor": "BEAM SUNTORY",
       "estado": "ES",
       "fat_atual": 3835.2,
@@ -499436,6 +499350,122 @@ const RAIOX_OPORTUNIDADES_DATA = {
           "fat_ano_anterior": 0.0,
           "qt_atual": 19.0,
           "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0
+        }
+      }
+    },
+    {
+      "fornecedor": "RED BULL",
+      "estado": "ES",
+      "fat_atual": 211932.61,
+      "fat_mes_anterior": 208751.0,
+      "fat_ano_anterior": 6543.31,
+      "qt_atual": 1227.0,
+      "qt_mes_anterior": 1185.0,
+      "qt_ano_anterior": 95.0,
+      "queda_fat_mes_valor": -3181.61,
+      "queda_fat_ano_valor": -205389.3,
+      "queda_fat_mes_pct": 1.5,
+      "queda_fat_ano_pct": 3138.9,
+      "queda_qt_mes_valor": -42.0,
+      "queda_qt_ano_valor": -1132.0,
+      "queda_qt_mes_pct": 3.5,
+      "queda_qt_ano_pct": 1191.6,
+      "por_vendedor": {
+        "ES-CRC-230": {
+          "fat_atual": 181198.08,
+          "fat_mes_anterior": 129454.36,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 1008.0,
+          "qt_mes_anterior": 721.0,
+          "qt_ano_anterior": 0.0
+        },
+        "ES-CRC-260": {
+          "fat_atual": 58.32,
+          "fat_mes_anterior": 326.92,
+          "fat_ano_anterior": 571.68,
+          "qt_atual": 2.0,
+          "qt_mes_anterior": 2.0,
+          "qt_ano_anterior": 3.0
+        },
+        "ES-CRC-269": {
+          "fat_atual": 27344.37,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 163.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0
+        },
+        "ES-CRC-335": {
+          "fat_atual": 58.32,
+          "fat_mes_anterior": 58.32,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 2.0,
+          "qt_mes_anterior": 2.0,
+          "qt_ano_anterior": 0.0
+        },
+        "ES-CRC-336": {
+          "fat_atual": 204.12,
+          "fat_mes_anterior": 141.8,
+          "fat_ano_anterior": 1569.92,
+          "qt_atual": 7.0,
+          "qt_mes_anterior": 5.0,
+          "qt_ano_anterior": 17.0
+        },
+        "ES-CRC-342": {
+          "fat_atual": 29.16,
+          "fat_mes_anterior": 29.16,
+          "fat_ano_anterior": 619.2,
+          "qt_atual": 1.0,
+          "qt_mes_anterior": 1.0,
+          "qt_ano_anterior": 5.0
+        },
+        "ES-CRC-343": {
+          "fat_atual": 29.16,
+          "fat_mes_anterior": 29.16,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 1.0,
+          "qt_mes_anterior": 1.0,
+          "qt_ano_anterior": 0.0
+        },
+        "ES-CRC-370": {
+          "fat_atual": 174.96,
+          "fat_mes_anterior": 116.64,
+          "fat_ano_anterior": 949.75,
+          "qt_atual": 6.0,
+          "qt_mes_anterior": 4.0,
+          "qt_ano_anterior": 5.0
+        },
+        "ES-CRC-388": {
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 27.16,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 1.0,
+          "qt_ano_anterior": 0.0
+        },
+        "ES-CRC-442": {
+          "fat_atual": 145.8,
+          "fat_mes_anterior": 442.56,
+          "fat_ano_anterior": 1510.84,
+          "qt_atual": 5.0,
+          "qt_mes_anterior": 6.0,
+          "qt_ano_anterior": 14.0
+        },
+        "ES-CRC-458": {
+          "fat_atual": 2690.32,
+          "fat_mes_anterior": 468.6,
+          "fat_ano_anterior": 1321.92,
+          "qt_atual": 32.0,
+          "qt_mes_anterior": 10.0,
+          "qt_ano_anterior": 51.0
+        },
+        "ES-CRC-508": {
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 77656.32,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 432.0,
           "qt_ano_anterior": 0.0
         }
       }
@@ -500719,20 +500749,20 @@ const RAIOX_OPORTUNIDADES_DATA = {
     {
       "fornecedor": "DON LUIZ",
       "estado": "MG",
-      "fat_atual": 53980.1,
+      "fat_atual": 53800.4,
       "fat_mes_anterior": 32757.6,
       "fat_ano_anterior": 28546.82,
-      "qt_atual": 853.0,
+      "qt_atual": 850.0,
       "qt_mes_anterior": 474.0,
       "qt_ano_anterior": 436.0,
-      "queda_fat_mes_valor": -21222.5,
-      "queda_fat_ano_valor": -25433.28,
-      "queda_fat_mes_pct": 64.8,
-      "queda_fat_ano_pct": 89.1,
-      "queda_qt_mes_valor": -379.0,
-      "queda_qt_ano_valor": -417.0,
-      "queda_qt_mes_pct": 80.0,
-      "queda_qt_ano_pct": 95.6,
+      "queda_fat_mes_valor": -21042.8,
+      "queda_fat_ano_valor": -25253.58,
+      "queda_fat_mes_pct": 64.2,
+      "queda_fat_ano_pct": 88.5,
+      "queda_qt_mes_valor": -376.0,
+      "queda_qt_ano_valor": -414.0,
+      "queda_qt_mes_pct": 79.3,
+      "queda_qt_ano_pct": 95.0,
       "por_vendedor": {
         "MG-MGON-327": {
           "fat_atual": 179.7,
@@ -500759,10 +500789,10 @@ const RAIOX_OPORTUNIDADES_DATA = {
           "qt_ano_anterior": 3.0
         },
         "MG-MGON-354": {
-          "fat_atual": 2665.8,
+          "fat_atual": 2486.1,
           "fat_mes_anterior": 4718.7,
           "fat_ano_anterior": 0.0,
-          "qt_atual": 42.0,
+          "qt_atual": 39.0,
           "qt_mes_anterior": 63.0,
           "qt_ano_anterior": 0.0
         },
@@ -501339,26 +501369,26 @@ const RAIOX_OPORTUNIDADES_DATA = {
     {
       "fornecedor": "PERNOD",
       "estado": "ES",
-      "fat_atual": 44818.0,
+      "fat_atual": 44951.2,
       "fat_mes_anterior": 17416.92,
       "fat_ano_anterior": 11593.92,
-      "qt_atual": 622.0,
+      "qt_atual": 623.0,
       "qt_mes_anterior": 384.0,
       "qt_ano_anterior": 196.0,
-      "queda_fat_mes_valor": -27401.08,
-      "queda_fat_ano_valor": -33224.08,
-      "queda_fat_mes_pct": 157.3,
-      "queda_fat_ano_pct": 286.6,
-      "queda_qt_mes_valor": -238.0,
-      "queda_qt_ano_valor": -426.0,
-      "queda_qt_mes_pct": 62.0,
-      "queda_qt_ano_pct": 217.3,
+      "queda_fat_mes_valor": -27534.28,
+      "queda_fat_ano_valor": -33357.28,
+      "queda_fat_mes_pct": 158.1,
+      "queda_fat_ano_pct": 287.7,
+      "queda_qt_mes_valor": -239.0,
+      "queda_qt_ano_valor": -427.0,
+      "queda_qt_mes_pct": 62.2,
+      "queda_qt_ano_pct": 217.9,
       "por_vendedor": {
         "ES-CRC-269": {
-          "fat_atual": 696.36,
+          "fat_atual": 829.56,
           "fat_mes_anterior": 0.0,
           "fat_ano_anterior": 0.0,
-          "qt_atual": 12.0,
+          "qt_atual": 13.0,
           "qt_mes_anterior": 0.0,
           "qt_ano_anterior": 0.0
         },
@@ -503707,20 +503737,20 @@ const RAIOX_OPORTUNIDADES_DATA = {
     {
       "fornecedor": "DIAGEO",
       "estado": "MG",
-      "fat_atual": 828437.84,
+      "fat_atual": 828308.0,
       "fat_mes_anterior": 121727.46,
       "fat_ano_anterior": 4642.4,
-      "qt_atual": 13049.0,
+      "qt_atual": 13048.0,
       "qt_mes_anterior": 1936.0,
       "qt_ano_anterior": 136.0,
-      "queda_fat_mes_valor": -706710.38,
-      "queda_fat_ano_valor": -823795.44,
-      "queda_fat_mes_pct": 580.6,
-      "queda_fat_ano_pct": 17745.0,
-      "queda_qt_mes_valor": -11113.0,
-      "queda_qt_ano_valor": -12913.0,
+      "queda_fat_mes_valor": -706580.54,
+      "queda_fat_ano_valor": -823665.6,
+      "queda_fat_mes_pct": 580.5,
+      "queda_fat_ano_pct": 17742.2,
+      "queda_qt_mes_valor": -11112.0,
+      "queda_qt_ano_valor": -12912.0,
       "queda_qt_mes_pct": 574.0,
-      "queda_qt_ano_pct": 9494.9,
+      "queda_qt_ano_pct": 9494.1,
       "por_vendedor": {
         "MG-MGON-327": {
           "fat_atual": 19339.18,
@@ -503763,10 +503793,10 @@ const RAIOX_OPORTUNIDADES_DATA = {
           "qt_ano_anterior": 120.0
         },
         "MG-MGON-354": {
-          "fat_atual": 46855.14,
+          "fat_atual": 46725.3,
           "fat_mes_anterior": 35909.68,
           "fat_ano_anterior": 0.0,
-          "qt_atual": 873.0,
+          "qt_atual": 872.0,
           "qt_mes_anterior": 677.0,
           "qt_ano_anterior": 0.0
         },
@@ -555068,6 +555098,35 @@ const RAIOX_OPORTUNIDADES_DATA = {
       }
     },
     {
+      "produto": "VODKA ABSOLUT CX C/ 12X 50ML",
+      "fornecedor": "PERNOD",
+      "estado": "ES",
+      "fat_atual": 133.2,
+      "fat_mes_anterior": 0.0,
+      "fat_ano_anterior": 0.0,
+      "qt_atual": 1.0,
+      "qt_mes_anterior": 0.0,
+      "qt_ano_anterior": 0.0,
+      "queda_fat_mes_valor": -133.2,
+      "queda_fat_ano_valor": -133.2,
+      "queda_fat_mes_pct": null,
+      "queda_fat_ano_pct": null,
+      "queda_qt_mes_valor": -1.0,
+      "queda_qt_ano_valor": -1.0,
+      "queda_qt_mes_pct": null,
+      "queda_qt_ano_pct": null,
+      "por_vendedor": {
+        "ES-CRC-269": {
+          "fat_atual": 133.2,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 1.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0
+        }
+      }
+    },
+    {
       "produto": "VINHO FOODKILLER CARMENERE 750ML",
       "fornecedor": "CASTAS",
       "estado": "RJ",
@@ -561282,6 +561341,35 @@ const RAIOX_OPORTUNIDADES_DATA = {
       }
     },
     {
+      "produto": "SMIRNOFF ICE RASPBERRY -24 UNIDADES (LN)",
+      "fornecedor": "DIAGEO",
+      "estado": "MG",
+      "fat_atual": 403.2,
+      "fat_mes_anterior": 0.0,
+      "fat_ano_anterior": 0.0,
+      "qt_atual": 3.0,
+      "qt_mes_anterior": 0.0,
+      "qt_ano_anterior": 0.0,
+      "queda_fat_mes_valor": -403.2,
+      "queda_fat_ano_valor": -403.2,
+      "queda_fat_mes_pct": null,
+      "queda_fat_ano_pct": null,
+      "queda_qt_mes_valor": -3.0,
+      "queda_qt_ano_valor": -3.0,
+      "queda_qt_mes_pct": null,
+      "queda_qt_ano_pct": null,
+      "por_vendedor": {
+        "MG-MGON-327": {
+          "fat_atual": 403.2,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 3.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0
+        }
+      }
+    },
+    {
       "produto": "CACHACA YPIOCA BRASILIZAR EMP OURO 965ML",
       "fornecedor": "DIAGEO",
       "estado": "SP",
@@ -563244,43 +563332,6 @@ const RAIOX_OPORTUNIDADES_DATA = {
           "qt_atual": 11.0,
           "qt_mes_anterior": 5.0,
           "qt_ano_anterior": 14.0
-        }
-      }
-    },
-    {
-      "produto": "SMIRNOFF ICE RASPBERRY -24 UNIDADES (LN)",
-      "fornecedor": "DIAGEO",
-      "estado": "MG",
-      "fat_atual": 533.04,
-      "fat_mes_anterior": 0.0,
-      "fat_ano_anterior": 0.0,
-      "qt_atual": 4.0,
-      "qt_mes_anterior": 0.0,
-      "qt_ano_anterior": 0.0,
-      "queda_fat_mes_valor": -533.04,
-      "queda_fat_ano_valor": -533.04,
-      "queda_fat_mes_pct": null,
-      "queda_fat_ano_pct": null,
-      "queda_qt_mes_valor": -4.0,
-      "queda_qt_ano_valor": -4.0,
-      "queda_qt_mes_pct": null,
-      "queda_qt_ano_pct": null,
-      "por_vendedor": {
-        "MG-MGON-327": {
-          "fat_atual": 403.2,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 3.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0
-        },
-        "MG-MGON-354": {
-          "fat_atual": 129.84,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 1.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0
         }
       }
     },
@@ -586701,18 +586752,18 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "produto": "COQUETEL ALCOÓLICO DON CREAM DULCE DE LE",
       "fornecedor": "DON LUIZ",
       "estado": "MG",
-      "fat_atual": 41524.2,
+      "fat_atual": 41344.5,
       "fat_mes_anterior": 0.0,
       "fat_ano_anterior": 0.0,
-      "qt_atual": 662.0,
+      "qt_atual": 659.0,
       "qt_mes_anterior": 0.0,
       "qt_ano_anterior": 0.0,
-      "queda_fat_mes_valor": -41524.2,
-      "queda_fat_ano_valor": -41524.2,
+      "queda_fat_mes_valor": -41344.5,
+      "queda_fat_ano_valor": -41344.5,
       "queda_fat_mes_pct": null,
       "queda_fat_ano_pct": null,
-      "queda_qt_mes_valor": -662.0,
-      "queda_qt_ano_valor": -662.0,
+      "queda_qt_mes_valor": -659.0,
+      "queda_qt_ano_valor": -659.0,
       "queda_qt_mes_pct": null,
       "queda_qt_ano_pct": null,
       "por_vendedor": {
@@ -586741,10 +586792,10 @@ const RAIOX_OPORTUNIDADES_DATA = {
           "qt_ano_anterior": 0.0
         },
         "MG-MGON-354": {
-          "fat_atual": 2216.4,
+          "fat_atual": 2036.7,
           "fat_mes_anterior": 0.0,
           "fat_ano_anterior": 0.0,
-          "qt_atual": 36.0,
+          "qt_atual": 33.0,
           "qt_mes_anterior": 0.0,
           "qt_ano_anterior": 0.0
         },
@@ -586913,67 +586964,6 @@ const RAIOX_OPORTUNIDADES_DATA = {
           "fat_ano_anterior": 0.0,
           "qt_atual": 6.0,
           "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0
-        }
-      }
-    },
-    {
-      "produto": "RED BULL 24X250ML",
-      "fornecedor": "RED BULL",
-      "estado": "ES",
-      "fat_atual": 182618.02,
-      "fat_mes_anterior": 129753.12,
-      "fat_ano_anterior": 0.0,
-      "qt_atual": 1027.0,
-      "qt_mes_anterior": 722.0,
-      "qt_ano_anterior": 0.0,
-      "queda_fat_mes_valor": -52864.89,
-      "queda_fat_ano_valor": -182618.02,
-      "queda_fat_mes_pct": 40.7,
-      "queda_fat_ano_pct": null,
-      "queda_qt_mes_valor": -305.0,
-      "queda_qt_ano_valor": -1027.0,
-      "queda_qt_mes_pct": 42.2,
-      "queda_qt_ano_pct": null,
-      "por_vendedor": {
-        "ES-CRC-230": {
-          "fat_atual": 155312.64,
-          "fat_mes_anterior": 77656.32,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 864.0,
-          "qt_mes_anterior": 432.0,
-          "qt_ano_anterior": 0.0
-        },
-        "ES-CRC-260": {
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 162.96,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 1.0,
-          "qt_ano_anterior": 0.0
-        },
-        "ES-CRC-269": {
-          "fat_atual": 25499.01,
-          "fat_mes_anterior": 0.0,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 152.0,
-          "qt_mes_anterior": 0.0,
-          "qt_ano_anterior": 0.0
-        },
-        "ES-CRC-458": {
-          "fat_atual": 1806.36,
-          "fat_mes_anterior": 162.96,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 11.0,
-          "qt_mes_anterior": 1.0,
-          "qt_ano_anterior": 0.0
-        },
-        "ES-CRC-508": {
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 51770.88,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 288.0,
           "qt_ano_anterior": 0.0
         }
       }
@@ -587293,6 +587283,67 @@ const RAIOX_OPORTUNIDADES_DATA = {
           "fat_ano_anterior": 0.0,
           "qt_atual": 17.0,
           "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0
+        }
+      }
+    },
+    {
+      "produto": "RED BULL 24X250ML",
+      "fornecedor": "RED BULL",
+      "estado": "ES",
+      "fat_atual": 184295.62,
+      "fat_mes_anterior": 129753.12,
+      "fat_ano_anterior": 0.0,
+      "qt_atual": 1037.0,
+      "qt_mes_anterior": 722.0,
+      "qt_ano_anterior": 0.0,
+      "queda_fat_mes_valor": -54542.49,
+      "queda_fat_ano_valor": -184295.62,
+      "queda_fat_mes_pct": 42.0,
+      "queda_fat_ano_pct": null,
+      "queda_qt_mes_valor": -315.0,
+      "queda_qt_ano_valor": -1037.0,
+      "queda_qt_mes_pct": 43.6,
+      "queda_qt_ano_pct": null,
+      "por_vendedor": {
+        "ES-CRC-230": {
+          "fat_atual": 155312.64,
+          "fat_mes_anterior": 77656.32,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 864.0,
+          "qt_mes_anterior": 432.0,
+          "qt_ano_anterior": 0.0
+        },
+        "ES-CRC-260": {
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 162.96,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 1.0,
+          "qt_ano_anterior": 0.0
+        },
+        "ES-CRC-269": {
+          "fat_atual": 27176.61,
+          "fat_mes_anterior": 0.0,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 162.0,
+          "qt_mes_anterior": 0.0,
+          "qt_ano_anterior": 0.0
+        },
+        "ES-CRC-458": {
+          "fat_atual": 1806.36,
+          "fat_mes_anterior": 162.96,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 11.0,
+          "qt_mes_anterior": 1.0,
+          "qt_ano_anterior": 0.0
+        },
+        "ES-CRC-508": {
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 51770.88,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 288.0,
           "qt_ano_anterior": 0.0
         }
       }
