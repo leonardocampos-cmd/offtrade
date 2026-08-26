@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "25/08/2026 18:28",
-  "total": 25523,
+  "atualizado_em": "26/08/2026 10:42",
+  "total": 25525,
   "clientes": [
     {
       "codcli": "38586",
@@ -4318,8 +4318,8 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "SUELY SANTOS - OFF TRADE",
       "codusur2": "346",
       "nome_usur2": "ARLEN SOARES",
-      "ultimo_rca": "346",
-      "ultimo_rca_nome": "ARLEN SOARES",
+      "ultimo_rca": "461",
+      "ultimo_rca_nome": "SUELY SANTOS - OFF TRADE",
       "ultimo_rca_ot": "461",
       "ultimo_rca_ot_nome": "SUELY SANTOS - OFF TRADE"
     },
@@ -22644,6 +22644,26 @@ const CLIENTES_RCA_DATA = {
       "ultimo_rca_ot_nome": ""
     },
     {
+      "codcli": "52687",
+      "razao": "50.663.733 MOISES COIMBRA DA SILVA",
+      "fantasia": "MOISES COIMBRA DA SILVA",
+      "bairro": "ARARIBÁ",
+      "cidade": "UBATUBA",
+      "cnpj": "50.663.733/0001-84",
+      "estado": "SP",
+      "ramo": "MINI-MERCADO",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "516",
+      "nome_usur1": "JOAQUIM ANGELO - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": "",
+      "ultimo_rca": "",
+      "ultimo_rca_nome": "",
+      "ultimo_rca_ot": "",
+      "ultimo_rca_ot_nome": ""
+    },
+    {
       "codcli": "38510",
       "razao": "50.665.762 BRENO PARREIRAS DE AMORIM",
       "fantasia": "50.665.762 BRENO PARREIRAS DE AMORIM",
@@ -34678,10 +34698,10 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "RONALDO BASSI - OFF TRADE",
       "codusur2": "",
       "nome_usur2": "",
-      "ultimo_rca": "",
-      "ultimo_rca_nome": "",
-      "ultimo_rca_ot": "",
-      "ultimo_rca_ot_nome": ""
+      "ultimo_rca": "523",
+      "ultimo_rca_nome": "RONALDO BASSI - OFF TRADE",
+      "ultimo_rca_ot": "523",
+      "ultimo_rca_ot_nome": "RONALDO BASSI - OFF TRADE"
     },
     {
       "codcli": "90232",
@@ -44518,10 +44538,10 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "DIOGO RAPOSO - OFF TRADE",
       "codusur2": "",
       "nome_usur2": "",
-      "ultimo_rca": "",
-      "ultimo_rca_nome": "",
-      "ultimo_rca_ot": "",
-      "ultimo_rca_ot_nome": ""
+      "ultimo_rca": "144",
+      "ultimo_rca_nome": "DIOGO RAPOSO - OFF TRADE",
+      "ultimo_rca_ot": "144",
+      "ultimo_rca_ot_nome": "DIOGO RAPOSO - OFF TRADE"
     },
     {
       "codcli": "95777",
@@ -80278,10 +80298,10 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "ADEILSON GONÇALVEZ - OFF TRADE",
       "codusur2": "",
       "nome_usur2": "",
-      "ultimo_rca": "412",
-      "ultimo_rca_nome": "BARBARA CABRAL - OFF TRADE",
-      "ultimo_rca_ot": "412",
-      "ultimo_rca_ot_nome": "BARBARA CABRAL - OFF TRADE"
+      "ultimo_rca": "431",
+      "ultimo_rca_nome": "ADEILSON GONÇALVEZ - OFF TRADE",
+      "ultimo_rca_ot": "431",
+      "ultimo_rca_ot_nome": "ADEILSON GONÇALVEZ - OFF TRADE"
     },
     {
       "codcli": "76946",
@@ -114524,6 +114544,26 @@ const CLIENTES_RCA_DATA = {
       "ultimo_rca_ot_nome": ""
     },
     {
+      "codcli": "23530",
+      "razao": "BUMBU BAR E RESTAURANTE EIRELI - ME",
+      "fantasia": "BUMBU BAR E RESTAURANTE",
+      "bairro": "PARQUE CAMPOLIM",
+      "cidade": "SOROCABA",
+      "cnpj": "21.765.412/0001-92",
+      "estado": "SP",
+      "ramo": "BAR",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "510",
+      "nome_usur1": "ROSANA AFFONSO - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": "",
+      "ultimo_rca": "",
+      "ultimo_rca_nome": "",
+      "ultimo_rca_ot": "",
+      "ultimo_rca_ot_nome": ""
+    },
+    {
       "codcli": "82122",
       "razao": "BUNGALOW PIZZARIA E RESTAURANTE LTDA",
       "fantasia": "BUNGALOW PIZZARIA E RESTAURANTE",
@@ -114860,26 +114900,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "",
       "ultimo_rca": "92",
       "ultimo_rca_nome": "AUGUSTO SILVA",
-      "ultimo_rca_ot": "",
-      "ultimo_rca_ot_nome": ""
-    },
-    {
-      "codcli": "61073",
-      "razao": "BUSINESS RIO COMERCIO DE GENEROS ALIMENTICIOS LTDA",
-      "fantasia": "O FADO",
-      "bairro": "BARRA DA TIJUCA",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "18.196.392/0020-34",
-      "estado": "RJ",
-      "ramo": "RESTAURANTE",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": "",
-      "ultimo_rca": "",
-      "ultimo_rca_nome": "",
       "ultimo_rca_ot": "",
       "ultimo_rca_ot_nome": ""
     },
@@ -116838,10 +116858,10 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "JOAO AUGUSTO -  OFF TRADE",
       "codusur2": "",
       "nome_usur2": "",
-      "ultimo_rca": "",
-      "ultimo_rca_nome": "",
-      "ultimo_rca_ot": "",
-      "ultimo_rca_ot_nome": ""
+      "ultimo_rca": "507",
+      "ultimo_rca_nome": "JOAO AUGUSTO -  OFF TRADE",
+      "ultimo_rca_ot": "507",
+      "ultimo_rca_ot_nome": "JOAO AUGUSTO -  OFF TRADE"
     },
     {
       "codcli": "87821",
@@ -138944,26 +138964,6 @@ const CLIENTES_RCA_DATA = {
       "ultimo_rca_ot_nome": ""
     },
     {
-      "codcli": "7350",
-      "razao": "CHURRASCARIA MAJORICA LTDA",
-      "fantasia": "CHURRASCARIA MAJORICA",
-      "bairro": "BOTAFOGO",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "33.331.976/0001-04",
-      "estado": "RJ",
-      "ramo": "RESTAURANTE",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": "",
-      "ultimo_rca": "167",
-      "ultimo_rca_nome": "JULIANA MARCAL",
-      "ultimo_rca_ot": "",
-      "ultimo_rca_ot_nome": ""
-    },
-    {
       "codcli": "31049",
       "razao": "CHURRASCARIA MOINHO II LTDA.",
       "fantasia": "CHURRASCARIA MOINHO II LTDA.",
@@ -146038,8 +146038,8 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "W.S",
       "codusur2": "",
       "nome_usur2": "",
-      "ultimo_rca": "547",
-      "ultimo_rca_nome": "TLR",
+      "ultimo_rca": "588",
+      "ultimo_rca_nome": "W.S",
       "ultimo_rca_ot": "",
       "ultimo_rca_ot_nome": ""
     },
@@ -158624,26 +158624,6 @@ const CLIENTES_RCA_DATA = {
       "ultimo_rca_ot_nome": ""
     },
     {
-      "codcli": "36771",
-      "razao": "D'SKINA CAFE E RESTAURANTE LTDA",
-      "fantasia": "D'SKINA CAFE E RESTAURANTE LTDA",
-      "bairro": "CRUZEIRO",
-      "cidade": "BELO HORIZONTE",
-      "cnpj": "46.745.945/0001-33",
-      "estado": "MG",
-      "ramo": "RESTAURANTE",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO",
-      "codusur2": "",
-      "nome_usur2": "",
-      "ultimo_rca": "344",
-      "ultimo_rca_nome": "TIAGO ANDRADE - OFF TRADE",
-      "ultimo_rca_ot": "344",
-      "ultimo_rca_ot_nome": "TIAGO ANDRADE - OFF TRADE"
-    },
-    {
       "codcli": "94404",
       "razao": "D+MERCADO COMERCIO EM ALIMENTOS E BEBIDAS LTDA",
       "fantasia": "D+MERCADO",
@@ -170858,8 +170838,8 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "CAMILA ANTUNES",
       "codusur2": "343",
       "nome_usur2": "FERNANDO RISSON - OFF TRADE",
-      "ultimo_rca": "437",
-      "ultimo_rca_nome": "BEES",
+      "ultimo_rca": "352",
+      "ultimo_rca_nome": "CAMILA ANTUNES",
       "ultimo_rca_ot": "",
       "ultimo_rca_ot_nome": ""
     },
@@ -171478,8 +171458,8 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "W.S",
       "codusur2": "",
       "nome_usur2": "",
-      "ultimo_rca": "1",
-      "ultimo_rca_nome": "RQ",
+      "ultimo_rca": "588",
+      "ultimo_rca_nome": "W.S",
       "ultimo_rca_ot": "",
       "ultimo_rca_ot_nome": ""
     },
@@ -175778,10 +175758,10 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "JETER LUCIO SOARES - OFF TRADE",
       "codusur2": "",
       "nome_usur2": "",
-      "ultimo_rca": "",
-      "ultimo_rca_nome": "",
-      "ultimo_rca_ot": "",
-      "ultimo_rca_ot_nome": ""
+      "ultimo_rca": "378",
+      "ultimo_rca_nome": "JETER LUCIO SOARES - OFF TRADE",
+      "ultimo_rca_ot": "378",
+      "ultimo_rca_ot_nome": "JETER LUCIO SOARES - OFF TRADE"
     },
     {
       "codcli": "90646",
@@ -186858,10 +186838,10 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "RODRIGO LIMA - OFF TRADE",
       "codusur2": "",
       "nome_usur2": "",
-      "ultimo_rca": "",
-      "ultimo_rca_nome": "",
-      "ultimo_rca_ot": "",
-      "ultimo_rca_ot_nome": ""
+      "ultimo_rca": "476",
+      "ultimo_rca_nome": "RODRIGO LIMA - OFF TRADE",
+      "ultimo_rca_ot": "476",
+      "ultimo_rca_ot_nome": "RODRIGO LIMA - OFF TRADE"
     },
     {
       "codcli": "37263",
@@ -222758,8 +222738,8 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "LEANDRO SOUZA - OFF TRADE",
       "codusur2": "",
       "nome_usur2": "",
-      "ultimo_rca": "450",
-      "ultimo_rca_nome": "LEANDRO SOUZA - OFF TRADE",
+      "ultimo_rca": "",
+      "ultimo_rca_nome": "",
       "ultimo_rca_ot": "450",
       "ultimo_rca_ot_nome": "LEANDRO SOUZA - OFF TRADE"
     },
@@ -258784,26 +258764,6 @@ const CLIENTES_RCA_DATA = {
       "ultimo_rca_ot_nome": ""
     },
     {
-      "codcli": "80533",
-      "razao": "JAVA VEICULOS LTDA",
-      "fantasia": "JAVA VEICULOS",
-      "bairro": "PLANALTO DE CARAPINA",
-      "cidade": "SERRA",
-      "cnpj": "50.723.123/0001-29",
-      "estado": "ES",
-      "ramo": "OUTROS",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "190",
-      "nome_usur2": "ROMARIO DOS SANTOS",
-      "ultimo_rca": "189",
-      "ultimo_rca_nome": "LUIZ ANTONIO",
-      "ultimo_rca_ot": "",
-      "ultimo_rca_ot_nome": ""
-    },
-    {
       "codcli": "68617",
       "razao": "JAVALIS & NOGELO CONVENIENCIA GROUP LTDA",
       "fantasia": "JAVALIS DELIVERY & DEPOSITO",
@@ -288158,10 +288118,10 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "JORGE MACIEL - OFF TRADE",
       "codusur2": "174",
       "nome_usur2": "ALLAN PAES - OFF TRADE",
-      "ultimo_rca": "379",
-      "ultimo_rca_nome": "JORGE MACIEL - OFF TRADE",
-      "ultimo_rca_ot": "379",
-      "ultimo_rca_ot_nome": "JORGE MACIEL - OFF TRADE"
+      "ultimo_rca": "174",
+      "ultimo_rca_nome": "ALLAN PAES - OFF TRADE",
+      "ultimo_rca_ot": "174",
+      "ultimo_rca_ot_nome": "ALLAN PAES - OFF TRADE"
     },
     {
       "codcli": "29901",
@@ -309118,10 +309078,10 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "JETER LUCIO SOARES - OFF TRADE",
       "codusur2": "",
       "nome_usur2": "",
-      "ultimo_rca": "319",
-      "ultimo_rca_nome": "FABIANO MOURA",
-      "ultimo_rca_ot": "",
-      "ultimo_rca_ot_nome": ""
+      "ultimo_rca": "378",
+      "ultimo_rca_nome": "JETER LUCIO SOARES - OFF TRADE",
+      "ultimo_rca_ot": "378",
+      "ultimo_rca_ot_nome": "JETER LUCIO SOARES - OFF TRADE"
     },
     {
       "codcli": "39816",
@@ -311880,6 +311840,26 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "",
       "ultimo_rca": "310",
       "ultimo_rca_nome": "SANDRO SOARES",
+      "ultimo_rca_ot": "",
+      "ultimo_rca_ot_nome": ""
+    },
+    {
+      "codcli": "50201",
+      "razao": "MANOEL DE FREITAS- MERCADINHO",
+      "fantasia": "MINI MERCADO FREITAS",
+      "bairro": "CHACARA SANTA ETELVINA",
+      "cidade": "SAO PAULO",
+      "cnpj": "58.052.507/0002-50",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "468",
+      "nome_usur1": "RENATO JUNIOR - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": "",
+      "ultimo_rca": "",
+      "ultimo_rca_nome": "",
       "ultimo_rca_ot": "",
       "ultimo_rca_ot_nome": ""
     },
@@ -329064,6 +329044,26 @@ const CLIENTES_RCA_DATA = {
       "ultimo_rca_ot_nome": ""
     },
     {
+      "codcli": "52678",
+      "razao": "MEGA MAIS MERCADO LTDA",
+      "fantasia": "MEGA MAIS MERCADO",
+      "bairro": "RUDGE RAMOS",
+      "cidade": "SAO BERNARDO DO CAMPO",
+      "cnpj": "55.768.610/0001-21",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "514",
+      "nome_usur1": "HELENA CAVALCANTI - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": "",
+      "ultimo_rca": "",
+      "ultimo_rca_nome": "",
+      "ultimo_rca_ot": "",
+      "ultimo_rca_ot_nome": ""
+    },
+    {
       "codcli": "64353",
       "razao": "MEGA MAX COMERCIO DE BEBIDAS E ALIMENTOS LTDA",
       "fantasia": "MEGA MAX",
@@ -338838,10 +338838,10 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "FABIO VALOTTI - OFF TRADE",
       "codusur2": "",
       "nome_usur2": "",
-      "ultimo_rca": "",
-      "ultimo_rca_nome": "",
-      "ultimo_rca_ot": "",
-      "ultimo_rca_ot_nome": ""
+      "ultimo_rca": "378",
+      "ultimo_rca_nome": "FABIO VALOTTI - OFF TRADE",
+      "ultimo_rca_ot": "378",
+      "ultimo_rca_ot_nome": "FABIO VALOTTI - OFF TRADE"
     },
     {
       "codcli": "67754",
@@ -342498,8 +342498,8 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "JORGE MACIEL - OFF TRADE",
       "codusur2": "",
       "nome_usur2": "",
-      "ultimo_rca": "379",
-      "ultimo_rca_nome": "JORGE MACIEL - OFF TRADE",
+      "ultimo_rca": "",
+      "ultimo_rca_nome": "",
       "ultimo_rca_ot": "379",
       "ultimo_rca_ot_nome": "JORGE MACIEL - OFF TRADE"
     },
@@ -354978,8 +354978,8 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "ICARO DA SILVA",
       "codusur2": "588",
       "nome_usur2": "W.S",
-      "ultimo_rca": "426",
-      "ultimo_rca_nome": "ADER ALONSO - OFF TRADE",
+      "ultimo_rca": "345",
+      "ultimo_rca_nome": "ICARO DA SILVA",
       "ultimo_rca_ot": "426",
       "ultimo_rca_ot_nome": "ADER ALONSO - OFF TRADE"
     },
@@ -397138,10 +397138,10 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "ADEILSON GONÇALVEZ - OFF TRADE",
       "codusur2": "238",
       "nome_usur2": "DANIELLE MOURA - OFF TRADE",
-      "ultimo_rca": "412",
-      "ultimo_rca_nome": "BARBARA CABRAL - OFF TRADE",
-      "ultimo_rca_ot": "412",
-      "ultimo_rca_ot_nome": "BARBARA CABRAL - OFF TRADE"
+      "ultimo_rca": "431",
+      "ultimo_rca_nome": "ADEILSON GONÇALVEZ - OFF TRADE",
+      "ultimo_rca_ot": "431",
+      "ultimo_rca_ot_nome": "ADEILSON GONÇALVEZ - OFF TRADE"
     },
     {
       "codcli": "73248",
@@ -425744,6 +425744,26 @@ const CLIENTES_RCA_DATA = {
       "ultimo_rca_ot_nome": ""
     },
     {
+      "codcli": "96183",
+      "razao": "REVOLUCAO COMERCIO PROD FAR LTDA",
+      "fantasia": "DROGARIA REVOLUCAO LTDA",
+      "bairro": "BENTO RIBEIRO",
+      "cidade": "RIO DE JANEIRO",
+      "cnpj": "67.883.681/0001-54",
+      "estado": "RJ",
+      "ramo": "FARMACIA",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "431",
+      "nome_usur1": "ADEILSON GONÇALVEZ - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": "",
+      "ultimo_rca": "",
+      "ultimo_rca_nome": "",
+      "ultimo_rca_ot": "",
+      "ultimo_rca_ot_nome": ""
+    },
+    {
       "codcli": "56256",
       "razao": "REZENDE ALIMENTOS CDD LTDA",
       "fantasia": "REZENDE ALIMENTOS CDD",
@@ -435820,6 +435840,26 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "",
       "ultimo_rca": "437",
       "ultimo_rca_nome": "BEES",
+      "ultimo_rca_ot": "",
+      "ultimo_rca_ot_nome": ""
+    },
+    {
+      "codcli": "96182",
+      "razao": "ROSIMEIRE CORDEIRO ALVES ARRAIAS",
+      "fantasia": "ADEGA ARRAIAS",
+      "bairro": "JARDIM QUARESMEIRA",
+      "cidade": "SUZANO",
+      "cnpj": "20.618.366/0001-36",
+      "estado": "SP",
+      "ramo": "MERCADO",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "510",
+      "nome_usur1": "RENATO JUNIOR - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": "",
+      "ultimo_rca": "",
+      "ultimo_rca_nome": "",
       "ultimo_rca_ot": "",
       "ultimo_rca_ot_nome": ""
     },
@@ -496058,10 +496098,10 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "JETER LUCIO SOARES - OFF TRADE",
       "codusur2": "",
       "nome_usur2": "",
-      "ultimo_rca": "342",
-      "ultimo_rca_nome": "LUIZ OTAVIO BARCELLOS",
-      "ultimo_rca_ot": "",
-      "ultimo_rca_ot_nome": ""
+      "ultimo_rca": "378",
+      "ultimo_rca_nome": "JETER LUCIO SOARES - OFF TRADE",
+      "ultimo_rca_ot": "378",
+      "ultimo_rca_ot_nome": "JETER LUCIO SOARES - OFF TRADE"
     },
     {
       "codcli": "37337",
@@ -496078,10 +496118,10 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "JETER LUCIO SOARES - OFF TRADE",
       "codusur2": "",
       "nome_usur2": "",
-      "ultimo_rca": "342",
-      "ultimo_rca_nome": "LUIZ OTAVIO BARCELLOS",
-      "ultimo_rca_ot": "",
-      "ultimo_rca_ot_nome": ""
+      "ultimo_rca": "378",
+      "ultimo_rca_nome": "JETER LUCIO SOARES - OFF TRADE",
+      "ultimo_rca_ot": "378",
+      "ultimo_rca_ot_nome": "JETER LUCIO SOARES - OFF TRADE"
     },
     {
       "codcli": "83931",
