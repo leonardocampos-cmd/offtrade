@@ -1,5 +1,5 @@
 const CRUSOE_DATA = {
-  "atualizado_em": "25/08/2026 18:18",
+  "atualizado_em": "26/08/2026 10:27",
   "periodo": {
     "ini": "01/07/2026",
     "fim": "31/08/2026"
@@ -654,14 +654,14 @@ const CRUSOE_DATA = {
         {
           "rca": 412,
           "vendedor": "Barbara Cabral",
-          "pedidos": 27,
+          "pedidos": 32,
           "positivacoes": 15,
-          "novos_skus": 116,
-          "faturamento": 44158.93,
+          "novos_skus": 121,
+          "faturamento": 49834.97,
           "pontos_positivacao": 75,
-          "pontos_novos_skus": 464,
-          "pontos_pedidos_valor": 35,
-          "pontos_total": 574,
+          "pontos_novos_skus": 484,
+          "pontos_pedidos_valor": 42,
+          "pontos_total": 601,
           "vendas": [
             {
               "numnota": "408264",
@@ -2432,6 +2432,173 @@ const CRUSOE_DATA = {
                   ]
                 }
               ]
+            },
+            {
+              "numnota": "425003",
+              "data": "25/08/2026",
+              "cliente": "SUPERMERCADOS ADONAI LTDA",
+              "valor_pedido": 968.0,
+              "eventos": [
+                {
+                  "tipo": "pedido (R$500-1000)",
+                  "pontos": 1
+                }
+              ],
+              "itens": [
+                {
+                  "produto": "RC SARDINHA EM OLEO 50X125G",
+                  "qt": 2.0,
+                  "valor": 484.0,
+                  "pontuacoes": []
+                },
+                {
+                  "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
+                  "qt": 2.0,
+                  "valor": 484.0,
+                  "pontuacoes": []
+                }
+              ]
+            },
+            {
+              "numnota": "425004",
+              "data": "25/08/2026",
+              "cliente": "SUPERMERCADOS ADONAI LTDA",
+              "valor_pedido": 1601.28,
+              "eventos": [
+                {
+                  "tipo": "pedido (R$1001-3000)",
+                  "pontos": 2
+                }
+              ],
+              "itens": [
+                {
+                  "produto": "RC SARDINHA EM OLEO 50X125G",
+                  "qt": 3.0,
+                  "valor": 726.0,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 4
+                    }
+                  ]
+                },
+                {
+                  "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
+                  "qt": 3.0,
+                  "valor": 726.0,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 4
+                    }
+                  ]
+                },
+                {
+                  "produto": "RC ATUM RALADO NATURAL 24X140G",
+                  "qt": 1.0,
+                  "valor": 149.28,
+                  "pontuacoes": []
+                }
+              ]
+            },
+            {
+              "numnota": "425005",
+              "data": "25/08/2026",
+              "cliente": "SUPERMERCADOS ADONAI LTDA",
+              "valor_pedido": 1452.0,
+              "eventos": [
+                {
+                  "tipo": "pedido (R$1001-3000)",
+                  "pontos": 2
+                }
+              ],
+              "itens": [
+                {
+                  "produto": "RC SARDINHA EM OLEO 50X125G",
+                  "qt": 3.0,
+                  "valor": 726.0,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 4
+                    }
+                  ]
+                },
+                {
+                  "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
+                  "qt": 3.0,
+                  "valor": 726.0,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 4
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "numnota": "425006",
+              "data": "25/08/2026",
+              "cliente": "SUPERMERCADOS ADONAI LTDA",
+              "valor_pedido": 686.76,
+              "eventos": [
+                {
+                  "tipo": "pedido (R$500-1000)",
+                  "pontos": 1
+                }
+              ],
+              "itens": [
+                {
+                  "produto": "RC SARDINHA EM OLEO 50X125G",
+                  "qt": 1.0,
+                  "valor": 242.0,
+                  "pontuacoes": []
+                },
+                {
+                  "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
+                  "qt": 1.0,
+                  "valor": 242.0,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 4
+                    }
+                  ]
+                },
+                {
+                  "produto": "RC ATUM SOLIDO OLEO 24X170G",
+                  "qt": 1.0,
+                  "valor": 202.76,
+                  "pontuacoes": []
+                }
+              ]
+            },
+            {
+              "numnota": "425007",
+              "data": "25/08/2026",
+              "cliente": "SUPERMERCADOS ADONAI LTDA",
+              "valor_pedido": 968.0,
+              "eventos": [
+                {
+                  "tipo": "pedido (R$500-1000)",
+                  "pontos": 1
+                }
+              ],
+              "itens": [
+                {
+                  "produto": "RC SARDINHA EM OLEO 50X125G",
+                  "qt": 2.0,
+                  "valor": 484.0,
+                  "pontuacoes": []
+                },
+                {
+                  "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
+                  "qt": 2.0,
+                  "valor": 484.0,
+                  "pontuacoes": []
+                }
+              ]
             }
           ]
         },
@@ -4018,16 +4185,111 @@ const CRUSOE_DATA = {
           ]
         },
         {
+          "rca": 471,
+          "vendedor": "Ana Clara Fassano",
+          "pedidos": 3,
+          "positivacoes": 1,
+          "novos_skus": 4,
+          "faturamento": 1549.14,
+          "pontos_positivacao": 5,
+          "pontos_novos_skus": 16,
+          "pontos_pedidos_valor": 1,
+          "pontos_total": 22,
+          "vendas": [
+            {
+              "numnota": "413930",
+              "data": "20/07/2026",
+              "cliente": "D' PLANETA BEBIDAS E COMEST¿VEIS LTDA",
+              "valor_pedido": 417.12,
+              "eventos": [
+                {
+                  "tipo": "positivação (novo/reativação)",
+                  "pontos": 5
+                }
+              ],
+              "itens": [
+                {
+                  "produto": "RC ATUM SOLIDO OLEO 24X170G",
+                  "qt": 2.0,
+                  "valor": 417.12,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 4
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "numnota": "414822",
+              "data": "22/07/2026",
+              "cliente": "MERCADINHO PERNAMBUCO LTDA",
+              "valor_pedido": 383.52,
+              "eventos": [],
+              "itens": [
+                {
+                  "produto": "RC ATUM SOLIDO OLEO 24X170G",
+                  "qt": 2.0,
+                  "valor": 383.52,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 4
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "numnota": "424859",
+              "data": "25/08/2026",
+              "cliente": "MERCADINHO PERNAMBUCO LTDA",
+              "valor_pedido": 748.5,
+              "eventos": [
+                {
+                  "tipo": "pedido (R$500-1000)",
+                  "pontos": 1
+                }
+              ],
+              "itens": [
+                {
+                  "produto": "RC SARDINHA EM OLEO 50X125G",
+                  "qt": 2.0,
+                  "valor": 499.0,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 4
+                    }
+                  ]
+                },
+                {
+                  "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
+                  "qt": 1.0,
+                  "valor": 249.5,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 4
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
           "rca": 144,
           "vendedor": "Diogo Raposo",
-          "pedidos": 5,
+          "pedidos": 6,
           "positivacoes": 1,
           "novos_skus": 2,
-          "faturamento": 12055.2,
+          "faturamento": 12630.15,
           "pontos_positivacao": 5,
           "pontos_novos_skus": 8,
-          "pontos_pedidos_valor": 5,
-          "pontos_total": 18,
+          "pontos_pedidos_valor": 6,
+          "pontos_total": 19,
           "vendas": [
             {
               "numnota": "408373",
@@ -4137,6 +4399,26 @@ const CRUSOE_DATA = {
                   ]
                 }
               ]
+            },
+            {
+              "numnota": "424847",
+              "data": "25/08/2026",
+              "cliente": "CENTRO DE EDUCACAO RELIGIOSA ISRAELITA",
+              "valor_pedido": 574.95,
+              "eventos": [
+                {
+                  "tipo": "pedido (R$500-1000)",
+                  "pontos": 1
+                }
+              ],
+              "itens": [
+                {
+                  "produto": "RC ATUM PEDACOS EM OLEO 24X140G",
+                  "qt": 3.0,
+                  "valor": 574.95,
+                  "pontuacoes": []
+                }
+              ]
             }
           ]
         },
@@ -4223,65 +4505,6 @@ const CRUSOE_DATA = {
                   "produto": "RC ATUM SOLIDO YF EM OLIVA 12X170G",
                   "qt": 1.0,
                   "valor": 133.62,
-                  "pontuacoes": [
-                    {
-                      "tipo": "novo SKU",
-                      "pontos": 4
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "rca": 471,
-          "vendedor": "Ana Clara Fassano",
-          "pedidos": 2,
-          "positivacoes": 1,
-          "novos_skus": 2,
-          "faturamento": 800.64,
-          "pontos_positivacao": 5,
-          "pontos_novos_skus": 8,
-          "pontos_pedidos_valor": 0,
-          "pontos_total": 13,
-          "vendas": [
-            {
-              "numnota": "413930",
-              "data": "20/07/2026",
-              "cliente": "D' PLANETA BEBIDAS E COMEST¿VEIS LTDA",
-              "valor_pedido": 417.12,
-              "eventos": [
-                {
-                  "tipo": "positivação (novo/reativação)",
-                  "pontos": 5
-                }
-              ],
-              "itens": [
-                {
-                  "produto": "RC ATUM SOLIDO OLEO 24X170G",
-                  "qt": 2.0,
-                  "valor": 417.12,
-                  "pontuacoes": [
-                    {
-                      "tipo": "novo SKU",
-                      "pontos": 4
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "numnota": "414822",
-              "data": "22/07/2026",
-              "cliente": "MERCADINHO PERNAMBUCO LTDA",
-              "valor_pedido": 383.52,
-              "eventos": [],
-              "itens": [
-                {
-                  "produto": "RC ATUM SOLIDO OLEO 24X170G",
-                  "qt": 2.0,
-                  "valor": 383.52,
                   "pontuacoes": [
                     {
                       "tipo": "novo SKU",
@@ -4399,7 +4622,7 @@ const CRUSOE_DATA = {
           "rca": 379,
           "vendedor": "Jorge Maciel",
           "clientes_gourmet": 0,
-          "faturamento": 16319.98,
+          "faturamento": 16534.48,
           "faturamento_gourmet": 0.0,
           "pontos_total": 0,
           "vendas": []
@@ -4408,7 +4631,7 @@ const CRUSOE_DATA = {
           "rca": 378,
           "vendedor": "Fabio Valotti",
           "clientes_gourmet": 0,
-          "faturamento": 4964.4,
+          "faturamento": 5363.4,
           "faturamento_gourmet": 0.0,
           "pontos_total": 0,
           "vendas": []
