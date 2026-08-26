@@ -1,25 +1,25 @@
 const METAS_GERAIS_DATA = {
-  "atualizado_em": "26/08/2026 12:11",
+  "atualizado_em": "26/08/2026 14:04",
   "mes": "Ago/26",
   "mes_ant": "Jul/26",
   "dias_corridos": 26,
   "dias_no_mes": 31,
   "dias_restantes": 5,
   "resumo": {
-    "fat": 11593339.43,
+    "fat": 11629611.11,
     "fat_ant": 8940656.83,
     "fat_ant_completo": 13456599.65,
-    "pos": 1571,
+    "pos": 1572,
     "pos_ant": 1584,
     "pos_ant_completo": 1927
   },
   "total": {
     "meta": 12300000.0,
-    "fat": 11593339.43,
+    "fat": 11629611.11,
     "fat_ant": 8940656.83,
     "fat_ant_completo": 13456599.65,
-    "pct": 94.3,
-    "nec_dia": 141332.11
+    "pct": 94.5,
+    "nec_dia": 134077.78
   },
   "estados": [
     {
@@ -65,11 +65,11 @@ const METAS_GERAIS_DATA = {
       "estado": "MG",
       "label": "Minas Gerais",
       "meta": 2100000.0,
-      "fat": 1605733.44,
+      "fat": 1642005.12,
       "fat_ant": 995285.34,
-      "pos": 214,
-      "pct": 76.5,
-      "nec_dia": 98853.31,
+      "pos": 215,
+      "pct": 78.2,
+      "nec_dia": 91598.98,
       "fat_ant_completo": 1873633.49,
       "pos_ant": 226,
       "pos_ant_completo": 271
@@ -111,13 +111,13 @@ const METAS_GERAIS_DATA = {
     },
     {
       "fantasia": "RED BULL",
-      "fat": 905995.85,
+      "fat": 941424.17,
       "fat_ant": 391070.84,
       "por_estado": {
         "RJ": 241894.48,
         "SP": 302330.88,
         "ES": 184019.65,
-        "MG": 177750.84
+        "MG": 213179.16
       }
     },
     {
@@ -166,13 +166,13 @@ const METAS_GERAIS_DATA = {
     },
     {
       "fantasia": "SEM FORNECEDOR",
-      "fat": 244293.78,
+      "fat": 244478.34,
       "fat_ant": 130448.22,
       "por_estado": {
         "RJ": 164.7,
         "SP": 62522.83,
         "ES": 0.0,
-        "MG": 181606.25
+        "MG": 181790.81
       }
     },
     {
@@ -287,13 +287,13 @@ const METAS_GERAIS_DATA = {
     },
     {
       "fantasia": "HEINEKEN",
-      "fat": 48848.0,
+      "fat": 49506.8,
       "fat_ant": 32420.8,
       "por_estado": {
         "RJ": 0.0,
         "SP": 0.0,
         "ES": 0.0,
-        "MG": 48848.0
+        "MG": 49506.8
       }
     },
     {
