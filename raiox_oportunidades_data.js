@@ -1,6 +1,6 @@
 // Gerado automaticamente
 const RAIOX_OPORTUNIDADES_DATA = {
-  "atualizado_em": "26/08/2026 11:24",
+  "atualizado_em": "26/08/2026 12:32",
   "periodo_atual": {
     "inicio": "01/08/2026",
     "fim": "26/08/2026",
@@ -5205,12 +5205,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "UPSIDE DISTRIBUICAO DE ALIMENTOS",
       "bairro": "CHÁCARAS COTIA",
       "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "vendedor": "DOUGLAS FERREIRA SILVA",
+      "vendedor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "supervisor": "FERNANDO RISSON",
       "chaves_rca": [
-        "MG-MGON-388",
-        "MG-MGON-343.0"
+        "MG-MGON-343.0",
+        "MG-MGON-388"
       ],
       "por_industria": [
         {
@@ -7339,12 +7339,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "SUPERMERCADOS ABC",
       "bairro": "BOM PASTOR",
       "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "vendedor": "LEANDRO OLIVEIRA",
+      "vendedor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "supervisor": "FERNANDO RISSON",
       "chaves_rca": [
-        "MG-MGON-360",
-        "MG-MGON-343.0"
+        "MG-MGON-343.0",
+        "MG-MGON-360"
       ],
       "por_industria": [
         {
@@ -9506,12 +9506,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "RARO INDUSTRIA DE ALIMENTOS",
       "bairro": "TAPERA",
       "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "vendedor": "LEANDRO OLIVEIRA",
+      "vendedor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "supervisor": "FERNANDO RISSON",
       "chaves_rca": [
-        "MG-MGON-360",
-        "MG-MGON-343.0"
+        "MG-MGON-343.0",
+        "MG-MGON-360"
       ],
       "por_industria": [
         {
@@ -15245,12 +15245,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "SUPERMERCADO SUPER LUNA S.A",
       "bairro": "BANDEIRINHAS",
       "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "vendedor": "LEANDRO OLIVEIRA",
+      "vendedor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "supervisor": "FERNANDO RISSON",
       "chaves_rca": [
-        "MG-MGON-360",
-        "MG-MGON-343.0"
+        "MG-MGON-343.0",
+        "MG-MGON-360"
       ],
       "por_industria": [
         {
@@ -28043,12 +28043,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "SUPERMERCADOS ABC",
       "bairro": "ZONA RURAL",
       "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "vendedor": "LEANDRO OLIVEIRA",
+      "vendedor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "supervisor": "FERNANDO RISSON",
       "chaves_rca": [
-        "MG-MGON-360",
-        "MG-MGON-343.0"
+        "MG-MGON-343.0",
+        "MG-MGON-360"
       ],
       "por_industria": [
         {
@@ -37063,12 +37063,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "ICARO ADRIANO BOMFIM",
       "bairro": "JUNDIAPEBA",
       "ramo": "MERCADO",
-      "vendedor": "DANIELLE DOS SANTOS",
+      "vendedor": "SUELY SANTOS",
       "gerente": "MARCUS TANAMACHI",
       "supervisor": "MARCUS TANAMACHI",
       "chaves_rca": [
-        "SP-SPON-466.0",
-        "SP-SPON-461"
+        "SP-SPON-461",
+        "SP-SPON-466.0"
       ],
       "por_industria": [
         {
@@ -54845,11 +54845,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "ANB DISTRIBUIDORA DE ALIMENTOS E BEBIDAS",
       "bairro": "BENFICA",
       "ramo": "MERCADO",
-      "vendedor": "JOSE MARCELO CARDOSO",
+      "vendedor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "supervisor": "DANIELLE MOURA",
       "chaves_rca": [
-        "RJ-CRC-158"
+        "RJ-CRC-238.0",
+        "RJ-CRC-378"
       ],
       "por_industria": [
         {
@@ -123955,11 +123956,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "EMPORIO GOURMET SHOW",
       "bairro": "BENFICA",
       "ramo": "EMPORIO/BAZAR",
-      "vendedor": "JOSE MARCELO CARDOSO",
+      "vendedor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "supervisor": "DANIELLE MOURA",
       "chaves_rca": [
-        "RJ-CRC-158"
+        "RJ-CRC-238.0",
+        "RJ-CRC-378"
       ],
       "por_industria": [
         {
@@ -150569,12 +150571,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "SUPERMERCADO BRASIL",
       "bairro": "ANGÉLICA",
       "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "vendedor": "LEANDRO OLIVEIRA",
+      "vendedor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "supervisor": "FERNANDO RISSON",
       "chaves_rca": [
-        "MG-MGON-360",
-        "MG-MGON-343.0"
+        "MG-MGON-343.0",
+        "MG-MGON-360"
       ],
       "por_industria": [
         {
@@ -169884,12 +169886,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "DISTRUIBUIDORA DO BE",
       "bairro": "JARDIM DE ALÁ",
       "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "vendedor": "WILLIAM ALVES DA SILVA",
+      "vendedor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "supervisor": "FERNANDO RISSON",
       "chaves_rca": [
-        "MG-MGON-349",
-        "MG-MGON-343.0"
+        "MG-MGON-343.0",
+        "MG-MGON-349"
       ],
       "por_industria": [
         {
@@ -182566,12 +182568,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "LEANDRO FREITAS RODRIGUES",
       "bairro": "OLARIA",
       "ramo": "BAR",
-      "vendedor": "ALLAN PAES",
+      "vendedor": "JORGE MACIEL",
       "gerente": "ALLAN PAES",
       "supervisor": "DANIELLE MOURA",
       "chaves_rca": [
-        "RJ-CRC-174.0",
-        "RJ-CRC-379"
+        "RJ-CRC-379",
+        "RJ-CRC-174.0"
       ],
       "por_industria": [
         {
@@ -198827,12 +198829,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "SUPERMARKET",
       "bairro": "PENHA",
       "ramo": "MERCADO",
-      "vendedor": "LEANDRO SOUZA",
+      "vendedor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "supervisor": "DANIELLE MOURA",
       "chaves_rca": [
-        "RJ-CRC-450",
-        "RJ-CRC-238.0"
+        "RJ-CRC-238.0",
+        "RJ-CRC-450"
       ],
       "por_industria": [
         {
@@ -241863,12 +241865,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "SUPERMERCADO BRASIL",
       "bairro": "SÃO SEBASTIAO",
       "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "vendedor": "LEANDRO OLIVEIRA",
+      "vendedor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "supervisor": "FERNANDO RISSON",
       "chaves_rca": [
-        "MG-MGON-360",
-        "MG-MGON-343.0"
+        "MG-MGON-343.0",
+        "MG-MGON-360"
       ],
       "por_industria": [
         {
@@ -242170,12 +242172,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "SUPERMERCADOS REX LTDA",
       "bairro": "SANTA EFIGENIA",
       "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "vendedor": "LEANDRO OLIVEIRA",
+      "vendedor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "supervisor": "FERNANDO RISSON",
       "chaves_rca": [
-        "MG-MGON-360",
-        "MG-MGON-343.0"
+        "MG-MGON-343.0",
+        "MG-MGON-360"
       ],
       "por_industria": [
         {
@@ -254896,12 +254898,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "MUITO MAIS VOCE - ROCHA MIRANDA",
       "bairro": "ROCHA MIRANDA",
       "ramo": "MERCADO",
-      "vendedor": "ADEILSON GONÇALVEZ",
+      "vendedor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "supervisor": "DANIELLE MOURA",
       "chaves_rca": [
-        "RJ-CRC-431",
-        "RJ-CRC-238.0"
+        "RJ-CRC-238.0",
+        "RJ-CRC-431"
       ],
       "por_industria": [
         {
@@ -273509,12 +273511,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "ARMAZEM BRASIL LIMITADA",
       "bairro": "JARDIM AMÉRICA",
       "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "vendedor": "LEANDRO OLIVEIRA",
+      "vendedor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "supervisor": "FERNANDO RISSON",
       "chaves_rca": [
-        "MG-MGON-360",
-        "MG-MGON-343.0"
+        "MG-MGON-343.0",
+        "MG-MGON-360"
       ],
       "por_industria": [
         {
@@ -284300,12 +284302,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "SUPERMARKET",
       "bairro": "VALVERDE",
       "ramo": "MERCADO",
-      "vendedor": "LEANDRO SOUZA",
+      "vendedor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "supervisor": "DANIELLE MOURA",
       "chaves_rca": [
-        "RJ-CRC-450",
-        "RJ-CRC-238.0"
+        "RJ-CRC-238.0",
+        "RJ-CRC-450"
       ],
       "por_industria": [
         {
@@ -299265,12 +299267,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "POSTO NOVA ESPERANCA DE NOVA IGUACU",
       "bairro": "CENTRO",
       "ramo": "POSTO DE GASOLINA",
-      "vendedor": "ADEILSON GONÇALVEZ",
+      "vendedor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "supervisor": "DANIELLE MOURA",
       "chaves_rca": [
-        "RJ-CRC-431",
-        "RJ-CRC-238.0"
+        "RJ-CRC-238.0",
+        "RJ-CRC-431"
       ],
       "por_industria": [
         {
@@ -304900,12 +304902,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "POSTO DE GASOLINA GURUPI - GRAJAU",
       "bairro": "GRAJAU",
       "ramo": "POSTO DE GASOLINA",
-      "vendedor": "ADEILSON GONÇALVEZ",
+      "vendedor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "supervisor": "DANIELLE MOURA",
       "chaves_rca": [
-        "RJ-CRC-431",
-        "RJ-CRC-238.0"
+        "RJ-CRC-238.0",
+        "RJ-CRC-431"
       ],
       "por_industria": [
         {
@@ -308203,12 +308205,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "SUPERMARKET",
       "bairro": "INHAUMA",
       "ramo": "MERCADO",
-      "vendedor": "LEANDRO SOUZA",
+      "vendedor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "supervisor": "DANIELLE MOURA",
       "chaves_rca": [
-        "RJ-CRC-450",
-        "RJ-CRC-238.0"
+        "RJ-CRC-238.0",
+        "RJ-CRC-450"
       ],
       "por_industria": [
         {
@@ -317733,12 +317735,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "PADARIA E CONFEITARIA PAO DA VIDA",
       "bairro": "CAMPO GRANDE",
       "ramo": "PADARIA",
-      "vendedor": "BARBARA CABRAL",
+      "vendedor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "supervisor": "DANIELLE MOURA",
       "chaves_rca": [
-        "RJ-CRC-412",
-        "RJ-CRC-238.0"
+        "RJ-CRC-238.0",
+        "RJ-CRC-412"
       ],
       "por_industria": [
         {
@@ -336512,12 +336514,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "ARMAZEM BRASIL LIMITADA",
       "bairro": "SANTA MATILDE",
       "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "vendedor": "LEANDRO OLIVEIRA",
+      "vendedor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "supervisor": "FERNANDO RISSON",
       "chaves_rca": [
-        "MG-MGON-360",
-        "MG-MGON-343.0"
+        "MG-MGON-343.0",
+        "MG-MGON-360"
       ],
       "por_industria": [
         {
@@ -336736,12 +336738,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "ARMAZEM BRASIL LIMITADA",
       "bairro": "SION",
       "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "vendedor": "LEANDRO OLIVEIRA",
+      "vendedor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "supervisor": "FERNANDO RISSON",
       "chaves_rca": [
-        "MG-MGON-360",
-        "MG-MGON-343.0"
+        "MG-MGON-343.0",
+        "MG-MGON-360"
       ],
       "por_industria": [
         {
@@ -369102,12 +369104,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "DEMI COPA BAR",
       "bairro": "COPACABANA",
       "ramo": "RESTAURANTE",
-      "vendedor": "ANA CLARA FASSANO",
+      "vendedor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "supervisor": "DANIELLE MOURA",
       "chaves_rca": [
-        "RJ-CRC-471",
-        "RJ-CRC-238.0"
+        "RJ-CRC-238.0",
+        "RJ-CRC-471"
       ],
       "por_industria": [
         {
@@ -373317,12 +373319,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "LIDERANCA DE NOVA IGUACU - CENTRO",
       "bairro": "CENTRO",
       "ramo": "MERCADO",
-      "vendedor": "ADEILSON GONÇALVEZ",
+      "vendedor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "supervisor": "DANIELLE MOURA",
       "chaves_rca": [
-        "RJ-CRC-431",
-        "RJ-CRC-238.0"
+        "RJ-CRC-238.0",
+        "RJ-CRC-431"
       ],
       "por_industria": [
         {
@@ -373550,12 +373552,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "JHONATA ARAUJO DE OLIVEIRA",
       "bairro": "REALENGO",
       "ramo": "EVENTOS",
-      "vendedor": "ANA CLARA FASSANO",
+      "vendedor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "supervisor": "DANIELLE MOURA",
       "chaves_rca": [
-        "RJ-CRC-471",
-        "RJ-CRC-238.0"
+        "RJ-CRC-238.0",
+        "RJ-CRC-471"
       ],
       "por_industria": [
         {
@@ -394807,12 +394809,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "SUPERMERCADO BRASIL",
       "bairro": "CENTRO",
       "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "vendedor": "LEANDRO OLIVEIRA",
+      "vendedor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "supervisor": "FERNANDO RISSON",
       "chaves_rca": [
-        "MG-MGON-360",
-        "MG-MGON-343.0"
+        "MG-MGON-343.0",
+        "MG-MGON-360"
       ],
       "por_industria": [
         {
@@ -408306,12 +408308,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "SUPERMERCADOS RIO SUL DE COMENDADOR SOAR",
       "bairro": "COMENDADOR SOARES",
       "ramo": "MERCADO",
-      "vendedor": "ANGELO NEVES SUZART",
+      "vendedor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "supervisor": "DANIELLE MOURA",
       "chaves_rca": [
-        "RJ-CRC-153",
-        "RJ-CRC-238.0"
+        "RJ-CRC-238.0",
+        "RJ-CRC-153"
       ],
       "por_industria": [
         {
@@ -408462,12 +408464,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "ORGANIZACOES PAIS & FILHOS",
       "bairro": "CENTRO",
       "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "vendedor": "WILLIAM ALVES DA SILVA",
+      "vendedor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "supervisor": "FERNANDO RISSON",
       "chaves_rca": [
-        "MG-MGON-349",
-        "MG-MGON-343.0"
+        "MG-MGON-343.0",
+        "MG-MGON-349"
       ],
       "por_industria": [
         {
@@ -410277,12 +410279,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "TAM TAM MINI MERCADO LTDA",
       "bairro": "REALENGO",
       "ramo": "MINI-MERCADO",
-      "vendedor": "BARBARA CABRAL",
+      "vendedor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "supervisor": "DANIELLE MOURA",
       "chaves_rca": [
-        "RJ-CRC-412",
-        "RJ-CRC-238.0"
+        "RJ-CRC-238.0",
+        "RJ-CRC-412"
       ],
       "por_industria": [
         {
@@ -416733,12 +416735,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "SUPERMERCADO PAIS E FILHOS REDE SUPERMAIS",
       "bairro": "FONTESVILLE",
       "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "vendedor": "WILLIAM ALVES DA SILVA",
+      "vendedor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "supervisor": "FERNANDO RISSON",
       "chaves_rca": [
-        "MG-MGON-349",
-        "MG-MGON-343.0"
+        "MG-MGON-343.0",
+        "MG-MGON-349"
       ],
       "por_industria": [
         {
@@ -432476,12 +432478,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "ORGANIZACOES PAIS FILHOS",
       "bairro": "INDUSTRIAL",
       "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "vendedor": "WILLIAM ALVES DA SILVA",
+      "vendedor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "supervisor": "FERNANDO RISSON",
       "chaves_rca": [
-        "MG-MGON-349",
-        "MG-MGON-343.0"
+        "MG-MGON-343.0",
+        "MG-MGON-349"
       ],
       "por_industria": [
         {
@@ -437277,12 +437279,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "ORGANIZACOES PAIS & FILHOS LTDA",
       "bairro": "BENFICA",
       "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "vendedor": "WILLIAM ALVES DA SILVA",
+      "vendedor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "supervisor": "FERNANDO RISSON",
       "chaves_rca": [
-        "MG-MGON-349",
-        "MG-MGON-343.0"
+        "MG-MGON-343.0",
+        "MG-MGON-349"
       ],
       "por_industria": [
         {
@@ -437763,12 +437765,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "ORGANIZACOES PAIS FILHOS",
       "bairro": "PAINEIRAS",
       "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "vendedor": "WILLIAM ALVES DA SILVA",
+      "vendedor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "supervisor": "FERNANDO RISSON",
       "chaves_rca": [
-        "MG-MGON-349",
-        "MG-MGON-343.0"
+        "MG-MGON-343.0",
+        "MG-MGON-349"
       ],
       "por_industria": [
         {
@@ -446825,12 +446827,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "ORGANIZACOES PAIS FILHOS",
       "bairro": "NOVA ERA",
       "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "vendedor": "WILLIAM ALVES DA SILVA",
+      "vendedor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "supervisor": "FERNANDO RISSON",
       "chaves_rca": [
-        "MG-MGON-349",
-        "MG-MGON-343.0"
+        "MG-MGON-343.0",
+        "MG-MGON-349"
       ],
       "por_industria": [
         {
@@ -447532,12 +447534,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "CLUBE ISRAELITA",
       "bairro": "COPACABANA",
       "ramo": "MERCADO",
-      "vendedor": "FABIO VALOTTI",
+      "vendedor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES",
       "supervisor": "DANIELLE MOURA",
       "chaves_rca": [
-        "RJ-CRC-378",
-        "RJ-CRC-238.0"
+        "RJ-CRC-238.0",
+        "RJ-CRC-378"
       ],
       "por_industria": [
         {
@@ -466674,12 +466676,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "SUPERMERCADO E PADARIA VERDEMAR",
       "bairro": "CARMO",
       "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "vendedor": "LEANDRO OLIVEIRA",
+      "vendedor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "supervisor": "FERNANDO RISSON",
       "chaves_rca": [
-        "MG-MGON-360",
-        "MG-MGON-343.0"
+        "MG-MGON-343.0",
+        "MG-MGON-360"
       ],
       "por_industria": [
         {
@@ -471018,12 +471020,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "DMA DISTRIBUIDORA S/A",
       "bairro": "VILA PARIS",
       "ramo": "COMERCIO ATACADISTA (GERAL)",
-      "vendedor": "LEANDRO OLIVEIRA",
+      "vendedor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "supervisor": "FERNANDO RISSON",
       "chaves_rca": [
-        "MG-MGON-360",
-        "MG-MGON-343.0"
+        "MG-MGON-343.0",
+        "MG-MGON-360"
       ],
       "por_industria": [
         {
@@ -475928,12 +475930,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "DISTRIBUIDORA CAMPOS",
       "bairro": "PONTILHAO",
       "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "vendedor": "WILLIAM ALVES DA SILVA",
+      "vendedor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "supervisor": "FERNANDO RISSON",
       "chaves_rca": [
-        "MG-MGON-349",
-        "MG-MGON-343.0"
+        "MG-MGON-343.0",
+        "MG-MGON-349"
       ],
       "por_industria": [
         {
@@ -485044,12 +485046,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "SUPERMERCADO BAHAMAS S/A",
       "bairro": "DISTRITO INDUSTRIAL",
       "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "vendedor": "LEANDRO OLIVEIRA",
+      "vendedor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "supervisor": "FERNANDO RISSON",
       "chaves_rca": [
-        "MG-MGON-360",
-        "MG-MGON-343.0"
+        "MG-MGON-343.0",
+        "MG-MGON-360"
       ],
       "por_industria": [
         {
@@ -485298,12 +485300,12 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "nome": "MART MINAS DISTRIBUICAO",
       "bairro": "CHACARAS COTIA",
       "ramo": "COMERCIO VAREJISTA (GERAL)",
-      "vendedor": "LEANDRO OLIVEIRA",
+      "vendedor": "FERNANDO RISSON",
       "gerente": "FERNANDO RISSON",
       "supervisor": "FERNANDO RISSON",
       "chaves_rca": [
-        "MG-MGON-360",
-        "MG-MGON-343.0"
+        "MG-MGON-343.0",
+        "MG-MGON-360"
       ],
       "por_industria": [
         {
@@ -492645,10 +492647,10 @@ const RAIOX_OPORTUNIDADES_DATA = {
         },
         "RJ-CRC-158": {
           "fat_atual": 0.0,
-          "fat_mes_anterior": 40269.6,
+          "fat_mes_anterior": 36321.6,
           "fat_ano_anterior": 0.0,
           "qt_atual": 0.0,
-          "qt_mes_anterior": 1224.0,
+          "qt_mes_anterior": 1104.0,
           "qt_ano_anterior": 0.0
         },
         "RJ-CRC-159": {
@@ -492677,10 +492679,10 @@ const RAIOX_OPORTUNIDADES_DATA = {
         },
         "RJ-CRC-238": {
           "fat_atual": 3875.4,
-          "fat_mes_anterior": 592.2,
+          "fat_mes_anterior": 4540.2,
           "fat_ano_anterior": 227.4,
           "qt_atual": 106.0,
-          "qt_mes_anterior": 18.0,
+          "qt_mes_anterior": 138.0,
           "qt_ano_anterior": 6.0
         },
         "RJ-CRC-241": {
@@ -492701,10 +492703,10 @@ const RAIOX_OPORTUNIDADES_DATA = {
         },
         "RJ-CRC-378": {
           "fat_atual": 1810.7,
-          "fat_mes_anterior": 3549.0,
+          "fat_mes_anterior": 7497.0,
           "fat_ano_anterior": 76.0,
           "qt_atual": 13.0,
-          "qt_mes_anterior": 90.0,
+          "qt_mes_anterior": 210.0,
           "qt_ano_anterior": 2.0
         },
         "RJ-CRC-379": {
@@ -493411,14 +493413,6 @@ const RAIOX_OPORTUNIDADES_DATA = {
           "qt_mes_anterior": 106.0,
           "qt_ano_anterior": 15.0
         },
-        "RJ-CRC-158": {
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 284.48,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 2.0,
-          "qt_ano_anterior": 0.0
-        },
         "RJ-CRC-159": {
           "fat_atual": 3071.88,
           "fat_mes_anterior": 6208.3,
@@ -493429,18 +493423,18 @@ const RAIOX_OPORTUNIDADES_DATA = {
         },
         "RJ-CRC-238": {
           "fat_atual": 0.0,
-          "fat_mes_anterior": 0.0,
+          "fat_mes_anterior": 284.48,
           "fat_ano_anterior": 125.0,
           "qt_atual": 0.0,
-          "qt_mes_anterior": 0.0,
+          "qt_mes_anterior": 2.0,
           "qt_ano_anterior": 1.0
         },
         "RJ-CRC-378": {
           "fat_atual": 178.8,
-          "fat_mes_anterior": 715.2,
+          "fat_mes_anterior": 999.68,
           "fat_ano_anterior": 0.0,
           "qt_atual": 1.0,
-          "qt_mes_anterior": 4.0,
+          "qt_mes_anterior": 6.0,
           "qt_ano_anterior": 0.0
         },
         "RJ-CRC-379": {
@@ -494819,14 +494813,6 @@ const RAIOX_OPORTUNIDADES_DATA = {
           "qt_mes_anterior": 16.0,
           "qt_ano_anterior": 3.0
         },
-        "RJ-CRC-158": {
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 435.12,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 12.0,
-          "qt_ano_anterior": 0.0
-        },
         "RJ-CRC-159": {
           "fat_atual": 2036.1,
           "fat_mes_anterior": 1794.3,
@@ -494835,12 +494821,20 @@ const RAIOX_OPORTUNIDADES_DATA = {
           "qt_mes_anterior": 57.0,
           "qt_ano_anterior": 13.0
         },
+        "RJ-CRC-238": {
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 435.12,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 12.0,
+          "qt_ano_anterior": 0.0
+        },
         "RJ-CRC-378": {
           "fat_atual": 0.0,
-          "fat_mes_anterior": 0.0,
+          "fat_mes_anterior": 435.12,
           "fat_ano_anterior": 15.9,
           "qt_atual": 0.0,
-          "qt_mes_anterior": 0.0,
+          "qt_mes_anterior": 12.0,
           "qt_ano_anterior": 1.0
         },
         "RJ-CRC-379": {
@@ -498307,14 +498301,6 @@ const RAIOX_OPORTUNIDADES_DATA = {
           "qt_mes_anterior": 15.0,
           "qt_ano_anterior": 99.0
         },
-        "RJ-CRC-158": {
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 191.16,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 12.0,
-          "qt_ano_anterior": 0.0
-        },
         "RJ-CRC-159": {
           "fat_atual": 18.9,
           "fat_mes_anterior": 438.0,
@@ -498333,18 +498319,18 @@ const RAIOX_OPORTUNIDADES_DATA = {
         },
         "RJ-CRC-238": {
           "fat_atual": 207.6,
-          "fat_mes_anterior": 286.74,
+          "fat_mes_anterior": 477.9,
           "fat_ano_anterior": 0.0,
           "qt_atual": 12.0,
-          "qt_mes_anterior": 18.0,
+          "qt_mes_anterior": 30.0,
           "qt_ano_anterior": 0.0
         },
         "RJ-CRC-378": {
           "fat_atual": 0.0,
-          "fat_mes_anterior": 35.8,
+          "fat_mes_anterior": 226.96,
           "fat_ano_anterior": 0.0,
           "qt_atual": 0.0,
-          "qt_mes_anterior": 2.0,
+          "qt_mes_anterior": 14.0,
           "qt_ano_anterior": 0.0
         },
         "RJ-CRC-379": {
@@ -500603,14 +500589,6 @@ const RAIOX_OPORTUNIDADES_DATA = {
           "qt_mes_anterior": 44.0,
           "qt_ano_anterior": 155.0
         },
-        "RJ-CRC-158": {
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 274.52,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 2.0,
-          "qt_ano_anterior": 0.0
-        },
         "RJ-CRC-159": {
           "fat_atual": 25080.8,
           "fat_mes_anterior": 42751.2,
@@ -500637,10 +500615,10 @@ const RAIOX_OPORTUNIDADES_DATA = {
         },
         "RJ-CRC-238": {
           "fat_atual": 57.8,
-          "fat_mes_anterior": 1146.0,
+          "fat_mes_anterior": 1420.52,
           "fat_ano_anterior": 0.0,
           "qt_atual": 2.0,
-          "qt_mes_anterior": 24.0,
+          "qt_mes_anterior": 26.0,
           "qt_ano_anterior": 0.0
         },
         "RJ-CRC-241": {
@@ -500661,10 +500639,10 @@ const RAIOX_OPORTUNIDADES_DATA = {
         },
         "RJ-CRC-378": {
           "fat_atual": 5456.4,
-          "fat_mes_anterior": 8418.16,
+          "fat_mes_anterior": 8692.68,
           "fat_ano_anterior": 745.9,
           "qt_atual": 96.0,
-          "qt_mes_anterior": 142.0,
+          "qt_mes_anterior": 144.0,
           "qt_ano_anterior": 13.0
         },
         "RJ-CRC-379": {
@@ -505569,10 +505547,10 @@ const RAIOX_OPORTUNIDADES_DATA = {
         },
         "RJ-CRC-158": {
           "fat_atual": 0.0,
-          "fat_mes_anterior": 40269.6,
+          "fat_mes_anterior": 36321.6,
           "fat_ano_anterior": 0.0,
           "qt_atual": 0.0,
-          "qt_mes_anterior": 1224.0,
+          "qt_mes_anterior": 1104.0,
           "qt_ano_anterior": 0.0
         },
         "RJ-CRC-159": {
@@ -505601,10 +505579,10 @@ const RAIOX_OPORTUNIDADES_DATA = {
         },
         "RJ-CRC-238": {
           "fat_atual": 2965.8,
-          "fat_mes_anterior": 592.2,
+          "fat_mes_anterior": 4540.2,
           "fat_ano_anterior": 113.7,
           "qt_atual": 82.0,
-          "qt_mes_anterior": 18.0,
+          "qt_mes_anterior": 138.0,
           "qt_ano_anterior": 3.0
         },
         "RJ-CRC-241": {
@@ -505625,10 +505603,10 @@ const RAIOX_OPORTUNIDADES_DATA = {
         },
         "RJ-CRC-378": {
           "fat_atual": 233.4,
-          "fat_mes_anterior": 1400.4,
+          "fat_mes_anterior": 5348.4,
           "fat_ano_anterior": 76.0,
           "qt_atual": 6.0,
-          "qt_mes_anterior": 36.0,
+          "qt_mes_anterior": 156.0,
           "qt_ano_anterior": 2.0
         },
         "RJ-CRC-379": {
@@ -522504,14 +522482,6 @@ const RAIOX_OPORTUNIDADES_DATA = {
           "qt_mes_anterior": 12.0,
           "qt_ano_anterior": 0.0
         },
-        "RJ-CRC-158": {
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 435.12,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 12.0,
-          "qt_ano_anterior": 0.0
-        },
         "RJ-CRC-159": {
           "fat_atual": 71.8,
           "fat_mes_anterior": 251.3,
@@ -522519,6 +522489,22 @@ const RAIOX_OPORTUNIDADES_DATA = {
           "qt_atual": 2.0,
           "qt_mes_anterior": 7.0,
           "qt_ano_anterior": 7.0
+        },
+        "RJ-CRC-238": {
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 435.12,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 12.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-CRC-378": {
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 435.12,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 12.0,
+          "qt_ano_anterior": 0.0
         },
         "RJ-CRC-450": {
           "fat_atual": 0.0,
@@ -532263,7 +532249,15 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "queda_qt_mes_pct": -100.0,
       "queda_qt_ano_pct": null,
       "por_vendedor": {
-        "RJ-CRC-158": {
+        "RJ-CRC-238": {
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 284.48,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 2.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-CRC-378": {
           "fat_atual": 0.0,
           "fat_mes_anterior": 284.48,
           "fat_ano_anterior": 0.0,
@@ -532448,7 +532442,15 @@ const RAIOX_OPORTUNIDADES_DATA = {
       "queda_qt_mes_pct": -100.0,
       "queda_qt_ano_pct": null,
       "por_vendedor": {
-        "RJ-CRC-158": {
+        "RJ-CRC-238": {
+          "fat_atual": 0.0,
+          "fat_mes_anterior": 274.52,
+          "fat_ano_anterior": 0.0,
+          "qt_atual": 0.0,
+          "qt_mes_anterior": 2.0,
+          "qt_ano_anterior": 0.0
+        },
+        "RJ-CRC-378": {
           "fat_atual": 0.0,
           "fat_mes_anterior": 274.52,
           "fat_ano_anterior": 0.0,
@@ -560804,14 +560806,6 @@ const RAIOX_OPORTUNIDADES_DATA = {
           "qt_mes_anterior": 15.0,
           "qt_ano_anterior": 99.0
         },
-        "RJ-CRC-158": {
-          "fat_atual": 0.0,
-          "fat_mes_anterior": 191.16,
-          "fat_ano_anterior": 0.0,
-          "qt_atual": 0.0,
-          "qt_mes_anterior": 12.0,
-          "qt_ano_anterior": 0.0
-        },
         "RJ-CRC-159": {
           "fat_atual": 18.9,
           "fat_mes_anterior": 438.0,
@@ -560830,18 +560824,18 @@ const RAIOX_OPORTUNIDADES_DATA = {
         },
         "RJ-CRC-238": {
           "fat_atual": 207.6,
-          "fat_mes_anterior": 286.74,
+          "fat_mes_anterior": 477.9,
           "fat_ano_anterior": 0.0,
           "qt_atual": 12.0,
-          "qt_mes_anterior": 18.0,
+          "qt_mes_anterior": 30.0,
           "qt_ano_anterior": 0.0
         },
         "RJ-CRC-378": {
           "fat_atual": 0.0,
-          "fat_mes_anterior": 35.8,
+          "fat_mes_anterior": 226.96,
           "fat_ano_anterior": 0.0,
           "qt_atual": 0.0,
-          "qt_mes_anterior": 2.0,
+          "qt_mes_anterior": 14.0,
           "qt_ano_anterior": 0.0
         },
         "RJ-CRC-379": {
