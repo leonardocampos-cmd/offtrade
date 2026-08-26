@@ -17,6 +17,14 @@ Preço de tabela só existe pra RJ (TABELA DE PREÇO RJ.xlsx só vale por lá,
 mesma limitação de pedidos.py/conferencia_preco.py) — outros estados ficam
 com preco_tabela=None, mostrado como "—" na página.
 
+Liberado por / Cancelado por (pedido do usuário em 2026-08-25): resolvem
+PCPEDC.CODFUNCLIBERA/CODFUNCCANCEL contra PCEMPR.MATRICULA (funcionário
+interno) — NÃO é o mesmo espaço de código de PCUSUARI.CODUSUR (vendedor),
+ver memória project_pcempr_matricula_funcionario. Como só populam quando o
+pedido JÁ foi liberado/cancelado, ficam vazios pra maioria dos pedidos
+ainda bloqueados (é o esperado — servem sobretudo pra auditoria de casos
+como alçada resolvida rápido, ou liberação parcial num pedido multi-item).
+
 Roda SÓ na VPS, num cron próprio de 5 em 5 min (pedido do usuário em
 2026-08-25) — fora do main.py de propósito (esse é horário). A VPS agora
 alcança CASTAS via VPN própria (deixou de ser rede-local-only, ver
@@ -66,6 +74,7 @@ def _query_bloqueados(schema, extra_nomes=None):
         SELECT PED.NUMPED, PED.DATA, PED.CLIENTE, PED.CODPROD, PED.DESCRICAO, PED.PVENDA,
                PC.POSICAO, PC.MOTIVOPOSICAO,
                PC.DTFIMDIGITACAOPEDIDO, PC.HORA, PC.MINUTO,
+               PC.CODFUNCLIBERA, PC.DTLIBERA, PC.CODFUNCCANCEL, PC.DTCANCEL,
                U.NOME AS VENDEDOR, U.ESTADO
         FROM {schema}.PBI_PCPEDI PED
         JOIN {schema}.PCUSUARI U ON U.CODUSUR = PED.CODUSUR
@@ -73,6 +82,15 @@ def _query_bloqueados(schema, extra_nomes=None):
         WHERE {nome_f}
           AND PC.POSICAO IN ('B', 'P', 'M')
           AND PED.DATA >= SYSDATE - {DIAS_JANELA}
+    """
+
+
+def _query_pcempr(schema, matriculas):
+    lista = ",".join(str(m) for m in matriculas)
+    return f"""
+        SELECT MATRICULA, NOME, NOME_GUERRA
+        FROM {schema}.PCEMPR
+        WHERE MATRICULA IN ({lista})
     """
 
 
@@ -206,6 +224,43 @@ def montar_pedidos_bloqueados():
     df['DTFIM_DT'] = pd.to_datetime(df['DTFIMDIGITACAOPEDIDO'], errors='coerce')
     df['HORA_NUM'] = pd.to_numeric(df['HORA'], errors='coerce')
     df['MINUTO_NUM'] = pd.to_numeric(df['MINUTO'], errors='coerce')
+    df['DTLIBERA_DT'] = pd.to_datetime(df['DTLIBERA'], errors='coerce')
+    df['DTCANCEL_DT'] = pd.to_datetime(df['DTCANCEL'], errors='coerce')
+    df['CODFUNCLIBERA_NUM'] = pd.to_numeric(df['CODFUNCLIBERA'], errors='coerce')
+    df['CODFUNCCANCEL_NUM'] = pd.to_numeric(df['CODFUNCCANCEL'], errors='coerce')
+
+    # CODFUNCLIBERA/CODFUNCCANCEL são matrícula de funcionário (PCEMPR),
+    # NÃO código de vendedor (PCUSUARI.CODUSUR) — mesmo espaço numérico,
+    # cadastro diferente (ver memória project_pcempr_matricula_funcionario:
+    # matrícula 218 resolvia errado como "outro vendedor" via PCUSUARI).
+    _engine_por_schema = {s: e for s, e, _ in _SOURCES}
+    _chamadas_pcempr = []
+    for schema in df['SISTEMA'].unique():
+        sub = df[df['SISTEMA'] == schema]
+        codigos = set(sub['CODFUNCLIBERA_NUM'].dropna().astype(int)) | set(sub['CODFUNCCANCEL_NUM'].dropna().astype(int))
+        if codigos:
+            _chamadas_pcempr.append((_query_pcempr(schema, codigos), _engine_por_schema[schema], f"pcempr_{schema}"))
+
+    _funcionario_lookup = {}  # (schema, matricula) -> nome
+    if _chamadas_pcempr:
+        for (query, eng, nome_tabela), res in zip(_chamadas_pcempr, carregar_paralelo(_chamadas_pcempr)):
+            schema = nome_tabela.replace('pcempr_', '')
+            if isinstance(res, Exception):
+                print(f"[AVISO] {nome_tabela} falhou ({str(res)[:100]}) — 'liberado/cancelado por' fica só com o código dessa base")
+                continue
+            res.columns = res.columns.str.upper()
+            for _, r in res.iterrows():
+                try:
+                    matricula = int(r['MATRICULA'])
+                except (TypeError, ValueError):
+                    continue
+                nome_func = (r.get('NOME_GUERRA') or r.get('NOME') or '').strip()
+                _funcionario_lookup[(schema, matricula)] = nome_func or str(matricula)
+
+    def _nome_funcionario(schema, matricula_num):
+        if pd.isna(matricula_num):
+            return ''
+        return _funcionario_lookup.get((schema, int(matricula_num)), str(int(matricula_num)))
 
     pedidos = []
     for (sistema, numped), grupo in df.groupby(['SISTEMA', 'NUMPED'], sort=False):
@@ -238,20 +293,26 @@ def montar_pedidos_bloqueados():
                 item_repr = achado
 
         data_dt = _data_hora(primeira)
+        dtlibera_dt = primeira['DTLIBERA_DT']
+        dtcancel_dt = primeira['DTCANCEL_DT']
         pedidos.append({
-            'numped':       _s(numped),
-            'sistema':      _s(sistema),
-            'cliente':      _s(primeira['CLIENTE']),
-            'vendedor':     _s(primeira['VENDEDOR']),
-            'estado':       _s(primeira['ESTADO']),
-            'data':         data_dt.strftime('%d/%m/%Y %H:%M') if pd.notna(data_dt) else '',
-            'data_ord':     data_dt.strftime('%Y-%m-%d %H:%M:%S') if pd.notna(data_dt) else '',
-            'posicao':      _POSICAO_LABEL.get(_s(primeira['POSICAO']).upper(), _s(primeira['POSICAO'])),
-            'motivo':       motivo,
-            'preco_venda':  item_repr['preco_venda']  if item_repr else None,
-            'preco_tabela': item_repr['preco_tabela'] if item_repr else None,
-            'diferenca':    item_repr['diferenca']    if item_repr else None,
-            'itens':        itens,
+            'numped':        _s(numped),
+            'sistema':       _s(sistema),
+            'cliente':       _s(primeira['CLIENTE']),
+            'vendedor':      _s(primeira['VENDEDOR']),
+            'estado':        _s(primeira['ESTADO']),
+            'data':          data_dt.strftime('%d/%m/%Y %H:%M') if pd.notna(data_dt) else '',
+            'data_ord':      data_dt.strftime('%Y-%m-%d %H:%M:%S') if pd.notna(data_dt) else '',
+            'posicao':       _POSICAO_LABEL.get(_s(primeira['POSICAO']).upper(), _s(primeira['POSICAO'])),
+            'motivo':        motivo,
+            'preco_venda':   item_repr['preco_venda']  if item_repr else None,
+            'preco_tabela':  item_repr['preco_tabela'] if item_repr else None,
+            'diferenca':     item_repr['diferenca']    if item_repr else None,
+            'liberado_por':  _nome_funcionario(sistema, primeira['CODFUNCLIBERA_NUM']),
+            'liberado_em':   dtlibera_dt.strftime('%d/%m/%Y %H:%M') if pd.notna(dtlibera_dt) else '',
+            'cancelado_por': _nome_funcionario(sistema, primeira['CODFUNCCANCEL_NUM']),
+            'cancelado_em':  dtcancel_dt.strftime('%d/%m/%Y %H:%M') if pd.notna(dtcancel_dt) else '',
+            'itens':         itens,
         })
 
     pedidos.sort(key=lambda p: p['data_ord'], reverse=True)

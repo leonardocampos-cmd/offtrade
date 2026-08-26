@@ -152,6 +152,8 @@
         <th onclick="ordenarPor('diferenca')">Diferença</th>
         <th class="hide-mob" onclick="ordenarPor('data_ord')">Data/Hora</th>
         <th class="hide-mob">Motivo</th>
+        <th class="hide-mob" onclick="ordenarPor('liberado_por')">Liberado por</th>
+        <th class="hide-mob" onclick="ordenarPor('cancelado_por')">Cancelado por</th>
       </tr>
     </thead>
     <tbody id="tbody"></tbody>
@@ -166,7 +168,7 @@ let _ordem = { campo: 'data_ord', asc: false };
 let _expandidos = new Set();
 
 if (!DATA) {
-  document.getElementById('tbody').innerHTML = '<tr><td colspan="12" class="empty">Dados não encontrados. Execute exportacao_pedidos_bloqueados.py para gerar pedidos_bloqueados_data.js.</td></tr>';
+  document.getElementById('tbody').innerHTML = '<tr><td colspan="14" class="empty">Dados não encontrados. Execute exportacao_pedidos_bloqueados.py para gerar pedidos_bloqueados_data.js.</td></tr>';
 } else {
   document.getElementById('header-sub').textContent =
     'Atualizado ' + DATA.atualizado_em +
@@ -264,7 +266,7 @@ function _filtrados() {
     const matchEstado   = !estado || p.estado === estado;
     const matchPosicao  = !posicao || p.posicao === posicao;
     const matchVendedor = !vendedor || p.vendedor === vendedor;
-    const matchBusca = !busca || [p.numped, p.cliente, p.motivo, ...(p.itens || []).map(i => i.descricao)]
+    const matchBusca = !busca || [p.numped, p.cliente, p.motivo, p.liberado_por, p.cancelado_por, ...(p.itens || []).map(i => i.descricao)]
       .some(v => v && String(v).toLowerCase().includes(busca));
     return matchSistema && matchEstado && matchPosicao && matchVendedor && matchBusca;
   });
@@ -288,7 +290,7 @@ function aplicarFiltro() {
 
   const tbody = document.getElementById('tbody');
   if (!lista.length) {
-    tbody.innerHTML = '<tr><td colspan="12" class="empty">Nenhum pedido bloqueado encontrado.</td></tr>';
+    tbody.innerHTML = '<tr><td colspan="14" class="empty">Nenhum pedido bloqueado encontrado.</td></tr>';
     return;
   }
 
@@ -310,9 +312,11 @@ function aplicarFiltro() {
       <td>${_diferenca(p.diferenca)}</td>
       <td class="hide-mob">${_esc(p.data)}</td>
       <td class="hide-mob motivo">${_esc(p.motivo)}</td>
+      <td class="hide-mob">${_pessoaAcao(p.liberado_por, p.liberado_em)}</td>
+      <td class="hide-mob">${_pessoaAcao(p.cancelado_por, p.cancelado_em)}</td>
     </tr>`;
     if (aberto) {
-      html += `<tr class="linha-itens"><td colspan="12"><div class="itens-wrap">
+      html += `<tr class="linha-itens"><td colspan="14"><div class="itens-wrap">
         <table><thead><tr><th>Produto</th><th>Preço de Venda</th><th>Preço de Tabela</th><th>Diferença</th></tr></thead><tbody>
         ${(p.itens || []).map(it => `<tr>
           <td>${_esc(it.descricao)} <span class="cod">(${_esc(it.codprod)})</span></td>
@@ -365,6 +369,11 @@ function _precoTabela(v) {
   return `<span class="preco-tabela">${brl(v)}</span>`;
 }
 
+function _pessoaAcao(nome, quando) {
+  if (!nome) return '<span class="sem-preco">—</span>';
+  return `${_esc(nome)}${quando ? ` <span class="cod">(${_esc(quando)})</span>` : ''}`;
+}
+
 function brl(v) {
   return 'R$ ' + Number(v || 0).toLocaleString('pt-BR', {minimumFractionDigits: 2, maximumFractionDigits: 2});
 }
@@ -379,7 +388,7 @@ function _escAttr(s) {
 
 function exportarCSV() {
   const lista = _filtrados();
-  const header = ['Pedido','Sistema','UF','Vendedor','Cliente','Posicao','Preco de Venda','Preco de Tabela','Diferenca','Data/Hora','Motivo'];
+  const header = ['Pedido','Sistema','UF','Vendedor','Cliente','Posicao','Preco de Venda','Preco de Tabela','Diferenca','Data/Hora','Motivo','Liberado por','Liberado em','Cancelado por','Cancelado em'];
   const linhas = lista.map(p => [
     p.numped,
     p.sistema,
@@ -392,6 +401,10 @@ function exportarCSV() {
     p.diferenca ?? '',
     p.data,
     p.motivo,
+    p.liberado_por,
+    p.liberado_em,
+    p.cancelado_por,
+    p.cancelado_em,
   ].map(v => `"${String(v??'').replace(/"/g,'""')}"`).join(';'));
 
   const csv = '﻿' + [header.join(';'), ...linhas].join('\r\n');
