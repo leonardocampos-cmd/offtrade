@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_sp.py
 
 const NAO_POS_SP_DATA = {
-  "atualizado_em": "26/08/2026 14:22",
+  "atualizado_em": "26/08/2026 15:19",
   "por_vendedor": {
     "ADER ALONSO": [
       {
@@ -8136,13 +8136,6 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
-        "codcli": "51834",
-        "cliente": "SUPERMERCADO IBIRAPUERA LTDA",
-        "bairro": "JOAO ARANHA",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
         "codcli": "51833",
         "cliente": "SUPERMERCADO IBIRAPUERA LTDA",
         "bairro": "JOAO ARANHA",
@@ -8150,9 +8143,9 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
-        "codcli": "52380",
-        "cliente": "SUPERMERCADO JARDIM DOS CALEGARIS LTDA",
-        "bairro": "CONJUNTO HABITACIONAL PADRE ANCHIETA",
+        "codcli": "51834",
+        "cliente": "SUPERMERCADO IBIRAPUERA LTDA",
+        "bairro": "JOAO ARANHA",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -10365,6 +10358,20 @@ const NAO_POS_SP_DATA = {
             "valor": 789.6
           }
         ]
+      },
+      {
+        "codcli": "50569",
+        "cliente": "MERCADINHO FONTE NOVA SANTA EMILIA LTDA",
+        "bairro": "JARDIM BELA VISTA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "50567",
+        "cliente": "MERCADO FONTE NOVA BELA VISTA LTDA",
+        "bairro": "JARDIM BELA VISTA",
+        "dtultcomp": "nan",
+        "produtos": []
       }
     ],
     "NÁTALI DE OLIVEIRA": [
@@ -10718,14 +10725,14 @@ const NAO_POS_SP_DATA = {
           {
             "produto": "GIN ROCKS STRAWBERRY 1LT",
             "fantasia": "FANTE",
-            "qt": 20,
-            "valor": 410.8
+            "qt": 24,
+            "valor": 492.96
           },
           {
             "produto": "GIN ROCKS STRAWBERRY 1LT",
             "fantasia": "FANTE",
-            "qt": 24,
-            "valor": 492.96
+            "qt": 20,
+            "valor": 410.8
           },
           {
             "produto": "GIN ROCKS WATERMELON 1LT",
@@ -13079,6 +13086,44 @@ const NAO_POS_SP_DATA = {
         ]
       },
       {
+        "codcli": "40452",
+        "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
+        "bairro": "PARQUE DO LAGO",
+        "dtultcomp": "31/07/2026",
+        "produtos": [
+          {
+            "produto": "AGUARDENTE OLD CESAR 88 965 ML",
+            "fantasia": "CRS BRANDS",
+            "qt": 36,
+            "valor": 359.64
+          },
+          {
+            "produto": "GIN ROCKS 1LT",
+            "fantasia": "FANTE",
+            "qt": 6,
+            "valor": 123.0
+          },
+          {
+            "produto": "GIN ROCKS STRAWBERRY 1LT",
+            "fantasia": "FANTE",
+            "qt": 6,
+            "valor": 123.0
+          },
+          {
+            "produto": "RUM MONTILLA OURO 1L",
+            "fantasia": "PERNOD",
+            "qt": 12,
+            "valor": 233.4
+          },
+          {
+            "produto": "WHISKY BELLS 700ML",
+            "fantasia": "DIAGEO",
+            "qt": 12,
+            "valor": 476.28
+          }
+        ]
+      },
+      {
         "codcli": "40451",
         "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
         "bairro": "JARDIM LEME",
@@ -13139,44 +13184,6 @@ const NAO_POS_SP_DATA = {
             "fantasia": "PERNOD",
             "qt": 12,
             "valor": 694.8
-          }
-        ]
-      },
-      {
-        "codcli": "40452",
-        "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
-        "bairro": "PARQUE DO LAGO",
-        "dtultcomp": "31/07/2026",
-        "produtos": [
-          {
-            "produto": "AGUARDENTE OLD CESAR 88 965 ML",
-            "fantasia": "CRS BRANDS",
-            "qt": 36,
-            "valor": 359.64
-          },
-          {
-            "produto": "GIN ROCKS 1LT",
-            "fantasia": "FANTE",
-            "qt": 6,
-            "valor": 123.0
-          },
-          {
-            "produto": "GIN ROCKS STRAWBERRY 1LT",
-            "fantasia": "FANTE",
-            "qt": 6,
-            "valor": 123.0
-          },
-          {
-            "produto": "RUM MONTILLA OURO 1L",
-            "fantasia": "PERNOD",
-            "qt": 12,
-            "valor": 233.4
-          },
-          {
-            "produto": "WHISKY BELLS 700ML",
-            "fantasia": "DIAGEO",
-            "qt": 12,
-            "valor": 476.28
           }
         ]
       },
@@ -13532,6 +13539,20 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
+        "codcli": "52655",
+        "cliente": "SUPERMERCADO IQUEGAMI LTDA",
+        "bairro": "RECANTO BELA VISTA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "52708",
+        "cliente": "SUPERMERCADO IQUEGAMI LTDA",
+        "bairro": "CENTRO",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
         "codcli": "52697",
         "cliente": "SUPERMERCADO IQUEGAMI LTDA",
         "bairro": "PARQUE RESIDENCIAL IRMÃOS FURQUIM",
@@ -13539,9 +13560,30 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
-        "codcli": "52655",
+        "codcli": "52705",
         "cliente": "SUPERMERCADO IQUEGAMI LTDA",
-        "bairro": "RECANTO BELA VISTA",
+        "bairro": "CENTRO",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "52703",
+        "cliente": "SUPERMERCADO IQUEGAMI LTDA",
+        "bairro": "PATRIMÔNIO DE SÃO JOÃO BATISTA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "52700",
+        "cliente": "SUPERMERCADO IQUEGAMI LTDA",
+        "bairro": "JARDIM CLAUDIA II",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "52707",
+        "cliente": "SUPERMERCADO IQUEGAMI LTDA",
+        "bairro": "SÃO FRANCISCO",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -13553,9 +13595,9 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
-        "codcli": "52700",
+        "codcli": "52706",
         "cliente": "SUPERMERCADO IQUEGAMI LTDA",
-        "bairro": "JARDIM CLAUDIA II",
+        "bairro": "JARDIM SANTA IFIGÊNIA",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -13702,13 +13744,6 @@ const NAO_POS_SP_DATA = {
         "codcli": "52146",
         "cliente": "MERCADO PRIMOS LTDA",
         "bairro": "JARDIM IPANEMA (ZONA OESTE)",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "52623",
-        "cliente": "SUPERMERCADO, PADARIA E ACOUGUE NOVO IMPERIAL LTDA",
-        "bairro": "PARQUE IMPERIAL",
         "dtultcomp": "nan",
         "produtos": []
       }
@@ -17367,20 +17402,6 @@ const NAO_POS_SP_DATA = {
         ]
       },
       {
-        "codcli": "40361",
-        "cliente": "BRASILEIRAO ATACADO COMERCIO DE PRODUTOS ALIMENTICIOS SOCIED",
-        "bairro": "PARQUE SANTA TERESA",
-        "dtultcomp": "23/07/2026",
-        "produtos": [
-          {
-            "produto": "LICOR BALLENA MORANGO 750ML",
-            "fantasia": "BALLENA",
-            "qt": 180,
-            "valor": 14382.0
-          }
-        ]
-      },
-      {
         "codcli": "40359",
         "cliente": "BRASILEIRAO ATACADO COMERCIO DE PRODUTOS ALIMENTICIOS SOCIED",
         "bairro": "JARDIM MITUZI",
@@ -17391,6 +17412,20 @@ const NAO_POS_SP_DATA = {
             "fantasia": "BALLENA",
             "qt": 120,
             "valor": 9588.0
+          }
+        ]
+      },
+      {
+        "codcli": "40361",
+        "cliente": "BRASILEIRAO ATACADO COMERCIO DE PRODUTOS ALIMENTICIOS SOCIED",
+        "bairro": "PARQUE SANTA TERESA",
+        "dtultcomp": "23/07/2026",
+        "produtos": [
+          {
+            "produto": "LICOR BALLENA MORANGO 750ML",
+            "fantasia": "BALLENA",
+            "qt": 180,
+            "valor": 14382.0
           }
         ]
       },
