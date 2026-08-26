@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_mg.py
 
 const NAO_POS_MG_DATA = {
-  "atualizado_em": "26/08/2026 14:24",
+  "atualizado_em": "26/08/2026 15:20",
   "por_vendedor": {
     "BRUNA CASTRO MELLO": [
       {
@@ -3599,6 +3599,26 @@ const NAO_POS_MG_DATA = {
             "fantasia": "DON LUIZ",
             "qt": 60,
             "valor": 4494.0
+          }
+        ]
+      },
+      {
+        "codcli": "38022",
+        "cliente": "COMERCIAL JP ALIMENTOS LTDA",
+        "bairro": "JOÃO PINHEIRO",
+        "dtultcomp": "23/07/2026",
+        "produtos": [
+          {
+            "produto": "RUM MONTILLA CARTA BRANCA 1000 ML",
+            "fantasia": "PERNOD",
+            "qt": 6,
+            "valor": 149.4
+          },
+          {
+            "produto": "RUM MONTILLA OURO 1000ML",
+            "fantasia": "PERNOD",
+            "qt": 6,
+            "valor": 149.4
           }
         ]
       },
