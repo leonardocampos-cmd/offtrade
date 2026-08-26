@@ -1,10 +1,17 @@
 """
 Gera pedidos_bloqueados_data.js — página com todos os pedidos bloqueados
-(PCPEDC.POSICAO IN ('B','P'), mesmo recorte de alerta_pedidos_bloqueados.py;
-'M' bloqueado por alçada fica de fora, mesma decisão do usuário em
-2026-08-10 aplicada lá e em metas.html) de todas as bases (CRC, thekings,
-CASTAS, GARRIDO, SPON, MGON) — sem restringir a vendedor RJ como o alerta de
-WhatsApp faz, aqui é visão completa pra gestão.
+(PCPEDC.POSICAO IN ('B','P','M') — Bloqueado, Pendente e Bloqueado por
+alçada) de todas as bases (CRC, thekings, CASTAS, GARRIDO, SPON, MGON) —
+sem restringir a vendedor RJ como o alerta de WhatsApp faz, aqui é visão
+completa pra gestão.
+
+'M' (alçada) ENTRA aqui, diferente de alerta_pedidos_bloqueados.py/
+metas.html (que excluem por pedido explícito do usuário em 2026-08-10) —
+es.html/mg.html/sp.html sempre contaram 'M' como bloqueado
+(_POSICOES_PROBLEMA_PED lá inclui 'Bloqueado (alçada)'), e o usuário
+confirmou em 2026-08-25 que essa página deve bater com a contagem de lá,
+não com a do alerta de WhatsApp (61 dos 69 pedidos "problema" do RJ sozinho
+eram 'M' — excluir deixava a página visivelmente incompleta).
 
 Preço de tabela só existe pra RJ (TABELA DE PREÇO RJ.xlsx só vale por lá,
 mesma limitação de pedidos.py/conferencia_preco.py) — outros estados ficam
@@ -58,12 +65,13 @@ def _query_bloqueados(schema, extra_nomes=None):
     return f"""
         SELECT PED.NUMPED, PED.DATA, PED.CLIENTE, PED.CODPROD, PED.DESCRICAO, PED.PVENDA,
                PC.POSICAO, PC.MOTIVOPOSICAO,
+               PC.DTFIMDIGITACAOPEDIDO, PC.HORA, PC.MINUTO,
                U.NOME AS VENDEDOR, U.ESTADO
         FROM {schema}.PBI_PCPEDI PED
         JOIN {schema}.PCUSUARI U ON U.CODUSUR = PED.CODUSUR
         JOIN {schema}.PCPEDC   PC ON PC.NUMPED = PED.NUMPED
         WHERE {nome_f}
-          AND PC.POSICAO IN ('B', 'P')
+          AND PC.POSICAO IN ('B', 'P', 'M')
           AND PED.DATA >= SYSDATE - {DIAS_JANELA}
     """
 
@@ -135,13 +143,42 @@ def _preco_tabela(codprod):
     return round(min(candidatos), 2) if candidatos else None
 
 
+def _diferenca(preco_venda, preco_tabela):
+    """Tabela - digitado: positivo = vendeu abaixo da tabela (desconto),
+    negativo = vendeu acima. None se algum dos dois preços não existir."""
+    if preco_venda is None or preco_tabela is None:
+        return None
+    return round(preco_tabela - preco_venda, 2)
+
+
 _RE_MOTIVO_DESCONTO = re.compile(r'desconto acima do permitido\s*:\s*(\d+)', re.IGNORECASE)
 
-_POSICAO_LABEL = {'B': 'Bloqueado', 'P': 'Pendente'}
+_POSICAO_LABEL = {'B': 'Bloqueado', 'P': 'Pendente', 'M': 'Bloqueado (alçada)'}
 
 
 def _s(v):
     return '' if pd.isna(v) else str(v).strip()
+
+
+def _data_hora(row):
+    """Timestamp de quando o pedido foi feito. PED.DATA (PBI_PCPEDI) só tem
+    a data, sem hora (sempre 00:00) — PCPEDC.DTFIMDIGITACAOPEDIDO é o
+    timestamp completo de quando a digitação terminou (mais preciso, cobre
+    quem demorou pra fechar o pedido); quando vem nulo, cai pra
+    PCPEDC.DATA + HORA/MINUTO (colunas inteiras separadas); sem nenhum dos
+    dois, cai pra só a data (sem hora)."""
+    if pd.notna(row.get('DTFIM_DT')):
+        return row['DTFIM_DT']
+    base = row.get('DATA_DT')
+    if pd.isna(base):
+        return None
+    hora, minuto = row.get('HORA_NUM'), row.get('MINUTO_NUM')
+    if pd.notna(hora) and pd.notna(minuto):
+        try:
+            return base.replace(hour=int(hora), minute=int(minuto))
+        except ValueError:
+            return base
+    return base
 
 
 def montar_pedidos_bloqueados():
@@ -166,6 +203,9 @@ def montar_pedidos_bloqueados():
     df = pd.concat(partes, ignore_index=True)
     df['PVENDA'] = pd.to_numeric(df['PVENDA'], errors='coerce')
     df['DATA_DT'] = pd.to_datetime(df['DATA'], errors='coerce')
+    df['DTFIM_DT'] = pd.to_datetime(df['DTFIMDIGITACAOPEDIDO'], errors='coerce')
+    df['HORA_NUM'] = pd.to_numeric(df['HORA'], errors='coerce')
+    df['MINUTO_NUM'] = pd.to_numeric(df['MINUTO'], errors='coerce')
 
     pedidos = []
     for (sistema, numped), grupo in df.groupby(['SISTEMA', 'NUMPED'], sort=False):
@@ -176,11 +216,14 @@ def montar_pedidos_bloqueados():
         for _, row in grupo.iterrows():
             codprod = _s(row['CODPROD'])
             pvenda = row['PVENDA']
+            _pv = round(float(pvenda), 2) if pd.notna(pvenda) else None
+            _pt = _preco_tabela(codprod)
             itens.append({
                 'codprod':      codprod,
                 'descricao':    _s(row['DESCRICAO']),
-                'preco_venda':  round(float(pvenda), 2) if pd.notna(pvenda) else None,
-                'preco_tabela': _preco_tabela(codprod),
+                'preco_venda':  _pv,
+                'preco_tabela': _pt,
+                'diferenca':    _diferenca(_pv, _pt),
             })
 
         # Item citado no motivo (bloqueio por desconto) tem prioridade pra
@@ -194,19 +237,20 @@ def montar_pedidos_bloqueados():
             if achado:
                 item_repr = achado
 
-        data_dt = primeira['DATA_DT']
+        data_dt = _data_hora(primeira)
         pedidos.append({
             'numped':       _s(numped),
             'sistema':      _s(sistema),
             'cliente':      _s(primeira['CLIENTE']),
             'vendedor':     _s(primeira['VENDEDOR']),
             'estado':       _s(primeira['ESTADO']),
-            'data':         data_dt.strftime('%d/%m/%Y') if pd.notna(data_dt) else '',
-            'data_ord':     data_dt.strftime('%Y-%m-%d') if pd.notna(data_dt) else '',
+            'data':         data_dt.strftime('%d/%m/%Y %H:%M') if pd.notna(data_dt) else '',
+            'data_ord':     data_dt.strftime('%Y-%m-%d %H:%M:%S') if pd.notna(data_dt) else '',
             'posicao':      _POSICAO_LABEL.get(_s(primeira['POSICAO']).upper(), _s(primeira['POSICAO'])),
             'motivo':       motivo,
             'preco_venda':  item_repr['preco_venda']  if item_repr else None,
             'preco_tabela': item_repr['preco_tabela'] if item_repr else None,
+            'diferenca':    item_repr['diferenca']    if item_repr else None,
             'itens':        itens,
         })
 

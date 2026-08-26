@@ -77,10 +77,14 @@
     .posicao { font-weight: 700; padding: 2px 8px; border-radius: 20px; font-size: .76rem; white-space: nowrap; }
     .posicao-bloqueado { background: rgba(239,68,68,.15);  color: var(--red); }
     .posicao-pendente  { background: rgba(249,115,22,.15); color: var(--orange); }
+    .posicao-alcada    { background: rgba(234,179,8,.15);  color: #eab308; }
     .preco-venda  { font-weight: 700; }
     .preco-acima  { color: var(--red); }
     .preco-tabela { color: var(--muted); }
     .sem-preco { color: var(--muted); }
+    .diferenca { font-weight: 700; }
+    .diferenca-positiva { color: var(--red); }
+    .diferenca-negativa { color: var(--green); }
     .motivo { white-space: normal; max-width: 340px; color: var(--muted); font-size: .78rem; }
     .expand-icon { display: inline-block; width: 14px; color: var(--muted); }
     tr.linha-itens td { background: #14161f; padding: 0; }
@@ -122,7 +126,7 @@
     <option value="">Todos os Estados</option>
   </select>
   <select id="sel-posicao" onchange="aplicarFiltro()">
-    <option value="">Bloqueado + Pendente</option>
+    <option value="">Todas as Posições</option>
   </select>
   <select id="sel-vendedor" onchange="aplicarFiltro()">
     <option value="">Todos os Vendedores</option>
@@ -145,7 +149,8 @@
         <th onclick="ordenarPor('posicao')">Posição</th>
         <th onclick="ordenarPor('preco_venda')">Preço de Venda</th>
         <th onclick="ordenarPor('preco_tabela')">Preço de Tabela</th>
-        <th class="hide-mob" onclick="ordenarPor('data_ord')">Data</th>
+        <th onclick="ordenarPor('diferenca')">Diferença</th>
+        <th class="hide-mob" onclick="ordenarPor('data_ord')">Data/Hora</th>
         <th class="hide-mob">Motivo</th>
       </tr>
     </thead>
@@ -161,7 +166,7 @@ let _ordem = { campo: 'data_ord', asc: false };
 let _expandidos = new Set();
 
 if (!DATA) {
-  document.getElementById('tbody').innerHTML = '<tr><td colspan="11" class="empty">Dados não encontrados. Execute exportacao_pedidos_bloqueados.py para gerar pedidos_bloqueados_data.js.</td></tr>';
+  document.getElementById('tbody').innerHTML = '<tr><td colspan="12" class="empty">Dados não encontrados. Execute exportacao_pedidos_bloqueados.py para gerar pedidos_bloqueados_data.js.</td></tr>';
 } else {
   document.getElementById('header-sub').textContent =
     'Atualizado ' + DATA.atualizado_em +
@@ -174,12 +179,17 @@ if (!DATA) {
 
 function montarKpis(lista) {
   const bloqueados = lista.filter(p => p.posicao === 'Bloqueado').length;
+  const alcada     = lista.filter(p => p.posicao === 'Bloqueado (alçada)').length;
   const pendentes  = lista.filter(p => p.posicao === 'Pendente').length;
   const vendedores = new Set(lista.map(p => p.vendedor)).size;
   document.getElementById('kpis').innerHTML = `
     <div class="kpi">
       <div class="label">Pedidos Bloqueados</div>
       <div class="val" style="color:var(--red)">${bloqueados}</div>
+    </div>
+    <div class="kpi">
+      <div class="label">Bloqueados (Alçada)</div>
+      <div class="val" style="color:#eab308">${alcada}</div>
     </div>
     <div class="kpi">
       <div class="label">Pedidos Pendentes</div>
@@ -214,7 +224,7 @@ function montarFiltros() {
 
   const posAtual = document.getElementById('sel-posicao').value;
   const selPos = document.getElementById('sel-posicao');
-  selPos.innerHTML = '<option value="">Bloqueado + Pendente</option>';
+  selPos.innerHTML = '<option value="">Todas as Posições</option>';
   [...new Set(PEDIDOS.map(p => p.posicao))].sort().forEach(p => {
     const o = document.createElement('option');
     o.value = p; o.textContent = p;
@@ -278,7 +288,7 @@ function aplicarFiltro() {
 
   const tbody = document.getElementById('tbody');
   if (!lista.length) {
-    tbody.innerHTML = '<tr><td colspan="11" class="empty">Nenhum pedido bloqueado encontrado.</td></tr>';
+    tbody.innerHTML = '<tr><td colspan="12" class="empty">Nenhum pedido bloqueado encontrado.</td></tr>';
     return;
   }
 
@@ -297,16 +307,18 @@ function aplicarFiltro() {
       <td>${_posicaoBadge(p.posicao)}</td>
       <td>${_precoVenda(p)}</td>
       <td>${_precoTabela(p.preco_tabela)}</td>
+      <td>${_diferenca(p.diferenca)}</td>
       <td class="hide-mob">${_esc(p.data)}</td>
       <td class="hide-mob motivo">${_esc(p.motivo)}</td>
     </tr>`;
     if (aberto) {
-      html += `<tr class="linha-itens"><td colspan="11"><div class="itens-wrap">
-        <table><thead><tr><th>Produto</th><th>Preço de Venda</th><th>Preço de Tabela</th></tr></thead><tbody>
+      html += `<tr class="linha-itens"><td colspan="12"><div class="itens-wrap">
+        <table><thead><tr><th>Produto</th><th>Preço de Venda</th><th>Preço de Tabela</th><th>Diferença</th></tr></thead><tbody>
         ${(p.itens || []).map(it => `<tr>
           <td>${_esc(it.descricao)} <span class="cod">(${_esc(it.codprod)})</span></td>
           <td>${_precoVendaItem(it)}</td>
           <td>${_precoTabela(it.preco_tabela)}</td>
+          <td>${_diferenca(it.diferenca)}</td>
         </tr>`).join('')}
         </tbody></table>
       </div></td></tr>`;
@@ -322,8 +334,18 @@ function toggleItens(chave) {
 }
 
 function _posicaoBadge(posicao) {
-  const cls = posicao === 'Bloqueado' ? 'posicao-bloqueado' : 'posicao-pendente';
+  const cls = posicao === 'Bloqueado' ? 'posicao-bloqueado'
+    : posicao === 'Bloqueado (alçada)' ? 'posicao-alcada'
+    : 'posicao-pendente';
   return `<span class="posicao ${cls}">${_esc(posicao)}</span>`;
+}
+
+// diferenca = preco_tabela - preco_venda: positivo = vendeu abaixo da
+// tabela (desconto, motivo típico do bloqueio), negativo = vendeu acima.
+function _diferenca(v) {
+  if (v === null || v === undefined) return '<span class="sem-preco">—</span>';
+  const cls = v > 0 ? 'diferenca-positiva' : (v < 0 ? 'diferenca-negativa' : '');
+  return `<span class="diferenca ${cls}">${brl(v)}</span>`;
 }
 
 function _precoVenda(p) {
@@ -357,7 +379,7 @@ function _escAttr(s) {
 
 function exportarCSV() {
   const lista = _filtrados();
-  const header = ['Pedido','Sistema','UF','Vendedor','Cliente','Posicao','Preco de Venda','Preco de Tabela','Data','Motivo'];
+  const header = ['Pedido','Sistema','UF','Vendedor','Cliente','Posicao','Preco de Venda','Preco de Tabela','Diferenca','Data/Hora','Motivo'];
   const linhas = lista.map(p => [
     p.numped,
     p.sistema,
@@ -367,6 +389,7 @@ function exportarCSV() {
     p.posicao,
     p.preco_venda ?? '',
     p.preco_tabela ?? '',
+    p.diferenca ?? '',
     p.data,
     p.motivo,
   ].map(v => `"${String(v??'').replace(/"/g,'""')}"`).join(';'));
