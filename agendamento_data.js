@@ -2,6 +2,7 @@ const AGENDAMENTO_DATA = {
   "agendamentos": [
     {
       "nome": "ALLAN PAES - OFF TRADE",
+      "codusur": "174",
       "itens": [
         {
           "codigo_cliente": "6940",
@@ -35,6 +36,7 @@ const AGENDAMENTO_DATA = {
     },
     {
       "nome": "ANA CLARA FASSANO - OFF TRADE",
+      "codusur": "471",
       "itens": [
         {
           "codigo_cliente": "8984",
@@ -725,40 +727,8 @@ const AGENDAMENTO_DATA = {
       ]
     },
     {
-      "nome": "ANGELO NEVES - OFF TRADE",
-      "itens": [
-        {
-          "codigo_cliente": "84319",
-          "cliente": "MERCADO JAP SÃO JOAO LTDA",
-          "cnpj": "57.978.228/0001-78",
-          "filial": "SÃO JOAO DE MERITI",
-          "valor": 4939.88,
-          "nf": "395607",
-          "data_agendamento": "02/06/2026",
-          "data_ord": "2026-06-02",
-          "status": "FATURADO",
-          "obs": "",
-          "status_logistica": "",
-          "justificativa_logistica": ""
-        },
-        {
-          "codigo_cliente": "84320",
-          "cliente": "MERCADO JV DUQUE DE CAXIAS LTDA",
-          "cnpj": "58.012.012/0001-16",
-          "filial": "DUQUE DE CAXIAS",
-          "valor": 5160.64,
-          "nf": "395550",
-          "data_agendamento": "02/06/2026",
-          "data_ord": "2026-06-02",
-          "status": "FATURADO",
-          "obs": "",
-          "status_logistica": "",
-          "justificativa_logistica": ""
-        }
-      ]
-    },
-    {
       "nome": "ANGELO NEVES SUZART - OFF TRADE",
+      "codusur": "153",
       "itens": [
         {
           "codigo_cliente": "84130",
@@ -1153,6 +1123,34 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
+          "codigo_cliente": "77807",
+          "cliente": "SUPERMERCADO RIO SUL DO PILAR LTDA",
+          "cnpj": "33.255.424/0001-56",
+          "filial": "CAXIAS",
+          "valor": 1633.5,
+          "nf": "6789",
+          "data_agendamento": "20/07/2026",
+          "data_ord": "2026-07-20",
+          "status": "ENTREGUE",
+          "obs": "Caixas e rótulos integros.",
+          "status_logistica": "",
+          "justificativa_logistica": ""
+        },
+        {
+          "codigo_cliente": "77807",
+          "cliente": "SUPERMERCADO RIO SUL DO PILAR LTDA",
+          "cnpj": "33.255.424/0001-56",
+          "filial": "CAXIAS",
+          "valor": 1621.8,
+          "nf": "6788",
+          "data_agendamento": "20/07/2026",
+          "data_ord": "2026-07-20",
+          "status": "ENTREGUE",
+          "obs": "Caixas e rótulos integros.",
+          "status_logistica": "",
+          "justificativa_logistica": ""
+        },
+        {
           "codigo_cliente": "91149",
           "cliente": "MERCADO RIO SUL PARADA MODELO LTDA",
           "cnpj": "29.882.585/0001-00",
@@ -1387,6 +1385,20 @@ const AGENDAMENTO_DATA = {
           "data_ord": "2026-07-10",
           "status": "CANCELADO",
           "obs": "Caixas e rótulos íntegros",
+          "status_logistica": "",
+          "justificativa_logistica": ""
+        },
+        {
+          "codigo_cliente": "77807",
+          "cliente": "SUPERMERCADO RIO SUL DO PILAR LTDA",
+          "cnpj": "33.255.424/0001-56",
+          "filial": "CAXIAS",
+          "valor": 608.4,
+          "nf": "6529",
+          "data_agendamento": "10/07/2026",
+          "data_ord": "2026-07-10",
+          "status": "FATURADO",
+          "obs": "",
           "status_logistica": "",
           "justificativa_logistica": ""
         },
@@ -1793,6 +1805,34 @@ const AGENDAMENTO_DATA = {
           "data_ord": "2026-06-05",
           "status": "A FATURAR",
           "obs": "Caixas e rótulos íntegros",
+          "status_logistica": "",
+          "justificativa_logistica": ""
+        },
+        {
+          "codigo_cliente": "84319",
+          "cliente": "MERCADO JAP SÃO JOAO LTDA",
+          "cnpj": "57.978.228/0001-78",
+          "filial": "SÃO JOAO DE MERITI",
+          "valor": 4939.88,
+          "nf": "395607",
+          "data_agendamento": "02/06/2026",
+          "data_ord": "2026-06-02",
+          "status": "FATURADO",
+          "obs": "",
+          "status_logistica": "",
+          "justificativa_logistica": ""
+        },
+        {
+          "codigo_cliente": "84320",
+          "cliente": "MERCADO JV DUQUE DE CAXIAS LTDA",
+          "cnpj": "58.012.012/0001-16",
+          "filial": "DUQUE DE CAXIAS",
+          "valor": 5160.64,
+          "nf": "395550",
+          "data_agendamento": "02/06/2026",
+          "data_ord": "2026-06-02",
+          "status": "FATURADO",
+          "obs": "",
           "status_logistica": "",
           "justificativa_logistica": ""
         },
@@ -2525,6 +2565,20 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
+          "codigo_cliente": "6671",
+          "cliente": "JRD MERCEARIA E HORTIFRUTI LTDA",
+          "cnpj": "23.549.577/0001-52",
+          "filial": "ILHA",
+          "valor": 1747.2,
+          "nf": "4080",
+          "data_agendamento": "14/04/2026",
+          "data_ord": "2026-04-14",
+          "status": "ENTREGUE",
+          "obs": "Descarga: R$25,00",
+          "status_logistica": "",
+          "justificativa_logistica": ""
+        },
+        {
           "codigo_cliente": "90484",
           "cliente": "SUPERMERCADOS RC DE ITAGUAI LTDA",
           "cnpj": "58.113.396/0001-63",
@@ -2591,6 +2645,20 @@ const AGENDAMENTO_DATA = {
           "data_ord": "2026-04-14",
           "status": "ENTREGUE",
           "obs": "",
+          "status_logistica": "",
+          "justificativa_logistica": ""
+        },
+        {
+          "codigo_cliente": "6671",
+          "cliente": "JRD MERCEARIA E HORTIFRUTI LTDA",
+          "cnpj": "23.549.577/0001-52",
+          "filial": "ILHA",
+          "valor": 1747.2,
+          "nf": "4080",
+          "data_agendamento": "14/04/2026",
+          "data_ord": "2026-04-14",
+          "status": "ENTREGUE",
+          "obs": "Descarga: R$25,00",
           "status_logistica": "",
           "justificativa_logistica": ""
         },
@@ -3157,82 +3225,8 @@ const AGENDAMENTO_DATA = {
       ]
     },
     {
-      "nome": "ANGELO SUZART - OFF TRADE",
-      "itens": [
-        {
-          "codigo_cliente": "77807",
-          "cliente": "SUPERMERCADO RIO SUL DO PILAR LTDA",
-          "cnpj": "33.255.424/0001-56",
-          "filial": "CAXIAS",
-          "valor": 1633.5,
-          "nf": "6789",
-          "data_agendamento": "20/07/2026",
-          "data_ord": "2026-07-20",
-          "status": "ENTREGUE",
-          "obs": "Caixas e rótulos integros.",
-          "status_logistica": "",
-          "justificativa_logistica": ""
-        },
-        {
-          "codigo_cliente": "77807",
-          "cliente": "SUPERMERCADO RIO SUL DO PILAR LTDA",
-          "cnpj": "33.255.424/0001-56",
-          "filial": "CAXIAS",
-          "valor": 1621.8,
-          "nf": "6788",
-          "data_agendamento": "20/07/2026",
-          "data_ord": "2026-07-20",
-          "status": "ENTREGUE",
-          "obs": "Caixas e rótulos integros.",
-          "status_logistica": "",
-          "justificativa_logistica": ""
-        },
-        {
-          "codigo_cliente": "77807",
-          "cliente": "SUPERMERCADO RIO SUL DO PILAR LTDA",
-          "cnpj": "33.255.424/0001-56",
-          "filial": "CAXIAS",
-          "valor": 608.4,
-          "nf": "6529",
-          "data_agendamento": "10/07/2026",
-          "data_ord": "2026-07-10",
-          "status": "FATURADO",
-          "obs": "",
-          "status_logistica": "",
-          "justificativa_logistica": ""
-        },
-        {
-          "codigo_cliente": "6671",
-          "cliente": "JRD MERCEARIA E HORTIFRUTI LTDA",
-          "cnpj": "23.549.577/0001-52",
-          "filial": "ILHA",
-          "valor": 1747.2,
-          "nf": "4080",
-          "data_agendamento": "14/04/2026",
-          "data_ord": "2026-04-14",
-          "status": "ENTREGUE",
-          "obs": "Descarga: R$25,00",
-          "status_logistica": "",
-          "justificativa_logistica": ""
-        },
-        {
-          "codigo_cliente": "6671",
-          "cliente": "JRD MERCEARIA E HORTIFRUTI LTDA",
-          "cnpj": "23.549.577/0001-52",
-          "filial": "ILHA",
-          "valor": 1747.2,
-          "nf": "4080",
-          "data_agendamento": "14/04/2026",
-          "data_ord": "2026-04-14",
-          "status": "ENTREGUE",
-          "obs": "Descarga: R$25,00",
-          "status_logistica": "",
-          "justificativa_logistica": ""
-        }
-      ]
-    },
-    {
       "nome": "BARBARA CABRAL - OFF TRADE",
+      "codusur": "412",
       "itens": [
         {
           "codigo_cliente": "60511",
@@ -3966,6 +3960,7 @@ const AGENDAMENTO_DATA = {
     },
     {
       "nome": "DANIELLE MOURA - OFF TRADE",
+      "codusur": "238",
       "itens": [
         {
           "codigo_cliente": "2978",
@@ -6351,6 +6346,7 @@ const AGENDAMENTO_DATA = {
     },
     {
       "nome": "DIOGO RAPOSO - OFF TRADE",
+      "codusur": "144",
       "itens": [
         {
           "codigo_cliente": "92136",
@@ -14853,26 +14849,8 @@ const AGENDAMENTO_DATA = {
       ]
     },
     {
-      "nome": "DIRLEI - OFF TRADE",
-      "itens": [
-        {
-          "codigo_cliente": "93338",
-          "cliente": "QUINTAL DO JL LTDA",
-          "cnpj": "64.189.968/0001-90",
-          "filial": "GARATUCAIA",
-          "valor": 2094.0,
-          "nf": "4387",
-          "data_agendamento": "30/04/2026",
-          "data_ord": "2026-04-30",
-          "status": "FATURADO",
-          "obs": "ROTA DE VIAGEM",
-          "status_logistica": "",
-          "justificativa_logistica": ""
-        }
-      ]
-    },
-    {
       "nome": "DIRLEI ARAUJO - OFF TRADE",
+      "codusur": "417",
       "itens": [
         {
           "codigo_cliente": "79321",
@@ -15389,6 +15367,20 @@ const AGENDAMENTO_DATA = {
           "data_ord": "2026-05-04",
           "status": "CANCELADO",
           "obs": "PEDIDO NO MAXX NF",
+          "status_logistica": "",
+          "justificativa_logistica": ""
+        },
+        {
+          "codigo_cliente": "93338",
+          "cliente": "QUINTAL DO JL LTDA",
+          "cnpj": "64.189.968/0001-90",
+          "filial": "GARATUCAIA",
+          "valor": 2094.0,
+          "nf": "4387",
+          "data_agendamento": "30/04/2026",
+          "data_ord": "2026-04-30",
+          "status": "FATURADO",
+          "obs": "ROTA DE VIAGEM",
           "status_logistica": "",
           "justificativa_logistica": ""
         },
@@ -15942,6 +15934,7 @@ const AGENDAMENTO_DATA = {
     },
     {
       "nome": "DIRLEI VIEIRA - OFF TRADE",
+      "codusur": "",
       "itens": [
         {
           "codigo_cliente": "69426",
@@ -15989,6 +15982,7 @@ const AGENDAMENTO_DATA = {
     },
     {
       "nome": "FABIO VALOTTI - OFF TRADE",
+      "codusur": "378",
       "itens": [
         {
           "codigo_cliente": "2438",
@@ -16063,26 +16057,8 @@ const AGENDAMENTO_DATA = {
       ]
     },
     {
-      "nome": "GISELLE BAFER - OFF TRADE",
-      "itens": [
-        {
-          "codigo_cliente": "81867",
-          "cliente": "F & MAIGRE LTDA",
-          "cnpj": "49.394.457/0001-17",
-          "filial": "CABO FRIO",
-          "valor": 1184.4,
-          "nf": "",
-          "data_agendamento": "11/05/2026",
-          "data_ord": "2026-05-11",
-          "status": "",
-          "obs": "",
-          "status_logistica": "",
-          "justificativa_logistica": ""
-        }
-      ]
-    },
-    {
       "nome": "GISELLE BARFER - OFF TRADE",
+      "codusur": "159",
       "itens": [
         {
           "codigo_cliente": "81698",
@@ -16139,11 +16115,26 @@ const AGENDAMENTO_DATA = {
           "obs": "",
           "status_logistica": "",
           "justificativa_logistica": ""
+        },
+        {
+          "codigo_cliente": "81867",
+          "cliente": "F & MAIGRE LTDA",
+          "cnpj": "49.394.457/0001-17",
+          "filial": "CABO FRIO",
+          "valor": 1184.4,
+          "nf": "",
+          "data_agendamento": "11/05/2026",
+          "data_ord": "2026-05-11",
+          "status": "",
+          "obs": "",
+          "status_logistica": "",
+          "justificativa_logistica": ""
         }
       ]
     },
     {
       "nome": "JORGE  - OFF TRADE",
+      "codusur": "",
       "itens": [
         {
           "codigo_cliente": "83387",
@@ -16261,6 +16252,7 @@ const AGENDAMENTO_DATA = {
     },
     {
       "nome": "JORGE - OFF TRADE",
+      "codusur": "",
       "itens": [
         {
           "codigo_cliente": "91508",
@@ -16294,6 +16286,7 @@ const AGENDAMENTO_DATA = {
     },
     {
       "nome": "JORGE MACIEL - OFF TRADE",
+      "codusur": "379",
       "itens": [
         {
           "codigo_cliente": "",
@@ -16425,6 +16418,7 @@ const AGENDAMENTO_DATA = {
     },
     {
       "nome": "JOSE MARCELO CARDOSO - OFF TRADE",
+      "codusur": "158",
       "itens": [
         {
           "codigo_cliente": "6278",
@@ -16745,6 +16739,34 @@ const AGENDAMENTO_DATA = {
           "data_ord": "2026-06-01",
           "status": "ENTREGUE",
           "obs": "(PAGAMENTO EM DINHEIRO FÍSICO) - CADA SKU EM PALETTS DIFERENTES -  PALLET TEM QUE SER FILMADO",
+          "status_logistica": "",
+          "justificativa_logistica": ""
+        },
+        {
+          "codigo_cliente": "82219",
+          "cliente": "M&N COMERCIO DE BEBIDAS E ALIMENTOS LTDA",
+          "cnpj": "38.047.132/0001-41",
+          "filial": "BENFICA",
+          "valor": 6671.16,
+          "nf": "5582",
+          "data_agendamento": "01/06/2026",
+          "data_ord": "2026-06-01",
+          "status": "FATURADO",
+          "obs": "",
+          "status_logistica": "",
+          "justificativa_logistica": ""
+        },
+        {
+          "codigo_cliente": "86100",
+          "cliente": "OLIVIER ARMAZÉM DE BEBIDAS",
+          "cnpj": "30.916.672/0001-02",
+          "filial": "BENFICA",
+          "valor": 4935.0,
+          "nf": "5576",
+          "data_agendamento": "01/06/2026",
+          "data_ord": "2026-06-01",
+          "status": "FATURADO",
+          "obs": "",
           "status_logistica": "",
           "justificativa_logistica": ""
         },
@@ -17214,6 +17236,7 @@ const AGENDAMENTO_DATA = {
     },
     {
       "nome": "KELLY RAMOS - OFF TRADE",
+      "codusur": "420",
       "itens": [
         {
           "codigo_cliente": "81155",
@@ -17597,6 +17620,7 @@ const AGENDAMENTO_DATA = {
     },
     {
       "nome": "LEANDRO SOUZA - OFF TRADE",
+      "codusur": "450",
       "itens": [
         {
           "codigo_cliente": "94955",
@@ -22641,40 +22665,8 @@ const AGENDAMENTO_DATA = {
       ]
     },
     {
-      "nome": "MARCELO CARDOSO - OFF TRADE",
-      "itens": [
-        {
-          "codigo_cliente": "82219",
-          "cliente": "M&N COMERCIO DE BEBIDAS E ALIMENTOS LTDA",
-          "cnpj": "38.047.132/0001-41",
-          "filial": "BENFICA",
-          "valor": 6671.16,
-          "nf": "5582",
-          "data_agendamento": "01/06/2026",
-          "data_ord": "2026-06-01",
-          "status": "FATURADO",
-          "obs": "",
-          "status_logistica": "",
-          "justificativa_logistica": ""
-        },
-        {
-          "codigo_cliente": "86100",
-          "cliente": "OLIVIER ARMAZÉM DE BEBIDAS",
-          "cnpj": "30.916.672/0001-02",
-          "filial": "BENFICA",
-          "valor": 4935.0,
-          "nf": "5576",
-          "data_agendamento": "01/06/2026",
-          "data_ord": "2026-06-01",
-          "status": "FATURADO",
-          "obs": "",
-          "status_logistica": "",
-          "justificativa_logistica": ""
-        }
-      ]
-    },
-    {
       "nome": "MARCELO LORES - OFF TRADE",
+      "codusur": "",
       "itens": [
         {
           "codigo_cliente": "95583",
@@ -22988,6 +22980,7 @@ const AGENDAMENTO_DATA = {
     },
     {
       "nome": "MARIA LUIZA - OFF TRADE",
+      "codusur": "275",
       "itens": [
         {
           "codigo_cliente": "84034",
@@ -23360,6 +23353,20 @@ const AGENDAMENTO_DATA = {
           "filial": "INHAUMA",
           "valor": 2541.6,
           "nf": "7012",
+          "data_agendamento": "06/08/2026",
+          "data_ord": "2026-08-06",
+          "status": "FATURADO",
+          "obs": "CARGA SECA BATIDA - CANHOTO ASSINADO ELETRONICAMENTE",
+          "status_logistica": "",
+          "justificativa_logistica": ""
+        },
+        {
+          "codigo_cliente": "60847",
+          "cliente": "DOM ATACAREJO SA",
+          "cnpj": "31.698.759/0007-09",
+          "filial": "NITEROI",
+          "valor": 2345.4,
+          "nf": "6962",
           "data_agendamento": "06/08/2026",
           "data_ord": "2026-08-06",
           "status": "FATURADO",
@@ -24726,6 +24733,34 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
+          "codigo_cliente": "60847",
+          "cliente": "DOM ATACAREJO SA",
+          "cnpj": "31.698.759/0007-09",
+          "filial": "NITEROI",
+          "valor": 1962.0,
+          "nf": "4515",
+          "data_agendamento": "09/05/2026",
+          "data_ord": "2026-05-09",
+          "status": "FATURADO",
+          "obs": "CARGA SECA BATIDA - CANHOTO ASSINADO ELETRONICAMENTE",
+          "status_logistica": "",
+          "justificativa_logistica": ""
+        },
+        {
+          "codigo_cliente": "60847",
+          "cliente": "DOM ATACAREJO SA",
+          "cnpj": "31.698.759/0007-09",
+          "filial": "NITEROI",
+          "valor": 5132.18,
+          "nf": "4799",
+          "data_agendamento": "09/05/2026",
+          "data_ord": "2026-05-09",
+          "status": "A FATURAR",
+          "obs": "CARGA SECA BATIDA - CANHOTO ASSINADO ELETRONICAMENTE",
+          "status_logistica": "",
+          "justificativa_logistica": ""
+        },
+        {
           "codigo_cliente": "60846",
           "cliente": "DOM ATACAREJO SA",
           "cnpj": "31.698.759/0008-90",
@@ -25862,54 +25897,8 @@ const AGENDAMENTO_DATA = {
       ]
     },
     {
-      "nome": "MARIA LUIZA -OFF TRADE",
-      "itens": [
-        {
-          "codigo_cliente": "60847",
-          "cliente": "DOM ATACAREJO SA",
-          "cnpj": "31.698.759/0007-09",
-          "filial": "NITEROI",
-          "valor": 2345.4,
-          "nf": "6962",
-          "data_agendamento": "06/08/2026",
-          "data_ord": "2026-08-06",
-          "status": "FATURADO",
-          "obs": "CARGA SECA BATIDA - CANHOTO ASSINADO ELETRONICAMENTE",
-          "status_logistica": "",
-          "justificativa_logistica": ""
-        },
-        {
-          "codigo_cliente": "60847",
-          "cliente": "DOM ATACAREJO SA",
-          "cnpj": "31.698.759/0007-09",
-          "filial": "NITEROI",
-          "valor": 1962.0,
-          "nf": "4515",
-          "data_agendamento": "09/05/2026",
-          "data_ord": "2026-05-09",
-          "status": "FATURADO",
-          "obs": "CARGA SECA BATIDA - CANHOTO ASSINADO ELETRONICAMENTE",
-          "status_logistica": "",
-          "justificativa_logistica": ""
-        },
-        {
-          "codigo_cliente": "60847",
-          "cliente": "DOM ATACAREJO SA",
-          "cnpj": "31.698.759/0007-09",
-          "filial": "NITEROI",
-          "valor": 5132.18,
-          "nf": "4799",
-          "data_agendamento": "09/05/2026",
-          "data_ord": "2026-05-09",
-          "status": "A FATURAR",
-          "obs": "CARGA SECA BATIDA - CANHOTO ASSINADO ELETRONICAMENTE",
-          "status_logistica": "",
-          "justificativa_logistica": ""
-        }
-      ]
-    },
-    {
       "nome": "MARILENA TRAGEL - OFF TRADE",
+      "codusur": "156",
       "itens": [
         {
           "codigo_cliente": "82830",
@@ -25943,46 +25932,47 @@ const AGENDAMENTO_DATA = {
     },
     {
       "nome": "MATEUS CARDOSO - OFF TRADE",
+      "codusur": "439",
       "itens": [
+        {
+          "codigo_cliente": "78916",
+          "cliente": "JM LISAMAR SUPERMERCADO LTDA",
+          "cnpj": "17.386.414/0001-01",
+          "filial": "CONCEICAO DE JACAREI",
+          "valor": 346.8,
+          "nf": "7871",
+          "data_agendamento": "27/08/2026",
+          "data_ord": "2026-08-27",
+          "status": "FATURADO",
+          "obs": "ROTA DE VIAGEM",
+          "status_logistica": "",
+          "justificativa_logistica": ""
+        },
         {
           "codigo_cliente": "69292",
           "cliente": "LUCAS DE FREITAS MIRANDA",
           "cnpj": "39.346.520/0001-96",
           "filial": "FRADE CUNHAMBEBE",
-          "valor": 10406.1,
-          "nf": "",
+          "valor": 8306.4,
+          "nf": "7870",
           "data_agendamento": "27/08/2026",
           "data_ord": "2026-08-27",
-          "status": "A FATURAR",
+          "status": "FATURADO",
           "obs": "",
           "status_logistica": "",
           "justificativa_logistica": ""
         },
         {
-          "codigo_cliente": "78916",
-          "cliente": "JM LISAMAR SUPERMERCADO LTDA",
-          "cnpj": "17.386.414/0001-01",
-          "filial": "CONCEICAO DE JACAREI",
-          "valor": 346.8,
+          "codigo_cliente": "69292",
+          "cliente": "LUCAS DE FREITAS MIRANDA",
+          "cnpj": "39.346.520/0001-96",
+          "filial": "FRADE CUNHAMBEBE",
+          "valor": 2099.7,
           "nf": "",
           "data_agendamento": "27/08/2026",
           "data_ord": "2026-08-27",
           "status": "A FATURAR",
-          "obs": "ROTA DE VIAGEM",
-          "status_logistica": "",
-          "justificativa_logistica": ""
-        },
-        {
-          "codigo_cliente": "78916",
-          "cliente": "JM LISAMAR SUPERMERCADO LTDA",
-          "cnpj": "17.386.414/0001-01",
-          "filial": "CONCEICAO DE JACAREI",
-          "valor": 346.8,
-          "nf": "",
-          "data_agendamento": "27/08/2026",
-          "data_ord": "2026-08-27",
-          "status": "A FATURAR",
-          "obs": "ROTA DE VIAGEM",
+          "obs": "",
           "status_logistica": "",
           "justificativa_logistica": ""
         },
@@ -25995,7 +25985,7 @@ const AGENDAMENTO_DATA = {
           "nf": "7310",
           "data_agendamento": "24/08/2026",
           "data_ord": "2026-08-24",
-          "status": "EM ROTA",
+          "status": "FATURADO",
           "obs": "ROTA DE VIAGEM - Produtos em caixa original e com rótulos íntegros;",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -26228,6 +26218,7 @@ const AGENDAMENTO_DATA = {
     },
     {
       "nome": "NÁTALI DE OLIVEIRA - OFF TRADE",
+      "codusur": "419",
       "itens": [
         {
           "codigo_cliente": "19230",
@@ -27044,7 +27035,7 @@ const AGENDAMENTO_DATA = {
       ]
     }
   ],
-  "atualizado_em": "26/08/2026 14:19",
+  "atualizado_em": "26/08/2026 14:51",
   "comparativo": [
     {
       "msg_id": "1a01bc9a975c4cab",
