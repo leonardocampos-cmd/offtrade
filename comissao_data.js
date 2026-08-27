@@ -1,7 +1,7 @@
 // Gerado automaticamente por exportacao_comissao.py — ESTIMATIVA, não é a apuração oficial
 
 const COMISSAO_DATA = {
-  "atualizado_em": "27/08/2026 16:48",
+  "atualizado_em": "27/08/2026 17:44",
   "mes_referencia": "08/2026",
   "pct_premio_taxa": 0.015,
   "vendedores": [
@@ -267,10 +267,10 @@ const COMISSAO_DATA = {
         {
           "label": "FATURAMENTO",
           "meta": 200000.0,
-          "realizado": 137759.13,
+          "realizado": 139191.13,
           "peso": 0.7,
-          "ating_meta": 0.688796,
-          "ating_acumulado": 0.482157
+          "ating_meta": 0.695956,
+          "ating_acumulado": 0.487169
         },
         {
           "label": "FATURAMENTO PERNOD",
@@ -307,10 +307,10 @@ const COMISSAO_DATA = {
         {
           "label": "POSITIVAÇÃO",
           "meta": 50.0,
-          "realizado": 39,
+          "realizado": 40,
           "peso": 0.1,
-          "ating_meta": 0.78,
-          "ating_acumulado": 0.078
+          "ating_meta": 0.8,
+          "ating_acumulado": 0.08
         },
         {
           "label": "POSITIVAÇÃO ESSENZA",
@@ -377,14 +377,14 @@ const COMISSAO_DATA = {
           "ating_acumulado": 0.0
         }
       ],
-      "ating_acumulado_total": 0.663923,
-      "pct_premio": 0.00995885,
+      "ating_acumulado_total": 0.670935,
+      "pct_premio": 0.01006403,
       "liq_rigarr": 145815.28,
       "fat_castas": 3949.8,
       "teto_comissao": null,
-      "com_rigarr": 1452.15,
-      "com_castas": 39.34,
-      "comissao_estimada": 1491.49
+      "com_rigarr": 1467.49,
+      "com_castas": 39.75,
+      "comissao_estimada": 1507.24
     },
     {
       "nome": "FABIO VALOTTI - OFF TRADE",
@@ -1029,10 +1029,10 @@ const COMISSAO_DATA = {
         {
           "label": "FATURAMENTO",
           "meta": 120000.0,
-          "realizado": 94255.17,
+          "realizado": 97014.57,
           "peso": 0.7,
-          "ating_meta": 0.78546,
-          "ating_acumulado": 0.549822
+          "ating_meta": 0.808455,
+          "ating_acumulado": 0.565918
         },
         {
           "label": "FATURAMENTO PERNOD",
@@ -1069,10 +1069,10 @@ const COMISSAO_DATA = {
         {
           "label": "POSITIVAÇÃO",
           "meta": 90.0,
-          "realizado": 82,
+          "realizado": 83,
           "peso": 0.1,
-          "ating_meta": 0.911111,
-          "ating_acumulado": 0.091111
+          "ating_meta": 0.922222,
+          "ating_acumulado": 0.092222
         },
         {
           "label": "POSITIVAÇÃO ESSENZA",
@@ -1139,14 +1139,14 @@ const COMISSAO_DATA = {
           "ating_acumulado": 0.0
         }
       ],
-      "ating_acumulado_total": 0.793677,
-      "pct_premio": 0.01190516,
+      "ating_acumulado_total": 0.810884,
+      "pct_premio": 0.01216326,
       "liq_rigarr": 58158.32,
       "fat_castas": 8413.26,
       "teto_comissao": null,
-      "com_rigarr": 692.38,
-      "com_castas": 100.16,
-      "comissao_estimada": 792.54
+      "com_rigarr": 707.39,
+      "com_castas": 102.33,
+      "comissao_estimada": 809.72
     },
     {
       "nome": "ANGELO NEVES SUZART - OFF TRADE",
@@ -1156,10 +1156,10 @@ const COMISSAO_DATA = {
         {
           "label": "FATURAMENTO",
           "meta": 200000.0,
-          "realizado": 81394.74,
+          "realizado": 81820.74,
           "peso": 0.7,
-          "ating_meta": 0.406974,
-          "ating_acumulado": 0.284882
+          "ating_meta": 0.409104,
+          "ating_acumulado": 0.286373
         },
         {
           "label": "FATURAMENTO PERNOD",
@@ -1196,10 +1196,10 @@ const COMISSAO_DATA = {
         {
           "label": "POSITIVAÇÃO",
           "meta": 50.0,
-          "realizado": 34,
+          "realizado": 35,
           "peso": 0.1,
-          "ating_meta": 0.68,
-          "ating_acumulado": 0.068
+          "ating_meta": 0.7,
+          "ating_acumulado": 0.07
         },
         {
           "label": "POSITIVAÇÃO ESSENZA",
@@ -1252,7 +1252,7 @@ const COMISSAO_DATA = {
         {
           "label": "POSITIVAÇÃO TATUZINHO",
           "meta": 0.0,
-          "realizado": 11,
+          "realizado": 12,
           "peso": 0.0,
           "ating_meta": 0.0,
           "ating_acumulado": 0.0
@@ -1266,14 +1266,14 @@ const COMISSAO_DATA = {
           "ating_acumulado": 0.0
         }
       ],
-      "ating_acumulado_total": 0.5079,
-      "pct_premio": 0.0076185,
+      "ating_acumulado_total": 0.511391,
+      "pct_premio": 0.00767086,
       "liq_rigarr": 88934.15,
       "fat_castas": 9612.3,
       "teto_comissao": null,
-      "com_rigarr": 677.54,
-      "com_castas": 73.23,
-      "comissao_estimada": 750.77
+      "com_rigarr": 682.2,
+      "com_castas": 73.73,
+      "comissao_estimada": 755.93
     },
     {
       "nome": "NÁTALI DE OLIVEIRA - OFF TRADE",
