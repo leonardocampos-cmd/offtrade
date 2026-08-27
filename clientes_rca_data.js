@@ -1,6 +1,6 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "27/08/2026 16:47",
+  "atualizado_em": "27/08/2026 17:42",
   "total": 25520,
   "clientes": [
     {
@@ -62978,8 +62978,8 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "VIVIANI ALVES - OFF TRADE",
       "codusur2": "91",
       "nome_usur2": "VIVIANI ALVES - OFF TRADE",
-      "ultimo_rca": "365",
-      "ultimo_rca_nome": "IGOR PEREIRA",
+      "ultimo_rca": "91",
+      "ultimo_rca_nome": "VIVIANI ALVES - OFF TRADE",
       "ultimo_rca_ot": "91",
       "ultimo_rca_ot_nome": "VIVIANI ALVES - OFF TRADE"
     },
@@ -67254,8 +67254,8 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MERCADO",
       "key_account": false,
       "rede": "",
-      "codusur1": "378",
-      "nome_usur1": "FABIO VALOTTI - OFF TRADE",
+      "codusur1": "147",
+      "nome_usur1": "THIAGO MENDES",
       "codusur2": "238",
       "nome_usur2": "DANIELLE MOURA - OFF TRADE",
       "ultimo_rca": "158",
@@ -94524,26 +94524,6 @@ const CLIENTES_RCA_DATA = {
       "ultimo_rca_ot_nome": ""
     },
     {
-      "codcli": "60079",
-      "razao": "BAR RESTAURANTE E LANCHONETE ALDIMIR LTDA",
-      "fantasia": "PAVAO VERDE",
-      "bairro": "COPACABANA",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "33.364.346/0001-28",
-      "estado": "RJ",
-      "ramo": "BAR",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": "",
-      "ultimo_rca": "35",
-      "ultimo_rca_nome": "LAIS POPPE VILLANOVA",
-      "ultimo_rca_ot": "",
-      "ultimo_rca_ot_nome": ""
-    },
-    {
       "codcli": "32775",
       "razao": "BAR RESTAURANTE E LANCHONETE TDL LTDA",
       "fantasia": "BAR RESTAURANTE E LANCHONETE TDL",
@@ -99398,8 +99378,8 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "DIOGO RAPOSO - OFF TRADE",
       "codusur2": "312",
       "nome_usur2": "LAYZ WERNECK",
-      "ultimo_rca": "",
-      "ultimo_rca_nome": "",
+      "ultimo_rca": "144",
+      "ultimo_rca_nome": "DIOGO RAPOSO - OFF TRADE",
       "ultimo_rca_ot": "144",
       "ultimo_rca_ot_nome": "DIOGO RAPOSO - OFF TRADE"
     },
@@ -195258,10 +195238,10 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "BRUNO BARBOSA - OFF TRADE",
       "codusur2": "",
       "nome_usur2": "",
-      "ultimo_rca": "",
-      "ultimo_rca_nome": "",
-      "ultimo_rca_ot": "",
-      "ultimo_rca_ot_nome": ""
+      "ultimo_rca": "425",
+      "ultimo_rca_nome": "BRUNO BARBOSA - OFF TRADE",
+      "ultimo_rca_ot": "425",
+      "ultimo_rca_ot_nome": "BRUNO BARBOSA - OFF TRADE"
     },
     {
       "codcli": "84434",
@@ -337498,10 +337478,10 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "LUCAS BUENO - OFF TRADE",
       "codusur2": "",
       "nome_usur2": "",
-      "ultimo_rca": "",
-      "ultimo_rca_nome": "",
-      "ultimo_rca_ot": "",
-      "ultimo_rca_ot_nome": ""
+      "ultimo_rca": "475",
+      "ultimo_rca_nome": "LUCAS BUENO - OFF TRADE",
+      "ultimo_rca_ot": "475",
+      "ultimo_rca_ot_nome": "LUCAS BUENO - OFF TRADE"
     },
     {
       "codcli": "50629",
@@ -375124,6 +375104,26 @@ const CLIENTES_RCA_DATA = {
       "ultimo_rca_ot_nome": ""
     },
     {
+      "codcli": "39918",
+      "razao": "PADARIA E CONFEITARIA SUPER MARTE LTDA",
+      "fantasia": "MARTE PAES",
+      "bairro": "JARDIM RIACHO DAS PEDRAS",
+      "cidade": "CONTAGEM",
+      "cnpj": "28.762.855/0001-79",
+      "estado": "MG",
+      "ramo": "OUTROS",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "327",
+      "nome_usur1": "JOÃO SANTOS - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": "",
+      "ultimo_rca": "",
+      "ultimo_rca_nome": "",
+      "ultimo_rca_ot": "",
+      "ultimo_rca_ot_nome": ""
+    },
+    {
       "codcli": "74670",
       "razao": "PADARIA E CONFEITARIA TIMBAUBA RIO LTDA",
       "fantasia": "PADARIA E CONFEITARIA TIMBAUBA RIO",
@@ -394674,8 +394674,8 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MERCADO",
       "key_account": false,
       "rede": "",
-      "codusur1": "412",
-      "nome_usur1": "BARBARA CABRAL - OFF TRADE",
+      "codusur1": "431",
+      "nome_usur1": "ADEILSON GONÇALVEZ - OFF TRADE",
       "codusur2": "238",
       "nome_usur2": "DANIELLE MOURA - OFF TRADE",
       "ultimo_rca": "",
@@ -472178,10 +472178,10 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "RAFAEL REIS - OFF TRADE",
       "codusur2": "",
       "nome_usur2": "",
-      "ultimo_rca": "",
-      "ultimo_rca_nome": "",
-      "ultimo_rca_ot": "",
-      "ultimo_rca_ot_nome": ""
+      "ultimo_rca": "515",
+      "ultimo_rca_nome": "RAFAEL REIS - OFF TRADE",
+      "ultimo_rca_ot": "515",
+      "ultimo_rca_ot_nome": "RAFAEL REIS - OFF TRADE"
     },
     {
       "codcli": "81505",
