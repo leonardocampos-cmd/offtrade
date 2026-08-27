@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_mg.py
 
 const NAO_POS_MG_DATA = {
-  "atualizado_em": "27/08/2026 16:46",
+  "atualizado_em": "27/08/2026 17:41",
   "por_vendedor": {
     "BRUNA CASTRO MELLO": [
       {
@@ -511,32 +511,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "37330",
-        "cliente": "UNISSUL SUPERMERCADOS S/A",
-        "bairro": "NOVA ERA",
-        "dtultcomp": "30/07/2026",
-        "produtos": [
-          {
-            "produto": "VILLA ROSA BRANCO 750ML",
-            "fantasia": "CASTAS",
-            "qt": 12,
-            "valor": 514.8
-          },
-          {
-            "produto": "VILLA ROSA ROSE 750ML",
-            "fantasia": "CASTAS",
-            "qt": 6,
-            "valor": 257.4
-          },
-          {
-            "produto": "VODKA ORLOFF 1L - DEST",
-            "fantasia": "",
-            "qt": 12,
-            "valor": 245.04
-          }
-        ]
-      },
-      {
         "codcli": "37327",
         "cliente": "UNISSUL SUPERMERCADOS S/A",
         "bairro": "CENTRO",
@@ -553,6 +527,32 @@ const NAO_POS_MG_DATA = {
             "fantasia": "CASTAS",
             "qt": 6,
             "valor": 293.4
+          },
+          {
+            "produto": "VODKA ORLOFF 1L - DEST",
+            "fantasia": "",
+            "qt": 12,
+            "valor": 245.04
+          }
+        ]
+      },
+      {
+        "codcli": "37330",
+        "cliente": "UNISSUL SUPERMERCADOS S/A",
+        "bairro": "NOVA ERA",
+        "dtultcomp": "30/07/2026",
+        "produtos": [
+          {
+            "produto": "VILLA ROSA BRANCO 750ML",
+            "fantasia": "CASTAS",
+            "qt": 12,
+            "valor": 514.8
+          },
+          {
+            "produto": "VILLA ROSA ROSE 750ML",
+            "fantasia": "CASTAS",
+            "qt": 6,
+            "valor": 257.4
           },
           {
             "produto": "VODKA ORLOFF 1L - DEST",
@@ -1286,26 +1286,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "33014",
-        "cliente": "ER COZINHA ARTESANAL LTDA",
-        "bairro": "LOURDES",
-        "dtultcomp": "18/06/2026",
-        "produtos": [
-          {
-            "produto": "YVY DESTILADO GIN AR LT 710ML",
-            "fantasia": "YVY",
-            "qt": 4,
-            "valor": 159.6
-          },
-          {
-            "produto": "YVY DESTILADO GIN MAR  LT 710ML",
-            "fantasia": "YVY",
-            "qt": 4,
-            "valor": 159.6
-          }
-        ]
-      },
-      {
         "codcli": "32871",
         "cliente": "ER COZINHA ARTESANAL LTDA",
         "bairro": "VILA DA SERRA",
@@ -1322,6 +1302,26 @@ const NAO_POS_MG_DATA = {
             "fantasia": "YVY",
             "qt": 6,
             "valor": 239.4
+          }
+        ]
+      },
+      {
+        "codcli": "33014",
+        "cliente": "ER COZINHA ARTESANAL LTDA",
+        "bairro": "LOURDES",
+        "dtultcomp": "18/06/2026",
+        "produtos": [
+          {
+            "produto": "YVY DESTILADO GIN AR LT 710ML",
+            "fantasia": "YVY",
+            "qt": 4,
+            "valor": 159.6
+          },
+          {
+            "produto": "YVY DESTILADO GIN MAR  LT 710ML",
+            "fantasia": "YVY",
+            "qt": 4,
+            "valor": 159.6
           }
         ]
       },
@@ -2481,6 +2481,13 @@ const NAO_POS_MG_DATA = {
         "produtos": []
       },
       {
+        "codcli": "39918",
+        "cliente": "PADARIA E CONFEITARIA SUPER MARTE LTDA",
+        "bairro": "JARDIM RIACHO DAS PEDRAS",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
         "codcli": "39683",
         "cliente": "RESTAURANTE CASA CAJU LTDA",
         "bairro": "POMPÉIA",
@@ -2807,26 +2814,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "36399",
-        "cliente": "COLIBRI LOJA DE CONVENIENCIA",
-        "bairro": "SÃO LUIZ",
-        "dtultcomp": "17/06/2026",
-        "produtos": [
-          {
-            "produto": "GIN GORDONS 750 ML",
-            "fantasia": "DIAGEO",
-            "qt": 2,
-            "valor": 106.3
-          },
-          {
-            "produto": "GIN GORDONS PINK 700ML",
-            "fantasia": "DIAGEO",
-            "qt": 2,
-            "valor": 106.3
-          }
-        ]
-      },
-      {
         "codcli": "38664",
         "cliente": "MERCANTIL MENDES RESENDE LTDA.",
         "bairro": "PROVIDÊNCIA",
@@ -3033,32 +3020,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "31571",
-        "cliente": "PARANAIBA EXPRESS",
-        "bairro": "ALPHAVILLE VESPASIANO",
-        "dtultcomp": "13/07/2026",
-        "produtos": [
-          {
-            "produto": "GIN GORDONS 750 ML",
-            "fantasia": "DIAGEO",
-            "qt": 2,
-            "valor": 111.8
-          },
-          {
-            "produto": "GIN GORDONS PINK 700ML",
-            "fantasia": "DIAGEO",
-            "qt": 2,
-            "valor": 111.8
-          },
-          {
-            "produto": "VINHO CHAO DO CONDE FINO BRANCO 750ML",
-            "fantasia": "CASTAS",
-            "qt": 6,
-            "valor": 239.4
-          }
-        ]
-      },
-      {
         "codcli": "29878",
         "cliente": "PARANAIBA RIO BRANCO SUPERMERCADOS EIRELI",
         "bairro": "RIO BRANCO",
@@ -3159,20 +3120,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "DIAGEO",
             "qt": 36,
             "valor": 2444.4
-          }
-        ]
-      },
-      {
-        "codcli": "37718",
-        "cliente": "PARANAIBA VALE DAS ORQUIDEAS ALIMENTOS LTDA",
-        "bairro": "VALE DAS ORQUÍDEAS",
-        "dtultcomp": "22/07/2026",
-        "produtos": [
-          {
-            "produto": "COQUETEL ALCOÓLICO DON CREAM DULCE DE LE",
-            "fantasia": "DON LUIZ",
-            "qt": 60,
-            "valor": 4494.0
           }
         ]
       },
