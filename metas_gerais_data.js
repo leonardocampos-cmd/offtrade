@@ -1,12 +1,12 @@
 const METAS_GERAIS_DATA = {
-  "atualizado_em": "27/08/2026 11:17",
+  "atualizado_em": "27/08/2026 12:20",
   "mes": "Ago/26",
   "mes_ant": "Jul/26",
   "dias_corridos": 27,
   "dias_no_mes": 31,
   "dias_restantes": 4,
   "resumo": {
-    "fat": 12683772.83,
+    "fat": 12710711.63,
     "fat_ant": 9708973.1,
     "fat_ant_completo": 13456599.65,
     "pos": 1664,
@@ -15,10 +15,10 @@ const METAS_GERAIS_DATA = {
   },
   "total": {
     "meta": 12300000.0,
-    "fat": 12683772.83,
+    "fat": 12710711.63,
     "fat_ant": 9708973.1,
     "fat_ant_completo": 13456599.65,
-    "pct": 103.1,
+    "pct": 103.3,
     "nec_dia": 0.0
   },
   "estados": [
@@ -65,11 +65,11 @@ const METAS_GERAIS_DATA = {
       "estado": "MG",
       "label": "Minas Gerais",
       "meta": 2100000.0,
-      "fat": 1694450.14,
+      "fat": 1721388.94,
       "fat_ant": 1008342.18,
       "pos": 243,
-      "pct": 80.7,
-      "nec_dia": 101387.47,
+      "pct": 82.0,
+      "nec_dia": 94652.77,
       "fat_ant_completo": 1873633.49,
       "pos_ant": 232,
       "pos_ant_completo": 271
@@ -187,6 +187,17 @@ const METAS_GERAIS_DATA = {
       }
     },
     {
+      "fantasia": "AURORA",
+      "fat": 213984.54,
+      "fat_ant": 209648.26,
+      "por_estado": {
+        "RJ": 14789.1,
+        "SP": 148278.84,
+        "ES": 0.0,
+        "MG": 50916.6
+      }
+    },
+    {
       "fantasia": "MONIN",
       "fat": 205551.6,
       "fat_ant": 30315.1,
@@ -206,17 +217,6 @@ const METAS_GERAIS_DATA = {
         "SP": 167523.7,
         "ES": 0.0,
         "MG": 0.0
-      }
-    },
-    {
-      "fantasia": "AURORA",
-      "fat": 187045.74,
-      "fat_ant": 209648.26,
-      "por_estado": {
-        "RJ": 14789.1,
-        "SP": 148278.84,
-        "ES": 0.0,
-        "MG": 23977.8
       }
     },
     {
