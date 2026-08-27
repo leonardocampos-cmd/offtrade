@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_mg.py
 
 const NAO_POS_MG_DATA = {
-  "atualizado_em": "26/08/2026 17:00",
+  "atualizado_em": "27/08/2026 10:38",
   "por_vendedor": {
     "BRUNA CASTRO MELLO": [
       {
@@ -2108,50 +2108,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "31113",
-        "cliente": "FELIPE ROBERTO SILVA RIBEIRO 08734193677",
-        "bairro": "ANGOLA",
-        "dtultcomp": "27/07/2026",
-        "produtos": [
-          {
-            "produto": "APERITIVO APEROL 750 ML",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 48.9
-          },
-          {
-            "produto": "LICOR STOCK CURACAU 720 ML",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 56.9
-          },
-          {
-            "produto": "LICOR STOCK MARULA 720 ML",
-            "fantasia": "",
-            "qt": 2,
-            "valor": 129.8
-          },
-          {
-            "produto": "LICOR STOCK PESSEGO 720 ML",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 56.9
-          },
-          {
-            "produto": "ST PIERRE ZERO PINK LEMON  310 ML",
-            "fantasia": "TATUZINHO",
-            "qt": 2,
-            "valor": 53.8
-          },
-          {
-            "produto": "TEQUILA J CUERVO GOLD 750ML",
-            "fantasia": "AURORA",
-            "qt": 1,
-            "valor": 119.9
-          }
-        ]
-      },
-      {
         "codcli": "33778",
         "cliente": "SMEP BH HOTEIS LTDA",
         "bairro": "BARRO PRETO",
@@ -3988,26 +3944,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "CASTAS",
             "qt": 1,
             "valor": 57.9
-          }
-        ]
-      },
-      {
-        "codcli": "38612",
-        "cliente": "CASA DE FRIOS E MASSAS AO GOSTO LTDA",
-        "bairro": "JARDIM ATLÂNTICO",
-        "dtultcomp": "17/07/2026",
-        "produtos": [
-          {
-            "produto": "4 PACK RED BULL TROPICAL",
-            "fantasia": "RED BULL",
-            "qt": 4,
-            "valor": 123.04
-          },
-          {
-            "produto": "RED BULL 250ML CAIXA C/24 UNID",
-            "fantasia": "RED BULL",
-            "qt": 1,
-            "valor": 184.56
           }
         ]
       },
