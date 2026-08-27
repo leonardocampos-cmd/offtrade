@@ -1,6 +1,7 @@
 """Crédito e Cadastro de Cliente."""
 import os, re, base64, json, urllib.parse
 from email.mime.text import MIMEText
+from pathlib import Path
 
 import streamlit as st
 import pandas as pd
@@ -23,7 +24,7 @@ SCHEMA             = "CRC"
 # última venda, nem elegibilidade de troca de RCA).
 FONTES_CLIENTE     = [("crc", "CRC"), ("garrido", "GARRIDO")]
 EMAIL_FINANCEIRO   = "cadastro@rigarr.com.br"
-EMAIL_CADASTRO_CC  = "danielle.soares@rigarr.com.br"
+EMAIL_CADASTRO_CC  = "danielle.soares@rigarr.com.br,leonardo.campos@rigarr.com.br"
 WHATSAPP_FINANCEIRO = "5521964384318"
 CHAVE_API_CNPJ     = os.getenv("CHAVE_API_CNPJ", "")
 EVOLUTION_API_URL  = os.getenv("EVOLUTION_API_URL", os.getenv("EVOLUTION_BASE_URL", ""))
@@ -97,6 +98,55 @@ def _enviar_email(assunto: str, corpo: str, cc: str = None) -> bool:
     except Exception as e:
         st.warning(f"Erro ao enviar e-mail: {e}")
         return False
+
+
+# Historico de solicitacoes ja enviadas (mesmo padrao de canhoto_status.json/
+# kanban_data.json: JSON simples + escrita atomica tmp+rename), pra nao
+# deixar mandar a mesma solicitacao de novo sem avisar. Pedido do usuario em
+# 2026-08-27, exemplo concreto: pedir troca de RCA 1 pro RCA 431 do mesmo
+# cliente uma segunda vez sem saber que ja tinha sido pedido.
+SOLICITACOES_PATH = Path(__file__).resolve().parent.parent / "solicitacoes_cadastro.json"
+
+
+def _carregar_solicitacoes() -> dict:
+    if not SOLICITACOES_PATH.exists():
+        return {"novo_cadastro": [], "alteracao": []}
+    try:
+        return json.loads(SOLICITACOES_PATH.read_text(encoding="utf-8"))
+    except Exception:
+        return {"novo_cadastro": [], "alteracao": []}
+
+
+def _registrar_solicitacao(tipo: str, registro: dict):
+    dados = _carregar_solicitacoes()
+    dados.setdefault(tipo, []).append(registro)
+    tmp = f"{SOLICITACOES_PATH}.tmp"
+    with open(tmp, "w", encoding="utf-8") as f:
+        json.dump(dados, f, ensure_ascii=False, indent=2)
+    os.replace(tmp, SOLICITACOES_PATH)
+
+
+def _cadastro_ja_solicitado(cnpj_limpo: str):
+    achados = [s for s in _carregar_solicitacoes().get("novo_cadastro", []) if s.get("cnpj") == cnpj_limpo]
+    return achados[-1] if achados else None
+
+
+def _alteracoes_duplicadas(codcli: int, fonte: str, preenchidos: dict) -> dict:
+    """Pra cada campo preenchido no formulario atual, devolve o registro mais
+    recente ja enviado pro MESMO cliente com o MESMO valor (comparacao
+    case-insensitive) — usado pra avisar sem bloquear campos novos."""
+    historico = _carregar_solicitacoes().get("alteracao", [])
+    duplicadas = {}
+    for campo, valor in preenchidos.items():
+        anteriores = [
+            s for s in historico
+            if s.get("codcli") == codcli and s.get("fonte") == fonte
+            and s.get("campo") == campo
+            and str(s.get("novo_valor", "")).strip().lower() == valor.strip().lower()
+        ]
+        if anteriores:
+            duplicadas[campo] = anteriores[-1]
+    return duplicadas
 
 
 def _fetch_cnpj(cnpj_limpo: str, incluir_registros: bool = True) -> dict:
@@ -395,41 +445,74 @@ if busca:
                         else:
                             st.error("Digite apenas números.")
 
+                _pendente_novo_key   = f"pendente_novo_cadastro_{cnpj_limpo}"
+                _confirmar_novo_key  = f"confirmar_dup_novo_{cnpj_limpo}"
+
                 if st.button("Solicitar cadastro por e-mail", disabled=not nome_rca):
-                    from datetime import datetime as _dt
-                    import zoneinfo as _zi
-                    _hora     = _dt.now(_zi.ZoneInfo("America/Sao_Paulo")).hour
-                    _saudacao = "Bom dia" if _hora < 12 else ("Boa tarde" if _hora < 18 else "Boa noite")
-                    dados_receita = _consultar_cnpj_receita(busca)
-                    # Trava: sem confirmação real do CNPJ na Receita Federal (a
-                    # tela já mostrou os dados acima, mas essa é uma consulta
-                    # NOVA e independente, feita agora na hora de enviar — pode
-                    # falhar mesmo com a consulta de exibição tendo funcionado)
-                    # o e-mail não sai mais — antes caía num fallback "solicito
-                    # cadastro manual" mesmo sem confirmar nada (pedido do
-                    # usuário em 2026-08-27, depois de ver esse fallback
-                    # acontecer sem CNPJ confirmado).
-                    if not dados_receita or dados_receita.startswith("ERRO:"):
-                        st.error(
-                            "Não foi possível confirmar o CNPJ na Receita Federal agora — "
-                            "e-mail de cadastro NÃO enviado por segurança. Aguarde um instante "
-                            "e tente novamente."
+                    st.session_state[_pendente_novo_key] = True
+
+                if st.session_state.get(_pendente_novo_key):
+                    duplicata = _cadastro_ja_solicitado(cnpj_limpo) if len(cnpj_limpo) == 14 else None
+                    if duplicata and not st.session_state.get(_confirmar_novo_key):
+                        # Avisa em vez de bloquear de vez — o time de cadastro pode
+                        # simplesmente ainda não ter atendido a primeira solicitação
+                        # (pedido do usuário em 2026-08-27, exemplo: pedir troca de
+                        # RCA pro mesmo cliente uma segunda vez sem saber que já
+                        # tinha sido pedido).
+                        st.warning(
+                            f"⚠️ Já foi solicitado o cadastro deste CNPJ em {duplicata['data']} "
+                            f"(por {duplicata.get('rca', '—')}). Envie de novo só se o time de "
+                            "cadastro ainda não deu retorno."
                         )
+                        col_conf, col_canc = st.columns(2)
+                        if col_conf.button("Enviar mesmo assim", key=f"btn_confirmar_{_pendente_novo_key}"):
+                            st.session_state[_confirmar_novo_key] = True
+                            st.rerun()
+                        if col_canc.button("Cancelar", key=f"btn_cancelar_{_pendente_novo_key}"):
+                            st.session_state.pop(_pendente_novo_key, None)
+                            st.rerun()
                     else:
-                        rca_linha = f"RCA Solicitante  : {nome_rca} (cód. {codusur_input})"
-                        obs_ie = (
-                            "\n\n⚠️ Observação: a Inscrição Estadual não pôde ser verificada "
-                            "automaticamente no momento da solicitação (serviço do provedor fora "
-                            "do ar) — favor confirmar manualmente antes de aprovar o cadastro."
-                            if ie_indisponivel else ""
-                        )
-                        corpo = (
-                            f"{_saudacao},\n\nSolicito o cadastramento do cliente:\n\n"
-                            f"{rca_linha}\n\nDados da Receita Federal:\n\n{dados_receita}{obs_ie}\n\n"
-                            f"Podem realizar o cadastro?\n\nObrigado!"
-                        )
-                        if _enviar_email("Solicitação de Cadastro de Cliente", corpo, cc=EMAIL_CADASTRO_CC):
-                            st.success("Solicitação enviada ao time de cadastro.")
+                        from datetime import datetime as _dt
+                        import zoneinfo as _zi
+                        _hora     = _dt.now(_zi.ZoneInfo("America/Sao_Paulo")).hour
+                        _saudacao = "Bom dia" if _hora < 12 else ("Boa tarde" if _hora < 18 else "Boa noite")
+                        dados_receita = _consultar_cnpj_receita(busca)
+                        # Trava: sem confirmação real do CNPJ na Receita Federal (a
+                        # tela já mostrou os dados acima, mas essa é uma consulta
+                        # NOVA e independente, feita agora na hora de enviar — pode
+                        # falhar mesmo com a consulta de exibição tendo funcionado)
+                        # o e-mail não sai mais — antes caía num fallback "solicito
+                        # cadastro manual" mesmo sem confirmar nada (pedido do
+                        # usuário em 2026-08-27, depois de ver esse fallback
+                        # acontecer sem CNPJ confirmado).
+                        if not dados_receita or dados_receita.startswith("ERRO:"):
+                            st.error(
+                                "Não foi possível confirmar o CNPJ na Receita Federal agora — "
+                                "e-mail de cadastro NÃO enviado por segurança. Aguarde um instante "
+                                "e tente novamente."
+                            )
+                        else:
+                            rca_linha = f"RCA Solicitante  : {nome_rca} (cód. {codusur_input})"
+                            obs_ie = (
+                                "\n\n⚠️ Observação: a Inscrição Estadual não pôde ser verificada "
+                                "automaticamente no momento da solicitação (serviço do provedor fora "
+                                "do ar) — favor confirmar manualmente antes de aprovar o cadastro."
+                                if ie_indisponivel else ""
+                            )
+                            corpo = (
+                                f"{_saudacao},\n\nSolicito o cadastramento do cliente:\n\n"
+                                f"{rca_linha}\n\nDados da Receita Federal:\n\n{dados_receita}{obs_ie}\n\n"
+                                f"Podem realizar o cadastro?\n\nObrigado!"
+                            )
+                            if _enviar_email("Solicitação de Cadastro de Cliente", corpo, cc=EMAIL_CADASTRO_CC):
+                                st.success("Solicitação enviada ao time de cadastro.")
+                                _registrar_solicitacao("novo_cadastro", {
+                                    "cnpj": cnpj_limpo,
+                                    "data": _dt.now(_zi.ZoneInfo("America/Sao_Paulo")).strftime("%d/%m/%Y %H:%M"),
+                                    "rca": f"{nome_rca} (cód. {codusur_input})",
+                                })
+                        st.session_state.pop(_pendente_novo_key, None)
+                        st.session_state.pop(_confirmar_novo_key, None)
 
         else:
             row        = df.iloc[0]
@@ -514,42 +597,124 @@ Cód: {row["CODCLI"]} &nbsp;|&nbsp; CNPJ: {cnpj_fmt}
             elif codusur_solicitante and codusur_atual and codusur_atual != codusur_solicitante:
                 st.info(f"ℹ️ Este cliente já possui vendedor dedicado: **{nome_rca_atual}** (cód. {codusur_atual}).")
 
+            # ── Botões de alternância das duas seções abaixo ─────────────────
+            # Antes as duas seções (Alteração de Cadastro / Limite-Desbloqueio)
+            # ficavam sempre visíveis uma embaixo da outra. A pedido do usuário
+            # em 2026-08-24, agora só aparecem quando o botão correspondente é
+            # clicado — usa session_state por CODCLI pra lembrar qual seção
+            # está aberta (clicar de novo no mesmo botão fecha).
+            secao_key = f"secao_ativa_{row['CODCLI']}"
+            secao_ativa = st.session_state.get(secao_key)
+            acabou_de_abrir = False
+
+            st.markdown("---")
+            ancora_id = f"secao-campos-{row['CODCLI']}"
+            st.markdown(f'<div id="{ancora_id}"></div>', unsafe_allow_html=True)
+            col_btn1, col_btn2 = st.columns(2)
+            if col_btn1.button("✏️ Alteração de Cadastro", key=f"btn_cadastro_{row['CODCLI']}", use_container_width=True):
+                secao_ativa = None if secao_ativa == "cadastro" else "cadastro"
+                st.session_state[secao_key] = secao_ativa
+                acabou_de_abrir = secao_ativa is not None
+            if col_btn2.button("💰 Pedir Limite/Desbloqueio Financeiro", key=f"btn_limite_{row['CODCLI']}", use_container_width=True):
+                secao_ativa = None if secao_ativa == "limite" else "limite"
+                st.session_state[secao_key] = secao_ativa
+                acabou_de_abrir = secao_ativa is not None
+
+            if acabou_de_abrir:
+                # components.html roda dentro de um iframe — só assim o <script>
+                # é executado de fato (st.markdown com unsafe_allow_html injeta
+                # a tag <script> no DOM mas o navegador não a executa). Precisa
+                # de window.parent pra alcançar a página principal do Streamlit.
+                st.components.v1.html(
+                    f"""<script>
+                    var el = window.parent.document.getElementById("{ancora_id}");
+                    if (el) {{ el.scrollIntoView({{behavior: "smooth", block: "start"}}); }}
+                    </script>""",
+                    height=0,
+                )
+
             # ── Alteração de Cadastro ────────────────────────────────────────
             # Campos estruturados (não texto livre) — cada campo selecionado
             # ganha seu próprio input de "novo valor", igual ao padrão de
             # e-mail estruturado já usado em Troca de RCA/Limite acima.
-            st.markdown("---")
-            st.markdown("#### ✏️ Alteração de Cadastro")
-            campos_alteracao = st.multiselect(
-                "Quais informações precisam ser atualizadas?",
-                ["Nome Fantasia", "Razão Social", "Endereço", "Bairro", "Cidade/UF", "CEP",
-                 "Telefone", "E-mail", "Contato/Responsável", "RCA 1", "RCA 2", "Outro"],
-                key=f"campos_alt_{row['CODCLI']}",
-            )
-            if campos_alteracao:
-                with st.form(f"form_alteracao_{row['CODCLI']}"):
-                    novos_valores = {
-                        campo: st.text_input(f"Novo valor — {campo}", key=f"novo_{campo}_{row['CODCLI']}")
-                        for campo in campos_alteracao
-                    }
-                    enviado_alt = st.form_submit_button("📧 Enviar Solicitação de Alteração")
+            if secao_ativa == "cadastro":
+                st.markdown("#### ✏️ Alteração de Cadastro")
+                campos_alteracao = st.multiselect(
+                    "Quais informações precisam ser atualizadas?",
+                    ["Nome Fantasia", "Razão Social", "Endereço",
+                     "Telefone", "E-mail", "Contato/Responsável", "RCA 1", "RCA 2", "Outro"],
+                    key=f"campos_alt_{row['CODCLI']}",
+                    placeholder="Escolha as opções",
+                )
+                if campos_alteracao:
+                    with st.form(f"form_alteracao_{row['CODCLI']}"):
+                        novos_valores = {
+                            campo: st.text_input(f"Novo valor — {campo}", key=f"novo_{campo}_{row['CODCLI']}")
+                            for campo in campos_alteracao
+                        }
+                        enviado_alt = st.form_submit_button("📧 Enviar Solicitação de Alteração")
 
-                if enviado_alt:
-                    preenchidos = {c: v.strip() for c, v in novos_valores.items() if v.strip()}
-                    if not preenchidos:
-                        st.warning("Preencha ao menos um novo valor antes de enviar.")
-                    else:
-                        linhas_campos = "\n".join(f"{c}: {v}" for c, v in preenchidos.items())
-                        corpo_alt = (
-                            f"Solicito a atualização de cadastro do cliente:\n\n"
-                            f"{info_cliente}\n\n"
-                            f"Campos a alterar:\n{linhas_campos}\n\n"
-                            f"Podem realizar a atualização?\n\nObrigado!"
-                        )
-                        if _enviar_email(f"Solicitação de Alteração de Cadastro — {row['NOME']}", corpo_alt, cc=EMAIL_CADASTRO_CC):
-                            st.success("Solicitação de alteração enviada ao time de cadastro.")
+                    _pendente_alt_key = f"pendente_alt_{row['CODCLI']}"
+                    _confirmar_alt_key = f"confirmar_dup_alt_{row['CODCLI']}"
 
-            st.markdown("---")
+                    if enviado_alt:
+                        preenchidos = {c: v.strip() for c, v in novos_valores.items() if v.strip()}
+                        if not preenchidos:
+                            st.warning("Preencha ao menos um novo valor antes de enviar.")
+                        else:
+                            st.session_state[_pendente_alt_key] = preenchidos
+                            st.session_state.pop(_confirmar_alt_key, None)
+
+                    _pendente_alt = st.session_state.get(_pendente_alt_key)
+                    if _pendente_alt:
+                        duplicadas = _alteracoes_duplicadas(int(row["CODCLI"]), row["FONTE"], _pendente_alt)
+                        if duplicadas and not st.session_state.get(_confirmar_alt_key):
+                            # Avisa em vez de bloquear de vez — o time de cadastro
+                            # pode simplesmente ainda não ter atendido a primeira
+                            # solicitação (pedido do usuário em 2026-08-27, exemplo
+                            # concreto: pedir troca de RCA 1 pro RCA 431 do mesmo
+                            # cliente uma segunda vez sem saber que já tinha sido
+                            # pedido).
+                            linhas_dup = "\n".join(
+                                f"- **{campo}** → \"{info['novo_valor']}\" já solicitado em {info['data']}"
+                                for campo, info in duplicadas.items()
+                            )
+                            st.warning(
+                                f"⚠️ Já existe solicitação idêntica pra este cliente:\n\n{linhas_dup}\n\n"
+                                "Envie de novo só se o time de cadastro ainda não deu retorno."
+                            )
+                            col_conf, col_canc = st.columns(2)
+                            if col_conf.button("Enviar mesmo assim", key=f"btn_confirmar_{_pendente_alt_key}"):
+                                st.session_state[_confirmar_alt_key] = True
+                                st.rerun()
+                            if col_canc.button("Cancelar", key=f"btn_cancelar_{_pendente_alt_key}"):
+                                st.session_state.pop(_pendente_alt_key, None)
+                                st.rerun()
+                        else:
+                            linhas_campos = "\n".join(f"{c}: {v}" for c, v in _pendente_alt.items())
+                            corpo_alt = (
+                                f"Solicito a atualização de cadastro do cliente:\n\n"
+                                f"{info_cliente}\n\n"
+                                f"Campos a alterar:\n{linhas_campos}\n\n"
+                                f"Podem realizar a atualização?\n\nObrigado!"
+                            )
+                            if _enviar_email(f"Solicitação de Alteração de Cadastro — {row['NOME']}", corpo_alt, cc=EMAIL_CADASTRO_CC):
+                                st.success("Solicitação de alteração enviada ao time de cadastro.")
+                                from datetime import datetime as _dt
+                                import zoneinfo as _zi
+                                _agora = _dt.now(_zi.ZoneInfo("America/Sao_Paulo")).strftime("%d/%m/%Y %H:%M")
+                                for campo, valor in _pendente_alt.items():
+                                    _registrar_solicitacao("alteracao", {
+                                        "codcli": int(row["CODCLI"]),
+                                        "fonte": row["FONTE"],
+                                        "campo": campo,
+                                        "novo_valor": valor,
+                                        "data": _agora,
+                                        "rca": f"{rca_info.get('nome', '—')} (cód. {rca_info.get('codusur', '—')})",
+                                    })
+                            st.session_state.pop(_pendente_alt_key, None)
+                            st.session_state.pop(_confirmar_alt_key, None)
+
             # st.form + st.form_submit_button em vez de widgets soltos + st.button:
             # a tentativa anterior (comentário removido) achava que st.button já
             # bastava, mas number_input/selectbox só sincronizam o valor digitado
@@ -559,45 +724,47 @@ Cód: {row["CODCLI"]} &nbsp;|&nbsp; CNPJ: {cnpj_fmt}
             # form_submit_button é clicado, então o valor atual sempre é capturado
             # (confirmado bug reportado pelo usuário em 2026-08-13: valor e prazo
             # não apareciam na mensagem).
-            with st.form("form_limite_pedido"):
-                col_valor, col_prazo = st.columns(2)
-                valor_pedido = col_valor.number_input("Valor do pedido (R$)", min_value=0.0, step=100.0, format="%.2f")
-                prazo_pagto  = col_prazo.selectbox("Prazo de pagamento (dias)", [7, 14, 21, 28, 30, 35, 42, 45, 60, 90], index=4)
+            if secao_ativa == "limite":
+                st.markdown("#### 💰 Pedir Limite/Desbloqueio Financeiro")
+                with st.form(f"form_limite_pedido_{row['CODCLI']}"):
+                    col_valor, col_prazo = st.columns(2)
+                    valor_pedido = col_valor.number_input("Valor do pedido (R$)", min_value=0.0, step=100.0, format="%.2f")
+                    prazo_pagto  = col_prazo.selectbox("Prazo de pagamento (dias)", [7, 14, 21, 28, 30, 35, 42, 45, 60, 90], index=4)
 
-                if bloqueado:
-                    assunto     = f"Solicitação de Desbloqueio — {row['NOME']}"
-                    valor_linha = f"Valor do Pedido    : {fmt_brl(valor_pedido)}" if valor_pedido > 0 else ""
-                    prazo_linha = f"Prazo de Pagamento : {prazo_pagto} dias"
-                    corpo       = (
-                        f"Solicitação de desbloqueio de cliente.\n\n{info_cliente}\n"
-                        + (f"{valor_linha}\n" if valor_linha else "")
-                        + f"{prazo_linha}\n"
-                        + f"\nPodem realizar o desbloqueio?\n\nObrigado!"
+                    if bloqueado:
+                        assunto     = f"Solicitação de Desbloqueio — {row['NOME']}"
+                        valor_linha = f"Valor do Pedido    : {fmt_brl(valor_pedido)}" if valor_pedido > 0 else ""
+                        prazo_linha = f"Prazo de Pagamento : {prazo_pagto} dias"
+                        corpo       = (
+                            f"Solicitação de desbloqueio de cliente.\n\n{info_cliente}\n"
+                            + (f"{valor_linha}\n" if valor_linha else "")
+                            + f"{prazo_linha}\n"
+                            + f"\nPodem realizar o desbloqueio?\n\nObrigado!"
+                        )
+                        label_btn = "Solicitar Desbloqueio pelo WhatsApp"
+                    else:
+                        assunto     = f"Solicitação de Limite — {row['NOME']}"
+                        valor_linha = f"Valor do Pedido    : {fmt_brl(valor_pedido)}" if valor_pedido > 0 else ""
+                        prazo_linha = f"Prazo de Pagamento : {prazo_pagto} dias"
+                        corpo       = (
+                            f"Solicitação de aumento de limite de crédito.\n\n{info_cliente}\n"
+                            + (f"{valor_linha}\n" if valor_linha else "")
+                            + f"{prazo_linha}\n"
+                            + f"\nPodem realizar o ajuste?\n\nObrigado!"
+                        )
+                        label_btn = "Solicitar Aumento de Limite pelo WhatsApp"
+
+                    enviado = st.form_submit_button(f"📲 {label_btn}", use_container_width=True)
+
+                if enviado:
+                    msg_wa = urllib.parse.quote(f"{assunto}\n\n{corpo}")
+                    wa_url = f"https://wa.me/{WHATSAPP_FINANCEIRO}?text={msg_wa}"
+                    st.markdown(
+                        f'<a href="{wa_url}" target="_blank">'
+                        f'<button style="width:100%;padding:.5rem;background:#25D366;color:white;border:none;'
+                        f'border-radius:8px;font-size:1rem;cursor:pointer">✅ Clique aqui para abrir o WhatsApp</button></a>',
+                        unsafe_allow_html=True,
                     )
-                    label_btn = "Solicitar Desbloqueio pelo WhatsApp"
-                else:
-                    assunto     = f"Solicitação de Limite — {row['NOME']}"
-                    valor_linha = f"Valor do Pedido    : {fmt_brl(valor_pedido)}" if valor_pedido > 0 else ""
-                    prazo_linha = f"Prazo de Pagamento : {prazo_pagto} dias"
-                    corpo       = (
-                        f"Solicitação de aumento de limite de crédito.\n\n{info_cliente}\n"
-                        + (f"{valor_linha}\n" if valor_linha else "")
-                        + f"{prazo_linha}\n"
-                        + f"\nPodem realizar o ajuste?\n\nObrigado!"
-                    )
-                    label_btn = "Solicitar Aumento de Limite pelo WhatsApp"
-
-                enviado = st.form_submit_button(f"📲 {label_btn}", use_container_width=True)
-
-            if enviado:
-                msg_wa = urllib.parse.quote(f"{assunto}\n\n{corpo}")
-                wa_url = f"https://wa.me/{WHATSAPP_FINANCEIRO}?text={msg_wa}"
-                st.markdown(
-                    f'<a href="{wa_url}" target="_blank">'
-                    f'<button style="width:100%;padding:.5rem;background:#25D366;color:white;border:none;'
-                    f'border-radius:8px;font-size:1rem;cursor:pointer">✅ Clique aqui para abrir o WhatsApp</button></a>',
-                    unsafe_allow_html=True,
-                )
 
     except Exception as e:
         st.error(f"Erro: {e}")
