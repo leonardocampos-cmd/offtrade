@@ -868,6 +868,7 @@ def _agrupar(df, com_status_log=False):
         if com_status_log:
             _status = _status_log(nf, sistema) if nf else ''
             _rota = _rota_info(nf) if nf else None
+            _data_status = _data_entrega(nf, sistema) if nf else ''
             item['em_rota'] = _rota is not None
             item['rota']    = _rota['rota']  if _rota else ''
             item['placa']   = _rota['placa'] if _rota else ''
@@ -875,8 +876,20 @@ def _agrupar(df, com_status_log=False):
             # depois do desfecho da entrega — enquanto a NF só tem ROTA
             # atribuída (sem desfecho ainda), mostra "EM ROTA" na coluna
             # Status Logística em vez de deixar em branco.
-            item['status_log'] = _status if _status else ('EM ROTA' if _rota is not None else '')
-            item['data_entrega'] = _data_entrega(nf, sistema) if nf else ''
+            #
+            # Uma NF que teve RETORNO num dia pode voltar pra rota no dia
+            # seguinte (reentrega) — se a atribuição de ROTA for mais nova que
+            # a data do último STATUS registrado, esse STATUS ficou obsoleto
+            # (bug real confirmado em 2026-08-27, NF 424866: RETORNO em
+            # 26/08, saiu de novo em rota em 27/08, mas a página continuava
+            # mostrando "RETORNO" porque _status nunca era comparado com a
+            # data da rota, só checava se estava vazio).
+            _rota_mais_nova = bool(_rota and _rota.get('data') and (not _data_status or _rota['data'] > _data_status))
+            if _rota_mais_nova:
+                item['status_log'] = 'EM ROTA'
+            else:
+                item['status_log'] = _status if _status else ('EM ROTA' if _rota is not None else '')
+            item['data_entrega'] = _data_status
             # Motivo da devolução: só faz sentido quando o desfecho da
             # logística foi RETORNO. 'motivo' (MOTIVOPOSICAO/FUNC_CANCEL) normalmente
             # vem vazio pra pedido já faturado — reaproveita o mesmo campo pra
