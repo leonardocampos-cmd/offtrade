@@ -1,7 +1,7 @@
 // Gerado automaticamente por exportacao_comissao.py — ESTIMATIVA, não é a apuração oficial
 
 const COMISSAO_DATA = {
-  "atualizado_em": "27/08/2026 10:41",
+  "atualizado_em": "27/08/2026 11:47",
   "mes_referencia": "08/2026",
   "pct_premio_taxa": 0.015,
   "vendedores": [
@@ -887,7 +887,7 @@ const COMISSAO_DATA = {
       ],
       "ating_acumulado_total": 0.54229,
       "pct_premio": 0.00813435,
-      "liq_rigarr": 36670.42,
+      "liq_rigarr": 37029.96,
       "fat_castas": 0.0,
       "teto_comissao": 2000.0,
       "com_rigarr": 1084.58,
