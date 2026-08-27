@@ -1,5 +1,5 @@
 const ACAO_AMARULA_DATA = {
-  "atualizado_em": "27/08/2026 15:54",
+  "atualizado_em": "27/08/2026 16:38",
   "periodo": {
     "ini": "19/08/2026",
     "fim": "19/09/2026"
@@ -18,20 +18,20 @@ const ACAO_AMARULA_DATA = {
     200
   ],
   "total_vendedores": 25,
-  "total_volume": 9,
-  "total_faturamento": 827.1,
+  "total_volume": 14,
+  "total_faturamento": 1321.6,
   "ranking": [
     {
-      "vendedor": "JORGE MACIEL",
+      "vendedor": "ADEILSON GONÇALVEZ",
       "volume": 6,
-      "faturamento": 539.4,
+      "faturamento": 593.4,
       "elegivel": false,
       "premio": null
     },
     {
-      "vendedor": "ADEILSON GONÇALVEZ",
-      "volume": 1,
-      "faturamento": 98.9,
+      "vendedor": "JORGE MACIEL",
+      "volume": 6,
+      "faturamento": 539.4,
       "elegivel": false,
       "premio": null
     },
