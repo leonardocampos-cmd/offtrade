@@ -58,6 +58,10 @@
 
     /* Cards principais */
     .cards-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(290px, 1fr)); gap: 14px; }
+    .vendas-resumo { display: flex; gap: 16px; flex-wrap: wrap; }
+    .vendas-resumo-box { background: var(--card2); border-radius: 8px; padding: 10px 16px; flex: 1; min-width: 120px; }
+    .vendas-resumo-label { font-size: 0.68rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); margin-bottom: 4px; }
+    .vendas-resumo-val   { font-size: 1rem; font-weight: 700; color: var(--text); }
     .vendor-card {
       background: var(--card); border: 1px solid var(--border);
       border-radius: 12px; padding: 18px;
@@ -272,6 +276,14 @@
 
 function fmtFat(v) {
   return 'R$ ' + Number(v).toLocaleString('pt-BR', {minimumFractionDigits:2, maximumFractionDigits:2});
+}
+// Positivação é contagem de clientes, não dinheiro — não faz sentido "R$ 28,00"
+// (pedido do usuário em 2026-08-25). Mesmo padrão fmt/fmtPos do metas.html.
+function fmtPos(v) {
+  return Number(v).toLocaleString('pt-BR');
+}
+function fmt(v, tipo) {
+  return tipo === 'pos' ? fmtPos(v) : fmtFat(v);
 }
 function varHtml(cur, ant) {
   if (!ant) return '';
@@ -489,23 +501,24 @@ function _metaBar(real, meta, label) {
   '</div>';
 }
 
-function _metaKpi(label, real, meta) {
+function _metaKpi(label, real, meta, tipo) {
   if (!meta || meta <= 0) return '';
   var p   = Math.min(Math.round(real / meta * 100), 999);
   var cls = _pctCls(p);
   return '<div class="meta-kpi">' +
     '<div class="meta-kpi-label">' + label + '</div>' +
-    '<div class="meta-kpi-vals ' + cls + '">' + fmtFat(real) + '</div>' +
-    '<div class="meta-kpi-sub">Objetivo: ' + fmtFat(meta) + ' &middot; <span class="' + cls + '">' + p + '%</span></div>' +
+    '<div class="meta-kpi-vals ' + cls + '">' + fmt(real, tipo) + '</div>' +
+    '<div class="meta-kpi-sub">Objetivo: ' + fmt(meta, tipo) + ' &middot; <span class="' + cls + '">' + p + '%</span></div>' +
     _metaBar(real, meta, '') +
   '</div>';
 }
 
 // ── Faturamento agrupado por pedido/nota ──────────────────────────────────────
-// Mesmo padrão de metas.html (pedido do usuário em 2026-08-13, sem status de
-// logística aqui) — agrupa por NUNOTA (venda faturada) ou NUMPED (cancelado
-// antes de virar nota), classifica por status (emitido/cancelado/corte
-// parcial/devolvido/bonificação) e mostra num modal "Ver detalhes".
+// Mesmo padrão de metas.html (pedido do usuário em 2026-08-13) — agrupa por
+// NUNOTA (venda faturada) ou NUMPED (cancelado antes de virar nota),
+// classifica por status (emitido/cancelado/corte parcial/devolvido/
+// bonificação), cruza com o status real de entrega (ver _infoStatusLogV,
+// 2026-08-25) e mostra num modal "Ver detalhes".
 
 function _chavePedidoV(v, idx) {
   if (v.nunota) return 'NF:' + v.nunota;
@@ -524,6 +537,24 @@ function _statusPedidoInfoV(status) {
     case 'nao_emitido':   return { label: 'PEDIDO FEITO',  cor: 'var(--muted)', bg: 'rgba(148,163,184,.08)' };
     default:              return { label: 'EMITIDO',       cor: '#22c55e', bg: '' };
   }
+}
+
+// Status real de entrega (PEDIDOS_DATA.logistica_por_nf, mesma fonte que o
+// pedidos.html usa) — sobrepõe o "EMITIDO" genérico quando a nota já tem
+// posição conhecida na logística (pedido do usuário em 2026-08-25: NF 8071/
+// SPON estava ENTREGA TOTAL na logística mas a tela só mostrava "EMITIDO").
+// Mesmo semáforo de cor do pedidos.html::_statusLogBadge.
+function _infoStatusLogV(statusLog) {
+  var s = (statusLog || '').toUpperCase();
+  if (s === 'ENTREGUE' || s.indexOf('ENTREGA TOTAL') !== -1 || s === 'COMPROVADO' || s === 'EM ROTA')
+    return { label: statusLog, cor: '#22c55e', bg: 'rgba(34,197,94,.1)' };
+  if (s === 'RETORNO' || s.indexOf('ENTREGA PARCIAL') !== -1)
+    return { label: statusLog, cor: '#f97316', bg: 'rgba(249,115,22,.1)' };
+  if (s === 'CANCELADA')
+    return { label: statusLog, cor: '#ef4444', bg: 'rgba(239,68,68,.1)' };
+  if (s === 'CARREGADO')
+    return { label: statusLog, cor: '#3b82f6', bg: 'rgba(59,130,246,.1)' };
+  return { label: statusLog, cor: 'var(--muted)', bg: 'rgba(148,163,184,.08)' };
 }
 
 var _NOMES_MES_ABREV = ['','Jan','Fev','Mar','Abr','Mai','Jun','Jul','Ago','Set','Out','Nov','Dez'];
@@ -573,6 +604,14 @@ function _agruparPedidosV(lista) {
     else if (g.itens.every(function(it) { return it.devolvido; })) status = 'devolvido';
     else if (g.itens.every(function(it) { return it.tipo === 'Bonificado'; })) status = 'bonificado';
     g.status = status;
+
+    // Só cruza com a logística quando não tem nenhum status "forte" já
+    // detectado acima (cancelado/devolvido/corte já contam a história toda).
+    var ref = g.itens[0];
+    if (status === 'emitido' && ref && ref.nunota && typeof PEDIDOS_DATA !== 'undefined' && PEDIDOS_DATA.logistica_por_nf) {
+      var logInfo = PEDIDOS_DATA.logistica_por_nf[(ref.sistema || 'SPON') + '|' + ref.nunota];
+      if (logInfo && logInfo.status_log) g.statusLog = logInfo.status_log;
+    }
   });
   return grupos;
 }
@@ -593,7 +632,7 @@ function buildVendasGrouped(lista, prefix, nome, mes) {
   // Mesma tabela de metas.html (Data/Cliente-Pedido/Qtde/Valor/botão) —
   // pedido do usuário: layout igual ao RJ.
   var rows = pedidos.map(function(p, i) {
-    var info = _statusPedidoInfoV(p.status);
+    var info = p.statusLog ? _infoStatusLogV(p.statusLog) : _statusPedidoInfoV(p.status);
     var ref  = p.itens[0];
     var numPedido = ref.nunota ? 'NF ' + ref.nunota : (ref.numped ? 'Ped ' + ref.numped : '—');
     return '<tr' + (info.bg ? ' style="background:' + info.bg + '"' : '') + '>' +
@@ -620,7 +659,7 @@ function buildVendasGrouped(lista, prefix, nome, mes) {
 function abrirDetalhesPedidoSP(idx) {
   var p = _pedidosAtuaisSP[idx];
   if (!p) return;
-  var info = _statusPedidoInfoV(p.status);
+  var info = p.statusLog ? _infoStatusLogV(p.statusLog) : _statusPedidoInfoV(p.status);
   var ref  = p.itens[0];
   var numPedido = ref.nunota ? 'Nota ' + ref.nunota : (ref.numped ? 'Pedido ' + ref.numped : 'Sem identificador');
   var itensHtml = p.itens.map(function(it) {
@@ -660,6 +699,39 @@ function fecharDetalhesPedidoSP() {
 
 // ── Cards principais ──────────────────────────────────────────────────────────
 
+function _buildResumoGeral(mes) {
+  if (typeof VENDAS_SP_DATA === 'undefined') return '';
+  var nomes = Object.keys(VENDAS_SP_DATA.por_vendedor || {});
+  var permitidos = _vendedoresPermitidos();
+  if (permitidos) nomes = nomes.filter(function(n) { return permitidos.has(_normNome(n)); });
+  var totalFat = 0, totalPos = 0, totalFatMeta = 0, totalPosMeta = 0;
+  nomes.forEach(function(nome) {
+    var real   = ((VENDAS_SP_DATA.realizado || {})[nome] || {})[mes] || {};
+    var vendas = (VENDAS_SP_DATA.por_vendedor[nome] || {})[mes] || [];
+    var fatCalc = vendas.reduce(function(s, v) { return s + v.valor; }, 0);
+    var nCli    = new Set(vendas.map(function(v) { return v.codcli; })).size;
+    totalFat += real.fat !== undefined ? real.fat : fatCalc;
+    totalPos += real.pos !== undefined ? real.pos : nCli;
+    var meta = _getMeta(nome, mes);
+    if (meta) {
+      totalFatMeta += meta.fat || 0;
+      totalPosMeta += meta.pos || 0;
+    }
+  });
+  return '<div class="vendas-resumo" style="margin-bottom:14px">' +
+    '<div class="vendas-resumo-box">' +
+      '<div class="vendas-resumo-label">Faturamento Total</div>' +
+      '<div class="vendas-resumo-val">' + fmtFat(totalFat) + '</div>' +
+      (totalFatMeta ? '<div style="font-size:.7rem;color:var(--muted);margin-top:2px">Objetivo: ' + fmtFat(totalFatMeta) + '</div>' : '') +
+    '</div>' +
+    '<div class="vendas-resumo-box">' +
+      '<div class="vendas-resumo-label">Positivação</div>' +
+      '<div class="vendas-resumo-val">' + totalPos + ' clientes</div>' +
+      (totalPosMeta ? '<div style="font-size:.7rem;color:var(--muted);margin-top:2px">Objetivo: ' + Math.round(totalPosMeta) + ' clientes</div>' : '') +
+    '</div>' +
+  '</div>';
+}
+
 function _buildVendorCards(mes) {
   if (typeof VENDAS_SP_DATA === 'undefined') return '';
   var nomes = Object.keys(VENDAS_SP_DATA.por_vendedor || {});
@@ -680,7 +752,7 @@ function _buildVendorCards(mes) {
   return nomes.map(function(nome, idx) {
     var vendas = (VENDAS_SP_DATA.por_vendedor[nome] || {})[mes] || [];
     var fat    = vendas.reduce(function(s, v) { return s + v.valor; }, 0);
-    var nCli   = new Set(vendas.filter(function(v) { return v.offtrade; }).map(function(v) { return v.codcli; })).size;
+    var nCli   = new Set(vendas.map(function(v) { return v.codcli; })).size;
     var npList = npData[nome] || [];
     var nNP    = npList.length;
     var secId  = 'card-np-' + idx;
@@ -749,7 +821,7 @@ function _atualizarTabelaSP(nome) {
   var listaValida = lista.filter(function(r) { return !r.devolvido && !r.cancelado && !r.cancelado_parcial; });
   var fat  = listaValida.reduce(function(s, r) { return s + r.valor; }, 0);
   var qt   = listaValida.reduce(function(s, r) { return s + r.qt; }, 0);
-  var nCli = new Set(listaValida.filter(function(r) { return r.offtrade; }).map(function(r) { return r.codcli || r.cliente; })).size;
+  var nCli = new Set(listaValida.map(function(r) { return r.codcli || r.cliente; })).size;
 
   var meta = _getMeta(nome, mes);
   var real = ((VENDAS_SP_DATA.realizado || {})[nome] || {})[mes] || {};
@@ -765,15 +837,15 @@ function _atualizarTabelaSP(nome) {
   var cardObjetivos = document.getElementById('card-objetivos');
   if (meta) {
     var kpis = [
-      ['Faturamento Total', real.fat  !== undefined ? real.fat  : fat,  meta.fat],
-      ['Positivação',       real.pos  !== undefined ? real.pos  : nCli, meta.pos],
+      ['Faturamento Total', real.fat  !== undefined ? real.fat  : fat,  meta.fat,  'fat'],
+      ['Positivação',       real.pos  !== undefined ? real.pos  : nCli, meta.pos,  'pos'],
     ];
-    if (meta.fat_pernod)  kpis.push(['Fat. Pernod',  real.fat_pernod  || 0, meta.fat_pernod]);
-    if (meta.fat_crs)     kpis.push(['Fat. CRS',     real.fat_crs     || 0, meta.fat_crs]);
-    if (meta.fat_essenza) kpis.push(['Fat. Essenza',  real.fat_essenza || 0, meta.fat_essenza]);
+    if (meta.fat_pernod)  kpis.push(['Fat. Pernod',  real.fat_pernod  || 0, meta.fat_pernod,  'fat']);
+    if (meta.fat_crs)     kpis.push(['Fat. CRS',     real.fat_crs     || 0, meta.fat_crs,     'fat']);
+    if (meta.fat_essenza) kpis.push(['Fat. Essenza',  real.fat_essenza || 0, meta.fat_essenza, 'fat']);
 
     document.getElementById('vendas-metas').innerHTML =
-      kpis.map(function(k) { return _metaKpi(k[0], k[1], k[2]); }).join('');
+      kpis.map(function(k) { return _metaKpi(k[0], k[1], k[2], k[3]); }).join('');
     cardObjetivos.style.display = '';
   } else {
     cardObjetivos.style.display = 'none';
@@ -844,7 +916,8 @@ function renderVendasSP(nome) {
   document.getElementById('header-actions').innerHTML =
     '<button class="btn btn-dl" onclick="exportarCSV(\'' + nome.replace(/'/g,"\\'") + '\')">&#8595; CSV</button>' +
     '<button class="btn" onclick="renderMain()">&#8592; Todos</button>' +
-    '<a class="btn" href="clientes_rca.html?estado=SP&rcas=10,200" target="_blank" rel="noopener">&#128230; Novos Clientes</a>';
+    '<a class="btn" href="clientes_rca.html?estado=SP&rcas=10,200" target="_blank" rel="noopener">&#128230; Novos Clientes</a>' +
+    (nome === 'W.S' ? '<a class="btn" href="pedidos_mercos.html">&#128722; Pedidos Mercos</a>' : '');
 
   document.getElementById('app').innerHTML =
     // Cabeçalho do vendedor
@@ -1093,6 +1166,7 @@ function renderMain(mes) {
 
   document.getElementById('app').innerHTML =
     _buildAvisoPedidosGeral() +
+    _buildResumoGeral(mes) +
     '<div style="font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.07em;color:var(--muted);margin-bottom:12px">Vendedores</div>' +
     _buildFiltroHtml(mes) +
     '<div class="search-wrap">' +
