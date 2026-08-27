@@ -1,19 +1,57 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <script src="auth.js"></script>
   <script src="fontes_status_data.js"></script>
   <script src="fontes_alert.js"></script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Pedidos Mercos</title>
   <script src="pedidos_mercos_data.js"></script>
+  <script>
+    // Acesso restrito: gestor (mesmo hash/cookie do auth.js) OU a sessão de
+    // vendedor com RCA 588 (W.S — mesma conta que aparece em
+    // sp.html?vendedor=W.S, o usuário Winthor usado pro canal Mercos). Pedido
+    // do usuário em 2026-08-27: só quem acessa aquela página de vendedor
+    // pode ver Pedidos Mercos, não é auth.js padrão de gestor-only.
+    (function () {
+      const HASH = 'b4ba917b95850dc43cce91dba3be9fd1a4f029e18b81d6846a7183839c81d8dd';
+      const RCA_MERCOS = '588';
+
+      function _b64urlEncode(obj) {
+        const b64 = btoa(unescape(encodeURIComponent(JSON.stringify(obj))));
+        return b64.replace(/\+/g, '-').replace(/\//g, '_').replace(/=+$/, '');
+      }
+      function _refreshSsoCookie(email) {
+        if (!email) return;
+        const header  = _b64urlEncode({ alg: 'none', typ: 'JWT' });
+        const payload = _b64urlEncode({ email });
+        const ssoToken = JSON.stringify({ id_token: `${header}.${payload}.sso` });
+        document.cookie = 'offtrade_token=' + encodeURIComponent(ssoToken) +
+          '; path=/; max-age=' + (60 * 60 * 8) + '; SameSite=Lax; Secure';
+      }
+
+      if (sessionStorage.getItem('rg_auth') === HASH) {
+        _refreshSsoCookie(sessionStorage.getItem('rg_email'));
+        return; // gestor: acesso total
+      }
+
+      try {
+        const s = JSON.parse(sessionStorage.getItem('rg_vendedor') || '{}');
+        if (String(s.rca) !== RCA_MERCOS) throw 0;
+        _refreshSsoCookie(s.email);
+      } catch {
+        sessionStorage.setItem('rg_redirect', location.pathname + location.search);
+        location.replace('login.html');
+      }
+    })();
+  </script>
   <style>
     * { box-sizing: border-box; margin: 0; padding: 0; }
     :root {
-      --bg: #0f1117; --card: #1a1d27; --card2: #22263a;
-      --accent: #f5c518; --blue: #3b82f6; --text: #e2e8f0;
-      --muted: #94a3b8; --border: #2d3144; --green: #22c55e;
+      /* paleta extraida da logo da SPON Distribuidora (navy + branco) */
+      --bg: #100d2a; --card: #1c1840; --card2: #262048;
+      --accent: #ffffff; --blue: #7c86ff; --text: #e7e6f5;
+      --muted: #9b96c4; --border: #34305c; --green: #22c55e;
       --red: #ef4444; --orange: #f97316;
     }
     body {
@@ -82,6 +120,13 @@
     .itens-wrap td { padding: 4px 10px; white-space: normal; }
     .valor { font-weight: 700; }
     .empty { text-align: center; padding: 48px; color: var(--muted); font-size: .9rem; }
+    .status { font-weight: 700; padding: 2px 8px; border-radius: 20px; font-size: .72rem; white-space: nowrap; }
+    .status-integral { background: rgba(34,197,94,.15); color: var(--green); }
+    .status-corte { background: rgba(249,115,22,.15); color: var(--orange); }
+    .status-nao_encontrado { background: rgba(239,68,68,.15); color: var(--red); }
+    .status-cliente_nao_cadastrado { background: rgba(168,85,247,.18); color: #c084fc; }
+    .status-indisponivel { background: var(--card2); color: var(--muted); }
+    .spon-info { font-size: .72rem; color: var(--muted); margin-top: 2px; }
 
     @media (max-width: 640px) {
       body { padding: 12px; }
@@ -97,11 +142,17 @@
 <body>
 
 <header>
-  <div>
-    <h1>🛒 PEDIDOS MERCOS</h1>
-    <p id="header-sub">—</p>
+  <div style="display:flex;align-items:center;gap:12px">
+    <img src="https://arquivos.mercos.com/media/logomarca_representada/424258/632f8370-c166-11f0-8b57-528d5463a703.jpg" alt="SPON Distribuidora" style="height:40px;width:40px;border-radius:8px;object-fit:cover">
+    <div>
+      <h1>PEDIDOS MERCOS</h1>
+      <p id="header-sub">—</p>
+    </div>
   </div>
-  <a href="index.html" style="color:var(--muted);font-size:.8rem;text-decoration:none">← Painel</a>
+  <div style="display:flex;gap:14px;align-items:center">
+    <a href="sp.html?vendedor=W.S" style="color:var(--blue);font-size:.8rem;text-decoration:none;font-weight:700">Ver painel SP (W.S) →</a>
+    <a href="index.html" style="color:var(--muted);font-size:.8rem;text-decoration:none">← Painel</a>
+  </div>
 </header>
 
 <div class="kpis" id="kpis"></div>
@@ -112,6 +163,13 @@
   </select>
   <select id="sel-vendedor" onchange="aplicarFiltro()">
     <option value="">Todos os Vendedores</option>
+  </select>
+  <select id="sel-status" onchange="aplicarFiltro()">
+    <option value="">Todos os Status SPON</option>
+    <option value="integral">Faturado integral</option>
+    <option value="corte">Faturado com corte</option>
+    <option value="nao_encontrado">Não encontrado no SPON</option>
+    <option value="cliente_nao_cadastrado">Cliente não cadastrado no SPON</option>
   </select>
   <input type="text" id="busca" placeholder="Buscar por pedido, cliente, CNPJ, produto..." oninput="aplicarFiltro()">
   <button class="btn-csv" onclick="exportarCSV()">⬇ Exportar CSV</button>
@@ -131,6 +189,7 @@
         <th class="hide-mob" onclick="ordenarPor('representada')">Representada</th>
         <th onclick="ordenarPor('qt_pedido')">Qtd</th>
         <th onclick="ordenarPor('subtotal_pedido')">Subtotal</th>
+        <th onclick="ordenarPor('status_spon')">Status SPON</th>
       </tr>
     </thead>
     <tbody id="tbody"></tbody>
@@ -141,11 +200,20 @@
 const DATA = typeof PEDIDOS_MERCOS_DATA !== 'undefined' ? PEDIDOS_MERCOS_DATA : null;
 const PEDIDOS = DATA ? DATA.pedidos : [];
 
+const STATUS_LABEL = {
+  integral: 'Faturado integral',
+  corte: 'Faturado com corte',
+  excesso: 'Faturado (valor maior)',
+  nao_encontrado: 'Não encontrado no SPON',
+  cliente_nao_cadastrado: 'Cliente não cadastrado',
+  indisponivel: 'Indisponível',
+};
+
 let _ordem = { campo: 'data', asc: false };
 let _expandidos = new Set();
 
 if (!DATA) {
-  document.getElementById('tbody').innerHTML = '<tr><td colspan="9" class="empty">Dados não encontrados. Gere pedidos_mercos_data.js a partir dos relatórios exportados da Mercos.</td></tr>';
+  document.getElementById('tbody').innerHTML = '<tr><td colspan="10" class="empty">Dados não encontrados. Gere pedidos_mercos_data.js a partir dos relatórios exportados da Mercos.</td></tr>';
 } else {
   document.getElementById('header-sub').textContent =
     'Atualizado ' + DATA.atualizado_em + ' · Período: ' + DATA.periodo +
@@ -161,6 +229,7 @@ function montarKpis(lista) {
   const totalValor = lista.reduce((s, p) => s + (p.subtotal_pedido || 0), 0);
   const clientes = new Set(lista.map(p => p.cnpj)).size;
   const ticket = totalPedidos ? totalValor / totalPedidos : 0;
+  const naoFaturados = lista.filter(p => p.status_spon === 'nao_encontrado' || p.status_spon === 'cliente_nao_cadastrado').length;
   document.getElementById('kpis').innerHTML = `
     <div class="kpi">
       <div class="label">Pedidos</div>
@@ -177,6 +246,10 @@ function montarKpis(lista) {
     <div class="kpi">
       <div class="label">Ticket Médio</div>
       <div class="val">${brl(ticket)}</div>
+    </div>
+    <div class="kpi">
+      <div class="label">Não Faturados no SPON</div>
+      <div class="val" style="color:var(--red)">${naoFaturados}</div>
     </div>`;
 }
 
@@ -215,13 +288,15 @@ function _filtrados() {
   if (!DATA) return [];
   const representada = document.getElementById('sel-representada').value;
   const vendedor      = document.getElementById('sel-vendedor').value;
+  const status        = document.getElementById('sel-status').value;
   const busca         = document.getElementById('busca').value.trim().toLowerCase();
   let lista = PEDIDOS.filter(p => {
-    const matchRep  = !representada || p.representada === representada;
-    const matchVend = !vendedor || (p.cod_vendedor + ' - ' + p.vendedor) === vendedor;
+    const matchRep    = !representada || p.representada === representada;
+    const matchVend   = !vendedor || (p.cod_vendedor + ' - ' + p.vendedor) === vendedor;
+    const matchStatus = !status || p.status_spon === status;
     const matchBusca = !busca || [p.numped, p.cliente, p.cnpj, ...(p.itens || []).map(i => i.descricao), ...(p.itens || []).map(i => i.codprod)]
       .some(v => v && String(v).toLowerCase().includes(busca));
-    return matchRep && matchVend && matchBusca;
+    return matchRep && matchVend && matchStatus && matchBusca;
   });
   const { campo, asc } = _ordem;
   lista = [...lista].sort((a, b) => {
@@ -243,7 +318,7 @@ function aplicarFiltro() {
 
   const tbody = document.getElementById('tbody');
   if (!lista.length) {
-    tbody.innerHTML = '<tr><td colspan="9" class="empty">Nenhum pedido encontrado.</td></tr>';
+    tbody.innerHTML = '<tr><td colspan="10" class="empty">Nenhum pedido encontrado.</td></tr>';
     return;
   }
 
@@ -260,9 +335,10 @@ function aplicarFiltro() {
       <td class="hide-mob">${_esc(p.representada)}</td>
       <td>${_qt(p.qt_pedido)}</td>
       <td class="valor">${brl(p.subtotal_pedido)}</td>
+      <td>${_statusBadge(p)}</td>
     </tr>`;
     if (aberto) {
-      html += `<tr class="linha-itens"><td colspan="9"><div class="itens-wrap">
+      html += `<tr class="linha-itens"><td colspan="10"><div class="itens-wrap">
         <table><thead><tr><th>Código</th><th>Produto</th><th>Qtd</th><th>Preço Líquido</th><th>Subtotal</th></tr></thead><tbody>
         ${(p.itens || []).map(it => `<tr>
           <td class="cod">${_esc(it.codprod)}</td>
@@ -276,6 +352,15 @@ function aplicarFiltro() {
     }
     return html;
   }).join('');
+}
+
+function _statusBadge(p) {
+  const label = STATUS_LABEL[p.status_spon] || p.status_spon || '—';
+  let badge = `<span class="status status-${_esc(p.status_spon)}">${_esc(label)}</span>`;
+  if ((p.status_spon === 'corte' || p.status_spon === 'excesso') && p.valor_spon !== null && p.valor_spon !== undefined) {
+    badge += `<div class="spon-info">SPON: ${brl(p.valor_spon)} (NUMPED ${(p.numped_spon || []).join(', ')})</div>`;
+  }
+  return badge;
 }
 
 function toggleItens(numped) {
@@ -309,13 +394,14 @@ function _escAttr(s) {
 
 function exportarCSV() {
   const lista = _filtrados();
-  const header = ['Pedido','Data','Codigo Vendedor','Vendedor','CNPJ','Cliente','Representada','Codigo Produto','Descricao','Qtd','Preco Liquido','Subtotal'];
+  const header = ['Pedido','Data','Codigo Vendedor','Vendedor','CNPJ','Cliente','Representada','Codigo Produto','Descricao','Qtd','Preco Liquido','Subtotal','Status SPON','Valor SPON','NUMPED SPON'];
   const linhas = [];
   lista.forEach(p => {
     (p.itens || []).forEach(it => {
       linhas.push([
         p.numped, p.data, p.cod_vendedor, p.vendedor, _formatCnpj(p.cnpj), p.cliente, p.representada,
         it.codprod, it.descricao, it.qt, it.preco_liquido, it.subtotal,
+        STATUS_LABEL[p.status_spon] || p.status_spon, p.valor_spon ?? '', (p.numped_spon || []).join(' / '),
       ].map(v => `"${String(v??'').replace(/"/g,'""')}"`).join(';'));
     });
   });
