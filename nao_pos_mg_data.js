@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_mg.py
 
 const NAO_POS_MG_DATA = {
-  "atualizado_em": "27/08/2026 10:38",
+  "atualizado_em": "27/08/2026 11:44",
   "por_vendedor": {
     "BRUNA CASTRO MELLO": [
       {
@@ -479,6 +479,32 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
+        "codcli": "37327",
+        "cliente": "UNISSUL SUPERMERCADOS S/A",
+        "bairro": "CENTRO",
+        "dtultcomp": "30/07/2026",
+        "produtos": [
+          {
+            "produto": "VILLA ROSA BRANCO 750ML",
+            "fantasia": "CASTAS",
+            "qt": 12,
+            "valor": 514.8
+          },
+          {
+            "produto": "VINHO FOODKILLER CAB SAUV MERLOT 750ML",
+            "fantasia": "CASTAS",
+            "qt": 6,
+            "valor": 293.4
+          },
+          {
+            "produto": "VODKA ORLOFF 1L - DEST",
+            "fantasia": "",
+            "qt": 12,
+            "valor": 245.04
+          }
+        ]
+      },
+      {
         "codcli": "37333",
         "cliente": "UNISSUL SUPERMERCADOS S/A",
         "bairro": "CENTRO",
@@ -527,32 +553,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "CASTAS",
             "qt": 6,
             "valor": 257.4
-          },
-          {
-            "produto": "VODKA ORLOFF 1L - DEST",
-            "fantasia": "",
-            "qt": 12,
-            "valor": 245.04
-          }
-        ]
-      },
-      {
-        "codcli": "37327",
-        "cliente": "UNISSUL SUPERMERCADOS S/A",
-        "bairro": "CENTRO",
-        "dtultcomp": "30/07/2026",
-        "produtos": [
-          {
-            "produto": "VILLA ROSA BRANCO 750ML",
-            "fantasia": "CASTAS",
-            "qt": 12,
-            "valor": 514.8
-          },
-          {
-            "produto": "VINHO FOODKILLER CAB SAUV MERLOT 750ML",
-            "fantasia": "CASTAS",
-            "qt": 6,
-            "valor": 293.4
           },
           {
             "produto": "VODKA ORLOFF 1L - DEST",
@@ -1286,26 +1286,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "33014",
-        "cliente": "ER COZINHA ARTESANAL LTDA",
-        "bairro": "LOURDES",
-        "dtultcomp": "18/06/2026",
-        "produtos": [
-          {
-            "produto": "YVY DESTILADO GIN AR LT 710ML",
-            "fantasia": "YVY",
-            "qt": 4,
-            "valor": 159.6
-          },
-          {
-            "produto": "YVY DESTILADO GIN MAR  LT 710ML",
-            "fantasia": "YVY",
-            "qt": 4,
-            "valor": 159.6
-          }
-        ]
-      },
-      {
         "codcli": "32871",
         "cliente": "ER COZINHA ARTESANAL LTDA",
         "bairro": "VILA DA SERRA",
@@ -1322,6 +1302,26 @@ const NAO_POS_MG_DATA = {
             "fantasia": "YVY",
             "qt": 6,
             "valor": 239.4
+          }
+        ]
+      },
+      {
+        "codcli": "33014",
+        "cliente": "ER COZINHA ARTESANAL LTDA",
+        "bairro": "LOURDES",
+        "dtultcomp": "18/06/2026",
+        "produtos": [
+          {
+            "produto": "YVY DESTILADO GIN AR LT 710ML",
+            "fantasia": "YVY",
+            "qt": 4,
+            "valor": 159.6
+          },
+          {
+            "produto": "YVY DESTILADO GIN MAR  LT 710ML",
+            "fantasia": "YVY",
+            "qt": 4,
+            "valor": 159.6
           }
         ]
       },
@@ -2638,20 +2638,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "MONIN",
             "qt": 84,
             "valor": 2007.6
-          }
-        ]
-      },
-      {
-        "codcli": "33491",
-        "cliente": "SUPERMERCADO SUPER LUNA S.A",
-        "bairro": "BANDEIRINHAS",
-        "dtultcomp": "31/07/2026",
-        "produtos": [
-          {
-            "produto": "WHISKY BALLANTINE'S FINEST 750 ML",
-            "fantasia": "PERNOD",
-            "qt": 240,
-            "valor": 11306.4
           }
         ]
       },
