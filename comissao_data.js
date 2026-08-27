@@ -1,7 +1,7 @@
 // Gerado automaticamente por exportacao_comissao.py — ESTIMATIVA, não é a apuração oficial
 
 const COMISSAO_DATA = {
-  "atualizado_em": "27/08/2026 16:04",
+  "atualizado_em": "27/08/2026 16:48",
   "mes_referencia": "08/2026",
   "pct_premio_taxa": 0.015,
   "vendedores": [
@@ -648,10 +648,10 @@ const COMISSAO_DATA = {
         {
           "label": "FATURAMENTO",
           "meta": 65000.0,
-          "realizado": 42816.79,
+          "realizado": 43386.79,
           "peso": 0.1,
-          "ating_meta": 0.65872,
-          "ating_acumulado": 0.065872
+          "ating_meta": 0.667489,
+          "ating_acumulado": 0.066749
         },
         {
           "label": "FATURAMENTO PERNOD",
@@ -758,14 +758,14 @@ const COMISSAO_DATA = {
           "ating_acumulado": 0.004167
         }
       ],
-      "ating_acumulado_total": 0.583372,
-      "pct_premio": 0.00875058,
+      "ating_acumulado_total": 0.584249,
+      "pct_premio": 0.00876374,
       "liq_rigarr": 48987.63,
       "fat_castas": 2797.8,
       "teto_comissao": 2000.0,
-      "com_rigarr": 1166.74,
-      "com_castas": 24.48,
-      "comissao_estimada": 1191.22
+      "com_rigarr": 1168.5,
+      "com_castas": 24.52,
+      "comissao_estimada": 1193.02
     },
     {
       "nome": "ADEILSON GONÇALVEZ - OFF TRADE",
@@ -775,10 +775,10 @@ const COMISSAO_DATA = {
         {
           "label": "FATURAMENTO",
           "meta": 65000.0,
-          "realizado": 25922.3,
+          "realizado": 28189.82,
           "peso": 0.1,
-          "ating_meta": 0.398805,
-          "ating_acumulado": 0.039881
+          "ating_meta": 0.43369,
+          "ating_acumulado": 0.043369
         },
         {
           "label": "FATURAMENTO PERNOD",
@@ -815,10 +815,10 @@ const COMISSAO_DATA = {
         {
           "label": "POSITIVAÇÃO",
           "meta": 70.0,
-          "realizado": 46,
+          "realizado": 47,
           "peso": 0.65,
-          "ating_meta": 0.657143,
-          "ating_acumulado": 0.427143
+          "ating_meta": 0.671429,
+          "ating_acumulado": 0.436429
         },
         {
           "label": "POSITIVAÇÃO ESSENZA",
@@ -855,7 +855,7 @@ const COMISSAO_DATA = {
         {
           "label": "POSITIVAÇÃO RECKIT",
           "meta": 0.0,
-          "realizado": 0,
+          "realizado": 2,
           "peso": 0.0,
           "ating_meta": 0.0,
           "ating_acumulado": 0.0
@@ -879,20 +879,20 @@ const COMISSAO_DATA = {
         {
           "label": "POSITIVAÇÃO TIAL",
           "meta": 12.0,
-          "realizado": 5,
+          "realizado": 6,
           "peso": 0.05,
-          "ating_meta": 0.416667,
-          "ating_acumulado": 0.020833
+          "ating_meta": 0.5,
+          "ating_acumulado": 0.025
         }
       ],
-      "ating_acumulado_total": 0.54229,
-      "pct_premio": 0.00813435,
+      "ating_acumulado_total": 0.559231,
+      "pct_premio": 0.00838846,
       "liq_rigarr": 37029.96,
       "fat_castas": 0.0,
       "teto_comissao": 2000.0,
-      "com_rigarr": 1084.58,
+      "com_rigarr": 1118.46,
       "com_castas": 0.0,
-      "comissao_estimada": 1084.58
+      "comissao_estimada": 1118.46
     },
     {
       "nome": "MARIA LUIZA - OFF TRADE",
@@ -1029,10 +1029,10 @@ const COMISSAO_DATA = {
         {
           "label": "FATURAMENTO",
           "meta": 120000.0,
-          "realizado": 93203.85,
+          "realizado": 94255.17,
           "peso": 0.7,
-          "ating_meta": 0.776699,
-          "ating_acumulado": 0.543689
+          "ating_meta": 0.78546,
+          "ating_acumulado": 0.549822
         },
         {
           "label": "FATURAMENTO PERNOD",
@@ -1069,10 +1069,10 @@ const COMISSAO_DATA = {
         {
           "label": "POSITIVAÇÃO",
           "meta": 90.0,
-          "realizado": 81,
+          "realizado": 82,
           "peso": 0.1,
-          "ating_meta": 0.9,
-          "ating_acumulado": 0.09
+          "ating_meta": 0.911111,
+          "ating_acumulado": 0.091111
         },
         {
           "label": "POSITIVAÇÃO ESSENZA",
@@ -1139,14 +1139,14 @@ const COMISSAO_DATA = {
           "ating_acumulado": 0.0
         }
       ],
-      "ating_acumulado_total": 0.786433,
-      "pct_premio": 0.0117965,
+      "ating_acumulado_total": 0.793677,
+      "pct_premio": 0.01190516,
       "liq_rigarr": 58158.32,
       "fat_castas": 8413.26,
       "teto_comissao": null,
-      "com_rigarr": 686.06,
-      "com_castas": 99.25,
-      "comissao_estimada": 785.31
+      "com_rigarr": 692.38,
+      "com_castas": 100.16,
+      "comissao_estimada": 792.54
     },
     {
       "nome": "ANGELO NEVES SUZART - OFF TRADE",
@@ -1410,10 +1410,10 @@ const COMISSAO_DATA = {
         {
           "label": "FATURAMENTO",
           "meta": 150000.0,
-          "realizado": 42197.04,
+          "realizado": 42612.95,
           "peso": 0.7,
-          "ating_meta": 0.281314,
-          "ating_acumulado": 0.19692
+          "ating_meta": 0.284086,
+          "ating_acumulado": 0.19886
         },
         {
           "label": "FATURAMENTO PERNOD",
@@ -1520,14 +1520,14 @@ const COMISSAO_DATA = {
           "ating_acumulado": 0.0
         }
       ],
-      "ating_acumulado_total": 0.355053,
-      "pct_premio": 0.00532579,
+      "ating_acumulado_total": 0.356993,
+      "pct_premio": 0.0053549,
       "liq_rigarr": 62417.77,
       "fat_castas": 4579.7,
       "teto_comissao": null,
-      "com_rigarr": 332.42,
-      "com_castas": 24.39,
-      "comissao_estimada": 356.81
+      "com_rigarr": 334.24,
+      "com_castas": 24.52,
+      "comissao_estimada": 358.76
     },
     {
       "nome": "DANIELLE MOURA - OFF TRADE",
