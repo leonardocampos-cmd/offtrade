@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_es.py
 
 const NAO_POS_ES_DATA = {
-  "atualizado_em": "27/08/2026 14:06",
+  "atualizado_em": "27/08/2026 15:11",
   "por_vendedor": {
     "ADEILSON GONÇALVEZ": [
       {
@@ -5764,6 +5764,13 @@ const NAO_POS_ES_DATA = {
         "codcli": "96145",
         "cliente": "OLIVEIRA E GRAVEL MINIMERCADO LTDA",
         "bairro": "SENADOR VASCONCELOS",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "84305",
+        "cliente": "PORTO 2000 AUTO POSTO LTDA",
+        "bairro": "CAMPO GRANDE",
         "dtultcomp": "nan",
         "produtos": []
       },
