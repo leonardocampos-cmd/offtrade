@@ -1,5 +1,5 @@
 const ACAO_AMARULA_DATA = {
-  "atualizado_em": "26/08/2026 16:49",
+  "atualizado_em": "27/08/2026 10:21",
   "periodo": {
     "ini": "19/08/2026",
     "fim": "19/09/2026"
@@ -17,17 +17,10 @@ const ACAO_AMARULA_DATA = {
     300,
     200
   ],
-  "total_vendedores": 27,
-  "total_volume": 21,
-  "total_faturamento": 2013.9,
+  "total_vendedores": 25,
+  "total_volume": 9,
+  "total_faturamento": 827.1,
   "ranking": [
-    {
-      "vendedor": "MATEUS CARDOSO",
-      "volume": 12,
-      "faturamento": 1186.8,
-      "elegivel": false,
-      "premio": null
-    },
     {
       "vendedor": "JORGE MACIEL",
       "volume": 6,
@@ -72,13 +65,6 @@ const ACAO_AMARULA_DATA = {
     },
     {
       "vendedor": "ANDRESSA BARROS FERREIRA",
-      "volume": 0,
-      "faturamento": 0.0,
-      "elegivel": false,
-      "premio": null
-    },
-    {
-      "vendedor": "ANGELO NEVES SUZART",
       "volume": 0,
       "faturamento": 0.0,
       "elegivel": false,
