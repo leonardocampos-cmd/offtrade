@@ -80,15 +80,16 @@
       display: flex; gap: 10px; flex-wrap: wrap;
       margin-bottom: 16px; align-items: center;
     }
-    select, input[type=text] {
+    select, input[type=text], input[type=date] {
       background: var(--card); border: 1px solid var(--border);
       color: var(--text); border-radius: 8px; padding: 8px 12px;
       font-size: .88rem; outline: none; font-family: inherit;
     }
-    select:focus, input[type=text]:focus { border-color: var(--blue); }
+    select:focus, input[type=text]:focus, input[type=date]:focus { border-color: var(--blue); }
     select option { background: #1a1a1a; color: var(--text); }
     select { min-width: 200px; }
     input[type=text] { min-width: 240px; }
+    input[type=date]::-webkit-calendar-picker-indicator { filter: invert(1); cursor: pointer; }
     .btn-csv {
       background: var(--green); color: #0f1117; border: none;
       border-radius: 8px; padding: 8px 16px; font-size: .88rem;
@@ -177,6 +178,12 @@
     <option value="nao_encontrado">Não encontrado no SPON</option>
     <option value="cliente_nao_cadastrado">Cliente não cadastrado no SPON</option>
   </select>
+  <label style="font-size:.78rem;color:var(--muted);display:flex;align-items:center;gap:6px">De
+    <input type="date" id="data-de" onchange="aplicarFiltro()">
+  </label>
+  <label style="font-size:.78rem;color:var(--muted);display:flex;align-items:center;gap:6px">Até
+    <input type="date" id="data-ate" onchange="aplicarFiltro()">
+  </label>
   <input type="text" id="busca" placeholder="Buscar por pedido, cliente, CNPJ, produto..." oninput="aplicarFiltro()">
   <button class="btn-csv" onclick="exportarCSV()">⬇ Exportar CSV</button>
   <span class="info" id="info-count"></span>
@@ -300,13 +307,18 @@ function _filtrados() {
   const vendedor      = document.getElementById('sel-vendedor').value;
   const status        = document.getElementById('sel-status').value;
   const busca         = document.getElementById('busca').value.trim().toLowerCase();
+  const dataDe        = document.getElementById('data-de').value;
+  const dataAte       = document.getElementById('data-ate').value;
   let lista = PEDIDOS.filter(p => {
     const matchRep    = !representada || p.representada === representada;
     const matchVend   = !vendedor || (p.cod_vendedor + ' - ' + p.vendedor) === vendedor;
     const matchStatus = !status || p.status_spon === status;
+    const dataIso     = _dataISO(p.data);
+    const matchDataDe  = !dataDe || (dataIso && dataIso >= dataDe);
+    const matchDataAte = !dataAte || (dataIso && dataIso <= dataAte);
     const matchBusca = !busca || [p.numped, p.cliente, p.cnpj, ...(p.itens || []).map(i => i.descricao), ...(p.itens || []).map(i => i.codprod)]
       .some(v => v && String(v).toLowerCase().includes(busca));
-    return matchRep && matchVend && matchStatus && matchBusca;
+    return matchRep && matchVend && matchStatus && matchDataDe && matchDataAte && matchBusca;
   });
   const { campo, asc } = _ordem;
   lista = [...lista].sort((a, b) => {
@@ -435,6 +447,13 @@ function _qt(v) {
 
 function brl(v) {
   return 'R$ ' + Number(v || 0).toLocaleString('pt-BR', {minimumFractionDigits: 2, maximumFractionDigits: 2});
+}
+
+function _dataISO(dataBr) {
+  if (!dataBr) return '';
+  const [d, m, a] = String(dataBr).split('/');
+  if (!d || !m || !a) return '';
+  return `${a}-${m.padStart(2,'0')}-${d.padStart(2,'0')}`;
 }
 
 function _esc(s) {
