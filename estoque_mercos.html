@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <script src="fontes_status_data.js"></script>
+  <script src="fontes_alert.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Estoque Mercos x SPON</title>
+  <script src="estoque_mercos_data.js"></script>
+  <script>
+    // Acesso restrito: gestor OU sessão de vendedor com RCA 588 (W.S) —
+    // mesma regra de pedidos_mercos.html.
+    (function () {
+      const HASH = 'b4ba917b95850dc43cce91dba3be9fd1a4f029e18b81d6846a7183839c81d8dd';
+      const RCA_MERCOS = '588';
+
+      function _b64urlEncode(obj) {
+        const b64 = btoa(unescape(encodeURIComponent(JSON.stringify(obj))));
+        return b64.replace(/\+/g, '-').replace(/\//g, '_').replace(/=+$/, '');
+      }
+      function _refreshSsoCookie(email) {
+        if (!email) return;
+        const header  = _b64urlEncode({ alg: 'none', typ: 'JWT' });
+        const payload = _b64urlEncode({ email });
+        const ssoToken = JSON.stringify({ id_token: `${header}.${payload}.sso` });
+        document.cookie = 'offtrade_token=' + encodeURIComponent(ssoToken) +
+          '; path=/; max-age=' + (60 * 60 * 8) + '; SameSite=Lax; Secure';
+      }
+
+      if (sessionStorage.getItem('rg_auth') === HASH) {
+        _refreshSsoCookie(sessionStorage.getItem('rg_email'));
+        return;
+      }
+
+      try {
+        const s = JSON.parse(sessionStorage.getItem('rg_vendedor') || '{}');
+        if (String(s.rca) !== RCA_MERCOS) throw 0;
+        _refreshSsoCookie(s.email);
+      } catch {
+        sessionStorage.setItem('rg_redirect', location.pathname + location.search);
+        location.replace('login.html');
+      }
+    })();
+  </script>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --bg: #042433; --card: #1c1840; --card2: #262048;
+      --accent: #ffffff; --blue: #7c86ff; --text: #e7e6f5;
+      --muted: #9b96c4; --border: #34305c; --green: #22c55e;
+      --red: #ef4444; --orange: #f97316;
+    }
+    body {
+      background: var(--bg); color: var(--text);
+      font-family: 'Segoe UI', system-ui, sans-serif;
+      min-height: 100vh; padding: 16px;
+    }
+    header {
+      display: flex; align-items: center; justify-content: space-between;
+      margin-bottom: 20px; padding-bottom: 16px;
+      border-bottom: 1px solid var(--border); gap: 12px; flex-wrap: wrap;
+    }
+    header h1 { font-size: 1.1rem; font-weight: 700; color: var(--accent); }
+    header p  { font-size: .8rem; color: var(--muted); margin-top: 3px; }
+    .kpis { display: flex; gap: 12px; flex-wrap: wrap; margin-bottom: 16px; }
+    .kpi {
+      background: var(--card); border: 1px solid var(--border); border-radius: 10px;
+      padding: 14px 18px; flex: 1; min-width: 160px;
+    }
+    .kpi .label {
+      font-size: .65rem; text-transform: uppercase; letter-spacing: .08em;
+      color: var(--muted); margin-bottom: 6px;
+    }
+    .kpi .val { font-size: 1.25rem; font-weight: 800; }
+    .controls {
+      display: flex; gap: 10px; flex-wrap: wrap;
+      margin-bottom: 16px; align-items: center;
+    }
+    select, input[type=text] {
+      background: var(--card); border: 1px solid var(--border);
+      color: var(--text); border-radius: 8px; padding: 8px 12px;
+      font-size: .88rem; outline: none; font-family: inherit;
+    }
+    select:focus, input[type=text]:focus { border-color: var(--blue); }
+    select { min-width: 200px; }
+    input[type=text] { min-width: 260px; }
+    .btn-csv {
+      background: var(--green); color: #0f1117; border: none;
+      border-radius: 8px; padding: 8px 16px; font-size: .88rem;
+      font-weight: 700; cursor: pointer; font-family: inherit;
+    }
+    .btn-csv:hover { opacity: .88; }
+    .info { font-size: .8rem; color: var(--muted); margin-left: auto; }
+    .table-wrap { overflow-x: auto; border-radius: 10px; border: 1px solid var(--border); }
+    table { width: 100%; border-collapse: collapse; font-size: .82rem; }
+    thead th {
+      background: var(--card2); padding: 10px 12px; text-align: left;
+      font-size: .72rem; text-transform: uppercase; letter-spacing: .05em;
+      color: var(--muted); border-bottom: 1px solid var(--border);
+      white-space: nowrap; cursor: pointer;
+    }
+    thead th:hover { color: var(--text); }
+    tbody tr { border-bottom: 1px solid var(--border); }
+    tbody tr:hover { background: var(--card2); }
+    tbody td { padding: 9px 12px; vertical-align: middle; white-space: nowrap; }
+    .cod  { color: var(--muted); font-size: .78rem; font-family: monospace; }
+    .valor { font-weight: 700; }
+    .empty { text-align: center; padding: 48px; color: var(--muted); font-size: .9rem; }
+    .status { font-weight: 700; padding: 2px 8px; border-radius: 20px; font-size: .72rem; white-space: nowrap; }
+    .status-ok { background: rgba(34,197,94,.15); color: var(--green); }
+    .status-zerado { background: rgba(239,68,68,.15); color: var(--red); }
+    .status-negativo { background: rgba(168,85,247,.18); color: #c084fc; }
+    .status-nao_encontrado { background: var(--card2); color: var(--muted); }
+
+    @media (max-width: 640px) {
+      body { padding: 12px; }
+      .kpi { min-width: 130px; padding: 12px 14px; }
+      select { min-width: 140px; }
+      input[type=text] { min-width: 140px; }
+      table { font-size: .76rem; }
+      thead th, tbody td { padding: 8px 9px; }
+      .hide-mob { display: none; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div style="display:flex;align-items:center;gap:12px">
+    <img src="https://arquivos.mercos.com/media/logomarca_representada/424258/632f8370-c166-11f0-8b57-528d5463a703.jpg" alt="SPON Distribuidora" style="height:40px;width:40px;border-radius:8px;object-fit:cover">
+    <div>
+      <h1>ESTOQUE MERCOS x SPON</h1>
+      <p id="header-sub">—</p>
+    </div>
+  </div>
+  <div style="display:flex;gap:14px;align-items:center">
+    <a href="pedidos_mercos.html" style="color:var(--blue);font-size:.8rem;text-decoration:none;font-weight:700">Pedidos Mercos →</a>
+    <a href="index.html" style="color:var(--muted);font-size:.8rem;text-decoration:none">← Painel</a>
+  </div>
+</header>
+
+<div class="kpis" id="kpis"></div>
+
+<div class="controls">
+  <select id="sel-status" onchange="aplicarFiltro()">
+    <option value="">Todos os Status</option>
+    <option value="ok">Com estoque</option>
+    <option value="zerado">Estoque zerado</option>
+    <option value="negativo">Estoque negativo</option>
+    <option value="nao_encontrado">Não encontrado no SPON</option>
+  </select>
+  <input type="text" id="busca" placeholder="Buscar por código ou nome..." oninput="aplicarFiltro()">
+  <button class="btn-csv" onclick="exportarCSV()">⬇ Exportar CSV</button>
+  <span class="info" id="info-count"></span>
+</div>
+
+<div class="table-wrap">
+  <table id="tabela">
+    <thead>
+      <tr>
+        <th onclick="ordenarPor('codigo')">Código</th>
+        <th onclick="ordenarPor('nome')">Produto (Mercos)</th>
+        <th onclick="ordenarPor('preco_tabela_mercos')">Preço Tabela Mercos</th>
+        <th onclick="ordenarPor('qtestoque')">Estoque SPON</th>
+        <th class="hide-mob" onclick="ordenarPor('qtbloqueada')">Bloqueado</th>
+        <th class="hide-mob" onclick="ordenarPor('qtreserv')">Reservado</th>
+        <th onclick="ordenarPor('qtdisponivel')">Disponível</th>
+        <th class="hide-mob" onclick="ordenarPor('preco_venda_spon')">Preço Venda SPON</th>
+        <th class="hide-mob" onclick="ordenarPor('dtultsaida')">Última Saída</th>
+        <th onclick="ordenarPor('_status')">Status</th>
+      </tr>
+    </thead>
+    <tbody id="tbody"></tbody>
+  </table>
+</div>
+
+<script>
+const DATA = typeof ESTOQUE_MERCOS_DATA !== 'undefined' ? ESTOQUE_MERCOS_DATA : null;
+const PRODUTOS = DATA ? DATA.produtos.map(p => ({ ...p, _status: _calcStatus(p) })) : [];
+
+function _calcStatus(p) {
+  if (!p.encontrado_spon) return 'nao_encontrado';
+  if (p.qtdisponivel < 0) return 'negativo';
+  if (p.qtestoque === 0) return 'zerado';
+  return 'ok';
+}
+
+const STATUS_LABEL = {
+  ok: 'Com estoque',
+  zerado: 'Estoque zerado',
+  negativo: 'Estoque negativo',
+  nao_encontrado: 'Não encontrado no SPON',
+};
+
+let _ordem = { campo: 'nome', asc: true };
+
+if (!DATA) {
+  document.getElementById('tbody').innerHTML = '<tr><td colspan="10" class="empty">Dados não encontrados. Gere estoque_mercos_data.js a partir do catálogo da Mercos + estoque do SPON.</td></tr>';
+} else {
+  document.getElementById('header-sub').textContent =
+    'Atualizado ' + DATA.atualizado_em + ' · Filial ' + DATA.filial +
+    (DATA.fontes_indisponiveis && DATA.fontes_indisponiveis.length
+      ? ' · ⚠️ fonte(s) fora do ar: ' + DATA.fontes_indisponiveis.join(', ')
+      : '');
+  aplicarFiltro();
+}
+
+function montarKpis(lista) {
+  const total = lista.length;
+  const zerados = lista.filter(p => p._status === 'zerado').length;
+  const negativos = lista.filter(p => p._status === 'negativo').length;
+  const naoEncontrados = lista.filter(p => p._status === 'nao_encontrado').length;
+  document.getElementById('kpis').innerHTML = `
+    <div class="kpi">
+      <div class="label">Produtos Cadastrados</div>
+      <div class="val">${total}</div>
+    </div>
+    <div class="kpi">
+      <div class="label">Estoque Zerado</div>
+      <div class="val" style="color:var(--red)">${zerados}</div>
+    </div>
+    <div class="kpi">
+      <div class="label">Estoque Negativo</div>
+      <div class="val" style="color:#c084fc">${negativos}</div>
+    </div>
+    <div class="kpi">
+      <div class="label">Não Encontrados no SPON</div>
+      <div class="val" style="color:var(--muted)">${naoEncontrados}</div>
+    </div>`;
+}
+
+function ordenarPor(campo) {
+  if (_ordem.campo === campo) {
+    _ordem.asc = !_ordem.asc;
+  } else {
+    _ordem = { campo, asc: true };
+  }
+  aplicarFiltro();
+}
+
+function _filtrados() {
+  if (!DATA) return [];
+  const status = document.getElementById('sel-status').value;
+  const busca  = document.getElementById('busca').value.trim().toLowerCase();
+  let lista = PRODUTOS.filter(p => {
+    const matchStatus = !status || p._status === status;
+    const matchBusca = !busca || [p.codigo, p.nome].some(v => v && String(v).toLowerCase().includes(busca));
+    return matchStatus && matchBusca;
+  });
+  const { campo, asc } = _ordem;
+  lista = [...lista].sort((a, b) => {
+    let va = a[campo], vb = b[campo];
+    if (va === null || va === undefined) va = asc ? Infinity : -Infinity;
+    if (vb === null || vb === undefined) vb = asc ? Infinity : -Infinity;
+    if (typeof va === 'string') { va = va.toLowerCase(); vb = String(vb || '').toLowerCase(); }
+    if (va < vb) return asc ? -1 : 1;
+    if (va > vb) return asc ? 1 : -1;
+    return 0;
+  });
+  return lista;
+}
+
+function aplicarFiltro() {
+  const lista = _filtrados();
+  montarKpis(lista);
+  document.getElementById('info-count').textContent = lista.length + ' produto(s)';
+
+  const tbody = document.getElementById('tbody');
+  if (!lista.length) {
+    tbody.innerHTML = '<tr><td colspan="10" class="empty">Nenhum produto encontrado.</td></tr>';
+    return;
+  }
+
+  tbody.innerHTML = lista.map(p => `
+    <tr>
+      <td class="cod">${_esc(p.codigo)}</td>
+      <td>${_esc(p.nome)}</td>
+      <td>${brl(p.preco_tabela_mercos)}</td>
+      <td>${_qt(p.qtestoque)}</td>
+      <td class="hide-mob">${_qt(p.qtbloqueada)}</td>
+      <td class="hide-mob">${_qt(p.qtreserv)}</td>
+      <td class="valor">${_qt(p.qtdisponivel)}</td>
+      <td class="hide-mob">${p.preco_venda_spon !== null ? brl(p.preco_venda_spon) : '—'}</td>
+      <td class="hide-mob">${p.dtultsaida || '—'}</td>
+      <td><span class="status status-${p._status}">${STATUS_LABEL[p._status]}</span></td>
+    </tr>`).join('');
+}
+
+function _qt(v) {
+  if (v === null || v === undefined) return '—';
+  return Number(v).toLocaleString('pt-BR', {maximumFractionDigits: 2});
+}
+
+function brl(v) {
+  return 'R$ ' + Number(v || 0).toLocaleString('pt-BR', {minimumFractionDigits: 2, maximumFractionDigits: 2});
+}
+
+function _esc(s) {
+  return String(s || '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+}
+
+function exportarCSV() {
+  const lista = _filtrados();
+  const header = ['Codigo','Nome','Preco Tabela Mercos','Estoque SPON','Bloqueado','Reservado','Disponivel','Preco Venda SPON','Ultima Entrada','Ultima Saida','Status'];
+  const linhas = lista.map(p => [
+    p.codigo, p.nome, p.preco_tabela_mercos, p.qtestoque, p.qtbloqueada, p.qtreserv,
+    p.qtdisponivel, p.preco_venda_spon, p.dtultent, p.dtultsaida, STATUS_LABEL[p._status],
+  ].map(v => `"${String(v??'').replace(/"/g,'""')}"`).join(';'));
+
+  const csv = '﻿' + [header.join(';'), ...linhas].join('\r\n');
+  const blob = new Blob([csv], { type: 'text/csv;charset=utf-8;' });
+  const url  = URL.createObjectURL(blob);
+  const a    = document.createElement('a');
+  a.href = url;
+  a.download = `estoque_mercos_spon_${new Date().toISOString().slice(0,10)}.csv`;
+  a.click();
+  URL.revokeObjectURL(url);
+}
+</script>
+<script src="sticky_hscroll.js"></script>
+</body>
+</html>
