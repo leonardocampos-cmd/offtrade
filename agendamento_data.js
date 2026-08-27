@@ -17637,6 +17637,34 @@ const AGENDAMENTO_DATA = {
       "codusur": "450",
       "itens": [
         {
+          "codigo_cliente": "78665",
+          "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
+          "cnpj": "08.628.825/0022-91",
+          "filial": "DEL CASTILHO",
+          "valor": 1680.0,
+          "nf": "",
+          "data_agendamento": "28/08/2026",
+          "data_ord": "2026-08-28",
+          "status": "A FATURAR",
+          "obs": "SUPERMERCADO SUPERMAKET - PRODUTOS EM ENCARTE",
+          "status_logistica": "",
+          "justificativa_logistica": ""
+        },
+        {
+          "codigo_cliente": "90411",
+          "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
+          "cnpj": "08.628.825/0018-05",
+          "filial": "MESQUITA",
+          "valor": 840.0,
+          "nf": "",
+          "data_agendamento": "28/08/2026",
+          "data_ord": "2026-08-28",
+          "status": "A FATURAR",
+          "obs": "SUPERMERCADO SUPERMAKET - PRODUTOS EM ENCARTE",
+          "status_logistica": "",
+          "justificativa_logistica": ""
+        },
+        {
           "codigo_cliente": "94955",
           "cliente": "COMERCIO DE CEREAIS IZANITA LIMITADA",
           "cnpj": "07.258.484/0001-12",
@@ -27063,7 +27091,7 @@ const AGENDAMENTO_DATA = {
       ]
     }
   ],
-  "atualizado_em": "27/08/2026 15:07",
+  "atualizado_em": "27/08/2026 15:58",
   "comparativo": [
     {
       "msg_id": "1a01bc9a975c4cab",
