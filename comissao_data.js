@@ -1,7 +1,7 @@
 // Gerado automaticamente por exportacao_comissao.py — ESTIMATIVA, não é a apuração oficial
 
 const COMISSAO_DATA = {
-  "atualizado_em": "27/08/2026 15:15",
+  "atualizado_em": "27/08/2026 16:04",
   "mes_referencia": "08/2026",
   "pct_premio_taxa": 0.015,
   "vendedores": [
@@ -648,10 +648,10 @@ const COMISSAO_DATA = {
         {
           "label": "FATURAMENTO",
           "meta": 65000.0,
-          "realizado": 42531.19,
+          "realizado": 42816.79,
           "peso": 0.1,
-          "ating_meta": 0.654326,
-          "ating_acumulado": 0.065433
+          "ating_meta": 0.65872,
+          "ating_acumulado": 0.065872
         },
         {
           "label": "FATURAMENTO PERNOD",
@@ -664,23 +664,23 @@ const COMISSAO_DATA = {
         {
           "label": "FATURAMENTO CASTAS",
           "meta": 3000.0,
-          "realizado": 2512.2,
+          "realizado": 2797.8,
           "peso": 0.0,
-          "ating_meta": 0.8374,
+          "ating_meta": 0.9326,
           "ating_acumulado": 0.0
         },
         {
           "label": "FATURAMENTO HOB + AZEITE",
           "meta": 1000.0,
-          "realizado": 770.8,
+          "realizado": 1056.4,
           "peso": 0.0,
-          "ating_meta": 0.7708,
+          "ating_meta": 1.0564,
           "ating_acumulado": 0.0
         },
         {
           "label": "FATURAMENTO AZEITE",
           "meta": 0.0,
-          "realizado": 571.2,
+          "realizado": 856.8,
           "peso": 0.0,
           "ating_meta": 0.0,
           "ating_acumulado": 0.0
@@ -696,15 +696,15 @@ const COMISSAO_DATA = {
         {
           "label": "POSITIVAÇÃO ESSENZA",
           "meta": 3.0,
-          "realizado": 2,
+          "realizado": 3,
           "peso": 0.05,
-          "ating_meta": 0.666667,
-          "ating_acumulado": 0.033333
+          "ating_meta": 1.0,
+          "ating_acumulado": 0.05
         },
         {
           "label": "POSITIVAÇÃO ESSENZA+HOB",
           "meta": 0.0,
-          "realizado": 2,
+          "realizado": 3,
           "peso": 0.0,
           "ating_meta": 0.0,
           "ating_acumulado": 0.0
@@ -712,7 +712,7 @@ const COMISSAO_DATA = {
         {
           "label": "POSITIVAÇÃO HOB + AZEITE",
           "meta": 0.0,
-          "realizado": 2,
+          "realizado": 3,
           "peso": 0.0,
           "ating_meta": 0.0,
           "ating_acumulado": 0.0
@@ -758,14 +758,14 @@ const COMISSAO_DATA = {
           "ating_acumulado": 0.004167
         }
       ],
-      "ating_acumulado_total": 0.566266,
-      "pct_premio": 0.00849399,
+      "ating_acumulado_total": 0.583372,
+      "pct_premio": 0.00875058,
       "liq_rigarr": 48987.63,
-      "fat_castas": 2512.2,
+      "fat_castas": 2797.8,
       "teto_comissao": 2000.0,
-      "com_rigarr": 1132.53,
-      "com_castas": 21.34,
-      "comissao_estimada": 1153.87
+      "com_rigarr": 1166.74,
+      "com_castas": 24.48,
+      "comissao_estimada": 1191.22
     },
     {
       "nome": "ADEILSON GONÇALVEZ - OFF TRADE",
