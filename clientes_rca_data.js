@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "27/08/2026 15:13",
-  "total": 25524,
+  "atualizado_em": "27/08/2026 16:02",
+  "total": 25520,
   "clientes": [
     {
       "codcli": "38586",
@@ -31138,8 +31138,8 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "SUELY SANTOS - OFF TRADE",
       "codusur2": "",
       "nome_usur2": "",
-      "ultimo_rca": "437",
-      "ultimo_rca_nome": "BEES",
+      "ultimo_rca": "461",
+      "ultimo_rca_nome": "SUELY SANTOS - OFF TRADE",
       "ultimo_rca_ot": "461",
       "ultimo_rca_ot_nome": "SUELY SANTOS - OFF TRADE"
     },
@@ -72484,26 +72484,6 @@ const CLIENTES_RCA_DATA = {
       "ultimo_rca_ot_nome": ""
     },
     {
-      "codcli": "74764",
-      "razao": "AQUARIO LOUNGE LTDA",
-      "fantasia": "AQUARIO LOUNGE",
-      "bairro": "CENTRO",
-      "cidade": "SAO MATEUS",
-      "cnpj": "52.200.949/0001-39",
-      "estado": "ES",
-      "ramo": "BAR",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": "",
-      "ultimo_rca": "190",
-      "ultimo_rca_nome": "ROMARIO DOS SANTOS",
-      "ultimo_rca_ot": "342",
-      "ultimo_rca_ot_nome": "RICARDO CLAUDIO - OFF TRADE"
-    },
-    {
       "codcli": "21542",
       "razao": "AQUARIUM BAR E RESTAURANTE EIRELI",
       "fantasia": "AQUARIUM BAR",
@@ -79578,8 +79558,8 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "INATIVO3",
       "codusur2": "",
       "nome_usur2": "",
-      "ultimo_rca": "17",
-      "ultimo_rca_nome": "VENDEDOR 02",
+      "ultimo_rca": "437",
+      "ultimo_rca_nome": "BEES",
       "ultimo_rca_ot": "",
       "ultimo_rca_ot_nome": ""
     },
@@ -173498,8 +173478,8 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "RAPHAELA RIBAS",
       "codusur2": "461",
       "nome_usur2": "SUELY SANTOS - OFF TRADE",
-      "ultimo_rca": "329",
-      "ultimo_rca_nome": "RAPHAELA RIBAS",
+      "ultimo_rca": "461",
+      "ultimo_rca_nome": "SUELY SANTOS - OFF TRADE",
       "ultimo_rca_ot": "461",
       "ultimo_rca_ot_nome": "SUELY SANTOS - OFF TRADE"
     },
@@ -189180,26 +189160,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "",
       "ultimo_rca": "17",
       "ultimo_rca_nome": "VENDEDOR 02",
-      "ultimo_rca_ot": "",
-      "ultimo_rca_ot_nome": ""
-    },
-    {
-      "codcli": "94204",
-      "razao": "EDUARDO MOTOS LTDA",
-      "fantasia": "EDUARDO MOTOS",
-      "bairro": "ITANHANGA",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "47.474.293/0001-02",
-      "estado": "RJ",
-      "ramo": "OUTROS",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": "",
-      "ultimo_rca": "295",
-      "ultimo_rca_nome": "JOÃO VITOR BRAGA",
       "ultimo_rca_ot": "",
       "ultimo_rca_ot_nome": ""
     },
@@ -205480,26 +205440,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "",
       "ultimo_rca": "437",
       "ultimo_rca_nome": "BEES",
-      "ultimo_rca_ot": "",
-      "ultimo_rca_ot_nome": ""
-    },
-    {
-      "codcli": "50988",
-      "razao": "F. B. DA COSTA PONTO CERTO COMERCIO DOCES",
-      "fantasia": "PONTO CERTO DOCES E BISCOITOS",
-      "bairro": "ITANHANGA",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "32.693.667/0001-03",
-      "estado": "RJ",
-      "ramo": "BAR",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": "",
-      "ultimo_rca": "152",
-      "ultimo_rca_nome": "PEDRO RANGEL",
       "ultimo_rca_ot": "",
       "ultimo_rca_ot_nome": ""
     },
@@ -267038,10 +266978,10 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "ANDERSON MOTTA - OFF TRADE",
       "codusur2": "119",
       "nome_usur2": "VIVIANI ALVES - OFF TRADE",
-      "ultimo_rca": "",
-      "ultimo_rca_nome": "",
-      "ultimo_rca_ot": "",
-      "ultimo_rca_ot_nome": ""
+      "ultimo_rca": "492",
+      "ultimo_rca_nome": "ANDERSON MOTTA - OFF TRADE",
+      "ultimo_rca_ot": "492",
+      "ultimo_rca_ot_nome": "ANDERSON MOTTA - OFF TRADE"
     },
     {
       "codcli": "93294",
@@ -331038,10 +330978,10 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "MARLENE RODRIGUES - OFF TRADE",
       "codusur2": "",
       "nome_usur2": "",
-      "ultimo_rca": "",
-      "ultimo_rca_nome": "",
-      "ultimo_rca_ot": "",
-      "ultimo_rca_ot_nome": ""
+      "ultimo_rca": "467",
+      "ultimo_rca_nome": "MARLENE RODRIGUES - OFF TRADE",
+      "ultimo_rca_ot": "467",
+      "ultimo_rca_ot_nome": "MARLENE RODRIGUES - OFF TRADE"
     },
     {
       "codcli": "50785",
@@ -331098,10 +331038,10 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "ISAIAS FALCHIONE - OFF TRADE",
       "codusur2": "",
       "nome_usur2": "",
-      "ultimo_rca": "",
-      "ultimo_rca_nome": "",
-      "ultimo_rca_ot": "",
-      "ultimo_rca_ot_nome": ""
+      "ultimo_rca": "526",
+      "ultimo_rca_nome": "ISAIAS FALCHIONE - OFF TRADE",
+      "ultimo_rca_ot": "526",
+      "ultimo_rca_ot_nome": "ISAIAS FALCHIONE - OFF TRADE"
     },
     {
       "codcli": "52617",
@@ -334318,10 +334258,10 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "MARLENE RODRIGUES - OFF TRADE",
       "codusur2": "",
       "nome_usur2": "",
-      "ultimo_rca": "",
-      "ultimo_rca_nome": "",
-      "ultimo_rca_ot": "",
-      "ultimo_rca_ot_nome": ""
+      "ultimo_rca": "467",
+      "ultimo_rca_nome": "MARLENE RODRIGUES - OFF TRADE",
+      "ultimo_rca_ot": "467",
+      "ultimo_rca_ot_nome": "MARLENE RODRIGUES - OFF TRADE"
     },
     {
       "codcli": "52716",
@@ -336342,26 +336282,6 @@ const CLIENTES_RCA_DATA = {
       "ultimo_rca_nome": "RENATO JUNIOR - OFF TRADE",
       "ultimo_rca_ot": "468",
       "ultimo_rca_ot_nome": "RENATO JUNIOR - OFF TRADE"
-    },
-    {
-      "codcli": "91753",
-      "razao": "MERCADO P B DO BARRO VERMELHO LTDA",
-      "fantasia": "MERCADO PB FILIAL SANTA AMELIA GALPAO",
-      "bairro": "SANTA AMELIA",
-      "cidade": "BELFORD ROXO",
-      "cnpj": "41.010.670/0002-57",
-      "estado": "RJ",
-      "ramo": "MERCADO",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "312",
-      "nome_usur2": "LAYZ WERNECK",
-      "ultimo_rca": "",
-      "ultimo_rca_nome": "",
-      "ultimo_rca_ot": "",
-      "ultimo_rca_ot_nome": ""
     },
     {
       "codcli": "88938",
@@ -459478,10 +459398,10 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "ISAIAS FALCHIONE - OFF TRADE",
       "codusur2": "",
       "nome_usur2": "",
-      "ultimo_rca": "",
-      "ultimo_rca_nome": "",
-      "ultimo_rca_ot": "",
-      "ultimo_rca_ot_nome": ""
+      "ultimo_rca": "526",
+      "ultimo_rca_nome": "ISAIAS FALCHIONE - OFF TRADE",
+      "ultimo_rca_ot": "526",
+      "ultimo_rca_ot_nome": "ISAIAS FALCHIONE - OFF TRADE"
     },
     {
       "codcli": "82190",
@@ -464098,10 +464018,10 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "GUSTAVO MARTINS - OFF TRADE",
       "codusur2": "",
       "nome_usur2": "",
-      "ultimo_rca": "",
-      "ultimo_rca_nome": "",
-      "ultimo_rca_ot": "",
-      "ultimo_rca_ot_nome": ""
+      "ultimo_rca": "502",
+      "ultimo_rca_nome": "GUSTAVO MARTINS - OFF TRADE",
+      "ultimo_rca_ot": "502",
+      "ultimo_rca_ot_nome": "GUSTAVO MARTINS - OFF TRADE"
     },
     {
       "codcli": "19078",
@@ -482918,10 +482838,10 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "JOAQUIM ANGELO - OFF TRADE",
       "codusur2": "",
       "nome_usur2": "",
-      "ultimo_rca": "",
-      "ultimo_rca_nome": "",
-      "ultimo_rca_ot": "",
-      "ultimo_rca_ot_nome": ""
+      "ultimo_rca": "516",
+      "ultimo_rca_nome": "JOAQUIM ANGELO - OFF TRADE",
+      "ultimo_rca_ot": "516",
+      "ultimo_rca_ot_nome": "JOAQUIM ANGELO - OFF TRADE"
     },
     {
       "codcli": "76244",
