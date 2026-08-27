@@ -45,9 +45,9 @@
   <style>
     * { box-sizing: border-box; margin: 0; padding: 0; }
     :root {
-      --bg: #000000; --card: #1c1840; --card2: #262048;
+      --bg: #000000; --card: rgba(255,255,255,.06); --card2: rgba(255,255,255,.1);
       --accent: #ffffff; --blue: #7c86ff; --text: #e7e6f5;
-      --muted: #9b96c4; --border: #34305c; --green: #22c55e;
+      --muted: #9aa0a6; --border: rgba(255,255,255,.14); --green: #22c55e;
       --red: #ef4444; --orange: #f97316;
     }
     body {
@@ -161,12 +161,7 @@
         <th onclick="ordenarPor('codigo')">Código</th>
         <th onclick="ordenarPor('nome')">Produto (Mercos)</th>
         <th onclick="ordenarPor('preco_tabela_mercos')">Preço Tabela Mercos</th>
-        <th onclick="ordenarPor('qtestoque')">Estoque SPON</th>
-        <th class="hide-mob" onclick="ordenarPor('qtbloqueada')">Bloqueado</th>
-        <th class="hide-mob" onclick="ordenarPor('qtreserv')">Reservado</th>
         <th onclick="ordenarPor('qtdisponivel')">Disponível</th>
-        <th class="hide-mob" onclick="ordenarPor('preco_venda_spon')">Preço Venda SPON</th>
-        <th class="hide-mob" onclick="ordenarPor('dtultsaida')">Última Saída</th>
         <th onclick="ordenarPor('_status')">Status</th>
       </tr>
     </thead>
@@ -195,7 +190,7 @@ const STATUS_LABEL = {
 let _ordem = { campo: 'nome', asc: true };
 
 if (!DATA) {
-  document.getElementById('tbody').innerHTML = '<tr><td colspan="10" class="empty">Dados não encontrados. Gere estoque_mercos_data.js a partir do catálogo da Mercos + estoque do SPON.</td></tr>';
+  document.getElementById('tbody').innerHTML = '<tr><td colspan="5" class="empty">Dados não encontrados. Gere estoque_mercos_data.js a partir do catálogo da Mercos + estoque do SPON.</td></tr>';
 } else {
   document.getElementById('header-sub').textContent =
     'Atualizado ' + DATA.atualizado_em + ' · Filial ' + DATA.filial +
@@ -267,7 +262,7 @@ function aplicarFiltro() {
 
   const tbody = document.getElementById('tbody');
   if (!lista.length) {
-    tbody.innerHTML = '<tr><td colspan="10" class="empty">Nenhum produto encontrado.</td></tr>';
+    tbody.innerHTML = '<tr><td colspan="5" class="empty">Nenhum produto encontrado.</td></tr>';
     return;
   }
 
@@ -276,12 +271,7 @@ function aplicarFiltro() {
       <td class="cod">${_esc(p.codigo)}</td>
       <td>${_esc(p.nome)}</td>
       <td>${brl(p.preco_tabela_mercos)}</td>
-      <td>${_qt(p.qtestoque)}</td>
-      <td class="hide-mob">${_qt(p.qtbloqueada)}</td>
-      <td class="hide-mob">${_qt(p.qtreserv)}</td>
       <td class="valor">${_qt(p.qtdisponivel)}</td>
-      <td class="hide-mob">${p.preco_venda_spon !== null ? brl(p.preco_venda_spon) : '—'}</td>
-      <td class="hide-mob">${p.dtultsaida || '—'}</td>
       <td><span class="status status-${p._status}">${STATUS_LABEL[p._status]}</span></td>
     </tr>`).join('');
 }
