@@ -1,6 +1,6 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "27/08/2026 16:02",
+  "atualizado_em": "27/08/2026 16:47",
   "total": 25520,
   "clientes": [
     {
@@ -80378,10 +80378,10 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "ADEILSON GONÇALVEZ - OFF TRADE",
       "codusur2": "",
       "nome_usur2": "",
-      "ultimo_rca": "",
-      "ultimo_rca_nome": "",
-      "ultimo_rca_ot": "412",
-      "ultimo_rca_ot_nome": "BARBARA CABRAL - OFF TRADE"
+      "ultimo_rca": "431",
+      "ultimo_rca_nome": "ADEILSON GONÇALVEZ - OFF TRADE",
+      "ultimo_rca_ot": "431",
+      "ultimo_rca_ot_nome": "ADEILSON GONÇALVEZ - OFF TRADE"
     },
     {
       "codcli": "3551",
