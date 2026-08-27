@@ -206,7 +206,18 @@ def _show_login(cookies):
         st.rerun()
     if result and "token" in result:
         st.session_state["token"] = result["token"]
-        cookies.set("offtrade_token", json.dumps(result["token"]))
+        # CookieController pode ainda não ter terminado o round-trip
+        # assíncrono JS->Python nesse mesmo run (o componente só inicializa
+        # o dict interno depois de um getAll() concluído) — .set() nessa
+        # janela levanta TypeError: 'NoneType' object does not support item
+        # assignment, derrubando a tela de login com um erro pro vendedor
+        # (incidente real em 2026-08-27). st.session_state["token"] já foi
+        # setado acima, então a sessão atual funciona mesmo se o cookie não
+        # gravar agora — mesma proteção já usada em ensure_valid_token().
+        try:
+            cookies.set("offtrade_token", json.dumps(result["token"]))
+        except Exception:
+            pass
         st.rerun()
     st.stop()
 
