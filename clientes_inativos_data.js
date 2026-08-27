@@ -1,7 +1,7 @@
 // Gerado automaticamente
 
 const INATIVOS_DATA = {
-  "atualizado_em": "27/08/2026 14:20",
+  "atualizado_em": "27/08/2026 15:26",
   "por_vendedor": {
     "ADEILSON GONÇALVEZ - OFF TRADE": {
       "rca": "431",
@@ -9461,6 +9461,15 @@ const INATIVOS_DATA = {
           "dtultcomp": "13/07/2026",
           "dias": 45,
           "media": 270.34
+        },
+        {
+          "codcli": "90874",
+          "cliente": "56.003.128 GABRIELLY DE OLIVEIRA VIEIRA",
+          "bairro": "SANTA CRUZ",
+          "cidade": "RIO DE JANEIRO",
+          "dtultcomp": "14/07/2026",
+          "dias": 44,
+          "media": 457.47
         },
         {
           "codcli": "50653",
@@ -23863,10 +23872,6 @@ const INATIVOS_DATA = {
                 {
                   "nome": "JORGE MACIEL - OFF TRADE",
                   "rca": "379"
-                },
-                {
-                  "nome": "JOSE MARCELO CARDOSO - OFF TRADE",
-                  "rca": "158"
                 },
                 {
                   "nome": "KELLY RAMOS - OFF TRADE",
