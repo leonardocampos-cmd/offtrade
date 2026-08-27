@@ -154,6 +154,7 @@
   </div>
   <div style="display:flex;gap:14px;align-items:center">
     <a href="estoque_mercos.html" style="color:var(--blue);font-size:.8rem;text-decoration:none;font-weight:700">📦 Estoque</a>
+    <a href="kanban_mercos.html" style="color:var(--blue);font-size:.8rem;text-decoration:none;font-weight:700">📋 Tarefas</a>
     <a href="sp.html?vendedor=W.S" style="color:var(--blue);font-size:.8rem;text-decoration:none;font-weight:700">Ver painel SP (W.S) →</a>
     <a href="index.html" style="color:var(--muted);font-size:.8rem;text-decoration:none">← Painel</a>
   </div>
@@ -358,7 +359,7 @@ function aplicarFiltro() {
           <td>${_qt(it.qt)}</td>
           <td>${brl(it.preco_liquido)}</td>
           <td>${brl(it.subtotal)}</td>
-          <td>${ic ? `<span class="status status-corte">Cortado: ${_qt(ic.qt_cortada)} un (faturou ${_qt(ic.qt_faturada)})</span>` : '<span class="status status-integral">OK</span>'}</td>
+          <td>${_itemStatusBadge(p, ic)}</td>
         </tr>`;
         }).join('')}
         </tbody></table>
@@ -375,6 +376,21 @@ function _statusBadge(p) {
     badge += `<div class="spon-info">SPON: ${brl(p.valor_spon)}</div>`;
   }
   return badge;
+}
+
+const STATUS_COM_COMPARACAO = ['integral', 'corte', 'excesso'];
+
+function _itemStatusBadge(p, ic) {
+  if (ic) {
+    return `<span class="status status-corte">Cortado: ${_qt(ic.qt_cortada)} un (faturou ${_qt(ic.qt_faturada)})</span>`;
+  }
+  if (STATUS_COM_COMPARACAO.includes(p.status_spon)) {
+    return '<span class="status status-integral">OK</span>';
+  }
+  if (p.status_spon === 'montado') {
+    return '<span class="status status-montado">Aguardando faturamento</span>';
+  }
+  return '<span class="status status-nao_encontrado" style="opacity:.7">Sem dado no SPON</span>';
 }
 
 function toggleItens(numped) {
@@ -415,10 +431,11 @@ function exportarCSV() {
     (p.itens_cortados || []).forEach(ic => { cortados[String(ic.codprod)] = ic; });
     (p.itens || []).forEach(it => {
       const ic = cortados[String(it.codprod)];
+      const temComparacao = STATUS_COM_COMPARACAO.includes(p.status_spon);
       linhas.push([
         p.numped, p.data, p.cod_vendedor, p.vendedor, _formatCnpj(p.cnpj), p.cliente, p.representada,
         it.codprod, it.descricao, it.qt, it.preco_liquido, it.subtotal,
-        ic ? ic.qt_faturada : it.qt, ic ? ic.qt_cortada : 0,
+        ic ? ic.qt_faturada : (temComparacao ? it.qt : ''), ic ? ic.qt_cortada : (temComparacao ? 0 : ''),
         STATUS_LABEL[p.status_spon] || p.status_spon, p.valor_spon ?? '', (p.numped_spon || []).join(' / '),
       ].map(v => `"${String(v??'').replace(/"/g,'""')}"`).join(';'));
     });
