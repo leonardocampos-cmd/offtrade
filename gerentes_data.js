@@ -1,7 +1,7 @@
 // Gerado automaticamente
 
 const GERENTES_DATA = {
-  "atualizado_em": "27/08/2026 11:15",
+  "atualizado_em": "27/08/2026 12:18",
   "meses": [
     "Ago/26",
     "Jul/26",
@@ -588,8 +588,8 @@ const GERENTES_DATA = {
           "qt": 16069
         },
         "Ago/26": {
-          "fat": 1694450.14,
-          "qt": 28962
+          "fat": 1721388.94,
+          "qt": 29214
         },
         "Jul/26": {
           "fat": 1859074.63,
@@ -620,8 +620,8 @@ const GERENTES_DATA = {
               "qt": 16069
             },
             "Ago/26": {
-              "fat": 1694450.14,
-              "qt": 28962
+              "fat": 1721388.94,
+              "qt": 29214
             },
             "Jul/26": {
               "fat": 1859074.63,
@@ -652,8 +652,8 @@ const GERENTES_DATA = {
                   "qt": 16069
                 },
                 "Ago/26": {
-                  "fat": 1694450.14,
-                  "qt": 28962
+                  "fat": 1721388.94,
+                  "qt": 29214
                 },
                 "Jul/26": {
                   "fat": 1859074.63,
@@ -746,8 +746,8 @@ const GERENTES_DATA = {
                       "qt": 15369
                     },
                     "Ago/26": {
-                      "fat": 517710.78,
-                      "qt": 8997
+                      "fat": 544649.58,
+                      "qt": 9249
                     },
                     "Jul/26": {
                       "fat": 848964.14,
@@ -1493,13 +1493,9 @@ const GERENTES_DATA = {
                 },
                 {
                   "nome": "NÁTALI DE OLIVEIRA - OFF TRADE",
-                  "rca": "419",
+                  "rca": "482",
                   "estado": "RJ",
                   "por_mes": {
-                    "Abr/26": {
-                      "fat": 47733.55,
-                      "qt": 1089
-                    },
                     "Ago/26": {
                       "fat": 83774.33,
                       "qt": 1818
@@ -1511,6 +1507,10 @@ const GERENTES_DATA = {
                     "Jun/26": {
                       "fat": 105672.51,
                       "qt": 2558
+                    },
+                    "Abr/26": {
+                      "fat": 47733.55,
+                      "qt": 1089
                     },
                     "Mai/26": {
                       "fat": 38615.83,
@@ -1524,7 +1524,7 @@ const GERENTES_DATA = {
                 },
                 {
                   "nome": "VIVIANI ALVES - OFF TRADE",
-                  "rca": "91",
+                  "rca": "119",
                   "estado": "RJ",
                   "por_mes": {
                     "Abr/26": {
@@ -2046,32 +2046,32 @@ const GERENTES_DATA = {
                 },
                 {
                   "nome": "BRYAN PALOPOLI - OFF TRADE",
-                  "rca": "299",
+                  "rca": "399",
                   "estado": "SP",
                   "por_mes": {
-                    "Abr/26": {
-                      "fat": 40780.92,
-                      "qt": 527
-                    },
                     "Ago/26": {
                       "fat": 62716.53,
                       "qt": 152
-                    },
-                    "Jul/26": {
-                      "fat": 67582.53,
-                      "qt": 1229
                     },
                     "Jun/26": {
                       "fat": 36626.91,
                       "qt": 217
                     },
-                    "Mai/26": {
-                      "fat": 341.64,
-                      "qt": 151
-                    },
                     "Mar/26": {
                       "fat": 21679.38,
                       "qt": 290
+                    },
+                    "Abr/26": {
+                      "fat": 40780.92,
+                      "qt": 527
+                    },
+                    "Jul/26": {
+                      "fat": 67582.53,
+                      "qt": 1229
+                    },
+                    "Mai/26": {
+                      "fat": 341.64,
+                      "qt": 151
                     }
                   }
                 },
