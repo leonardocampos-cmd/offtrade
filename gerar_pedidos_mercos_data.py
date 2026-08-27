@@ -93,13 +93,17 @@ def _montar_pedidos(pedido_info):
 
 
 def _cruzar_com_spon(lista_pedidos):
+    # CODPROD por item (não só o total do pedido) pra dar pra apontar
+    # exatamente qual produto foi cortado — o código de produto é o mesmo
+    # entre Mercos e Winthor (confirmado em 2026-08-27 comparando itens de
+    # pedidos vizinhos do mesmo cliente).
     query = f"""
-        SELECT PED.NUMPED, PC.NUMPEDCLI, SUM(PED.TOTAL) AS TOTAL
+        SELECT PED.NUMPED, PC.NUMPEDCLI, PED.CODPROD, SUM(PED.QT) AS QT, SUM(PED.TOTAL) AS TOTAL
         FROM SPON.PBI_PCPEDI PED
         LEFT JOIN SPON.PCPEDC PC ON PC.NUMPED = PED.NUMPED
         WHERE PED.DATA >= DATE '{DATA_INICIAL}'
           AND PED.NOME = 'W.S'
-        GROUP BY PED.NUMPED, PC.NUMPEDCLI
+        GROUP BY PED.NUMPED, PC.NUMPEDCLI, PED.CODPROD
     """
     try:
         df = carregar_dados(query, engine_spon, "spon_ws_pedidos")
@@ -124,18 +128,37 @@ def _cruzar_com_spon(lista_pedidos):
             p["status_spon"] = "nao_encontrado"
             p["valor_spon"] = None
             p["numped_spon"] = []
+            p["itens_cortados"] = []
             nao_encontrados.append(p)
             continue
         total_spon = round(sum(float(c["TOTAL"]) for c in candidatos), 2)
         diff = round(total_spon - p["subtotal_pedido"], 2)
         p["valor_spon"] = total_spon
-        p["numped_spon"] = [str(int(c["NUMPED"])) for c in candidatos]
+        p["numped_spon"] = sorted({str(int(c["NUMPED"])) for c in candidatos})
         if diff < -0.5:
             p["status_spon"] = "corte"
         elif diff > 0.5:
             p["status_spon"] = "excesso"
         else:
             p["status_spon"] = "integral"
+
+        qt_spon_por_produto = {}
+        for c in candidatos:
+            codprod = str(int(c["CODPROD"]))
+            qt_spon_por_produto[codprod] = qt_spon_por_produto.get(codprod, 0.0) + float(c["QT"] or 0)
+
+        itens_cortados = []
+        for it in p["itens"]:
+            qt_spon = qt_spon_por_produto.get(str(it["codprod"]), 0.0)
+            if qt_spon < it["qt"] - 0.01:
+                itens_cortados.append({
+                    "codprod": it["codprod"],
+                    "descricao": it["descricao"],
+                    "qt_pedido": it["qt"],
+                    "qt_faturada": round(qt_spon, 2),
+                    "qt_cortada": round(it["qt"] - qt_spon, 2),
+                })
+        p["itens_cortados"] = itens_cortados
 
     # Dos "não encontrados", checa se o CNPJ nem existe como cliente
     # cadastrado no SPON (prospect novo, cadastro pendente) — diferente de

@@ -127,6 +127,7 @@
     .status-cliente_nao_cadastrado { background: rgba(168,85,247,.18); color: #c084fc; }
     .status-indisponivel { background: var(--card2); color: var(--muted); }
     .spon-info { font-size: .72rem; color: var(--muted); margin-top: 2px; }
+    tr.item-cortado td { background: rgba(249,115,22,.08); }
 
     @media (max-width: 640px) {
       body { padding: 12px; }
@@ -190,6 +191,7 @@
         <th onclick="ordenarPor('qt_pedido')">Qtd</th>
         <th onclick="ordenarPor('subtotal_pedido')">Subtotal</th>
         <th onclick="ordenarPor('status_spon')">Status SPON</th>
+        <th class="hide-mob">Pedido SPON</th>
       </tr>
     </thead>
     <tbody id="tbody"></tbody>
@@ -213,7 +215,7 @@ let _ordem = { campo: 'data', asc: false };
 let _expandidos = new Set();
 
 if (!DATA) {
-  document.getElementById('tbody').innerHTML = '<tr><td colspan="10" class="empty">Dados não encontrados. Gere pedidos_mercos_data.js a partir dos relatórios exportados da Mercos.</td></tr>';
+  document.getElementById('tbody').innerHTML = '<tr><td colspan="11" class="empty">Dados não encontrados. Gere pedidos_mercos_data.js a partir dos relatórios exportados da Mercos.</td></tr>';
 } else {
   document.getElementById('header-sub').textContent =
     'Atualizado ' + DATA.atualizado_em + ' · Período: ' + DATA.periodo +
@@ -318,7 +320,7 @@ function aplicarFiltro() {
 
   const tbody = document.getElementById('tbody');
   if (!lista.length) {
-    tbody.innerHTML = '<tr><td colspan="10" class="empty">Nenhum pedido encontrado.</td></tr>';
+    tbody.innerHTML = '<tr><td colspan="11" class="empty">Nenhum pedido encontrado.</td></tr>';
     return;
   }
 
@@ -336,17 +338,24 @@ function aplicarFiltro() {
       <td>${_qt(p.qt_pedido)}</td>
       <td class="valor">${brl(p.subtotal_pedido)}</td>
       <td>${_statusBadge(p)}</td>
+      <td class="cod hide-mob">${(p.numped_spon || []).join(', ') || '—'}</td>
     </tr>`;
     if (aberto) {
-      html += `<tr class="linha-itens"><td colspan="10"><div class="itens-wrap">
-        <table><thead><tr><th>Código</th><th>Produto</th><th>Qtd</th><th>Preço Líquido</th><th>Subtotal</th></tr></thead><tbody>
-        ${(p.itens || []).map(it => `<tr>
+      const cortados = {};
+      (p.itens_cortados || []).forEach(ic => { cortados[String(ic.codprod)] = ic; });
+      html += `<tr class="linha-itens"><td colspan="11"><div class="itens-wrap">
+        <table><thead><tr><th>Código</th><th>Produto</th><th>Qtd</th><th>Preço Líquido</th><th>Subtotal</th><th>Faturado no SPON</th></tr></thead><tbody>
+        ${(p.itens || []).map(it => {
+          const ic = cortados[String(it.codprod)];
+          return `<tr${ic ? ' class="item-cortado"' : ''}>
           <td class="cod">${_esc(it.codprod)}</td>
           <td>${_esc(it.descricao)}</td>
           <td>${_qt(it.qt)}</td>
           <td>${brl(it.preco_liquido)}</td>
           <td>${brl(it.subtotal)}</td>
-        </tr>`).join('')}
+          <td>${ic ? `<span class="status status-corte">Cortado: ${_qt(ic.qt_cortada)} un (faturou ${_qt(ic.qt_faturada)})</span>` : '<span class="status status-integral">OK</span>'}</td>
+        </tr>`;
+        }).join('')}
         </tbody></table>
       </div></td></tr>`;
     }
@@ -358,7 +367,7 @@ function _statusBadge(p) {
   const label = STATUS_LABEL[p.status_spon] || p.status_spon || '—';
   let badge = `<span class="status status-${_esc(p.status_spon)}">${_esc(label)}</span>`;
   if ((p.status_spon === 'corte' || p.status_spon === 'excesso') && p.valor_spon !== null && p.valor_spon !== undefined) {
-    badge += `<div class="spon-info">SPON: ${brl(p.valor_spon)} (NUMPED ${(p.numped_spon || []).join(', ')})</div>`;
+    badge += `<div class="spon-info">SPON: ${brl(p.valor_spon)}</div>`;
   }
   return badge;
 }
@@ -394,13 +403,17 @@ function _escAttr(s) {
 
 function exportarCSV() {
   const lista = _filtrados();
-  const header = ['Pedido','Data','Codigo Vendedor','Vendedor','CNPJ','Cliente','Representada','Codigo Produto','Descricao','Qtd','Preco Liquido','Subtotal','Status SPON','Valor SPON','NUMPED SPON'];
+  const header = ['Pedido','Data','Codigo Vendedor','Vendedor','CNPJ','Cliente','Representada','Codigo Produto','Descricao','Qtd Pedida','Preco Liquido','Subtotal','Qtd Faturada SPON','Qtd Cortada','Status SPON','Valor SPON','NUMPED SPON'];
   const linhas = [];
   lista.forEach(p => {
+    const cortados = {};
+    (p.itens_cortados || []).forEach(ic => { cortados[String(ic.codprod)] = ic; });
     (p.itens || []).forEach(it => {
+      const ic = cortados[String(it.codprod)];
       linhas.push([
         p.numped, p.data, p.cod_vendedor, p.vendedor, _formatCnpj(p.cnpj), p.cliente, p.representada,
         it.codprod, it.descricao, it.qt, it.preco_liquido, it.subtotal,
+        ic ? ic.qt_faturada : it.qt, ic ? ic.qt_cortada : 0,
         STATUS_LABEL[p.status_spon] || p.status_spon, p.valor_spon ?? '', (p.numped_spon || []).join(' / '),
       ].map(v => `"${String(v??'').replace(/"/g,'""')}"`).join(';'));
     });
