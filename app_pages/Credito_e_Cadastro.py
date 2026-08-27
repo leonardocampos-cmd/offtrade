@@ -302,7 +302,7 @@ if busca:
                 ie_indisponivel = False
                 try:
                     dados_rf = _fetch_cnpj(cnpj_limpo, incluir_registros=True)
-                except Exception:
+                except Exception as _e1:
                     # Consulta completa (CNPJ + Insc. Estadual) falhou — o
                     # serviço de IE do provedor (cnpja.com) já teve
                     # instabilidade própria (503 'ccc service is offline',
@@ -313,8 +313,15 @@ if busca:
                     try:
                         dados_rf        = _fetch_cnpj(cnpj_limpo, incluir_registros=False)
                         ie_indisponivel = True
-                    except Exception:
+                        print(f"[CNPJ] {cnpj_limpo}: consulta completa falhou ({str(_e1)[:200]}), caiu pro básico com sucesso.")
+                    except Exception as _e2:
                         dados_rf = None
+                        # Print (não arquivo) — vira log via journalctl -u offtrade,
+                        # sem risco de PermissionError escrevendo em /opt/offtrade
+                        # (já visto antes com Preco_Promo.py). Pedido do usuário em
+                        # 2026-08-27 depois de um "Não foi possível obter dados da
+                        # Receita Federal" sem nenhum rastro pra investigar depois.
+                        print(f"[CNPJ] {cnpj_limpo}: falha total. Completa: {str(_e1)[:200]} | Básica: {str(_e2)[:200]}")
 
                 if dados_rf is None:
                     st.info("Não foi possível consultar a Receita Federal para este CNPJ.")
@@ -394,27 +401,35 @@ if busca:
                     _hora     = _dt.now(_zi.ZoneInfo("America/Sao_Paulo")).hour
                     _saudacao = "Bom dia" if _hora < 12 else ("Boa tarde" if _hora < 18 else "Boa noite")
                     dados_receita = _consultar_cnpj_receita(busca)
-                    rca_linha     = f"RCA Solicitante  : {nome_rca} (cód. {codusur_input})"
-                    obs_ie = (
-                        "\n\n⚠️ Observação: a Inscrição Estadual não pôde ser verificada "
-                        "automaticamente no momento da solicitação (serviço do provedor fora "
-                        "do ar) — favor confirmar manualmente antes de aprovar o cadastro."
-                        if ie_indisponivel else ""
-                    )
-                    if dados_receita:
+                    # Trava: sem confirmação real do CNPJ na Receita Federal (a
+                    # tela já mostrou os dados acima, mas essa é uma consulta
+                    # NOVA e independente, feita agora na hora de enviar — pode
+                    # falhar mesmo com a consulta de exibição tendo funcionado)
+                    # o e-mail não sai mais — antes caía num fallback "solicito
+                    # cadastro manual" mesmo sem confirmar nada (pedido do
+                    # usuário em 2026-08-27, depois de ver esse fallback
+                    # acontecer sem CNPJ confirmado).
+                    if not dados_receita or dados_receita.startswith("ERRO:"):
+                        st.error(
+                            "Não foi possível confirmar o CNPJ na Receita Federal agora — "
+                            "e-mail de cadastro NÃO enviado por segurança. Aguarde um instante "
+                            "e tente novamente."
+                        )
+                    else:
+                        rca_linha = f"RCA Solicitante  : {nome_rca} (cód. {codusur_input})"
+                        obs_ie = (
+                            "\n\n⚠️ Observação: a Inscrição Estadual não pôde ser verificada "
+                            "automaticamente no momento da solicitação (serviço do provedor fora "
+                            "do ar) — favor confirmar manualmente antes de aprovar o cadastro."
+                            if ie_indisponivel else ""
+                        )
                         corpo = (
                             f"{_saudacao},\n\nSolicito o cadastramento do cliente:\n\n"
                             f"{rca_linha}\n\nDados da Receita Federal:\n\n{dados_receita}{obs_ie}\n\n"
                             f"Podem realizar o cadastro?\n\nObrigado!"
                         )
-                    else:
-                        corpo = (
-                            f"{_saudacao},\n\nSolicito o cadastramento do cliente:\n\n"
-                            f"{rca_linha}\n\nNão foi possível obter dados da Receita Federal.{obs_ie}\n\n"
-                            f"Podem realizar o cadastro manualmente?\n\nObrigado!"
-                        )
-                    if _enviar_email("Solicitação de Cadastro de Cliente", corpo, cc=EMAIL_CADASTRO_CC):
-                        st.success("Solicitação enviada ao time de cadastro.")
+                        if _enviar_email("Solicitação de Cadastro de Cliente", corpo, cc=EMAIL_CADASTRO_CC):
+                            st.success("Solicitação enviada ao time de cadastro.")
 
         else:
             row        = df.iloc[0]
