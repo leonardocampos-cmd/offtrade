@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <script src="fontes_status_data.js"></script>
+  <script src="fontes_alert.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kanban Mercos</title>
+  <script src="pedidos_mercos_data.js"></script>
+  <script>
+    // Acesso restrito: gestor OU sessão de vendedor com RCA 588 (W.S) —
+    // mesma regra de pedidos_mercos.html / estoque_mercos.html.
+    (function () {
+      const HASH = 'b4ba917b95850dc43cce91dba3be9fd1a4f029e18b81d6846a7183839c81d8dd';
+      const RCA_MERCOS = '588';
+
+      function _b64urlEncode(obj) {
+        const b64 = btoa(unescape(encodeURIComponent(JSON.stringify(obj))));
+        return b64.replace(/\+/g, '-').replace(/\//g, '_').replace(/=+$/, '');
+      }
+      function _refreshSsoCookie(email) {
+        if (!email) return;
+        const header  = _b64urlEncode({ alg: 'none', typ: 'JWT' });
+        const payload = _b64urlEncode({ email });
+        const ssoToken = JSON.stringify({ id_token: `${header}.${payload}.sso` });
+        document.cookie = 'offtrade_token=' + encodeURIComponent(ssoToken) +
+          '; path=/; max-age=' + (60 * 60 * 8) + '; SameSite=Lax; Secure';
+      }
+
+      if (sessionStorage.getItem('rg_auth') === HASH) {
+        _refreshSsoCookie(sessionStorage.getItem('rg_email'));
+        return;
+      }
+
+      try {
+        const s = JSON.parse(sessionStorage.getItem('rg_vendedor') || '{}');
+        if (String(s.rca) !== RCA_MERCOS) throw 0;
+        _refreshSsoCookie(s.email);
+      } catch {
+        sessionStorage.setItem('rg_redirect', location.pathname + location.search);
+        location.replace('login.html');
+      }
+    })();
+  </script>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --bg: #000000; --card: rgba(255,255,255,.06); --card2: rgba(255,255,255,.1);
+      --accent: #ffffff; --blue: #7c86ff; --text: #e7e6f5;
+      --muted: #9aa0a6; --border: rgba(255,255,255,.14); --green: #22c55e;
+      --red: #ef4444; --orange: #f97316;
+    }
+    body {
+      background: var(--bg); color: var(--text);
+      font-family: 'Segoe UI', system-ui, sans-serif;
+      min-height: 100vh; padding: 16px;
+    }
+    header {
+      display: flex; align-items: center; justify-content: space-between;
+      margin-bottom: 20px; padding-bottom: 16px;
+      border-bottom: 1px solid var(--border); gap: 12px; flex-wrap: wrap;
+    }
+    header h1 { font-size: 1.1rem; font-weight: 700; color: var(--accent); }
+    header p  { font-size: .8rem; color: var(--muted); margin-top: 3px; }
+    .controls {
+      display: flex; gap: 10px; flex-wrap: wrap;
+      margin-bottom: 16px; align-items: center;
+    }
+    select, input[type=text], textarea {
+      background: var(--card); border: 1px solid var(--border);
+      color: var(--text); border-radius: 8px; padding: 8px 12px;
+      font-size: .88rem; outline: none; font-family: inherit;
+    }
+    select:focus, input[type=text]:focus, textarea:focus { border-color: var(--blue); }
+    select option { background: #1a1a1a; color: var(--text); }
+    select { min-width: 200px; }
+    input[type=text] { min-width: 240px; }
+    .btn-primary {
+      background: var(--blue); color: #0f1117; border: none;
+      border-radius: 8px; padding: 8px 16px; font-size: .88rem;
+      font-weight: 700; cursor: pointer; font-family: inherit;
+    }
+    .btn-primary:hover { opacity: .88; }
+    .info { font-size: .8rem; color: var(--muted); margin-left: auto; }
+    .erro { color: var(--red); font-size: .82rem; margin-bottom: 10px; display: none; }
+
+    .board { display: flex; gap: 14px; overflow-x: auto; padding-bottom: 12px; align-items: flex-start; }
+    .coluna {
+      background: var(--card); border: 1px solid var(--border); border-radius: 12px;
+      min-width: 300px; max-width: 320px; flex: 1 0 300px;
+      display: flex; flex-direction: column; max-height: calc(100vh - 200px);
+    }
+    .coluna-head {
+      padding: 14px 16px; border-bottom: 1px solid var(--border);
+      display: flex; align-items: center; justify-content: space-between;
+    }
+    .coluna-titulo { font-size: .82rem; font-weight: 700; text-transform: uppercase; letter-spacing: .04em; }
+    .coluna-count {
+      background: var(--card2); border-radius: 20px; padding: 2px 10px;
+      font-size: .74rem; font-weight: 700; color: var(--muted);
+    }
+    .coluna-corpo { padding: 10px; overflow-y: auto; display: flex; flex-direction: column; gap: 8px; flex: 1; }
+    .coluna-corpo::-webkit-scrollbar { width: 6px; }
+    .coluna-corpo::-webkit-scrollbar-thumb { background: var(--border); border-radius: 4px; }
+    .coluna-add {
+      margin: 10px; padding: 8px 10px; border: 1px dashed var(--border); border-radius: 8px;
+      background: transparent; color: var(--muted); cursor: pointer; font-size: .8rem; text-align: left;
+    }
+    .coluna-add:hover { color: var(--text); border-color: var(--blue); }
+
+    .card {
+      background: var(--card2); border: 1px solid var(--border); border-radius: 10px;
+      padding: 10px 12px; font-size: .8rem; cursor: pointer;
+    }
+    .card:hover { border-color: var(--blue); }
+    .card-titulo { font-weight: 700; margin-bottom: 4px; }
+    .card-desc { font-size: .74rem; color: var(--muted); margin-bottom: 6px; white-space: pre-wrap; }
+    .card-vendedor {
+      display: inline-block; background: rgba(124,134,255,.15); color: var(--blue);
+      border-radius: 5px; padding: 2px 7px; font-size: .72rem;
+    }
+    .card-meta { font-size: .68rem; color: var(--muted); margin-top: 6px; }
+    .empty-col { text-align: center; padding: 24px 12px; color: var(--muted); font-size: .8rem; }
+
+    /* Modal de criar/editar */
+    .overlay {
+      display: none; position: fixed; inset: 0; background: rgba(0,0,0,.6);
+      align-items: center; justify-content: center; z-index: 50;
+    }
+    .overlay.aberto { display: flex; }
+    .modal {
+      background: #14161f; border: 1px solid var(--border); border-radius: 12px;
+      padding: 20px; width: 92%; max-width: 420px; display: flex; flex-direction: column; gap: 10px;
+    }
+    .modal h2 { font-size: 1rem; margin-bottom: 4px; }
+    .modal label { font-size: .74rem; color: var(--muted); text-transform: uppercase; letter-spacing: .04em; }
+    .modal input[type=text], .modal select, .modal textarea { width: 100%; }
+    .modal textarea { min-height: 70px; resize: vertical; }
+    .modal-actions { display: flex; justify-content: space-between; gap: 8px; margin-top: 6px; }
+    .btn-secundario {
+      background: transparent; color: var(--muted); border: 1px solid var(--border);
+      border-radius: 8px; padding: 8px 14px; font-size: .85rem; cursor: pointer; font-family: inherit;
+    }
+    .btn-excluir {
+      background: transparent; color: var(--red); border: 1px solid var(--red);
+      border-radius: 8px; padding: 8px 14px; font-size: .85rem; cursor: pointer; font-family: inherit;
+    }
+
+    @media (max-width: 640px) {
+      body { padding: 12px; }
+      .coluna { min-width: 260px; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div style="display:flex;align-items:center;gap:12px">
+    <img src="https://arquivos.mercos.com/media/logomarca_representada/424258/632f8370-c166-11f0-8b57-528d5463a703.jpg" alt="SPON Distribuidora" style="height:40px;width:40px;border-radius:8px;object-fit:cover">
+    <div>
+      <h1>KANBAN MERCOS</h1>
+      <p id="header-sub">Tarefas do time — criar, mover, editar e excluir</p>
+    </div>
+  </div>
+  <div style="display:flex;gap:14px;align-items:center">
+    <a href="pedidos_mercos.html" style="color:var(--blue);font-size:.8rem;text-decoration:none;font-weight:700">Pedidos Mercos →</a>
+    <a href="estoque_mercos.html" style="color:var(--blue);font-size:.8rem;text-decoration:none;font-weight:700">📦 Estoque</a>
+    <a href="index.html" style="color:var(--muted);font-size:.8rem;text-decoration:none">← Painel</a>
+  </div>
+</header>
+
+<div class="erro" id="erro"></div>
+
+<div class="controls">
+  <select id="sel-vendedor" onchange="montarBoard()">
+    <option value="">Todos os Vendedores</option>
+  </select>
+  <button class="btn-primary" onclick="abrirModal()">+ Nova Tarefa</button>
+  <span class="info" id="info-count"></span>
+</div>
+
+<div class="board" id="board"></div>
+
+<div class="overlay" id="overlay">
+  <div class="modal">
+    <h2 id="modal-titulo">Nova tarefa</h2>
+    <div>
+      <label>Título</label>
+      <input type="text" id="f-titulo" maxlength="200">
+    </div>
+    <div>
+      <label>Vendedor</label>
+      <select id="f-vendedor"></select>
+    </div>
+    <div>
+      <label>Descrição</label>
+      <textarea id="f-descricao" maxlength="2000"></textarea>
+    </div>
+    <div>
+      <label>Coluna</label>
+      <select id="f-coluna">
+        <option value="a_fazer">A Fazer</option>
+        <option value="fazendo">Fazendo</option>
+        <option value="concluido">Concluído</option>
+      </select>
+    </div>
+    <div class="erro" id="modal-msg" style="margin:0"></div>
+    <div class="modal-actions">
+      <button class="btn-excluir" id="btn-excluir" style="display:none" onclick="excluirCardAtual()">Excluir</button>
+      <div style="display:flex;gap:8px;margin-left:auto">
+        <button class="btn-secundario" onclick="fecharModal()">Cancelar</button>
+        <button class="btn-primary" onclick="salvarCard()">Salvar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+const API = '/api/kanban/cards';
+const COLUNAS = [
+  { id: 'a_fazer',   titulo: 'A Fazer' },
+  { id: 'fazendo',   titulo: 'Fazendo' },
+  { id: 'concluido', titulo: 'Concluído' },
+];
+
+let CARDS = [];
+let cardEditando = null;
+
+const PEDIDOS = typeof PEDIDOS_MERCOS_DATA !== 'undefined' ? PEDIDOS_MERCOS_DATA.pedidos : [];
+const VENDEDORES = [...new Set(
+  PEDIDOS.filter(p => p.vendedor).map(p => p.cod_vendedor + ' - ' + p.vendedor)
+)].sort();
+
+function montarSelectVendedores() {
+  const selFiltro = document.getElementById('sel-vendedor');
+  VENDEDORES.forEach(v => {
+    const o = document.createElement('option');
+    o.value = v; o.textContent = v;
+    selFiltro.appendChild(o);
+  });
+  const selForm = document.getElementById('f-vendedor');
+  selForm.innerHTML = '<option value="">—</option>' + VENDEDORES.map(v => `<option value="${_esc(v)}">${_esc(v)}</option>`).join('');
+}
+
+async function carregarCards() {
+  try {
+    const r = await fetch(API, { credentials: 'same-origin' });
+    if (r.status === 401) {
+      _mostrarErro('Sem permissão para ver o kanban — faça login como gestor ou vendedor autorizado.');
+      return;
+    }
+    const data = await r.json();
+    CARDS = data.cards || [];
+    montarBoard();
+  } catch (e) {
+    _mostrarErro('Não foi possível carregar as tarefas agora. Tente recarregar a página.');
+  }
+}
+
+function _mostrarErro(msg) {
+  const el = document.getElementById('erro');
+  el.textContent = msg;
+  el.style.display = 'block';
+}
+
+function montarBoard() {
+  const vendedor = document.getElementById('sel-vendedor').value;
+  const lista = vendedor ? CARDS.filter(c => c.vendedor === vendedor) : CARDS;
+  document.getElementById('info-count').textContent = lista.length + ' tarefa(s)';
+
+  const board = document.getElementById('board');
+  board.innerHTML = COLUNAS.map(col => {
+    const itens = lista.filter(c => c.coluna === col.id)
+      .sort((a, b) => (a.criado_em < b.criado_em ? 1 : -1));
+    return `
+    <div class="coluna">
+      <div class="coluna-head">
+        <div class="coluna-titulo">${col.titulo}</div>
+        <span class="coluna-count">${itens.length}</span>
+      </div>
+      <div class="coluna-corpo">
+        ${itens.length ? itens.map(c => _card(c)).join('') : '<div class="empty-col">Nada por aqui.</div>'}
+      </div>
+      <button class="coluna-add" onclick="abrirModal(null, '${col.id}')">+ Adicionar card</button>
+    </div>`;
+  }).join('');
+}
+
+function _card(c) {
+  return `
+    <div class="card" onclick="abrirModal('${c.id}')">
+      <div class="card-titulo">${_esc(c.titulo)}</div>
+      ${c.descricao ? `<div class="card-desc">${_esc(c.descricao)}</div>` : ''}
+      ${c.vendedor ? `<span class="card-vendedor">${_esc(c.vendedor)}</span>` : ''}
+      <div class="card-meta">Atualizado ${_esc((c.atualizado_em || '').replace('T', ' '))}</div>
+    </div>`;
+}
+
+function _modalMsg(msg) {
+  const el = document.getElementById('modal-msg');
+  el.textContent = msg || '';
+  el.style.display = msg ? 'block' : 'none';
+}
+
+function abrirModal(cardId, colunaPadrao) {
+  cardEditando = cardId ? CARDS.find(c => c.id === cardId) : null;
+  document.getElementById('modal-titulo').textContent = cardEditando ? 'Editar tarefa' : 'Nova tarefa';
+  document.getElementById('f-titulo').value = cardEditando ? cardEditando.titulo : '';
+  document.getElementById('f-vendedor').value = cardEditando ? (cardEditando.vendedor || '') : '';
+  document.getElementById('f-descricao').value = cardEditando ? (cardEditando.descricao || '') : '';
+  document.getElementById('f-coluna').value = cardEditando ? cardEditando.coluna : (colunaPadrao || 'a_fazer');
+  const btnExcluir = document.getElementById('btn-excluir');
+  btnExcluir.style.display = cardEditando ? 'inline-block' : 'none';
+  btnExcluir.textContent = 'Excluir';
+  _excluirArmado = false;
+  _modalMsg('');
+  document.getElementById('overlay').classList.add('aberto');
+}
+
+function fecharModal() {
+  document.getElementById('overlay').classList.remove('aberto');
+  document.getElementById('btn-excluir').textContent = 'Excluir';
+  _excluirArmado = false;
+  cardEditando = null;
+}
+
+async function salvarCard() {
+  const titulo = document.getElementById('f-titulo').value.trim();
+  if (!titulo) { _modalMsg('Título é obrigatório.'); return; }
+  const corpo = {
+    titulo,
+    vendedor: document.getElementById('f-vendedor').value,
+    descricao: document.getElementById('f-descricao').value.trim(),
+    coluna: document.getElementById('f-coluna').value,
+  };
+  try {
+    let r;
+    if (cardEditando) {
+      r = await fetch(`${API}/${cardEditando.id}`, {
+        method: 'PUT', credentials: 'same-origin',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(corpo),
+      });
+    } else {
+      r = await fetch(API, {
+        method: 'POST', credentials: 'same-origin',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(corpo),
+      });
+    }
+    if (!r.ok) throw new Error('falha ao salvar');
+    fecharModal();
+    await carregarCards();
+  } catch (e) {
+    _modalMsg('Não foi possível salvar a tarefa. Tente novamente.');
+  }
+}
+
+// Exclusão de dois cliques (em vez de confirm() nativo, que trava a aba em
+// automação de navegador e é uma UX pior) — primeiro clique só troca o
+// texto do botão; fica armado até o segundo clique ou até fechar o modal
+// (sem timeout — evita apagar sem querer se o segundo clique demorar).
+let _excluirArmado = false;
+
+async function excluirCardAtual() {
+  if (!cardEditando) return;
+  if (!_excluirArmado) {
+    _excluirArmado = true;
+    document.getElementById('btn-excluir').textContent = 'Confirmar exclusão?';
+    return;
+  }
+  _excluirArmado = false;
+  try {
+    const r = await fetch(`${API}/${cardEditando.id}`, { method: 'DELETE', credentials: 'same-origin' });
+    if (!r.ok) throw new Error('falha ao excluir');
+    fecharModal();
+    await carregarCards();
+  } catch (e) {
+    _modalMsg('Não foi possível excluir a tarefa. Tente novamente.');
+  }
+}
+
+function _esc(s) {
+  return String(s || '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+}
+
+montarSelectVendedores();
+carregarCards();
+</script>
+</body>
+</html>

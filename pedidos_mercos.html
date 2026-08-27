@@ -86,6 +86,7 @@
       font-size: .88rem; outline: none; font-family: inherit;
     }
     select:focus, input[type=text]:focus { border-color: var(--blue); }
+    select option { background: #1a1a1a; color: var(--text); }
     select { min-width: 200px; }
     input[type=text] { min-width: 240px; }
     .btn-csv {
@@ -124,6 +125,7 @@
     .status-integral { background: rgba(34,197,94,.15); color: var(--green); }
     .status-corte { background: rgba(249,115,22,.15); color: var(--orange); }
     .status-nao_encontrado { background: rgba(239,68,68,.15); color: var(--red); }
+    .status-montado { background: rgba(124,134,255,.15); color: var(--blue); }
     .status-cliente_nao_cadastrado { background: rgba(168,85,247,.18); color: #c084fc; }
     .status-indisponivel { background: var(--card2); color: var(--muted); }
     .spon-info { font-size: .72rem; color: var(--muted); margin-top: 2px; }
@@ -170,6 +172,7 @@
     <option value="">Todos os Status SPON</option>
     <option value="integral">Faturado integral</option>
     <option value="corte">Faturado com corte</option>
+    <option value="montado">Montado (aguardando faturamento)</option>
     <option value="nao_encontrado">Não encontrado no SPON</option>
     <option value="cliente_nao_cadastrado">Cliente não cadastrado no SPON</option>
   </select>
@@ -207,6 +210,7 @@ const STATUS_LABEL = {
   integral: 'Faturado integral',
   corte: 'Faturado com corte',
   excesso: 'Faturado (valor maior)',
+  montado: 'Montado (aguardando faturamento)',
   nao_encontrado: 'Não encontrado no SPON',
   cliente_nao_cadastrado: 'Cliente não cadastrado',
   indisponivel: 'Indisponível',
@@ -232,7 +236,7 @@ function montarKpis(lista) {
   const totalValor = lista.reduce((s, p) => s + (p.subtotal_pedido || 0), 0);
   const clientes = new Set(lista.map(p => p.cnpj)).size;
   const ticket = totalPedidos ? totalValor / totalPedidos : 0;
-  const naoFaturados = lista.filter(p => p.status_spon === 'nao_encontrado' || p.status_spon === 'cliente_nao_cadastrado').length;
+  const naoFaturados = lista.filter(p => ['nao_encontrado', 'cliente_nao_cadastrado', 'montado'].includes(p.status_spon)).length;
   document.getElementById('kpis').innerHTML = `
     <div class="kpi">
       <div class="label">Pedidos</div>

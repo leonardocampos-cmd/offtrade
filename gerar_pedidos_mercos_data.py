@@ -97,8 +97,14 @@ def _cruzar_com_spon(lista_pedidos):
     # exatamente qual produto foi cortado — o código de produto é o mesmo
     # entre Mercos e Winthor (confirmado em 2026-08-27 comparando itens de
     # pedidos vizinhos do mesmo cliente).
+    # NUMNOTA só é preenchido quando o pedido vira nota fiscal de verdade —
+    # sem ele o pedido só está "montado" no Winthor, ainda não faturado
+    # (bug reportado pelo usuário em 2026-08-27: pedidos recém-lançados sem
+    # NUMNOTA estavam caindo em "integral"/"corte" só por já terem
+    # NUMPEDCLI preenchido).
     query = f"""
-        SELECT PED.NUMPED, PC.NUMPEDCLI, PED.CODPROD, SUM(PED.QT) AS QT, SUM(PED.TOTAL) AS TOTAL
+        SELECT PED.NUMPED, PC.NUMPEDCLI, PED.CODPROD, SUM(PED.QT) AS QT, SUM(PED.TOTAL) AS TOTAL,
+               MAX(CASE WHEN PED.NUMNOTA IS NOT NULL THEN 1 ELSE 0 END) AS TEM_NOTA
         FROM SPON.PBI_PCPEDI PED
         LEFT JOIN SPON.PCPEDC PC ON PC.NUMPED = PED.NUMPED
         WHERE PED.DATA >= DATE '{DATA_INICIAL}'
@@ -135,22 +141,30 @@ def _cruzar_com_spon(lista_pedidos):
         diff = round(total_spon - p["subtotal_pedido"], 2)
         p["valor_spon"] = total_spon
         p["numped_spon"] = sorted({str(int(c["NUMPED"])) for c in candidatos})
-        if diff < -0.5:
+        tem_nota = any(int(c["TEM_NOTA"]) == 1 for c in candidatos)
+        if not tem_nota:
+            p["status_spon"] = "montado"
+        elif diff < -0.5:
             p["status_spon"] = "corte"
         elif diff > 0.5:
             p["status_spon"] = "excesso"
         else:
             p["status_spon"] = "integral"
 
+        # Corte só faz sentido comparado contra o que foi de fato faturado —
+        # um pedido "montado" (sem nota ainda) pode ter quantidade menor
+        # simplesmente porque ainda não terminaram de montá-lo, não porque
+        # cortaram produto.
         qt_spon_por_produto = {}
-        for c in candidatos:
-            codprod = str(int(c["CODPROD"]))
-            qt_spon_por_produto[codprod] = qt_spon_por_produto.get(codprod, 0.0) + float(c["QT"] or 0)
+        if tem_nota:
+            for c in candidatos:
+                codprod = str(int(c["CODPROD"]))
+                qt_spon_por_produto[codprod] = qt_spon_por_produto.get(codprod, 0.0) + float(c["QT"] or 0)
 
         itens_cortados = []
         for it in p["itens"]:
             qt_spon = qt_spon_por_produto.get(str(it["codprod"]), 0.0)
-            if qt_spon < it["qt"] - 0.01:
+            if tem_nota and qt_spon < it["qt"] - 0.01:
                 itens_cortados.append({
                     "codprod": it["codprod"],
                     "descricao": it["descricao"],

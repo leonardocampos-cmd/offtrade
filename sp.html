@@ -915,7 +915,7 @@ function renderVendasSP(nome) {
 
   document.getElementById('header-actions').innerHTML =
     '<button class="btn btn-dl" onclick="exportarCSV(\'' + nome.replace(/'/g,"\\'") + '\')">&#8595; CSV</button>' +
-    '<button class="btn" onclick="renderMain()">&#8592; Todos</button>' +
+    (nome === 'W.S' ? '' : '<button class="btn" onclick="renderMain()">&#8592; Todos</button>') +
     '<a class="btn" href="clientes_rca.html?estado=SP&rcas=10,200" target="_blank" rel="noopener">&#128230; Novos Clientes</a>' +
     (nome === 'W.S' ? '<a class="btn" href="pedidos_mercos.html">&#128722; Pedidos Mercos</a>' : '');
 
