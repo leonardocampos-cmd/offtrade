@@ -51,6 +51,8 @@ PIPELINE_FILES = [
     "campanha_crusoe.py",
     "campanha_acao_amarula.py",
     "login_api_watchdog.py",
+    "gerar_pedidos_mercos_data.py",
+    "gerar_estoque_mercos_spon_data.py",
     "requirements.txt",
     "metas_config.json",
     "canhoto_status.json",

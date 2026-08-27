@@ -7,17 +7,32 @@ foi lido direto das paginas de
 https://app.mercos.com/424258/representadas/707619/?p=N&status=1 (497
 produtos, 34 paginas) e salvo em produtos_mercos_spon.csv. Pra atualizar:
 reabrir aquela tela (Representadas > SPON DISTRIBUIDORA > Produtos e
-tabelas) e regerar o CSV com codigo;nome;preco_tabela;preco_promo.
+tabelas), regerar o CSV com codigo;nome;preco_tabela;preco_promo, rodar
+este script e depois sync_mercos_exports_vps.py (pro cron da VPS, a cada
+30min, ter o snapshot mais recente).
+
+Rodando na VPS (cron, OFFTRADE_RUNTIME=vps): le o CSV de
+MERCOS_EXPORTS_DIR (default /opt/mercos-exports) e se autopublica direto
+em /opt/offtrade-static (mesmo padrao de exportacao_meta.py) — o estoque
+em si vem sempre ao vivo do Oracle a cada execucao, só o catalogo de quais
+produtos existem fica preso ao último CSV sincronizado.
 """
 import json
+import os
 from datetime import datetime
+from pathlib import Path
 
 import pandas as pd
 
 from meta import engine_spon, carregar_dados
 
-CATALOGO_PATH = r"C:\Users\LeonardoCampos\Downloads\produtos_mercos_spon.csv"
-OUT_JS = r"G:\Meu Drive\offtrade\estoque_mercos_data.js"
+_RUNTIME = os.getenv("OFFTRADE_RUNTIME", "local")
+_EXPORTS_DIR = os.getenv(
+    "MERCOS_EXPORTS_DIR",
+    "/opt/mercos-exports" if _RUNTIME == "vps" else r"C:\Users\LeonardoCampos\Downloads",
+)
+CATALOGO_PATH = os.path.join(_EXPORTS_DIR, "produtos_mercos_spon.csv")
+OUT_JS = str(Path(__file__).parent / "estoque_mercos_data.js")
 
 CODFILIAL = 1
 
@@ -41,7 +56,26 @@ def _carregar_estoque_spon():
     return df.set_index("CODPROD")
 
 
+def _publicar_static():
+    if _RUNTIME != "vps":
+        return
+    import shutil
+    destino = "/opt/offtrade-static"
+    origem = Path(OUT_JS)
+    if not origem.exists():
+        return
+    tmp = os.path.join(destino, ".estoque_mercos_data.js.tmp_publish")
+    shutil.copy(origem, tmp)
+    os.replace(tmp, os.path.join(destino, "estoque_mercos_data.js"))
+    print(f"OK - estoque_mercos_data.js publicado em {destino}")
+
+
 def main():
+    if not os.path.exists(CATALOGO_PATH):
+        print(f"[AVISO] catalogo da Mercos nao encontrado em {CATALOGO_PATH} — "
+              f"pulando (rode sync_mercos_exports_vps.py apos reexportar da Mercos).")
+        return
+
     catalogo = _carregar_catalogo_mercos()
     estoque = _carregar_estoque_spon()
 
@@ -90,12 +124,12 @@ def main():
         f.write("const ESTOQUE_MERCOS_DATA = ")
         json.dump(payload, f, ensure_ascii=False)
         f.write(";\n")
-    import os
     os.replace(tmp, OUT_JS)
 
     print(f"{len(produtos)} produtos gravados em {OUT_JS}")
     print(f"  - encontrados no SPON: {sum(1 for p in produtos if p['encontrado_spon'])}")
     print(f"  - nao encontrados no SPON: {sum(1 for p in produtos if not p['encontrado_spon'])}")
+    _publicar_static()
 
 
 if __name__ == "__main__":

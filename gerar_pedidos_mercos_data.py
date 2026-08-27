@@ -2,13 +2,22 @@
 manualmente da Mercos (nao tem API/scraping automatizado - ver CLAUDE.md)
 e cruza cada pedido com o Winthor (SPON) pra saber se ja foi faturado.
 
-Como rodar:
+Como rodar (local, apos exportar da Mercos):
   1. Login manual em app.mercos.com > Indicadores > Relatorios.
   2. Exportar "Produtos por pedido" (Excel) -> salvar como
      C:\\Users\\LeonardoCampos\\Downloads\\relatorio.xls
   3. Exportar "Vendas detalhadas" (Excel, mesmo periodo) -> salvar como
      C:\\Users\\LeonardoCampos\\Downloads\\Vendas detalhadas.xls
   4. python gerar_pedidos_mercos_data.py
+  5. python sync_mercos_exports_vps.py  -- manda os 2 arquivos pra VPS,
+     pro cron de la (a cada 30min) ter o snapshot mais recente.
+
+Rodando na VPS (cron, OFFTRADE_RUNTIME=vps): le os mesmos 2 arquivos de
+MERCOS_EXPORTS_DIR (default /opt/mercos-exports, sincronizado por
+sync_mercos_exports_vps.py) e se autopublica direto em /opt/offtrade-static
+(mesmo padrao de exportacao_meta.py::_publicar_static) — o cron so
+atualiza o cruzamento com o SPON sobre o snapshot da Mercos que ja existe;
+pedidos novos so aparecem depois de reexportar da Mercos e sincronizar.
 
 Cruzamento com o SPON: pedidos lancados pelo usuario Winthor "W.S" (canal
 Mercos) guardam em PCPEDC.NUMPEDCLI o padrao "<numero_pedido_mercos>/
@@ -17,16 +26,23 @@ jeito de saber se um pedido do Mercos ja foi faturado sem precisar abrir
 pedido por pedido no Winthor.
 """
 import json
+import os
 import re
 from datetime import datetime
+from pathlib import Path
 
 import pandas as pd
 
 from meta import engine_spon, carregar_dados
 
-PRODUTOS_PATH = r"C:\Users\LeonardoCampos\Downloads\relatorio.xls"
-VENDAS_PATH = r"C:\Users\LeonardoCampos\Downloads\Vendas detalhadas.xls"
-OUT_JS = r"G:\Meu Drive\offtrade\pedidos_mercos_data.js"
+_RUNTIME = os.getenv("OFFTRADE_RUNTIME", "local")
+_EXPORTS_DIR = os.getenv(
+    "MERCOS_EXPORTS_DIR",
+    "/opt/mercos-exports" if _RUNTIME == "vps" else r"C:\Users\LeonardoCampos\Downloads",
+)
+PRODUTOS_PATH = os.path.join(_EXPORTS_DIR, "relatorio.xls")
+VENDAS_PATH = os.path.join(_EXPORTS_DIR, "Vendas detalhadas.xls")
+OUT_JS = str(Path(__file__).parent / "pedidos_mercos_data.js")
 
 DATA_INICIAL = "2026-08-01"  # ajustar junto com o periodo exportado da Mercos
 
@@ -199,7 +215,29 @@ def _cruzar_com_spon(lista_pedidos):
                     p["status_spon"] = "cliente_nao_cadastrado"
 
 
+# Mesmo padrao de exportacao_meta.py::_publicar_static — escrita sempre por
+# arquivo temporario + rename atomico (evita JSON corrompido se o cron da
+# VPS e uma execucao manual escreverem o mesmo arquivo ao mesmo tempo).
+def _publicar_static():
+    if _RUNTIME != "vps":
+        return
+    import shutil
+    destino = "/opt/offtrade-static"
+    origem = Path(OUT_JS)
+    if not origem.exists():
+        return
+    tmp = os.path.join(destino, ".pedidos_mercos_data.js.tmp_publish")
+    shutil.copy(origem, tmp)
+    os.replace(tmp, os.path.join(destino, "pedidos_mercos_data.js"))
+    print(f"OK - pedidos_mercos_data.js publicado em {destino}")
+
+
 def main():
+    if not os.path.exists(PRODUTOS_PATH) or not os.path.exists(VENDAS_PATH):
+        print(f"[AVISO] arquivos de exportacao da Mercos nao encontrados em {_EXPORTS_DIR} — "
+              f"pulando (rode sync_mercos_exports_vps.py apos reexportar da Mercos).")
+        return
+
     pedido_info = _carregar_pedido_info()
     lista_pedidos = _montar_pedidos(pedido_info)
     _cruzar_com_spon(lista_pedidos)
@@ -217,10 +255,10 @@ def main():
         f.write("const PEDIDOS_MERCOS_DATA = ")
         json.dump(payload, f, ensure_ascii=False)
         f.write(";\n")
-    import os
     os.replace(tmp, OUT_JS)
 
     print(f"{len(lista_pedidos)} pedidos gravados em {OUT_JS}")
+    _publicar_static()
 
 
 if __name__ == "__main__":

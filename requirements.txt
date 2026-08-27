@@ -5,6 +5,7 @@ sqlalchemy
 flask
 openpyxl
 pyxlsb
+xlrd
 requests
 urllib3
 paramiko
