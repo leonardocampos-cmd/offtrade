@@ -197,6 +197,8 @@
         <th onclick="ordenarPor('subtotal_pedido')">Subtotal</th>
         <th onclick="ordenarPor('status_spon')">Status SPON</th>
         <th class="hide-mob">Pedido SPON</th>
+        <th class="hide-mob">Nota</th>
+        <th onclick="ordenarPor('status_logistica')">Status Logística</th>
       </tr>
     </thead>
     <tbody id="tbody"></tbody>
@@ -221,7 +223,7 @@ let _ordem = { campo: 'data', asc: false };
 let _expandidos = new Set();
 
 if (!DATA) {
-  document.getElementById('tbody').innerHTML = '<tr><td colspan="11" class="empty">Dados não encontrados. Gere pedidos_mercos_data.js a partir dos relatórios exportados da Mercos.</td></tr>';
+  document.getElementById('tbody').innerHTML = '<tr><td colspan="13" class="empty">Dados não encontrados. Gere pedidos_mercos_data.js a partir dos relatórios exportados da Mercos.</td></tr>';
 } else {
   document.getElementById('header-sub').textContent =
     'Atualizado ' + DATA.atualizado_em + ' · Período: ' + DATA.periodo +
@@ -326,7 +328,7 @@ function aplicarFiltro() {
 
   const tbody = document.getElementById('tbody');
   if (!lista.length) {
-    tbody.innerHTML = '<tr><td colspan="11" class="empty">Nenhum pedido encontrado.</td></tr>';
+    tbody.innerHTML = '<tr><td colspan="13" class="empty">Nenhum pedido encontrado.</td></tr>';
     return;
   }
 
@@ -345,11 +347,13 @@ function aplicarFiltro() {
       <td class="valor">${brl(p.subtotal_pedido)}</td>
       <td>${_statusBadge(p)}</td>
       <td class="cod hide-mob">${(p.numped_spon || []).join(', ') || '—'}</td>
+      <td class="cod hide-mob">${(p.numnota_spon || []).join(', ') || '—'}</td>
+      <td>${_logisticaBadge(p)}</td>
     </tr>`;
     if (aberto) {
       const cortados = {};
       (p.itens_cortados || []).forEach(ic => { cortados[String(ic.codprod)] = ic; });
-      html += `<tr class="linha-itens"><td colspan="11"><div class="itens-wrap">
+      html += `<tr class="linha-itens"><td colspan="13"><div class="itens-wrap">
         <table><thead><tr><th>Código</th><th>Produto</th><th>Qtd</th><th>Preço Líquido</th><th>Subtotal</th><th>Faturado no SPON</th></tr></thead><tbody>
         ${(p.itens || []).map(it => {
           const ic = cortados[String(it.codprod)];
@@ -374,6 +378,25 @@ function _statusBadge(p) {
   let badge = `<span class="status status-${_esc(p.status_spon)}">${_esc(label)}</span>`;
   if ((p.status_spon === 'corte' || p.status_spon === 'excesso') && p.valor_spon !== null && p.valor_spon !== undefined) {
     badge += `<div class="spon-info">SPON: ${brl(p.valor_spon)}</div>`;
+  }
+  return badge;
+}
+
+function _logisticaClasse(status) {
+  const s = (status || '').toUpperCase();
+  if (s === 'ENTREGUE' || s.includes('ENTREGA TOTAL') || s === 'COMPROVADO' || s === 'EM ROTA') return 'ok';
+  if (s === 'RETORNO' || s.includes('ENTREGA PARCIAL')) return 'corte';
+  if (s === 'CANCELADA') return 'nao_encontrado';
+  return 'indisponivel';
+}
+
+function _logisticaBadge(p) {
+  const status = p.status_logistica;
+  if (!status) return '<span class="status status-indisponivel">—</span>';
+  const cls = { ok: 'status-integral', corte: 'status-corte', nao_encontrado: 'status-nao_encontrado', indisponivel: 'status-indisponivel' }[_logisticaClasse(status)];
+  let badge = `<span class="status ${cls}">${_esc(status)}</span>`;
+  if (p.logistica_rota) {
+    badge += `<div class="spon-info">${_esc(p.logistica_rota)}${p.logistica_data_entrega ? ' · ' + _esc(p.logistica_data_entrega) : ''}</div>`;
   }
   return badge;
 }
@@ -424,7 +447,7 @@ function _escAttr(s) {
 
 function exportarCSV() {
   const lista = _filtrados();
-  const header = ['Pedido','Data','Codigo Vendedor','Vendedor','CNPJ','Cliente','Representada','Codigo Produto','Descricao','Qtd Pedida','Preco Liquido','Subtotal','Qtd Faturada SPON','Qtd Cortada','Status SPON','Valor SPON','NUMPED SPON'];
+  const header = ['Pedido','Data','Codigo Vendedor','Vendedor','CNPJ','Cliente','Representada','Codigo Produto','Descricao','Qtd Pedida','Preco Liquido','Subtotal','Qtd Faturada SPON','Qtd Cortada','Status SPON','Valor SPON','NUMPED SPON','Nota','Status Logistica','Rota'];
   const linhas = [];
   lista.forEach(p => {
     const cortados = {};
@@ -437,6 +460,7 @@ function exportarCSV() {
         it.codprod, it.descricao, it.qt, it.preco_liquido, it.subtotal,
         ic ? ic.qt_faturada : (temComparacao ? it.qt : ''), ic ? ic.qt_cortada : (temComparacao ? 0 : ''),
         STATUS_LABEL[p.status_spon] || p.status_spon, p.valor_spon ?? '', (p.numped_spon || []).join(' / '),
+        (p.numnota_spon || []).join(' / '), p.status_logistica || '', p.logistica_rota || '',
       ].map(v => `"${String(v??'').replace(/"/g,'""')}"`).join(';'));
     });
   });

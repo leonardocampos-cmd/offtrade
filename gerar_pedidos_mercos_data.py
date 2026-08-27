@@ -120,7 +120,8 @@ def _cruzar_com_spon(lista_pedidos):
     # NUMPEDCLI preenchido).
     query = f"""
         SELECT PED.NUMPED, PC.NUMPEDCLI, PED.CODPROD, SUM(PED.QT) AS QT, SUM(PED.TOTAL) AS TOTAL,
-               MAX(CASE WHEN PED.NUMNOTA IS NOT NULL THEN 1 ELSE 0 END) AS TEM_NOTA
+               MAX(CASE WHEN PED.NUMNOTA IS NOT NULL THEN 1 ELSE 0 END) AS TEM_NOTA,
+               MAX(PED.NUMNOTA) AS NUMNOTA
         FROM SPON.PBI_PCPEDI PED
         LEFT JOIN SPON.PCPEDC PC ON PC.NUMPED = PED.NUMPED
         WHERE PED.DATA >= DATE '{DATA_INICIAL}'
@@ -150,6 +151,7 @@ def _cruzar_com_spon(lista_pedidos):
             p["status_spon"] = "nao_encontrado"
             p["valor_spon"] = None
             p["numped_spon"] = []
+            p["numnota_spon"] = []
             p["itens_cortados"] = []
             nao_encontrados.append(p)
             continue
@@ -157,6 +159,10 @@ def _cruzar_com_spon(lista_pedidos):
         diff = round(total_spon - p["subtotal_pedido"], 2)
         p["valor_spon"] = total_spon
         p["numped_spon"] = sorted({str(int(c["NUMPED"])) for c in candidatos})
+        p["numnota_spon"] = sorted({
+            str(int(c["NUMNOTA"])) for c in candidatos
+            if c["NUMNOTA"] is not None and pd.notna(c["NUMNOTA"])
+        })
         tem_nota = any(int(c["TEM_NOTA"]) == 1 for c in candidatos)
         if not tem_nota:
             p["status_spon"] = "montado"
@@ -215,6 +221,36 @@ def _cruzar_com_spon(lista_pedidos):
                     p["status_spon"] = "cliente_nao_cadastrado"
 
 
+def _carregar_status_logistica():
+    """Le logistica_por_nf de pedidos_data.js (gerado por pedidos.py, mesmo
+    diretorio — local ou VPS) e devolve so as entradas SPON, por numnota."""
+    caminho = Path(__file__).parent / "pedidos_data.js"
+    if not caminho.exists():
+        return {}
+    try:
+        texto = caminho.read_text(encoding="utf-8")
+        payload = json.loads(texto[texto.index("=") + 1: texto.rindex(";")])
+    except Exception as e:
+        print(f"[AVISO] pedidos_data.js indisponivel pra status de logistica ({str(e)[:100]}) — ignorado")
+        return {}
+    prefixo = "SPON|"
+    return {
+        chave[len(prefixo):]: info
+        for chave, info in (payload.get("logistica_por_nf") or {}).items()
+        if chave.startswith(prefixo)
+    }
+
+
+def _anexar_status_logistica(lista_pedidos):
+    logistica_por_numnota = _carregar_status_logistica()
+    for p in lista_pedidos:
+        notas = p.get("numnota_spon") or []
+        info = next((logistica_por_numnota[n] for n in notas if n in logistica_por_numnota), None)
+        p["status_logistica"] = (info or {}).get("status_log") or ""
+        p["logistica_rota"] = (info or {}).get("rota") or ""
+        p["logistica_data_entrega"] = (info or {}).get("data_entrega") or ""
+
+
 # Mesmo padrao de exportacao_meta.py::_publicar_static — escrita sempre por
 # arquivo temporario + rename atomico (evita JSON corrompido se o cron da
 # VPS e uma execucao manual escreverem o mesmo arquivo ao mesmo tempo).
@@ -241,6 +277,7 @@ def main():
     pedido_info = _carregar_pedido_info()
     lista_pedidos = _montar_pedidos(pedido_info)
     _cruzar_com_spon(lista_pedidos)
+    _anexar_status_logistica(lista_pedidos)
     lista_pedidos.sort(key=lambda p: (p["data"], p["numped"]), reverse=True)
 
     payload = {
