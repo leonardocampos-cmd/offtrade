@@ -1,7 +1,7 @@
 // Gerado automaticamente
 
 const INATIVOS_DATA = {
-  "atualizado_em": "28/08/2026 11:11",
+  "atualizado_em": "28/08/2026 12:10",
   "por_vendedor": {
     "ADEILSON GONÇALVEZ - OFF TRADE": {
       "rca": "431",
@@ -780,6 +780,15 @@ const INATIVOS_DATA = {
         }
       ],
       "novos": [
+        {
+          "codcli": "96218",
+          "cliente": "JOSE HELIO VIEIRA DA COSTA 70720843391",
+          "bairro": "ROCINHA",
+          "cidade": "RIO DE JANEIRO",
+          "dtcadastro": "28/08/2026",
+          "dtultcomp": null,
+          "media": 0.0
+        },
         {
           "codcli": "96199",
           "cliente": "CAFE E BAR HERCRUZ LTDA",
@@ -2293,16 +2302,6 @@ const INATIVOS_DATA = {
           "cidade": "TABOAO DA SERRA",
           "dtultcomp": "02/10/2023",
           "dias": 1061,
-          "rca_inativo": "N",
-          "media": 0.0
-        },
-        {
-          "codcli": "29602",
-          "cliente": "GEOVANA OLIVEIRA DE CARVALHO 46373176819",
-          "bairro": "VILA SANTO ANTONIO",
-          "cidade": "SAO PAULO",
-          "dtultcomp": "22/12/2025",
-          "dias": 249,
           "rca_inativo": "N",
           "media": 0.0
         },
@@ -24275,10 +24274,6 @@ const INATIVOS_DATA = {
                   "rca": "485"
                 },
                 {
-                  "nome": "BRYAN PALOPOLI - OFF TRADE - INATIVO",
-                  "rca": "299"
-                },
-                {
                   "nome": "CARLOS TERRA - OFF TRADE",
                   "rca": "310"
                 },
@@ -24406,10 +24401,6 @@ const INATIVOS_DATA = {
                 {
                   "nome": "GILVAN AMORIM - OFF TRADE",
                   "rca": "504"
-                },
-                {
-                  "nome": "JESSICA LIMA -  OFF TRADE",
-                  "rca": "501"
                 },
                 {
                   "nome": "LEONARDO FLOREZI - OFF TRADE",
