@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_mg.py
 
 const NAO_POS_MG_DATA = {
-  "atualizado_em": "28/08/2026 15:18",
+  "atualizado_em": "28/08/2026 16:11",
   "por_vendedor": {
     "BRUNA CASTRO MELLO": [
       {
@@ -511,32 +511,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "37327",
-        "cliente": "UNISSUL SUPERMERCADOS S/A",
-        "bairro": "CENTRO",
-        "dtultcomp": "30/07/2026",
-        "produtos": [
-          {
-            "produto": "VILLA ROSA BRANCO 750ML",
-            "fantasia": "CASTAS",
-            "qt": 12,
-            "valor": 514.8
-          },
-          {
-            "produto": "VINHO FOODKILLER CAB SAUV MERLOT 750ML",
-            "fantasia": "CASTAS",
-            "qt": 6,
-            "valor": 293.4
-          },
-          {
-            "produto": "VODKA ORLOFF 1L - DEST",
-            "fantasia": "",
-            "qt": 12,
-            "valor": 245.04
-          }
-        ]
-      },
-      {
         "codcli": "37330",
         "cliente": "UNISSUL SUPERMERCADOS S/A",
         "bairro": "NOVA ERA",
@@ -553,6 +527,32 @@ const NAO_POS_MG_DATA = {
             "fantasia": "CASTAS",
             "qt": 6,
             "valor": 257.4
+          },
+          {
+            "produto": "VODKA ORLOFF 1L - DEST",
+            "fantasia": "",
+            "qt": 12,
+            "valor": 245.04
+          }
+        ]
+      },
+      {
+        "codcli": "37327",
+        "cliente": "UNISSUL SUPERMERCADOS S/A",
+        "bairro": "CENTRO",
+        "dtultcomp": "30/07/2026",
+        "produtos": [
+          {
+            "produto": "VILLA ROSA BRANCO 750ML",
+            "fantasia": "CASTAS",
+            "qt": 12,
+            "valor": 514.8
+          },
+          {
+            "produto": "VINHO FOODKILLER CAB SAUV MERLOT 750ML",
+            "fantasia": "CASTAS",
+            "qt": 6,
+            "valor": 293.4
           },
           {
             "produto": "VODKA ORLOFF 1L - DEST",
@@ -1260,26 +1260,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "32871",
-        "cliente": "ER COZINHA ARTESANAL LTDA",
-        "bairro": "VILA DA SERRA",
-        "dtultcomp": "18/06/2026",
-        "produtos": [
-          {
-            "produto": "YVY DESTILADO GIN AR LT 710ML",
-            "fantasia": "YVY",
-            "qt": 6,
-            "valor": 239.4
-          },
-          {
-            "produto": "YVY DESTILADO GIN MAR  LT 710ML",
-            "fantasia": "YVY",
-            "qt": 6,
-            "valor": 239.4
-          }
-        ]
-      },
-      {
         "codcli": "33014",
         "cliente": "ER COZINHA ARTESANAL LTDA",
         "bairro": "LOURDES",
@@ -1296,6 +1276,26 @@ const NAO_POS_MG_DATA = {
             "fantasia": "YVY",
             "qt": 4,
             "valor": 159.6
+          }
+        ]
+      },
+      {
+        "codcli": "32871",
+        "cliente": "ER COZINHA ARTESANAL LTDA",
+        "bairro": "VILA DA SERRA",
+        "dtultcomp": "18/06/2026",
+        "produtos": [
+          {
+            "produto": "YVY DESTILADO GIN AR LT 710ML",
+            "fantasia": "YVY",
+            "qt": 6,
+            "valor": 239.4
+          },
+          {
+            "produto": "YVY DESTILADO GIN MAR  LT 710ML",
+            "fantasia": "YVY",
+            "qt": 6,
+            "valor": 239.4
           }
         ]
       },
@@ -2306,44 +2306,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "31908",
-        "cliente": "POINT BAIANO BAR E RESTAURANTE LTDA",
-        "bairro": "SAVASSI",
-        "dtultcomp": "30/07/2026",
-        "produtos": [
-          {
-            "produto": "VILLA ROSA TINTO 750ML",
-            "fantasia": "CASTAS",
-            "qt": 1,
-            "valor": 42.9
-          },
-          {
-            "produto": "WHISKY JIM BEAM APPLE 1L",
-            "fantasia": "BEAM SUNTORY",
-            "qt": 1,
-            "valor": 89.9
-          },
-          {
-            "produto": "WHISKY JIM BEAM CHERRY 1L",
-            "fantasia": "BEAM SUNTORY",
-            "qt": 1,
-            "valor": 89.9
-          },
-          {
-            "produto": "WHISKY JIM BEAM HONEY 1L",
-            "fantasia": "BEAM SUNTORY",
-            "qt": 1,
-            "valor": 89.9
-          },
-          {
-            "produto": "WHISKY JIM BEAM WHITE 1L",
-            "fantasia": "BEAM SUNTORY",
-            "qt": 1,
-            "valor": 89.9
-          }
-        ]
-      },
-      {
         "codcli": "31217",
         "cliente": "TRUPICO BAR & RESTAURANTE LTDA",
         "bairro": "ANGOLA",
@@ -3141,6 +3103,20 @@ const NAO_POS_MG_DATA = {
       }
     ],
     "TIAGO ANDRADE": [
+      {
+        "codcli": "30447",
+        "cliente": "DOCERIA BELO HORIZONTE CAFETERIA LTDA",
+        "bairro": "SAVASSI",
+        "dtultcomp": "23/04/2026",
+        "produtos": [
+          {
+            "produto": "AZEITE DE OLIVA EV ESSENZA 500ML",
+            "fantasia": "",
+            "qt": 12,
+            "valor": 322.8
+          }
+        ]
+      },
       {
         "codcli": "32979",
         "cliente": "ENGENHEIROS CRUZEIRO RESTAURANTE LTDA",
@@ -4105,13 +4081,6 @@ const NAO_POS_MG_DATA = {
         "codcli": "39881",
         "cliente": "LEONARDO MACHADO COELHO 10001137603",
         "bairro": "MG",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "39888",
-        "cliente": "MINAS FEST FORMATURAS CERIMONIAIS E EVENTOS LTDA",
-        "bairro": "SÃO MATEUS",
         "dtultcomp": "nan",
         "produtos": []
       }
