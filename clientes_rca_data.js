@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "28/08/2026 15:19",
-  "total": 25525,
+  "atualizado_em": "28/08/2026 16:12",
+  "total": 25521,
   "clientes": [
     {
       "codcli": "38586",
@@ -22918,10 +22918,10 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "RODRIGO LIMA - OFF TRADE",
       "codusur2": "",
       "nome_usur2": "",
-      "ultimo_rca": "",
-      "ultimo_rca_nome": "",
-      "ultimo_rca_ot": "",
-      "ultimo_rca_ot_nome": ""
+      "ultimo_rca": "476",
+      "ultimo_rca_nome": "RODRIGO LIMA - OFF TRADE",
+      "ultimo_rca_ot": "476",
+      "ultimo_rca_ot_nome": "RODRIGO LIMA - OFF TRADE"
     },
     {
       "codcli": "73111",
@@ -27478,10 +27478,10 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "LEONARDO FLOREZI - OFF TRADE",
       "codusur2": "",
       "nome_usur2": "",
-      "ultimo_rca": "487",
-      "ultimo_rca_nome": "LUIZ RIGLER - OFF TRADE",
-      "ultimo_rca_ot": "487",
-      "ultimo_rca_ot_nome": "LUIZ RIGLER - OFF TRADE"
+      "ultimo_rca": "486",
+      "ultimo_rca_nome": "LEONARDO FLOREZI - OFF TRADE",
+      "ultimo_rca_ot": "486",
+      "ultimo_rca_ot_nome": "LEONARDO FLOREZI - OFF TRADE"
     },
     {
       "codcli": "81763",
@@ -67294,8 +67294,8 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MERCADO",
       "key_account": false,
       "rede": "",
-      "codusur1": "147",
-      "nome_usur1": "THIAGO MENDES",
+      "codusur1": "378",
+      "nome_usur1": "FABIO VALOTTI - OFF TRADE",
       "codusur2": "238",
       "nome_usur2": "DANIELLE MOURA - OFF TRADE",
       "ultimo_rca": "158",
@@ -118958,10 +118958,10 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "ANA CLARA FASSANO - OFF TRADE",
       "codusur2": "",
       "nome_usur2": "",
-      "ultimo_rca": "",
-      "ultimo_rca_nome": "",
-      "ultimo_rca_ot": "",
-      "ultimo_rca_ot_nome": ""
+      "ultimo_rca": "471",
+      "ultimo_rca_nome": "ANA CLARA FASSANO - OFF TRADE",
+      "ultimo_rca_ot": "471",
+      "ultimo_rca_ot_nome": "ANA CLARA FASSANO - OFF TRADE"
     },
     {
       "codcli": "93430",
@@ -152704,26 +152704,6 @@ const CLIENTES_RCA_DATA = {
       "ultimo_rca_ot_nome": ""
     },
     {
-      "codcli": "82690",
-      "razao": "CONVENIENCIA NA PONTE LTDA",
-      "fantasia": "CONVENIENCIA NA PONTE",
-      "bairro": "CENTRO",
-      "cidade": "GUARAPARI",
-      "cnpj": "59.964.329/0001-15",
-      "estado": "ES",
-      "ramo": "MERCADO",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": "",
-      "ultimo_rca": "430",
-      "ultimo_rca_nome": "LORELAYNE PRADO",
-      "ultimo_rca_ot": "265",
-      "ultimo_rca_ot_nome": "LUCAS LIMA - OFF TRADE"
-    },
-    {
       "codcli": "71496",
       "razao": "CONVENIENCIA NORTE SUL LTDA",
       "fantasia": "CONVENIENCIA NORTE SUL",
@@ -167244,26 +167224,6 @@ const CLIENTES_RCA_DATA = {
       "ultimo_rca_ot_nome": ""
     },
     {
-      "codcli": "71889",
-      "razao": "DEPOSITO STORCK LTDA",
-      "fantasia": "DEPOSITO STORCK",
-      "bairro": "ENGENHEIRO PEDREIRA",
-      "cidade": "JAPERI",
-      "cnpj": "46.942.250/0001-41",
-      "estado": "RJ",
-      "ramo": "DISTRIBUIDORA DE BEBIDA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": "",
-      "ultimo_rca": "74",
-      "ultimo_rca_nome": "THIAGO DA SILVA P",
-      "ultimo_rca_ot": "",
-      "ultimo_rca_ot_nome": ""
-    },
-    {
       "codcli": "72596",
       "razao": "DEPOSITO TWO BROTHERS COMERCIO VAREJISTA DE BEBIDAS LTDA",
       "fantasia": "TWO BROTHERS DELIVERY DE BEBIDAS",
@@ -176394,8 +176354,8 @@ const CLIENTES_RCA_DATA = {
       "ramo": "BAR",
       "key_account": false,
       "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO",
+      "codusur1": "344",
+      "nome_usur1": "TIAGO ANDRADE - OFF TRADE",
       "codusur2": "351",
       "nome_usur2": "MARIANA LAGES",
       "ultimo_rca": "344",
@@ -206138,8 +206098,8 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "LUCAS MATIAS",
       "codusur2": "378",
       "nome_usur2": "FABIO VALOTTI - OFF TRADE",
-      "ultimo_rca": "",
-      "ultimo_rca_nome": "",
+      "ultimo_rca": "112",
+      "ultimo_rca_nome": "LUCAS MATIAS",
       "ultimo_rca_ot": "378",
       "ultimo_rca_ot_nome": "FABIO VALOTTI - OFF TRADE"
     },
@@ -242074,8 +242034,8 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MERCADO",
       "key_account": false,
       "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
+      "codusur1": "144",
+      "nome_usur1": "DIOGO RAPOSO - OFF TRADE",
       "codusur2": "",
       "nome_usur2": "",
       "ultimo_rca": "144",
@@ -250378,10 +250338,10 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "RENATO JUNIOR - OFF TRADE",
       "codusur2": "",
       "nome_usur2": "",
-      "ultimo_rca": "",
-      "ultimo_rca_nome": "",
-      "ultimo_rca_ot": "",
-      "ultimo_rca_ot_nome": ""
+      "ultimo_rca": "468",
+      "ultimo_rca_nome": "RENATO JUNIOR - OFF TRADE",
+      "ultimo_rca_ot": "468",
+      "ultimo_rca_ot_nome": "RENATO JUNIOR - OFF TRADE"
     },
     {
       "codcli": "481",
@@ -346004,26 +345964,6 @@ const CLIENTES_RCA_DATA = {
       "ultimo_rca_ot_nome": "SAVIO NETO - OFF TRADE"
     },
     {
-      "codcli": "39888",
-      "razao": "MINAS FEST FORMATURAS CERIMONIAIS E EVENTOS LTDA",
-      "fantasia": "FEAT PRODUCOES",
-      "bairro": "SÃO MATEUS",
-      "cidade": "JUIZ DE FORA",
-      "cnpj": "08.694.340/0001-71",
-      "estado": "MG",
-      "ramo": "OUTROS",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "349",
-      "nome_usur1": "WILLIAM ALVES DA SILVA - OFF TRADE",
-      "codusur2": "",
-      "nome_usur2": "",
-      "ultimo_rca": "",
-      "ultimo_rca_nome": "",
-      "ultimo_rca_ot": "",
-      "ultimo_rca_ot_nome": ""
-    },
-    {
       "codcli": "31545",
       "razao": "MINAS FLAT ALIMENTOS E BEBIDAS LTDA",
       "fantasia": "MINAS FLAT ALIMENTOS E BEBIDAS",
@@ -390744,26 +390684,6 @@ const CLIENTES_RCA_DATA = {
       "ultimo_rca_ot_nome": ""
     },
     {
-      "codcli": "984",
-      "razao": "PINK COMESTIVEIS LTDA",
-      "fantasia": "PINK COMESTIVEIS",
-      "bairro": "TIJUCA",
-      "cidade": "RIO DE JANEIRO",
-      "cnpj": "33.027.780/0001-12",
-      "estado": "RJ",
-      "ramo": "CAFETERIA",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO3",
-      "codusur2": "",
-      "nome_usur2": "",
-      "ultimo_rca": "98",
-      "ultimo_rca_nome": "CARLOS ARTHUR NETO",
-      "ultimo_rca_ot": "",
-      "ultimo_rca_ot_nome": ""
-    },
-    {
       "codcli": "83327",
       "razao": "PIPA RESTAURANTE LTDA",
       "fantasia": "PIPA RESTAURANTE",
@@ -396182,6 +396102,26 @@ const CLIENTES_RCA_DATA = {
       "ultimo_rca_nome": "MARILENA TRAGEL - OFF TRADE",
       "ultimo_rca_ot": "156",
       "ultimo_rca_ot_nome": "MARILENA TRAGEL - OFF TRADE"
+    },
+    {
+      "codcli": "96229",
+      "razao": "POSTO DE COMBUSTIVEIS AMEGAS LTDA",
+      "fantasia": "POSTO DE COMBUSTIVEIS AMEGAS",
+      "bairro": "BARRA DA TIJUCA",
+      "cidade": "RIO DE JANEIRO",
+      "cnpj": "28.452.007/0001-63",
+      "estado": "RJ",
+      "ramo": "SERVIÇOS",
+      "key_account": false,
+      "rede": "",
+      "codusur1": "156",
+      "nome_usur1": "MARILENA TRAGEL - OFF TRADE",
+      "codusur2": "",
+      "nome_usur2": "",
+      "ultimo_rca": "",
+      "ultimo_rca_nome": "",
+      "ultimo_rca_ot": "",
+      "ultimo_rca_ot_nome": ""
     },
     {
       "codcli": "14267",
@@ -453324,26 +453264,6 @@ const CLIENTES_RCA_DATA = {
       "ultimo_rca_ot_nome": "TIAGO ANDRADE - OFF TRADE"
     },
     {
-      "codcli": "35186",
-      "razao": "SODRE MIGUEL LTDA",
-      "fantasia": "TEM MAIS CLUBE DE COMPRAS",
-      "bairro": "PARQUE PRIMAVERA",
-      "cidade": "POCOS DE CALDAS",
-      "cnpj": "19.709.344/0007-98",
-      "estado": "MG",
-      "ramo": "COMERCIO ATACADISTA (GERAL)",
-      "key_account": true,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO",
-      "codusur2": "",
-      "nome_usur2": "",
-      "ultimo_rca": "354",
-      "ultimo_rca_nome": "MATHEUS DE SOUZA - OFF TRADE",
-      "ultimo_rca_ot": "354",
-      "ultimo_rca_ot_nome": "MATHEUS DE SOUZA - OFF TRADE"
-    },
-    {
       "codcli": "37598",
       "razao": "SOELI ROSA DOS SANTOS PINTO",
       "fantasia": "PAC G G M BAR",
@@ -466958,10 +466878,10 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "RENATO JUNIOR - OFF TRADE",
       "codusur2": "",
       "nome_usur2": "",
-      "ultimo_rca": "588",
-      "ultimo_rca_nome": "W.S",
-      "ultimo_rca_ot": "",
-      "ultimo_rca_ot_nome": ""
+      "ultimo_rca": "468",
+      "ultimo_rca_nome": "RENATO JUNIOR - OFF TRADE",
+      "ultimo_rca_ot": "468",
+      "ultimo_rca_ot_nome": "RENATO JUNIOR - OFF TRADE"
     },
     {
       "codcli": "52111",
@@ -486738,8 +486658,8 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "W.S",
       "codusur2": "488",
       "nome_usur2": "ADRIANO VEZZANI - OFF TRADE",
-      "ultimo_rca": "588",
-      "ultimo_rca_nome": "W.S",
+      "ultimo_rca": "488",
+      "ultimo_rca_nome": "ADRIANO VEZZANI - OFF TRADE",
       "ultimo_rca_ot": "488",
       "ultimo_rca_ot_nome": "ADRIANO VEZZANI - OFF TRADE"
     },
