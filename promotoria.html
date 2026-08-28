@@ -1,7 +1,82 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <script src="auth.js"></script>
+  <script>
+    // Gate específico desta página — NÃO usa o auth.js compartilhado de
+    // propósito: auth.js/_GESTORES_PERMITIDOS é uma lista única usada por
+    // ~30 páginas "só gestor"; adicionar um e-mail lá dá acesso a todas elas.
+    // joao.diniz@rigarr.com.br tem acesso restrito só à Promotoria (pedido
+    // do usuário em 2026-08-26) — ver também o bloco "_ACESSO_RESTRITO" em
+    // login.html, que autentica esse e-mail via Google sem marcar
+    // sessionStorage.rg_auth (o "flag de gestor" que as outras páginas
+    // aceitam), então ele nunca passa no gate de nenhuma outra página.
+    (function _redirectLocalToVps() {
+      if (location.hostname !== 'offtrade.duckdns.org') {
+        location.replace('https://offtrade.duckdns.org/' + location.pathname.split(/[\\/]/).pop() + location.search);
+      }
+    })();
+
+    const _AUTH_HASH = 'b4ba917b95850dc43cce91dba3be9fd1a4f029e18b81d6846a7183839c81d8dd';
+    const _AUTH_KEY  = 'rg_auth';
+    const _GESTORES_PERMITIDOS = [
+      'danielle.soares@rigarr.com.br',
+      'allan.correa@rigarr.com.br',
+      'leonardo.campos@rigarr.com.br',
+      'alexsandro.nunes@rigarr.com.br',
+      'giovani.cabral@rigarr.com.br',
+      'kaliel.caro@rigarr.com.br',
+      'artur.furlan@rigarr.com.br',
+      'daniel.diniz@rigarr.com.br',
+      'marcus.tanamachi@rigarr.com.br',
+      'geovanna.lescano@rigarr.com.br',
+      'fernando.risson@rigarr.com.br',
+      'erocles.oliveira@rigarr.com.br',
+      'andre.massensini@rigarr.com.br',
+      'priscilla.zambrano@rigarr.com.br',
+      'anderson.canaveis@rigarr.com.br',
+    ];
+    // Só essa pessoa, só nessa página.
+    const _EMAIL_RESTRITO_ESTA_PAGINA = 'joao.diniz@rigarr.com.br';
+
+    function _getCookie(name) {
+      const m = document.cookie.match(new RegExp('(?:^|; )' + name + '=([^;]*)'));
+      return m ? decodeURIComponent(m[1]) : null;
+    }
+    function _decodeEmailFromCookie() {
+      try {
+        const raw = _getCookie('offtrade_token');
+        if (!raw) return '';
+        const idToken = JSON.parse(raw).id_token || '';
+        let payload = idToken.split('.')[1] || '';
+        payload = payload.replace(/-/g, '+').replace(/_/g, '/');
+        payload += '='.repeat((4 - payload.length % 4) % 4);
+        return (JSON.parse(atob(payload)).email || '').toLowerCase();
+      } catch (e) {
+        return '';
+      }
+    }
+
+    (function checkAuth() {
+      // Gestor de verdade (mesmo atalho de auth.js) OU o e-mail restrito
+      // já validado nesta aba.
+      if (sessionStorage.getItem(_AUTH_KEY) === _AUTH_HASH && sessionStorage.getItem('rg_email')) return;
+      if (sessionStorage.getItem('rg_email_restrito') === _EMAIL_RESTRITO_ESTA_PAGINA) return;
+
+      const _email = _decodeEmailFromCookie();
+      if (_email && _GESTORES_PERMITIDOS.includes(_email)) {
+        sessionStorage.setItem(_AUTH_KEY, _AUTH_HASH);
+        sessionStorage.setItem('rg_email', _email);
+        return;
+      }
+      if (_email === _EMAIL_RESTRITO_ESTA_PAGINA) {
+        sessionStorage.setItem('rg_email_restrito', _email);
+        return;
+      }
+
+      sessionStorage.setItem('rg_redirect', location.pathname + location.search);
+      location.replace('login.html');
+    })();
+  </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Promotoria — Max Promotor</title>
@@ -72,6 +147,44 @@
     a.foto-link { color: var(--blue); text-decoration: none; font-size: .78rem; }
     a.foto-link:hover { text-decoration: underline; }
     .empty { text-align: center; padding: 48px; color: var(--muted); font-size: .9rem; }
+    .btn-detalhes {
+      background: var(--card2); border: 1px solid var(--border); color: var(--blue);
+      border-radius: 6px; padding: 5px 10px; font-size: .76rem; font-weight: 700;
+      cursor: pointer; font-family: inherit; white-space: nowrap;
+    }
+    .btn-detalhes:hover { border-color: var(--blue); }
+
+    .modal-overlay {
+      display: none; position: fixed; inset: 0; background: rgba(0,0,0,.6);
+      z-index: 100; padding: 24px; overflow-y: auto;
+    }
+    .modal-overlay.open { display: flex; justify-content: center; align-items: flex-start; }
+    .modal-box {
+      background: var(--card); border: 1px solid var(--border); border-radius: 12px;
+      padding: 20px; max-width: 780px; width: 100%; margin-top: 20px;
+    }
+    .modal-head { display: flex; justify-content: space-between; align-items: flex-start; gap: 12px; margin-bottom: 14px; }
+    .modal-head h2 { font-size: 1rem; color: var(--accent); }
+    .modal-head p { font-size: .78rem; color: var(--muted); margin-top: 3px; }
+    .modal-close {
+      background: none; border: 1px solid var(--border); color: var(--muted);
+      border-radius: 6px; width: 28px; height: 28px; cursor: pointer; font-size: .9rem; flex-shrink: 0;
+    }
+    .modal-sec-title {
+      font-size: .68rem; text-transform: uppercase; letter-spacing: .08em; color: var(--muted);
+      margin: 16px 0 8px; padding-bottom: 6px; border-bottom: 1px solid var(--border);
+    }
+    .analise-linha { font-size: .84rem; padding: 4px 0; display: flex; gap: 8px; align-items: flex-start; }
+    .analise-ok    { color: var(--green); }
+    .analise-warn  { color: var(--orange); }
+    .foto-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(120px, 1fr)); gap: 8px; }
+    .foto-grid a { display: block; }
+    .foto-grid img {
+      width: 100%; aspect-ratio: 3/4; object-fit: cover; border-radius: 8px;
+      border: 1px solid var(--border); display: block;
+    }
+    .foto-grid .foto-num { font-size: .68rem; color: var(--muted); text-align: center; margin-top: 3px; }
+    .sem-foto { font-size: .84rem; color: var(--muted); }
 
     @media (max-width: 640px) {
       body { padding: 12px; }
@@ -101,6 +214,9 @@
 <div class="controls">
   <select id="sel-usuario" onchange="paginaAtual=1;aplicarFiltro()">
     <option value="">Todos os Usuários</option>
+  </select>
+  <select id="sel-assunto" onchange="paginaAtual=1;aplicarFiltro()">
+    <option value="">Todos os Assuntos</option>
   </select>
   <input type="text" id="busca" placeholder="Buscar por cliente/PDV, pesquisa, tarefa..." oninput="paginaAtual=1;aplicarFiltro()">
   <label style="font-size:.78rem;color:var(--muted)">De: <input type="date" id="data-de" onchange="paginaAtual=1;aplicarFiltro()"></label>
@@ -149,6 +265,10 @@
   <button class="tab-btn" onclick="irParaPagina(1)" id="btn-pag-prox">Próxima →</button>
 </div>
 
+<div class="modal-overlay" id="modal-detalhes" onclick="if (event.target === this) fecharDetalhes()">
+  <div class="modal-box" id="modal-conteudo"></div>
+</div>
+
 <script>
 const DATA = typeof PROMOTORIA_DATA !== 'undefined' ? PROMOTORIA_DATA : null;
 let aba = 'pesquisas';
@@ -168,16 +288,106 @@ function _fotoLink(url) {
   return url ? `<a class="foto-link" href="${_esc(url)}" target="_blank" rel="noopener">Ver foto</a>` : '';
 }
 
-function _fotoLinks(urls) {
-  if (!urls || !urls.length) return '';
-  return urls.map((u, i) => `<a class="foto-link" href="${_esc(u)}" target="_blank" rel="noopener">Foto ${i + 1}</a>`).join(' ');
-}
-
 function _parseDataBr(d) {
   // 'dd/mm/aaaa' -> 'aaaa-mm-dd' (comparável com input[type=date])
   if (!d) return '';
   const [dd, mm, aaaa] = d.split('/');
   return `${aaaa}-${mm}-${dd}`;
+}
+
+function _fmtHora(dt) {
+  return dt.toLocaleTimeString('pt-BR', { hour: '2-digit', minute: '2-digit', second: '2-digit' });
+}
+
+// Nome do arquivo do Max Promotor carrega o horário real da captura:
+// RESP_PESQUISA_ITEM_MARCA_<hash>_DD_MM_AAAA_HH_MM_SS.jpg — extrai pra
+// comparar com check_in/check_out sem precisar abrir a foto (achado real:
+// visita de Alexandre Arruda/DOM ATACADISTA em 28/08/2026 tinha fotos
+// tiradas 2h10min ANTES do check-in registrado).
+function _timestampFoto(url) {
+  const m = (url || '').match(/_(\d{2})_(\d{2})_(\d{4})_(\d{2})_(\d{2})_(\d{2})\.\w+(?:\?|$)/);
+  if (!m) return null;
+  const [, dd, mm, aaaa, hh, mi, ss] = m.map(Number);
+  return new Date(aaaa, mm - 1, dd, hh, mi, ss);
+}
+
+// Análise automática — só o que dá pra calcular com os dados já coletados
+// (timestamp do nome do arquivo, check_in/check_out, contagem de fotos).
+// NÃO tenta avaliar ruptura/execução/precificação por visão computacional
+// nas fotos (pedido do usuário em 2026-08-28: só a parte automatizável por
+// dado, a leitura visual fica pra análise manual sob demanda).
+function _analisarPesquisa(r) {
+  const linhas = [];
+  const checkIn  = r.check_in  ? new Date(r.check_in)  : null;
+  const checkOut = r.check_out ? new Date(r.check_out) : null;
+
+  if (checkIn && checkOut) {
+    const minutos = Math.round((checkOut - checkIn) / 60000);
+    linhas.push({ ok: true, texto: `Duração da visita: ${_fmtHora(checkIn)} → ${_fmtHora(checkOut)} (${minutos} min)` });
+  }
+
+  const timestamps = (r.fotos || []).map(_timestampFoto).filter(Boolean);
+  if (!timestamps.length) {
+    linhas.push({ ok: true, texto: (r.fotos || []).length ? 'Não foi possível ler o horário de captura das fotos (nome de arquivo fora do padrão esperado).' : 'Nenhuma foto anexada a esta pesquisa.' });
+    return linhas;
+  }
+
+  const fotoMin = new Date(Math.min(...timestamps));
+  const fotoMax = new Date(Math.max(...timestamps));
+  linhas.push({ ok: true, texto: `Fotos tiradas entre ${_fmtHora(fotoMin)} e ${_fmtHora(fotoMax)} (${timestamps.length} de ${r.qtd_fotos ?? timestamps.length} esperada(s)).` });
+
+  if (checkIn && checkOut) {
+    // Margem de 5min pra não acusar falso-positivo por pequeno desvio de
+    // relógio do aparelho — só sinaliza gap grande o suficiente pra ser
+    // um caso real de foto fora da visita.
+    const MARGEM_MS = 5 * 60000;
+    const foraAntes  = checkIn.getTime()  - fotoMax.getTime();
+    const foraDepois = fotoMin.getTime() - checkOut.getTime();
+    const gapMs = Math.max(foraAntes, foraDepois, 0);
+    if (gapMs > MARGEM_MS) {
+      const gapMin = Math.round(gapMs / 60000);
+      const horas = Math.floor(gapMin / 60);
+      const gapTxt = horas > 0 ? `${horas}h${String(gapMin % 60).padStart(2, '0')}min` : `${gapMin}min`;
+      linhas.push({ ok: false, texto: `⚠️ Fotos fora da janela do check-in/check-out (diferença de ${gapTxt}) — confirmar se não são fotos reaproveitadas ou se o relógio do aparelho está desconfigurado.` });
+    } else {
+      linhas.push({ ok: true, texto: '✅ Fotos dentro da janela do check-in/check-out.' });
+    }
+  }
+  return linhas;
+}
+
+let _linhasPaginaAtual = [];
+
+function abrirDetalhes(idx) {
+  const r = _linhasPaginaAtual[idx];
+  if (!r) return;
+  const analise = _analisarPesquisa(r);
+  const fotosHtml = (r.fotos || []).length
+    ? `<div class="foto-grid">${r.fotos.map((u, i) => `
+        <a href="${_esc(u)}" target="_blank" rel="noopener">
+          <img src="${_esc(u)}" alt="Foto ${i + 1}" loading="lazy">
+          <div class="foto-num">Foto ${i + 1}</div>
+        </a>`).join('')}</div>`
+    : '<div class="sem-foto">Nenhuma foto anexada.</div>';
+
+  document.getElementById('modal-conteudo').innerHTML = `
+    <div class="modal-head">
+      <div>
+        <h2>${_esc(_clienteLabel(r))}</h2>
+        <p>${_esc(r.data)} · ${_esc(r.usuario)} · ${_esc(r.pesquisa)}</p>
+      </div>
+      <button class="modal-close" onclick="fecharDetalhes()">✕</button>
+    </div>
+    <div class="modal-sec-title">Análise automática</div>
+    ${analise.map(l => `<div class="analise-linha ${l.ok ? 'analise-ok' : 'analise-warn'}">${_esc(l.texto)}</div>`).join('')}
+    <div class="modal-sec-title">Fotos (${(r.fotos || []).length})</div>
+    ${fotosHtml}
+  `;
+  document.getElementById('modal-detalhes').classList.add('open');
+}
+
+function fecharDetalhes() {
+  document.getElementById('modal-detalhes').classList.remove('open');
 }
 
 function init() {
@@ -207,6 +417,18 @@ function init() {
     selUsuario.appendChild(o);
   });
 
+  // 'assuntos' é string "Assunto A; Assunto B" (uma resposta de pesquisa
+  // pode cobrir vários assuntos) — separa e tira únicos pra montar o filtro.
+  const assuntos = [...new Set(
+    DATA.pesquisas.flatMap(r => (r.assuntos || '').split(';').map(a => a.trim()).filter(Boolean))
+  )].sort();
+  const selAssunto = document.getElementById('sel-assunto');
+  assuntos.forEach(a => {
+    const o = document.createElement('option');
+    o.value = a; o.textContent = a;
+    selAssunto.appendChild(o);
+  });
+
   aplicarFiltro();
 }
 
@@ -217,6 +439,8 @@ function mudarAba(nova) {
   document.getElementById('tab-tarefas').classList.toggle('active', aba === 'tarefas');
   document.getElementById('tabela-pesquisas').style.display = aba === 'pesquisas' ? '' : 'none';
   document.getElementById('tabela-tarefas').style.display = aba === 'tarefas' ? '' : 'none';
+  // Assunto só existe em pesquisas — some na aba de tarefas.
+  document.getElementById('sel-assunto').style.display = aba === 'pesquisas' ? '' : 'none';
   aplicarFiltro();
 }
 
@@ -228,6 +452,7 @@ function irParaPagina(delta) {
 function _linhasFiltradas() {
   if (!DATA) return [];
   const usuario = document.getElementById('sel-usuario').value;
+  const assunto = document.getElementById('sel-assunto').value;
   const busca = document.getElementById('busca').value.trim().toLowerCase();
   const de = document.getElementById('data-de').value;
   const ate = document.getElementById('data-ate').value;
@@ -235,6 +460,10 @@ function _linhasFiltradas() {
 
   return base.filter(r => {
     if (usuario && r.usuario !== usuario) return false;
+    if (aba === 'pesquisas' && assunto) {
+      const assuntosLinha = (r.assuntos || '').split(';').map(a => a.trim());
+      if (!assuntosLinha.includes(assunto)) return false;
+    }
     const dataOrd = _parseDataBr(r.data);
     if (de && dataOrd && dataOrd < de) return false;
     if (ate && dataOrd && dataOrd > ate) return false;
@@ -262,7 +491,8 @@ function aplicarFiltro() {
   document.getElementById('btn-pag-prox').disabled = paginaAtual >= totalPaginas;
 
   if (aba === 'pesquisas') {
-    document.getElementById('tbody-pesquisas').innerHTML = linhas.length ? linhas.map(r => `
+    _linhasPaginaAtual = linhas;
+    document.getElementById('tbody-pesquisas').innerHTML = linhas.length ? linhas.map((r, i) => `
       <tr>
         <td>${_esc(r.data)}</td>
         <td>${_esc(r.usuario)}</td>
@@ -271,7 +501,7 @@ function aplicarFiltro() {
         <td class="wrap">${_esc(r.pesquisa)}</td>
         <td class="wrap">${_esc(r.assuntos)}</td>
         <td>${_esc(r.qtd_itens)}</td>
-        <td class="wrap">${_fotoLinks(r.fotos)}</td>
+        <td><button class="btn-detalhes" onclick="abrirDetalhes(${i})">🔍 Ver detalhes</button></td>
       </tr>`).join('') : '<tr><td colspan="8" class="empty">Nenhum registro encontrado.</td></tr>';
   } else {
     document.getElementById('tbody-tarefas').innerHTML = linhas.length ? linhas.map(r => `
