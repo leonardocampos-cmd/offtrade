@@ -16317,6 +16317,48 @@ const AGENDAMENTO_DATA = {
       "codusur": "379",
       "itens": [
         {
+          "codigo_cliente": "95634",
+          "cliente": "RAMIGOS SUPERMERCADOS S.A",
+          "cnpj": "11.552.261/0001-30",
+          "filial": "ANCHIETA",
+          "valor": 2909.28,
+          "nf": "",
+          "data_agendamento": "31/08/2026",
+          "data_ord": "2026-08-31",
+          "status": "A FATURAR",
+          "obs": "",
+          "status_logistica": "",
+          "justificativa_logistica": ""
+        },
+        {
+          "codigo_cliente": "16159",
+          "cliente": "PORTAL RIO SUL",
+          "cnpj": "33.060.720/0001-00",
+          "filial": "PENHA CIRCULAR",
+          "valor": 34200.0,
+          "nf": "",
+          "data_agendamento": "31/08/2026",
+          "data_ord": "2026-08-31",
+          "status": "A FATURAR",
+          "obs": "O cliente recebe na hora sem espera, não tem valor de descarga.",
+          "status_logistica": "",
+          "justificativa_logistica": ""
+        },
+        {
+          "codigo_cliente": "95634",
+          "cliente": "RAMIGOS SUPERMERCADOS S.A",
+          "cnpj": "11.552.261/0001-30",
+          "filial": "ANCHIETA",
+          "valor": 814.2,
+          "nf": "",
+          "data_agendamento": "31/08/2026",
+          "data_ord": "2026-08-31",
+          "status": "A FATURAR",
+          "obs": "",
+          "status_logistica": "",
+          "justificativa_logistica": ""
+        },
+        {
           "codigo_cliente": "",
           "cliente": "RAMAR COMERCIO DE PRODUTOS ALIMENTICIOS",
           "cnpj": "13.487.380/0001-82",
@@ -27105,7 +27147,7 @@ const AGENDAMENTO_DATA = {
       ]
     }
   ],
-  "atualizado_em": "28/08/2026 14:22",
+  "atualizado_em": "28/08/2026 15:16",
   "comparativo": [
     {
       "msg_id": "1a01bc9a975c4cab",
