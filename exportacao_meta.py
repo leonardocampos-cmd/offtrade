@@ -322,18 +322,16 @@ _vh_grouped = _vh.groupby(['VENDEDOR', 'MES_STR'])
 #
 # 3 fontes distintas:
 #  1. Cancelado TOTAL pós-NF: PBI_PCPEDI.STATUS='CANCELADA' (todo o pedido).
-#  2. Cancelado TOTAL pré-NF: view PEDIDOS_CANCELADOS (nunca chega a existir
-#     em PCPEDC/PBI_PCPEDI — ver [[project_faturamento_mes_cancelados]]).
-#     thekings não tem essa view — excluída da lista de schemas já na config,
-#     não deixa a query tentar e falhar (evita matar engine_theking pro resto
-#     do processo, mesmo cuidado do bloco de histórico acima).
+#  2. Cancelado TOTAL pré-NF: PCNFCANITEM, item a item (nunca chega a existir
+#     em PCPEDC/PBI_PCPEDI — ver [[project_faturamento_mes_cancelados]]). É a
+#     tabela por trás da view PEDIDOS_CANCELADOS (existe em todos os schemas,
+#     inclusive thekings — antes excluído aqui só porque a VIEW não existia
+#     lá, ORA-00942).
 #  3. Corte PARCIAL de item, dentro de pedido que faturou (QTFALTA + PCCORTEI
 #     — mesma lógica de pedidos.py::_item_pedido/_extrair_cortados). QTFALTA
 #     tem semântica duvidosa (ver memória project_qtfalta_semantica_duvidosa)
 #     — o valor cortado aqui é aproximado, mesma limitação já aceita em
 #     pedidos.py pra essa mesma conta.
-
-_VH_CONFIGS_SEM_THEKINGS = [c for c in _VH_CONFIGS if c[0] != "thekings"]
 
 
 def _nome_filter_ped(extra_nomes=None):
@@ -366,29 +364,30 @@ def _query_vendas_cancelados_pre_nf(schema, filtro_estent=None, extra_nomes=None
     extra_estent = f"\n          AND U.ESTADO = '{filtro_estent}'" if filtro_estent else ""
     return f"""
         SELECT
-            PC.DATACANC AS DATA, PC.DESCRICAO AS PRODUTO,
-            PC.QT AS QT, PC.SUBTOT AS VALOR, PC.NUMPED AS NUMPED, PC.CODPROD AS CODPROD,
+            PC.DATACANC AS DATA, PR.DESCRICAO AS PRODUTO,
+            PC.QT AS QT, (NVL(PC.QT, 0) * NVL(PC.PVENDA, 0)) AS VALOR,
+            PC.NUMPED AS NUMPED, PC.CODPROD AS CODPROD,
             U.CODUSUR AS CODUSUR, U.NOME AS NOME_ORACLE,
-            P.CODCLI AS CODCLI, C.CLIENTE AS CLIENTE,
+            PC.CODCLI AS CODCLI, C.CLIENTE AS CLIENTE,
             PC.MOTIVO AS MOTIVO
-        FROM {s}.PEDIDOS_CANCELADOS PC
-        JOIN {s}.PCUSUARI U ON U.CODUSUR = TO_NUMBER(SUBSTR(PC.NUMPED, 1, LENGTH(PC.NUMPED) - 6))
-        -- PEDIDOS_CANCELADOS não tem CODCLI/CLIENTE (só PEDIDO_CLIENTE, que é
-        -- o nº do pedido do próprio cliente, texto livre — não serve pra
-        -- identificar quem é) — cliente vinha sempre em branco no
-        -- "Faturamento do mês" pra cancelado pré-NF (pedido do usuário em
-        -- 2026-08-14, caso real: Marilena Tragel). PCPEDC recupera o cliente
-        -- só ENQUANTO o cabeçalho do pedido ainda existir lá — é tabela de
-        -- pedido "vivo"/em trâmite, não um histórico permanente, então a
-        -- taxa de acerto cai com o tempo (confirmado 2026-08-14: 0% sem
-        -- cliente numa consulta, ~30% na mesma consulta 30min depois —
-        -- PCPEDCAN, a única outra tabela de cancelamento com CODCLI, não
-        -- cobre os casos que faltam aqui). Não tem outra fonte confiável pra
-        -- recuperar os que já saíram do PCPEDC — MOTIVO (abaixo) ao menos
-        -- sempre está disponível, direto do PEDIDOS_CANCELADOS.
-        LEFT JOIN {s}.PCPEDC P ON P.NUMPED = PC.NUMPED
-        LEFT JOIN {s}.PCCLIENT C ON C.CODCLI = P.CODCLI
-        WHERE PC.DATACANC >= ADD_MONTHS(TRUNC(SYSDATE, 'MM'), -5)
+        FROM {s}.PCNFCANITEM PC
+        -- PCNFCANITEM é a tabela por trás da view PEDIDOS_CANCELADOS (mesmo
+        -- FROM/WHERE, só que a view não expõe CODCLI/CODUSUR — só
+        -- PEDIDO_CLIENTE, o nº do pedido do próprio cliente, texto livre,
+        -- que não identifica quem é). Consultando a tabela direto, CODCLI e
+        -- CODUSUR já vêm na própria linha — sem precisar do JOIN frágil com
+        -- PCPEDC (só tem o pedido ENQUANTO ele ainda está "vivo"/em
+        -- trâmite — cliente sumia assim que saía de lá, taxa de acerto caía
+        -- com o tempo) nem do parse via SUBSTR(NUMPED) pra achar o RCA.
+        -- 100% de CODCLI confirmado (2026-08-28) na mesma janela de 5 meses,
+        -- contra 0% do JOIN antigo no caso que originou o bug do cliente
+        -- "nan"/"—" no Faturamento do mês (Marilena Tragel, pedidos
+        -- 156003876/156003926) — ver [[project_faturamento_mes_cancelados]].
+        JOIN {s}.PCUSUARI U ON U.CODUSUR = PC.CODUSUR
+        JOIN {s}.PCPRODUT PR ON PR.CODPROD = PC.CODPROD
+        LEFT JOIN {s}.PCCLIENT C ON C.CODCLI = PC.CODCLI
+        WHERE PC.NUMTRANSVENDA IS NULL
+          AND PC.DATACANC >= ADD_MONTHS(TRUNC(SYSDATE, 'MM'), -5)
           AND {_nome_filter(extra_nomes)}{extra_estent}
     """
 
@@ -447,7 +446,7 @@ def _carregar_item_level(query_fn, configs, sufixo, usa_filial=True):
 
 
 _vc_cancel_pos = _carregar_item_level(_query_vendas_cancelados_pos_nf, _VH_CONFIGS, "vd_cancel_pos")
-_vc_cancel_pre = _carregar_item_level(_query_vendas_cancelados_pre_nf, _VH_CONFIGS_SEM_THEKINGS, "vd_cancel_pre", usa_filial=False)
+_vc_cancel_pre = _carregar_item_level(_query_vendas_cancelados_pre_nf, _VH_CONFIGS, "vd_cancel_pre", usa_filial=False)
 _vc_corte      = _carregar_item_level(_query_vendas_corte_parcial, _VH_CONFIGS, "vd_corte")
 
 _itens_extra_por_vendedor: dict = {}
