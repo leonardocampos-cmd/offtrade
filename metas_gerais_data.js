@@ -1,21 +1,21 @@
 const METAS_GERAIS_DATA = {
-  "atualizado_em": "28/08/2026 14:05",
+  "atualizado_em": "28/08/2026 14:57",
   "mes": "Ago/26",
   "mes_ant": "Jul/26",
   "dias_corridos": 28,
   "dias_no_mes": 31,
   "dias_restantes": 3,
   "resumo": {
-    "fat": 13136635.88,
+    "fat": 13137294.08,
     "fat_ant": 10001842.43,
     "fat_ant_completo": 13454213.45,
-    "pos": 1724,
+    "pos": 1725,
     "pos_ant": 1715,
     "pos_ant_completo": 1926
   },
   "total": {
     "meta": 12300000.0,
-    "fat": 13136635.88,
+    "fat": 13137294.08,
     "fat_ant": 10001842.43,
     "fat_ant_completo": 13454213.45,
     "pct": 106.8,
@@ -65,11 +65,11 @@ const METAS_GERAIS_DATA = {
       "estado": "MG",
       "label": "Minas Gerais",
       "meta": 2100000.0,
-      "fat": 1799256.4,
+      "fat": 1799914.6,
       "fat_ant": 1057586.0,
-      "pos": 253,
+      "pos": 254,
       "pct": 85.7,
-      "nec_dia": 100247.87,
+      "nec_dia": 100028.47,
       "fat_ant_completo": 1873633.49,
       "pos_ant": 239,
       "pos_ant_completo": 271
@@ -166,13 +166,13 @@ const METAS_GERAIS_DATA = {
     },
     {
       "fantasia": "CASTAS",
-      "fat": 251873.18,
+      "fat": 252232.38,
       "fat_ant": 212076.16,
       "por_estado": {
         "RJ": 114431.56,
         "SP": 42153.72,
         "ES": 0.0,
-        "MG": 95287.9
+        "MG": 95647.1
       }
     },
     {
@@ -232,13 +232,13 @@ const METAS_GERAIS_DATA = {
     },
     {
       "fantasia": "TATUZINHO",
-      "fat": 148280.14,
+      "fat": 148579.14,
       "fat_ant": 149771.89,
       "por_estado": {
         "RJ": 102581.62,
         "SP": 5495.7,
         "ES": 36028.86,
-        "MG": 4173.96
+        "MG": 4472.96
       }
     },
     {
