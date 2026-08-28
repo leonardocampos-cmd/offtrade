@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_sp.py
 
 const NAO_POS_SP_DATA = {
-  "atualizado_em": "28/08/2026 13:24",
+  "atualizado_em": "28/08/2026 14:25",
   "por_vendedor": {
     "ADER ALONSO": [
       {
@@ -6394,6 +6394,13 @@ const NAO_POS_SP_DATA = {
         ]
       },
       {
+        "codcli": "52769",
+        "cliente": "20.942.556 IVONALDO PAULO DE OLIVEIRA",
+        "bairro": "COOPERATIVA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
         "codcli": "52678",
         "cliente": "MEGA MAIS MERCADO LTDA",
         "bairro": "RUDGE RAMOS",
@@ -6684,6 +6691,13 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
+        "codcli": "52207",
+        "cliente": "CONDE SUPERMERCADO LTDA",
+        "bairro": "CENTRO",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
         "codcli": "52208",
         "cliente": "CONDE SUPERMERCADO LTDA",
         "bairro": "ITAGUÁ",
@@ -6691,7 +6705,7 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
-        "codcli": "52207",
+        "codcli": "52211",
         "cliente": "CONDE SUPERMERCADO LTDA",
         "bairro": "CENTRO",
         "dtultcomp": "nan",
@@ -6715,13 +6729,6 @@ const NAO_POS_SP_DATA = {
         "codcli": "52209",
         "cliente": "CONDE SUPERMERCADO LTDA",
         "bairro": "ITAGUÁ",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "52211",
-        "cliente": "CONDE SUPERMERCADO LTDA",
-        "bairro": "CENTRO",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -7039,15 +7046,6 @@ const NAO_POS_SP_DATA = {
         ]
       }
     ],
-    "JOVELINA LISBOA": [
-      {
-        "codcli": "52527",
-        "cliente": "MERCADINHO STEVEN LTDA",
-        "bairro": "BOM RETIRO",
-        "dtultcomp": "nan",
-        "produtos": []
-      }
-    ],
     "LEONARDO FLOREZI": [
       {
         "codcli": "26202",
@@ -7060,6 +7058,20 @@ const NAO_POS_SP_DATA = {
             "fantasia": "BROWN",
             "qt": 12,
             "valor": 1618.8
+          }
+        ]
+      },
+      {
+        "codcli": "46520",
+        "cliente": "CARVALHO SOUSA DISTRIBUIDORA DE BEBIDAS LTDA",
+        "bairro": "JOÃO ARANHA",
+        "dtultcomp": "24/03/2026",
+        "produtos": [
+          {
+            "produto": "WHISKY PASSPORT HONEY 670ML",
+            "fantasia": "PERNOD",
+            "qt": 12,
+            "valor": 430.8
           }
         ]
       },
