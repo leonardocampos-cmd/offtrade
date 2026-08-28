@@ -1,7 +1,7 @@
 // Gerado automaticamente
 
 const INATIVOS_DATA = {
-  "atualizado_em": "28/08/2026 15:32",
+  "atualizado_em": "28/08/2026 16:24",
   "por_vendedor": {
     "ADEILSON GONÇALVEZ - OFF TRADE": {
       "rca": "431",
@@ -842,16 +842,6 @@ const INATIVOS_DATA = {
           "media": 442.93
         },
         {
-          "codcli": "82474",
-          "cliente": "MERCADOS BRAGA LTDA",
-          "bairro": "SANTISSIMO",
-          "cidade": "RIO DE JANEIRO",
-          "dtultcomp": "05/02/2026",
-          "dias": 204,
-          "rca_inativo": "N",
-          "media": 707.28
-        },
-        {
           "codcli": "82473",
           "cliente": "MERCADOS BRAGA LTDA",
           "bairro": "SANTISSIMO",
@@ -870,6 +860,16 @@ const INATIVOS_DATA = {
           "dias": 213,
           "rca_inativo": "N",
           "media": 1812.72
+        },
+        {
+          "codcli": "82474",
+          "cliente": "MERCADOS BRAGA LTDA",
+          "bairro": "SANTISSIMO",
+          "cidade": "RIO DE JANEIRO",
+          "dtultcomp": "05/02/2026",
+          "dias": 204,
+          "rca_inativo": "N",
+          "media": 707.28
         }
       ],
       "sem_compra": [
@@ -1116,16 +1116,6 @@ const INATIVOS_DATA = {
           "media": 0.0
         },
         {
-          "codcli": "80916",
-          "cliente": "URCA COMERCIO DE BEBIDAS E ALIMENTOS LTDA",
-          "bairro": "JARDIM MODELO",
-          "cidade": "SAO PAULO",
-          "dtultcomp": "13/12/2024",
-          "dias": 623,
-          "rca_inativo": "N",
-          "media": 0.0
-        },
-        {
           "codcli": "80915",
           "cliente": "URCA COMERCIO DE BEBIDAS E ALIMENTOS LTDA",
           "bairro": "COCAIA",
@@ -1139,6 +1129,16 @@ const INATIVOS_DATA = {
           "codcli": "20805",
           "cliente": "URCA COMERCIO DE BEBIDAS E ALIMENTOS LTDA",
           "bairro": "JARDIM ITAPEMIRIM",
+          "cidade": "SAO PAULO",
+          "dtultcomp": "13/12/2024",
+          "dias": 623,
+          "rca_inativo": "N",
+          "media": 0.0
+        },
+        {
+          "codcli": "80916",
+          "cliente": "URCA COMERCIO DE BEBIDAS E ALIMENTOS LTDA",
+          "bairro": "JARDIM MODELO",
           "cidade": "SAO PAULO",
           "dtultcomp": "13/12/2024",
           "dias": 623,
@@ -1722,16 +1722,6 @@ const INATIVOS_DATA = {
           "cidade": "SAO PAULO",
           "dtultcomp": "19/05/2026",
           "dias": 101,
-          "rca_inativo": "N",
-          "media": 0.0
-        },
-        {
-          "codcli": "42424",
-          "cliente": "CIDADE MARAVILHOSA INDUSTRIA E COMERCIO DE ROUPAS SA",
-          "bairro": "VILA DO GOLF",
-          "cidade": "RIBEIRAO PRETO",
-          "dtultcomp": "20/01/2026",
-          "dias": 220,
           "rca_inativo": "N",
           "media": 0.0
         },
@@ -8444,16 +8434,6 @@ const INATIVOS_DATA = {
           "media": 0.0
         },
         {
-          "codcli": "10339",
-          "cliente": "POSTO DE COMBUSTIVEIS ALLGAS LTDA",
-          "bairro": "RECREIO DOS BANDEIRANTES",
-          "cidade": "RIO DE JANEIRO",
-          "dtultcomp": "08/08/2025",
-          "dias": 385,
-          "rca_inativo": "N",
-          "media": 198.53
-        },
-        {
           "codcli": "557",
           "cliente": "POSTO DE GADOLINA TOCANTINS LTDA",
           "bairro": "SÃO FRANCISCO - NITEROI",
@@ -9062,6 +9042,15 @@ const INATIVOS_DATA = {
         }
       ],
       "novos": [
+        {
+          "codcli": "96229",
+          "cliente": "POSTO DE COMBUSTIVEIS AMEGAS LTDA",
+          "bairro": "BARRA DA TIJUCA",
+          "cidade": "RIO DE JANEIRO",
+          "dtcadastro": "28/08/2026",
+          "dtultcomp": null,
+          "media": 0.0
+        },
         {
           "codcli": "96214",
           "cliente": "CENTRO AUTOMOTIVO PENDOTIBA LTDA",
@@ -13543,6 +13532,15 @@ const INATIVOS_DATA = {
       ],
       "sem_compra": [
         {
+          "codcli": "46520",
+          "cliente": "CARVALHO SOUSA DISTRIBUIDORA DE BEBIDAS LTDA",
+          "bairro": "JOÃO ARANHA",
+          "cidade": "PAULINIA",
+          "dtultcomp": "24/03/2026",
+          "dias": 157,
+          "media": 0.0
+        },
+        {
           "codcli": "50906",
           "cliente": "MANASSES E EFRAIM MINIMERCADO LTDA",
           "bairro": "JOÃO ARANHA",
@@ -13550,15 +13548,6 @@ const INATIVOS_DATA = {
           "dtultcomp": "08/06/2026",
           "dias": 81,
           "media": 435.2
-        },
-        {
-          "codcli": "51101",
-          "cliente": "UPERMERCADO GELAIN DE ITAPIRA LTDA",
-          "bairro": "PARQUE DA FELICIDADE",
-          "cidade": "ITAPIRA",
-          "dtultcomp": "24/06/2026",
-          "dias": 65,
-          "media": 199.8
         },
         {
           "codcli": "51100",
@@ -13570,22 +13559,13 @@ const INATIVOS_DATA = {
           "media": 199.8
         },
         {
-          "codcli": "51576",
-          "cliente": "BEBIDAS 68 COMERCIO DE BEBIDAS LTDA",
-          "bairro": "JARDIM CAMPO BELO",
-          "cidade": "SUMARE",
-          "dtultcomp": "10/07/2026",
-          "dias": 49,
-          "media": 266.4
-        },
-        {
-          "codcli": "51698",
-          "cliente": "42.541.850 PATRICIA PEREIRA DOS SANTOS",
-          "bairro": "CIDADE SINGER",
-          "cidade": "CAMPINAS",
-          "dtultcomp": "10/07/2026",
-          "dias": 49,
-          "media": 332.75
+          "codcli": "51101",
+          "cliente": "UPERMERCADO GELAIN DE ITAPIRA LTDA",
+          "bairro": "PARQUE DA FELICIDADE",
+          "cidade": "ITAPIRA",
+          "dtultcomp": "24/06/2026",
+          "dias": 65,
+          "media": 199.8
         },
         {
           "codcli": "51577",
@@ -13615,13 +13595,22 @@ const INATIVOS_DATA = {
           "media": 536.57
         },
         {
-          "codcli": "51214",
-          "cliente": "PALOMO & CROCHIQUIA LTDA",
-          "bairro": "JARDIM SOARES",
-          "cidade": "MOGI GUACU",
-          "dtultcomp": "14/07/2026",
-          "dias": 45,
-          "media": 1023.07
+          "codcli": "51576",
+          "cliente": "BEBIDAS 68 COMERCIO DE BEBIDAS LTDA",
+          "bairro": "JARDIM CAMPO BELO",
+          "cidade": "SUMARE",
+          "dtultcomp": "10/07/2026",
+          "dias": 49,
+          "media": 266.4
+        },
+        {
+          "codcli": "51698",
+          "cliente": "42.541.850 PATRICIA PEREIRA DOS SANTOS",
+          "bairro": "CIDADE SINGER",
+          "cidade": "CAMPINAS",
+          "dtultcomp": "10/07/2026",
+          "dias": 49,
+          "media": 332.75
         },
         {
           "codcli": "33061",
@@ -13631,6 +13620,15 @@ const INATIVOS_DATA = {
           "dtultcomp": "14/07/2026",
           "dias": 45,
           "media": 811.99
+        },
+        {
+          "codcli": "51214",
+          "cliente": "PALOMO & CROCHIQUIA LTDA",
+          "bairro": "JARDIM SOARES",
+          "cidade": "MOGI GUACU",
+          "dtultcomp": "14/07/2026",
+          "dias": 45,
+          "media": 1023.07
         },
         {
           "codcli": "51782",
@@ -13687,13 +13685,13 @@ const INATIVOS_DATA = {
           "media": 267.16
         },
         {
-          "codcli": "51114",
-          "cliente": "MAGUI SUPERMERCADOS LTDA",
-          "bairro": "SANTA CRUZ",
-          "cidade": "MOGI MIRIM",
+          "codcli": "51927",
+          "cliente": "SUPER SETE SUPERMERCADO LTDA",
+          "bairro": "VILA AEROPORTO",
+          "cidade": "CAMPINAS",
           "dtultcomp": "21/07/2026",
           "dias": 38,
-          "media": 326.1
+          "media": 3476.0
         },
         {
           "codcli": "51115",
@@ -13705,13 +13703,13 @@ const INATIVOS_DATA = {
           "media": 1642.03
         },
         {
-          "codcli": "51927",
-          "cliente": "SUPER SETE SUPERMERCADO LTDA",
-          "bairro": "VILA AEROPORTO",
-          "cidade": "CAMPINAS",
+          "codcli": "51114",
+          "cliente": "MAGUI SUPERMERCADOS LTDA",
+          "bairro": "SANTA CRUZ",
+          "cidade": "MOGI MIRIM",
           "dtultcomp": "21/07/2026",
           "dias": 38,
-          "media": 3476.0
+          "media": 326.1
         },
         {
           "codcli": "50929",
@@ -13732,15 +13730,6 @@ const INATIVOS_DATA = {
           "media": 1038.97
         },
         {
-          "codcli": "52051",
-          "cliente": "SUPERMERCADO CAMP. WENG LTDA",
-          "bairro": "JARDIM METONOPOLIS",
-          "cidade": "CAMPINAS",
-          "dtultcomp": "25/07/2026",
-          "dias": 34,
-          "media": 394.05
-        },
-        {
           "codcli": "51833",
           "cliente": "SUPERMERCADO IBIRAPUERA LTDA",
           "bairro": "JOAO ARANHA",
@@ -13757,6 +13746,15 @@ const INATIVOS_DATA = {
           "dtultcomp": "25/07/2026",
           "dias": 34,
           "media": 0.0
+        },
+        {
+          "codcli": "52051",
+          "cliente": "SUPERMERCADO CAMP. WENG LTDA",
+          "bairro": "JARDIM METONOPOLIS",
+          "cidade": "CAMPINAS",
+          "dtultcomp": "25/07/2026",
+          "dias": 34,
+          "media": 394.05
         },
         {
           "codcli": "50864",
@@ -16967,15 +16965,6 @@ const INATIVOS_DATA = {
       "inativos": [],
       "sem_compra": [
         {
-          "codcli": "51456",
-          "cliente": "LEONARDO CEZAR BARRERA 36853028848",
-          "bairro": "JARDIM NOVA ELIAS FAUSTO",
-          "cidade": "ELIAS FAUSTO",
-          "dtultcomp": "04/07/2026",
-          "dias": 55,
-          "media": 246.56
-        },
-        {
           "codcli": "51488",
           "cliente": "COMERCIAL E SUPERMERCADO DE ALIMENTOS BRESCIANI LTDA",
           "bairro": "CENTRO",
@@ -16992,6 +16981,15 @@ const INATIVOS_DATA = {
           "dtultcomp": "17/07/2026",
           "dias": 42,
           "media": 62.94
+        },
+        {
+          "codcli": "51679",
+          "cliente": "VIZINHO SUPERMERCADOS LTDA",
+          "bairro": "JARDIM SANTA RITA",
+          "cidade": "LEME",
+          "dtultcomp": "22/07/2026",
+          "dias": 37,
+          "media": 304.2
         },
         {
           "codcli": "51682",
@@ -17028,15 +17026,6 @@ const INATIVOS_DATA = {
           "dtultcomp": "22/07/2026",
           "dias": 37,
           "media": 546.1
-        },
-        {
-          "codcli": "51679",
-          "cliente": "VIZINHO SUPERMERCADOS LTDA",
-          "bairro": "JARDIM SANTA RITA",
-          "cidade": "LEME",
-          "dtultcomp": "22/07/2026",
-          "dias": 37,
-          "media": 304.2
         },
         {
           "codcli": "51676",
@@ -17673,15 +17662,6 @@ const INATIVOS_DATA = {
           "media": 301.2
         },
         {
-          "codcli": "50761",
-          "cliente": "WALLACE MORAES ANTUNES 44143439840",
-          "bairro": "VILA IPIRANGA",
-          "cidade": "SAO MANUEL",
-          "dtultcomp": "21/07/2026",
-          "dias": 38,
-          "media": 1239.63
-        },
-        {
           "codcli": "50861",
           "cliente": "ADEGA HR DE FARTURA LTDA",
           "bairro": "VILA NOSSA SENHORA DE FÁTIMA",
@@ -17698,6 +17678,15 @@ const INATIVOS_DATA = {
           "dtultcomp": "21/07/2026",
           "dias": 38,
           "media": 855.0
+        },
+        {
+          "codcli": "50761",
+          "cliente": "WALLACE MORAES ANTUNES 44143439840",
+          "bairro": "VILA IPIRANGA",
+          "cidade": "SAO MANUEL",
+          "dtultcomp": "21/07/2026",
+          "dias": 38,
+          "media": 1239.63
         },
         {
           "codcli": "50508",
@@ -17790,15 +17779,6 @@ const INATIVOS_DATA = {
           "media": 1679.9
         },
         {
-          "codcli": "51339",
-          "cliente": "DANIELA XAVIER DE ALMEIDA SPINA",
-          "bairro": "CENTRO",
-          "cidade": "MIRACATU",
-          "dtultcomp": "25/07/2026",
-          "dias": 34,
-          "media": 71.73
-        },
-        {
           "codcli": "51342",
           "cliente": "ELDORADO PRODUTOS ALIMENTICIOS LTDA",
           "bairro": "CENTRO",
@@ -17806,6 +17786,15 @@ const INATIVOS_DATA = {
           "dtultcomp": "25/07/2026",
           "dias": 34,
           "media": 71.92
+        },
+        {
+          "codcli": "51339",
+          "cliente": "DANIELA XAVIER DE ALMEIDA SPINA",
+          "bairro": "CENTRO",
+          "cidade": "MIRACATU",
+          "dtultcomp": "25/07/2026",
+          "dias": 34,
+          "media": 71.73
         }
       ],
       "novos": []
@@ -17834,15 +17823,6 @@ const INATIVOS_DATA = {
           "media": 291.6
         },
         {
-          "codcli": "50968",
-          "cliente": "IMPERIALLE COMERCIO DE BEBIDAS LTDA",
-          "bairro": "JARDIM MARIA GORETTI",
-          "cidade": "RIBEIRAO PRETO",
-          "dtultcomp": "11/06/2026",
-          "dias": 78,
-          "media": 494.1
-        },
-        {
           "codcli": "50962",
           "cliente": "VITO SUPERMERCADOS LTDA",
           "bairro": "RESIDENCIAL PARQUE DOS SERVIDORES",
@@ -17850,6 +17830,15 @@ const INATIVOS_DATA = {
           "dtultcomp": "11/06/2026",
           "dias": 78,
           "media": 835.6
+        },
+        {
+          "codcli": "50968",
+          "cliente": "IMPERIALLE COMERCIO DE BEBIDAS LTDA",
+          "bairro": "JARDIM MARIA GORETTI",
+          "cidade": "RIBEIRAO PRETO",
+          "dtultcomp": "11/06/2026",
+          "dias": 78,
+          "media": 494.1
         },
         {
           "codcli": "51104",
@@ -18391,15 +18380,6 @@ const INATIVOS_DATA = {
           "media": 273.33
         },
         {
-          "codcli": "51236",
-          "cliente": "MINI MERCADO NOVA UNIAO LTDA",
-          "bairro": "PARQUE RESIDENCIAL VILA UNIAO",
-          "cidade": "CAMPINAS",
-          "dtultcomp": "29/07/2026",
-          "dias": 30,
-          "media": 198.76
-        },
-        {
           "codcli": "50448",
           "cliente": "19.708.655 FABRIZIA TANGO CECILIO",
           "bairro": "PARQUE IMPERADOR",
@@ -18407,6 +18387,15 @@ const INATIVOS_DATA = {
           "dtultcomp": "29/07/2026",
           "dias": 30,
           "media": 414.4
+        },
+        {
+          "codcli": "51236",
+          "cliente": "MINI MERCADO NOVA UNIAO LTDA",
+          "bairro": "PARQUE RESIDENCIAL VILA UNIAO",
+          "cidade": "CAMPINAS",
+          "dtultcomp": "29/07/2026",
+          "dias": 30,
+          "media": 198.76
         }
       ],
       "novos": [
@@ -18454,22 +18443,13 @@ const INATIVOS_DATA = {
       "inativos": [],
       "sem_compra": [
         {
-          "codcli": "49697",
-          "cliente": "SUPERMERCADO NEVADA LTDA",
+          "codcli": "49699",
+          "cliente": "MERCADO JARDIM ZAIRA LTDA",
           "bairro": "JARDIM ZAIRA",
           "cidade": "MAUA",
           "dtultcomp": "30/05/2026",
           "dias": 90,
           "media": 799.2
-        },
-        {
-          "codcli": "49700",
-          "cliente": "MERCADO JARDIM ZAIRA LOJA II LTDA",
-          "bairro": "JARDIM ZAIRA",
-          "cidade": "MAUA",
-          "dtultcomp": "30/05/2026",
-          "dias": 90,
-          "media": 399.6
         },
         {
           "codcli": "49701",
@@ -18481,13 +18461,13 @@ const INATIVOS_DATA = {
           "media": 399.6
         },
         {
-          "codcli": "49699",
-          "cliente": "MERCADO JARDIM ZAIRA LTDA",
+          "codcli": "49700",
+          "cliente": "MERCADO JARDIM ZAIRA LOJA II LTDA",
           "bairro": "JARDIM ZAIRA",
           "cidade": "MAUA",
           "dtultcomp": "30/05/2026",
           "dias": 90,
-          "media": 799.2
+          "media": 399.6
         },
         {
           "codcli": "49698",
@@ -18497,6 +18477,15 @@ const INATIVOS_DATA = {
           "dtultcomp": "30/05/2026",
           "dias": 90,
           "media": 399.6
+        },
+        {
+          "codcli": "49697",
+          "cliente": "SUPERMERCADO NEVADA LTDA",
+          "bairro": "JARDIM ZAIRA",
+          "cidade": "MAUA",
+          "dtultcomp": "30/05/2026",
+          "dias": 90,
+          "media": 799.2
         },
         {
           "codcli": "50904",
@@ -18543,24 +18532,6 @@ const INATIVOS_DATA = {
           "media": 589.51
         },
         {
-          "codcli": "50263",
-          "cliente": "CATANHO E CATANHO LTDA",
-          "bairro": "CENTRO",
-          "cidade": "SANTA ISABEL",
-          "dtultcomp": "10/06/2026",
-          "dias": 79,
-          "media": 1331.4
-        },
-        {
-          "codcli": "50337",
-          "cliente": "FAMILIA PIRES DOCES LTDA",
-          "bairro": "CENTRO",
-          "cidade": "SANTA ISABEL",
-          "dtultcomp": "10/06/2026",
-          "dias": 79,
-          "media": 299.77
-        },
-        {
           "codcli": "50388",
           "cliente": "COMERCIAL SANTA ISABEL MAIS LTDA",
           "bairro": "CENTRO",
@@ -18568,15 +18539,6 @@ const INATIVOS_DATA = {
           "dtultcomp": "10/06/2026",
           "dias": 79,
           "media": 0.0
-        },
-        {
-          "codcli": "50266",
-          "cliente": "SUPER MERCADO STILUS LTDA",
-          "bairro": "CRUZEIRO",
-          "cidade": "SANTA ISABEL",
-          "dtultcomp": "10/06/2026",
-          "dias": 79,
-          "media": 780.28
         },
         {
           "codcli": "50264",
@@ -18588,13 +18550,31 @@ const INATIVOS_DATA = {
           "media": 526.8
         },
         {
-          "codcli": "50273",
-          "cliente": "LAJ COMERCIO DE ALIMENTOS LTDA",
-          "bairro": "JARDIM NOVO EDEN",
+          "codcli": "50337",
+          "cliente": "FAMILIA PIRES DOCES LTDA",
+          "bairro": "CENTRO",
           "cidade": "SANTA ISABEL",
-          "dtultcomp": "25/07/2026",
-          "dias": 34,
-          "media": 831.16
+          "dtultcomp": "10/06/2026",
+          "dias": 79,
+          "media": 299.77
+        },
+        {
+          "codcli": "50263",
+          "cliente": "CATANHO E CATANHO LTDA",
+          "bairro": "CENTRO",
+          "cidade": "SANTA ISABEL",
+          "dtultcomp": "10/06/2026",
+          "dias": 79,
+          "media": 1331.4
+        },
+        {
+          "codcli": "50266",
+          "cliente": "SUPER MERCADO STILUS LTDA",
+          "bairro": "CRUZEIRO",
+          "cidade": "SANTA ISABEL",
+          "dtultcomp": "10/06/2026",
+          "dias": 79,
+          "media": 780.28
         },
         {
           "codcli": "46155",
@@ -18604,6 +18584,15 @@ const INATIVOS_DATA = {
           "dtultcomp": "25/07/2026",
           "dias": 34,
           "media": 598.2
+        },
+        {
+          "codcli": "50273",
+          "cliente": "LAJ COMERCIO DE ALIMENTOS LTDA",
+          "bairro": "JARDIM NOVO EDEN",
+          "cidade": "SANTA ISABEL",
+          "dtultcomp": "25/07/2026",
+          "dias": 34,
+          "media": 831.16
         },
         {
           "codcli": "50340",
@@ -18623,15 +18612,6 @@ const INATIVOS_DATA = {
       "inativos": [],
       "sem_compra": [
         {
-          "codcli": "51652",
-          "cliente": "SUPERMERCADO TALISMA DE SAO VICENTE LTDA",
-          "bairro": "VILA MARGARIDA",
-          "cidade": "SAO VICENTE",
-          "dtultcomp": "11/07/2026",
-          "dias": 48,
-          "media": 303.16
-        },
-        {
           "codcli": "51531",
           "cliente": "MANOEL BERNARDINA DE ALMEIDA EMPORIO",
           "bairro": "SABOO",
@@ -18639,6 +18619,15 @@ const INATIVOS_DATA = {
           "dtultcomp": "11/07/2026",
           "dias": 48,
           "media": 234.84
+        },
+        {
+          "codcli": "51652",
+          "cliente": "SUPERMERCADO TALISMA DE SAO VICENTE LTDA",
+          "bairro": "VILA MARGARIDA",
+          "cidade": "SAO VICENTE",
+          "dtultcomp": "11/07/2026",
+          "dias": 48,
+          "media": 303.16
         },
         {
           "codcli": "51868",
@@ -18918,15 +18907,6 @@ const INATIVOS_DATA = {
           "media": 513.32
         },
         {
-          "codcli": "50245",
-          "cliente": "SUPERMERCADOS ALBUQUERQUE SOUZA LTDA",
-          "bairro": "JARDIM MARICA",
-          "cidade": "MOGI DAS CRUZES",
-          "dtultcomp": "11/06/2026",
-          "dias": 78,
-          "media": 1180.72
-        },
-        {
           "codcli": "50248",
           "cliente": "SUPERMERCADOS ALBUQUERQUE SOUZA LTDA",
           "bairro": "VILA NOVA APARECIDA",
@@ -18934,6 +18914,15 @@ const INATIVOS_DATA = {
           "dtultcomp": "11/06/2026",
           "dias": 78,
           "media": 1288.28
+        },
+        {
+          "codcli": "50245",
+          "cliente": "SUPERMERCADOS ALBUQUERQUE SOUZA LTDA",
+          "bairro": "JARDIM MARICA",
+          "cidade": "MOGI DAS CRUZES",
+          "dtultcomp": "11/06/2026",
+          "dias": 78,
+          "media": 1180.72
         },
         {
           "codcli": "49998",
@@ -18972,15 +18961,6 @@ const INATIVOS_DATA = {
           "media": 107.88
         },
         {
-          "codcli": "49997",
-          "cliente": "NIHEI SUPERMERCADO EXPRESS LTDA",
-          "bairro": "JARDIM UNIVERSO",
-          "cidade": "MOGI DAS CRUZES",
-          "dtultcomp": "01/07/2026",
-          "dias": 58,
-          "media": 316.68
-        },
-        {
           "codcli": "51420",
           "cliente": "A L PEREIRA SUPERMERCADO LTDA",
           "bairro": "JARDIM ROSICLER",
@@ -18988,6 +18968,15 @@ const INATIVOS_DATA = {
           "dtultcomp": "01/07/2026",
           "dias": 58,
           "media": 71.92
+        },
+        {
+          "codcli": "49997",
+          "cliente": "NIHEI SUPERMERCADO EXPRESS LTDA",
+          "bairro": "JARDIM UNIVERSO",
+          "cidade": "MOGI DAS CRUZES",
+          "dtultcomp": "01/07/2026",
+          "dias": 58,
+          "media": 316.68
         },
         {
           "codcli": "50054",
@@ -23059,6 +23048,15 @@ const INATIVOS_DATA = {
       "inativos": [],
       "sem_compra": [
         {
+          "codcli": "30447",
+          "cliente": "DOCERIA BELO HORIZONTE CAFETERIA LTDA",
+          "bairro": "SAVASSI",
+          "cidade": "BELO HORIZONTE",
+          "dtultcomp": "23/04/2026",
+          "dias": 127,
+          "media": 0.0
+        },
+        {
           "codcli": "34792",
           "cliente": "MR. CACIO BH SHOPPING LTDA",
           "bairro": "BELVEDERE",
@@ -23356,15 +23354,6 @@ const INATIVOS_DATA = {
         }
       ],
       "novos": [
-        {
-          "codcli": "39888",
-          "cliente": "MINAS FEST FORMATURAS CERIMONIAIS E EVENTOS LTDA",
-          "bairro": "SÃO MATEUS",
-          "cidade": "JUIZ DE FORA",
-          "dtcadastro": "25/08/2026",
-          "dtultcomp": null,
-          "media": 0.0
-        },
         {
           "codcli": "39881",
           "cliente": "LEONARDO MACHADO COELHO 10001137603",
