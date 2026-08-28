@@ -1,12 +1,12 @@
 const METAS_GERAIS_DATA = {
-  "atualizado_em": "28/08/2026 10:36",
+  "atualizado_em": "28/08/2026 11:34",
   "mes": "Ago/26",
   "mes_ant": "Jul/26",
   "dias_corridos": 28,
   "dias_no_mes": 31,
   "dias_restantes": 3,
   "resumo": {
-    "fat": 13140739.35,
+    "fat": 13139265.3,
     "fat_ant": 10001842.43,
     "fat_ant_completo": 13456599.65,
     "pos": 1724,
@@ -15,7 +15,7 @@ const METAS_GERAIS_DATA = {
   },
   "total": {
     "meta": 12300000.0,
-    "fat": 13140739.35,
+    "fat": 13139265.3,
     "fat_ant": 10001842.43,
     "fat_ant_completo": 13456599.65,
     "pct": 106.8,
@@ -26,7 +26,7 @@ const METAS_GERAIS_DATA = {
       "estado": "RJ",
       "label": "Rio de Janeiro",
       "meta": 2900000.0,
-      "fat": 3109248.38,
+      "fat": 3107774.33,
       "fat_ant": 2138913.6,
       "pos": 647,
       "pct": 107.2,
@@ -418,17 +418,6 @@ const METAS_GERAIS_DATA = {
       }
     },
     {
-      "fantasia": "TIAL",
-      "fat": 15716.98,
-      "fat_ant": 20456.0,
-      "por_estado": {
-        "RJ": 15716.98,
-        "SP": 0.0,
-        "ES": 0.0,
-        "MG": 0.0
-      }
-    },
-    {
       "fantasia": "QUINTA DO NINO",
       "fat": 15401.4,
       "fat_ant": 0.0,
@@ -445,6 +434,17 @@ const METAS_GERAIS_DATA = {
       "fat_ant": 9138.97,
       "por_estado": {
         "RJ": 15008.35,
+        "SP": 0.0,
+        "ES": 0.0,
+        "MG": 0.0
+      }
+    },
+    {
+      "fantasia": "TIAL",
+      "fat": 14242.93,
+      "fat_ant": 20456.0,
+      "por_estado": {
+        "RJ": 14242.93,
         "SP": 0.0,
         "ES": 0.0,
         "MG": 0.0
