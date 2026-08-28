@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const METAS_DATA = {
-  "atualizado_em": "28/08/2026 11:31",
+  "atualizado_em": "28/08/2026 12:57",
   "meses": [
     "Ago/26",
     "Jul/26",
@@ -4420,7 +4420,7 @@ const METAS_DATA = {
         },
         {
           "mes": "Aug/26",
-          "fat": 126882.52,
+          "fat": 128079.52,
           "pos": 83
         }
       ],
@@ -23413,7 +23413,7 @@ const METAS_DATA = {
             },
             {
               "FANTASIA": "",
-              "DESCRICAO": "VINHO CAVAS DE ORO BLEND BRANCO 750ML"
+              "DESCRICAO": "VINHO FOODKILLER CARMENERE 750ML"
             },
             {
               "FANTASIA": "",
@@ -23421,7 +23421,7 @@ const METAS_DATA = {
             },
             {
               "FANTASIA": "",
-              "DESCRICAO": "VINHO FOODKILLER CARMENERE 750ML"
+              "DESCRICAO": "VINHO CAVAS DE ORO BLEND BRANCO 750ML"
             },
             {
               "FANTASIA": "",
