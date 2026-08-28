@@ -1,7 +1,7 @@
 // Gerado automaticamente por exportacao_comissao.py — ESTIMATIVA, não é a apuração oficial
 
 const COMISSAO_DATA = {
-  "atualizado_em": "28/08/2026 14:27",
+  "atualizado_em": "28/08/2026 15:21",
   "mes_referencia": "08/2026",
   "pct_premio_taxa": 0.015,
   "vendedores": [
@@ -140,9 +140,9 @@ const COMISSAO_DATA = {
         {
           "label": "FATURAMENTO",
           "meta": 80000.0,
-          "realizado": 115224.24,
+          "realizado": 117887.7,
           "peso": 0.1,
-          "ating_meta": 1.440303,
+          "ating_meta": 1.473596,
           "ating_acumulado": 0.1
         },
         {
@@ -180,10 +180,10 @@ const COMISSAO_DATA = {
         {
           "label": "POSITIVAÇÃO",
           "meta": 70.0,
-          "realizado": 64,
+          "realizado": 66,
           "peso": 0.65,
-          "ating_meta": 0.914286,
-          "ating_acumulado": 0.594286
+          "ating_meta": 0.942857,
+          "ating_acumulado": 0.612857
         },
         {
           "label": "POSITIVAÇÃO ESSENZA",
@@ -236,10 +236,10 @@ const COMISSAO_DATA = {
         {
           "label": "POSITIVAÇÃO TATUZINHO",
           "meta": 15.0,
-          "realizado": 12,
+          "realizado": 14,
           "peso": 0.05,
-          "ating_meta": 0.8,
-          "ating_acumulado": 0.04
+          "ating_meta": 0.933333,
+          "ating_acumulado": 0.046667
         },
         {
           "label": "POSITIVAÇÃO TIAL",
@@ -250,14 +250,14 @@ const COMISSAO_DATA = {
           "ating_acumulado": 0.016667
         }
       ],
-      "ating_acumulado_total": 0.81762,
-      "pct_premio": 0.0122643,
+      "ating_acumulado_total": 0.842858,
+      "pct_premio": 0.01264287,
       "liq_rigarr": 111056.12,
       "fat_castas": 2079.0,
       "teto_comissao": 3000.0,
-      "com_rigarr": 2452.86,
-      "com_castas": 25.5,
-      "comissao_estimada": 2478.36
+      "com_rigarr": 2528.57,
+      "com_castas": 26.28,
+      "comissao_estimada": 2554.85
     },
     {
       "nome": "DIOGO RAPOSO - OFF TRADE",
@@ -267,10 +267,10 @@ const COMISSAO_DATA = {
         {
           "label": "FATURAMENTO",
           "meta": 200000.0,
-          "realizado": 139191.13,
+          "realizado": 140511.37,
           "peso": 0.7,
-          "ating_meta": 0.695956,
-          "ating_acumulado": 0.487169
+          "ating_meta": 0.702557,
+          "ating_acumulado": 0.49179
         },
         {
           "label": "FATURAMENTO PERNOD",
@@ -377,14 +377,14 @@ const COMISSAO_DATA = {
           "ating_acumulado": 0.0
         }
       ],
-      "ating_acumulado_total": 0.670935,
-      "pct_premio": 0.01006403,
+      "ating_acumulado_total": 0.675556,
+      "pct_premio": 0.01013334,
       "liq_rigarr": 148632.24,
       "fat_castas": 3949.8,
       "teto_comissao": null,
-      "com_rigarr": 1495.84,
-      "com_castas": 39.75,
-      "comissao_estimada": 1535.59
+      "com_rigarr": 1506.14,
+      "com_castas": 40.02,
+      "comissao_estimada": 1546.16
     },
     {
       "nome": "FABIO VALOTTI - OFF TRADE",
@@ -394,10 +394,10 @@ const COMISSAO_DATA = {
         {
           "label": "FATURAMENTO",
           "meta": 65000.0,
-          "realizado": 53180.29,
+          "realizado": 53503.71,
           "peso": 0.1,
-          "ating_meta": 0.818158,
-          "ating_acumulado": 0.081816
+          "ating_meta": 0.823134,
+          "ating_acumulado": 0.082313
         },
         {
           "label": "FATURAMENTO PERNOD",
@@ -482,7 +482,7 @@ const COMISSAO_DATA = {
         {
           "label": "POSITIVAÇÃO RED BULL",
           "meta": 0.0,
-          "realizado": 20,
+          "realizado": 21,
           "peso": 0.0,
           "ating_meta": 0.0,
           "ating_acumulado": 0.0
@@ -504,14 +504,14 @@ const COMISSAO_DATA = {
           "ating_acumulado": 0.045833
         }
       ],
-      "ating_acumulado_total": 0.707982,
-      "pct_premio": 0.01061973,
+      "ating_acumulado_total": 0.708479,
+      "pct_premio": 0.01062719,
       "liq_rigarr": 49278.17,
       "fat_castas": 0.0,
       "teto_comissao": 2000.0,
-      "com_rigarr": 1415.96,
+      "com_rigarr": 1416.96,
       "com_castas": 0.0,
-      "comissao_estimada": 1415.96
+      "comissao_estimada": 1416.96
     },
     {
       "nome": "ANA CLARA FASSANO - OFF TRADE",
@@ -1029,26 +1029,26 @@ const COMISSAO_DATA = {
         {
           "label": "FATURAMENTO",
           "meta": 120000.0,
-          "realizado": 100227.63,
+          "realizado": 102769.52,
           "peso": 0.7,
-          "ating_meta": 0.83523,
-          "ating_acumulado": 0.584661
+          "ating_meta": 0.856413,
+          "ating_acumulado": 0.599489
         },
         {
           "label": "FATURAMENTO PERNOD",
           "meta": 7000.0,
-          "realizado": 4327.46,
+          "realizado": 4467.26,
           "peso": 0.05,
-          "ating_meta": 0.618209,
-          "ating_acumulado": 0.03091
+          "ating_meta": 0.63818,
+          "ating_acumulado": 0.031909
         },
         {
           "label": "FATURAMENTO CASTAS",
           "meta": 9000.0,
-          "realizado": 8413.26,
+          "realizado": 8592.66,
           "peso": 0.1,
-          "ating_meta": 0.934807,
-          "ating_acumulado": 0.093481
+          "ating_meta": 0.95474,
+          "ating_acumulado": 0.095474
         },
         {
           "label": "FATURAMENTO HOB + AZEITE",
@@ -1139,14 +1139,14 @@ const COMISSAO_DATA = {
           "ating_acumulado": 0.0
         }
       ],
-      "ating_acumulado_total": 0.830062,
-      "pct_premio": 0.01245093,
+      "ating_acumulado_total": 0.847882,
+      "pct_premio": 0.01271823,
       "liq_rigarr": 65167.83,
-      "fat_castas": 8413.26,
+      "fat_castas": 8592.66,
       "teto_comissao": null,
-      "com_rigarr": 811.4,
-      "com_castas": 104.75,
-      "comissao_estimada": 916.15
+      "com_rigarr": 828.82,
+      "com_castas": 109.28,
+      "comissao_estimada": 938.1
     },
     {
       "nome": "ANGELO NEVES SUZART - OFF TRADE",
@@ -1283,10 +1283,10 @@ const COMISSAO_DATA = {
         {
           "label": "FATURAMENTO",
           "meta": 130000.0,
-          "realizado": 84860.53,
+          "realizado": 85205.65,
           "peso": 0.7,
-          "ating_meta": 0.652773,
-          "ating_acumulado": 0.456941
+          "ating_meta": 0.655428,
+          "ating_acumulado": 0.4588
         },
         {
           "label": "FATURAMENTO PERNOD",
@@ -1323,10 +1323,10 @@ const COMISSAO_DATA = {
         {
           "label": "POSITIVAÇÃO",
           "meta": 50.0,
-          "realizado": 37,
+          "realizado": 38,
           "peso": 0.1,
-          "ating_meta": 0.74,
-          "ating_acumulado": 0.074
+          "ating_meta": 0.76,
+          "ating_acumulado": 0.076
         },
         {
           "label": "POSITIVAÇÃO ESSENZA",
@@ -1371,7 +1371,7 @@ const COMISSAO_DATA = {
         {
           "label": "POSITIVAÇÃO RED BULL",
           "meta": 0.0,
-          "realizado": 16,
+          "realizado": 17,
           "peso": 0.0,
           "ating_meta": 0.0,
           "ating_acumulado": 0.0
@@ -1393,14 +1393,14 @@ const COMISSAO_DATA = {
           "ating_acumulado": 0.0
         }
       ],
-      "ating_acumulado_total": 0.678636,
-      "pct_premio": 0.01017954,
+      "ating_acumulado_total": 0.682495,
+      "pct_premio": 0.01023743,
       "liq_rigarr": 52104.68,
       "fat_castas": 5945.5,
       "teto_comissao": null,
-      "com_rigarr": 530.4,
-      "com_castas": 60.52,
-      "comissao_estimada": 590.92
+      "com_rigarr": 533.42,
+      "com_castas": 60.87,
+      "comissao_estimada": 594.29
     },
     {
       "nome": "BARBARA CABRAL - OFF TRADE",
