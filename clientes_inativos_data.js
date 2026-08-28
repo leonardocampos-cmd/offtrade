@@ -1,7 +1,7 @@
 // Gerado automaticamente
 
 const INATIVOS_DATA = {
-  "atualizado_em": "28/08/2026 16:24",
+  "atualizado_em": "28/08/2026 17:06",
   "por_vendedor": {
     "ADEILSON GONÇALVEZ - OFF TRADE": {
       "rca": "431",
@@ -15117,15 +15117,6 @@ const INATIVOS_DATA = {
           "media": 0.0
         },
         {
-          "codcli": "52634",
-          "cliente": "49.547.112 ALEXANDRE RIBEIRO DA SILVA",
-          "bairro": "JARDIM REVISTA",
-          "cidade": "SUZANO",
-          "dtcadastro": "24/08/2026",
-          "dtultcomp": null,
-          "media": 0.0
-        },
-        {
           "codcli": "52223",
           "cliente": "MASTER COMERCIO DE PRODUTOS EM GERAL LTDA",
           "bairro": "JARDIM ROSELI",
@@ -19315,15 +19306,6 @@ const INATIVOS_DATA = {
           "codcli": "52669",
           "cliente": "HORTIFRUTI MIB LTDA",
           "bairro": "VILA MARIA",
-          "cidade": "SAO PAULO",
-          "dtcadastro": "25/08/2026",
-          "dtultcomp": null,
-          "media": 0.0
-        },
-        {
-          "codcli": "52667",
-          "cliente": "HORTIFRUTI MIB LTDA",
-          "bairro": "VILA PEREIRA BARRETO",
           "cidade": "SAO PAULO",
           "dtcadastro": "25/08/2026",
           "dtultcomp": null,
