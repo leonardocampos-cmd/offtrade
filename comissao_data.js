@@ -1,7 +1,7 @@
 // Gerado automaticamente por exportacao_comissao.py — ESTIMATIVA, não é a apuração oficial
 
 const COMISSAO_DATA = {
-  "atualizado_em": "28/08/2026 11:59",
+  "atualizado_em": "28/08/2026 13:29",
   "mes_referencia": "08/2026",
   "pct_premio_taxa": 0.015,
   "vendedores": [
@@ -506,7 +506,7 @@ const COMISSAO_DATA = {
       ],
       "ating_acumulado_total": 0.707982,
       "pct_premio": 0.01061973,
-      "liq_rigarr": 47118.17,
+      "liq_rigarr": 49278.17,
       "fat_castas": 0.0,
       "teto_comissao": 2000.0,
       "com_rigarr": 1415.96,
@@ -633,7 +633,7 @@ const COMISSAO_DATA = {
       ],
       "ating_acumulado_total": 0.605116,
       "pct_premio": 0.00907674,
-      "liq_rigarr": 50221.91,
+      "liq_rigarr": 51298.31,
       "fat_castas": 2797.8,
       "teto_comissao": 2000.0,
       "com_rigarr": 1210.23,
@@ -1156,10 +1156,10 @@ const COMISSAO_DATA = {
         {
           "label": "FATURAMENTO",
           "meta": 200000.0,
-          "realizado": 80542.53,
+          "realizado": 77647.25,
           "peso": 0.7,
-          "ating_meta": 0.402713,
-          "ating_acumulado": 0.281899
+          "ating_meta": 0.388236,
+          "ating_acumulado": 0.271765
         },
         {
           "label": "FATURAMENTO PERNOD",
@@ -1252,7 +1252,7 @@ const COMISSAO_DATA = {
         {
           "label": "POSITIVAÇÃO TATUZINHO",
           "meta": 0.0,
-          "realizado": 12,
+          "realizado": 11,
           "peso": 0.0,
           "ating_meta": 0.0,
           "ating_acumulado": 0.0
@@ -1260,20 +1260,20 @@ const COMISSAO_DATA = {
         {
           "label": "POSITIVAÇÃO TIAL",
           "meta": 0.0,
-          "realizado": 8,
+          "realizado": 7,
           "peso": 0.0,
           "ating_meta": 0.0,
           "ating_acumulado": 0.0
         }
       ],
-      "ating_acumulado_total": 0.508917,
-      "pct_premio": 0.00763375,
+      "ating_acumulado_total": 0.498783,
+      "pct_premio": 0.00748174,
       "liq_rigarr": 88934.15,
       "fat_castas": 9612.3,
       "teto_comissao": null,
-      "com_rigarr": 678.9,
-      "com_castas": 73.38,
-      "comissao_estimada": 752.28
+      "com_rigarr": 665.38,
+      "com_castas": 71.92,
+      "comissao_estimada": 737.3
     },
     {
       "nome": "NÁTALI DE OLIVEIRA - OFF TRADE",
