@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_mg.py
 
 const NAO_POS_MG_DATA = {
-  "atualizado_em": "28/08/2026 11:57",
+  "atualizado_em": "28/08/2026 13:25",
   "por_vendedor": {
     "BRUNA CASTRO MELLO": [
       {
@@ -479,7 +479,7 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "37333",
+        "codcli": "37327",
         "cliente": "UNISSUL SUPERMERCADOS S/A",
         "bairro": "CENTRO",
         "dtultcomp": "30/07/2026",
@@ -487,26 +487,20 @@ const NAO_POS_MG_DATA = {
           {
             "produto": "VILLA ROSA BRANCO 750ML",
             "fantasia": "CASTAS",
-            "qt": 6,
-            "valor": 257.4
+            "qt": 12,
+            "valor": 514.8
           },
           {
-            "produto": "VILLA ROSA ROSE 750ML",
+            "produto": "VINHO FOODKILLER CAB SAUV MERLOT 750ML",
             "fantasia": "CASTAS",
             "qt": 6,
-            "valor": 257.4
+            "valor": 293.4
           },
           {
             "produto": "VODKA ORLOFF 1L - DEST",
             "fantasia": "",
-            "qt": 24,
-            "valor": 490.08
-          },
-          {
-            "produto": "WHISKY BALLANTINE'S FINEST 1L",
-            "fantasia": "PERNOD",
-            "qt": 3,
-            "valor": 177.54
+            "qt": 12,
+            "valor": 245.04
           }
         ]
       },
@@ -537,7 +531,7 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "37327",
+        "codcli": "37333",
         "cliente": "UNISSUL SUPERMERCADOS S/A",
         "bairro": "CENTRO",
         "dtultcomp": "30/07/2026",
@@ -545,20 +539,26 @@ const NAO_POS_MG_DATA = {
           {
             "produto": "VILLA ROSA BRANCO 750ML",
             "fantasia": "CASTAS",
-            "qt": 12,
-            "valor": 514.8
+            "qt": 6,
+            "valor": 257.4
           },
           {
-            "produto": "VINHO FOODKILLER CAB SAUV MERLOT 750ML",
+            "produto": "VILLA ROSA ROSE 750ML",
             "fantasia": "CASTAS",
             "qt": 6,
-            "valor": 293.4
+            "valor": 257.4
           },
           {
             "produto": "VODKA ORLOFF 1L - DEST",
             "fantasia": "",
-            "qt": 12,
-            "valor": 245.04
+            "qt": 24,
+            "valor": 490.08
+          },
+          {
+            "produto": "WHISKY BALLANTINE'S FINEST 1L",
+            "fantasia": "PERNOD",
+            "qt": 3,
+            "valor": 177.54
           }
         ]
       },
@@ -1260,26 +1260,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "33014",
-        "cliente": "ER COZINHA ARTESANAL LTDA",
-        "bairro": "LOURDES",
-        "dtultcomp": "18/06/2026",
-        "produtos": [
-          {
-            "produto": "YVY DESTILADO GIN AR LT 710ML",
-            "fantasia": "YVY",
-            "qt": 4,
-            "valor": 159.6
-          },
-          {
-            "produto": "YVY DESTILADO GIN MAR  LT 710ML",
-            "fantasia": "YVY",
-            "qt": 4,
-            "valor": 159.6
-          }
-        ]
-      },
-      {
         "codcli": "32871",
         "cliente": "ER COZINHA ARTESANAL LTDA",
         "bairro": "VILA DA SERRA",
@@ -1296,6 +1276,26 @@ const NAO_POS_MG_DATA = {
             "fantasia": "YVY",
             "qt": 6,
             "valor": 239.4
+          }
+        ]
+      },
+      {
+        "codcli": "33014",
+        "cliente": "ER COZINHA ARTESANAL LTDA",
+        "bairro": "LOURDES",
+        "dtultcomp": "18/06/2026",
+        "produtos": [
+          {
+            "produto": "YVY DESTILADO GIN AR LT 710ML",
+            "fantasia": "YVY",
+            "qt": 4,
+            "valor": 159.6
+          },
+          {
+            "produto": "YVY DESTILADO GIN MAR  LT 710ML",
+            "fantasia": "YVY",
+            "qt": 4,
+            "valor": 159.6
           }
         ]
       },
@@ -2426,9 +2426,9 @@ const NAO_POS_MG_DATA = {
     ],
     "LEANDRO OLIVEIRA": [
       {
-        "codcli": "34341",
+        "codcli": "34339",
         "cliente": "MULTICOM ATACADO E VAREJO S/A",
-        "bairro": "SERRA VERDE (VENDA NOVA)",
+        "bairro": "ITAPOÃ",
         "dtultcomp": "06/02/2026",
         "produtos": [
           {
@@ -2440,9 +2440,9 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "34339",
+        "codcli": "34341",
         "cliente": "MULTICOM ATACADO E VAREJO S/A",
-        "bairro": "ITAPOÃ",
+        "bairro": "SERRA VERDE (VENDA NOVA)",
         "dtultcomp": "06/02/2026",
         "produtos": [
           {
@@ -3266,9 +3266,9 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "30324",
+        "codcli": "39403",
         "cliente": "CASA DE FRIOS E MASSAS AO GOSTO LTDA",
-        "bairro": "BELVEDERE",
+        "bairro": "COMITECO",
         "dtultcomp": "29/05/2026",
         "produtos": [
           {
@@ -3286,9 +3286,9 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "39403",
+        "codcli": "30324",
         "cliente": "CASA DE FRIOS E MASSAS AO GOSTO LTDA",
-        "bairro": "COMITECO",
+        "bairro": "BELVEDERE",
         "dtultcomp": "29/05/2026",
         "produtos": [
           {
@@ -3782,44 +3782,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "YVY",
             "qt": 8,
             "valor": 319.2
-          }
-        ]
-      },
-      {
-        "codcli": "36583",
-        "cliente": "RESTAURANTE E CHURRASCARIA CHEFAO LTDA",
-        "bairro": "JARDIM CANADA",
-        "dtultcomp": "16/07/2026",
-        "produtos": [
-          {
-            "produto": "VILLA ROSA TINTO 750ML",
-            "fantasia": "CASTAS",
-            "qt": 2,
-            "valor": 85.8
-          },
-          {
-            "produto": "VINHO ARESTI EST SEL CHARDONNAY 750ML",
-            "fantasia": "CASTAS",
-            "qt": 1,
-            "valor": 54.9
-          },
-          {
-            "produto": "VINHO ARESTI EST SEL MERLOT 750ML",
-            "fantasia": "CASTAS",
-            "qt": 2,
-            "valor": 109.8
-          },
-          {
-            "produto": "VINHO ARESTI ESTATE S.CAB SAUV 187ML",
-            "fantasia": "CASTAS",
-            "qt": 8,
-            "valor": 151.2
-          },
-          {
-            "produto": "VINHO MARQUÉS DE TEJARES 750ML",
-            "fantasia": "CASTAS",
-            "qt": 1,
-            "valor": 57.9
           }
         ]
       },
