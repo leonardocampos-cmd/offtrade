@@ -231,7 +231,12 @@ def ensure_valid_token() -> dict:
     token = st.session_state.get("token") or {}
     if not token:
         raise RuntimeError("Sessão não autenticada.")
-    if token.get("expires_at") and token["expires_at"] < time.time():
+    # Margem de 60s: sem ela, um token que "ainda vale" neste check exato
+    # podia expirar nos poucos segundos até a chamada real à API do Gmail
+    # logo depois, caindo no 401 reativo (que também derruba a sessão) em vez
+    # do refresh proativo abaixo — mesmo resultado pro usuário (pedir login
+    # de novo), mas sem essa margem ele saía com MAIS frequência.
+    if token.get("expires_at") and token["expires_at"] < time.time() + 60:
         if not token.get("refresh_token"):
             # Sem isso, "atualizar a página" não resolvia nada: o cookie
             # offtrade_token ainda tinha o token velho (sem refresh_token) e
@@ -247,28 +252,51 @@ def ensure_valid_token() -> dict:
             raise RuntimeError("Sessão expirada — sem permissão de renovação automática. Atualize a página e faça login de novo.")
         oauth2 = OAuth2Component(CLIENT_ID, CLIENT_SECRET, AUTHORIZE_URL, TOKEN_URL, TOKEN_URL)
         refresh_token_atual = token.get("refresh_token")
-        try:
-            token = oauth2.refresh_token(token)
-            # A resposta de refresh do Google nunca traz "refresh_token" de
-            # volta (só vem na autorização inicial) — sobrescrever a sessão
-            # com esse token novo sem reaproveitar o antigo apagava o
-            # refresh_token da sessão/cookie a cada renovação, e a PRÓXIMA
-            # expiração (~1h depois) já caía direto em "sem permissão de
-            # renovação automática", pedindo login de novo toda hora mesmo
-            # com o refresh_token original ainda válido (causa raiz do erro
-            # "Gmail recusou o token" recorrente, achada em 2026-08-14).
-            if not token.get("refresh_token") and refresh_token_atual:
-                token["refresh_token"] = refresh_token_atual
-        except Exception as e:
+        token_novo   = None
+        erro_refresh = None
+        # Duas tentativas: uma falha de refresh pode ser uma instabilidade
+        # passageira do endpoint do Google (ou do asyncio.run() interno do
+        # streamlit_oauth), não necessariamente refresh_token revogado — sem
+        # retry, essa instabilidade também derrubava a sessão à toa (pedido
+        # do usuário em 2026-08-28 depois de relatar login pedido de novo
+        # "às vezes" ao clicar em Solicitar).
+        for _tentativa in range(2):
+            try:
+                # force=True: a margem de 60s acima é mais cedo que o próprio
+                # check interno do streamlit_oauth (só expires_at<agora, sem
+                # margem) — sem force, ele podia devolver o token INALTERADO
+                # por ainda não achar que expirou, anulando a margem.
+                token_novo = oauth2.refresh_token(token, force=True)
+                break
+            except Exception as e:
+                erro_refresh = e
+                if _tentativa == 0:
+                    time.sleep(1)
+        if token_novo is None:
             # Refresh_token existia mas o Google recusou renovar (revogado,
             # client secret trocado, etc.) — antes essa exceção vazava sem
-            # mensagem clara pro chamador.
+            # mensagem clara pro chamador. Print (não arquivo) — vira log via
+            # journalctl -u offtrade, mesmo padrão pedido pelo usuário em
+            # 2026-08-27 pra _consultar_cnpj_receita, pra ter rastro de qual
+            # erro real o Google devolveu da próxima vez que isso acontecer.
+            print(f"[AUTH] refresh_token falhou pra {_decode_email(token)}: {str(erro_refresh)[:300]}")
             st.session_state.pop("token", None)
             try:
                 CookieController().remove("offtrade_token")
             except Exception:
                 pass
-            raise RuntimeError(f"Falha ao renovar sessão ({str(e)[:150]}). Atualize a página e faça login de novo.")
+            raise RuntimeError(f"Falha ao renovar sessão ({str(erro_refresh)[:150]}). Atualize a página e faça login de novo.")
+        # A resposta de refresh do Google nunca traz "refresh_token" de volta
+        # (só vem na autorização inicial) — sobrescrever a sessão com esse
+        # token novo sem reaproveitar o antigo apagava o refresh_token da
+        # sessão/cookie a cada renovação, e a PRÓXIMA expiração (~1h depois)
+        # já caía direto em "sem permissão de renovação automática", pedindo
+        # login de novo toda hora mesmo com o refresh_token original ainda
+        # válido (causa raiz do erro "Gmail recusou o token" recorrente,
+        # achada em 2026-08-14).
+        if not token_novo.get("refresh_token") and refresh_token_atual:
+            token_novo["refresh_token"] = refresh_token_atual
+        token = token_novo
         st.session_state["token"] = token
         try:
             CookieController().set("offtrade_token", json.dumps(token))

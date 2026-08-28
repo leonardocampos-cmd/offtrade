@@ -52,12 +52,19 @@ def _enviar_email(assunto: str, corpo: str, cc: str = None) -> bool:
     try:
         try:
             token = ensure_valid_token()
-        except RuntimeError:
-            # ensure_valid_token() já limpou sessão/cookie antes de levantar
-            # (sem refresh_token ou Google recusou renovar) — mesmo motivo do
-            # 401 abaixo: rerun direto pra tela de login em vez de aviso +
-            # pedir F5 manual.
-            st.rerun()
+        except RuntimeError as e:
+            # NÃO usar st.rerun() aqui: rerun interrompe a execução deste
+            # helper na hora, pulando o cleanup que quem chama faz logo
+            # depois de _enviar_email(...) (pop de _pendente_*_key/
+            # _confirmar_*_key) — a solicitação pendente ficava presa na
+            # sessão e disparava sozinha, sem clique nenhum, assim que a
+            # pessoa fizesse login de novo (bug real reportado pelo usuário
+            # em 2026-08-28: "antes de clicar na solicitação, ele envia").
+            # Retornar False deixa quem chama terminar o cleanup normalmente;
+            # ensure_valid_token() já limpou sessão/cookie antes de levantar,
+            # então a PRÓXIMA interação já cai na tela de login sozinha.
+            st.error(f"{e} A solicitação NÃO foi reenviada — clique em Entrar com Google e refaça o pedido.")
+            return False
         access_token = token.get("access_token", "")
         remetente    = rca_info.get("email", "")
         msg          = MIMEText(corpo)
@@ -85,12 +92,14 @@ def _enviar_email(assunto: str, corpo: str, cc: str = None) -> bool:
                 CookieController().remove("offtrade_token")
             except Exception:
                 pass
-            # st.rerun() em vez de st.warning() + esperar o usuário atualizar
-            # manualmente: com a sessão já limpa acima, o rerun cai direto na
-            # tela "Entrar com Google" (require_auth() roda de novo do topo),
-            # sem mostrar o aviso confuso de "Gmail recusou o token" — pedido
-            # do usuário em 2026-08-14 pra não precisar dar F5 na mão.
-            st.rerun()
+            # Mesmo motivo do RuntimeError acima: NÃO usar st.rerun() aqui —
+            # interrompia a execução antes do cleanup de _pendente_*_key no
+            # chamador, fazendo a solicitação disparar sozinha no próximo
+            # login (bug real reportado pelo usuário em 2026-08-28). Sessão/
+            # cookie já foram limpos acima, então a PRÓXIMA interação já cai
+            # sozinha na tela de login — sem precisar de F5 manual.
+            st.error("Sessão expirada (Gmail recusou o token). A solicitação NÃO foi reenviada — clique em Entrar com Google e refaça o pedido.")
+            return False
         elif not r.ok:
             st.warning(f"Erro ao enviar e-mail: {r.status_code} — {r.text[:300]}")
             return False
