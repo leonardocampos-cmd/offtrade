@@ -1,7 +1,7 @@
 // Gerado automaticamente por exportacao_comissao.py — ESTIMATIVA, não é a apuração oficial
 
 const COMISSAO_DATA = {
-  "atualizado_em": "28/08/2026 11:00",
+  "atualizado_em": "28/08/2026 11:59",
   "mes_referencia": "08/2026",
   "pct_premio_taxa": 0.015,
   "vendedores": [
@@ -1156,10 +1156,10 @@ const COMISSAO_DATA = {
         {
           "label": "FATURAMENTO",
           "meta": 200000.0,
-          "realizado": 82016.58,
+          "realizado": 80542.53,
           "peso": 0.7,
-          "ating_meta": 0.410083,
-          "ating_acumulado": 0.287058
+          "ating_meta": 0.402713,
+          "ating_acumulado": 0.281899
         },
         {
           "label": "FATURAMENTO PERNOD",
@@ -1266,14 +1266,14 @@ const COMISSAO_DATA = {
           "ating_acumulado": 0.0
         }
       ],
-      "ating_acumulado_total": 0.514076,
-      "pct_premio": 0.00771114,
+      "ating_acumulado_total": 0.508917,
+      "pct_premio": 0.00763375,
       "liq_rigarr": 88934.15,
       "fat_castas": 9612.3,
       "teto_comissao": null,
-      "com_rigarr": 685.78,
-      "com_castas": 74.12,
-      "comissao_estimada": 759.9
+      "com_rigarr": 678.9,
+      "com_castas": 73.38,
+      "comissao_estimada": 752.28
     },
     {
       "nome": "NÁTALI DE OLIVEIRA - OFF TRADE",
