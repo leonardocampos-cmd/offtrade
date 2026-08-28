@@ -1,7 +1,7 @@
 // Gerado automaticamente
 const CLIENTES_RCA_DATA = {
-  "atualizado_em": "28/08/2026 16:12",
-  "total": 25521,
+  "atualizado_em": "28/08/2026 16:54",
+  "total": 25520,
   "clientes": [
     {
       "codcli": "38586",
@@ -19678,8 +19678,8 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "W.S",
       "codusur2": "",
       "nome_usur2": "",
-      "ultimo_rca": "",
-      "ultimo_rca_nome": "",
+      "ultimo_rca": "588",
+      "ultimo_rca_nome": "W.S",
       "ultimo_rca_ot": "",
       "ultimo_rca_ot_nome": ""
     },
@@ -42620,26 +42620,6 @@ const CLIENTES_RCA_DATA = {
       "nome_usur2": "",
       "ultimo_rca": "",
       "ultimo_rca_nome": "",
-      "ultimo_rca_ot": "",
-      "ultimo_rca_ot_nome": ""
-    },
-    {
-      "codcli": "38357",
-      "razao": "63.135.433 MANOELA TEREZINHA ALMEIDA",
-      "fantasia": "63.135.433 MANOELA TEREZINHA ALMEIDA",
-      "bairro": "SAO COSME DE BAIXO (SAO BENEDITO)",
-      "cidade": "SANTA LUZIA",
-      "cnpj": "63.135.433/0001-74",
-      "estado": "MG",
-      "ramo": "BAR",
-      "key_account": false,
-      "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "INATIVO",
-      "codusur2": "",
-      "nome_usur2": "",
-      "ultimo_rca": "368",
-      "ultimo_rca_nome": "JONATAS DOS SANTOS SOUZA",
       "ultimo_rca_ot": "",
       "ultimo_rca_ot_nome": ""
     },
@@ -140114,8 +140094,8 @@ const CLIENTES_RCA_DATA = {
       "ramo": "MERCADO",
       "key_account": false,
       "rede": "",
-      "codusur1": "10",
-      "nome_usur1": "SPON",
+      "codusur1": "147",
+      "nome_usur1": "RAFAEL DE OLIVEIRA",
       "codusur2": "399",
       "nome_usur2": "BRYAN PALOPOLI - OFF TRADE",
       "ultimo_rca": "147",
@@ -242678,10 +242658,10 @@ const CLIENTES_RCA_DATA = {
       "nome_usur1": "DEMETRIUS PELEGRINI - OFF TRADE",
       "codusur2": "",
       "nome_usur2": "",
-      "ultimo_rca": "",
-      "ultimo_rca_nome": "",
-      "ultimo_rca_ot": "",
-      "ultimo_rca_ot_nome": ""
+      "ultimo_rca": "496",
+      "ultimo_rca_nome": "DEMETRIUS PELEGRINI - OFF TRADE",
+      "ultimo_rca_ot": "496",
+      "ultimo_rca_ot_nome": "DEMETRIUS PELEGRINI - OFF TRADE"
     },
     {
       "codcli": "51459",
