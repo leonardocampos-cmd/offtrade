@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_sp.py
 
 const NAO_POS_SP_DATA = {
-  "atualizado_em": "28/08/2026 10:57",
+  "atualizado_em": "28/08/2026 11:56",
   "por_vendedor": {
     "ADER ALONSO": [
       {
@@ -1628,32 +1628,6 @@ const NAO_POS_SP_DATA = {
         ]
       },
       {
-        "codcli": "48116",
-        "cliente": "SUPERMERCADOS DALBEN LTDA",
-        "bairro": "MANSÕES SANTO ANTÔNIO",
-        "dtultcomp": "03/07/2026",
-        "produtos": [
-          {
-            "produto": "WHISKY BALLANTINE S FINEST 1L",
-            "fantasia": "PERNOD",
-            "qt": 120,
-            "valor": 6708.24
-          },
-          {
-            "produto": "WHISKY BALLANTINE S FINEST 750ML",
-            "fantasia": "PERNOD",
-            "qt": 12,
-            "valor": 562.8
-          },
-          {
-            "produto": "WHISKY BALLANTINE S SUNSHINE 700ML",
-            "fantasia": "PERNOD",
-            "qt": 12,
-            "valor": 562.8
-          }
-        ]
-      },
-      {
         "codcli": "48117",
         "cliente": "SUPERMERCADOS DALBEN LTDA",
         "bairro": "JARDIM BELA VISTA",
@@ -1709,6 +1683,32 @@ const NAO_POS_SP_DATA = {
         "codcli": "40668",
         "cliente": "SUPERMERCADOS DALBEN LTDA",
         "bairro": "PARQUE NOVA SUÍÇA",
+        "dtultcomp": "03/07/2026",
+        "produtos": [
+          {
+            "produto": "WHISKY BALLANTINE S FINEST 1L",
+            "fantasia": "PERNOD",
+            "qt": 120,
+            "valor": 6708.24
+          },
+          {
+            "produto": "WHISKY BALLANTINE S FINEST 750ML",
+            "fantasia": "PERNOD",
+            "qt": 12,
+            "valor": 562.8
+          },
+          {
+            "produto": "WHISKY BALLANTINE S SUNSHINE 700ML",
+            "fantasia": "PERNOD",
+            "qt": 12,
+            "valor": 562.8
+          }
+        ]
+      },
+      {
+        "codcli": "48116",
+        "cliente": "SUPERMERCADOS DALBEN LTDA",
+        "bairro": "MANSÕES SANTO ANTÔNIO",
         "dtultcomp": "03/07/2026",
         "produtos": [
           {
