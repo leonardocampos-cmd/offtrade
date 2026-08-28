@@ -1,12 +1,12 @@
 const METAS_GERAIS_DATA = {
-  "atualizado_em": "28/08/2026 15:51",
+  "atualizado_em": "28/08/2026 16:34",
   "mes": "Ago/26",
   "mes_ant": "Jul/26",
   "dias_corridos": 28,
   "dias_no_mes": 31,
   "dias_restantes": 3,
   "resumo": {
-    "fat": 13215447.3,
+    "fat": 13217652.3,
     "fat_ant": 10001842.43,
     "fat_ant_completo": 13454213.45,
     "pos": 1749,
@@ -15,10 +15,10 @@ const METAS_GERAIS_DATA = {
   },
   "total": {
     "meta": 12300000.0,
-    "fat": 13215447.3,
+    "fat": 13217652.3,
     "fat_ant": 10001842.43,
     "fat_ant_completo": 13454213.45,
-    "pct": 107.4,
+    "pct": 107.5,
     "nec_dia": 0.0
   },
   "estados": [
@@ -65,11 +65,11 @@ const METAS_GERAIS_DATA = {
       "estado": "MG",
       "label": "Minas Gerais",
       "meta": 2100000.0,
-      "fat": 1803021.88,
+      "fat": 1805226.88,
       "fat_ant": 1057586.0,
       "pos": 255,
-      "pct": 85.9,
-      "nec_dia": 98992.71,
+      "pct": 86.0,
+      "nec_dia": 98257.71,
       "fat_ant_completo": 1873633.49,
       "pos_ant": 239,
       "pos_ant_completo": 271
@@ -199,13 +199,13 @@ const METAS_GERAIS_DATA = {
     },
     {
       "fantasia": "MONIN",
-      "fat": 214177.4,
+      "fat": 216382.4,
       "fat_ant": 31064.6,
       "por_estado": {
         "RJ": 0.0,
         "SP": 0.0,
         "ES": 0.0,
-        "MG": 214177.4
+        "MG": 216382.4
       }
     },
     {
