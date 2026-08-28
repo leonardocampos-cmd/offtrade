@@ -1,7 +1,7 @@
 // Gerado automaticamente por exportacao_comissao.py — ESTIMATIVA, não é a apuração oficial
 
 const COMISSAO_DATA = {
-  "atualizado_em": "28/08/2026 15:21",
+  "atualizado_em": "28/08/2026 16:13",
   "mes_referencia": "08/2026",
   "pct_premio_taxa": 0.015,
   "vendedores": [
@@ -521,10 +521,10 @@ const COMISSAO_DATA = {
         {
           "label": "FATURAMENTO",
           "meta": 65000.0,
-          "realizado": 45792.21,
+          "realizado": 46308.01,
           "peso": 0.1,
-          "ating_meta": 0.704496,
-          "ating_acumulado": 0.07045
+          "ating_meta": 0.712431,
+          "ating_acumulado": 0.071243
         },
         {
           "label": "FATURAMENTO PERNOD",
@@ -561,10 +561,10 @@ const COMISSAO_DATA = {
         {
           "label": "POSITIVAÇÃO",
           "meta": 50.0,
-          "realizado": 31,
+          "realizado": 32,
           "peso": 0.65,
-          "ating_meta": 0.62,
-          "ating_acumulado": 0.403
+          "ating_meta": 0.64,
+          "ating_acumulado": 0.416
         },
         {
           "label": "POSITIVAÇÃO ESSENZA",
@@ -631,14 +631,14 @@ const COMISSAO_DATA = {
           "ating_acumulado": 0.008333
         }
       ],
-      "ating_acumulado_total": 0.605116,
-      "pct_premio": 0.00907674,
+      "ating_acumulado_total": 0.618909,
+      "pct_premio": 0.00928364,
       "liq_rigarr": 51298.31,
       "fat_castas": 2797.8,
       "teto_comissao": 2000.0,
-      "com_rigarr": 1210.23,
-      "com_castas": 25.39,
-      "comissao_estimada": 1235.62
+      "com_rigarr": 1237.82,
+      "com_castas": 25.97,
+      "comissao_estimada": 1263.79
     },
     {
       "nome": "LEANDRO SOUZA - OFF TRADE",
@@ -775,10 +775,10 @@ const COMISSAO_DATA = {
         {
           "label": "FATURAMENTO",
           "meta": 65000.0,
-          "realizado": 29074.9,
+          "realizado": 29973.9,
           "peso": 0.1,
-          "ating_meta": 0.447306,
-          "ating_acumulado": 0.044731
+          "ating_meta": 0.461137,
+          "ating_acumulado": 0.046114
         },
         {
           "label": "FATURAMENTO PERNOD",
@@ -885,14 +885,14 @@ const COMISSAO_DATA = {
           "ating_acumulado": 0.025
         }
       ],
-      "ating_acumulado_total": 0.580163,
-      "pct_premio": 0.00870245,
+      "ating_acumulado_total": 0.581546,
+      "pct_premio": 0.00872319,
       "liq_rigarr": 38005.96,
       "fat_castas": 0.0,
       "teto_comissao": 2000.0,
-      "com_rigarr": 1160.33,
+      "com_rigarr": 1163.09,
       "com_castas": 0.0,
-      "comissao_estimada": 1160.33
+      "comissao_estimada": 1163.09
     },
     {
       "nome": "MARIA LUIZA - OFF TRADE",
