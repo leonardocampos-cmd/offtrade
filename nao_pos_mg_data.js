@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_mg.py
 
 const NAO_POS_MG_DATA = {
-  "atualizado_em": "27/08/2026 17:41",
+  "atualizado_em": "28/08/2026 10:58",
   "por_vendedor": {
     "BRUNA CASTRO MELLO": [
       {
@@ -511,32 +511,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "37327",
-        "cliente": "UNISSUL SUPERMERCADOS S/A",
-        "bairro": "CENTRO",
-        "dtultcomp": "30/07/2026",
-        "produtos": [
-          {
-            "produto": "VILLA ROSA BRANCO 750ML",
-            "fantasia": "CASTAS",
-            "qt": 12,
-            "valor": 514.8
-          },
-          {
-            "produto": "VINHO FOODKILLER CAB SAUV MERLOT 750ML",
-            "fantasia": "CASTAS",
-            "qt": 6,
-            "valor": 293.4
-          },
-          {
-            "produto": "VODKA ORLOFF 1L - DEST",
-            "fantasia": "",
-            "qt": 12,
-            "valor": 245.04
-          }
-        ]
-      },
-      {
         "codcli": "37330",
         "cliente": "UNISSUL SUPERMERCADOS S/A",
         "bairro": "NOVA ERA",
@@ -553,6 +527,32 @@ const NAO_POS_MG_DATA = {
             "fantasia": "CASTAS",
             "qt": 6,
             "valor": 257.4
+          },
+          {
+            "produto": "VODKA ORLOFF 1L - DEST",
+            "fantasia": "",
+            "qt": 12,
+            "valor": 245.04
+          }
+        ]
+      },
+      {
+        "codcli": "37327",
+        "cliente": "UNISSUL SUPERMERCADOS S/A",
+        "bairro": "CENTRO",
+        "dtultcomp": "30/07/2026",
+        "produtos": [
+          {
+            "produto": "VILLA ROSA BRANCO 750ML",
+            "fantasia": "CASTAS",
+            "qt": 12,
+            "valor": 514.8
+          },
+          {
+            "produto": "VINHO FOODKILLER CAB SAUV MERLOT 750ML",
+            "fantasia": "CASTAS",
+            "qt": 6,
+            "valor": 293.4
           },
           {
             "produto": "VODKA ORLOFF 1L - DEST",
@@ -736,32 +736,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "BEAM SUNTORY",
             "qt": 1,
             "valor": 89.9
-          }
-        ]
-      },
-      {
-        "codcli": "33852",
-        "cliente": "ALINE VILAS BOAS.",
-        "bairro": "SANTA AMELIA",
-        "dtultcomp": "26/05/2026",
-        "produtos": [
-          {
-            "produto": "SMIR ICE REGULAR - 0.269 LT  X 24",
-            "fantasia": "DIAGEO",
-            "qt": 1,
-            "valor": 116.4
-          },
-          {
-            "produto": "YVY DESTILADO GIN MAR GF 750ML",
-            "fantasia": "YVY",
-            "qt": 6,
-            "valor": 239.4
-          },
-          {
-            "produto": "YVY DESTILADO GIN TERRA LT 710ML",
-            "fantasia": "YVY",
-            "qt": 6,
-            "valor": 239.4
           }
         ]
       },
@@ -1286,26 +1260,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "32871",
-        "cliente": "ER COZINHA ARTESANAL LTDA",
-        "bairro": "VILA DA SERRA",
-        "dtultcomp": "18/06/2026",
-        "produtos": [
-          {
-            "produto": "YVY DESTILADO GIN AR LT 710ML",
-            "fantasia": "YVY",
-            "qt": 6,
-            "valor": 239.4
-          },
-          {
-            "produto": "YVY DESTILADO GIN MAR  LT 710ML",
-            "fantasia": "YVY",
-            "qt": 6,
-            "valor": 239.4
-          }
-        ]
-      },
-      {
         "codcli": "33014",
         "cliente": "ER COZINHA ARTESANAL LTDA",
         "bairro": "LOURDES",
@@ -1322,6 +1276,26 @@ const NAO_POS_MG_DATA = {
             "fantasia": "YVY",
             "qt": 4,
             "valor": 159.6
+          }
+        ]
+      },
+      {
+        "codcli": "32871",
+        "cliente": "ER COZINHA ARTESANAL LTDA",
+        "bairro": "VILA DA SERRA",
+        "dtultcomp": "18/06/2026",
+        "produtos": [
+          {
+            "produto": "YVY DESTILADO GIN AR LT 710ML",
+            "fantasia": "YVY",
+            "qt": 6,
+            "valor": 239.4
+          },
+          {
+            "produto": "YVY DESTILADO GIN MAR  LT 710ML",
+            "fantasia": "YVY",
+            "qt": 6,
+            "valor": 239.4
           }
         ]
       },
@@ -2242,44 +2216,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "37220",
-        "cliente": "JANUZZI PADARIA E CONFEITARIA LTDA",
-        "bairro": "BRASILÉIA",
-        "dtultcomp": "29/07/2026",
-        "produtos": [
-          {
-            "produto": "4 PACK  RED BULL",
-            "fantasia": "RED BULL",
-            "qt": 3,
-            "valor": 89.88
-          },
-          {
-            "produto": "4 PACK  RED BULL  MAÇA SF",
-            "fantasia": "RED BULL",
-            "qt": 3,
-            "valor": 89.88
-          },
-          {
-            "produto": "4 PACK RED BULL POMELO SF",
-            "fantasia": "RED BULL",
-            "qt": 3,
-            "valor": 89.88
-          },
-          {
-            "produto": "ST PIERRE RED MINTL ZERO 310 ML",
-            "fantasia": "TATUZINHO",
-            "qt": 2,
-            "valor": 53.8
-          },
-          {
-            "produto": "ST PIERRE ZERO TROPICAL  310 ML",
-            "fantasia": "TATUZINHO",
-            "qt": 2,
-            "valor": 53.8
-          }
-        ]
-      },
-      {
         "codcli": "33681",
         "cliente": "A. B. CAFETERIA LTDA",
         "bairro": "BELVEDERE",
@@ -2481,13 +2417,6 @@ const NAO_POS_MG_DATA = {
         "produtos": []
       },
       {
-        "codcli": "39918",
-        "cliente": "PADARIA E CONFEITARIA SUPER MARTE LTDA",
-        "bairro": "JARDIM RIACHO DAS PEDRAS",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
         "codcli": "39683",
         "cliente": "RESTAURANTE CASA CAJU LTDA",
         "bairro": "POMPÉIA",
@@ -2496,6 +2425,48 @@ const NAO_POS_MG_DATA = {
       }
     ],
     "LEANDRO OLIVEIRA": [
+      {
+        "codcli": "34341",
+        "cliente": "MULTICOM ATACADO E VAREJO S/A",
+        "bairro": "SERRA VERDE (VENDA NOVA)",
+        "dtultcomp": "06/02/2026",
+        "produtos": [
+          {
+            "produto": "CERVEJA AMSTEL ULTRA LN 12X275ML",
+            "fantasia": "HEINEKEN",
+            "qt": 392,
+            "valor": 18768.96
+          }
+        ]
+      },
+      {
+        "codcli": "34339",
+        "cliente": "MULTICOM ATACADO E VAREJO S/A",
+        "bairro": "ITAPOÃ",
+        "dtultcomp": "06/02/2026",
+        "produtos": [
+          {
+            "produto": "CERVEJA AMSTEL ULTRA LN 12X275ML",
+            "fantasia": "HEINEKEN",
+            "qt": 392,
+            "valor": 18768.96
+          }
+        ]
+      },
+      {
+        "codcli": "34336",
+        "cliente": "MULTICOM ATACADO E VAREJO S/A",
+        "bairro": "JOSE RODRIGUES DA COSTA",
+        "dtultcomp": "16/04/2026",
+        "produtos": [
+          {
+            "produto": "VODKA ABSOLUT - 750 ML",
+            "fantasia": "PERNOD",
+            "qt": 108,
+            "valor": 7344.0
+          }
+        ]
+      },
       {
         "codcli": "31062",
         "cliente": "SUPERMERCADOS REX LTDA",
