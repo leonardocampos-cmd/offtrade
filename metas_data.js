@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo notebook analisedados.ipynb
 
 const METAS_DATA = {
-  "atualizado_em": "28/08/2026 14:02",
+  "atualizado_em": "28/08/2026 14:55",
   "meses": [
     "Ago/26",
     "Jul/26",
@@ -7590,18 +7590,6 @@ const METAS_DATA = {
             {
               "FANTASIA": "ROBINSON CRUSOE",
               "DESCRICAO": "RC ATUM SOLIDO OLEO 24X170G"
-            }
-          ]
-        },
-        {
-          "CODCLI": "16159",
-          "CLIENTE": "PORTAL RIO SUL ALIMENTOS E BEBIDAS EIRELLI",
-          "BAIRROENT": "PENHA CIRCULAR",
-          "DTULTCOMP": "15/08/2026",
-          "produtos": [
-            {
-              "FANTASIA": "INTERFOOD",
-              "DESCRICAO": "LICOR COINTREAU 700 ML"
             }
           ]
         },
@@ -18764,6 +18752,18 @@ const METAS_DATA = {
           ]
         },
         {
+          "CODCLI": "16159",
+          "CLIENTE": "PORTAL RIO SUL ALIMENTOS E BEBIDAS EIRELLI",
+          "BAIRROENT": "PENHA CIRCULAR",
+          "DTULTCOMP": "15/08/2026",
+          "produtos": [
+            {
+              "FANTASIA": "INTERFOOD",
+              "DESCRICAO": "LICOR COINTREAU 700 ML"
+            }
+          ]
+        },
+        {
           "CODCLI": "71758",
           "CLIENTE": "50.218.202 VIVIANE REGINA SILVA DE ALMEIDA SERPA PARADA",
           "BAIRROENT": "PAVUNA",
@@ -23353,15 +23353,11 @@ const METAS_DATA = {
           "produtos": [
             {
               "FANTASIA": "",
-              "DESCRICAO": "VILLA ROSA TINTO 750ML"
-            },
-            {
-              "FANTASIA": "",
               "DESCRICAO": "VINHO FOODKILLER CHARDONNAY 750ML"
             },
             {
               "FANTASIA": "",
-              "DESCRICAO": "VINHO FOODKILLER CARMENERE 750ML"
+              "DESCRICAO": "VILLA ROSA TINTO 750ML"
             },
             {
               "FANTASIA": "",
@@ -23370,6 +23366,10 @@ const METAS_DATA = {
             {
               "FANTASIA": "",
               "DESCRICAO": "VINHO CAVAS DE ORO BLEND BRANCO 750ML"
+            },
+            {
+              "FANTASIA": "",
+              "DESCRICAO": "VINHO FOODKILLER CARMENERE 750ML"
             }
           ]
         },
@@ -23386,18 +23386,6 @@ const METAS_DATA = {
           ]
         },
         {
-          "CODCLI": "91154",
-          "CLIENTE": "ESTRO-COMERCIO DE ALIMENTOS LTDA",
-          "BAIRROENT": "ÁGUA VERDE",
-          "DTULTCOMP": "27/08/2026",
-          "produtos": [
-            {
-              "FANTASIA": "",
-              "DESCRICAO": "VINHO TINTO BURDIZZO PRIMITIVO 750ML"
-            }
-          ]
-        },
-        {
           "CODCLI": "90710",
           "CLIENTE": "ALPHA GASTRONOMIA LTDA",
           "BAIRROENT": "ALPHAVILLE GRACIOSA",
@@ -23410,6 +23398,18 @@ const METAS_DATA = {
             {
               "FANTASIA": "",
               "DESCRICAO": "VINHO FOODKILLER CAB. SAUV./ MERLOT"
+            }
+          ]
+        },
+        {
+          "CODCLI": "91154",
+          "CLIENTE": "ESTRO-COMERCIO DE ALIMENTOS LTDA",
+          "BAIRROENT": "ÁGUA VERDE",
+          "DTULTCOMP": "27/08/2026",
+          "produtos": [
+            {
+              "FANTASIA": "",
+              "DESCRICAO": "VINHO TINTO BURDIZZO PRIMITIVO 750ML"
             }
           ]
         },
@@ -23493,11 +23493,11 @@ const METAS_DATA = {
           "produtos": [
             {
               "FANTASIA": "",
-              "DESCRICAO": "VINHO FOODKILLER CHARDONNAY 750ML"
+              "DESCRICAO": "VILLA ROSA TINTO 750ML"
             },
             {
               "FANTASIA": "",
-              "DESCRICAO": "VILLA ROSA TINTO 750ML"
+              "DESCRICAO": "VINHO FOODKILLER CHARDONNAY 750ML"
             },
             {
               "FANTASIA": "",
@@ -23541,11 +23541,11 @@ const METAS_DATA = {
           "produtos": [
             {
               "FANTASIA": "",
-              "DESCRICAO": "VINHO ARESTI ESTATE S. MERLOT 750ML"
+              "DESCRICAO": "SPINOGLIO TIERRA ALTA TANNAT RESERVA TTO"
             },
             {
               "FANTASIA": "",
-              "DESCRICAO": "VINHO TINTO BURDIZZO APPASSIMENTO 750ML"
+              "DESCRICAO": "VINHO ARESTI ESTATE S. MERLOT 750ML"
             },
             {
               "FANTASIA": "",
@@ -23553,7 +23553,7 @@ const METAS_DATA = {
             },
             {
               "FANTASIA": "",
-              "DESCRICAO": "SPINOGLIO TIERRA ALTA TANNAT RESERVA TTO"
+              "DESCRICAO": "VINHO TINTO BURDIZZO APPASSIMENTO 750ML"
             }
           ]
         },
@@ -23577,6 +23577,10 @@ const METAS_DATA = {
           "produtos": [
             {
               "FANTASIA": "",
+              "DESCRICAO": "VINHO BCO ARCAIA PINOT GRIGIO 750ML"
+            },
+            {
+              "FANTASIA": "",
               "DESCRICAO": "VINHO ARESTI ESTATE S. CARMENERE 750ML"
             },
             {
@@ -23593,11 +23597,11 @@ const METAS_DATA = {
             },
             {
               "FANTASIA": "",
-              "DESCRICAO": "AZEITE ESSENZA D'ITALIA PREMIUM 12X500ML"
+              "DESCRICAO": "VINHO ARESTI TRISQUEL GRAN R SYRAH 750ML"
             },
             {
               "FANTASIA": "",
-              "DESCRICAO": "VINHO ARESTI TRISQUEL GRAN R SYRAH 750ML"
+              "DESCRICAO": "AZEITE ESSENZA D'ITALIA PREMIUM 12X500ML"
             },
             {
               "FANTASIA": "",
@@ -23605,15 +23609,11 @@ const METAS_DATA = {
             },
             {
               "FANTASIA": "",
-              "DESCRICAO": "VINHO LOS ALJIBES SYRAH  RED WINE 750ML"
-            },
-            {
-              "FANTASIA": "",
               "DESCRICAO": "VINHO TINTO BURDIZZO PRIMITIVO 750ML"
             },
             {
               "FANTASIA": "",
-              "DESCRICAO": "VINHO BCO ARCAIA PINOT GRIGIO 750ML"
+              "DESCRICAO": "VINHO LOS ALJIBES SYRAH  RED WINE 750ML"
             }
           ]
         },
