@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_sp.py
 
 const NAO_POS_SP_DATA = {
-  "atualizado_em": "28/08/2026 11:56",
+  "atualizado_em": "28/08/2026 13:24",
   "por_vendedor": {
     "ADER ALONSO": [
       {
@@ -6677,9 +6677,16 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
-        "codcli": "52212",
+        "codcli": "52215",
         "cliente": "CONDE SUPERMERCADO LTDA",
-        "bairro": "ENSEADA",
+        "bairro": "PEREQUÊ AÇU",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "52208",
+        "cliente": "CONDE SUPERMERCADO LTDA",
+        "bairro": "ITAGUÁ",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -6698,16 +6705,9 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
-        "codcli": "52211",
+        "codcli": "52212",
         "cliente": "CONDE SUPERMERCADO LTDA",
-        "bairro": "CENTRO",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "52208",
-        "cliente": "CONDE SUPERMERCADO LTDA",
-        "bairro": "ITAGUÁ",
+        "bairro": "ENSEADA",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -6719,9 +6719,9 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
-        "codcli": "52215",
+        "codcli": "52211",
         "cliente": "CONDE SUPERMERCADO LTDA",
-        "bairro": "PEREQUÊ AÇU",
+        "bairro": "CENTRO",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -6803,16 +6803,16 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
-        "codcli": "52091",
+        "codcli": "52089",
         "cliente": "MARIA MARCIA GONCALVES ALVES 35199667866",
-        "bairro": "POIARES",
+        "bairro": "VILA NOSSA SENHORA APARECIDA",
         "dtultcomp": "nan",
         "produtos": []
       },
       {
-        "codcli": "52089",
+        "codcli": "52091",
         "cliente": "MARIA MARCIA GONCALVES ALVES 35199667866",
-        "bairro": "VILA NOSSA SENHORA APARECIDA",
+        "bairro": "POIARES",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -11466,6 +11466,26 @@ const NAO_POS_SP_DATA = {
     ],
     "RENATO JUNIOR": [
       {
+        "codcli": "47405",
+        "cliente": "SUPERMERCADO TAKAHASHI LTDA",
+        "bairro": "JARDIM SÃO PAULO",
+        "dtultcomp": "19/03/2026",
+        "produtos": [
+          {
+            "produto": "RUM MONTILLA CRISTAL 1L",
+            "fantasia": "PERNOD",
+            "qt": 12,
+            "valor": 250.8
+          },
+          {
+            "produto": "RUM MONTILLA OURO 1L",
+            "fantasia": "PERNOD",
+            "qt": 12,
+            "valor": 250.8
+          }
+        ]
+      },
+      {
         "codcli": "46624",
         "cliente": "ROSIMEIRE CORDEIRO ALVES ARRAIAS",
         "bairro": "JARDIM QUARESMEIRA",
@@ -12226,50 +12246,6 @@ const NAO_POS_SP_DATA = {
         ]
       },
       {
-        "codcli": "50245",
-        "cliente": "SUPERMERCADOS ALBUQUERQUE SOUZA LTDA",
-        "bairro": "JARDIM MARICA",
-        "dtultcomp": "11/06/2026",
-        "produtos": [
-          {
-            "produto": "GIN ROCKS 1LT",
-            "fantasia": "FANTE",
-            "qt": 30,
-            "valor": 640.2
-          },
-          {
-            "produto": "GIN ROCKS SICILIAN LEMON 1LT",
-            "fantasia": "FANTE",
-            "qt": 12,
-            "valor": 256.08
-          },
-          {
-            "produto": "GIN ROCKS STRAWBERRY 1LT",
-            "fantasia": "FANTE",
-            "qt": 12,
-            "valor": 256.08
-          },
-          {
-            "produto": "GIN ROCKS SUNSET 1LT",
-            "fantasia": "FANTE",
-            "qt": 12,
-            "valor": 256.08
-          },
-          {
-            "produto": "VODKA ORLOFF 1L",
-            "fantasia": "PERNOD",
-            "qt": 60,
-            "valor": 1194.0
-          },
-          {
-            "produto": "VODKA SMIRNOFF 600 ML",
-            "fantasia": "DIAGEO",
-            "qt": 18,
-            "valor": 412.2
-          }
-        ]
-      },
-      {
         "codcli": "50248",
         "cliente": "SUPERMERCADOS ALBUQUERQUE SOUZA LTDA",
         "bairro": "VILA NOVA APARECIDA",
@@ -12292,6 +12268,50 @@ const NAO_POS_SP_DATA = {
             "fantasia": "FANTE",
             "qt": 12,
             "valor": 246.48
+          },
+          {
+            "produto": "GIN ROCKS SUNSET 1LT",
+            "fantasia": "FANTE",
+            "qt": 12,
+            "valor": 256.08
+          },
+          {
+            "produto": "VODKA ORLOFF 1L",
+            "fantasia": "PERNOD",
+            "qt": 60,
+            "valor": 1194.0
+          },
+          {
+            "produto": "VODKA SMIRNOFF 600 ML",
+            "fantasia": "DIAGEO",
+            "qt": 18,
+            "valor": 412.2
+          }
+        ]
+      },
+      {
+        "codcli": "50245",
+        "cliente": "SUPERMERCADOS ALBUQUERQUE SOUZA LTDA",
+        "bairro": "JARDIM MARICA",
+        "dtultcomp": "11/06/2026",
+        "produtos": [
+          {
+            "produto": "GIN ROCKS 1LT",
+            "fantasia": "FANTE",
+            "qt": 30,
+            "valor": 640.2
+          },
+          {
+            "produto": "GIN ROCKS SICILIAN LEMON 1LT",
+            "fantasia": "FANTE",
+            "qt": 12,
+            "valor": 256.08
+          },
+          {
+            "produto": "GIN ROCKS STRAWBERRY 1LT",
+            "fantasia": "FANTE",
+            "qt": 12,
+            "valor": 256.08
           },
           {
             "produto": "GIN ROCKS SUNSET 1LT",
@@ -12663,38 +12683,6 @@ const NAO_POS_SP_DATA = {
         ]
       },
       {
-        "codcli": "40451",
-        "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
-        "bairro": "JARDIM LEME",
-        "dtultcomp": "31/07/2026",
-        "produtos": [
-          {
-            "produto": "AGUARDENTE OLD CESAR 88 965 ML",
-            "fantasia": "CRS BRANDS",
-            "qt": 12,
-            "valor": 119.88
-          },
-          {
-            "produto": "GIN ROCKS 1LT",
-            "fantasia": "FANTE",
-            "qt": 12,
-            "valor": 246.0
-          },
-          {
-            "produto": "GIN ROCKS STRAWBERRY 1LT",
-            "fantasia": "FANTE",
-            "qt": 18,
-            "valor": 369.0
-          },
-          {
-            "produto": "RUM MONTILLA OURO 1L",
-            "fantasia": "PERNOD",
-            "qt": 12,
-            "valor": 233.4
-          }
-        ]
-      },
-      {
         "codcli": "38491",
         "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
         "bairro": "VILA ANDRADE",
@@ -12761,6 +12749,38 @@ const NAO_POS_SP_DATA = {
             "fantasia": "DIAGEO",
             "qt": 12,
             "valor": 476.28
+          }
+        ]
+      },
+      {
+        "codcli": "40451",
+        "cliente": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS LTDA.",
+        "bairro": "JARDIM LEME",
+        "dtultcomp": "31/07/2026",
+        "produtos": [
+          {
+            "produto": "AGUARDENTE OLD CESAR 88 965 ML",
+            "fantasia": "CRS BRANDS",
+            "qt": 12,
+            "valor": 119.88
+          },
+          {
+            "produto": "GIN ROCKS 1LT",
+            "fantasia": "FANTE",
+            "qt": 12,
+            "valor": 246.0
+          },
+          {
+            "produto": "GIN ROCKS STRAWBERRY 1LT",
+            "fantasia": "FANTE",
+            "qt": 18,
+            "valor": 369.0
+          },
+          {
+            "produto": "RUM MONTILLA OURO 1L",
+            "fantasia": "PERNOD",
+            "qt": 12,
+            "valor": 233.4
           }
         ]
       },
@@ -13023,6 +13043,13 @@ const NAO_POS_SP_DATA = {
         ]
       },
       {
+        "codcli": "50594",
+        "cliente": "50.725.627 VALDECI PRESTES",
+        "bairro": "VILA GUIMARÃES",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
         "codcli": "52719",
         "cliente": "52.690.034 LEANDRO ANTONIO CAMPANHA",
         "bairro": "SANTA MARIA I",
@@ -13214,6 +13241,13 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
+        "codcli": "52763",
+        "cliente": "SUPERMERCADO IQUEGAMI LTDA",
+        "bairro": "CENTRO",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
         "codcli": "52700",
         "cliente": "SUPERMERCADO IQUEGAMI LTDA",
         "bairro": "JARDIM CLAUDIA II",
@@ -13222,13 +13256,6 @@ const NAO_POS_SP_DATA = {
       },
       {
         "codcli": "52723",
-        "cliente": "SUPERMERCADO IQUEGAMI LTDA",
-        "bairro": "CENTRO",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "52763",
         "cliente": "SUPERMERCADO IQUEGAMI LTDA",
         "bairro": "CENTRO",
         "dtultcomp": "nan",
