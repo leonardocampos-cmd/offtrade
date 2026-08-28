@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_sp.py
 
 const NAO_POS_SP_DATA = {
-  "atualizado_em": "28/08/2026 16:10",
+  "atualizado_em": "28/08/2026 16:53",
   "por_vendedor": {
     "ADER ALONSO": [
       {
@@ -4418,13 +4418,6 @@ const NAO_POS_SP_DATA = {
         "bairro": "JARDIM CAROMBE",
         "dtultcomp": "nan",
         "produtos": []
-      },
-      {
-        "codcli": "52667",
-        "cliente": "HORTIFRUTI MIB LTDA",
-        "bairro": "VILA PEREIRA BARRETO",
-        "dtultcomp": "nan",
-        "produtos": []
       }
     ],
     "DOUGLAS TEIXEIRA": [
@@ -4463,9 +4456,9 @@ const NAO_POS_SP_DATA = {
         ]
       },
       {
-        "codcli": "51887",
+        "codcli": "51886",
         "cliente": "B.R. DOMINGUES & CIA LTDA",
-        "bairro": "CENTRO",
+        "bairro": "PARQUE RESIDENCIAL PEDRA BRANCA",
         "dtultcomp": "20/07/2026",
         "produtos": [
           {
@@ -4507,9 +4500,9 @@ const NAO_POS_SP_DATA = {
         ]
       },
       {
-        "codcli": "51886",
+        "codcli": "51887",
         "cliente": "B.R. DOMINGUES & CIA LTDA",
-        "bairro": "PARQUE RESIDENCIAL PEDRA BRANCA",
+        "bairro": "CENTRO",
         "dtultcomp": "20/07/2026",
         "produtos": [
           {
@@ -4565,9 +4558,9 @@ const NAO_POS_SP_DATA = {
         ]
       },
       {
-        "codcli": "51188",
+        "codcli": "51186",
         "cliente": "M S KURODA & CIA LTDA",
-        "bairro": "CENTRO",
+        "bairro": "JARDIM GOLLO",
         "dtultcomp": "20/07/2026",
         "produtos": [
           {
@@ -4579,9 +4572,9 @@ const NAO_POS_SP_DATA = {
         ]
       },
       {
-        "codcli": "51186",
+        "codcli": "51188",
         "cliente": "M S KURODA & CIA LTDA",
-        "bairro": "JARDIM GOLLO",
+        "bairro": "CENTRO",
         "dtultcomp": "20/07/2026",
         "produtos": [
           {
@@ -17042,13 +17035,6 @@ const NAO_POS_SP_DATA = {
         "codcli": "51787",
         "cliente": "31.502.457 TABATA GOMES DOS SANTOS CORREA",
         "bairro": "VILA ABERNESSIA",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "52634",
-        "cliente": "49.547.112 ALEXANDRE RIBEIRO DA SILVA",
-        "bairro": "JARDIM REVISTA",
         "dtultcomp": "nan",
         "produtos": []
       },
