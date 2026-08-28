@@ -1,5 +1,5 @@
 const ACAO_AMARULA_DATA = {
-  "atualizado_em": "28/08/2026 15:10",
+  "atualizado_em": "28/08/2026 16:02",
   "periodo": {
     "ini": "19/08/2026",
     "fim": "19/09/2026"
@@ -18,13 +18,13 @@ const ACAO_AMARULA_DATA = {
     200
   ],
   "total_vendedores": 25,
-  "total_volume": 15,
-  "total_faturamento": 1420.5,
+  "total_volume": 18,
+  "total_faturamento": 1717.2,
   "ranking": [
     {
       "vendedor": "ADEILSON GONÇALVEZ",
-      "volume": 7,
-      "faturamento": 692.3,
+      "volume": 10,
+      "faturamento": 989.0,
       "elegivel": false,
       "premio": null
     },
