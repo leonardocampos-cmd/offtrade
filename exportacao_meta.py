@@ -464,6 +464,19 @@ def _id_str(v):
         return str(v).strip()
 
 
+def _str_safe(v):
+    """str(v or '') não bastava pra campo que pode vir NULL do Oracle via
+    LEFT JOIN: NaN é truthy em Python (só 0.0 é falsy entre floats), então
+    'row.get(...) or ''' deixava passar o NaN e virava a string literal
+    'nan' na tela — bug real reportado pelo usuário em 2026-08-28 (cliente
+    "nan" no Faturamento do mês, pedido cancelado pré-NF sem CODCLI em
+    PCPEDC, caso Marilena Tragel — mesmo caso já documentado na query de
+    _query_vendas_cancelados_pre_nf)."""
+    if v is None or (isinstance(v, float) and pd.isna(v)):
+        return ''
+    return str(v)
+
+
 def _registrar_item_extra(nome_oracle, mes_str, item):
     nome_disp = _oracle_to_display.get(nome_oracle, nome_oracle)
     if not nome_disp:
@@ -477,10 +490,10 @@ if not _vc_cancel_pos.empty:
     for _, row in _vc_cancel_pos.iterrows():
         _registrar_item_extra(row['NOME_ORACLE'], _mes_pt(row['DATA']), {
             'data':      row['DATA'].strftime('%d/%m/%Y'),
-            'codcli':    str(row.get('CODCLI') or ''),
-            'cliente':   str(row.get('CLIENTE') or ''),
-            'produto':   str(row.get('PRODUTO') or ''),
-            'fantasia':  str(row.get('FANTASIA') or ''),
+            'codcli':    _str_safe(row.get('CODCLI')),
+            'cliente':   _str_safe(row.get('CLIENTE')),
+            'produto':   _str_safe(row.get('PRODUTO')),
+            'fantasia':  _str_safe(row.get('FANTASIA')),
             'qt':        int(pd.to_numeric(row.get('QT'), errors='coerce') or 0),
             'valor':     round(float(pd.to_numeric(row.get('VALOR'), errors='coerce') or 0), 2),
             'tipo':      'Cancelado',
@@ -490,7 +503,7 @@ if not _vc_cancel_pos.empty:
             'cancelado_parcial': False,
             'numped':    _id_str(row.get('NUMPED')),
             'nunota':    '',
-            'sistema':   str(row.get('SISTEMA') or ''),
+            'sistema':   _str_safe(row.get('SISTEMA')),
         })
     print(f"OK vendas: {len(_vc_cancel_pos)} item(ns) cancelado(s) pós-NF")
 
@@ -508,7 +521,7 @@ if not _vc_cancel_pre.empty:
     _vc_cancel_pre = _vc_cancel_pre[_vc_cancel_pre['DATA'].notna()]
     for _, row in _vc_cancel_pre.iterrows():
         _codcli = pd.to_numeric(row.get('CODCLI'), errors='coerce')
-        _motivo_pre = str(row.get('MOTIVO') or '')
+        _motivo_pre = _str_safe(row.get('MOTIVO'))
         _np_pre = _id_str(row.get('NUMPED'))
         _cp_pre = _id_str(row.get('CODPROD'))
         if _np_pre and _cp_pre and _motivo_pre:
@@ -516,8 +529,8 @@ if not _vc_cancel_pre.empty:
         _registrar_item_extra(row['NOME_ORACLE'], _mes_pt(row['DATA']), {
             'data':      row['DATA'].strftime('%d/%m/%Y'),
             'codcli':    str(int(_codcli)) if pd.notna(_codcli) else '',
-            'cliente':   str(row.get('CLIENTE') or ''),
-            'produto':   str(row.get('PRODUTO') or ''),
+            'cliente':   _str_safe(row.get('CLIENTE')),
+            'produto':   _str_safe(row.get('PRODUTO')),
             'fantasia':  '',
             'qt':        int(pd.to_numeric(row.get('QT'), errors='coerce') or 0),
             'valor':     round(float(pd.to_numeric(row.get('VALOR'), errors='coerce') or 0), 2),
@@ -528,7 +541,7 @@ if not _vc_cancel_pre.empty:
             'cancelado_parcial': False,
             'numped':    _np_pre,
             'nunota':    '',
-            'sistema':   str(row.get('SISTEMA') or ''),
+            'sistema':   _str_safe(row.get('SISTEMA')),
             'motivo':    _motivo_pre,
         })
     print(f"OK vendas: {len(_vc_cancel_pre)} item(ns) cancelado(s) pré-NF")
@@ -543,10 +556,10 @@ if not _vc_corte.empty:
     for _, row in _vc_corte.iterrows():
         _registrar_item_extra(row['NOME_ORACLE'], _mes_pt(row['DATA']), {
             'data':      row['DATA'].strftime('%d/%m/%Y'),
-            'codcli':    str(row.get('CODCLI') or ''),
-            'cliente':   str(row.get('CLIENTE') or ''),
-            'produto':   str(row.get('PRODUTO') or ''),
-            'fantasia':  str(row.get('FANTASIA') or ''),
+            'codcli':    _str_safe(row.get('CODCLI')),
+            'cliente':   _str_safe(row.get('CLIENTE')),
+            'produto':   _str_safe(row.get('PRODUTO')),
+            'fantasia':  _str_safe(row.get('FANTASIA')),
             'qt':        round(float(row['QTD_CORTADA_TOTAL']), 2),
             'valor':     round(float(row['PVENDA']) * float(row['QTD_CORTADA_TOTAL']), 2),
             'tipo':      'Corte parcial',
@@ -561,7 +574,7 @@ if not _vc_corte.empty:
             # faturado no agrupamento do metas.html; quando não bate (schemas
             # onde os dois não coincidem), vira uma linha própria mesmo assim.
             'nunota':    _id_str(row.get('NUMNOTA')),
-            'sistema':   str(row.get('SISTEMA') or ''),
+            'sistema':   _str_safe(row.get('SISTEMA')),
         })
     print(f"OK vendas: {len(_vc_corte)} item(ns) com corte parcial")
 
@@ -670,18 +683,22 @@ def _realizado_mes(df):
         sub = df[mask] if mask is not None else df
         return float(sub['VALOR'].sum().round(2))
 
-    # Positivação (contagem de clientes) só considera clientes com PCCLIENT.OFFTRADE = 'S'
-    # — faturamento (fat) continua somando todas as vendas do vendedor OFF TRADE, sem esse filtro.
-    _off_mask = df['OFFTRADE'] == 'S'
-
+    # Positivação (contagem de clientes) conta qualquer cliente que comprou,
+    # sem exigir PCCLIENT.OFFTRADE = 'S' — confirmado com o usuário em
+    # 2026-08-25 (RCA 471/CRC, agosto: cliente real comprou e não contava só
+    # por essa flag do cadastro estar 'N'). Faturamento (fat) já não usava
+    # esse filtro.
     def pos(mask=None):
-        sub = df[_off_mask & mask] if mask is not None else df[_off_mask]
+        sub = df[mask] if mask is not None else df
         return int(sub['CODCLI'].nunique())
 
-    # Campanha PERNOD: pares únicos (cliente, produto) com FANTASIA=PERNOD; JAMERSON=10, demais=5
+    # Campanha PERNOD: pares únicos (cliente, produto) com FANTASIA=PERNOD; JAMESON=10, demais=5
+    # Produto real no banco é "WHISKY JAMESON 750ML" — "JAMERSON" (com R) era
+    # erro de digitação e nunca batia, então Jameson sempre caía no bucket de
+    # 5 pontos (achado em auditoria de 2026-08-25).
     mask_pernod   = df['FANTASIA'].str.contains('PERNOD', case=False, na=False)
-    pernod_pairs  = df[mask_pernod & _off_mask].drop_duplicates(subset=['CODCLI', 'PRODUTO'])
-    mask_jamerson = pernod_pairs['PRODUTO'].str.contains('JAMERSON', case=False, na=False)
+    pernod_pairs  = df[mask_pernod].drop_duplicates(subset=['CODCLI', 'PRODUTO'])
+    mask_jamerson = pernod_pairs['PRODUTO'].str.contains('JAMESON', case=False, na=False)
     n_jamerson    = int(mask_jamerson.sum())
     n_outros      = int((~mask_jamerson).sum())
     bonus_pernod  = n_jamerson * 10 + n_outros * 5
@@ -718,19 +735,18 @@ def _query_historico(schema, filtro_filial="(1, 2, 4)", filtro_estent=None, extr
     extra_filial = f"\n          AND M.CODFILIAL IN {filtro_filial}" if filtro_filial else ""
     extra_estent = f"\n          AND U.ESTADO = '{filtro_estent}'" if filtro_estent else ""
     nome_f = _nome_filter(extra_nomes)
-    # Positivação só conta clientes com PCCLIENT.OFFTRADE = 'S'; onde a coluna
-    # não existe (ex.: GARRIDO), conta todo mundo (não há como filtrar).
-    positivacao_expr = "COUNT(DISTINCT CASE WHEN C.OFFTRADE = 'S' THEN M.CODCLI END)" if tem_offtrade else "COUNT(DISTINCT M.CODCLI)"
+    # Positivação conta qualquer cliente que comprou, sem exigir
+    # PCCLIENT.OFFTRADE = 'S' (mesmo critério do detalhe do mês, ver
+    # _realizado_mes) — confirmado com o usuário em 2026-08-25.
     return f"""
         SELECT
             TRUNC(M.DTMOV, 'MM')         AS MES,
             M.CODUSUR                     AS CODUSUR,
             U.NOME                         AS NOME_ORACLE,
             SUM(M.PUNIT * M.QT)          AS FATURAMENTO,
-            {positivacao_expr}           AS POSITIVACAO
+            COUNT(DISTINCT M.CODCLI)     AS POSITIVACAO
         FROM {s}.PCMOV M
         JOIN {s}.PCUSUARI U ON M.CODUSUR = U.CODUSUR
-        LEFT JOIN {s}.PCCLIENT C ON M.CODCLI = C.CODCLI
         WHERE M.DTMOV >= ADD_MONTHS(TRUNC(SYSDATE, 'MM'), -12)
           AND M.CODOPER IN ('S', 'SB')
           AND {nome_f}{extra_filial}{extra_estent}
