@@ -1,7 +1,7 @@
 // Gerado automaticamente
 
 const INATIVOS_DATA = {
-  "atualizado_em": "28/08/2026 13:40",
+  "atualizado_em": "28/08/2026 14:38",
   "por_vendedor": {
     "ADEILSON GONÇALVEZ - OFF TRADE": {
       "rca": "431",
@@ -780,6 +780,15 @@ const INATIVOS_DATA = {
         }
       ],
       "novos": [
+        {
+          "codcli": "96221",
+          "cliente": "BAR DO LUQUINHA LTDA",
+          "bairro": "GÁVEA",
+          "cidade": "RIO DE JANEIRO",
+          "dtcadastro": "28/08/2026",
+          "dtultcomp": null,
+          "media": 0.0
+        },
         {
           "codcli": "96218",
           "cliente": "JOSE HELIO VIEIRA DA COSTA 70720843391",
@@ -17273,6 +17282,15 @@ const INATIVOS_DATA = {
       ],
       "novos": [
         {
+          "codcli": "52769",
+          "cliente": "20.942.556 IVONALDO PAULO DE OLIVEIRA",
+          "bairro": "COOPERATIVA",
+          "cidade": "SAO BERNARDO DO CAMPO",
+          "dtcadastro": "28/08/2026",
+          "dtultcomp": null,
+          "media": 0.0
+        },
+        {
           "codcli": "52678",
           "cliente": "MEGA MAIS MERCADO LTDA",
           "bairro": "RUDGE RAMOS",
@@ -19542,23 +19560,6 @@ const INATIVOS_DATA = {
           "bairro": "JARDIM CASABLANCA",
           "cidade": "SAO PAULO",
           "dtcadastro": "19/08/2026",
-          "dtultcomp": null,
-          "media": 0.0
-        }
-      ]
-    },
-    "JOVELINA LISBOA - OFF TRADE": {
-      "rca": "520",
-      "estado": "SP",
-      "inativos": [],
-      "sem_compra": [],
-      "novos": [
-        {
-          "codcli": "52527",
-          "cliente": "MERCADINHO STEVEN LTDA",
-          "bairro": "BOM RETIRO",
-          "cidade": "SAO PAULO",
-          "dtcadastro": "18/08/2026",
           "dtultcomp": null,
           "media": 0.0
         }
@@ -22466,15 +22467,6 @@ const INATIVOS_DATA = {
           "media": 106.4
         },
         {
-          "codcli": "30313",
-          "cliente": "RL DISTRIBUIDORA LTDA",
-          "bairro": "MANTIQUEIRA",
-          "cidade": "BELO HORIZONTE",
-          "dtultcomp": "26/06/2026",
-          "dias": 63,
-          "media": 204.64
-        },
-        {
           "codcli": "38763",
           "cliente": "BAR DO RODRIGO VEBRI LTDA",
           "bairro": "JARDIM ATLÂNTICO",
@@ -22482,6 +22474,15 @@ const INATIVOS_DATA = {
           "dtultcomp": "26/06/2026",
           "dias": 63,
           "media": 349.92
+        },
+        {
+          "codcli": "30313",
+          "cliente": "RL DISTRIBUIDORA LTDA",
+          "bairro": "MANTIQUEIRA",
+          "cidade": "BELO HORIZONTE",
+          "dtultcomp": "26/06/2026",
+          "dias": 63,
+          "media": 204.64
         },
         {
           "codcli": "37431",
@@ -22545,15 +22546,6 @@ const INATIVOS_DATA = {
           "dtultcomp": "08/07/2026",
           "dias": 51,
           "media": 348.93
-        },
-        {
-          "codcli": "31386",
-          "cliente": "UPPER EMPREENDIMENTOS LTDA",
-          "bairro": "FLORESTA",
-          "cidade": "BELO HORIZONTE",
-          "dtultcomp": "08/07/2026",
-          "dias": 51,
-          "media": 1760.04
         },
         {
           "codcli": "32411",
@@ -24196,8 +24188,16 @@ const INATIVOS_DATA = {
               "nome": "ANDERSON CANAVEIS",
               "vendedores": [
                 {
+                  "nome": "ALEXANDRE TONON - OFF TRADE",
+                  "rca": "483"
+                },
+                {
                   "nome": "ANDERSON CANAVEIS - OFF TRADE",
                   "rca": "232"
+                },
+                {
+                  "nome": "ANDERSON MOTTA - OFF TRADE",
+                  "rca": "492"
                 },
                 {
                   "nome": "ANDRE SILVA - OFF TRADE",
@@ -24212,8 +24212,16 @@ const INATIVOS_DATA = {
                   "rca": "371"
                 },
                 {
+                  "nome": "CAROLINA SOUZA - OFF TRADE",
+                  "rca": "493"
+                },
+                {
                   "nome": "DEMETRIUS PELEGRINI - OFF TRADE",
                   "rca": "496"
+                },
+                {
+                  "nome": "GABRIEL RABBATH - OFF TRADE",
+                  "rca": "267"
                 },
                 {
                   "nome": "GUSTAVO MARTINS - OFF TRADE",
@@ -24244,16 +24252,16 @@ const INATIVOS_DATA = {
                   "rca": "499"
                 },
                 {
-                  "nome": "JOVELINA LISBOA - OFF TRADE",
-                  "rca": "520"
-                },
-                {
                   "nome": "LUIS MACHADO - OFF TRADE",
                   "rca": "497"
                 },
                 {
                   "nome": "MARIA PEREIRA - OFF TRADE",
                   "rca": "478"
+                },
+                {
+                  "nome": "MARLENE RODRIGUES - OFF TRADE",
+                  "rca": "467"
                 },
                 {
                   "nome": "PATRICIO MASSAGARDI - OFF TRADE",
@@ -24268,79 +24276,6 @@ const INATIVOS_DATA = {
                   "rca": "515"
                 },
                 {
-                  "nome": "ROBSON DA SILVA - OFF TRADE",
-                  "rca": "317"
-                },
-                {
-                  "nome": "SILVIO LIMA - OFF TRADE",
-                  "rca": "521"
-                },
-                {
-                  "nome": "VITORIA VIEIRA - OFF TRADE",
-                  "rca": "480"
-                },
-                {
-                  "nome": "WILLIAM GONCALVES - OFF TRADE",
-                  "rca": "512"
-                }
-              ]
-            },
-            {
-              "nome": "MARCUS TANAMACHI",
-              "vendedores": [
-                {
-                  "nome": "ALEXANDRE SOUZA - OFF TRADE",
-                  "rca": "511"
-                },
-                {
-                  "nome": "ANDERSON MOTTA - OFF TRADE",
-                  "rca": "492"
-                },
-                {
-                  "nome": "ANDRE PINHEIRO - OFF TRADE",
-                  "rca": "485"
-                },
-                {
-                  "nome": "CARLOS TERRA - OFF TRADE",
-                  "rca": "310"
-                },
-                {
-                  "nome": "CAROLINA SOUZA - OFF TRADE",
-                  "rca": "493"
-                },
-                {
-                  "nome": "CIARA PADULA - OFF TRADE",
-                  "rca": "465"
-                },
-                {
-                  "nome": "CRISTIANE MORAIS - OFF TRADE",
-                  "rca": "460"
-                },
-                {
-                  "nome": "DANIELLE DOS SANTOS - OFF TRADE",
-                  "rca": "466"
-                },
-                {
-                  "nome": "FLAVIO RIBEIRO - OFF TRADE",
-                  "rca": "472"
-                },
-                {
-                  "nome": "JOAQUIM ANGELO - OFF TRADE",
-                  "rca": "516"
-                },
-                {
-                  "nome": "MARCUS TANAMACHI - OFF TRADE",
-                  "rca": "318"
-                },
-                {
-                  "nome": "MARLENE RODRIGUES - OFF TRADE",
-                  "rca": "467"
-                },
-                {
-                  "nome": "PAULO JUNIOR - OFF TRADE",
-                  "rca": "471"
-                },
-                {
                   "nome": "RAPHAEL CAMPOS - OFF TRADE",
                   "rca": "506"
                 },
@@ -24353,12 +24288,41 @@ const INATIVOS_DATA = {
                   "rca": "463"
                 },
                 {
+                  "nome": "ROBSON DA SILVA - OFF TRADE",
+                  "rca": "317"
+                },
+                {
                   "nome": "SANDRO ALVES - OFF TRADE",
                   "rca": "519"
                 },
                 {
+                  "nome": "SILVIO LIMA - OFF TRADE",
+                  "rca": "521"
+                },
+                {
                   "nome": "SUELY SANTOS - OFF TRADE",
                   "rca": "461"
+                },
+                {
+                  "nome": "WILLIAM GONCALVES - OFF TRADE",
+                  "rca": "512"
+                }
+              ]
+            },
+            {
+              "nome": "MARCUS TANAMACHI",
+              "vendedores": [
+                {
+                  "nome": "ANDRE PINHEIRO - OFF TRADE",
+                  "rca": "485"
+                },
+                {
+                  "nome": "CARLOS TERRA - OFF TRADE",
+                  "rca": "310"
+                },
+                {
+                  "nome": "MARCUS TANAMACHI - OFF TRADE",
+                  "rca": "318"
                 }
               ]
             },
@@ -24378,8 +24342,8 @@ const INATIVOS_DATA = {
                   "rca": "522"
                 },
                 {
-                  "nome": "ALEXANDRE TONON - OFF TRADE",
-                  "rca": "483"
+                  "nome": "ALEXANDRE SOUZA - OFF TRADE",
+                  "rca": "511"
                 },
                 {
                   "nome": "AMAURY TARDOC  - OFF TRADE",
@@ -24394,8 +24358,20 @@ const INATIVOS_DATA = {
                   "rca": "498"
                 },
                 {
+                  "nome": "CIARA PADULA - OFF TRADE",
+                  "rca": "465"
+                },
+                {
                   "nome": "CRISTIAN MARINELLI - OFF TRADE",
                   "rca": "554"
+                },
+                {
+                  "nome": "CRISTIANE MORAIS - OFF TRADE",
+                  "rca": "460"
+                },
+                {
+                  "nome": "DANIELLE DOS SANTOS - OFF TRADE",
+                  "rca": "466"
                 },
                 {
                   "nome": "DOUGLAS TEIXEIRA - OFF TRADE",
@@ -24414,12 +24390,12 @@ const INATIVOS_DATA = {
                   "rca": "489"
                 },
                 {
-                  "nome": "FRANCIS SILVA - OFF TRADE",
-                  "rca": "474"
+                  "nome": "FLAVIO RIBEIRO - OFF TRADE",
+                  "rca": "472"
                 },
                 {
-                  "nome": "GABRIEL RABBATH - OFF TRADE",
-                  "rca": "267"
+                  "nome": "FRANCIS SILVA - OFF TRADE",
+                  "rca": "474"
                 },
                 {
                   "nome": "GILSON DE OLIVEIRA - OFF TRADE",
@@ -24428,6 +24404,10 @@ const INATIVOS_DATA = {
                 {
                   "nome": "GILVAN AMORIM - OFF TRADE",
                   "rca": "504"
+                },
+                {
+                  "nome": "JOAQUIM ANGELO - OFF TRADE",
+                  "rca": "516"
                 },
                 {
                   "nome": "LEONARDO FLOREZI - OFF TRADE",
@@ -24460,6 +24440,10 @@ const INATIVOS_DATA = {
                 {
                   "nome": "PATRICIA RAMOS - OFF TRADE",
                   "rca": "469"
+                },
+                {
+                  "nome": "PAULO JUNIOR - OFF TRADE",
+                  "rca": "471"
                 },
                 {
                   "nome": "PAULO THOMAZI - OFF TRADE",
