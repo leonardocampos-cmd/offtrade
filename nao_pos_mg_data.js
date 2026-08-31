@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_mg.py
 
 const NAO_POS_MG_DATA = {
-  "atualizado_em": "31/08/2026 15:05",
+  "atualizado_em": "31/08/2026 15:56",
   "por_vendedor": {
     "BRUNA CASTRO MELLO": [
       {
@@ -1403,40 +1403,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "33350",
-        "cliente": "CASA QUATRO RECEPCOES LTDA",
-        "bairro": "JARDIM CANADA",
-        "dtultcomp": "10/07/2026",
-        "produtos": [
-          {
-            "produto": "XAROPE MONIN AMORA (BLACKBERRY) 700 ML",
-            "fantasia": "MONIN",
-            "qt": 20,
-            "valor": 998.0
-          }
-        ]
-      },
-      {
-        "codcli": "38493",
-        "cliente": "JM HAMBURGUERS LTDA",
-        "bairro": "VILA DA SERRA",
-        "dtultcomp": "13/07/2026",
-        "produtos": [
-          {
-            "produto": "RED BULL 250ML CAIXA C/24 UNID",
-            "fantasia": "RED BULL",
-            "qt": 1,
-            "valor": 191.76
-          },
-          {
-            "produto": "RED BULL ZERO 24X250ML",
-            "fantasia": "RED BULL",
-            "qt": 1,
-            "valor": 191.76
-          }
-        ]
-      },
-      {
         "codcli": "31868",
         "cliente": "LMR BAR E COMERCIO LTDA",
         "bairro": "BURITIS",
@@ -1929,32 +1895,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "TATUZINHO",
             "qt": 1,
             "valor": 26.9
-          }
-        ]
-      },
-      {
-        "codcli": "29703",
-        "cliente": "BAR E RESTAURANTE POMPEU LTDA",
-        "bairro": "ITAPOÃ",
-        "dtultcomp": "30/07/2026",
-        "produtos": [
-          {
-            "produto": "RED BULL 250ML CAIXA C/24 UNID",
-            "fantasia": "RED BULL",
-            "qt": 2,
-            "valor": 359.52
-          },
-          {
-            "produto": "RED BULL MELANCIA 24X250ML",
-            "fantasia": "RED BULL",
-            "qt": 2,
-            "valor": 359.52
-          },
-          {
-            "produto": "RED BULL TROPICAL EDITION 250 ML CX C/24",
-            "fantasia": "RED BULL",
-            "qt": 2,
-            "valor": 359.52
           }
         ]
       },
@@ -3302,26 +3242,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "CASTAS",
             "qt": 20,
             "valor": 750.0
-          }
-        ]
-      },
-      {
-        "codcli": "37622",
-        "cliente": "KESCO ENGENHARIA E COMERCIO LTDA",
-        "bairro": "SÃO LUIZ",
-        "dtultcomp": "21/07/2026",
-        "produtos": [
-          {
-            "produto": "CERVEJA HEINEKEN RETORNAVEL 24X600ML",
-            "fantasia": "HEINEKEN",
-            "qt": 2,
-            "valor": 436.32
-          },
-          {
-            "produto": "MINIATURA CAN FIREBALL C/12",
-            "fantasia": "",
-            "qt": 1,
-            "valor": 58.68
           }
         ]
       },
