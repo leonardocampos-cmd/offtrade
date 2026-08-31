@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_mg.py
 
 const NAO_POS_MG_DATA = {
-  "atualizado_em": "31/08/2026 15:56",
+  "atualizado_em": "31/08/2026 16:44",
   "por_vendedor": {
     "BRUNA CASTRO MELLO": [
       {
@@ -356,6 +356,113 @@ const NAO_POS_MG_DATA = {
         ]
       }
     ],
+    "FRANCIELLE CARVALHO": [
+      {
+        "codcli": "38436",
+        "cliente": "COMERCIAL GOMES SILVEIRA LTDA",
+        "bairro": "CENTRO",
+        "dtultcomp": "25/02/2026",
+        "produtos": [
+          {
+            "produto": "4 PACK RED BULL SUGAR FREE",
+            "fantasia": "RED BULL",
+            "qt": 1,
+            "valor": 29.16
+          },
+          {
+            "produto": "SMIRNOFF ICE -24 UNIDADES (LONG  NECK)",
+            "fantasia": "DIAGEO",
+            "qt": 1,
+            "valor": 131.76
+          },
+          {
+            "produto": "SMIRNOFF ICE TROPICAL 269ML LT CX 24",
+            "fantasia": "DIAGEO",
+            "qt": 1,
+            "valor": 100.56
+          }
+        ]
+      },
+      {
+        "codcli": "39058",
+        "cliente": "COMERCIAL PRISMA LTDA",
+        "bairro": "PEDRA AZUL",
+        "dtultcomp": "05/06/2026",
+        "produtos": [
+          {
+            "produto": "CACHACA SELETA 600ML",
+            "fantasia": "SELETA",
+            "qt": 6,
+            "valor": 209.4
+          },
+          {
+            "produto": "GIN GORDONS 750 ML",
+            "fantasia": "DIAGEO",
+            "qt": 2,
+            "valor": 111.8
+          },
+          {
+            "produto": "GIN ORLOFF 1L",
+            "fantasia": "PERNOD",
+            "qt": 2,
+            "valor": 99.8
+          },
+          {
+            "produto": "VINHO ARESTI EST SEL ROSE 187ML",
+            "fantasia": "CASTAS",
+            "qt": 2,
+            "valor": 37.8
+          },
+          {
+            "produto": "VINHO ARESTI ESTATE S. CHARDONNAY 187ML",
+            "fantasia": "CASTAS",
+            "qt": 2,
+            "valor": 37.8
+          }
+        ]
+      },
+      {
+        "codcli": "39057",
+        "cliente": "MINI MERCADO PRISMA LTDA",
+        "bairro": "CONFISCO",
+        "dtultcomp": "30/06/2026",
+        "produtos": [
+          {
+            "produto": "GIN GORDONS 750 ML",
+            "fantasia": "DIAGEO",
+            "qt": 2,
+            "valor": 103.8
+          },
+          {
+            "produto": "GIN GORDONS PINK 700ML",
+            "fantasia": "DIAGEO",
+            "qt": 2,
+            "valor": 103.8
+          }
+        ]
+      },
+      {
+        "codcli": "39838",
+        "cliente": "COMERCIAL DUARTE ARAUJO LTDA.",
+        "bairro": "PEDRA AZUL",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "39840",
+        "cliente": "COMERCIAL TORRES & SOUZA LTDA",
+        "bairro": "NOVO RIACHO",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "39839",
+        "cliente": "MERCEARIA TRADICAO LTDA",
+        "bairro": "NOVO ELDORADO",
+        "dtultcomp": "nan",
+        "produtos": []
+      }
+    ],
     "JETER LUCIO SOARES": [
       {
         "codcli": "35090",
@@ -390,7 +497,7 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "37327",
+        "codcli": "37333",
         "cliente": "UNISSUL SUPERMERCADOS S/A",
         "bairro": "CENTRO",
         "dtultcomp": "30/07/2026",
@@ -398,20 +505,26 @@ const NAO_POS_MG_DATA = {
           {
             "produto": "VILLA ROSA BRANCO 750ML",
             "fantasia": "CASTAS",
-            "qt": 12,
-            "valor": 514.8
+            "qt": 6,
+            "valor": 257.4
           },
           {
-            "produto": "VINHO FOODKILLER CAB SAUV MERLOT 750ML",
+            "produto": "VILLA ROSA ROSE 750ML",
             "fantasia": "CASTAS",
             "qt": 6,
-            "valor": 293.4
+            "valor": 257.4
           },
           {
             "produto": "VODKA ORLOFF 1L - DEST",
             "fantasia": "",
-            "qt": 12,
-            "valor": 245.04
+            "qt": 24,
+            "valor": 490.08
+          },
+          {
+            "produto": "WHISKY BALLANTINE'S FINEST 1L",
+            "fantasia": "PERNOD",
+            "qt": 3,
+            "valor": 177.54
           }
         ]
       },
@@ -442,7 +555,7 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "37333",
+        "codcli": "37327",
         "cliente": "UNISSUL SUPERMERCADOS S/A",
         "bairro": "CENTRO",
         "dtultcomp": "30/07/2026",
@@ -450,26 +563,20 @@ const NAO_POS_MG_DATA = {
           {
             "produto": "VILLA ROSA BRANCO 750ML",
             "fantasia": "CASTAS",
-            "qt": 6,
-            "valor": 257.4
+            "qt": 12,
+            "valor": 514.8
           },
           {
-            "produto": "VILLA ROSA ROSE 750ML",
+            "produto": "VINHO FOODKILLER CAB SAUV MERLOT 750ML",
             "fantasia": "CASTAS",
             "qt": 6,
-            "valor": 257.4
+            "valor": 293.4
           },
           {
             "produto": "VODKA ORLOFF 1L - DEST",
             "fantasia": "",
-            "qt": 24,
-            "valor": 490.08
-          },
-          {
-            "produto": "WHISKY BALLANTINE'S FINEST 1L",
-            "fantasia": "PERNOD",
-            "qt": 3,
-            "valor": 177.54
+            "qt": 12,
+            "valor": 245.04
           }
         ]
       },
@@ -592,6 +699,64 @@ const NAO_POS_MG_DATA = {
       {
         "codcli": "39821",
         "cliente": "MAGLIONI RIBEIRO & CIA LTDA",
+        "bairro": "CENTRO",
+        "dtultcomp": "nan",
+        "produtos": []
+      }
+    ],
+    "JOSUE DA SILVA RODRIGUES": [
+      {
+        "codcli": "39748",
+        "cliente": "COMERCIAL ITORORO LTDA",
+        "bairro": "CENTRO",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "39738",
+        "cliente": "COMERCIAL LEVE MAIS LTDA",
+        "bairro": "PARQUE REAL",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "39740",
+        "cliente": "COMERCIAL LEVE MAIS LTDA",
+        "bairro": "FRANCISCA AUGUSTA RIOS",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "39767",
+        "cliente": "JULI & PATY SUPERMERCADO LTDA",
+        "bairro": "CENTRO",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "39928",
+        "cliente": "KRZIZANSKI SEGUSO & CIA LTDA",
+        "bairro": "CENTRO",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "39735",
+        "cliente": "SUPERMERCADO BONIFACIO LTDA",
+        "bairro": "SAO GERALDO",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "39765",
+        "cliente": "SUPERMERCADO NOVA BORDA LTDA",
+        "bairro": "SAO FRANCISCO",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "39876",
+        "cliente": "SUPERMERCADO O VANTAJOSO LTDA",
         "bairro": "CENTRO",
         "dtultcomp": "nan",
         "produtos": []
@@ -997,26 +1162,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "32871",
-        "cliente": "ER COZINHA ARTESANAL LTDA",
-        "bairro": "VILA DA SERRA",
-        "dtultcomp": "18/06/2026",
-        "produtos": [
-          {
-            "produto": "YVY DESTILADO GIN AR LT 710ML",
-            "fantasia": "YVY",
-            "qt": 6,
-            "valor": 239.4
-          },
-          {
-            "produto": "YVY DESTILADO GIN MAR  LT 710ML",
-            "fantasia": "YVY",
-            "qt": 6,
-            "valor": 239.4
-          }
-        ]
-      },
-      {
         "codcli": "33014",
         "cliente": "ER COZINHA ARTESANAL LTDA",
         "bairro": "LOURDES",
@@ -1033,6 +1178,26 @@ const NAO_POS_MG_DATA = {
             "fantasia": "YVY",
             "qt": 4,
             "valor": 159.6
+          }
+        ]
+      },
+      {
+        "codcli": "32871",
+        "cliente": "ER COZINHA ARTESANAL LTDA",
+        "bairro": "VILA DA SERRA",
+        "dtultcomp": "18/06/2026",
+        "produtos": [
+          {
+            "produto": "YVY DESTILADO GIN AR LT 710ML",
+            "fantasia": "YVY",
+            "qt": 6,
+            "valor": 239.4
+          },
+          {
+            "produto": "YVY DESTILADO GIN MAR  LT 710ML",
+            "fantasia": "YVY",
+            "qt": 6,
+            "valor": 239.4
           }
         ]
       },
@@ -1571,32 +1736,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "YVY",
             "qt": 6,
             "valor": 221.4
-          }
-        ]
-      },
-      {
-        "codcli": "32776",
-        "cliente": "S C SOLUCOES E COMERCIO DE ALIMENTOS LTDA",
-        "bairro": "SANTO ANTONIO",
-        "dtultcomp": "21/07/2026",
-        "produtos": [
-          {
-            "produto": "CERVEJA HEINEKEN LONG 24X330ML",
-            "fantasia": "HEINEKEN",
-            "qt": 1,
-            "valor": 143.96
-          },
-          {
-            "produto": "JACK DANIELS HONEY 1 L",
-            "fantasia": "BROWN-FORMAN",
-            "qt": 2,
-            "valor": 259.8
-          },
-          {
-            "produto": "WHISKY WHITE HORSE - 1L",
-            "fantasia": "DIAGEO",
-            "qt": 1,
-            "valor": 62.9
           }
         ]
       },
@@ -2636,6 +2775,85 @@ const NAO_POS_MG_DATA = {
         "codcli": "39855",
         "cliente": "TSUKI EXPRESS RESTAURANTE E FAST FOOD LTDA",
         "bairro": "SÃO GERALDO",
+        "dtultcomp": "nan",
+        "produtos": []
+      }
+    ],
+    "RONALDO MESQUITA JUNIOR": [
+      {
+        "codcli": "39867",
+        "cliente": "BRENO BEBIDAS E DISTRIBUICAO LTDA",
+        "bairro": "CATALÃO",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "39873",
+        "cliente": "PALACIO BEBIDAS LTDA",
+        "bairro": "SÃO JOSÉ",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "39898",
+        "cliente": "SOMAR COMERCIO DE ALIMENTOS LTDA",
+        "bairro": "CENTRO",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "39906",
+        "cliente": "SUPERMERCADO PIC LTDA",
+        "bairro": "CENTRO",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "39904",
+        "cliente": "SUPERMERCADO PIC LTDA",
+        "bairro": "VILA BELO HORIZONTE",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "39900",
+        "cliente": "SUPERMERCADO PIC LTDA",
+        "bairro": "BELA VISTA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "39901",
+        "cliente": "SUPERMERCADO PIC LTDA",
+        "bairro": "CENTRO",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "39903",
+        "cliente": "SUPERMERCADO PIC LTDA",
+        "bairro": "DONA QUITA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "39905",
+        "cliente": "SUPERMERCADO PIC LTDA",
+        "bairro": "IPIRANGA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "39902",
+        "cliente": "SUPERMERCADO PIC LTDA",
+        "bairro": "DAVANUZE",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "39939",
+        "cliente": "VILLA 37 BEER CONVENIENCIA LTDA",
+        "bairro": "CATALÃO",
         "dtultcomp": "nan",
         "produtos": []
       }
