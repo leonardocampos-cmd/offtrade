@@ -299,6 +299,18 @@ function _clienteLabel(r) {
   return r.fantasia && r.fantasia !== r.razao_social ? `${r.razao_social} (${r.fantasia})` : (r.razao_social || '');
 }
 
+// Tarefas tipo CHECK_IN/CHECK_OUT não têm pergunta/resposta de verdade — é
+// só um contador interno de foto anexada ("Checkin | Checkout" → "2"), sem
+// sentido mostrado como resposta (usuário perguntou "dá pra saber quais são
+// as respostas?" em 2026-08-31). Mostra a contagem de fotos em vez disso.
+function _perguntaResposta(r) {
+  if (r.tipo_checklist === 'CHECK_IN' || r.tipo_checklist === 'CHECK_OUT') {
+    const n = (r.fotos || []).length || r.qtd_fotos || 0;
+    return { pergunta: '', resposta: n ? `${n} foto(s) anexada(s)` : 'sem foto anexada' };
+  }
+  return { pergunta: r.pergunta || '', resposta: r.resposta || '' };
+}
+
 function _parseDataBr(d) {
   // 'dd/mm/aaaa' -> 'aaaa-mm-dd' (comparável com input[type=date])
   if (!d) return '';
@@ -435,7 +447,10 @@ function abrirDetalhesVisita(r) {
   const timeline = [];
   timeline.push(`Check-in${checkIn ? ' — ' + _fmtHora(checkIn) : ''}`);
   (r.pesquisas || []).forEach(p => timeline.push(`Pesquisa respondida: ${p.pesquisa}${p.assuntos ? ' (' + p.assuntos + ')' : ''}`));
-  (r.tarefas || []).forEach(t => timeline.push(`Tarefa respondida: ${t.tarefa}${t.pergunta ? ' — ' + t.pergunta + ' → ' + (t.resposta || '—') : ''}`));
+  (r.tarefas || []).forEach(t => {
+    const pr = _perguntaResposta(t);
+    timeline.push(`Tarefa respondida: ${t.tarefa}${pr.pergunta ? ' — ' + pr.pergunta + ' → ' + (pr.resposta || '—') : pr.resposta ? ' — ' + pr.resposta : ''}`);
+  });
   timeline.push(checkOut ? `Check-out — ${_fmtHora(checkOut)}` : 'Check-out — não registrado');
 
   document.getElementById('modal-conteudo').innerHTML = `
@@ -595,8 +610,8 @@ function aplicarFiltro() {
         <td class="wrap">${_esc(_clienteLabel(r))}</td>
         <td class="wrap">${_esc(r.tarefa)}</td>
         <td class="hide-mob">${_esc(r.tipo_tarefa)}</td>
-        <td class="wrap">${_esc(r.pergunta)}</td>
-        <td class="wrap">${_esc(r.resposta)}</td>
+        <td class="wrap">${_esc(_perguntaResposta(r).pergunta)}</td>
+        <td class="wrap">${_esc(_perguntaResposta(r).resposta)}</td>
         <td><button class="btn-detalhes" onclick="abrirDetalhes(${i})">🔍 Ver detalhes</button></td>
       </tr>`).join('') : '<tr><td colspan="8" class="empty">Nenhum registro encontrado.</td></tr>';
   } else {

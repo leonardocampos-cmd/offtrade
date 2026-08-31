@@ -704,6 +704,7 @@ def main():
                 if not atividades:
                     linhas_tarefa_usuario.append({
                         **base, "tarefa": checklist.get("descricao", ""), "tipo_tarefa": checklist.get("finalidade", ""),
+                        "tipo_checklist": checklist.get("tipo", ""),
                         "pergunta": "", "resposta": "", "foto": "",
                     })
                     continue
@@ -729,6 +730,14 @@ def main():
                             fotos.append(caminho)
                     linhas_tarefa_usuario.append({
                         **base, "tarefa": checklist.get("descricao", ""), "tipo_tarefa": checklist.get("finalidade", ""),
+                        # tipo do checklist (CHECK_IN/CHECK_OUT/etc) — quando é
+                        # um desses dois, pergunta/resposta não são conteúdo
+                        # de pesquisa de verdade, só um contador interno de
+                        # foto anexada ("Checkin | Checkout" → "2") — achado
+                        # pelo usuário em 2026-08-31 ("dá pra saber quais são
+                        # as respostas?"), usado no front pra não mostrar esse
+                        # número sem sentido como se fosse resposta real.
+                        "tipo_checklist": checklist.get("tipo", ""),
                         "pergunta": pergunta, "resposta": resposta, "qtd_fotos": len(fotos), "fotos": fotos,
                     })
 
