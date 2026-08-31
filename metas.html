@@ -1772,14 +1772,16 @@ function renderDetail(v, mes) {
     return !_comprou.has((c.CLIENTE || '').trim().toUpperCase());
   });
   const _nNP = _npList.length;
-  const _nCad = v.clientes_cadastrados || 0;
+  // Carteira total (RCA1/2/3), não "cadastros no mês" (métrica sem relação
+  // — dava fração sem sentido tipo "12/1", achado pelo usuário em 2026-08-31).
+  const _nCarteira = v.carteira_total || 0;
   const npHtml = `
     <div class="detail-card">
       <div class="sec-header" onclick="toggleSec('sec-np')">
         <div>
           <div class="sec-title" style="color:var(--red)">N&atilde;o positivados</div>
           <div class="sec-meta" style="color:${_nNP > 0 ? 'var(--red)' : 'var(--green)'}">
-            ${_nNP > 0 ? _nNP + ' cliente' + (_nNP !== 1 ? 's' : '') : 'Todos positivados &#10003;'}${_nCad > 0 ? ` &middot; ${_nNP}/${_nCad} cadastrados` : ''}
+            ${_nNP > 0 ? _nNP + ' cliente' + (_nNP !== 1 ? 's' : '') : 'Todos positivados &#10003;'}${_nCarteira > 0 ? ` &middot; ${_nNP}/${_nCarteira} na carteira` : ''}
           </div>
         </div>
         <span id="sec-np-ic" class="sec-ic open">&#9660;</span>

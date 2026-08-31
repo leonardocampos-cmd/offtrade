@@ -953,6 +953,24 @@ def _build_nao_pos(nome_oracle):
         del r['_dt']
     return result
 
+
+# Carteira completa (RCA1/2/3), ANTES do filtro de positivados — usada só
+# como denominador de "X não positivados de Y na carteira" em metas.html.
+# Pedido do usuário em 2026-08-31: o "X/Y cadastrados" que já existia lá
+# usava clientes_cadastrados (cadastros NOVOS do mês, métrica sem relação
+# nenhuma com não positivados — dava fração sem sentido tipo "12/1").
+_df_carteira_full = _np_mod.clientes.copy()
+_df_carteira_full.columns = _df_carteira_full.columns.str.upper()
+
+
+def _total_carteira(nome_oracle):
+    match = (
+        (_df_carteira_full['NOME_RCA'] == nome_oracle)
+        | (_df_carteira_full['NOME_RCA2'] == nome_oracle)
+        | (_df_carteira_full['NOME_RCA3'] == nome_oracle)
+    )
+    return int(_df_carteira_full[match]['CODCLI'].nunique())
+
 # ── Loop principal: por vendedor × mês ───────────────────────────────────────
 
 _meses_arquivo = sorted(
@@ -989,6 +1007,7 @@ for _, m in metas_com_nome.iterrows():
             'tipovend': str(m.get('TIPOVEND') or '').strip().upper(),
             'por_mes': {},
             'clientes_cadastrados': _cadastros_por_display.get(nome_display, 0),
+            'carteira_total': _total_carteira(nome_oracle),
             'nao_positivados': _build_nao_pos(nome_oracle),
             'historico':       monthly_series(nome_oracle),
             'previsao':        previsao(nome_oracle, real_atual['fat_tt'], real_atual['pos_tt']),
