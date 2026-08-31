@@ -9,8 +9,6 @@ import re as _re
 from meta import engine, engine_theking, engine_castas, engine_garrido, engine_spon, engine_mgon, engine_blended, arquivo, carregar_dados, carregar_paralelo, FONTES_INDISPONIVEIS, nome_display_por_oracle
 import nao_positivados as _np_mod
 
-_df_nao_pos = _np_mod.nao_positivados_full
-
 def _write_js_atomic(path, content):
     """Grava em arquivo temporário e renomeia, para que páginas nunca leiam um JS truncado a meio-caminho de uma gravação."""
     tmp_path = f"{path}.tmp"
@@ -918,32 +916,49 @@ def previsao(nome_oracle, fat_realizado, pos_realizado):
 
 # ── Não positivados ───────────────────────────────────────────────────────────
 
-def _build_nao_pos(nome_oracle):
+def _build_nao_pos(nome_oracle, grupo_atual):
     # Considera o vendedor como RCA1, RCA2 OU RCA3 do cliente (não só o
     # primário) — pedido do usuário em 2026-08-31. Um mesmo cliente pode
     # aparecer nos "não positivados" de mais de um vendedor quando os três
     # slots pertencem a pessoas diferentes — intencional, cada um é
     # corresponsável por aquele cliente.
+    #
+    # "Positivado" aqui é PESSOAL (esse vendedor especificamente vendeu pro
+    # cliente este mês, mesma fonte/lógica de pos_tt via grupo_atual) — não
+    # "algum vendedor de Off Trade vendeu" (definição antiga, baseada em
+    # tabela_vendas). Pedido do usuário em 2026-08-31: sem isso, carteira_total
+    # - positivação oficial (pos_tt) não batia com o tamanho da lista de não
+    # positivados — cliente comprado por OUTRO RCA ainda tinha que aparecer
+    # como "não positivado" pra este.
     _match = (
-        (_df_nao_pos['NOME_RCA'] == nome_oracle)
-        | (_df_nao_pos['NOME_RCA2'] == nome_oracle)
-        | (_df_nao_pos['NOME_RCA3'] == nome_oracle)
+        (_df_carteira_full['NOME_RCA'] == nome_oracle)
+        | (_df_carteira_full['NOME_RCA2'] == nome_oracle)
+        | (_df_carteira_full['NOME_RCA3'] == nome_oracle)
     )
-    df = _df_nao_pos[_match][
+    df = _df_carteira_full[_match][
         ['CODCLI', 'CLIENTE', 'BAIRROENT', 'DTULTCOMP', 'FANTASIA', 'DESCRICAO']
     ].copy()
+    positivados_pessoal = set(
+        grupo_atual[~grupo_atual['DEVOLVIDO']]['CODCLI'].dropna().astype(str).unique()
+    )
+    df = df[~df['CODCLI'].astype(str).isin(positivados_pessoal)]
     df['FANTASIA']  = df['FANTASIA'].fillna('')
     df['DESCRICAO'] = df['DESCRICAO'].fillna('')
     df['BAIRROENT'] = df['BAIRROENT'].fillna('')
     result = []
-    for cliente, grp in df.groupby('CLIENTE', sort=False):
+    # Agrupa por CODCLI, não por CLIENTE (nome/razão social) — achado ao
+    # testar em 2026-08-31: clientes DIFERENTES (CODCLI distinto, inclusive
+    # em schemas/distribuidoras diferentes) podem ter o mesmo texto em
+    # CLIENTE, e agrupar por nome colapsava clientes reais distintos numa
+    # única linha (67 CODCLI únicos viravam só 26 grupos por nome).
+    for codcli, grp in df.groupby(df['CODCLI'].astype(str), sort=False):
         dt = grp['DTULTCOMP'].dropna().max()
         prods = grp[grp['DTULTCOMP'] == dt][['FANTASIA', 'DESCRICAO']].drop_duplicates().to_dict('records')
         row = grp.iloc[0]
         result.append({
             '_dt':     dt,
-            'CODCLI':    str(row['CODCLI']) if pd.notna(row['CODCLI']) else '',
-            'CLIENTE':   cliente,
+            'CODCLI':    codcli,
+            'CLIENTE':   row['CLIENTE'],
             'BAIRROENT': str(row['BAIRROENT']),
             'DTULTCOMP': dt.strftime('%d/%m/%Y') if pd.notna(dt) else '',
             'produtos':  prods,
@@ -954,13 +969,13 @@ def _build_nao_pos(nome_oracle):
     return result
 
 
-# Carteira completa (RCA1/2/3), ANTES do filtro de positivados — usada só
-# como denominador de "X não positivados de Y na carteira" em metas.html.
-# Pedido do usuário em 2026-08-31: o "X/Y cadastrados" que já existia lá
-# usava clientes_cadastrados (cadastros NOVOS do mês, métrica sem relação
-# nenhuma com não positivados — dava fração sem sentido tipo "12/1").
+# Carteira completa (RCA1/2/3), ANTES de qualquer filtro de positivados —
+# usada tanto como denominador de "X não positivados de Y na carteira"
+# quanto como fonte de _build_nao_pos (que agora filtra positivação PESSOAL
+# ali dentro, não usa mais o filtro global pré-pronto de nao_positivados.py).
 _df_carteira_full = _np_mod.clientes.copy()
 _df_carteira_full.columns = _df_carteira_full.columns.str.upper()
+_df_carteira_full['DTULTCOMP'] = pd.to_datetime(_df_carteira_full['DTULTCOMP'], errors='coerce')
 
 
 def _total_carteira(nome_oracle):
@@ -1008,7 +1023,7 @@ for _, m in metas_com_nome.iterrows():
             'por_mes': {},
             'clientes_cadastrados': _cadastros_por_display.get(nome_display, 0),
             'carteira_total': _total_carteira(nome_oracle),
-            'nao_positivados': _build_nao_pos(nome_oracle),
+            'nao_positivados': _build_nao_pos(nome_oracle, grupo_atual),
             'historico':       monthly_series(nome_oracle),
             'previsao':        previsao(nome_oracle, real_atual['fat_tt'], real_atual['pos_tt']),
         }
