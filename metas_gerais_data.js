@@ -1,12 +1,12 @@
 const METAS_GERAIS_DATA = {
-  "atualizado_em": "31/08/2026 13:42",
+  "atualizado_em": "31/08/2026 14:38",
   "mes": "Ago/26",
   "mes_ant": "Jul/26",
   "dias_corridos": 31,
   "dias_no_mes": 31,
   "dias_restantes": 1,
   "resumo": {
-    "fat": 14965399.93,
+    "fat": 14965429.93,
     "fat_ant": 13449897.49,
     "fat_ant_completo": 13449897.49,
     "pos": 1791,
@@ -15,7 +15,7 @@ const METAS_GERAIS_DATA = {
   },
   "total": {
     "meta": 12300000.0,
-    "fat": 14965399.93,
+    "fat": 14965429.93,
     "fat_ant": 13449897.49,
     "fat_ant_completo": 13449897.49,
     "pct": 121.7,
@@ -26,7 +26,7 @@ const METAS_GERAIS_DATA = {
       "estado": "RJ",
       "label": "Rio de Janeiro",
       "meta": 2900000.0,
-      "fat": 3160970.18,
+      "fat": 3161000.18,
       "fat_ant": 2636043.24,
       "pos": 652,
       "pct": 109.0,
@@ -177,10 +177,10 @@ const METAS_GERAIS_DATA = {
     },
     {
       "fantasia": "CASTAS",
-      "fat": 256818.54,
+      "fat": 256848.54,
       "fat_ant": 289607.61,
       "por_estado": {
-        "RJ": 115094.26,
+        "RJ": 115124.26,
         "SP": 43938.38,
         "ES": 0.0,
         "MG": 97785.9
