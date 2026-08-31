@@ -437,21 +437,25 @@ def main():
                     pergunta = (item_checklist.get("prowPerguntaByPerguntaId") or {}).get("descricao", "")
                     valores = atv.get("prowRespostaAtvdTarefaValorsByRespostaAtividadeTarefaId", {}).get("nodes", [])
                     resposta = "; ".join(v["valor"] or str(v["numero"] or "") for v in valores)
-                    fotos = atv.get("prowFotoRespAtvTarefasByRespostaAtividadeTarefaId", {}).get("nodes", [])
-                    if fotos:
-                        for foto in fotos:
-                            caminho = (foto.get("prowFotoByFotoMarcaId") or {}).get("caminho") or (
-                                foto.get("prowFotoByFotoOriginalId") or {}
-                            ).get("caminho", "")
-                            linhas_tarefa_usuario.append({
-                                **base, "tarefa": checklist.get("descricao", ""), "tipo_tarefa": checklist.get("finalidade", ""),
-                                "pergunta": pergunta, "resposta": resposta, "foto": caminho,
-                            })
-                    else:
-                        linhas_tarefa_usuario.append({
-                            **base, "tarefa": checklist.get("descricao", ""), "tipo_tarefa": checklist.get("finalidade", ""),
-                            "pergunta": pergunta, "resposta": resposta, "foto": "",
-                        })
+                    # Uma linha por ATIVIDADE, não por foto — cada atividade de
+                    # check-in/check-out costuma ter 2 fotos, e uma linha por
+                    # foto duplicava tarefa/pergunta/resposta idênticos na
+                    # tabela (achado pelo usuário em 2026-08-31: "está
+                    # duplicando as linhas"). Mesmo padrão que pesquisa já usa
+                    # (qtd_fotos/fotos como array numa linha só, ver
+                    # buscar_itens_resposta_pesquisa acima).
+                    fotos_nodes = atv.get("prowFotoRespAtvTarefasByRespostaAtividadeTarefaId", {}).get("nodes", [])
+                    fotos = []
+                    for foto in fotos_nodes:
+                        caminho = (foto.get("prowFotoByFotoMarcaId") or {}).get("caminho") or (
+                            foto.get("prowFotoByFotoOriginalId") or {}
+                        ).get("caminho", "")
+                        if caminho:
+                            fotos.append(caminho)
+                    linhas_tarefa_usuario.append({
+                        **base, "tarefa": checklist.get("descricao", ""), "tipo_tarefa": checklist.get("finalidade", ""),
+                        "pergunta": pergunta, "resposta": resposta, "qtd_fotos": len(fotos), "fotos": fotos,
+                    })
 
         linhas_pesquisa_final_usuario = []
         if linhas_pesquisa_base_usuario:

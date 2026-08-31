@@ -288,6 +288,10 @@ function _fotoLink(url) {
   return url ? `<a class="foto-link" href="${_esc(url)}" target="_blank" rel="noopener">Ver foto</a>` : '';
 }
 
+function _fotosLinks(fotos) {
+  return (fotos || []).map((u, i) => `<a class="foto-link" href="${_esc(u)}" target="_blank" rel="noopener">Foto ${i + 1}</a>`).join(' ');
+}
+
 function _parseDataBr(d) {
   // 'dd/mm/aaaa' -> 'aaaa-mm-dd' (comparável com input[type=date])
   if (!d) return '';
@@ -513,7 +517,7 @@ function aplicarFiltro() {
         <td class="hide-mob">${_esc(r.tipo_tarefa)}</td>
         <td class="wrap">${_esc(r.pergunta)}</td>
         <td class="wrap">${_esc(r.resposta)}</td>
-        <td>${_fotoLink(r.foto)}</td>
+        <td>${_fotosLinks(r.fotos)}</td>
       </tr>`).join('') : '<tr><td colspan="8" class="empty">Nenhum registro encontrado.</td></tr>';
   }
 }
@@ -523,7 +527,7 @@ function exportarCSV() {
   if (!linhas.length) return;
   const colunas = aba === 'pesquisas'
     ? ['data', 'usuario', 'razao_social', 'fantasia', 'cidade', 'pesquisa', 'assuntos', 'qtd_itens', 'qtd_fotos', 'fotos']
-    : ['data', 'usuario', 'razao_social', 'fantasia', 'tarefa', 'tipo_tarefa', 'pergunta', 'resposta', 'foto'];
+    : ['data', 'usuario', 'razao_social', 'fantasia', 'tarefa', 'tipo_tarefa', 'pergunta', 'resposta', 'qtd_fotos', 'fotos'];
   const csvEsc = v => `"${String(v ?? '').replace(/"/g, '""')}"`;
   const linhasCsv = [colunas.join(',')].concat(
     linhas.map(r => colunas.map(c => csvEsc(r[c])).join(','))
