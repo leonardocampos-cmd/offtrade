@@ -56,6 +56,15 @@ EXCLUDE_JS = {
     # o dado fresco da VPS com essa cópia local velha (bug real, 2026-08-31 —
     # ver [[project_agendamento_deploy_overwrite]]).
     "agendamento_data.js",
+    # pedidos_mercos_data.js / estoque_mercos_data.js: gerar_pedidos_mercos_
+    # data.py e gerar_estoque_mercos_spon_data.py rodam só na VPS, cron
+    # próprio de 30 em 30 min, fora do main.py — mesmo padrão de auto-
+    # publicação de metas/vendas/promotoria acima, mas nunca tinham entrado
+    # nessa lista (bug real, achado pelo usuário em 2026-08-31: página
+    # presa em 27/08 porque 4 deploys desta sessão sobrescreveram o dado
+    # fresco da VPS com a cópia local parada).
+    "pedidos_mercos_data.js",
+    "estoque_mercos_data.js",
 }
 
 
