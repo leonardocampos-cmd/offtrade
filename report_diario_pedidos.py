@@ -409,6 +409,19 @@ def _linha_detalhes(table_id, idx, grupo, colspan):
     return botao, detalhes
 
 
+def _header_ordenavel(table_id, cols, extra_th=''):
+    """Cabeçalho com <th> clicável pra ordenar (pedido do usuário em
+    2026-08-24) — onclick chama ordenarTabela() no JS, que reordena as
+    linhas-mestre arrastando junto a linha de detalhes (se houver) em vez
+    de re-renderizar a tabela inteira."""
+    ths = ''.join(
+        f"<th onclick=\"ordenarTabela('{table_id}',{i})\" style='cursor:pointer' title='Ordenar'>"
+        f"{_esc(c)}<span class='sort-ic' id='{table_id}-sort-{i}'></span></th>"
+        for i, c in enumerate(cols)
+    )
+    return f'<tr>{ths}{extra_th}</tr>'
+
+
 def _tabela_faturados_com_filtro(df, table_id):
     """Tabela com badge de status + dropdown JS pra filtrar linha por status
     logística direto no HTML (pedido do usuário em 2026-08-12). Cada linha
@@ -422,7 +435,7 @@ def _tabela_faturados_com_filtro(df, table_id):
         f"<option value=''>Todos ({df['Pedido'].nunique()})</option>{opcoes}</select></div>"
     )
     cols = [c for c in df.columns if c not in _COLS_ITEM]
-    header = ''.join(f'<th>{_esc(c)}</th>' for c in cols) + '<th>Detalhes</th>'
+    header = _header_ordenavel(table_id, cols, '<th>Detalhes</th>')
     linhas = []
     for idx, (_, grupo) in enumerate(df.groupby('Pedido', sort=False)):
         row = grupo.iloc[0]
@@ -435,11 +448,12 @@ def _tabela_faturados_com_filtro(df, table_id):
         linhas.append(
             f"<tr data-status=\"{_esc(status_raw)}\" data-data=\"{_esc(row.get('DataOrd'))}\" "
             f"data-pedido=\"{_esc(row.get('Pedido'))}\" data-valor=\"{_esc(row.get('Total Pedido'))}\" "
-            f"data-dias=\"{_esc(row.get('Dias sem Entrega'))}\">{cells}<td>{botao}</td></tr>{detalhes}"
+            f"data-dias=\"{_esc(row.get('Dias sem Entrega'))}\" data-vendedor=\"{_esc(row.get('Vendedor'))}\">"
+            f"{cells}<td>{botao}</td></tr>{detalhes}"
         )
     tabela_html = (
         f"<table id='{table_id}' class='tbl-filtravel' data-aba='Faturados'>"
-        f"<thead><tr>{header}</tr></thead><tbody>{''.join(linhas)}</tbody></table>"
+        f"<thead>{header}</thead><tbody>{''.join(linhas)}</tbody></table>"
     )
     return filtro_html, tabela_html
 
@@ -465,7 +479,7 @@ def _tabela_pedidos_feitos_com_destaque(df, table_id):
     linha também leva data-data pro filtro global de data, e uma por pedido
     (não por item) com botão 'Ver detalhes' pros produtos."""
     cols = [c for c in df.columns if c not in _COLS_ITEM]
-    header = ''.join(f'<th>{_esc(c)}</th>' for c in cols) + '<th>Detalhes</th>'
+    header = _header_ordenavel(table_id, cols, '<th>Detalhes</th>')
     linhas = []
     for idx, (_, grupo) in enumerate(df.groupby('Pedido', sort=False)):
         row = grupo.iloc[0]
@@ -480,11 +494,12 @@ def _tabela_pedidos_feitos_com_destaque(df, table_id):
         linhas.append(
             f"<tr{tr_style} data-data=\"{_esc(row.get('DataOrd'))}\" data-pedido=\"{_esc(row.get('Pedido'))}\" "
             f"data-valor=\"{_esc(row.get('Total Pedido'))}\" data-agendamento=\"{'1' if agendado else ''}\" "
-            f"data-bloqueado=\"{'1' if bloqueado else ''}\">{cells}<td>{botao}</td></tr>{detalhes}"
+            f"data-bloqueado=\"{'1' if bloqueado else ''}\" data-vendedor=\"{_esc(row.get('Vendedor'))}\">"
+            f"{cells}<td>{botao}</td></tr>{detalhes}"
         )
     return (
         f"<table id='{table_id}' class='tbl-filtravel' data-aba='Pedidos Feitos'>"
-        f"<thead><tr>{header}</tr></thead><tbody>{''.join(linhas)}</tbody></table>"
+        f"<thead>{header}</thead><tbody>{''.join(linhas)}</tbody></table>"
     )
 
 
@@ -492,22 +507,35 @@ def _tabela_cortados_cancelados_com_data(df, table_id):
     """Mesmo tratamento de data-data das outras tabelas, com data-pedido/
     data-valor pro JS recalcular Qtd Pedidos/Valor Cortado dos cartões
     quando o filtro de data muda, e uma linha-mestre por pedido com botão
-    'Ver detalhes' pros produtos cortados (pedido do usuário em 2026-08-12)."""
+    'Ver detalhes' pros produtos cortados (pedido do usuário em 2026-08-12).
+    Dropdown de motivo (mesmo padrão do status logística de Faturados) —
+    pedido do usuário em 2026-08-24."""
+    motivo_unicos = sorted({(v or 'Sem motivo') for v in df['Motivo']})
+    opcoes = ''.join(f"<option value='{_esc(m)}'>{_esc(m)}</option>" for m in motivo_unicos)
+    filtro_html = (
+        f"<div class='filtro-status'><label for='{table_id}-sel'>Filtrar por motivo:</label>"
+        f"<select id='{table_id}-sel' onchange=\"aplicarFiltros()\">"
+        f"<option value=''>Todos ({df['Pedido'].nunique()})</option>{opcoes}</select></div>"
+    )
     cols = [c for c in df.columns if c not in _COLS_ITEM]
-    header = ''.join(f'<th>{_esc(c)}</th>' for c in cols) + '<th>Detalhes</th>'
+    header = _header_ordenavel(table_id, cols, '<th>Detalhes</th>')
     linhas = []
     for idx, (_, grupo) in enumerate(df.groupby('Pedido', sort=False)):
         row = grupo.iloc[0]
+        motivo_raw = row['Motivo'] or 'Sem motivo'
         cells = ''.join(f'<td>{_esc(row[c])}</td>' for c in cols)
         botao, detalhes = _linha_detalhes(table_id, idx, grupo, len(cols) + 1)
         linhas.append(
-            f"<tr data-data=\"{_esc(row.get('DataOrd'))}\" data-pedido=\"{_esc(row.get('Pedido'))}\" "
-            f"data-valor=\"{_esc(row.get('Valor Cortado'))}\">{cells}<td>{botao}</td></tr>{detalhes}"
+            f"<tr data-motivo=\"{_esc(motivo_raw)}\" data-data=\"{_esc(row.get('DataOrd'))}\" "
+            f"data-pedido=\"{_esc(row.get('Pedido'))}\" data-valor=\"{_esc(row.get('Valor Cortado'))}\" "
+            f"data-vendedor=\"{_esc(row.get('Vendedor'))}\">"
+            f"{cells}<td>{botao}</td></tr>{detalhes}"
         )
-    return (
+    tabela_html = (
         f"<table id='{table_id}' class='tbl-filtravel' data-aba='Cortados-Cancelados'>"
-        f"<thead><tr>{header}</tr></thead><tbody>{''.join(linhas)}</tbody></table>"
+        f"<thead>{header}</thead><tbody>{''.join(linhas)}</tbody></table>"
     )
+    return filtro_html, tabela_html
 
 
 def _tabela_produtos_cortados_com_data(df, table_id):
@@ -520,7 +548,7 @@ def _tabela_produtos_cortados_com_data(df, table_id):
     o mesmo saldo repetido entre pedidos do mesmo produto (pedido do usuário
     em 2026-08-12) — sem mexer nos cartões acima."""
     cols = [c for c in df.columns if c not in ('DataOrd', 'CodFilial')]
-    header = ''.join(f'<th>{_esc(c)}</th>' for c in cols)
+    header = _header_ordenavel(table_id, cols)
     linhas = []
     for _, row in df.iterrows():
         cells = ''.join(f'<td>{_esc(row[c])}</td>' for c in cols)
@@ -528,11 +556,12 @@ def _tabela_produtos_cortados_com_data(df, table_id):
             f"<tr data-data=\"{_esc(row.get('DataOrd'))}\" data-qtdcortada=\"{_esc(row.get('Qtd Cortada'))}\" "
             f"data-valorcortado=\"{_esc(row.get('Valor Cortado'))}\" data-codprod=\"{_esc(row.get('Cód Produto'))}\" "
             f"data-industria=\"{_esc(row.get('Indústria'))}\" data-produtonome=\"{_esc(row.get('Produto'))}\" "
-            f"data-codfilial=\"{_esc(row.get('CodFilial'))}\" data-saldo=\"{_esc(row.get('Saldo Estoque'))}\">{cells}</tr>"
+            f"data-codfilial=\"{_esc(row.get('CodFilial'))}\" data-saldo=\"{_esc(row.get('Saldo Estoque'))}\" "
+            f"data-vendedor=\"{_esc(row.get('Vendedor'))}\">{cells}</tr>"
         )
     return (
         f"<table id='{table_id}' class='tbl-filtravel' data-aba='Produtos Cortados'>"
-        f"<thead><tr>{header}</tr></thead><tbody>{''.join(linhas)}</tbody></table>"
+        f"<thead>{header}</thead><tbody>{''.join(linhas)}</tbody></table>"
     )
 
 
@@ -550,6 +579,14 @@ def _cartoes_html(linhas_aba):
 
 def montar_html(tabelas, estado, hoje_str):
     resumo_df = tabelas.get('Resumo')
+    # Filtro de vendedor é global (mesmo padrão do filtro de data) — todas
+    # as 4 tabelas com linhas de pedido têm coluna 'Vendedor' (pedido do
+    # usuário em 2026-08-24).
+    vendedores_unicos = sorted({
+        str(v).strip() for df in tabelas.values() if 'Vendedor' in df.columns
+        for v in df['Vendedor'].dropna() if str(v).strip()
+    })
+    opcoes_vendedor = ''.join(f"<option value='{_esc(v)}'>{_esc(v)}</option>" for v in vendedores_unicos)
     secoes = []
     for aba, df in tabelas.items():
         resumo_aba = ''
@@ -591,7 +628,8 @@ def montar_html(tabelas, estado, hoje_str):
                     "veja a coluna Motivo Bloqueio.</div>"
                 )
         elif aba == 'Cortados-Cancelados' and 'DataOrd' in df.columns:
-            tabela_html = _tabela_cortados_cancelados_com_data(df, f'tbl-canc-{estado}')
+            filtro_html, tabela_html = _tabela_cortados_cancelados_com_data(df, f'tbl-canc-{estado}')
+            resumo_aba += filtro_html
         elif aba == 'Produtos Cortados' and 'DataOrd' in df.columns:
             tabela_html = _tabela_produtos_cortados_com_data(df, f'tbl-cort-{estado}')
             # Ranking por produto (Indústria/Produto/Cód Produto/Qtd Cortada/
@@ -653,6 +691,8 @@ def montar_html(tabelas, estado, hoje_str):
   .ranking-produtos h4 {{ font-size:.78rem; color:#94a3b8; text-transform:uppercase; letter-spacing:.05em; margin-bottom:6px; }}
   .ranking-tabela td:nth-child(4), .ranking-tabela td:nth-child(5) {{ text-align:right; font-variant-numeric:tabular-nums; }}
   .sem-dado {{ color:#94a3b8; font-size:.82rem; padding:8px 0; }}
+  th[onclick]:hover {{ color:#f5c518; }}
+  .sort-ic {{ font-size:.68rem; color:#f5c518; margin-left:4px; }}
 </style>
 </head>
 <body>
@@ -663,12 +703,19 @@ def montar_html(tabelas, estado, hoje_str):
   <label for='data-ate'>até:</label>
   <input type='date' id='data-ate' oninput='aplicarFiltros()'>
   <button type='button' onclick="document.getElementById('data-de').value='';document.getElementById('data-ate').value='';aplicarFiltros()">Limpar</button>
+  <label for='sel-vendedor'>Vendedor:</label>
+  <select id='sel-vendedor' onchange='aplicarFiltros()'>
+    <option value=''>Todos</option>
+    {opcoes_vendedor}
+  </select>
 </div>
 {corpo}
 <script>
 function aplicarFiltros() {{
   var de = document.getElementById('data-de').value;
   var ate = document.getElementById('data-ate').value;
+  var vendSel = document.getElementById('sel-vendedor');
+  var vendedorFiltro = vendSel ? vendSel.value : '';
   document.querySelectorAll('table.tbl-filtravel').forEach(function(tabela) {{
     var sel = document.getElementById(tabela.id + '-sel');
     var statusFiltro = sel ? sel.value : '';
@@ -676,8 +723,13 @@ function aplicarFiltros() {{
       if (tr.classList.contains('detalhes-row')) return;
       var d = tr.getAttribute('data-data') || '';
       var okData = (!de || !d || d >= de) && (!ate || !d || d <= ate);
-      var okStatus = !statusFiltro || tr.getAttribute('data-status') === statusFiltro;
-      var visivel = okData && okStatus;
+      // -sel filtra por status logística (Faturados) ou motivo (Cortados-
+      // Cancelados) — cada tabela só tem um dos dois atributos, nunca os
+      // dois (pedido do usuário em 2026-08-24).
+      var valorExtra = tr.hasAttribute('data-status') ? tr.getAttribute('data-status') : tr.getAttribute('data-motivo');
+      var okExtra = !statusFiltro || valorExtra === statusFiltro;
+      var okVendedor = !vendedorFiltro || tr.getAttribute('data-vendedor') === vendedorFiltro;
+      var visivel = okData && okExtra && okVendedor;
       tr.style.display = visivel ? '' : 'none';
       var det = tr.nextElementSibling;
       if (!visivel && det && det.classList.contains('detalhes-row')) {{
@@ -691,6 +743,64 @@ function aplicarFiltros() {{
 
 function escHtml(s) {{
   return String(s == null ? '' : s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+}}
+
+// Ordenação por coluna clicável no cabeçalho (pedido do usuário em
+// 2026-08-24) — agrupa cada linha-mestre com sua linha de detalhes (se
+// houver) antes de reordenar, pra não separar o botão "Ver detalhes" dos
+// produtos que ele expande. Detecta data (dd/mm/aaaa) e número antes de
+// cair pra comparação de texto; clicar de novo na mesma coluna inverte.
+var _sortState = {{}};
+function ordenarTabela(tableId, colIdx) {{
+  var tabela = document.getElementById(tableId);
+  if (!tabela) return;
+  var tbody = tabela.querySelector('tbody');
+  var estadoAnterior = _sortState[tableId];
+  var asc = !(estadoAnterior && estadoAnterior.col === colIdx && estadoAnterior.asc);
+  _sortState[tableId] = {{ col: colIdx, asc: asc }};
+
+  var grupos = Array.prototype.filter.call(tbody.children, function(tr) {{
+    return !tr.classList.contains('detalhes-row');
+  }}).map(function(tr) {{
+    var det = tr.nextElementSibling;
+    return {{ tr: tr, det: (det && det.classList.contains('detalhes-row')) ? det : null }};
+  }});
+
+  function valorCel(tr) {{
+    var td = tr.children[colIdx];
+    return td ? (td.textContent || '').trim() : '';
+  }}
+  function paraData(s) {{
+    var m = s.match(/^(\d{{2}})\/(\d{{2}})\/(\d{{4}})$/);
+    return m ? new Date(m[3], m[2] - 1, m[1]).getTime() : null;
+  }}
+  function paraNumero(s) {{
+    if (s === '') return null;
+    var n = Number(s);
+    return isNaN(n) ? null : n;
+  }}
+
+  grupos.sort(function(a, b) {{
+    var va = valorCel(a.tr), vb = valorCel(b.tr);
+    var da = paraData(va), db = paraData(vb);
+    var cmp;
+    if (da !== null && db !== null) {{
+      cmp = da - db;
+    }} else {{
+      var na = paraNumero(va), nb = paraNumero(vb);
+      cmp = (na !== null && nb !== null) ? (na - nb) : va.localeCompare(vb, 'pt-BR');
+    }}
+    return asc ? cmp : -cmp;
+  }});
+
+  grupos.forEach(function(g) {{
+    tbody.appendChild(g.tr);
+    if (g.det) tbody.appendChild(g.det);
+  }});
+
+  tabela.querySelectorAll('.sort-ic').forEach(function(el) {{ el.textContent = ''; }});
+  var ic = document.getElementById(tableId + '-sort-' + colIdx);
+  if (ic) ic.textContent = asc ? ' ▲' : ' ▼';
 }}
 
 // Ranking por produto (Indústria/Produto/Cód Produto/Qtd Cortada/Saldo
