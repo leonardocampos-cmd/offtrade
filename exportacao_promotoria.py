@@ -330,6 +330,20 @@ def main():
             ):
                 payload = candidato
                 payload.setdefault("usuarios_processados", [])
+                # Se já processou TODO MUNDO numa hora anterior, reseta pra
+                # buscar de novo em vez de só retomar — sem isso,
+                # atualizado_em ficava congelado no horário da 1ª execução
+                # completa do dia, mesmo rodando de hora em hora depois via
+                # main.py (pedido do usuário em 2026-08-31: "coloca
+                # atualização a cada 1h"). O resume-por-interrupção continua
+                # valendo dentro da MESMA hora (útil se essa execução for
+                # interrompida no meio).
+                _total_equipe = len([supervisor] + equipe)
+                _hora_payload = candidato.get("atualizado_em", "")[-5:-3]
+                _hora_agora = datetime.now().strftime("%H")
+                if len(payload["usuarios_processados"]) >= _total_equipe and _hora_payload != _hora_agora:
+                    print(f"Promotoria: já completo desde {candidato.get('atualizado_em')} — buscando de novo pra essa hora.")
+                    payload = None
         except Exception:
             payload = None
 
