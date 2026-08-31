@@ -919,7 +919,17 @@ def previsao(nome_oracle, fat_realizado, pos_realizado):
 # ── Não positivados ───────────────────────────────────────────────────────────
 
 def _build_nao_pos(nome_oracle):
-    df = _df_nao_pos[_df_nao_pos['NOME_RCA'] == nome_oracle][
+    # Considera o vendedor como RCA1, RCA2 OU RCA3 do cliente (não só o
+    # primário) — pedido do usuário em 2026-08-31. Um mesmo cliente pode
+    # aparecer nos "não positivados" de mais de um vendedor quando os três
+    # slots pertencem a pessoas diferentes — intencional, cada um é
+    # corresponsável por aquele cliente.
+    _match = (
+        (_df_nao_pos['NOME_RCA'] == nome_oracle)
+        | (_df_nao_pos['NOME_RCA2'] == nome_oracle)
+        | (_df_nao_pos['NOME_RCA3'] == nome_oracle)
+    )
+    df = _df_nao_pos[_match][
         ['CODCLI', 'CLIENTE', 'BAIRROENT', 'DTULTCOMP', 'FANTASIA', 'DESCRICAO']
     ].copy()
     df['FANTASIA']  = df['FANTASIA'].fillna('')

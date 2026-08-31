@@ -26,13 +26,21 @@ def _read_sql_retry(query, con, engine_obj, nome, dtype=str, max_tentativas=3, t
 def _query_clientes(schema, filtro_estent=None):
     s = schema.upper()
     extra_estent = f"\n          AND C.ESTENT = '{filtro_estent}'" if filtro_estent else ""
+    # C vem de PCCLIENT (não PBI_PCCLIENT) por causa de CODUSUR3: a view
+    # PBI_PCCLIENT só expõe RCA/RCA2 com código (CODUSUR) — RCA3 só existe lá
+    # como nome solto (RCA3_NOME), sem código pra casar com PCUSUARI. PCCLIENT
+    # (tabela base) tem CODUSUR1/2/3 com código de verdade, confirmado batendo
+    # com RCA3_NOME via join por CODUSUR3 (pedido do usuário em 2026-08-31:
+    # "não positivados" tem que considerar cliente cadastrado como RCA 1, 2 ou 3
+    # do vendedor, não só o primário).
     return f"""
         SELECT
             C.CODCLI,
             C.CLIENTE,
             C.BAIRROENT,
-            C.RCA,
-            C.RCA2,
+            C.CODUSUR1 AS RCA,
+            C.CODUSUR2 AS RCA2,
+            C.CODUSUR3 AS RCA3,
             LV.DTULTCOMP,
             M.CODPROD,
             M.CODUSUR,
@@ -42,8 +50,9 @@ def _query_clientes(schema, filtro_estent=None):
             F.FORNECEDOR,
             F.FANTASIA,
             U1.NOME AS NOME_RCA,
-            U2.NOME AS NOME_RCA2
-        FROM {s}.PBI_PCCLIENT C
+            U2.NOME AS NOME_RCA2,
+            U3.NOME AS NOME_RCA3
+        FROM {s}.PCCLIENT C
         JOIN (
             SELECT
                 CODCLI,
@@ -60,9 +69,10 @@ def _query_clientes(schema, filtro_estent=None):
                                    AND M.CODOPER = 'S' AND M.NUMNOTADEV IS NULL AND M.DTCANCEL IS NULL)
         LEFT JOIN {s}.PCPRODUT P ON M.CODPROD = P.CODPROD
         LEFT JOIN {s}.PCFORNEC F ON P.CODFORNEC = F.CODFORNEC
-        LEFT JOIN {s}.PCUSUARI U1 ON C.RCA = U1.CODUSUR
-        LEFT JOIN {s}.PCUSUARI U2 ON C.RCA2 = U2.CODUSUR
-        WHERE (U1.NOME LIKE '%OFF TRADE%' OR U2.NOME LIKE '%OFF TRADE%'){extra_estent}
+        LEFT JOIN {s}.PCUSUARI U1 ON C.CODUSUR1 = U1.CODUSUR
+        LEFT JOIN {s}.PCUSUARI U2 ON C.CODUSUR2 = U2.CODUSUR
+        LEFT JOIN {s}.PCUSUARI U3 ON C.CODUSUR3 = U3.CODUSUR
+        WHERE (U1.NOME LIKE '%OFF TRADE%' OR U2.NOME LIKE '%OFF TRADE%' OR U3.NOME LIKE '%OFF TRADE%'){extra_estent}
         ORDER BY LV.DTULTCOMP DESC
 """
 
@@ -107,7 +117,7 @@ nao_positivados = nao_positivados.drop_duplicates(subset=['CODCLI'])
 mes_atual = datetime.now().strftime('%m-%Y')
 output_path = str(Path(__file__).parent / f"nao_positivados_{mes_atual}.xlsx")
 
-nao_positivados[['CODCLI', 'CLIENTE','BAIRROENT','DESCRICAO','NOME_RCA', 'NOME_RCA2', 'DTULTCOMP']].to_excel(
+nao_positivados[['CODCLI', 'CLIENTE','BAIRROENT','DESCRICAO','NOME_RCA', 'NOME_RCA2', 'NOME_RCA3', 'DTULTCOMP']].to_excel(
     output_path, index=False
 )
 
