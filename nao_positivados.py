@@ -4,7 +4,7 @@ import pandas as pd
 from datetime import datetime
 from pathlib import Path
 from meta import (
-    engine, engine_theking, engine_castas, engine_garrido, engine_spon,
+    engine, engine_theking, engine_castas, engine_garrido, engine_spon, engine_blended,
     tabela_vendas, FONTES_INDISPONIVEIS, _com_timeout_forcado,
 )
 
@@ -83,6 +83,14 @@ for _s, _e, _fe in [
     ("CASTAS",   engine_castas,  None),
     ("GARRIDO",  engine_garrido, None),
     ("SPON",     engine_spon,    None),
+    # BLENDED (SP, operação nova — ver meta.py::engine_blended) faltava aqui
+    # (achado pelo usuário em 2026-08-31): cliente cadastrado só em BLENDED
+    # nunca entrava na carteira, e — pior — comprar SÓ em BLENDED nunca era
+    # visto por "positivados" abaixo (tabela_vendas do meta.py exige
+    # PCUSUARI.ESTADO='RJ' incondicionalmente, e BLENDED nunca tem ESTADO
+    # preenchido — mesma ausência documentada em exportacao_meta.py), gerando
+    # falso "não positivado" pra quem já tinha comprado via BLENDED.
+    ("BLENDED",  engine_blended, None),
 ]:
     try:
         _parts_cli.append(_read_sql_retry(_query_clientes(_s, filtro_estent=_fe), _e, _e, f"nao_pos_{_s}"))
@@ -96,7 +104,38 @@ clientes = pd.concat(_parts_cli, ignore_index=True)
 clientes.columns = clientes.columns.str.upper()
 
 # Clientes que já compraram esse mês
-positivados = set(tabela_vendas['CODCLI'].dropna().unique())
+# .astype(str): tabela_vendas.CODCLI vem como int (lido sem dtype=str no
+# meta.py), mas clientes.CODCLI aqui vem como str (_read_sql_retry usa
+# dtype=str por padrão) — sem esse cast, "95840" (str) nunca batia com
+# 95840 (int) no .isin() abaixo, silenciosamente deixando de filtrar quem
+# já tinha comprado (achado pelo usuário em 2026-08-31, investigando o
+# porquê de clientes que já compraram ainda aparecerem como "não positivado").
+positivados = set(tabela_vendas['CODCLI'].dropna().astype(str).unique())
+
+# BLENDED não entra em tabela_vendas (meta.py exige PCUSUARI.ESTADO='RJ'
+# incondicionalmente, e BLENDED nunca tem ESTADO preenchido) — sem isso,
+# cliente que só compra via BLENDED nunca positivava aqui mesmo já tendo
+# comprado (achado pelo usuário em 2026-08-31, RCA Leandro Souza: 14 de 26
+# "não positivados" já tinham comprado via BLENDED). Query própria, só
+# CODCLI — não precisa atribuir a vendedor, isso já é resolvido à parte por
+# exportacao_meta.py::_vh.
+try:
+    _df_blended_vendas = _read_sql_retry(
+        """
+        SELECT DISTINCT CODCLI
+        FROM BLENDED.PCMOV
+        WHERE TRUNC(DTMOV, 'MM') = TRUNC(SYSDATE, 'MM')
+          AND CODOPER IN ('S', 'SB')
+          AND NUMNOTADEV IS NULL
+          AND DTCANCEL IS NULL
+        """,
+        engine_blended, engine_blended, "nao_pos_positivados_BLENDED",
+    )
+    _df_blended_vendas.columns = _df_blended_vendas.columns.str.upper()
+    positivados |= set(_df_blended_vendas['CODCLI'].dropna().unique())
+except Exception as _ex:
+    print(f"[AVISO] nao_pos_positivados_BLENDED falhou ({str(_ex)[:80]}) — ignorado (positivação via BLENDED fica de fora)")
+    FONTES_INDISPONIVEIS.append("nao_pos_positivados_BLENDED")
 
 # Remove positivados
 nao_positivados = clientes[~clientes['CODCLI'].isin(positivados)].copy()
