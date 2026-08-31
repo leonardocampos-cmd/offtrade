@@ -209,6 +209,9 @@
   <select id="sel-vendedor" onchange="onVendedorChange()">
     <option value="">Todos os Vendedores</option>
   </select>
+  <select id="sel-sistema" onchange="onSistemaChange()">
+    <option value="">Todos os Sistemas</option>
+  </select>
   <div class="ms-data" id="ms-mes">
     <button type="button" class="ms-toggle" id="ms-mes-toggle" onclick="toggleMesPanel(event)">
       <span id="ms-mes-label">Todos os Meses</span><span>▾</span>
@@ -221,7 +224,7 @@
     </button>
     <div class="ms-panel hidden" id="ms-data-panel"></div>
   </div>
-  <input type="text" id="busca" placeholder="Buscar por cliente, pedido, NF..." oninput="aplicarFiltro()">
+  <input type="text" id="busca" placeholder="Buscar por cliente, código, pedido, NF..." oninput="aplicarFiltro()">
   <select id="sel-agendamento" onchange="aplicarFiltro()">
     <option value="">📅 Agendamento</option>
     <option value="sim">Sim</option>
@@ -366,6 +369,7 @@ if (!DATA) {
     'Atualizado ' + DATA.atualizado_em + ' · últimos ' + DATA.periodo_dias + ' dias';
   montarTabs();
   montarEstados();
+  montarSistemas();
   montarStatusLog();
   montarStatusPosicaoPanel();
   aplicarFiltro();
@@ -417,7 +421,7 @@ function montarStatusLog() {
     _atualizarLabelStatusLog();
     return;
   }
-  const valores = [...new Set(_listaAtual().map(p => p.status_log || '(sem status)'))].sort();
+  const valores = [...new Set(_listaParaStatusLog().map(p => p.status_log || '(sem status)'))].sort();
   // Remove da seleção valores que sumiram da lista atual (ex: trocou de filtro
   // e um status deixou de existir) — senão ficava "preso" selecionado sem
   // aparecer mais no painel.
@@ -442,7 +446,7 @@ function _toggleStatusLog(valor, checked) {
 }
 
 function _selecionarTodosStatusLog() {
-  [...new Set(_listaAtual().map(p => p.status_log || '(sem status)'))].forEach(v => _statusLogSelecionados.add(v));
+  [...new Set(_listaParaStatusLog().map(p => p.status_log || '(sem status)'))].forEach(v => _statusLogSelecionados.add(v));
   montarStatusLog();
   aplicarFiltro();
 }
@@ -479,6 +483,7 @@ function trocarAba(chave) {
   _expandidos.clear();
   montarTabs();
   montarEstados();
+  montarSistemas();
   montarMeses();
   montarStatusLog();
   aplicarFiltro();
@@ -574,6 +579,40 @@ function montarEstados() {
   });
   if (estAtual && !_listaAtual().some(p => p.estado === estAtual)) sel.value = '';
   montarGerentes();
+}
+
+// Sistema (base Oracle: CRC/thekings/CASTAS/GARRIDO/SPON/MGON) é independente
+// dos demais filtros (não cascateia com estado/gerente/supervisor/vendedor)
+// — só precisa recarregar as opções quando a aba muda.
+function montarSistemas() {
+  const sisAtual = document.getElementById('sel-sistema').value;
+  const sel = document.getElementById('sel-sistema');
+  sel.innerHTML = '<option value="">Todos os Sistemas</option>';
+  [...new Set(_listaAtual().map(p => p.sistema).filter(Boolean))].sort().forEach(s => {
+    const o = document.createElement('option');
+    o.value = s;
+    o.textContent = s;
+    if (s === sisAtual) o.selected = true;
+    sel.appendChild(o);
+  });
+  if (sisAtual && !_listaAtual().some(p => p.sistema === sisAtual)) sel.value = '';
+}
+
+// Status logística (ex: "TRANSFERENCIA") existe só em algumas bases (ex: só
+// SPON) — o painel de checkboxes tem que recalcular as opções conforme o
+// sistema selecionado, senão fica oferecendo status que nunca vão bater com
+// nenhum pedido depois de filtrar por outro sistema. Pedido do usuário em
+// 2026-08-31, junto com a criação do filtro de sistema.
+function onSistemaChange() {
+  montarStatusLog();
+  aplicarFiltro();
+}
+
+// Lista já filtrada pelo sistema selecionado (além da aba atual) — usada só
+// pra montar as opções do painel de status logística.
+function _listaParaStatusLog() {
+  const sistema = document.getElementById('sel-sistema').value;
+  return _listaAtual().filter(p => !sistema || p.sistema === sistema);
 }
 
 function montarGerentes() {
@@ -827,6 +866,7 @@ function _filtrados() {
   const gerente    = document.getElementById('sel-gerente').value;
   const supervisor = document.getElementById('sel-supervisor').value;
   const vendedor   = document.getElementById('sel-vendedor').value;
+  const sistema    = document.getElementById('sel-sistema').value;
   const busca      = document.getElementById('busca').value.trim().toLowerCase();
   const agendamento = document.getElementById('sel-agendamento').value;
   let lista = _listaAtual().filter(p => {
@@ -834,14 +874,15 @@ function _filtrados() {
     const matchGerente    = !gerente || p.gerente === gerente;
     const matchSupervisor = !supervisor || p.supervisor === supervisor;
     const matchVendedor   = !vendedor || p.nome === vendedor;
+    const matchSistema    = !sistema || p.sistema === sistema;
     const matchMes        = _mesesSelecionados.size === 0 || _mesesSelecionados.has((p.data_ord || '').slice(0, 7));
     const matchData       = _datasSelecionadas.size === 0 || _datasSelecionadas.has(p.data_ord);
     const matchAgendado   = !agendamento || (agendamento === 'sim' ? !!_agendamento(p.obs) : !_agendamento(p.obs));
     const matchStatus     = _abaAtual !== 'pedidos_feitos' || _statusSelecionados.size === 0 || _statusSelecionados.has(_statusPosicao(p.posicao));
     const matchStatusLog  = _abaAtual !== 'faturados' || _statusLogSelecionados.size === 0 || _statusLogSelecionados.has(p.status_log || '(sem status)');
-    const matchBusca = !busca || [p.cliente, p.numped, p.numnota]
+    const matchBusca = !busca || [p.cliente, p.codcli, p.numped, p.numnota]
       .some(v => v && String(v).toLowerCase().includes(busca));
-    return matchEstado && matchGerente && matchSupervisor && matchVendedor && matchMes && matchData && matchAgendado && matchStatus && matchStatusLog && matchBusca;
+    return matchEstado && matchGerente && matchSupervisor && matchVendedor && matchSistema && matchMes && matchData && matchAgendado && matchStatus && matchStatusLog && matchBusca;
   });
   const { campo, asc } = _ordem;
   const campoOrd = campo === 'data' ? 'data_ord' : campo;
