@@ -316,20 +316,88 @@ def _construir_comparativo(cache: dict) -> list:
     import pandas as pd
     from meta import engine, carregar_dados
 
-    cod_clientes = set()
+    def _cnpj_digits(v):
+        return re.sub(r'\D', '', str(v or ''))
+
+    cods_extraidos = set()
+    cnpjs_extraidos = set()
     data_min = None
     for msg in cache.values():
         for bloco in msg.get('blocos', []):
             cod = str(bloco.get('cod_cliente', '')).strip()
             if cod.isdigit():
-                cod_clientes.add(cod)
+                cods_extraidos.add(cod)
+            cnpj_digits = _cnpj_digits(bloco.get('cnpj'))
+            if len(cnpj_digits) == 14:
+                cnpjs_extraidos.add(cnpj_digits)
             d = msg.get('data_email', '')
             if d and (data_min is None or d < data_min):
                 data_min = d
 
-    if not cod_clientes:
+    if not cods_extraidos:
         print("Comparativo: nenhum cod_cliente reconhecido nos pedidos por e-mail.")
         return []
+
+    # Busca cliente por CODCLI extraído OU por CNPJ, numa query só — cobre
+    # tanto o caso normal (código certo) quanto o de correção abaixo (código
+    # errado mas CNPJ bate). Também alimenta cliente_info (razão social/
+    # fantasia/RCA) pra completar o que a extração deixou em branco.
+    cliente_info = {}
+    codcli_por_cnpj = {}
+    condicoes = [f"C.CODCLI IN ({','.join(sorted(cods_extraidos))})"]
+    if cnpjs_extraidos:
+        cnpjs_sql = ",".join(f"'{c}'" for c in cnpjs_extraidos)
+        condicoes.append(
+            f"REPLACE(REPLACE(REPLACE(C.CGCENT,'.',''),'/',''),'-','') IN ({cnpjs_sql})"
+        )
+    try:
+        df_cli = carregar_dados(f"""
+            SELECT C.CODCLI, C.CLIENTE, COALESCE(C.FANTASIA, '') AS FANTASIA,
+                   COALESCE(C.CGCENT, '') AS CNPJ, C.CODUSUR1,
+                   COALESCE(U1.NOME, '') AS NOME_USUR1
+            FROM crc.PCCLIENT C
+            LEFT JOIN crc.PCUSUARI U1 ON C.CODUSUR1 = U1.CODUSUR
+            WHERE {' OR '.join(condicoes)}
+        """, engine, "comparativo_agendamento_clientes")
+        df_cli.columns = df_cli.columns.str.upper()
+        for _, r in df_cli.iterrows():
+            rca_txt = f"{int(r['CODUSUR1'])} - {r['NOME_USUR1']}".strip(' -') if pd.notna(r['CODUSUR1']) else ''
+            codcli = int(r['CODCLI'])
+            cliente_info[codcli] = {
+                'razao_social': str(r['CLIENTE'] or '').strip(),
+                'fantasia':     str(r['FANTASIA'] or '').strip(),
+                'cnpj':         str(r['CNPJ'] or '').strip(),
+                'rca':          rca_txt,
+            }
+            cnpj_num = _cnpj_digits(r['CNPJ'])
+            if cnpj_num:
+                codcli_por_cnpj[cnpj_num] = codcli
+    except Exception as e:
+        print(f"[AVISO] busca de cadastro de clientes (PCCLIENT) falhou ({str(e)[:100]}) — mantém só o que a extração leu.")
+
+    # cod_cliente extraído por visão/IA às vezes vem com dígitos trocados
+    # (ex: '62992' em vez do código real '69292', mesmo CNPJ/cliente/RCA —
+    # confirmado real em 2026-08-26, pedido "FREITAS BEBIDAS": código errado
+    # não batia com NENHUM cliente, a NF que já tinha faturado 3 dos 4 itens
+    # nunca era encontrada, e o pedido inteiro aparecia "Pendente" à toa,
+    # sem vendedor). CNPJ é bem mais confiável que um código de 5-6 dígitos
+    # sem dígito verificador — só corrige quando o código extraído NÃO bate
+    # com nenhum cliente de verdade mas o CNPJ bate (nunca troca um código
+    # que já era válido por causa de um CNPJ digitado errado em outro lugar).
+    cod_clientes = set()
+    for msg in cache.values():
+        for bloco in msg.get('blocos', []):
+            cod_raw = str(bloco.get('cod_cliente', '')).strip()
+            if not cod_raw.isdigit():
+                continue
+            if int(cod_raw) not in cliente_info:
+                cnpj_num = _cnpj_digits(bloco.get('cnpj'))
+                cod_corrigido = codcli_por_cnpj.get(cnpj_num)
+                if cod_corrigido:
+                    print(f"  [AVISO] cod_cliente corrigido via CNPJ: extraído={cod_raw!r} -> real={cod_corrigido!r} (CNPJ {cnpj_num})")
+                    bloco['cod_cliente'] = str(cod_corrigido)
+                    cod_raw = str(cod_corrigido)
+            cod_clientes.add(cod_raw)
 
     codclis_sql = ",".join(sorted(cod_clientes))
     query = f"""
@@ -355,33 +423,40 @@ def _construir_comparativo(cache: dict) -> list:
     )
     nfs_agendamento = _nfs_agendamento()
 
-    # Preenche campos que a extração (HTML/OCR) deixou em branco usando o
-    # cadastro do cliente no Oracle — o cod_cliente sozinho já é suficiente
-    # pra achar razão social/fantasia/CNPJ/RCA, sem depender de a imagem ter
-    # sido lida perfeitamente (algumas imagens vieram com essas células vazias
-    # na extração via OpenAI vision, mesmo sendo legíveis — confirmado em
-    # 2026-07-23 com 'PEDIDO PREÇOTIMO - ANGRA').
-    cliente_info = {}
-    try:
-        df_cli = carregar_dados(f"""
-            SELECT C.CODCLI, C.CLIENTE, COALESCE(C.FANTASIA, '') AS FANTASIA,
-                   COALESCE(C.CGCENT, '') AS CNPJ, C.CODUSUR1,
-                   COALESCE(U1.NOME, '') AS NOME_USUR1
-            FROM crc.PCCLIENT C
-            LEFT JOIN crc.PCUSUARI U1 ON C.CODUSUR1 = U1.CODUSUR
-            WHERE C.CODCLI IN ({codclis_sql})
-        """, engine, "comparativo_agendamento_clientes")
-        df_cli.columns = df_cli.columns.str.upper()
-        for _, r in df_cli.iterrows():
-            rca_txt = f"{int(r['CODUSUR1'])} - {r['NOME_USUR1']}".strip(' -') if pd.notna(r['CODUSUR1']) else ''
-            cliente_info[int(r['CODCLI'])] = {
-                'razao_social': str(r['CLIENTE'] or '').strip(),
-                'fantasia':     str(r['FANTASIA'] or '').strip(),
-                'cnpj':         str(r['CNPJ'] or '').strip(),
-                'rca':          rca_txt,
-            }
-    except Exception as e:
-        print(f"[AVISO] busca de cadastro de clientes (PCCLIENT) falhou ({str(e)[:100]}) — mantém só o que a extração leu.")
+    # O campo 'rca' de cada bloco vem de extração por IA (visão da OpenAI
+    # lendo tabela/imagem do e-mail) — quando ela não lê um nome de verdade,
+    # já devolveu lixo tipo "ANA CLARA"/"NATALI" (nome cortado) ou até "Não"
+    # (resposta da IA quando não achou RCA nenhum, usada como se fosse valor)
+    # — confirmado real pelo usuário em 2026-08-26. Só confia em texto puro
+    # numérico (código de RCA), resolvido de verdade contra PCUSUARI; nome
+    # extraído como texto livre nunca é usado — cai pro RCA cadastrado do
+    # cliente (fallback acima, já vem de PCUSUARI via join).
+    def _rca_codigo(v):
+        """Código de RCA no início do texto extraído, mesmo com nome grudado
+        depois (ex: '439 MATEUS CARDOSO - OFF TRADE', sem hífen separando —
+        visto real, .isdigit() sozinho rejeitava e o RCA ficava em branco).
+        None se não começar com número."""
+        m = re.match(r'^\s*(\d+)', str(v or ''))
+        return int(m.group(1)) if m else None
+
+    nome_por_codusur = {}
+    codusures_extraidos = {
+        _rca_codigo(b.get('rca'))
+        for msg in cache.values() for b in msg.get('blocos', [])
+        if _rca_codigo(b.get('rca')) is not None
+    }
+    if codusures_extraidos:
+        try:
+            lista = ",".join(str(c) for c in codusures_extraidos)
+            df_rca = carregar_dados(
+                f"SELECT CODUSUR, NOME FROM crc.PCUSUARI WHERE CODUSUR IN ({lista})",
+                engine, "comparativo_agendamento_rca",
+            )
+            df_rca.columns = df_rca.columns.str.upper()
+            for _, r in df_rca.iterrows():
+                nome_por_codusur[int(r['CODUSUR'])] = str(r['NOME'] or '').strip()
+        except Exception as e:
+            print(f"[AVISO] busca de RCA por código (PCUSUARI) falhou ({str(e)[:100]}) — mantém só o fallback do cliente.")
 
     resultado = []
     for msg_id, msg in cache.items():
@@ -433,16 +508,18 @@ def _construir_comparativo(cache: dict) -> list:
             if not itens_out:
                 continue
             fallback = cliente_info.get(cod_cli_num, {})
-            # A extração (HTML/OCR/vision) às vezes só pega o código do RCA,
-            # sem o nome (ex: '144'). Nesse caso o cadastro do cliente no
-            # Oracle (fallback, já vem como 'código - nome') é mais completo
-            # e deve prevalecer — só usa o que a extração leu se ela conseguiu
-            # também o nome.
-            rca_extraido = str(bloco.get('rca') or '').strip()
-            if rca_extraido and not re.fullmatch(r'\d+', rca_extraido):
-                rca_final = rca_extraido
+            # rca_extraido só numérico (código de verdade lido pela extração)
+            # resolve o nome contra PCUSUARI (nome_por_codusur, montado acima)
+            # — mais específico que o fallback do cliente (pode ser um RCA
+            # cobrindo temporariamente, diferente do CODUSUR1 cadastrado).
+            # Texto livre nunca é usado como nome (ver comentário acima) —
+            # cai direto pro RCA cadastrado do cliente.
+            rca_codigo = _rca_codigo(bloco.get('rca'))
+            if rca_codigo is not None:
+                nome = nome_por_codusur.get(rca_codigo)
+                rca_final = f"{rca_codigo} - {nome}" if nome else fallback.get('rca', '')
             else:
-                rca_final = fallback.get('rca', '') or rca_extraido
+                rca_final = fallback.get('rca', '')
             resultado.append({
                 'msg_id':       msg_id,
                 'subject':      msg.get('subject', ''),
@@ -567,6 +644,31 @@ def main():
         print("OK agendamento_data.js enviado ao GitHub Pages.")
     except subprocess.CalledProcessError:
         print("[AVISO] git push falhou — ignorado, pipeline continua.")
+
+    _publicar_static()
+
+
+# ── Publica direto em /opt/offtrade-static (site) ─────────────────────────────
+# Roda só na VPS — mesmo padrão de exportacao_pedidos_bloqueados.py::_publicar_static.
+# Sem isso, agendamento_data.js só chegava ao site via "git push" — que SEMPRE
+# falha na VPS (histórico divergente do clone local via SFTP, ver
+# deploy_pipeline_vps.py) — então o 'comparativo' que este script recalcula do
+# zero a cada hora nunca alcançava /opt/offtrade-static de verdade, deixando o
+# site preso numa versão velha ("está faltando pedidos atuais", confirmado
+# pelo usuário em 2026-08-26 — a VPS já tinha 332 itens no pipeline, mas o
+# site mostrava uma cópia bem mais antiga). exportacao_agendamento.py tem a
+# mesma chamada, já que os dois escrevem no mesmo arquivo merged.
+def _publicar_static():
+    if os.getenv("OFFTRADE_RUNTIME", "local") != "vps":
+        return
+    import shutil
+    destino = "/opt/offtrade-static"
+    if not DATA_PATH.exists():
+        return
+    tmp = os.path.join(destino, ".agendamento_data.js.tmp_publish")
+    shutil.copy(DATA_PATH, tmp)
+    os.replace(tmp, os.path.join(destino, "agendamento_data.js"))
+    print(f"OK - agendamento_data.js copiado para {destino}")
 
 
 if __name__ == "__main__":
