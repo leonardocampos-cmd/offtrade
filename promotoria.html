@@ -462,7 +462,7 @@ function _linhasFiltradas() {
   const ate = document.getElementById('data-ate').value;
   const base = aba === 'pesquisas' ? DATA.pesquisas : DATA.tarefas;
 
-  return base.filter(r => {
+  const filtradas = base.filter(r => {
     if (usuario && r.usuario !== usuario) return false;
     if (aba === 'pesquisas' && assunto) {
       const assuntosLinha = (r.assuntos || '').split(';').map(a => a.trim());
@@ -479,6 +479,12 @@ function _linhasFiltradas() {
     }
     return true;
   });
+  // Sem isso, a ordem era só "por usuário" (ordem de iteração do pipeline),
+  // não por data — quem visse a página 1 via achar que só tinha dado até o
+  // último dia do 1º usuário da lista, mesmo com atividade mais recente de
+  // outros usuários mais abaixo (achado pelo usuário em 2026-08-31).
+  filtradas.sort((a, b) => _parseDataBr(b.data).localeCompare(_parseDataBr(a.data)));
+  return filtradas;
 }
 
 function aplicarFiltro() {
