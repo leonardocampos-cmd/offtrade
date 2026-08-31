@@ -53,6 +53,13 @@
     .divider { width: 100%; display: flex; align-items: center; gap: 10px; font-size: .72rem; color: var(--muted); }
     .divider::before, .divider::after { content: ''; flex: 1; height: 1px; background: var(--border); }
     #google-btn-wrap { width: 100%; display: flex; justify-content: center; min-height: 44px; }
+    .google-btn {
+      width: 100%; max-width: 316px; height: 44px; display: flex; align-items: center; justify-content: center;
+      gap: 10px; background: #131314; color: #e3e3e3; border: 1px solid #8e918f; border-radius: 8px;
+      font-size: .92rem; font-weight: 500; font-family: 'Google Sans', Roboto, inherit; cursor: pointer;
+      transition: background .15s;
+    }
+    .google-btn:hover { background: #1a1a1b; }
     .erro { font-size: .82rem; color: var(--red); text-align: center; min-height: 20px; line-height: 1.4; }
 
     #loading-overlay {
@@ -112,12 +119,21 @@
     </form>
 
     <div class="divider" id="divider-google">ou</div>
-    <div id="google-btn-wrap"></div>
+    <div id="google-btn-wrap">
+      <button type="button" id="google-btn" class="google-btn">
+        <svg width="18" height="18" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg">
+          <path fill="#4285F4" d="M17.64 9.2c0-.64-.06-1.25-.16-1.84H9v3.48h4.84c-.21 1.13-.84 2.09-1.8 2.73v2.27h2.91c1.7-1.57 2.69-3.88 2.69-6.64z"/>
+          <path fill="#34A853" d="M9 18c2.43 0 4.47-.8 5.96-2.17l-2.91-2.27c-.81.54-1.84.86-3.05.86-2.34 0-4.33-1.58-5.04-3.71H.96v2.34C2.44 15.98 5.48 18 9 18z"/>
+          <path fill="#FBBC05" d="M3.96 10.71c-.18-.54-.28-1.11-.28-1.71s.1-1.17.28-1.71V4.95H.96C.35 6.17 0 7.55 0 9s.35 2.83.96 4.05l3-2.34z"/>
+          <path fill="#EA4335" d="M9 3.58c1.32 0 2.51.45 3.44 1.35l2.58-2.58C13.46.89 11.43 0 9 0 5.48 0 2.44 2.02.96 4.95l3 2.34C4.67 5.16 6.66 3.58 9 3.58z"/>
+        </svg>
+        <span>Entrar com Google</span>
+      </button>
+    </div>
 
     <div class="erro" id="erro"></div>
   </div>
 
-  <script src="https://accounts.google.com/gsi/client" async defer></script>
   <script>
     const AUTH_HASH = 'b4ba917b95850dc43cce91dba3be9fd1a4f029e18b81d6846a7183839c81d8dd';
     const EMAILS_OK = [
@@ -138,7 +154,7 @@
       'anderson.canaveis@rigarr.com.br',
     ];
 
-    // SSO com o Streamlit (Credito_e_Cadastro, Admin_Objetivos): mesmo domínio
+    // SSO com o Streamlit (Preco_Promo): mesmo domínio
     // (nginx roteia tudo por offtrade.duckdns.org), então um cookie aqui já
     // é lido por require_auth() do lado do Streamlit (CookieController lê
     // "offtrade_token" no mesmo formato que o próprio login OAuth2 salva) —
@@ -203,10 +219,11 @@
     // pra não expor a chave da Evolution API aqui no navegador. Best-effort:
     // se a rota falhar (offline, deploy pendente etc), não trava o login.
     //
-    // emailOverride: no fluxo Google (handleCredential), o e-mail real vem
-    // do JWT decodificado, não do campo #email (que só existe no fluxo de
-    // vendedor por PIN) — sem isso o alerta chegava com "E-mail: —",
-    // impossível de saber quem tentou logar (confirmado em 2026-07-24).
+    // emailOverride: no fluxo Google (_onGoogleCode), o e-mail real vem
+    // da troca de code em /api/auth/oauth/exchange, não do campo #email (que
+    // só existe no fluxo de vendedor por PIN) — sem isso o alerta chegava
+    // com "E-mail: —", impossível de saber quem tentou logar (confirmado em
+    // 2026-07-24).
     function _reportarErro(msg, emailOverride) {
       try {
         const rca = document.getElementById('rca').value.trim();
@@ -334,66 +351,111 @@
     });
 
     // ── Fluxo Google: vendedor @rigarr ou gestor (sem RCA) ───────
-    function handleCredential(response) {
+    // Desde 2026-08-31: em vez do "Sign in with Google" simples (só
+    // identidade, google.accounts.id), o botão manda pro fluxo OAuth
+    // completo em login_api.py (/api/auth/oauth/login), que também pede o
+    // escopo gmail.send — pedido explícito do usuário: quem loga com Google
+    // aqui já concede de uma vez a permissão de mandar e-mail pelo próprio
+    // Gmail (usada por credito_cadastro_api.py), em vez de um consentimento
+    // separado só na hora de mandar a solicitação de cadastro/alteração.
+    //
+    // Chegou a usar google.accounts.oauth2.initCodeClient com ux_mode:
+    // 'popup' (evitava navegar pra fora, preservando o campo #rca) — mas
+    // testado e descartado: bloqueio de popup é comum demais pra depender
+    // disso. Com redirect de página de verdade, o valor do RCA precisa
+    // viajar por fora do campo — vai via query string (?rca=) na ida e
+    // volta (login_api.py ecoa de volta em ?g=ok&rca=...).
+    function _iniciarLoginGoogle() {
+      showErro('');
+      const rca = document.getElementById('rca').value.trim();
+      location.href = '/api/auth/oauth/login?rca=' + encodeURIComponent(rca)
+        + '&voltar=' + encodeURIComponent(location.pathname);
+    }
+
+    // Depois do round-trip pelo Google, login_api.py já deixou o cookie
+    // COOKIE_GMAIL (offtrade_gmail_token) gravado — só falta descobrir QUAL
+    // e-mail (o backend não devolve isso na URL de propósito, pra não vazar
+    // e-mail no histórico do navegador) e rodar a MESMA lógica de decisão
+    // vendedor-vs-gestor que o fluxo por PIN já usa. /api/credito/oauth/status
+    // já existe e lê esse mesmo cookie (compartilhado, mesmo path="/") — sem
+    // precisar duplicar essa rota aqui.
+    async function _continuarAposGoogle(rca) {
       showErro('');
       showLoading();
-      const rca = document.getElementById('rca').value.trim();
-
-      let payload;
+      let dados;
       try {
-        const b64 = response.credential.split('.')[1].replace(/-/g, '+').replace(/_/g, '/');
-        payload = JSON.parse(atob(b64 + '='.repeat((4 - b64.length % 4) % 4)));
+        dados = await fetch('/api/credito/oauth/status').then(r => r.json());
       } catch {
-        showErro('Erro ao processar credencial. Tente novamente.');
+        showErro('Não foi possível confirmar o login do Google agora. Tente novamente.');
         return;
       }
-
-      const email = (payload.email || '').toLowerCase();
+      if (!dados.logado || !dados.email) {
+        showErro('Não foi possível confirmar seu e-mail do Google.');
+        return;
+      }
+      const email = dados.email.toLowerCase();
 
       // Vendedor com email @rigarr
       if (rca) {
         const candidatos = _candidatosPorRca(rca);
-        if (!candidatos.length) { showErro('RCA não encontrado.', email); google.accounts.id.revoke(email, () => {}); return; }
+        if (!candidatos.length) { showErro('RCA não encontrado.', email); return; }
         const vendedor = _acharPorEmail(candidatos, email);
         if (!vendedor) {
           showErro('E-mail não corresponde ao RCA informado.', email);
-          google.accounts.id.revoke(email, () => {});
           return;
         }
         sessionStorage.setItem('rg_vendedor', JSON.stringify({ rca, nome: vendedor.nome, email: vendedor.email, estado: vendedor.estado }));
-        _setSsoCookie(response.credential);
+        _setSsoCookieParaEmail(email);
         _doRedirect(rca, vendedor);
         return;
       }
 
       // Gestor (sem RCA)
       if (!EMAILS_OK.includes(email)) {
+        // Acesso restrito a UMA página específica (pedido do usuário em
+        // 2026-08-26) — NÃO marca rg_auth (o flag de "gestor completo" que
+        // as ~30 páginas com auth.js aceitam), só o cookie SSO + redireciona
+        // direto pra página permitida. A própria página faz a checagem
+        // desse e-mail (ver comentário no <head> de promotoria.html) — em
+        // qualquer outra página, esse e-mail cai no fluxo normal de rejeição.
+        const _ACESSO_RESTRITO = { 'joao.diniz@rigarr.com.br': 'promotoria.html' };
+        if (_ACESSO_RESTRITO[email]) {
+          _setSsoCookieParaEmail(email);
+          sessionStorage.removeItem('rg_redirect');
+          location.replace(_ACESSO_RESTRITO[email]);
+          return;
+        }
         showErro('E-mail não autorizado.', email);
-        google.accounts.id.revoke(email, () => {});
         return;
       }
       sessionStorage.setItem('rg_auth', AUTH_HASH);
       sessionStorage.setItem('rg_email', email);
-      _setSsoCookie(response.credential);
+      _setSsoCookieParaEmail(email);
 
       const redir = sessionStorage.getItem('rg_redirect') || '';
       sessionStorage.removeItem('rg_redirect');
       location.replace(redir || 'index.html');
     }
 
-    window.addEventListener('load', () => {
-      if (typeof google === 'undefined') return;
-      google.accounts.id.initialize({
-        client_id: '966004363576-ucdlgkjtsfffspp03fiqib2dchp012fs.apps.googleusercontent.com',
-        callback: handleCredential,
-        auto_select: false,
-        cancel_on_tap_outside: true,
-      });
-      google.accounts.id.renderButton(
-        document.getElementById('google-btn-wrap'),
-        { theme: 'filled_black', size: 'large', shape: 'rectangular', width: 316, locale: 'pt-BR' }
-      );
-    });
+    (function () {
+      const params = new URLSearchParams(location.search);
+      const g = params.get('g');
+      if (!g) return;
+      const rca = params.get('rca') || '';
+      history.replaceState(null, '', location.pathname);
+      // Restaura o RCA digitado ANTES de qualquer coisa (não só no erro de
+      // transporte) — sem isso, um erro de "e-mail não corresponde ao RCA"
+      // (que só se sabe depois da volta do Google) deixava o campo vazio,
+      // obrigando a pessoa a redigitar o RCA pra tentar de novo.
+      if (rca) document.getElementById('rca').value = rca;
+      if (g === 'erro') {
+        showErro('Login com Google cancelado ou recusado.');
+        return;
+      }
+      if (g === 'ok') _continuarAposGoogle(rca);
+    })();
+
+    document.getElementById('google-btn').addEventListener('click', _iniciarLoginGoogle);
   </script>
 </body>
 </html>

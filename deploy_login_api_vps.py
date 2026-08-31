@@ -35,7 +35,7 @@ HERE = Path(__file__).parent
 
 APP_FILES = ["login_api.py"]
 
-REQUIREMENTS = "flask\noracledb\nsqlalchemy\npandas\npython-dotenv\n"
+REQUIREMENTS = "flask\noracledb\nsqlalchemy\npandas\npython-dotenv\nrequests\n"
 
 SYSTEMD_UNIT = f"""[Unit]
 Description=Login API - validacao de senha de vendedor (Flask)

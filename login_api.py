@@ -14,16 +14,49 @@ informado pra desempatar, igual exportacao_vendedores_auth.py já faz.
 Uso local: python login_api.py  (abre em http://localhost:5051)
 Na VPS roda atrás do nginx em /api/auth/ (ver deploy_login_api_vps.py).
 """
+import base64
+import json
 import os
-from urllib.parse import quote_plus
+import time
+from urllib.parse import quote_plus, urlencode
 
 import oracledb
 import pandas as pd
+import requests
 from sqlalchemy import create_engine, text
 from dotenv import load_dotenv
-from flask import Flask, Blueprint, request
+from flask import Flask, Blueprint, request, jsonify, redirect
 
 load_dotenv()
+
+# ── OAuth Google (login unificado: identidade + permissão de Gmail) ────────
+# Pedido do usuário em 2026-08-31: quem loga com Google (vendedor ou gestor)
+# já concede de uma vez a permissão de mandar e-mail pelo próprio Gmail
+# (usada por credito_cadastro_api.py), em vez de um consentimento separado
+# só na hora de mandar a solicitação de cadastro. Mesmo Client ID/Secret já
+# usados por credito_cadastro_api.py ("Cliente Web 2" no Google Cloud
+# Console) — evita credencial nova; só precisou adicionar essa origem/redirect
+# na lista de autorizados de lá.
+GOOGLE_CLIENT_ID     = os.getenv("GOOGLE_CLIENT_ID", "")
+GOOGLE_CLIENT_SECRET = os.getenv("GOOGLE_CLIENT_SECRET", "")
+# COOKIE_GMAIL fica em path="/" (não só /api/auth/) de propósito — precisa
+# ser lido também por credito_cadastro_api.py (/api/credito/) e por qualquer
+# outra rota futura que precise mandar e-mail como a pessoa logada.
+COOKIE_GMAIL   = "offtrade_gmail_token"
+COOKIE_MAX_AGE = 60 * 60 * 24 * 30  # 30 dias — refresh_token não expira sozinho
+
+
+def _decode_email_id_token(id_token: str) -> str:
+    """Mesmo decode 'cru' (sem verificar assinatura) que login.html já fazia
+    do lado do cliente com o id_token do GSI — só pra exibição/matching de
+    e-mail, não é usado como prova de identidade em nenhuma decisão de
+    segurança adicional além do que já existia."""
+    try:
+        payload = id_token.split(".")[1]
+        payload += "=" * (-len(payload) % 4)
+        return json.loads(base64.urlsafe_b64decode(payload)).get("email", "")
+    except Exception:
+        return ""
 
 oracledb.init_oracle_client(lib_dir=os.getenv("ORACLE_LIB", "/opt/oracle/instantclient_21_1"))
 
@@ -118,6 +151,85 @@ def login_vendedor():
         return {"ok": False, "motivo": "Senha incorreta."}, 200
 
     return {"ok": True, "nome": vendedor["nome"], "estado": vendedor["estado"], "email": vendedor["email"]}, 200
+
+
+OAUTH_REDIRECT_URI = "https://offtrade.duckdns.org/api/auth/oauth/callback"
+OAUTH_SCOPE = "openid email profile https://www.googleapis.com/auth/gmail.send"
+
+
+@bp.route("/oauth/login")
+def oauth_login():
+    """Redirect completo (não popup — testado e descartado: bloqueio de
+    popup é comum demais pra depender disso) pro consentimento do Google.
+    'rca' e 'voltar' viajam no 'state' (não são segredo, só preservam o que
+    a pessoa tinha digitado no formulário antes de sair da página) e voltam
+    intactos em /oauth/callback."""
+    rca    = request.args.get("rca", "")
+    voltar = request.args.get("voltar", "/login.html")
+    if not voltar.startswith("/"):
+        voltar = "/login.html"
+    state = base64.urlsafe_b64encode(json.dumps({"rca": rca, "voltar": voltar}).encode()).decode()
+    params = {
+        "client_id": GOOGLE_CLIENT_ID,
+        "redirect_uri": OAUTH_REDIRECT_URI,
+        "response_type": "code",
+        "scope": OAUTH_SCOPE,
+        "access_type": "offline",
+        # "consent" força a tela de consentimento mesmo pra quem já autorizou
+        # antes — sem isso o Google só devolve refresh_token na 1ª vez, e sem
+        # refresh_token a permissão de Gmail expira em ~1h sem como renovar.
+        "prompt": "select_account consent",
+        "state": state,
+    }
+    return redirect("https://accounts.google.com/o/oauth2/v2/auth?" + urlencode(params))
+
+
+@bp.route("/oauth/callback")
+def oauth_callback():
+    code  = request.args.get("code")
+    state = request.args.get("state", "")
+    rca, voltar = "", "/login.html"
+    try:
+        decoded = json.loads(base64.urlsafe_b64decode(state.encode()).decode())
+        rca    = decoded.get("rca", "")
+        voltar = decoded.get("voltar", "/login.html")
+        if not voltar.startswith("/"):
+            voltar = "/login.html"
+    except Exception:
+        pass
+
+    def _erro():
+        sep = "&" if "?" in voltar else "?"
+        return redirect(f"{voltar}{sep}g=erro&rca={rca}")
+
+    if not code:
+        return _erro()
+
+    try:
+        resp = requests.post("https://oauth2.googleapis.com/token", data={
+            "code": code,
+            "client_id": GOOGLE_CLIENT_ID,
+            "client_secret": GOOGLE_CLIENT_SECRET,
+            "redirect_uri": OAUTH_REDIRECT_URI,
+            "grant_type": "authorization_code",
+        }, timeout=10)
+        resp.raise_for_status()
+        token = resp.json()
+    except Exception as e:
+        print(f"[OAUTH] troca de code falhou: {str(e)[:300]}")
+        return _erro()
+
+    token["expires_at"] = time.time() + token.get("expires_in", 3600)
+    email = _decode_email_id_token(token.get("id_token", ""))
+    if not email:
+        return _erro()
+    token["email"] = email
+
+    sep = "&" if "?" in voltar else "?"
+    destino = redirect(f"{voltar}{sep}g=ok&rca={rca}")
+    destino.set_cookie(COOKIE_GMAIL, json.dumps(token), httponly=True, secure=True,
+                        samesite="Lax", max_age=COOKIE_MAX_AGE, path="/")
+    return destino
 
 
 app.register_blueprint(bp)
