@@ -26439,7 +26439,7 @@ const AGENDAMENTO_DATA = {
           "nf": "7101",
           "data_agendamento": "31/08/2026",
           "data_ord": "2026-08-31",
-          "status": "FATURADO",
+          "status": "CANCELADO",
           "obs": "",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -27259,7 +27259,7 @@ const AGENDAMENTO_DATA = {
       ]
     }
   ],
-  "atualizado_em": "31/08/2026 14:58",
+  "atualizado_em": "31/08/2026 15:53",
   "comparativo": [
     {
       "msg_id": "1a01bc9a975c4cab",
