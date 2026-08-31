@@ -115,14 +115,14 @@
       const vendedores = METAS_DATA.vendedores;
       const stats = vendedores.map(v => {
         const vendas    = (VENDAS_DATA.por_vendedor[v.nome] || {})[mes] || [];
-        const pernodV   = vendas.filter(s => s.offtrade && s.fantasia && s.fantasia.toUpperCase().includes('PERNOD'));
+        const pernodV   = vendas.filter(s => !s.devolvido && s.fantasia && s.fantasia.toUpperCase().includes('PERNOD'));
         const paresMap  = new Map();
         for (const sv of pernodV) {
           const key = `${sv.codcli}|${sv.produto}`;
           if (!paresMap.has(key)) paresMap.set(key, sv.produto);
         }
         let bonus = 0;
-        for (const [, prod] of paresMap) bonus += prod.toUpperCase().includes('JAMERSON') ? 10 : 5;
+        for (const [, prod] of paresMap) bonus += prod.toUpperCase().includes('JAMESON') ? 10 : 5;
         return {
           nome:     v.nome,
           bonus,
@@ -133,7 +133,7 @@
 
       const todaPernod  = vendedores.flatMap(v =>
         ((VENDAS_DATA.por_vendedor[v.nome] || {})[mes] || [])
-        .filter(s => s.offtrade && s.fantasia && s.fantasia.toUpperCase().includes('PERNOD'))
+        .filter(s => !s.devolvido && s.fantasia && s.fantasia.toUpperCase().includes('PERNOD'))
       );
       const posTotal  = new Set(todaPernod.map(s => s.codcli)).size;
       const tdpTotal  = new Set(todaPernod.map(s => `${s.codcli}|${s.produto}`)).size;

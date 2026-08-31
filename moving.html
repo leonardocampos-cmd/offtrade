@@ -202,6 +202,11 @@
         const itens = (vd.por_vendedor[nomeVendedor] || {})[mes] || [];
         for (const it of itens) {
           if (it.tipo !== 'Venda') continue;
+          // 'tipo' só marca 'Devolução' na linha ED em si — uma venda com
+          // CODOPER='S' que foi devolvida depois (NUMNOTADEV) continua com
+          // tipo='Venda', mas com devolvido=true. Sem esse check ela ainda
+          // entrava no prêmio (achado em auditoria de 2026-08-25).
+          if (it.devolvido) continue;
           if (!(it.produto || '').toUpperCase().includes('MOVING')) continue;
           const dt = _parseDt(it.data);
           if (dt >= CAMP_INI && dt <= CAMP_FIM) total += it.valor || 0;
