@@ -163,6 +163,7 @@
     // ── Login Google (envio pelo Gmail do próprio RCA — sem isso não envia) ──
     let GOOGLE_LOGADO = false;
     let GOOGLE_EMAIL  = '';
+    let GOOGLE_NOME   = '';
 
     function linkEntrarGoogle() {
       const voltar = location.pathname + location.search.replace(/[?&]google=(ok|erro)/, '');
@@ -189,6 +190,7 @@
         const d = await r.json();
         GOOGLE_LOGADO = !!d.logado;
         GOOGLE_EMAIL  = d.email || '';
+        GOOGLE_NOME   = d.nome || '';
       } catch {
         GOOGLE_LOGADO = false;
       }
@@ -329,56 +331,45 @@
       if (bloqueio) return;
 
       // ── RCA solicitante ──────────────────────────────────────────────────
+      // Vendedor: já sabe quem é (RCA_ATUAL.nome/codusur, vem do login).
+      // Gestor: usa o nome de quem logou com Google (sem RCA nenhum) —
+      // pedido do usuário em 2026-08-31, antes pedia digitar um código de
+      // RCA manualmente, mas isso não faz sentido pro gestor solicitar em
+      // nome próprio.
       const rcaWrap = document.createElement('div');
-      if (!RCA_ATUAL.admin) {
-        rcaWrap.innerHTML = `<div class="msg msg-info">RCA: ${esc(RCA_ATUAL.nome)} (cód. ${esc(RCA_ATUAL.codusur)})</div>`;
-      } else {
-        rcaWrap.innerHTML = `
-          <div class="field">
-            <label for="codusur-manual">Código do RCA (CODUSUR)</label>
-            <input class="field-input" id="codusur-manual" type="text" inputmode="numeric" placeholder="Ex: 12">
-          </div>
-          <div id="codusur-status"></div>`;
-      }
+      const rcaResolvido = _resolverRcaSolicitante(rcaWrap);
       resultado.appendChild(rcaWrap);
 
       const btnSolicitar = document.createElement('button');
       btnSolicitar.className = 'btn btn-primary btn-block';
       btnSolicitar.textContent = 'Solicitar cadastro por e-mail';
-      btnSolicitar.disabled = !RCA_ATUAL.admin ? false : true;
+      btnSolicitar.style.display = rcaResolvido ? '' : 'none';
       resultado.appendChild(btnSolicitar);
 
       const areaAcao = document.createElement('div');
       resultado.appendChild(areaAcao);
 
-      let rcaResolvido = RCA_ATUAL.admin ? null : { nome: RCA_ATUAL.nome, codusur: RCA_ATUAL.codusur };
-
-      if (RCA_ATUAL.admin) {
-        const inputCod = rcaWrap.querySelector('#codusur-manual');
-        const statusEl = rcaWrap.querySelector('#codusur-status');
-        let lookupDebounce = null;
-        inputCod.addEventListener('input', () => {
-          clearTimeout(lookupDebounce);
-          rcaResolvido = null;
-          btnSolicitar.disabled = true;
-          statusEl.innerHTML = '';
-          const cod = inputCod.value.trim();
-          if (!cod) return;
-          if (!/^\d+$/.test(cod)) { statusEl.innerHTML = '<div class="msg msg-error">Digite apenas números.</div>'; return; }
-          lookupDebounce = setTimeout(async () => {
-            const r = await api('/rca?codusur=' + encodeURIComponent(cod));
-            if (r.data.ok) {
-              rcaResolvido = { nome: r.data.nome, codusur: cod };
-              statusEl.innerHTML = `<div class="msg msg-ok">RCA: ${esc(r.data.nome)} (cód. ${esc(cod)})</div>`;
-              btnSolicitar.disabled = false;
-            } else {
-              statusEl.innerHTML = `<div class="msg msg-error">${esc(r.data.motivo || 'RCA não encontrado.')}</div>`;
-            }
-          }, 400);
-        });
-      }
-
       btnSolicitar.addEventListener('click', () => enviarCadastro(cnpjLimpo, rcaResolvido, btnSolicitar, areaAcao, false));
+    }
+
+    // RCA solicitante: vendedor mostra o próprio RCA (fixo); gestor mostra o
+    // nome de quem logou com Google (fixo também, sem input nenhum) — se o
+    // gestor ainda não passou pelo login com Google (sessão antiga, de
+    // antes da unificação), pede pra entrar. Retorna o objeto {nome,
+    // codusur} pronto pra mandar — codusur vem vazio pro gestor (backend
+    // trata como opcional, ver _formatar_solicitante em credito_cadastro_api.py).
+    function _resolverRcaSolicitante(wrap) {
+      if (!RCA_ATUAL.admin) {
+        wrap.innerHTML = `<div class="msg msg-info">RCA: ${esc(RCA_ATUAL.nome)} (cód. ${esc(RCA_ATUAL.codusur)})</div>`;
+        return { nome: RCA_ATUAL.nome, codusur: RCA_ATUAL.codusur };
+      }
+      if (!GOOGLE_LOGADO) {
+        wrap.innerHTML = htmlBotaoGoogle('Entre com sua conta Google pra solicitar em seu nome.');
+        return null;
+      }
+      const nomeExibicao = GOOGLE_NOME || GOOGLE_EMAIL;
+      wrap.innerHTML = `<div class="msg msg-info">Solicitando como: <b>${esc(nomeExibicao)}</b></div>`;
+      return { nome: nomeExibicao, codusur: '' };
     }
 
     async function enviarCadastro(cnpjLimpo, rcaInfo, btn, areaAcao, forcar) {
@@ -516,6 +507,7 @@
       div.innerHTML = `
 <div class="card">
   <div style="font-weight:700;margin-bottom:12px">✏️ Alteração de Cadastro</div>
+  <div id="rca-solicitante-alt"></div>
   <label>Quais informações precisam ser atualizadas?</label>
   <div class="chip-wrap" id="chips-campos"></div>
   <div id="campos-valores"></div>
@@ -524,7 +516,16 @@
       const chipsWrap = div.querySelector('#chips-campos');
       const valoresWrap = div.querySelector('#campos-valores');
       const areaEnvio = div.querySelector('#area-envio-alt');
+      const rcaWrap = div.querySelector('#rca-solicitante-alt');
       const selecionados = new Set();
+
+      // RCA solicitante — mesma resolução de renderNaoEncontrado(): vendedor
+      // mostra o próprio RCA (fixo); gestor mostra o nome de quem logou com
+      // Google, sem precisar digitar código nenhum (pedido do usuário em
+      // 2026-08-31 — a versão anterior pedia CODUSUR manual, mas backend
+      // recusava com "Dados incompletos" antes disso existir, e depois o
+      // usuário pediu pra nem pedir código, só usar o nome do login).
+      const rcaResolvido = _resolverRcaSolicitante(rcaWrap);
 
       CAMPOS_ALT.forEach(campo => {
         const chip = document.createElement('div');
@@ -560,13 +561,17 @@
             areaEnvio.innerHTML = '<div class="msg msg-warn">Preencha ao menos um novo valor antes de enviar.</div>';
             return;
           }
-          enviarAlteracao(c, preenchidos, btn, areaEnvio, false);
+          if (!rcaResolvido) {
+            areaEnvio.innerHTML = htmlBotaoGoogle('Entre com sua conta Google pra enviar.');
+            return;
+          }
+          enviarAlteracao(c, preenchidos, rcaResolvido, btn, areaEnvio, false);
         });
         areaEnvio.appendChild(btn);
       }
     }
 
-    async function enviarAlteracao(c, campos, btn, areaEnvio, forcar) {
+    async function enviarAlteracao(c, campos, rcaInfo, btn, areaEnvio, forcar) {
       btn.disabled = true;
       const statusDiv = document.createElement('div');
       areaEnvio.appendChild(statusDiv);
@@ -578,7 +583,7 @@
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({
             codcli: c.codcli, fonte: c.fonte, nome_cliente: c.nome, cnpj: c.cnpj,
-            campos, rca_nome: RCA_ATUAL.nome, rca_codusur: RCA_ATUAL.codusur, forcar,
+            campos, rca_nome: rcaInfo.nome, rca_codusur: rcaInfo.codusur, forcar,
           }),
         });
       } catch {
@@ -604,7 +609,7 @@
             <button class="btn" id="btn-conf-alt">Enviar mesmo assim</button>
             <button class="btn" id="btn-canc-alt">Cancelar</button>
           </div>`;
-        statusDiv.querySelector('#btn-conf-alt').addEventListener('click', () => { statusDiv.innerHTML = ''; enviarAlteracao(c, campos, btn, areaEnvio, true); });
+        statusDiv.querySelector('#btn-conf-alt').addEventListener('click', () => { statusDiv.innerHTML = ''; enviarAlteracao(c, campos, rcaInfo, btn, areaEnvio, true); });
         statusDiv.querySelector('#btn-canc-alt').addEventListener('click', () => { statusDiv.innerHTML = ''; btn.disabled = false; });
       } else {
         statusDiv.innerHTML = `<div class="msg msg-error">${esc(d.motivo || 'Erro ao enviar a solicitação.')}</div>`;

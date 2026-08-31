@@ -343,16 +343,27 @@ def _texto_cnpj_email(cnpj_limpo: str) -> str | None:
 
 # ── Gmail do RCA solicitante (OAuth por usuário) ────────────────────────────
 
-def _decode_email_id_token(id_token: str) -> str:
+def _decode_claims_id_token(id_token: str) -> dict:
     """Mesmo decode 'cru' (sem verificar assinatura) que utils.py::_decode_email
-    já usa pro login do app Streamlit — só pra exibição/From, não é usado como
-    prova de identidade em nenhuma decisão de autorização."""
+    já usa pro login do app Streamlit — só pra exibição/From/nome de exibição,
+    não é usado como prova de identidade em nenhuma decisão de autorização."""
     try:
         payload = id_token.split(".")[1]
         payload += "=" * (-len(payload) % 4)
-        return json.loads(base64.urlsafe_b64decode(payload)).get("email", "")
+        return json.loads(base64.urlsafe_b64decode(payload))
     except Exception:
-        return ""
+        return {}
+
+
+def _decode_email_id_token(id_token: str) -> str:
+    return _decode_claims_id_token(id_token).get("email", "")
+
+
+def _formatar_solicitante(nome: str, codusur: str) -> str:
+    """Gestor solicitando em nome próprio (sem RCA, pedido do usuário em
+    2026-08-31) manda codusur vazio — nesse caso mostra só o nome, sem o
+    "(cód. )" vazio e esquisito."""
+    return f"{nome} (cód. {codusur})" if codusur else nome
 
 
 def _token_valido_ou_renovado(token: dict):
@@ -586,10 +597,12 @@ def oauth_status():
         token = json.loads(raw_cookie)
     except Exception:
         return {"logado": False}
-    # Só informativo (pra exibir "enviando como fulano@..." na tela) — não
-    # renova nem valida contra o Google aqui; a renovação de verdade só
-    # acontece na hora de enviar (_enviar_email_como_rca).
-    return {"logado": bool(token.get("access_token")), "email": token.get("email", "")}
+    # Só informativo (pra exibir "enviando como fulano@..." na tela, e o nome
+    # de exibição pro gestor solicitar sem digitar RCA) — não renova nem
+    # valida contra o Google aqui; a renovação de verdade só acontece na
+    # hora de enviar (_enviar_email_como_rca).
+    nome = _decode_claims_id_token(token.get("id_token", "")).get("name", "")
+    return {"logado": bool(token.get("access_token")), "email": token.get("email", ""), "nome": nome}
 
 
 @bp.route("/oauth/logout", methods=["POST"])
@@ -660,7 +673,10 @@ def cadastro():
     rca_codusur  = str(dados.get("rca_codusur", "")).strip()[:20]
     forcar       = bool(dados.get("forcar"))
 
-    if len(cnpj_limpo) != 14 or not rca_nome or not rca_codusur:
+    # rca_codusur é opcional — gestor solicitando em nome próprio (sem
+    # digitar código de RCA nenhum, pedido do usuário em 2026-08-31) manda
+    # só o nome, vindo da conta Google logada.
+    if len(cnpj_limpo) != 14 or not rca_nome:
         return {"ok": False, "motivo": "Dados incompletos."}, 400
 
     duplicata = _cadastro_ja_solicitado(cnpj_limpo)
@@ -671,9 +687,10 @@ def cadastro():
     if not dados_receita:
         return {"ok": False, "motivo": "Não foi possível confirmar o CNPJ na Receita Federal agora — e-mail NÃO enviado por segurança. Tente novamente."}
 
+    solicitante = _formatar_solicitante(rca_nome, rca_codusur)
     corpo = (
         f"{_saudacao()},\n\nSolicito o cadastramento do cliente:\n\n"
-        f"RCA Solicitante  : {rca_nome} (cód. {rca_codusur})\n\n"
+        f"RCA Solicitante  : {solicitante}\n\n"
         f"Dados da Receita Federal:\n\n{dados_receita}\n\n"
         f"Podem realizar o cadastro?\n\nObrigado!"
     )
@@ -689,7 +706,7 @@ def cadastro():
     _registrar_solicitacao("novo_cadastro", {
         "cnpj": cnpj_limpo,
         "data": _agora(),
-        "rca": f"{rca_nome} (cód. {rca_codusur})",
+        "rca": solicitante,
     })
     return resp
 
@@ -710,18 +727,20 @@ def alteracao():
     campos       = dados.get("campos") or {}
     preenchidos  = {c: str(v).strip() for c, v in campos.items() if str(v).strip()}
 
-    if not fonte or not preenchidos or not rca_nome or not rca_codusur:
+    # rca_codusur é opcional — ver mesmo comentário em cadastro().
+    if not fonte or not preenchidos or not rca_nome:
         return {"ok": False, "motivo": "Dados incompletos."}, 400
 
     duplicadas = _alteracoes_duplicadas(codcli, fonte, preenchidos)
     if duplicadas and not forcar:
         return {"ok": False, "duplicadas": duplicadas}
 
+    solicitante = _formatar_solicitante(rca_nome, rca_codusur)
     linhas_campos = "\n".join(f"{c}: {v}" for c, v in preenchidos.items())
     corpo = (
         f"Solicito a atualização de cadastro do cliente:\n\n"
         f"Cliente: {nome_cliente} ({cnpj_fmt}) — Cód. {codcli}\n"
-        f"RCA Solicitante: {rca_nome} (cód. {rca_codusur})\n\n"
+        f"RCA Solicitante: {solicitante}\n\n"
         f"Campos a alterar:\n{linhas_campos}\n\n"
         f"Podem realizar a atualização?\n\nObrigado!"
     )
@@ -742,7 +761,7 @@ def alteracao():
             "campo": campo,
             "novo_valor": valor,
             "data": agora,
-            "rca": f"{rca_nome} (cód. {rca_codusur})",
+            "rca": solicitante,
         })
     return resp
 
