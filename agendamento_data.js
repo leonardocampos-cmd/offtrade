@@ -67,6 +67,20 @@ const AGENDAMENTO_DATA = {
           "justificativa_logistica": ""
         },
         {
+          "codigo_cliente": "2710",
+          "cliente": "MERCADO BAMBINA LTDA",
+          "cnpj": "33.226.663/0001-88",
+          "filial": "BOTAFOGO",
+          "valor": 899.4,
+          "nf": "",
+          "data_agendamento": "01/09/2026",
+          "data_ord": "2026-09-01",
+          "status": "A FATURAR",
+          "obs": "",
+          "status_logistica": "",
+          "justificativa_logistica": ""
+        },
+        {
           "codigo_cliente": "8984",
           "cliente": "SUPERMERCADO ULTRA 07 LTDA",
           "cnpj": "27220597000136",
@@ -795,7 +809,7 @@ const AGENDAMENTO_DATA = {
           "nf": "7920",
           "data_agendamento": "27/08/2026",
           "data_ord": "2026-08-27",
-          "status": "EM ROTA",
+          "status": "ENTREGUE",
           "obs": "",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -809,7 +823,7 @@ const AGENDAMENTO_DATA = {
           "nf": "7828",
           "data_agendamento": "25/08/2026",
           "data_ord": "2026-08-25",
-          "status": "EM ROTA",
+          "status": "CANCELADO",
           "obs": "Caixas e rótulos íntegros. VALIDADE ACIMA DE 5 MESES",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -4025,10 +4039,24 @@ const AGENDAMENTO_DATA = {
           "filial": "INHAUMA",
           "valor": 6960.0,
           "nf": "",
-          "data_agendamento": "01/09/2026",
-          "data_ord": "2026-09-01",
+          "data_agendamento": "03/09/2026",
+          "data_ord": "2026-09-03",
           "status": "A FATURAR",
           "obs": "(PAGAMENTO NO PIX) - CADA SKU EM PALETTS DIFERENTES -  PALLET TEM QUE SER FILMADO",
+          "status_logistica": "",
+          "justificativa_logistica": ""
+        },
+        {
+          "codigo_cliente": "6278",
+          "cliente": "SUPERMERCADOS MUNDIAL LTDA",
+          "cnpj": "33.304.981/0001-10",
+          "filial": "INHAUMA",
+          "valor": 719.4,
+          "nf": "",
+          "data_agendamento": "03/09/2026",
+          "data_ord": "2026-09-03",
+          "status": "A FATURAR",
+          "obs": "BONIFICAÇÃO/ A/C COMPRADOR RODRIGO",
           "status_logistica": "",
           "justificativa_logistica": ""
         },
@@ -6441,7 +6469,7 @@ const AGENDAMENTO_DATA = {
           "nf": "7877",
           "data_agendamento": "25/08/2026",
           "data_ord": "2026-08-25",
-          "status": "EM ROTA",
+          "status": "ENTREGUE",
           "obs": "",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -17827,7 +17855,7 @@ const AGENDAMENTO_DATA = {
           "nf": "7851",
           "data_agendamento": "26/08/2026",
           "data_ord": "2026-08-26",
-          "status": "EM ROTA",
+          "status": "ENTREGUE",
           "obs": "CONTATO 21974318449 (VITORIA)",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -17841,7 +17869,7 @@ const AGENDAMENTO_DATA = {
           "nf": "7865",
           "data_agendamento": "26/08/2026",
           "data_ord": "2026-08-26",
-          "status": "EM ROTA",
+          "status": "ENTREGUE",
           "obs": "CONTATO 21974318449 (VITORIA)",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -17869,7 +17897,7 @@ const AGENDAMENTO_DATA = {
           "nf": "7872",
           "data_agendamento": "25/08/2026",
           "data_ord": "2026-08-25",
-          "status": "EM ROTA",
+          "status": "ENTREGUE",
           "obs": "DESCARGA: R$25,00 POR PALLET PALETIZADO - CARRO DEDICADO.",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -17883,7 +17911,7 @@ const AGENDAMENTO_DATA = {
           "nf": "7850",
           "data_agendamento": "24/08/2026",
           "data_ord": "2026-08-24",
-          "status": "EM ROTA",
+          "status": "ENTREGUE",
           "obs": "CONTATO 21974318449 (VITORIA)",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -17897,7 +17925,7 @@ const AGENDAMENTO_DATA = {
           "nf": "7745",
           "data_agendamento": "24/08/2026",
           "data_ord": "2026-08-24",
-          "status": "EM ROTA",
+          "status": "ENTREGUE",
           "obs": "SUPERMERCADO SUPERMAKET - PRODUTOS EM ENCARTE",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -17925,7 +17953,7 @@ const AGENDAMENTO_DATA = {
           "nf": "7852",
           "data_agendamento": "24/08/2026",
           "data_ord": "2026-08-24",
-          "status": "EM ROTA",
+          "status": "ENTREGUE",
           "obs": "CONTATO 21974318449 (VITORIA)",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -17939,7 +17967,7 @@ const AGENDAMENTO_DATA = {
           "nf": "7752",
           "data_agendamento": "24/08/2026",
           "data_ord": "2026-08-24",
-          "status": "EM ROTA",
+          "status": "ENTREGUE",
           "obs": "Caixas e rótulos íntegros;",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -17953,7 +17981,7 @@ const AGENDAMENTO_DATA = {
           "nf": "7749",
           "data_agendamento": "24/08/2026",
           "data_ord": "2026-08-24",
-          "status": "EM ROTA",
+          "status": "ENTREGUE",
           "obs": "Caixas e rótulos íntegros;",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -17967,7 +17995,7 @@ const AGENDAMENTO_DATA = {
           "nf": "7855",
           "data_agendamento": "24/08/2026",
           "data_ord": "2026-08-24",
-          "status": "EM ROTA",
+          "status": "ENTREGUE",
           "obs": "CONTATO 21974318449 (VITORIA)",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -23201,7 +23229,7 @@ const AGENDAMENTO_DATA = {
           "nf": "7785",
           "data_agendamento": "24/08/2026",
           "data_ord": "2026-08-24",
-          "status": "EM ROTA",
+          "status": "ENTREGUE",
           "obs": "ENVIAR UM DIA ANTES O XML DO E-MAIL (nfehs@casadoarroz.com.br)                                    De 0 a 15 volumes R$ 15,00\nDe 16 a 30 Volumes R$ 22,00\nRemontagem de Pallet  R$ 45,00\nMercado AGENDADO",
           "status_logistica": "",
           "justificativa_logistica": ""
@@ -27189,7 +27217,7 @@ const AGENDAMENTO_DATA = {
       ]
     }
   ],
-  "atualizado_em": "31/08/2026 16:41",
+  "atualizado_em": "31/08/2026 17:47",
   "comparativo": [
     {
       "msg_id": "1a01bc9a975c4cab",
