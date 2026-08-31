@@ -84,7 +84,7 @@ def _query_pedidos(schema, extra_nomes=None, filiais=None):
     nome_f = _nome_filter(extra_nomes)
     filial_f = f"AND PED.CODFILIAL IN ({','.join(map(str, filiais))})" if filiais else ""
     return f"""
-        SELECT PED.NUMPED, PED.NUMNOTA, PED.NOME, PED.DATA, PED.CODUSUR, PED.CLIENTE, PED.STATUS,
+        SELECT PED.NUMPED, PED.NUMNOTA, PED.NOME, PED.DATA, PED.CODUSUR, PED.CLIENTE, PED.CODCLI, PED.STATUS,
                PED.DESCRICAO, PED.PVENDA, PED.QT, PED.QTFALTA, PED.TOTAL, PED.OBSENTREGA1, PC.OBSENTREGA2,
                PC.NUMPEDCLI,
                PED.FUNC_CANCEL, PC.POSICAO, PC.MOTIVOPOSICAO, PC.VLBONIFIC, PED.CODPROD, PED.CODFILIAL,
@@ -818,6 +818,7 @@ def _agrupar(df, com_status_log=False):
             'data_ord':   data_dt.strftime('%Y-%m-%d') if pd.notna(data_dt) else '',
             'nome':       _s(r0['NOME']),
             'cliente':    _s(r0['CLIENTE']),
+            'codcli':     _int_s(r0['CODCLI']),
             'sistema':    _s(sistema),
             'estado':     _s(r0['ESTADO']),
             'cidade':     _s(r0['CIDADE']),

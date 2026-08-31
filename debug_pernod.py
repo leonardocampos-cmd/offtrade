@@ -48,7 +48,7 @@ if leandro.empty:
     print("Nenhuma venda Pernod encontrada para Leandro neste mês.")
 else:
     pares_unicos  = leandro.drop_duplicates(subset=['CODCLI', 'PRODUTO'])
-    mask_jamerson = pares_unicos['PRODUTO'].str.contains('JAMERSON', case=False, na=False)
+    mask_jamerson = pares_unicos['PRODUTO'].str.contains('JAMESON', case=False, na=False)
     jamerson_pares = pares_unicos[mask_jamerson]
     outros_pares   = pares_unicos[~mask_jamerson]
 
