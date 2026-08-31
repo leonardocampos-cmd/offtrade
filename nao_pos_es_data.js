@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_es.py
 
 const NAO_POS_ES_DATA = {
-  "atualizado_em": "31/08/2026 12:25",
+  "atualizado_em": "31/08/2026 14:06",
   "por_vendedor": {
     "ADEILSON GONÇALVEZ": [
       {
@@ -8399,6 +8399,20 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
+        "codcli": "80841",
+        "cliente": "48.540.552 DION LOOSE NICKEL",
+        "bairro": "BARRA DO SAHY",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "80721",
+        "cliente": "48.807.277 GERALDO LUIZ JESUINO",
+        "bairro": "BARRA DO SAHY",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
         "codcli": "79682",
         "cliente": "55.066.786 JOSE GUILHERME DE FARIA TRINDADE",
         "bairro": "ITAPEBUSSU",
@@ -8434,6 +8448,20 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
+        "codcli": "94632",
+        "cliente": "62.310.293 CARLA SANTANA RIBEIRO",
+        "bairro": "SEGATO",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "94519",
+        "cliente": "63.861.401 ALZENIRA CYRILLO IMBERTI",
+        "bairro": "GUARANA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
         "codcli": "96181",
         "cliente": "66.173.917 CONCEICAO LEAL DOS SANTOS",
         "bairro": "MUQUIÇABA",
@@ -8441,9 +8469,44 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
+        "codcli": "76349",
+        "cliente": "A. CAPELINI BAR E LANCHONETE",
+        "bairro": "JARDINS",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
         "codcli": "91565",
         "cliente": "ANTONIO JOSE DA SILVA JUNIOR LTDA",
         "bairro": "SANTA MÔNICA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "77091",
+        "cliente": "ARPOADOR COMERCIO DE MEDICAMENTOS LTDA",
+        "bairro": "CENTRO",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "76538",
+        "cliente": "ARPOADOR COMERCIO DE MEDICAMENTOS LTDA",
+        "bairro": "COQUEIRAL",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "76558",
+        "cliente": "ARPOADOR COMERCIO DE MEDICAMENTOS LTDA",
+        "bairro": "CENTRO",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "85201",
+        "cliente": "BIG MAIS PADARIA E AUTO SERVICO M. C. LTDA",
+        "bairro": "BARRA DO RIACHO",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -8469,9 +8532,72 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
+        "codcli": "92820",
+        "cliente": "COMERCIAL DEVENS LTDA",
+        "bairro": "COQUEIRAL",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "92819",
+        "cliente": "COMERCIAL DEVENS LTDA",
+        "bairro": "VILA NOVA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "92817",
+        "cliente": "COMERCIAL DEVENS LTDA",
+        "bairro": "CENTRO",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "92818",
+        "cliente": "COMERCIAL DEVENS LTDA",
+        "bairro": "CENTRO",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "84430",
+        "cliente": "COMERCIAL MASSA FINA LTDA",
+        "bairro": "CENTRO",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
         "codcli": "92614",
         "cliente": "DISTRIBUIDORA MASCARENHAS LTDA",
         "bairro": "ITAPEBUSSU",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "81379",
+        "cliente": "EDGAR DE JESUS SANTOS",
+        "bairro": "VILA DO RIACHO",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "77248",
+        "cliente": "ERICK ROCHA COUTINHO",
+        "bairro": "CENTRO",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "84963",
+        "cliente": "ESPETARIA ROYAL",
+        "bairro": "VILA NOVA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "77370",
+        "cliente": "FABRICIO ALMEIDA DE OLIVEIRA 08993326762",
+        "bairro": "COQUEIRAL",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -8483,9 +8609,65 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
+        "codcli": "76603",
+        "cliente": "GARDEN GOURMET LTDA",
+        "bairro": "VILA NOVA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "77660",
+        "cliente": "GOLFINHO CONVENIENCIA E LANCHONETE SAO JOSE LTDA",
+        "bairro": "GUAXINDIBA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "77526",
+        "cliente": "JESSICA DANIELA ROSA DE SOUZA 08713470671",
+        "bairro": "SANTA CRUZ",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "77304",
+        "cliente": "JOSE MIRANDA DOS SANTOS 48074608700",
+        "bairro": "SAO FRANCISCO",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "77632",
+        "cliente": "JP PRODUTOS PANIFICADOS LTDA",
+        "bairro": "COQUEIRAL",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "84352",
+        "cliente": "L A S RIBEIRO",
+        "bairro": "FATIMA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "76759",
+        "cliente": "MANHATTAN GASTROBAR LTDA",
+        "bairro": "CENTRO",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
         "codcli": "96147",
         "cliente": "MAR AZUL BEBIDAS LTDA",
         "bairro": "SANTA MÔNICA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "81494",
+        "cliente": "MARIM E GONCALO LTDA",
+        "bairro": "GUARANA",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -8518,6 +8700,20 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
+        "codcli": "76711",
+        "cliente": "RAYSSANDER BERGAMINI SPINASSE 09222695720",
+        "bairro": "BARRA DO SAHY",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "77435",
+        "cliente": "RICARDO M DE FREITAS",
+        "bairro": "AREA RURAL DE ARACRUZ",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
         "codcli": "96062",
         "cliente": "RONE SILVA DE SOUZA LTDA",
         "bairro": "SANTA MÔNICA",
@@ -8525,9 +8721,51 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
+        "codcli": "76318",
+        "cliente": "ROSALEM & VIEIRA LTDA",
+        "bairro": "CENTRO",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
         "codcli": "96192",
         "cliente": "SALVA ROLE COMERCIO E DISTRIBUICAO DE BEBIDAS LTDA",
         "bairro": "CENTRO",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "82055",
+        "cliente": "SUPERMERCADO MAMBRINI LTDA",
+        "bairro": "SAO JOSE",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "80115",
+        "cliente": "SUPERMERCADO VALLIN LTDA",
+        "bairro": "BARRA DO SAHY",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "90811",
+        "cliente": "TEMPOCOURTIER EMPREENDIMENTOS HOTELEIROS LTDA",
+        "bairro": "FATIMA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "95139",
+        "cliente": "VILA RICA DISTRIBUIDORA DE BEBIDAS E CARNES LTDA",
+        "bairro": "JEQUITIBA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "77650",
+        "cliente": "VIP SOLUCOES FINANCEIRAS LTDA",
+        "bairro": "BELA VISTA",
         "dtultcomp": "nan",
         "produtos": []
       }
