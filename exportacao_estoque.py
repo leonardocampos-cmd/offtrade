@@ -108,10 +108,6 @@ else:
     df["DTULTENT"]   = pd.to_datetime(df["DTULTENT"], errors="coerce")
     df["DTULTSAIDA"] = pd.to_datetime(df["DTULTSAIDA"], errors="coerce")
 
-    # Só produtos com algum movimento de estoque relevante (evita lixo de
-    # cadastro sem giro nenhum e sem posição nenhuma)
-    df = df[(df["QTESTOQUE"] != 0) | (df["QTPENDENTE"] != 0) | (df["QTBLOQUEADA"] != 0) | (df["QTRESERV"] != 0) | (df["DTULTSAIDA"].notna())]
-
     hoje = date.today()
     produtos_out = []
     for _, r in df.iterrows():

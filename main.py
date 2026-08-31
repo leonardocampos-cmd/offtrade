@@ -474,6 +474,21 @@ def main():
             print("[AVISO] exportacao_estoque falhou — ignorado, pipeline continua.")
             traceback.print_exc()
 
+        step("9d - Movimentação de estoque (estoque_movimentacao_data.js)")
+        try:
+            import subprocess, sys as _sys
+            result = subprocess.run(
+                [_sys.executable, "exportacao_estoque_movimentacao.py"],
+                capture_output=True, text=True, timeout=900
+            )
+            print(result.stdout)
+            if result.returncode != 0:
+                print("[AVISO] exportacao_estoque_movimentacao falhou — ignorado, pipeline continua.")
+                print(result.stderr)
+        except Exception:
+            print("[AVISO] exportacao_estoque_movimentacao falhou — ignorado, pipeline continua.")
+            traceback.print_exc()
+
         if SEND_ALERTS:
             step("10/10 - Alertas Logistica RJ (Gmail -> nao entregues)")
             try:
