@@ -23,7 +23,7 @@ import json
 import os
 import re
 import time
-from datetime import datetime
+from datetime import datetime, timedelta
 from pathlib import Path
 
 import requests
@@ -282,13 +282,21 @@ def buscar_referencias_pesquisa(token):
     return refs
 
 
-def buscar_itens_resposta_pesquisa(token, resposta_pesquisa_ids):
+# Detalhe item a item (pergunta + resposta de cada item avaliado) só é
+# buscado pra pesquisas dos últimos N dias — histórico completo (8 meses x
+# ~50 pessoas) explodiria o arquivo de novo (por isso foi resumido em
+# 2026-08-20). Pedido do usuário em 2026-08-31 ("não tem resposta pra
+# assunto?"): reabrir o detalhe, mas só recente.
+PESQUISA_DETALHE_DIAS = 30
+
+
+def buscar_itens_resposta_pesquisa(token, resposta_pesquisa_ids, ids_detalhe=None):
     """Itens/fotos de resposta de pesquisa, filtrados pelos ids de resposta
-    informados (tipicamente, os de um único usuário). Só busca o necessário
-    pro resumo (contagem de itens/fotos + assuntos distintos) — não busca
-    mais os valores de resposta item a item (allProwRespostaPesqItemValors),
-    que só faziam sentido quando a página explodia uma linha por item (ver
-    comentário em main() — resumido pra 1 linha por resposta em 2026-08-20)."""
+    informados (tipicamente, os de um único usuário). O resumo (contagem de
+    itens/fotos + assuntos distintos) é buscado pra todo mundo; os VALORES de
+    resposta item a item (allProwRespostaPesqItemValors) só são buscados pros
+    ids em `ids_detalhe` (subconjunto recente, ver PESQUISA_DETALHE_DIAS) —
+    None busca pra todo mundo."""
     ids_set = {str(i) for i in resposta_pesquisa_ids}
 
     d = consultar(token, "{ allProwRespostaPesquisaItems { nodes { id respostaPesquisaId itemAvaliPergPesqId } } }")
@@ -316,7 +324,19 @@ def buscar_itens_resposta_pesquisa(token, resposta_pesquisa_ids):
             caminho = (n["prowFotoByFotoMarcaId"] or {}).get("caminho") or (n["prowFotoByFotoOriginalId"] or {}).get("caminho")
             fotos_por_item.setdefault(str(n["respostaPesquisaItemId"]), []).append(caminho)
 
-    return itens, fotos_por_item
+    ids_item_detalhe = ids_item if ids_detalhe is None else {
+        str(n["id"]) for n in itens if str(n["respostaPesquisaId"]) in {str(i) for i in ids_detalhe}
+    }
+    valores_por_item = {}
+    if ids_item_detalhe:
+        d = consultar(token, "{ allProwRespostaPesqItemValors { nodes { respostaPesquisaItemId valor numero } } }")
+        for n in d["allProwRespostaPesqItemValors"]["nodes"]:
+            if str(n["respostaPesquisaItemId"]) in ids_item_detalhe:
+                v = n["valor"] or (str(n["numero"]) if n["numero"] is not None else "")
+                if v:
+                    valores_por_item.setdefault(str(n["respostaPesquisaItemId"]), []).append(v)
+
+    return itens, fotos_por_item, valores_por_item
 
 
 # ── Aba "Visitas" (timeline + análise de IA) ──────────────────────────────────
@@ -744,11 +764,16 @@ def main():
         linhas_pesquisa_final_usuario = []
         if linhas_pesquisa_base_usuario:
             resposta_ids = {l["resposta_pesquisa_id"] for l in linhas_pesquisa_base_usuario}
+            _corte_detalhe = datetime.now() - timedelta(days=PESQUISA_DETALHE_DIAS)
+            ids_recentes = {
+                l["resposta_pesquisa_id"] for l in linhas_pesquisa_base_usuario
+                if l["data"] and datetime.strptime(l["data"], "%d/%m/%Y") >= _corte_detalhe
+            }
             try:
-                itens, fotos_por_item = buscar_itens_resposta_pesquisa(token, resposta_ids)
+                itens, fotos_por_item, valores_por_item = buscar_itens_resposta_pesquisa(token, resposta_ids, ids_recentes)
             except Exception as e:
                 print(f"  [AVISO] falha ao detalhar pesquisas de {membro['nome']}: {str(e)[:200]}")
-                itens, fotos_por_item = [], {}
+                itens, fotos_por_item, valores_por_item = [], {}, {}
 
             itens_por_resposta = {}
             for item in itens:
@@ -759,14 +784,16 @@ def main():
             # itens por resposta) multiplicado pelos ~8 meses de histórico e
             # ~50 pessoas da equipe gerou um promotoria_data.js de mais de
             # 150MB, inviável de carregar direto na página (pedido do
-            # usuário em 2026-08-20 pra resumir). O detalhe item a item seria
-            # necessário pra reabrir isso no futuro (ex: consulta pontual por
-            # resposta_pesquisa_id), mas não é gerado aqui.
+            # usuário em 2026-08-20 pra resumir). "itens_detalhe" (pergunta +
+            # resposta de cada item) reabre isso só pra pesquisa RECENTE
+            # (pedido do usuário em 2026-08-31), usando valores_por_item —
+            # vazio pra resposta fora do corte de PESQUISA_DETALHE_DIAS.
             for base_pesq in linhas_pesquisa_base_usuario:
                 itens_da_resposta = itens_por_resposta.get(str(base_pesq["resposta_pesquisa_id"]), [])
                 base_pesq.pop("resposta_pesquisa_id", None)
                 assuntos = []
                 fotos = []
+                itens_detalhe = []
                 for item in itens_da_resposta:
                     iapp = refs["itemAvaliPergPesq"].get(str(item["itemAvaliPergPesqId"]), {})
                     papq = refs["pergAssunPesq"].get(iapp.get("perguntaAssunPesqId"), {})
@@ -775,12 +802,20 @@ def main():
                     if assunto and assunto not in assuntos:
                         assuntos.append(assunto)
                     fotos.extend(f for f in fotos_por_item.get(str(item["id"]), []) if f)
+                    valores = valores_por_item.get(str(item["id"]))
+                    if valores:
+                        itens_detalhe.append({
+                            "item_avaliado": refs["itemAvaliado"].get(iapp.get("itemAvaliadoId"), ""),
+                            "pergunta": refs["pergunta"].get(papq.get("perguntaId"), ""),
+                            "resposta": "; ".join(valores),
+                        })
                 linhas_pesquisa_final_usuario.append({
                     **base_pesq,
                     "assuntos": "; ".join(assuntos),
                     "qtd_itens": len(itens_da_resposta),
                     "qtd_fotos": len(fotos),
                     "fotos": fotos,
+                    "itens_detalhe": itens_detalhe,
                 })
 
         payload["pesquisas"].extend(linhas_pesquisa_final_usuario)

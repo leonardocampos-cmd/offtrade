@@ -413,6 +413,13 @@ function abrirDetalhes(idx) {
     </div>
     <div class="modal-sec-title">Análise automática</div>
     ${analise.map(l => `<div class="analise-linha ${l.ok ? 'analise-ok' : 'analise-warn'}">${_esc(l.texto)}</div>`).join('')}
+    ${(r.itens_detalhe || []).length ? `
+      <div class="modal-sec-title">Respostas (${r.itens_detalhe.length} de ${r.qtd_itens})</div>
+      ${r.itens_detalhe.map(it => `<div class="analise-linha">${_esc(it.item_avaliado)}${it.item_avaliado ? ' — ' : ''}${_esc(it.pergunta)} → <strong>${_esc(it.resposta)}</strong></div>`).join('')}
+    ` : aba === 'pesquisas' ? `
+      <div class="modal-sec-title">Respostas</div>
+      <div class="sem-foto">Detalhe item a item só fica disponível pra pesquisas dos últimos 30 dias.</div>
+    ` : ''}
     <div class="modal-sec-title">Fotos (${(r.fotos || []).length})</div>
     ${_fotosHtml(r.fotos)}
   `;
