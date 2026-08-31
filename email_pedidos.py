@@ -2,8 +2,9 @@
 Bot: lê e-mails de PEDIDO/BONIFICAÇÃO da CRC filial 4 no Gmail (assunto
 contém "PEDIDO" ou "BONIFICAÇÃO"), extrai cliente + itens pedidos (tabela
 HTML colada de Excel, ou imagem colada no corpo — via visão da OpenAI) e
-cruza com o que já foi faturado no Oracle (crc.PBI_PCPEDI, CODCLI+CODPROD)
-pra gerar o comparativo pendente/parcial/faturado.
+cruza com o que já foi faturado no Oracle (crc.PBI_PCPEDI, por CODCLI +
+CODPROD + RCA + NF emitida na data do e-mail ou depois — ver
+_faturado_do_item) pra gerar o comparativo pendente/parcial/faturado.
 
 Esses pedidos por e-mail ainda não entram no Winthor no momento em que são
 feitos — só depois que alguém fatura manualmente. O comparativo existe pra
@@ -368,6 +369,7 @@ def _construir_comparativo(cache: dict) -> list:
                 'fantasia':     str(r['FANTASIA'] or '').strip(),
                 'cnpj':         str(r['CNPJ'] or '').strip(),
                 'rca':          rca_txt,
+                'codusur':      int(r['CODUSUR1']) if pd.notna(r['CODUSUR1']) else None,
             }
             cnpj_num = _cnpj_digits(r['CNPJ'])
             if cnpj_num:
@@ -401,7 +403,7 @@ def _construir_comparativo(cache: dict) -> list:
 
     codclis_sql = ",".join(sorted(cod_clientes))
     query = f"""
-        SELECT CODCLI, CODPROD, NUMNOTA, DATA, QT, STATUS
+        SELECT CODCLI, CODPROD, NUMNOTA, DATA, QT, STATUS, CODUSUR
         FROM crc.PBI_PCPEDI
         WHERE CODFILIAL = 4
           AND CODCLI IN ({codclis_sql})
@@ -414,14 +416,40 @@ def _construir_comparativo(cache: dict) -> list:
     df['CODPROD'] = pd.to_numeric(df['CODPROD'], errors='coerce')
     df['QT']      = pd.to_numeric(df['QT'], errors='coerce').fillna(0)
     df['NUMNOTA'] = pd.to_numeric(df['NUMNOTA'], errors='coerce')
-    faturado_por_par = df.groupby(['CODCLI', 'CODPROD'])['QT'].sum().to_dict()
-    nfs_por_par = (
-        df[df['NUMNOTA'].notna()]
-        .groupby(['CODCLI', 'CODPROD'])['NUMNOTA']
-        .apply(lambda s: sorted({str(int(v)) for v in s}))
-        .to_dict()
-    )
+    df['DATA']    = pd.to_datetime(df['DATA'], errors='coerce')
+    df['CODUSUR'] = pd.to_numeric(df['CODUSUR'], errors='coerce')
+    # Antes agregava faturado_por_par/nfs_por_par globalmente (todo o
+    # período buscado, sem olhar a data do pedido) — uma NF emitida ANTES
+    # do e-mail chegar podia ser creditada ao pedido como se o cumprisse
+    # (achado real pelo usuário em 2026-08-31: pedido de cliente 90484 por
+    # e-mail de 31/08 batido com NF 7120 emitida em 03/08, quase um mês
+    # antes de o pedido existir). Agora filtra por cliente E por DATA >=
+    # data do e-mail em _faturado_do_item, abaixo — só NF emitida no dia
+    # do e-mail ou depois pode estar cumprindo aquele pedido.
+    df_por_cli = {codcli: g for codcli, g in df.groupby('CODCLI')}
     nfs_agendamento = _nfs_agendamento()
+
+    def _faturado_do_item(cod_cli_num, cod_prod_num, data_email_str, rca_codusur=None):
+        sub = df_por_cli.get(cod_cli_num)
+        if sub is None:
+            return 0.0, []
+        sub = sub[sub['CODPROD'] == cod_prod_num]
+        try:
+            dt_email = pd.Timestamp(data_email_str) if data_email_str else None
+        except (ValueError, TypeError):
+            dt_email = None
+        if dt_email is not None:
+            sub = sub[sub['DATA'] >= dt_email]
+        # Exige CODUSUR da NF == RCA do pedido (extraído do e-mail, ou o
+        # cadastrado do cliente como fallback) — pedido do usuário em
+        # 2026-08-31. Só filtra quando dá pra saber o RCA esperado; sem
+        # isso, um pedido faturado por outro RCA (giro normal da equipe)
+        # nunca contaria como faturado.
+        if rca_codusur is not None:
+            sub = sub[sub['CODUSUR'] == rca_codusur]
+        qt_faturada = float(sub['QT'].sum())
+        nfs = sorted({str(int(v)) for v in sub['NUMNOTA'].dropna().unique()})
+        return qt_faturada, nfs
 
     # O campo 'rca' de cada bloco vem de extração por IA (visão da OpenAI
     # lendo tabela/imagem do e-mail) — quando ela não lê um nome de verdade,
@@ -465,6 +493,15 @@ def _construir_comparativo(cache: dict) -> list:
             if not cod_cli_raw.isdigit():
                 continue
             cod_cli_num = int(cod_cli_raw)
+            fallback = cliente_info.get(cod_cli_num, {})
+            # rca_extraido só numérico (código de verdade lido pela extração)
+            # — mais específico que o fallback do cliente (pode ser um RCA
+            # cobrindo temporariamente, diferente do CODUSUR1 cadastrado).
+            # Texto livre nunca é usado (ver comentário de _rca_codigo acima)
+            # — cai direto pro RCA cadastrado do cliente. Resolvido AQUI (não
+            # só pro texto exibido) porque agora também filtra o faturamento.
+            rca_codigo = _rca_codigo(bloco.get('rca'))
+            rca_codusur_match = rca_codigo if rca_codigo is not None else fallback.get('codusur')
 
             # Primeiro calcula a qtd faturada de cada item, sem ainda decidir
             # o status — precisa saber se ALGUM item do pedido já foi tocado
@@ -474,21 +511,23 @@ def _construir_comparativo(cache: dict) -> list:
                 cod_prod = str(item.get('cod_prod', '')).strip()
                 if not cod_prod.isdigit():
                     continue
-                qt_pedida   = float(item.get('qt') or 0)
-                qt_faturada = float(faturado_por_par.get((cod_cli_num, int(cod_prod)), 0))
-                preco       = float(item.get('preco') or 0)
-                itens_calc.append((item, qt_pedida, qt_faturada, preco))
+                qt_pedida = float(item.get('qt') or 0)
+                qt_faturada, nfs_item = _faturado_do_item(
+                    cod_cli_num, int(cod_prod), msg.get('data_email', ''), rca_codusur_match,
+                )
+                preco = float(item.get('preco') or 0)
+                itens_calc.append((item, qt_pedida, qt_faturada, preco, nfs_item))
 
             # Se nenhum item do pedido foi faturado ainda, o pedido inteiro
             # provavelmente só não foi processado — "Pendente" (pode vir a
             # faturar). Se PELO MENOS um item já foi faturado/parcial, o
             # pedido já está sendo atendido, e quem ficou zerado foi cortado
             # de propósito — não vai mais vir.
-            pedido_tocado = any(qt_faturada > 0 for _, _, qt_faturada, _ in itens_calc)
+            pedido_tocado = any(qt_faturada > 0 for _, _, qt_faturada, _, _ in itens_calc)
             status_zerado = 'Cortado' if pedido_tocado else 'Pendente'
 
             itens_out = []
-            for item, qt_pedida, qt_faturada, preco in itens_calc:
+            for item, qt_pedida, qt_faturada, preco, nfs_item in itens_calc:
                 if qt_faturada <= 0:
                     status_item = status_zerado
                 elif qt_faturada < qt_pedida:
@@ -496,7 +535,6 @@ def _construir_comparativo(cache: dict) -> list:
                 else:
                     status_item = 'Faturado'
                 valor_faturado = round(preco * qt_faturada, 2)
-                nfs_item = nfs_por_par.get((cod_cli_num, int(item['cod_prod'])), [])
                 itens_out.append({
                     **item,
                     'qt_faturada':    qt_faturada,
@@ -507,14 +545,9 @@ def _construir_comparativo(cache: dict) -> list:
                 })
             if not itens_out:
                 continue
-            fallback = cliente_info.get(cod_cli_num, {})
-            # rca_extraido só numérico (código de verdade lido pela extração)
-            # resolve o nome contra PCUSUARI (nome_por_codusur, montado acima)
-            # — mais específico que o fallback do cliente (pode ser um RCA
-            # cobrindo temporariamente, diferente do CODUSUR1 cadastrado).
-            # Texto livre nunca é usado como nome (ver comentário acima) —
-            # cai direto pro RCA cadastrado do cliente.
-            rca_codigo = _rca_codigo(bloco.get('rca'))
+            # Nome pra exibição, a partir do rca_codigo já resolvido acima
+            # (resolve o nome contra PCUSUARI, nome_por_codusur, montado no
+            # início da função).
             if rca_codigo is not None:
                 nome = nome_por_codusur.get(rca_codigo)
                 rca_final = f"{rca_codigo} - {nome}" if nome else fallback.get('rca', '')
