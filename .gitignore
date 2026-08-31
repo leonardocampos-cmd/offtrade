@@ -33,3 +33,8 @@ vencimento_data.json
 # localmente (sem esse log) so' gera um stub vazio de teste.
 acessos_data.js
 acessos_state.json
+
+# Cache permanente de análises de IA por visita (exportacao_promotoria.py) —
+# local e VPS acumulam o próprio, cada um independente, igual promotoria_data.js
+# (esse script não tem lógica de git; nunca é commitado).
+promotoria_analises_ia.json

@@ -257,6 +257,21 @@
     </thead>
     <tbody id="tbody-tarefas"></tbody>
   </table>
+
+  <table id="tabela-visitas" style="display:none">
+    <thead>
+      <tr>
+        <th>Data</th>
+        <th>Usuário</th>
+        <th>Cliente/PDV</th>
+        <th class="hide-mob">Cidade</th>
+        <th class="hide-mob">Bairro</th>
+        <th>Duração</th>
+        <th>Detalhes</th>
+      </tr>
+    </thead>
+    <tbody id="tbody-visitas"></tbody>
+  </table>
 </div>
 
 <div class="controls" style="justify-content:center">
@@ -293,6 +308,12 @@ function _parseDataBr(d) {
 
 function _fmtHora(dt) {
   return dt.toLocaleTimeString('pt-BR', { hour: '2-digit', minute: '2-digit', second: '2-digit' });
+}
+
+function _duracaoVisita(r) {
+  if (!r.check_in || !r.check_out) return '—';
+  const min = Math.round((new Date(r.check_out) - new Date(r.check_in)) / 60000);
+  return `${min} min`;
 }
 
 // Nome do arquivo do Max Promotor carrega o horário real da captura:
@@ -354,18 +375,22 @@ function _analisarVisita(r) {
 
 let _linhasPaginaAtual = [];
 
-function abrirDetalhes(idx) {
-  const r = _linhasPaginaAtual[idx];
-  if (!r) return;
-  const analise = _analisarVisita(r);
-  const fotosHtml = (r.fotos || []).length
-    ? `<div class="foto-grid">${r.fotos.map((u, i) => `
+function _fotosHtml(fotos) {
+  return (fotos || []).length
+    ? `<div class="foto-grid">${fotos.map((u, i) => `
         <a href="${_esc(u)}" target="_blank" rel="noopener">
           <img src="${_esc(u)}" alt="Foto ${i + 1}" loading="lazy">
           <div class="foto-num">Foto ${i + 1}</div>
         </a>`).join('')}</div>`
     : '<div class="sem-foto">Nenhuma foto anexada.</div>';
+}
 
+function abrirDetalhes(idx) {
+  const r = _linhasPaginaAtual[idx];
+  if (!r) return;
+  if (aba === 'visitas') return abrirDetalhesVisita(r);
+
+  const analise = _analisarVisita(r);
   document.getElementById('modal-conteudo').innerHTML = `
     <div class="modal-head">
       <div>
@@ -377,7 +402,58 @@ function abrirDetalhes(idx) {
     <div class="modal-sec-title">Análise automática</div>
     ${analise.map(l => `<div class="analise-linha ${l.ok ? 'analise-ok' : 'analise-warn'}">${_esc(l.texto)}</div>`).join('')}
     <div class="modal-sec-title">Fotos (${(r.fotos || []).length})</div>
-    ${fotosHtml}
+    ${_fotosHtml(r.fotos)}
+  `;
+  document.getElementById('modal-detalhes').classList.add('open');
+}
+
+// Distância acima da qual sinaliza check-in/checkout longe do endereço
+// cadastrado do PDV — 300m dá folga pra imprecisão normal de GPS urbano.
+const DIST_AVISO_M = 300;
+
+function abrirDetalhesVisita(r) {
+  const checkIn  = r.check_in  ? new Date(r.check_in)  : null;
+  const checkOut = r.check_out ? new Date(r.check_out) : null;
+
+  const contexto = [];
+  contexto.push({ ok: true, texto: `Check-in: ${checkIn ? _fmtHora(checkIn) : '—'}` + (r.dist_checkin_m != null ? ` (${r.dist_checkin_m}m do endereço cadastrado do PDV)` : '') });
+  if (r.dist_checkin_m != null && r.dist_checkin_m > DIST_AVISO_M) {
+    contexto.push({ ok: false, texto: `⚠️ Check-in registrado a ${r.dist_checkin_m}m do endereço cadastrado do PDV.` });
+  }
+  if (checkOut) {
+    contexto.push({ ok: true, texto: `Check-out: ${_fmtHora(checkOut)}` + (r.dist_checkout_m != null ? ` (${r.dist_checkout_m}m do endereço cadastrado do PDV)` : '') });
+    if (r.dist_checkout_m != null && r.dist_checkout_m > DIST_AVISO_M) {
+      contexto.push({ ok: false, texto: `⚠️ Check-out registrado a ${r.dist_checkout_m}m do endereço cadastrado do PDV.` });
+    }
+  } else {
+    contexto.push({ ok: false, texto: '⚠️ Sem check-out registrado.' });
+  }
+  if (r.motivo_visita) contexto.push({ ok: true, texto: `Motivo da visita: ${r.motivo_visita}` });
+  if (r.tipo_justificativa) contexto.push({ ok: true, texto: `Tipo: ${r.tipo_justificativa}` });
+  if (r.observacao_visita) contexto.push({ ok: true, texto: `Observação do promotor: ${r.observacao_visita}` });
+
+  const timeline = [];
+  timeline.push(`Check-in${checkIn ? ' — ' + _fmtHora(checkIn) : ''}`);
+  (r.pesquisas || []).forEach(p => timeline.push(`Pesquisa respondida: ${p.pesquisa}${p.assuntos ? ' (' + p.assuntos + ')' : ''}`));
+  (r.tarefas || []).forEach(t => timeline.push(`Tarefa respondida: ${t.tarefa}${t.pergunta ? ' — ' + t.pergunta + ' → ' + (t.resposta || '—') : ''}`));
+  timeline.push(checkOut ? `Check-out — ${_fmtHora(checkOut)}` : 'Check-out — não registrado');
+
+  document.getElementById('modal-conteudo').innerHTML = `
+    <div class="modal-head">
+      <div>
+        <h2>${_esc(_clienteLabel(r))}</h2>
+        <p>${_esc(r.data)} · ${_esc(r.usuario)} · ${_esc(r.cidade)}${r.bairro ? ' / ' + _esc(r.bairro) : ''}</p>
+      </div>
+      <button class="modal-close" onclick="fecharDetalhes()">✕</button>
+    </div>
+    <div class="modal-sec-title">Contexto da visita</div>
+    ${contexto.map(l => `<div class="analise-linha ${l.ok ? 'analise-ok' : 'analise-warn'}">${_esc(l.texto)}</div>`).join('')}
+    <div class="modal-sec-title">Análise da IA</div>
+    ${r.analise_ia ? `<div class="analise-linha">${_esc(r.analise_ia)}</div>` : '<div class="sem-foto">Análise ainda não gerada para esta visita.</div>'}
+    <div class="modal-sec-title">Timeline</div>
+    ${timeline.map(t => `<div class="analise-linha">${_esc(t)}</div>`).join('')}
+    <div class="modal-sec-title">Fotos (${(r.fotos || []).length})</div>
+    ${_fotosHtml(r.fotos)}
   `;
   document.getElementById('modal-detalhes').classList.add('open');
 }
@@ -400,9 +476,11 @@ function init() {
     <div class="kpi"><div class="label">Período</div><div class="val" style="font-size:.95rem">${DATA.periodo.inicio.split('-').reverse().join('/')} — ${DATA.periodo.fim ? DATA.periodo.fim.split('-').reverse().join('/') : 'hoje'}</div></div>
   `;
 
+  const visitas = DATA.visitas || [];
   document.getElementById('tabs').innerHTML = `
     <button class="tab-btn active" id="tab-pesquisas" onclick="mudarAba('pesquisas')">Pesquisas (${DATA.pesquisas.length})</button>
     <button class="tab-btn" id="tab-tarefas" onclick="mudarAba('tarefas')">Tarefas (${DATA.tarefas.length})</button>
+    <button class="tab-btn" id="tab-visitas" onclick="mudarAba('visitas')">Visitas (${visitas.length})</button>
   `;
 
   const usuarios = [...new Set([...DATA.pesquisas, ...DATA.tarefas].map(r => r.usuario).filter(Boolean))].sort();
@@ -433,9 +511,11 @@ function mudarAba(nova) {
   paginaAtual = 1;
   document.getElementById('tab-pesquisas').classList.toggle('active', aba === 'pesquisas');
   document.getElementById('tab-tarefas').classList.toggle('active', aba === 'tarefas');
+  document.getElementById('tab-visitas').classList.toggle('active', aba === 'visitas');
   document.getElementById('tabela-pesquisas').style.display = aba === 'pesquisas' ? '' : 'none';
   document.getElementById('tabela-tarefas').style.display = aba === 'tarefas' ? '' : 'none';
-  // Assunto só existe em pesquisas — some na aba de tarefas.
+  document.getElementById('tabela-visitas').style.display = aba === 'visitas' ? '' : 'none';
+  // Assunto só existe em pesquisas — some nas abas de tarefas/visitas.
   document.getElementById('sel-assunto').style.display = aba === 'pesquisas' ? '' : 'none';
   aplicarFiltro();
 }
@@ -452,7 +532,7 @@ function _linhasFiltradas() {
   const busca = document.getElementById('busca').value.trim().toLowerCase();
   const de = document.getElementById('data-de').value;
   const ate = document.getElementById('data-ate').value;
-  const base = aba === 'pesquisas' ? DATA.pesquisas : DATA.tarefas;
+  const base = aba === 'pesquisas' ? DATA.pesquisas : aba === 'tarefas' ? DATA.tarefas : (DATA.visitas || []);
 
   const filtradas = base.filter(r => {
     if (usuario && r.usuario !== usuario) return false;
@@ -466,7 +546,9 @@ function _linhasFiltradas() {
     if (busca) {
       const alvo = aba === 'pesquisas'
         ? [r.razao_social, r.fantasia, r.pesquisa, r.assuntos]
-        : [r.razao_social, r.fantasia, r.tarefa, r.pergunta, r.resposta];
+        : aba === 'tarefas'
+        ? [r.razao_social, r.fantasia, r.tarefa, r.pergunta, r.resposta]
+        : [r.razao_social, r.fantasia, r.cidade, r.bairro, r.cnpj];
       if (!alvo.some(v => (v || '').toLowerCase().includes(busca))) return false;
     }
     return true;
@@ -505,7 +587,7 @@ function aplicarFiltro() {
         <td>${_esc(r.qtd_itens)}</td>
         <td><button class="btn-detalhes" onclick="abrirDetalhes(${i})">🔍 Ver detalhes</button></td>
       </tr>`).join('') : '<tr><td colspan="8" class="empty">Nenhum registro encontrado.</td></tr>';
-  } else {
+  } else if (aba === 'tarefas') {
     document.getElementById('tbody-tarefas').innerHTML = linhas.length ? linhas.map((r, i) => `
       <tr>
         <td>${_esc(r.data)}</td>
@@ -517,6 +599,17 @@ function aplicarFiltro() {
         <td class="wrap">${_esc(r.resposta)}</td>
         <td><button class="btn-detalhes" onclick="abrirDetalhes(${i})">🔍 Ver detalhes</button></td>
       </tr>`).join('') : '<tr><td colspan="8" class="empty">Nenhum registro encontrado.</td></tr>';
+  } else {
+    document.getElementById('tbody-visitas').innerHTML = linhas.length ? linhas.map((r, i) => `
+      <tr>
+        <td>${_esc(r.data)}</td>
+        <td>${_esc(r.usuario)}</td>
+        <td class="wrap">${_esc(_clienteLabel(r))}</td>
+        <td class="hide-mob">${_esc(r.cidade)}</td>
+        <td class="hide-mob">${_esc(r.bairro)}</td>
+        <td>${_esc(_duracaoVisita(r))}</td>
+        <td><button class="btn-detalhes" onclick="abrirDetalhes(${i})">🔍 Ver detalhes</button></td>
+      </tr>`).join('') : '<tr><td colspan="7" class="empty">Nenhum registro encontrado.</td></tr>';
   }
 }
 
@@ -525,10 +618,18 @@ function exportarCSV() {
   if (!linhas.length) return;
   const colunas = aba === 'pesquisas'
     ? ['data', 'usuario', 'razao_social', 'fantasia', 'cidade', 'pesquisa', 'assuntos', 'qtd_itens', 'qtd_fotos', 'fotos']
-    : ['data', 'usuario', 'razao_social', 'fantasia', 'tarefa', 'tipo_tarefa', 'pergunta', 'resposta', 'qtd_fotos', 'fotos'];
+    : aba === 'tarefas'
+    ? ['data', 'usuario', 'razao_social', 'fantasia', 'tarefa', 'tipo_tarefa', 'pergunta', 'resposta', 'qtd_fotos', 'fotos']
+    : ['data', 'usuario', 'razao_social', 'fantasia', 'cnpj', 'cidade', 'bairro', 'check_in', 'check_out', 'dist_checkin_m', 'dist_checkout_m', 'qtd_pesquisas', 'qtd_tarefas', 'qtd_fotos', 'analise_ia'];
   const csvEsc = v => `"${String(v ?? '').replace(/"/g, '""')}"`;
+  const valorColuna = (r, c) => {
+    if (c === 'qtd_pesquisas') return (r.pesquisas || []).length;
+    if (c === 'qtd_tarefas') return (r.tarefas || []).length;
+    if (c === 'qtd_fotos' && aba === 'visitas') return (r.fotos || []).length;
+    return r[c];
+  };
   const linhasCsv = [colunas.join(',')].concat(
-    linhas.map(r => colunas.map(c => csvEsc(r[c])).join(','))
+    linhas.map(r => colunas.map(c => csvEsc(valorColuna(r, c))).join(','))
   );
   const blob = new Blob(['﻿' + linhasCsv.join('\n')], { type: 'text/csv;charset=utf-8;' });
   const url = URL.createObjectURL(blob);

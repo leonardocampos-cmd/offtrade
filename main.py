@@ -417,9 +417,12 @@ def main():
         step("8c - Promotoria: relatório Max Promotor (promotoria_data.js)")
         try:
             import subprocess, sys as _sys
+            # 900s (era 600s): a partir de 2026-08-31 esse script também
+            # resolve cidade/bairro no Oracle e gera análise de IA (OpenAI)
+            # por visita nova — folga extra pra rodadas de catch-up.
             result = subprocess.run(
                 [_sys.executable, "exportacao_promotoria.py"],
-                capture_output=True, text=True, timeout=600
+                capture_output=True, text=True, timeout=900
             )
             print(result.stdout)
             if result.returncode != 0:

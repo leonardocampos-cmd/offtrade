@@ -83,6 +83,23 @@ def parse_ts(valor):
     return datetime.fromisoformat(valor.replace("Z", "+00:00")).replace(tzinfo=None)
 
 
+def _distancia_m(loc, endereco):
+    """Distância (Haversine, em metros) entre uma localização de GPS
+    (dict com latitude/longitude, de ProwLocalizacao) e o endereço
+    cadastrado do PDV (dict com latitude/longitude, de ProwEndereco).
+    None se faltar coordenada de qualquer um dos dois lados."""
+    try:
+        lat1, lon1 = float(loc.get("latitude")), float(loc.get("longitude"))
+        lat2, lon2 = float(endereco.get("latitude")), float(endereco.get("longitude"))
+    except (TypeError, ValueError):
+        return None
+    from math import radians, sin, cos, asin, sqrt
+    r = 6371000  # raio da Terra em metros
+    dlat, dlon = radians(lat2 - lat1), radians(lon2 - lon1)
+    a = sin(dlat / 2) ** 2 + cos(radians(lat1)) * cos(radians(lat2)) * sin(dlon / 2) ** 2
+    return round(2 * r * asin(sqrt(a)))
+
+
 def dentro_do_periodo(ts_entrada):
     dt = parse_ts(ts_entrada)
     if dt is None:
@@ -157,13 +174,18 @@ def buscar_dados_usuario(token, usuario_id):
             id
             tsEntrada
             tsSaida
+            observacao
+            tipoJustificativa
+            prowMotivoVisitaByMotivoVisitaId {{ descricao }}
+            prowLocalizacaoByLocalizacaoCheckinId {{ latitude longitude }}
+            prowLocalizacaoByLocalizacaoCheckoutId {{ latitude longitude }}
             prowPontoVendaByPontoVendaId {{
               nome
               fantasia
               codigo
               cpfcnpj
               prowEnderecoPontoVendasByPontoVendaId {{
-                nodes {{ prowEnderecoByEnderecoId {{ cidadeId }} }}
+                nodes {{ prowEnderecoByEnderecoId {{ cidadeId latitude longitude }} }}
               }}
             }}
             prowVisitaRespostaPesquisasByVisitaId {{
@@ -281,6 +303,224 @@ def buscar_itens_resposta_pesquisa(token, resposta_pesquisa_ids):
     return itens, fotos_por_item
 
 
+# ── Aba "Visitas" (timeline + análise de IA) ──────────────────────────────────
+# Pedido do usuário em 2026-08-31: uma linha por VISITA (não por pesquisa ou
+# tarefa individual), agrupando pelo visita_id já presente em cada linha de
+# pesquisa/tarefa, pra alimentar um timeline (check-in -> pesquisas -> tarefas
+# -> check-out) com análise de IA de verdade (chamada à OpenAI, não só regras).
+
+def _visita_base(r):
+    return {
+        "visita_id":          r["visita_id"],
+        "data":                r.get("data", ""),
+        "usuario":             r.get("usuario", ""),
+        "razao_social":        r.get("razao_social", ""),
+        "fantasia":            r.get("fantasia", ""),
+        "cnpj":                r.get("cpf_cnpj_pdv", ""),
+        "cidade":              "",
+        "bairro":              "",
+        "check_in":            r.get("check_in", ""),
+        "check_out":           r.get("check_out", ""),
+        "observacao_visita":   r.get("observacao_visita", ""),
+        "tipo_justificativa":  r.get("tipo_justificativa", ""),
+        "motivo_visita":       r.get("motivo_visita", ""),
+        "dist_checkin_m":      r.get("dist_checkin_m"),
+        "dist_checkout_m":     r.get("dist_checkout_m"),
+        "pesquisas":           [],
+        "tarefas":             [],
+        "fotos":               [],
+        "analise_ia":          "",
+    }
+
+
+def _montar_visitas(pesquisas, tarefas):
+    por_visita = {}
+    for r in pesquisas:
+        vid = r.get("visita_id")
+        if not vid:
+            continue
+        v = por_visita.setdefault(vid, _visita_base(r))
+        v["pesquisas"].append({
+            "pesquisa": r.get("pesquisa", ""),
+            "assuntos": r.get("assuntos", ""),
+            "qtd_itens": r.get("qtd_itens", 0),
+        })
+        v["fotos"].extend(f for f in (r.get("fotos") or []) if f)
+    for r in tarefas:
+        vid = r.get("visita_id")
+        if not vid:
+            continue
+        v = por_visita.setdefault(vid, _visita_base(r))
+        v["tarefas"].append({
+            "tarefa": r.get("tarefa", ""),
+            "tipo_tarefa": r.get("tipo_tarefa", ""),
+            "pergunta": r.get("pergunta", ""),
+            "resposta": r.get("resposta", ""),
+        })
+        v["fotos"].extend(f for f in (r.get("fotos") or []) if f)
+    visitas = list(por_visita.values())
+    visitas.sort(key=lambda v: (v["data"], v["check_in"]), reverse=True)
+    return visitas
+
+
+def _resolver_cidade_bairro_crc(visitas):
+    """Cidade/bairro sempre resolvidos no CRC (PCCLIENT), via CNPJ do PDV —
+    pedido do usuário em 2026-08-31 (a cidade própria do Max Promotor fica em
+    branco quando o endereço não está cadastrado lá; o CRC é a fonte de
+    verdade)."""
+    cnpjs = {re.sub(r"\D", "", v.get("cnpj") or "") for v in visitas}
+    cnpjs.discard("")
+    if not cnpjs:
+        return
+    from meta import engine, carregar_dados
+    # Oracle rejeita IN(...) com mais de 1000 elementos (ORA-01795) — com 8
+    # meses de histórico x ~52 usuários dá pra passar fácil disso, então
+    # busca em lotes.
+    cnpjs_lista = sorted(cnpjs)
+    mapa = {}
+    for i in range(0, len(cnpjs_lista), 900):
+        lote = cnpjs_lista[i:i + 900]
+        cnpjs_sql = ",".join(f"'{c}'" for c in lote)
+        try:
+            df = carregar_dados(f"""
+                SELECT REPLACE(REPLACE(REPLACE(C.CGCENT,'.',''),'/',''),'-','') AS CNPJ,
+                       C.MUNICENT AS CIDADE, C.BAIRROENT AS BAIRRO
+                FROM crc.PCCLIENT C
+                WHERE REPLACE(REPLACE(REPLACE(C.CGCENT,'.',''),'/',''),'-','') IN ({cnpjs_sql})
+            """, engine, "promotoria_cidade_bairro")
+            df.columns = df.columns.str.upper()
+            mapa.update({str(row["CNPJ"]): (row["CIDADE"] or "", row["BAIRRO"] or "") for _, row in df.iterrows()})
+        except Exception as e:
+            print(f"  [AVISO] busca de cidade/bairro (CRC.PCCLIENT), lote {i // 900 + 1} falhou ({str(e)[:100]}) — fica em branco pra esse lote.")
+    for v in visitas:
+        cidade, bairro = mapa.get(re.sub(r"\D", "", v.get("cnpj") or ""), ("", ""))
+        v["cidade"], v["bairro"] = cidade, bairro
+
+
+ANALISE_IA_CACHE_PATH   = Path(__file__).parent / "promotoria_analises_ia.json"
+ANALISE_IA_MODEL        = os.getenv("OPENAI_TEXT_MODEL", "gpt-4o-mini")
+ANALISE_IA_DIAS         = 30   # só vale a pena gastar com IA em visita recente
+ANALISE_IA_MAX_POR_RUN  = 80   # cron roda de hora em hora — dá pra ir alcançando aos poucos
+
+_PROMPT_SISTEMA_ANALISE_VISITA = """Você analisa visitas de promotores de trade marketing em pontos de venda (PDV).
+Recebe um resumo estruturado de uma visita: check-in/check-out, distância (em
+metros) entre onde o GPS do celular marcou o check-in/check-out e o endereço
+cadastrado do PDV, motivo/justificativa da visita, observação do promotor,
+pesquisas respondidas (com assuntos) e tarefas respondidas (pergunta/resposta),
+e quantidade de fotos anexadas.
+
+Escreva um parecer curto (2 a 4 frases, português, direto, sem saudação) sobre
+se a visita parece consistente e completa. Aponte só problemas REAIS e
+objetivos que dá pra inferir dos dados fornecidos — por exemplo: visita muito
+curta pra quantidade de pesquisas/tarefas respondidas; distância grande entre
+o GPS do check-in/checkout e o endereço do PDV (pode ser check-in feito de
+outro lugar, ou endereço do PDV desatualizado); tarefa sem nenhuma resposta
+registrada; check-out ausente; zero fotos numa visita que deveria ter. NÃO
+invente problema que não dá pra inferir do texto. Se estiver tudo normal,
+diga isso numa frase só, sem forçar crítica."""
+
+
+def _prompt_visita(v):
+    linhas = [
+        f"Visita de {v['usuario']} em {v['data']} — cliente: "
+        f"{v['fantasia'] or v['razao_social']} ({v['cidade']}/{v['bairro']})."
+    ]
+    if v["check_in"]:
+        linhas.append(f"Check-in: {v['check_in']}" + (f" (a {v['dist_checkin_m']}m do endereço cadastrado do PDV)" if v.get("dist_checkin_m") is not None else ""))
+    if v["check_out"]:
+        linhas.append(f"Check-out: {v['check_out']}" + (f" (a {v['dist_checkout_m']}m do endereço cadastrado do PDV)" if v.get("dist_checkout_m") is not None else ""))
+    else:
+        linhas.append("Sem check-out registrado.")
+    if v.get("motivo_visita"):
+        linhas.append(f"Motivo da visita: {v['motivo_visita']}")
+    if v.get("tipo_justificativa"):
+        linhas.append(f"Tipo: {v['tipo_justificativa']}")
+    if v.get("observacao_visita"):
+        linhas.append(f"Observação do promotor: {v['observacao_visita']}")
+    if v["pesquisas"]:
+        linhas.append("Pesquisas respondidas:")
+        for p in v["pesquisas"]:
+            linhas.append(f"- {p['pesquisa']} (assuntos: {p['assuntos']}, {p['qtd_itens']} itens respondidos)")
+    else:
+        linhas.append("Nenhuma pesquisa respondida.")
+    if v["tarefas"]:
+        linhas.append("Tarefas respondidas:")
+        for t in v["tarefas"]:
+            linhas.append(f"- {t['tarefa']} ({t['tipo_tarefa']}): pergunta \"{t['pergunta']}\" -> resposta \"{t['resposta']}\"")
+    else:
+        linhas.append("Nenhuma tarefa respondida.")
+    linhas.append(f"{len(v['fotos'])} foto(s) anexada(s) no total.")
+    return "\n".join(linhas)
+
+
+def _carregar_cache_analises():
+    if ANALISE_IA_CACHE_PATH.exists():
+        try:
+            return json.loads(ANALISE_IA_CACHE_PATH.read_text(encoding="utf-8"))
+        except (json.JSONDecodeError, OSError):
+            return {}
+    return {}
+
+
+def _salvar_cache_analises(cache):
+    tmp = ANALISE_IA_CACHE_PATH.with_suffix(".json.tmp")
+    tmp.write_text(json.dumps(cache, ensure_ascii=False, indent=2), encoding="utf-8")
+    os.replace(tmp, ANALISE_IA_CACHE_PATH)
+
+
+def _gerar_analises_ia(visitas):
+    """Análise de IA de verdade (chamada à OpenAI) por visita, com cache
+    permanente em disco — cada visita só é analisada UMA VEZ (visita_id como
+    chave), nunca reprocessada em execuções seguintes. Só gera análise nova
+    pra visitas dos últimos ANALISE_IA_DIAS dias (histórico desde jan/2026 não
+    vale o custo), e limita ANALISE_IA_MAX_POR_RUN chamadas novas por execução
+    — como o cron roda de hora em hora, um catch-up grande vai se espalhando
+    ao longo de várias execuções em vez de estourar tempo/custo numa hora só."""
+    cache = _carregar_cache_analises()
+    from datetime import timedelta
+    corte = datetime.now() - timedelta(days=ANALISE_IA_DIAS)
+    pendentes = []
+    for v in visitas:
+        cache_hit = cache.get(v["visita_id"])
+        if cache_hit:
+            v["analise_ia"] = cache_hit["texto"]
+            continue
+        try:
+            data_dt = datetime.strptime(v["data"], "%d/%m/%Y") if v["data"] else None
+        except ValueError:
+            data_dt = None
+        if data_dt and data_dt < corte:
+            continue
+        pendentes.append(v)
+    if not pendentes:
+        return
+    pendentes = pendentes[:ANALISE_IA_MAX_POR_RUN]
+    print(f"Promotoria: gerando análise de IA pra {len(pendentes)} visita(s) nova(s)...")
+    from openai import OpenAI
+    client = OpenAI()
+    for v in pendentes:
+        try:
+            resp = client.chat.completions.create(
+                model=ANALISE_IA_MODEL,
+                messages=[
+                    {"role": "system", "content": _PROMPT_SISTEMA_ANALISE_VISITA},
+                    {"role": "user", "content": _prompt_visita(v)},
+                ],
+                temperature=0.3,
+            )
+            texto = (resp.choices[0].message.content or "").strip()
+        except Exception as e:
+            print(f"  [AVISO] análise de IA falhou pra visita {v['visita_id']}: {str(e)[:150]}")
+            continue
+        if not texto:
+            continue
+        v["analise_ia"] = texto
+        cache[v["visita_id"]] = {"texto": texto, "gerado_em": datetime.now().strftime("%d/%m/%Y %H:%M")}
+        # Grava a cada chamada (não só no final) — um timeout/interrupção no
+        # meio do lote não pode jogar fora chamadas à OpenAI já pagas.
+        _salvar_cache_analises(cache)
+
+
 def _gravar_payload(payload):
     tmp_path = OUTPUT_PATH.with_suffix(".js.tmp")
     with open(tmp_path, "w", encoding="utf-8") as f:
@@ -389,11 +629,23 @@ def main():
             pdv = visita.get("prowPontoVendaByPontoVendaId") or {}
             enderecos = pdv.get("prowEnderecoPontoVendasByPontoVendaId", {}).get("nodes", [])
             cidade_id = None
+            endereco = {}
             if enderecos:
                 endereco = enderecos[0].get("prowEnderecoByEnderecoId") or {}
                 cidade_id = endereco.get("cidadeId")
 
+            motivo = visita.get("prowMotivoVisitaByMotivoVisitaId") or {}
+            loc_checkin  = visita.get("prowLocalizacaoByLocalizacaoCheckinId") or {}
+            loc_checkout = visita.get("prowLocalizacaoByLocalizacaoCheckoutId") or {}
+            # Distância entre onde o check-in/checkout foi REGISTRADO (GPS do
+            # aparelho) e o endereço cadastrado do PDV — dá pra IA um número
+            # objetivo em vez de achismo pra sinalizar "check-in longe da
+            # loja" (sugestão explorada via introspecção da API em 2026-08-31).
+            dist_checkin_m  = _distancia_m(loc_checkin, endereco)
+            dist_checkout_m = _distancia_m(loc_checkout, endereco)
+
             base = {
+                "visita_id": str(visita["id"]),
                 "cod_supervisor": supervisor["codigo"],
                 "supervisor": supervisor["nome"],
                 "cod_usuario": dados_usuario["codigo"],
@@ -408,6 +660,11 @@ def main():
                 "data": (parse_ts(visita["tsEntrada"]) or "").strftime("%d/%m/%Y") if visita["tsEntrada"] else "",
                 "check_in": visita["tsEntrada"] or "",
                 "check_out": visita["tsSaida"] or "",
+                "observacao_visita": visita.get("observacao") or "",
+                "tipo_justificativa": visita.get("tipoJustificativa") or "",
+                "motivo_visita": motivo.get("descricao") or "",
+                "dist_checkin_m": dist_checkin_m,
+                "dist_checkout_m": dist_checkout_m,
             }
 
             for vrp in visita.get("prowVisitaRespostaPesquisasByVisitaId", {}).get("nodes", []):
@@ -512,6 +769,16 @@ def main():
         )
 
     print(f"OK promotoria_data.js — {len(payload['pesquisas'])} linhas de pesquisa, {len(payload['tarefas'])} linhas de tarefa")
+
+    print("Promotoria: agregando visitas (timeline + IA)...")
+    visitas = _montar_visitas(payload["pesquisas"], payload["tarefas"])
+    _resolver_cidade_bairro_crc(visitas)
+    _gerar_analises_ia(visitas)
+    payload["visitas"] = visitas
+    payload["atualizado_em"] = datetime.now().strftime("%d/%m/%Y %H:%M")
+    _gravar_payload(payload)
+    com_ia = sum(1 for v in visitas if v["analise_ia"])
+    print(f"OK visitas agregadas — {len(visitas)} visita(s), {com_ia} com análise de IA")
 
 
 if __name__ == "__main__":
