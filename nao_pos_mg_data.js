@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_mg.py
 
 const NAO_POS_MG_DATA = {
-  "atualizado_em": "31/08/2026 16:44",
+  "atualizado_em": "31/08/2026 17:54",
   "por_vendedor": {
     "BRUNA CASTRO MELLO": [
       {
@@ -334,26 +334,6 @@ const NAO_POS_MG_DATA = {
             "valor": 24960.0
           }
         ]
-      },
-      {
-        "codcli": "34032",
-        "cliente": "UPSIDE DISTRIBUICAO DE ALIMENTOS LTDA",
-        "bairro": "CHÁCARAS COTIA",
-        "dtultcomp": "31/07/2026",
-        "produtos": [
-          {
-            "produto": "RUM MONTILLA OURO 1000ML",
-            "fantasia": "PERNOD",
-            "qt": 204,
-            "valor": 4243.2
-          },
-          {
-            "produto": "WHISKY BALLANTINE'S FINEST 1L",
-            "fantasia": "PERNOD",
-            "qt": 54,
-            "valor": 3140.1
-          }
-        ]
       }
     ],
     "FRANCIELLE CARVALHO": [
@@ -529,32 +509,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "37330",
-        "cliente": "UNISSUL SUPERMERCADOS S/A",
-        "bairro": "NOVA ERA",
-        "dtultcomp": "30/07/2026",
-        "produtos": [
-          {
-            "produto": "VILLA ROSA BRANCO 750ML",
-            "fantasia": "CASTAS",
-            "qt": 12,
-            "valor": 514.8
-          },
-          {
-            "produto": "VILLA ROSA ROSE 750ML",
-            "fantasia": "CASTAS",
-            "qt": 6,
-            "valor": 257.4
-          },
-          {
-            "produto": "VODKA ORLOFF 1L - DEST",
-            "fantasia": "",
-            "qt": 12,
-            "valor": 245.04
-          }
-        ]
-      },
-      {
         "codcli": "37327",
         "cliente": "UNISSUL SUPERMERCADOS S/A",
         "bairro": "CENTRO",
@@ -571,6 +525,32 @@ const NAO_POS_MG_DATA = {
             "fantasia": "CASTAS",
             "qt": 6,
             "valor": 293.4
+          },
+          {
+            "produto": "VODKA ORLOFF 1L - DEST",
+            "fantasia": "",
+            "qt": 12,
+            "valor": 245.04
+          }
+        ]
+      },
+      {
+        "codcli": "37330",
+        "cliente": "UNISSUL SUPERMERCADOS S/A",
+        "bairro": "NOVA ERA",
+        "dtultcomp": "30/07/2026",
+        "produtos": [
+          {
+            "produto": "VILLA ROSA BRANCO 750ML",
+            "fantasia": "CASTAS",
+            "qt": 12,
+            "valor": 514.8
+          },
+          {
+            "produto": "VILLA ROSA ROSE 750ML",
+            "fantasia": "CASTAS",
+            "qt": 6,
+            "valor": 257.4
           },
           {
             "produto": "VODKA ORLOFF 1L - DEST",
@@ -613,32 +593,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "37335",
-        "cliente": "UNISSUL SUPERMERCADOS S/A",
-        "bairro": "CENTRO",
-        "dtultcomp": "30/07/2026",
-        "produtos": [
-          {
-            "produto": "VILLA ROSA TINTO 750ML",
-            "fantasia": "CASTAS",
-            "qt": 6,
-            "valor": 257.4
-          },
-          {
-            "produto": "VINHO BCO ARCAIA PINOT GRIGIO 750ML",
-            "fantasia": "CASTAS",
-            "qt": 6,
-            "valor": 461.4
-          },
-          {
-            "produto": "VODKA ORLOFF 1L - DEST",
-            "fantasia": "",
-            "qt": 24,
-            "valor": 490.08
-          }
-        ]
-      },
-      {
         "codcli": "35222",
         "cliente": "UNISSUL SUPERMERCADOS S/A",
         "bairro": "JARDIM ANA MARIA",
@@ -673,6 +627,32 @@ const NAO_POS_MG_DATA = {
             "fantasia": "PERNOD",
             "qt": 3,
             "valor": 177.54
+          }
+        ]
+      },
+      {
+        "codcli": "37335",
+        "cliente": "UNISSUL SUPERMERCADOS S/A",
+        "bairro": "CENTRO",
+        "dtultcomp": "30/07/2026",
+        "produtos": [
+          {
+            "produto": "VILLA ROSA TINTO 750ML",
+            "fantasia": "CASTAS",
+            "qt": 6,
+            "valor": 257.4
+          },
+          {
+            "produto": "VINHO BCO ARCAIA PINOT GRIGIO 750ML",
+            "fantasia": "CASTAS",
+            "qt": 6,
+            "valor": 461.4
+          },
+          {
+            "produto": "VODKA ORLOFF 1L - DEST",
+            "fantasia": "",
+            "qt": 24,
+            "valor": 490.08
           }
         ]
       },
@@ -713,16 +693,16 @@ const NAO_POS_MG_DATA = {
         "produtos": []
       },
       {
-        "codcli": "39738",
+        "codcli": "39740",
         "cliente": "COMERCIAL LEVE MAIS LTDA",
-        "bairro": "PARQUE REAL",
+        "bairro": "FRANCISCA AUGUSTA RIOS",
         "dtultcomp": "nan",
         "produtos": []
       },
       {
-        "codcli": "39740",
+        "codcli": "39738",
         "cliente": "COMERCIAL LEVE MAIS LTDA",
-        "bairro": "FRANCISCA AUGUSTA RIOS",
+        "bairro": "PARQUE REAL",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -988,20 +968,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "35327",
-        "cliente": "PRODUCAO JR. CONSULTORIA & ASSESSORIA",
-        "bairro": "CAMPUS UFMG",
-        "dtultcomp": "15/06/2026",
-        "produtos": [
-          {
-            "produto": "RED BULL MELANCIA 24X250ML",
-            "fantasia": "RED BULL",
-            "qt": 2,
-            "valor": 282.72
-          }
-        ]
-      },
-      {
         "codcli": "36441",
         "cliente": "ANICCA EMPREENDIMENTOS LTDA",
         "bairro": "SAVASSI",
@@ -1050,20 +1016,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "CASTAS",
             "qt": 2,
             "valor": 85.8
-          }
-        ]
-      },
-      {
-        "codcli": "39124",
-        "cliente": "BRUNA RESENDE SIQUEIRA",
-        "bairro": "PAMPULHA",
-        "dtultcomp": "17/06/2026",
-        "produtos": [
-          {
-            "produto": "RED BULL MELANCIA 24X250ML",
-            "fantasia": "RED BULL",
-            "qt": 4,
-            "valor": 565.44
           }
         ]
       },
@@ -1162,26 +1114,6 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
-        "codcli": "33014",
-        "cliente": "ER COZINHA ARTESANAL LTDA",
-        "bairro": "LOURDES",
-        "dtultcomp": "18/06/2026",
-        "produtos": [
-          {
-            "produto": "YVY DESTILADO GIN AR LT 710ML",
-            "fantasia": "YVY",
-            "qt": 4,
-            "valor": 159.6
-          },
-          {
-            "produto": "YVY DESTILADO GIN MAR  LT 710ML",
-            "fantasia": "YVY",
-            "qt": 4,
-            "valor": 159.6
-          }
-        ]
-      },
-      {
         "codcli": "32871",
         "cliente": "ER COZINHA ARTESANAL LTDA",
         "bairro": "VILA DA SERRA",
@@ -1198,6 +1130,26 @@ const NAO_POS_MG_DATA = {
             "fantasia": "YVY",
             "qt": 6,
             "valor": 239.4
+          }
+        ]
+      },
+      {
+        "codcli": "33014",
+        "cliente": "ER COZINHA ARTESANAL LTDA",
+        "bairro": "LOURDES",
+        "dtultcomp": "18/06/2026",
+        "produtos": [
+          {
+            "produto": "YVY DESTILADO GIN AR LT 710ML",
+            "fantasia": "YVY",
+            "qt": 4,
+            "valor": 159.6
+          },
+          {
+            "produto": "YVY DESTILADO GIN MAR  LT 710ML",
+            "fantasia": "YVY",
+            "qt": 4,
+            "valor": 159.6
           }
         ]
       },
@@ -2318,6 +2270,20 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
+        "codcli": "37254",
+        "cliente": "DISTRIBUIDORA DE PRODUTOS ALIMENTICIOS PARANAIBA",
+        "bairro": "BELA VISTA",
+        "dtultcomp": "25/03/2026",
+        "produtos": [
+          {
+            "produto": "AZEITE DE OLIVA EV ESSENZA 500ML",
+            "fantasia": "",
+            "qt": 1440,
+            "valor": 33840.0
+          }
+        ]
+      },
+      {
         "codcli": "38189",
         "cliente": "DISTRIBUIDORA NOVOS HORIZONTES LTDA.",
         "bairro": "DISTRITO INDUSTRIAL JOÃO DE ALMEIDA",
@@ -2556,20 +2522,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "RED BULL",
             "qt": 2,
             "valor": 61.52
-          }
-        ]
-      },
-      {
-        "codcli": "32067",
-        "cliente": "ORGANIZACOES MARINA LTDA",
-        "bairro": "CENTRO",
-        "dtultcomp": "02/07/2026",
-        "produtos": [
-          {
-            "produto": "CERVEJA HEINEKEN LONG 24X330ML",
-            "fantasia": "HEINEKEN",
-            "qt": 15,
-            "valor": 2156.4
           }
         ]
       },
