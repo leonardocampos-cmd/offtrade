@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_mg.py
 
 const NAO_POS_MG_DATA = {
-  "atualizado_em": "31/08/2026 14:07",
+  "atualizado_em": "31/08/2026 15:05",
   "por_vendedor": {
     "BRUNA CASTRO MELLO": [
       {
@@ -390,6 +390,32 @@ const NAO_POS_MG_DATA = {
         ]
       },
       {
+        "codcli": "37327",
+        "cliente": "UNISSUL SUPERMERCADOS S/A",
+        "bairro": "CENTRO",
+        "dtultcomp": "30/07/2026",
+        "produtos": [
+          {
+            "produto": "VILLA ROSA BRANCO 750ML",
+            "fantasia": "CASTAS",
+            "qt": 12,
+            "valor": 514.8
+          },
+          {
+            "produto": "VINHO FOODKILLER CAB SAUV MERLOT 750ML",
+            "fantasia": "CASTAS",
+            "qt": 6,
+            "valor": 293.4
+          },
+          {
+            "produto": "VODKA ORLOFF 1L - DEST",
+            "fantasia": "",
+            "qt": 12,
+            "valor": 245.04
+          }
+        ]
+      },
+      {
         "codcli": "37330",
         "cliente": "UNISSUL SUPERMERCADOS S/A",
         "bairro": "NOVA ERA",
@@ -444,32 +470,6 @@ const NAO_POS_MG_DATA = {
             "fantasia": "PERNOD",
             "qt": 3,
             "valor": 177.54
-          }
-        ]
-      },
-      {
-        "codcli": "37327",
-        "cliente": "UNISSUL SUPERMERCADOS S/A",
-        "bairro": "CENTRO",
-        "dtultcomp": "30/07/2026",
-        "produtos": [
-          {
-            "produto": "VILLA ROSA BRANCO 750ML",
-            "fantasia": "CASTAS",
-            "qt": 12,
-            "valor": 514.8
-          },
-          {
-            "produto": "VINHO FOODKILLER CAB SAUV MERLOT 750ML",
-            "fantasia": "CASTAS",
-            "qt": 6,
-            "valor": 293.4
-          },
-          {
-            "produto": "VODKA ORLOFF 1L - DEST",
-            "fantasia": "",
-            "qt": 12,
-            "valor": 245.04
           }
         ]
       },
