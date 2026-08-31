@@ -1,7 +1,7 @@
 // Gerado automaticamente por exportacao_comissao.py — ESTIMATIVA, não é a apuração oficial
 
 const COMISSAO_DATA = {
-  "atualizado_em": "31/08/2026 15:10",
+  "atualizado_em": "31/08/2026 15:58",
   "mes_referencia": "08/2026",
   "pct_premio_taxa": 0.015,
   "vendedores": [
@@ -140,9 +140,9 @@ const COMISSAO_DATA = {
         {
           "label": "FATURAMENTO",
           "meta": 80000.0,
-          "realizado": 155788.28,
+          "realizado": 156043.86,
           "peso": 0.1,
-          "ating_meta": 1.947353,
+          "ating_meta": 1.950548,
           "ating_acumulado": 0.1
         },
         {
@@ -180,10 +180,10 @@ const COMISSAO_DATA = {
         {
           "label": "POSITIVAÇÃO",
           "meta": 70.0,
-          "realizado": 69,
+          "realizado": 70,
           "peso": 0.65,
-          "ating_meta": 0.985714,
-          "ating_acumulado": 0.640714
+          "ating_meta": 1.0,
+          "ating_acumulado": 0.65
         },
         {
           "label": "POSITIVAÇÃO ESSENZA",
@@ -236,9 +236,9 @@ const COMISSAO_DATA = {
         {
           "label": "POSITIVAÇÃO TATUZINHO",
           "meta": 15.0,
-          "realizado": 15,
+          "realizado": 16,
           "peso": 0.05,
-          "ating_meta": 1.0,
+          "ating_meta": 1.066667,
           "ating_acumulado": 0.05
         },
         {
@@ -250,14 +250,14 @@ const COMISSAO_DATA = {
           "ating_acumulado": 0.016667
         }
       ],
-      "ating_acumulado_total": 0.874048,
-      "pct_premio": 0.01311072,
+      "ating_acumulado_total": 0.883334,
+      "pct_premio": 0.01325001,
       "liq_rigarr": 120534.72,
       "fat_castas": 2079.0,
       "teto_comissao": 3000.0,
-      "com_rigarr": 2622.14,
-      "com_castas": 27.26,
-      "comissao_estimada": 2649.4
+      "com_rigarr": 2650.0,
+      "com_castas": 27.55,
+      "comissao_estimada": 2677.55
     },
     {
       "nome": "DIOGO RAPOSO - OFF TRADE",
@@ -267,10 +267,10 @@ const COMISSAO_DATA = {
         {
           "label": "FATURAMENTO",
           "meta": 200000.0,
-          "realizado": 142029.07,
+          "realizado": 142374.19,
           "peso": 0.7,
-          "ating_meta": 0.710145,
-          "ating_acumulado": 0.497101
+          "ating_meta": 0.711871,
+          "ating_acumulado": 0.49831
         },
         {
           "label": "FATURAMENTO PERNOD",
@@ -307,10 +307,10 @@ const COMISSAO_DATA = {
         {
           "label": "POSITIVAÇÃO",
           "meta": 50.0,
-          "realizado": 41,
+          "realizado": 42,
           "peso": 0.1,
-          "ating_meta": 0.82,
-          "ating_acumulado": 0.082
+          "ating_meta": 0.84,
+          "ating_acumulado": 0.084
         },
         {
           "label": "POSITIVAÇÃO ESSENZA",
@@ -355,7 +355,7 @@ const COMISSAO_DATA = {
         {
           "label": "POSITIVAÇÃO RED BULL",
           "meta": 0.0,
-          "realizado": 11,
+          "realizado": 12,
           "peso": 0.0,
           "ating_meta": 0.0,
           "ating_acumulado": 0.0
@@ -377,14 +377,14 @@ const COMISSAO_DATA = {
           "ating_acumulado": 0.0
         }
       ],
-      "ating_acumulado_total": 0.683167,
-      "pct_premio": 0.0102475,
+      "ating_acumulado_total": 0.686376,
+      "pct_premio": 0.01029564,
       "liq_rigarr": 153130.64,
       "fat_castas": 3979.8,
       "teto_comissao": null,
-      "com_rigarr": 1569.21,
-      "com_castas": 40.78,
-      "comissao_estimada": 1609.99
+      "com_rigarr": 1576.58,
+      "com_castas": 40.97,
+      "comissao_estimada": 1617.55
     },
     {
       "nome": "ANA CLARA FASSANO - OFF TRADE",
@@ -394,17 +394,17 @@ const COMISSAO_DATA = {
         {
           "label": "FATURAMENTO",
           "meta": 65000.0,
-          "realizado": 50627.69,
+          "realizado": 51461.53,
           "peso": 0.1,
-          "ating_meta": 0.778888,
-          "ating_acumulado": 0.077889
+          "ating_meta": 0.791716,
+          "ating_acumulado": 0.079172
         },
         {
           "label": "FATURAMENTO PERNOD",
           "meta": 3000.0,
-          "realizado": 3666.7,
+          "realizado": 4385.5,
           "peso": 0.05,
-          "ating_meta": 1.222233,
+          "ating_meta": 1.461833,
           "ating_acumulado": 0.05
         },
         {
@@ -434,10 +434,10 @@ const COMISSAO_DATA = {
         {
           "label": "POSITIVAÇÃO",
           "meta": 50.0,
-          "realizado": 36,
+          "realizado": 37,
           "peso": 0.65,
-          "ating_meta": 0.72,
-          "ating_acumulado": 0.468
+          "ating_meta": 0.74,
+          "ating_acumulado": 0.481
         },
         {
           "label": "POSITIVAÇÃO ESSENZA",
@@ -482,7 +482,7 @@ const COMISSAO_DATA = {
         {
           "label": "POSITIVAÇÃO RED BULL",
           "meta": 0.0,
-          "realizado": 12,
+          "realizado": 13,
           "peso": 0.0,
           "ating_meta": 0.0,
           "ating_acumulado": 0.0
@@ -504,14 +504,14 @@ const COMISSAO_DATA = {
           "ating_acumulado": 0.008333
         }
       ],
-      "ating_acumulado_total": 0.680889,
-      "pct_premio": 0.01021334,
-      "liq_rigarr": 51934.84,
+      "ating_acumulado_total": 0.695172,
+      "pct_premio": 0.01042758,
+      "liq_rigarr": 52220.44,
       "fat_castas": 2797.8,
       "teto_comissao": 2000.0,
-      "com_rigarr": 1361.78,
-      "com_castas": 28.57,
-      "comissao_estimada": 1390.35
+      "com_rigarr": 1390.34,
+      "com_castas": 29.17,
+      "comissao_estimada": 1419.51
     },
     {
       "nome": "FABIO VALOTTI - OFF TRADE",
@@ -521,9 +521,9 @@ const COMISSAO_DATA = {
         {
           "label": "FATURAMENTO",
           "meta": 65000.0,
-          "realizado": 69670.61,
+          "realizado": 69929.45,
           "peso": 0.1,
-          "ating_meta": 1.071856,
+          "ating_meta": 1.075838,
           "ating_acumulado": 0.1
         },
         {
@@ -561,10 +561,10 @@ const COMISSAO_DATA = {
         {
           "label": "POSITIVAÇÃO",
           "meta": 50.0,
-          "realizado": 37,
+          "realizado": 38,
           "peso": 0.65,
-          "ating_meta": 0.74,
-          "ating_acumulado": 0.481
+          "ating_meta": 0.76,
+          "ating_acumulado": 0.494
         },
         {
           "label": "POSITIVAÇÃO ESSENZA",
@@ -609,7 +609,7 @@ const COMISSAO_DATA = {
         {
           "label": "POSITIVAÇÃO RED BULL",
           "meta": 0.0,
-          "realizado": 19,
+          "realizado": 20,
           "peso": 0.0,
           "ating_meta": 0.0,
           "ating_acumulado": 0.0
@@ -631,14 +631,14 @@ const COMISSAO_DATA = {
           "ating_acumulado": 0.0375
         }
       ],
-      "ating_acumulado_total": 0.6885,
-      "pct_premio": 0.0103275,
+      "ating_acumulado_total": 0.7015,
+      "pct_premio": 0.0105225,
       "liq_rigarr": 58109.71,
       "fat_castas": 0.0,
       "teto_comissao": 2000.0,
-      "com_rigarr": 1377.0,
+      "com_rigarr": 1403.0,
       "com_castas": 0.0,
-      "comissao_estimada": 1377.0
+      "comissao_estimada": 1403.0
     },
     {
       "nome": "ADEILSON GONÇALVEZ - OFF TRADE",
@@ -648,10 +648,10 @@ const COMISSAO_DATA = {
         {
           "label": "FATURAMENTO",
           "meta": 65000.0,
-          "realizado": 30850.72,
+          "realizado": 31744.36,
           "peso": 0.1,
-          "ating_meta": 0.474626,
-          "ating_acumulado": 0.047463
+          "ating_meta": 0.488375,
+          "ating_acumulado": 0.048838
         },
         {
           "label": "FATURAMENTO PERNOD",
@@ -688,10 +688,10 @@ const COMISSAO_DATA = {
         {
           "label": "POSITIVAÇÃO",
           "meta": 70.0,
-          "realizado": 49,
+          "realizado": 50,
           "peso": 0.65,
-          "ating_meta": 0.7,
-          "ating_acumulado": 0.455
+          "ating_meta": 0.714286,
+          "ating_acumulado": 0.464286
         },
         {
           "label": "POSITIVAÇÃO ESSENZA",
@@ -736,7 +736,7 @@ const COMISSAO_DATA = {
         {
           "label": "POSITIVAÇÃO RED BULL",
           "meta": 0.0,
-          "realizado": 20,
+          "realizado": 21,
           "peso": 0.0,
           "ating_meta": 0.0,
           "ating_acumulado": 0.0
@@ -744,10 +744,10 @@ const COMISSAO_DATA = {
         {
           "label": "POSITIVAÇÃO TATUZINHO",
           "meta": 15.0,
-          "realizado": 13,
+          "realizado": 14,
           "peso": 0.05,
-          "ating_meta": 0.866667,
-          "ating_acumulado": 0.043333
+          "ating_meta": 0.933333,
+          "ating_acumulado": 0.046667
         },
         {
           "label": "POSITIVAÇÃO TIAL",
@@ -758,14 +758,14 @@ const COMISSAO_DATA = {
           "ating_acumulado": 0.025
         }
       ],
-      "ating_acumulado_total": 0.586228,
-      "pct_premio": 0.00879342,
+      "ating_acumulado_total": 0.600223,
+      "pct_premio": 0.00900335,
       "liq_rigarr": 39417.05,
       "fat_castas": 0.0,
       "teto_comissao": 2000.0,
-      "com_rigarr": 1172.46,
+      "com_rigarr": 1200.45,
       "com_castas": 0.0,
-      "comissao_estimada": 1172.46
+      "comissao_estimada": 1200.45
     },
     {
       "nome": "LEANDRO SOUZA - OFF TRADE",
