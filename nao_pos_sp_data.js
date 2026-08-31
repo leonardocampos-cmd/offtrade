@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_sp.py
 
 const NAO_POS_SP_DATA = {
-  "atualizado_em": "31/08/2026 14:06",
+  "atualizado_em": "31/08/2026 15:03",
   "por_vendedor": {
     "ADER ALONSO": [
       {
@@ -1845,6 +1845,13 @@ const NAO_POS_SP_DATA = {
         "codcli": "52610",
         "cliente": "MARCHE DU VIN LTDA",
         "bairro": "TAQUARAL",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "52796",
+        "cliente": "ON THE BEACH LANCHONETE E ESPETARIA LTDA",
+        "bairro": "JARDIM TERRAMÉRICA I",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -7505,14 +7512,14 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
-        "codcli": "51833",
+        "codcli": "51835",
         "cliente": "SUPERMERCADO IBIRAPUERA LTDA",
         "bairro": "JOAO ARANHA",
         "dtultcomp": "nan",
         "produtos": []
       },
       {
-        "codcli": "51835",
+        "codcli": "51833",
         "cliente": "SUPERMERCADO IBIRAPUERA LTDA",
         "bairro": "JOAO ARANHA",
         "dtultcomp": "nan",
@@ -9258,6 +9265,13 @@ const NAO_POS_SP_DATA = {
             "valor": 742.8
           }
         ]
+      },
+      {
+        "codcli": "52797",
+        "cliente": "51.836.511 EDILSON MORENO RIOS",
+        "bairro": "JARDIM PONTE ALTA I",
+        "dtultcomp": "nan",
+        "produtos": []
       }
     ],
     "NÁTALI DE OLIVEIRA": [
@@ -9868,13 +9882,13 @@ const NAO_POS_SP_DATA = {
             "produto": "VODKA ABSOLUT RASPBERRY - 750ML",
             "fantasia": "PERNOD",
             "qt": 1,
-            "valor": 62.9
+            "valor": 54.9
           },
           {
             "produto": "VODKA ABSOLUT RASPBERRY - 750ML",
             "fantasia": "PERNOD",
             "qt": 1,
-            "valor": 54.9
+            "valor": 62.9
           },
           {
             "produto": "VODKA ABSOLUT TABASCO 750ML",
@@ -10039,14 +10053,14 @@ const NAO_POS_SP_DATA = {
           {
             "produto": "ESPUMANTE CHANDON BRUT ROSE 750ML",
             "fantasia": "MOET HENNESY",
-            "qt": 6,
-            "valor": 455.4
+            "qt": 12,
+            "valor": 910.8
           },
           {
             "produto": "ESPUMANTE CHANDON BRUT ROSE 750ML",
             "fantasia": "MOET HENNESY",
-            "qt": 12,
-            "valor": 910.8
+            "qt": 6,
+            "valor": 455.4
           }
         ]
       },
@@ -10346,26 +10360,6 @@ const NAO_POS_SP_DATA = {
         ]
       },
       {
-        "codcli": "52007",
-        "cliente": "COMERCIAL SUPER SAO JOSE LTDA",
-        "bairro": "PARQUE SÃO BENTO",
-        "dtultcomp": "27/07/2026",
-        "produtos": [
-          {
-            "produto": "VINHO DOM BOSCO TINTO SECO 750ML",
-            "fantasia": "CRS BRANDS",
-            "qt": 30,
-            "valor": 269.7
-          },
-          {
-            "produto": "VINHO DOM BOSCO TINTO SUAVE 750ML",
-            "fantasia": "CRS BRANDS",
-            "qt": 600,
-            "valor": 5394.0
-          }
-        ]
-      },
-      {
         "codcli": "52010",
         "cliente": "COMERCIAL SUPER SAO JOSE LTDA",
         "bairro": "JARDIM SÃO CONRADO",
@@ -10386,22 +10380,22 @@ const NAO_POS_SP_DATA = {
         ]
       },
       {
-        "codcli": "52011",
-        "cliente": "SUPERMERCADO SUPER JOSE IPANEMA LTDA",
-        "bairro": "VILA NOVA SOROCABA",
+        "codcli": "52007",
+        "cliente": "COMERCIAL SUPER SAO JOSE LTDA",
+        "bairro": "PARQUE SÃO BENTO",
         "dtultcomp": "27/07/2026",
         "produtos": [
           {
             "produto": "VINHO DOM BOSCO TINTO SECO 750ML",
             "fantasia": "CRS BRANDS",
-            "qt": 48,
-            "valor": 431.52
+            "qt": 30,
+            "valor": 269.7
           },
           {
             "produto": "VINHO DOM BOSCO TINTO SUAVE 750ML",
             "fantasia": "CRS BRANDS",
-            "qt": 480,
-            "valor": 4315.2
+            "qt": 600,
+            "valor": 5394.0
           }
         ]
       },
@@ -10422,6 +10416,26 @@ const NAO_POS_SP_DATA = {
             "fantasia": "CRS BRANDS",
             "qt": 960,
             "valor": 8630.4
+          }
+        ]
+      },
+      {
+        "codcli": "52011",
+        "cliente": "SUPERMERCADO SUPER JOSE IPANEMA LTDA",
+        "bairro": "VILA NOVA SOROCABA",
+        "dtultcomp": "27/07/2026",
+        "produtos": [
+          {
+            "produto": "VINHO DOM BOSCO TINTO SECO 750ML",
+            "fantasia": "CRS BRANDS",
+            "qt": 48,
+            "valor": 431.52
+          },
+          {
+            "produto": "VINHO DOM BOSCO TINTO SUAVE 750ML",
+            "fantasia": "CRS BRANDS",
+            "qt": 480,
+            "valor": 4315.2
           }
         ]
       },
@@ -12587,6 +12601,52 @@ const NAO_POS_SP_DATA = {
         ]
       },
       {
+        "codcli": "47018",
+        "cliente": "ATACADO TETS AL. XAVIER LTDA",
+        "bairro": "PARQUE CONTINENTAL",
+        "dtultcomp": "08/01/2026",
+        "produtos": [
+          {
+            "produto": "RED BULL CAIXA 24X250ML",
+            "fantasia": "RED BULL",
+            "qt": 432,
+            "valor": 71435.52
+          },
+          {
+            "produto": "RED BULL MELANCIA CAIXA 24X250ML",
+            "fantasia": "RED BULL",
+            "qt": 144,
+            "valor": 23811.84
+          },
+          {
+            "produto": "RED BULL MORANGO PESSEGO CAIXA 24X250ML",
+            "fantasia": "RED BULL",
+            "qt": 100,
+            "valor": 16536.0
+          },
+          {
+            "produto": "RED BULL TROPICAL EDITION CAIXA 24X250ML",
+            "fantasia": "RED BULL",
+            "qt": 50,
+            "valor": 8268.0
+          }
+        ]
+      },
+      {
+        "codcli": "45941",
+        "cliente": "ATACADAO DO DESCONTO MERCADO LTDA",
+        "bairro": "VILA HOMERO THON",
+        "dtultcomp": "16/02/2026",
+        "produtos": [
+          {
+            "produto": "MARTINI BIANCO 750 ML",
+            "fantasia": "BACARDI",
+            "qt": 240,
+            "valor": 6948.0
+          }
+        ]
+      },
+      {
         "codcli": "48287",
         "cliente": "D. T. TENORIO",
         "bairro": "PARQUE IMPERIAL",
@@ -12623,6 +12683,40 @@ const NAO_POS_SP_DATA = {
             "fantasia": "PERNOD",
             "qt": 3456,
             "valor": 114013.44
+          }
+        ]
+      },
+      {
+        "codcli": "47750",
+        "cliente": "MERCADAO DE BEBIDAS SAO JOAO LTDA",
+        "bairro": "JARDIM NOVO PORTUGAL",
+        "dtultcomp": "26/03/2026",
+        "produtos": [
+          {
+            "produto": "CACHAÇA SAO FRANCISCO 970ML",
+            "fantasia": "PERNOD",
+            "qt": 480,
+            "valor": 10032.0
+          },
+          {
+            "produto": "LICOR 43 DIEGO ZAMORA 700ML",
+            "fantasia": "AURORA",
+            "qt": 60,
+            "valor": 7461.6
+          }
+        ]
+      },
+      {
+        "codcli": "49846",
+        "cliente": "OBA ATACADISTA LTDA",
+        "bairro": "PARQUE PAULISTA",
+        "dtultcomp": "28/04/2026",
+        "produtos": [
+          {
+            "produto": "CACHAÇA SAO FRANCISCO 970ML",
+            "fantasia": "PERNOD",
+            "qt": 240,
+            "valor": 5016.0
           }
         ]
       },
