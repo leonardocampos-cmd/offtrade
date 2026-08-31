@@ -236,7 +236,7 @@
         <th>Pesquisa</th>
         <th>Assuntos</th>
         <th>Itens Respondidos</th>
-        <th>Fotos</th>
+        <th>Detalhes</th>
       </tr>
     </thead>
     <tbody id="tbody-pesquisas"></tbody>
@@ -252,7 +252,7 @@
         <th class="hide-mob">Tipo</th>
         <th>Pergunta</th>
         <th>Resposta</th>
-        <th>Foto</th>
+        <th>Detalhes</th>
       </tr>
     </thead>
     <tbody id="tbody-tarefas"></tbody>
@@ -284,14 +284,6 @@ function _clienteLabel(r) {
   return r.fantasia && r.fantasia !== r.razao_social ? `${r.razao_social} (${r.fantasia})` : (r.razao_social || '');
 }
 
-function _fotoLink(url) {
-  return url ? `<a class="foto-link" href="${_esc(url)}" target="_blank" rel="noopener">Ver foto</a>` : '';
-}
-
-function _fotosLinks(fotos) {
-  return (fotos || []).map((u, i) => `<a class="foto-link" href="${_esc(u)}" target="_blank" rel="noopener">Foto ${i + 1}</a>`).join(' ');
-}
-
 function _parseDataBr(d) {
   // 'dd/mm/aaaa' -> 'aaaa-mm-dd' (comparável com input[type=date])
   if (!d) return '';
@@ -320,7 +312,7 @@ function _timestampFoto(url) {
 // NÃO tenta avaliar ruptura/execução/precificação por visão computacional
 // nas fotos (pedido do usuário em 2026-08-28: só a parte automatizável por
 // dado, a leitura visual fica pra análise manual sob demanda).
-function _analisarPesquisa(r) {
+function _analisarVisita(r) {
   const linhas = [];
   const checkIn  = r.check_in  ? new Date(r.check_in)  : null;
   const checkOut = r.check_out ? new Date(r.check_out) : null;
@@ -365,7 +357,7 @@ let _linhasPaginaAtual = [];
 function abrirDetalhes(idx) {
   const r = _linhasPaginaAtual[idx];
   if (!r) return;
-  const analise = _analisarPesquisa(r);
+  const analise = _analisarVisita(r);
   const fotosHtml = (r.fotos || []).length
     ? `<div class="foto-grid">${r.fotos.map((u, i) => `
         <a href="${_esc(u)}" target="_blank" rel="noopener">
@@ -378,7 +370,7 @@ function abrirDetalhes(idx) {
     <div class="modal-head">
       <div>
         <h2>${_esc(_clienteLabel(r))}</h2>
-        <p>${_esc(r.data)} · ${_esc(r.usuario)} · ${_esc(r.pesquisa)}</p>
+        <p>${_esc(r.data)} · ${_esc(r.usuario)} · ${_esc(r.pesquisa || r.tarefa)}</p>
       </div>
       <button class="modal-close" onclick="fecharDetalhes()">✕</button>
     </div>
@@ -500,8 +492,8 @@ function aplicarFiltro() {
   document.getElementById('btn-pag-ant').disabled = paginaAtual <= 1;
   document.getElementById('btn-pag-prox').disabled = paginaAtual >= totalPaginas;
 
+  _linhasPaginaAtual = linhas;
   if (aba === 'pesquisas') {
-    _linhasPaginaAtual = linhas;
     document.getElementById('tbody-pesquisas').innerHTML = linhas.length ? linhas.map((r, i) => `
       <tr>
         <td>${_esc(r.data)}</td>
@@ -514,7 +506,7 @@ function aplicarFiltro() {
         <td><button class="btn-detalhes" onclick="abrirDetalhes(${i})">🔍 Ver detalhes</button></td>
       </tr>`).join('') : '<tr><td colspan="8" class="empty">Nenhum registro encontrado.</td></tr>';
   } else {
-    document.getElementById('tbody-tarefas').innerHTML = linhas.length ? linhas.map(r => `
+    document.getElementById('tbody-tarefas').innerHTML = linhas.length ? linhas.map((r, i) => `
       <tr>
         <td>${_esc(r.data)}</td>
         <td>${_esc(r.usuario)}</td>
@@ -523,7 +515,7 @@ function aplicarFiltro() {
         <td class="hide-mob">${_esc(r.tipo_tarefa)}</td>
         <td class="wrap">${_esc(r.pergunta)}</td>
         <td class="wrap">${_esc(r.resposta)}</td>
-        <td>${_fotosLinks(r.fotos)}</td>
+        <td><button class="btn-detalhes" onclick="abrirDetalhes(${i})">🔍 Ver detalhes</button></td>
       </tr>`).join('') : '<tr><td colspan="8" class="empty">Nenhum registro encontrado.</td></tr>';
   }
 }
