@@ -1,7 +1,7 @@
 // Gerado automaticamente por exportacao_comissao.py — ESTIMATIVA, não é a apuração oficial
 
 const COMISSAO_DATA = {
-  "atualizado_em": "31/08/2026 11:40",
+  "atualizado_em": "31/08/2026 12:33",
   "mes_referencia": "08/2026",
   "pct_premio_taxa": 0.015,
   "vendedores": [
@@ -394,9 +394,9 @@ const COMISSAO_DATA = {
         {
           "label": "FATURAMENTO",
           "meta": 65000.0,
-          "realizado": 69860.01,
+          "realizado": 69670.61,
           "peso": 0.1,
-          "ating_meta": 1.074769,
+          "ating_meta": 1.071856,
           "ating_acumulado": 0.1
         },
         {
@@ -434,10 +434,10 @@ const COMISSAO_DATA = {
         {
           "label": "POSITIVAÇÃO",
           "meta": 50.0,
-          "realizado": 38,
+          "realizado": 37,
           "peso": 0.65,
-          "ating_meta": 0.76,
-          "ating_acumulado": 0.494
+          "ating_meta": 0.74,
+          "ating_acumulado": 0.481
         },
         {
           "label": "POSITIVAÇÃO ESSENZA",
@@ -490,10 +490,10 @@ const COMISSAO_DATA = {
         {
           "label": "POSITIVAÇÃO TATUZINHO",
           "meta": 15.0,
-          "realizado": 7,
+          "realizado": 6,
           "peso": 0.05,
-          "ating_meta": 0.466667,
-          "ating_acumulado": 0.023333
+          "ating_meta": 0.4,
+          "ating_acumulado": 0.02
         },
         {
           "label": "POSITIVAÇÃO TIAL",
@@ -504,14 +504,14 @@ const COMISSAO_DATA = {
           "ating_acumulado": 0.0375
         }
       ],
-      "ating_acumulado_total": 0.704833,
-      "pct_premio": 0.01057249,
+      "ating_acumulado_total": 0.6885,
+      "pct_premio": 0.0103275,
       "liq_rigarr": 58109.71,
       "fat_castas": 0.0,
       "teto_comissao": 2000.0,
-      "com_rigarr": 1409.67,
+      "com_rigarr": 1377.0,
       "com_castas": 0.0,
-      "comissao_estimada": 1409.67
+      "comissao_estimada": 1377.0
     },
     {
       "nome": "ANA CLARA FASSANO - OFF TRADE",
@@ -1014,12 +1014,12 @@ const COMISSAO_DATA = {
       ],
       "ating_acumulado_total": 0.197649,
       "pct_premio": 0.00296474,
-      "liq_rigarr": 348827.42,
+      "liq_rigarr": 357265.78,
       "fat_castas": 0.0,
       "teto_comissao": null,
-      "com_rigarr": 1034.18,
+      "com_rigarr": 1059.2,
       "com_castas": 0.0,
-      "comissao_estimada": 1034.18
+      "comissao_estimada": 1059.2
     },
     {
       "nome": "MARILENA TRAGEL - OFF TRADE",
