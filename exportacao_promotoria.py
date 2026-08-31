@@ -77,10 +77,26 @@ def consultar(token, query):
     raise ultimo_erro
 
 
+import zoneinfo
+_TZ_BRT = zoneinfo.ZoneInfo("America/Sao_Paulo")
+_TZ_UTC = zoneinfo.ZoneInfo("UTC")
+
+
 def parse_ts(valor):
+    """A API do Max Promotor devolve tsEntrada/tsSaida em UTC mas SEM sufixo
+    'Z'/offset (ex: '2026-08-31T17:42:21') — parece hora local, mas não é.
+    Confirmado pelo usuário em 2026-08-31 comparando com o horário mostrado
+    no próprio app na foto de check-in (14:42, ~3h antes do que a gente
+    exibia): sem essa conversão, TODO check-in/check-out/data ficava 3h
+    "adiantado" — e isso inclusive gerava falso-positivo na análise de fotos
+    fora da janela do check-in/checkout (o gap de ~3h sempre foi esse bug,
+    não relógio de aparelho desconfigurado)."""
     if not valor:
         return None
-    return datetime.fromisoformat(valor.replace("Z", "+00:00")).replace(tzinfo=None)
+    dt = datetime.fromisoformat(valor.replace("Z", "+00:00"))
+    if dt.tzinfo is None:
+        dt = dt.replace(tzinfo=_TZ_UTC)
+    return dt.astimezone(_TZ_BRT).replace(tzinfo=None)
 
 
 def _distancia_m(loc, endereco):
@@ -658,8 +674,10 @@ def main():
                 "fantasia": pdv.get("fantasia", ""),
                 "cidade": cidade_por_id.get(cidade_id, ""),
                 "data": (parse_ts(visita["tsEntrada"]) or "").strftime("%d/%m/%Y") if visita["tsEntrada"] else "",
-                "check_in": visita["tsEntrada"] or "",
-                "check_out": visita["tsSaida"] or "",
+                # ISO já convertido pra horário local (BRT) — não a string
+                # crua da API (essa vem em UTC sem sufixo, ver parse_ts()).
+                "check_in": (parse_ts(visita["tsEntrada"]) or "").isoformat() if visita["tsEntrada"] else "",
+                "check_out": (parse_ts(visita["tsSaida"]) or "").isoformat() if visita["tsSaida"] else "",
                 "observacao_visita": visita.get("observacao") or "",
                 "tipo_justificativa": visita.get("tipoJustificativa") or "",
                 "motivo_visita": motivo.get("descricao") or "",
