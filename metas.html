@@ -1767,10 +1767,15 @@ function renderDetail(v, mes) {
     </div>` : '';
 
   // ── Seção: Não positivados ────────────────────────────────
-  const _npList = (v.nao_positivados || []).filter(c => {
-    const _comprou = new Set(_vendasDoMes(v.nome, mes).filter(s => !s.devolvido && !s.cancelado && !s.cancelado_parcial).map(s => s.cliente.trim().toUpperCase()));
-    return !_comprou.has((c.CLIENTE || '').trim().toUpperCase());
-  });
+  // v.nao_positivados já vem pronto do servidor (exportacao_meta.py::
+  // _build_nao_pos), comparando por CODCLI contra a mesma base de
+  // positivação pessoal do KPI oficial (pos_tt). Um re-filtro aqui no
+  // front, por NOME de cliente (comparando contra VENDAS_DATA, arquivo
+  // separado de vendas_data.js), duplicava esse cálculo e não batia:
+  // texto de nome pode divergir (razão social vs. fantasia, maiúsculas)
+  // do que o CODCLI já resolveu certo no servidor — achado pelo usuário
+  // em 2026-08-31 (servidor mostrava 34, a tela mostrava só 18).
+  const _npList = v.nao_positivados || [];
   const _nNP = _npList.length;
   // Carteira total (RCA1/2/3), não "cadastros no mês" (métrica sem relação
   // — dava fração sem sentido tipo "12/1", achado pelo usuário em 2026-08-31).
