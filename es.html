@@ -33,6 +33,10 @@
     .mes-select:focus { border-color: var(--accent); }
 
     .cards-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 14px; }
+    .vendas-resumo { display: flex; gap: 16px; flex-wrap: wrap; }
+    .vendas-resumo-box { background: var(--card2); border-radius: 8px; padding: 10px 16px; flex: 1; min-width: 120px; }
+    .vendas-resumo-label { font-size: 0.68rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); margin-bottom: 4px; }
+    .vendas-resumo-val   { font-size: 1rem; font-weight: 700; color: var(--text); }
     .vendor-card { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 18px; transition: border-color .2s, transform .15s; }
     .vendor-card:hover { border-color: var(--accent); transform: translateY(-2px); }
     .vendor-name { font-size: .95rem; font-weight: 600; margin-bottom: 2px; }
@@ -466,6 +470,29 @@ function exportarCSV(nome) {
   setTimeout(function() { document.body.removeChild(a); }, 500);
 }
 
+function _buildResumoGeral(mes) {
+  if (!D) return '';
+  var nomes = Object.keys(D.por_vendedor || {});
+  var permitidos = _vendedoresPermitidos();
+  if (permitidos) nomes = nomes.filter(function(n) { return permitidos.has(_normNome(n)); });
+  var totalFat = 0, totalPos = 0;
+  nomes.forEach(function(nome) {
+    var res = (D.resumo && D.resumo[nome] && D.resumo[nome][mes]) || {};
+    totalFat += res.fat || 0;
+    totalPos += res.pos || 0;
+  });
+  return '<div class="vendas-resumo" style="margin-bottom:14px">' +
+    '<div class="vendas-resumo-box">' +
+      '<div class="vendas-resumo-label">Faturamento Total</div>' +
+      '<div class="vendas-resumo-val">' + fmt(totalFat) + '</div>' +
+    '</div>' +
+    '<div class="vendas-resumo-box">' +
+      '<div class="vendas-resumo-label">Positivação</div>' +
+      '<div class="vendas-resumo-val">' + totalPos + ' clientes</div>' +
+    '</div>' +
+  '</div>';
+}
+
 function _buildVendorCards(mes) {
   if (!D) return '';
   var nomes = Object.keys(D.por_vendedor || {});
@@ -527,7 +554,7 @@ function _atualizarTabela(nome) {
   var listaValida = lista.filter(function(r){return !r.devolvido && !r.cancelado && !r.cancelado_parcial;});
   var fat = res.fat || listaValida.reduce(function(s,r){return s+r.valor;},0);
   var qt  = listaValida.reduce(function(s,r){return s+r.qt;},0);
-  var pos = res.pos !== undefined ? res.pos : new Set(listaValida.filter(function(r){return r.offtrade;}).map(function(r){return r.codcli||r.cliente;})).size;
+  var pos = res.pos !== undefined ? res.pos : new Set(listaValida.map(function(r){return r.codcli||r.cliente;})).size;
   // Mesmos 3 cards simples de metas.html (Faturamento/Clientes/Itens),
   // sem comparativo misturado — pedido do usuário: layout igual ao RJ.
   document.getElementById('det-kpis').innerHTML =
@@ -783,6 +810,7 @@ function renderMain(mes) {
     '<select class="mes-select" onchange="renderMain(this.value)">' + mesOpts + '</select>';
   document.getElementById('app').innerHTML =
     _buildAvisoPedidosGeral() +
+    _buildResumoGeral(mes) +
     '<div style="font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.07em;color:var(--muted);margin-bottom:12px">Vendedores</div>' +
     _buildFiltroHtml(mes) +
     '<div class="search-wrap"><input class="search-input" type="text" placeholder="Buscar vendedor..." oninput="filterCards(this.value)"></div>' +
