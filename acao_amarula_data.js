@@ -1,5 +1,5 @@
 const ACAO_AMARULA_DATA = {
-  "atualizado_em": "31/08/2026 13:52",
+  "atualizado_em": "31/08/2026 14:51",
   "periodo": {
     "ini": "19/08/2026",
     "fim": "19/09/2026"
@@ -18,8 +18,8 @@ const ACAO_AMARULA_DATA = {
     200
   ],
   "total_vendedores": 25,
-  "total_volume": 17,
-  "total_faturamento": 1627.3,
+  "total_volume": 18,
+  "total_faturamento": 1717.2,
   "ranking": [
     {
       "vendedor": "ADEILSON GONÇALVEZ",
@@ -39,6 +39,13 @@ const ACAO_AMARULA_DATA = {
       "vendedor": "ANA CLARA FASSANO",
       "volume": 1,
       "faturamento": 98.9,
+      "elegivel": false,
+      "premio": null
+    },
+    {
+      "vendedor": "DIOGO RAPOSO",
+      "volume": 1,
+      "faturamento": 89.9,
       "elegivel": false,
       "premio": null
     },
@@ -93,13 +100,6 @@ const ACAO_AMARULA_DATA = {
     },
     {
       "vendedor": "DANIELLE MOURA",
-      "volume": 0,
-      "faturamento": 0.0,
-      "elegivel": false,
-      "premio": null
-    },
-    {
-      "vendedor": "DIOGO RAPOSO",
       "volume": 0,
       "faturamento": 0.0,
       "elegivel": false,
