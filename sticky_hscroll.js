@@ -102,19 +102,38 @@
       // documento (aqui, do tamanho do conteúdo inteiro — sempre "visível",
       // então não serve). Calcula visibilidade manualmente contra o
       // viewport real (window.top) a cada scroll/resize.
+      //
+      // rect.bottom > alturaTopo (não só "> 0"): mostra só enquanto a borda
+      // de baixo do wrap — onde mora a barra nativa — ainda não apareceu na
+      // tela. Com só "intersecta o viewport", as duas barras (nativa +
+      // fixa) ficavam visíveis juntas ao rolar até o fim de uma tabela mais
+      // baixa que a página (bug real reportado pelo usuário em 2026-08-26,
+      // pedidos_bloqueados.html).
       function checarVisibilidade() {
         var rect = rectNoTopo(wrap);
         var alturaTopo = topWin.innerHeight;
-        marcar(rect.bottom > 0 && rect.top < alturaTopo);
+        marcar(rect.top < alturaTopo && rect.bottom > alturaTopo);
       }
       checarVisibilidade();
       topWin.addEventListener('scroll', checarVisibilidade, { passive: true });
       topWin.addEventListener('resize', checarVisibilidade);
       window.addEventListener('resize', checarVisibilidade);
     } else {
-      new IntersectionObserver(function (entries) {
-        entries.forEach(function (e) { marcar(e.isIntersecting); });
-      }, { threshold: 0 }).observe(wrap);
+      // Mesmo raciocínio do ramo isFramed acima (ver comentário lá) — só
+      // que aqui é quem rola é a própria window, sem iframe no meio.
+      // IntersectionObserver não dava pra usar direto porque "isIntersecting"
+      // fica true assim que qualquer pixel do wrap aparece, inclusive quando
+      // a barra nativa (na borda de baixo) já está visível — daí as duas
+      // barras apareciam juntas no fim de uma tabela mais baixa que a
+      // página.
+      function checarVisibilidade() {
+        var rect = wrap.getBoundingClientRect();
+        var alturaTopo = window.innerHeight;
+        marcar(rect.top < alturaTopo && rect.bottom > alturaTopo);
+      }
+      checarVisibilidade();
+      window.addEventListener('scroll', checarVisibilidade, { passive: true });
+      window.addEventListener('resize', checarVisibilidade);
     }
   }
 
