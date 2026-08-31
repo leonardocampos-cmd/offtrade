@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_es.py
 
 const NAO_POS_ES_DATA = {
-  "atualizado_em": "31/08/2026 14:06",
+  "atualizado_em": "31/08/2026 15:04",
   "por_vendedor": {
     "ADEILSON GONÇALVEZ": [
       {
@@ -2319,44 +2319,6 @@ const NAO_POS_ES_DATA = {
         ]
       },
       {
-        "codcli": "95525",
-        "cliente": "G5 DROGARIAS LTDA",
-        "bairro": "COPACABANA",
-        "dtultcomp": "30/06/2026",
-        "produtos": [
-          {
-            "produto": "GUARAVITON GINSENG 12X500ML",
-            "fantasia": "VITON",
-            "qt": 1,
-            "valor": 31.89
-          },
-          {
-            "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
-            "fantasia": "TATUZINHO",
-            "qt": 1,
-            "valor": 94.68
-          },
-          {
-            "produto": "MOVING HYDRO PROTEIN LIMAO 12X500ML",
-            "fantasia": "TATUZINHO",
-            "qt": 1,
-            "valor": 94.68
-          },
-          {
-            "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
-            "fantasia": "TATUZINHO",
-            "qt": 1,
-            "valor": 94.68
-          },
-          {
-            "produto": "MOVING HYDRO PROTEIN UVA 12X500ML",
-            "fantasia": "TATUZINHO",
-            "qt": 1,
-            "valor": 94.68
-          }
-        ]
-      },
-      {
         "codcli": "95536",
         "cliente": "G5 DROGARIAS LTDA",
         "bairro": "COPACABANA",
@@ -2398,6 +2360,44 @@ const NAO_POS_ES_DATA = {
         "codcli": "95534",
         "cliente": "G5 DROGARIAS LTDA",
         "bairro": "IPANEMA",
+        "dtultcomp": "30/06/2026",
+        "produtos": [
+          {
+            "produto": "GUARAVITON GINSENG 12X500ML",
+            "fantasia": "VITON",
+            "qt": 1,
+            "valor": 31.89
+          },
+          {
+            "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+            "fantasia": "TATUZINHO",
+            "qt": 1,
+            "valor": 94.68
+          },
+          {
+            "produto": "MOVING HYDRO PROTEIN LIMAO 12X500ML",
+            "fantasia": "TATUZINHO",
+            "qt": 1,
+            "valor": 94.68
+          },
+          {
+            "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+            "fantasia": "TATUZINHO",
+            "qt": 1,
+            "valor": 94.68
+          },
+          {
+            "produto": "MOVING HYDRO PROTEIN UVA 12X500ML",
+            "fantasia": "TATUZINHO",
+            "qt": 1,
+            "valor": 94.68
+          }
+        ]
+      },
+      {
+        "codcli": "95525",
+        "cliente": "G5 DROGARIAS LTDA",
+        "bairro": "COPACABANA",
         "dtultcomp": "30/06/2026",
         "produtos": [
           {
@@ -2795,20 +2795,6 @@ const NAO_POS_ES_DATA = {
             "fantasia": "BEAM SUNTORY",
             "qt": 1,
             "valor": 70.9
-          }
-        ]
-      },
-      {
-        "codcli": "2610",
-        "cliente": "SUPERMERCADO ULTRA SUL LTDA",
-        "bairro": "CATETE",
-        "dtultcomp": "29/07/2026",
-        "produtos": [
-          {
-            "produto": "MOLHO TABASCO RED PEPPER SAUCE 12X60ML",
-            "fantasia": "AURORA",
-            "qt": 2,
-            "valor": 357.6
           }
         ]
       },
@@ -5321,20 +5307,6 @@ const NAO_POS_ES_DATA = {
         ]
       },
       {
-        "codcli": "60369",
-        "cliente": "ALAN SOBRERA DA SILVA 13193217719",
-        "bairro": "TAQUARA",
-        "dtultcomp": "28/07/2026",
-        "produtos": [
-          {
-            "produto": "WHISKY J WALKER BLACK LABEL 1L",
-            "fantasia": "DIAGEO",
-            "qt": 2,
-            "valor": 339.8
-          }
-        ]
-      },
-      {
         "codcli": "83863",
         "cliente": "RENATO CRUZ DA SILVA 15335044748",
         "bairro": "GUARATIBA",
@@ -6797,32 +6769,6 @@ const NAO_POS_ES_DATA = {
             "fantasia": "CASTAS",
             "qt": 1,
             "valor": 48.7
-          }
-        ]
-      },
-      {
-        "codcli": "92025",
-        "cliente": "3M LOTEADORA E INCORPORADORA LTDA.",
-        "bairro": "RIO DOURADO",
-        "dtultcomp": "17/12/2025",
-        "produtos": [
-          {
-            "produto": "ESPUMANTE ALUD BRANCO 750ML",
-            "fantasia": "CASTAS",
-            "qt": 36,
-            "valor": 932.4
-          },
-          {
-            "produto": "VINHO BCO ARCAIA PINOT GRIGIO 750ML",
-            "fantasia": "CASTAS",
-            "qt": 60,
-            "valor": 3294.0
-          },
-          {
-            "produto": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
-            "fantasia": "CASTAS",
-            "qt": 72,
-            "valor": 3592.8
           }
         ]
       },
@@ -9023,20 +8969,6 @@ const NAO_POS_ES_DATA = {
             "fantasia": "HOB",
             "qt": 1,
             "valor": 48.1
-          }
-        ]
-      },
-      {
-        "codcli": "77896",
-        "cliente": "EYMARD'S MERCADINHO E DEPOSITO DE BEBIDAS E LATICINIOS LTDA",
-        "bairro": "VILAR DOS TELES",
-        "dtultcomp": "02/06/2026",
-        "produtos": [
-          {
-            "produto": "AMARULA C LIQUEUR 750 ML + 1 COPO",
-            "fantasia": "INTERFOOD",
-            "qt": 12,
-            "valor": 1078.8
           }
         ]
       },
@@ -15425,6 +15357,74 @@ const NAO_POS_ES_DATA = {
         ]
       },
       {
+        "codcli": "8552",
+        "cliente": "R N DIAS DISTRIBUIDORA DE BEBIDAS LTDA",
+        "bairro": "MANGUINHOS",
+        "dtultcomp": "11/02/2026",
+        "produtos": [
+          {
+            "produto": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+            "fantasia": "CASA PERINI",
+            "qt": 6,
+            "valor": 221.4
+          },
+          {
+            "produto": "ESPUM CASA PERINI BRUT 750ML",
+            "fantasia": "CASA PERINI",
+            "qt": 6,
+            "valor": 221.4
+          },
+          {
+            "produto": "GIN BEEFEATER 750ML",
+            "fantasia": "PERNOD",
+            "qt": 3,
+            "valor": 209.7
+          },
+          {
+            "produto": "GIN BOMBAY SAPPHIRE 750ML",
+            "fantasia": "BACARDI",
+            "qt": 3,
+            "valor": 224.7
+          },
+          {
+            "produto": "RED BULL 24X250ML",
+            "fantasia": "RED BULL",
+            "qt": 1,
+            "valor": 174.96
+          },
+          {
+            "produto": "RED BULL TROPICAL 24X250ML",
+            "fantasia": "RED BULL",
+            "qt": 1,
+            "valor": 174.96
+          },
+          {
+            "produto": "ST PIERRE VIDRO PINK LIMONADE LN 275X12",
+            "fantasia": "TATUZINHO",
+            "qt": 1,
+            "valor": 47.95
+          },
+          {
+            "produto": "ST PIERRE VIDRO SUGAR FREE LN 275X12",
+            "fantasia": "TATUZINHO",
+            "qt": 2,
+            "valor": 95.9
+          },
+          {
+            "produto": "ST PIERRE VIDRO TONICA LN 275X12",
+            "fantasia": "TATUZINHO",
+            "qt": 2,
+            "valor": 95.9
+          },
+          {
+            "produto": "WHISKY J. WALKER RED LABEL 1L",
+            "fantasia": "DIAGEO",
+            "qt": 2,
+            "valor": 157.8
+          }
+        ]
+      },
+      {
         "codcli": "50446",
         "cliente": "LEONARDO ALVES TARDELLI 17947773777",
         "bairro": "MANGUINHOS",
@@ -16787,13 +16787,6 @@ const NAO_POS_ES_DATA = {
       {
         "codcli": "81068",
         "cliente": "LANCHONETE CALIFORNIA LTDA",
-        "bairro": "CENTRO",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "81067",
-        "cliente": "LANCHONETE GILBERTO ROSALEM LTDA",
         "bairro": "CENTRO",
         "dtultcomp": "nan",
         "produtos": []
