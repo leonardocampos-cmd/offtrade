@@ -49,6 +49,13 @@ EXCLUDE_JS = {
     # 2026-08-25) — mesmo motivo de metas/vendas acima, sem cópia local pra
     # sincronizar (nem deveria existir uma).
     "pedidos_bloqueados_data.js",
+    # agendamento_data.js: mesmo motivo de metas/vendas acima — está dentro do
+    # main.py (não saiu como metas/vendas), mas a tarefa agendada local parou
+    # de rodar (cópia local presa em 28/08/2026 16:51) enquanto o cron da VPS
+    # seguiu gerando dado fresco a cada hora; sincronizar por cima sobrescreveu
+    # o dado fresco da VPS com essa cópia local velha (bug real, 2026-08-31 —
+    # ver [[project_agendamento_deploy_overwrite]]).
+    "agendamento_data.js",
 }
 
 
