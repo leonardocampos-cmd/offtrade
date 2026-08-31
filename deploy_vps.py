@@ -1,7 +1,8 @@
 """
 Deploy para VPS Hostinger.
-- Sincroniza app.py, utils.py, pages/ (Credito_e_Cadastro, Admin_Objetivos), .streamlit/
-  para /opt/offtrade
+- Sincroniza app.py, utils.py, app_pages/ (Preco_Promo), .streamlit/ para
+  /opt/offtrade — Credito_e_Cadastro saiu do Streamlit em 2026-08-30 (agora é
+  HTML estático + credito_cadastro_api.py, ver deploy_credito_cadastro_vps.py)
 - Reinicia o serviço offtrade
 """
 import os, sys
@@ -126,7 +127,24 @@ def deploy():
         sync_dir(client, sftp, HERE / d, f"{REMOTE_DIR}/{d}")
 
     print("\n-> Instalando dependências Python (se necessário)...")
-    ssh_run(client, f"pip install -q -r {REMOTE_DIR}/requirements.txt", check=False)
+    # offtrade.service roda via /opt/offtrade/.venv/bin/streamlit (ver
+    # ExecStart do systemd unit) — "pip install" sem caminho resolvia pro
+    # pip do sistema (/usr/bin/pip), instalando num Python que o serviço
+    # nunca usa. openpyxl (e qualquer dependência nova) ficava faltando no
+    # venv de verdade mesmo já estando no requirements.txt — bug real
+    # reportado pelo usuário em 2026-08-26 ("Import openpyxl failed" ao
+    # tentar ler planilha em Preco_Promo.py).
+    ssh_run(client, f"{REMOTE_DIR}/.venv/bin/pip install -q -r {REMOTE_DIR}/requirements.txt", check=False)
+
+    print("\n-> Ajustando posse dos arquivos pro usuário do serviço...")
+    # sftp.put() aqui roda como root (VPS_USER), então todo arquivo publicado
+    # fica root:root sem escrita pra grupo/outros — mas offtrade.service roda
+    # como User=ubuntu (systemd unit), que não conseguia criar/gravar nenhum
+    # arquivo novo em REMOTE_DIR (ex: preco_promo.json, metas_config.json)
+    # mesmo lendo normalmente. PermissionError real reportado pelo usuário em
+    # 2026-08-26 (Preco_Promo.py::_save() -> "Permission denied:
+    # '/opt/offtrade/preco_promo.json.tmp'").
+    ssh_run(client, f"chown -R ubuntu:ubuntu {REMOTE_DIR}", check=False)
 
     print(f"\n-> Reiniciando servico {SERVICE}...")
     ssh_run(client, f"systemctl restart {SERVICE}")

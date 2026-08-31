@@ -1,36 +1,43 @@
 """Home + roteador de navegação — Streamlit entrypoint.
 
-Controla o menu lateral: "app" (esta home) e "Admin Objetivos" só aparecem
-pra SUPER_ADMIN_EMAIL (utils.py) — todo mundo mais só vê "Credito e
-Cadastro", que é a única página que vendedor/RCA comum usa (pedido em
-2026-08-04, pra não confundir quem só precisa pedir limite/cadastro com
-menus administrativos irrelevantes pra eles).
-"""
+Nenhum menu visível pra ninguém (pedido em 2026-08-04 pra não confundir quem
+só precisa pedir limite/cadastro, "app" e "Admin Objetivos" removidas do
+menu em 2026-08-24 — position="hidden" abaixo esconde a barra de navegação
+inteira, então isso vale mesmo com 1 única página registrada).
+
+"Credito e Cadastro" saiu do Streamlit em 2026-08-30 — virou HTML estático
+(credito_cadastro.html) + backend Flask próprio (credito_cadastro_api.py),
+fora deste app. Preco Promo continua aqui por enquanto.
+
+A página "app" aqui embaixo é só uma casca invisível, não uma home de
+verdade: com uma ÚNICA página registrada, o Streamlit trata ela como
+"página padrão" e o cliente reescreve a URL do navegador de volta pra raiz
+do domínio (offtrade.duckdns.org/) depois de carregar — só que a raiz é
+servida pelo nginx como o site estático (dashboard hub), não chega no
+Streamlit, então isso quebraria o link de "Preco_Promo" (voltava pra home
+estática ao dar F5/recarregar). Mantendo essa página muda como
+primeira/padrão, "Preco_Promo" nunca é a página padrão e sua URL nunca é
+reescrita — mesmo bug documentado em 2026-08-24 pra "Credito_e_Cadastro".
+
+NÃO chamar require_auth() aqui (cada app_pages/*.py já chama a própria, ver
+Preco_Promo.py) — chamar antes de st.navigation() rodava o loop de retry de
+cookie (st.rerun() várias vezes, ver require_auth() em utils.py) ANTES do
+Streamlit saber que a URL pedida era uma página válida, e isso resetava o
+roteamento pro fallback (_home()) mesmo com a URL certa na barra de
+endereço — bug real reportado pelo usuário em 2026-08-26."""
 import streamlit as st
-from utils import inject_css, page_header, require_auth, SUPER_ADMIN_EMAIL
+from utils import inject_css
 
 st.set_page_config(page_title="OfftradeHub — Dashboard Comercial", page_icon="📊", layout="wide", initial_sidebar_state="expanded")
 inject_css()
-rca_info = require_auth()
 
-_is_super_admin = rca_info.get("email", "").lower() == SUPER_ADMIN_EMAIL
+_pagina_preco_promo = st.Page("app_pages/Preco_Promo.py", title="Preco Promo", icon="🏷️", url_path="Preco_Promo")
 
 
 def _home():
-    page_header("OfftradeHub — Dashboard Comercial", "Off Trade & On Trade · RJ")
-    st.markdown(
-        "Os dashboards agora são servidos em "
-        "[offtrade.duckdns.org](https://offtrade.duckdns.org/). "
-        "Esta tela só existe para as páginas de Crédito e Cadastro / Admin de Objetivos."
-    )
+    st.switch_page(_pagina_preco_promo)
 
 
-_paginas = [st.Page("app_pages/Credito_e_Cadastro.py", title="Credito e Cadastro", icon="💳", url_path="Credito_e_Cadastro")]
-if _is_super_admin:
-    _paginas = (
-        [st.Page(_home, title="app", icon="📊", url_path="app")]
-        + _paginas
-        + [st.Page("app_pages/Admin_Objetivos.py", title="Admin Objetivos", icon="⚙️", url_path="Admin_Objetivos")]
-    )
+_pagina_home = st.Page(_home, title="app", icon="📊", url_path="app")
 
-st.navigation(_paginas).run()
+st.navigation([_pagina_home, _pagina_preco_promo], position="hidden").run()

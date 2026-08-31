@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <script src="vps_redirect.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Crédito e Cadastro de Cliente — OfftradeHub</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --bg: #0f1117; --card: #1a1d27; --card2: #22263a; --accent: #f5c518;
+      --green: #22c55e; --red: #ef4444; --yellow: #f5c518;
+      --text: #e2e8f0; --muted: #94a3b8; --border: #2d3144;
+    }
+    body {
+      background: var(--bg); color: var(--text);
+      font-family: 'Segoe UI', system-ui, sans-serif;
+      min-height: 100vh; padding: 16px; max-width: 720px; margin: 0 auto;
+    }
+    header {
+      display: flex; align-items: center; justify-content: space-between;
+      margin-bottom: 20px; padding-bottom: 14px; border-bottom: 1px solid var(--border);
+      flex-wrap: wrap; gap: 10px;
+    }
+    .h-title { font-size: 1.2rem; font-weight: 700; color: var(--accent); letter-spacing: -.02em; }
+    .h-sub   { font-size: .75rem; color: var(--muted); margin-top: 2px; }
+    .nav-link {
+      font-size: .78rem; color: var(--muted); text-decoration: none;
+      padding: 6px 12px; border: 1px solid var(--border); border-radius: 8px;
+      transition: border-color .15s, color .15s;
+    }
+    .nav-link:hover { border-color: var(--accent); color: var(--accent); }
+
+    .field-input, select.field-input {
+      width: 100%; background: var(--card2); border: 1px solid var(--border);
+      border-radius: 8px; padding: 10px 13px; color: var(--text);
+      font-size: .92rem; outline: none; transition: border-color .15s; font-family: inherit;
+    }
+    .field-input:focus { border-color: var(--accent); }
+    .field-input::placeholder { color: var(--muted); }
+    label {
+      display: block; font-size: .74rem; color: var(--muted);
+      text-transform: uppercase; letter-spacing: .05em; margin-bottom: 6px;
+    }
+
+    .card {
+      background: var(--card); border: 1px solid var(--border);
+      border-radius: 12px; padding: 18px; margin-bottom: 16px;
+    }
+    .msg { border-radius: 8px; padding: 10px 14px; font-size: .85rem; margin: 10px 0; line-height: 1.5; }
+    .msg-warn  { background: rgba(245,197,24,.1);  border: 1px solid rgba(245,197,24,.35);  color: #f5c518; }
+    .msg-error { background: rgba(239,68,68,.1);   border: 1px solid rgba(239,68,68,.35);   color: #f87171; }
+    .msg-info  { background: rgba(96,165,250,.1);  border: 1px solid rgba(96,165,250,.35);  color: #93c5fd; }
+    .msg-ok    { background: rgba(34,197,94,.1);   border: 1px solid rgba(34,197,94,.35);   color: #4ade80; }
+
+    .badge { font-size: .68rem; font-weight: 700; padding: 3px 10px; border-radius: 20px; letter-spacing: .03em; }
+    .badge-ok  { background: rgba(34,197,94,.15);  color: #4ade80; }
+    .badge-blq { background: rgba(239,68,68,.15);  color: #f87171; }
+
+    .kpi-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; margin: 14px 0; }
+    @media (min-width: 480px) { .kpi-grid { grid-template-columns: repeat(4, 1fr); } }
+    .metric-card { background: var(--card2); border: 1px solid var(--border); border-radius: 8px; padding: 10px 12px; }
+    .metric-label { font-size: .68rem; color: var(--muted); text-transform: uppercase; letter-spacing: .04em; margin-bottom: 4px; }
+    .metric-value { font-size: 1.02rem; font-weight: 700; }
+    .metric-value.green { color: #4ade80; }
+    .metric-value.red   { color: #f87171; }
+
+    .btn {
+      padding: 10px 16px; border-radius: 8px; border: 1px solid var(--border);
+      background: var(--card2); color: var(--text); font-size: .88rem; font-weight: 600;
+      cursor: pointer; font-family: inherit; transition: border-color .15s, opacity .15s;
+    }
+    .btn:hover:not(:disabled) { border-color: var(--accent); }
+    .btn:disabled { opacity: .4; cursor: not-allowed; }
+    .btn-primary { background: var(--accent); color: #111; border: none; }
+    .btn-primary:hover:not(:disabled) { opacity: .88; border-color: transparent; }
+    .btn-wa { background: #25D366; color: #fff; border: none; }
+    .btn-wa:hover:not(:disabled) { opacity: .88; }
+    .btn-row { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 12px; }
+    .btn-block { width: 100%; }
+
+    .chip {
+      display: inline-flex; align-items: center; padding: 7px 13px; border-radius: 20px;
+      border: 1px solid var(--border); background: var(--card2); color: var(--muted);
+      font-size: .8rem; cursor: pointer; user-select: none; transition: all .15s;
+    }
+    .chip.active { border-color: var(--accent); color: var(--accent); background: rgba(245,197,24,.08); }
+    .chip-wrap { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 14px; }
+
+    .campo-alt { margin-bottom: 12px; }
+
+    .toggle-row { display: flex; gap: 10px; margin: 16px 0; }
+    .toggle-row .btn { flex: 1; }
+    .toggle-row .btn.active { border-color: var(--accent); color: var(--accent); }
+
+    .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+    .field { margin-bottom: 12px; }
+
+    .dropdown-item {
+      padding: 10px 13px; cursor: pointer; font-size: .85rem;
+      border-bottom: 1px solid var(--border);
+    }
+    .dropdown-item:last-child { border-bottom: none; }
+    .dropdown-item:hover { background: var(--border); }
+
+    .spinner {
+      width: 13px; height: 13px; border-radius: 50%;
+      border: 2px solid var(--border); border-top-color: var(--accent);
+      animation: spin .7s linear infinite; display: inline-block; vertical-align: middle; margin-right: 8px;
+    }
+    @keyframes spin { to { transform: rotate(360deg); } }
+
+    .cliente-nome { font-size: 1.05rem; font-weight: 700; }
+    .cliente-sub  { font-size: .78rem; color: var(--muted); margin-top: 3px; line-height: 1.5; }
+
+    table.receita-table { width: 100%; border-collapse: collapse; font-size: .88rem; }
+    table.receita-table td { padding: 4px 8px; }
+    table.receita-table td:first-child { color: var(--muted); width: 140px; }
+
+    hr.sep { border: none; border-top: 1px solid var(--border); margin: 16px 0; }
+  </style>
+</head>
+<body>
+  <header>
+    <div>
+      <div class="h-title">Crédito e Cadastro de Cliente</div>
+      <div class="h-sub">OfftradeHub · Off Trade</div>
+    </div>
+    <a class="nav-link" id="btn-voltar" href="index.html">&#8592; Voltar</a>
+  </header>
+
+  <div id="google-status"></div>
+
+  <div class="field">
+    <label for="busca">Código, CNPJ ou nome do cliente</label>
+    <input class="field-input" id="busca" type="text" autocomplete="off"
+           placeholder="Ex: 12345 ou 23.504.919/0001-18 ou Rigarr">
+  </div>
+
+  <div id="resultado"></div>
+
+  <script>
+    // ── Auth (mesmo padrão de metas.html/mg.html/sp.html/es.html) ─────────────
+    const HASH = 'b4ba917b95850dc43cce91dba3be9fd1a4f029e18b81d6846a7183839c81d8dd';
+    let RCA_ATUAL = null; // { nome, codusur, admin }
+
+    (function () {
+      if (sessionStorage.getItem('rg_auth') === HASH) {
+        RCA_ATUAL = { nome: '', codusur: '', admin: true };
+        return;
+      }
+      try {
+        const v = JSON.parse(sessionStorage.getItem('rg_vendedor') || '{}');
+        if (v.rca && v.nome) {
+          RCA_ATUAL = { nome: v.nome, codusur: String(v.rca), admin: false };
+          return;
+        }
+      } catch {}
+      sessionStorage.setItem('rg_redirect', location.pathname + location.search);
+      location.replace('login.html');
+    })();
+
+    // ── Login Google (envio pelo Gmail do próprio RCA — sem isso não envia) ──
+    let GOOGLE_LOGADO = false;
+    let GOOGLE_EMAIL  = '';
+
+    function linkEntrarGoogle() {
+      const voltar = location.pathname + location.search.replace(/[?&]google=(ok|erro)/, '');
+      return '/api/credito/oauth/login?voltar=' + encodeURIComponent(voltar);
+    }
+
+    function htmlBotaoGoogle(mensagem) {
+      return `<div class="msg msg-warn">${esc(mensagem)}</div>
+        <a class="btn btn-primary btn-block" style="display:block;text-align:center;text-decoration:none;margin-top:8px" href="${linkEntrarGoogle()}">Entrar com Google</a>`;
+    }
+
+    function renderGoogleStatus() {
+      const el = document.getElementById('google-status');
+      if (GOOGLE_LOGADO) {
+        el.innerHTML = `<div class="msg msg-ok">Enviando pelo Gmail de <b>${esc(GOOGLE_EMAIL)}</b> — <a href="${linkEntrarGoogle()}" style="color:inherit">trocar</a></div>`;
+      } else {
+        el.innerHTML = htmlBotaoGoogle('Entre com sua conta Google pra poder enviar solicitações de cadastro/alteração.');
+      }
+    }
+
+    async function checarLoginGoogle() {
+      try {
+        const r = await fetch('/api/credito/oauth/status');
+        const d = await r.json();
+        GOOGLE_LOGADO = !!d.logado;
+        GOOGLE_EMAIL  = d.email || '';
+      } catch {
+        GOOGLE_LOGADO = false;
+      }
+      renderGoogleStatus();
+    }
+
+    (function () {
+      const params = new URLSearchParams(location.search);
+      const google = params.get('google');
+      if (google) {
+        params.delete('google');
+        const nova = location.pathname + (params.toString() ? '?' + params.toString() : '');
+        history.replaceState(null, '', nova);
+      }
+      checarLoginGoogle().then(() => {
+        if (google === 'erro') {
+          document.getElementById('google-status').innerHTML =
+            '<div class="msg msg-error">Não foi possível entrar com o Google. Tente novamente.</div>' +
+            document.getElementById('google-status').innerHTML;
+        }
+      });
+    })();
+
+    // ── Utilidades ──────────────────────────────────────────────────────────
+    function fmtBRL(v) {
+      return (v || 0).toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' });
+    }
+    function esc(s) {
+      return String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+    }
+    async function api(path, opts) {
+      const resp = await fetch('/api/credito' + path, opts);
+      let data = {};
+      try { data = await resp.json(); } catch {}
+      return { status: resp.status, data };
+    }
+
+    const buscaInput = document.getElementById('busca');
+    const resultado  = document.getElementById('resultado');
+    let debounce = null;
+
+    buscaInput.addEventListener('keydown', e => {
+      if (e.key === 'Enter') { clearTimeout(debounce); executarBusca(); }
+    });
+    buscaInput.addEventListener('input', () => {
+      clearTimeout(debounce);
+      const termo = buscaInput.value.trim();
+      if (!termo) { resultado.innerHTML = ''; return; }
+      debounce = setTimeout(executarBusca, 500);
+    });
+
+    async function executarBusca() {
+      const termo = buscaInput.value.trim();
+      if (!termo) { resultado.innerHTML = ''; return; }
+      resultado.innerHTML = '<div class="msg msg-info"><span class="spinner"></span>Buscando...</div>';
+      let resp;
+      try {
+        resp = await api('/cliente?q=' + encodeURIComponent(termo));
+      } catch {
+        resultado.innerHTML = '<div class="msg msg-error">Não foi possível buscar agora. Tente novamente.</div>';
+        return;
+      }
+      const clientes = resp.data.clientes || [];
+      if (clientes.length > 1) {
+        renderSelecao(clientes);
+      } else if (clientes.length === 1) {
+        renderCliente(clientes[0]);
+      } else {
+        renderNaoEncontrado(termo);
+      }
+    }
+
+    function renderSelecao(clientes) {
+      let html = '<div class="card"><div class="cliente-sub" style="margin-bottom:10px">Vários clientes encontrados, selecione:</div>';
+      clientes.forEach((c, i) => {
+        html += `<div class="dropdown-item" data-i="${i}">${esc(c.codcli)} — ${esc(c.nome)} (${esc(c.fonte)})</div>`;
+      });
+      html += '</div>';
+      resultado.innerHTML = html;
+      resultado.querySelectorAll('.dropdown-item').forEach(el => {
+        el.addEventListener('click', () => renderCliente(clientes[Number(el.dataset.i)]));
+      });
+    }
+
+    // ── Cliente não encontrado: fluxo de solicitação de cadastro ──────────────
+    async function renderNaoEncontrado(termo) {
+      const cnpjLimpo = termo.replace(/\D/g, '');
+      let html = '<div class="msg msg-warn">Cliente não cadastrado.</div>';
+
+      if (cnpjLimpo.length === 12 || cnpjLimpo.length === 13) {
+        html += `<div class="msg msg-warn">⚠️ "${esc(termo)}" tem ${cnpjLimpo.length} dígitos — CNPJ tem 14. Confira se não falta algum dígito (ex: zero à esquerda) antes de prosseguir.</div>`;
+        resultado.innerHTML = html;
+        return;
+      }
+
+      let bloqueio = false;
+      let cardHtml = '';
+
+      if (cnpjLimpo.length === 14) {
+        resultado.innerHTML = html + '<div class="msg msg-info"><span class="spinner"></span>Consultando Receita Federal...</div>';
+        let resp;
+        try {
+          resp = await api('/cnpj?cnpj=' + cnpjLimpo);
+        } catch {
+          resp = { data: { ok: false, motivo: 'Falha de conexão.' } };
+        }
+        const d = resp.data;
+        if (!d.ok) {
+          html += `<div class="msg msg-warn">⚠️ ${esc(d.motivo || 'Não foi possível consultar a Receita Federal.')}</div>`;
+        } else if (!d.disponivel) {
+          html += '<div class="msg msg-info">Não foi possível consultar a Receita Federal para este CNPJ.</div>';
+          bloqueio = true;
+        } else {
+          cardHtml = `
+<div class="card">
+  <div style="font-size:1.02em;font-weight:700;margin-bottom:10px">📋 Dados na Receita Federal</div>
+  <table class="receita-table">
+    <tr><td>Razão Social</td><td>${esc(d.razao_social)}</td></tr>
+    <tr><td>Cidade / UF</td><td>${esc(d.cidade)} / ${esc(d.uf)}</td></tr>
+    <tr><td>Situação CNPJ</td><td><b style="color:${d.cor_cnpj}">${esc(d.status_cnpj)}</b></td></tr>
+    <tr><td>Insc. Estadual</td><td><b style="color:${d.cor_ie}">${esc(d.ie_display)}</b></td></tr>
+  </table>
+</div>`;
+          if (!d.cnpj_ok) {
+            html += `<div class="msg msg-error">Cadastro bloqueado: situação '${esc(d.status_cnpj)}'. Apenas empresas 'Ativa' podem ser cadastradas.</div>`;
+            bloqueio = true;
+          }
+          if (d.ie_indisponivel) {
+            html += '<div class="msg msg-warn">Inscrição Estadual não pôde ser verificada agora (serviço do provedor fora do ar) — solicitação segue, mas o time de cadastro vai receber um aviso pra conferir manualmente.</div>';
+          } else if (!d.ie_ok) {
+            html += `<div class="msg msg-error">Cadastro bloqueado: Inscrição Estadual com pendência — ${esc(d.ie_display)}.</div>`;
+            bloqueio = true;
+          }
+        }
+      }
+
+      resultado.innerHTML = html + cardHtml;
+      if (bloqueio) return;
+
+      // ── RCA solicitante ──────────────────────────────────────────────────
+      const rcaWrap = document.createElement('div');
+      if (!RCA_ATUAL.admin) {
+        rcaWrap.innerHTML = `<div class="msg msg-info">RCA: ${esc(RCA_ATUAL.nome)} (cód. ${esc(RCA_ATUAL.codusur)})</div>`;
+      } else {
+        rcaWrap.innerHTML = `
+          <div class="field">
+            <label for="codusur-manual">Código do RCA (CODUSUR)</label>
+            <input class="field-input" id="codusur-manual" type="text" inputmode="numeric" placeholder="Ex: 12">
+          </div>
+          <div id="codusur-status"></div>`;
+      }
+      resultado.appendChild(rcaWrap);
+
+      const btnSolicitar = document.createElement('button');
+      btnSolicitar.className = 'btn btn-primary btn-block';
+      btnSolicitar.textContent = 'Solicitar cadastro por e-mail';
+      btnSolicitar.disabled = !RCA_ATUAL.admin ? false : true;
+      resultado.appendChild(btnSolicitar);
+
+      const areaAcao = document.createElement('div');
+      resultado.appendChild(areaAcao);
+
+      let rcaResolvido = RCA_ATUAL.admin ? null : { nome: RCA_ATUAL.nome, codusur: RCA_ATUAL.codusur };
+
+      if (RCA_ATUAL.admin) {
+        const inputCod = rcaWrap.querySelector('#codusur-manual');
+        const statusEl = rcaWrap.querySelector('#codusur-status');
+        let lookupDebounce = null;
+        inputCod.addEventListener('input', () => {
+          clearTimeout(lookupDebounce);
+          rcaResolvido = null;
+          btnSolicitar.disabled = true;
+          statusEl.innerHTML = '';
+          const cod = inputCod.value.trim();
+          if (!cod) return;
+          if (!/^\d+$/.test(cod)) { statusEl.innerHTML = '<div class="msg msg-error">Digite apenas números.</div>'; return; }
+          lookupDebounce = setTimeout(async () => {
+            const r = await api('/rca?codusur=' + encodeURIComponent(cod));
+            if (r.data.ok) {
+              rcaResolvido = { nome: r.data.nome, codusur: cod };
+              statusEl.innerHTML = `<div class="msg msg-ok">RCA: ${esc(r.data.nome)} (cód. ${esc(cod)})</div>`;
+              btnSolicitar.disabled = false;
+            } else {
+              statusEl.innerHTML = `<div class="msg msg-error">${esc(r.data.motivo || 'RCA não encontrado.')}</div>`;
+            }
+          }, 400);
+        });
+      }
+
+      btnSolicitar.addEventListener('click', () => enviarCadastro(cnpjLimpo, rcaResolvido, btnSolicitar, areaAcao, false));
+    }
+
+    async function enviarCadastro(cnpjLimpo, rcaInfo, btn, areaAcao, forcar) {
+      if (!rcaInfo) return;
+      btn.disabled = true;
+      areaAcao.innerHTML = '<div class="msg msg-info"><span class="spinner"></span>Enviando...</div>';
+      let resp;
+      try {
+        resp = await api('/cadastro', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ cnpj: cnpjLimpo, rca_nome: rcaInfo.nome, rca_codusur: rcaInfo.codusur, forcar }),
+        });
+      } catch {
+        areaAcao.innerHTML = '<div class="msg msg-error">Não foi possível enviar agora. Tente novamente.</div>';
+        btn.disabled = false;
+        return;
+      }
+      const d = resp.data;
+      if (d.ok) {
+        areaAcao.innerHTML = '<div class="msg msg-ok">Solicitação enviada ao time de cadastro.</div>';
+        btn.style.display = 'none';
+        checarLoginGoogle();
+      } else if (d.precisa_login_google) {
+        areaAcao.innerHTML = htmlBotaoGoogle(d.motivo || 'Entre com sua conta Google pra enviar.');
+        btn.disabled = false;
+        checarLoginGoogle();
+      } else if (d.duplicata) {
+        areaAcao.innerHTML = `
+          <div class="msg msg-warn">⚠️ Já foi solicitado o cadastro deste CNPJ em ${esc(d.duplicata.data)} (por ${esc(d.duplicata.rca || '—')}). Envie de novo só se o time de cadastro ainda não deu retorno.</div>
+          <div class="btn-row">
+            <button class="btn" id="btn-conf">Enviar mesmo assim</button>
+            <button class="btn" id="btn-canc">Cancelar</button>
+          </div>`;
+        areaAcao.querySelector('#btn-conf').addEventListener('click', () => enviarCadastro(cnpjLimpo, rcaInfo, btn, areaAcao, true));
+        areaAcao.querySelector('#btn-canc').addEventListener('click', () => { areaAcao.innerHTML = ''; btn.disabled = false; });
+      } else {
+        areaAcao.innerHTML = `<div class="msg msg-error">${esc(d.motivo || 'Erro ao enviar a solicitação.')}</div>`;
+        btn.disabled = false;
+      }
+    }
+
+    // ── Cliente encontrado ──────────────────────────────────────────────────
+    const RCAS_SEM_VENDEDOR = new Set([10, 200]);
+    const DIAS_LIMITE_TROCA = 60;
+
+    function renderCliente(c) {
+      const disponivel = c.limcred - c.valor_aberto - c.valor_pedidos;
+      const badge = c.bloqueio
+        ? '<span class="badge badge-blq">BLOQUEADO</span>'
+        : '<span class="badge badge-ok">ATIVO</span>';
+      const corDisp = disponivel >= 0 ? 'green' : 'red';
+      const ultimaVenda = c.dtultcomp ? `${c.dtultcomp} (${c.dias_sem_compra} dias atrás)` : 'Nunca comprou';
+
+      let html = `
+<div class="card">
+  <div style="display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap">
+    <div>
+      <div class="cliente-nome">${esc(c.nome)}</div>
+      <div class="cliente-sub">
+        Cód: ${esc(c.codcli)} &nbsp;|&nbsp; CNPJ: ${esc(c.cnpj)}
+        &nbsp;|&nbsp; RCA: ${c.codusur1 ?? '—'} — ${esc(c.nome_rca1)}
+        &nbsp;|&nbsp; Última venda: ${esc(ultimaVenda)}
+      </div>
+    </div>
+    <div>${badge}</div>
+  </div>
+</div>
+
+<div class="kpi-grid">
+  <div class="metric-card"><div class="metric-label">Limite de Crédito</div><div class="metric-value">${fmtBRL(c.limcred)}</div></div>
+  <div class="metric-card"><div class="metric-label">Títulos em Aberto</div><div class="metric-value">${fmtBRL(c.valor_aberto)}</div></div>
+  <div class="metric-card"><div class="metric-label">Pedidos Pendentes</div><div class="metric-value">${fmtBRL(c.valor_pedidos)}</div></div>
+  <div class="metric-card"><div class="metric-label">Disponível</div><div class="metric-value ${corDisp}">${fmtBRL(disponivel)}</div></div>
+</div>`;
+
+      if (c.bloqueio) {
+        html += '<div class="msg msg-warn">Cliente BLOQUEADO.</div>';
+      } else if (disponivel <= 0) {
+        html += `<div class="msg msg-warn">Limite indisponível (${fmtBRL(disponivel)}).</div>`;
+      }
+
+      const rcaInativo = c.codusur1 !== null && RCAS_SEM_VENDEDOR.has(c.codusur1);
+      const semCompraLimite = c.dias_sem_compra === null || c.dias_sem_compra > DIAS_LIMITE_TROCA;
+      if (rcaInativo || semCompraLimite) {
+        const motivo = rcaInativo
+          ? `RCA inativo (cód. ${c.codusur1})`
+          : (c.dias_sem_compra === null ? 'nunca comprou' : `${c.dias_sem_compra} dias sem compra`);
+        html += `<div class="msg msg-warn">⚠️ Cliente sem vendedor ativo — ${esc(motivo)}.</div>`;
+      } else if (!RCA_ATUAL.admin && RCA_ATUAL.codusur && c.codusur1 && String(c.codusur1) !== String(RCA_ATUAL.codusur)) {
+        html += `<div class="msg msg-info">ℹ️ Este cliente já possui vendedor dedicado: <b>${esc(c.nome_rca1)}</b> (cód. ${c.codusur1}).</div>`;
+      }
+
+      html += `
+<hr class="sep" id="ancora-secoes">
+<div class="toggle-row">
+  <button class="btn" id="btn-toggle-cadastro">✏️ Alteração de Cadastro</button>
+  <button class="btn" id="btn-toggle-limite">💰 Pedir Limite/Desbloqueio</button>
+</div>
+<div id="secao-cadastro"></div>
+<div id="secao-limite"></div>`;
+
+      resultado.innerHTML = html;
+
+      document.getElementById('btn-toggle-cadastro').addEventListener('click', () => toggleSecao('cadastro', c));
+      document.getElementById('btn-toggle-limite').addEventListener('click', () => toggleSecao('limite', c));
+    }
+
+    function toggleSecao(qual, c) {
+      const idOutra = qual === 'cadastro' ? 'limite' : 'cadastro';
+      const btnAtual = document.getElementById('btn-toggle-' + qual);
+      const btnOutro = document.getElementById('btn-toggle-' + idOutra);
+      const divAtual = document.getElementById('secao-' + qual);
+      const divOutra = document.getElementById('secao-' + idOutra);
+
+      const abrindo = divAtual.innerHTML === '';
+      divOutra.innerHTML = '';
+      btnOutro.classList.remove('active');
+
+      if (!abrindo) {
+        divAtual.innerHTML = '';
+        btnAtual.classList.remove('active');
+        return;
+      }
+      btnAtual.classList.add('active');
+      if (qual === 'cadastro') renderAlteracao(divAtual, c);
+      else renderLimite(divAtual, c);
+      document.getElementById('ancora-secoes').scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+
+    // ── Alteração de Cadastro ──────────────────────────────────────────────
+    const CAMPOS_ALT = ['Nome Fantasia', 'Razão Social', 'Endereço', 'Telefone', 'E-mail', 'Contato/Responsável', 'RCA 1', 'RCA 2', 'Outro'];
+
+    function renderAlteracao(div, c) {
+      div.innerHTML = `
+<div class="card">
+  <div style="font-weight:700;margin-bottom:12px">✏️ Alteração de Cadastro</div>
+  <label>Quais informações precisam ser atualizadas?</label>
+  <div class="chip-wrap" id="chips-campos"></div>
+  <div id="campos-valores"></div>
+  <div id="area-envio-alt"></div>
+</div>`;
+      const chipsWrap = div.querySelector('#chips-campos');
+      const valoresWrap = div.querySelector('#campos-valores');
+      const areaEnvio = div.querySelector('#area-envio-alt');
+      const selecionados = new Set();
+
+      CAMPOS_ALT.forEach(campo => {
+        const chip = document.createElement('div');
+        chip.className = 'chip';
+        chip.textContent = campo;
+        chip.addEventListener('click', () => {
+          if (selecionados.has(campo)) { selecionados.delete(campo); chip.classList.remove('active'); }
+          else { selecionados.add(campo); chip.classList.add('active'); }
+          renderValores();
+        });
+        chipsWrap.appendChild(chip);
+      });
+
+      function renderValores() {
+        areaEnvio.innerHTML = '';
+        valoresWrap.innerHTML = '';
+        if (selecionados.size === 0) return;
+        selecionados.forEach(campo => {
+          const wrap = document.createElement('div');
+          wrap.className = 'campo-alt';
+          const idInput = 'valor-' + campo.replace(/[^a-zA-Z0-9]/g, '');
+          wrap.innerHTML = `<label for="${idInput}">Novo valor — ${esc(campo)}</label><input class="field-input" id="${idInput}" data-campo="${esc(campo)}">`;
+          valoresWrap.appendChild(wrap);
+        });
+        const btn = document.createElement('button');
+        btn.className = 'btn btn-primary btn-block';
+        btn.textContent = '📧 Enviar Solicitação de Alteração';
+        btn.addEventListener('click', () => {
+          const campos = {};
+          valoresWrap.querySelectorAll('input').forEach(inp => { campos[inp.dataset.campo] = inp.value.trim(); });
+          const preenchidos = Object.fromEntries(Object.entries(campos).filter(([, v]) => v));
+          if (Object.keys(preenchidos).length === 0) {
+            areaEnvio.innerHTML = '<div class="msg msg-warn">Preencha ao menos um novo valor antes de enviar.</div>';
+            return;
+          }
+          enviarAlteracao(c, preenchidos, btn, areaEnvio, false);
+        });
+        areaEnvio.appendChild(btn);
+      }
+    }
+
+    async function enviarAlteracao(c, campos, btn, areaEnvio, forcar) {
+      btn.disabled = true;
+      const statusDiv = document.createElement('div');
+      areaEnvio.appendChild(statusDiv);
+      statusDiv.innerHTML = '<div class="msg msg-info"><span class="spinner"></span>Enviando...</div>';
+      let resp;
+      try {
+        resp = await api('/alteracao', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            codcli: c.codcli, fonte: c.fonte, nome_cliente: c.nome, cnpj: c.cnpj,
+            campos, rca_nome: RCA_ATUAL.nome, rca_codusur: RCA_ATUAL.codusur, forcar,
+          }),
+        });
+      } catch {
+        statusDiv.innerHTML = '<div class="msg msg-error">Não foi possível enviar agora. Tente novamente.</div>';
+        btn.disabled = false;
+        return;
+      }
+      const d = resp.data;
+      if (d.ok) {
+        statusDiv.innerHTML = '<div class="msg msg-ok">Solicitação de alteração enviada ao time de cadastro.</div>';
+        btn.style.display = 'none';
+        checarLoginGoogle();
+      } else if (d.precisa_login_google) {
+        statusDiv.innerHTML = htmlBotaoGoogle(d.motivo || 'Entre com sua conta Google pra enviar.');
+        btn.disabled = false;
+        checarLoginGoogle();
+      } else if (d.duplicadas) {
+        const linhas = Object.entries(d.duplicadas).map(([campo, info]) =>
+          `- <b>${esc(campo)}</b> → "${esc(info.novo_valor)}" já solicitado em ${esc(info.data)}`).join('<br>');
+        statusDiv.innerHTML = `
+          <div class="msg msg-warn">⚠️ Já existe solicitação idêntica pra este cliente:<br>${linhas}<br><br>Envie de novo só se o time de cadastro ainda não deu retorno.</div>
+          <div class="btn-row">
+            <button class="btn" id="btn-conf-alt">Enviar mesmo assim</button>
+            <button class="btn" id="btn-canc-alt">Cancelar</button>
+          </div>`;
+        statusDiv.querySelector('#btn-conf-alt').addEventListener('click', () => { statusDiv.innerHTML = ''; enviarAlteracao(c, campos, btn, areaEnvio, true); });
+        statusDiv.querySelector('#btn-canc-alt').addEventListener('click', () => { statusDiv.innerHTML = ''; btn.disabled = false; });
+      } else {
+        statusDiv.innerHTML = `<div class="msg msg-error">${esc(d.motivo || 'Erro ao enviar a solicitação.')}</div>`;
+        btn.disabled = false;
+      }
+    }
+
+    // ── Pedir Limite/Desbloqueio (WhatsApp — sem backend) ──────────────────
+    const WHATSAPP_FINANCEIRO = '5521964384318';
+    const PRAZOS = [7, 14, 21, 28, 30, 35, 42, 45, 60, 90];
+
+    function renderLimite(div, c) {
+      const bloqueado = c.bloqueio;
+      div.innerHTML = `
+<div class="card">
+  <div style="font-weight:700;margin-bottom:12px">💰 ${bloqueado ? 'Pedir Desbloqueio Financeiro' : 'Pedir Aumento de Limite'}</div>
+  <div class="grid-2">
+    <div class="field">
+      <label for="valor-pedido">Valor do pedido (R$)</label>
+      <input class="field-input" id="valor-pedido" type="number" min="0" step="100" placeholder="0,00">
+    </div>
+    <div class="field">
+      <label for="prazo-pagto">Prazo de pagamento (dias)</label>
+      <select class="field-input" id="prazo-pagto"></select>
+    </div>
+  </div>
+  <button class="btn btn-wa btn-block" id="btn-wa">📲 Solicitar ${bloqueado ? 'Desbloqueio' : 'Aumento de Limite'} pelo WhatsApp</button>
+</div>`;
+      const selectPrazo = div.querySelector('#prazo-pagto');
+      PRAZOS.forEach(p => {
+        const opt = document.createElement('option');
+        opt.value = p; opt.textContent = p + ' dias';
+        if (p === 30) opt.selected = true;
+        selectPrazo.appendChild(opt);
+      });
+
+      div.querySelector('#btn-wa').addEventListener('click', () => {
+        const valor = parseFloat(div.querySelector('#valor-pedido').value) || 0;
+        const prazo = selectPrazo.value;
+        const infoCliente = `Cliente: ${c.nome} (${c.cnpj}) — Cód. ${c.codcli}\nRCA Solicitante: ${RCA_ATUAL.nome} (cód. ${RCA_ATUAL.codusur})`;
+        const assunto = bloqueado ? `Solicitação de Desbloqueio — ${c.nome}` : `Solicitação de Limite — ${c.nome}`;
+        const valorLinha = valor > 0 ? `Valor do Pedido    : ${fmtBRL(valor)}\n` : '';
+        const corpo = bloqueado
+          ? `Solicitação de desbloqueio de cliente.\n\n${infoCliente}\n${valorLinha}Prazo de Pagamento : ${prazo} dias\n\nPodem realizar o desbloqueio?\n\nObrigado!`
+          : `Solicitação de aumento de limite de crédito.\n\n${infoCliente}\n${valorLinha}Prazo de Pagamento : ${prazo} dias\n\nPodem realizar o ajuste?\n\nObrigado!`;
+        const url = `https://wa.me/${WHATSAPP_FINANCEIRO}?text=${encodeURIComponent(assunto + '\n\n' + corpo)}`;
+        window.open(url, '_blank', 'noopener');
+      });
+    }
+  </script>
+</body>
+</html>
