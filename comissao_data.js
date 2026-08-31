@@ -1,7 +1,7 @@
 // Gerado automaticamente por exportacao_comissao.py — ESTIMATIVA, não é a apuração oficial
 
 const COMISSAO_DATA = {
-  "atualizado_em": "31/08/2026 10:35",
+  "atualizado_em": "31/08/2026 11:40",
   "mes_referencia": "08/2026",
   "pct_premio_taxa": 0.015,
   "vendedores": [
@@ -252,7 +252,7 @@ const COMISSAO_DATA = {
       ],
       "ating_acumulado_total": 0.864763,
       "pct_premio": 0.01297144,
-      "liq_rigarr": 120115.44,
+      "liq_rigarr": 120534.72,
       "fat_castas": 2079.0,
       "teto_comissao": 3000.0,
       "com_rigarr": 2594.29,
@@ -506,7 +506,7 @@ const COMISSAO_DATA = {
       ],
       "ating_acumulado_total": 0.704833,
       "pct_premio": 0.01057249,
-      "liq_rigarr": 49797.91,
+      "liq_rigarr": 58109.71,
       "fat_castas": 0.0,
       "teto_comissao": 2000.0,
       "com_rigarr": 1409.67,
@@ -1014,12 +1014,12 @@ const COMISSAO_DATA = {
       ],
       "ating_acumulado_total": 0.197649,
       "pct_premio": 0.00296474,
-      "liq_rigarr": 333938.51,
+      "liq_rigarr": 348827.42,
       "fat_castas": 0.0,
       "teto_comissao": null,
-      "com_rigarr": 990.04,
+      "com_rigarr": 1034.18,
       "com_castas": 0.0,
-      "comissao_estimada": 990.04
+      "comissao_estimada": 1034.18
     },
     {
       "nome": "MARILENA TRAGEL - OFF TRADE",
@@ -1156,10 +1156,10 @@ const COMISSAO_DATA = {
         {
           "label": "FATURAMENTO",
           "meta": 200000.0,
-          "realizado": 75502.29,
+          "realizado": 72576.45,
           "peso": 0.7,
-          "ating_meta": 0.377511,
-          "ating_acumulado": 0.264258
+          "ating_meta": 0.362882,
+          "ating_acumulado": 0.254017
         },
         {
           "label": "FATURAMENTO PERNOD",
@@ -1260,20 +1260,20 @@ const COMISSAO_DATA = {
         {
           "label": "POSITIVAÇÃO TIAL",
           "meta": 0.0,
-          "realizado": 6,
+          "realizado": 5,
           "peso": 0.0,
           "ating_meta": 0.0,
           "ating_acumulado": 0.0
         }
       ],
-      "ating_acumulado_total": 0.487276,
-      "pct_premio": 0.00730914,
+      "ating_acumulado_total": 0.477035,
+      "pct_premio": 0.00715552,
       "liq_rigarr": 88934.15,
       "fat_castas": 9612.3,
       "teto_comissao": null,
-      "com_rigarr": 650.03,
-      "com_castas": 70.26,
-      "comissao_estimada": 720.29
+      "com_rigarr": 636.37,
+      "com_castas": 68.78,
+      "comissao_estimada": 705.15
     },
     {
       "nome": "NÁTALI DE OLIVEIRA - OFF TRADE",
