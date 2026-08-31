@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_es.py
 
 const NAO_POS_ES_DATA = {
-  "atualizado_em": "31/08/2026 11:36",
+  "atualizado_em": "31/08/2026 12:25",
   "por_vendedor": {
     "ADEILSON GONÇALVEZ": [
       {
@@ -6422,6 +6422,32 @@ const NAO_POS_ES_DATA = {
         ]
       },
       {
+        "codcli": "91739",
+        "cliente": "NARCK RODRIGUES CENTRO DE TREINAMENTO E ENTRETENIMENTO LTDA",
+        "bairro": "BARRA DA TIJUCA",
+        "dtultcomp": "27/07/2026",
+        "produtos": [
+          {
+            "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+            "fantasia": "TATUZINHO",
+            "qt": 1,
+            "valor": 94.7
+          },
+          {
+            "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+            "fantasia": "TATUZINHO",
+            "qt": 1,
+            "valor": 94.7
+          },
+          {
+            "produto": "MOVING HYDRO PROTEIN UVA 12X500ML",
+            "fantasia": "TATUZINHO",
+            "qt": 1,
+            "valor": 94.7
+          }
+        ]
+      },
+      {
         "codcli": "92088",
         "cliente": "VIDA & RAIZ DO FLAMENGO PRODUTOS NATURAIS LTDA",
         "bairro": "FLAMENGO",
@@ -8364,6 +8390,148 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       }
     ],
+    "IVAN CLAUDINO FILHO": [
+      {
+        "codcli": "83537",
+        "cliente": "44.643.569 RENATA GONCALVES RIBEIRO BOLSONEL VIEIRA",
+        "bairro": "CENTRO",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "79682",
+        "cliente": "55.066.786 JOSE GUILHERME DE FARIA TRINDADE",
+        "bairro": "ITAPEBUSSU",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "96191",
+        "cliente": "58.165.171 TASSIO MOREIRA DO NASCIMENTO",
+        "bairro": "KUBITSCHEK",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "96004",
+        "cliente": "58.397.058 JUAN PABLO SILVA",
+        "bairro": "SETIBA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "96042",
+        "cliente": "59.782.192 CINTHIA FONSECA LAIBER",
+        "bairro": "CENTRO",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "96180",
+        "cliente": "60.934.802 JOSIMAR SILVINO ELEUTERIO",
+        "bairro": "JABARAÍ",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "96181",
+        "cliente": "66.173.917 CONCEICAO LEAL DOS SANTOS",
+        "bairro": "MUQUIÇABA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "91565",
+        "cliente": "ANTONIO JOSE DA SILVA JUNIOR LTDA",
+        "bairro": "SANTA MÔNICA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "76458",
+        "cliente": "BOTECO DO CARANGUEJO LTDA",
+        "bairro": "CENTRO",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "96165",
+        "cliente": "CANAL COMERCIO E DISTRIBUIDORA DE BEBIDAS LTDA",
+        "bairro": "BELA VISTA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "76442",
+        "cliente": "CLENILSON PAGANINI",
+        "bairro": "JARDIM JANDYRA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "92614",
+        "cliente": "DISTRIBUIDORA MASCARENHAS LTDA",
+        "bairro": "ITAPEBUSSU",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "71937",
+        "cliente": "FAROFA CARIOCA BAR LTDA",
+        "bairro": "PRAIA DO MORRO",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "96147",
+        "cliente": "MAR AZUL BEBIDAS LTDA",
+        "bairro": "SANTA MÔNICA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "96061",
+        "cliente": "MERCADINHO DA ROCA LTDA",
+        "bairro": "SANTA MÔNICA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "80871",
+        "cliente": "MINI MERCADO FOLLI LTDA",
+        "bairro": "SANTA MARGARIDA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "93266",
+        "cliente": "P DE MENDONCA ALMEIDA RESTAURANTE LTDA",
+        "bairro": "CENTRO",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "91917",
+        "cliente": "PDT PADARIA E MERCEARIA LTDA",
+        "bairro": "PRAIA DO MORRO",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "96062",
+        "cliente": "RONE SILVA DE SOUZA LTDA",
+        "bairro": "SANTA MÔNICA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "96192",
+        "cliente": "SALVA ROLE COMERCIO E DISTRIBUICAO DE BEBIDAS LTDA",
+        "bairro": "CENTRO",
+        "dtultcomp": "nan",
+        "produtos": []
+      }
+    ],
     "IVANILDO MAIA": [
       {
         "codcli": "95798",
@@ -10015,9 +10183,9 @@ const NAO_POS_ES_DATA = {
         ]
       },
       {
-        "codcli": "90413",
+        "codcli": "90406",
         "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
-        "bairro": "VALVERDE",
+        "bairro": "LARGO DA BATALHA",
         "dtultcomp": "11/06/2026",
         "produtos": [
           {
@@ -10053,9 +10221,9 @@ const NAO_POS_ES_DATA = {
         ]
       },
       {
-        "codcli": "90406",
+        "codcli": "90413",
         "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
-        "bairro": "LARGO DA BATALHA",
+        "bairro": "VALVERDE",
         "dtultcomp": "11/06/2026",
         "produtos": [
           {
@@ -10383,6 +10551,26 @@ const NAO_POS_ES_DATA = {
         ]
       },
       {
+        "codcli": "61684",
+        "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
+        "bairro": "BARROCO (ITAIPUACU)",
+        "dtultcomp": "27/07/2026",
+        "produtos": [
+          {
+            "produto": "ST PIERRE LATA PINK LEMON LT 24X270ML",
+            "fantasia": "TATUZINHO",
+            "qt": 1,
+            "valor": 95.52
+          },
+          {
+            "produto": "SUCO DE UVA TTO INT QUINTA DO MORGADO 1L",
+            "fantasia": "FANTE",
+            "qt": 60,
+            "valor": 690.0
+          }
+        ]
+      },
+      {
         "codcli": "84612",
         "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
         "bairro": "INOA (INOA)",
@@ -10417,26 +10605,6 @@ const NAO_POS_ES_DATA = {
             "fantasia": "FANTE",
             "qt": 36,
             "valor": 414.0
-          }
-        ]
-      },
-      {
-        "codcli": "61684",
-        "cliente": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE ALIMENTOS LTDA",
-        "bairro": "BARROCO (ITAIPUACU)",
-        "dtultcomp": "27/07/2026",
-        "produtos": [
-          {
-            "produto": "ST PIERRE LATA PINK LEMON LT 24X270ML",
-            "fantasia": "TATUZINHO",
-            "qt": 1,
-            "valor": 95.52
-          },
-          {
-            "produto": "SUCO DE UVA TTO INT QUINTA DO MORGADO 1L",
-            "fantasia": "FANTE",
-            "qt": 60,
-            "valor": 690.0
           }
         ]
       },
@@ -10505,20 +10673,6 @@ const NAO_POS_ES_DATA = {
         ]
       },
       {
-        "codcli": "91983",
-        "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
-        "bairro": "PACHECO",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "91981",
-        "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
-        "bairro": "RAUL VEIGA",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
         "codcli": "91987",
         "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
         "bairro": "CENTRO",
@@ -10547,30 +10701,51 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
-        "codcli": "92003",
+        "codcli": "92001",
         "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
         "bairro": "PAVUNA",
         "dtultcomp": "nan",
         "produtos": []
       },
       {
-        "codcli": "91982",
+        "codcli": "91994",
         "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
-        "bairro": "SANTO CRISTO",
+        "bairro": "REALENGO",
         "dtultcomp": "nan",
         "produtos": []
       },
       {
-        "codcli": "92004",
+        "codcli": "91981",
         "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
-        "bairro": "CENTRO",
+        "bairro": "RAUL VEIGA",
         "dtultcomp": "nan",
         "produtos": []
       },
       {
-        "codcli": "91990",
+        "codcli": "91983",
         "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
-        "bairro": "CENTRO",
+        "bairro": "PACHECO",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "91993",
+        "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
+        "bairro": "COELHO NETO",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "91996",
+        "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
+        "bairro": "BANGU",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "91984",
+        "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
+        "bairro": "PARQUE URUGUAIANA",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -10596,37 +10771,30 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
-        "codcli": "91994",
+        "codcli": "91990",
         "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
-        "bairro": "REALENGO",
+        "bairro": "CENTRO",
         "dtultcomp": "nan",
         "produtos": []
       },
       {
-        "codcli": "92001",
+        "codcli": "92004",
+        "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
+        "bairro": "CENTRO",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "91982",
+        "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
+        "bairro": "SANTO CRISTO",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "92003",
         "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
         "bairro": "PAVUNA",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "91996",
-        "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
-        "bairro": "BANGU",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "91984",
-        "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
-        "bairro": "PARQUE URUGUAIANA",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
-        "codcli": "91993",
-        "cliente": "G.M.A.P. SUPERMERCADOS S.A.",
-        "bairro": "COELHO NETO",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -10634,6 +10802,13 @@ const NAO_POS_ES_DATA = {
         "codcli": "96000",
         "cliente": "MAX FOODS DISTRIBUICAO LTDA",
         "bairro": "RETIRO SAO JOAQUIM",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "67822",
+        "cliente": "SUPERMERCADO BARRA OESTE LTDA",
+        "bairro": "BARRA DA TIJUCA",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -10659,13 +10834,6 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
-        "codcli": "67822",
-        "cliente": "SUPERMERCADO BARRA OESTE LTDA",
-        "bairro": "BARRA DA TIJUCA",
-        "dtultcomp": "nan",
-        "produtos": []
-      },
-      {
         "codcli": "28411",
         "cliente": "SUPERMERCADO PADRAO DO FONSECA EIRELI",
         "bairro": "PORTO VELHO",
@@ -10680,16 +10848,16 @@ const NAO_POS_ES_DATA = {
         "produtos": []
       },
       {
-        "codcli": "90407",
+        "codcli": "90414",
         "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
-        "bairro": "VIGA",
+        "bairro": "INHAUMA",
         "dtultcomp": "nan",
         "produtos": []
       },
       {
-        "codcli": "90414",
+        "codcli": "90407",
         "cliente": "SUPERMERCADO PADRAO DO FONSECA LTDA",
-        "bairro": "INHAUMA",
+        "bairro": "VIGA",
         "dtultcomp": "nan",
         "produtos": []
       },
