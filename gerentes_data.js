@@ -1,7 +1,7 @@
 // Gerado automaticamente
 
 const GERENTES_DATA = {
-  "atualizado_em": "31/08/2026 10:03",
+  "atualizado_em": "31/08/2026 11:11",
   "meses": [
     "Ago/26",
     "Jul/26",
@@ -1468,13 +1468,9 @@ const GERENTES_DATA = {
                 },
                 {
                   "nome": "NÁTALI DE OLIVEIRA - OFF TRADE",
-                  "rca": "419",
+                  "rca": "482",
                   "estado": "RJ",
                   "por_mes": {
-                    "Abr/26": {
-                      "fat": 47733.55,
-                      "qt": 1089
-                    },
                     "Ago/26": {
                       "fat": 83434.75,
                       "qt": 1758
@@ -1486,6 +1482,10 @@ const GERENTES_DATA = {
                     "Jun/26": {
                       "fat": 105672.51,
                       "qt": 2558
+                    },
+                    "Abr/26": {
+                      "fat": 47733.55,
+                      "qt": 1089
                     },
                     "Mai/26": {
                       "fat": 38615.83,
@@ -1499,7 +1499,7 @@ const GERENTES_DATA = {
                 },
                 {
                   "nome": "VIVIANI ALVES - OFF TRADE",
-                  "rca": "91",
+                  "rca": "119",
                   "estado": "RJ",
                   "por_mes": {
                     "Abr/26": {
@@ -1768,8 +1768,8 @@ const GERENTES_DATA = {
           "qt": 106910
         },
         "Ago/26": {
-          "fat": 8146729.41,
-          "qt": 231156
+          "fat": 8234852.61,
+          "qt": 235044
         },
         "Jul/26": {
           "fat": 8062432.08,
@@ -1916,8 +1916,8 @@ const GERENTES_DATA = {
               "qt": 45607
             },
             "Ago/26": {
-              "fat": 5558360.66,
-              "qt": 150703
+              "fat": 5646483.86,
+              "qt": 154591
             },
             "Jul/26": {
               "fat": 5492482.24,
@@ -2051,32 +2051,32 @@ const GERENTES_DATA = {
                 },
                 {
                   "nome": "BRYAN PALOPOLI - OFF TRADE",
-                  "rca": "299",
+                  "rca": "399",
                   "estado": "SP",
                   "por_mes": {
-                    "Abr/26": {
-                      "fat": 40780.92,
-                      "qt": 527
-                    },
                     "Ago/26": {
                       "fat": 71119.65,
                       "qt": 284
-                    },
-                    "Jul/26": {
-                      "fat": 67582.53,
-                      "qt": 1229
                     },
                     "Jun/26": {
                       "fat": 36626.91,
                       "qt": 217
                     },
-                    "Mai/26": {
-                      "fat": 341.64,
-                      "qt": 151
-                    },
                     "Mar/26": {
                       "fat": 21679.38,
                       "qt": 290
+                    },
+                    "Abr/26": {
+                      "fat": 40780.92,
+                      "qt": 527
+                    },
+                    "Jul/26": {
+                      "fat": 67582.53,
+                      "qt": 1229
+                    },
+                    "Mai/26": {
+                      "fat": 341.64,
+                      "qt": 151
                     }
                   }
                 },
@@ -2611,8 +2611,8 @@ const GERENTES_DATA = {
                   "qt": 20888
                 },
                 "Ago/26": {
-                  "fat": 3112410.66,
-                  "qt": 93518
+                  "fat": 3200533.86,
+                  "qt": 97406
                 },
                 "Jul/26": {
                   "fat": 1795396.04,
@@ -3229,8 +3229,8 @@ const GERENTES_DATA = {
                   "estado": "SP",
                   "por_mes": {
                     "Ago/26": {
-                      "fat": 1458035.14,
-                      "qt": 39695
+                      "fat": 1546158.34,
+                      "qt": 43583
                     },
                     "Jul/26": {
                       "fat": 3219.44,
