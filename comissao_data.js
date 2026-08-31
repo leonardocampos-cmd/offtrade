@@ -1,7 +1,7 @@
 // Gerado automaticamente por exportacao_comissao.py — ESTIMATIVA, não é a apuração oficial
 
 const COMISSAO_DATA = {
-  "atualizado_em": "31/08/2026 12:33",
+  "atualizado_em": "31/08/2026 14:11",
   "mes_referencia": "08/2026",
   "pct_premio_taxa": 0.015,
   "vendedores": [
@@ -267,10 +267,10 @@ const COMISSAO_DATA = {
         {
           "label": "FATURAMENTO",
           "meta": 200000.0,
-          "realizado": 141745.87,
+          "realizado": 139980.67,
           "peso": 0.7,
-          "ating_meta": 0.708729,
-          "ating_acumulado": 0.49611
+          "ating_meta": 0.699903,
+          "ating_acumulado": 0.489932
         },
         {
           "label": "FATURAMENTO PERNOD",
@@ -283,10 +283,10 @@ const COMISSAO_DATA = {
         {
           "label": "FATURAMENTO CASTAS",
           "meta": 10000.0,
-          "realizado": 3949.8,
+          "realizado": 2991.4,
           "peso": 0.1,
-          "ating_meta": 0.39498,
-          "ating_acumulado": 0.039498
+          "ating_meta": 0.29914,
+          "ating_acumulado": 0.029914
         },
         {
           "label": "FATURAMENTO HOB + AZEITE",
@@ -307,10 +307,10 @@ const COMISSAO_DATA = {
         {
           "label": "POSITIVAÇÃO",
           "meta": 50.0,
-          "realizado": 40,
+          "realizado": 39,
           "peso": 0.1,
-          "ating_meta": 0.8,
-          "ating_acumulado": 0.08
+          "ating_meta": 0.78,
+          "ating_acumulado": 0.078
         },
         {
           "label": "POSITIVAÇÃO ESSENZA",
@@ -363,7 +363,7 @@ const COMISSAO_DATA = {
         {
           "label": "POSITIVAÇÃO TATUZINHO",
           "meta": 0.0,
-          "realizado": 5,
+          "realizado": 4,
           "peso": 0.0,
           "ating_meta": 0.0,
           "ating_acumulado": 0.0
@@ -377,14 +377,14 @@ const COMISSAO_DATA = {
           "ating_acumulado": 0.0
         }
       ],
-      "ating_acumulado_total": 0.679876,
-      "pct_premio": 0.01019814,
+      "ating_acumulado_total": 0.662114,
+      "pct_premio": 0.00993171,
       "liq_rigarr": 153130.64,
-      "fat_castas": 3949.8,
+      "fat_castas": 2991.4,
       "teto_comissao": null,
-      "com_rigarr": 1561.65,
-      "com_castas": 40.28,
-      "comissao_estimada": 1601.93
+      "com_rigarr": 1520.85,
+      "com_castas": 29.71,
+      "comissao_estimada": 1550.56
     },
     {
       "nome": "FABIO VALOTTI - OFF TRADE",
