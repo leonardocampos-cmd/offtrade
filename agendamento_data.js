@@ -39,6 +39,34 @@ const AGENDAMENTO_DATA = {
       "codusur": "471",
       "itens": [
         {
+          "codigo_cliente": "6690",
+          "cliente": "SUPERMERCADO ULTRA 12 LTDA",
+          "cnpj": "5669831000174",
+          "filial": "TIJUCA",
+          "valor": 1494.0,
+          "nf": "",
+          "data_agendamento": "01/09/2026",
+          "data_ord": "2026-09-01",
+          "status": "A FATURAR",
+          "obs": "Caixas e rótulos íntegros.",
+          "status_logistica": "",
+          "justificativa_logistica": ""
+        },
+        {
+          "codigo_cliente": "6281",
+          "cliente": "SUPERMERCADO ULTRA 05 LTDA",
+          "cnpj": "09.007.884/0001-80",
+          "filial": "COPACABANA",
+          "valor": 2822.4,
+          "nf": "",
+          "data_agendamento": "01/09/2026",
+          "data_ord": "2026-09-01",
+          "status": "A FATURAR",
+          "obs": "",
+          "status_logistica": "",
+          "justificativa_logistica": ""
+        },
+        {
           "codigo_cliente": "8984",
           "cliente": "SUPERMERCADO ULTRA 07 LTDA",
           "cnpj": "27220597000136",
@@ -730,6 +758,20 @@ const AGENDAMENTO_DATA = {
       "nome": "ANGELO NEVES SUZART - OFF TRADE",
       "codusur": "153",
       "itens": [
+        {
+          "codigo_cliente": "90484",
+          "cliente": "SUPERMERCADOS RC DE ITAGUAI LTDA",
+          "cnpj": "58.113.396/0001-63",
+          "filial": "ITAGUAI",
+          "valor": 6933.6,
+          "nf": "",
+          "data_agendamento": "01/09/2026",
+          "data_ord": "2026-09-01",
+          "status": "A FATURAR",
+          "obs": "EMBARCAR AS CAIXAS ORIGINAIS E ÍNTEGRAS.",
+          "status_logistica": "",
+          "justificativa_logistica": ""
+        },
         {
           "codigo_cliente": "84130",
           "cliente": "VILA SANTA CRUZ COMERCIO DE GENEROS ALIMENTICIOS LTDA",
@@ -3976,6 +4018,20 @@ const AGENDAMENTO_DATA = {
       "nome": "DANIELLE MOURA - OFF TRADE",
       "codusur": "238",
       "itens": [
+        {
+          "codigo_cliente": "6278",
+          "cliente": "SUPERMERCADOS MUNDIAL LTDA",
+          "cnpj": "33.304.981/0001-10",
+          "filial": "INHAUMA",
+          "valor": 6960.0,
+          "nf": "",
+          "data_agendamento": "01/09/2026",
+          "data_ord": "2026-09-01",
+          "status": "A FATURAR",
+          "obs": "(PAGAMENTO NO PIX) - CADA SKU EM PALETTS DIFERENTES -  PALLET TEM QUE SER FILMADO",
+          "status_logistica": "",
+          "justificativa_logistica": ""
+        },
         {
           "codigo_cliente": "2978",
           "cliente": "TORRE E CIA SUPERMERCADOS S/A",
@@ -16317,6 +16373,20 @@ const AGENDAMENTO_DATA = {
       "codusur": "379",
       "itens": [
         {
+          "codigo_cliente": "72641",
+          "cliente": "LDK EVENTOS LTDA",
+          "cnpj": "47.682.898/0001-99",
+          "filial": "MESQUITA",
+          "valor": 1426.8,
+          "nf": "",
+          "data_agendamento": "01/09/2026",
+          "data_ord": "2026-09-01",
+          "status": "A FATURAR",
+          "obs": "",
+          "status_logistica": "",
+          "justificativa_logistica": ""
+        },
+        {
           "codigo_cliente": "95634",
           "cliente": "RAMIGOS SUPERMERCADOS S.A",
           "cnpj": "11.552.261/0001-30",
@@ -23095,20 +23165,6 @@ const AGENDAMENTO_DATA = {
       "codusur": "275",
       "itens": [
         {
-          "codigo_cliente": "7886",
-          "cliente": "CENCOSUD BRASIL COMERCIAL LTDA",
-          "cnpj": "39.346.861/0383-04",
-          "filial": "PENHA",
-          "valor": 35173.7,
-          "nf": "",
-          "data_agendamento": "02/09/2026",
-          "data_ord": "2026-09-02",
-          "status": "A FATURAR",
-          "obs": "IR CARRO DEDICADO SOMENTE COM A MERCADORIA DESTE MERCADO  \n1) Carga paletizada (Não pode misturar produtos diferentes no pallet);\n2) Chegar com 2 horas de antecedência - avisar a logística que não pode haver atraso - a assistente de compras foi desligada e caso haja algum problema não tem como resolver na hora!!\n3) Caixas e rótulos em perfeito estado, o mercado não recebe produtos com embalagens danificadas;\n4) Não esquecer de colocar a cobrança da descarga.",
-          "status_logistica": "",
-          "justificativa_logistica": ""
-        },
-        {
           "codigo_cliente": "84034",
           "cliente": "EMISE SUPERMERCADO LTDA",
           "cnpj": "17.659.742/0002-07",
@@ -23567,6 +23623,34 @@ const AGENDAMENTO_DATA = {
           "data_ord": "2026-08-03",
           "status": "ENTREGUE",
           "obs": "IR CARRO DEDICADO SOMENTE COM A MERCADORIA DESTE MERCADO  \n1) Carga paletizada (Não pode misturar produtos diferentes no pallet);\n2) Chegar com 2 horas de antecedência - avisar a logística que não pode haver atraso - a assistente de compras foi desligada e caso haja algum problema não tem como resolver na hora!!\n3) Caixas e rótulos em perfeito estado, o mercado não recebe produtos com embalagens danificadas;\n4) Não esquecer de colocar a cobrança da descarga.",
+          "status_logistica": "",
+          "justificativa_logistica": ""
+        },
+        {
+          "codigo_cliente": "6269",
+          "cliente": "SUPERMERCADO ZONA SUL S/A",
+          "cnpj": "33.381.286/0001-51",
+          "filial": "OLARIA",
+          "valor": 7967.52,
+          "nf": "",
+          "data_agendamento": "01/08/2026",
+          "data_ord": "2026-08-01",
+          "status": "A FATURAR",
+          "obs": "ENTREGAR DAS 07HS ÀS 11HS",
+          "status_logistica": "",
+          "justificativa_logistica": ""
+        },
+        {
+          "codigo_cliente": "6269",
+          "cliente": "SUPERMERCADO ZONA SUL S/A",
+          "cnpj": "33.381.286/0001-51",
+          "filial": "OLARIA",
+          "valor": 21592.8,
+          "nf": "",
+          "data_agendamento": "01/08/2026",
+          "data_ord": "2026-08-01",
+          "status": "A FATURAR",
+          "obs": "ENTREGAR DAS 07HS ÀS 11HS",
           "status_logistica": "",
           "justificativa_logistica": ""
         },
@@ -27175,7 +27259,7 @@ const AGENDAMENTO_DATA = {
       ]
     }
   ],
-  "atualizado_em": "31/08/2026 14:03",
+  "atualizado_em": "31/08/2026 14:58",
   "comparativo": [
     {
       "msg_id": "1a01bc9a975c4cab",
