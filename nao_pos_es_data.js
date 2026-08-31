@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_es.py
 
 const NAO_POS_ES_DATA = {
-  "atualizado_em": "31/08/2026 15:04",
+  "atualizado_em": "31/08/2026 15:56",
   "por_vendedor": {
     "ADEILSON GONÇALVEZ": [
       {
@@ -1657,38 +1657,6 @@ const NAO_POS_ES_DATA = {
             "fantasia": "TIAL",
             "qt": 2,
             "valor": 117.36
-          }
-        ]
-      },
-      {
-        "codcli": "93630",
-        "cliente": "ATLM BANGU COMERCIO DE GENEROS ALIMENTICIOS LTDA",
-        "bairro": "BANGU",
-        "dtultcomp": "31/07/2026",
-        "produtos": [
-          {
-            "produto": "NECTAR DE MARACUJA 24X200ML KIDS",
-            "fantasia": "TIAL",
-            "qt": 1,
-            "valor": 40.56
-          },
-          {
-            "produto": "NECTAR MISTO GOIABA 24X200ML KIDS",
-            "fantasia": "TIAL",
-            "qt": 1,
-            "valor": 40.56
-          },
-          {
-            "produto": "NECTAR MISTO UVA E PERA 24X200ML KIDS",
-            "fantasia": "TIAL",
-            "qt": 1,
-            "valor": 40.56
-          },
-          {
-            "produto": "VINHO BCO SUAVE QUINTA DO MORGADO 750ML",
-            "fantasia": "FANTE",
-            "qt": 6,
-            "valor": 86.94
           }
         ]
       },
@@ -5303,20 +5271,6 @@ const NAO_POS_ES_DATA = {
             "fantasia": "FANTE",
             "qt": 60,
             "valor": 702.0
-          }
-        ]
-      },
-      {
-        "codcli": "83863",
-        "cliente": "RENATO CRUZ DA SILVA 15335044748",
-        "bairro": "GUARATIBA",
-        "dtultcomp": "31/07/2026",
-        "produtos": [
-          {
-            "produto": "CERVEJA AMSTEL PURO MALTE 12X473 ML",
-            "fantasia": "KAISER",
-            "qt": 20,
-            "valor": 978.0
           }
         ]
       },
@@ -9373,38 +9327,6 @@ const NAO_POS_ES_DATA = {
             "fantasia": "RECKITT",
             "qt": 5,
             "valor": 326.4
-          }
-        ]
-      },
-      {
-        "codcli": "92023",
-        "cliente": "50.828.095 MATHEUS DA SILVA LIMA",
-        "bairro": "BRAZ DE PINA",
-        "dtultcomp": "09/07/2026",
-        "produtos": [
-          {
-            "produto": "CERVEJA HEINEKEN LONG 24X330ML",
-            "fantasia": "KAISER",
-            "qt": 1,
-            "valor": 127.9
-          },
-          {
-            "produto": "GIN MARINA 750ML",
-            "fantasia": "HOB",
-            "qt": 1,
-            "valor": 39.9
-          },
-          {
-            "produto": "NECTAR MISTO UVA E PERA 24X200ML KIDS",
-            "fantasia": "TIAL",
-            "qt": 1,
-            "valor": 30.96
-          },
-          {
-            "produto": "SUCO DE UVA TTO INT QUINTA DO MORGADO 1L",
-            "fantasia": "FANTE",
-            "qt": 1,
-            "valor": 12.9
           }
         ]
       },
