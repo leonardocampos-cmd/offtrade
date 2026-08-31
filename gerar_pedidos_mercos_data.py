@@ -1,4 +1,4 @@
-"""Gera pedidos_mercos_data.js a partir de dois relatorios exportados
+"""Gera pedidos_mercos_data.js a partir dos relatorios exportados
 manualmente da Mercos (nao tem API/scraping automatizado - ver CLAUDE.md)
 e cruza cada pedido com o Winthor (SPON) pra saber se ja foi faturado.
 
@@ -6,10 +6,14 @@ Como rodar (local, apos exportar da Mercos):
   1. Login manual em app.mercos.com > Indicadores > Relatorios.
   2. Exportar "Produtos por pedido" (Excel) -> salvar como
      C:\\Users\\LeonardoCampos\\Downloads\\relatorio.xls
+     (o relatorio trunca em 5000 linhas — se o periodo desejado passar disso,
+     exportar em pedacos, ex: um por semestre, e salvar como
+     "relatorio_sem1.xls", "relatorio_sem2.xls" etc.; todo arquivo
+     "relatorio.xls" ou "relatorio_sem*.xls" na pasta e' lido e mesclado)
   3. Exportar "Vendas detalhadas" (Excel, mesmo periodo) -> salvar como
      C:\\Users\\LeonardoCampos\\Downloads\\Vendas detalhadas.xls
   4. python gerar_pedidos_mercos_data.py
-  5. python sync_mercos_exports_vps.py  -- manda os 2 arquivos pra VPS,
+  5. python sync_mercos_exports_vps.py  -- manda os arquivos pra VPS,
      pro cron de la (a cada 30min) ter o snapshot mais recente.
 
 Rodando na VPS (cron, OFFTRADE_RUNTIME=vps): le os mesmos 2 arquivos de
@@ -25,6 +29,7 @@ Mercos) guardam em PCPEDC.NUMPEDCLI o padrao "<numero_pedido_mercos>/
 jeito de saber se um pedido do Mercos ja foi faturado sem precisar abrir
 pedido por pedido no Winthor.
 """
+import glob
 import json
 import os
 import re
@@ -40,11 +45,14 @@ _EXPORTS_DIR = os.getenv(
     "MERCOS_EXPORTS_DIR",
     "/opt/mercos-exports" if _RUNTIME == "vps" else r"C:\Users\LeonardoCampos\Downloads",
 )
-PRODUTOS_PATH = os.path.join(_EXPORTS_DIR, "relatorio.xls")
+PRODUTOS_GLOB = os.path.join(_EXPORTS_DIR, "relatorio*.xls")
 VENDAS_PATH = os.path.join(_EXPORTS_DIR, "Vendas detalhadas.xls")
 OUT_JS = str(Path(__file__).parent / "pedidos_mercos_data.js")
 
-DATA_INICIAL = "2026-08-01"  # ajustar junto com o periodo exportado da Mercos
+# Canal W.S/Mercos comecou em 19/11/2025 (confirmado em 2026-08-27 apos
+# exportar todo o historico disponivel na Mercos, semestre a semestre —
+# 09/2024 a 08/2025 veio vazio, dado real so aparece a partir de 11/2025).
+DATA_INICIAL = "2025-11-01"
 
 RE_NUMPEDCLI = re.compile(r"^\s*(\d+)\s*/\s*(\S+)\s*$")
 
@@ -64,42 +72,61 @@ def _carregar_pedido_info():
     }
 
 
-def _montar_pedidos(pedido_info):
-    pp = pd.read_excel(PRODUTOS_PATH, header=None)
-    pedidos = {}
-    produto_atual = None
-    i, n = 0, len(pp)
-    while i < n:
-        col0 = pp.iat[i, 0]
-        if isinstance(col0, str) and col0.startswith("Produto:"):
-            texto = col0[len("Produto:"):].strip()
-            codigo_prod, _, desc_prod = texto.partition(" - ")
-            produto_atual = (codigo_prod.strip(), desc_prod.strip())
-            i += 2
+def _listar_arquivos_produtos():
+    """Todo relatorio.xls/relatorio_sem*.xls valido na pasta de export —
+    o relatorio "Produtos por pedido" trunca em 5000 linhas, entao um
+    periodo longo precisa vir em varios arquivos (ex: um por semestre)."""
+    candidatos = sorted(glob.glob(PRODUTOS_GLOB))
+    validos = []
+    for caminho in candidatos:
+        try:
+            titulo = pd.read_excel(caminho, header=None, nrows=2).iat[1, 0]
+        except Exception:
             continue
-        if produto_atual is not None and pd.notna(col0) and pd.notna(pp.iat[i, 1]):
-            pedido = str(int(pp.iat[i, 1]))
-            criador = str(pp.iat[i, 3]) if pd.notna(pp.iat[i, 3]) else ""
-            cod_vend, _, nome_vend = criador.partition(" - ")
-            info = pedido_info.get(pedido, {})
-            p = pedidos.setdefault(pedido, {
-                "numped": pedido,
-                "data": col0,
-                "cod_vendedor": cod_vend.strip(),
-                "vendedor": nome_vend.strip(),
-                "cnpj": info.get("cnpj", ""),
-                "cliente": pp.iat[i, 2],
-                "representada": info.get("representada", ""),
-                "itens": [],
-            })
-            p["itens"].append({
-                "codprod": produto_atual[0],
-                "descricao": produto_atual[1],
-                "qt": float(pp.iat[i, 5]),
-                "preco_liquido": float(pp.iat[i, 4]),
-                "subtotal": float(pp.iat[i, 6]),
-            })
-        i += 1
+        if isinstance(titulo, str) and "Produtos por Pedido" in titulo:
+            validos.append(caminho)
+        else:
+            print(f"[AVISO] {caminho} ignorado (nao parece ser um relatorio de Produtos por Pedido)")
+    return validos
+
+
+def _montar_pedidos(pedido_info):
+    pedidos = {}
+    for caminho in _listar_arquivos_produtos():
+        pp = pd.read_excel(caminho, header=None)
+        produto_atual = None
+        i, n = 0, len(pp)
+        while i < n:
+            col0 = pp.iat[i, 0]
+            if isinstance(col0, str) and col0.startswith("Produto:"):
+                texto = col0[len("Produto:"):].strip()
+                codigo_prod, _, desc_prod = texto.partition(" - ")
+                produto_atual = (codigo_prod.strip(), desc_prod.strip())
+                i += 2
+                continue
+            if produto_atual is not None and pd.notna(col0) and pd.notna(pp.iat[i, 1]):
+                pedido = str(int(pp.iat[i, 1]))
+                criador = str(pp.iat[i, 3]) if pd.notna(pp.iat[i, 3]) else ""
+                cod_vend, _, nome_vend = criador.partition(" - ")
+                info = pedido_info.get(pedido, {})
+                p = pedidos.setdefault(pedido, {
+                    "numped": pedido,
+                    "data": col0,
+                    "cod_vendedor": cod_vend.strip(),
+                    "vendedor": nome_vend.strip(),
+                    "cnpj": info.get("cnpj", ""),
+                    "cliente": pp.iat[i, 2],
+                    "representada": info.get("representada", ""),
+                    "itens": [],
+                })
+                p["itens"].append({
+                    "codprod": produto_atual[0],
+                    "descricao": produto_atual[1],
+                    "qt": float(pp.iat[i, 5]),
+                    "preco_liquido": float(pp.iat[i, 4]),
+                    "subtotal": float(pp.iat[i, 6]),
+                })
+            i += 1
 
     lista = list(pedidos.values())
     for p in lista:
@@ -202,20 +229,31 @@ def _cruzar_com_spon(lista_pedidos):
     # o CNPJ com máscara (XX.XXX.XXX/XXXX-XX), por isso o REGEXP_REPLACE
     # dos dois lados (confirmado em 2026-08-27).
     if nao_encontrados:
-        cnpjs_sql = ",".join(f"'{p['cnpj']}'" for p in nao_encontrados)
-        query_clientes = f"""
-            SELECT DISTINCT REGEXP_REPLACE(CGCENT, '[^0-9]', '') AS CNPJ_LIMPO
-            FROM SPON.PCCLIENT
-            WHERE REGEXP_REPLACE(CGCENT, '[^0-9]', '') IN ({cnpjs_sql})
-        """
-        try:
-            df_clientes = carregar_dados(query_clientes, engine_spon, "spon_clientes_cadastrados")
-            df_clientes.columns = df_clientes.columns.str.upper()
-            cnpjs_cadastrados = set(df_clientes["CNPJ_LIMPO"])
-        except Exception as e:
-            print(f"[AVISO] checagem de cadastro de cliente indisponivel ({str(e)[:100]}) — ignorado")
-            cnpjs_cadastrados = None
-        if cnpjs_cadastrados is not None:
+        # Oracle limita IN (...) a 1000 expressoes — com o historico completo
+        # da Mercos os "nao encontrados" passam disso facilmente, entao a
+        # checagem vai em lotes (bug visto em 2026-08-27 ao carregar todo o
+        # historico: ORA-01795 estourava a query inteira).
+        cnpjs_unicos = sorted({p["cnpj"] for p in nao_encontrados})
+        TAMANHO_LOTE = 900
+        cnpjs_cadastrados = set()
+        erro = None
+        for inicio in range(0, len(cnpjs_unicos), TAMANHO_LOTE):
+            lote = cnpjs_unicos[inicio:inicio + TAMANHO_LOTE]
+            cnpjs_sql = ",".join(f"'{c}'" for c in lote)
+            query_clientes = f"""
+                SELECT DISTINCT REGEXP_REPLACE(CGCENT, '[^0-9]', '') AS CNPJ_LIMPO
+                FROM SPON.PCCLIENT
+                WHERE REGEXP_REPLACE(CGCENT, '[^0-9]', '') IN ({cnpjs_sql})
+            """
+            try:
+                df_clientes = carregar_dados(query_clientes, engine_spon, "spon_clientes_cadastrados")
+                df_clientes.columns = df_clientes.columns.str.upper()
+                cnpjs_cadastrados.update(df_clientes["CNPJ_LIMPO"])
+            except Exception as e:
+                erro = e
+                print(f"[AVISO] checagem de cadastro de cliente indisponivel ({str(e)[:100]}) — ignorado")
+                break
+        if erro is None:
             for p in nao_encontrados:
                 if p["cnpj"] not in cnpjs_cadastrados:
                     p["status_spon"] = "cliente_nao_cadastrado"
@@ -269,7 +307,7 @@ def _publicar_static():
 
 
 def main():
-    if not os.path.exists(PRODUTOS_PATH) or not os.path.exists(VENDAS_PATH):
+    if not _listar_arquivos_produtos() or not os.path.exists(VENDAS_PATH):
         print(f"[AVISO] arquivos de exportacao da Mercos nao encontrados em {_EXPORTS_DIR} — "
               f"pulando (rode sync_mercos_exports_vps.py apos reexportar da Mercos).")
         return
