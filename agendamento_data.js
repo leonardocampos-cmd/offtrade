@@ -23095,6 +23095,20 @@ const AGENDAMENTO_DATA = {
       "codusur": "275",
       "itens": [
         {
+          "codigo_cliente": "7886",
+          "cliente": "CENCOSUD BRASIL COMERCIAL LTDA",
+          "cnpj": "39.346.861/0383-04",
+          "filial": "PENHA",
+          "valor": 35173.7,
+          "nf": "",
+          "data_agendamento": "02/09/2026",
+          "data_ord": "2026-09-02",
+          "status": "A FATURAR",
+          "obs": "IR CARRO DEDICADO SOMENTE COM A MERCADORIA DESTE MERCADO  \n1) Carga paletizada (Não pode misturar produtos diferentes no pallet);\n2) Chegar com 2 horas de antecedência - avisar a logística que não pode haver atraso - a assistente de compras foi desligada e caso haja algum problema não tem como resolver na hora!!\n3) Caixas e rótulos em perfeito estado, o mercado não recebe produtos com embalagens danificadas;\n4) Não esquecer de colocar a cobrança da descarga.",
+          "status_logistica": "",
+          "justificativa_logistica": ""
+        },
+        {
           "codigo_cliente": "84034",
           "cliente": "EMISE SUPERMERCADO LTDA",
           "cnpj": "17.659.742/0002-07",
@@ -27161,7 +27175,7 @@ const AGENDAMENTO_DATA = {
       ]
     }
   ],
-  "atualizado_em": "31/08/2026 12:22",
+  "atualizado_em": "31/08/2026 14:03",
   "comparativo": [
     {
       "msg_id": "1a01bc9a975c4cab",
