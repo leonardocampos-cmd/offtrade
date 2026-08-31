@@ -679,12 +679,12 @@
   const _vend   = _p.get('vendedor');
   const _rca    = _p.get('rca');
 
-  // SSO com o Streamlit (botão "Pedir limite e cadastro" -> Credito_e_Cadastro):
-  // renova o cookie offtrade_token aqui também, não só no login.html, porque
-  // uma sessão já aberta antes desse recurso existir nunca passa pelo
-  // login.html de novo — sem isso o botão continuava pedindo login mesmo com
-  // o usuário já autenticado (mesmo esquema de utils.py:_decode_email, que
-  // não valida assinatura, só o e-mail no payload).
+  // SSO com o Streamlit (Preco_Promo — Credito e Cadastro virou HTML estático
+  // em 2026-08-30, não depende mais deste cookie): renova o cookie
+  // offtrade_token aqui também, não só no login.html, porque uma sessão já
+  // aberta antes desse recurso existir nunca passa pelo login.html de novo
+  // (mesmo esquema de utils.py:_decode_email, que não valida assinatura, só
+  // o e-mail no payload).
   function _b64urlEncode(obj) {
     const b64 = btoa(unescape(encodeURIComponent(JSON.stringify(obj))));
     return b64.replace(/\+/g, '-').replace(/\//g, '_').replace(/=+$/, '');
@@ -1684,7 +1684,7 @@ function renderDetail(v, mes) {
   document.getElementById('header-actions').innerHTML = `
     <select class="mes-select" onchange="renderDetail(METAS_DATA.vendedores.find(x=>x.nome==='${v.nome}'), this.value)">${mesOpts}</select>
     <button class="btn" onclick="copyLink('${v.nome}', this)">\uD83D\uDD17 Copiar link</button>
-    <a class="btn btn-limite" href="https://offtrade.duckdns.org/Credito_e_Cadastro" target="_blank" rel="noopener">&#128196; PEDIR LIMITE E CADASTRO</a>
+    <a class="btn btn-limite" href="credito_cadastro.html" target="_blank" rel="opener">&#128196; PEDIR LIMITE E CADASTRO</a>
     <a class="btn" href="clientes_rca.html?estado=RJ&rcas=10,200">&#128230; Novos Clientes</a>`;
 
   // ── Seção: Metas ──────────────────────────────────────────
@@ -1729,7 +1729,7 @@ function renderDetail(v, mes) {
   // estornada infla esses números.
   const _vendasValidas = _vendas.filter(x => !x.devolvido && !x.cancelado && !x.cancelado_parcial);
   const _fatVend = _vendasValidas.reduce((s, x) => s + x.valor, 0);
-  const _nCli    = new Set(_vendasValidas.filter(x => x.offtrade).map(x => x.codcli || x.cliente)).size;
+  const _nCli    = new Set(_vendasValidas.map(x => x.codcli || x.cliente)).size;
   const _nItens  = _vendasValidas.reduce((s, x) => s + x.qt, 0);
   const _pedidos = _ordenarPedidosDesc([
     ..._agruparPedidos(_vendas),
@@ -1924,20 +1924,20 @@ function buildCampanha(mes) {
           // Calcula live de VENDAS_DATA por vendedor (igual ao SP)
           const _vendorStats = vendedores.map(v => {
             const vendas     = (VENDAS_DATA.por_vendedor[v.nome] || {})[mes] || [];
-            const pernodVend = vendas.filter(s => s.offtrade && s.fantasia && s.fantasia.toUpperCase().includes('PERNOD'));
+            const pernodVend = vendas.filter(s => !s.devolvido && s.fantasia && s.fantasia.toUpperCase().includes('PERNOD'));
             const paresMap   = new Map();
             for (const sv of pernodVend) {
               const key = `${sv.codcli}|${sv.produto}`;
               if (!paresMap.has(key)) paresMap.set(key, sv.produto);
             }
             let bonus = 0;
-            for (const [, prod] of paresMap) bonus += prod.toUpperCase().includes('JAMERSON') ? 10 : 5;
+            for (const [, prod] of paresMap) bonus += prod.toUpperCase().includes('JAMESON') ? 10 : 5;
             return { nome: v.nome, bonus, pares: paresMap.size, posPernod: new Set(pernodVend.map(s => s.codcli)).size };
           });
 
           const todaPernod  = vendedores.flatMap(v =>
             ((VENDAS_DATA.por_vendedor[v.nome] || {})[mes] || [])
-            .filter(s => s.offtrade && s.fantasia && s.fantasia.toUpperCase().includes('PERNOD'))
+            .filter(s => !s.devolvido && s.fantasia && s.fantasia.toUpperCase().includes('PERNOD'))
           );
           const _posPernod  = new Set(todaPernod.map(s => s.codcli)).size;
           const _paresCount = new Set(todaPernod.map(s => `${s.codcli}|${s.produto}`)).size;
@@ -2069,14 +2069,14 @@ function buildCampanhaDetail(v, mes) {
         const isPernodDet = camp.nome.includes('PERNOD') && typeof VENDAS_DATA !== 'undefined';
         if (isPernodDet) {
           const pv = ((VENDAS_DATA.por_vendedor[v.nome] || {})[mes] || [])
-            .filter(s => s.offtrade && s.fantasia && s.fantasia.toUpperCase().includes('PERNOD'));
+            .filter(s => !s.devolvido && s.fantasia && s.fantasia.toUpperCase().includes('PERNOD'));
           const paresMap = new Map();
           for (const sv of pv) {
             const key = `${sv.codcli}|${sv.produto}`;
             if (!paresMap.has(key)) paresMap.set(key, sv.produto);
           }
           let bonus = 0;
-          for (const [, prod] of paresMap) bonus += prod.toUpperCase().includes('JAMERSON') ? 10 : 5;
+          for (const [, prod] of paresMap) bonus += prod.toUpperCase().includes('JAMESON') ? 10 : 5;
           const pares     = paresMap.size;
           const posPernod = new Set(pv.map(s => s.codcli)).size;
           posicaoHtml = pares > 0
@@ -2545,13 +2545,13 @@ function _fatVendasMes(nomeVendedor, mes) {
 function _posVendasMes(nomeVendedor, mes) {
   if (typeof VENDAS_DATA === 'undefined') return 0;
   const vendas = (VENDAS_DATA.por_vendedor[nomeVendedor] || {})[mes] || [];
-  return new Set(vendas.filter(x => x.offtrade && !x.devolvido && !x.cancelado && !x.cancelado_parcial).map(x => x.codcli || x.cliente)).size;
+  return new Set(vendas.filter(x => !x.devolvido && !x.cancelado && !x.cancelado_parcial).map(x => x.codcli || x.cliente)).size;
 }
 
 function _industriasVendasMes(nomeVendedor, mes) {
   if (typeof VENDAS_DATA === 'undefined') return 0;
   const vendas = (VENDAS_DATA.por_vendedor[nomeVendedor] || {})[mes] || [];
-  return new Set(vendas.filter(x => x.offtrade && !x.devolvido && !x.cancelado && !x.cancelado_parcial).map(x => x.fantasia)).size;
+  return new Set(vendas.filter(x => !x.devolvido && !x.cancelado && !x.cancelado_parcial).map(x => x.fantasia)).size;
 }
 
 function _fatOrdenacao(v, mes) {
@@ -2656,7 +2656,7 @@ function renderAll(vendedores, mes) {
 
   document.getElementById('header-actions').innerHTML =
     `<select class="mes-select" onchange="document.getElementById('header-sub').textContent=this.value+' · Atualizado ${METAS_DATA.atualizado_em}';_aplicarFiltro(this.value)">${mesOpts}</select>
-     <a class="btn btn-limite" href="https://offtrade.duckdns.org/Credito_e_Cadastro" target="_blank" rel="noopener">&#128196; PEDIR LIMITE E CADASTRO</a>`;
+     <a class="btn btn-limite" href="credito_cadastro.html" target="_blank" rel="opener">&#128196; PEDIR LIMITE E CADASTRO</a>`;
 
   const _gers = _getGerentes();
   const _sups = _getSupervisores('');
