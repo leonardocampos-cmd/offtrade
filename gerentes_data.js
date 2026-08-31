@@ -1,7 +1,7 @@
 // Gerado automaticamente
 
 const GERENTES_DATA = {
-  "atualizado_em": "31/08/2026 13:40",
+  "atualizado_em": "31/08/2026 14:36",
   "meses": [
     "Ago/26",
     "Jul/26",
@@ -889,7 +889,7 @@ const GERENTES_DATA = {
           "qt": 50188
         },
         "Ago/26": {
-          "fat": 2933384.43,
+          "fat": 2933414.43,
           "qt": 34313
         },
         "Jul/26": {
@@ -921,7 +921,7 @@ const GERENTES_DATA = {
               "qt": 41575
             },
             "Ago/26": {
-              "fat": 1262918.3,
+              "fat": 1262948.3,
               "qt": 19056
             },
             "Jul/26": {
@@ -953,7 +953,7 @@ const GERENTES_DATA = {
                   "qt": 41575
                 },
                 "Ago/26": {
-                  "fat": 1262918.3,
+                  "fat": 1262948.3,
                   "qt": 19056
                 },
                 "Jul/26": {
@@ -1172,7 +1172,7 @@ const GERENTES_DATA = {
                       "qt": 4419
                     },
                     "Ago/26": {
-                      "fat": 141745.87,
+                      "fat": 141775.87,
                       "qt": 2367
                     },
                     "Jul/26": {
@@ -3566,6 +3566,26 @@ const GERENTES_DATA = {
                 {
                   "nome": "W.S - BLENDED",
                   "rca": "588",
+                  "estado": "",
+                  "por_mes": {}
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "nome": "MARCUS TANAMACHI",
+          "estados": [],
+          "por_mes": {},
+          "supervisores": [
+            {
+              "nome": "ANDERSON CANAVEIS",
+              "estados": [],
+              "por_mes": {},
+              "vendedores": [
+                {
+                  "nome": " JONATHAN HENRIQUE BURATTO- OFF TRADE",
+                  "rca": "962",
                   "estado": "",
                   "por_mes": {}
                 }
