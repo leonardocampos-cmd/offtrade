@@ -8,8 +8,26 @@ filiais/empresas da planilha ficam de fora por enquanto.
 Roda como step independente de email_pedidos.py (que gera a outra aba,
 "Pedidos por E-mail x Faturado") — cada um faz merge no mesmo
 agendamento_data.js sem sobrescrever o que o outro já gravou.
+
+Padronização de nome do RCA (pedido do usuário em 2026-08-26, "padronizar
+os nomes... pegando pelo número, coloca o nome"): a coluna VENDEDOR de
+ANTIGO/NOVO é texto livre digitado à mão, com várias grafias da MESMA
+pessoa (ex: "ANGELO NEVES SUZART" / "ANGELO NEVES" / "ANGELO SUZART" — 3
+variantes achadas na planilha real). A aba "RCA" (CODUSUR + NOME) é a
+referência canônica — resolve o texto livre pro nome oficial via
+_resolver_vendedor(), em 3 níveis de confiança (exato -> subconjunto de
+palavras, só se achar 1 candidato único -> fuzzy só com nota ≥0.90 e folga
+≥0.10 pro 2º colocado). NUNCA junta duas pessoas diferentes por engano:
+testado contra a planilha real e essa regra corretamente rejeita casos
+como "IVANILDO MAIA" (fuzzy ingênuo juntava com "WANDO MACHADO", pessoa
+errada) e "JORGE" sozinho (ambíguo entre 2 RCAs reais, "JORGE LUIZ" e
+"JORGE MACIEL") — nesses casos fica com o texto original, sem inventar,
+só reportado em 'avisos_vendedor_sem_match' pro usuário revisar/completar
+a aba RCA se quiser.
 """
+import difflib
 import json
+import os
 import re
 import subprocess
 from datetime import datetime
@@ -58,6 +76,60 @@ def _cod(v) -> str:
         return str(v).strip()
 
 
+def _normalizar_nome(nome: str) -> str:
+    s = str(nome or '').upper().strip()
+    s = re.sub(r'\s*-\s*OFF\s*TRADE\s*$', '', s)
+    s = re.sub(r'\s+', ' ', s).strip()
+    return s
+
+
+def _carregar_rca_lookup(caminho) -> list:
+    df_rca = pd.read_excel(caminho, sheet_name='RCA')
+    df_rca.columns = [str(c).strip().upper() for c in df_rca.columns]
+    lookup = []
+    for _, r in df_rca.iterrows():
+        nome = _s(r['NOME'])
+        if not nome:
+            continue
+        norm = _normalizar_nome(nome)
+        lookup.append({
+            'codusur': _cod(r['CODUSUR']),
+            'nome': nome,
+            'norm': norm,
+            'palavras': set(norm.split()),
+        })
+    return lookup
+
+
+def _resolver_vendedor(bruto: str, rca_lookup: list, avisos: set) -> tuple:
+    """(codusur, nome_canonico) pro texto livre de VENDEDOR — ver docstring
+    do módulo pros 3 níveis de confiança. Sem match confiante, devolve
+    ('', bruto) — mantém o texto original em vez de arriscar juntar duas
+    pessoas diferentes, e registra em `avisos` pra revisão manual."""
+    norm = _normalizar_nome(bruto)
+    if not norm:
+        return '', ''
+
+    for r in rca_lookup:
+        if r['norm'] == norm:
+            return r['codusur'], r['nome']
+
+    palavras = set(norm.split())
+    candidatos_subset = [r for r in rca_lookup if palavras and palavras <= r['palavras']]
+    if len(candidatos_subset) == 1:
+        return candidatos_subset[0]['codusur'], candidatos_subset[0]['nome']
+
+    scores = sorted(
+        ((difflib.SequenceMatcher(None, norm, r['norm']).ratio(), r) for r in rca_lookup),
+        key=lambda t: t[0], reverse=True,
+    )
+    if scores and scores[0][0] >= 0.90 and (len(scores) < 2 or scores[0][0] - scores[1][0] >= 0.10):
+        return scores[0][1]['codusur'], scores[0][1]['nome']
+
+    avisos.add(bruto)
+    return '', bruto
+
+
 def _merge_write(patch: dict):
     existing = {}
     if DATA_PATH.exists():
@@ -101,8 +173,27 @@ def main():
     df_crc4['STATUS LOGISTICA'] = df_crc4.get('STATUS LOGISTICA', '').fillna('').astype(str).str.strip().str.upper()
     df_crc4['VENDEDOR']  = df_crc4['VENDEDOR'].fillna('').astype(str).str.strip()
 
+    # Padroniza o texto livre de VENDEDOR pro nome canônico da aba RCA (ver
+    # docstring do módulo) — agrupa por esse nome em vez do texto cru, então
+    # "ANGELO NEVES"/"ANGELO SUZART"/"ANGELO NEVES SUZART" viram um grupo só.
+    rca_lookup = _carregar_rca_lookup(caminho)
+    avisos_sem_match = set()
+    _cache_resolucao = {}
+
+    def _resolver_cache(bruto):
+        if bruto not in _cache_resolucao:
+            _cache_resolucao[bruto] = _resolver_vendedor(bruto, rca_lookup, avisos_sem_match)
+        return _cache_resolucao[bruto]
+
+    _resolvido = df_crc4['VENDEDOR'].apply(_resolver_cache)
+    df_crc4['CODUSUR_VENDEDOR'] = _resolvido.apply(lambda t: t[0])
+    df_crc4['VENDEDOR_CANONICO'] = _resolvido.apply(lambda t: t[1])
+    if avisos_sem_match:
+        print(f"[AVISO] {len(avisos_sem_match)} vendedor(es) sem match confiante na aba RCA "
+              f"(mantidos com o texto original): {sorted(avisos_sem_match)}")
+
     vendedores_out = []
-    for vendedor, grp in df_crc4.groupby('VENDEDOR', sort=False):
+    for vendedor, grp in df_crc4.groupby('VENDEDOR_CANONICO', sort=False):
         itens = []
         for _, r in grp.iterrows():
             data_dt = r['DATA_DT']
@@ -121,7 +212,8 @@ def main():
                 'justificativa_logistica': _s(r.get('JUSTIFICATIVA LOGISTICA', '')),
             })
         itens.sort(key=lambda i: i['data_ord'], reverse=True)
-        vendedores_out.append({'nome': vendedor or 'Sem Vendedor', 'itens': itens})
+        codusur = _s(grp['CODUSUR_VENDEDOR'].iloc[0])
+        vendedores_out.append({'nome': vendedor or 'Sem Vendedor', 'codusur': codusur, 'itens': itens})
 
     vendedores_out.sort(key=lambda v: v['nome'])
 
@@ -137,6 +229,25 @@ def main():
         print("OK agendamento_data.js enviado ao GitHub Pages.")
     except subprocess.CalledProcessError:
         print("[AVISO] git push falhou — ignorado, pipeline continua.")
+
+    _publicar_static()
+
+
+# ── Publica direto em /opt/offtrade-static (site) ─────────────────────────────
+# Mesma lógica/motivo de email_pedidos.py::_publicar_static (ver comentário
+# lá) — os dois escrevem no mesmo agendamento_data.js merged, então os dois
+# publicam o estado atual (já mesclado) do arquivo depois de gravar sua parte.
+def _publicar_static():
+    if os.getenv("OFFTRADE_RUNTIME", "local") != "vps":
+        return
+    import shutil
+    destino = "/opt/offtrade-static"
+    if not DATA_PATH.exists():
+        return
+    tmp = os.path.join(destino, ".agendamento_data.js.tmp_publish")
+    shutil.copy(DATA_PATH, tmp)
+    os.replace(tmp, os.path.join(destino, "agendamento_data.js"))
+    print(f"OK - agendamento_data.js copiado para {destino}")
 
 
 if __name__ == "__main__":
