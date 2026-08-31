@@ -121,7 +121,7 @@
     <option value="">Todos os Status</option>
   </select>
   <input type="text" id="busca" placeholder="Buscar por cliente, NF, CNPJ..." oninput="aplicarFiltro()">
-  <button class="tab-btn" id="btn-exportar-cortados" style="display:none" onclick="exportarCortadosCSV()">↓ Exportar CSV</button>
+  <button class="tab-btn" id="btn-exportar" onclick="exportarCSV()">↓ Exportar CSV</button>
   <span class="info" id="info-count"></span>
 </div>
 
@@ -320,7 +320,6 @@ function montarTabs() {
   document.getElementById('tabela-agendamentos').style.display = _abaAtual === 'agendamentos' ? '' : 'none';
   document.getElementById('tabela-comparativo').style.display  = _abaAtual === 'comparativo'  ? '' : 'none';
   document.getElementById('tabela-cortados').style.display     = _abaAtual === 'cortados'     ? '' : 'none';
-  document.getElementById('btn-exportar-cortados').style.display = _abaAtual === 'cortados' ? '' : 'none';
 }
 
 function trocarAba(chave) {
@@ -563,37 +562,78 @@ function renderCortados(lista) {
   `).join('');
 }
 
-function exportarCortadosCSV() {
-  const busca = document.getElementById('busca').value.trim().toLowerCase();
-  const vend = document.getElementById('sel-vendedor').value;
-  let lista = PRODUTOS_CORTADOS;
-  if (vend) lista = lista.filter(p => p.rca === vend);
-  if (busca) {
-    lista = lista.filter(p =>
-      (p.cliente || '').toLowerCase().includes(busca) ||
-      (p.cod_cliente || '').toLowerCase().includes(busca) ||
-      (p.desc || '').toLowerCase().includes(busca)
-    );
-  }
-  const header = ['Data E-mail', 'RCA', 'Cliente', 'Cód. Cliente', 'Produto', 'Qtd Pedida', 'Fornecedor', 'Saldo Estoque'];
-  const linhas = lista.map(p => [
-    _fmtDataEmail(p.data_email),
-    p.rca,
-    p.cliente,
-    p.cod_cliente,
-    p.desc,
-    p.qt,
-    p.fornecedor,
-    p.saldo_estoque ?? '',
-  ].map(v => `"${String(v ?? '').replace(/"/g, '""')}"`).join(';'));
-  const csv = '﻿' + [header.join(';'), ...linhas].join('\r\n');
+function _baixarCsv(header, linhas, nomeArquivo) {
+  const corpo = linhas.map(cols => cols.map(v => `"${String(v ?? '').replace(/"/g, '""')}"`).join(';'));
+  const csv = '﻿' + [header.join(';'), ...corpo].join('\r\n');
   const blob = new Blob([csv], { type: 'text/csv;charset=utf-8;' });
   const url = URL.createObjectURL(blob);
   const a = document.createElement('a');
   a.href = url;
-  a.download = `agendamento_produtos_cortados_${new Date().toISOString().slice(0, 10)}.csv`;
+  a.download = `${nomeArquivo}_${new Date().toISOString().slice(0, 10)}.csv`;
   a.click();
   URL.revokeObjectURL(url);
+}
+
+// Exporta a aba ativa, respeitando os mesmos filtros já aplicados na tela
+// (mesma lógica de aplicarFiltro) — pedido do usuário em 2026-08-31.
+function exportarCSV() {
+  const busca = document.getElementById('busca').value.trim().toLowerCase();
+  const vend = document.getElementById('sel-vendedor').value;
+  const status = document.getElementById('sel-status').value;
+
+  if (_abaAtual === 'agendamentos') {
+    let itens = _itensAgendamentoFlat();
+    if (vend) itens = itens.filter(i => i.vendedor === vend);
+    if (status) itens = itens.filter(i => i.status === status);
+    if (busca) {
+      itens = itens.filter(i =>
+        (i.cliente || '').toLowerCase().includes(busca) ||
+        (i.nf || '').toLowerCase().includes(busca) ||
+        (i.cnpj || '').toLowerCase().includes(busca)
+      );
+    }
+    itens.sort((a, b) => (b.data_ord || '').localeCompare(a.data_ord || ''));
+    const header = ['Vendedor', 'Cliente', 'CNPJ', 'Filial', 'NF', 'Data Agend.', 'Status', 'Status Logística', 'Valor'];
+    const linhas = itens.map(i => [i.vendedor, i.cliente, i.cnpj, i.filial, i.nf, i.data_agendamento, i.status, i.status_logistica, i.valor]);
+    _baixarCsv(header, linhas, 'agendamento_planilha');
+  } else if (_abaAtual === 'comparativo') {
+    let pedidos = DATA.comparativo || [];
+    if (vend) pedidos = pedidos.filter(p => p.rca === vend);
+    if (status) pedidos = pedidos.filter(p => _piorStatus(p.itens) === status);
+    if (busca) {
+      pedidos = pedidos.filter(p =>
+        (p.razao_social || '').toLowerCase().includes(busca) ||
+        (p.fantasia || '').toLowerCase().includes(busca) ||
+        (p.cnpj || '').toLowerCase().includes(busca) ||
+        (p.cod_cliente || '').toLowerCase().includes(busca)
+      );
+    }
+    const header = ['Data E-mail', 'RCA', 'Cliente', 'Cód. Cliente', 'Cód. Produto', 'Descrição', 'Qtd Pedida', 'Qtd Faturada', 'Valor Faturado', 'NF', 'Status'];
+    const linhas = [];
+    pedidos.forEach(p => {
+      p.itens.forEach(it => {
+        linhas.push([
+          p.data_email, p.rca, p.fantasia || p.razao_social, p.cod_cliente,
+          it.cod_prod, it.descricao, it.qt, it.qt_faturada, it.valor_faturado, it.nf, it.status,
+        ]);
+      });
+    });
+    _baixarCsv(header, linhas, 'agendamento_pedidos_email');
+  } else {
+    let lista = PRODUTOS_CORTADOS;
+    if (vend) lista = lista.filter(p => p.rca === vend);
+    if (busca) {
+      lista = lista.filter(p =>
+        (p.cliente || '').toLowerCase().includes(busca) ||
+        (p.cod_cliente || '').toLowerCase().includes(busca) ||
+        (p.desc || '').toLowerCase().includes(busca)
+      );
+    }
+    lista = [...lista].sort((a, b) => (b.data_email || '').localeCompare(a.data_email || ''));
+    const header = ['Data E-mail', 'RCA', 'Cliente', 'Cód. Cliente', 'Produto', 'Qtd Pedida', 'Fornecedor', 'Saldo Estoque'];
+    const linhas = lista.map(p => [_fmtDataEmail(p.data_email), p.rca, p.cliente, p.cod_cliente, p.desc, p.qt, p.fornecedor, p.saldo_estoque ?? '']);
+    _baixarCsv(header, linhas, 'agendamento_produtos_cortados');
+  }
 }
 </script>
 <script src="sticky_hscroll.js"></script>
