@@ -205,8 +205,16 @@
       dropdown.classList.add('open');
 
       debounceTimer = setTimeout(async () => {
-        const resp = await fetch(`${API_PRODUTOS}?q=${encodeURIComponent(termo)}`);
-        const data = await resp.json();
+        let data;
+        try {
+          const resp = await fetch(`${API_PRODUTOS}?q=${encodeURIComponent(termo)}`);
+          if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+          data = await resp.json();
+        } catch (e) {
+          dropdown.innerHTML = '<div class="dropdown-empty">Erro ao buscar produtos — tente de novo.</div>';
+          dropdown.classList.add('open');
+          return;
+        }
         dropdown.innerHTML = '';
         if (data.produtos.length === 0) {
           dropdown.innerHTML = '<div class="dropdown-empty">Nenhum produto encontrado.</div>';
