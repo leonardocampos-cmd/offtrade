@@ -117,18 +117,23 @@ def _where(schema: str, filiais: list | None, mes_offset: int, limit_day: bool, 
 
 def _query_industria(schema: str, filiais: list | None, mes_offset: int = 0, limit_day: bool = False, estado_filtro: str | None = None) -> str:
     p, ref, fil_clause, day_clause, est_clause = _where(schema, filiais, mes_offset, limit_day, estado_filtro)
+    # Positivação conta qualquer cliente que comprou, sem exigir
+    # PCCLIENT.OFFTRADE='S' (mesmo critério de exportacao_meta.py, 2026-08-25)
+    # — dispensa o JOIN em PCCLIENT. CODOPER IN ('S','SB') inclui bonificação,
+    # que antes ficava de fora tanto do faturamento quanto da positivação
+    # aqui (diferente de exportacao_meta.py, causando total agregado menor
+    # que a soma dos vendedores individuais em metas.html).
     return f"""
         SELECT PCFORNEC.FANTASIA                     AS FANTASIA,
                SUM(PCMOV.PUNIT * PCMOV.QT)          AS FATURAMENTO,
-               COUNT(DISTINCT CASE WHEN PCCLIENT.OFFTRADE = 'S' THEN PCCLIENT.CODCLI END) AS POSITIVADOS
+               COUNT(DISTINCT PCMOV.CODCLI)          AS POSITIVADOS
         FROM {p}PCMOV
         JOIN {p}PCUSUARI  ON PCMOV.CODUSUR      = PCUSUARI.CODUSUR
         JOIN {p}PCPRODUT  ON PCMOV.CODPROD      = PCPRODUT.CODPROD
         JOIN {p}PCFORNEC  ON PCPRODUT.CODFORNEC = PCFORNEC.CODFORNEC
-        JOIN {p}PCCLIENT  ON PCMOV.CODCLI       = PCCLIENT.CODCLI
         WHERE TRUNC(PCMOV.DTMOV, 'MM') = TRUNC({ref}, 'MM')
           {day_clause} {fil_clause} {est_clause}
-          AND PCMOV.CODOPER = 'S' AND PCMOV.NUMNOTADEV IS NULL AND PCMOV.DTCANCEL IS NULL
+          AND PCMOV.CODOPER IN ('S', 'SB') AND PCMOV.NUMNOTADEV IS NULL AND PCMOV.DTCANCEL IS NULL
           AND (PCUSUARI.NOME LIKE '%OFF TRADE%' OR PCUSUARI.NOME LIKE '%W.S%')
         GROUP BY PCFORNEC.FANTASIA
     """
@@ -139,13 +144,12 @@ def _query_totais(schema: str, filiais: list | None, mes_offset: int = 0, limit_
     p, ref, fil_clause, day_clause, est_clause = _where(schema, filiais, mes_offset, limit_day, estado_filtro)
     return f"""
         SELECT SUM(PCMOV.PUNIT * PCMOV.QT)    AS FATURAMENTO,
-               COUNT(DISTINCT CASE WHEN PCCLIENT.OFFTRADE = 'S' THEN PCCLIENT.CODCLI END) AS POSITIVADOS
+               COUNT(DISTINCT PCMOV.CODCLI)    AS POSITIVADOS
         FROM {p}PCMOV
         JOIN {p}PCUSUARI ON PCMOV.CODUSUR = PCUSUARI.CODUSUR
-        JOIN {p}PCCLIENT ON PCMOV.CODCLI  = PCCLIENT.CODCLI
         WHERE TRUNC(PCMOV.DTMOV, 'MM') = TRUNC({ref}, 'MM')
           {day_clause} {fil_clause} {est_clause}
-          AND PCMOV.CODOPER = 'S' AND PCMOV.NUMNOTADEV IS NULL AND PCMOV.DTCANCEL IS NULL
+          AND PCMOV.CODOPER IN ('S', 'SB') AND PCMOV.NUMNOTADEV IS NULL AND PCMOV.DTCANCEL IS NULL
           AND (PCUSUARI.NOME LIKE '%OFF TRADE%' OR PCUSUARI.NOME LIKE '%W.S%')
     """
 

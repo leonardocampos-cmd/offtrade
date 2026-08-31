@@ -323,7 +323,10 @@ for nome, meses_data in _por_vendedor.items():
     for mes, vendas in meses_data.items():
         validas = [v for v in vendas if not v['devolvido'] and not v['cancelado'] and not v['cancelado_parcial']]
         fat = round(sum(v['valor'] for v in validas), 2)
-        pos = len(set(v['codcli'] for v in validas if v['offtrade']))
+        # Positivação conta qualquer cliente que comprou, sem exigir
+        # PCCLIENT.OFFTRADE='S' — mesmo critério aplicado em exportacao_meta.py
+        # (RJ) em 2026-08-25, a pedido do usuário.
+        pos = len(set(v['codcli'] for v in validas))
         _resumo.setdefault(nome, {})[mes] = {'fat': fat, 'pos': pos, 'fat_ant': 0.0, 'fat_ano_ant': 0.0}
 
 for nome in _resumo:

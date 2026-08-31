@@ -510,7 +510,10 @@ _meses_str = sorted(set(_meses_str) | _meses_extra, key=_mes_sort_key, reverse=T
 # (ver aviso sobre SISTEMA acima).
 _CALCULOS_SP = {
     'fat':         lambda df: df.groupby(['SISTEMA', 'CODUSUR'])['VALOR'].sum(),
-    'pos':         lambda df: df[df['OFFTRADE'] == 'S'].groupby(['SISTEMA', 'CODUSUR'])['CODCLI'].nunique(),
+    # Positivação conta qualquer cliente que comprou, sem exigir
+    # PCCLIENT.OFFTRADE='S' — mesmo critério aplicado em exportacao_meta.py
+    # (RJ) em 2026-08-25, a pedido do usuário.
+    'pos':         lambda df: df.groupby(['SISTEMA', 'CODUSUR'])['CODCLI'].nunique(),
     'fat_pernod':  lambda df: df[df['FANTASIA'].str.contains('PERNOD',     na=False, case=False)].groupby(['SISTEMA', 'CODUSUR'])['VALOR'].sum(),
     'fat_crs':     lambda df: df[df['FANTASIA'].str.contains('CRS BRANDS', na=False, case=False)].groupby(['SISTEMA', 'CODUSUR'])['VALOR'].sum(),
     'fat_essenza': lambda df: df[df['PRODUTO'].str.contains('ESSENZA',     na=False, case=False)].groupby(['SISTEMA', 'CODUSUR'])['VALOR'].sum(),
@@ -528,8 +531,12 @@ for _mes_ts in _meses_vh:
     # Só venda de verdade (CODOPER='S') entra no faturamento/positivação —
     # bonificado (SB) e devolução (ED) agora fazem parte de _vh (pra
     # aparecer com o status certo em vendas_sp_data.js), mas não podem
-    # inflar o KPI de faturamento realizado.
-    _df_mes  = _vh[(_vh['MES'] == _mes_ts) & (_vh['CODOPER'] == 'S')]
+    # inflar o KPI de faturamento realizado. CODOPER='S' sozinho não basta:
+    # uma venda devolvida depois (NUMNOTADEV) continua com CODOPER='S' na
+    # própria linha de saída — só a coluna DEVOLVIDO pega esse caso (mesmo
+    # bug encontrado e corrigido em exportacao_meta.py::_query_historico
+    # em 2026-08-25).
+    _df_mes  = _vh[(_vh['MES'] == _mes_ts) & (_vh['CODOPER'] == 'S') & (~_vh['DEVOLVIDO'])]
     for _key, _fn in _CALCULOS_SP.items():
         try:
             for (_sistema, _codusur), _val in _fn(_df_mes).items():
