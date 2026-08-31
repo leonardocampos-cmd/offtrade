@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_nao_pos_sp.py
 
 const NAO_POS_SP_DATA = {
-  "atualizado_em": "31/08/2026 12:25",
+  "atualizado_em": "31/08/2026 14:06",
   "por_vendedor": {
     "ADER ALONSO": [
       {
@@ -691,6 +691,55 @@ const NAO_POS_SP_DATA = {
             "valor": 3479.4
           }
         ]
+      },
+      {
+        "codcli": "51567",
+        "cliente": "29.066.261 FABIANO CELIO ROSA",
+        "bairro": "CENTRO",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "52790",
+        "cliente": "COMERCIAL DE ALIMENTOS MEGA PRECO LTDA",
+        "bairro": "CENTRO",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "51670",
+        "cliente": "COMPRE FACIL COMERCIO DE PRODUTOS ALIMENTICIOS LIMITADA",
+        "bairro": "JARDIM PRIMAVERA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "51667",
+        "cliente": "DEVITO ALIMENTOS LTDA",
+        "bairro": "JARDIM PARAISO",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "51566",
+        "cliente": "DISTRIBUIDORA DE BEBIDAS NIKITO LTDA",
+        "bairro": "FAZENDA VELHA (ZONA RURAL)",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "52787",
+        "cliente": "LAIS FERNANDA ZANUSSO",
+        "bairro": "JARDIM PRIMAVERA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "51607",
+        "cliente": "SERV FESTAS JNS LTDA",
+        "bairro": "JARDIM ARROYO",
+        "dtultcomp": "nan",
+        "produtos": []
       }
     ],
     "ANDERSON CANAVEIS": [
@@ -860,20 +909,6 @@ const NAO_POS_SP_DATA = {
         ]
       },
       {
-        "codcli": "23144",
-        "cliente": "VARANDA FRUTAS E MERCEARIA LTDA",
-        "bairro": "BELA VISTA",
-        "dtultcomp": "23/07/2026",
-        "produtos": [
-          {
-            "produto": "APERITIVO LUCIA 750ML",
-            "fantasia": "LUCIA",
-            "qt": 6,
-            "valor": 395.4
-          }
-        ]
-      },
-      {
         "codcli": "50727",
         "cliente": "VARANDA FRUTAS E MERCEARIA LTDA",
         "bairro": "PORTAL VILLE FLAMBOYANT",
@@ -884,6 +919,20 @@ const NAO_POS_SP_DATA = {
             "fantasia": "LUCIA",
             "qt": 12,
             "valor": 790.8
+          }
+        ]
+      },
+      {
+        "codcli": "23144",
+        "cliente": "VARANDA FRUTAS E MERCEARIA LTDA",
+        "bairro": "BELA VISTA",
+        "dtultcomp": "23/07/2026",
+        "produtos": [
+          {
+            "produto": "APERITIVO LUCIA 750ML",
+            "fantasia": "LUCIA",
+            "qt": 6,
+            "valor": 395.4
           }
         ]
       },
@@ -918,16 +967,16 @@ const NAO_POS_SP_DATA = {
         ]
       },
       {
-        "codcli": "50897",
+        "codcli": "50899",
         "cliente": "REDE SUPERMERCADOS CONFIANCA LTDA",
-        "bairro": "JARDIM PERI",
+        "bairro": "VILA NOVA CACHOEIRINHA",
         "dtultcomp": "09/06/2026",
         "produtos": [
           {
             "produto": "GIN BEEFEATER PINK 700ML",
             "fantasia": "PERNOD",
-            "qt": 6,
-            "valor": 389.4
+            "qt": 12,
+            "valor": 778.8
           },
           {
             "produto": "WHISKY JACK DANIELS 1L",
@@ -958,16 +1007,16 @@ const NAO_POS_SP_DATA = {
         ]
       },
       {
-        "codcli": "50899",
+        "codcli": "50897",
         "cliente": "REDE SUPERMERCADOS CONFIANCA LTDA",
-        "bairro": "VILA NOVA CACHOEIRINHA",
+        "bairro": "JARDIM PERI",
         "dtultcomp": "09/06/2026",
         "produtos": [
           {
             "produto": "GIN BEEFEATER PINK 700ML",
             "fantasia": "PERNOD",
-            "qt": 12,
-            "valor": 778.8
+            "qt": 6,
+            "valor": 389.4
           },
           {
             "produto": "WHISKY JACK DANIELS 1L",
@@ -6195,6 +6244,13 @@ const NAO_POS_SP_DATA = {
         ]
       },
       {
+        "codcli": "39057",
+        "cliente": "55.703.636 VALDIR PAULO DE OLIVEIRA",
+        "bairro": "MARESIAS",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
         "codcli": "52269",
         "cliente": "ADEGA DO RUI COMERCIO DE BEBIDAS LTDA",
         "bairro": "JARDIM OLARIA",
@@ -6296,6 +6352,13 @@ const NAO_POS_SP_DATA = {
         "codcli": "52334",
         "cliente": "SUPER MERCADO ILHA DA PRINCESA LTDA",
         "bairro": "BARRA VELHA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "52792",
+        "cliente": "TATIANE ROCHA LIMA",
+        "bairro": "MARESIAS",
         "dtultcomp": "nan",
         "produtos": []
       }
@@ -7442,14 +7505,14 @@ const NAO_POS_SP_DATA = {
         "produtos": []
       },
       {
-        "codcli": "51835",
+        "codcli": "51833",
         "cliente": "SUPERMERCADO IBIRAPUERA LTDA",
         "bairro": "JOAO ARANHA",
         "dtultcomp": "nan",
         "produtos": []
       },
       {
-        "codcli": "51833",
+        "codcli": "51835",
         "cliente": "SUPERMERCADO IBIRAPUERA LTDA",
         "bairro": "JOAO ARANHA",
         "dtultcomp": "nan",
@@ -9234,6 +9297,13 @@ const NAO_POS_SP_DATA = {
         "bairro": "JARDIM SAO BENEDITO",
         "dtultcomp": "nan",
         "produtos": []
+      },
+      {
+        "codcli": "52785",
+        "cliente": "SUPERMERCADO INOCOOP LTDA",
+        "bairro": "PARQUE RESIDENCIAL LARANJEIRAS I",
+        "dtultcomp": "nan",
+        "produtos": []
       }
     ],
     "PATRICIA RAMOS": [
@@ -10256,22 +10326,22 @@ const NAO_POS_SP_DATA = {
         ]
       },
       {
-        "codcli": "52010",
+        "codcli": "52009",
         "cliente": "COMERCIAL SUPER SAO JOSE LTDA",
-        "bairro": "JARDIM SÃO CONRADO",
+        "bairro": "ALTOS DE IPANEMA",
         "dtultcomp": "27/07/2026",
         "produtos": [
           {
             "produto": "VINHO DOM BOSCO TINTO SECO 750ML",
             "fantasia": "CRS BRANDS",
-            "qt": 48,
-            "valor": 431.52
+            "qt": 36,
+            "valor": 323.64
           },
           {
             "produto": "VINHO DOM BOSCO TINTO SUAVE 750ML",
             "fantasia": "CRS BRANDS",
-            "qt": 480,
-            "valor": 4315.2
+            "qt": 360,
+            "valor": 3236.4
           }
         ]
       },
@@ -10296,22 +10366,22 @@ const NAO_POS_SP_DATA = {
         ]
       },
       {
-        "codcli": "52009",
+        "codcli": "52010",
         "cliente": "COMERCIAL SUPER SAO JOSE LTDA",
-        "bairro": "ALTOS DE IPANEMA",
+        "bairro": "JARDIM SÃO CONRADO",
         "dtultcomp": "27/07/2026",
         "produtos": [
           {
             "produto": "VINHO DOM BOSCO TINTO SECO 750ML",
             "fantasia": "CRS BRANDS",
-            "qt": 36,
-            "valor": 323.64
+            "qt": 48,
+            "valor": 431.52
           },
           {
             "produto": "VINHO DOM BOSCO TINTO SUAVE 750ML",
             "fantasia": "CRS BRANDS",
-            "qt": 360,
-            "valor": 3236.4
+            "qt": 480,
+            "valor": 4315.2
           }
         ]
       },
@@ -10375,6 +10445,13 @@ const NAO_POS_SP_DATA = {
         "codcli": "52279",
         "cliente": "COMERCIAL BARROS DE BEBIDAS E ALIMENTOS LTDA",
         "bairro": "VILA SANTANA",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "52786",
+        "cliente": "LUCAS PRADO BEBIDAS",
+        "bairro": "CHÁCARAS ANTONIETA",
         "dtultcomp": "nan",
         "produtos": []
       },
@@ -12134,6 +12211,13 @@ const NAO_POS_SP_DATA = {
         "codcli": "52616",
         "cliente": "65.843.839 MARIANA RACHETTI PEIXOTO",
         "bairro": "RECANTO VISTA ALEGRE",
+        "dtultcomp": "nan",
+        "produtos": []
+      },
+      {
+        "codcli": "52789",
+        "cliente": "MERCADINHO CENTER MASTER LTDA",
+        "bairro": "VILA PERUS",
         "dtultcomp": "nan",
         "produtos": []
       },
