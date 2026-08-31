@@ -37,6 +37,9 @@ REGISTRO_JSON = str(Path(__file__).parent / "pedidos_bloqueados_enviados.json")
 # resposta recebida se refere.
 AGUARDANDO_JSON = str(Path(__file__).parent / "pedidos_aguardando_resposta.json")
 
+# Pedido do usuário em 2026-08-31: considerar só esses 3 RCAs (CODUSUR) do RJ.
+_RCAS_RJ_RESTRITOS = (159, 144, 155)
+
 _SPON_EXTRA = ['%W.S%']
 
 _SOURCES = [
@@ -59,8 +62,9 @@ def _nome_filter(extra_nomes=None, alias='PED'):
 
 def _query_bloqueados(schema, extra_nomes=None):
     nome_f = _nome_filter(extra_nomes)
+    rcas = ",".join(str(r) for r in _RCAS_RJ_RESTRITOS)
     return f"""
-        SELECT PED.NUMPED, PED.CLIENTE, PED.CODPROD, PED.DESCRICAO, PED.PVENDA,
+        SELECT PED.NUMPED, PED.CLIENTE, PED.CODCLI, PED.CODPROD, PED.DESCRICAO, PED.PVENDA,
                PC.POSICAO, PC.MOTIVOPOSICAO,
                U.NOME AS VENDEDOR, U.ESTADO
         FROM {schema}.PBI_PCPEDI PED
@@ -68,6 +72,7 @@ def _query_bloqueados(schema, extra_nomes=None):
         JOIN {schema}.PCPEDC   PC ON PC.NUMPED = PED.NUMPED
         WHERE {nome_f}
           AND U.ESTADO = 'RJ'
+          AND U.CODUSUR IN ({rcas})
           AND PC.POSICAO IN ('B', 'P')
           AND PED.DATA >= SYSDATE - 7
     """
@@ -147,6 +152,44 @@ def _preco_tabela(codprod):
     return round(min(candidatos), 2) if candidatos else None
 
 
+# ── Bases de clientes OTD/OTI (mesma lógica/planilhas de conferencia_preco.py) ──
+# Observação na mensagem de WhatsApp quando o cliente está numa dessas bases —
+# pedido do usuário em 2026-08-31, só informativo, não afeta filtro/preço.
+
+def _carregar_codclis_base(caminho_fn, caminho_fallback, sheet_name, nome_base):
+    try:
+        df_base = pd.read_excel(
+            _bpd.com_fallback(caminho_fn, caminho_fallback),
+            sheet_name=sheet_name, dtype=str,
+        )
+        df_base.columns = df_base.columns.str.strip()
+        codclis = set(df_base['CÓDIGO'].dropna().str.strip())
+        print(f"Base {nome_base}: {len(codclis)} cliente(s)")
+        return codclis
+    except Exception as e:
+        print(f"[AVISO] Base {nome_base} indisponível ({str(e)[:100]}) — observação {nome_base} não aplicada")
+        return set()
+
+
+_codclis_otd = _carregar_codclis_base(
+    _bpd.caminho_base_otd,
+    r"G:\Drives compartilhados\Off Trade\Campanhas e Metas\BASE OTD.xlsx",
+    "BASE CENSUS OTD Q1_FY27", "OTD",
+)
+_codclis_oti = _carregar_codclis_base(
+    _bpd.caminho_base_oti,
+    r"G:\Drives compartilhados\Off Trade\Campanhas e Metas\BASE OTI JUNHO.xlsx",
+    "Planilha1", "OTI",
+)
+
+
+def _observacao_base_cliente(codcli):
+    bases = [nome for nome, codclis in (('OTD', _codclis_otd), ('OTI', _codclis_oti)) if codcli in codclis]
+    if not bases:
+        return ''
+    return f"Cliente na base {' e '.join(bases)}"
+
+
 _RE_MOTIVO_DESCONTO = re.compile(r'desconto acima do permitido\s*:\s*(\d+)', re.IGNORECASE)
 
 
@@ -196,6 +239,7 @@ def montar_bloqueados_por_vendedor():
 
     pedidos = pd.concat(partes, ignore_index=True)
     pedidos['PVENDA'] = pd.to_numeric(pedidos['PVENDA'], errors='coerce')
+    pedidos['CODCLI'] = pedidos['CODCLI'].astype(str).str.strip()
 
     por_vendedor: dict = {}
     for numped, grupo in pedidos.groupby('NUMPED', sort=False):
@@ -216,9 +260,10 @@ def montar_bloqueados_por_vendedor():
             motivo_bruto, linha_motivo['CODPROD'], linha_motivo['DESCRICAO'], linha_motivo['PVENDA'])
         entry = por_vendedor.setdefault(vendedor, {'pedidos': {}})
         entry['pedidos'].setdefault(str(numped), {
-            'numped':  str(numped),
-            'cliente': (primeira['CLIENTE'] or '').strip(),
-            'motivo':  motivo_txt,
+            'numped':     str(numped),
+            'cliente':    (primeira['CLIENTE'] or '').strip(),
+            'motivo':     motivo_txt,
+            'observacao': _observacao_base_cliente(primeira['CODCLI']),
         })
     return por_vendedor, fontes_indisponiveis
 
@@ -227,7 +272,10 @@ def montar_mensagem(vendedor, pedidos, fontes_indisponiveis):
     hoje_str = date.today().strftime('%d/%m/%Y')
     linhas = [f"*PEDIDO(S) BLOQUEADO(S) — {hoje_str}*", f"Vendedor: *{vendedor}*\n"]
     for p in pedidos:
-        linhas.append(f"• *Pedido {p['numped']}* — {p['cliente']}\n  Motivo: {p['motivo']}")
+        linha = f"• *Pedido {p['numped']}* — {p['cliente']}\n  Motivo: {p['motivo']}"
+        if p.get('observacao'):
+            linha += f"\n  Obs: {p['observacao']}"
+        linhas.append(linha)
     if fontes_indisponiveis:
         linhas.append(f"\n_⚠️ Fonte(s) fora do ar nesta consulta: {', '.join(fontes_indisponiveis)} — pode haver pedidos bloqueados não listados aqui._")
     return "\n".join(linhas)

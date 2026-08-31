@@ -78,6 +78,13 @@
     .posicao-bloqueado { background: rgba(239,68,68,.15);  color: var(--red); }
     .posicao-pendente  { background: rgba(249,115,22,.15); color: var(--orange); }
     .posicao-alcada    { background: rgba(234,179,8,.15);  color: #eab308; }
+    .badge-bonificacao {
+      display: inline-block; margin-left: 6px; font-weight: 700; padding: 2px 8px;
+      border-radius: 20px; font-size: .72rem; white-space: nowrap;
+      background: rgba(168,85,247,.18); color: #c084fc;
+    }
+    tr.linha-pedido.eh-bonificacao { background: rgba(168,85,247,.06); }
+    tr.linha-pedido.eh-bonificacao:hover { background: rgba(168,85,247,.12); }
     .preco-venda  { font-weight: 700; }
     .preco-acima  { color: var(--red); }
     .preco-tabela { color: var(--muted); }
@@ -85,7 +92,11 @@
     .diferenca { font-weight: 700; }
     .diferenca-positiva { color: var(--red); }
     .diferenca-negativa { color: var(--green); }
+    .margem { font-weight: 700; }
+    .margem-positiva { color: var(--green); }
+    .margem-negativa { color: var(--red); }
     .motivo { white-space: normal; max-width: 340px; color: var(--muted); font-size: .78rem; }
+    .obs-base { color: var(--accent); font-weight: 700; }
     .expand-icon { display: inline-block; width: 14px; color: var(--muted); }
     tr.linha-itens td { background: #14161f; padding: 0; }
     .itens-wrap { padding: 10px 12px 14px 40px; }
@@ -132,6 +143,9 @@
     <option value="">Todos os Vendedores</option>
   </select>
   <input type="text" id="busca" placeholder="Buscar por pedido, cliente, produto, motivo..." oninput="aplicarFiltro()">
+  <label style="font-size:.82rem;color:var(--muted);display:flex;align-items:center;gap:6px;cursor:pointer">
+    <input type="checkbox" id="chk-bonificacao" onchange="aplicarFiltro()"> Só bonificação
+  </label>
   <button class="btn-csv" onclick="exportarCSV()">⬇ Exportar CSV</button>
   <span class="info" id="info-count"></span>
 </div>
@@ -147,9 +161,12 @@
         <th onclick="ordenarPor('vendedor')">Vendedor</th>
         <th class="hide-mob" onclick="ordenarPor('cliente')">Cliente</th>
         <th onclick="ordenarPor('posicao')">Posição</th>
-        <th onclick="ordenarPor('preco_venda')">Preço de Venda</th>
-        <th onclick="ordenarPor('preco_tabela')">Preço de Tabela</th>
-        <th onclick="ordenarPor('diferenca')">Diferença</th>
+        <th onclick="ordenarPor('qt')">Qtd</th>
+        <th onclick="ordenarPor('preco_venda')">Preço de Venda (Total)</th>
+        <th onclick="ordenarPor('preco_tabela')">Preço de Tabela (Total)</th>
+        <th onclick="ordenarPor('diferenca')">Diferença (Total)</th>
+        <th onclick="ordenarPor('custo')">Custo (Total)</th>
+        <th onclick="ordenarPor('margem')">Margem</th>
         <th class="hide-mob" onclick="ordenarPor('data_ord')">Data/Hora</th>
         <th class="hide-mob">Motivo</th>
         <th class="hide-mob" onclick="ordenarPor('liberado_por')">Liberado por</th>
@@ -168,7 +185,7 @@ let _ordem = { campo: 'data_ord', asc: false };
 let _expandidos = new Set();
 
 if (!DATA) {
-  document.getElementById('tbody').innerHTML = '<tr><td colspan="14" class="empty">Dados não encontrados. Execute exportacao_pedidos_bloqueados.py para gerar pedidos_bloqueados_data.js.</td></tr>';
+  document.getElementById('tbody').innerHTML = '<tr><td colspan="17" class="empty">Dados não encontrados. Execute exportacao_pedidos_bloqueados.py para gerar pedidos_bloqueados_data.js.</td></tr>';
 } else {
   document.getElementById('header-sub').textContent =
     'Atualizado ' + DATA.atualizado_em +
@@ -181,7 +198,7 @@ if (!DATA) {
 
 function montarKpis(lista) {
   const bloqueados = lista.filter(p => p.posicao === 'Bloqueado').length;
-  const alcada     = lista.filter(p => p.posicao === 'Bloqueado (alçada)').length;
+  const alcada     = lista.filter(p => p.posicao === 'Montado').length;
   const pendentes  = lista.filter(p => p.posicao === 'Pendente').length;
   const vendedores = new Set(lista.map(p => p.vendedor)).size;
   document.getElementById('kpis').innerHTML = `
@@ -190,7 +207,7 @@ function montarKpis(lista) {
       <div class="val" style="color:var(--red)">${bloqueados}</div>
     </div>
     <div class="kpi">
-      <div class="label">Bloqueados (Alçada)</div>
+      <div class="label">Montados</div>
       <div class="val" style="color:#eab308">${alcada}</div>
     </div>
     <div class="kpi">
@@ -207,7 +224,7 @@ function montarFiltros() {
   const sisAtual = document.getElementById('sel-sistema').value;
   const selSis = document.getElementById('sel-sistema');
   selSis.innerHTML = '<option value="">Todos os Sistemas</option>';
-  [...new Set(PEDIDOS.map(p => p.sistema))].sort().forEach(s => {
+  [...new Set(PEDIDOS.map(p => p.sistema).filter(Boolean))].sort().forEach(s => {
     const o = document.createElement('option');
     o.value = s; o.textContent = s;
     if (s === sisAtual) o.selected = true;
@@ -217,7 +234,7 @@ function montarFiltros() {
   const estAtual = document.getElementById('sel-estado').value;
   const selEst = document.getElementById('sel-estado');
   selEst.innerHTML = '<option value="">Todos os Estados</option>';
-  [...new Set(PEDIDOS.map(p => p.estado))].sort().forEach(e => {
+  [...new Set(PEDIDOS.map(p => p.estado).filter(Boolean))].sort().forEach(e => {
     const o = document.createElement('option');
     o.value = e; o.textContent = e;
     if (e === estAtual) o.selected = true;
@@ -227,7 +244,7 @@ function montarFiltros() {
   const posAtual = document.getElementById('sel-posicao').value;
   const selPos = document.getElementById('sel-posicao');
   selPos.innerHTML = '<option value="">Todas as Posições</option>';
-  [...new Set(PEDIDOS.map(p => p.posicao))].sort().forEach(p => {
+  [...new Set(PEDIDOS.map(p => p.posicao).filter(Boolean))].sort().forEach(p => {
     const o = document.createElement('option');
     o.value = p; o.textContent = p;
     if (p === posAtual) o.selected = true;
@@ -237,7 +254,7 @@ function montarFiltros() {
   const vendAtual = document.getElementById('sel-vendedor').value;
   const selVend = document.getElementById('sel-vendedor');
   selVend.innerHTML = '<option value="">Todos os Vendedores</option>';
-  [...new Set(PEDIDOS.map(p => p.vendedor))].sort().forEach(v => {
+  [...new Set(PEDIDOS.map(p => p.vendedor).filter(Boolean))].sort().forEach(v => {
     const o = document.createElement('option');
     o.value = v; o.textContent = v.replace(' - OFF TRADE', '');
     if (v === vendAtual) o.selected = true;
@@ -261,14 +278,16 @@ function _filtrados() {
   const posicao  = document.getElementById('sel-posicao').value;
   const vendedor = document.getElementById('sel-vendedor').value;
   const busca    = document.getElementById('busca').value.trim().toLowerCase();
+  const soBonificacao = document.getElementById('chk-bonificacao').checked;
   let lista = PEDIDOS.filter(p => {
     const matchSistema  = !sistema || p.sistema === sistema;
     const matchEstado   = !estado || p.estado === estado;
     const matchPosicao  = !posicao || p.posicao === posicao;
     const matchVendedor = !vendedor || p.vendedor === vendedor;
-    const matchBusca = !busca || [p.numped, p.cliente, p.motivo, p.liberado_por, p.cancelado_por, ...(p.itens || []).map(i => i.descricao)]
+    const matchBonif    = !soBonificacao || p.bonificacao;
+    const matchBusca = !busca || [p.numped, p.cliente, p.motivo, p.observacao, p.liberado_por, p.cancelado_por, ...(p.itens || []).map(i => i.descricao)]
       .some(v => v && String(v).toLowerCase().includes(busca));
-    return matchSistema && matchEstado && matchPosicao && matchVendedor && matchBusca;
+    return matchSistema && matchEstado && matchPosicao && matchVendedor && matchBonif && matchBusca;
   });
   const { campo, asc } = _ordem;
   lista = [...lista].sort((a, b) => {
@@ -290,7 +309,7 @@ function aplicarFiltro() {
 
   const tbody = document.getElementById('tbody');
   if (!lista.length) {
-    tbody.innerHTML = '<tr><td colspan="14" class="empty">Nenhum pedido bloqueado encontrado.</td></tr>';
+    tbody.innerHTML = '<tr><td colspan="17" class="empty">Nenhum pedido bloqueado encontrado.</td></tr>';
     return;
   }
 
@@ -299,30 +318,36 @@ function aplicarFiltro() {
     const aberto = _expandidos.has(chave);
     const temVariosItens = (p.itens || []).length > 1;
     let html = `
-    <tr class="linha-pedido" onclick="toggleItens('${_escAttr(chave)}')">
+    <tr class="linha-pedido${p.bonificacao ? ' eh-bonificacao' : ''}" onclick="toggleItens('${_escAttr(chave)}')">
       <td><span class="expand-icon">${temVariosItens ? (aberto ? '▾' : '▸') : ''}</span></td>
       <td class="cod">${_esc(p.numped)}</td>
       <td class="cod hide-mob">${_esc(p.sistema)}</td>
       <td class="hide-mob" style="color:var(--muted);font-weight:700">${_esc(p.estado)}</td>
       <td><span class="rca-badge">${_esc(p.vendedor.replace(' - OFF TRADE',''))}</span></td>
       <td class="hide-mob">${_esc(p.cliente)}</td>
-      <td>${_posicaoBadge(p.posicao)}</td>
+      <td>${_posicaoBadge(p.posicao)}${p.bonificacao ? '<span class="badge-bonificacao">🎁 Bonificação</span>' : ''}</td>
+      <td>${_qt(p.qt)}</td>
       <td>${_precoVenda(p)}</td>
       <td>${_precoTabela(p.preco_tabela)}</td>
       <td>${_diferenca(p.diferenca)}</td>
+      <td>${_custoVal(p.custo)}</td>
+      <td>${_margemVal(p.margem)}</td>
       <td class="hide-mob">${_esc(p.data)}</td>
-      <td class="hide-mob motivo">${_esc(p.motivo)}</td>
+      <td class="hide-mob motivo">${_esc(p.motivo)}${p.observacao ? `<br><span class="obs-base">${_esc(p.observacao)}</span>` : ''}</td>
       <td class="hide-mob">${_pessoaAcao(p.liberado_por, p.liberado_em)}</td>
       <td class="hide-mob">${_pessoaAcao(p.cancelado_por, p.cancelado_em)}</td>
     </tr>`;
     if (aberto) {
-      html += `<tr class="linha-itens"><td colspan="14"><div class="itens-wrap">
-        <table><thead><tr><th>Produto</th><th>Preço de Venda</th><th>Preço de Tabela</th><th>Diferença</th></tr></thead><tbody>
+      html += `<tr class="linha-itens"><td colspan="17"><div class="itens-wrap">
+        <table><thead><tr><th>Produto</th><th>Qtd</th><th>Preço de Venda (Total)</th><th>Preço de Tabela (Total)</th><th>Diferença (Total)</th><th>Custo (Total)</th><th>Margem</th></tr></thead><tbody>
         ${(p.itens || []).map(it => `<tr>
           <td>${_esc(it.descricao)} <span class="cod">(${_esc(it.codprod)})</span></td>
+          <td>${_qt(it.qt)}</td>
           <td>${_precoVendaItem(it)}</td>
           <td>${_precoTabela(it.preco_tabela)}</td>
           <td>${_diferenca(it.diferenca)}</td>
+          <td>${_custoVal(it.custo)}</td>
+          <td>${_margemVal(it.margem)}</td>
         </tr>`).join('')}
         </tbody></table>
       </div></td></tr>`;
@@ -339,7 +364,7 @@ function toggleItens(chave) {
 
 function _posicaoBadge(posicao) {
   const cls = posicao === 'Bloqueado' ? 'posicao-bloqueado'
-    : posicao === 'Bloqueado (alçada)' ? 'posicao-alcada'
+    : posicao === 'Montado' ? 'posicao-alcada'
     : 'posicao-pendente';
   return `<span class="posicao ${cls}">${_esc(posicao)}</span>`;
 }
@@ -369,6 +394,23 @@ function _precoTabela(v) {
   return `<span class="preco-tabela">${brl(v)}</span>`;
 }
 
+function _qt(v) {
+  if (v === null || v === undefined) return '<span class="sem-preco">—</span>';
+  return Number(v).toLocaleString('pt-BR', {maximumFractionDigits: 2});
+}
+
+function _custoVal(v) {
+  if (v === null || v === undefined) return '<span class="sem-preco">—</span>';
+  return `<span class="preco-tabela">${brl(v)}</span>`;
+}
+
+// margem = (venda - custo) / venda: positivo = teve lucro, negativo = vendeu abaixo do custo.
+function _margemVal(v) {
+  if (v === null || v === undefined) return '<span class="sem-preco">—</span>';
+  const cls = v >= 0 ? 'margem-positiva' : 'margem-negativa';
+  return `<span class="margem ${cls}">${(v * 100).toFixed(1).replace('.', ',')}%</span>`;
+}
+
 function _pessoaAcao(nome, quando) {
   if (!nome) return '<span class="sem-preco">—</span>';
   return `${_esc(nome)}${quando ? ` <span class="cod">(${_esc(quando)})</span>` : ''}`;
@@ -388,7 +430,7 @@ function _escAttr(s) {
 
 function exportarCSV() {
   const lista = _filtrados();
-  const header = ['Pedido','Sistema','UF','Vendedor','Cliente','Posicao','Preco de Venda','Preco de Tabela','Diferenca','Data/Hora','Motivo','Liberado por','Liberado em','Cancelado por','Cancelado em'];
+  const header = ['Pedido','Sistema','UF','Vendedor','Cliente','Posicao','Bonificacao','Qtd','Preco de Venda (Total)','Preco de Tabela (Total)','Diferenca (Total)','Custo (Total)','Margem','Data/Hora','Motivo','Observacao','Liberado por','Liberado em','Cancelado por','Cancelado em'];
   const linhas = lista.map(p => [
     p.numped,
     p.sistema,
@@ -396,11 +438,16 @@ function exportarCSV() {
     p.vendedor.replace(' - OFF TRADE',''),
     p.cliente,
     p.posicao,
+    p.bonificacao ? 'Sim' : 'Não',
+    p.qt ?? '',
     p.preco_venda ?? '',
     p.preco_tabela ?? '',
     p.diferenca ?? '',
+    p.custo ?? '',
+    p.margem !== null && p.margem !== undefined ? (p.margem * 100).toFixed(1) + '%' : '',
     p.data,
     p.motivo,
+    p.observacao,
     p.liberado_por,
     p.liberado_em,
     p.cancelado_por,

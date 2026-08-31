@@ -1,21 +1,80 @@
 """
 Gera pedidos_bloqueados_data.js — página com todos os pedidos bloqueados
-(PCPEDC.POSICAO IN ('B','P','M') — Bloqueado, Pendente e Bloqueado por
-alçada) de todas as bases (CRC, thekings, CASTAS, GARRIDO, SPON, MGON) —
-sem restringir a vendedor RJ como o alerta de WhatsApp faz, aqui é visão
-completa pra gestão.
+(PCPEDC.POSICAO IN ('B','P','M') — Bloqueado, Pendente e Montado) de todas
+as bases (CRC, thekings, CASTAS, GARRIDO, SPON, MGON) — sem restringir a
+vendedor RJ como o alerta de WhatsApp faz, aqui é visão completa pra gestão.
 
-'M' (alçada) ENTRA aqui, diferente de alerta_pedidos_bloqueados.py/
-metas.html (que excluem por pedido explícito do usuário em 2026-08-10) —
-es.html/mg.html/sp.html sempre contaram 'M' como bloqueado
-(_POSICOES_PROBLEMA_PED lá inclui 'Bloqueado (alçada)'), e o usuário
-confirmou em 2026-08-25 que essa página deve bater com a contagem de lá,
-não com a do alerta de WhatsApp (61 dos 69 pedidos "problema" do RJ sozinho
-eram 'M' — excluir deixava a página visivelmente incompleta).
+'M' = "Montado" no Winthor (nome oficial do status, confirmado pelo usuário
+em 2026-08-26 — rótulo mostrado na página é literalmente esse, não
+"Bloqueado (alçada)" como chamávamos antes), mas funcionalmente é bloqueio
+por alçada de crédito/desconto: MOTIVOPOSICAO de pedidos 'M' é idêntico ao
+de 'B' ("Item com desconto acima do permitido", "Valor do pedido menor que
+mínimo" etc.) e só sai dessa posição via liberação (CODFUNCLIBERA/DTLIBERA)
+— não é sobre "pedido montado/separado no depósito". 'M' ENTRA aqui,
+diferente de alerta_pedidos_bloqueados.py/metas.html (que excluem por
+pedido explícito do usuário em 2026-08-10) — es.html/mg.html/sp.html sempre
+contaram 'M' como bloqueado (_POSICOES_PROBLEMA_PED lá inclui 'Bloqueado
+(alçada)', nome antigo — não renomeado lá pra não mexer em outra página sem
+pedido), e o usuário confirmou em 2026-08-25 que essa página deve bater com
+a contagem de lá, não com a do alerta de WhatsApp (61 dos 69 pedidos
+"problema" do RJ sozinho eram 'M' — excluir deixava a página visivelmente
+incompleta).
+
+PC.DTLIBERA IS NULL AND PC.DTCANCEL IS NULL (pedido do usuário em
+2026-08-26, "está aparecendo muitos pedidos já liberados"): POSICAO NÃO
+muda quando um pedido 'M' é liberado por alçada — fica 'M' pra sempre,
+só DTLIBERA/CODFUNCLIBERA são preenchidos no momento da liberação.
+Confirmado no CRC: 92 dos 105 pedidos 'M' (87%!) já tinham DTLIBERA
+preenchido — sem esse filtro a página mostrava a maioria como "ainda
+bloqueado" quando já tinha sido resolvido, às vezes dias atrás. 'B'
+(bloqueado de verdade) nunca tem DTLIBERA preenchido no CRC (crédito/
+cliente não passa por esse fluxo de liberação por alçada). Com esse
+filtro, os campos liberado_por/liberado_em/cancelado_por/cancelado_em
+ficam sempre vazios pra pedidos que aparecem aqui (só populam DEPOIS
+da liberação/cancelamento, que agora tira o pedido da lista) — mantidos
+mesmo assim pro caso de um pedido ser liberado no intervalo entre a
+consulta e o próximo cron (5 min), quando ainda pode aparecer com esses
+campos já preenchidos por uma execução anterior em cache no navegador.
 
 Preço de tabela só existe pra RJ (TABELA DE PREÇO RJ.xlsx só vale por lá,
 mesma limitação de pedidos.py/conferencia_preco.py) — outros estados ficam
 com preco_tabela=None, mostrado como "—" na página.
+
+bonificacao = PCPEDC.VLBONIFIC > 0 (mesmo campo/lógica que pedidos.py já usa
+pra detectar bonificação) — pedido do usuário em 2026-08-26 pra destacar na
+página. É um flag do PEDIDO (não por item, VLBONIFIC não varia por CODPROD
+dentro do mesmo NUMPED).
+
+Custo e margem (pedido do usuário em 2026-08-26): custo vem de
+{schema}.ROTINA_105.CUSTOULTENT_2 — "custo última entrada" já normalizado
+por unidade (mesma view/mesmo padrão "_2 = valor unitário de fato" que
+exportacao_estoque.py documenta pra PVENDA_2; CUSTOULTENT "cru" vem
+pré-multiplicado pela quantidade da última entrada, testado e descartado).
+Query por CODPROD IN (...) direto no schema de cada pedido — ao contrário
+da 1ª versão (planilha Profit RJ, só RJ e sem distinguir sistema, gerava
+"custo" de produto errado por coincidência de código em thekings/GARRIDO/
+SPON/MGON), aqui não há risco de cross-contaminação entre sistemas.
+ROTINA_105 pode ter uma linha por CODFILIAL — fica com a de DTULTENT mais
+recente por CODPROD. CASTAS não tem ROTINA_105 (mesma ausência documentada
+em exportacao_estoque.py) — pedidos desse sistema ficam com custo=None
+("—").
+
+preco_venda/preco_tabela/diferenca/custo são o TOTAL da linha (unitário ×
+PED.QT), não o preço unitário — pedido do usuário em 2026-08-26 ("precisam
+ser o total"). margem continua sendo a razão (venda-custo)/venda, que não
+muda multiplicando os dois lados por QT — não faz sentido "total" pra uma
+%. 'qt' fica exposto em cada item pra dar contexto de como o total foi
+calculado.
+
+No nível do pedido, esses 5 campos são a SOMA de todos os itens (grand
+total do pedido, não de um item representativo) — confirmado pelo usuário
+em 2026-08-26 com o pedido 439000359/CRC (2 itens: R$155,80 + R$191,80 =
+R$347,60). 'margem' do pedido é recalculada em cima dos totais agregados
+((soma_venda - soma_custo) / soma_venda), não a média das margens dos
+itens. Cada campo soma só os itens que têm valor — vira None só quando
+NENHUM item do pedido tem esse campo (preco_venda praticamente sempre
+presente, vem direto do Oracle; preco_tabela/custo dependem de lookup
+externo e podem faltar por item, aí o pedido soma parcial).
 
 Liberado por / Cancelado por (pedido do usuário em 2026-08-25): resolvem
 PCPEDC.CODFUNCLIBERA/CODFUNCCANCEL contra PCEMPR.MATRICULA (funcionário
@@ -37,7 +96,6 @@ com uma cópia local que nem deveria existir.
 """
 import json
 import os
-import re
 from datetime import datetime
 from pathlib import Path
 
@@ -47,6 +105,11 @@ from meta import engine, engine_theking, engine_castas, engine_garrido, engine_s
 import baixar_planilhas_drive as _bpd
 
 DIAS_JANELA = 90
+
+# Pedido do usuário em 2026-08-31: pra vendedor RJ, considerar só esses 3
+# RCAs (CODUSUR) — não restringe os demais estados/bases, que continuam
+# mostrando todos os vendedores OFF TRADE normalmente.
+_RCAS_RJ_RESTRITOS = (159, 144, 155)
 
 _SPON_EXTRA = ['%W.S%']
 
@@ -70,9 +133,10 @@ def _nome_filter(extra_nomes=None, alias='PED'):
 
 def _query_bloqueados(schema, extra_nomes=None):
     nome_f = _nome_filter(extra_nomes)
+    rcas = ",".join(str(r) for r in _RCAS_RJ_RESTRITOS)
     return f"""
-        SELECT PED.NUMPED, PED.DATA, PED.CLIENTE, PED.CODPROD, PED.DESCRICAO, PED.PVENDA,
-               PC.POSICAO, PC.MOTIVOPOSICAO,
+        SELECT PED.NUMPED, PED.DATA, PED.CLIENTE, PED.CODCLI, PED.CODPROD, PED.DESCRICAO, PED.PVENDA, PED.QT,
+               PC.POSICAO, PC.MOTIVOPOSICAO, PC.VLBONIFIC,
                PC.DTFIMDIGITACAOPEDIDO, PC.HORA, PC.MINUTO,
                PC.CODFUNCLIBERA, PC.DTLIBERA, PC.CODFUNCCANCEL, PC.DTCANCEL,
                U.NOME AS VENDEDOR, U.ESTADO
@@ -81,7 +145,10 @@ def _query_bloqueados(schema, extra_nomes=None):
         JOIN {schema}.PCPEDC   PC ON PC.NUMPED = PED.NUMPED
         WHERE {nome_f}
           AND PC.POSICAO IN ('B', 'P', 'M')
+          AND PC.DTLIBERA IS NULL
+          AND PC.DTCANCEL IS NULL
           AND PED.DATA >= SYSDATE - {DIAS_JANELA}
+          AND (U.ESTADO != 'RJ' OR U.CODUSUR IN ({rcas}))
     """
 
 
@@ -153,6 +220,44 @@ for _cod, _info in _bpd.carregar_precos_off_trade_fallback().items():
 print(f"Tabela OFF TRADE RJ - CRC: +{_novos_fallback} produto(s) adicionados ({len(_precos_rj)} no total)")
 
 
+# ── Bases de clientes OTD/OTI (mesma lógica/planilhas de conferencia_preco.py) ──
+# Observação no pedido bloqueado quando o cliente está numa dessas bases —
+# pedido do usuário em 2026-08-31, só informativo, não afeta filtro/preço.
+
+def _carregar_codclis_base(caminho_fn, caminho_fallback, sheet_name, nome_base):
+    try:
+        df_base = pd.read_excel(
+            _bpd.com_fallback(caminho_fn, caminho_fallback),
+            sheet_name=sheet_name, dtype=str,
+        )
+        df_base.columns = df_base.columns.str.strip()
+        codclis = set(df_base['CÓDIGO'].dropna().str.strip())
+        print(f"Base {nome_base}: {len(codclis)} cliente(s)")
+        return codclis
+    except Exception as e:
+        print(f"[AVISO] Base {nome_base} indisponível ({str(e)[:100]}) — observação {nome_base} não aplicada")
+        return set()
+
+
+_codclis_otd = _carregar_codclis_base(
+    _bpd.caminho_base_otd,
+    r"G:\Drives compartilhados\Off Trade\Campanhas e Metas\BASE OTD.xlsx",
+    "BASE CENSUS OTD Q1_FY27", "OTD",
+)
+_codclis_oti = _carregar_codclis_base(
+    _bpd.caminho_base_oti,
+    r"G:\Drives compartilhados\Off Trade\Campanhas e Metas\BASE OTI JUNHO.xlsx",
+    "Planilha1", "OTI",
+)
+
+
+def _observacao_base_cliente(codcli):
+    bases = [nome for nome, codclis in (('OTD', _codclis_otd), ('OTI', _codclis_oti)) if codcli in codclis]
+    if not bases:
+        return ''
+    return f"Cliente na base {' e '.join(bases)}"
+
+
 def _preco_tabela(codprod):
     info = _precos_rj.get(str(codprod))
     if not info:
@@ -169,9 +274,33 @@ def _diferenca(preco_venda, preco_tabela):
     return round(preco_tabela - preco_venda, 2)
 
 
-_RE_MOTIVO_DESCONTO = re.compile(r'desconto acima do permitido\s*:\s*(\d+)', re.IGNORECASE)
+_SCHEMAS_SEM_ROTINA_105 = {'CASTAS'}  # mesma ausência documentada em exportacao_estoque.py
 
-_POSICAO_LABEL = {'B': 'Bloqueado', 'P': 'Pendente', 'M': 'Bloqueado (alçada)'}
+
+def _query_custo_ultima_entrada(schema, codprods):
+    """CUSTOULTENT_2 é o custo unitário de fato (padrão "_2" da view, ver
+    docstring do módulo) — pode haver uma linha por CODFILIAL, fica com a
+    de DTULTENT mais recente por CODPROD."""
+    lista = ",".join(str(c) for c in codprods)
+    return f"""
+        SELECT CODPROD, CUSTOULTENT_2, DTULTENT FROM (
+            SELECT CODPROD, CUSTOULTENT_2, DTULTENT,
+                   ROW_NUMBER() OVER (PARTITION BY CODPROD ORDER BY DTULTENT DESC NULLS LAST) RN
+            FROM {schema}.ROTINA_105
+            WHERE CODPROD IN ({lista})
+        ) WHERE RN = 1
+    """
+
+
+def _margem(preco_venda, custo):
+    """Margem sobre o preço de venda: (venda - custo) / venda. None se
+    faltar preço de venda ou custo, ou se preço de venda for zero."""
+    if preco_venda is None or custo is None or not preco_venda:
+        return None
+    return round((preco_venda - custo) / preco_venda, 4)
+
+
+_POSICAO_LABEL = {'B': 'Bloqueado', 'P': 'Pendente', 'M': 'Montado'}
 
 
 def _s(v):
@@ -220,6 +349,7 @@ def montar_pedidos_bloqueados():
 
     df = pd.concat(partes, ignore_index=True)
     df['PVENDA'] = pd.to_numeric(df['PVENDA'], errors='coerce')
+    df['QT'] = pd.to_numeric(df['QT'], errors='coerce')
     df['DATA_DT'] = pd.to_datetime(df['DATA'], errors='coerce')
     df['DTFIM_DT'] = pd.to_datetime(df['DTFIMDIGITACAOPEDIDO'], errors='coerce')
     df['HORA_NUM'] = pd.to_numeric(df['HORA'], errors='coerce')
@@ -228,12 +358,49 @@ def montar_pedidos_bloqueados():
     df['DTCANCEL_DT'] = pd.to_datetime(df['DTCANCEL'], errors='coerce')
     df['CODFUNCLIBERA_NUM'] = pd.to_numeric(df['CODFUNCLIBERA'], errors='coerce')
     df['CODFUNCCANCEL_NUM'] = pd.to_numeric(df['CODFUNCCANCEL'], errors='coerce')
+    df['VLBONIFIC_NUM'] = pd.to_numeric(df['VLBONIFIC'], errors='coerce').fillna(0)
+    df['CODCLI'] = df['CODCLI'].astype(str).str.strip()
+
+    _engine_por_schema = {s: e for s, e, _ in _SOURCES}
+
+    # Custo por produto: ROTINA_105.CUSTOULTENT_2, direto no schema de cada
+    # pedido (evita a contaminação entre sistemas de uma 1ª versão que usava
+    # a planilha Profit RJ pra todo mundo — ver docstring do módulo).
+    _chamadas_custo = []
+    for schema in df['SISTEMA'].unique():
+        if schema in _SCHEMAS_SEM_ROTINA_105:
+            continue
+        codprods = set()
+        for v in df.loc[df['SISTEMA'] == schema, 'CODPROD'].dropna():
+            try:
+                codprods.add(int(str(v).strip()))
+            except (TypeError, ValueError):
+                continue
+        if codprods:
+            _chamadas_custo.append((_query_custo_ultima_entrada(schema, codprods), _engine_por_schema[schema], f"custo_{schema}"))
+
+    _custos = {}  # (schema, codprod) -> custo unitário (última entrada)
+    if _chamadas_custo:
+        for (query, eng, nome_tabela), res in zip(_chamadas_custo, carregar_paralelo(_chamadas_custo)):
+            schema = nome_tabela.replace('custo_', '')
+            if isinstance(res, Exception):
+                print(f"[AVISO] {nome_tabela} falhou ({str(res)[:100]}) — custo/margem ficam vazios pra {schema}")
+                continue
+            res.columns = res.columns.str.upper()
+            for _, r in res.iterrows():
+                custo_v = r.get('CUSTOULTENT_2')
+                if pd.isna(custo_v):
+                    continue
+                try:
+                    codprod_key = str(int(r['CODPROD']))
+                except (TypeError, ValueError):
+                    continue
+                _custos[(schema, codprod_key)] = round(float(custo_v), 2)
 
     # CODFUNCLIBERA/CODFUNCCANCEL são matrícula de funcionário (PCEMPR),
     # NÃO código de vendedor (PCUSUARI.CODUSUR) — mesmo espaço numérico,
     # cadastro diferente (ver memória project_pcempr_matricula_funcionario:
     # matrícula 218 resolvia errado como "outro vendedor" via PCUSUARI).
-    _engine_por_schema = {s: e for s, e, _ in _SOURCES}
     _chamadas_pcempr = []
     for schema in df['SISTEMA'].unique():
         sub = df[df['SISTEMA'] == schema]
@@ -270,27 +437,46 @@ def montar_pedidos_bloqueados():
         itens = []
         for _, row in grupo.iterrows():
             codprod = _s(row['CODPROD'])
-            pvenda = row['PVENDA']
-            _pv = round(float(pvenda), 2) if pd.notna(pvenda) else None
-            _pt = _preco_tabela(codprod)
+            qt = row['QT']
+            _qt = float(qt) if pd.notna(qt) else None
+            pvenda_unit = row['PVENDA']
+            _pv_unit = round(float(pvenda_unit), 2) if pd.notna(pvenda_unit) else None
+            _pt_unit = _preco_tabela(codprod)
+            _cu_unit = _custos.get((sistema, codprod))
+            _margem_v = _margem(_pv_unit, _cu_unit)  # razão — não muda multiplicando por QT
+
+            # preco_venda/preco_tabela/custo abaixo já saem como TOTAL da
+            # linha (unitário × QT) — pedido do usuário em 2026-08-26.
+            _pv = round(_pv_unit * _qt, 2) if _pv_unit is not None and _qt is not None else None
+            _pt = round(_pt_unit * _qt, 2) if _pt_unit is not None and _qt is not None else None
+            _cu = round(_cu_unit * _qt, 2) if _cu_unit is not None and _qt is not None else None
             itens.append({
                 'codprod':      codprod,
                 'descricao':    _s(row['DESCRICAO']),
+                'qt':           _qt,
                 'preco_venda':  _pv,
                 'preco_tabela': _pt,
                 'diferenca':    _diferenca(_pv, _pt),
+                'custo':        _cu,
+                'margem':       _margem_v,
             })
 
-        # Item citado no motivo (bloqueio por desconto) tem prioridade pra
-        # representar o pedido na visão resumida; sem isso (ex: bloqueio por
-        # crédito/cliente), cai pro primeiro item do pedido — mesma lógica de
-        # alerta_pedidos_bloqueados.py::montar_bloqueados_por_vendedor.
-        item_repr = itens[0] if itens else None
-        m = _RE_MOTIVO_DESCONTO.search(motivo)
-        if m:
-            achado = next((it for it in itens if it['codprod'] == m.group(1)), None)
-            if achado:
-                item_repr = achado
+        # Nível do pedido = soma de TODOS os itens (grand total), não só um
+        # item representativo — pedido do usuário em 2026-08-26 (conferiu
+        # 155,80 + 191,80 = 347,60 no pedido 439000359/CRC, 2 itens). Some só
+        # o que tem valor; None só quando NENHUM item tem o campo (preco_venda
+        # praticamente sempre presente — vem direto do Oracle; preco_tabela/
+        # custo dependem de lookup externo e podem faltar por item).
+        def _soma_ou_none(campo):
+            valores = [it[campo] for it in itens if it.get(campo) is not None]
+            return round(sum(valores), 2) if valores else None
+
+        _qt_pedido = _soma_ou_none('qt')
+        _pv_pedido = _soma_ou_none('preco_venda')
+        _pt_pedido = _soma_ou_none('preco_tabela')
+        _cu_pedido = _soma_ou_none('custo')
+        _dif_pedido = _diferenca(_pv_pedido, _pt_pedido)
+        _margem_pedido = _margem(_pv_pedido, _cu_pedido)
 
         data_dt = _data_hora(primeira)
         dtlibera_dt = primeira['DTLIBERA_DT']
@@ -304,10 +490,15 @@ def montar_pedidos_bloqueados():
             'data':          data_dt.strftime('%d/%m/%Y %H:%M') if pd.notna(data_dt) else '',
             'data_ord':      data_dt.strftime('%Y-%m-%d %H:%M:%S') if pd.notna(data_dt) else '',
             'posicao':       _POSICAO_LABEL.get(_s(primeira['POSICAO']).upper(), _s(primeira['POSICAO'])),
+            'bonificacao':   bool(primeira['VLBONIFIC_NUM'] > 0),
+            'observacao':    _observacao_base_cliente(_s(primeira['CODCLI'])),
             'motivo':        motivo,
-            'preco_venda':   item_repr['preco_venda']  if item_repr else None,
-            'preco_tabela':  item_repr['preco_tabela'] if item_repr else None,
-            'diferenca':     item_repr['diferenca']    if item_repr else None,
+            'qt':            _qt_pedido,
+            'preco_venda':   _pv_pedido,
+            'preco_tabela':  _pt_pedido,
+            'diferenca':     _dif_pedido,
+            'custo':         _cu_pedido,
+            'margem':        _margem_pedido,
             'liberado_por':  _nome_funcionario(sistema, primeira['CODFUNCLIBERA_NUM']),
             'liberado_em':   dtlibera_dt.strftime('%d/%m/%Y %H:%M') if pd.notna(dtlibera_dt) else '',
             'cancelado_por': _nome_funcionario(sistema, primeira['CODFUNCCANCEL_NUM']),
