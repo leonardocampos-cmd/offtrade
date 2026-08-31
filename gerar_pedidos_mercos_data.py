@@ -1,27 +1,20 @@
-"""Gera pedidos_mercos_data.js a partir dos relatorios exportados
-manualmente da Mercos (nao tem API/scraping automatizado - ver CLAUDE.md)
-e cruza cada pedido com o Winthor (SPON) pra saber se ja foi faturado.
+"""Gera pedidos_mercos_data.js a partir dos relatorios "Vendas detalhadas" e
+"Produtos por pedido" da Mercos, e cruza cada pedido com o Winthor (SPON)
+pra saber se ja foi faturado.
 
-Como rodar (local, apos exportar da Mercos):
-  1. Login manual em app.mercos.com > Indicadores > Relatorios.
-  2. Exportar "Produtos por pedido" (Excel) -> salvar como
-     C:\\Users\\LeonardoCampos\\Downloads\\relatorio.xls
-     (o relatorio trunca em 5000 linhas — se o periodo desejado passar disso,
-     exportar em pedacos, ex: um por semestre, e salvar como
-     "relatorio_sem1.xls", "relatorio_sem2.xls" etc.; todo arquivo
-     "relatorio.xls" ou "relatorio_sem*.xls" na pasta e' lido e mesclado)
-  3. Exportar "Vendas detalhadas" (Excel, mesmo periodo) -> salvar como
-     C:\\Users\\LeonardoCampos\\Downloads\\Vendas detalhadas.xls
-  4. python gerar_pedidos_mercos_data.py
-  5. python sync_mercos_exports_vps.py  -- manda os arquivos pra VPS,
-     pro cron de la (a cada 30min) ter o snapshot mais recente.
+Ate 2026-08-31 isso exigia exportar manualmente (login em app.mercos.com >
+Indicadores > Relatorios > Exportar Excel > salvar em Downloads > sincronizar
+pra VPS). A partir de 2026-08-31, busca os dois relatorios sozinho via
+mercos_api.py (chamadas HTTP diretas, engenharia reversa do painel — ver
+docstring de mercos_api.py) — MERCOS_USER/MERCOS_PASS no .env, sem depender
+de navegador nem de ninguem exportar nada na mao. O fluxo manual antigo
+continua funcionando como fallback (se o download automatico falhar, usa
+qualquer relatorio*.xls / "Vendas detalhadas.xls" que ja exista em
+MERCOS_EXPORTS_DIR) — sync_mercos_exports_vps.py fica sem uso na pratica,
+mas nao foi removido.
 
-Rodando na VPS (cron, OFFTRADE_RUNTIME=vps): le os mesmos 2 arquivos de
-MERCOS_EXPORTS_DIR (default /opt/mercos-exports, sincronizado por
-sync_mercos_exports_vps.py) e se autopublica direto em /opt/offtrade-static
-(mesmo padrao de exportacao_meta.py::_publicar_static) — o cron so
-atualiza o cruzamento com o SPON sobre o snapshot da Mercos que ja existe;
-pedidos novos so aparecem depois de reexportar da Mercos e sincronizar.
+Rodando na VPS (cron, OFFTRADE_RUNTIME=vps): se autopublica direto em
+/opt/offtrade-static (mesmo padrao de exportacao_meta.py::_publicar_static).
 
 Cruzamento com o SPON: pedidos lancados pelo usuario Winthor "W.S" (canal
 Mercos) guardam em PCPEDC.NUMPEDCLI o padrao "<numero_pedido_mercos>/
@@ -33,7 +26,7 @@ import glob
 import json
 import os
 import re
-from datetime import datetime
+from datetime import date, datetime
 from pathlib import Path
 
 import pandas as pd
@@ -55,6 +48,49 @@ OUT_JS = str(Path(__file__).parent / "pedidos_mercos_data.js")
 DATA_INICIAL = "2025-11-01"
 
 RE_NUMPEDCLI = re.compile(r"^\s*(\d+)\s*/\s*(\S+)\s*$")
+
+MERCOS_AUTO_FETCH = os.getenv("MERCOS_AUTO_FETCH", "1") != "0"
+
+
+def _baixar_exports_automatico():
+    """Login + download automatico dos dois relatorios via mercos_api.py,
+    escrevendo nos MESMOS caminhos que o fluxo manual ja usava (VENDAS_PATH
+    e PRODUTOS_GLOB) — zero mudanca no resto do parsing. Limpa os
+    relatorio*.xls antigos antes de escrever os novos pra nao duplicar
+    pedido/item quando as janelas se sobrepoem (setdefault so cria a
+    entrada uma vez, mas os itens seriam anexados de novo por arquivo).
+    Retorna True se conseguiu, False se falhou (quem chamou decide se cai
+    pro fallback dos arquivos manuais que ja existirem)."""
+    if not MERCOS_AUTO_FETCH:
+        return False
+    import mercos_api
+    try:
+        sessao = mercos_api.login()
+    except Exception as e:
+        print(f"[AVISO] login automatico na Mercos falhou ({str(e)[:150]}) — usando exports manuais existentes, se houver.")
+        return False
+    try:
+        hoje = date.today()
+        data_ini = datetime.strptime(DATA_INICIAL, "%Y-%m-%d").date()
+
+        vendas_bytes = mercos_api.baixar_vendas_detalhadas(sessao, data_ini, hoje)
+        os.makedirs(_EXPORTS_DIR, exist_ok=True)
+        with open(VENDAS_PATH, "wb") as f:
+            f.write(vendas_bytes)
+
+        for antigo in glob.glob(PRODUTOS_GLOB):
+            os.remove(antigo)
+        partes = mercos_api.baixar_produtos_por_pedido_periodo_completo(sessao, data_ini, hoje)
+        for i, conteudo in enumerate(partes, 1):
+            caminho = os.path.join(_EXPORTS_DIR, f"relatorio_auto_{i:02d}.xls")
+            with open(caminho, "wb") as f:
+                f.write(conteudo)
+
+        print(f"OK - exports da Mercos baixados automaticamente ({len(partes)} parte(s) de produtos, {len(vendas_bytes)} bytes de vendas)")
+        return True
+    except Exception as e:
+        print(f"[AVISO] download automatico da Mercos falhou ({str(e)[:150]}) — usando exports existentes, se houver.")
+        return False
 
 
 def _carregar_pedido_info():
@@ -307,9 +343,11 @@ def _publicar_static():
 
 
 def main():
+    _baixar_exports_automatico()
+
     if not _listar_arquivos_produtos() or not os.path.exists(VENDAS_PATH):
         print(f"[AVISO] arquivos de exportacao da Mercos nao encontrados em {_EXPORTS_DIR} — "
-              f"pulando (rode sync_mercos_exports_vps.py apos reexportar da Mercos).")
+              f"pulando (download automatico falhou e nao ha export manual pra usar de fallback).")
         return
 
     pedido_info = _carregar_pedido_info()
