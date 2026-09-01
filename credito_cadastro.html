@@ -620,6 +620,7 @@
     // ── Pedir Limite/Desbloqueio (WhatsApp — sem backend) ──────────────────
     const WHATSAPP_FINANCEIRO = '5521964384318';
     const PRAZOS = [7, 14, 21, 28, 30, 35, 42, 45, 60, 90];
+    const FORMAS_AVISTA = ['Crédito', 'Débito', 'Pix'];
 
     function renderLimite(div, c) {
       const bloqueado = c.bloqueio;
@@ -632,13 +633,20 @@
       <input class="field-input" id="valor-pedido" type="number" min="0" step="100" placeholder="0,00">
     </div>
     <div class="field">
-      <label for="prazo-pagto">Prazo de pagamento (dias)</label>
+      <label for="prazo-pagto">Prazo de pagamento</label>
       <select class="field-input" id="prazo-pagto"></select>
+    </div>
+    <div class="field" id="forma-avista-wrap" style="display:none">
+      <label for="forma-avista">Forma de pagamento</label>
+      <select class="field-input" id="forma-avista"></select>
     </div>
   </div>
   <button class="btn btn-wa btn-block" id="btn-wa">📲 Solicitar ${bloqueado ? 'Desbloqueio' : 'Aumento de Limite'} pelo WhatsApp</button>
 </div>`;
       const selectPrazo = div.querySelector('#prazo-pagto');
+      const optAvista = document.createElement('option');
+      optAvista.value = 'avista'; optAvista.textContent = 'À Vista';
+      selectPrazo.appendChild(optAvista);
       PRAZOS.forEach(p => {
         const opt = document.createElement('option');
         opt.value = p; opt.textContent = p + ' dias';
@@ -646,15 +654,30 @@
         selectPrazo.appendChild(opt);
       });
 
+      const formaWrap   = div.querySelector('#forma-avista-wrap');
+      const selectForma = div.querySelector('#forma-avista');
+      FORMAS_AVISTA.forEach(f => {
+        const opt = document.createElement('option');
+        opt.value = f; opt.textContent = f;
+        selectForma.appendChild(opt);
+      });
+
+      function atualizarFormaVisibilidade() {
+        formaWrap.style.display = selectPrazo.value === 'avista' ? '' : 'none';
+      }
+      selectPrazo.addEventListener('change', atualizarFormaVisibilidade);
+      atualizarFormaVisibilidade();
+
       div.querySelector('#btn-wa').addEventListener('click', () => {
         const valor = parseFloat(div.querySelector('#valor-pedido').value) || 0;
         const prazo = selectPrazo.value;
+        const prazoLinha = prazo === 'avista' ? `À Vista (${selectForma.value})` : `${prazo} dias`;
         const infoCliente = `Cliente: ${c.nome} (${c.cnpj}) — Cód. ${c.codcli}\nRCA Solicitante: ${RCA_ATUAL.nome} (cód. ${RCA_ATUAL.codusur})`;
         const assunto = bloqueado ? `Solicitação de Desbloqueio — ${c.nome}` : `Solicitação de Limite — ${c.nome}`;
         const valorLinha = valor > 0 ? `Valor do Pedido    : ${fmtBRL(valor)}\n` : '';
         const corpo = bloqueado
-          ? `Solicitação de desbloqueio de cliente.\n\n${infoCliente}\n${valorLinha}Prazo de Pagamento : ${prazo} dias\n\nPodem realizar o desbloqueio?\n\nObrigado!`
-          : `Solicitação de aumento de limite de crédito.\n\n${infoCliente}\n${valorLinha}Prazo de Pagamento : ${prazo} dias\n\nPodem realizar o ajuste?\n\nObrigado!`;
+          ? `Solicitação de desbloqueio de cliente.\n\n${infoCliente}\n${valorLinha}Prazo de Pagamento : ${prazoLinha}\n\nPodem realizar o desbloqueio?\n\nObrigado!`
+          : `Solicitação de aumento de limite de crédito.\n\n${infoCliente}\n${valorLinha}Prazo de Pagamento : ${prazoLinha}\n\nPodem realizar o ajuste?\n\nObrigado!`;
         const url = `https://wa.me/${WHATSAPP_FINANCEIRO}?text=${encodeURIComponent(assunto + '\n\n' + corpo)}`;
         window.open(url, '_blank', 'noopener');
       });
