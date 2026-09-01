@@ -441,6 +441,22 @@ function _itemStatusBadge(p, ic) {
   return '<span class="status status-nao_encontrado" style="opacity:.7">Sem dado no SPON</span>';
 }
 
+// Mesmo texto de _itemStatusBadge, sem HTML — usado no PDF e no resumo do
+// WhatsApp (pedido do usuário em 2026-09-01: "o pdf que gera precisa
+// conter a info do corte").
+function _itemStatusTexto(p, ic) {
+  if (ic) return `Cortado: ${_qt(ic.qt_cortada)} un (faturou ${_qt(ic.qt_faturada)})`;
+  if (STATUS_COM_COMPARACAO.includes(p.status_spon)) return 'OK';
+  if (p.status_spon === 'montado') return 'Aguardando faturamento';
+  return 'Sem dado no SPON';
+}
+
+function _cortadosPorCodigo(p) {
+  const cortados = {};
+  (p.itens_cortados || []).forEach(ic => { cortados[String(ic.codprod)] = ic; });
+  return cortados;
+}
+
 function toggleItens(numped) {
   if (_expandidos.has(numped)) _expandidos.delete(numped);
   else _expandidos.add(numped);
@@ -457,8 +473,10 @@ function _resumoPedidoTexto(p) {
     '',
     'Itens:',
   ];
+  const cortados = _cortadosPorCodigo(p);
   (p.itens || []).forEach(it => {
-    linhas.push(`- ${it.descricao} (cód. ${it.codprod}): ${_qt(it.qt)} un x ${brl(it.preco_liquido)} = ${brl(it.subtotal)}`);
+    const status = _itemStatusTexto(p, cortados[String(it.codprod)]);
+    linhas.push(`- ${it.descricao} (cód. ${it.codprod}): ${_qt(it.qt)} un x ${brl(it.preco_liquido)} = ${brl(it.subtotal)} [${status}]`);
   });
   linhas.push('', `Total: ${brl(p.subtotal_pedido)}`);
   return linhas.join('\n');
@@ -468,7 +486,10 @@ function gerarPdfPedido(numped) {
   const p = PEDIDOS.find(x => String(x.numped) === String(numped));
   if (!p) return;
   const { jsPDF } = window.jspdf;
-  const doc = new jsPDF();
+  // Paisagem — a coluna extra de status SPON/corte não cabia na largura de
+  // retrato (pedido do usuário em 2026-09-01: "o pdf que gera precisa
+  // conter a info do corte").
+  const doc = new jsPDF({ orientation: 'landscape' });
   let y = 18;
   doc.setFontSize(14);
   doc.text(`Pedido #${p.numped} — ${p.data}`, 14, y);
@@ -482,17 +503,22 @@ function gerarPdfPedido(numped) {
   ].forEach(linha => { doc.text(linha, 14, y); y += 6; });
   y += 4;
   doc.setFont(undefined, 'bold');
-  doc.text('Código', 14, y); doc.text('Produto', 38, y); doc.text('Qtd', 130, y);
-  doc.text('Preço', 148, y); doc.text('Subtotal', 172, y);
+  doc.text('Código', 14, y); doc.text('Produto', 38, y); doc.text('Qtd', 150, y);
+  doc.text('Preço', 168, y); doc.text('Subtotal', 192, y); doc.text('Faturado no SPON', 220, y);
   doc.setFont(undefined, 'normal');
   y += 6;
+  const cortados = _cortadosPorCodigo(p);
   (p.itens || []).forEach(it => {
-    if (y > 280) { doc.addPage(); y = 18; }
+    if (y > 190) { doc.addPage('a4', 'landscape'); y = 18; }
+    const status = _itemStatusTexto(p, cortados[String(it.codprod)]);
     doc.text(String(it.codprod), 14, y);
-    doc.text(String(it.descricao).slice(0, 42), 38, y);
-    doc.text(_qt(it.qt), 130, y);
-    doc.text(brl(it.preco_liquido), 148, y);
-    doc.text(brl(it.subtotal), 172, y);
+    doc.text(String(it.descricao).slice(0, 55), 38, y);
+    doc.text(_qt(it.qt), 150, y);
+    doc.text(brl(it.preco_liquido), 168, y);
+    doc.text(brl(it.subtotal), 192, y);
+    doc.setFontSize(8);
+    doc.text(status, 220, y);
+    doc.setFontSize(10);
     y += 6;
   });
   y += 4;
