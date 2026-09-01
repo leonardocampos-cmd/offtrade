@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Pedidos Mercos</title>
   <script src="pedidos_mercos_data.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
   <script>
     // Acesso restrito: gestor (mesmo hash/cookie do auth.js) OU a sessão de
     // vendedor com RCA 588 (W.S — mesma conta que aparece em
@@ -120,6 +121,14 @@
     .itens-wrap table { font-size: .78rem; }
     .itens-wrap th { background: transparent; color: var(--muted); padding: 4px 10px; cursor: default; }
     .itens-wrap td { padding: 4px 10px; white-space: normal; }
+    .itens-acoes { display: flex; gap: 8px; margin-bottom: 10px; }
+    .btn-acao {
+      background: var(--card); border: 1px solid var(--border); color: var(--text);
+      border-radius: 8px; padding: 6px 12px; font-size: .78rem; font-weight: 700;
+      cursor: pointer; font-family: inherit; display: inline-flex; align-items: center; gap: 6px;
+    }
+    .btn-acao:hover { border-color: var(--blue); }
+    .btn-acao.whatsapp:hover { border-color: #25D366; }
     .valor { font-weight: 700; }
     .empty { text-align: center; padding: 48px; color: var(--muted); font-size: .9rem; }
     .status { font-weight: 700; padding: 2px 8px; border-radius: 20px; font-size: .72rem; white-space: nowrap; }
@@ -366,6 +375,10 @@ function aplicarFiltro() {
       const cortados = {};
       (p.itens_cortados || []).forEach(ic => { cortados[String(ic.codprod)] = ic; });
       html += `<tr class="linha-itens"><td colspan="13"><div class="itens-wrap">
+        <div class="itens-acoes">
+          <button class="btn-acao" onclick="event.stopPropagation(); gerarPdfPedido('${_escAttr(p.numped)}')">📄 Gerar PDF</button>
+          <button class="btn-acao whatsapp" onclick="event.stopPropagation(); enviarWhatsapp('${_escAttr(p.numped)}')">📱 Enviar WhatsApp</button>
+        </div>
         <table><thead><tr><th>Código</th><th>Produto</th><th>Qtd</th><th>Preço Líquido</th><th>Subtotal</th><th>Faturado no SPON</th></tr></thead><tbody>
         ${(p.itens || []).map(it => {
           const ic = cortados[String(it.codprod)];
@@ -432,6 +445,71 @@ function toggleItens(numped) {
   if (_expandidos.has(numped)) _expandidos.delete(numped);
   else _expandidos.add(numped);
   aplicarFiltro();
+}
+
+function _resumoPedidoTexto(p) {
+  const linhas = [
+    `Pedido #${p.numped} — ${p.data}`,
+    `Cliente: ${p.cliente}`,
+    `CNPJ: ${_formatCnpj(p.cnpj)}`,
+    `Representada: ${p.representada}`,
+    `Vendedor: ${p.cod_vendedor}${p.vendedor ? ' - ' + p.vendedor : ''}`,
+    '',
+    'Itens:',
+  ];
+  (p.itens || []).forEach(it => {
+    linhas.push(`- ${it.descricao} (cód. ${it.codprod}): ${_qt(it.qt)} un x ${brl(it.preco_liquido)} = ${brl(it.subtotal)}`);
+  });
+  linhas.push('', `Total: ${brl(p.subtotal_pedido)}`);
+  return linhas.join('\n');
+}
+
+function gerarPdfPedido(numped) {
+  const p = PEDIDOS.find(x => String(x.numped) === String(numped));
+  if (!p) return;
+  const { jsPDF } = window.jspdf;
+  const doc = new jsPDF();
+  let y = 18;
+  doc.setFontSize(14);
+  doc.text(`Pedido #${p.numped} — ${p.data}`, 14, y);
+  y += 9;
+  doc.setFontSize(10);
+  [
+    `Cliente: ${p.cliente}`,
+    `CNPJ: ${_formatCnpj(p.cnpj)}`,
+    `Representada: ${p.representada}`,
+    `Vendedor: ${p.cod_vendedor}${p.vendedor ? ' - ' + p.vendedor : ''}`,
+  ].forEach(linha => { doc.text(linha, 14, y); y += 6; });
+  y += 4;
+  doc.setFont(undefined, 'bold');
+  doc.text('Código', 14, y); doc.text('Produto', 38, y); doc.text('Qtd', 130, y);
+  doc.text('Preço', 148, y); doc.text('Subtotal', 172, y);
+  doc.setFont(undefined, 'normal');
+  y += 6;
+  (p.itens || []).forEach(it => {
+    if (y > 280) { doc.addPage(); y = 18; }
+    doc.text(String(it.codprod), 14, y);
+    doc.text(String(it.descricao).slice(0, 42), 38, y);
+    doc.text(_qt(it.qt), 130, y);
+    doc.text(brl(it.preco_liquido), 148, y);
+    doc.text(brl(it.subtotal), 172, y);
+    y += 6;
+  });
+  y += 4;
+  doc.setFont(undefined, 'bold');
+  doc.text(`Total: ${brl(p.subtotal_pedido)}`, 14, y);
+  doc.save(`pedido_${p.numped}.pdf`);
+}
+
+// wa.me sem número fixo — abre o WhatsApp deixando escolher o contato, já
+// que o pedido não tem telefone do cliente cadastrado. Manda um resumo em
+// texto (o link do wa.me não permite anexar arquivo, então não dá pra
+// mandar o PDF direto por aqui — só o texto).
+function enviarWhatsapp(numped) {
+  const p = PEDIDOS.find(x => String(x.numped) === String(numped));
+  if (!p) return;
+  const url = `https://wa.me/?text=${encodeURIComponent(_resumoPedidoTexto(p))}`;
+  window.open(url, '_blank');
 }
 
 function _formatCnpj(v) {
