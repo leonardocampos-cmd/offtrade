@@ -59,11 +59,22 @@ _MAP_RCA_CONFIGS = [
 # cadastro de vendedor dele em PCUSUARI (confirmado em 2026-09-01: DANIEL
 # DINIZ, CODUSUR 306, aparece como NOMEGERENTE) — gerente/supervisor tem
 # prioridade sobre TIPOVEND porque descreve melhor o papel real da pessoa.
+#
+# IMPORTANTE: essas colunas/JOINs NÃO ENTRAM na query de map_rca abaixo —
+# tentei isso em 2026-09-01 e o JOIN com PCGERENTE/PCSUPERV, rodando em
+# paralelo pras 7 fontes via carregar_paralelo, derrubou a sessão Oracle
+# das 7 AO MESMO TEMPO (ORA-00028 "session has been killed" / DPY-4011)
+# logo na primeira chamada — RuntimeError "Nenhuma fonte de RCA disponível"
+# parou o script inteiro, deixando metas.html/vendas_data.js/gerentes_
+# data.js parados por 3h30 sem ninguém perceber (14:32 até 18:05,
+# confirmado pelo usuário reportando dado velho). map_rca alimenta
+# metas_com_nome, que é a base de TUDO nesse script — não pode arriscar
+# quebrar com uma feature de badge. Revertido pra query simples de novo.
+# O mesmo badge de papel em sp.html/es.html/mg.html usa uma consulta
+# SEPARADA e não-crítica (try/except por fonte, nunca derruba o resto),
+# ver exportacao_sp.py::_query_sp_papel — se reintroduzir isso pra RJ,
+# seguir o mesmo padrão isolado, nunca dentro do map_rca crítico.
 def _papel_de(tipovend, eh_gerente, eh_supervisor, bloqueio=None):
-    # Cadastro bloqueado (BLOQUEIO='S') não decide papel — ex: RCA 315
-    # (LEONARDO MILAN) está bloqueado na SPON mas ligado como gerente lá
-    # (PCGERENTE.COD_CADRCA), badge mostrava "Gerente" mesmo inativo
-    # (confirmado pelo usuário em 2026-09-01).
     if str(bloqueio or '').strip().upper() == 'S':
         return ''
     if eh_gerente:
@@ -74,15 +85,7 @@ def _papel_de(tipovend, eh_gerente, eh_supervisor, bloqueio=None):
 
 _parts_map_rca = []
 _chamadas_map_rca = [
-    (f"""
-        SELECT U.CODUSUR AS RCA, U.NOME, U.TIPOVEND, U.BLOQUEIO,
-               CASE WHEN G.COD_CADRCA IS NOT NULL THEN 1 ELSE 0 END AS EH_GERENTE,
-               CASE WHEN S.COD_CADRCA IS NOT NULL THEN 1 ELSE 0 END AS EH_SUPERVISOR
-        FROM {_s}.PCUSUARI U
-        LEFT JOIN {_s}.PCGERENTE G ON G.COD_CADRCA = U.CODUSUR
-        LEFT JOIN {_s}.PCSUPERV  S ON S.COD_CADRCA = U.CODUSUR
-        WHERE {_extra_f}
-    """, _e, _n)
+    (f"SELECT CODUSUR AS RCA, NOME, TIPOVEND FROM {_s}.PCUSUARI WHERE {_extra_f}", _e, _n)
     for _s, _e, _n, _extra_f in _MAP_RCA_CONFIGS
 ]
 for (_s, _e, _n, _extra_f), _res in zip(_MAP_RCA_CONFIGS, carregar_paralelo(_chamadas_map_rca)):
@@ -96,9 +99,7 @@ if not _parts_map_rca:
 map_rca = pd.concat(_parts_map_rca, ignore_index=True)
 map_rca = map_rca.drop_duplicates(subset=['RCA'])
 map_rca['RCA'] = pd.to_numeric(map_rca['RCA'], errors='coerce')
-map_rca['PAPEL'] = map_rca.apply(
-    lambda r: _papel_de(r.get('TIPOVEND'), r.get('EH_GERENTE'), r.get('EH_SUPERVISOR'), r.get('BLOQUEIO')), axis=1
-)
+map_rca['PAPEL'] = map_rca['TIPOVEND'].apply(lambda tv: _papel_de(tv, False, False, None))
 arquivo['RCA'] = pd.to_numeric(arquivo['RCA'],  errors='coerce')
 
 # Normaliza coluna MÊS do arquivo → "Mar/26"
@@ -120,15 +121,7 @@ _status_rca_falhas: list[str] = []
 def _carregar_status_rca(_s, _e, _n, _extra_f):
     try:
         df = carregar_dados(
-            f"""
-                SELECT U.CODUSUR AS RCA, U.NOME, U.TIPOVEND, U.ESTADO, U.BLOQUEIO,
-                       CASE WHEN G.COD_CADRCA IS NOT NULL THEN 1 ELSE 0 END AS EH_GERENTE,
-                       CASE WHEN S.COD_CADRCA IS NOT NULL THEN 1 ELSE 0 END AS EH_SUPERVISOR
-                FROM {_s}.PCUSUARI U
-                LEFT JOIN {_s}.PCGERENTE G ON G.COD_CADRCA = U.CODUSUR
-                LEFT JOIN {_s}.PCSUPERV  S ON S.COD_CADRCA = U.CODUSUR
-                WHERE {_extra_f}
-            """,
+            f"SELECT CODUSUR AS RCA, NOME, TIPOVEND, ESTADO, BLOQUEIO FROM {_s}.PCUSUARI WHERE {_extra_f}",
             _e, f"{_n}_status",
         )
         df['FONTE'] = _n
@@ -202,7 +195,7 @@ if _parts_status_rca:
         _meses_disponiveis = arquivo['MES_STR'].dropna().unique().tolist()
         _extras = [
             {'RCA': _r['RCA'], 'NOME': _r['NOME'], 'TIPOVEND': _r.get('TIPOVEND'),
-             'PAPEL': _papel_de(_r.get('TIPOVEND'), _r.get('EH_GERENTE'), _r.get('EH_SUPERVISOR')),
+             'PAPEL': _papel_de(_r.get('TIPOVEND'), False, False, None),
              'VENDEDOR': _r['NOME'], 'MES_STR': _mes}
             for _, _r in _rca_sem_meta.iterrows()
             for _mes in _meses_disponiveis
