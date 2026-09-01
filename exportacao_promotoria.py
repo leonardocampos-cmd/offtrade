@@ -805,6 +805,7 @@ def main():
                     valores = valores_por_item.get(str(item["id"]))
                     if valores:
                         itens_detalhe.append({
+                            "assunto": assunto,
                             "item_avaliado": refs["itemAvaliado"].get(iapp.get("itemAvaliadoId"), ""),
                             "pergunta": refs["pergunta"].get(papq.get("perguntaId"), ""),
                             "resposta": "; ".join(valores),

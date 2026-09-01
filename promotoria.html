@@ -159,6 +159,10 @@
       margin: 1px 3px 1px 0; cursor: pointer;
     }
     .assunto-chip:hover { border-color: var(--blue); background: rgba(59,130,246,.15); }
+    tr.linha-pesquisa { cursor: pointer; }
+    tr.linha-detalhe-pesquisa td { background: #14161f; padding: 10px 12px 14px 30px; }
+    .assunto-detalhe-grupo { margin-bottom: 10px; }
+    .assunto-detalhe-titulo { font-size: .78rem; font-weight: 700; color: var(--blue); margin-bottom: 4px; }
 
     .modal-overlay {
       display: none; position: fixed; inset: 0; background: rgba(0,0,0,.6);
@@ -422,6 +426,32 @@ function _fotosHtml(fotos) {
     : '<div class="sem-foto">Nenhuma foto anexada.</div>';
 }
 
+// Expande/recolhe a linha de assuntos+respostas abaixo da pesquisa — pedido
+// do usuário em 2026-09-01 ("ao clicar na linha da pesquisa, abrir com os
+// assuntos e resposta abaixo"). Estado vive só no DOM (hidden), sem Set
+// global — mais simples e sempre correto após qualquer re-render.
+function toggleDetalhePesquisa(i) {
+  const el = document.getElementById('detalhe-pesq-' + i);
+  if (el) el.hidden = !el.hidden;
+}
+
+function _respostasPorAssuntoHtml(r) {
+  const itens = r.itens_detalhe || [];
+  if (!itens.length) {
+    return '<div class="sem-foto">Detalhe item a item só fica disponível pra pesquisas dos últimos 30 dias.</div>';
+  }
+  const porAssunto = {};
+  itens.forEach(it => {
+    const chave = it.assunto || '(sem assunto)';
+    (porAssunto[chave] = porAssunto[chave] || []).push(it);
+  });
+  return Object.entries(porAssunto).map(([assunto, lista]) => `
+    <div class="assunto-detalhe-grupo">
+      <div class="assunto-detalhe-titulo">${_esc(assunto)}</div>
+      ${lista.map(it => `<div class="analise-linha">${_esc(it.item_avaliado)}${it.item_avaliado ? ' — ' : ''}${_esc(it.pergunta)} → <strong>${_esc(it.resposta)}</strong></div>`).join('')}
+    </div>`).join('');
+}
+
 function abrirDetalhes(idx) {
   const r = _linhasPaginaAtual[idx];
   if (!r) return;
@@ -514,8 +544,12 @@ function init() {
     document.getElementById('kpis').innerHTML = '<div class="empty">Nenhum dado carregado (promotoria_data.js ausente).</div>';
     return;
   }
+  // Nome exibido no cabeçalho trocado a pedido do usuário em 2026-09-01
+  // ("só trocar o nome do título") — continua rastreando o mesmo supervisor
+  // (DATA.supervisor.codigo, mesma equipe de sempre), só o rótulo mudou.
+  const NOME_EXIBIDO_SUPERVISOR = 'João Pedro Diniz';
   document.getElementById('header-sub').textContent =
-    `${DATA.supervisor.nome} (cód. ${DATA.supervisor.codigo}) · Atualizado ${DATA.atualizado_em}`;
+    `${NOME_EXIBIDO_SUPERVISOR} (cód. ${DATA.supervisor.codigo}) · Atualizado ${DATA.atualizado_em}`;
 
   document.getElementById('kpis').innerHTML = `
     <div class="kpi"><div class="label">Linhas de Pesquisa</div><div class="val">${DATA.pesquisas.length}</div></div>
@@ -624,7 +658,7 @@ function aplicarFiltro() {
   _linhasPaginaAtual = linhas;
   if (aba === 'pesquisas') {
     document.getElementById('tbody-pesquisas').innerHTML = linhas.length ? linhas.map((r, i) => `
-      <tr>
+      <tr class="linha-pesquisa" onclick="toggleDetalhePesquisa(${i})">
         <td>${_esc(r.data)}</td>
         <td>${_esc(r.usuario)}</td>
         <td class="wrap">${_esc(_clienteLabel(r))}</td>
@@ -632,7 +666,10 @@ function aplicarFiltro() {
         <td class="wrap">${_esc(r.pesquisa)}</td>
         <td class="wrap">${_assuntosChips(r.assuntos)}</td>
         <td>${_esc(r.qtd_itens)}</td>
-        <td><button class="btn-detalhes" onclick="abrirDetalhes(${i})">🔍 Ver detalhes</button></td>
+        <td><button class="btn-detalhes" onclick="event.stopPropagation(); abrirDetalhes(${i})">🔍 Ver detalhes</button></td>
+      </tr>
+      <tr class="linha-detalhe-pesquisa" id="detalhe-pesq-${i}" hidden>
+        <td colspan="8">${_respostasPorAssuntoHtml(r)}</td>
       </tr>`).join('') : '<tr><td colspan="8" class="empty">Nenhum registro encontrado.</td></tr>';
   } else if (aba === 'tarefas') {
     document.getElementById('tbody-tarefas').innerHTML = linhas.length ? linhas.map((r, i) => `
