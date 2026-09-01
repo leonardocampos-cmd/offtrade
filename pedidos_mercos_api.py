@@ -21,11 +21,13 @@ vem do cadastro de colaborador da própria Mercos (ver
 mercos_api.py::buscar_colaboradores_telefones), cacheado em memória por
 _CACHE_TTL_SEG pra não logar na Mercos a cada clique.
 
-Formato da Z-API (https://api.z-api.io/instances/{instance}/token/{token}/
-send-text, header Client-Token) é o padrão documentado publicamente pela
-Z-API — nunca testado contra uma conta real neste projeto (ninguém tinha
-credencial pra testar até agora); se o formato mudou, o erro retornado pela
-própria Z-API aparece direto na página pra ajustar.
+Formato da Z-API (send-text e send-document/pdf, header Client-Token) é o
+padrão documentado publicamente pela Z-API — nunca testado contra uma conta
+real neste projeto (ninguém tinha credencial pra testar até agora); se o
+formato mudou, o erro retornado pela própria Z-API aparece direto na
+página pra ajustar. O PDF do pedido (mesmo layout de "Gerar PDF") é gerado
+no navegador (jsPDF) e mandado em base64 nesse endpoint — pedido do
+usuário em 2026-09-01: mensagem de faturamento + cortes, e o PDF junto.
 
 Uso local: python pedidos_mercos_api.py  (abre em http://localhost:5056)
 Na VPS roda atrás do nginx em /api/pedidos-mercos/ (ver
@@ -64,11 +66,21 @@ def _telefones_colaboradores() -> dict:
     return _cache_telefones
 
 
-def _enviar_via_zapi(instance, token, client_token, numero, mensagem):
+def _enviar_texto_zapi(instance, token, client_token, numero, mensagem):
     url = f"https://api.z-api.io/instances/{instance}/token/{token}/send-text"
     headers = {"Client-Token": client_token, "Content-Type": "application/json"}
     payload = {"phone": numero, "message": mensagem}
     return requests.post(url, json=payload, headers=headers, timeout=20)
+
+
+# send-document/pdf é o padrão documentado publicamente pela Z-API pra anexo
+# PDF (mesma ressalva do send-text: nunca testado contra conta real ainda).
+# "document" aceita o PDF em base64 (sem o prefixo "data:...;base64,").
+def _enviar_documento_zapi(instance, token, client_token, numero, base64_pdf, nome_arquivo):
+    url = f"https://api.z-api.io/instances/{instance}/token/{token}/send-document/pdf"
+    headers = {"Client-Token": client_token, "Content-Type": "application/json"}
+    payload = {"phone": numero, "document": base64_pdf, "fileName": nome_arquivo}
+    return requests.post(url, json=payload, headers=headers, timeout=30)
 
 
 @bp.route("/enviar-whatsapp", methods=["POST"])
@@ -79,6 +91,10 @@ def enviar_whatsapp_pedido():
     zapi_instance = str(dados.get("zapi_instance", "")).strip()
     zapi_token    = str(dados.get("zapi_token", "")).strip()
     zapi_client_token = str(dados.get("zapi_client_token", "")).strip()
+    # PDF opcional (base64 sem o prefixo data:..., já extraído no front-end)
+    # — pedido do usuário em 2026-09-01: manda a mensagem E o PDF do pedido.
+    pdf_base64   = str(dados.get("pdf_base64", "")).strip()
+    pdf_filename = str(dados.get("pdf_filename", "")).strip() or "pedido.pdf"
 
     if not cod_vendedor or not mensagem:
         return {"ok": False, "motivo": "Dados incompletos."}, 400
@@ -95,13 +111,23 @@ def enviar_whatsapp_pedido():
         return {"ok": False, "motivo": f"Vendedor \"{cod_vendedor}\" não tem telefone cadastrado na Mercos."}
 
     try:
-        resp = _enviar_via_zapi(zapi_instance, zapi_token, zapi_client_token, numero, mensagem)
+        resp = _enviar_texto_zapi(zapi_instance, zapi_token, zapi_client_token, numero, mensagem)
     except Exception as e:
-        return {"ok": False, "motivo": f"Erro ao enviar pela Z-API ({str(e)[:150]})."}
+        return {"ok": False, "motivo": f"Erro ao enviar mensagem pela Z-API ({str(e)[:150]})."}
 
     if resp.status_code >= 300:
         detalhe = resp.text[:200] if resp.text else ""
-        return {"ok": False, "motivo": f"Z-API recusou o envio (HTTP {resp.status_code}): {detalhe}"}
+        return {"ok": False, "motivo": f"Z-API recusou o envio da mensagem (HTTP {resp.status_code}): {detalhe}"}
+
+    if pdf_base64:
+        try:
+            resp_pdf = _enviar_documento_zapi(zapi_instance, zapi_token, zapi_client_token, numero, pdf_base64, pdf_filename)
+        except Exception as e:
+            return {"ok": False, "motivo": f"Mensagem enviada, mas o PDF falhou ({str(e)[:150]})."}
+        if resp_pdf.status_code >= 300:
+            detalhe = resp_pdf.text[:200] if resp_pdf.text else ""
+            return {"ok": False, "motivo": f"Mensagem enviada, mas a Z-API recusou o PDF (HTTP {resp_pdf.status_code}): {detalhe}"}
+
     return {"ok": True}
 
 
