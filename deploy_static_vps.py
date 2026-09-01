@@ -15,6 +15,15 @@ VPS_IP       = os.getenv("VPS_IP",       "147.79.107.137")
 VPS_USER     = os.getenv("VPS_USER",     "root")
 VPS_PASSWORD = os.getenv("VPS_PASSWORD", "")
 REMOTE_DIR   = "/opt/offtrade-static"
+# main.py, quando roda na VPS (cron horário), tem seu próprio passo de
+# "deploy" que copia todo *.html/*.js de /opt/offtrade-pipeline por cima de
+# /opt/offtrade-static (sem exclusão nenhuma) — assumindo que o pipeline já
+# está atualizado. Como deploy_pipeline_vps.py não roda toda hora, esse
+# diretório ficava velho e o cron revertia qualquer HTML publicado só aqui
+# (bug real, achado pelo usuário em 2026-09-01: pedidos_mercos.html perdeu
+# os botões de PDF/WhatsApp horas depois de publicados). Sincronizar os
+# dois destinos juntos, sempre, elimina esse drift.
+REMOTE_DIR_PIPELINE = "/opt/offtrade-pipeline"
 PORT         = 22
 
 HERE = Path(__file__).parent
@@ -100,16 +109,23 @@ def deploy():
 
     sftp = client.open_sftp()
     ssh_run(client, f"mkdir -p {REMOTE_DIR}", check=False)
+    ssh_run(client, f"mkdir -p {REMOTE_DIR_PIPELINE}", check=False)
 
+    arquivos = static_files()
     print("\n-> Sincronizando arquivos estáticos...")
-    for local in static_files():
+    for local in arquivos:
         remote = f"{REMOTE_DIR}/{local.name}"
         sftp.put(str(local), remote)
         print(f"   {local.name} -> {remote}")
 
+    print("\n-> Sincronizando cópia em /opt/offtrade-pipeline (evita reversão pelo deploy do main.py)...")
+    for local in arquivos:
+        remote = f"{REMOTE_DIR_PIPELINE}/{local.name}"
+        sftp.put(str(local), remote)
+
     sftp.close()
     client.close()
-    print(f"\nOK site estático atualizado em {REMOTE_DIR} - https://offtrade.duckdns.org")
+    print(f"\nOK site estático atualizado em {REMOTE_DIR} (e espelhado em {REMOTE_DIR_PIPELINE}) - https://offtrade.duckdns.org")
 
 
 if __name__ == "__main__":
