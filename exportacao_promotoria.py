@@ -793,6 +793,7 @@ def main():
                 base_pesq.pop("resposta_pesquisa_id", None)
                 assuntos = []
                 fotos = []
+                fotos_legendas = {}
                 itens_detalhe = []
                 for item in itens_da_resposta:
                     iapp = refs["itemAvaliPergPesq"].get(str(item["itemAvaliPergPesqId"]), {})
@@ -801,7 +802,14 @@ def main():
                     assunto = refs["assunto"].get(assunto_pesq, "")
                     if assunto and assunto not in assuntos:
                         assuntos.append(assunto)
-                    fotos.extend(f for f in fotos_por_item.get(str(item["id"]), []) if f)
+                    # Legenda da foto = assunto do item que a gerou (pedido do
+                    # usuário em 2026-09-01: "trocar a legenda das fotos, pelo
+                    # nome que vem nas fotos: Execução no PDV") — antes só
+                    # tinha "Foto 1", "Foto 2" genérico.
+                    for f in fotos_por_item.get(str(item["id"]), []):
+                        if f:
+                            fotos.append(f)
+                            fotos_legendas[f] = assunto
                     valores = valores_por_item.get(str(item["id"]))
                     if valores:
                         itens_detalhe.append({
@@ -816,6 +824,7 @@ def main():
                     "qtd_itens": len(itens_da_resposta),
                     "qtd_fotos": len(fotos),
                     "fotos": fotos,
+                    "fotos_legendas": fotos_legendas,
                     "itens_detalhe": itens_detalhe,
                 })
 

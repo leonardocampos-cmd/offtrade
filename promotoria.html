@@ -424,15 +424,25 @@ let _linhasPaginaAtual = [];
 // Fotos abrem num carrossel dentro da própria página, não em outra aba —
 // pedido do usuário em 2026-09-01. _fotosModalAtual guarda o array de fotos
 // do modal aberto no momento; o carrossel navega por índice nele.
+// _legendasModalAtual: url -> assunto do item que gerou a foto (só pesquisa
+// recente tem isso — fotos_legendas do backend); sem legenda, cai pra
+// "Foto N" (pedido do usuário em 2026-09-01: "trocar a legenda das fotos,
+// pelo nome que vem nas fotos").
 let _fotosModalAtual = [];
+let _legendasModalAtual = {};
 
-function _fotosHtml(fotos) {
+function _legendaFoto(url, i) {
+  return (_legendasModalAtual && _legendasModalAtual[url]) || `Foto ${i + 1}`;
+}
+
+function _fotosHtml(fotos, legendas) {
   _fotosModalAtual = fotos || [];
+  _legendasModalAtual = legendas || {};
   return _fotosModalAtual.length
     ? `<div class="foto-grid">${_fotosModalAtual.map((u, i) => `
         <a href="javascript:void(0)" onclick="abrirCarrossel(${i})">
-          <img src="${_esc(u)}" alt="Foto ${i + 1}" loading="lazy">
-          <div class="foto-num">Foto ${i + 1}</div>
+          <img src="${_esc(u)}" alt="${_esc(_legendaFoto(u, i))}" loading="lazy">
+          <div class="foto-num">${_esc(_legendaFoto(u, i))}</div>
         </a>`).join('')}</div>`
     : '<div class="sem-foto">Nenhuma foto anexada.</div>';
 }
@@ -446,8 +456,10 @@ function abrirCarrossel(i) {
 }
 
 function _renderCarrossel() {
-  document.getElementById('carrossel-img').src = _fotosModalAtual[_carrosselIndex];
-  document.getElementById('carrossel-contador').textContent = `${_carrosselIndex + 1} / ${_fotosModalAtual.length}`;
+  const url = _fotosModalAtual[_carrosselIndex];
+  document.getElementById('carrossel-img').src = url;
+  document.getElementById('carrossel-contador').textContent =
+    `${_legendaFoto(url, _carrosselIndex)} — ${_carrosselIndex + 1} / ${_fotosModalAtual.length}`;
 }
 
 function carrosselNav(delta) {
@@ -525,7 +537,7 @@ function abrirDetalhes(idx) {
       <div class="sem-foto">Detalhe item a item só fica disponível pra pesquisas dos últimos 30 dias.</div>
     ` : ''}
     <div class="modal-sec-title">Fotos (${(r.fotos || []).length})</div>
-    ${_fotosHtml(r.fotos)}
+    ${_fotosHtml(r.fotos, r.fotos_legendas)}
   `;
   document.getElementById('modal-detalhes').classList.add('open');
 }
