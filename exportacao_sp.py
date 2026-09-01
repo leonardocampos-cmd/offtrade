@@ -557,14 +557,26 @@ _codusur_nome = {
 }
 
 # ── Papel do vendedor (Representante/Externo/Supervisor/Gerente) ─────────────
+# Um mesmo CODUSUR pode existir em mais de um schema com cadastros
+# diferentes (ex: RCA 588/W.S: TIPOVEND='R' na SPON, mas 'E' na CRC/CASTAS/
+# BLENDED — confirmado com o usuário em 2026-09-01, badge mostrando
+# "Externo" quando o sistema mostra "Representante"). _carregar_extra roda
+# as fontes em paralelo (ThreadPoolExecutor), então a ordem de chegada em
+# _vc_papel não é determinística — iterar "quem chegar por último vence"
+# fazia o badge variar de execução pra execução dependendo de qual thread
+# terminava primeiro. Prioriza a ordem de _SP_SOURCES (SPON primeiro — é a
+# base dona de SP, mesma convenção de _BASE_DONA_DO_ESTADO em
+# exportacao_meta.py) com "primeiro que aparece vence".
+_prioridade_sistema = {nome: i for i, (nome, *_resto) in enumerate(_SP_SOURCES)}
 _vc_papel = _carregar_extra(_query_sp_papel, _SP_SOURCES, "sp_papel")
 _tipovenda: dict[str, str] = {}
 if not _vc_papel.empty:
-    for _, _row in _vc_papel.iterrows():
+    _vc_papel['_PRIORIDADE'] = _vc_papel['SISTEMA'].map(_prioridade_sistema).fillna(999)
+    for _, _row in _vc_papel.sort_values('_PRIORIDADE').iterrows():
         if pd.isna(_row.get('CODUSUR')):
             continue
         _nome = _codusur_nome.get((_row['SISTEMA'], int(_row['CODUSUR'])))
-        if not _nome:
+        if not _nome or _nome in _tipovenda:
             continue
         _papel = _papel_de(_row.get('TIPOVEND'), _row.get('EH_GERENTE'), _row.get('EH_SUPERVISOR'))
         if _papel:
