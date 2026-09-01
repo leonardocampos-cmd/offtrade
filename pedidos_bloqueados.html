@@ -97,6 +97,11 @@
     .margem-negativa { color: var(--red); }
     .motivo { white-space: normal; max-width: 340px; color: var(--muted); font-size: .78rem; }
     .obs-base { color: var(--accent); font-weight: 700; }
+    .base-badge {
+      display: inline-block; margin-left: 5px; background: rgba(6,182,212,.15);
+      border: 1px solid rgba(6,182,212,.3); color: #22d3ee;
+      border-radius: 5px; padding: 1px 6px; font-size: .68rem; font-weight: 700;
+    }
     .expand-icon { display: inline-block; width: 14px; color: var(--muted); }
     tr.linha-itens td { background: #14161f; padding: 0; }
     .itens-wrap { padding: 10px 12px 14px 40px; }
@@ -324,7 +329,7 @@ function aplicarFiltro() {
       <td class="cod hide-mob">${_esc(p.sistema)}</td>
       <td class="hide-mob" style="color:var(--muted);font-weight:700">${_esc(p.estado)}</td>
       <td><span class="rca-badge">${_esc(p.vendedor.replace(' - OFF TRADE',''))}</span></td>
-      <td class="hide-mob">${_esc(p.cliente)}</td>
+      <td class="hide-mob">${_esc(p.cliente)}${_baseIcon(p.observacao)}</td>
       <td>${_posicaoBadge(p.posicao)}${p.bonificacao ? '<span class="badge-bonificacao">🎁 Bonificação</span>' : ''}</td>
       <td>${_qt(p.qt)}</td>
       <td>${_precoVenda(p)}</td>
@@ -360,6 +365,17 @@ function toggleItens(chave) {
   if (_expandidos.has(chave)) _expandidos.delete(chave);
   else _expandidos.add(chave);
   aplicarFiltro();
+}
+
+// p.observacao vem do backend como "Cliente na base OTD"/"OTI"/"OTD e OTI"
+// (ver exportacao_pedidos_bloqueados.py::_observacao_base_cliente) — extrai
+// as tags pra mostrar como ícone ao lado do nome do cliente.
+function _baseIcon(observacao) {
+  if (!observacao) return '';
+  const bases = [];
+  if (/\bOTD\b/.test(observacao)) bases.push('OTD');
+  if (/\bOTI\b/.test(observacao)) bases.push('OTI');
+  return bases.map(b => `<span class="base-badge" title="Cliente na base ${b} — preço promo limitado a essa base">🏷️ ${b}</span>`).join('');
 }
 
 function _posicaoBadge(posicao) {
