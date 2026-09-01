@@ -153,12 +153,6 @@
       cursor: pointer; font-family: inherit; white-space: nowrap;
     }
     .btn-detalhes:hover { border-color: var(--blue); }
-    .assunto-chip {
-      display: inline-block; background: var(--card2); border: 1px solid var(--border);
-      color: var(--blue); border-radius: 99px; padding: 2px 9px; font-size: .7rem;
-      margin: 1px 3px 1px 0; cursor: pointer;
-    }
-    .assunto-chip:hover { border-color: var(--blue); background: rgba(59,130,246,.15); }
     tr.linha-pesquisa { cursor: pointer; }
     tr.linha-detalhe-pesquisa td { background: #14161f; padding: 10px 12px 14px 30px; }
     .assunto-detalhe-grupo { margin-bottom: 10px; }
@@ -244,7 +238,6 @@
         <th>Cliente/PDV</th>
         <th class="hide-mob">Cidade</th>
         <th>Pesquisa</th>
-        <th>Assuntos</th>
         <th>Itens Respondidos</th>
         <th>Detalhes</th>
       </tr>
@@ -311,21 +304,6 @@ function _escAttr(v) {
 
 function _clienteLabel(r) {
   return r.fantasia && r.fantasia !== r.razao_social ? `${r.razao_social} (${r.fantasia})` : (r.razao_social || '');
-}
-
-// Cada assunto vira um chip clicável que filtra a tabela por ele (mesmo
-// filtro do dropdown "Todos os Assuntos") — pedido do usuário em
-// 2026-09-01 ("colocar os assuntos a clicar na linha da pesquisa").
-function _assuntosChips(assuntos) {
-  return (assuntos || '').split(';').map(a => a.trim()).filter(Boolean)
-    .map(a => `<span class="assunto-chip" onclick="event.stopPropagation(); filtrarPorAssunto('${_escAttr(a)}')">${_esc(a)}</span>`)
-    .join('');
-}
-
-function filtrarPorAssunto(assunto) {
-  document.getElementById('sel-assunto').value = assunto;
-  paginaAtual = 1;
-  aplicarFiltro();
 }
 
 // Tarefas tipo CHECK_IN/CHECK_OUT não têm pergunta/resposta de verdade — é
@@ -436,9 +414,17 @@ function toggleDetalhePesquisa(i) {
 }
 
 function _respostasPorAssuntoHtml(r) {
-  const itens = r.itens_detalhe || [];
+  let itens = r.itens_detalhe || [];
   if (!itens.length) {
     return '<div class="sem-foto">Detalhe item a item só fica disponível pra pesquisas dos últimos 30 dias.</div>';
+  }
+  // Com um assunto selecionado no filtro (sel-assunto), a resposta expandida
+  // mostra só esse assunto — pedido do usuário em 2026-09-01 ("ao
+  // selecionar o assunto, precisa filtrar... as respostas abaixo").
+  const assuntoFiltro = document.getElementById('sel-assunto').value;
+  if (assuntoFiltro) itens = itens.filter(it => it.assunto === assuntoFiltro);
+  if (!itens.length) {
+    return `<div class="sem-foto">Nenhuma resposta de "${_esc(assuntoFiltro)}" nessa pesquisa.</div>`;
   }
   const porAssunto = {};
   itens.forEach(it => {
@@ -664,13 +650,12 @@ function aplicarFiltro() {
         <td class="wrap">${_esc(_clienteLabel(r))}</td>
         <td class="hide-mob">${_esc(r.cidade)}</td>
         <td class="wrap">${_esc(r.pesquisa)}</td>
-        <td class="wrap">${_assuntosChips(r.assuntos)}</td>
         <td>${_esc(r.qtd_itens)}</td>
         <td><button class="btn-detalhes" onclick="event.stopPropagation(); abrirDetalhes(${i})">🔍 Ver detalhes</button></td>
       </tr>
       <tr class="linha-detalhe-pesquisa" id="detalhe-pesq-${i}" hidden>
-        <td colspan="8">${_respostasPorAssuntoHtml(r)}</td>
-      </tr>`).join('') : '<tr><td colspan="8" class="empty">Nenhum registro encontrado.</td></tr>';
+        <td colspan="7">${_respostasPorAssuntoHtml(r)}</td>
+      </tr>`).join('') : '<tr><td colspan="7" class="empty">Nenhum registro encontrado.</td></tr>';
   } else if (aba === 'tarefas') {
     document.getElementById('tbody-tarefas').innerHTML = linhas.length ? linhas.map((r, i) => `
       <tr>
