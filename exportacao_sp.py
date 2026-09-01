@@ -606,13 +606,41 @@ for _mes_ts in _meses_vh:
 # lógica de exportacao_mg.py/exportacao_es.py, calculada em cima do 'fat' já
 # populado em _realizado_sp acima.
 _meses_sorted = sorted(_meses_str, key=_mes_sort_key, reverse=True)
+
+# Pro mês em ANDAMENTO, "mês anterior" compara com o MESMO período (dia 1
+# até hoje) do mês anterior, não o mês anterior inteiro — comparar dia 1 de
+# setembro com agosto completo é injusto e a variação sempre parece um
+# desastre logo no início do mês (pedido do usuário em 2026-09-01). Meses já
+# fechados continuam comparando mês completo contra mês completo (mais
+# correto quando os dois já terminaram).
+_vh['DIA'] = pd.to_datetime(_vh['DATA'], format='%d/%m/%Y', errors='coerce').dt.day
+_hoje = date.today()
+_mes_atual_str = _mes_pt(pd.Timestamp(_hoje))
+_meses_ts_por_str = {_mes_pt(m): m for m in _meses_vh}
+_fat_mesmo_periodo_ant: dict = {}
+if _mes_atual_str in _meses_sorted:
+    _idx_atual = _meses_sorted.index(_mes_atual_str)
+    if _idx_atual + 1 < len(_meses_sorted):
+        _ant_ts = _meses_ts_por_str.get(_meses_sorted[_idx_atual + 1])
+        if _ant_ts is not None:
+            _df_mp = _vh[
+                (_vh['MES'] == _ant_ts) & (_vh['CODOPER'] == 'S') & (~_vh['DEVOLVIDO']) &
+                (_vh['DIA'] <= _hoje.day)
+            ]
+            for (_sistema, _codusur), _val in _df_mp.groupby(['SISTEMA', 'CODUSUR'])['VALOR'].sum().items():
+                _nome = _codusur_nome.get((_sistema, int(_codusur)), f"{_sistema}/{_codusur}")
+                _fat_mesmo_periodo_ant[_nome] = round(float(_val), 2)
+
 for _nome in _realizado_sp:
     for _i, _mes in enumerate(_meses_sorted):
         if _mes not in _realizado_sp[_nome]:
             continue
         if _i + 1 < len(_meses_sorted):
-            _ant = _meses_sorted[_i + 1]
-            _realizado_sp[_nome][_mes]['fat_ant'] = _realizado_sp[_nome].get(_ant, {}).get('fat', 0.0)
+            if _mes == _mes_atual_str:
+                _realizado_sp[_nome][_mes]['fat_ant'] = _fat_mesmo_periodo_ant.get(_nome, 0.0)
+            else:
+                _ant = _meses_sorted[_i + 1]
+                _realizado_sp[_nome][_mes]['fat_ant'] = _realizado_sp[_nome].get(_ant, {}).get('fat', 0.0)
         if _i + 12 < len(_meses_sorted):
             _ano_ant = _meses_sorted[_i + 12]
             _realizado_sp[_nome][_mes]['fat_ano_ant'] = _realizado_sp[_nome].get(_ano_ant, {}).get('fat', 0.0)

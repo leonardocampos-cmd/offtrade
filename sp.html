@@ -791,7 +791,8 @@ function _buildVendorCards(mes) {
         '<span class="stat-label">Faturamento</span>' +
         '<span class="stat-val">' + fmtFat(realFat) + varHtml(realFat, fatAnt) + (metaFat ? ' <span style="font-size:.7rem;color:var(--muted)">/ ' + fmtFat(metaFat) + '</span>' : '') + '</span>' +
       '</div>' +
-      (fatAnt ? '<div class="stat-row"><span class="stat-label">Mes anterior</span>' +
+      (fatAnt ? '<div class="stat-row"><span class="stat-label">Mes anterior' +
+        (mes === (VENDAS_SP_DATA.meses || [])[0] ? ' (mesmo período)' : '') + '</span>' +
         '<span class="stat-val" style="color:var(--muted)">' + fmtFat(fatAnt) + '</span></div>' : '') +
       (fatAnoAnt ? '<div class="stat-row"><span class="stat-label">Mesmo mes ano anterior</span>' +
         '<span class="stat-val" style="color:var(--muted)">' + fmtFat(fatAnoAnt) + varHtml(realFat, fatAnoAnt) + '</span></div>' : '') +
