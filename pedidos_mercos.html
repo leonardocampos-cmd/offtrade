@@ -141,6 +141,27 @@
     .spon-info { font-size: .72rem; color: var(--muted); margin-top: 2px; }
     tr.item-cortado td { background: rgba(249,115,22,.08); }
 
+    .btn {
+      background: var(--card); border: 1px solid var(--border); color: var(--text);
+      border-radius: 8px; padding: 7px 14px; font-size: .8rem; font-weight: 700;
+      cursor: pointer; font-family: inherit;
+    }
+    .btn:hover { border-color: var(--blue); }
+    .modal-overlay {
+      position: fixed; inset: 0; background: rgba(0,0,0,.6);
+      display: flex; align-items: center; justify-content: center; z-index: 100;
+    }
+    .modal-overlay[hidden] { display: none; }
+    .modal-card {
+      background: #14161f; border: 1px solid var(--border); border-radius: 12px;
+      padding: 22px; width: 90%; max-width: 420px;
+    }
+    .modal-card h3 { font-size: 1rem; margin-bottom: 6px; }
+    .modal-card .modal-sub { font-size: .78rem; color: var(--muted); margin-bottom: 16px; }
+    .modal-card label { font-size: .74rem; color: var(--muted); display: block; margin-bottom: 4px; margin-top: 12px; }
+    .modal-card input[type=text] { width: 100%; min-width: 0; }
+    .modal-card .modal-acoes { display: flex; gap: 10px; margin-top: 20px; justify-content: flex-end; }
+
     @media (max-width: 640px) {
       body { padding: 12px; }
       .kpi { min-width: 130px; padding: 12px 14px; }
@@ -163,6 +184,7 @@
     </div>
   </div>
   <div style="display:flex;gap:14px;align-items:center">
+    <button class="btn" onclick="abrirConfigZapi()">⚙️ WhatsApp</button>
     <a href="estoque_mercos.html" style="color:var(--blue);font-size:.8rem;text-decoration:none;font-weight:700">📦 Estoque</a>
     <a href="kanban_mercos.html" style="color:var(--blue);font-size:.8rem;text-decoration:none;font-weight:700">📋 Tarefas</a>
     <a href="sp.html?vendedor=W.S" style="color:var(--blue);font-size:.8rem;text-decoration:none;font-weight:700">Ver painel SP (W.S) →</a>
@@ -377,7 +399,7 @@ function aplicarFiltro() {
       html += `<tr class="linha-itens"><td colspan="13"><div class="itens-wrap">
         <div class="itens-acoes">
           <button class="btn-acao" onclick="event.stopPropagation(); gerarPdfPedido('${_escAttr(p.numped)}')">📄 Gerar PDF</button>
-          <button class="btn-acao whatsapp" onclick="event.stopPropagation(); enviarWhatsapp('${_escAttr(p.numped)}')">📱 Enviar WhatsApp</button>
+          <button class="btn-acao whatsapp" onclick="event.stopPropagation(); enviarWhatsapp('${_escAttr(p.numped)}', this)">📱 Enviar WhatsApp</button>
         </div>
         <table><thead><tr><th>Código</th><th>Produto</th><th>Qtd</th><th>Preço Líquido</th><th>Subtotal</th><th>Faturado no SPON</th></tr></thead><tbody>
         ${(p.itens || []).map(it => {
@@ -527,15 +549,52 @@ function gerarPdfPedido(numped) {
   doc.save(`pedido_${p.numped}.pdf`);
 }
 
-// wa.me sem número fixo — abre o WhatsApp deixando escolher o contato, já
-// que o pedido não tem telefone do cliente cadastrado. Manda um resumo em
-// texto (o link do wa.me não permite anexar arquivo, então não dá pra
-// mandar o PDF direto por aqui — só o texto).
-function enviarWhatsapp(numped) {
+// Envia direto pro WhatsApp do VENDEDOR do pedido, pela conta Z-API de
+// QUEM ESTÁ LOGADO (não um número fixo da empresa) — pedido do usuário em
+// 2026-09-01 (antes era wa.me sem número fixo, abria deixando escolher o
+// contato, saindo do celular de quem clicava). O telefone do vendedor não
+// fica no pedidos_mercos_data.js (público) — o backend
+// (pedidos_mercos_api.py) resolve pelo cadastro de colaborador da própria
+// Mercos (esses vendedores não têm cadastro no Winthor) e retransmite pra
+// Z-API com o token que só existe no localStorage deste navegador.
+async function enviarWhatsapp(numped, btn) {
   const p = PEDIDOS.find(x => String(x.numped) === String(numped));
   if (!p) return;
-  const url = `https://wa.me/?text=${encodeURIComponent(_resumoPedidoTexto(p))}`;
-  window.open(url, '_blank');
+  const cfg = _lerConfigZapi();
+  if (!cfg.instance || !cfg.token || !cfg.client_token) {
+    alert('Configure sua conta Z-API primeiro (botão "⚙️ WhatsApp" no topo da página).');
+    abrirConfigZapi();
+    return;
+  }
+  const textoOriginal = btn.textContent;
+  btn.disabled = true;
+  btn.textContent = '📱 Enviando...';
+  try {
+    const resp = await fetch('/api/pedidos-mercos/enviar-whatsapp', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        cod_vendedor: p.cod_vendedor,
+        mensagem: _resumoPedidoTexto(p),
+        zapi_instance: cfg.instance,
+        zapi_token: cfg.token,
+        zapi_client_token: cfg.client_token,
+      }),
+    });
+    const d = await resp.json().catch(() => ({}));
+    if (d.ok) {
+      btn.textContent = '✅ Enviado';
+      setTimeout(() => { btn.textContent = textoOriginal; btn.disabled = false; }, 3000);
+    } else {
+      alert(d.motivo || 'Não foi possível enviar o WhatsApp agora.');
+      btn.textContent = textoOriginal;
+      btn.disabled = false;
+    }
+  } catch (e) {
+    alert('Não foi possível enviar o WhatsApp agora — tente de novo em instantes.');
+    btn.textContent = textoOriginal;
+    btn.disabled = false;
+  }
 }
 
 function _formatCnpj(v) {
@@ -597,7 +656,58 @@ function exportarCSV() {
   a.click();
   URL.revokeObjectURL(url);
 }
+
+// ── Configuração Z-API (token de quem está logado, só no navegador dele) ────
+// Pedido do usuário em 2026-09-01: o envio de WhatsApp sai pela Z-API de
+// QUEM ESTÁ LOGADO na página (não um número fixo da empresa) — cada
+// usuário tem sua própria conta Z-API. O token fica só aqui (localStorage),
+// nunca é salvo no nosso backend — a cada envio ele é mandado junto na
+// requisição só pra esse backend retransmitir pra Z-API.
+const ZAPI_STORAGE_KEY = 'pedidos_mercos_zapi_config';
+
+function _lerConfigZapi() {
+  try { return JSON.parse(localStorage.getItem(ZAPI_STORAGE_KEY) || '{}'); }
+  catch (e) { return {}; }
+}
+
+function abrirConfigZapi() {
+  const cfg = _lerConfigZapi();
+  document.getElementById('zapi-instance').value = cfg.instance || '';
+  document.getElementById('zapi-token').value = cfg.token || '';
+  document.getElementById('zapi-client-token').value = cfg.client_token || '';
+  document.getElementById('modal-zapi').hidden = false;
+}
+
+function fecharConfigZapi() {
+  document.getElementById('modal-zapi').hidden = true;
+}
+
+function salvarConfigZapi() {
+  const cfg = {
+    instance: document.getElementById('zapi-instance').value.trim(),
+    token: document.getElementById('zapi-token').value.trim(),
+    client_token: document.getElementById('zapi-client-token').value.trim(),
+  };
+  localStorage.setItem(ZAPI_STORAGE_KEY, JSON.stringify(cfg));
+  fecharConfigZapi();
+}
 </script>
+<div class="modal-overlay" id="modal-zapi" hidden onclick="if (event.target === this) fecharConfigZapi()">
+  <div class="modal-card">
+    <h3>⚙️ Configurar WhatsApp (Z-API)</h3>
+    <p class="modal-sub">Cada usuário usa sua própria conta Z-API pra enviar. Fica salvo só neste navegador.</p>
+    <label for="zapi-instance">Instance ID</label>
+    <input type="text" id="zapi-instance" placeholder="ex: 3D...">
+    <label for="zapi-token">Token</label>
+    <input type="text" id="zapi-token" placeholder="ex: A1B2C3...">
+    <label for="zapi-client-token">Client-Token</label>
+    <input type="text" id="zapi-client-token" placeholder="ex: F...">
+    <div class="modal-acoes">
+      <button class="btn" onclick="fecharConfigZapi()">Cancelar</button>
+      <button class="btn-csv" onclick="salvarConfigZapi()">Salvar</button>
+    </div>
+  </div>
+</div>
 <script src="sticky_hscroll.js"></script>
 </body>
 </html>

@@ -19,6 +19,7 @@ Dois relatórios diferentes, dois mecanismos diferentes:
   fluxo manual, ver gerar_pedidos_mercos_data.py).
 """
 import os
+import re
 from datetime import date, timedelta
 from pathlib import Path
 
@@ -125,3 +126,40 @@ def baixar_produtos_por_pedido_periodo_completo(sessao: requests.Session, data_i
         baixar_produtos_por_pedido(sessao, ini, fim)
         for ini, fim in _janelas_semestrais(data_inicial, data_final)
     ]
+
+
+_RE_CARD_NOME  = re.compile(r'js-nome-colaborador">\s*([^<\n]+)')
+_RE_CARD_FONE  = re.compile(r'icon-phone"></i>\s*([^<\n]+)')
+
+
+def buscar_colaboradores_telefones(sessao: requests.Session) -> dict[str, str]:
+    """Telefone de cada vendedor da Mercos ("colaborador"), pra mandar
+    WhatsApp direto pra ele (pedido do usuário em 2026-09-01: o vendedor não
+    tem cadastro no Winthor — são vendedores da própria SPON, não do time
+    OFF TRADE — então o único cadastro de telefone que existe é o da própria
+    Mercos). Não tem endpoint de API pra isso (achado em 2026-09-01
+    inspecionando o painel: é uma página server-rendered comum, sem XHR) —
+    faz o mesmo scrape server-side que _montar_pedidos já faz com o
+    relatório de produtos.
+
+    Chave = MESMO formato de gerar_pedidos_mercos_data.py::p['cod_vendedor']
+    ("008" pra "008 - Marcos", ou o nome inteiro pra colaborador sem código
+    tipo "WENEO RICARDO") — dá pra cruzar direto sem tabela de tradução."""
+    resp = sessao.get(f"{BASE_URL}/{EMPRESA_ID}/colaboradores/", timeout=30)
+    resp.raise_for_status()
+    html = resp.text
+    telefones = {}
+    for bloco in re.split(r'<div id="card_colaborador_\d+"', html)[1:]:
+        nome_m = _RE_CARD_NOME.search(bloco)
+        fone_m = _RE_CARD_FONE.search(bloco)
+        if not nome_m or not fone_m:
+            continue
+        criador = nome_m.group(1).strip()
+        cod_vend, _, _nome_vend = criador.partition(" - ")
+        digitos = re.sub(r"\D", "", fone_m.group(1))
+        if len(digitos) < 10:
+            continue  # fone incompleto/vazio no cadastro — ignora
+        if not digitos.startswith("55"):
+            digitos = "55" + digitos
+        telefones[cod_vend.strip()] = digitos
+    return telefones
