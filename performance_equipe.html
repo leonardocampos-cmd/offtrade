@@ -51,6 +51,13 @@
     tr.clicavel-ger td:first-child::before { content: '▸ '; color: var(--muted); font-size: .7rem; }
     tr.clicavel-ger.expandida td:first-child::before { content: '▾ '; color: var(--accent); }
     tr.sub-row-ger td { background: #14161a; padding: 10px 10px 14px 26px; border-bottom: 1px solid var(--border); }
+    tr.clicavel-vend { cursor: pointer; }
+    tr.clicavel-vend.selecionado { background: rgba(245,197,24,.12); }
+    tr.clicavel-vend.selecionado td:first-child { color: var(--accent); font-weight: 700; }
+    .graficos-status { display: flex; align-items: center; gap: 10px; margin-bottom: 14px; font-size: .82rem; color: var(--muted); }
+    .graficos-status strong { color: var(--accent); }
+    .graficos-status button { background: var(--card); border: 1px solid var(--border); color: var(--text); border-radius: 8px; padding: 5px 12px; font-size: .76rem; font-weight: 600; cursor: pointer; font-family: inherit; }
+    .graficos-status button:hover { border-color: var(--accent); }
     .sub-tabela-ger { width: 100%; border-collapse: collapse; }
     .sub-tabela-ger th { background: none; padding: 4px 8px; font-size: .62rem; color: var(--muted); text-transform: uppercase; letter-spacing: .04em; text-align: right; white-space: nowrap; }
     .sub-tabela-ger th:first-child { text-align: left; }
@@ -140,6 +147,7 @@ const ANO_ANTERIOR = D ? D.ano_anterior : null;
 let _sortCol = 'faturamento', _sortDir = -1;
 let _sortColVend = 'faturamento', _sortDirVend = -1; // ordenação da tabela de vendedores dentro do drill-down
 const _expandidos = new Set(); // nomes de gerente com o drill-down de vendedores aberto
+let _vendedorSelecionado = null; // {nome, gerente} — clique num vendedor do drill-down foca os gráficos nele
 
 const fmtR = v => 'R$ ' + (v||0).toLocaleString('pt-BR', {minimumFractionDigits:0, maximumFractionDigits:0});
 const fmtN = v => (v==null ? '—' : v.toLocaleString('pt-BR', {maximumFractionDigits:1}));
@@ -325,9 +333,12 @@ function _renderVendedoresDoGerente(nomeGerente, mesSel) {
     return '<div style="padding:10px 4px;color:var(--muted);font-size:.78rem">Nenhum vendedor encontrado pra esse gerente.</div>';
   }
   const head = _theadHTML(COLS_VENDEDOR, _sortColVend, _sortDirVend, 'setSortVendedor');
-  const body = vendedores.map(v => `<tr>
+  const body = vendedores.map(v => {
+    const sel = _vendedorSelecionado && _vendedorSelecionado.nome === v.nome && _vendedorSelecionado.gerente === v.gerente;
+    return `<tr class="clicavel-vend${sel ? ' selecionado' : ''}" data-nome="${_esc(v.nome)}" data-gerente="${_esc(v.gerente || '')}">
         <td>${_esc(v.nome)} <span style="color:var(--muted);font-size:.68rem">(${_esc(v.estado)}/${_esc(v.sistema)})</span></td>${_metricasTds(v, mesSel)}
-      </tr>`).join('');
+      </tr>`;
+  }).join('');
   return `<table class="sub-tabela-ger"><thead><tr>${head}</tr></thead><tbody>${body}</tbody></table>`;
 }
 
@@ -361,14 +372,30 @@ function aplicarFiltro() {
         aplicarFiltro();
       });
     });
+
+    document.querySelectorAll('tr.clicavel-vend').forEach(tr => {
+      tr.addEventListener('click', (ev) => {
+        ev.stopPropagation(); // não deixa borbulhar pro clique do gerente (colapsaria o drill-down)
+        const nome = tr.dataset.nome, gerente = tr.dataset.gerente;
+        const jaSelecionado = _vendedorSelecionado && _vendedorSelecionado.nome === nome && _vendedorSelecionado.gerente === gerente;
+        _vendedorSelecionado = jaSelecionado ? null : { nome, gerente };
+        aplicarFiltro();
+      });
+    });
   }
 
   _atualizarAvisoFiltro();
 
-  // Gráficos sempre agregam da lista de vendedores filtrada (Sistema/
-  // UF/busca) — a tabela em si (por gerente) não é filtrável por esses
-  // campos, só o dropdown de Gerente e a busca.
-  renderGraficos(_vendedoresFiltrados());
+  // Com um vendedor selecionado (clique no drill-down), os gráficos mostram
+  // só ele — independe dos filtros de Sistema/UF/Tipo/busca, pra não sumir
+  // da tela se o filtro mudar depois da seleção (pedido do usuário em
+  // 2026-09-01: "ao clicar no vendedor os gráficos... mudam mostrando os
+  // valores do vendedor"). Sem seleção, volta a agregar a lista filtrada
+  // inteira (Sistema/UF/Tipo/busca) — comportamento de sempre.
+  const vendAtual = _vendedorSelecionado
+    ? D.vendedores.find(v => v.nome === _vendedorSelecionado.nome && v.gerente === _vendedorSelecionado.gerente)
+    : null;
+  renderGraficos(vendAtual ? [vendAtual] : _vendedoresFiltrados(), vendAtual);
 }
 
 function _atualizarAvisoFiltro() {
@@ -414,11 +441,19 @@ function _agregarPorMes(linhas, ano, campo, media) {
   return { meses, valores: meses.map(m => media ? soma[m]/n[m] : soma[m]) };
 }
 
-function renderGraficos(linhas) {
+function limparVendedorSelecionado() {
+  _vendedorSelecionado = null;
+  aplicarFiltro();
+}
+
+function renderGraficos(linhas, vendedorFocado) {
   _charts.forEach(c => c.destroy());
   _charts = [];
   const secao = document.getElementById('secao-graficos');
-  secao.innerHTML = GRUPOS.map((g, i) => `
+  const status = vendedorFocado
+    ? `<div class="graficos-status">Mostrando: <strong>${_esc(vendedorFocado.nome)}</strong> (${_esc(vendedorFocado.gerente || '')}) <button onclick="limparVendedorSelecionado()">✕ Ver equipe toda</button></div>`
+    : `<div class="graficos-status">Mostrando: <strong>equipe filtrada</strong> (${linhas.length} vendedor(es)) — clique num vendedor no drill-down da tabela pra focar nele</div>`;
+  secao.innerHTML = status + GRUPOS.map((g, i) => `
     <div class="charts-grupo">
       <h3>${g.titulo}</h3>
       <div class="charts-grid">
