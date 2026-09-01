@@ -153,6 +153,12 @@
       cursor: pointer; font-family: inherit; white-space: nowrap;
     }
     .btn-detalhes:hover { border-color: var(--blue); }
+    .assunto-chip {
+      display: inline-block; background: var(--card2); border: 1px solid var(--border);
+      color: var(--blue); border-radius: 99px; padding: 2px 9px; font-size: .7rem;
+      margin: 1px 3px 1px 0; cursor: pointer;
+    }
+    .assunto-chip:hover { border-color: var(--blue); background: rgba(59,130,246,.15); }
 
     .modal-overlay {
       display: none; position: fixed; inset: 0; background: rgba(0,0,0,.6);
@@ -295,8 +301,27 @@ function _esc(v) {
   return String(v).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 }
 
+function _escAttr(v) {
+  return _esc(v).replace(/'/g, '&#39;');
+}
+
 function _clienteLabel(r) {
   return r.fantasia && r.fantasia !== r.razao_social ? `${r.razao_social} (${r.fantasia})` : (r.razao_social || '');
+}
+
+// Cada assunto vira um chip clicável que filtra a tabela por ele (mesmo
+// filtro do dropdown "Todos os Assuntos") — pedido do usuário em
+// 2026-09-01 ("colocar os assuntos a clicar na linha da pesquisa").
+function _assuntosChips(assuntos) {
+  return (assuntos || '').split(';').map(a => a.trim()).filter(Boolean)
+    .map(a => `<span class="assunto-chip" onclick="event.stopPropagation(); filtrarPorAssunto('${_escAttr(a)}')">${_esc(a)}</span>`)
+    .join('');
+}
+
+function filtrarPorAssunto(assunto) {
+  document.getElementById('sel-assunto').value = assunto;
+  paginaAtual = 1;
+  aplicarFiltro();
 }
 
 // Tarefas tipo CHECK_IN/CHECK_OUT não têm pergunta/resposta de verdade — é
@@ -605,7 +630,7 @@ function aplicarFiltro() {
         <td class="wrap">${_esc(_clienteLabel(r))}</td>
         <td class="hide-mob">${_esc(r.cidade)}</td>
         <td class="wrap">${_esc(r.pesquisa)}</td>
-        <td class="wrap">${_esc(r.assuntos)}</td>
+        <td class="wrap">${_assuntosChips(r.assuntos)}</td>
         <td>${_esc(r.qtd_itens)}</td>
         <td><button class="btn-detalhes" onclick="abrirDetalhes(${i})">🔍 Ver detalhes</button></td>
       </tr>`).join('') : '<tr><td colspan="8" class="empty">Nenhum registro encontrado.</td></tr>';
