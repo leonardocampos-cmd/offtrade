@@ -513,12 +513,25 @@ function _respostasPorAssuntoHtml(r) {
     </div>`).join('');
 }
 
+// Quando o item respondido foi tipo "Foto" mas o arquivo nunca ficou
+// associado no Max Promotor (achado real pelo usuário em 2026-09-01: seção
+// Fotos aparecia vazia mesmo com respostas "Foto" na lista) — sinaliza em
+// vez de só mostrar "Nenhuma foto anexada" sem explicação.
+function _avisoFotosFaltando(r) {
+  const esperadas = (r.itens_detalhe || []).filter(it => it.resposta === 'Foto').length;
+  const reais = (r.fotos || []).length;
+  if (esperadas > reais) {
+    return [{ ok: false, texto: `⚠️ ${esperadas} resposta(s) do tipo foto, mas só ${reais} foto(s) associada(s) — arquivo pode não ter sido enviado no Max Promotor.` }];
+  }
+  return [];
+}
+
 function abrirDetalhes(idx) {
   const r = _linhasPaginaAtual[idx];
   if (!r) return;
   if (aba === 'visitas') return abrirDetalhesVisita(r);
 
-  const analise = _analisarVisita(r);
+  const analise = _analisarVisita(r).concat(aba === 'pesquisas' ? _avisoFotosFaltando(r) : []);
   document.getElementById('modal-conteudo').innerHTML = `
     <div class="modal-head">
       <div>
