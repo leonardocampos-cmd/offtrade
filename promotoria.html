@@ -255,7 +255,6 @@
         <th>Data</th>
         <th>Usuário</th>
         <th>Cliente/PDV</th>
-        <th class="hide-mob">Cidade</th>
         <th>Pesquisa</th>
         <th>Itens Respondidos</th>
         <th>Detalhes</th>
@@ -731,19 +730,21 @@ function aplicarFiltro() {
 
   _linhasPaginaAtual = linhas;
   if (aba === 'pesquisas') {
-    document.getElementById('tbody-pesquisas').innerHTML = linhas.length ? linhas.map((r, i) => `
+    document.getElementById('tbody-pesquisas').innerHTML = linhas.length ? linhas.map((r, i) => {
+      const aviso = _avisoFotosFaltando(r).length > 0;
+      return `
       <tr class="linha-pesquisa" onclick="toggleDetalhePesquisa(${i})">
         <td>${_esc(r.data)}</td>
         <td>${_esc(r.usuario)}</td>
         <td class="wrap">${_esc(_clienteLabel(r))}</td>
-        <td class="hide-mob">${_esc(r.cidade)}</td>
-        <td class="wrap">${_esc(r.pesquisa)}</td>
+        <td class="wrap">${aviso ? '<span title="Resposta do tipo foto sem arquivo associado no Max Promotor">⚠️</span> ' : ''}${_esc(r.pesquisa)}</td>
         <td>${_esc(r.qtd_itens)}</td>
         <td><button class="btn-detalhes" onclick="event.stopPropagation(); abrirDetalhes(${i})">🔍 Ver detalhes</button></td>
       </tr>
       <tr class="linha-detalhe-pesquisa" id="detalhe-pesq-${i}" hidden>
-        <td colspan="7">${_respostasPorAssuntoHtml(r)}</td>
-      </tr>`).join('') : '<tr><td colspan="7" class="empty">Nenhum registro encontrado.</td></tr>';
+        <td colspan="6">${_respostasPorAssuntoHtml(r)}</td>
+      </tr>`;
+    }).join('') : '<tr><td colspan="6" class="empty">Nenhum registro encontrado.</td></tr>';
   } else if (aba === 'tarefas') {
     document.getElementById('tbody-tarefas').innerHTML = linhas.length ? linhas.map((r, i) => `
       <tr>
