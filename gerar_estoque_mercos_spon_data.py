@@ -101,7 +101,14 @@ def main():
                 "dtultent": est["DTULTENT"].strftime("%d/%m/%Y") if pd.notna(est["DTULTENT"]) else None,
                 "dtultsaida": est["DTULTSAIDA"].strftime("%d/%m/%Y") if pd.notna(est["DTULTSAIDA"]) else None,
             })
-            item["qtdisponivel"] = round(item["qtestoque"] - item["qtbloqueada"] - item["qtreserv"], 2)
+            # QTBLOQUEADA (avariado/quarentena) é um saldo à parte no Winthor,
+            # não um subconjunto de QTESTOQUE — confirmado com o usuário em
+            # 2026-09-01 (código 40/AMARULA: QTESTOQUE=0, QTBLOQUEADA=77,
+            # sistema mostra o produto zerado, não com -77; código 5143/
+            # BALLANTINE'S: sistema mostra 16 disponível, QTESTOQUE=16, mas a
+            # fórmula antiga subtraía QTBLOQUEADA=60 e dava -44). Só QTRESERV
+            # é de fato reservado dentro do próprio QTESTOQUE.
+            item["qtdisponivel"] = round(item["qtestoque"] - item["qtreserv"], 2)
         else:
             item.update({
                 "descricao_spon": None, "qtestoque": None, "qtpendente": None,
