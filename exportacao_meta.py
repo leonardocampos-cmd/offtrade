@@ -59,7 +59,13 @@ _MAP_RCA_CONFIGS = [
 # cadastro de vendedor dele em PCUSUARI (confirmado em 2026-09-01: DANIEL
 # DINIZ, CODUSUR 306, aparece como NOMEGERENTE) — gerente/supervisor tem
 # prioridade sobre TIPOVEND porque descreve melhor o papel real da pessoa.
-def _papel_de(tipovend, eh_gerente, eh_supervisor):
+def _papel_de(tipovend, eh_gerente, eh_supervisor, bloqueio=None):
+    # Cadastro bloqueado (BLOQUEIO='S') não decide papel — ex: RCA 315
+    # (LEONARDO MILAN) está bloqueado na SPON mas ligado como gerente lá
+    # (PCGERENTE.COD_CADRCA), badge mostrava "Gerente" mesmo inativo
+    # (confirmado pelo usuário em 2026-09-01).
+    if str(bloqueio or '').strip().upper() == 'S':
+        return ''
     if eh_gerente:
         return 'Gerente'
     if eh_supervisor:
@@ -69,7 +75,7 @@ def _papel_de(tipovend, eh_gerente, eh_supervisor):
 _parts_map_rca = []
 _chamadas_map_rca = [
     (f"""
-        SELECT U.CODUSUR AS RCA, U.NOME, U.TIPOVEND,
+        SELECT U.CODUSUR AS RCA, U.NOME, U.TIPOVEND, U.BLOQUEIO,
                CASE WHEN G.COD_CADRCA IS NOT NULL THEN 1 ELSE 0 END AS EH_GERENTE,
                CASE WHEN S.COD_CADRCA IS NOT NULL THEN 1 ELSE 0 END AS EH_SUPERVISOR
         FROM {_s}.PCUSUARI U
@@ -91,7 +97,7 @@ map_rca = pd.concat(_parts_map_rca, ignore_index=True)
 map_rca = map_rca.drop_duplicates(subset=['RCA'])
 map_rca['RCA'] = pd.to_numeric(map_rca['RCA'], errors='coerce')
 map_rca['PAPEL'] = map_rca.apply(
-    lambda r: _papel_de(r.get('TIPOVEND'), r.get('EH_GERENTE'), r.get('EH_SUPERVISOR')), axis=1
+    lambda r: _papel_de(r.get('TIPOVEND'), r.get('EH_GERENTE'), r.get('EH_SUPERVISOR'), r.get('BLOQUEIO')), axis=1
 )
 arquivo['RCA'] = pd.to_numeric(arquivo['RCA'],  errors='coerce')
 

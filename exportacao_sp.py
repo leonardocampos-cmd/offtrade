@@ -251,7 +251,7 @@ def _query_sp_papel(schema, filtra_por_estado):
         "(U.NOME LIKE '%OFF TRADE%' OR U.NOME = 'W.S')"
     )
     return f"""
-        SELECT U.CODUSUR AS CODUSUR, U.TIPOVEND,
+        SELECT U.CODUSUR AS CODUSUR, U.TIPOVEND, U.BLOQUEIO,
                CASE WHEN G.COD_CADRCA IS NOT NULL THEN 1 ELSE 0 END AS EH_GERENTE,
                CASE WHEN S.COD_CADRCA IS NOT NULL THEN 1 ELSE 0 END AS EH_SUPERVISOR
         FROM {schema}.PCUSUARI U
@@ -570,13 +570,27 @@ _codusur_nome = {
 _prioridade_sistema = {nome: i for i, (nome, *_resto) in enumerate(_SP_SOURCES)}
 _vc_papel = _carregar_extra(_query_sp_papel, _SP_SOURCES, "sp_papel")
 _tipovenda: dict[str, str] = {}
+_nomes_papel_decidido: set = set()
 if not _vc_papel.empty:
     _vc_papel['_PRIORIDADE'] = _vc_papel['SISTEMA'].map(_prioridade_sistema).fillna(999)
     for _, _row in _vc_papel.sort_values('_PRIORIDADE').iterrows():
         if pd.isna(_row.get('CODUSUR')):
             continue
         _nome = _codusur_nome.get((_row['SISTEMA'], int(_row['CODUSUR'])))
-        if not _nome or _nome in _tipovenda:
+        if not _nome or _nome in _nomes_papel_decidido:
+            continue
+        # A fonte de MAIOR prioridade (SPON primeiro) que tiver cadastro pra
+        # esse CODUSUR decide o papel de vez, mesmo que outro schema de
+        # prioridade menor também tenha um cadastro (não cai pro próximo).
+        # Se essa fonte prioritária estiver bloqueada (BLOQUEIO='S'), fica
+        # sem badge — não cai pro próximo schema (que pode ser um cadastro
+        # antigo/duplicado desatualizado). Ex: RCA 315 (LEONARDO MILAN) está
+        # bloqueado na SPON (fonte SP de verdade) mas tem cadastro antigo e
+        # ativo na BLENDED, ligado como gerente lá — sem essa trava, o badge
+        # continuava mostrando "Gerente" mesmo bloqueado na fonte certa
+        # (confirmado pelo usuário em 2026-09-01).
+        _nomes_papel_decidido.add(_nome)
+        if str(_row.get('BLOQUEIO') or '').strip().upper() == 'S':
             continue
         _papel = _papel_de(_row.get('TIPOVEND'), _row.get('EH_GERENTE'), _row.get('EH_SUPERVISOR'))
         if _papel:

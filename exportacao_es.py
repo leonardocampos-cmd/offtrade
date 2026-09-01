@@ -294,6 +294,9 @@ _rcas = {
 # supervisor/gerente ao PRÓPRIO cadastro de vendedor dele em PCUSUARI —
 # quando isso acontece, o papel real (Supervisor/Gerente) tem prioridade
 # sobre o TIPOVEND (mesma lógica de exportacao_meta.py/exportacao_sp.py).
+# Cadastro bloqueado (BLOQUEIO='S') não entra — ex: RCA 315 (LEONARDO
+# MILAN) bloqueado na SPON mas ligado como gerente lá, badge mostrava
+# "Gerente" mesmo inativo (confirmado pelo usuário em 2026-09-01).
 _codusur_es = {
     int(row['CODUSUR']): row['VENDEDOR']
     for _, row in _vh[['VENDEDOR', 'CODUSUR']].drop_duplicates().iterrows()
@@ -309,6 +312,7 @@ try:
         LEFT JOIN CRC.PCGERENTE G ON G.COD_CADRCA = U.CODUSUR
         LEFT JOIN CRC.PCSUPERV  S ON S.COD_CADRCA = U.CODUSUR
         WHERE U.NOME LIKE '%OFF TRADE%' AND U.ESTADO = 'ES'
+          AND NVL(U.BLOQUEIO, 'N') != 'S'
     """, engine_es, "es_papel")
     for _, _row in _vc_papel.iterrows():
         if pd.isna(_row.get('CODUSUR')):

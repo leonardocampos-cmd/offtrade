@@ -1,7 +1,7 @@
 // Gerado automaticamente pelo exportacao_es.py
 
 const VENDAS_ES_DATA = {
-  "atualizado_em": "01/09/2026 14:33",
+  "atualizado_em": "01/09/2026 16:36",
   "meses": [
     "Ago/26",
     "Jul/26",
@@ -41,25 +41,17 @@ const VENDAS_ES_DATA = {
   },
   "tipovenda": {
     "WESLEY CARCHENO": "Externo",
-    "ROSENIR RIBEIRO": "Externo",
     "FRANZ BENEVIDES": "Externo",
-    "JOSIETH LIMA": "Externo",
-    "RICARDO CLAUDIO": "Externo",
     "RAQUEL ARAUJO": "Externo",
     "TIAGO SILVA": "Externo",
     "DOUGLAS SCHADE": "Externo",
     "OZISLLAN RAMALHO DE SOUZA": "Externo",
-    "WANDERSON FERREIRA": "Externo",
-    "GILDO ADRIANO": "Externo",
     "JEAN MENEZES": "Externo",
-    "JOAO VICTOR DA ROCHA": "Externo",
-    "ALDICEIA PEIXOTO": "Externo",
     "EUDES MORGAN": "Externo",
     "ENEIVA RODRIGUES": "Externo",
     "CARLOS TERRA": "Externo",
     "BRUNO COSMO": "Externo",
     "MARA DEPOLLI": "Externo",
-    "LUCAS LIMA": "Externo",
     "MARCELO DE SOUZA": "Externo"
   },
   "resumo": {
