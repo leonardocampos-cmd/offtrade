@@ -49,7 +49,16 @@ TOKEN_GMAIL = BASE / "token_gmail.json"
 CACHE_PATH  = BASE / "pedidos_email_cache.json"
 DATA_PATH   = BASE / "agendamento_data.js"
 SCOPES      = ["https://www.googleapis.com/auth/gmail.modify"]
-QUERY       = 'subject:(PEDIDO OR BONIFICAÇÃO OR BONIFICACAO)'
+# Antes filtrava por assunto (subject:(PEDIDO OR BONIFICAÇÃO OR BONIFICACAO))
+# — perdia qualquer e-mail sem essa palavra no assunto, inclusive assunto
+# EM BRANCO (caso real confirmado em 2026-09-01: pedido do cliente 96005/
+# MULTI GUARANI de 21/08, de Angelo Suzart pra Danielle + OFF TRADE Rigarr,
+# assunto vazio — nunca processado, nunca faturado, ninguém percebeu por
+# 11 dias). Filtra por DESTINATÁRIO em vez de assunto — pega todo e-mail
+# endereçado à caixa de pedidos, não importa o assunto. O filtro de
+# SISTEMAS_OK abaixo (CRC4/CRC04) continua sendo a proteção contra
+# processar e-mail sem pedido de verdade.
+QUERY       = 'to:offtrade@rigarr.com.br OR cc:offtrade@rigarr.com.br'
 MAX_RESULTS = 50
 
 # Variações vistas nos assuntos/formulários: "CRC - 04", "CRC-4", "CRC4"...
@@ -604,7 +613,7 @@ def main():
     service = _get_service()
     results = service.users().messages().list(userId='me', q=QUERY, maxResults=MAX_RESULTS).execute()
     messages = results.get('messages', [])
-    print(f"Emails encontrados (assunto PEDIDO/BONIFICAÇÃO): {len(messages)}")
+    print(f"Emails encontrados (destinatário offtrade@rigarr.com.br): {len(messages)}")
 
     novos = 0
     for msg_meta in messages:
