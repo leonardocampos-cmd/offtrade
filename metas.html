@@ -495,8 +495,10 @@
       padding: 2px 7px;
       margin-left: 8px;
     }
-    .tipovend-badge.tv-E { background: rgba(59,130,246,.15); color: #3b82f6; border: 1px solid rgba(59,130,246,.3); }
-    .tipovend-badge.tv-R { background: rgba(245,197,24,.15); color: var(--accent); border: 1px solid rgba(245,197,24,.3); }
+    .tipovend-badge.tv-Externo { background: rgba(59,130,246,.15); color: #3b82f6; border: 1px solid rgba(59,130,246,.3); }
+    .tipovend-badge.tv-Representante { background: rgba(245,197,24,.15); color: var(--accent); border: 1px solid rgba(245,197,24,.3); }
+    .tipovend-badge.tv-Supervisor { background: rgba(168,85,247,.15); color: #a855f7; border: 1px solid rgba(168,85,247,.3); }
+    .tipovend-badge.tv-Gerente { background: rgba(239,68,68,.15); color: #ef4444; border: 1px solid rgba(239,68,68,.3); }
     .campanha-nome {
       font-size: 1rem;
       font-weight: 700;
@@ -2567,12 +2569,13 @@ function _fatOrdenacao(v, mes) {
   return fatM > 0 ? _mv(pm, 'fat_tt', 'realizado') : _fatVendasMes(v.nome, mes);
 }
 
-// TIPOVEND vem da PCUSUARI (Oracle) — E = Vendedor Externo, R = Representante.
-// Outros valores (ex: I) não têm rótulo definido pro time, então não exibe badge.
+// v.tipovend já vem pronto do backend como rótulo (Representante/Externo a
+// partir do TIPOVEND da PCUSUARI, ou Supervisor/Gerente quando o próprio
+// CODUSUR do vendedor está ligado como COD_CADRCA em PCSUPERV/PCGERENTE —
+// alguém que também tem cadastro de vendedor mas cujo papel real é outro).
+// Vazio (ex: Interno/Profissional) não exibe badge.
 function _tipovendBadge(tipovend) {
-  const rotulos = { E: 'Externo', R: 'Representante' };
-  const rotulo = rotulos[tipovend];
-  return rotulo ? `<span class="tipovend-badge tv-${tipovend}">${rotulo}</span>` : '';
+  return tipovend ? `<span class="tipovend-badge tv-${tipovend}">${tipovend}</span>` : '';
 }
 
 function _buildCards(vendedores, mes) {

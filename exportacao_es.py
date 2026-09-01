@@ -288,6 +288,42 @@ _rcas = {
     if pd.notna(row['CODUSUR'])
 }
 
+# ── Papel do vendedor (Representante/Externo/Supervisor/Gerente) ─────────────
+# TIPOVEND (Oracle) só distingue Representante/Externo/Interno/Profissional,
+# mas PCSUPERV/PCGERENTE têm coluna COD_CADRCA que liga o cadastro de
+# supervisor/gerente ao PRÓPRIO cadastro de vendedor dele em PCUSUARI —
+# quando isso acontece, o papel real (Supervisor/Gerente) tem prioridade
+# sobre o TIPOVEND (mesma lógica de exportacao_meta.py/exportacao_sp.py).
+_codusur_es = {
+    int(row['CODUSUR']): row['VENDEDOR']
+    for _, row in _vh[['VENDEDOR', 'CODUSUR']].drop_duplicates().iterrows()
+    if pd.notna(row['CODUSUR'])
+}
+_tipovenda: dict[str, str] = {}
+try:
+    _vc_papel = carregar_dados("""
+        SELECT U.CODUSUR AS CODUSUR, U.TIPOVEND,
+               CASE WHEN G.COD_CADRCA IS NOT NULL THEN 1 ELSE 0 END AS EH_GERENTE,
+               CASE WHEN S.COD_CADRCA IS NOT NULL THEN 1 ELSE 0 END AS EH_SUPERVISOR
+        FROM CRC.PCUSUARI U
+        LEFT JOIN CRC.PCGERENTE G ON G.COD_CADRCA = U.CODUSUR
+        LEFT JOIN CRC.PCSUPERV  S ON S.COD_CADRCA = U.CODUSUR
+        WHERE U.NOME LIKE '%OFF TRADE%' AND U.ESTADO = 'ES'
+    """, engine_es, "es_papel")
+    for _, _row in _vc_papel.iterrows():
+        if pd.isna(_row.get('CODUSUR')):
+            continue
+        _nome = _codusur_es.get(int(_row['CODUSUR']))
+        if not _nome:
+            continue
+        _tv = str(_row.get('TIPOVEND') or '').strip().upper()
+        _papel = 'Gerente' if _row.get('EH_GERENTE') else 'Supervisor' if _row.get('EH_SUPERVISOR') else \
+                 {'R': 'Representante', 'E': 'Externo'}.get(_tv, '')
+        if _papel:
+            _tipovenda[_nome] = _papel
+except Exception as _e:
+    print(f"[AVISO] es_papel falhou ({str(_e)[:100]}) — badge de tipo de venda fica sem dado nesta rodada")
+
 # ── Detalhe de vendas por vendedor/mês ───────────────────────────────────────
 
 _por_vendedor: dict = {}
@@ -354,6 +390,7 @@ payload = {
     'atualizado_em': datetime.now().strftime('%d/%m/%Y %H:%M'),
     'meses':         _meses_str,
     'rcas':          _rcas,
+    'tipovenda':     _tipovenda,
     'resumo':        _resumo,
     'por_vendedor':  _por_vendedor,
 }

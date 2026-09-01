@@ -230,6 +230,37 @@ def _query_sp_corte_parcial(schema, filtra_por_estado):
     """
 
 
+# PAPEL do vendedor (Representante/Externo/Supervisor/Gerente) pro badge em
+# sp.html — mesma lógica de exportacao_meta.py: TIPOVEND (Oracle) só
+# distingue Representante/Externo/Interno/Profissional, mas PCSUPERV/
+# PCGERENTE têm coluna COD_CADRCA que liga o cadastro de supervisor/gerente
+# ao PRÓPRIO cadastro de vendedor dele em PCUSUARI — quando isso acontece, o
+# papel real (Supervisor/Gerente) tem prioridade sobre o TIPOVEND.
+def _papel_de(tipovend, eh_gerente, eh_supervisor):
+    if eh_gerente:
+        return 'Gerente'
+    if eh_supervisor:
+        return 'Supervisor'
+    return {'R': 'Representante', 'E': 'Externo'}.get(str(tipovend or '').strip().upper(), '')
+
+
+def _query_sp_papel(schema, filtra_por_estado):
+    nome_cond = (
+        "(U.NOME = 'W.S' OR (U.NOME LIKE '%OFF TRADE%' AND U.ESTADO = 'SP'))"
+        if filtra_por_estado else
+        "(U.NOME LIKE '%OFF TRADE%' OR U.NOME = 'W.S')"
+    )
+    return f"""
+        SELECT U.CODUSUR AS CODUSUR, U.TIPOVEND,
+               CASE WHEN G.COD_CADRCA IS NOT NULL THEN 1 ELSE 0 END AS EH_GERENTE,
+               CASE WHEN S.COD_CADRCA IS NOT NULL THEN 1 ELSE 0 END AS EH_SUPERVISOR
+        FROM {schema}.PCUSUARI U
+        LEFT JOIN {schema}.PCGERENTE G ON G.COD_CADRCA = U.CODUSUR
+        LEFT JOIN {schema}.PCSUPERV  S ON S.COD_CADRCA = U.CODUSUR
+        WHERE {nome_cond}
+    """
+
+
 _SOURCES_SEM_THEKINGS = [s for s in _SP_SOURCES if s[0] != 'thekings']
 
 
@@ -525,6 +556,20 @@ _codusur_nome = {
     if pd.notna(row['CODUSUR'])
 }
 
+# ── Papel do vendedor (Representante/Externo/Supervisor/Gerente) ─────────────
+_vc_papel = _carregar_extra(_query_sp_papel, _SP_SOURCES, "sp_papel")
+_tipovenda: dict[str, str] = {}
+if not _vc_papel.empty:
+    for _, _row in _vc_papel.iterrows():
+        if pd.isna(_row.get('CODUSUR')):
+            continue
+        _nome = _codusur_nome.get((_row['SISTEMA'], int(_row['CODUSUR'])))
+        if not _nome:
+            continue
+        _papel = _papel_de(_row.get('TIPOVEND'), _row.get('EH_GERENTE'), _row.get('EH_SUPERVISOR'))
+        if _papel:
+            _tipovenda[_nome] = _papel
+
 _realizado_sp: dict = {}
 for _mes_ts in _meses_vh:
     _mes_str = _mes_pt(_mes_ts)
@@ -566,6 +611,7 @@ payload = {
     'atualizado_em': datetime.now().strftime('%d/%m/%Y %H:%M'),
     'meses':         _meses_str,
     'rcas':          _rcas,
+    'tipovenda':     _tipovenda,
     'por_vendedor':  _por_vendedor,
     'metas':         _metas_sp,
     'realizado':     _realizado_sp,

@@ -41,6 +41,14 @@
     .vendor-card:hover { border-color: var(--accent); transform: translateY(-2px); }
     .vendor-name { font-size: .95rem; font-weight: 600; margin-bottom: 2px; }
     .vendor-sub  { font-size: .72rem; color: var(--muted); margin-bottom: 14px; }
+    .tipovend-badge {
+      font-size: 0.65rem; font-weight: 700; text-transform: uppercase;
+      letter-spacing: 0.08em; border-radius: 4px; padding: 2px 7px; margin-left: 8px;
+    }
+    .tipovend-badge.tv-Externo { background: rgba(59,130,246,.15); color: #3b82f6; border: 1px solid rgba(59,130,246,.3); }
+    .tipovend-badge.tv-Representante { background: rgba(245,197,24,.15); color: var(--accent); border: 1px solid rgba(245,197,24,.3); }
+    .tipovend-badge.tv-Supervisor { background: rgba(168,85,247,.15); color: #a855f7; border: 1px solid rgba(168,85,247,.3); }
+    .tipovend-badge.tv-Gerente { background: rgba(239,68,68,.15); color: #ef4444; border: 1px solid rgba(239,68,68,.3); }
     .stat-row { display: flex; justify-content: space-between; align-items: center; padding: 6px 0; border-bottom: 1px solid var(--border); font-size: .82rem; }
     .stat-row:last-of-type { border-bottom: none; }
     .stat-label { color: var(--muted); }
@@ -493,6 +501,15 @@ function _buildResumoGeral(mes) {
   '</div>';
 }
 
+// D.tipovenda[nome] já vem pronto do backend como rótulo (Representante/
+// Externo a partir do TIPOVEND da PCUSUARI, ou Supervisor/Gerente quando o
+// próprio CODUSUR do vendedor está ligado como COD_CADRCA em PCSUPERV/
+// PCGERENTE). Vazio (ex: Interno) não exibe badge.
+function _tipovendBadge(nome) {
+  var papel = D && D.tipovenda && D.tipovenda[nome];
+  return papel ? '<span class="tipovend-badge tv-' + papel + '">' + papel + '</span>' : '';
+}
+
 function _buildVendorCards(mes) {
   if (!D) return '';
   var nomes = Object.keys(D.por_vendedor || {});
@@ -515,7 +532,7 @@ function _buildVendorCards(mes) {
     var nNP    = npList.length;
     var secId  = 'card-np-' + idx;
     return '<div class="vendor-card" data-nome="' + nome.toLowerCase() + '">' +
-      '<div class="vendor-name">' + nome + '</div>' +
+      '<div class="vendor-name">' + nome + _tipovendBadge(nome) + '</div>' +
       '<div class="vendor-sub">' + rca + '</div>' +
       '<div class="stat-row"><span class="stat-label">Faturamento</span>' +
         '<span class="stat-val">' + fmt(fat) + varHtml(fat, ant) + '</span></div>' +
@@ -606,7 +623,7 @@ function renderDetalhe(nome) {
     '<a class="btn" href="clientes_rca.html?estado=ES&rcas=10,200" target="_blank" rel="noopener">&#128230; Novos Clientes</a>';
   document.getElementById('app').innerHTML =
     '<div class="detail-header"><div>' +
-      '<div class="detail-name">' + nome + '</div>' +
+      '<div class="detail-name">' + nome + _tipovendBadge(nome) + '</div>' +
       '<div class="detail-sub">' + (D.rcas && D.rcas[nome] ? 'RCA ' + D.rcas[nome] + ' · ES' : 'ES') + '</div>' +
     '</div>' +
     '<select id="sel-mes-det" class="mes-select" onchange="_atualizarTabela(\'' + nome.replace(/'/g,"\\'") + '\')">' + opts + '</select></div>' +

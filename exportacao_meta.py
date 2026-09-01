@@ -52,9 +52,31 @@ _MAP_RCA_CONFIGS = [
     ("BLENDED",  engine_blended, "map_rca_BLENDED",  "NOME LIKE '%OFF TRADE%' OR NOME LIKE '%W.S%'"),
 ]
 
+# PAPEL do vendedor pro badge de metas.html/sp.html/es.html/mg.html:
+# TIPOVEND (Oracle) só distingue Representante/Externo/Interno/Profissional —
+# não existe "Supervisor"/"Gerente" nesse campo. Mas PCSUPERV/PCGERENTE têm
+# uma coluna COD_CADRCA que liga o cadastro de supervisor/gerente ao PRÓPRIO
+# cadastro de vendedor dele em PCUSUARI (confirmado em 2026-09-01: DANIEL
+# DINIZ, CODUSUR 306, aparece como NOMEGERENTE) — gerente/supervisor tem
+# prioridade sobre TIPOVEND porque descreve melhor o papel real da pessoa.
+def _papel_de(tipovend, eh_gerente, eh_supervisor):
+    if eh_gerente:
+        return 'Gerente'
+    if eh_supervisor:
+        return 'Supervisor'
+    return {'R': 'Representante', 'E': 'Externo'}.get(str(tipovend or '').strip().upper(), '')
+
 _parts_map_rca = []
 _chamadas_map_rca = [
-    (f"SELECT CODUSUR AS RCA, NOME, TIPOVEND FROM {_s}.PCUSUARI WHERE {_extra_f}", _e, _n)
+    (f"""
+        SELECT U.CODUSUR AS RCA, U.NOME, U.TIPOVEND,
+               CASE WHEN G.COD_CADRCA IS NOT NULL THEN 1 ELSE 0 END AS EH_GERENTE,
+               CASE WHEN S.COD_CADRCA IS NOT NULL THEN 1 ELSE 0 END AS EH_SUPERVISOR
+        FROM {_s}.PCUSUARI U
+        LEFT JOIN {_s}.PCGERENTE G ON G.COD_CADRCA = U.CODUSUR
+        LEFT JOIN {_s}.PCSUPERV  S ON S.COD_CADRCA = U.CODUSUR
+        WHERE {_extra_f}
+    """, _e, _n)
     for _s, _e, _n, _extra_f in _MAP_RCA_CONFIGS
 ]
 for (_s, _e, _n, _extra_f), _res in zip(_MAP_RCA_CONFIGS, carregar_paralelo(_chamadas_map_rca)):
@@ -68,6 +90,9 @@ if not _parts_map_rca:
 map_rca = pd.concat(_parts_map_rca, ignore_index=True)
 map_rca = map_rca.drop_duplicates(subset=['RCA'])
 map_rca['RCA'] = pd.to_numeric(map_rca['RCA'], errors='coerce')
+map_rca['PAPEL'] = map_rca.apply(
+    lambda r: _papel_de(r.get('TIPOVEND'), r.get('EH_GERENTE'), r.get('EH_SUPERVISOR')), axis=1
+)
 arquivo['RCA'] = pd.to_numeric(arquivo['RCA'],  errors='coerce')
 
 # Normaliza coluna MÊS do arquivo → "Mar/26"
@@ -89,7 +114,15 @@ _status_rca_falhas: list[str] = []
 def _carregar_status_rca(_s, _e, _n, _extra_f):
     try:
         df = carregar_dados(
-            f"SELECT CODUSUR AS RCA, NOME, TIPOVEND, ESTADO, BLOQUEIO FROM {_s}.PCUSUARI WHERE {_extra_f}",
+            f"""
+                SELECT U.CODUSUR AS RCA, U.NOME, U.TIPOVEND, U.ESTADO, U.BLOQUEIO,
+                       CASE WHEN G.COD_CADRCA IS NOT NULL THEN 1 ELSE 0 END AS EH_GERENTE,
+                       CASE WHEN S.COD_CADRCA IS NOT NULL THEN 1 ELSE 0 END AS EH_SUPERVISOR
+                FROM {_s}.PCUSUARI U
+                LEFT JOIN {_s}.PCGERENTE G ON G.COD_CADRCA = U.CODUSUR
+                LEFT JOIN {_s}.PCSUPERV  S ON S.COD_CADRCA = U.CODUSUR
+                WHERE {_extra_f}
+            """,
             _e, f"{_n}_status",
         )
         df['FONTE'] = _n
@@ -163,6 +196,7 @@ if _parts_status_rca:
         _meses_disponiveis = arquivo['MES_STR'].dropna().unique().tolist()
         _extras = [
             {'RCA': _r['RCA'], 'NOME': _r['NOME'], 'TIPOVEND': _r.get('TIPOVEND'),
+             'PAPEL': _papel_de(_r.get('TIPOVEND'), _r.get('EH_GERENTE'), _r.get('EH_SUPERVISOR')),
              'VENDEDOR': _r['NOME'], 'MES_STR': _mes}
             for _, _r in _rca_sem_meta.iterrows()
             for _mes in _meses_disponiveis
@@ -1019,7 +1053,7 @@ for _, m in metas_com_nome.iterrows():
         vendedores_dict[nome_display] = {
             'nome': nome_display,
             'rca':  str(int(m['RCA'])) if pd.notna(m['RCA']) else '',
-            'tipovend': str(m.get('TIPOVEND') or '').strip().upper(),
+            'tipovend': m.get('PAPEL') or '',
             'por_mes': {},
             'clientes_cadastrados': _cadastros_por_display.get(nome_display, 0),
             'carteira_total': _total_carteira(nome_oracle),
