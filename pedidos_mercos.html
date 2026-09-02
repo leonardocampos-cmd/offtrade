@@ -354,6 +354,7 @@ function _filtrados() {
   const { campo, asc } = _ordem;
   lista = [...lista].sort((a, b) => {
     let va = a[campo], vb = b[campo];
+    if (campo === 'data') { va = _dataISO(va); vb = _dataISO(vb); }
     if (va === null || va === undefined) va = asc ? Infinity : -Infinity;
     if (vb === null || vb === undefined) vb = asc ? Infinity : -Infinity;
     if (typeof va === 'string') { va = va.toLowerCase(); vb = String(vb || '').toLowerCase(); }

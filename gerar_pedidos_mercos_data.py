@@ -354,7 +354,17 @@ def main():
     lista_pedidos = _montar_pedidos(pedido_info)
     _cruzar_com_spon(lista_pedidos)
     _anexar_status_logistica(lista_pedidos)
-    lista_pedidos.sort(key=lambda p: (p["data"], p["numped"]), reverse=True)
+
+    def _data_ordenavel(data_br):
+        # "data" vem como string dd/mm/yyyy (ver _montar_pedidos) — ordenar
+        # a string crua dá prioridade ao dia, ignorando mês/ano (bug real:
+        # "01/09/2026" ordenava ANTES de "31/08/2026" porque "0" < "3",
+        # escondendo pedidos do dia atual no meio da lista em vez do topo).
+        d, _, resto = data_br.partition("/")
+        m, _, a = resto.partition("/")
+        return (a, m, d)
+
+    lista_pedidos.sort(key=lambda p: (_data_ordenavel(p["data"]), p["numped"]), reverse=True)
 
     payload = {
         "atualizado_em": datetime.now().strftime("%d/%m/%Y %H:%M"),
