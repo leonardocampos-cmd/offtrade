@@ -328,8 +328,13 @@ function _escAttr(v) {
   return _esc(v).replace(/'/g, '&#39;');
 }
 
+// "razao_social" aqui é o nome da LOJA com endereço (nome do PDV no Max
+// Promotor, ex: "PREZUNIC - R MIGUEL CERVANTES - 240 - CACHAMBI"), e
+// "fantasia" é a rede/empresa (ex: "PREZUNIC") — nomenclatura invertida do
+// que se espera normalmente. Fantasia na frente (nome útil pra reconhecer
+// de cara) e o endereço entre parênteses — pedido do usuário em 2026-09-02.
 function _clienteLabel(r) {
-  return r.fantasia && r.fantasia !== r.razao_social ? `${r.razao_social} (${r.fantasia})` : (r.razao_social || '');
+  return r.fantasia && r.fantasia !== r.razao_social ? `${r.fantasia} (${r.razao_social})` : (r.razao_social || r.fantasia || '');
 }
 
 // Tarefas tipo CHECK_IN/CHECK_OUT não têm pergunta/resposta de verdade — é
