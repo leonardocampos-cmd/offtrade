@@ -1376,6 +1376,18 @@ function _todosMeses() {
   return [...set].sort((a, b) => _key(b) - _key(a));
 }
 
+// Mês atual (calendário, não o mais recente com meta cadastrada) — pedido
+// do usuário em 2026-09-02: METAS_DATA.meses[0] (usado como default antigo)
+// só lista meses com meta já configurada, que atrasa o mês corrente (ex:
+// 02/09 mostrando Ago/26 porque a meta de Set/26 ainda não foi lançada,
+// mesmo já tendo venda no mês). Só usa o mês atual se ele aparecer em
+// _todosMeses() (teve alguma venda ou meta) — senão cai no fallback antigo.
+function _mesPadrao() {
+  const d = new Date();
+  const atual = `${_MESES_ORD[d.getMonth()]}/${String(d.getFullYear()).slice(2)}`;
+  return _todosMeses().includes(atual) ? atual : null;
+}
+
 // Mês anterior no formato "Mmm/AA" (ex: "Ago/26" -> "Jul/26")
 function _mesAnterior(mes) {
   const [n, a] = mes.split('/');
@@ -2720,7 +2732,7 @@ function filterCards(q) {
   const view   = params.get('view') || 'metas';
   const mesUrl = params.get('mes') || null;
 
-  _mesSel = mesUrl || (METAS_DATA.meses && METAS_DATA.meses[0]) || '';
+  _mesSel = mesUrl || _mesPadrao() || (METAS_DATA.meses && METAS_DATA.meses[0]) || '';
 
   if (rcaParam && !param) {
     const vr = METAS_DATA.vendedores.find(x => String(x.rca) === String(rcaParam));
