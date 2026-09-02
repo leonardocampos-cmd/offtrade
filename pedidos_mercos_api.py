@@ -73,9 +73,11 @@ def _enviar_texto_zapi(instance, token, client_token, numero, mensagem):
     return requests.post(url, json=payload, headers=headers, timeout=20)
 
 
-# send-document/pdf é o padrão documentado publicamente pela Z-API pra anexo
-# PDF (mesma ressalva do send-text: nunca testado contra conta real ainda).
-# "document" aceita o PDF em base64 (sem o prefixo "data:...;base64,").
+# send-document/pdf: "document" precisa do data URI COMPLETO, com o
+# prefixo "data:application/pdf;base64,..." — confirmado 2026-09-02 contra
+# conta real (mandar só o base64 cru, sem prefixo, dava "Base64/Url could
+# not be read" na Z-API). O front-end (pedidos_mercos.html::enviarWhatsapp)
+# já manda com o prefixo; esse parâmetro só repassa pra frente.
 def _enviar_documento_zapi(instance, token, client_token, numero, base64_pdf, nome_arquivo):
     url = f"https://api.z-api.io/instances/{instance}/token/{token}/send-document/pdf"
     headers = {"Client-Token": client_token, "Content-Type": "application/json"}
@@ -91,8 +93,9 @@ def enviar_whatsapp_pedido():
     zapi_instance = str(dados.get("zapi_instance", "")).strip()
     zapi_token    = str(dados.get("zapi_token", "")).strip()
     zapi_client_token = str(dados.get("zapi_client_token", "")).strip()
-    # PDF opcional (base64 sem o prefixo data:..., já extraído no front-end)
-    # — pedido do usuário em 2026-09-01: manda a mensagem E o PDF do pedido.
+    # PDF opcional (data URI completo, COM o prefixo "data:application/pdf;base64,"
+    # — ver comentário de _enviar_documento_zapi) — pedido do usuário em
+    # 2026-09-01: manda a mensagem E o PDF do pedido.
     pdf_base64   = str(dados.get("pdf_base64", "")).strip()
     pdf_filename = str(dados.get("pdf_filename", "")).strip() or "pedido.pdf"
 

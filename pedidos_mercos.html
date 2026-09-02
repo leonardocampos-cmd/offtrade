@@ -580,10 +580,15 @@ async function enviarWhatsapp(numped, btn) {
   btn.disabled = true;
   btn.textContent = '📱 Enviando...';
   try {
-    // datauristring vem como "data:application/pdf;filename=...;base64,XXXX"
-    // — só o pedaço depois de "base64," interessa pra Z-API.
-    const pdfDataUri = _construirPdfPedido(p).output('datauristring');
-    const pdfBase64 = pdfDataUri.slice(pdfDataUri.indexOf('base64,') + 'base64,'.length);
+    // Z-API exige o data URI COMPLETO no campo "document" (com o prefixo
+    // "data:application/pdf;base64,"), não só o base64 puro — confirmado
+    // 2026-09-02 testando contra conta real (a doc oficial do Z-API mostra
+    // o exemplo com o prefixo; mandar só o base64 cru dava "Base64/Url
+    // could not be read"). datauristring vem como
+    // "data:application/pdf;filename=...;base64,XXXX" — troca o bloco
+    // ";filename=...;" por nada, deixando só "data:application/pdf;base64,XXXX".
+    const pdfDataUriBruto = _construirPdfPedido(p).output('datauristring');
+    const pdfBase64 = pdfDataUriBruto.replace(/;filename=[^;]*;/, ';');
     const resp = await fetch('/api/pedidos-mercos/enviar-whatsapp', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
