@@ -258,6 +258,12 @@
         renderSelecao(clientes);
       } else if (clientes.length === 1) {
         renderCliente(clientes[0]);
+      } else if ((resp.data.fontes_indisponiveis || []).length) {
+        // Não dá pra dizer "cliente não cadastrado" se a busca nem
+        // conseguiu consultar todas as fontes — bug real: uma fonte Oracle
+        // instável fazia a busca voltar vazia e a vendedora ia direto pro
+        // fluxo de "solicitar cadastro novo" pra um cliente que já existia.
+        resultado.innerHTML = `<div class="msg msg-error">Não foi possível consultar todas as fontes agora (${esc(resp.data.fontes_indisponiveis.join(', '))} fora do ar) — tente buscar de novo em instantes antes de solicitar um cadastro novo.</div>`;
       } else {
         renderNaoEncontrado(termo);
       }
@@ -329,6 +335,15 @@
 
       resultado.innerHTML = html + cardHtml;
       if (bloqueio) return;
+
+      // Sem os 14 dígitos do CNPJ não dá pra solicitar cadastro (backend
+      // exige) — busca por nome/código sem resultado cai aqui também (bug
+      // real: o botão aparecia mesmo assim e o clique sempre voltava "Dados
+      // incompletos", sem dizer por quê).
+      if (cnpjLimpo.length !== 14) {
+        resultado.innerHTML = html + '<div class="msg msg-warn">Busque pelo CNPJ completo (14 dígitos) do cliente pra poder solicitar o cadastro.</div>';
+        return;
+      }
 
       // ── RCA solicitante ──────────────────────────────────────────────────
       // Vendedor: já sabe quem é (RCA_ATUAL.nome/codusur, vem do login).
@@ -547,7 +562,7 @@
           const wrap = document.createElement('div');
           wrap.className = 'campo-alt';
           const idInput = 'valor-' + campo.replace(/[^a-zA-Z0-9]/g, '');
-          wrap.innerHTML = `<label for="${idInput}">Novo valor — ${esc(campo)}</label><input class="field-input" id="${idInput}" data-campo="${esc(campo)}">`;
+          wrap.innerHTML = `<label for="${idInput}">Novo ${esc(campo)}</label><input class="field-input" id="${idInput}" data-campo="${esc(campo)}">`;
           valoresWrap.appendChild(wrap);
         });
         const btn = document.createElement('button');

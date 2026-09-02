@@ -160,21 +160,37 @@ def _buscar_cliente(busca: str) -> pd.DataFrame:
         params = {"termo": f"%{busca.upper()}%"}
 
     frames = []
+    fontes_falhas = []
     for schema, engine in _FONTES:
-        try:
-            with engine.connect() as conn:
-                df = pd.read_sql(
-                    text(_QUERY_CLIENTE.format(schema=schema, filtro=filtro)),
-                    conn, params=params,
-                )
-            df.columns = df.columns.str.upper()
-            if not df.empty:
-                df["FONTE"] = schema
-                frames.append(df)
-        except Exception:
-            # Uma fonte fora do ar não pode derrubar a busca nas outras.
+        # 2 tentativas por fonte — sem isso, um blip passageiro de conexão
+        # (comum nessas engines Oracle) faz a fonte cair silenciosamente no
+        # except abaixo e o cliente parece "não cadastrado" quando na
+        # verdade só não deu pra consultar (bug real: vendedora viu "cliente
+        # não cadastrado" pra um CNPJ que já existia, bloqueado, e foi
+        # solicitar cadastro novo por engano).
+        df = None
+        ultimo_erro = None
+        for tentativa in range(2):
+            try:
+                with engine.connect() as conn:
+                    df = pd.read_sql(
+                        text(_QUERY_CLIENTE.format(schema=schema, filtro=filtro)),
+                        conn, params=params,
+                    )
+                break
+            except Exception as e:
+                ultimo_erro = e
+                df = None
+        if df is None:
+            print(f"[CLIENTE] {schema} indisponível ({str(ultimo_erro)[:150]}) — ignorado")
+            fontes_falhas.append(schema)
             continue
-    return pd.concat(frames, ignore_index=True) if frames else pd.DataFrame()
+        df.columns = df.columns.str.upper()
+        if not df.empty:
+            df["FONTE"] = schema
+            frames.append(df)
+    resultado = pd.concat(frames, ignore_index=True) if frames else pd.DataFrame()
+    return resultado, fontes_falhas
 
 
 # ── Receita Federal (CNPJ) ──────────────────────────────────────────────────
@@ -633,9 +649,9 @@ def cliente():
     busca = request.args.get("q", "")
     if not busca.strip():
         return {"clientes": []}
-    df = _buscar_cliente(busca)
+    df, fontes_falhas = _buscar_cliente(busca)
     if df.empty:
-        return {"clientes": []}
+        return {"clientes": [], "fontes_indisponiveis": fontes_falhas}
     clientes = []
     for _, r in df.iterrows():
         clientes.append({
