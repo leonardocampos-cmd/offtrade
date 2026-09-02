@@ -31,7 +31,16 @@ load_dotenv(Path(__file__).parent / ".env")
 BASE_URL = "https://app.mercos.com"
 EMPRESA_ID = os.getenv("MERCOS_EMPRESA_ID", "424258")
 
-_STATUS_TODOS_PEDIDOS = "2"  # confirmado nas duas chamadas capturadas
+# "status" da Vendas Detalhadas (painel novo) só aceita 0/1/2 (erro 422 pra
+# qualquer outro valor, confirmado em 2026-09-02) — NÃO é "todos os pedidos"
+# como o nome sugeria antes: 2 = confirmado (o grosso do volume), 0 =
+# cancelado, 1 = outro status raro (visto com Total do pedido = 0, poucas
+# ocorrências). Confirmado comparando contagem de linhas por valor e cruzando
+# pedido 3525 (que só aparece em status=0) com o pedido citado pelo usuário
+# como "cancelado, some da página" em 2026-09-02.
+_STATUS_CONFIRMADO = "2"
+_STATUS_CANCELADO = "0"
+_STATUS_TODOS_PEDIDOS = _STATUS_CONFIRMADO  # nome antigo mantido p/ compat
 
 
 def login() -> requests.Session:
@@ -60,13 +69,14 @@ def login() -> requests.Session:
     return sessao
 
 
-def baixar_vendas_detalhadas(sessao: requests.Session, data_inicial: date, data_final: date) -> bytes:
+def baixar_vendas_detalhadas(sessao: requests.Session, data_inicial: date, data_final: date, status: str = _STATUS_CONFIRMADO) -> bytes:
     """'Vendas detalhadas' — um pedido por linha. Painel novo (React), POST
-    com corpo JSON (achado via interceptação de XHR, 2026-08-31)."""
+    com corpo JSON (achado via interceptação de XHR, 2026-08-31). `status`:
+    ver _STATUS_CONFIRMADO/_STATUS_CANCELADO acima."""
     body = {
         "data_inicial": data_inicial.strftime("%Y-%m-%d"),
         "data_final": data_final.strftime("%Y-%m-%d"),
-        "status": [_STATUS_TODOS_PEDIDOS],
+        "status": [status],
         "tipos_de_pedido_ids": [], "status_custom_ids": [], "representadas_ids": [],
         "equipes_ids": [], "vendedores_ids": [], "plataformas": [], "clientes_ids": [],
         "cidade_cliente": None, "estados_clientes": [], "regioes_clientes": [],
@@ -84,6 +94,15 @@ def baixar_vendas_detalhadas(sessao: requests.Session, data_inicial: date, data_
     )
     resp.raise_for_status()
     return resp.content
+
+
+def baixar_vendas_canceladas(sessao: requests.Session, data_inicial: date, data_final: date) -> bytes:
+    """Mesma 'Vendas detalhadas', só que status=cancelado — só dá pra pegar
+    os campos de cabeçalho do pedido (cliente, vendedor, total, data), não
+    os itens: o relatório "Produtos por pedido" (painel antigo) só aceita
+    status=confirmado, devolve vazio pra qualquer outro valor (confirmado em
+    2026-09-02 — ver gerar_pedidos_mercos_data.py::_carregar_pedidos_cancelados)."""
+    return baixar_vendas_detalhadas(sessao, data_inicial, data_final, status=_STATUS_CANCELADO)
 
 
 def baixar_produtos_por_pedido(sessao: requests.Session, data_inicial: date, data_final: date) -> bytes:

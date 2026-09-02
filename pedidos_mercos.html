@@ -137,6 +137,7 @@
     .status-nao_encontrado { background: rgba(239,68,68,.15); color: var(--red); }
     .status-montado { background: rgba(124,134,255,.15); color: var(--blue); }
     .status-cliente_nao_cadastrado { background: rgba(168,85,247,.18); color: #c084fc; }
+    .status-cancelado { background: rgba(148,163,184,.18); color: var(--muted); text-decoration: line-through; }
     .status-indisponivel { background: var(--card2); color: var(--muted); }
     .spon-info { font-size: .72rem; color: var(--muted); margin-top: 2px; }
     .inadimplente-badge {
@@ -213,6 +214,7 @@
     <option value="montado">Montado (aguardando faturamento)</option>
     <option value="nao_encontrado">Não encontrado no SPON</option>
     <option value="cliente_nao_cadastrado">Cliente não cadastrado no SPON</option>
+    <option value="cancelado">Cancelado no Mercos</option>
   </select>
   <label style="font-size:.78rem;color:var(--muted);display:flex;align-items:center;gap:6px">De
     <input type="date" id="data-de" onchange="aplicarFiltro()">
@@ -259,6 +261,7 @@ const STATUS_LABEL = {
   montado: 'Montado (aguardando faturamento)',
   nao_encontrado: 'Não encontrado no SPON',
   cliente_nao_cadastrado: 'Cliente não cadastrado',
+  cancelado: 'Cancelado no Mercos',
   indisponivel: 'Indisponível',
 };
 
@@ -283,6 +286,7 @@ function montarKpis(lista) {
   const clientes = new Set(lista.map(p => p.cnpj)).size;
   const ticket = totalPedidos ? totalValor / totalPedidos : 0;
   const naoFaturados = lista.filter(p => ['nao_encontrado', 'cliente_nao_cadastrado', 'montado'].includes(p.status_spon)).length;
+  const cancelados = lista.filter(p => p.status_spon === 'cancelado').length;
   document.getElementById('kpis').innerHTML = `
     <div class="kpi">
       <div class="label">Pedidos</div>
@@ -303,6 +307,10 @@ function montarKpis(lista) {
     <div class="kpi">
       <div class="label">Não Faturados no SPON</div>
       <div class="val" style="color:var(--red)">${naoFaturados}</div>
+    </div>
+    <div class="kpi">
+      <div class="label">Cancelados no Mercos</div>
+      <div class="val" style="color:var(--muted)">${cancelados}</div>
     </div>`;
 }
 
@@ -399,7 +407,17 @@ function aplicarFiltro() {
       <td class="cod hide-mob">${(p.numnota_spon || []).join(', ') || '—'}</td>
       <td>${_logisticaBadge(p)}</td>
     </tr>`;
-    if (aberto) {
+    if (aberto && p.status_spon === 'cancelado') {
+      // Cancelado no Mercos não tem itens (a Mercos não devolve produto pra
+      // pedido cancelado, só cabeçalho — ver gerar_pedidos_mercos_data.py)
+      // e nem faz sentido oferecer PDF/WhatsApp de faturamento pra um
+      // pedido que não foi faturado (pedido do usuário em 2026-09-02).
+      html += `<tr class="linha-itens"><td colspan="13"><div class="itens-wrap">
+        <p style="color:var(--muted);font-size:.85rem;padding:8px 4px">
+          Pedido cancelado no Mercos — sem detalhamento de itens disponível (a Mercos não exporta produtos de pedidos cancelados).
+        </p>
+      </div></td></tr>`;
+    } else if (aberto) {
       const cortados = {};
       (p.itens_cortados || []).forEach(ic => { cortados[String(ic.codprod)] = ic; });
       html += `<tr class="linha-itens"><td colspan="13"><div class="itens-wrap">
@@ -670,15 +688,28 @@ function exportarCSV() {
   lista.forEach(p => {
     const cortados = {};
     (p.itens_cortados || []).forEach(ic => { cortados[String(ic.codprod)] = ic; });
+    const linhaBase = [
+      p.numped, p.data, p.cod_vendedor, p.vendedor, _formatCnpj(p.cnpj), p.cliente, p.representada,
+    ];
+    const linhaStatus = [
+      STATUS_LABEL[p.status_spon] || p.status_spon, p.valor_spon ?? '', (p.numped_spon || []).join(' / '),
+      (p.numnota_spon || []).join(' / '), p.status_logistica || '', p.logistica_rota || '',
+    ];
+    if (!(p.itens || []).length) {
+      // Cancelado no Mercos não tem itens — ainda assim entra no CSV com
+      // uma linha só (senão sumia do export inteiro).
+      linhas.push([...linhaBase, '', '(pedido cancelado, sem itens)', '', '', p.subtotal_pedido, '', '', ...linhaStatus]
+        .map(v => `"${String(v??'').replace(/"/g,'""')}"`).join(';'));
+      return;
+    }
     (p.itens || []).forEach(it => {
       const ic = cortados[String(it.codprod)];
       const temComparacao = STATUS_COM_COMPARACAO.includes(p.status_spon);
       linhas.push([
-        p.numped, p.data, p.cod_vendedor, p.vendedor, _formatCnpj(p.cnpj), p.cliente, p.representada,
+        ...linhaBase,
         it.codprod, it.descricao, it.qt, it.preco_liquido, it.subtotal,
         ic ? ic.qt_faturada : (temComparacao ? it.qt : ''), ic ? ic.qt_cortada : (temComparacao ? 0 : ''),
-        STATUS_LABEL[p.status_spon] || p.status_spon, p.valor_spon ?? '', (p.numped_spon || []).join(' / '),
-        (p.numnota_spon || []).join(' / '), p.status_logistica || '', p.logistica_rota || '',
+        ...linhaStatus,
       ].map(v => `"${String(v??'').replace(/"/g,'""')}"`).join(';'));
     });
   });

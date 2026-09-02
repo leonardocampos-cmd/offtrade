@@ -13,6 +13,15 @@ qualquer relatorio*.xls / "Vendas detalhadas.xls" que ja exista em
 MERCOS_EXPORTS_DIR) — sync_mercos_exports_vps.py fica sem uso na pratica,
 mas nao foi removido.
 
+Pedidos cancelados no Mercos (bug reportado pelo usuario em 2026-09-02:
+sumiam da pagina inteiros) tambem sao baixados, a parte — ver
+_carregar_pedidos_cancelados e mercos_api.py::baixar_vendas_canceladas. So
+da pra pegar cabecalho (cliente/valor/vendedor), sem itens: o relatorio de
+produtos so devolve pedido confirmado. Cancelamento do lado do Winthor
+(pedido chegou a ganhar NUMPED no SPON e foi cancelado/apagado de la depois)
+e um caso DIFERENTE, ainda sem fonte de dado disponivel (PCPEDCAN, a tabela
+de cancelamento do Winthor, esta vazia nessa base — nao e usada).
+
 Rodando na VPS (cron, OFFTRADE_RUNTIME=vps): se autopublica direto em
 /opt/offtrade-static (mesmo padrao de exportacao_meta.py::_publicar_static).
 
@@ -40,6 +49,7 @@ _EXPORTS_DIR = os.getenv(
 )
 PRODUTOS_GLOB = os.path.join(_EXPORTS_DIR, "relatorio*.xls")
 VENDAS_PATH = os.path.join(_EXPORTS_DIR, "Vendas detalhadas.xls")
+VENDAS_CANCELADAS_PATH = os.path.join(_EXPORTS_DIR, "Vendas detalhadas - cancelados.xls")
 OUT_JS = str(Path(__file__).parent / "pedidos_mercos_data.js")
 
 # Canal W.S/Mercos comecou em 19/11/2025 (confirmado em 2026-08-27 apos
@@ -86,7 +96,17 @@ def _baixar_exports_automatico():
             with open(caminho, "wb") as f:
                 f.write(conteudo)
 
-        print(f"OK - exports da Mercos baixados automaticamente ({len(partes)} parte(s) de produtos, {len(vendas_bytes)} bytes de vendas)")
+        # Pedidos cancelados no Mercos somem do relatório "Produtos por
+        # pedido" (só aceita status=confirmado) e da "Vendas detalhadas"
+        # normal (status=confirmado também) — ficavam invisíveis na página
+        # inteiros (bug reportado pelo usuário em 2026-09-02, ex: pedido
+        # 3525). Busca à parte, só cabeçalho (sem itens, ver
+        # _carregar_pedidos_cancelados).
+        canceladas_bytes = mercos_api.baixar_vendas_canceladas(sessao, data_ini, hoje)
+        with open(VENDAS_CANCELADAS_PATH, "wb") as f:
+            f.write(canceladas_bytes)
+
+        print(f"OK - exports da Mercos baixados automaticamente ({len(partes)} parte(s) de produtos, {len(vendas_bytes)} bytes de vendas, {len(canceladas_bytes)} bytes de cancelados)")
         return True
     except Exception as e:
         print(f"[AVISO] download automatico da Mercos falhou ({str(e)[:150]}) — usando exports existentes, se houver.")
@@ -106,6 +126,52 @@ def _carregar_pedido_info():
         }
         for _, row in vd_data.iterrows()
     }
+
+
+def _carregar_pedidos_cancelados():
+    """Monta um "pedido" (mesmo formato de _montar_pedidos, pra caber na
+    mesma tabela/filtros do front-end) pra cada linha de
+    VENDAS_CANCELADAS_PATH — só dá pra preencher cabeçalho (cliente, valor,
+    vendedor), sem itens: o relatório de itens não devolve nada pra pedido
+    cancelado (ver mercos_api.py::baixar_vendas_canceladas). status_spon
+    fica "cancelado", um status novo, à parte do cruzamento com o SPON (esses
+    pedidos nunca chegam lá). Best-effort: se o arquivo nao existe (fallback
+    manual sem esse export, ou download automatico falhou), devolve lista
+    vazia — cancelados simplesmente nao aparecem, igual antes."""
+    if not os.path.exists(VENDAS_CANCELADAS_PATH):
+        return []
+    try:
+        vd = pd.read_excel(VENDAS_CANCELADAS_PATH, header=None)
+        header_idx = vd[vd[0] == "Data de emissão"].index[0]
+        vd_data = vd.iloc[header_idx + 1:].copy()
+        vd_data.columns = vd.iloc[header_idx]
+        vd_data = vd_data.dropna(subset=["Pedido"])
+    except Exception as e:
+        print(f"[AVISO] Vendas detalhadas (cancelados) indisponivel ({str(e)[:100]}) — pedidos cancelados nao aparecem")
+        return []
+
+    cancelados = []
+    for _, row in vd_data.iterrows():
+        criador = str(row["Vendedor(a)"]) if pd.notna(row["Vendedor(a)"]) else ""
+        cod_vend, _, nome_vend = criador.partition(" - ")
+        cancelados.append({
+            "numped": str(int(row["Pedido"])),
+            "data": str(row["Data de emissão"]),
+            "cod_vendedor": cod_vend.strip(),
+            "vendedor": nome_vend.strip(),
+            "cnpj": str(row["CNPJ/CPF"]),
+            "cliente": row["Razão Social"] if pd.notna(row["Razão Social"]) else row["Nome Fantasia"],
+            "representada": row["Representada"],
+            "itens": [],
+            "subtotal_pedido": round(float(row["Total do pedido"]), 2) if pd.notna(row["Total do pedido"]) else 0.0,
+            "qt_pedido": 0,
+            "status_spon": "cancelado",
+            "valor_spon": None,
+            "numped_spon": [],
+            "numnota_spon": [],
+            "itens_cortados": [],
+        })
+    return cancelados
 
 
 def _listar_arquivos_produtos():
@@ -425,6 +491,18 @@ def main():
     lista_pedidos = _montar_pedidos(pedido_info)
     _cruzar_com_spon(lista_pedidos)
     _anexar_status_logistica(lista_pedidos)
+
+    # Cancelados entram DEPOIS do cruzamento com o SPON (eles nunca chegam
+    # lá — _cruzar_com_spon ia sobrescrever o status_spon="cancelado" pra
+    # "nao_encontrado") e DEPOIS de _anexar_status_logistica (que também
+    # itera lista_pedidos inteira; cancelado não tem nota, fica só com os
+    # campos de logística vazios, que é o esperado).
+    numpeds_existentes = {p["numped"] for p in lista_pedidos}
+    cancelados = [c for c in _carregar_pedidos_cancelados() if c["numped"] not in numpeds_existentes]
+    if cancelados:
+        print(f"{len(cancelados)} pedido(s) cancelado(s) no Mercos incluido(s)")
+    lista_pedidos += cancelados
+
     _anexar_inadimplencia(lista_pedidos)
 
     def _data_ordenavel(data_br):
