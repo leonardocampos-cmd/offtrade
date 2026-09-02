@@ -139,6 +139,11 @@
     .status-cliente_nao_cadastrado { background: rgba(168,85,247,.18); color: #c084fc; }
     .status-indisponivel { background: var(--card2); color: var(--muted); }
     .spon-info { font-size: .72rem; color: var(--muted); margin-top: 2px; }
+    .inadimplente-badge {
+      display: inline-block; margin-left: 6px; font-weight: 700; font-size: .68rem;
+      padding: 1px 7px; border-radius: 20px; white-space: nowrap;
+      background: rgba(239,68,68,.18); color: var(--red); border: 1px solid rgba(239,68,68,.4);
+    }
     tr.item-cortado td { background: rgba(249,115,22,.08); }
 
     .btn {
@@ -385,7 +390,7 @@ function aplicarFiltro() {
       <td class="cod">#${_esc(p.numped)}</td>
       <td><span class="rca-badge">${_esc(p.cod_vendedor)} - ${_esc(p.vendedor)}</span></td>
       <td class="cod hide-mob">${_formatCnpj(p.cnpj)}</td>
-      <td>${_esc(p.cliente)}</td>
+      <td>${_esc(p.cliente)}${_inadimplenteBadge(p)}</td>
       <td class="hide-mob">${_esc(p.representada)}</td>
       <td>${_qt(p.qt_pedido)}</td>
       <td class="valor">${brl(p.subtotal_pedido)}</td>
@@ -419,6 +424,16 @@ function aplicarFiltro() {
     }
     return html;
   }).join('');
+}
+
+// Cruzado em gerar_pedidos_mercos_data.py (CNPJ do pedido -> CODCLI no SPON
+// -> titulo vencido em aberto de inadimplencia_data.js) — pedido do usuário
+// em 2026-09-02, pra ver na hora de mandar pedido/cobrança se o cliente já
+// está devendo.
+function _inadimplenteBadge(p) {
+  if (!p.inadimplente) return '';
+  const titulo = `${p.inadimplencia_qtd_titulos} título(s) vencido(s), ${p.inadimplencia_dias_atraso}d de atraso`;
+  return `<span class="inadimplente-badge" title="${_escAttr(titulo)}">⚠️ Inadimplente ${brl(p.inadimplencia_valor)}</span>`;
 }
 
 function _statusBadge(p) {

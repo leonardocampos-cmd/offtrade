@@ -295,6 +295,77 @@ def _cruzar_com_spon(lista_pedidos):
                     p["status_spon"] = "cliente_nao_cadastrado"
 
 
+def _carregar_inadimplencia_por_codcli():
+    """Le inadimplencia_data.js (gerado por exportacao_inadimplencia.py, mesmo
+    diretorio — local ou VPS, escrita atomica igual a esse script) e devolve
+    so os titulos do sistema SPON (unico sistema que da pra cruzar por CODCLI
+    aqui, ver _anexar_inadimplencia), somados por CODCLI. Best-effort: se o
+    arquivo nao existe ainda ou os dois pipelines rodaram fora de ordem,
+    simplesmente nao marca ninguem como inadimplente (mesmo padrao de
+    _carregar_status_logistica)."""
+    caminho = Path(__file__).parent / "inadimplencia_data.js"
+    if not caminho.exists():
+        return {}
+    try:
+        texto = caminho.read_text(encoding="utf-8")
+        payload = json.loads(texto[texto.index("=") + 1: texto.rindex(";")])
+    except Exception as e:
+        print(f"[AVISO] inadimplencia_data.js indisponivel pra cruzar com pedidos_mercos ({str(e)[:100]}) — ignorado")
+        return {}
+    por_codcli = {}
+    for vend in payload.get("vendedores") or []:
+        for t in vend.get("titulos") or []:
+            if t.get("sistema") != "SPON" or not t.get("codcli"):
+                continue
+            acumulado = por_codcli.setdefault(t["codcli"], {"valor_aberto": 0.0, "qtd_titulos": 0, "dias_atraso_max": 0})
+            acumulado["valor_aberto"] += float(t.get("valor_aberto") or 0)
+            acumulado["qtd_titulos"] += 1
+            acumulado["dias_atraso_max"] = max(acumulado["dias_atraso_max"], int(t.get("dias_atraso") or 0))
+    for v in por_codcli.values():
+        v["valor_aberto"] = round(v["valor_aberto"], 2)
+    return por_codcli
+
+
+def _anexar_inadimplencia(lista_pedidos):
+    """Marca cada pedido com inadimplencia = titulo vencido em aberto do
+    MESMO cliente (por CNPJ) no SPON — pedido do usuario em 2026-09-02, pra
+    ver na hora de mandar o pedido/cobranca se o cliente esta devendo.
+    Resolve CODCLI a partir do CNPJ (a mesma tecnica de "cliente nao
+    cadastrado" acima, so que pra todos os pedidos, nao so os nao
+    encontrados no SPON — o titulo em aberto existe independente do pedido
+    do Mercos ja ter sido faturado ou nao)."""
+    cnpjs_unicos = sorted({p["cnpj"] for p in lista_pedidos if p.get("cnpj")})
+    if not cnpjs_unicos:
+        return
+    TAMANHO_LOTE = 900
+    cnpj_para_codcli = {}
+    for inicio in range(0, len(cnpjs_unicos), TAMANHO_LOTE):
+        lote = cnpjs_unicos[inicio:inicio + TAMANHO_LOTE]
+        cnpjs_sql = ",".join(f"'{c}'" for c in lote)
+        query_codcli = f"""
+            SELECT DISTINCT REGEXP_REPLACE(CGCENT, '[^0-9]', '') AS CNPJ_LIMPO, CODCLI
+            FROM SPON.PCCLIENT
+            WHERE REGEXP_REPLACE(CGCENT, '[^0-9]', '') IN ({cnpjs_sql})
+        """
+        try:
+            df_codcli = carregar_dados(query_codcli, engine_spon, "spon_cnpj_codcli")
+            df_codcli.columns = df_codcli.columns.str.upper()
+            for _, row in df_codcli.iterrows():
+                cnpj_para_codcli[row["CNPJ_LIMPO"]] = str(int(row["CODCLI"]))
+        except Exception as e:
+            print(f"[AVISO] resolucao de CODCLI por CNPJ indisponivel ({str(e)[:100]}) — pedidos ficam sem inadimplencia")
+            return
+
+    inadimplencia_por_codcli = _carregar_inadimplencia_por_codcli()
+    for p in lista_pedidos:
+        codcli = cnpj_para_codcli.get(p["cnpj"])
+        info = inadimplencia_por_codcli.get(codcli) if codcli else None
+        p["inadimplente"] = info is not None
+        p["inadimplencia_valor"] = info["valor_aberto"] if info else None
+        p["inadimplencia_qtd_titulos"] = info["qtd_titulos"] if info else None
+        p["inadimplencia_dias_atraso"] = info["dias_atraso_max"] if info else None
+
+
 def _carregar_status_logistica():
     """Le logistica_por_nf de pedidos_data.js (gerado por pedidos.py, mesmo
     diretorio — local ou VPS) e devolve so as entradas SPON, por numnota."""
@@ -354,6 +425,7 @@ def main():
     lista_pedidos = _montar_pedidos(pedido_info)
     _cruzar_com_spon(lista_pedidos)
     _anexar_status_logistica(lista_pedidos)
+    _anexar_inadimplencia(lista_pedidos)
 
     def _data_ordenavel(data_br):
         # "data" vem como string dd/mm/yyyy (ver _montar_pedidos) — ordenar
