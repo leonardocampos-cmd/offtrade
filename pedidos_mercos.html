@@ -409,31 +409,25 @@ function aplicarFiltro() {
       <td class="cod hide-mob">${(p.numnota_spon || []).join(', ') || '—'}</td>
       <td>${_logisticaBadge(p)}</td>
     </tr>`;
-    if (aberto && p.status_spon === 'cancelado') {
-      // Cancelado no Mercos não tem itens (a Mercos não devolve produto pra
-      // pedido cancelado, só cabeçalho — ver gerar_pedidos_mercos_data.py)
-      // e nem faz sentido oferecer PDF/WhatsApp de faturamento pra um
-      // pedido que não foi faturado (pedido do usuário em 2026-09-02).
-      html += `<tr class="linha-itens"><td colspan="13"><div class="itens-wrap">
-        <p style="color:var(--muted);font-size:.85rem;padding:8px 4px">
-          Pedido cancelado no Mercos — sem detalhamento de itens disponível (a Mercos não exporta produtos de pedidos cancelados).
-        </p>
-      </div></td></tr>`;
-    } else if (aberto) {
+    if (aberto) {
       const cortados = {};
       (p.itens_cortados || []).forEach(ic => { cortados[String(ic.codprod)] = ic; });
-      // Cancelado no SPON tem itens de verdade (ver PEDIDOS_CANCELADOS em
-      // gerar_pedidos_mercos_data.py), mas não faz sentido oferecer
-      // PDF/WhatsApp de faturamento pra um pedido cancelado (mesmo motivo
-      // do "cancelado no Mercos" acima).
-      const acoes = p.status_spon === 'cancelado_spon'
-        ? `<p style="color:var(--muted);font-size:.85rem;padding:0 4px 8px">Pedido cancelado no SPON (Winthor)${p.motivo_cancelamento ? ' — motivo: ' + _esc(p.motivo_cancelamento) : ''}.${p.cliente === 'Cliente não identificado' ? ' Cliente não identificado (a fonte desse dado no Winthor não guarda o cliente).' : ''}</p>`
-        : `<div class="itens-acoes">
+      // PDF/WhatsApp também disponíveis pra pedido cancelado (pedido do
+      // usuário em 2026-09-02) — _mensagemFaturamento/_construirPdfPedido já
+      // tratam status_spon cancelado/cancelado_spon com texto próprio (não
+      // fala em "faturado" pra um pedido cancelado).
+      let aviso = '';
+      if (p.status_spon === 'cancelado') {
+        aviso = `<p style="color:var(--muted);font-size:.85rem;padding:0 4px 8px">Pedido cancelado no Mercos — sem detalhamento de itens disponível (a Mercos não exporta produtos de pedidos cancelados).</p>`;
+      } else if (p.status_spon === 'cancelado_spon') {
+        aviso = `<p style="color:var(--muted);font-size:.85rem;padding:0 4px 8px">Pedido cancelado no SPON (Winthor)${p.motivo_cancelamento ? ' — motivo: ' + _esc(p.motivo_cancelamento) : ''}.${p.cliente === 'Cliente não identificado' ? ' Cliente não identificado (a fonte desse dado no Winthor não guarda o cliente).' : ''}</p>`;
+      }
+      html += `<tr class="linha-itens"><td colspan="13"><div class="itens-wrap">
+        ${aviso}
+        <div class="itens-acoes">
           <button class="btn-acao" onclick="event.stopPropagation(); gerarPdfPedido('${_escAttr(p.numped)}')">📄 Gerar PDF</button>
           <button class="btn-acao whatsapp" onclick="event.stopPropagation(); enviarWhatsapp('${_escAttr(p.numped)}', this)">📱 Enviar WhatsApp</button>
-        </div>`;
-      html += `<tr class="linha-itens"><td colspan="13"><div class="itens-wrap">
-        ${acoes}
+        </div>
         <table><thead><tr><th>Código</th><th>Produto</th><th>Qtd</th><th>Preço Líquido</th><th>Subtotal</th><th>Faturado no SPON</th></tr></thead><tbody>
         ${(p.itens || []).map(it => {
           const ic = cortados[String(it.codprod)];
@@ -538,10 +532,18 @@ function toggleItens(numped) {
 // Mensagem curta de aviso de faturamento (pedido do usuário em 2026-09-01:
 // "Olá (vendedor) seu pedido (numero) foi faturado e houve os seguintes
 // cortes (se houver)") — os detalhes completos item a item vão só no PDF
-// anexado, não nessa mensagem.
+// anexado, não nessa mensagem. Pedido cancelado (Mercos ou SPON) usa texto
+// próprio — "foi faturado" ficaria errado (pedido do usuário em 2026-09-02:
+// PDF/WhatsApp também disponíveis pra pedido cancelado).
 function _mensagemFaturamento(p) {
-  const nomeVendedor = p.vendedor || p.cod_vendedor;
-  const linhas = [`Olá ${nomeVendedor}, seu pedido #${p.numped} foi faturado.`];
+  const nomeVendedor = p.vendedor || p.cod_vendedor || '';
+  const saudacao = nomeVendedor ? `Olá ${nomeVendedor}, ` : 'Olá, ';
+  if (p.status_spon === 'cancelado' || p.status_spon === 'cancelado_spon') {
+    const motivo = p.motivo_cancelamento ? ` Motivo: ${p.motivo_cancelamento}.` : '';
+    const onde = p.status_spon === 'cancelado_spon' ? 'no sistema (SPON/Winthor)' : 'no Mercos';
+    return `${saudacao}o pedido #${p.numped} foi CANCELADO ${onde}.${motivo}`;
+  }
+  const linhas = [`${saudacao}seu pedido #${p.numped} foi faturado.`];
   const cortados = _cortadosPorCodigo(p);
   const itensCortados = (p.itens || []).filter(it => cortados[String(it.codprod)]);
   if (itensCortados.length) {
