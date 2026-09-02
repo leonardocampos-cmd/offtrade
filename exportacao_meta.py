@@ -276,12 +276,14 @@ def _query_vendas_historico(schema, filtro_filial="(1, 2, 4)", filtro_estent=Non
             U.CODUSUR                       AS RCA,
             U.NOME                          AS NOME_ORACLE,
             {offtrade_col}                  AS OFFTRADE,
-            CASE WHEN M.CODOPER = 'ED' OR M.NUMNOTADEV IS NOT NULL THEN 'S' ELSE 'N' END AS DEVOLVIDO
+            CASE WHEN M.CODOPER = 'ED' OR M.NUMNOTADEV IS NOT NULL THEN 'S' ELSE 'N' END AS DEVOLVIDO,
+            DEV.MOTIVO                      AS MOTIVO_DEVOLUCAO
         FROM {s}.PCMOV M
         JOIN {s}.PCUSUARI U ON M.CODUSUR = U.CODUSUR
         LEFT JOIN {s}.PCCLIENT C ON M.CODCLI = C.CODCLI
         JOIN {s}.PCPRODUT P ON M.CODPROD = P.CODPROD
         JOIN {s}.PCFORNEC F ON P.CODFORNEC = F.CODFORNEC
+        LEFT JOIN {s}.PCTABDEV DEV ON DEV.CODDEVOL = M.CODDEVOL
         WHERE M.DTMOV >= ADD_MONTHS(TRUNC(SYSDATE, 'MM'), -5)
           AND M.CODOPER IN ('S', 'SB', 'ED')
           AND M.DTCANCEL IS NULL
@@ -1160,6 +1162,12 @@ for _, row in _vh.iterrows():
         # PEDIDOS_CANCELADOS — cobre o caso de devolução com motivo real
         # registrado lá (ver comentário em _motivo_pre_nf_por_pedido_produto).
         'motivo':  _motivo_pre_nf_por_pedido_produto.get((_numped_vh, _codprod_vh), ''),
+        # Motivo da linha DEVOLVIDA de verdade (CODOPER='ED', pós-NF — mercadoria
+        # saiu, cliente devolveu depois), via PCMOV.CODDEVOL -> PCTABDEV.MOTIVO
+        # (ex: "CLIENTE SEM DINHEIRO") — pedido do usuário em 2026-09-02, NF
+        # 427539/ADEILSON GONÇALVEZ. Campo DIFERENTE de 'motivo' acima (aquele é
+        # corte ANTES de faturar, este é devolução DEPOIS de faturar).
+        'motivo_devolucao': str(row.get('MOTIVO_DEVOLUCAO') or '').strip(),
     })
 
 # Mescla os itens de cancelado/corte parcial (não vêm de _vh/PCMOV — ver bloco

@@ -1102,6 +1102,7 @@ function abrirDetalhesPedido(idx) {
         ${it.cancelado ? ' <span style="font-size:.6rem;color:#ef4444;font-weight:700">CANCELADO</span>' : ''}
         ${it.cancelado_parcial ? ' <span style="font-size:.6rem;color:#f97316;font-weight:700">CORTE</span>' : ''}
         ${it.motivo ? `<div style="font-size:.68rem;color:var(--muted)">Motivo: ${it.motivo}</div>` : ''}
+        ${it.motivo_devolucao ? `<div style="font-size:.68rem;color:#a855f7">Motivo da devolução: ${it.motivo_devolucao}</div>` : ''}
       </td>
       <td style="color:var(--muted);white-space:nowrap">${it.fantasia || '—'}</td>
       <td style="text-align:right">${Number(it.qt).toLocaleString('pt-BR')}</td>
