@@ -53,6 +53,7 @@ PIPELINE_FILES = [
     "login_api_watchdog.py",
     "gerar_pedidos_mercos_data.py",
     "gerar_estoque_mercos_spon_data.py",
+    "mercos_api.py",
     "requirements.txt",
     "metas_config.json",
     "canhoto_status.json",
