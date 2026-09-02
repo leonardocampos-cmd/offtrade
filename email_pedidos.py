@@ -14,9 +14,15 @@ Fluxo:
   1. Autentica Gmail (token_gmail.json gerado por gmail_setup.py)
   2. Busca emails novos (não vistos em pedidos_email_cache.json)
   3. Extrai blocos de pedido/bonificação (tabela HTML ou imagem via OpenAI)
-  4. Acumula em pedidos_email_cache.json (fonte de verdade, cresce com o tempo)
-  5. Cruza cod_cliente+cod_prod de todos os blocos acumulados com o Oracle
-  6. Faz merge no agendamento_data.js (aba "comparativo"), sem sobrescrever
+  4. Se achou pelo menos 1 bloco CRC-4, extrai TAMBÉM do texto livre do corpo
+     (fora de tabela/imagem) uma eventual data de agendamento de entrega e
+     observações importantes pra logística (embalagem, horário de
+     recebimento, taxas etc — pedido do usuário em 2026-09-02, ver
+     _extrair_agendamento_email) — isso é diferente do campo OBS de cada
+     bloco (que vem do FORMULÁRIO/imagem, não do corpo do e-mail em volta)
+  5. Acumula em pedidos_email_cache.json (fonte de verdade, cresce com o tempo)
+  6. Cruza cod_cliente+cod_prod de todos os blocos acumulados com o Oracle
+  7. Faz merge no agendamento_data.js (aba "comparativo"), sem sobrescrever
      a aba "agendamentos" gerada por exportacao_agendamento.py
 """
 import base64
@@ -297,6 +303,73 @@ def _parse_imagem_pedido(png_bytes: bytes) -> dict | None:
         return None
 
 
+# ── Parsing: texto livre do corpo (data de agendamento + observações) ─────────
+# Pedido do usuário em 2026-09-02: o texto do PRÓPRIO e-mail (fora de
+# tabela/imagem de pedido, que já tem parser dedicado acima) às vezes pede uma
+# data de entrega ("Entrega agendada para amanhã dia 03/09/2026") e traz
+# observações importantes pra logística (embalagem, horário de recebimento,
+# taxa de descarga por pallet etc — ex real: e-mail "PEDIDO CRC 4 - Barra
+# Oeste" de 02/09/2026). Isso nunca foi capturado: o parser de imagem só lê o
+# formulário colado (campo OBS dele, se tiver), não o corpo do e-mail em volta.
+
+_PROMPT_AGENDAMENTO_EMAIL = """O texto abaixo é o corpo de um e-mail que pede faturamento e/ou agendamento de entrega de pedido(s) da CRC filial 4. Tabelas/imagens de produtos já foram removidas — isso é só o texto livre ao redor. Extraia em JSON, respondendo APENAS o JSON:
+
+{{
+  "data_agendamento": "data de entrega solicitada, formato DD/MM/AAAA, ou \\"\\" se o texto não pedir uma data específica",
+  "observacoes": "instruções/observações importantes pra logística (embalagem, horário de recebimento, taxas de descarga etc), texto corrido resumido mas completo, ou \\"\\" se não houver nada além de saudação/despedida"
+}}
+
+Regras:
+- Se o texto disser "amanhã", "hoje" etc. em vez de uma data, calcule a data real a partir da data de envio informada abaixo.
+- Não invente informação que não está no texto.
+
+Data de envio do e-mail: {data_email}
+
+Texto do e-mail:
+\"\"\"
+{corpo}
+\"\"\""""
+
+
+def _texto_email(html_parts: list) -> str:
+    """Texto legível (sem tags) de todas as partes HTML do e-mail, concatenadas
+    — é sobre ISSO que _extrair_agendamento_email procura data/observações,
+    não sobre o formulário/imagem de pedido (parser à parte)."""
+    textos = []
+    for html in html_parts:
+        textos.append(BeautifulSoup(html, "html.parser").get_text("\n", strip=True))
+    return "\n".join(textos).strip()
+
+
+def _extrair_agendamento_email(corpo: str, data_email: str) -> dict:
+    """Só chama a OpenAI se já tem pelo menos 1 bloco CRC-4 reconhecido no
+    e-mail (quem chama decide isso) — não vale gastar em e-mail irrelevante.
+    Best-effort: qualquer falha (API fora, JSON inválido) devolve campos
+    vazios em vez de derrubar o processamento do e-mail inteiro."""
+    if not corpo or len(corpo) < 15:
+        return {"data_agendamento": "", "observacoes": ""}
+    from openai import OpenAI
+    client = OpenAI()
+    try:
+        resp = client.chat.completions.create(
+            model=os.getenv("OPENAI_TEXT_MODEL", "gpt-4o-mini"),
+            messages=[{
+                "role": "user",
+                "content": _PROMPT_AGENDAMENTO_EMAIL.format(data_email=data_email, corpo=corpo[:4000]),
+            }],
+            response_format={"type": "json_object"},
+            temperature=0,
+        )
+        d = json.loads(resp.choices[0].message.content)
+        return {
+            "data_agendamento": str(d.get("data_agendamento") or "").strip(),
+            "observacoes": str(d.get("observacoes") or "").strip(),
+        }
+    except Exception as e:
+        print(f"  [AVISO] extração de agendamento/observações do corpo do e-mail falhou: {str(e)[:120]}")
+        return {"data_agendamento": "", "observacoes": ""}
+
+
 # ── Comparativo com Oracle (crc.PBI_PCPEDI) ───────────────────────────────────
 
 def _nfs_agendamento() -> set:
@@ -575,6 +648,8 @@ def _construir_comparativo(cache: dict) -> list:
                 'bonificacao':  _to_bool(bloco.get('bonificacao')),
                 'prazo':        bloco.get('prazo', ''),
                 'obs':          bloco.get('obs', ''),
+                'email_data_agendamento': msg.get('email_data_agendamento', ''),
+                'email_observacoes':      msg.get('email_observacoes', ''),
                 'itens':        itens_out,
             })
 
@@ -660,7 +735,15 @@ def main():
         else:
             print(f"  '{subject}': nenhum bloco CRC-4 reconhecido — ignorado")
 
-        cache[msg_id] = {'subject': subject, 'data_email': data_email, 'blocos': blocos_crc4}
+        agendamento_email = {"data_agendamento": "", "observacoes": ""}
+        if blocos_crc4:
+            agendamento_email = _extrair_agendamento_email(_texto_email(partes['html_parts']), data_email)
+
+        cache[msg_id] = {
+            'subject': subject, 'data_email': data_email, 'blocos': blocos_crc4,
+            'email_data_agendamento': agendamento_email['data_agendamento'],
+            'email_observacoes':      agendamento_email['observacoes'],
+        }
 
         # Salva a cada e-mail (não só no final) — cada imagem já custou uma
         # chamada à OpenAI, então uma interrupção/timeout no meio do lote não
