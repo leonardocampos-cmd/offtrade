@@ -207,25 +207,38 @@ _NUMPED_MAX_WS = _NUMPED_MIN_WS + 999_999
 
 def _carregar_cancelados_spon():
     """Pedidos que chegaram a ganhar NUMPED no SPON (passaram pela
-    integração Mercos->Winthor) e foram cancelados LÁ — acham-se em
-    SPON.PEDIDOS_CANCELADOS, achada em 2026-09-02 investigando 2 exemplos
-    que o usuário deu (eram NUMPED do SPON, não número de pedido do Mercos —
-    provavelmente é a fonte da Rotina 335 do Winthor). Diferente de
-    _carregar_pedidos_cancelados (cancelado do lado do Mercos): esse tem
-    item/valor/motivo/quem cancelou, mas NENHUMA tabela do Winthor que
-    cruza com ela pelo NUMPED tem CODCLI — cliente fica "não identificado".
-    status_spon = "cancelado_spon" (distinto de "cancelado" pro front-end
-    saber que aqui TEM itens de verdade, só falta cliente)."""
+    integração Mercos->Winthor) e foram cancelados LÁ — a fonte é
+    SPON.PCNFCANITEM (achada em 2026-09-02 investigando 2 exemplos que o
+    usuário deu, que eram NUMPED do SPON, não número de pedido do Mercos).
+    Consulta a TABELA BASE direto, não a view SPON.PEDIDOS_CANCELADOS
+    (provavelmente a fonte da Rotina 335 do Winthor) — a view tem exatamente
+    as mesmas linhas mas NÃO seleciona CODCLI/CODUSUR, que a tabela base tem
+    (achado em 2026-09-02, pedido do usuário "não tem o número do pedido do
+    cliente?" — a resposta era não, mas isso levou a olhar a DDL da view e
+    achar que a tabela por trás tem CODCLI, que a view descarta). Com
+    CODCLI dá pra resolver cliente/CNPJ de verdade (JOIN PCCLIENT), sem
+    depender do casamento por assinatura de item (_casar_cancelados_spon_com_mercos)
+    pra isso — esse casamento continua rodando por cima, só que agora pra
+    achar o PEDIDO Mercos (número, vendedor), não mais o cliente.
+    status_spon = "cancelado_spon"."""
     query = f"""
-        SELECT NUMPED, CODPROD, DESCRICAO, QT, PVENDA, SUBTOT, MOTIVO, FUNCCANCELA, DATACANC
-        FROM SPON.PEDIDOS_CANCELADOS
-        WHERE NUMPED BETWEEN {_NUMPED_MIN_WS} AND {_NUMPED_MAX_WS}
-          AND DATACANC >= TO_DATE('{DATA_INICIAL}', 'YYYY-MM-DD')
+        SELECT N.NUMPED, N.CODPROD, PR.DESCRICAO, N.QT, N.PVENDA,
+               (NVL(N.QT, 0) * NVL(N.PVENDA, 0)) AS SUBTOT,
+               N.MOTIVO, N.DATACANC, N.CODCLI,
+               C.CLIENTE, C.FANTASIA, C.CGCENT,
+               E.NOME AS FUNCCANCELA
+        FROM SPON.PCNFCANITEM N
+        JOIN SPON.PCPRODUT PR ON PR.CODPROD = N.CODPROD
+        LEFT JOIN SPON.PCCLIENT C ON C.CODCLI = N.CODCLI
+        LEFT JOIN SPON.PCEMPR E ON E.MATRICULA = N.CODFUNCCANC
+        WHERE N.NUMTRANSVENDA IS NULL
+          AND N.NUMPED BETWEEN {_NUMPED_MIN_WS} AND {_NUMPED_MAX_WS}
+          AND N.DATACANC >= TO_DATE('{DATA_INICIAL}', 'YYYY-MM-DD')
     """
     try:
-        df = carregar_dados(query, engine_spon, "spon_pedidos_cancelados")
+        df = carregar_dados(query, engine_spon, "spon_pcnfcanitem")
     except Exception as e:
-        print(f"[AVISO] SPON.PEDIDOS_CANCELADOS indisponivel ({str(e)[:100]}) — cancelados do Winthor nao aparecem")
+        print(f"[AVISO] SPON.PCNFCANITEM indisponivel ({str(e)[:100]}) — cancelados do Winthor nao aparecem")
         return []
     if df.empty:
         return []
@@ -245,13 +258,15 @@ def _carregar_cancelados_spon():
         } for _, r in grupo.iterrows()]
         primeira = grupo.iloc[0]
         numped_str = str(int(numped))
+        cnpj = re.sub(r"\D", "", str(primeira["CGCENT"])) if pd.notna(primeira["CGCENT"]) else ""
+        cliente = primeira["CLIENTE"] or primeira["FANTASIA"]
         cancelados.append({
             "numped": numped_str,
             "data": _fmt_data_spon(primeira["DATACANC"]),
             "cod_vendedor": "",
             "vendedor": "",
-            "cnpj": "",
-            "cliente": "Cliente não identificado",
+            "cnpj": cnpj,
+            "cliente": str(cliente).strip() if pd.notna(cliente) and str(cliente).strip() else "Cliente não identificado",
             "representada": "SPON DISTRIBUIDORA",
             "itens": itens,
             "subtotal_pedido": round(sum(it["subtotal"] for it in itens), 2),
