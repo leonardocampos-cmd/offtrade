@@ -262,7 +262,14 @@ const ESTOQUE = typeof ESTOQUE_DATA !== 'undefined' ? ESTOQUE_DATA : null;
 const ABAS = [
   {
     chave: 'pedidos_feitos', label: 'Pedidos Feitos', cor: 'status-feito',
-    colExtra: { campo: 'sistema', label: 'Sistema', render: p => `<span class="cod">${_esc(p.sistema)}</span>` },
+    // Status do sistema (Winthor) — pedido do usuário em 2026-09-02: o
+    // pedido só fica "aberto" de verdade até ganhar posição
+    // Liberado/Bloqueado/Pendente; antes só aparecia junto do nome do
+    // cliente (pequeno, fácil de passar batido), sem coluna própria.
+    colExtra: {
+      campo: 'sistema', label: 'Sistema / Status',
+      render: p => `<span class="cod">${_esc(p.sistema)}</span>${_posicaoBadge(p.posicao)}`,
+    },
   },
   {
     chave: 'faturados', label: 'Faturados', cor: 'status-faturado',
