@@ -981,8 +981,15 @@ _notas_pagas_agrupados = _agrupar(_notas_pagas, com_status_log=True)
 # "faturados" pro pedido continuar visível/buscável durante toda a janela de
 # DIAS_JANELA, com 'pago' marcando quais já quitaram pra quem precisar
 # distinguir (financeiro/AR).
+# Um pedido fica em _faturados_agrupados por dois motivos: (a) realmente
+# não tem todas as parcelas pagas, ou (b) é bonificação (sai da regra de
+# "sumir quando pago" de propósito, ver comentário acima) — nesse segundo
+# caso ele PODE estar pago de verdade (bonificação costuma quitar no mesmo
+# dia) e o badge 💰 PAGO tem que refletir isso, não sempre False (bug real:
+# pedido 450000282/NF 5989, 100% bonificação, VLBONIFIC=1128=total do
+# pedido, pago no mesmo dia — ficava sem o badge PAGO mesmo já quitado).
 for _p in _faturados_agrupados:
-    _p['pago'] = False
+    _p['pago'] = _p['numped'] in _numpeds_pagos_str
 for _p in _notas_pagas_agrupados:
     _p['pago'] = True
 
