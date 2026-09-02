@@ -13,14 +13,27 @@ qualquer relatorio*.xls / "Vendas detalhadas.xls" que ja exista em
 MERCOS_EXPORTS_DIR) — sync_mercos_exports_vps.py fica sem uso na pratica,
 mas nao foi removido.
 
-Pedidos cancelados no Mercos (bug reportado pelo usuario em 2026-09-02:
-sumiam da pagina inteiros) tambem sao baixados, a parte — ver
-_carregar_pedidos_cancelados e mercos_api.py::baixar_vendas_canceladas. So
-da pra pegar cabecalho (cliente/valor/vendedor), sem itens: o relatorio de
-produtos so devolve pedido confirmado. Cancelamento do lado do Winthor
-(pedido chegou a ganhar NUMPED no SPON e foi cancelado/apagado de la depois)
-e um caso DIFERENTE, ainda sem fonte de dado disponivel (PCPEDCAN, a tabela
-de cancelamento do Winthor, esta vazia nessa base — nao e usada).
+Pedidos cancelados (bug reportado pelo usuario em 2026-09-02: sumiam da
+pagina inteiros) sao DOIS casos diferentes, cada um com sua fonte:
+
+1. Cancelado no MERCOS (nunca chegou a virar pedido no Winthor) — ver
+   _carregar_pedidos_cancelados e mercos_api.py::baixar_vendas_canceladas.
+   So da pra pegar cabecalho (cliente/valor/vendedor), sem itens: o
+   relatorio de produtos da Mercos so devolve pedido confirmado.
+   status_spon = "cancelado".
+
+2. Cancelado no WINTHOR (chegou a ganhar NUMPED no SPON via integracao,
+   foi cancelado la — ex: bloqueio de credito) — a linha some de
+   PCPEDC/PBI_PCPEDI inteira (sem DTCANCEL, literalmente apagada; PCPEDCAN,
+   a tabela "oficial" de cancelamento do Winthor, esta vazia/nao usada
+   nessa base) mas fica registrada em SPON.PEDIDOS_CANCELADOS (achada em
+   2026-09-02 cruzando os 2 exemplos que o usuario deu, que eram NUMPED do
+   SPON, nao numero de pedido do Mercos — provavelmente a fonte da Rotina
+   335 do Winthor). Tem item/valor/motivo/quem cancelou, mas NAO tem
+   CODCLI/cliente (nenhuma tabela do Winthor que cruza com ela pelo NUMPED
+   tinha CODCLI tambem) — ver _carregar_cancelados_spon. status_spon =
+   "cancelado_spon", numped = o proprio NUMPED do SPON (nao tem como
+   linkar de volta pro numero do pedido Mercos correspondente).
 
 Rodando na VPS (cron, OFFTRADE_RUNTIME=vps): se autopublica direto em
 /opt/offtrade-static (mesmo padrao de exportacao_meta.py::_publicar_static).
@@ -172,6 +185,83 @@ def _carregar_pedidos_cancelados():
             "itens_cortados": [],
         })
     return cancelados
+
+
+# CODUSUR do usuário Winthor "W.S" (canal Mercos) é 588 (mesmo valor usado
+# em pedidos_mercos.html::RCA_MERCOS pro gate de acesso) — NUMPED no SPON
+# é "<CODUSUR><sequencial de 6 dígitos>", confirmado em 2026-09-02 (range
+# observado pra pedidos recentes: 588003046-588003531).
+_CODUSUR_WS = 588
+_NUMPED_MIN_WS = _CODUSUR_WS * 1_000_000
+_NUMPED_MAX_WS = _NUMPED_MIN_WS + 999_999
+
+
+def _carregar_cancelados_spon():
+    """Pedidos que chegaram a ganhar NUMPED no SPON (passaram pela
+    integração Mercos->Winthor) e foram cancelados LÁ — acham-se em
+    SPON.PEDIDOS_CANCELADOS, achada em 2026-09-02 investigando 2 exemplos
+    que o usuário deu (eram NUMPED do SPON, não número de pedido do Mercos —
+    provavelmente é a fonte da Rotina 335 do Winthor). Diferente de
+    _carregar_pedidos_cancelados (cancelado do lado do Mercos): esse tem
+    item/valor/motivo/quem cancelou, mas NENHUMA tabela do Winthor que
+    cruza com ela pelo NUMPED tem CODCLI — cliente fica "não identificado".
+    status_spon = "cancelado_spon" (distinto de "cancelado" pro front-end
+    saber que aqui TEM itens de verdade, só falta cliente)."""
+    query = f"""
+        SELECT NUMPED, CODPROD, DESCRICAO, QT, PVENDA, SUBTOT, MOTIVO, FUNCCANCELA, DATACANC
+        FROM SPON.PEDIDOS_CANCELADOS
+        WHERE NUMPED BETWEEN {_NUMPED_MIN_WS} AND {_NUMPED_MAX_WS}
+          AND DATACANC >= TO_DATE('{DATA_INICIAL}', 'YYYY-MM-DD')
+    """
+    try:
+        df = carregar_dados(query, engine_spon, "spon_pedidos_cancelados")
+    except Exception as e:
+        print(f"[AVISO] SPON.PEDIDOS_CANCELADOS indisponivel ({str(e)[:100]}) — cancelados do Winthor nao aparecem")
+        return []
+    if df.empty:
+        return []
+    df.columns = df.columns.str.upper()
+    df["QT"] = pd.to_numeric(df["QT"], errors="coerce").fillna(0)
+    df["SUBTOT"] = pd.to_numeric(df["SUBTOT"], errors="coerce").fillna(0)
+    df["PVENDA"] = pd.to_numeric(df["PVENDA"], errors="coerce").fillna(0)
+
+    cancelados = []
+    for numped, grupo in df.groupby("NUMPED"):
+        itens = [{
+            "codprod": str(int(r["CODPROD"])) if pd.notna(r["CODPROD"]) else "",
+            "descricao": r["DESCRICAO"] or "",
+            "qt": float(r["QT"]),
+            "preco_liquido": round(float(r["PVENDA"]), 2),
+            "subtotal": round(float(r["SUBTOT"]), 2),
+        } for _, r in grupo.iterrows()]
+        primeira = grupo.iloc[0]
+        numped_str = str(int(numped))
+        cancelados.append({
+            "numped": numped_str,
+            "data": _fmt_data_spon(primeira["DATACANC"]),
+            "cod_vendedor": "",
+            "vendedor": "",
+            "cnpj": "",
+            "cliente": "Cliente não identificado",
+            "representada": "SPON DISTRIBUIDORA",
+            "itens": itens,
+            "subtotal_pedido": round(sum(it["subtotal"] for it in itens), 2),
+            "qt_pedido": sum(it["qt"] for it in itens),
+            "status_spon": "cancelado_spon",
+            "valor_spon": None,
+            "numped_spon": [numped_str],
+            "numnota_spon": [],
+            "itens_cortados": [],
+            "motivo_cancelamento": primeira["MOTIVO"] or "",
+            "cancelado_por": primeira["FUNCCANCELA"] or "",
+        })
+    return cancelados
+
+
+def _fmt_data_spon(dt):
+    if pd.isna(dt):
+        return ""
+    return pd.Timestamp(dt).strftime("%d/%m/%Y")
 
 
 def _listar_arquivos_produtos():
@@ -502,6 +592,12 @@ def main():
     if cancelados:
         print(f"{len(cancelados)} pedido(s) cancelado(s) no Mercos incluido(s)")
     lista_pedidos += cancelados
+    numpeds_existentes.update(c["numped"] for c in cancelados)
+
+    cancelados_spon = [c for c in _carregar_cancelados_spon() if c["numped"] not in numpeds_existentes]
+    if cancelados_spon:
+        print(f"{len(cancelados_spon)} pedido(s) cancelado(s) no SPON (Winthor) incluido(s)")
+    lista_pedidos += cancelados_spon
 
     _anexar_inadimplencia(lista_pedidos)
 
