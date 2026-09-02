@@ -31,9 +31,18 @@ pagina inteiros) sao DOIS casos diferentes, cada um com sua fonte:
    SPON, nao numero de pedido do Mercos — provavelmente a fonte da Rotina
    335 do Winthor). Tem item/valor/motivo/quem cancelou, mas NAO tem
    CODCLI/cliente (nenhuma tabela do Winthor que cruza com ela pelo NUMPED
-   tinha CODCLI tambem) — ver _carregar_cancelados_spon. status_spon =
-   "cancelado_spon", numped = o proprio NUMPED do SPON (nao tem como
-   linkar de volta pro numero do pedido Mercos correspondente).
+   tinha CODCLI tambem) — ver _carregar_cancelados_spon. Por isso o
+   cruzamento e feito de volta pro pedido MERCOS por ASSINATURA de item
+   (conjunto de CODPROD + quantidade — ver _casar_cancelados_spon_com_mercos):
+   o pedido some do SPON, mas continua "confirmado" do lado do Mercos (a
+   integracao nao avisa o Mercos que foi cancelado no Winthor), entao da
+   pra achar o pedido Mercos original comparando os itens. Quando acha,
+   so marca esse pedido existente como "cancelado_spon" (fica com cliente,
+   vendedor, numero do pedido Mercos etc. — pedido do usuario em
+   2026-09-02: "precisa ser com base nos pedidos Mercos", nao um registro
+   orfao). So cai no fallback orfao (numped = o proprio NUMPED do SPON,
+   cliente "nao identificado") quando nao acha nenhum pedido Mercos com os
+   mesmos itens.
 
 Rodando na VPS (cron, OFFTRADE_RUNTIME=vps): se autopublica direto em
 /opt/offtrade-static (mesmo padrao de exportacao_meta.py::_publicar_static).
@@ -262,6 +271,65 @@ def _fmt_data_spon(dt):
     if pd.isna(dt):
         return ""
     return pd.Timestamp(dt).strftime("%d/%m/%Y")
+
+
+def _casar_cancelados_spon_com_mercos(lista_pedidos, cancelados_spon):
+    """Casa cada cancelado do SPON (sem cliente) de volta pro pedido MERCOS
+    original (com cliente, vendedor etc.) por ASSINATURA de item — conjunto
+    de CODPROD é a chave (Oracle raramente repete o mesmo conjunto exato de
+    produtos em pedidos diferentes do mesmo período), desempate por
+    quantidade batendo exato item a item quando mais de um pedido Mercos
+    tem o mesmo conjunto de produtos. Confirmado em 2026-09-02 com os 2
+    exemplos do usuário: 588003527 bateu 100% (3/3 itens) com o pedido
+    Mercos #3867; 588003525 bateu 3/4 com o #3864 (1 item com quantidade
+    diferente — pedido deve ter sido editado no Mercos DEPOIS de já ter
+    sido cancelado no Winthor, a integração não avisa o Mercos do
+    cancelamento). Exige pelo menos metade dos itens batendo em quantidade
+    pra aceitar o match (senão fica no fallback órfão — ver
+    _carregar_cancelados_spon) e nunca usa o mesmo pedido Mercos pra mais
+    de um cancelado do SPON.
+
+    Muta os pedidos casados em `lista_pedidos` (status_spon vira
+    "cancelado_spon" + motivo/quem cancelou/NUMPED do SPON), devolve
+    (órfãos, quantidade_casada) — quem chama decide o que fazer com os
+    órfãos."""
+    def _assinatura(itens):
+        return frozenset(it["codprod"] for it in itens)
+
+    indice = {}
+    for p in lista_pedidos:
+        if p["status_spon"] == "cancelado":  # cancelado no Mercos não tem item pra casar
+            continue
+        indice.setdefault(_assinatura(p["itens"]), []).append(p)
+
+    usados = set()
+    orfaos = []
+    casados = 0
+    for c in cancelados_spon:
+        alvo_qt = {it["codprod"]: it["qt"] for it in c["itens"]}
+        candidatos = [p for p in indice.get(frozenset(alvo_qt), []) if p["numped"] not in usados]
+        if not candidatos:
+            orfaos.append(c)
+            continue
+        melhor, melhor_score = None, -1
+        for p in candidatos:
+            qtmap = {it["codprod"]: it["qt"] for it in p["itens"]}
+            score = sum(1 for cp, qt in alvo_qt.items() if qtmap.get(cp) == qt)
+            if score > melhor_score:
+                melhor, melhor_score = p, score
+        if melhor_score / len(alvo_qt) < 0.5:
+            orfaos.append(c)
+            continue
+        usados.add(melhor["numped"])
+        melhor["status_spon"] = "cancelado_spon"
+        melhor["valor_spon"] = None
+        melhor["numped_spon"] = c["numped_spon"]
+        melhor["numnota_spon"] = []
+        melhor["itens_cortados"] = []
+        melhor["motivo_cancelamento"] = c["motivo_cancelamento"]
+        melhor["cancelado_por"] = c["cancelado_por"]
+        casados += 1
+    return orfaos, casados
 
 
 def _listar_arquivos_produtos():
@@ -594,10 +662,13 @@ def main():
     lista_pedidos += cancelados
     numpeds_existentes.update(c["numped"] for c in cancelados)
 
-    cancelados_spon = [c for c in _carregar_cancelados_spon() if c["numped"] not in numpeds_existentes]
-    if cancelados_spon:
-        print(f"{len(cancelados_spon)} pedido(s) cancelado(s) no SPON (Winthor) incluido(s)")
-    lista_pedidos += cancelados_spon
+    orfaos_spon, casados_spon = _casar_cancelados_spon_com_mercos(lista_pedidos, _carregar_cancelados_spon())
+    if casados_spon:
+        print(f"{casados_spon} pedido(s) cancelado(s) no SPON (Winthor) casado(s) com pedido Mercos existente")
+    orfaos_spon = [c for c in orfaos_spon if c["numped"] not in numpeds_existentes]
+    if orfaos_spon:
+        print(f"{len(orfaos_spon)} pedido(s) cancelado(s) no SPON sem pedido Mercos correspondente (fica so com o NUMPED do SPON)")
+    lista_pedidos += orfaos_spon
 
     _anexar_inadimplencia(lista_pedidos)
 

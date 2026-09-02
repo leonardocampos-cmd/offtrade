@@ -427,7 +427,7 @@ function aplicarFiltro() {
       // PDF/WhatsApp de faturamento pra um pedido cancelado (mesmo motivo
       // do "cancelado no Mercos" acima).
       const acoes = p.status_spon === 'cancelado_spon'
-        ? `<p style="color:var(--muted);font-size:.85rem;padding:0 4px 8px">Pedido cancelado no SPON (Winthor)${p.motivo_cancelamento ? ' — motivo: ' + _esc(p.motivo_cancelamento) : ''}. Cliente não identificado (a fonte desse dado no Winthor não guarda o cliente).</p>`
+        ? `<p style="color:var(--muted);font-size:.85rem;padding:0 4px 8px">Pedido cancelado no SPON (Winthor)${p.motivo_cancelamento ? ' — motivo: ' + _esc(p.motivo_cancelamento) : ''}.${p.cliente === 'Cliente não identificado' ? ' Cliente não identificado (a fonte desse dado no Winthor não guarda o cliente).' : ''}</p>`
         : `<div class="itens-acoes">
           <button class="btn-acao" onclick="event.stopPropagation(); gerarPdfPedido('${_escAttr(p.numped)}')">📄 Gerar PDF</button>
           <button class="btn-acao whatsapp" onclick="event.stopPropagation(); enviarWhatsapp('${_escAttr(p.numped)}', this)">📱 Enviar WhatsApp</button>
