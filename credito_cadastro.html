@@ -266,7 +266,7 @@
         // já é confiável o suficiente pra decidir (pedido do usuário).
         resultado.innerHTML = `<div class="msg msg-error">Não foi possível consultar todas as fontes agora (${esc(resp.data.fontes_indisponiveis.join(', '))} fora do ar) — tente buscar de novo em instantes antes de solicitar um cadastro novo.</div>`;
       } else {
-        renderNaoEncontrado(termo, resp.data.fontes_indisponiveis || []);
+        renderNaoEncontrado(termo);
       }
     }
 
@@ -283,12 +283,9 @@
     }
 
     // ── Cliente não encontrado: fluxo de solicitação de cadastro ──────────────
-    async function renderNaoEncontrado(termo, fontesIndisponiveis) {
+    async function renderNaoEncontrado(termo) {
       const cnpjLimpo = termo.replace(/\D/g, '');
       let html = '<div class="msg msg-warn">Cliente não cadastrado.</div>';
-      if ((fontesIndisponiveis || []).length) {
-        html += `<div class="msg msg-warn">⚠️ Busca considerou só a base da CRC — ${esc(fontesIndisponiveis.join(', '))} fora do ar no momento.</div>`;
-      }
 
       if (cnpjLimpo.length === 12 || cnpjLimpo.length === 13) {
         html += `<div class="msg msg-warn">⚠️ "${esc(termo)}" tem ${cnpjLimpo.length} dígitos — CNPJ tem 14. Confira se não falta algum dígito (ex: zero à esquerda) antes de prosseguir.</div>`;
