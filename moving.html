@@ -6,7 +6,7 @@
   <script src="fontes_alert.js"></script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Campanha MOVING - Junho 2026</title>
+  <title>Campanha MOVING - 3º Trimestre 2026</title>
   <script src="metas_data.js"></script>
   <script src="vendas_data.js"></script>
   <style>
@@ -52,7 +52,10 @@
     .produto-desc { font-size:.68rem; color:var(--muted); line-height:1.4; }
     .produto-desc mark { background:transparent; color:var(--accent); font-weight:700; }
 
-    .gatilho-box { background:var(--card); border:1px solid var(--border); border-radius:10px; padding:16px; margin-bottom:20px; }
+    .mes-section { margin-bottom:22px; }
+    .mes-titulo { font-size:.95rem; font-weight:800; color:var(--accent-light); margin-bottom:10px; padding-left:2px; }
+
+    .gatilho-box { background:var(--card); border:1px solid var(--border); border-radius:10px; padding:16px; margin-bottom:12px; }
     .gatilho-title { font-size:.7rem; text-transform:uppercase; letter-spacing:.07em; color:var(--muted); margin-bottom:10px; }
     .gatilho-label { display:flex; justify-content:space-between; align-items:center; font-size:.8rem; margin-bottom:8px; }
     .gatilho-txt { color:var(--muted); }
@@ -96,11 +99,11 @@
 
   <div style="margin-bottom:12px"><a href="index.html" style="color:var(--muted,#94a3b8);font-size:.8rem;text-decoration:none;padding:6px 12px;border:1px solid var(--border,#2d3144);border-radius:8px;background:var(--card,#1a1d27)">&#8962; Home</a></div>
   <header>
-    <div class="camp-badge" style="border-color:var(--muted);color:var(--muted)">Encerrada &mdash; Junho 2026</div>
+    <div class="camp-badge" id="camp-badge">3º Trimestre 2026</div>
     <h1>Campanha MOVING</h1>
-    <p class="camp-sub">Off Trade RJ &middot; Junho 2026 &middot; Prêmio = 5% do faturamento Moving individual</p>
+    <p class="camp-sub">Off Trade RJ &middot; Setembro–Novembro 2026 &middot; Prêmio = 5% do faturamento Moving individual, por mês, se a equipe bater o gatilho do mês</p>
     <div class="camp-premio-box">
-      <div class="camp-premio-label">Prêmio (se gatilho atingido)</div>
+      <div class="camp-premio-label">Prêmio (se gatilho do mês atingido)</div>
       <div class="camp-premio-val">5% do Faturamento Moving individual</div>
     </div>
   </header>
@@ -144,141 +147,140 @@
     </div>
   </div>
 
-  <div class="gatilho-box">
-    <div class="gatilho-title">Gatilho de Equipe</div>
-    <div id="gatilho-bar"></div>
-  </div>
-
-  <div class="rank-card">
-    <div class="rank-header">
-      <span class="rank-title">Apuração Moving por Vendedor — RJ</span>
-      <span class="rank-note" id="rank-note">Junho 2026</span>
-    </div>
-    <div class="rank-list" id="rank-list"></div>
-  </div>
+  <div id="meses-container"></div>
 
   <footer>
-    Atualizado em <strong id="atualizado"></strong> &middot; Campanha MOVING &middot; Junho 2026
+    Atualizado em <strong id="atualizado"></strong> &middot; Campanha MOVING &middot; 3º Trimestre 2026 (Set–Nov)
   </footer>
 
   <script>
-    const CAMP_INI = new Date(2026, 5,  1); // 01/06/2026
-    const CAMP_FIM = new Date(2026, 5, 30); // 30/06/2026
-    const CAMP_MESES = ['Jun/26'];
-    const GATILHO = 120000;
-    const PCT = 0.05;
-    const METAS_IND = {
-      '156': 33000,  // MARILENA TRAGEL
-      '275': 11000,  // MARIA LUIZA
-      '431': 11000,  // ADEILSON GONÇALVES
-      '144':  4000,  // DIOGO RAPOSO
-      '378': 11000,  // FABIO VALOTTI
-      '412':  6000,  // BARBARA CABRAL
-      '153':  8000,  // ANGELO MOURA
-      '238':  5000,  // DANIELLE MOURA
-      '419':  7000,  // NÁTALI DE OLIVEIRA
-      '439':  3000,  // MATEUS CARDOSO
-      '417':  5000,  // DIRLEI ARAÚJO
-      '379':  4000,  // JORGE MACIEL
-      '450':  6000,  // LEANDRO PEREIRA
-      '471':  3000,  // ANA CLARA
-      '158':  3000,  // JOSE MARCELO
-      '420':  0      // KELLY RAMOS
+    // Meta trimestral RIGARR — apuração mês a mês (não acumulada). O gatilho
+    // de equipe de cada mês é a soma das metas individuais daquele mês
+    // (pedido do usuário em 03/09/2026, mesma lógica já implícita na tabela
+    // de metas recebida — não há um valor de gatilho separado informado).
+    const METAS_POR_MES = {
+      'Set/26': { '431': 5600,  '471': 2700, '153': 4300, '412': 8600, '144': 2000, '378': 8200, '450': 17500, '275': 6600, '156': 25700, '419': 2000, '439': 2000, '379': 2000 },
+      'Out/26': { '431': 5750,  '471': 2800, '153': 4400, '412': 8800, '144': 2200, '378': 8400, '450': 17850, '275': 6750, '156': 26200, '419': 2200, '439': 2200, '379': 2200 },
+      'Nov/26': { '431': 5870,  '471': 2860, '153': 4500, '412': 9000, '144': 2300, '378': 8600, '450': 18000, '275': 7000, '156': 26400, '419': 2400, '439': 2400, '379': 2400 },
     };
+    const MESES_TITULO = { 'Set/26': 'Setembro/2026', 'Out/26': 'Outubro/2026', 'Nov/26': 'Novembro/2026' };
+    const PCT = 0.05;
     const MEDALS = ['🥇','🥈','🥉'];
 
     document.getElementById('atualizado').textContent = METAS_DATA.atualizado_em;
 
-    function _parseDt(s) {
-      const [d, m, y] = s.split('/').map(Number);
-      return new Date(y, m - 1, d);
+    // Badge dinâmico: campanha corre de 01/09/2026 a 30/11/2026.
+    const hoje = new Date();
+    const campIni = new Date(2026, 8, 1);
+    const campFim = new Date(2026, 10, 30);
+    const badge = document.getElementById('camp-badge');
+    if (hoje < campIni) {
+      badge.textContent = 'Em breve — 3º Trimestre 2026';
+      badge.style.borderColor = 'var(--muted)'; badge.style.color = 'var(--muted)';
+    } else if (hoje > campFim) {
+      badge.textContent = 'Encerrada — 3º Trimestre 2026';
+      badge.style.borderColor = 'var(--muted)'; badge.style.color = 'var(--muted)';
+    } else {
+      badge.textContent = 'Ativa — 3º Trimestre 2026';
     }
 
-    function fatMovingCamp(nomeVendedor) {
+    function fatMovingMes(nomeVendedor, mesLabel) {
       const vd = (typeof VENDAS_DATA !== 'undefined') ? VENDAS_DATA : null;
       if (!vd) return 0;
+      const itens = (vd.por_vendedor[nomeVendedor] || {})[mesLabel] || [];
       let total = 0;
-      for (const mes of CAMP_MESES) {
-        const itens = (vd.por_vendedor[nomeVendedor] || {})[mes] || [];
-        for (const it of itens) {
-          if (it.tipo !== 'Venda') continue;
-          // 'tipo' só marca 'Devolução' na linha ED em si — uma venda com
-          // CODOPER='S' que foi devolvida depois (NUMNOTADEV) continua com
-          // tipo='Venda', mas com devolvido=true. Sem esse check ela ainda
-          // entrava no prêmio (achado em auditoria de 2026-08-25).
-          if (it.devolvido) continue;
-          if (!(it.produto || '').toUpperCase().includes('MOVING')) continue;
-          const dt = _parseDt(it.data);
-          if (dt >= CAMP_INI && dt <= CAMP_FIM) total += it.valor || 0;
-        }
+      for (const it of itens) {
+        if (it.tipo !== 'Venda') continue;
+        // 'tipo' só marca 'Devolução' na linha ED em si — uma venda com
+        // CODOPER='S' que foi devolvida depois (NUMNOTADEV) continua com
+        // tipo='Venda', mas com devolvido=true. Sem esse check ela ainda
+        // entrava no prêmio (achado em auditoria de 2026-08-25).
+        if (it.devolvido) continue;
+        if (!(it.produto || '').toUpperCase().includes('MOVING')) continue;
+        total += it.valor || 0;
       }
       return total;
     }
 
     const fmtFat = v => 'R$ ' + v.toLocaleString('pt-BR',{minimumFractionDigits:2,maximumFractionDigits:2});
 
-    const rows = METAS_DATA.vendedores
-      .filter(v => METAS_IND[v.rca] !== undefined)
-      .map(v => {
-        const fat     = fatMovingCamp(v.nome);
-        const metaInd = METAS_IND[v.rca];
-        return { nome: v.nome, rca: v.rca, fat, metaInd };
+    function renderMes(mesLabel) {
+      const metas = METAS_POR_MES[mesLabel];
+      const gatilho = Object.values(metas).reduce((a, b) => a + b, 0);
+
+      const rows = METAS_DATA.vendedores
+        .filter(v => metas[v.rca] !== undefined)
+        .map(v => ({ nome: v.nome, rca: v.rca, fat: fatMovingMes(v.nome, mesLabel), metaInd: metas[v.rca] }));
+
+      const totalFat  = rows.reduce((s, r) => s + r.fat, 0);
+      const gatilhoOk = totalFat >= gatilho;
+
+      const p   = Math.min((totalFat / gatilho) * 100, 100);
+      const cls = p >= 100 ? 'g' : p >= 70 ? 'y' : 'r';
+      const badgeHtml = gatilhoOk
+        ? '<span class="gatilho-ok">✓ Gatilho ativado — prêmios liberados</span>'
+        : `<span class="gatilho-pct-${cls}">${p.toFixed(1)}%</span>`;
+
+      const sorted = [...rows].sort((a, b) => {
+        const pA = a.metaInd > 0 ? a.fat / a.metaInd : 0;
+        const pB = b.metaInd > 0 ? b.fat / b.metaInd : 0;
+        return pB - pA || b.fat - a.fat;
       });
 
-    const totalFat  = rows.reduce((s, r) => s + r.fat, 0);
-    const gatilhoOk = totalFat >= GATILHO;
+      const linhas = sorted.map((r, i) => {
+        const pctMeta = r.metaInd > 0 ? Math.min((r.fat / r.metaInd) * 100, 999) : null;
+        const pctCls  = pctMeta !== null ? (pctMeta >= 100 ? 'g' : pctMeta >= 70 ? 'y' : 'r') : null;
+        const pctDisp = pctMeta !== null ? (pctMeta > 999 ? '>999' : pctMeta.toFixed(0) + '%') : '—';
+        const premio  = gatilhoOk ? r.fat * PCT : null;
+        const pos     = i < 3 ? MEDALS[i] : i + 1;
 
-    // Gatilho bar
-    const p   = Math.min((totalFat / GATILHO) * 100, 100);
-    const cls = p >= 100 ? 'g' : p >= 70 ? 'y' : 'r';
-    const badgeHtml = gatilhoOk
-      ? '<span class="gatilho-ok">✓ Gatilho ativado — prêmios liberados</span>'
-      : `<span class="gatilho-pct-${cls}">${p.toFixed(1)}%</span>`;
-    document.getElementById('gatilho-bar').innerHTML = `
-      <div class="gatilho-label">
-        <span class="gatilho-txt">Equipe: ${fmtFat(totalFat)} / ${fmtFat(GATILHO)}</span>
-        ${badgeHtml}
-      </div>
-      <div class="bar-bg"><div class="bar-fill bar-${cls}" style="width:${p}%"></div></div>`;
+        const pctColor = pctCls === 'g'
+          ? '74,222,128' : pctCls === 'y'
+          ? '234,179,8'  : '239,68,68';
+        const pctVar   = pctCls === 'g' ? '--green' : pctCls === 'y' ? '--yellow' : '--red';
 
-    // Ranking — ordenado por % da meta para empates resolverem por valor absoluto
-    const sorted = [...rows].sort((a, b) => {
-      const pA = a.metaInd > 0 ? a.fat / a.metaInd : 0;
-      const pB = b.metaInd > 0 ? b.fat / b.metaInd : 0;
-      return pB - pA || b.fat - a.fat;
-    });
+        const rightHtml = r.fat === 0
+          ? `<span class="rank-gatilho-off">Sem vendas</span>`
+          : gatilhoOk
+            ? `<span class="rank-prize-tag">${fmtFat(premio)}</span>`
+            : `<span class="rank-gatilho-off">Gatilho não atingido</span>`;
 
-    const el = document.getElementById('rank-list');
-    el.innerHTML = sorted.map((r, i) => {
-      const pctMeta = r.metaInd > 0 ? Math.min((r.fat / r.metaInd) * 100, 999) : null;
-      const pctCls  = pctMeta !== null ? (pctMeta >= 100 ? 'g' : pctMeta >= 70 ? 'y' : 'r') : null;
-      const pctDisp = pctMeta !== null ? (pctMeta > 999 ? '>999' : pctMeta.toFixed(0) + '%') : '—';
-      const premio  = gatilhoOk ? r.fat * PCT : null;
-      const pos     = i < 3 ? MEDALS[i] : i + 1;
-
-      const pctColor = pctCls === 'g'
-        ? '74,222,128' : pctCls === 'y'
-        ? '234,179,8'  : '239,68,68';
-      const pctVar   = pctCls === 'g' ? '--green' : pctCls === 'y' ? '--yellow' : '--red';
-
-      const rightHtml = r.fat === 0
-        ? `<span class="rank-gatilho-off">Sem vendas</span>`
-        : gatilhoOk
-          ? `<span class="rank-prize-tag">${fmtFat(premio)}</span>`
-          : `<span class="rank-gatilho-off">Gatilho não atingido</span>`;
+        return `
+          <div class="rank-row${i === 0 && r.fat > 0 ? ' primeiro' : ''}">
+            <span class="rank-pos">${pos}</span>
+            <a class="rank-nome" href="metas.html?vendedor=${encodeURIComponent(r.nome)}" title="${r.nome}">${r.nome}</a>
+            <span class="rank-fat">${fmtFat(r.fat)}</span>
+            <div class="rank-pct-box">
+              ${pctCls ? `<span class="rank-pct" style="background:rgba(${pctColor},.15);color:var(${pctVar})">${pctDisp} do objetivo</span>` : ''}
+              <span class="rank-meta">Objetivo: ${fmtFat(r.metaInd)}</span>
+              ${rightHtml}
+            </div>
+          </div>`;
+      }).join('');
 
       return `
-        <div class="rank-row${i === 0 && r.fat > 0 ? ' primeiro' : ''}">
-          <span class="rank-pos">${pos}</span>
-          <a class="rank-nome" href="metas.html?vendedor=${encodeURIComponent(r.nome)}" title="${r.nome}">${r.nome}</a>
-          <span class="rank-fat">${fmtFat(r.fat)}</span>
-          <div class="rank-pct-box">
-            ${pctCls ? `<span class="rank-pct" style="background:rgba(${pctColor},.15);color:var(${pctVar})">${pctDisp} do objetivo</span>` : ''}
-            <span class="rank-meta">Objetivo: ${fmtFat(r.metaInd)}</span>
-            ${rightHtml}
+        <div class="mes-section">
+          <div class="mes-titulo">${MESES_TITULO[mesLabel]}</div>
+          <div class="gatilho-box">
+            <div class="gatilho-title">Gatilho de Equipe</div>
+            <div class="gatilho-label">
+              <span class="gatilho-txt">Equipe: ${fmtFat(totalFat)} / ${fmtFat(gatilho)}</span>
+              ${badgeHtml}
+            </div>
+            <div class="bar-bg"><div class="bar-fill bar-${cls}" style="width:${p}%"></div></div>
+          </div>
+          <div class="rank-card">
+            <div class="rank-header">
+              <span class="rank-title">Apuração Moving por Vendedor — RJ</span>
+              <span class="rank-note">${MESES_TITULO[mesLabel]}</span>
+            </div>
+            <div class="rank-list">${linhas || '<div class="rank-empty">Sem dados ainda para este mês.</div>'}</div>
           </div>
         </div>`;
-    }).join('');
+    }
+
+    document.getElementById('meses-container').innerHTML =
+      Object.keys(METAS_POR_MES).map(renderMes).join('');
   </script>
 </body>
 </html>
