@@ -362,6 +362,18 @@ def _remover_cabecalhos_citacao(corpo: str) -> str:
     return _RE_CABECALHO_CITACAO.sub('', corpo)
 
 
+def _corpo_com_obs(corpo: str, blocos: list) -> str:
+    """Prepende o campo OBS de cada bloco (lido direto da tabela/formulário
+    do pedido, não do texto livre do e-mail) ao corpo antes de extrair
+    agendamento — achado real em 2026-09-03: pedido do cliente 96005 tinha
+    OBS "entregar no dia 24/08 não pagamos descarga..." só na célula OBS da
+    tabela, texto que o BeautifulSoup.get_text() do corpo livre não trazia
+    (formulário HTML renderiza diferente do texto ao redor), então a data
+    de agendamento pedida de verdade nunca chegava até a extração."""
+    obs = '\n'.join(b.get('obs', '') for b in blocos if b.get('obs'))
+    return f"{obs}\n\n{corpo}" if obs else corpo
+
+
 def _extrair_agendamento_email(corpo: str, data_email: str) -> dict:
     """Só chama a OpenAI se já tem pelo menos 1 bloco CRC-4 reconhecido no
     e-mail (quem chama decide isso) — não vale gastar em e-mail irrelevante.
@@ -809,11 +821,21 @@ def main():
             # (parsing HTML/imagem já ficou bom), só a chamada OpenAI, que é
             # o único passo com falha transitória conhecida.
             entry = cache[msg_id]
-            if entry.get('blocos') and not entry.get('email_data_agendamento') and not entry.get('email_observacoes'):
+            # Também retenta quando falta só a data mas algum bloco tem OBS
+            # estruturado (célula da tabela do pedido) não visto na 1ª
+            # passada — achado real em 2026-09-03: cliente 96005 tinha OBS
+            # "entregar no dia 24/08..." só na tabela, e o texto livre do
+            # e-mail (que gerou email_observacoes preenchido, sem essa data)
+            # nunca trazia esse trecho pra extração ver.
+            tem_obs_estruturado = any(b.get('obs') for b in entry.get('blocos', []))
+            if entry.get('blocos') and not entry.get('email_data_agendamento') and (
+                not entry.get('email_observacoes') or tem_obs_estruturado
+            ):
                 msg = service.users().messages().get(userId='me', id=msg_id, format='full').execute()
                 partes_r = {'html_parts': [], 'image_attachment_ids': []}
                 _extract_parts(msg['payload'], partes_r)
-                agendamento_r = _extrair_agendamento_email(_texto_email(partes_r['html_parts']), entry.get('data_email', ''))
+                corpo_r = _corpo_com_obs(_texto_email(partes_r['html_parts']), entry.get('blocos', []))
+                agendamento_r = _extrair_agendamento_email(corpo_r, entry.get('data_email', ''))
                 if agendamento_r['data_agendamento'] or agendamento_r['observacoes']:
                     entry['email_data_agendamento'] = agendamento_r['data_agendamento']
                     entry['email_observacoes'] = agendamento_r['observacoes']
@@ -863,7 +885,8 @@ def main():
 
         agendamento_email = {"data_agendamento": "", "observacoes": ""}
         if blocos_crc4:
-            agendamento_email = _extrair_agendamento_email(_texto_email(partes['html_parts']), data_email)
+            corpo_completo = _corpo_com_obs(_texto_email(partes['html_parts']), blocos_crc4)
+            agendamento_email = _extrair_agendamento_email(corpo_completo, data_email)
 
         cache[msg_id] = {
             'subject': subject, 'data_email': data_email, 'blocos': blocos_crc4,
