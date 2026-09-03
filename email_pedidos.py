@@ -691,9 +691,31 @@ def main():
     print(f"Emails encontrados (destinatário offtrade@rigarr.com.br): {len(messages)}")
 
     novos = 0
+    retentativas = 0
     for msg_meta in messages:
         msg_id = msg_meta['id']
         if msg_id in cache:
+            # Reprocessa só a extração de agendamento/observações se ficou
+            # vazia num e-mail que tem bloco CRC-4 reconhecido — cobre falha
+            # pontual da OpenAI na primeira passada (achado em 2026-09-03:
+            # e-mail "PEDIDOS ME MOVING REDE PADRAO DO FONSECA" tinha
+            # "ENTREGAR DIA 03/09" bem no início do corpo, mas ficou com
+            # email_data_agendamento vazio pra sempre porque o cache nunca
+            # tenta de novo um msg_id já visto). Não repete blocos_crc4
+            # (parsing HTML/imagem já ficou bom), só a chamada OpenAI, que é
+            # o único passo com falha transitória conhecida.
+            entry = cache[msg_id]
+            if entry.get('blocos') and not entry.get('email_data_agendamento') and not entry.get('email_observacoes'):
+                msg = service.users().messages().get(userId='me', id=msg_id, format='full').execute()
+                partes_r = {'html_parts': [], 'image_attachment_ids': []}
+                _extract_parts(msg['payload'], partes_r)
+                agendamento_r = _extrair_agendamento_email(_texto_email(partes_r['html_parts']), entry.get('data_email', ''))
+                if agendamento_r['data_agendamento'] or agendamento_r['observacoes']:
+                    entry['email_data_agendamento'] = agendamento_r['data_agendamento']
+                    entry['email_observacoes'] = agendamento_r['observacoes']
+                    retentativas += 1
+                    print(f"  [RETRY OK] '{entry.get('subject','')}': agendamento/observações recuperados")
+                    CACHE_PATH.write_text(json.dumps(cache, ensure_ascii=False, indent=2), encoding='utf-8')
             continue
         novos += 1
 
@@ -750,7 +772,7 @@ def main():
         # pode jogar fora o que já foi processado (mesmo raciocínio de
         # canhoto_digital.py, que salva a cada 20 itens).
         CACHE_PATH.write_text(json.dumps(cache, ensure_ascii=False, indent=2), encoding='utf-8')
-    print(f"OK - {novos} email(s) novo(s) processado(s), {len(cache)} no total em {CACHE_PATH.name}")
+    print(f"OK - {novos} email(s) novo(s) processado(s), {retentativas} retentativa(s) de agendamento recuperada(s), {len(cache)} no total em {CACHE_PATH.name}")
 
     print("\nCruzando pedidos por e-mail com faturamento (crc.PBI_PCPEDI)...")
     try:
