@@ -395,6 +395,31 @@ def _nfs_agendamento() -> set:
     return nfs
 
 
+_RE_PREFIXO_RESPOSTA = re.compile(r'^\s*(re|res|fwd|fw|enc)\s*:\s*', re.IGNORECASE)
+
+
+def _assunto_normalizado(subject: str) -> str:
+    """Remove prefixos de resposta/encaminhamento (Re:, Fwd:, Res:, "Re:
+    Fwd:" etc, repetido até não sobrar nenhum) — usado pra agrupar
+    mensagens da mesma thread mesmo sem threadId do Gmail."""
+    s = (subject or '').strip()
+    prev = None
+    while prev != s:
+        prev = s
+        s = _RE_PREFIXO_RESPOSTA.sub('', s).strip()
+    return s.upper()
+
+
+def _assinatura_bloco(bloco: dict) -> tuple:
+    """(cod_cliente, itens) — identifica o MESMO pedido (mesmo cliente,
+    mesmos produtos/quantidades) independente do e-mail que o carregou."""
+    itens_sig = tuple(sorted(
+        (str(i.get('cod_prod', '')).strip(), float(i.get('qt') or 0))
+        for i in bloco.get('itens', [])
+    ))
+    return (str(bloco.get('cod_cliente', '')).strip(), itens_sig)
+
+
 def _construir_comparativo(cache: dict) -> list:
     import pandas as pd
     from meta import engine, carregar_dados
@@ -568,9 +593,47 @@ def _construir_comparativo(cache: dict) -> list:
         except Exception as e:
             print(f"[AVISO] busca de RCA por código (PCUSUARI) falhou ({str(e)[:100]}) — mantém só o fallback do cliente.")
 
-    resultado = []
+    # Agrupa respostas do mesmo pedido (mesma pessoa respondendo/reenviando
+    # a própria thread) pra não duplicar no comparativo — cada "Re:"/"Fwd:"
+    # inclui o corpo citado inteiro, e o parser HTML recria o mesmo bloco
+    # com um msg_id novo (achado real em 2026-09-03: pedido do cliente
+    # 90411/Padrão do Fonseca aparecia 5x, uma por resposta na thread).
+    # Agrupa por (assunto sem Re/Fwd, cod_cliente, itens); mantém só o
+    # e-mail mais antigo do grupo como "o pedido", mas herda
+    # agendamento/observações de qualquer resposta que tenha essa info e o
+    # original não (pedido do usuário: considerar o conteúdo das respostas).
+    grupos: dict = {}
     for msg_id, msg in cache.items():
+        assunto_norm = _assunto_normalizado(msg.get('subject', ''))
         for bloco in msg.get('blocos', []):
+            chave = (assunto_norm,) + _assinatura_bloco(bloco)
+            grupos.setdefault(chave, []).append((msg_id, msg, bloco))
+
+    entradas = []
+    duplicatas_removidas = 0
+    for ocorrencias in grupos.values():
+        if len(ocorrencias) == 1:
+            entradas.append(ocorrencias[0])
+            continue
+        ocorrencias.sort(key=lambda o: o[1].get('data_email', ''))
+        msg_id0, msg0, bloco0 = ocorrencias[0]
+        agendamento = msg0.get('email_data_agendamento', '')
+        observacoes = msg0.get('email_observacoes', '')
+        for _, msg_r, _ in ocorrencias[1:]:
+            if not agendamento and msg_r.get('email_data_agendamento'):
+                agendamento = msg_r['email_data_agendamento']
+            if not observacoes and msg_r.get('email_observacoes'):
+                observacoes = msg_r['email_observacoes']
+        if agendamento != msg0.get('email_data_agendamento', '') or observacoes != msg0.get('email_observacoes', ''):
+            msg0 = {**msg0, 'email_data_agendamento': agendamento, 'email_observacoes': observacoes}
+        entradas.append((msg_id0, msg0, bloco0))
+        duplicatas_removidas += len(ocorrencias) - 1
+
+    if duplicatas_removidas:
+        print(f"  [DEDUPE] {duplicatas_removidas} bloco(s) duplicado(s) por resposta na mesma thread — removido(s) do comparativo.")
+
+    resultado = []
+    for msg_id, msg, bloco in entradas:
             cod_cli_raw = str(bloco.get('cod_cliente', '')).strip()
             if not cod_cli_raw.isdigit():
                 continue
