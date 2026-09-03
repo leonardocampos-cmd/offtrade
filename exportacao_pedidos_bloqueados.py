@@ -106,11 +106,6 @@ import baixar_planilhas_drive as _bpd
 
 DIAS_JANELA = 90
 
-# Pedido do usuário em 2026-08-31: pra vendedor RJ, considerar só esses 3
-# RCAs (CODUSUR) — não restringe os demais estados/bases, que continuam
-# mostrando todos os vendedores OFF TRADE normalmente.
-_RCAS_RJ_RESTRITOS = (159, 144, 155)
-
 _SPON_EXTRA = ['%W.S%']
 
 _SOURCES = [
@@ -133,7 +128,6 @@ def _nome_filter(extra_nomes=None, alias='PED'):
 
 def _query_bloqueados(schema, extra_nomes=None):
     nome_f = _nome_filter(extra_nomes)
-    rcas = ",".join(str(r) for r in _RCAS_RJ_RESTRITOS)
     return f"""
         SELECT PED.NUMPED, PED.DATA, PED.CLIENTE, PED.CODCLI, PED.CODPROD, PED.DESCRICAO, PED.PVENDA, PED.QT,
                PC.POSICAO, PC.MOTIVOPOSICAO, PC.VLBONIFIC,
@@ -148,7 +142,6 @@ def _query_bloqueados(schema, extra_nomes=None):
           AND PC.DTLIBERA IS NULL
           AND PC.DTCANCEL IS NULL
           AND PED.DATA >= SYSDATE - {DIAS_JANELA}
-          AND (U.ESTADO != 'RJ' OR U.CODUSUR IN ({rcas}))
     """
 
 
