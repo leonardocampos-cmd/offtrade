@@ -13270,5 +13270,3172 @@
     "subject": "Re: pedido crc4 - padrao do fonseca",
     "data_email": "2026-08-19",
     "blocos": []
+  },
+  "1a06822830f77c7f": {
+    "subject": "Re: NF de devolução",
+    "data_email": "2026-09-03",
+    "blocos": [],
+    "email_data_agendamento": "",
+    "email_observacoes": ""
+  },
+  "1a067f88b28beaf7": {
+    "subject": "PEDIDO CRC4 - PEDIDO PADRAO DO FONSECA",
+    "data_email": "2026-09-03",
+    "blocos": [
+      {
+        "sistema": "CRC - 04",
+        "cod_cliente": "91841",
+        "razao_social": "SUPERMERCADO PADRÃO DO FONSECA LTDA.",
+        "fantasia": "SUPERMARKET",
+        "cnpj": "08.628.825/0025-34",
+        "praca": "PIRATININGA",
+        "forma_pg": "Boleto",
+        "rca": "450 - LEANDRO SOUZA - OFF TRADE",
+        "bonificacao": false,
+        "tipo_segmento": "OFF TRADE",
+        "obs": "",
+        "prazo": "28 DIAS",
+        "itens": [
+          {
+            "cod_prod": "6256",
+            "descricao": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+            "qt": 2,
+            "preco": 86.28,
+            "total": 172.56
+          },
+          {
+            "cod_prod": "6334",
+            "descricao": "MOVING BOOSTER MORANGO ACEROLA 24X310ML",
+            "qt": 1,
+            "preco": 155.28,
+            "total": 155.28
+          }
+        ]
+      },
+      {
+        "sistema": "CRC - 04",
+        "cod_cliente": "90415",
+        "razao_social": "SUPERMERCADO PADRAO DO FONSECA LTDA",
+        "fantasia": "SUPERMARKET",
+        "cnpj": "08.628.825/0024-53",
+        "praca": "",
+        "forma_pg": "Boleto",
+        "rca": "LEANDRO SOUZA - OFF TRADE",
+        "bonificacao": false,
+        "tipo_segmento": "OFF TRADE",
+        "obs": "",
+        "prazo": "28 dias",
+        "itens": [
+          {
+            "cod_prod": "6256",
+            "descricao": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+            "qt": 5,
+            "preco": 86.28,
+            "total": 431.4
+          }
+        ]
+      }
+    ],
+    "email_data_agendamento": "04/09/2026",
+    "email_observacoes": "CAIXAS E RÓTULOS ÍNTEGROS E ORIGINAIS. COLOCAR OBSERVAÇÃO NAS LOJAS \"SUPERMERCADO SUPERMAKET\""
+  },
+  "1a067f29f404aeed": {
+    "subject": "PEDIDO CRC4 - BARRA OESTE",
+    "data_email": "2026-09-03",
+    "blocos": [
+      {
+        "sistema": "CRC - 04",
+        "cod_cliente": "67821",
+        "razao_social": "SUPERMERCADO BARRA OESTE LTDA",
+        "fantasia": "REDE SUPERMARKET - BARRA DA TIJUCA",
+        "cnpj": "08.719.835/0003-70",
+        "praca": "AV EMBAIXADOR A BUENO, 2820, BARRA DA TIJUCA - RIO DE JANEIRO",
+        "forma_pg": "Boleto",
+        "rca": "450 - LEANDRO PEREIRA",
+        "bonificacao": false,
+        "tipo_segmento": "OFF TRADE",
+        "obs": "",
+        "prazo": "28 dias",
+        "itens": [
+          {
+            "cod_prod": "6256",
+            "descricao": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+            "qt": 3,
+            "preco": 84.0,
+            "total": 252.0
+          }
+        ]
+      },
+      {
+        "sistema": "CRC - 04",
+        "cod_cliente": "93791",
+        "razao_social": "SUPERMERCADO BARRA OESTE LTDA",
+        "fantasia": "SUPERMARKET - VIA PARQUE",
+        "cnpj": "08.719.835/0009-65",
+        "praca": "BARRA DA TIJUCA - RIO DE JANEIRO",
+        "forma_pg": "Boleto",
+        "rca": "450 - LEANDRO PEREIRA",
+        "bonificacao": false,
+        "tipo_segmento": "OFF TRADE",
+        "obs": "",
+        "prazo": "28 dias",
+        "itens": [
+          {
+            "cod_prod": "6256",
+            "descricao": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+            "qt": 10,
+            "preco": 84,
+            "total": 840
+          }
+        ]
+      }
+    ],
+    "email_data_agendamento": "04/09/2026",
+    "email_observacoes": "POR GENTILEZA, SALIENTAR PARA LOGÍSTICA QUE EMBARQUEM AS CAIXAS ORIGINAIS E ÍNTEGRAS. O PEDIDO SERÁ DEVOLVIDO SE FOREM FRACIONADOS. HORÁRIO DE RECEBIMENTO : SEGUNDA A SEXTA , DAS 08:00H às 14:30h . DESCARGA, R$ 25,00 POR PALLET, PALLET BATIDO R$ 40,00, POR VOLUME R$ 1,00, FILME R$ 60,00."
+  },
+  "1a067bbd8e28e67e": {
+    "subject": "PEDIDO CRC4 - RIO SUL MARICÁ",
+    "data_email": "2026-09-03",
+    "blocos": [
+      {
+        "sistema": "CRC - 04",
+        "cod_cliente": "85897",
+        "razao_social": "SUPERMERCADO JARDIM ATLANTICO LTDA",
+        "fantasia": "SUPERMERCADO JARDIM ATLANTICO",
+        "cnpj": "57.489.708/0001-75",
+        "praca": "JARDIM ATLANTICO OESTE (ITAIPUAÇU) - MARICA",
+        "forma_pg": "Boleto",
+        "rca": "ANGELO NEVES SUZART - OFF TRADE",
+        "bonificacao": false,
+        "tipo_segmento": "OFF TRADE",
+        "obs": "ENTREGAR O AQUARELA EDIÇÃO ESPECIAL PARA ZERARMOS O ESTOQUE",
+        "prazo": "28",
+        "itens": [
+          {
+            "cod_prod": "663",
+            "descricao": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+            "qt": 91,
+            "preco": 32.9,
+            "total": 2993.9
+          }
+        ]
+      }
+    ],
+    "email_data_agendamento": "04/09/2026",
+    "email_observacoes": "entregar de 08 às 15, descarga 60,00 por pllt, COLOCAR AS 91 GARRAFAS DO ITEM AQUARELA EDIÇÃO ESPECIAL PARA ZERARMOS O ESTOQUE."
+  },
+  "1a06775b11b39590": {
+    "subject": "Re: ⚠️ ALERTA LOGÍSTICA RJ: 6.6% de Reentrega em 02/09/2026",
+    "data_email": "2026-09-03",
+    "blocos": [],
+    "email_data_agendamento": "",
+    "email_observacoes": ""
+  },
+  "1a06730f8afb4259": {
+    "subject": "⚠️ ALERTA LOGÍSTICA RJ: 6.6% de Reentrega em 02/09/2026",
+    "data_email": "2026-09-03",
+    "blocos": [],
+    "email_data_agendamento": "",
+    "email_observacoes": ""
+  },
+  "1a0672605d03b5e0": {
+    "subject": "Report Diário de Pedidos — 03/09/2026",
+    "data_email": "2026-09-03",
+    "blocos": [],
+    "email_data_agendamento": "",
+    "email_observacoes": ""
+  },
+  "1a06700bb4b4e0a2": {
+    "subject": "Fwd: Pedido do cliente 84202 Rio Sul do Pantanal",
+    "data_email": "2026-09-03",
+    "blocos": [
+      {
+        "sistema": "CRC - 04",
+        "bonificacao": false,
+        "itens": [
+          {
+            "cod_prod": "3818",
+            "descricao": "VINHO BORDO QUINTA DO MORGADO 1LT",
+            "qt": 12,
+            "preco": 19.9,
+            "total": 238.8
+          },
+          {
+            "cod_prod": "7702",
+            "descricao": "AMARULA C LIQUEUR 750 ML + 1 COPO",
+            "qt": 2,
+            "preco": 98.9,
+            "total": 197.8
+          }
+        ],
+        "cod_cliente": "84202",
+        "razao_social": "SUPERMERCADO RIO SUL DO PANTANAL LTDA",
+        "fantasia": "RIO SUL DO PANTANAL - VILA SANTO ANTONIO",
+        "cnpj": "28.048.381/0001-06",
+        "endereco": "RUA DELGADO DE CARVALHO, SN, VILA SANTO ANTÔNIO - DUQUE DE CAXIAS",
+        "forma_pg": "Boleto",
+        "rca": "153",
+        "tipo_segmento": "OFF TRADE"
+      }
+    ],
+    "email_data_agendamento": "04/09/2026",
+    "email_observacoes": "prazo 28 dias, pagamento de descarga R$65,00 por pallets, horário: 08:00 às 14:00 por ordem de chegada"
+  },
+  "1a06530f941eda60": {
+    "subject": "Re: pedido crc4 - padrão do fonseca",
+    "data_email": "2026-09-02",
+    "blocos": [
+      {
+        "sistema": "CRC - 04",
+        "cod_cliente": "9604",
+        "razao_social": "SUPERMERCADO PADRAO DO FONSECA EIRELI",
+        "fantasia": "SUPERMARKET FONSECA - PIRATININGA",
+        "cnpj": "08.628.825/0003-29",
+        "praca": "PIRATININGA",
+        "forma_pg": "Boleto",
+        "rca": "450 - LEANDRO SOUZA - OFF TRADE",
+        "bonificacao": false,
+        "tipo_segmento": "OFF TRADE",
+        "obs": "",
+        "prazo": "28 DIAS",
+        "itens": [
+          {
+            "cod_prod": "6256",
+            "descricao": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+            "qt": 5,
+            "preco": 86.28,
+            "total": 431.4
+          },
+          {
+            "cod_prod": "6334",
+            "descricao": "MOVING BOOSTER MORANGO ACEROLA 24X310ML",
+            "qt": 2,
+            "preco": 155.28,
+            "total": 310.56
+          }
+        ]
+      },
+      {
+        "sistema": "CRC - 04",
+        "cod_cliente": "78665",
+        "razao_social": "SUPERMERCADO PADRAO DO FONSECA LTDA",
+        "fantasia": "SUPERMARKET - DEL CASTILHO",
+        "cnpj": "08.628.827/0022-91",
+        "praca": "DEL CASTILHO",
+        "forma_pg": "Boleto",
+        "rca": "450 - LEANDRO SOUZA - OFF TRADE",
+        "bonificacao": false,
+        "tipo_segmento": "OFF TRADE",
+        "obs": "",
+        "prazo": "28 DIAS",
+        "itens": [
+          {
+            "cod_prod": "6257",
+            "descricao": "MOVING HYDRO PROTEIN UVA 12X500ML",
+            "qt": 3,
+            "preco": 86.28,
+            "total": 258.84
+          },
+          {
+            "cod_prod": "6256",
+            "descricao": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+            "qt": 8,
+            "preco": 86.28,
+            "total": 690.24
+          },
+          {
+            "cod_prod": "6259",
+            "descricao": "MOVING HYDRO PROTEIN F ERMELHA 12X500ML",
+            "qt": 10,
+            "preco": 86.28,
+            "total": 862.8
+          },
+          {
+            "cod_prod": "6254",
+            "descricao": "MOVING BOOSTER ABACAXI HORTELA 24X310ML",
+            "qt": 2,
+            "preco": 155.28,
+            "total": 310.56
+          },
+          {
+            "cod_prod": "6334",
+            "descricao": "MOVING BOOSTER MORANGO ACEROLA 24X310ML",
+            "qt": 1,
+            "preco": 155.28,
+            "total": 155.28
+          }
+        ]
+      },
+      {
+        "sistema": "CRC - 04",
+        "cod_cliente": "90820",
+        "razao_social": "SUPERMERCADO PADRÃO DO FONSECA LTDA.",
+        "fantasia": "SUPERMARKET",
+        "cnpj": "08.628.825/0001-67",
+        "praca": "FONSECA",
+        "forma_pg": "Boleto",
+        "rca": "450 - LEANDRO SOUZA - OFF TRADE",
+        "bonificacao": false,
+        "tipo_segmento": "OFF TRADE",
+        "obs": "",
+        "prazo": "28 DIAS",
+        "itens": [
+          {
+            "cod_prod": "6254",
+            "descricao": "MOVING BOOSTER ABACAXI HORTELA 24X310ML",
+            "qt": 1,
+            "preco": 155.28,
+            "total": 155.28
+          },
+          {
+            "cod_prod": "6256",
+            "descricao": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+            "qt": 2,
+            "preco": 86.28,
+            "total": 172.56
+          },
+          {
+            "cod_prod": "6334",
+            "descricao": "MOVING BOOSTER MORANGO ACEROLA 24X310ML",
+            "qt": 1,
+            "preco": 155.28,
+            "total": 155.28
+          }
+        ]
+      },
+      {
+        "sistema": "CRC - 04",
+        "cod_cliente": "9603",
+        "razao_social": "SUPERMERCADO PADRAO DO FONSECA EIRELI",
+        "fantasia": "REDE SUPERMARKET (PADR? DO FONSECA - IT",
+        "cnpj": "08.628.825/0004-00",
+        "praca": "ITAPIU",
+        "forma_pg": "Boleto",
+        "rca": "450 - LEANDRO SOUZA - OFF TRADE",
+        "bonificacao": false,
+        "tipo_segmento": "OFF TRADE",
+        "obs": "",
+        "prazo": "28 DIAS",
+        "itens": [
+          {
+            "cod_prod": "6257",
+            "descricao": "MOVING HYDRO PROTEIN VUA 12X500ML",
+            "qt": 2,
+            "preco": 86.28,
+            "total": 172.56
+          },
+          {
+            "cod_prod": "6256",
+            "descricao": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+            "qt": 2,
+            "preco": 86.28,
+            "total": 172.56
+          },
+          {
+            "cod_prod": "6334",
+            "descricao": "MOVING BOOSTER MANGOR ACEROLA 24X310ML",
+            "qt": 1,
+            "preco": 155.28,
+            "total": 155.28
+          },
+          {
+            "cod_prod": "6254",
+            "descricao": "MOVING BOOSTER ABACAXI HORTELA 24X310ML",
+            "qt": 1,
+            "preco": 155.28,
+            "total": 155.28
+          }
+        ]
+      },
+      {
+        "sistema": "CRC - 04",
+        "cod_cliente": "28411",
+        "razao_social": "SUPERMERCADO PADRAO DO FONSECA EIRELI",
+        "fantasia": "SUPERMARKET",
+        "cnpj": "08.628.825/0015-62",
+        "praca": "PORTO VELHO",
+        "forma_pg": "Boleto",
+        "rca": "450 - LEANDRO SOUZA - OFF TRADE",
+        "bonificacao": false,
+        "tipo_segmento": "OFF TRADE",
+        "obs": "",
+        "prazo": "28 DIAS",
+        "itens": [
+          {
+            "cod_prod": "6254",
+            "descricao": "MOVING BOOSTER ABACAXI HORTELA 24X310ML",
+            "qt": 1,
+            "preco": 155.28,
+            "total": 155.28
+          },
+          {
+            "cod_prod": "6256",
+            "descricao": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+            "qt": 2,
+            "preco": 86.28,
+            "total": 172.56
+          }
+        ]
+      },
+      {
+        "sistema": "CRC - 04",
+        "cod_cliente": "90415",
+        "razao_social": "SUPERMERCADO PADRÃO DO FONSECA LTDA",
+        "fantasia": "SUPERMARKET",
+        "cnpj": "08.628.825/0024-53",
+        "praca": "PENHA",
+        "forma_pg": "Boleto",
+        "rca": "450 - LEANDRO SOUZA - OFF TRADE",
+        "bonificacao": false,
+        "tipo_segmento": "OFF TRADE",
+        "obs": "",
+        "prazo": "28 DIAS",
+        "itens": [
+          {
+            "cod_prod": "6257",
+            "descricao": "MOVING HYDRO PROTEIN UVA 12X500ML",
+            "qt": 4,
+            "preco": 86.28,
+            "total": 345.12
+          },
+          {
+            "cod_prod": "6256",
+            "descricao": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+            "qt": 5,
+            "preco": 86.28,
+            "total": 431.4
+          },
+          {
+            "cod_prod": "6259",
+            "descricao": "MOVING HYDRO PROTEIN F VERMEHA 12X500ML",
+            "qt": 2,
+            "preco": 86.28,
+            "total": 172.56
+          },
+          {
+            "cod_prod": "6334",
+            "descricao": "MOVING BOOSTER LARANJA ACEROLA 24X310ML",
+            "qt": 2,
+            "preco": 155.28,
+            "total": 310.56
+          },
+          {
+            "cod_prod": "6254",
+            "descricao": "MOVING BOOSTER ABACAXI HORTELA 24X310ML",
+            "qt": 1,
+            "preco": 155.28,
+            "total": 155.28
+          }
+        ]
+      },
+      {
+        "sistema": "CRC - 04",
+        "cod_cliente": "91841",
+        "razao_social": "SUPERMERCADO PADRAO DO FONSECA LTDA.",
+        "fantasia": "SUPERMARKET",
+        "cnpj": "08.628.825/0025-34",
+        "praca": "PIRATININGA",
+        "forma_pg": "Boleto",
+        "rca": "450 - LEANDRO SOUZA - OFF TRADE",
+        "bonificacao": false,
+        "tipo_segmento": "OFF TRADE",
+        "obs": "",
+        "prazo": "28 DIAS",
+        "itens": [
+          {
+            "cod_prod": "6256",
+            "descricao": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+            "qt": 2,
+            "preco": 86.28,
+            "total": 172.56
+          },
+          {
+            "cod_prod": "6334",
+            "descricao": "MOVING BOOSTER MORANGO ACEROLA 24X310ML",
+            "qt": 1,
+            "preco": 155.28,
+            "total": 155.28
+          }
+        ]
+      },
+      {
+        "sistema": "CRC - 04",
+        "cod_cliente": "90413",
+        "razao_social": "SUPERMERCADO PADRAO DO FONSECA LTDA",
+        "fantasia": "SUPERMARKET",
+        "cnpj": "08.628.825/0019-96",
+        "praca": "VALVERDE",
+        "forma_pg": "Boleto",
+        "rca": "450 - LEANDRO SOUZA - OFF TRADE",
+        "bonificacao": false,
+        "tipo_segmento": "OFF TRADE",
+        "obs": "",
+        "prazo": "28 DIAS",
+        "itens": [
+          {
+            "cod_prod": "6256",
+            "descricao": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+            "qt": 3,
+            "preco": 86.28,
+            "total": 258.84
+          }
+        ]
+      }
+    ],
+    "email_data_agendamento": "03/09/2026",
+    "email_observacoes": "CAIXAS E RÓTULOS ÍNTEGROS E ORIGINAIS; COLOCAR OBSERVAÇÃO NAS LOJAS \"SUPERMERCADO SUPERMAKET\""
+  },
+  "1a0652f16326ffa0": {
+    "subject": "Re: pedido crc4 - super compras/vale verde",
+    "data_email": "2026-09-02",
+    "blocos": [
+      {
+        "sistema": "CRC - 04",
+        "cod_cliente": "19230",
+        "razao_social": "MERCADO VALE VERDE DE PACIENCIA LTDA",
+        "fantasia": "MERCADO VALE VERDE DE PACIENCIA LTDA",
+        "cnpj": "28.423.936/0001-44",
+        "praca": "PACIENCIA",
+        "forma_pg": "",
+        "rca": "419 - NÁTALI DE OLIVEIRA - OFF TRADE",
+        "bonificacao": false,
+        "tipo_segmento": "OFF TRADE",
+        "obs": "entregar imediato",
+        "prazo": "28 DIAS",
+        "itens": [
+          {
+            "cod_prod": "4570",
+            "descricao": "VINHO CAVAS DE ORO BLEND BRANCO 750ML",
+            "qt": 6,
+            "preco": 29.9,
+            "total": 179.4
+          },
+          {
+            "cod_prod": "4572",
+            "descricao": "VINHO CAVAS DE ORO MALBEC 750ML",
+            "qt": 6,
+            "preco": 36.9,
+            "total": 221.4
+          },
+          {
+            "cod_prod": "4571",
+            "descricao": "VINHO CAVAS DE ORO BLEND ROSADO 750ML",
+            "qt": 6,
+            "preco": 29.9,
+            "total": 179.4
+          },
+          {
+            "cod_prod": "4569",
+            "descricao": "VINHO CAVAS DE ORO BLEND TINTO 750ML",
+            "qt": 6,
+            "preco": 29.9,
+            "total": 179.4
+          },
+          {
+            "cod_prod": "4574",
+            "descricao": "VINHO CAVAS DE ORO CABERNET SAUV 750ML",
+            "qt": 6,
+            "preco": 36.9,
+            "total": 221.4
+          },
+          {
+            "cod_prod": "2927",
+            "descricao": "VINHO FOODKILLER CAB. SAUV. 750ML",
+            "qt": 12,
+            "preco": 31.9,
+            "total": 382.8
+          },
+          {
+            "cod_prod": "2926",
+            "descricao": "VINHO FOODKILLER CAB. SAUV./ MERLOT",
+            "qt": 6,
+            "preco": 31.9,
+            "total": 191.4
+          },
+          {
+            "cod_prod": "2928",
+            "descricao": "VINHO FOODKILLER CARMENERE 750ML",
+            "qt": 6,
+            "preco": 31.9,
+            "total": 191.4
+          },
+          {
+            "cod_prod": "2929",
+            "descricao": "VINHO FOODKILLER CHARDONNAY 750ML",
+            "qt": 6,
+            "preco": 31.9,
+            "total": 191.4
+          },
+          {
+            "cod_prod": "2614",
+            "descricao": "VILLA ROSA TINTO 750ML",
+            "qt": 6,
+            "preco": 24.9,
+            "total": 149.4
+          },
+          {
+            "cod_prod": "2703",
+            "descricao": "VILLA ROSA ROSE 750ML",
+            "qt": 6,
+            "preco": 24.9,
+            "total": 149.4
+          },
+          {
+            "cod_prod": "4068",
+            "descricao": "VINHO VILLA ROSA FRISANTE ROSE",
+            "qt": 6,
+            "preco": 24.9,
+            "total": 149.4
+          }
+        ]
+      }
+    ],
+    "email_data_agendamento": "03/09/2026",
+    "email_observacoes": "entrega agendada para 08 às 16hrs, descarga pllt 25,00"
+  },
+  "1a0652dd1a453414": {
+    "subject": "Re: pedido CRC 4 - Barra Oeste",
+    "data_email": "2026-09-02",
+    "blocos": [
+      {
+        "sistema": "CRC - 04",
+        "cod_cliente": "3754",
+        "razao_social": "SUPERMERCADO BARRA OESTE LTDA",
+        "fantasia": "SUPER MARKET",
+        "cnpj": "08.719.835/0001-08",
+        "praca": "RECREIO DOS BANDEIRANTES",
+        "forma_pg": "Boleto",
+        "rca": "450 - Leandro Pereira",
+        "bonificacao": false,
+        "tipo_segmento": "OFF TRADE",
+        "obs": "",
+        "prazo": "28 DIAS",
+        "itens": [
+          {
+            "cod_prod": "6259",
+            "descricao": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+            "qt": 10,
+            "preco": 84,
+            "total": 840
+          },
+          {
+            "cod_prod": "6256",
+            "descricao": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+            "qt": 10,
+            "preco": 84,
+            "total": 840
+          },
+          {
+            "cod_prod": "6254",
+            "descricao": "MOVING BOOSTER ABACAXI HORTELA 24X310ML",
+            "qt": 1,
+            "preco": 154.8,
+            "total": 154.8
+          },
+          {
+            "cod_prod": "4886",
+            "descricao": "ST PIERRE ZERO LATA PINK LEMON 24X310ML",
+            "qt": 1,
+            "preco": 100.56,
+            "total": 100.56
+          },
+          {
+            "cod_prod": "4884",
+            "descricao": "ST PIERRE ZERO LATA RED MINT LT 24X310ML",
+            "qt": 1,
+            "preco": 100.56,
+            "total": 100.56
+          },
+          {
+            "cod_prod": "4885",
+            "descricao": "ST PIERRE ZERO LATA TROPICAL LT 24X310ML",
+            "qt": 2,
+            "preco": 100.56,
+            "total": 201.12
+          }
+        ]
+      },
+      {
+        "sistema": "CRC - 04",
+        "cod_cliente": "67821",
+        "razao_social": "SUPERMERCADO BARRA OESTE LTDA",
+        "fantasia": "REDE SUPERMARKET - BARRA DA TIJUCA",
+        "cnpj": "08.719.835/0003-70",
+        "praca": "BARRA DA TIJUCA",
+        "forma_pg": "Boleto",
+        "rca": "450 - Leandro Pereira",
+        "bonificacao": false,
+        "tipo_segmento": "OFF TRADE",
+        "obs": "",
+        "prazo": "28 DIAS",
+        "itens": [
+          {
+            "cod_prod": "6259",
+            "descricao": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+            "qt": 5,
+            "preco": 84,
+            "total": 420
+          },
+          {
+            "cod_prod": "6256",
+            "descricao": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+            "qt": 3,
+            "preco": 84,
+            "total": 252
+          },
+          {
+            "cod_prod": "4885",
+            "descricao": "ST PIERRE ZERO LATA TROPICAL LT 24X310ML",
+            "qt": 2,
+            "preco": 100.56,
+            "total": 201.12
+          }
+        ]
+      },
+      {
+        "sistema": "CRC - 04",
+        "cod_cliente": "67822",
+        "razao_social": "SUPERMERCADO BARRA OESTE LTDA",
+        "fantasia": "BARRA OESTE - BARRA DA TIJU",
+        "cnpj": "08.719.835/0007-01",
+        "praca": "BARRA DA TIJUCA",
+        "forma_pg": "Boleto",
+        "rca": "450 - Leandro Pereira",
+        "bonificacao": false,
+        "tipo_segmento": "OFF TRADE",
+        "obs": "",
+        "prazo": "28 DIAS",
+        "itens": [
+          {
+            "cod_prod": "6259",
+            "descricao": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+            "qt": 10,
+            "preco": 84.0,
+            "total": 840.0
+          },
+          {
+            "cod_prod": "6256",
+            "descricao": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+            "qt": 10,
+            "preco": 84.0,
+            "total": 840.0
+          },
+          {
+            "cod_prod": "6254",
+            "descricao": "MOVING BOOSTER ABACAXI HORTELA 24X310ML",
+            "qt": 2,
+            "preco": 154.8,
+            "total": 309.6
+          },
+          {
+            "cod_prod": "4886",
+            "descricao": "ST PIERRE ZERO LATA PINK LEMON 24X310ML",
+            "qt": 2,
+            "preco": 100.56,
+            "total": 201.12
+          },
+          {
+            "cod_prod": "4884",
+            "descricao": "ST PIERRE ZERO LATA RED MINT LT 24X310ML",
+            "qt": 2,
+            "preco": 100.56,
+            "total": 201.12
+          }
+        ]
+      },
+      {
+        "sistema": "CRC - 04",
+        "cod_cliente": "93791",
+        "razao_social": "SUPERMERCADO BARRA OESTE LTDA",
+        "fantasia": "SUPERMARKET - VIA PARQUE",
+        "cnpj": "08.719.835/0009-65",
+        "praca": "BARRA DA TIJUCA",
+        "forma_pg": "Boleto",
+        "rca": "450 - Leandro Pereira",
+        "bonificacao": false,
+        "tipo_segmento": "OFF TRADE",
+        "obs": "",
+        "prazo": "28 DIAS",
+        "itens": [
+          {
+            "cod_prod": "6259",
+            "descricao": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+            "qt": 10,
+            "preco": 84.0,
+            "total": 840.0
+          },
+          {
+            "cod_prod": "6256",
+            "descricao": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+            "qt": 10,
+            "preco": 84.0,
+            "total": 840.0
+          },
+          {
+            "cod_prod": "4886",
+            "descricao": "ST PIERRE ZERO LATA PINK LEMON 24X310ML",
+            "qt": 2,
+            "preco": 100.56,
+            "total": 201.12
+          },
+          {
+            "cod_prod": "4884",
+            "descricao": "ST PIERRE ZERO LATA RED MINT LT 24X310ML",
+            "qt": 2,
+            "preco": 100.56,
+            "total": 201.12
+          },
+          {
+            "cod_prod": "4885",
+            "descricao": "ST PIERRE ZERO LATA TROPICAL LT 24X310ML",
+            "qt": 2,
+            "preco": 100.56,
+            "total": 201.12
+          },
+          {
+            "cod_prod": "3771",
+            "descricao": "VODKA BELVEDERE 700 ML",
+            "qt": 6,
+            "preco": 113.9,
+            "total": 683.4
+          }
+        ]
+      }
+    ],
+    "email_data_agendamento": "03/09/2026",
+    "email_observacoes": "SALIENTAR PARA LOGÍSTICA QUE EMBARQUEM AS CAIXAS ORIGINAIS E ÍNTEGRAS. O PEDIDO SERÁ DEVOLVIDO SE FOREM FRACIONADOS. HORÁRIO DE RECEBIMENTO : SEGUNDA A SEXTA , DAS 08:00H às 14:30h . DESCARGA, R$ 25,00 POR PALLET, PALLET BATIDO R$ 40,00, POR VOLUME R$ 1,00, FILME R$ 60,00."
+  },
+  "1a063ba95d843e61": {
+    "subject": "pedido crc4 - ANB griffe dos vinhos",
+    "data_email": "2026-09-02",
+    "blocos": [
+      {
+        "sistema": "CRC - 04",
+        "cod_cliente": "71185",
+        "razao_social": "ANB DISTRIBUIDORA DE ALIMENTOS E BEBIDAS LTDA",
+        "fantasia": "ANB DISTRIBUIDORA DE ALIMENTOS E BEBIDAS",
+        "cnpj": "49.306.432/0001-14",
+        "praca": "",
+        "forma_pg": "Boleto",
+        "rca": "378 - fabio valotti",
+        "bonificacao": false,
+        "tipo_segmento": "OFF TRADE",
+        "obs": "entrega agendada para amanha de 6 as 11 hrs - cadeg",
+        "prazo": "28/35/42",
+        "itens": [
+          {
+            "cod_prod": "3760",
+            "descricao": "CHANDON BABY BRUT ROSE 187 ML",
+            "qt": 48,
+            "preco": 26.9,
+            "total": 1291.2
+          }
+        ]
+      }
+    ],
+    "email_data_agendamento": "03/09/2026",
+    "email_observacoes": "entrega agendada para 06 às 11hrs - cadeg"
+  },
+  "1a063b6beca3597c": {
+    "subject": "Fwd: PEDIDO MERCADO IDEAL - CONCEIÇÃO DE JACAREI",
+    "data_email": "2026-09-02",
+    "blocos": [],
+    "email_data_agendamento": "",
+    "email_observacoes": ""
+  },
+  "1a063b438d687282": {
+    "subject": "PEDIDO MERCADO IDEAL - CONCEIÇÃO DE JACAREI",
+    "data_email": "2026-09-02",
+    "blocos": [],
+    "email_data_agendamento": "",
+    "email_observacoes": ""
+  },
+  "1a063abd9d2ae049": {
+    "subject": "Fwd: bonificação do cliente 18918 Jardins da ILha",
+    "data_email": "2026-09-02",
+    "blocos": [
+      {
+        "sistema": "CRC - 04",
+        "bonificacao": true,
+        "itens": [
+          {
+            "cod_prod": "2613",
+            "descricao": "VILLA ROSA BRANCO 750ML",
+            "qt": 1,
+            "preco": 29.9,
+            "total": 29.9
+          }
+        ],
+        "cod_cliente": "18918",
+        "razao_social": "MERCADO JARDINS DA ILHA LTDA",
+        "fantasia": "MERCADO JARDINS DA ILHA LTDA",
+        "cnpj": "27.939.646/0001-95",
+        "endereco": "RUA CAMBAUBA, 404 , JARDIM GAUNABARA - RIO DE JANEIRO",
+        "forma_pg": "Boleto",
+        "rca": "153",
+        "tipo_segmento": "OFF TRADE"
+      }
+    ],
+    "email_data_agendamento": "03/09/2026",
+    "email_observacoes": "entregar junto com o pedido por favor, taxa descarga: R$50,00 por pallet, horário de entrega: 08:00hs às 14:00hs"
+  },
+  "1a063aaf7c07b151": {
+    "subject": "Fwd: Pedido do cliente 18918 Jardins da Ilha ( CAMBAUBA)",
+    "data_email": "2026-09-02",
+    "blocos": [
+      {
+        "sistema": "CRC - 04",
+        "bonificacao": false,
+        "itens": [
+          {
+            "cod_prod": "2928",
+            "descricao": "VINHO FOODKILLER CARMENERE 750ML",
+            "qt": 12,
+            "preco": 29.9,
+            "total": 358.8
+          },
+          {
+            "cod_prod": "2924",
+            "descricao": "VINHO GRAVEDAD CARMENERE 750ML",
+            "qt": 12,
+            "preco": 29.9,
+            "total": 358.8
+          },
+          {
+            "cod_prod": "2925",
+            "descricao": "VINHO GRAVEDAD CAB. SAUV.",
+            "qt": 12,
+            "preco": 29.9,
+            "total": 358.8
+          },
+          {
+            "cod_prod": "2923",
+            "descricao": "VINHO GRAVEDAD SAUV. BLANC 750ML",
+            "qt": 12,
+            "preco": 29.9,
+            "total": 358.8
+          },
+          {
+            "cod_prod": "2922",
+            "descricao": "VINHO GRAVEDAD CAB. SAUV./ CARMENERE",
+            "qt": 12,
+            "preco": 29.9,
+            "total": 358.8
+          },
+          {
+            "cod_prod": "2613",
+            "descricao": "VILLA ROSA BRANCO 750ML",
+            "qt": 12,
+            "preco": 29.9,
+            "total": 358.8
+          },
+          {
+            "cod_prod": "2848",
+            "descricao": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
+            "qt": 12,
+            "preco": 55.9,
+            "total": 670.8
+          }
+        ],
+        "cod_cliente": "18918",
+        "razao_social": "MERCADO JARDINS DA ILHA LTDA",
+        "fantasia": "MERCADO JARDINS DA ILHA LTDA",
+        "cnpj": "27.939.646/0001-95",
+        "endereco": "RUA CAMBAUBA, 404 , JARDIM GAUNABARA - RIO DE JANEIRO",
+        "forma_pg": "Boleto",
+        "rca": "153",
+        "tipo_segmento": "OFF TRADE"
+      }
+    ],
+    "email_data_agendamento": "04/09/2026",
+    "email_observacoes": "entregar dia 04/09, horário: 08:00 às 14:00, pagamento de descarga R$50,00 por pallets, embalagem e rótulos não podem estar danificados e produtos em sua caixa de origem"
+  },
+  "1a063aa3dc95862a": {
+    "subject": "Pedido do cliente 84202 Rio Sul do Pantanal",
+    "data_email": "2026-09-02",
+    "blocos": [
+      {
+        "sistema": "CRC - 04",
+        "bonificacao": false,
+        "itens": [
+          {
+            "cod_prod": "3818",
+            "descricao": "VINHO BORDO QUINTA DO MORGADO 1LT",
+            "qt": 12,
+            "preco": 19.9,
+            "total": 238.8
+          },
+          {
+            "cod_prod": "7702",
+            "descricao": "AMARULA C LIQUEUR 750 ML + 1 COPO",
+            "qt": 2,
+            "preco": 98.9,
+            "total": 197.8
+          }
+        ],
+        "cod_cliente": "84202",
+        "razao_social": "SUPERMERCADO RIO SUL DO PANTANAL LTDA",
+        "fantasia": "RIO SUL DO PANTANAL - VILA SANTO ANTONIO",
+        "cnpj": "28.048.381/0001-06",
+        "endereco": "RUA DELGADO DE CARVALHO, SN, VILA SANTO ANTÔNIO - DUQUE DE CAXIAS",
+        "forma_pg": "Boleto",
+        "rca": "153",
+        "tipo_segmento": "OFF TRADE"
+      }
+    ],
+    "email_data_agendamento": "04/09/2026",
+    "email_observacoes": "prazo 28 dias, pagamento de descarga R$65,00 por pallets, horário: 08:00 às 14:00 por ordem de chegada, e temos um pedido no MAXX para seguir junto"
+  },
+  "1a063a3f9807385f": {
+    "subject": "Re: Cadastro de clientes na base",
+    "data_email": "2026-09-02",
+    "blocos": [],
+    "email_data_agendamento": "",
+    "email_observacoes": ""
+  },
+  "1a0639f84c8002a6": {
+    "subject": "Pedido do cliente 85945 Rio Sul do Centenario",
+    "data_email": "2026-09-02",
+    "blocos": [
+      {
+        "sistema": "CRC - 04",
+        "bonificacao": false,
+        "itens": [
+          {
+            "cod_prod": "3817",
+            "descricao": "VINHO TINTO QUINTA DO MORGADO 1LT",
+            "qt": 30,
+            "preco": 16.9,
+            "total": 507.0
+          },
+          {
+            "cod_prod": "3814",
+            "descricao": "VINHO TINTO QUINTA DO MORGADO 750ML",
+            "qt": 48,
+            "preco": 14.49,
+            "total": 695.52
+          },
+          {
+            "cod_prod": "3820",
+            "descricao": "VINHO MERLOT QUINTA DO MORGADO 750ML",
+            "qt": 12,
+            "preco": 21.9,
+            "total": 262.8
+          }
+        ],
+        "cod_cliente": "85945",
+        "razao_social": "SUPERMERCADO RIO SUL DO CENTENARIO LTDA",
+        "fantasia": "SUPERMERCADO RIO SUL DO CENTENARIO LTDA",
+        "cnpj": "33.749.495/0001-05",
+        "endereco": "AVENIDA PERIMETRAL DOUTOR MANOEL REIS, 954, VILA MERITI - DUQUE DE CAXIAS",
+        "forma_pg": "Boleto",
+        "rca": "153",
+        "tipo_segmento": "OFF TRADE"
+      }
+    ],
+    "email_data_agendamento": "04/09/2026",
+    "email_observacoes": "Só iremos faturar o pedido com autorização da indústria que está em cópia neste email para poder fazer a degustação. Taxa descarga: R$65,00 por pallet. Horário de entrega: 08:00hs às 14:00hs."
+  },
+  "1a0639901bacfdea": {
+    "subject": "bonificação do cliente 18918 Jardins da ILha",
+    "data_email": "2026-09-02",
+    "blocos": [
+      {
+        "sistema": "CRC - 04",
+        "bonificacao": true,
+        "itens": [
+          {
+            "cod_prod": "2613",
+            "descricao": "VILLA ROSA BRANCO 750ML",
+            "qt": 1,
+            "preco": 29.9,
+            "total": 29.9
+          }
+        ],
+        "cod_cliente": "18918",
+        "razao_social": "MERCADO JARDINS DA ILHA LTDA",
+        "fantasia": "MERCADO JARDINS DA ILHA LTDA",
+        "cnpj": "27.939.646/0001-95",
+        "endereco": "RUA CAMBAUBA, 404, JARDIM GAUNABARA - RIO DE JANEIRO",
+        "forma_pg": "Boleto",
+        "rca": "153",
+        "tipo_segmento": "OFF TRADE"
+      }
+    ],
+    "email_data_agendamento": "04/09/2026",
+    "email_observacoes": "TAXA DESCARGA: R$50,00 POR PALLET; HORÁRIO DE ENTREGA: 08:00hs às 14:00hs"
+  },
+  "1a06396e68f31a38": {
+    "subject": "Pedido do cliente 18918 Jardins da Ilha ( CAMBAUBA)",
+    "data_email": "2026-09-02",
+    "blocos": [
+      {
+        "sistema": "CRC - 04",
+        "bonificacao": false,
+        "itens": [
+          {
+            "cod_prod": "2928",
+            "descricao": "VINHO FOODKILLER CARMENERE 750ML",
+            "qt": 12,
+            "preco": 29.9,
+            "total": 358.8
+          },
+          {
+            "cod_prod": "2924",
+            "descricao": "VINHO GRAVEDAD CARMENERE 750ML",
+            "qt": 12,
+            "preco": 29.9,
+            "total": 358.8
+          },
+          {
+            "cod_prod": "2925",
+            "descricao": "VINHO GRAVEDAD CAB. SAUV.",
+            "qt": 12,
+            "preco": 29.9,
+            "total": 358.8
+          },
+          {
+            "cod_prod": "2923",
+            "descricao": "VINHO GRAVEDAD SAUV. BLANC 750ML",
+            "qt": 12,
+            "preco": 29.9,
+            "total": 358.8
+          },
+          {
+            "cod_prod": "2922",
+            "descricao": "VINHO GRAVEDAD CAB. SAUV./ CARMENERE",
+            "qt": 12,
+            "preco": 29.9,
+            "total": 358.8
+          },
+          {
+            "cod_prod": "2613",
+            "descricao": "VILLA ROSA BRANCO 750ML",
+            "qt": 12,
+            "preco": 29.9,
+            "total": 358.8
+          },
+          {
+            "cod_prod": "2848",
+            "descricao": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
+            "qt": 12,
+            "preco": 55.9,
+            "total": 670.8
+          }
+        ],
+        "cod_cliente": "18918",
+        "razao_social": "MERCADO JARDINS DA ILHA LTDA",
+        "fantasia": "MERCADO JARDINS DA ILHA LTDA",
+        "cnpj": "27.939.646/0001-95",
+        "endereco": "RUA CAMBAUBA, 404, JARDIM GAUNABARA - RIO DE JANEIRO",
+        "forma_pg": "Boleto",
+        "rca": "153",
+        "tipo_segmento": "OFF TRADE"
+      }
+    ],
+    "email_data_agendamento": "04/09/2026",
+    "email_observacoes": "entregar dia 04/09, horário: 08:00 às 14:00, pagamento de descarga R$50,00 por pallets, embalagem e rótulos não podem estar danificados e produtos em sua caixa de origem"
+  },
+  "1a063872ad282368": {
+    "subject": "Re:",
+    "data_email": "2026-09-02",
+    "blocos": [
+      {
+        "sistema": "CRC - 04",
+        "cod_cliente": "96005",
+        "razao_social": "",
+        "fantasia": "",
+        "cnpj": "",
+        "praca": "",
+        "forma_pg": "Boleto",
+        "rca": "",
+        "bonificacao": false,
+        "tipo_segmento": "OFF Trade",
+        "obs": "entregar no dia 24/08 não pagamos descarga no momento no horario das 08:00 as 14:00hr",
+        "prazo": "28",
+        "itens": [
+          {
+            "cod_prod": "663",
+            "descricao": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+            "qt": 12,
+            "preco": 36.9,
+            "total": 442.8
+          }
+        ]
+      }
+    ],
+    "email_data_agendamento": "01/09/2026",
+    "email_observacoes": "não pagamos descarga, horario: 08:00 ás 14:00"
+  },
+  "1a063852c64926f9": {
+    "subject": "Cadastro de clientes na base",
+    "data_email": "2026-09-02",
+    "blocos": [],
+    "email_data_agendamento": "",
+    "email_observacoes": ""
+  },
+  "1a063682927b2920": {
+    "subject": "pedido crc4 - super compras/vale verde",
+    "data_email": "2026-09-02",
+    "blocos": [
+      {
+        "sistema": "CRC - 04",
+        "cod_cliente": "19230",
+        "razao_social": "MERCADO VALE VERDE DE PACIENCIA LTDA",
+        "fantasia": "MERCADO VALE VERDE DE PACIENCIA LTDA",
+        "cnpj": "28.423.936/0001-44",
+        "praca": "PACIENCIA",
+        "forma_pg": "",
+        "rca": "419 - NÁTALI DE OLIVEIRA - OFF TRADE",
+        "bonificacao": false,
+        "tipo_segmento": "OFF TRADE",
+        "obs": "entregar imediato",
+        "prazo": "28 DIAS",
+        "itens": [
+          {
+            "cod_prod": "4570",
+            "descricao": "VINHO CAVAS DE ORO BLEND BRANCO 750ML",
+            "qt": 6,
+            "preco": 29.9,
+            "total": 179.4
+          },
+          {
+            "cod_prod": "4572",
+            "descricao": "VINHO CAVAS DE ORO MALBEC 750ML",
+            "qt": 6,
+            "preco": 36.9,
+            "total": 221.4
+          },
+          {
+            "cod_prod": "4571",
+            "descricao": "VINHO CAVAS DE ORO BLEND ROSADO 750ML",
+            "qt": 6,
+            "preco": 29.9,
+            "total": 179.4
+          },
+          {
+            "cod_prod": "4569",
+            "descricao": "VINHO CAVAS DE ORO BLEND TINTO 750ML",
+            "qt": 6,
+            "preco": 29.9,
+            "total": 179.4
+          },
+          {
+            "cod_prod": "4574",
+            "descricao": "VINHO CAVAS DE ORO CABERNET SAUV 750ML",
+            "qt": 6,
+            "preco": 36.9,
+            "total": 221.4
+          },
+          {
+            "cod_prod": "2927",
+            "descricao": "VINHO FOODKILLER CAB. SAUV. 750ML",
+            "qt": 12,
+            "preco": 31.9,
+            "total": 382.8
+          },
+          {
+            "cod_prod": "2926",
+            "descricao": "VINHO FOODKILLER CAB. SAUV./ MERLOT",
+            "qt": 6,
+            "preco": 31.9,
+            "total": 191.4
+          },
+          {
+            "cod_prod": "2928",
+            "descricao": "VINHO FOODKILLER CARMENERE 750ML",
+            "qt": 6,
+            "preco": 31.9,
+            "total": 191.4
+          },
+          {
+            "cod_prod": "2929",
+            "descricao": "VINHO FOODKILLER CHARDONNAY 750ML",
+            "qt": 6,
+            "preco": 31.9,
+            "total": 191.4
+          },
+          {
+            "cod_prod": "2614",
+            "descricao": "VILLA ROSA TINTO 750ML",
+            "qt": 6,
+            "preco": 24.9,
+            "total": 149.4
+          },
+          {
+            "cod_prod": "2703",
+            "descricao": "VILLA ROSA ROSE 750ML",
+            "qt": 6,
+            "preco": 24.9,
+            "total": 149.4
+          },
+          {
+            "cod_prod": "4068",
+            "descricao": "VINHO VILLA ROSA FRISANTE ROSE",
+            "qt": 6,
+            "preco": 24.9,
+            "total": 149.4
+          }
+        ]
+      }
+    ],
+    "email_data_agendamento": "03/09/2026",
+    "email_observacoes": "entrega agendada para amanhã, degustação alinhada de 08 às 16hrs, descarga pllt 25,00"
+  },
+  "1a0631c50cce7ffa": {
+    "subject": "XML de NF",
+    "data_email": "2026-09-02",
+    "blocos": [],
+    "email_data_agendamento": "",
+    "email_observacoes": ""
+  },
+  "1a062c1b0674db53": {
+    "subject": "pedido crc4 - padrão do fonseca",
+    "data_email": "2026-09-02",
+    "blocos": [
+      {
+        "sistema": "CRC - 04",
+        "cod_cliente": "9604",
+        "razao_social": "SUPERMERCADO PADRAO DO FONSECA EIRELI",
+        "fantasia": "SUPERMARKET FONSECA - PIRATININGA",
+        "cnpj": "08.628.825/0003-29",
+        "praca": "PIRATININGA",
+        "forma_pg": "Boleto",
+        "rca": "450 - LEANDRO SOUZA - OFF TRADE",
+        "bonificacao": false,
+        "tipo_segmento": "OFF TRADE",
+        "obs": "",
+        "prazo": "28 DIAS",
+        "itens": [
+          {
+            "cod_prod": "6256",
+            "descricao": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+            "qt": 5,
+            "preco": 86.28,
+            "total": 431.4
+          },
+          {
+            "cod_prod": "6334",
+            "descricao": "MOVING BOOSTER MORANGO ACEROLA 24X310ML",
+            "qt": 2,
+            "preco": 155.28,
+            "total": 310.56
+          }
+        ]
+      },
+      {
+        "sistema": "CRC - 04",
+        "cod_cliente": "78665",
+        "razao_social": "SUPERMERCADO PADRAO DO FONSECA LTDA",
+        "fantasia": "SUPERMARKET - DEL CASTILHO",
+        "cnpj": "08.628.827/0022-91",
+        "praca": "DEL CASTILHO",
+        "forma_pg": "Boleto",
+        "rca": "450 - LEANDRO SOUZA",
+        "bonificacao": false,
+        "tipo_segmento": "OFF TRADE",
+        "obs": "",
+        "prazo": "28 DIAS",
+        "itens": [
+          {
+            "cod_prod": "6257",
+            "descricao": "MOVING HYDRO PROTEIN UVA 12X500ML",
+            "qt": 3,
+            "preco": 86.28,
+            "total": 258.84
+          },
+          {
+            "cod_prod": "6256",
+            "descricao": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+            "qt": 8,
+            "preco": 86.28,
+            "total": 690.24
+          },
+          {
+            "cod_prod": "6259",
+            "descricao": "MOVING HYDRO PROTEIN F ERMELHA 12X500ML",
+            "qt": 10,
+            "preco": 86.28,
+            "total": 862.8
+          },
+          {
+            "cod_prod": "6254",
+            "descricao": "MOVING BOOSTER ABACAXI HORTELA 24X310ML",
+            "qt": 2,
+            "preco": 155.28,
+            "total": 310.56
+          },
+          {
+            "cod_prod": "6334",
+            "descricao": "MOVING BOOSTER MORANGO ACEROLA 24X310ML",
+            "qt": 1,
+            "preco": 155.28,
+            "total": 155.28
+          }
+        ]
+      },
+      {
+        "sistema": "CRC - 04",
+        "cod_cliente": "90820",
+        "razao_social": "SUPERMERCADO PADRÃO DO FONSECA LTDA.",
+        "fantasia": "SUPERMARKET",
+        "cnpj": "08.628.825/0001-67",
+        "praca": "FONSECA",
+        "forma_pg": "Boleto",
+        "rca": "450 - LEANDRO SOUZA - OFF TRADE",
+        "bonificacao": false,
+        "tipo_segmento": "OFF TRADE",
+        "obs": "",
+        "prazo": "28 DIAS",
+        "itens": [
+          {
+            "cod_prod": "6254",
+            "descricao": "MOVING BOOSTER ABACAXI HORTELA 24X310ML",
+            "qt": 1,
+            "preco": 155.28,
+            "total": 155.28
+          },
+          {
+            "cod_prod": "6256",
+            "descricao": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+            "qt": 2,
+            "preco": 86.28,
+            "total": 172.56
+          },
+          {
+            "cod_prod": "6334",
+            "descricao": "MOVING BOOSTER MORANGO ACEROLA 24X310ML",
+            "qt": 1,
+            "preco": 155.28,
+            "total": 155.28
+          }
+        ]
+      },
+      {
+        "sistema": "CRC - 04",
+        "cod_cliente": "9603",
+        "razao_social": "SUPERMERCADO PADRAO DO FONSECA EIRELI",
+        "fantasia": "REDE SUPERMARKET (PADR? DO FONSECA - IT",
+        "cnpj": "08.628.825/0004-00",
+        "praca": "ITAPUI",
+        "forma_pg": "Boleto",
+        "rca": "450 - LEANDRO SOUZA - OFF TRADE",
+        "bonificacao": false,
+        "tipo_segmento": "OFF TRADE",
+        "obs": "",
+        "prazo": "28 DIAS",
+        "itens": [
+          {
+            "cod_prod": "6257",
+            "descricao": "MOVING HYDRO PROTEIN VUA 12X500ML",
+            "qt": 2,
+            "preco": 86.28,
+            "total": 172.56
+          },
+          {
+            "cod_prod": "6256",
+            "descricao": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+            "qt": 2,
+            "preco": 86.28,
+            "total": 172.56
+          },
+          {
+            "cod_prod": "6259",
+            "descricao": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+            "qt": 2,
+            "preco": 86.28,
+            "total": 172.56
+          },
+          {
+            "cod_prod": "6334",
+            "descricao": "MOVING BOOSTER MANGOR ACEROLA 24X310ML",
+            "qt": 1,
+            "preco": 155.28,
+            "total": 155.28
+          },
+          {
+            "cod_prod": "6254",
+            "descricao": "MOVING BOOSTER ABACAXI HORTELA 24X310ML",
+            "qt": 1,
+            "preco": 155.28,
+            "total": 155.28
+          }
+        ]
+      },
+      {
+        "sistema": "CRC - 04",
+        "cod_cliente": "28411",
+        "razao_social": "SUPERMERCADO PADRAO DO FONSECA EIRELI",
+        "fantasia": "SUPERMARKET",
+        "cnpj": "08.628.825/0015-62",
+        "praca": "PORTO VELHO",
+        "forma_pg": "Boleto",
+        "rca": "450 - LEANDRO SOUZA - OFF TRADE",
+        "bonificacao": false,
+        "tipo_segmento": "OFF TRADE",
+        "obs": "",
+        "prazo": "28 DIAS",
+        "itens": [
+          {
+            "cod_prod": "6254",
+            "descricao": "MOVING BOOSTER ABACAXI HORTELA 24X310ML",
+            "qt": 1,
+            "preco": 155.28,
+            "total": 155.28
+          },
+          {
+            "cod_prod": "6256",
+            "descricao": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+            "qt": 2,
+            "preco": 86.28,
+            "total": 172.56
+          }
+        ]
+      },
+      {
+        "sistema": "CRC - 04",
+        "cod_cliente": "90415",
+        "razao_social": "SUPERMERCADO PADRÃO DO FONSECA LTDA",
+        "fantasia": "SUPERMARKET",
+        "cnpj": "08.628.825/0024-53",
+        "praca": "PENHA",
+        "forma_pg": "Boleto",
+        "rca": "450 - LEANDRO SOUZA - OFF TRADE",
+        "bonificacao": false,
+        "tipo_segmento": "OFF TRADE",
+        "obs": "",
+        "prazo": "28 DIAS",
+        "itens": [
+          {
+            "cod_prod": "6257",
+            "descricao": "MOVING HYDRO PROTEIN UVA 12X500ML",
+            "qt": 4,
+            "preco": 86.28,
+            "total": 345.12
+          },
+          {
+            "cod_prod": "6256",
+            "descricao": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+            "qt": 5,
+            "preco": 86.28,
+            "total": 431.4
+          },
+          {
+            "cod_prod": "6259",
+            "descricao": "MOVING HYDRO PROTEIN F VERMEHA 12X500ML",
+            "qt": 2,
+            "preco": 86.28,
+            "total": 172.56
+          },
+          {
+            "cod_prod": "6334",
+            "descricao": "MOVING BOOSTER LARANJA ACEROLA 24X310ML",
+            "qt": 2,
+            "preco": 155.28,
+            "total": 310.56
+          },
+          {
+            "cod_prod": "6254",
+            "descricao": "MOVING BOOSTER ABACAXI HORTELA 24X310ML",
+            "qt": 1,
+            "preco": 155.28,
+            "total": 155.28
+          }
+        ]
+      },
+      {
+        "sistema": "CRC - 04",
+        "cod_cliente": "91841",
+        "razao_social": "SUPERMERCADO PADRAO DO FONSECA LTDA.",
+        "fantasia": "SUPERMARKET",
+        "cnpj": "08.628.825/0025-34",
+        "praca": "PIRATININGA",
+        "forma_pg": "Boleto",
+        "rca": "450 - LEANDRO SOUZA - OFF TRADE",
+        "bonificacao": false,
+        "tipo_segmento": "OFF TRADE",
+        "obs": "",
+        "prazo": "28 DIAS",
+        "itens": [
+          {
+            "cod_prod": "6256",
+            "descricao": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+            "qt": 2,
+            "preco": 86.28,
+            "total": 172.56
+          },
+          {
+            "cod_prod": "6334",
+            "descricao": "MOVING BOOSTER MORANGO ACEROLA 24X310ML",
+            "qt": 1,
+            "preco": 155.28,
+            "total": 155.28
+          }
+        ]
+      },
+      {
+        "sistema": "CRC - 04",
+        "cod_cliente": "90413",
+        "razao_social": "SUPERMERCADO PADRO DO FONSECA LTDA",
+        "fantasia": "SUPERMARKET",
+        "cnpj": "08.628.825/0019-96",
+        "praca": "VALVERDE",
+        "forma_pg": "Boleto",
+        "rca": "450 - LEANDRO SOUZA - OFF TRADE",
+        "bonificacao": false,
+        "tipo_segmento": "OFF TRADE",
+        "obs": "",
+        "prazo": "28 DIAS",
+        "itens": [
+          {
+            "cod_prod": "6256",
+            "descricao": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+            "qt": 3,
+            "preco": 86.28,
+            "total": 258.84
+          }
+        ]
+      }
+    ],
+    "email_data_agendamento": "03/09/2026",
+    "email_observacoes": "CAIXAS E RÓTULOS ÍNTEGROS E ORIGINAIS; COLOCAR OBSERVAÇÃO NAS LOJAS \"SUPERMERCADO SUPERMAKET\""
+  },
+  "1a062ac44df2a246": {
+    "subject": "pedido CRC 4 - Barra Oeste",
+    "data_email": "2026-09-02",
+    "blocos": [
+      {
+        "sistema": "CRC - 04",
+        "cod_cliente": "3754",
+        "razao_social": "SUPERMERCADO BARRA OESTE LTDA",
+        "fantasia": "SUPER MARKET",
+        "cnpj": "08.719.835/0001-08",
+        "praca": "RECREIO DOS BANDEIRANTES",
+        "forma_pg": "Boleto",
+        "rca": "450 - Leandro Pereira",
+        "bonificacao": false,
+        "tipo_segmento": "OFF TRADE",
+        "obs": "",
+        "prazo": "28 DIAS",
+        "itens": [
+          {
+            "cod_prod": "6259",
+            "descricao": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+            "qt": 10,
+            "preco": 84,
+            "total": 840
+          },
+          {
+            "cod_prod": "6256",
+            "descricao": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+            "qt": 10,
+            "preco": 84,
+            "total": 840
+          },
+          {
+            "cod_prod": "6254",
+            "descricao": "MOVING BOOSTER ABACAXI HORTELA 24X310ML",
+            "qt": 1,
+            "preco": 154.8,
+            "total": 154.8
+          },
+          {
+            "cod_prod": "4886",
+            "descricao": "ST PIERRE ZERO LATA PINK LEMON 24X310ML",
+            "qt": 1,
+            "preco": 100.56,
+            "total": 100.56
+          },
+          {
+            "cod_prod": "4884",
+            "descricao": "ST PIERRE ZERO LATA RED MINT LT 24X310ML",
+            "qt": 1,
+            "preco": 100.56,
+            "total": 100.56
+          },
+          {
+            "cod_prod": "4885",
+            "descricao": "ST PIERRE ZERO LATA TROPICAL LT 24X310ML",
+            "qt": 2,
+            "preco": 100.56,
+            "total": 201.12
+          }
+        ]
+      },
+      {
+        "sistema": "CRC - 04",
+        "cod_cliente": "67821",
+        "razao_social": "SUPERMERCADO BARRA OESTE LTDA",
+        "fantasia": "REDE SUPERMARKET - BARRA DA TIJUCA",
+        "cnpj": "08.719.835/0003-70",
+        "praca": "BARRA DA TIJUCA",
+        "forma_pg": "Boleto",
+        "rca": "450 - Leandro Pereira",
+        "bonificacao": false,
+        "tipo_segmento": "OFF TRADE",
+        "obs": "",
+        "prazo": "28 DIAS",
+        "itens": [
+          {
+            "cod_prod": "6259",
+            "descricao": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+            "qt": 5,
+            "preco": 84,
+            "total": 420
+          },
+          {
+            "cod_prod": "6256",
+            "descricao": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+            "qt": 3,
+            "preco": 84,
+            "total": 252
+          },
+          {
+            "cod_prod": "4885",
+            "descricao": "ST PIERRE ZERO LTA TROPICAL LT 24X310ML",
+            "qt": 2,
+            "preco": 100.56,
+            "total": 201.12
+          }
+        ]
+      },
+      {
+        "sistema": "CRC - 04",
+        "cod_cliente": "67822",
+        "razao_social": "SUPERMERCADO BARRA OESTE LTDA",
+        "fantasia": "BARRA OESTE - BARRA DA TIJU",
+        "cnpj": "08.719.835/0007-01",
+        "praca": "BARRA DA TIJUCA",
+        "forma_pg": "Boleto",
+        "rca": "450 - Leandro Pereira",
+        "bonificacao": false,
+        "tipo_segmento": "OFF TRADE",
+        "obs": "",
+        "prazo": "28 DIAS",
+        "itens": [
+          {
+            "cod_prod": "6259",
+            "descricao": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+            "qt": 10,
+            "preco": 84.0,
+            "total": 840.0
+          },
+          {
+            "cod_prod": "6256",
+            "descricao": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+            "qt": 10,
+            "preco": 84.0,
+            "total": 840.0
+          },
+          {
+            "cod_prod": "6254",
+            "descricao": "MOVING BOOSTER ABACAXI HORTELA 24X310ML",
+            "qt": 2,
+            "preco": 154.8,
+            "total": 309.6
+          },
+          {
+            "cod_prod": "4886",
+            "descricao": "ST PIERRE ZERO LATA PINK LEMON 24X310ML",
+            "qt": 2,
+            "preco": 100.56,
+            "total": 201.12
+          },
+          {
+            "cod_prod": "4884",
+            "descricao": "ST PIERRE ZERO LATA RED MINT LT 24X310ML",
+            "qt": 2,
+            "preco": 100.56,
+            "total": 201.12
+          }
+        ]
+      },
+      {
+        "sistema": "CRC - 04",
+        "cod_cliente": "93791",
+        "razao_social": "SUPERMERCADO BARRA OESTE LTDA",
+        "fantasia": "SUPERMARKET - VIA PARQUE",
+        "cnpj": "08.719.835/0009-65",
+        "praca": "BARRA DA TIJUCA",
+        "forma_pg": "Boleto",
+        "rca": "450 - Leandro Pereira",
+        "bonificacao": false,
+        "tipo_segmento": "OFF TRADE",
+        "obs": "",
+        "prazo": "28 DIAS",
+        "itens": [
+          {
+            "cod_prod": "6259",
+            "descricao": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+            "qt": 10,
+            "preco": 84.0,
+            "total": 840.0
+          },
+          {
+            "cod_prod": "6256",
+            "descricao": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+            "qt": 10,
+            "preco": 84.0,
+            "total": 840.0
+          },
+          {
+            "cod_prod": "4886",
+            "descricao": "ST PIERRE ZERO LATA PINK LEMON 24X310ML",
+            "qt": 2,
+            "preco": 100.56,
+            "total": 201.12
+          },
+          {
+            "cod_prod": "4884",
+            "descricao": "ST PIERRE ZERO LATA RED MINT LT 24X310ML",
+            "qt": 2,
+            "preco": 100.56,
+            "total": 201.12
+          },
+          {
+            "cod_prod": "4885",
+            "descricao": "ST PIERRE ZERO LATA TROPICAL LT 24X310ML",
+            "qt": 2,
+            "preco": 100.56,
+            "total": 201.12
+          },
+          {
+            "cod_prod": "3771",
+            "descricao": "VODKA BELVEDERE 700 ML",
+            "qt": 6,
+            "preco": 113.9,
+            "total": 683.4
+          }
+        ]
+      }
+    ],
+    "email_data_agendamento": "03/09/2026",
+    "email_observacoes": "POR GENTILEZA, SALIENTAR PARA LOGÍSTICA QUE EMBARQUEM AS CAIXAS ORIGINAIS E ÍNTEGRAS. O PEDIDO SERÁ DEVOLVIDO SE FOREM FRACIONADOS. HORÁRIO DE RECEBIMENTO : SEGUNDA A SEXTA , DAS 08:00H às 14:30h . DESCARGA, R$ 25,00 POR PALLET, PALLET BATIDO R$ 40,00, POR VOLUME R$ 1,00, FILME R$ 60,00."
+  },
+  "1a062960fd922714": {
+    "subject": "PEDIDO BARRA OESTE",
+    "data_email": "2026-09-02",
+    "blocos": [
+      {
+        "sistema": "CRC - 04",
+        "bonificacao": false,
+        "itens": [
+          {
+            "cod_prod": "6259",
+            "descricao": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+            "qt": 10,
+            "preco": 84.0,
+            "total": 840.0
+          },
+          {
+            "cod_prod": "6256",
+            "descricao": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+            "qt": 10,
+            "preco": 84.0,
+            "total": 840.0
+          },
+          {
+            "cod_prod": "6254",
+            "descricao": "MOVING BOOSTER ABACAXI HORTELA 24X310ML",
+            "qt": 1,
+            "preco": 154.8,
+            "total": 154.8
+          },
+          {
+            "cod_prod": "4886",
+            "descricao": "ST PIERRE ZERO LATA PINK LEMON 24X310ML",
+            "qt": 2,
+            "preco": 100.56,
+            "total": 201.12
+          },
+          {
+            "cod_prod": "4884",
+            "descricao": "ST PIERRE ZERO LATA RED MINT LT 24X310ML",
+            "qt": 2,
+            "preco": 100.56,
+            "total": 201.12
+          },
+          {
+            "cod_prod": "4885",
+            "descricao": "ST PIERRE ZERO LATA TROPICAL LT 24X310ML",
+            "qt": 2,
+            "preco": 100.56,
+            "total": 201.12
+          }
+        ],
+        "cod_cliente": "3754",
+        "razao_social": "SUPERMERCADO BARRA OESTE LTDA",
+        "fantasia": "SUPER MARKET",
+        "cnpj": "08.719.835/0001-08",
+        "endereco": "AVENIDA DAS AMÉRICAS, RECREIO DOS BANDEIRANTES - RIO DE JANEIRO",
+        "praca": "RECREIO DOS BANDEIRANTES",
+        "forma_pg": "Boleto",
+        "rca": "450 - Leandro Pereira",
+        "tipo_segmento": "OFF TRADE"
+      },
+      {
+        "sistema": "CRC - 04",
+        "bonificacao": false,
+        "itens": [
+          {
+            "cod_prod": "6259",
+            "descricao": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+            "qt": 5,
+            "preco": 84.0,
+            "total": 420.0
+          },
+          {
+            "cod_prod": "6256",
+            "descricao": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+            "qt": 3,
+            "preco": 84.0,
+            "total": 252.0
+          },
+          {
+            "cod_prod": "4885",
+            "descricao": "ST PIERRE ZERO LATA TROPICAL LT 24X310ML",
+            "qt": 2,
+            "preco": 100.56,
+            "total": 201.12
+          }
+        ],
+        "cod_cliente": "67821",
+        "razao_social": "SUPERMERCADO BARRA OESTE LTDA",
+        "fantasia": "REDE SUPERMARKET - BARRA DA TIJUCA",
+        "cnpj": "08.719.835/0003-70",
+        "endereco": "AV EMBAIXADOR A BUENO, BARRA DA TIJUCA - RIO DE JANEIRO",
+        "praca": "BARRA DA TIJUCA",
+        "forma_pg": "Boleto",
+        "rca": "450 - Leandro Pereira",
+        "tipo_segmento": "OFF TRADE"
+      },
+      {
+        "sistema": "CRC - 04",
+        "bonificacao": false,
+        "itens": [
+          {
+            "cod_prod": "6259",
+            "descricao": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+            "qt": 10,
+            "preco": 84.0,
+            "total": 840.0
+          },
+          {
+            "cod_prod": "6256",
+            "descricao": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+            "qt": 10,
+            "preco": 84.0,
+            "total": 840.0
+          },
+          {
+            "cod_prod": "6254",
+            "descricao": "MOVING BOOSTER ABACAXI HORTELA 24X310ML",
+            "qt": 1,
+            "preco": 154.8,
+            "total": 154.8
+          },
+          {
+            "cod_prod": "6253",
+            "descricao": "MOVING BOOSTER LIMAO 24X310ML",
+            "qt": 2,
+            "preco": 154.8,
+            "total": 309.6
+          },
+          {
+            "cod_prod": "4886",
+            "descricao": "ST PIERRE ZERO LATA PINK LEMON 24X310ML",
+            "qt": 2,
+            "preco": 100.56,
+            "total": 201.12
+          },
+          {
+            "cod_prod": "4884",
+            "descricao": "ST PIERRE ZERO LATA RED MINT LT 24X310ML",
+            "qt": 2,
+            "preco": 100.56,
+            "total": 201.12
+          },
+          {
+            "cod_prod": "4885",
+            "descricao": "ST PIERRE ZERO LATA TROPICAL LT 24X310ML",
+            "qt": 2,
+            "preco": 100.56,
+            "total": 201.12
+          }
+        ],
+        "cod_cliente": "67822",
+        "razao_social": "SUPERMERCADO BARRA OESTE LTDA",
+        "fantasia": "BARRA OESTE - BARRA DA TIJU",
+        "cnpj": "08.719.835/0007-01",
+        "endereco": "AV DAS AMERICAS, BARRA DA TIJUCA - RIO DE JANEIRO",
+        "praca": "BARRA DA TIJUCA",
+        "forma_pg": "Boleto",
+        "rca": "450 - Leandro Pereira",
+        "tipo_segmento": "OFF TRADE"
+      },
+      {
+        "sistema": "CRC - 04",
+        "bonificacao": false,
+        "itens": [
+          {
+            "cod_prod": "6259",
+            "descricao": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+            "qt": 10,
+            "preco": 84.0,
+            "total": 840.0
+          },
+          {
+            "cod_prod": "6256",
+            "descricao": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+            "qt": 10,
+            "preco": 84.0,
+            "total": 840.0
+          },
+          {
+            "cod_prod": "4886",
+            "descricao": "ST PIERRE ZERO LATA PINK LEMON 24X310ML",
+            "qt": 2,
+            "preco": 100.56,
+            "total": 201.12
+          },
+          {
+            "cod_prod": "4884",
+            "descricao": "ST PIERRE ZERO LATA RED MINT LT 24X310ML",
+            "qt": 2,
+            "preco": 100.56,
+            "total": 201.12
+          },
+          {
+            "cod_prod": "4885",
+            "descricao": "ST PIERRE ZERO LATA TROPICAL LT 24X310ML",
+            "qt": 2,
+            "preco": 100.56,
+            "total": 201.12
+          },
+          {
+            "cod_prod": "3771",
+            "descricao": "VODKA BELVEDERE 700 ML",
+            "qt": 6,
+            "preco": 113.9,
+            "total": 683.4
+          }
+        ],
+        "cod_cliente": "93791",
+        "razao_social": "SUPERMERCADO BARRA OESTE LTDA",
+        "fantasia": "SUPERMARKET - VIA PARQUE",
+        "cnpj": "08.719.835/0009-65",
+        "endereco": "AVENIDA AYRTON SENNA, BARRA DA TIJUCA - RIO DE JANEIRO",
+        "praca": "BARRA DA TIJUCA",
+        "forma_pg": "Boleto",
+        "rca": "450 - Leandro Pereira",
+        "tipo_segmento": "OFF TRADE"
+      }
+    ],
+    "email_data_agendamento": "03/09/2026",
+    "email_observacoes": "SALIENTAR PARA LOGÍSTICA QUE EMBARQUEM AS CAIXAS ORIGINAIS E ÍNTEGRAS. O PEDIDO SERÁ DEVOLVIDO SE FOREM FRACIONADOS. HORÁRIO DE RECEBIMENTO : SEGUNDA A SEXTA , DAS 08:00H as 14:30h. DESCARGA , R$ 25,00 POR PALLET, PALLET BATIDO R$ 40,00 , POR VOLUME R$ 1,00 , FILME R$ 60,00."
+  },
+  "1a06265e32651e74": {
+    "subject": "PEDIDOS ME MOVING REDE PADRAO DO FONSECA",
+    "data_email": "2026-09-02",
+    "blocos": [
+      {
+        "sistema": "CRC - 04",
+        "bonificacao": false,
+        "itens": [
+          {
+            "cod_prod": "6256",
+            "descricao": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+            "qt": 5,
+            "preco": 86.28,
+            "total": 431.4
+          },
+          {
+            "cod_prod": "6334",
+            "descricao": "MOVING BOOSTER MORANGO ACEROLA 24X310ML",
+            "qt": 2,
+            "preco": 155.28,
+            "total": 310.56
+          }
+        ],
+        "cod_cliente": "9604",
+        "razao_social": "SUPERMERCADO PADRAO DO FONSECA EIRELI",
+        "fantasia": "SUPERMARKET FONSECA - PIRATININGA",
+        "cnpj": "08.628.825/0003-29",
+        "endereco": "AVENIDA ALMIRANTE TAMANDARE, 597 PIRATININGA - NITEROI",
+        "praca": "PIRATININGA",
+        "forma_pg": "Boleto",
+        "rca": "450 - LEANDRO SOUZA - OFF TRADE",
+        "tipo_segmento": "OFF TRADE"
+      },
+      {
+        "sistema": "CRC - 04",
+        "bonificacao": false,
+        "itens": [
+          {
+            "cod_prod": "6257",
+            "descricao": "MOVING HYDRO PROTEIN UVA 12X500ML",
+            "qt": 3,
+            "preco": 86.28,
+            "total": 258.84
+          },
+          {
+            "cod_prod": "6256",
+            "descricao": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+            "qt": 8,
+            "preco": 86.28,
+            "total": 690.24
+          },
+          {
+            "cod_prod": "6259",
+            "descricao": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+            "qt": 10,
+            "preco": 86.28,
+            "total": 862.8
+          },
+          {
+            "cod_prod": "6254",
+            "descricao": "MOVING BOOSTER ABACAXI HORTELA 24X310ML",
+            "qt": 1,
+            "preco": 155.28,
+            "total": 155.28
+          },
+          {
+            "cod_prod": "6334",
+            "descricao": "MOVING BOOSTER MORANGO ACEROLA 24X310ML",
+            "qt": 1,
+            "preco": 155.28,
+            "total": 155.28
+          }
+        ],
+        "cod_cliente": "78665",
+        "razao_social": "SUPERMERCADO PADRAO DO FONSECA LTDA",
+        "fantasia": "SUPERMARKET - DEL CASTILHO",
+        "cnpj": "08.628.825/0022-91",
+        "endereco": "AV PR MARTIN LUTHER KING JR, 126 BLOCO 1 LOJA 102 E 111",
+        "praca": "DEL CASTILHO",
+        "forma_pg": "Boleto",
+        "rca": "450 - LEANDRO SOUZA - OFF TRADE",
+        "tipo_segmento": "OFF TRADE"
+      },
+      {
+        "sistema": "CRC - 04",
+        "bonificacao": false,
+        "itens": [
+          {
+            "cod_prod": "6254",
+            "descricao": "MOVING BOOSTER ABACAXI HORTELA 24X310ML",
+            "qt": 1,
+            "preco": 155.28,
+            "total": 155.28
+          },
+          {
+            "cod_prod": "6256",
+            "descricao": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+            "qt": 2,
+            "preco": 86.28,
+            "total": 172.56
+          },
+          {
+            "cod_prod": "6334",
+            "descricao": "MOVING BOOSTER MORANGO ACEROLA 24X310ML",
+            "qt": 1,
+            "preco": 155.28,
+            "total": 155.28
+          }
+        ],
+        "cod_cliente": "90820",
+        "razao_social": "SUPERMERCADO PADRAO DO FONSECA LTDA.",
+        "fantasia": "SUPERMARKET",
+        "cnpj": "08.628.825/0001-67",
+        "endereco": "AL SAO BOAVENTURA, 905 - RUA SAO JANUARIO, 125",
+        "praca": "FONSECA",
+        "forma_pg": "Boleto",
+        "rca": "450 - LEANDRO SOUZA - OFF TRADE",
+        "tipo_segmento": "OFF TRADE"
+      },
+      {
+        "sistema": "CRC - 04",
+        "bonificacao": false,
+        "itens": [
+          {
+            "cod_prod": "6257",
+            "descricao": "MOVING HYDRO PROTEIN UVA 12X500ML",
+            "qt": 2,
+            "preco": 86.28,
+            "total": 172.56
+          },
+          {
+            "cod_prod": "6256",
+            "descricao": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+            "qt": 2,
+            "preco": 86.28,
+            "total": 172.56
+          },
+          {
+            "cod_prod": "6259",
+            "descricao": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+            "qt": 2,
+            "preco": 86.28,
+            "total": 172.56
+          },
+          {
+            "cod_prod": "6334",
+            "descricao": "MOVING BOOSTER MORANGO ACEROLA 24X310ML",
+            "qt": 1,
+            "preco": 155.28,
+            "total": 155.28
+          },
+          {
+            "cod_prod": "6254",
+            "descricao": "MOVING BOOSTER ABACAXI HORTELA 24X310ML",
+            "qt": 1,
+            "preco": 155.28,
+            "total": 155.28
+          }
+        ],
+        "cod_cliente": "9603",
+        "razao_social": "SUPERMERCADO PADRAO DO FONSECA EIRELI",
+        "fantasia": "REDE SUPERMARKET (PADR?O DO FONSECA - IT",
+        "cnpj": "08.628.825/0004-00",
+        "endereco": "AV CENTRAL EWERTON XAVIER - 1",
+        "praca": "ITAIPU",
+        "forma_pg": "Boleto",
+        "rca": "450 - LEANDRO SOUZA - OFF TRADE",
+        "tipo_segmento": "OFF TRADE"
+      },
+      {
+        "sistema": "CRC - 04",
+        "bonificacao": false,
+        "itens": [
+          {
+            "cod_prod": "6254",
+            "descricao": "MOVING BOOSTER ABACAXI HORTELA 24X310ML",
+            "qt": 1,
+            "preco": 155.28,
+            "total": 155.28
+          },
+          {
+            "cod_prod": "6256",
+            "descricao": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+            "qt": 2,
+            "preco": 86.28,
+            "total": 172.56
+          }
+        ],
+        "cod_cliente": "28411",
+        "razao_social": "SUPERMERCADO PADRAO DO FONSECA EIRELI",
+        "fantasia": "SUPERMARKET",
+        "cnpj": "08.628.825/0015-62",
+        "endereco": "R COMANDANTE ARI PARREIRAS, 7 - E R. JOAO DAMASCENO 30",
+        "praca": "PORTO VELHO",
+        "forma_pg": "Boleto",
+        "rca": "450 - LEANDRO SOUZA - OFF TRADE",
+        "tipo_segmento": "OFF TRADE"
+      },
+      {
+        "sistema": "CRC - 04",
+        "bonificacao": false,
+        "itens": [
+          {
+            "cod_prod": "6257",
+            "descricao": "MOVING HYDRO PROTEIN UVA 12X500ML",
+            "qt": 4,
+            "preco": 86.28,
+            "total": 345.12
+          },
+          {
+            "cod_prod": "6256",
+            "descricao": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+            "qt": 5,
+            "preco": 86.28,
+            "total": 431.4
+          },
+          {
+            "cod_prod": "6259",
+            "descricao": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+            "qt": 5,
+            "preco": 86.28,
+            "total": 431.4
+          },
+          {
+            "cod_prod": "6334",
+            "descricao": "MOVING BOOSTER MORANGO ACEROLA 24X310ML",
+            "qt": 2,
+            "preco": 155.28,
+            "total": 310.56
+          },
+          {
+            "cod_prod": "6254",
+            "descricao": "MOVING BOOSTER ABACAXI HORTELA 24X310ML",
+            "qt": 1,
+            "preco": 155.28,
+            "total": 155.28
+          }
+        ],
+        "cod_cliente": "90415",
+        "razao_social": "SUPERMERCADO PADRAO DO FONSECA LTDA",
+        "fantasia": "SUPERMARKET",
+        "cnpj": "08.628.825/0024-53",
+        "endereco": "R PANAMA, 168 - ENT R. COSTA RICA",
+        "praca": "PENHA",
+        "forma_pg": "Boleto",
+        "rca": "450 - LEANDRO SOUZA - OFF TRADE",
+        "tipo_segmento": "OFF TRADE"
+      },
+      {
+        "sistema": "CRC - 04",
+        "bonificacao": false,
+        "itens": [
+          {
+            "cod_prod": "6256",
+            "descricao": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+            "qt": 2,
+            "preco": 86.28,
+            "total": 172.56
+          },
+          {
+            "cod_prod": "6334",
+            "descricao": "MOVING BOOSTER MORANGO ACEROLA 24X310ML",
+            "qt": 1,
+            "preco": 155.28,
+            "total": 155.28
+          }
+        ],
+        "cod_cliente": "91841",
+        "razao_social": "SUPERMERCADO PADRAO DO FONSECA LTDA.",
+        "fantasia": "SUPERMARKET",
+        "cnpj": "08.628.825/0025-34",
+        "endereco": "RUA DR, OSIRIS 214",
+        "praca": "PIRATININGA",
+        "forma_pg": "Boleto",
+        "rca": "450 - LEANDRO SOUZA - OFF TRADE",
+        "tipo_segmento": "OFF TRADE"
+      },
+      {
+        "sistema": "CRC - 04",
+        "bonificacao": false,
+        "itens": [
+          {
+            "cod_prod": "6256",
+            "descricao": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+            "qt": 3,
+            "preco": 86.28,
+            "total": 258.84
+          }
+        ],
+        "cod_cliente": "90413",
+        "razao_social": "SUPERMERCADO PADRAO DO FONSECA LTDA",
+        "fantasia": "SUPERMARKET",
+        "cnpj": "08.628.825/0019-96",
+        "endereco": "AV ABILIO AUGUSTO TAVORA 433 - QUADRA A LOTE 08, 09 E 33 E RUA CEARA 06 LJ C",
+        "praca": "VALVERDE",
+        "forma_pg": "Boleto",
+        "rca": "450 - LEANDRO SOUZA - OFF TRADE",
+        "tipo_segmento": "OFF TRADE"
+      }
+    ],
+    "email_data_agendamento": "03/09/2026",
+    "email_observacoes": "CAIXAS E RÓTULOS INTEGROS E ORIGINAIS; COLOCAR OBSERVAÇÃO NAS LOJAS \"SUPERMERCADO SUPERMAKET\""
+  },
+  "1a0625f3772b46ae": {
+    "subject": "Re: Cadastro Supervisora - CRC",
+    "data_email": "2026-09-02",
+    "blocos": [],
+    "email_data_agendamento": "",
+    "email_observacoes": ""
+  },
+  "1a06250f34e5c555": {
+    "subject": "Cadastro Supervisora - CRC",
+    "data_email": "2026-09-02",
+    "blocos": [],
+    "email_data_agendamento": "",
+    "email_observacoes": ""
+  },
+  "1a06237a95b161ee": {
+    "subject": "⚠️ ALERTA LOGÍSTICA RJ: 8.3% de Reentrega em 01/09/2026",
+    "data_email": "2026-09-02",
+    "blocos": [],
+    "email_data_agendamento": "",
+    "email_observacoes": ""
+  },
+  "1a061ff5f96f2c96": {
+    "subject": "Report Diário de Pedidos — 02/09/2026",
+    "data_email": "2026-09-02",
+    "blocos": [],
+    "email_data_agendamento": "",
+    "email_observacoes": ""
+  },
+  "1a05f7aafa2951a3": {
+    "subject": "Fwd:",
+    "data_email": "2026-09-01",
+    "blocos": [
+      {
+        "sistema": "CRC - 04",
+        "cod_cliente": "96005",
+        "razao_social": "",
+        "fantasia": "",
+        "cnpj": "",
+        "praca": "",
+        "forma_pg": "Boleto",
+        "rca": "",
+        "bonificacao": false,
+        "tipo_segmento": "OFF Trade",
+        "obs": "entregar no dia 24/08 não pagamos descarga no momento no horario das 08:00 as 14:00hr",
+        "prazo": "28",
+        "itens": [
+          {
+            "cod_prod": "663",
+            "descricao": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+            "qt": 12,
+            "preco": 36.9,
+            "total": 442.8
+          }
+        ]
+      }
+    ],
+    "email_data_agendamento": "",
+    "email_observacoes": "não pagamos descarga. horario: 08:00 ás 14:00"
+  },
+  "1a05f4351b1f2503": {
+    "subject": "Re: Pedido do cliente novo",
+    "data_email": "2026-09-01",
+    "blocos": [
+      {
+        "sistema": "CRC - 04",
+        "bonificacao": false,
+        "itens": [
+          {
+            "cod_prod": "418",
+            "descricao": "VODKA NATASHA 900ML",
+            "qt": 6,
+            "preco": 15.9,
+            "total": 95.4
+          },
+          {
+            "cod_prod": "37",
+            "descricao": "MARTINI BIANCO 750 ML",
+            "qt": 2,
+            "preco": 39.9,
+            "total": 79.8
+          },
+          {
+            "cod_prod": "38",
+            "descricao": "MARTINI ROSATO 750 ML",
+            "qt": 2,
+            "preco": 39.9,
+            "total": 79.8
+          },
+          {
+            "cod_prod": "5034",
+            "descricao": "RUM BACARDI GOLD 700ML",
+            "qt": 2,
+            "preco": 30.9,
+            "total": 61.8
+          },
+          {
+            "cod_prod": "73",
+            "descricao": "PIRASSUNUNGA 51 965 ML",
+            "qt": 12,
+            "preco": 13.59,
+            "total": 163.08
+          },
+          {
+            "cod_prod": "290",
+            "descricao": "CONHAQUE DREHER 900ML",
+            "qt": 3,
+            "preco": 20.9,
+            "total": 62.7
+          },
+          {
+            "cod_prod": "381",
+            "descricao": "CACHACA VELHO BARREIRO 910 ML",
+            "qt": 4,
+            "preco": 13.5,
+            "total": 54.0
+          },
+          {
+            "cod_prod": "16",
+            "descricao": "VODCA SMIRNOFF RED 998 ML",
+            "qt": 4,
+            "preco": 27.9,
+            "total": 111.6
+          },
+          {
+            "cod_prod": "3642",
+            "descricao": "GIN ROCKS STRAWBERRY 1000ML",
+            "qt": 2,
+            "preco": 22.5,
+            "total": 45.0
+          },
+          {
+            "cod_prod": "4689",
+            "descricao": "GIN ROCKS WATERMELON 1000ML",
+            "qt": 2,
+            "preco": 22.5,
+            "total": 45.0
+          },
+          {
+            "cod_prod": "3812",
+            "descricao": "VINHO SANTILLE TINTO 2LTX6",
+            "qt": 12,
+            "preco": 17.9,
+            "total": 214.8
+          },
+          {
+            "cod_prod": "178",
+            "descricao": "RUM MONTILLA OURO 1L",
+            "qt": 3,
+            "preco": 22.9,
+            "total": 68.7
+          },
+          {
+            "cod_prod": "69",
+            "descricao": "RUM MONTILLA CARTA BRANCA 1L",
+            "qt": 3,
+            "preco": 22.9,
+            "total": 68.7
+          },
+          {
+            "cod_prod": "1593",
+            "descricao": "CACHACA YPIOCA CG PRATA 965 ML",
+            "qt": 4,
+            "preco": 14.9,
+            "total": 59.6
+          }
+        ],
+        "cod_cliente": "96262",
+        "forma_pg": "Boleto",
+        "rca": "153",
+        "tipo_segmento": "OFF TRADE"
+      }
+    ],
+    "email_data_agendamento": "02/09/2026",
+    "email_observacoes": "TAXA DESCARGA: R$0,00 POR PALLET; HORÁRIO DE ENTREGA: 08:00hs às 14:00hs"
+  },
+  "1a05ea837984b9a8": {
+    "subject": "Re:",
+    "data_email": "2026-09-01",
+    "blocos": [
+      {
+        "sistema": "CRC - 04",
+        "cod_cliente": "96005",
+        "razao_social": "",
+        "fantasia": "",
+        "cnpj": "",
+        "praca": "",
+        "forma_pg": "Boleto",
+        "rca": "",
+        "bonificacao": false,
+        "tipo_segmento": "OFF Trade",
+        "obs": "entregar no dia 24/08 não pagamos descarga no momento no horario das 08:00 as 14:00hr",
+        "prazo": "28",
+        "itens": [
+          {
+            "cod_prod": "663",
+            "descricao": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+            "qt": 12,
+            "preco": 36.9,
+            "total": 442.8
+          }
+        ]
+      }
+    ],
+    "email_data_agendamento": "",
+    "email_observacoes": "não pagamos descarga, horario: 08:00 ás 14:00"
+  },
+  "1a05e9c7ee0465ba": {
+    "subject": "Fwd: Pedido do cliente novo",
+    "data_email": "2026-09-01",
+    "blocos": [
+      {
+        "sistema": "CRC - 04",
+        "bonificacao": false,
+        "itens": [
+          {
+            "cod_prod": "418",
+            "descricao": "VODKA NATASHA 900ML",
+            "qt": 6,
+            "preco": 15.9,
+            "total": 95.4
+          },
+          {
+            "cod_prod": "37",
+            "descricao": "MARTINI BIANCO 750 ML",
+            "qt": 2,
+            "preco": 39.9,
+            "total": 79.8
+          },
+          {
+            "cod_prod": "38",
+            "descricao": "MARTINI ROSATO 750 ML",
+            "qt": 2,
+            "preco": 39.9,
+            "total": 79.8
+          },
+          {
+            "cod_prod": "5034",
+            "descricao": "RUM BACARDI GOLD 700ML",
+            "qt": 2,
+            "preco": 30.9,
+            "total": 61.8
+          },
+          {
+            "cod_prod": "73",
+            "descricao": "PIRASSUNUNGA 51 965 ML",
+            "qt": 12,
+            "preco": 13.59,
+            "total": 163.08
+          },
+          {
+            "cod_prod": "290",
+            "descricao": "CONHAQUE DREHER 900ML",
+            "qt": 3,
+            "preco": 20.9,
+            "total": 62.7
+          },
+          {
+            "cod_prod": "381",
+            "descricao": "CACHACA VELHO BARREIRO 910 ML",
+            "qt": 4,
+            "preco": 13.5,
+            "total": 54.0
+          },
+          {
+            "cod_prod": "16",
+            "descricao": "VODCA SMIRNOFF RED 998 ML",
+            "qt": 4,
+            "preco": 27.9,
+            "total": 111.6
+          },
+          {
+            "cod_prod": "3642",
+            "descricao": "GIN ROCKS STRAWBERRY 1000ML",
+            "qt": 2,
+            "preco": 22.5,
+            "total": 45.0
+          },
+          {
+            "cod_prod": "4689",
+            "descricao": "GIN ROCKS WATERMELON 1000ML",
+            "qt": 2,
+            "preco": 22.5,
+            "total": 45.0
+          },
+          {
+            "cod_prod": "3812",
+            "descricao": "VINHO SANTILLE TINTO 2LTX6",
+            "qt": 12,
+            "preco": 17.9,
+            "total": 214.8
+          },
+          {
+            "cod_prod": "178",
+            "descricao": "RUM MONTILLA OURO 1L",
+            "qt": 3,
+            "preco": 22.9,
+            "total": 68.7
+          },
+          {
+            "cod_prod": "69",
+            "descricao": "RUM MONTILLA CARTA BRANCA 1L",
+            "qt": 3,
+            "preco": 22.9,
+            "total": 68.7
+          },
+          {
+            "cod_prod": "1593",
+            "descricao": "CACHACA YPIOCA CG PRATA 965 ML",
+            "qt": 4,
+            "preco": 14.9,
+            "total": 59.6
+          }
+        ],
+        "cod_cliente": "96262",
+        "forma_pg": "Boleto",
+        "rca": "153",
+        "tipo_segmento": "OFF TRADE"
+      }
+    ],
+    "email_data_agendamento": "02/09/2026",
+    "email_observacoes": "TAXA DESCARGA: R$0,00 POR PALLET; HORÁRIO DE ENTREGA: 08:00hs às 14:00hs"
+  },
+  "1a05e8e1d482cd4f": {
+    "subject": "Re:",
+    "data_email": "2026-09-01",
+    "blocos": [
+      {
+        "sistema": "CRC - 04",
+        "cod_cliente": "96005",
+        "razao_social": "",
+        "fantasia": "",
+        "cnpj": "",
+        "praca": "",
+        "forma_pg": "Boleto",
+        "rca": "",
+        "bonificacao": false,
+        "tipo_segmento": "OFF Trade",
+        "obs": "entregar no dia 24/08 não pagamos descarga no momento no horario das 08:00 as 14:00hr",
+        "prazo": "28",
+        "itens": [
+          {
+            "cod_prod": "663",
+            "descricao": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+            "qt": 12,
+            "preco": 36.9,
+            "total": 442.8
+          }
+        ]
+      }
+    ],
+    "email_data_agendamento": "21/08/2026",
+    "email_observacoes": "não pagamos descarga, horario: 08:00 ás 14:00"
+  },
+  "1a05e7bae7214774": {
+    "subject": "Fwd: Pedido cliente 71185 ANB",
+    "data_email": "2026-09-01",
+    "blocos": [
+      {
+        "sistema": "CRC - 04",
+        "bonificacao": false,
+        "itens": [
+          {
+            "cod_prod": "644",
+            "descricao": "APERITIVO APEROL 750 ML",
+            "qt": 24,
+            "preco": 41.9,
+            "total": 1005.6
+          },
+          {
+            "cod_prod": "187",
+            "descricao": "WHISKY JACK DANIELS 1L",
+            "qt": 12,
+            "preco": 119.9,
+            "total": 1438.8
+          }
+        ],
+        "cod_cliente": "71185",
+        "razao_social": "ANB DISTRIBUIDORA DE ALIMENTOS E BEBIDAS LTDA",
+        "fantasia": "ANB DISTRIBUIDORA DE ALIMENTOS E BEBIDAS",
+        "cnpj": "49.306.432/0001-14",
+        "endereco": "RUA CAPITÃO FÉLIX, 110, BENFICA - RIO DE JANEIRO",
+        "forma_pg": "Boleto",
+        "rca": "378",
+        "tipo_segmento": "OFF TRADE"
+      }
+    ],
+    "email_data_agendamento": "02/09/2026",
+    "email_observacoes": "Horário de entrega de 06:00 às 11:00 horas."
+  },
+  "1a05e7a3aa263445": {
+    "subject": "Fwd: Pedido do cliente 83653 RIO SUL FIGUEIRA",
+    "data_email": "2026-09-01",
+    "blocos": [
+      {
+        "sistema": "CRC - 04",
+        "bonificacao": false,
+        "itens": [
+          {
+            "cod_prod": "3642",
+            "descricao": "GIN ROCKS STRAWBERRY 1000ML",
+            "qt": 18,
+            "preco": 22.5,
+            "total": 405.0
+          },
+          {
+            "cod_prod": "4689",
+            "descricao": "GIN ROCKS WATERMELON 1000ML",
+            "qt": 6,
+            "preco": 22.5,
+            "total": 135.0
+          },
+          {
+            "cod_prod": "6492",
+            "descricao": "GIN ROCKS GREEN APPLE 1000ML",
+            "qt": 6,
+            "preco": 22.5,
+            "total": 135.0
+          }
+        ],
+        "cod_cliente": "83653",
+        "razao_social": "MERCADO RIO SUL DA FIGUEIRA LTDA",
+        "fantasia": "MERCADO RIO SUL DA FIGUEIRA",
+        "cnpj": "37.496.930/0001-98",
+        "endereco": "ESTRADA DO PILAR, SN, CHACARAS RIO PETROPOLIS - DUQUE DE CAXIAS",
+        "forma_pg": "Boleto",
+        "rca": "153",
+        "tipo_segmento": "OFF TRADE"
+      }
+    ],
+    "email_data_agendamento": "02/09/2026",
+    "email_observacoes": "pagamento de descarga R$60,00, Horario 08:00 as 14:00"
+  },
+  "1a05e71b932e0dab": {
+    "subject": "Fwd: Pedido cliente 71185 ANB",
+    "data_email": "2026-09-01",
+    "blocos": [
+      {
+        "sistema": "CRC - 04",
+        "bonificacao": false,
+        "itens": [
+          {
+            "cod_prod": "644",
+            "descricao": "APERITIVO APEROL 750 ML",
+            "qt": 24,
+            "preco": 41.9,
+            "total": 1005.6
+          },
+          {
+            "cod_prod": "187",
+            "descricao": "WHISKY JACK DANIELS 1L",
+            "qt": 12,
+            "preco": 119.9,
+            "total": 1438.8
+          }
+        ],
+        "cod_cliente": "71185",
+        "razao_social": "ANB DISTRIBUIDORA DE ALIMENTOS E BEBIDAS LTDA",
+        "fantasia": "ANB DISTRIBUIDORA DE ALIMENTOS E BEBIDAS",
+        "cnpj": "49.306.432/0001-14",
+        "endereco": "RUA CAPITÃO FÉLIX, 110, BENFICA - RIO DE JANEIRO",
+        "forma_pg": "Boleto",
+        "rca": "378",
+        "tipo_segmento": "OFF TRADE"
+      }
+    ],
+    "email_data_agendamento": "02/09/2026",
+    "email_observacoes": "Horário de entrega de 06:00 às 11:00 horas. Taxa descarga: R$0,00 por pallet."
+  },
+  "1a05e6aa05629ee0": {
+    "subject": "Pedido do cliente 83653 RIO SUL FIGUEIRA",
+    "data_email": "2026-09-01",
+    "blocos": [
+      {
+        "sistema": "CRC - 04",
+        "bonificacao": false,
+        "itens": [
+          {
+            "cod_prod": "3642",
+            "descricao": "GIN ROCKS STRAWBERRY 1000ML",
+            "qt": 18,
+            "preco": 22.5,
+            "total": 405.0
+          },
+          {
+            "cod_prod": "4689",
+            "descricao": "GIN ROCKS WATERMELON 1000ML",
+            "qt": 6,
+            "preco": 22.5,
+            "total": 135.0
+          },
+          {
+            "cod_prod": "6492",
+            "descricao": "GIN ROCKS GREEN APPLE 1000ML",
+            "qt": 6,
+            "preco": 22.5,
+            "total": 135.0
+          }
+        ],
+        "cod_cliente": "83653",
+        "razao_social": "MERCADO RIO SUL DA FIGUEIRA LTDA",
+        "fantasia": "MERCADO RIO SUL DA FIGUEIRA",
+        "cnpj": "37.496.930/0001-98",
+        "endereco": "ESTRADA DO PILAR, SN, CHACARAS RIO PETROPOLIS - DUQUE DE CAXIAS",
+        "forma_pg": "Boleto",
+        "rca": "153",
+        "tipo_segmento": "OFF TRADE"
+      }
+    ],
+    "email_data_agendamento": "02/09/2026",
+    "email_observacoes": "entregar no dia 02/09, pagamento de descarga R$60,00, Horario 08:00 as 14:00"
+  },
+  "1a05d284e2a93592": {
+    "subject": "Re: Devolução de NF",
+    "data_email": "2026-09-01",
+    "blocos": [],
+    "email_data_agendamento": "",
+    "email_observacoes": ""
+  },
+  "1a05ce53f5ed389a": {
+    "subject": "⚠️ ALERTA LOGÍSTICA RJ: 14.6% de Reentrega em 31/08/2026",
+    "data_email": "2026-09-01",
+    "blocos": [],
+    "email_data_agendamento": "",
+    "email_observacoes": ""
+  },
+  "1a05cd8bee2d36d5": {
+    "subject": "Report Diário de Pedidos — 01/09/2026",
+    "data_email": "2026-09-01",
+    "blocos": [],
+    "email_data_agendamento": "",
+    "email_observacoes": ""
+  },
+  "1a05abae6b2af2fe": {
+    "subject": "Re: pedido crc4 - ZONA SUL",
+    "data_email": "2026-08-31",
+    "blocos": [
+      {
+        "sistema": "CRC - 04",
+        "cod_cliente": "6269",
+        "razao_social": "SUPERMERCADO ZONA SUL S/A",
+        "fantasia": "SUPERMERCADO ZONA SUL",
+        "cnpj": "33.381.286/0001-51",
+        "praca": "OFF TRADE",
+        "forma_pg": "Boleto",
+        "rca": "MARIA LUIZA - OFF TRADE",
+        "bonificacao": false,
+        "tipo_segmento": "OFF TRADE",
+        "obs": "PEDIDO 9328319",
+        "prazo": "45 DIAS",
+        "itens": [
+          {
+            "cod_prod": "6798",
+            "descricao": "YVV DESTILADO GIN AR 6X710ML LT",
+            "qt": 10,
+            "preco": 197.64,
+            "total": 1976.4
+          },
+          {
+            "cod_prod": "6799",
+            "descricao": "YVV DESTILADO GIN MAR 6X710ML LT",
+            "qt": 5,
+            "preco": 197.64,
+            "total": 988.2
+          },
+          {
+            "cod_prod": "6800",
+            "descricao": "YVV DESTILADO GIN TERRA 6X710ML LT",
+            "qt": 3,
+            "preco": 197.64,
+            "total": 592.92
+          },
+          {
+            "cod_prod": "5243",
+            "descricao": "YVV DESTILADO GIN AR 750ML",
+            "qt": 60,
+            "preco": 49.0,
+            "total": 2940.0
+          },
+          {
+            "cod_prod": "4516",
+            "descricao": "YVV DESTILADO GIN MAR 750ML",
+            "qt": 30,
+            "preco": 49.0,
+            "total": 1470.0
+          }
+        ]
+      },
+      {
+        "sistema": "CRC - 04",
+        "cod_cliente": "6269",
+        "razao_social": "SUPERMERCADO ZONA SUL S/A",
+        "fantasia": "SUPERMERCADO ZONA SUL",
+        "cnpj": "33.381.286/0001-51",
+        "praca": "Olaria",
+        "forma_pg": "Boleto",
+        "rca": "MARIA LUIZA - OFF TRADE",
+        "bonificacao": false,
+        "tipo_segmento": "OFF TRADE",
+        "obs": "",
+        "prazo": "45",
+        "itens": [
+          {
+            "cod_prod": "6798",
+            "descricao": "YVY DESTILADO GIN AR 6X710ML LT",
+            "qt": 10,
+            "preco": 197.64,
+            "total": 1976.4
+          },
+          {
+            "cod_prod": "6799",
+            "descricao": "YVY DESTILADO GIN MAR 6X710ML LT",
+            "qt": 10,
+            "preco": 197.64,
+            "total": 988.2
+          },
+          {
+            "cod_prod": "6800",
+            "descricao": "YVY DESTILADO GIN TERRA 6X710ML LT",
+            "qt": 10,
+            "preco": 197.64,
+            "total": 976.2
+          },
+          {
+            "cod_prod": "7107",
+            "descricao": "APERITIVO LUCIA 750ML",
+            "qt": 180,
+            "preco": 73.5,
+            "total": 13230.0
+          },
+          {
+            "cod_prod": "5243",
+            "descricao": "YVY DESTILADO GIN AR 750ML",
+            "qt": 60,
+            "preco": 49.0,
+            "total": 2940.0
+          },
+          {
+            "cod_prod": "4516",
+            "descricao": "YVY DESTILADO GIN MAR 750ML",
+            "qt": 30,
+            "preco": 49.0,
+            "total": 1470.0
+          }
+        ]
+      }
+    ],
+    "email_data_agendamento": "01/09/2026",
+    "email_observacoes": "Solicito faturamento do pedido abaixo na crc4, são 2 pedidos."
+  },
+  "1a05ab80ff69c9de": {
+    "subject": "Re: Pedido do cliente 90484 RIO SUL DE ITAGUAI",
+    "data_email": "2026-08-31",
+    "blocos": [
+      {
+        "sistema": "CRC - 04",
+        "bonificacao": false,
+        "itens": [
+          {
+            "cod_prod": "3138",
+            "descricao": "WHISKY BUCHANANS 12 YEARS 750 ML",
+            "qt": 12,
+            "preco": 114.9,
+            "total": 1378.8
+          },
+          {
+            "cod_prod": "3643",
+            "descricao": "GIN ROCKS 1000ML",
+            "qt": 12,
+            "preco": 22.5,
+            "total": 270.0
+          },
+          {
+            "cod_prod": "4689",
+            "descricao": "GIN ROCKS WATERMELON 1000ML",
+            "qt": 12,
+            "preco": 22.5,
+            "total": 270.0
+          },
+          {
+            "cod_prod": "3642",
+            "descricao": "GIN ROCKS STRAWBERRY 1000ML",
+            "qt": 12,
+            "preco": 22.5,
+            "total": 270.0
+          },
+          {
+            "cod_prod": "3766",
+            "descricao": "CHANDON PASSION ON ICE 750 ML",
+            "qt": 12,
+            "preco": 75.9,
+            "total": 910.8
+          },
+          {
+            "cod_prod": "3765",
+            "descricao": "CHANDON RICHE DEMI-SEC 750 ML",
+            "qt": 12,
+            "preco": 79.0,
+            "total": 948.0
+          },
+          {
+            "cod_prod": "2614",
+            "descricao": "VILLA ROSA TINTO 750ML",
+            "qt": 12,
+            "preco": 29.9,
+            "total": 358.8
+          },
+          {
+            "cod_prod": "663",
+            "descricao": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+            "qt": 36,
+            "preco": 36.9,
+            "total": 1328.4
+          },
+          {
+            "cod_prod": "70",
+            "descricao": "WHISKY CHIVAS REGAL 12 ANOS 1L",
+            "qt": 12,
+            "preco": 99.9,
+            "total": 1198.8
+          }
+        ],
+        "cod_cliente": "90484",
+        "razao_social": "MERCADO RC DE ITAGUAI LTDA",
+        "fantasia": "MERCADO RC DE ITAGUAI",
+        "cnpj": "58.113.396/0001-63",
+        "endereco": "AVENIDA PREFEITO ISOLDAKSON CRUZ DE BRIT, 0, VILA MARGARIDA - ITAGUAI",
+        "forma_pg": "Boleto",
+        "rca": "153",
+        "tipo_segmento": "OFF TRADE"
+      }
+    ],
+    "email_data_agendamento": "02/09/2026",
+    "email_observacoes": "embalagem: não pode estar danificada para não haver devolução, horário: 08:00 as 14:00, taxa descarga: R$65,00 por pallet"
+  },
+  "1a05993b5ab5289b": {
+    "subject": "Re: Devolução de NF",
+    "data_email": "2026-08-31",
+    "blocos": [],
+    "email_data_agendamento": "",
+    "email_observacoes": ""
+  },
+  "1a0593b3f647f9a9": {
+    "subject": "pedido crc4 - mercado bambina",
+    "data_email": "2026-08-31",
+    "blocos": [
+      {
+        "sistema": "CRC - 04",
+        "cod_cliente": "2710",
+        "razao_social": "MERCADINHO BAMBINA LTDA",
+        "fantasia": "VERDANO",
+        "cnpj": "33.226.663/0001-88",
+        "praca": "RUA VISCONDE OURO PRETO, 80, BOTAFOGO - RIO DE JANEIRO",
+        "forma_pg": "Boleto",
+        "rca": "ANA CLARA FASSANO - OFF TRADE",
+        "bonificacao": false,
+        "tipo_segmento": "OFF TRADE",
+        "obs": "",
+        "prazo": "7 dias",
+        "itens": [
+          {
+            "cod_prod": "449",
+            "descricao": "WHISKY J WALKER BLACK LABEL 1L",
+            "qt": 6,
+            "preco": 149.9,
+            "total": 899.4
+          }
+        ]
+      }
+    ],
+    "email_data_agendamento": "01/09/2026",
+    "email_observacoes": "sem pagamento de descarga"
+  },
+  "1a05912217bad891": {
+    "subject": "PEDIDO MUNDIAL - BONIFICAÇÃO",
+    "data_email": "2026-08-31",
+    "blocos": [
+      {
+        "sistema": "CRC - 04",
+        "bonificacao": true,
+        "itens": [
+          {
+            "cod_prod": "3895",
+            "descricao": "VINHO ROSE QUINTA VENTOZELO 750ML",
+            "qt": 6,
+            "preco": 119.9,
+            "total": 719.4
+          }
+        ],
+        "cod_cliente": "6278",
+        "razao_social": "SUPERMERCADOS MUNDIAL LTDA",
+        "fantasia": "SUPERMERCADOS MUNDIAL",
+        "cnpj": "33.304.981/0001-10",
+        "endereco": "AVENIDA ITAOCA, INHAUMA - RIO DE JANEIRO",
+        "praca": "INHAUMA",
+        "rca": "238 - DANIELLE MOURA",
+        "tipo_segmento": "OFF TRADE"
+      }
+    ],
+    "email_data_agendamento": "03/09/2026",
+    "email_observacoes": "colocar na obs aos cuidados do comprador Rodrigo. horário de entrega de 06 às 11 descarga - 60,00 por pllt - somente PIX"
   }
 }

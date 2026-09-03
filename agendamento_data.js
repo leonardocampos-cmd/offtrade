@@ -27217,8 +27217,4244 @@ const AGENDAMENTO_DATA = {
       ]
     }
   ],
-  "atualizado_em": "31/08/2026 17:47",
+  "atualizado_em": "03/09/2026 15:19",
   "comparativo": [
+    {
+      "msg_id": "1a067f88b28beaf7",
+      "subject": "PEDIDO CRC4 - PEDIDO PADRAO DO FONSECA",
+      "data_email": "2026-09-03",
+      "sistema": "CRC - 04",
+      "cod_cliente": "91841",
+      "razao_social": "SUPERMERCADO PADRÃO DO FONSECA LTDA.",
+      "fantasia": "SUPERMARKET",
+      "cnpj": "08.628.825/0025-34",
+      "rca": "450 - LEANDRO SOUZA - OFF TRADE",
+      "bonificacao": false,
+      "prazo": "28 DIAS",
+      "obs": "",
+      "email_data_agendamento": "04/09/2026",
+      "email_observacoes": "CAIXAS E RÓTULOS ÍNTEGROS E ORIGINAIS. COLOCAR OBSERVAÇÃO NAS LOJAS \"SUPERMERCADO SUPERMAKET\"",
+      "itens": [
+        {
+          "cod_prod": "6256",
+          "descricao": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+          "qt": 2,
+          "preco": 86.28,
+          "total": 172.56,
+          "qt_faturada": 0.0,
+          "valor_faturado": 0.0,
+          "status": "Pendente",
+          "nf": "",
+          "agendado": false
+        },
+        {
+          "cod_prod": "6334",
+          "descricao": "MOVING BOOSTER MORANGO ACEROLA 24X310ML",
+          "qt": 1,
+          "preco": 155.28,
+          "total": 155.28,
+          "qt_faturada": 0.0,
+          "valor_faturado": 0.0,
+          "status": "Pendente",
+          "nf": "",
+          "agendado": false
+        }
+      ]
+    },
+    {
+      "msg_id": "1a067f88b28beaf7",
+      "subject": "PEDIDO CRC4 - PEDIDO PADRAO DO FONSECA",
+      "data_email": "2026-09-03",
+      "sistema": "CRC - 04",
+      "cod_cliente": "90415",
+      "razao_social": "SUPERMERCADO PADRAO DO FONSECA LTDA",
+      "fantasia": "SUPERMARKET",
+      "cnpj": "08.628.825/0024-53",
+      "rca": "450 - LEANDRO SOUZA - OFF TRADE",
+      "bonificacao": false,
+      "prazo": "28 dias",
+      "obs": "",
+      "email_data_agendamento": "04/09/2026",
+      "email_observacoes": "CAIXAS E RÓTULOS ÍNTEGROS E ORIGINAIS. COLOCAR OBSERVAÇÃO NAS LOJAS \"SUPERMERCADO SUPERMAKET\"",
+      "itens": [
+        {
+          "cod_prod": "6256",
+          "descricao": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+          "qt": 5,
+          "preco": 86.28,
+          "total": 431.4,
+          "qt_faturada": 0.0,
+          "valor_faturado": 0.0,
+          "status": "Pendente",
+          "nf": "",
+          "agendado": false
+        }
+      ]
+    },
+    {
+      "msg_id": "1a067f29f404aeed",
+      "subject": "PEDIDO CRC4 - BARRA OESTE",
+      "data_email": "2026-09-03",
+      "sistema": "CRC - 04",
+      "cod_cliente": "67821",
+      "razao_social": "SUPERMERCADO BARRA OESTE LTDA",
+      "fantasia": "REDE SUPERMARKET - BARRA DA TIJUCA",
+      "cnpj": "08.719.835/0003-70",
+      "rca": "450 - LEANDRO SOUZA - OFF TRADE",
+      "bonificacao": false,
+      "prazo": "28 dias",
+      "obs": "",
+      "email_data_agendamento": "04/09/2026",
+      "email_observacoes": "POR GENTILEZA, SALIENTAR PARA LOGÍSTICA QUE EMBARQUEM AS CAIXAS ORIGINAIS E ÍNTEGRAS. O PEDIDO SERÁ DEVOLVIDO SE FOREM FRACIONADOS. HORÁRIO DE RECEBIMENTO : SEGUNDA A SEXTA , DAS 08:00H às 14:30h . DESCARGA, R$ 25,00 POR PALLET, PALLET BATIDO R$ 40,00, POR VOLUME R$ 1,00, FILME R$ 60,00.",
+      "itens": [
+        {
+          "cod_prod": "6256",
+          "descricao": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+          "qt": 3,
+          "preco": 84.0,
+          "total": 252.0,
+          "qt_faturada": 0.0,
+          "valor_faturado": 0.0,
+          "status": "Pendente",
+          "nf": "",
+          "agendado": false
+        }
+      ]
+    },
+    {
+      "msg_id": "1a067f29f404aeed",
+      "subject": "PEDIDO CRC4 - BARRA OESTE",
+      "data_email": "2026-09-03",
+      "sistema": "CRC - 04",
+      "cod_cliente": "93791",
+      "razao_social": "SUPERMERCADO BARRA OESTE LTDA",
+      "fantasia": "SUPERMARKET - VIA PARQUE",
+      "cnpj": "08.719.835/0009-65",
+      "rca": "450 - LEANDRO SOUZA - OFF TRADE",
+      "bonificacao": false,
+      "prazo": "28 dias",
+      "obs": "",
+      "email_data_agendamento": "04/09/2026",
+      "email_observacoes": "POR GENTILEZA, SALIENTAR PARA LOGÍSTICA QUE EMBARQUEM AS CAIXAS ORIGINAIS E ÍNTEGRAS. O PEDIDO SERÁ DEVOLVIDO SE FOREM FRACIONADOS. HORÁRIO DE RECEBIMENTO : SEGUNDA A SEXTA , DAS 08:00H às 14:30h . DESCARGA, R$ 25,00 POR PALLET, PALLET BATIDO R$ 40,00, POR VOLUME R$ 1,00, FILME R$ 60,00.",
+      "itens": [
+        {
+          "cod_prod": "6256",
+          "descricao": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+          "qt": 10,
+          "preco": 84,
+          "total": 840,
+          "qt_faturada": 0.0,
+          "valor_faturado": 0.0,
+          "status": "Pendente",
+          "nf": "",
+          "agendado": false
+        }
+      ]
+    },
+    {
+      "msg_id": "1a067bbd8e28e67e",
+      "subject": "PEDIDO CRC4 - RIO SUL MARICÁ",
+      "data_email": "2026-09-03",
+      "sistema": "CRC - 04",
+      "cod_cliente": "85897",
+      "razao_social": "SUPERMERCADO JARDIM ATLANTICO LTDA",
+      "fantasia": "SUPERMERCADO JARDIM ATLANTICO",
+      "cnpj": "57.489.708/0001-75",
+      "rca": "153 - ANGELO NEVES SUZART - OFF TRADE",
+      "bonificacao": false,
+      "prazo": "28",
+      "obs": "ENTREGAR O AQUARELA EDIÇÃO ESPECIAL PARA ZERARMOS O ESTOQUE",
+      "email_data_agendamento": "04/09/2026",
+      "email_observacoes": "entregar de 08 às 15, descarga 60,00 por pllt, COLOCAR AS 91 GARRAFAS DO ITEM AQUARELA EDIÇÃO ESPECIAL PARA ZERARMOS O ESTOQUE.",
+      "itens": [
+        {
+          "cod_prod": "663",
+          "descricao": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+          "qt": 91,
+          "preco": 32.9,
+          "total": 2993.9,
+          "qt_faturada": 0.0,
+          "valor_faturado": 0.0,
+          "status": "Pendente",
+          "nf": "",
+          "agendado": false
+        }
+      ]
+    },
+    {
+      "msg_id": "1a06700bb4b4e0a2",
+      "subject": "Fwd: Pedido do cliente 84202 Rio Sul do Pantanal",
+      "data_email": "2026-09-03",
+      "sistema": "CRC - 04",
+      "cod_cliente": "84202",
+      "razao_social": "SUPERMERCADO RIO SUL DO PANTANAL LTDA",
+      "fantasia": "RIO SUL DO PANTANAL - VILA SANTO ANTONIO",
+      "cnpj": "28.048.381/0001-06",
+      "rca": "153 - ANGELO NEVES SUZART - OFF TRADE",
+      "bonificacao": false,
+      "prazo": "",
+      "obs": "",
+      "email_data_agendamento": "04/09/2026",
+      "email_observacoes": "prazo 28 dias, pagamento de descarga R$65,00 por pallets, horário: 08:00 às 14:00 por ordem de chegada",
+      "itens": [
+        {
+          "cod_prod": "3818",
+          "descricao": "VINHO BORDO QUINTA DO MORGADO 1LT",
+          "qt": 12,
+          "preco": 19.9,
+          "total": 238.8,
+          "qt_faturada": 0.0,
+          "valor_faturado": 0.0,
+          "status": "Pendente",
+          "nf": "",
+          "agendado": false
+        },
+        {
+          "cod_prod": "7702",
+          "descricao": "AMARULA C LIQUEUR 750 ML + 1 COPO",
+          "qt": 2,
+          "preco": 98.9,
+          "total": 197.8,
+          "qt_faturada": 0.0,
+          "valor_faturado": 0.0,
+          "status": "Pendente",
+          "nf": "",
+          "agendado": false
+        }
+      ]
+    },
+    {
+      "msg_id": "1a06530f941eda60",
+      "subject": "Re: pedido crc4 - padrão do fonseca",
+      "data_email": "2026-09-02",
+      "sistema": "CRC - 04",
+      "cod_cliente": "9604",
+      "razao_social": "SUPERMERCADO PADRAO DO FONSECA EIRELI",
+      "fantasia": "SUPERMARKET FONSECA - PIRATININGA",
+      "cnpj": "08.628.825/0003-29",
+      "rca": "450 - LEANDRO SOUZA - OFF TRADE",
+      "bonificacao": false,
+      "prazo": "28 DIAS",
+      "obs": "",
+      "email_data_agendamento": "03/09/2026",
+      "email_observacoes": "CAIXAS E RÓTULOS ÍNTEGROS E ORIGINAIS; COLOCAR OBSERVAÇÃO NAS LOJAS \"SUPERMERCADO SUPERMAKET\"",
+      "itens": [
+        {
+          "cod_prod": "6256",
+          "descricao": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+          "qt": 5,
+          "preco": 86.28,
+          "total": 431.4,
+          "qt_faturada": 5.0,
+          "valor_faturado": 431.4,
+          "status": "Faturado",
+          "nf": "8196",
+          "agendado": false
+        },
+        {
+          "cod_prod": "6334",
+          "descricao": "MOVING BOOSTER MORANGO ACEROLA 24X310ML",
+          "qt": 2,
+          "preco": 155.28,
+          "total": 310.56,
+          "qt_faturada": 2.0,
+          "valor_faturado": 310.56,
+          "status": "Faturado",
+          "nf": "8196",
+          "agendado": false
+        }
+      ]
+    },
+    {
+      "msg_id": "1a06530f941eda60",
+      "subject": "Re: pedido crc4 - padrão do fonseca",
+      "data_email": "2026-09-02",
+      "sistema": "CRC - 04",
+      "cod_cliente": "78665",
+      "razao_social": "SUPERMERCADO PADRAO DO FONSECA LTDA",
+      "fantasia": "SUPERMARKET - DEL CASTILHO",
+      "cnpj": "08.628.827/0022-91",
+      "rca": "450 - LEANDRO SOUZA - OFF TRADE",
+      "bonificacao": false,
+      "prazo": "28 DIAS",
+      "obs": "",
+      "email_data_agendamento": "03/09/2026",
+      "email_observacoes": "CAIXAS E RÓTULOS ÍNTEGROS E ORIGINAIS; COLOCAR OBSERVAÇÃO NAS LOJAS \"SUPERMERCADO SUPERMAKET\"",
+      "itens": [
+        {
+          "cod_prod": "6257",
+          "descricao": "MOVING HYDRO PROTEIN UVA 12X500ML",
+          "qt": 3,
+          "preco": 86.28,
+          "total": 258.84,
+          "qt_faturada": 3.0,
+          "valor_faturado": 258.84,
+          "status": "Faturado",
+          "nf": "8204",
+          "agendado": false
+        },
+        {
+          "cod_prod": "6256",
+          "descricao": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+          "qt": 8,
+          "preco": 86.28,
+          "total": 690.24,
+          "qt_faturada": 8.0,
+          "valor_faturado": 690.24,
+          "status": "Faturado",
+          "nf": "8204",
+          "agendado": false
+        },
+        {
+          "cod_prod": "6259",
+          "descricao": "MOVING HYDRO PROTEIN F ERMELHA 12X500ML",
+          "qt": 10,
+          "preco": 86.28,
+          "total": 862.8,
+          "qt_faturada": 10.0,
+          "valor_faturado": 862.8,
+          "status": "Faturado",
+          "nf": "8204",
+          "agendado": false
+        },
+        {
+          "cod_prod": "6254",
+          "descricao": "MOVING BOOSTER ABACAXI HORTELA 24X310ML",
+          "qt": 2,
+          "preco": 155.28,
+          "total": 310.56,
+          "qt_faturada": 1.0,
+          "valor_faturado": 155.28,
+          "status": "Parcial",
+          "nf": "8204",
+          "agendado": false
+        },
+        {
+          "cod_prod": "6334",
+          "descricao": "MOVING BOOSTER MORANGO ACEROLA 24X310ML",
+          "qt": 1,
+          "preco": 155.28,
+          "total": 155.28,
+          "qt_faturada": 1.0,
+          "valor_faturado": 155.28,
+          "status": "Faturado",
+          "nf": "8204",
+          "agendado": false
+        }
+      ]
+    },
+    {
+      "msg_id": "1a06530f941eda60",
+      "subject": "Re: pedido crc4 - padrão do fonseca",
+      "data_email": "2026-09-02",
+      "sistema": "CRC - 04",
+      "cod_cliente": "90820",
+      "razao_social": "SUPERMERCADO PADRÃO DO FONSECA LTDA.",
+      "fantasia": "SUPERMARKET",
+      "cnpj": "08.628.825/0001-67",
+      "rca": "450 - LEANDRO SOUZA - OFF TRADE",
+      "bonificacao": false,
+      "prazo": "28 DIAS",
+      "obs": "",
+      "email_data_agendamento": "03/09/2026",
+      "email_observacoes": "CAIXAS E RÓTULOS ÍNTEGROS E ORIGINAIS; COLOCAR OBSERVAÇÃO NAS LOJAS \"SUPERMERCADO SUPERMAKET\"",
+      "itens": [
+        {
+          "cod_prod": "6254",
+          "descricao": "MOVING BOOSTER ABACAXI HORTELA 24X310ML",
+          "qt": 1,
+          "preco": 155.28,
+          "total": 155.28,
+          "qt_faturada": 1.0,
+          "valor_faturado": 155.28,
+          "status": "Faturado",
+          "nf": "8194",
+          "agendado": false
+        },
+        {
+          "cod_prod": "6256",
+          "descricao": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+          "qt": 2,
+          "preco": 86.28,
+          "total": 172.56,
+          "qt_faturada": 2.0,
+          "valor_faturado": 172.56,
+          "status": "Faturado",
+          "nf": "8194",
+          "agendado": false
+        },
+        {
+          "cod_prod": "6334",
+          "descricao": "MOVING BOOSTER MORANGO ACEROLA 24X310ML",
+          "qt": 1,
+          "preco": 155.28,
+          "total": 155.28,
+          "qt_faturada": 1.0,
+          "valor_faturado": 155.28,
+          "status": "Faturado",
+          "nf": "8194",
+          "agendado": false
+        }
+      ]
+    },
+    {
+      "msg_id": "1a06530f941eda60",
+      "subject": "Re: pedido crc4 - padrão do fonseca",
+      "data_email": "2026-09-02",
+      "sistema": "CRC - 04",
+      "cod_cliente": "9603",
+      "razao_social": "SUPERMERCADO PADRAO DO FONSECA EIRELI",
+      "fantasia": "REDE SUPERMARKET (PADR? DO FONSECA - IT",
+      "cnpj": "08.628.825/0004-00",
+      "rca": "450 - LEANDRO SOUZA - OFF TRADE",
+      "bonificacao": false,
+      "prazo": "28 DIAS",
+      "obs": "",
+      "email_data_agendamento": "03/09/2026",
+      "email_observacoes": "CAIXAS E RÓTULOS ÍNTEGROS E ORIGINAIS; COLOCAR OBSERVAÇÃO NAS LOJAS \"SUPERMERCADO SUPERMAKET\"",
+      "itens": [
+        {
+          "cod_prod": "6257",
+          "descricao": "MOVING HYDRO PROTEIN VUA 12X500ML",
+          "qt": 2,
+          "preco": 86.28,
+          "total": 172.56,
+          "qt_faturada": 2.0,
+          "valor_faturado": 172.56,
+          "status": "Faturado",
+          "nf": "8195",
+          "agendado": false
+        },
+        {
+          "cod_prod": "6256",
+          "descricao": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+          "qt": 2,
+          "preco": 86.28,
+          "total": 172.56,
+          "qt_faturada": 2.0,
+          "valor_faturado": 172.56,
+          "status": "Faturado",
+          "nf": "8195",
+          "agendado": false
+        },
+        {
+          "cod_prod": "6334",
+          "descricao": "MOVING BOOSTER MANGOR ACEROLA 24X310ML",
+          "qt": 1,
+          "preco": 155.28,
+          "total": 155.28,
+          "qt_faturada": 1.0,
+          "valor_faturado": 155.28,
+          "status": "Faturado",
+          "nf": "8195",
+          "agendado": false
+        },
+        {
+          "cod_prod": "6254",
+          "descricao": "MOVING BOOSTER ABACAXI HORTELA 24X310ML",
+          "qt": 1,
+          "preco": 155.28,
+          "total": 155.28,
+          "qt_faturada": 1.0,
+          "valor_faturado": 155.28,
+          "status": "Faturado",
+          "nf": "8195",
+          "agendado": false
+        }
+      ]
+    },
+    {
+      "msg_id": "1a06530f941eda60",
+      "subject": "Re: pedido crc4 - padrão do fonseca",
+      "data_email": "2026-09-02",
+      "sistema": "CRC - 04",
+      "cod_cliente": "28411",
+      "razao_social": "SUPERMERCADO PADRAO DO FONSECA EIRELI",
+      "fantasia": "SUPERMARKET",
+      "cnpj": "08.628.825/0015-62",
+      "rca": "450 - LEANDRO SOUZA - OFF TRADE",
+      "bonificacao": false,
+      "prazo": "28 DIAS",
+      "obs": "",
+      "email_data_agendamento": "03/09/2026",
+      "email_observacoes": "CAIXAS E RÓTULOS ÍNTEGROS E ORIGINAIS; COLOCAR OBSERVAÇÃO NAS LOJAS \"SUPERMERCADO SUPERMAKET\"",
+      "itens": [
+        {
+          "cod_prod": "6254",
+          "descricao": "MOVING BOOSTER ABACAXI HORTELA 24X310ML",
+          "qt": 1,
+          "preco": 155.28,
+          "total": 155.28,
+          "qt_faturada": 1.0,
+          "valor_faturado": 155.28,
+          "status": "Faturado",
+          "nf": "8197",
+          "agendado": false
+        },
+        {
+          "cod_prod": "6256",
+          "descricao": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+          "qt": 2,
+          "preco": 86.28,
+          "total": 172.56,
+          "qt_faturada": 2.0,
+          "valor_faturado": 172.56,
+          "status": "Faturado",
+          "nf": "8197",
+          "agendado": false
+        }
+      ]
+    },
+    {
+      "msg_id": "1a06530f941eda60",
+      "subject": "Re: pedido crc4 - padrão do fonseca",
+      "data_email": "2026-09-02",
+      "sistema": "CRC - 04",
+      "cod_cliente": "90415",
+      "razao_social": "SUPERMERCADO PADRÃO DO FONSECA LTDA",
+      "fantasia": "SUPERMARKET",
+      "cnpj": "08.628.825/0024-53",
+      "rca": "450 - LEANDRO SOUZA - OFF TRADE",
+      "bonificacao": false,
+      "prazo": "28 DIAS",
+      "obs": "",
+      "email_data_agendamento": "03/09/2026",
+      "email_observacoes": "CAIXAS E RÓTULOS ÍNTEGROS E ORIGINAIS; COLOCAR OBSERVAÇÃO NAS LOJAS \"SUPERMERCADO SUPERMAKET\"",
+      "itens": [
+        {
+          "cod_prod": "6257",
+          "descricao": "MOVING HYDRO PROTEIN UVA 12X500ML",
+          "qt": 4,
+          "preco": 86.28,
+          "total": 345.12,
+          "qt_faturada": 4.0,
+          "valor_faturado": 345.12,
+          "status": "Faturado",
+          "nf": "8205",
+          "agendado": false
+        },
+        {
+          "cod_prod": "6256",
+          "descricao": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+          "qt": 5,
+          "preco": 86.28,
+          "total": 431.4,
+          "qt_faturada": 0.0,
+          "valor_faturado": 0.0,
+          "status": "Cortado",
+          "nf": "",
+          "agendado": false
+        },
+        {
+          "cod_prod": "6259",
+          "descricao": "MOVING HYDRO PROTEIN F VERMEHA 12X500ML",
+          "qt": 2,
+          "preco": 86.28,
+          "total": 172.56,
+          "qt_faturada": 5.0,
+          "valor_faturado": 431.4,
+          "status": "Faturado",
+          "nf": "8205",
+          "agendado": false
+        },
+        {
+          "cod_prod": "6334",
+          "descricao": "MOVING BOOSTER LARANJA ACEROLA 24X310ML",
+          "qt": 2,
+          "preco": 155.28,
+          "total": 310.56,
+          "qt_faturada": 2.0,
+          "valor_faturado": 310.56,
+          "status": "Faturado",
+          "nf": "8205",
+          "agendado": false
+        },
+        {
+          "cod_prod": "6254",
+          "descricao": "MOVING BOOSTER ABACAXI HORTELA 24X310ML",
+          "qt": 1,
+          "preco": 155.28,
+          "total": 155.28,
+          "qt_faturada": 1.0,
+          "valor_faturado": 155.28,
+          "status": "Faturado",
+          "nf": "8205",
+          "agendado": false
+        }
+      ]
+    },
+    {
+      "msg_id": "1a06530f941eda60",
+      "subject": "Re: pedido crc4 - padrão do fonseca",
+      "data_email": "2026-09-02",
+      "sistema": "CRC - 04",
+      "cod_cliente": "91841",
+      "razao_social": "SUPERMERCADO PADRAO DO FONSECA LTDA.",
+      "fantasia": "SUPERMARKET",
+      "cnpj": "08.628.825/0025-34",
+      "rca": "450 - LEANDRO SOUZA - OFF TRADE",
+      "bonificacao": false,
+      "prazo": "28 DIAS",
+      "obs": "",
+      "email_data_agendamento": "03/09/2026",
+      "email_observacoes": "CAIXAS E RÓTULOS ÍNTEGROS E ORIGINAIS; COLOCAR OBSERVAÇÃO NAS LOJAS \"SUPERMERCADO SUPERMAKET\"",
+      "itens": [
+        {
+          "cod_prod": "6256",
+          "descricao": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+          "qt": 2,
+          "preco": 86.28,
+          "total": 172.56,
+          "qt_faturada": 0.0,
+          "valor_faturado": 0.0,
+          "status": "Pendente",
+          "nf": "",
+          "agendado": false
+        },
+        {
+          "cod_prod": "6334",
+          "descricao": "MOVING BOOSTER MORANGO ACEROLA 24X310ML",
+          "qt": 1,
+          "preco": 155.28,
+          "total": 155.28,
+          "qt_faturada": 0.0,
+          "valor_faturado": 0.0,
+          "status": "Pendente",
+          "nf": "",
+          "agendado": false
+        }
+      ]
+    },
+    {
+      "msg_id": "1a06530f941eda60",
+      "subject": "Re: pedido crc4 - padrão do fonseca",
+      "data_email": "2026-09-02",
+      "sistema": "CRC - 04",
+      "cod_cliente": "90413",
+      "razao_social": "SUPERMERCADO PADRAO DO FONSECA LTDA",
+      "fantasia": "SUPERMARKET",
+      "cnpj": "08.628.825/0019-96",
+      "rca": "450 - LEANDRO SOUZA - OFF TRADE",
+      "bonificacao": false,
+      "prazo": "28 DIAS",
+      "obs": "",
+      "email_data_agendamento": "03/09/2026",
+      "email_observacoes": "CAIXAS E RÓTULOS ÍNTEGROS E ORIGINAIS; COLOCAR OBSERVAÇÃO NAS LOJAS \"SUPERMERCADO SUPERMAKET\"",
+      "itens": [
+        {
+          "cod_prod": "6256",
+          "descricao": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+          "qt": 3,
+          "preco": 86.28,
+          "total": 258.84,
+          "qt_faturada": 3.0,
+          "valor_faturado": 258.84,
+          "status": "Faturado",
+          "nf": "8207",
+          "agendado": false
+        }
+      ]
+    },
+    {
+      "msg_id": "1a0652f16326ffa0",
+      "subject": "Re: pedido crc4 - super compras/vale verde",
+      "data_email": "2026-09-02",
+      "sistema": "CRC - 04",
+      "cod_cliente": "19230",
+      "razao_social": "MERCADO VALE VERDE DE PACIENCIA LTDA",
+      "fantasia": "MERCADO VALE VERDE DE PACIENCIA LTDA",
+      "cnpj": "28.423.936/0001-44",
+      "rca": "419 - NÁTALI DE OLIVEIRA - OFF TRADE",
+      "bonificacao": false,
+      "prazo": "28 DIAS",
+      "obs": "entregar imediato",
+      "email_data_agendamento": "03/09/2026",
+      "email_observacoes": "entrega agendada para 08 às 16hrs, descarga pllt 25,00",
+      "itens": [
+        {
+          "cod_prod": "4570",
+          "descricao": "VINHO CAVAS DE ORO BLEND BRANCO 750ML",
+          "qt": 6,
+          "preco": 29.9,
+          "total": 179.4,
+          "qt_faturada": 6.0,
+          "valor_faturado": 179.4,
+          "status": "Faturado",
+          "nf": "8203",
+          "agendado": false
+        },
+        {
+          "cod_prod": "4572",
+          "descricao": "VINHO CAVAS DE ORO MALBEC 750ML",
+          "qt": 6,
+          "preco": 36.9,
+          "total": 221.4,
+          "qt_faturada": 0.0,
+          "valor_faturado": 0.0,
+          "status": "Cortado",
+          "nf": "",
+          "agendado": false
+        },
+        {
+          "cod_prod": "4571",
+          "descricao": "VINHO CAVAS DE ORO BLEND ROSADO 750ML",
+          "qt": 6,
+          "preco": 29.9,
+          "total": 179.4,
+          "qt_faturada": 6.0,
+          "valor_faturado": 179.4,
+          "status": "Faturado",
+          "nf": "8203",
+          "agendado": false
+        },
+        {
+          "cod_prod": "4569",
+          "descricao": "VINHO CAVAS DE ORO BLEND TINTO 750ML",
+          "qt": 6,
+          "preco": 29.9,
+          "total": 179.4,
+          "qt_faturada": 0.0,
+          "valor_faturado": 0.0,
+          "status": "Cortado",
+          "nf": "",
+          "agendado": false
+        },
+        {
+          "cod_prod": "4574",
+          "descricao": "VINHO CAVAS DE ORO CABERNET SAUV 750ML",
+          "qt": 6,
+          "preco": 36.9,
+          "total": 221.4,
+          "qt_faturada": 6.0,
+          "valor_faturado": 221.4,
+          "status": "Faturado",
+          "nf": "8203",
+          "agendado": false
+        },
+        {
+          "cod_prod": "2927",
+          "descricao": "VINHO FOODKILLER CAB. SAUV. 750ML",
+          "qt": 12,
+          "preco": 31.9,
+          "total": 382.8,
+          "qt_faturada": 12.0,
+          "valor_faturado": 382.8,
+          "status": "Faturado",
+          "nf": "8203",
+          "agendado": false
+        },
+        {
+          "cod_prod": "2926",
+          "descricao": "VINHO FOODKILLER CAB. SAUV./ MERLOT",
+          "qt": 6,
+          "preco": 31.9,
+          "total": 191.4,
+          "qt_faturada": 6.0,
+          "valor_faturado": 191.4,
+          "status": "Faturado",
+          "nf": "8203",
+          "agendado": false
+        },
+        {
+          "cod_prod": "2928",
+          "descricao": "VINHO FOODKILLER CARMENERE 750ML",
+          "qt": 6,
+          "preco": 31.9,
+          "total": 191.4,
+          "qt_faturada": 6.0,
+          "valor_faturado": 191.4,
+          "status": "Faturado",
+          "nf": "8203",
+          "agendado": false
+        },
+        {
+          "cod_prod": "2929",
+          "descricao": "VINHO FOODKILLER CHARDONNAY 750ML",
+          "qt": 6,
+          "preco": 31.9,
+          "total": 191.4,
+          "qt_faturada": 6.0,
+          "valor_faturado": 191.4,
+          "status": "Faturado",
+          "nf": "8203",
+          "agendado": false
+        },
+        {
+          "cod_prod": "2614",
+          "descricao": "VILLA ROSA TINTO 750ML",
+          "qt": 6,
+          "preco": 24.9,
+          "total": 149.4,
+          "qt_faturada": 6.0,
+          "valor_faturado": 149.4,
+          "status": "Faturado",
+          "nf": "8203",
+          "agendado": false
+        },
+        {
+          "cod_prod": "2703",
+          "descricao": "VILLA ROSA ROSE 750ML",
+          "qt": 6,
+          "preco": 24.9,
+          "total": 149.4,
+          "qt_faturada": 6.0,
+          "valor_faturado": 149.4,
+          "status": "Faturado",
+          "nf": "8203",
+          "agendado": false
+        },
+        {
+          "cod_prod": "4068",
+          "descricao": "VINHO VILLA ROSA FRISANTE ROSE",
+          "qt": 6,
+          "preco": 24.9,
+          "total": 149.4,
+          "qt_faturada": 0.0,
+          "valor_faturado": 0.0,
+          "status": "Cortado",
+          "nf": "",
+          "agendado": false
+        }
+      ]
+    },
+    {
+      "msg_id": "1a0652dd1a453414",
+      "subject": "Re: pedido CRC 4 - Barra Oeste",
+      "data_email": "2026-09-02",
+      "sistema": "CRC - 04",
+      "cod_cliente": "3754",
+      "razao_social": "SUPERMERCADO BARRA OESTE LTDA",
+      "fantasia": "SUPER MARKET",
+      "cnpj": "08.719.835/0001-08",
+      "rca": "450 - LEANDRO SOUZA - OFF TRADE",
+      "bonificacao": false,
+      "prazo": "28 DIAS",
+      "obs": "",
+      "email_data_agendamento": "03/09/2026",
+      "email_observacoes": "SALIENTAR PARA LOGÍSTICA QUE EMBARQUEM AS CAIXAS ORIGINAIS E ÍNTEGRAS. O PEDIDO SERÁ DEVOLVIDO SE FOREM FRACIONADOS. HORÁRIO DE RECEBIMENTO : SEGUNDA A SEXTA , DAS 08:00H às 14:30h . DESCARGA, R$ 25,00 POR PALLET, PALLET BATIDO R$ 40,00, POR VOLUME R$ 1,00, FILME R$ 60,00.",
+      "itens": [
+        {
+          "cod_prod": "6259",
+          "descricao": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+          "qt": 10,
+          "preco": 84,
+          "total": 840,
+          "qt_faturada": 10.0,
+          "valor_faturado": 840.0,
+          "status": "Faturado",
+          "nf": "8202",
+          "agendado": false
+        },
+        {
+          "cod_prod": "6256",
+          "descricao": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+          "qt": 10,
+          "preco": 84,
+          "total": 840,
+          "qt_faturada": 10.0,
+          "valor_faturado": 840.0,
+          "status": "Faturado",
+          "nf": "8202",
+          "agendado": false
+        },
+        {
+          "cod_prod": "6254",
+          "descricao": "MOVING BOOSTER ABACAXI HORTELA 24X310ML",
+          "qt": 1,
+          "preco": 154.8,
+          "total": 154.8,
+          "qt_faturada": 1.0,
+          "valor_faturado": 154.8,
+          "status": "Faturado",
+          "nf": "8202",
+          "agendado": false
+        },
+        {
+          "cod_prod": "4886",
+          "descricao": "ST PIERRE ZERO LATA PINK LEMON 24X310ML",
+          "qt": 1,
+          "preco": 100.56,
+          "total": 100.56,
+          "qt_faturada": 2.0,
+          "valor_faturado": 201.12,
+          "status": "Faturado",
+          "nf": "8202",
+          "agendado": false
+        },
+        {
+          "cod_prod": "4884",
+          "descricao": "ST PIERRE ZERO LATA RED MINT LT 24X310ML",
+          "qt": 1,
+          "preco": 100.56,
+          "total": 100.56,
+          "qt_faturada": 2.0,
+          "valor_faturado": 201.12,
+          "status": "Faturado",
+          "nf": "8202",
+          "agendado": false
+        },
+        {
+          "cod_prod": "4885",
+          "descricao": "ST PIERRE ZERO LATA TROPICAL LT 24X310ML",
+          "qt": 2,
+          "preco": 100.56,
+          "total": 201.12,
+          "qt_faturada": 2.0,
+          "valor_faturado": 201.12,
+          "status": "Faturado",
+          "nf": "8202",
+          "agendado": false
+        }
+      ]
+    },
+    {
+      "msg_id": "1a0652dd1a453414",
+      "subject": "Re: pedido CRC 4 - Barra Oeste",
+      "data_email": "2026-09-02",
+      "sistema": "CRC - 04",
+      "cod_cliente": "67821",
+      "razao_social": "SUPERMERCADO BARRA OESTE LTDA",
+      "fantasia": "REDE SUPERMARKET - BARRA DA TIJUCA",
+      "cnpj": "08.719.835/0003-70",
+      "rca": "450 - LEANDRO SOUZA - OFF TRADE",
+      "bonificacao": false,
+      "prazo": "28 DIAS",
+      "obs": "",
+      "email_data_agendamento": "03/09/2026",
+      "email_observacoes": "SALIENTAR PARA LOGÍSTICA QUE EMBARQUEM AS CAIXAS ORIGINAIS E ÍNTEGRAS. O PEDIDO SERÁ DEVOLVIDO SE FOREM FRACIONADOS. HORÁRIO DE RECEBIMENTO : SEGUNDA A SEXTA , DAS 08:00H às 14:30h . DESCARGA, R$ 25,00 POR PALLET, PALLET BATIDO R$ 40,00, POR VOLUME R$ 1,00, FILME R$ 60,00.",
+      "itens": [
+        {
+          "cod_prod": "6259",
+          "descricao": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+          "qt": 5,
+          "preco": 84,
+          "total": 420,
+          "qt_faturada": 5.0,
+          "valor_faturado": 420.0,
+          "status": "Faturado",
+          "nf": "8208",
+          "agendado": false
+        },
+        {
+          "cod_prod": "6256",
+          "descricao": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+          "qt": 3,
+          "preco": 84,
+          "total": 252,
+          "qt_faturada": 0.0,
+          "valor_faturado": 0.0,
+          "status": "Cortado",
+          "nf": "",
+          "agendado": false
+        },
+        {
+          "cod_prod": "4885",
+          "descricao": "ST PIERRE ZERO LATA TROPICAL LT 24X310ML",
+          "qt": 2,
+          "preco": 100.56,
+          "total": 201.12,
+          "qt_faturada": 2.0,
+          "valor_faturado": 201.12,
+          "status": "Faturado",
+          "nf": "8208",
+          "agendado": false
+        }
+      ]
+    },
+    {
+      "msg_id": "1a0652dd1a453414",
+      "subject": "Re: pedido CRC 4 - Barra Oeste",
+      "data_email": "2026-09-02",
+      "sistema": "CRC - 04",
+      "cod_cliente": "67822",
+      "razao_social": "SUPERMERCADO BARRA OESTE LTDA",
+      "fantasia": "BARRA OESTE - BARRA DA TIJU",
+      "cnpj": "08.719.835/0007-01",
+      "rca": "450 - LEANDRO SOUZA - OFF TRADE",
+      "bonificacao": false,
+      "prazo": "28 DIAS",
+      "obs": "",
+      "email_data_agendamento": "03/09/2026",
+      "email_observacoes": "SALIENTAR PARA LOGÍSTICA QUE EMBARQUEM AS CAIXAS ORIGINAIS E ÍNTEGRAS. O PEDIDO SERÁ DEVOLVIDO SE FOREM FRACIONADOS. HORÁRIO DE RECEBIMENTO : SEGUNDA A SEXTA , DAS 08:00H às 14:30h . DESCARGA, R$ 25,00 POR PALLET, PALLET BATIDO R$ 40,00, POR VOLUME R$ 1,00, FILME R$ 60,00.",
+      "itens": [
+        {
+          "cod_prod": "6259",
+          "descricao": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+          "qt": 10,
+          "preco": 84.0,
+          "total": 840.0,
+          "qt_faturada": 10.0,
+          "valor_faturado": 840.0,
+          "status": "Faturado",
+          "nf": "8201",
+          "agendado": false
+        },
+        {
+          "cod_prod": "6256",
+          "descricao": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+          "qt": 10,
+          "preco": 84.0,
+          "total": 840.0,
+          "qt_faturada": 10.0,
+          "valor_faturado": 840.0,
+          "status": "Faturado",
+          "nf": "8201",
+          "agendado": false
+        },
+        {
+          "cod_prod": "6254",
+          "descricao": "MOVING BOOSTER ABACAXI HORTELA 24X310ML",
+          "qt": 2,
+          "preco": 154.8,
+          "total": 309.6,
+          "qt_faturada": 1.0,
+          "valor_faturado": 154.8,
+          "status": "Parcial",
+          "nf": "8201",
+          "agendado": false
+        },
+        {
+          "cod_prod": "4886",
+          "descricao": "ST PIERRE ZERO LATA PINK LEMON 24X310ML",
+          "qt": 2,
+          "preco": 100.56,
+          "total": 201.12,
+          "qt_faturada": 2.0,
+          "valor_faturado": 201.12,
+          "status": "Faturado",
+          "nf": "8201",
+          "agendado": false
+        },
+        {
+          "cod_prod": "4884",
+          "descricao": "ST PIERRE ZERO LATA RED MINT LT 24X310ML",
+          "qt": 2,
+          "preco": 100.56,
+          "total": 201.12,
+          "qt_faturada": 2.0,
+          "valor_faturado": 201.12,
+          "status": "Faturado",
+          "nf": "8201",
+          "agendado": false
+        }
+      ]
+    },
+    {
+      "msg_id": "1a0652dd1a453414",
+      "subject": "Re: pedido CRC 4 - Barra Oeste",
+      "data_email": "2026-09-02",
+      "sistema": "CRC - 04",
+      "cod_cliente": "93791",
+      "razao_social": "SUPERMERCADO BARRA OESTE LTDA",
+      "fantasia": "SUPERMARKET - VIA PARQUE",
+      "cnpj": "08.719.835/0009-65",
+      "rca": "450 - LEANDRO SOUZA - OFF TRADE",
+      "bonificacao": false,
+      "prazo": "28 DIAS",
+      "obs": "",
+      "email_data_agendamento": "03/09/2026",
+      "email_observacoes": "SALIENTAR PARA LOGÍSTICA QUE EMBARQUEM AS CAIXAS ORIGINAIS E ÍNTEGRAS. O PEDIDO SERÁ DEVOLVIDO SE FOREM FRACIONADOS. HORÁRIO DE RECEBIMENTO : SEGUNDA A SEXTA , DAS 08:00H às 14:30h . DESCARGA, R$ 25,00 POR PALLET, PALLET BATIDO R$ 40,00, POR VOLUME R$ 1,00, FILME R$ 60,00.",
+      "itens": [
+        {
+          "cod_prod": "6259",
+          "descricao": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+          "qt": 10,
+          "preco": 84.0,
+          "total": 840.0,
+          "qt_faturada": 10.0,
+          "valor_faturado": 840.0,
+          "status": "Faturado",
+          "nf": "8209",
+          "agendado": false
+        },
+        {
+          "cod_prod": "6256",
+          "descricao": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+          "qt": 10,
+          "preco": 84.0,
+          "total": 840.0,
+          "qt_faturada": 0.0,
+          "valor_faturado": 0.0,
+          "status": "Cortado",
+          "nf": "",
+          "agendado": false
+        },
+        {
+          "cod_prod": "4886",
+          "descricao": "ST PIERRE ZERO LATA PINK LEMON 24X310ML",
+          "qt": 2,
+          "preco": 100.56,
+          "total": 201.12,
+          "qt_faturada": 2.0,
+          "valor_faturado": 201.12,
+          "status": "Faturado",
+          "nf": "8209",
+          "agendado": false
+        },
+        {
+          "cod_prod": "4884",
+          "descricao": "ST PIERRE ZERO LATA RED MINT LT 24X310ML",
+          "qt": 2,
+          "preco": 100.56,
+          "total": 201.12,
+          "qt_faturada": 2.0,
+          "valor_faturado": 201.12,
+          "status": "Faturado",
+          "nf": "8209",
+          "agendado": false
+        },
+        {
+          "cod_prod": "4885",
+          "descricao": "ST PIERRE ZERO LATA TROPICAL LT 24X310ML",
+          "qt": 2,
+          "preco": 100.56,
+          "total": 201.12,
+          "qt_faturada": 2.0,
+          "valor_faturado": 201.12,
+          "status": "Faturado",
+          "nf": "8209",
+          "agendado": false
+        },
+        {
+          "cod_prod": "3771",
+          "descricao": "VODKA BELVEDERE 700 ML",
+          "qt": 6,
+          "preco": 113.9,
+          "total": 683.4,
+          "qt_faturada": 6.0,
+          "valor_faturado": 683.4,
+          "status": "Faturado",
+          "nf": "8209",
+          "agendado": false
+        }
+      ]
+    },
+    {
+      "msg_id": "1a063ba95d843e61",
+      "subject": "pedido crc4 - ANB griffe dos vinhos",
+      "data_email": "2026-09-02",
+      "sistema": "CRC - 04",
+      "cod_cliente": "71185",
+      "razao_social": "ANB DISTRIBUIDORA DE ALIMENTOS E BEBIDAS LTDA",
+      "fantasia": "ANB DISTRIBUIDORA DE ALIMENTOS E BEBIDAS",
+      "cnpj": "49.306.432/0001-14",
+      "rca": "378 - FABIO VALOTTI - OFF TRADE",
+      "bonificacao": false,
+      "prazo": "28/35/42",
+      "obs": "entrega agendada para amanha de 6 as 11 hrs - cadeg",
+      "email_data_agendamento": "03/09/2026",
+      "email_observacoes": "entrega agendada para 06 às 11hrs - cadeg",
+      "itens": [
+        {
+          "cod_prod": "3760",
+          "descricao": "CHANDON BABY BRUT ROSE 187 ML",
+          "qt": 48,
+          "preco": 26.9,
+          "total": 1291.2,
+          "qt_faturada": 0.0,
+          "valor_faturado": 0.0,
+          "status": "Pendente",
+          "nf": "",
+          "agendado": false
+        }
+      ]
+    },
+    {
+      "msg_id": "1a063abd9d2ae049",
+      "subject": "Fwd: bonificação do cliente 18918 Jardins da ILha",
+      "data_email": "2026-09-02",
+      "sistema": "CRC - 04",
+      "cod_cliente": "18918",
+      "razao_social": "MERCADO JARDINS DA ILHA LTDA",
+      "fantasia": "MERCADO JARDINS DA ILHA LTDA",
+      "cnpj": "27.939.646/0001-95",
+      "rca": "153 - ANGELO NEVES SUZART - OFF TRADE",
+      "bonificacao": true,
+      "prazo": "",
+      "obs": "",
+      "email_data_agendamento": "03/09/2026",
+      "email_observacoes": "entregar junto com o pedido por favor, taxa descarga: R$50,00 por pallet, horário de entrega: 08:00hs às 14:00hs",
+      "itens": [
+        {
+          "cod_prod": "2613",
+          "descricao": "VILLA ROSA BRANCO 750ML",
+          "qt": 1,
+          "preco": 29.9,
+          "total": 29.9,
+          "qt_faturada": 13.0,
+          "valor_faturado": 388.7,
+          "status": "Faturado",
+          "nf": "8199, 8200",
+          "agendado": false
+        }
+      ]
+    },
+    {
+      "msg_id": "1a063aaf7c07b151",
+      "subject": "Fwd: Pedido do cliente 18918 Jardins da Ilha ( CAMBAUBA)",
+      "data_email": "2026-09-02",
+      "sistema": "CRC - 04",
+      "cod_cliente": "18918",
+      "razao_social": "MERCADO JARDINS DA ILHA LTDA",
+      "fantasia": "MERCADO JARDINS DA ILHA LTDA",
+      "cnpj": "27.939.646/0001-95",
+      "rca": "153 - ANGELO NEVES SUZART - OFF TRADE",
+      "bonificacao": false,
+      "prazo": "",
+      "obs": "",
+      "email_data_agendamento": "04/09/2026",
+      "email_observacoes": "entregar dia 04/09, horário: 08:00 às 14:00, pagamento de descarga R$50,00 por pallets, embalagem e rótulos não podem estar danificados e produtos em sua caixa de origem",
+      "itens": [
+        {
+          "cod_prod": "2928",
+          "descricao": "VINHO FOODKILLER CARMENERE 750ML",
+          "qt": 12,
+          "preco": 29.9,
+          "total": 358.8,
+          "qt_faturada": 12.0,
+          "valor_faturado": 358.8,
+          "status": "Faturado",
+          "nf": "8200",
+          "agendado": false
+        },
+        {
+          "cod_prod": "2924",
+          "descricao": "VINHO GRAVEDAD CARMENERE 750ML",
+          "qt": 12,
+          "preco": 29.9,
+          "total": 358.8,
+          "qt_faturada": 12.0,
+          "valor_faturado": 358.8,
+          "status": "Faturado",
+          "nf": "8200",
+          "agendado": false
+        },
+        {
+          "cod_prod": "2925",
+          "descricao": "VINHO GRAVEDAD CAB. SAUV.",
+          "qt": 12,
+          "preco": 29.9,
+          "total": 358.8,
+          "qt_faturada": 12.0,
+          "valor_faturado": 358.8,
+          "status": "Faturado",
+          "nf": "8200",
+          "agendado": false
+        },
+        {
+          "cod_prod": "2923",
+          "descricao": "VINHO GRAVEDAD SAUV. BLANC 750ML",
+          "qt": 12,
+          "preco": 29.9,
+          "total": 358.8,
+          "qt_faturada": 12.0,
+          "valor_faturado": 358.8,
+          "status": "Faturado",
+          "nf": "8200",
+          "agendado": false
+        },
+        {
+          "cod_prod": "2922",
+          "descricao": "VINHO GRAVEDAD CAB. SAUV./ CARMENERE",
+          "qt": 12,
+          "preco": 29.9,
+          "total": 358.8,
+          "qt_faturada": 12.0,
+          "valor_faturado": 358.8,
+          "status": "Faturado",
+          "nf": "8200",
+          "agendado": false
+        },
+        {
+          "cod_prod": "2613",
+          "descricao": "VILLA ROSA BRANCO 750ML",
+          "qt": 12,
+          "preco": 29.9,
+          "total": 358.8,
+          "qt_faturada": 13.0,
+          "valor_faturado": 388.7,
+          "status": "Faturado",
+          "nf": "8199, 8200",
+          "agendado": false
+        },
+        {
+          "cod_prod": "2848",
+          "descricao": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
+          "qt": 12,
+          "preco": 55.9,
+          "total": 670.8,
+          "qt_faturada": 12.0,
+          "valor_faturado": 670.8,
+          "status": "Faturado",
+          "nf": "8200",
+          "agendado": false
+        }
+      ]
+    },
+    {
+      "msg_id": "1a063aa3dc95862a",
+      "subject": "Pedido do cliente 84202 Rio Sul do Pantanal",
+      "data_email": "2026-09-02",
+      "sistema": "CRC - 04",
+      "cod_cliente": "84202",
+      "razao_social": "SUPERMERCADO RIO SUL DO PANTANAL LTDA",
+      "fantasia": "RIO SUL DO PANTANAL - VILA SANTO ANTONIO",
+      "cnpj": "28.048.381/0001-06",
+      "rca": "153 - ANGELO NEVES SUZART - OFF TRADE",
+      "bonificacao": false,
+      "prazo": "",
+      "obs": "",
+      "email_data_agendamento": "04/09/2026",
+      "email_observacoes": "prazo 28 dias, pagamento de descarga R$65,00 por pallets, horário: 08:00 às 14:00 por ordem de chegada, e temos um pedido no MAXX para seguir junto",
+      "itens": [
+        {
+          "cod_prod": "3818",
+          "descricao": "VINHO BORDO QUINTA DO MORGADO 1LT",
+          "qt": 12,
+          "preco": 19.9,
+          "total": 238.8,
+          "qt_faturada": 0.0,
+          "valor_faturado": 0.0,
+          "status": "Pendente",
+          "nf": "",
+          "agendado": false
+        },
+        {
+          "cod_prod": "7702",
+          "descricao": "AMARULA C LIQUEUR 750 ML + 1 COPO",
+          "qt": 2,
+          "preco": 98.9,
+          "total": 197.8,
+          "qt_faturada": 0.0,
+          "valor_faturado": 0.0,
+          "status": "Pendente",
+          "nf": "",
+          "agendado": false
+        }
+      ]
+    },
+    {
+      "msg_id": "1a0639f84c8002a6",
+      "subject": "Pedido do cliente 85945 Rio Sul do Centenario",
+      "data_email": "2026-09-02",
+      "sistema": "CRC - 04",
+      "cod_cliente": "85945",
+      "razao_social": "SUPERMERCADO RIO SUL DO CENTENARIO LTDA",
+      "fantasia": "SUPERMERCADO RIO SUL DO CENTENARIO LTDA",
+      "cnpj": "33.749.495/0001-05",
+      "rca": "153 - ANGELO NEVES SUZART - OFF TRADE",
+      "bonificacao": false,
+      "prazo": "",
+      "obs": "",
+      "email_data_agendamento": "04/09/2026",
+      "email_observacoes": "Só iremos faturar o pedido com autorização da indústria que está em cópia neste email para poder fazer a degustação. Taxa descarga: R$65,00 por pallet. Horário de entrega: 08:00hs às 14:00hs.",
+      "itens": [
+        {
+          "cod_prod": "3817",
+          "descricao": "VINHO TINTO QUINTA DO MORGADO 1LT",
+          "qt": 30,
+          "preco": 16.9,
+          "total": 507.0,
+          "qt_faturada": 0.0,
+          "valor_faturado": 0.0,
+          "status": "Pendente",
+          "nf": "",
+          "agendado": false
+        },
+        {
+          "cod_prod": "3814",
+          "descricao": "VINHO TINTO QUINTA DO MORGADO 750ML",
+          "qt": 48,
+          "preco": 14.49,
+          "total": 695.52,
+          "qt_faturada": 0.0,
+          "valor_faturado": 0.0,
+          "status": "Pendente",
+          "nf": "",
+          "agendado": false
+        },
+        {
+          "cod_prod": "3820",
+          "descricao": "VINHO MERLOT QUINTA DO MORGADO 750ML",
+          "qt": 12,
+          "preco": 21.9,
+          "total": 262.8,
+          "qt_faturada": 0.0,
+          "valor_faturado": 0.0,
+          "status": "Pendente",
+          "nf": "",
+          "agendado": false
+        }
+      ]
+    },
+    {
+      "msg_id": "1a0639901bacfdea",
+      "subject": "bonificação do cliente 18918 Jardins da ILha",
+      "data_email": "2026-09-02",
+      "sistema": "CRC - 04",
+      "cod_cliente": "18918",
+      "razao_social": "MERCADO JARDINS DA ILHA LTDA",
+      "fantasia": "MERCADO JARDINS DA ILHA LTDA",
+      "cnpj": "27.939.646/0001-95",
+      "rca": "153 - ANGELO NEVES SUZART - OFF TRADE",
+      "bonificacao": true,
+      "prazo": "",
+      "obs": "",
+      "email_data_agendamento": "04/09/2026",
+      "email_observacoes": "TAXA DESCARGA: R$50,00 POR PALLET; HORÁRIO DE ENTREGA: 08:00hs às 14:00hs",
+      "itens": [
+        {
+          "cod_prod": "2613",
+          "descricao": "VILLA ROSA BRANCO 750ML",
+          "qt": 1,
+          "preco": 29.9,
+          "total": 29.9,
+          "qt_faturada": 13.0,
+          "valor_faturado": 388.7,
+          "status": "Faturado",
+          "nf": "8199, 8200",
+          "agendado": false
+        }
+      ]
+    },
+    {
+      "msg_id": "1a06396e68f31a38",
+      "subject": "Pedido do cliente 18918 Jardins da Ilha ( CAMBAUBA)",
+      "data_email": "2026-09-02",
+      "sistema": "CRC - 04",
+      "cod_cliente": "18918",
+      "razao_social": "MERCADO JARDINS DA ILHA LTDA",
+      "fantasia": "MERCADO JARDINS DA ILHA LTDA",
+      "cnpj": "27.939.646/0001-95",
+      "rca": "153 - ANGELO NEVES SUZART - OFF TRADE",
+      "bonificacao": false,
+      "prazo": "",
+      "obs": "",
+      "email_data_agendamento": "04/09/2026",
+      "email_observacoes": "entregar dia 04/09, horário: 08:00 às 14:00, pagamento de descarga R$50,00 por pallets, embalagem e rótulos não podem estar danificados e produtos em sua caixa de origem",
+      "itens": [
+        {
+          "cod_prod": "2928",
+          "descricao": "VINHO FOODKILLER CARMENERE 750ML",
+          "qt": 12,
+          "preco": 29.9,
+          "total": 358.8,
+          "qt_faturada": 12.0,
+          "valor_faturado": 358.8,
+          "status": "Faturado",
+          "nf": "8200",
+          "agendado": false
+        },
+        {
+          "cod_prod": "2924",
+          "descricao": "VINHO GRAVEDAD CARMENERE 750ML",
+          "qt": 12,
+          "preco": 29.9,
+          "total": 358.8,
+          "qt_faturada": 12.0,
+          "valor_faturado": 358.8,
+          "status": "Faturado",
+          "nf": "8200",
+          "agendado": false
+        },
+        {
+          "cod_prod": "2925",
+          "descricao": "VINHO GRAVEDAD CAB. SAUV.",
+          "qt": 12,
+          "preco": 29.9,
+          "total": 358.8,
+          "qt_faturada": 12.0,
+          "valor_faturado": 358.8,
+          "status": "Faturado",
+          "nf": "8200",
+          "agendado": false
+        },
+        {
+          "cod_prod": "2923",
+          "descricao": "VINHO GRAVEDAD SAUV. BLANC 750ML",
+          "qt": 12,
+          "preco": 29.9,
+          "total": 358.8,
+          "qt_faturada": 12.0,
+          "valor_faturado": 358.8,
+          "status": "Faturado",
+          "nf": "8200",
+          "agendado": false
+        },
+        {
+          "cod_prod": "2922",
+          "descricao": "VINHO GRAVEDAD CAB. SAUV./ CARMENERE",
+          "qt": 12,
+          "preco": 29.9,
+          "total": 358.8,
+          "qt_faturada": 12.0,
+          "valor_faturado": 358.8,
+          "status": "Faturado",
+          "nf": "8200",
+          "agendado": false
+        },
+        {
+          "cod_prod": "2613",
+          "descricao": "VILLA ROSA BRANCO 750ML",
+          "qt": 12,
+          "preco": 29.9,
+          "total": 358.8,
+          "qt_faturada": 13.0,
+          "valor_faturado": 388.7,
+          "status": "Faturado",
+          "nf": "8199, 8200",
+          "agendado": false
+        },
+        {
+          "cod_prod": "2848",
+          "descricao": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
+          "qt": 12,
+          "preco": 55.9,
+          "total": 670.8,
+          "qt_faturada": 12.0,
+          "valor_faturado": 670.8,
+          "status": "Faturado",
+          "nf": "8200",
+          "agendado": false
+        }
+      ]
+    },
+    {
+      "msg_id": "1a063872ad282368",
+      "subject": "Re:",
+      "data_email": "2026-09-02",
+      "sistema": "CRC - 04",
+      "cod_cliente": "96005",
+      "razao_social": "MULTI GUARANI MERCADO LTDA",
+      "fantasia": "MULTI GUARANI MERCADO",
+      "cnpj": "67.911.623/0001-97",
+      "rca": "153 - ANGELO NEVES SUZART - OFF TRADE",
+      "bonificacao": false,
+      "prazo": "28",
+      "obs": "entregar no dia 24/08 não pagamos descarga no momento no horario das 08:00 as 14:00hr",
+      "email_data_agendamento": "01/09/2026",
+      "email_observacoes": "não pagamos descarga, horario: 08:00 ás 14:00",
+      "itens": [
+        {
+          "cod_prod": "663",
+          "descricao": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+          "qt": 12,
+          "preco": 36.9,
+          "total": 442.8,
+          "qt_faturada": 12.0,
+          "valor_faturado": 442.8,
+          "status": "Faturado",
+          "nf": "8198",
+          "agendado": false
+        }
+      ]
+    },
+    {
+      "msg_id": "1a063682927b2920",
+      "subject": "pedido crc4 - super compras/vale verde",
+      "data_email": "2026-09-02",
+      "sistema": "CRC - 04",
+      "cod_cliente": "19230",
+      "razao_social": "MERCADO VALE VERDE DE PACIENCIA LTDA",
+      "fantasia": "MERCADO VALE VERDE DE PACIENCIA LTDA",
+      "cnpj": "28.423.936/0001-44",
+      "rca": "419 - NÁTALI DE OLIVEIRA - OFF TRADE",
+      "bonificacao": false,
+      "prazo": "28 DIAS",
+      "obs": "entregar imediato",
+      "email_data_agendamento": "03/09/2026",
+      "email_observacoes": "entrega agendada para amanhã, degustação alinhada de 08 às 16hrs, descarga pllt 25,00",
+      "itens": [
+        {
+          "cod_prod": "4570",
+          "descricao": "VINHO CAVAS DE ORO BLEND BRANCO 750ML",
+          "qt": 6,
+          "preco": 29.9,
+          "total": 179.4,
+          "qt_faturada": 6.0,
+          "valor_faturado": 179.4,
+          "status": "Faturado",
+          "nf": "8203",
+          "agendado": false
+        },
+        {
+          "cod_prod": "4572",
+          "descricao": "VINHO CAVAS DE ORO MALBEC 750ML",
+          "qt": 6,
+          "preco": 36.9,
+          "total": 221.4,
+          "qt_faturada": 0.0,
+          "valor_faturado": 0.0,
+          "status": "Cortado",
+          "nf": "",
+          "agendado": false
+        },
+        {
+          "cod_prod": "4571",
+          "descricao": "VINHO CAVAS DE ORO BLEND ROSADO 750ML",
+          "qt": 6,
+          "preco": 29.9,
+          "total": 179.4,
+          "qt_faturada": 6.0,
+          "valor_faturado": 179.4,
+          "status": "Faturado",
+          "nf": "8203",
+          "agendado": false
+        },
+        {
+          "cod_prod": "4569",
+          "descricao": "VINHO CAVAS DE ORO BLEND TINTO 750ML",
+          "qt": 6,
+          "preco": 29.9,
+          "total": 179.4,
+          "qt_faturada": 0.0,
+          "valor_faturado": 0.0,
+          "status": "Cortado",
+          "nf": "",
+          "agendado": false
+        },
+        {
+          "cod_prod": "4574",
+          "descricao": "VINHO CAVAS DE ORO CABERNET SAUV 750ML",
+          "qt": 6,
+          "preco": 36.9,
+          "total": 221.4,
+          "qt_faturada": 6.0,
+          "valor_faturado": 221.4,
+          "status": "Faturado",
+          "nf": "8203",
+          "agendado": false
+        },
+        {
+          "cod_prod": "2927",
+          "descricao": "VINHO FOODKILLER CAB. SAUV. 750ML",
+          "qt": 12,
+          "preco": 31.9,
+          "total": 382.8,
+          "qt_faturada": 12.0,
+          "valor_faturado": 382.8,
+          "status": "Faturado",
+          "nf": "8203",
+          "agendado": false
+        },
+        {
+          "cod_prod": "2926",
+          "descricao": "VINHO FOODKILLER CAB. SAUV./ MERLOT",
+          "qt": 6,
+          "preco": 31.9,
+          "total": 191.4,
+          "qt_faturada": 6.0,
+          "valor_faturado": 191.4,
+          "status": "Faturado",
+          "nf": "8203",
+          "agendado": false
+        },
+        {
+          "cod_prod": "2928",
+          "descricao": "VINHO FOODKILLER CARMENERE 750ML",
+          "qt": 6,
+          "preco": 31.9,
+          "total": 191.4,
+          "qt_faturada": 6.0,
+          "valor_faturado": 191.4,
+          "status": "Faturado",
+          "nf": "8203",
+          "agendado": false
+        },
+        {
+          "cod_prod": "2929",
+          "descricao": "VINHO FOODKILLER CHARDONNAY 750ML",
+          "qt": 6,
+          "preco": 31.9,
+          "total": 191.4,
+          "qt_faturada": 6.0,
+          "valor_faturado": 191.4,
+          "status": "Faturado",
+          "nf": "8203",
+          "agendado": false
+        },
+        {
+          "cod_prod": "2614",
+          "descricao": "VILLA ROSA TINTO 750ML",
+          "qt": 6,
+          "preco": 24.9,
+          "total": 149.4,
+          "qt_faturada": 6.0,
+          "valor_faturado": 149.4,
+          "status": "Faturado",
+          "nf": "8203",
+          "agendado": false
+        },
+        {
+          "cod_prod": "2703",
+          "descricao": "VILLA ROSA ROSE 750ML",
+          "qt": 6,
+          "preco": 24.9,
+          "total": 149.4,
+          "qt_faturada": 6.0,
+          "valor_faturado": 149.4,
+          "status": "Faturado",
+          "nf": "8203",
+          "agendado": false
+        },
+        {
+          "cod_prod": "4068",
+          "descricao": "VINHO VILLA ROSA FRISANTE ROSE",
+          "qt": 6,
+          "preco": 24.9,
+          "total": 149.4,
+          "qt_faturada": 0.0,
+          "valor_faturado": 0.0,
+          "status": "Cortado",
+          "nf": "",
+          "agendado": false
+        }
+      ]
+    },
+    {
+      "msg_id": "1a062c1b0674db53",
+      "subject": "pedido crc4 - padrão do fonseca",
+      "data_email": "2026-09-02",
+      "sistema": "CRC - 04",
+      "cod_cliente": "9604",
+      "razao_social": "SUPERMERCADO PADRAO DO FONSECA EIRELI",
+      "fantasia": "SUPERMARKET FONSECA - PIRATININGA",
+      "cnpj": "08.628.825/0003-29",
+      "rca": "450 - LEANDRO SOUZA - OFF TRADE",
+      "bonificacao": false,
+      "prazo": "28 DIAS",
+      "obs": "",
+      "email_data_agendamento": "03/09/2026",
+      "email_observacoes": "CAIXAS E RÓTULOS ÍNTEGROS E ORIGINAIS; COLOCAR OBSERVAÇÃO NAS LOJAS \"SUPERMERCADO SUPERMAKET\"",
+      "itens": [
+        {
+          "cod_prod": "6256",
+          "descricao": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+          "qt": 5,
+          "preco": 86.28,
+          "total": 431.4,
+          "qt_faturada": 5.0,
+          "valor_faturado": 431.4,
+          "status": "Faturado",
+          "nf": "8196",
+          "agendado": false
+        },
+        {
+          "cod_prod": "6334",
+          "descricao": "MOVING BOOSTER MORANGO ACEROLA 24X310ML",
+          "qt": 2,
+          "preco": 155.28,
+          "total": 310.56,
+          "qt_faturada": 2.0,
+          "valor_faturado": 310.56,
+          "status": "Faturado",
+          "nf": "8196",
+          "agendado": false
+        }
+      ]
+    },
+    {
+      "msg_id": "1a062c1b0674db53",
+      "subject": "pedido crc4 - padrão do fonseca",
+      "data_email": "2026-09-02",
+      "sistema": "CRC - 04",
+      "cod_cliente": "78665",
+      "razao_social": "SUPERMERCADO PADRAO DO FONSECA LTDA",
+      "fantasia": "SUPERMARKET - DEL CASTILHO",
+      "cnpj": "08.628.827/0022-91",
+      "rca": "450 - LEANDRO SOUZA - OFF TRADE",
+      "bonificacao": false,
+      "prazo": "28 DIAS",
+      "obs": "",
+      "email_data_agendamento": "03/09/2026",
+      "email_observacoes": "CAIXAS E RÓTULOS ÍNTEGROS E ORIGINAIS; COLOCAR OBSERVAÇÃO NAS LOJAS \"SUPERMERCADO SUPERMAKET\"",
+      "itens": [
+        {
+          "cod_prod": "6257",
+          "descricao": "MOVING HYDRO PROTEIN UVA 12X500ML",
+          "qt": 3,
+          "preco": 86.28,
+          "total": 258.84,
+          "qt_faturada": 3.0,
+          "valor_faturado": 258.84,
+          "status": "Faturado",
+          "nf": "8204",
+          "agendado": false
+        },
+        {
+          "cod_prod": "6256",
+          "descricao": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+          "qt": 8,
+          "preco": 86.28,
+          "total": 690.24,
+          "qt_faturada": 8.0,
+          "valor_faturado": 690.24,
+          "status": "Faturado",
+          "nf": "8204",
+          "agendado": false
+        },
+        {
+          "cod_prod": "6259",
+          "descricao": "MOVING HYDRO PROTEIN F ERMELHA 12X500ML",
+          "qt": 10,
+          "preco": 86.28,
+          "total": 862.8,
+          "qt_faturada": 10.0,
+          "valor_faturado": 862.8,
+          "status": "Faturado",
+          "nf": "8204",
+          "agendado": false
+        },
+        {
+          "cod_prod": "6254",
+          "descricao": "MOVING BOOSTER ABACAXI HORTELA 24X310ML",
+          "qt": 2,
+          "preco": 155.28,
+          "total": 310.56,
+          "qt_faturada": 1.0,
+          "valor_faturado": 155.28,
+          "status": "Parcial",
+          "nf": "8204",
+          "agendado": false
+        },
+        {
+          "cod_prod": "6334",
+          "descricao": "MOVING BOOSTER MORANGO ACEROLA 24X310ML",
+          "qt": 1,
+          "preco": 155.28,
+          "total": 155.28,
+          "qt_faturada": 1.0,
+          "valor_faturado": 155.28,
+          "status": "Faturado",
+          "nf": "8204",
+          "agendado": false
+        }
+      ]
+    },
+    {
+      "msg_id": "1a062c1b0674db53",
+      "subject": "pedido crc4 - padrão do fonseca",
+      "data_email": "2026-09-02",
+      "sistema": "CRC - 04",
+      "cod_cliente": "90820",
+      "razao_social": "SUPERMERCADO PADRÃO DO FONSECA LTDA.",
+      "fantasia": "SUPERMARKET",
+      "cnpj": "08.628.825/0001-67",
+      "rca": "450 - LEANDRO SOUZA - OFF TRADE",
+      "bonificacao": false,
+      "prazo": "28 DIAS",
+      "obs": "",
+      "email_data_agendamento": "03/09/2026",
+      "email_observacoes": "CAIXAS E RÓTULOS ÍNTEGROS E ORIGINAIS; COLOCAR OBSERVAÇÃO NAS LOJAS \"SUPERMERCADO SUPERMAKET\"",
+      "itens": [
+        {
+          "cod_prod": "6254",
+          "descricao": "MOVING BOOSTER ABACAXI HORTELA 24X310ML",
+          "qt": 1,
+          "preco": 155.28,
+          "total": 155.28,
+          "qt_faturada": 1.0,
+          "valor_faturado": 155.28,
+          "status": "Faturado",
+          "nf": "8194",
+          "agendado": false
+        },
+        {
+          "cod_prod": "6256",
+          "descricao": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+          "qt": 2,
+          "preco": 86.28,
+          "total": 172.56,
+          "qt_faturada": 2.0,
+          "valor_faturado": 172.56,
+          "status": "Faturado",
+          "nf": "8194",
+          "agendado": false
+        },
+        {
+          "cod_prod": "6334",
+          "descricao": "MOVING BOOSTER MORANGO ACEROLA 24X310ML",
+          "qt": 1,
+          "preco": 155.28,
+          "total": 155.28,
+          "qt_faturada": 1.0,
+          "valor_faturado": 155.28,
+          "status": "Faturado",
+          "nf": "8194",
+          "agendado": false
+        }
+      ]
+    },
+    {
+      "msg_id": "1a062c1b0674db53",
+      "subject": "pedido crc4 - padrão do fonseca",
+      "data_email": "2026-09-02",
+      "sistema": "CRC - 04",
+      "cod_cliente": "9603",
+      "razao_social": "SUPERMERCADO PADRAO DO FONSECA EIRELI",
+      "fantasia": "REDE SUPERMARKET (PADR? DO FONSECA - IT",
+      "cnpj": "08.628.825/0004-00",
+      "rca": "450 - LEANDRO SOUZA - OFF TRADE",
+      "bonificacao": false,
+      "prazo": "28 DIAS",
+      "obs": "",
+      "email_data_agendamento": "03/09/2026",
+      "email_observacoes": "CAIXAS E RÓTULOS ÍNTEGROS E ORIGINAIS; COLOCAR OBSERVAÇÃO NAS LOJAS \"SUPERMERCADO SUPERMAKET\"",
+      "itens": [
+        {
+          "cod_prod": "6257",
+          "descricao": "MOVING HYDRO PROTEIN VUA 12X500ML",
+          "qt": 2,
+          "preco": 86.28,
+          "total": 172.56,
+          "qt_faturada": 2.0,
+          "valor_faturado": 172.56,
+          "status": "Faturado",
+          "nf": "8195",
+          "agendado": false
+        },
+        {
+          "cod_prod": "6256",
+          "descricao": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+          "qt": 2,
+          "preco": 86.28,
+          "total": 172.56,
+          "qt_faturada": 2.0,
+          "valor_faturado": 172.56,
+          "status": "Faturado",
+          "nf": "8195",
+          "agendado": false
+        },
+        {
+          "cod_prod": "6259",
+          "descricao": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+          "qt": 2,
+          "preco": 86.28,
+          "total": 172.56,
+          "qt_faturada": 2.0,
+          "valor_faturado": 172.56,
+          "status": "Faturado",
+          "nf": "8195",
+          "agendado": false
+        },
+        {
+          "cod_prod": "6334",
+          "descricao": "MOVING BOOSTER MANGOR ACEROLA 24X310ML",
+          "qt": 1,
+          "preco": 155.28,
+          "total": 155.28,
+          "qt_faturada": 1.0,
+          "valor_faturado": 155.28,
+          "status": "Faturado",
+          "nf": "8195",
+          "agendado": false
+        },
+        {
+          "cod_prod": "6254",
+          "descricao": "MOVING BOOSTER ABACAXI HORTELA 24X310ML",
+          "qt": 1,
+          "preco": 155.28,
+          "total": 155.28,
+          "qt_faturada": 1.0,
+          "valor_faturado": 155.28,
+          "status": "Faturado",
+          "nf": "8195",
+          "agendado": false
+        }
+      ]
+    },
+    {
+      "msg_id": "1a062c1b0674db53",
+      "subject": "pedido crc4 - padrão do fonseca",
+      "data_email": "2026-09-02",
+      "sistema": "CRC - 04",
+      "cod_cliente": "28411",
+      "razao_social": "SUPERMERCADO PADRAO DO FONSECA EIRELI",
+      "fantasia": "SUPERMARKET",
+      "cnpj": "08.628.825/0015-62",
+      "rca": "450 - LEANDRO SOUZA - OFF TRADE",
+      "bonificacao": false,
+      "prazo": "28 DIAS",
+      "obs": "",
+      "email_data_agendamento": "03/09/2026",
+      "email_observacoes": "CAIXAS E RÓTULOS ÍNTEGROS E ORIGINAIS; COLOCAR OBSERVAÇÃO NAS LOJAS \"SUPERMERCADO SUPERMAKET\"",
+      "itens": [
+        {
+          "cod_prod": "6254",
+          "descricao": "MOVING BOOSTER ABACAXI HORTELA 24X310ML",
+          "qt": 1,
+          "preco": 155.28,
+          "total": 155.28,
+          "qt_faturada": 1.0,
+          "valor_faturado": 155.28,
+          "status": "Faturado",
+          "nf": "8197",
+          "agendado": false
+        },
+        {
+          "cod_prod": "6256",
+          "descricao": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+          "qt": 2,
+          "preco": 86.28,
+          "total": 172.56,
+          "qt_faturada": 2.0,
+          "valor_faturado": 172.56,
+          "status": "Faturado",
+          "nf": "8197",
+          "agendado": false
+        }
+      ]
+    },
+    {
+      "msg_id": "1a062c1b0674db53",
+      "subject": "pedido crc4 - padrão do fonseca",
+      "data_email": "2026-09-02",
+      "sistema": "CRC - 04",
+      "cod_cliente": "90415",
+      "razao_social": "SUPERMERCADO PADRÃO DO FONSECA LTDA",
+      "fantasia": "SUPERMARKET",
+      "cnpj": "08.628.825/0024-53",
+      "rca": "450 - LEANDRO SOUZA - OFF TRADE",
+      "bonificacao": false,
+      "prazo": "28 DIAS",
+      "obs": "",
+      "email_data_agendamento": "03/09/2026",
+      "email_observacoes": "CAIXAS E RÓTULOS ÍNTEGROS E ORIGINAIS; COLOCAR OBSERVAÇÃO NAS LOJAS \"SUPERMERCADO SUPERMAKET\"",
+      "itens": [
+        {
+          "cod_prod": "6257",
+          "descricao": "MOVING HYDRO PROTEIN UVA 12X500ML",
+          "qt": 4,
+          "preco": 86.28,
+          "total": 345.12,
+          "qt_faturada": 4.0,
+          "valor_faturado": 345.12,
+          "status": "Faturado",
+          "nf": "8205",
+          "agendado": false
+        },
+        {
+          "cod_prod": "6256",
+          "descricao": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+          "qt": 5,
+          "preco": 86.28,
+          "total": 431.4,
+          "qt_faturada": 0.0,
+          "valor_faturado": 0.0,
+          "status": "Cortado",
+          "nf": "",
+          "agendado": false
+        },
+        {
+          "cod_prod": "6259",
+          "descricao": "MOVING HYDRO PROTEIN F VERMEHA 12X500ML",
+          "qt": 2,
+          "preco": 86.28,
+          "total": 172.56,
+          "qt_faturada": 5.0,
+          "valor_faturado": 431.4,
+          "status": "Faturado",
+          "nf": "8205",
+          "agendado": false
+        },
+        {
+          "cod_prod": "6334",
+          "descricao": "MOVING BOOSTER LARANJA ACEROLA 24X310ML",
+          "qt": 2,
+          "preco": 155.28,
+          "total": 310.56,
+          "qt_faturada": 2.0,
+          "valor_faturado": 310.56,
+          "status": "Faturado",
+          "nf": "8205",
+          "agendado": false
+        },
+        {
+          "cod_prod": "6254",
+          "descricao": "MOVING BOOSTER ABACAXI HORTELA 24X310ML",
+          "qt": 1,
+          "preco": 155.28,
+          "total": 155.28,
+          "qt_faturada": 1.0,
+          "valor_faturado": 155.28,
+          "status": "Faturado",
+          "nf": "8205",
+          "agendado": false
+        }
+      ]
+    },
+    {
+      "msg_id": "1a062c1b0674db53",
+      "subject": "pedido crc4 - padrão do fonseca",
+      "data_email": "2026-09-02",
+      "sistema": "CRC - 04",
+      "cod_cliente": "91841",
+      "razao_social": "SUPERMERCADO PADRAO DO FONSECA LTDA.",
+      "fantasia": "SUPERMARKET",
+      "cnpj": "08.628.825/0025-34",
+      "rca": "450 - LEANDRO SOUZA - OFF TRADE",
+      "bonificacao": false,
+      "prazo": "28 DIAS",
+      "obs": "",
+      "email_data_agendamento": "03/09/2026",
+      "email_observacoes": "CAIXAS E RÓTULOS ÍNTEGROS E ORIGINAIS; COLOCAR OBSERVAÇÃO NAS LOJAS \"SUPERMERCADO SUPERMAKET\"",
+      "itens": [
+        {
+          "cod_prod": "6256",
+          "descricao": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+          "qt": 2,
+          "preco": 86.28,
+          "total": 172.56,
+          "qt_faturada": 0.0,
+          "valor_faturado": 0.0,
+          "status": "Pendente",
+          "nf": "",
+          "agendado": false
+        },
+        {
+          "cod_prod": "6334",
+          "descricao": "MOVING BOOSTER MORANGO ACEROLA 24X310ML",
+          "qt": 1,
+          "preco": 155.28,
+          "total": 155.28,
+          "qt_faturada": 0.0,
+          "valor_faturado": 0.0,
+          "status": "Pendente",
+          "nf": "",
+          "agendado": false
+        }
+      ]
+    },
+    {
+      "msg_id": "1a062c1b0674db53",
+      "subject": "pedido crc4 - padrão do fonseca",
+      "data_email": "2026-09-02",
+      "sistema": "CRC - 04",
+      "cod_cliente": "90413",
+      "razao_social": "SUPERMERCADO PADRO DO FONSECA LTDA",
+      "fantasia": "SUPERMARKET",
+      "cnpj": "08.628.825/0019-96",
+      "rca": "450 - LEANDRO SOUZA - OFF TRADE",
+      "bonificacao": false,
+      "prazo": "28 DIAS",
+      "obs": "",
+      "email_data_agendamento": "03/09/2026",
+      "email_observacoes": "CAIXAS E RÓTULOS ÍNTEGROS E ORIGINAIS; COLOCAR OBSERVAÇÃO NAS LOJAS \"SUPERMERCADO SUPERMAKET\"",
+      "itens": [
+        {
+          "cod_prod": "6256",
+          "descricao": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+          "qt": 3,
+          "preco": 86.28,
+          "total": 258.84,
+          "qt_faturada": 3.0,
+          "valor_faturado": 258.84,
+          "status": "Faturado",
+          "nf": "8207",
+          "agendado": false
+        }
+      ]
+    },
+    {
+      "msg_id": "1a062ac44df2a246",
+      "subject": "pedido CRC 4 - Barra Oeste",
+      "data_email": "2026-09-02",
+      "sistema": "CRC - 04",
+      "cod_cliente": "3754",
+      "razao_social": "SUPERMERCADO BARRA OESTE LTDA",
+      "fantasia": "SUPER MARKET",
+      "cnpj": "08.719.835/0001-08",
+      "rca": "450 - LEANDRO SOUZA - OFF TRADE",
+      "bonificacao": false,
+      "prazo": "28 DIAS",
+      "obs": "",
+      "email_data_agendamento": "03/09/2026",
+      "email_observacoes": "POR GENTILEZA, SALIENTAR PARA LOGÍSTICA QUE EMBARQUEM AS CAIXAS ORIGINAIS E ÍNTEGRAS. O PEDIDO SERÁ DEVOLVIDO SE FOREM FRACIONADOS. HORÁRIO DE RECEBIMENTO : SEGUNDA A SEXTA , DAS 08:00H às 14:30h . DESCARGA, R$ 25,00 POR PALLET, PALLET BATIDO R$ 40,00, POR VOLUME R$ 1,00, FILME R$ 60,00.",
+      "itens": [
+        {
+          "cod_prod": "6259",
+          "descricao": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+          "qt": 10,
+          "preco": 84,
+          "total": 840,
+          "qt_faturada": 10.0,
+          "valor_faturado": 840.0,
+          "status": "Faturado",
+          "nf": "8202",
+          "agendado": false
+        },
+        {
+          "cod_prod": "6256",
+          "descricao": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+          "qt": 10,
+          "preco": 84,
+          "total": 840,
+          "qt_faturada": 10.0,
+          "valor_faturado": 840.0,
+          "status": "Faturado",
+          "nf": "8202",
+          "agendado": false
+        },
+        {
+          "cod_prod": "6254",
+          "descricao": "MOVING BOOSTER ABACAXI HORTELA 24X310ML",
+          "qt": 1,
+          "preco": 154.8,
+          "total": 154.8,
+          "qt_faturada": 1.0,
+          "valor_faturado": 154.8,
+          "status": "Faturado",
+          "nf": "8202",
+          "agendado": false
+        },
+        {
+          "cod_prod": "4886",
+          "descricao": "ST PIERRE ZERO LATA PINK LEMON 24X310ML",
+          "qt": 1,
+          "preco": 100.56,
+          "total": 100.56,
+          "qt_faturada": 2.0,
+          "valor_faturado": 201.12,
+          "status": "Faturado",
+          "nf": "8202",
+          "agendado": false
+        },
+        {
+          "cod_prod": "4884",
+          "descricao": "ST PIERRE ZERO LATA RED MINT LT 24X310ML",
+          "qt": 1,
+          "preco": 100.56,
+          "total": 100.56,
+          "qt_faturada": 2.0,
+          "valor_faturado": 201.12,
+          "status": "Faturado",
+          "nf": "8202",
+          "agendado": false
+        },
+        {
+          "cod_prod": "4885",
+          "descricao": "ST PIERRE ZERO LATA TROPICAL LT 24X310ML",
+          "qt": 2,
+          "preco": 100.56,
+          "total": 201.12,
+          "qt_faturada": 2.0,
+          "valor_faturado": 201.12,
+          "status": "Faturado",
+          "nf": "8202",
+          "agendado": false
+        }
+      ]
+    },
+    {
+      "msg_id": "1a062ac44df2a246",
+      "subject": "pedido CRC 4 - Barra Oeste",
+      "data_email": "2026-09-02",
+      "sistema": "CRC - 04",
+      "cod_cliente": "67821",
+      "razao_social": "SUPERMERCADO BARRA OESTE LTDA",
+      "fantasia": "REDE SUPERMARKET - BARRA DA TIJUCA",
+      "cnpj": "08.719.835/0003-70",
+      "rca": "450 - LEANDRO SOUZA - OFF TRADE",
+      "bonificacao": false,
+      "prazo": "28 DIAS",
+      "obs": "",
+      "email_data_agendamento": "03/09/2026",
+      "email_observacoes": "POR GENTILEZA, SALIENTAR PARA LOGÍSTICA QUE EMBARQUEM AS CAIXAS ORIGINAIS E ÍNTEGRAS. O PEDIDO SERÁ DEVOLVIDO SE FOREM FRACIONADOS. HORÁRIO DE RECEBIMENTO : SEGUNDA A SEXTA , DAS 08:00H às 14:30h . DESCARGA, R$ 25,00 POR PALLET, PALLET BATIDO R$ 40,00, POR VOLUME R$ 1,00, FILME R$ 60,00.",
+      "itens": [
+        {
+          "cod_prod": "6259",
+          "descricao": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+          "qt": 5,
+          "preco": 84,
+          "total": 420,
+          "qt_faturada": 5.0,
+          "valor_faturado": 420.0,
+          "status": "Faturado",
+          "nf": "8208",
+          "agendado": false
+        },
+        {
+          "cod_prod": "6256",
+          "descricao": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+          "qt": 3,
+          "preco": 84,
+          "total": 252,
+          "qt_faturada": 0.0,
+          "valor_faturado": 0.0,
+          "status": "Cortado",
+          "nf": "",
+          "agendado": false
+        },
+        {
+          "cod_prod": "4885",
+          "descricao": "ST PIERRE ZERO LTA TROPICAL LT 24X310ML",
+          "qt": 2,
+          "preco": 100.56,
+          "total": 201.12,
+          "qt_faturada": 2.0,
+          "valor_faturado": 201.12,
+          "status": "Faturado",
+          "nf": "8208",
+          "agendado": false
+        }
+      ]
+    },
+    {
+      "msg_id": "1a062ac44df2a246",
+      "subject": "pedido CRC 4 - Barra Oeste",
+      "data_email": "2026-09-02",
+      "sistema": "CRC - 04",
+      "cod_cliente": "67822",
+      "razao_social": "SUPERMERCADO BARRA OESTE LTDA",
+      "fantasia": "BARRA OESTE - BARRA DA TIJU",
+      "cnpj": "08.719.835/0007-01",
+      "rca": "450 - LEANDRO SOUZA - OFF TRADE",
+      "bonificacao": false,
+      "prazo": "28 DIAS",
+      "obs": "",
+      "email_data_agendamento": "03/09/2026",
+      "email_observacoes": "POR GENTILEZA, SALIENTAR PARA LOGÍSTICA QUE EMBARQUEM AS CAIXAS ORIGINAIS E ÍNTEGRAS. O PEDIDO SERÁ DEVOLVIDO SE FOREM FRACIONADOS. HORÁRIO DE RECEBIMENTO : SEGUNDA A SEXTA , DAS 08:00H às 14:30h . DESCARGA, R$ 25,00 POR PALLET, PALLET BATIDO R$ 40,00, POR VOLUME R$ 1,00, FILME R$ 60,00.",
+      "itens": [
+        {
+          "cod_prod": "6259",
+          "descricao": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+          "qt": 10,
+          "preco": 84.0,
+          "total": 840.0,
+          "qt_faturada": 10.0,
+          "valor_faturado": 840.0,
+          "status": "Faturado",
+          "nf": "8201",
+          "agendado": false
+        },
+        {
+          "cod_prod": "6256",
+          "descricao": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+          "qt": 10,
+          "preco": 84.0,
+          "total": 840.0,
+          "qt_faturada": 10.0,
+          "valor_faturado": 840.0,
+          "status": "Faturado",
+          "nf": "8201",
+          "agendado": false
+        },
+        {
+          "cod_prod": "6254",
+          "descricao": "MOVING BOOSTER ABACAXI HORTELA 24X310ML",
+          "qt": 2,
+          "preco": 154.8,
+          "total": 309.6,
+          "qt_faturada": 1.0,
+          "valor_faturado": 154.8,
+          "status": "Parcial",
+          "nf": "8201",
+          "agendado": false
+        },
+        {
+          "cod_prod": "4886",
+          "descricao": "ST PIERRE ZERO LATA PINK LEMON 24X310ML",
+          "qt": 2,
+          "preco": 100.56,
+          "total": 201.12,
+          "qt_faturada": 2.0,
+          "valor_faturado": 201.12,
+          "status": "Faturado",
+          "nf": "8201",
+          "agendado": false
+        },
+        {
+          "cod_prod": "4884",
+          "descricao": "ST PIERRE ZERO LATA RED MINT LT 24X310ML",
+          "qt": 2,
+          "preco": 100.56,
+          "total": 201.12,
+          "qt_faturada": 2.0,
+          "valor_faturado": 201.12,
+          "status": "Faturado",
+          "nf": "8201",
+          "agendado": false
+        }
+      ]
+    },
+    {
+      "msg_id": "1a062ac44df2a246",
+      "subject": "pedido CRC 4 - Barra Oeste",
+      "data_email": "2026-09-02",
+      "sistema": "CRC - 04",
+      "cod_cliente": "93791",
+      "razao_social": "SUPERMERCADO BARRA OESTE LTDA",
+      "fantasia": "SUPERMARKET - VIA PARQUE",
+      "cnpj": "08.719.835/0009-65",
+      "rca": "450 - LEANDRO SOUZA - OFF TRADE",
+      "bonificacao": false,
+      "prazo": "28 DIAS",
+      "obs": "",
+      "email_data_agendamento": "03/09/2026",
+      "email_observacoes": "POR GENTILEZA, SALIENTAR PARA LOGÍSTICA QUE EMBARQUEM AS CAIXAS ORIGINAIS E ÍNTEGRAS. O PEDIDO SERÁ DEVOLVIDO SE FOREM FRACIONADOS. HORÁRIO DE RECEBIMENTO : SEGUNDA A SEXTA , DAS 08:00H às 14:30h . DESCARGA, R$ 25,00 POR PALLET, PALLET BATIDO R$ 40,00, POR VOLUME R$ 1,00, FILME R$ 60,00.",
+      "itens": [
+        {
+          "cod_prod": "6259",
+          "descricao": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+          "qt": 10,
+          "preco": 84.0,
+          "total": 840.0,
+          "qt_faturada": 10.0,
+          "valor_faturado": 840.0,
+          "status": "Faturado",
+          "nf": "8209",
+          "agendado": false
+        },
+        {
+          "cod_prod": "6256",
+          "descricao": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+          "qt": 10,
+          "preco": 84.0,
+          "total": 840.0,
+          "qt_faturada": 0.0,
+          "valor_faturado": 0.0,
+          "status": "Cortado",
+          "nf": "",
+          "agendado": false
+        },
+        {
+          "cod_prod": "4886",
+          "descricao": "ST PIERRE ZERO LATA PINK LEMON 24X310ML",
+          "qt": 2,
+          "preco": 100.56,
+          "total": 201.12,
+          "qt_faturada": 2.0,
+          "valor_faturado": 201.12,
+          "status": "Faturado",
+          "nf": "8209",
+          "agendado": false
+        },
+        {
+          "cod_prod": "4884",
+          "descricao": "ST PIERRE ZERO LATA RED MINT LT 24X310ML",
+          "qt": 2,
+          "preco": 100.56,
+          "total": 201.12,
+          "qt_faturada": 2.0,
+          "valor_faturado": 201.12,
+          "status": "Faturado",
+          "nf": "8209",
+          "agendado": false
+        },
+        {
+          "cod_prod": "4885",
+          "descricao": "ST PIERRE ZERO LATA TROPICAL LT 24X310ML",
+          "qt": 2,
+          "preco": 100.56,
+          "total": 201.12,
+          "qt_faturada": 2.0,
+          "valor_faturado": 201.12,
+          "status": "Faturado",
+          "nf": "8209",
+          "agendado": false
+        },
+        {
+          "cod_prod": "3771",
+          "descricao": "VODKA BELVEDERE 700 ML",
+          "qt": 6,
+          "preco": 113.9,
+          "total": 683.4,
+          "qt_faturada": 6.0,
+          "valor_faturado": 683.4,
+          "status": "Faturado",
+          "nf": "8209",
+          "agendado": false
+        }
+      ]
+    },
+    {
+      "msg_id": "1a062960fd922714",
+      "subject": "PEDIDO BARRA OESTE",
+      "data_email": "2026-09-02",
+      "sistema": "CRC - 04",
+      "cod_cliente": "3754",
+      "razao_social": "SUPERMERCADO BARRA OESTE LTDA",
+      "fantasia": "SUPER MARKET",
+      "cnpj": "08.719.835/0001-08",
+      "rca": "450 - LEANDRO SOUZA - OFF TRADE",
+      "bonificacao": false,
+      "prazo": "",
+      "obs": "",
+      "email_data_agendamento": "03/09/2026",
+      "email_observacoes": "SALIENTAR PARA LOGÍSTICA QUE EMBARQUEM AS CAIXAS ORIGINAIS E ÍNTEGRAS. O PEDIDO SERÁ DEVOLVIDO SE FOREM FRACIONADOS. HORÁRIO DE RECEBIMENTO : SEGUNDA A SEXTA , DAS 08:00H as 14:30h. DESCARGA , R$ 25,00 POR PALLET, PALLET BATIDO R$ 40,00 , POR VOLUME R$ 1,00 , FILME R$ 60,00.",
+      "itens": [
+        {
+          "cod_prod": "6259",
+          "descricao": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+          "qt": 10,
+          "preco": 84.0,
+          "total": 840.0,
+          "qt_faturada": 10.0,
+          "valor_faturado": 840.0,
+          "status": "Faturado",
+          "nf": "8202",
+          "agendado": false
+        },
+        {
+          "cod_prod": "6256",
+          "descricao": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+          "qt": 10,
+          "preco": 84.0,
+          "total": 840.0,
+          "qt_faturada": 10.0,
+          "valor_faturado": 840.0,
+          "status": "Faturado",
+          "nf": "8202",
+          "agendado": false
+        },
+        {
+          "cod_prod": "6254",
+          "descricao": "MOVING BOOSTER ABACAXI HORTELA 24X310ML",
+          "qt": 1,
+          "preco": 154.8,
+          "total": 154.8,
+          "qt_faturada": 1.0,
+          "valor_faturado": 154.8,
+          "status": "Faturado",
+          "nf": "8202",
+          "agendado": false
+        },
+        {
+          "cod_prod": "4886",
+          "descricao": "ST PIERRE ZERO LATA PINK LEMON 24X310ML",
+          "qt": 2,
+          "preco": 100.56,
+          "total": 201.12,
+          "qt_faturada": 2.0,
+          "valor_faturado": 201.12,
+          "status": "Faturado",
+          "nf": "8202",
+          "agendado": false
+        },
+        {
+          "cod_prod": "4884",
+          "descricao": "ST PIERRE ZERO LATA RED MINT LT 24X310ML",
+          "qt": 2,
+          "preco": 100.56,
+          "total": 201.12,
+          "qt_faturada": 2.0,
+          "valor_faturado": 201.12,
+          "status": "Faturado",
+          "nf": "8202",
+          "agendado": false
+        },
+        {
+          "cod_prod": "4885",
+          "descricao": "ST PIERRE ZERO LATA TROPICAL LT 24X310ML",
+          "qt": 2,
+          "preco": 100.56,
+          "total": 201.12,
+          "qt_faturada": 2.0,
+          "valor_faturado": 201.12,
+          "status": "Faturado",
+          "nf": "8202",
+          "agendado": false
+        }
+      ]
+    },
+    {
+      "msg_id": "1a062960fd922714",
+      "subject": "PEDIDO BARRA OESTE",
+      "data_email": "2026-09-02",
+      "sistema": "CRC - 04",
+      "cod_cliente": "67821",
+      "razao_social": "SUPERMERCADO BARRA OESTE LTDA",
+      "fantasia": "REDE SUPERMARKET - BARRA DA TIJUCA",
+      "cnpj": "08.719.835/0003-70",
+      "rca": "450 - LEANDRO SOUZA - OFF TRADE",
+      "bonificacao": false,
+      "prazo": "",
+      "obs": "",
+      "email_data_agendamento": "03/09/2026",
+      "email_observacoes": "SALIENTAR PARA LOGÍSTICA QUE EMBARQUEM AS CAIXAS ORIGINAIS E ÍNTEGRAS. O PEDIDO SERÁ DEVOLVIDO SE FOREM FRACIONADOS. HORÁRIO DE RECEBIMENTO : SEGUNDA A SEXTA , DAS 08:00H as 14:30h. DESCARGA , R$ 25,00 POR PALLET, PALLET BATIDO R$ 40,00 , POR VOLUME R$ 1,00 , FILME R$ 60,00.",
+      "itens": [
+        {
+          "cod_prod": "6259",
+          "descricao": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+          "qt": 5,
+          "preco": 84.0,
+          "total": 420.0,
+          "qt_faturada": 5.0,
+          "valor_faturado": 420.0,
+          "status": "Faturado",
+          "nf": "8208",
+          "agendado": false
+        },
+        {
+          "cod_prod": "6256",
+          "descricao": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+          "qt": 3,
+          "preco": 84.0,
+          "total": 252.0,
+          "qt_faturada": 0.0,
+          "valor_faturado": 0.0,
+          "status": "Cortado",
+          "nf": "",
+          "agendado": false
+        },
+        {
+          "cod_prod": "4885",
+          "descricao": "ST PIERRE ZERO LATA TROPICAL LT 24X310ML",
+          "qt": 2,
+          "preco": 100.56,
+          "total": 201.12,
+          "qt_faturada": 2.0,
+          "valor_faturado": 201.12,
+          "status": "Faturado",
+          "nf": "8208",
+          "agendado": false
+        }
+      ]
+    },
+    {
+      "msg_id": "1a062960fd922714",
+      "subject": "PEDIDO BARRA OESTE",
+      "data_email": "2026-09-02",
+      "sistema": "CRC - 04",
+      "cod_cliente": "67822",
+      "razao_social": "SUPERMERCADO BARRA OESTE LTDA",
+      "fantasia": "BARRA OESTE - BARRA DA TIJU",
+      "cnpj": "08.719.835/0007-01",
+      "rca": "450 - LEANDRO SOUZA - OFF TRADE",
+      "bonificacao": false,
+      "prazo": "",
+      "obs": "",
+      "email_data_agendamento": "03/09/2026",
+      "email_observacoes": "SALIENTAR PARA LOGÍSTICA QUE EMBARQUEM AS CAIXAS ORIGINAIS E ÍNTEGRAS. O PEDIDO SERÁ DEVOLVIDO SE FOREM FRACIONADOS. HORÁRIO DE RECEBIMENTO : SEGUNDA A SEXTA , DAS 08:00H as 14:30h. DESCARGA , R$ 25,00 POR PALLET, PALLET BATIDO R$ 40,00 , POR VOLUME R$ 1,00 , FILME R$ 60,00.",
+      "itens": [
+        {
+          "cod_prod": "6259",
+          "descricao": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+          "qt": 10,
+          "preco": 84.0,
+          "total": 840.0,
+          "qt_faturada": 10.0,
+          "valor_faturado": 840.0,
+          "status": "Faturado",
+          "nf": "8201",
+          "agendado": false
+        },
+        {
+          "cod_prod": "6256",
+          "descricao": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+          "qt": 10,
+          "preco": 84.0,
+          "total": 840.0,
+          "qt_faturada": 10.0,
+          "valor_faturado": 840.0,
+          "status": "Faturado",
+          "nf": "8201",
+          "agendado": false
+        },
+        {
+          "cod_prod": "6254",
+          "descricao": "MOVING BOOSTER ABACAXI HORTELA 24X310ML",
+          "qt": 1,
+          "preco": 154.8,
+          "total": 154.8,
+          "qt_faturada": 1.0,
+          "valor_faturado": 154.8,
+          "status": "Faturado",
+          "nf": "8201",
+          "agendado": false
+        },
+        {
+          "cod_prod": "6253",
+          "descricao": "MOVING BOOSTER LIMAO 24X310ML",
+          "qt": 2,
+          "preco": 154.8,
+          "total": 309.6,
+          "qt_faturada": 2.0,
+          "valor_faturado": 309.6,
+          "status": "Faturado",
+          "nf": "8201",
+          "agendado": false
+        },
+        {
+          "cod_prod": "4886",
+          "descricao": "ST PIERRE ZERO LATA PINK LEMON 24X310ML",
+          "qt": 2,
+          "preco": 100.56,
+          "total": 201.12,
+          "qt_faturada": 2.0,
+          "valor_faturado": 201.12,
+          "status": "Faturado",
+          "nf": "8201",
+          "agendado": false
+        },
+        {
+          "cod_prod": "4884",
+          "descricao": "ST PIERRE ZERO LATA RED MINT LT 24X310ML",
+          "qt": 2,
+          "preco": 100.56,
+          "total": 201.12,
+          "qt_faturada": 2.0,
+          "valor_faturado": 201.12,
+          "status": "Faturado",
+          "nf": "8201",
+          "agendado": false
+        },
+        {
+          "cod_prod": "4885",
+          "descricao": "ST PIERRE ZERO LATA TROPICAL LT 24X310ML",
+          "qt": 2,
+          "preco": 100.56,
+          "total": 201.12,
+          "qt_faturada": 2.0,
+          "valor_faturado": 201.12,
+          "status": "Faturado",
+          "nf": "8201",
+          "agendado": false
+        }
+      ]
+    },
+    {
+      "msg_id": "1a062960fd922714",
+      "subject": "PEDIDO BARRA OESTE",
+      "data_email": "2026-09-02",
+      "sistema": "CRC - 04",
+      "cod_cliente": "93791",
+      "razao_social": "SUPERMERCADO BARRA OESTE LTDA",
+      "fantasia": "SUPERMARKET - VIA PARQUE",
+      "cnpj": "08.719.835/0009-65",
+      "rca": "450 - LEANDRO SOUZA - OFF TRADE",
+      "bonificacao": false,
+      "prazo": "",
+      "obs": "",
+      "email_data_agendamento": "03/09/2026",
+      "email_observacoes": "SALIENTAR PARA LOGÍSTICA QUE EMBARQUEM AS CAIXAS ORIGINAIS E ÍNTEGRAS. O PEDIDO SERÁ DEVOLVIDO SE FOREM FRACIONADOS. HORÁRIO DE RECEBIMENTO : SEGUNDA A SEXTA , DAS 08:00H as 14:30h. DESCARGA , R$ 25,00 POR PALLET, PALLET BATIDO R$ 40,00 , POR VOLUME R$ 1,00 , FILME R$ 60,00.",
+      "itens": [
+        {
+          "cod_prod": "6259",
+          "descricao": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+          "qt": 10,
+          "preco": 84.0,
+          "total": 840.0,
+          "qt_faturada": 10.0,
+          "valor_faturado": 840.0,
+          "status": "Faturado",
+          "nf": "8209",
+          "agendado": false
+        },
+        {
+          "cod_prod": "6256",
+          "descricao": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+          "qt": 10,
+          "preco": 84.0,
+          "total": 840.0,
+          "qt_faturada": 0.0,
+          "valor_faturado": 0.0,
+          "status": "Cortado",
+          "nf": "",
+          "agendado": false
+        },
+        {
+          "cod_prod": "4886",
+          "descricao": "ST PIERRE ZERO LATA PINK LEMON 24X310ML",
+          "qt": 2,
+          "preco": 100.56,
+          "total": 201.12,
+          "qt_faturada": 2.0,
+          "valor_faturado": 201.12,
+          "status": "Faturado",
+          "nf": "8209",
+          "agendado": false
+        },
+        {
+          "cod_prod": "4884",
+          "descricao": "ST PIERRE ZERO LATA RED MINT LT 24X310ML",
+          "qt": 2,
+          "preco": 100.56,
+          "total": 201.12,
+          "qt_faturada": 2.0,
+          "valor_faturado": 201.12,
+          "status": "Faturado",
+          "nf": "8209",
+          "agendado": false
+        },
+        {
+          "cod_prod": "4885",
+          "descricao": "ST PIERRE ZERO LATA TROPICAL LT 24X310ML",
+          "qt": 2,
+          "preco": 100.56,
+          "total": 201.12,
+          "qt_faturada": 2.0,
+          "valor_faturado": 201.12,
+          "status": "Faturado",
+          "nf": "8209",
+          "agendado": false
+        },
+        {
+          "cod_prod": "3771",
+          "descricao": "VODKA BELVEDERE 700 ML",
+          "qt": 6,
+          "preco": 113.9,
+          "total": 683.4,
+          "qt_faturada": 6.0,
+          "valor_faturado": 683.4,
+          "status": "Faturado",
+          "nf": "8209",
+          "agendado": false
+        }
+      ]
+    },
+    {
+      "msg_id": "1a06265e32651e74",
+      "subject": "PEDIDOS ME MOVING REDE PADRAO DO FONSECA",
+      "data_email": "2026-09-02",
+      "sistema": "CRC - 04",
+      "cod_cliente": "9604",
+      "razao_social": "SUPERMERCADO PADRAO DO FONSECA EIRELI",
+      "fantasia": "SUPERMARKET FONSECA - PIRATININGA",
+      "cnpj": "08.628.825/0003-29",
+      "rca": "450 - LEANDRO SOUZA - OFF TRADE",
+      "bonificacao": false,
+      "prazo": "",
+      "obs": "",
+      "email_data_agendamento": "03/09/2026",
+      "email_observacoes": "CAIXAS E RÓTULOS INTEGROS E ORIGINAIS; COLOCAR OBSERVAÇÃO NAS LOJAS \"SUPERMERCADO SUPERMAKET\"",
+      "itens": [
+        {
+          "cod_prod": "6256",
+          "descricao": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+          "qt": 5,
+          "preco": 86.28,
+          "total": 431.4,
+          "qt_faturada": 5.0,
+          "valor_faturado": 431.4,
+          "status": "Faturado",
+          "nf": "8196",
+          "agendado": false
+        },
+        {
+          "cod_prod": "6334",
+          "descricao": "MOVING BOOSTER MORANGO ACEROLA 24X310ML",
+          "qt": 2,
+          "preco": 155.28,
+          "total": 310.56,
+          "qt_faturada": 2.0,
+          "valor_faturado": 310.56,
+          "status": "Faturado",
+          "nf": "8196",
+          "agendado": false
+        }
+      ]
+    },
+    {
+      "msg_id": "1a06265e32651e74",
+      "subject": "PEDIDOS ME MOVING REDE PADRAO DO FONSECA",
+      "data_email": "2026-09-02",
+      "sistema": "CRC - 04",
+      "cod_cliente": "78665",
+      "razao_social": "SUPERMERCADO PADRAO DO FONSECA LTDA",
+      "fantasia": "SUPERMARKET - DEL CASTILHO",
+      "cnpj": "08.628.825/0022-91",
+      "rca": "450 - LEANDRO SOUZA - OFF TRADE",
+      "bonificacao": false,
+      "prazo": "",
+      "obs": "",
+      "email_data_agendamento": "03/09/2026",
+      "email_observacoes": "CAIXAS E RÓTULOS INTEGROS E ORIGINAIS; COLOCAR OBSERVAÇÃO NAS LOJAS \"SUPERMERCADO SUPERMAKET\"",
+      "itens": [
+        {
+          "cod_prod": "6257",
+          "descricao": "MOVING HYDRO PROTEIN UVA 12X500ML",
+          "qt": 3,
+          "preco": 86.28,
+          "total": 258.84,
+          "qt_faturada": 3.0,
+          "valor_faturado": 258.84,
+          "status": "Faturado",
+          "nf": "8204",
+          "agendado": false
+        },
+        {
+          "cod_prod": "6256",
+          "descricao": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+          "qt": 8,
+          "preco": 86.28,
+          "total": 690.24,
+          "qt_faturada": 8.0,
+          "valor_faturado": 690.24,
+          "status": "Faturado",
+          "nf": "8204",
+          "agendado": false
+        },
+        {
+          "cod_prod": "6259",
+          "descricao": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+          "qt": 10,
+          "preco": 86.28,
+          "total": 862.8,
+          "qt_faturada": 10.0,
+          "valor_faturado": 862.8,
+          "status": "Faturado",
+          "nf": "8204",
+          "agendado": false
+        },
+        {
+          "cod_prod": "6254",
+          "descricao": "MOVING BOOSTER ABACAXI HORTELA 24X310ML",
+          "qt": 1,
+          "preco": 155.28,
+          "total": 155.28,
+          "qt_faturada": 1.0,
+          "valor_faturado": 155.28,
+          "status": "Faturado",
+          "nf": "8204",
+          "agendado": false
+        },
+        {
+          "cod_prod": "6334",
+          "descricao": "MOVING BOOSTER MORANGO ACEROLA 24X310ML",
+          "qt": 1,
+          "preco": 155.28,
+          "total": 155.28,
+          "qt_faturada": 1.0,
+          "valor_faturado": 155.28,
+          "status": "Faturado",
+          "nf": "8204",
+          "agendado": false
+        }
+      ]
+    },
+    {
+      "msg_id": "1a06265e32651e74",
+      "subject": "PEDIDOS ME MOVING REDE PADRAO DO FONSECA",
+      "data_email": "2026-09-02",
+      "sistema": "CRC - 04",
+      "cod_cliente": "90820",
+      "razao_social": "SUPERMERCADO PADRAO DO FONSECA LTDA.",
+      "fantasia": "SUPERMARKET",
+      "cnpj": "08.628.825/0001-67",
+      "rca": "450 - LEANDRO SOUZA - OFF TRADE",
+      "bonificacao": false,
+      "prazo": "",
+      "obs": "",
+      "email_data_agendamento": "03/09/2026",
+      "email_observacoes": "CAIXAS E RÓTULOS INTEGROS E ORIGINAIS; COLOCAR OBSERVAÇÃO NAS LOJAS \"SUPERMERCADO SUPERMAKET\"",
+      "itens": [
+        {
+          "cod_prod": "6254",
+          "descricao": "MOVING BOOSTER ABACAXI HORTELA 24X310ML",
+          "qt": 1,
+          "preco": 155.28,
+          "total": 155.28,
+          "qt_faturada": 1.0,
+          "valor_faturado": 155.28,
+          "status": "Faturado",
+          "nf": "8194",
+          "agendado": false
+        },
+        {
+          "cod_prod": "6256",
+          "descricao": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+          "qt": 2,
+          "preco": 86.28,
+          "total": 172.56,
+          "qt_faturada": 2.0,
+          "valor_faturado": 172.56,
+          "status": "Faturado",
+          "nf": "8194",
+          "agendado": false
+        },
+        {
+          "cod_prod": "6334",
+          "descricao": "MOVING BOOSTER MORANGO ACEROLA 24X310ML",
+          "qt": 1,
+          "preco": 155.28,
+          "total": 155.28,
+          "qt_faturada": 1.0,
+          "valor_faturado": 155.28,
+          "status": "Faturado",
+          "nf": "8194",
+          "agendado": false
+        }
+      ]
+    },
+    {
+      "msg_id": "1a06265e32651e74",
+      "subject": "PEDIDOS ME MOVING REDE PADRAO DO FONSECA",
+      "data_email": "2026-09-02",
+      "sistema": "CRC - 04",
+      "cod_cliente": "9603",
+      "razao_social": "SUPERMERCADO PADRAO DO FONSECA EIRELI",
+      "fantasia": "REDE SUPERMARKET (PADR?O DO FONSECA - IT",
+      "cnpj": "08.628.825/0004-00",
+      "rca": "450 - LEANDRO SOUZA - OFF TRADE",
+      "bonificacao": false,
+      "prazo": "",
+      "obs": "",
+      "email_data_agendamento": "03/09/2026",
+      "email_observacoes": "CAIXAS E RÓTULOS INTEGROS E ORIGINAIS; COLOCAR OBSERVAÇÃO NAS LOJAS \"SUPERMERCADO SUPERMAKET\"",
+      "itens": [
+        {
+          "cod_prod": "6257",
+          "descricao": "MOVING HYDRO PROTEIN UVA 12X500ML",
+          "qt": 2,
+          "preco": 86.28,
+          "total": 172.56,
+          "qt_faturada": 2.0,
+          "valor_faturado": 172.56,
+          "status": "Faturado",
+          "nf": "8195",
+          "agendado": false
+        },
+        {
+          "cod_prod": "6256",
+          "descricao": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+          "qt": 2,
+          "preco": 86.28,
+          "total": 172.56,
+          "qt_faturada": 2.0,
+          "valor_faturado": 172.56,
+          "status": "Faturado",
+          "nf": "8195",
+          "agendado": false
+        },
+        {
+          "cod_prod": "6259",
+          "descricao": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+          "qt": 2,
+          "preco": 86.28,
+          "total": 172.56,
+          "qt_faturada": 2.0,
+          "valor_faturado": 172.56,
+          "status": "Faturado",
+          "nf": "8195",
+          "agendado": false
+        },
+        {
+          "cod_prod": "6334",
+          "descricao": "MOVING BOOSTER MORANGO ACEROLA 24X310ML",
+          "qt": 1,
+          "preco": 155.28,
+          "total": 155.28,
+          "qt_faturada": 1.0,
+          "valor_faturado": 155.28,
+          "status": "Faturado",
+          "nf": "8195",
+          "agendado": false
+        },
+        {
+          "cod_prod": "6254",
+          "descricao": "MOVING BOOSTER ABACAXI HORTELA 24X310ML",
+          "qt": 1,
+          "preco": 155.28,
+          "total": 155.28,
+          "qt_faturada": 1.0,
+          "valor_faturado": 155.28,
+          "status": "Faturado",
+          "nf": "8195",
+          "agendado": false
+        }
+      ]
+    },
+    {
+      "msg_id": "1a06265e32651e74",
+      "subject": "PEDIDOS ME MOVING REDE PADRAO DO FONSECA",
+      "data_email": "2026-09-02",
+      "sistema": "CRC - 04",
+      "cod_cliente": "28411",
+      "razao_social": "SUPERMERCADO PADRAO DO FONSECA EIRELI",
+      "fantasia": "SUPERMARKET",
+      "cnpj": "08.628.825/0015-62",
+      "rca": "450 - LEANDRO SOUZA - OFF TRADE",
+      "bonificacao": false,
+      "prazo": "",
+      "obs": "",
+      "email_data_agendamento": "03/09/2026",
+      "email_observacoes": "CAIXAS E RÓTULOS INTEGROS E ORIGINAIS; COLOCAR OBSERVAÇÃO NAS LOJAS \"SUPERMERCADO SUPERMAKET\"",
+      "itens": [
+        {
+          "cod_prod": "6254",
+          "descricao": "MOVING BOOSTER ABACAXI HORTELA 24X310ML",
+          "qt": 1,
+          "preco": 155.28,
+          "total": 155.28,
+          "qt_faturada": 1.0,
+          "valor_faturado": 155.28,
+          "status": "Faturado",
+          "nf": "8197",
+          "agendado": false
+        },
+        {
+          "cod_prod": "6256",
+          "descricao": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+          "qt": 2,
+          "preco": 86.28,
+          "total": 172.56,
+          "qt_faturada": 2.0,
+          "valor_faturado": 172.56,
+          "status": "Faturado",
+          "nf": "8197",
+          "agendado": false
+        }
+      ]
+    },
+    {
+      "msg_id": "1a06265e32651e74",
+      "subject": "PEDIDOS ME MOVING REDE PADRAO DO FONSECA",
+      "data_email": "2026-09-02",
+      "sistema": "CRC - 04",
+      "cod_cliente": "90415",
+      "razao_social": "SUPERMERCADO PADRAO DO FONSECA LTDA",
+      "fantasia": "SUPERMARKET",
+      "cnpj": "08.628.825/0024-53",
+      "rca": "450 - LEANDRO SOUZA - OFF TRADE",
+      "bonificacao": false,
+      "prazo": "",
+      "obs": "",
+      "email_data_agendamento": "03/09/2026",
+      "email_observacoes": "CAIXAS E RÓTULOS INTEGROS E ORIGINAIS; COLOCAR OBSERVAÇÃO NAS LOJAS \"SUPERMERCADO SUPERMAKET\"",
+      "itens": [
+        {
+          "cod_prod": "6257",
+          "descricao": "MOVING HYDRO PROTEIN UVA 12X500ML",
+          "qt": 4,
+          "preco": 86.28,
+          "total": 345.12,
+          "qt_faturada": 4.0,
+          "valor_faturado": 345.12,
+          "status": "Faturado",
+          "nf": "8205",
+          "agendado": false
+        },
+        {
+          "cod_prod": "6256",
+          "descricao": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+          "qt": 5,
+          "preco": 86.28,
+          "total": 431.4,
+          "qt_faturada": 0.0,
+          "valor_faturado": 0.0,
+          "status": "Cortado",
+          "nf": "",
+          "agendado": false
+        },
+        {
+          "cod_prod": "6259",
+          "descricao": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
+          "qt": 5,
+          "preco": 86.28,
+          "total": 431.4,
+          "qt_faturada": 5.0,
+          "valor_faturado": 431.4,
+          "status": "Faturado",
+          "nf": "8205",
+          "agendado": false
+        },
+        {
+          "cod_prod": "6334",
+          "descricao": "MOVING BOOSTER MORANGO ACEROLA 24X310ML",
+          "qt": 2,
+          "preco": 155.28,
+          "total": 310.56,
+          "qt_faturada": 2.0,
+          "valor_faturado": 310.56,
+          "status": "Faturado",
+          "nf": "8205",
+          "agendado": false
+        },
+        {
+          "cod_prod": "6254",
+          "descricao": "MOVING BOOSTER ABACAXI HORTELA 24X310ML",
+          "qt": 1,
+          "preco": 155.28,
+          "total": 155.28,
+          "qt_faturada": 1.0,
+          "valor_faturado": 155.28,
+          "status": "Faturado",
+          "nf": "8205",
+          "agendado": false
+        }
+      ]
+    },
+    {
+      "msg_id": "1a06265e32651e74",
+      "subject": "PEDIDOS ME MOVING REDE PADRAO DO FONSECA",
+      "data_email": "2026-09-02",
+      "sistema": "CRC - 04",
+      "cod_cliente": "91841",
+      "razao_social": "SUPERMERCADO PADRAO DO FONSECA LTDA.",
+      "fantasia": "SUPERMARKET",
+      "cnpj": "08.628.825/0025-34",
+      "rca": "450 - LEANDRO SOUZA - OFF TRADE",
+      "bonificacao": false,
+      "prazo": "",
+      "obs": "",
+      "email_data_agendamento": "03/09/2026",
+      "email_observacoes": "CAIXAS E RÓTULOS INTEGROS E ORIGINAIS; COLOCAR OBSERVAÇÃO NAS LOJAS \"SUPERMERCADO SUPERMAKET\"",
+      "itens": [
+        {
+          "cod_prod": "6256",
+          "descricao": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+          "qt": 2,
+          "preco": 86.28,
+          "total": 172.56,
+          "qt_faturada": 0.0,
+          "valor_faturado": 0.0,
+          "status": "Pendente",
+          "nf": "",
+          "agendado": false
+        },
+        {
+          "cod_prod": "6334",
+          "descricao": "MOVING BOOSTER MORANGO ACEROLA 24X310ML",
+          "qt": 1,
+          "preco": 155.28,
+          "total": 155.28,
+          "qt_faturada": 0.0,
+          "valor_faturado": 0.0,
+          "status": "Pendente",
+          "nf": "",
+          "agendado": false
+        }
+      ]
+    },
+    {
+      "msg_id": "1a06265e32651e74",
+      "subject": "PEDIDOS ME MOVING REDE PADRAO DO FONSECA",
+      "data_email": "2026-09-02",
+      "sistema": "CRC - 04",
+      "cod_cliente": "90413",
+      "razao_social": "SUPERMERCADO PADRAO DO FONSECA LTDA",
+      "fantasia": "SUPERMARKET",
+      "cnpj": "08.628.825/0019-96",
+      "rca": "450 - LEANDRO SOUZA - OFF TRADE",
+      "bonificacao": false,
+      "prazo": "",
+      "obs": "",
+      "email_data_agendamento": "03/09/2026",
+      "email_observacoes": "CAIXAS E RÓTULOS INTEGROS E ORIGINAIS; COLOCAR OBSERVAÇÃO NAS LOJAS \"SUPERMERCADO SUPERMAKET\"",
+      "itens": [
+        {
+          "cod_prod": "6256",
+          "descricao": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+          "qt": 3,
+          "preco": 86.28,
+          "total": 258.84,
+          "qt_faturada": 3.0,
+          "valor_faturado": 258.84,
+          "status": "Faturado",
+          "nf": "8207",
+          "agendado": false
+        }
+      ]
+    },
+    {
+      "msg_id": "1a05f7aafa2951a3",
+      "subject": "Fwd:",
+      "data_email": "2026-09-01",
+      "sistema": "CRC - 04",
+      "cod_cliente": "96005",
+      "razao_social": "MULTI GUARANI MERCADO LTDA",
+      "fantasia": "MULTI GUARANI MERCADO",
+      "cnpj": "67.911.623/0001-97",
+      "rca": "153 - ANGELO NEVES SUZART - OFF TRADE",
+      "bonificacao": false,
+      "prazo": "28",
+      "obs": "entregar no dia 24/08 não pagamos descarga no momento no horario das 08:00 as 14:00hr",
+      "email_data_agendamento": "",
+      "email_observacoes": "não pagamos descarga. horario: 08:00 ás 14:00",
+      "itens": [
+        {
+          "cod_prod": "663",
+          "descricao": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+          "qt": 12,
+          "preco": 36.9,
+          "total": 442.8,
+          "qt_faturada": 12.0,
+          "valor_faturado": 442.8,
+          "status": "Faturado",
+          "nf": "8198",
+          "agendado": false
+        }
+      ]
+    },
+    {
+      "msg_id": "1a05f4351b1f2503",
+      "subject": "Re: Pedido do cliente novo",
+      "data_email": "2026-09-01",
+      "sistema": "CRC - 04",
+      "cod_cliente": "96262",
+      "razao_social": "JONATAS DA SILVA REGO 17997197745",
+      "fantasia": "JONATAS DA SILVA REGO",
+      "cnpj": "40.363.976/0001-43",
+      "rca": "153 - ANGELO NEVES SUZART - OFF TRADE",
+      "bonificacao": false,
+      "prazo": "",
+      "obs": "",
+      "email_data_agendamento": "02/09/2026",
+      "email_observacoes": "TAXA DESCARGA: R$0,00 POR PALLET; HORÁRIO DE ENTREGA: 08:00hs às 14:00hs",
+      "itens": [
+        {
+          "cod_prod": "418",
+          "descricao": "VODKA NATASHA 900ML",
+          "qt": 6,
+          "preco": 15.9,
+          "total": 95.4,
+          "qt_faturada": 0.0,
+          "valor_faturado": 0.0,
+          "status": "Cortado",
+          "nf": "",
+          "agendado": false
+        },
+        {
+          "cod_prod": "37",
+          "descricao": "MARTINI BIANCO 750 ML",
+          "qt": 2,
+          "preco": 39.9,
+          "total": 79.8,
+          "qt_faturada": 0.0,
+          "valor_faturado": 0.0,
+          "status": "Cortado",
+          "nf": "",
+          "agendado": false
+        },
+        {
+          "cod_prod": "38",
+          "descricao": "MARTINI ROSATO 750 ML",
+          "qt": 2,
+          "preco": 39.9,
+          "total": 79.8,
+          "qt_faturada": 2.0,
+          "valor_faturado": 79.8,
+          "status": "Faturado",
+          "nf": "8206",
+          "agendado": false
+        },
+        {
+          "cod_prod": "5034",
+          "descricao": "RUM BACARDI GOLD 700ML",
+          "qt": 2,
+          "preco": 30.9,
+          "total": 61.8,
+          "qt_faturada": 2.0,
+          "valor_faturado": 61.8,
+          "status": "Faturado",
+          "nf": "8206",
+          "agendado": false
+        },
+        {
+          "cod_prod": "73",
+          "descricao": "PIRASSUNUNGA 51 965 ML",
+          "qt": 12,
+          "preco": 13.59,
+          "total": 163.08,
+          "qt_faturada": 12.0,
+          "valor_faturado": 163.08,
+          "status": "Faturado",
+          "nf": "8206",
+          "agendado": false
+        },
+        {
+          "cod_prod": "290",
+          "descricao": "CONHAQUE DREHER 900ML",
+          "qt": 3,
+          "preco": 20.9,
+          "total": 62.7,
+          "qt_faturada": 3.0,
+          "valor_faturado": 62.7,
+          "status": "Faturado",
+          "nf": "8206",
+          "agendado": false
+        },
+        {
+          "cod_prod": "381",
+          "descricao": "CACHACA VELHO BARREIRO 910 ML",
+          "qt": 4,
+          "preco": 13.5,
+          "total": 54.0,
+          "qt_faturada": 4.0,
+          "valor_faturado": 54.0,
+          "status": "Faturado",
+          "nf": "8206",
+          "agendado": false
+        },
+        {
+          "cod_prod": "16",
+          "descricao": "VODCA SMIRNOFF RED 998 ML",
+          "qt": 4,
+          "preco": 27.9,
+          "total": 111.6,
+          "qt_faturada": 4.0,
+          "valor_faturado": 111.6,
+          "status": "Faturado",
+          "nf": "8206",
+          "agendado": false
+        },
+        {
+          "cod_prod": "3642",
+          "descricao": "GIN ROCKS STRAWBERRY 1000ML",
+          "qt": 2,
+          "preco": 22.5,
+          "total": 45.0,
+          "qt_faturada": 2.0,
+          "valor_faturado": 45.0,
+          "status": "Faturado",
+          "nf": "8206",
+          "agendado": false
+        },
+        {
+          "cod_prod": "4689",
+          "descricao": "GIN ROCKS WATERMELON 1000ML",
+          "qt": 2,
+          "preco": 22.5,
+          "total": 45.0,
+          "qt_faturada": 2.0,
+          "valor_faturado": 45.0,
+          "status": "Faturado",
+          "nf": "8206",
+          "agendado": false
+        },
+        {
+          "cod_prod": "3812",
+          "descricao": "VINHO SANTILLE TINTO 2LTX6",
+          "qt": 12,
+          "preco": 17.9,
+          "total": 214.8,
+          "qt_faturada": 0.0,
+          "valor_faturado": 0.0,
+          "status": "Cortado",
+          "nf": "",
+          "agendado": false
+        },
+        {
+          "cod_prod": "178",
+          "descricao": "RUM MONTILLA OURO 1L",
+          "qt": 3,
+          "preco": 22.9,
+          "total": 68.7,
+          "qt_faturada": 3.0,
+          "valor_faturado": 68.7,
+          "status": "Faturado",
+          "nf": "8206",
+          "agendado": false
+        },
+        {
+          "cod_prod": "69",
+          "descricao": "RUM MONTILLA CARTA BRANCA 1L",
+          "qt": 3,
+          "preco": 22.9,
+          "total": 68.7,
+          "qt_faturada": 3.0,
+          "valor_faturado": 68.7,
+          "status": "Faturado",
+          "nf": "8206",
+          "agendado": false
+        },
+        {
+          "cod_prod": "1593",
+          "descricao": "CACHACA YPIOCA CG PRATA 965 ML",
+          "qt": 4,
+          "preco": 14.9,
+          "total": 59.6,
+          "qt_faturada": 4.0,
+          "valor_faturado": 59.6,
+          "status": "Faturado",
+          "nf": "8206",
+          "agendado": false
+        }
+      ]
+    },
+    {
+      "msg_id": "1a05ea837984b9a8",
+      "subject": "Re:",
+      "data_email": "2026-09-01",
+      "sistema": "CRC - 04",
+      "cod_cliente": "96005",
+      "razao_social": "MULTI GUARANI MERCADO LTDA",
+      "fantasia": "MULTI GUARANI MERCADO",
+      "cnpj": "67.911.623/0001-97",
+      "rca": "153 - ANGELO NEVES SUZART - OFF TRADE",
+      "bonificacao": false,
+      "prazo": "28",
+      "obs": "entregar no dia 24/08 não pagamos descarga no momento no horario das 08:00 as 14:00hr",
+      "email_data_agendamento": "",
+      "email_observacoes": "não pagamos descarga, horario: 08:00 ás 14:00",
+      "itens": [
+        {
+          "cod_prod": "663",
+          "descricao": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+          "qt": 12,
+          "preco": 36.9,
+          "total": 442.8,
+          "qt_faturada": 12.0,
+          "valor_faturado": 442.8,
+          "status": "Faturado",
+          "nf": "8198",
+          "agendado": false
+        }
+      ]
+    },
+    {
+      "msg_id": "1a05e9c7ee0465ba",
+      "subject": "Fwd: Pedido do cliente novo",
+      "data_email": "2026-09-01",
+      "sistema": "CRC - 04",
+      "cod_cliente": "96262",
+      "razao_social": "JONATAS DA SILVA REGO 17997197745",
+      "fantasia": "JONATAS DA SILVA REGO",
+      "cnpj": "40.363.976/0001-43",
+      "rca": "153 - ANGELO NEVES SUZART - OFF TRADE",
+      "bonificacao": false,
+      "prazo": "",
+      "obs": "",
+      "email_data_agendamento": "02/09/2026",
+      "email_observacoes": "TAXA DESCARGA: R$0,00 POR PALLET; HORÁRIO DE ENTREGA: 08:00hs às 14:00hs",
+      "itens": [
+        {
+          "cod_prod": "418",
+          "descricao": "VODKA NATASHA 900ML",
+          "qt": 6,
+          "preco": 15.9,
+          "total": 95.4,
+          "qt_faturada": 0.0,
+          "valor_faturado": 0.0,
+          "status": "Cortado",
+          "nf": "",
+          "agendado": false
+        },
+        {
+          "cod_prod": "37",
+          "descricao": "MARTINI BIANCO 750 ML",
+          "qt": 2,
+          "preco": 39.9,
+          "total": 79.8,
+          "qt_faturada": 0.0,
+          "valor_faturado": 0.0,
+          "status": "Cortado",
+          "nf": "",
+          "agendado": false
+        },
+        {
+          "cod_prod": "38",
+          "descricao": "MARTINI ROSATO 750 ML",
+          "qt": 2,
+          "preco": 39.9,
+          "total": 79.8,
+          "qt_faturada": 2.0,
+          "valor_faturado": 79.8,
+          "status": "Faturado",
+          "nf": "8206",
+          "agendado": false
+        },
+        {
+          "cod_prod": "5034",
+          "descricao": "RUM BACARDI GOLD 700ML",
+          "qt": 2,
+          "preco": 30.9,
+          "total": 61.8,
+          "qt_faturada": 2.0,
+          "valor_faturado": 61.8,
+          "status": "Faturado",
+          "nf": "8206",
+          "agendado": false
+        },
+        {
+          "cod_prod": "73",
+          "descricao": "PIRASSUNUNGA 51 965 ML",
+          "qt": 12,
+          "preco": 13.59,
+          "total": 163.08,
+          "qt_faturada": 12.0,
+          "valor_faturado": 163.08,
+          "status": "Faturado",
+          "nf": "8206",
+          "agendado": false
+        },
+        {
+          "cod_prod": "290",
+          "descricao": "CONHAQUE DREHER 900ML",
+          "qt": 3,
+          "preco": 20.9,
+          "total": 62.7,
+          "qt_faturada": 3.0,
+          "valor_faturado": 62.7,
+          "status": "Faturado",
+          "nf": "8206",
+          "agendado": false
+        },
+        {
+          "cod_prod": "381",
+          "descricao": "CACHACA VELHO BARREIRO 910 ML",
+          "qt": 4,
+          "preco": 13.5,
+          "total": 54.0,
+          "qt_faturada": 4.0,
+          "valor_faturado": 54.0,
+          "status": "Faturado",
+          "nf": "8206",
+          "agendado": false
+        },
+        {
+          "cod_prod": "16",
+          "descricao": "VODCA SMIRNOFF RED 998 ML",
+          "qt": 4,
+          "preco": 27.9,
+          "total": 111.6,
+          "qt_faturada": 4.0,
+          "valor_faturado": 111.6,
+          "status": "Faturado",
+          "nf": "8206",
+          "agendado": false
+        },
+        {
+          "cod_prod": "3642",
+          "descricao": "GIN ROCKS STRAWBERRY 1000ML",
+          "qt": 2,
+          "preco": 22.5,
+          "total": 45.0,
+          "qt_faturada": 2.0,
+          "valor_faturado": 45.0,
+          "status": "Faturado",
+          "nf": "8206",
+          "agendado": false
+        },
+        {
+          "cod_prod": "4689",
+          "descricao": "GIN ROCKS WATERMELON 1000ML",
+          "qt": 2,
+          "preco": 22.5,
+          "total": 45.0,
+          "qt_faturada": 2.0,
+          "valor_faturado": 45.0,
+          "status": "Faturado",
+          "nf": "8206",
+          "agendado": false
+        },
+        {
+          "cod_prod": "3812",
+          "descricao": "VINHO SANTILLE TINTO 2LTX6",
+          "qt": 12,
+          "preco": 17.9,
+          "total": 214.8,
+          "qt_faturada": 0.0,
+          "valor_faturado": 0.0,
+          "status": "Cortado",
+          "nf": "",
+          "agendado": false
+        },
+        {
+          "cod_prod": "178",
+          "descricao": "RUM MONTILLA OURO 1L",
+          "qt": 3,
+          "preco": 22.9,
+          "total": 68.7,
+          "qt_faturada": 3.0,
+          "valor_faturado": 68.7,
+          "status": "Faturado",
+          "nf": "8206",
+          "agendado": false
+        },
+        {
+          "cod_prod": "69",
+          "descricao": "RUM MONTILLA CARTA BRANCA 1L",
+          "qt": 3,
+          "preco": 22.9,
+          "total": 68.7,
+          "qt_faturada": 3.0,
+          "valor_faturado": 68.7,
+          "status": "Faturado",
+          "nf": "8206",
+          "agendado": false
+        },
+        {
+          "cod_prod": "1593",
+          "descricao": "CACHACA YPIOCA CG PRATA 965 ML",
+          "qt": 4,
+          "preco": 14.9,
+          "total": 59.6,
+          "qt_faturada": 4.0,
+          "valor_faturado": 59.6,
+          "status": "Faturado",
+          "nf": "8206",
+          "agendado": false
+        }
+      ]
+    },
+    {
+      "msg_id": "1a05e8e1d482cd4f",
+      "subject": "Re:",
+      "data_email": "2026-09-01",
+      "sistema": "CRC - 04",
+      "cod_cliente": "96005",
+      "razao_social": "MULTI GUARANI MERCADO LTDA",
+      "fantasia": "MULTI GUARANI MERCADO",
+      "cnpj": "67.911.623/0001-97",
+      "rca": "153 - ANGELO NEVES SUZART - OFF TRADE",
+      "bonificacao": false,
+      "prazo": "28",
+      "obs": "entregar no dia 24/08 não pagamos descarga no momento no horario das 08:00 as 14:00hr",
+      "email_data_agendamento": "21/08/2026",
+      "email_observacoes": "não pagamos descarga, horario: 08:00 ás 14:00",
+      "itens": [
+        {
+          "cod_prod": "663",
+          "descricao": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+          "qt": 12,
+          "preco": 36.9,
+          "total": 442.8,
+          "qt_faturada": 12.0,
+          "valor_faturado": 442.8,
+          "status": "Faturado",
+          "nf": "8198",
+          "agendado": false
+        }
+      ]
+    },
+    {
+      "msg_id": "1a05e7bae7214774",
+      "subject": "Fwd: Pedido cliente 71185 ANB",
+      "data_email": "2026-09-01",
+      "sistema": "CRC - 04",
+      "cod_cliente": "71185",
+      "razao_social": "ANB DISTRIBUIDORA DE ALIMENTOS E BEBIDAS LTDA",
+      "fantasia": "ANB DISTRIBUIDORA DE ALIMENTOS E BEBIDAS",
+      "cnpj": "49.306.432/0001-14",
+      "rca": "378 - FABIO VALOTTI - OFF TRADE",
+      "bonificacao": false,
+      "prazo": "",
+      "obs": "",
+      "email_data_agendamento": "02/09/2026",
+      "email_observacoes": "Horário de entrega de 06:00 às 11:00 horas.",
+      "itens": [
+        {
+          "cod_prod": "644",
+          "descricao": "APERITIVO APEROL 750 ML",
+          "qt": 24,
+          "preco": 41.9,
+          "total": 1005.6,
+          "qt_faturada": 24.0,
+          "valor_faturado": 1005.6,
+          "status": "Faturado",
+          "nf": "8178",
+          "agendado": false
+        },
+        {
+          "cod_prod": "187",
+          "descricao": "WHISKY JACK DANIELS 1L",
+          "qt": 12,
+          "preco": 119.9,
+          "total": 1438.8,
+          "qt_faturada": 12.0,
+          "valor_faturado": 1438.8,
+          "status": "Faturado",
+          "nf": "8178",
+          "agendado": false
+        }
+      ]
+    },
+    {
+      "msg_id": "1a05e7a3aa263445",
+      "subject": "Fwd: Pedido do cliente 83653 RIO SUL FIGUEIRA",
+      "data_email": "2026-09-01",
+      "sistema": "CRC - 04",
+      "cod_cliente": "83653",
+      "razao_social": "MERCADO RIO SUL DA FIGUEIRA LTDA",
+      "fantasia": "MERCADO RIO SUL DA FIGUEIRA",
+      "cnpj": "37.496.930/0001-98",
+      "rca": "153 - ANGELO NEVES SUZART - OFF TRADE",
+      "bonificacao": false,
+      "prazo": "",
+      "obs": "",
+      "email_data_agendamento": "02/09/2026",
+      "email_observacoes": "pagamento de descarga R$60,00, Horario 08:00 as 14:00",
+      "itens": [
+        {
+          "cod_prod": "3642",
+          "descricao": "GIN ROCKS STRAWBERRY 1000ML",
+          "qt": 18,
+          "preco": 22.5,
+          "total": 405.0,
+          "qt_faturada": 18.0,
+          "valor_faturado": 405.0,
+          "status": "Faturado",
+          "nf": "8179",
+          "agendado": false
+        },
+        {
+          "cod_prod": "4689",
+          "descricao": "GIN ROCKS WATERMELON 1000ML",
+          "qt": 6,
+          "preco": 22.5,
+          "total": 135.0,
+          "qt_faturada": 6.0,
+          "valor_faturado": 135.0,
+          "status": "Faturado",
+          "nf": "8179",
+          "agendado": false
+        },
+        {
+          "cod_prod": "6492",
+          "descricao": "GIN ROCKS GREEN APPLE 1000ML",
+          "qt": 6,
+          "preco": 22.5,
+          "total": 135.0,
+          "qt_faturada": 6.0,
+          "valor_faturado": 135.0,
+          "status": "Faturado",
+          "nf": "8179",
+          "agendado": false
+        }
+      ]
+    },
+    {
+      "msg_id": "1a05e71b932e0dab",
+      "subject": "Fwd: Pedido cliente 71185 ANB",
+      "data_email": "2026-09-01",
+      "sistema": "CRC - 04",
+      "cod_cliente": "71185",
+      "razao_social": "ANB DISTRIBUIDORA DE ALIMENTOS E BEBIDAS LTDA",
+      "fantasia": "ANB DISTRIBUIDORA DE ALIMENTOS E BEBIDAS",
+      "cnpj": "49.306.432/0001-14",
+      "rca": "378 - FABIO VALOTTI - OFF TRADE",
+      "bonificacao": false,
+      "prazo": "",
+      "obs": "",
+      "email_data_agendamento": "02/09/2026",
+      "email_observacoes": "Horário de entrega de 06:00 às 11:00 horas. Taxa descarga: R$0,00 por pallet.",
+      "itens": [
+        {
+          "cod_prod": "644",
+          "descricao": "APERITIVO APEROL 750 ML",
+          "qt": 24,
+          "preco": 41.9,
+          "total": 1005.6,
+          "qt_faturada": 24.0,
+          "valor_faturado": 1005.6,
+          "status": "Faturado",
+          "nf": "8178",
+          "agendado": false
+        },
+        {
+          "cod_prod": "187",
+          "descricao": "WHISKY JACK DANIELS 1L",
+          "qt": 12,
+          "preco": 119.9,
+          "total": 1438.8,
+          "qt_faturada": 12.0,
+          "valor_faturado": 1438.8,
+          "status": "Faturado",
+          "nf": "8178",
+          "agendado": false
+        }
+      ]
+    },
+    {
+      "msg_id": "1a05e6aa05629ee0",
+      "subject": "Pedido do cliente 83653 RIO SUL FIGUEIRA",
+      "data_email": "2026-09-01",
+      "sistema": "CRC - 04",
+      "cod_cliente": "83653",
+      "razao_social": "MERCADO RIO SUL DA FIGUEIRA LTDA",
+      "fantasia": "MERCADO RIO SUL DA FIGUEIRA",
+      "cnpj": "37.496.930/0001-98",
+      "rca": "153 - ANGELO NEVES SUZART - OFF TRADE",
+      "bonificacao": false,
+      "prazo": "",
+      "obs": "",
+      "email_data_agendamento": "02/09/2026",
+      "email_observacoes": "entregar no dia 02/09, pagamento de descarga R$60,00, Horario 08:00 as 14:00",
+      "itens": [
+        {
+          "cod_prod": "3642",
+          "descricao": "GIN ROCKS STRAWBERRY 1000ML",
+          "qt": 18,
+          "preco": 22.5,
+          "total": 405.0,
+          "qt_faturada": 18.0,
+          "valor_faturado": 405.0,
+          "status": "Faturado",
+          "nf": "8179",
+          "agendado": false
+        },
+        {
+          "cod_prod": "4689",
+          "descricao": "GIN ROCKS WATERMELON 1000ML",
+          "qt": 6,
+          "preco": 22.5,
+          "total": 135.0,
+          "qt_faturada": 6.0,
+          "valor_faturado": 135.0,
+          "status": "Faturado",
+          "nf": "8179",
+          "agendado": false
+        },
+        {
+          "cod_prod": "6492",
+          "descricao": "GIN ROCKS GREEN APPLE 1000ML",
+          "qt": 6,
+          "preco": 22.5,
+          "total": 135.0,
+          "qt_faturada": 6.0,
+          "valor_faturado": 135.0,
+          "status": "Faturado",
+          "nf": "8179",
+          "agendado": false
+        }
+      ]
+    },
+    {
+      "msg_id": "1a05abae6b2af2fe",
+      "subject": "Re: pedido crc4 - ZONA SUL",
+      "data_email": "2026-08-31",
+      "sistema": "CRC - 04",
+      "cod_cliente": "6269",
+      "razao_social": "SUPERMERCADO ZONA SUL S/A",
+      "fantasia": "SUPERMERCADO ZONA SUL",
+      "cnpj": "33.381.286/0001-51",
+      "rca": "275 - MARIA LUIZA - OFF TRADE",
+      "bonificacao": false,
+      "prazo": "45 DIAS",
+      "obs": "PEDIDO 9328319",
+      "email_data_agendamento": "01/09/2026",
+      "email_observacoes": "Solicito faturamento do pedido abaixo na crc4, são 2 pedidos.",
+      "itens": [
+        {
+          "cod_prod": "6798",
+          "descricao": "YVV DESTILADO GIN AR 6X710ML LT",
+          "qt": 10,
+          "preco": 197.64,
+          "total": 1976.4,
+          "qt_faturada": 20.0,
+          "valor_faturado": 3952.8,
+          "status": "Faturado",
+          "nf": "8157, 8158",
+          "agendado": false
+        },
+        {
+          "cod_prod": "6799",
+          "descricao": "YVV DESTILADO GIN MAR 6X710ML LT",
+          "qt": 5,
+          "preco": 197.64,
+          "total": 988.2,
+          "qt_faturada": 10.0,
+          "valor_faturado": 1976.4,
+          "status": "Faturado",
+          "nf": "8157, 8158",
+          "agendado": false
+        },
+        {
+          "cod_prod": "6800",
+          "descricao": "YVV DESTILADO GIN TERRA 6X710ML LT",
+          "qt": 3,
+          "preco": 197.64,
+          "total": 592.92,
+          "qt_faturada": 8.0,
+          "valor_faturado": 1581.12,
+          "status": "Faturado",
+          "nf": "8157, 8158",
+          "agendado": false
+        },
+        {
+          "cod_prod": "5243",
+          "descricao": "YVV DESTILADO GIN AR 750ML",
+          "qt": 60,
+          "preco": 49.0,
+          "total": 2940.0,
+          "qt_faturada": 30.0,
+          "valor_faturado": 1470.0,
+          "status": "Parcial",
+          "nf": "8158",
+          "agendado": false
+        },
+        {
+          "cod_prod": "4516",
+          "descricao": "YVV DESTILADO GIN MAR 750ML",
+          "qt": 30,
+          "preco": 49.0,
+          "total": 1470.0,
+          "qt_faturada": 0.0,
+          "valor_faturado": 0.0,
+          "status": "Cortado",
+          "nf": "",
+          "agendado": false
+        }
+      ]
+    },
+    {
+      "msg_id": "1a05abae6b2af2fe",
+      "subject": "Re: pedido crc4 - ZONA SUL",
+      "data_email": "2026-08-31",
+      "sistema": "CRC - 04",
+      "cod_cliente": "6269",
+      "razao_social": "SUPERMERCADO ZONA SUL S/A",
+      "fantasia": "SUPERMERCADO ZONA SUL",
+      "cnpj": "33.381.286/0001-51",
+      "rca": "275 - MARIA LUIZA - OFF TRADE",
+      "bonificacao": false,
+      "prazo": "45",
+      "obs": "",
+      "email_data_agendamento": "01/09/2026",
+      "email_observacoes": "Solicito faturamento do pedido abaixo na crc4, são 2 pedidos.",
+      "itens": [
+        {
+          "cod_prod": "6798",
+          "descricao": "YVY DESTILADO GIN AR 6X710ML LT",
+          "qt": 10,
+          "preco": 197.64,
+          "total": 1976.4,
+          "qt_faturada": 20.0,
+          "valor_faturado": 3952.8,
+          "status": "Faturado",
+          "nf": "8157, 8158",
+          "agendado": false
+        },
+        {
+          "cod_prod": "6799",
+          "descricao": "YVY DESTILADO GIN MAR 6X710ML LT",
+          "qt": 10,
+          "preco": 197.64,
+          "total": 988.2,
+          "qt_faturada": 10.0,
+          "valor_faturado": 1976.4,
+          "status": "Faturado",
+          "nf": "8157, 8158",
+          "agendado": false
+        },
+        {
+          "cod_prod": "6800",
+          "descricao": "YVY DESTILADO GIN TERRA 6X710ML LT",
+          "qt": 10,
+          "preco": 197.64,
+          "total": 976.2,
+          "qt_faturada": 8.0,
+          "valor_faturado": 1581.12,
+          "status": "Parcial",
+          "nf": "8157, 8158",
+          "agendado": false
+        },
+        {
+          "cod_prod": "7107",
+          "descricao": "APERITIVO LUCIA 750ML",
+          "qt": 180,
+          "preco": 73.5,
+          "total": 13230.0,
+          "qt_faturada": 180.0,
+          "valor_faturado": 13230.0,
+          "status": "Faturado",
+          "nf": "8157",
+          "agendado": false
+        },
+        {
+          "cod_prod": "5243",
+          "descricao": "YVY DESTILADO GIN AR 750ML",
+          "qt": 60,
+          "preco": 49.0,
+          "total": 2940.0,
+          "qt_faturada": 30.0,
+          "valor_faturado": 1470.0,
+          "status": "Parcial",
+          "nf": "8158",
+          "agendado": false
+        },
+        {
+          "cod_prod": "4516",
+          "descricao": "YVY DESTILADO GIN MAR 750ML",
+          "qt": 30,
+          "preco": 49.0,
+          "total": 1470.0,
+          "qt_faturada": 0.0,
+          "valor_faturado": 0.0,
+          "status": "Cortado",
+          "nf": "",
+          "agendado": false
+        }
+      ]
+    },
+    {
+      "msg_id": "1a05ab80ff69c9de",
+      "subject": "Re: Pedido do cliente 90484 RIO SUL DE ITAGUAI",
+      "data_email": "2026-08-31",
+      "sistema": "CRC - 04",
+      "cod_cliente": "90484",
+      "razao_social": "MERCADO RC DE ITAGUAI LTDA",
+      "fantasia": "MERCADO RC DE ITAGUAI",
+      "cnpj": "58.113.396/0001-63",
+      "rca": "153 - ANGELO NEVES SUZART - OFF TRADE",
+      "bonificacao": false,
+      "prazo": "",
+      "obs": "",
+      "email_data_agendamento": "02/09/2026",
+      "email_observacoes": "embalagem: não pode estar danificada para não haver devolução, horário: 08:00 as 14:00, taxa descarga: R$65,00 por pallet",
+      "itens": [
+        {
+          "cod_prod": "3138",
+          "descricao": "WHISKY BUCHANANS 12 YEARS 750 ML",
+          "qt": 12,
+          "preco": 114.9,
+          "total": 1378.8,
+          "qt_faturada": 12.0,
+          "valor_faturado": 1378.8,
+          "status": "Faturado",
+          "nf": "8156",
+          "agendado": false
+        },
+        {
+          "cod_prod": "3643",
+          "descricao": "GIN ROCKS 1000ML",
+          "qt": 12,
+          "preco": 22.5,
+          "total": 270.0,
+          "qt_faturada": 0.0,
+          "valor_faturado": 0.0,
+          "status": "Cortado",
+          "nf": "",
+          "agendado": false
+        },
+        {
+          "cod_prod": "4689",
+          "descricao": "GIN ROCKS WATERMELON 1000ML",
+          "qt": 12,
+          "preco": 22.5,
+          "total": 270.0,
+          "qt_faturada": 12.0,
+          "valor_faturado": 270.0,
+          "status": "Faturado",
+          "nf": "8156",
+          "agendado": false
+        },
+        {
+          "cod_prod": "3642",
+          "descricao": "GIN ROCKS STRAWBERRY 1000ML",
+          "qt": 12,
+          "preco": 22.5,
+          "total": 270.0,
+          "qt_faturada": 0.0,
+          "valor_faturado": 0.0,
+          "status": "Cortado",
+          "nf": "",
+          "agendado": false
+        },
+        {
+          "cod_prod": "3766",
+          "descricao": "CHANDON PASSION ON ICE 750 ML",
+          "qt": 12,
+          "preco": 75.9,
+          "total": 910.8,
+          "qt_faturada": 12.0,
+          "valor_faturado": 910.8,
+          "status": "Faturado",
+          "nf": "8156",
+          "agendado": false
+        },
+        {
+          "cod_prod": "3765",
+          "descricao": "CHANDON RICHE DEMI-SEC 750 ML",
+          "qt": 12,
+          "preco": 79.0,
+          "total": 948.0,
+          "qt_faturada": 12.0,
+          "valor_faturado": 948.0,
+          "status": "Faturado",
+          "nf": "8156",
+          "agendado": false
+        },
+        {
+          "cod_prod": "2614",
+          "descricao": "VILLA ROSA TINTO 750ML",
+          "qt": 12,
+          "preco": 29.9,
+          "total": 358.8,
+          "qt_faturada": 12.0,
+          "valor_faturado": 358.8,
+          "status": "Faturado",
+          "nf": "8156",
+          "agendado": false
+        },
+        {
+          "cod_prod": "663",
+          "descricao": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+          "qt": 36,
+          "preco": 36.9,
+          "total": 1328.4,
+          "qt_faturada": 36.0,
+          "valor_faturado": 1328.4,
+          "status": "Faturado",
+          "nf": "8156",
+          "agendado": false
+        },
+        {
+          "cod_prod": "70",
+          "descricao": "WHISKY CHIVAS REGAL 12 ANOS 1L",
+          "qt": 12,
+          "preco": 99.9,
+          "total": 1198.8,
+          "qt_faturada": 0.0,
+          "valor_faturado": 0.0,
+          "status": "Cortado",
+          "nf": "",
+          "agendado": false
+        }
+      ]
+    },
+    {
+      "msg_id": "1a0593b3f647f9a9",
+      "subject": "pedido crc4 - mercado bambina",
+      "data_email": "2026-08-31",
+      "sistema": "CRC - 04",
+      "cod_cliente": "2710",
+      "razao_social": "MERCADINHO BAMBINA LTDA",
+      "fantasia": "VERDANO",
+      "cnpj": "33.226.663/0001-88",
+      "rca": "471 - ANA CLARA FASSANO - OFF TRADE",
+      "bonificacao": false,
+      "prazo": "7 dias",
+      "obs": "",
+      "email_data_agendamento": "01/09/2026",
+      "email_observacoes": "sem pagamento de descarga",
+      "itens": [
+        {
+          "cod_prod": "449",
+          "descricao": "WHISKY J WALKER BLACK LABEL 1L",
+          "qt": 6,
+          "preco": 149.9,
+          "total": 899.4,
+          "qt_faturada": 6.0,
+          "valor_faturado": 899.4,
+          "status": "Faturado",
+          "nf": "8155",
+          "agendado": false
+        }
+      ]
+    },
+    {
+      "msg_id": "1a05912217bad891",
+      "subject": "PEDIDO MUNDIAL - BONIFICAÇÃO",
+      "data_email": "2026-08-31",
+      "sistema": "CRC - 04",
+      "cod_cliente": "6278",
+      "razao_social": "SUPERMERCADOS MUNDIAL LTDA",
+      "fantasia": "SUPERMERCADOS MUNDIAL",
+      "cnpj": "33.304.981/0001-10",
+      "rca": "238 - DANIELLE MOURA - OFF TRADE",
+      "bonificacao": true,
+      "prazo": "",
+      "obs": "",
+      "email_data_agendamento": "03/09/2026",
+      "email_observacoes": "colocar na obs aos cuidados do comprador Rodrigo. horário de entrega de 06 às 11 descarga - 60,00 por pllt - somente PIX",
+      "itens": [
+        {
+          "cod_prod": "3895",
+          "descricao": "VINHO ROSE QUINTA VENTOZELO 750ML",
+          "qt": 6,
+          "preco": 119.9,
+          "total": 719.4,
+          "qt_faturada": 6.0,
+          "valor_faturado": 719.4,
+          "status": "Faturado",
+          "nf": "8159",
+          "agendado": false
+        }
+      ]
+    },
     {
       "msg_id": "1a01bc9a975c4cab",
       "subject": "Fwd: Pedido do cliente 83800 Supermercado Rio Sul de Comendador Soares",
@@ -27232,6 +31468,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "28",
       "obs": "entregar no dia 18/08 com pagamento de descarga no valor R$60,00 por pallets horario das 08:00 às 14:00hr por ordem de chegada pedido 88611",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "381",
@@ -27239,11 +31477,11 @@ const AGENDAMENTO_DATA = {
           "qt": 24,
           "preco": 12.3,
           "total": 309.6,
-          "qt_faturada": 0.0,
-          "valor_faturado": 0.0,
-          "status": "Pendente",
-          "nf": "",
-          "agendado": false
+          "qt_faturada": 24.0,
+          "valor_faturado": 295.2,
+          "status": "Faturado",
+          "nf": "7828",
+          "agendado": true
         },
         {
           "cod_prod": "663",
@@ -27251,11 +31489,11 @@ const AGENDAMENTO_DATA = {
           "qt": 24,
           "preco": 36.3,
           "total": 871.8,
-          "qt_faturada": 0.0,
-          "valor_faturado": 0.0,
-          "status": "Pendente",
-          "nf": "",
-          "agendado": false
+          "qt_faturada": 22.0,
+          "valor_faturado": 798.6,
+          "status": "Parcial",
+          "nf": "7828",
+          "agendado": true
         },
         {
           "cod_prod": "271",
@@ -27265,7 +31503,7 @@ const AGENDAMENTO_DATA = {
           "total": 435.6,
           "qt_faturada": 0.0,
           "valor_faturado": 0.0,
-          "status": "Pendente",
+          "status": "Cortado",
           "nf": "",
           "agendado": false
         },
@@ -27275,11 +31513,11 @@ const AGENDAMENTO_DATA = {
           "qt": 36,
           "preco": 11.3,
           "total": 428.4,
-          "qt_faturada": 0.0,
-          "valor_faturado": 0.0,
-          "status": "Pendente",
-          "nf": "",
-          "agendado": false
+          "qt_faturada": 36.0,
+          "valor_faturado": 406.8,
+          "status": "Faturado",
+          "nf": "7828",
+          "agendado": true
         }
       ]
     },
@@ -27296,6 +31534,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "28 DIAS",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "5762",
@@ -27432,6 +31672,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "28 DIAS",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "2781",
@@ -27443,7 +31685,7 @@ const AGENDAMENTO_DATA = {
           "valor_faturado": 466.8,
           "status": "Faturado",
           "nf": "7811",
-          "agendado": false
+          "agendado": true
         }
       ]
     },
@@ -27460,6 +31702,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "28 DIAS",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "5762",
@@ -27584,6 +31828,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "3828",
@@ -27591,11 +31837,11 @@ const AGENDAMENTO_DATA = {
           "qt": 12,
           "preco": 35.0,
           "total": 420.0,
-          "qt_faturada": 0.0,
-          "valor_faturado": 0.0,
-          "status": "Pendente",
-          "nf": "",
-          "agendado": false
+          "qt_faturada": 6.0,
+          "valor_faturado": 210.0,
+          "status": "Parcial",
+          "nf": "7957",
+          "agendado": true
         }
       ]
     },
@@ -27612,6 +31858,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "2781",
@@ -27623,7 +31871,7 @@ const AGENDAMENTO_DATA = {
           "valor_faturado": 466.8,
           "status": "Faturado",
           "nf": "7811",
-          "agendado": false
+          "agendado": true
         }
       ]
     },
@@ -27640,6 +31888,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "663",
@@ -27651,7 +31901,7 @@ const AGENDAMENTO_DATA = {
           "valor_faturado": 2154.0,
           "status": "Faturado",
           "nf": "7810",
-          "agendado": false
+          "agendado": true
         }
       ]
     },
@@ -27668,6 +31918,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "663",
@@ -27679,7 +31931,7 @@ const AGENDAMENTO_DATA = {
           "valor_faturado": 2154.0,
           "status": "Faturado",
           "nf": "7810",
-          "agendado": false
+          "agendado": true
         }
       ]
     },
@@ -27696,6 +31948,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "28",
       "obs": "entregar no dia 18/08 com pagamento de descarga no valor R$60,00 por pallets horario das 08:00 às 14:00hr por ordem de chegada pedido 88611",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "381",
@@ -27703,11 +31957,11 @@ const AGENDAMENTO_DATA = {
           "qt": 24,
           "preco": 12.3,
           "total": 309.6,
-          "qt_faturada": 0.0,
-          "valor_faturado": 0.0,
-          "status": "Pendente",
-          "nf": "",
-          "agendado": false
+          "qt_faturada": 24.0,
+          "valor_faturado": 295.2,
+          "status": "Faturado",
+          "nf": "7828",
+          "agendado": true
         },
         {
           "cod_prod": "663",
@@ -27715,11 +31969,11 @@ const AGENDAMENTO_DATA = {
           "qt": 24,
           "preco": 36.3,
           "total": 871.8,
-          "qt_faturada": 0.0,
-          "valor_faturado": 0.0,
-          "status": "Pendente",
-          "nf": "",
-          "agendado": false
+          "qt_faturada": 22.0,
+          "valor_faturado": 798.6,
+          "status": "Parcial",
+          "nf": "7828",
+          "agendado": true
         },
         {
           "cod_prod": "271",
@@ -27729,7 +31983,7 @@ const AGENDAMENTO_DATA = {
           "total": 435.6,
           "qt_faturada": 0.0,
           "valor_faturado": 0.0,
-          "status": "Pendente",
+          "status": "Cortado",
           "nf": "",
           "agendado": false
         },
@@ -27739,11 +31993,11 @@ const AGENDAMENTO_DATA = {
           "qt": 36,
           "preco": 11.3,
           "total": 428.4,
-          "qt_faturada": 0.0,
-          "valor_faturado": 0.0,
-          "status": "Pendente",
-          "nf": "",
-          "agendado": false
+          "qt_faturada": 36.0,
+          "valor_faturado": 406.8,
+          "status": "Faturado",
+          "nf": "7828",
+          "agendado": true
         }
       ]
     },
@@ -27760,6 +32014,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "28 Dias",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "1186",
@@ -27767,10 +32023,10 @@ const AGENDAMENTO_DATA = {
           "qt": 36,
           "preco": 37.72,
           "total": 1367.92,
-          "qt_faturada": 72.0,
-          "valor_faturado": 2715.84,
+          "qt_faturada": 36.0,
+          "valor_faturado": 1357.92,
           "status": "Faturado",
-          "nf": "7056, 7785",
+          "nf": "7785",
           "agendado": true
         },
         {
@@ -27779,10 +32035,10 @@ const AGENDAMENTO_DATA = {
           "qt": 12,
           "preco": 49.9,
           "total": 598.8,
-          "qt_faturada": 18.0,
-          "valor_faturado": 898.2,
-          "status": "Faturado",
-          "nf": "7056",
+          "qt_faturada": 0.0,
+          "valor_faturado": 0.0,
+          "status": "Cortado",
+          "nf": "",
           "agendado": false
         },
         {
@@ -27791,10 +32047,10 @@ const AGENDAMENTO_DATA = {
           "qt": 12,
           "preco": 29.9,
           "total": 358.8,
-          "qt_faturada": 24.0,
-          "valor_faturado": 717.6,
+          "qt_faturada": 12.0,
+          "valor_faturado": 358.8,
           "status": "Faturado",
-          "nf": "7056, 7785",
+          "nf": "7785",
           "agendado": true
         },
         {
@@ -27803,10 +32059,10 @@ const AGENDAMENTO_DATA = {
           "qt": 12,
           "preco": 29.9,
           "total": 358.8,
-          "qt_faturada": 60.0,
-          "valor_faturado": 1794.0,
+          "qt_faturada": 30.0,
+          "valor_faturado": 897.0,
           "status": "Faturado",
-          "nf": "7056, 7785",
+          "nf": "7785",
           "agendado": true
         },
         {
@@ -27815,10 +32071,10 @@ const AGENDAMENTO_DATA = {
           "qt": 12,
           "preco": 49.9,
           "total": 598.8,
-          "qt_faturada": 12.0,
-          "valor_faturado": 598.8,
-          "status": "Faturado",
-          "nf": "7056",
+          "qt_faturada": 0.0,
+          "valor_faturado": 0.0,
+          "status": "Cortado",
+          "nf": "",
           "agendado": false
         },
         {
@@ -27827,10 +32083,10 @@ const AGENDAMENTO_DATA = {
           "qt": 12,
           "preco": 49.9,
           "total": 598.8,
-          "qt_faturada": 2.0,
-          "valor_faturado": 99.8,
-          "status": "Parcial",
-          "nf": "7056",
+          "qt_faturada": 0.0,
+          "valor_faturado": 0.0,
+          "status": "Cortado",
+          "nf": "",
           "agendado": false
         }
       ]
@@ -27848,6 +32104,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "PIX",
       "obs": "ENTREGAR NO DIA 18/08 SO ABRE DEPOIS DAS 10",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "4477",
@@ -27855,11 +32113,11 @@ const AGENDAMENTO_DATA = {
           "qt": 300,
           "preco": 78.9,
           "total": 23670,
-          "qt_faturada": 204.0,
-          "valor_faturado": 16095.6,
-          "status": "Parcial",
-          "nf": "6943, 7698, 7727",
-          "agendado": true
+          "qt_faturada": 0.0,
+          "valor_faturado": 0.0,
+          "status": "Pendente",
+          "nf": "",
+          "agendado": false
         },
         {
           "cod_prod": "674",
@@ -27867,11 +32125,11 @@ const AGENDAMENTO_DATA = {
           "qt": 6,
           "preco": 49.9,
           "total": 299.4,
-          "qt_faturada": 12.0,
-          "valor_faturado": 598.8,
-          "status": "Faturado",
-          "nf": "7698",
-          "agendado": true
+          "qt_faturada": 0.0,
+          "valor_faturado": 0.0,
+          "status": "Pendente",
+          "nf": "",
+          "agendado": false
         }
       ]
     },
@@ -27888,6 +32146,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "35 DIAS",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "3451",
@@ -27899,7 +32159,7 @@ const AGENDAMENTO_DATA = {
           "valor_faturado": 8748.0,
           "status": "Faturado",
           "nf": "7784",
-          "agendado": false
+          "agendado": true
         }
       ]
     },
@@ -27916,6 +32176,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "PIX",
       "obs": "ENTREGAR NO DIA 18/08 SO ABRE DEPOIS DAS 10",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "4477",
@@ -27923,11 +32185,11 @@ const AGENDAMENTO_DATA = {
           "qt": 300,
           "preco": 78.9,
           "total": 23670.0,
-          "qt_faturada": 204.0,
-          "valor_faturado": 16095.6,
-          "status": "Parcial",
-          "nf": "6943, 7698, 7727",
-          "agendado": true
+          "qt_faturada": 0.0,
+          "valor_faturado": 0.0,
+          "status": "Pendente",
+          "nf": "",
+          "agendado": false
         },
         {
           "cod_prod": "674",
@@ -27935,11 +32197,11 @@ const AGENDAMENTO_DATA = {
           "qt": 6,
           "preco": 49.9,
           "total": 299.4,
-          "qt_faturada": 12.0,
-          "valor_faturado": 598.8,
-          "status": "Faturado",
-          "nf": "7698",
-          "agendado": true
+          "qt_faturada": 0.0,
+          "valor_faturado": 0.0,
+          "status": "Pendente",
+          "nf": "",
+          "agendado": false
         }
       ]
     },
@@ -27952,10 +32214,12 @@ const AGENDAMENTO_DATA = {
       "razao_social": "54.789.676 MATHEUS FONSECA PEREIRA",
       "fantasia": "MATHEUS FONSECA PEREIRA",
       "cnpj": "54.789.676/0001-35",
-      "rca": "419 - NATALI",
+      "rca": "419 - NÁTALI DE OLIVEIRA - OFF TRADE",
       "bonificacao": false,
       "prazo": "28 DIAS",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "4477",
@@ -27967,7 +32231,7 @@ const AGENDAMENTO_DATA = {
           "valor_faturado": 2157.6,
           "status": "Faturado",
           "nf": "7781",
-          "agendado": false
+          "agendado": true
         },
         {
           "cod_prod": "4067",
@@ -27979,7 +32243,7 @@ const AGENDAMENTO_DATA = {
           "valor_faturado": 25.9,
           "status": "Faturado",
           "nf": "7781",
-          "agendado": false
+          "agendado": true
         },
         {
           "cod_prod": "4328",
@@ -27991,7 +32255,7 @@ const AGENDAMENTO_DATA = {
           "valor_faturado": 629.9,
           "status": "Faturado",
           "nf": "7781",
-          "agendado": false
+          "agendado": true
         },
         {
           "cod_prod": "99",
@@ -28003,7 +32267,7 @@ const AGENDAMENTO_DATA = {
           "valor_faturado": 425.4,
           "status": "Faturado",
           "nf": "7781",
-          "agendado": false
+          "agendado": true
         }
       ]
     },
@@ -28020,6 +32284,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "21/28/35",
       "obs": "entregar no dia 19/08 não tem pagamento de descarga horario das 10:00 às 18:00hr",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "18",
@@ -28072,6 +32338,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "4477",
@@ -28079,11 +32347,11 @@ const AGENDAMENTO_DATA = {
           "qt": 300,
           "preco": 78.9,
           "total": 23670.0,
-          "qt_faturada": 204.0,
-          "valor_faturado": 16095.6,
-          "status": "Parcial",
-          "nf": "6943, 7698, 7727",
-          "agendado": true
+          "qt_faturada": 0.0,
+          "valor_faturado": 0.0,
+          "status": "Pendente",
+          "nf": "",
+          "agendado": false
         },
         {
           "cod_prod": "674",
@@ -28091,11 +32359,11 @@ const AGENDAMENTO_DATA = {
           "qt": 6,
           "preco": 49.9,
           "total": 299.4,
-          "qt_faturada": 12.0,
-          "valor_faturado": 598.8,
-          "status": "Faturado",
-          "nf": "7698",
-          "agendado": true
+          "qt_faturada": 0.0,
+          "valor_faturado": 0.0,
+          "status": "Pendente",
+          "nf": "",
+          "agendado": false
         }
       ]
     },
@@ -28112,6 +32380,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "28 Dias",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "1186",
@@ -28119,10 +32389,10 @@ const AGENDAMENTO_DATA = {
           "qt": 36,
           "preco": 37.72,
           "total": 1360.92,
-          "qt_faturada": 72.0,
-          "valor_faturado": 2715.84,
+          "qt_faturada": 36.0,
+          "valor_faturado": 1357.92,
           "status": "Faturado",
-          "nf": "7056, 7785",
+          "nf": "7785",
           "agendado": true
         },
         {
@@ -28131,10 +32401,10 @@ const AGENDAMENTO_DATA = {
           "qt": 12,
           "preco": 49.9,
           "total": 598.8,
-          "qt_faturada": 18.0,
-          "valor_faturado": 898.2,
-          "status": "Faturado",
-          "nf": "7056",
+          "qt_faturada": 0.0,
+          "valor_faturado": 0.0,
+          "status": "Cortado",
+          "nf": "",
           "agendado": false
         },
         {
@@ -28143,10 +32413,10 @@ const AGENDAMENTO_DATA = {
           "qt": 12,
           "preco": 29.9,
           "total": 358.8,
-          "qt_faturada": 24.0,
-          "valor_faturado": 717.6,
+          "qt_faturada": 12.0,
+          "valor_faturado": 358.8,
           "status": "Faturado",
-          "nf": "7056, 7785",
+          "nf": "7785",
           "agendado": true
         },
         {
@@ -28155,10 +32425,10 @@ const AGENDAMENTO_DATA = {
           "qt": 12,
           "preco": 29.9,
           "total": 358.8,
-          "qt_faturada": 60.0,
-          "valor_faturado": 1794.0,
+          "qt_faturada": 30.0,
+          "valor_faturado": 897.0,
           "status": "Faturado",
-          "nf": "7056, 7785",
+          "nf": "7785",
           "agendado": true
         },
         {
@@ -28167,10 +32437,10 @@ const AGENDAMENTO_DATA = {
           "qt": 12,
           "preco": 39.9,
           "total": 478.8,
-          "qt_faturada": 12.0,
-          "valor_faturado": 478.8,
-          "status": "Faturado",
-          "nf": "7056",
+          "qt_faturada": 0.0,
+          "valor_faturado": 0.0,
+          "status": "Cortado",
+          "nf": "",
           "agendado": false
         },
         {
@@ -28179,10 +32449,10 @@ const AGENDAMENTO_DATA = {
           "qt": 6,
           "preco": 99.9,
           "total": 599.4,
-          "qt_faturada": 2.0,
-          "valor_faturado": 199.8,
-          "status": "Parcial",
-          "nf": "7056",
+          "qt_faturada": 0.0,
+          "valor_faturado": 0.0,
+          "status": "Cortado",
+          "nf": "",
           "agendado": false
         }
       ]
@@ -28200,6 +32470,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "28 Dias",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "1186",
@@ -28207,10 +32479,10 @@ const AGENDAMENTO_DATA = {
           "qt": 36,
           "preco": 1372.44,
           "total": 49368.84,
-          "qt_faturada": 72.0,
-          "valor_faturado": 98815.68,
+          "qt_faturada": 36.0,
+          "valor_faturado": 49407.84,
           "status": "Faturado",
-          "nf": "7056, 7785",
+          "nf": "7785",
           "agendado": true
         },
         {
@@ -28219,10 +32491,10 @@ const AGENDAMENTO_DATA = {
           "qt": 12,
           "preco": 59.9,
           "total": 718.8,
-          "qt_faturada": 18.0,
-          "valor_faturado": 1078.2,
-          "status": "Faturado",
-          "nf": "7056",
+          "qt_faturada": 0.0,
+          "valor_faturado": 0.0,
+          "status": "Cortado",
+          "nf": "",
           "agendado": false
         },
         {
@@ -28231,10 +32503,10 @@ const AGENDAMENTO_DATA = {
           "qt": 12,
           "preco": 29.9,
           "total": 358.8,
-          "qt_faturada": 24.0,
-          "valor_faturado": 717.6,
+          "qt_faturada": 12.0,
+          "valor_faturado": 358.8,
           "status": "Faturado",
-          "nf": "7056, 7785",
+          "nf": "7785",
           "agendado": true
         },
         {
@@ -28243,10 +32515,10 @@ const AGENDAMENTO_DATA = {
           "qt": 12,
           "preco": 29.9,
           "total": 358.8,
-          "qt_faturada": 60.0,
-          "valor_faturado": 1794.0,
+          "qt_faturada": 30.0,
+          "valor_faturado": 897.0,
           "status": "Faturado",
-          "nf": "7056, 7785",
+          "nf": "7785",
           "agendado": true
         },
         {
@@ -28255,10 +32527,10 @@ const AGENDAMENTO_DATA = {
           "qt": 12,
           "preco": 49.9,
           "total": 598.8,
-          "qt_faturada": 12.0,
-          "valor_faturado": 598.8,
-          "status": "Faturado",
-          "nf": "7056",
+          "qt_faturada": 0.0,
+          "valor_faturado": 0.0,
+          "status": "Cortado",
+          "nf": "",
           "agendado": false
         },
         {
@@ -28267,10 +32539,10 @@ const AGENDAMENTO_DATA = {
           "qt": 12,
           "preco": 99.9,
           "total": 1198.8,
-          "qt_faturada": 2.0,
-          "valor_faturado": 199.8,
-          "status": "Parcial",
-          "nf": "7056",
+          "qt_faturada": 0.0,
+          "valor_faturado": 0.0,
+          "status": "Cortado",
+          "nf": "",
           "agendado": false
         }
       ]
@@ -28288,6 +32560,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "3826",
@@ -28316,6 +32590,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "6259",
@@ -28323,34 +32599,6 @@ const AGENDAMENTO_DATA = {
           "qt": 3,
           "preco": 86.28,
           "total": 258.84,
-          "qt_faturada": 3.0,
-          "valor_faturado": 258.84,
-          "status": "Faturado",
-          "nf": "7758",
-          "agendado": false
-        }
-      ]
-    },
-    {
-      "msg_id": "1a0156fd8deff280",
-      "subject": "Re: PEDIDO DO MERCADO (90411) DA REDE PADRAO DO FONSECA",
-      "data_email": "2026-08-18",
-      "sistema": "CRC - 04",
-      "cod_cliente": "90411",
-      "razao_social": "SUPERMERCADO PADRAO DO FONSECA LTDA",
-      "fantasia": "SUPERMARKET",
-      "cnpj": "08.628.825/0018-05",
-      "rca": "450 - LEANDRO SOUZA - OFF TRADE",
-      "bonificacao": false,
-      "prazo": "",
-      "obs": "",
-      "itens": [
-        {
-          "cod_prod": "3826",
-          "descricao": "VINHO LATITUD 33 CHARDONNAY 750 ML",
-          "qt": 12,
-          "preco": 35.0,
-          "total": 420.0,
           "qt_faturada": 0.0,
           "valor_faturado": 0.0,
           "status": "Pendente",
@@ -28372,6 +32620,38 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
+      "itens": [
+        {
+          "cod_prod": "3826",
+          "descricao": "VINHO LATITUD 33 CHARDONNAY 750 ML",
+          "qt": 12,
+          "preco": 35.0,
+          "total": 420.0,
+          "qt_faturada": 0.0,
+          "valor_faturado": 0.0,
+          "status": "Pendente",
+          "nf": "",
+          "agendado": false
+        }
+      ]
+    },
+    {
+      "msg_id": "1a0156fd8deff280",
+      "subject": "Re: PEDIDO DO MERCADO (90411) DA REDE PADRAO DO FONSECA",
+      "data_email": "2026-08-18",
+      "sistema": "CRC - 04",
+      "cod_cliente": "90411",
+      "razao_social": "SUPERMERCADO PADRAO DO FONSECA LTDA",
+      "fantasia": "SUPERMARKET",
+      "cnpj": "08.628.825/0018-05",
+      "rca": "450 - LEANDRO SOUZA - OFF TRADE",
+      "bonificacao": false,
+      "prazo": "",
+      "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "6259",
@@ -28379,10 +32659,10 @@ const AGENDAMENTO_DATA = {
           "qt": 3,
           "preco": 86.28,
           "total": 258.84,
-          "qt_faturada": 3.0,
-          "valor_faturado": 258.84,
-          "status": "Faturado",
-          "nf": "7758",
+          "qt_faturada": 0.0,
+          "valor_faturado": 0.0,
+          "status": "Pendente",
+          "nf": "",
           "agendado": false
         }
       ]
@@ -28400,6 +32680,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "3826",
@@ -28428,6 +32710,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "6259",
@@ -28439,7 +32723,7 @@ const AGENDAMENTO_DATA = {
           "valor_faturado": 258.84,
           "status": "Faturado",
           "nf": "7758",
-          "agendado": false
+          "agendado": true
         }
       ]
     },
@@ -28452,10 +32736,12 @@ const AGENDAMENTO_DATA = {
       "razao_social": "V&R MINIMERCADO PORTO DA ROCA LTDA",
       "fantasia": "GOMES SUPERMERCADOS",
       "cnpj": "46.866.453/0001-04",
-      "rca": "450 - LEANDRO PEREIRA DE SOUZA",
+      "rca": "450 - LEANDRO SOUZA - OFF TRADE",
       "bonificacao": false,
       "prazo": "",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "3828",
@@ -28612,10 +32898,12 @@ const AGENDAMENTO_DATA = {
       "razao_social": "V&J MINIMERCADO PORTO DA ROCA LTDA",
       "fantasia": "V&J MINIMERCADO PORTO DA ROCA",
       "cnpj": "18.749.311/0001-13",
-      "rca": "450 - LEANDRO PEREIRA DE SOUZA",
+      "rca": "450 - LEANDRO SOUZA - OFF TRADE",
       "bonificacao": false,
       "prazo": "",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "3828",
@@ -28680,6 +32968,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "45 DIAS",
       "obs": "CRC4",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "6798",
@@ -28687,10 +32977,10 @@ const AGENDAMENTO_DATA = {
           "qt": 6,
           "preco": 197.64,
           "total": 1185.84,
-          "qt_faturada": 20.0,
-          "valor_faturado": 3952.8,
+          "qt_faturada": 30.0,
+          "valor_faturado": 5929.2,
           "status": "Faturado",
-          "nf": "7048, 7783",
+          "nf": "7783, 8157, 8158",
           "agendado": true
         },
         {
@@ -28699,10 +32989,10 @@ const AGENDAMENTO_DATA = {
           "qt": 5,
           "preco": 197.64,
           "total": 988.2,
-          "qt_faturada": 8.0,
-          "valor_faturado": 1581.12,
+          "qt_faturada": 11.0,
+          "valor_faturado": 2174.04,
           "status": "Faturado",
-          "nf": "7048, 7783",
+          "nf": "7783, 8157, 8158",
           "agendado": true
         },
         {
@@ -28711,10 +33001,10 @@ const AGENDAMENTO_DATA = {
           "qt": 120,
           "preco": 73.5,
           "total": 8820.0,
-          "qt_faturada": 348.0,
-          "valor_faturado": 25578.0,
+          "qt_faturada": 300.0,
+          "valor_faturado": 22050.0,
           "status": "Faturado",
-          "nf": "7048, 7783",
+          "nf": "7783, 8157",
           "agendado": true
         },
         {
@@ -28726,7 +33016,7 @@ const AGENDAMENTO_DATA = {
           "qt_faturada": 60.0,
           "valor_faturado": 2580.0,
           "status": "Faturado",
-          "nf": "7048, 7783",
+          "nf": "7783, 8158",
           "agendado": true
         },
         {
@@ -28735,10 +33025,10 @@ const AGENDAMENTO_DATA = {
           "qt": 36,
           "preco": 43.0,
           "total": 1548.0,
-          "qt_faturada": 120.0,
-          "valor_faturado": 5160.0,
+          "qt_faturada": 60.0,
+          "valor_faturado": 2580.0,
           "status": "Faturado",
-          "nf": "7048, 7783",
+          "nf": "7783",
           "agendado": true
         }
       ]
@@ -28752,10 +33042,12 @@ const AGENDAMENTO_DATA = {
       "razao_social": "SUPERMERCADO ZONA SUL S/A",
       "fantasia": "SUPERMERCADO ZONA SUL",
       "cnpj": "33.381.286/0001-51",
-      "rca": "Z75 - MARIA LUIZA - OFF TRADE",
+      "rca": "275 - MARIA LUIZA - OFF TRADE",
       "bonificacao": false,
       "prazo": "45 DIAS",
       "obs": "CRC4 PEDIDO N. 9309838",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "6798",
@@ -28763,10 +33055,10 @@ const AGENDAMENTO_DATA = {
           "qt": 10,
           "preco": 197.64,
           "total": 1976.4,
-          "qt_faturada": 20.0,
-          "valor_faturado": 3952.8,
+          "qt_faturada": 30.0,
+          "valor_faturado": 5929.2,
           "status": "Faturado",
-          "nf": "7048, 7783",
+          "nf": "7783, 8157, 8158",
           "agendado": true
         },
         {
@@ -28778,7 +33070,7 @@ const AGENDAMENTO_DATA = {
           "qt_faturada": 15.0,
           "valor_faturado": 2964.6,
           "status": "Faturado",
-          "nf": "7048, 7783",
+          "nf": "7783, 8157, 8158",
           "agendado": true
         },
         {
@@ -28787,10 +33079,10 @@ const AGENDAMENTO_DATA = {
           "qt": 5,
           "preco": 592.92,
           "total": 2964.6,
-          "qt_faturada": 8.0,
-          "valor_faturado": 4743.36,
+          "qt_faturada": 11.0,
+          "valor_faturado": 6522.12,
           "status": "Faturado",
-          "nf": "7048, 7783",
+          "nf": "7783, 8157, 8158",
           "agendado": true
         },
         {
@@ -28799,10 +33091,10 @@ const AGENDAMENTO_DATA = {
           "qt": 120,
           "preco": 73.5,
           "total": 8820.0,
-          "qt_faturada": 348.0,
-          "valor_faturado": 25578.0,
+          "qt_faturada": 300.0,
+          "valor_faturado": 22050.0,
           "status": "Faturado",
-          "nf": "7048, 7783",
+          "nf": "7783, 8157",
           "agendado": true
         },
         {
@@ -28814,7 +33106,7 @@ const AGENDAMENTO_DATA = {
           "qt_faturada": 60.0,
           "valor_faturado": 2940.0,
           "status": "Faturado",
-          "nf": "7048, 7783",
+          "nf": "7783, 8158",
           "agendado": true
         },
         {
@@ -28823,10 +33115,10 @@ const AGENDAMENTO_DATA = {
           "qt": 10,
           "preco": 49.0,
           "total": 490.0,
-          "qt_faturada": 120.0,
-          "valor_faturado": 5880.0,
+          "qt_faturada": 60.0,
+          "valor_faturado": 2940.0,
           "status": "Faturado",
-          "nf": "7048, 7783",
+          "nf": "7783",
           "agendado": true
         }
       ]
@@ -28844,6 +33136,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "3138",
@@ -28851,10 +33145,10 @@ const AGENDAMENTO_DATA = {
           "qt": 180,
           "preco": 111.0,
           "total": 19980.0,
-          "qt_faturada": 360.0,
-          "valor_faturado": 39960.0,
+          "qt_faturada": 180.0,
+          "valor_faturado": 19980.0,
           "status": "Faturado",
-          "nf": "6828, 7750",
+          "nf": "7750",
           "agendado": true
         }
       ]
@@ -28872,6 +33166,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "45 DIAS",
       "obs": "CRC4",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "6798",
@@ -28879,10 +33175,10 @@ const AGENDAMENTO_DATA = {
           "qt": 6,
           "preco": 197.64,
           "total": 1185.84,
-          "qt_faturada": 20.0,
-          "valor_faturado": 3952.8,
+          "qt_faturada": 30.0,
+          "valor_faturado": 5929.2,
           "status": "Faturado",
-          "nf": "7048, 7783",
+          "nf": "7783, 8157, 8158",
           "agendado": true
         },
         {
@@ -28891,10 +33187,10 @@ const AGENDAMENTO_DATA = {
           "qt": 5,
           "preco": 197.64,
           "total": 988.2,
-          "qt_faturada": 8.0,
-          "valor_faturado": 1581.12,
+          "qt_faturada": 11.0,
+          "valor_faturado": 2174.04,
           "status": "Faturado",
-          "nf": "7048, 7783",
+          "nf": "7783, 8157, 8158",
           "agendado": true
         },
         {
@@ -28903,10 +33199,10 @@ const AGENDAMENTO_DATA = {
           "qt": 120,
           "preco": 73.5,
           "total": 8820.0,
-          "qt_faturada": 348.0,
-          "valor_faturado": 25578.0,
+          "qt_faturada": 300.0,
+          "valor_faturado": 22050.0,
           "status": "Faturado",
-          "nf": "7048, 7783",
+          "nf": "7783, 8157",
           "agendado": true
         },
         {
@@ -28918,7 +33214,7 @@ const AGENDAMENTO_DATA = {
           "qt_faturada": 60.0,
           "valor_faturado": 2580.0,
           "status": "Faturado",
-          "nf": "7048, 7783",
+          "nf": "7783, 8158",
           "agendado": true
         },
         {
@@ -28927,10 +33223,10 @@ const AGENDAMENTO_DATA = {
           "qt": 36,
           "preco": 43.0,
           "total": 1548.0,
-          "qt_faturada": 120.0,
-          "valor_faturado": 5160.0,
+          "qt_faturada": 60.0,
+          "valor_faturado": 2580.0,
           "status": "Faturado",
-          "nf": "7048, 7783",
+          "nf": "7783",
           "agendado": true
         }
       ]
@@ -28948,6 +33244,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "3138",
@@ -28955,10 +33253,10 @@ const AGENDAMENTO_DATA = {
           "qt": 180,
           "preco": 111.0,
           "total": 19980.0,
-          "qt_faturada": 360.0,
-          "valor_faturado": 39960.0,
+          "qt_faturada": 180.0,
+          "valor_faturado": 19980.0,
           "status": "Faturado",
-          "nf": "6828, 7750",
+          "nf": "7750",
           "agendado": true
         }
       ]
@@ -28976,6 +33274,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "4477",
@@ -28985,7 +33285,7 @@ const AGENDAMENTO_DATA = {
           "total": 1944.0,
           "qt_faturada": 0.0,
           "valor_faturado": 0.0,
-          "status": "Pendente",
+          "status": "Cortado",
           "nf": "",
           "agendado": false
         },
@@ -28995,11 +33295,11 @@ const AGENDAMENTO_DATA = {
           "qt": 6,
           "preco": 81.0,
           "total": 486.0,
-          "qt_faturada": 0.0,
-          "valor_faturado": 0.0,
-          "status": "Pendente",
-          "nf": "",
-          "agendado": false
+          "qt_faturada": 6.0,
+          "valor_faturado": 486.0,
+          "status": "Faturado",
+          "nf": "7872",
+          "agendado": true
         },
         {
           "cod_prod": "69",
@@ -29007,11 +33307,11 @@ const AGENDAMENTO_DATA = {
           "qt": 12,
           "preco": 21.0,
           "total": 252.0,
-          "qt_faturada": 0.0,
-          "valor_faturado": 0.0,
-          "status": "Pendente",
-          "nf": "",
-          "agendado": false
+          "qt_faturada": 12.0,
+          "valor_faturado": 252.0,
+          "status": "Faturado",
+          "nf": "7872",
+          "agendado": true
         },
         {
           "cod_prod": "603",
@@ -29019,11 +33319,11 @@ const AGENDAMENTO_DATA = {
           "qt": 72,
           "preco": 157.0,
           "total": 11304.0,
-          "qt_faturada": 0.0,
-          "valor_faturado": 0.0,
-          "status": "Pendente",
-          "nf": "",
-          "agendado": false
+          "qt_faturada": 72.0,
+          "valor_faturado": 11304.0,
+          "status": "Faturado",
+          "nf": "7872",
+          "agendado": true
         }
       ]
     },
@@ -29040,6 +33340,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "6285",
@@ -29092,6 +33394,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "6285",
@@ -29132,6 +33436,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "6285",
@@ -29168,10 +33474,12 @@ const AGENDAMENTO_DATA = {
       "razao_social": "V&R MINIMERCADO PORTO DA ROCA LTDA",
       "fantasia": "GOMES SUPERMERCADOS",
       "cnpj": "46.866.453/0001-04",
-      "rca": "450 - LEANDRO PEREIRA DE SOUZA",
+      "rca": "450 - LEANDRO SOUZA - OFF TRADE",
       "bonificacao": false,
       "prazo": "",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "3828",
@@ -29328,10 +33636,12 @@ const AGENDAMENTO_DATA = {
       "razao_social": "V&J MINIMERCADO PORTO DA ROCA LTDA",
       "fantasia": "V&J MINIMERCADO PORTO DA ROCA",
       "cnpj": "18.749.311/0001-13",
-      "rca": "450 - LEANDRO PEREIRA DE SOUZA",
+      "rca": "450 - LEANDRO SOUZA - OFF TRADE",
       "bonificacao": false,
       "prazo": "",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "3828",
@@ -29396,6 +33706,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "35 DIAS",
       "obs": "nº pedido 315244",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "5585",
@@ -29436,6 +33748,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "663",
@@ -29443,10 +33757,10 @@ const AGENDAMENTO_DATA = {
           "qt": 6,
           "preco": 36.9,
           "total": 221.4,
-          "qt_faturada": 0.0,
-          "valor_faturado": 0.0,
-          "status": "Cortado",
-          "nf": "",
+          "qt_faturada": 12.0,
+          "valor_faturado": 442.8,
+          "status": "Faturado",
+          "nf": "8198",
           "agendado": false
         },
         {
@@ -29512,6 +33826,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "7081",
@@ -29588,6 +33904,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "2780",
@@ -29664,6 +33982,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "2780",
@@ -29740,6 +34060,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "7081",
@@ -29816,6 +34138,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "663",
@@ -29823,10 +34147,10 @@ const AGENDAMENTO_DATA = {
           "qt": 6,
           "preco": 36.9,
           "total": 221.4,
-          "qt_faturada": 0.0,
-          "valor_faturado": 0.0,
-          "status": "Cortado",
-          "nf": "",
+          "qt_faturada": 12.0,
+          "valor_faturado": 442.8,
+          "status": "Faturado",
+          "nf": "8198",
           "agendado": false
         },
         {
@@ -29892,6 +34216,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "28",
       "obs": "entregar no dia 18/08 com pagamento de descarga no valor R$60,00 por pallets horario das 08:00 às 14:00hr por ordem de chegada pedido 88611",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "381",
@@ -29899,11 +34225,11 @@ const AGENDAMENTO_DATA = {
           "qt": 24,
           "preco": 12.3,
           "total": 309.6,
-          "qt_faturada": 0.0,
-          "valor_faturado": 0.0,
-          "status": "Pendente",
-          "nf": "",
-          "agendado": false
+          "qt_faturada": 24.0,
+          "valor_faturado": 295.2,
+          "status": "Faturado",
+          "nf": "7828",
+          "agendado": true
         },
         {
           "cod_prod": "663",
@@ -29911,11 +34237,11 @@ const AGENDAMENTO_DATA = {
           "qt": 24,
           "preco": 36.3,
           "total": 871.8,
-          "qt_faturada": 0.0,
-          "valor_faturado": 0.0,
-          "status": "Pendente",
-          "nf": "",
-          "agendado": false
+          "qt_faturada": 22.0,
+          "valor_faturado": 798.6,
+          "status": "Parcial",
+          "nf": "7828",
+          "agendado": true
         },
         {
           "cod_prod": "271",
@@ -29925,7 +34251,7 @@ const AGENDAMENTO_DATA = {
           "total": 435.6,
           "qt_faturada": 0.0,
           "valor_faturado": 0.0,
-          "status": "Pendente",
+          "status": "Cortado",
           "nf": "",
           "agendado": false
         },
@@ -29935,11 +34261,11 @@ const AGENDAMENTO_DATA = {
           "qt": 36,
           "preco": 11.3,
           "total": 428.4,
-          "qt_faturada": 0.0,
-          "valor_faturado": 0.0,
-          "status": "Pendente",
-          "nf": "",
-          "agendado": false
+          "qt_faturada": 36.0,
+          "valor_faturado": 406.8,
+          "status": "Faturado",
+          "nf": "7828",
+          "agendado": true
         }
       ]
     },
@@ -29952,10 +34278,12 @@ const AGENDAMENTO_DATA = {
       "razao_social": "SUPERMERCADO ULTRA 12 LTDA",
       "fantasia": "SUPERMERCADO ULTRA 12",
       "cnpj": "05.669.831/0001-74",
-      "rca": "471 - ANA CLARA",
+      "rca": "471 - ANA CLARA FASSANO - OFF TRADE",
       "bonificacao": false,
       "prazo": "",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "71",
@@ -29984,6 +34312,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "35 DIAS",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "3451",
@@ -29995,7 +34325,7 @@ const AGENDAMENTO_DATA = {
           "valor_faturado": 8748.0,
           "status": "Faturado",
           "nf": "7784",
-          "agendado": false
+          "agendado": true
         }
       ]
     },
@@ -30012,6 +34342,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "28 DIAS",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "272",
@@ -30040,6 +34372,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "3826",
@@ -30068,6 +34402,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "6259",
@@ -30079,7 +34415,7 @@ const AGENDAMENTO_DATA = {
           "valor_faturado": 258.84,
           "status": "Faturado",
           "nf": "7758",
-          "agendado": false
+          "agendado": true
         }
       ]
     },
@@ -30096,6 +34432,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "28 DIAS",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "272",
@@ -30124,6 +34462,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "3826",
@@ -30152,6 +34492,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "6259",
@@ -30163,13 +34505,85 @@ const AGENDAMENTO_DATA = {
           "valor_faturado": 258.84,
           "status": "Faturado",
           "nf": "7758",
+          "agendado": true
+        }
+      ]
+    },
+    {
+      "msg_id": "1a0018d341d87e2b",
+      "subject": "Fwd: PEDIDO DO MERCADO (9604 ) DA REDE PADRAO DO FONSECA",
+      "data_email": "2026-08-14",
+      "sistema": "CRC - 04",
+      "cod_cliente": "9604",
+      "razao_social": "SUPERMERCADO PADRAO DO FONSECA EIRELI",
+      "fantasia": "SUPERMARKET FONSECA - PIRATININGA",
+      "cnpj": "08.628.825/0003-29",
+      "rca": "450 - LEANDRO SOUZA - OFF TRADE",
+      "bonificacao": false,
+      "prazo": "",
+      "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
+      "itens": [
+        {
+          "cod_prod": "3828",
+          "descricao": "LATITUD 33 CABERNET SAUVIGNON",
+          "qt": 6,
+          "preco": 35.0,
+          "total": 210.0,
+          "qt_faturada": 6.0,
+          "valor_faturado": 210.0,
+          "status": "Faturado",
+          "nf": "7728",
+          "agendado": true
+        },
+        {
+          "cod_prod": "3827",
+          "descricao": "VINHO LATITUD 33 MALBEC 750 ML",
+          "qt": 12,
+          "preco": 35.0,
+          "total": 420.0,
+          "qt_faturada": 12.0,
+          "valor_faturado": 420.0,
+          "status": "Faturado",
+          "nf": "7728",
+          "agendado": true
+        }
+      ]
+    },
+    {
+      "msg_id": "1a0018d341d87e2b",
+      "subject": "Fwd: PEDIDO DO MERCADO (9604 ) DA REDE PADRAO DO FONSECA",
+      "data_email": "2026-08-14",
+      "sistema": "CRC - 04",
+      "cod_cliente": "9604",
+      "razao_social": "SUPERMERCADO PADRAO DO FONSECA EIRELI",
+      "fantasia": "SUPERMARKET FONSECA - PIRATININGA",
+      "cnpj": "08.628.825/0003-29",
+      "rca": "450 - LEANDRO SOUZA - OFF TRADE",
+      "bonificacao": false,
+      "prazo": "",
+      "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
+      "itens": [
+        {
+          "cod_prod": "6256",
+          "descricao": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+          "qt": 3,
+          "preco": 86.28,
+          "total": 258.84,
+          "qt_faturada": 5.0,
+          "valor_faturado": 431.4,
+          "status": "Faturado",
+          "nf": "8196",
           "agendado": false
         }
       ]
     },
     {
-      "msg_id": "1a0018d341d87e2b",
-      "subject": "Fwd: PEDIDO DO MERCADO (9604 ) DA REDE PADRAO DO FONSECA",
+      "msg_id": "1a0018c713760ab0",
+      "subject": "Re: PEDIDO DO MERCADO (9604 ) DA REDE PADRAO DO FONSECA",
       "data_email": "2026-08-14",
       "sistema": "CRC - 04",
       "cod_cliente": "9604",
@@ -30180,6 +34594,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "3828",
@@ -30199,38 +34615,10 @@ const AGENDAMENTO_DATA = {
           "qt": 12,
           "preco": 35.0,
           "total": 420.0,
-          "qt_faturada": 18.0,
-          "valor_faturado": 630.0,
+          "qt_faturada": 12.0,
+          "valor_faturado": 420.0,
           "status": "Faturado",
-          "nf": "7431, 7728",
-          "agendado": true
-        }
-      ]
-    },
-    {
-      "msg_id": "1a0018d341d87e2b",
-      "subject": "Fwd: PEDIDO DO MERCADO (9604 ) DA REDE PADRAO DO FONSECA",
-      "data_email": "2026-08-14",
-      "sistema": "CRC - 04",
-      "cod_cliente": "9604",
-      "razao_social": "SUPERMERCADO PADRAO DO FONSECA EIRELI",
-      "fantasia": "SUPERMARKET FONSECA - PIRATININGA",
-      "cnpj": "08.628.825/0003-29",
-      "rca": "450 - LEANDRO SOUZA - OFF TRADE",
-      "bonificacao": false,
-      "prazo": "",
-      "obs": "",
-      "itens": [
-        {
-          "cod_prod": "6256",
-          "descricao": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
-          "qt": 3,
-          "preco": 86.28,
-          "total": 258.84,
-          "qt_faturada": 5.0,
-          "valor_faturado": 431.4,
-          "status": "Faturado",
-          "nf": "6830",
+          "nf": "7728",
           "agendado": true
         }
       ]
@@ -30248,6 +34636,38 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
+      "itens": [
+        {
+          "cod_prod": "6256",
+          "descricao": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
+          "qt": 3,
+          "preco": 86.28,
+          "total": 258.84,
+          "qt_faturada": 5.0,
+          "valor_faturado": 431.4,
+          "status": "Faturado",
+          "nf": "8196",
+          "agendado": false
+        }
+      ]
+    },
+    {
+      "msg_id": "1a001807a294e00f",
+      "subject": "PEDIDO DO MERCADO (9604 ) DA REDE PADRAO DO FONSECA",
+      "data_email": "2026-08-14",
+      "sistema": "CRC - 04",
+      "cod_cliente": "9604",
+      "razao_social": "SUPERMERCADO PADRAO DO FONSECA EIRELI",
+      "fantasia": "SUPERMARKET FONSECA - PIRATININGA",
+      "cnpj": "08.628.825/0003-29",
+      "rca": "450 - LEANDRO SOUZA - OFF TRADE",
+      "bonificacao": false,
+      "prazo": "",
+      "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "3828",
@@ -30267,79 +34687,11 @@ const AGENDAMENTO_DATA = {
           "qt": 12,
           "preco": 35.0,
           "total": 420.0,
-          "qt_faturada": 18.0,
-          "valor_faturado": 630.0,
-          "status": "Faturado",
-          "nf": "7431, 7728",
-          "agendado": true
-        }
-      ]
-    },
-    {
-      "msg_id": "1a0018c713760ab0",
-      "subject": "Re: PEDIDO DO MERCADO (9604 ) DA REDE PADRAO DO FONSECA",
-      "data_email": "2026-08-14",
-      "sistema": "CRC - 04",
-      "cod_cliente": "9604",
-      "razao_social": "SUPERMERCADO PADRAO DO FONSECA EIRELI",
-      "fantasia": "SUPERMARKET FONSECA - PIRATININGA",
-      "cnpj": "08.628.825/0003-29",
-      "rca": "450 - LEANDRO SOUZA - OFF TRADE",
-      "bonificacao": false,
-      "prazo": "",
-      "obs": "",
-      "itens": [
-        {
-          "cod_prod": "6256",
-          "descricao": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
-          "qt": 3,
-          "preco": 86.28,
-          "total": 258.84,
-          "qt_faturada": 5.0,
-          "valor_faturado": 431.4,
-          "status": "Faturado",
-          "nf": "6830",
-          "agendado": true
-        }
-      ]
-    },
-    {
-      "msg_id": "1a001807a294e00f",
-      "subject": "PEDIDO DO MERCADO (9604 ) DA REDE PADRAO DO FONSECA",
-      "data_email": "2026-08-14",
-      "sistema": "CRC - 04",
-      "cod_cliente": "9604",
-      "razao_social": "SUPERMERCADO PADRAO DO FONSECA EIRELI",
-      "fantasia": "SUPERMARKET FONSECA - PIRATININGA",
-      "cnpj": "08.628.825/0003-29",
-      "rca": "450 - LEANDRO SOUZA - OFF TRADE",
-      "bonificacao": false,
-      "prazo": "",
-      "obs": "",
-      "itens": [
-        {
-          "cod_prod": "3828",
-          "descricao": "LATITUD 33 CABERNET SAUVIGNON",
-          "qt": 6,
-          "preco": 35.0,
-          "total": 210.0,
-          "qt_faturada": 6.0,
-          "valor_faturado": 210.0,
+          "qt_faturada": 12.0,
+          "valor_faturado": 420.0,
           "status": "Faturado",
           "nf": "7728",
           "agendado": true
-        },
-        {
-          "cod_prod": "3827",
-          "descricao": "VINHO LATITUD 33 MALBEC 750 ML",
-          "qt": 12,
-          "preco": 35.0,
-          "total": 420.0,
-          "qt_faturada": 18.0,
-          "valor_faturado": 630.0,
-          "status": "Faturado",
-          "nf": "7431, 7728",
-          "agendado": true
         }
       ]
     },
@@ -30356,6 +34708,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "6256",
@@ -30366,8 +34720,8 @@ const AGENDAMENTO_DATA = {
           "qt_faturada": 5.0,
           "valor_faturado": 431.4,
           "status": "Faturado",
-          "nf": "6830",
-          "agendado": true
+          "nf": "8196",
+          "agendado": false
         }
       ]
     },
@@ -30384,6 +34738,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "1518",
@@ -30448,6 +34804,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "4477",
@@ -30455,10 +34813,10 @@ const AGENDAMENTO_DATA = {
           "qt": 180,
           "preco": 78.9,
           "total": 14202.0,
-          "qt_faturada": 204.0,
-          "valor_faturado": 16095.6,
+          "qt_faturada": 180.0,
+          "valor_faturado": 14202.0,
           "status": "Faturado",
-          "nf": "6943, 7698, 7727",
+          "nf": "7727",
           "agendado": true
         }
       ]
@@ -30476,6 +34834,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "4477",
@@ -30483,10 +34843,10 @@ const AGENDAMENTO_DATA = {
           "qt": 180,
           "preco": 78.9,
           "total": 14202.0,
-          "qt_faturada": 204.0,
-          "valor_faturado": 16095.6,
+          "qt_faturada": 180.0,
+          "valor_faturado": 14202.0,
           "status": "Faturado",
-          "nf": "6943, 7698, 7727",
+          "nf": "7727",
           "agendado": true
         }
       ]
@@ -30504,6 +34864,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "603",
@@ -30523,10 +34885,10 @@ const AGENDAMENTO_DATA = {
           "qt": 12,
           "preco": 35.0,
           "total": 420.0,
-          "qt_faturada": 12.0,
-          "valor_faturado": 420.0,
+          "qt_faturada": 24.0,
+          "valor_faturado": 840.0,
           "status": "Faturado",
-          "nf": "7714",
+          "nf": "7714, 7957",
           "agendado": true
         }
       ]
@@ -30544,6 +34906,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "603",
@@ -30563,10 +34927,10 @@ const AGENDAMENTO_DATA = {
           "qt": 12,
           "preco": 35.0,
           "total": 420.0,
-          "qt_faturada": 12.0,
-          "valor_faturado": 420.0,
+          "qt_faturada": 24.0,
+          "valor_faturado": 840.0,
           "status": "Faturado",
-          "nf": "7714",
+          "nf": "7714, 7957",
           "agendado": true
         }
       ]
@@ -30584,6 +34948,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "603",
@@ -30624,6 +34990,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "603",
@@ -30664,6 +35032,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "16",
@@ -30743,10 +35113,10 @@ const AGENDAMENTO_DATA = {
           "qt": 12,
           "preco": 79.9,
           "total": 958.8,
-          "qt_faturada": 204.0,
-          "valor_faturado": 16299.6,
+          "qt_faturada": 192.0,
+          "valor_faturado": 15340.8,
           "status": "Faturado",
-          "nf": "6943, 7698, 7727",
+          "nf": "7698, 7727",
           "agendado": true
         },
         {
@@ -30776,6 +35146,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "484",
@@ -30848,10 +35220,12 @@ const AGENDAMENTO_DATA = {
       "razao_social": "L DO ROSARIO COELHO DEPOSITO DE BEBIDAS",
       "fantasia": "MERCADO DAS BEBIDAS",
       "cnpj": "26.533.534/0001-77",
-      "rca": "144 - DIOGO RAPOSO",
+      "rca": "144 - DIOGO RAPOSO - OFF TRADE",
       "bonificacao": false,
       "prazo": "",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "313",
@@ -30928,6 +35302,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "484",
@@ -31004,6 +35380,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "1518",
@@ -31068,6 +35446,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "479",
@@ -31096,6 +35476,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "71",
@@ -31103,11 +35485,11 @@ const AGENDAMENTO_DATA = {
           "qt": 24,
           "preco": 11.1,
           "total": 266.4,
-          "qt_faturada": 24.0,
-          "valor_faturado": 266.4,
-          "status": "Faturado",
-          "nf": "7254",
-          "agendado": true
+          "qt_faturada": 0.0,
+          "valor_faturado": 0.0,
+          "status": "Pendente",
+          "nf": "",
+          "agendado": false
         }
       ]
     },
@@ -31124,6 +35506,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "71",
@@ -31131,11 +35515,11 @@ const AGENDAMENTO_DATA = {
           "qt": 24,
           "preco": 11.1,
           "total": 266.4,
-          "qt_faturada": 24.0,
-          "valor_faturado": 266.4,
-          "status": "Faturado",
-          "nf": "7254",
-          "agendado": true
+          "qt_faturada": 0.0,
+          "valor_faturado": 0.0,
+          "status": "Pendente",
+          "nf": "",
+          "agendado": false
         }
       ]
     },
@@ -31152,6 +35536,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "663",
@@ -31228,6 +35614,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "484",
@@ -31235,11 +35623,11 @@ const AGENDAMENTO_DATA = {
           "qt": 12,
           "preco": 94.0,
           "total": 1128.0,
-          "qt_faturada": 12.0,
-          "valor_faturado": 1128.0,
-          "status": "Faturado",
-          "nf": "6760",
-          "agendado": true
+          "qt_faturada": 0.0,
+          "valor_faturado": 0.0,
+          "status": "Cortado",
+          "nf": "",
+          "agendado": false
         },
         {
           "cod_prod": "3151",
@@ -31352,6 +35740,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "484",
@@ -31476,6 +35866,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "484",
@@ -31483,11 +35875,11 @@ const AGENDAMENTO_DATA = {
           "qt": 12,
           "preco": 94.0,
           "total": 1128.0,
-          "qt_faturada": 12.0,
-          "valor_faturado": 1128.0,
-          "status": "Faturado",
-          "nf": "6760",
-          "agendado": true
+          "qt_faturada": 0.0,
+          "valor_faturado": 0.0,
+          "status": "Cortado",
+          "nf": "",
+          "agendado": false
         },
         {
           "cod_prod": "3151",
@@ -31600,6 +35992,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "484",
@@ -31724,6 +36118,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "2320",
@@ -31796,10 +36192,12 @@ const AGENDAMENTO_DATA = {
       "razao_social": "MINI MERCADO CORREIO DO POVO LTDA",
       "fantasia": "MERCADO SMART",
       "cnpj": "04.213.151/0001-89",
-      "rca": "144 DIOGO RAPOSO",
+      "rca": "144 - DIOGO RAPOSO - OFF TRADE",
       "bonificacao": false,
       "prazo": "",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "381",
@@ -31860,10 +36258,12 @@ const AGENDAMENTO_DATA = {
       "razao_social": "MERCADO RIO SUL PARADA ANGELICA LTDA",
       "fantasia": "MERCADO RIO SUL DE PARADA ANGELICA",
       "cnpj": "33.475.000/0001-05",
-      "rca": "153 - ANGEL NEVES SUZART - OFF TRADE",
+      "rca": "153 - ANGELO NEVES SUZART - OFF TRADE",
       "bonificacao": false,
       "prazo": "28",
       "obs": "entregar no dia 06/08  com pagamento de descarga no valor de R$60,00 por pallets horario das 08:00 as 15:00hr por ordem de chegada",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "4009",
@@ -31916,6 +36316,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "4009",
@@ -31968,6 +36370,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": true,
       "prazo": "",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "6257",
@@ -31975,10 +36379,10 @@ const AGENDAMENTO_DATA = {
           "qt": 3,
           "preco": 86.28,
           "total": 258.84,
-          "qt_faturada": 5.0,
-          "valor_faturado": 431.4,
+          "qt_faturada": 7.0,
+          "valor_faturado": 603.96,
           "status": "Faturado",
-          "nf": "6881, 7302",
+          "nf": "7302, 8205",
           "agendado": true
         },
         {
@@ -31987,10 +36391,10 @@ const AGENDAMENTO_DATA = {
           "qt": 3,
           "preco": 86.28,
           "total": 258.84,
-          "qt_faturada": 5.0,
-          "valor_faturado": 431.4,
+          "qt_faturada": 3.0,
+          "valor_faturado": 258.84,
           "status": "Faturado",
-          "nf": "6881, 7302",
+          "nf": "7302",
           "agendado": true
         },
         {
@@ -32002,8 +36406,8 @@ const AGENDAMENTO_DATA = {
           "qt_faturada": 5.0,
           "valor_faturado": 431.4,
           "status": "Faturado",
-          "nf": "6881",
-          "agendado": true
+          "nf": "8205",
+          "agendado": false
         },
         {
           "cod_prod": "6334",
@@ -32011,11 +36415,11 @@ const AGENDAMENTO_DATA = {
           "qt": 2,
           "preco": 155.28,
           "total": 310.56,
-          "qt_faturada": 1.0,
-          "valor_faturado": 155.28,
-          "status": "Parcial",
-          "nf": "6881",
-          "agendado": true
+          "qt_faturada": 2.0,
+          "valor_faturado": 310.56,
+          "status": "Faturado",
+          "nf": "8205",
+          "agendado": false
         },
         {
           "cod_prod": "6254",
@@ -32023,10 +36427,10 @@ const AGENDAMENTO_DATA = {
           "qt": 2,
           "preco": 155.28,
           "total": 310.56,
-          "qt_faturada": 0.0,
-          "valor_faturado": 0.0,
-          "status": "Cortado",
-          "nf": "",
+          "qt_faturada": 1.0,
+          "valor_faturado": 155.28,
+          "status": "Parcial",
+          "nf": "8205",
           "agendado": false
         }
       ]
@@ -32040,10 +36444,12 @@ const AGENDAMENTO_DATA = {
       "razao_social": "IMBATIVEL SUPERMERCADOS LTDA",
       "fantasia": "IMBATIVEL SUPERMERCADOS - PIRATININGA",
       "cnpj": "28.480.886/0001-37",
-      "rca": "450 - LEANDRO PEREIRA - OFF TRADE",
+      "rca": "450 - LEANDRO SOUZA - OFF TRADE",
       "bonificacao": false,
       "prazo": "",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "3828",
@@ -32108,6 +36514,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "71",
@@ -32136,6 +36544,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "18",
@@ -32164,6 +36574,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "",
       "obs": "7 14 21 DIAS",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "70",
@@ -32192,6 +36604,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "",
       "obs": "7 14 21 DIAS",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "70",
@@ -32220,6 +36634,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "178",
@@ -32296,6 +36712,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": true,
       "prazo": "",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "2614",
@@ -32324,6 +36742,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "2848",
@@ -32400,6 +36820,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "35",
       "obs": "entregar no dia 04/08 com pagamento de descarga no valor de R$60,00 por pallets horario das 08:00 as 15:00hr por ordem de chegada",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "178",
@@ -32524,6 +36946,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "35",
       "obs": "entregar no dia 05/08 com pagamento de descarga no valor de R$60,00 por pallets horario das 08:00h às 15:00h por ordem de chegada",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "2843",
@@ -32612,6 +37036,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": true,
       "prazo": "",
       "obs": "entregar no dia 05/08 com pagamento de descarga no valor de R$60,00 por pallets horario das 08:00 às 15:00hor por ordem de chegada",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "2614",
@@ -32640,6 +37066,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "663",
@@ -32704,6 +37132,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": true,
       "prazo": "",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "2613",
@@ -32744,6 +37174,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": true,
       "prazo": "",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "2613",
@@ -32784,6 +37216,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": true,
       "prazo": "",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "2613",
@@ -32820,10 +37254,12 @@ const AGENDAMENTO_DATA = {
       "razao_social": "MORAES E CIA COMERCIO DE BEBIDAS E ALIMENTOS LTDA",
       "fantasia": "ATACADO DAS BEBIDAS",
       "cnpj": "24.305.769/0001-86",
-      "rca": "450 - LEANDRO PEREIRA DE SOUZA",
+      "rca": "450 - LEANDRO SOUZA - OFF TRADE",
       "bonificacao": false,
       "prazo": "14",
       "obs": "FATURAR COM CREDITO 27%",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "3767",
@@ -32884,10 +37320,12 @@ const AGENDAMENTO_DATA = {
       "razao_social": "MORAES E CIA COMERCIO DE BEBIDAS E ALIMENTOS LTDA",
       "fantasia": "ATACADAO DAS BEBIDAS",
       "cnpj": "24.305.769/0001-86",
-      "rca": "450 - LEANDRO PEREIRA DE SOUZA",
+      "rca": "450 - LEANDRO SOUZA - OFF TRADE",
       "bonificacao": false,
       "prazo": "",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "3767",
@@ -32952,6 +37390,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "28/35/42",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "3352",
@@ -33000,10 +37440,12 @@ const AGENDAMENTO_DATA = {
       "razao_social": "ANB DISTRIBUIDORA DE ALIMENTOS E BEBIDAS LTDA",
       "fantasia": "ANB DISTRIBUIDORA DE ALIMENTOS E BEBIDAS",
       "cnpj": "49.306.432/0001-14",
-      "rca": "158 - Não",
+      "rca": "158 - JOSE MARCELO CARDOSO - OFF TRADE",
       "bonificacao": false,
       "prazo": "28/35/42",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "3352",
@@ -33044,6 +37486,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "28 DIAS",
       "obs": "ENTREGAR PELA MANHÃ",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "3814",
@@ -33072,6 +37516,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "28 DIAS",
       "obs": "ENTREGAR PELA MANHÃ",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "3814",
@@ -33112,6 +37558,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "28 DIAS",
       "obs": "ENTREGAR PELA MANHÃ",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "7106",
@@ -33148,10 +37596,12 @@ const AGENDAMENTO_DATA = {
       "razao_social": "EMANUEL COMERCIO DE GENEROS ALIMENTICIOS",
       "fantasia": "REDE ECONOMIA PEDRA DE GUARATIBA",
       "cnpj": "10.748.214/0001-02",
-      "rca": "419 - NÁTAL OLIVEIRA - OFF TRADE",
+      "rca": "419 - NÁTALI DE OLIVEIRA - OFF TRADE",
       "bonificacao": false,
       "prazo": "28 DIAS",
       "obs": "Entregar pela manhã",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "3814",
@@ -33192,6 +37642,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "28 DIAS",
       "obs": "Entregar pela manhã",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "3814",
@@ -33220,6 +37672,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "28 DIAS",
       "obs": "Entregar pela manhã",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "3814",
@@ -33248,6 +37702,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "28 DIAS",
       "obs": "ENTREGAR PELA MANHÃ",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "663",
@@ -33284,10 +37740,12 @@ const AGENDAMENTO_DATA = {
       "razao_social": "MERCADO VALE VERDE DE PACIENCIA LTDA",
       "fantasia": "MERCADO VALE VERDE DE PACIENCIA LTDA",
       "cnpj": "28.423.936/0001-44",
-      "rca": "419 - NÁTAL DE OLIVEIRA - OFF TRADE",
+      "rca": "419 - NÁTALI DE OLIVEIRA - OFF TRADE",
       "bonificacao": false,
       "prazo": "28 DIAS",
       "obs": "entregar imediato",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "4570",
@@ -33295,10 +37753,10 @@ const AGENDAMENTO_DATA = {
           "qt": 6,
           "preco": 29.9,
           "total": 179.4,
-          "qt_faturada": 6.0,
-          "valor_faturado": 179.4,
+          "qt_faturada": 12.0,
+          "valor_faturado": 358.8,
           "status": "Faturado",
-          "nf": "7101",
+          "nf": "7101, 8203",
           "agendado": true
         },
         {
@@ -33319,10 +37777,10 @@ const AGENDAMENTO_DATA = {
           "qt": 6,
           "preco": 36.9,
           "total": 221.4,
-          "qt_faturada": 6.0,
-          "valor_faturado": 221.4,
+          "qt_faturada": 12.0,
+          "valor_faturado": 442.8,
           "status": "Faturado",
-          "nf": "7101",
+          "nf": "7101, 8203",
           "agendado": true
         },
         {
@@ -33343,10 +37801,10 @@ const AGENDAMENTO_DATA = {
           "qt": 6,
           "preco": 63.9,
           "total": 383.4,
-          "qt_faturada": 6.0,
-          "valor_faturado": 383.4,
+          "qt_faturada": 12.0,
+          "valor_faturado": 766.8,
           "status": "Faturado",
-          "nf": "7101",
+          "nf": "7101, 8203",
           "agendado": true
         },
         {
@@ -33355,10 +37813,10 @@ const AGENDAMENTO_DATA = {
           "qt": 6,
           "preco": 63.9,
           "total": 383.4,
-          "qt_faturada": 12.0,
-          "valor_faturado": 766.8,
+          "qt_faturada": 24.0,
+          "valor_faturado": 1533.6,
           "status": "Faturado",
-          "nf": "7101",
+          "nf": "7101, 8203",
           "agendado": true
         },
         {
@@ -33367,10 +37825,10 @@ const AGENDAMENTO_DATA = {
           "qt": 6,
           "preco": 63.9,
           "total": 383.4,
-          "qt_faturada": 6.0,
-          "valor_faturado": 383.4,
+          "qt_faturada": 12.0,
+          "valor_faturado": 766.8,
           "status": "Faturado",
-          "nf": "7101",
+          "nf": "7101, 8203",
           "agendado": true
         },
         {
@@ -33379,10 +37837,10 @@ const AGENDAMENTO_DATA = {
           "qt": 6,
           "preco": 31.9,
           "total": 191.4,
-          "qt_faturada": 6.0,
-          "valor_faturado": 191.4,
+          "qt_faturada": 12.0,
+          "valor_faturado": 382.8,
           "status": "Faturado",
-          "nf": "7101",
+          "nf": "7101, 8203",
           "agendado": true
         },
         {
@@ -33391,10 +37849,10 @@ const AGENDAMENTO_DATA = {
           "qt": 6,
           "preco": 24.9,
           "total": 149.4,
-          "qt_faturada": 6.0,
-          "valor_faturado": 149.4,
+          "qt_faturada": 12.0,
+          "valor_faturado": 298.8,
           "status": "Faturado",
-          "nf": "7101",
+          "nf": "7101, 8203",
           "agendado": true
         },
         {
@@ -33403,10 +37861,10 @@ const AGENDAMENTO_DATA = {
           "qt": 6,
           "preco": 24.9,
           "total": 149.4,
-          "qt_faturada": 6.0,
-          "valor_faturado": 149.4,
+          "qt_faturada": 12.0,
+          "valor_faturado": 298.8,
           "status": "Faturado",
-          "nf": "7101",
+          "nf": "7101, 8203",
           "agendado": true
         },
         {
@@ -33436,6 +37894,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "28 /35DIAS",
       "obs": "entregar de imediato",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "4571",
@@ -33443,11 +37903,11 @@ const AGENDAMENTO_DATA = {
           "qt": 6,
           "preco": 29.9,
           "total": 179.4,
-          "qt_faturada": 6.0,
-          "valor_faturado": 179.4,
-          "status": "Faturado",
-          "nf": "7100",
-          "agendado": true
+          "qt_faturada": 0.0,
+          "valor_faturado": 0.0,
+          "status": "Pendente",
+          "nf": "",
+          "agendado": false
         },
         {
           "cod_prod": "4569",
@@ -33455,11 +37915,11 @@ const AGENDAMENTO_DATA = {
           "qt": 6,
           "preco": 29.9,
           "total": 179.4,
-          "qt_faturada": 6.0,
-          "valor_faturado": 179.4,
-          "status": "Faturado",
-          "nf": "7100",
-          "agendado": true
+          "qt_faturada": 0.0,
+          "valor_faturado": 0.0,
+          "status": "Pendente",
+          "nf": "",
+          "agendado": false
         },
         {
           "cod_prod": "2927",
@@ -33467,11 +37927,11 @@ const AGENDAMENTO_DATA = {
           "qt": 12,
           "preco": 31.99,
           "total": 383.88,
-          "qt_faturada": 12.0,
-          "valor_faturado": 383.88,
-          "status": "Faturado",
-          "nf": "7100",
-          "agendado": true
+          "qt_faturada": 0.0,
+          "valor_faturado": 0.0,
+          "status": "Pendente",
+          "nf": "",
+          "agendado": false
         },
         {
           "cod_prod": "2614",
@@ -33479,11 +37939,11 @@ const AGENDAMENTO_DATA = {
           "qt": 6,
           "preco": 24.9,
           "total": 149.4,
-          "qt_faturada": 6.0,
-          "valor_faturado": 149.4,
-          "status": "Faturado",
-          "nf": "7100",
-          "agendado": true
+          "qt_faturada": 0.0,
+          "valor_faturado": 0.0,
+          "status": "Pendente",
+          "nf": "",
+          "agendado": false
         },
         {
           "cod_prod": "2703",
@@ -33491,11 +37951,11 @@ const AGENDAMENTO_DATA = {
           "qt": 6,
           "preco": 24.9,
           "total": 149.4,
-          "qt_faturada": 6.0,
-          "valor_faturado": 149.4,
-          "status": "Faturado",
-          "nf": "7100",
-          "agendado": true
+          "qt_faturada": 0.0,
+          "valor_faturado": 0.0,
+          "status": "Pendente",
+          "nf": "",
+          "agendado": false
         },
         {
           "cod_prod": "4068",
@@ -33503,11 +37963,11 @@ const AGENDAMENTO_DATA = {
           "qt": 6,
           "preco": 24.9,
           "total": 149.4,
-          "qt_faturada": 6.0,
-          "valor_faturado": 149.4,
-          "status": "Faturado",
-          "nf": "7100",
-          "agendado": true
+          "qt_faturada": 0.0,
+          "valor_faturado": 0.0,
+          "status": "Pendente",
+          "nf": "",
+          "agendado": false
         }
       ]
     },
@@ -33520,10 +37980,12 @@ const AGENDAMENTO_DATA = {
       "razao_social": "MERCADO ITAGIBA DE COSMOS LTDA",
       "fantasia": "MERCADO ITAGIBA DE COSMOS",
       "cnpj": "28.400.784/0001-64",
-      "rca": "419 - NÁTAL DE OLIVEIRA - OFF TRADE",
+      "rca": "419 - NÁTALI DE OLIVEIRA - OFF TRADE",
       "bonificacao": false,
       "prazo": "28 /35 Dias",
       "obs": "entregar na parte da manhã ate 12h",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "4574",
@@ -33668,10 +38130,12 @@ const AGENDAMENTO_DATA = {
       "razao_social": "MERCADO SC RECREIO LTDA",
       "fantasia": "MERCADO SC RECREIO",
       "cnpj": "54.652.945/0001-17",
-      "rca": "419 - NÁTALIO DE OLIVEIRA - OFF TRADE",
+      "rca": "419 - NÁTALI DE OLIVEIRA - OFF TRADE",
       "bonificacao": false,
       "prazo": "28 /35DIAS",
       "obs": "entregar de imediato",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "4570",
@@ -33828,10 +38292,12 @@ const AGENDAMENTO_DATA = {
       "razao_social": "MERCADO SUPER COMPRAS DE NOVA SEPETIBA LTDA",
       "fantasia": "MERCADO SUPER COMPRAS DE NOVA SEPETIBA L",
       "cnpj": "25.421.921/0001-59",
-      "rca": "419 - NÁTALI FONTES",
+      "rca": "419 - NÁTALI DE OLIVEIRA - OFF TRADE",
       "bonificacao": false,
       "prazo": "28 /35DIAS",
       "obs": "ENTREGAR PELA MANHÃ A PARTIR DAS 8H",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "4571",
@@ -33904,10 +38370,12 @@ const AGENDAMENTO_DATA = {
       "razao_social": "SUPERMERCADO BIG FIELD LTDA",
       "fantasia": "SUPERMERCADO BIG FIELD",
       "cnpj": "40.138.736/0001-45",
-      "rca": "RCA: 419 NÁTAL FONTES",
+      "rca": "419 - NÁTALI DE OLIVEIRA - OFF TRADE",
       "bonificacao": false,
       "prazo": "28/35 DIAS",
       "obs": "entregar digitado",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "4570",
@@ -34056,6 +38524,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "28 DIAS",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "3368",
@@ -34152,10 +38622,12 @@ const AGENDAMENTO_DATA = {
       "razao_social": "ATLANTICO MERCEARIA E CONFEITARIA LTDA",
       "fantasia": "ATLANTICO MERCEARIA E CONFEITARIA",
       "cnpj": "20.332.684/0001-36",
-      "rca": "144- DIOGO RAPOSO",
+      "rca": "144 - DIOGO RAPOSO - OFF TRADE",
       "bonificacao": false,
       "prazo": "",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "2089",
@@ -34208,6 +38680,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "28 DIAS",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "3368",
@@ -34304,10 +38778,12 @@ const AGENDAMENTO_DATA = {
       "razao_social": "ANB DISTRIBUIDORA DE ALIMENTOS E BEBIDAS LTDA",
       "fantasia": "ANB DISTRIBUIDORA DE ALIMENTOS E BEBIDAS",
       "cnpj": "49.306.432/0001-14",
-      "rca": "158 - Não",
+      "rca": "158 - JOSE MARCELO CARDOSO - OFF TRADE",
       "bonificacao": false,
       "prazo": "28/35/42",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "3430",
@@ -34384,6 +38860,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "28/35/42",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "3430",
@@ -34460,6 +38938,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "28 DIAS",
       "obs": "Urgência !! Primeiro horário as 8h",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "7106",
@@ -34496,10 +38976,12 @@ const AGENDAMENTO_DATA = {
       "razao_social": "ATLANTICO MERCEARIA E CONFEITARIA LTDA",
       "fantasia": "ATLANTICO MERCEARIA E CONFEITARIA",
       "cnpj": "20.332.684/0001-36",
-      "rca": "144- DIOGO RAPOSO",
+      "rca": "144 - DIOGO RAPOSO - OFF TRADE",
       "bonificacao": false,
       "prazo": "28 DIAS",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "2089",
@@ -34552,6 +39034,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "28 DIAS",
       "obs": "ENTREGAR PELA MANHÃ",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "3814",
@@ -34580,6 +39064,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "28 DIAS",
       "obs": "ENTREGAR PELA MANHÃ",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "3814",
@@ -34620,6 +39106,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "28 DIAS",
       "obs": "ENTREGAR PELA MANHÃ",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "7106",
@@ -34656,10 +39144,12 @@ const AGENDAMENTO_DATA = {
       "razao_social": "EMANUEL COMERCIO DE GENEROS ALIMENTICIOS",
       "fantasia": "REDE ECONOMIA PEDRA DE GUARATIBA",
       "cnpj": "10.748.214/0001-02",
-      "rca": "419 - NÁTAL OLIVEIRA - OFF TRADE",
+      "rca": "419 - NÁTALI DE OLIVEIRA - OFF TRADE",
       "bonificacao": false,
       "prazo": "28 DIAS",
       "obs": "Entregar pela manhã",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "3814",
@@ -34700,6 +39190,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "28 DIAS",
       "obs": "Entregar pela manhã",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "3814",
@@ -34728,6 +39220,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "28 DIAS",
       "obs": "Entregar pela manhã",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "3814",
@@ -34756,6 +39250,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "28 DIAS",
       "obs": "ENTREGAR PELA MANHÃ",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "663",
@@ -34792,10 +39288,12 @@ const AGENDAMENTO_DATA = {
       "razao_social": "TOP MIX ATACAREJO EIRELI",
       "fantasia": "SUPER ATACADAO - INOA",
       "cnpj": "34.747.967/0001-53",
-      "rca": "450 - Leandro Pereira",
+      "rca": "450 - LEANDRO SOUZA - OFF TRADE",
       "bonificacao": false,
       "prazo": "",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "3440",
@@ -34848,6 +39346,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "28 Dias",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "1186",
@@ -34936,6 +39436,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "45 DIAS",
       "obs": "CR4",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "6790",
@@ -34967,10 +39469,10 @@ const AGENDAMENTO_DATA = {
           "qt": 5,
           "preco": 197.64,
           "total": 988.2,
-          "qt_faturada": 8.0,
-          "valor_faturado": 1581.12,
+          "qt_faturada": 16.0,
+          "valor_faturado": 3162.24,
           "status": "Faturado",
-          "nf": "7048, 7783",
+          "nf": "7048, 7783, 8157, 8158",
           "agendado": true
         },
         {
@@ -34979,10 +39481,10 @@ const AGENDAMENTO_DATA = {
           "qt": 300,
           "preco": 73.5,
           "total": 22050.0,
-          "qt_faturada": 348.0,
-          "valor_faturado": 25578.0,
+          "qt_faturada": 528.0,
+          "valor_faturado": 38808.0,
           "status": "Faturado",
-          "nf": "7048, 7783",
+          "nf": "7048, 7783, 8157",
           "agendado": true
         },
         {
@@ -34991,10 +39493,10 @@ const AGENDAMENTO_DATA = {
           "qt": 30,
           "preco": 49.0,
           "total": 1470.0,
-          "qt_faturada": 60.0,
-          "valor_faturado": 2940.0,
+          "qt_faturada": 90.0,
+          "valor_faturado": 4410.0,
           "status": "Faturado",
-          "nf": "7048, 7783",
+          "nf": "7048, 7783, 8158",
           "agendado": true
         },
         {
@@ -35020,10 +39522,12 @@ const AGENDAMENTO_DATA = {
       "razao_social": "SJ1 DISTRIBUIDORA DE BEBIDAS LTDA",
       "fantasia": "SJ1 DISTRIBUIDORA DE BEBIDAS",
       "cnpj": "49.230.919/0001-60",
-      "rca": "482 - NATALI",
+      "rca": "10 - INATIVO3",
       "bonificacao": false,
       "prazo": "7 dias",
       "obs": "ENTREGAR APÓS AS 9HRS",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "71",
@@ -35048,10 +39552,12 @@ const AGENDAMENTO_DATA = {
       "razao_social": "62.011.629 ROBSON WEBER DE CARVALHO",
       "fantasia": "ROSBON WEBER DE CARVALHO",
       "cnpj": "62.011.629/0001-94",
-      "rca": "419 - Nátil Fontes",
+      "rca": "419 - NÁTALI DE OLIVEIRA - OFF TRADE",
       "bonificacao": false,
       "prazo": "Data entrega: 30/07/26 a partir das 8h",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "71",
@@ -35104,6 +39610,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "28 DIAS",
       "obs": "ENTREGAR NO DIA 30/07 NÃO TEM DESCARGA",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "5120",
@@ -35192,6 +39700,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "14 DIAS",
       "obs": "ENTREGAR NO DIA 30/07 NÃO TEM DESCARGA",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "290",
@@ -35199,10 +39709,10 @@ const AGENDAMENTO_DATA = {
           "qt": 12,
           "preco": 16.9,
           "total": 202.8,
-          "qt_faturada": 36.0,
-          "valor_faturado": 608.4,
+          "qt_faturada": 12.0,
+          "valor_faturado": 202.8,
           "status": "Faturado",
-          "nf": "6739, 7032",
+          "nf": "7032",
           "agendado": true
         },
         {
@@ -35211,10 +39721,10 @@ const AGENDAMENTO_DATA = {
           "qt": 4,
           "preco": 140.9,
           "total": 563.6,
-          "qt_faturada": 10.0,
-          "valor_faturado": 1409.0,
+          "qt_faturada": 4.0,
+          "valor_faturado": 563.6,
           "status": "Faturado",
-          "nf": "6742, 7032",
+          "nf": "7032",
           "agendado": true
         }
       ]
@@ -35232,6 +39742,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "290",
@@ -35239,10 +39751,10 @@ const AGENDAMENTO_DATA = {
           "qt": 12,
           "preco": 16.9,
           "total": 202.8,
-          "qt_faturada": 36.0,
-          "valor_faturado": 608.4,
+          "qt_faturada": 12.0,
+          "valor_faturado": 202.8,
           "status": "Faturado",
-          "nf": "6739, 7032",
+          "nf": "7032",
           "agendado": true
         },
         {
@@ -35251,10 +39763,10 @@ const AGENDAMENTO_DATA = {
           "qt": 4,
           "preco": 140.9,
           "total": 563.6,
-          "qt_faturada": 10.0,
-          "valor_faturado": 1409.0,
+          "qt_faturada": 4.0,
+          "valor_faturado": 563.6,
           "status": "Faturado",
-          "nf": "6742, 7032",
+          "nf": "7032",
           "agendado": true
         }
       ]
@@ -35272,6 +39784,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "5120",
@@ -35356,10 +39870,12 @@ const AGENDAMENTO_DATA = {
       "razao_social": "PAO COM LETRAS PANIFICADORA LTDA.",
       "fantasia": "SUPERPAO - PAISANDU",
       "cnpj": "05.951.912/0001-62",
-      "rca": "153 - ÂNGELO NEVES SUZART - OFF TRADE",
+      "rca": "153 - ANGELO NEVES SUZART - OFF TRADE",
       "bonificacao": false,
       "prazo": "45",
       "obs": "entregar no dia 29/07 em horario das 08:00 as 15:00hr por ordem de chegada",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "3480",
@@ -35369,7 +39885,7 @@ const AGENDAMENTO_DATA = {
           "total": 1357.8,
           "qt_faturada": 0.0,
           "valor_faturado": 0.0,
-          "status": "Cortado",
+          "status": "Pendente",
           "nf": "",
           "agendado": false
         },
@@ -35379,11 +39895,11 @@ const AGENDAMENTO_DATA = {
           "qt": 2,
           "preco": 426.0,
           "total": 852.0,
-          "qt_faturada": 2.0,
-          "valor_faturado": 852.0,
-          "status": "Faturado",
-          "nf": "6947",
-          "agendado": true
+          "qt_faturada": 0.0,
+          "valor_faturado": 0.0,
+          "status": "Pendente",
+          "nf": "",
+          "agendado": false
         }
       ]
     },
@@ -35400,6 +39916,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "14 dias",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "1347",
@@ -35488,6 +40006,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "14 / 21 / 28",
       "obs": "ENTREGAR NO DIA 29/07 NÃO TEM DESCARGA",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "484",
@@ -35620,10 +40140,12 @@ const AGENDAMENTO_DATA = {
       "razao_social": "J M LISAMAR SUPERMERCADOS",
       "fantasia": "LISAMAR SUPERMERCADOS",
       "cnpj": "17.386.414/0001-01",
-      "rca": "RCA 439 MATEUS CARDOSO - OFF TRADE",
+      "rca": "439 - MATEUS CARDOSO - OFF TRADE",
       "bonificacao": false,
       "prazo": "45 DIAS",
       "obs": "HORÁRIO DE ENTREGA : DE 08:00 HS AS 17:00 HS / ROTA DE VIAGEM / DIA 30/07",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "3764",
@@ -35644,7 +40166,7 @@ const AGENDAMENTO_DATA = {
       "subject": "Pedido do cliente 89197 Pão Com letras",
       "data_email": "2026-07-28",
       "sistema": "CRC - 04",
-      "cod_cliente": "83917",
+      "cod_cliente": "89197",
       "razao_social": "PÃO COM LETRAS PANIFICADORA LTDA.",
       "fantasia": "SUPERPÃO - PAISSANDU",
       "cnpj": "05.951.912/0001-62",
@@ -35652,6 +40174,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "45",
       "obs": "entregar no dia 29/07 em horario das 08:00 as 15:00 por ordem de chegada",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "3480",
@@ -35692,6 +40216,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "484",
@@ -35852,6 +40378,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "28 DIAS",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "6259",
@@ -35859,10 +40387,10 @@ const AGENDAMENTO_DATA = {
           "qt": 5,
           "preco": 86.28,
           "total": 431.4,
-          "qt_faturada": 11.0,
-          "valor_faturado": 949.08,
+          "qt_faturada": 9.0,
+          "valor_faturado": 776.52,
           "status": "Faturado",
-          "nf": "6771, 6998, 7759",
+          "nf": "6998, 7759",
           "agendado": true
         },
         {
@@ -35871,10 +40399,10 @@ const AGENDAMENTO_DATA = {
           "qt": 1,
           "preco": 86.28,
           "total": 86.28,
-          "qt_faturada": 6.0,
-          "valor_faturado": 517.68,
+          "qt_faturada": 4.0,
+          "valor_faturado": 345.12,
           "status": "Faturado",
-          "nf": "6771, 6998, 7759",
+          "nf": "6998, 7759",
           "agendado": true
         },
         {
@@ -35883,10 +40411,10 @@ const AGENDAMENTO_DATA = {
           "qt": 3,
           "preco": 86.28,
           "total": 258.84,
-          "qt_faturada": 9.0,
-          "valor_faturado": 776.52,
+          "qt_faturada": 7.0,
+          "valor_faturado": 603.96,
           "status": "Faturado",
-          "nf": "6771, 6998, 7759",
+          "nf": "6998, 7759",
           "agendado": true
         },
         {
@@ -35895,10 +40423,10 @@ const AGENDAMENTO_DATA = {
           "qt": 3,
           "preco": 115.0,
           "total": 345.0,
-          "qt_faturada": 6.0,
-          "valor_faturado": 690.0,
+          "qt_faturada": 4.0,
+          "valor_faturado": 460.0,
           "status": "Faturado",
-          "nf": "6771, 6998",
+          "nf": "6998",
           "agendado": true
         },
         {
@@ -35907,10 +40435,10 @@ const AGENDAMENTO_DATA = {
           "qt": 3,
           "preco": 115.0,
           "total": 345.0,
-          "qt_faturada": 10.0,
-          "valor_faturado": 1150.0,
+          "qt_faturada": 8.0,
+          "valor_faturado": 920.0,
           "status": "Faturado",
-          "nf": "6771, 6998, 7759",
+          "nf": "6998, 7759",
           "agendado": true
         },
         {
@@ -35919,10 +40447,10 @@ const AGENDAMENTO_DATA = {
           "qt": 3,
           "preco": 86.28,
           "total": 258.84,
-          "qt_faturada": 5.0,
-          "valor_faturado": 431.4,
+          "qt_faturada": 3.0,
+          "valor_faturado": 258.84,
           "status": "Faturado",
-          "nf": "6771, 6998",
+          "nf": "6998",
           "agendado": true
         },
         {
@@ -35931,10 +40459,10 @@ const AGENDAMENTO_DATA = {
           "qt": 3,
           "preco": 86.28,
           "total": 258.84,
-          "qt_faturada": 5.0,
-          "valor_faturado": 431.4,
+          "qt_faturada": 3.0,
+          "valor_faturado": 258.84,
           "status": "Faturado",
-          "nf": "6771, 6998",
+          "nf": "6998",
           "agendado": true
         }
       ]
@@ -35952,6 +40480,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "6259",
@@ -35959,10 +40489,10 @@ const AGENDAMENTO_DATA = {
           "qt": 5,
           "preco": 86.28,
           "total": 431.4,
-          "qt_faturada": 11.0,
-          "valor_faturado": 949.08,
+          "qt_faturada": 9.0,
+          "valor_faturado": 776.52,
           "status": "Faturado",
-          "nf": "6771, 6998, 7759",
+          "nf": "6998, 7759",
           "agendado": true
         },
         {
@@ -35971,10 +40501,10 @@ const AGENDAMENTO_DATA = {
           "qt": 1,
           "preco": 86.28,
           "total": 86.28,
-          "qt_faturada": 6.0,
-          "valor_faturado": 517.68,
+          "qt_faturada": 4.0,
+          "valor_faturado": 345.12,
           "status": "Faturado",
-          "nf": "6771, 6998, 7759",
+          "nf": "6998, 7759",
           "agendado": true
         },
         {
@@ -35983,10 +40513,10 @@ const AGENDAMENTO_DATA = {
           "qt": 3,
           "preco": 86.28,
           "total": 258.84,
-          "qt_faturada": 9.0,
-          "valor_faturado": 776.52,
+          "qt_faturada": 7.0,
+          "valor_faturado": 603.96,
           "status": "Faturado",
-          "nf": "6771, 6998, 7759",
+          "nf": "6998, 7759",
           "agendado": true
         },
         {
@@ -35995,10 +40525,10 @@ const AGENDAMENTO_DATA = {
           "qt": 4,
           "preco": 86.28,
           "total": 345.12,
-          "qt_faturada": 6.0,
-          "valor_faturado": 517.68,
+          "qt_faturada": 4.0,
+          "valor_faturado": 345.12,
           "status": "Faturado",
-          "nf": "6771, 6998",
+          "nf": "6998",
           "agendado": true
         },
         {
@@ -36007,10 +40537,10 @@ const AGENDAMENTO_DATA = {
           "qt": 4,
           "preco": 86.28,
           "total": 345.12,
-          "qt_faturada": 10.0,
-          "valor_faturado": 862.8,
+          "qt_faturada": 8.0,
+          "valor_faturado": 690.24,
           "status": "Faturado",
-          "nf": "6771, 6998, 7759",
+          "nf": "6998, 7759",
           "agendado": true
         },
         {
@@ -36019,10 +40549,10 @@ const AGENDAMENTO_DATA = {
           "qt": 3,
           "preco": 86.28,
           "total": 258.84,
-          "qt_faturada": 5.0,
-          "valor_faturado": 431.4,
+          "qt_faturada": 3.0,
+          "valor_faturado": 258.84,
           "status": "Faturado",
-          "nf": "6771, 6998",
+          "nf": "6998",
           "agendado": true
         },
         {
@@ -36031,10 +40561,10 @@ const AGENDAMENTO_DATA = {
           "qt": 3,
           "preco": 86.28,
           "total": 258.84,
-          "qt_faturada": 5.0,
-          "valor_faturado": 431.4,
+          "qt_faturada": 3.0,
+          "valor_faturado": 258.84,
           "status": "Faturado",
-          "nf": "6771, 6998",
+          "nf": "6998",
           "agendado": true
         }
       ]
@@ -36052,6 +40582,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "28 DIAS",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "3819",
@@ -36152,6 +40684,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "28 DIAS",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "3819",
@@ -36216,6 +40750,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "28 DIAS",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "663",
@@ -36223,10 +40759,10 @@ const AGENDAMENTO_DATA = {
           "qt": 30,
           "preco": 32.9,
           "total": 987.0,
-          "qt_faturada": 30.0,
-          "valor_faturado": 987.0,
+          "qt_faturada": 60.0,
+          "valor_faturado": 1974.0,
           "status": "Faturado",
-          "nf": "6971",
+          "nf": "6971, 7850",
           "agendado": true
         },
         {
@@ -36292,6 +40828,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "28 DIAS",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "3011",
@@ -36323,10 +40861,10 @@ const AGENDAMENTO_DATA = {
           "qt": 12,
           "preco": 32.9,
           "total": 394.8,
-          "qt_faturada": 12.0,
-          "valor_faturado": 394.8,
+          "qt_faturada": 36.0,
+          "valor_faturado": 1184.4,
           "status": "Faturado",
-          "nf": "6970",
+          "nf": "6970, 7849, 7865",
           "agendado": true
         },
         {
@@ -36368,6 +40906,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "28 DIAS",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "663",
@@ -36408,6 +40948,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "28 DIAS",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "2614",
@@ -36496,6 +41038,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "28 DIAS",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "663",
@@ -36560,6 +41104,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "28 DIAS",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "3063",
@@ -36612,6 +41158,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "35 DIAS",
       "obs": "ENTREGAR NO DIA 28/07 NÃO TEM DESCARGA HORARIO DE RECEBIMENTO ATE AS 16 HORAS",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "4688",
@@ -36688,6 +41236,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "3819",
@@ -36788,6 +41338,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "3819",
@@ -36852,6 +41404,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "663",
@@ -36859,10 +41413,10 @@ const AGENDAMENTO_DATA = {
           "qt": 30,
           "preco": 32.9,
           "total": 987.0,
-          "qt_faturada": 30.0,
-          "valor_faturado": 987.0,
+          "qt_faturada": 60.0,
+          "valor_faturado": 1974.0,
           "status": "Faturado",
-          "nf": "6971",
+          "nf": "6971, 7850",
           "agendado": true
         },
         {
@@ -36928,6 +41482,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "3011",
@@ -36959,10 +41515,10 @@ const AGENDAMENTO_DATA = {
           "qt": 12,
           "preco": 32.9,
           "total": 394.8,
-          "qt_faturada": 12.0,
-          "valor_faturado": 394.8,
+          "qt_faturada": 36.0,
+          "valor_faturado": 1184.4,
           "status": "Faturado",
-          "nf": "6970",
+          "nf": "6970, 7849, 7865",
           "agendado": true
         },
         {
@@ -37004,6 +41560,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "663",
@@ -37044,6 +41602,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "2614",
@@ -37132,6 +41692,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "663",
@@ -37196,6 +41758,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "3063",
@@ -37248,6 +41812,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "4688",
@@ -37336,6 +41902,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "1592",
@@ -37552,10 +42120,12 @@ const AGENDAMENTO_DATA = {
       "razao_social": "63.529.210 KAUE ALVES DA SILVA SARAVIA",
       "fantasia": "KAUE ALVES DA SILVA SARAVIA",
       "cnpj": "63.529.210/001-91",
-      "rca": "144-DIOGO RAPOSO - OFF TRADE",
+      "rca": "144 - DIOGO RAPOSO - OFF TRADE",
       "bonificacao": false,
       "prazo": "",
       "obs": "DATA ENTREGA: 25/07/2026\nNão tem descarga\nHorário de entrega depois das 10 horas",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "447",
@@ -37592,10 +42162,12 @@ const AGENDAMENTO_DATA = {
       "razao_social": "REZENDE ALIMENTOS JPA LTDA",
       "fantasia": "REZENDE ALIMENTOS JPA",
       "cnpj": "50.250.937/0003-55",
-      "rca": "144-DIOGO RAPOSO - OFF TRADE",
+      "rca": "144 - DIOGO RAPOSO - OFF TRADE",
       "bonificacao": false,
       "prazo": "28 DIAS",
       "obs": "DATA ENTREGA: 27/07/2026\nNão tem descarga\nHorário de entrega depois das 08 horas",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "4688",
@@ -37680,10 +42252,12 @@ const AGENDAMENTO_DATA = {
       "razao_social": "SUPERMERCADO TRADICAO R.J LTDA",
       "fantasia": "SUPERMERCADO TRADICAO RJ",
       "cnpj": "37.657.925/0004-62",
-      "rca": "153 - ÂNGELO NEVES SUZART - OFF TRADE",
+      "rca": "153 - ANGELO NEVES SUZART - OFF TRADE",
       "bonificacao": false,
       "prazo": "28",
       "obs": "entregar no dia 28/07 com pagamento de descarga no valor de R$60,00 por pallets e horario das 08:00 as 15:00h por ordem de chegada",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "3818",
@@ -37744,10 +42318,12 @@ const AGENDAMENTO_DATA = {
       "razao_social": "SUPERMERCADO TRADICÃO RJ LTDA",
       "fantasia": "SUPERMERCADO TRADICÃO RJ",
       "cnpj": "37.657.925/0004-62",
-      "rca": "153 - ÂNGEL0 NEVES SUZART - OFF TRADE",
+      "rca": "153 - ANGELO NEVES SUZART - OFF TRADE",
       "bonificacao": false,
       "prazo": "28",
       "obs": "entregar no dia 28/07 com pagamento de descarga no valor de R$60,00 por pallets e horário das 08:00 as 15:00hr por ordem de chegada",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "3818",
@@ -37812,6 +42388,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "857",
@@ -37840,6 +42418,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "663",
@@ -37864,10 +42444,12 @@ const AGENDAMENTO_DATA = {
       "razao_social": "PÃO COM LETRAS PANIFICADORA LTDA.",
       "fantasia": "SUPERPAO - PAISSANDU",
       "cnpj": "05.951.912/0001-62",
-      "rca": "153 - ÂNGELO NEVES SUZART - OFF TRADE",
+      "rca": "153 - ANGELO NEVES SUZART - OFF TRADE",
       "bonificacao": false,
       "prazo": "45",
       "obs": "entregar no dia 27107 com pagamento de descarga no valor de R$600,00 por pallets e horario das 08:00 as 15:00hr por ordem de chegada",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "3451",
@@ -37932,6 +42514,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "45 dias",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "3451",
@@ -37996,6 +42580,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "21 DIAS",
       "obs": "R$ 1.162,80",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "7702",
@@ -38036,6 +42622,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "21 DIAS",
       "obs": "R$ 1.162,80",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "7702",
@@ -38076,6 +42664,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "21 DIAS",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "7702",
@@ -38116,6 +42706,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "28 DIAS",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "857",
@@ -38144,6 +42736,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "21 DIAS",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "663",
@@ -38168,10 +42762,12 @@ const AGENDAMENTO_DATA = {
       "razao_social": "CENCOSUD BRASIL COMERCIAL LTDA",
       "fantasia": "PREZUNIC - PENHA",
       "cnpj": "39.346.961/0333-04",
-      "rca": "275 - MARIA LUIZA",
+      "rca": "275 - MARIA LUIZA - OFF TRADE",
       "bonificacao": false,
       "prazo": "28 DIAS",
       "obs": "N. 4524378743 Do Pedido CRC - 4 CREDITO ZV:",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "2749",
@@ -38244,10 +42840,12 @@ const AGENDAMENTO_DATA = {
       "razao_social": "CENCOSUD BRASIL COMERCIAL LTDA",
       "fantasia": "PREZUNIC - PENHA",
       "cnpj": "39.346.861/0338-04",
-      "rca": "275 - MARIA LUIZA",
+      "rca": "275 - MARIA LUIZA - OFF TRADE",
       "bonificacao": false,
       "prazo": "28 DIAS",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "2629",
@@ -38276,6 +42874,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "14 DIAS",
       "obs": "HORARIO ENTREGA COMERCIAL | ROTA VIAGEM DIA 23/07",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "4516",
@@ -38364,6 +42964,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": true,
       "prazo": "",
       "obs": "HORARIO ENTREGA COMERCIAL | ROTA VIAGEM DIA 23/07",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "6799",
@@ -38400,10 +43002,12 @@ const AGENDAMENTO_DATA = {
       "razao_social": "BARRA CARNES LTDA",
       "fantasia": "BARRA CARNES",
       "cnpj": "29.094.240/0001-84",
-      "rca": "144 DIOGO RAPOSO",
+      "rca": "144 - DIOGO RAPOSO - OFF TRADE",
       "bonificacao": false,
       "prazo": "21 DIAS",
       "obs": "ENTREGAR NO DIA 22/07 NÃO TEM DESCARGA HORARIO DEPOIS DAS 8",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "449",
@@ -38440,10 +43044,12 @@ const AGENDAMENTO_DATA = {
       "razao_social": "BARRA CARNES LTDA",
       "fantasia": "BARRA CARNES",
       "cnpj": "29.094.240/0001-84",
-      "rca": "144 DIOGO RAPOSO",
+      "rca": "144 - DIOGO RAPOSO - OFF TRADE",
       "bonificacao": true,
       "prazo": "21 DIAS",
       "obs": "ENTREGAR NO DIA 22/07 NÃO TEM DESCARGA HORARIO DEPOIS DAS 8",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "449",
@@ -38480,10 +43086,12 @@ const AGENDAMENTO_DATA = {
       "razao_social": "BARRA CARNES LTDA",
       "fantasia": "BARRA CARNES",
       "cnpj": "29.094.240/0001-84",
-      "rca": "144 DIOGO RAPOSO",
+      "rca": "144 - DIOGO RAPOSO - OFF TRADE",
       "bonificacao": false,
       "prazo": "",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "449",
@@ -38524,6 +43132,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "28 DIAS",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "1113",
@@ -38684,6 +43294,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "28 DIAS",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "1113",
@@ -38892,6 +43504,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "28 DIAS",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "1113",
@@ -39124,6 +43738,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "28 DIAS",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "1113",
@@ -39344,6 +43960,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "28 DIAS",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "6257",
@@ -39363,10 +43981,10 @@ const AGENDAMENTO_DATA = {
           "qt": 2,
           "preco": 86.28,
           "total": 172.56,
-          "qt_faturada": 2.0,
-          "valor_faturado": 172.56,
+          "qt_faturada": 4.0,
+          "valor_faturado": 345.12,
           "status": "Faturado",
-          "nf": "6870",
+          "nf": "6870, 8194",
           "agendado": true
         },
         {
@@ -39396,6 +44014,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "28 DIAS",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "6257",
@@ -39403,10 +44023,10 @@ const AGENDAMENTO_DATA = {
           "qt": 2,
           "preco": 86.28,
           "total": 172.56,
-          "qt_faturada": 2.0,
-          "valor_faturado": 172.56,
+          "qt_faturada": 4.0,
+          "valor_faturado": 345.12,
           "status": "Faturado",
-          "nf": "6877",
+          "nf": "6877, 8195",
           "agendado": true
         },
         {
@@ -39415,10 +44035,10 @@ const AGENDAMENTO_DATA = {
           "qt": 2,
           "preco": 86.28,
           "total": 172.56,
-          "qt_faturada": 2.0,
-          "valor_faturado": 172.56,
+          "qt_faturada": 4.0,
+          "valor_faturado": 345.12,
           "status": "Faturado",
-          "nf": "6877",
+          "nf": "6877, 8195",
           "agendado": true
         },
         {
@@ -39427,10 +44047,10 @@ const AGENDAMENTO_DATA = {
           "qt": 5,
           "preco": 86.28,
           "total": 431.4,
-          "qt_faturada": 5.0,
-          "valor_faturado": 431.4,
+          "qt_faturada": 7.0,
+          "valor_faturado": 603.96,
           "status": "Faturado",
-          "nf": "6877",
+          "nf": "6877, 8195",
           "agendado": true
         }
       ]
@@ -39448,6 +44068,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "28 DIAS",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "6257",
@@ -39500,6 +44122,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "28 DIAS",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "6257",
@@ -39507,10 +44131,10 @@ const AGENDAMENTO_DATA = {
           "qt": 2,
           "preco": 86.28,
           "total": 172.56,
-          "qt_faturada": 5.0,
-          "valor_faturado": 431.4,
+          "qt_faturada": 9.0,
+          "valor_faturado": 776.52,
           "status": "Faturado",
-          "nf": "6881, 7302",
+          "nf": "6881, 7302, 8205",
           "agendado": true
         },
         {
@@ -39531,10 +44155,10 @@ const AGENDAMENTO_DATA = {
           "qt": 5,
           "preco": 86.28,
           "total": 431.4,
-          "qt_faturada": 5.0,
-          "valor_faturado": 431.4,
+          "qt_faturada": 10.0,
+          "valor_faturado": 862.8,
           "status": "Faturado",
-          "nf": "6881",
+          "nf": "6881, 8205",
           "agendado": true
         },
         {
@@ -39543,10 +44167,10 @@ const AGENDAMENTO_DATA = {
           "qt": 1,
           "preco": 155.28,
           "total": 155.28,
-          "qt_faturada": 1.0,
-          "valor_faturado": 155.28,
+          "qt_faturada": 3.0,
+          "valor_faturado": 465.84,
           "status": "Faturado",
-          "nf": "6881",
+          "nf": "6881, 8205",
           "agendado": true
         }
       ]
@@ -39564,6 +44188,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "28 DIAS",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "6257",
@@ -39616,6 +44242,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "1113",
@@ -39812,6 +44440,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "1113",
@@ -40044,6 +44674,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "1113",
@@ -40288,6 +44920,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "1113",
@@ -40508,6 +45142,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "6257",
@@ -40527,10 +45163,10 @@ const AGENDAMENTO_DATA = {
           "qt": 2,
           "preco": 86.28,
           "total": 172.56,
-          "qt_faturada": 2.0,
-          "valor_faturado": 172.56,
+          "qt_faturada": 4.0,
+          "valor_faturado": 345.12,
           "status": "Faturado",
-          "nf": "6870",
+          "nf": "6870, 8194",
           "agendado": true
         },
         {
@@ -40560,6 +45196,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "6257",
@@ -40567,10 +45205,10 @@ const AGENDAMENTO_DATA = {
           "qt": 2,
           "preco": 86.28,
           "total": 172.56,
-          "qt_faturada": 2.0,
-          "valor_faturado": 172.56,
+          "qt_faturada": 4.0,
+          "valor_faturado": 345.12,
           "status": "Faturado",
-          "nf": "6877",
+          "nf": "6877, 8195",
           "agendado": true
         },
         {
@@ -40579,10 +45217,10 @@ const AGENDAMENTO_DATA = {
           "qt": 2,
           "preco": 86.28,
           "total": 172.56,
-          "qt_faturada": 2.0,
-          "valor_faturado": 172.56,
+          "qt_faturada": 4.0,
+          "valor_faturado": 345.12,
           "status": "Faturado",
-          "nf": "6877",
+          "nf": "6877, 8195",
           "agendado": true
         },
         {
@@ -40591,10 +45229,10 @@ const AGENDAMENTO_DATA = {
           "qt": 5,
           "preco": 86.28,
           "total": 431.4,
-          "qt_faturada": 5.0,
-          "valor_faturado": 431.4,
+          "qt_faturada": 7.0,
+          "valor_faturado": 603.96,
           "status": "Faturado",
-          "nf": "6877",
+          "nf": "6877, 8195",
           "agendado": true
         }
       ]
@@ -40612,6 +45250,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "6257",
@@ -40664,6 +45304,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "6257",
@@ -40671,10 +45313,10 @@ const AGENDAMENTO_DATA = {
           "qt": 2,
           "preco": 86.28,
           "total": 172.56,
-          "qt_faturada": 5.0,
-          "valor_faturado": 431.4,
+          "qt_faturada": 9.0,
+          "valor_faturado": 776.52,
           "status": "Faturado",
-          "nf": "6881, 7302",
+          "nf": "6881, 7302, 8205",
           "agendado": true
         },
         {
@@ -40695,10 +45337,10 @@ const AGENDAMENTO_DATA = {
           "qt": 5,
           "preco": 86.28,
           "total": 431.4,
-          "qt_faturada": 5.0,
-          "valor_faturado": 431.4,
+          "qt_faturada": 10.0,
+          "valor_faturado": 862.8,
           "status": "Faturado",
-          "nf": "6881",
+          "nf": "6881, 8205",
           "agendado": true
         },
         {
@@ -40707,10 +45349,10 @@ const AGENDAMENTO_DATA = {
           "qt": 1,
           "preco": 155.28,
           "total": 155.28,
-          "qt_faturada": 1.0,
-          "valor_faturado": 155.28,
+          "qt_faturada": 3.0,
+          "valor_faturado": 465.84,
           "status": "Faturado",
-          "nf": "6881",
+          "nf": "6881, 8205",
           "agendado": true
         }
       ]
@@ -40728,6 +45370,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "6257",
@@ -40780,6 +45424,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "35 DIAS",
       "obs": "entregar no dia 23/07 com pagamento de descarga no valor de R$ 860,00 por pallets e horario das 08:00 as 15:00h por ordem de chegada",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "663",
@@ -40876,10 +45522,12 @@ const AGENDAMENTO_DATA = {
       "razao_social": "MORAES E CIA COMERCIO DE BEBIDAS E ALIMENTOS LTDA",
       "fantasia": "ATACADO DAS BEBIDAS",
       "cnpj": "24.305.769/0001-86",
-      "rca": "450 - LEANDRO PEREIRA DE SOUZA",
+      "rca": "450 - LEANDRO SOUZA - OFF TRADE",
       "bonificacao": false,
       "prazo": "14",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "4328",
@@ -40920,6 +45568,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "6257",
@@ -40939,10 +45589,10 @@ const AGENDAMENTO_DATA = {
           "qt": 5,
           "preco": 86.28,
           "total": 431.4,
-          "qt_faturada": 5.0,
-          "valor_faturado": 431.4,
+          "qt_faturada": 10.0,
+          "valor_faturado": 862.8,
           "status": "Faturado",
-          "nf": "6830",
+          "nf": "6830, 8196",
           "agendado": true
         },
         {
@@ -40963,10 +45613,10 @@ const AGENDAMENTO_DATA = {
           "qt": 1,
           "preco": 155.28,
           "total": 155.28,
-          "qt_faturada": 1.0,
-          "valor_faturado": 155.28,
+          "qt_faturada": 3.0,
+          "valor_faturado": 465.84,
           "status": "Faturado",
-          "nf": "6830",
+          "nf": "6830, 8196",
           "agendado": true
         },
         {
@@ -40996,6 +45646,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "6257",
@@ -41003,10 +45655,10 @@ const AGENDAMENTO_DATA = {
           "qt": 10,
           "preco": 86.28,
           "total": 862.8,
-          "qt_faturada": 15.0,
-          "valor_faturado": 1294.2,
+          "qt_faturada": 18.0,
+          "valor_faturado": 1553.04,
           "status": "Faturado",
-          "nf": "6831, 7751",
+          "nf": "6831, 7751, 8204",
           "agendado": true
         },
         {
@@ -41015,10 +45667,10 @@ const AGENDAMENTO_DATA = {
           "qt": 10,
           "preco": 86.28,
           "total": 862.8,
-          "qt_faturada": 10.0,
-          "valor_faturado": 862.8,
+          "qt_faturada": 18.0,
+          "valor_faturado": 1553.04,
           "status": "Faturado",
-          "nf": "6831",
+          "nf": "6831, 8204",
           "agendado": true
         },
         {
@@ -41027,10 +45679,10 @@ const AGENDAMENTO_DATA = {
           "qt": 15,
           "preco": 86.28,
           "total": 1294.2,
-          "qt_faturada": 20.0,
-          "valor_faturado": 1725.6,
+          "qt_faturada": 30.0,
+          "valor_faturado": 2588.4,
           "status": "Faturado",
-          "nf": "6831, 7751",
+          "nf": "6831, 7751, 8204",
           "agendado": true
         },
         {
@@ -41039,10 +45691,10 @@ const AGENDAMENTO_DATA = {
           "qt": 2,
           "preco": 155.28,
           "total": 310.56,
-          "qt_faturada": 2.0,
-          "valor_faturado": 310.56,
+          "qt_faturada": 3.0,
+          "valor_faturado": 465.84,
           "status": "Faturado",
-          "nf": "6831",
+          "nf": "6831, 8204",
           "agendado": true
         }
       ]
@@ -41056,10 +45708,12 @@ const AGENDAMENTO_DATA = {
       "razao_social": "SUPERMERCADO CATIRA LTDA",
       "fantasia": "SUPERMERCADO CATIRA",
       "cnpj": "39.406.722/0001-86",
-      "rca": "450 - Leandro Pereira",
+      "rca": "450 - LEANDRO SOUZA - OFF TRADE",
       "bonificacao": false,
       "prazo": "28 DIAS",
       "obs": "texto do campo OBS",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "663",
@@ -41168,10 +45822,12 @@ const AGENDAMENTO_DATA = {
       "razao_social": "MERCEARIA R. A. MARAVILHA EIRELI",
       "fantasia": "MERCADO RONDA ALTA",
       "cnpj": "12.044.117/0002-37",
-      "rca": "450 - Leandro Pereira",
+      "rca": "450 - LEANDRO SOUZA - OFF TRADE",
       "bonificacao": false,
       "prazo": "28 DIAS",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "663",
@@ -41304,10 +45960,12 @@ const AGENDAMENTO_DATA = {
       "razao_social": "MERCEARIA R A MARAVILHA LTDA",
       "fantasia": "LIDERANCA",
       "cnpj": "12.044.117/0001-56",
-      "rca": "450 - Leandro Pereira",
+      "rca": "450 - LEANDRO SOUZA - OFF TRADE",
       "bonificacao": false,
       "prazo": "28 DIAS",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "663",
@@ -41380,10 +46038,12 @@ const AGENDAMENTO_DATA = {
       "razao_social": "SUPERMERCADO SAO TARCISIO LTDA",
       "fantasia": "SUPERMERCADO SAO TARCISIO LTDA",
       "cnpj": "32.916.969/0001-01",
-      "rca": "450 - Leandro Pereira",
+      "rca": "450 - LEANDRO SOUZA - OFF TRADE",
       "bonificacao": false,
       "prazo": "28 DIAS",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "663",
@@ -41528,10 +46188,12 @@ const AGENDAMENTO_DATA = {
       "razao_social": "ORGANIZACOES FARINHA PURA LTDA",
       "fantasia": "FARINHA PURA",
       "cnpj": "29.298.312/0001-05",
-      "rca": "471 - ANA CLARA FASSANO",
+      "rca": "471 - ANA CLARA FASSANO - OFF TRADE",
       "bonificacao": false,
       "prazo": "28 DIAS",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "666",
@@ -41551,10 +46213,10 @@ const AGENDAMENTO_DATA = {
           "qt": 6,
           "preco": 59.9,
           "total": 359.4,
-          "qt_faturada": 6.0,
-          "valor_faturado": 359.4,
+          "qt_faturada": 12.0,
+          "valor_faturado": 718.8,
           "status": "Faturado",
-          "nf": "6839",
+          "nf": "6839, 8108",
           "agendado": true
         },
         {
@@ -41580,10 +46242,12 @@ const AGENDAMENTO_DATA = {
       "razao_social": "SUPERMERCADO CATIARA LTDA",
       "fantasia": "SUPERMERCADO CATIARA",
       "cnpj": "39.406.722/0001-86",
-      "rca": "450 - Leandro Pereira",
+      "rca": "450 - LEANDRO SOUZA - OFF TRADE",
       "bonificacao": false,
       "prazo": "",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "663",
@@ -41692,10 +46356,12 @@ const AGENDAMENTO_DATA = {
       "razao_social": "MERCEARIA R. A. MARAVILHA EIRELI",
       "fantasia": "MERCADO RONDA ALTA",
       "cnpj": "12.044.117/0002-37",
-      "rca": "450 - Leandro Pereira",
+      "rca": "450 - LEANDRO SOUZA - OFF TRADE",
       "bonificacao": false,
       "prazo": "",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "663",
@@ -41840,10 +46506,12 @@ const AGENDAMENTO_DATA = {
       "razao_social": "MERCEARIA R A MARAVILHA LTDA",
       "fantasia": "LIDERANCA",
       "cnpj": "12.044.117/0001-56",
-      "rca": "450 - Leandro Pereira",
+      "rca": "450 - LEANDRO SOUZA - OFF TRADE",
       "bonificacao": false,
       "prazo": "",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "663",
@@ -41916,10 +46584,12 @@ const AGENDAMENTO_DATA = {
       "razao_social": "SUPERMERCADO SAO TARCISIO LTDA",
       "fantasia": "SUPERMERCADO SAO TARCISIO LTDA",
       "cnpj": "32.916.969/0001-01",
-      "rca": "450 - Leandro Pereira",
+      "rca": "450 - LEANDRO SOUZA - OFF TRADE",
       "bonificacao": false,
       "prazo": "",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "663",
@@ -42088,10 +46758,12 @@ const AGENDAMENTO_DATA = {
       "razao_social": "MORAES E CIA COMERCIO DE BEBIDAS E ALIMENTOS LTDA",
       "fantasia": "ATACADAO DAS BEBIDAS",
       "cnpj": "24.305.769/0001-86",
-      "rca": "450 - LEANDRO PEREIRA DE SOUZA",
+      "rca": "450 - LEANDRO SOUZA - OFF TRADE",
       "bonificacao": false,
       "prazo": "",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "4328",
@@ -42132,6 +46804,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "28 DIAS",
       "obs": "entregar no dia 21/07 com pagamento de descarga no valor de R$60,00 por pallets e horario das 08:00 as 15:00hr por ordem de chegada",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "1519",
@@ -42160,6 +46834,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "28 DIAS",
       "obs": "entregar no dia 21/07 com pagamento de descarga no valor de R$60,00 por pallets e horario das 08:00 as 15:00hr por ordem de chegada",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "1519",
@@ -42188,6 +46864,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "data entrega: 10/07. após as 10h",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "424",
@@ -42216,6 +46894,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "28 DIAS",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "3759",
@@ -42276,10 +46956,12 @@ const AGENDAMENTO_DATA = {
       "razao_social": "MERCADO RC DE MIGUEL PEREIRA LTDA",
       "fantasia": "MERCADO RC DE MIGUEL PEREIRA",
       "cnpj": "52.909.395/0001-43",
-      "rca": "153 - ÂNGELO NEVES SUZART - OFF TRADE",
+      "rca": "153 - ANGELO NEVES SUZART - OFF TRADE",
       "bonificacao": false,
       "prazo": "35 DIAS",
       "obs": "entregar no dia 23/07 com pagamento de descarga no valor de R$60,00 por pallets de borda das 08:00 às 15:00hor por ordem de chegada",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "663",
@@ -42364,10 +47046,12 @@ const AGENDAMENTO_DATA = {
       "razao_social": "MINIMERCADO JARDIM ROSARIO LTDA",
       "fantasia": "RIO SUL",
       "cnpj": "19.722.068/0001-02",
-      "rca": "153 - ÂNGELO NEVES SUZART - OFF TRADE",
+      "rca": "153 - ANGELO NEVES SUZART - OFF TRADE",
       "bonificacao": false,
       "prazo": "28 DIAS",
       "obs": "entregar no dia 21/07 com pagamento de descarga no valor de R$60,00 por pallets e horario das 08:00 as 15:00h por ordem de chegada",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "1519",
@@ -42396,6 +47080,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "3827",
@@ -42424,6 +47110,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "7/14/21",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "313",
@@ -42524,6 +47212,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "313",
@@ -42620,10 +47310,12 @@ const AGENDAMENTO_DATA = {
       "razao_social": "ATLAS DE IGUAÇU DIST ALIMENTO LTDA",
       "fantasia": "SUPERMERCADO CASA DO SABÃO",
       "cnpj": "29.310.554/0002-58",
-      "rca": "275 - MARIA LUIZA DE MELO",
+      "rca": "275 - MARIA LUIZA - OFF TRADE",
       "bonificacao": false,
       "prazo": "28",
       "obs": "CRC - Filial 4 com 27%",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "664",
@@ -42688,6 +47380,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "28 DIAS",
       "obs": "entregar no dia 20/07 com pagamento de descarga no valor de R$60,00 por pallets e horario das 08:00 as 15:00hr por ordem de chegada",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "3151",
@@ -42776,6 +47470,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "21 dias",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "3643",
@@ -42852,6 +47548,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "28 DIAS",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "381",
@@ -42876,10 +47574,12 @@ const AGENDAMENTO_DATA = {
       "razao_social": "SUPERMERCADO RIO SUL DO PILAR LTDA",
       "fantasia": "RIO SUL DO PILAR",
       "cnpj": "33.255.424/0001-56",
-      "rca": "153 - ANGELO NEVES SUZART",
+      "rca": "153 - ANGELO NEVES SUZART - OFF TRADE",
       "bonificacao": false,
       "prazo": "28 DIAS",
       "obs": "entregar no dia 20/07 com pagamento de descarga no valor de R$60,00 por pallets e horario das 08:00 as 15:00hr por ordem de chegada",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "381",
@@ -43040,6 +47740,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "28 DIAS",
       "obs": "entregar no dia 20/07 com pagamento de descarga no valor de R$60,00 por pallets e horario das 08:00 as 15:00hr por ordem de chegada",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "3818",
@@ -43140,6 +47842,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "28 DIAS",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "6259",
@@ -43188,10 +47892,12 @@ const AGENDAMENTO_DATA = {
       "razao_social": "G.M.A.P. SUPERMERCADOS S.A.",
       "fantasia": "SUPERMARKET SÃO JOÃO III",
       "cnpj": "05.546.194/0029-40",
-      "rca": "450 - LEANDRO SOUZA",
+      "rca": "450 - LEANDRO SOUZA - OFF TRADE",
       "bonificacao": false,
       "prazo": "28 DIAS",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "663",
@@ -43228,10 +47934,12 @@ const AGENDAMENTO_DATA = {
       "razao_social": "G.M.A.P. SUPERMERCADOS S.A.",
       "fantasia": "SUPERMARKET PAVUNA",
       "cnpj": "00.546.194/0028-69",
-      "rca": "450 - LEANDRO SOUZA",
+      "rca": "450 - LEANDRO SOUZA - OFF TRADE",
       "bonificacao": false,
       "prazo": "28 DIAS",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "6259",
@@ -43280,10 +47988,12 @@ const AGENDAMENTO_DATA = {
       "razao_social": "G.M.A.P. SUPERMERCADOS S.A.",
       "fantasia": "SUPERMARKET PAVUNA",
       "cnpj": "05.546.194/0028-69",
-      "rca": "450 - LEANDRO SOUZA",
+      "rca": "450 - LEANDRO SOUZA - OFF TRADE",
       "bonificacao": false,
       "prazo": "28 DIAS",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "663",
@@ -43324,6 +48034,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "28 DIAS",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "6259",
@@ -43372,10 +48084,12 @@ const AGENDAMENTO_DATA = {
       "razao_social": "G.M.A.P. SUPERMERCADOS S.A.",
       "fantasia": "G.M.A.P. SUPERMERCADOS",
       "cnpj": "05.546.194/0027-88",
-      "rca": "450 - LEANDRO SOUZA",
+      "rca": "450 - LEANDRO SOUZA - OFF TRADE",
       "bonificacao": false,
       "prazo": "28 DIAS",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "663",
@@ -43428,6 +48142,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "28 DIAS",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "6259",
@@ -43476,10 +48192,12 @@ const AGENDAMENTO_DATA = {
       "razao_social": "G.M.A.P. SUPERMERCADOS S.A.",
       "fantasia": "G.M.A.P. SUPERMERCADOS S.A.",
       "cnpj": "05.546.194/0026-05",
-      "rca": "450 - LEANDRO SOUZA",
+      "rca": "450 - LEANDRO SOUZA - OFF TRADE",
       "bonificacao": false,
       "prazo": "28 DIAS",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "663",
@@ -43532,6 +48250,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "28 DIAS",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "6259",
@@ -43584,6 +48304,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "28 DIAS",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "663",
@@ -43648,6 +48370,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "28 DIAS",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "6259",
@@ -43700,6 +48424,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "28 DIAS",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "663",
@@ -43748,10 +48474,12 @@ const AGENDAMENTO_DATA = {
       "razao_social": "GMAP SUPERMERCADOS SA",
       "fantasia": "GMAP SUPERMERCADOS",
       "cnpj": "05.546.194/0023-54",
-      "rca": "450 - LEANDRO SOUZA",
+      "rca": "450 - LEANDRO SOUZA - OFF TRADE",
       "bonificacao": false,
       "prazo": "28 DIAS",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "6259",
@@ -43884,10 +48612,12 @@ const AGENDAMENTO_DATA = {
       "razao_social": "GMAP SUPERMERCADOS SA",
       "fantasia": "GMAP SUPERMERCADOS",
       "cnpj": "05.546.194/0023-54",
-      "rca": "450 - LEANDRO SOUZA",
+      "rca": "450 - LEANDRO SOUZA - OFF TRADE",
       "bonificacao": false,
       "prazo": "28 DIAS",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "663",
@@ -43988,6 +48718,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "28 DIAS",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "6259",
@@ -44040,6 +48772,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "28 DIAS",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "663",
@@ -44088,10 +48822,12 @@ const AGENDAMENTO_DATA = {
       "razao_social": "G.M.A.P. SUPERMERCADOS S.A.",
       "fantasia": "G.M.A.P. SUPERMERCADOS",
       "cnpj": "05.546.194/0019-78",
-      "rca": "450 - LEANDRO SOUZA",
+      "rca": "450 - LEANDRO SOUZA - OFF TRADE",
       "bonificacao": false,
       "prazo": "28 DIAS",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "6259",
@@ -44140,10 +48876,12 @@ const AGENDAMENTO_DATA = {
       "razao_social": "G.M.A.P. SUPERMERCADOS S.A.",
       "fantasia": "G.M.A.P. SUPERMERCADOS",
       "cnpj": "05.546.194/0019-78",
-      "rca": "450 - LEANDRO SOUZA",
+      "rca": "450 - LEANDRO SOUZA - OFF TRADE",
       "bonificacao": false,
       "prazo": "28 DIAS",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "663",
@@ -44196,6 +48934,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "28 DIAS",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "6259",
@@ -44244,10 +48984,12 @@ const AGENDAMENTO_DATA = {
       "razao_social": "G.M.A.P. SUPERMERCADOS S.A.",
       "fantasia": "G.M.A.P. SUPERMERCADOS",
       "cnpj": "05.546.194/0017-06",
-      "rca": "450 - LEANDRO SOUZA",
+      "rca": "450 - LEANDRO SOUZA - OFF TRADE",
       "bonificacao": false,
       "prazo": "28 DIAS",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "6259",
@@ -44368,10 +49110,12 @@ const AGENDAMENTO_DATA = {
       "razao_social": "G.M.A.P. SUPERMERCADOS S.A.",
       "fantasia": "G.M.A.P. SUPERMERCADOS",
       "cnpj": "05.546.194/0017-06",
-      "rca": "450 - LEANDRO SOUZA",
+      "rca": "450 - LEANDRO SOUZA - OFF TRADE",
       "bonificacao": false,
       "prazo": "28 DIAS",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "663",
@@ -44436,6 +49180,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "28 DIAS",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "6259",
@@ -44488,6 +49234,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "28 DIAS",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "663",
@@ -44528,6 +49276,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "28 DIAS",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "6259",
@@ -44660,10 +49410,12 @@ const AGENDAMENTO_DATA = {
       "razao_social": "G.M.A.P. SUPERMERCADOS S.A.",
       "fantasia": "SUPERMARKET",
       "cnpj": "05.546.194/0015-44",
-      "rca": "450 - LEANDRO SOUZA",
+      "rca": "450 - LEANDRO SOUZA - OFF TRADE",
       "bonificacao": false,
       "prazo": "28 DIAS",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "663",
@@ -44764,6 +49516,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "28 DIAS",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "6259",
@@ -44816,6 +49570,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "28 DIAS",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "6259",
@@ -44868,6 +49624,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "28 DIAS",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "666",
@@ -44892,10 +49650,12 @@ const AGENDAMENTO_DATA = {
       "razao_social": "G.M.A.P. SUPERMERCADOS S.A.",
       "fantasia": "G.M.A.P. SUPERMERCADOS S.A.",
       "cnpj": "05.546.194/0009-04",
-      "rca": "450 - LEANDRO SOUZA",
+      "rca": "450 - LEANDRO SOUZA - OFF TRADE",
       "bonificacao": false,
       "prazo": "28 DIAS",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "6259",
@@ -44948,6 +49708,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "28 DIAS",
       "obs": "",
+      "email_data_agendamento": "",
+      "email_observacoes": "",
       "itens": [
         {
           "cod_prod": "663",
