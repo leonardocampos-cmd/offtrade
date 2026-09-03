@@ -322,6 +322,7 @@ _PROMPT_AGENDAMENTO_EMAIL = """O texto abaixo é o corpo de um e-mail que pede f
 Regras:
 - Se o texto disser "amanhã", "hoje" etc. em vez de uma data, calcule a data real a partir da data de envio informada abaixo.
 - Não invente informação que não está no texto.
+- Se o e-mail for uma resposta (ex: "Pode verificar se esse pedido foi faturado?") sem pedir uma nova data, "data_agendamento" é "" mesmo que o texto citado abaixo mencione uma data — essa data é só de quando o e-mail original foi enviado, não um pedido de agendamento.
 
 Data de envio do e-mail: {data_email}
 
@@ -341,6 +342,26 @@ def _texto_email(html_parts: list) -> str:
     return "\n".join(textos).strip()
 
 
+_RE_CABECALHO_CITACAO = re.compile(
+    r'\bEm\s+\S.{0,150}?\bescreveu:|\bOn\s+\S.{0,150}?\bwrote:',
+    re.IGNORECASE | re.DOTALL,
+)
+
+
+def _remover_cabecalhos_citacao(corpo: str) -> str:
+    """Remove a linha "Em DD de MÊS de AAAA às HH:MM, Fulano <e-mail>
+    escreveu:" (ou o equivalente em inglês "On ... wrote:") que o Gmail
+    injeta antes do texto citado de uma resposta — sem isso, a IA às vezes
+    confundia essa data (quando o e-mail ORIGINAL foi enviado, não pedida
+    por ninguém) com uma data de agendamento de verdade (achado real em
+    2026-09-03: resposta "Pode verificar se esse pedido foi faturado" de
+    01/09 citava um pedido de 21/08, e a extração devolveu 21/08/2026 como
+    'data_agendamento' — o texto citado só tinha observação de descarga,
+    nenhum pedido de data). O texto citado em si continua no corpo (pode
+    ter observação relevante), só a linha do cabeçalho da citação some."""
+    return _RE_CABECALHO_CITACAO.sub('', corpo)
+
+
 def _extrair_agendamento_email(corpo: str, data_email: str) -> dict:
     """Só chama a OpenAI se já tem pelo menos 1 bloco CRC-4 reconhecido no
     e-mail (quem chama decide isso) — não vale gastar em e-mail irrelevante.
@@ -348,6 +369,7 @@ def _extrair_agendamento_email(corpo: str, data_email: str) -> dict:
     vazios em vez de derrubar o processamento do e-mail inteiro."""
     if not corpo or len(corpo) < 15:
         return {"data_agendamento": "", "observacoes": ""}
+    corpo = _remover_cabecalhos_citacao(corpo)
     from openai import OpenAI
     client = OpenAI()
     try:
