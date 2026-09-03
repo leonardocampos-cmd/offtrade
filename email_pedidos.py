@@ -626,11 +626,22 @@ def _construir_comparativo(cache: dict) -> list:
     # e-mail mais antigo do grupo como "o pedido", mas herda
     # agendamento/observações de qualquer resposta que tenha essa info e o
     # original não (pedido do usuário: considerar o conteúdo das respostas).
+    # Chave de agrupamento: threadId do Gmail quando disponível (exato,
+    # capturado a partir de 2026-09-03); senão o assunto normalizado, MAS só
+    # quando sobra algo depois de tirar Re:/Fwd: — um assunto que já era só
+    # "Re:"/"Fwd:" (sem thread_id, e-mails de antes dessa data) não é
+    # suficiente pra identificar a thread, e agrupar só por cliente+itens
+    # juntou por engano 2 pedidos DIFERENTES do mesmo cliente com o mesmo
+    # item em dias diferentes (achado real em 2026-09-03: cliente 96005,
+    # pedidos de 01/09 e 02/09 do mesmo produto herdaram a data um do
+    # outro). Sem thread_id nem assunto, cai pro próprio msg_id — nunca
+    # agrupa com outro (mais seguro não desduplicar do que fundir errado).
     grupos: dict = {}
     for msg_id, msg in cache.items():
         assunto_norm = _assunto_normalizado(msg.get('subject', ''))
+        thread_key = msg.get('thread_id') or (assunto_norm if assunto_norm else f'__msgid__{msg_id}')
         for bloco in msg.get('blocos', []):
-            chave = (assunto_norm,) + _assinatura_bloco(bloco)
+            chave = (thread_key,) + _assinatura_bloco(bloco)
             grupos.setdefault(chave, []).append((msg_id, msg, bloco))
 
     entradas = []
@@ -856,6 +867,7 @@ def main():
 
         cache[msg_id] = {
             'subject': subject, 'data_email': data_email, 'blocos': blocos_crc4,
+            'thread_id': msg.get('threadId', ''),
             'email_data_agendamento': agendamento_email['data_agendamento'],
             'email_observacoes':      agendamento_email['observacoes'],
         }
