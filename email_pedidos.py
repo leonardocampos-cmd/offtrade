@@ -462,6 +462,7 @@ def _construir_comparativo(cache: dict) -> list:
         df_cli = carregar_dados(f"""
             SELECT C.CODCLI, C.CLIENTE, COALESCE(C.FANTASIA, '') AS FANTASIA,
                    COALESCE(C.CGCENT, '') AS CNPJ, C.CODUSUR1,
+                   COALESCE(C.BAIRROENT, '') AS BAIRRO,
                    COALESCE(U1.NOME, '') AS NOME_USUR1
             FROM crc.PCCLIENT C
             LEFT JOIN crc.PCUSUARI U1 ON C.CODUSUR1 = U1.CODUSUR
@@ -475,6 +476,7 @@ def _construir_comparativo(cache: dict) -> list:
                 'razao_social': str(r['CLIENTE'] or '').strip(),
                 'fantasia':     str(r['FANTASIA'] or '').strip(),
                 'cnpj':         str(r['CNPJ'] or '').strip(),
+                'bairro':       str(r['BAIRRO'] or '').strip(),
                 'rca':          rca_txt,
                 'codusur':      int(r['CODUSUR1']) if pd.notna(r['CODUSUR1']) else None,
             }
@@ -711,6 +713,7 @@ def _construir_comparativo(cache: dict) -> list:
                 # loja) enquanto o cadastro já tem o nome fantasia correto
                 # daquele código específico (pedido do usuário em 2026-09-03).
                 'fantasia':     fallback.get('fantasia') or bloco.get('fantasia', ''),
+                'bairro':       fallback.get('bairro', ''),
                 'cnpj':         bloco.get('cnpj') or fallback.get('cnpj', ''),
                 'rca':          rca_final,
                 'bonificacao':  _to_bool(bloco.get('bonificacao')),

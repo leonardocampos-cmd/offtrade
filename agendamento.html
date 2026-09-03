@@ -158,9 +158,9 @@
         <th>Data E-mail</th>
         <th class="hide-mob">RCA</th>
         <th>Cliente</th>
+        <th class="hide-mob">Bairro</th>
         <th class="hide-mob">Cód. Cliente</th>
         <th>Tipo</th>
-        <th>Itens</th>
         <th>Status</th>
       </tr>
     </thead>
@@ -523,9 +523,9 @@ function renderComparativo(pedidos) {
         <td>${_esc(p.data_email)}${p.email_data_agendamento ? `<span class="badge-agendamento-email" title="Entrega agendada pelo texto do e-mail">📅 ${_esc(p.email_data_agendamento)}</span>` : ''}</td>
         <td class="hide-mob">${_esc(p.rca)}</td>
         <td>${_esc(p.fantasia || p.razao_social)}</td>
+        <td class="hide-mob">${_esc(p.bairro)}</td>
         <td class="hide-mob cod">${_esc(p.cod_cliente)}</td>
         <td>${p.bonificacao ? '<span class="badge-bonificacao">Bonificação</span>' : 'Pedido'}</td>
-        <td>${p.itens.length} item(ns)</td>
         <td>${_statusBadge(statusGeral)}</td>
       </tr>
       ${linhaItens}
