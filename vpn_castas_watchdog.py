@@ -17,13 +17,35 @@ não existir, reinicia strongswan-starter + xl2tpd (mesma ordem que resolveu
 manualmente nas duas vezes) e avisa por WhatsApp. Causa raiz do devpts
 quebrado continua sem investigar — isso só contorna, igual da vez passada.
 """
+import json
 import subprocess
 import sys
 import time
+from datetime import datetime, timedelta
 from pathlib import Path
 
 BASE = Path(__file__).parent
 ALERTA_NUMERO = "5521992085320"
+ESTADO_PATH = BASE / ".vpn_castas_watchdog_state.json"
+# Sem isso, uma queda prolongada do lado REMOTO (fora do nosso controle,
+# nenhum restart local resolve) mandava um WhatsApp idêntico a cada 5 min
+# pra sempre — achado real em 2026-09-03: ~16 alertas repetidos numa queda
+# de mais de 1h (200.246.200.166 inalcançável, watchdog tentando à toa).
+COOLDOWN_ALERTA_FALHA = timedelta(hours=1)
+
+
+def _ler_estado():
+    try:
+        return json.loads(ESTADO_PATH.read_text(encoding='utf-8'))
+    except Exception:
+        return {}
+
+
+def _salvar_estado(estado):
+    try:
+        ESTADO_PATH.write_text(json.dumps(estado), encoding='utf-8')
+    except Exception:
+        pass
 
 
 def _alertar(msg):
@@ -54,9 +76,20 @@ def main():
     if _ppp0_existe():
         print("[WATCHDOG] ppp0 voltou.")
         _alertar("⚠️ VPN da CASTAS (redundancia-sp) tinha caído — reiniciada automaticamente pelo watchdog.")
+        # Reseta o cooldown — uma queda FUTURA (mesmo daqui a poucos minutos)
+        # deve alertar de novo na hora, não ficar presa ao cooldown desta.
+        _salvar_estado({})
     else:
-        print("[WATCHDOG] ppp0 continua ausente após restart — precisa de investigação manual.")
-        _alertar("🔴 VPN da CASTAS (redundancia-sp) caiu e o watchdog NÃO conseguiu restabelecer sozinho — precisa checar manualmente.")
+        estado = _ler_estado()
+        ultimo = estado.get('ultimo_alerta_falha')
+        agora = datetime.now()
+        pode_alertar = not ultimo or (agora - datetime.fromisoformat(ultimo)) >= COOLDOWN_ALERTA_FALHA
+        if pode_alertar:
+            print("[WATCHDOG] ppp0 continua ausente após restart — precisa de investigação manual.")
+            _alertar("🔴 VPN da CASTAS (redundancia-sp) caiu e o watchdog NÃO conseguiu restabelecer sozinho — precisa checar manualmente.")
+            _salvar_estado({'ultimo_alerta_falha': agora.isoformat()})
+        else:
+            print("[WATCHDOG] ppp0 continua ausente após restart — dentro do cooldown de alerta, não reenviando WhatsApp.")
 
 
 if __name__ == "__main__":
