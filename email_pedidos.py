@@ -705,7 +705,12 @@ def _construir_comparativo(cache: dict) -> list:
                 'sistema':      bloco.get('sistema', ''),
                 'cod_cliente':  cod_cli_raw,
                 'razao_social': bloco.get('razao_social') or fallback.get('razao_social', ''),
-                'fantasia':     bloco.get('fantasia') or fallback.get('fantasia', ''),
+                # Fantasia do CADASTRO (PCCLIENT, pelo cod_cliente) tem
+                # prioridade sobre a extraída do e-mail — a extração por IA
+                # costuma vir genérica (ex: "SUPERMARKET" sem identificar a
+                # loja) enquanto o cadastro já tem o nome fantasia correto
+                # daquele código específico (pedido do usuário em 2026-09-03).
+                'fantasia':     fallback.get('fantasia') or bloco.get('fantasia', ''),
                 'cnpj':         bloco.get('cnpj') or fallback.get('cnpj', ''),
                 'rca':          rca_final,
                 'bonificacao':  _to_bool(bloco.get('bonificacao')),
