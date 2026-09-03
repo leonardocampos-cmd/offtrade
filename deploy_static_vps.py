@@ -65,6 +65,16 @@ EXCLUDE_JS = {
     # o dado fresco da VPS com essa cópia local velha (bug real, 2026-08-31 —
     # ver [[project_agendamento_deploy_overwrite]]).
     "agendamento_data.js",
+    # pedidos_data.js / comissao_data.js: mesmo motivo de agendamento acima —
+    # pedidos.py e exportacao_comissao.py rodam dentro do main.py (não têm
+    # cron próprio), mas o git push da VPS fica preso há dias quando o repo
+    # de lá diverge do GitHub; agora os dois se auto-publicam direto em
+    # /opt/offtrade-static (ver pedidos.py/exportacao_comissao.py::
+    # _publicar_static) igual metas/vendas/promotoria, então sincronizar
+    # por cima sobrescreveria o dado fresco da VPS com a cópia local
+    # (achado real em 2026-09-03: as duas páginas ficaram 3 dias paradas).
+    "pedidos_data.js",
+    "comissao_data.js",
     # pedidos_mercos_data.js / estoque_mercos_data.js: gerar_pedidos_mercos_
     # data.py e gerar_estoque_mercos_spon_data.py rodam só na VPS, cron
     # próprio de 30 em 30 min, fora do main.py — mesmo padrão de auto-

@@ -12,6 +12,7 @@ exportacao_inadimplencia.py) pra popular o status, já que STATUS do
 Winthor normalmente vem vazio pra pedido já faturado.
 """
 import json
+import os
 import re
 from datetime import datetime, date
 from pathlib import Path
@@ -1054,3 +1055,26 @@ try:
     print("OK pedidos_data.js enviado ao GitHub Pages.")
 except subprocess.CalledProcessError:
     print("[AVISO] git push falhou — ignorado, pipeline continua.")
+
+
+# ── Publica direto em /opt/offtrade-static quando roda na VPS ──────────────────
+# Sem isso, pedidos_data.js só chegava ao site se o git push acima desse certo
+# E alguém rodasse deploy_static_vps.py depois — main.py roda na VPS de hora em
+# hora mas o git push de lá fica preso quando o repo diverge do GitHub (mesmo
+# padrão de exportacao_pedidos_bloqueados.py::_publicar_static/email_pedidos.py,
+# achado real em 2026-09-03: pedidos.html ficou 3 dias sem atualizar por causa
+# disso, mesmo a VPS gerando o arquivo certinho a cada hora).
+def _publicar_static():
+    if os.getenv("OFFTRADE_RUNTIME", "local") != "vps":
+        return
+    import shutil
+    destino = "/opt/offtrade-static"
+    if not out.exists():
+        return
+    tmp = os.path.join(destino, ".pedidos_data.js.tmp_publish")
+    shutil.copy(out, tmp)
+    os.replace(tmp, os.path.join(destino, "pedidos_data.js"))
+    print(f"OK - pedidos_data.js copiado para {destino}")
+
+
+_publicar_static()

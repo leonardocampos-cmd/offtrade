@@ -333,3 +333,27 @@ try:
     print("OK GitHub Pages atualizado.")
 except subprocess.CalledProcessError:
     print("[AVISO] git push falhou — ignorado, pipeline continua.")
+
+
+# ── Publica direto em /opt/offtrade-static quando roda na VPS ──────────────────
+# Sem isso, comissao_data.js só chegava ao site se o git push acima desse certo
+# E alguém rodasse deploy_static_vps.py depois — mesmo problema real de
+# pedidos_data.js (ver pedidos.py::_publicar_static, achado em 2026-09-03):
+# main.py roda na VPS de hora em hora mas o git push de lá fica preso quando o
+# repo diverge do GitHub, então comissao_data.js ficou 3 dias sem atualizar
+# mesmo a VPS gerando o arquivo certinho a cada hora.
+def _publicar_static():
+    if os.getenv("OFFTRADE_RUNTIME", "local") != "vps":
+        return
+    import shutil
+    destino = "/opt/offtrade-static"
+    origem = Path(output_path)
+    if not origem.exists():
+        return
+    tmp = os.path.join(destino, ".comissao_data.js.tmp_publish")
+    shutil.copy(origem, tmp)
+    os.replace(tmp, os.path.join(destino, "comissao_data.js"))
+    print(f"OK - comissao_data.js copiado para {destino}")
+
+
+_publicar_static()
