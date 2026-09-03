@@ -2225,74 +2225,52 @@ function buildAmarulaDetail(v, mes) {
     </div>`;
 }
 
-const _MOVING_METAS_IND = {
-  '156':33000,'275':11000,'431':11000,'144':4000,'378':11000,
-  '412':6000,'153':8000,'238':5000,'419':7000,'439':3000,
-  '417':5000,'379':4000,'450':6000,'471':3000,'158':3000,
-  '420':0
+// Campanha Moving — 3º Trimestre 2026 (Set/Out/Nov), apuração mês a mês, sem
+// gatilho de equipe (pedido do usuário em 03/09/2026) — mesmo mapa de metas
+// usado em moving.html/vendedor.html.
+const _MOVING_METAS_POR_MES = {
+  'Set/26': { '431': 5600,  '471': 2700, '153': 4300, '412': 8600, '144': 2000, '378': 8200, '450': 17500, '275': 6600, '156': 25700, '419': 2000, '439': 2000, '379': 2000 },
+  'Out/26': { '431': 5750,  '471': 2800, '153': 4400, '412': 8800, '144': 2200, '378': 8400, '450': 17850, '275': 6750, '156': 26200, '419': 2200, '439': 2200, '379': 2200 },
+  'Nov/26': { '431': 5870,  '471': 2860, '153': 4500, '412': 9000, '144': 2300, '378': 8600, '450': 18000, '275': 7000, '156': 26400, '419': 2400, '439': 2400, '379': 2400 },
 };
-const _MOVING_GATILHO  = 120000;
-const _MOVING_CAMP_INI = new Date(2026, 5,  1); // 01/06/2026
-const _MOVING_CAMP_FIM = new Date(2026, 5, 30); // 30/06/2026
-const _MOVING_MESES    = ['Jun/26'];
 
-function _movingFatCamp(nomeVendedor) {
+function _movingFatCampMes(nomeVendedor, mesLabel) {
   const vd = (typeof VENDAS_DATA !== 'undefined') ? VENDAS_DATA : null;
   if (!vd) return 0;
+  const itens = (vd.por_vendedor[nomeVendedor] || {})[mesLabel] || [];
   let total = 0;
-  for (const mes of _MOVING_MESES) {
-    const itens = (vd.por_vendedor[nomeVendedor] || {})[mes] || [];
-    for (const it of itens) {
-      if (it.tipo !== 'Venda') continue;
-      if (!(it.produto || '').toUpperCase().includes('MOVING')) continue;
-      const [d, m, y] = it.data.split('/').map(Number);
-      const dt = new Date(y, m - 1, d);
-      if (dt >= _MOVING_CAMP_INI && dt <= _MOVING_CAMP_FIM) total += it.valor || 0;
-    }
+  for (const it of itens) {
+    if (it.tipo !== 'Venda') continue;
+    if (it.devolvido) continue;
+    if (!(it.produto || '').toUpperCase().includes('MOVING')) continue;
+    total += it.valor || 0;
   }
   return total;
 }
 
 function buildMovingDetail(v, mes) {
-  if (mes && !_MOVING_MESES.includes(mes)) return '';
-  if (_MOVING_METAS_IND[v.rca] === undefined) return '';
-  const fatReal = _movingFatCamp(v.nome);
-  const metaInd = _MOVING_METAS_IND[v.rca];
+  const metasMes = _MOVING_METAS_POR_MES[mes];
+  if (!metasMes || metasMes[v.rca] === undefined) return '';
+  const fatReal = _movingFatCampMes(v.nome, mes);
+  const metaInd = metasMes[v.rca];
   const pctVal  = metaInd > 0 ? (fatReal / metaInd) * 100 : 0;
   const pctDisp = pctVal > 999 ? '>999' : pctVal.toFixed(0);
   const cls     = pctVal >= 100 ? 'green' : pctVal >= 70 ? 'yellow' : 'red';
-
-  const totalEquipe = (METAS_DATA.vendedores || [])
-    .filter(vv => _MOVING_METAS_IND[vv.rca] !== undefined)
-    .reduce((s, vv) => s + _movingFatCamp(vv.nome), 0);
-  const gatilhoOk  = totalEquipe >= _MOVING_GATILHO;
-  const gatilhoPct = Math.min((totalEquipe / _MOVING_GATILHO) * 100, 100);
-  const gCls       = gatilhoPct >= 100 ? 'green' : gatilhoPct >= 70 ? 'yellow' : 'red';
-  const premio     = gatilhoOk ? fatReal * 0.05 : null;
+  const premio  = fatReal * 0.05;
 
   return `
     <div class="campanha-detail-box" style="border-color:#10b98155;background:#0c1f18">
-      <div class="campanha-detail-title" style="color:#10b981">Campanha Moving &middot; 01/06–30/06/2026</div>
+      <div class="campanha-detail-title" style="color:#10b981">Campanha Moving &middot; ${mes}</div>
       <div class="campanha-detail-row">
         <span style="color:var(--muted);font-size:0.78rem">Fat. Moving · Objetivo ${fmtFat(metaInd)}</span>
         <span style="display:flex;align-items:center;gap:6px;flex-wrap:wrap;justify-content:flex-end">
           <span class="campanha-rank-val">${fmtFat(fatReal)}</span>
           <span class="metric-pct pct-${cls}" style="font-size:0.7rem">${pctDisp}%</span>
-          ${premio !== null ? `<span class="campanha-rank-prize" style="color:#10b981">R$ ${premio.toLocaleString('pt-BR',{minimumFractionDigits:2,maximumFractionDigits:2})}</span>` : ''}
+          <span class="campanha-rank-prize" style="color:#10b981">R$ ${premio.toLocaleString('pt-BR',{minimumFractionDigits:2,maximumFractionDigits:2})}</span>
         </span>
-      </div>
-      <div class="campanha-detail-row">
-        <span style="color:var(--muted);font-size:0.72rem">Gatilho equipe ${fmtFat(totalEquipe)} / ${fmtFat(_MOVING_GATILHO)}</span>
-        ${gatilhoOk
-          ? `<span style="font-size:0.65rem;font-weight:700;background:#10b981;color:#000;border-radius:4px;padding:1px 6px">GATILHO: ATIVADO</span>`
-          : `<span style="font-size:0.65rem;font-weight:700;background:var(--red);color:#fff;border-radius:4px;padding:1px 6px">GATILHO: ${gatilhoPct.toFixed(0)}%</span>`}
-      </div>
-      <div class="bar-bg" style="margin-top:5px">
-        <div class="bar-fill bar-${gCls}" style="width:${gatilhoPct}%"></div>
       </div>
     </div>`;
 }
-
 function buildCrusoeDetail(v, mes) {
   if (typeof CRUSOE_DATA === 'undefined') return '';
   const periodoMeses = ['Jul/26', 'Ago/26'];

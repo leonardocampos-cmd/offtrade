@@ -55,18 +55,6 @@
     .mes-section { margin-bottom:22px; }
     .mes-titulo { font-size:.95rem; font-weight:800; color:var(--accent-light); margin-bottom:10px; padding-left:2px; }
 
-    .gatilho-box { background:var(--card); border:1px solid var(--border); border-radius:10px; padding:16px; margin-bottom:12px; }
-    .gatilho-title { font-size:.7rem; text-transform:uppercase; letter-spacing:.07em; color:var(--muted); margin-bottom:10px; }
-    .gatilho-label { display:flex; justify-content:space-between; align-items:center; font-size:.8rem; margin-bottom:8px; }
-    .gatilho-txt { color:var(--muted); }
-    .gatilho-ok  { background:rgba(74,222,128,.15); color:var(--green); font-size:.65rem; font-weight:800; padding:2px 8px; border-radius:4px; }
-    .gatilho-pct-g { background:rgba(74,222,128,.15); color:var(--green); font-size:.7rem; font-weight:700; padding:2px 7px; border-radius:4px; }
-    .gatilho-pct-y { background:rgba(234,179,8,.15); color:var(--yellow); font-size:.7rem; font-weight:700; padding:2px 7px; border-radius:4px; }
-    .gatilho-pct-r { background:rgba(239,68,68,.15); color:var(--red); font-size:.7rem; font-weight:700; padding:2px 7px; border-radius:4px; }
-    .bar-bg { background:var(--card2); border-radius:99px; height:7px; overflow:hidden; }
-    .bar-fill { height:100%; border-radius:99px; transition:width .8s ease; }
-    .bar-g { background:var(--green); } .bar-y { background:var(--yellow); } .bar-r { background:var(--red); }
-
     .rank-card { background:var(--card); border:1px solid var(--border); border-radius:12px; overflow:hidden; }
     .rank-header { padding:12px 16px; border-bottom:1px solid var(--border); background:var(--card2); display:flex; justify-content:space-between; align-items:center; }
     .rank-title { font-size:.88rem; font-weight:700; }
@@ -100,9 +88,9 @@
   <header>
     <div class="camp-badge" id="camp-badge">3º Trimestre 2026</div>
     <h1>Campanha MOVING</h1>
-    <p class="camp-sub">Off Trade RJ &middot; Setembro–Novembro 2026 &middot; Prêmio = 5% do faturamento Moving individual, por mês, se a equipe bater o gatilho do mês</p>
+    <p class="camp-sub">Off Trade RJ &middot; Setembro–Novembro 2026 &middot; Prêmio = 5% do faturamento Moving individual, por mês</p>
     <div class="camp-premio-box">
-      <div class="camp-premio-label">Prêmio (se gatilho do mês atingido)</div>
+      <div class="camp-premio-label">Prêmio</div>
       <div class="camp-premio-val">5% do Faturamento Moving individual</div>
     </div>
   </header>
@@ -153,10 +141,9 @@
   </footer>
 
   <script>
-    // Meta trimestral RIGARR — apuração mês a mês (não acumulada). O gatilho
-    // de equipe de cada mês é a soma das metas individuais daquele mês
-    // (pedido do usuário em 03/09/2026, mesma lógica já implícita na tabela
-    // de metas recebida — não há um valor de gatilho separado informado).
+    // Meta trimestral RIGARR — apuração mês a mês (não acumulada). Prêmio
+    // individual direto (5% do fat. Moving), sem gatilho de equipe (pedido
+    // do usuário em 03/09/2026).
     const METAS_POR_MES = {
       'Set/26': { '431': 5600,  '471': 2700, '153': 4300, '412': 8600, '144': 2000, '378': 8200, '450': 17500, '275': 6600, '156': 25700, '419': 2000, '439': 2000, '379': 2000 },
       'Out/26': { '431': 5750,  '471': 2800, '153': 4400, '412': 8800, '144': 2200, '378': 8400, '450': 17850, '275': 6750, '156': 26200, '419': 2200, '439': 2200, '379': 2200 },
@@ -205,20 +192,10 @@
 
     function renderMes(mesLabel) {
       const metas = METAS_POR_MES[mesLabel];
-      const gatilho = Object.values(metas).reduce((a, b) => a + b, 0);
 
       const rows = METAS_DATA.vendedores
         .filter(v => metas[v.rca] !== undefined)
         .map(v => ({ nome: v.nome, rca: v.rca, fat: fatMovingMes(v.nome, mesLabel), metaInd: metas[v.rca] }));
-
-      const totalFat  = rows.reduce((s, r) => s + r.fat, 0);
-      const gatilhoOk = totalFat >= gatilho;
-
-      const p   = Math.min((totalFat / gatilho) * 100, 100);
-      const cls = p >= 100 ? 'g' : p >= 70 ? 'y' : 'r';
-      const badgeHtml = gatilhoOk
-        ? '<span class="gatilho-ok">✓ Gatilho ativado — prêmios liberados</span>'
-        : `<span class="gatilho-pct-${cls}">${p.toFixed(1)}%</span>`;
 
       const sorted = [...rows].sort((a, b) => {
         const pA = a.metaInd > 0 ? a.fat / a.metaInd : 0;
@@ -230,7 +207,7 @@
         const pctMeta = r.metaInd > 0 ? Math.min((r.fat / r.metaInd) * 100, 999) : null;
         const pctCls  = pctMeta !== null ? (pctMeta >= 100 ? 'g' : pctMeta >= 70 ? 'y' : 'r') : null;
         const pctDisp = pctMeta !== null ? (pctMeta > 999 ? '>999' : pctMeta.toFixed(0) + '%') : '—';
-        const premio  = gatilhoOk ? r.fat * PCT : null;
+        const premio  = r.fat * PCT;
         const pos     = i < 3 ? MEDALS[i] : i + 1;
 
         const pctColor = pctCls === 'g'
@@ -240,9 +217,7 @@
 
         const rightHtml = r.fat === 0
           ? `<span class="rank-gatilho-off">Sem vendas</span>`
-          : gatilhoOk
-            ? `<span class="rank-prize-tag">${fmtFat(premio)}</span>`
-            : `<span class="rank-gatilho-off">Gatilho não atingido</span>`;
+          : `<span class="rank-prize-tag">${fmtFat(premio)}</span>`;
 
         return `
           <div class="rank-row${i === 0 && r.fat > 0 ? ' primeiro' : ''}">
@@ -260,14 +235,6 @@
       return `
         <div class="mes-section">
           <div class="mes-titulo">${MESES_TITULO[mesLabel]}</div>
-          <div class="gatilho-box">
-            <div class="gatilho-title">Gatilho de Equipe</div>
-            <div class="gatilho-label">
-              <span class="gatilho-txt">Equipe: ${fmtFat(totalFat)} / ${fmtFat(gatilho)}</span>
-              ${badgeHtml}
-            </div>
-            <div class="bar-bg"><div class="bar-fill bar-${cls}" style="width:${p}%"></div></div>
-          </div>
           <div class="rank-card">
             <div class="rank-header">
               <span class="rank-title">Apuração Moving por Vendedor — RJ</span>
