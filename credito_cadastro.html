@@ -258,14 +258,15 @@
         renderSelecao(clientes);
       } else if (clientes.length === 1) {
         renderCliente(clientes[0]);
-      } else if ((resp.data.fontes_indisponiveis || []).length) {
-        // Não dá pra dizer "cliente não cadastrado" se a busca nem
-        // conseguiu consultar todas as fontes — bug real: uma fonte Oracle
-        // instável fazia a busca voltar vazia e a vendedora ia direto pro
-        // fluxo de "solicitar cadastro novo" pra um cliente que já existia.
+      } else if ((resp.data.fontes_indisponiveis || []).includes('CRC')) {
+        // Só bloqueia se a própria CRC (fonte principal) falhou — bug real:
+        // uma fonte Oracle instável fazia a busca voltar vazia e a vendedora
+        // ia direto pro fluxo de "solicitar cadastro novo" pra um cliente
+        // que já existia. Se só o GARRIDO estiver fora do ar, a CRC sozinha
+        // já é confiável o suficiente pra decidir (pedido do usuário).
         resultado.innerHTML = `<div class="msg msg-error">Não foi possível consultar todas as fontes agora (${esc(resp.data.fontes_indisponiveis.join(', '))} fora do ar) — tente buscar de novo em instantes antes de solicitar um cadastro novo.</div>`;
       } else {
-        renderNaoEncontrado(termo);
+        renderNaoEncontrado(termo, resp.data.fontes_indisponiveis || []);
       }
     }
 
@@ -282,9 +283,12 @@
     }
 
     // ── Cliente não encontrado: fluxo de solicitação de cadastro ──────────────
-    async function renderNaoEncontrado(termo) {
+    async function renderNaoEncontrado(termo, fontesIndisponiveis) {
       const cnpjLimpo = termo.replace(/\D/g, '');
       let html = '<div class="msg msg-warn">Cliente não cadastrado.</div>';
+      if ((fontesIndisponiveis || []).length) {
+        html += `<div class="msg msg-warn">⚠️ Busca considerou só a base da CRC — ${esc(fontesIndisponiveis.join(', '))} fora do ar no momento.</div>`;
+      }
 
       if (cnpjLimpo.length === 12 || cnpjLimpo.length === 13) {
         html += `<div class="msg msg-warn">⚠️ "${esc(termo)}" tem ${cnpjLimpo.length} dígitos — CNPJ tem 14. Confira se não falta algum dígito (ex: zero à esquerda) antes de prosseguir.</div>`;
