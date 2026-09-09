@@ -38,7 +38,7 @@ RUNTIME = os.getenv("OFFTRADE_RUNTIME", "local")
 import meta  # noqa: E402
 from meta import (  # noqa: E402
     engine, engine_theking, engine_castas, engine_garrido,
-    engine_spon, engine_mgon, engine_blended, carregar_dados,
+    engine_spon, engine_mgon, engine_blended, carregar_paralelo,
 )
 
 app = Flask(__name__)
@@ -144,20 +144,28 @@ def _buscar_overpass(lat: float, lon: float, categorias: list[str]) -> list[dict
 
 def _buscar_candidatos_cadastro(cidade: str) -> list[dict]:
     """Clientes cadastrados na cidade buscada, em todas as bases — candidatos
-    pro fuzzy match. Uma base indisponível não derruba a busca (mesmo padrão
-    de tolerância a falha do resto do pipeline)."""
+    pro fuzzy match. Consulta as 7 bases em paralelo (carregar_paralelo) em
+    vez de uma atrás da outra — uma fonte lenta/travada (comum numa VPS que
+    depende de VPN pra algumas distribuidoras) não pode bloquear a resposta
+    da API inteira por minutos (achado testando na VPS em 09/09/2026: a
+    versão sequencial nunca respondia dentro do timeout do nginx)."""
+    chamadas = [
+        (f"""
+            SELECT CODCLI, CLIENTE, COALESCE(FANTASIA, CLIENTE) AS FANTASIA,
+                   MUNICENT, ESTENT, CGCENT
+            FROM {nome_schema}.PCCLIENT
+            WHERE UPPER(MUNICENT) = UPPER('{cidade}')
+        """, eng, f"oport_maps_cadastro_{nome_schema}")
+        for nome_schema, eng in _SCHEMAS
+    ]
+    resultados = carregar_paralelo(chamadas)
+
     candidatos = []
-    for nome_schema, eng in _SCHEMAS:
-        try:
-            df = carregar_dados(f"""
-                SELECT CODCLI, CLIENTE, COALESCE(FANTASIA, CLIENTE) AS FANTASIA,
-                       MUNICENT, ESTENT, CGCENT
-                FROM {nome_schema}.PCCLIENT
-                WHERE UPPER(MUNICENT) = UPPER('{cidade}')
-            """, eng, f"oport_maps_cadastro_{nome_schema}")
-        except Exception as e:
-            print(f"[AVISO] oport_maps_cadastro_{nome_schema} falhou — ignorado ({e})")
+    for (nome_schema, _eng), resultado in zip(_SCHEMAS, resultados):
+        if isinstance(resultado, Exception):
+            print(f"[AVISO] oport_maps_cadastro_{nome_schema} falhou — ignorado ({resultado})")
             continue
+        df = resultado
         df.columns = df.columns.str.upper()
         for _, r in df.iterrows():
             candidatos.append({
