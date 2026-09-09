@@ -1,5 +1,5 @@
 const CRUSOE_DATA = {
-  "atualizado_em": "31/08/2026 17:36",
+  "atualizado_em": "09/09/2026 15:34",
   "periodo": {
     "ini": "01/07/2026",
     "fim": "31/08/2026"
@@ -83,6 +83,17 @@ const CRUSOE_DATA = {
                   ]
                 },
                 {
+                  "produto": "RC ATUM RALADO MOLHO DE TOMATE 24X140G",
+                  "qt": 2.0,
+                  "valor": 304.16,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 5
+                    }
+                  ]
+                },
+                {
                   "produto": "RC ATUM RALADO OLEO 24X140G",
                   "qt": 2.0,
                   "valor": 304.16,
@@ -119,17 +130,6 @@ const CRUSOE_DATA = {
                   "produto": "RC ATUM PEDACOS MOLHO DE TOMATE 24X140G",
                   "qt": 5.0,
                   "valor": 972.85,
-                  "pontuacoes": [
-                    {
-                      "tipo": "novo SKU",
-                      "pontos": 5
-                    }
-                  ]
-                },
-                {
-                  "produto": "RC ATUM RALADO MOLHO DE TOMATE 24X140G",
-                  "qt": 2.0,
-                  "valor": 304.16,
                   "pontuacoes": [
                     {
                       "tipo": "novo SKU",
@@ -189,6 +189,17 @@ const CRUSOE_DATA = {
                   ]
                 },
                 {
+                  "produto": "RC ATUM RALADO MOLHO DE TOMATE 24X140G",
+                  "qt": 2.0,
+                  "valor": 304.16,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 5
+                    }
+                  ]
+                },
+                {
                   "produto": "RC ATUM RALADO OLEO 24X140G",
                   "qt": 2.0,
                   "valor": 304.16,
@@ -225,17 +236,6 @@ const CRUSOE_DATA = {
                   "produto": "RC ATUM PEDACOS MOLHO DE TOMATE 24X140G",
                   "qt": 2.0,
                   "valor": 389.14,
-                  "pontuacoes": [
-                    {
-                      "tipo": "novo SKU",
-                      "pontos": 5
-                    }
-                  ]
-                },
-                {
-                  "produto": "RC ATUM RALADO MOLHO DE TOMATE 24X140G",
-                  "qt": 2.0,
-                  "valor": 304.16,
                   "pontuacoes": [
                     {
                       "tipo": "novo SKU",
@@ -433,6 +433,12 @@ const CRUSOE_DATA = {
                   "pontuacoes": []
                 },
                 {
+                  "produto": "RC ATUM RALADO MOLHO DE TOMATE 24X140G",
+                  "qt": 5.0,
+                  "valor": 760.4,
+                  "pontuacoes": []
+                },
+                {
                   "produto": "RC ATUM RALADO OLEO 24X140G",
                   "qt": 5.0,
                   "valor": 760.4,
@@ -442,12 +448,6 @@ const CRUSOE_DATA = {
                   "produto": "RC ATUM PEDACOS MOLHO DE TOMATE 24X140G",
                   "qt": 5.0,
                   "valor": 972.85,
-                  "pontuacoes": []
-                },
-                {
-                  "produto": "RC ATUM RALADO MOLHO DE TOMATE 24X140G",
-                  "qt": 5.0,
-                  "valor": 760.4,
                   "pontuacoes": []
                 },
                 {
@@ -489,6 +489,12 @@ const CRUSOE_DATA = {
                   "pontuacoes": []
                 },
                 {
+                  "produto": "RC ATUM RALADO MOLHO DE TOMATE 24X140G",
+                  "qt": 5.0,
+                  "valor": 760.4,
+                  "pontuacoes": []
+                },
+                {
                   "produto": "RC ATUM RALADO OLEO 24X140G",
                   "qt": 15.0,
                   "valor": 2281.2,
@@ -498,12 +504,6 @@ const CRUSOE_DATA = {
                   "produto": "RC ATUM PEDACOS MOLHO DE TOMATE 24X140G",
                   "qt": 5.0,
                   "valor": 972.85,
-                  "pontuacoes": []
-                },
-                {
-                  "produto": "RC ATUM RALADO MOLHO DE TOMATE 24X140G",
-                  "qt": 5.0,
-                  "valor": 760.4,
                   "pontuacoes": []
                 },
                 {
@@ -724,6 +724,17 @@ const CRUSOE_DATA = {
                   ]
                 },
                 {
+                  "produto": "RC ATUM RALADO MOLHO DE TOMATE 24X140G",
+                  "qt": 1.0,
+                  "valor": 153.36,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 4
+                    }
+                  ]
+                },
+                {
                   "produto": "RC ATUM RALADO OLEO 24X140G",
                   "qt": 1.0,
                   "valor": 153.36,
@@ -760,17 +771,6 @@ const CRUSOE_DATA = {
                   "produto": "RC ATUM PEDACOS MOLHO DE TOMATE 24X140G",
                   "qt": 3.0,
                   "valor": 575.28,
-                  "pontuacoes": [
-                    {
-                      "tipo": "novo SKU",
-                      "pontos": 4
-                    }
-                  ]
-                },
-                {
-                  "produto": "RC ATUM RALADO MOLHO DE TOMATE 24X140G",
-                  "qt": 1.0,
-                  "valor": 153.36,
                   "pontuacoes": [
                     {
                       "tipo": "novo SKU",
@@ -874,6 +874,17 @@ const CRUSOE_DATA = {
                   ]
                 },
                 {
+                  "produto": "RC ATUM RALADO MOLHO DE TOMATE 24X140G",
+                  "qt": 1.0,
+                  "valor": 153.36,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 4
+                    }
+                  ]
+                },
+                {
                   "produto": "RC SARDINHA EM OLEO 50X125G",
                   "qt": 1.0,
                   "valor": 249.5,
@@ -932,17 +943,6 @@ const CRUSOE_DATA = {
                   "produto": "RC ATUM PEDACOS MOLHO DE TOMATE 24X140G",
                   "qt": 1.0,
                   "valor": 191.76,
-                  "pontuacoes": [
-                    {
-                      "tipo": "novo SKU",
-                      "pontos": 4
-                    }
-                  ]
-                },
-                {
-                  "produto": "RC ATUM RALADO MOLHO DE TOMATE 24X140G",
-                  "qt": 1.0,
-                  "valor": 153.36,
                   "pontuacoes": [
                     {
                       "tipo": "novo SKU",
@@ -1024,6 +1024,17 @@ const CRUSOE_DATA = {
                   ]
                 },
                 {
+                  "produto": "RC ATUM RALADO MOLHO DE TOMATE 24X140G",
+                  "qt": 1.0,
+                  "valor": 153.36,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 4
+                    }
+                  ]
+                },
+                {
                   "produto": "RC ATUM RALADO OLEO 24X140G",
                   "qt": 1.0,
                   "valor": 153.36,
@@ -1060,17 +1071,6 @@ const CRUSOE_DATA = {
                   "produto": "RC ATUM PEDACOS MOLHO DE TOMATE 24X140G",
                   "qt": 2.0,
                   "valor": 383.52,
-                  "pontuacoes": [
-                    {
-                      "tipo": "novo SKU",
-                      "pontos": 4
-                    }
-                  ]
-                },
-                {
-                  "produto": "RC ATUM RALADO MOLHO DE TOMATE 24X140G",
-                  "qt": 1.0,
-                  "valor": 153.36,
                   "pontuacoes": [
                     {
                       "tipo": "novo SKU",
@@ -1174,6 +1174,17 @@ const CRUSOE_DATA = {
                   ]
                 },
                 {
+                  "produto": "RC ATUM RALADO MOLHO DE TOMATE 24X140G",
+                  "qt": 1.0,
+                  "valor": 153.36,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 4
+                    }
+                  ]
+                },
+                {
                   "produto": "RC SARDINHA EM OLEO 50X125G",
                   "qt": 1.0,
                   "valor": 249.5,
@@ -1221,17 +1232,6 @@ const CRUSOE_DATA = {
                   "produto": "RC ATUM PEDACOS MOLHO DE TOMATE 24X140G",
                   "qt": 1.0,
                   "valor": 191.76,
-                  "pontuacoes": [
-                    {
-                      "tipo": "novo SKU",
-                      "pontos": 4
-                    }
-                  ]
-                },
-                {
-                  "produto": "RC ATUM RALADO MOLHO DE TOMATE 24X140G",
-                  "qt": 1.0,
-                  "valor": 153.36,
                   "pontuacoes": [
                     {
                       "tipo": "novo SKU",
@@ -1302,6 +1302,17 @@ const CRUSOE_DATA = {
                   ]
                 },
                 {
+                  "produto": "RC ATUM RALADO MOLHO DE TOMATE 24X140G",
+                  "qt": 1.0,
+                  "valor": 151.36,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 4
+                    }
+                  ]
+                },
+                {
                   "produto": "RC ATUM RALADO OLEO 24X140G",
                   "qt": 1.0,
                   "valor": 151.36,
@@ -1338,17 +1349,6 @@ const CRUSOE_DATA = {
                   "produto": "RC ATUM PEDACOS MOLHO DE TOMATE 24X140G",
                   "qt": 2.0,
                   "valor": 383.52,
-                  "pontuacoes": [
-                    {
-                      "tipo": "novo SKU",
-                      "pontos": 4
-                    }
-                  ]
-                },
-                {
-                  "produto": "RC ATUM RALADO MOLHO DE TOMATE 24X140G",
-                  "qt": 1.0,
-                  "valor": 151.36,
                   "pontuacoes": [
                     {
                       "tipo": "novo SKU",
@@ -1553,6 +1553,17 @@ const CRUSOE_DATA = {
                   ]
                 },
                 {
+                  "produto": "RC ATUM RALADO MOLHO DE TOMATE 24X140G",
+                  "qt": 1.0,
+                  "valor": 153.36,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 4
+                    }
+                  ]
+                },
+                {
                   "produto": "RC ATUM RALADO OLEO 24X140G",
                   "qt": 1.0,
                   "valor": 153.36,
@@ -1589,17 +1600,6 @@ const CRUSOE_DATA = {
                   "produto": "RC ATUM PEDACOS MOLHO DE TOMATE 24X140G",
                   "qt": 2.0,
                   "valor": 383.52,
-                  "pontuacoes": [
-                    {
-                      "tipo": "novo SKU",
-                      "pontos": 4
-                    }
-                  ]
-                },
-                {
-                  "produto": "RC ATUM RALADO MOLHO DE TOMATE 24X140G",
-                  "qt": 1.0,
-                  "valor": 153.36,
                   "pontuacoes": [
                     {
                       "tipo": "novo SKU",
@@ -1692,6 +1692,17 @@ const CRUSOE_DATA = {
                   ]
                 },
                 {
+                  "produto": "RC ATUM RALADO MOLHO DE TOMATE 24X140G",
+                  "qt": 1.0,
+                  "valor": 153.36,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 4
+                    }
+                  ]
+                },
+                {
                   "produto": "RC ATUM RALADO OLEO 24X140G",
                   "qt": 1.0,
                   "valor": 153.36,
@@ -1728,17 +1739,6 @@ const CRUSOE_DATA = {
                   "produto": "RC ATUM PEDACOS MOLHO DE TOMATE 24X140G",
                   "qt": 3.0,
                   "valor": 575.28,
-                  "pontuacoes": [
-                    {
-                      "tipo": "novo SKU",
-                      "pontos": 4
-                    }
-                  ]
-                },
-                {
-                  "produto": "RC ATUM RALADO MOLHO DE TOMATE 24X140G",
-                  "qt": 1.0,
-                  "valor": 153.36,
                   "pontuacoes": [
                     {
                       "tipo": "novo SKU",
@@ -1893,6 +1893,17 @@ const CRUSOE_DATA = {
                   ]
                 },
                 {
+                  "produto": "RC ATUM RALADO MOLHO DE TOMATE 24X140G",
+                  "qt": 1.0,
+                  "valor": 153.36,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 4
+                    }
+                  ]
+                },
+                {
                   "produto": "RC ATUM RALADO OLEO 24X140G",
                   "qt": 1.0,
                   "valor": 153.36,
@@ -1929,17 +1940,6 @@ const CRUSOE_DATA = {
                   "produto": "RC ATUM PEDACOS MOLHO DE TOMATE 24X140G",
                   "qt": 3.0,
                   "valor": 575.28,
-                  "pontuacoes": [
-                    {
-                      "tipo": "novo SKU",
-                      "pontos": 4
-                    }
-                  ]
-                },
-                {
-                  "produto": "RC ATUM RALADO MOLHO DE TOMATE 24X140G",
-                  "qt": 1.0,
-                  "valor": 153.36,
                   "pontuacoes": [
                     {
                       "tipo": "novo SKU",
@@ -2021,6 +2021,17 @@ const CRUSOE_DATA = {
                   ]
                 },
                 {
+                  "produto": "RC ATUM RALADO MOLHO DE TOMATE 24X140G",
+                  "qt": 1.0,
+                  "valor": 153.36,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 4
+                    }
+                  ]
+                },
+                {
                   "produto": "RC ATUM RALADO OLEO 24X140G",
                   "qt": 1.0,
                   "valor": 153.36,
@@ -2057,17 +2068,6 @@ const CRUSOE_DATA = {
                   "produto": "RC ATUM PEDACOS MOLHO DE TOMATE 24X140G",
                   "qt": 3.0,
                   "valor": 575.28,
-                  "pontuacoes": [
-                    {
-                      "tipo": "novo SKU",
-                      "pontos": 4
-                    }
-                  ]
-                },
-                {
-                  "produto": "RC ATUM RALADO MOLHO DE TOMATE 24X140G",
-                  "qt": 1.0,
-                  "valor": 153.36,
                   "pontuacoes": [
                     {
                       "tipo": "novo SKU",
@@ -2346,6 +2346,12 @@ const CRUSOE_DATA = {
                   "pontuacoes": []
                 },
                 {
+                  "produto": "RC ATUM RALADO MOLHO DE TOMATE 24X140G",
+                  "qt": 1.0,
+                  "valor": 149.28,
+                  "pontuacoes": []
+                },
+                {
                   "produto": "RC ATUM SOLIDO NATURAL 24X170G",
                   "qt": 2.0,
                   "valor": 405.12,
@@ -2355,12 +2361,6 @@ const CRUSOE_DATA = {
                   "produto": "RC ATUM SOLIDO OLEO 24X170G",
                   "qt": 1.0,
                   "valor": 202.76,
-                  "pontuacoes": []
-                },
-                {
-                  "produto": "RC ATUM RALADO MOLHO DE TOMATE 24X140G",
-                  "qt": 1.0,
-                  "valor": 149.28,
                   "pontuacoes": []
                 },
                 {
@@ -2706,6 +2706,12 @@ const CRUSOE_DATA = {
                   "pontuacoes": []
                 },
                 {
+                  "produto": "RC ATUM RALADO MOLHO DE TOMATE 24X140G",
+                  "qt": 1.0,
+                  "valor": 149.28,
+                  "pontuacoes": []
+                },
+                {
                   "produto": "RC SARDINHA EM OLEO 50X125G",
                   "qt": 1.0,
                   "valor": 242.0,
@@ -2715,12 +2721,6 @@ const CRUSOE_DATA = {
                   "produto": "RC ATUM SOLIDO OLEO 24X170G",
                   "qt": 1.0,
                   "valor": 202.76,
-                  "pontuacoes": []
-                },
-                {
-                  "produto": "RC ATUM RALADO MOLHO DE TOMATE 24X140G",
-                  "qt": 1.0,
-                  "valor": 149.28,
                   "pontuacoes": []
                 }
               ]
@@ -2892,6 +2892,17 @@ const CRUSOE_DATA = {
                   ]
                 },
                 {
+                  "produto": "RC ATUM RALADO MOLHO DE TOMATE 24X140G",
+                  "qt": 3.0,
+                  "valor": 389.7,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 4
+                    }
+                  ]
+                },
+                {
                   "produto": "RC ATUM RALADO OLEO 24X140G",
                   "qt": 3.0,
                   "valor": 389.7,
@@ -2904,17 +2915,6 @@ const CRUSOE_DATA = {
                 },
                 {
                   "produto": "RC ATUM PEDACOS MOLHO DE TOMATE 24X140G",
-                  "qt": 3.0,
-                  "valor": 389.7,
-                  "pontuacoes": [
-                    {
-                      "tipo": "novo SKU",
-                      "pontos": 4
-                    }
-                  ]
-                },
-                {
-                  "produto": "RC ATUM RALADO MOLHO DE TOMATE 24X140G",
                   "qt": 3.0,
                   "valor": 389.7,
                   "pontuacoes": [
@@ -2954,7 +2954,7 @@ const CRUSOE_DATA = {
               ],
               "itens": [
                 {
-                  "produto": "RC ATUM RALADO OLEO 24X140G",
+                  "produto": "RC ATUM RALADO MOLHO DE TOMATE 24X140G",
                   "qt": 6.0,
                   "valor": 779.4,
                   "pontuacoes": [
@@ -2965,7 +2965,7 @@ const CRUSOE_DATA = {
                   ]
                 },
                 {
-                  "produto": "RC ATUM RALADO MOLHO DE TOMATE 24X140G",
+                  "produto": "RC ATUM RALADO OLEO 24X140G",
                   "qt": 6.0,
                   "valor": 779.4,
                   "pontuacoes": [
@@ -3005,7 +3005,7 @@ const CRUSOE_DATA = {
               ],
               "itens": [
                 {
-                  "produto": "RC ATUM RALADO OLEO 24X140G",
+                  "produto": "RC ATUM RALADO MOLHO DE TOMATE 24X140G",
                   "qt": 6.0,
                   "valor": 779.4,
                   "pontuacoes": [
@@ -3016,7 +3016,7 @@ const CRUSOE_DATA = {
                   ]
                 },
                 {
-                  "produto": "RC ATUM RALADO MOLHO DE TOMATE 24X140G",
+                  "produto": "RC ATUM RALADO OLEO 24X140G",
                   "qt": 6.0,
                   "valor": 779.4,
                   "pontuacoes": [
@@ -3056,7 +3056,7 @@ const CRUSOE_DATA = {
               ],
               "itens": [
                 {
-                  "produto": "RC ATUM RALADO OLEO 24X140G",
+                  "produto": "RC ATUM RALADO MOLHO DE TOMATE 24X140G",
                   "qt": 6.0,
                   "valor": 779.4,
                   "pontuacoes": [
@@ -3067,7 +3067,7 @@ const CRUSOE_DATA = {
                   ]
                 },
                 {
-                  "produto": "RC ATUM RALADO MOLHO DE TOMATE 24X140G",
+                  "produto": "RC ATUM RALADO OLEO 24X140G",
                   "qt": 6.0,
                   "valor": 779.4,
                   "pontuacoes": [
@@ -4088,6 +4088,17 @@ const CRUSOE_DATA = {
               ],
               "itens": [
                 {
+                  "produto": "RC ATUM RALADO MOLHO DE TOMATE 24X140G",
+                  "qt": 3.0,
+                  "valor": 389.52,
+                  "pontuacoes": [
+                    {
+                      "tipo": "novo SKU",
+                      "pontos": 4
+                    }
+                  ]
+                },
+                {
                   "produto": "RC ATUM RALADO OLEO 24X140G",
                   "qt": 3.0,
                   "valor": 389.52,
@@ -4102,17 +4113,6 @@ const CRUSOE_DATA = {
                   "produto": "RC ATUM SOLIDO OLEO 24X170G",
                   "qt": 3.0,
                   "valor": 509.76,
-                  "pontuacoes": [
-                    {
-                      "tipo": "novo SKU",
-                      "pontos": 4
-                    }
-                  ]
-                },
-                {
-                  "produto": "RC ATUM RALADO MOLHO DE TOMATE 24X140G",
-                  "qt": 3.0,
-                  "valor": 389.52,
                   "pontuacoes": [
                     {
                       "tipo": "novo SKU",
