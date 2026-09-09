@@ -19,7 +19,7 @@ load_dotenv(Path(__file__).parent / ".env")
 
 from urllib.parse import quote_plus
 
-from utils import ORACLE_LIB, git_commit_push
+from utils import ORACLE_LIB, git_commit_push, publicar_static
 # meta.py já chama oracledb.init_oracle_client() — importar antes evita o erro
 # "Oracle Client library has already been initialized" (só pode rodar 1x/processo).
 from meta import _com_timeout_forcado
@@ -313,3 +313,7 @@ if tamanho_mb > LIMITE_MB:
 else:
     git_commit_push(["industria_data.js"],
                     f"Atualiza industria_data.js - {date.today().strftime('%d/%m/%Y')}")
+
+# Independente do limite de tamanho do git/GitHub acima (que não existe pra
+# cópia de arquivo direto) — sempre publica o dado fresco na própria VPS.
+publicar_static("industria_data.js")

@@ -160,50 +160,14 @@ def main():
                 print("[AVISO] exportacao_meta falhou — ignorado, pipeline continua.")
                 traceback.print_exc()
 
-        step("3/8 - Metas Gerais por estado/indústria (metas_gerais_data.js)")
-        try:
-            import subprocess, sys as _sys
-            result = subprocess.run(
-                [_sys.executable, "exportacao_metas_gerais.py"],
-                capture_output=True, text=True, timeout=600
-            )
-            print(result.stdout)
-            if result.returncode != 0:
-                print("[AVISO] exportacao_metas_gerais falhou — ignorado, pipeline continua.")
-                print(result.stderr)
-        except Exception:
-            print("[AVISO] exportacao_metas_gerais falhou — ignorado, pipeline continua.")
-            traceback.print_exc()
-
-        step("3b - Vendas por Indústria (industria_data.js)")
-        try:
-            import subprocess, sys as _sys
-            result = subprocess.run(
-                [_sys.executable, "exportacao_industria.py"],
-                capture_output=True, text=True, timeout=600
-            )
-            print(result.stdout)
-            if result.returncode != 0:
-                print("[AVISO] exportacao_industria falhou — ignorado, pipeline continua.")
-                print(result.stderr)
-        except Exception:
-            print("[AVISO] exportacao_industria falhou — ignorado, pipeline continua.")
-            traceback.print_exc()
-
-        step("3c - Raio X Oportunidades (raiox_oportunidades_data.js)")
-        try:
-            import subprocess, sys as _sys
-            result = subprocess.run(
-                [_sys.executable, "exportacao_raiox_oportunidades.py"],
-                capture_output=True, text=True, timeout=600
-            )
-            print(result.stdout)
-            if result.returncode != 0:
-                print("[AVISO] exportacao_raiox_oportunidades falhou — ignorado, pipeline continua.")
-                print(result.stderr)
-        except Exception:
-            print("[AVISO] exportacao_raiox_oportunidades falhou — ignorado, pipeline continua.")
-            traceback.print_exc()
+        # exportacao_metas_gerais.py / exportacao_industria.py / exportacao_
+        # raiox_oportunidades.py saíram do main.py em 09/09/2026 — ganharam
+        # cron próprio na VPS (mesmo motivo de exportacao_meta.py/pedidos.py):
+        # uma falha de conexão Oracle no meio dos ~20 passos sequenciais do
+        # main.py marcava a engine "morta" pro resto do PROCESSO (ver
+        # meta.py::carregar_dados), derrubando vários passos seguintes juntos
+        # — confirmado real em 09/09/2026, essas 3 e mais 8 outras páginas
+        # apareciam "Crítico" (>12h parado) de forma intermitente.
 
         # Campanha Amarula encerrada em 25/06/2026 — geração de dados desativada.
         # Reativar descomentando o bloco abaixo se a campanha voltar.
@@ -222,35 +186,9 @@ def main():
         #     print("[AVISO] exportacao_amarula falhou — ignorado, pipeline continua.")
         #     traceback.print_exc()
 
-        step("4/8 - Campanha Robinson Crusoe (crusoe_data.js)")
-        try:
-            import subprocess, sys as _sys
-            result = subprocess.run(
-                [_sys.executable, "campanha_crusoe.py"],
-                capture_output=True, text=True, timeout=600
-            )
-            print(result.stdout)
-            if result.returncode != 0:
-                print("[AVISO] campanha_crusoe falhou — ignorado, pipeline continua.")
-                print(result.stderr)
-        except Exception:
-            print("[AVISO] campanha_crusoe falhou — ignorado, pipeline continua.")
-            traceback.print_exc()
-
-        step("4/8 - Ação Amarula Off Trade (acao_amarula_data.js)")
-        try:
-            import subprocess, sys as _sys
-            result = subprocess.run(
-                [_sys.executable, "campanha_acao_amarula.py"],
-                capture_output=True, text=True, timeout=600
-            )
-            print(result.stdout)
-            if result.returncode != 0:
-                print("[AVISO] campanha_acao_amarula falhou — ignorado, pipeline continua.")
-                print(result.stderr)
-        except Exception:
-            print("[AVISO] campanha_acao_amarula falhou — ignorado, pipeline continua.")
-            traceback.print_exc()
+        # campanha_crusoe.py / campanha_acao_amarula.py / entregas.py saíram
+        # do main.py em 09/09/2026 — mesmo motivo do bloco acima (cron
+        # próprio, evita cascata de engine Oracle "morta" no meio do run).
 
         # Conferência de preços desativada a pedido do usuário em 2026-07-31.
         # Reativar descomentando o bloco abaixo quando for pedido novamente.
@@ -261,98 +199,27 @@ def main():
         #     print("[AVISO] conferencia_preco falhou — ignorado, pipeline continua.")
         #     traceback.print_exc()
 
-        step("5/8 - Gerando página de entregas (entregas_data.js)")
-        try:
-            import entregas
-        except Exception:
-            print("[AVISO] entregas falhou — entregas_data.js não será atualizado, pipeline continua.")
-            traceback.print_exc()
+        # pedidos.py (pedidos_data.js) saiu do main.py em 2026-09-04 — ganhou
+        # cron próprio de 5 em 5 min (mesmo padrão/motivo de
+        # exportacao_pedidos_bloqueados.py, pedido do usuário), fora do
+        # main.py.
 
-        step("5b - Gerando página de pedidos (pedidos_data.js)")
-        try:
-            import pedidos
-        except Exception:
-            print("[AVISO] pedidos falhou — pedidos_data.js não será atualizado, pipeline continua.")
-            traceback.print_exc()
-
-        step("5c - Agendamento CRC4: planilha (agendamento_data.js)")
-        try:
-            import subprocess, sys as _sys
-            result = subprocess.run(
-                [_sys.executable, "exportacao_agendamento.py"],
-                capture_output=True, text=True, timeout=600
-            )
-            print(result.stdout)
-            if result.returncode != 0:
-                print("[AVISO] exportacao_agendamento falhou — ignorado, pipeline continua.")
-                print(result.stderr)
-        except Exception:
-            print("[AVISO] exportacao_agendamento falhou — ignorado, pipeline continua.")
-            traceback.print_exc()
-
-        step("5d - Agendamento CRC4: pedidos por e-mail x faturado (agendamento_data.js)")
-        try:
-            import subprocess, sys as _sys
-            result = subprocess.run(
-                [_sys.executable, "email_pedidos.py"],
-                capture_output=True, text=True, timeout=600
-            )
-            print(result.stdout)
-            if result.returncode != 0:
-                print("[AVISO] email_pedidos falhou — ignorado, pipeline continua.")
-                print(result.stderr)
-        except Exception:
-            print("[AVISO] email_pedidos falhou — ignorado, pipeline continua.")
-            traceback.print_exc()
+        # exportacao_agendamento.py / email_pedidos.py (agendamento_data.js)
+        # saíram do main.py em 2026-09-04: a tarefa agendada local ficou
+        # travada em 28/08 (ver deploy_static_vps.py::EXCLUDE_JS e
+        # [[project_agendamento_deploy_overwrite]]), então rodar dentro do
+        # main.py compartilhado (local + VPS) deixava o resultado refém de
+        # qual dos dois lados rodou por último. Precisam de cron próprio na
+        # VPS (mesmo padrão de exportacao_meta.py/exportacao_pedidos_
+        # bloqueados.py) — ainda não configurado, então agendamento_data.js
+        # fica sem atualizar até alguém configurar esse cron.
 
         # exportacao_sp.py / exportacao_es.py / exportacao_mg.py saíram daqui
         # pelo mesmo motivo do exportacao_meta.py acima — cron próprio de
         # 15min na VPS (2026-08-05).
 
-        step("7/9 - Nao positivados SP (nao_pos_sp_data.js)")
-        try:
-            import subprocess, sys as _sys
-            result = subprocess.run(
-                [_sys.executable, "exportacao_nao_pos_sp.py"],
-                capture_output=True, text=True, timeout=600
-            )
-            print(result.stdout)
-            if result.returncode != 0:
-                print("[AVISO] exportacao_nao_pos_sp falhou — ignorado, pipeline continua.")
-                print(result.stderr)
-        except Exception:
-            print("[AVISO] exportacao_nao_pos_sp falhou — ignorado, pipeline continua.")
-            traceback.print_exc()
-
-        step("7b - Nao positivados ES (nao_pos_es_data.js)")
-        try:
-            import subprocess, sys as _sys
-            result = subprocess.run(
-                [_sys.executable, "exportacao_nao_pos_es.py"],
-                capture_output=True, text=True, timeout=600
-            )
-            print(result.stdout)
-            if result.returncode != 0:
-                print("[AVISO] exportacao_nao_pos_es falhou — ignorado, pipeline continua.")
-                print(result.stderr)
-        except Exception:
-            print("[AVISO] exportacao_nao_pos_es falhou — ignorado, pipeline continua.")
-            traceback.print_exc()
-
-        step("7c - Nao positivados MG (nao_pos_mg_data.js)")
-        try:
-            import subprocess, sys as _sys
-            result = subprocess.run(
-                [_sys.executable, "exportacao_nao_pos_mg.py"],
-                capture_output=True, text=True, timeout=600
-            )
-            print(result.stdout)
-            if result.returncode != 0:
-                print("[AVISO] exportacao_nao_pos_mg falhou — ignorado, pipeline continua.")
-                print(result.stderr)
-        except Exception:
-            print("[AVISO] exportacao_nao_pos_mg falhou — ignorado, pipeline continua.")
-            traceback.print_exc()
+        # exportacao_nao_pos_{sp,es,mg}.py saíram do main.py em 09/09/2026 —
+        # mesmo motivo do bloco acima (cron próprio).
 
         step("8/9 - Base de clientes por RCA (clientes_rca_data.js)")
         try:
@@ -369,20 +236,8 @@ def main():
             print("[AVISO] exportacao_clientes_rca falhou — ignorado, pipeline continua.")
             traceback.print_exc()
 
-        step("8/9 - Performance Equipe (performance_equipe_data.js)")
-        try:
-            import subprocess, sys as _sys
-            result = subprocess.run(
-                [_sys.executable, "exportacao_performance_equipe.py"],
-                capture_output=True, text=True, timeout=900
-            )
-            print(result.stdout)
-            if result.returncode != 0:
-                print("[AVISO] exportacao_performance_equipe falhou — ignorado, pipeline continua.")
-                print(result.stderr)
-        except Exception:
-            print("[AVISO] exportacao_performance_equipe falhou — ignorado, pipeline continua.")
-            traceback.print_exc()
+        # exportacao_performance_equipe.py saiu do main.py em 09/09/2026 —
+        # mesmo motivo do bloco acima (cron próprio).
 
         step("8/9 - Comissão RJ Executivos/Pequenos Varejos (comissao_data.js)")
         try:
@@ -399,20 +254,8 @@ def main():
             print("[AVISO] exportacao_comissao falhou — ignorado, pipeline continua.")
             traceback.print_exc()
 
-        step("8/9 - Exportando auth de vendedores (vendedores_auth_data.js)")
-        try:
-            import subprocess, sys as _sys
-            result = subprocess.run(
-                [_sys.executable, "exportacao_vendedores_auth.py"],
-                capture_output=True, text=True, timeout=600
-            )
-            print(result.stdout)
-            if result.returncode != 0:
-                print("[AVISO] exportacao_vendedores_auth falhou — ignorado, pipeline continua.")
-                print(result.stderr)
-        except Exception:
-            print("[AVISO] exportacao_vendedores_auth falhou — ignorado, pipeline continua.")
-            traceback.print_exc()
+        # exportacao_vendedores_auth.py saiu do main.py em 09/09/2026 — mesmo
+        # motivo do bloco acima (cron próprio).
 
         step("8c - Promotoria: relatório Max Promotor (promotoria_data.js)")
         try:

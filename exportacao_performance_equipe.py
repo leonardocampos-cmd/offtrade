@@ -25,6 +25,7 @@ from pathlib import Path
 import pandas as pd
 
 from meta import engine, engine_theking, engine_castas, engine_garrido, engine_spon, engine_mgon, engine_blended, carregar_dados, carregar_paralelo
+from utils import publicar_static
 
 # RCA -> (nome, time). Cópia de exportacao_raiox_vendedores.py — não dá pra
 # importar de lá direto porque esse módulo roda a query inteira (Oracle +
@@ -446,3 +447,4 @@ subprocess.run(["git", "-C", repo_dir, "commit", "-m",
                 f"Atualiza performance_equipe_data.js - {date.today().strftime('%d/%m/%Y')}"])
 subprocess.run(["git", "-C", repo_dir, "push", "origin", "master"], check=False)
 print("OK GitHub Pages atualizado.")
+publicar_static("performance_equipe_data.js")

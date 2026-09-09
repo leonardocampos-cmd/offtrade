@@ -19,7 +19,7 @@ from pathlib import Path
 import pandas as pd
 
 from meta import engine, engine_spon, engine_mgon, engine_blended, carregar_dados
-from utils import git_commit_push
+from utils import git_commit_push, publicar_static
 
 HOJE = date.today()
 DIA_CORTE = HOJE.day
@@ -378,3 +378,4 @@ git_commit_push(
     ["raiox_oportunidades_data.js", "raiox_oportunidades.html"],
     f"Atualiza raiox_oportunidades_data.js - {date.today().strftime('%d/%m/%Y')}",
 )
+publicar_static("raiox_oportunidades_data.js")

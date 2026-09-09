@@ -84,6 +84,18 @@ EXCLUDE_JS = {
     # fresco da VPS com a cópia local parada).
     "pedidos_mercos_data.js",
     "estoque_mercos_data.js",
+    # Lote de 09/09/2026: 11 scripts que rodavam sequencialmente dentro do
+    # main.py saíram de lá e ganharam cron próprio (5-30min) na VPS, mesmo
+    # motivo do bloco acima — uma falha de conexão Oracle no meio dos ~20
+    # passos sequenciais marcava a engine "morta" pro resto do PROCESSO
+    # (meta.py::carregar_dados), derrubando vários passos seguintes juntos.
+    # base_ataque_vinhos_data.js nunca tinha tido cron NENHUM (nem dentro do
+    # main.py) — entrou no mesmo lote por já usar utils.publicar_static.
+    "metas_gerais_data.js", "industria_data.js", "raiox_oportunidades_data.js",
+    "crusoe_data.js", "acao_amarula_data.js", "entregas_data.js",
+    "nao_pos_sp_data.js", "nao_pos_es_data.js", "nao_pos_mg_data.js",
+    "performance_equipe_data.js", "vendedores_auth_data.js",
+    "base_ataque_vinhos_data.js",
 }
 
 
@@ -101,10 +113,20 @@ def ssh_run(client, cmd, check=True):
     return out, code
 
 
+# .json é ALLOWLIST explícita, não glob — a raiz do repo tem vários .json
+# sensíveis (token.json, credentials_gmail.json, metas_config.json, planos
+# salvos etc.) que NUNCA podem virar arquivo estático público. Só entra
+# aqui o que foi pensado pra ser servido (ex: promotoria_data.json, espelho
+# em JSON puro de promotoria_data.js pra consumo externo tipo Power BI —
+# pedido do usuário em 2026-09-08).
+ALLOWLIST_JSON = {"promotoria_data.json"}
+
+
 def static_files() -> list[Path]:
     html_files = [f for f in HERE.glob("*.html") if f.name not in EXCLUDE_HTML]
     js_files   = [f for f in HERE.glob("*.js") if f.name not in EXCLUDE_JS]
-    return sorted(html_files) + sorted(js_files)
+    json_files = [f for f in HERE.glob("*.json") if f.name in ALLOWLIST_JSON]
+    return sorted(html_files) + sorted(js_files) + sorted(json_files)
 
 
 def deploy():

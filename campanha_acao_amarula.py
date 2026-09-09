@@ -24,6 +24,7 @@ import pandas as pd
 from datetime import datetime
 from pathlib import Path
 from meta import engine, carregar_dados
+from utils import publicar_static
 
 DT_INI = "2026-08-19"
 DT_FIM = "2026-09-19"
@@ -188,3 +189,4 @@ subprocess.run(["git", "-C", repo_dir, "commit", "-m",
                 f"Atualiza acao_amarula_data.js - {datetime.now().strftime('%d/%m/%Y')}"])
 subprocess.run(["git", "-C", repo_dir, "push", "origin", "master"], check=False)
 print("OK GitHub Pages atualizado.")
+publicar_static("acao_amarula_data.js")

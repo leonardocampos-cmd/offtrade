@@ -57,14 +57,25 @@ PAGINAS_VPS_ONLY = {
     "pedidos_bloqueados_data.js", "agendamento_data.js",
     "pedidos_data.js", "comissao_data.js",
     "pedidos_mercos_data.js", "estoque_mercos_data.js",
+    # Lote de 09/09/2026 — ver mesmo comentário em deploy_static_vps.py::EXCLUDE_JS.
+    "metas_gerais_data.js", "industria_data.js", "raiox_oportunidades_data.js",
+    "crusoe_data.js", "acao_amarula_data.js", "entregas_data.js",
+    "nao_pos_sp_data.js", "nao_pos_es_data.js", "nao_pos_mg_data.js",
+    "performance_equipe_data.js", "vendedores_auth_data.js",
+    "base_ataque_vinhos_data.js",
 }
 if os.getenv("OFFTRADE_RUNTIME", "local") != "vps":
     PAGINAS_MANUAIS = PAGINAS_MANUAIS | PAGINAS_VPS_ONLY
 
 # Excluídos por não serem payload de página (dado de apoio consumido por
 # outras páginas, sem timestamp próprio relevante) ou por serem gerados só
-# na VPS (log do nginx não existe localmente).
-EXCLUIR = {"fontes_alert.js", "gerentes_data.js", "acessos_data.js"}
+# na VPS (log do nginx não existe localmente). clientes_588_data.js: análise
+# pontual de um evento passado (migração de clientes do RCA 588 em maio/26)
+# — clientes_588.html está vazio (0 bytes, nunca foi uma página real) e
+# nenhum outro HTML carrega esse _DATA; sem consumidor, não faz sentido
+# monitorar nem dar cron (achado em 09/09/2026, aparecia "Crítico" à toa
+# desde sempre).
+EXCLUIR = {"fontes_alert.js", "gerentes_data.js", "acessos_data.js", "clientes_588_data.js"}
 
 _TS_RE_JSON = re.compile(r'"atualizado_em"\s*:\s*"([^"]+)"')
 _TS_RE_COMENTARIO = re.compile(r'//\s*Gerado em\s*([\d/: ]+)')

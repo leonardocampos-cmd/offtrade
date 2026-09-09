@@ -20,7 +20,7 @@ load_dotenv(Path(__file__).parent / ".env")
 
 from urllib.parse import quote_plus
 
-from utils import ORACLE_LIB, git_commit_push
+from utils import ORACLE_LIB, git_commit_push, publicar_static
 # meta.py já chama oracledb.init_oracle_client() — importar antes evita o erro
 # "Oracle Client library has already been initialized".
 from meta import _com_timeout_forcado
@@ -455,3 +455,4 @@ print(f"\nOK metas_gerais_data.js - {len(industrias_out)} industrias -> {out}")
 
 git_commit_push(["metas_gerais_data.js"],
                 f"Atualiza metas_gerais_data.js - {hoje.strftime('%d/%m/%Y')}")
+publicar_static("metas_gerais_data.js")

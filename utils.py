@@ -90,6 +90,36 @@ def git_commit_push(files: list[str], mensagem: str) -> None:
         print(f"[AVISO] git commit/push falhou — ignorado: {e}")
 
 
+def publicar_static(nome_arquivo: str) -> None:
+    """Copia <nome_arquivo> (já escrito no diretório do script) direto pra
+    /opt/offtrade-static — só faz algo quando OFFTRADE_RUNTIME=vps. Escrita
+    atômica (arquivo .tmp + rename) pro nginx nunca servir um JSON pela
+    metade. Mesmo padrão replicado em cada exportador que se auto-publica
+    (gerar_pedidos_mercos_data.py, exportacao_pedidos_bloqueados.py,
+    exportacao_meta.py etc.) — centralizado aqui em 09/09/2026 pra dar cron
+    próprio e frequente a scripts que dependiam do ciclo horário do main.py
+    (achado real: uma falha de conexão Oracle no meio dos ~20 passos
+    sequenciais do main.py derrubava vários passos seguintes juntos,
+    já que carregar_dados marca a engine como "morta" pro resto do
+    PROCESSO — script isolado com processo próprio não herda esse estado).
+    Lembre de: 1) adicionar <nome_arquivo> em deploy_static_vps.py::EXCLUDE_JS
+    (senão o próximo deploy manual sobrescreve o dado fresco da VPS com a
+    cópia local congelada) e 2) em exportacao_status_paginas.py::PAGINAS_VPS_ONLY
+    (senão a cópia local congelada aparece "Crítico" à toa)."""
+    if os.getenv("OFFTRADE_RUNTIME", "local") != "vps":
+        return
+    import shutil
+    from pathlib import Path
+    destino = "/opt/offtrade-static"
+    origem = Path(__file__).parent / nome_arquivo
+    if not origem.exists():
+        return
+    tmp = os.path.join(destino, f".{nome_arquivo}.tmp_publish")
+    shutil.copy(origem, tmp)
+    os.replace(tmp, os.path.join(destino, nome_arquivo))
+    print(f"OK - {nome_arquivo} copiado para {destino}")
+
+
 # ── Oracle ────────────────────────────────────────────────────────────────────
 
 def _init_oracle():

@@ -14,6 +14,7 @@ from meta import (
     engine, engine_theking, engine_castas, engine_garrido,
     engine_spon, engine_mgon, carregar_dados,
 )
+from utils import publicar_static
 
 _SCHEMAS = [
     ("CRC",      engine),
@@ -83,3 +84,4 @@ else:
     js  = f"// Gerado em {now}\nconst VENDEDORES_AUTH = {json.dumps(auth, ensure_ascii=False, indent=2)};\n"
     _out.write_text(js, encoding="utf-8")
     print(f"[OK] vendedores_auth_data.js — {len(auth)} vendedores exportados")
+    publicar_static("vendedores_auth_data.js")

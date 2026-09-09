@@ -53,7 +53,7 @@ def _caminho_logistica(d: date) -> str:
         str(_caminho_logistica_local(d)),
     ))
 
-from utils import ORACLE_LIB
+from utils import ORACLE_LIB, publicar_static
 oracledb.init_oracle_client(lib_dir=ORACLE_LIB)
 _user = os.environ["VPN_USER"]
 _pass = os.environ["VPN_PASSWORD"]
@@ -418,3 +418,11 @@ try:
     print("OK entregas_data.js enviado ao GitHub Pages.")
 except subprocess.CalledProcessError:
     print("[AVISO] git push falhou — ignorado, pipeline continua.")
+
+# Nota: alerta_logistica_rj.py também escreve neste mesmo arquivo (patch
+# incremental de NFs marcadas "Não Entregue" via Gmail) — como esse script
+# ganhou cron próprio e frequente (09/09/2026), uma sobreposição ocasional
+# pode reverter um patch do alerta até a próxima rodada dele (1x/dia); não
+# é regressão real, o patch nunca era mais "permanente" que isso mesmo
+# dentro do main.py.
+publicar_static("entregas_data.js")

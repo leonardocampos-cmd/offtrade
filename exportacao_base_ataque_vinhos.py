@@ -26,6 +26,7 @@ from pathlib import Path
 import pandas as pd
 
 from meta import engine_spon, carregar_dados
+from utils import git_commit_push, publicar_static
 
 BASE = Path(__file__).parent
 PLANILHA = Path.home() / "Downloads" / "Base Vinho.xlsx"
@@ -216,3 +217,11 @@ with open(out_path, 'w', encoding='utf-8') as f:
 
 print(f"OK base_ataque_vinhos_data.js — {total} CNPJs, {com_cadastro} com cadastro ({payload['summary']['pctComCadastro']}%)")
 print(f"Situação: {macro_counts}")
+
+# Nunca tinha commit/publish nenhum — só a cópia local, que só chegava ao
+# site via o "deploy local" do próprio main.py rodando na VPS (que nunca
+# chamava este script). Achado em 09/09/2026: página real (base_ataque_
+# vinhos.html) nunca recebia dado novo desde sempre.
+git_commit_push(["base_ataque_vinhos_data.js"],
+                f"Atualiza base_ataque_vinhos_data.js - {date.today().strftime('%d/%m/%Y')}")
+publicar_static("base_ataque_vinhos_data.js")
