@@ -63,7 +63,12 @@ NGINX_LOCATION = """
         proxy_set_header   X-Real-IP $remote_addr;
         proxy_set_header   X-Forwarded-For $proxy_add_x_forwarded_for;
         proxy_set_header   X-Forwarded-Proto $scheme;
-        proxy_read_timeout 30s;
+        # 120s (era 30s): /sincronizar-estoque (botao em estoque_mercos.html,
+        # 2026-09-04) faz scrape de ~10 paginas + ate 500 POSTs na Mercos —
+        # medido em ~70s local; 30s cortava a conexao do nginx antes do
+        # backend terminar (o push seguia rodando, so' o navegador via
+        # timeout/erro sem saber que tinha dado certo).
+        proxy_read_timeout 120s;
     }
 """
 
@@ -120,17 +125,25 @@ def deploy():
     ssh_run(client, "systemctl enable pedidos-mercos-api.service", check=False)
     ssh_run(client, "systemctl restart pedidos-mercos-api.service")
 
-    print("\n-> Conferindo nginx (adiciona location /api/pedidos-mercos/ se faltando)...")
+    print("\n-> Conferindo nginx (location /api/pedidos-mercos/)...")
     nginx_conf = "/etc/nginx/sites-available/offtrade"
     with sftp.open(nginx_conf) as f:
         conf_atual = f.read().decode("utf-8")
     marker = "    location / {"
-    if "location /api/pedidos-mercos/" not in conf_atual:
+    # Substitui o bloco inteiro se já existir (pra pegar mudanças como o
+    # proxy_read_timeout, que só rodar de novo com "já existe -> nada a
+    # fazer" nunca atualizava — achado real em 2026-09-04, timeout ficou
+    # preso em 30s mesmo depois de trocar NGINX_LOCATION pra 120s aqui).
+    bloco_existente = re.search(r"    location /api/pedidos-mercos/ \{.*?\n    \}\n", conf_atual, re.DOTALL)
+    if bloco_existente:
+        conf_novo = conf_atual[:bloco_existente.start()] + NGINX_LOCATION.lstrip("\n") + conf_atual[bloco_existente.end():]
+    else:
         conf_novo = conf_atual.replace(marker, NGINX_LOCATION + "\n" + marker, 1)
+    if conf_novo != conf_atual:
         sftp.putfo(io.BytesIO(conf_novo.encode()), nginx_conf)
         ssh_run(client, "nginx -t")
         ssh_run(client, "systemctl reload nginx")
-        print("   location /api/pedidos-mercos/ adicionada.")
+        print("   location /api/pedidos-mercos/ atualizada.")
     else:
         print("   já configurado, nada a fazer.")
 

@@ -36,6 +36,9 @@ outros serviços da VPS (vencimento, login-api, pedido_reply_bot,
 whatsapp-resumo, kanban-api, credito-cadastro — ver credito_cadastro_api.py).
 """
 import os
+import re
+import subprocess
+import threading
 import time
 
 import requests
@@ -47,6 +50,17 @@ import mercos_api
 load_dotenv()
 
 RUNTIME = os.getenv("OFFTRADE_RUNTIME", "local")
+
+# gerar_estoque_mercos_spon_data.py precisa de Oracle (oracledb/sqlalchemy/
+# pandas via meta.py) — deps pesadas de propósito fora do venv leve deste
+# serviço (/opt/pedidos-mercos-api, só flask/requests/dotenv). Roda como
+# subprocesso usando o Python + diretório do pipeline principal, que já tem
+# tudo isso configurado (Oracle Instant Client incluso).
+_PIPELINE_DIR = os.getenv(
+    "PIPELINE_DIR",
+    "/opt/offtrade-pipeline" if RUNTIME == "vps" else r"G:\Meu Drive\offtrade",
+)
+_PIPELINE_PYTHON = os.path.join(_PIPELINE_DIR, ".venv", "bin", "python") if RUNTIME == "vps" else "python"
 
 app = Flask(__name__)
 bp = Blueprint("pedidos_mercos", __name__, url_prefix="/api/pedidos-mercos")
@@ -131,7 +145,57 @@ def enviar_whatsapp_pedido():
             detalhe = resp_pdf.text[:200] if resp_pdf.text else ""
             return {"ok": False, "motivo": f"Mensagem enviada, mas a Z-API recusou o PDF (HTTP {resp_pdf.status_code}): {detalhe}"}
 
-    return {"ok": True}
+# ── Sincronizar estoque agora (botão em estoque_mercos.html) ───────────────
+# Mesmo push que o cron de 30min já faz (gerar_estoque_mercos_spon_data.py),
+# só que sob demanda — pedido do usuário em 2026-09-04 pra não precisar
+# esperar o cron quando o saldo mudou e alguém precisa que reflita na Mercos
+# na hora. Lock evita duas sincronizações ao mesmo tempo: a Mercos só permite
+# UMA sessão logada por usuário (confirmado 2026-09-04 — um segundo login
+# derruba o primeiro), então rodar em paralelo com o cron ou outro clique
+# corrompe o resultado de ambos.
+_sync_lock = threading.Lock()
+
+
+_RE_RESUMO = re.compile(
+    r"estoque empurrado pra Mercos: (\d+) produto\(s\), (\d+) falha\(s\) \(de (\d+) mapeados\)"
+)
+
+
+@bp.route("/sincronizar-estoque", methods=["POST"])
+def sincronizar_estoque():
+    if not _sync_lock.acquire(blocking=False):
+        return {"ok": False, "motivo": "Já tem uma sincronização em andamento (cron ou outro clique) — aguarde terminar e tente de novo."}, 409
+    # ORACLE_LIB fica errado se herdado: este processo já rodou load_dotenv()
+    # a partir do PRÓPRIO .env (/opt/pedidos-mercos-api/.env, cópia do .env
+    # local que nunca precisou de Oracle — build_remote_env() aqui não
+    # reescreve esse campo, só OFFTRADE_RUNTIME). subprocess.run() herda
+    # os.environ por padrão, e load_dotenv() do lado do gerar_estoque_*
+    # (via meta.py) NÃO sobrescreve uma env var já setada — então o
+    # caminho do Instant Client do Windows vazava pro processo Linux
+    # (achado real em 2026-09-04: "C:\instantclient/libclntsh.so"). Remove
+    # daqui pra o subprocesso cair no default certo de utils.py::ORACLE_LIB
+    # ou no valor do próprio .env do pipeline.
+    _env = {k: v for k, v in os.environ.items() if k != "ORACLE_LIB"}
+    try:
+        resp = subprocess.run(
+            [_PIPELINE_PYTHON, "gerar_estoque_mercos_spon_data.py"],
+            cwd=_PIPELINE_DIR, capture_output=True, text=True, timeout=110, env=_env,
+        )
+    except subprocess.TimeoutExpired:
+        return {"ok": False, "motivo": "Sincronização demorou demais (>110s) e foi interrompida."}, 504
+    except Exception as e:
+        return {"ok": False, "motivo": f"Falha ao sincronizar: {str(e)[:200]}"}, 500
+    finally:
+        _sync_lock.release()
+
+    saida = (resp.stdout or "") + (resp.stderr or "")
+    m = _RE_RESUMO.search(saida)
+    if resp.returncode != 0 and not m:
+        return {"ok": False, "motivo": f"Script falhou (código {resp.returncode}): {saida[-300:]}"}, 500
+    if not m:
+        return {"ok": False, "motivo": f"Não consegui confirmar o resultado — saída inesperada: {saida[-300:]}"}
+    ok, falhas, total = (int(x) for x in m.groups())
+    return {"ok": True, "atualizados": ok, "falhas": falhas, "total": total}
 
 
 app.register_blueprint(bp)

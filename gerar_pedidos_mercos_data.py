@@ -77,7 +77,15 @@ OUT_JS = str(Path(__file__).parent / "pedidos_mercos_data.js")
 # Canal W.S/Mercos comecou em 19/11/2025 (confirmado em 2026-08-27 apos
 # exportar todo o historico disponivel na Mercos, semestre a semestre —
 # 09/2024 a 08/2025 veio vazio, dado real so aparece a partir de 11/2025).
-DATA_INICIAL = "2025-11-01"
+# Cruzamento com o SPON (_cruzar_com_spon) depende de PCPEDC.NUMPEDCLI, que
+# so passou a vir preenchido de forma confiavel a partir de 07/2026 (bug
+# reportado pelo usuario em 2026-09-08: pagina parecia mostrar "todos os
+# pedidos cancelados" — na verdade eram ~1400 pedidos de nov/25-jun/26 caindo
+# em "nao_encontrado" porque NUMPEDCLI vinha vazio quase sempre nesse
+# periodo: 0/23 em nov/25, 0/335 em mar/26, so virou 96%+ a partir de jul/26,
+# 280/290. DATA_INICIAL movido pra so mostrar pedidos do periodo em que o
+# cruzamento de fato funciona — janela antiga fica de fora, nao "corrigida".
+DATA_INICIAL = "2026-07-01"
 
 RE_NUMPEDCLI = re.compile(r"^\s*(\d+)\s*/\s*(\S+)\s*$")
 
@@ -311,9 +319,20 @@ def _casar_cancelados_spon_com_mercos(lista_pedidos, cancelados_spon):
     def _assinatura(itens):
         return frozenset(it["codprod"] for it in itens)
 
+    # Só pedido "nao_encontrado" (sem NUMPED do SPON ainda) é candidato a esse
+    # casamento por assinatura — pedido que _cruzar_com_spon já resolveu via
+    # NUMPEDCLI (status "montado"/"corte"/"excesso"/"integral") ou cancelado
+    # no próprio Mercos ("cancelado") tem match direto e confiável, não pode
+    # ser sobrescrito por essa heurística (bug real achado pelo usuário em
+    # 2026-09-09: pedido Mercos #3905 já tinha NUMPEDCLI="3905/004" batendo
+    # com o NUMPED 588003579 — já FATURADO, NUMNOTA 189066 — mas o cliente
+    # (F.C.G. COMERCIAL) tinha 5 outros pedidos cancelados com o mesmo
+    # produto+quantidade em datas anteriores; a assinatura de item bateu com
+    # um desses cancelamentos antigos [588003399, 17/08] e sobrescreveu o
+    # status/numped correto do #3905 pelo cancelado errado).
     indice = {}
     for p in lista_pedidos:
-        if p["status_spon"] == "cancelado":  # cancelado no Mercos não tem item pra casar
+        if p["status_spon"] != "nao_encontrado":
             continue
         indice.setdefault(_assinatura(p["itens"]), []).append(p)
 
