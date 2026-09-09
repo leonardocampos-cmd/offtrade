@@ -322,14 +322,11 @@ function aplicarFiltro() {
 }
 
 function abrirDetalhe(estado, codcli) {
-  if (_modoTravado) {
-    // Vindo do link fixo por vendedor — abre o Raio X Clientes travado no
-    // estado (raiox.html lê ?estado= e repassa pro iframe, que esconde o
-    // select de Estado); pra ver outro estado/RCA volta nesta página em vez
-    // de mexer no filtro lá.
-    location.href = `raiox.html?estado=${encodeURIComponent(estado)}#clientes`;
-    return;
-  }
+  // raiox_cliente_detalhe.html funciona só com estado+codcli (não depende de
+  // RCA), então mesmo no modo travado (vindo do link fixo por vendedor, RCA
+  // 10/200 = Inativo/Novos Clientes) o clique abre o detalhe do cliente
+  // específico — pedido do usuário em 09/09/2026 (antes abria só a lista
+  // genérica de raiox.html#clientes travada no estado).
   // raiox_cliente_detalhe_data.js só cobre RJ/ES (CRC), SP (SPON) e MG (MGON)
   // — clientes vindos de thekings/CASTAS/GARRIDO (sem equivalente no Raio X)
   // podem não ser encontrados lá; ainda assim navega, a página trata graciosamente.
