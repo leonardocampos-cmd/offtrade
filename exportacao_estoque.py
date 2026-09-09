@@ -114,8 +114,14 @@ else:
         media_dia = float(r["MEDIA_VENDA_DIA"])
         qtestoque = float(r["QTESTOQUE"])
         dias_para_esgotar = round(qtestoque / media_dia, 1) if media_dia > 0 else None
+        # Produto com venda quase zero (media_dia minúsculo, tipo 1 unidade em
+        # 90 dias) dá dias_para_esgotar na casa dos milhões — pd.Timedelta só
+        # aceita até ~292 anos (106751 dias) e estoura com OverflowError,
+        # derrubando a exportação inteira (achado real em 09/09/2026:
+        # estoque_data.js nunca conseguia gerar por causa de 1 produto assim).
+        # Sem previsão de data faz mais sentido que uma data monstruosa.
         previsao_esgotar = (hoje + pd.Timedelta(days=dias_para_esgotar)).strftime("%d/%m/%Y") \
-            if dias_para_esgotar is not None and qtestoque > 0 else ""
+            if dias_para_esgotar is not None and 0 < dias_para_esgotar <= 36500 and qtestoque > 0 else ""
         dias_em_estoque = (hoje - r["DTULTENT"].date()).days if pd.notna(r["DTULTENT"]) else None
         dias_sem_venda  = (hoje - r["DTULTSAIDA"].date()).days if pd.notna(r["DTULTSAIDA"]) else None
         produtos_out.append({
