@@ -1,6 +1,6 @@
 // Gerado automaticamente
 const RAIOX_INDUSTRIA_DETALHE_DATA = {
-  "atualizado_em": "18/08/2026 17:04",
+  "atualizado_em": "09/09/2026 10:23",
   "meses_com_dado": [
     "2026-01",
     "2026-02",
@@ -8,16 +8,18 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
     "2026-04",
     "2026-05",
     "2026-06",
-    "2026-07"
+    "2026-07",
+    "2026-08",
+    "2026-09"
   ],
-  "faturamento_total_ytd": 63696580.57,
+  "faturamento_total_ytd": 79401718.62,
   "fornecedores": [
     {
       "fantasia": "PERNOD",
-      "faturamento_ytd": 22793127.23,
-      "participacao_pct": 35.78,
-      "media_mensal": 3256161.03,
-      "clientes_positivados": 1642,
+      "faturamento_ytd": 28548948.39,
+      "participacao_pct": 35.96,
+      "media_mensal": 3172105.38,
+      "clientes_positivados": 1948,
       "por_mes": {
         "2026-01": 1116270.68,
         "2026-02": 2130345.02,
@@ -25,20 +27,22 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
         "2026-04": 2584265.17,
         "2026-05": 4232409.32,
         "2026-06": 3961772.45,
-        "2026-07": 4508848.12
+        "2026-07": 4504716.89,
+        "2026-08": 5198171.47,
+        "2026-09": 561780.91
       },
       "top_clientes": [
         {
           "codcli": "47425",
           "estado": "SP",
           "nome": "COMERCIAL ESPERANCA ATACADISTA",
-          "faturamento": 5712074.9
+          "faturamento": 6719504.3
         },
         {
           "codcli": "40664",
           "estado": "SP",
           "nome": "COMERCIAL ZARAGOZA IMPORTACAO E EXPORTACAO",
-          "faturamento": 2807888.52
+          "faturamento": 4327511.52
         },
         {
           "codcli": "46386",
@@ -47,16 +51,28 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "faturamento": 1672903.2
         },
         {
+          "codcli": "43203",
+          "estado": "SP",
+          "nome": "WOODS WINE COMERCIO E INTERMEDIACAO DE B",
+          "faturamento": 682984.2
+        },
+        {
           "codcli": "50021",
           "estado": "SP",
           "nome": "SANTA LUZIA",
           "faturamento": 571818.6
         },
         {
-          "codcli": "43203",
+          "codcli": "47374",
           "estado": "SP",
-          "nome": "WOODS WINE COMERCIO E INTERMEDIACAO DE B",
-          "faturamento": 448857.6
+          "nome": "SIMUS BEBIDAS",
+          "faturamento": 459636.4
+        },
+        {
+          "codcli": "48007",
+          "estado": "SP",
+          "nome": "ANDORINHA SUPERMERCADO LTDA",
+          "faturamento": 445603.2
         },
         {
           "codcli": "93861",
@@ -65,66 +81,66 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "faturamento": 386568.0
         },
         {
-          "codcli": "47374",
-          "estado": "SP",
-          "nome": "SIMUS BEBIDAS",
-          "faturamento": 327839.8
-        },
-        {
-          "codcli": "48007",
-          "estado": "SP",
-          "nome": "ANDORINHA SUPERMERCADO LTDA",
-          "faturamento": 323155.5
-        },
-        {
           "codcli": "37710",
           "estado": "MG",
           "nome": "MULTICOM ATACADO E VAREJO S/A",
-          "faturamento": 318234.72
+          "faturamento": 367047.72
         },
         {
           "codcli": "36186",
           "estado": "SP",
           "nome": "AKKI LOJA 2",
-          "faturamento": 317043.6
+          "faturamento": 347872.5
         },
         {
           "codcli": "36190",
           "estado": "SP",
           "nome": "AKKI LOJA 6",
-          "faturamento": 295854.0
+          "faturamento": 334531.5
         },
         {
           "codcli": "36191",
           "estado": "SP",
           "nome": "AKKI LOJA 8",
-          "faturamento": 287257.8
-        },
-        {
-          "codcli": "90396",
-          "estado": "RJ",
-          "nome": "WOODSWINE DISTRIBUICAO E COMERCIO DE VIN",
-          "faturamento": 261010.8
-        },
-        {
-          "codcli": "36189",
-          "estado": "SP",
-          "nome": "AKKI LOJA 5",
-          "faturamento": 255748.2
+          "faturamento": 322162.2
         },
         {
           "codcli": "36188",
           "estado": "SP",
           "nome": "AKKI LOJA 4",
-          "faturamento": 251299.2
+          "faturamento": 282586.7
+        },
+        {
+          "codcli": "36189",
+          "estado": "SP",
+          "nome": "AKKI LOJA 5",
+          "faturamento": 277005.6
+        },
+        {
+          "codcli": "90396",
+          "estado": "RJ",
+          "nome": "WOODSWINE DISTRIBUICAO E COMERCIO DE VIN",
+          "faturamento": 275950.8
         }
       ],
       "top_vendedores": [
         {
+          "rca": "232",
+          "estado": "SP",
+          "nome": "ANDERSON CANAVEIS",
+          "faturamento": 3055753.46
+        },
+        {
           "rca": "318",
           "estado": "SP",
           "nome": "MARCUS TANAMACHI",
-          "faturamento": 2747032.8
+          "faturamento": 2885550.0
+        },
+        {
+          "rca": "470",
+          "estado": "SP",
+          "nome": "PRISCILLA BONACHE",
+          "faturamento": 2837382.32
         },
         {
           "rca": "315",
@@ -133,28 +149,16 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "faturamento": 2194009.02
         },
         {
-          "rca": "232",
-          "estado": "SP",
-          "nome": "ANDERSON CANAVEIS",
-          "faturamento": 2045052.26
-        },
-        {
           "rca": "426",
           "estado": "SP",
           "nome": "ADER ALONSO",
-          "faturamento": 1827403.82
+          "faturamento": 2016586.65
         },
         {
           "rca": "371",
           "estado": "SP",
           "nome": "CARLOS DE ALMEIDA",
-          "faturamento": 1670876.72
-        },
-        {
-          "rca": "470",
-          "estado": "SP",
-          "nome": "PRISCILLA BONACHE",
-          "faturamento": 1317029.72
+          "faturamento": 1964250.12
         },
         {
           "rca": "438",
@@ -172,19 +176,31 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "rca": "433",
           "estado": "SP",
           "nome": "MANUELA ZAPPACOSTA",
-          "faturamento": 849628.15
+          "faturamento": 953396.05
         },
         {
           "rca": "391",
           "estado": "SP",
           "nome": "ANDRE SILVA",
-          "faturamento": 768731.13
+          "faturamento": 911389.03
         },
         {
           "rca": "360",
           "estado": "MG",
           "nome": "LEANDRO OLIVEIRA",
-          "faturamento": 640231.68
+          "faturamento": 705694.68
+        },
+        {
+          "rca": "119",
+          "estado": "SP",
+          "nome": "VIVIANI ALVES",
+          "faturamento": 682984.2
+        },
+        {
+          "rca": "468",
+          "estado": "SP",
+          "nome": "RENATO JUNIOR",
+          "faturamento": 674168.88
         },
         {
           "rca": "376",
@@ -193,44 +209,42 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "faturamento": 584060.4
         },
         {
-          "rca": "119",
+          "rca": "462",
           "estado": "SP",
-          "nome": "VIVIANI ALVES",
-          "faturamento": 448857.6
-        },
-        {
-          "rca": "468",
-          "estado": "SP",
-          "nome": "RENATO JUNIOR",
-          "faturamento": 356844.64
-        },
-        {
-          "rca": "317",
-          "estado": "SP",
-          "nome": "ROBSON DA SILVA",
-          "faturamento": 349351.23
+          "nome": "ELIZANGELA RODRIGUES",
+          "faturamento": 459636.4
         }
       ],
       "top_produtos": [
         {
           "produto": "WHISKY PASSPORT 1L",
-          "faturamento": 3038127.15,
-          "quantidade": 95506.0
+          "faturamento": 3916355.03,
+          "quantidade": 123533.0
         },
         {
           "produto": "CONHAQUE DOMECQ 1L",
-          "faturamento": 2256233.31,
-          "quantidade": 85325.0
+          "faturamento": 2911242.09,
+          "quantidade": 110572.0
         },
         {
           "produto": "GIN BEEFEATER 750ML",
-          "faturamento": 1763224.89,
-          "quantidade": 29520.0
+          "faturamento": 1992409.28,
+          "quantidade": 33569.0
+        },
+        {
+          "produto": "WHISKY CHIVAS REGAL 12 ANOS 1L",
+          "faturamento": 1738883.57,
+          "quantidade": 20783.0
+        },
+        {
+          "produto": "CACHAÇA SAO FRANCISCO 970ML",
+          "faturamento": 1587364.16,
+          "quantidade": 76728.0
         },
         {
           "produto": "WHISKY BALLANTINE'S FINEST 1L",
-          "faturamento": 1504145.19,
-          "quantidade": 28480.0
+          "faturamento": 1503790.11,
+          "quantidade": 28474.0
         },
         {
           "produto": "CACHACA SAO FRANCISCO 970ML",
@@ -238,9 +252,9 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "quantidade": 71390.0
         },
         {
-          "produto": "WHISKY CHIVAS REGAL 12 ANOS 1L",
-          "faturamento": 1448869.51,
-          "quantidade": 17269.0
+          "produto": "WHISKY BALLANTINE S FINEST 1L",
+          "faturamento": 1383478.77,
+          "quantidade": 27821.0
         },
         {
           "produto": "VODKA ABSOLUT 1 LITRO",
@@ -248,54 +262,44 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "quantidade": 21691.0
         },
         {
-          "produto": "CACHAÇA SAO FRANCISCO 970ML",
-          "faturamento": 895080.76,
-          "quantidade": 43314.0
+          "produto": "VODKA ABSOLUT 1L",
+          "faturamento": 1084875.75,
+          "quantidade": 20956.0
         },
         {
           "produto": "WHISKY ROYAL SALUTE 700 ML",
-          "faturamento": 823484.59,
-          "quantidade": 1421.0
-        },
-        {
-          "produto": "WHISKY BALLANTINE S FINEST 1L",
-          "faturamento": 773448.69,
-          "quantidade": 15676.0
-        },
-        {
-          "produto": "VODKA ABSOLUT 1L",
-          "faturamento": 614505.24,
-          "quantidade": 11608.0
+          "faturamento": 840959.59,
+          "quantidade": 1446.0
         },
         {
           "produto": "VODKA ORLOFF 1L",
-          "faturamento": 522067.23,
-          "quantidade": 26501.0
+          "faturamento": 663784.93,
+          "quantidade": 33914.0
+        },
+        {
+          "produto": "WHISKY PASSPORT HONEY 670ML",
+          "faturamento": 658843.55,
+          "quantidade": 19918.0
         },
         {
           "produto": "RUM MONTILLA OURO 1000ML",
-          "faturamento": 460089.86,
-          "quantidade": 22158.0
-        },
-        {
-          "produto": "BEEFEATER PINK 700ML",
-          "faturamento": 386344.4,
-          "quantidade": 5812.0
+          "faturamento": 473254.04,
+          "quantidade": 22771.0
         },
         {
           "produto": "GIN BEEFEATER PINK 700ML",
-          "faturamento": 367214.56,
-          "quantidade": 6697.0
+          "faturamento": 431396.06,
+          "quantidade": 7642.0
         }
       ],
       "posicao": 1
     },
     {
       "fantasia": "RED BULL",
-      "faturamento_ytd": 6422181.53,
-      "participacao_pct": 10.08,
-      "media_mensal": 917454.5,
-      "clientes_positivados": 1203,
+      "faturamento_ytd": 7641375.35,
+      "participacao_pct": 9.62,
+      "media_mensal": 849041.71,
+      "clientes_positivados": 1346,
       "por_mes": {
         "2026-01": 1573245.16,
         "2026-02": 1107553.53,
@@ -303,7 +307,9 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
         "2026-04": 336270.88,
         "2026-05": 1010345.34,
         "2026-06": 986581.17,
-        "2026-07": 676329.03
+        "2026-07": 675170.16,
+        "2026-08": 1050876.56,
+        "2026-09": 169476.13
       },
       "top_clientes": [
         {
@@ -322,7 +328,19 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "codcli": "31722",
           "estado": "MG",
           "nome": "THAYANE MICELE",
-          "faturamento": 240208.04
+          "faturamento": 354688.76
+        },
+        {
+          "codcli": "46386",
+          "estado": "SP",
+          "nome": "ATACADO SOARES",
+          "faturamento": 302330.88
+        },
+        {
+          "codcli": "30538",
+          "estado": "MG",
+          "nome": "DAKI OFFICE BELO HORIZONTE",
+          "faturamento": 269431.2
         },
         {
           "codcli": "54862",
@@ -331,15 +349,15 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "faturamento": 228967.2
         },
         {
-          "codcli": "30538",
-          "estado": "MG",
-          "nome": "DAKI OFFICE BELO HORIZONTE",
-          "faturamento": 177757.92
+          "codcli": "94469",
+          "estado": "ES",
+          "nome": "ORIGINAL COMERCIO DE ALIMENTOS E BEBIDAS",
+          "faturamento": 155312.64
         },
         {
-          "codcli": "46386",
+          "codcli": "47449",
           "estado": "SP",
-          "nome": "ATACADO SOARES",
+          "nome": "FAMILIA LIMA RODRIGUES",
           "faturamento": 151165.44
         },
         {
@@ -358,7 +376,7 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "codcli": "66026",
           "estado": "RJ",
           "nome": "CHOPERIA FORTE BEER",
-          "faturamento": 120621.12
+          "faturamento": 122370.72
         },
         {
           "codcli": "84845",
@@ -373,28 +391,16 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "faturamento": 77656.32
         },
         {
+          "codcli": "81924",
+          "estado": "RJ",
+          "nome": "EDEN GASTRONOMIA E CHOPERIA",
+          "faturamento": 72715.25
+        },
+        {
           "codcli": "80707",
           "estado": "RJ",
           "nome": "AS BEBIDAS",
           "faturamento": 61988.16
-        },
-        {
-          "codcli": "69216",
-          "estado": "RJ",
-          "nome": "SANTI ATACADO E VAREJO",
-          "faturamento": 59086.08
-        },
-        {
-          "codcli": "86028",
-          "estado": "RJ",
-          "nome": "PATO NA JANELA LOUNGE",
-          "faturamento": 55663.2
-        },
-        {
-          "codcli": "81924",
-          "estado": "RJ",
-          "nome": "EDEN GASTRONOMIA E CHOPERIA",
-          "faturamento": 55123.25
         }
       ],
       "top_vendedores": [
@@ -408,13 +414,13 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "rca": "155",
           "estado": "RJ",
           "nome": "RAPHAEL SANTOS",
-          "faturamento": 863236.12
+          "faturamento": 917770.48
         },
         {
           "rca": "159",
           "estado": "RJ",
           "nome": "GISELLE BARFER",
-          "faturamento": 818000.65
+          "faturamento": 885429.93
         },
         {
           "rca": "343",
@@ -426,13 +432,31 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "rca": "327",
           "estado": "MG",
           "nome": "JOÃO SANTOS",
-          "faturamento": 602150.19
+          "faturamento": 749669.07
+        },
+        {
+          "rca": "318",
+          "estado": "SP",
+          "nome": "MARCUS TANAMACHI",
+          "faturamento": 453496.32
+        },
+        {
+          "rca": "230",
+          "estado": "ES",
+          "nome": "ENEIVA RODRIGUES",
+          "faturamento": 321277.24
+        },
+        {
+          "rca": "354",
+          "estado": "MG",
+          "nome": "MATHEUS DE SOUZA",
+          "faturamento": 278386.94
         },
         {
           "rca": "378",
           "estado": "RJ",
           "nome": "FABIO VALOTTI",
-          "faturamento": 221283.31
+          "faturamento": 244966.55
         },
         {
           "rca": "257",
@@ -441,22 +465,16 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "faturamento": 216294.95
         },
         {
-          "rca": "354",
-          "estado": "MG",
-          "nome": "MATHEUS DE SOUZA",
-          "faturamento": 186781.58
+          "rca": "144",
+          "estado": "RJ",
+          "nome": "DIOGO RAPOSO",
+          "faturamento": 161045.0
         },
         {
-          "rca": "230",
-          "estado": "ES",
-          "nome": "ENEIVA RODRIGUES",
-          "faturamento": 165964.6
-        },
-        {
-          "rca": "318",
-          "estado": "SP",
-          "nome": "MARCUS TANAMACHI",
-          "faturamento": 151165.44
+          "rca": "379",
+          "estado": "RJ",
+          "nome": "JORGE MACIEL",
+          "faturamento": 155366.88
         },
         {
           "rca": "331",
@@ -465,90 +483,83 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "faturamento": 146141.06
         },
         {
+          "rca": "241",
+          "estado": "RJ",
+          "nome": "ZEINALDO DE OLIVEIRA",
+          "faturamento": 143580.54
+        },
+        {
           "rca": "335",
           "estado": "MG",
           "nome": "JANAIRA MARQUES",
           "faturamento": 139651.53
-        },
-        {
-          "rca": "144",
-          "estado": "RJ",
-          "nome": "DIOGO RAPOSO",
-          "faturamento": 123256.14
-        },
-        {
-          "rca": "241",
-          "estado": "RJ",
-          "nome": "ZEINALDO DE OLIVEIRA",
-          "faturamento": 114782.9
-        },
-        {
-          "rca": "419",
-          "estado": "RJ",
-          "nome": "NÁTALI DE OLIVEIRA",
-          "faturamento": 89339.2
         }
       ],
       "top_produtos": [
         {
-          "produto": "RED BULL 250ML CAIXA C/24 UNID",
-          "faturamento": 1720836.86,
-          "quantidade": 10587.0
+          "produto": "RED BULL 24X250ML",
+          "faturamento": 1880173.7,
+          "quantidade": 11063.0
         },
         {
-          "produto": "RED BULL 24X250ML",
-          "faturamento": 1443883.41,
-          "quantidade": 8560.0
+          "produto": "RED BULL 250ML CAIXA C/24 UNID",
+          "faturamento": 1799569.58,
+          "quantidade": 10994.0
         },
         {
           "produto": "RED BULL TROPICAL EDITION 250 ML CX C/24",
-          "faturamento": 616679.82,
-          "quantidade": 3697.0
+          "faturamento": 658484.22,
+          "quantidade": 3913.0
         },
         {
           "produto": "RED BULL MELANCIA 250ML CX C/24",
-          "faturamento": 462509.57,
-          "quantidade": 2876.0
+          "faturamento": 494073.88,
+          "quantidade": 3058.0
         },
         {
           "produto": "RED BULL TROPICAL 24X250ML",
-          "faturamento": 329878.18,
-          "quantidade": 1889.0
-        },
-        {
-          "produto": "RED BULL MORANGO PESSEGO 24X250ML",
-          "faturamento": 288161.35,
-          "quantidade": 1827.0
+          "faturamento": 453196.56,
+          "quantidade": 2589.0
         },
         {
           "produto": "RED BULL MELANCIA 24X250ML",
-          "faturamento": 271172.11,
-          "quantidade": 1622.0
+          "faturamento": 302863.39,
+          "quantidade": 1786.0
         },
         {
           "produto": "RED BULL 250ML CAIXA C/ 24",
+          "faturamento": 302330.88,
+          "quantidade": 1728.0
+        },
+        {
+          "produto": "RED BULL MORANGO PESSEGO 24X250ML",
+          "faturamento": 297328.07,
+          "quantidade": 1880.0
+        },
+        {
+          "produto": "RED BULL SUGAR FREE  250 ML CX C/24",
+          "faturamento": 159262.86,
+          "quantidade": 903.0
+        },
+        {
+          "produto": "RED BULL CAIXA 24X250ML",
           "faturamento": 151165.44,
           "quantidade": 864.0
         },
         {
-          "produto": "RED BULL SUGAR FREE  250 ML CX C/24",
-          "faturamento": 122072.94,
-          "quantidade": 709.0
+          "produto": "RED BULL ZERO 24X250ML",
+          "faturamento": 135305.75,
+          "quantidade": 801.0
         },
         {
           "produto": "RED BULL ZERO  24X250ML",
-          "faturamento": 103541.43,
-          "quantidade": 597.0
-        },
-        {
-          "produto": "RED BULL ZERO 24X250ML",
-          "faturamento": 99334.79,
-          "quantidade": 608.0
+          "faturamento": 121173.29,
+          "quantidade": 699.0
         },
         {
           "produto": "RED BULL CEREJA 24X250ML",
-          "faturamento": 77880.52,
-          "quantidade": 491.0
+          "faturamento": 81137.4,
+          "quantidade": 510.0
         },
         {
           "produto": "4 PACK RED BULL",
@@ -556,24 +567,299 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "quantidade": 2335.0
         },
         {
-          "produto": "RED BULL MORANGO E PESSEGO 250ML CX24",
-          "faturamento": 54605.76,
-          "quantidade": 324.0
-        },
-        {
           "produto": "RED BULL SUGAR FREE 24X250ML",
-          "faturamento": 50317.01,
-          "quantidade": 285.0
+          "faturamento": 58874.27,
+          "quantidade": 334.0
         }
       ],
       "posicao": 2
     },
     {
+      "fantasia": "DIAGEO",
+      "faturamento_ytd": 5755794.62,
+      "participacao_pct": 7.25,
+      "media_mensal": 639532.74,
+      "clientes_positivados": 1195,
+      "por_mes": {
+        "2026-01": 426093.81,
+        "2026-02": 427351.92,
+        "2026-03": 393556.41,
+        "2026-04": 612558.96,
+        "2026-05": 403324.79,
+        "2026-06": 673669.31,
+        "2026-07": 435911.22,
+        "2026-08": 2259279.15,
+        "2026-09": 124049.05
+      },
+      "top_clientes": [
+        {
+          "codcli": "96025",
+          "estado": "RJ",
+          "nome": "SOL NASCENTE DISTRIBUICAO E REPRESENTACA",
+          "faturamento": 1307712.0
+        },
+        {
+          "codcli": "37710",
+          "estado": "MG",
+          "nome": "MULTICOM ATACADO E VAREJO S/A",
+          "faturamento": 424008.48
+        },
+        {
+          "codcli": "33139",
+          "estado": "MG",
+          "nome": "CORDEIRO SUPERMERCADOS",
+          "faturamento": 375741.6
+        },
+        {
+          "codcli": "34568",
+          "estado": "MG",
+          "nome": "BIG MAIS SUPERMERCADOS",
+          "faturamento": 259232.4
+        },
+        {
+          "codcli": "30231",
+          "estado": "MG",
+          "nome": "ORGANIZACAO VERDEMAR LTDA",
+          "faturamento": 218307.0
+        },
+        {
+          "codcli": "30538",
+          "estado": "MG",
+          "nome": "DAKI OFFICE BELO HORIZONTE",
+          "faturamento": 156698.22
+        },
+        {
+          "codcli": "96260",
+          "estado": "RJ",
+          "nome": "FAMILIA LIMA RODRIGUES",
+          "faturamento": 106200.0
+        },
+        {
+          "codcli": "81490",
+          "estado": "RJ",
+          "nome": "MAYRON S BAR",
+          "faturamento": 100659.7
+        },
+        {
+          "codcli": "38039",
+          "estado": "MG",
+          "nome": "CEMA CENTRAL MINEIRA ATACADISTA LTDA",
+          "faturamento": 99207.48
+        },
+        {
+          "codcli": "33491",
+          "estado": "MG",
+          "nome": "SUPERMERCADO SUPER LUNA S.A",
+          "faturamento": 88639.2
+        },
+        {
+          "codcli": "92136",
+          "estado": "RJ",
+          "nome": "KAUE ALVES DA SILVA SARAIVA",
+          "faturamento": 76095.8
+        },
+        {
+          "codcli": "33979",
+          "estado": "MG",
+          "nome": "DISTRUIBUIDORA DO BE",
+          "faturamento": 69493.32
+        },
+        {
+          "codcli": "58584",
+          "estado": "RJ",
+          "nome": "SUPERMARKET - ENGENHO VELHO",
+          "faturamento": 59640.72
+        },
+        {
+          "codcli": "30909",
+          "estado": "MG",
+          "nome": "SUPERMECADO IMPERIAL",
+          "faturamento": 59445.6
+        },
+        {
+          "codcli": "69216",
+          "estado": "RJ",
+          "nome": "SANTI ATACADO E VAREJO",
+          "faturamento": 56361.0
+        }
+      ],
+      "top_vendedores": [
+        {
+          "rca": "306",
+          "estado": "RJ",
+          "nome": "DANIEL DINIZ",
+          "faturamento": 1413912.0
+        },
+        {
+          "rca": "360",
+          "estado": "MG",
+          "nome": "LEANDRO OLIVEIRA",
+          "faturamento": 1221484.44
+        },
+        {
+          "rca": "155",
+          "estado": "RJ",
+          "nome": "RAPHAEL SANTOS",
+          "faturamento": 297730.95
+        },
+        {
+          "rca": "144",
+          "estado": "RJ",
+          "nome": "DIOGO RAPOSO",
+          "faturamento": 287071.54
+        },
+        {
+          "rca": "378",
+          "estado": "MG",
+          "nome": "JETER LUCIO SOARES",
+          "faturamento": 273288.0
+        },
+        {
+          "rca": "354",
+          "estado": "MG",
+          "nome": "MATHEUS DE SOUZA",
+          "faturamento": 266600.72
+        },
+        {
+          "rca": "159",
+          "estado": "RJ",
+          "nome": "GISELLE BARFER",
+          "faturamento": 233084.93
+        },
+        {
+          "rca": "349",
+          "estado": "MG",
+          "nome": "WILLIAM ALVES DA SILVA",
+          "faturamento": 189478.69
+        },
+        {
+          "rca": "327",
+          "estado": "MG",
+          "nome": "JOÃO SANTOS",
+          "faturamento": 175372.14
+        },
+        {
+          "rca": "156",
+          "estado": "RJ",
+          "nome": "MARILENA TRAGEL",
+          "faturamento": 147533.77
+        },
+        {
+          "rca": "542",
+          "estado": "MG",
+          "nome": "LUIZ FERNANDO SALGADO",
+          "faturamento": 111922.68
+        },
+        {
+          "rca": "343",
+          "estado": "MG",
+          "nome": "FERNANDO RISSON",
+          "faturamento": 81008.88
+        },
+        {
+          "rca": "450",
+          "estado": "RJ",
+          "nome": "LEANDRO SOUZA",
+          "faturamento": 79702.11
+        },
+        {
+          "rca": "371",
+          "estado": "SP",
+          "nome": "CARLOS DE ALMEIDA",
+          "faturamento": 70124.76
+        },
+        {
+          "rca": "417",
+          "estado": "RJ",
+          "nome": "DIRLEI ARAUJO",
+          "faturamento": 69709.65
+        }
+      ],
+      "top_produtos": [
+        {
+          "produto": "VODCA BAM CIROC RED BERRY 750 ML",
+          "faturamento": 1378494.51,
+          "quantidade": 9860.0
+        },
+        {
+          "produto": "WHISKY WALKER RED LABEL 1L",
+          "faturamento": 1167678.41,
+          "quantidade": 16520.0
+        },
+        {
+          "produto": "WHISKY J WALKER BLACK LABEL 1L",
+          "faturamento": 361133.35,
+          "quantidade": 2367.0
+        },
+        {
+          "produto": "VODCA SMIRNOFF RED 998 ML",
+          "faturamento": 338670.13,
+          "quantidade": 12062.0
+        },
+        {
+          "produto": "GIN GORDONS 750 ML",
+          "faturamento": 231386.44,
+          "quantidade": 4242.0
+        },
+        {
+          "produto": "GIN TANQUERAY  750 ML",
+          "faturamento": 223060.73,
+          "quantidade": 2382.0
+        },
+        {
+          "produto": "VODKA SMIRNOFF RED 998 ML",
+          "faturamento": 219772.95,
+          "quantidade": 7263.0
+        },
+        {
+          "produto": "SMIRNOFF ICE -24 UNIDADES (LONG  NECK)",
+          "faturamento": 207730.71,
+          "quantidade": 1680.0
+        },
+        {
+          "produto": "WHISKY J WALKER GOLD LABEL RESERVE 750ML",
+          "faturamento": 189917.89,
+          "quantidade": 863.0
+        },
+        {
+          "produto": "WHISKY J WALKER RED LABEL 1L",
+          "faturamento": 152423.15,
+          "quantidade": 2063.0
+        },
+        {
+          "produto": "WHISKY J. WALKER RED LABEL 1L",
+          "faturamento": 113443.78,
+          "quantidade": 1903.0
+        },
+        {
+          "produto": "SMIRNOFF ICE - 24 UNIDADES (LONG NECK)",
+          "faturamento": 103189.03,
+          "quantidade": 751.0
+        },
+        {
+          "produto": "WHISKY BUCHANANS 12 YEARS 1000 ML",
+          "faturamento": 78164.13,
+          "quantidade": 507.0
+        },
+        {
+          "produto": "VODKA SMIRNOFF 600 ML",
+          "faturamento": 65005.52,
+          "quantidade": 3098.0
+        },
+        {
+          "produto": "WHISKY BUCHANANS 12 YEARS 750 ML",
+          "faturamento": 57728.46,
+          "quantidade": 518.0
+        }
+      ],
+      "posicao": 3
+    },
+    {
       "fantasia": "ROBINSON CRUSOE",
-      "faturamento_ytd": 3975341.14,
-      "participacao_pct": 6.24,
-      "media_mensal": 567905.88,
-      "clientes_positivados": 461,
+      "faturamento_ytd": 4804476.43,
+      "participacao_pct": 6.05,
+      "media_mensal": 533830.71,
+      "clientes_positivados": 484,
       "por_mes": {
         "2026-01": 355364.85,
         "2026-02": 507006.37,
@@ -581,32 +867,34 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
         "2026-04": 625711.98,
         "2026-05": 502378.5,
         "2026-06": 116431.17,
-        "2026-07": 682351.53
+        "2026-07": 678460.71,
+        "2026-08": 620359.94,
+        "2026-09": 212666.17
       },
       "top_clientes": [
         {
           "codcli": "6278",
           "estado": "RJ",
           "nome": "SUPERMERCADOS MUNDIAL - INHAUMA",
-          "faturamento": 1834730.17
-        },
-        {
-          "codcli": "7886",
-          "estado": "RJ",
-          "nome": "PREZUNIC - PENHA",
-          "faturamento": 429540.52
+          "faturamento": 2031631.45
         },
         {
           "codcli": "74376",
           "estado": "ES",
           "nome": "CARONE - GALPAO",
-          "faturamento": 341147.56
+          "faturamento": 623774.82
         },
         {
           "codcli": "79819",
           "estado": "ES",
           "nome": "SUPERMERCADOS CASAGRANDE",
-          "faturamento": 306390.2
+          "faturamento": 478638.2
+        },
+        {
+          "codcli": "7886",
+          "estado": "RJ",
+          "nome": "PREZUNIC - PENHA",
+          "faturamento": 474233.43
         },
         {
           "codcli": "21031",
@@ -627,22 +915,34 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "faturamento": 52732.6
         },
         {
+          "codcli": "85095",
+          "estado": "RJ",
+          "nome": "CARONE CABO FRIO - CENTRO",
+          "faturamento": 30696.37
+        },
+        {
           "codcli": "84077",
           "estado": "RJ",
           "nome": "FORNERIA ORIGINAL COZINHA - CAMORIM",
-          "faturamento": 20275.2
+          "faturamento": 30412.8
+        },
+        {
+          "codcli": "85921",
+          "estado": "RJ",
+          "nome": "SEMPRE TEM SAO PEDRO DA ALDEIA",
+          "faturamento": 27841.54
+        },
+        {
+          "codcli": "90484",
+          "estado": "RJ",
+          "nome": "MERCADO RC DE ITAGUAI",
+          "faturamento": 25443.87
         },
         {
           "codcli": "21027",
           "estado": "ES",
           "nome": "SUPERMERCADOS NOROESTE",
           "faturamento": 14747.03
-        },
-        {
-          "codcli": "85095",
-          "estado": "RJ",
-          "nome": "CARONE CABO FRIO - CENTRO",
-          "faturamento": 14033.41
         },
         {
           "codcli": "81760",
@@ -657,22 +957,10 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "faturamento": 12579.84
         },
         {
-          "codcli": "90484",
+          "codcli": "85897",
           "estado": "RJ",
-          "nome": "MERCADO RC DE ITAGUAI",
-          "faturamento": 12341.19
-        },
-        {
-          "codcli": "81521",
-          "estado": "ES",
-          "nome": "COMERCIAL BAE",
-          "faturamento": 12196.76
-        },
-        {
-          "codcli": "93251",
-          "estado": "ES",
-          "nome": "SUPERMERCADO PESSIN",
-          "faturamento": 11970.0
+          "nome": "SUPERMERCADO JARDIM ATLANTICO",
+          "faturamento": 12579.18
         }
       ],
       "top_vendedores": [
@@ -680,13 +968,13 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "rca": "158",
           "estado": "RJ",
           "nome": "JOSE MARCELO CARDOSO",
-          "faturamento": 1834730.17
+          "faturamento": 2031631.45
         },
         {
           "rca": "388",
           "estado": "ES",
           "nome": "EUDES MORGAN",
-          "faturamento": 454859.84
+          "faturamento": 909735.1
         },
         {
           "rca": "238",
@@ -701,16 +989,16 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "faturamento": 266134.54
         },
         {
+          "rca": "275",
+          "estado": "RJ",
+          "nome": "MARIA LUIZA",
+          "faturamento": 231187.73
+        },
+        {
           "rca": "341",
           "estado": "ES",
           "nome": "WANDERSON FERREIRA",
           "faturamento": 227120.0
-        },
-        {
-          "rca": "275",
-          "estado": "RJ",
-          "nome": "MARIA LUIZA",
-          "faturamento": 149874.55
         },
         {
           "rca": "342",
@@ -719,16 +1007,22 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "faturamento": 128542.24
         },
         {
-          "rca": "402",
-          "estado": "ES",
-          "nome": "GILDO ADRIANO",
-          "faturamento": 80591.67
+          "rca": "153",
+          "estado": "RJ",
+          "nome": "ANGELO NEVES SUZART",
+          "faturamento": 85991.58
         },
         {
           "rca": "412",
           "estado": "RJ",
           "nome": "BARBARA CABRAL",
-          "faturamento": 64754.5
+          "faturamento": 81366.25
+        },
+        {
+          "rca": "402",
+          "estado": "ES",
+          "nome": "GILDO ADRIANO",
+          "faturamento": 80591.67
         },
         {
           "rca": "370",
@@ -737,16 +1031,10 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "faturamento": 63842.8
         },
         {
-          "rca": "153",
-          "estado": "RJ",
-          "nome": "ANGELO NEVES SUZART",
-          "faturamento": 60724.09
-        },
-        {
           "rca": "379",
           "estado": "RJ",
           "nome": "JORGE MACIEL",
-          "faturamento": 50814.56
+          "faturamento": 60795.26
         },
         {
           "rca": "260",
@@ -755,33 +1043,38 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "faturamento": 45624.75
         },
         {
+          "rca": "144",
+          "estado": "RJ",
+          "nome": "DIOGO RAPOSO",
+          "faturamento": 39425.91
+        },
+        {
           "rca": "336",
           "estado": "ES",
           "nome": "JEAN MENEZES",
           "faturamento": 38599.44
-        },
-        {
-          "rca": "335",
-          "estado": "ES",
-          "nome": "MARA DEPOLLI",
-          "faturamento": 37997.36
         }
       ],
       "top_produtos": [
         {
           "produto": "RC ATUM SOLIDO NATURAL 24X170G",
-          "faturamento": 1097204.81,
-          "quantidade": 6020.0
+          "faturamento": 1238078.79,
+          "quantidade": 6782.0
         },
         {
           "produto": "RC ATUM SOLIDO OLEO 24X170G",
-          "faturamento": 922753.6,
-          "quantidade": 5069.0
+          "faturamento": 1026377.96,
+          "quantidade": 5629.0
         },
         {
           "produto": "RC SARDINHA EM OLEO 50X125G",
-          "faturamento": 307521.82,
-          "quantidade": 1423.0
+          "faturamento": 530502.22,
+          "quantidade": 2419.0
+        },
+        {
+          "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
+          "faturamento": 325132.88,
+          "quantidade": 1514.0
         },
         {
           "produto": "RC SARDINHA TOMATE 50X125G",
@@ -794,19 +1087,29 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "quantidade": 1215.0
         },
         {
-          "produto": "RC SARDINHA MOLHO DE TOMATE 50X125G",
-          "faturamento": 236363.22,
-          "quantidade": 1111.0
-        },
-        {
           "produto": "RC ATUM PEDACOS EM OLEO 24X140G",
-          "faturamento": 145565.64,
-          "quantidade": 821.0
+          "faturamento": 190289.7,
+          "quantidade": 1067.0
         },
         {
           "produto": "RC ATUM PEDACOS NATURAL 24X140G",
-          "faturamento": 130457.13,
-          "quantidade": 730.0
+          "faturamento": 169837.38,
+          "quantidade": 942.0
+        },
+        {
+          "produto": "RC ATUM RALADO NATURAL 24X140G",
+          "faturamento": 147270.25,
+          "quantidade": 1067.0
+        },
+        {
+          "produto": "RC ATUM RALADO OLEO 24X140G",
+          "faturamento": 131459.83,
+          "quantidade": 953.0
+        },
+        {
+          "produto": "RC ATUM SOLIDO YF EM OLIVA 12X170G",
+          "faturamento": 99251.32,
+          "quantidade": 825.0
         },
         {
           "produto": "RC ATUM RALADO NATURAL 24X170G",
@@ -814,600 +1117,309 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "quantidade": 717.0
         },
         {
-          "produto": "RC ATUM RALADO NATURAL 24X140G",
-          "faturamento": 93334.88,
-          "quantidade": 680.0
-        },
-        {
-          "produto": "RC ATUM RALADO OLEO 24X140G",
-          "faturamento": 77790.45,
-          "quantidade": 567.0
-        },
-        {
-          "produto": "RC ATUM SOLIDO YF EM OLIVA 12X170G",
-          "faturamento": 67423.24,
-          "quantidade": 556.0
-        },
-        {
           "produto": "RC ATUM RALADO MOLHO DE TOMATE 24X140G",
-          "faturamento": 58771.21,
-          "quantidade": 423.0
+          "faturamento": 84111.41,
+          "quantidade": 608.0
+        },
+        {
+          "produto": "RC ATUM PEDACOS MOLHO DE TOMATE 24X140G",
+          "faturamento": 33930.58,
+          "quantidade": 187.0
         },
         {
           "produto": "RC ATUM RALADO OLEO 24X170G",
           "faturamento": 30927.3,
           "quantidade": 234.0
-        },
-        {
-          "produto": "RC ATUM PEDACOS MOLHO DE TOMATE 24X140G",
-          "faturamento": 21885.3,
-          "quantidade": 122.0
-        }
-      ],
-      "posicao": 3
-    },
-    {
-      "fantasia": "DIAGEO",
-      "faturamento_ytd": 3372891.63,
-      "participacao_pct": 5.3,
-      "media_mensal": 481841.66,
-      "clientes_positivados": 1025,
-      "por_mes": {
-        "2026-01": 426093.81,
-        "2026-02": 427351.92,
-        "2026-03": 393556.41,
-        "2026-04": 612558.96,
-        "2026-05": 403324.79,
-        "2026-06": 673697.21,
-        "2026-07": 436308.52
-      },
-      "top_clientes": [
-        {
-          "codcli": "37710",
-          "estado": "MG",
-          "nome": "MULTICOM ATACADO E VAREJO S/A",
-          "faturamento": 348011.64
-        },
-        {
-          "codcli": "33139",
-          "estado": "MG",
-          "nome": "CORDEIRO SUPERMERCADOS",
-          "faturamento": 275334.0
-        },
-        {
-          "codcli": "30231",
-          "estado": "MG",
-          "nome": "ORGANIZACAO VERDEMAR LTDA",
-          "faturamento": 163949.4
-        },
-        {
-          "codcli": "30538",
-          "estado": "MG",
-          "nome": "DAKI OFFICE BELO HORIZONTE",
-          "faturamento": 133159.02
-        },
-        {
-          "codcli": "38039",
-          "estado": "MG",
-          "nome": "CEMA CENTRAL MINEIRA ATACADISTA LTDA",
-          "faturamento": 99207.48
-        },
-        {
-          "codcli": "33491",
-          "estado": "MG",
-          "nome": "SUPERMERCADO SUPER LUNA S.A",
-          "faturamento": 88639.2
-        },
-        {
-          "codcli": "81490",
-          "estado": "RJ",
-          "nome": "MAYRON S BAR",
-          "faturamento": 85595.3
-        },
-        {
-          "codcli": "33979",
-          "estado": "MG",
-          "nome": "DISTRUIBUIDORA DO BE",
-          "faturamento": 68299.92
-        },
-        {
-          "codcli": "30909",
-          "estado": "MG",
-          "nome": "SUPERMECADO IMPERIAL",
-          "faturamento": 59445.6
-        },
-        {
-          "codcli": "69216",
-          "estado": "RJ",
-          "nome": "SANTI ATACADO E VAREJO",
-          "faturamento": 56361.0
-        },
-        {
-          "codcli": "31062",
-          "estado": "MG",
-          "nome": "SUPERMERCADOS REX LTDA",
-          "faturamento": 40434.0
-        },
-        {
-          "codcli": "58584",
-          "estado": "RJ",
-          "nome": "SUPERMARKET - ENGENHO VELHO",
-          "faturamento": 39174.72
-        },
-        {
-          "codcli": "92136",
-          "estado": "RJ",
-          "nome": "KAUE ALVES DA SILVA SARAIVA",
-          "faturamento": 38135.6
-        },
-        {
-          "codcli": "32805",
-          "estado": "MG",
-          "nome": "SOS BIRINYTE",
-          "faturamento": 35708.4
-        },
-        {
-          "codcli": "74297",
-          "estado": "RJ",
-          "nome": "CONVENIENCIA BUZIANA LTDA",
-          "faturamento": 26225.0
-        }
-      ],
-      "top_vendedores": [
-        {
-          "rca": "360",
-          "estado": "MG",
-          "nome": "LEANDRO OLIVEIRA",
-          "faturamento": 971217.6
-        },
-        {
-          "rca": "155",
-          "estado": "RJ",
-          "nome": "RAPHAEL SANTOS",
-          "faturamento": 264198.25
-        },
-        {
-          "rca": "354",
-          "estado": "MG",
-          "nome": "MATHEUS DE SOUZA",
-          "faturamento": 217184.78
-        },
-        {
-          "rca": "144",
-          "estado": "RJ",
-          "nome": "DIOGO RAPOSO",
-          "faturamento": 207721.64
-        },
-        {
-          "rca": "159",
-          "estado": "RJ",
-          "nome": "GISELLE BARFER",
-          "faturamento": 197551.33
-        },
-        {
-          "rca": "349",
-          "estado": "MG",
-          "nome": "WILLIAM ALVES DA SILVA",
-          "faturamento": 176746.99
-        },
-        {
-          "rca": "327",
-          "estado": "MG",
-          "nome": "JOÃO SANTOS",
-          "faturamento": 146125.3
-        },
-        {
-          "rca": "156",
-          "estado": "RJ",
-          "nome": "MARILENA TRAGEL",
-          "faturamento": 123864.57
-        },
-        {
-          "rca": "542",
-          "estado": "MG",
-          "nome": "LUIZ FERNANDO SALGADO",
-          "faturamento": 111922.68
-        },
-        {
-          "rca": "343",
-          "estado": "MG",
-          "nome": "FERNANDO RISSON",
-          "faturamento": 81008.88
-        },
-        {
-          "rca": "417",
-          "estado": "RJ",
-          "nome": "DIRLEI ARAUJO",
-          "faturamento": 69709.65
-        },
-        {
-          "rca": "371",
-          "estado": "SP",
-          "nome": "CARLOS DE ALMEIDA",
-          "faturamento": 67351.5
-        },
-        {
-          "rca": "331",
-          "estado": "MG",
-          "nome": "SAVIO NETO",
-          "faturamento": 64770.84
-        },
-        {
-          "rca": "450",
-          "estado": "RJ",
-          "nome": "LEANDRO SOUZA",
-          "faturamento": 57730.11
-        },
-        {
-          "rca": "362",
-          "estado": "MG",
-          "nome": "BRUNA CASTRO MELLO",
-          "faturamento": 42738.26
-        }
-      ],
-      "top_produtos": [
-        {
-          "produto": "WHISKY WALKER RED LABEL 1L",
-          "faturamento": 774413.21,
-          "quantidade": 10856.0
-        },
-        {
-          "produto": "WHISKY J WALKER BLACK LABEL 1L",
-          "faturamento": 308090.03,
-          "quantidade": 2008.0
-        },
-        {
-          "produto": "VODCA SMIRNOFF RED 998 ML",
-          "faturamento": 287457.93,
-          "quantidade": 10130.0
-        },
-        {
-          "produto": "GIN GORDONS 750 ML",
-          "faturamento": 197243.98,
-          "quantidade": 3606.0
-        },
-        {
-          "produto": "VODKA SMIRNOFF RED 998 ML",
-          "faturamento": 194440.85,
-          "quantidade": 6410.0
-        },
-        {
-          "produto": "GIN TANQUERAY  750 ML",
-          "faturamento": 191330.34,
-          "quantidade": 2038.0
-        },
-        {
-          "produto": "SMIRNOFF ICE -24 UNIDADES (LONG  NECK)",
-          "faturamento": 186389.85,
-          "quantidade": 1507.0
-        },
-        {
-          "produto": "WHISKY J WALKER RED LABEL 1L",
-          "faturamento": 133694.45,
-          "quantidade": 1814.0
-        },
-        {
-          "produto": "WHISKY J WALKER GOLD LABEL RESERVE 750ML",
-          "faturamento": 119306.99,
-          "quantidade": 551.0
-        },
-        {
-          "produto": "SMIRNOFF ICE - 24 UNIDADES (LONG NECK)",
-          "faturamento": 91411.01,
-          "quantidade": 661.0
-        },
-        {
-          "produto": "WHISKY BUCHANANS 12 YEARS 1000 ML",
-          "faturamento": 67024.63,
-          "quantidade": 434.0
-        },
-        {
-          "produto": "VODKA SMIRNOFF 600 ML",
-          "faturamento": 48904.66,
-          "quantidade": 2317.0
-        },
-        {
-          "produto": "WHISKY BUCHANANS 12 YEARS 1L",
-          "faturamento": 45908.41,
-          "quantidade": 285.0
-        },
-        {
-          "produto": "GIN GORDONS PINK 700ML",
-          "faturamento": 40949.21,
-          "quantidade": 750.0
-        },
-        {
-          "produto": "SMIR ICE REGULAR - 0.269 LT  X 24",
-          "faturamento": 39159.12,
-          "quantidade": 393.0
         }
       ],
       "posicao": 4
     },
     {
-      "fantasia": "CASTAS",
-      "faturamento_ytd": 2438056.98,
-      "participacao_pct": 3.83,
-      "media_mensal": 348293.85,
-      "clientes_positivados": 742,
+      "fantasia": "BROWN",
+      "faturamento_ytd": 3140011.72,
+      "participacao_pct": 3.95,
+      "media_mensal": 348890.19,
+      "clientes_positivados": 721,
       "por_mes": {
-        "2026-01": 255158.56,
-        "2026-02": 280555.57,
-        "2026-03": 398975.03,
-        "2026-04": 290350.99,
-        "2026-05": 628018.6,
-        "2026-06": 286848.41,
-        "2026-07": 298149.81
+        "2026-01": 53877.22,
+        "2026-02": 86160.7,
+        "2026-03": 62315.17,
+        "2026-04": 93611.85,
+        "2026-05": 419986.72,
+        "2026-06": 487296.62,
+        "2026-07": 453140.69,
+        "2026-08": 827572.74,
+        "2026-09": 656050.0
       },
       "top_clientes": [
         {
-          "codcli": "49274",
+          "codcli": "50823",
           "estado": "SP",
-          "nome": "ST MARCHE",
-          "faturamento": 259098.0
+          "nome": "FERSIL ATACADISTA DE BEBIDAS E ALIMENTOS",
+          "faturamento": 819840.0
         },
         {
-          "codcli": "30374",
-          "estado": "MG",
-          "nome": "EL MAI",
-          "faturamento": 105536.26
+          "codcli": "40664",
+          "estado": "SP",
+          "nome": "COMERCIAL ZARAGOZA IMPORTACAO E EXPORTACAO",
+          "faturamento": 261360.0
         },
         {
-          "codcli": "30091",
-          "estado": "MG",
-          "nome": "COMERCIAL COLOMBO EIRELI",
-          "faturamento": 84895.3
-        },
-        {
-          "codcli": "79271",
+          "codcli": "58584",
           "estado": "RJ",
-          "nome": "XERELETE BAR",
-          "faturamento": 79647.3
+          "nome": "SUPERMARKET - ENGENHO VELHO",
+          "faturamento": 66023.76
         },
         {
-          "codcli": "6940",
+          "codcli": "93214",
           "estado": "RJ",
-          "nome": "SUPERMERCADO GUANABARA - PADRE MIGUEL",
-          "faturamento": 63231.0
+          "nome": "ATACADO SOARES",
+          "faturamento": 54000.0
         },
         {
-          "codcli": "91616",
-          "estado": "RJ",
-          "nome": "CHK COMERCIO DE BEBIDAS",
-          "faturamento": 62227.6
+          "codcli": "48007",
+          "estado": "SP",
+          "nome": "ANDORINHA SUPERMERCADO LTDA",
+          "faturamento": 50349.6
         },
         {
-          "codcli": "71846",
-          "estado": "RJ",
-          "nome": "LA GARE RESTAURANTE",
-          "faturamento": 52077.1
+          "codcli": "47374",
+          "estado": "SP",
+          "nome": "SIMUS BEBIDAS",
+          "faturamento": 50229.6
         },
         {
-          "codcli": "82202",
-          "estado": "RJ",
-          "nome": "PAELO HAMBURGUERIA",
-          "faturamento": 50702.3
+          "codcli": "32508",
+          "estado": "SP",
+          "nome": "CENTRAL OSASCO",
+          "faturamento": 47952.0
         },
         {
-          "codcli": "55908",
-          "estado": "RJ",
-          "nome": "WOODS WINE COMERCIO E INTERMEDIACAO DE B",
-          "faturamento": 50425.82
+          "codcli": "49448",
+          "estado": "SP",
+          "nome": "DISTRIBUIDORA DE BEBIDAS E CONVENIENCIA ZERO GRAU",
+          "faturamento": 42918.0
         },
         {
-          "codcli": "33951",
-          "estado": "MG",
-          "nome": "RESTAURANTE LA TRAVIATA",
-          "faturamento": 41424.1
+          "codcli": "50548",
+          "estado": "SP",
+          "nome": "FONTE NOVA MAIA",
+          "faturamento": 38994.0
         },
         {
-          "codcli": "73559",
-          "estado": "RJ",
-          "nome": "COMUKERIA ALIMENTOS",
-          "faturamento": 40848.6
+          "codcli": "50568",
+          "estado": "SP",
+          "nome": "MERCADO FONTE NOVA BELA VISTA LTDA",
+          "faturamento": 38012.16
         },
         {
-          "codcli": "31529",
-          "estado": "MG",
-          "nome": "MASSAS MADONINA LTDA",
-          "faturamento": 37773.0
+          "codcli": "31155",
+          "estado": "SP",
+          "nome": "MALTE COMERCIO DE BEBIDAS",
+          "faturamento": 32121.0
         },
         {
-          "codcli": "94822",
-          "estado": "RJ",
-          "nome": "CERVANTES TABACARIA E RESTAURANTE",
-          "faturamento": 35114.98
+          "codcli": "49844",
+          "estado": "SP",
+          "nome": "NOVA CENTRAL COMERCIO DE ALIMENTOS LTDA",
+          "faturamento": 29586.0
         },
         {
-          "codcli": "36028",
-          "estado": "MG",
-          "nome": "CHOPP DA FÁBRICA",
-          "faturamento": 25412.7
+          "codcli": "50420",
+          "estado": "SP",
+          "nome": "SUPER OSMARAJA EMPORIO",
+          "faturamento": 29340.6
         },
         {
-          "codcli": "78075",
-          "estado": "RJ",
-          "nome": "HUNA BISTRO",
-          "faturamento": 24678.6
+          "codcli": "47400",
+          "estado": "SP",
+          "nome": "SUPERMERCADOS BERGAMINI",
+          "faturamento": 25601.4
+        },
+        {
+          "codcli": "49993",
+          "estado": "SP",
+          "nome": "DEPOSITO DE BEBIDAS GOMES",
+          "faturamento": 25071.5
         }
       ],
       "top_vendedores": [
         {
-          "rca": "327",
-          "estado": "MG",
-          "nome": "JOÃO SANTOS",
-          "faturamento": 439472.77
-        },
-        {
-          "rca": "438",
+          "rca": "527",
           "estado": "SP",
-          "nome": "MARCIA RITA",
-          "faturamento": 259392.0
+          "nome": "DANIEL DINIZ",
+          "faturamento": 528000.0
         },
         {
-          "rca": "155",
-          "estado": "RJ",
-          "nome": "RAPHAEL SANTOS",
-          "faturamento": 241200.23
+          "rca": "426",
+          "estado": "SP",
+          "nome": "ADER ALONSO",
+          "faturamento": 298004.28
         },
         {
-          "rca": "159",
-          "estado": "RJ",
-          "nome": "GISELLE BARFER",
-          "faturamento": 214206.72
+          "rca": "318",
+          "estado": "SP",
+          "nome": "MARCUS TANAMACHI",
+          "faturamento": 291840.0
         },
         {
-          "rca": "344",
-          "estado": "MG",
-          "nome": "TIAGO ANDRADE",
-          "faturamento": 140773.4
+          "rca": "470",
+          "estado": "SP",
+          "nome": "PRISCILLA BONACHE",
+          "faturamento": 274067.3
         },
         {
-          "rca": "91",
-          "estado": "RJ",
-          "nome": "VIVIANI ALVES",
-          "faturamento": 116047.02
+          "rca": "476",
+          "estado": "SP",
+          "nome": "RODRIGO LIMA",
+          "faturamento": 175704.1
         },
         {
-          "rca": "335",
-          "estado": "MG",
-          "nome": "JANAIRA MARQUES",
-          "faturamento": 99193.4
-        },
-        {
-          "rca": "275",
-          "estado": "RJ",
-          "nome": "MARIA LUIZA",
-          "faturamento": 76191.54
-        },
-        {
-          "rca": "156",
-          "estado": "RJ",
-          "nome": "MARILENA TRAGEL",
-          "faturamento": 70117.01
-        },
-        {
-          "rca": "153",
-          "estado": "RJ",
-          "nome": "ANGELO NEVES SUZART",
-          "faturamento": 67328.47
-        },
-        {
-          "rca": "420",
-          "estado": "RJ",
-          "nome": "KELLY RAMOS",
-          "faturamento": 63231.0
-        },
-        {
-          "rca": "238",
-          "estado": "RJ",
-          "nome": "DANIELLE MOURA",
-          "faturamento": 51899.41
+          "rca": "433",
+          "estado": "SP",
+          "nome": "MANUELA ZAPPACOSTA",
+          "faturamento": 134089.2
         },
         {
           "rca": "391",
           "estado": "SP",
           "nome": "ANDRE SILVA",
-          "faturamento": 46017.48
+          "faturamento": 131655.2
         },
         {
-          "rca": "360",
-          "estado": "MG",
-          "nome": "LEANDRO OLIVEIRA",
-          "faturamento": 44614.06
+          "rca": "467",
+          "estado": "SP",
+          "nome": "MARLENE RODRIGUES",
+          "faturamento": 116287.42
         },
         {
-          "rca": "335",
-          "estado": "ES",
-          "nome": "MARA DEPOLLI",
-          "faturamento": 39137.89
+          "rca": "371",
+          "estado": "SP",
+          "nome": "CARLOS DE ALMEIDA",
+          "faturamento": 99828.9
+        },
+        {
+          "rca": "461",
+          "estado": "SP",
+          "nome": "SUELY SANTOS",
+          "faturamento": 83772.63
+        },
+        {
+          "rca": "155",
+          "estado": "RJ",
+          "nome": "RAPHAEL SANTOS",
+          "faturamento": 72051.45
+        },
+        {
+          "rca": "450",
+          "estado": "RJ",
+          "nome": "LEANDRO SOUZA",
+          "faturamento": 69026.3
+        },
+        {
+          "rca": "317",
+          "estado": "SP",
+          "nome": "ROBSON DA SILVA",
+          "faturamento": 63557.4
+        },
+        {
+          "rca": "489",
+          "estado": "SP",
+          "nome": "FERNANDO BERTIN",
+          "faturamento": 59425.6
+        },
+        {
+          "rca": "306",
+          "estado": "RJ",
+          "nome": "DANIEL DINIZ",
+          "faturamento": 54000.0
         }
       ],
       "top_produtos": [
         {
-          "produto": "AZEITE DE OLIVA EV ESSENZA 12X500ML",
-          "faturamento": 217015.57,
-          "quantidade": 837.0
+          "produto": "WHISKY JACK DANIELS 1L",
+          "faturamento": 1283984.3,
+          "quantidade": 13476.0
         },
         {
-          "produto": "AZEITE OLIV EV ZE TONA FINALIZAR12X500ML",
-          "faturamento": 214750.86,
-          "quantidade": 401.0
+          "produto": "WHISKY JACK DANIELS 1L - DEST",
+          "faturamento": 356242.95,
+          "quantidade": 3575.0
         },
         {
-          "produto": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
-          "faturamento": 179052.94,
-          "quantidade": 2513.0
+          "produto": "WHISKY JACK DANIELS APPLE 1L",
+          "faturamento": 346742.06,
+          "quantidade": 3353.0
         },
         {
-          "produto": "ESPUMANTE ALUD BRANCO 750ML",
-          "faturamento": 150153.0,
-          "quantidade": 4236.0
+          "produto": "JACK DANIELS BLACKBERRY 1L",
+          "faturamento": 276627.4,
+          "quantidade": 2112.0
         },
         {
-          "produto": "VINHO BCO ARCAIA PINOT GRIGIO 750ML",
-          "faturamento": 104290.32,
-          "quantidade": 1481.0
+          "produto": "WHISKY JACK DANIELS HONEY 1LT - DEST",
+          "faturamento": 131920.0,
+          "quantidade": 1330.0
         },
         {
-          "produto": "VILLA ROSA TINTO 750ML",
-          "faturamento": 89972.03,
-          "quantidade": 3133.0
+          "produto": "WHISKY JACK DANIELS APPLE 1L - DEST",
+          "faturamento": 121046.39,
+          "quantidade": 1217.0
         },
         {
-          "produto": "AZEITE OLIV EV ZE TONA COZINHAR 12X500ML",
-          "faturamento": 88655.82,
-          "quantidade": 185.0
+          "produto": "JACK DANIELS HONEY 1 L",
+          "faturamento": 106363.75,
+          "quantidade": 1042.0
         },
         {
-          "produto": "VILLA ROSA BRANCO 750ML",
-          "faturamento": 58157.23,
-          "quantidade": 2002.0
+          "produto": "WHISKEY JACK DANIELS HONEY 1 L",
+          "faturamento": 102208.09,
+          "quantidade": 1004.0
         },
         {
-          "produto": "HUMB. CANALE DENARIO MALBEC 750ML",
-          "faturamento": 50533.42,
-          "quantidade": 713.0
+          "produto": "WHISKY JACK DANIELS FIRE 1000 ML",
+          "faturamento": 72578.52,
+          "quantidade": 691.0
         },
         {
-          "produto": "VINHO ADELE ROSE 750ML",
-          "faturamento": 47855.6,
-          "quantidade": 692.0
+          "produto": "WHISKY GENTLEMAN JACK 1L",
+          "faturamento": 43275.83,
+          "quantidade": 282.0
         },
         {
-          "produto": "VILLA ROSA  ROSE 750ML",
-          "faturamento": 44318.85,
-          "quantidade": 1685.0
+          "produto": "BOURBON WHISKY WOODFORD RESERVE 750ML",
+          "faturamento": 25578.6,
+          "quantidade": 168.0
         },
         {
-          "produto": "VINHO ARESTI EST SEL CHARDONNAY 750ML",
-          "faturamento": 30268.48,
-          "quantidade": 578.0
+          "produto": "WHISKY JACK DANIELS APPLE 700ML",
+          "faturamento": 25397.5,
+          "quantidade": 320.0
         },
         {
-          "produto": "VINHO ARESTI EST SEL CAB SAUV 750ML",
-          "faturamento": 29949.11,
-          "quantidade": 559.0
+          "produto": "WHISKY JACK DANIELS SINGLE BARREL 750ML",
+          "faturamento": 24905.63,
+          "quantidade": 118.0
         },
         {
-          "produto": "VINHO ARESTI ESTATE S. CHARDONNAY 187ML",
-          "faturamento": 28422.01,
-          "quantidade": 1625.0
+          "produto": "JACK DANIELS APPLE 700ML - DEST",
+          "faturamento": 23240.1,
+          "quantidade": 329.0
         },
         {
-          "produto": "ESPUMANTE ALUD ROSE 750ML",
-          "faturamento": 28183.26,
-          "quantidade": 873.0
+          "produto": "WHISKY JACK DANIELS 700ML",
+          "faturamento": 22955.7,
+          "quantidade": 323.0
         }
       ],
       "posicao": 5
     },
     {
       "fantasia": "BEAM SUNTORY",
-      "faturamento_ytd": 2408855.23,
-      "participacao_pct": 3.78,
-      "media_mensal": 344122.18,
-      "clientes_positivados": 485,
+      "faturamento_ytd": 2770280.11,
+      "participacao_pct": 3.49,
+      "media_mensal": 307808.9,
+      "clientes_positivados": 506,
       "por_mes": {
         "2026-01": 484673.9,
         "2026-02": 283215.44,
@@ -1415,26 +1427,28 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
         "2026-04": 286570.73,
         "2026-05": 209455.21,
         "2026-06": 283159.68,
-        "2026-07": 434628.68
+        "2026-07": 404522.56,
+        "2026-08": 221123.8,
+        "2026-09": 170407.2
       },
       "top_clientes": [
         {
           "codcli": "91668",
           "estado": "RJ",
           "nome": "SENDAS DISTRIBUIDORA S/A",
-          "faturamento": 380914.8
+          "faturamento": 431550.0
         },
         {
           "codcli": "30232",
           "estado": "MG",
           "nome": "SUPERMERCADO E PADARIA VERDEMAR",
-          "faturamento": 299688.96
+          "faturamento": 340758.12
         },
         {
           "codcli": "6278",
           "estado": "RJ",
           "nome": "SUPERMERCADOS MUNDIAL - INHAUMA",
-          "faturamento": 213630.0
+          "faturamento": 278778.0
         },
         {
           "codcli": "74376",
@@ -1443,28 +1457,28 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "faturamento": 158820.46
         },
         {
+          "codcli": "30723",
+          "estado": "MG",
+          "nome": "SUPERMERCADO BAHAMAS S/A",
+          "faturamento": 151603.2
+        },
+        {
+          "codcli": "37710",
+          "estado": "MG",
+          "nome": "MULTICOM ATACADO E VAREJO S/A",
+          "faturamento": 147349.2
+        },
+        {
           "codcli": "33994",
           "estado": "MG",
           "nome": "SUPERMERCADO COELHO DINIZ",
           "faturamento": 126000.0
         },
         {
-          "codcli": "30723",
-          "estado": "MG",
-          "nome": "SUPERMERCADO BAHAMAS S/A",
-          "faturamento": 111110.4
-        },
-        {
           "codcli": "2978",
           "estado": "RJ",
           "nome": "FILIAL 01 - BARROS FILHO",
           "faturamento": 92886.0
-        },
-        {
-          "codcli": "37710",
-          "estado": "MG",
-          "nome": "MULTICOM ATACADO E VAREJO S/A",
-          "faturamento": 89821.2
         },
         {
           "codcli": "79941",
@@ -1485,6 +1499,18 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "faturamento": 59718.12
         },
         {
+          "codcli": "6940",
+          "estado": "RJ",
+          "nome": "SUPERMERCADO GUANABARA - PADRE MIGUEL",
+          "faturamento": 57540.0
+        },
+        {
+          "codcli": "30231",
+          "estado": "MG",
+          "nome": "ORGANIZACAO VERDEMAR LTDA",
+          "faturamento": 43029.66
+        },
+        {
           "codcli": "37356",
           "estado": "MG",
           "nome": "DMA DISTRIBUIDORA S/A",
@@ -1495,50 +1521,38 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "estado": "RJ",
           "nome": "SUPERPRIX- DEP CAXIAS - PARQUE DUQUE",
           "faturamento": 39168.0
-        },
-        {
-          "codcli": "34011",
-          "estado": "MG",
-          "nome": "SUPERMERCADOS RENA",
-          "faturamento": 33440.7
-        },
-        {
-          "codcli": "30538",
-          "estado": "MG",
-          "nome": "DAKI OFFICE BELO HORIZONTE",
-          "faturamento": 25603.68
         }
       ],
       "top_vendedores": [
         {
-          "rca": "275",
-          "estado": "RJ",
-          "nome": "MARIA LUIZA",
-          "faturamento": 531522.64
-        },
-        {
           "rca": "360",
           "estado": "MG",
           "nome": "LEANDRO OLIVEIRA",
-          "faturamento": 505553.88
+          "faturamento": 687673.5
+        },
+        {
+          "rca": "275",
+          "estado": "RJ",
+          "nome": "MARIA LUIZA",
+          "faturamento": 579217.12
         },
         {
           "rca": "388",
           "estado": "ES",
           "nome": "EUDES MORGAN",
-          "faturamento": 335380.06
+          "faturamento": 347844.46
         },
         {
           "rca": "238",
           "estado": "RJ",
           "nome": "DANIELLE MOURA",
-          "faturamento": 223333.78
+          "faturamento": 279733.78
         },
         {
           "rca": "158",
           "estado": "RJ",
           "nome": "JOSE MARCELO CARDOSO",
-          "faturamento": 214415.26
+          "faturamento": 223163.26
         },
         {
           "rca": "542",
@@ -1556,25 +1570,31 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "rca": "450",
           "estado": "RJ",
           "nome": "LEANDRO SOUZA",
-          "faturamento": 44908.08
+          "faturamento": 48010.08
         },
         {
           "rca": "412",
           "estado": "RJ",
           "nome": "BARBARA CABRAL",
-          "faturamento": 40756.6
+          "faturamento": 40827.5
         },
         {
           "rca": "354",
           "estado": "MG",
           "nome": "MATHEUS DE SOUZA",
-          "faturamento": 38259.68
+          "faturamento": 38619.28
+        },
+        {
+          "rca": "420",
+          "estado": "RJ",
+          "nome": "KELLY RAMOS",
+          "faturamento": 34524.0
         },
         {
           "rca": "153",
           "estado": "RJ",
           "nome": "ANGELO NEVES SUZART",
-          "faturamento": 23257.8
+          "faturamento": 24275.8
         },
         {
           "rca": "174",
@@ -1586,71 +1606,65 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "rca": "379",
           "estado": "RJ",
           "nome": "JORGE MACIEL",
-          "faturamento": 16754.42
+          "faturamento": 17216.12
         },
         {
           "rca": "331",
           "estado": "MG",
           "nome": "SAVIO NETO",
           "faturamento": 15267.0
-        },
-        {
-          "rca": "417",
-          "estado": "RJ",
-          "nome": "DIRLEI ARAUJO",
-          "faturamento": 13618.98
         }
       ],
       "top_produtos": [
         {
           "produto": "WHISKY JIM BEAM WHITE 1L",
-          "faturamento": 826359.3,
-          "quantidade": 9382.0
+          "faturamento": 940915.78,
+          "quantidade": 10657.0
         },
         {
           "produto": "WHISKY JIM BEAM HONEY 1L",
-          "faturamento": 495271.97,
-          "quantidade": 5610.0
+          "faturamento": 566608.79,
+          "quantidade": 6425.0
         },
         {
           "produto": "WHISKY JIM BEAM APPLE 1L",
-          "faturamento": 332837.82,
-          "quantidade": 3802.0
+          "faturamento": 393095.8,
+          "quantidade": 4503.0
         },
         {
           "produto": "WHISKY JIM BEAM BLACK CHERRY 1L",
-          "faturamento": 200494.14,
-          "quantidade": 2114.0
+          "faturamento": 226165.02,
+          "quantidade": 2381.0
         },
         {
           "produto": "WHISKY ESC MACALLAN DOUBLE 12 YO 700ML",
-          "faturamento": 151031.26,
-          "quantidade": 202.0
+          "faturamento": 179951.72,
+          "quantidade": 242.0
         },
         {
           "produto": "WHISKY HIBIKI JAPANESE HARMONY 700ML",
-          "faturamento": 115515.2,
-          "quantidade": 228.0
-        },
-        {
-          "produto": "GIN LARIOS ORIGINAL 700ML",
-          "faturamento": 56759.24,
-          "quantidade": 1364.0
+          "faturamento": 136922.42,
+          "quantidade": 272.0
         },
         {
           "produto": "WHISKY ESC MACALLAN SHERRY OAK 12YO700ML",
-          "faturamento": 46063.18,
-          "quantidade": 55.0
+          "faturamento": 57565.78,
+          "quantidade": 67.0
+        },
+        {
+          "produto": "GIN LARIOS ORIGINAL 700ML",
+          "faturamento": 56819.48,
+          "quantidade": 1370.0
         },
         {
           "produto": "WHISKY SUNTORY CHITA 700ML",
-          "faturamento": 43370.02,
-          "quantidade": 119.0
+          "faturamento": 53755.42,
+          "quantidade": 149.0
         },
         {
           "produto": "WHISKY BOURBON MAKERS MARK 750 ML",
-          "faturamento": 34074.1,
-          "quantidade": 202.0
+          "faturamento": 43775.2,
+          "quantidade": 247.0
         },
         {
           "produto": "WHISKY JIM BEAM BLACK AGED 7Y 1L",
@@ -1658,9 +1672,14 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "quantidade": 224.0
         },
         {
+          "produto": "WHISKY JIM BEAM CHERRY 1L",
+          "faturamento": 14334.16,
+          "quantidade": 186.0
+        },
+        {
           "produto": "WHISKY JIM BEAM BLACK 1L",
-          "faturamento": 13689.72,
-          "quantidade": 118.0
+          "faturamento": 14151.42,
+          "quantidade": 121.0
         },
         {
           "produto": "WHISKY  MACALLAN DOUBLE CASK 15Y 700ML",
@@ -1671,29 +1690,586 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "produto": "WHISKY YAMAZAKI DISTILLERS RESERVE 700ML",
           "faturamento": 10984.56,
           "quantidade": 12.0
-        },
-        {
-          "produto": "WHISKY YAMAZAKI 12Y 700ML",
-          "faturamento": 10678.9,
-          "quantidade": 11.0
         }
       ],
       "posicao": 6
     },
     {
+      "fantasia": "CASTAS",
+      "faturamento_ytd": 2734623.97,
+      "participacao_pct": 3.44,
+      "media_mensal": 303847.11,
+      "clientes_positivados": 791,
+      "por_mes": {
+        "2026-01": 255158.56,
+        "2026-02": 280555.57,
+        "2026-03": 398975.03,
+        "2026-04": 290350.99,
+        "2026-05": 628018.6,
+        "2026-06": 285359.81,
+        "2026-07": 265605.2,
+        "2026-08": 274829.64,
+        "2026-09": 55770.56
+      },
+      "top_clientes": [
+        {
+          "codcli": "49274",
+          "estado": "SP",
+          "nome": "ST MARCHE",
+          "faturamento": 259098.0
+        },
+        {
+          "codcli": "30374",
+          "estado": "MG",
+          "nome": "EL MAI",
+          "faturamento": 125940.76
+        },
+        {
+          "codcli": "30091",
+          "estado": "MG",
+          "nome": "COMERCIAL COLOMBO EIRELI",
+          "faturamento": 102399.3
+        },
+        {
+          "codcli": "79271",
+          "estado": "RJ",
+          "nome": "XERELETE BAR",
+          "faturamento": 92681.2
+        },
+        {
+          "codcli": "6940",
+          "estado": "RJ",
+          "nome": "SUPERMERCADO GUANABARA - PADRE MIGUEL",
+          "faturamento": 63231.0
+        },
+        {
+          "codcli": "91616",
+          "estado": "RJ",
+          "nome": "CHK COMERCIO DE BEBIDAS",
+          "faturamento": 62227.6
+        },
+        {
+          "codcli": "82202",
+          "estado": "RJ",
+          "nome": "PAELO HAMBURGUERIA",
+          "faturamento": 57966.2
+        },
+        {
+          "codcli": "71846",
+          "estado": "RJ",
+          "nome": "LA GARE RESTAURANTE",
+          "faturamento": 57767.5
+        },
+        {
+          "codcli": "33951",
+          "estado": "MG",
+          "nome": "RESTAURANTE LA TRAVIATA",
+          "faturamento": 53125.7
+        },
+        {
+          "codcli": "55908",
+          "estado": "RJ",
+          "nome": "WOODS WINE COMERCIO E INTERMEDIACAO DE B",
+          "faturamento": 50425.82
+        },
+        {
+          "codcli": "31529",
+          "estado": "MG",
+          "nome": "MASSAS MADONINA LTDA",
+          "faturamento": 46015.5
+        },
+        {
+          "codcli": "73559",
+          "estado": "RJ",
+          "nome": "COMUKERIA ALIMENTOS",
+          "faturamento": 45698.4
+        },
+        {
+          "codcli": "94822",
+          "estado": "RJ",
+          "nome": "CERVANTES TABACARIA E RESTAURANTE",
+          "faturamento": 35114.98
+        },
+        {
+          "codcli": "36028",
+          "estado": "MG",
+          "nome": "CHOPP DA FÁBRICA",
+          "faturamento": 29472.6
+        },
+        {
+          "codcli": "34139",
+          "estado": "MG",
+          "nome": "CHEF PALMEIRA",
+          "faturamento": 27106.0
+        }
+      ],
+      "top_vendedores": [
+        {
+          "rca": "327",
+          "estado": "MG",
+          "nome": "JOÃO SANTOS",
+          "faturamento": 525268.27
+        },
+        {
+          "rca": "155",
+          "estado": "RJ",
+          "nome": "RAPHAEL SANTOS",
+          "faturamento": 272796.43
+        },
+        {
+          "rca": "159",
+          "estado": "RJ",
+          "nome": "GISELLE BARFER",
+          "faturamento": 265964.42
+        },
+        {
+          "rca": "438",
+          "estado": "SP",
+          "nome": "MARCIA RITA",
+          "faturamento": 259392.0
+        },
+        {
+          "rca": "344",
+          "estado": "MG",
+          "nome": "TIAGO ANDRADE",
+          "faturamento": 182335.3
+        },
+        {
+          "rca": "91",
+          "estado": "RJ",
+          "nome": "VIVIANI ALVES",
+          "faturamento": 122721.42
+        },
+        {
+          "rca": "335",
+          "estado": "MG",
+          "nome": "JANAIRA MARQUES",
+          "faturamento": 99193.4
+        },
+        {
+          "rca": "153",
+          "estado": "RJ",
+          "nome": "ANGELO NEVES SUZART",
+          "faturamento": 81962.77
+        },
+        {
+          "rca": "156",
+          "estado": "RJ",
+          "nome": "MARILENA TRAGEL",
+          "faturamento": 80805.07
+        },
+        {
+          "rca": "420",
+          "estado": "RJ",
+          "nome": "KELLY RAMOS",
+          "faturamento": 63231.0
+        },
+        {
+          "rca": "238",
+          "estado": "RJ",
+          "nome": "DANIELLE MOURA",
+          "faturamento": 58859.41
+        },
+        {
+          "rca": "391",
+          "estado": "SP",
+          "nome": "ANDRE SILVA",
+          "faturamento": 56152.88
+        },
+        {
+          "rca": "275",
+          "estado": "RJ",
+          "nome": "MARIA LUIZA",
+          "faturamento": 51954.54
+        },
+        {
+          "rca": "360",
+          "estado": "MG",
+          "nome": "LEANDRO OLIVEIRA",
+          "faturamento": 44614.06
+        },
+        {
+          "rca": "335",
+          "estado": "ES",
+          "nome": "MARA DEPOLLI",
+          "faturamento": 39137.89
+        }
+      ],
+      "top_produtos": [
+        {
+          "produto": "AZEITE DE OLIVA EV ESSENZA 12X500ML",
+          "faturamento": 227925.97,
+          "quantidade": 875.0
+        },
+        {
+          "produto": "AZEITE OLIV EV ZE TONA FINALIZAR12X500ML",
+          "faturamento": 223055.46,
+          "quantidade": 416.0
+        },
+        {
+          "produto": "VINHO TINTO BURDIZZO PRIMITIVO 750ML",
+          "faturamento": 218664.34,
+          "quantidade": 3073.0
+        },
+        {
+          "produto": "ESPUMANTE ALUD BRANCO 750ML",
+          "faturamento": 172737.8,
+          "quantidade": 4828.0
+        },
+        {
+          "produto": "VINHO BCO ARCAIA PINOT GRIGIO 750ML",
+          "faturamento": 125036.22,
+          "quantidade": 1782.0
+        },
+        {
+          "produto": "AZEITE OLIV EV ZE TONA COZINHAR 12X500ML",
+          "faturamento": 94737.02,
+          "quantidade": 198.0
+        },
+        {
+          "produto": "VILLA ROSA TINTO 750ML",
+          "faturamento": 86492.13,
+          "quantidade": 2988.0
+        },
+        {
+          "produto": "VILLA ROSA BRANCO 750ML",
+          "faturamento": 60228.33,
+          "quantidade": 2055.0
+        },
+        {
+          "produto": "HUMB. CANALE DENARIO MALBEC 750ML",
+          "faturamento": 58167.92,
+          "quantidade": 818.0
+        },
+        {
+          "produto": "VINHO ADELE ROSE 750ML",
+          "faturamento": 50775.3,
+          "quantidade": 727.0
+        },
+        {
+          "produto": "VILLA ROSA  ROSE 750ML",
+          "faturamento": 38700.45,
+          "quantidade": 1489.0
+        },
+        {
+          "produto": "VINHO ARESTI EST SEL CAB SAUV 750ML",
+          "faturamento": 37425.51,
+          "quantidade": 695.0
+        },
+        {
+          "produto": "VINHO ARESTI EST SEL CHARDONNAY 750ML",
+          "faturamento": 37226.38,
+          "quantidade": 709.0
+        },
+        {
+          "produto": "ESPUMANTE ALUD ROSE 750ML",
+          "faturamento": 31468.36,
+          "quantidade": 952.0
+        },
+        {
+          "produto": "HUMB. CANALE DENARIO SAUV. BLANC",
+          "faturamento": 31423.0,
+          "quantidade": 460.0
+        }
+      ],
+      "posicao": 7
+    },
+    {
+      "fantasia": "BACARDI",
+      "faturamento_ytd": 2146425.59,
+      "participacao_pct": 2.7,
+      "media_mensal": 238491.73,
+      "clientes_positivados": 813,
+      "por_mes": {
+        "2026-01": 146675.1,
+        "2026-02": 85215.09,
+        "2026-03": 230939.93,
+        "2026-04": 279136.94,
+        "2026-05": 462440.06,
+        "2026-06": 148280.73,
+        "2026-07": 369742.28,
+        "2026-08": 378211.39,
+        "2026-09": 45784.07
+      },
+      "top_clientes": [
+        {
+          "codcli": "47425",
+          "estado": "SP",
+          "nome": "COMERCIAL ESPERANCA ATACADISTA",
+          "faturamento": 431459.76
+        },
+        {
+          "codcli": "74376",
+          "estado": "ES",
+          "nome": "CARONE - GALPAO",
+          "faturamento": 167768.35
+        },
+        {
+          "codcli": "40664",
+          "estado": "SP",
+          "nome": "COMERCIAL ZARAGOZA IMPORTACAO E EXPORTACAO",
+          "faturamento": 90478.08
+        },
+        {
+          "codcli": "24120",
+          "estado": "SP",
+          "nome": "CIA DO WHISKY",
+          "faturamento": 81076.68
+        },
+        {
+          "codcli": "46505",
+          "estado": "SP",
+          "nome": "POINT DO ATACADO",
+          "faturamento": 59068.8
+        },
+        {
+          "codcli": "49448",
+          "estado": "SP",
+          "nome": "DISTRIBUIDORA DE BEBIDAS E CONVENIENCIA ZERO GRAU",
+          "faturamento": 42294.6
+        },
+        {
+          "codcli": "79819",
+          "estado": "ES",
+          "nome": "SUPERMERCADOS CASAGRANDE",
+          "faturamento": 42226.44
+        },
+        {
+          "codcli": "47400",
+          "estado": "SP",
+          "nome": "SUPERMERCADOS BERGAMINI",
+          "faturamento": 40554.31
+        },
+        {
+          "codcli": "50598",
+          "estado": "SP",
+          "nome": "COMERCIAL CRESCER LTDA",
+          "faturamento": 29923.2
+        },
+        {
+          "codcli": "31084",
+          "estado": "SP",
+          "nome": "COMERCIAL BOLSAO DE BEBIDAS LTDA",
+          "faturamento": 26738.36
+        },
+        {
+          "codcli": "23329",
+          "estado": "SP",
+          "nome": "CASA SANTA LUZIA",
+          "faturamento": 26535.44
+        },
+        {
+          "codcli": "47670",
+          "estado": "SP",
+          "nome": "PRESTIGIO COMERCIO E DISTRIBUIDORA DE BEBIDAS",
+          "faturamento": 23838.48
+        },
+        {
+          "codcli": "72623",
+          "estado": "ES",
+          "nome": "COMERCIAL PRIMOS",
+          "faturamento": 23502.96
+        },
+        {
+          "codcli": "40456",
+          "estado": "SP",
+          "nome": "MERCADAO ATACADISTA COMERCIAL DE ALIMENTOS",
+          "faturamento": 22403.16
+        },
+        {
+          "codcli": "87086",
+          "estado": "RJ",
+          "nome": "TAIS TERRA MONTEIRO",
+          "faturamento": 18269.4
+        }
+      ],
+      "top_vendedores": [
+        {
+          "rca": "391",
+          "estado": "SP",
+          "nome": "ANDRE SILVA",
+          "faturamento": 486528.38
+        },
+        {
+          "rca": "388",
+          "estado": "ES",
+          "nome": "EUDES MORGAN",
+          "faturamento": 428716.33
+        },
+        {
+          "rca": "426",
+          "estado": "SP",
+          "nome": "ADER ALONSO",
+          "faturamento": 331772.23
+        },
+        {
+          "rca": "470",
+          "estado": "SP",
+          "nome": "PRISCILLA BONACHE",
+          "faturamento": 71923.2
+        },
+        {
+          "rca": "438",
+          "estado": "SP",
+          "nome": "MARCIA RITA",
+          "faturamento": 67518.08
+        },
+        {
+          "rca": "433",
+          "estado": "SP",
+          "nome": "MANUELA ZAPPACOSTA",
+          "faturamento": 60138.94
+        },
+        {
+          "rca": "318",
+          "estado": "SP",
+          "nome": "MARCUS TANAMACHI",
+          "faturamento": 59068.8
+        },
+        {
+          "rca": "155",
+          "estado": "RJ",
+          "nome": "RAPHAEL SANTOS",
+          "faturamento": 58117.77
+        },
+        {
+          "rca": "317",
+          "estado": "SP",
+          "nome": "ROBSON DA SILVA",
+          "faturamento": 51949.27
+        },
+        {
+          "rca": "158",
+          "estado": "RJ",
+          "nome": "JOSE MARCELO CARDOSO",
+          "faturamento": 37900.78
+        },
+        {
+          "rca": "371",
+          "estado": "SP",
+          "nome": "CARLOS DE ALMEIDA",
+          "faturamento": 36500.76
+        },
+        {
+          "rca": "468",
+          "estado": "SP",
+          "nome": "RENATO JUNIOR",
+          "faturamento": 29105.96
+        },
+        {
+          "rca": "370",
+          "estado": "ES",
+          "nome": "FRANZ BENEVIDES",
+          "faturamento": 25459.83
+        },
+        {
+          "rca": "159",
+          "estado": "RJ",
+          "nome": "GISELLE BARFER",
+          "faturamento": 24145.25
+        },
+        {
+          "rca": "354",
+          "estado": "MG",
+          "nome": "MATHEUS DE SOUZA",
+          "faturamento": 23010.66
+        }
+      ],
+      "top_produtos": [
+        {
+          "produto": "MARTINI BIANCO 750 ML",
+          "faturamento": 312303.96,
+          "quantidade": 10894.0
+        },
+        {
+          "produto": "RUM BACARDI GOLD 980ML",
+          "faturamento": 243390.57,
+          "quantidade": 7548.0
+        },
+        {
+          "produto": "VODKA GREY GOOSE ORIGINAL 750 ML",
+          "faturamento": 232368.26,
+          "quantidade": 2400.0
+        },
+        {
+          "produto": "RUM BACARDI CARTA BLANCA 980ML",
+          "faturamento": 203362.78,
+          "quantidade": 6333.0
+        },
+        {
+          "produto": "GIN BOMBAY SAPPHIRE 750ML",
+          "faturamento": 200982.95,
+          "quantidade": 2712.0
+        },
+        {
+          "produto": "MARTINI ROSSO 750 ML",
+          "faturamento": 147387.34,
+          "quantidade": 4743.0
+        },
+        {
+          "produto": "RUM BACARDI BIG APPLE 700ML",
+          "faturamento": 115527.59,
+          "quantidade": 4028.0
+        },
+        {
+          "produto": "RUM BACARDI SUPERIOR 980ML",
+          "faturamento": 99452.95,
+          "quantidade": 2680.0
+        },
+        {
+          "produto": "MARTINI ROSATO 750 ML",
+          "faturamento": 98627.05,
+          "quantidade": 3442.0
+        },
+        {
+          "produto": "MARTINI EXTRA DRY 750 ML",
+          "faturamento": 87698.0,
+          "quantidade": 3132.0
+        },
+        {
+          "produto": "VODKA GREY GOOSE LA POIRE 750 ML",
+          "faturamento": 51631.21,
+          "quantidade": 472.0
+        },
+        {
+          "produto": "VODKA GREY GOOSE LE CITRON 750ML",
+          "faturamento": 45454.98,
+          "quantidade": 417.0
+        },
+        {
+          "produto": "RUM BACARDI SUPERIOR 700ML",
+          "faturamento": 42155.58,
+          "quantidade": 1121.0
+        },
+        {
+          "produto": "RUM BACARDI GOLD 700ML",
+          "faturamento": 38978.18,
+          "quantidade": 994.0
+        },
+        {
+          "produto": "VODKA NATASHA 900ML",
+          "faturamento": 35923.21,
+          "quantidade": 2207.0
+        }
+      ],
+      "posicao": 8
+    },
+    {
       "fantasia": "CASA PERINI",
-      "faturamento_ytd": 1891288.14,
-      "participacao_pct": 2.97,
-      "media_mensal": 270184.02,
-      "clientes_positivados": 408,
+      "faturamento_ytd": 1967269.04,
+      "participacao_pct": 2.48,
+      "media_mensal": 218585.45,
+      "clientes_positivados": 430,
       "por_mes": {
         "2026-01": 82740.69,
         "2026-02": 107380.72,
         "2026-03": 106754.0,
         "2026-04": 584265.26,
         "2026-05": 411731.07,
-        "2026-06": 355660.9,
-        "2026-07": 242755.5
+        "2026-06": 351712.9,
+        "2026-07": 151675.5,
+        "2026-08": 43768.1,
+        "2026-09": 127240.8
       },
       "top_clientes": [
         {
@@ -1703,16 +2279,16 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "faturamento": 349736.4
         },
         {
-          "codcli": "2978",
-          "estado": "RJ",
-          "nome": "FILIAL 01 - BARROS FILHO",
-          "faturamento": 206774.4
-        },
-        {
           "codcli": "6278",
           "estado": "RJ",
           "nome": "SUPERMERCADOS MUNDIAL - INHAUMA",
-          "faturamento": 201348.0
+          "faturamento": 310312.8
+        },
+        {
+          "codcli": "2978",
+          "estado": "RJ",
+          "nome": "FILIAL 01 - BARROS FILHO",
+          "faturamento": 125151.6
         },
         {
           "codcli": "91230",
@@ -1745,16 +2321,16 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "faturamento": 32967.0
         },
         {
+          "codcli": "3127",
+          "estado": "RJ",
+          "nome": "REAL DE EDEN - CENTRAL",
+          "faturamento": 22621.2
+        },
+        {
           "codcli": "91155",
           "estado": "RJ",
           "nome": "MERCADO BELOT - SAHY",
           "faturamento": 21935.0
-        },
-        {
-          "codcli": "3127",
-          "estado": "RJ",
-          "nome": "REAL DE EDEN - CENTRAL",
-          "faturamento": 21574.2
         },
         {
           "codcli": "94840",
@@ -1781,10 +2357,10 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "faturamento": 18358.2
         },
         {
-          "codcli": "84031",
+          "codcli": "73082",
           "estado": "RJ",
-          "nome": "ROYAL CENTER COMERCIAL",
-          "faturamento": 17380.2
+          "nome": "SUPER PAX",
+          "faturamento": 15792.0
         }
       ],
       "top_vendedores": [
@@ -1798,37 +2374,37 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "rca": "158",
           "estado": "RJ",
           "nome": "JOSE MARCELO CARDOSO",
-          "faturamento": 316629.6
+          "faturamento": 318783.6
         },
         {
           "rca": "238",
           "estado": "RJ",
           "nome": "DANIELLE MOURA",
-          "faturamento": 279337.42
-        },
-        {
-          "rca": "144",
-          "estado": "RJ",
-          "nome": "DIOGO RAPOSO",
-          "faturamento": 137549.2
-        },
-        {
-          "rca": "275",
-          "estado": "RJ",
-          "nome": "MARIA LUIZA",
-          "faturamento": 133137.0
-        },
-        {
-          "rca": "153",
-          "estado": "RJ",
-          "nome": "ANGELO NEVES SUZART",
-          "faturamento": 129246.9
+          "faturamento": 306679.42
         },
         {
           "rca": "450",
           "estado": "RJ",
           "nome": "LEANDRO SOUZA",
-          "faturamento": 125812.41
+          "faturamento": 140578.01
+        },
+        {
+          "rca": "144",
+          "estado": "RJ",
+          "nome": "DIOGO RAPOSO",
+          "faturamento": 139919.8
+        },
+        {
+          "rca": "153",
+          "estado": "RJ",
+          "nome": "ANGELO NEVES SUZART",
+          "faturamento": 137291.3
+        },
+        {
+          "rca": "275",
+          "estado": "RJ",
+          "nome": "MARIA LUIZA",
+          "faturamento": 121969.8
         },
         {
           "rca": "412",
@@ -1846,69 +2422,69 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "rca": "379",
           "estado": "RJ",
           "nome": "JORGE MACIEL",
-          "faturamento": 54551.28
+          "faturamento": 61385.08
         },
         {
           "rca": "159",
           "estado": "RJ",
           "nome": "GISELLE BARFER",
-          "faturamento": 44563.6
+          "faturamento": 53424.7
         },
         {
           "rca": "155",
           "estado": "RJ",
           "nome": "RAPHAEL SANTOS",
-          "faturamento": 42333.52
+          "faturamento": 45613.12
         },
         {
           "rca": "419",
           "estado": "RJ",
           "nome": "NÁTALI DE OLIVEIRA",
-          "faturamento": 31467.7
+          "faturamento": 35288.2
         },
         {
           "rca": "471",
           "estado": "RJ",
           "nome": "ANA CLARA FASSANO",
-          "faturamento": 20632.5
+          "faturamento": 23067.9
         },
         {
           "rca": "156",
           "estado": "RJ",
           "nome": "MARILENA TRAGEL",
-          "faturamento": 17533.34
+          "faturamento": 19080.24
         }
       ],
       "top_produtos": [
         {
           "produto": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
-          "faturamento": 1226021.3,
-          "quantidade": 37071.0
+          "faturamento": 1301703.1,
+          "quantidade": 39271.0
         },
         {
           "produto": "ESPUM CASA PERINI BRUT ROSE 750ML",
-          "faturamento": 196461.85,
-          "quantidade": 5656.0
+          "faturamento": 200999.05,
+          "quantidade": 5894.0
         },
         {
           "produto": "ESPUM CASA PERINI BRUT 750ML",
-          "faturamento": 195213.87,
-          "quantidade": 5672.0
+          "faturamento": 195060.77,
+          "quantidade": 5723.0
         },
         {
           "produto": "ESPUM CASA PERINI MOSCATEL 750ML",
-          "faturamento": 166993.65,
-          "quantidade": 4899.0
+          "faturamento": 155164.15,
+          "quantidade": 4566.0
         },
         {
           "produto": "ESPUM CASA PERINI PROSECCO 750ML",
-          "faturamento": 33614.8,
-          "quantidade": 1008.0
+          "faturamento": 33506.1,
+          "quantidade": 1005.0
         },
         {
           "produto": "ESPUM CASA PERINI DEMI-SEC 750ML",
-          "faturamento": 23213.2,
-          "quantidade": 679.0
+          "faturamento": 24756.1,
+          "quantidade": 720.0
         },
         {
           "produto": "ESPUM CASA PERINI ICE 750ML",
@@ -1917,18 +2493,23 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
         },
         {
           "produto": "ESPUM CASA PERINI ICE ROSE 750ML",
-          "faturamento": 3773.8,
-          "quantidade": 102.0
+          "faturamento": 4218.7,
+          "quantidade": 113.0
+        },
+        {
+          "produto": "KIT AQUARELA 7 GARRAFAS + BALDE",
+          "faturamento": 3004.95,
+          "quantidade": 10.0
+        },
+        {
+          "produto": "ESPUM CASA PERINI CRISTAL EDITION 750ML",
+          "faturamento": 2947.2,
+          "quantidade": 58.0
         },
         {
           "produto": "VINHO PERINI ARBO CAB SAUV 750ML",
           "faturamento": 2695.0,
           "quantidade": 101.0
-        },
-        {
-          "produto": "ESPUM CASA PERINI CRISTAL EDITION 750ML",
-          "faturamento": 2428.5,
-          "quantidade": 45.0
         },
         {
           "produto": "VINHO PERINI ARBO TANNAT 750ML",
@@ -1949,577 +2530,16 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "produto": "ESPUM CASA PERINI ICE DEMI-SEC 750ML",
           "faturamento": 1570.5,
           "quantidade": 45.0
-        },
-        {
-          "produto": "VINHO CASA PERINI CHARDONNAY 750ML",
-          "faturamento": 1549.8,
-          "quantidade": 42.0
-        }
-      ],
-      "posicao": 7
-    },
-    {
-      "fantasia": "BACARDI",
-      "faturamento_ytd": 1723712.9,
-      "participacao_pct": 2.71,
-      "media_mensal": 246244.7,
-      "clientes_positivados": 648,
-      "por_mes": {
-        "2026-01": 146675.1,
-        "2026-02": 85215.09,
-        "2026-03": 230939.93,
-        "2026-04": 279136.94,
-        "2026-05": 462440.06,
-        "2026-06": 148280.73,
-        "2026-07": 371025.05
-      },
-      "top_clientes": [
-        {
-          "codcli": "47425",
-          "estado": "SP",
-          "nome": "COMERCIAL ESPERANCA ATACADISTA",
-          "faturamento": 400326.48
-        },
-        {
-          "codcli": "74376",
-          "estado": "ES",
-          "nome": "CARONE - GALPAO",
-          "faturamento": 159214.75
-        },
-        {
-          "codcli": "24120",
-          "estado": "SP",
-          "nome": "CIA DO WHISKY",
-          "faturamento": 81076.68
-        },
-        {
-          "codcli": "49448",
-          "estado": "SP",
-          "nome": "DISTRIBUIDORA DE BEBIDAS E CONVENIENCIA ZERO GRAU",
-          "faturamento": 42294.6
-        },
-        {
-          "codcli": "79819",
-          "estado": "ES",
-          "nome": "SUPERMERCADOS CASAGRANDE",
-          "faturamento": 42226.44
-        },
-        {
-          "codcli": "47400",
-          "estado": "SP",
-          "nome": "SUPERMERCADOS BERGAMINI",
-          "faturamento": 40554.31
-        },
-        {
-          "codcli": "50598",
-          "estado": "SP",
-          "nome": "COMERCIAL CRESCER LTDA",
-          "faturamento": 29923.2
-        },
-        {
-          "codcli": "47670",
-          "estado": "SP",
-          "nome": "PRESTIGIO COMERCIO E DISTRIBUIDORA DE BEBIDAS",
-          "faturamento": 23838.48
-        },
-        {
-          "codcli": "72623",
-          "estado": "ES",
-          "nome": "COMERCIAL PRIMOS",
-          "faturamento": 23502.96
-        },
-        {
-          "codcli": "23329",
-          "estado": "SP",
-          "nome": "CASA SANTA LUZIA",
-          "faturamento": 19059.44
-        },
-        {
-          "codcli": "40664",
-          "estado": "SP",
-          "nome": "COMERCIAL ZARAGOZA IMPORTACAO E EXPORTACAO",
-          "faturamento": 18554.88
-        },
-        {
-          "codcli": "87086",
-          "estado": "RJ",
-          "nome": "TAIS TERRA MONTEIRO",
-          "faturamento": 18269.4
-        },
-        {
-          "codcli": "31084",
-          "estado": "SP",
-          "nome": "COMERCIAL BOLSAO DE BEBIDAS LTDA",
-          "faturamento": 16661.96
-        },
-        {
-          "codcli": "3755",
-          "estado": "RJ",
-          "nome": "SUPER MARKET - PENHA CIRCULAR",
-          "faturamento": 12936.0
-        },
-        {
-          "codcli": "26977",
-          "estado": "SP",
-          "nome": "MERCADO HORTISABOR",
-          "faturamento": 11988.0
-        }
-      ],
-      "top_vendedores": [
-        {
-          "rca": "391",
-          "estado": "SP",
-          "nome": "ANDRE SILVA",
-          "faturamento": 443630.6
-        },
-        {
-          "rca": "388",
-          "estado": "ES",
-          "nome": "EUDES MORGAN",
-          "faturamento": 349703.53
-        },
-        {
-          "rca": "426",
-          "estado": "SP",
-          "nome": "ADER ALONSO",
-          "faturamento": 317074.5
-        },
-        {
-          "rca": "438",
-          "estado": "SP",
-          "nome": "MARCIA RITA",
-          "faturamento": 67518.08
-        },
-        {
-          "rca": "155",
-          "estado": "RJ",
-          "nome": "RAPHAEL SANTOS",
-          "faturamento": 55174.47
-        },
-        {
-          "rca": "433",
-          "estado": "SP",
-          "nome": "MANUELA ZAPPACOSTA",
-          "faturamento": 47633.63
-        },
-        {
-          "rca": "158",
-          "estado": "RJ",
-          "nome": "JOSE MARCELO CARDOSO",
-          "faturamento": 37900.78
-        },
-        {
-          "rca": "317",
-          "estado": "SP",
-          "nome": "ROBSON DA SILVA",
-          "faturamento": 36098.47
-        },
-        {
-          "rca": "371",
-          "estado": "SP",
-          "nome": "CARLOS DE ALMEIDA",
-          "faturamento": 33405.06
-        },
-        {
-          "rca": "370",
-          "estado": "ES",
-          "nome": "FRANZ BENEVIDES",
-          "faturamento": 25459.83
-        },
-        {
-          "rca": "159",
-          "estado": "RJ",
-          "nome": "GISELLE BARFER",
-          "faturamento": 21248.25
-        },
-        {
-          "rca": "260",
-          "estado": "ES",
-          "nome": "DOUGLAS SCHADE",
-          "faturamento": 19117.98
-        },
-        {
-          "rca": "354",
-          "estado": "MG",
-          "nome": "MATHEUS DE SOUZA",
-          "faturamento": 18266.66
-        },
-        {
-          "rca": "468",
-          "estado": "SP",
-          "nome": "RENATO JUNIOR",
-          "faturamento": 16636.16
-        },
-        {
-          "rca": "230",
-          "estado": "ES",
-          "nome": "ENEIVA RODRIGUES",
-          "faturamento": 16605.84
-        }
-      ],
-      "top_produtos": [
-        {
-          "produto": "MARTINI BIANCO 750 ML",
-          "faturamento": 225676.95,
-          "quantidade": 7837.0
-        },
-        {
-          "produto": "RUM BACARDI CARTA BLANCA 980ML",
-          "faturamento": 203190.66,
-          "quantidade": 6328.0
-        },
-        {
-          "produto": "RUM BACARDI GOLD 980ML",
-          "faturamento": 196202.08,
-          "quantidade": 5940.0
-        },
-        {
-          "produto": "GIN BOMBAY SAPPHIRE 750ML",
-          "faturamento": 154108.15,
-          "quantidade": 2043.0
-        },
-        {
-          "produto": "VODKA GREY GOOSE ORIGINAL 750 ML",
-          "faturamento": 153592.5,
-          "quantidade": 1532.0
-        },
-        {
-          "produto": "MARTINI ROSSO 750 ML",
-          "faturamento": 128340.67,
-          "quantidade": 4188.0
-        },
-        {
-          "produto": "RUM BACARDI SUPERIOR 980ML",
-          "faturamento": 99345.25,
-          "quantidade": 2677.0
-        },
-        {
-          "produto": "RUM BACARDI BIG APPLE 700ML",
-          "faturamento": 97981.07,
-          "quantidade": 3462.0
-        },
-        {
-          "produto": "MARTINI ROSATO 750 ML",
-          "faturamento": 84498.41,
-          "quantidade": 2982.0
-        },
-        {
-          "produto": "MARTINI EXTRA DRY 750 ML",
-          "faturamento": 67375.8,
-          "quantidade": 2370.0
-        },
-        {
-          "produto": "VODKA GREY GOOSE LA POIRE 750 ML",
-          "faturamento": 45687.71,
-          "quantidade": 417.0
-        },
-        {
-          "produto": "VODKA GREY GOOSE LE CITRON 750ML",
-          "faturamento": 42194.08,
-          "quantidade": 386.0
-        },
-        {
-          "produto": "RUM BACARDI SUPERIOR 700ML",
-          "faturamento": 33752.86,
-          "quantidade": 885.0
-        },
-        {
-          "produto": "RUM BACARDI GOLD 700ML",
-          "faturamento": 30375.02,
-          "quantidade": 774.0
-        },
-        {
-          "produto": "VODKA NATASHA 900ML",
-          "faturamento": 30229.93,
-          "quantidade": 1859.0
-        }
-      ],
-      "posicao": 8
-    },
-    {
-      "fantasia": "BROWN",
-      "faturamento_ytd": 1657160.38,
-      "participacao_pct": 2.6,
-      "media_mensal": 236737.2,
-      "clientes_positivados": 592,
-      "por_mes": {
-        "2026-01": 53877.22,
-        "2026-02": 86160.7,
-        "2026-03": 62315.17,
-        "2026-04": 93611.85,
-        "2026-05": 419986.72,
-        "2026-06": 487788.22,
-        "2026-07": 453420.49
-      },
-      "top_clientes": [
-        {
-          "codcli": "40664",
-          "estado": "SP",
-          "nome": "COMERCIAL ZARAGOZA IMPORTACAO E EXPORTACAO",
-          "faturamento": 118800.0
-        },
-        {
-          "codcli": "58584",
-          "estado": "RJ",
-          "nome": "SUPERMARKET - ENGENHO VELHO",
-          "faturamento": 54719.76
-        },
-        {
-          "codcli": "32508",
-          "estado": "SP",
-          "nome": "CENTRAL OSASCO",
-          "faturamento": 47952.0
-        },
-        {
-          "codcli": "50548",
-          "estado": "SP",
-          "nome": "FONTE NOVA MAIA",
-          "faturamento": 38994.0
-        },
-        {
-          "codcli": "50568",
-          "estado": "SP",
-          "nome": "MERCADO FONTE NOVA BELA VISTA LTDA",
-          "faturamento": 38012.16
-        },
-        {
-          "codcli": "47374",
-          "estado": "SP",
-          "nome": "SIMUS BEBIDAS",
-          "faturamento": 34645.2
-        },
-        {
-          "codcli": "31155",
-          "estado": "SP",
-          "nome": "MALTE COMERCIO DE BEBIDAS",
-          "faturamento": 32121.0
-        },
-        {
-          "codcli": "49844",
-          "estado": "SP",
-          "nome": "NOVA CENTRAL COMERCIO DE ALIMENTOS LTDA",
-          "faturamento": 29586.0
-        },
-        {
-          "codcli": "50420",
-          "estado": "SP",
-          "nome": "SUPER OSMARAJA EMPORIO",
-          "faturamento": 25146.6
-        },
-        {
-          "codcli": "49448",
-          "estado": "SP",
-          "nome": "DISTRIBUIDORA DE BEBIDAS E CONVENIENCIA ZERO GRAU",
-          "faturamento": 23736.0
-        },
-        {
-          "codcli": "23329",
-          "estado": "SP",
-          "nome": "CASA SANTA LUZIA",
-          "faturamento": 22777.2
-        },
-        {
-          "codcli": "50140",
-          "estado": "SP",
-          "nome": "VIVIAN MOREIRA CLAUDIO DE SOUZA",
-          "faturamento": 22501.2
-        },
-        {
-          "codcli": "46133",
-          "estado": "SP",
-          "nome": "MAX ATACAREJO",
-          "faturamento": 18892.8
-        },
-        {
-          "codcli": "49732",
-          "estado": "SP",
-          "nome": "ADEGA DO TIOZINHO",
-          "faturamento": 17703.3
-        },
-        {
-          "codcli": "49494",
-          "estado": "SP",
-          "nome": "COMERCIO DE BEBIDAS JAU",
-          "faturamento": 16872.0
-        }
-      ],
-      "top_vendedores": [
-        {
-          "rca": "426",
-          "estado": "SP",
-          "nome": "ADER ALONSO",
-          "faturamento": 260062.68
-        },
-        {
-          "rca": "470",
-          "estado": "SP",
-          "nome": "PRISCILLA BONACHE",
-          "faturamento": 128690.1
-        },
-        {
-          "rca": "476",
-          "estado": "SP",
-          "nome": "RODRIGO LIMA",
-          "faturamento": 127796.3
-        },
-        {
-          "rca": "467",
-          "estado": "SP",
-          "nome": "MARLENE RODRIGUES",
-          "faturamento": 112975.42
-        },
-        {
-          "rca": "433",
-          "estado": "SP",
-          "nome": "MANUELA ZAPPACOSTA",
-          "faturamento": 108015.6
-        },
-        {
-          "rca": "371",
-          "estado": "SP",
-          "nome": "CARLOS DE ALMEIDA",
-          "faturamento": 97611.0
-        },
-        {
-          "rca": "461",
-          "estado": "SP",
-          "nome": "SUELY SANTOS",
-          "faturamento": 70905.13
-        },
-        {
-          "rca": "155",
-          "estado": "RJ",
-          "nome": "RAPHAEL SANTOS",
-          "faturamento": 66672.65
-        },
-        {
-          "rca": "317",
-          "estado": "SP",
-          "nome": "ROBSON DA SILVA",
-          "faturamento": 63557.4
-        },
-        {
-          "rca": "450",
-          "estado": "RJ",
-          "nome": "LEANDRO SOUZA",
-          "faturamento": 57126.3
-        },
-        {
-          "rca": "489",
-          "estado": "SP",
-          "nome": "FERNANDO BERTIN",
-          "faturamento": 46529.3
-        },
-        {
-          "rca": "391",
-          "estado": "SP",
-          "nome": "ANDRE SILVA",
-          "faturamento": 44572.4
-        },
-        {
-          "rca": "462",
-          "estado": "SP",
-          "nome": "ELIZANGELA RODRIGUES",
-          "faturamento": 34645.2
-        },
-        {
-          "rca": "425",
-          "estado": "SP",
-          "nome": "BRUNO BARBOSA",
-          "faturamento": 33321.08
-        },
-        {
-          "rca": "468",
-          "estado": "SP",
-          "nome": "RENATO JUNIOR",
-          "faturamento": 33268.3
-        }
-      ],
-      "top_produtos": [
-        {
-          "produto": "WHISKY JACK DANIELS 1L",
-          "faturamento": 431081.51,
-          "quantidade": 4173.0
-        },
-        {
-          "produto": "WHISKY JACK DANIELS 1L - DEST",
-          "faturamento": 327271.5,
-          "quantidade": 3285.0
-        },
-        {
-          "produto": "WHISKY JACK DANIELS APPLE 1L",
-          "faturamento": 207495.26,
-          "quantidade": 1920.0
-        },
-        {
-          "produto": "WHISKY JACK DANIELS HONEY 1LT - DEST",
-          "faturamento": 131383.5,
-          "quantidade": 1325.0
-        },
-        {
-          "produto": "JACK DANIELS BLACKBERRY 1L",
-          "faturamento": 72739.2,
-          "quantidade": 484.0
-        },
-        {
-          "produto": "WHISKY JACK DANIELS APPLE 1L - DEST",
-          "faturamento": 68171.59,
-          "quantidade": 685.0
-        },
-        {
-          "produto": "WHISKY JACK DANIELS FIRE 1000 ML",
-          "faturamento": 60375.92,
-          "quantidade": 577.0
-        },
-        {
-          "produto": "WHISKEY JACK DANIELS HONEY 1 L",
-          "faturamento": 58776.39,
-          "quantidade": 581.0
-        },
-        {
-          "produto": "JACK DANIELS HONEY 1 L",
-          "faturamento": 51764.25,
-          "quantidade": 437.0
-        },
-        {
-          "produto": "WHISKY GENTLEMAN JACK 1L",
-          "faturamento": 31375.83,
-          "quantidade": 206.0
-        },
-        {
-          "produto": "WHISKY JACK DANIELS APPLE 700ML",
-          "faturamento": 24668.4,
-          "quantidade": 311.0
-        },
-        {
-          "produto": "JACK DANIELS HONEY 700ML",
-          "faturamento": 20355.73,
-          "quantidade": 270.0
-        },
-        {
-          "produto": "BOURBON WHISKY WOODFORD RESERVE 750ML",
-          "faturamento": 19907.3,
-          "quantidade": 131.0
-        },
-        {
-          "produto": "WHISKY JACK DANIELS SINGLE BARREL 750ML",
-          "faturamento": 19603.13,
-          "quantidade": 92.0
-        },
-        {
-          "produto": "WHISKY GENTLEMAN JACK 1L - DEST",
-          "faturamento": 17308.97,
-          "quantidade": 124.0
         }
       ],
       "posicao": 9
     },
     {
       "fantasia": "SEM FANTASIA",
-      "faturamento_ytd": 1555067.01,
-      "participacao_pct": 2.44,
-      "media_mensal": 222152.43,
-      "clientes_positivados": 416,
+      "faturamento_ytd": 1910297.12,
+      "participacao_pct": 2.41,
+      "media_mensal": 212255.24,
+      "clientes_positivados": 465,
       "por_mes": {
         "2026-01": 110766.47,
         "2026-02": 106452.69,
@@ -2527,7 +2547,9 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
         "2026-04": 569782.95,
         "2026-05": 360216.39,
         "2026-06": 215071.03,
-        "2026-07": 138429.66
+        "2026-07": 136714.38,
+        "2026-08": 291399.99,
+        "2026-09": 65545.4
       },
       "top_clientes": [
         {
@@ -2546,37 +2568,61 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "codcli": "37710",
           "estado": "MG",
           "nome": "MULTICOM ATACADO E VAREJO S/A",
-          "faturamento": 139771.44
+          "faturamento": 174847.44
+        },
+        {
+          "codcli": "31432",
+          "estado": "MG",
+          "nome": "MAGLIONI RIBEIRO & CIA LTDA",
+          "faturamento": 129510.0
         },
         {
           "codcli": "34568",
           "estado": "MG",
           "nome": "BIG MAIS SUPERMERCADOS",
-          "faturamento": 68052.0
+          "faturamento": 110622.0
         },
         {
           "codcli": "33139",
           "estado": "MG",
           "nome": "CORDEIRO SUPERMERCADOS",
-          "faturamento": 67966.2
+          "faturamento": 89271.0
         },
         {
           "codcli": "30538",
           "estado": "MG",
           "nome": "DAKI OFFICE BELO HORIZONTE",
-          "faturamento": 30452.88
+          "faturamento": 49699.8
         },
         {
           "codcli": "30530",
           "estado": "MG",
           "nome": "DISTRIBUIDORA CAMPOS",
-          "faturamento": 22623.24
+          "faturamento": 27953.4
+        },
+        {
+          "codcli": "34032",
+          "estado": "MG",
+          "nome": "UPSIDE DISTRIBUICAO DE ALIMENTOS",
+          "faturamento": 27081.6
         },
         {
           "codcli": "33491",
           "estado": "MG",
           "nome": "SUPERMERCADO SUPER LUNA S.A",
           "faturamento": 19326.0
+        },
+        {
+          "codcli": "33076",
+          "estado": "MG",
+          "nome": "CEVAROLI SUPERMERCADOS  FERNÃO DIAS",
+          "faturamento": 12453.6
+        },
+        {
+          "codcli": "35186",
+          "estado": "MG",
+          "nome": "TEM MAIS CLUBE DE COMPRAS",
+          "faturamento": 11775.6
         },
         {
           "codcli": "50128",
@@ -2591,34 +2637,10 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "faturamento": 11088.0
         },
         {
-          "codcli": "33076",
-          "estado": "MG",
-          "nome": "CEVAROLI SUPERMERCADOS  FERNÃO DIAS",
-          "faturamento": 11016.0
-        },
-        {
-          "codcli": "23823",
-          "estado": "SP",
-          "nome": "FORT",
-          "faturamento": 9756.72
-        },
-        {
-          "codcli": "34032",
-          "estado": "MG",
-          "nome": "UPSIDE DISTRIBUICAO DE ALIMENTOS",
-          "faturamento": 9504.6
-        },
-        {
           "codcli": "33077",
           "estado": "MG",
           "nome": "CEVAROLI SUPERMERCADOS ¿ PLANALTO",
-          "faturamento": 9338.4
-        },
-        {
-          "codcli": "33072",
-          "estado": "MG",
-          "nome": "VAREJÃO AVENIDA - JOÃO PINHEIRO",
-          "faturamento": 7426.8
+          "faturamento": 10057.2
         }
       ],
       "top_vendedores": [
@@ -2626,19 +2648,31 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "rca": "360",
           "estado": "MG",
           "nome": "LEANDRO OLIVEIRA",
-          "faturamento": 1030420.64
+          "faturamento": 1087375.04
+        },
+        {
+          "rca": "378",
+          "estado": "MG",
+          "nome": "JETER LUCIO SOARES",
+          "faturamento": 185557.2
         },
         {
           "rca": "327",
           "estado": "MG",
           "nome": "JOÃO SANTOS",
-          "faturamento": 116975.88
+          "faturamento": 128652.7
         },
         {
           "rca": "354",
           "estado": "MG",
           "nome": "MATHEUS DE SOUZA",
-          "faturamento": 76571.24
+          "faturamento": 109133.12
+        },
+        {
+          "rca": "349",
+          "estado": "MG",
+          "nome": "WILLIAM ALVES DA SILVA",
+          "faturamento": 58516.27
         },
         {
           "rca": "542",
@@ -2653,10 +2687,16 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "faturamento": 45317.52
         },
         {
-          "rca": "349",
+          "rca": "344",
           "estado": "MG",
-          "nome": "WILLIAM ALVES DA SILVA",
-          "faturamento": 41298.44
+          "nome": "TIAGO ANDRADE",
+          "faturamento": 42555.22
+        },
+        {
+          "rca": "388",
+          "estado": "MG",
+          "nome": "DOUGLAS FERREIRA SILVA",
+          "faturamento": 27081.6
         },
         {
           "rca": "460",
@@ -2665,16 +2705,16 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "faturamento": 26950.07
         },
         {
-          "rca": "344",
-          "estado": "MG",
-          "nome": "TIAGO ANDRADE",
-          "faturamento": 26177.16
-        },
-        {
           "rca": "426",
           "estado": "SP",
           "nome": "ADER ALONSO",
           "faturamento": 21401.28
+        },
+        {
+          "rca": "389",
+          "estado": "MG",
+          "nome": "JOSUE DA SILVA RODRIGUES",
+          "faturamento": 16764.5
         },
         {
           "rca": "335",
@@ -2683,41 +2723,23 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "faturamento": 15606.52
         },
         {
-          "rca": "378",
+          "rca": "405",
           "estado": "MG",
-          "nome": "JETER LUCIO SOARES",
-          "faturamento": 15192.48
+          "nome": "RONALDO MESQUITA JUNIOR",
+          "faturamento": 11820.6
         },
         {
           "rca": "362",
           "estado": "MG",
           "nome": "BRUNA CASTRO MELLO",
           "faturamento": 11242.94
-        },
-        {
-          "rca": "388",
-          "estado": "MG",
-          "nome": "DOUGLAS FERREIRA SILVA",
-          "faturamento": 9504.6
-        },
-        {
-          "rca": "371",
-          "estado": "SP",
-          "nome": "CARLOS DE ALMEIDA",
-          "faturamento": 9261.9
-        },
-        {
-          "rca": "331",
-          "estado": "MG",
-          "nome": "SAVIO NETO",
-          "faturamento": 9016.02
         }
       ],
       "top_produtos": [
         {
           "produto": "RED BULL 24X250ML ENERG",
-          "faturamento": 544956.72,
-          "quantidade": 3227.0
+          "faturamento": 551885.28,
+          "quantidade": 3263.0
         },
         {
           "produto": "APERITIVO LUCIA 750ML",
@@ -2726,13 +2748,23 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
         },
         {
           "produto": "VODKA ORLOFF 1L DEST",
-          "faturamento": 162943.28,
-          "quantidade": 7630.0
+          "faturamento": 161228.0,
+          "quantidade": 7546.0
         },
         {
           "produto": "APERITIVO CAMPARI 998 ML",
-          "faturamento": 62888.18,
-          "quantidade": 1333.0
+          "faturamento": 140090.58,
+          "quantidade": 2999.0
+        },
+        {
+          "produto": "WHISKY BALLANTINE'S FINEST 1L DEST",
+          "faturamento": 103837.72,
+          "quantidade": 1774.0
+        },
+        {
+          "produto": "APERITIVO APEROL 750 ML",
+          "faturamento": 79440.14,
+          "quantidade": 1818.0
         },
         {
           "produto": "WHISKY OLD PARR GOLD 1 L DEST",
@@ -2740,9 +2772,19 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "quantidade": 480.0
         },
         {
+          "produto": "APERITIVO CAMPARI 748 ML",
+          "faturamento": 50854.72,
+          "quantidade": 1272.0
+        },
+        {
           "produto": "WHISKY BALLANTINES  FINEST-750 ML DEST",
           "faturamento": 48967.3,
           "quantidade": 1057.0
+        },
+        {
+          "produto": "VODKA ORLOFF 1L - DEST",
+          "faturamento": 41593.51,
+          "quantidade": 1976.0
         },
         {
           "produto": "RED BULL POMELO 24X250ML ENERG",
@@ -2765,66 +2807,54 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "quantidade": 189.0
         },
         {
-          "produto": "GIN BEEFEATER 750ML - DEST",
-          "faturamento": 17280.0,
-          "quantidade": 240.0
-        },
-        {
-          "produto": "APERITIVO APEROL 750 ML",
-          "faturamento": 16649.1,
-          "quantidade": 357.0
-        },
-        {
-          "produto": "GIN ROCKS 1LT",
-          "faturamento": 14030.88,
-          "quantidade": 656.0
-        },
-        {
           "produto": "RED BULL TROPICAL 24X250 ML - ENERG",
-          "faturamento": 13822.56,
-          "quantidade": 78.0
-        },
-        {
-          "produto": "VODKA ORLOFF 1L - DEST",
-          "faturamento": 12252.0,
-          "quantidade": 600.0
+          "faturamento": 18623.52,
+          "quantidade": 104.0
         }
       ],
       "posicao": 10
     },
     {
       "fantasia": "TATUZINHO",
-      "faturamento_ytd": 1424471.31,
-      "participacao_pct": 2.24,
-      "media_mensal": 203495.9,
-      "clientes_positivados": 834,
+      "faturamento_ytd": 1641960.32,
+      "participacao_pct": 2.07,
+      "media_mensal": 182440.04,
+      "clientes_positivados": 902,
       "por_mes": {
         "2026-01": 138882.44,
         "2026-02": 122223.37,
         "2026-03": 207718.48,
         "2026-04": 132769.86,
-        "2026-05": 246756.06,
+        "2026-05": 245162.15,
         "2026-06": 379383.72,
-        "2026-07": 196737.39
+        "2026-07": 195635.79,
+        "2026-08": 149635.48,
+        "2026-09": 70549.03
       },
       "top_clientes": [
         {
           "codcli": "6940",
           "estado": "RJ",
           "nome": "SUPERMERCADO GUANABARA - PADRE MIGUEL",
-          "faturamento": 366371.76
+          "faturamento": 407782.08
         },
         {
           "codcli": "74376",
           "estado": "ES",
           "nome": "CARONE - GALPAO",
-          "faturamento": 190797.58
+          "faturamento": 215911.3
         },
         {
           "codcli": "79819",
           "estado": "ES",
           "nome": "SUPERMERCADOS CASAGRANDE",
           "faturamento": 23025.6
+        },
+        {
+          "codcli": "4321",
+          "estado": "RJ",
+          "nome": "SUPERPRIX- DEP CAXIAS - PARQUE DUQUE",
+          "faturamento": 18506.04
         },
         {
           "codcli": "93245",
@@ -2839,16 +2869,16 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "faturamento": 17748.0
         },
         {
+          "codcli": "90484",
+          "estado": "RJ",
+          "nome": "MERCADO RC DE ITAGUAI",
+          "faturamento": 16909.67
+        },
+        {
           "codcli": "90147",
           "estado": "RJ",
           "nome": "KAUA LUCAS FERREIRA NEPOMUCEN",
           "faturamento": 15816.16
-        },
-        {
-          "codcli": "90484",
-          "estado": "RJ",
-          "nome": "MERCADO RC DE ITAGUAI",
-          "faturamento": 14654.07
         },
         {
           "codcli": "35170",
@@ -2857,46 +2887,40 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "faturamento": 13935.6
         },
         {
+          "codcli": "82381",
+          "estado": "RJ",
+          "nome": "VBBR CONVENIENCIA - CIDADE NOVA",
+          "faturamento": 13102.9
+        },
+        {
           "codcli": "2339",
           "estado": "RJ",
           "nome": "POSTO SELECT SHELL",
           "faturamento": 11499.66
         },
         {
-          "codcli": "4321",
-          "estado": "RJ",
-          "nome": "SUPERPRIX- DEP CAXIAS - PARQUE DUQUE",
-          "faturamento": 11472.72
-        },
-        {
-          "codcli": "84030",
-          "estado": "RJ",
-          "nome": "KETEK COMERCIAL",
-          "faturamento": 10222.66
+          "codcli": "20938",
+          "estado": "ES",
+          "nome": "SUPERMERCADOS PERIM",
+          "faturamento": 11063.45
         },
         {
           "codcli": "20941",
           "estado": "ES",
           "nome": "SUPERMERCADOS  PERIM",
-          "faturamento": 10016.27
+          "faturamento": 10967.87
         },
         {
-          "codcli": "20938",
-          "estado": "ES",
-          "nome": "SUPERMERCADOS PERIM",
-          "faturamento": 9822.71
-        },
-        {
-          "codcli": "81155",
+          "codcli": "82380",
           "estado": "RJ",
-          "nome": "CASAS GUANABARA - BARRA DA TIJUCA",
-          "faturamento": 8879.4
+          "nome": "VBBR CONVENIENCIA - CENTRO RJ",
+          "faturamento": 10749.0
         },
         {
-          "codcli": "77937",
+          "codcli": "84030",
           "estado": "RJ",
-          "nome": "HD DISTRIBUIDOR DE BEBIDAS & CONVENIENCI",
-          "faturamento": 8846.42
+          "nome": "KETEK COMERCIAL",
+          "faturamento": 10608.1
         }
       ],
       "top_vendedores": [
@@ -2904,25 +2928,37 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "rca": "420",
           "estado": "RJ",
           "nome": "KELLY RAMOS",
-          "faturamento": 375251.16
+          "faturamento": 416661.48
         },
         {
           "rca": "388",
           "estado": "ES",
           "nome": "EUDES MORGAN",
-          "faturamento": 187424.76
+          "faturamento": 235977.84
         },
         {
           "rca": "156",
           "estado": "RJ",
           "nome": "MARILENA TRAGEL",
-          "faturamento": 173068.8
+          "faturamento": 209430.3
+        },
+        {
+          "rca": "450",
+          "estado": "RJ",
+          "nome": "LEANDRO SOUZA",
+          "faturamento": 86036.46
         },
         {
           "rca": "412",
           "estado": "RJ",
           "nome": "BARBARA CABRAL",
-          "faturamento": 65766.39
+          "faturamento": 77086.97
+        },
+        {
+          "rca": "431",
+          "estado": "RJ",
+          "nome": "ADEILSON GONÇALVEZ",
+          "faturamento": 60858.69
         },
         {
           "rca": "230",
@@ -2931,111 +2967,109 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "faturamento": 59458.46
         },
         {
-          "rca": "450",
-          "estado": "RJ",
-          "nome": "LEANDRO SOUZA",
-          "faturamento": 55967.14
-        },
-        {
-          "rca": "431",
-          "estado": "RJ",
-          "nome": "ADEILSON GONÇALVEZ",
-          "faturamento": 54594.71
-        },
-        {
           "rca": "419",
           "estado": "RJ",
           "nome": "NÁTALI DE OLIVEIRA",
-          "faturamento": 45080.32
-        },
-        {
-          "rca": "378",
-          "estado": "RJ",
-          "nome": "FABIO VALOTTI",
-          "faturamento": 42172.16
+          "faturamento": 46634.7
         },
         {
           "rca": "153",
           "estado": "RJ",
           "nome": "ANGELO NEVES SUZART",
-          "faturamento": 37062.19
+          "faturamento": 45567.29
+        },
+        {
+          "rca": "378",
+          "estado": "RJ",
+          "nome": "FABIO VALOTTI",
+          "faturamento": 44683.36
         },
         {
           "rca": "275",
           "estado": "RJ",
           "nome": "MARIA LUIZA",
-          "faturamento": 36375.09
+          "faturamento": 37499.25
         },
         {
           "rca": "327",
           "estado": "MG",
           "nome": "JOÃO SANTOS",
-          "faturamento": 30643.7
+          "faturamento": 35663.96
         },
         {
           "rca": "144",
           "estado": "RJ",
           "nome": "DIOGO RAPOSO",
-          "faturamento": 30394.09
-        },
-        {
-          "rca": "260",
-          "estado": "ES",
-          "nome": "DOUGLAS SCHADE",
-          "faturamento": 29625.66
+          "faturamento": 35194.09
         },
         {
           "rca": "155",
           "estado": "RJ",
           "nome": "RAPHAEL SANTOS",
-          "faturamento": 26228.32
+          "faturamento": 29077.22
+        },
+        {
+          "rca": "260",
+          "estado": "ES",
+          "nome": "DOUGLAS SCHADE",
+          "faturamento": 28031.75
         }
       ],
       "top_produtos": [
         {
           "produto": "MOVING HYDRO PROTEIN TANGERINA 12X500ML",
-          "faturamento": 145810.02,
-          "quantidade": 1640.0
+          "faturamento": 171405.64,
+          "quantidade": 1936.0
         },
         {
           "produto": "MOVING HYDRO PROTEIN F VERMELHA 12X500ML",
-          "faturamento": 138981.53,
-          "quantidade": 1560.0
-        },
-        {
-          "produto": "MOVING HYDRO PROTEIN UVA 12X500ML",
-          "faturamento": 126763.94,
-          "quantidade": 1431.0
+          "faturamento": 165741.27,
+          "quantidade": 1870.0
         },
         {
           "produto": "CACHACA VELHO BARREIRO 910 ML",
-          "faturamento": 116754.49,
-          "quantidade": 8315.0
+          "faturamento": 150561.85,
+          "quantidade": 10582.0
+        },
+        {
+          "produto": "MOVING HYDRO PROTEIN UVA 12X500ML",
+          "faturamento": 147435.06,
+          "quantidade": 1672.0
         },
         {
           "produto": "MOVING BOOSTER ABACAXI HORTELA 24X310ML",
-          "faturamento": 80931.06,
-          "quantidade": 537.0
+          "faturamento": 91596.42,
+          "quantidade": 605.0
         },
         {
           "produto": "MOVING HYDRO PROTEIN LIMAO 12X500ML",
-          "faturamento": 75854.47,
-          "quantidade": 873.0
+          "faturamento": 89108.91,
+          "quantidade": 1028.0
         },
         {
           "produto": "MOVING BOOSTER MORANGO ACEROLA  24X310ML",
-          "faturamento": 74584.06,
-          "quantidade": 488.0
+          "faturamento": 80204.92,
+          "quantidade": 523.0
         },
         {
           "produto": "MOVING HYDRO P MELANCIA LIMAO 12X500ML",
-          "faturamento": 50325.11,
-          "quantidade": 574.0
+          "faturamento": 67974.99,
+          "quantidade": 777.0
         },
         {
           "produto": "MOVING JUICE PROTEIN LARANJA 12X300ML",
-          "faturamento": 36027.65,
-          "quantidade": 433.0
+          "faturamento": 40487.69,
+          "quantidade": 487.0
+        },
+        {
+          "produto": "ST PIERRE LATA PINK LEMON LT 24X270ML",
+          "faturamento": 36693.46,
+          "quantidade": 371.0
+        },
+        {
+          "produto": "ST PIERRE LATA RED MINT LT 24X270ML",
+          "faturamento": 33510.54,
+          "quantidade": 346.0
         },
         {
           "produto": "ST PIERRE LATA 270 ML PINK LEMON CX C/24",
@@ -3043,332 +3077,46 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "quantidade": 397.0
         },
         {
-          "produto": "ST PIERRE LATA PINK LEMON LT 24X270ML",
-          "faturamento": 31958.16,
-          "quantidade": 322.0
-        },
-        {
-          "produto": "ST PIERRE LATA RED MINT LT 24X270ML",
-          "faturamento": 29015.59,
-          "quantidade": 298.0
-        },
-        {
           "produto": "ST PIERRE ZERO LATA PINK LEMON  24X310ML",
-          "faturamento": 27657.07,
-          "quantidade": 273.0
+          "faturamento": 31966.11,
+          "quantidade": 317.0
+        },
+        {
+          "produto": "ST PIERRE ZERO LATA TROPICAL LT 24X310ML",
+          "faturamento": 30500.94,
+          "quantidade": 306.0
         },
         {
           "produto": "ST PIERRE LATA 270ML RED MINT CX C/ 24",
           "faturamento": 24558.55,
           "quantidade": 318.0
-        },
-        {
-          "produto": "ST PIERRE ZERO LATA TROPICAL LT 24X310ML",
-          "faturamento": 21640.42,
-          "quantidade": 222.0
         }
       ],
       "posicao": 11
     },
     {
-      "fantasia": "HENNESSY",
-      "faturamento_ytd": 1130045.03,
-      "participacao_pct": 1.77,
-      "media_mensal": 161435.0,
-      "clientes_positivados": 238,
-      "por_mes": {
-        "2026-01": 476090.87,
-        "2026-02": 145176.97,
-        "2026-03": 83077.31,
-        "2026-04": 101362.75,
-        "2026-05": 95849.42,
-        "2026-06": 129952.74,
-        "2026-07": 98534.98
-      },
-      "top_clientes": [
-        {
-          "codcli": "74376",
-          "estado": "ES",
-          "nome": "CARONE - GALPAO",
-          "faturamento": 259365.42
-        },
-        {
-          "codcli": "50853",
-          "estado": "RJ",
-          "nome": "VIP'S MOTEL SOCIEDADE UNIPESSOAL",
-          "faturamento": 71463.4
-        },
-        {
-          "codcli": "16159",
-          "estado": "RJ",
-          "nome": "RIO SUL - PENHA CIRCULAR",
-          "faturamento": 64132.2
-        },
-        {
-          "codcli": "3755",
-          "estado": "RJ",
-          "nome": "SUPER MARKET - PENHA CIRCULAR",
-          "faturamento": 54841.8
-        },
-        {
-          "codcli": "6269",
-          "estado": "RJ",
-          "nome": "SUPERMERCADO ZONA SUL",
-          "faturamento": 48888.0
-        },
-        {
-          "codcli": "7755",
-          "estado": "RJ",
-          "nome": "IMBATIVEL SUPERMERCADOS - PIRATININGA",
-          "faturamento": 48673.2
-        },
-        {
-          "codcli": "79819",
-          "estado": "ES",
-          "nome": "SUPERMERCADOS CASAGRANDE",
-          "faturamento": 44430.6
-        },
-        {
-          "codcli": "2978",
-          "estado": "RJ",
-          "nome": "FILIAL 01 - BARROS FILHO",
-          "faturamento": 40803.0
-        },
-        {
-          "codcli": "55908",
-          "estado": "RJ",
-          "nome": "WOODS WINE COMERCIO E INTERMEDIACAO DE B",
-          "faturamento": 36000.0
-        },
-        {
-          "codcli": "80460",
-          "estado": "RJ",
-          "nome": "TMT",
-          "faturamento": 27909.0
-        },
-        {
-          "codcli": "20932",
-          "estado": "ES",
-          "nome": "EXTRABOM SUPERMERCADOS",
-          "faturamento": 25653.6
-        },
-        {
-          "codcli": "67668",
-          "estado": "RJ",
-          "nome": "R R RESTAURANTE CARIOCA",
-          "faturamento": 23688.0
-        },
-        {
-          "codcli": "91051",
-          "estado": "RJ",
-          "nome": "CADORE/TORRE - COELHO DA ROCHA",
-          "faturamento": 20970.0
-        },
-        {
-          "codcli": "90701",
-          "estado": "ES",
-          "nome": "MEGA DISTRIBUICAO",
-          "faturamento": 18175.92
-        },
-        {
-          "codcli": "3143",
-          "estado": "RJ",
-          "nome": "PORT FOOD COMERCIO INDUSTRIA",
-          "faturamento": 13257.8
-        }
-      ],
-      "top_vendedores": [
-        {
-          "rca": "388",
-          "estado": "ES",
-          "nome": "EUDES MORGAN",
-          "faturamento": 340979.58
-        },
-        {
-          "rca": "158",
-          "estado": "RJ",
-          "nome": "JOSE MARCELO CARDOSO",
-          "faturamento": 139403.76
-        },
-        {
-          "rca": "159",
-          "estado": "RJ",
-          "nome": "GISELLE BARFER",
-          "faturamento": 117361.55
-        },
-        {
-          "rca": "238",
-          "estado": "RJ",
-          "nome": "DANIELLE MOURA",
-          "faturamento": 86138.44
-        },
-        {
-          "rca": "144",
-          "estado": "RJ",
-          "nome": "DIOGO RAPOSO",
-          "faturamento": 75034.6
-        },
-        {
-          "rca": "275",
-          "estado": "RJ",
-          "nome": "MARIA LUIZA",
-          "faturamento": 66920.4
-        },
-        {
-          "rca": "155",
-          "estado": "RJ",
-          "nome": "RAPHAEL SANTOS",
-          "faturamento": 59254.8
-        },
-        {
-          "rca": "450",
-          "estado": "RJ",
-          "nome": "LEANDRO SOUZA",
-          "faturamento": 57381.46
-        },
-        {
-          "rca": "91",
-          "estado": "RJ",
-          "nome": "VIVIANI ALVES",
-          "faturamento": 36000.0
-        },
-        {
-          "rca": "156",
-          "estado": "RJ",
-          "nome": "MARILENA TRAGEL",
-          "faturamento": 24103.0
-        },
-        {
-          "rca": "370",
-          "estado": "ES",
-          "nome": "FRANZ BENEVIDES",
-          "faturamento": 22760.92
-        },
-        {
-          "rca": "230",
-          "estado": "ES",
-          "nome": "ENEIVA RODRIGUES",
-          "faturamento": 22369.92
-        },
-        {
-          "rca": "442",
-          "estado": "ES",
-          "nome": "RAQUEL ARAUJO",
-          "faturamento": 13802.04
-        },
-        {
-          "rca": "417",
-          "estado": "RJ",
-          "nome": "DIRLEI ARAUJO",
-          "faturamento": 13271.7
-        },
-        {
-          "rca": "257",
-          "estado": "ES",
-          "nome": "TIAGO SILVA",
-          "faturamento": 12485.31
-        }
-      ],
-      "top_produtos": [
-        {
-          "produto": "ESPUMANTE CHANDON RESERVE BRUT 750ML",
-          "faturamento": 471143.74,
-          "quantidade": 6619.0
-        },
-        {
-          "produto": "CHANDON RESERVE BRUT ROSE 750ML",
-          "faturamento": 169122.34,
-          "quantidade": 2199.0
-        },
-        {
-          "produto": "CHANDON GARDEN SPRITZ 750 ML",
-          "faturamento": 73699.66,
-          "quantidade": 1050.0
-        },
-        {
-          "produto": "CHANDON PASSION ROSE 750ML",
-          "faturamento": 47316.69,
-          "quantidade": 591.0
-        },
-        {
-          "produto": "CHANDON PASSION ON ICE 750 ML",
-          "faturamento": 38231.6,
-          "quantidade": 478.0
-        },
-        {
-          "produto": "MINUTY PRESTIGE 750ML",
-          "faturamento": 36000.0,
-          "quantidade": 300.0
-        },
-        {
-          "produto": "VINHO LATITUD 33 MALBEC  750 ML",
-          "faturamento": 33409.82,
-          "quantidade": 863.0
-        },
-        {
-          "produto": "CHANDON BABY RESERVE BRUT 187 ML",
-          "faturamento": 32585.31,
-          "quantidade": 1211.0
-        },
-        {
-          "produto": "MOET CHANDON BRUT IMPERIAL 750ML",
-          "faturamento": 28587.4,
-          "quantidade": 86.0
-        },
-        {
-          "produto": "VODKA BELVEDERE 700 ML",
-          "faturamento": 27933.44,
-          "quantidade": 242.0
-        },
-        {
-          "produto": "CHAMP VEUVE CLICQUOT BRUT 750 ML",
-          "faturamento": 24374.82,
-          "quantidade": 50.0
-        },
-        {
-          "produto": "CHANDON RICHE DEMI-SEC 750 ML",
-          "faturamento": 17789.92,
-          "quantidade": 225.0
-        },
-        {
-          "produto": "VINHO LATITUD 33  CABERNET SAUVIGNON",
-          "faturamento": 14669.76,
-          "quantidade": 372.0
-        },
-        {
-          "produto": "LATITUD 33 CABERNET SAUVIGNON",
-          "faturamento": 10183.66,
-          "quantidade": 277.0
-        },
-        {
-          "produto": "VINHO LATITUD 33 MALBEC ROSE 750 ML",
-          "faturamento": 9688.18,
-          "quantidade": 272.0
-        }
-      ],
-      "posicao": 12
-    },
-    {
       "fantasia": "AURORA",
-      "faturamento_ytd": 1121421.99,
-      "participacao_pct": 1.76,
-      "media_mensal": 160203.14,
-      "clientes_positivados": 566,
+      "faturamento_ytd": 1342091.99,
+      "participacao_pct": 1.69,
+      "media_mensal": 149121.33,
+      "clientes_positivados": 672,
       "por_mes": {
         "2026-01": 113567.48,
         "2026-02": 130556.22,
         "2026-03": 71236.3,
         "2026-04": 58326.36,
         "2026-05": 152031.87,
-        "2026-06": 354567.05,
-        "2026-07": 241136.71
+        "2026-06": 353667.95,
+        "2026-07": 226647.01,
+        "2026-08": 217113.8,
+        "2026-09": 18945.0
       },
       "top_clientes": [
         {
           "codcli": "34048",
           "estado": "MG",
           "nome": "MART MINAS DISTRIBUICAO",
-          "faturamento": 198834.0
+          "faturamento": 230904.0
         },
         {
           "codcli": "6940",
@@ -3383,16 +3131,28 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "faturamento": 83147.1
         },
         {
+          "codcli": "40664",
+          "estado": "SP",
+          "nome": "COMERCIAL ZARAGOZA IMPORTACAO E EXPORTACAO",
+          "faturamento": 53397.0
+        },
+        {
           "codcli": "30538",
           "estado": "MG",
           "nome": "DAKI OFFICE BELO HORIZONTE",
-          "faturamento": 42437.4
+          "faturamento": 49632.6
         },
         {
-          "codcli": "2978",
-          "estado": "RJ",
-          "nome": "FILIAL 01 - BARROS FILHO",
-          "faturamento": 14160.0
+          "codcli": "46505",
+          "estado": "SP",
+          "nome": "POINT DO ATACADO",
+          "faturamento": 19260.0
+        },
+        {
+          "codcli": "31155",
+          "estado": "SP",
+          "nome": "MALTE COMERCIO DE BEBIDAS",
+          "faturamento": 16689.28
         },
         {
           "codcli": "30685",
@@ -3419,12 +3179,6 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "faturamento": 13758.0
         },
         {
-          "codcli": "31155",
-          "estado": "SP",
-          "nome": "MALTE COMERCIO DE BEBIDAS",
-          "faturamento": 13182.28
-        },
-        {
           "codcli": "49531",
           "estado": "SP",
           "nome": "VALDOMIRO SGORLON MARTINELLI JUNIOR",
@@ -3443,16 +3197,10 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "faturamento": 11853.7
         },
         {
-          "codcli": "45830",
-          "estado": "SP",
-          "nome": "RED UP DISTRIBUIDORA",
-          "faturamento": 10826.4
-        },
-        {
-          "codcli": "50469",
-          "estado": "SP",
-          "nome": "SUELEN CRISTINA DE FREITAS RIBAS",
-          "faturamento": 10637.9
+          "codcli": "34568",
+          "estado": "MG",
+          "nome": "BIG MAIS SUPERMERCADOS",
+          "faturamento": 10950.0
         }
       ],
       "top_vendedores": [
@@ -3460,13 +3208,13 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "rca": "360",
           "estado": "MG",
           "nome": "LEANDRO OLIVEIRA",
-          "faturamento": 174332.5
+          "faturamento": 206402.5
         },
         {
           "rca": "426",
           "estado": "SP",
           "nome": "ADER ALONSO",
-          "faturamento": 136787.0
+          "faturamento": 140294.0
         },
         {
           "rca": "420",
@@ -3481,34 +3229,40 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "faturamento": 97487.5
         },
         {
-          "rca": "433",
-          "estado": "SP",
-          "nome": "MANUELA ZAPPACOSTA",
-          "faturamento": 62542.3
-        },
-        {
           "rca": "354",
           "estado": "MG",
           "nome": "MATHEUS DE SOUZA",
-          "faturamento": 60855.4
+          "faturamento": 72966.7
+        },
+        {
+          "rca": "433",
+          "estado": "SP",
+          "nome": "MANUELA ZAPPACOSTA",
+          "faturamento": 63549.1
         },
         {
           "rca": "371",
           "estado": "SP",
           "nome": "CARLOS DE ALMEIDA",
-          "faturamento": 50193.04
+          "faturamento": 54881.74
+        },
+        {
+          "rca": "470",
+          "estado": "SP",
+          "nome": "PRISCILLA BONACHE",
+          "faturamento": 53900.4
         },
         {
           "rca": "159",
           "estado": "RJ",
           "nome": "GISELLE BARFER",
-          "faturamento": 47071.28
+          "faturamento": 51905.36
         },
         {
           "rca": "156",
           "estado": "RJ",
           "nome": "MARILENA TRAGEL",
-          "faturamento": 45710.69
+          "faturamento": 50221.21
         },
         {
           "rca": "343",
@@ -3520,67 +3274,66 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "rca": "155",
           "estado": "RJ",
           "nome": "RAPHAEL SANTOS",
-          "faturamento": 33469.8
-        },
-        {
-          "rca": "476",
-          "estado": "SP",
-          "nome": "RODRIGO LIMA",
-          "faturamento": 25240.12
+          "faturamento": 41115.9
         },
         {
           "rca": "317",
           "estado": "SP",
           "nome": "ROBSON DA SILVA",
-          "faturamento": 18437.22
+          "faturamento": 27860.82
         },
         {
-          "rca": "238",
-          "estado": "RJ",
-          "nome": "DANIELLE MOURA",
-          "faturamento": 14992.6
+          "rca": "476",
+          "estado": "SP",
+          "nome": "RODRIGO LIMA",
+          "faturamento": 27062.46
         },
         {
-          "rca": "327",
-          "estado": "MG",
-          "nome": "JOÃO SANTOS",
-          "faturamento": 14468.4
+          "rca": "425",
+          "estado": "SP",
+          "nome": "BRUNO BARBOSA",
+          "faturamento": 21501.66
         }
       ],
       "top_produtos": [
         {
           "produto": "LICOR 43 DIEGO ZAMORA 700ML",
-          "faturamento": 317636.88,
-          "quantidade": 2713.0
+          "faturamento": 407272.58,
+          "quantidade": 3510.0
         },
         {
           "produto": "AMARULA C LIQUEUR 750 ML",
-          "faturamento": 210954.4,
-          "quantidade": 1966.0
+          "faturamento": 243704.8,
+          "quantidade": 2272.0
         },
         {
           "produto": "LICOR ESP DIEGO ZAMORA 43 700ML",
-          "faturamento": 173563.75,
-          "quantidade": 1335.0
+          "faturamento": 193875.15,
+          "quantidade": 1477.0
         },
         {
           "produto": "TEQUILA J CUERVO GOLD 750ML",
-          "faturamento": 138882.74,
-          "quantidade": 1436.0
+          "faturamento": 177512.14,
+          "quantidade": 1873.0
         },
         {
           "produto": "TEQUILA J CUERVO SILVER 750ML",
-          "faturamento": 76092.3,
-          "quantidade": 778.0
+          "faturamento": 90296.3,
+          "quantidade": 928.0
         },
         {
           "produto": "LICOR CAN FIREBALL CX C/ 6X50ML",
-          "faturamento": 53090.62,
-          "quantidade": 2247.0
+          "faturamento": 53791.48,
+          "quantidade": 2276.0
         },
         {
           "produto": "LICOR IT VILLA MASSA LIMONCELLO",
-          "faturamento": 30512.0,
+          "faturamento": 31446.3,
+          "quantidade": 255.0
+        },
+        {
+          "produto": "LICOR 43 DIEGO ZAMORA CREME BRULEE 700ML",
+          "faturamento": 27001.46,
           "quantidade": 248.0
         },
         {
@@ -3590,28 +3343,23 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
         },
         {
           "produto": "LICOR ESP DIEGO ZAMORA 43 CHOCOLATE",
-          "faturamento": 21252.0,
-          "quantidade": 146.0
-        },
-        {
-          "produto": "LICOR 43 DIEGO ZAMORA CREME BRULEE 700ML",
-          "faturamento": 20409.66,
-          "quantidade": 186.0
+          "faturamento": 23038.8,
+          "quantidade": 158.0
         },
         {
           "produto": "MOLHO TABASCO RED PEPPER SAUCE 12X60ML",
-          "faturamento": 12840.88,
-          "quantidade": 70.0
+          "faturamento": 16675.36,
+          "quantidade": 91.0
         },
         {
           "produto": "LICOR CAN FIREBALL 750ML",
-          "faturamento": 6565.84,
-          "quantidade": 88.0
+          "faturamento": 9188.54,
+          "quantidade": 127.0
         },
         {
           "produto": "LICOR FIREBALL 750ML",
-          "faturamento": 6475.3,
-          "quantidade": 97.0
+          "faturamento": 7266.1,
+          "quantidade": 109.0
         },
         {
           "produto": "FERNET ARG BRANCA 750 ML",
@@ -3624,14 +3372,294 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "quantidade": 27.0
         }
       ],
+      "posicao": 12
+    },
+    {
+      "fantasia": "HENNESSY",
+      "faturamento_ytd": 1272394.07,
+      "participacao_pct": 1.6,
+      "media_mensal": 141377.12,
+      "clientes_positivados": 250,
+      "por_mes": {
+        "2026-01": 476090.87,
+        "2026-02": 145176.97,
+        "2026-03": 83077.31,
+        "2026-04": 101362.75,
+        "2026-05": 95849.42,
+        "2026-06": 129004.74,
+        "2026-07": 96761.38,
+        "2026-08": 96576.24,
+        "2026-09": 48494.4
+      },
+      "top_clientes": [
+        {
+          "codcli": "74376",
+          "estado": "ES",
+          "nome": "CARONE - GALPAO",
+          "faturamento": 259365.42
+        },
+        {
+          "codcli": "16159",
+          "estado": "RJ",
+          "nome": "RIO SUL - PENHA CIRCULAR",
+          "faturamento": 98332.2
+        },
+        {
+          "codcli": "50853",
+          "estado": "RJ",
+          "nome": "VIP'S MOTEL SOCIEDADE UNIPESSOAL",
+          "faturamento": 81841.6
+        },
+        {
+          "codcli": "3755",
+          "estado": "RJ",
+          "nome": "SUPER MARKET - PENHA CIRCULAR",
+          "faturamento": 73336.8
+        },
+        {
+          "codcli": "7755",
+          "estado": "RJ",
+          "nome": "IMBATIVEL SUPERMERCADOS - PIRATININGA",
+          "faturamento": 57913.2
+        },
+        {
+          "codcli": "6269",
+          "estado": "RJ",
+          "nome": "SUPERMERCADO ZONA SUL",
+          "faturamento": 48888.0
+        },
+        {
+          "codcli": "79819",
+          "estado": "ES",
+          "nome": "SUPERMERCADOS CASAGRANDE",
+          "faturamento": 44430.6
+        },
+        {
+          "codcli": "20932",
+          "estado": "ES",
+          "nome": "EXTRABOM SUPERMERCADOS",
+          "faturamento": 41774.1
+        },
+        {
+          "codcli": "2978",
+          "estado": "RJ",
+          "nome": "FILIAL 01 - BARROS FILHO",
+          "faturamento": 40803.0
+        },
+        {
+          "codcli": "80460",
+          "estado": "RJ",
+          "nome": "TMT",
+          "faturamento": 39159.0
+        },
+        {
+          "codcli": "55908",
+          "estado": "RJ",
+          "nome": "WOODS WINE COMERCIO E INTERMEDIACAO DE B",
+          "faturamento": 36000.0
+        },
+        {
+          "codcli": "67668",
+          "estado": "RJ",
+          "nome": "R R RESTAURANTE CARIOCA",
+          "faturamento": 23688.0
+        },
+        {
+          "codcli": "91051",
+          "estado": "RJ",
+          "nome": "CADORE/TORRE - COELHO DA ROCHA",
+          "faturamento": 20970.0
+        },
+        {
+          "codcli": "90701",
+          "estado": "ES",
+          "nome": "MEGA DISTRIBUICAO",
+          "faturamento": 18175.92
+        },
+        {
+          "codcli": "87086",
+          "estado": "RJ",
+          "nome": "TAIS TERRA MONTEIRO",
+          "faturamento": 15603.0
+        }
+      ],
+      "top_vendedores": [
+        {
+          "rca": "388",
+          "estado": "ES",
+          "nome": "EUDES MORGAN",
+          "faturamento": 340979.58
+        },
+        {
+          "rca": "158",
+          "estado": "RJ",
+          "nome": "JOSE MARCELO CARDOSO",
+          "faturamento": 139403.76
+        },
+        {
+          "rca": "159",
+          "estado": "RJ",
+          "nome": "GISELLE BARFER",
+          "faturamento": 129607.35
+        },
+        {
+          "rca": "450",
+          "estado": "RJ",
+          "nome": "LEANDRO SOUZA",
+          "faturamento": 98956.46
+        },
+        {
+          "rca": "238",
+          "estado": "RJ",
+          "nome": "DANIELLE MOURA",
+          "faturamento": 86138.44
+        },
+        {
+          "rca": "144",
+          "estado": "RJ",
+          "nome": "DIOGO RAPOSO",
+          "faturamento": 85856.2
+        },
+        {
+          "rca": "155",
+          "estado": "RJ",
+          "nome": "RAPHAEL SANTOS",
+          "faturamento": 68488.4
+        },
+        {
+          "rca": "275",
+          "estado": "RJ",
+          "nome": "MARIA LUIZA",
+          "faturamento": 65972.4
+        },
+        {
+          "rca": "379",
+          "estado": "RJ",
+          "nome": "JORGE MACIEL",
+          "faturamento": 42651.9
+        },
+        {
+          "rca": "91",
+          "estado": "RJ",
+          "nome": "VIVIANI ALVES",
+          "faturamento": 36000.0
+        },
+        {
+          "rca": "156",
+          "estado": "RJ",
+          "nome": "MARILENA TRAGEL",
+          "faturamento": 27316.6
+        },
+        {
+          "rca": "370",
+          "estado": "ES",
+          "nome": "FRANZ BENEVIDES",
+          "faturamento": 22760.92
+        },
+        {
+          "rca": "230",
+          "estado": "ES",
+          "nome": "ENEIVA RODRIGUES",
+          "faturamento": 22369.92
+        },
+        {
+          "rca": "508",
+          "estado": "ES",
+          "nome": "MARCELO DE SOUZA",
+          "faturamento": 21816.36
+        },
+        {
+          "rca": "442",
+          "estado": "ES",
+          "nome": "RAQUEL ARAUJO",
+          "faturamento": 13802.04
+        }
+      ],
+      "top_produtos": [
+        {
+          "produto": "ESPUMANTE CHANDON RESERVE BRUT 750ML",
+          "faturamento": 495126.94,
+          "quantidade": 6937.0
+        },
+        {
+          "produto": "CHANDON RESERVE BRUT ROSE 750ML",
+          "faturamento": 189879.04,
+          "quantidade": 2474.0
+        },
+        {
+          "produto": "CHANDON GARDEN SPRITZ 750 ML",
+          "faturamento": 80847.46,
+          "quantidade": 1134.0
+        },
+        {
+          "produto": "MOET CHANDON BRUT IMPERIAL 750ML",
+          "faturamento": 65781.4,
+          "quantidade": 218.0
+        },
+        {
+          "produto": "VINHO LATITUD 33 MALBEC  750 ML",
+          "faturamento": 48085.1,
+          "quantidade": 1241.0
+        },
+        {
+          "produto": "CHANDON PASSION ROSE 750ML",
+          "faturamento": 47316.69,
+          "quantidade": 591.0
+        },
+        {
+          "produto": "CHANDON PASSION ON ICE 750 ML",
+          "faturamento": 42445.4,
+          "quantidade": 534.0
+        },
+        {
+          "produto": "MINUTY PRESTIGE 750ML",
+          "faturamento": 36000.0,
+          "quantidade": 300.0
+        },
+        {
+          "produto": "CHANDON BABY RESERVE BRUT 187 ML",
+          "faturamento": 34217.31,
+          "quantidade": 1259.0
+        },
+        {
+          "produto": "VODKA BELVEDERE 700 ML",
+          "faturamento": 31577.8,
+          "quantidade": 270.0
+        },
+        {
+          "produto": "CHAMP VEUVE CLICQUOT BRUT 750 ML",
+          "faturamento": 24374.82,
+          "quantidade": 50.0
+        },
+        {
+          "produto": "CHANDON RICHE DEMI-SEC 750 ML",
+          "faturamento": 18965.62,
+          "quantidade": 240.0
+        },
+        {
+          "produto": "LATITUD 33 CABERNET SAUVIGNON",
+          "faturamento": 16486.66,
+          "quantidade": 439.0
+        },
+        {
+          "produto": "VINHO LATITUD 33  CABERNET SAUVIGNON",
+          "faturamento": 14669.76,
+          "quantidade": 372.0
+        },
+        {
+          "produto": "CHANDON BABY BRUT ROSE 187 ML",
+          "faturamento": 14368.8,
+          "quantidade": 433.0
+        }
+      ],
       "posicao": 13
     },
     {
       "fantasia": "KAISER",
-      "faturamento_ytd": 974333.01,
-      "participacao_pct": 1.53,
-      "media_mensal": 139190.43,
-      "clientes_positivados": 193,
+      "faturamento_ytd": 1049886.9,
+      "participacao_pct": 1.32,
+      "media_mensal": 116654.1,
+      "clientes_positivados": 220,
       "por_mes": {
         "2026-01": 517287.74,
         "2026-02": 10846.38,
@@ -3639,9 +3667,23 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
         "2026-04": 114999.24,
         "2026-05": 82409.7,
         "2026-06": 54202.89,
-        "2026-07": 95910.01
+        "2026-07": 95910.01,
+        "2026-08": 54275.69,
+        "2026-09": 21278.2
       },
       "top_clientes": [
+        {
+          "codcli": "3143",
+          "estado": "RJ",
+          "nome": "PORT FOOD COMERCIO INDUSTRIA",
+          "faturamento": 53721.7
+        },
+        {
+          "codcli": "86503",
+          "estado": "RJ",
+          "nome": "DENILSON GOMES DOS SANTOS",
+          "faturamento": 47899.0
+        },
         {
           "codcli": "83574",
           "estado": "RJ",
@@ -3649,22 +3691,10 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "faturamento": 47377.0
         },
         {
-          "codcli": "3143",
-          "estado": "RJ",
-          "nome": "PORT FOOD COMERCIO INDUSTRIA",
-          "faturamento": 45501.5
-        },
-        {
           "codcli": "86115",
           "estado": "RJ",
           "nome": "MINIMERCADO ALFERES - PQ. BARCELLOS",
           "faturamento": 42803.1
-        },
-        {
-          "codcli": "86503",
-          "estado": "RJ",
-          "nome": "DENILSON GOMES DOS SANTOS",
-          "faturamento": 40980.0
         },
         {
           "codcli": "81631",
@@ -3685,6 +3715,12 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "faturamento": 32597.4
         },
         {
+          "codcli": "91172",
+          "estado": "RJ",
+          "nome": "CARLOS HENRIQUE DA SILVA FELIPE",
+          "faturamento": 30037.0
+        },
+        {
           "codcli": "83863",
           "estado": "RJ",
           "nome": "RENATO CRUZ DA SILVA",
@@ -3695,12 +3731,6 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "estado": "RJ",
           "nome": "FREITAS BEBIDAS",
           "faturamento": 26856.2
-        },
-        {
-          "codcli": "91172",
-          "estado": "RJ",
-          "nome": "CARLOS HENRIQUE DA SILVA FELIPE",
-          "faturamento": 26254.0
         },
         {
           "codcli": "91386",
@@ -3730,7 +3760,7 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "codcli": "90981",
           "estado": "RJ",
           "nome": "BIANCA DUARTE PIMENTA",
-          "faturamento": 22299.3
+          "faturamento": 22943.8
         }
       ],
       "top_vendedores": [
@@ -3738,7 +3768,7 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "rca": "144",
           "estado": "RJ",
           "nome": "DIOGO RAPOSO",
-          "faturamento": 330360.25
+          "faturamento": 343861.95
         },
         {
           "rca": "417",
@@ -3747,22 +3777,22 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "faturamento": 192085.9
         },
         {
-          "rca": "419",
-          "estado": "RJ",
-          "nome": "NÁTALI DE OLIVEIRA",
-          "faturamento": 104566.2
-        },
-        {
           "rca": "379",
           "estado": "RJ",
           "nome": "JORGE MACIEL",
-          "faturamento": 100409.72
+          "faturamento": 115774.22
+        },
+        {
+          "rca": "419",
+          "estado": "RJ",
+          "nome": "NÁTALI DE OLIVEIRA",
+          "faturamento": 111222.0
         },
         {
           "rca": "159",
           "estado": "RJ",
           "nome": "GISELLE BARFER",
-          "faturamento": 90701.96
+          "faturamento": 104613.46
         },
         {
           "rca": "153",
@@ -3771,22 +3801,28 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "faturamento": 52863.0
         },
         {
+          "rca": "155",
+          "estado": "RJ",
+          "nome": "RAPHAEL SANTOS",
+          "faturamento": 36810.4
+        },
+        {
           "rca": "439",
           "estado": "RJ",
           "nome": "MATEUS CARDOSO",
           "faturamento": 35368.5
         },
         {
-          "rca": "155",
-          "estado": "RJ",
-          "nome": "RAPHAEL SANTOS",
-          "faturamento": 32020.8
-        },
-        {
           "rca": "471",
           "estado": "RJ",
           "nome": "ANA CLARA FASSANO",
-          "faturamento": 12137.8
+          "faturamento": 20729.9
+        },
+        {
+          "rca": "378",
+          "estado": "RJ",
+          "nome": "FABIO VALOTTI",
+          "faturamento": 18542.66
         },
         {
           "rca": "412",
@@ -3795,29 +3831,23 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "faturamento": 9460.71
         },
         {
-          "rca": "378",
+          "rca": "156",
           "estado": "RJ",
-          "nome": "FABIO VALOTTI",
-          "faturamento": 8642.86
+          "nome": "MARILENA TRAGEL",
+          "faturamento": 4781.98
         },
         {
           "rca": "431",
           "estado": "RJ",
           "nome": "ADEILSON GONÇALVEZ",
-          "faturamento": 3622.32
-        },
-        {
-          "rca": "156",
-          "estado": "RJ",
-          "nome": "MARILENA TRAGEL",
-          "faturamento": 2092.98
+          "faturamento": 3772.22
         }
       ],
       "top_produtos": [
         {
           "produto": "CERVEJA HEINEKEN 473ML (LATAO) - 12 UNID",
-          "faturamento": 422750.09,
-          "quantidade": 6719.0
+          "faturamento": 461623.99,
+          "quantidade": 7325.0
         },
         {
           "produto": "CERVEJA HEINEKEN LONG 330ML",
@@ -3826,8 +3856,13 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
         },
         {
           "produto": "CERVEJA AMSTEL PURO MALTE 12X473 ML",
-          "faturamento": 111390.91,
-          "quantidade": 2293.0
+          "faturamento": 112214.41,
+          "quantidade": 2308.0
+        },
+        {
+          "produto": "CERVEJA HEINEKEN LONG 24X330ML",
+          "faturamento": 105652.13,
+          "quantidade": 819.0
         },
         {
           "produto": "CERVEJA AMSTEL PURO MALTE 473 ML",
@@ -3835,14 +3870,9 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "quantidade": 1973.0
         },
         {
-          "produto": "CERVEJA HEINEKEN LONG 24X330ML",
-          "faturamento": 82509.63,
-          "quantidade": 639.0
-        },
-        {
           "produto": "CERVEJA HEINEKEN RET 24X600ML",
-          "faturamento": 75750.88,
-          "quantidade": 382.0
+          "faturamento": 77407.57,
+          "quantidade": 390.0
         },
         {
           "produto": "CERVEJA HEINEKEN 350 ML (SLEEK) 12 UNID",
@@ -3851,23 +3881,23 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
         },
         {
           "produto": "CERVEJA HEINEKEN ZERO LONG  24X330ML",
-          "faturamento": 15872.93,
-          "quantidade": 120.0
+          "faturamento": 19648.13,
+          "quantidade": 149.0
         },
         {
           "produto": "AGUA MINERAL MAMBA WATER S/ GAS 12X350ML",
-          "faturamento": 5656.0,
-          "quantidade": 137.0
+          "faturamento": 7912.8,
+          "quantidade": 189.0
+        },
+        {
+          "produto": "AGUA MINERAL MAMBA WATER C/ GAS 12X350ML",
+          "faturamento": 6366.4,
+          "quantidade": 136.0
         },
         {
           "produto": "AGUA MINERAL MAMBA WATER C/ GAS - 24X350",
           "faturamento": 4516.88,
           "quantidade": 70.0
-        },
-        {
-          "produto": "AGUA MINERAL MAMBA WATER C/ GAS 12X350ML",
-          "faturamento": 3552.4,
-          "quantidade": 76.0
         },
         {
           "produto": "AGUA MINERAL MAMBA WATER S/ GAS- 24X350",
@@ -3876,28 +3906,28 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
         },
         {
           "produto": "BAER MATE LN  6X350ML",
-          "faturamento": 1545.28,
-          "quantidade": 43.0
-        },
-        {
-          "produto": "AGUA MAMBA PROTEIN ABACAXI HORT 6X350ML",
-          "faturamento": 709.2,
-          "quantidade": 12.0
+          "faturamento": 2478.68,
+          "quantidade": 69.0
         },
         {
           "produto": "AGUA MAMBA PROTEIN LIMAO E FRAMB 6X350ML",
-          "faturamento": 709.2,
-          "quantidade": 12.0
+          "faturamento": 1300.2,
+          "quantidade": 22.0
+        },
+        {
+          "produto": "AGUA MAMBA PROTEIN ABACAXI HORT 6X350ML",
+          "faturamento": 1241.1,
+          "quantidade": 21.0
         }
       ],
       "posicao": 14
     },
     {
       "fantasia": "BALLENA",
-      "faturamento_ytd": 880834.06,
-      "participacao_pct": 1.38,
-      "media_mensal": 125833.44,
-      "clientes_positivados": 344,
+      "faturamento_ytd": 992137.59,
+      "participacao_pct": 1.25,
+      "media_mensal": 110237.51,
+      "clientes_positivados": 411,
       "por_mes": {
         "2026-01": 125033.36,
         "2026-02": 68145.16,
@@ -3905,14 +3935,16 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
         "2026-04": 166478.8,
         "2026-05": 132656.36,
         "2026-06": 64256.39,
-        "2026-07": 115936.19
+        "2026-07": 115936.19,
+        "2026-08": 95114.13,
+        "2026-09": 16189.4
       },
       "top_clientes": [
         {
           "codcli": "34048",
           "estado": "MG",
           "nome": "MART MINAS DISTRIBUICAO",
-          "faturamento": 305961.6
+          "faturamento": 348822.6
         },
         {
           "codcli": "35170",
@@ -3924,7 +3956,7 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "codcli": "35169",
           "estado": "MG",
           "nome": "SUPERMERCADOS ABC",
-          "faturamento": 53096.4
+          "faturamento": 54992.7
         },
         {
           "codcli": "21538",
@@ -3936,7 +3968,7 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "codcli": "37356",
           "estado": "MG",
           "nome": "DMA DISTRIBUIDORA S/A",
-          "faturamento": 22869.0
+          "faturamento": 31185.0
         },
         {
           "codcli": "30538",
@@ -3993,10 +4025,10 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "faturamento": 9588.0
         },
         {
-          "codcli": "49555",
+          "codcli": "52790",
           "estado": "SP",
-          "nome": "JS BEBIDAS",
-          "faturamento": 8629.2
+          "nome": "COMERCIAL DE ALIMENTOS MEGA PRECO",
+          "faturamento": 8999.4
         }
       ],
       "top_vendedores": [
@@ -4004,7 +4036,7 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "rca": "360",
           "estado": "MG",
           "nome": "LEANDRO OLIVEIRA",
-          "faturamento": 294864.12
+          "faturamento": 347937.42
         },
         {
           "rca": "542",
@@ -4028,7 +4060,7 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "rca": "354",
           "estado": "MG",
           "nome": "MATHEUS DE SOUZA",
-          "faturamento": 41497.9
+          "faturamento": 44704.9
         },
         {
           "rca": "230",
@@ -4040,7 +4072,13 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "rca": "388",
           "estado": "ES",
           "nome": "EUDES MORGAN",
-          "faturamento": 32118.84
+          "faturamento": 39978.84
+        },
+        {
+          "rca": "433",
+          "estado": "SP",
+          "nome": "MANUELA ZAPPACOSTA",
+          "faturamento": 20708.27
         },
         {
           "rca": "349",
@@ -4049,28 +4087,28 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "faturamento": 20028.6
         },
         {
-          "rca": "433",
-          "estado": "SP",
-          "nome": "MANUELA ZAPPACOSTA",
-          "faturamento": 18670.67
+          "rca": "156",
+          "estado": "RJ",
+          "nome": "MARILENA TRAGEL",
+          "faturamento": 14999.2
         },
         {
           "rca": "425",
           "estado": "SP",
           "nome": "BRUNO BARBOSA",
-          "faturamento": 14708.55
+          "faturamento": 14963.25
         },
         {
-          "rca": "156",
-          "estado": "RJ",
-          "nome": "MARILENA TRAGEL",
-          "faturamento": 11845.2
+          "rca": "524",
+          "estado": "SP",
+          "nome": "AMAURY TARDOC",
+          "faturamento": 8999.4
         },
         {
           "rca": "155",
           "estado": "RJ",
           "nome": "RAPHAEL SANTOS",
-          "faturamento": 8252.7
+          "faturamento": 8533.4
         },
         {
           "rca": "331",
@@ -4082,255 +4120,44 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "rca": "467",
           "estado": "SP",
           "nome": "MARLENE RODRIGUES",
-          "faturamento": 6715.82
-        },
-        {
-          "rca": "379",
-          "estado": "RJ",
-          "nome": "JORGE MACIEL",
-          "faturamento": 5940.88
+          "faturamento": 7255.22
         }
       ],
       "top_produtos": [
         {
           "produto": "LICOR BALLENA MORANGO 750ML",
-          "faturamento": 613589.79,
-          "quantidade": 5842.0
+          "faturamento": 684398.57,
+          "quantidade": 6529.0
         },
         {
           "produto": "LICOR BALLENA MORANGO 750 ML",
-          "faturamento": 105334.12,
-          "quantidade": 1027.0
+          "faturamento": 119327.92,
+          "quantidade": 1142.0
         },
         {
           "produto": "LICOR BALLENA CHOCOLATE E CARAMELO 750 M",
-          "faturamento": 68472.0,
-          "quantidade": 639.0
+          "faturamento": 71257.4,
+          "quantidade": 665.0
         },
         {
           "produto": "LICOR BALLENA COCO 750ML",
-          "faturamento": 47639.78,
-          "quantidade": 490.0
+          "faturamento": 60628.78,
+          "quantidade": 640.0
         },
         {
           "produto": "LICOR BALLENA CHOCOLATE E CARAMELO 750ML",
-          "faturamento": 45798.37,
-          "quantidade": 515.0
+          "faturamento": 56524.92,
+          "quantidade": 637.0
         }
       ],
       "posicao": 15
     },
     {
-      "fantasia": "LUCIA",
-      "faturamento_ytd": 793926.03,
-      "participacao_pct": 1.25,
-      "media_mensal": 198481.51,
-      "clientes_positivados": 82,
-      "por_mes": {
-        "2026-04": 297070.4,
-        "2026-05": 375052.96,
-        "2026-06": 55937.77,
-        "2026-07": 65864.9
-      },
-      "top_clientes": [
-        {
-          "codcli": "23329",
-          "estado": "SP",
-          "nome": "CASA SANTA LUZIA",
-          "faturamento": 200408.0
-        },
-        {
-          "codcli": "6269",
-          "estado": "RJ",
-          "nome": "SUPERMERCADO ZONA SUL",
-          "faturamento": 118188.0
-        },
-        {
-          "codcli": "23052",
-          "estado": "SP",
-          "nome": "FLV COMERCIO DE HORTIFRUTO LTDA",
-          "faturamento": 105894.6
-        },
-        {
-          "codcli": "7886",
-          "estado": "RJ",
-          "nome": "PREZUNIC - PENHA",
-          "faturamento": 84521.1
-        },
-        {
-          "codcli": "49613",
-          "estado": "SP",
-          "nome": "SUPERMERCADO HIROTA LTDA",
-          "faturamento": 47265.0
-        },
-        {
-          "codcli": "49832",
-          "estado": "SP",
-          "nome": "EMPORIO DO BEM",
-          "faturamento": 40306.8
-        },
-        {
-          "codcli": "50176",
-          "estado": "SP",
-          "nome": "FRIBAL",
-          "faturamento": 31152.0
-        },
-        {
-          "codcli": "4321",
-          "estado": "RJ",
-          "nome": "SUPERPRIX- DEP CAXIAS - PARQUE DUQUE",
-          "faturamento": 17976.0
-        },
-        {
-          "codcli": "21330",
-          "estado": "SP",
-          "nome": "EMPORIO SAO PAULO",
-          "faturamento": 17002.2
-        },
-        {
-          "codcli": "33272",
-          "estado": "SP",
-          "nome": "SACOLAO CORIOLANO",
-          "faturamento": 13083.0
-        },
-        {
-          "codcli": "24120",
-          "estado": "SP",
-          "nome": "CIA DO WHISKY",
-          "faturamento": 7908.0
-        },
-        {
-          "codcli": "38205",
-          "estado": "SP",
-          "nome": "COMERCIAL VILLA SIMPATIA",
-          "faturamento": 7908.0
-        },
-        {
-          "codcli": "33273",
-          "estado": "SP",
-          "nome": "SAO JORGE ATACADISTA",
-          "faturamento": 7332.0
-        },
-        {
-          "codcli": "49387",
-          "estado": "SP",
-          "nome": "INFANGER & CIA",
-          "faturamento": 7117.2
-        },
-        {
-          "codcli": "47200",
-          "estado": "SP",
-          "nome": "TREND CAPITAL DISTRIBUICAO E COMERCIO DE BEBIDAS",
-          "faturamento": 5931.0
-        }
-      ],
-      "top_vendedores": [
-        {
-          "rca": "391",
-          "estado": "SP",
-          "nome": "ANDRE SILVA",
-          "faturamento": 210019.8
-        },
-        {
-          "rca": "275",
-          "estado": "RJ",
-          "nome": "MARIA LUIZA",
-          "faturamento": 202709.1
-        },
-        {
-          "rca": "429",
-          "estado": "SP",
-          "nome": "WANDO MACHADO",
-          "faturamento": 187093.7
-        },
-        {
-          "rca": "426",
-          "estado": "SP",
-          "nome": "ADER ALONSO",
-          "faturamento": 45866.4
-        },
-        {
-          "rca": "356",
-          "estado": "SP",
-          "nome": "ANA PAULA",
-          "faturamento": 39540.0
-        },
-        {
-          "rca": "425",
-          "estado": "SP",
-          "nome": "BRUNO BARBOSA",
-          "faturamento": 20652.56
-        },
-        {
-          "rca": "483",
-          "estado": "SP",
-          "nome": "ALEXANDRE TONON",
-          "faturamento": 18762.8
-        },
-        {
-          "rca": "412",
-          "estado": "RJ",
-          "nome": "BARBARA CABRAL",
-          "faturamento": 18208.78
-        },
-        {
-          "rca": "485",
-          "estado": "SP",
-          "nome": "ANDRE PINHEIRO",
-          "faturamento": 12233.4
-        },
-        {
-          "rca": "433",
-          "estado": "SP",
-          "nome": "MANUELA ZAPPACOSTA",
-          "faturamento": 11466.6
-        },
-        {
-          "rca": "371",
-          "estado": "SP",
-          "nome": "CARLOS DE ALMEIDA",
-          "faturamento": 11382.6
-        },
-        {
-          "rca": "460",
-          "estado": "SP",
-          "nome": "CRISTIANE MORAIS",
-          "faturamento": 9190.0
-        },
-        {
-          "rca": "428",
-          "estado": "SP",
-          "nome": "MARIO RAFAEL FERRARI",
-          "faturamento": 1977.0
-        },
-        {
-          "rca": "379",
-          "estado": "RJ",
-          "nome": "JORGE MACIEL",
-          "faturamento": 973.7
-        },
-        {
-          "rca": "419",
-          "estado": "RJ",
-          "nome": "NÁTALI DE OLIVEIRA",
-          "faturamento": 898.8
-        }
-      ],
-      "top_produtos": [
-        {
-          "produto": "APERITIVO LUCIA 750ML",
-          "faturamento": 793926.03,
-          "quantidade": 12027.0
-        }
-      ],
-      "posicao": 16
-    },
-    {
       "fantasia": "FANTE",
-      "faturamento_ytd": 782674.9,
-      "participacao_pct": 1.23,
-      "media_mensal": 111810.7,
-      "clientes_positivados": 532,
+      "faturamento_ytd": 990761.58,
+      "participacao_pct": 1.25,
+      "media_mensal": 110084.62,
+      "clientes_positivados": 675,
       "por_mes": {
         "2026-01": 23640.19,
         "2026-02": 58666.09,
@@ -4338,7 +4165,9 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
         "2026-04": 39161.78,
         "2026-05": 47814.46,
         "2026-06": 207517.69,
-        "2026-07": 138789.78
+        "2026-07": 135296.82,
+        "2026-08": 176186.83,
+        "2026-09": 35392.81
       },
       "top_clientes": [
         {
@@ -4363,13 +4192,43 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "codcli": "47374",
           "estado": "SP",
           "nome": "SIMUS BEBIDAS",
-          "faturamento": 12327.0
+          "faturamento": 18477.0
+        },
+        {
+          "codcli": "27226",
+          "estado": "SP",
+          "nome": "BOB PECHINCA ATACADISTA",
+          "faturamento": 14760.0
+        },
+        {
+          "codcli": "27228",
+          "estado": "SP",
+          "nome": "BOB PECHINCA ATACADISTA",
+          "faturamento": 14760.0
         },
         {
           "codcli": "3127",
           "estado": "RJ",
           "nome": "REAL DE EDEN - CENTRAL",
-          "faturamento": 10819.8
+          "faturamento": 12931.8
+        },
+        {
+          "codcli": "90484",
+          "estado": "RJ",
+          "nome": "MERCADO RC DE ITAGUAI",
+          "faturamento": 12350.64
+        },
+        {
+          "codcli": "77079",
+          "estado": "RJ",
+          "nome": "SUPERMARKET",
+          "faturamento": 10934.76
+        },
+        {
+          "codcli": "50998",
+          "estado": "SP",
+          "nome": "MARIANA EUGENIO DE CAMPOS GONCALVES BEBIDAS",
+          "faturamento": 10703.6
         },
         {
           "codcli": "80353",
@@ -4378,22 +4237,10 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "faturamento": 9454.2
         },
         {
-          "codcli": "90484",
-          "estado": "RJ",
-          "nome": "MERCADO RC DE ITAGUAI",
-          "faturamento": 8969.4
-        },
-        {
           "codcli": "84612",
           "estado": "RJ",
           "nome": "BOM DE PRECO COMERCIO E DISTRIBUIDORA",
           "faturamento": 8613.88
-        },
-        {
-          "codcli": "77937",
-          "estado": "RJ",
-          "nome": "HD DISTRIBUIDOR DE BEBIDAS & CONVENIENCI",
-          "faturamento": 8427.0
         },
         {
           "codcli": "28385",
@@ -4408,28 +4255,10 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "faturamento": 7923.6
         },
         {
-          "codcli": "77079",
-          "estado": "RJ",
-          "nome": "SUPERMARKET",
-          "faturamento": 7424.76
-        },
-        {
-          "codcli": "28386",
-          "estado": "RJ",
-          "nome": "MIX CERTO",
-          "faturamento": 7380.96
-        },
-        {
           "codcli": "91993",
           "estado": "RJ",
           "nome": "G.M.A.P. SUPERMERCADOS",
-          "faturamento": 6990.0
-        },
-        {
-          "codcli": "73217",
-          "estado": "RJ",
-          "nome": "GMAP SUPERMERCADOS",
-          "faturamento": 6491.76
+          "faturamento": 7848.6
         }
       ],
       "top_vendedores": [
@@ -4443,13 +4272,19 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "rca": "450",
           "estado": "RJ",
           "nome": "LEANDRO SOUZA",
-          "faturamento": 103560.4
+          "faturamento": 119742.4
         },
         {
           "rca": "153",
           "estado": "RJ",
           "nome": "ANGELO NEVES SUZART",
-          "faturamento": 74819.56
+          "faturamento": 96425.68
+        },
+        {
+          "rca": "426",
+          "estado": "SP",
+          "nome": "ADER ALONSO",
+          "faturamento": 51568.38
         },
         {
           "rca": "158",
@@ -4461,154 +4296,148 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "rca": "379",
           "estado": "RJ",
           "nome": "JORGE MACIEL",
-          "faturamento": 38310.18
-        },
-        {
-          "rca": "419",
-          "estado": "RJ",
-          "nome": "NÁTALI DE OLIVEIRA",
-          "faturamento": 21664.62
-        },
-        {
-          "rca": "156",
-          "estado": "RJ",
-          "nome": "MARILENA TRAGEL",
-          "faturamento": 20920.5
+          "faturamento": 41061.08
         },
         {
           "rca": "460",
           "estado": "SP",
           "nome": "CRISTIANE MORAIS",
-          "faturamento": 19680.7
+          "faturamento": 37385.2
+        },
+        {
+          "rca": "156",
+          "estado": "RJ",
+          "nome": "MARILENA TRAGEL",
+          "faturamento": 26844.64
+        },
+        {
+          "rca": "419",
+          "estado": "RJ",
+          "nome": "NÁTALI DE OLIVEIRA",
+          "faturamento": 22032.89
         },
         {
           "rca": "462",
           "estado": "SP",
           "nome": "ELIZANGELA RODRIGUES",
-          "faturamento": 12327.0
-        },
-        {
-          "rca": "144",
-          "estado": "RJ",
-          "nome": "DIOGO RAPOSO",
-          "faturamento": 11798.39
+          "faturamento": 18477.0
         },
         {
           "rca": "433",
           "estado": "SP",
           "nome": "MANUELA ZAPPACOSTA",
-          "faturamento": 11440.02
+          "faturamento": 15764.22
         },
         {
-          "rca": "159",
-          "estado": "RJ",
-          "nome": "GISELLE BARFER",
-          "faturamento": 11344.8
-        },
-        {
-          "rca": "431",
-          "estado": "RJ",
-          "nome": "ADEILSON GONÇALVEZ",
-          "faturamento": 10845.35
-        },
-        {
-          "rca": "461",
+          "rca": "512",
           "estado": "SP",
-          "nome": "SUELY SANTOS",
-          "faturamento": 10818.89
+          "nome": "WILLIAM GONCALVES",
+          "faturamento": 15297.7
+        },
+        {
+          "rca": "144",
+          "estado": "RJ",
+          "nome": "DIOGO RAPOSO",
+          "faturamento": 13252.79
+        },
+        {
+          "rca": "472",
+          "estado": "SP",
+          "nome": "FLAVIO RIBEIRO",
+          "faturamento": 13057.5
         },
         {
           "rca": "504",
           "estado": "SP",
           "nome": "GILVAN AMORIM",
-          "faturamento": 8898.92
+          "faturamento": 13022.72
         }
       ],
       "top_produtos": [
         {
           "produto": "VINHO TINTO QUINTA DO MORGADO 750ML",
-          "faturamento": 131480.65,
-          "quantidade": 10445.0
+          "faturamento": 137732.32,
+          "quantidade": 10900.0
         },
         {
           "produto": "GIN ROCKS STRAWBERRY 1000ML",
-          "faturamento": 97120.8,
-          "quantidade": 4357.0
-        },
-        {
-          "produto": "GIN ROCKS 1000ML",
-          "faturamento": 77953.28,
-          "quantidade": 3421.0
-        },
-        {
-          "produto": "GIN ROCKS WATERMELON 1000ML",
-          "faturamento": 66166.68,
-          "quantidade": 2957.0
-        },
-        {
-          "produto": "VINHO ROSADO SV QUINTA DO MORGADO 750ML",
-          "faturamento": 61233.69,
-          "quantidade": 4849.0
-        },
-        {
-          "produto": "SUCO DE UVA TTO INT QUINTA DO MORGADO 1L",
-          "faturamento": 58530.91,
-          "quantidade": 4746.0
+          "faturamento": 105110.29,
+          "quantidade": 4706.0
         },
         {
           "produto": "GIN ROCKS 1LT",
-          "faturamento": 46355.77,
-          "quantidade": 2256.0
+          "faturamento": 97114.67,
+          "quantidade": 4721.0
         },
         {
-          "produto": "VINHO BCO SUAVE QUINTA DO MORGADO 750ML",
-          "faturamento": 38960.17,
-          "quantidade": 3094.0
+          "produto": "GIN ROCKS 1000ML",
+          "faturamento": 83909.28,
+          "quantidade": 3677.0
         },
         {
           "produto": "GIN ROCKS STRAWBERRY 1LT",
-          "faturamento": 31943.1,
-          "quantidade": 1550.0
+          "faturamento": 83736.3,
+          "quantidade": 4062.0
         },
         {
-          "produto": "GIN ROCKS GREEN APPLE 1000ML",
-          "faturamento": 31367.81,
-          "quantidade": 1410.0
+          "produto": "GIN ROCKS WATERMELON 1000ML",
+          "faturamento": 72081.58,
+          "quantidade": 3214.0
+        },
+        {
+          "produto": "SUCO DE UVA TTO INT QUINTA DO MORGADO 1L",
+          "faturamento": 64298.83,
+          "quantidade": 5205.0
+        },
+        {
+          "produto": "VINHO ROSADO SV QUINTA DO MORGADO 750ML",
+          "faturamento": 62667.15,
+          "quantidade": 4959.0
         },
         {
           "produto": "GIN ROCKS WATERMELON 1LT",
-          "faturamento": 22467.58,
-          "quantidade": 1094.0
+          "faturamento": 58284.68,
+          "quantidade": 2829.0
         },
         {
-          "produto": "GIN ROCKS SUNSET 1000ML",
-          "faturamento": 15603.68,
-          "quantidade": 704.0
+          "produto": "VINHO BCO SUAVE QUINTA DO MORGADO 750ML",
+          "faturamento": 39532.6,
+          "quantidade": 3133.0
         },
         {
-          "produto": "GIN ROCKS SCILIAN LEMON 1000ML",
-          "faturamento": 15518.96,
-          "quantidade": 694.0
+          "produto": "GIN ROCKS GREEN APPLE 1000ML",
+          "faturamento": 32162.99,
+          "quantidade": 1443.0
         },
         {
           "produto": "SUCO DE UVA TTO INT QNT DO MORGADO 1,5L",
-          "faturamento": 14361.87,
-          "quantidade": 824.0
+          "faturamento": 18695.47,
+          "quantidade": 1068.0
         },
         {
-          "produto": "SUCO UVA TTO INT QNT DO MORGADO 12X300ML",
-          "faturamento": 9864.82,
-          "quantidade": 124.0
+          "produto": "GIN ROCKS SCILIAN LEMON 1000ML",
+          "faturamento": 15756.96,
+          "quantidade": 704.0
+        },
+        {
+          "produto": "GIN ROCKS SUNSET 1000ML",
+          "faturamento": 15756.08,
+          "quantidade": 710.0
+        },
+        {
+          "produto": "VINHO TINTO QUINTA DO MORGADO 1LT",
+          "faturamento": 14536.1,
+          "quantidade": 815.0
         }
       ],
-      "posicao": 17
+      "posicao": 16
     },
     {
       "fantasia": "LVMH",
-      "faturamento_ytd": 768634.68,
-      "participacao_pct": 1.21,
-      "media_mensal": 109804.95,
-      "clientes_positivados": 76,
+      "faturamento_ytd": 905780.06,
+      "participacao_pct": 1.14,
+      "media_mensal": 100642.23,
+      "clientes_positivados": 84,
       "por_mes": {
         "2026-01": 100379.66,
         "2026-02": 81653.36,
@@ -4616,32 +4445,34 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
         "2026-04": 114992.76,
         "2026-05": 138812.58,
         "2026-06": 151491.08,
-        "2026-07": 98042.9
+        "2026-07": 98042.9,
+        "2026-08": 121196.38,
+        "2026-09": 15949.0
       },
       "top_clientes": [
         {
           "codcli": "34048",
           "estado": "MG",
           "nome": "MART MINAS DISTRIBUICAO",
-          "faturamento": 284901.36
+          "faturamento": 332883.42
         },
         {
           "codcli": "30231",
           "estado": "MG",
           "nome": "ORGANIZACAO VERDEMAR LTDA",
-          "faturamento": 147630.06
+          "faturamento": 157349.82
         },
         {
           "codcli": "34568",
           "estado": "MG",
           "nome": "BIG MAIS SUPERMERCADOS",
-          "faturamento": 119850.0
+          "faturamento": 156022.8
         },
         {
           "codcli": "30530",
           "estado": "MG",
           "nome": "DISTRIBUIDORA CAMPOS",
-          "faturamento": 27035.3
+          "faturamento": 29217.98
         },
         {
           "codcli": "37822",
@@ -4653,13 +4484,13 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "codcli": "30538",
           "estado": "MG",
           "nome": "DAKI OFFICE BELO HORIZONTE",
-          "faturamento": 15967.2
+          "faturamento": 22824.0
         },
         {
           "codcli": "33260",
           "estado": "MG",
           "nome": "IR MULTI CONFECCOES",
-          "faturamento": 14216.4
+          "faturamento": 22307.4
         },
         {
           "codcli": "34011",
@@ -4680,16 +4511,22 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "faturamento": 10230.8
         },
         {
+          "codcli": "34017",
+          "estado": "MG",
+          "nome": "CENTRO DE DISTRIBUICAO SANTA HELENA",
+          "faturamento": 10185.6
+        },
+        {
           "codcli": "31777",
           "estado": "MG",
           "nome": "COCO BAMBU BH",
-          "faturamento": 7088.9
+          "faturamento": 8048.7
         },
         {
           "codcli": "33257",
           "estado": "MG",
           "nome": "F2",
-          "faturamento": 6885.5
+          "faturamento": 7813.1
         },
         {
           "codcli": "30409",
@@ -4698,16 +4535,10 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "faturamento": 6420.3
         },
         {
-          "codcli": "34476",
+          "codcli": "39070",
           "estado": "MG",
-          "nome": "CASA DE FRIOS E MASSAS AO GOSTO",
-          "faturamento": 4392.0
-        },
-        {
-          "codcli": "31062",
-          "estado": "MG",
-          "nome": "SUPERMERCADOS REX LTDA",
-          "faturamento": 4240.8
+          "nome": "EMPREENDIMENTOS SUNRITZ LTDA",
+          "faturamento": 4423.0
         }
       ],
       "top_vendedores": [
@@ -4715,7 +4546,7 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "rca": "360",
           "estado": "MG",
           "nome": "LEANDRO OLIVEIRA",
-          "faturamento": 506093.52
+          "faturamento": 563795.34
         },
         {
           "rca": "343",
@@ -4727,13 +4558,25 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "rca": "327",
           "estado": "MG",
           "nome": "JOÃO SANTOS",
-          "faturamento": 62658.2
+          "faturamento": 78689.9
         },
         {
           "rca": "349",
           "estado": "MG",
           "nome": "WILLIAM ALVES DA SILVA",
-          "faturamento": 40411.7
+          "faturamento": 42594.38
+        },
+        {
+          "rca": "378",
+          "estado": "MG",
+          "nome": "JETER LUCIO SOARES",
+          "faturamento": 40473.0
+        },
+        {
+          "rca": "354",
+          "estado": "MG",
+          "nome": "MATHEUS DE SOUZA",
+          "faturamento": 38042.0
         },
         {
           "rca": "388",
@@ -4742,16 +4585,10 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "faturamento": 23670.0
         },
         {
-          "rca": "354",
-          "estado": "MG",
-          "nome": "MATHEUS DE SOUZA",
-          "faturamento": 21958.5
-        },
-        {
           "rca": "344",
           "estado": "MG",
           "nome": "TIAGO ANDRADE",
-          "faturamento": 15381.7
+          "faturamento": 17875.3
         },
         {
           "rca": "362",
@@ -4766,27 +4603,39 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "faturamento": 4886.4
         },
         {
+          "rca": "390",
+          "estado": "MG",
+          "nome": "FRANCIELLE CARVALHO",
+          "faturamento": 1963.68
+        },
+        {
           "rca": "331",
           "estado": "MG",
           "nome": "SAVIO NETO",
           "faturamento": 1918.5
+        },
+        {
+          "rca": "389",
+          "estado": "MG",
+          "nome": "JOSUE DA SILVA RODRIGUES",
+          "faturamento": 215.4
         }
       ],
       "top_produtos": [
         {
           "produto": "ESPUMANTE CHANDON RESERVE BRUT 750ML",
-          "faturamento": 415425.5,
-          "quantidade": 4935.0
+          "faturamento": 487034.0,
+          "quantidade": 5766.0
         },
         {
           "produto": "CHANDON BRUT ROSE 750ML",
-          "faturamento": 136066.56,
-          "quantidade": 1436.0
+          "faturamento": 172127.9,
+          "quantidade": 1836.0
         },
         {
           "produto": "CHANDON PASSION ON ICE 750ML",
-          "faturamento": 99546.1,
-          "quantidade": 1085.0
+          "faturamento": 110184.7,
+          "quantidade": 1199.0
         },
         {
           "produto": "CHANDON BABY BRUT 187 ML",
@@ -4795,28 +4644,38 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
         },
         {
           "produto": "VINHO LATITUD 33 MALBEC TTO 750 ML",
-          "faturamento": 17840.92,
-          "quantidade": 344.0
+          "faturamento": 19337.92,
+          "quantidade": 374.0
         },
         {
           "produto": "CHANDON BABY BRUT ROSE 187 ML",
-          "faturamento": 14870.88,
-          "quantidade": 444.0
+          "faturamento": 15589.08,
+          "quantidade": 462.0
         },
         {
           "produto": "VINHO LATITUD 33 CABERNET SAUVIGNON",
-          "faturamento": 12970.04,
-          "quantidade": 255.0
+          "faturamento": 14766.44,
+          "quantidade": 291.0
         },
         {
           "produto": "CHANDON RICHE DEMI-SEC 750ML",
-          "faturamento": 10722.3,
-          "quantidade": 117.0
+          "faturamento": 14051.94,
+          "quantidade": 156.0
         },
         {
           "produto": "CHAMP. VEUVE CLICQUOT BRUT 750 ML",
-          "faturamento": 8429.4,
-          "quantidade": 18.0
+          "faturamento": 9389.2,
+          "quantidade": 20.0
+        },
+        {
+          "produto": "CHANDON BABY RICHE DEMI SEC 187ML",
+          "faturamento": 7559.78,
+          "quantidade": 225.0
+        },
+        {
+          "produto": "MOET CHANDON ROSE IMPERIAL 750 ML C/CART",
+          "faturamento": 7500.74,
+          "quantidade": 14.0
         },
         {
           "produto": "MOET CHANDON BRUT IMPERIAL 750 NPP",
@@ -4825,38 +4684,235 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
         },
         {
           "produto": "VINHO LATITUD 33 CHARDONNAY 750 ML",
-          "faturamento": 4865.94,
-          "quantidade": 96.0
-        },
-        {
-          "produto": "MOET CHANDON ROSE IMPERIAL 750 ML C/CART",
-          "faturamento": 4626.74,
-          "quantidade": 8.0
+          "faturamento": 5464.74,
+          "quantidade": 108.0
         },
         {
           "produto": "VINHO LATITUD 33 SAUVIGNON BLANC",
-          "faturamento": 3976.56,
-          "quantidade": 76.0
+          "faturamento": 5174.16,
+          "quantidade": 100.0
         },
         {
           "produto": "CHANDON  GARDEN SPRITZ  750 ML",
-          "faturamento": 3324.2,
-          "quantidade": 38.0
+          "faturamento": 3983.6,
+          "quantidade": 44.0
+        }
+      ],
+      "posicao": 17
+    },
+    {
+      "fantasia": "LUCIA",
+      "faturamento_ytd": 880920.05,
+      "participacao_pct": 1.11,
+      "media_mensal": 146820.01,
+      "clientes_positivados": 106,
+      "por_mes": {
+        "2026-04": 297070.4,
+        "2026-05": 375052.96,
+        "2026-06": 55937.77,
+        "2026-07": 65864.9,
+        "2026-08": 63121.52,
+        "2026-09": 23872.5
+      },
+      "top_clientes": [
+        {
+          "codcli": "23329",
+          "estado": "SP",
+          "nome": "CASA SANTA LUZIA",
+          "faturamento": 200408.0
         },
         {
-          "produto": "CHANDON BABY RICHE DEMI SEC 187ML",
-          "faturamento": 2569.08,
-          "quantidade": 82.0
+          "codcli": "6269",
+          "estado": "RJ",
+          "nome": "SUPERMERCADO ZONA SUL",
+          "faturamento": 140238.0
+        },
+        {
+          "codcli": "23052",
+          "estado": "SP",
+          "nome": "FLV COMERCIO DE HORTIFRUTO LTDA",
+          "faturamento": 105894.6
+        },
+        {
+          "codcli": "7886",
+          "estado": "RJ",
+          "nome": "PREZUNIC - PENHA",
+          "faturamento": 84521.1
+        },
+        {
+          "codcli": "49613",
+          "estado": "SP",
+          "nome": "SUPERMERCADO HIROTA LTDA",
+          "faturamento": 47265.0
+        },
+        {
+          "codcli": "50176",
+          "estado": "SP",
+          "nome": "FRIBAL",
+          "faturamento": 46968.0
+        },
+        {
+          "codcli": "49832",
+          "estado": "SP",
+          "nome": "EMPORIO DO BEM",
+          "faturamento": 42607.2
+        },
+        {
+          "codcli": "21330",
+          "estado": "SP",
+          "nome": "EMPORIO SAO PAULO",
+          "faturamento": 28864.2
+        },
+        {
+          "codcli": "4321",
+          "estado": "RJ",
+          "nome": "SUPERPRIX- DEP CAXIAS - PARQUE DUQUE",
+          "faturamento": 17976.0
+        },
+        {
+          "codcli": "33272",
+          "estado": "SP",
+          "nome": "SACOLAO CORIOLANO",
+          "faturamento": 13083.0
+        },
+        {
+          "codcli": "23220",
+          "estado": "SP",
+          "nome": "EMPORIUM SAO PAULO",
+          "faturamento": 9094.2
+        },
+        {
+          "codcli": "38205",
+          "estado": "SP",
+          "nome": "COMERCIAL VILLA SIMPATIA",
+          "faturamento": 7908.0
+        },
+        {
+          "codcli": "24120",
+          "estado": "SP",
+          "nome": "CIA DO WHISKY",
+          "faturamento": 7908.0
+        },
+        {
+          "codcli": "49385",
+          "estado": "SP",
+          "nome": "MERCADO QUALIDADE",
+          "faturamento": 7788.0
+        },
+        {
+          "codcli": "33273",
+          "estado": "SP",
+          "nome": "SAO JORGE ATACADISTA",
+          "faturamento": 7332.0
+        }
+      ],
+      "top_vendedores": [
+        {
+          "rca": "275",
+          "estado": "RJ",
+          "nome": "MARIA LUIZA",
+          "faturamento": 224759.1
+        },
+        {
+          "rca": "391",
+          "estado": "SP",
+          "nome": "ANDRE SILVA",
+          "faturamento": 212344.2
+        },
+        {
+          "rca": "429",
+          "estado": "SP",
+          "nome": "WANDO MACHADO",
+          "faturamento": 187093.7
+        },
+        {
+          "rca": "426",
+          "estado": "SP",
+          "nome": "ADER ALONSO",
+          "faturamento": 69195.0
+        },
+        {
+          "rca": "356",
+          "estado": "SP",
+          "nome": "ANA PAULA",
+          "faturamento": 39540.0
+        },
+        {
+          "rca": "483",
+          "estado": "SP",
+          "nome": "ALEXANDRE TONON",
+          "faturamento": 34578.8
+        },
+        {
+          "rca": "425",
+          "estado": "SP",
+          "nome": "BRUNO BARBOSA",
+          "faturamento": 26467.48
+        },
+        {
+          "rca": "412",
+          "estado": "RJ",
+          "nome": "BARBARA CABRAL",
+          "faturamento": 18208.78
+        },
+        {
+          "rca": "485",
+          "estado": "SP",
+          "nome": "ANDRE PINHEIRO",
+          "faturamento": 15324.6
+        },
+        {
+          "rca": "433",
+          "estado": "SP",
+          "nome": "MANUELA ZAPPACOSTA",
+          "faturamento": 13383.6
+        },
+        {
+          "rca": "371",
+          "estado": "SP",
+          "nome": "CARLOS DE ALMEIDA",
+          "faturamento": 12149.4
+        },
+        {
+          "rca": "460",
+          "estado": "SP",
+          "nome": "CRISTIANE MORAIS",
+          "faturamento": 9255.9
+        },
+        {
+          "rca": "489",
+          "estado": "SP",
+          "nome": "FERNANDO BERTIN",
+          "faturamento": 3013.3
+        },
+        {
+          "rca": "428",
+          "estado": "SP",
+          "nome": "MARIO RAFAEL FERRARI",
+          "faturamento": 2360.4
+        },
+        {
+          "rca": "486",
+          "estado": "SP",
+          "nome": "LEONARDO FLOREZI",
+          "faturamento": 1779.3
+        }
+      ],
+      "top_produtos": [
+        {
+          "produto": "APERITIVO LUCIA 750ML",
+          "faturamento": 880920.05,
+          "quantidade": 13320.0
         }
       ],
       "posicao": 18
     },
     {
       "fantasia": "HEINEKEN",
-      "faturamento_ytd": 747118.51,
-      "participacao_pct": 1.17,
-      "media_mensal": 106731.22,
-      "clientes_positivados": 135,
+      "faturamento_ytd": 818930.43,
+      "participacao_pct": 1.03,
+      "media_mensal": 90992.27,
+      "clientes_positivados": 142,
       "por_mes": {
         "2026-01": 167919.39,
         "2026-02": 298806.53,
@@ -4864,7 +4920,9 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
         "2026-04": 60033.02,
         "2026-05": 51097.78,
         "2026-06": 45672.32,
-        "2026-07": 40009.16
+        "2026-07": 40009.16,
+        "2026-08": 63362.36,
+        "2026-09": 8449.56
       },
       "top_clientes": [
         {
@@ -4883,19 +4941,13 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "codcli": "31673",
           "estado": "MG",
           "nome": "ESQUINA DO CHOPP JARA",
-          "faturamento": 45655.28
+          "faturamento": 51645.2
         },
         {
           "codcli": "38044",
           "estado": "MG",
           "nome": "SUPERMERCADO E PADARIA CONFINS",
-          "faturamento": 33698.52
-        },
-        {
-          "codcli": "36614",
-          "estado": "MG",
-          "nome": "ECONOMART",
-          "faturamento": 28153.44
+          "faturamento": 41865.72
         },
         {
           "codcli": "34334",
@@ -4910,22 +4962,22 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "faturamento": 28153.44
         },
         {
+          "codcli": "36614",
+          "estado": "MG",
+          "nome": "ECONOMART",
+          "faturamento": 28153.44
+        },
+        {
           "codcli": "31838",
           "estado": "MG",
           "nome": "SCP ADMINISTRADORA",
-          "faturamento": 19905.6
+          "faturamento": 24218.4
         },
         {
           "codcli": "37207",
           "estado": "MG",
           "nome": "MEZZA LOUNGE",
-          "faturamento": 18850.32
-        },
-        {
-          "codcli": "34341",
-          "estado": "MG",
-          "nome": "ECONOMART",
-          "faturamento": 18768.96
+          "faturamento": 19863.84
         },
         {
           "codcli": "34339",
@@ -4934,28 +4986,34 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "faturamento": 18768.96
         },
         {
+          "codcli": "34341",
+          "estado": "MG",
+          "nome": "ECONOMART",
+          "faturamento": 18768.96
+        },
+        {
           "codcli": "32884",
           "estado": "MG",
           "nome": "BAR A PORCA",
-          "faturamento": 16022.32
+          "faturamento": 17101.12
+        },
+        {
+          "codcli": "33024",
+          "estado": "MG",
+          "nome": "CASA OUTONO - CAFE E CULTURA",
+          "faturamento": 16408.56
+        },
+        {
+          "codcli": "32808",
+          "estado": "MG",
+          "nome": "RESTAURANTE E PESTISQUEIRA PEIXE FRITO",
+          "faturamento": 14794.8
         },
         {
           "codcli": "29326",
           "estado": "MG",
           "nome": "COMPLEXO DE LAZER E CULTURA PRIVILEGE",
           "faturamento": 13896.0
-        },
-        {
-          "codcli": "33024",
-          "estado": "MG",
-          "nome": "CASA OUTONO - CAFE E CULTURA",
-          "faturamento": 13533.36
-        },
-        {
-          "codcli": "37627",
-          "estado": "MG",
-          "nome": "SUPERMERCADO PARANAIBA",
-          "faturamento": 13528.8
         }
       ],
       "top_vendedores": [
@@ -4963,7 +5021,7 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "rca": "327",
           "estado": "MG",
           "nome": "JOÃO SANTOS",
-          "faturamento": 330746.4
+          "faturamento": 369697.92
         },
         {
           "rca": "360",
@@ -4975,7 +5033,7 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "rca": "354",
           "estado": "MG",
           "nome": "MATHEUS DE SOUZA",
-          "faturamento": 127038.0
+          "faturamento": 142952.68
         },
         {
           "rca": "331",
@@ -4993,20 +5051,26 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "rca": "344",
           "estado": "MG",
           "nome": "TIAGO ANDRADE",
-          "faturamento": 20658.26
+          "faturamento": 30655.98
         },
         {
           "rca": "362",
           "estado": "MG",
           "nome": "BRUNA CASTRO MELLO",
           "faturamento": 10472.52
+        },
+        {
+          "rca": "389",
+          "estado": "MG",
+          "nome": "JOSUE DA SILVA RODRIGUES",
+          "faturamento": 6948.0
         }
       ],
       "top_produtos": [
         {
           "produto": "CERVEJA HEINEKEN LONG 24X330ML",
-          "faturamento": 296160.25,
-          "quantidade": 2103.0
+          "faturamento": 348942.85,
+          "quantidade": 2478.0
         },
         {
           "produto": "CERVEJA AMSTEL ULTRA LN 12X275ML",
@@ -5015,23 +5079,23 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
         },
         {
           "produto": "CERVEJA HEINEKEN RETORNAVEL 24X600ML",
-          "faturamento": 98156.0,
-          "quantidade": 456.0
+          "faturamento": 102686.96,
+          "quantidade": 477.0
         },
         {
           "produto": "CERVEJA HEINEKEN 12X473ML (LATAO)",
-          "faturamento": 80169.04,
-          "quantidade": 1225.0
+          "faturamento": 85410.8,
+          "quantidade": 1304.0
         },
         {
           "produto": "CERVEJA HEINEKEN  LONG ZERO 24X330ML",
-          "faturamento": 61965.92,
-          "quantidade": 441.0
+          "faturamento": 66261.92,
+          "quantidade": 471.0
         },
         {
           "produto": "CERVEJA AMSTEL PURO MALTE 473 ML",
-          "faturamento": 23329.03,
-          "quantidade": 483.0
+          "faturamento": 27266.51,
+          "quantidade": 564.0
         },
         {
           "produto": "CERVEJA AMSTEL ULTRA LATA 12X269 ML",
@@ -5040,8 +5104,8 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
         },
         {
           "produto": "CERVEJA AMSTEL RETORNAVEL 24X600ML",
-          "faturamento": 5666.64,
-          "quantidade": 39.0
+          "faturamento": 6689.76,
+          "quantidade": 46.0
         },
         {
           "produto": "CERVEJA AMSTEL LATA 350 MLX12 (SLEEK)",
@@ -5072,11 +5136,262 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
       "posicao": 19
     },
     {
+      "fantasia": "MONIN",
+      "faturamento_ytd": 799265.1,
+      "participacao_pct": 1.01,
+      "media_mensal": 199816.28,
+      "clientes_positivados": 119,
+      "por_mes": {
+        "2026-06": 263635.9,
+        "2026-07": 259575.1,
+        "2026-08": 265680.7,
+        "2026-09": 10373.4
+      },
+      "top_clientes": [
+        {
+          "codcli": "34048",
+          "estado": "MG",
+          "nome": "MART MINAS DISTRIBUICAO",
+          "faturamento": 297039.6
+        },
+        {
+          "codcli": "30723",
+          "estado": "MG",
+          "nome": "SUPERMERCADO BAHAMAS S/A",
+          "faturamento": 120958.2
+        },
+        {
+          "codcli": "35177",
+          "estado": "MG",
+          "nome": "VN AUTOS SERVICO",
+          "faturamento": 82414.2
+        },
+        {
+          "codcli": "30231",
+          "estado": "MG",
+          "nome": "ORGANIZACAO VERDEMAR LTDA",
+          "faturamento": 75411.0
+        },
+        {
+          "codcli": "39665",
+          "estado": "MG",
+          "nome": "OESA COMERCIO E REPRESENTACOES S/A",
+          "faturamento": 34752.6
+        },
+        {
+          "codcli": "33139",
+          "estado": "MG",
+          "nome": "CORDEIRO SUPERMERCADOS",
+          "faturamento": 29327.4
+        },
+        {
+          "codcli": "35170",
+          "estado": "MG",
+          "nome": "SUPERMERCADOS ABC",
+          "faturamento": 20793.0
+        },
+        {
+          "codcli": "34032",
+          "estado": "MG",
+          "nome": "UPSIDE DISTRIBUICAO DE ALIMENTOS",
+          "faturamento": 16164.0
+        },
+        {
+          "codcli": "35169",
+          "estado": "MG",
+          "nome": "SUPERMERCADOS ABC",
+          "faturamento": 10411.8
+        },
+        {
+          "codcli": "33176",
+          "estado": "MG",
+          "nome": "HELP BAR",
+          "faturamento": 7664.3
+        },
+        {
+          "codcli": "34568",
+          "estado": "MG",
+          "nome": "BIG MAIS SUPERMERCADOS",
+          "faturamento": 6196.2
+        },
+        {
+          "codcli": "34017",
+          "estado": "MG",
+          "nome": "CENTRO DE DISTRIBUICAO SANTA HELENA",
+          "faturamento": 4640.4
+        },
+        {
+          "codcli": "38497",
+          "estado": "MG",
+          "nome": "SUPERMERCADO IMPERIAL",
+          "faturamento": 4310.4
+        },
+        {
+          "codcli": "37337",
+          "estado": "MG",
+          "nome": "VN AUTOSSERVICO",
+          "faturamento": 4310.4
+        },
+        {
+          "codcli": "39825",
+          "estado": "MG",
+          "nome": "MAGLIONI RIBEIRO & CIA LTDA",
+          "faturamento": 2797.2
+        }
+      ],
+      "top_vendedores": [
+        {
+          "rca": "360",
+          "estado": "MG",
+          "nome": "LEANDRO OLIVEIRA",
+          "faturamento": 555136.2
+        },
+        {
+          "rca": "378",
+          "estado": "MG",
+          "nome": "JETER LUCIO SOARES",
+          "faturamento": 144850.3
+        },
+        {
+          "rca": "388",
+          "estado": "MG",
+          "nome": "DOUGLAS FERREIRA SILVA",
+          "faturamento": 50916.6
+        },
+        {
+          "rca": "327",
+          "estado": "MG",
+          "nome": "JOÃO SANTOS",
+          "faturamento": 19909.7
+        },
+        {
+          "rca": "354",
+          "estado": "MG",
+          "nome": "MATHEUS DE SOUZA",
+          "faturamento": 11296.3
+        },
+        {
+          "rca": "344",
+          "estado": "MG",
+          "nome": "TIAGO ANDRADE",
+          "faturamento": 10701.5
+        },
+        {
+          "rca": "389",
+          "estado": "MG",
+          "nome": "JOSUE DA SILVA RODRIGUES",
+          "faturamento": 3265.2
+        },
+        {
+          "rca": "349",
+          "estado": "MG",
+          "nome": "WILLIAM ALVES DA SILVA",
+          "faturamento": 2424.6
+        },
+        {
+          "rca": "362",
+          "estado": "MG",
+          "nome": "BRUNA CASTRO MELLO",
+          "faturamento": 439.0
+        },
+        {
+          "rca": "405",
+          "estado": "MG",
+          "nome": "RONALDO MESQUITA JUNIOR",
+          "faturamento": 275.9
+        },
+        {
+          "rca": "390",
+          "estado": "MG",
+          "nome": "FRANCIELLE CARVALHO",
+          "faturamento": 49.8
+        }
+      ],
+      "top_produtos": [
+        {
+          "produto": "XAROPE MONIN MACA VERDE (APPLE) 700 ML",
+          "faturamento": 140575.6,
+          "quantidade": 3244.0
+        },
+        {
+          "produto": "XAROPE MONIN MORANGO (STRAWBERRY) 700ML",
+          "faturamento": 125686.4,
+          "quantidade": 2898.0
+        },
+        {
+          "produto": "XAROPE MONIN LIMAO SICILIANO 700 ML",
+          "faturamento": 71836.3,
+          "quantidade": 1657.0
+        },
+        {
+          "produto": "XAROPE MONIN TANGERINA (MANDARIM) 700ML",
+          "faturamento": 69318.9,
+          "quantidade": 1591.0
+        },
+        {
+          "produto": "XAROPE  MONIN  MAÇA VERDE 330 ML",
+          "faturamento": 61072.1,
+          "quantidade": 2700.0
+        },
+        {
+          "produto": "XAROPE  MONIN TANGERINA 330 ML",
+          "faturamento": 58536.6,
+          "quantidade": 2530.0
+        },
+        {
+          "produto": "XAROPE MONIN LIMÃO GLASCO 330 ML",
+          "faturamento": 47047.2,
+          "quantidade": 2112.0
+        },
+        {
+          "produto": "XAROPE MONIN MORANGO 330 ML",
+          "faturamento": 45976.5,
+          "quantidade": 2020.0
+        },
+        {
+          "produto": "XAROPE  MONIN CRANBERRY 330 ML",
+          "faturamento": 32561.1,
+          "quantidade": 1459.0
+        },
+        {
+          "produto": "PURE MONIN MAÇA VERDE 330ML",
+          "faturamento": 18321.2,
+          "quantidade": 794.0
+        },
+        {
+          "produto": "PURE MONIN FRUTAS VERMELHAS 330ML",
+          "faturamento": 15166.2,
+          "quantidade": 610.0
+        },
+        {
+          "produto": "XAROPE  MONIN  UVA VERDE 330 ML",
+          "faturamento": 14460.0,
+          "quantidade": 600.0
+        },
+        {
+          "produto": "PURE MONIN MANGA MARACUJÁ  330ML",
+          "faturamento": 14373.7,
+          "quantidade": 581.0
+        },
+        {
+          "produto": "XAROPE MONIN GENGIBRE (GINGER) 700 ML",
+          "faturamento": 13544.2,
+          "quantidade": 298.0
+        },
+        {
+          "produto": "XAROPE MONIN GENGIBRE 330 ML",
+          "faturamento": 9569.5,
+          "quantidade": 403.0
+        }
+      ],
+      "posicao": 20
+    },
+    {
       "fantasia": "BEAM SUNTORY BRASIL",
-      "faturamento_ytd": 635806.97,
-      "participacao_pct": 1.0,
-      "media_mensal": 90829.57,
-      "clientes_positivados": 136,
+      "faturamento_ytd": 718249.97,
+      "participacao_pct": 0.9,
+      "media_mensal": 79805.55,
+      "clientes_positivados": 179,
       "por_mes": {
         "2026-01": 116849.52,
         "2026-02": 65220.51,
@@ -5084,14 +5399,16 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
         "2026-04": 45524.28,
         "2026-05": 69681.3,
         "2026-06": 72232.94,
-        "2026-07": 102095.55
+        "2026-07": 102095.55,
+        "2026-08": 61456.7,
+        "2026-09": 20986.3
       },
       "top_clientes": [
         {
           "codcli": "43203",
           "estado": "SP",
           "nome": "WOODS WINE COMERCIO E INTERMEDIACAO DE B",
-          "faturamento": 119150.4
+          "faturamento": 138950.4
         },
         {
           "codcli": "23845",
@@ -5112,28 +5429,34 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "faturamento": 23532.0
         },
         {
+          "codcli": "47200",
+          "estado": "SP",
+          "nome": "TREND CAPITAL DISTRIBUICAO E COMERCIO DE BEBIDAS",
+          "faturamento": 19865.19
+        },
+        {
           "codcli": "42699",
           "estado": "SP",
           "nome": "STORM COMERCIO DE ALIMENTOS E BEBIDAS",
           "faturamento": 19783.68
         },
         {
-          "codcli": "47200",
-          "estado": "SP",
-          "nome": "TREND CAPITAL DISTRIBUICAO E COMERCIO DE BEBIDAS",
-          "faturamento": 17105.59
-        },
-        {
           "codcli": "48007",
           "estado": "SP",
           "nome": "ANDORINHA SUPERMERCADO LTDA",
-          "faturamento": 14736.0
+          "faturamento": 18510.0
         },
         {
           "codcli": "32881",
           "estado": "SP",
           "nome": "ALEXANDRION EXPERIENCE BRASIL",
           "faturamento": 14679.0
+        },
+        {
+          "codcli": "51110",
+          "estado": "SP",
+          "nome": "DISTRIBUIDORA CIDADE JARDIM",
+          "faturamento": 13127.75
         },
         {
           "codcli": "36191",
@@ -5170,12 +5493,6 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "estado": "SP",
           "nome": "AKKI LOJA 3",
           "faturamento": 8268.0
-        },
-        {
-          "codcli": "36170",
-          "estado": "SP",
-          "nome": "AKKI LOJA 1",
-          "faturamento": 8226.0
         }
       ],
       "top_vendedores": [
@@ -5183,19 +5500,19 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "rca": "371",
           "estado": "SP",
           "nome": "CARLOS DE ALMEIDA",
-          "faturamento": 152388.13
+          "faturamento": 157808.63
         },
         {
           "rca": "119",
           "estado": "SP",
           "nome": "VIVIANI ALVES",
-          "faturamento": 123289.8
+          "faturamento": 143089.8
         },
         {
           "rca": "391",
           "estado": "SP",
           "nome": "ANDRE SILVA",
-          "faturamento": 120106.02
+          "faturamento": 124399.22
         },
         {
           "rca": "426",
@@ -5225,71 +5542,81 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "rca": "467",
           "estado": "SP",
           "nome": "MARLENE RODRIGUES",
-          "faturamento": 16605.6
-        },
-        {
-          "rca": "433",
-          "estado": "SP",
-          "nome": "MANUELA ZAPPACOSTA",
-          "faturamento": 15850.8
+          "faturamento": 27164.16
         },
         {
           "rca": "425",
           "estado": "SP",
           "nome": "BRUNO BARBOSA",
-          "faturamento": 12336.81
+          "faturamento": 19146.71
         },
         {
-          "rca": "468",
+          "rca": "433",
           "estado": "SP",
-          "nome": "RENATO JUNIOR",
-          "faturamento": 8365.7
+          "nome": "MANUELA ZAPPACOSTA",
+          "faturamento": 16605.6
         },
         {
           "rca": "489",
           "estado": "SP",
           "nome": "FERNANDO BERTIN",
-          "faturamento": 8107.64
+          "faturamento": 15135.81
         },
         {
-          "rca": "428",
+          "rca": "468",
           "estado": "SP",
-          "nome": "MARIO RAFAEL FERRARI",
-          "faturamento": 4441.27
+          "nome": "RENATO JUNIOR",
+          "faturamento": 9144.5
+        },
+        {
+          "rca": "518",
+          "estado": "SP",
+          "nome": "PAULO THOMAZI",
+          "faturamento": 8302.8
+        },
+        {
+          "rca": "512",
+          "estado": "SP",
+          "nome": "WILLIAM GONCALVES",
+          "faturamento": 7865.8
         },
         {
           "rca": "476",
           "estado": "SP",
           "nome": "RODRIGO LIMA",
-          "faturamento": 3962.7
-        },
-        {
-          "rca": "461",
-          "estado": "SP",
-          "nome": "SUELY SANTOS",
-          "faturamento": 3522.4
+          "faturamento": 6534.7
         }
       ],
       "top_produtos": [
         {
           "produto": "WHISKY JIM BEAM WHITE 1L",
-          "faturamento": 229077.63,
-          "quantidade": 3693.0
+          "faturamento": 250061.23,
+          "quantidade": 4021.0
         },
         {
           "produto": "MACALLAN DOUBLE CASK 12Y 700ML",
-          "faturamento": 120716.11,
-          "quantidade": 208.0
+          "faturamento": 123555.71,
+          "quantidade": 212.0
         },
         {
           "produto": "JIM BEAM BLACK CHERRY 1L",
-          "faturamento": 106055.9,
-          "quantidade": 1891.0
+          "faturamento": 106952.5,
+          "quantidade": 1905.0
         },
         {
           "produto": "WHISKY JIM BEAM HONEY 1L",
-          "faturamento": 38953.04,
-          "quantidade": 634.0
+          "faturamento": 51958.84,
+          "quantidade": 840.0
+        },
+        {
+          "produto": "WHISKY HIBIKI JAPANESE HARMONY 700ML",
+          "faturamento": 48993.68,
+          "quantidade": 86.0
+        },
+        {
+          "produto": "WHISKY JIM BEAM APPLE 1L",
+          "faturamento": 36673.84,
+          "quantidade": 596.0
         },
         {
           "produto": "WHISKY SUNTORY CHITA 700ML",
@@ -5297,24 +5624,19 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "quantidade": 79.0
         },
         {
-          "produto": "WHISKY JIM BEAM APPLE 1L",
-          "faturamento": 28343.38,
-          "quantidade": 465.0
-        },
-        {
-          "produto": "WHISKY HIBIKI JAPANESE HARMONY 700ML",
-          "faturamento": 27993.88,
-          "quantidade": 48.0
-        },
-        {
           "produto": "WHISKY MAKERS MARK 750ML",
-          "faturamento": 14451.53,
-          "quantidade": 116.0
+          "faturamento": 15280.91,
+          "quantidade": 122.0
+        },
+        {
+          "produto": "WHISKY MACALLAN HARM VIBRANT OAK 700ML",
+          "faturamento": 13735.62,
+          "quantidade": 10.0
         },
         {
           "produto": "WHISKY ESC MACALLAN SHERRY OAK 12Y 700ML",
-          "faturamento": 8862.17,
-          "quantidade": 15.0
+          "faturamento": 11075.87,
+          "quantidade": 18.0
         },
         {
           "produto": "WHISKY ESC MACALLAN DOUBLE 15Y",
@@ -5322,13 +5644,13 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "quantidade": 7.0
         },
         {
-          "produto": "WHISKY MACALLAN HARM VIBRANT OAK 700ML",
-          "faturamento": 6813.35,
-          "quantidade": 5.0
-        },
-        {
           "produto": "WHISKY YAMAZAKI 12Y 700ML",
           "faturamento": 6803.4,
+          "quantidade": 8.0
+        },
+        {
+          "produto": "WHISKY YAMAZAKI DESTILERS RESERVE 700ML",
+          "faturamento": 5591.3,
           "quantidade": 8.0
         },
         {
@@ -5338,23 +5660,578 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
         },
         {
           "produto": "GIN ROKU 700ML",
-          "faturamento": 2561.0,
-          "quantidade": 25.0
-        },
-        {
-          "produto": "WHISKY JIM BEAM BLACK EXTRA 1L",
-          "faturamento": 1666.8,
-          "quantidade": 12.0
+          "faturamento": 3090.5,
+          "quantidade": 30.0
         }
       ],
-      "posicao": 20
+      "posicao": 21
+    },
+    {
+      "fantasia": "MOET HENNESY",
+      "faturamento_ytd": 629229.09,
+      "participacao_pct": 0.79,
+      "media_mensal": 69914.34,
+      "clientes_positivados": 145,
+      "por_mes": {
+        "2026-01": 18292.67,
+        "2026-02": 16025.55,
+        "2026-03": 41712.28,
+        "2026-04": 67579.2,
+        "2026-05": 14383.82,
+        "2026-06": 228047.28,
+        "2026-07": 142861.07,
+        "2026-08": 88500.62,
+        "2026-09": 11826.6
+      },
+      "top_clientes": [
+        {
+          "codcli": "43203",
+          "estado": "SP",
+          "nome": "WOODS WINE COMERCIO E INTERMEDIACAO DE B",
+          "faturamento": 221318.0
+        },
+        {
+          "codcli": "23845",
+          "estado": "SP",
+          "nome": "OBA HORTIFRUTI",
+          "faturamento": 35388.0
+        },
+        {
+          "codcli": "28991",
+          "estado": "SP",
+          "nome": "MRF DISTRIBUIDORA DE BEBIDAS E GENEROS ALIMENTICIOS",
+          "faturamento": 34617.95
+        },
+        {
+          "codcli": "47200",
+          "estado": "SP",
+          "nome": "TREND CAPITAL DISTRIBUICAO E COMERCIO DE BEBIDAS",
+          "faturamento": 31052.57
+        },
+        {
+          "codcli": "51110",
+          "estado": "SP",
+          "nome": "DISTRIBUIDORA CIDADE JARDIM",
+          "faturamento": 21362.96
+        },
+        {
+          "codcli": "21330",
+          "estado": "SP",
+          "nome": "EMPORIO SAO PAULO",
+          "faturamento": 16794.0
+        },
+        {
+          "codcli": "33545",
+          "estado": "SP",
+          "nome": "LATICINIOS MARCELO",
+          "faturamento": 13306.8
+        },
+        {
+          "codcli": "43134",
+          "estado": "SP",
+          "nome": "VAREJAO TATU",
+          "faturamento": 12153.2
+        },
+        {
+          "codcli": "39897",
+          "estado": "SP",
+          "nome": "MIAMI STORE",
+          "faturamento": 11787.48
+        },
+        {
+          "codcli": "42699",
+          "estado": "SP",
+          "nome": "STORM COMERCIO DE ALIMENTOS E BEBIDAS",
+          "faturamento": 10203.6
+        },
+        {
+          "codcli": "47181",
+          "estado": "SP",
+          "nome": "LATICINIOS TANI LTDA",
+          "faturamento": 10036.8
+        },
+        {
+          "codcli": "51919",
+          "estado": "SP",
+          "nome": "ARMAZEM GERAL FRIOS E BEBIDAS",
+          "faturamento": 9735.0
+        },
+        {
+          "codcli": "32426",
+          "estado": "SP",
+          "nome": "PIRANA - AUTO SERVICO",
+          "faturamento": 8280.6
+        },
+        {
+          "codcli": "49110",
+          "estado": "SP",
+          "nome": "BLACK BEV ATACADISTA",
+          "faturamento": 8044.87
+        },
+        {
+          "codcli": "46352",
+          "estado": "SP",
+          "nome": "CASA PALLA",
+          "faturamento": 6978.44
+        }
+      ],
+      "top_vendedores": [
+        {
+          "rca": "119",
+          "estado": "SP",
+          "nome": "VIVIANI ALVES",
+          "faturamento": 221318.0
+        },
+        {
+          "rca": "425",
+          "estado": "SP",
+          "nome": "BRUNO BARBOSA",
+          "faturamento": 109052.46
+        },
+        {
+          "rca": "426",
+          "estado": "SP",
+          "nome": "ADER ALONSO",
+          "faturamento": 80747.11
+        },
+        {
+          "rca": "391",
+          "estado": "SP",
+          "nome": "ANDRE SILVA",
+          "faturamento": 58325.53
+        },
+        {
+          "rca": "371",
+          "estado": "SP",
+          "nome": "CARLOS DE ALMEIDA",
+          "faturamento": 31843.37
+        },
+        {
+          "rca": "489",
+          "estado": "SP",
+          "nome": "FERNANDO BERTIN",
+          "faturamento": 29565.96
+        },
+        {
+          "rca": "433",
+          "estado": "SP",
+          "nome": "MANUELA ZAPPACOSTA",
+          "faturamento": 25445.0
+        },
+        {
+          "rca": "428",
+          "estado": "SP",
+          "nome": "MARIO RAFAEL FERRARI",
+          "faturamento": 10826.3
+        },
+        {
+          "rca": "460",
+          "estado": "SP",
+          "nome": "CRISTIANE MORAIS",
+          "faturamento": 7999.9
+        },
+        {
+          "rca": "466",
+          "estado": "SP",
+          "nome": "DANIELLE DOS SANTOS",
+          "faturamento": 6147.03
+        },
+        {
+          "rca": "467",
+          "estado": "SP",
+          "nome": "MARLENE RODRIGUES",
+          "faturamento": 5448.8
+        },
+        {
+          "rca": "469",
+          "estado": "SP",
+          "nome": "PATRICIA RAMOS",
+          "faturamento": 5439.9
+        },
+        {
+          "rca": "463",
+          "estado": "SP",
+          "nome": "ROBERTO DOS SANTOS",
+          "faturamento": 5004.3
+        },
+        {
+          "rca": "516",
+          "estado": "SP",
+          "nome": "JOAQUIM ANGELO",
+          "faturamento": 4673.9
+        },
+        {
+          "rca": "476",
+          "estado": "SP",
+          "nome": "RODRIGO LIMA",
+          "faturamento": 3263.6
+        }
+      ],
+      "top_produtos": [
+        {
+          "produto": "MOET IMPERIAL RESERVE BRUT 750 ML",
+          "faturamento": 185022.9,
+          "quantidade": 671.0
+        },
+        {
+          "produto": "ESPUMANTE CHANDON RESERVE BRUT 750ML",
+          "faturamento": 105471.79,
+          "quantidade": 1537.0
+        },
+        {
+          "produto": "MOET IMPERIAL EXTRA BRUT 750 ML",
+          "faturamento": 93685.4,
+          "quantidade": 346.0
+        },
+        {
+          "produto": "CHAMP. VEUVE CLICQUOT BRUT 750 ML",
+          "faturamento": 41126.04,
+          "quantidade": 127.0
+        },
+        {
+          "produto": "ESPUMANTE CHANDON BRUT ROSE 750ML",
+          "faturamento": 27132.32,
+          "quantidade": 355.0
+        },
+        {
+          "produto": "CHANDON BABY BRUT ROSE 187 ML",
+          "faturamento": 22892.76,
+          "quantidade": 896.0
+        },
+        {
+          "produto": "CHANDON GARDEN SPRITZ 750 ML",
+          "faturamento": 18853.94,
+          "quantidade": 281.0
+        },
+        {
+          "produto": "CHANDON PASSION ROSE 750ML",
+          "faturamento": 15516.5,
+          "quantidade": 211.0
+        },
+        {
+          "produto": "CHANDON RICHE DEMI-SEC 750 ML",
+          "faturamento": 15327.7,
+          "quantidade": 223.0
+        },
+        {
+          "produto": "VODKA BELVEDERE 700 ML",
+          "faturamento": 8938.2,
+          "quantidade": 78.0
+        },
+        {
+          "produto": "VINHO LATITUD 33 MALBEC 750 ML",
+          "faturamento": 7076.09,
+          "quantidade": 241.0
+        },
+        {
+          "produto": "CHANDON BABY RESERVE BRUT 187 ML",
+          "faturamento": 6814.8,
+          "quantidade": 252.0
+        },
+        {
+          "produto": "GLENMORANGIE THE ORIGINAL 10 ANOS 750ML",
+          "faturamento": 4867.44,
+          "quantidade": 24.0
+        },
+        {
+          "produto": "CHAMP VEU CLIC BRUT NEW ICE JACKET",
+          "faturamento": 4210.8,
+          "quantidade": 12.0
+        },
+        {
+          "produto": "DOM PERIGNON BLANC VINTAGE 750 ML",
+          "faturamento": 4198.5,
+          "quantidade": 3.0
+        }
+      ],
+      "posicao": 22
+    },
+    {
+      "fantasia": "MINALBA",
+      "faturamento_ytd": 612072.87,
+      "participacao_pct": 0.77,
+      "media_mensal": 68008.1,
+      "clientes_positivados": 230,
+      "por_mes": {
+        "2026-01": 133419.84,
+        "2026-02": 121769.34,
+        "2026-03": 79968.98,
+        "2026-04": 94329.09,
+        "2026-05": 32136.8,
+        "2026-06": 44724.59,
+        "2026-07": 40818.73,
+        "2026-08": 51626.0,
+        "2026-09": 13279.5
+      },
+      "top_clientes": [
+        {
+          "codcli": "3143",
+          "estado": "RJ",
+          "nome": "PORT FOOD COMERCIO INDUSTRIA",
+          "faturamento": 89511.74
+        },
+        {
+          "codcli": "5531",
+          "estado": "RJ",
+          "nome": "GOLDEN MARKET",
+          "faturamento": 28499.41
+        },
+        {
+          "codcli": "80157",
+          "estado": "RJ",
+          "nome": "PARADA MAIS",
+          "faturamento": 21130.26
+        },
+        {
+          "codcli": "91093",
+          "estado": "RJ",
+          "nome": "BELO CAPIVARI CONVENIENCIA",
+          "faturamento": 20819.34
+        },
+        {
+          "codcli": "74671",
+          "estado": "RJ",
+          "nome": "LOJA DE CONVENIENCIA ESTRELA DE CAXIAS",
+          "faturamento": 20180.5
+        },
+        {
+          "codcli": "84592",
+          "estado": "RJ",
+          "nome": "MINI MERCADO G MARKET",
+          "faturamento": 18131.55
+        },
+        {
+          "codcli": "79969",
+          "estado": "RJ",
+          "nome": "WMDIAS 24H",
+          "faturamento": 17336.8
+        },
+        {
+          "codcli": "1827",
+          "estado": "RJ",
+          "nome": "CASAS BRANCAS HOTEL E SPA",
+          "faturamento": 17008.1
+        },
+        {
+          "codcli": "14047",
+          "estado": "RJ",
+          "nome": "LOJA DE CONVENIENCIA CANARIO LTDA",
+          "faturamento": 15626.86
+        },
+        {
+          "codcli": "3551",
+          "estado": "RJ",
+          "nome": "AUTO POSTO ABAST. ESTRELA DO OCEANO",
+          "faturamento": 13606.55
+        },
+        {
+          "codcli": "63587",
+          "estado": "RJ",
+          "nome": "LOJA DE CONVENIENCIA 17.000",
+          "faturamento": 12965.8
+        },
+        {
+          "codcli": "76248",
+          "estado": "RJ",
+          "nome": "POSTO TORCEDOR",
+          "faturamento": 12765.76
+        },
+        {
+          "codcli": "74688",
+          "estado": "RJ",
+          "nome": "POSTO DE GASOLINA AVENIDA",
+          "faturamento": 11499.5
+        },
+        {
+          "codcli": "3467",
+          "estado": "RJ",
+          "nome": "A P JARDIM OCEANICO DA BARRA LTDA",
+          "faturamento": 9796.6
+        },
+        {
+          "codcli": "74245",
+          "estado": "RJ",
+          "nome": "G MARKET JARDIM",
+          "faturamento": 9082.93
+        }
+      ],
+      "top_vendedores": [
+        {
+          "rca": "156",
+          "estado": "RJ",
+          "nome": "MARILENA TRAGEL",
+          "faturamento": 253616.28
+        },
+        {
+          "rca": "155",
+          "estado": "RJ",
+          "nome": "RAPHAEL SANTOS",
+          "faturamento": 103828.87
+        },
+        {
+          "rca": "159",
+          "estado": "RJ",
+          "nome": "GISELLE BARFER",
+          "faturamento": 100924.05
+        },
+        {
+          "rca": "412",
+          "estado": "RJ",
+          "nome": "BARBARA CABRAL",
+          "faturamento": 78851.58
+        },
+        {
+          "rca": "431",
+          "estado": "RJ",
+          "nome": "ADEILSON GONÇALVEZ",
+          "faturamento": 16889.27
+        },
+        {
+          "rca": "417",
+          "estado": "RJ",
+          "nome": "DIRLEI ARAUJO",
+          "faturamento": 16878.76
+        },
+        {
+          "rca": "144",
+          "estado": "RJ",
+          "nome": "DIOGO RAPOSO",
+          "faturamento": 15801.8
+        },
+        {
+          "rca": "379",
+          "estado": "RJ",
+          "nome": "JORGE MACIEL",
+          "faturamento": 9833.67
+        },
+        {
+          "rca": "378",
+          "estado": "RJ",
+          "nome": "FABIO VALOTTI",
+          "faturamento": 5885.85
+        },
+        {
+          "rca": "153",
+          "estado": "RJ",
+          "nome": "ANGELO NEVES SUZART",
+          "faturamento": 5180.45
+        },
+        {
+          "rca": "471",
+          "estado": "RJ",
+          "nome": "ANA CLARA FASSANO",
+          "faturamento": 4105.6
+        },
+        {
+          "rca": "419",
+          "estado": "RJ",
+          "nome": "NÁTALI DE OLIVEIRA",
+          "faturamento": 149.3
+        },
+        {
+          "rca": "174",
+          "estado": "RJ",
+          "nome": "ALLAN PAES",
+          "faturamento": 71.8
+        },
+        {
+          "rca": "486",
+          "estado": "SP",
+          "nome": "LEONARDO FLOREZI",
+          "faturamento": 38.59
+        },
+        {
+          "rca": "511",
+          "estado": "SP",
+          "nome": "ALEXANDRE SOUZA",
+          "faturamento": 17.0
+        }
+      ],
+      "top_produtos": [
+        {
+          "produto": "AGUA MINERAL MINALBA S/ GAS 6X1,5L",
+          "faturamento": 223117.58,
+          "quantidade": 12773.0
+        },
+        {
+          "produto": "AGUA MINERAL MINALBA S/ GAS 12X510ML",
+          "faturamento": 140680.01,
+          "quantidade": 7206.0
+        },
+        {
+          "produto": "AGUA MINERAL MINALBA C/ GAS 12X510ML",
+          "faturamento": 84088.44,
+          "quantidade": 3064.0
+        },
+        {
+          "produto": "AGUA MINERAL MINALBA S/ GAS 8X1,5L PET",
+          "faturamento": 42280.86,
+          "quantidade": 1769.0
+        },
+        {
+          "produto": "AGUA MINALBA C/ GAS 6X1,5L",
+          "faturamento": 37913.35,
+          "quantidade": 1821.0
+        },
+        {
+          "produto": "AGUA MINERAL MINALBA S/ GAS 12X310ML",
+          "faturamento": 17673.44,
+          "quantidade": 1065.0
+        },
+        {
+          "produto": "AGUA MINALBA S/ GAS PREMIUM 12X300ML",
+          "faturamento": 14301.04,
+          "quantidade": 328.0
+        },
+        {
+          "produto": "AGUA SAN PELLEGRINO C/GÁS 505ML",
+          "faturamento": 13220.86,
+          "quantidade": 37.0
+        },
+        {
+          "produto": "AGUA MINERAL MINALBA C/ GAS 12X310ML",
+          "faturamento": 10665.11,
+          "quantidade": 520.0
+        },
+        {
+          "produto": "AGUA PANNA S/GAS 24X250ML",
+          "faturamento": 7505.9,
+          "quantidade": 35.0
+        },
+        {
+          "produto": "AGUA PANNA S/GÁS 505 ML",
+          "faturamento": 6057.26,
+          "quantidade": 26.0
+        },
+        {
+          "produto": "AGUA SAN PELLEGRINO C/GÁS 250ML",
+          "faturamento": 3429.82,
+          "quantidade": 18.0
+        },
+        {
+          "produto": "AGUA MINALBA C/ GAS PREMIUM 12X300ML",
+          "faturamento": 3318.34,
+          "quantidade": 62.0
+        },
+        {
+          "produto": "AGUA PERRIER C/ GAS 24X330ML",
+          "faturamento": 2198.0,
+          "quantidade": 11.0
+        },
+        {
+          "produto": "AGUA MINERAL MINALBA S/GAS LATA 12X310ML",
+          "faturamento": 2032.61,
+          "quantidade": 60.0
+        }
+      ],
+      "posicao": 23
     },
     {
       "fantasia": "RECKITT",
-      "faturamento_ytd": 570795.41,
-      "participacao_pct": 0.9,
-      "media_mensal": 81542.2,
-      "clientes_positivados": 379,
+      "faturamento_ytd": 584800.41,
+      "participacao_pct": 0.74,
+      "media_mensal": 64977.82,
+      "clientes_positivados": 391,
       "por_mes": {
         "2026-01": 8677.1,
         "2026-02": 15602.39,
@@ -5362,7 +6239,9 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
         "2026-04": 142025.95,
         "2026-05": 164015.94,
         "2026-06": 112290.33,
-        "2026-07": 7185.58
+        "2026-07": 7185.58,
+        "2026-08": 10677.23,
+        "2026-09": 3327.76
       },
       "top_clientes": [
         {
@@ -5374,14 +6253,14 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
         {
           "codcli": "50036",
           "estado": "RJ",
-          "nome": "HSS FOODS DISTRIBUIDORA",
+          "nome": "HSS FOODS",
           "faturamento": 65076.48
         },
         {
           "codcli": "83583",
           "estado": "RJ",
           "nome": "RB 2017 - VILA LEOPOLDINA",
-          "faturamento": 32640.0
+          "faturamento": 32966.4
         },
         {
           "codcli": "87116",
@@ -5420,6 +6299,12 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "faturamento": 6136.32
         },
         {
+          "codcli": "2610",
+          "estado": "RJ",
+          "nome": "MERCADO ULTRA - CATETE",
+          "faturamento": 5384.64
+        },
+        {
           "codcli": "84202",
           "estado": "RJ",
           "nome": "RIO SUL DO PANTANAL - VILA SANTO ANTONIO",
@@ -5430,12 +6315,6 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "estado": "RJ",
           "nome": "RIO SUL",
           "faturamento": 4570.32
-        },
-        {
-          "codcli": "2610",
-          "estado": "RJ",
-          "nome": "MERCADO ULTRA - CATETE",
-          "faturamento": 4405.44
         },
         {
           "codcli": "2710",
@@ -5467,19 +6346,19 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "rca": "153",
           "estado": "RJ",
           "nome": "ANGELO NEVES SUZART",
-          "faturamento": 99611.54
+          "faturamento": 104808.13
         },
         {
           "rca": "379",
           "estado": "RJ",
           "nome": "JORGE MACIEL",
-          "faturamento": 30138.05
+          "faturamento": 33218.93
         },
         {
           "rca": "471",
           "estado": "RJ",
           "nome": "ANA CLARA FASSANO",
-          "faturamento": 24110.56
+          "faturamento": 26987.8
         },
         {
           "rca": "370",
@@ -5497,7 +6376,7 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "rca": "431",
           "estado": "RJ",
           "nome": "ADEILSON GONÇALVEZ",
-          "faturamento": 12279.58
+          "faturamento": 12696.28
         },
         {
           "rca": "343",
@@ -5542,52 +6421,52 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "faturamento": 7509.4
         },
         {
-          "rca": "265",
-          "estado": "ES",
-          "nome": "LUCAS LIMA",
-          "faturamento": 3784.74
+          "rca": "378",
+          "estado": "RJ",
+          "nome": "FABIO VALOTTI",
+          "faturamento": 5251.78
         }
       ],
       "top_produtos": [
         {
           "produto": "VEJA MULTIUSO ORIGINAL PACK 6X4X500ML",
-          "faturamento": 173497.73,
-          "quantidade": 2794.0
+          "faturamento": 175847.81,
+          "quantidade": 2830.0
         },
         {
           "produto": "VEJA MULTIUSO ORIGINAL 10% DES 24X500ML",
-          "faturamento": 166241.29,
-          "quantidade": 2596.0
+          "faturamento": 166384.81,
+          "quantidade": 2598.0
         },
         {
           "produto": "VEJA MULTIUSO CAMPESTRE 24X500ML",
-          "faturamento": 73039.68,
-          "quantidade": 1118.0
+          "faturamento": 78687.14,
+          "quantidade": 1204.0
         },
         {
           "produto": "VEJA MULTIUSO FLORAL 10% DESC 24X500ML",
-          "faturamento": 40735.6,
-          "quantidade": 618.0
+          "faturamento": 41926.48,
+          "quantidade": 636.0
         },
         {
           "produto": "VEJA MULTIUSO LAV ALC PROMO 24X500ML",
-          "faturamento": 38095.8,
-          "quantidade": 579.0
-        },
-        {
-          "produto": "KIT VANISH LIQ PINK1,5L+WHITE 1,5L 50%",
-          "faturamento": 5934.95,
-          "quantidade": 54.0
+          "faturamento": 40610.52,
+          "quantidade": 617.0
         },
         {
           "produto": "VEJA MULTIUSO/1BAN/1COZ PACK C/3 24X500M",
-          "faturamento": 5559.33,
-          "quantidade": 49.0
+          "faturamento": 6364.28,
+          "quantidade": 55.0
+        },
+        {
+          "produto": "KIT VANISH LIQ PINK1,5L+WHITE 1,5L 50%",
+          "faturamento": 6191.45,
+          "quantidade": 57.0
         },
         {
           "produto": "VANISH LIQUIDO PINK REFIL 12X500ML",
-          "faturamento": 5194.1,
-          "quantidade": 76.0
+          "faturamento": 5460.5,
+          "quantidade": 80.0
         },
         {
           "produto": "INSETICIDA SBP 360 ML ULTRA BARREIRA",
@@ -5611,8 +6490,8 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
         },
         {
           "produto": "BOM AR AERO 360 ML PEONIA",
-          "faturamento": 2775.12,
-          "quantidade": 372.0
+          "faturamento": 2889.91,
+          "quantidade": 384.0
         },
         {
           "produto": "VANISH LIQUIDO WHITE REFIL 12X500ML",
@@ -5625,796 +6504,302 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "quantidade": 283.0
         }
       ],
-      "posicao": 21
+      "posicao": 24
     },
     {
-      "fantasia": "MINALBA",
-      "faturamento_ytd": 549072.17,
-      "participacao_pct": 0.86,
-      "media_mensal": 78438.88,
-      "clientes_positivados": 219,
+      "fantasia": "CRS BRANDS",
+      "faturamento_ytd": 561495.8,
+      "participacao_pct": 0.71,
+      "media_mensal": 62388.42,
+      "clientes_positivados": 478,
       "por_mes": {
-        "2026-01": 133419.84,
-        "2026-02": 121769.34,
-        "2026-03": 79968.98,
-        "2026-04": 94329.09,
-        "2026-05": 32136.8,
-        "2026-06": 44724.59,
-        "2026-07": 42723.53
+        "2026-01": 369.0,
+        "2026-02": 77.4,
+        "2026-03": 1502.82,
+        "2026-04": 1372.48,
+        "2026-05": 1261.86,
+        "2026-06": 73757.26,
+        "2026-07": 208049.26,
+        "2026-08": 241664.08,
+        "2026-09": 33441.64
       },
       "top_clientes": [
         {
-          "codcli": "3143",
-          "estado": "RJ",
-          "nome": "PORT FOOD COMERCIO INDUSTRIA",
-          "faturamento": 77250.94
+          "codcli": "31084",
+          "estado": "SP",
+          "nome": "COMERCIAL BOLSAO DE BEBIDAS LTDA",
+          "faturamento": 49478.4
         },
         {
-          "codcli": "5531",
-          "estado": "RJ",
-          "nome": "GOLDEN MARKET",
-          "faturamento": 28117.61
+          "codcli": "49543",
+          "estado": "SP",
+          "nome": "MERCADO FONTE NOVA BELA VISTA",
+          "faturamento": 42432.0
         },
         {
-          "codcli": "80157",
-          "estado": "RJ",
-          "nome": "PARADA MAIS",
-          "faturamento": 21130.26
+          "codcli": "46505",
+          "estado": "SP",
+          "nome": "POINT DO ATACADO",
+          "faturamento": 39312.0
         },
         {
-          "codcli": "84592",
-          "estado": "RJ",
-          "nome": "MINI MERCADO G MARKET",
-          "faturamento": 16207.85
+          "codcli": "47507",
+          "estado": "SP",
+          "nome": "ATACADISTA PROPOSITO",
+          "faturamento": 23616.0
         },
         {
-          "codcli": "91093",
-          "estado": "RJ",
-          "nome": "BELO CAPIVARI CONVENIENCIA",
-          "faturamento": 16057.74
+          "codcli": "48318",
+          "estado": "SP",
+          "nome": "KAÇULA CENTRO DE DISTRIBUIÇÃO",
+          "faturamento": 19911.96
         },
         {
-          "codcli": "74671",
-          "estado": "RJ",
-          "nome": "LOJA DE CONVENIENCIA ESTRELA DE CAXIAS",
-          "faturamento": 15771.0
+          "codcli": "31513",
+          "estado": "SP",
+          "nome": "VENTUCCI",
+          "faturamento": 13186.8
         },
         {
-          "codcli": "79969",
-          "estado": "RJ",
-          "nome": "WMDIAS 24H",
-          "faturamento": 15326.5
+          "codcli": "49494",
+          "estado": "SP",
+          "nome": "COMERCIO DE BEBIDAS JAU",
+          "faturamento": 11027.4
         },
         {
-          "codcli": "14047",
-          "estado": "RJ",
-          "nome": "LOJA DE CONVENIENCIA CANARIO LTDA",
-          "faturamento": 14421.86
+          "codcli": "34090",
+          "estado": "SP",
+          "nome": "PEDREIRA COMERCIO ATACADISTA E VAREJISTA DE ALIMENTOS",
+          "faturamento": 11001.36
         },
         {
-          "codcli": "1827",
-          "estado": "RJ",
-          "nome": "CASAS BRANCAS HOTEL E SPA",
-          "faturamento": 13206.9
+          "codcli": "51927",
+          "estado": "SP",
+          "nome": "SUPER SETE SUPERMERCADO",
+          "faturamento": 10428.0
         },
         {
-          "codcli": "3551",
-          "estado": "RJ",
-          "nome": "AUTO POSTO ABAST. ESTRELA DO OCEANO",
-          "faturamento": 12560.95
+          "codcli": "50496",
+          "estado": "SP",
+          "nome": "JB MERCADO DE BEBIDAS",
+          "faturamento": 10428.0
         },
         {
-          "codcli": "63587",
-          "estado": "RJ",
-          "nome": "LOJA DE CONVENIENCIA 17.000",
-          "faturamento": 11167.7
+          "codcli": "52013",
+          "estado": "SP",
+          "nome": "SUPERMERCADO SUPER JOSE",
+          "faturamento": 9277.68
         },
         {
-          "codcli": "76248",
-          "estado": "RJ",
-          "nome": "POSTO TORCEDOR",
-          "faturamento": 10808.26
+          "codcli": "49844",
+          "estado": "SP",
+          "nome": "NOVA CENTRAL COMERCIO DE ALIMENTOS LTDA",
+          "faturamento": 8160.0
         },
         {
-          "codcli": "74688",
-          "estado": "RJ",
-          "nome": "POSTO DE GASOLINA AVENIDA",
-          "faturamento": 10758.7
+          "codcli": "39396",
+          "estado": "SP",
+          "nome": "BOLSAO DO TADEU DISTRIBUIDORA DE BEBIDAS",
+          "faturamento": 6904.8
         },
         {
-          "codcli": "74245",
-          "estado": "RJ",
-          "nome": "G MARKET JARDIM",
-          "faturamento": 9082.93
+          "codcli": "52007",
+          "estado": "SP",
+          "nome": "FILIAL 1",
+          "faturamento": 5933.4
         },
         {
-          "codcli": "6003",
-          "estado": "RJ",
-          "nome": "FASANO ANGRA",
-          "faturamento": 8929.8
+          "codcli": "52716",
+          "estado": "SP",
+          "nome": "FONTE NOVA ATACADO E DISTRIBUICAO",
+          "faturamento": 5214.0
         }
       ],
       "top_vendedores": [
-        {
-          "rca": "156",
-          "estado": "RJ",
-          "nome": "MARILENA TRAGEL",
-          "faturamento": 226671.58
-        },
-        {
-          "rca": "155",
-          "estado": "RJ",
-          "nome": "RAPHAEL SANTOS",
-          "faturamento": 95664.17
-        },
-        {
-          "rca": "159",
-          "estado": "RJ",
-          "nome": "GISELLE BARFER",
-          "faturamento": 87992.35
-        },
-        {
-          "rca": "412",
-          "estado": "RJ",
-          "nome": "BARBARA CABRAL",
-          "faturamento": 75228.38
-        },
-        {
-          "rca": "417",
-          "estado": "RJ",
-          "nome": "DIRLEI ARAUJO",
-          "faturamento": 16878.76
-        },
-        {
-          "rca": "431",
-          "estado": "RJ",
-          "nome": "ADEILSON GONÇALVEZ",
-          "faturamento": 14876.07
-        },
-        {
-          "rca": "144",
-          "estado": "RJ",
-          "nome": "DIOGO RAPOSO",
-          "faturamento": 11056.0
-        },
-        {
-          "rca": "379",
-          "estado": "RJ",
-          "nome": "JORGE MACIEL",
-          "faturamento": 8171.07
-        },
-        {
-          "rca": "153",
-          "estado": "RJ",
-          "nome": "ANGELO NEVES SUZART",
-          "faturamento": 5180.45
-        },
-        {
-          "rca": "378",
-          "estado": "RJ",
-          "nome": "FABIO VALOTTI",
-          "faturamento": 4637.45
-        },
-        {
-          "rca": "471",
-          "estado": "RJ",
-          "nome": "ANA CLARA FASSANO",
-          "faturamento": 2511.0
-        },
-        {
-          "rca": "419",
-          "estado": "RJ",
-          "nome": "NÁTALI DE OLIVEIRA",
-          "faturamento": 149.3
-        },
-        {
-          "rca": "486",
-          "estado": "SP",
-          "nome": "LEONARDO FLOREZI",
-          "faturamento": 38.59
-        },
-        {
-          "rca": "511",
-          "estado": "SP",
-          "nome": "ALEXANDRE SOUZA",
-          "faturamento": 17.0
-        }
-      ],
-      "top_produtos": [
-        {
-          "produto": "AGUA MINERAL MINALBA S/ GAS 6X1,5L",
-          "faturamento": 208829.88,
-          "quantidade": 12050.0
-        },
-        {
-          "produto": "AGUA MINERAL MINALBA S/ GAS 12X510ML",
-          "faturamento": 122932.51,
-          "quantidade": 6331.0
-        },
-        {
-          "produto": "AGUA MINERAL MINALBA C/ GAS 12X510ML",
-          "faturamento": 73244.04,
-          "quantidade": 2668.0
-        },
-        {
-          "produto": "AGUA MINERAL MINALBA S/ GAS 8X1,5L PET",
-          "faturamento": 36062.86,
-          "quantidade": 1515.0
-        },
-        {
-          "produto": "AGUA MINALBA C/ GAS 6X1,5L",
-          "faturamento": 35438.65,
-          "quantidade": 1708.0
-        },
-        {
-          "produto": "AGUA MINERAL MINALBA S/ GAS 12X310ML",
-          "faturamento": 15701.44,
-          "quantidade": 929.0
-        },
-        {
-          "produto": "AGUA MINALBA S/ GAS PREMIUM 12X300ML",
-          "faturamento": 13486.64,
-          "quantidade": 312.0
-        },
-        {
-          "produto": "AGUA SAN PELLEGRINO C/GÁS 505ML",
-          "faturamento": 11380.86,
-          "quantidade": 32.0
-        },
-        {
-          "produto": "AGUA MINERAL MINALBA C/ GAS 12X310ML",
-          "faturamento": 7777.21,
-          "quantidade": 379.0
-        },
-        {
-          "produto": "AGUA PANNA S/GAS 24X250ML",
-          "faturamento": 7066.7,
-          "quantidade": 33.0
-        },
-        {
-          "produto": "AGUA PANNA S/GÁS 505 ML",
-          "faturamento": 3778.06,
-          "quantidade": 18.0
-        },
-        {
-          "produto": "AGUA MINALBA C/ GAS PREMIUM 12X300ML",
-          "faturamento": 3147.64,
-          "quantidade": 59.0
-        },
-        {
-          "produto": "AGUA SAN PELLEGRINO C/GÁS 250ML",
-          "faturamento": 2476.62,
-          "quantidade": 13.0
-        },
-        {
-          "produto": "AGUA PERRIER C/ GAS 24X330ML",
-          "faturamento": 2198.0,
-          "quantidade": 11.0
-        },
-        {
-          "produto": "AGUA MINERAL MINALBA S/GAS LATA 12X310ML",
-          "faturamento": 2032.61,
-          "quantidade": 60.0
-        }
-      ],
-      "posicao": 22
-    },
-    {
-      "fantasia": "MOET HENNESY",
-      "faturamento_ytd": 529152.67,
-      "participacao_pct": 0.83,
-      "media_mensal": 75593.24,
-      "clientes_positivados": 99,
-      "por_mes": {
-        "2026-01": 18292.67,
-        "2026-02": 16025.55,
-        "2026-03": 41712.28,
-        "2026-04": 67579.2,
-        "2026-05": 14383.82,
-        "2026-06": 228047.28,
-        "2026-07": 143111.87
-      },
-      "top_clientes": [
-        {
-          "codcli": "43203",
-          "estado": "SP",
-          "nome": "WOODS WINE COMERCIO E INTERMEDIACAO DE B",
-          "faturamento": 221318.0
-        },
-        {
-          "codcli": "23845",
-          "estado": "SP",
-          "nome": "OBA HORTIFRUTI",
-          "faturamento": 35388.0
-        },
-        {
-          "codcli": "28991",
-          "estado": "SP",
-          "nome": "MRF DISTRIBUIDORA DE BEBIDAS E GENEROS ALIMENTICIOS",
-          "faturamento": 28401.95
-        },
-        {
-          "codcli": "47200",
-          "estado": "SP",
-          "nome": "TREND CAPITAL DISTRIBUICAO E COMERCIO DE BEBIDAS",
-          "faturamento": 26268.77
-        },
-        {
-          "codcli": "51110",
-          "estado": "SP",
-          "nome": "DISTRIBUIDORA CIDADE JARDIM",
-          "faturamento": 18534.16
-        },
-        {
-          "codcli": "21330",
-          "estado": "SP",
-          "nome": "EMPORIO SAO PAULO",
-          "faturamento": 16794.0
-        },
-        {
-          "codcli": "39897",
-          "estado": "SP",
-          "nome": "MIAMI STORE",
-          "faturamento": 11787.48
-        },
-        {
-          "codcli": "42699",
-          "estado": "SP",
-          "nome": "STORM COMERCIO DE ALIMENTOS E BEBIDAS",
-          "faturamento": 10203.6
-        },
-        {
-          "codcli": "43134",
-          "estado": "SP",
-          "nome": "VAREJAO TATU LTDA",
-          "faturamento": 9703.2
-        },
-        {
-          "codcli": "33545",
-          "estado": "SP",
-          "nome": "LATICINIOS MARCELO",
-          "faturamento": 9108.0
-        },
-        {
-          "codcli": "32788",
-          "estado": "SP",
-          "nome": "FOOD CENTER",
-          "faturamento": 6516.48
-        },
-        {
-          "codcli": "47406",
-          "estado": "SP",
-          "nome": "EMPORIO GAINO LTDA",
-          "faturamento": 6379.98
-        },
-        {
-          "codcli": "47181",
-          "estado": "SP",
-          "nome": "LATICINIOS TANI LTDA",
-          "faturamento": 5842.8
-        },
-        {
-          "codcli": "32426",
-          "estado": "SP",
-          "nome": "PIRANA - AUTO SERVICO",
-          "faturamento": 5824.2
-        },
-        {
-          "codcli": "49284",
-          "estado": "SP",
-          "nome": "JEWINE COMERCIAL LTDA",
-          "faturamento": 5081.4
-        }
-      ],
-      "top_vendedores": [
-        {
-          "rca": "119",
-          "estado": "SP",
-          "nome": "VIVIANI ALVES",
-          "faturamento": 221318.0
-        },
-        {
-          "rca": "425",
-          "estado": "SP",
-          "nome": "BRUNO BARBOSA",
-          "faturamento": 74156.84
-        },
         {
           "rca": "426",
           "estado": "SP",
           "nome": "ADER ALONSO",
-          "faturamento": 68539.51
+          "faturamento": 87033.36
         },
         {
-          "rca": "391",
+          "rca": "467",
           "estado": "SP",
-          "nome": "ANDRE SILVA",
-          "faturamento": 58325.53
+          "nome": "MARLENE RODRIGUES",
+          "faturamento": 50389.2
         },
         {
           "rca": "371",
           "estado": "SP",
           "nome": "CARLOS DE ALMEIDA",
-          "faturamento": 27059.57
+          "faturamento": 48079.5
         },
         {
-          "rca": "489",
+          "rca": "318",
           "estado": "SP",
-          "nome": "FERNANDO BERTIN",
-          "faturamento": 23550.56
+          "nome": "MARCUS TANAMACHI",
+          "faturamento": 39312.0
         },
         {
           "rca": "433",
           "estado": "SP",
           "nome": "MANUELA ZAPPACOSTA",
-          "faturamento": 14159.4
+          "faturamento": 38830.08
         },
         {
-          "rca": "428",
+          "rca": "468",
           "estado": "SP",
-          "nome": "MARIO RAFAEL FERRARI",
-          "faturamento": 10826.3
+          "nome": "RENATO JUNIOR",
+          "faturamento": 38093.84
         },
         {
-          "rca": "460",
+          "rca": "486",
           "estado": "SP",
-          "nome": "CRISTIANE MORAIS",
-          "faturamento": 4471.1
+          "nome": "LEONARDO FLOREZI",
+          "faturamento": 28518.15
         },
         {
-          "rca": "463",
+          "rca": "508",
           "estado": "SP",
-          "nome": "ROBERTO DOS SANTOS",
-          "faturamento": 4165.5
+          "nome": "PAULO SALES",
+          "faturamento": 28264.56
+        },
+        {
+          "rca": "512",
+          "estado": "SP",
+          "nome": "WILLIAM GONCALVES",
+          "faturamento": 19669.66
+        },
+        {
+          "rca": "504",
+          "estado": "SP",
+          "nome": "GILVAN AMORIM",
+          "faturamento": 14962.86
+        },
+        {
+          "rca": "496",
+          "estado": "SP",
+          "nome": "DEMETRIUS PELEGRINI",
+          "faturamento": 11660.64
         },
         {
           "rca": "476",
           "estado": "SP",
           "nome": "RODRIGO LIMA",
-          "faturamento": 3174.7
+          "faturamento": 10281.69
         },
         {
-          "rca": "471",
+          "rca": "463",
           "estado": "SP",
-          "nome": "PAULO JUNIOR",
-          "faturamento": 2656.1
+          "nome": "ROBERTO DOS SANTOS",
+          "faturamento": 9433.92
         },
         {
-          "rca": "465",
+          "rca": "475",
           "estado": "SP",
-          "nome": "CIARA PADULA",
-          "faturamento": 2516.4
+          "nome": "LUCAS BUENO",
+          "faturamento": 7680.69
         },
         {
-          "rca": "464",
-          "estado": "SP",
-          "nome": "PATRICIO MASSAGARDI",
-          "faturamento": 2277.0
-        },
-        {
-          "rca": "466",
-          "estado": "SP",
-          "nome": "DANIELLE DOS SANTOS",
-          "faturamento": 2253.03
+          "rca": "144",
+          "estado": "RJ",
+          "nome": "DIOGO RAPOSO",
+          "faturamento": 7629.6
         }
       ],
       "top_produtos": [
         {
-          "produto": "MOET IMPERIAL RESERVE BRUT 750 ML",
-          "faturamento": 185022.9,
-          "quantidade": 671.0
+          "produto": "VINHO DOM BOSCO TINTO SUAVE 750ML",
+          "faturamento": 379365.91,
+          "quantidade": 43391.0
         },
         {
-          "produto": "MOET IMPERIAL EXTRA BRUT 750 ML",
-          "faturamento": 93685.4,
-          "quantidade": 346.0
+          "produto": "AGUARDENTE OLD CESAR 88 965 ML",
+          "faturamento": 73156.75,
+          "quantidade": 7189.0
         },
         {
-          "produto": "ESPUMANTE CHANDON RESERVE BRUT 750ML",
-          "faturamento": 66821.29,
-          "quantidade": 975.0
+          "produto": "VINHO DOM BOSCO TINTO SECO 750ML",
+          "faturamento": 59527.29,
+          "quantidade": 6711.0
         },
         {
-          "produto": "CHAMP. VEUVE CLICQUOT BRUT 750 ML",
-          "faturamento": 34128.02,
-          "quantidade": 107.0
+          "produto": "WHISKY CHANCELER 1L",
+          "faturamento": 37267.63,
+          "quantidade": 2709.0
         },
         {
-          "produto": "CHANDON GARDEN SPRITZ 750 ML",
-          "faturamento": 18005.54,
-          "quantidade": 269.0
+          "produto": "CHUVA DE PRATA ROSE 660ML",
+          "faturamento": 3892.0,
+          "quantidade": 280.0
         },
         {
-          "produto": "CHANDON BABY BRUT ROSE 187 ML",
-          "faturamento": 16676.76,
-          "quantidade": 656.0
+          "produto": "CHANCELER SABOR CANELA 1000ML",
+          "faturamento": 2080.3,
+          "quantidade": 155.0
         },
         {
-          "produto": "ESPUMANTE CHANDON BRUT ROSE 750ML",
-          "faturamento": 12887.52,
-          "quantidade": 170.0
+          "produto": "CHANCELER SABOR MEL 1000ML",
+          "faturamento": 1859.08,
+          "quantidade": 139.0
         },
         {
-          "produto": "CHANDON PASSION ROSE 750ML",
-          "faturamento": 8138.2,
-          "quantidade": 108.0
+          "produto": "CERESER SIDRA 660ML",
+          "faturamento": 1454.4,
+          "quantidade": 96.0
         },
         {
-          "produto": "CHANDON RICHE DEMI-SEC 750 ML",
-          "faturamento": 7950.9,
-          "quantidade": 111.0
+          "produto": "XAROPE DE GROSELHA CERESER G&G PET 1LT",
+          "faturamento": 1310.06,
+          "quantidade": 109.0
         },
         {
-          "produto": "VODKA BELVEDERE 700 ML",
-          "faturamento": 7177.8,
-          "quantidade": 62.0
+          "produto": "CELEBRATE SIDRA ALCOOLICA 660ML V2020",
+          "faturamento": 539.4,
+          "quantidade": 60.0
         },
         {
-          "produto": "VINHO LATITUD 33 MALBEC 750 ML",
-          "faturamento": 6653.69,
-          "quantidade": 229.0
+          "produto": "ESPUMANTE GEORGES AUBERT BRUT 750ML",
+          "faturamento": 329.4,
+          "quantidade": 6.0
         },
         {
-          "produto": "CHANDON BABY RESERVE BRUT 187 ML",
-          "faturamento": 6484.8,
-          "quantidade": 240.0
+          "produto": "ESPUMANTE GEORGES AUBERT MOSCATEL 750ML",
+          "faturamento": 305.4,
+          "quantidade": 6.0
         },
         {
-          "produto": "GLENMORANGIE THE ORIGINAL 10 ANOS 750ML",
-          "faturamento": 4867.44,
-          "quantidade": 24.0
-        },
-        {
-          "produto": "CHAMP VEU CLIC BRUT NEW ICE JACKET",
-          "faturamento": 4210.8,
+          "produto": "OLD RED 1LT",
+          "faturamento": 298.8,
           "quantidade": 12.0
         },
         {
-          "produto": "VODKA BELVEDERE B10 700 ML",
-          "faturamento": 3910.2,
+          "produto": "RUM CAPITAN CORTEZ CARTA BRANCA 1L",
+          "faturamento": 49.5,
+          "quantidade": 3.0
+        },
+        {
+          "produto": "CERESER MACA 275ML",
+          "faturamento": 29.94,
           "quantidade": 6.0
         }
       ],
-      "posicao": 23
-    },
-    {
-      "fantasia": "MONIN",
-      "faturamento_ytd": 523211.0,
-      "participacao_pct": 0.82,
-      "media_mensal": 261605.5,
-      "clientes_positivados": 60,
-      "por_mes": {
-        "2026-06": 263635.9,
-        "2026-07": 259575.1
-      },
-      "top_clientes": [
-        {
-          "codcli": "34048",
-          "estado": "MG",
-          "nome": "MART MINAS DISTRIBUICAO",
-          "faturamento": 286228.8
-        },
-        {
-          "codcli": "30723",
-          "estado": "MG",
-          "nome": "SUPERMERCADO BAHAMAS S/A",
-          "faturamento": 113685.0
-        },
-        {
-          "codcli": "30231",
-          "estado": "MG",
-          "nome": "ORGANIZACAO VERDEMAR LTDA",
-          "faturamento": 36162.0
-        },
-        {
-          "codcli": "33139",
-          "estado": "MG",
-          "nome": "CORDEIRO SUPERMERCADOS",
-          "faturamento": 21443.4
-        },
-        {
-          "codcli": "35170",
-          "estado": "MG",
-          "nome": "SUPERMERCADOS ABC",
-          "faturamento": 20793.0
-        },
-        {
-          "codcli": "35169",
-          "estado": "MG",
-          "nome": "SUPERMERCADOS ABC",
-          "faturamento": 10411.8
-        },
-        {
-          "codcli": "34032",
-          "estado": "MG",
-          "nome": "UPSIDE DISTRIBUICAO DE ALIMENTOS",
-          "faturamento": 7273.8
-        },
-        {
-          "codcli": "34568",
-          "estado": "MG",
-          "nome": "BIG MAIS SUPERMERCADOS",
-          "faturamento": 6196.2
-        },
-        {
-          "codcli": "38497",
-          "estado": "MG",
-          "nome": "SUPERMERCADO IMPERIAL",
-          "faturamento": 4310.4
-        },
-        {
-          "codcli": "33176",
-          "estado": "MG",
-          "nome": "HELP BAR",
-          "faturamento": 3892.2
-        },
-        {
-          "codcli": "33350",
-          "estado": "MG",
-          "nome": "CASA QUATRO",
-          "faturamento": 998.0
-        },
-        {
-          "codcli": "30105",
-          "estado": "MG",
-          "nome": "RESTAURANTE E EMPORIO MORADA MEXICANA EIRELI",
-          "faturamento": 822.3
-        },
-        {
-          "codcli": "33951",
-          "estado": "MG",
-          "nome": "RESTAURANTE LA TRAVIATA",
-          "faturamento": 648.7
-        },
-        {
-          "codcli": "29917",
-          "estado": "MG",
-          "nome": "EMPORIO PARAISO",
-          "faturamento": 598.8
-        },
-        {
-          "codcli": "33631",
-          "estado": "MG",
-          "nome": "COCO BAMBU CONCEITO DEL REY",
-          "faturamento": 499.0
-        }
-      ],
-      "top_vendedores": [
-        {
-          "rca": "360",
-          "estado": "MG",
-          "nome": "LEANDRO OLIVEIRA",
-          "faturamento": 488724.0
-        },
-        {
-          "rca": "327",
-          "estado": "MG",
-          "nome": "JOÃO SANTOS",
-          "faturamento": 11942.2
-        },
-        {
-          "rca": "388",
-          "estado": "MG",
-          "nome": "DOUGLAS FERREIRA SILVA",
-          "faturamento": 7273.8
-        },
-        {
-          "rca": "378",
-          "estado": "MG",
-          "nome": "JETER LUCIO SOARES",
-          "faturamento": 6196.2
-        },
-        {
-          "rca": "344",
-          "estado": "MG",
-          "nome": "TIAGO ANDRADE",
-          "faturamento": 5300.3
-        },
-        {
-          "rca": "354",
-          "estado": "MG",
-          "nome": "MATHEUS DE SOUZA",
-          "faturamento": 3335.5
-        },
-        {
-          "rca": "362",
-          "estado": "MG",
-          "nome": "BRUNA CASTRO MELLO",
-          "faturamento": 439.0
-        }
-      ],
-      "top_produtos": [
-        {
-          "produto": "XAROPE MONIN MACA VERDE (APPLE) 700 ML",
-          "faturamento": 114110.8,
-          "quantidade": 2652.0
-        },
-        {
-          "produto": "XAROPE MONIN MORANGO (STRAWBERRY) 700ML",
-          "faturamento": 104577.6,
-          "quantidade": 2426.0
-        },
-        {
-          "produto": "XAROPE MONIN TANGERINA (MANDARIM) 700ML",
-          "faturamento": 62076.9,
-          "quantidade": 1431.0
-        },
-        {
-          "produto": "XAROPE MONIN LIMAO SICILIANO 700 ML",
-          "faturamento": 61758.6,
-          "quantidade": 1434.0
-        },
-        {
-          "produto": "XAROPE  MONIN  MAÇA VERDE 330 ML",
-          "faturamento": 41075.6,
-          "quantidade": 1887.0
-        },
-        {
-          "produto": "XAROPE MONIN LIMÃO GLASCO 330 ML",
-          "faturamento": 31854.6,
-          "quantidade": 1458.0
-        },
-        {
-          "produto": "XAROPE  MONIN TANGERINA 330 ML",
-          "faturamento": 30093.1,
-          "quantidade": 1351.0
-        },
-        {
-          "produto": "XAROPE  MONIN CRANBERRY 330 ML",
-          "faturamento": 24439.2,
-          "quantidade": 1128.0
-        },
-        {
-          "produto": "XAROPE MONIN MORANGO 330 ML",
-          "faturamento": 20985.3,
-          "quantidade": 972.0
-        },
-        {
-          "produto": "XAROPE MONIN GENGIBRE 330 ML",
-          "faturamento": 8074.6,
-          "quantidade": 342.0
-        },
-        {
-          "produto": "XAROPE MONIN GENGIBRE (GINGER) 700 ML",
-          "faturamento": 4015.4,
-          "quantidade": 86.0
-        },
-        {
-          "produto": "XAROPE MONIN FLOR DE SABUGUEIRO 700 ML",
-          "faturamento": 3193.6,
-          "quantidade": 64.0
-        },
-        {
-          "produto": "PURE MONIN FRUTAS VERMELHAS 330ML",
-          "faturamento": 1970.1,
-          "quantidade": 81.0
-        },
-        {
-          "produto": "PURE MONIN MANGA MARACUJÁ  330ML",
-          "faturamento": 1964.8,
-          "quantidade": 80.0
-        },
-        {
-          "produto": "XAROPE MONIN MELANCIA 700ML",
-          "faturamento": 1861.9,
-          "quantidade": 41.0
-        }
-      ],
-      "posicao": 24
+      "posicao": 25
     },
     {
       "fantasia": "NOIG",
-      "faturamento_ytd": 362568.16,
-      "participacao_pct": 0.57,
-      "media_mensal": 60428.03,
-      "clientes_positivados": 287,
+      "faturamento_ytd": 367370.4,
+      "participacao_pct": 0.46,
+      "media_mensal": 52481.49,
+      "clientes_positivados": 288,
       "por_mes": {
         "2026-01": 37373.37,
         "2026-02": 53605.28,
         "2026-03": 125177.28,
         "2026-04": 72516.0,
         "2026-05": 56949.22,
-        "2026-06": 16947.02
+        "2026-06": 16947.02,
+        "2026-08": 4802.24
       },
       "top_clientes": [
         {
@@ -6427,7 +6812,7 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "codcli": "71539",
           "estado": "ES",
           "nome": "ORIUNDI SUPERMERCADOS",
-          "faturamento": 27609.88
+          "faturamento": 31295.32
         },
         {
           "codcli": "91826",
@@ -6570,6 +6955,12 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "faturamento": 8614.52
         },
         {
+          "rca": "521",
+          "estado": "ES",
+          "nome": "WESLEY CARCHENO",
+          "faturamento": 3685.44
+        },
+        {
           "rca": "435",
           "estado": "ES",
           "nome": "JOAO VICTOR DA ROCHA",
@@ -6582,29 +6973,23 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "faturamento": 1291.14
         },
         {
+          "rca": "458",
+          "estado": "ES",
+          "nome": "BRUNO COSMO",
+          "faturamento": 1116.8
+        },
+        {
           "rca": "265",
           "estado": "ES",
           "nome": "LUCAS LIMA",
           "faturamento": 910.84
-        },
-        {
-          "rca": "341",
-          "estado": "ES",
-          "nome": "WANDERSON FERREIRA",
-          "faturamento": 94.6
-        },
-        {
-          "rca": "230",
-          "estado": "ES",
-          "nome": "ENEIVA RODRIGUES",
-          "faturamento": 8.43
         }
       ],
       "top_produtos": [
         {
           "produto": "NG BARRA NEUGE 80G AO LEITE (DP 16X80G)",
-          "faturamento": 54705.56,
-          "quantidade": 798.0
+          "faturamento": 54817.24,
+          "quantidade": 800.0
         },
         {
           "produto": "NG AMOR CARIOCA BOMBOM 200G (10X20G)",
@@ -6613,8 +6998,8 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
         },
         {
           "produto": "NG BARRA 80G 40% MEIO AMARGO (DP 16X80G)",
-          "faturamento": 37289.83,
-          "quantidade": 523.0
+          "faturamento": 39300.07,
+          "quantidade": 559.0
         },
         {
           "produto": "NG AMOR CARIOCA BOMBOM 200G BRANCO",
@@ -6623,8 +7008,8 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
         },
         {
           "produto": "NG BARRA NEUGE 80G BRANCO (DP 16X80G)",
-          "faturamento": 30504.34,
-          "quantidade": 435.0
+          "faturamento": 30727.7,
+          "quantidade": 439.0
         },
         {
           "produto": "NG BARRA NEUGE 80G P&B (DP 16X80G)",
@@ -6633,18 +7018,18 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
         },
         {
           "produto": "NG BARRA NEUGE 80G COOKIES BRANCO (DP 16",
-          "faturamento": 25998.87,
-          "quantidade": 364.0
+          "faturamento": 27339.03,
+          "quantidade": 388.0
         },
         {
           "produto": "NG BARRA NEUGE 80G AMENDOIM (DP 16X80G)",
-          "faturamento": 22822.78,
-          "quantidade": 322.0
+          "faturamento": 23716.22,
+          "quantidade": 338.0
         },
         {
           "produto": "NG BARRA NEUGE 80G FLOCOS (DP 16X80G)",
-          "faturamento": 14773.35,
-          "quantidade": 204.0
+          "faturamento": 14996.71,
+          "quantidade": 208.0
         },
         {
           "produto": "NG BARRA NEUGE 80G AMENDOLATE (DP 16X80G",
@@ -6677,13 +7062,13 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "quantidade": 523.0
         }
       ],
-      "posicao": 25
+      "posicao": 26
     },
     {
       "fantasia": "AGUA NA CAIXA",
-      "faturamento_ytd": 355236.68,
-      "participacao_pct": 0.56,
-      "media_mensal": 50748.1,
+      "faturamento_ytd": 355671.38,
+      "participacao_pct": 0.45,
+      "media_mensal": 44458.92,
       "clientes_positivados": 49,
       "por_mes": {
         "2026-01": 591.32,
@@ -6692,7 +7077,8 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
         "2026-04": 165604.6,
         "2026-05": 830.3,
         "2026-06": 1488.1,
-        "2026-07": 165601.5
+        "2026-07": 165601.5,
+        "2026-08": 434.7
       },
       "top_clientes": [
         {
@@ -6723,7 +7109,7 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "codcli": "5371",
           "estado": "RJ",
           "nome": "LEDEPANNEUR SHOPPING LEBLON",
-          "faturamento": 1407.3
+          "faturamento": 1566.8
         },
         {
           "codcli": "82169",
@@ -6753,7 +7139,7 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "codcli": "2218",
           "estado": "RJ",
           "nome": "LE DEPANNEUR",
-          "faturamento": 641.0
+          "faturamento": 712.8
         },
         {
           "codcli": "93898",
@@ -6774,16 +7160,16 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "faturamento": 365.1
         },
         {
+          "codcli": "83678",
+          "estado": "RJ",
+          "nome": "LEANDRO FREITAS RODRIGUES",
+          "faturamento": 351.7
+        },
+        {
           "codcli": "80151",
           "estado": "RJ",
           "nome": "G & D ALIMENTOS E BEBIDAS",
           "faturamento": 322.9
-        },
-        {
-          "codcli": "95828",
-          "estado": "RJ",
-          "nome": "DROGAMINAS VALENCA LTDA",
-          "faturamento": 319.0
         }
       ],
       "top_vendedores": [
@@ -6797,7 +7183,7 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "rca": "471",
           "estado": "RJ",
           "nome": "ANA CLARA FASSANO",
-          "faturamento": 22106.78
+          "faturamento": 22338.08
         },
         {
           "rca": "159",
@@ -6809,19 +7195,19 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "rca": "156",
           "estado": "RJ",
           "nome": "MARILENA TRAGEL",
-          "faturamento": 1441.0
+          "faturamento": 1584.6
+        },
+        {
+          "rca": "379",
+          "estado": "RJ",
+          "nome": "JORGE MACIEL",
+          "faturamento": 414.5
         },
         {
           "rca": "439",
           "estado": "RJ",
           "nome": "MATEUS CARDOSO",
           "faturamento": 354.9
-        },
-        {
-          "rca": "379",
-          "estado": "RJ",
-          "nome": "JORGE MACIEL",
-          "faturamento": 354.7
         },
         {
           "rca": "238",
@@ -6857,13 +7243,13 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
       "top_produtos": [
         {
           "produto": "AGUA NA CAIXA 12X500ML",
-          "faturamento": 348542.2,
-          "quantidade": 7788.0
+          "faturamento": 348917.1,
+          "quantidade": 7799.0
         },
         {
           "produto": "AGUA NA LATA C/ GAS 12X310ML",
-          "faturamento": 3414.78,
-          "quantidade": 112.0
+          "faturamento": 3474.58,
+          "quantidade": 114.0
         },
         {
           "produto": "AGUA NA CAIXA 12X330ML",
@@ -6876,14 +7262,294 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "quantidade": 18.0
         }
       ],
-      "posicao": 26
+      "posicao": 27
+    },
+    {
+      "fantasia": "PINATI",
+      "faturamento_ytd": 341494.22,
+      "participacao_pct": 0.43,
+      "media_mensal": 37943.8,
+      "clientes_positivados": 492,
+      "por_mes": {
+        "2026-01": 36249.83,
+        "2026-02": 54303.7,
+        "2026-03": 65139.0,
+        "2026-04": 42427.76,
+        "2026-05": 38548.6,
+        "2026-06": 28976.15,
+        "2026-07": 34651.87,
+        "2026-08": 33923.78,
+        "2026-09": 7273.52
+      },
+      "top_clientes": [
+        {
+          "codcli": "85424",
+          "estado": "ES",
+          "nome": "SUPERMERCADOS BH",
+          "faturamento": 13967.04
+        },
+        {
+          "codcli": "91292",
+          "estado": "ES",
+          "nome": "SUPERMERCADOS BH",
+          "faturamento": 12623.75
+        },
+        {
+          "codcli": "85420",
+          "estado": "ES",
+          "nome": "SUPERMERCADOS BH",
+          "faturamento": 11052.68
+        },
+        {
+          "codcli": "85436",
+          "estado": "ES",
+          "nome": "SUPERMERCADOS BH",
+          "faturamento": 10718.3
+        },
+        {
+          "codcli": "85418",
+          "estado": "ES",
+          "nome": "SUPERMERCADOS BH",
+          "faturamento": 9886.25
+        },
+        {
+          "codcli": "85438",
+          "estado": "ES",
+          "nome": "SUPERMERCADOS BH",
+          "faturamento": 9519.25
+        },
+        {
+          "codcli": "85410",
+          "estado": "ES",
+          "nome": "SUPERMERCADOS BH",
+          "faturamento": 7724.01
+        },
+        {
+          "codcli": "85407",
+          "estado": "ES",
+          "nome": "SUPERMERCADOS BH",
+          "faturamento": 6315.7
+        },
+        {
+          "codcli": "20942",
+          "estado": "ES",
+          "nome": "SUPERMERCADOS  PERIM",
+          "faturamento": 6234.88
+        },
+        {
+          "codcli": "85403",
+          "estado": "ES",
+          "nome": "SUPERMERCADOS BH",
+          "faturamento": 6154.63
+        },
+        {
+          "codcli": "20941",
+          "estado": "ES",
+          "nome": "SUPERMERCADOS  PERIM",
+          "faturamento": 5385.6
+        },
+        {
+          "codcli": "85429",
+          "estado": "ES",
+          "nome": "SUPERMERCADOS BH",
+          "faturamento": 5312.04
+        },
+        {
+          "codcli": "76075",
+          "estado": "ES",
+          "nome": "SUPERMERCADO CARONE",
+          "faturamento": 4821.12
+        },
+        {
+          "codcli": "71515",
+          "estado": "ES",
+          "nome": "ORIUNDI SUPERMERCADOS",
+          "faturamento": 4642.32
+        },
+        {
+          "codcli": "85437",
+          "estado": "ES",
+          "nome": "SUPERMERCADOS BH",
+          "faturamento": 4579.78
+        }
+      ],
+      "top_vendedores": [
+        {
+          "rca": "388",
+          "estado": "ES",
+          "nome": "EUDES MORGAN",
+          "faturamento": 199626.2
+        },
+        {
+          "rca": "336",
+          "estado": "ES",
+          "nome": "JEAN MENEZES",
+          "faturamento": 15905.43
+        },
+        {
+          "rca": "508",
+          "estado": "ES",
+          "nome": "MARCELO DE SOUZA",
+          "faturamento": 12566.4
+        },
+        {
+          "rca": "442",
+          "estado": "ES",
+          "nome": "RAQUEL ARAUJO",
+          "faturamento": 12328.46
+        },
+        {
+          "rca": "260",
+          "estado": "ES",
+          "nome": "DOUGLAS SCHADE",
+          "faturamento": 11077.9
+        },
+        {
+          "rca": "257",
+          "estado": "ES",
+          "nome": "TIAGO SILVA",
+          "faturamento": 10662.54
+        },
+        {
+          "rca": "370",
+          "estado": "ES",
+          "nome": "FRANZ BENEVIDES",
+          "faturamento": 9631.87
+        },
+        {
+          "rca": "431",
+          "estado": "RJ",
+          "nome": "ADEILSON GONÇALVEZ",
+          "faturamento": 8367.34
+        },
+        {
+          "rca": "265",
+          "estado": "ES",
+          "nome": "LUCAS LIMA",
+          "faturamento": 7456.69
+        },
+        {
+          "rca": "156",
+          "estado": "RJ",
+          "nome": "MARILENA TRAGEL",
+          "faturamento": 6874.44
+        },
+        {
+          "rca": "378",
+          "estado": "RJ",
+          "nome": "FABIO VALOTTI",
+          "faturamento": 5445.53
+        },
+        {
+          "rca": "412",
+          "estado": "RJ",
+          "nome": "BARBARA CABRAL",
+          "faturamento": 5336.93
+        },
+        {
+          "rca": "335",
+          "estado": "ES",
+          "nome": "MARA DEPOLLI",
+          "faturamento": 4843.93
+        },
+        {
+          "rca": "402",
+          "estado": "ES",
+          "nome": "GILDO ADRIANO",
+          "faturamento": 4410.86
+        },
+        {
+          "rca": "471",
+          "estado": "RJ",
+          "nome": "ANA CLARA FASSANO",
+          "faturamento": 4116.51
+        }
+      ],
+      "top_produtos": [
+        {
+          "produto": "PINATI SIMPLE WHEY CHOCO BELGA 16X35G",
+          "faturamento": 36380.91,
+          "quantidade": 843.0
+        },
+        {
+          "produto": "PINATI DB WHEY AVELA E LEITE 12X50G",
+          "faturamento": 23045.59,
+          "quantidade": 325.0
+        },
+        {
+          "produto": "PINATI SIMPLE WHEY CARAM. SALGADO 16X35G",
+          "faturamento": 22847.61,
+          "quantidade": 524.0
+        },
+        {
+          "produto": "PINATI SIMPLE WHEY PISTACHE 16X35G",
+          "faturamento": 19656.14,
+          "quantidade": 452.0
+        },
+        {
+          "produto": "PINATI DOUBLE BAR BRIGADEIRO 32X35G",
+          "faturamento": 17738.6,
+          "quantidade": 174.0
+        },
+        {
+          "produto": "PINATI SLIM WHEY BEIJINHO 16X35G",
+          "faturamento": 14972.17,
+          "quantidade": 297.0
+        },
+        {
+          "produto": "PINATI NUTS BANANA 20X30G",
+          "faturamento": 14840.2,
+          "quantidade": 379.0
+        },
+        {
+          "produto": "PINATI NUTS ORIGINAL 20X30G",
+          "faturamento": 14434.32,
+          "quantidade": 367.0
+        },
+        {
+          "produto": "PINATI NUTS ZERO ORIGINAL 16X4X25G",
+          "faturamento": 13051.24,
+          "quantidade": 146.0
+        },
+        {
+          "produto": "PINATI NUTS ZERO COCO 16X4X25G",
+          "faturamento": 11908.48,
+          "quantidade": 134.0
+        },
+        {
+          "produto": "PINATI DOUBLE BAR BRIGADEIRO 16X35G",
+          "faturamento": 10910.41,
+          "quantidade": 211.0
+        },
+        {
+          "produto": "PINATI NUTS ORIGINAL 16X4X30G",
+          "faturamento": 10325.23,
+          "quantidade": 115.0
+        },
+        {
+          "produto": "PINATI DOUBLE BAR BANANA AMENDOIM 16X35G",
+          "faturamento": 10312.37,
+          "quantidade": 206.0
+        },
+        {
+          "produto": "PINATI DOUBLE BAR BANANA AMENDOIM 32X35G",
+          "faturamento": 10258.17,
+          "quantidade": 102.0
+        },
+        {
+          "produto": "PINATI DB WHEY FRAPE DE COCO 12X50G",
+          "faturamento": 10010.21,
+          "quantidade": 140.0
+        }
+      ],
+      "posicao": 28
     },
     {
       "fantasia": "INTERFOOD",
-      "faturamento_ytd": 307812.09,
-      "participacao_pct": 0.48,
-      "media_mensal": 43973.16,
-      "clientes_positivados": 295,
+      "faturamento_ytd": 339968.24,
+      "participacao_pct": 0.43,
+      "media_mensal": 37774.25,
+      "clientes_positivados": 328,
       "por_mes": {
         "2026-01": 39622.2,
         "2026-02": 18320.17,
@@ -6891,7 +7557,9 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
         "2026-04": 104405.43,
         "2026-05": 13899.62,
         "2026-06": 70273.74,
-        "2026-07": 35146.32
+        "2026-07": 35146.32,
+        "2026-08": 28372.65,
+        "2026-09": 3783.5
       },
       "top_clientes": [
         {
@@ -6905,6 +7573,12 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "estado": "SP",
           "nome": "OBA HORTIFRUTI",
           "faturamento": 15472.14
+        },
+        {
+          "codcli": "16159",
+          "estado": "RJ",
+          "nome": "RIO SUL - PENHA CIRCULAR",
+          "faturamento": 9061.2
         },
         {
           "codcli": "95375",
@@ -6943,6 +7617,18 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "faturamento": 4315.2
         },
         {
+          "codcli": "77422",
+          "estado": "RJ",
+          "nome": "LUCRE BEM MERCEARIA - BANGU",
+          "faturamento": 3955.8
+        },
+        {
+          "codcli": "90632",
+          "estado": "RJ",
+          "nome": "CAIS E PORTO GASTRONOMIA",
+          "faturamento": 3923.0
+        },
+        {
           "codcli": "90148",
           "estado": "RJ",
           "nome": "MATHEUS FONSECA PEREIRA",
@@ -6955,34 +7641,16 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "faturamento": 3506.1
         },
         {
-          "codcli": "77422",
-          "estado": "RJ",
-          "nome": "LUCRE BEM MERCEARIA - BANGU",
-          "faturamento": 3452.4
-        },
-        {
           "codcli": "2909",
           "estado": "RJ",
           "nome": "FILIAL GRANDE RIO",
           "faturamento": 3236.4
         },
         {
-          "codcli": "90632",
-          "estado": "RJ",
-          "nome": "CAIS E PORTO GASTRONOMIA",
-          "faturamento": 3226.4
-        },
-        {
           "codcli": "7755",
           "estado": "RJ",
           "nome": "IMBATIVEL SUPERMERCADOS - PIRATININGA",
           "faturamento": 3131.52
-        },
-        {
-          "codcli": "69759",
-          "estado": "RJ",
-          "nome": "ATACADAO DAS BEBIDAS",
-          "faturamento": 3090.88
         }
       ],
       "top_vendedores": [
@@ -6996,31 +7664,37 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "rca": "155",
           "estado": "RJ",
           "nome": "RAPHAEL SANTOS",
-          "faturamento": 25936.0
+          "faturamento": 27657.7
         },
         {
           "rca": "391",
           "estado": "SP",
           "nome": "ANDRE SILVA",
-          "faturamento": 24383.64
+          "faturamento": 25403.54
         },
         {
           "rca": "379",
           "estado": "RJ",
           "nome": "JORGE MACIEL",
-          "faturamento": 18899.0
+          "faturamento": 20427.3
+        },
+        {
+          "rca": "158",
+          "estado": "RJ",
+          "nome": "JOSE MARCELO CARDOSO",
+          "faturamento": 19098.16
         },
         {
           "rca": "156",
           "estado": "RJ",
           "nome": "MARILENA TRAGEL",
-          "faturamento": 16010.9
+          "faturamento": 16790.1
         },
         {
           "rca": "159",
           "estado": "RJ",
           "nome": "GISELLE BARFER",
-          "faturamento": 14945.4
+          "faturamento": 16508.2
         },
         {
           "rca": "426",
@@ -7029,16 +7703,22 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "faturamento": 13135.44
         },
         {
+          "rca": "419",
+          "estado": "RJ",
+          "nome": "NÁTALI DE OLIVEIRA",
+          "faturamento": 11240.3
+        },
+        {
           "rca": "317",
           "estado": "SP",
           "nome": "ROBSON DA SILVA",
           "faturamento": 10969.92
         },
         {
-          "rca": "158",
+          "rca": "144",
           "estado": "RJ",
-          "nome": "JOSE MARCELO CARDOSO",
-          "faturamento": 10036.96
+          "nome": "DIOGO RAPOSO",
+          "faturamento": 10834.9
         },
         {
           "rca": "450",
@@ -7047,28 +7727,16 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "faturamento": 9524.8
         },
         {
-          "rca": "144",
+          "rca": "471",
           "estado": "RJ",
-          "nome": "DIOGO RAPOSO",
-          "faturamento": 9174.8
-        },
-        {
-          "rca": "419",
-          "estado": "RJ",
-          "nome": "NÁTALI DE OLIVEIRA",
-          "faturamento": 7943.8
+          "nome": "ANA CLARA FASSANO",
+          "faturamento": 8480.58
         },
         {
           "rca": "438",
           "estado": "SP",
           "nome": "MARCIA RITA",
           "faturamento": 6688.8
-        },
-        {
-          "rca": "471",
-          "estado": "RJ",
-          "nome": "ANA CLARA FASSANO",
-          "faturamento": 6496.78
         },
         {
           "rca": "153",
@@ -7080,28 +7748,28 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
       "top_produtos": [
         {
           "produto": "AMARULA CREAM 12X750ML +6 COPOS DUBAI",
-          "faturamento": 100085.44,
-          "quantidade": 93.0
+          "faturamento": 104105.14,
+          "quantidade": 97.0
         },
         {
           "produto": "LICOR COINTREAU 700 ML",
-          "faturamento": 49340.03,
-          "quantidade": 518.0
+          "faturamento": 59948.63,
+          "quantidade": 642.0
         },
         {
           "produto": "AMARULA C LIQUEUR 750 ML",
-          "faturamento": 41174.39,
-          "quantidade": 441.0
+          "faturamento": 48933.34,
+          "quantidade": 529.0
         },
         {
           "produto": "LIQUEUR JAGERMEISTER 700 ML",
-          "faturamento": 35591.8,
-          "quantidade": 359.0
+          "faturamento": 37877.6,
+          "quantidade": 381.0
         },
         {
           "produto": "AMARULA C LIQUEUR 750 ML + 1 COPO",
-          "faturamento": 24156.8,
-          "quantidade": 263.0
+          "faturamento": 29401.3,
+          "quantidade": 318.0
         },
         {
           "produto": "LIQUEUR C AMARULA ETHIOPIAN COFFEE",
@@ -7110,8 +7778,8 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
         },
         {
           "produto": "LICOR JAGERMEISTER 700 ML",
-          "faturamento": 10140.0,
-          "quantidade": 90.0
+          "faturamento": 10381.8,
+          "quantidade": 92.0
         },
         {
           "produto": "KIT AMARULA COFFEE 750ML +1 COPO DUBAI",
@@ -7125,8 +7793,13 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
         },
         {
           "produto": "BITTER ANGOSTURA AROMATIC 100 ML",
-          "faturamento": 3027.46,
-          "quantidade": 30.0
+          "faturamento": 3257.26,
+          "quantidade": 32.0
+        },
+        {
+          "produto": "BITTER ANGOSTURA AROMATIC 200ML",
+          "faturamento": 1908.24,
+          "quantidade": 11.0
         },
         {
           "produto": "LICOR AMARULA VEGAN 750 ML",
@@ -7139,560 +7812,24 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "quantidade": 13.0
         },
         {
-          "produto": "BITTER ANGOSTURA AROMATIC 200ML",
-          "faturamento": 1152.24,
-          "quantidade": 7.0
-        },
-        {
           "produto": "CONHAQUE REMY MARTIN XO GF 700 ML",
           "faturamento": 1149.5,
           "quantidade": 1.0
         },
         {
-          "produto": "AMARULA C LIQUEUR 12X50ML",
-          "faturamento": 611.6,
-          "quantidade": 4.0
-        }
-      ],
-      "posicao": 27
-    },
-    {
-      "fantasia": "PINATI",
-      "faturamento_ytd": 300296.93,
-      "participacao_pct": 0.47,
-      "media_mensal": 42899.56,
-      "clientes_positivados": 488,
-      "por_mes": {
-        "2026-01": 36249.83,
-        "2026-02": 54303.7,
-        "2026-03": 65139.0,
-        "2026-04": 42427.76,
-        "2026-05": 38548.6,
-        "2026-06": 28976.15,
-        "2026-07": 34651.87
-      },
-      "top_clientes": [
-        {
-          "codcli": "85424",
-          "estado": "ES",
-          "nome": "SUPERMERCADOS BH",
-          "faturamento": 11410.49
-        },
-        {
-          "codcli": "91292",
-          "estado": "ES",
-          "nome": "SUPERMERCADOS BH",
-          "faturamento": 10933.37
-        },
-        {
-          "codcli": "85436",
-          "estado": "ES",
-          "nome": "SUPERMERCADOS BH",
-          "faturamento": 10718.3
-        },
-        {
-          "codcli": "85418",
-          "estado": "ES",
-          "nome": "SUPERMERCADOS BH",
-          "faturamento": 9886.25
-        },
-        {
-          "codcli": "85420",
-          "estado": "ES",
-          "nome": "SUPERMERCADOS BH",
-          "faturamento": 8185.73
-        },
-        {
-          "codcli": "85438",
-          "estado": "ES",
-          "nome": "SUPERMERCADOS BH",
-          "faturamento": 6518.7
-        },
-        {
-          "codcli": "85410",
-          "estado": "ES",
-          "nome": "SUPERMERCADOS BH",
-          "faturamento": 5589.63
-        },
-        {
-          "codcli": "20941",
-          "estado": "ES",
-          "nome": "SUPERMERCADOS  PERIM",
-          "faturamento": 4896.0
-        },
-        {
-          "codcli": "76075",
-          "estado": "ES",
-          "nome": "SUPERMERCADO CARONE",
-          "faturamento": 4821.12
-        },
-        {
-          "codcli": "20942",
-          "estado": "ES",
-          "nome": "SUPERMERCADOS  PERIM",
-          "faturamento": 4602.88
-        },
-        {
-          "codcli": "85437",
-          "estado": "ES",
-          "nome": "SUPERMERCADOS BH",
-          "faturamento": 4579.78
-        },
-        {
-          "codcli": "85403",
-          "estado": "ES",
-          "nome": "SUPERMERCADOS BH",
-          "faturamento": 4464.25
-        },
-        {
-          "codcli": "76076",
-          "estado": "ES",
-          "nome": "SUPERMERCADO CARONE",
-          "faturamento": 4196.16
-        },
-        {
-          "codcli": "85407",
-          "estado": "ES",
-          "nome": "SUPERMERCADOS BH",
-          "faturamento": 4041.7
-        },
-        {
-          "codcli": "71515",
-          "estado": "ES",
-          "nome": "ORIUNDI SUPERMERCADOS",
-          "faturamento": 3976.32
-        }
-      ],
-      "top_vendedores": [
-        {
-          "rca": "388",
-          "estado": "ES",
-          "nome": "EUDES MORGAN",
-          "faturamento": 163836.69
-        },
-        {
-          "rca": "336",
-          "estado": "ES",
-          "nome": "JEAN MENEZES",
-          "faturamento": 15905.43
-        },
-        {
-          "rca": "442",
-          "estado": "ES",
-          "nome": "RAQUEL ARAUJO",
-          "faturamento": 12328.46
-        },
-        {
-          "rca": "260",
-          "estado": "ES",
-          "nome": "DOUGLAS SCHADE",
-          "faturamento": 11077.9
-        },
-        {
-          "rca": "257",
-          "estado": "ES",
-          "nome": "TIAGO SILVA",
-          "faturamento": 10662.54
-        },
-        {
-          "rca": "370",
-          "estado": "ES",
-          "nome": "FRANZ BENEVIDES",
-          "faturamento": 9631.87
-        },
-        {
-          "rca": "508",
-          "estado": "ES",
-          "nome": "MARCELO DE SOUZA",
-          "faturamento": 9628.8
-        },
-        {
-          "rca": "431",
-          "estado": "RJ",
-          "nome": "ADEILSON GONÇALVEZ",
-          "faturamento": 8285.5
-        },
-        {
-          "rca": "265",
-          "estado": "ES",
-          "nome": "LUCAS LIMA",
-          "faturamento": 7456.69
-        },
-        {
-          "rca": "156",
-          "estado": "RJ",
-          "nome": "MARILENA TRAGEL",
-          "faturamento": 6633.36
-        },
-        {
-          "rca": "378",
-          "estado": "RJ",
-          "nome": "FABIO VALOTTI",
-          "faturamento": 5445.53
-        },
-        {
-          "rca": "412",
-          "estado": "RJ",
-          "nome": "BARBARA CABRAL",
-          "faturamento": 5238.13
-        },
-        {
-          "rca": "335",
-          "estado": "ES",
-          "nome": "MARA DEPOLLI",
-          "faturamento": 4843.93
-        },
-        {
-          "rca": "402",
-          "estado": "ES",
-          "nome": "GILDO ADRIANO",
-          "faturamento": 4410.86
-        },
-        {
-          "rca": "471",
-          "estado": "RJ",
-          "nome": "ANA CLARA FASSANO",
-          "faturamento": 3960.91
-        }
-      ],
-      "top_produtos": [
-        {
-          "produto": "PINATI SIMPLE WHEY CHOCO BELGA 16X35G",
-          "faturamento": 34398.81,
-          "quantidade": 794.0
-        },
-        {
-          "produto": "PINATI SIMPLE WHEY CARAM. SALGADO 16X35G",
-          "faturamento": 21549.61,
-          "quantidade": 492.0
-        },
-        {
-          "produto": "PINATI DB WHEY AVELA E LEITE 12X50G",
-          "faturamento": 19693.32,
-          "quantidade": 277.0
-        },
-        {
-          "produto": "PINATI SIMPLE WHEY PISTACHE 16X35G",
-          "faturamento": 19376.24,
-          "quantidade": 445.0
-        },
-        {
-          "produto": "PINATI DOUBLE BAR BRIGADEIRO 32X35G",
-          "faturamento": 17738.6,
-          "quantidade": 174.0
-        },
-        {
-          "produto": "PINATI SLIM WHEY BEIJINHO 16X35G",
-          "faturamento": 14972.17,
-          "quantidade": 297.0
-        },
-        {
-          "produto": "PINATI NUTS ORIGINAL 20X30G",
-          "faturamento": 12455.52,
-          "quantidade": 316.0
-        },
-        {
-          "produto": "PINATI NUTS BANANA 20X30G",
-          "faturamento": 12215.4,
-          "quantidade": 312.0
-        },
-        {
-          "produto": "PINATI NUTS ZERO ORIGINAL 16X4X25G",
-          "faturamento": 12074.44,
-          "quantidade": 135.0
-        },
-        {
-          "produto": "PINATI NUTS ZERO COCO 16X4X25G",
-          "faturamento": 11464.48,
-          "quantidade": 129.0
-        },
-        {
-          "produto": "PINATI NUTS ORIGINAL 16X4X30G",
-          "faturamento": 10325.23,
-          "quantidade": 115.0
-        },
-        {
-          "produto": "PINATI DOUBLE BAR BANANA AMENDOIM 32X35G",
-          "faturamento": 10258.17,
-          "quantidade": 102.0
-        },
-        {
-          "produto": "PINATI DB WHEY FRAPE DE COCO 12X50G",
-          "faturamento": 9796.61,
-          "quantidade": 137.0
-        },
-        {
-          "produto": "PINATI NUTS COCO 20X30G",
-          "faturamento": 9356.09,
-          "quantidade": 234.0
-        },
-        {
-          "produto": "PINATI NUTS COCO 16X4X25G",
-          "faturamento": 9299.82,
-          "quantidade": 104.0
-        }
-      ],
-      "posicao": 28
-    },
-    {
-      "fantasia": "CRS BRANDS",
-      "faturamento_ytd": 286713.72,
-      "participacao_pct": 0.45,
-      "media_mensal": 40959.1,
-      "clientes_positivados": 300,
-      "por_mes": {
-        "2026-01": 369.0,
-        "2026-02": 77.4,
-        "2026-03": 1502.82,
-        "2026-04": 1372.48,
-        "2026-05": 1261.86,
-        "2026-06": 73757.26,
-        "2026-07": 208372.9
-      },
-      "top_clientes": [
-        {
-          "codcli": "47507",
-          "estado": "SP",
-          "nome": "ATACADISTA PROPOSITO",
-          "faturamento": 23616.0
-        },
-        {
-          "codcli": "48318",
-          "estado": "SP",
-          "nome": "KAÇULA CENTRO DE DISTRIBUIÇÃO",
-          "faturamento": 14697.96
-        },
-        {
-          "codcli": "31513",
-          "estado": "SP",
-          "nome": "VENTUCCI",
-          "faturamento": 13186.8
-        },
-        {
-          "codcli": "34090",
-          "estado": "SP",
-          "nome": "PEDREIRA COMERCIO ATACADISTA E VAREJISTA DE ALIMENTOS",
-          "faturamento": 11001.36
-        },
-        {
-          "codcli": "49543",
-          "estado": "SP",
-          "nome": "MERCADO FONTE NOVA BELA VISTA",
-          "faturamento": 10788.0
-        },
-        {
-          "codcli": "49494",
-          "estado": "SP",
-          "nome": "COMERCIO DE BEBIDAS JAU",
-          "faturamento": 10428.0
-        },
-        {
-          "codcli": "51927",
-          "estado": "SP",
-          "nome": "SUPER SETE SUPERMERCADO",
-          "faturamento": 10428.0
-        },
-        {
-          "codcli": "50496",
-          "estado": "SP",
-          "nome": "JB MERCADO DE BEBIDAS",
-          "faturamento": 10428.0
-        },
-        {
-          "codcli": "52013",
-          "estado": "SP",
-          "nome": "SUPERMERCADO SUPER JOSE",
-          "faturamento": 9277.68
-        },
-        {
-          "codcli": "49844",
-          "estado": "SP",
-          "nome": "NOVA CENTRAL COMERCIO DE ALIMENTOS LTDA",
-          "faturamento": 8160.0
-        },
-        {
-          "codcli": "52007",
-          "estado": "SP",
-          "nome": "FILIAL 1",
-          "faturamento": 5933.4
-        },
-        {
-          "codcli": "52010",
-          "estado": "SP",
-          "nome": "FILIAL 2",
-          "faturamento": 4746.72
-        },
-        {
-          "codcli": "52011",
-          "estado": "SP",
-          "nome": "SUPERMERCADO SUPER JOSE IPANEMA",
-          "faturamento": 4746.72
-        },
-        {
-          "codcli": "51790",
-          "estado": "SP",
-          "nome": "ADEGA MEIRELES",
-          "faturamento": 4435.44
-        },
-        {
-          "codcli": "90761",
-          "estado": "RJ",
-          "nome": "ROBSON WEBER DE CARVALHO",
-          "faturamento": 3780.0
-        }
-      ],
-      "top_vendedores": [
-        {
-          "rca": "371",
-          "estado": "SP",
-          "nome": "CARLOS DE ALMEIDA",
-          "faturamento": 36418.2
-        },
-        {
-          "rca": "426",
-          "estado": "SP",
-          "nome": "ADER ALONSO",
-          "faturamento": 29451.36
-        },
-        {
-          "rca": "468",
-          "estado": "SP",
-          "nome": "RENATO JUNIOR",
-          "faturamento": 28931.12
-        },
-        {
-          "rca": "508",
-          "estado": "SP",
-          "nome": "PAULO SALES",
-          "faturamento": 28264.56
-        },
-        {
-          "rca": "433",
-          "estado": "SP",
-          "nome": "MANUELA ZAPPACOSTA",
-          "faturamento": 26998.92
-        },
-        {
-          "rca": "486",
-          "estado": "SP",
-          "nome": "LEONARDO FLOREZI",
-          "faturamento": 14056.25
-        },
-        {
-          "rca": "467",
-          "estado": "SP",
-          "nome": "MARLENE RODRIGUES",
-          "faturamento": 13185.6
-        },
-        {
-          "rca": "496",
-          "estado": "SP",
-          "nome": "DEMETRIUS PELEGRINI",
-          "faturamento": 11001.36
-        },
-        {
-          "rca": "425",
-          "estado": "SP",
-          "nome": "BRUNO BARBOSA",
-          "faturamento": 7167.14
-        },
-        {
-          "rca": "489",
-          "estado": "SP",
-          "nome": "FERNANDO BERTIN",
-          "faturamento": 6365.16
-        },
-        {
-          "rca": "512",
-          "estado": "SP",
-          "nome": "WILLIAM GONCALVES",
-          "faturamento": 6317.4
-        },
-        {
-          "rca": "144",
-          "estado": "RJ",
-          "nome": "DIOGO RAPOSO",
-          "faturamento": 5636.7
-        },
-        {
-          "rca": "477",
-          "estado": "SP",
-          "nome": "LUCIANO TOSCHI",
-          "faturamento": 5073.39
-        },
-        {
-          "rca": "461",
-          "estado": "SP",
-          "nome": "SUELY SANTOS",
-          "faturamento": 5068.92
-        },
-        {
-          "rca": "493",
-          "estado": "SP",
-          "nome": "CAROLINA SOUZA",
-          "faturamento": 4632.76
-        }
-      ],
-      "top_produtos": [
-        {
-          "produto": "VINHO DOM BOSCO TINTO SUAVE 750ML",
-          "faturamento": 181160.49,
-          "quantidade": 20493.0
-        },
-        {
-          "produto": "AGUARDENTE OLD CESAR 88 965 ML",
-          "faturamento": 49521.07,
-          "quantidade": 4812.0
-        },
-        {
-          "produto": "WHISKY CHANCELER 1L",
-          "faturamento": 29864.06,
-          "quantidade": 2202.0
-        },
-        {
-          "produto": "VINHO DOM BOSCO TINTO SECO 750ML",
-          "faturamento": 20966.5,
-          "quantidade": 2330.0
-        },
-        {
-          "produto": "CHANCELER SABOR CANELA 1000ML",
-          "faturamento": 2080.3,
-          "quantidade": 155.0
-        },
-        {
-          "produto": "CHANCELER SABOR MEL 1000ML",
-          "faturamento": 1830.1,
-          "quantidade": 137.0
-        },
-        {
-          "produto": "XAROPE DE GROSELHA CERESER G&G PET 1LT",
-          "faturamento": 606.9,
-          "quantidade": 51.0
-        },
-        {
-          "produto": "ESPUMANTE GEORGES AUBERT BRUT 750ML",
-          "faturamento": 329.4,
-          "quantidade": 6.0
-        },
-        {
-          "produto": "ESPUMANTE GEORGES AUBERT MOSCATEL 750ML",
-          "faturamento": 305.4,
-          "quantidade": 6.0
-        },
-        {
-          "produto": "RUM CAPITAN CORTEZ CARTA BRANCA 1L",
-          "faturamento": 49.5,
-          "quantidade": 3.0
+          "produto": "LICOR COINTREAU 700 ML + 1 TACA",
+          "faturamento": 1011.0,
+          "quantidade": 10.0
         }
       ],
       "posicao": 29
     },
     {
       "fantasia": "YVY",
-      "faturamento_ytd": 255681.56,
-      "participacao_pct": 0.4,
-      "media_mensal": 36525.94,
-      "clientes_positivados": 48,
+      "faturamento_ytd": 297743.62,
+      "participacao_pct": 0.37,
+      "media_mensal": 33082.62,
+      "clientes_positivados": 52,
       "por_mes": {
         "2026-01": 36672.28,
         "2026-02": 17007.06,
@@ -7700,26 +7837,28 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
         "2026-04": 36832.72,
         "2026-05": 38450.72,
         "2026-06": 39623.48,
-        "2026-07": 80058.5
+        "2026-07": 80058.5,
+        "2026-08": 41094.76,
+        "2026-09": 967.3
       },
       "top_clientes": [
         {
           "codcli": "30231",
           "estado": "MG",
           "nome": "ORGANIZACAO VERDEMAR LTDA",
-          "faturamento": 101552.04
+          "faturamento": 128052.84
         },
         {
           "codcli": "37356",
           "estado": "MG",
           "nome": "DMA DISTRIBUIDORA S/A",
-          "faturamento": 24183.78
+          "faturamento": 26696.58
         },
         {
           "codcli": "33176",
           "estado": "MG",
           "nome": "HELP BAR",
-          "faturamento": 22463.7
+          "faturamento": 24104.0
         },
         {
           "codcli": "33139",
@@ -7728,16 +7867,16 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "faturamento": 14881.68
         },
         {
+          "codcli": "34283",
+          "estado": "MG",
+          "nome": "ARCA DRINKS",
+          "faturamento": 13131.09
+        },
+        {
           "codcli": "36409",
           "estado": "MG",
           "nome": "FR NEGOCIOS LTDA",
           "faturamento": 11620.8
-        },
-        {
-          "codcli": "34283",
-          "estado": "MG",
-          "nome": "ARCA DRINKS",
-          "faturamento": 10165.4
         },
         {
           "codcli": "30723",
@@ -7749,7 +7888,7 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "codcli": "33951",
           "estado": "MG",
           "nome": "RESTAURANTE LA TRAVIATA",
-          "faturamento": 7780.8
+          "faturamento": 8930.1
         },
         {
           "codcli": "33466",
@@ -7782,16 +7921,16 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "faturamento": 2733.3
         },
         {
+          "codcli": "38624",
+          "estado": "MG",
+          "nome": "BRUSK DRINKS",
+          "faturamento": 2657.16
+        },
+        {
           "codcli": "36812",
           "estado": "MG",
           "nome": "DRINK & ART COQUETEIS",
           "faturamento": 2615.4
-        },
-        {
-          "codcli": "29613",
-          "estado": "MG",
-          "nome": "O JARDIM",
-          "faturamento": 2274.3
         }
       ],
       "top_vendedores": [
@@ -7799,25 +7938,25 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "rca": "360",
           "estado": "MG",
           "nome": "LEANDRO OLIVEIRA",
-          "faturamento": 119912.64
+          "faturamento": 148926.24
         },
         {
           "rca": "327",
           "estado": "MG",
           "nome": "JOÃO SANTOS",
-          "faturamento": 55222.0
+          "faturamento": 61947.6
+        },
+        {
+          "rca": "344",
+          "estado": "MG",
+          "nome": "TIAGO ANDRADE",
+          "faturamento": 25839.75
         },
         {
           "rca": "542",
           "estado": "MG",
           "nome": "LUIZ FERNANDO SALGADO",
           "faturamento": 21042.78
-        },
-        {
-          "rca": "344",
-          "estado": "MG",
-          "nome": "TIAGO ANDRADE",
-          "faturamento": 20954.3
         },
         {
           "rca": "335",
@@ -7847,7 +7986,19 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "rca": "428",
           "estado": "SP",
           "nome": "MARIO RAFAEL FERRARI",
-          "faturamento": 329.4
+          "faturamento": 658.8
+        },
+        {
+          "rca": "371",
+          "estado": "SP",
+          "nome": "CARLOS DE ALMEIDA",
+          "faturamento": 658.8
+        },
+        {
+          "rca": "486",
+          "estado": "SP",
+          "nome": "LEONARDO FLOREZI",
+          "faturamento": 449.21
         },
         {
           "rca": "362",
@@ -7858,29 +8009,29 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
       ],
       "top_produtos": [
         {
-          "produto": "YVY DESTILADO GIN MAR GF 750ML",
-          "faturamento": 61359.54,
-          "quantidade": 1262.0
+          "produto": "YVY DESTILADO GIN MAR  LT 710ML",
+          "faturamento": 79834.79,
+          "quantidade": 2398.0
         },
         {
           "produto": "YVY DESTILADO GIN AR LT 710ML",
-          "faturamento": 59928.9,
-          "quantidade": 2391.0
+          "faturamento": 67876.8,
+          "quantidade": 2662.0
         },
         {
-          "produto": "YVY DESTILADO GIN MAR  LT 710ML",
-          "faturamento": 57159.8,
-          "quantidade": 1606.0
+          "produto": "YVY DESTILADO GIN MAR GF 750ML",
+          "faturamento": 66804.9,
+          "quantidade": 1366.0
         },
         {
           "produto": "YVY DESTILADO GIN TERRA LT 710ML",
-          "faturamento": 45693.24,
-          "quantidade": 1932.0
+          "faturamento": 49459.44,
+          "quantidade": 2070.0
         },
         {
           "produto": "YVY DESTILADO GIN TERRA GF 750ML",
-          "faturamento": 14074.62,
-          "quantidade": 342.0
+          "faturamento": 14625.42,
+          "quantidade": 354.0
         },
         {
           "produto": "YVY DESTILADO GIN AR  GF 750ML",
@@ -7889,13 +8040,13 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
         },
         {
           "produto": "YVY DESTILADO VODKA 710ML",
-          "faturamento": 3481.02,
-          "quantidade": 98.0
+          "faturamento": 3560.82,
+          "quantidade": 100.0
         },
         {
           "produto": "YVY DESTILADO VODKA 750ML",
-          "faturamento": 2165.82,
-          "quantidade": 37.0
+          "faturamento": 2277.62,
+          "quantidade": 39.0
         },
         {
           "produto": "YVY DESTILADO GIN MAR 6X710ML LT",
@@ -7903,487 +8054,44 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "quantidade": 10.0
         },
         {
-          "produto": "YVY DESTILADO GIN MAR 750ML",
-          "faturamento": 988.2,
-          "quantidade": 18.0
-        },
-        {
           "produto": "YVY DESTILADO CACHAÇA 750ML",
-          "faturamento": 988.2,
-          "quantidade": 18.0
+          "faturamento": 1703.9,
+          "quantidade": 31.0
         },
         {
           "produto": "YVY DESTILADO RUM 750ML",
-          "faturamento": 658.8,
-          "quantidade": 12.0
+          "faturamento": 1100.0,
+          "quantidade": 20.0
+        },
+        {
+          "produto": "YVY DESTILADO GIN MAR 750ML",
+          "faturamento": 1100.0,
+          "quantidade": 20.0
         },
         {
           "produto": "YVY DESTILADO GIN TERRA 750ML",
-          "faturamento": 658.8,
-          "quantidade": 12.0
+          "faturamento": 715.7,
+          "quantidade": 13.0
+        },
+        {
+          "produto": "YVY DESTILADO RUM GF 750ML",
+          "faturamento": 231.5,
+          "quantidade": 5.0
         },
         {
           "produto": "YVY DESTILADO RUM LT 710ML",
           "faturamento": 119.7,
           "quantidade": 3.0
-        },
-        {
-          "produto": "YVY DESTILADO RUM GF 750ML",
-          "faturamento": 71.9,
-          "quantidade": 1.0
         }
       ],
       "posicao": 30
     },
     {
-      "fantasia": "BROWN-FORMAN",
-      "faturamento_ytd": 252735.48,
-      "participacao_pct": 0.4,
-      "media_mensal": 36105.07,
-      "clientes_positivados": 95,
-      "por_mes": {
-        "2026-01": 18854.5,
-        "2026-02": 22649.6,
-        "2026-03": 42482.18,
-        "2026-04": 40106.1,
-        "2026-05": 36555.3,
-        "2026-06": 62839.2,
-        "2026-07": 29248.6
-      },
-      "top_clientes": [
-        {
-          "codcli": "30530",
-          "estado": "MG",
-          "nome": "DISTRIBUIDORA CAMPOS",
-          "faturamento": 103021.6
-        },
-        {
-          "codcli": "30538",
-          "estado": "MG",
-          "nome": "DAKI OFFICE BELO HORIZONTE",
-          "faturamento": 71226.0
-        },
-        {
-          "codcli": "39110",
-          "estado": "MG",
-          "nome": "EMPORIO LOS MANOS",
-          "faturamento": 6331.0
-        },
-        {
-          "codcli": "33139",
-          "estado": "MG",
-          "nome": "CORDEIRO SUPERMERCADOS",
-          "faturamento": 5670.0
-        },
-        {
-          "codcli": "33955",
-          "estado": "MG",
-          "nome": "TAUA RESORT CAETE",
-          "faturamento": 4760.4
-        },
-        {
-          "codcli": "35597",
-          "estado": "MG",
-          "nome": "MULTIPLACE STONE HOUSE",
-          "faturamento": 3576.7
-        },
-        {
-          "codcli": "30105",
-          "estado": "MG",
-          "nome": "RESTAURANTE E EMPORIO MORADA MEXICANA EIRELI",
-          "faturamento": 2812.3
-        },
-        {
-          "codcli": "30219",
-          "estado": "MG",
-          "nome": "MAMAE BEBIDAS",
-          "faturamento": 2655.0
-        },
-        {
-          "codcli": "30347",
-          "estado": "MG",
-          "nome": "DUARTE DISTRIBUIDORA",
-          "faturamento": 2458.2
-        },
-        {
-          "codcli": "34348",
-          "estado": "MG",
-          "nome": "SUPERMERCADO PRISMA",
-          "faturamento": 2158.3
-        },
-        {
-          "codcli": "37776",
-          "estado": "MG",
-          "nome": "QUIOSQUE JN INDEPENDENCIA DO CHOPP",
-          "faturamento": 1898.08
-        },
-        {
-          "codcli": "37718",
-          "estado": "MG",
-          "nome": "PARANAIBA VALE DAS ORQUIDEAS ALIMENTOS",
-          "faturamento": 1834.2
-        },
-        {
-          "codcli": "39542",
-          "estado": "MG",
-          "nome": "36.947.510 JOAO PAULO DE FREITAS GODINHO",
-          "faturamento": 1798.5
-        },
-        {
-          "codcli": "35114",
-          "estado": "MG",
-          "nome": "ORGANIZACOES PAIS FILHOS",
-          "faturamento": 1647.7
-        },
-        {
-          "codcli": "31632",
-          "estado": "MG",
-          "nome": "TONEL BEBIDAS LTDA",
-          "faturamento": 1558.8
-        }
-      ],
-      "top_vendedores": [
-        {
-          "rca": "349",
-          "estado": "MG",
-          "nome": "WILLIAM ALVES DA SILVA",
-          "faturamento": 111183.9
-        },
-        {
-          "rca": "354",
-          "estado": "MG",
-          "nome": "MATHEUS DE SOUZA",
-          "faturamento": 80445.8
-        },
-        {
-          "rca": "327",
-          "estado": "MG",
-          "nome": "JOÃO SANTOS",
-          "faturamento": 23948.0
-        },
-        {
-          "rca": "362",
-          "estado": "MG",
-          "nome": "BRUNA CASTRO MELLO",
-          "faturamento": 16963.5
-        },
-        {
-          "rca": "331",
-          "estado": "MG",
-          "nome": "SAVIO NETO",
-          "faturamento": 10190.98
-        },
-        {
-          "rca": "360",
-          "estado": "MG",
-          "nome": "LEANDRO OLIVEIRA",
-          "faturamento": 5670.0
-        },
-        {
-          "rca": "344",
-          "estado": "MG",
-          "nome": "TIAGO ANDRADE",
-          "faturamento": 3180.4
-        },
-        {
-          "rca": "335",
-          "estado": "MG",
-          "nome": "JANAIRA MARQUES",
-          "faturamento": 1152.9
-        }
-      ],
-      "top_produtos": [
-        {
-          "produto": "WHISKY JACK DANIELS 1L",
-          "faturamento": 97469.68,
-          "quantidade": 753.0
-        },
-        {
-          "produto": "WHISKY JACK DANIELS APPLE 1L",
-          "faturamento": 71660.8,
-          "quantidade": 562.0
-        },
-        {
-          "produto": "JACK DANIELS HONEY 1 L",
-          "faturamento": 41761.5,
-          "quantidade": 325.0
-        },
-        {
-          "produto": "WHISKY JACK DANIELS FIRE 1000 ML",
-          "faturamento": 12335.8,
-          "quantidade": 96.0
-        },
-        {
-          "produto": "WHISKY JACK DANIELS 700 ML",
-          "faturamento": 8982.4,
-          "quantidade": 96.0
-        },
-        {
-          "produto": "WHISKY JACK DANIELS BLACKBERRY 1L",
-          "faturamento": 5735.9,
-          "quantidade": 41.0
-        },
-        {
-          "produto": "TEQUILA EL JIMADOR BLANCO 750 ML",
-          "faturamento": 3846.3,
-          "quantidade": 37.0
-        },
-        {
-          "produto": "WHISKY GENTLEMAN JACK 1L",
-          "faturamento": 2160.8,
-          "quantidade": 12.0
-        },
-        {
-          "produto": "WHISKY JACK DANIELS HONEY 375ML",
-          "faturamento": 2070.9,
-          "quantidade": 41.0
-        },
-        {
-          "produto": "TEQUILA EL JIMADOR REPOSADO 750 ML",
-          "faturamento": 2028.0,
-          "quantidade": 20.0
-        },
-        {
-          "produto": "WHISKY JACK DANIELS 375 ML",
-          "faturamento": 1911.3,
-          "quantidade": 37.0
-        },
-        {
-          "produto": "WHISKY JACK DANIELS HONEY 700 ML",
-          "faturamento": 1340.6,
-          "quantidade": 14.0
-        },
-        {
-          "produto": "WHISKY JACK DANIELS SINGLE BARREL 750ML",
-          "faturamento": 539.8,
-          "quantidade": 2.0
-        },
-        {
-          "produto": "WHISKY JACK DANIELS FIRE 700 ML",
-          "faturamento": 351.6,
-          "quantidade": 4.0
-        },
-        {
-          "produto": "WHISKY JACK DANIELS 200 ML",
-          "faturamento": 209.4,
-          "quantidade": 6.0
-        }
-      ],
-      "posicao": 31
-    },
-    {
-      "fantasia": "VITON",
-      "faturamento_ytd": 219861.1,
-      "participacao_pct": 0.35,
-      "media_mensal": 31408.73,
-      "clientes_positivados": 323,
-      "por_mes": {
-        "2026-01": 52766.09,
-        "2026-02": 38674.27,
-        "2026-03": 39790.53,
-        "2026-04": 38146.64,
-        "2026-05": 19819.21,
-        "2026-06": 17873.54,
-        "2026-07": 12790.83
-      },
-      "top_clientes": [
-        {
-          "codcli": "82905",
-          "estado": "RJ",
-          "nome": "ATLM DE CAXIAS COMERCIO DE GENEROS ALIME",
-          "faturamento": 6956.4
-        },
-        {
-          "codcli": "80577",
-          "estado": "RJ",
-          "nome": "GRAND CAFE RIO - LEBLON",
-          "faturamento": 6368.86
-        },
-        {
-          "codcli": "80157",
-          "estado": "RJ",
-          "nome": "PARADA MAIS",
-          "faturamento": 6067.4
-        },
-        {
-          "codcli": "75420",
-          "estado": "RJ",
-          "nome": "MERCADO OSB",
-          "faturamento": 5729.89
-        },
-        {
-          "codcli": "91672",
-          "estado": "RJ",
-          "nome": "TENDA",
-          "faturamento": 5004.5
-        },
-        {
-          "codcli": "74671",
-          "estado": "RJ",
-          "nome": "LOJA DE CONVENIENCIA ESTRELA DE CAXIAS",
-          "faturamento": 4877.4
-        },
-        {
-          "codcli": "91288",
-          "estado": "RJ",
-          "nome": "FRIGIDEIRA DA VOVO - OLARIA",
-          "faturamento": 4689.93
-        },
-        {
-          "codcli": "79969",
-          "estado": "RJ",
-          "nome": "WMDIAS 24H",
-          "faturamento": 4665.93
-        },
-        {
-          "codcli": "86435",
-          "estado": "RJ",
-          "nome": "MERCADO TRES IRMAO - ITANHANGA",
-          "faturamento": 4474.0
-        },
-        {
-          "codcli": "91093",
-          "estado": "RJ",
-          "nome": "BELO CAPIVARI CONVENIENCIA",
-          "faturamento": 4435.1
-        },
-        {
-          "codcli": "74928",
-          "estado": "RJ",
-          "nome": "BIG RUSSO",
-          "faturamento": 4210.76
-        },
-        {
-          "codcli": "76248",
-          "estado": "RJ",
-          "nome": "POSTO TORCEDOR",
-          "faturamento": 3869.64
-        },
-        {
-          "codcli": "76984",
-          "estado": "RJ",
-          "nome": "GRAND CAFE RIO - CAMPO GRANDE",
-          "faturamento": 3575.45
-        },
-        {
-          "codcli": "63587",
-          "estado": "RJ",
-          "nome": "LOJA DE CONVENIENCIA 17.000",
-          "faturamento": 3349.27
-        },
-        {
-          "codcli": "91317",
-          "estado": "RJ",
-          "nome": "PADARIA E CONFEITARIA NOVA SANTA HELENA",
-          "faturamento": 3073.27
-        }
-      ],
-      "top_vendedores": [
-        {
-          "rca": "156",
-          "estado": "RJ",
-          "nome": "MARILENA TRAGEL",
-          "faturamento": 59015.63
-        },
-        {
-          "rca": "431",
-          "estado": "RJ",
-          "nome": "ADEILSON GONÇALVEZ",
-          "faturamento": 54698.81
-        },
-        {
-          "rca": "379",
-          "estado": "RJ",
-          "nome": "JORGE MACIEL",
-          "faturamento": 26589.7
-        },
-        {
-          "rca": "412",
-          "estado": "RJ",
-          "nome": "BARBARA CABRAL",
-          "faturamento": 23946.51
-        },
-        {
-          "rca": "439",
-          "estado": "RJ",
-          "nome": "MATEUS CARDOSO",
-          "faturamento": 11299.16
-        },
-        {
-          "rca": "153",
-          "estado": "RJ",
-          "nome": "ANGELO NEVES SUZART",
-          "faturamento": 11009.28
-        },
-        {
-          "rca": "144",
-          "estado": "RJ",
-          "nome": "DIOGO RAPOSO",
-          "faturamento": 10033.73
-        },
-        {
-          "rca": "159",
-          "estado": "RJ",
-          "nome": "GISELLE BARFER",
-          "faturamento": 7870.46
-        },
-        {
-          "rca": "471",
-          "estado": "RJ",
-          "nome": "ANA CLARA FASSANO",
-          "faturamento": 4460.03
-        },
-        {
-          "rca": "241",
-          "estado": "RJ",
-          "nome": "ZEINALDO DE OLIVEIRA",
-          "faturamento": 4219.2
-        },
-        {
-          "rca": "155",
-          "estado": "RJ",
-          "nome": "RAPHAEL SANTOS",
-          "faturamento": 2585.97
-        },
-        {
-          "rca": "378",
-          "estado": "RJ",
-          "nome": "FABIO VALOTTI",
-          "faturamento": 2091.48
-        },
-        {
-          "rca": "417",
-          "estado": "RJ",
-          "nome": "DIRLEI ARAUJO",
-          "faturamento": 1479.86
-        },
-        {
-          "rca": "419",
-          "estado": "RJ",
-          "nome": "NÁTALI DE OLIVEIRA",
-          "faturamento": 561.28
-        }
-      ],
-      "top_produtos": [
-        {
-          "produto": "GUARAVITA NATURAL 24X290ML",
-          "faturamento": 167628.71,
-          "quantidade": 7500.0
-        },
-        {
-          "produto": "GUARAVITON GINSENG 12X500ML",
-          "faturamento": 52232.39,
-          "quantidade": 1860.0
-        }
-      ],
-      "posicao": 32
-    },
-    {
       "fantasia": "DON LUIZ",
-      "faturamento_ytd": 219556.08,
-      "participacao_pct": 0.34,
-      "media_mensal": 31365.15,
-      "clientes_positivados": 50,
+      "faturamento_ytd": 286205.58,
+      "participacao_pct": 0.36,
+      "media_mensal": 31800.62,
+      "clientes_positivados": 74,
       "por_mes": {
         "2026-01": 19882.8,
         "2026-02": 26160.0,
@@ -8391,32 +8099,34 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
         "2026-04": 20926.9,
         "2026-05": 40797.98,
         "2026-06": 15007.0,
-        "2026-07": 40874.0
+        "2026-07": 40874.0,
+        "2026-08": 66409.9,
+        "2026-09": 239.6
       },
       "top_clientes": [
         {
           "codcli": "30231",
           "estado": "MG",
           "nome": "ORGANIZACAO VERDEMAR LTDA",
-          "faturamento": 70955.4
+          "faturamento": 86142.0
+        },
+        {
+          "codcli": "37710",
+          "estado": "MG",
+          "nome": "MULTICOM ATACADO E VAREJO S/A",
+          "faturamento": 46664.4
+        },
+        {
+          "codcli": "30723",
+          "estado": "MG",
+          "nome": "SUPERMERCADO BAHAMAS S/A",
+          "faturamento": 41340.0
         },
         {
           "codcli": "38039",
           "estado": "MG",
           "nome": "CEMA CENTRAL MINEIRA ATACADISTA LTDA",
           "faturamento": 27162.0
-        },
-        {
-          "codcli": "37710",
-          "estado": "MG",
-          "nome": "MULTICOM ATACADO E VAREJO S/A",
-          "faturamento": 25100.4
-        },
-        {
-          "codcli": "30723",
-          "estado": "MG",
-          "nome": "SUPERMERCADO BAHAMAS S/A",
-          "faturamento": 18330.0
         },
         {
           "codcli": "34006",
@@ -8467,6 +8177,12 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "faturamento": 1857.0
         },
         {
+          "codcli": "38294",
+          "estado": "MG",
+          "nome": "OPA SUPERMERCADOS",
+          "faturamento": 1797.0
+        },
+        {
           "codcli": "33072",
           "estado": "MG",
           "nome": "VAREJÃO AVENIDA - JOÃO PINHEIRO",
@@ -8477,12 +8193,6 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "estado": "MG",
           "nome": "HIPER OPA LTDA - MINASLÂNDIA",
           "faturamento": 1797.0
-        },
-        {
-          "codcli": "38294",
-          "estado": "MG",
-          "nome": "OPA SUPERMERCADOS",
-          "faturamento": 1797.0
         }
       ],
       "top_vendedores": [
@@ -8490,7 +8200,7 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "rca": "360",
           "estado": "MG",
           "nome": "LEANDRO OLIVEIRA",
-          "faturamento": 148763.04
+          "faturamento": 208523.64
         },
         {
           "rca": "542",
@@ -8502,7 +8212,7 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "rca": "354",
           "estado": "MG",
           "nome": "MATHEUS DE SOUZA",
-          "faturamento": 18073.0
+          "faturamento": 23913.6
         },
         {
           "rca": "362",
@@ -8523,41 +8233,513 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "faturamento": 2695.8
         },
         {
-          "rca": "327",
-          "estado": "MG",
-          "nome": "JOÃO SANTOS",
-          "faturamento": 1318.2
-        },
-        {
           "rca": "344",
           "estado": "MG",
           "nome": "TIAGO ANDRADE",
-          "faturamento": 828.7
+          "faturamento": 1517.6
+        },
+        {
+          "rca": "327",
+          "estado": "MG",
+          "nome": "JOÃO SANTOS",
+          "faturamento": 1497.9
+        },
+        {
+          "rca": "405",
+          "estado": "MG",
+          "nome": "RONALDO MESQUITA JUNIOR",
+          "faturamento": 179.7
         }
       ],
       "top_produtos": [
         {
           "produto": "LICOR DON LUIZ DULCE DE LECHE CREAM 750M",
-          "faturamento": 219556.08,
-          "quantidade": 3403.0
+          "faturamento": 232011.98,
+          "quantidade": 3594.0
+        },
+        {
+          "produto": "COQUETEL ALCOÓLICO DON CREAM DULCE DE LE",
+          "faturamento": 54193.6,
+          "quantidade": 868.0
+        }
+      ],
+      "posicao": 31
+    },
+    {
+      "fantasia": "BROWN-FORMAN",
+      "faturamento_ytd": 270430.08,
+      "participacao_pct": 0.34,
+      "media_mensal": 30047.79,
+      "clientes_positivados": 108,
+      "por_mes": {
+        "2026-01": 18854.5,
+        "2026-02": 22649.6,
+        "2026-03": 42482.18,
+        "2026-04": 40106.1,
+        "2026-05": 36555.3,
+        "2026-06": 62839.2,
+        "2026-07": 29248.6,
+        "2026-08": 15640.5,
+        "2026-09": 2054.1
+      },
+      "top_clientes": [
+        {
+          "codcli": "30530",
+          "estado": "MG",
+          "nome": "DISTRIBUIDORA CAMPOS",
+          "faturamento": 103021.6
+        },
+        {
+          "codcli": "30538",
+          "estado": "MG",
+          "nome": "DAKI OFFICE BELO HORIZONTE",
+          "faturamento": 74391.6
+        },
+        {
+          "codcli": "39110",
+          "estado": "MG",
+          "nome": "EMPORIO LOS MANOS",
+          "faturamento": 8579.2
+        },
+        {
+          "codcli": "33139",
+          "estado": "MG",
+          "nome": "CORDEIRO SUPERMERCADOS",
+          "faturamento": 5670.0
+        },
+        {
+          "codcli": "33955",
+          "estado": "MG",
+          "nome": "TAUA RESORT CAETE",
+          "faturamento": 4760.4
+        },
+        {
+          "codcli": "30347",
+          "estado": "MG",
+          "nome": "DUARTE DISTRIBUIDORA",
+          "faturamento": 3957.0
+        },
+        {
+          "codcli": "30105",
+          "estado": "MG",
+          "nome": "RESTAURANTE E EMPORIO MORADA MEXICANA EIRELI",
+          "faturamento": 3756.4
+        },
+        {
+          "codcli": "35597",
+          "estado": "MG",
+          "nome": "MULTIPLACE STONE HOUSE",
+          "faturamento": 3576.7
+        },
+        {
+          "codcli": "30219",
+          "estado": "MG",
+          "nome": "MAMAE BEBIDAS",
+          "faturamento": 2655.0
+        },
+        {
+          "codcli": "39861",
+          "estado": "MG",
+          "nome": "037 DISTRIBUIDORA DE BEBIDAS",
+          "faturamento": 2622.9
+        },
+        {
+          "codcli": "34348",
+          "estado": "MG",
+          "nome": "SUPERMERCADO PRISMA",
+          "faturamento": 2158.3
+        },
+        {
+          "codcli": "37776",
+          "estado": "MG",
+          "nome": "QUIOSQUE JN INDEPENDENCIA DO CHOPP",
+          "faturamento": 1898.08
+        },
+        {
+          "codcli": "37718",
+          "estado": "MG",
+          "nome": "PARANAIBA VALE DAS ORQUIDEAS ALIMENTOS",
+          "faturamento": 1834.2
+        },
+        {
+          "codcli": "39542",
+          "estado": "MG",
+          "nome": "36.947.510 JOAO PAULO DE FREITAS GODINHO",
+          "faturamento": 1798.5
+        },
+        {
+          "codcli": "35114",
+          "estado": "MG",
+          "nome": "ORGANIZACOES PAIS FILHOS",
+          "faturamento": 1647.7
+        }
+      ],
+      "top_vendedores": [
+        {
+          "rca": "349",
+          "estado": "MG",
+          "nome": "WILLIAM ALVES DA SILVA",
+          "faturamento": 111183.9
+        },
+        {
+          "rca": "354",
+          "estado": "MG",
+          "nome": "MATHEUS DE SOUZA",
+          "faturamento": 86234.3
+        },
+        {
+          "rca": "327",
+          "estado": "MG",
+          "nome": "JOÃO SANTOS",
+          "faturamento": 28898.9
+        },
+        {
+          "rca": "362",
+          "estado": "MG",
+          "nome": "BRUNA CASTRO MELLO",
+          "faturamento": 16963.5
+        },
+        {
+          "rca": "331",
+          "estado": "MG",
+          "nome": "SAVIO NETO",
+          "faturamento": 10190.98
+        },
+        {
+          "rca": "344",
+          "estado": "MG",
+          "nome": "TIAGO ANDRADE",
+          "faturamento": 7008.1
+        },
+        {
+          "rca": "360",
+          "estado": "MG",
+          "nome": "LEANDRO OLIVEIRA",
+          "faturamento": 5670.0
+        },
+        {
+          "rca": "405",
+          "estado": "MG",
+          "nome": "RONALDO MESQUITA JUNIOR",
+          "faturamento": 2752.8
+        },
+        {
+          "rca": "335",
+          "estado": "MG",
+          "nome": "JANAIRA MARQUES",
+          "faturamento": 1152.9
+        },
+        {
+          "rca": "390",
+          "estado": "MG",
+          "nome": "FRANCIELLE CARVALHO",
+          "faturamento": 374.7
+        }
+      ],
+      "top_produtos": [
+        {
+          "produto": "WHISKY JACK DANIELS 1L",
+          "faturamento": 102165.98,
+          "quantidade": 790.0
+        },
+        {
+          "produto": "WHISKY JACK DANIELS APPLE 1L",
+          "faturamento": 75158.0,
+          "quantidade": 590.0
+        },
+        {
+          "produto": "JACK DANIELS HONEY 1 L",
+          "faturamento": 46121.2,
+          "quantidade": 358.0
+        },
+        {
+          "produto": "WHISKY JACK DANIELS FIRE 1000 ML",
+          "faturamento": 12335.8,
+          "quantidade": 96.0
+        },
+        {
+          "produto": "WHISKY JACK DANIELS 700 ML",
+          "faturamento": 8982.4,
+          "quantidade": 96.0
+        },
+        {
+          "produto": "WHISKY JACK DANIELS BLACKBERRY 1L",
+          "faturamento": 8124.0,
+          "quantidade": 60.0
+        },
+        {
+          "produto": "TEQUILA EL JIMADOR BLANCO 750 ML",
+          "faturamento": 4895.3,
+          "quantidade": 47.0
+        },
+        {
+          "produto": "WHISKY JACK DANIELS 375 ML",
+          "faturamento": 3300.9,
+          "quantidade": 61.0
+        },
+        {
+          "produto": "TEQUILA EL JIMADOR REPOSADO 750 ML",
+          "faturamento": 2342.7,
+          "quantidade": 23.0
+        },
+        {
+          "produto": "WHISKY GENTLEMAN JACK 1L",
+          "faturamento": 2160.8,
+          "quantidade": 12.0
+        },
+        {
+          "produto": "WHISKY JACK DANIELS HONEY 375ML",
+          "faturamento": 2070.9,
+          "quantidade": 41.0
+        },
+        {
+          "produto": "WHISKY JACK DANIELS HONEY 700 ML",
+          "faturamento": 1340.6,
+          "quantidade": 14.0
+        },
+        {
+          "produto": "WHISKY JACK DANIELS SINGLE BARREL 750ML",
+          "faturamento": 539.8,
+          "quantidade": 2.0
+        },
+        {
+          "produto": "WHISKY JACK DANIELS FIRE 700 ML",
+          "faturamento": 351.6,
+          "quantidade": 4.0
+        },
+        {
+          "produto": "WHISKY JACK DANIELS 200 ML",
+          "faturamento": 209.4,
+          "quantidade": 6.0
+        }
+      ],
+      "posicao": 32
+    },
+    {
+      "fantasia": "VITON",
+      "faturamento_ytd": 231566.8,
+      "participacao_pct": 0.29,
+      "media_mensal": 25729.64,
+      "clientes_positivados": 330,
+      "por_mes": {
+        "2026-01": 52766.09,
+        "2026-02": 38674.27,
+        "2026-03": 39790.53,
+        "2026-04": 38146.64,
+        "2026-05": 19819.21,
+        "2026-06": 17873.54,
+        "2026-07": 12374.92,
+        "2026-08": 7521.75,
+        "2026-09": 4599.86
+      },
+      "top_clientes": [
+        {
+          "codcli": "80577",
+          "estado": "RJ",
+          "nome": "GRAND CAFE RIO - LEBLON",
+          "faturamento": 7837.8
+        },
+        {
+          "codcli": "82905",
+          "estado": "RJ",
+          "nome": "ATLM DE CAXIAS COMERCIO DE GENEROS ALIME",
+          "faturamento": 6956.4
+        },
+        {
+          "codcli": "80157",
+          "estado": "RJ",
+          "nome": "PARADA MAIS",
+          "faturamento": 6067.4
+        },
+        {
+          "codcli": "74671",
+          "estado": "RJ",
+          "nome": "LOJA DE CONVENIENCIA ESTRELA DE CAXIAS",
+          "faturamento": 5865.06
+        },
+        {
+          "codcli": "75420",
+          "estado": "RJ",
+          "nome": "MERCADO OSB",
+          "faturamento": 5729.89
+        },
+        {
+          "codcli": "91672",
+          "estado": "RJ",
+          "nome": "TENDA",
+          "faturamento": 5518.45
+        },
+        {
+          "codcli": "79969",
+          "estado": "RJ",
+          "nome": "WMDIAS 24H",
+          "faturamento": 5081.84
+        },
+        {
+          "codcli": "91093",
+          "estado": "RJ",
+          "nome": "BELO CAPIVARI CONVENIENCIA",
+          "faturamento": 5074.95
+        },
+        {
+          "codcli": "91288",
+          "estado": "RJ",
+          "nome": "FRIGIDEIRA DA VOVO - OLARIA",
+          "faturamento": 4689.93
+        },
+        {
+          "codcli": "86435",
+          "estado": "RJ",
+          "nome": "MERCADO TRES IRMAO - ITANHANGA",
+          "faturamento": 4474.0
+        },
+        {
+          "codcli": "76248",
+          "estado": "RJ",
+          "nome": "POSTO TORCEDOR",
+          "faturamento": 4330.55
+        },
+        {
+          "codcli": "74928",
+          "estado": "RJ",
+          "nome": "BIG RUSSO",
+          "faturamento": 4210.76
+        },
+        {
+          "codcli": "76984",
+          "estado": "RJ",
+          "nome": "GRAND CAFE RIO - CAMPO GRANDE",
+          "faturamento": 3799.41
+        },
+        {
+          "codcli": "63587",
+          "estado": "RJ",
+          "nome": "LOJA DE CONVENIENCIA 17.000",
+          "faturamento": 3509.23
+        },
+        {
+          "codcli": "82926",
+          "estado": "RJ",
+          "nome": "PRIMEIRO DO BRASIL",
+          "faturamento": 3257.7
+        }
+      ],
+      "top_vendedores": [
+        {
+          "rca": "156",
+          "estado": "RJ",
+          "nome": "MARILENA TRAGEL",
+          "faturamento": 65496.0
+        },
+        {
+          "rca": "431",
+          "estado": "RJ",
+          "nome": "ADEILSON GONÇALVEZ",
+          "faturamento": 58390.22
+        },
+        {
+          "rca": "379",
+          "estado": "RJ",
+          "nome": "JORGE MACIEL",
+          "faturamento": 27208.5
+        },
+        {
+          "rca": "412",
+          "estado": "RJ",
+          "nome": "BARBARA CABRAL",
+          "faturamento": 24468.61
+        },
+        {
+          "rca": "439",
+          "estado": "RJ",
+          "nome": "MATEUS CARDOSO",
+          "faturamento": 11299.16
+        },
+        {
+          "rca": "153",
+          "estado": "RJ",
+          "nome": "ANGELO NEVES SUZART",
+          "faturamento": 11009.28
+        },
+        {
+          "rca": "144",
+          "estado": "RJ",
+          "nome": "DIOGO RAPOSO",
+          "faturamento": 10033.73
+        },
+        {
+          "rca": "159",
+          "estado": "RJ",
+          "nome": "GISELLE BARFER",
+          "faturamento": 7917.73
+        },
+        {
+          "rca": "471",
+          "estado": "RJ",
+          "nome": "ANA CLARA FASSANO",
+          "faturamento": 4702.99
+        },
+        {
+          "rca": "241",
+          "estado": "RJ",
+          "nome": "ZEINALDO DE OLIVEIRA",
+          "faturamento": 4321.99
+        },
+        {
+          "rca": "155",
+          "estado": "RJ",
+          "nome": "RAPHAEL SANTOS",
+          "faturamento": 2585.97
+        },
+        {
+          "rca": "378",
+          "estado": "RJ",
+          "nome": "FABIO VALOTTI",
+          "faturamento": 2091.48
+        },
+        {
+          "rca": "417",
+          "estado": "RJ",
+          "nome": "DIRLEI ARAUJO",
+          "faturamento": 1479.86
+        },
+        {
+          "rca": "419",
+          "estado": "RJ",
+          "nome": "NÁTALI DE OLIVEIRA",
+          "faturamento": 561.28
+        }
+      ],
+      "top_produtos": [
+        {
+          "produto": "GUARAVITA NATURAL 24X290ML",
+          "faturamento": 179334.41,
+          "quantidade": 7867.0
+        },
+        {
+          "produto": "GUARAVITON GINSENG 12X500ML",
+          "faturamento": 52232.39,
+          "quantidade": 1860.0
         }
       ],
       "posicao": 33
     },
     {
       "fantasia": "CAMPARI",
-      "faturamento_ytd": 175658.14,
-      "participacao_pct": 0.28,
-      "media_mensal": 25094.02,
-      "clientes_positivados": 316,
+      "faturamento_ytd": 201769.27,
+      "participacao_pct": 0.25,
+      "media_mensal": 22418.81,
+      "clientes_positivados": 371,
       "por_mes": {
         "2026-01": 36240.36,
         "2026-02": 15668.16,
         "2026-03": 17806.32,
         "2026-04": 21860.19,
         "2026-05": 17262.69,
-        "2026-06": 25715.52,
-        "2026-07": 41104.9
+        "2026-06": 25495.92,
+        "2026-07": 41104.9,
+        "2026-08": 20519.38,
+        "2026-09": 5811.35
       },
       "top_clientes": [
         {
@@ -8594,7 +8776,7 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "codcli": "91786",
           "estado": "RJ",
           "nome": "LIBERTY BAR",
-          "faturamento": 4229.1
+          "faturamento": 5074.3
         },
         {
           "codcli": "76242",
@@ -8627,28 +8809,28 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "faturamento": 2269.2
         },
         {
+          "codcli": "50200",
+          "estado": "SP",
+          "nome": "ADEGA DO GORDAO",
+          "faturamento": 2230.8
+        },
+        {
           "codcli": "90632",
           "estado": "RJ",
           "nome": "CAIS E PORTO GASTRONOMIA",
           "faturamento": 2143.8
         },
         {
-          "codcli": "39315",
-          "estado": "SP",
-          "nome": "BAR E LANCHONETE PAULISTA",
-          "faturamento": 2028.0
+          "codcli": "81490",
+          "estado": "RJ",
+          "nome": "MAYRON S BAR",
+          "faturamento": 2101.9
         },
         {
           "codcli": "40491",
           "estado": "SP",
           "nome": "ICARO ADRIANO BOMFIM",
           "faturamento": 2028.0
-        },
-        {
-          "codcli": "38500",
-          "estado": "SP",
-          "nome": "CONVEM SUPERMERCADOS",
-          "faturamento": 1819.2
         }
       ],
       "top_vendedores": [
@@ -8662,13 +8844,13 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "rca": "155",
           "estado": "RJ",
           "nome": "RAPHAEL SANTOS",
-          "faturamento": 21492.48
+          "faturamento": 23231.36
         },
         {
           "rca": "159",
           "estado": "RJ",
           "nome": "GISELLE BARFER",
-          "faturamento": 15701.9
+          "faturamento": 17169.18
         },
         {
           "rca": "391",
@@ -8680,7 +8862,7 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "rca": "419",
           "estado": "RJ",
           "nome": "NÁTALI DE OLIVEIRA",
-          "faturamento": 11265.47
+          "faturamento": 11302.47
         },
         {
           "rca": "417",
@@ -8692,19 +8874,31 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "rca": "144",
           "estado": "RJ",
           "nome": "DIOGO RAPOSO",
-          "faturamento": 9281.06
+          "faturamento": 10834.26
         },
         {
           "rca": "425",
           "estado": "SP",
           "nome": "BRUNO BARBOSA",
-          "faturamento": 7396.4
+          "faturamento": 8109.0
         },
         {
           "rca": "471",
           "estado": "SP",
           "nome": "PAULO JUNIOR",
-          "faturamento": 5494.2
+          "faturamento": 6015.0
+        },
+        {
+          "rca": "516",
+          "estado": "SP",
+          "nome": "JOAQUIM ANGELO",
+          "faturamento": 5053.1
+        },
+        {
+          "rca": "486",
+          "estado": "SP",
+          "nome": "LEONARDO FLOREZI",
+          "faturamento": 4241.1
         },
         {
           "rca": "467",
@@ -8713,61 +8907,54 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "faturamento": 3438.0
         },
         {
-          "rca": "461",
-          "estado": "SP",
-          "nome": "SUELY SANTOS",
-          "faturamento": 2884.2
+          "rca": "378",
+          "estado": "RJ",
+          "nome": "FABIO VALOTTI",
+          "faturamento": 3383.4
         },
         {
-          "rca": "486",
+          "rca": "468",
           "estado": "SP",
-          "nome": "LEONARDO FLOREZI",
-          "faturamento": 2784.2
+          "nome": "RENATO JUNIOR",
+          "faturamento": 3244.8
         },
         {
-          "rca": "463",
+          "rca": "460",
           "estado": "SP",
-          "nome": "ROBERTO DOS SANTOS",
-          "faturamento": 2488.2
-        },
-        {
-          "rca": "476",
-          "estado": "SP",
-          "nome": "RODRIGO LIMA",
-          "faturamento": 2417.6
-        },
-        {
-          "rca": "230",
-          "estado": "ES",
-          "nome": "ENEIVA RODRIGUES",
-          "faturamento": 2280.0
+          "nome": "CRISTIANE MORAIS",
+          "faturamento": 3230.7
         }
       ],
       "top_produtos": [
         {
           "produto": "APERITIVO APEROL 750 ML",
-          "faturamento": 71437.27,
-          "quantidade": 1750.0
+          "faturamento": 77464.14,
+          "quantidade": 1886.0
         },
         {
           "produto": "CONHAQUE DREHER 900ML",
-          "faturamento": 61890.82,
-          "quantidade": 3715.0
+          "faturamento": 75554.28,
+          "quantidade": 4503.0
         },
         {
           "produto": "APERITIVO CAMPARI 998ML",
-          "faturamento": 42330.05,
-          "quantidade": 835.0
+          "faturamento": 48674.85,
+          "quantidade": 957.0
+        },
+        {
+          "produto": "APERITIVO VERMELHAO AMARO 700ML",
+          "faturamento": 76.0,
+          "quantidade": 2.0
         }
       ],
       "posicao": 34
     },
     {
       "fantasia": "TIAL",
-      "faturamento_ytd": 151404.07,
-      "participacao_pct": 0.24,
-      "media_mensal": 21629.15,
-      "clientes_positivados": 248,
+      "faturamento_ytd": 163187.07,
+      "participacao_pct": 0.21,
+      "media_mensal": 18131.9,
+      "clientes_positivados": 267,
       "por_mes": {
         "2026-01": 23200.0,
         "2026-02": 13792.7,
@@ -8775,14 +8962,16 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
         "2026-04": 19644.76,
         "2026-05": 22577.32,
         "2026-06": 19739.96,
-        "2026-07": 25237.77
+        "2026-07": 25237.77,
+        "2026-08": 10942.73,
+        "2026-09": 840.27
       },
       "top_clientes": [
         {
           "codcli": "90484",
           "estado": "RJ",
           "nome": "MERCADO RC DE ITAGUAI",
-          "faturamento": 10820.34
+          "faturamento": 12057.05
         },
         {
           "codcli": "82958",
@@ -8806,7 +8995,7 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "codcli": "84320",
           "estado": "RJ",
           "nome": "MERCADO JV DUQUE DE CAXIAS",
-          "faturamento": 3613.6
+          "faturamento": 3728.56
         },
         {
           "codcli": "86238",
@@ -8830,13 +9019,13 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "codcli": "91619",
           "estado": "RJ",
           "nome": "MAX LUCRO",
-          "faturamento": 2937.4
+          "faturamento": 3018.52
         },
         {
           "codcli": "80151",
           "estado": "RJ",
           "nome": "G & D ALIMENTOS E BEBIDAS",
-          "faturamento": 2784.2
+          "faturamento": 2904.28
         },
         {
           "codcli": "91751",
@@ -8874,13 +9063,19 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "rca": "153",
           "estado": "RJ",
           "nome": "ANGELO NEVES SUZART",
-          "faturamento": 36395.9
+          "faturamento": 39153.34
         },
         {
           "rca": "379",
           "estado": "RJ",
           "nome": "JORGE MACIEL",
-          "faturamento": 20420.62
+          "faturamento": 22388.74
+        },
+        {
+          "rca": "431",
+          "estado": "RJ",
+          "nome": "ADEILSON GONÇALVEZ",
+          "faturamento": 17111.84
         },
         {
           "rca": "144",
@@ -8889,28 +9084,22 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "faturamento": 16294.9
         },
         {
-          "rca": "431",
-          "estado": "RJ",
-          "nome": "ADEILSON GONÇALVEZ",
-          "faturamento": 15842.3
-        },
-        {
           "rca": "155",
           "estado": "RJ",
           "nome": "RAPHAEL SANTOS",
           "faturamento": 13313.02
         },
         {
-          "rca": "412",
-          "estado": "RJ",
-          "nome": "BARBARA CABRAL",
-          "faturamento": 9889.45
-        },
-        {
           "rca": "156",
           "estado": "RJ",
           "nome": "MARILENA TRAGEL",
-          "faturamento": 9744.88
+          "faturamento": 11234.24
+        },
+        {
+          "rca": "412",
+          "estado": "RJ",
+          "nome": "BARBARA CABRAL",
+          "faturamento": 9970.57
         },
         {
           "rca": "450",
@@ -8922,13 +9111,19 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "rca": "419",
           "estado": "RJ",
           "nome": "NÁTALI DE OLIVEIRA",
-          "faturamento": 5957.02
+          "faturamento": 6438.15
         },
         {
           "rca": "159",
           "estado": "RJ",
           "nome": "GISELLE BARFER",
-          "faturamento": 4462.6
+          "faturamento": 4946.13
+        },
+        {
+          "rca": "378",
+          "estado": "RJ",
+          "nome": "FABIO VALOTTI",
+          "faturamento": 4715.02
         },
         {
           "rca": "417",
@@ -8937,22 +9132,16 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "faturamento": 4150.86
         },
         {
-          "rca": "378",
+          "rca": "471",
           "estado": "RJ",
-          "nome": "FABIO VALOTTI",
-          "faturamento": 3790.51
+          "nome": "ANA CLARA FASSANO",
+          "faturamento": 3537.79
         },
         {
           "rca": "439",
           "estado": "RJ",
           "nome": "MATEUS CARDOSO",
-          "faturamento": 1926.79
-        },
-        {
-          "rca": "471",
-          "estado": "RJ",
-          "nome": "ANA CLARA FASSANO",
-          "faturamento": 1449.06
+          "faturamento": 2166.31
         },
         {
           "rca": "158",
@@ -8969,8 +9158,8 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
         },
         {
           "produto": "NECTAR LARANJA 12X1000ML",
-          "faturamento": 16817.57,
-          "quantidade": 273.0
+          "faturamento": 17539.65,
+          "quantidade": 284.0
         },
         {
           "produto": "NECTAR MANGA 12X1000ML",
@@ -8979,18 +9168,18 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
         },
         {
           "produto": "NECTAR GOIABA 12X1000ML",
-          "faturamento": 12430.16,
-          "quantidade": 211.0
+          "faturamento": 13183.1,
+          "quantidade": 224.0
         },
         {
           "produto": "NECTAR PESSEGO 12X1000ML",
-          "faturamento": 10173.4,
-          "quantidade": 167.0
+          "faturamento": 10343.28,
+          "quantidade": 170.0
         },
         {
           "produto": "NECTAR CAJU 12X1000ML",
-          "faturamento": 7866.25,
-          "quantidade": 133.0
+          "faturamento": 9169.63,
+          "quantidade": 155.0
         },
         {
           "produto": "NECTAR MARACUJA 12X1000ML",
@@ -8998,14 +9187,24 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "quantidade": 116.0
         },
         {
-          "produto": "NECTAR ABACAXI 12X1000ML",
-          "faturamento": 5036.09,
-          "quantidade": 84.0
+          "produto": "NECTAR MISTO UVA E PERA 24X200ML KIDS",
+          "faturamento": 6303.89,
+          "quantidade": 211.0
         },
         {
-          "produto": "NECTAR MISTO UVA E PERA 24X200ML KIDS",
-          "faturamento": 4742.95,
-          "quantidade": 124.0
+          "produto": "NECTAR ABACAXI 12X1000ML",
+          "faturamento": 5328.29,
+          "quantidade": 89.0
+        },
+        {
+          "produto": "AGUA DE COCO TIAL 12X1000ML",
+          "faturamento": 3977.24,
+          "quantidade": 31.0
+        },
+        {
+          "produto": "NECTAR MACA TIAL 12X1000ML",
+          "faturamento": 3465.97,
+          "quantidade": 60.0
         },
         {
           "produto": "REFRESCO DE UVA MINECRAFT 24X200ML",
@@ -9013,66 +9212,64 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "quantidade": 70.0
         },
         {
-          "produto": "AGUA DE COCO TIAL 12X1000ML",
-          "faturamento": 3096.03,
-          "quantidade": 24.0
-        },
-        {
-          "produto": "NECTAR MACA TIAL 12X1000ML",
-          "faturamento": 2824.06,
-          "quantidade": 49.0
-        },
-        {
           "produto": "NECTAR MISTO PESSEGO E PERA 24X200ML KID",
-          "faturamento": 2592.35,
-          "quantidade": 69.0
+          "faturamento": 2970.5,
+          "quantidade": 82.0
+        },
+        {
+          "produto": "NECTAR MISTO GOIABA 24X200ML KIDS",
+          "faturamento": 2584.68,
+          "quantidade": 89.0
         },
         {
           "produto": "SUCO UVA 100% DO BEM 24X200ML",
           "faturamento": 2404.8,
           "quantidade": 31.0
-        },
-        {
-          "produto": "REFRESCO DE MORANGO MINECRAFT 24X200ML",
-          "faturamento": 2403.74,
-          "quantidade": 52.0
         }
       ],
       "posicao": 35
     },
     {
       "fantasia": "HOB",
-      "faturamento_ytd": 111771.13,
-      "participacao_pct": 0.18,
-      "media_mensal": 15967.3,
-      "clientes_positivados": 136,
+      "faturamento_ytd": 138732.0,
+      "participacao_pct": 0.17,
+      "media_mensal": 15414.67,
+      "clientes_positivados": 141,
       "por_mes": {
         "2026-01": 3762.9,
         "2026-02": 9286.23,
         "2026-03": 19951.77,
         "2026-04": 14131.19,
         "2026-05": 22263.2,
-        "2026-06": 22440.28,
-        "2026-07": 19935.56
+        "2026-06": 21453.28,
+        "2026-07": 19935.56,
+        "2026-08": 24866.47,
+        "2026-09": 3081.4
       },
       "top_clientes": [
         {
           "codcli": "6269",
           "estado": "RJ",
           "nome": "SUPERMERCADO ZONA SUL",
-          "faturamento": 55177.46
+          "faturamento": 72124.3
         },
         {
           "codcli": "86028",
           "estado": "RJ",
           "nome": "PATO NA JANELA LOUNGE",
-          "faturamento": 11184.0
+          "faturamento": 12341.1
         },
         {
           "codcli": "81490",
           "estado": "RJ",
           "nome": "MAYRON S BAR",
-          "faturamento": 8139.6
+          "faturamento": 11092.2
+        },
+        {
+          "codcli": "82169",
+          "estado": "RJ",
+          "nome": "PONTA DO ILHOTE",
+          "faturamento": 5521.5
         },
         {
           "codcli": "94914",
@@ -9091,12 +9288,6 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "estado": "RJ",
           "nome": "CONTAINER STEAK BAR",
           "faturamento": 2154.6
-        },
-        {
-          "codcli": "82169",
-          "estado": "RJ",
-          "nome": "PONTA DO ILHOTE",
-          "faturamento": 1977.6
         },
         {
           "codcli": "13729",
@@ -9126,19 +9317,19 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "codcli": "94850",
           "estado": "RJ",
           "nome": "BALANIUK E PEREIRA EMPREENDIMENTOS",
-          "faturamento": 987.0
+          "faturamento": 986.98
+        },
+        {
+          "codcli": "86500",
+          "estado": "RJ",
+          "nome": "ESPACO HARMONIA",
+          "faturamento": 917.7
         },
         {
           "codcli": "84032",
           "estado": "RJ",
           "nome": "KETEK COMERCIAL",
           "faturamento": 912.9
-        },
-        {
-          "codcli": "84030",
-          "estado": "RJ",
-          "nome": "KETEK COMERCIAL",
-          "faturamento": 868.8
         },
         {
           "codcli": "84025",
@@ -9152,31 +9343,31 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "rca": "275",
           "estado": "RJ",
           "nome": "MARIA LUIZA",
-          "faturamento": 65438.96
-        },
-        {
-          "rca": "155",
-          "estado": "RJ",
-          "nome": "RAPHAEL SANTOS",
-          "faturamento": 13782.6
+          "faturamento": 82385.8
         },
         {
           "rca": "159",
           "estado": "RJ",
           "nome": "GISELLE BARFER",
-          "faturamento": 11910.75
+          "faturamento": 16452.13
+        },
+        {
+          "rca": "155",
+          "estado": "RJ",
+          "nome": "RAPHAEL SANTOS",
+          "faturamento": 15558.3
         },
         {
           "rca": "144",
           "estado": "RJ",
           "nome": "DIOGO RAPOSO",
-          "faturamento": 8498.7
+          "faturamento": 11491.2
         },
         {
           "rca": "439",
           "estado": "RJ",
           "nome": "MATEUS CARDOSO",
-          "faturamento": 2020.86
+          "faturamento": 2108.46
         },
         {
           "rca": "336",
@@ -9194,7 +9385,13 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "rca": "153",
           "estado": "RJ",
           "nome": "ANGELO NEVES SUZART",
-          "faturamento": 813.6
+          "faturamento": 1093.0
+        },
+        {
+          "rca": "471",
+          "estado": "RJ",
+          "nome": "ANA CLARA FASSANO",
+          "faturamento": 909.65
         },
         {
           "rca": "268",
@@ -9207,12 +9404,6 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "estado": "ES",
           "nome": "DOUGLAS SCHADE",
           "faturamento": 714.32
-        },
-        {
-          "rca": "471",
-          "estado": "RJ",
-          "nome": "ANA CLARA FASSANO",
-          "faturamento": 710.05
         },
         {
           "rca": "431",
@@ -9242,48 +9433,48 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
       "top_produtos": [
         {
           "produto": "GIN MARINA 750ML",
-          "faturamento": 32869.91,
-          "quantidade": 819.0
+          "faturamento": 37378.71,
+          "quantidade": 931.0
         },
         {
           "produto": "YVY DESTILADO GIN MAR 750ML",
-          "faturamento": 21336.6,
-          "quantidade": 432.0
+          "faturamento": 24276.6,
+          "quantidade": 492.0
         },
         {
           "produto": "YVY DESTILADO GIN AR 750ML",
-          "faturamento": 14112.0,
-          "quantidade": 288.0
+          "faturamento": 17052.0,
+          "quantidade": 348.0
         },
         {
           "produto": "YVY DESTILADO GIN AR 6X710ML LT",
-          "faturamento": 9504.22,
-          "quantidade": 48.0
-        },
-        {
-          "produto": "GIN MARINA ROSE 750ML",
-          "faturamento": 7024.75,
-          "quantidade": 169.0
+          "faturamento": 16651.1,
+          "quantidade": 86.0
         },
         {
           "produto": "YVY DESTILADO GIN MAR 6X710ML LT",
-          "faturamento": 6703.5,
-          "quantidade": 44.0
-        },
-        {
-          "produto": "CACHACA JOIA DA SERRA TRADICIONAL 1L",
-          "faturamento": 5972.21,
-          "quantidade": 223.0
-        },
-        {
-          "produto": "CACHACA JOIA DA SERRA OURO 1L",
-          "faturamento": 5301.6,
-          "quantidade": 219.0
+          "faturamento": 11169.4,
+          "quantidade": 66.0
         },
         {
           "produto": "YVY DESTILADO GIN TERRA 6X710ML LT",
-          "faturamento": 4944.04,
-          "quantidade": 25.0
+          "faturamento": 8139.38,
+          "quantidade": 43.0
+        },
+        {
+          "produto": "GIN MARINA ROSE 750ML",
+          "faturamento": 8022.25,
+          "quantidade": 194.0
+        },
+        {
+          "produto": "CACHACA JOIA DA SERRA TRADICIONAL 1L",
+          "faturamento": 6355.21,
+          "quantidade": 233.0
+        },
+        {
+          "produto": "CACHACA JOIA DA SERRA OURO 1L",
+          "faturamento": 5744.6,
+          "quantidade": 229.0
         },
         {
           "produto": "YVY DESTILADO GIN AR 710ML LT",
@@ -9302,8 +9493,8 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
         },
         {
           "produto": "ZIN TONICA 12X310ML",
-          "faturamento": 268.33,
-          "quantidade": 6.0
+          "faturamento": 314.28,
+          "quantidade": 7.0
         },
         {
           "produto": "ZIN TONICA ZERO 12X310ML",
@@ -9319,11 +9510,259 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
       "posicao": 36
     },
     {
+      "fantasia": "DADINHO",
+      "faturamento_ytd": 113391.11,
+      "participacao_pct": 0.14,
+      "media_mensal": 16198.73,
+      "clientes_positivados": 62,
+      "por_mes": {
+        "2026-03": 844.81,
+        "2026-04": 984.32,
+        "2026-05": 30748.9,
+        "2026-06": 10226.82,
+        "2026-07": 23350.3,
+        "2026-08": 41135.24,
+        "2026-09": 6100.72
+      },
+      "top_clientes": [
+        {
+          "codcli": "85400",
+          "estado": "ES",
+          "nome": "SUPERMERCADOS BH",
+          "faturamento": 9114.02
+        },
+        {
+          "codcli": "85424",
+          "estado": "ES",
+          "nome": "SUPERMERCADOS BH",
+          "faturamento": 8473.04
+        },
+        {
+          "codcli": "85433",
+          "estado": "ES",
+          "nome": "SUPERMERCADOS BH",
+          "faturamento": 8175.16
+        },
+        {
+          "codcli": "85438",
+          "estado": "ES",
+          "nome": "SUPERMERCADOS BH",
+          "faturamento": 7543.52
+        },
+        {
+          "codcli": "85436",
+          "estado": "ES",
+          "nome": "SUPERMERCADOS BH",
+          "faturamento": 6299.4
+        },
+        {
+          "codcli": "85432",
+          "estado": "ES",
+          "nome": "SUPERMERCADOS BH",
+          "faturamento": 6299.4
+        },
+        {
+          "codcli": "85420",
+          "estado": "ES",
+          "nome": "SUPERMERCADOS BH",
+          "faturamento": 6139.24
+        },
+        {
+          "codcli": "85401",
+          "estado": "ES",
+          "nome": "SUPERMERCADOS BH",
+          "faturamento": 5453.76
+        },
+        {
+          "codcli": "85403",
+          "estado": "ES",
+          "nome": "SUPERMERCADOS BH",
+          "faturamento": 4149.24
+        },
+        {
+          "codcli": "85418",
+          "estado": "ES",
+          "nome": "SUPERMERCADOS BH",
+          "faturamento": 4085.18
+        },
+        {
+          "codcli": "91292",
+          "estado": "ES",
+          "nome": "SUPERMERCADOS BH",
+          "faturamento": 3668.06
+        },
+        {
+          "codcli": "82283",
+          "estado": "ES",
+          "nome": "SUPERMERCADOS BH",
+          "faturamento": 3126.92
+        },
+        {
+          "codcli": "85427",
+          "estado": "ES",
+          "nome": "SUPERMERCADOS BH",
+          "faturamento": 3126.92
+        },
+        {
+          "codcli": "85428",
+          "estado": "ES",
+          "nome": "SUPERMERCADOS BH",
+          "faturamento": 3126.92
+        },
+        {
+          "codcli": "85410",
+          "estado": "ES",
+          "nome": "SUPERMERCADOS BH",
+          "faturamento": 2929.22
+        }
+      ],
+      "top_vendedores": [
+        {
+          "rca": "388",
+          "estado": "ES",
+          "nome": "EUDES MORGAN",
+          "faturamento": 111607.22
+        },
+        {
+          "rca": "370",
+          "estado": "ES",
+          "nome": "FRANZ BENEVIDES",
+          "faturamento": 697.71
+        },
+        {
+          "rca": "402",
+          "estado": "ES",
+          "nome": "GILDO ADRIANO",
+          "faturamento": 443.64
+        },
+        {
+          "rca": "342",
+          "estado": "ES",
+          "nome": "RICARDO CLAUDIO",
+          "faturamento": 204.57
+        },
+        {
+          "rca": "260",
+          "estado": "ES",
+          "nome": "DOUGLAS SCHADE",
+          "faturamento": 168.71
+        },
+        {
+          "rca": "442",
+          "estado": "ES",
+          "nome": "RAQUEL ARAUJO",
+          "faturamento": 82.96
+        },
+        {
+          "rca": "335",
+          "estado": "ES",
+          "nome": "MARA DEPOLLI",
+          "faturamento": 77.19
+        },
+        {
+          "rca": "257",
+          "estado": "ES",
+          "nome": "TIAGO SILVA",
+          "faturamento": 60.1
+        },
+        {
+          "rca": "336",
+          "estado": "ES",
+          "nome": "JEAN MENEZES",
+          "faturamento": 39.2
+        },
+        {
+          "rca": "440",
+          "estado": "ES",
+          "nome": "ALDICEIA PEIXOTO",
+          "faturamento": 9.81
+        }
+      ],
+      "top_produtos": [
+        {
+          "produto": "DP BOMBOM LOVERS AO LEITE CREAMY 660G",
+          "faturamento": 27475.2,
+          "quantidade": 960.0
+        },
+        {
+          "produto": "DP DADINHO ZERO ACUCAR 90G",
+          "faturamento": 23892.78,
+          "quantidade": 2665.0
+        },
+        {
+          "produto": "DP DADINHO TRAD 420GR",
+          "faturamento": 21649.32,
+          "quantidade": 1278.0
+        },
+        {
+          "produto": "DP DADINHO TRAD SACHE 90G",
+          "faturamento": 17324.0,
+          "quantidade": 2840.0
+        },
+        {
+          "produto": "DP BOMBOM DADINHO ESPEC 198G",
+          "faturamento": 13285.1,
+          "quantidade": 2014.0
+        },
+        {
+          "produto": "DP DADINHO BITZ AO LEITE 105G",
+          "faturamento": 8170.6,
+          "quantidade": 2117.0
+        },
+        {
+          "produto": "PACOCA GAMADINHO 100X15G",
+          "faturamento": 411.32,
+          "quantidade": 11.0
+        },
+        {
+          "produto": "DP PACOCA DADINHO ZERO 8X18G",
+          "faturamento": 346.12,
+          "quantidade": 38.0
+        },
+        {
+          "produto": "DP DADINHO BITZ BLACK 105G",
+          "faturamento": 251.4,
+          "quantidade": 45.0
+        },
+        {
+          "produto": "DP GAMADINHO TRAD 60G",
+          "faturamento": 193.27,
+          "quantidade": 54.0
+        },
+        {
+          "produto": "DP PACOCA GAMADINHO POTE 50X15G",
+          "faturamento": 169.3,
+          "quantidade": 6.0
+        },
+        {
+          "produto": "DP PACOCA DADINHO ZERO 24X18G",
+          "faturamento": 83.06,
+          "quantidade": 3.0
+        },
+        {
+          "produto": "DP BOMBOM GAMADINHO ESPEC 198G",
+          "faturamento": 45.89,
+          "quantidade": 4.0
+        },
+        {
+          "produto": "DP GAMADINHO TRAD 420G",
+          "faturamento": 35.33,
+          "quantidade": 2.0
+        },
+        {
+          "produto": "DP BOMBOM LOVERS AVELA 660G",
+          "faturamento": 35.25,
+          "quantidade": 1.0
+        }
+      ],
+      "posicao": 37
+    },
+    {
       "fantasia": "PERINI",
-      "faturamento_ytd": 101756.78,
-      "participacao_pct": 0.16,
-      "media_mensal": 14536.68,
-      "clientes_positivados": 33,
+      "faturamento_ytd": 108589.88,
+      "participacao_pct": 0.14,
+      "media_mensal": 12065.54,
+      "clientes_positivados": 39,
       "por_mes": {
         "2026-01": 7835.76,
         "2026-02": 9747.0,
@@ -9331,7 +9770,9 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
         "2026-04": 33698.58,
         "2026-05": 35649.6,
         "2026-06": 2486.25,
-        "2026-07": 2857.0
+        "2026-07": 2857.0,
+        "2026-08": 3441.8,
+        "2026-09": 3391.3
       },
       "top_clientes": [
         {
@@ -9389,6 +9830,12 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "faturamento": 2644.2
         },
         {
+          "codcli": "51128",
+          "estado": "SP",
+          "nome": "LUIZ STETNER GASTRONOMIA",
+          "faturamento": 2320.4
+        },
+        {
           "codcli": "46827",
           "estado": "SP",
           "nome": "EMPORIO ADEGA GLOBAL",
@@ -9417,12 +9864,6 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "estado": "SP",
           "nome": "HORTIFRUTI CELSO GARCIA",
           "faturamento": 1627.2
-        },
-        {
-          "codcli": "28991",
-          "estado": "SP",
-          "nome": "MRF DISTRIBUIDORA DE BEBIDAS E GENEROS ALIMENTICIOS",
-          "faturamento": 1331.28
         }
       ],
       "top_vendedores": [
@@ -9469,22 +9910,28 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "faturamento": 4741.92
         },
         {
-          "rca": "463",
-          "estado": "SP",
-          "nome": "ROBERTO DOS SANTOS",
-          "faturamento": 1884.6
-        },
-        {
           "rca": "460",
           "estado": "SP",
           "nome": "CRISTIANE MORAIS",
-          "faturamento": 1554.2
+          "faturamento": 3816.8
+        },
+        {
+          "rca": "489",
+          "estado": "SP",
+          "nome": "FERNANDO BERTIN",
+          "faturamento": 2355.7
         },
         {
           "rca": "476",
           "estado": "SP",
           "nome": "RODRIGO LIMA",
-          "faturamento": 941.85
+          "faturamento": 2210.85
+        },
+        {
+          "rca": "463",
+          "estado": "SP",
+          "nome": "ROBERTO DOS SANTOS",
+          "faturamento": 1884.6
         },
         {
           "rca": "469",
@@ -9493,50 +9940,44 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "faturamento": 861.6
         },
         {
-          "rca": "477",
+          "rca": "475",
           "estado": "SP",
-          "nome": "LUCIANO TOSCHI",
-          "faturamento": 430.8
-        },
-        {
-          "rca": "356",
-          "estado": "SP",
-          "nome": "ANA PAULA",
-          "faturamento": 418.8
+          "nome": "LUCAS BUENO",
+          "faturamento": 670.4
         },
         {
           "rca": "486",
           "estado": "SP",
           "nome": "LEONARDO FLOREZI",
-          "faturamento": 251.4
+          "faturamento": 514.8
         },
         {
-          "rca": "500",
+          "rca": "477",
           "estado": "SP",
-          "nome": "PAULO MOREIRA",
-          "faturamento": 245.4
+          "nome": "LUCIANO TOSCHI",
+          "faturamento": 430.8
         }
       ],
       "top_produtos": [
         {
           "produto": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
-          "faturamento": 42079.83,
-          "quantidade": 1174.0
+          "faturamento": 43755.83,
+          "quantidade": 1214.0
         },
         {
           "produto": "ESPUM CASA PERINI MOSCATEL 750ML",
-          "faturamento": 17856.27,
-          "quantidade": 535.0
+          "faturamento": 18933.67,
+          "quantidade": 561.0
         },
         {
           "produto": "ESPUM CASA PERINI BRUT 750ML",
-          "faturamento": 15393.12,
-          "quantidade": 436.0
+          "faturamento": 17667.72,
+          "quantidade": 490.0
         },
         {
           "produto": "ESPUM CASA PERINI BRUT ROSE 750ML",
-          "faturamento": 9499.16,
-          "quantidade": 266.0
+          "faturamento": 10516.76,
+          "quantidade": 290.0
         },
         {
           "produto": "ESPUM CASA PERINI DEMI-SEC 750ML",
@@ -9545,28 +9986,277 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
         },
         {
           "produto": "ESPUM CASA PERINI PROSECCO 750ML",
-          "faturamento": 6704.94,
-          "quantidade": 191.0
+          "faturamento": 6830.64,
+          "quantidade": 194.0
         },
         {
           "produto": "CASA PERINI DEMI-SEC ICE ROSE 750ML",
-          "faturamento": 1401.0,
-          "quantidade": 36.0
+          "faturamento": 1517.7,
+          "quantidade": 39.0
         },
         {
           "produto": "CASA PERINI DEMI-SEC ICE 750ML",
-          "faturamento": 559.26,
-          "quantidade": 15.0
+          "faturamento": 951.36,
+          "quantidade": 24.0
+        },
+        {
+          "produto": "ESPUM CASA PERINI CRISTAL EDITION 750ML",
+          "faturamento": 153.0,
+          "quantidade": 3.0
         }
       ],
-      "posicao": 37
+      "posicao": 38
+    },
+    {
+      "fantasia": "FABBRI",
+      "faturamento_ytd": 106167.17,
+      "participacao_pct": 0.13,
+      "media_mensal": 11796.35,
+      "clientes_positivados": 26,
+      "por_mes": {
+        "2026-01": 36083.74,
+        "2026-02": 1476.52,
+        "2026-03": 24882.86,
+        "2026-04": 13645.8,
+        "2026-05": 239.31,
+        "2026-06": 86.91,
+        "2026-07": 4905.46,
+        "2026-08": 22504.04,
+        "2026-09": 2342.52
+      },
+      "top_clientes": [
+        {
+          "codcli": "74376",
+          "estado": "ES",
+          "nome": "CARONE - GALPAO",
+          "faturamento": 84451.39
+        },
+        {
+          "codcli": "92928",
+          "estado": "ES",
+          "nome": "MODOLETTO",
+          "faturamento": 3699.54
+        },
+        {
+          "codcli": "20938",
+          "estado": "ES",
+          "nome": "SUPERMERCADOS PERIM",
+          "faturamento": 2319.6
+        },
+        {
+          "codcli": "77050",
+          "estado": "ES",
+          "nome": "T&C DO PRADO CASA DE CHA",
+          "faturamento": 1516.44
+        },
+        {
+          "codcli": "21155",
+          "estado": "ES",
+          "nome": "CORONEL PICANHA RESTAURANTE LTDA",
+          "faturamento": 1450.44
+        },
+        {
+          "codcli": "91153",
+          "estado": "ES",
+          "nome": "PEDE BIS HAMBURGUERIA",
+          "faturamento": 1299.5
+        },
+        {
+          "codcli": "20943",
+          "estado": "ES",
+          "nome": "SUPERMERCADOS  PERIM",
+          "faturamento": 1249.68
+        },
+        {
+          "codcli": "20942",
+          "estado": "ES",
+          "nome": "SUPERMERCADOS  PERIM",
+          "faturamento": 1147.08
+        },
+        {
+          "codcli": "20941",
+          "estado": "ES",
+          "nome": "SUPERMERCADOS  PERIM",
+          "faturamento": 1108.5
+        },
+        {
+          "codcli": "78311",
+          "estado": "ES",
+          "nome": "SUPERMERCADOS  PERIM",
+          "faturamento": 989.4
+        },
+        {
+          "codcli": "21132",
+          "estado": "ES",
+          "nome": "ILHA DO CARANGUEJO",
+          "faturamento": 957.24
+        },
+        {
+          "codcli": "20944",
+          "estado": "ES",
+          "nome": "SUPERMERCADOS PERIM",
+          "faturamento": 925.38
+        },
+        {
+          "codcli": "83943",
+          "estado": "ES",
+          "nome": "DI FAMIGLIA PIZZA BAR",
+          "faturamento": 725.39
+        },
+        {
+          "codcli": "89950",
+          "estado": "ES",
+          "nome": "AMERICAN COOKIES",
+          "faturamento": 645.56
+        },
+        {
+          "codcli": "94140",
+          "estado": "ES",
+          "nome": "RESTAURANTE E PESQUE-PAGUE DA LU",
+          "faturamento": 640.0
+        }
+      ],
+      "top_vendedores": [
+        {
+          "rca": "388",
+          "estado": "ES",
+          "nome": "EUDES MORGAN",
+          "faturamento": 51968.59
+        },
+        {
+          "rca": "230",
+          "estado": "ES",
+          "nome": "ENEIVA RODRIGUES",
+          "faturamento": 32482.8
+        },
+        {
+          "rca": "257",
+          "estado": "ES",
+          "nome": "TIAGO SILVA",
+          "faturamento": 6656.54
+        },
+        {
+          "rca": "370",
+          "estado": "ES",
+          "nome": "FRANZ BENEVIDES",
+          "faturamento": 4451.95
+        },
+        {
+          "rca": "508",
+          "estado": "ES",
+          "nome": "MARCELO DE SOUZA",
+          "faturamento": 3970.74
+        },
+        {
+          "rca": "260",
+          "estado": "ES",
+          "nome": "DOUGLAS SCHADE",
+          "faturamento": 3768.9
+        },
+        {
+          "rca": "402",
+          "estado": "ES",
+          "nome": "GILDO ADRIANO",
+          "faturamento": 2179.5
+        },
+        {
+          "rca": "268",
+          "estado": "ES",
+          "nome": "ROSENIR RIBEIRO",
+          "faturamento": 358.23
+        },
+        {
+          "rca": "335",
+          "estado": "ES",
+          "nome": "MARA DEPOLLI",
+          "faturamento": 329.92
+        }
+      ],
+      "top_produtos": [
+        {
+          "produto": "XAROPE FABBRI MACA VERDE 560ML",
+          "faturamento": 18887.66,
+          "quantidade": 388.0
+        },
+        {
+          "produto": "XAROPE FABBRI MORANGO 560ML",
+          "faturamento": 17450.27,
+          "quantidade": 426.0
+        },
+        {
+          "produto": "XAROPE FABBRI AMARENA ZERO ACUCAR 560ML",
+          "faturamento": 11494.4,
+          "quantidade": 260.0
+        },
+        {
+          "produto": "XAROPE FABBRI LIMAO 560ML",
+          "faturamento": 10989.3,
+          "quantidade": 267.0
+        },
+        {
+          "produto": "XAROPE FABBRI FRAMBOESA 560ML",
+          "faturamento": 10276.39,
+          "quantidade": 267.0
+        },
+        {
+          "produto": "XAROPE FABBRI AMARENA 560ML",
+          "faturamento": 8719.68,
+          "quantidade": 221.0
+        },
+        {
+          "produto": "XAROPE FABBRI MENTA ZERO 560ML",
+          "faturamento": 7000.02,
+          "quantidade": 161.0
+        },
+        {
+          "produto": "XAROPE FABBRI CRANBERRY 560ML",
+          "faturamento": 5305.5,
+          "quantidade": 138.0
+        },
+        {
+          "produto": "XAROPE FABBRI MORANGO PLUS 1L",
+          "faturamento": 3679.94,
+          "quantidade": 46.0
+        },
+        {
+          "produto": "XAROPE FABBRI LIMAO E KIWI 560ML",
+          "faturamento": 3518.5,
+          "quantidade": 16.0
+        },
+        {
+          "produto": "XAROPE FABBRI CRANBERRY 1L",
+          "faturamento": 1757.2,
+          "quantidade": 22.0
+        },
+        {
+          "produto": "XAROPE FABBRI GRENADINE 1L",
+          "faturamento": 1328.45,
+          "quantidade": 17.0
+        },
+        {
+          "produto": "XAROPE FABBRI TANGERINA 1L",
+          "faturamento": 1094.8,
+          "quantidade": 14.0
+        },
+        {
+          "produto": "XAROPE FABBRI MACA VERDE 1L",
+          "faturamento": 1088.1,
+          "quantidade": 14.0
+        },
+        {
+          "produto": "XAROPE FABBRI COCO PLUS 1L",
+          "faturamento": 957.24,
+          "quantidade": 12.0
+        }
+      ],
+      "posicao": 39
     },
     {
       "fantasia": "COMARY",
-      "faturamento_ytd": 91750.95,
-      "participacao_pct": 0.14,
-      "media_mensal": 13107.28,
-      "clientes_positivados": 252,
+      "faturamento_ytd": 95353.07,
+      "participacao_pct": 0.12,
+      "media_mensal": 10594.79,
+      "clientes_positivados": 261,
       "por_mes": {
         "2026-01": 13837.28,
         "2026-02": 12514.41,
@@ -9574,14 +10264,16 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
         "2026-04": 7802.21,
         "2026-05": 4724.08,
         "2026-06": 13223.88,
-        "2026-07": 23930.37
+        "2026-07": 23930.37,
+        "2026-08": 3145.42,
+        "2026-09": 456.7
       },
       "top_clientes": [
         {
           "codcli": "77937",
           "estado": "RJ",
           "nome": "HD DISTRIBUIDOR DE BEBIDAS & CONVENIENCI",
-          "faturamento": 4318.6
+          "faturamento": 4671.4
         },
         {
           "codcli": "95292",
@@ -9620,16 +10312,16 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "faturamento": 2796.0
         },
         {
+          "codcli": "89901",
+          "estado": "RJ",
+          "nome": "DANY STAR",
+          "faturamento": 2776.6
+        },
+        {
           "codcli": "48318",
           "estado": "SP",
           "nome": "KAÇULA CENTRO DE DISTRIBUIÇÃO",
           "faturamento": 2451.6
-        },
-        {
-          "codcli": "89901",
-          "estado": "RJ",
-          "nome": "DANY STAR",
-          "faturamento": 1977.6
         },
         {
           "codcli": "86503",
@@ -9642,6 +10334,12 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "estado": "RJ",
           "nome": "44.493.539 JONATHAN LOPES DE AGUIAR",
           "faturamento": 1558.7
+        },
+        {
+          "codcli": "69759",
+          "estado": "RJ",
+          "nome": "ATACADAO DAS BEBIDAS",
+          "faturamento": 1501.6
         },
         {
           "codcli": "50289",
@@ -9660,12 +10358,6 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "estado": "RJ",
           "nome": "REI DA EMPADA - PEDRA DE GUARATIBA",
           "faturamento": 1138.2
-        },
-        {
-          "codcli": "91059",
-          "estado": "RJ",
-          "nome": "MM CONVENIENCIA LTDA",
-          "faturamento": 1125.19
         }
       ],
       "top_vendedores": [
@@ -9703,25 +10395,25 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "rca": "241",
           "estado": "RJ",
           "nome": "ZEINALDO DE OLIVEIRA",
-          "faturamento": 6609.93
-        },
-        {
-          "rca": "419",
-          "estado": "RJ",
-          "nome": "NÁTALI DE OLIVEIRA",
-          "faturamento": 5862.12
-        },
-        {
-          "rca": "431",
-          "estado": "RJ",
-          "nome": "ADEILSON GONÇALVEZ",
-          "faturamento": 5236.99
+          "faturamento": 6759.83
         },
         {
           "rca": "378",
           "estado": "RJ",
           "nome": "FABIO VALOTTI",
-          "faturamento": 5127.47
+          "faturamento": 6331.07
+        },
+        {
+          "rca": "419",
+          "estado": "RJ",
+          "nome": "NÁTALI DE OLIVEIRA",
+          "faturamento": 6214.92
+        },
+        {
+          "rca": "431",
+          "estado": "RJ",
+          "nome": "ADEILSON GONÇALVEZ",
+          "faturamento": 5444.79
         },
         {
           "rca": "417",
@@ -9733,13 +10425,13 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "rca": "371",
           "estado": "SP",
           "nome": "CARLOS DE ALMEIDA",
-          "faturamento": 4171.68
+          "faturamento": 4654.44
         },
         {
           "rca": "379",
           "estado": "RJ",
           "nome": "JORGE MACIEL",
-          "faturamento": 3491.36
+          "faturamento": 3620.96
         },
         {
           "rca": "472",
@@ -9748,16 +10440,16 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "faturamento": 1999.82
         },
         {
+          "rca": "450",
+          "estado": "RJ",
+          "nome": "LEANDRO SOUZA",
+          "faturamento": 1902.68
+        },
+        {
           "rca": "327",
           "estado": "MG",
           "nome": "JOÃO SANTOS",
           "faturamento": 1884.8
-        },
-        {
-          "rca": "159",
-          "estado": "RJ",
-          "nome": "GISELLE BARFER",
-          "faturamento": 1866.14
         }
       ],
       "top_produtos": [
@@ -9778,13 +10470,18 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
         },
         {
           "produto": "CATUABA SELVAGEM 900ML",
-          "faturamento": 11395.7,
-          "quantidade": 866.0
+          "faturamento": 11491.0,
+          "quantidade": 873.0
         },
         {
           "produto": "COMARY MELFORT COQUETEL DE MEL 1L",
           "faturamento": 10239.73,
           "quantidade": 949.0
+        },
+        {
+          "produto": "CATUABA SELVAGEM ACAI 900ML",
+          "faturamento": 5463.07,
+          "quantidade": 432.0
         },
         {
           "produto": "CANTINA DA SERRA 750ML",
@@ -9793,13 +10490,13 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
         },
         {
           "produto": "CANTINA DA SERRA 1,5L",
-          "faturamento": 4858.07,
-          "quantidade": 560.0
+          "faturamento": 5056.77,
+          "quantidade": 582.0
         },
         {
-          "produto": "CATUABA SELVAGEM ACAI 900ML",
-          "faturamento": 4382.25,
-          "quantidade": 352.0
+          "produto": "COQUETEL  PINK MOON 12X600ML - VIDRO",
+          "faturamento": 3156.28,
+          "quantidade": 35.0
         },
         {
           "produto": "APERITIVO CAMPARI 998ML DEST",
@@ -9808,18 +10505,18 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
         },
         {
           "produto": "IMPERADOR 900ML",
-          "faturamento": 2356.32,
-          "quantidade": 233.0
-        },
-        {
-          "produto": "COQUETEL  PINK MOON 12X600ML - VIDRO",
-          "faturamento": 1547.38,
-          "quantidade": 16.0
+          "faturamento": 2495.52,
+          "quantidade": 245.0
         },
         {
           "produto": "VINHO CASA RODRIGUES TINTO SUAVE",
           "faturamento": 1036.1,
           "quantidade": 79.0
+        },
+        {
+          "produto": "SYN GALAXY MORANGO PESSEGO 24X275ML VD",
+          "faturamento": 687.2,
+          "quantidade": 12.0
         },
         {
           "produto": "SYN GALAXY LEMON 24X275ML VD",
@@ -9830,21 +10527,16 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "produto": "COQ. PINK MOON FRISANTE ROSE VD 12X750ML",
           "faturamento": 489.7,
           "quantidade": 3.0
-        },
-        {
-          "produto": "SYN GALAXY MORANGO PESSEGO 24X275ML VD",
-          "faturamento": 387.7,
-          "quantidade": 7.0
         }
       ],
-      "posicao": 38
+      "posicao": 40
     },
     {
       "fantasia": "51",
-      "faturamento_ytd": 86244.0,
-      "participacao_pct": 0.14,
-      "media_mensal": 12320.57,
-      "clientes_positivados": 179,
+      "faturamento_ytd": 91681.75,
+      "participacao_pct": 0.12,
+      "media_mensal": 10186.86,
+      "clientes_positivados": 195,
       "por_mes": {
         "2026-01": 33185.1,
         "2026-02": 9907.5,
@@ -9852,7 +10544,9 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
         "2026-04": 12834.14,
         "2026-05": 6356.06,
         "2026-06": 8555.1,
-        "2026-07": 6174.3
+        "2026-07": 6174.3,
+        "2026-08": 2994.62,
+        "2026-09": 2443.13
       },
       "top_clientes": [
         {
@@ -9877,7 +10571,7 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "codcli": "91059",
           "estado": "RJ",
           "nome": "MM CONVENIENCIA LTDA",
-          "faturamento": 2907.2
+          "faturamento": 3287.9
         },
         {
           "codcli": "84845",
@@ -9922,6 +10616,12 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "faturamento": 1266.84
         },
         {
+          "codcli": "82182",
+          "estado": "RJ",
+          "nome": "CAMILA LAROCCA DA COSTA",
+          "faturamento": 1255.2
+        },
+        {
           "codcli": "84064",
           "estado": "RJ",
           "nome": "CAMARA TRADICAO - SENADOR CAMARA",
@@ -9932,12 +10632,6 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "estado": "RJ",
           "nome": "MERCADO BELOT - EL RANCHITO",
           "faturamento": 1221.12
-        },
-        {
-          "codcli": "82182",
-          "estado": "RJ",
-          "nome": "CAMILA LAROCCA DA COSTA",
-          "faturamento": 1093.2
         },
         {
           "codcli": "90993",
@@ -9951,43 +10645,43 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "rca": "419",
           "estado": "RJ",
           "nome": "NÁTALI DE OLIVEIRA",
-          "faturamento": 17251.78
+          "faturamento": 17372.68
         },
         {
           "rca": "144",
           "estado": "RJ",
           "nome": "DIOGO RAPOSO",
-          "faturamento": 14510.88
+          "faturamento": 14659.68
         },
         {
           "rca": "159",
           "estado": "RJ",
           "nome": "GISELLE BARFER",
-          "faturamento": 12516.24
+          "faturamento": 12985.59
         },
         {
           "rca": "155",
           "estado": "RJ",
           "nome": "RAPHAEL SANTOS",
-          "faturamento": 9296.5
+          "faturamento": 9942.7
         },
         {
           "rca": "431",
           "estado": "RJ",
           "nome": "ADEILSON GONÇALVEZ",
-          "faturamento": 6981.06
-        },
-        {
-          "rca": "412",
-          "estado": "RJ",
-          "nome": "BARBARA CABRAL",
-          "faturamento": 6142.68
+          "faturamento": 7847.36
         },
         {
           "rca": "156",
           "estado": "RJ",
           "nome": "MARILENA TRAGEL",
-          "faturamento": 5470.8
+          "faturamento": 7430.9
+        },
+        {
+          "rca": "412",
+          "estado": "RJ",
+          "nome": "BARBARA CABRAL",
+          "faturamento": 6396.48
         },
         {
           "rca": "238",
@@ -9999,7 +10693,7 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "rca": "379",
           "estado": "RJ",
           "nome": "JORGE MACIEL",
-          "faturamento": 2591.08
+          "faturamento": 2821.0
         },
         {
           "rca": "417",
@@ -10011,7 +10705,7 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "rca": "439",
           "estado": "RJ",
           "nome": "MATEUS CARDOSO",
-          "faturamento": 1671.3
+          "faturamento": 1846.8
         },
         {
           "rca": "450",
@@ -10029,7 +10723,7 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "rca": "471",
           "estado": "RJ",
           "nome": "ANA CLARA FASSANO",
-          "faturamento": 774.9
+          "faturamento": 936.9
         },
         {
           "rca": "241",
@@ -10041,18 +10735,18 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
       "top_produtos": [
         {
           "produto": "PIRASSUNUNGA 51 965 ML",
-          "faturamento": 36317.04,
-          "quantidade": 2950.0
+          "faturamento": 38378.77,
+          "quantidade": 3106.0
         },
         {
           "produto": "ICE 51 LIMAO LONG NECK 24X275ML",
-          "faturamento": 20346.57,
-          "quantidade": 185.0
+          "faturamento": 23008.09,
+          "quantidade": 207.0
         },
         {
           "produto": "ICE 51 FRUIT LONG NECK 24X275 ML",
-          "faturamento": 11215.57,
-          "quantidade": 103.0
+          "faturamento": 11930.07,
+          "quantidade": 109.0
         },
         {
           "produto": "ICE 51 BALADA LONG NECK 24X275 ML",
@@ -10095,12 +10789,210 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "quantidade": 1.0
         }
       ],
-      "posicao": 39
+      "posicao": 41
+    },
+    {
+      "fantasia": "NSG",
+      "faturamento_ytd": 84225.78,
+      "participacao_pct": 0.11,
+      "media_mensal": 9358.42,
+      "clientes_positivados": 71,
+      "por_mes": {
+        "2026-01": 13218.78,
+        "2026-02": 8514.9,
+        "2026-03": 36936.9,
+        "2026-04": 6859.8,
+        "2026-05": 10720.7,
+        "2026-06": 1209.5,
+        "2026-07": 3386.7,
+        "2026-08": 2858.7,
+        "2026-09": 519.8
+      },
+      "top_clientes": [
+        {
+          "codcli": "37254",
+          "estado": "MG",
+          "nome": "REDE PARANAIBA",
+          "faturamento": 33840.0
+        },
+        {
+          "codcli": "30091",
+          "estado": "MG",
+          "nome": "COMERCIAL COLOMBO EIRELI",
+          "faturamento": 8221.1
+        },
+        {
+          "codcli": "33951",
+          "estado": "MG",
+          "nome": "RESTAURANTE LA TRAVIATA",
+          "faturamento": 5316.1
+        },
+        {
+          "codcli": "29872",
+          "estado": "MG",
+          "nome": "EST RISTORANTE",
+          "faturamento": 3898.5
+        },
+        {
+          "codcli": "37532",
+          "estado": "MG",
+          "nome": "BEM QUE TEM",
+          "faturamento": 3736.5
+        },
+        {
+          "codcli": "30409",
+          "estado": "MG",
+          "nome": "BEM QUE TEM",
+          "faturamento": 3736.5
+        },
+        {
+          "codcli": "29873",
+          "estado": "MG",
+          "nome": "EST TRATTORIA",
+          "faturamento": 3058.9
+        },
+        {
+          "codcli": "30538",
+          "estado": "MG",
+          "nome": "DAKI OFFICE BELO HORIZONTE",
+          "faturamento": 1582.8
+        },
+        {
+          "codcli": "33223",
+          "estado": "MG",
+          "nome": "BAIANA DO ACARAJE BAR E RESTAURANTE",
+          "faturamento": 1297.7
+        },
+        {
+          "codcli": "33295",
+          "estado": "MG",
+          "nome": "ARMAZEM BRASIL LIMITADA",
+          "faturamento": 899.4
+        },
+        {
+          "codcli": "37255",
+          "estado": "MG",
+          "nome": "ARMAZEM BRASIL LIMITADA",
+          "faturamento": 899.4
+        },
+        {
+          "codcli": "33293",
+          "estado": "MG",
+          "nome": "SUPERMERCADO BRASIL",
+          "faturamento": 899.4
+        },
+        {
+          "codcli": "33290",
+          "estado": "MG",
+          "nome": "SUPERMERCADO BRASIL",
+          "faturamento": 899.4
+        },
+        {
+          "codcli": "33288",
+          "estado": "MG",
+          "nome": "SUPERMERCADO BRASIL",
+          "faturamento": 899.4
+        },
+        {
+          "codcli": "33291",
+          "estado": "MG",
+          "nome": "ARMAZEM BRASIL LIMITADA",
+          "faturamento": 899.4
+        }
+      ],
+      "top_vendedores": [
+        {
+          "rca": "354",
+          "estado": "MG",
+          "nome": "MATHEUS DE SOUZA",
+          "faturamento": 38401.58
+        },
+        {
+          "rca": "327",
+          "estado": "MG",
+          "nome": "JOÃO SANTOS",
+          "faturamento": 25932.6
+        },
+        {
+          "rca": "362",
+          "estado": "MG",
+          "nome": "BRUNA CASTRO MELLO",
+          "faturamento": 7473.0
+        },
+        {
+          "rca": "349",
+          "estado": "MG",
+          "nome": "WILLIAM ALVES DA SILVA",
+          "faturamento": 5396.4
+        },
+        {
+          "rca": "335",
+          "estado": "MG",
+          "nome": "JANAIRA MARQUES",
+          "faturamento": 2817.3
+        },
+        {
+          "rca": "331",
+          "estado": "MG",
+          "nome": "SAVIO NETO",
+          "faturamento": 2520.8
+        },
+        {
+          "rca": "344",
+          "estado": "MG",
+          "nome": "TIAGO ANDRADE",
+          "faturamento": 1110.5
+        },
+        {
+          "rca": "360",
+          "estado": "MG",
+          "nome": "LEANDRO OLIVEIRA",
+          "faturamento": 573.6
+        }
+      ],
+      "top_produtos": [
+        {
+          "produto": "AZEITE DE OLIVA EV ESSENZA 500ML",
+          "faturamento": 51555.08,
+          "quantidade": 2176.0
+        },
+        {
+          "produto": "AZEITE DE OLIVA EV ESSENZA 5L",
+          "faturamento": 17958.1,
+          "quantidade": 71.0
+        },
+        {
+          "produto": "LICOR ESP DIEGO ZAMORA 43 700ML DEST",
+          "faturamento": 8734.28,
+          "quantidade": 58.0
+        },
+        {
+          "produto": "WHISKY JACK DANIELS 1L - DEST",
+          "faturamento": 2381.4,
+          "quantidade": 18.0
+        },
+        {
+          "produto": "APERITIVO APEROL 750 ML DEST",
+          "faturamento": 2219.1,
+          "quantidade": 39.0
+        },
+        {
+          "produto": "AZEITE DE OLIVA EV ESSENZA 250ML",
+          "faturamento": 781.12,
+          "quantidade": 44.0
+        },
+        {
+          "produto": "WHISKY BOURBON MAKERS MARK 750 ML DEST.",
+          "faturamento": 596.7,
+          "quantidade": 3.0
+        }
+      ],
+      "posicao": 42
     },
     {
       "fantasia": "RANCHEIRO",
       "faturamento_ytd": 83596.08,
-      "participacao_pct": 0.13,
+      "participacao_pct": 0.11,
       "media_mensal": 16719.22,
       "clientes_positivados": 140,
       "por_mes": {
@@ -10359,703 +11251,230 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "quantidade": 117.0
         }
       ],
-      "posicao": 40
-    },
-    {
-      "fantasia": "FABBRI",
-      "faturamento_ytd": 81320.6,
-      "participacao_pct": 0.13,
-      "media_mensal": 11617.23,
-      "clientes_positivados": 26,
-      "por_mes": {
-        "2026-01": 36083.74,
-        "2026-02": 1476.52,
-        "2026-03": 24882.86,
-        "2026-04": 13645.8,
-        "2026-05": 239.31,
-        "2026-06": 86.91,
-        "2026-07": 4905.46
-      },
-      "top_clientes": [
-        {
-          "codcli": "74376",
-          "estado": "ES",
-          "nome": "CARONE - GALPAO",
-          "faturamento": 61947.34
-        },
-        {
-          "codcli": "92928",
-          "estado": "ES",
-          "nome": "MODOLETTO",
-          "faturamento": 3699.54
-        },
-        {
-          "codcli": "20938",
-          "estado": "ES",
-          "nome": "SUPERMERCADOS PERIM",
-          "faturamento": 1799.04
-        },
-        {
-          "codcli": "77050",
-          "estado": "ES",
-          "nome": "T&C DO PRADO CASA DE CHA",
-          "faturamento": 1516.44
-        },
-        {
-          "codcli": "21155",
-          "estado": "ES",
-          "nome": "CORONEL PICANHA RESTAURANTE LTDA",
-          "faturamento": 1450.44
-        },
-        {
-          "codcli": "91153",
-          "estado": "ES",
-          "nome": "PEDE BIS HAMBURGUERIA",
-          "faturamento": 1299.5
-        },
-        {
-          "codcli": "20941",
-          "estado": "ES",
-          "nome": "SUPERMERCADOS  PERIM",
-          "faturamento": 1108.5
-        },
-        {
-          "codcli": "21132",
-          "estado": "ES",
-          "nome": "ILHA DO CARANGUEJO",
-          "faturamento": 957.24
-        },
-        {
-          "codcli": "20942",
-          "estado": "ES",
-          "nome": "SUPERMERCADOS  PERIM",
-          "faturamento": 886.8
-        },
-        {
-          "codcli": "83943",
-          "estado": "ES",
-          "nome": "DI FAMIGLIA PIZZA BAR",
-          "faturamento": 725.39
-        },
-        {
-          "codcli": "20944",
-          "estado": "ES",
-          "nome": "SUPERMERCADOS PERIM",
-          "faturamento": 665.1
-        },
-        {
-          "codcli": "89950",
-          "estado": "ES",
-          "nome": "AMERICAN COOKIES",
-          "faturamento": 645.56
-        },
-        {
-          "codcli": "94140",
-          "estado": "ES",
-          "nome": "RESTAURANTE E PESQUE-PAGUE DA LU",
-          "faturamento": 640.0
-        },
-        {
-          "codcli": "89997",
-          "estado": "ES",
-          "nome": "MELO COMERCIO",
-          "faturamento": 593.28
-        },
-        {
-          "codcli": "76303",
-          "estado": "ES",
-          "nome": "MR BEEF",
-          "faturamento": 563.25
-        }
-      ],
-      "top_vendedores": [
-        {
-          "rca": "230",
-          "estado": "ES",
-          "nome": "ENEIVA RODRIGUES",
-          "faturamento": 32482.8
-        },
-        {
-          "rca": "388",
-          "estado": "ES",
-          "nome": "EUDES MORGAN",
-          "faturamento": 29464.54
-        },
-        {
-          "rca": "257",
-          "estado": "ES",
-          "nome": "TIAGO SILVA",
-          "faturamento": 6656.54
-        },
-        {
-          "rca": "370",
-          "estado": "ES",
-          "nome": "FRANZ BENEVIDES",
-          "faturamento": 4451.95
-        },
-        {
-          "rca": "260",
-          "estado": "ES",
-          "nome": "DOUGLAS SCHADE",
-          "faturamento": 3768.9
-        },
-        {
-          "rca": "402",
-          "estado": "ES",
-          "nome": "GILDO ADRIANO",
-          "faturamento": 2179.5
-        },
-        {
-          "rca": "508",
-          "estado": "ES",
-          "nome": "MARCELO DE SOUZA",
-          "faturamento": 1628.22
-        },
-        {
-          "rca": "268",
-          "estado": "ES",
-          "nome": "ROSENIR RIBEIRO",
-          "faturamento": 358.23
-        },
-        {
-          "rca": "335",
-          "estado": "ES",
-          "nome": "MARA DEPOLLI",
-          "faturamento": 329.92
-        }
-      ],
-      "top_produtos": [
-        {
-          "produto": "XAROPE FABBRI MACA VERDE 560ML",
-          "faturamento": 16047.1,
-          "quantidade": 316.0
-        },
-        {
-          "produto": "XAROPE FABBRI MORANGO 560ML",
-          "faturamento": 12549.99,
-          "quantidade": 300.0
-        },
-        {
-          "produto": "XAROPE FABBRI AMARENA ZERO ACUCAR 560ML",
-          "faturamento": 7929.56,
-          "quantidade": 170.0
-        },
-        {
-          "produto": "XAROPE FABBRI AMARENA 560ML",
-          "faturamento": 7327.68,
-          "quantidade": 185.0
-        },
-        {
-          "produto": "XAROPE FABBRI FRAMBOESA 560ML",
-          "faturamento": 6564.39,
-          "quantidade": 171.0
-        },
-        {
-          "produto": "XAROPE FABBRI LIMAO 560ML",
-          "faturamento": 6032.46,
-          "quantidade": 141.0
-        },
-        {
-          "produto": "XAROPE FABBRI CRANBERRY 560ML",
-          "faturamento": 5305.5,
-          "quantidade": 138.0
-        },
-        {
-          "produto": "XAROPE FABBRI MORANGO PLUS 1L",
-          "faturamento": 3679.94,
-          "quantidade": 46.0
-        },
-        {
-          "produto": "XAROPE FABBRI MENTA ZERO 560ML",
-          "faturamento": 3519.99,
-          "quantidade": 71.0
-        },
-        {
-          "produto": "XAROPE FABBRI LIMAO E KIWI 560ML",
-          "faturamento": 3518.5,
-          "quantidade": 16.0
-        },
-        {
-          "produto": "XAROPE FABBRI CRANBERRY 1L",
-          "faturamento": 1757.2,
-          "quantidade": 22.0
-        },
-        {
-          "produto": "XAROPE FABBRI GRENADINE 1L",
-          "faturamento": 1328.45,
-          "quantidade": 17.0
-        },
-        {
-          "produto": "XAROPE FABBRI TANGERINA 1L",
-          "faturamento": 1094.8,
-          "quantidade": 14.0
-        },
-        {
-          "produto": "XAROPE FABBRI MACA VERDE 1L",
-          "faturamento": 1088.1,
-          "quantidade": 14.0
-        },
-        {
-          "produto": "XAROPE FABBRI COCO PLUS 1L",
-          "faturamento": 957.24,
-          "quantidade": 12.0
-        }
-      ],
-      "posicao": 41
-    },
-    {
-      "fantasia": "NSG",
-      "faturamento_ytd": 80847.28,
-      "participacao_pct": 0.13,
-      "media_mensal": 11549.61,
-      "clientes_positivados": 70,
-      "por_mes": {
-        "2026-01": 13218.78,
-        "2026-02": 8514.9,
-        "2026-03": 36936.9,
-        "2026-04": 6859.8,
-        "2026-05": 10720.7,
-        "2026-06": 1209.5,
-        "2026-07": 3386.7
-      },
-      "top_clientes": [
-        {
-          "codcli": "37254",
-          "estado": "MG",
-          "nome": "REDE PARANAIBA",
-          "faturamento": 33840.0
-        },
-        {
-          "codcli": "30091",
-          "estado": "MG",
-          "nome": "COMERCIAL COLOMBO EIRELI",
-          "faturamento": 6661.9
-        },
-        {
-          "codcli": "33951",
-          "estado": "MG",
-          "nome": "RESTAURANTE LA TRAVIATA",
-          "faturamento": 4536.4
-        },
-        {
-          "codcli": "29872",
-          "estado": "MG",
-          "nome": "EST RISTORANTE",
-          "faturamento": 3898.5
-        },
-        {
-          "codcli": "30409",
-          "estado": "MG",
-          "nome": "BEM QUE TEM",
-          "faturamento": 3736.5
-        },
-        {
-          "codcli": "37532",
-          "estado": "MG",
-          "nome": "BEM QUE TEM",
-          "faturamento": 3736.5
-        },
-        {
-          "codcli": "29873",
-          "estado": "MG",
-          "nome": "EST TRATTORIA",
-          "faturamento": 3058.9
-        },
-        {
-          "codcli": "30538",
-          "estado": "MG",
-          "nome": "DAKI OFFICE BELO HORIZONTE",
-          "faturamento": 1582.8
-        },
-        {
-          "codcli": "33223",
-          "estado": "MG",
-          "nome": "BAIANA DO ACARAJE BAR E RESTAURANTE",
-          "faturamento": 1037.8
-        },
-        {
-          "codcli": "37255",
-          "estado": "MG",
-          "nome": "ARMAZEM BRASIL LIMITADA",
-          "faturamento": 899.4
-        },
-        {
-          "codcli": "33293",
-          "estado": "MG",
-          "nome": "SUPERMERCADO BRASIL",
-          "faturamento": 899.4
-        },
-        {
-          "codcli": "33290",
-          "estado": "MG",
-          "nome": "SUPERMERCADO BRASIL",
-          "faturamento": 899.4
-        },
-        {
-          "codcli": "33288",
-          "estado": "MG",
-          "nome": "SUPERMERCADO BRASIL",
-          "faturamento": 899.4
-        },
-        {
-          "codcli": "33291",
-          "estado": "MG",
-          "nome": "ARMAZEM BRASIL LIMITADA",
-          "faturamento": 899.4
-        },
-        {
-          "codcli": "33295",
-          "estado": "MG",
-          "nome": "ARMAZEM BRASIL LIMITADA",
-          "faturamento": 899.4
-        }
-      ],
-      "top_vendedores": [
-        {
-          "rca": "354",
-          "estado": "MG",
-          "nome": "MATHEUS DE SOUZA",
-          "faturamento": 38401.58
-        },
-        {
-          "rca": "327",
-          "estado": "MG",
-          "nome": "JOÃO SANTOS",
-          "faturamento": 23073.9
-        },
-        {
-          "rca": "362",
-          "estado": "MG",
-          "nome": "BRUNA CASTRO MELLO",
-          "faturamento": 7473.0
-        },
-        {
-          "rca": "349",
-          "estado": "MG",
-          "nome": "WILLIAM ALVES DA SILVA",
-          "faturamento": 5396.4
-        },
-        {
-          "rca": "335",
-          "estado": "MG",
-          "nome": "JANAIRA MARQUES",
-          "faturamento": 2817.3
-        },
-        {
-          "rca": "331",
-          "estado": "MG",
-          "nome": "SAVIO NETO",
-          "faturamento": 2520.8
-        },
-        {
-          "rca": "344",
-          "estado": "MG",
-          "nome": "TIAGO ANDRADE",
-          "faturamento": 590.7
-        },
-        {
-          "rca": "360",
-          "estado": "MG",
-          "nome": "LEANDRO OLIVEIRA",
-          "faturamento": 573.6
-        }
-      ],
-      "top_produtos": [
-        {
-          "produto": "AZEITE DE OLIVA EV ESSENZA 500ML",
-          "faturamento": 51555.08,
-          "quantidade": 2176.0
-        },
-        {
-          "produto": "AZEITE DE OLIVA EV ESSENZA 5L",
-          "faturamento": 14579.6,
-          "quantidade": 58.0
-        },
-        {
-          "produto": "LICOR ESP DIEGO ZAMORA 43 700ML DEST",
-          "faturamento": 8734.28,
-          "quantidade": 58.0
-        },
-        {
-          "produto": "WHISKY JACK DANIELS 1L - DEST",
-          "faturamento": 2381.4,
-          "quantidade": 18.0
-        },
-        {
-          "produto": "APERITIVO APEROL 750 ML DEST",
-          "faturamento": 2219.1,
-          "quantidade": 39.0
-        },
-        {
-          "produto": "AZEITE DE OLIVA EV ESSENZA 250ML",
-          "faturamento": 781.12,
-          "quantidade": 44.0
-        },
-        {
-          "produto": "WHISKY BOURBON MAKERS MARK 750 ML DEST.",
-          "faturamento": 596.7,
-          "quantidade": 3.0
-        }
-      ],
-      "posicao": 42
-    },
-    {
-      "fantasia": "DADINHO",
-      "faturamento_ytd": 66155.15,
-      "participacao_pct": 0.1,
-      "media_mensal": 13231.03,
-      "clientes_positivados": 47,
-      "por_mes": {
-        "2026-03": 844.81,
-        "2026-04": 984.32,
-        "2026-05": 30748.9,
-        "2026-06": 10226.82,
-        "2026-07": 23350.3
-      },
-      "top_clientes": [
-        {
-          "codcli": "85433",
-          "estado": "ES",
-          "nome": "SUPERMERCADOS BH",
-          "faturamento": 6611.7
-        },
-        {
-          "codcli": "85424",
-          "estado": "ES",
-          "nome": "SUPERMERCADOS BH",
-          "faturamento": 6604.66
-        },
-        {
-          "codcli": "85436",
-          "estado": "ES",
-          "nome": "SUPERMERCADOS BH",
-          "faturamento": 6299.4
-        },
-        {
-          "codcli": "85432",
-          "estado": "ES",
-          "nome": "SUPERMERCADOS BH",
-          "faturamento": 6299.4
-        },
-        {
-          "codcli": "85400",
-          "estado": "ES",
-          "nome": "SUPERMERCADOS BH",
-          "faturamento": 5987.1
-        },
-        {
-          "codcli": "85438",
-          "estado": "ES",
-          "nome": "SUPERMERCADOS BH",
-          "faturamento": 5980.06
-        },
-        {
-          "codcli": "85418",
-          "estado": "ES",
-          "nome": "SUPERMERCADOS BH",
-          "faturamento": 4085.18
-        },
-        {
-          "codcli": "85401",
-          "estado": "ES",
-          "nome": "SUPERMERCADOS BH",
-          "faturamento": 3546.86
-        },
-        {
-          "codcli": "85420",
-          "estado": "ES",
-          "nome": "SUPERMERCADOS BH",
-          "faturamento": 3126.92
-        },
-        {
-          "codcli": "85403",
-          "estado": "ES",
-          "nome": "SUPERMERCADOS BH",
-          "faturamento": 2929.22
-        },
-        {
-          "codcli": "85410",
-          "estado": "ES",
-          "nome": "SUPERMERCADOS BH",
-          "faturamento": 2929.22
-        },
-        {
-          "codcli": "85411",
-          "estado": "ES",
-          "nome": "SUPERMERCADOS BH",
-          "faturamento": 2411.2
-        },
-        {
-          "codcli": "85896",
-          "estado": "ES",
-          "nome": "SUPERMERCADOS BH",
-          "faturamento": 1563.46
-        },
-        {
-          "codcli": "85439",
-          "estado": "ES",
-          "nome": "SUPERMERCADOS BH",
-          "faturamento": 1563.46
-        },
-        {
-          "codcli": "85437",
-          "estado": "ES",
-          "nome": "SUPERMERCADOS BH",
-          "faturamento": 1563.46
-        }
-      ],
-      "top_vendedores": [
-        {
-          "rca": "388",
-          "estado": "ES",
-          "nome": "EUDES MORGAN",
-          "faturamento": 64371.26
-        },
-        {
-          "rca": "370",
-          "estado": "ES",
-          "nome": "FRANZ BENEVIDES",
-          "faturamento": 697.71
-        },
-        {
-          "rca": "402",
-          "estado": "ES",
-          "nome": "GILDO ADRIANO",
-          "faturamento": 443.64
-        },
-        {
-          "rca": "342",
-          "estado": "ES",
-          "nome": "RICARDO CLAUDIO",
-          "faturamento": 204.57
-        },
-        {
-          "rca": "260",
-          "estado": "ES",
-          "nome": "DOUGLAS SCHADE",
-          "faturamento": 168.71
-        },
-        {
-          "rca": "442",
-          "estado": "ES",
-          "nome": "RAQUEL ARAUJO",
-          "faturamento": 82.96
-        },
-        {
-          "rca": "335",
-          "estado": "ES",
-          "nome": "MARA DEPOLLI",
-          "faturamento": 77.19
-        },
-        {
-          "rca": "257",
-          "estado": "ES",
-          "nome": "TIAGO SILVA",
-          "faturamento": 60.1
-        },
-        {
-          "rca": "336",
-          "estado": "ES",
-          "nome": "JEAN MENEZES",
-          "faturamento": 39.2
-        },
-        {
-          "rca": "440",
-          "estado": "ES",
-          "nome": "ALDICEIA PEIXOTO",
-          "faturamento": 9.81
-        }
-      ],
-      "top_produtos": [
-        {
-          "produto": "DP BOMBOM LOVERS AO LEITE CREAMY 660G",
-          "faturamento": 16828.56,
-          "quantidade": 588.0
-        },
-        {
-          "produto": "DP DADINHO ZERO ACUCAR 90G",
-          "faturamento": 13128.78,
-          "quantidade": 1465.0
-        },
-        {
-          "produto": "DP DADINHO TRAD 420GR",
-          "faturamento": 12501.72,
-          "quantidade": 738.0
-        },
-        {
-          "produto": "DP DADINHO TRAD SACHE 90G",
-          "faturamento": 10004.0,
-          "quantidade": 1640.0
-        },
-        {
-          "produto": "DP BOMBOM DADINHO ESPEC 198G",
-          "faturamento": 7354.1,
-          "quantidade": 1114.0
-        },
-        {
-          "produto": "DP DADINHO BITZ AO LEITE 105G",
-          "faturamento": 4961.8,
-          "quantidade": 1277.0
-        },
-        {
-          "produto": "PACOCA GAMADINHO 100X15G",
-          "faturamento": 411.32,
-          "quantidade": 11.0
-        },
-        {
-          "produto": "DP DADINHO BITZ BLACK 105G",
-          "faturamento": 251.4,
-          "quantidade": 45.0
-        },
-        {
-          "produto": "DP GAMADINHO TRAD 60G",
-          "faturamento": 193.27,
-          "quantidade": 54.0
-        },
-        {
-          "produto": "DP PACOCA GAMADINHO POTE 50X15G",
-          "faturamento": 169.3,
-          "quantidade": 6.0
-        },
-        {
-          "produto": "DP PACOCA DADINHO ZERO 8X18G",
-          "faturamento": 128.2,
-          "quantidade": 14.0
-        },
-        {
-          "produto": "DP PACOCA DADINHO ZERO 24X18G",
-          "faturamento": 83.06,
-          "quantidade": 3.0
-        },
-        {
-          "produto": "DP BOMBOM GAMADINHO ESPEC 198G",
-          "faturamento": 45.89,
-          "quantidade": 4.0
-        },
-        {
-          "produto": "DP GAMADINHO TRAD 420G",
-          "faturamento": 35.33,
-          "quantidade": 2.0
-        },
-        {
-          "produto": "DP BOMBOM LOVERS AVELA 660G",
-          "faturamento": 35.25,
-          "quantidade": 1.0
-        }
-      ],
       "posicao": 43
     },
     {
+      "fantasia": "CATUABA",
+      "faturamento_ytd": 60361.17,
+      "participacao_pct": 0.08,
+      "media_mensal": 6706.8,
+      "clientes_positivados": 136,
+      "por_mes": {
+        "2026-01": 3681.96,
+        "2026-02": 4706.1,
+        "2026-03": 7988.66,
+        "2026-04": 6140.58,
+        "2026-05": 10224.88,
+        "2026-06": 4704.89,
+        "2026-07": 11223.9,
+        "2026-08": 8588.8,
+        "2026-09": 3101.4
+      },
+      "top_clientes": [
+        {
+          "codcli": "95292",
+          "estado": "RJ",
+          "nome": "GALPAO DAS BEBIDAS CABOFRIO",
+          "faturamento": 7098.0
+        },
+        {
+          "codcli": "71195",
+          "estado": "RJ",
+          "nome": "ALTAS HORAS BAR E COMERCIO DE BEBIDAS",
+          "faturamento": 5781.0
+        },
+        {
+          "codcli": "77937",
+          "estado": "RJ",
+          "nome": "HD DISTRIBUIDOR DE BEBIDAS & CONVENIENCI",
+          "faturamento": 4360.2
+        },
+        {
+          "codcli": "93890",
+          "estado": "RJ",
+          "nome": "YURI BRAZ TOME DE SOUZA",
+          "faturamento": 4056.0
+        },
+        {
+          "codcli": "90484",
+          "estado": "RJ",
+          "nome": "MERCADO RC DE ITAGUAI",
+          "faturamento": 2461.68
+        },
+        {
+          "codcli": "2909",
+          "estado": "RJ",
+          "nome": "FILIAL GRANDE RIO",
+          "faturamento": 1896.0
+        },
+        {
+          "codcli": "74297",
+          "estado": "RJ",
+          "nome": "CONVENIENCIA BUZIANA LTDA",
+          "faturamento": 1587.6
+        },
+        {
+          "codcli": "95807",
+          "estado": "RJ",
+          "nome": "GUARATIBA SUPERMERCADO & ALIMENTOS",
+          "faturamento": 1526.4
+        },
+        {
+          "codcli": "84845",
+          "estado": "RJ",
+          "nome": "PEDRO HENRIQUE PAIVA CARNEIRO",
+          "faturamento": 1415.4
+        },
+        {
+          "codcli": "72989",
+          "estado": "RJ",
+          "nome": "ARMAZEM DO PEN - GUARATIBA",
+          "faturamento": 1216.8
+        },
+        {
+          "codcli": "84459",
+          "estado": "RJ",
+          "nome": "COLDBEER",
+          "faturamento": 1180.8
+        },
+        {
+          "codcli": "91059",
+          "estado": "RJ",
+          "nome": "MM CONVENIENCIA LTDA",
+          "faturamento": 1074.0
+        },
+        {
+          "codcli": "69759",
+          "estado": "RJ",
+          "nome": "ATACADAO DAS BEBIDAS",
+          "faturamento": 960.0
+        },
+        {
+          "codcli": "85451",
+          "estado": "RJ",
+          "nome": "MERCEARIA LEAO - ITANHANGA",
+          "faturamento": 954.0
+        },
+        {
+          "codcli": "77422",
+          "estado": "RJ",
+          "nome": "LUCRE BEM MERCEARIA - BANGU",
+          "faturamento": 954.0
+        }
+      ],
+      "top_vendedores": [
+        {
+          "rca": "155",
+          "estado": "RJ",
+          "nome": "RAPHAEL SANTOS",
+          "faturamento": 17220.28
+        },
+        {
+          "rca": "419",
+          "estado": "RJ",
+          "nome": "NÁTALI DE OLIVEIRA",
+          "faturamento": 9307.5
+        },
+        {
+          "rca": "144",
+          "estado": "RJ",
+          "nome": "DIOGO RAPOSO",
+          "faturamento": 8755.28
+        },
+        {
+          "rca": "378",
+          "estado": "RJ",
+          "nome": "FABIO VALOTTI",
+          "faturamento": 4353.55
+        },
+        {
+          "rca": "153",
+          "estado": "RJ",
+          "nome": "ANGELO NEVES SUZART",
+          "faturamento": 3816.96
+        },
+        {
+          "rca": "159",
+          "estado": "RJ",
+          "nome": "GISELLE BARFER",
+          "faturamento": 3232.1
+        },
+        {
+          "rca": "379",
+          "estado": "RJ",
+          "nome": "JORGE MACIEL",
+          "faturamento": 2941.5
+        },
+        {
+          "rca": "158",
+          "estado": "RJ",
+          "nome": "JOSE MARCELO CARDOSO",
+          "faturamento": 2760.84
+        },
+        {
+          "rca": "156",
+          "estado": "RJ",
+          "nome": "MARILENA TRAGEL",
+          "faturamento": 1763.6
+        },
+        {
+          "rca": "450",
+          "estado": "RJ",
+          "nome": "LEANDRO SOUZA",
+          "faturamento": 1338.96
+        },
+        {
+          "rca": "471",
+          "estado": "RJ",
+          "nome": "ANA CLARA FASSANO",
+          "faturamento": 1134.5
+        },
+        {
+          "rca": "431",
+          "estado": "RJ",
+          "nome": "ADEILSON GONÇALVEZ",
+          "faturamento": 1129.1
+        },
+        {
+          "rca": "238",
+          "estado": "RJ",
+          "nome": "DANIELLE MOURA",
+          "faturamento": 1042.8
+        },
+        {
+          "rca": "412",
+          "estado": "RJ",
+          "nome": "BARBARA CABRAL",
+          "faturamento": 920.4
+        },
+        {
+          "rca": "439",
+          "estado": "RJ",
+          "nome": "MATEUS CARDOSO",
+          "faturamento": 643.8
+        }
+      ],
+      "top_produtos": [
+        {
+          "produto": "COQUETEL BANANINHA REGGIANI 950ML",
+          "faturamento": 60361.17,
+          "quantidade": 3588.0
+        }
+      ],
+      "posicao": 44
+    },
+    {
       "fantasia": "NAVEIA",
-      "faturamento_ytd": 57701.6,
-      "participacao_pct": 0.09,
-      "media_mensal": 14425.4,
+      "faturamento_ytd": 58027.32,
+      "participacao_pct": 0.07,
+      "media_mensal": 11605.46,
       "clientes_positivados": 21,
       "por_mes": {
         "2026-04": 16792.2,
         "2026-05": 12588.6,
         "2026-06": 23962.69,
-        "2026-07": 4358.11
+        "2026-07": 4358.11,
+        "2026-08": 325.71
       },
       "top_clientes": [
         {
@@ -11172,7 +11591,7 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "rca": "458",
           "estado": "ES",
           "nome": "BRUNO COSMO",
-          "faturamento": 309.4
+          "faturamento": 635.11
         }
       ],
       "top_produtos": [
@@ -11183,8 +11602,8 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
         },
         {
           "produto": "NAVEIA BARISTA 12X1L",
-          "faturamento": 15547.59,
-          "quantidade": 104.0
+          "faturamento": 15873.31,
+          "quantidade": 106.0
         },
         {
           "produto": "NAVEIA CHOCOLATE 12X1L",
@@ -11197,12 +11616,12 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "quantidade": 54.0
         }
       ],
-      "posicao": 44
+      "posicao": 45
     },
     {
       "fantasia": "MONDELEZ",
       "faturamento_ytd": 56830.1,
-      "participacao_pct": 0.09,
+      "participacao_pct": 0.07,
       "media_mensal": 9471.68,
       "clientes_positivados": 157,
       "por_mes": {
@@ -11444,225 +11863,12 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "quantidade": 27.0
         }
       ],
-      "posicao": 45
-    },
-    {
-      "fantasia": "CATUABA",
-      "faturamento_ytd": 48934.97,
-      "participacao_pct": 0.08,
-      "media_mensal": 6990.71,
-      "clientes_positivados": 128,
-      "por_mes": {
-        "2026-01": 3681.96,
-        "2026-02": 4706.1,
-        "2026-03": 7988.66,
-        "2026-04": 6140.58,
-        "2026-05": 10224.88,
-        "2026-06": 4704.89,
-        "2026-07": 11487.9
-      },
-      "top_clientes": [
-        {
-          "codcli": "77937",
-          "estado": "RJ",
-          "nome": "HD DISTRIBUIDOR DE BEBIDAS & CONVENIENCI",
-          "faturamento": 4087.2
-        },
-        {
-          "codcli": "93890",
-          "estado": "RJ",
-          "nome": "YURI BRAZ TOME DE SOUZA",
-          "faturamento": 4056.0
-        },
-        {
-          "codcli": "71195",
-          "estado": "RJ",
-          "nome": "ALTAS HORAS BAR E COMERCIO DE BEBIDAS",
-          "faturamento": 2793.0
-        },
-        {
-          "codcli": "90484",
-          "estado": "RJ",
-          "nome": "MERCADO RC DE ITAGUAI",
-          "faturamento": 2461.68
-        },
-        {
-          "codcli": "2909",
-          "estado": "RJ",
-          "nome": "FILIAL GRANDE RIO",
-          "faturamento": 1896.0
-        },
-        {
-          "codcli": "74297",
-          "estado": "RJ",
-          "nome": "CONVENIENCIA BUZIANA LTDA",
-          "faturamento": 1587.6
-        },
-        {
-          "codcli": "95807",
-          "estado": "RJ",
-          "nome": "GUARATIBA SUPERMERCADO & ALIMENTOS",
-          "faturamento": 1526.4
-        },
-        {
-          "codcli": "84845",
-          "estado": "RJ",
-          "nome": "PEDRO HENRIQUE PAIVA CARNEIRO",
-          "faturamento": 1415.4
-        },
-        {
-          "codcli": "72989",
-          "estado": "RJ",
-          "nome": "ARMAZEM DO PEN - GUARATIBA",
-          "faturamento": 1216.8
-        },
-        {
-          "codcli": "84459",
-          "estado": "RJ",
-          "nome": "COLDBEER",
-          "faturamento": 1180.8
-        },
-        {
-          "codcli": "91059",
-          "estado": "RJ",
-          "nome": "MM CONVENIENCIA LTDA",
-          "faturamento": 1074.0
-        },
-        {
-          "codcli": "69759",
-          "estado": "RJ",
-          "nome": "ATACADAO DAS BEBIDAS",
-          "faturamento": 960.0
-        },
-        {
-          "codcli": "77422",
-          "estado": "RJ",
-          "nome": "LUCRE BEM MERCEARIA - BANGU",
-          "faturamento": 954.0
-        },
-        {
-          "codcli": "85451",
-          "estado": "RJ",
-          "nome": "MERCEARIA LEAO - ITANHANGA",
-          "faturamento": 954.0
-        },
-        {
-          "codcli": "90148",
-          "estado": "RJ",
-          "nome": "MATHEUS FONSECA PEREIRA",
-          "faturamento": 913.8
-        }
-      ],
-      "top_vendedores": [
-        {
-          "rca": "419",
-          "estado": "RJ",
-          "nome": "NÁTALI DE OLIVEIRA",
-          "faturamento": 9034.5
-        },
-        {
-          "rca": "144",
-          "estado": "RJ",
-          "nome": "DIOGO RAPOSO",
-          "faturamento": 8659.28
-        },
-        {
-          "rca": "155",
-          "estado": "RJ",
-          "nome": "RAPHAEL SANTOS",
-          "faturamento": 7020.88
-        },
-        {
-          "rca": "378",
-          "estado": "RJ",
-          "nome": "FABIO VALOTTI",
-          "faturamento": 4353.55
-        },
-        {
-          "rca": "153",
-          "estado": "RJ",
-          "nome": "ANGELO NEVES SUZART",
-          "faturamento": 3816.96
-        },
-        {
-          "rca": "159",
-          "estado": "RJ",
-          "nome": "GISELLE BARFER",
-          "faturamento": 3213.2
-        },
-        {
-          "rca": "158",
-          "estado": "RJ",
-          "nome": "JOSE MARCELO CARDOSO",
-          "faturamento": 2760.84
-        },
-        {
-          "rca": "379",
-          "estado": "RJ",
-          "nome": "JORGE MACIEL",
-          "faturamento": 2714.7
-        },
-        {
-          "rca": "156",
-          "estado": "RJ",
-          "nome": "MARILENA TRAGEL",
-          "faturamento": 1455.2
-        },
-        {
-          "rca": "450",
-          "estado": "RJ",
-          "nome": "LEANDRO SOUZA",
-          "faturamento": 1338.96
-        },
-        {
-          "rca": "471",
-          "estado": "RJ",
-          "nome": "ANA CLARA FASSANO",
-          "faturamento": 1134.5
-        },
-        {
-          "rca": "431",
-          "estado": "RJ",
-          "nome": "ADEILSON GONÇALVEZ",
-          "faturamento": 1109.8
-        },
-        {
-          "rca": "238",
-          "estado": "RJ",
-          "nome": "DANIELLE MOURA",
-          "faturamento": 1042.8
-        },
-        {
-          "rca": "439",
-          "estado": "RJ",
-          "nome": "MATEUS CARDOSO",
-          "faturamento": 643.8
-        },
-        {
-          "rca": "412",
-          "estado": "RJ",
-          "nome": "BARBARA CABRAL",
-          "faturamento": 636.0
-        }
-      ],
-      "top_produtos": [
-        {
-          "produto": "COQUETEL BANANINHA REGGIANI 950ML",
-          "faturamento": 48670.97,
-          "quantidade": 2900.0
-        },
-        {
-          "produto": "COQUETEL MENDORETTO 900ML",
-          "faturamento": 264.0,
-          "quantidade": 24.0
-        }
-      ],
       "posicao": 46
     },
     {
       "fantasia": "MACROEX",
       "faturamento_ytd": 37392.0,
-      "participacao_pct": 0.06,
+      "participacao_pct": 0.05,
       "media_mensal": 37392.0,
       "clientes_positivados": 1,
       "por_mes": {
@@ -11700,10 +11906,10 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
     },
     {
       "fantasia": "JURUPINGA",
-      "faturamento_ytd": 32993.25,
+      "faturamento_ytd": 36005.02,
       "participacao_pct": 0.05,
-      "media_mensal": 4713.32,
-      "clientes_positivados": 62,
+      "media_mensal": 4000.56,
+      "clientes_positivados": 74,
       "por_mes": {
         "2026-01": 105.96,
         "2026-02": 1748.4,
@@ -11711,7 +11917,9 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
         "2026-04": 1842.48,
         "2026-05": 10367.15,
         "2026-06": 8086.21,
-        "2026-07": 10149.44
+        "2026-07": 10149.44,
+        "2026-08": 2234.76,
+        "2026-09": 777.0
       },
       "top_clientes": [
         {
@@ -11737,6 +11945,12 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "estado": "SP",
           "nome": "SUPERMERCADO FERNANDES DE IGARACU",
           "faturamento": 1254.0
+        },
+        {
+          "codcli": "82099",
+          "estado": "RJ",
+          "nome": "EMPORIO CARIOCA",
+          "faturamento": 932.4
         },
         {
           "codcli": "95714",
@@ -11775,6 +11989,12 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "faturamento": 633.6
         },
         {
+          "codcli": "52451",
+          "estado": "SP",
+          "nome": "ADEGA DO VAL",
+          "faturamento": 621.6
+        },
+        {
           "codcli": "91484",
           "estado": "RJ",
           "nome": "MERCADO NOVA FAZENDA",
@@ -11791,18 +12011,6 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "estado": "SP",
           "nome": "MGP COMERCIO DE BEBIDAS DE LIMEIRA",
           "faturamento": 609.32
-        },
-        {
-          "codcli": "91507",
-          "estado": "RJ",
-          "nome": "MERCADO DO JOKA",
-          "faturamento": 573.6
-        },
-        {
-          "codcli": "85367",
-          "estado": "RJ",
-          "nome": "JOSE ROBERTO MELO PINHEIRO",
-          "faturamento": 552.0
         }
       ],
       "top_vendedores": [
@@ -11816,25 +12024,31 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "rca": "144",
           "estado": "RJ",
           "nome": "DIOGO RAPOSO",
-          "faturamento": 5869.6
+          "faturamento": 6008.0
         },
         {
           "rca": "419",
           "estado": "RJ",
           "nome": "NÁTALI DE OLIVEIRA",
-          "faturamento": 3205.1
+          "faturamento": 3515.9
         },
         {
           "rca": "468",
           "estado": "SP",
           "nome": "RENATO JUNIOR",
-          "faturamento": 2665.77
+          "faturamento": 2898.87
         },
         {
           "rca": "379",
           "estado": "RJ",
           "nome": "JORGE MACIEL",
-          "faturamento": 2269.1
+          "faturamento": 2579.9
+        },
+        {
+          "rca": "155",
+          "estado": "RJ",
+          "nome": "RAPHAEL SANTOS",
+          "faturamento": 1303.2
         },
         {
           "rca": "426",
@@ -11855,28 +12069,28 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "faturamento": 788.4
         },
         {
+          "rca": "439",
+          "estado": "RJ",
+          "nome": "MATEUS CARDOSO",
+          "faturamento": 745.2
+        },
+        {
           "rca": "431",
           "estado": "RJ",
           "nome": "ADEILSON GONÇALVEZ",
           "faturamento": 633.6
         },
         {
+          "rca": "512",
+          "estado": "SP",
+          "nome": "WILLIAM GONCALVES",
+          "faturamento": 621.6
+        },
+        {
           "rca": "153",
           "estado": "RJ",
           "nome": "ANGELO NEVES SUZART",
           "faturamento": 584.64
-        },
-        {
-          "rca": "439",
-          "estado": "RJ",
-          "nome": "MATEUS CARDOSO",
-          "faturamento": 434.4
-        },
-        {
-          "rca": "155",
-          "estado": "RJ",
-          "nome": "RAPHAEL SANTOS",
-          "faturamento": 370.8
         },
         {
           "rca": "476",
@@ -11889,34 +12103,30 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "estado": "SP",
           "nome": "LUCIANO TOSCHI",
           "faturamento": 304.66
-        },
-        {
-          "rca": "158",
-          "estado": "RJ",
-          "nome": "JOSE MARCELO CARDOSO",
-          "faturamento": 274.8
         }
       ],
       "top_produtos": [
         {
           "produto": "VINHO BRANCO JURUPINGA DINALLE 975 ML",
-          "faturamento": 32993.25,
-          "quantidade": 1388.0
+          "faturamento": 36005.02,
+          "quantidade": 1505.0
         }
       ],
       "posicao": 48
     },
     {
       "fantasia": "INVICTUS",
-      "faturamento_ytd": 24997.93,
-      "participacao_pct": 0.04,
-      "media_mensal": 6249.48,
-      "clientes_positivados": 38,
+      "faturamento_ytd": 27525.61,
+      "participacao_pct": 0.03,
+      "media_mensal": 4587.6,
+      "clientes_positivados": 41,
       "por_mes": {
         "2026-04": 1952.0,
         "2026-05": 16112.1,
         "2026-06": 4433.77,
-        "2026-07": 2500.06
+        "2026-07": 2500.06,
+        "2026-08": 2231.28,
+        "2026-09": 296.4
       },
       "top_clientes": [
         {
@@ -11924,6 +12134,12 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "estado": "RJ",
           "nome": "DEPOSITO DA LULU",
           "faturamento": 10700.4
+        },
+        {
+          "codcli": "94865",
+          "estado": "RJ",
+          "nome": "3D SALGADOS",
+          "faturamento": 1767.12
         },
         {
           "codcli": "86126",
@@ -11950,10 +12166,16 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "faturamento": 1331.4
         },
         {
-          "codcli": "94865",
+          "codcli": "59488",
           "estado": "RJ",
-          "nome": "3D SALGADOS",
-          "faturamento": 914.64
+          "nome": "ALEX MENDES MELLO",
+          "faturamento": 799.8
+        },
+        {
+          "codcli": "81236",
+          "estado": "RJ",
+          "nome": "DANIELE RODRIGUES FERREIRA",
+          "faturamento": 774.0
         },
         {
           "codcli": "91355",
@@ -11962,10 +12184,10 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "faturamento": 729.84
         },
         {
-          "codcli": "59488",
+          "codcli": "91693",
           "estado": "RJ",
-          "nome": "ALEX MENDES MELLO",
-          "faturamento": 475.2
+          "nome": "AUREA DOS SANTOS TEIXEIRA",
+          "faturamento": 545.7
         },
         {
           "codcli": "84572",
@@ -11980,21 +12202,9 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "faturamento": 466.6
         },
         {
-          "codcli": "91693",
-          "estado": "RJ",
-          "nome": "AUREA DOS SANTOS TEIXEIRA",
-          "faturamento": 428.1
-        },
-        {
           "codcli": "91759",
           "estado": "RJ",
           "nome": "ARMAZEN DAS BEBIDAS",
-          "faturamento": 416.4
-        },
-        {
-          "codcli": "81236",
-          "estado": "RJ",
-          "nome": "DANIELE RODRIGUES FERREIRA",
           "faturamento": 416.4
         },
         {
@@ -12015,13 +12225,13 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "rca": "379",
           "estado": "RJ",
           "nome": "JORGE MACIEL",
-          "faturamento": 16846.35
+          "faturamento": 18513.03
         },
         {
           "rca": "159",
           "estado": "RJ",
           "nome": "GISELLE BARFER",
-          "faturamento": 3099.7
+          "faturamento": 3457.3
         },
         {
           "rca": "144",
@@ -12033,7 +12243,7 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "rca": "439",
           "estado": "RJ",
           "nome": "MATEUS CARDOSO",
-          "faturamento": 868.9
+          "faturamento": 1372.3
         },
         {
           "rca": "431",
@@ -12081,33 +12291,33 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
       "top_produtos": [
         {
           "produto": "GIN INVICTUS MELANCIA 900ML",
-          "faturamento": 9169.77,
-          "quantidade": 719.0
+          "faturamento": 10031.37,
+          "quantidade": 783.0
         },
         {
           "produto": "GIN INVICTUS MACA VERDE 900ML",
-          "faturamento": 4108.57,
-          "quantidade": 317.0
+          "faturamento": 4431.25,
+          "quantidade": 341.0
         },
         {
           "produto": "GIN INVICTUS TRADICIONAL 900ML",
-          "faturamento": 3474.6,
-          "quantidade": 267.0
+          "faturamento": 4014.6,
+          "quantidade": 307.0
         },
         {
           "produto": "GIN INVICTUS TROPICAL 900ML",
-          "faturamento": 3419.79,
-          "quantidade": 262.0
+          "faturamento": 3870.39,
+          "quantidade": 296.0
         },
         {
           "produto": "SABOR DO SABOR GIN + COMBO MELANCIA",
-          "faturamento": 2540.7,
-          "quantidade": 270.0
+          "faturamento": 2658.3,
+          "quantidade": 282.0
         },
         {
           "produto": "SABOR DO SABOR WHISKY + COMBO TRAD",
-          "faturamento": 2206.1,
-          "quantidade": 232.0
+          "faturamento": 2441.3,
+          "quantidade": 256.0
         },
         {
           "produto": "SABOR DO SABOR GIN + COMBO TRADICIONAL",
@@ -12119,10 +12329,10 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
     },
     {
       "fantasia": "STOCK",
-      "faturamento_ytd": 22998.42,
-      "participacao_pct": 0.04,
-      "media_mensal": 3285.49,
-      "clientes_positivados": 67,
+      "faturamento_ytd": 24465.52,
+      "participacao_pct": 0.03,
+      "media_mensal": 2718.39,
+      "clientes_positivados": 77,
       "por_mes": {
         "2026-01": 1659.59,
         "2026-02": 2952.21,
@@ -12130,7 +12340,9 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
         "2026-04": 1883.58,
         "2026-05": 6322.42,
         "2026-06": 4318.43,
-        "2026-07": 3896.93
+        "2026-07": 3896.93,
+        "2026-08": 1320.3,
+        "2026-09": 146.8
       },
       "top_clientes": [
         {
@@ -12241,7 +12453,7 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "rca": "155",
           "estado": "RJ",
           "nome": "RAPHAEL SANTOS",
-          "faturamento": 3102.0
+          "faturamento": 3175.8
         },
         {
           "rca": "476",
@@ -12262,6 +12474,30 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "faturamento": 739.2
         },
         {
+          "rca": "371",
+          "estado": "SP",
+          "nome": "CARLOS DE ALMEIDA",
+          "faturamento": 603.82
+        },
+        {
+          "rca": "512",
+          "estado": "SP",
+          "nome": "WILLIAM GONCALVES",
+          "faturamento": 598.2
+        },
+        {
+          "rca": "486",
+          "estado": "SP",
+          "nome": "LEONARDO FLOREZI",
+          "faturamento": 502.92
+        },
+        {
+          "rca": "379",
+          "estado": "RJ",
+          "nome": "JORGE MACIEL",
+          "faturamento": 492.7
+        },
+        {
           "rca": "317",
           "estado": "SP",
           "nome": "ROBSON DA SILVA",
@@ -12272,24 +12508,6 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "estado": "RJ",
           "nome": "DANIELLE MOURA",
           "faturamento": 443.2
-        },
-        {
-          "rca": "486",
-          "estado": "SP",
-          "nome": "LEONARDO FLOREZI",
-          "faturamento": 401.22
-        },
-        {
-          "rca": "371",
-          "estado": "SP",
-          "nome": "CARLOS DE ALMEIDA",
-          "faturamento": 400.42
-        },
-        {
-          "rca": "512",
-          "estado": "SP",
-          "nome": "WILLIAM GONCALVES",
-          "faturamento": 394.8
         },
         {
           "rca": "460",
@@ -12308,12 +12526,6 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "estado": "RJ",
           "nome": "ZEINALDO DE OLIVEIRA",
           "faturamento": 295.2
-        },
-        {
-          "rca": "463",
-          "estado": "SP",
-          "nome": "ROBERTO DOS SANTOS",
-          "faturamento": 274.5
         }
       ],
       "top_produtos": [
@@ -12329,8 +12541,8 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
         },
         {
           "produto": "GIN SEAGERS 1LT",
-          "faturamento": 2441.94,
-          "quantidade": 79.0
+          "faturamento": 3295.44,
+          "quantidade": 104.0
         },
         {
           "produto": "LICOR STOCK CURACAU 720 ML",
@@ -12339,8 +12551,8 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
         },
         {
           "produto": "GIN SEAGERS 1L",
-          "faturamento": 1599.42,
-          "quantidade": 51.0
+          "faturamento": 1746.22,
+          "quantidade": 55.0
         },
         {
           "produto": "GIN SEAGERS 980ML",
@@ -12369,13 +12581,13 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
         },
         {
           "produto": "LICOR STOCK MORANGO 720 ML",
-          "faturamento": 449.18,
-          "quantidade": 12.0
+          "faturamento": 700.58,
+          "quantidade": 18.0
         },
         {
           "produto": "LICOR STOCK COCONUT 720 ML",
-          "faturamento": 423.79,
-          "quantidade": 12.0
+          "faturamento": 639.19,
+          "quantidade": 18.0
         },
         {
           "produto": "LICOR STOCK CHOCOLATE 720 ML",
@@ -12623,10 +12835,10 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
     },
     {
       "fantasia": "BETTER DRINKS",
-      "faturamento_ytd": 18937.42,
-      "participacao_pct": 0.03,
-      "media_mensal": 2705.35,
-      "clientes_positivados": 22,
+      "faturamento_ytd": 19745.68,
+      "participacao_pct": 0.02,
+      "media_mensal": 2193.96,
+      "clientes_positivados": 23,
       "por_mes": {
         "2026-01": 1989.0,
         "2026-02": 4996.42,
@@ -12634,7 +12846,9 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
         "2026-04": 1845.72,
         "2026-05": 1401.84,
         "2026-06": 85.08,
-        "2026-07": 404.88
+        "2026-07": 404.88,
+        "2026-08": 467.94,
+        "2026-09": 340.32
       },
       "top_clientes": [
         {
@@ -12653,7 +12867,7 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "codcli": "30040",
           "estado": "MG",
           "nome": "EDDIE FINE BURGUERS",
-          "faturamento": 1221.54
+          "faturamento": 1391.7
         },
         {
           "codcli": "30799",
@@ -12672,6 +12886,12 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "estado": "RJ",
           "nome": "GISELLE BARROS FERREIRA",
           "faturamento": 840.7
+        },
+        {
+          "codcli": "30043",
+          "estado": "MG",
+          "nome": "EDDIE FINE BURGUERS",
+          "faturamento": 829.2
         },
         {
           "codcli": "30082",
@@ -12698,9 +12918,9 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "faturamento": 519.6
         },
         {
-          "codcli": "30043",
+          "codcli": "30269",
           "estado": "MG",
-          "nome": "EDDIE FINE BURGUERS",
+          "nome": "EDDIE FINE BURGERS",
           "faturamento": 488.88
         },
         {
@@ -12720,12 +12940,6 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "estado": "MG",
           "nome": "PAGH EMPREENDIMENTOS E EVENTOS",
           "faturamento": 258.24
-        },
-        {
-          "codcli": "86028",
-          "estado": "RJ",
-          "nome": "PATO NA JANELA LOUNGE",
-          "faturamento": 241.5
         }
       ],
       "top_vendedores": [
@@ -12733,7 +12947,7 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "rca": "327",
           "estado": "MG",
           "nome": "JOÃO SANTOS",
-          "faturamento": 8154.18
+          "faturamento": 8962.44
         },
         {
           "rca": "335",
@@ -12763,8 +12977,8 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
       "top_produtos": [
         {
           "produto": "BAER MATE LN  6X350ML",
-          "faturamento": 5832.18,
-          "quantidade": 149.0
+          "faturamento": 6640.44,
+          "quantidade": 168.0
         },
         {
           "produto": "AGUA MAMBA C/ GAS 24X350ML",
@@ -12805,9 +13019,197 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
       "posicao": 52
     },
     {
+      "fantasia": "QUINTA DO NINO",
+      "faturamento_ytd": 16844.18,
+      "participacao_pct": 0.02,
+      "media_mensal": 8422.09,
+      "clientes_positivados": 18,
+      "por_mes": {
+        "2026-08": 15092.78,
+        "2026-09": 1751.4
+      },
+      "top_clientes": [
+        {
+          "codcli": "49381",
+          "estado": "SP",
+          "nome": "ESTACAO DA CERVEJA",
+          "faturamento": 8068.2
+        },
+        {
+          "codcli": "52272",
+          "estado": "SP",
+          "nome": "MERCADO AMARELO",
+          "faturamento": 2997.6
+        },
+        {
+          "codcli": "51080",
+          "estado": "SP",
+          "nome": "PRIMAVERA CONVENIENCIA",
+          "faturamento": 1334.4
+        },
+        {
+          "codcli": "51565",
+          "estado": "SP",
+          "nome": "HOUSE BEER ATACADO - FESTAS",
+          "faturamento": 750.6
+        },
+        {
+          "codcli": "52327",
+          "estado": "SP",
+          "nome": "ADEGA BARBOSA LTDA",
+          "faturamento": 749.4
+        },
+        {
+          "codcli": "51636",
+          "estado": "SP",
+          "nome": "MERCADO VITORIA",
+          "faturamento": 500.4
+        },
+        {
+          "codcli": "51893",
+          "estado": "SP",
+          "nome": "MERCADO ARAUJO II",
+          "faturamento": 333.6
+        },
+        {
+          "codcli": "51118",
+          "estado": "SP",
+          "nome": "MERCADINHO IMPERIAL",
+          "faturamento": 333.6
+        },
+        {
+          "codcli": "50820",
+          "estado": "SP",
+          "nome": "34.210.777 WALLACE AMAURI ARAUJO DAS VIRGENS",
+          "faturamento": 333.6
+        },
+        {
+          "codcli": "50467",
+          "estado": "SP",
+          "nome": "MERCADINHO MATO DENTRO",
+          "faturamento": 333.6
+        },
+        {
+          "codcli": "50834",
+          "estado": "SP",
+          "nome": "STOP BEER",
+          "faturamento": 250.2
+        },
+        {
+          "codcli": "46153",
+          "estado": "SP",
+          "nome": "KING BEBIDAS",
+          "faturamento": 166.8
+        },
+        {
+          "codcli": "51158",
+          "estado": "SP",
+          "nome": "R. P. SANTO COMERCIO DE GENEROS ALIMENTICIOS",
+          "faturamento": 166.8
+        },
+        {
+          "codcli": "51154",
+          "estado": "SP",
+          "nome": "R. P. SANTO COMERCIO DE GENEROS ALIMENTICIOS",
+          "faturamento": 166.8
+        },
+        {
+          "codcli": "52319",
+          "estado": "SP",
+          "nome": "GENIVAL COIMBRA",
+          "faturamento": 166.8
+        }
+      ],
+      "top_vendedores": [
+        {
+          "rca": "486",
+          "estado": "SP",
+          "nome": "LEONARDO FLOREZI",
+          "faturamento": 8902.2
+        },
+        {
+          "rca": "516",
+          "estado": "SP",
+          "nome": "JOAQUIM ANGELO",
+          "faturamento": 3913.8
+        },
+        {
+          "rca": "524",
+          "estado": "SP",
+          "nome": "AMAURY TARDOC",
+          "faturamento": 1334.4
+        },
+        {
+          "rca": "476",
+          "estado": "SP",
+          "nome": "RODRIGO LIMA",
+          "faturamento": 1000.8
+        },
+        {
+          "rca": "500",
+          "estado": "SP",
+          "nome": "PAULO MOREIRA",
+          "faturamento": 500.4
+        },
+        {
+          "rca": "433",
+          "estado": "SP",
+          "nome": "MANUELA ZAPPACOSTA",
+          "faturamento": 333.6
+        },
+        {
+          "rca": "507",
+          "estado": "SP",
+          "nome": "JOAO AUGUSTO",
+          "faturamento": 333.6
+        },
+        {
+          "rca": "468",
+          "estado": "SP",
+          "nome": "RENATO JUNIOR",
+          "faturamento": 333.6
+        },
+        {
+          "rca": "426",
+          "estado": "SP",
+          "nome": "ADER ALONSO",
+          "faturamento": 166.8
+        },
+        {
+          "rca": "492",
+          "estado": "SP",
+          "nome": "ANDERSON MOTTA",
+          "faturamento": 24.98
+        }
+      ],
+      "top_produtos": [
+        {
+          "produto": "GIN QN 900 ML MELANCIA",
+          "faturamento": 4769.72,
+          "quantidade": 380.0
+        },
+        {
+          "produto": "GIN QN 900 ML MAÇA",
+          "faturamento": 4528.78,
+          "quantidade": 358.0
+        },
+        {
+          "produto": "GIN QN 900 ML STAWBERRY",
+          "faturamento": 4003.4,
+          "quantidade": 320.0
+        },
+        {
+          "produto": "GIN QN 900 ML FRUTAS TROPICAIS",
+          "faturamento": 3542.28,
+          "quantidade": 282.0
+        }
+      ],
+      "posicao": 53
+    },
+    {
       "fantasia": "BANANINHA CARIOCA",
       "faturamento_ytd": 16727.21,
-      "participacao_pct": 0.03,
+      "participacao_pct": 0.02,
       "media_mensal": 2389.6,
       "clientes_positivados": 66,
       "por_mes": {
@@ -13004,31 +13406,33 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "quantidade": 207.0
         }
       ],
-      "posicao": 53
+      "posicao": 54
     },
     {
       "fantasia": "NOSSO CHOPE",
-      "faturamento_ytd": 11451.9,
+      "faturamento_ytd": 14711.2,
       "participacao_pct": 0.02,
-      "media_mensal": 3817.3,
-      "clientes_positivados": 44,
+      "media_mensal": 2942.24,
+      "clientes_positivados": 57,
       "por_mes": {
         "2026-05": 2073.4,
         "2026-06": 8044.9,
-        "2026-07": 1333.6
+        "2026-07": 1333.6,
+        "2026-08": 2260.3,
+        "2026-09": 999.0
       },
       "top_clientes": [
         {
           "codcli": "86503",
           "estado": "RJ",
           "nome": "DENILSON GOMES DOS SANTOS",
-          "faturamento": 2577.9
+          "faturamento": 3183.3
         },
         {
           "codcli": "78872",
           "estado": "RJ",
           "nome": "BAR E RESTAURANTE SOCIAL TRAPIA",
-          "faturamento": 954.4
+          "faturamento": 1287.4
         },
         {
           "codcli": "95332",
@@ -13037,16 +13441,16 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "faturamento": 888.0
         },
         {
+          "codcli": "94813",
+          "estado": "RJ",
+          "nome": "THAIS VIRGINIA NOGUEIRA",
+          "faturamento": 480.1
+        },
+        {
           "codcli": "94208",
           "estado": "RJ",
           "nome": "OPEN MINI MERCADO",
           "faturamento": 480.1
-        },
-        {
-          "codcli": "94813",
-          "estado": "RJ",
-          "nome": "THAIS VIRGINIA NOGUEIRA",
-          "faturamento": 379.2
         },
         {
           "codcli": "81253",
@@ -13059,6 +13463,12 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "estado": "RJ",
           "nome": "MINIMART",
           "faturamento": 354.8
+        },
+        {
+          "codcli": "604",
+          "estado": "RJ",
+          "nome": "POSTOS IATE COMÉRCIO E SERVIÇOS",
+          "faturamento": 333.0
         },
         {
           "codcli": "81685",
@@ -13079,34 +13489,28 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "faturamento": 266.1
         },
         {
+          "codcli": "14047",
+          "estado": "RJ",
+          "nome": "LOJA DE CONVENIENCIA CANARIO LTDA",
+          "faturamento": 222.0
+        },
+        {
+          "codcli": "79254",
+          "estado": "RJ",
+          "nome": "TRES PODERES - JD VINTE E CINCO DE AGOST",
+          "faturamento": 222.0
+        },
+        {
           "codcli": "92892",
           "estado": "RJ",
           "nome": "BIANCA BRASIL SANTIAGO",
           "faturamento": 201.8
         },
         {
-          "codcli": "2710",
+          "codcli": "15951",
           "estado": "RJ",
-          "nome": "VERDANO",
-          "faturamento": 177.4
-        },
-        {
-          "codcli": "94417",
-          "estado": "RJ",
-          "nome": "MULTI FRUTI PRINCIPE DO MAR",
-          "faturamento": 177.4
-        },
-        {
-          "codcli": "91751",
-          "estado": "RJ",
-          "nome": "PONTAO DO BISCOITO",
-          "faturamento": 177.4
-        },
-        {
-          "codcli": "95366",
-          "estado": "RJ",
-          "nome": "AUTO POSTO CREMONEZE",
-          "faturamento": 177.4
+          "nome": "CONVENIENCIA CENTENARIO DA VILA EIRELI",
+          "faturamento": 199.7
         }
       ],
       "top_vendedores": [
@@ -13114,13 +13518,19 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "rca": "144",
           "estado": "RJ",
           "nome": "DIOGO RAPOSO",
-          "faturamento": 4122.4
+          "faturamento": 4727.8
         },
         {
           "rca": "156",
           "estado": "RJ",
           "nome": "MARILENA TRAGEL",
-          "faturamento": 2143.6
+          "faturamento": 4252.6
+        },
+        {
+          "rca": "471",
+          "estado": "RJ",
+          "nome": "ANA CLARA FASSANO",
+          "faturamento": 1819.6
         },
         {
           "rca": "159",
@@ -13129,28 +13539,22 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "faturamento": 1701.1
         },
         {
-          "rca": "471",
+          "rca": "431",
           "estado": "RJ",
-          "nome": "ANA CLARA FASSANO",
-          "faturamento": 1486.6
+          "nome": "ADEILSON GONÇALVEZ",
+          "faturamento": 591.1
+        },
+        {
+          "rca": "419",
+          "estado": "RJ",
+          "nome": "NÁTALI DE OLIVEIRA",
+          "faturamento": 576.8
         },
         {
           "rca": "379",
           "estado": "RJ",
           "nome": "JORGE MACIEL",
           "faturamento": 531.8
-        },
-        {
-          "rca": "431",
-          "estado": "RJ",
-          "nome": "ADEILSON GONÇALVEZ",
-          "faturamento": 490.2
-        },
-        {
-          "rca": "419",
-          "estado": "RJ",
-          "nome": "NÁTALI DE OLIVEIRA",
-          "faturamento": 465.8
         },
         {
           "rca": "439",
@@ -13179,23 +13583,23 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
         },
         {
           "produto": "NOSSO CHOP RED DRAFT VD 6X600ML",
-          "faturamento": 3164.3,
-          "quantidade": 57.0
+          "faturamento": 5717.3,
+          "quantidade": 103.0
         },
         {
           "produto": "NOSSO CHOP RED DRAFT PET 6X1,5L",
-          "faturamento": 2522.5,
-          "quantidade": 25.0
+          "faturamento": 3228.8,
+          "quantidade": 32.0
         }
       ],
-      "posicao": 54
+      "posicao": 55
     },
     {
       "fantasia": "1883",
-      "faturamento_ytd": 10151.64,
+      "faturamento_ytd": 12946.04,
       "participacao_pct": 0.02,
-      "media_mensal": 1450.23,
-      "clientes_positivados": 33,
+      "media_mensal": 1438.45,
+      "clientes_positivados": 35,
       "por_mes": {
         "2026-01": 2023.9,
         "2026-02": 1101.8,
@@ -13203,20 +13607,34 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
         "2026-04": 2159.7,
         "2026-05": 1453.14,
         "2026-06": 1379.2,
-        "2026-07": 748.5
+        "2026-07": 748.5,
+        "2026-08": 1397.2,
+        "2026-09": 1397.2
       },
       "top_clientes": [
         {
           "codcli": "50624",
           "estado": "RJ",
           "nome": "MACAW BEACH BAR",
-          "faturamento": 2758.3
+          "faturamento": 3057.7
+        },
+        {
+          "codcli": "72102",
+          "estado": "RJ",
+          "nome": "ESPETARIA RECREIO",
+          "faturamento": 1497.0
         },
         {
           "codcli": "69759",
           "estado": "RJ",
           "nome": "ATACADAO DAS BEBIDAS",
           "faturamento": 1147.8
+        },
+        {
+          "codcli": "50636",
+          "estado": "RJ",
+          "nome": "WHISKERIA ROCINHA",
+          "faturamento": 898.2
         },
         {
           "codcli": "85585",
@@ -13231,10 +13649,10 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "faturamento": 628.8
         },
         {
-          "codcli": "72102",
+          "codcli": "76188",
           "estado": "RJ",
-          "nome": "ESPETARIA RECREIO",
-          "faturamento": 449.1
+          "nome": "4P RESTAURANTE E BAR 002",
+          "faturamento": 548.9
         },
         {
           "codcli": "76189",
@@ -13252,12 +13670,6 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "codcli": "13729",
           "estado": "RJ",
           "nome": "PRECO OTIMO SUPERMERCADO",
-          "faturamento": 299.4
-        },
-        {
-          "codcli": "76188",
-          "estado": "RJ",
-          "nome": "4P RESTAURANTE E BAR 002",
           "faturamento": 299.4
         },
         {
@@ -13285,16 +13697,10 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "faturamento": 249.5
         },
         {
-          "codcli": "86028",
+          "codcli": "77954",
           "estado": "RJ",
-          "nome": "PATO NA JANELA LOUNGE",
+          "nome": "THE FACE",
           "faturamento": 199.6
-        },
-        {
-          "codcli": "70267",
-          "estado": "RJ",
-          "nome": "HARU ROOFTOP LTDA",
-          "faturamento": 195.6
         }
       ],
       "top_vendedores": [
@@ -13302,19 +13708,25 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "rca": "159",
           "estado": "RJ",
           "nome": "GISELLE BARFER",
-          "faturamento": 4323.44
+          "faturamento": 5720.64
         },
         {
           "rca": "155",
           "estado": "RJ",
           "nome": "RAPHAEL SANTOS",
-          "faturamento": 4281.2
+          "faturamento": 4780.2
         },
         {
           "rca": "450",
           "estado": "RJ",
           "nome": "LEANDRO SOUZA",
           "faturamento": 1147.8
+        },
+        {
+          "rca": "378",
+          "estado": "RJ",
+          "nome": "FABIO VALOTTI",
+          "faturamento": 898.2
         },
         {
           "rca": "417",
@@ -13338,13 +13750,18 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
       "top_produtos": [
         {
           "produto": "XAROPE MONIN MORANGO (STRAWBERRY) 700ML",
-          "faturamento": 5305.3,
-          "quantidade": 109.0
+          "faturamento": 6453.0,
+          "quantidade": 132.0
         },
         {
           "produto": "XAROPE MONIN MACA VERDE (APPLE) 700 ML",
-          "faturamento": 1283.4,
-          "quantidade": 26.0
+          "faturamento": 2081.8,
+          "quantidade": 42.0
+        },
+        {
+          "produto": "XAROPE MONIN TANGERINA (MANDARIM) 700ML",
+          "faturamento": 992.0,
+          "quantidade": 20.0
         },
         {
           "produto": "XAROPE MONIN BAUNILHA (VANILLA) 700 ML",
@@ -13352,9 +13769,9 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "quantidade": 18.0
         },
         {
-          "produto": "XAROPE MONIN TANGERINA (MANDARIM) 700ML",
-          "faturamento": 842.3,
-          "quantidade": 17.0
+          "produto": "XAROPE MONIN GENGIBRE (GINGER) 700 ML",
+          "faturamento": 499.0,
+          "quantidade": 10.0
         },
         {
           "produto": "XAROPE MONIN CRANBERRY 700 ML",
@@ -13362,24 +13779,19 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "quantidade": 10.0
         },
         {
-          "produto": "XAROPE MONIN GRENADINE 700 ML",
-          "faturamento": 347.3,
-          "quantidade": 7.0
-        },
-        {
-          "produto": "XAROPE MONIN GENGIBRE (GINGER) 700 ML",
-          "faturamento": 299.4,
-          "quantidade": 6.0
-        },
-        {
           "produto": "XAROPE MONIN PESSEGO (PEACH) 700 ML",
-          "faturamento": 249.5,
-          "quantidade": 5.0
+          "faturamento": 449.1,
+          "quantidade": 9.0
         },
         {
           "produto": "XAROPE MONIN ABACAXI (PINEAPPLE) 700ML",
-          "faturamento": 149.7,
-          "quantidade": 3.0
+          "faturamento": 449.1,
+          "quantidade": 9.0
+        },
+        {
+          "produto": "XAROPE MONIN GRENADINE 700 ML",
+          "faturamento": 347.3,
+          "quantidade": 7.0
         },
         {
           "produto": "XAROPE 1883 DE ROSAS 1L",
@@ -13397,12 +13809,444 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "quantidade": 1.0
         }
       ],
-      "posicao": 55
+      "posicao": 56
+    },
+    {
+      "fantasia": "KIKKOMAN DO BRASIL",
+      "faturamento_ytd": 12103.03,
+      "participacao_pct": 0.02,
+      "media_mensal": 1729.0,
+      "clientes_positivados": 27,
+      "por_mes": {
+        "2026-01": 3538.56,
+        "2026-03": 354.95,
+        "2026-04": 544.84,
+        "2026-05": 3749.81,
+        "2026-06": 426.94,
+        "2026-08": 1767.13,
+        "2026-09": 1720.8
+      },
+      "top_clientes": [
+        {
+          "codcli": "23823",
+          "estado": "SP",
+          "nome": "FORT",
+          "faturamento": 3611.16
+        },
+        {
+          "codcli": "28991",
+          "estado": "SP",
+          "nome": "MRF DISTRIBUIDORA DE BEBIDAS E GENEROS ALIMENTICIOS",
+          "faturamento": 3538.56
+        },
+        {
+          "codcli": "52055",
+          "estado": "SP",
+          "nome": "LEVE FACIL",
+          "faturamento": 1434.0
+        },
+        {
+          "codcli": "52092",
+          "estado": "SP",
+          "nome": "MINIMERCADO CAPARROZ",
+          "faturamento": 573.6
+        },
+        {
+          "codcli": "30334",
+          "estado": "SP",
+          "nome": "ADEGA TONEL DO RUDGE",
+          "faturamento": 364.56
+        },
+        {
+          "codcli": "49990",
+          "estado": "SP",
+          "nome": "ADEGA EBURNEO VIVAN PARDINHO",
+          "faturamento": 310.8
+        },
+        {
+          "codcli": "51868",
+          "estado": "SP",
+          "nome": "SUPERMERCADOS M FARIA E R GRAVINA",
+          "faturamento": 286.8
+        },
+        {
+          "codcli": "32797",
+          "estado": "SP",
+          "nome": "EMPORIO DOS PRIMOS",
+          "faturamento": 180.28
+        },
+        {
+          "codcli": "50094",
+          "estado": "SP",
+          "nome": "BROTHERS BEER",
+          "faturamento": 178.8
+        },
+        {
+          "codcli": "50218",
+          "estado": "SP",
+          "nome": "L F DA SILVA MERCEARIA",
+          "faturamento": 178.8
+        },
+        {
+          "codcli": "51963",
+          "estado": "SP",
+          "nome": "MERCADO DO LAZARO",
+          "faturamento": 178.8
+        },
+        {
+          "codcli": "39053",
+          "estado": "SP",
+          "nome": "MERCADINHO DO COLMEIA",
+          "faturamento": 176.28
+        },
+        {
+          "codcli": "50531",
+          "estado": "SP",
+          "nome": "MINIMERCADO NASCER DO SOL",
+          "faturamento": 143.4
+        },
+        {
+          "codcli": "43382",
+          "estado": "SP",
+          "nome": "DAL GIARDINO RISTORANTE & EMPORIO",
+          "faturamento": 139.37
+        },
+        {
+          "codcli": "32421",
+          "estado": "SP",
+          "nome": "SUPERMERCADO BAHIA",
+          "faturamento": 132.21
+        }
+      ],
+      "top_vendedores": [
+        {
+          "rca": "426",
+          "estado": "SP",
+          "nome": "ADER ALONSO",
+          "faturamento": 4152.0
+        },
+        {
+          "rca": "425",
+          "estado": "SP",
+          "nome": "BRUNO BARBOSA",
+          "faturamento": 4037.01
+        },
+        {
+          "rca": "433",
+          "estado": "SP",
+          "nome": "MANUELA ZAPPACOSTA",
+          "faturamento": 1434.0
+        },
+        {
+          "rca": "461",
+          "estado": "SP",
+          "nome": "SUELY SANTOS",
+          "faturamento": 717.0
+        },
+        {
+          "rca": "460",
+          "estado": "SP",
+          "nome": "CRISTIANE MORAIS",
+          "faturamento": 473.74
+        },
+        {
+          "rca": "476",
+          "estado": "SP",
+          "nome": "RODRIGO LIMA",
+          "faturamento": 310.8
+        },
+        {
+          "rca": "500",
+          "estado": "SP",
+          "nome": "PAULO MOREIRA",
+          "faturamento": 286.8
+        },
+        {
+          "rca": "472",
+          "estado": "SP",
+          "nome": "FLAVIO RIBEIRO",
+          "faturamento": 191.01
+        },
+        {
+          "rca": "516",
+          "estado": "SP",
+          "nome": "JOAQUIM ANGELO",
+          "faturamento": 178.8
+        },
+        {
+          "rca": "367",
+          "estado": "SP",
+          "nome": "FABIANO RIBEIRO",
+          "faturamento": 132.21
+        },
+        {
+          "rca": "510",
+          "estado": "SP",
+          "nome": "ROSANA AFFONSO",
+          "faturamento": 47.8
+        },
+        {
+          "rca": "405",
+          "estado": "SP",
+          "nome": "JESSICA FREITAS",
+          "faturamento": 46.46
+        },
+        {
+          "rca": "468",
+          "estado": "SP",
+          "nome": "RENATO JUNIOR",
+          "faturamento": 35.8
+        },
+        {
+          "rca": "471",
+          "estado": "SP",
+          "nome": "PAULO JUNIOR",
+          "faturamento": 29.8
+        },
+        {
+          "rca": "486",
+          "estado": "SP",
+          "nome": "LEONARDO FLOREZI",
+          "faturamento": 29.8
+        }
+      ],
+      "top_produtos": [
+        {
+          "produto": "SAKE AZUMA KIRIN SOFT 740ML",
+          "faturamento": 7608.93,
+          "quantidade": 321.0
+        },
+        {
+          "produto": "SAKE AZUMA KIRIN COMUM 600ML",
+          "faturamento": 3184.46,
+          "quantidade": 212.0
+        },
+        {
+          "produto": "SAKE AZUMA KIRIN DOURADO 740ML",
+          "faturamento": 850.64,
+          "quantidade": 28.0
+        },
+        {
+          "produto": "SAKE AZUMA KIRIN GUINJO 740ML",
+          "faturamento": 459.0,
+          "quantidade": 6.0
+        }
+      ],
+      "posicao": 57
+    },
+    {
+      "fantasia": "DIALCOOL",
+      "faturamento_ytd": 11023.39,
+      "participacao_pct": 0.01,
+      "media_mensal": 1837.23,
+      "clientes_positivados": 11,
+      "por_mes": {
+        "2026-02": 2551.84,
+        "2026-03": 3742.62,
+        "2026-04": 279.69,
+        "2026-05": 684.9,
+        "2026-07": 1544.34,
+        "2026-08": 2220.0
+      },
+      "top_clientes": [
+        {
+          "codcli": "74376",
+          "estado": "ES",
+          "nome": "CARONE - GALPAO",
+          "faturamento": 7537.06
+        },
+        {
+          "codcli": "20932",
+          "estado": "ES",
+          "nome": "EXTRABOM SUPERMERCADOS",
+          "faturamento": 2220.0
+        },
+        {
+          "codcli": "71514",
+          "estado": "ES",
+          "nome": "OUTBACK STEAKHOUSE",
+          "faturamento": 279.69
+        },
+        {
+          "codcli": "20939",
+          "estado": "ES",
+          "nome": "SUPERMERCADOS  PERIM",
+          "faturamento": 131.88
+        },
+        {
+          "codcli": "20938",
+          "estado": "ES",
+          "nome": "SUPERMERCADOS PERIM",
+          "faturamento": 131.88
+        },
+        {
+          "codcli": "20941",
+          "estado": "ES",
+          "nome": "SUPERMERCADOS  PERIM",
+          "faturamento": 131.88
+        },
+        {
+          "codcli": "20942",
+          "estado": "ES",
+          "nome": "SUPERMERCADOS  PERIM",
+          "faturamento": 131.88
+        },
+        {
+          "codcli": "78311",
+          "estado": "ES",
+          "nome": "SUPERMERCADOS  PERIM",
+          "faturamento": 131.88
+        },
+        {
+          "codcli": "20943",
+          "estado": "ES",
+          "nome": "SUPERMERCADOS  PERIM",
+          "faturamento": 131.88
+        },
+        {
+          "codcli": "20944",
+          "estado": "ES",
+          "nome": "SUPERMERCADOS PERIM",
+          "faturamento": 131.76
+        },
+        {
+          "codcli": "79791",
+          "estado": "ES",
+          "nome": "MULTISHOW SUPERMERCADOS",
+          "faturamento": 63.6
+        }
+      ],
+      "top_vendedores": [
+        {
+          "rca": "388",
+          "estado": "ES",
+          "nome": "EUDES MORGAN",
+          "faturamento": 7537.06
+        },
+        {
+          "rca": "508",
+          "estado": "ES",
+          "nome": "MARCELO DE SOUZA",
+          "faturamento": 3143.04
+        },
+        {
+          "rca": "257",
+          "estado": "ES",
+          "nome": "TIAGO SILVA",
+          "faturamento": 279.69
+        },
+        {
+          "rca": "370",
+          "estado": "ES",
+          "nome": "FRANZ BENEVIDES",
+          "faturamento": 63.6
+        }
+      ],
+      "top_produtos": [
+        {
+          "produto": "SAQUE FUJI SECO 740ML",
+          "faturamento": 7203.33,
+          "quantidade": 347.0
+        },
+        {
+          "produto": "GIN TORQUAY PINK 750ML",
+          "faturamento": 3302.46,
+          "quantidade": 36.0
+        },
+        {
+          "produto": "GIN TONICA 275ML",
+          "faturamento": 485.8,
+          "quantidade": 5.0
+        },
+        {
+          "produto": "SAQUE FUJI SOFT 740ML",
+          "faturamento": 31.8,
+          "quantidade": 2.0
+        }
+      ],
+      "posicao": 58
+    },
+    {
+      "fantasia": "LYNV",
+      "faturamento_ytd": 10890.17,
+      "participacao_pct": 0.01,
+      "media_mensal": 3630.06,
+      "clientes_positivados": 4,
+      "por_mes": {
+        "2026-01": 104.01,
+        "2026-06": 386.12,
+        "2026-09": 10400.04
+      },
+      "top_clientes": [
+        {
+          "codcli": "6940",
+          "estado": "RJ",
+          "nome": "SUPERMERCADO GUANABARA - PADRE MIGUEL",
+          "faturamento": 10400.04
+        },
+        {
+          "codcli": "95223",
+          "estado": "RJ",
+          "nome": "DO IT - SUPLEMENTOS",
+          "faturamento": 231.2
+        },
+        {
+          "codcli": "91081",
+          "estado": "RJ",
+          "nome": "O ECONOMICO DA GAVEA LTDA",
+          "faturamento": 154.92
+        },
+        {
+          "codcli": "92344",
+          "estado": "RJ",
+          "nome": "MIX VIDA E SAUDE - BOTAFOGO",
+          "faturamento": 104.01
+        }
+      ],
+      "top_vendedores": [
+        {
+          "rca": "420",
+          "estado": "RJ",
+          "nome": "KELLY RAMOS",
+          "faturamento": 10400.04
+        },
+        {
+          "rca": "159",
+          "estado": "RJ",
+          "nome": "GISELLE BARFER",
+          "faturamento": 231.2
+        },
+        {
+          "rca": "471",
+          "estado": "RJ",
+          "nome": "ANA CLARA FASSANO",
+          "faturamento": 154.92
+        },
+        {
+          "rca": "378",
+          "estado": "RJ",
+          "nome": "FABIO VALOTTI",
+          "faturamento": 104.01
+        }
+      ],
+      "top_produtos": [
+        {
+          "produto": "LYNV AGUA DE COCO 12X330ML",
+          "faturamento": 6208.05,
+          "quantidade": 106.0
+        },
+        {
+          "produto": "LYNV AGUA DE COCO 12X1L",
+          "faturamento": 4682.12,
+          "quantidade": 37.0
+        }
+      ],
+      "posicao": 59
     },
     {
       "fantasia": "DRYCAT DESTLARIA LTDA",
       "faturamento_ytd": 9708.74,
-      "participacao_pct": 0.02,
+      "participacao_pct": 0.01,
       "media_mensal": 3236.25,
       "clientes_positivados": 34,
       "por_mes": {
@@ -13561,306 +14405,14 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "quantidade": 20.0
         }
       ],
-      "posicao": 56
-    },
-    {
-      "fantasia": "DIALCOOL",
-      "faturamento_ytd": 8803.39,
-      "participacao_pct": 0.01,
-      "media_mensal": 1760.68,
-      "clientes_positivados": 10,
-      "por_mes": {
-        "2026-02": 2551.84,
-        "2026-03": 3742.62,
-        "2026-04": 279.69,
-        "2026-05": 684.9,
-        "2026-07": 1544.34
-      },
-      "top_clientes": [
-        {
-          "codcli": "74376",
-          "estado": "ES",
-          "nome": "CARONE - GALPAO",
-          "faturamento": 7537.06
-        },
-        {
-          "codcli": "71514",
-          "estado": "ES",
-          "nome": "OUTBACK STEAKHOUSE",
-          "faturamento": 279.69
-        },
-        {
-          "codcli": "20939",
-          "estado": "ES",
-          "nome": "SUPERMERCADOS  PERIM",
-          "faturamento": 131.88
-        },
-        {
-          "codcli": "20938",
-          "estado": "ES",
-          "nome": "SUPERMERCADOS PERIM",
-          "faturamento": 131.88
-        },
-        {
-          "codcli": "20941",
-          "estado": "ES",
-          "nome": "SUPERMERCADOS  PERIM",
-          "faturamento": 131.88
-        },
-        {
-          "codcli": "20942",
-          "estado": "ES",
-          "nome": "SUPERMERCADOS  PERIM",
-          "faturamento": 131.88
-        },
-        {
-          "codcli": "78311",
-          "estado": "ES",
-          "nome": "SUPERMERCADOS  PERIM",
-          "faturamento": 131.88
-        },
-        {
-          "codcli": "20943",
-          "estado": "ES",
-          "nome": "SUPERMERCADOS  PERIM",
-          "faturamento": 131.88
-        },
-        {
-          "codcli": "20944",
-          "estado": "ES",
-          "nome": "SUPERMERCADOS PERIM",
-          "faturamento": 131.76
-        },
-        {
-          "codcli": "79791",
-          "estado": "ES",
-          "nome": "MULTISHOW SUPERMERCADOS",
-          "faturamento": 63.6
-        }
-      ],
-      "top_vendedores": [
-        {
-          "rca": "388",
-          "estado": "ES",
-          "nome": "EUDES MORGAN",
-          "faturamento": 7537.06
-        },
-        {
-          "rca": "508",
-          "estado": "ES",
-          "nome": "MARCELO DE SOUZA",
-          "faturamento": 923.04
-        },
-        {
-          "rca": "257",
-          "estado": "ES",
-          "nome": "TIAGO SILVA",
-          "faturamento": 279.69
-        },
-        {
-          "rca": "370",
-          "estado": "ES",
-          "nome": "FRANZ BENEVIDES",
-          "faturamento": 63.6
-        }
-      ],
-      "top_produtos": [
-        {
-          "produto": "SAQUE FUJI SECO 740ML",
-          "faturamento": 4983.33,
-          "quantidade": 227.0
-        },
-        {
-          "produto": "GIN TORQUAY PINK 750ML",
-          "faturamento": 3302.46,
-          "quantidade": 36.0
-        },
-        {
-          "produto": "GIN TONICA 275ML",
-          "faturamento": 485.8,
-          "quantidade": 5.0
-        },
-        {
-          "produto": "SAQUE FUJI SOFT 740ML",
-          "faturamento": 31.8,
-          "quantidade": 2.0
-        }
-      ],
-      "posicao": 57
-    },
-    {
-      "fantasia": "KIKKOMAN DO BRASIL",
-      "faturamento_ytd": 8615.1,
-      "participacao_pct": 0.01,
-      "media_mensal": 1723.02,
-      "clientes_positivados": 13,
-      "por_mes": {
-        "2026-01": 3538.56,
-        "2026-03": 354.95,
-        "2026-04": 544.84,
-        "2026-05": 3749.81,
-        "2026-06": 426.94
-      },
-      "top_clientes": [
-        {
-          "codcli": "23823",
-          "estado": "SP",
-          "nome": "FORT",
-          "faturamento": 3611.16
-        },
-        {
-          "codcli": "28991",
-          "estado": "SP",
-          "nome": "MRF DISTRIBUIDORA DE BEBIDAS E GENEROS ALIMENTICIOS",
-          "faturamento": 3538.56
-        },
-        {
-          "codcli": "30334",
-          "estado": "SP",
-          "nome": "ADEGA TONEL DO RUDGE",
-          "faturamento": 364.56
-        },
-        {
-          "codcli": "49990",
-          "estado": "SP",
-          "nome": "ADEGA EBURNEO VIVAN PARDINHO",
-          "faturamento": 310.8
-        },
-        {
-          "codcli": "32797",
-          "estado": "SP",
-          "nome": "EMPORIO DOS PRIMOS",
-          "faturamento": 180.28
-        },
-        {
-          "codcli": "39053",
-          "estado": "SP",
-          "nome": "MERCADINHO DO COLMEIA",
-          "faturamento": 176.28
-        },
-        {
-          "codcli": "32421",
-          "estado": "SP",
-          "nome": "SUPERMERCADO BAHIA",
-          "faturamento": 132.21
-        },
-        {
-          "codcli": "51128",
-          "estado": "SP",
-          "nome": "LUIZ STETNER GASTRONOMIA",
-          "faturamento": 116.14
-        },
-        {
-          "codcli": "34109",
-          "estado": "SP",
-          "nome": "BARRANCO EXPRESS",
-          "faturamento": 46.46
-        },
-        {
-          "codcli": "50527",
-          "estado": "SP",
-          "nome": "MARCELO SALLES LEITE MINIMERCADO",
-          "faturamento": 44.08
-        },
-        {
-          "codcli": "50310",
-          "estado": "SP",
-          "nome": "ESPACO GRIL RESTAURANTE PIZZARIA",
-          "faturamento": 35.8
-        },
-        {
-          "codcli": "50451",
-          "estado": "SP",
-          "nome": "MERCEARIA DO SOUZA",
-          "faturamento": 29.39
-        },
-        {
-          "codcli": "50355",
-          "estado": "SP",
-          "nome": "MERCADINHO DELUCAS",
-          "faturamento": 29.38
-        }
-      ],
-      "top_vendedores": [
-        {
-          "rca": "426",
-          "estado": "SP",
-          "nome": "ADER ALONSO",
-          "faturamento": 4152.0
-        },
-        {
-          "rca": "425",
-          "estado": "SP",
-          "nome": "BRUNO BARBOSA",
-          "faturamento": 3718.84
-        },
-        {
-          "rca": "476",
-          "estado": "SP",
-          "nome": "RODRIGO LIMA",
-          "faturamento": 310.8
-        },
-        {
-          "rca": "367",
-          "estado": "SP",
-          "nome": "FABIANO RIBEIRO",
-          "faturamento": 132.21
-        },
-        {
-          "rca": "460",
-          "estado": "SP",
-          "nome": "CRISTIANE MORAIS",
-          "faturamento": 116.14
-        },
-        {
-          "rca": "472",
-          "estado": "SP",
-          "nome": "FLAVIO RIBEIRO",
-          "faturamento": 102.85
-        },
-        {
-          "rca": "405",
-          "estado": "SP",
-          "nome": "JESSICA FREITAS",
-          "faturamento": 46.46
-        },
-        {
-          "rca": "468",
-          "estado": "SP",
-          "nome": "RENATO JUNIOR",
-          "faturamento": 35.8
-        }
-      ],
-      "top_produtos": [
-        {
-          "produto": "SAKE AZUMA KIRIN SOFT 740ML",
-          "faturamento": 4983.96,
-          "quantidade": 211.0
-        },
-        {
-          "produto": "SAKE AZUMA KIRIN COMUM 600ML",
-          "faturamento": 2321.5,
-          "quantidade": 154.0
-        },
-        {
-          "produto": "SAKE AZUMA KIRIN DOURADO 740ML",
-          "faturamento": 850.64,
-          "quantidade": 28.0
-        },
-        {
-          "produto": "SAKE AZUMA KIRIN GUINJO 740ML",
-          "faturamento": 459.0,
-          "quantidade": 6.0
-        }
-      ],
-      "posicao": 58
+      "posicao": 60
     },
     {
       "fantasia": "SELETA",
-      "faturamento_ytd": 7704.4,
+      "faturamento_ytd": 9499.7,
       "participacao_pct": 0.01,
-      "media_mensal": 1100.63,
-      "clientes_positivados": 24,
+      "media_mensal": 1055.52,
+      "clientes_positivados": 27,
       "por_mes": {
         "2026-01": 1046.6,
         "2026-02": 400.1,
@@ -13868,7 +14420,9 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
         "2026-04": 458.8,
         "2026-05": 1704.0,
         "2026-06": 1236.8,
-        "2026-07": 1877.3
+        "2026-07": 1877.3,
+        "2026-08": 1690.6,
+        "2026-09": 104.7
       },
       "top_clientes": [
         {
@@ -13878,16 +14432,28 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "faturamento": 1122.5
         },
         {
+          "codcli": "32808",
+          "estado": "MG",
+          "nome": "RESTAURANTE E PESTISQUEIRA PEIXE FRITO",
+          "faturamento": 837.6
+        },
+        {
           "codcli": "39182",
           "estado": "MG",
           "nome": "CANAA COMERCIO DE ALIMENTOS LTDA",
           "faturamento": 747.9
         },
         {
+          "codcli": "31624",
+          "estado": "MG",
+          "nome": "CLUBE PALMEIRAS",
+          "faturamento": 718.2
+        },
+        {
           "codcli": "38643",
           "estado": "MG",
           "nome": "SEU BRAZ",
-          "faturamento": 568.6
+          "faturamento": 688.3
         },
         {
           "codcli": "34663",
@@ -13902,22 +14468,16 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "faturamento": 538.8
         },
         {
-          "codcli": "31624",
+          "codcli": "30341",
           "estado": "MG",
-          "nome": "CLUBE PALMEIRAS",
-          "faturamento": 478.8
+          "nome": "DISTRIBUIDORA DE BEBIDAS PINGUIM",
+          "faturamento": 523.5
         },
         {
           "codcli": "38983",
           "estado": "MG",
           "nome": "MERCEARIA OLIVEIRA",
           "faturamento": 442.8
-        },
-        {
-          "codcli": "30341",
-          "estado": "MG",
-          "nome": "DISTRIBUIDORA DE BEBIDAS PINGUIM",
-          "faturamento": 418.8
         },
         {
           "codcli": "35229",
@@ -13944,22 +14504,16 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "faturamento": 282.6
         },
         {
+          "codcli": "32768",
+          "estado": "MG",
+          "nome": "BAR E PETISQUEIRA PADRE ROLIM",
+          "faturamento": 269.4
+        },
+        {
           "codcli": "34920",
           "estado": "MG",
           "nome": "RESTAURANTE BETANIA",
           "faturamento": 269.4
-        },
-        {
-          "codcli": "34348",
-          "estado": "MG",
-          "nome": "SUPERMERCADO PRISMA",
-          "faturamento": 209.4
-        },
-        {
-          "codcli": "39058",
-          "estado": "MG",
-          "nome": "SUPERMERCADO PRISMA",
-          "faturamento": 209.4
         }
       ],
       "top_vendedores": [
@@ -13967,13 +14521,13 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "rca": "327",
           "estado": "MG",
           "nome": "JOÃO SANTOS",
-          "faturamento": 2252.7
+          "faturamento": 3943.3
         },
         {
           "rca": "344",
           "estado": "MG",
           "nome": "TIAGO ANDRADE",
-          "faturamento": 2179.8
+          "faturamento": 2284.5
         },
         {
           "rca": "331",
@@ -13997,18 +14551,18 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
       "top_produtos": [
         {
           "produto": "CACHACA SELETA 1000ML",
-          "faturamento": 3993.3,
-          "quantidade": 90.0
-        },
-        {
-          "produto": "CACHACA SELETA PRATA 1000ML",
-          "faturamento": 1510.2,
-          "quantidade": 38.0
+          "faturamento": 4487.2,
+          "quantidade": 101.0
         },
         {
           "produto": "CACHACA SELETA 600ML",
-          "faturamento": 1500.7,
-          "quantidade": 43.0
+          "faturamento": 2443.0,
+          "quantidade": 70.0
+        },
+        {
+          "produto": "CACHACA SELETA PRATA 1000ML",
+          "faturamento": 1869.3,
+          "quantidade": 47.0
         },
         {
           "produto": "CACHACA BOAZINHA 1000ML",
@@ -14016,14 +14570,14 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "quantidade": 18.0
         }
       ],
-      "posicao": 59
+      "posicao": 61
     },
     {
       "fantasia": "BOAZINHA",
-      "faturamento_ytd": 6934.16,
+      "faturamento_ytd": 8115.86,
       "participacao_pct": 0.01,
-      "media_mensal": 990.59,
-      "clientes_positivados": 17,
+      "media_mensal": 1014.48,
+      "clientes_positivados": 18,
       "por_mes": {
         "2026-01": 1249.64,
         "2026-02": 1169.74,
@@ -14031,9 +14585,16 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
         "2026-04": 1546.84,
         "2026-05": 662.64,
         "2026-06": 519.6,
-        "2026-07": 1017.7
+        "2026-07": 1017.7,
+        "2026-08": 1181.7
       },
       "top_clientes": [
+        {
+          "codcli": "90632",
+          "estado": "RJ",
+          "nome": "CAIS E PORTO GASTRONOMIA",
+          "faturamento": 1149.6
+        },
         {
           "codcli": "92280",
           "estado": "RJ",
@@ -14047,10 +14608,10 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "faturamento": 888.12
         },
         {
-          "codcli": "90632",
+          "codcli": "74979",
           "estado": "RJ",
-          "nome": "CAIS E PORTO GASTRONOMIA",
-          "faturamento": 781.5
+          "nome": "CLEVERSON CARLOS SANTOS LIMA",
+          "faturamento": 813.6
         },
         {
           "codcli": "57633",
@@ -14117,12 +14678,6 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "estado": "ES",
           "nome": "BGP COMERCIO",
           "faturamento": 93.82
-        },
-        {
-          "codcli": "80175",
-          "estado": "RJ",
-          "nome": "MESTRE DAVID",
-          "faturamento": 59.0
         }
       ],
       "top_vendedores": [
@@ -14133,16 +14688,22 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "faturamento": 1859.5
         },
         {
+          "rca": "155",
+          "estado": "RJ",
+          "nome": "RAPHAEL SANTOS",
+          "faturamento": 1640.4
+        },
+        {
           "rca": "450",
           "estado": "RJ",
           "nome": "LEANDRO SOUZA",
           "faturamento": 1550.76
         },
         {
-          "rca": "155",
+          "rca": "439",
           "estado": "RJ",
-          "nome": "RAPHAEL SANTOS",
-          "faturamento": 1272.3
+          "nome": "MATEUS CARDOSO",
+          "faturamento": 813.6
         },
         {
           "rca": "268",
@@ -14190,8 +14751,8 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
       "top_produtos": [
         {
           "produto": "CACHACA SELETA PRATA 1L",
-          "faturamento": 3439.84,
-          "quantidade": 94.0
+          "faturamento": 4621.54,
+          "quantidade": 127.0
         },
         {
           "produto": "CACHACA SELETA 600ML",
@@ -14204,7 +14765,132 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "quantidade": 18.0
         }
       ],
-      "posicao": 60
+      "posicao": 62
+    },
+    {
+      "fantasia": "RIO DE JANEIRO",
+      "faturamento_ytd": 4939.0,
+      "participacao_pct": 0.01,
+      "media_mensal": 1646.33,
+      "clientes_positivados": 10,
+      "por_mes": {
+        "2026-07": 1436.8,
+        "2026-08": 3143.0,
+        "2026-09": 359.2
+      },
+      "top_clientes": [
+        {
+          "codcli": "80151",
+          "estado": "RJ",
+          "nome": "G & D ALIMENTOS E BEBIDAS",
+          "faturamento": 2694.0
+        },
+        {
+          "codcli": "95780",
+          "estado": "RJ",
+          "nome": "MIX GARDEN CAFE",
+          "faturamento": 898.0
+        },
+        {
+          "codcli": "50648",
+          "estado": "RJ",
+          "nome": "RACAFFIT",
+          "faturamento": 493.9
+        },
+        {
+          "codcli": "82182",
+          "estado": "RJ",
+          "nome": "CAMILA LAROCCA DA COSTA",
+          "faturamento": 269.4
+        },
+        {
+          "codcli": "84257",
+          "estado": "RJ",
+          "nome": "LONDON SOCIETY",
+          "faturamento": 134.7
+        },
+        {
+          "codcli": "50853",
+          "estado": "RJ",
+          "nome": "VIP'S MOTEL SOCIEDADE UNIPESSOAL",
+          "faturamento": 89.8
+        },
+        {
+          "codcli": "79753",
+          "estado": "RJ",
+          "nome": "OSTERIA BY 74",
+          "faturamento": 89.8
+        },
+        {
+          "codcli": "90999",
+          "estado": "RJ",
+          "nome": "DROGARIA MAIS SAUDE",
+          "faturamento": 89.8
+        },
+        {
+          "codcli": "91673",
+          "estado": "RJ",
+          "nome": "STUDIO CAR",
+          "faturamento": 89.8
+        },
+        {
+          "codcli": "96035",
+          "estado": "RJ",
+          "nome": "ARMAZEM DON VICENCO",
+          "faturamento": 89.8
+        }
+      ],
+      "top_vendedores": [
+        {
+          "rca": "159",
+          "estado": "RJ",
+          "nome": "GISELLE BARFER",
+          "faturamento": 3726.7
+        },
+        {
+          "rca": "378",
+          "estado": "RJ",
+          "nome": "FABIO VALOTTI",
+          "faturamento": 493.9
+        },
+        {
+          "rca": "155",
+          "estado": "RJ",
+          "nome": "RAPHAEL SANTOS",
+          "faturamento": 359.2
+        },
+        {
+          "rca": "431",
+          "estado": "RJ",
+          "nome": "ADEILSON GONÇALVEZ",
+          "faturamento": 179.6
+        },
+        {
+          "rca": "144",
+          "estado": "RJ",
+          "nome": "DIOGO RAPOSO",
+          "faturamento": 89.8
+        },
+        {
+          "rca": "471",
+          "estado": "RJ",
+          "nome": "ANA CLARA FASSANO",
+          "faturamento": 89.8
+        }
+      ],
+      "top_produtos": [
+        {
+          "produto": "REFRIGERANTE COCA-COLA ZERO LT 12X350ML",
+          "faturamento": 2828.7,
+          "quantidade": 63.0
+        },
+        {
+          "produto": "REFRIGERANTE COCA-COLA LT 12X350ML",
+          "faturamento": 2110.3,
+          "quantidade": 47.0
+        }
+      ],
+      "posicao": 63
     },
     {
       "fantasia": "TOP BIRRA",
@@ -14395,21 +15081,22 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "quantidade": 3.0
         }
       ],
-      "posicao": 61
+      "posicao": 64
     },
     {
       "fantasia": "SALINAS",
-      "faturamento_ytd": 4506.8,
+      "faturamento_ytd": 4784.2,
       "participacao_pct": 0.01,
-      "media_mensal": 751.13,
-      "clientes_positivados": 15,
+      "media_mensal": 683.46,
+      "clientes_positivados": 17,
       "por_mes": {
         "2026-01": 734.4,
         "2026-03": 901.6,
         "2026-04": 1110.5,
         "2026-05": 501.8,
         "2026-06": 354.3,
-        "2026-07": 904.2
+        "2026-07": 904.2,
+        "2026-08": 277.4
       },
       "top_clientes": [
         {
@@ -14455,6 +15142,12 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "faturamento": 216.0
         },
         {
+          "codcli": "90632",
+          "estado": "RJ",
+          "nome": "CAIS E PORTO GASTRONOMIA",
+          "faturamento": 170.7
+        },
+        {
           "codcli": "93342",
           "estado": "RJ",
           "nome": "SUPERMERCADO TRADIÇÃO RJ",
@@ -14479,28 +15172,22 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "faturamento": 99.8
         },
         {
+          "codcli": "90346",
+          "estado": "RJ",
+          "nome": "FLAUSINO'S BAR E REFEICOES - GUARATIBA",
+          "faturamento": 96.8
+        },
+        {
+          "codcli": "80494",
+          "estado": "RJ",
+          "nome": "ATAC VAR N S FATIMA",
+          "faturamento": 75.8
+        },
+        {
           "codcli": "67668",
           "estado": "RJ",
           "nome": "R R RESTAURANTE CARIOCA",
           "faturamento": 69.8
-        },
-        {
-          "codcli": "78995",
-          "estado": "RJ",
-          "nome": "JACQUELINE LOURENCO DA SILVA",
-          "faturamento": 66.0
-        },
-        {
-          "codcli": "90346",
-          "estado": "RJ",
-          "nome": "FLAUSINO'S BAR E REFEICOES - GUARATIBA",
-          "faturamento": 65.9
-        },
-        {
-          "codcli": "90244",
-          "estado": "RJ",
-          "nome": "RENATA DA SILVA CABRAL",
-          "faturamento": 30.9
         }
       ],
       "top_vendedores": [
@@ -14508,7 +15195,7 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "rca": "155",
           "estado": "RJ",
           "nome": "RAPHAEL SANTOS",
-          "faturamento": 1864.0
+          "faturamento": 2034.7
         },
         {
           "rca": "158",
@@ -14550,7 +15237,13 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "rca": "419",
           "estado": "RJ",
           "nome": "NÁTALI DE OLIVEIRA",
-          "faturamento": 96.8
+          "faturamento": 127.7
+        },
+        {
+          "rca": "378",
+          "estado": "RJ",
+          "nome": "FABIO VALOTTI",
+          "faturamento": 75.8
         },
         {
           "rca": "439",
@@ -14591,14 +15284,19 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "quantidade": 15.0
         },
         {
+          "produto": "CACHACA SALINAS TRADIC. 670ML CERAMICA",
+          "faturamento": 310.5,
+          "quantidade": 5.0
+        },
+        {
           "produto": "CACHACA SALINAS CRISTALINA 600ML",
           "faturamento": 143.1,
           "quantidade": 6.0
         },
         {
-          "produto": "CACHACA SALINAS TRADIC. 670ML CERAMICA",
-          "faturamento": 139.8,
-          "quantidade": 2.0
+          "produto": "CACHACA SALINAS IPE 700ML",
+          "faturamento": 106.7,
+          "quantidade": 3.0
         },
         {
           "produto": "CACHACA SALINAS TRADICIONAL 700ML",
@@ -14606,12 +15304,12 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "quantidade": 2.0
         }
       ],
-      "posicao": 62
+      "posicao": 65
     },
     {
       "fantasia": "NATIQUE",
       "faturamento_ytd": 3391.49,
-      "participacao_pct": 0.01,
+      "participacao_pct": 0.0,
       "media_mensal": 484.5,
       "clientes_positivados": 11,
       "por_mes": {
@@ -14765,7 +15463,116 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "quantidade": 1.0
         }
       ],
-      "posicao": 63
+      "posicao": 66
+    },
+    {
+      "fantasia": "HOUSE OF BRANDS",
+      "faturamento_ytd": 3076.0,
+      "participacao_pct": 0.0,
+      "media_mensal": 1538.0,
+      "clientes_positivados": 7,
+      "por_mes": {
+        "2026-08": 652.1,
+        "2026-09": 2423.9
+      },
+      "top_clientes": [
+        {
+          "codcli": "46386",
+          "estado": "SP",
+          "nome": "ATACADO SOARES",
+          "faturamento": 2394.0
+        },
+        {
+          "codcli": "52385",
+          "estado": "SP",
+          "nome": "JULIO C DE ANDRADE EMPORIO",
+          "faturamento": 179.4
+        },
+        {
+          "codcli": "52401",
+          "estado": "SP",
+          "nome": "JOSE VIEIRA DE CARVALHO",
+          "faturamento": 143.6
+        },
+        {
+          "codcli": "51995",
+          "estado": "SP",
+          "nome": "PLANETA LIQUIDO",
+          "faturamento": 109.7
+        },
+        {
+          "codcli": "50205",
+          "estado": "SP",
+          "nome": "SKINA POLACO",
+          "faturamento": 109.7
+        },
+        {
+          "codcli": "51920",
+          "estado": "SP",
+          "nome": "GILDEVAN RIBEIRO SANTOS",
+          "faturamento": 109.7
+        },
+        {
+          "codcli": "32784",
+          "estado": "SP",
+          "nome": "CASA DAS BEBIDAS",
+          "faturamento": 29.9
+        }
+      ],
+      "top_vendedores": [
+        {
+          "rca": "527",
+          "estado": "SP",
+          "nome": "DANIEL DINIZ",
+          "faturamento": 2394.0
+        },
+        {
+          "rca": "516",
+          "estado": "SP",
+          "nome": "JOAQUIM ANGELO",
+          "faturamento": 398.8
+        },
+        {
+          "rca": "486",
+          "estado": "SP",
+          "nome": "LEONARDO FLOREZI",
+          "faturamento": 173.5
+        },
+        {
+          "rca": "469",
+          "estado": "SP",
+          "nome": "PATRICIA RAMOS",
+          "faturamento": 109.7
+        }
+      ],
+      "top_produtos": [
+        {
+          "produto": "ZIN TONICA 310ML",
+          "faturamento": 2394.0,
+          "quantidade": 720.0
+        },
+        {
+          "produto": "GIN MARINA 750ML",
+          "faturamento": 299.0,
+          "quantidade": 10.0
+        },
+        {
+          "produto": "CACHAÇA JOIA DA SERRA OURO 1L",
+          "faturamento": 143.6,
+          "quantidade": 4.0
+        },
+        {
+          "produto": "GIN MARINA BLACKBERRY 750ML",
+          "faturamento": 119.7,
+          "quantidade": 3.0
+        },
+        {
+          "produto": "GIN MARINA ROSE 750ML",
+          "faturamento": 119.7,
+          "quantidade": 3.0
+        }
+      ],
+      "posicao": 67
     },
     {
       "fantasia": "DUBAR",
@@ -14974,7 +15781,7 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "quantidade": 1.0
         }
       ],
-      "posicao": 64
+      "posicao": 68
     },
     {
       "fantasia": "MITTO",
@@ -15125,7 +15932,7 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "quantidade": 2.0
         }
       ],
-      "posicao": 65
+      "posicao": 69
     },
     {
       "fantasia": "SUPERMIX",
@@ -15297,7 +16104,155 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "quantidade": 3.0
         }
       ],
-      "posicao": 66
+      "posicao": 70
+    },
+    {
+      "fantasia": "KIRIN",
+      "faturamento_ytd": 1924.08,
+      "participacao_pct": 0.0,
+      "media_mensal": 213.79,
+      "clientes_positivados": 14,
+      "por_mes": {
+        "2026-01": 109.5,
+        "2026-02": 226.8,
+        "2026-03": 87.7,
+        "2026-04": 133.62,
+        "2026-05": 737.04,
+        "2026-06": 134.88,
+        "2026-07": 333.64,
+        "2026-08": 135.0,
+        "2026-09": 25.9
+      },
+      "top_clientes": [
+        {
+          "codcli": "61684",
+          "estado": "RJ",
+          "nome": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE",
+          "faturamento": 402.24
+        },
+        {
+          "codcli": "7755",
+          "estado": "RJ",
+          "nome": "IMBATIVEL SUPERMERCADOS - PIRATININGA",
+          "faturamento": 340.8
+        },
+        {
+          "codcli": "28386",
+          "estado": "RJ",
+          "nome": "MIX CERTO",
+          "faturamento": 268.5
+        },
+        {
+          "codcli": "84612",
+          "estado": "RJ",
+          "nome": "BOM DE PRECO COMERCIO E DISTRIBUIDORA",
+          "faturamento": 267.24
+        },
+        {
+          "codcli": "69463",
+          "estado": "RJ",
+          "nome": "J. A. M. DA SILVA - MAMBUCABINHA",
+          "faturamento": 226.8
+        },
+        {
+          "codcli": "90632",
+          "estado": "RJ",
+          "nome": "CAIS E PORTO GASTRONOMIA",
+          "faturamento": 81.3
+        },
+        {
+          "codcli": "84456",
+          "estado": "RJ",
+          "nome": "J.A ICARAI COMERCIO VAREJISTA DE ALIMENT",
+          "faturamento": 71.8
+        },
+        {
+          "codcli": "95371",
+          "estado": "RJ",
+          "nome": "ROYAL PRIME",
+          "faturamento": 66.4
+        },
+        {
+          "codcli": "70267",
+          "estado": "RJ",
+          "nome": "HARU ROOFTOP LTDA",
+          "faturamento": 51.8
+        },
+        {
+          "codcli": "85585",
+          "estado": "RJ",
+          "nome": "APC DELIVERY",
+          "faturamento": 47.7
+        },
+        {
+          "codcli": "77983",
+          "estado": "RJ",
+          "nome": "BELLA COZINHA TERAPIA",
+          "faturamento": 31.8
+        },
+        {
+          "codcli": "77954",
+          "estado": "RJ",
+          "nome": "THE FACE",
+          "faturamento": 25.9
+        },
+        {
+          "codcli": "81980",
+          "estado": "RJ",
+          "nome": "BLUE LAGOON",
+          "faturamento": 25.9
+        },
+        {
+          "codcli": "90940",
+          "estado": "RJ",
+          "nome": "BAMBA BEACH",
+          "faturamento": 15.9
+        }
+      ],
+      "top_vendedores": [
+        {
+          "rca": "450",
+          "estado": "RJ",
+          "nome": "LEANDRO SOUZA",
+          "faturamento": 1278.78
+        },
+        {
+          "rca": "159",
+          "estado": "RJ",
+          "nome": "GISELLE BARFER",
+          "faturamento": 265.4
+        },
+        {
+          "rca": "439",
+          "estado": "RJ",
+          "nome": "MATEUS CARDOSO",
+          "faturamento": 226.8
+        },
+        {
+          "rca": "155",
+          "estado": "RJ",
+          "nome": "RAPHAEL SANTOS",
+          "faturamento": 153.1
+        }
+      ],
+      "top_produtos": [
+        {
+          "produto": "SAKE AZUMA KIRIN SOFT 740ML",
+          "faturamento": 1254.28,
+          "quantidade": 55.0
+        },
+        {
+          "produto": "SAKE AZUMA KIRIN COMUM 600ML",
+          "faturamento": 598.0,
+          "quantidade": 40.0
+        },
+        {
+          "produto": "SAKE AZUMA KIRIN DOURADO 740ML",
+          "faturamento": 71.8,
+          "quantidade": 2.0
+        }
+      ],
+      "posicao": 71
     },
     {
       "fantasia": "PRATICO",
@@ -15369,147 +16324,7 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "quantidade": 1.0
         }
       ],
-      "posicao": 67
-    },
-    {
-      "fantasia": "KIRIN",
-      "faturamento_ytd": 1763.18,
-      "participacao_pct": 0.0,
-      "media_mensal": 251.88,
-      "clientes_positivados": 13,
-      "por_mes": {
-        "2026-01": 109.5,
-        "2026-02": 226.8,
-        "2026-03": 87.7,
-        "2026-04": 133.62,
-        "2026-05": 737.04,
-        "2026-06": 134.88,
-        "2026-07": 333.64
-      },
-      "top_clientes": [
-        {
-          "codcli": "7755",
-          "estado": "RJ",
-          "nome": "IMBATIVEL SUPERMERCADOS - PIRATININGA",
-          "faturamento": 340.8
-        },
-        {
-          "codcli": "28386",
-          "estado": "RJ",
-          "nome": "MIX CERTO",
-          "faturamento": 268.5
-        },
-        {
-          "codcli": "61684",
-          "estado": "RJ",
-          "nome": "BOM DE PRECO COMERCIO E DISTRIBUIDORA DE",
-          "faturamento": 267.24
-        },
-        {
-          "codcli": "84612",
-          "estado": "RJ",
-          "nome": "BOM DE PRECO COMERCIO E DISTRIBUIDORA",
-          "faturamento": 267.24
-        },
-        {
-          "codcli": "69463",
-          "estado": "RJ",
-          "nome": "J. A. M. DA SILVA - MAMBUCABINHA",
-          "faturamento": 226.8
-        },
-        {
-          "codcli": "90632",
-          "estado": "RJ",
-          "nome": "CAIS E PORTO GASTRONOMIA",
-          "faturamento": 81.3
-        },
-        {
-          "codcli": "84456",
-          "estado": "RJ",
-          "nome": "J.A ICARAI COMERCIO VAREJISTA DE ALIMENT",
-          "faturamento": 71.8
-        },
-        {
-          "codcli": "95371",
-          "estado": "RJ",
-          "nome": "ROYAL PRIME",
-          "faturamento": 66.4
-        },
-        {
-          "codcli": "70267",
-          "estado": "RJ",
-          "nome": "HARU ROOFTOP LTDA",
-          "faturamento": 51.8
-        },
-        {
-          "codcli": "85585",
-          "estado": "RJ",
-          "nome": "APC DELIVERY",
-          "faturamento": 47.7
-        },
-        {
-          "codcli": "77983",
-          "estado": "RJ",
-          "nome": "BELLA COZINHA TERAPIA",
-          "faturamento": 31.8
-        },
-        {
-          "codcli": "81980",
-          "estado": "RJ",
-          "nome": "BLUE LAGOON",
-          "faturamento": 25.9
-        },
-        {
-          "codcli": "90940",
-          "estado": "RJ",
-          "nome": "BAMBA BEACH",
-          "faturamento": 15.9
-        }
-      ],
-      "top_vendedores": [
-        {
-          "rca": "450",
-          "estado": "RJ",
-          "nome": "LEANDRO SOUZA",
-          "faturamento": 1143.78
-        },
-        {
-          "rca": "159",
-          "estado": "RJ",
-          "nome": "GISELLE BARFER",
-          "faturamento": 239.5
-        },
-        {
-          "rca": "439",
-          "estado": "RJ",
-          "nome": "MATEUS CARDOSO",
-          "faturamento": 226.8
-        },
-        {
-          "rca": "155",
-          "estado": "RJ",
-          "nome": "RAPHAEL SANTOS",
-          "faturamento": 153.1
-        }
-      ],
-      "top_produtos": [
-        {
-          "produto": "SAKE AZUMA KIRIN SOFT 740ML",
-          "faturamento": 1093.38,
-          "quantidade": 48.0
-        },
-        {
-          "produto": "SAKE AZUMA KIRIN COMUM 600ML",
-          "faturamento": 598.0,
-          "quantidade": 40.0
-        },
-        {
-          "produto": "SAKE AZUMA KIRIN DOURADO 740ML",
-          "faturamento": 71.8,
-          "quantidade": 2.0
-        }
-      ],
-      "posicao": 68
+      "posicao": 72
     },
     {
       "fantasia": "MENTOS",
@@ -15704,93 +16519,20 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "quantidade": 1.0
         }
       ],
-      "posicao": 69
-    },
-    {
-      "fantasia": "RIO DE JANEIRO",
-      "faturamento_ytd": 1436.8,
-      "participacao_pct": 0.0,
-      "media_mensal": 1436.8,
-      "clientes_positivados": 4,
-      "por_mes": {
-        "2026-07": 1436.8
-      },
-      "top_clientes": [
-        {
-          "codcli": "95780",
-          "estado": "RJ",
-          "nome": "MIX GARDEN CAFE",
-          "faturamento": 898.0
-        },
-        {
-          "codcli": "50648",
-          "estado": "RJ",
-          "nome": "RACAFFIT",
-          "faturamento": 269.4
-        },
-        {
-          "codcli": "82182",
-          "estado": "RJ",
-          "nome": "CAMILA LAROCCA DA COSTA",
-          "faturamento": 179.6
-        },
-        {
-          "codcli": "50853",
-          "estado": "RJ",
-          "nome": "VIP'S MOTEL SOCIEDADE UNIPESSOAL",
-          "faturamento": 89.8
-        }
-      ],
-      "top_vendedores": [
-        {
-          "rca": "159",
-          "estado": "RJ",
-          "nome": "GISELLE BARFER",
-          "faturamento": 898.0
-        },
-        {
-          "rca": "378",
-          "estado": "RJ",
-          "nome": "FABIO VALOTTI",
-          "faturamento": 269.4
-        },
-        {
-          "rca": "155",
-          "estado": "RJ",
-          "nome": "RAPHAEL SANTOS",
-          "faturamento": 179.6
-        },
-        {
-          "rca": "144",
-          "estado": "RJ",
-          "nome": "DIOGO RAPOSO",
-          "faturamento": 89.8
-        }
-      ],
-      "top_produtos": [
-        {
-          "produto": "REFRIGERANTE COCA-COLA ZERO LT 12X350ML",
-          "faturamento": 853.1,
-          "quantidade": 19.0
-        },
-        {
-          "produto": "REFRIGERANTE COCA-COLA LT 12X350ML",
-          "faturamento": 583.7,
-          "quantidade": 13.0
-        }
-      ],
-      "posicao": 70
+      "posicao": 73
     },
     {
       "fantasia": "NUTRIFRIOS",
-      "faturamento_ytd": 1252.0,
+      "faturamento_ytd": 1455.6,
       "participacao_pct": 0.0,
-      "media_mensal": 417.33,
-      "clientes_positivados": 4,
+      "media_mensal": 291.12,
+      "clientes_positivados": 7,
       "por_mes": {
         "2026-02": 199.6,
         "2026-03": 154.2,
-        "2026-07": 898.2
+        "2026-07": 898.2,
+        "2026-08": 101.8,
+        "2026-09": 101.8
       },
       "top_clientes": [
         {
@@ -15816,6 +16558,24 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "estado": "SP",
           "nome": "SEU VINHO COMERCIAL LTDA",
           "faturamento": 154.2
+        },
+        {
+          "codcli": "52300",
+          "estado": "SP",
+          "nome": "FAMILIA GOES PIZZARIA ELIPSE",
+          "faturamento": 101.8
+        },
+        {
+          "codcli": "23530",
+          "estado": "SP",
+          "nome": "BUMBU BAR E RESTAURANTE",
+          "faturamento": 50.9
+        },
+        {
+          "codcli": "52442",
+          "estado": "SP",
+          "nome": "ESPACO CAMPOLIM",
+          "faturamento": 50.9
         }
       ],
       "top_vendedores": [
@@ -15824,6 +16584,12 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "estado": "SP",
           "nome": "ROBSON DA SILVA",
           "faturamento": 898.2
+        },
+        {
+          "rca": "510",
+          "estado": "SP",
+          "nome": "ROSANA AFFONSO",
+          "faturamento": 203.6
         },
         {
           "rca": "391",
@@ -15848,9 +16614,24 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "produto": "XAROPE MONIN TANGERINA (MANDARIM) 700ML",
           "faturamento": 353.8,
           "quantidade": 7.0
+        },
+        {
+          "produto": "XAROPE MONIN GRENADINE 700ML",
+          "faturamento": 101.8,
+          "quantidade": 2.0
+        },
+        {
+          "produto": "XAROPE MONIN ELDERFLOWER 700 ML",
+          "faturamento": 51.9,
+          "quantidade": 1.0
+        },
+        {
+          "produto": "XAROPE MONIN CRANBERRY 700 ML",
+          "faturamento": 49.9,
+          "quantidade": 1.0
         }
       ],
-      "posicao": 71
+      "posicao": 74
     },
     {
       "fantasia": "NATIKOS",
@@ -15994,7 +16775,7 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "quantidade": 2.0
         }
       ],
-      "posicao": 72
+      "posicao": 75
     },
     {
       "fantasia": "MELT",
@@ -16056,7 +16837,7 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "quantidade": 1.0
         }
       ],
-      "posicao": 73
+      "posicao": 76
     },
     {
       "fantasia": "GOEDERT",
@@ -16130,71 +16911,7 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "quantidade": 1.0
         }
       ],
-      "posicao": 74
-    },
-    {
-      "fantasia": "LYNV",
-      "faturamento_ytd": 490.13,
-      "participacao_pct": 0.0,
-      "media_mensal": 245.07,
-      "clientes_positivados": 3,
-      "por_mes": {
-        "2026-01": 104.01,
-        "2026-06": 386.12
-      },
-      "top_clientes": [
-        {
-          "codcli": "95223",
-          "estado": "RJ",
-          "nome": "DO IT - SUPLEMENTOS",
-          "faturamento": 231.2
-        },
-        {
-          "codcli": "91081",
-          "estado": "RJ",
-          "nome": "O ECONOMICO DA GAVEA LTDA",
-          "faturamento": 154.92
-        },
-        {
-          "codcli": "92344",
-          "estado": "RJ",
-          "nome": "MIX VIDA E SAUDE - BOTAFOGO",
-          "faturamento": 104.01
-        }
-      ],
-      "top_vendedores": [
-        {
-          "rca": "159",
-          "estado": "RJ",
-          "nome": "GISELLE BARFER",
-          "faturamento": 231.2
-        },
-        {
-          "rca": "471",
-          "estado": "RJ",
-          "nome": "ANA CLARA FASSANO",
-          "faturamento": 154.92
-        },
-        {
-          "rca": "378",
-          "estado": "RJ",
-          "nome": "FABIO VALOTTI",
-          "faturamento": 104.01
-        }
-      ],
-      "top_produtos": [
-        {
-          "produto": "LYNV AGUA DE COCO 12X1L",
-          "faturamento": 309.92,
-          "quantidade": 2.0
-        },
-        {
-          "produto": "LYNV AGUA DE COCO 12X330ML",
-          "faturamento": 180.21,
-          "quantidade": 2.0
-        }
-      ],
-      "posicao": 75
+      "posicao": 77
     },
     {
       "fantasia": "ALTACOPPO",
@@ -16245,7 +16962,7 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "quantidade": 1.0
         }
       ],
-      "posicao": 76
+      "posicao": 78
     },
     {
       "fantasia": "CASA DI CONTI",
@@ -16309,7 +17026,7 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "quantidade": 3.0
         }
       ],
-      "posicao": 77
+      "posicao": 79
     },
     {
       "fantasia": "BANANAZINHA",
@@ -16366,41 +17083,7 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "quantidade": 3.0
         }
       ],
-      "posicao": 78
-    },
-    {
-      "fantasia": "BACARDI-MARTINI",
-      "faturamento_ytd": 227.4,
-      "participacao_pct": 0.0,
-      "media_mensal": 227.4,
-      "clientes_positivados": 1,
-      "por_mes": {
-        "2026-07": 227.4
-      },
-      "top_clientes": [
-        {
-          "codcli": "29386",
-          "estado": "MG",
-          "nome": "SUPERMERCADO PARANAIBA",
-          "faturamento": 227.4
-        }
-      ],
-      "top_vendedores": [
-        {
-          "rca": "354",
-          "estado": "MG",
-          "nome": "MATHEUS DE SOUZA",
-          "faturamento": 227.4
-        }
-      ],
-      "top_produtos": [
-        {
-          "produto": "MARTINI BIANCO 750 ML",
-          "faturamento": 227.4,
-          "quantidade": 6.0
-        }
-      ],
-      "posicao": 79
+      "posicao": 80
     },
     {
       "fantasia": "VCT",
@@ -16434,7 +17117,7 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "quantidade": 4.0
         }
       ],
-      "posicao": 80
+      "posicao": 81
     },
     {
       "fantasia": "CIPEL DE PADUA",
@@ -16486,7 +17169,7 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "quantidade": 20.0
         }
       ],
-      "posicao": 81
+      "posicao": 82
     },
     {
       "fantasia": "CHIVAS",
@@ -16520,7 +17203,7 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "quantidade": 1.0
         }
       ],
-      "posicao": 82
+      "posicao": 83
     },
     {
       "fantasia": "RISSO",
@@ -16554,7 +17237,75 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "quantidade": 6.0
         }
       ],
-      "posicao": 83
+      "posicao": 84
+    },
+    {
+      "fantasia": "BACARDI-MARTINI",
+      "faturamento_ytd": 75.8,
+      "participacao_pct": 0.0,
+      "media_mensal": 75.8,
+      "clientes_positivados": 1,
+      "por_mes": {
+        "2026-08": 75.8
+      },
+      "top_clientes": [
+        {
+          "codcli": "38185",
+          "estado": "MG",
+          "nome": "SUPERMERCADO NOVO HORIZONTE",
+          "faturamento": 75.8
+        }
+      ],
+      "top_vendedores": [
+        {
+          "rca": "354",
+          "estado": "MG",
+          "nome": "MATHEUS DE SOUZA",
+          "faturamento": 75.8
+        }
+      ],
+      "top_produtos": [
+        {
+          "produto": "MARTINI BIANCO 750 ML",
+          "faturamento": 75.8,
+          "quantidade": 2.0
+        }
+      ],
+      "posicao": 85
+    },
+    {
+      "fantasia": "VINICOLA GALIOTO",
+      "faturamento_ytd": 43.8,
+      "participacao_pct": 0.0,
+      "media_mensal": 43.8,
+      "clientes_positivados": 1,
+      "por_mes": {
+        "2026-09": 43.8
+      },
+      "top_clientes": [
+        {
+          "codcli": "91059",
+          "estado": "RJ",
+          "nome": "MM CONVENIENCIA LTDA",
+          "faturamento": 43.8
+        }
+      ],
+      "top_vendedores": [
+        {
+          "rca": "431",
+          "estado": "RJ",
+          "nome": "ADEILSON GONÇALVEZ",
+          "faturamento": 43.8
+        }
+      ],
+      "top_produtos": [
+        {
+          "produto": "VINHO GALIOTTO TINTO SUAVE 1L",
+          "faturamento": 43.8,
+          "quantidade": 2.0
+        }
+      ],
+      "posicao": 86
     },
     {
       "fantasia": "PARATUDO",
@@ -16601,7 +17352,7 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "quantidade": 5.0
         }
       ],
-      "posicao": 84
+      "posicao": 87
     },
     {
       "fantasia": "AUDAX",
@@ -16635,7 +17386,7 @@ const RAIOX_INDUSTRIA_DETALHE_DATA = {
           "quantidade": 1.0
         }
       ],
-      "posicao": 85
+      "posicao": 88
     }
   ],
   "fontes_indisponiveis": []
