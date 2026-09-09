@@ -109,15 +109,46 @@
       background:var(--card); border:1px solid var(--border); border-left:4px solid var(--accent);
       border-radius:12px; padding:16px 18px; margin-bottom:28px; position:relative;
     }
-    .assistant-emoji { font-size:2rem; line-height:1; flex-shrink:0; display:inline-block; animation:assistant-wave 2.4s ease-in-out infinite; transform-origin:70% 70%; }
-    @keyframes assistant-wave {
-      0%, 60%, 100% { transform:rotate(0deg); }
-      10% { transform:rotate(14deg); }
-      20% { transform:rotate(-8deg); }
-      30% { transform:rotate(14deg); }
-      40% { transform:rotate(-4deg); }
-      50% { transform:rotate(10deg); }
+    /* Otto, o mascote (garrafa) — anda pela parte de baixo da página o
+       tempo todo. pointer-events:none pra nunca atrapalhar clique em nada
+       por baixo dele. */
+    .mascote-andando {
+      position:fixed; bottom:0; left:-160px; z-index:50; pointer-events:none;
+      animation:mascote-caminhar 26s linear infinite;
     }
+    .mascote-corpo {
+      display:block; transform-box:fill-box; transform-origin:50% 100%;
+      animation:mascote-balanco .6s ease-in-out infinite;
+    }
+    .mascote-svg { width:110px; height:auto; display:block; filter:drop-shadow(0 8px 10px rgba(0,0,0,.4)); }
+    .mascote-braco-d { transform-box:view-box; transform-origin:90px 82px; animation:mascote-acenar 1s ease-in-out infinite; }
+    .mascote-perna-e { transform-box:fill-box; transform-origin:50% 0%; animation:mascote-perna-e .6s ease-in-out infinite; }
+    .mascote-perna-d { transform-box:fill-box; transform-origin:50% 0%; animation:mascote-perna-d .6s ease-in-out infinite; }
+    @keyframes mascote-caminhar {
+      0%   { left:-160px; }
+      100% { left:calc(100% + 160px); }
+    }
+    @keyframes mascote-balanco {
+      0%, 100% { transform:rotate(-3deg) translateY(0); }
+      50%      { transform:rotate(3deg) translateY(-6px); }
+    }
+    @keyframes mascote-acenar {
+      0%, 100% { transform:rotate(-6deg); }
+      50%      { transform:rotate(-32deg); }
+    }
+    @keyframes mascote-perna-e {
+      0%, 100% { transform:rotate(20deg); }
+      50%      { transform:rotate(-20deg); }
+    }
+    @keyframes mascote-perna-d {
+      0%, 100% { transform:rotate(-20deg); }
+      50%      { transform:rotate(20deg); }
+    }
+    .dash-subgroup-title {
+      font-size:.68rem; text-transform:uppercase; letter-spacing:.08em; color:var(--muted);
+      margin:20px 0 10px; display:flex; align-items:center; gap:6px;
+    }
+    .dash-subgroup-title:first-of-type { margin-top:0; }
     .assistant-bubble { flex:1; }
     .assistant-greeting { font-size:1rem; font-weight:800; color:var(--accent); margin-bottom:4px; }
     .assistant-text { font-size:.8rem; color:var(--text); line-height:1.6; }
@@ -142,7 +173,6 @@
 
   <!-- Assistente / saudação -->
   <div class="assistant-box" id="assistant-box">
-    <span class="assistant-emoji">👋</span>
     <div class="assistant-bubble">
       <div class="assistant-greeting" id="assistant-greeting">Olá!</div>
       <div class="assistant-text">
@@ -155,6 +185,8 @@
 
   <!-- Dashboards -->
   <div class="section-title">Dashboards</div>
+
+  <div class="dash-subgroup-title">🎯 Metas &amp; Performance</div>
   <div class="dash-grid">
     <a class="dash-card" href="metas_gerais.html">
       <span class="dash-icon">🌎</span>
@@ -191,21 +223,38 @@
         <div class="dash-desc">Vendas e indicadores da equipe de Minas Gerais</div>
       </div>
     </a>
-    <a class="dash-card" href="entregas.html">
-      <span class="dash-icon">🚚</span>
+    <a class="dash-card" href="performance_equipe.html">
+      <span class="dash-icon">📈</span>
       <div>
-        <div class="dash-name">Entregas</div>
-        <div class="dash-desc">Acompanhamento de pedidos e status de entrega</div>
+        <div class="dash-name">Performance Equipe</div>
+        <div class="dash-desc">Ranking da equipe por faturamento, positivação, indústrias/cliente e TDP</div>
       </div>
     </a>
-    <a class="dash-card" href="produtos.html">
-      <span class="dash-icon">📦</span>
+    <a class="dash-card" href="comissao.html">
+      <span class="dash-icon">💰</span>
       <div>
-        <div class="dash-name">Vendas por Produto</div>
-        <div class="dash-desc">Histórico de 3 meses por produto e fornecedor com busca e filtros</div>
+        <div class="dash-name">Comissão (Estimativa)</div>
+        <div class="dash-desc">Comissão em tempo real do time RJ Executivos/Pequenos Varejos</div>
       </div>
     </a>
+    <a class="dash-card" href="metas_builder.html">
+      <span class="dash-icon">🎯</span>
+      <div>
+        <div class="dash-name">Construção de Metas</div>
+        <div class="dash-desc">Meta por time (Allan/Interior) rateada entre os RCAs pelo histórico — RJ</div>
+      </div>
+    </a>
+    <a class="dash-card leonardo-only" href="ranking_metas.html" style="display:none">
+      <span class="dash-icon">🏅</span>
+      <div>
+        <div class="dash-name">Ranking de Objetivos</div>
+        <div class="dash-desc">Placar de % de objetivo atingido por vendedor, com pódio do mês</div>
+      </div>
+    </a>
+  </div>
 
+  <div class="dash-subgroup-title">🏢 Clientes &amp; Vendas</div>
+  <div class="dash-grid">
     <a class="dash-card" href="clientes_rca.html">
       <span class="dash-icon">🏢</span>
       <div>
@@ -227,6 +276,13 @@
         <div class="dash-desc">DE-PARA dos 4.867 clientes da base de ataque x cadastro/vendas Rigarr</div>
       </div>
     </a>
+    <a class="dash-card" href="produtos.html">
+      <span class="dash-icon">📦</span>
+      <div>
+        <div class="dash-name">Vendas por Produto</div>
+        <div class="dash-desc">Histórico de 3 meses por produto e fornecedor com busca e filtros</div>
+      </div>
+    </a>
     <a class="dash-card" href="industria.html">
       <span class="dash-icon">🏭</span>
       <div>
@@ -241,20 +297,10 @@
         <div class="dash-desc">Clientes, Vendedores, Indústrias, Oportunidades, Risco, Roteiro e Reativação — tudo numa página só</div>
       </div>
     </a>
-    <a class="dash-card" href="performance_equipe.html">
-      <span class="dash-icon">📈</span>
-      <div>
-        <div class="dash-name">Performance Equipe</div>
-        <div class="dash-desc">Ranking da equipe por faturamento, positivação, indústrias/cliente e TDP</div>
-      </div>
-    </a>
-    <a class="dash-card" href="inadimplencia.html">
-      <span class="dash-icon">⚠</span>
-      <div>
-        <div class="dash-name">Inadimplência</div>
-        <div class="dash-desc">Títulos vencidos e em aberto por vendedor RJ/ES</div>
-      </div>
-    </a>
+  </div>
+
+  <div class="dash-subgroup-title">📦 Pedidos &amp; Entregas</div>
+  <div class="dash-grid">
     <a class="dash-card" href="pedidos.html">
       <span class="dash-icon">📦</span>
       <div>
@@ -276,27 +322,6 @@
         <div class="dash-desc">Pedidos item a item exportados da Mercos — vendedor, CNPJ, produto e valores</div>
       </div>
     </a>
-    <a class="dash-card" href="estoque_mercos.html">
-      <span class="dash-icon">📦</span>
-      <div>
-        <div class="dash-name">Estoque Mercos x SPON</div>
-        <div class="dash-desc">Catálogo de produtos da Mercos cruzado com o estoque real do SPON — filial 1</div>
-      </div>
-    </a>
-    <a class="dash-card" href="kanban_mercos.html">
-      <span class="dash-icon">📋</span>
-      <div>
-        <div class="dash-name">Kanban Mercos</div>
-        <div class="dash-desc">Tarefas do time (canal Mercos) — criar, mover, editar e excluir, por vendedor</div>
-      </div>
-    </a>
-    <a class="dash-card" href="comissao.html">
-      <span class="dash-icon">💰</span>
-      <div>
-        <div class="dash-name">Comissão (Estimativa)</div>
-        <div class="dash-desc">Comissão em tempo real do time RJ Executivos/Pequenos Varejos</div>
-      </div>
-    </a>
     <a class="dash-card" href="agendamento.html">
       <span class="dash-icon">📅</span>
       <div>
@@ -304,11 +329,47 @@
         <div class="dash-desc">Planilha de agendamento de entrega e pedidos por e-mail x faturado — filial 4 CRC</div>
       </div>
     </a>
+    <a class="dash-card" href="inadimplencia.html">
+      <span class="dash-icon">⚠</span>
+      <div>
+        <div class="dash-name">Inadimplência</div>
+        <div class="dash-desc">Títulos vencidos e em aberto por vendedor RJ/ES</div>
+      </div>
+    </a>
+    <a class="dash-card leonardo-only" href="https://offtrade.duckdns.org/Preco_Promo" target="_blank" rel="noopener" style="display:none">
+      <span class="dash-icon">🏷️</span>
+      <div>
+        <div class="dash-name">Preço Promo</div>
+        <div class="dash-desc">Cadastro de preços promocionais por produto (CRC) — individual ou em massa</div>
+      </div>
+    </a>
+  </div>
+
+  <div class="dash-subgroup-title">🏬 Estoque</div>
+  <div class="dash-grid">
     <a class="dash-card" href="estoque.html">
       <span class="dash-icon">🏬</span>
       <div>
         <div class="dash-name">Estoque</div>
         <div class="dash-desc">Posição de estoque por produto — RJ, ES, SP, MG, Thekings e Garrido</div>
+      </div>
+    </a>
+    <a class="dash-card" href="estoque_mercos.html">
+      <span class="dash-icon">📦</span>
+      <div>
+        <div class="dash-name">Estoque Mercos x SPON</div>
+        <div class="dash-desc">Catálogo de produtos da Mercos cruzado com o estoque real do SPON — filial 1</div>
+      </div>
+    </a>
+  </div>
+
+  <div class="dash-subgroup-title">🛠️ Ferramentas</div>
+  <div class="dash-grid">
+    <a class="dash-card" href="kanban_mercos.html">
+      <span class="dash-icon">📋</span>
+      <div>
+        <div class="dash-name">Kanban Mercos</div>
+        <div class="dash-desc">Tarefas do time (canal Mercos) — criar, mover, editar e excluir, por vendedor</div>
       </div>
     </a>
     <a class="dash-card" href="promotoria.html">
@@ -333,20 +394,6 @@
       <div>
         <div class="dash-name">Status das Páginas</div>
         <div class="dash-desc">Há quanto tempo cada *_data.js foi atualizado — detecta etapa travada silenciosamente</div>
-      </div>
-    </a>
-    <a class="dash-card leonardo-only" href="ranking_metas.html" style="display:none">
-      <span class="dash-icon">🏅</span>
-      <div>
-        <div class="dash-name">Ranking de Objetivos</div>
-        <div class="dash-desc">Placar de % de objetivo atingido por vendedor, com pódio do mês</div>
-      </div>
-    </a>
-    <a class="dash-card leonardo-only" href="https://offtrade.duckdns.org/Preco_Promo" target="_blank" rel="noopener" style="display:none">
-      <span class="dash-icon">🏷️</span>
-      <div>
-        <div class="dash-name">Preço Promo</div>
-        <div class="dash-desc">Cadastro de preços promocionais por produto (CRC) — individual ou em massa</div>
       </div>
     </a>
   </div>
@@ -437,6 +484,43 @@
   </div>
 
   <footer>Dashboard Comercial &middot; OfftradeHub &middot; Off Trade + On Trade</footer>
+
+  <!-- Otto, o mascote — anda pela parte de baixo da página o tempo todo -->
+  <div class="mascote-andando" aria-hidden="true">
+    <div class="mascote-corpo">
+      <svg class="mascote-svg" viewBox="0 0 120 176" xmlns="http://www.w3.org/2000/svg">
+        <title>Otto</title>
+        <g class="mascote-perna-e">
+          <rect x="38" y="140" width="15" height="28" rx="7" fill="#22263a" stroke="#2d3144" stroke-width="2"/>
+          <ellipse cx="45.5" cy="170" rx="10" ry="5" fill="#12141c"/>
+        </g>
+        <g class="mascote-perna-d">
+          <rect x="67" y="140" width="15" height="28" rx="7" fill="#22263a" stroke="#2d3144" stroke-width="2"/>
+          <ellipse cx="74.5" cy="170" rx="10" ry="5" fill="#12141c"/>
+        </g>
+
+        <path d="M32,84 C22,90 16,100 14,110" stroke="#22263a" stroke-width="10" stroke-linecap="round" fill="none"/>
+        <circle cx="14" cy="110" r="7" fill="#22263a" stroke="#2d3144" stroke-width="2"/>
+
+        <path d="M48,36 L72,36 L72,46 C72,46 94,54 94,74 L94,132 Q94,146 79,146 L41,146 Q26,146 26,132 L26,74 C26,54 48,46 48,46 Z"
+              fill="#1a1d27" stroke="#f5c518" stroke-width="3"/>
+        <rect x="48" y="8" width="24" height="30" rx="4" fill="#1a1d27" stroke="#f5c518" stroke-width="3"/>
+        <rect x="42" y="0" width="36" height="14" rx="4" fill="#f5c518"/>
+
+        <rect x="37" y="80" width="46" height="44" rx="7" fill="#f8f4e8"/>
+        <circle cx="50" cy="98" r="4.2" fill="#1a1d27"/>
+        <circle cx="70" cy="98" r="4.2" fill="#1a1d27"/>
+        <circle cx="46" cy="107" r="3.6" fill="#f5a08c" opacity=".55"/>
+        <circle cx="74" cy="107" r="3.6" fill="#f5a08c" opacity=".55"/>
+        <path d="M49,109 Q60,118 71,109" stroke="#1a1d27" stroke-width="2.6" fill="none" stroke-linecap="round"/>
+
+        <g class="mascote-braco-d">
+          <path d="M88,82 C100,74 108,60 110,48" stroke="#1a1d27" stroke-width="10" stroke-linecap="round" fill="none"/>
+          <circle cx="110" cy="48" r="7.5" fill="#f5c518"/>
+        </g>
+      </svg>
+    </div>
+  </div>
 
   <script>
     const d = new Date();
