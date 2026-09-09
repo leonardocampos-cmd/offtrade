@@ -116,9 +116,24 @@ def _montar_query_overpass(lat: float, lon: float, categorias: list[str]) -> str
 
 def _buscar_overpass(lat: float, lon: float, categorias: list[str]) -> list[dict]:
     query = _montar_query_overpass(lat, lon, categorias)
-    r = requests.post(OVERPASS_URL, data={"data": query}, headers=_HEADERS, timeout=30)
-    r.raise_for_status()
-    elementos = r.json().get("elements", [])
+    # Instância pública do Overpass (gratuita, sem chave) devolve 504 de vez
+    # em quando por sobrecarga (comum em fair-use compartilhado) mesmo pra
+    # consulta simples — 1 nova tentativa depois de uma pausa curta resolve
+    # a maioria dos casos (confirmado testando na VPS em 09/09/2026: o mesmo
+    # request que deu 504 funcionou de primeira na tentativa seguinte).
+    ultimo_erro = None
+    for tentativa in range(2):
+        try:
+            r = requests.post(OVERPASS_URL, data={"data": query}, headers=_HEADERS, timeout=30)
+            r.raise_for_status()
+            elementos = r.json().get("elements", [])
+            break
+        except requests.exceptions.RequestException as e:
+            ultimo_erro = e
+            if tentativa == 0:
+                time.sleep(2)
+    else:
+        raise ultimo_erro
 
     pois = []
     for el in elementos:
