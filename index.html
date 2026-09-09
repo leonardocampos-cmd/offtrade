@@ -4,6 +4,7 @@
   <script src="auth.js"></script>
   <script src="fontes_status_data.js"></script>
   <script src="fontes_alert.js"></script>
+  <script src="status_paginas_data.js"></script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Dashboard Comercial &mdash; OfftradeHub</title>
@@ -107,7 +108,12 @@
       font-size:.68rem; text-transform:uppercase; letter-spacing:.08em; color:var(--muted);
       margin:20px 0 10px; display:flex; align-items:center; gap:6px;
     }
-    .dash-subgroup-title:first-of-type { margin-top:0; }
+    /* "Mais usados" é sempre o 1º bloco no HTML (mesmo escondido quando não
+       tem clique salvo ainda) — id direto em vez de :first-of-type, que
+       "roubaria" o margin-top:0 dele e deixava um vão em cima de "Metas &
+       Performance" quando "Mais usados" está com display:none. */
+    #mais-usados-titulo { margin-top:0; }
+    .dash-badge { font-size:.66rem; font-weight:700; margin-top:6px; }
 
     /* ── Otto, o mascote (garrafa) ───────────────────────────────
        Entra andando da esquerda, para no meio da tela e mostra o balão de
@@ -201,6 +207,9 @@
 
   <!-- Dashboards -->
   <div class="section-title">Dashboards</div>
+
+  <div class="dash-subgroup-title" id="mais-usados-titulo" style="display:none">⭐ Mais usados</div>
+  <div class="dash-grid" id="mais-usados-grid" style="display:none"></div>
 
   <div class="dash-subgroup-title">🎯 Metas &amp; Performance</div>
   <div class="dash-grid">
@@ -668,6 +677,95 @@
       if (e.key === 'Enter') { e.preventDefault(); ottoBuscar(); }
     });
     document.getElementById('otto-pergunta-input').addEventListener('click', (e) => e.stopPropagation());
+
+    // ── Selo "Atualizado há Xh" nos cards ──────────────────────────────
+    // status_paginas_data.js já varre todo *_data.js da raiz e calcula a
+    // idade de cada um (mesmo dado que status_paginas.html mostra) — só
+    // mapeia qual arquivo pertence a cada card aqui, sem duplicar o cálculo.
+    // Card sem entrada no mapa (kanban/metas_builder — sem *_data.js
+    // periódico, ou raiox.html — hub de várias sub-páginas) fica sem selo.
+    const OTTO_ARQUIVO_POR_HREF = {
+      'metas_gerais.html': 'metas_gerais_data.js',
+      'metas.html': 'metas_data.js',
+      'sp.html': 'vendas_sp_data.js',
+      'es.html': 'vendas_es_data.js',
+      'mg.html': 'vendas_mg_data.js',
+      'performance_equipe.html': 'performance_equipe_data.js',
+      'comissao.html': 'comissao_data.js',
+      'clientes_rca.html': 'clientes_rca_data.js',
+      'clientes_inativos.html': 'clientes_inativos_data.js',
+      'base_ataque_vinhos.html': 'base_ataque_vinhos_data.js',
+      'produtos.html': 'vendas_data.js',
+      'industria.html': 'industria_data.js',
+      'pedidos.html': 'pedidos_data.js',
+      'pedidos_bloqueados.html': 'pedidos_bloqueados_data.js',
+      'pedidos_mercos.html': 'pedidos_mercos_data.js',
+      'agendamento.html': 'agendamento_data.js',
+      'inadimplencia.html': 'inadimplencia_data.js',
+      'estoque.html': 'estoque_data.js',
+      'estoque_mercos.html': 'estoque_mercos_data.js',
+      'promotoria.html': 'promotoria_data.js',
+    };
+    const OTTO_STATUS_COR = {
+      'OK': 'var(--green)', 'Atenção': '#f59e0b', 'Crítico': '#ef4444',
+      'Manual': 'var(--muted)', 'Sem timestamp': 'var(--muted)',
+    };
+    function _ottoFormatarIdade(hrs) {
+      if (hrs == null) return null;
+      if (hrs < 1) return 'há ' + Math.max(1, Math.round(hrs * 60)) + 'min';
+      if (hrs < 48) return 'há ' + Math.round(hrs) + 'h';
+      return 'há ' + Math.round(hrs / 24) + 'd';
+    }
+    function ottoAplicarBadges() {
+      if (typeof STATUS_PAGINAS_DATA === 'undefined') return;
+      const porArquivo = {};
+      STATUS_PAGINAS_DATA.paginas.forEach(p => { porArquivo[p.arquivo] = p; });
+      document.querySelectorAll('a.dash-card').forEach(card => {
+        const arquivo = OTTO_ARQUIVO_POR_HREF[card.getAttribute('href')];
+        const info = arquivo ? porArquivo[arquivo] : null;
+        if (!info || info.idade_horas == null) return;
+        const badge = document.createElement('div');
+        badge.className = 'dash-badge';
+        badge.style.color = OTTO_STATUS_COR[info.status] || 'var(--muted)';
+        badge.textContent = 'Atualizado ' + _ottoFormatarIdade(info.idade_horas);
+        card.querySelector('div')?.appendChild(badge);
+      });
+    }
+    ottoAplicarBadges();
+
+    // ── "Mais usados" — conta clique por href no localStorage (por
+    // navegador/dispositivo, não sincroniza) e clona os cards mais
+    // clicados pra um atalho no topo. Delegação no document (não por
+    // card) pra também contar clique nos clones já renderizados.
+    function _ottoRegistrarClique(href) {
+      if (!href) return;
+      try {
+        const dados = JSON.parse(localStorage.getItem('otto_cliques') || '{}');
+        dados[href] = (dados[href] || 0) + 1;
+        localStorage.setItem('otto_cliques', JSON.stringify(dados));
+      } catch (e) { /* localStorage indisponível — ignora */ }
+    }
+    document.addEventListener('click', (e) => {
+      const a = e.target.closest('a.dash-card, a.camp-card');
+      if (a) _ottoRegistrarClique(a.getAttribute('href'));
+    });
+
+    function ottoRenderMaisUsados() {
+      let dados = {};
+      try { dados = JSON.parse(localStorage.getItem('otto_cliques') || '{}'); } catch (e) { return; }
+      const top = Object.entries(dados).filter(([, c]) => c > 0).sort((a, b) => b[1] - a[1]).slice(0, 4);
+      if (!top.length) return;
+      const htmls = [];
+      top.forEach(([href]) => {
+        const original = document.querySelector(`a.dash-card[href="${CSS.escape(href)}"], a.camp-card[href="${CSS.escape(href)}"]`);
+        if (original) htmls.push(original.outerHTML);
+      });
+      if (!htmls.length) return;
+      document.getElementById('mais-usados-grid').innerHTML = htmls.join('');
+      document.getElementById('mais-usados-grid').style.display = '';
+      document.getElementById('mais-usados-titulo').style.display = '';
+    }
+    ottoRenderMaisUsados();
   </script>
 </body>
 </html>
