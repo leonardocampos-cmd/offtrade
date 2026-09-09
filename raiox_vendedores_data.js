@@ -1,6 +1,6 @@
 // Gerado automaticamente
 const RAIOX_VENDEDORES_DATA = {
-  "atualizado_em": "09/09/2026 09:45",
+  "atualizado_em": "09/09/2026 09:47",
   "times": [
     {
       "time": "KEY_ACCOUNT",
