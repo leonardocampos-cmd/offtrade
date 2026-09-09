@@ -16,9 +16,10 @@ import pandas as pd
 
 from meta import engine, engine_spon, engine_mgon, carregar_dados
 
-ANO = 2026
+_HOJE = date.today()
+ANO = _HOJE.year
 MES_INI = f"{ANO}-01-01"
-MES_FIM = f"{ANO}-07-31"
+MES_FIM = _HOJE.strftime('%Y-%m-%d')
 
 BASES = [
     {"estado": "RJ", "engine": engine,      "schema": "CRC",  "filiais": ["2", "4"]},

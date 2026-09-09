@@ -5,9 +5,14 @@ cadastrais, histórico mensal e detalhado (data/indústria/produto/qtd/valor)
 de compras, faturamento por vendedor (quem efetivamente vendeu, via
 PCMOV.CODUSUR) e por indústria/fornecedor. CODCLI e CODUSUR não são únicos
 entre bases — cliente e vendedor são identificados por chave composta
-"ESTADO-código". Alimenta raiox_cliente_detalhe.html (busca por nome,
-acessível a partir dos botões "Ver clientes" de cada ramo em
-raiox_clientes.html).
+"ESTADO-código". Cliente do "balde" RCA 10/200 (Inativo/Novos Clientes, sem
+RCA Off Trade de verdade) fica de fora daqui de propósito — incluir os dois
+baldes chegou a ser tentado em 09/09/2026, mas só o RCA 10 tem ~86 mil
+clientes acumulados em todas as bases, o que estourou o arquivo pra 144 MB
+(GitHub rejeita push acima de 100 MB); ver raiox_cliente_api.py, que busca
+esses clientes sob demanda quando não estão aqui. Alimenta
+raiox_cliente_detalhe.html (busca por nome, acessível a partir dos botões
+"Ver clientes" de cada ramo em raiox_clientes.html).
 """
 import json
 import subprocess
@@ -67,14 +72,15 @@ def _query_clientes(schema, estado):
     return f"""
         SELECT C.CODCLI, C.CLIENTE, COALESCE(C.FANTASIA, C.CLIENTE) FANTASIA,
                COALESCE(C.MUNICENT,'') CIDADE, COALESCE(A.RAMO,'OUTROS') RAMO,
-               C.CODUSUR1, C.CODUSUR2, C.DTULTCOMP, COALESCE(R.DESCRICAO,'') REDE
+               C.CODUSUR1, C.CODUSUR2, C.CODUSUR3, C.DTULTCOMP, COALESCE(R.DESCRICAO,'') REDE
         FROM {schema}.PCCLIENT C
         JOIN {schema}.PCATIVI A ON C.CODATV1 = A.CODATIV
         LEFT JOIN {schema}.PCUSUARI U1 ON C.CODUSUR1 = U1.CODUSUR
         LEFT JOIN {schema}.PCUSUARI U2 ON C.CODUSUR2 = U2.CODUSUR
+        LEFT JOIN {schema}.PCUSUARI U3 ON C.CODUSUR3 = U3.CODUSUR
         LEFT JOIN {schema}.PCREDECLIENTE R ON C.CODREDE = R.CODREDE
-        WHERE (U1.NOME LIKE '%OFF TRADE%' OR U2.NOME LIKE '%OFF TRADE%')
-          AND (U1.ESTADO = '{estado}' OR U2.ESTADO = '{estado}')
+        WHERE (U1.NOME LIKE '%OFF TRADE%' OR U2.NOME LIKE '%OFF TRADE%' OR U3.NOME LIKE '%OFF TRADE%')
+          AND (U1.ESTADO = '{estado}' OR U2.ESTADO = '{estado}' OR U3.ESTADO = '{estado}')
     """
 
 
@@ -89,7 +95,8 @@ def _query_vendas(schema, filiais):
         JOIN {schema}.PCFORNEC F ON M.CODFORNEC = F.CODFORNEC
         LEFT JOIN {schema}.PCUSUARI U1 ON C.CODUSUR1 = U1.CODUSUR
         LEFT JOIN {schema}.PCUSUARI U2 ON C.CODUSUR2 = U2.CODUSUR
-        WHERE (U1.NOME LIKE '%OFF TRADE%' OR U2.NOME LIKE '%OFF TRADE%')
+        LEFT JOIN {schema}.PCUSUARI U3 ON C.CODUSUR3 = U3.CODUSUR
+        WHERE (U1.NOME LIKE '%OFF TRADE%' OR U2.NOME LIKE '%OFF TRADE%' OR U3.NOME LIKE '%OFF TRADE%')
           {fil_clause}
           AND M.CODOPER = 'S'
           AND M.NUMNOTADEV IS NULL
@@ -113,7 +120,8 @@ def _query_historico(schema, filiais):
         LEFT JOIN {schema}.PCPRODUT P ON M.CODPROD = P.CODPROD
         LEFT JOIN {schema}.PCUSUARI U1 ON C.CODUSUR1 = U1.CODUSUR
         LEFT JOIN {schema}.PCUSUARI U2 ON C.CODUSUR2 = U2.CODUSUR
-        WHERE (U1.NOME LIKE '%OFF TRADE%' OR U2.NOME LIKE '%OFF TRADE%')
+        LEFT JOIN {schema}.PCUSUARI U3 ON C.CODUSUR3 = U3.CODUSUR
+        WHERE (U1.NOME LIKE '%OFF TRADE%' OR U2.NOME LIKE '%OFF TRADE%' OR U3.NOME LIKE '%OFF TRADE%')
           {fil_clause}
           AND M.CODOPER = 'S'
           AND M.NUMNOTADEV IS NULL
@@ -175,13 +183,13 @@ _hier_por_chave = {
 }
 
 clientes = pd.concat(_cli_partes, ignore_index=True) if _cli_partes else pd.DataFrame(
-    columns=['CODCLI', 'CLIENTE', 'FANTASIA', 'CIDADE', 'RAMO', 'CODUSUR1', 'CODUSUR2', 'DTULTCOMP', 'REDE', 'ESTADO'])
+    columns=['CODCLI', 'CLIENTE', 'FANTASIA', 'CIDADE', 'RAMO', 'CODUSUR1', 'CODUSUR2', 'CODUSUR3', 'DTULTCOMP', 'REDE', 'ESTADO'])
 clientes['CIDADE']   = clientes['CIDADE'].fillna('').str.strip()
 clientes['RAMO']     = clientes['RAMO'].fillna('OUTROS').str.strip()
 clientes['FANTASIA'] = clientes['FANTASIA'].fillna('').str.strip()
 clientes['CLIENTE']  = clientes['CLIENTE'].fillna('').str.strip()
 clientes['REDE']     = clientes['REDE'].fillna('').str.strip()
-for col in ('CODUSUR1', 'CODUSUR2'):
+for col in ('CODUSUR1', 'CODUSUR2', 'CODUSUR3'):
     clientes[col] = clientes[col].apply(lambda v: int(v) if str(v).strip().replace('.0', '').isdigit() else None)
 clientes['CLIENTE_KEY'] = clientes['ESTADO'] + '-' + clientes['CODCLI'].astype(str)
 
@@ -292,14 +300,14 @@ for _, c in clientes.iterrows():
 
     vendedores_cadastro = [
         {'rca': rca, 'nome': _nome_por_chave[(estado, rca)]}
-        for rca in (c['CODUSUR1'], c['CODUSUR2'])
+        for rca in (c['CODUSUR1'], c['CODUSUR2'], c['CODUSUR3'])
         if (estado, rca) in _nome_por_chave
     ]
 
     # Hierarquia do cliente = a do vendedor principal (CODUSUR1), com
-    # fallback pro CODUSUR2 — usada nos filtros em cascata da página.
+    # fallback pro CODUSUR2/3 — usada nos filtros em cascata da página.
     _hier_cliente = None
-    for rca in (c['CODUSUR1'], c['CODUSUR2']):
+    for rca in (c['CODUSUR1'], c['CODUSUR2'], c['CODUSUR3']):
         if (estado, rca) in _hier_por_chave:
             _hier_cliente = _hier_por_chave[(estado, rca)]
             break
