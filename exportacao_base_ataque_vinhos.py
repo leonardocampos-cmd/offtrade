@@ -1,12 +1,20 @@
 """
 Gera base_ataque_vinhos_data.js — cruza a "base de ataque" de vinhos de SP
-(planilha externa, aba 'Base') por CNPJ com o cadastro/faturamento ATUAL da
-Rigarr em SPON.
+(planilha "Base Vinho" no Google Sheets) por CNPJ com o cadastro/faturamento
+ATUAL da Rigarr em SPON.
 
 Substitui o processo anterior (feito uma única vez em 2026-08-07 cruzando
 manualmente com um extrato "analise clientes vinho.xlsx" de Cadastro+Vendas,
 sem script salvo) — agora consulta direto o Oracle, então pode ser
 re-executado a qualquer momento com dado sempre atual.
+
+A planilha de origem era um Excel manual em Downloads\\Base Vinho.xlsx —
+só existia na máquina de quem tinha acabado de salvá-la ali, então o script
+falhava (FileNotFoundError) em qualquer outra execução, inclusive na VPS
+(sem tela nenhuma de "Downloads"). Migrado em 09/09/2026 pra ler de um
+Google Sheets ("Base Vinho", mesma pasta de BASE OTD.xlsx no Drive) via
+baixar_planilhas_drive.py — mesmo token/credencial já usado por
+metas_rj/metas_sp/etc., editável pela equipe direto no navegador.
 
 Situação (mesmo critério do brief da página, base_ataque_vinhos.html):
   - Sem cadastro: CNPJ não encontrado em SPON.PCCLIENT
@@ -27,18 +35,20 @@ import pandas as pd
 
 from meta import engine_spon, carregar_dados
 from utils import git_commit_push, publicar_static
+from baixar_planilhas_drive import caminho_base_ataque_vinhos
 
 BASE = Path(__file__).parent
-PLANILHA = Path.home() / "Downloads" / "Base Vinho.xlsx"
-ABA = "Base"
 
 
 def _so_digitos(v):
     return re.sub(r'\D', '', str(v or ''))
 
 
-# ── 1. Lê a planilha de ataque ──────────────────────────────────────────
-df_at = pd.read_excel(PLANILHA, sheet_name=ABA)
+# ── 1. Lê a planilha de ataque (Google Sheets "Base Vinho", exportada como
+# .xlsx pela Drive API — só tem uma aba, então lê a primeira em vez de
+# depender de um nome de aba fixo) ──────────────────────────────────────
+PLANILHA = caminho_base_ataque_vinhos()
+df_at = pd.read_excel(PLANILHA, sheet_name=0)
 df_at.columns = [str(c).strip() for c in df_at.columns]
 df_at = df_at.rename(columns={
     'CNPJ': 'CNPJ_RAW', 'Rede': 'REDE', 'Bandeira': 'BANDEIRA', 'Nome PDV': 'PDV',
@@ -59,7 +69,7 @@ for col in ['TOTAL_VENDA', 'SHARE_OPORTUNIDADE', 'SHARE_HANDLER', 'OPORTUNIDADE_
     df_at[col] = pd.to_numeric(df_at[col], errors='coerce')
 df_at = df_at[df_at['CNPJ'].str.len() >= 11].drop_duplicates(subset=['CNPJ']).reset_index(drop=True)
 
-print(f"Base de ataque: {len(df_at)} CNPJs (planilha '{ABA}')")
+print(f"Base de ataque: {len(df_at)} CNPJs (Google Sheets 'Base Vinho')")
 
 # ── 2. Cadastro Rigarr (SPON inteiro — ~50 mil clientes, cabe numa query só)
 df_cad = carregar_dados(f"""

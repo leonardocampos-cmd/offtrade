@@ -87,10 +87,15 @@ def _buscar(query: str):
     return resp.get("files", [])
 
 
-def baixar_arquivo(nome: str, nome_saida: str = None, contains: bool = False) -> Path:
+def baixar_arquivo(nome: str, nome_saida: str = None, contains: bool = False, google_sheets: bool = False) -> Path:
     """Baixa (ou reaproveita do cache) o arquivo `nome` do Drive.
     Se `contains=True`, busca por `name contains nome` em vez de nome exato
-    (útil quando o nome varia, ex: planilhas de "Controle de Notas")."""
+    (útil quando o nome varia, ex: planilhas de "Controle de Notas").
+    Se `google_sheets=True`, `nome` é uma planilha nativa do Google Sheets
+    (não um .xlsx binário) — usa `export_media` em vez de `get_media`, que é
+    o jeito da Drive API de baixar um Google Sheets como .xlsx (get_media só
+    funciona pra arquivo binário já existente, não pra formato nativo do
+    Google)."""
     nome_saida = nome_saida or nome
     destino = CACHE_DIR / nome_saida
     CACHE_DIR.mkdir(exist_ok=True)
@@ -125,7 +130,11 @@ def baixar_arquivo(nome: str, nome_saida: str = None, contains: bool = False) ->
 
     from googleapiclient.http import MediaIoBaseDownload
     service = _get_service()
-    request = service.files().get_media(fileId=arquivo["id"], supportsAllDrives=True)
+    if google_sheets:
+        XLSX_MIME = "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+        request = service.files().export_media(fileId=arquivo["id"], mimeType=XLSX_MIME)
+    else:
+        request = service.files().get_media(fileId=arquivo["id"], supportsAllDrives=True)
     buf = io.BytesIO()
     downloader = MediaIoBaseDownload(buf, request)
     done = False
@@ -218,6 +227,15 @@ def carregar_precos_off_trade_fallback() -> dict:
     except Exception as e:
         print(f"[AVISO] Tabela OFF TRADE RJ - CRC indisponível ({str(e)[:100]}) — fallback de preço ignorado")
     return precos
+
+
+def caminho_base_ataque_vinhos() -> Path:
+    # Substitui o Excel manual em Downloads\Base Vinho.xlsx (nunca era
+    # sincronizado de máquina nenhuma, então exportacao_base_ataque_vinhos.py
+    # falhava toda vez que não rodava no PC de quem tinha acabado de salvar o
+    # arquivo ali) por uma planilha Google Sheets de verdade, editável pela
+    # equipe — pedido do usuário em 09/09/2026.
+    return baixar_arquivo("Base Vinho", nome_saida="base_vinho.xlsx", google_sheets=True)
 
 
 def caminho_base_otd() -> Path:
