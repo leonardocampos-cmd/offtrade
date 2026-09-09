@@ -1,15 +1,15 @@
 // Gerado automaticamente
 const RAIOX_INDUSTRIAS_DATA = {
-  "atualizado_em": "18/08/2026 17:02",
-  "mes_atual": "07/2026",
-  "faturamento_total_ytd": 63696580.57,
+  "atualizado_em": "09/09/2026 10:23",
+  "mes_atual": "09/2026",
+  "faturamento_total_ytd": 79401718.62,
   "fornecedores": [
     {
       "fantasia": "PERNOD",
-      "faturamento_ytd": 22793127.23,
-      "participacao_pct": 35.78,
-      "faturamento_mes_atual": 4508848.12,
-      "clientes_positivados": 1642,
+      "faturamento_ytd": 28548948.39,
+      "participacao_pct": 35.96,
+      "faturamento_mes_atual": 561780.91,
+      "clientes_positivados": 1948,
       "por_mes": {
         "2026-01": 1116270.68,
         "2026-02": 2130345.02,
@@ -17,7 +17,9 @@ const RAIOX_INDUSTRIAS_DATA = {
         "2026-04": 2584265.17,
         "2026-05": 4232409.32,
         "2026-06": 3961772.45,
-        "2026-07": 4508848.12
+        "2026-07": 4504716.89,
+        "2026-08": 5198171.47,
+        "2026-09": 561780.91
       },
       "por_vendedor": {
         "ES-230": {
@@ -69,6 +71,21 @@ const RAIOX_INDUSTRIAS_DATA = {
             "2026-04": 206.16
           },
           "clientes_positivados": 15
+        },
+        "ES-269": {
+          "faturamento_ytd": 3277.2,
+          "por_mes": {
+            "2026-08": 829.56,
+            "2026-09": 2447.64
+          },
+          "clientes_positivados": 3
+        },
+        "ES-273": {
+          "faturamento_ytd": 1128.09,
+          "por_mes": {
+            "2026-09": 1128.09
+          },
+          "clientes_positivados": 1
         },
         "ES-335": {
           "faturamento_ytd": 28749.11,
@@ -136,13 +153,14 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 2
         },
         "ES-388": {
-          "faturamento_ytd": 23010.78,
+          "faturamento_ytd": 25943.58,
           "por_mes": {
             "2026-01": 10552.44,
             "2026-02": 9594.78,
-            "2026-07": 2863.56
+            "2026-07": 2863.56,
+            "2026-09": 2932.8
           },
-          "clientes_positivados": 6
+          "clientes_positivados": 7
         },
         "ES-402": {
           "faturamento_ytd": 6582.88,
@@ -181,15 +199,30 @@ const RAIOX_INDUSTRIAS_DATA = {
           },
           "clientes_positivados": 7
         },
-        "ES-508": {
-          "faturamento_ytd": 14553.36,
+        "ES-458": {
+          "faturamento_ytd": 308.4,
           "por_mes": {
-            "2026-07": 14553.36
+            "2026-08": 308.4
           },
-          "clientes_positivados": 7
+          "clientes_positivados": 1
+        },
+        "ES-476": {
+          "faturamento_ytd": 283.83,
+          "por_mes": {
+            "2026-08": 283.83
+          },
+          "clientes_positivados": 2
+        },
+        "ES-508": {
+          "faturamento_ytd": 74640.0,
+          "por_mes": {
+            "2026-07": 14553.36,
+            "2026-08": 60086.64
+          },
+          "clientes_positivados": 8
         },
         "MG-327": {
-          "faturamento_ytd": 102729.05,
+          "faturamento_ytd": 125718.25,
           "por_mes": {
             "2026-01": 6444.6,
             "2026-02": 6551.86,
@@ -197,9 +230,11 @@ const RAIOX_INDUSTRIAS_DATA = {
             "2026-04": 18431.4,
             "2026-05": 26227.8,
             "2026-06": 16405.5,
-            "2026-07": 14750.06
+            "2026-07": 14750.06,
+            "2026-08": 22307.1,
+            "2026-09": 682.1
           },
-          "clientes_positivados": 68
+          "clientes_positivados": 69
         },
         "MG-331": {
           "faturamento_ytd": 35646.61,
@@ -220,29 +255,33 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 18
         },
         "MG-344": {
-          "faturamento_ytd": 16868.08,
+          "faturamento_ytd": 22646.2,
           "por_mes": {
             "2026-04": 457.2,
             "2026-05": 5228.88,
             "2026-06": 3558.6,
-            "2026-07": 7623.4
+            "2026-07": 7623.4,
+            "2026-08": 3264.62,
+            "2026-09": 2513.5
           },
-          "clientes_positivados": 18
+          "clientes_positivados": 22
         },
         "MG-349": {
-          "faturamento_ytd": 53037.41,
+          "faturamento_ytd": 73520.13,
           "por_mes": {
             "2026-01": 9529.6,
             "2026-03": 1730.89,
             "2026-04": 32645.52,
             "2026-05": 1548.0,
             "2026-06": 449.4,
-            "2026-07": 7134.0
+            "2026-07": 7134.0,
+            "2026-08": 20225.44,
+            "2026-09": 257.28
           },
           "clientes_positivados": 23
         },
         "MG-354": {
-          "faturamento_ytd": 221838.48,
+          "faturamento_ytd": 256714.0,
           "por_mes": {
             "2026-01": 103484.2,
             "2026-02": 41726.7,
@@ -250,20 +289,23 @@ const RAIOX_INDUSTRIAS_DATA = {
             "2026-04": 16304.1,
             "2026-05": 8693.3,
             "2026-06": 16079.5,
-            "2026-07": 24607.58
+            "2026-07": 24607.58,
+            "2026-08": 34415.74,
+            "2026-09": 459.78
           },
-          "clientes_positivados": 46
+          "clientes_positivados": 52
         },
         "MG-360": {
-          "faturamento_ytd": 640231.68,
+          "faturamento_ytd": 705694.68,
           "por_mes": {
             "2026-03": 71734.44,
             "2026-04": 136266.6,
             "2026-05": 140441.82,
             "2026-06": 63097.8,
-            "2026-07": 228691.02
+            "2026-07": 228691.02,
+            "2026-08": 65463.0
           },
-          "clientes_positivados": 21
+          "clientes_positivados": 22
         },
         "MG-362": {
           "faturamento_ytd": 18287.58,
@@ -277,18 +319,35 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 27
         },
         "MG-378": {
-          "faturamento_ytd": 18556.56,
+          "faturamento_ytd": 53050.56,
           "por_mes": {
-            "2026-07": 18556.56
+            "2026-07": 18201.48,
+            "2026-08": 34849.08
           },
           "clientes_positivados": 5
         },
         "MG-388": {
-          "faturamento_ytd": 221948.28,
+          "faturamento_ytd": 236614.68,
           "por_mes": {
-            "2026-07": 221948.28
+            "2026-07": 221948.28,
+            "2026-08": 14666.4
           },
           "clientes_positivados": 2
+        },
+        "MG-389": {
+          "faturamento_ytd": 8529.6,
+          "por_mes": {
+            "2026-08": 8529.6
+          },
+          "clientes_positivados": 3
+        },
+        "MG-390": {
+          "faturamento_ytd": 7516.01,
+          "por_mes": {
+            "2026-08": 6390.72,
+            "2026-09": 1125.29
+          },
+          "clientes_positivados": 3
         },
         "MG-542": {
           "faturamento_ytd": 24890.4,
@@ -299,7 +358,7 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 2
         },
         "RJ-144": {
-          "faturamento_ytd": 56047.86,
+          "faturamento_ytd": 62422.06,
           "por_mes": {
             "2026-01": 5723.3,
             "2026-02": 1158.4,
@@ -307,24 +366,28 @@ const RAIOX_INDUSTRIAS_DATA = {
             "2026-04": 11991.5,
             "2026-05": 3307.9,
             "2026-06": 8376.06,
-            "2026-07": 15363.1
+            "2026-07": 15363.1,
+            "2026-08": 5707.1,
+            "2026-09": 667.1
           },
-          "clientes_positivados": 31
+          "clientes_positivados": 35
         },
         "RJ-153": {
-          "faturamento_ytd": 29528.36,
+          "faturamento_ytd": 33223.76,
           "por_mes": {
             "2026-02": 5174.64,
             "2026-03": 3116.7,
             "2026-04": 5531.9,
             "2026-05": 3378.96,
             "2026-06": 9573.48,
-            "2026-07": 2752.68
+            "2026-07": 2752.68,
+            "2026-08": 3558.0,
+            "2026-09": 137.4
           },
-          "clientes_positivados": 23
+          "clientes_positivados": 30
         },
         "RJ-155": {
-          "faturamento_ytd": 191897.59,
+          "faturamento_ytd": 217400.99,
           "por_mes": {
             "2026-01": 42414.79,
             "2026-02": 19508.2,
@@ -332,12 +395,14 @@ const RAIOX_INDUSTRIAS_DATA = {
             "2026-04": 25954.46,
             "2026-05": 8527.9,
             "2026-06": 19398.86,
-            "2026-07": 36367.1
+            "2026-07": 35939.6,
+            "2026-08": 17725.1,
+            "2026-09": 8205.8
           },
-          "clientes_positivados": 100
+          "clientes_positivados": 104
         },
         "RJ-156": {
-          "faturamento_ytd": 36990.52,
+          "faturamento_ytd": 44120.71,
           "por_mes": {
             "2026-01": 19965.04,
             "2026-02": 1394.8,
@@ -345,12 +410,14 @@ const RAIOX_INDUSTRIAS_DATA = {
             "2026-04": 2867.11,
             "2026-05": 4941.7,
             "2026-06": 3392.88,
-            "2026-07": 1361.9
+            "2026-07": 1361.9,
+            "2026-08": 4607.06,
+            "2026-09": 2523.13
           },
-          "clientes_positivados": 58
+          "clientes_positivados": 64
         },
         "RJ-158": {
-          "faturamento_ytd": 34169.0,
+          "faturamento_ytd": 66449.0,
           "por_mes": {
             "2026-01": 4530.84,
             "2026-02": 11793.3,
@@ -358,12 +425,13 @@ const RAIOX_INDUSTRIAS_DATA = {
             "2026-04": 3248.42,
             "2026-05": 5458.52,
             "2026-06": 306.14,
-            "2026-07": 3611.62
+            "2026-07": 3611.62,
+            "2026-08": 32280.0
           },
           "clientes_positivados": 11
         },
         "RJ-159": {
-          "faturamento_ytd": 226405.28,
+          "faturamento_ytd": 256512.08,
           "por_mes": {
             "2026-01": 28295.04,
             "2026-02": 28544.56,
@@ -371,9 +439,18 @@ const RAIOX_INDUSTRIAS_DATA = {
             "2026-04": 12833.36,
             "2026-05": 40608.88,
             "2026-06": 44339.54,
-            "2026-07": 44074.7
+            "2026-07": 44074.7,
+            "2026-08": 26060.1,
+            "2026-09": 4046.7
           },
-          "clientes_positivados": 76
+          "clientes_positivados": 81
+        },
+        "RJ-174": {
+          "faturamento_ytd": 69.8,
+          "por_mes": {
+            "2026-08": 69.8
+          },
+          "clientes_positivados": 1
         },
         "RJ-238": {
           "faturamento_ytd": 21710.42,
@@ -385,7 +462,7 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 5
         },
         "RJ-241": {
-          "faturamento_ytd": 24124.74,
+          "faturamento_ytd": 31407.54,
           "por_mes": {
             "2026-01": 3670.7,
             "2026-02": 359.8,
@@ -393,28 +470,39 @@ const RAIOX_INDUSTRIAS_DATA = {
             "2026-04": 2052.0,
             "2026-05": 3907.9,
             "2026-06": 113.6,
-            "2026-07": 10081.8
+            "2026-07": 10081.8,
+            "2026-08": 7282.8
           },
           "clientes_positivados": 15
         },
         "RJ-275": {
-          "faturamento_ytd": 591.0,
+          "faturamento_ytd": 2621.24,
           "por_mes": {
-            "2026-06": 591.0
+            "2026-06": 591.0,
+            "2026-08": 2030.24
+          },
+          "clientes_positivados": 1
+        },
+        "RJ-306": {
+          "faturamento_ytd": 81600.0,
+          "por_mes": {
+            "2026-08": 81600.0
           },
           "clientes_positivados": 1
         },
         "RJ-378": {
-          "faturamento_ytd": 15639.96,
+          "faturamento_ytd": 25078.96,
           "por_mes": {
             "2026-03": 4903.8,
             "2026-06": 1506.5,
-            "2026-07": 9229.66
+            "2026-07": 9229.66,
+            "2026-08": 6689.4,
+            "2026-09": 2749.6
           },
-          "clientes_positivados": 12
+          "clientes_positivados": 17
         },
         "RJ-379": {
-          "faturamento_ytd": 51789.14,
+          "faturamento_ytd": 58948.52,
           "por_mes": {
             "2026-01": 658.8,
             "2026-02": 11941.2,
@@ -422,21 +510,24 @@ const RAIOX_INDUSTRIAS_DATA = {
             "2026-04": 5518.4,
             "2026-05": 2788.34,
             "2026-06": 13918.72,
-            "2026-07": 10807.2
+            "2026-07": 10807.2,
+            "2026-08": 6958.68,
+            "2026-09": 200.7
           },
-          "clientes_positivados": 36
+          "clientes_positivados": 40
         },
         "RJ-412": {
-          "faturamento_ytd": 5716.14,
+          "faturamento_ytd": 5845.74,
           "por_mes": {
             "2026-01": 185.7,
             "2026-03": 371.5,
             "2026-04": 1198.28,
             "2026-05": 2533.38,
             "2026-06": 1229.58,
-            "2026-07": 197.7
+            "2026-07": 197.7,
+            "2026-08": 129.6
           },
-          "clientes_positivados": 8
+          "clientes_positivados": 10
         },
         "RJ-417": {
           "faturamento_ytd": 34227.68,
@@ -451,7 +542,7 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 12
         },
         "RJ-419": {
-          "faturamento_ytd": 63101.38,
+          "faturamento_ytd": 64545.08,
           "por_mes": {
             "2026-01": 5602.7,
             "2026-02": 9025.1,
@@ -459,12 +550,13 @@ const RAIOX_INDUSTRIAS_DATA = {
             "2026-04": 2302.54,
             "2026-05": 4491.72,
             "2026-06": 2719.32,
-            "2026-07": 8399.6
+            "2026-07": 8399.6,
+            "2026-08": 1443.7
           },
           "clientes_positivados": 27
         },
         "RJ-431": {
-          "faturamento_ytd": 14724.6,
+          "faturamento_ytd": 16611.94,
           "por_mes": {
             "2026-01": 3572.46,
             "2026-02": 127.6,
@@ -472,12 +564,14 @@ const RAIOX_INDUSTRIAS_DATA = {
             "2026-04": 1392.0,
             "2026-05": 1859.1,
             "2026-06": 5130.0,
-            "2026-07": 1431.54
+            "2026-07": 1431.54,
+            "2026-08": 925.9,
+            "2026-09": 961.44
           },
-          "clientes_positivados": 19
+          "clientes_positivados": 22
         },
         "RJ-439": {
-          "faturamento_ytd": 10963.06,
+          "faturamento_ytd": 20949.76,
           "por_mes": {
             "2026-01": 1876.56,
             "2026-02": 2608.42,
@@ -485,59 +579,76 @@ const RAIOX_INDUSTRIAS_DATA = {
             "2026-04": 1722.76,
             "2026-05": 770.3,
             "2026-06": 190.7,
-            "2026-07": 2439.6
+            "2026-07": 2439.6,
+            "2026-08": 9187.8,
+            "2026-09": 798.9
           },
-          "clientes_positivados": 25
+          "clientes_positivados": 32
         },
         "RJ-450": {
-          "faturamento_ytd": 77870.27,
+          "faturamento_ytd": 80658.57,
           "por_mes": {
             "2026-03": 3654.12,
             "2026-04": 8235.09,
             "2026-05": 19276.48,
             "2026-06": 15347.37,
-            "2026-07": 31357.21
+            "2026-07": 31357.21,
+            "2026-08": 2320.8,
+            "2026-09": 467.5
           },
           "clientes_positivados": 24
         },
         "RJ-471": {
-          "faturamento_ytd": 26485.68,
+          "faturamento_ytd": 31360.48,
           "por_mes": {
             "2026-03": 3637.8,
             "2026-04": 4386.92,
             "2026-05": 5639.64,
             "2026-06": 2182.8,
-            "2026-07": 10638.52
+            "2026-07": 10638.52,
+            "2026-08": 4744.9,
+            "2026-09": 129.9
           },
-          "clientes_positivados": 29
+          "clientes_positivados": 33
+        },
+        "RJ-512": {
+          "faturamento_ytd": 12432.0,
+          "por_mes": {
+            "2026-08": 12432.0
+          },
+          "clientes_positivados": 1
         },
         "RJ-91": {
-          "faturamento_ytd": 261010.8,
+          "faturamento_ytd": 275950.8,
           "por_mes": {
             "2026-03": 124273.2,
             "2026-04": 13437.6,
-            "2026-05": 123300.0
+            "2026-05": 123300.0,
+            "2026-09": 14940.0
           },
           "clientes_positivados": 1
         },
         "SP-119": {
-          "faturamento_ytd": 448857.6,
+          "faturamento_ytd": 682984.2,
           "por_mes": {
             "2026-02": 17940.0,
             "2026-03": 267824.6,
             "2026-05": 126780.4,
             "2026-06": 13821.6,
-            "2026-07": 22491.0
+            "2026-07": 22491.0,
+            "2026-08": 52479.0,
+            "2026-09": 181647.6
           },
           "clientes_positivados": 1
         },
         "SP-232": {
-          "faturamento_ytd": 2045052.26,
+          "faturamento_ytd": 3055753.46,
           "por_mes": {
             "2026-06": 1474028.4,
-            "2026-07": 571023.86
+            "2026-07": 571023.86,
+            "2026-08": 1010701.2
           },
-          "clientes_positivados": 4
+          "clientes_positivados": 5
         },
         "SP-310": {
           "faturamento_ytd": 154968.0,
@@ -556,7 +667,7 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 1
         },
         "SP-317": {
-          "faturamento_ytd": 349351.23,
+          "faturamento_ytd": 355050.03,
           "por_mes": {
             "2026-01": 101518.2,
             "2026-02": 69680.76,
@@ -564,18 +675,20 @@ const RAIOX_INDUSTRIAS_DATA = {
             "2026-04": 31190.4,
             "2026-05": 53176.35,
             "2026-06": 25660.2,
-            "2026-07": 27573.0
+            "2026-07": 27573.0,
+            "2026-08": 5698.8
           },
           "clientes_positivados": 14
         },
         "SP-318": {
-          "faturamento_ytd": 2747032.8,
+          "faturamento_ytd": 2885550.0,
           "por_mes": {
             "2026-04": 174034.2,
             "2026-05": 900095.4,
-            "2026-07": 1672903.2
+            "2026-07": 1672903.2,
+            "2026-08": 138517.2
           },
-          "clientes_positivados": 2
+          "clientes_positivados": 4
         },
         "SP-356": {
           "faturamento_ytd": 2309.6,
@@ -595,7 +708,7 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 2
         },
         "SP-371": {
-          "faturamento_ytd": 1670876.72,
+          "faturamento_ytd": 1964250.12,
           "por_mes": {
             "2026-01": 14373.78,
             "2026-02": 306172.8,
@@ -603,12 +716,14 @@ const RAIOX_INDUSTRIAS_DATA = {
             "2026-04": 293288.8,
             "2026-05": 357152.8,
             "2026-06": 66108.6,
-            "2026-07": 69328.2
+            "2026-07": 69328.2,
+            "2026-08": 239891.1,
+            "2026-09": 53482.3
           },
-          "clientes_positivados": 46
+          "clientes_positivados": 48
         },
         "SP-391": {
-          "faturamento_ytd": 768731.13,
+          "faturamento_ytd": 911389.03,
           "por_mes": {
             "2026-01": 21582.0,
             "2026-02": 479483.42,
@@ -616,9 +731,10 @@ const RAIOX_INDUSTRIAS_DATA = {
             "2026-04": 97344.1,
             "2026-05": 28516.07,
             "2026-06": 86671.24,
-            "2026-07": 49415.4
+            "2026-07": 49415.4,
+            "2026-08": 142657.9
           },
-          "clientes_positivados": 26
+          "clientes_positivados": 28
         },
         "SP-392": {
           "faturamento_ytd": 1069701.0,
@@ -637,7 +753,7 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 2
         },
         "SP-425": {
-          "faturamento_ytd": 151699.62,
+          "faturamento_ytd": 240192.63,
           "por_mes": {
             "2026-01": 5983.44,
             "2026-02": 15159.0,
@@ -645,12 +761,14 @@ const RAIOX_INDUSTRIAS_DATA = {
             "2026-04": 18501.68,
             "2026-05": 20410.8,
             "2026-06": 33402.15,
-            "2026-07": 54308.23
+            "2026-07": 54308.23,
+            "2026-08": 77841.61,
+            "2026-09": 10651.4
           },
-          "clientes_positivados": 35
+          "clientes_positivados": 47
         },
         "SP-426": {
-          "faturamento_ytd": 1827403.82,
+          "faturamento_ytd": 2016586.65,
           "por_mes": {
             "2026-01": 3320.28,
             "2026-02": 41232.54,
@@ -658,19 +776,22 @@ const RAIOX_INDUSTRIAS_DATA = {
             "2026-04": 585299.5,
             "2026-05": 589209.24,
             "2026-06": 222841.6,
-            "2026-07": 254294.46
+            "2026-07": 251132.46,
+            "2026-08": 170603.83,
+            "2026-09": 21741.0
           },
           "clientes_positivados": 87
         },
         "SP-428": {
-          "faturamento_ytd": 33396.29,
+          "faturamento_ytd": 33755.49,
           "por_mes": {
             "2026-01": 7080.97,
             "2026-02": 2746.64,
             "2026-03": 616.94,
             "2026-04": 17958.44,
             "2026-06": 2459.9,
-            "2026-07": 2533.4
+            "2026-07": 2533.4,
+            "2026-08": 359.2
           },
           "clientes_positivados": 2
         },
@@ -684,14 +805,16 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 4
         },
         "SP-433": {
-          "faturamento_ytd": 849628.15,
+          "faturamento_ytd": 953396.05,
           "por_mes": {
             "2026-04": 241940.4,
             "2026-05": 376857.0,
             "2026-06": 99580.8,
-            "2026-07": 131249.95
+            "2026-07": 131249.95,
+            "2026-08": 70559.1,
+            "2026-09": 33208.8
           },
-          "clientes_positivados": 55
+          "clientes_positivados": 61
         },
         "SP-438": {
           "faturamento_ytd": 1168804.94,
@@ -704,176 +827,207 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 12
         },
         "SP-460": {
-          "faturamento_ytd": 250959.18,
+          "faturamento_ytd": 423801.46,
           "por_mes": {
             "2026-04": 308.4,
             "2026-05": 41792.51,
             "2026-06": 99048.84,
-            "2026-07": 109809.44
+            "2026-07": 109809.44,
+            "2026-08": 172037.98,
+            "2026-09": 804.3
           },
-          "clientes_positivados": 48
+          "clientes_positivados": 52
         },
         "SP-461": {
-          "faturamento_ytd": 157879.9,
+          "faturamento_ytd": 175697.2,
           "por_mes": {
             "2026-04": 19176.0,
             "2026-05": 44970.67,
             "2026-06": 55036.98,
-            "2026-07": 38696.25
+            "2026-07": 38696.25,
+            "2026-08": 15494.74,
+            "2026-09": 2322.56
           },
-          "clientes_positivados": 29
+          "clientes_positivados": 31
         },
         "SP-462": {
-          "faturamento_ytd": 327839.8,
+          "faturamento_ytd": 459636.4,
           "por_mes": {
             "2026-04": 28176.0,
             "2026-05": 96834.0,
             "2026-06": 140541.4,
-            "2026-07": 62288.4
+            "2026-07": 62288.4,
+            "2026-08": 131796.6
           },
           "clientes_positivados": 1
         },
         "SP-463": {
-          "faturamento_ytd": 25997.56,
+          "faturamento_ytd": 28054.46,
           "por_mes": {
             "2026-05": 1662.3,
             "2026-06": 21715.46,
-            "2026-07": 2619.8
+            "2026-07": 2619.8,
+            "2026-08": 2056.9
           },
-          "clientes_positivados": 20
+          "clientes_positivados": 22
         },
         "SP-464": {
-          "faturamento_ytd": 2141.28,
+          "faturamento_ytd": 2534.48,
           "por_mes": {
             "2026-05": 619.6,
             "2026-06": 670.8,
-            "2026-07": 850.88
+            "2026-07": 850.88,
+            "2026-08": 393.2
           },
           "clientes_positivados": 2
         },
         "SP-465": {
-          "faturamento_ytd": 54751.14,
+          "faturamento_ytd": 61308.44,
           "por_mes": {
             "2026-04": 1704.9,
             "2026-05": 49068.44,
             "2026-06": 3481.6,
-            "2026-07": 496.2
+            "2026-07": 496.2,
+            "2026-08": 6239.4,
+            "2026-09": 317.9
           },
-          "clientes_positivados": 17
+          "clientes_positivados": 18
         },
         "SP-466": {
-          "faturamento_ytd": 41257.09,
+          "faturamento_ytd": 54513.09,
           "por_mes": {
             "2026-04": 1444.8,
             "2026-05": 11070.27,
             "2026-06": 11293.27,
-            "2026-07": 17448.75
+            "2026-07": 17448.75,
+            "2026-08": 9744.5,
+            "2026-09": 3511.5
           },
-          "clientes_positivados": 13
+          "clientes_positivados": 15
         },
         "SP-467": {
-          "faturamento_ytd": 141651.0,
+          "faturamento_ytd": 245722.5,
           "por_mes": {
             "2026-04": 7266.6,
             "2026-05": 21096.0,
             "2026-06": 42908.6,
-            "2026-07": 70379.8
+            "2026-07": 70379.8,
+            "2026-08": 103521.9,
+            "2026-09": 549.6
           },
-          "clientes_positivados": 19
+          "clientes_positivados": 23
         },
         "SP-468": {
-          "faturamento_ytd": 356844.64,
+          "faturamento_ytd": 674168.88,
           "por_mes": {
             "2026-05": 258233.49,
             "2026-06": 15993.87,
-            "2026-07": 82617.28
+            "2026-07": 82617.28,
+            "2026-08": 278153.54,
+            "2026-09": 39170.7
           },
-          "clientes_positivados": 33
+          "clientes_positivados": 40
         },
         "SP-469": {
-          "faturamento_ytd": 51131.0,
+          "faturamento_ytd": 63461.75,
           "por_mes": {
             "2026-05": 30932.1,
             "2026-06": 15210.7,
-            "2026-07": 4988.2
+            "2026-07": 4988.2,
+            "2026-08": 6718.95,
+            "2026-09": 5611.8
           },
-          "clientes_positivados": 25
+          "clientes_positivados": 28
         },
         "SP-470": {
-          "faturamento_ytd": 1317029.72,
+          "faturamento_ytd": 2837382.32,
           "por_mes": {
             "2026-05": 557091.34,
             "2026-06": 759574.08,
-            "2026-07": 364.3
+            "2026-07": 364.3,
+            "2026-08": 1520029.8,
+            "2026-09": 322.8
           },
           "clientes_positivados": 8
         },
         "SP-471": {
-          "faturamento_ytd": 26006.02,
+          "faturamento_ytd": 38847.52,
           "por_mes": {
             "2026-05": 11954.3,
             "2026-06": 8397.08,
-            "2026-07": 5654.64
+            "2026-07": 5654.64,
+            "2026-08": 9636.3,
+            "2026-09": 3205.2
           },
-          "clientes_positivados": 18
+          "clientes_positivados": 22
         },
         "SP-472": {
-          "faturamento_ytd": 37214.6,
+          "faturamento_ytd": 61118.4,
           "por_mes": {
             "2026-05": 20234.0,
             "2026-06": 2770.8,
-            "2026-07": 14209.8
+            "2026-07": 14209.8,
+            "2026-08": 22064.2,
+            "2026-09": 1839.6
           },
-          "clientes_positivados": 10
+          "clientes_positivados": 12
         },
         "SP-473": {
-          "faturamento_ytd": 28291.4,
+          "faturamento_ytd": 44083.4,
           "por_mes": {
             "2026-05": 19765.2,
-            "2026-07": 8526.2
+            "2026-07": 8526.2,
+            "2026-08": 15792.0
           },
-          "clientes_positivados": 3
+          "clientes_positivados": 4
         },
         "SP-474": {
-          "faturamento_ytd": 16438.2,
+          "faturamento_ytd": 20986.8,
           "por_mes": {
             "2026-05": 507.6,
             "2026-06": 9026.7,
-            "2026-07": 6903.9
+            "2026-07": 6903.9,
+            "2026-08": 4548.6
           },
-          "clientes_positivados": 13
+          "clientes_positivados": 14
         },
         "SP-475": {
-          "faturamento_ytd": 14014.2,
+          "faturamento_ytd": 19269.6,
           "por_mes": {
             "2026-05": 3837.3,
             "2026-06": 2690.4,
-            "2026-07": 7486.5
+            "2026-07": 7486.5,
+            "2026-08": 5255.4
           },
-          "clientes_positivados": 6
+          "clientes_positivados": 13
         },
         "SP-476": {
-          "faturamento_ytd": 166097.45,
+          "faturamento_ytd": 239194.75,
           "por_mes": {
             "2026-05": 24220.9,
             "2026-06": 66445.5,
-            "2026-07": 75431.05
+            "2026-07": 75431.05,
+            "2026-08": 63305.6,
+            "2026-09": 9791.7
           },
-          "clientes_positivados": 42
+          "clientes_positivados": 47
         },
         "SP-477": {
-          "faturamento_ytd": 42098.2,
+          "faturamento_ytd": 59758.65,
           "por_mes": {
             "2026-05": 11694.8,
             "2026-06": 16103.8,
-            "2026-07": 14299.6
+            "2026-07": 14299.6,
+            "2026-08": 15343.95,
+            "2026-09": 2316.5
           },
-          "clientes_positivados": 25
+          "clientes_positivados": 26
         },
         "SP-482": {
-          "faturamento_ytd": 42728.4,
+          "faturamento_ytd": 66632.4,
           "por_mes": {
-            "2026-06": 42728.4
+            "2026-06": 42728.4,
+            "2026-08": 23904.0
           },
           "clientes_positivados": 2
         },
@@ -885,20 +1039,23 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 1
         },
         "SP-486": {
-          "faturamento_ytd": 50386.62,
+          "faturamento_ytd": 115404.22,
           "por_mes": {
             "2026-06": 7340.1,
-            "2026-07": 43046.52
+            "2026-07": 42918.22,
+            "2026-08": 49312.1,
+            "2026-09": 15833.8
           },
-          "clientes_positivados": 28
+          "clientes_positivados": 49
         },
         "SP-487": {
-          "faturamento_ytd": 26263.8,
+          "faturamento_ytd": 44619.3,
           "por_mes": {
             "2026-06": 5012.4,
-            "2026-07": 21251.4
+            "2026-07": 21251.4,
+            "2026-08": 18355.5
           },
-          "clientes_positivados": 6
+          "clientes_positivados": 7
         },
         "SP-488": {
           "faturamento_ytd": 8137.2,
@@ -908,99 +1065,122 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 3
         },
         "SP-489": {
-          "faturamento_ytd": 77168.0,
+          "faturamento_ytd": 91992.0,
           "por_mes": {
             "2026-06": 4121.4,
-            "2026-07": 73046.6
+            "2026-07": 73046.6,
+            "2026-08": 11382.1,
+            "2026-09": 3441.9
           },
-          "clientes_positivados": 12
+          "clientes_positivados": 14
         },
         "SP-490": {
-          "faturamento_ytd": 34555.21,
+          "faturamento_ytd": 37628.36,
           "por_mes": {
             "2026-06": 6567.2,
-            "2026-07": 27988.01
+            "2026-07": 27929.66,
+            "2026-08": 3131.5
+          },
+          "clientes_positivados": 11
+        },
+        "SP-491": {
+          "faturamento_ytd": 13967.02,
+          "por_mes": {
+            "2026-06": 2302.2,
+            "2026-07": 6914.5,
+            "2026-08": 4355.52,
+            "2026-09": 394.8
           },
           "clientes_positivados": 8
         },
-        "SP-491": {
-          "faturamento_ytd": 9216.7,
-          "por_mes": {
-            "2026-06": 2302.2,
-            "2026-07": 6914.5
-          },
-          "clientes_positivados": 6
-        },
         "SP-492": {
-          "faturamento_ytd": 343.5,
+          "faturamento_ytd": 2135.9,
           "por_mes": {
-            "2026-07": 343.5
+            "2026-07": 343.5,
+            "2026-08": 1792.4
           },
-          "clientes_positivados": 2
+          "clientes_positivados": 7
         },
         "SP-493": {
-          "faturamento_ytd": 13395.8,
+          "faturamento_ytd": 14418.0,
           "por_mes": {
             "2026-06": 11260.4,
-            "2026-07": 2135.4
+            "2026-07": 2135.4,
+            "2026-08": 1022.2
           },
-          "clientes_positivados": 18
+          "clientes_positivados": 19
         },
         "SP-496": {
-          "faturamento_ytd": 40798.8,
+          "faturamento_ytd": 48304.8,
           "por_mes": {
-            "2026-07": 40798.8
+            "2026-07": 40798.8,
+            "2026-08": 7506.0
           },
-          "clientes_positivados": 1
+          "clientes_positivados": 4
         },
         "SP-497": {
-          "faturamento_ytd": 4102.3,
+          "faturamento_ytd": 4752.85,
           "por_mes": {
-            "2026-07": 4102.3
+            "2026-07": 4102.3,
+            "2026-08": 650.55
           },
-          "clientes_positivados": 3
+          "clientes_positivados": 5
         },
         "SP-498": {
-          "faturamento_ytd": 22717.5,
+          "faturamento_ytd": 27044.7,
           "por_mes": {
-            "2026-07": 22717.5
+            "2026-07": 22717.5,
+            "2026-08": 4327.2
           },
           "clientes_positivados": 7
         },
         "SP-499": {
-          "faturamento_ytd": 3900.1,
+          "faturamento_ytd": 4659.4,
           "por_mes": {
-            "2026-07": 3900.1
+            "2026-07": 3900.1,
+            "2026-08": 759.3
+          },
+          "clientes_positivados": 7
+        },
+        "SP-500": {
+          "faturamento_ytd": 8133.2,
+          "por_mes": {
+            "2026-07": 1112.4,
+            "2026-08": 5123.6,
+            "2026-09": 1897.2
+          },
+          "clientes_positivados": 11
+        },
+        "SP-502": {
+          "faturamento_ytd": 2252.65,
+          "por_mes": {
+            "2026-07": 1008.1,
+            "2026-08": 1244.55
           },
           "clientes_positivados": 6
         },
-        "SP-500": {
-          "faturamento_ytd": 1112.4,
-          "por_mes": {
-            "2026-07": 1112.4
-          },
-          "clientes_positivados": 2
-        },
-        "SP-502": {
-          "faturamento_ytd": 1008.1,
-          "por_mes": {
-            "2026-07": 1008.1
-          },
-          "clientes_positivados": 3
-        },
         "SP-504": {
-          "faturamento_ytd": 17300.9,
+          "faturamento_ytd": 29436.08,
           "por_mes": {
-            "2026-07": 17300.9
+            "2026-07": 17300.9,
+            "2026-08": 12135.18
           },
-          "clientes_positivados": 17
+          "clientes_positivados": 18
+        },
+        "SP-505": {
+          "faturamento_ytd": 116.7,
+          "por_mes": {
+            "2026-08": 116.7
+          },
+          "clientes_positivados": 1
         },
         "SP-507": {
-          "faturamento_ytd": 902.7,
+          "faturamento_ytd": 5447.8,
           "por_mes": {
-            "2026-07": 902.7
+            "2026-07": 902.7,
+            "2026-08": 4545.1
           },
-          "clientes_positivados": 2
+          "clientes_positivados": 6
         },
         "SP-508": {
           "faturamento_ytd": 659.9,
@@ -1017,56 +1197,125 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 1
         },
         "SP-510": {
-          "faturamento_ytd": 176.7,
+          "faturamento_ytd": 6532.8,
           "por_mes": {
-            "2026-07": 176.7
+            "2026-07": 176.7,
+            "2026-08": 6267.3,
+            "2026-09": 88.8
           },
-          "clientes_positivados": 1
+          "clientes_positivados": 12
         },
         "SP-511": {
-          "faturamento_ytd": 626.7,
+          "faturamento_ytd": 2319.0,
           "por_mes": {
-            "2026-07": 626.7
+            "2026-07": 626.7,
+            "2026-08": 1067.2,
+            "2026-09": 625.1
+          },
+          "clientes_positivados": 6
+        },
+        "SP-512": {
+          "faturamento_ytd": 205941.65,
+          "por_mes": {
+            "2026-07": 115057.15,
+            "2026-08": 62368.5,
+            "2026-09": 28516.0
+          },
+          "clientes_positivados": 34
+        },
+        "SP-513": {
+          "faturamento_ytd": 6765.6,
+          "por_mes": {
+            "2026-07": 1377.6,
+            "2026-08": 5388.0
           },
           "clientes_positivados": 3
         },
-        "SP-512": {
-          "faturamento_ytd": 115057.15,
-          "por_mes": {
-            "2026-07": 115057.15
-          },
-          "clientes_positivados": 21
-        },
-        "SP-513": {
-          "faturamento_ytd": 1377.6,
-          "por_mes": {
-            "2026-07": 1377.6
-          },
-          "clientes_positivados": 2
-        },
         "SP-515": {
-          "faturamento_ytd": 6342.2,
+          "faturamento_ytd": 22637.17,
           "por_mes": {
-            "2026-07": 6342.2
+            "2026-07": 6342.2,
+            "2026-08": 15576.17,
+            "2026-09": 718.8
+          },
+          "clientes_positivados": 16
+        },
+        "SP-516": {
+          "faturamento_ytd": 79275.9,
+          "por_mes": {
+            "2026-07": 8743.7,
+            "2026-08": 61527.7,
+            "2026-09": 9004.5
+          },
+          "clientes_positivados": 65
+        },
+        "SP-518": {
+          "faturamento_ytd": 45545.7,
+          "por_mes": {
+            "2026-08": 45545.7
+          },
+          "clientes_positivados": 9
+        },
+        "SP-519": {
+          "faturamento_ytd": 4701.6,
+          "por_mes": {
+            "2026-09": 4701.6
+          },
+          "clientes_positivados": 6
+        },
+        "SP-521": {
+          "faturamento_ytd": 7492.5,
+          "por_mes": {
+            "2026-08": 7492.5
           },
           "clientes_positivados": 8
         },
-        "SP-516": {
-          "faturamento_ytd": 8743.7,
+        "SP-523": {
+          "faturamento_ytd": 36662.1,
           "por_mes": {
-            "2026-07": 8743.7
+            "2026-08": 22321.2,
+            "2026-09": 14340.9
           },
-          "clientes_positivados": 11
+          "clientes_positivados": 4
+        },
+        "SP-524": {
+          "faturamento_ytd": 39631.5,
+          "por_mes": {
+            "2026-08": 30723.9,
+            "2026-09": 8907.6
+          },
+          "clientes_positivados": 5
+        },
+        "SP-526": {
+          "faturamento_ytd": 1222.8,
+          "por_mes": {
+            "2026-08": 1222.8
+          },
+          "clientes_positivados": 1
+        },
+        "SP-527": {
+          "faturamento_ytd": 55440.0,
+          "por_mes": {
+            "2026-09": 55440.0
+          },
+          "clientes_positivados": 1
+        },
+        "SP-553": {
+          "faturamento_ytd": 191.4,
+          "por_mes": {
+            "2026-08": 191.4
+          },
+          "clientes_positivados": 1
         }
       },
       "posicao": 1
     },
     {
       "fantasia": "RED BULL",
-      "faturamento_ytd": 6422181.53,
-      "participacao_pct": 10.08,
-      "faturamento_mes_atual": 676329.03,
-      "clientes_positivados": 1203,
+      "faturamento_ytd": 7641375.35,
+      "participacao_pct": 9.62,
+      "faturamento_mes_atual": 169476.13,
+      "clientes_positivados": 1346,
       "por_mes": {
         "2026-01": 1573245.16,
         "2026-02": 1107553.53,
@@ -1074,18 +1323,21 @@ const RAIOX_INDUSTRIAS_DATA = {
         "2026-04": 336270.88,
         "2026-05": 1010345.34,
         "2026-06": 986581.17,
-        "2026-07": 676329.03
+        "2026-07": 675170.16,
+        "2026-08": 1050876.56,
+        "2026-09": 169476.13
       },
       "por_vendedor": {
         "ES-230": {
-          "faturamento_ytd": 165964.6,
+          "faturamento_ytd": 321277.24,
           "por_mes": {
             "2026-01": 23987.04,
             "2026-03": 838.8,
             "2026-04": 11684.4,
-            "2026-06": 129454.36
+            "2026-06": 129454.36,
+            "2026-08": 155312.64
           },
-          "clientes_positivados": 4
+          "clientes_positivados": 5
         },
         "ES-257": {
           "faturamento_ytd": 216294.95,
@@ -1130,6 +1382,21 @@ const RAIOX_INDUSTRIAS_DATA = {
           },
           "clientes_positivados": 32
         },
+        "ES-269": {
+          "faturamento_ytd": 43868.53,
+          "por_mes": {
+            "2026-08": 31706.13,
+            "2026-09": 12162.4
+          },
+          "clientes_positivados": 13
+        },
+        "ES-273": {
+          "faturamento_ytd": 6802.11,
+          "por_mes": {
+            "2026-09": 6802.11
+          },
+          "clientes_positivados": 2
+        },
         "ES-335": {
           "faturamento_ytd": 43314.84,
           "por_mes": {
@@ -1144,14 +1411,16 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 23
         },
         "ES-336": {
-          "faturamento_ytd": 78059.89,
+          "faturamento_ytd": 78264.01,
           "por_mes": {
             "2026-01": 13155.88,
             "2026-02": 14516.49,
             "2026-03": 14877.31,
             "2026-04": 24859.13,
             "2026-05": 10388.64,
-            "2026-07": 262.44
+            "2026-07": 262.44,
+            "2026-08": 116.64,
+            "2026-09": 87.48
           },
           "clientes_positivados": 89
         },
@@ -1181,7 +1450,7 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 17
         },
         "ES-370": {
-          "faturamento_ytd": 61047.0,
+          "faturamento_ytd": 61221.96,
           "por_mes": {
             "2026-01": 6078.12,
             "2026-02": 3224.88,
@@ -1189,9 +1458,11 @@ const RAIOX_INDUSTRIAS_DATA = {
             "2026-04": 191.75,
             "2026-05": 16592.26,
             "2026-06": 1138.11,
-            "2026-07": 204.12
+            "2026-07": 204.12,
+            "2026-08": 145.8,
+            "2026-09": 29.16
           },
-          "clientes_positivados": 27
+          "clientes_positivados": 29
         },
         "ES-376": {
           "faturamento_ytd": 1009324.81,
@@ -1231,7 +1502,7 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 14
         },
         "ES-442": {
-          "faturamento_ytd": 36889.84,
+          "faturamento_ytd": 36977.32,
           "por_mes": {
             "2026-01": 683.04,
             "2026-02": 17105.56,
@@ -1239,16 +1510,26 @@ const RAIOX_INDUSTRIAS_DATA = {
             "2026-04": 305.64,
             "2026-05": 14127.36,
             "2026-06": 1358.0,
-            "2026-07": 335.92
+            "2026-07": 335.92,
+            "2026-08": 87.48
           },
           "clientes_positivados": 17
         },
         "ES-458": {
-          "faturamento_ytd": 688.2,
+          "faturamento_ytd": 3378.52,
           "por_mes": {
-            "2026-07": 688.2
+            "2026-07": 688.2,
+            "2026-08": 2690.32
           },
-          "clientes_positivados": 3
+          "clientes_positivados": 8
+        },
+        "ES-476": {
+          "faturamento_ytd": 39411.67,
+          "por_mes": {
+            "2026-08": 28441.39,
+            "2026-09": 10970.28
+          },
+          "clientes_positivados": 28
         },
         "ES-508": {
           "faturamento_ytd": 77656.32,
@@ -1258,7 +1539,7 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 1
         },
         "MG-327": {
-          "faturamento_ytd": 602150.19,
+          "faturamento_ytd": 749669.07,
           "por_mes": {
             "2026-01": 49393.4,
             "2026-02": 55403.56,
@@ -1266,9 +1547,11 @@ const RAIOX_INDUSTRIAS_DATA = {
             "2026-04": 56846.24,
             "2026-05": 97225.88,
             "2026-06": 150140.39,
-            "2026-07": 121234.36
+            "2026-07": 121234.36,
+            "2026-08": 141041.48,
+            "2026-09": 6477.4
           },
-          "clientes_positivados": 134
+          "clientes_positivados": 143
         },
         "MG-331": {
           "faturamento_ytd": 146141.06,
@@ -1298,14 +1581,16 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 2
         },
         "MG-344": {
-          "faturamento_ytd": 81907.7,
+          "faturamento_ytd": 101321.74,
           "por_mes": {
             "2026-04": 18887.52,
             "2026-05": 29604.72,
             "2026-06": 18928.68,
-            "2026-07": 14486.78
+            "2026-07": 14486.78,
+            "2026-08": 15054.48,
+            "2026-09": 4359.56
           },
-          "clientes_positivados": 49
+          "clientes_positivados": 51
         },
         "MG-349": {
           "faturamento_ytd": 9897.84,
@@ -1315,15 +1600,17 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 1
         },
         "MG-354": {
-          "faturamento_ytd": 186781.58,
+          "faturamento_ytd": 278386.94,
           "por_mes": {
             "2026-01": 2985.9,
             "2026-02": 5379.0,
             "2026-05": 55465.92,
             "2026-06": 45220.76,
-            "2026-07": 77730.0
+            "2026-07": 77662.08,
+            "2026-08": 64651.68,
+            "2026-09": 27021.6
           },
-          "clientes_positivados": 9
+          "clientes_positivados": 8
         },
         "MG-362": {
           "faturamento_ytd": 1831.2,
@@ -1333,8 +1620,15 @@ const RAIOX_INDUSTRIAS_DATA = {
           },
           "clientes_positivados": 2
         },
+        "MG-405": {
+          "faturamento_ytd": 184.56,
+          "por_mes": {
+            "2026-09": 184.56
+          },
+          "clientes_positivados": 1
+        },
         "RJ-144": {
-          "faturamento_ytd": 123256.14,
+          "faturamento_ytd": 161045.0,
           "por_mes": {
             "2026-01": 28153.34,
             "2026-02": 3225.72,
@@ -1342,24 +1636,28 @@ const RAIOX_INDUSTRIAS_DATA = {
             "2026-04": 13513.64,
             "2026-05": 8887.76,
             "2026-06": 28416.82,
-            "2026-07": 28656.86
+            "2026-07": 28656.86,
+            "2026-08": 21800.9,
+            "2026-09": 15987.96
           },
-          "clientes_positivados": 18
+          "clientes_positivados": 26
         },
         "RJ-153": {
-          "faturamento_ytd": 45433.5,
+          "faturamento_ytd": 60888.06,
           "por_mes": {
             "2026-02": 6291.0,
             "2026-03": 5446.68,
             "2026-04": 4824.9,
             "2026-05": 1834.56,
             "2026-06": 9371.52,
-            "2026-07": 17664.84
+            "2026-07": 17664.84,
+            "2026-08": 12003.36,
+            "2026-09": 3451.2
           },
-          "clientes_positivados": 14
+          "clientes_positivados": 15
         },
         "RJ-155": {
-          "faturamento_ytd": 863236.12,
+          "faturamento_ytd": 917770.48,
           "por_mes": {
             "2026-01": 271462.57,
             "2026-02": 331197.6,
@@ -1367,9 +1665,11 @@ const RAIOX_INDUSTRIAS_DATA = {
             "2026-04": 31615.4,
             "2026-05": 26344.4,
             "2026-06": 58223.6,
-            "2026-07": 45520.52
+            "2026-07": 45340.76,
+            "2026-08": 40777.48,
+            "2026-09": 13936.64
           },
-          "clientes_positivados": 117
+          "clientes_positivados": 123
         },
         "RJ-156": {
           "faturamento_ytd": 458.64,
@@ -1387,7 +1687,7 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 2
         },
         "RJ-159": {
-          "faturamento_ytd": 818000.65,
+          "faturamento_ytd": 885429.93,
           "por_mes": {
             "2026-01": 285500.08,
             "2026-02": 187869.65,
@@ -1395,9 +1695,11 @@ const RAIOX_INDUSTRIAS_DATA = {
             "2026-04": 30480.96,
             "2026-05": 29425.14,
             "2026-06": 53493.62,
-            "2026-07": 64153.4
+            "2026-07": 63635.72,
+            "2026-08": 53873.56,
+            "2026-09": 14073.4
           },
-          "clientes_positivados": 104
+          "clientes_positivados": 106
         },
         "RJ-174": {
           "faturamento_ytd": 32.76,
@@ -1414,7 +1716,7 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 2
         },
         "RJ-241": {
-          "faturamento_ytd": 114782.9,
+          "faturamento_ytd": 143580.54,
           "por_mes": {
             "2026-01": 31629.66,
             "2026-02": 25019.28,
@@ -1422,12 +1724,21 @@ const RAIOX_INDUSTRIAS_DATA = {
             "2026-04": 8607.24,
             "2026-05": 2640.68,
             "2026-06": 22515.48,
-            "2026-07": 12651.84
+            "2026-07": 12651.84,
+            "2026-08": 22355.4,
+            "2026-09": 6442.24
           },
-          "clientes_positivados": 38
+          "clientes_positivados": 40
+        },
+        "RJ-306": {
+          "faturamento_ytd": 2362.05,
+          "por_mes": {
+            "2026-09": 2362.05
+          },
+          "clientes_positivados": 1
         },
         "RJ-378": {
-          "faturamento_ytd": 221283.31,
+          "faturamento_ytd": 244966.55,
           "por_mes": {
             "2026-01": 26295.21,
             "2026-02": 63858.28,
@@ -1435,12 +1746,14 @@ const RAIOX_INDUSTRIAS_DATA = {
             "2026-04": 48317.84,
             "2026-05": 2162.16,
             "2026-06": 14620.72,
-            "2026-07": 11112.16
+            "2026-07": 11112.16,
+            "2026-08": 15799.0,
+            "2026-09": 7884.24
           },
-          "clientes_positivados": 50
+          "clientes_positivados": 57
         },
         "RJ-379": {
-          "faturamento_ytd": 77063.54,
+          "faturamento_ytd": 155366.88,
           "por_mes": {
             "2026-01": 10297.68,
             "2026-02": 6779.76,
@@ -1448,12 +1761,14 @@ const RAIOX_INDUSTRIAS_DATA = {
             "2026-04": 19186.98,
             "2026-05": 2194.92,
             "2026-06": 1087.2,
-            "2026-07": 15162.64
+            "2026-07": 15162.64,
+            "2026-08": 67043.02,
+            "2026-09": 11260.32
           },
-          "clientes_positivados": 26
+          "clientes_positivados": 44
         },
         "RJ-412": {
-          "faturamento_ytd": 40441.03,
+          "faturamento_ytd": 50480.56,
           "por_mes": {
             "2026-01": 10355.16,
             "2026-02": 5346.0,
@@ -1461,9 +1776,11 @@ const RAIOX_INDUSTRIAS_DATA = {
             "2026-04": 3291.7,
             "2026-05": 5699.16,
             "2026-06": 6519.24,
-            "2026-07": 2916.03
+            "2026-07": 2522.52,
+            "2026-08": 9052.56,
+            "2026-09": 1380.48
           },
-          "clientes_positivados": 23
+          "clientes_positivados": 24
         },
         "RJ-417": {
           "faturamento_ytd": 77414.06,
@@ -1473,7 +1790,7 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 6
         },
         "RJ-419": {
-          "faturamento_ytd": 89339.2,
+          "faturamento_ytd": 137989.28,
           "por_mes": {
             "2026-01": 24128.92,
             "2026-02": 6626.4,
@@ -1481,12 +1798,14 @@ const RAIOX_INDUSTRIAS_DATA = {
             "2026-04": 6710.88,
             "2026-05": 7141.68,
             "2026-06": 17844.72,
-            "2026-07": 15945.28
+            "2026-07": 15945.28,
+            "2026-08": 29234.64,
+            "2026-09": 19415.44
           },
-          "clientes_positivados": 30
+          "clientes_positivados": 41
         },
         "RJ-431": {
-          "faturamento_ytd": 44281.39,
+          "faturamento_ytd": 52291.88,
           "por_mes": {
             "2026-01": 4613.97,
             "2026-02": 744.12,
@@ -1494,47 +1813,916 @@ const RAIOX_INDUSTRIAS_DATA = {
             "2026-04": 8535.92,
             "2026-05": 8122.56,
             "2026-06": 7983.62,
-            "2026-07": 12218.88
+            "2026-07": 12218.88,
+            "2026-08": 6881.6,
+            "2026-09": 1128.88
           },
-          "clientes_positivados": 69
+          "clientes_positivados": 79
         },
         "RJ-439": {
-          "faturamento_ytd": 1463.34,
+          "faturamento_ytd": 4425.63,
           "por_mes": {
             "2026-01": 902.54,
             "2026-04": 47.88,
             "2026-05": 189.36,
             "2026-06": 179.76,
-            "2026-07": 143.8
+            "2026-07": 143.8,
+            "2026-08": 2354.76,
+            "2026-09": 607.53
           },
-          "clientes_positivados": 5
+          "clientes_positivados": 9
         },
         "RJ-471": {
-          "faturamento_ytd": 9811.7,
+          "faturamento_ytd": 41384.26,
           "por_mes": {
             "2026-03": 2785.89,
             "2026-04": 2948.4,
             "2026-05": 338.53,
-            "2026-07": 3738.88
+            "2026-07": 3738.88,
+            "2026-08": 28121.36,
+            "2026-09": 3451.2
           },
-          "clientes_positivados": 7
+          "clientes_positivados": 22
         },
         "SP-318": {
-          "faturamento_ytd": 151165.44,
+          "faturamento_ytd": 453496.32,
           "por_mes": {
-            "2026-07": 151165.44
+            "2026-07": 151165.44,
+            "2026-08": 302330.88
           },
-          "clientes_positivados": 1
+          "clientes_positivados": 2
         }
       },
       "posicao": 2
     },
     {
+      "fantasia": "DIAGEO",
+      "faturamento_ytd": 5755794.62,
+      "participacao_pct": 7.25,
+      "faturamento_mes_atual": 124049.05,
+      "clientes_positivados": 1195,
+      "por_mes": {
+        "2026-01": 426093.81,
+        "2026-02": 427351.92,
+        "2026-03": 393556.41,
+        "2026-04": 612558.96,
+        "2026-05": 403324.79,
+        "2026-06": 673669.31,
+        "2026-07": 435911.22,
+        "2026-08": 2259279.15,
+        "2026-09": 124049.05
+      },
+      "por_vendedor": {
+        "MG-327": {
+          "faturamento_ytd": 175372.14,
+          "por_mes": {
+            "2026-01": 7505.0,
+            "2026-02": 10890.86,
+            "2026-03": 10324.86,
+            "2026-04": 35038.88,
+            "2026-05": 31503.56,
+            "2026-06": 27135.82,
+            "2026-07": 23726.32,
+            "2026-08": 26997.94,
+            "2026-09": 2248.9
+          },
+          "clientes_positivados": 86
+        },
+        "MG-331": {
+          "faturamento_ytd": 64770.84,
+          "por_mes": {
+            "2026-01": 9805.6,
+            "2026-02": 15278.75,
+            "2026-03": 39686.49
+          },
+          "clientes_positivados": 19
+        },
+        "MG-335": {
+          "faturamento_ytd": 14686.42,
+          "por_mes": {
+            "2026-01": 1114.1,
+            "2026-02": 2978.0,
+            "2026-03": 10594.32
+          },
+          "clientes_positivados": 20
+        },
+        "MG-343": {
+          "faturamento_ytd": 81008.88,
+          "por_mes": {
+            "2026-01": 81008.88
+          },
+          "clientes_positivados": 3
+        },
+        "MG-344": {
+          "faturamento_ytd": 44164.21,
+          "por_mes": {
+            "2026-03": 74.7,
+            "2026-04": 2828.44,
+            "2026-05": 8718.1,
+            "2026-06": 8448.9,
+            "2026-07": 18039.39,
+            "2026-08": 4277.7,
+            "2026-09": 1776.98
+          },
+          "clientes_positivados": 36
+        },
+        "MG-349": {
+          "faturamento_ytd": 189478.69,
+          "por_mes": {
+            "2026-01": 12489.3,
+            "2026-02": 1918.8,
+            "2026-03": 33744.64,
+            "2026-04": 108540.84,
+            "2026-05": 3858.0,
+            "2026-06": 3507.06,
+            "2026-07": 12688.35,
+            "2026-08": 12122.1,
+            "2026-09": 609.6
+          },
+          "clientes_positivados": 21
+        },
+        "MG-354": {
+          "faturamento_ytd": 266600.72,
+          "por_mes": {
+            "2026-01": 16322.2,
+            "2026-02": 25021.9,
+            "2026-03": 19689.24,
+            "2026-04": 16079.22,
+            "2026-05": 44020.98,
+            "2026-06": 44712.1,
+            "2026-07": 50941.84,
+            "2026-08": 48366.0,
+            "2026-09": 1447.24
+          },
+          "clientes_positivados": 61
+        },
+        "MG-360": {
+          "faturamento_ytd": 1221484.44,
+          "por_mes": {
+            "2026-02": 221257.2,
+            "2026-03": 77580.84,
+            "2026-04": 231239.4,
+            "2026-05": 102467.16,
+            "2026-06": 287901.6,
+            "2026-07": 50771.4,
+            "2026-08": 195909.24,
+            "2026-09": 54357.6
+          },
+          "clientes_positivados": 22
+        },
+        "MG-362": {
+          "faturamento_ytd": 42738.26,
+          "por_mes": {
+            "2026-03": 1319.76,
+            "2026-04": 6932.8,
+            "2026-05": 9234.18,
+            "2026-06": 23385.14,
+            "2026-07": 1866.38
+          },
+          "clientes_positivados": 39
+        },
+        "MG-378": {
+          "faturamento_ytd": 273288.0,
+          "por_mes": {
+            "2026-07": 21870.0,
+            "2026-08": 251418.0
+          },
+          "clientes_positivados": 3
+        },
+        "MG-389": {
+          "faturamento_ytd": 6541.8,
+          "por_mes": {
+            "2026-08": 6541.8
+          },
+          "clientes_positivados": 3
+        },
+        "MG-390": {
+          "faturamento_ytd": 348.5,
+          "por_mes": {
+            "2026-08": 348.5
+          },
+          "clientes_positivados": 2
+        },
+        "MG-405": {
+          "faturamento_ytd": 1952.4,
+          "por_mes": {
+            "2026-08": 1477.1,
+            "2026-09": 475.3
+          },
+          "clientes_positivados": 4
+        },
+        "MG-542": {
+          "faturamento_ytd": 111922.68,
+          "por_mes": {
+            "2026-01": 30041.28,
+            "2026-04": 38811.6,
+            "2026-05": 43069.8
+          },
+          "clientes_positivados": 4
+        },
+        "RJ-144": {
+          "faturamento_ytd": 287071.54,
+          "por_mes": {
+            "2026-01": 20897.7,
+            "2026-02": 12819.0,
+            "2026-03": 25812.2,
+            "2026-04": 33987.78,
+            "2026-05": 19990.6,
+            "2026-06": 60128.76,
+            "2026-07": 34085.6,
+            "2026-08": 66459.5,
+            "2026-09": 12890.4
+          },
+          "clientes_positivados": 46
+        },
+        "RJ-153": {
+          "faturamento_ytd": 22496.44,
+          "por_mes": {
+            "2026-02": 612.96,
+            "2026-03": 2241.24,
+            "2026-04": 1751.32,
+            "2026-06": 13804.92,
+            "2026-07": 1036.5,
+            "2026-08": 2878.3,
+            "2026-09": 171.2
+          },
+          "clientes_positivados": 12
+        },
+        "RJ-155": {
+          "faturamento_ytd": 297730.95,
+          "por_mes": {
+            "2026-01": 69133.03,
+            "2026-02": 32327.0,
+            "2026-03": 33127.08,
+            "2026-04": 29426.9,
+            "2026-05": 20431.4,
+            "2026-06": 44744.8,
+            "2026-07": 35008.04,
+            "2026-08": 28799.1,
+            "2026-09": 4733.6
+          },
+          "clientes_positivados": 106
+        },
+        "RJ-156": {
+          "faturamento_ytd": 147533.77,
+          "por_mes": {
+            "2026-01": 35493.18,
+            "2026-02": 11857.1,
+            "2026-03": 19056.4,
+            "2026-04": 18904.46,
+            "2026-05": 15843.06,
+            "2026-06": 16660.93,
+            "2026-07": 6049.43,
+            "2026-08": 18272.0,
+            "2026-09": 5397.2
+          },
+          "clientes_positivados": 95
+        },
+        "RJ-158": {
+          "faturamento_ytd": 8936.52,
+          "por_mes": {
+            "2026-01": 3110.4,
+            "2026-02": 2667.0,
+            "2026-03": 206.4,
+            "2026-04": 2716.92,
+            "2026-07": 235.8
+          },
+          "clientes_positivados": 4
+        },
+        "RJ-159": {
+          "faturamento_ytd": 233084.93,
+          "por_mes": {
+            "2026-01": 43286.5,
+            "2026-02": 32780.6,
+            "2026-03": 31848.66,
+            "2026-04": 21557.17,
+            "2026-05": 12815.7,
+            "2026-06": 32305.0,
+            "2026-07": 22929.8,
+            "2026-08": 25310.4,
+            "2026-09": 10251.1
+          },
+          "clientes_positivados": 84
+        },
+        "RJ-238": {
+          "faturamento_ytd": 2072.66,
+          "por_mes": {
+            "2026-02": 1201.88,
+            "2026-04": 870.78
+          },
+          "clientes_positivados": 6
+        },
+        "RJ-241": {
+          "faturamento_ytd": 19807.18,
+          "por_mes": {
+            "2026-01": 5842.3,
+            "2026-02": 3073.9,
+            "2026-03": 459.28,
+            "2026-04": 149.9,
+            "2026-05": 78.9,
+            "2026-06": 4281.4,
+            "2026-08": 4529.8,
+            "2026-09": 1391.7
+          },
+          "clientes_positivados": 15
+        },
+        "RJ-275": {
+          "faturamento_ytd": 4395.0,
+          "por_mes": {
+            "2026-05": 3594.0,
+            "2026-07": 801.0
+          },
+          "clientes_positivados": 2
+        },
+        "RJ-306": {
+          "faturamento_ytd": 1413912.0,
+          "por_mes": {
+            "2026-08": 1413912.0
+          },
+          "clientes_positivados": 2
+        },
+        "RJ-378": {
+          "faturamento_ytd": 29293.12,
+          "por_mes": {
+            "2026-06": 231.3,
+            "2026-07": 6752.7,
+            "2026-08": 19968.72,
+            "2026-09": 2340.4
+          },
+          "clientes_positivados": 15
+        },
+        "RJ-379": {
+          "faturamento_ytd": 34330.82,
+          "por_mes": {
+            "2026-01": 3881.98,
+            "2026-02": 1579.3,
+            "2026-04": 8664.4,
+            "2026-05": 2122.5,
+            "2026-06": 5761.7,
+            "2026-07": 8536.7,
+            "2026-08": 3259.64,
+            "2026-09": 524.6
+          },
+          "clientes_positivados": 32
+        },
+        "RJ-412": {
+          "faturamento_ytd": 22731.62,
+          "por_mes": {
+            "2026-01": 2285.75,
+            "2026-02": 3249.28,
+            "2026-03": 4141.27,
+            "2026-04": 2993.3,
+            "2026-05": 1990.9,
+            "2026-06": 1718.9,
+            "2026-07": 1099.0,
+            "2026-08": 4987.42,
+            "2026-09": 265.8
+          },
+          "clientes_positivados": 25
+        },
+        "RJ-417": {
+          "faturamento_ytd": 69709.65,
+          "por_mes": {
+            "2026-01": 49925.69,
+            "2026-02": 11408.19,
+            "2026-03": 1443.2,
+            "2026-04": 4108.4,
+            "2026-05": 1684.77,
+            "2026-06": 1139.4
+          },
+          "clientes_positivados": 11
+        },
+        "RJ-419": {
+          "faturamento_ytd": 28681.57,
+          "por_mes": {
+            "2026-01": 1292.6,
+            "2026-02": 2786.1,
+            "2026-03": 63.7,
+            "2026-04": 1135.8,
+            "2026-05": 1042.8,
+            "2026-06": 10546.97,
+            "2026-07": 8466.0,
+            "2026-08": 2995.2,
+            "2026-09": 352.4
+          },
+          "clientes_positivados": 21
+        },
+        "RJ-431": {
+          "faturamento_ytd": 30978.05,
+          "por_mes": {
+            "2026-01": 2246.8,
+            "2026-02": 358.8,
+            "2026-03": 2794.5,
+            "2026-04": 1926.69,
+            "2026-05": 3796.86,
+            "2026-06": 11963.46,
+            "2026-07": 4283.2,
+            "2026-08": 2555.86,
+            "2026-09": 1051.88
+          },
+          "clientes_positivados": 26
+        },
+        "RJ-439": {
+          "faturamento_ytd": 13777.3,
+          "por_mes": {
+            "2026-01": 1350.4,
+            "2026-02": 422.1,
+            "2026-03": 1893.6,
+            "2026-04": 1428.7,
+            "2026-05": 948.5,
+            "2026-06": 1721.7,
+            "2026-07": 2892.1,
+            "2026-08": 2309.6,
+            "2026-09": 810.6
+          },
+          "clientes_positivados": 20
+        },
+        "RJ-450": {
+          "faturamento_ytd": 79702.11,
+          "por_mes": {
+            "2026-03": 743.76,
+            "2026-04": 2316.75,
+            "2026-05": 5874.48,
+            "2026-06": 1924.92,
+            "2026-07": 46870.2,
+            "2026-08": 21726.0,
+            "2026-09": 246.0
+          },
+          "clientes_positivados": 15
+        },
+        "RJ-471": {
+          "faturamento_ytd": 22474.3,
+          "por_mes": {
+            "2026-03": 3917.8,
+            "2026-04": 1362.5,
+            "2026-05": 1343.7,
+            "2026-06": 855.3,
+            "2026-07": 4497.6,
+            "2026-08": 7670.1,
+            "2026-09": 2827.3
+          },
+          "clientes_positivados": 30
+        },
+        "RJ-509": {
+          "faturamento_ytd": 10348.85,
+          "por_mes": {
+            "2026-09": 10348.85
+          },
+          "clientes_positivados": 2
+        },
+        "RJ-91": {
+          "faturamento_ytd": 7030.8,
+          "por_mes": {
+            "2026-03": 7030.8
+          },
+          "clientes_positivados": 1
+        },
+        "SP-232": {
+          "faturamento_ytd": 215.6,
+          "por_mes": {
+            "2026-07": 86.7,
+            "2026-08": 128.9
+          },
+          "clientes_positivados": 2
+        },
+        "SP-317": {
+          "faturamento_ytd": 40999.56,
+          "por_mes": {
+            "2026-01": 25162.56,
+            "2026-02": 14444.16,
+            "2026-07": 476.28,
+            "2026-08": 916.56
+          },
+          "clientes_positivados": 14
+        },
+        "SP-356": {
+          "faturamento_ytd": 330.24,
+          "por_mes": {
+            "2026-04": 330.24
+          },
+          "clientes_positivados": 1
+        },
+        "SP-367": {
+          "faturamento_ytd": 267.98,
+          "por_mes": {
+            "2026-03": 267.98
+          },
+          "clientes_positivados": 1
+        },
+        "SP-371": {
+          "faturamento_ytd": 70124.76,
+          "por_mes": {
+            "2026-02": 3866.16,
+            "2026-03": 54364.05,
+            "2026-04": 1115.28,
+            "2026-05": 4140.09,
+            "2026-06": 3865.92,
+            "2026-08": 1932.96,
+            "2026-09": 840.3
+          },
+          "clientes_positivados": 17
+        },
+        "SP-391": {
+          "faturamento_ytd": 42193.54,
+          "por_mes": {
+            "2026-01": 934.8,
+            "2026-02": 10607.28,
+            "2026-03": 1542.0,
+            "2026-04": 3512.76,
+            "2026-05": 23892.11,
+            "2026-06": 1532.55,
+            "2026-07": 85.14,
+            "2026-09": 86.9
+          },
+          "clientes_positivados": 9
+        },
+        "SP-405": {
+          "faturamento_ytd": 1104.16,
+          "por_mes": {
+            "2026-02": 733.8,
+            "2026-03": 370.36
+          },
+          "clientes_positivados": 2
+        },
+        "SP-425": {
+          "faturamento_ytd": 14366.49,
+          "por_mes": {
+            "2026-01": 173.88,
+            "2026-02": 896.34,
+            "2026-03": 274.17,
+            "2026-04": 3395.56,
+            "2026-05": 2318.46,
+            "2026-07": 3080.72,
+            "2026-08": 4010.36,
+            "2026-09": 217.0
+          },
+          "clientes_positivados": 21
+        },
+        "SP-428": {
+          "faturamento_ytd": 9396.6,
+          "por_mes": {
+            "2026-01": 2789.88,
+            "2026-02": 2315.46,
+            "2026-03": 1362.24,
+            "2026-04": 1006.5,
+            "2026-05": 659.7,
+            "2026-06": 834.0,
+            "2026-07": 428.82
+          },
+          "clientes_positivados": 2
+        },
+        "SP-429": {
+          "faturamento_ytd": 8300.0,
+          "por_mes": {
+            "2026-03": 7220.0,
+            "2026-05": 1080.0
+          },
+          "clientes_positivados": 2
+        },
+        "SP-433": {
+          "faturamento_ytd": 3346.68,
+          "por_mes": {
+            "2026-06": 2999.88,
+            "2026-07": 346.8
+          },
+          "clientes_positivados": 2
+        },
+        "SP-438": {
+          "faturamento_ytd": 28084.38,
+          "por_mes": {
+            "2026-03": 360.87,
+            "2026-04": 25348.2,
+            "2026-05": 1630.36,
+            "2026-06": 744.94
+          },
+          "clientes_positivados": 8
+        },
+        "SP-460": {
+          "faturamento_ytd": 14920.22,
+          "por_mes": {
+            "2026-04": 508.59,
+            "2026-05": 3783.59,
+            "2026-06": 8469.36,
+            "2026-07": 298.49,
+            "2026-08": 1860.19
+          },
+          "clientes_positivados": 18
+        },
+        "SP-461": {
+          "faturamento_ytd": 63176.81,
+          "por_mes": {
+            "2026-04": 4568.88,
+            "2026-05": 2192.82,
+            "2026-06": 13606.33,
+            "2026-07": 17616.41,
+            "2026-08": 22841.06,
+            "2026-09": 2351.3
+          },
+          "clientes_positivados": 26
+        },
+        "SP-463": {
+          "faturamento_ytd": 7158.94,
+          "por_mes": {
+            "2026-05": 563.6,
+            "2026-06": 6236.54,
+            "2026-09": 358.8
+          },
+          "clientes_positivados": 18
+        },
+        "SP-464": {
+          "faturamento_ytd": 9223.98,
+          "por_mes": {
+            "2026-05": 1038.7,
+            "2026-06": 2935.98,
+            "2026-07": 3460.11,
+            "2026-08": 1579.9,
+            "2026-09": 209.3
+          },
+          "clientes_positivados": 4
+        },
+        "SP-465": {
+          "faturamento_ytd": 2931.8,
+          "por_mes": {
+            "2026-05": 1228.1,
+            "2026-06": 648.0,
+            "2026-07": 551.1,
+            "2026-08": 504.6
+          },
+          "clientes_positivados": 9
+        },
+        "SP-466": {
+          "faturamento_ytd": 14418.96,
+          "por_mes": {
+            "2026-05": 5753.4,
+            "2026-06": 1670.02,
+            "2026-07": 3503.04,
+            "2026-08": 3492.5
+          },
+          "clientes_positivados": 10
+        },
+        "SP-467": {
+          "faturamento_ytd": 8945.8,
+          "por_mes": {
+            "2026-05": 4115.9,
+            "2026-06": 2109.6,
+            "2026-07": 2373.5,
+            "2026-08": 346.8
+          },
+          "clientes_positivados": 4
+        },
+        "SP-468": {
+          "faturamento_ytd": 22517.52,
+          "por_mes": {
+            "2026-05": 9221.85,
+            "2026-06": 4836.89,
+            "2026-07": 5059.17,
+            "2026-08": 3399.6
+          },
+          "clientes_positivados": 11
+        },
+        "SP-469": {
+          "faturamento_ytd": 8944.52,
+          "por_mes": {
+            "2026-05": 998.46,
+            "2026-06": 2149.04,
+            "2026-07": 4462.62,
+            "2026-08": 1334.4
+          },
+          "clientes_positivados": 8
+        },
+        "SP-470": {
+          "faturamento_ytd": 1064.18,
+          "por_mes": {
+            "2026-05": 308.78,
+            "2026-06": 503.6,
+            "2026-07": 251.8
+          },
+          "clientes_positivados": 2
+        },
+        "SP-471": {
+          "faturamento_ytd": 3909.45,
+          "por_mes": {
+            "2026-05": 1449.89,
+            "2026-06": 857.53,
+            "2026-07": 1422.64,
+            "2026-08": 179.4
+          },
+          "clientes_positivados": 7
+        },
+        "SP-472": {
+          "faturamento_ytd": 5546.9,
+          "por_mes": {
+            "2026-05": 2071.2,
+            "2026-06": 629.5,
+            "2026-07": 648.4,
+            "2026-08": 2197.8
+          },
+          "clientes_positivados": 10
+        },
+        "SP-473": {
+          "faturamento_ytd": 1734.0,
+          "por_mes": {
+            "2026-06": 693.6,
+            "2026-07": 1040.4
+          },
+          "clientes_positivados": 1
+        },
+        "SP-474": {
+          "faturamento_ytd": 7991.71,
+          "por_mes": {
+            "2026-05": 526.6,
+            "2026-06": 2826.2,
+            "2026-07": 4250.21,
+            "2026-09": 388.7
+          },
+          "clientes_positivados": 8
+        },
+        "SP-475": {
+          "faturamento_ytd": 1326.87,
+          "por_mes": {
+            "2026-06": 629.5,
+            "2026-08": 697.37
+          },
+          "clientes_positivados": 3
+        },
+        "SP-476": {
+          "faturamento_ytd": 11970.84,
+          "por_mes": {
+            "2026-05": 1261.83,
+            "2026-06": 1648.19,
+            "2026-07": 2618.04,
+            "2026-08": 6134.47,
+            "2026-09": 308.3
+          },
+          "clientes_positivados": 20
+        },
+        "SP-477": {
+          "faturamento_ytd": 10574.89,
+          "por_mes": {
+            "2026-05": 659.4,
+            "2026-06": 4951.65,
+            "2026-07": 3608.01,
+            "2026-08": 1355.83
+          },
+          "clientes_positivados": 9
+        },
+        "SP-486": {
+          "faturamento_ytd": 17512.07,
+          "por_mes": {
+            "2026-06": 1747.08,
+            "2026-07": 7051.64,
+            "2026-08": 6759.85,
+            "2026-09": 1953.5
+          },
+          "clientes_positivados": 26
+        },
+        "SP-489": {
+          "faturamento_ytd": 2735.52,
+          "por_mes": {
+            "2026-06": 2138.6,
+            "2026-08": 596.92
+          },
+          "clientes_positivados": 3
+        },
+        "SP-490": {
+          "faturamento_ytd": 2475.82,
+          "por_mes": {
+            "2026-06": 806.72,
+            "2026-08": 1669.1
+          },
+          "clientes_positivados": 5
+        },
+        "SP-491": {
+          "faturamento_ytd": 146.43,
+          "por_mes": {
+            "2026-07": 146.43
+          },
+          "clientes_positivados": 1
+        },
+        "SP-492": {
+          "faturamento_ytd": 868.3,
+          "por_mes": {
+            "2026-07": 251.8,
+            "2026-08": 616.5
+          },
+          "clientes_positivados": 4
+        },
+        "SP-493": {
+          "faturamento_ytd": 1377.39,
+          "por_mes": {
+            "2026-06": 717.99,
+            "2026-07": 659.4
+          },
+          "clientes_positivados": 4
+        },
+        "SP-497": {
+          "faturamento_ytd": 679.54,
+          "por_mes": {
+            "2026-07": 583.97,
+            "2026-08": 95.57
+          },
+          "clientes_positivados": 2
+        },
+        "SP-498": {
+          "faturamento_ytd": 346.8,
+          "por_mes": {
+            "2026-07": 346.8
+          },
+          "clientes_positivados": 1
+        },
+        "SP-500": {
+          "faturamento_ytd": 1082.28,
+          "por_mes": {
+            "2026-07": 1082.28
+          },
+          "clientes_positivados": 2
+        },
+        "SP-502": {
+          "faturamento_ytd": 980.58,
+          "por_mes": {
+            "2026-07": 951.68,
+            "2026-08": 28.9
+          },
+          "clientes_positivados": 3
+        },
+        "SP-504": {
+          "faturamento_ytd": 2559.7,
+          "por_mes": {
+            "2026-07": 1370.6,
+            "2026-08": 1189.1
+          },
+          "clientes_positivados": 7
+        },
+        "SP-505": {
+          "faturamento_ytd": 436.0,
+          "por_mes": {
+            "2026-08": 436.0
+          },
+          "clientes_positivados": 1
+        },
+        "SP-507": {
+          "faturamento_ytd": 260.7,
+          "por_mes": {
+            "2026-08": 260.7
+          },
+          "clientes_positivados": 1
+        },
+        "SP-510": {
+          "faturamento_ytd": 2854.2,
+          "por_mes": {
+            "2026-08": 2854.2
+          },
+          "clientes_positivados": 3
+        },
+        "SP-511": {
+          "faturamento_ytd": 3979.62,
+          "por_mes": {
+            "2026-07": 1632.06,
+            "2026-08": 998.16,
+            "2026-09": 1349.4
+          },
+          "clientes_positivados": 4
+        },
+        "SP-512": {
+          "faturamento_ytd": 2629.23,
+          "por_mes": {
+            "2026-07": 540.0,
+            "2026-08": 2089.23
+          },
+          "clientes_positivados": 7
+        },
+        "SP-515": {
+          "faturamento_ytd": 1443.5,
+          "por_mes": {
+            "2026-08": 1443.5
+          },
+          "clientes_positivados": 2
+        },
+        "SP-516": {
+          "faturamento_ytd": 17361.0,
+          "por_mes": {
+            "2026-07": 2178.8,
+            "2026-08": 13715.3,
+            "2026-09": 1466.9
+          },
+          "clientes_positivados": 29
+        },
+        "SP-524": {
+          "faturamento_ytd": 521.4,
+          "por_mes": {
+            "2026-08": 521.4
+          },
+          "clientes_positivados": 1
+        }
+      },
+      "posicao": 3
+    },
+    {
       "fantasia": "ROBINSON CRUSOE",
-      "faturamento_ytd": 3975341.14,
-      "participacao_pct": 6.24,
-      "faturamento_mes_atual": 682351.53,
-      "clientes_positivados": 461,
+      "faturamento_ytd": 4804476.43,
+      "participacao_pct": 6.05,
+      "faturamento_mes_atual": 212666.17,
+      "clientes_positivados": 484,
       "por_mes": {
         "2026-01": 355364.85,
         "2026-02": 507006.37,
@@ -1542,7 +2730,9 @@ const RAIOX_INDUSTRIAS_DATA = {
         "2026-04": 625711.98,
         "2026-05": 502378.5,
         "2026-06": 116431.17,
-        "2026-07": 682351.53
+        "2026-07": 678460.71,
+        "2026-08": 620359.94,
+        "2026-09": 212666.17
       },
       "por_vendedor": {
         "ES-257": {
@@ -1586,6 +2776,13 @@ const RAIOX_INDUSTRIAS_DATA = {
             "2026-04": 1952.0
           },
           "clientes_positivados": 24
+        },
+        "ES-269": {
+          "faturamento_ytd": 249.5,
+          "por_mes": {
+            "2026-08": 249.5
+          },
+          "clientes_positivados": 1
         },
         "ES-335": {
           "faturamento_ytd": 37997.36,
@@ -1645,16 +2842,18 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 34
         },
         "ES-388": {
-          "faturamento_ytd": 454859.84,
+          "faturamento_ytd": 909735.1,
           "por_mes": {
             "2026-01": 21995.76,
             "2026-03": 62595.9,
             "2026-04": 36185.7,
             "2026-05": 226.36,
             "2026-06": 8246.64,
-            "2026-07": 325609.48
+            "2026-07": 325609.48,
+            "2026-08": 306412.62,
+            "2026-09": 148462.64
           },
-          "clientes_positivados": 22
+          "clientes_positivados": 23
         },
         "ES-402": {
           "faturamento_ytd": 80591.67,
@@ -1702,7 +2901,7 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 4
         },
         "RJ-144": {
-          "faturamento_ytd": 27371.04,
+          "faturamento_ytd": 39425.91,
           "por_mes": {
             "2026-01": 767.04,
             "2026-02": 767.04,
@@ -1710,12 +2909,14 @@ const RAIOX_INDUSTRIAS_DATA = {
             "2026-04": 21617.2,
             "2026-05": 1151.6,
             "2026-06": 1150.56,
-            "2026-07": 1150.56
+            "2026-07": 1150.56,
+            "2026-08": 11479.59,
+            "2026-09": 575.28
           },
           "clientes_positivados": 2
         },
         "RJ-153": {
-          "faturamento_ytd": 60724.09,
+          "faturamento_ytd": 85991.58,
           "por_mes": {
             "2026-01": 5486.76,
             "2026-02": 4885.48,
@@ -1723,21 +2924,24 @@ const RAIOX_INDUSTRIAS_DATA = {
             "2026-04": 2194.5,
             "2026-05": 4588.5,
             "2026-06": 2992.5,
-            "2026-07": 9325.47
+            "2026-07": 9325.47,
+            "2026-08": 12593.81,
+            "2026-09": 12673.68
           },
-          "clientes_positivados": 19
+          "clientes_positivados": 20
         },
         "RJ-156": {
-          "faturamento_ytd": 311.36,
+          "faturamento_ytd": 1310.66,
           "por_mes": {
             "2026-01": 8.02,
             "2026-04": 173.44,
-            "2026-06": 129.9
+            "2026-06": 129.9,
+            "2026-09": 999.3
           },
-          "clientes_positivados": 3
+          "clientes_positivados": 4
         },
         "RJ-158": {
-          "faturamento_ytd": 1834730.17,
+          "faturamento_ytd": 2031631.45,
           "por_mes": {
             "2026-01": 273603.84,
             "2026-02": 298131.6,
@@ -1745,7 +2949,8 @@ const RAIOX_INDUSTRIAS_DATA = {
             "2026-04": 362581.2,
             "2026-05": 367645.21,
             "2026-06": 32656.32,
-            "2026-07": 166704.0
+            "2026-07": 166704.0,
+            "2026-08": 196901.28
           },
           "clientes_positivados": 1
         },
@@ -1758,26 +2963,30 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 1
         },
         "RJ-275": {
-          "faturamento_ytd": 149874.55,
+          "faturamento_ytd": 231187.73,
           "por_mes": {
             "2026-03": 5164.7,
             "2026-04": 3006.86,
             "2026-06": 32782.04,
-            "2026-07": 108920.95
+            "2026-07": 108920.95,
+            "2026-08": 36620.26,
+            "2026-09": 44692.91
           },
           "clientes_positivados": 3
         },
         "RJ-378": {
-          "faturamento_ytd": 5768.54,
+          "faturamento_ytd": 11461.94,
           "por_mes": {
             "2026-02": 119.9,
             "2026-03": 5129.04,
-            "2026-07": 519.6
+            "2026-07": 519.6,
+            "2026-08": 4843.8,
+            "2026-09": 849.6
           },
-          "clientes_positivados": 5
+          "clientes_positivados": 6
         },
         "RJ-379": {
-          "faturamento_ytd": 50814.56,
+          "faturamento_ytd": 60795.26,
           "por_mes": {
             "2026-01": 9008.12,
             "2026-02": 2127.42,
@@ -1785,21 +2994,25 @@ const RAIOX_INDUSTRIAS_DATA = {
             "2026-04": 9540.95,
             "2026-05": 8517.4,
             "2026-06": 5541.7,
-            "2026-07": 9259.78
+            "2026-07": 9259.78,
+            "2026-08": 7406.7,
+            "2026-09": 2574.0
           },
-          "clientes_positivados": 53
+          "clientes_positivados": 55
         },
         "RJ-412": {
-          "faturamento_ytd": 64754.5,
+          "faturamento_ytd": 81366.25,
           "por_mes": {
             "2026-01": 638.52,
             "2026-03": 594.66,
             "2026-04": 2471.29,
             "2026-05": 1428.02,
             "2026-06": 22769.1,
-            "2026-07": 36852.91
+            "2026-07": 36469.39,
+            "2026-08": 15874.37,
+            "2026-09": 1120.9
           },
-          "clientes_positivados": 24
+          "clientes_positivados": 25
         },
         "RJ-417": {
           "faturamento_ytd": 1151.36,
@@ -1811,7 +3024,7 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 3
         },
         "RJ-419": {
-          "faturamento_ytd": 6967.57,
+          "faturamento_ytd": 8270.67,
           "por_mes": {
             "2026-01": 1237.17,
             "2026-02": 555.65,
@@ -1819,30 +3032,35 @@ const RAIOX_INDUSTRIAS_DATA = {
             "2026-04": 602.55,
             "2026-05": 250.0,
             "2026-06": 1525.72,
-            "2026-07": 2115.42
+            "2026-07": 2115.42,
+            "2026-08": 1053.6,
+            "2026-09": 249.5
           },
-          "clientes_positivados": 23
+          "clientes_positivados": 27
         },
         "RJ-431": {
-          "faturamento_ytd": 6053.07,
+          "faturamento_ytd": 10559.98,
           "por_mes": {
             "2026-02": 169.88,
             "2026-03": 270.47,
             "2026-04": 751.95,
             "2026-05": 827.17,
             "2026-06": 1128.32,
-            "2026-07": 2905.28
+            "2026-07": 2905.28,
+            "2026-08": 4038.55,
+            "2026-09": 468.36
           },
-          "clientes_positivados": 35
+          "clientes_positivados": 46
         },
         "RJ-439": {
-          "faturamento_ytd": 15536.32,
+          "faturamento_ytd": 34166.38,
           "por_mes": {
             "2026-04": 249.5,
             "2026-05": 402.86,
-            "2026-07": 14883.96
+            "2026-07": 11376.66,
+            "2026-08": 22137.36
           },
-          "clientes_positivados": 11
+          "clientes_positivados": 13
         },
         "RJ-450": {
           "faturamento_ytd": 8240.82,
@@ -1863,745 +3081,1347 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 1
         },
         "RJ-471": {
-          "faturamento_ytd": 6490.12,
+          "faturamento_ytd": 7238.62,
           "por_mes": {
             "2026-03": 1947.81,
             "2026-04": 2195.25,
             "2026-05": 1022.5,
             "2026-06": 523.92,
-            "2026-07": 800.64
+            "2026-07": 800.64,
+            "2026-08": 748.5
           },
           "clientes_positivados": 15
-        }
-      },
-      "posicao": 3
-    },
-    {
-      "fantasia": "DIAGEO",
-      "faturamento_ytd": 3372891.63,
-      "participacao_pct": 5.3,
-      "faturamento_mes_atual": 436308.52,
-      "clientes_positivados": 1025,
-      "por_mes": {
-        "2026-01": 426093.81,
-        "2026-02": 427351.92,
-        "2026-03": 393556.41,
-        "2026-04": 612558.96,
-        "2026-05": 403324.79,
-        "2026-06": 673697.21,
-        "2026-07": 436308.52
-      },
-      "por_vendedor": {
-        "MG-327": {
-          "faturamento_ytd": 146125.3,
-          "por_mes": {
-            "2026-01": 7505.0,
-            "2026-02": 10890.86,
-            "2026-03": 10324.86,
-            "2026-04": 35038.88,
-            "2026-05": 31503.56,
-            "2026-06": 27135.82,
-            "2026-07": 23726.32
-          },
-          "clientes_positivados": 82
-        },
-        "MG-331": {
-          "faturamento_ytd": 64770.84,
-          "por_mes": {
-            "2026-01": 9805.6,
-            "2026-02": 15278.75,
-            "2026-03": 39686.49
-          },
-          "clientes_positivados": 19
-        },
-        "MG-335": {
-          "faturamento_ytd": 14686.42,
-          "por_mes": {
-            "2026-01": 1114.1,
-            "2026-02": 2978.0,
-            "2026-03": 10594.32
-          },
-          "clientes_positivados": 20
-        },
-        "MG-343": {
-          "faturamento_ytd": 81008.88,
-          "por_mes": {
-            "2026-01": 81008.88
-          },
-          "clientes_positivados": 3
-        },
-        "MG-344": {
-          "faturamento_ytd": 38109.53,
-          "por_mes": {
-            "2026-03": 74.7,
-            "2026-04": 2828.44,
-            "2026-05": 8718.1,
-            "2026-06": 8448.9,
-            "2026-07": 18039.39
-          },
-          "clientes_positivados": 32
-        },
-        "MG-349": {
-          "faturamento_ytd": 176746.99,
-          "por_mes": {
-            "2026-01": 12489.3,
-            "2026-02": 1918.8,
-            "2026-03": 33744.64,
-            "2026-04": 108540.84,
-            "2026-05": 3858.0,
-            "2026-06": 3507.06,
-            "2026-07": 12688.35
-          },
-          "clientes_positivados": 21
-        },
-        "MG-354": {
-          "faturamento_ytd": 217184.78,
-          "por_mes": {
-            "2026-01": 16322.2,
-            "2026-02": 25021.9,
-            "2026-03": 19689.24,
-            "2026-04": 16079.22,
-            "2026-05": 44020.98,
-            "2026-06": 44712.1,
-            "2026-07": 51339.14
-          },
-          "clientes_positivados": 58
-        },
-        "MG-360": {
-          "faturamento_ytd": 971217.6,
-          "por_mes": {
-            "2026-02": 221257.2,
-            "2026-03": 77580.84,
-            "2026-04": 231239.4,
-            "2026-05": 102467.16,
-            "2026-06": 287901.6,
-            "2026-07": 50771.4
-          },
-          "clientes_positivados": 20
-        },
-        "MG-362": {
-          "faturamento_ytd": 42738.26,
-          "por_mes": {
-            "2026-03": 1319.76,
-            "2026-04": 6932.8,
-            "2026-05": 9234.18,
-            "2026-06": 23385.14,
-            "2026-07": 1866.38
-          },
-          "clientes_positivados": 39
-        },
-        "MG-378": {
-          "faturamento_ytd": 21870.0,
-          "por_mes": {
-            "2026-07": 21870.0
-          },
-          "clientes_positivados": 1
-        },
-        "MG-542": {
-          "faturamento_ytd": 111922.68,
-          "por_mes": {
-            "2026-01": 30041.28,
-            "2026-04": 38811.6,
-            "2026-05": 43069.8
-          },
-          "clientes_positivados": 4
-        },
-        "RJ-144": {
-          "faturamento_ytd": 207721.64,
-          "por_mes": {
-            "2026-01": 20897.7,
-            "2026-02": 12819.0,
-            "2026-03": 25812.2,
-            "2026-04": 33987.78,
-            "2026-05": 19990.6,
-            "2026-06": 60128.76,
-            "2026-07": 34085.6
-          },
-          "clientes_positivados": 40
-        },
-        "RJ-153": {
-          "faturamento_ytd": 19446.94,
-          "por_mes": {
-            "2026-02": 612.96,
-            "2026-03": 2241.24,
-            "2026-04": 1751.32,
-            "2026-06": 13804.92,
-            "2026-07": 1036.5
-          },
-          "clientes_positivados": 9
-        },
-        "RJ-155": {
-          "faturamento_ytd": 264198.25,
-          "por_mes": {
-            "2026-01": 69133.03,
-            "2026-02": 32327.0,
-            "2026-03": 33127.08,
-            "2026-04": 29426.9,
-            "2026-05": 20431.4,
-            "2026-06": 44744.8,
-            "2026-07": 35008.04
-          },
-          "clientes_positivados": 94
-        },
-        "RJ-156": {
-          "faturamento_ytd": 123864.57,
-          "por_mes": {
-            "2026-01": 35493.18,
-            "2026-02": 11857.1,
-            "2026-03": 19056.4,
-            "2026-04": 18904.46,
-            "2026-05": 15843.06,
-            "2026-06": 16660.93,
-            "2026-07": 6049.43
-          },
-          "clientes_positivados": 89
-        },
-        "RJ-158": {
-          "faturamento_ytd": 8936.52,
-          "por_mes": {
-            "2026-01": 3110.4,
-            "2026-02": 2667.0,
-            "2026-03": 206.4,
-            "2026-04": 2716.92,
-            "2026-07": 235.8
-          },
-          "clientes_positivados": 4
-        },
-        "RJ-159": {
-          "faturamento_ytd": 197551.33,
-          "por_mes": {
-            "2026-01": 43286.5,
-            "2026-02": 32780.6,
-            "2026-03": 31848.66,
-            "2026-04": 21557.17,
-            "2026-05": 12815.7,
-            "2026-06": 32332.9,
-            "2026-07": 22929.8
-          },
-          "clientes_positivados": 82
-        },
-        "RJ-238": {
-          "faturamento_ytd": 2072.66,
-          "por_mes": {
-            "2026-02": 1201.88,
-            "2026-04": 870.78
-          },
-          "clientes_positivados": 6
-        },
-        "RJ-241": {
-          "faturamento_ytd": 13885.68,
-          "por_mes": {
-            "2026-01": 5842.3,
-            "2026-02": 3073.9,
-            "2026-03": 459.28,
-            "2026-04": 149.9,
-            "2026-05": 78.9,
-            "2026-06": 4281.4
-          },
-          "clientes_positivados": 15
-        },
-        "RJ-275": {
-          "faturamento_ytd": 4395.0,
-          "por_mes": {
-            "2026-05": 3594.0,
-            "2026-07": 801.0
-          },
-          "clientes_positivados": 2
-        },
-        "RJ-378": {
-          "faturamento_ytd": 6984.0,
-          "por_mes": {
-            "2026-06": 231.3,
-            "2026-07": 6752.7
-          },
-          "clientes_positivados": 9
-        },
-        "RJ-379": {
-          "faturamento_ytd": 30546.58,
-          "por_mes": {
-            "2026-01": 3881.98,
-            "2026-02": 1579.3,
-            "2026-04": 8664.4,
-            "2026-05": 2122.5,
-            "2026-06": 5761.7,
-            "2026-07": 8536.7
-          },
-          "clientes_positivados": 27
-        },
-        "RJ-412": {
-          "faturamento_ytd": 17478.4,
-          "por_mes": {
-            "2026-01": 2285.75,
-            "2026-02": 3249.28,
-            "2026-03": 4141.27,
-            "2026-04": 2993.3,
-            "2026-05": 1990.9,
-            "2026-06": 1718.9,
-            "2026-07": 1099.0
-          },
-          "clientes_positivados": 21
-        },
-        "RJ-417": {
-          "faturamento_ytd": 69709.65,
-          "por_mes": {
-            "2026-01": 49925.69,
-            "2026-02": 11408.19,
-            "2026-03": 1443.2,
-            "2026-04": 4108.4,
-            "2026-05": 1684.77,
-            "2026-06": 1139.4
-          },
-          "clientes_positivados": 11
-        },
-        "RJ-419": {
-          "faturamento_ytd": 25333.97,
-          "por_mes": {
-            "2026-01": 1292.6,
-            "2026-02": 2786.1,
-            "2026-03": 63.7,
-            "2026-04": 1135.8,
-            "2026-05": 1042.8,
-            "2026-06": 10546.97,
-            "2026-07": 8466.0
-          },
-          "clientes_positivados": 19
-        },
-        "RJ-431": {
-          "faturamento_ytd": 27370.31,
-          "por_mes": {
-            "2026-01": 2246.8,
-            "2026-02": 358.8,
-            "2026-03": 2794.5,
-            "2026-04": 1926.69,
-            "2026-05": 3796.86,
-            "2026-06": 11963.46,
-            "2026-07": 4283.2
-          },
-          "clientes_positivados": 18
-        },
-        "RJ-439": {
-          "faturamento_ytd": 10657.1,
-          "por_mes": {
-            "2026-01": 1350.4,
-            "2026-02": 422.1,
-            "2026-03": 1893.6,
-            "2026-04": 1428.7,
-            "2026-05": 948.5,
-            "2026-06": 1721.7,
-            "2026-07": 2892.1
-          },
-          "clientes_positivados": 20
-        },
-        "RJ-450": {
-          "faturamento_ytd": 57730.11,
-          "por_mes": {
-            "2026-03": 743.76,
-            "2026-04": 2316.75,
-            "2026-05": 5874.48,
-            "2026-06": 1924.92,
-            "2026-07": 46870.2
-          },
-          "clientes_positivados": 15
-        },
-        "RJ-471": {
-          "faturamento_ytd": 11976.9,
-          "por_mes": {
-            "2026-03": 3917.8,
-            "2026-04": 1362.5,
-            "2026-05": 1343.7,
-            "2026-06": 855.3,
-            "2026-07": 4497.6
-          },
-          "clientes_positivados": 21
-        },
-        "RJ-91": {
-          "faturamento_ytd": 7030.8,
-          "por_mes": {
-            "2026-03": 7030.8
-          },
-          "clientes_positivados": 1
-        },
-        "SP-232": {
-          "faturamento_ytd": 86.7,
-          "por_mes": {
-            "2026-07": 86.7
-          },
-          "clientes_positivados": 1
-        },
-        "SP-317": {
-          "faturamento_ytd": 40083.0,
-          "por_mes": {
-            "2026-01": 25162.56,
-            "2026-02": 14444.16,
-            "2026-07": 476.28
-          },
-          "clientes_positivados": 14
-        },
-        "SP-356": {
-          "faturamento_ytd": 330.24,
-          "por_mes": {
-            "2026-04": 330.24
-          },
-          "clientes_positivados": 1
-        },
-        "SP-367": {
-          "faturamento_ytd": 267.98,
-          "por_mes": {
-            "2026-03": 267.98
-          },
-          "clientes_positivados": 1
-        },
-        "SP-371": {
-          "faturamento_ytd": 67351.5,
-          "por_mes": {
-            "2026-02": 3866.16,
-            "2026-03": 54364.05,
-            "2026-04": 1115.28,
-            "2026-05": 4140.09,
-            "2026-06": 3865.92
-          },
-          "clientes_positivados": 13
-        },
-        "SP-391": {
-          "faturamento_ytd": 42106.64,
-          "por_mes": {
-            "2026-01": 934.8,
-            "2026-02": 10607.28,
-            "2026-03": 1542.0,
-            "2026-04": 3512.76,
-            "2026-05": 23892.11,
-            "2026-06": 1532.55,
-            "2026-07": 85.14
-          },
-          "clientes_positivados": 9
-        },
-        "SP-405": {
-          "faturamento_ytd": 1104.16,
-          "por_mes": {
-            "2026-02": 733.8,
-            "2026-03": 370.36
-          },
-          "clientes_positivados": 2
-        },
-        "SP-425": {
-          "faturamento_ytd": 10139.13,
-          "por_mes": {
-            "2026-01": 173.88,
-            "2026-02": 896.34,
-            "2026-03": 274.17,
-            "2026-04": 3395.56,
-            "2026-05": 2318.46,
-            "2026-07": 3080.72
-          },
-          "clientes_positivados": 14
-        },
-        "SP-428": {
-          "faturamento_ytd": 9396.6,
-          "por_mes": {
-            "2026-01": 2789.88,
-            "2026-02": 2315.46,
-            "2026-03": 1362.24,
-            "2026-04": 1006.5,
-            "2026-05": 659.7,
-            "2026-06": 834.0,
-            "2026-07": 428.82
-          },
-          "clientes_positivados": 2
-        },
-        "SP-429": {
-          "faturamento_ytd": 8300.0,
-          "por_mes": {
-            "2026-03": 7220.0,
-            "2026-05": 1080.0
-          },
-          "clientes_positivados": 2
-        },
-        "SP-433": {
-          "faturamento_ytd": 3346.68,
-          "por_mes": {
-            "2026-06": 2999.88,
-            "2026-07": 346.8
-          },
-          "clientes_positivados": 2
-        },
-        "SP-438": {
-          "faturamento_ytd": 28084.38,
-          "por_mes": {
-            "2026-03": 360.87,
-            "2026-04": 25348.2,
-            "2026-05": 1630.36,
-            "2026-06": 744.94
-          },
-          "clientes_positivados": 8
-        },
-        "SP-460": {
-          "faturamento_ytd": 13060.03,
-          "por_mes": {
-            "2026-04": 508.59,
-            "2026-05": 3783.59,
-            "2026-06": 8469.36,
-            "2026-07": 298.49
-          },
-          "clientes_positivados": 18
-        },
-        "SP-461": {
-          "faturamento_ytd": 37984.44,
-          "por_mes": {
-            "2026-04": 4568.88,
-            "2026-05": 2192.82,
-            "2026-06": 13606.33,
-            "2026-07": 17616.41
-          },
-          "clientes_positivados": 20
-        },
-        "SP-463": {
-          "faturamento_ytd": 6800.14,
-          "por_mes": {
-            "2026-05": 563.6,
-            "2026-06": 6236.54
-          },
-          "clientes_positivados": 17
-        },
-        "SP-464": {
-          "faturamento_ytd": 7434.78,
-          "por_mes": {
-            "2026-05": 1038.7,
-            "2026-06": 2935.98,
-            "2026-07": 3460.11
-          },
-          "clientes_positivados": 4
-        },
-        "SP-465": {
-          "faturamento_ytd": 2427.2,
-          "por_mes": {
-            "2026-05": 1228.1,
-            "2026-06": 648.0,
-            "2026-07": 551.1
-          },
-          "clientes_positivados": 9
-        },
-        "SP-466": {
-          "faturamento_ytd": 10926.46,
-          "por_mes": {
-            "2026-05": 5753.4,
-            "2026-06": 1670.02,
-            "2026-07": 3503.04
-          },
-          "clientes_positivados": 9
-        },
-        "SP-467": {
-          "faturamento_ytd": 8599.0,
-          "por_mes": {
-            "2026-05": 4115.9,
-            "2026-06": 2109.6,
-            "2026-07": 2373.5
-          },
-          "clientes_positivados": 4
-        },
-        "SP-468": {
-          "faturamento_ytd": 19117.92,
-          "por_mes": {
-            "2026-05": 9221.85,
-            "2026-06": 4836.89,
-            "2026-07": 5059.17
-          },
-          "clientes_positivados": 11
-        },
-        "SP-469": {
-          "faturamento_ytd": 7610.12,
-          "por_mes": {
-            "2026-05": 998.46,
-            "2026-06": 2149.04,
-            "2026-07": 4462.62
-          },
-          "clientes_positivados": 8
-        },
-        "SP-470": {
-          "faturamento_ytd": 1064.18,
-          "por_mes": {
-            "2026-05": 308.78,
-            "2026-06": 503.6,
-            "2026-07": 251.8
-          },
-          "clientes_positivados": 2
-        },
-        "SP-471": {
-          "faturamento_ytd": 3730.05,
-          "por_mes": {
-            "2026-05": 1449.89,
-            "2026-06": 857.53,
-            "2026-07": 1422.64
-          },
-          "clientes_positivados": 6
-        },
-        "SP-472": {
-          "faturamento_ytd": 3349.1,
-          "por_mes": {
-            "2026-05": 2071.2,
-            "2026-06": 629.5,
-            "2026-07": 648.4
-          },
-          "clientes_positivados": 7
-        },
-        "SP-473": {
-          "faturamento_ytd": 1734.0,
-          "por_mes": {
-            "2026-06": 693.6,
-            "2026-07": 1040.4
-          },
-          "clientes_positivados": 1
-        },
-        "SP-474": {
-          "faturamento_ytd": 7603.01,
-          "por_mes": {
-            "2026-05": 526.6,
-            "2026-06": 2826.2,
-            "2026-07": 4250.21
-          },
-          "clientes_positivados": 8
-        },
-        "SP-475": {
-          "faturamento_ytd": 629.5,
-          "por_mes": {
-            "2026-06": 629.5
-          },
-          "clientes_positivados": 1
-        },
-        "SP-476": {
-          "faturamento_ytd": 5528.06,
-          "por_mes": {
-            "2026-05": 1261.83,
-            "2026-06": 1648.19,
-            "2026-07": 2618.04
-          },
-          "clientes_positivados": 13
-        },
-        "SP-477": {
-          "faturamento_ytd": 9219.06,
-          "por_mes": {
-            "2026-05": 659.4,
-            "2026-06": 4951.65,
-            "2026-07": 3608.01
-          },
-          "clientes_positivados": 7
-        },
-        "SP-486": {
-          "faturamento_ytd": 8798.72,
-          "por_mes": {
-            "2026-06": 1747.08,
-            "2026-07": 7051.64
-          },
-          "clientes_positivados": 16
-        },
-        "SP-489": {
-          "faturamento_ytd": 2138.6,
-          "por_mes": {
-            "2026-06": 2138.6
-          },
-          "clientes_positivados": 2
-        },
-        "SP-490": {
-          "faturamento_ytd": 806.72,
-          "por_mes": {
-            "2026-06": 806.72
-          },
-          "clientes_positivados": 3
-        },
-        "SP-491": {
-          "faturamento_ytd": 146.43,
-          "por_mes": {
-            "2026-07": 146.43
-          },
-          "clientes_positivados": 1
-        },
-        "SP-492": {
-          "faturamento_ytd": 251.8,
-          "por_mes": {
-            "2026-07": 251.8
-          },
-          "clientes_positivados": 2
-        },
-        "SP-493": {
-          "faturamento_ytd": 1377.39,
-          "por_mes": {
-            "2026-06": 717.99,
-            "2026-07": 659.4
-          },
-          "clientes_positivados": 4
-        },
-        "SP-497": {
-          "faturamento_ytd": 583.97,
-          "por_mes": {
-            "2026-07": 583.97
-          },
-          "clientes_positivados": 1
-        },
-        "SP-498": {
-          "faturamento_ytd": 346.8,
-          "por_mes": {
-            "2026-07": 346.8
-          },
-          "clientes_positivados": 1
-        },
-        "SP-500": {
-          "faturamento_ytd": 1082.28,
-          "por_mes": {
-            "2026-07": 1082.28
-          },
-          "clientes_positivados": 2
-        },
-        "SP-502": {
-          "faturamento_ytd": 951.68,
-          "por_mes": {
-            "2026-07": 951.68
-          },
-          "clientes_positivados": 2
-        },
-        "SP-504": {
-          "faturamento_ytd": 1370.6,
-          "por_mes": {
-            "2026-07": 1370.6
-          },
-          "clientes_positivados": 4
-        },
-        "SP-511": {
-          "faturamento_ytd": 1632.06,
-          "por_mes": {
-            "2026-07": 1632.06
-          },
-          "clientes_positivados": 3
-        },
-        "SP-512": {
-          "faturamento_ytd": 540.0,
-          "por_mes": {
-            "2026-07": 540.0
-          },
-          "clientes_positivados": 1
-        },
-        "SP-516": {
-          "faturamento_ytd": 2178.8,
-          "por_mes": {
-            "2026-07": 2178.8
-          },
-          "clientes_positivados": 6
         }
       },
       "posicao": 4
     },
     {
+      "fantasia": "BROWN",
+      "faturamento_ytd": 3140011.72,
+      "participacao_pct": 3.95,
+      "faturamento_mes_atual": 656050.0,
+      "clientes_positivados": 721,
+      "por_mes": {
+        "2026-01": 53877.22,
+        "2026-02": 86160.7,
+        "2026-03": 62315.17,
+        "2026-04": 93611.85,
+        "2026-05": 419986.72,
+        "2026-06": 487296.62,
+        "2026-07": 453140.69,
+        "2026-08": 827572.74,
+        "2026-09": 656050.0
+      },
+      "por_vendedor": {
+        "ES-230": {
+          "faturamento_ytd": 4800.0,
+          "por_mes": {
+            "2026-06": 4800.0
+          },
+          "clientes_positivados": 1
+        },
+        "ES-257": {
+          "faturamento_ytd": 11522.52,
+          "por_mes": {
+            "2026-01": 588.74,
+            "2026-02": 2846.15,
+            "2026-03": 4529.54,
+            "2026-04": 1891.95,
+            "2026-05": 1666.14
+          },
+          "clientes_positivados": 10
+        },
+        "ES-260": {
+          "faturamento_ytd": 3780.19,
+          "por_mes": {
+            "2026-01": 389.18,
+            "2026-02": 465.76,
+            "2026-05": 2925.25
+          },
+          "clientes_positivados": 5
+        },
+        "ES-268": {
+          "faturamento_ytd": 4380.02,
+          "por_mes": {
+            "2026-01": 1470.04,
+            "2026-02": 1713.42,
+            "2026-03": 745.0,
+            "2026-04": 451.56
+          },
+          "clientes_positivados": 8
+        },
+        "ES-335": {
+          "faturamento_ytd": 449.37,
+          "por_mes": {
+            "2026-04": 449.37
+          },
+          "clientes_positivados": 2
+        },
+        "ES-336": {
+          "faturamento_ytd": 2096.36,
+          "por_mes": {
+            "2026-02": 1200.87,
+            "2026-03": 150.0,
+            "2026-05": 745.49
+          },
+          "clientes_positivados": 9
+        },
+        "ES-341": {
+          "faturamento_ytd": 3558.24,
+          "por_mes": {
+            "2026-03": 3558.24
+          },
+          "clientes_positivados": 1
+        },
+        "ES-342": {
+          "faturamento_ytd": 130.0,
+          "por_mes": {
+            "2026-04": 130.0
+          },
+          "clientes_positivados": 1
+        },
+        "ES-370": {
+          "faturamento_ytd": 9734.03,
+          "por_mes": {
+            "2026-04": 7195.2,
+            "2026-05": 2538.83
+          },
+          "clientes_positivados": 3
+        },
+        "ES-442": {
+          "faturamento_ytd": 4105.27,
+          "por_mes": {
+            "2026-01": 128.55,
+            "2026-02": 243.86,
+            "2026-03": 3359.76,
+            "2026-04": 128.0,
+            "2026-06": 245.1
+          },
+          "clientes_positivados": 4
+        },
+        "ES-458": {
+          "faturamento_ytd": 437.4,
+          "por_mes": {
+            "2026-08": 437.4
+          },
+          "clientes_positivados": 1
+        },
+        "RJ-144": {
+          "faturamento_ytd": 4398.6,
+          "por_mes": {
+            "2026-01": 238.0,
+            "2026-02": 767.4,
+            "2026-03": 383.7,
+            "2026-04": 1534.8,
+            "2026-05": 659.4,
+            "2026-06": 465.6,
+            "2026-07": 109.9,
+            "2026-09": 239.8
+          },
+          "clientes_positivados": 8
+        },
+        "RJ-153": {
+          "faturamento_ytd": 6271.9,
+          "por_mes": {
+            "2026-05": 3514.4,
+            "2026-06": 2637.6,
+            "2026-08": 119.9
+          },
+          "clientes_positivados": 5
+        },
+        "RJ-155": {
+          "faturamento_ytd": 72051.45,
+          "por_mes": {
+            "2026-01": 24409.75,
+            "2026-02": 13745.8,
+            "2026-03": 6491.7,
+            "2026-04": 9508.6,
+            "2026-05": 2623.8,
+            "2026-06": 5830.1,
+            "2026-07": 4062.9,
+            "2026-08": 4899.2,
+            "2026-09": 479.6
+          },
+          "clientes_positivados": 49
+        },
+        "RJ-156": {
+          "faturamento_ytd": 14226.1,
+          "por_mes": {
+            "2026-01": 655.5,
+            "2026-02": 1639.5,
+            "2026-03": 914.2,
+            "2026-04": 509.2,
+            "2026-05": 5624.3,
+            "2026-06": 2343.2,
+            "2026-07": 390.1,
+            "2026-08": 701.2,
+            "2026-09": 1448.9
+          },
+          "clientes_positivados": 27
+        },
+        "RJ-158": {
+          "faturamento_ytd": 7034.29,
+          "por_mes": {
+            "2026-04": 6562.8,
+            "2026-07": 471.49
+          },
+          "clientes_positivados": 2
+        },
+        "RJ-159": {
+          "faturamento_ytd": 29051.38,
+          "por_mes": {
+            "2026-01": 5014.6,
+            "2026-02": 2961.4,
+            "2026-03": 3607.9,
+            "2026-04": 3363.7,
+            "2026-05": 3168.4,
+            "2026-06": 4120.48,
+            "2026-07": 3775.5,
+            "2026-08": 2589.8,
+            "2026-09": 449.6
+          },
+          "clientes_positivados": 33
+        },
+        "RJ-174": {
+          "faturamento_ytd": 139.9,
+          "por_mes": {
+            "2026-05": 139.9
+          },
+          "clientes_positivados": 1
+        },
+        "RJ-238": {
+          "faturamento_ytd": 1043.27,
+          "por_mes": {
+            "2026-02": 599.6,
+            "2026-04": 443.67
+          },
+          "clientes_positivados": 2
+        },
+        "RJ-241": {
+          "faturamento_ytd": 12149.2,
+          "por_mes": {
+            "2026-01": 1309.0,
+            "2026-02": 1666.0,
+            "2026-03": 238.0,
+            "2026-04": 1428.0,
+            "2026-05": 3191.8,
+            "2026-06": 1318.9,
+            "2026-07": 1438.8,
+            "2026-08": 119.9,
+            "2026-09": 1438.8
+          },
+          "clientes_positivados": 14
+        },
+        "RJ-275": {
+          "faturamento_ytd": 569.4,
+          "por_mes": {
+            "2026-07": 569.4
+          },
+          "clientes_positivados": 1
+        },
+        "RJ-306": {
+          "faturamento_ytd": 54000.0,
+          "por_mes": {
+            "2026-09": 54000.0
+          },
+          "clientes_positivados": 1
+        },
+        "RJ-378": {
+          "faturamento_ytd": 3033.6,
+          "por_mes": {
+            "2026-07": 1594.8,
+            "2026-09": 1438.8
+          },
+          "clientes_positivados": 2
+        },
+        "RJ-379": {
+          "faturamento_ytd": 10595.95,
+          "por_mes": {
+            "2026-01": 444.0,
+            "2026-02": 868.5,
+            "2026-03": 1827.05,
+            "2026-04": 159.9,
+            "2026-05": 4229.9,
+            "2026-07": 1273.8,
+            "2026-08": 1792.8
+          },
+          "clientes_positivados": 12
+        },
+        "RJ-412": {
+          "faturamento_ytd": 1731.7,
+          "por_mes": {
+            "2026-03": 104.9,
+            "2026-05": 359.8,
+            "2026-06": 1267.0
+          },
+          "clientes_positivados": 4
+        },
+        "RJ-417": {
+          "faturamento_ytd": 7762.74,
+          "por_mes": {
+            "2026-01": 323.67,
+            "2026-02": 6917.67,
+            "2026-05": 521.4
+          },
+          "clientes_positivados": 3
+        },
+        "RJ-419": {
+          "faturamento_ytd": 7523.84,
+          "por_mes": {
+            "2026-01": 1334.6,
+            "2026-05": 6189.24
+          },
+          "clientes_positivados": 2
+        },
+        "RJ-431": {
+          "faturamento_ytd": 1336.06,
+          "por_mes": {
+            "2026-04": 498.6,
+            "2026-05": 209.96,
+            "2026-06": 523.6,
+            "2026-08": 103.9
+          },
+          "clientes_positivados": 3
+        },
+        "RJ-439": {
+          "faturamento_ytd": 1999.72,
+          "por_mes": {
+            "2026-01": 139.9,
+            "2026-02": 389.7,
+            "2026-03": 329.7,
+            "2026-04": 259.8,
+            "2026-06": 880.62
+          },
+          "clientes_positivados": 3
+        },
+        "RJ-450": {
+          "faturamento_ytd": 69026.3,
+          "por_mes": {
+            "2026-05": 21000.96,
+            "2026-06": 31800.24,
+            "2026-07": 4325.1,
+            "2026-08": 11900.0
+          },
+          "clientes_positivados": 7
+        },
+        "RJ-471": {
+          "faturamento_ytd": 1486.0,
+          "por_mes": {
+            "2026-05": 339.8,
+            "2026-08": 948.3,
+            "2026-09": 197.9
+          },
+          "clientes_positivados": 5
+        },
+        "SP-232": {
+          "faturamento_ytd": 599.4,
+          "por_mes": {
+            "2026-07": 599.4
+          },
+          "clientes_positivados": 1
+        },
+        "SP-317": {
+          "faturamento_ytd": 63557.4,
+          "por_mes": {
+            "2026-01": 7411.2,
+            "2026-02": 3705.6,
+            "2026-03": 13215.0,
+            "2026-04": 10454.4,
+            "2026-06": 4795.2,
+            "2026-07": 23976.0
+          },
+          "clientes_positivados": 14
+        },
+        "SP-318": {
+          "faturamento_ytd": 291840.0,
+          "por_mes": {
+            "2026-08": 291840.0
+          },
+          "clientes_positivados": 1
+        },
+        "SP-367": {
+          "faturamento_ytd": 89.84,
+          "por_mes": {
+            "2026-03": 89.84
+          },
+          "clientes_positivados": 1
+        },
+        "SP-371": {
+          "faturamento_ytd": 99828.9,
+          "por_mes": {
+            "2026-01": 1798.8,
+            "2026-03": 6534.0,
+            "2026-05": 60655.2,
+            "2026-06": 21848.1,
+            "2026-07": 6774.9,
+            "2026-09": 2217.9
+          },
+          "clientes_positivados": 18
+        },
+        "SP-391": {
+          "faturamento_ytd": 131655.2,
+          "por_mes": {
+            "2026-02": 19481.4,
+            "2026-04": 7133.6,
+            "2026-05": 910.8,
+            "2026-06": 3656.4,
+            "2026-07": 13390.2,
+            "2026-08": 87082.8
+          },
+          "clientes_positivados": 17
+        },
+        "SP-425": {
+          "faturamento_ytd": 47188.68,
+          "por_mes": {
+            "2026-02": 7096.62,
+            "2026-04": 3753.2,
+            "2026-05": 611.4,
+            "2026-06": 3233.1,
+            "2026-07": 18626.76,
+            "2026-08": 13867.6
+          },
+          "clientes_positivados": 21
+        },
+        "SP-426": {
+          "faturamento_ytd": 298004.28,
+          "por_mes": {
+            "2026-01": 3311.64,
+            "2026-02": 19054.44,
+            "2026-03": 14902.2,
+            "2026-04": 25618.8,
+            "2026-05": 97712.4,
+            "2026-06": 81001.8,
+            "2026-07": 18461.4,
+            "2026-08": 36382.8,
+            "2026-09": 1558.8
+          },
+          "clientes_positivados": 35
+        },
+        "SP-428": {
+          "faturamento_ytd": 22079.81,
+          "por_mes": {
+            "2026-01": 4910.06,
+            "2026-02": 797.01,
+            "2026-03": 1334.44,
+            "2026-04": 2654.3,
+            "2026-06": 1184.1,
+            "2026-07": 9521.1,
+            "2026-08": 1678.8
+          },
+          "clientes_positivados": 2
+        },
+        "SP-433": {
+          "faturamento_ytd": 134089.2,
+          "por_mes": {
+            "2026-05": 39262.1,
+            "2026-06": 53887.9,
+            "2026-07": 14865.6,
+            "2026-08": 14085.6,
+            "2026-09": 11988.0
+          },
+          "clientes_positivados": 30
+        },
+        "SP-438": {
+          "faturamento_ytd": 4174.6,
+          "por_mes": {
+            "2026-05": 3791.7,
+            "2026-06": 382.9
+          },
+          "clientes_positivados": 6
+        },
+        "SP-460": {
+          "faturamento_ytd": 48028.64,
+          "por_mes": {
+            "2026-05": 1079.4,
+            "2026-06": 10994.04,
+            "2026-07": 8348.1,
+            "2026-08": 27607.1
+          },
+          "clientes_positivados": 30
+        },
+        "SP-461": {
+          "faturamento_ytd": 83772.63,
+          "por_mes": {
+            "2026-04": 8307.6,
+            "2026-05": 21486.69,
+            "2026-06": 17733.28,
+            "2026-07": 23377.56,
+            "2026-08": 12867.5
+          },
+          "clientes_positivados": 20
+        },
+        "SP-462": {
+          "faturamento_ytd": 50229.6,
+          "por_mes": {
+            "2026-05": 11868.0,
+            "2026-06": 5994.0,
+            "2026-07": 16783.2,
+            "2026-08": 15584.4
+          },
+          "clientes_positivados": 1
+        },
+        "SP-463": {
+          "faturamento_ytd": 11752.2,
+          "por_mes": {
+            "2026-05": 1786.5,
+            "2026-06": 7568.1,
+            "2026-07": 599.4,
+            "2026-08": 1798.2
+          },
+          "clientes_positivados": 15
+        },
+        "SP-464": {
+          "faturamento_ytd": 19343.4,
+          "por_mes": {
+            "2026-05": 8793.2,
+            "2026-06": 2397.6,
+            "2026-07": 1558.6,
+            "2026-08": 6594.0
+          },
+          "clientes_positivados": 8
+        },
+        "SP-465": {
+          "faturamento_ytd": 7180.8,
+          "por_mes": {
+            "2026-05": 1186.8,
+            "2026-07": 5994.0
+          },
+          "clientes_positivados": 1
+        },
+        "SP-466": {
+          "faturamento_ytd": 9399.91,
+          "por_mes": {
+            "2026-04": 1174.8,
+            "2026-05": 593.41,
+            "2026-06": 713.4,
+            "2026-07": 5131.8,
+            "2026-08": 1786.5
+          },
+          "clientes_positivados": 6
+        },
+        "SP-467": {
+          "faturamento_ytd": 116287.42,
+          "por_mes": {
+            "2026-05": 79660.16,
+            "2026-06": 2399.76,
+            "2026-07": 30915.5,
+            "2026-08": 2186.4,
+            "2026-09": 1125.6
+          },
+          "clientes_positivados": 15
+        },
+        "SP-468": {
+          "faturamento_ytd": 35546.3,
+          "por_mes": {
+            "2026-05": 12277.7,
+            "2026-06": 2397.6,
+            "2026-07": 18593.0,
+            "2026-08": 2278.0
+          },
+          "clientes_positivados": 9
+        },
+        "SP-469": {
+          "faturamento_ytd": 8742.2,
+          "por_mes": {
+            "2026-05": 2181.9,
+            "2026-06": 1275.0,
+            "2026-07": 4466.1,
+            "2026-08": 819.2
+          },
+          "clientes_positivados": 7
+        },
+        "SP-470": {
+          "faturamento_ytd": 274067.3,
+          "por_mes": {
+            "2026-06": 127191.6,
+            "2026-07": 1498.5,
+            "2026-08": 145377.2
+          },
+          "clientes_positivados": 4
+        },
+        "SP-471": {
+          "faturamento_ytd": 7033.5,
+          "por_mes": {
+            "2026-05": 1372.7,
+            "2026-06": 1197.6,
+            "2026-07": 1508.2,
+            "2026-08": 2955.0
+          },
+          "clientes_positivados": 10
+        },
+        "SP-472": {
+          "faturamento_ytd": 17047.8,
+          "por_mes": {
+            "2026-06": 5958.0,
+            "2026-07": 1718.6,
+            "2026-08": 2987.5,
+            "2026-09": 6383.7
+          },
+          "clientes_positivados": 5
+        },
+        "SP-473": {
+          "faturamento_ytd": 2399.76,
+          "por_mes": {
+            "2026-07": 2399.76
+          },
+          "clientes_positivados": 1
+        },
+        "SP-474": {
+          "faturamento_ytd": 12395.9,
+          "por_mes": {
+            "2026-05": 2638.2,
+            "2026-06": 5896.7,
+            "2026-07": 2797.2,
+            "2026-09": 1063.8
+          },
+          "clientes_positivados": 8
+        },
+        "SP-475": {
+          "faturamento_ytd": 4909.2,
+          "por_mes": {
+            "2026-06": 599.4,
+            "2026-07": 2997.0,
+            "2026-08": 1312.8
+          },
+          "clientes_positivados": 4
+        },
+        "SP-476": {
+          "faturamento_ytd": 175704.1,
+          "por_mes": {
+            "2026-05": 10689.5,
+            "2026-06": 44809.4,
+            "2026-07": 72297.4,
+            "2026-08": 41333.7,
+            "2026-09": 6574.1
+          },
+          "clientes_positivados": 40
+        },
+        "SP-477": {
+          "faturamento_ytd": 28192.0,
+          "por_mes": {
+            "2026-05": 1780.2,
+            "2026-06": 3334.5,
+            "2026-07": 9195.3,
+            "2026-08": 12183.4,
+            "2026-09": 1698.6
+          },
+          "clientes_positivados": 13
+        },
+        "SP-486": {
+          "faturamento_ytd": 48700.0,
+          "por_mes": {
+            "2026-06": 6912.7,
+            "2026-07": 19713.7,
+            "2026-08": 15629.4,
+            "2026-09": 6444.2
+          },
+          "clientes_positivados": 43
+        },
+        "SP-487": {
+          "faturamento_ytd": 17648.5,
+          "por_mes": {
+            "2026-06": 3862.3,
+            "2026-07": 13786.2
+          },
+          "clientes_positivados": 5
+        },
+        "SP-489": {
+          "faturamento_ytd": 59425.6,
+          "por_mes": {
+            "2026-06": 4971.6,
+            "2026-07": 41557.7,
+            "2026-08": 11986.8,
+            "2026-09": 909.5
+          },
+          "clientes_positivados": 11
+        },
+        "SP-490": {
+          "faturamento_ytd": 12117.1,
+          "por_mes": {
+            "2026-06": 2870.1,
+            "2026-07": 6944.1,
+            "2026-08": 2302.9
+          },
+          "clientes_positivados": 9
+        },
+        "SP-491": {
+          "faturamento_ytd": 2397.6,
+          "por_mes": {
+            "2026-06": 1198.8,
+            "2026-07": 1198.8
+          },
+          "clientes_positivados": 2
+        },
+        "SP-492": {
+          "faturamento_ytd": 1399.18,
+          "por_mes": {
+            "2026-07": 1119.38,
+            "2026-08": 279.8
+          },
+          "clientes_positivados": 4
+        },
+        "SP-493": {
+          "faturamento_ytd": 2224.8,
+          "por_mes": {
+            "2026-06": 799.2,
+            "2026-07": 1098.9,
+            "2026-08": 326.7
+          },
+          "clientes_positivados": 7
+        },
+        "SP-496": {
+          "faturamento_ytd": 13546.8,
+          "por_mes": {
+            "2026-08": 13546.8
+          },
+          "clientes_positivados": 1
+        },
+        "SP-498": {
+          "faturamento_ytd": 9036.1,
+          "por_mes": {
+            "2026-07": 6493.5,
+            "2026-08": 1843.3,
+            "2026-09": 699.3
+          },
+          "clientes_positivados": 5
+        },
+        "SP-500": {
+          "faturamento_ytd": 1108.9,
+          "por_mes": {
+            "2026-08": 509.5,
+            "2026-09": 599.4
+          },
+          "clientes_positivados": 2
+        },
+        "SP-502": {
+          "faturamento_ytd": 1199.34,
+          "por_mes": {
+            "2026-07": 1199.34
+          },
+          "clientes_positivados": 1
+        },
+        "SP-504": {
+          "faturamento_ytd": 7493.04,
+          "por_mes": {
+            "2026-07": 6593.4,
+            "2026-08": 899.64
+          },
+          "clientes_positivados": 11
+        },
+        "SP-507": {
+          "faturamento_ytd": 2058.0,
+          "por_mes": {
+            "2026-08": 859.2,
+            "2026-09": 1198.8
+          },
+          "clientes_positivados": 2
+        },
+        "SP-508": {
+          "faturamento_ytd": 437.4,
+          "por_mes": {
+            "2026-08": 437.4
+          },
+          "clientes_positivados": 1
+        },
+        "SP-510": {
+          "faturamento_ytd": 1502.4,
+          "por_mes": {
+            "2026-07": 326.7,
+            "2026-08": 1175.7
+          },
+          "clientes_positivados": 3
+        },
+        "SP-511": {
+          "faturamento_ytd": 437.4,
+          "por_mes": {
+            "2026-09": 437.4
+          },
+          "clientes_positivados": 1
+        },
+        "SP-512": {
+          "faturamento_ytd": 18463.2,
+          "por_mes": {
+            "2026-07": 6474.0,
+            "2026-08": 5638.8,
+            "2026-09": 6350.4
+          },
+          "clientes_positivados": 9
+        },
+        "SP-515": {
+          "faturamento_ytd": 13886.7,
+          "por_mes": {
+            "2026-07": 7593.0,
+            "2026-08": 1498.5,
+            "2026-09": 4795.2
+          },
+          "clientes_positivados": 7
+        },
+        "SP-516": {
+          "faturamento_ytd": 23776.7,
+          "por_mes": {
+            "2026-07": 4635.6,
+            "2026-08": 13742.2,
+            "2026-09": 5398.9
+          },
+          "clientes_positivados": 25
+        },
+        "SP-518": {
+          "faturamento_ytd": 1677.6,
+          "por_mes": {
+            "2026-08": 1677.6
+          },
+          "clientes_positivados": 1
+        },
+        "SP-521": {
+          "faturamento_ytd": 2987.4,
+          "por_mes": {
+            "2026-08": 2987.4
+          },
+          "clientes_positivados": 5
+        },
+        "SP-523": {
+          "faturamento_ytd": 2037.6,
+          "por_mes": {
+            "2026-08": 2037.6
+          },
+          "clientes_positivados": 1
+        },
+        "SP-524": {
+          "faturamento_ytd": 11766.6,
+          "por_mes": {
+            "2026-08": 3712.8,
+            "2026-09": 8053.8
+          },
+          "clientes_positivados": 2
+        },
+        "SP-527": {
+          "faturamento_ytd": 528000.0,
+          "por_mes": {
+            "2026-09": 528000.0
+          },
+          "clientes_positivados": 1
+        },
+        "SP-553": {
+          "faturamento_ytd": 1119.0,
+          "por_mes": {
+            "2026-08": 259.8,
+            "2026-09": 859.2
+          },
+          "clientes_positivados": 2
+        }
+      },
+      "posicao": 5
+    },
+    {
+      "fantasia": "BEAM SUNTORY",
+      "faturamento_ytd": 2770280.11,
+      "participacao_pct": 3.49,
+      "faturamento_mes_atual": 170407.2,
+      "clientes_positivados": 506,
+      "por_mes": {
+        "2026-01": 484673.9,
+        "2026-02": 283215.44,
+        "2026-03": 427151.6,
+        "2026-04": 286570.73,
+        "2026-05": 209455.21,
+        "2026-06": 283159.68,
+        "2026-07": 404522.56,
+        "2026-08": 221123.8,
+        "2026-09": 170407.2
+      },
+      "por_vendedor": {
+        "ES-230": {
+          "faturamento_ytd": 2028.48,
+          "por_mes": {
+            "2026-03": 2028.48
+          },
+          "clientes_positivados": 1
+        },
+        "ES-257": {
+          "faturamento_ytd": 5804.4,
+          "por_mes": {
+            "2026-01": 115.47,
+            "2026-02": 1288.88,
+            "2026-03": 2379.49,
+            "2026-04": 1557.62,
+            "2026-05": 462.94
+          },
+          "clientes_positivados": 20
+        },
+        "ES-260": {
+          "faturamento_ytd": 1623.0,
+          "por_mes": {
+            "2026-01": 363.0,
+            "2026-02": 847.0,
+            "2026-03": 413.0
+          },
+          "clientes_positivados": 4
+        },
+        "ES-268": {
+          "faturamento_ytd": 2557.37,
+          "por_mes": {
+            "2026-01": 366.0,
+            "2026-02": 803.35,
+            "2026-03": 1388.02
+          },
+          "clientes_positivados": 15
+        },
+        "ES-335": {
+          "faturamento_ytd": 4825.72,
+          "por_mes": {
+            "2026-02": 1060.13,
+            "2026-03": 2316.62,
+            "2026-04": 1198.8,
+            "2026-05": 250.17
+          },
+          "clientes_positivados": 14
+        },
+        "ES-336": {
+          "faturamento_ytd": 6098.61,
+          "por_mes": {
+            "2026-02": 121.0,
+            "2026-03": 5513.61,
+            "2026-05": 464.0
+          },
+          "clientes_positivados": 47
+        },
+        "ES-341": {
+          "faturamento_ytd": 810.25,
+          "por_mes": {
+            "2026-03": 810.25
+          },
+          "clientes_positivados": 5
+        },
+        "ES-342": {
+          "faturamento_ytd": 1035.47,
+          "por_mes": {
+            "2026-03": 1035.47
+          },
+          "clientes_positivados": 9
+        },
+        "ES-343": {
+          "faturamento_ytd": 1508.0,
+          "por_mes": {
+            "2026-03": 1508.0
+          },
+          "clientes_positivados": 9
+        },
+        "ES-370": {
+          "faturamento_ytd": 12056.0,
+          "por_mes": {
+            "2026-01": 345.95,
+            "2026-02": 7624.7,
+            "2026-03": 3081.19,
+            "2026-05": 764.16,
+            "2026-06": 240.0
+          },
+          "clientes_positivados": 31
+        },
+        "ES-388": {
+          "faturamento_ytd": 347844.46,
+          "por_mes": {
+            "2026-01": 80539.2,
+            "2026-02": 56808.0,
+            "2026-03": 56671.92,
+            "2026-05": 70924.56,
+            "2026-06": 11505.6,
+            "2026-07": 58930.78,
+            "2026-08": 12464.4
+          },
+          "clientes_positivados": 14
+        },
+        "ES-402": {
+          "faturamento_ytd": 10443.0,
+          "por_mes": {
+            "2026-01": 2784.0,
+            "2026-02": 5208.0,
+            "2026-03": 2451.0
+          },
+          "clientes_positivados": 23
+        },
+        "ES-435": {
+          "faturamento_ytd": 115.47,
+          "por_mes": {
+            "2026-03": 115.47
+          },
+          "clientes_positivados": 1
+        },
+        "ES-440": {
+          "faturamento_ytd": 237.01,
+          "por_mes": {
+            "2026-03": 237.01
+          },
+          "clientes_positivados": 2
+        },
+        "ES-442": {
+          "faturamento_ytd": 4317.86,
+          "por_mes": {
+            "2026-01": 486.72,
+            "2026-02": 115.76,
+            "2026-03": 1385.25,
+            "2026-04": 347.25,
+            "2026-05": 1982.88
+          },
+          "clientes_positivados": 17
+        },
+        "ES-508": {
+          "faturamento_ytd": 1506.96,
+          "por_mes": {
+            "2026-07": 1506.96
+          },
+          "clientes_positivados": 1
+        },
+        "MG-327": {
+          "faturamento_ytd": 15104.7,
+          "por_mes": {
+            "2026-01": 1798.0,
+            "2026-02": 1408.4,
+            "2026-03": 459.5,
+            "2026-04": 2059.7,
+            "2026-05": 1429.2,
+            "2026-06": 3146.5,
+            "2026-07": 1790.0,
+            "2026-08": 3013.4
+          },
+          "clientes_positivados": 22
+        },
+        "MG-331": {
+          "faturamento_ytd": 15267.0,
+          "por_mes": {
+            "2026-01": 359.6,
+            "2026-02": 14550.8,
+            "2026-03": 356.6
+          },
+          "clientes_positivados": 4
+        },
+        "MG-335": {
+          "faturamento_ytd": 3096.3,
+          "por_mes": {
+            "2026-01": 1228.8,
+            "2026-02": 878.8,
+            "2026-03": 988.7
+          },
+          "clientes_positivados": 4
+        },
+        "MG-343": {
+          "faturamento_ytd": 93019.5,
+          "por_mes": {
+            "2026-01": 93019.5
+          },
+          "clientes_positivados": 3
+        },
+        "MG-344": {
+          "faturamento_ytd": 2936.2,
+          "por_mes": {
+            "2026-04": 99.9,
+            "2026-05": 199.8,
+            "2026-06": 179.8,
+            "2026-07": 799.0,
+            "2026-08": 1657.7
+          },
+          "clientes_positivados": 2
+        },
+        "MG-349": {
+          "faturamento_ytd": 3176.4,
+          "por_mes": {
+            "2026-02": 1018.8,
+            "2026-06": 2157.6
+          },
+          "clientes_positivados": 1
+        },
+        "MG-354": {
+          "faturamento_ytd": 38619.28,
+          "por_mes": {
+            "2026-01": 4637.0,
+            "2026-02": 23374.08,
+            "2026-03": 988.9,
+            "2026-04": 179.8,
+            "2026-05": 1469.3,
+            "2026-06": 809.1,
+            "2026-07": 6801.5,
+            "2026-08": 359.6
+          },
+          "clientes_positivados": 19
+        },
+        "MG-360": {
+          "faturamento_ytd": 687673.5,
+          "por_mes": {
+            "2026-02": 33312.12,
+            "2026-03": 145683.48,
+            "2026-04": 137712.78,
+            "2026-05": 44745.36,
+            "2026-06": 74487.42,
+            "2026-07": 69612.72,
+            "2026-08": 182119.62
+          },
+          "clientes_positivados": 10
+        },
+        "MG-362": {
+          "faturamento_ytd": 1218.8,
+          "por_mes": {
+            "2026-05": 499.4,
+            "2026-06": 719.4
+          },
+          "clientes_positivados": 3
+        },
+        "MG-390": {
+          "faturamento_ytd": 154.9,
+          "por_mes": {
+            "2026-09": 154.9
+          },
+          "clientes_positivados": 1
+        },
+        "MG-542": {
+          "faturamento_ytd": 170953.68,
+          "por_mes": {
+            "2026-01": 39308.88,
+            "2026-02": 4454.4,
+            "2026-03": 126000.0,
+            "2026-04": 1190.4
+          },
+          "clientes_positivados": 3
+        },
+        "RJ-144": {
+          "faturamento_ytd": 7851.9,
+          "por_mes": {
+            "2026-03": 263.6,
+            "2026-04": 5619.6,
+            "2026-05": 131.8,
+            "2026-06": 70.9,
+            "2026-07": 1404.1,
+            "2026-08": 197.4,
+            "2026-09": 164.5
+          },
+          "clientes_positivados": 10
+        },
+        "RJ-153": {
+          "faturamento_ytd": 24275.8,
+          "por_mes": {
+            "2026-02": 1203.0,
+            "2026-03": 5082.2,
+            "2026-04": 11862.3,
+            "2026-07": 4401.3,
+            "2026-08": 1727.0
+          },
+          "clientes_positivados": 11
+        },
+        "RJ-155": {
+          "faturamento_ytd": 13997.28,
+          "por_mes": {
+            "2026-01": 482.3,
+            "2026-02": 869.0,
+            "2026-03": 1614.98,
+            "2026-04": 2635.5,
+            "2026-05": 1290.4,
+            "2026-06": 1667.7,
+            "2026-07": 1510.8,
+            "2026-08": 1703.4,
+            "2026-09": 2223.2
+          },
+          "clientes_positivados": 28
+        },
+        "RJ-156": {
+          "faturamento_ytd": 2756.5,
+          "por_mes": {
+            "2026-03": 65.9,
+            "2026-04": 1186.2,
+            "2026-06": 212.7,
+            "2026-08": 1291.7
+          },
+          "clientes_positivados": 9
+        },
+        "RJ-158": {
+          "faturamento_ytd": 223163.26,
+          "por_mes": {
+            "2026-01": 58242.0,
+            "2026-04": 50760.0,
+            "2026-05": 48228.0,
+            "2026-06": 643.46,
+            "2026-07": 56541.8,
+            "2026-08": 8748.0
+          },
+          "clientes_positivados": 2
+        },
+        "RJ-159": {
+          "faturamento_ytd": 14345.9,
+          "por_mes": {
+            "2026-01": 424.4,
+            "2026-02": 691.7,
+            "2026-03": 335.5,
+            "2026-04": 2394.2,
+            "2026-05": 527.2,
+            "2026-06": 1631.6,
+            "2026-07": 6143.4,
+            "2026-08": 2056.1,
+            "2026-09": 141.8
+          },
+          "clientes_positivados": 20
+        },
+        "RJ-174": {
+          "faturamento_ytd": 23016.0,
+          "por_mes": {
+            "2026-04": 23016.0
+          },
+          "clientes_positivados": 1
+        },
+        "RJ-238": {
+          "faturamento_ytd": 279733.78,
+          "por_mes": {
+            "2026-01": 3384.0,
+            "2026-02": 71824.62,
+            "2026-03": 42854.88,
+            "2026-04": 22717.98,
+            "2026-05": 4095.0,
+            "2026-06": 45874.3,
+            "2026-07": 32583.0,
+            "2026-09": 56400.0
+          },
+          "clientes_positivados": 35
+        },
+        "RJ-275": {
+          "faturamento_ytd": 579217.12,
+          "por_mes": {
+            "2026-01": 194485.2,
+            "2026-02": 43730.4,
+            "2026-03": 7971.6,
+            "2026-04": 18220.8,
+            "2026-05": 14333.52,
+            "2026-06": 77103.6,
+            "2026-07": 146280.4,
+            "2026-08": 1138.8,
+            "2026-09": 75952.8
+          },
+          "clientes_positivados": 18
+        },
+        "RJ-378": {
+          "faturamento_ytd": 141.8,
+          "por_mes": {
+            "2026-08": 141.8
+          },
+          "clientes_positivados": 1
+        },
+        "RJ-379": {
+          "faturamento_ytd": 17216.12,
+          "por_mes": {
+            "2026-01": 1326.0,
+            "2026-02": 685.2,
+            "2026-03": 1652.82,
+            "2026-04": 3350.6,
+            "2026-05": 2372.4,
+            "2026-06": 4888.8,
+            "2026-07": 2478.6,
+            "2026-08": 461.7
+          },
+          "clientes_positivados": 21
+        },
+        "RJ-412": {
+          "faturamento_ytd": 40827.5,
+          "por_mes": {
+            "2026-02": 10368.0,
+            "2026-03": 263.6,
+            "2026-05": 4608.0,
+            "2026-06": 18321.4,
+            "2026-07": 7195.6,
+            "2026-08": 70.9
+          },
+          "clientes_positivados": 4
+        },
+        "RJ-417": {
+          "faturamento_ytd": 13618.98,
+          "por_mes": {
+            "2026-01": 977.88,
+            "2026-02": 34.9,
+            "2026-03": 7902.2,
+            "2026-04": 65.9,
+            "2026-05": 3945.4,
+            "2026-06": 692.7
+          },
+          "clientes_positivados": 12
+        },
+        "RJ-419": {
+          "faturamento_ytd": 3415.9,
+          "por_mes": {
+            "2026-02": 639.9,
+            "2026-03": 1911.1,
+            "2026-04": 65.9,
+            "2026-06": 399.5,
+            "2026-07": 399.5
+          },
+          "clientes_positivados": 16
+        },
+        "RJ-420": {
+          "faturamento_ytd": 34524.0,
+          "por_mes": {
+            "2026-09": 34524.0
+          },
+          "clientes_positivados": 1
+        },
+        "RJ-431": {
+          "faturamento_ytd": 590.08,
+          "por_mes": {
+            "2026-03": 131.8,
+            "2026-06": 141.8,
+            "2026-08": 316.48
+          },
+          "clientes_positivados": 5
+        },
+        "RJ-439": {
+          "faturamento_ytd": 1760.2,
+          "por_mes": {
+            "2026-02": 294.5,
+            "2026-03": 65.9,
+            "2026-08": 1399.8
+          },
+          "clientes_positivados": 4
+        },
+        "RJ-450": {
+          "faturamento_ytd": 48010.08,
+          "por_mes": {
+            "2026-03": 995.76,
+            "2026-05": 1991.52,
+            "2026-06": 38265.8,
+            "2026-07": 3655.0,
+            "2026-08": 2256.0,
+            "2026-09": 846.0
+          },
+          "clientes_positivados": 22
+        },
+        "RJ-471": {
+          "faturamento_ytd": 5265.9,
+          "por_mes": {
+            "2026-03": 227.8,
+            "2026-04": 329.5,
+            "2026-05": 2220.5,
+            "2026-07": 2488.1
+          },
+          "clientes_positivados": 11
+        },
+        "RJ-91": {
+          "faturamento_ytd": 2519.7,
+          "por_mes": {
+            "2026-05": 2519.7
+          },
+          "clientes_positivados": 1
+        }
+      },
+      "posicao": 6
+    },
+    {
       "fantasia": "CASTAS",
-      "faturamento_ytd": 2438056.98,
-      "participacao_pct": 3.83,
-      "faturamento_mes_atual": 298149.81,
-      "clientes_positivados": 742,
+      "faturamento_ytd": 2734623.97,
+      "participacao_pct": 3.44,
+      "faturamento_mes_atual": 55770.56,
+      "clientes_positivados": 791,
       "por_mes": {
         "2026-01": 255158.56,
         "2026-02": 280555.57,
         "2026-03": 398975.03,
         "2026-04": 290350.99,
         "2026-05": 628018.6,
-        "2026-06": 286848.41,
-        "2026-07": 298149.81
+        "2026-06": 285359.81,
+        "2026-07": 265605.2,
+        "2026-08": 274829.64,
+        "2026-09": 55770.56
       },
       "por_vendedor": {
         "ES-257": {
@@ -2642,6 +4462,13 @@ const RAIOX_INDUSTRIAS_DATA = {
             "2026-04": 1024.86
           },
           "clientes_positivados": 19
+        },
+        "ES-273": {
+          "faturamento_ytd": 816.54,
+          "por_mes": {
+            "2026-09": 816.54
+          },
+          "clientes_positivados": 1
         },
         "ES-335": {
           "faturamento_ytd": 39137.89,
@@ -2756,7 +4583,7 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 3
         },
         "MG-327": {
-          "faturamento_ytd": 439472.77,
+          "faturamento_ytd": 525268.27,
           "por_mes": {
             "2026-01": 64421.16,
             "2026-02": 43889.64,
@@ -2764,9 +4591,11 @@ const RAIOX_INDUSTRIAS_DATA = {
             "2026-04": 72608.62,
             "2026-05": 66912.95,
             "2026-06": 65740.8,
-            "2026-07": 67594.1
+            "2026-07": 67594.1,
+            "2026-08": 63844.5,
+            "2026-09": 21951.0
           },
-          "clientes_positivados": 46
+          "clientes_positivados": 49
         },
         "MG-331": {
           "faturamento_ytd": 21814.43,
@@ -2795,14 +4624,16 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 8
         },
         "MG-344": {
-          "faturamento_ytd": 140773.4,
+          "faturamento_ytd": 182335.3,
           "por_mes": {
             "2026-04": 32412.6,
             "2026-05": 35063.8,
             "2026-06": 37046.1,
-            "2026-07": 36250.9
+            "2026-07": 36250.9,
+            "2026-08": 35253.3,
+            "2026-09": 6308.6
           },
-          "clientes_positivados": 35
+          "clientes_positivados": 37
         },
         "MG-349": {
           "faturamento_ytd": 3402.0,
@@ -2812,13 +4643,14 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 1
         },
         "MG-354": {
-          "faturamento_ytd": 15329.7,
+          "faturamento_ytd": 19369.2,
           "por_mes": {
             "2026-02": 1097.4,
             "2026-03": 209.4,
             "2026-05": 5572.8,
             "2026-06": 7773.0,
-            "2026-07": 677.1
+            "2026-07": 634.2,
+            "2026-08": 4082.4
           },
           "clientes_positivados": 9
         },
@@ -2842,14 +4674,21 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 5
         },
         "MG-378": {
-          "faturamento_ytd": 6125.4,
+          "faturamento_ytd": 3000.6,
           "por_mes": {
-            "2026-07": 6125.4
+            "2026-07": 3000.6
           },
-          "clientes_positivados": 7
+          "clientes_positivados": 3
+        },
+        "MG-390": {
+          "faturamento_ytd": 329.4,
+          "por_mes": {
+            "2026-09": 329.4
+          },
+          "clientes_positivados": 1
         },
         "RJ-144": {
-          "faturamento_ytd": 35040.26,
+          "faturamento_ytd": 39020.06,
           "por_mes": {
             "2026-01": 3122.5,
             "2026-02": 2558.45,
@@ -2857,12 +4696,13 @@ const RAIOX_INDUSTRIAS_DATA = {
             "2026-04": 3053.67,
             "2026-05": 3918.0,
             "2026-06": 17205.1,
-            "2026-07": 3087.9
+            "2026-07": 3087.9,
+            "2026-08": 3979.8
           },
-          "clientes_positivados": 29
+          "clientes_positivados": 31
         },
         "RJ-153": {
-          "faturamento_ytd": 67328.47,
+          "faturamento_ytd": 81962.77,
           "por_mes": {
             "2026-01": 2348.22,
             "2026-02": 7584.62,
@@ -2870,12 +4710,14 @@ const RAIOX_INDUSTRIAS_DATA = {
             "2026-04": 4336.34,
             "2026-05": 11826.53,
             "2026-06": 11529.6,
-            "2026-07": 9950.98
+            "2026-07": 9592.18,
+            "2026-08": 9971.1,
+            "2026-09": 5022.0
           },
-          "clientes_positivados": 26
+          "clientes_positivados": 28
         },
         "RJ-155": {
-          "faturamento_ytd": 241200.23,
+          "faturamento_ytd": 272796.43,
           "por_mes": {
             "2026-01": 43178.9,
             "2026-02": 47004.0,
@@ -2883,12 +4725,14 @@ const RAIOX_INDUSTRIAS_DATA = {
             "2026-04": 37434.0,
             "2026-05": 30543.3,
             "2026-06": 23154.0,
-            "2026-07": 23147.9
+            "2026-07": 23147.9,
+            "2026-08": 28828.0,
+            "2026-09": 2768.2
           },
-          "clientes_positivados": 38
+          "clientes_positivados": 40
         },
         "RJ-156": {
-          "faturamento_ytd": 70117.01,
+          "faturamento_ytd": 80805.07,
           "por_mes": {
             "2026-01": 10753.96,
             "2026-02": 14963.52,
@@ -2896,9 +4740,11 @@ const RAIOX_INDUSTRIAS_DATA = {
             "2026-04": 2845.68,
             "2026-05": 15605.01,
             "2026-06": 15392.5,
-            "2026-07": 4523.5
+            "2026-07": 4523.5,
+            "2026-08": 8592.66,
+            "2026-09": 2095.4
           },
-          "clientes_positivados": 47
+          "clientes_positivados": 49
         },
         "RJ-158": {
           "faturamento_ytd": 15133.21,
@@ -2911,45 +4757,49 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 5
         },
         "RJ-159": {
-          "faturamento_ytd": 214206.72,
+          "faturamento_ytd": 265964.42,
           "por_mes": {
             "2026-01": 30369.8,
             "2026-02": 25372.8,
             "2026-03": 31483.66,
             "2026-04": 14306.96,
             "2026-05": 28346.6,
-            "2026-06": 37293.4,
-            "2026-07": 47033.5
+            "2026-06": 36217.0,
+            "2026-07": 44389.0,
+            "2026-08": 45814.0,
+            "2026-09": 9664.6
           },
-          "clientes_positivados": 57
+          "clientes_positivados": 67
         },
         "RJ-174": {
-          "faturamento_ytd": 28.9,
+          "faturamento_ytd": 370.3,
           "por_mes": {
-            "2026-05": 28.9
+            "2026-05": 28.9,
+            "2026-08": 341.4
           },
           "clientes_positivados": 1
         },
         "RJ-238": {
-          "faturamento_ytd": 51899.41,
+          "faturamento_ytd": 58859.41,
           "por_mes": {
             "2026-01": 884.4,
             "2026-02": 18688.38,
             "2026-03": 23146.5,
-            "2026-04": 9180.13
+            "2026-04": 9180.13,
+            "2026-08": 6960.0
           },
-          "clientes_positivados": 10
+          "clientes_positivados": 11
         },
         "RJ-275": {
-          "faturamento_ytd": 76191.54,
+          "faturamento_ytd": 51954.54,
           "por_mes": {
             "2026-02": 10918.2,
             "2026-04": 6109.8,
             "2026-05": 12787.14,
-            "2026-06": 2610.6,
-            "2026-07": 43765.8
+            "2026-06": 2198.4,
+            "2026-07": 19941.0
           },
-          "clientes_positivados": 34
+          "clientes_positivados": 26
         },
         "RJ-299": {
           "faturamento_ytd": 35114.98,
@@ -2966,28 +4816,31 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 1
         },
         "RJ-379": {
-          "faturamento_ytd": 6092.53,
+          "faturamento_ytd": 9370.93,
           "por_mes": {
             "2026-01": 189.8,
             "2026-03": 347.73,
             "2026-04": 1035.9,
             "2026-05": 1506.0,
             "2026-06": 2325.9,
-            "2026-07": 687.2
+            "2026-07": 687.2,
+            "2026-08": 2079.0,
+            "2026-09": 1199.4
           },
           "clientes_positivados": 11
         },
         "RJ-412": {
-          "faturamento_ytd": 26345.98,
+          "faturamento_ytd": 31671.38,
           "por_mes": {
             "2026-01": 2029.4,
             "2026-02": 1030.8,
             "2026-04": 4222.7,
             "2026-05": 12261.38,
             "2026-06": 2842.8,
-            "2026-07": 3958.9
+            "2026-07": 3958.9,
+            "2026-08": 5325.4
           },
-          "clientes_positivados": 9
+          "clientes_positivados": 10
         },
         "RJ-417": {
           "faturamento_ytd": 10343.6,
@@ -3001,7 +4854,7 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 15
         },
         "RJ-419": {
-          "faturamento_ytd": 15356.62,
+          "faturamento_ytd": 21325.52,
           "por_mes": {
             "2026-01": 294.0,
             "2026-02": 30.0,
@@ -3009,9 +4862,11 @@ const RAIOX_INDUSTRIAS_DATA = {
             "2026-04": 3337.42,
             "2026-05": 1107.9,
             "2026-06": 1147.7,
-            "2026-07": 8008.7
+            "2026-07": 5622.5,
+            "2026-08": 5945.5,
+            "2026-09": 2409.6
           },
-          "clientes_positivados": 29
+          "clientes_positivados": 31
         },
         "RJ-420": {
           "faturamento_ytd": 63231.0,
@@ -3044,35 +4899,40 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 18
         },
         "RJ-450": {
-          "faturamento_ytd": 24332.28,
+          "faturamento_ytd": 32204.28,
           "por_mes": {
             "2026-03": 1248.6,
             "2026-05": 12486.48,
             "2026-06": 4413.6,
-            "2026-07": 6183.6
+            "2026-07": 6183.6,
+            "2026-08": 7112.4,
+            "2026-09": 759.6
           },
-          "clientes_positivados": 17
+          "clientes_positivados": 20
         },
         "RJ-471": {
-          "faturamento_ytd": 12669.4,
+          "faturamento_ytd": 18741.6,
           "por_mes": {
             "2026-04": 1147.2,
             "2026-05": 2889.6,
             "2026-06": 4516.8,
-            "2026-07": 4115.8
+            "2026-07": 4115.8,
+            "2026-08": 5952.6,
+            "2026-09": 119.6
           },
-          "clientes_positivados": 17
+          "clientes_positivados": 18
         },
         "RJ-91": {
-          "faturamento_ytd": 116047.02,
+          "faturamento_ytd": 122721.42,
           "por_mes": {
             "2026-01": 10134.6,
             "2026-03": 68968.6,
             "2026-05": 20718.0,
             "2026-06": 13840.22,
-            "2026-07": 2385.6
+            "2026-07": 2385.6,
+            "2026-08": 6674.4
           },
-          "clientes_positivados": 4
+          "clientes_positivados": 5
         },
         "SP-232": {
           "faturamento_ytd": 1701.6,
@@ -3083,7 +4943,7 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 3
         },
         "SP-312": {
-          "faturamento_ytd": 23327.4,
+          "faturamento_ytd": 26746.2,
           "por_mes": {
             "2026-01": 499.8,
             "2026-02": 919.2,
@@ -3091,7 +4951,9 @@ const RAIOX_INDUSTRIAS_DATA = {
             "2026-04": 2892.0,
             "2026-05": 2259.6,
             "2026-06": 2881.2,
-            "2026-07": 1756.8
+            "2026-07": 1756.8,
+            "2026-08": 2797.2,
+            "2026-09": 621.6
           },
           "clientes_positivados": 7
         },
@@ -3104,31 +4966,34 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 4
         },
         "SP-371": {
-          "faturamento_ytd": 2577.84,
+          "faturamento_ytd": 3044.64,
           "por_mes": {
             "2026-03": 298.8,
-            "2026-06": 2279.04
+            "2026-06": 2279.04,
+            "2026-08": 466.8
           },
           "clientes_positivados": 5
         },
         "SP-391": {
-          "faturamento_ytd": 46017.48,
+          "faturamento_ytd": 56152.88,
           "por_mes": {
             "2026-03": 16503.48,
             "2026-04": 3797.87,
             "2026-05": 18822.13,
-            "2026-07": 6894.0
+            "2026-07": 6894.0,
+            "2026-08": 10135.4
           },
           "clientes_positivados": 5
         },
         "SP-399": {
-          "faturamento_ytd": 10815.0,
+          "faturamento_ytd": 11856.6,
           "por_mes": {
             "2026-02": 933.0,
             "2026-03": 6588.0,
-            "2026-06": 3294.0
+            "2026-06": 3294.0,
+            "2026-08": 1041.6
           },
-          "clientes_positivados": 1
+          "clientes_positivados": 2
         },
         "SP-405": {
           "faturamento_ytd": 69.8,
@@ -3138,9 +5003,10 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 1
         },
         "SP-425": {
-          "faturamento_ytd": 1041.6,
+          "faturamento_ytd": 2167.2,
           "por_mes": {
-            "2026-06": 1041.6
+            "2026-06": 1041.6,
+            "2026-08": 1125.6
           },
           "clientes_positivados": 1
         },
@@ -3148,6 +5014,13 @@ const RAIOX_INDUSTRIAS_DATA = {
           "faturamento_ytd": 889.5,
           "por_mes": {
             "2026-04": 889.5
+          },
+          "clientes_positivados": 1
+        },
+        "SP-433": {
+          "faturamento_ytd": 209.4,
+          "por_mes": {
+            "2026-08": 209.4
           },
           "clientes_positivados": 1
         },
@@ -3174,19 +5047,21 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 1
         },
         "SP-468": {
-          "faturamento_ytd": 6894.23,
+          "faturamento_ytd": 8794.31,
           "por_mes": {
-            "2026-06": 6894.23
+            "2026-06": 6894.23,
+            "2026-08": 1900.08
           },
-          "clientes_positivados": 6
+          "clientes_positivados": 9
         },
         "SP-469": {
-          "faturamento_ytd": 8114.4,
+          "faturamento_ytd": 8359.8,
           "por_mes": {
             "2026-05": 885.6,
-            "2026-06": 7228.8
+            "2026-06": 7228.8,
+            "2026-08": 245.4
           },
-          "clientes_positivados": 2
+          "clientes_positivados": 3
         },
         "SP-470": {
           "faturamento_ytd": 1006.08,
@@ -3202,719 +5077,98 @@ const RAIOX_INDUSTRIAS_DATA = {
           },
           "clientes_positivados": 1
         },
+        "SP-476": {
+          "faturamento_ytd": 144.9,
+          "por_mes": {
+            "2026-08": 144.9
+          },
+          "clientes_positivados": 1
+        },
+        "SP-485": {
+          "faturamento_ytd": 1041.6,
+          "por_mes": {
+            "2026-08": 1041.6
+          },
+          "clientes_positivados": 1
+        },
         "SP-486": {
-          "faturamento_ytd": 3770.02,
+          "faturamento_ytd": 4547.24,
           "por_mes": {
             "2026-06": 2845.39,
-            "2026-07": 924.64
+            "2026-07": 762.03,
+            "2026-08": 664.06,
+            "2026-09": 275.76
           },
-          "clientes_positivados": 5
+          "clientes_positivados": 7
+        },
+        "SP-490": {
+          "faturamento_ytd": 1041.6,
+          "por_mes": {
+            "2026-08": 1041.6
+          },
+          "clientes_positivados": 1
+        },
+        "SP-492": {
+          "faturamento_ytd": 209.4,
+          "por_mes": {
+            "2026-08": 209.4
+          },
+          "clientes_positivados": 1
+        },
+        "SP-505": {
+          "faturamento_ytd": 275.76,
+          "por_mes": {
+            "2026-08": 275.76
+          },
+          "clientes_positivados": 1
+        },
+        "SP-507": {
+          "faturamento_ytd": 1103.04,
+          "por_mes": {
+            "2026-08": 1103.04
+          },
+          "clientes_positivados": 2
         },
         "SP-511": {
-          "faturamento_ytd": 2850.45,
+          "faturamento_ytd": 4798.65,
           "por_mes": {
-            "2026-07": 2850.45
-          },
-          "clientes_positivados": 3
-        }
-      },
-      "posicao": 5
-    },
-    {
-      "fantasia": "BEAM SUNTORY",
-      "faturamento_ytd": 2408855.23,
-      "participacao_pct": 3.78,
-      "faturamento_mes_atual": 434628.68,
-      "clientes_positivados": 485,
-      "por_mes": {
-        "2026-01": 484673.9,
-        "2026-02": 283215.44,
-        "2026-03": 427151.6,
-        "2026-04": 286570.73,
-        "2026-05": 209455.21,
-        "2026-06": 283159.68,
-        "2026-07": 434628.68
-      },
-      "por_vendedor": {
-        "ES-230": {
-          "faturamento_ytd": 2028.48,
-          "por_mes": {
-            "2026-03": 2028.48
-          },
-          "clientes_positivados": 1
-        },
-        "ES-257": {
-          "faturamento_ytd": 5804.4,
-          "por_mes": {
-            "2026-01": 115.47,
-            "2026-02": 1288.88,
-            "2026-03": 2379.49,
-            "2026-04": 1557.62,
-            "2026-05": 462.94
-          },
-          "clientes_positivados": 20
-        },
-        "ES-260": {
-          "faturamento_ytd": 1623.0,
-          "por_mes": {
-            "2026-01": 363.0,
-            "2026-02": 847.0,
-            "2026-03": 413.0
-          },
-          "clientes_positivados": 4
-        },
-        "ES-268": {
-          "faturamento_ytd": 2557.37,
-          "por_mes": {
-            "2026-01": 366.0,
-            "2026-02": 803.35,
-            "2026-03": 1388.02
-          },
-          "clientes_positivados": 15
-        },
-        "ES-335": {
-          "faturamento_ytd": 4825.72,
-          "por_mes": {
-            "2026-02": 1060.13,
-            "2026-03": 2316.62,
-            "2026-04": 1198.8,
-            "2026-05": 250.17
-          },
-          "clientes_positivados": 14
-        },
-        "ES-336": {
-          "faturamento_ytd": 6098.61,
-          "por_mes": {
-            "2026-02": 121.0,
-            "2026-03": 5513.61,
-            "2026-05": 464.0
-          },
-          "clientes_positivados": 47
-        },
-        "ES-341": {
-          "faturamento_ytd": 810.25,
-          "por_mes": {
-            "2026-03": 810.25
-          },
-          "clientes_positivados": 5
-        },
-        "ES-342": {
-          "faturamento_ytd": 1035.47,
-          "por_mes": {
-            "2026-03": 1035.47
-          },
-          "clientes_positivados": 9
-        },
-        "ES-343": {
-          "faturamento_ytd": 1508.0,
-          "por_mes": {
-            "2026-03": 1508.0
-          },
-          "clientes_positivados": 9
-        },
-        "ES-370": {
-          "faturamento_ytd": 12056.0,
-          "por_mes": {
-            "2026-01": 345.95,
-            "2026-02": 7624.7,
-            "2026-03": 3081.19,
-            "2026-05": 764.16,
-            "2026-06": 240.0
-          },
-          "clientes_positivados": 31
-        },
-        "ES-388": {
-          "faturamento_ytd": 335380.06,
-          "por_mes": {
-            "2026-01": 80539.2,
-            "2026-02": 56808.0,
-            "2026-03": 56671.92,
-            "2026-05": 70924.56,
-            "2026-06": 11505.6,
-            "2026-07": 58930.78
-          },
-          "clientes_positivados": 11
-        },
-        "ES-402": {
-          "faturamento_ytd": 10443.0,
-          "por_mes": {
-            "2026-01": 2784.0,
-            "2026-02": 5208.0,
-            "2026-03": 2451.0
-          },
-          "clientes_positivados": 23
-        },
-        "ES-435": {
-          "faturamento_ytd": 115.47,
-          "por_mes": {
-            "2026-03": 115.47
-          },
-          "clientes_positivados": 1
-        },
-        "ES-440": {
-          "faturamento_ytd": 237.01,
-          "por_mes": {
-            "2026-03": 237.01
-          },
-          "clientes_positivados": 2
-        },
-        "ES-442": {
-          "faturamento_ytd": 4317.86,
-          "por_mes": {
-            "2026-01": 486.72,
-            "2026-02": 115.76,
-            "2026-03": 1385.25,
-            "2026-04": 347.25,
-            "2026-05": 1982.88
-          },
-          "clientes_positivados": 17
-        },
-        "ES-508": {
-          "faturamento_ytd": 1506.96,
-          "por_mes": {
-            "2026-07": 1506.96
-          },
-          "clientes_positivados": 1
-        },
-        "MG-327": {
-          "faturamento_ytd": 12091.3,
-          "por_mes": {
-            "2026-01": 1798.0,
-            "2026-02": 1408.4,
-            "2026-03": 459.5,
-            "2026-04": 2059.7,
-            "2026-05": 1429.2,
-            "2026-06": 3146.5,
-            "2026-07": 1790.0
-          },
-          "clientes_positivados": 18
-        },
-        "MG-331": {
-          "faturamento_ytd": 15267.0,
-          "por_mes": {
-            "2026-01": 359.6,
-            "2026-02": 14550.8,
-            "2026-03": 356.6
-          },
-          "clientes_positivados": 4
-        },
-        "MG-335": {
-          "faturamento_ytd": 3096.3,
-          "por_mes": {
-            "2026-01": 1228.8,
-            "2026-02": 878.8,
-            "2026-03": 988.7
-          },
-          "clientes_positivados": 4
-        },
-        "MG-343": {
-          "faturamento_ytd": 93019.5,
-          "por_mes": {
-            "2026-01": 93019.5
+            "2026-07": 2850.45,
+            "2026-08": 1378.8,
+            "2026-09": 569.4
           },
           "clientes_positivados": 3
         },
-        "MG-344": {
-          "faturamento_ytd": 1278.5,
+        "SP-512": {
+          "faturamento_ytd": 827.56,
           "por_mes": {
-            "2026-04": 99.9,
-            "2026-05": 199.8,
-            "2026-06": 179.8,
-            "2026-07": 799.0
-          },
-          "clientes_positivados": 2
-        },
-        "MG-349": {
-          "faturamento_ytd": 3176.4,
-          "por_mes": {
-            "2026-02": 1018.8,
-            "2026-06": 2157.6
-          },
-          "clientes_positivados": 1
-        },
-        "MG-354": {
-          "faturamento_ytd": 38259.68,
-          "por_mes": {
-            "2026-01": 4637.0,
-            "2026-02": 23374.08,
-            "2026-03": 988.9,
-            "2026-04": 179.8,
-            "2026-05": 1469.3,
-            "2026-06": 809.1,
-            "2026-07": 6801.5
-          },
-          "clientes_positivados": 19
-        },
-        "MG-360": {
-          "faturamento_ytd": 505553.88,
-          "por_mes": {
-            "2026-02": 33312.12,
-            "2026-03": 145683.48,
-            "2026-04": 137712.78,
-            "2026-05": 44745.36,
-            "2026-06": 74487.42,
-            "2026-07": 69612.72
-          },
-          "clientes_positivados": 9
-        },
-        "MG-362": {
-          "faturamento_ytd": 1218.8,
-          "por_mes": {
-            "2026-05": 499.4,
-            "2026-06": 719.4
+            "2026-08": 827.56
           },
           "clientes_positivados": 3
         },
-        "MG-542": {
-          "faturamento_ytd": 170953.68,
+        "SP-516": {
+          "faturamento_ytd": 9727.24,
           "por_mes": {
-            "2026-01": 39308.88,
-            "2026-02": 4454.4,
-            "2026-03": 126000.0,
-            "2026-04": 1190.4
-          },
-          "clientes_positivados": 3
-        },
-        "RJ-144": {
-          "faturamento_ytd": 7490.0,
-          "por_mes": {
-            "2026-03": 263.6,
-            "2026-04": 5619.6,
-            "2026-05": 131.8,
-            "2026-06": 70.9,
-            "2026-07": 1404.1
-          },
-          "clientes_positivados": 10
-        },
-        "RJ-153": {
-          "faturamento_ytd": 23257.8,
-          "por_mes": {
-            "2026-02": 1203.0,
-            "2026-03": 5082.2,
-            "2026-04": 11862.3,
-            "2026-07": 5110.3
-          },
-          "clientes_positivados": 10
-        },
-        "RJ-155": {
-          "faturamento_ytd": 10070.68,
-          "por_mes": {
-            "2026-01": 482.3,
-            "2026-02": 869.0,
-            "2026-03": 1614.98,
-            "2026-04": 2635.5,
-            "2026-05": 1290.4,
-            "2026-06": 1667.7,
-            "2026-07": 1510.8
-          },
-          "clientes_positivados": 22
-        },
-        "RJ-156": {
-          "faturamento_ytd": 1464.8,
-          "por_mes": {
-            "2026-03": 65.9,
-            "2026-04": 1186.2,
-            "2026-06": 212.7
-          },
-          "clientes_positivados": 5
-        },
-        "RJ-158": {
-          "faturamento_ytd": 214415.26,
-          "por_mes": {
-            "2026-01": 58242.0,
-            "2026-04": 50760.0,
-            "2026-05": 48228.0,
-            "2026-06": 643.46,
-            "2026-07": 56541.8
-          },
-          "clientes_positivados": 2
-        },
-        "RJ-159": {
-          "faturamento_ytd": 12148.0,
-          "por_mes": {
-            "2026-01": 424.4,
-            "2026-02": 691.7,
-            "2026-03": 335.5,
-            "2026-04": 2394.2,
-            "2026-05": 527.2,
-            "2026-06": 1631.6,
-            "2026-07": 6143.4
-          },
-          "clientes_positivados": 19
-        },
-        "RJ-174": {
-          "faturamento_ytd": 23016.0,
-          "por_mes": {
-            "2026-04": 23016.0
-          },
-          "clientes_positivados": 1
-        },
-        "RJ-238": {
-          "faturamento_ytd": 223333.78,
-          "por_mes": {
-            "2026-01": 3384.0,
-            "2026-02": 71824.62,
-            "2026-03": 42854.88,
-            "2026-04": 22717.98,
-            "2026-05": 4095.0,
-            "2026-06": 45874.3,
-            "2026-07": 32583.0
-          },
-          "clientes_positivados": 34
-        },
-        "RJ-275": {
-          "faturamento_ytd": 531522.64,
-          "por_mes": {
-            "2026-01": 194485.2,
-            "2026-02": 43730.4,
-            "2026-03": 7971.6,
-            "2026-04": 18220.8,
-            "2026-05": 14333.52,
-            "2026-06": 77103.6,
-            "2026-07": 175677.52
-          },
-          "clientes_positivados": 20
-        },
-        "RJ-379": {
-          "faturamento_ytd": 16754.42,
-          "por_mes": {
-            "2026-01": 1326.0,
-            "2026-02": 685.2,
-            "2026-03": 1652.82,
-            "2026-04": 3350.6,
-            "2026-05": 2372.4,
-            "2026-06": 4888.8,
-            "2026-07": 2478.6
-          },
-          "clientes_positivados": 21
-        },
-        "RJ-412": {
-          "faturamento_ytd": 40756.6,
-          "por_mes": {
-            "2026-02": 10368.0,
-            "2026-03": 263.6,
-            "2026-05": 4608.0,
-            "2026-06": 18321.4,
-            "2026-07": 7195.6
-          },
-          "clientes_positivados": 4
-        },
-        "RJ-417": {
-          "faturamento_ytd": 13618.98,
-          "por_mes": {
-            "2026-01": 977.88,
-            "2026-02": 34.9,
-            "2026-03": 7902.2,
-            "2026-04": 65.9,
-            "2026-05": 3945.4,
-            "2026-06": 692.7
-          },
-          "clientes_positivados": 12
-        },
-        "RJ-419": {
-          "faturamento_ytd": 3415.9,
-          "por_mes": {
-            "2026-02": 639.9,
-            "2026-03": 1911.1,
-            "2026-04": 65.9,
-            "2026-06": 399.5,
-            "2026-07": 399.5
-          },
-          "clientes_positivados": 16
-        },
-        "RJ-431": {
-          "faturamento_ytd": 273.6,
-          "por_mes": {
-            "2026-03": 131.8,
-            "2026-06": 141.8
-          },
-          "clientes_positivados": 3
-        },
-        "RJ-439": {
-          "faturamento_ytd": 360.4,
-          "por_mes": {
-            "2026-02": 294.5,
-            "2026-03": 65.9
-          },
-          "clientes_positivados": 3
-        },
-        "RJ-450": {
-          "faturamento_ytd": 44908.08,
-          "por_mes": {
-            "2026-03": 995.76,
-            "2026-05": 1991.52,
-            "2026-06": 38265.8,
-            "2026-07": 3655.0
-          },
-          "clientes_positivados": 22
-        },
-        "RJ-471": {
-          "faturamento_ytd": 5265.9,
-          "por_mes": {
-            "2026-03": 227.8,
-            "2026-04": 329.5,
-            "2026-05": 2220.5,
-            "2026-07": 2488.1
-          },
-          "clientes_positivados": 11
-        },
-        "RJ-91": {
-          "faturamento_ytd": 2519.7,
-          "por_mes": {
-            "2026-05": 2519.7
-          },
-          "clientes_positivados": 1
-        }
-      },
-      "posicao": 6
-    },
-    {
-      "fantasia": "CASA PERINI",
-      "faturamento_ytd": 1891288.14,
-      "participacao_pct": 2.97,
-      "faturamento_mes_atual": 242755.5,
-      "clientes_positivados": 408,
-      "por_mes": {
-        "2026-01": 82740.69,
-        "2026-02": 107380.72,
-        "2026-03": 106754.0,
-        "2026-04": 584265.26,
-        "2026-05": 411731.07,
-        "2026-06": 355660.9,
-        "2026-07": 242755.5
-      },
-      "por_vendedor": {
-        "RJ-144": {
-          "faturamento_ytd": 137549.2,
-          "por_mes": {
-            "2026-01": 33795.2,
-            "2026-02": 4496.1,
-            "2026-03": 3706.5,
-            "2026-04": 34308.0,
-            "2026-05": 46588.5,
-            "2026-06": 9080.4,
-            "2026-07": 5574.5
-          },
-          "clientes_positivados": 24
-        },
-        "RJ-153": {
-          "faturamento_ytd": 129246.9,
-          "por_mes": {
-            "2026-01": 8454.2,
-            "2026-02": 24265.8,
-            "2026-03": 7061.8,
-            "2026-04": 7592.4,
-            "2026-05": 28636.2,
-            "2026-06": 47246.4,
-            "2026-07": 5990.1
-          },
-          "clientes_positivados": 31
-        },
-        "RJ-155": {
-          "faturamento_ytd": 42333.52,
-          "por_mes": {
-            "2026-01": 12626.82,
-            "2026-02": 7794.9,
-            "2026-03": 6050.1,
-            "2026-04": 7265.9,
-            "2026-05": 1549.8,
-            "2026-06": 3409.7,
-            "2026-07": 3636.3
-          },
-          "clientes_positivados": 44
-        },
-        "RJ-156": {
-          "faturamento_ytd": 17533.34,
-          "por_mes": {
-            "2026-01": 5003.24,
-            "2026-02": 861.9,
-            "2026-03": 2724.6,
-            "2026-04": 836.7,
-            "2026-05": 3728.0,
-            "2026-06": 3663.3,
-            "2026-07": 715.6
-          },
-          "clientes_positivados": 39
-        },
-        "RJ-158": {
-          "faturamento_ytd": 316629.6,
-          "por_mes": {
-            "2026-01": 1974.0,
-            "2026-04": 161078.4,
-            "2026-05": 87053.4,
-            "2026-06": 25662.0,
-            "2026-07": 40861.8
-          },
-          "clientes_positivados": 10
-        },
-        "RJ-159": {
-          "faturamento_ytd": 44563.6,
-          "por_mes": {
-            "2026-01": 8555.7,
-            "2026-02": 7143.7,
-            "2026-03": 7133.3,
-            "2026-04": 5054.7,
-            "2026-05": 9871.8,
-            "2026-06": 4366.8,
-            "2026-07": 2437.6
-          },
-          "clientes_positivados": 28
-        },
-        "RJ-238": {
-          "faturamento_ytd": 279337.42,
-          "por_mes": {
-            "2026-02": 5297.4,
-            "2026-03": 15892.2,
-            "2026-04": 42379.2,
-            "2026-05": 8994.22,
-            "2026-06": 125151.6,
-            "2026-07": 81622.8
+            "2026-08": 8867.38,
+            "2026-09": 859.86
           },
           "clientes_positivados": 13
         },
-        "RJ-241": {
-          "faturamento_ytd": 3800.7,
+        "SP-553": {
+          "faturamento_ytd": 597.6,
           "por_mes": {
-            "2026-03": 1918.8,
-            "2026-04": 1660.5,
-            "2026-07": 221.4
-          },
-          "clientes_positivados": 6
-        },
-        "RJ-275": {
-          "faturamento_ytd": 133137.0,
-          "por_mes": {
-            "2026-02": 25697.4,
-            "2026-03": 8077.2,
-            "2026-04": 30781.8,
-            "2026-05": 30336.6,
-            "2026-06": 22362.0,
-            "2026-07": 15882.0
-          },
-          "clientes_positivados": 35
-        },
-        "RJ-378": {
-          "faturamento_ytd": 7859.0,
-          "por_mes": {
-            "2026-04": 418.8,
-            "2026-05": 1088.6,
-            "2026-06": 1472.4,
-            "2026-07": 4879.2
-          },
-          "clientes_positivados": 5
-        },
-        "RJ-379": {
-          "faturamento_ytd": 54551.28,
-          "por_mes": {
-            "2026-01": 5382.6,
-            "2026-02": 924.88,
-            "2026-03": 13367.8,
-            "2026-04": 1243.3,
-            "2026-05": 8326.8,
-            "2026-06": 1078.9,
-            "2026-07": 24227.0
-          },
-          "clientes_positivados": 31
-        },
-        "RJ-412": {
-          "faturamento_ytd": 118047.46,
-          "por_mes": {
-            "2026-01": 2132.74,
-            "2026-02": 25228.44,
-            "2026-03": 184.5,
-            "2026-04": 10913.58,
-            "2026-05": 4805.3,
-            "2026-06": 73986.9,
-            "2026-07": 796.0
-          },
-          "clientes_positivados": 25
-        },
-        "RJ-417": {
-          "faturamento_ytd": 62418.5,
-          "por_mes": {
-            "2026-01": 3978.6,
-            "2026-02": 1047.0,
-            "2026-03": 30271.4,
-            "2026-04": 8224.8,
-            "2026-05": 6610.8,
-            "2026-06": 12285.9
-          },
-          "clientes_positivados": 25
-        },
-        "RJ-419": {
-          "faturamento_ytd": 31467.7,
-          "por_mes": {
-            "2026-01": 418.8,
-            "2026-02": 1338.2,
-            "2026-03": 3877.2,
-            "2026-04": 14350.2,
-            "2026-05": 1849.7,
-            "2026-06": 5433.0,
-            "2026-07": 4200.6
-          },
-          "clientes_positivados": 23
-        },
-        "RJ-420": {
-          "faturamento_ytd": 349736.4,
-          "por_mes": {
-            "2026-04": 244414.8,
-            "2026-05": 105321.6
+            "2026-08": 597.6
           },
           "clientes_positivados": 1
-        },
-        "RJ-431": {
-          "faturamento_ytd": 3168.22,
-          "por_mes": {
-            "2026-03": 478.8,
-            "2026-04": 666.62,
-            "2026-07": 2022.8
-          },
-          "clientes_positivados": 4
-        },
-        "RJ-439": {
-          "faturamento_ytd": 13463.4,
-          "por_mes": {
-            "2026-01": 418.8,
-            "2026-02": 3285.0,
-            "2026-03": 2371.4,
-            "2026-04": 3076.5,
-            "2026-05": 828.7,
-            "2026-06": 975.6,
-            "2026-07": 2507.4
-          },
-          "clientes_positivados": 16
-        },
-        "RJ-450": {
-          "faturamento_ytd": 125812.41,
-          "por_mes": {
-            "2026-03": 1185.0,
-            "2026-04": 5792.46,
-            "2026-05": 58376.45,
-            "2026-06": 17864.8,
-            "2026-07": 42593.7
-          },
-          "clientes_positivados": 41
-        },
-        "RJ-471": {
-          "faturamento_ytd": 20632.5,
-          "por_mes": {
-            "2026-03": 2453.4,
-            "2026-04": 4206.6,
-            "2026-05": 7764.6,
-            "2026-06": 1621.2,
-            "2026-07": 4586.7
-          },
-          "clientes_positivados": 16
         }
       },
       "posicao": 7
     },
     {
       "fantasia": "BACARDI",
-      "faturamento_ytd": 1723712.9,
-      "participacao_pct": 2.71,
-      "faturamento_mes_atual": 371025.05,
-      "clientes_positivados": 648,
+      "faturamento_ytd": 2146425.59,
+      "participacao_pct": 2.7,
+      "faturamento_mes_atual": 45784.07,
+      "clientes_positivados": 813,
       "por_mes": {
         "2026-01": 146675.1,
         "2026-02": 85215.09,
@@ -3922,7 +5176,9 @@ const RAIOX_INDUSTRIAS_DATA = {
         "2026-04": 279136.94,
         "2026-05": 462440.06,
         "2026-06": 148280.73,
-        "2026-07": 371025.05
+        "2026-07": 369742.28,
+        "2026-08": 378211.39,
+        "2026-09": 45784.07
       },
       "por_vendedor": {
         "ES-230": {
@@ -3996,7 +5252,7 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 11
         },
         "ES-388": {
-          "faturamento_ytd": 349703.53,
+          "faturamento_ytd": 428716.33,
           "por_mes": {
             "2026-01": 47208.83,
             "2026-02": 37292.88,
@@ -4004,9 +5260,11 @@ const RAIOX_INDUSTRIAS_DATA = {
             "2026-04": 9430.56,
             "2026-05": 126272.18,
             "2026-06": 11453.28,
-            "2026-07": 75170.76
+            "2026-07": 75170.76,
+            "2026-08": 62708.52,
+            "2026-09": 16304.28
           },
-          "clientes_positivados": 37
+          "clientes_positivados": 44
         },
         "ES-402": {
           "faturamento_ytd": 178.0,
@@ -4026,8 +5284,29 @@ const RAIOX_INDUSTRIAS_DATA = {
           },
           "clientes_positivados": 5
         },
+        "ES-458": {
+          "faturamento_ytd": 85.02,
+          "por_mes": {
+            "2026-08": 85.02
+          },
+          "clientes_positivados": 1
+        },
+        "ES-476": {
+          "faturamento_ytd": 94.23,
+          "por_mes": {
+            "2026-09": 94.23
+          },
+          "clientes_positivados": 1
+        },
+        "ES-508": {
+          "faturamento_ytd": 10692.0,
+          "por_mes": {
+            "2026-08": 10692.0
+          },
+          "clientes_positivados": 1
+        },
         "MG-327": {
-          "faturamento_ytd": 3996.4,
+          "faturamento_ytd": 5659.3,
           "por_mes": {
             "2026-01": 48.9,
             "2026-02": 1185.3,
@@ -4035,9 +5314,11 @@ const RAIOX_INDUSTRIAS_DATA = {
             "2026-04": 428.1,
             "2026-05": 515.8,
             "2026-06": 844.3,
-            "2026-07": 529.9
+            "2026-07": 529.9,
+            "2026-08": 1317.6,
+            "2026-09": 345.3
           },
-          "clientes_positivados": 23
+          "clientes_positivados": 27
         },
         "MG-331": {
           "faturamento_ytd": 4068.0,
@@ -4057,23 +5338,26 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 6
         },
         "MG-344": {
-          "faturamento_ytd": 196.6,
+          "faturamento_ytd": 558.9,
           "por_mes": {
             "2026-04": 49.9,
             "2026-06": 49.9,
-            "2026-07": 96.8
+            "2026-07": 96.8,
+            "2026-08": 185.7,
+            "2026-09": 176.6
           },
-          "clientes_positivados": 2
+          "clientes_positivados": 6
         },
         "MG-349": {
-          "faturamento_ytd": 7854.3,
+          "faturamento_ytd": 8441.1,
           "por_mes": {
-            "2026-01": 7854.3
+            "2026-01": 7854.3,
+            "2026-09": 586.8
           },
-          "clientes_positivados": 5
+          "clientes_positivados": 6
         },
         "MG-354": {
-          "faturamento_ytd": 18266.66,
+          "faturamento_ytd": 23010.66,
           "por_mes": {
             "2026-01": 146.7,
             "2026-02": 6828.16,
@@ -4081,12 +5365,20 @@ const RAIOX_INDUSTRIAS_DATA = {
             "2026-04": 2912.5,
             "2026-05": 1153.4,
             "2026-06": 2178.4,
-            "2026-07": 3730.5
+            "2026-07": 3730.5,
+            "2026-08": 4744.0
           },
-          "clientes_positivados": 26
+          "clientes_positivados": 29
+        },
+        "MG-390": {
+          "faturamento_ytd": 167.88,
+          "por_mes": {
+            "2026-09": 167.88
+          },
+          "clientes_positivados": 1
         },
         "RJ-144": {
-          "faturamento_ytd": 14043.6,
+          "faturamento_ytd": 15273.1,
           "por_mes": {
             "2026-01": 1281.7,
             "2026-02": 2085.0,
@@ -4094,12 +5386,14 @@ const RAIOX_INDUSTRIAS_DATA = {
             "2026-04": 5438.6,
             "2026-05": 2011.0,
             "2026-06": 1954.7,
-            "2026-07": 985.4
+            "2026-07": 985.4,
+            "2026-08": 353.7,
+            "2026-09": 875.8
           },
-          "clientes_positivados": 15
+          "clientes_positivados": 16
         },
         "RJ-153": {
-          "faturamento_ytd": 5867.8,
+          "faturamento_ytd": 6380.2,
           "por_mes": {
             "2026-01": 722.28,
             "2026-02": 387.48,
@@ -4107,12 +5401,14 @@ const RAIOX_INDUSTRIAS_DATA = {
             "2026-04": 629.92,
             "2026-05": 481.32,
             "2026-06": 732.0,
-            "2026-07": 2198.4
+            "2026-07": 2198.4,
+            "2026-08": 370.8,
+            "2026-09": 141.6
           },
-          "clientes_positivados": 11
+          "clientes_positivados": 13
         },
         "RJ-155": {
-          "faturamento_ytd": 55174.47,
+          "faturamento_ytd": 58117.77,
           "por_mes": {
             "2026-01": 10925.27,
             "2026-02": 10767.4,
@@ -4120,12 +5416,14 @@ const RAIOX_INDUSTRIAS_DATA = {
             "2026-04": 14000.7,
             "2026-05": 4255.8,
             "2026-06": 7233.2,
-            "2026-07": 1786.5
+            "2026-07": 1786.5,
+            "2026-08": 2016.9,
+            "2026-09": 926.4
           },
-          "clientes_positivados": 70
+          "clientes_positivados": 74
         },
         "RJ-156": {
-          "faturamento_ytd": 13322.2,
+          "faturamento_ytd": 15257.1,
           "por_mes": {
             "2026-01": 9455.6,
             "2026-02": 793.0,
@@ -4133,9 +5431,11 @@ const RAIOX_INDUSTRIAS_DATA = {
             "2026-04": 404.5,
             "2026-05": 797.9,
             "2026-06": 1371.9,
-            "2026-07": 79.8
+            "2026-07": 79.8,
+            "2026-08": 1625.3,
+            "2026-09": 309.6
           },
-          "clientes_positivados": 27
+          "clientes_positivados": 36
         },
         "RJ-158": {
           "faturamento_ytd": 37900.78,
@@ -4151,7 +5451,7 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 7
         },
         "RJ-159": {
-          "faturamento_ytd": 21248.25,
+          "faturamento_ytd": 24145.25,
           "por_mes": {
             "2026-01": 2408.1,
             "2026-02": 1975.47,
@@ -4159,9 +5459,11 @@ const RAIOX_INDUSTRIAS_DATA = {
             "2026-04": 3352.25,
             "2026-05": 1808.2,
             "2026-06": 5941.7,
-            "2026-07": 2283.6
+            "2026-07": 2283.6,
+            "2026-08": 2182.3,
+            "2026-09": 714.7
           },
-          "clientes_positivados": 38
+          "clientes_positivados": 44
         },
         "RJ-238": {
           "faturamento_ytd": 101.9,
@@ -4171,13 +5473,14 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 1
         },
         "RJ-241": {
-          "faturamento_ytd": 2586.1,
+          "faturamento_ytd": 3044.8,
           "por_mes": {
             "2026-01": 1524.9,
             "2026-03": 68.8,
             "2026-04": 36.9,
             "2026-05": 550.8,
-            "2026-06": 404.7
+            "2026-06": 404.7,
+            "2026-08": 458.7
           },
           "clientes_positivados": 5
         },
@@ -4190,23 +5493,26 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 1
         },
         "RJ-378": {
-          "faturamento_ytd": 862.8,
+          "faturamento_ytd": 2144.4,
           "por_mes": {
-            "2026-06": 862.8
+            "2026-06": 862.8,
+            "2026-08": 1281.6
           },
           "clientes_positivados": 1
         },
         "RJ-379": {
-          "faturamento_ytd": 4236.09,
+          "faturamento_ytd": 5944.49,
           "por_mes": {
             "2026-01": 418.8,
             "2026-02": 710.27,
             "2026-04": 199.6,
             "2026-05": 251.2,
             "2026-06": 707.92,
-            "2026-07": 1948.3
+            "2026-07": 1948.3,
+            "2026-08": 1383.6,
+            "2026-09": 324.8
           },
-          "clientes_positivados": 14
+          "clientes_positivados": 18
         },
         "RJ-412": {
           "faturamento_ytd": 757.1,
@@ -4229,73 +5535,96 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 6
         },
         "RJ-419": {
-          "faturamento_ytd": 5429.0,
+          "faturamento_ytd": 6716.0,
           "por_mes": {
             "2026-01": 234.0,
             "2026-02": 174.0,
             "2026-04": 3019.8,
             "2026-05": 1569.8,
-            "2026-06": 431.4
+            "2026-06": 431.4,
+            "2026-08": 1287.0
           },
-          "clientes_positivados": 8
+          "clientes_positivados": 9
         },
         "RJ-431": {
-          "faturamento_ytd": 246.0,
+          "faturamento_ytd": 908.5,
           "por_mes": {
             "2026-04": 164.5,
-            "2026-05": 81.5
+            "2026-05": 81.5,
+            "2026-08": 562.6,
+            "2026-09": 99.9
           },
-          "clientes_positivados": 1
+          "clientes_positivados": 5
         },
         "RJ-439": {
-          "faturamento_ytd": 1535.2,
+          "faturamento_ytd": 1941.7,
           "por_mes": {
             "2026-02": 34.9,
             "2026-04": 259.8,
             "2026-05": 389.7,
-            "2026-07": 850.8
+            "2026-07": 850.8,
+            "2026-08": 406.5
           },
-          "clientes_positivados": 3
+          "clientes_positivados": 5
         },
         "RJ-450": {
-          "faturamento_ytd": 16085.68,
+          "faturamento_ytd": 16345.28,
           "por_mes": {
             "2026-05": 5290.47,
             "2026-06": 1958.94,
-            "2026-07": 8836.27
+            "2026-07": 8836.27,
+            "2026-09": 259.6
           },
           "clientes_positivados": 17
         },
         "RJ-471": {
-          "faturamento_ytd": 8597.88,
+          "faturamento_ytd": 9635.08,
           "por_mes": {
             "2026-03": 379.8,
             "2026-04": 2476.8,
             "2026-05": 1777.0,
             "2026-06": 987.0,
-            "2026-07": 2977.28
+            "2026-07": 2977.28,
+            "2026-08": 366.0,
+            "2026-09": 671.2
           },
-          "clientes_positivados": 15
+          "clientes_positivados": 17
+        },
+        "RJ-509": {
+          "faturamento_ytd": 5399.4,
+          "por_mes": {
+            "2026-09": 5399.4
+          },
+          "clientes_positivados": 1
         },
         "SP-232": {
-          "faturamento_ytd": 586.99,
+          "faturamento_ytd": 933.79,
           "por_mes": {
             "2026-06": 449.19,
-            "2026-07": 137.8
+            "2026-07": 137.8,
+            "2026-08": 346.8
           },
-          "clientes_positivados": 2
+          "clientes_positivados": 3
         },
         "SP-317": {
-          "faturamento_ytd": 36098.47,
+          "faturamento_ytd": 51949.27,
           "por_mes": {
             "2026-01": 19279.92,
             "2026-03": 9757.2,
             "2026-04": 398.4,
             "2026-05": 2395.32,
             "2026-06": 2530.65,
-            "2026-07": 1736.98
+            "2026-07": 1736.98,
+            "2026-08": 15850.8
           },
           "clientes_positivados": 12
+        },
+        "SP-318": {
+          "faturamento_ytd": 59068.8,
+          "por_mes": {
+            "2026-08": 59068.8
+          },
+          "clientes_positivados": 1
         },
         "SP-356": {
           "faturamento_ytd": 124.57,
@@ -4312,18 +5641,19 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 1
         },
         "SP-371": {
-          "faturamento_ytd": 33405.06,
+          "faturamento_ytd": 36500.76,
           "por_mes": {
             "2026-03": 12840.78,
             "2026-04": 5338.38,
             "2026-05": 960.18,
             "2026-06": 11571.72,
-            "2026-07": 2694.0
+            "2026-07": 2694.0,
+            "2026-08": 3095.7
           },
-          "clientes_positivados": 23
+          "clientes_positivados": 26
         },
         "SP-391": {
-          "faturamento_ytd": 443630.6,
+          "faturamento_ytd": 486528.38,
           "por_mes": {
             "2026-01": 2049.6,
             "2026-02": 4673.16,
@@ -4331,9 +5661,11 @@ const RAIOX_INDUSTRIAS_DATA = {
             "2026-04": 43969.98,
             "2026-05": 101307.72,
             "2026-06": 6077.88,
-            "2026-07": 173775.02
+            "2026-07": 173775.02,
+            "2026-08": 42703.08,
+            "2026-09": 194.7
           },
-          "clientes_positivados": 18
+          "clientes_positivados": 19
         },
         "SP-405": {
           "faturamento_ytd": 385.39,
@@ -4343,18 +5675,20 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 1
         },
         "SP-425": {
-          "faturamento_ytd": 7277.53,
+          "faturamento_ytd": 8807.45,
           "por_mes": {
             "2026-03": 383.28,
             "2026-04": 1840.78,
             "2026-05": 186.06,
             "2026-06": 1912.34,
-            "2026-07": 2955.07
+            "2026-07": 2955.07,
+            "2026-08": 1465.02,
+            "2026-09": 64.9
           },
-          "clientes_positivados": 15
+          "clientes_positivados": 19
         },
         "SP-426": {
-          "faturamento_ytd": 317074.5,
+          "faturamento_ytd": 331772.23,
           "por_mes": {
             "2026-01": 1840.32,
             "2026-02": 1431.36,
@@ -4362,9 +5696,10 @@ const RAIOX_INDUSTRIAS_DATA = {
             "2026-04": 96876.24,
             "2026-05": 148798.28,
             "2026-06": 36816.21,
-            "2026-07": 6348.85
+            "2026-07": 5420.07,
+            "2026-08": 15626.5
           },
-          "clientes_positivados": 38
+          "clientes_positivados": 40
         },
         "SP-428": {
           "faturamento_ytd": 2731.91,
@@ -4378,12 +5713,14 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 2
         },
         "SP-433": {
-          "faturamento_ytd": 47633.63,
+          "faturamento_ytd": 60138.94,
           "por_mes": {
             "2026-04": 3004.44,
             "2026-05": 9377.57,
             "2026-06": 4274.76,
-            "2026-07": 30976.86
+            "2026-07": 30976.86,
+            "2026-08": 3800.98,
+            "2026-09": 8704.32
           },
           "clientes_positivados": 17
         },
@@ -4398,133 +5735,161 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 9
         },
         "SP-460": {
-          "faturamento_ytd": 6163.28,
+          "faturamento_ytd": 11341.67,
           "por_mes": {
             "2026-04": 57.9,
             "2026-05": 1087.57,
             "2026-06": 3272.93,
-            "2026-07": 1744.88
+            "2026-07": 1744.88,
+            "2026-08": 5178.39
           },
-          "clientes_positivados": 14
+          "clientes_positivados": 21
         },
         "SP-461": {
-          "faturamento_ytd": 9072.9,
+          "faturamento_ytd": 20348.62,
           "por_mes": {
             "2026-05": 3096.9,
             "2026-06": 2997.0,
-            "2026-07": 2979.0
+            "2026-07": 2979.0,
+            "2026-08": 10892.92,
+            "2026-09": 382.8
           },
-          "clientes_positivados": 6
+          "clientes_positivados": 13
         },
         "SP-462": {
-          "faturamento_ytd": 8685.0,
+          "faturamento_ytd": 10419.0,
           "por_mes": {
-            "2026-05": 8685.0
+            "2026-05": 8685.0,
+            "2026-08": 1734.0
           },
           "clientes_positivados": 1
         },
         "SP-463": {
-          "faturamento_ytd": 760.42,
+          "faturamento_ytd": 1922.02,
           "por_mes": {
             "2026-06": 413.04,
-            "2026-07": 347.38
-          },
-          "clientes_positivados": 2
-        },
-        "SP-465": {
-          "faturamento_ytd": 822.77,
-          "por_mes": {
-            "2026-05": 372.12,
-            "2026-06": 450.65
+            "2026-07": 347.38,
+            "2026-08": 1161.6
           },
           "clientes_positivados": 3
         },
+        "SP-465": {
+          "faturamento_ytd": 1094.87,
+          "por_mes": {
+            "2026-05": 372.12,
+            "2026-06": 450.65,
+            "2026-08": 272.1
+          },
+          "clientes_positivados": 4
+        },
         "SP-466": {
-          "faturamento_ytd": 4832.09,
+          "faturamento_ytd": 6674.47,
           "por_mes": {
             "2026-05": 2109.65,
             "2026-06": 1649.52,
-            "2026-07": 1072.92
+            "2026-07": 1072.92,
+            "2026-08": 1124.78,
+            "2026-09": 717.6
           },
-          "clientes_positivados": 7
+          "clientes_positivados": 8
         },
         "SP-467": {
-          "faturamento_ytd": 1246.92,
+          "faturamento_ytd": 3859.12,
           "por_mes": {
-            "2026-07": 1246.92
+            "2026-07": 1246.92,
+            "2026-08": 2612.2
           },
-          "clientes_positivados": 2
+          "clientes_positivados": 5
         },
         "SP-468": {
-          "faturamento_ytd": 16636.16,
+          "faturamento_ytd": 29105.96,
           "por_mes": {
             "2026-05": 1211.7,
-            "2026-07": 15424.46
+            "2026-07": 15424.46,
+            "2026-08": 12469.8
           },
-          "clientes_positivados": 7
+          "clientes_positivados": 10
         },
         "SP-469": {
-          "faturamento_ytd": 3303.19,
+          "faturamento_ytd": 5241.07,
           "por_mes": {
             "2026-05": 1855.69,
             "2026-06": 286.5,
-            "2026-07": 1161.0
+            "2026-07": 1161.0,
+            "2026-08": 1494.12,
+            "2026-09": 443.76
+          },
+          "clientes_positivados": 9
+        },
+        "SP-470": {
+          "faturamento_ytd": 71923.2,
+          "por_mes": {
+            "2026-08": 71923.2
+          },
+          "clientes_positivados": 1
+        },
+        "SP-471": {
+          "faturamento_ytd": 2842.77,
+          "por_mes": {
+            "2026-05": 1355.76,
+            "2026-06": 1056.21,
+            "2026-08": 430.8
           },
           "clientes_positivados": 7
         },
-        "SP-471": {
-          "faturamento_ytd": 2411.97,
-          "por_mes": {
-            "2026-05": 1355.76,
-            "2026-06": 1056.21
-          },
-          "clientes_positivados": 6
-        },
         "SP-472": {
-          "faturamento_ytd": 546.0,
+          "faturamento_ytd": 632.7,
           "por_mes": {
-            "2026-07": 546.0
+            "2026-07": 546.0,
+            "2026-09": 86.7
           },
-          "clientes_positivados": 2
+          "clientes_positivados": 3
         },
         "SP-474": {
-          "faturamento_ytd": 902.88,
+          "faturamento_ytd": 1988.18,
           "por_mes": {
             "2026-06": 693.18,
-            "2026-07": 209.7
+            "2026-07": 209.7,
+            "2026-08": 1085.3
           },
-          "clientes_positivados": 2
+          "clientes_positivados": 4
         },
         "SP-475": {
-          "faturamento_ytd": 518.25,
+          "faturamento_ytd": 2094.45,
           "por_mes": {
-            "2026-07": 518.25
+            "2026-07": 518.25,
+            "2026-08": 1576.2
           },
           "clientes_positivados": 2
         },
         "SP-476": {
-          "faturamento_ytd": 2080.74,
+          "faturamento_ytd": 3105.14,
           "por_mes": {
             "2026-05": 770.54,
-            "2026-07": 1310.2
+            "2026-07": 1310.2,
+            "2026-08": 1024.4
           },
-          "clientes_positivados": 3
+          "clientes_positivados": 8
         },
         "SP-477": {
-          "faturamento_ytd": 2047.77,
+          "faturamento_ytd": 2630.87,
           "por_mes": {
             "2026-06": 635.34,
-            "2026-07": 1412.43
+            "2026-07": 1412.43,
+            "2026-08": 149.6,
+            "2026-09": 433.5
           },
-          "clientes_positivados": 6
+          "clientes_positivados": 8
         },
         "SP-486": {
-          "faturamento_ytd": 7876.19,
+          "faturamento_ytd": 13033.57,
           "por_mes": {
             "2026-06": 1710.94,
-            "2026-07": 6165.24
+            "2026-07": 6165.24,
+            "2026-08": 3974.29,
+            "2026-09": 1183.1
           },
-          "clientes_positivados": 14
+          "clientes_positivados": 22
         },
         "SP-487": {
           "faturamento_ytd": 10525.7,
@@ -4542,18 +5907,21 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 1
         },
         "SP-489": {
-          "faturamento_ytd": 99.9,
+          "faturamento_ytd": 4310.57,
           "por_mes": {
-            "2026-07": 99.9
+            "2026-07": 99.9,
+            "2026-08": 2945.87,
+            "2026-09": 1264.8
           },
-          "clientes_positivados": 1
+          "clientes_positivados": 3
         },
         "SP-490": {
-          "faturamento_ytd": 3076.5,
+          "faturamento_ytd": 3284.7,
           "por_mes": {
-            "2026-07": 3076.5
+            "2026-07": 2722.5,
+            "2026-08": 562.2
           },
-          "clientes_positivados": 7
+          "clientes_positivados": 8
         },
         "SP-491": {
           "faturamento_ytd": 2429.65,
@@ -4578,708 +5946,404 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 1
         },
         "SP-498": {
-          "faturamento_ytd": 3156.78,
+          "faturamento_ytd": 3376.34,
           "por_mes": {
-            "2026-07": 3156.78
+            "2026-07": 3156.78,
+            "2026-08": 219.57
           },
           "clientes_positivados": 5
         },
-        "SP-504": {
-          "faturamento_ytd": 868.44,
+        "SP-499": {
+          "faturamento_ytd": 451.5,
           "por_mes": {
-            "2026-07": 868.44
+            "2026-08": 451.5
           },
-          "clientes_positivados": 3
+          "clientes_positivados": 1
+        },
+        "SP-500": {
+          "faturamento_ytd": 3592.8,
+          "por_mes": {
+            "2026-08": 3592.8
+          },
+          "clientes_positivados": 6
+        },
+        "SP-502": {
+          "faturamento_ytd": 173.69,
+          "por_mes": {
+            "2026-08": 173.69
+          },
+          "clientes_positivados": 1
+        },
+        "SP-504": {
+          "faturamento_ytd": 2646.23,
+          "por_mes": {
+            "2026-07": 868.44,
+            "2026-08": 1777.79
+          },
+          "clientes_positivados": 6
+        },
+        "SP-505": {
+          "faturamento_ytd": 261.12,
+          "por_mes": {
+            "2026-08": 261.12
+          },
+          "clientes_positivados": 1
         },
         "SP-507": {
-          "faturamento_ytd": 193.8,
+          "faturamento_ytd": 1389.15,
           "por_mes": {
-            "2026-07": 193.8
+            "2026-07": 193.8,
+            "2026-08": 848.55,
+            "2026-09": 346.8
           },
-          "clientes_positivados": 1
+          "clientes_positivados": 4
+        },
+        "SP-510": {
+          "faturamento_ytd": 224.6,
+          "por_mes": {
+            "2026-08": 29.9,
+            "2026-09": 194.7
+          },
+          "clientes_positivados": 2
         },
         "SP-511": {
-          "faturamento_ytd": 429.31,
+          "faturamento_ytd": 1738.71,
           "por_mes": {
-            "2026-07": 429.31
-          },
-          "clientes_positivados": 1
-        },
-        "SP-512": {
-          "faturamento_ytd": 2857.5,
-          "por_mes": {
-            "2026-07": 2857.5
+            "2026-07": 429.31,
+            "2026-08": 387.2,
+            "2026-09": 922.2
           },
           "clientes_positivados": 3
         },
-        "SP-516": {
-          "faturamento_ytd": 988.09,
+        "SP-512": {
+          "faturamento_ytd": 9807.07,
           "por_mes": {
-            "2026-07": 988.09
+            "2026-07": 2857.5,
+            "2026-08": 6255.97,
+            "2026-09": 693.6
           },
-          "clientes_positivados": 4
+          "clientes_positivados": 11
+        },
+        "SP-515": {
+          "faturamento_ytd": 1798.2,
+          "por_mes": {
+            "2026-08": 1798.2
+          },
+          "clientes_positivados": 1
+        },
+        "SP-516": {
+          "faturamento_ytd": 7045.29,
+          "por_mes": {
+            "2026-07": 988.09,
+            "2026-08": 5623.7,
+            "2026-09": 433.5
+          },
+          "clientes_positivados": 22
+        },
+        "SP-518": {
+          "faturamento_ytd": 2194.12,
+          "por_mes": {
+            "2026-08": 2194.12
+          },
+          "clientes_positivados": 2
+        },
+        "SP-519": {
+          "faturamento_ytd": 358.8,
+          "por_mes": {
+            "2026-09": 358.8
+          },
+          "clientes_positivados": 1
+        },
+        "SP-524": {
+          "faturamento_ytd": 1960.2,
+          "por_mes": {
+            "2026-09": 1960.2
+          },
+          "clientes_positivados": 1
         }
       },
       "posicao": 8
     },
     {
-      "fantasia": "BROWN",
-      "faturamento_ytd": 1657160.38,
-      "participacao_pct": 2.6,
-      "faturamento_mes_atual": 453420.49,
-      "clientes_positivados": 592,
+      "fantasia": "CASA PERINI",
+      "faturamento_ytd": 1967269.04,
+      "participacao_pct": 2.48,
+      "faturamento_mes_atual": 127240.8,
+      "clientes_positivados": 430,
       "por_mes": {
-        "2026-01": 53877.22,
-        "2026-02": 86160.7,
-        "2026-03": 62315.17,
-        "2026-04": 93611.85,
-        "2026-05": 419986.72,
-        "2026-06": 487788.22,
-        "2026-07": 453420.49
+        "2026-01": 82740.69,
+        "2026-02": 107380.72,
+        "2026-03": 106754.0,
+        "2026-04": 584265.26,
+        "2026-05": 411731.07,
+        "2026-06": 351712.9,
+        "2026-07": 151675.5,
+        "2026-08": 43768.1,
+        "2026-09": 127240.8
       },
       "por_vendedor": {
-        "ES-230": {
-          "faturamento_ytd": 4800.0,
+        "RJ-144": {
+          "faturamento_ytd": 139919.8,
           "por_mes": {
-            "2026-06": 4800.0
+            "2026-01": 33795.2,
+            "2026-02": 4496.1,
+            "2026-03": 3706.5,
+            "2026-04": 34308.0,
+            "2026-05": 46588.5,
+            "2026-06": 9080.4,
+            "2026-07": 5574.5,
+            "2026-08": 1927.8,
+            "2026-09": 442.8
           },
-          "clientes_positivados": 1
+          "clientes_positivados": 27
         },
-        "ES-257": {
-          "faturamento_ytd": 11522.52,
+        "RJ-153": {
+          "faturamento_ytd": 137291.3,
           "por_mes": {
-            "2026-01": 588.74,
-            "2026-02": 2846.15,
-            "2026-03": 4529.54,
-            "2026-04": 1891.95,
-            "2026-05": 1666.14
+            "2026-01": 8454.2,
+            "2026-02": 24265.8,
+            "2026-03": 7061.8,
+            "2026-04": 7592.4,
+            "2026-05": 28636.2,
+            "2026-06": 47246.4,
+            "2026-07": 5361.9,
+            "2026-08": 4517.7,
+            "2026-09": 4154.9
+          },
+          "clientes_positivados": 35
+        },
+        "RJ-155": {
+          "faturamento_ytd": 45613.12,
+          "por_mes": {
+            "2026-01": 12626.82,
+            "2026-02": 7794.9,
+            "2026-03": 6050.1,
+            "2026-04": 7265.9,
+            "2026-05": 1549.8,
+            "2026-06": 3409.7,
+            "2026-07": 3636.3,
+            "2026-08": 2824.8,
+            "2026-09": 454.8
+          },
+          "clientes_positivados": 45
+        },
+        "RJ-156": {
+          "faturamento_ytd": 19080.24,
+          "por_mes": {
+            "2026-01": 5003.24,
+            "2026-02": 861.9,
+            "2026-03": 2724.6,
+            "2026-04": 836.7,
+            "2026-05": 3728.0,
+            "2026-06": 3663.3,
+            "2026-07": 715.6,
+            "2026-08": 1546.9
+          },
+          "clientes_positivados": 40
+        },
+        "RJ-158": {
+          "faturamento_ytd": 318783.6,
+          "por_mes": {
+            "2026-01": 1974.0,
+            "2026-04": 161078.4,
+            "2026-05": 87053.4,
+            "2026-06": 25662.0,
+            "2026-07": 40861.8,
+            "2026-08": 2154.0
           },
           "clientes_positivados": 10
         },
-        "ES-260": {
-          "faturamento_ytd": 3780.19,
-          "por_mes": {
-            "2026-01": 389.18,
-            "2026-02": 465.76,
-            "2026-05": 2925.25
-          },
-          "clientes_positivados": 5
-        },
-        "ES-268": {
-          "faturamento_ytd": 4380.02,
-          "por_mes": {
-            "2026-01": 1470.04,
-            "2026-02": 1713.42,
-            "2026-03": 745.0,
-            "2026-04": 451.56
-          },
-          "clientes_positivados": 8
-        },
-        "ES-335": {
-          "faturamento_ytd": 449.37,
-          "por_mes": {
-            "2026-04": 449.37
-          },
-          "clientes_positivados": 2
-        },
-        "ES-336": {
-          "faturamento_ytd": 2096.36,
-          "por_mes": {
-            "2026-02": 1200.87,
-            "2026-03": 150.0,
-            "2026-05": 745.49
-          },
-          "clientes_positivados": 9
-        },
-        "ES-341": {
-          "faturamento_ytd": 3558.24,
-          "por_mes": {
-            "2026-03": 3558.24
-          },
-          "clientes_positivados": 1
-        },
-        "ES-342": {
-          "faturamento_ytd": 130.0,
-          "por_mes": {
-            "2026-04": 130.0
-          },
-          "clientes_positivados": 1
-        },
-        "ES-370": {
-          "faturamento_ytd": 9734.03,
-          "por_mes": {
-            "2026-04": 7195.2,
-            "2026-05": 2538.83
-          },
-          "clientes_positivados": 3
-        },
-        "ES-442": {
-          "faturamento_ytd": 4105.27,
-          "por_mes": {
-            "2026-01": 128.55,
-            "2026-02": 243.86,
-            "2026-03": 3359.76,
-            "2026-04": 128.0,
-            "2026-06": 245.1
-          },
-          "clientes_positivados": 4
-        },
-        "RJ-144": {
-          "faturamento_ytd": 4158.8,
-          "por_mes": {
-            "2026-01": 238.0,
-            "2026-02": 767.4,
-            "2026-03": 383.7,
-            "2026-04": 1534.8,
-            "2026-05": 659.4,
-            "2026-06": 465.6,
-            "2026-07": 109.9
-          },
-          "clientes_positivados": 8
-        },
-        "RJ-153": {
-          "faturamento_ytd": 6152.0,
-          "por_mes": {
-            "2026-05": 3514.4,
-            "2026-06": 2637.6
-          },
-          "clientes_positivados": 4
-        },
-        "RJ-155": {
-          "faturamento_ytd": 66672.65,
-          "por_mes": {
-            "2026-01": 24409.75,
-            "2026-02": 13745.8,
-            "2026-03": 6491.7,
-            "2026-04": 9508.6,
-            "2026-05": 2623.8,
-            "2026-06": 5830.1,
-            "2026-07": 4062.9
-          },
-          "clientes_positivados": 48
-        },
-        "RJ-156": {
-          "faturamento_ytd": 12076.0,
-          "por_mes": {
-            "2026-01": 655.5,
-            "2026-02": 1639.5,
-            "2026-03": 914.2,
-            "2026-04": 509.2,
-            "2026-05": 5624.3,
-            "2026-06": 2343.2,
-            "2026-07": 390.1
-          },
-          "clientes_positivados": 22
-        },
-        "RJ-158": {
-          "faturamento_ytd": 7034.29,
-          "por_mes": {
-            "2026-04": 6562.8,
-            "2026-07": 471.49
-          },
-          "clientes_positivados": 2
-        },
         "RJ-159": {
-          "faturamento_ytd": 26503.58,
+          "faturamento_ytd": 53424.7,
           "por_mes": {
-            "2026-01": 5014.6,
-            "2026-02": 2961.4,
-            "2026-03": 3607.9,
-            "2026-04": 3363.7,
-            "2026-05": 3168.4,
-            "2026-06": 4612.08,
-            "2026-07": 3775.5
+            "2026-01": 8555.7,
+            "2026-02": 7143.7,
+            "2026-03": 7133.3,
+            "2026-04": 5054.7,
+            "2026-05": 9871.8,
+            "2026-06": 4366.8,
+            "2026-07": 2437.6,
+            "2026-08": 7983.3,
+            "2026-09": 877.8
           },
-          "clientes_positivados": 31
+          "clientes_positivados": 29
         },
         "RJ-174": {
-          "faturamento_ytd": 139.9,
+          "faturamento_ytd": 297.3,
           "por_mes": {
-            "2026-05": 139.9
+            "2026-08": 77.8,
+            "2026-09": 219.5
           },
           "clientes_positivados": 1
         },
         "RJ-238": {
-          "faturamento_ytd": 1043.27,
+          "faturamento_ytd": 306679.42,
           "por_mes": {
-            "2026-02": 599.6,
-            "2026-04": 443.67
+            "2026-02": 5297.4,
+            "2026-03": 15892.2,
+            "2026-04": 42379.2,
+            "2026-05": 8994.22,
+            "2026-06": 125151.6,
+            "2026-09": 108964.8
           },
-          "clientes_positivados": 2
+          "clientes_positivados": 14
         },
         "RJ-241": {
-          "faturamento_ytd": 10590.5,
+          "faturamento_ytd": 3800.7,
           "por_mes": {
-            "2026-01": 1309.0,
-            "2026-02": 1666.0,
-            "2026-03": 238.0,
-            "2026-04": 1428.0,
-            "2026-05": 3191.8,
-            "2026-06": 1318.9,
-            "2026-07": 1438.8
+            "2026-03": 1918.8,
+            "2026-04": 1660.5,
+            "2026-07": 221.4
           },
-          "clientes_positivados": 13
+          "clientes_positivados": 6
         },
         "RJ-275": {
-          "faturamento_ytd": 569.4,
+          "faturamento_ytd": 121969.8,
           "por_mes": {
-            "2026-07": 569.4
+            "2026-02": 25697.4,
+            "2026-03": 8077.2,
+            "2026-04": 30781.8,
+            "2026-05": 30336.6,
+            "2026-06": 18414.0,
+            "2026-07": 7053.0,
+            "2026-08": 1609.8
           },
-          "clientes_positivados": 1
+          "clientes_positivados": 32
         },
         "RJ-378": {
-          "faturamento_ytd": 1594.8,
+          "faturamento_ytd": 9669.7,
           "por_mes": {
-            "2026-07": 1594.8
+            "2026-04": 418.8,
+            "2026-05": 1088.6,
+            "2026-06": 1472.4,
+            "2026-07": 4879.2,
+            "2026-08": 1810.7
           },
-          "clientes_positivados": 1
+          "clientes_positivados": 5
         },
         "RJ-379": {
-          "faturamento_ytd": 8803.15,
+          "faturamento_ytd": 61385.08,
           "por_mes": {
-            "2026-01": 444.0,
-            "2026-02": 868.5,
-            "2026-03": 1827.05,
-            "2026-04": 159.9,
-            "2026-05": 4229.9,
-            "2026-07": 1273.8
+            "2026-01": 5382.6,
+            "2026-02": 924.88,
+            "2026-03": 13367.8,
+            "2026-04": 1243.3,
+            "2026-05": 8326.8,
+            "2026-06": 1078.9,
+            "2026-07": 24227.0,
+            "2026-08": 2579.8,
+            "2026-09": 4254.0
           },
-          "clientes_positivados": 11
+          "clientes_positivados": 34
         },
         "RJ-412": {
-          "faturamento_ytd": 1731.7,
+          "faturamento_ytd": 118047.46,
           "por_mes": {
-            "2026-03": 104.9,
-            "2026-05": 359.8,
-            "2026-06": 1267.0
+            "2026-01": 2132.74,
+            "2026-02": 25228.44,
+            "2026-03": 184.5,
+            "2026-04": 10913.58,
+            "2026-05": 4805.3,
+            "2026-06": 73986.9,
+            "2026-07": 796.0
           },
-          "clientes_positivados": 4
+          "clientes_positivados": 25
         },
         "RJ-417": {
-          "faturamento_ytd": 7762.74,
+          "faturamento_ytd": 62418.5,
           "por_mes": {
-            "2026-01": 323.67,
-            "2026-02": 6917.67,
-            "2026-05": 521.4
+            "2026-01": 3978.6,
+            "2026-02": 1047.0,
+            "2026-03": 30271.4,
+            "2026-04": 8224.8,
+            "2026-05": 6610.8,
+            "2026-06": 12285.9
           },
-          "clientes_positivados": 3
+          "clientes_positivados": 25
         },
         "RJ-419": {
-          "faturamento_ytd": 7523.84,
+          "faturamento_ytd": 35288.2,
           "por_mes": {
-            "2026-01": 1334.6,
-            "2026-05": 6189.24
+            "2026-01": 418.8,
+            "2026-02": 1338.2,
+            "2026-03": 3877.2,
+            "2026-04": 14350.2,
+            "2026-05": 1849.7,
+            "2026-06": 5433.0,
+            "2026-07": 4200.6,
+            "2026-08": 3599.1,
+            "2026-09": 221.4
           },
-          "clientes_positivados": 2
+          "clientes_positivados": 25
+        },
+        "RJ-420": {
+          "faturamento_ytd": 349736.4,
+          "por_mes": {
+            "2026-04": 244414.8,
+            "2026-05": 105321.6
+          },
+          "clientes_positivados": 1
         },
         "RJ-431": {
-          "faturamento_ytd": 1232.16,
+          "faturamento_ytd": 4641.82,
           "por_mes": {
-            "2026-04": 498.6,
-            "2026-05": 209.96,
-            "2026-06": 523.6
+            "2026-03": 478.8,
+            "2026-04": 666.62,
+            "2026-07": 2022.8,
+            "2026-08": 1234.2,
+            "2026-09": 239.4
           },
-          "clientes_positivados": 2
+          "clientes_positivados": 6
         },
         "RJ-439": {
-          "faturamento_ytd": 1999.72,
+          "faturamento_ytd": 15576.0,
           "por_mes": {
-            "2026-01": 139.9,
-            "2026-02": 389.7,
-            "2026-03": 329.7,
-            "2026-04": 259.8,
-            "2026-06": 880.62
+            "2026-01": 418.8,
+            "2026-02": 3285.0,
+            "2026-03": 2371.4,
+            "2026-04": 3076.5,
+            "2026-05": 828.7,
+            "2026-06": 975.6,
+            "2026-07": 2507.4,
+            "2026-08": 1155.0,
+            "2026-09": 957.6
           },
-          "clientes_positivados": 3
+          "clientes_positivados": 18
         },
         "RJ-450": {
-          "faturamento_ytd": 57126.3,
+          "faturamento_ytd": 140578.01,
           "por_mes": {
-            "2026-05": 21000.96,
-            "2026-06": 31800.24,
-            "2026-07": 4325.1
+            "2026-03": 1185.0,
+            "2026-04": 5792.46,
+            "2026-05": 58376.45,
+            "2026-06": 17864.8,
+            "2026-07": 42593.7,
+            "2026-08": 8311.8,
+            "2026-09": 6453.8
           },
-          "clientes_positivados": 6
+          "clientes_positivados": 49
         },
         "RJ-471": {
-          "faturamento_ytd": 339.8,
+          "faturamento_ytd": 23067.9,
           "por_mes": {
-            "2026-05": 339.8
-          },
-          "clientes_positivados": 1
-        },
-        "SP-232": {
-          "faturamento_ytd": 599.4,
-          "por_mes": {
-            "2026-07": 599.4
-          },
-          "clientes_positivados": 1
-        },
-        "SP-317": {
-          "faturamento_ytd": 63557.4,
-          "por_mes": {
-            "2026-01": 7411.2,
-            "2026-02": 3705.6,
-            "2026-03": 13215.0,
-            "2026-04": 10454.4,
-            "2026-06": 4795.2,
-            "2026-07": 23976.0
-          },
-          "clientes_positivados": 14
-        },
-        "SP-367": {
-          "faturamento_ytd": 89.84,
-          "por_mes": {
-            "2026-03": 89.84
-          },
-          "clientes_positivados": 1
-        },
-        "SP-371": {
-          "faturamento_ytd": 97611.0,
-          "por_mes": {
-            "2026-01": 1798.8,
-            "2026-03": 6534.0,
-            "2026-05": 60655.2,
-            "2026-06": 21848.1,
-            "2026-07": 6774.9
-          },
-          "clientes_positivados": 17
-        },
-        "SP-391": {
-          "faturamento_ytd": 44572.4,
-          "por_mes": {
-            "2026-02": 19481.4,
-            "2026-04": 7133.6,
-            "2026-05": 910.8,
-            "2026-06": 3656.4,
-            "2026-07": 13390.2
-          },
-          "clientes_positivados": 14
-        },
-        "SP-425": {
-          "faturamento_ytd": 33321.08,
-          "por_mes": {
-            "2026-02": 7096.62,
-            "2026-04": 3753.2,
-            "2026-05": 611.4,
-            "2026-06": 3233.1,
-            "2026-07": 18626.76
+            "2026-03": 2453.4,
+            "2026-04": 4206.6,
+            "2026-05": 7764.6,
+            "2026-06": 1621.2,
+            "2026-07": 4586.7,
+            "2026-08": 2435.4
           },
           "clientes_positivados": 16
-        },
-        "SP-426": {
-          "faturamento_ytd": 260062.68,
-          "por_mes": {
-            "2026-01": 3311.64,
-            "2026-02": 19054.44,
-            "2026-03": 14902.2,
-            "2026-04": 25618.8,
-            "2026-05": 97712.4,
-            "2026-06": 81001.8,
-            "2026-07": 18461.4
-          },
-          "clientes_positivados": 35
-        },
-        "SP-428": {
-          "faturamento_ytd": 20401.01,
-          "por_mes": {
-            "2026-01": 4910.06,
-            "2026-02": 797.01,
-            "2026-03": 1334.44,
-            "2026-04": 2654.3,
-            "2026-06": 1184.1,
-            "2026-07": 9521.1
-          },
-          "clientes_positivados": 2
-        },
-        "SP-433": {
-          "faturamento_ytd": 108015.6,
-          "por_mes": {
-            "2026-05": 39262.1,
-            "2026-06": 53887.9,
-            "2026-07": 14865.6
-          },
-          "clientes_positivados": 29
-        },
-        "SP-438": {
-          "faturamento_ytd": 4174.6,
-          "por_mes": {
-            "2026-05": 3791.7,
-            "2026-06": 382.9
-          },
-          "clientes_positivados": 6
-        },
-        "SP-460": {
-          "faturamento_ytd": 20421.54,
-          "por_mes": {
-            "2026-05": 1079.4,
-            "2026-06": 10994.04,
-            "2026-07": 8348.1
-          },
-          "clientes_positivados": 16
-        },
-        "SP-461": {
-          "faturamento_ytd": 70905.13,
-          "por_mes": {
-            "2026-04": 8307.6,
-            "2026-05": 21486.69,
-            "2026-06": 17733.28,
-            "2026-07": 23377.56
-          },
-          "clientes_positivados": 20
-        },
-        "SP-462": {
-          "faturamento_ytd": 34645.2,
-          "por_mes": {
-            "2026-05": 11868.0,
-            "2026-06": 5994.0,
-            "2026-07": 16783.2
-          },
-          "clientes_positivados": 1
-        },
-        "SP-463": {
-          "faturamento_ytd": 9954.0,
-          "por_mes": {
-            "2026-05": 1786.5,
-            "2026-06": 7568.1,
-            "2026-07": 599.4
-          },
-          "clientes_positivados": 13
-        },
-        "SP-464": {
-          "faturamento_ytd": 12749.4,
-          "por_mes": {
-            "2026-05": 8793.2,
-            "2026-06": 2397.6,
-            "2026-07": 1558.6
-          },
-          "clientes_positivados": 8
-        },
-        "SP-465": {
-          "faturamento_ytd": 7180.8,
-          "por_mes": {
-            "2026-05": 1186.8,
-            "2026-07": 5994.0
-          },
-          "clientes_positivados": 1
-        },
-        "SP-466": {
-          "faturamento_ytd": 7613.41,
-          "por_mes": {
-            "2026-04": 1174.8,
-            "2026-05": 593.41,
-            "2026-06": 713.4,
-            "2026-07": 5131.8
-          },
-          "clientes_positivados": 5
-        },
-        "SP-467": {
-          "faturamento_ytd": 112975.42,
-          "por_mes": {
-            "2026-05": 79660.16,
-            "2026-06": 2399.76,
-            "2026-07": 30915.5
-          },
-          "clientes_positivados": 14
-        },
-        "SP-468": {
-          "faturamento_ytd": 33268.3,
-          "por_mes": {
-            "2026-05": 12277.7,
-            "2026-06": 2397.6,
-            "2026-07": 18593.0
-          },
-          "clientes_positivados": 9
-        },
-        "SP-469": {
-          "faturamento_ytd": 7923.0,
-          "por_mes": {
-            "2026-05": 2181.9,
-            "2026-06": 1275.0,
-            "2026-07": 4466.1
-          },
-          "clientes_positivados": 6
-        },
-        "SP-470": {
-          "faturamento_ytd": 128690.1,
-          "por_mes": {
-            "2026-06": 127191.6,
-            "2026-07": 1498.5
-          },
-          "clientes_positivados": 3
-        },
-        "SP-471": {
-          "faturamento_ytd": 4078.5,
-          "por_mes": {
-            "2026-05": 1372.7,
-            "2026-06": 1197.6,
-            "2026-07": 1508.2
-          },
-          "clientes_positivados": 7
-        },
-        "SP-472": {
-          "faturamento_ytd": 7676.6,
-          "por_mes": {
-            "2026-06": 5958.0,
-            "2026-07": 1718.6
-          },
-          "clientes_positivados": 5
-        },
-        "SP-473": {
-          "faturamento_ytd": 2399.76,
-          "por_mes": {
-            "2026-07": 2399.76
-          },
-          "clientes_positivados": 1
-        },
-        "SP-474": {
-          "faturamento_ytd": 11332.1,
-          "por_mes": {
-            "2026-05": 2638.2,
-            "2026-06": 5896.7,
-            "2026-07": 2797.2
-          },
-          "clientes_positivados": 8
-        },
-        "SP-475": {
-          "faturamento_ytd": 3596.4,
-          "por_mes": {
-            "2026-06": 599.4,
-            "2026-07": 2997.0
-          },
-          "clientes_positivados": 2
-        },
-        "SP-476": {
-          "faturamento_ytd": 127796.3,
-          "por_mes": {
-            "2026-05": 10689.5,
-            "2026-06": 44809.4,
-            "2026-07": 72297.4
-          },
-          "clientes_positivados": 33
-        },
-        "SP-477": {
-          "faturamento_ytd": 14310.0,
-          "por_mes": {
-            "2026-05": 1780.2,
-            "2026-06": 3334.5,
-            "2026-07": 9195.3
-          },
-          "clientes_positivados": 11
-        },
-        "SP-486": {
-          "faturamento_ytd": 26626.4,
-          "por_mes": {
-            "2026-06": 6912.7,
-            "2026-07": 19713.7
-          },
-          "clientes_positivados": 27
-        },
-        "SP-487": {
-          "faturamento_ytd": 17648.5,
-          "por_mes": {
-            "2026-06": 3862.3,
-            "2026-07": 13786.2
-          },
-          "clientes_positivados": 5
-        },
-        "SP-489": {
-          "faturamento_ytd": 46529.3,
-          "por_mes": {
-            "2026-06": 4971.6,
-            "2026-07": 41557.7
-          },
-          "clientes_positivados": 11
-        },
-        "SP-490": {
-          "faturamento_ytd": 9814.2,
-          "por_mes": {
-            "2026-06": 2870.1,
-            "2026-07": 6944.1
-          },
-          "clientes_positivados": 6
-        },
-        "SP-491": {
-          "faturamento_ytd": 2397.6,
-          "por_mes": {
-            "2026-06": 1198.8,
-            "2026-07": 1198.8
-          },
-          "clientes_positivados": 2
-        },
-        "SP-492": {
-          "faturamento_ytd": 1399.18,
-          "por_mes": {
-            "2026-07": 1399.18
-          },
-          "clientes_positivados": 3
-        },
-        "SP-493": {
-          "faturamento_ytd": 1898.1,
-          "por_mes": {
-            "2026-06": 799.2,
-            "2026-07": 1098.9
-          },
-          "clientes_positivados": 6
-        },
-        "SP-498": {
-          "faturamento_ytd": 6493.5,
-          "por_mes": {
-            "2026-07": 6493.5
-          },
-          "clientes_positivados": 5
-        },
-        "SP-502": {
-          "faturamento_ytd": 1199.34,
-          "por_mes": {
-            "2026-07": 1199.34
-          },
-          "clientes_positivados": 1
-        },
-        "SP-504": {
-          "faturamento_ytd": 6593.4,
-          "por_mes": {
-            "2026-07": 6593.4
-          },
-          "clientes_positivados": 11
-        },
-        "SP-510": {
-          "faturamento_ytd": 326.7,
-          "por_mes": {
-            "2026-07": 326.7
-          },
-          "clientes_positivados": 1
-        },
-        "SP-512": {
-          "faturamento_ytd": 6474.0,
-          "por_mes": {
-            "2026-07": 6474.0
-          },
-          "clientes_positivados": 3
-        },
-        "SP-515": {
-          "faturamento_ytd": 7593.0,
-          "por_mes": {
-            "2026-07": 7593.0
-          },
-          "clientes_positivados": 4
-        },
-        "SP-516": {
-          "faturamento_ytd": 4635.6,
-          "por_mes": {
-            "2026-07": 4635.6
-          },
-          "clientes_positivados": 7
         }
       },
       "posicao": 9
     },
     {
       "fantasia": "SEM FANTASIA",
-      "faturamento_ytd": 1555067.01,
-      "participacao_pct": 2.44,
-      "faturamento_mes_atual": 138429.66,
-      "clientes_positivados": 416,
+      "faturamento_ytd": 1910297.12,
+      "participacao_pct": 2.41,
+      "faturamento_mes_atual": 65545.4,
+      "clientes_positivados": 465,
       "por_mes": {
         "2026-01": 110766.47,
         "2026-02": 106452.69,
@@ -5287,7 +6351,9 @@ const RAIOX_INDUSTRIAS_DATA = {
         "2026-04": 569782.95,
         "2026-05": 360216.39,
         "2026-06": 215071.03,
-        "2026-07": 138429.66
+        "2026-07": 136714.38,
+        "2026-08": 291399.99,
+        "2026-09": 65545.4
       },
       "por_vendedor": {
         "ES-257": {
@@ -5346,7 +6412,7 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 7
         },
         "MG-327": {
-          "faturamento_ytd": 116975.88,
+          "faturamento_ytd": 128652.7,
           "por_mes": {
             "2026-01": 14845.04,
             "2026-02": 15834.25,
@@ -5354,9 +6420,11 @@ const RAIOX_INDUSTRIAS_DATA = {
             "2026-04": 24354.78,
             "2026-05": 21282.84,
             "2026-06": 10263.46,
-            "2026-07": 10652.45
+            "2026-07": 10652.45,
+            "2026-08": 10284.02,
+            "2026-09": 1392.8
           },
-          "clientes_positivados": 118
+          "clientes_positivados": 127
         },
         "MG-331": {
           "faturamento_ytd": 9016.02,
@@ -5385,28 +6453,32 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 3
         },
         "MG-344": {
-          "faturamento_ytd": 26177.16,
+          "faturamento_ytd": 42555.22,
           "por_mes": {
             "2026-04": 2202.02,
             "2026-05": 10864.34,
             "2026-06": 1869.8,
-            "2026-07": 11241.0
+            "2026-07": 11241.0,
+            "2026-08": 12564.4,
+            "2026-09": 3813.66
           },
-          "clientes_positivados": 39
+          "clientes_positivados": 52
         },
         "MG-349": {
-          "faturamento_ytd": 41298.44,
+          "faturamento_ytd": 58516.27,
           "por_mes": {
             "2026-01": 15997.44,
             "2026-02": 7884.0,
             "2026-03": 5976.0,
             "2026-04": 10195.4,
-            "2026-07": 1245.6
+            "2026-07": 1245.6,
+            "2026-08": 14691.83,
+            "2026-09": 2526.0
           },
-          "clientes_positivados": 14
+          "clientes_positivados": 16
         },
         "MG-354": {
-          "faturamento_ytd": 76571.24,
+          "faturamento_ytd": 109133.12,
           "por_mes": {
             "2026-01": 12008.86,
             "2026-02": 5372.58,
@@ -5414,19 +6486,22 @@ const RAIOX_INDUSTRIAS_DATA = {
             "2026-04": 18969.6,
             "2026-05": 20982.28,
             "2026-06": 14971.44,
-            "2026-07": 346.8
+            "2026-07": 346.8,
+            "2026-08": 29032.44,
+            "2026-09": 3529.44
           },
-          "clientes_positivados": 34
+          "clientes_positivados": 45
         },
         "MG-360": {
-          "faturamento_ytd": 1030420.64,
+          "faturamento_ytd": 1087375.04,
           "por_mes": {
             "2026-02": 61044.0,
             "2026-03": 10167.6,
             "2026-04": 450473.7,
             "2026-05": 266833.8,
             "2026-06": 154294.2,
-            "2026-07": 87607.34
+            "2026-07": 87607.34,
+            "2026-08": 56954.4
           },
           "clientes_positivados": 16
         },
@@ -5441,23 +6516,62 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 26
         },
         "MG-378": {
-          "faturamento_ytd": 15192.48,
+          "faturamento_ytd": 185557.2,
           "por_mes": {
-            "2026-07": 15192.48
+            "2026-07": 13477.2,
+            "2026-08": 121200.0,
+            "2026-09": 50880.0
           },
-          "clientes_positivados": 9
+          "clientes_positivados": 5
         },
         "MG-388": {
-          "faturamento_ytd": 9504.6,
+          "faturamento_ytd": 27081.6,
           "por_mes": {
-            "2026-07": 9504.6
+            "2026-07": 9504.6,
+            "2026-08": 17577.0
           },
           "clientes_positivados": 1
+        },
+        "MG-389": {
+          "faturamento_ytd": 16764.5,
+          "por_mes": {
+            "2026-08": 16764.5
+          },
+          "clientes_positivados": 6
+        },
+        "MG-390": {
+          "faturamento_ytd": 797.3,
+          "por_mes": {
+            "2026-08": 797.3
+          },
+          "clientes_positivados": 2
+        },
+        "MG-405": {
+          "faturamento_ytd": 11820.6,
+          "por_mes": {
+            "2026-08": 9992.6,
+            "2026-09": 1828.0
+          },
+          "clientes_positivados": 12
         },
         "MG-542": {
           "faturamento_ytd": 55152.0,
           "por_mes": {
             "2026-04": 55152.0
+          },
+          "clientes_positivados": 1
+        },
+        "RJ-144": {
+          "faturamento_ytd": 164.7,
+          "por_mes": {
+            "2026-08": 164.7
+          },
+          "clientes_positivados": 1
+        },
+        "RJ-159": {
+          "faturamento_ytd": 230.3,
+          "por_mes": {
+            "2026-08": 230.3
           },
           "clientes_positivados": 1
         },
@@ -5524,13 +6638,14 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 3
         },
         "SP-425": {
-          "faturamento_ytd": 1352.0,
+          "faturamento_ytd": 1438.61,
           "por_mes": {
             "2026-02": 399.9,
             "2026-03": 870.2,
-            "2026-05": 81.9
+            "2026-05": 81.9,
+            "2026-08": 86.61
           },
-          "clientes_positivados": 3
+          "clientes_positivados": 4
         },
         "SP-426": {
           "faturamento_ytd": 21401.28,
@@ -5542,10 +6657,11 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 12
         },
         "SP-428": {
-          "faturamento_ytd": 581.42,
+          "faturamento_ytd": 769.33,
           "por_mes": {
             "2026-03": 503.54,
-            "2026-04": 77.88
+            "2026-04": 77.88,
+            "2026-08": 187.91
           },
           "clientes_positivados": 1
         },
@@ -5559,12 +6675,13 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 9
         },
         "SP-461": {
-          "faturamento_ytd": 4340.82,
+          "faturamento_ytd": 5824.32,
           "por_mes": {
             "2026-05": 253.44,
-            "2026-06": 4087.38
+            "2026-06": 4087.38,
+            "2026-09": 1483.5
           },
-          "clientes_positivados": 6
+          "clientes_positivados": 7
         },
         "SP-462": {
           "faturamento_ytd": 4190.16,
@@ -5574,12 +6691,13 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 1
         },
         "SP-463": {
-          "faturamento_ytd": 3385.2,
+          "faturamento_ytd": 3672.48,
           "por_mes": {
             "2026-05": 298.76,
-            "2026-06": 3086.44
+            "2026-06": 3086.44,
+            "2026-08": 287.28
           },
-          "clientes_positivados": 11
+          "clientes_positivados": 12
         },
         "SP-465": {
           "faturamento_ytd": 723.96,
@@ -5632,6 +6750,13 @@ const RAIOX_INDUSTRIAS_DATA = {
           },
           "clientes_positivados": 1
         },
+        "SP-475": {
+          "faturamento_ytd": 155.4,
+          "por_mes": {
+            "2026-08": 155.4
+          },
+          "clientes_positivados": 1
+        },
         "SP-476": {
           "faturamento_ytd": 1433.6,
           "por_mes": {
@@ -5641,12 +6766,14 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 3
         },
         "SP-486": {
-          "faturamento_ytd": 585.58,
+          "faturamento_ytd": 821.38,
           "por_mes": {
             "2026-06": 138.09,
-            "2026-07": 447.49
+            "2026-07": 447.49,
+            "2026-08": 143.8,
+            "2026-09": 92.0
           },
-          "clientes_positivados": 2
+          "clientes_positivados": 5
         },
         "SP-508": {
           "faturamento_ytd": 299.4,
@@ -5655,10 +6782,25 @@ const RAIOX_INDUSTRIAS_DATA = {
           },
           "clientes_positivados": 1
         },
-        "SP-511": {
-          "faturamento_ytd": 82.9,
+        "SP-510": {
+          "faturamento_ytd": 38.7,
           "por_mes": {
-            "2026-07": 82.9
+            "2026-08": 38.7
+          },
+          "clientes_positivados": 1
+        },
+        "SP-511": {
+          "faturamento_ytd": 174.9,
+          "por_mes": {
+            "2026-07": 82.9,
+            "2026-08": 92.0
+          },
+          "clientes_positivados": 2
+        },
+        "SP-516": {
+          "faturamento_ytd": 154.8,
+          "por_mes": {
+            "2026-08": 154.8
           },
           "clientes_positivados": 1
         }
@@ -5667,18 +6809,20 @@ const RAIOX_INDUSTRIAS_DATA = {
     },
     {
       "fantasia": "TATUZINHO",
-      "faturamento_ytd": 1424471.31,
-      "participacao_pct": 2.24,
-      "faturamento_mes_atual": 196737.39,
-      "clientes_positivados": 834,
+      "faturamento_ytd": 1641960.32,
+      "participacao_pct": 2.07,
+      "faturamento_mes_atual": 70549.03,
+      "clientes_positivados": 902,
       "por_mes": {
         "2026-01": 138882.44,
         "2026-02": 122223.37,
         "2026-03": 207718.48,
         "2026-04": 132769.86,
-        "2026-05": 246756.06,
+        "2026-05": 245162.15,
         "2026-06": 379383.72,
-        "2026-07": 196737.39
+        "2026-07": 195635.79,
+        "2026-08": 149635.48,
+        "2026-09": 70549.03
       },
       "por_vendedor": {
         "ES-230": {
@@ -5704,13 +6848,13 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 19
         },
         "ES-260": {
-          "faturamento_ytd": 29625.66,
+          "faturamento_ytd": 28031.75,
           "por_mes": {
             "2026-01": 1257.36,
             "2026-02": 1568.46,
             "2026-03": 3697.66,
             "2026-04": 5069.09,
-            "2026-05": 10831.65,
+            "2026-05": 9237.74,
             "2026-06": 7201.44
           },
           "clientes_positivados": 23
@@ -5780,16 +6924,18 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 9
         },
         "ES-388": {
-          "faturamento_ytd": 187424.76,
+          "faturamento_ytd": 235977.84,
           "por_mes": {
             "2026-02": 21011.5,
             "2026-03": 58629.65,
             "2026-04": 24531.48,
             "2026-05": 8364.14,
             "2026-06": 3921.58,
-            "2026-07": 70966.41
+            "2026-07": 70966.41,
+            "2026-08": 32072.28,
+            "2026-09": 16480.8
           },
-          "clientes_positivados": 13
+          "clientes_positivados": 29
         },
         "ES-402": {
           "faturamento_ytd": 531.0,
@@ -5818,14 +6964,15 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 19
         },
         "ES-508": {
-          "faturamento_ytd": 11570.28,
+          "faturamento_ytd": 15526.86,
           "por_mes": {
-            "2026-07": 11570.28
+            "2026-07": 11570.28,
+            "2026-08": 3956.58
           },
           "clientes_positivados": 7
         },
         "MG-327": {
-          "faturamento_ytd": 30643.7,
+          "faturamento_ytd": 35663.96,
           "por_mes": {
             "2026-01": 5041.24,
             "2026-02": 3183.5,
@@ -5833,9 +6980,11 @@ const RAIOX_INDUSTRIAS_DATA = {
             "2026-04": 4351.76,
             "2026-05": 4513.32,
             "2026-06": 4227.0,
-            "2026-07": 3488.02
+            "2026-07": 3488.02,
+            "2026-08": 3908.06,
+            "2026-09": 1112.2
           },
-          "clientes_positivados": 40
+          "clientes_positivados": 42
         },
         "MG-335": {
           "faturamento_ytd": 714.72,
@@ -5848,22 +6997,22 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 5
         },
         "MG-344": {
-          "faturamento_ytd": 981.3,
+          "faturamento_ytd": 1626.9,
           "por_mes": {
             "2026-04": 242.1,
             "2026-05": 376.6,
-            "2026-06": 362.6
+            "2026-06": 362.6,
+            "2026-08": 645.6
           },
-          "clientes_positivados": 2
+          "clientes_positivados": 3
         },
         "MG-354": {
-          "faturamento_ytd": 1443.72,
+          "faturamento_ytd": 1363.02,
           "por_mes": {
             "2026-01": 71.82,
-            "2026-03": 1291.2,
-            "2026-07": 80.7
+            "2026-03": 1291.2
           },
-          "clientes_positivados": 4
+          "clientes_positivados": 2
         },
         "MG-360": {
           "faturamento_ytd": 2559.6,
@@ -5895,7 +7044,7 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 1
         },
         "RJ-144": {
-          "faturamento_ytd": 30394.09,
+          "faturamento_ytd": 35194.09,
           "por_mes": {
             "2026-01": 3520.12,
             "2026-02": 9087.18,
@@ -5903,12 +7052,14 @@ const RAIOX_INDUSTRIAS_DATA = {
             "2026-04": 3319.53,
             "2026-05": 2610.6,
             "2026-06": 5074.86,
-            "2026-07": 3935.7
+            "2026-07": 3935.7,
+            "2026-08": 3878.2,
+            "2026-09": 921.8
           },
-          "clientes_positivados": 32
+          "clientes_positivados": 34
         },
         "RJ-153": {
-          "faturamento_ytd": 37062.19,
+          "faturamento_ytd": 45567.29,
           "por_mes": {
             "2026-01": 6821.54,
             "2026-02": 4757.63,
@@ -5916,12 +7067,14 @@ const RAIOX_INDUSTRIAS_DATA = {
             "2026-04": 4240.72,
             "2026-05": 6773.18,
             "2026-06": 996.16,
-            "2026-07": 6583.82
+            "2026-07": 6583.82,
+            "2026-08": 4207.9,
+            "2026-09": 4297.2
           },
-          "clientes_positivados": 21
+          "clientes_positivados": 28
         },
         "RJ-155": {
-          "faturamento_ytd": 26228.32,
+          "faturamento_ytd": 29077.22,
           "por_mes": {
             "2026-01": 6658.0,
             "2026-02": 4869.05,
@@ -5929,12 +7082,14 @@ const RAIOX_INDUSTRIAS_DATA = {
             "2026-04": 3127.34,
             "2026-05": 650.3,
             "2026-06": 6299.4,
-            "2026-07": 2060.48
+            "2026-07": 2060.48,
+            "2026-08": 2561.2,
+            "2026-09": 287.7
           },
-          "clientes_positivados": 43
+          "clientes_positivados": 44
         },
         "RJ-156": {
-          "faturamento_ytd": 173068.8,
+          "faturamento_ytd": 209430.3,
           "por_mes": {
             "2026-01": 20584.05,
             "2026-02": 26162.56,
@@ -5942,9 +7097,11 @@ const RAIOX_INDUSTRIAS_DATA = {
             "2026-04": 25631.1,
             "2026-05": 30089.76,
             "2026-06": 25298.92,
-            "2026-07": 11671.02
+            "2026-07": 11671.02,
+            "2026-08": 19615.64,
+            "2026-09": 16745.86
           },
-          "clientes_positivados": 112
+          "clientes_positivados": 117
         },
         "RJ-158": {
           "faturamento_ytd": 9174.42,
@@ -5957,7 +7114,7 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 7
         },
         "RJ-159": {
-          "faturamento_ytd": 5808.62,
+          "faturamento_ytd": 6318.82,
           "por_mes": {
             "2026-01": 295.9,
             "2026-02": 347.38,
@@ -5965,7 +7122,9 @@ const RAIOX_INDUSTRIAS_DATA = {
             "2026-04": 966.94,
             "2026-05": 229.5,
             "2026-06": 1701.0,
-            "2026-07": 1042.2
+            "2026-07": 1042.2,
+            "2026-08": 432.8,
+            "2026-09": 77.4
           },
           "clientes_positivados": 22
         },
@@ -5989,19 +7148,20 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 3
         },
         "RJ-275": {
-          "faturamento_ytd": 36375.09,
+          "faturamento_ytd": 37499.25,
           "por_mes": {
             "2026-01": 2374.32,
             "2026-02": 10104.72,
             "2026-03": 2576.4,
             "2026-04": 4629.0,
             "2026-05": 10135.83,
-            "2026-07": 6554.82
+            "2026-07": 6554.82,
+            "2026-08": 1124.16
           },
           "clientes_positivados": 7
         },
         "RJ-378": {
-          "faturamento_ytd": 42172.16,
+          "faturamento_ytd": 44683.36,
           "por_mes": {
             "2026-01": 2878.12,
             "2026-02": 3001.34,
@@ -6009,12 +7169,14 @@ const RAIOX_INDUSTRIAS_DATA = {
             "2026-04": 4276.39,
             "2026-05": 9789.7,
             "2026-06": 8456.2,
-            "2026-07": 5004.3
+            "2026-07": 5004.3,
+            "2026-08": 1389.0,
+            "2026-09": 1122.2
           },
-          "clientes_positivados": 35
+          "clientes_positivados": 36
         },
         "RJ-379": {
-          "faturamento_ytd": 8474.67,
+          "faturamento_ytd": 13426.44,
           "por_mes": {
             "2026-01": 1765.7,
             "2026-02": 1920.06,
@@ -6022,12 +7184,14 @@ const RAIOX_INDUSTRIAS_DATA = {
             "2026-04": 1563.66,
             "2026-05": 1245.6,
             "2026-06": 530.6,
-            "2026-07": 1031.76
+            "2026-07": 1031.76,
+            "2026-08": 4372.52,
+            "2026-09": 579.25
           },
-          "clientes_positivados": 30
+          "clientes_positivados": 39
         },
         "RJ-412": {
-          "faturamento_ytd": 65766.39,
+          "faturamento_ytd": 77086.97,
           "por_mes": {
             "2026-01": 3415.32,
             "2026-02": 13379.24,
@@ -6035,9 +7199,11 @@ const RAIOX_INDUSTRIAS_DATA = {
             "2026-04": 16901.61,
             "2026-05": 8996.44,
             "2026-06": 5105.36,
-            "2026-07": 10671.54
+            "2026-07": 10671.54,
+            "2026-08": 3335.06,
+            "2026-09": 7985.52
           },
-          "clientes_positivados": 54
+          "clientes_positivados": 56
         },
         "RJ-417": {
           "faturamento_ytd": 17945.45,
@@ -6053,7 +7219,7 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 19
         },
         "RJ-419": {
-          "faturamento_ytd": 45080.32,
+          "faturamento_ytd": 46634.7,
           "por_mes": {
             "2026-01": 15597.35,
             "2026-02": 2091.58,
@@ -6061,20 +7227,23 @@ const RAIOX_INDUSTRIAS_DATA = {
             "2026-04": 1985.88,
             "2026-05": 5294.77,
             "2026-06": 9743.14,
-            "2026-07": 4160.54
+            "2026-07": 3139.64,
+            "2026-08": 2315.98,
+            "2026-09": 259.3
           },
-          "clientes_positivados": 38
+          "clientes_positivados": 40
         },
         "RJ-420": {
-          "faturamento_ytd": 375251.16,
+          "faturamento_ytd": 416661.48,
           "por_mes": {
             "2026-05": 124619.16,
-            "2026-06": 250632.0
+            "2026-06": 250632.0,
+            "2026-08": 41410.32
           },
           "clientes_positivados": 2
         },
         "RJ-431": {
-          "faturamento_ytd": 54594.71,
+          "faturamento_ytd": 60858.69,
           "por_mes": {
             "2026-01": 1556.78,
             "2026-02": 8281.3,
@@ -6082,42 +7251,57 @@ const RAIOX_INDUSTRIAS_DATA = {
             "2026-04": 9210.25,
             "2026-05": 6835.94,
             "2026-06": 8146.43,
-            "2026-07": 3299.1
+            "2026-07": 3299.1,
+            "2026-08": 5766.54,
+            "2026-09": 497.44
           },
-          "clientes_positivados": 53
+          "clientes_positivados": 54
         },
         "RJ-439": {
-          "faturamento_ytd": 5990.4,
+          "faturamento_ytd": 7826.14,
           "por_mes": {
             "2026-01": 1782.68,
             "2026-02": 359.14,
             "2026-03": 375.88,
             "2026-04": 856.6,
-            "2026-07": 2616.1
+            "2026-07": 2616.1,
+            "2026-08": 1551.68,
+            "2026-09": 284.06
           },
-          "clientes_positivados": 18
+          "clientes_positivados": 23
         },
         "RJ-450": {
-          "faturamento_ytd": 55967.14,
+          "faturamento_ytd": 86036.46,
           "por_mes": {
             "2026-03": 5772.42,
             "2026-04": 191.8,
             "2026-05": 5309.0,
             "2026-06": 16155.58,
-            "2026-07": 28538.34
+            "2026-07": 28538.34,
+            "2026-08": 10838.72,
+            "2026-09": 19230.6
           },
-          "clientes_positivados": 52
+          "clientes_positivados": 57
+        },
+        "RJ-460": {
+          "faturamento_ytd": 47.88,
+          "por_mes": {
+            "2026-08": 47.88
+          },
+          "clientes_positivados": 1
         },
         "RJ-471": {
-          "faturamento_ytd": 13801.02,
+          "faturamento_ytd": 15865.68,
           "por_mes": {
             "2026-03": 973.74,
             "2026-04": 627.22,
             "2026-05": 2405.62,
             "2026-06": 7245.44,
-            "2026-07": 2549.0
+            "2026-07": 2549.0,
+            "2026-08": 1730.56,
+            "2026-09": 334.1
           },
-          "clientes_positivados": 40
+          "clientes_positivados": 48
         },
         "RJ-91": {
           "faturamento_ytd": 620.28,
@@ -6192,11 +7376,12 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 2
         },
         "SP-468": {
-          "faturamento_ytd": 1548.0,
+          "faturamento_ytd": 2548.8,
           "por_mes": {
             "2026-05": 309.6,
             "2026-06": 619.2,
-            "2026-07": 619.2
+            "2026-07": 619.2,
+            "2026-08": 1000.8
           },
           "clientes_positivados": 1
         },
@@ -6230,12 +7415,13 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 3
         },
         "SP-486": {
-          "faturamento_ytd": 928.8,
+          "faturamento_ytd": 1164.0,
           "por_mes": {
             "2026-06": 309.6,
-            "2026-07": 619.2
+            "2026-07": 619.2,
+            "2026-08": 235.2
           },
-          "clientes_positivados": 2
+          "clientes_positivados": 3
         },
         "SP-492": {
           "faturamento_ytd": 154.8,
@@ -6245,36 +7431,809 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 1
         },
         "SP-504": {
-          "faturamento_ytd": 1612.5,
+          "faturamento_ytd": 1946.1,
           "por_mes": {
-            "2026-07": 1612.5
+            "2026-07": 1612.5,
+            "2026-08": 333.6
+          },
+          "clientes_positivados": 5
+        },
+        "SP-513": {
+          "faturamento_ytd": 117.6,
+          "por_mes": {
+            "2026-08": 117.6
+          },
+          "clientes_positivados": 1
+        },
+        "SP-516": {
+          "faturamento_ytd": 2100.0,
+          "por_mes": {
+            "2026-07": 154.8,
+            "2026-08": 1611.6,
+            "2026-09": 333.6
           },
           "clientes_positivados": 4
         },
-        "SP-516": {
-          "faturamento_ytd": 154.8,
+        "SP-521": {
+          "faturamento_ytd": 1176.0,
           "por_mes": {
-            "2026-07": 154.8
+            "2026-08": 1176.0
           },
-          "clientes_positivados": 1
+          "clientes_positivados": 3
         }
       },
       "posicao": 11
     },
     {
+      "fantasia": "AURORA",
+      "faturamento_ytd": 1342091.99,
+      "participacao_pct": 1.69,
+      "faturamento_mes_atual": 18945.0,
+      "clientes_positivados": 672,
+      "por_mes": {
+        "2026-01": 113567.48,
+        "2026-02": 130556.22,
+        "2026-03": 71236.3,
+        "2026-04": 58326.36,
+        "2026-05": 152031.87,
+        "2026-06": 353667.95,
+        "2026-07": 226647.01,
+        "2026-08": 217113.8,
+        "2026-09": 18945.0
+      },
+      "por_vendedor": {
+        "ES-257": {
+          "faturamento_ytd": 451.09,
+          "por_mes": {
+            "2026-02": 259.24,
+            "2026-04": 191.85
+          },
+          "clientes_positivados": 1
+        },
+        "ES-260": {
+          "faturamento_ytd": 1084.36,
+          "por_mes": {
+            "2026-05": 1084.36
+          },
+          "clientes_positivados": 1
+        },
+        "ES-268": {
+          "faturamento_ytd": 1042.34,
+          "por_mes": {
+            "2026-01": 264.86,
+            "2026-02": 777.48
+          },
+          "clientes_positivados": 2
+        },
+        "ES-342": {
+          "faturamento_ytd": 520.0,
+          "por_mes": {
+            "2026-03": 520.0
+          },
+          "clientes_positivados": 2
+        },
+        "ES-402": {
+          "faturamento_ytd": 258.0,
+          "por_mes": {
+            "2026-04": 258.0
+          },
+          "clientes_positivados": 1
+        },
+        "MG-327": {
+          "faturamento_ytd": 17146.5,
+          "por_mes": {
+            "2026-01": 750.4,
+            "2026-02": 686.5,
+            "2026-03": 1102.2,
+            "2026-04": 3572.7,
+            "2026-05": 5064.0,
+            "2026-06": 2149.5,
+            "2026-07": 1143.1,
+            "2026-08": 2678.1
+          },
+          "clientes_positivados": 31
+        },
+        "MG-331": {
+          "faturamento_ytd": 7886.9,
+          "por_mes": {
+            "2026-01": 544.5,
+            "2026-02": 770.3,
+            "2026-03": 6572.1
+          },
+          "clientes_positivados": 14
+        },
+        "MG-335": {
+          "faturamento_ytd": 714.5,
+          "por_mes": {
+            "2026-02": 714.5
+          },
+          "clientes_positivados": 1
+        },
+        "MG-343": {
+          "faturamento_ytd": 43615.2,
+          "por_mes": {
+            "2026-01": 43615.2
+          },
+          "clientes_positivados": 1
+        },
+        "MG-344": {
+          "faturamento_ytd": 1727.8,
+          "por_mes": {
+            "2026-07": 978.3,
+            "2026-08": 749.5
+          },
+          "clientes_positivados": 4
+        },
+        "MG-349": {
+          "faturamento_ytd": 701.4,
+          "por_mes": {
+            "2026-01": 701.4
+          },
+          "clientes_positivados": 1
+        },
+        "MG-354": {
+          "faturamento_ytd": 72966.7,
+          "por_mes": {
+            "2026-01": 3899.0,
+            "2026-02": 1176.0,
+            "2026-03": 471.6,
+            "2026-04": 1491.0,
+            "2026-05": 28917.7,
+            "2026-06": 13858.2,
+            "2026-07": 10712.2,
+            "2026-08": 12441.0
+          },
+          "clientes_positivados": 27
+        },
+        "MG-360": {
+          "faturamento_ytd": 206402.5,
+          "por_mes": {
+            "2026-02": 79533.6,
+            "2026-03": 16676.4,
+            "2026-04": 8979.6,
+            "2026-05": 57489.7,
+            "2026-06": 7696.8,
+            "2026-07": 3956.4,
+            "2026-08": 32070.0
+          },
+          "clientes_positivados": 10
+        },
+        "MG-362": {
+          "faturamento_ytd": 3585.2,
+          "por_mes": {
+            "2026-05": 2955.7,
+            "2026-07": 629.5
+          },
+          "clientes_positivados": 7
+        },
+        "MG-378": {
+          "faturamento_ytd": 6453.6,
+          "por_mes": {
+            "2026-08": 6453.6
+          },
+          "clientes_positivados": 4
+        },
+        "MG-390": {
+          "faturamento_ytd": 320.7,
+          "por_mes": {
+            "2026-09": 320.7
+          },
+          "clientes_positivados": 1
+        },
+        "RJ-144": {
+          "faturamento_ytd": 5184.82,
+          "por_mes": {
+            "2026-01": 439.0,
+            "2026-04": 1338.42,
+            "2026-05": 1790.5,
+            "2026-06": 870.2,
+            "2026-07": 374.7,
+            "2026-09": 372.0
+          },
+          "clientes_positivados": 7
+        },
+        "RJ-153": {
+          "faturamento_ytd": 6013.18,
+          "por_mes": {
+            "2026-02": 148.9,
+            "2026-03": 968.46,
+            "2026-05": 357.6,
+            "2026-06": 644.4,
+            "2026-07": 3344.32,
+            "2026-08": 549.5
+          },
+          "clientes_positivados": 9
+        },
+        "RJ-155": {
+          "faturamento_ytd": 41115.9,
+          "por_mes": {
+            "2026-01": 9593.9,
+            "2026-02": 1982.3,
+            "2026-03": 1938.4,
+            "2026-04": 7423.9,
+            "2026-05": 3299.4,
+            "2026-06": 3260.5,
+            "2026-07": 5971.4,
+            "2026-08": 5397.9,
+            "2026-09": 2248.2
+          },
+          "clientes_positivados": 53
+        },
+        "RJ-156": {
+          "faturamento_ytd": 50221.21,
+          "por_mes": {
+            "2026-01": 73.7,
+            "2026-02": 20458.34,
+            "2026-03": 10666.34,
+            "2026-04": 1472.48,
+            "2026-05": 5244.89,
+            "2026-06": 4522.62,
+            "2026-07": 3272.32,
+            "2026-08": 4129.82,
+            "2026-09": 380.7
+          },
+          "clientes_positivados": 65
+        },
+        "RJ-158": {
+          "faturamento_ytd": 2260.4,
+          "por_mes": {
+            "2026-04": 715.2,
+            "2026-05": 540.96,
+            "2026-06": 719.76,
+            "2026-07": 284.48
+          },
+          "clientes_positivados": 1
+        },
+        "RJ-159": {
+          "faturamento_ytd": 51905.36,
+          "por_mes": {
+            "2026-01": 19817.0,
+            "2026-02": 2123.8,
+            "2026-03": 1668.6,
+            "2026-04": 1708.4,
+            "2026-05": 5182.8,
+            "2026-06": 6463.9,
+            "2026-07": 9207.68,
+            "2026-08": 4227.68,
+            "2026-09": 1505.5
+          },
+          "clientes_positivados": 51
+        },
+        "RJ-238": {
+          "faturamento_ytd": 832.6,
+          "por_mes": {
+            "2026-02": 273.0,
+            "2026-06": 559.6
+          },
+          "clientes_positivados": 2
+        },
+        "RJ-241": {
+          "faturamento_ytd": 1468.56,
+          "por_mes": {
+            "2026-01": 416.16,
+            "2026-02": 1052.4
+          },
+          "clientes_positivados": 2
+        },
+        "RJ-378": {
+          "faturamento_ytd": 7618.78,
+          "por_mes": {
+            "2026-02": 127.78,
+            "2026-04": 536.4,
+            "2026-05": 536.4,
+            "2026-07": 894.0,
+            "2026-08": 5524.2
+          },
+          "clientes_positivados": 7
+        },
+        "RJ-379": {
+          "faturamento_ytd": 7718.52,
+          "por_mes": {
+            "2026-01": 1430.0,
+            "2026-02": 275.8,
+            "2026-03": 714.5,
+            "2026-04": 1774.0,
+            "2026-05": 406.98,
+            "2026-07": 347.44,
+            "2026-08": 2769.8
+          },
+          "clientes_positivados": 21
+        },
+        "RJ-412": {
+          "faturamento_ytd": 5549.65,
+          "por_mes": {
+            "2026-02": 1843.83,
+            "2026-03": 269.8,
+            "2026-04": 2070.4,
+            "2026-05": 153.84,
+            "2026-06": 729.28,
+            "2026-08": 482.5
+          },
+          "clientes_positivados": 12
+        },
+        "RJ-417": {
+          "faturamento_ytd": 1590.4,
+          "por_mes": {
+            "2026-01": 1090.8,
+            "2026-02": 499.6
+          },
+          "clientes_positivados": 2
+        },
+        "RJ-419": {
+          "faturamento_ytd": 2822.98,
+          "por_mes": {
+            "2026-03": 339.8,
+            "2026-05": 259.8,
+            "2026-06": 849.48,
+            "2026-07": 999.2,
+            "2026-08": 124.9,
+            "2026-09": 249.8
+          },
+          "clientes_positivados": 8
+        },
+        "RJ-420": {
+          "faturamento_ytd": 99056.4,
+          "por_mes": {
+            "2026-06": 82017.6,
+            "2026-07": 17038.8
+          },
+          "clientes_positivados": 1
+        },
+        "RJ-431": {
+          "faturamento_ytd": 3958.83,
+          "por_mes": {
+            "2026-01": 307.8,
+            "2026-03": 839.4,
+            "2026-04": 95.68,
+            "2026-05": 152.38,
+            "2026-06": 1154.17,
+            "2026-07": 558.1,
+            "2026-08": 851.3
+          },
+          "clientes_positivados": 10
+        },
+        "RJ-439": {
+          "faturamento_ytd": 3225.3,
+          "por_mes": {
+            "2026-02": 543.6,
+            "2026-04": 1027.1,
+            "2026-05": 539.6,
+            "2026-06": 507.6,
+            "2026-08": 607.4
+          },
+          "clientes_positivados": 7
+        },
+        "RJ-450": {
+          "faturamento_ytd": 14724.57,
+          "por_mes": {
+            "2026-04": 3681.9,
+            "2026-05": 3342.69,
+            "2026-06": 990.62,
+            "2026-07": 2825.16,
+            "2026-08": 325.0,
+            "2026-09": 3559.2
+          },
+          "clientes_positivados": 12
+        },
+        "RJ-471": {
+          "faturamento_ytd": 17058.68,
+          "por_mes": {
+            "2026-03": 780.7,
+            "2026-04": 3615.88,
+            "2026-05": 3070.2,
+            "2026-06": 2209.8,
+            "2026-07": 4768.5,
+            "2026-08": 1464.6,
+            "2026-09": 1149.0
+          },
+          "clientes_positivados": 22
+        },
+        "SP-232": {
+          "faturamento_ytd": 478.8,
+          "por_mes": {
+            "2026-07": 478.8
+          },
+          "clientes_positivados": 1
+        },
+        "SP-317": {
+          "faturamento_ytd": 27860.82,
+          "por_mes": {
+            "2026-01": 3547.08,
+            "2026-02": 4729.44,
+            "2026-05": 5611.2,
+            "2026-06": 1042.5,
+            "2026-07": 3507.0,
+            "2026-08": 9423.6
+          },
+          "clientes_positivados": 11
+        },
+        "SP-318": {
+          "faturamento_ytd": 19260.0,
+          "por_mes": {
+            "2026-08": 19260.0
+          },
+          "clientes_positivados": 1
+        },
+        "SP-356": {
+          "faturamento_ytd": 497.44,
+          "por_mes": {
+            "2026-04": 497.44
+          },
+          "clientes_positivados": 1
+        },
+        "SP-371": {
+          "faturamento_ytd": 54881.74,
+          "por_mes": {
+            "2026-01": 278.7,
+            "2026-03": 3443.76,
+            "2026-04": 285.0,
+            "2026-06": 45698.4,
+            "2026-07": 487.18,
+            "2026-08": 732.0,
+            "2026-09": 3956.7
+          },
+          "clientes_positivados": 23
+        },
+        "SP-391": {
+          "faturamento_ytd": 97487.5,
+          "por_mes": {
+            "2026-01": 25260.9,
+            "2026-02": 9926.46,
+            "2026-03": 17264.64,
+            "2026-04": 2869.8,
+            "2026-06": 3439.9,
+            "2026-07": 38725.8
+          },
+          "clientes_positivados": 7
+        },
+        "SP-405": {
+          "faturamento_ytd": 8454.84,
+          "por_mes": {
+            "2026-03": 2920.68,
+            "2026-04": 5534.16
+          },
+          "clientes_positivados": 9
+        },
+        "SP-425": {
+          "faturamento_ytd": 21501.66,
+          "por_mes": {
+            "2026-01": 1537.08,
+            "2026-02": 984.99,
+            "2026-03": 682.94,
+            "2026-04": 1706.26,
+            "2026-05": 401.6,
+            "2026-06": 2667.2,
+            "2026-07": 4260.71,
+            "2026-08": 7554.48,
+            "2026-09": 1706.4
+          },
+          "clientes_positivados": 19
+        },
+        "SP-426": {
+          "faturamento_ytd": 140294.0,
+          "por_mes": {
+            "2026-03": 3109.0,
+            "2026-04": 5739.6,
+            "2026-05": 14308.7,
+            "2026-06": 82832.4,
+            "2026-07": 30797.3,
+            "2026-08": 3507.0
+          },
+          "clientes_positivados": 23
+        },
+        "SP-428": {
+          "faturamento_ytd": 10108.52,
+          "por_mes": {
+            "2026-02": 1668.36,
+            "2026-04": 1340.22,
+            "2026-05": 427.74,
+            "2026-07": 6072.7,
+            "2026-08": 599.5
+          },
+          "clientes_positivados": 2
+        },
+        "SP-433": {
+          "faturamento_ytd": 63549.1,
+          "por_mes": {
+            "2026-05": 701.4,
+            "2026-06": 39556.8,
+            "2026-07": 22284.1,
+            "2026-08": 1006.8
+          },
+          "clientes_positivados": 13
+        },
+        "SP-438": {
+          "faturamento_ytd": 10635.34,
+          "por_mes": {
+            "2026-03": 286.98,
+            "2026-05": 2666.02,
+            "2026-06": 7682.34
+          },
+          "clientes_positivados": 8
+        },
+        "SP-460": {
+          "faturamento_ytd": 10451.56,
+          "por_mes": {
+            "2026-05": 2607.6,
+            "2026-06": 1369.36,
+            "2026-07": 4185.3,
+            "2026-08": 2289.3
+          },
+          "clientes_positivados": 16
+        },
+        "SP-461": {
+          "faturamento_ytd": 2092.06,
+          "por_mes": {
+            "2026-04": 400.98,
+            "2026-05": 503.4,
+            "2026-06": 259.48,
+            "2026-07": 701.4,
+            "2026-08": 226.8
+          },
+          "clientes_positivados": 6
+        },
+        "SP-462": {
+          "faturamento_ytd": 7014.0,
+          "por_mes": {
+            "2026-06": 7014.0
+          },
+          "clientes_positivados": 1
+        },
+        "SP-463": {
+          "faturamento_ytd": 4594.92,
+          "por_mes": {
+            "2026-06": 2610.72,
+            "2026-07": 701.4,
+            "2026-08": 1282.8
+          },
+          "clientes_positivados": 2
+        },
+        "SP-464": {
+          "faturamento_ytd": 647.4,
+          "por_mes": {
+            "2026-07": 167.8,
+            "2026-08": 479.6
+          },
+          "clientes_positivados": 2
+        },
+        "SP-466": {
+          "faturamento_ytd": 10142.8,
+          "por_mes": {
+            "2026-05": 701.4,
+            "2026-06": 5233.0,
+            "2026-07": 4208.4
+          },
+          "clientes_positivados": 5
+        },
+        "SP-467": {
+          "faturamento_ytd": 7594.8,
+          "por_mes": {
+            "2026-08": 6156.0,
+            "2026-09": 1438.8
+          },
+          "clientes_positivados": 5
+        },
+        "SP-468": {
+          "faturamento_ytd": 2775.9,
+          "por_mes": {
+            "2026-05": 350.7,
+            "2026-08": 2425.2
+          },
+          "clientes_positivados": 3
+        },
+        "SP-469": {
+          "faturamento_ytd": 3896.3,
+          "por_mes": {
+            "2026-07": 3896.3
+          },
+          "clientes_positivados": 5
+        },
+        "SP-470": {
+          "faturamento_ytd": 53900.4,
+          "por_mes": {
+            "2026-06": 335.6,
+            "2026-07": 167.8,
+            "2026-08": 53397.0
+          },
+          "clientes_positivados": 3
+        },
+        "SP-471": {
+          "faturamento_ytd": 2582.5,
+          "por_mes": {
+            "2026-06": 1917.2,
+            "2026-07": 665.3
+          },
+          "clientes_positivados": 4
+        },
+        "SP-472": {
+          "faturamento_ytd": 4242.88,
+          "por_mes": {
+            "2026-06": 4027.2,
+            "2026-07": 215.68
+          },
+          "clientes_positivados": 3
+        },
+        "SP-473": {
+          "faturamento_ytd": 1240.6,
+          "por_mes": {
+            "2026-06": 1240.6
+          },
+          "clientes_positivados": 2
+        },
+        "SP-474": {
+          "faturamento_ytd": 1775.02,
+          "por_mes": {
+            "2026-06": 968.72,
+            "2026-07": 806.3
+          },
+          "clientes_positivados": 4
+        },
+        "SP-475": {
+          "faturamento_ytd": 701.4,
+          "por_mes": {
+            "2026-08": 701.4
+          },
+          "clientes_positivados": 3
+        },
+        "SP-476": {
+          "faturamento_ytd": 27062.46,
+          "por_mes": {
+            "2026-05": 3362.6,
+            "2026-06": 7713.8,
+            "2026-07": 14163.72,
+            "2026-08": 1822.34
+          },
+          "clientes_positivados": 25
+        },
+        "SP-477": {
+          "faturamento_ytd": 5095.7,
+          "por_mes": {
+            "2026-06": 818.3,
+            "2026-07": 1052.1,
+            "2026-08": 2865.6,
+            "2026-09": 359.7
+          },
+          "clientes_positivados": 7
+        },
+        "SP-486": {
+          "faturamento_ytd": 11095.64,
+          "por_mes": {
+            "2026-06": 2002.9,
+            "2026-07": 4803.74,
+            "2026-08": 3499.8,
+            "2026-09": 789.2
+          },
+          "clientes_positivados": 17
+        },
+        "SP-487": {
+          "faturamento_ytd": 1006.8,
+          "por_mes": {
+            "2026-07": 1006.8
+          },
+          "clientes_positivados": 1
+        },
+        "SP-489": {
+          "faturamento_ytd": 5461.88,
+          "por_mes": {
+            "2026-06": 2058.9,
+            "2026-07": 1690.38,
+            "2026-08": 1540.8,
+            "2026-09": 171.8
+          },
+          "clientes_positivados": 6
+        },
+        "SP-490": {
+          "faturamento_ytd": 2370.9,
+          "por_mes": {
+            "2026-07": 1753.5,
+            "2026-08": 617.4
+          },
+          "clientes_positivados": 5
+        },
+        "SP-491": {
+          "faturamento_ytd": 5347.2,
+          "por_mes": {
+            "2026-06": 3974.6,
+            "2026-07": 1372.6
+          },
+          "clientes_positivados": 4
+        },
+        "SP-496": {
+          "faturamento_ytd": 2828.4,
+          "por_mes": {
+            "2026-07": 1006.8,
+            "2026-08": 1821.6
+          },
+          "clientes_positivados": 1
+        },
+        "SP-498": {
+          "faturamento_ytd": 1339.8,
+          "por_mes": {
+            "2026-07": 866.2,
+            "2026-08": 473.6
+          },
+          "clientes_positivados": 4
+        },
+        "SP-500": {
+          "faturamento_ytd": 257.7,
+          "por_mes": {
+            "2026-09": 257.7
+          },
+          "clientes_positivados": 1
+        },
+        "SP-504": {
+          "faturamento_ytd": 8766.5,
+          "por_mes": {
+            "2026-07": 6782.5,
+            "2026-08": 1984.0
+          },
+          "clientes_positivados": 9
+        },
+        "SP-508": {
+          "faturamento_ytd": 224.7,
+          "por_mes": {
+            "2026-07": 224.7
+          },
+          "clientes_positivados": 1
+        },
+        "SP-510": {
+          "faturamento_ytd": 717.3,
+          "por_mes": {
+            "2026-08": 357.6,
+            "2026-09": 359.7
+          },
+          "clientes_positivados": 3
+        },
+        "SP-512": {
+          "faturamento_ytd": 9474.3,
+          "por_mes": {
+            "2026-07": 676.5,
+            "2026-08": 8797.8
+          },
+          "clientes_positivados": 6
+        },
+        "SP-513": {
+          "faturamento_ytd": 1402.8,
+          "por_mes": {
+            "2026-07": 1402.8
+          },
+          "clientes_positivados": 1
+        },
+        "SP-515": {
+          "faturamento_ytd": 171.8,
+          "por_mes": {
+            "2026-08": 171.8
+          },
+          "clientes_positivados": 1
+        },
+        "SP-516": {
+          "faturamento_ytd": 3602.88,
+          "por_mes": {
+            "2026-07": 209.8,
+            "2026-08": 3273.18,
+            "2026-09": 119.9
+          },
+          "clientes_positivados": 10
+        }
+      },
+      "posicao": 12
+    },
+    {
       "fantasia": "HENNESSY",
-      "faturamento_ytd": 1130045.03,
-      "participacao_pct": 1.77,
-      "faturamento_mes_atual": 98534.98,
-      "clientes_positivados": 238,
+      "faturamento_ytd": 1272394.07,
+      "participacao_pct": 1.6,
+      "faturamento_mes_atual": 48494.4,
+      "clientes_positivados": 250,
       "por_mes": {
         "2026-01": 476090.87,
         "2026-02": 145176.97,
         "2026-03": 83077.31,
         "2026-04": 101362.75,
         "2026-05": 95849.42,
-        "2026-06": 129952.74,
-        "2026-07": 98534.98
+        "2026-06": 129004.74,
+        "2026-07": 96761.38,
+        "2026-08": 96576.24,
+        "2026-09": 48494.4
       },
       "por_vendedor": {
         "ES-230": {
@@ -6388,37 +8347,41 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 3
         },
         "ES-508": {
-          "faturamento_ytd": 1814.22,
+          "faturamento_ytd": 21816.36,
           "por_mes": {
-            "2026-07": 1814.22
+            "2026-07": 1814.22,
+            "2026-08": 20002.14
           },
-          "clientes_positivados": 2
+          "clientes_positivados": 4
         },
         "RJ-144": {
-          "faturamento_ytd": 75034.6,
+          "faturamento_ytd": 85856.2,
           "por_mes": {
             "2026-01": 12343.74,
             "2026-02": 14218.8,
             "2026-04": 6191.8,
             "2026-05": 16382.7,
             "2026-06": 13518.06,
-            "2026-07": 12379.5
+            "2026-07": 12379.5,
+            "2026-08": 3607.2,
+            "2026-09": 7214.4
           },
-          "clientes_positivados": 6
+          "clientes_positivados": 7
         },
         "RJ-153": {
-          "faturamento_ytd": 7669.85,
+          "faturamento_ytd": 11346.25,
           "por_mes": {
             "2026-03": 437.88,
             "2026-04": 1693.87,
             "2026-05": 3441.4,
             "2026-06": 707.1,
-            "2026-07": 1389.6
+            "2026-07": 1389.6,
+            "2026-08": 3676.4
           },
-          "clientes_positivados": 9
+          "clientes_positivados": 11
         },
         "RJ-155": {
-          "faturamento_ytd": 59254.8,
+          "faturamento_ytd": 68488.4,
           "por_mes": {
             "2026-01": 12249.7,
             "2026-02": 10484.7,
@@ -6426,12 +8389,14 @@ const RAIOX_INDUSTRIAS_DATA = {
             "2026-04": 7069.5,
             "2026-05": 6536.7,
             "2026-06": 9204.9,
-            "2026-07": 5710.9
+            "2026-07": 5710.9,
+            "2026-08": 6842.3,
+            "2026-09": 2391.3
           },
-          "clientes_positivados": 40
+          "clientes_positivados": 43
         },
         "RJ-156": {
-          "faturamento_ytd": 24103.0,
+          "faturamento_ytd": 27316.6,
           "por_mes": {
             "2026-01": 1982.3,
             "2026-02": 6967.3,
@@ -6439,9 +8404,10 @@ const RAIOX_INDUSTRIAS_DATA = {
             "2026-04": 3366.2,
             "2026-05": 3174.5,
             "2026-06": 5147.0,
-            "2026-07": 518.3
+            "2026-07": 518.3,
+            "2026-08": 3213.6
           },
-          "clientes_positivados": 26
+          "clientes_positivados": 29
         },
         "RJ-158": {
           "faturamento_ytd": 139403.76,
@@ -6456,7 +8422,7 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 7
         },
         "RJ-159": {
-          "faturamento_ytd": 117361.55,
+          "faturamento_ytd": 129607.35,
           "por_mes": {
             "2026-01": 21407.6,
             "2026-02": 11617.2,
@@ -6464,7 +8430,9 @@ const RAIOX_INDUSTRIAS_DATA = {
             "2026-04": 5937.8,
             "2026-05": 22230.95,
             "2026-06": 5596.1,
-            "2026-07": 34309.6
+            "2026-07": 32536.0,
+            "2026-08": 1175.2,
+            "2026-09": 12844.2
           },
           "clientes_positivados": 38
         },
@@ -6482,33 +8450,36 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 16
         },
         "RJ-275": {
-          "faturamento_ytd": 66920.4,
+          "faturamento_ytd": 65972.4,
           "por_mes": {
             "2026-01": 48888.0,
             "2026-02": 1708.8,
             "2026-05": 7654.2,
-            "2026-06": 4524.0,
+            "2026-06": 3576.0,
             "2026-07": 4145.4
           },
-          "clientes_positivados": 11
+          "clientes_positivados": 10
         },
         "RJ-378": {
-          "faturamento_ytd": 994.8,
+          "faturamento_ytd": 2286.0,
           "por_mes": {
-            "2026-06": 994.8
+            "2026-06": 994.8,
+            "2026-09": 1291.2
           },
-          "clientes_positivados": 1
+          "clientes_positivados": 2
         },
         "RJ-379": {
-          "faturamento_ytd": 3845.7,
+          "faturamento_ytd": 42651.9,
           "por_mes": {
             "2026-02": 790.8,
             "2026-03": 74.0,
             "2026-04": 59.8,
             "2026-05": 419.4,
-            "2026-07": 2501.7
+            "2026-07": 2501.7,
+            "2026-08": 35950.2,
+            "2026-09": 2856.0
           },
-          "clientes_positivados": 4
+          "clientes_positivados": 6
         },
         "RJ-412": {
           "faturamento_ytd": 780.6,
@@ -6546,36 +8517,41 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 1
         },
         "RJ-439": {
-          "faturamento_ytd": 3537.9,
+          "faturamento_ytd": 4437.3,
           "por_mes": {
             "2026-01": 218.7,
             "2026-02": 886.8,
             "2026-04": 1509.6,
             "2026-05": 479.4,
-            "2026-07": 443.4
+            "2026-07": 443.4,
+            "2026-08": 899.4
           },
-          "clientes_positivados": 4
+          "clientes_positivados": 5
         },
         "RJ-450": {
-          "faturamento_ytd": 57381.46,
+          "faturamento_ytd": 98956.46,
           "por_mes": {
             "2026-04": 2237.7,
             "2026-05": 9653.28,
             "2026-06": 36161.8,
-            "2026-07": 9328.68
+            "2026-07": 9328.68,
+            "2026-08": 20754.4,
+            "2026-09": 20820.6
           },
-          "clientes_positivados": 14
+          "clientes_positivados": 16
         },
         "RJ-471": {
-          "faturamento_ytd": 8220.8,
+          "faturamento_ytd": 9752.9,
           "por_mes": {
             "2026-03": 2224.8,
             "2026-04": 776.0,
             "2026-05": 914.7,
             "2026-06": 2809.4,
-            "2026-07": 1495.9
+            "2026-07": 1495.9,
+            "2026-08": 455.4,
+            "2026-09": 1076.7
           },
-          "clientes_positivados": 8
+          "clientes_positivados": 10
         },
         "RJ-91": {
           "faturamento_ytd": 36000.0,
@@ -6585,658 +8561,14 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 1
         }
       },
-      "posicao": 12
-    },
-    {
-      "fantasia": "AURORA",
-      "faturamento_ytd": 1121421.99,
-      "participacao_pct": 1.76,
-      "faturamento_mes_atual": 241136.71,
-      "clientes_positivados": 566,
-      "por_mes": {
-        "2026-01": 113567.48,
-        "2026-02": 130556.22,
-        "2026-03": 71236.3,
-        "2026-04": 58326.36,
-        "2026-05": 152031.87,
-        "2026-06": 354567.05,
-        "2026-07": 241136.71
-      },
-      "por_vendedor": {
-        "ES-257": {
-          "faturamento_ytd": 451.09,
-          "por_mes": {
-            "2026-02": 259.24,
-            "2026-04": 191.85
-          },
-          "clientes_positivados": 1
-        },
-        "ES-260": {
-          "faturamento_ytd": 1084.36,
-          "por_mes": {
-            "2026-05": 1084.36
-          },
-          "clientes_positivados": 1
-        },
-        "ES-268": {
-          "faturamento_ytd": 1042.34,
-          "por_mes": {
-            "2026-01": 264.86,
-            "2026-02": 777.48
-          },
-          "clientes_positivados": 2
-        },
-        "ES-342": {
-          "faturamento_ytd": 520.0,
-          "por_mes": {
-            "2026-03": 520.0
-          },
-          "clientes_positivados": 2
-        },
-        "ES-402": {
-          "faturamento_ytd": 258.0,
-          "por_mes": {
-            "2026-04": 258.0
-          },
-          "clientes_positivados": 1
-        },
-        "MG-327": {
-          "faturamento_ytd": 14468.4,
-          "por_mes": {
-            "2026-01": 750.4,
-            "2026-02": 686.5,
-            "2026-03": 1102.2,
-            "2026-04": 3572.7,
-            "2026-05": 5064.0,
-            "2026-06": 2149.5,
-            "2026-07": 1143.1
-          },
-          "clientes_positivados": 28
-        },
-        "MG-331": {
-          "faturamento_ytd": 7886.9,
-          "por_mes": {
-            "2026-01": 544.5,
-            "2026-02": 770.3,
-            "2026-03": 6572.1
-          },
-          "clientes_positivados": 14
-        },
-        "MG-335": {
-          "faturamento_ytd": 714.5,
-          "por_mes": {
-            "2026-02": 714.5
-          },
-          "clientes_positivados": 1
-        },
-        "MG-343": {
-          "faturamento_ytd": 43615.2,
-          "por_mes": {
-            "2026-01": 43615.2
-          },
-          "clientes_positivados": 1
-        },
-        "MG-344": {
-          "faturamento_ytd": 978.3,
-          "por_mes": {
-            "2026-07": 978.3
-          },
-          "clientes_positivados": 2
-        },
-        "MG-349": {
-          "faturamento_ytd": 701.4,
-          "por_mes": {
-            "2026-01": 701.4
-          },
-          "clientes_positivados": 1
-        },
-        "MG-354": {
-          "faturamento_ytd": 60855.4,
-          "por_mes": {
-            "2026-01": 3899.0,
-            "2026-02": 1176.0,
-            "2026-03": 471.6,
-            "2026-04": 1491.0,
-            "2026-05": 28917.7,
-            "2026-06": 13858.2,
-            "2026-07": 11041.9
-          },
-          "clientes_positivados": 26
-        },
-        "MG-360": {
-          "faturamento_ytd": 174332.5,
-          "por_mes": {
-            "2026-02": 79533.6,
-            "2026-03": 16676.4,
-            "2026-04": 8979.6,
-            "2026-05": 57489.7,
-            "2026-06": 7696.8,
-            "2026-07": 3956.4
-          },
-          "clientes_positivados": 10
-        },
-        "MG-362": {
-          "faturamento_ytd": 3585.2,
-          "por_mes": {
-            "2026-05": 2955.7,
-            "2026-07": 629.5
-          },
-          "clientes_positivados": 7
-        },
-        "RJ-144": {
-          "faturamento_ytd": 4812.82,
-          "por_mes": {
-            "2026-01": 439.0,
-            "2026-04": 1338.42,
-            "2026-05": 1790.5,
-            "2026-06": 870.2,
-            "2026-07": 374.7
-          },
-          "clientes_positivados": 6
-        },
-        "RJ-153": {
-          "faturamento_ytd": 5463.68,
-          "por_mes": {
-            "2026-02": 148.9,
-            "2026-03": 968.46,
-            "2026-05": 357.6,
-            "2026-06": 644.4,
-            "2026-07": 3344.32
-          },
-          "clientes_positivados": 7
-        },
-        "RJ-155": {
-          "faturamento_ytd": 33469.8,
-          "por_mes": {
-            "2026-01": 9593.9,
-            "2026-02": 1982.3,
-            "2026-03": 1938.4,
-            "2026-04": 7423.9,
-            "2026-05": 3299.4,
-            "2026-06": 3260.5,
-            "2026-07": 5971.4
-          },
-          "clientes_positivados": 47
-        },
-        "RJ-156": {
-          "faturamento_ytd": 45710.69,
-          "por_mes": {
-            "2026-01": 73.7,
-            "2026-02": 20458.34,
-            "2026-03": 10666.34,
-            "2026-04": 1472.48,
-            "2026-05": 5244.89,
-            "2026-06": 4522.62,
-            "2026-07": 3272.32
-          },
-          "clientes_positivados": 65
-        },
-        "RJ-158": {
-          "faturamento_ytd": 2260.4,
-          "por_mes": {
-            "2026-04": 715.2,
-            "2026-05": 540.96,
-            "2026-06": 719.76,
-            "2026-07": 284.48
-          },
-          "clientes_positivados": 1
-        },
-        "RJ-159": {
-          "faturamento_ytd": 47071.28,
-          "por_mes": {
-            "2026-01": 19817.0,
-            "2026-02": 2123.8,
-            "2026-03": 1668.6,
-            "2026-04": 1708.4,
-            "2026-05": 5182.8,
-            "2026-06": 7363.0,
-            "2026-07": 9207.68
-          },
-          "clientes_positivados": 50
-        },
-        "RJ-238": {
-          "faturamento_ytd": 14992.6,
-          "por_mes": {
-            "2026-02": 273.0,
-            "2026-06": 559.6,
-            "2026-07": 14160.0
-          },
-          "clientes_positivados": 3
-        },
-        "RJ-241": {
-          "faturamento_ytd": 1468.56,
-          "por_mes": {
-            "2026-01": 416.16,
-            "2026-02": 1052.4
-          },
-          "clientes_positivados": 2
-        },
-        "RJ-378": {
-          "faturamento_ytd": 2094.58,
-          "por_mes": {
-            "2026-02": 127.78,
-            "2026-04": 536.4,
-            "2026-05": 536.4,
-            "2026-07": 894.0
-          },
-          "clientes_positivados": 5
-        },
-        "RJ-379": {
-          "faturamento_ytd": 4948.72,
-          "por_mes": {
-            "2026-01": 1430.0,
-            "2026-02": 275.8,
-            "2026-03": 714.5,
-            "2026-04": 1774.0,
-            "2026-05": 406.98,
-            "2026-07": 347.44
-          },
-          "clientes_positivados": 17
-        },
-        "RJ-412": {
-          "faturamento_ytd": 5067.15,
-          "por_mes": {
-            "2026-02": 1843.83,
-            "2026-03": 269.8,
-            "2026-04": 2070.4,
-            "2026-05": 153.84,
-            "2026-06": 729.28
-          },
-          "clientes_positivados": 9
-        },
-        "RJ-417": {
-          "faturamento_ytd": 1590.4,
-          "por_mes": {
-            "2026-01": 1090.8,
-            "2026-02": 499.6
-          },
-          "clientes_positivados": 2
-        },
-        "RJ-419": {
-          "faturamento_ytd": 2448.28,
-          "por_mes": {
-            "2026-03": 339.8,
-            "2026-05": 259.8,
-            "2026-06": 849.48,
-            "2026-07": 999.2
-          },
-          "clientes_positivados": 6
-        },
-        "RJ-420": {
-          "faturamento_ytd": 99056.4,
-          "por_mes": {
-            "2026-06": 82017.6,
-            "2026-07": 17038.8
-          },
-          "clientes_positivados": 1
-        },
-        "RJ-431": {
-          "faturamento_ytd": 3107.53,
-          "por_mes": {
-            "2026-01": 307.8,
-            "2026-03": 839.4,
-            "2026-04": 95.68,
-            "2026-05": 152.38,
-            "2026-06": 1154.17,
-            "2026-07": 558.1
-          },
-          "clientes_positivados": 9
-        },
-        "RJ-439": {
-          "faturamento_ytd": 2617.9,
-          "por_mes": {
-            "2026-02": 543.6,
-            "2026-04": 1027.1,
-            "2026-05": 539.6,
-            "2026-06": 507.6
-          },
-          "clientes_positivados": 5
-        },
-        "RJ-450": {
-          "faturamento_ytd": 10840.37,
-          "por_mes": {
-            "2026-04": 3681.9,
-            "2026-05": 3342.69,
-            "2026-06": 990.62,
-            "2026-07": 2825.16
-          },
-          "clientes_positivados": 8
-        },
-        "RJ-471": {
-          "faturamento_ytd": 14445.08,
-          "por_mes": {
-            "2026-03": 780.7,
-            "2026-04": 3615.88,
-            "2026-05": 3070.2,
-            "2026-06": 2209.8,
-            "2026-07": 4768.5
-          },
-          "clientes_positivados": 21
-        },
-        "SP-232": {
-          "faturamento_ytd": 478.8,
-          "por_mes": {
-            "2026-07": 478.8
-          },
-          "clientes_positivados": 1
-        },
-        "SP-317": {
-          "faturamento_ytd": 18437.22,
-          "por_mes": {
-            "2026-01": 3547.08,
-            "2026-02": 4729.44,
-            "2026-05": 5611.2,
-            "2026-06": 1042.5,
-            "2026-07": 3507.0
-          },
-          "clientes_positivados": 8
-        },
-        "SP-356": {
-          "faturamento_ytd": 497.44,
-          "por_mes": {
-            "2026-04": 497.44
-          },
-          "clientes_positivados": 1
-        },
-        "SP-371": {
-          "faturamento_ytd": 50193.04,
-          "por_mes": {
-            "2026-01": 278.7,
-            "2026-03": 3443.76,
-            "2026-04": 285.0,
-            "2026-06": 45698.4,
-            "2026-07": 487.18
-          },
-          "clientes_positivados": 12
-        },
-        "SP-391": {
-          "faturamento_ytd": 97487.5,
-          "por_mes": {
-            "2026-01": 25260.9,
-            "2026-02": 9926.46,
-            "2026-03": 17264.64,
-            "2026-04": 2869.8,
-            "2026-06": 3439.9,
-            "2026-07": 38725.8
-          },
-          "clientes_positivados": 7
-        },
-        "SP-405": {
-          "faturamento_ytd": 8454.84,
-          "por_mes": {
-            "2026-03": 2920.68,
-            "2026-04": 5534.16
-          },
-          "clientes_positivados": 9
-        },
-        "SP-425": {
-          "faturamento_ytd": 12240.78,
-          "por_mes": {
-            "2026-01": 1537.08,
-            "2026-02": 984.99,
-            "2026-03": 682.94,
-            "2026-04": 1706.26,
-            "2026-05": 401.6,
-            "2026-06": 2667.2,
-            "2026-07": 4260.71
-          },
-          "clientes_positivados": 10
-        },
-        "SP-426": {
-          "faturamento_ytd": 136787.0,
-          "por_mes": {
-            "2026-03": 3109.0,
-            "2026-04": 5739.6,
-            "2026-05": 14308.7,
-            "2026-06": 82832.4,
-            "2026-07": 30797.3
-          },
-          "clientes_positivados": 23
-        },
-        "SP-428": {
-          "faturamento_ytd": 9509.02,
-          "por_mes": {
-            "2026-02": 1668.36,
-            "2026-04": 1340.22,
-            "2026-05": 427.74,
-            "2026-07": 6072.7
-          },
-          "clientes_positivados": 2
-        },
-        "SP-433": {
-          "faturamento_ytd": 62542.3,
-          "por_mes": {
-            "2026-05": 701.4,
-            "2026-06": 39556.8,
-            "2026-07": 22284.1
-          },
-          "clientes_positivados": 12
-        },
-        "SP-438": {
-          "faturamento_ytd": 10635.34,
-          "por_mes": {
-            "2026-03": 286.98,
-            "2026-05": 2666.02,
-            "2026-06": 7682.34
-          },
-          "clientes_positivados": 8
-        },
-        "SP-460": {
-          "faturamento_ytd": 8162.26,
-          "por_mes": {
-            "2026-05": 2607.6,
-            "2026-06": 1369.36,
-            "2026-07": 4185.3
-          },
-          "clientes_positivados": 14
-        },
-        "SP-461": {
-          "faturamento_ytd": 1865.26,
-          "por_mes": {
-            "2026-04": 400.98,
-            "2026-05": 503.4,
-            "2026-06": 259.48,
-            "2026-07": 701.4
-          },
-          "clientes_positivados": 5
-        },
-        "SP-462": {
-          "faturamento_ytd": 7014.0,
-          "por_mes": {
-            "2026-06": 7014.0
-          },
-          "clientes_positivados": 1
-        },
-        "SP-463": {
-          "faturamento_ytd": 3312.12,
-          "por_mes": {
-            "2026-06": 2610.72,
-            "2026-07": 701.4
-          },
-          "clientes_positivados": 2
-        },
-        "SP-464": {
-          "faturamento_ytd": 167.8,
-          "por_mes": {
-            "2026-07": 167.8
-          },
-          "clientes_positivados": 1
-        },
-        "SP-466": {
-          "faturamento_ytd": 10142.8,
-          "por_mes": {
-            "2026-05": 701.4,
-            "2026-06": 5233.0,
-            "2026-07": 4208.4
-          },
-          "clientes_positivados": 5
-        },
-        "SP-468": {
-          "faturamento_ytd": 350.7,
-          "por_mes": {
-            "2026-05": 350.7
-          },
-          "clientes_positivados": 1
-        },
-        "SP-469": {
-          "faturamento_ytd": 3896.3,
-          "por_mes": {
-            "2026-07": 3896.3
-          },
-          "clientes_positivados": 5
-        },
-        "SP-470": {
-          "faturamento_ytd": 503.4,
-          "por_mes": {
-            "2026-06": 335.6,
-            "2026-07": 167.8
-          },
-          "clientes_positivados": 2
-        },
-        "SP-471": {
-          "faturamento_ytd": 2582.5,
-          "por_mes": {
-            "2026-06": 1917.2,
-            "2026-07": 665.3
-          },
-          "clientes_positivados": 4
-        },
-        "SP-472": {
-          "faturamento_ytd": 4242.88,
-          "por_mes": {
-            "2026-06": 4027.2,
-            "2026-07": 215.68
-          },
-          "clientes_positivados": 3
-        },
-        "SP-473": {
-          "faturamento_ytd": 1240.6,
-          "por_mes": {
-            "2026-06": 1240.6
-          },
-          "clientes_positivados": 2
-        },
-        "SP-474": {
-          "faturamento_ytd": 1775.02,
-          "por_mes": {
-            "2026-06": 968.72,
-            "2026-07": 806.3
-          },
-          "clientes_positivados": 4
-        },
-        "SP-476": {
-          "faturamento_ytd": 25240.12,
-          "por_mes": {
-            "2026-05": 3362.6,
-            "2026-06": 7713.8,
-            "2026-07": 14163.72
-          },
-          "clientes_positivados": 23
-        },
-        "SP-477": {
-          "faturamento_ytd": 1870.4,
-          "por_mes": {
-            "2026-06": 818.3,
-            "2026-07": 1052.1
-          },
-          "clientes_positivados": 3
-        },
-        "SP-486": {
-          "faturamento_ytd": 6806.64,
-          "por_mes": {
-            "2026-06": 2002.9,
-            "2026-07": 4803.74
-          },
-          "clientes_positivados": 12
-        },
-        "SP-487": {
-          "faturamento_ytd": 1006.8,
-          "por_mes": {
-            "2026-07": 1006.8
-          },
-          "clientes_positivados": 1
-        },
-        "SP-489": {
-          "faturamento_ytd": 3749.28,
-          "por_mes": {
-            "2026-06": 2058.9,
-            "2026-07": 1690.38
-          },
-          "clientes_positivados": 6
-        },
-        "SP-490": {
-          "faturamento_ytd": 1753.5,
-          "por_mes": {
-            "2026-07": 1753.5
-          },
-          "clientes_positivados": 4
-        },
-        "SP-491": {
-          "faturamento_ytd": 5347.2,
-          "por_mes": {
-            "2026-06": 3974.6,
-            "2026-07": 1372.6
-          },
-          "clientes_positivados": 4
-        },
-        "SP-496": {
-          "faturamento_ytd": 1006.8,
-          "por_mes": {
-            "2026-07": 1006.8
-          },
-          "clientes_positivados": 1
-        },
-        "SP-498": {
-          "faturamento_ytd": 866.2,
-          "por_mes": {
-            "2026-07": 866.2
-          },
-          "clientes_positivados": 3
-        },
-        "SP-504": {
-          "faturamento_ytd": 6782.5,
-          "por_mes": {
-            "2026-07": 6782.5
-          },
-          "clientes_positivados": 6
-        },
-        "SP-508": {
-          "faturamento_ytd": 224.7,
-          "por_mes": {
-            "2026-07": 224.7
-          },
-          "clientes_positivados": 1
-        },
-        "SP-512": {
-          "faturamento_ytd": 676.5,
-          "por_mes": {
-            "2026-07": 676.5
-          },
-          "clientes_positivados": 3
-        },
-        "SP-513": {
-          "faturamento_ytd": 1402.8,
-          "por_mes": {
-            "2026-07": 1402.8
-          },
-          "clientes_positivados": 1
-        },
-        "SP-516": {
-          "faturamento_ytd": 209.8,
-          "por_mes": {
-            "2026-07": 209.8
-          },
-          "clientes_positivados": 1
-        }
-      },
       "posicao": 13
     },
     {
       "fantasia": "KAISER",
-      "faturamento_ytd": 974333.01,
-      "participacao_pct": 1.53,
-      "faturamento_mes_atual": 95910.01,
-      "clientes_positivados": 193,
+      "faturamento_ytd": 1049886.9,
+      "participacao_pct": 1.32,
+      "faturamento_mes_atual": 21278.2,
+      "clientes_positivados": 220,
       "por_mes": {
         "2026-01": 517287.74,
         "2026-02": 10846.38,
@@ -7244,20 +8576,24 @@ const RAIOX_INDUSTRIAS_DATA = {
         "2026-04": 114999.24,
         "2026-05": 82409.7,
         "2026-06": 54202.89,
-        "2026-07": 95910.01
+        "2026-07": 95910.01,
+        "2026-08": 54275.69,
+        "2026-09": 21278.2
       },
       "por_vendedor": {
         "RJ-144": {
-          "faturamento_ytd": 330360.25,
+          "faturamento_ytd": 343861.95,
           "por_mes": {
             "2026-01": 108821.05,
             "2026-03": 56073.7,
             "2026-04": 59654.3,
             "2026-05": 36110.2,
             "2026-06": 27082.6,
-            "2026-07": 42618.4
+            "2026-07": 42618.4,
+            "2026-08": 12363.7,
+            "2026-09": 1138.0
           },
-          "clientes_positivados": 29
+          "clientes_positivados": 31
         },
         "RJ-153": {
           "faturamento_ytd": 52863.0,
@@ -7270,7 +8606,7 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 3
         },
         "RJ-155": {
-          "faturamento_ytd": 32020.8,
+          "faturamento_ytd": 36810.4,
           "por_mes": {
             "2026-01": 6954.25,
             "2026-02": 2653.2,
@@ -7278,22 +8614,26 @@ const RAIOX_INDUSTRIAS_DATA = {
             "2026-04": 8460.0,
             "2026-05": 3133.9,
             "2026-06": 3679.4,
-            "2026-07": 3342.85
+            "2026-07": 3342.85,
+            "2026-08": 3321.09,
+            "2026-09": 1468.5
           },
           "clientes_positivados": 14
         },
         "RJ-156": {
-          "faturamento_ytd": 2092.98,
+          "faturamento_ytd": 4781.98,
           "por_mes": {
             "2026-03": 375.2,
             "2026-04": 299.6,
             "2026-06": 333.18,
-            "2026-07": 1085.0
+            "2026-07": 1085.0,
+            "2026-08": 849.7,
+            "2026-09": 1839.3
           },
-          "clientes_positivados": 8
+          "clientes_positivados": 15
         },
         "RJ-159": {
-          "faturamento_ytd": 90701.96,
+          "faturamento_ytd": 104613.46,
           "por_mes": {
             "2026-01": 19249.3,
             "2026-02": 5296.0,
@@ -7301,31 +8641,37 @@ const RAIOX_INDUSTRIAS_DATA = {
             "2026-04": 22465.9,
             "2026-05": 6978.1,
             "2026-06": 4325.66,
-            "2026-07": 13188.32
+            "2026-07": 13188.32,
+            "2026-08": 7793.3,
+            "2026-09": 6118.2
           },
-          "clientes_positivados": 18
+          "clientes_positivados": 19
         },
         "RJ-378": {
-          "faturamento_ytd": 8642.86,
+          "faturamento_ytd": 18542.66,
           "por_mes": {
             "2026-03": 152.36,
             "2026-04": 285.8,
             "2026-05": 128.9,
             "2026-06": 1448.7,
-            "2026-07": 6627.1
+            "2026-07": 6627.1,
+            "2026-08": 6982.8,
+            "2026-09": 2917.0
           },
-          "clientes_positivados": 13
+          "clientes_positivados": 18
         },
         "RJ-379": {
-          "faturamento_ytd": 100409.72,
+          "faturamento_ytd": 115774.22,
           "por_mes": {
             "2026-01": 62627.67,
             "2026-04": 2956.3,
             "2026-05": 12330.4,
             "2026-06": 8724.65,
-            "2026-07": 13770.7
+            "2026-07": 13770.7,
+            "2026-08": 11273.6,
+            "2026-09": 4090.9
           },
-          "clientes_positivados": 46
+          "clientes_positivados": 52
         },
         "RJ-412": {
           "faturamento_ytd": 9460.71,
@@ -7347,7 +8693,7 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 14
         },
         "RJ-419": {
-          "faturamento_ytd": 104566.2,
+          "faturamento_ytd": 111222.0,
           "por_mes": {
             "2026-01": 73192.5,
             "2026-02": 1279.0,
@@ -7355,16 +8701,19 @@ const RAIOX_INDUSTRIAS_DATA = {
             "2026-04": 63.9,
             "2026-05": 2557.0,
             "2026-06": 4237.3,
-            "2026-07": 4228.5
+            "2026-07": 4228.5,
+            "2026-08": 6402.3,
+            "2026-09": 253.5
           },
           "clientes_positivados": 14
         },
         "RJ-431": {
-          "faturamento_ytd": 3622.32,
+          "faturamento_ytd": 3772.22,
           "por_mes": {
             "2026-01": 2246.3,
             "2026-02": 689.48,
-            "2026-07": 686.53
+            "2026-07": 686.53,
+            "2026-08": 149.9
           },
           "clientes_positivados": 5
         },
@@ -7376,25 +8725,27 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 7
         },
         "RJ-471": {
-          "faturamento_ytd": 12137.8,
+          "faturamento_ytd": 20729.9,
           "por_mes": {
             "2026-03": 71.9,
             "2026-04": 672.1,
             "2026-05": 3482.5,
             "2026-06": 4371.4,
-            "2026-07": 3539.9
+            "2026-07": 3539.9,
+            "2026-08": 5139.3,
+            "2026-09": 3452.8
           },
-          "clientes_positivados": 13
+          "clientes_positivados": 19
         }
       },
       "posicao": 14
     },
     {
       "fantasia": "BALLENA",
-      "faturamento_ytd": 880834.06,
-      "participacao_pct": 1.38,
-      "faturamento_mes_atual": 115936.19,
-      "clientes_positivados": 344,
+      "faturamento_ytd": 992137.59,
+      "participacao_pct": 1.25,
+      "faturamento_mes_atual": 16189.4,
+      "clientes_positivados": 411,
       "por_mes": {
         "2026-01": 125033.36,
         "2026-02": 68145.16,
@@ -7402,7 +8753,9 @@ const RAIOX_INDUSTRIAS_DATA = {
         "2026-04": 166478.8,
         "2026-05": 132656.36,
         "2026-06": 64256.39,
-        "2026-07": 115936.19
+        "2026-07": 115936.19,
+        "2026-08": 95114.13,
+        "2026-09": 16189.4
       },
       "por_vendedor": {
         "ES-230": {
@@ -7421,16 +8774,17 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 1
         },
         "ES-388": {
-          "faturamento_ytd": 32118.84,
+          "faturamento_ytd": 39978.84,
           "por_mes": {
             "2026-02": 14310.84,
             "2026-03": 1920.0,
             "2026-04": 954.0,
             "2026-05": 1572.0,
             "2026-06": 3930.0,
-            "2026-07": 9432.0
+            "2026-07": 9432.0,
+            "2026-08": 7860.0
           },
-          "clientes_positivados": 12
+          "clientes_positivados": 16
         },
         "ES-442": {
           "faturamento_ytd": 4230.0,
@@ -7439,17 +8793,25 @@ const RAIOX_INDUSTRIAS_DATA = {
           },
           "clientes_positivados": 2
         },
+        "ES-508": {
+          "faturamento_ytd": 2409.3,
+          "por_mes": {
+            "2026-08": 2409.3
+          },
+          "clientes_positivados": 3
+        },
         "MG-327": {
-          "faturamento_ytd": 3301.2,
+          "faturamento_ytd": 3850.7,
           "por_mes": {
             "2026-01": 825.3,
             "2026-02": 235.8,
             "2026-03": 369.7,
             "2026-04": 119.9,
             "2026-05": 359.7,
-            "2026-06": 1390.8
+            "2026-06": 1390.8,
+            "2026-08": 549.5
           },
-          "clientes_positivados": 9
+          "clientes_positivados": 11
         },
         "MG-331": {
           "faturamento_ytd": 8104.5,
@@ -7468,10 +8830,11 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 2
         },
         "MG-344": {
-          "faturamento_ytd": 246.8,
+          "faturamento_ytd": 376.7,
           "por_mes": {
             "2026-05": 116.9,
-            "2026-06": 129.9
+            "2026-06": 129.9,
+            "2026-08": 129.9
           },
           "clientes_positivados": 2
         },
@@ -7487,7 +8850,7 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 2
         },
         "MG-354": {
-          "faturamento_ytd": 41497.9,
+          "faturamento_ytd": 44704.9,
           "por_mes": {
             "2026-01": 579.5,
             "2026-02": 2897.5,
@@ -7495,20 +8858,22 @@ const RAIOX_INDUSTRIAS_DATA = {
             "2026-04": 579.5,
             "2026-05": 927.2,
             "2026-06": 1043.1,
-            "2026-07": 2300.0
+            "2026-07": 2300.0,
+            "2026-08": 3207.0
           },
-          "clientes_positivados": 36
+          "clientes_positivados": 38
         },
         "MG-360": {
-          "faturamento_ytd": 294864.12,
+          "faturamento_ytd": 347937.42,
           "por_mes": {
             "2026-03": 133393.2,
             "2026-04": 6066.72,
             "2026-05": 104185.2,
             "2026-06": 11209.8,
-            "2026-07": 40009.2
+            "2026-07": 40009.2,
+            "2026-08": 53073.3
           },
-          "clientes_positivados": 13
+          "clientes_positivados": 14
         },
         "MG-362": {
           "faturamento_ytd": 1402.8,
@@ -7547,7 +8912,7 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 1
         },
         "RJ-155": {
-          "faturamento_ytd": 8252.7,
+          "faturamento_ytd": 8533.4,
           "por_mes": {
             "2026-01": 1981.8,
             "2026-02": 998.1,
@@ -7555,12 +8920,13 @@ const RAIOX_INDUSTRIAS_DATA = {
             "2026-04": 2050.0,
             "2026-05": 209.8,
             "2026-06": 1275.6,
-            "2026-07": 629.3
+            "2026-07": 629.3,
+            "2026-08": 280.7
           },
-          "clientes_positivados": 13
+          "clientes_positivados": 14
         },
         "RJ-156": {
-          "faturamento_ytd": 11845.2,
+          "faturamento_ytd": 14999.2,
           "por_mes": {
             "2026-01": 3388.8,
             "2026-02": 2039.7,
@@ -7568,21 +8934,31 @@ const RAIOX_INDUSTRIAS_DATA = {
             "2026-04": 1398.6,
             "2026-05": 2151.9,
             "2026-06": 828.2,
-            "2026-07": 839.2
+            "2026-07": 839.2,
+            "2026-08": 2314.8,
+            "2026-09": 839.2
           },
-          "clientes_positivados": 47
+          "clientes_positivados": 55
         },
         "RJ-159": {
-          "faturamento_ytd": 2719.9,
+          "faturamento_ytd": 3295.3,
           "por_mes": {
             "2026-01": 847.2,
             "2026-02": 537.5,
             "2026-03": 219.8,
             "2026-04": 409.8,
             "2026-05": 292.0,
-            "2026-07": 413.6
+            "2026-07": 413.6,
+            "2026-08": 575.4
           },
-          "clientes_positivados": 8
+          "clientes_positivados": 9
+        },
+        "RJ-174": {
+          "faturamento_ytd": 181.8,
+          "por_mes": {
+            "2026-09": 181.8
+          },
+          "clientes_positivados": 1
         },
         "RJ-238": {
           "faturamento_ytd": 1258.08,
@@ -7600,7 +8976,7 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 2
         },
         "RJ-379": {
-          "faturamento_ytd": 5940.88,
+          "faturamento_ytd": 6132.68,
           "por_mes": {
             "2026-01": 1083.18,
             "2026-02": 299.7,
@@ -7608,16 +8984,18 @@ const RAIOX_INDUSTRIAS_DATA = {
             "2026-04": 508.8,
             "2026-05": 1508.5,
             "2026-06": 529.5,
-            "2026-07": 423.6
+            "2026-07": 423.6,
+            "2026-08": 191.8
           },
           "clientes_positivados": 17
         },
         "RJ-412": {
-          "faturamento_ytd": 5171.76,
+          "faturamento_ytd": 5261.76,
           "por_mes": {
-            "2026-02": 5171.76
+            "2026-02": 5171.76,
+            "2026-09": 90.0
           },
-          "clientes_positivados": 9
+          "clientes_positivados": 10
         },
         "RJ-417": {
           "faturamento_ytd": 2027.1,
@@ -7647,29 +9025,33 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 3
         },
         "RJ-439": {
-          "faturamento_ytd": 1398.6,
+          "faturamento_ytd": 2231.7,
           "por_mes": {
             "2026-01": 299.7,
             "2026-02": 499.5,
-            "2026-03": 599.4
+            "2026-03": 599.4,
+            "2026-08": 737.2,
+            "2026-09": 95.9
           },
-          "clientes_positivados": 5
+          "clientes_positivados": 8
         },
         "RJ-450": {
-          "faturamento_ytd": 1836.66,
+          "faturamento_ytd": 3790.56,
           "por_mes": {
             "2026-05": 637.86,
-            "2026-06": 1198.8
+            "2026-06": 1198.8,
+            "2026-08": 1953.9
           },
           "clientes_positivados": 3
         },
         "RJ-471": {
-          "faturamento_ytd": 2755.4,
+          "faturamento_ytd": 3325.4,
           "por_mes": {
             "2026-03": 319.7,
             "2026-04": 101.9,
             "2026-05": 321.7,
-            "2026-06": 2012.1
+            "2026-06": 2012.1,
+            "2026-08": 570.0
           },
           "clientes_positivados": 7
         },
@@ -7689,22 +9071,31 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 1
         },
         "SP-371": {
-          "faturamento_ytd": 2485.32,
+          "faturamento_ytd": 3079.62,
           "por_mes": {
             "2026-04": 2289.36,
-            "2026-05": 195.96
+            "2026-05": 195.96,
+            "2026-09": 594.3
           },
-          "clientes_positivados": 8
+          "clientes_positivados": 9
+        },
+        "SP-391": {
+          "faturamento_ytd": 1173.6,
+          "por_mes": {
+            "2026-08": 1173.6
+          },
+          "clientes_positivados": 1
         },
         "SP-425": {
-          "faturamento_ytd": 14708.55,
+          "faturamento_ytd": 14963.25,
           "por_mes": {
             "2026-03": 604.98,
             "2026-04": 11146.8,
             "2026-06": 719.62,
-            "2026-07": 2237.15
+            "2026-07": 2237.15,
+            "2026-09": 254.7
           },
-          "clientes_positivados": 11
+          "clientes_positivados": 12
         },
         "SP-426": {
           "faturamento_ytd": 47042.4,
@@ -7718,10 +9109,11 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 11
         },
         "SP-433": {
-          "faturamento_ytd": 18670.67,
+          "faturamento_ytd": 20708.27,
           "por_mes": {
             "2026-06": 5087.67,
-            "2026-07": 13583.0
+            "2026-07": 13583.0,
+            "2026-09": 2037.6
           },
           "clientes_positivados": 6
         },
@@ -7733,20 +9125,22 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 1
         },
         "SP-460": {
-          "faturamento_ytd": 4794.0,
+          "faturamento_ytd": 5303.4,
           "por_mes": {
             "2026-06": 2157.3,
-            "2026-07": 2636.7
-          },
-          "clientes_positivados": 4
-        },
-        "SP-461": {
-          "faturamento_ytd": 2105.98,
-          "por_mes": {
-            "2026-06": 1626.04,
-            "2026-07": 479.94
+            "2026-07": 2636.7,
+            "2026-08": 509.4
           },
           "clientes_positivados": 5
+        },
+        "SP-461": {
+          "faturamento_ytd": 3550.71,
+          "por_mes": {
+            "2026-06": 1626.04,
+            "2026-07": 479.94,
+            "2026-08": 1444.73
+          },
+          "clientes_positivados": 9
         },
         "SP-463": {
           "faturamento_ytd": 719.1,
@@ -7756,45 +9150,50 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 1
         },
         "SP-464": {
-          "faturamento_ytd": 159.8,
+          "faturamento_ytd": 459.5,
           "por_mes": {
-            "2026-07": 159.8
+            "2026-07": 159.8,
+            "2026-08": 299.7
           },
           "clientes_positivados": 1
         },
         "SP-466": {
-          "faturamento_ytd": 1654.08,
+          "faturamento_ytd": 2163.48,
           "por_mes": {
             "2026-05": 1174.68,
             "2026-06": 399.5,
-            "2026-07": 79.9
+            "2026-07": 79.9,
+            "2026-08": 509.4
           },
           "clientes_positivados": 3
         },
         "SP-467": {
-          "faturamento_ytd": 6715.82,
+          "faturamento_ytd": 7255.22,
           "por_mes": {
             "2026-05": 587.34,
             "2026-06": 1174.68,
-            "2026-07": 4953.8
+            "2026-07": 4953.8,
+            "2026-09": 539.4
           },
-          "clientes_positivados": 8
+          "clientes_positivados": 9
         },
         "SP-468": {
-          "faturamento_ytd": 2167.5,
+          "faturamento_ytd": 5223.9,
           "por_mes": {
             "2026-05": 809.2,
             "2026-06": 719.1,
-            "2026-07": 639.2
+            "2026-07": 639.2,
+            "2026-08": 3056.4
           },
-          "clientes_positivados": 3
+          "clientes_positivados": 4
         },
         "SP-469": {
-          "faturamento_ytd": 1270.46,
+          "faturamento_ytd": 1949.66,
           "por_mes": {
             "2026-05": 391.56,
             "2026-06": 159.8,
-            "2026-07": 719.1
+            "2026-07": 719.1,
+            "2026-08": 679.2
           },
           "clientes_positivados": 5
         },
@@ -7826,30 +9225,42 @@ const RAIOX_INDUSTRIAS_DATA = {
           },
           "clientes_positivados": 2
         },
+        "SP-474": {
+          "faturamento_ytd": 319.6,
+          "por_mes": {
+            "2026-08": 319.6
+          },
+          "clientes_positivados": 1
+        },
         "SP-476": {
-          "faturamento_ytd": 1270.46,
+          "faturamento_ytd": 2205.36,
           "por_mes": {
             "2026-05": 195.78,
             "2026-06": 195.78,
-            "2026-07": 878.9
+            "2026-07": 878.9,
+            "2026-08": 849.0,
+            "2026-09": 85.9
           },
-          "clientes_positivados": 5
+          "clientes_positivados": 7
         },
         "SP-477": {
-          "faturamento_ytd": 4873.9,
+          "faturamento_ytd": 5383.3,
           "por_mes": {
             "2026-06": 4314.6,
-            "2026-07": 559.3
+            "2026-07": 559.3,
+            "2026-08": 509.4
           },
-          "clientes_positivados": 6
+          "clientes_positivados": 7
         },
         "SP-486": {
-          "faturamento_ytd": 2796.5,
+          "faturamento_ytd": 5028.9,
           "por_mes": {
             "2026-06": 159.8,
-            "2026-07": 2636.7
+            "2026-07": 2636.7,
+            "2026-08": 1213.6,
+            "2026-09": 1018.8
           },
-          "clientes_positivados": 6
+          "clientes_positivados": 12
         },
         "SP-487": {
           "faturamento_ytd": 159.8,
@@ -7894,12 +9305,27 @@ const RAIOX_INDUSTRIAS_DATA = {
           },
           "clientes_positivados": 2
         },
-        "SP-504": {
-          "faturamento_ytd": 1837.7,
+        "SP-500": {
+          "faturamento_ytd": 1917.6,
           "por_mes": {
-            "2026-07": 1837.7
+            "2026-08": 1917.6
           },
-          "clientes_positivados": 5
+          "clientes_positivados": 2
+        },
+        "SP-504": {
+          "faturamento_ytd": 4894.1,
+          "por_mes": {
+            "2026-07": 1837.7,
+            "2026-08": 3056.4
+          },
+          "clientes_positivados": 10
+        },
+        "SP-507": {
+          "faturamento_ytd": 339.6,
+          "por_mes": {
+            "2026-08": 339.6
+          },
+          "clientes_positivados": 1
         },
         "SP-510": {
           "faturamento_ytd": 2397.0,
@@ -7915,6 +9341,13 @@ const RAIOX_INDUSTRIAS_DATA = {
           },
           "clientes_positivados": 1
         },
+        "SP-513": {
+          "faturamento_ytd": 479.4,
+          "por_mes": {
+            "2026-08": 479.4
+          },
+          "clientes_positivados": 1
+        },
         "SP-515": {
           "faturamento_ytd": 2505.0,
           "por_mes": {
@@ -7923,9 +9356,39 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 4
         },
         "SP-516": {
-          "faturamento_ytd": 479.4,
+          "faturamento_ytd": 3609.9,
           "por_mes": {
-            "2026-07": 479.4
+            "2026-07": 479.4,
+            "2026-08": 1678.1,
+            "2026-09": 1452.4
+          },
+          "clientes_positivados": 12
+        },
+        "SP-518": {
+          "faturamento_ytd": 2547.0,
+          "por_mes": {
+            "2026-08": 2547.0
+          },
+          "clientes_positivados": 1
+        },
+        "SP-521": {
+          "faturamento_ytd": 509.4,
+          "por_mes": {
+            "2026-08": 509.4
+          },
+          "clientes_positivados": 1
+        },
+        "SP-524": {
+          "faturamento_ytd": 8999.4,
+          "por_mes": {
+            "2026-09": 8999.4
+          },
+          "clientes_positivados": 1
+        },
+        "SP-553": {
+          "faturamento_ytd": 169.8,
+          "por_mes": {
+            "2026-08": 169.8
           },
           "clientes_positivados": 1
         }
@@ -7933,231 +9396,11 @@ const RAIOX_INDUSTRIAS_DATA = {
       "posicao": 15
     },
     {
-      "fantasia": "LUCIA",
-      "faturamento_ytd": 793926.03,
-      "participacao_pct": 1.25,
-      "faturamento_mes_atual": 65864.9,
-      "clientes_positivados": 82,
-      "por_mes": {
-        "2026-04": 297070.4,
-        "2026-05": 375052.96,
-        "2026-06": 55937.77,
-        "2026-07": 65864.9
-      },
-      "por_vendedor": {
-        "RJ-155": {
-          "faturamento_ytd": 74.9,
-          "por_mes": {
-            "2026-05": 74.9
-          },
-          "clientes_positivados": 1
-        },
-        "RJ-156": {
-          "faturamento_ytd": 155.19,
-          "por_mes": {
-            "2026-06": 155.19
-          },
-          "clientes_positivados": 1
-        },
-        "RJ-159": {
-          "faturamento_ytd": 374.5,
-          "por_mes": {
-            "2026-04": 374.5
-          },
-          "clientes_positivados": 3
-        },
-        "RJ-238": {
-          "faturamento_ytd": 449.4,
-          "por_mes": {
-            "2026-04": 449.4
-          },
-          "clientes_positivados": 1
-        },
-        "RJ-275": {
-          "faturamento_ytd": 202709.1,
-          "por_mes": {
-            "2026-05": 172721.1,
-            "2026-06": 13230.0,
-            "2026-07": 16758.0
-          },
-          "clientes_positivados": 2
-        },
-        "RJ-379": {
-          "faturamento_ytd": 973.7,
-          "por_mes": {
-            "2026-04": 973.7
-          },
-          "clientes_positivados": 2
-        },
-        "RJ-412": {
-          "faturamento_ytd": 18208.78,
-          "por_mes": {
-            "2026-05": 17976.0,
-            "2026-06": 232.78
-          },
-          "clientes_positivados": 2
-        },
-        "RJ-419": {
-          "faturamento_ytd": 898.8,
-          "por_mes": {
-            "2026-06": 898.8
-          },
-          "clientes_positivados": 1
-        },
-        "RJ-439": {
-          "faturamento_ytd": 438.0,
-          "por_mes": {
-            "2026-07": 438.0
-          },
-          "clientes_positivados": 1
-        },
-        "RJ-471": {
-          "faturamento_ytd": 224.7,
-          "por_mes": {
-            "2026-05": 224.7
-          },
-          "clientes_positivados": 1
-        },
-        "SP-356": {
-          "faturamento_ytd": 39540.0,
-          "por_mes": {
-            "2026-04": 19770.0,
-            "2026-05": 19770.0
-          },
-          "clientes_positivados": 1
-        },
-        "SP-371": {
-          "faturamento_ytd": 11382.6,
-          "por_mes": {
-            "2026-05": 1186.2,
-            "2026-06": 5931.0,
-            "2026-07": 4265.4
-          },
-          "clientes_positivados": 9
-        },
-        "SP-391": {
-          "faturamento_ytd": 210019.8,
-          "por_mes": {
-            "2026-04": 162717.6,
-            "2026-05": 20595.0,
-            "2026-06": 20956.2,
-            "2026-07": 5751.0
-          },
-          "clientes_positivados": 7
-        },
-        "SP-425": {
-          "faturamento_ytd": 20652.56,
-          "por_mes": {
-            "2026-04": 790.8,
-            "2026-05": 12247.46,
-            "2026-06": 3462.6,
-            "2026-07": 4151.7
-          },
-          "clientes_positivados": 12
-        },
-        "SP-426": {
-          "faturamento_ytd": 45866.4,
-          "por_mes": {
-            "2026-04": 7908.0,
-            "2026-05": 33609.0,
-            "2026-06": 4349.4
-          },
-          "clientes_positivados": 11
-        },
-        "SP-428": {
-          "faturamento_ytd": 1977.0,
-          "por_mes": {
-            "2026-04": 395.4,
-            "2026-05": 1581.6
-          },
-          "clientes_positivados": 1
-        },
-        "SP-429": {
-          "faturamento_ytd": 187093.7,
-          "por_mes": {
-            "2026-04": 97760.0,
-            "2026-05": 89333.7
-          },
-          "clientes_positivados": 3
-        },
-        "SP-433": {
-          "faturamento_ytd": 11466.6,
-          "por_mes": {
-            "2026-04": 5931.0,
-            "2026-05": 4349.4,
-            "2026-07": 1186.2
-          },
-          "clientes_positivados": 5
-        },
-        "SP-460": {
-          "faturamento_ytd": 9190.0,
-          "por_mes": {
-            "2026-06": 131.8,
-            "2026-07": 9058.2
-          },
-          "clientes_positivados": 7
-        },
-        "SP-466": {
-          "faturamento_ytd": 197.7,
-          "por_mes": {
-            "2026-05": 197.7
-          },
-          "clientes_positivados": 1
-        },
-        "SP-471": {
-          "faturamento_ytd": 395.4,
-          "por_mes": {
-            "2026-05": 395.4
-          },
-          "clientes_positivados": 1
-        },
-        "SP-483": {
-          "faturamento_ytd": 18762.8,
-          "por_mes": {
-            "2026-06": 2636.0,
-            "2026-07": 16126.8
-          },
-          "clientes_positivados": 3
-        },
-        "SP-485": {
-          "faturamento_ytd": 12233.4,
-          "por_mes": {
-            "2026-05": 790.8,
-            "2026-06": 3954.0,
-            "2026-07": 7488.6
-          },
-          "clientes_positivados": 7
-        },
-        "SP-489": {
-          "faturamento_ytd": 449.3,
-          "por_mes": {
-            "2026-07": 449.3
-          },
-          "clientes_positivados": 2
-        },
-        "SP-515": {
-          "faturamento_ytd": 127.8,
-          "por_mes": {
-            "2026-07": 127.8
-          },
-          "clientes_positivados": 1
-        },
-        "SP-516": {
-          "faturamento_ytd": 63.9,
-          "por_mes": {
-            "2026-07": 63.9
-          },
-          "clientes_positivados": 1
-        }
-      },
-      "posicao": 16
-    },
-    {
       "fantasia": "FANTE",
-      "faturamento_ytd": 782674.9,
-      "participacao_pct": 1.23,
-      "faturamento_mes_atual": 138789.78,
-      "clientes_positivados": 532,
+      "faturamento_ytd": 990761.58,
+      "participacao_pct": 1.25,
+      "faturamento_mes_atual": 35392.81,
+      "clientes_positivados": 675,
       "por_mes": {
         "2026-01": 23640.19,
         "2026-02": 58666.09,
@@ -8165,23 +9408,26 @@ const RAIOX_INDUSTRIAS_DATA = {
         "2026-04": 39161.78,
         "2026-05": 47814.46,
         "2026-06": 207517.69,
-        "2026-07": 138789.78
+        "2026-07": 135296.82,
+        "2026-08": 176186.83,
+        "2026-09": 35392.81
       },
       "por_vendedor": {
         "RJ-144": {
-          "faturamento_ytd": 11798.39,
+          "faturamento_ytd": 13252.79,
           "por_mes": {
             "2026-01": 2569.2,
             "2026-02": 394.2,
             "2026-04": 945.0,
             "2026-05": 540.0,
             "2026-06": 4003.79,
-            "2026-07": 3346.2
+            "2026-07": 3346.2,
+            "2026-08": 1454.4
           },
-          "clientes_positivados": 27
+          "clientes_positivados": 28
         },
         "RJ-153": {
-          "faturamento_ytd": 74819.56,
+          "faturamento_ytd": 96425.68,
           "por_mes": {
             "2026-01": 3547.8,
             "2026-02": 6764.16,
@@ -8189,12 +9435,14 @@ const RAIOX_INDUSTRIAS_DATA = {
             "2026-04": 3413.22,
             "2026-05": 6635.28,
             "2026-06": 12302.4,
-            "2026-07": 25424.44
+            "2026-07": 22804.48,
+            "2026-08": 16504.8,
+            "2026-09": 7721.28
           },
-          "clientes_positivados": 34
+          "clientes_positivados": 42
         },
         "RJ-155": {
-          "faturamento_ytd": 8526.97,
+          "faturamento_ytd": 9829.57,
           "por_mes": {
             "2026-01": 2472.49,
             "2026-02": 2045.7,
@@ -8202,12 +9450,14 @@ const RAIOX_INDUSTRIAS_DATA = {
             "2026-04": 1602.54,
             "2026-05": 179.4,
             "2026-06": 1015.84,
-            "2026-07": 487.4
+            "2026-07": 487.4,
+            "2026-08": 952.2,
+            "2026-09": 350.4
           },
           "clientes_positivados": 21
         },
         "RJ-156": {
-          "faturamento_ytd": 20920.5,
+          "faturamento_ytd": 26844.64,
           "por_mes": {
             "2026-01": 246.99,
             "2026-02": 2741.8,
@@ -8215,9 +9465,11 @@ const RAIOX_INDUSTRIAS_DATA = {
             "2026-04": 2450.14,
             "2026-05": 3778.43,
             "2026-06": 8495.79,
-            "2026-07": 476.34
+            "2026-07": 476.34,
+            "2026-08": 4003.66,
+            "2026-09": 1920.47
           },
-          "clientes_positivados": 68
+          "clientes_positivados": 74
         },
         "RJ-158": {
           "faturamento_ytd": 48419.64,
@@ -8232,7 +9484,7 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 9
         },
         "RJ-159": {
-          "faturamento_ytd": 11344.8,
+          "faturamento_ytd": 11500.2,
           "por_mes": {
             "2026-01": 1659.0,
             "2026-02": 3662.26,
@@ -8240,14 +9492,16 @@ const RAIOX_INDUSTRIAS_DATA = {
             "2026-04": 1381.5,
             "2026-05": 167.0,
             "2026-06": 1896.38,
-            "2026-07": 1139.4
+            "2026-07": 1139.4,
+            "2026-08": 155.4
           },
-          "clientes_positivados": 23
+          "clientes_positivados": 24
         },
         "RJ-174": {
-          "faturamento_ytd": 87.6,
+          "faturamento_ytd": 169.5,
           "por_mes": {
-            "2026-05": 87.6
+            "2026-05": 87.6,
+            "2026-08": 81.9
           },
           "clientes_positivados": 1
         },
@@ -8286,7 +9540,7 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 5
         },
         "RJ-379": {
-          "faturamento_ytd": 38310.18,
+          "faturamento_ytd": 41061.08,
           "por_mes": {
             "2026-01": 3956.57,
             "2026-02": 3304.92,
@@ -8294,21 +9548,25 @@ const RAIOX_INDUSTRIAS_DATA = {
             "2026-04": 9562.84,
             "2026-05": 4618.39,
             "2026-06": 7118.87,
-            "2026-07": 4678.08
+            "2026-07": 4678.08,
+            "2026-08": 2595.02,
+            "2026-09": 155.88
           },
-          "clientes_positivados": 63
+          "clientes_positivados": 65
         },
         "RJ-412": {
-          "faturamento_ytd": 7752.97,
+          "faturamento_ytd": 8956.97,
           "por_mes": {
             "2026-02": 879.1,
             "2026-03": 351.26,
             "2026-04": 3026.34,
             "2026-05": 416.9,
             "2026-06": 2350.57,
-            "2026-07": 728.8
+            "2026-07": 728.8,
+            "2026-08": 1152.2,
+            "2026-09": 51.8
           },
-          "clientes_positivados": 13
+          "clientes_positivados": 15
         },
         "RJ-417": {
           "faturamento_ytd": 2599.08,
@@ -8321,7 +9579,7 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 3
         },
         "RJ-419": {
-          "faturamento_ytd": 21664.62,
+          "faturamento_ytd": 22032.89,
           "por_mes": {
             "2026-01": 3340.9,
             "2026-02": 1884.94,
@@ -8329,12 +9587,13 @@ const RAIOX_INDUSTRIAS_DATA = {
             "2026-04": 6014.3,
             "2026-05": 767.6,
             "2026-06": 1193.1,
-            "2026-07": 5396.4
+            "2026-07": 4646.4,
+            "2026-08": 1118.27
           },
-          "clientes_positivados": 23
+          "clientes_positivados": 25
         },
         "RJ-431": {
-          "faturamento_ytd": 10845.35,
+          "faturamento_ytd": 12858.13,
           "por_mes": {
             "2026-01": 2000.7,
             "2026-02": 1973.1,
@@ -8342,12 +9601,14 @@ const RAIOX_INDUSTRIAS_DATA = {
             "2026-04": 2823.61,
             "2026-05": 166.8,
             "2026-06": 388.98,
-            "2026-07": 3324.76
+            "2026-07": 3324.76,
+            "2026-08": 1368.38,
+            "2026-09": 644.4
           },
-          "clientes_positivados": 19
+          "clientes_positivados": 23
         },
         "RJ-439": {
-          "faturamento_ytd": 6277.51,
+          "faturamento_ytd": 7648.39,
           "por_mes": {
             "2026-01": 621.6,
             "2026-02": 698.28,
@@ -8355,191 +9616,236 @@ const RAIOX_INDUSTRIAS_DATA = {
             "2026-04": 800.39,
             "2026-05": 361.6,
             "2026-06": 422.94,
-            "2026-07": 2332.0
+            "2026-07": 2332.0,
+            "2026-08": 274.8,
+            "2026-09": 1096.08
           },
           "clientes_positivados": 16
         },
         "RJ-450": {
-          "faturamento_ytd": 103560.4,
+          "faturamento_ytd": 119742.4,
           "por_mes": {
             "2026-03": 4169.52,
             "2026-04": 891.24,
             "2026-05": 29663.58,
             "2026-06": 54267.03,
-            "2026-07": 14569.03
+            "2026-07": 14569.03,
+            "2026-08": 998.4,
+            "2026-09": 15183.6
           },
-          "clientes_positivados": 44
+          "clientes_positivados": 47
+        },
+        "RJ-460": {
+          "faturamento_ytd": 176.4,
+          "por_mes": {
+            "2026-09": 176.4
+          },
+          "clientes_positivados": 1
         },
         "RJ-471": {
-          "faturamento_ytd": 7121.88,
+          "faturamento_ytd": 7977.88,
           "por_mes": {
             "2026-03": 2755.8,
             "2026-04": 232.8,
             "2026-05": 431.88,
             "2026-06": 1774.2,
-            "2026-07": 1927.2
+            "2026-07": 1927.2,
+            "2026-08": 856.0
           },
-          "clientes_positivados": 11
+          "clientes_positivados": 13
         },
         "SP-317": {
-          "faturamento_ytd": 5420.82,
+          "faturamento_ytd": 11237.82,
           "por_mes": {
             "2026-06": 863.04,
-            "2026-07": 4557.78
+            "2026-07": 4557.78,
+            "2026-08": 5817.0
           },
-          "clientes_positivados": 11
+          "clientes_positivados": 14
         },
         "SP-371": {
-          "faturamento_ytd": 122.04,
+          "faturamento_ytd": 163.04,
           "por_mes": {
-            "2026-06": 122.04
+            "2026-06": 122.04,
+            "2026-08": 41.0
           },
           "clientes_positivados": 1
         },
         "SP-425": {
-          "faturamento_ytd": 1958.2,
+          "faturamento_ytd": 2368.2,
           "por_mes": {
-            "2026-07": 1958.2
+            "2026-07": 1958.2,
+            "2026-08": 410.0
           },
           "clientes_positivados": 7
         },
         "SP-426": {
-          "faturamento_ytd": 6282.78,
+          "faturamento_ytd": 51568.38,
           "por_mes": {
             "2026-06": 4068.78,
-            "2026-07": 2214.0
+            "2026-07": 2214.0,
+            "2026-08": 45285.6
           },
-          "clientes_positivados": 6
+          "clientes_positivados": 13
         },
         "SP-433": {
-          "faturamento_ytd": 11440.02,
+          "faturamento_ytd": 15764.22,
           "por_mes": {
             "2026-06": 3944.58,
-            "2026-07": 7495.44
-          },
-          "clientes_positivados": 11
-        },
-        "SP-460": {
-          "faturamento_ytd": 19680.7,
-          "por_mes": {
-            "2026-06": 4498.56,
-            "2026-07": 15182.14
+            "2026-07": 7495.44,
+            "2026-08": 4324.2
           },
           "clientes_positivados": 18
         },
+        "SP-460": {
+          "faturamento_ytd": 37385.2,
+          "por_mes": {
+            "2026-06": 4498.56,
+            "2026-07": 15182.14,
+            "2026-08": 17704.5
+          },
+          "clientes_positivados": 33
+        },
         "SP-461": {
-          "faturamento_ytd": 10818.89,
+          "faturamento_ytd": 12926.69,
           "por_mes": {
             "2026-06": 5067.96,
-            "2026-07": 5750.93
+            "2026-07": 5750.93,
+            "2026-08": 1982.4,
+            "2026-09": 125.4
           },
-          "clientes_positivados": 8
+          "clientes_positivados": 10
         },
         "SP-462": {
-          "faturamento_ytd": 12327.0,
+          "faturamento_ytd": 18477.0,
           "por_mes": {
-            "2026-06": 12327.0
+            "2026-06": 12327.0,
+            "2026-08": 6150.0
           },
           "clientes_positivados": 1
         },
         "SP-463": {
-          "faturamento_ytd": 4824.21,
+          "faturamento_ytd": 9288.01,
           "por_mes": {
             "2026-06": 2854.65,
-            "2026-07": 1969.56
+            "2026-07": 1969.56,
+            "2026-08": 4463.8
           },
-          "clientes_positivados": 9
+          "clientes_positivados": 15
         },
         "SP-465": {
-          "faturamento_ytd": 492.96,
+          "faturamento_ytd": 534.76,
           "por_mes": {
-            "2026-07": 492.96
-          },
-          "clientes_positivados": 1
-        },
-        "SP-466": {
-          "faturamento_ytd": 2472.12,
-          "por_mes": {
-            "2026-06": 1242.12,
-            "2026-07": 1230.0
-          },
-          "clientes_positivados": 1
-        },
-        "SP-467": {
-          "faturamento_ytd": 246.6,
-          "por_mes": {
-            "2026-07": 246.6
-          },
-          "clientes_positivados": 1
-        },
-        "SP-468": {
-          "faturamento_ytd": 678.4,
-          "por_mes": {
-            "2026-06": 350.4,
-            "2026-07": 328.0
-          },
-          "clientes_positivados": 3
-        },
-        "SP-469": {
-          "faturamento_ytd": 1273.24,
-          "por_mes": {
-            "2026-07": 1273.24
+            "2026-07": 492.96,
+            "2026-08": 41.8
           },
           "clientes_positivados": 2
         },
+        "SP-466": {
+          "faturamento_ytd": 6654.12,
+          "por_mes": {
+            "2026-06": 1242.12,
+            "2026-07": 1230.0,
+            "2026-08": 4182.0
+          },
+          "clientes_positivados": 3
+        },
+        "SP-467": {
+          "faturamento_ytd": 1751.4,
+          "por_mes": {
+            "2026-07": 246.6,
+            "2026-09": 1504.8
+          },
+          "clientes_positivados": 3
+        },
+        "SP-468": {
+          "faturamento_ytd": 1170.4,
+          "por_mes": {
+            "2026-06": 350.4,
+            "2026-07": 328.0,
+            "2026-08": 492.0
+          },
+          "clientes_positivados": 6
+        },
+        "SP-469": {
+          "faturamento_ytd": 1732.44,
+          "por_mes": {
+            "2026-07": 1273.24,
+            "2026-08": 329.6,
+            "2026-09": 129.6
+          },
+          "clientes_positivados": 5
+        },
         "SP-470": {
-          "faturamento_ytd": 741.38,
+          "faturamento_ytd": 1180.28,
           "por_mes": {
             "2026-06": 371.48,
-            "2026-07": 369.9
+            "2026-07": 369.9,
+            "2026-08": 438.9
           },
           "clientes_positivados": 3
         },
         "SP-471": {
-          "faturamento_ytd": 246.48,
+          "faturamento_ytd": 2831.88,
           "por_mes": {
-            "2026-06": 246.48
+            "2026-06": 246.48,
+            "2026-08": 2585.4
+          },
+          "clientes_positivados": 3
+        },
+        "SP-472": {
+          "faturamento_ytd": 13057.5,
+          "por_mes": {
+            "2026-06": 6357.9,
+            "2026-07": 872.1,
+            "2026-08": 5723.0,
+            "2026-09": 104.5
+          },
+          "clientes_positivados": 6
+        },
+        "SP-474": {
+          "faturamento_ytd": 882.6,
+          "por_mes": {
+            "2026-06": 246.6,
+            "2026-07": 493.2,
+            "2026-08": 142.8
+          },
+          "clientes_positivados": 3
+        },
+        "SP-475": {
+          "faturamento_ytd": 369.0,
+          "por_mes": {
+            "2026-08": 369.0
           },
           "clientes_positivados": 1
         },
-        "SP-472": {
-          "faturamento_ytd": 7230.0,
+        "SP-476": {
+          "faturamento_ytd": 4976.81,
           "por_mes": {
-            "2026-06": 6357.9,
-            "2026-07": 872.1
+            "2026-06": 2156.71,
+            "2026-07": 1464.0,
+            "2026-08": 1230.7,
+            "2026-09": 125.4
           },
-          "clientes_positivados": 4
+          "clientes_positivados": 8
         },
-        "SP-474": {
-          "faturamento_ytd": 739.8,
+        "SP-477": {
+          "faturamento_ytd": 821.2,
           "por_mes": {
             "2026-06": 246.6,
-            "2026-07": 493.2
+            "2026-07": 492.6,
+            "2026-08": 82.0
           },
           "clientes_positivados": 2
         },
-        "SP-476": {
-          "faturamento_ytd": 3620.71,
-          "por_mes": {
-            "2026-06": 2156.71,
-            "2026-07": 1464.0
-          },
-          "clientes_positivados": 4
-        },
-        "SP-477": {
-          "faturamento_ytd": 739.2,
-          "por_mes": {
-            "2026-06": 246.6,
-            "2026-07": 492.6
-          },
-          "clientes_positivados": 1
-        },
         "SP-486": {
-          "faturamento_ytd": 4024.78,
+          "faturamento_ytd": 9384.08,
           "por_mes": {
-            "2026-07": 4024.78
+            "2026-07": 4024.78,
+            "2026-08": 4962.2,
+            "2026-09": 397.1
           },
-          "clientes_positivados": 10
+          "clientes_positivados": 18
         },
         "SP-487": {
           "faturamento_ytd": 246.6,
@@ -8556,19 +9862,27 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 1
         },
         "SP-490": {
-          "faturamento_ytd": 639.2,
+          "faturamento_ytd": 516.2,
           "por_mes": {
-            "2026-07": 639.2
+            "2026-07": 516.2
           },
-          "clientes_positivados": 3
+          "clientes_positivados": 2
+        },
+        "SP-492": {
+          "faturamento_ytd": 41.8,
+          "por_mes": {
+            "2026-08": 41.8
+          },
+          "clientes_positivados": 1
         },
         "SP-493": {
-          "faturamento_ytd": 1364.58,
+          "faturamento_ytd": 2408.78,
           "por_mes": {
             "2026-06": 739.5,
-            "2026-07": 625.08
+            "2026-07": 625.08,
+            "2026-08": 1044.2
           },
-          "clientes_positivados": 3
+          "clientes_positivados": 4
         },
         "SP-496": {
           "faturamento_ytd": 2460.0,
@@ -8578,70 +9892,150 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 1
         },
         "SP-497": {
-          "faturamento_ytd": 984.0,
+          "faturamento_ytd": 1230.0,
           "por_mes": {
-            "2026-07": 984.0
+            "2026-07": 984.0,
+            "2026-08": 246.0
           },
           "clientes_positivados": 2
         },
-        "SP-500": {
-          "faturamento_ytd": 123.3,
+        "SP-499": {
+          "faturamento_ytd": 246.0,
           "por_mes": {
-            "2026-07": 123.3
+            "2026-08": 246.0
           },
           "clientes_positivados": 1
+        },
+        "SP-500": {
+          "faturamento_ytd": 1271.3,
+          "por_mes": {
+            "2026-07": 123.3,
+            "2026-08": 1148.0
+          },
+          "clientes_positivados": 5
         },
         "SP-504": {
-          "faturamento_ytd": 8898.92,
+          "faturamento_ytd": 13022.72,
           "por_mes": {
-            "2026-07": 8898.92
+            "2026-07": 8898.92,
+            "2026-08": 4123.8
           },
-          "clientes_positivados": 14
+          "clientes_positivados": 17
         },
-        "SP-511": {
-          "faturamento_ytd": 492.0,
+        "SP-505": {
+          "faturamento_ytd": 205.0,
           "por_mes": {
-            "2026-07": 492.0
+            "2026-08": 205.0
           },
           "clientes_positivados": 1
         },
-        "SP-512": {
-          "faturamento_ytd": 3373.2,
+        "SP-508": {
+          "faturamento_ytd": 624.6,
           "por_mes": {
-            "2026-07": 3373.2
+            "2026-08": 624.6
           },
-          "clientes_positivados": 4
+          "clientes_positivados": 1
+        },
+        "SP-510": {
+          "faturamento_ytd": 250.8,
+          "por_mes": {
+            "2026-08": 250.8
+          },
+          "clientes_positivados": 2
+        },
+        "SP-511": {
+          "faturamento_ytd": 868.2,
+          "por_mes": {
+            "2026-07": 492.0,
+            "2026-09": 376.2
+          },
+          "clientes_positivados": 2
+        },
+        "SP-512": {
+          "faturamento_ytd": 15297.7,
+          "por_mes": {
+            "2026-07": 3373.2,
+            "2026-08": 11924.5
+          },
+          "clientes_positivados": 9
         },
         "SP-513": {
-          "faturamento_ytd": 1230.0,
+          "faturamento_ytd": 1599.0,
           "por_mes": {
-            "2026-07": 1230.0
+            "2026-07": 1230.0,
+            "2026-08": 369.0
           },
           "clientes_positivados": 1
         },
         "SP-515": {
-          "faturamento_ytd": 2460.0,
+          "faturamento_ytd": 2959.2,
           "por_mes": {
-            "2026-07": 2460.0
+            "2026-07": 2460.0,
+            "2026-08": 373.8,
+            "2026-09": 125.4
+          },
+          "clientes_positivados": 4
+        },
+        "SP-516": {
+          "faturamento_ytd": 7458.4,
+          "por_mes": {
+            "2026-07": 1476.0,
+            "2026-08": 5857.0,
+            "2026-09": 125.4
+          },
+          "clientes_positivados": 15
+        },
+        "SP-518": {
+          "faturamento_ytd": 492.0,
+          "por_mes": {
+            "2026-08": 492.0
           },
           "clientes_positivados": 1
         },
-        "SP-516": {
-          "faturamento_ytd": 1476.0,
+        "SP-521": {
+          "faturamento_ytd": 2319.9,
           "por_mes": {
-            "2026-07": 1476.0
+            "2026-08": 2319.9
           },
           "clientes_positivados": 2
+        },
+        "SP-523": {
+          "faturamento_ytd": 7121.4,
+          "por_mes": {
+            "2026-08": 7121.4
+          },
+          "clientes_positivados": 2
+        },
+        "SP-524": {
+          "faturamento_ytd": 1003.2,
+          "por_mes": {
+            "2026-08": 1003.2
+          },
+          "clientes_positivados": 2
+        },
+        "SP-526": {
+          "faturamento_ytd": 522.5,
+          "por_mes": {
+            "2026-08": 522.5
+          },
+          "clientes_positivados": 1
+        },
+        "SP-553": {
+          "faturamento_ytd": 5078.7,
+          "por_mes": {
+            "2026-09": 5078.7
+          },
+          "clientes_positivados": 1
         }
       },
-      "posicao": 17
+      "posicao": 16
     },
     {
       "fantasia": "LVMH",
-      "faturamento_ytd": 768634.68,
-      "participacao_pct": 1.21,
-      "faturamento_mes_atual": 98042.9,
-      "clientes_positivados": 76,
+      "faturamento_ytd": 905780.06,
+      "participacao_pct": 1.14,
+      "faturamento_mes_atual": 15949.0,
+      "clientes_positivados": 84,
       "por_mes": {
         "2026-01": 100379.66,
         "2026-02": 81653.36,
@@ -8649,11 +10043,13 @@ const RAIOX_INDUSTRIAS_DATA = {
         "2026-04": 114992.76,
         "2026-05": 138812.58,
         "2026-06": 151491.08,
-        "2026-07": 98042.9
+        "2026-07": 98042.9,
+        "2026-08": 121196.38,
+        "2026-09": 15949.0
       },
       "por_vendedor": {
         "MG-327": {
-          "faturamento_ytd": 62658.2,
+          "faturamento_ytd": 78689.9,
           "por_mes": {
             "2026-01": 8806.6,
             "2026-02": 8076.0,
@@ -8661,9 +10057,11 @@ const RAIOX_INDUSTRIAS_DATA = {
             "2026-04": 5476.7,
             "2026-05": 3679.9,
             "2026-06": 7874.9,
-            "2026-07": 17033.5
+            "2026-07": 17033.5,
+            "2026-08": 12082.0,
+            "2026-09": 3949.7
           },
-          "clientes_positivados": 31
+          "clientes_positivados": 33
         },
         "MG-331": {
           "faturamento_ytd": 1918.5,
@@ -8692,46 +10090,52 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 2
         },
         "MG-344": {
-          "faturamento_ytd": 15381.7,
+          "faturamento_ytd": 17875.3,
           "por_mes": {
             "2026-05": 6679.4,
             "2026-06": 6305.8,
-            "2026-07": 2396.5
+            "2026-07": 2396.5,
+            "2026-08": 2493.6
           },
-          "clientes_positivados": 13
+          "clientes_positivados": 15
         },
         "MG-349": {
-          "faturamento_ytd": 40411.7,
+          "faturamento_ytd": 42594.38,
           "por_mes": {
             "2026-01": 3666.6,
             "2026-02": 2313.6,
             "2026-04": 14776.8,
             "2026-05": 4158.6,
             "2026-06": 3473.3,
-            "2026-07": 12022.8
+            "2026-07": 12022.8,
+            "2026-08": 2182.68
           },
           "clientes_positivados": 4
         },
         "MG-354": {
-          "faturamento_ytd": 21958.5,
+          "faturamento_ytd": 38042.0,
           "por_mes": {
             "2026-01": 5196.9,
             "2026-02": 3266.4,
             "2026-04": 1582.2,
             "2026-06": 9110.4,
-            "2026-07": 2802.6
+            "2026-07": 2802.6,
+            "2026-08": 6958.2,
+            "2026-09": 9125.3
           },
-          "clientes_positivados": 4
+          "clientes_positivados": 6
         },
         "MG-360": {
-          "faturamento_ytd": 506093.52,
+          "faturamento_ytd": 563795.34,
           "por_mes": {
             "2026-02": 67797.66,
             "2026-03": 67595.64,
             "2026-04": 90010.56,
             "2026-05": 119084.58,
             "2026-06": 121981.68,
-            "2026-07": 39623.4
+            "2026-07": 39623.4,
+            "2026-08": 54827.82,
+            "2026-09": 2874.0
           },
           "clientes_positivados": 12
         },
@@ -8745,22 +10149,329 @@ const RAIOX_INDUSTRIAS_DATA = {
           },
           "clientes_positivados": 7
         },
+        "MG-378": {
+          "faturamento_ytd": 40473.0,
+          "por_mes": {
+            "2026-08": 40473.0
+          },
+          "clientes_positivados": 3
+        },
         "MG-388": {
           "faturamento_ytd": 23670.0,
           "por_mes": {
             "2026-07": 23670.0
           },
           "clientes_positivados": 1
+        },
+        "MG-389": {
+          "faturamento_ytd": 215.4,
+          "por_mes": {
+            "2026-08": 215.4
+          },
+          "clientes_positivados": 1
+        },
+        "MG-390": {
+          "faturamento_ytd": 1963.68,
+          "por_mes": {
+            "2026-08": 1963.68
+          },
+          "clientes_positivados": 1
+        }
+      },
+      "posicao": 17
+    },
+    {
+      "fantasia": "LUCIA",
+      "faturamento_ytd": 880920.05,
+      "participacao_pct": 1.11,
+      "faturamento_mes_atual": 23872.5,
+      "clientes_positivados": 106,
+      "por_mes": {
+        "2026-04": 297070.4,
+        "2026-05": 375052.96,
+        "2026-06": 55937.77,
+        "2026-07": 65864.9,
+        "2026-08": 63121.52,
+        "2026-09": 23872.5
+      },
+      "por_vendedor": {
+        "RJ-155": {
+          "faturamento_ytd": 74.9,
+          "por_mes": {
+            "2026-05": 74.9
+          },
+          "clientes_positivados": 1
+        },
+        "RJ-156": {
+          "faturamento_ytd": 230.09,
+          "por_mes": {
+            "2026-06": 155.19,
+            "2026-09": 74.9
+          },
+          "clientes_positivados": 2
+        },
+        "RJ-159": {
+          "faturamento_ytd": 374.5,
+          "por_mes": {
+            "2026-04": 374.5
+          },
+          "clientes_positivados": 3
+        },
+        "RJ-238": {
+          "faturamento_ytd": 449.4,
+          "por_mes": {
+            "2026-04": 449.4
+          },
+          "clientes_positivados": 1
+        },
+        "RJ-275": {
+          "faturamento_ytd": 224759.1,
+          "por_mes": {
+            "2026-05": 172721.1,
+            "2026-06": 13230.0,
+            "2026-07": 16758.0,
+            "2026-08": 22050.0
+          },
+          "clientes_positivados": 2
+        },
+        "RJ-379": {
+          "faturamento_ytd": 973.7,
+          "por_mes": {
+            "2026-04": 973.7
+          },
+          "clientes_positivados": 2
+        },
+        "RJ-412": {
+          "faturamento_ytd": 18208.78,
+          "por_mes": {
+            "2026-05": 17976.0,
+            "2026-06": 232.78
+          },
+          "clientes_positivados": 2
+        },
+        "RJ-419": {
+          "faturamento_ytd": 898.8,
+          "por_mes": {
+            "2026-06": 898.8
+          },
+          "clientes_positivados": 1
+        },
+        "RJ-439": {
+          "faturamento_ytd": 657.0,
+          "por_mes": {
+            "2026-07": 438.0,
+            "2026-08": 219.0
+          },
+          "clientes_positivados": 2
+        },
+        "RJ-450": {
+          "faturamento_ytd": 876.0,
+          "por_mes": {
+            "2026-08": 876.0
+          },
+          "clientes_positivados": 2
+        },
+        "RJ-471": {
+          "faturamento_ytd": 1412.7,
+          "por_mes": {
+            "2026-05": 224.7,
+            "2026-08": 1188.0
+          },
+          "clientes_positivados": 2
+        },
+        "SP-356": {
+          "faturamento_ytd": 39540.0,
+          "por_mes": {
+            "2026-04": 19770.0,
+            "2026-05": 19770.0
+          },
+          "clientes_positivados": 1
+        },
+        "SP-371": {
+          "faturamento_ytd": 12149.4,
+          "por_mes": {
+            "2026-05": 1186.2,
+            "2026-06": 5931.0,
+            "2026-07": 4265.4,
+            "2026-08": 766.8
+          },
+          "clientes_positivados": 9
+        },
+        "SP-391": {
+          "faturamento_ytd": 212344.2,
+          "por_mes": {
+            "2026-04": 162717.6,
+            "2026-05": 20595.0,
+            "2026-06": 20956.2,
+            "2026-07": 5751.0,
+            "2026-08": 790.8,
+            "2026-09": 1533.6
+          },
+          "clientes_positivados": 8
+        },
+        "SP-425": {
+          "faturamento_ytd": 26467.48,
+          "por_mes": {
+            "2026-04": 790.8,
+            "2026-05": 12247.46,
+            "2026-06": 3462.6,
+            "2026-07": 4151.7,
+            "2026-08": 3897.92,
+            "2026-09": 1917.0
+          },
+          "clientes_positivados": 14
+        },
+        "SP-426": {
+          "faturamento_ytd": 69195.0,
+          "por_mes": {
+            "2026-04": 7908.0,
+            "2026-05": 33609.0,
+            "2026-06": 4349.4,
+            "2026-08": 23328.6
+          },
+          "clientes_positivados": 12
+        },
+        "SP-428": {
+          "faturamento_ytd": 2360.4,
+          "por_mes": {
+            "2026-04": 395.4,
+            "2026-05": 1581.6,
+            "2026-08": 383.4
+          },
+          "clientes_positivados": 1
+        },
+        "SP-429": {
+          "faturamento_ytd": 187093.7,
+          "por_mes": {
+            "2026-04": 97760.0,
+            "2026-05": 89333.7
+          },
+          "clientes_positivados": 3
+        },
+        "SP-433": {
+          "faturamento_ytd": 13383.6,
+          "por_mes": {
+            "2026-04": 5931.0,
+            "2026-05": 4349.4,
+            "2026-07": 1186.2,
+            "2026-08": 1917.0
+          },
+          "clientes_positivados": 5
+        },
+        "SP-460": {
+          "faturamento_ytd": 9255.9,
+          "por_mes": {
+            "2026-06": 131.8,
+            "2026-07": 9058.2,
+            "2026-08": 65.9
+          },
+          "clientes_positivados": 7
+        },
+        "SP-466": {
+          "faturamento_ytd": 581.1,
+          "por_mes": {
+            "2026-05": 197.7,
+            "2026-08": 383.4
+          },
+          "clientes_positivados": 1
+        },
+        "SP-469": {
+          "faturamento_ytd": 383.4,
+          "por_mes": {
+            "2026-08": 383.4
+          },
+          "clientes_positivados": 1
+        },
+        "SP-471": {
+          "faturamento_ytd": 395.4,
+          "por_mes": {
+            "2026-05": 395.4
+          },
+          "clientes_positivados": 1
+        },
+        "SP-476": {
+          "faturamento_ytd": 127.8,
+          "por_mes": {
+            "2026-09": 127.8
+          },
+          "clientes_positivados": 1
+        },
+        "SP-483": {
+          "faturamento_ytd": 34578.8,
+          "por_mes": {
+            "2026-06": 2636.0,
+            "2026-07": 16126.8,
+            "2026-09": 15816.0
+          },
+          "clientes_positivados": 3
+        },
+        "SP-485": {
+          "faturamento_ytd": 15324.6,
+          "por_mes": {
+            "2026-05": 790.8,
+            "2026-06": 3954.0,
+            "2026-07": 7488.6,
+            "2026-08": 2324.4,
+            "2026-09": 766.8
+          },
+          "clientes_positivados": 7
+        },
+        "SP-486": {
+          "faturamento_ytd": 1779.3,
+          "por_mes": {
+            "2026-08": 131.8,
+            "2026-09": 1647.5
+          },
+          "clientes_positivados": 5
+        },
+        "SP-489": {
+          "faturamento_ytd": 3013.3,
+          "por_mes": {
+            "2026-07": 449.3,
+            "2026-08": 2300.4,
+            "2026-09": 263.6
+          },
+          "clientes_positivados": 2
+        },
+        "SP-510": {
+          "faturamento_ytd": 766.8,
+          "por_mes": {
+            "2026-08": 766.8
+          },
+          "clientes_positivados": 1
+        },
+        "SP-515": {
+          "faturamento_ytd": 127.8,
+          "por_mes": {
+            "2026-07": 127.8
+          },
+          "clientes_positivados": 1
+        },
+        "SP-516": {
+          "faturamento_ytd": 1603.5,
+          "por_mes": {
+            "2026-07": 63.9,
+            "2026-08": 1347.9,
+            "2026-09": 191.7
+          },
+          "clientes_positivados": 7
+        },
+        "SP-524": {
+          "faturamento_ytd": 1533.6,
+          "por_mes": {
+            "2026-09": 1533.6
+          },
+          "clientes_positivados": 2
         }
       },
       "posicao": 18
     },
     {
       "fantasia": "HEINEKEN",
-      "faturamento_ytd": 747118.51,
-      "participacao_pct": 1.17,
-      "faturamento_mes_atual": 40009.16,
-      "clientes_positivados": 135,
+      "faturamento_ytd": 818930.43,
+      "participacao_pct": 1.03,
+      "faturamento_mes_atual": 8449.56,
+      "clientes_positivados": 142,
       "por_mes": {
         "2026-01": 167919.39,
         "2026-02": 298806.53,
@@ -8768,11 +10479,13 @@ const RAIOX_INDUSTRIAS_DATA = {
         "2026-04": 60033.02,
         "2026-05": 51097.78,
         "2026-06": 45672.32,
-        "2026-07": 40009.16
+        "2026-07": 40009.16,
+        "2026-08": 63362.36,
+        "2026-09": 8449.56
       },
       "por_vendedor": {
         "MG-327": {
-          "faturamento_ytd": 330746.4,
+          "faturamento_ytd": 369697.92,
           "por_mes": {
             "2026-01": 96237.52,
             "2026-02": 41431.52,
@@ -8780,9 +10493,11 @@ const RAIOX_INDUSTRIAS_DATA = {
             "2026-04": 42213.12,
             "2026-05": 35589.28,
             "2026-06": 33778.6,
-            "2026-07": 32275.8
+            "2026-07": 32275.8,
+            "2026-08": 32764.32,
+            "2026-09": 6187.2
           },
-          "clientes_positivados": 61
+          "clientes_positivados": 64
         },
         "MG-331": {
           "faturamento_ytd": 46672.86,
@@ -8803,17 +10518,19 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 23
         },
         "MG-344": {
-          "faturamento_ytd": 20658.26,
+          "faturamento_ytd": 30655.98,
           "por_mes": {
             "2026-04": 1696.94,
             "2026-05": 9879.24,
             "2026-06": 6053.04,
-            "2026-07": 3029.04
+            "2026-07": 3029.04,
+            "2026-08": 7735.36,
+            "2026-09": 2262.36
           },
-          "clientes_positivados": 10
+          "clientes_positivados": 13
         },
         "MG-354": {
-          "faturamento_ytd": 127038.0,
+          "faturamento_ytd": 142952.68,
           "por_mes": {
             "2026-01": 41460.06,
             "2026-02": 66044.28,
@@ -8821,9 +10538,10 @@ const RAIOX_INDUSTRIAS_DATA = {
             "2026-04": 268.8,
             "2026-05": 1627.86,
             "2026-06": 1779.12,
-            "2026-07": 4348.92
+            "2026-07": 4348.92,
+            "2026-08": 15914.68
           },
-          "clientes_positivados": 28
+          "clientes_positivados": 30
         },
         "MG-360": {
           "faturamento_ytd": 174276.96,
@@ -8842,16 +10560,130 @@ const RAIOX_INDUSTRIAS_DATA = {
             "2026-07": 355.4
           },
           "clientes_positivados": 8
+        },
+        "MG-389": {
+          "faturamento_ytd": 6948.0,
+          "por_mes": {
+            "2026-08": 6948.0
+          },
+          "clientes_positivados": 1
         }
       },
       "posicao": 19
     },
     {
+      "fantasia": "MONIN",
+      "faturamento_ytd": 799265.1,
+      "participacao_pct": 1.01,
+      "faturamento_mes_atual": 10373.4,
+      "clientes_positivados": 119,
+      "por_mes": {
+        "2026-06": 263635.9,
+        "2026-07": 259575.1,
+        "2026-08": 265680.7,
+        "2026-09": 10373.4
+      },
+      "por_vendedor": {
+        "MG-327": {
+          "faturamento_ytd": 19909.7,
+          "por_mes": {
+            "2026-06": 1313.3,
+            "2026-07": 10628.9,
+            "2026-08": 7169.1,
+            "2026-09": 798.4
+          },
+          "clientes_positivados": 31
+        },
+        "MG-344": {
+          "faturamento_ytd": 10701.5,
+          "por_mes": {
+            "2026-06": 309.3,
+            "2026-07": 4991.0,
+            "2026-08": 4295.5,
+            "2026-09": 1105.7
+          },
+          "clientes_positivados": 10
+        },
+        "MG-349": {
+          "faturamento_ytd": 2424.6,
+          "por_mes": {
+            "2026-08": 2424.6
+          },
+          "clientes_positivados": 1
+        },
+        "MG-354": {
+          "faturamento_ytd": 11296.3,
+          "por_mes": {
+            "2026-06": 3335.5,
+            "2026-08": 7040.6,
+            "2026-09": 920.2
+          },
+          "clientes_positivados": 32
+        },
+        "MG-360": {
+          "faturamento_ytd": 555136.2,
+          "por_mes": {
+            "2026-06": 258532.2,
+            "2026-07": 230191.8,
+            "2026-08": 59139.0,
+            "2026-09": 7273.2
+          },
+          "clientes_positivados": 7
+        },
+        "MG-362": {
+          "faturamento_ytd": 439.0,
+          "por_mes": {
+            "2026-06": 145.6,
+            "2026-07": 293.4
+          },
+          "clientes_positivados": 4
+        },
+        "MG-378": {
+          "faturamento_ytd": 144850.3,
+          "por_mes": {
+            "2026-07": 6196.2,
+            "2026-08": 138654.1
+          },
+          "clientes_positivados": 27
+        },
+        "MG-388": {
+          "faturamento_ytd": 50916.6,
+          "por_mes": {
+            "2026-07": 7273.8,
+            "2026-08": 43642.8
+          },
+          "clientes_positivados": 2
+        },
+        "MG-389": {
+          "faturamento_ytd": 3265.2,
+          "por_mes": {
+            "2026-08": 3265.2
+          },
+          "clientes_positivados": 3
+        },
+        "MG-390": {
+          "faturamento_ytd": 49.8,
+          "por_mes": {
+            "2026-08": 49.8
+          },
+          "clientes_positivados": 1
+        },
+        "MG-405": {
+          "faturamento_ytd": 275.9,
+          "por_mes": {
+            "2026-09": 275.9
+          },
+          "clientes_positivados": 1
+        }
+      },
+      "posicao": 20
+    },
+    {
       "fantasia": "BEAM SUNTORY BRASIL",
-      "faturamento_ytd": 635806.97,
-      "participacao_pct": 1.0,
-      "faturamento_mes_atual": 102095.55,
-      "clientes_positivados": 136,
+      "faturamento_ytd": 718249.97,
+      "participacao_pct": 0.9,
+      "faturamento_mes_atual": 20986.3,
+      "clientes_positivados": 179,
       "por_mes": {
         "2026-01": 116849.52,
         "2026-02": 65220.51,
@@ -8859,16 +10691,20 @@ const RAIOX_INDUSTRIAS_DATA = {
         "2026-04": 45524.28,
         "2026-05": 69681.3,
         "2026-06": 72232.94,
-        "2026-07": 102095.55
+        "2026-07": 102095.55,
+        "2026-08": 61456.7,
+        "2026-09": 20986.3
       },
       "por_vendedor": {
         "SP-119": {
-          "faturamento_ytd": 123289.8,
+          "faturamento_ytd": 143089.8,
           "por_mes": {
             "2026-01": 59070.0,
             "2026-02": 35340.0,
             "2026-04": 5219.4,
-            "2026-06": 23660.4
+            "2026-06": 23660.4,
+            "2026-08": 6600.0,
+            "2026-09": 13200.0
           },
           "clientes_positivados": 2
         },
@@ -8883,7 +10719,7 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 12
         },
         "SP-371": {
-          "faturamento_ytd": 152388.13,
+          "faturamento_ytd": 157808.63,
           "por_mes": {
             "2026-01": 1509.6,
             "2026-02": 4178.52,
@@ -8891,12 +10727,14 @@ const RAIOX_INDUSTRIAS_DATA = {
             "2026-04": 9663.6,
             "2026-05": 3334.44,
             "2026-06": 23900.4,
-            "2026-07": 1566.37
+            "2026-07": 1566.37,
+            "2026-08": 2759.6,
+            "2026-09": 2660.9
           },
-          "clientes_positivados": 31
+          "clientes_positivados": 32
         },
         "SP-391": {
-          "faturamento_ytd": 120106.02,
+          "faturamento_ytd": 124399.22,
           "por_mes": {
             "2026-01": 41979.24,
             "2026-02": 3385.68,
@@ -8904,20 +10742,24 @@ const RAIOX_INDUSTRIAS_DATA = {
             "2026-04": 2156.4,
             "2026-05": 38980.2,
             "2026-06": 1509.6,
-            "2026-07": 29109.7
+            "2026-07": 29109.7,
+            "2026-08": 4033.6,
+            "2026-09": 259.6
           },
-          "clientes_positivados": 6
+          "clientes_positivados": 7
         },
         "SP-425": {
-          "faturamento_ytd": 12336.81,
+          "faturamento_ytd": 19146.71,
           "por_mes": {
             "2026-02": 871.62,
             "2026-04": 2396.0,
             "2026-05": 718.8,
             "2026-06": 3388.48,
-            "2026-07": 4961.91
+            "2026-07": 4961.91,
+            "2026-08": 6468.3,
+            "2026-09": 341.6
           },
-          "clientes_positivados": 12
+          "clientes_positivados": 17
         },
         "SP-426": {
           "faturamento_ytd": 60020.46,
@@ -8953,13 +10795,14 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 6
         },
         "SP-433": {
-          "faturamento_ytd": 15850.8,
+          "faturamento_ytd": 16605.6,
           "por_mes": {
             "2026-05": 6038.4,
             "2026-06": 754.8,
-            "2026-07": 9057.6
+            "2026-07": 9057.6,
+            "2026-08": 754.8
           },
-          "clientes_positivados": 6
+          "clientes_positivados": 7
         },
         "SP-438": {
           "faturamento_ytd": 30788.71,
@@ -8972,13 +10815,14 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 7
         },
         "SP-460": {
-          "faturamento_ytd": 2886.32,
+          "faturamento_ytd": 3263.72,
           "por_mes": {
             "2026-05": 754.8,
             "2026-06": 1754.12,
-            "2026-07": 377.4
+            "2026-07": 377.4,
+            "2026-08": 377.4
           },
-          "clientes_positivados": 3
+          "clientes_positivados": 6
         },
         "SP-461": {
           "faturamento_ytd": 3522.4,
@@ -8989,6 +10833,13 @@ const RAIOX_INDUSTRIAS_DATA = {
           },
           "clientes_positivados": 3
         },
+        "SP-464": {
+          "faturamento_ytd": 64.9,
+          "por_mes": {
+            "2026-08": 64.9
+          },
+          "clientes_positivados": 1
+        },
         "SP-466": {
           "faturamento_ytd": 889.67,
           "por_mes": {
@@ -8998,18 +10849,20 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 2
         },
         "SP-467": {
-          "faturamento_ytd": 16605.6,
+          "faturamento_ytd": 27164.16,
           "por_mes": {
-            "2026-07": 16605.6
+            "2026-07": 16605.6,
+            "2026-08": 10558.56
           },
-          "clientes_positivados": 5
+          "clientes_positivados": 7
         },
         "SP-468": {
-          "faturamento_ytd": 8365.7,
+          "faturamento_ytd": 9144.5,
           "por_mes": {
-            "2026-07": 8365.7
+            "2026-07": 8365.7,
+            "2026-08": 778.8
           },
-          "clientes_positivados": 5
+          "clientes_positivados": 6
         },
         "SP-469": {
           "faturamento_ytd": 3150.1,
@@ -9028,10 +10881,24 @@ const RAIOX_INDUSTRIAS_DATA = {
           },
           "clientes_positivados": 4
         },
+        "SP-472": {
+          "faturamento_ytd": 377.4,
+          "por_mes": {
+            "2026-08": 377.4
+          },
+          "clientes_positivados": 1
+        },
         "SP-473": {
           "faturamento_ytd": 1509.6,
           "por_mes": {
             "2026-06": 1509.6
+          },
+          "clientes_positivados": 1
+        },
+        "SP-474": {
+          "faturamento_ytd": 737.9,
+          "por_mes": {
+            "2026-08": 737.9
           },
           "clientes_positivados": 1
         },
@@ -9043,25 +10910,29 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 1
         },
         "SP-476": {
-          "faturamento_ytd": 3962.7,
+          "faturamento_ytd": 6534.7,
           "por_mes": {
-            "2026-07": 3962.7
+            "2026-07": 3962.7,
+            "2026-08": 2572.0
           },
-          "clientes_positivados": 3
+          "clientes_positivados": 7
         },
         "SP-486": {
-          "faturamento_ytd": 1432.53,
+          "faturamento_ytd": 2523.83,
           "por_mes": {
-            "2026-07": 1432.53
+            "2026-07": 1432.53,
+            "2026-08": 1091.3
           },
-          "clientes_positivados": 2
+          "clientes_positivados": 6
         },
         "SP-489": {
-          "faturamento_ytd": 8107.64,
+          "faturamento_ytd": 15135.81,
           "por_mes": {
-            "2026-07": 8107.64
+            "2026-07": 8107.64,
+            "2026-08": 6922.27,
+            "2026-09": 105.9
           },
-          "clientes_positivados": 3
+          "clientes_positivados": 4
         },
         "SP-490": {
           "faturamento_ytd": 754.8,
@@ -9079,35 +10950,608 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 2
         },
         "SP-493": {
-          "faturamento_ytd": 754.8,
+          "faturamento_ytd": 1274.0,
           "por_mes": {
-            "2026-07": 754.8
-          },
-          "clientes_positivados": 1
-        },
-        "SP-512": {
-          "faturamento_ytd": 1635.4,
-          "por_mes": {
-            "2026-07": 1635.4
+            "2026-07": 754.8,
+            "2026-09": 519.2
           },
           "clientes_positivados": 2
         },
-        "SP-516": {
-          "faturamento_ytd": 125.8,
+        "SP-499": {
+          "faturamento_ytd": 259.6,
           "por_mes": {
-            "2026-07": 125.8
+            "2026-08": 259.6
+          },
+          "clientes_positivados": 1
+        },
+        "SP-500": {
+          "faturamento_ytd": 389.4,
+          "por_mes": {
+            "2026-09": 389.4
+          },
+          "clientes_positivados": 1
+        },
+        "SP-507": {
+          "faturamento_ytd": 1274.0,
+          "por_mes": {
+            "2026-08": 1274.0
+          },
+          "clientes_positivados": 2
+        },
+        "SP-510": {
+          "faturamento_ytd": 2467.3,
+          "por_mes": {
+            "2026-08": 125.8,
+            "2026-09": 2341.5
+          },
+          "clientes_positivados": 3
+        },
+        "SP-512": {
+          "faturamento_ytd": 7865.8,
+          "por_mes": {
+            "2026-07": 1635.4,
+            "2026-08": 6230.4
+          },
+          "clientes_positivados": 4
+        },
+        "SP-513": {
+          "faturamento_ytd": 778.8,
+          "por_mes": {
+            "2026-08": 778.8
+          },
+          "clientes_positivados": 1
+        },
+        "SP-515": {
+          "faturamento_ytd": 134.87,
+          "por_mes": {
+            "2026-08": 134.87
+          },
+          "clientes_positivados": 1
+        },
+        "SP-516": {
+          "faturamento_ytd": 379.4,
+          "por_mes": {
+            "2026-07": 125.8,
+            "2026-08": 253.6
+          },
+          "clientes_positivados": 2
+        },
+        "SP-518": {
+          "faturamento_ytd": 8302.8,
+          "por_mes": {
+            "2026-08": 8302.8
+          },
+          "clientes_positivados": 4
+        },
+        "SP-962": {
+          "faturamento_ytd": 1168.2,
+          "por_mes": {
+            "2026-09": 1168.2
           },
           "clientes_positivados": 1
         }
       },
-      "posicao": 20
+      "posicao": 21
+    },
+    {
+      "fantasia": "MOET HENNESY",
+      "faturamento_ytd": 629229.09,
+      "participacao_pct": 0.79,
+      "faturamento_mes_atual": 11826.6,
+      "clientes_positivados": 145,
+      "por_mes": {
+        "2026-01": 18292.67,
+        "2026-02": 16025.55,
+        "2026-03": 41712.28,
+        "2026-04": 67579.2,
+        "2026-05": 14383.82,
+        "2026-06": 228047.28,
+        "2026-07": 142861.07,
+        "2026-08": 88500.62,
+        "2026-09": 11826.6
+      },
+      "por_vendedor": {
+        "SP-119": {
+          "faturamento_ytd": 221318.0,
+          "por_mes": {
+            "2026-06": 172736.0,
+            "2026-07": 48582.0
+          },
+          "clientes_positivados": 1
+        },
+        "SP-356": {
+          "faturamento_ytd": 412.8,
+          "por_mes": {
+            "2026-04": 412.8
+          },
+          "clientes_positivados": 1
+        },
+        "SP-371": {
+          "faturamento_ytd": 31843.37,
+          "por_mes": {
+            "2026-01": 4587.59,
+            "2026-03": 5720.16,
+            "2026-04": 3232.02,
+            "2026-06": 4402.2,
+            "2026-07": 9117.6,
+            "2026-08": 4783.8
+          },
+          "clientes_positivados": 3
+        },
+        "SP-391": {
+          "faturamento_ytd": 58325.53,
+          "por_mes": {
+            "2026-02": 5444.85,
+            "2026-03": 4591.71,
+            "2026-04": 3541.62,
+            "2026-05": 4613.4,
+            "2026-06": 2658.55,
+            "2026-07": 37475.4
+          },
+          "clientes_positivados": 12
+        },
+        "SP-405": {
+          "faturamento_ytd": 141.8,
+          "por_mes": {
+            "2026-04": 141.8
+          },
+          "clientes_positivados": 1
+        },
+        "SP-425": {
+          "faturamento_ytd": 109052.46,
+          "por_mes": {
+            "2026-02": 8382.06,
+            "2026-03": 12783.73,
+            "2026-04": 25089.68,
+            "2026-05": 4625.8,
+            "2026-06": 8950.05,
+            "2026-07": 14325.53,
+            "2026-08": 30971.22,
+            "2026-09": 3924.4
+          },
+          "clientes_positivados": 28
+        },
+        "SP-426": {
+          "faturamento_ytd": 80747.11,
+          "por_mes": {
+            "2026-01": 12623.88,
+            "2026-03": 16585.68,
+            "2026-04": 26233.68,
+            "2026-05": 213.67,
+            "2026-06": 2935.8,
+            "2026-07": 9946.8,
+            "2026-08": 12207.6
+          },
+          "clientes_positivados": 14
+        },
+        "SP-428": {
+          "faturamento_ytd": 10826.3,
+          "por_mes": {
+            "2026-01": 1081.2,
+            "2026-02": 2198.64,
+            "2026-03": 1342.92,
+            "2026-04": 2710.28,
+            "2026-06": 3493.26
+          },
+          "clientes_positivados": 2
+        },
+        "SP-433": {
+          "faturamento_ytd": 25445.0,
+          "por_mes": {
+            "2026-04": 4343.4,
+            "2026-05": 3426.0,
+            "2026-06": 4410.0,
+            "2026-07": 1980.0,
+            "2026-08": 10362.8,
+            "2026-09": 922.8
+          },
+          "clientes_positivados": 7
+        },
+        "SP-438": {
+          "faturamento_ytd": 2153.52,
+          "por_mes": {
+            "2026-03": 688.08,
+            "2026-04": 1185.84,
+            "2026-06": 279.6
+          },
+          "clientes_positivados": 3
+        },
+        "SP-460": {
+          "faturamento_ytd": 7999.9,
+          "por_mes": {
+            "2026-06": 1767.6,
+            "2026-07": 2703.5,
+            "2026-08": 1404.8,
+            "2026-09": 2124.0
+          },
+          "clientes_positivados": 10
+        },
+        "SP-463": {
+          "faturamento_ytd": 5004.3,
+          "por_mes": {
+            "2026-06": 4165.5,
+            "2026-08": 838.8
+          },
+          "clientes_positivados": 2
+        },
+        "SP-464": {
+          "faturamento_ytd": 2277.0,
+          "por_mes": {
+            "2026-06": 2277.0
+          },
+          "clientes_positivados": 1
+        },
+        "SP-465": {
+          "faturamento_ytd": 2516.4,
+          "por_mes": {
+            "2026-06": 2516.4
+          },
+          "clientes_positivados": 1
+        },
+        "SP-466": {
+          "faturamento_ytd": 6147.03,
+          "por_mes": {
+            "2026-04": 688.08,
+            "2026-05": 292.65,
+            "2026-06": 1272.3,
+            "2026-08": 3894.0
+          },
+          "clientes_positivados": 4
+        },
+        "SP-467": {
+          "faturamento_ytd": 5448.8,
+          "por_mes": {
+            "2026-06": 874.8,
+            "2026-08": 4574.0
+          },
+          "clientes_positivados": 5
+        },
+        "SP-468": {
+          "faturamento_ytd": 2025.0,
+          "por_mes": {
+            "2026-08": 2025.0
+          },
+          "clientes_positivados": 5
+        },
+        "SP-469": {
+          "faturamento_ytd": 5439.9,
+          "por_mes": {
+            "2026-05": 932.7,
+            "2026-08": 4507.2
+          },
+          "clientes_positivados": 5
+        },
+        "SP-471": {
+          "faturamento_ytd": 2656.1,
+          "por_mes": {
+            "2026-05": 279.6,
+            "2026-06": 2277.0,
+            "2026-07": 99.5
+          },
+          "clientes_positivados": 5
+        },
+        "SP-472": {
+          "faturamento_ytd": 547.5,
+          "por_mes": {
+            "2026-07": 547.5
+          },
+          "clientes_positivados": 1
+        },
+        "SP-474": {
+          "faturamento_ytd": 28.67,
+          "por_mes": {
+            "2026-06": 28.67
+          },
+          "clientes_positivados": 1
+        },
+        "SP-476": {
+          "faturamento_ytd": 3263.6,
+          "por_mes": {
+            "2026-06": 1258.2,
+            "2026-07": 1916.5,
+            "2026-08": 88.9
+          },
+          "clientes_positivados": 3
+        },
+        "SP-486": {
+          "faturamento_ytd": 2817.7,
+          "por_mes": {
+            "2026-07": 756.1,
+            "2026-08": 1410.3,
+            "2026-09": 651.3
+          },
+          "clientes_positivados": 8
+        },
+        "SP-487": {
+          "faturamento_ytd": 438.9,
+          "por_mes": {
+            "2026-08": 438.9
+          },
+          "clientes_positivados": 1
+        },
+        "SP-489": {
+          "faturamento_ytd": 29565.96,
+          "por_mes": {
+            "2026-06": 11744.36,
+            "2026-07": 11806.2,
+            "2026-08": 3766.6,
+            "2026-09": 2248.8
+          },
+          "clientes_positivados": 6
+        },
+        "SP-491": {
+          "faturamento_ytd": 419.4,
+          "por_mes": {
+            "2026-08": 419.4
+          },
+          "clientes_positivados": 1
+        },
+        "SP-496": {
+          "faturamento_ytd": 1342.2,
+          "por_mes": {
+            "2026-07": 1342.2
+          },
+          "clientes_positivados": 1
+        },
+        "SP-500": {
+          "faturamento_ytd": 210.0,
+          "por_mes": {
+            "2026-09": 210.0
+          },
+          "clientes_positivados": 1
+        },
+        "SP-507": {
+          "faturamento_ytd": 461.4,
+          "por_mes": {
+            "2026-07": 461.4
+          },
+          "clientes_positivados": 1
+        },
+        "SP-510": {
+          "faturamento_ytd": 559.2,
+          "por_mes": {
+            "2026-08": 559.2
+          },
+          "clientes_positivados": 1
+        },
+        "SP-511": {
+          "faturamento_ytd": 862.8,
+          "por_mes": {
+            "2026-09": 862.8
+          },
+          "clientes_positivados": 2
+        },
+        "SP-512": {
+          "faturamento_ytd": 1099.5,
+          "por_mes": {
+            "2026-08": 679.5,
+            "2026-09": 420.0
+          },
+          "clientes_positivados": 2
+        },
+        "SP-515": {
+          "faturamento_ytd": 878.04,
+          "por_mes": {
+            "2026-07": 878.04
+          },
+          "clientes_positivados": 1
+        },
+        "SP-516": {
+          "faturamento_ytd": 4673.9,
+          "por_mes": {
+            "2026-07": 922.8,
+            "2026-08": 3288.6,
+            "2026-09": 462.5
+          },
+          "clientes_positivados": 7
+        },
+        "SP-524": {
+          "faturamento_ytd": 2280.0,
+          "por_mes": {
+            "2026-08": 2280.0
+          },
+          "clientes_positivados": 1
+        }
+      },
+      "posicao": 22
+    },
+    {
+      "fantasia": "MINALBA",
+      "faturamento_ytd": 612072.87,
+      "participacao_pct": 0.77,
+      "faturamento_mes_atual": 13279.5,
+      "clientes_positivados": 230,
+      "por_mes": {
+        "2026-01": 133419.84,
+        "2026-02": 121769.34,
+        "2026-03": 79968.98,
+        "2026-04": 94329.09,
+        "2026-05": 32136.8,
+        "2026-06": 44724.59,
+        "2026-07": 40818.73,
+        "2026-08": 51626.0,
+        "2026-09": 13279.5
+      },
+      "por_vendedor": {
+        "RJ-144": {
+          "faturamento_ytd": 15801.8,
+          "por_mes": {
+            "2026-01": 7174.0,
+            "2026-03": 808.0,
+            "2026-04": 1560.0,
+            "2026-06": 1514.0,
+            "2026-08": 4117.0,
+            "2026-09": 628.8
+          },
+          "clientes_positivados": 10
+        },
+        "RJ-153": {
+          "faturamento_ytd": 5180.45,
+          "por_mes": {
+            "2026-01": 4304.45,
+            "2026-06": 876.0
+          },
+          "clientes_positivados": 4
+        },
+        "RJ-155": {
+          "faturamento_ytd": 103828.87,
+          "por_mes": {
+            "2026-01": 28563.62,
+            "2026-02": 17294.23,
+            "2026-03": 20306.4,
+            "2026-04": 13587.4,
+            "2026-05": 4827.72,
+            "2026-06": 5870.6,
+            "2026-07": 3309.4,
+            "2026-08": 10069.5
+          },
+          "clientes_positivados": 20
+        },
+        "RJ-156": {
+          "faturamento_ytd": 253616.28,
+          "por_mes": {
+            "2026-01": 53507.19,
+            "2026-02": 47879.38,
+            "2026-03": 36200.3,
+            "2026-04": 38497.4,
+            "2026-05": 13508.65,
+            "2026-06": 21653.56,
+            "2026-07": 15425.1,
+            "2026-08": 22324.7,
+            "2026-09": 4620.0
+          },
+          "clientes_positivados": 91
+        },
+        "RJ-159": {
+          "faturamento_ytd": 100924.05,
+          "por_mes": {
+            "2026-01": 7574.16,
+            "2026-02": 22540.75,
+            "2026-03": 7165.7,
+            "2026-04": 23628.3,
+            "2026-05": 8385.4,
+            "2026-06": 7267.34,
+            "2026-07": 11430.7,
+            "2026-08": 8168.1,
+            "2026-09": 4763.6
+          },
+          "clientes_positivados": 17
+        },
+        "RJ-174": {
+          "faturamento_ytd": 71.8,
+          "por_mes": {
+            "2026-09": 71.8
+          },
+          "clientes_positivados": 1
+        },
+        "RJ-378": {
+          "faturamento_ytd": 5885.85,
+          "por_mes": {
+            "2026-01": 961.75,
+            "2026-02": 610.5,
+            "2026-03": 1588.4,
+            "2026-04": 951.1,
+            "2026-05": 68.7,
+            "2026-06": 162.3,
+            "2026-07": 294.7,
+            "2026-09": 1248.4
+          },
+          "clientes_positivados": 7
+        },
+        "RJ-379": {
+          "faturamento_ytd": 9833.67,
+          "por_mes": {
+            "2026-01": 4131.87,
+            "2026-02": 41.8,
+            "2026-03": 353.5,
+            "2026-04": 408.6,
+            "2026-06": 706.8,
+            "2026-07": 2528.5,
+            "2026-08": 911.1,
+            "2026-09": 751.5
+          },
+          "clientes_positivados": 15
+        },
+        "RJ-412": {
+          "faturamento_ytd": 78851.58,
+          "por_mes": {
+            "2026-01": 13853.32,
+            "2026-02": 22738.4,
+            "2026-03": 11032.4,
+            "2026-04": 14008.6,
+            "2026-05": 4181.63,
+            "2026-06": 4075.1,
+            "2026-07": 5338.93,
+            "2026-08": 3623.2
+          },
+          "clientes_positivados": 27
+        },
+        "RJ-417": {
+          "faturamento_ytd": 16878.76,
+          "por_mes": {
+            "2026-01": 7924.46,
+            "2026-02": 8929.8,
+            "2026-03": 24.5
+          },
+          "clientes_positivados": 6
+        },
+        "RJ-419": {
+          "faturamento_ytd": 149.3,
+          "por_mes": {
+            "2026-01": 83.6,
+            "2026-05": 65.7
+          },
+          "clientes_positivados": 2
+        },
+        "RJ-431": {
+          "faturamento_ytd": 16889.27,
+          "por_mes": {
+            "2026-01": 5341.42,
+            "2026-02": 1734.48,
+            "2026-03": 2081.08,
+            "2026-04": 1687.69,
+            "2026-05": 1099.0,
+            "2026-06": 1642.9,
+            "2026-07": 1289.5,
+            "2026-08": 1371.2,
+            "2026-09": 642.0
+          },
+          "clientes_positivados": 23
+        },
+        "RJ-471": {
+          "faturamento_ytd": 4105.6,
+          "por_mes": {
+            "2026-03": 408.7,
+            "2026-06": 917.4,
+            "2026-07": 1184.9,
+            "2026-08": 1041.2,
+            "2026-09": 553.4
+          },
+          "clientes_positivados": 7
+        },
+        "SP-486": {
+          "faturamento_ytd": 38.59,
+          "por_mes": {
+            "2026-06": 38.59
+          },
+          "clientes_positivados": 1
+        },
+        "SP-511": {
+          "faturamento_ytd": 17.0,
+          "por_mes": {
+            "2026-07": 17.0
+          },
+          "clientes_positivados": 1
+        }
+      },
+      "posicao": 23
     },
     {
       "fantasia": "RECKITT",
-      "faturamento_ytd": 570795.41,
-      "participacao_pct": 0.9,
-      "faturamento_mes_atual": 7185.58,
-      "clientes_positivados": 379,
+      "faturamento_ytd": 584800.41,
+      "participacao_pct": 0.74,
+      "faturamento_mes_atual": 3327.76,
+      "clientes_positivados": 391,
       "por_mes": {
         "2026-01": 8677.1,
         "2026-02": 15602.39,
@@ -9115,7 +11559,9 @@ const RAIOX_INDUSTRIAS_DATA = {
         "2026-04": 142025.95,
         "2026-05": 164015.94,
         "2026-06": 112290.33,
-        "2026-07": 7185.58
+        "2026-07": 7185.58,
+        "2026-08": 10677.23,
+        "2026-09": 3327.76
       },
       "por_vendedor": {
         "ES-257": {
@@ -9156,6 +11602,13 @@ const RAIOX_INDUSTRIAS_DATA = {
             "2026-03": 627.96
           },
           "clientes_positivados": 6
+        },
+        "ES-273": {
+          "faturamento_ytd": 114.79,
+          "por_mes": {
+            "2026-09": 114.79
+          },
+          "clientes_positivados": 1
         },
         "ES-335": {
           "faturamento_ytd": 9700.22,
@@ -9238,16 +11691,18 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 28
         },
         "RJ-153": {
-          "faturamento_ytd": 99611.54,
+          "faturamento_ytd": 104808.13,
           "por_mes": {
             "2026-02": 6972.48,
             "2026-03": 29851.68,
             "2026-04": 33185.28,
             "2026-05": 22521.6,
             "2026-06": 4692.26,
-            "2026-07": 2388.24
+            "2026-07": 2388.24,
+            "2026-08": 3454.47,
+            "2026-09": 1742.12
           },
-          "clientes_positivados": 26
+          "clientes_positivados": 33
         },
         "RJ-155": {
           "faturamento_ytd": 92.2,
@@ -9267,18 +11722,20 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 3
         },
         "RJ-378": {
-          "faturamento_ytd": 3070.82,
+          "faturamento_ytd": 5251.78,
           "por_mes": {
             "2026-03": 140.6,
             "2026-04": 796.8,
             "2026-05": 522.18,
             "2026-06": 1109.28,
-            "2026-07": 501.96
+            "2026-07": 501.96,
+            "2026-08": 1528.16,
+            "2026-09": 652.8
           },
-          "clientes_positivados": 8
+          "clientes_positivados": 9
         },
         "RJ-379": {
-          "faturamento_ytd": 30138.05,
+          "faturamento_ytd": 33218.93,
           "por_mes": {
             "2026-01": 1359.42,
             "2026-02": 1299.33,
@@ -9286,9 +11743,11 @@ const RAIOX_INDUSTRIAS_DATA = {
             "2026-04": 5951.88,
             "2026-05": 8829.74,
             "2026-06": 2483.28,
-            "2026-07": 2009.86
+            "2026-07": 2009.86,
+            "2026-08": 2946.48,
+            "2026-09": 134.4
           },
-          "clientes_positivados": 63
+          "clientes_positivados": 65
         },
         "RJ-412": {
           "faturamento_ytd": 1636.66,
@@ -9312,27 +11771,30 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 6
         },
         "RJ-419": {
-          "faturamento_ytd": 3562.15,
+          "faturamento_ytd": 3699.99,
           "por_mes": {
             "2026-02": 378.0,
             "2026-03": 1599.69,
             "2026-05": 653.36,
             "2026-06": 663.28,
-            "2026-07": 267.82
+            "2026-07": 267.82,
+            "2026-09": 137.83
           },
           "clientes_positivados": 20
         },
         "RJ-431": {
-          "faturamento_ytd": 12279.58,
+          "faturamento_ytd": 12696.28,
           "por_mes": {
             "2026-02": 512.6,
             "2026-03": 2322.4,
             "2026-04": 2573.04,
             "2026-05": 2551.1,
             "2026-06": 3736.52,
-            "2026-07": 583.92
+            "2026-07": 583.92,
+            "2026-08": 287.04,
+            "2026-09": 129.66
           },
-          "clientes_positivados": 67
+          "clientes_positivados": 68
         },
         "RJ-439": {
           "faturamento_ytd": 9541.26,
@@ -9352,510 +11814,581 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 1
         },
         "RJ-471": {
-          "faturamento_ytd": 24110.56,
+          "faturamento_ytd": 26987.8,
           "por_mes": {
             "2026-03": 4427.64,
             "2026-04": 4992.86,
             "2026-05": 6754.55,
             "2026-06": 7113.72,
-            "2026-07": 821.78
+            "2026-07": 821.78,
+            "2026-08": 2461.08,
+            "2026-09": 416.16
           },
           "clientes_positivados": 24
-        }
-      },
-      "posicao": 21
-    },
-    {
-      "fantasia": "MINALBA",
-      "faturamento_ytd": 549072.17,
-      "participacao_pct": 0.86,
-      "faturamento_mes_atual": 42723.53,
-      "clientes_positivados": 219,
-      "por_mes": {
-        "2026-01": 133419.84,
-        "2026-02": 121769.34,
-        "2026-03": 79968.98,
-        "2026-04": 94329.09,
-        "2026-05": 32136.8,
-        "2026-06": 44724.59,
-        "2026-07": 42723.53
-      },
-      "por_vendedor": {
-        "RJ-144": {
-          "faturamento_ytd": 11056.0,
-          "por_mes": {
-            "2026-01": 7174.0,
-            "2026-03": 808.0,
-            "2026-04": 1560.0,
-            "2026-06": 1514.0
-          },
-          "clientes_positivados": 7
-        },
-        "RJ-153": {
-          "faturamento_ytd": 5180.45,
-          "por_mes": {
-            "2026-01": 4304.45,
-            "2026-06": 876.0
-          },
-          "clientes_positivados": 4
-        },
-        "RJ-155": {
-          "faturamento_ytd": 95664.17,
-          "por_mes": {
-            "2026-01": 28563.62,
-            "2026-02": 17294.23,
-            "2026-03": 20306.4,
-            "2026-04": 13587.4,
-            "2026-05": 4827.72,
-            "2026-06": 5870.6,
-            "2026-07": 5214.2
-          },
-          "clientes_positivados": 20
-        },
-        "RJ-156": {
-          "faturamento_ytd": 226671.58,
-          "por_mes": {
-            "2026-01": 53507.19,
-            "2026-02": 47879.38,
-            "2026-03": 36200.3,
-            "2026-04": 38497.4,
-            "2026-05": 13508.65,
-            "2026-06": 21653.56,
-            "2026-07": 15425.1
-          },
-          "clientes_positivados": 87
-        },
-        "RJ-159": {
-          "faturamento_ytd": 87992.35,
-          "por_mes": {
-            "2026-01": 7574.16,
-            "2026-02": 22540.75,
-            "2026-03": 7165.7,
-            "2026-04": 23628.3,
-            "2026-05": 8385.4,
-            "2026-06": 7267.34,
-            "2026-07": 11430.7
-          },
-          "clientes_positivados": 17
-        },
-        "RJ-378": {
-          "faturamento_ytd": 4637.45,
-          "por_mes": {
-            "2026-01": 961.75,
-            "2026-02": 610.5,
-            "2026-03": 1588.4,
-            "2026-04": 951.1,
-            "2026-05": 68.7,
-            "2026-06": 162.3,
-            "2026-07": 294.7
-          },
-          "clientes_positivados": 5
-        },
-        "RJ-379": {
-          "faturamento_ytd": 8171.07,
-          "por_mes": {
-            "2026-01": 4131.87,
-            "2026-02": 41.8,
-            "2026-03": 353.5,
-            "2026-04": 408.6,
-            "2026-06": 706.8,
-            "2026-07": 2528.5
-          },
-          "clientes_positivados": 15
-        },
-        "RJ-412": {
-          "faturamento_ytd": 75228.38,
-          "por_mes": {
-            "2026-01": 13853.32,
-            "2026-02": 22738.4,
-            "2026-03": 11032.4,
-            "2026-04": 14008.6,
-            "2026-05": 4181.63,
-            "2026-06": 4075.1,
-            "2026-07": 5338.93
-          },
-          "clientes_positivados": 27
-        },
-        "RJ-417": {
-          "faturamento_ytd": 16878.76,
-          "por_mes": {
-            "2026-01": 7924.46,
-            "2026-02": 8929.8,
-            "2026-03": 24.5
-          },
-          "clientes_positivados": 6
-        },
-        "RJ-419": {
-          "faturamento_ytd": 149.3,
-          "por_mes": {
-            "2026-01": 83.6,
-            "2026-05": 65.7
-          },
-          "clientes_positivados": 2
-        },
-        "RJ-431": {
-          "faturamento_ytd": 14876.07,
-          "por_mes": {
-            "2026-01": 5341.42,
-            "2026-02": 1734.48,
-            "2026-03": 2081.08,
-            "2026-04": 1687.69,
-            "2026-05": 1099.0,
-            "2026-06": 1642.9,
-            "2026-07": 1289.5
-          },
-          "clientes_positivados": 23
-        },
-        "RJ-471": {
-          "faturamento_ytd": 2511.0,
-          "por_mes": {
-            "2026-03": 408.7,
-            "2026-06": 917.4,
-            "2026-07": 1184.9
-          },
-          "clientes_positivados": 6
-        },
-        "SP-486": {
-          "faturamento_ytd": 38.59,
-          "por_mes": {
-            "2026-06": 38.59
-          },
-          "clientes_positivados": 1
-        },
-        "SP-511": {
-          "faturamento_ytd": 17.0,
-          "por_mes": {
-            "2026-07": 17.0
-          },
-          "clientes_positivados": 1
-        }
-      },
-      "posicao": 22
-    },
-    {
-      "fantasia": "MOET HENNESY",
-      "faturamento_ytd": 529152.67,
-      "participacao_pct": 0.83,
-      "faturamento_mes_atual": 143111.87,
-      "clientes_positivados": 99,
-      "por_mes": {
-        "2026-01": 18292.67,
-        "2026-02": 16025.55,
-        "2026-03": 41712.28,
-        "2026-04": 67579.2,
-        "2026-05": 14383.82,
-        "2026-06": 228047.28,
-        "2026-07": 143111.87
-      },
-      "por_vendedor": {
-        "SP-119": {
-          "faturamento_ytd": 221318.0,
-          "por_mes": {
-            "2026-06": 172736.0,
-            "2026-07": 48582.0
-          },
-          "clientes_positivados": 1
-        },
-        "SP-356": {
-          "faturamento_ytd": 412.8,
-          "por_mes": {
-            "2026-04": 412.8
-          },
-          "clientes_positivados": 1
-        },
-        "SP-371": {
-          "faturamento_ytd": 27059.57,
-          "por_mes": {
-            "2026-01": 4587.59,
-            "2026-03": 5720.16,
-            "2026-04": 3232.02,
-            "2026-06": 4402.2,
-            "2026-07": 9117.6
-          },
-          "clientes_positivados": 3
-        },
-        "SP-391": {
-          "faturamento_ytd": 58325.53,
-          "por_mes": {
-            "2026-02": 5444.85,
-            "2026-03": 4591.71,
-            "2026-04": 3541.62,
-            "2026-05": 4613.4,
-            "2026-06": 2658.55,
-            "2026-07": 37475.4
-          },
-          "clientes_positivados": 12
-        },
-        "SP-405": {
-          "faturamento_ytd": 141.8,
-          "por_mes": {
-            "2026-04": 141.8
-          },
-          "clientes_positivados": 1
-        },
-        "SP-425": {
-          "faturamento_ytd": 74156.84,
-          "por_mes": {
-            "2026-02": 8382.06,
-            "2026-03": 12783.73,
-            "2026-04": 25089.68,
-            "2026-05": 4625.8,
-            "2026-06": 8950.05,
-            "2026-07": 14325.53
-          },
-          "clientes_positivados": 20
-        },
-        "SP-426": {
-          "faturamento_ytd": 68539.51,
-          "por_mes": {
-            "2026-01": 12623.88,
-            "2026-03": 16585.68,
-            "2026-04": 26233.68,
-            "2026-05": 213.67,
-            "2026-06": 2935.8,
-            "2026-07": 9946.8
-          },
-          "clientes_positivados": 14
-        },
-        "SP-428": {
-          "faturamento_ytd": 10826.3,
-          "por_mes": {
-            "2026-01": 1081.2,
-            "2026-02": 2198.64,
-            "2026-03": 1342.92,
-            "2026-04": 2710.28,
-            "2026-06": 3493.26
-          },
-          "clientes_positivados": 2
-        },
-        "SP-433": {
-          "faturamento_ytd": 14159.4,
-          "por_mes": {
-            "2026-04": 4343.4,
-            "2026-05": 3426.0,
-            "2026-06": 4410.0,
-            "2026-07": 1980.0
-          },
-          "clientes_positivados": 6
-        },
-        "SP-438": {
-          "faturamento_ytd": 2153.52,
-          "por_mes": {
-            "2026-03": 688.08,
-            "2026-04": 1185.84,
-            "2026-06": 279.6
-          },
-          "clientes_positivados": 3
-        },
-        "SP-460": {
-          "faturamento_ytd": 4471.1,
-          "por_mes": {
-            "2026-06": 1767.6,
-            "2026-07": 2703.5
-          },
-          "clientes_positivados": 7
-        },
-        "SP-463": {
-          "faturamento_ytd": 4165.5,
-          "por_mes": {
-            "2026-06": 4165.5
-          },
-          "clientes_positivados": 2
-        },
-        "SP-464": {
-          "faturamento_ytd": 2277.0,
-          "por_mes": {
-            "2026-06": 2277.0
-          },
-          "clientes_positivados": 1
-        },
-        "SP-465": {
-          "faturamento_ytd": 2516.4,
-          "por_mes": {
-            "2026-06": 2516.4
-          },
-          "clientes_positivados": 1
-        },
-        "SP-466": {
-          "faturamento_ytd": 2253.03,
-          "por_mes": {
-            "2026-04": 688.08,
-            "2026-05": 292.65,
-            "2026-06": 1272.3
-          },
-          "clientes_positivados": 4
-        },
-        "SP-467": {
-          "faturamento_ytd": 874.8,
-          "por_mes": {
-            "2026-06": 874.8
-          },
-          "clientes_positivados": 1
-        },
-        "SP-469": {
-          "faturamento_ytd": 932.7,
-          "por_mes": {
-            "2026-05": 932.7
-          },
-          "clientes_positivados": 1
-        },
-        "SP-471": {
-          "faturamento_ytd": 2656.1,
-          "por_mes": {
-            "2026-05": 279.6,
-            "2026-06": 2277.0,
-            "2026-07": 99.5
-          },
-          "clientes_positivados": 5
-        },
-        "SP-472": {
-          "faturamento_ytd": 547.5,
-          "por_mes": {
-            "2026-07": 547.5
-          },
-          "clientes_positivados": 1
-        },
-        "SP-474": {
-          "faturamento_ytd": 28.67,
-          "por_mes": {
-            "2026-06": 28.67
-          },
-          "clientes_positivados": 1
-        },
-        "SP-476": {
-          "faturamento_ytd": 3174.7,
-          "por_mes": {
-            "2026-06": 1258.2,
-            "2026-07": 1916.5
-          },
-          "clientes_positivados": 2
-        },
-        "SP-486": {
-          "faturamento_ytd": 1006.9,
-          "por_mes": {
-            "2026-07": 1006.9
-          },
-          "clientes_positivados": 4
-        },
-        "SP-489": {
-          "faturamento_ytd": 23550.56,
-          "por_mes": {
-            "2026-06": 11744.36,
-            "2026-07": 11806.2
-          },
-          "clientes_positivados": 5
-        },
-        "SP-496": {
-          "faturamento_ytd": 1342.2,
-          "por_mes": {
-            "2026-07": 1342.2
-          },
-          "clientes_positivados": 1
-        },
-        "SP-507": {
-          "faturamento_ytd": 461.4,
-          "por_mes": {
-            "2026-07": 461.4
-          },
-          "clientes_positivados": 1
-        },
-        "SP-515": {
-          "faturamento_ytd": 878.04,
-          "por_mes": {
-            "2026-07": 878.04
-          },
-          "clientes_positivados": 1
-        },
-        "SP-516": {
-          "faturamento_ytd": 922.8,
-          "por_mes": {
-            "2026-07": 922.8
-          },
-          "clientes_positivados": 1
-        }
-      },
-      "posicao": 23
-    },
-    {
-      "fantasia": "MONIN",
-      "faturamento_ytd": 523211.0,
-      "participacao_pct": 0.82,
-      "faturamento_mes_atual": 259575.1,
-      "clientes_positivados": 60,
-      "por_mes": {
-        "2026-06": 263635.9,
-        "2026-07": 259575.1
-      },
-      "por_vendedor": {
-        "MG-327": {
-          "faturamento_ytd": 11942.2,
-          "por_mes": {
-            "2026-06": 1313.3,
-            "2026-07": 10628.9
-          },
-          "clientes_positivados": 27
-        },
-        "MG-344": {
-          "faturamento_ytd": 5300.3,
-          "por_mes": {
-            "2026-06": 309.3,
-            "2026-07": 4991.0
-          },
-          "clientes_positivados": 5
-        },
-        "MG-354": {
-          "faturamento_ytd": 3335.5,
-          "por_mes": {
-            "2026-06": 3335.5
-          },
-          "clientes_positivados": 16
-        },
-        "MG-360": {
-          "faturamento_ytd": 488724.0,
-          "por_mes": {
-            "2026-06": 258532.2,
-            "2026-07": 230191.8
-          },
-          "clientes_positivados": 6
-        },
-        "MG-362": {
-          "faturamento_ytd": 439.0,
-          "por_mes": {
-            "2026-06": 145.6,
-            "2026-07": 293.4
-          },
-          "clientes_positivados": 4
-        },
-        "MG-378": {
-          "faturamento_ytd": 6196.2,
-          "por_mes": {
-            "2026-07": 6196.2
-          },
-          "clientes_positivados": 1
-        },
-        "MG-388": {
-          "faturamento_ytd": 7273.8,
-          "por_mes": {
-            "2026-07": 7273.8
-          },
-          "clientes_positivados": 1
         }
       },
       "posicao": 24
     },
     {
+      "fantasia": "CRS BRANDS",
+      "faturamento_ytd": 561495.8,
+      "participacao_pct": 0.71,
+      "faturamento_mes_atual": 33441.64,
+      "clientes_positivados": 478,
+      "por_mes": {
+        "2026-01": 369.0,
+        "2026-02": 77.4,
+        "2026-03": 1502.82,
+        "2026-04": 1372.48,
+        "2026-05": 1261.86,
+        "2026-06": 73757.26,
+        "2026-07": 208049.26,
+        "2026-08": 241664.08,
+        "2026-09": 33441.64
+      },
+      "por_vendedor": {
+        "RJ-144": {
+          "faturamento_ytd": 7629.6,
+          "por_mes": {
+            "2026-01": 136.8,
+            "2026-04": 392.4,
+            "2026-06": 3691.5,
+            "2026-07": 1416.0,
+            "2026-08": 1992.9
+          },
+          "clientes_positivados": 17
+        },
+        "RJ-238": {
+          "faturamento_ytd": 860.88,
+          "por_mes": {
+            "2026-04": 860.88
+          },
+          "clientes_positivados": 5
+        },
+        "RJ-378": {
+          "faturamento_ytd": 696.7,
+          "por_mes": {
+            "2026-04": 47.6,
+            "2026-06": 179.4,
+            "2026-07": 226.7,
+            "2026-08": 162.0,
+            "2026-09": 81.0
+          },
+          "clientes_positivados": 5
+        },
+        "RJ-379": {
+          "faturamento_ytd": 1357.4,
+          "por_mes": {
+            "2026-02": 77.4,
+            "2026-04": 71.6,
+            "2026-06": 220.2,
+            "2026-07": 916.8,
+            "2026-08": 71.4
+          },
+          "clientes_positivados": 6
+        },
+        "RJ-417": {
+          "faturamento_ytd": 154.8,
+          "por_mes": {
+            "2026-01": 154.8
+          },
+          "clientes_positivados": 1
+        },
+        "RJ-419": {
+          "faturamento_ytd": 4403.1,
+          "por_mes": {
+            "2026-06": 196.8,
+            "2026-07": 3834.0,
+            "2026-08": 210.3,
+            "2026-09": 162.0
+          },
+          "clientes_positivados": 4
+        },
+        "RJ-431": {
+          "faturamento_ytd": 40.5,
+          "por_mes": {
+            "2026-09": 40.5
+          },
+          "clientes_positivados": 1
+        },
+        "RJ-439": {
+          "faturamento_ytd": 423.0,
+          "por_mes": {
+            "2026-01": 77.4,
+            "2026-06": 81.0,
+            "2026-07": 264.6
+          },
+          "clientes_positivados": 3
+        },
+        "RJ-450": {
+          "faturamento_ytd": 2914.92,
+          "por_mes": {
+            "2026-06": 1401.72,
+            "2026-07": 1513.2
+          },
+          "clientes_positivados": 5
+        },
+        "RJ-471": {
+          "faturamento_ytd": 1318.8,
+          "por_mes": {
+            "2026-05": 162.0,
+            "2026-06": 300.0,
+            "2026-07": 464.4,
+            "2026-08": 392.4
+          },
+          "clientes_positivados": 4
+        },
+        "SP-232": {
+          "faturamento_ytd": 2626.59,
+          "por_mes": {
+            "2026-06": 645.72,
+            "2026-07": 634.8,
+            "2026-08": 1346.07
+          },
+          "clientes_positivados": 4
+        },
+        "SP-317": {
+          "faturamento_ytd": 3956.04,
+          "por_mes": {
+            "2026-06": 839.16,
+            "2026-07": 1918.08,
+            "2026-08": 1198.8
+          },
+          "clientes_positivados": 12
+        },
+        "SP-318": {
+          "faturamento_ytd": 39312.0,
+          "por_mes": {
+            "2026-08": 39312.0
+          },
+          "clientes_positivados": 1
+        },
+        "SP-367": {
+          "faturamento_ytd": 68.58,
+          "por_mes": {
+            "2026-03": 68.58
+          },
+          "clientes_positivados": 1
+        },
+        "SP-371": {
+          "faturamento_ytd": 48079.5,
+          "por_mes": {
+            "2026-03": 1434.24,
+            "2026-06": 20482.44,
+            "2026-07": 14501.52,
+            "2026-08": 5931.66,
+            "2026-09": 5729.64
+          },
+          "clientes_positivados": 31
+        },
+        "SP-391": {
+          "faturamento_ytd": 7155.96,
+          "por_mes": {
+            "2026-06": 3176.28,
+            "2026-08": 3979.68
+          },
+          "clientes_positivados": 7
+        },
+        "SP-425": {
+          "faturamento_ytd": 7167.14,
+          "por_mes": {
+            "2026-06": 53.94,
+            "2026-07": 7113.2
+          },
+          "clientes_positivados": 9
+        },
+        "SP-426": {
+          "faturamento_ytd": 87033.36,
+          "por_mes": {
+            "2026-06": 15307.08,
+            "2026-07": 14144.28,
+            "2026-08": 57582.0
+          },
+          "clientes_positivados": 15
+        },
+        "SP-433": {
+          "faturamento_ytd": 38830.08,
+          "por_mes": {
+            "2026-06": 2720.52,
+            "2026-07": 24278.4,
+            "2026-08": 11831.16
+          },
+          "clientes_positivados": 19
+        },
+        "SP-460": {
+          "faturamento_ytd": 4795.02,
+          "por_mes": {
+            "2026-06": 2019.9,
+            "2026-07": 755.28,
+            "2026-08": 1306.56,
+            "2026-09": 713.28
+          },
+          "clientes_positivados": 15
+        },
+        "SP-461": {
+          "faturamento_ytd": 7358.52,
+          "por_mes": {
+            "2026-06": 1724.52,
+            "2026-07": 3344.4,
+            "2026-08": 2289.6
+          },
+          "clientes_positivados": 9
+        },
+        "SP-463": {
+          "faturamento_ytd": 9433.92,
+          "por_mes": {
+            "2026-05": 1055.04,
+            "2026-06": 2049.84,
+            "2026-07": 755.16,
+            "2026-08": 5466.0,
+            "2026-09": 107.88
+          },
+          "clientes_positivados": 16
+        },
+        "SP-464": {
+          "faturamento_ytd": 395.43,
+          "por_mes": {
+            "2026-05": 44.82,
+            "2026-07": 269.7,
+            "2026-09": 80.91
+          },
+          "clientes_positivados": 2
+        },
+        "SP-465": {
+          "faturamento_ytd": 3439.13,
+          "por_mes": {
+            "2026-06": 1999.04,
+            "2026-07": 296.7,
+            "2026-08": 1035.5,
+            "2026-09": 107.88
+          },
+          "clientes_positivados": 6
+        },
+        "SP-466": {
+          "faturamento_ytd": 5447.4,
+          "por_mes": {
+            "2026-07": 2103.72,
+            "2026-08": 1258.08,
+            "2026-09": 2085.6
+          },
+          "clientes_positivados": 5
+        },
+        "SP-467": {
+          "faturamento_ytd": 50389.2,
+          "por_mes": {
+            "2026-06": 2397.6,
+            "2026-07": 10788.0,
+            "2026-08": 36858.0,
+            "2026-09": 345.6
+          },
+          "clientes_positivados": 4
+        },
+        "SP-468": {
+          "faturamento_ytd": 38093.84,
+          "por_mes": {
+            "2026-06": 1404.84,
+            "2026-07": 27526.28,
+            "2026-08": 5512.92,
+            "2026-09": 3649.8
+          },
+          "clientes_positivados": 28
+        },
+        "SP-469": {
+          "faturamento_ytd": 3354.12,
+          "por_mes": {
+            "2026-06": 107.88,
+            "2026-08": 3246.24
+          },
+          "clientes_positivados": 6
+        },
+        "SP-470": {
+          "faturamento_ytd": 434.52,
+          "por_mes": {
+            "2026-06": 56.94,
+            "2026-07": 53.94,
+            "2026-08": 323.64
+          },
+          "clientes_positivados": 3
+        },
+        "SP-471": {
+          "faturamento_ytd": 1186.8,
+          "por_mes": {
+            "2026-06": 119.88,
+            "2026-08": 347.64,
+            "2026-09": 719.28
+          },
+          "clientes_positivados": 6
+        },
+        "SP-472": {
+          "faturamento_ytd": 2154.6,
+          "por_mes": {
+            "2026-06": 131.88,
+            "2026-07": 647.28,
+            "2026-08": 323.64,
+            "2026-09": 1051.8
+          },
+          "clientes_positivados": 6
+        },
+        "SP-474": {
+          "faturamento_ytd": 827.15,
+          "por_mes": {
+            "2026-06": 152.9,
+            "2026-07": 323.64,
+            "2026-09": 350.61
+          },
+          "clientes_positivados": 2
+        },
+        "SP-475": {
+          "faturamento_ytd": 7680.69,
+          "por_mes": {
+            "2026-06": 851.16,
+            "2026-07": 2801.97,
+            "2026-08": 4027.56
+          },
+          "clientes_positivados": 15
+        },
+        "SP-476": {
+          "faturamento_ytd": 10281.69,
+          "por_mes": {
+            "2026-06": 707.22,
+            "2026-07": 2984.42,
+            "2026-08": 5834.89,
+            "2026-09": 755.16
+          },
+          "clientes_positivados": 18
+        },
+        "SP-477": {
+          "faturamento_ytd": 7624.63,
+          "por_mes": {
+            "2026-06": 2661.06,
+            "2026-07": 2412.33,
+            "2026-08": 2443.36,
+            "2026-09": 107.88
+          },
+          "clientes_positivados": 15
+        },
+        "SP-482": {
+          "faturamento_ytd": 2782.5,
+          "por_mes": {
+            "2026-07": 2782.5
+          },
+          "clientes_positivados": 1
+        },
+        "SP-486": {
+          "faturamento_ytd": 28518.15,
+          "por_mes": {
+            "2026-06": 315.32,
+            "2026-07": 13525.17,
+            "2026-08": 5322.46,
+            "2026-09": 9355.2
+          },
+          "clientes_positivados": 22
+        },
+        "SP-489": {
+          "faturamento_ytd": 6796.68,
+          "por_mes": {
+            "2026-06": 3128.76,
+            "2026-07": 3236.4,
+            "2026-08": 431.52
+          },
+          "clientes_positivados": 4
+        },
+        "SP-490": {
+          "faturamento_ytd": 3811.92,
+          "por_mes": {
+            "2026-06": 2157.6,
+            "2026-07": 1654.32
+          },
+          "clientes_positivados": 2
+        },
+        "SP-491": {
+          "faturamento_ytd": 1042.32,
+          "por_mes": {
+            "2026-07": 1042.32
+          },
+          "clientes_positivados": 2
+        },
+        "SP-492": {
+          "faturamento_ytd": 2463.16,
+          "por_mes": {
+            "2026-07": 431.52,
+            "2026-08": 2031.64
+          },
+          "clientes_positivados": 8
+        },
+        "SP-493": {
+          "faturamento_ytd": 4632.76,
+          "por_mes": {
+            "2026-06": 2475.16,
+            "2026-07": 2157.6
+          },
+          "clientes_positivados": 13
+        },
+        "SP-496": {
+          "faturamento_ytd": 11660.64,
+          "por_mes": {
+            "2026-07": 11001.36,
+            "2026-08": 659.28
+          },
+          "clientes_positivados": 4
+        },
+        "SP-497": {
+          "faturamento_ytd": 3827.1,
+          "por_mes": {
+            "2026-07": 3155.82,
+            "2026-08": 671.28
+          },
+          "clientes_positivados": 8
+        },
+        "SP-498": {
+          "faturamento_ytd": 3260.04,
+          "por_mes": {
+            "2026-07": 2181.24,
+            "2026-08": 1078.8
+          },
+          "clientes_positivados": 4
+        },
+        "SP-499": {
+          "faturamento_ytd": 1726.08,
+          "por_mes": {
+            "2026-07": 863.04,
+            "2026-08": 863.04
+          },
+          "clientes_positivados": 5
+        },
+        "SP-500": {
+          "faturamento_ytd": 4634.88,
+          "por_mes": {
+            "2026-07": 755.16,
+            "2026-08": 2888.88,
+            "2026-09": 990.84
+          },
+          "clientes_positivados": 11
+        },
+        "SP-502": {
+          "faturamento_ytd": 1701.24,
+          "por_mes": {
+            "2026-07": 647.28,
+            "2026-08": 1053.96
+          },
+          "clientes_positivados": 5
+        },
+        "SP-504": {
+          "faturamento_ytd": 14962.86,
+          "por_mes": {
+            "2026-07": 723.78,
+            "2026-08": 14239.08
+          },
+          "clientes_positivados": 17
+        },
+        "SP-505": {
+          "faturamento_ytd": 323.64,
+          "por_mes": {
+            "2026-08": 323.64
+          },
+          "clientes_positivados": 1
+        },
+        "SP-507": {
+          "faturamento_ytd": 551.4,
+          "por_mes": {
+            "2026-08": 551.4
+          },
+          "clientes_positivados": 2
+        },
+        "SP-508": {
+          "faturamento_ytd": 28264.56,
+          "por_mes": {
+            "2026-07": 28264.56
+          },
+          "clientes_positivados": 5
+        },
+        "SP-511": {
+          "faturamento_ytd": 539.4,
+          "por_mes": {
+            "2026-09": 539.4
+          },
+          "clientes_positivados": 1
+        },
+        "SP-512": {
+          "faturamento_ytd": 19669.66,
+          "por_mes": {
+            "2026-07": 6317.4,
+            "2026-08": 9889.18,
+            "2026-09": 3463.08
+          },
+          "clientes_positivados": 19
+        },
+        "SP-513": {
+          "faturamento_ytd": 2589.48,
+          "por_mes": {
+            "2026-07": 1510.68,
+            "2026-08": 1078.8
+          },
+          "clientes_positivados": 2
+        },
+        "SP-515": {
+          "faturamento_ytd": 2493.24,
+          "por_mes": {
+            "2026-08": 1618.2,
+            "2026-09": 875.04
+          },
+          "clientes_positivados": 8
+        },
+        "SP-516": {
+          "faturamento_ytd": 5726.64,
+          "por_mes": {
+            "2026-07": 1510.32,
+            "2026-08": 3150.48,
+            "2026-09": 1065.84
+          },
+          "clientes_positivados": 22
+        },
+        "SP-521": {
+          "faturamento_ytd": 1312.68,
+          "por_mes": {
+            "2026-08": 1312.68
+          },
+          "clientes_positivados": 4
+        },
+        "SP-523": {
+          "faturamento_ytd": 269.7,
+          "por_mes": {
+            "2026-08": 215.76,
+            "2026-09": 53.94
+          },
+          "clientes_positivados": 2
+        },
+        "SP-524": {
+          "faturamento_ytd": 901.6,
+          "por_mes": {
+            "2026-09": 901.6
+          },
+          "clientes_positivados": 1
+        },
+        "SP-553": {
+          "faturamento_ytd": 107.88,
+          "por_mes": {
+            "2026-09": 107.88
+          },
+          "clientes_positivados": 1
+        }
+      },
+      "posicao": 25
+    },
+    {
       "fantasia": "NOIG",
-      "faturamento_ytd": 362568.16,
-      "participacao_pct": 0.57,
+      "faturamento_ytd": 367370.4,
+      "participacao_pct": 0.46,
       "faturamento_mes_atual": 0.0,
-      "clientes_positivados": 287,
+      "clientes_positivados": 288,
       "por_mes": {
         "2026-01": 37373.37,
         "2026-02": 53605.28,
         "2026-03": 125177.28,
         "2026-04": 72516.0,
         "2026-05": 56949.22,
-        "2026-06": 16947.02
+        "2026-06": 16947.02,
+        "2026-08": 4802.24
       },
       "por_vendedor": {
         "ES-230": {
@@ -10005,15 +12538,29 @@ const RAIOX_INDUSTRIAS_DATA = {
             "2026-06": 5356.8
           },
           "clientes_positivados": 15
+        },
+        "ES-458": {
+          "faturamento_ytd": 1116.8,
+          "por_mes": {
+            "2026-08": 1116.8
+          },
+          "clientes_positivados": 2
+        },
+        "ES-521": {
+          "faturamento_ytd": 3685.44,
+          "por_mes": {
+            "2026-08": 3685.44
+          },
+          "clientes_positivados": 1
         }
       },
-      "posicao": 25
+      "posicao": 26
     },
     {
       "fantasia": "AGUA NA CAIXA",
-      "faturamento_ytd": 355236.68,
-      "participacao_pct": 0.56,
-      "faturamento_mes_atual": 165601.5,
+      "faturamento_ytd": 355671.38,
+      "participacao_pct": 0.45,
+      "faturamento_mes_atual": 0.0,
       "clientes_positivados": 49,
       "por_mes": {
         "2026-01": 591.32,
@@ -10022,17 +12569,19 @@ const RAIOX_INDUSTRIAS_DATA = {
         "2026-04": 165604.6,
         "2026-05": 830.3,
         "2026-06": 1488.1,
-        "2026-07": 165601.5
+        "2026-07": 165601.5,
+        "2026-08": 434.7
       },
       "por_vendedor": {
         "RJ-156": {
-          "faturamento_ytd": 1441.0,
+          "faturamento_ytd": 1584.6,
           "por_mes": {
             "2026-01": 501.52,
             "2026-02": 221.48,
             "2026-03": 391.0,
             "2026-05": 159.5,
-            "2026-06": 167.5
+            "2026-06": 167.5,
+            "2026-08": 143.6
           },
           "clientes_positivados": 17
         },
@@ -10072,13 +12621,14 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 6
         },
         "RJ-379": {
-          "faturamento_ytd": 354.7,
+          "faturamento_ytd": 414.5,
           "por_mes": {
             "2026-02": 135.6,
             "2026-03": 69.6,
             "2026-05": 89.7,
             "2026-06": 30.9,
-            "2026-07": 28.9
+            "2026-07": 28.9,
+            "2026-08": 59.8
           },
           "clientes_positivados": 3
         },
@@ -10113,415 +12663,26 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 2
         },
         "RJ-471": {
-          "faturamento_ytd": 22106.78,
+          "faturamento_ytd": 22338.08,
           "por_mes": {
             "2026-03": 19643.98,
             "2026-04": 1587.6,
             "2026-05": 403.7,
             "2026-06": 155.5,
-            "2026-07": 316.0
+            "2026-07": 316.0,
+            "2026-08": 231.3
           },
           "clientes_positivados": 11
-        }
-      },
-      "posicao": 26
-    },
-    {
-      "fantasia": "INTERFOOD",
-      "faturamento_ytd": 307812.09,
-      "participacao_pct": 0.48,
-      "faturamento_mes_atual": 35146.32,
-      "clientes_positivados": 295,
-      "por_mes": {
-        "2026-01": 39622.2,
-        "2026-02": 18320.17,
-        "2026-03": 26144.62,
-        "2026-04": 104405.43,
-        "2026-05": 13899.62,
-        "2026-06": 70273.74,
-        "2026-07": 35146.32
-      },
-      "por_vendedor": {
-        "ES-257": {
-          "faturamento_ytd": 2931.02,
-          "por_mes": {
-            "2026-01": 1356.32,
-            "2026-02": 1026.12,
-            "2026-03": 365.72,
-            "2026-04": 182.86
-          },
-          "clientes_positivados": 3
-        },
-        "RJ-144": {
-          "faturamento_ytd": 9174.8,
-          "por_mes": {
-            "2026-01": 1138.8,
-            "2026-02": 1078.8,
-            "2026-04": 1186.8,
-            "2026-05": 276.7,
-            "2026-06": 2951.6,
-            "2026-07": 2542.1
-          },
-          "clientes_positivados": 14
-        },
-        "RJ-153": {
-          "faturamento_ytd": 5874.0,
-          "por_mes": {
-            "2026-04": 5874.0
-          },
-          "clientes_positivados": 2
-        },
-        "RJ-155": {
-          "faturamento_ytd": 25936.0,
-          "por_mes": {
-            "2026-01": 8997.4,
-            "2026-02": 1175.0,
-            "2026-03": 2593.5,
-            "2026-04": 4154.8,
-            "2026-05": 614.4,
-            "2026-06": 4492.0,
-            "2026-07": 3908.9
-          },
-          "clientes_positivados": 37
-        },
-        "RJ-156": {
-          "faturamento_ytd": 16010.9,
-          "por_mes": {
-            "2026-03": 1459.6,
-            "2026-04": 177.8,
-            "2026-05": 988.0,
-            "2026-06": 9969.7,
-            "2026-07": 3415.8
-          },
-          "clientes_positivados": 55
-        },
-        "RJ-158": {
-          "faturamento_ytd": 10036.96,
-          "por_mes": {
-            "2026-02": 3236.4,
-            "2026-03": 6472.8,
-            "2026-06": 327.76
-          },
-          "clientes_positivados": 4
-        },
-        "RJ-159": {
-          "faturamento_ytd": 14945.4,
-          "por_mes": {
-            "2026-01": 1475.6,
-            "2026-02": 2240.0,
-            "2026-03": 1693.2,
-            "2026-04": 2256.6,
-            "2026-05": 1286.6,
-            "2026-06": 2326.5,
-            "2026-07": 3666.9
-          },
-          "clientes_positivados": 33
-        },
-        "RJ-238": {
-          "faturamento_ytd": 2772.9,
-          "por_mes": {
-            "2026-02": 2772.9
-          },
-          "clientes_positivados": 1
-        },
-        "RJ-241": {
-          "faturamento_ytd": 754.67,
-          "por_mes": {
-            "2026-02": 292.35,
-            "2026-05": 268.8,
-            "2026-06": 193.52
-          },
-          "clientes_positivados": 3
-        },
-        "RJ-275": {
-          "faturamento_ytd": 2661.0,
-          "por_mes": {
-            "2026-06": 2157.6,
-            "2026-07": 503.4
-          },
-          "clientes_positivados": 5
-        },
-        "RJ-378": {
-          "faturamento_ytd": 1102.8,
-          "por_mes": {
-            "2026-07": 1102.8
-          },
-          "clientes_positivados": 1
-        },
-        "RJ-379": {
-          "faturamento_ytd": 18899.0,
-          "por_mes": {
-            "2026-03": 1818.0,
-            "2026-04": 89.9,
-            "2026-05": 3955.6,
-            "2026-06": 12226.4,
-            "2026-07": 809.1
-          },
-          "clientes_positivados": 36
-        },
-        "RJ-412": {
-          "faturamento_ytd": 4261.3,
-          "por_mes": {
-            "2026-01": 299.7,
-            "2026-02": 179.8,
-            "2026-05": 98.9,
-            "2026-06": 3236.4,
-            "2026-07": 446.5
-          },
-          "clientes_positivados": 7
-        },
-        "RJ-417": {
-          "faturamento_ytd": 2131.7,
-          "por_mes": {
-            "2026-01": 629.4,
-            "2026-02": 165.8,
-            "2026-04": 1066.8,
-            "2026-05": 269.7
-          },
-          "clientes_positivados": 3
-        },
-        "RJ-419": {
-          "faturamento_ytd": 7943.8,
-          "por_mes": {
-            "2026-02": 317.7,
-            "2026-04": 4135.5,
-            "2026-05": 267.7,
-            "2026-06": 926.4,
-            "2026-07": 2296.5
-          },
-          "clientes_positivados": 11
-        },
-        "RJ-420": {
-          "faturamento_ytd": 88461.6,
-          "por_mes": {
-            "2026-04": 66885.6,
-            "2026-06": 21576.0
-          },
-          "clientes_positivados": 1
-        },
-        "RJ-431": {
-          "faturamento_ytd": 1829.58,
-          "por_mes": {
-            "2026-05": 109.98,
-            "2026-06": 1719.6
-          },
-          "clientes_positivados": 3
-        },
-        "RJ-439": {
-          "faturamento_ytd": 298.7,
-          "por_mes": {
-            "2026-02": 120.9,
-            "2026-04": 177.8
-          },
-          "clientes_positivados": 2
-        },
-        "RJ-450": {
-          "faturamento_ytd": 9524.8,
-          "por_mes": {
-            "2026-03": 1078.8,
-            "2026-04": 906.24,
-            "2026-05": 3293.84,
-            "2026-06": 4245.92
-          },
-          "clientes_positivados": 6
-        },
-        "RJ-471": {
-          "faturamento_ytd": 6496.78,
-          "por_mes": {
-            "2026-03": 476.5,
-            "2026-04": 4282.08,
-            "2026-05": 659.4,
-            "2026-07": 1078.8
-          },
-          "clientes_positivados": 9
-        },
-        "SP-232": {
-          "faturamento_ytd": 188.1,
-          "por_mes": {
-            "2026-07": 188.1
-          },
-          "clientes_positivados": 1
-        },
-        "SP-317": {
-          "faturamento_ytd": 10969.92,
-          "por_mes": {
-            "2026-01": 7557.12,
-            "2026-02": 1111.2,
-            "2026-04": 2301.6
-          },
-          "clientes_positivados": 9
-        },
-        "SP-356": {
-          "faturamento_ytd": 209.8,
-          "por_mes": {
-            "2026-04": 209.8
-          },
-          "clientes_positivados": 1
-        },
-        "SP-371": {
-          "faturamento_ytd": 282.15,
-          "por_mes": {
-            "2026-04": 282.15
-          },
-          "clientes_positivados": 1
-        },
-        "SP-391": {
-          "faturamento_ytd": 24383.64,
-          "por_mes": {
-            "2026-01": 15472.14,
-            "2026-02": 4603.2,
-            "2026-03": 1150.8,
-            "2026-06": 2157.6,
-            "2026-07": 999.9
-          },
-          "clientes_positivados": 6
-        },
-        "SP-425": {
-          "faturamento_ytd": 5012.78,
-          "por_mes": {
-            "2026-01": 1533.28,
-            "2026-03": 2130.9,
-            "2026-07": 1348.6
-          },
-          "clientes_positivados": 5
-        },
-        "SP-426": {
-          "faturamento_ytd": 13135.44,
-          "por_mes": {
-            "2026-01": 1162.44,
-            "2026-03": 6904.8,
-            "2026-04": 752.4,
-            "2026-05": 539.4,
-            "2026-07": 3776.4
-          },
-          "clientes_positivados": 8
-        },
-        "SP-428": {
-          "faturamento_ytd": 1103.7,
-          "por_mes": {
-            "2026-04": 564.3,
-            "2026-07": 539.4
-          },
-          "clientes_positivados": 1
-        },
-        "SP-433": {
-          "faturamento_ytd": 5196.6,
-          "por_mes": {
-            "2026-04": 2229.6,
-            "2026-05": 1078.8,
-            "2026-07": 1888.2
-          },
-          "clientes_positivados": 5
-        },
-        "SP-438": {
-          "faturamento_ytd": 6688.8,
-          "por_mes": {
-            "2026-04": 6688.8
-          },
-          "clientes_positivados": 3
-        },
-        "SP-460": {
-          "faturamento_ytd": 3001.27,
-          "por_mes": {
-            "2026-07": 3001.27
-          },
-          "clientes_positivados": 5
-        },
-        "SP-461": {
-          "faturamento_ytd": 564.29,
-          "por_mes": {
-            "2026-07": 564.29
-          },
-          "clientes_positivados": 1
-        },
-        "SP-463": {
-          "faturamento_ytd": 293.0,
-          "por_mes": {
-            "2026-06": 293.0
-          },
-          "clientes_positivados": 1
-        },
-        "SP-466": {
-          "faturamento_ytd": 209.8,
-          "por_mes": {
-            "2026-06": 209.8
-          },
-          "clientes_positivados": 1
-        },
-        "SP-471": {
-          "faturamento_ytd": 282.15,
-          "por_mes": {
-            "2026-07": 282.15
-          },
-          "clientes_positivados": 1
-        },
-        "SP-474": {
-          "faturamento_ytd": 209.8,
-          "por_mes": {
-            "2026-06": 209.8
-          },
-          "clientes_positivados": 1
-        },
-        "SP-475": {
-          "faturamento_ytd": 409.84,
-          "por_mes": {
-            "2026-06": 409.84
-          },
-          "clientes_positivados": 2
-        },
-        "SP-477": {
-          "faturamento_ytd": 191.8,
-          "por_mes": {
-            "2026-05": 191.8
-          },
-          "clientes_positivados": 1
-        },
-        "SP-486": {
-          "faturamento_ytd": 209.8,
-          "por_mes": {
-            "2026-06": 104.9,
-            "2026-07": 104.9
-          },
-          "clientes_positivados": 2
-        },
-        "SP-489": {
-          "faturamento_ytd": 1288.6,
-          "por_mes": {
-            "2026-06": 539.4,
-            "2026-07": 749.2
-          },
-          "clientes_positivados": 3
-        },
-        "SP-490": {
-          "faturamento_ytd": 1258.8,
-          "por_mes": {
-            "2026-07": 1258.8
-          },
-          "clientes_positivados": 1
-        },
-        "SP-504": {
-          "faturamento_ytd": 314.7,
-          "por_mes": {
-            "2026-07": 314.7
-          },
-          "clientes_positivados": 1
-        },
-        "SP-510": {
-          "faturamento_ytd": 359.6,
-          "por_mes": {
-            "2026-07": 359.6
-          },
-          "clientes_positivados": 1
         }
       },
       "posicao": 27
     },
     {
       "fantasia": "PINATI",
-      "faturamento_ytd": 300296.93,
-      "participacao_pct": 0.47,
-      "faturamento_mes_atual": 34651.87,
-      "clientes_positivados": 488,
+      "faturamento_ytd": 341494.22,
+      "participacao_pct": 0.43,
+      "faturamento_mes_atual": 7273.52,
+      "clientes_positivados": 492,
       "por_mes": {
         "2026-01": 36249.83,
         "2026-02": 54303.7,
@@ -10529,7 +12690,9 @@ const RAIOX_INDUSTRIAS_DATA = {
         "2026-04": 42427.76,
         "2026-05": 38548.6,
         "2026-06": 28976.15,
-        "2026-07": 34651.87
+        "2026-07": 34651.87,
+        "2026-08": 33923.78,
+        "2026-09": 7273.52
       },
       "por_vendedor": {
         "ES-257": {
@@ -10632,7 +12795,7 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 33
         },
         "ES-388": {
-          "faturamento_ytd": 163836.69,
+          "faturamento_ytd": 199626.2,
           "por_mes": {
             "2026-01": 13228.69,
             "2026-02": 31712.55,
@@ -10640,9 +12803,11 @@ const RAIOX_INDUSTRIAS_DATA = {
             "2026-04": 21939.37,
             "2026-05": 24160.61,
             "2026-06": 14393.73,
-            "2026-07": 23380.57
+            "2026-07": 23380.57,
+            "2026-08": 28675.63,
+            "2026-09": 7113.88
           },
-          "clientes_positivados": 57
+          "clientes_positivados": 61
         },
         "ES-402": {
           "faturamento_ytd": 4410.86,
@@ -10675,12 +12840,20 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 16
         },
         "ES-508": {
-          "faturamento_ytd": 9628.8,
+          "faturamento_ytd": 12566.4,
           "por_mes": {
             "2026-06": 1224.0,
-            "2026-07": 8404.8
+            "2026-07": 8404.8,
+            "2026-08": 2937.6
           },
           "clientes_positivados": 5
+        },
+        "ES-521": {
+          "faturamento_ytd": 1116.56,
+          "por_mes": {
+            "2026-08": 1116.56
+          },
+          "clientes_positivados": 2
         },
         "RJ-153": {
           "faturamento_ytd": 308.61,
@@ -10698,26 +12871,28 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 1
         },
         "RJ-156": {
-          "faturamento_ytd": 6633.36,
+          "faturamento_ytd": 6874.44,
           "por_mes": {
             "2026-01": 1022.84,
             "2026-02": 1167.64,
             "2026-03": 356.88,
             "2026-04": 762.86,
             "2026-05": 1726.27,
-            "2026-06": 1596.86
+            "2026-06": 1596.86,
+            "2026-08": 241.09
           },
           "clientes_positivados": 30
         },
         "RJ-159": {
-          "faturamento_ytd": 2951.6,
+          "faturamento_ytd": 3157.6,
           "por_mes": {
             "2026-02": 824.4,
             "2026-03": 988.3,
             "2026-04": 643.1,
             "2026-05": 218.6,
             "2026-06": 95.9,
-            "2026-07": 181.3
+            "2026-07": 181.3,
+            "2026-08": 206.0
           },
           "clientes_positivados": 2
         },
@@ -10755,7 +12930,7 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 17
         },
         "RJ-412": {
-          "faturamento_ytd": 5238.13,
+          "faturamento_ytd": 5336.93,
           "por_mes": {
             "2026-01": 647.45,
             "2026-02": 1049.34,
@@ -10763,12 +12938,13 @@ const RAIOX_INDUSTRIAS_DATA = {
             "2026-04": 1219.39,
             "2026-05": 1113.87,
             "2026-06": 247.8,
-            "2026-07": 436.1
+            "2026-07": 436.1,
+            "2026-08": 98.8
           },
           "clientes_positivados": 25
         },
         "RJ-419": {
-          "faturamento_ytd": 2590.76,
+          "faturamento_ytd": 3005.46,
           "por_mes": {
             "2026-01": 554.18,
             "2026-02": 213.45,
@@ -10776,12 +12952,13 @@ const RAIOX_INDUSTRIAS_DATA = {
             "2026-04": 139.92,
             "2026-05": 102.99,
             "2026-06": 682.58,
-            "2026-07": 47.84
+            "2026-07": 47.84,
+            "2026-08": 414.7
           },
-          "clientes_positivados": 16
+          "clientes_positivados": 17
         },
         "RJ-431": {
-          "faturamento_ytd": 8285.5,
+          "faturamento_ytd": 8367.34,
           "por_mes": {
             "2026-01": 362.1,
             "2026-02": 213.6,
@@ -10789,27 +12966,31 @@ const RAIOX_INDUSTRIAS_DATA = {
             "2026-04": 2072.27,
             "2026-05": 1460.3,
             "2026-06": 1020.38,
-            "2026-07": 729.91
+            "2026-07": 729.91,
+            "2026-09": 81.84
           },
           "clientes_positivados": 36
         },
         "RJ-439": {
-          "faturamento_ytd": 724.0,
+          "faturamento_ytd": 879.6,
           "por_mes": {
             "2026-03": 181.6,
             "2026-05": 194.5,
-            "2026-07": 347.9
+            "2026-07": 347.9,
+            "2026-08": 155.6
           },
           "clientes_positivados": 5
         },
         "RJ-471": {
-          "faturamento_ytd": 3960.91,
+          "faturamento_ytd": 4116.51,
           "por_mes": {
             "2026-03": 955.58,
             "2026-04": 1594.63,
             "2026-05": 1066.6,
             "2026-06": 266.3,
-            "2026-07": 77.8
+            "2026-07": 77.8,
+            "2026-08": 77.8,
+            "2026-09": 77.8
           },
           "clientes_positivados": 14
         }
@@ -10817,426 +12998,457 @@ const RAIOX_INDUSTRIAS_DATA = {
       "posicao": 28
     },
     {
-      "fantasia": "CRS BRANDS",
-      "faturamento_ytd": 286713.72,
-      "participacao_pct": 0.45,
-      "faturamento_mes_atual": 208372.9,
-      "clientes_positivados": 300,
+      "fantasia": "INTERFOOD",
+      "faturamento_ytd": 339968.24,
+      "participacao_pct": 0.43,
+      "faturamento_mes_atual": 3783.5,
+      "clientes_positivados": 328,
       "por_mes": {
-        "2026-01": 369.0,
-        "2026-02": 77.4,
-        "2026-03": 1502.82,
-        "2026-04": 1372.48,
-        "2026-05": 1261.86,
-        "2026-06": 73757.26,
-        "2026-07": 208372.9
+        "2026-01": 39622.2,
+        "2026-02": 18320.17,
+        "2026-03": 26144.62,
+        "2026-04": 104405.43,
+        "2026-05": 13899.62,
+        "2026-06": 70273.74,
+        "2026-07": 35146.32,
+        "2026-08": 28372.65,
+        "2026-09": 3783.5
       },
       "por_vendedor": {
-        "RJ-144": {
-          "faturamento_ytd": 5636.7,
+        "ES-257": {
+          "faturamento_ytd": 2931.02,
           "por_mes": {
-            "2026-01": 136.8,
-            "2026-04": 392.4,
-            "2026-06": 3691.5,
-            "2026-07": 1416.0
+            "2026-01": 1356.32,
+            "2026-02": 1026.12,
+            "2026-03": 365.72,
+            "2026-04": 182.86
           },
-          "clientes_positivados": 14
+          "clientes_positivados": 3
+        },
+        "RJ-144": {
+          "faturamento_ytd": 10834.9,
+          "por_mes": {
+            "2026-01": 1138.8,
+            "2026-02": 1078.8,
+            "2026-04": 1186.8,
+            "2026-05": 276.7,
+            "2026-06": 2951.6,
+            "2026-07": 2542.1,
+            "2026-08": 1156.7,
+            "2026-09": 503.4
+          },
+          "clientes_positivados": 16
+        },
+        "RJ-153": {
+          "faturamento_ytd": 5874.0,
+          "por_mes": {
+            "2026-04": 5874.0
+          },
+          "clientes_positivados": 2
+        },
+        "RJ-155": {
+          "faturamento_ytd": 27657.7,
+          "por_mes": {
+            "2026-01": 8997.4,
+            "2026-02": 1175.0,
+            "2026-03": 2593.5,
+            "2026-04": 4154.8,
+            "2026-05": 614.4,
+            "2026-06": 4492.0,
+            "2026-07": 3908.9,
+            "2026-08": 1443.8,
+            "2026-09": 277.9
+          },
+          "clientes_positivados": 39
+        },
+        "RJ-156": {
+          "faturamento_ytd": 16790.1,
+          "por_mes": {
+            "2026-03": 1459.6,
+            "2026-04": 177.8,
+            "2026-05": 988.0,
+            "2026-06": 9969.7,
+            "2026-07": 3415.8,
+            "2026-08": 654.3,
+            "2026-09": 124.9
+          },
+          "clientes_positivados": 55
+        },
+        "RJ-158": {
+          "faturamento_ytd": 19098.16,
+          "por_mes": {
+            "2026-02": 3236.4,
+            "2026-03": 6472.8,
+            "2026-06": 327.76,
+            "2026-08": 9061.2
+          },
+          "clientes_positivados": 5
+        },
+        "RJ-159": {
+          "faturamento_ytd": 16508.2,
+          "por_mes": {
+            "2026-01": 1475.6,
+            "2026-02": 2240.0,
+            "2026-03": 1693.2,
+            "2026-04": 2256.6,
+            "2026-05": 1286.6,
+            "2026-06": 2326.5,
+            "2026-07": 3666.9,
+            "2026-08": 799.2,
+            "2026-09": 763.6
+          },
+          "clientes_positivados": 34
         },
         "RJ-238": {
-          "faturamento_ytd": 860.88,
+          "faturamento_ytd": 2772.9,
           "por_mes": {
-            "2026-04": 860.88
+            "2026-02": 2772.9
+          },
+          "clientes_positivados": 1
+        },
+        "RJ-241": {
+          "faturamento_ytd": 1021.37,
+          "por_mes": {
+            "2026-02": 292.35,
+            "2026-05": 268.8,
+            "2026-06": 193.52,
+            "2026-08": 266.7
+          },
+          "clientes_positivados": 3
+        },
+        "RJ-275": {
+          "faturamento_ytd": 2661.0,
+          "por_mes": {
+            "2026-06": 2157.6,
+            "2026-07": 503.4
           },
           "clientes_positivados": 5
         },
         "RJ-378": {
-          "faturamento_ytd": 453.7,
+          "faturamento_ytd": 3260.4,
           "por_mes": {
-            "2026-04": 47.6,
-            "2026-06": 179.4,
-            "2026-07": 226.7
+            "2026-07": 1102.8,
+            "2026-08": 1078.8,
+            "2026-09": 1078.8
           },
-          "clientes_positivados": 4
+          "clientes_positivados": 2
         },
         "RJ-379": {
-          "faturamento_ytd": 1286.0,
+          "faturamento_ytd": 20427.3,
           "por_mes": {
-            "2026-02": 77.4,
-            "2026-04": 71.6,
-            "2026-06": 220.2,
-            "2026-07": 916.8
+            "2026-03": 1818.0,
+            "2026-04": 89.9,
+            "2026-05": 3955.6,
+            "2026-06": 12226.4,
+            "2026-07": 809.1,
+            "2026-08": 988.9,
+            "2026-09": 539.4
           },
-          "clientes_positivados": 5
+          "clientes_positivados": 36
+        },
+        "RJ-412": {
+          "faturamento_ytd": 4261.3,
+          "por_mes": {
+            "2026-01": 299.7,
+            "2026-02": 179.8,
+            "2026-05": 98.9,
+            "2026-06": 3236.4,
+            "2026-07": 446.5
+          },
+          "clientes_positivados": 7
         },
         "RJ-417": {
-          "faturamento_ytd": 154.8,
+          "faturamento_ytd": 2131.7,
           "por_mes": {
-            "2026-01": 154.8
+            "2026-01": 629.4,
+            "2026-02": 165.8,
+            "2026-04": 1066.8,
+            "2026-05": 269.7
+          },
+          "clientes_positivados": 3
+        },
+        "RJ-419": {
+          "faturamento_ytd": 11240.3,
+          "por_mes": {
+            "2026-02": 317.7,
+            "2026-04": 4135.5,
+            "2026-05": 267.7,
+            "2026-06": 926.4,
+            "2026-07": 2296.5,
+            "2026-08": 3296.5
+          },
+          "clientes_positivados": 12
+        },
+        "RJ-420": {
+          "faturamento_ytd": 88461.6,
+          "por_mes": {
+            "2026-04": 66885.6,
+            "2026-06": 21576.0
           },
           "clientes_positivados": 1
         },
-        "RJ-419": {
-          "faturamento_ytd": 4030.8,
+        "RJ-431": {
+          "faturamento_ytd": 3733.68,
           "por_mes": {
-            "2026-06": 196.8,
-            "2026-07": 3834.0
+            "2026-05": 109.98,
+            "2026-06": 1719.6,
+            "2026-08": 1408.6,
+            "2026-09": 495.5
           },
-          "clientes_positivados": 3
+          "clientes_positivados": 15
         },
         "RJ-439": {
-          "faturamento_ytd": 423.0,
+          "faturamento_ytd": 1818.2,
           "por_mes": {
-            "2026-01": 77.4,
-            "2026-06": 81.0,
-            "2026-07": 264.6
-          },
-          "clientes_positivados": 3
-        },
-        "RJ-450": {
-          "faturamento_ytd": 2914.92,
-          "por_mes": {
-            "2026-06": 1401.72,
-            "2026-07": 1513.2
+            "2026-02": 120.9,
+            "2026-04": 177.8,
+            "2026-08": 1519.5
           },
           "clientes_positivados": 5
         },
-        "RJ-471": {
-          "faturamento_ytd": 926.4,
+        "RJ-450": {
+          "faturamento_ytd": 9524.8,
           "por_mes": {
-            "2026-05": 162.0,
-            "2026-06": 300.0,
-            "2026-07": 464.4
+            "2026-03": 1078.8,
+            "2026-04": 906.24,
+            "2026-05": 3293.84,
+            "2026-06": 4245.92
           },
-          "clientes_positivados": 3
+          "clientes_positivados": 6
+        },
+        "RJ-471": {
+          "faturamento_ytd": 8480.58,
+          "por_mes": {
+            "2026-03": 476.5,
+            "2026-04": 4282.08,
+            "2026-05": 659.4,
+            "2026-07": 1078.8,
+            "2026-08": 1983.8
+          },
+          "clientes_positivados": 12
         },
         "SP-232": {
-          "faturamento_ytd": 1280.52,
+          "faturamento_ytd": 188.1,
           "por_mes": {
-            "2026-06": 645.72,
-            "2026-07": 634.8
+            "2026-07": 188.1
           },
-          "clientes_positivados": 4
+          "clientes_positivados": 1
         },
         "SP-317": {
-          "faturamento_ytd": 2757.24,
+          "faturamento_ytd": 10969.92,
           "por_mes": {
-            "2026-06": 839.16,
-            "2026-07": 1918.08
+            "2026-01": 7557.12,
+            "2026-02": 1111.2,
+            "2026-04": 2301.6
           },
-          "clientes_positivados": 11
+          "clientes_positivados": 9
         },
-        "SP-367": {
-          "faturamento_ytd": 68.58,
+        "SP-356": {
+          "faturamento_ytd": 209.8,
           "por_mes": {
-            "2026-03": 68.58
+            "2026-04": 209.8
           },
           "clientes_positivados": 1
         },
         "SP-371": {
-          "faturamento_ytd": 36418.2,
+          "faturamento_ytd": 282.15,
           "por_mes": {
-            "2026-03": 1434.24,
-            "2026-06": 20482.44,
-            "2026-07": 14501.52
+            "2026-04": 282.15
           },
-          "clientes_positivados": 24
+          "clientes_positivados": 1
         },
         "SP-391": {
-          "faturamento_ytd": 3176.28,
+          "faturamento_ytd": 25403.54,
           "por_mes": {
-            "2026-06": 3176.28
+            "2026-01": 15472.14,
+            "2026-02": 4603.2,
+            "2026-03": 1150.8,
+            "2026-06": 2157.6,
+            "2026-07": 999.9,
+            "2026-08": 1019.9
           },
-          "clientes_positivados": 3
+          "clientes_positivados": 7
         },
         "SP-425": {
-          "faturamento_ytd": 7167.14,
+          "faturamento_ytd": 5012.78,
           "por_mes": {
-            "2026-06": 53.94,
-            "2026-07": 7113.2
+            "2026-01": 1533.28,
+            "2026-03": 2130.9,
+            "2026-07": 1348.6
           },
-          "clientes_positivados": 9
+          "clientes_positivados": 5
         },
         "SP-426": {
-          "faturamento_ytd": 29451.36,
+          "faturamento_ytd": 13135.44,
           "por_mes": {
-            "2026-06": 15307.08,
-            "2026-07": 14144.28
-          },
-          "clientes_positivados": 12
-        },
-        "SP-433": {
-          "faturamento_ytd": 26998.92,
-          "por_mes": {
-            "2026-06": 2720.52,
-            "2026-07": 24278.4
-          },
-          "clientes_positivados": 17
-        },
-        "SP-460": {
-          "faturamento_ytd": 2775.18,
-          "por_mes": {
-            "2026-06": 2019.9,
-            "2026-07": 755.28
-          },
-          "clientes_positivados": 12
-        },
-        "SP-461": {
-          "faturamento_ytd": 5068.92,
-          "por_mes": {
-            "2026-06": 1724.52,
-            "2026-07": 3344.4
+            "2026-01": 1162.44,
+            "2026-03": 6904.8,
+            "2026-04": 752.4,
+            "2026-05": 539.4,
+            "2026-07": 3776.4
           },
           "clientes_positivados": 8
         },
+        "SP-428": {
+          "faturamento_ytd": 1697.1,
+          "por_mes": {
+            "2026-04": 564.3,
+            "2026-07": 539.4,
+            "2026-08": 593.4
+          },
+          "clientes_positivados": 1
+        },
+        "SP-433": {
+          "faturamento_ytd": 5196.6,
+          "por_mes": {
+            "2026-04": 2229.6,
+            "2026-05": 1078.8,
+            "2026-07": 1888.2
+          },
+          "clientes_positivados": 5
+        },
+        "SP-438": {
+          "faturamento_ytd": 6688.8,
+          "por_mes": {
+            "2026-04": 6688.8
+          },
+          "clientes_positivados": 3
+        },
+        "SP-460": {
+          "faturamento_ytd": 3001.27,
+          "por_mes": {
+            "2026-07": 3001.27
+          },
+          "clientes_positivados": 5
+        },
+        "SP-461": {
+          "faturamento_ytd": 564.29,
+          "por_mes": {
+            "2026-07": 564.29
+          },
+          "clientes_positivados": 1
+        },
         "SP-463": {
-          "faturamento_ytd": 3860.04,
+          "faturamento_ytd": 613.7,
           "por_mes": {
-            "2026-05": 1055.04,
-            "2026-06": 2049.84,
-            "2026-07": 755.16
+            "2026-06": 293.0,
+            "2026-08": 320.7
           },
-          "clientes_positivados": 10
-        },
-        "SP-464": {
-          "faturamento_ytd": 314.52,
-          "por_mes": {
-            "2026-05": 44.82,
-            "2026-07": 269.7
-          },
-          "clientes_positivados": 2
-        },
-        "SP-465": {
-          "faturamento_ytd": 2295.74,
-          "por_mes": {
-            "2026-06": 1999.04,
-            "2026-07": 296.7
-          },
-          "clientes_positivados": 6
+          "clientes_positivados": 1
         },
         "SP-466": {
-          "faturamento_ytd": 2103.72,
+          "faturamento_ytd": 209.8,
           "por_mes": {
-            "2026-07": 2103.72
+            "2026-06": 209.8
           },
-          "clientes_positivados": 4
-        },
-        "SP-467": {
-          "faturamento_ytd": 13185.6,
-          "por_mes": {
-            "2026-06": 2397.6,
-            "2026-07": 10788.0
-          },
-          "clientes_positivados": 2
-        },
-        "SP-468": {
-          "faturamento_ytd": 28931.12,
-          "por_mes": {
-            "2026-06": 1404.84,
-            "2026-07": 27526.28
-          },
-          "clientes_positivados": 15
+          "clientes_positivados": 1
         },
         "SP-469": {
-          "faturamento_ytd": 107.88,
+          "faturamento_ytd": 279.6,
           "por_mes": {
-            "2026-06": 107.88
+            "2026-08": 279.6
           },
           "clientes_positivados": 1
-        },
-        "SP-470": {
-          "faturamento_ytd": 110.88,
-          "por_mes": {
-            "2026-06": 56.94,
-            "2026-07": 53.94
-          },
-          "clientes_positivados": 2
         },
         "SP-471": {
-          "faturamento_ytd": 119.88,
+          "faturamento_ytd": 282.15,
           "por_mes": {
-            "2026-06": 119.88
+            "2026-07": 282.15
           },
           "clientes_positivados": 1
         },
-        "SP-472": {
-          "faturamento_ytd": 779.16,
-          "por_mes": {
-            "2026-06": 131.88,
-            "2026-07": 647.28
-          },
-          "clientes_positivados": 4
-        },
         "SP-474": {
-          "faturamento_ytd": 476.54,
+          "faturamento_ytd": 530.5,
           "por_mes": {
-            "2026-06": 152.9,
-            "2026-07": 323.64
+            "2026-06": 209.8,
+            "2026-08": 320.7
           },
           "clientes_positivados": 2
         },
         "SP-475": {
-          "faturamento_ytd": 3653.13,
+          "faturamento_ytd": 409.84,
           "por_mes": {
-            "2026-06": 851.16,
-            "2026-07": 2801.97
+            "2026-06": 409.84
           },
-          "clientes_positivados": 8
+          "clientes_positivados": 2
         },
         "SP-476": {
-          "faturamento_ytd": 3691.64,
+          "faturamento_ytd": 106.9,
           "por_mes": {
-            "2026-06": 707.22,
-            "2026-07": 2984.42
+            "2026-08": 106.9
           },
-          "clientes_positivados": 11
+          "clientes_positivados": 1
         },
         "SP-477": {
-          "faturamento_ytd": 5073.39,
+          "faturamento_ytd": 611.2,
           "por_mes": {
-            "2026-06": 2661.06,
-            "2026-07": 2412.33
-          },
-          "clientes_positivados": 12
-        },
-        "SP-482": {
-          "faturamento_ytd": 2782.5,
-          "por_mes": {
-            "2026-07": 2782.5
+            "2026-05": 191.8,
+            "2026-08": 419.4
           },
           "clientes_positivados": 1
         },
         "SP-486": {
-          "faturamento_ytd": 14056.25,
+          "faturamento_ytd": 209.8,
           "por_mes": {
-            "2026-06": 315.32,
-            "2026-07": 13740.93
+            "2026-06": 104.9,
+            "2026-07": 104.9
           },
-          "clientes_positivados": 10
+          "clientes_positivados": 2
         },
         "SP-489": {
-          "faturamento_ytd": 6365.16,
+          "faturamento_ytd": 1918.0,
           "por_mes": {
-            "2026-06": 3128.76,
-            "2026-07": 3236.4
+            "2026-06": 539.4,
+            "2026-07": 749.2,
+            "2026-08": 629.4
           },
           "clientes_positivados": 4
         },
         "SP-490": {
-          "faturamento_ytd": 3919.8,
+          "faturamento_ytd": 1573.5,
           "por_mes": {
-            "2026-06": 2157.6,
-            "2026-07": 1762.2
-          },
-          "clientes_positivados": 3
-        },
-        "SP-491": {
-          "faturamento_ytd": 1042.32,
-          "por_mes": {
-            "2026-07": 1042.32
+            "2026-07": 1258.8,
+            "2026-08": 314.7
           },
           "clientes_positivados": 2
         },
-        "SP-492": {
-          "faturamento_ytd": 431.52,
+        "SP-498": {
+          "faturamento_ytd": 470.25,
           "por_mes": {
-            "2026-07": 431.52
-          },
-          "clientes_positivados": 2
-        },
-        "SP-493": {
-          "faturamento_ytd": 4632.76,
-          "por_mes": {
-            "2026-06": 2475.16,
-            "2026-07": 2157.6
-          },
-          "clientes_positivados": 13
-        },
-        "SP-496": {
-          "faturamento_ytd": 11001.36,
-          "por_mes": {
-            "2026-07": 11001.36
+            "2026-08": 470.25
           },
           "clientes_positivados": 1
         },
-        "SP-497": {
-          "faturamento_ytd": 3155.82,
-          "por_mes": {
-            "2026-07": 3155.82
-          },
-          "clientes_positivados": 6
-        },
-        "SP-498": {
-          "faturamento_ytd": 2181.24,
-          "por_mes": {
-            "2026-07": 2181.24
-          },
-          "clientes_positivados": 4
-        },
-        "SP-499": {
-          "faturamento_ytd": 863.04,
-          "por_mes": {
-            "2026-07": 863.04
-          },
-          "clientes_positivados": 3
-        },
-        "SP-500": {
-          "faturamento_ytd": 755.16,
-          "por_mes": {
-            "2026-07": 755.16
-          },
-          "clientes_positivados": 3
-        },
-        "SP-502": {
-          "faturamento_ytd": 647.28,
-          "por_mes": {
-            "2026-07": 647.28
-          },
-          "clientes_positivados": 2
-        },
         "SP-504": {
-          "faturamento_ytd": 723.78,
+          "faturamento_ytd": 314.7,
           "por_mes": {
-            "2026-07": 723.78
+            "2026-07": 314.7
           },
-          "clientes_positivados": 4
+          "clientes_positivados": 1
         },
-        "SP-508": {
-          "faturamento_ytd": 28264.56,
+        "SP-510": {
+          "faturamento_ytd": 359.6,
           "por_mes": {
-            "2026-07": 28264.56
+            "2026-07": 359.6
           },
-          "clientes_positivados": 5
+          "clientes_positivados": 1
         },
         "SP-512": {
-          "faturamento_ytd": 6317.4,
+          "faturamento_ytd": 239.7,
           "por_mes": {
-            "2026-07": 6317.4
+            "2026-08": 239.7
           },
-          "clientes_positivados": 6
-        },
-        "SP-513": {
-          "faturamento_ytd": 1510.68,
-          "por_mes": {
-            "2026-07": 1510.68
-          },
-          "clientes_positivados": 2
-        },
-        "SP-516": {
-          "faturamento_ytd": 1510.32,
-          "por_mes": {
-            "2026-07": 1510.32
-          },
-          "clientes_positivados": 5
+          "clientes_positivados": 1
         }
       },
       "posicao": 29
     },
     {
       "fantasia": "YVY",
-      "faturamento_ytd": 255681.56,
-      "participacao_pct": 0.4,
-      "faturamento_mes_atual": 80058.5,
-      "clientes_positivados": 48,
+      "faturamento_ytd": 297743.62,
+      "participacao_pct": 0.37,
+      "faturamento_mes_atual": 967.3,
+      "clientes_positivados": 52,
       "por_mes": {
         "2026-01": 36672.28,
         "2026-02": 17007.06,
@@ -11244,11 +13456,13 @@ const RAIOX_INDUSTRIAS_DATA = {
         "2026-04": 36832.72,
         "2026-05": 38450.72,
         "2026-06": 39623.48,
-        "2026-07": 80058.5
+        "2026-07": 80058.5,
+        "2026-08": 41094.76,
+        "2026-09": 967.3
       },
       "por_vendedor": {
         "MG-327": {
-          "faturamento_ytd": 55222.0,
+          "faturamento_ytd": 61947.6,
           "por_mes": {
             "2026-01": 4781.7,
             "2026-02": 2872.8,
@@ -11256,7 +13470,8 @@ const RAIOX_INDUSTRIAS_DATA = {
             "2026-04": 12281.7,
             "2026-05": 10605.5,
             "2026-06": 11523.2,
-            "2026-07": 9386.1
+            "2026-07": 9386.1,
+            "2026-08": 6725.6
           },
           "clientes_positivados": 24
         },
@@ -11277,14 +13492,16 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 1
         },
         "MG-344": {
-          "faturamento_ytd": 20954.3,
+          "faturamento_ytd": 25839.75,
           "por_mes": {
             "2026-04": 5282.7,
             "2026-05": 2553.6,
             "2026-06": 478.8,
-            "2026-07": 12639.2
+            "2026-07": 12639.2,
+            "2026-08": 4202.65,
+            "2026-09": 682.8
           },
-          "clientes_positivados": 11
+          "clientes_positivados": 13
         },
         "MG-354": {
           "faturamento_ytd": 2058.96,
@@ -11297,12 +13514,13 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 1
         },
         "MG-360": {
-          "faturamento_ytd": 119912.64,
+          "faturamento_ytd": 148926.24,
           "por_mes": {
             "2026-04": 16774.2,
             "2026-05": 20040.84,
             "2026-06": 26835.6,
-            "2026-07": 56262.0
+            "2026-07": 56262.0,
+            "2026-08": 29013.6
           },
           "clientes_positivados": 4
         },
@@ -11323,6 +13541,13 @@ const RAIOX_INDUSTRIAS_DATA = {
           },
           "clientes_positivados": 1
         },
+        "SP-371": {
+          "faturamento_ytd": 658.8,
+          "por_mes": {
+            "2026-08": 658.8
+          },
+          "clientes_positivados": 1
+        },
         "SP-391": {
           "faturamento_ytd": 5756.2,
           "por_mes": {
@@ -11333,21 +13558,139 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 2
         },
         "SP-428": {
-          "faturamento_ytd": 329.4,
+          "faturamento_ytd": 658.8,
           "por_mes": {
-            "2026-04": 329.4
+            "2026-04": 329.4,
+            "2026-08": 329.4
           },
           "clientes_positivados": 1
+        },
+        "SP-486": {
+          "faturamento_ytd": 449.21,
+          "por_mes": {
+            "2026-08": 164.71,
+            "2026-09": 284.5
+          },
+          "clientes_positivados": 2
         }
       },
       "posicao": 30
     },
     {
+      "fantasia": "DON LUIZ",
+      "faturamento_ytd": 286205.58,
+      "participacao_pct": 0.36,
+      "faturamento_mes_atual": 239.6,
+      "clientes_positivados": 74,
+      "por_mes": {
+        "2026-01": 19882.8,
+        "2026-02": 26160.0,
+        "2026-03": 55907.4,
+        "2026-04": 20926.9,
+        "2026-05": 40797.98,
+        "2026-06": 15007.0,
+        "2026-07": 40874.0,
+        "2026-08": 66409.9,
+        "2026-09": 239.6
+      },
+      "por_vendedor": {
+        "MG-327": {
+          "faturamento_ytd": 1497.9,
+          "por_mes": {
+            "2026-01": 449.4,
+            "2026-04": 419.4,
+            "2026-05": 449.4,
+            "2026-08": 179.7
+          },
+          "clientes_positivados": 4
+        },
+        "MG-335": {
+          "faturamento_ytd": 2695.8,
+          "por_mes": {
+            "2026-01": 449.4,
+            "2026-02": 449.4,
+            "2026-03": 1797.0
+          },
+          "clientes_positivados": 3
+        },
+        "MG-343": {
+          "faturamento_ytd": 2730.0,
+          "por_mes": {
+            "2026-01": 2730.0
+          },
+          "clientes_positivados": 1
+        },
+        "MG-344": {
+          "faturamento_ytd": 1517.6,
+          "por_mes": {
+            "2026-06": 649.0,
+            "2026-07": 179.7,
+            "2026-08": 629.0,
+            "2026-09": 59.9
+          },
+          "clientes_positivados": 5
+        },
+        "MG-354": {
+          "faturamento_ytd": 23913.6,
+          "por_mes": {
+            "2026-02": 6426.0,
+            "2026-03": 5325.6,
+            "2026-04": 224.7,
+            "2026-06": 1378.0,
+            "2026-07": 4718.7,
+            "2026-08": 5840.6
+          },
+          "clientes_positivados": 31
+        },
+        "MG-360": {
+          "faturamento_ytd": 208523.64,
+          "por_mes": {
+            "2026-02": 10173.6,
+            "2026-03": 48784.8,
+            "2026-04": 14116.8,
+            "2026-05": 29348.04,
+            "2026-06": 11682.0,
+            "2026-07": 34657.8,
+            "2026-08": 59760.6
+          },
+          "clientes_positivados": 18
+        },
+        "MG-362": {
+          "faturamento_ytd": 4988.2,
+          "por_mes": {
+            "2026-04": 1853.2,
+            "2026-05": 519.2,
+            "2026-06": 1298.0,
+            "2026-07": 1317.8
+          },
+          "clientes_positivados": 8
+        },
+        "MG-405": {
+          "faturamento_ytd": 179.7,
+          "por_mes": {
+            "2026-09": 179.7
+          },
+          "clientes_positivados": 1
+        },
+        "MG-542": {
+          "faturamento_ytd": 40159.14,
+          "por_mes": {
+            "2026-01": 16254.0,
+            "2026-02": 9111.0,
+            "2026-04": 4312.8,
+            "2026-05": 10481.34
+          },
+          "clientes_positivados": 5
+        }
+      },
+      "posicao": 31
+    },
+    {
       "fantasia": "BROWN-FORMAN",
-      "faturamento_ytd": 252735.48,
-      "participacao_pct": 0.4,
-      "faturamento_mes_atual": 29248.6,
-      "clientes_positivados": 95,
+      "faturamento_ytd": 270430.08,
+      "participacao_pct": 0.34,
+      "faturamento_mes_atual": 2054.1,
+      "clientes_positivados": 108,
       "por_mes": {
         "2026-01": 18854.5,
         "2026-02": 22649.6,
@@ -11355,11 +13698,13 @@ const RAIOX_INDUSTRIAS_DATA = {
         "2026-04": 40106.1,
         "2026-05": 36555.3,
         "2026-06": 62839.2,
-        "2026-07": 29248.6
+        "2026-07": 29248.6,
+        "2026-08": 15640.5,
+        "2026-09": 2054.1
       },
       "por_vendedor": {
         "MG-327": {
-          "faturamento_ytd": 23948.0,
+          "faturamento_ytd": 28898.9,
           "por_mes": {
             "2026-01": 3058.5,
             "2026-02": 2980.7,
@@ -11367,9 +13712,10 @@ const RAIOX_INDUSTRIAS_DATA = {
             "2026-04": 2096.5,
             "2026-05": 2312.2,
             "2026-06": 4286.5,
-            "2026-07": 8028.5
+            "2026-07": 8028.5,
+            "2026-08": 4950.9
           },
-          "clientes_positivados": 37
+          "clientes_positivados": 41
         },
         "MG-331": {
           "faturamento_ytd": 10190.98,
@@ -11389,14 +13735,16 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 6
         },
         "MG-344": {
-          "faturamento_ytd": 3180.4,
+          "faturamento_ytd": 7008.1,
           "por_mes": {
             "2026-04": 824.4,
             "2026-05": 883.3,
             "2026-06": 668.6,
-            "2026-07": 804.1
+            "2026-07": 804.1,
+            "2026-08": 1903.5,
+            "2026-09": 1924.2
           },
-          "clientes_positivados": 13
+          "clientes_positivados": 19
         },
         "MG-349": {
           "faturamento_ytd": 111183.9,
@@ -11409,16 +13757,17 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 10
         },
         "MG-354": {
-          "faturamento_ytd": 80445.8,
+          "faturamento_ytd": 86234.3,
           "por_mes": {
             "2026-01": 851.4,
             "2026-02": 18202.2,
             "2026-03": 34821.6,
             "2026-05": 6461.9,
             "2026-06": 5108.1,
-            "2026-07": 15000.6
+            "2026-07": 15000.6,
+            "2026-08": 5788.5
           },
-          "clientes_positivados": 6
+          "clientes_positivados": 8
         },
         "MG-360": {
           "faturamento_ytd": 5670.0,
@@ -11436,16 +13785,31 @@ const RAIOX_INDUSTRIAS_DATA = {
             "2026-07": 5415.4
           },
           "clientes_positivados": 14
+        },
+        "MG-390": {
+          "faturamento_ytd": 374.7,
+          "por_mes": {
+            "2026-08": 374.7
+          },
+          "clientes_positivados": 1
+        },
+        "MG-405": {
+          "faturamento_ytd": 2752.8,
+          "por_mes": {
+            "2026-08": 2622.9,
+            "2026-09": 129.9
+          },
+          "clientes_positivados": 2
         }
       },
-      "posicao": 31
+      "posicao": 32
     },
     {
       "fantasia": "VITON",
-      "faturamento_ytd": 219861.1,
-      "participacao_pct": 0.35,
-      "faturamento_mes_atual": 12790.83,
-      "clientes_positivados": 323,
+      "faturamento_ytd": 231566.8,
+      "participacao_pct": 0.29,
+      "faturamento_mes_atual": 4599.86,
+      "clientes_positivados": 330,
       "por_mes": {
         "2026-01": 52766.09,
         "2026-02": 38674.27,
@@ -11453,7 +13817,9 @@ const RAIOX_INDUSTRIAS_DATA = {
         "2026-04": 38146.64,
         "2026-05": 19819.21,
         "2026-06": 17873.54,
-        "2026-07": 12790.83
+        "2026-07": 12374.92,
+        "2026-08": 7521.75,
+        "2026-09": 4599.86
       },
       "por_vendedor": {
         "RJ-144": {
@@ -11485,7 +13851,7 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 7
         },
         "RJ-156": {
-          "faturamento_ytd": 59015.63,
+          "faturamento_ytd": 65496.0,
           "por_mes": {
             "2026-01": 10867.07,
             "2026-02": 11946.2,
@@ -11493,12 +13859,14 @@ const RAIOX_INDUSTRIAS_DATA = {
             "2026-04": 9644.28,
             "2026-05": 8376.5,
             "2026-06": 6034.08,
-            "2026-07": 3828.15
+            "2026-07": 3828.15,
+            "2026-08": 4142.92,
+            "2026-09": 2337.45
           },
-          "clientes_positivados": 76
+          "clientes_positivados": 80
         },
         "RJ-159": {
-          "faturamento_ytd": 7870.46,
+          "faturamento_ytd": 7917.73,
           "por_mes": {
             "2026-01": 328.6,
             "2026-02": 222.1,
@@ -11506,19 +13874,21 @@ const RAIOX_INDUSTRIAS_DATA = {
             "2026-04": 5661.75,
             "2026-05": 1227.51,
             "2026-06": 189.27,
-            "2026-07": 68.93
+            "2026-07": 68.93,
+            "2026-08": 47.27
           },
           "clientes_positivados": 8
         },
         "RJ-241": {
-          "faturamento_ytd": 4219.2,
+          "faturamento_ytd": 4321.99,
           "por_mes": {
             "2026-01": 990.0,
             "2026-02": 1084.85,
             "2026-03": 323.2,
             "2026-04": 1431.07,
             "2026-05": 288.5,
-            "2026-06": 101.58
+            "2026-06": 101.58,
+            "2026-09": 102.79
           },
           "clientes_positivados": 6
         },
@@ -11536,7 +13906,7 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 9
         },
         "RJ-379": {
-          "faturamento_ytd": 26589.7,
+          "faturamento_ytd": 27208.5,
           "por_mes": {
             "2026-01": 10601.34,
             "2026-02": 3425.8,
@@ -11544,12 +13914,14 @@ const RAIOX_INDUSTRIAS_DATA = {
             "2026-04": 5474.7,
             "2026-05": 1087.8,
             "2026-06": 663.35,
-            "2026-07": 750.39
+            "2026-07": 750.39,
+            "2026-08": 53.46,
+            "2026-09": 565.35
           },
           "clientes_positivados": 49
         },
         "RJ-412": {
-          "faturamento_ytd": 23946.51,
+          "faturamento_ytd": 24468.61,
           "por_mes": {
             "2026-01": 3996.17,
             "2026-02": 4733.2,
@@ -11557,7 +13929,8 @@ const RAIOX_INDUSTRIAS_DATA = {
             "2026-04": 4595.63,
             "2026-05": 1942.5,
             "2026-06": 2229.85,
-            "2026-07": 1961.95
+            "2026-07": 1546.04,
+            "2026-08": 938.01
           },
           "clientes_positivados": 35
         },
@@ -11582,7 +13955,7 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 2
         },
         "RJ-431": {
-          "faturamento_ytd": 54698.81,
+          "faturamento_ytd": 58390.22,
           "por_mes": {
             "2026-01": 14634.65,
             "2026-02": 9692.33,
@@ -11590,9 +13963,11 @@ const RAIOX_INDUSTRIAS_DATA = {
             "2026-04": 4176.46,
             "2026-05": 4536.5,
             "2026-06": 6405.26,
-            "2026-07": 3607.71
+            "2026-07": 3607.71,
+            "2026-08": 2122.82,
+            "2026-09": 1568.58
           },
-          "clientes_positivados": 82
+          "clientes_positivados": 85
         },
         "RJ-439": {
           "faturamento_ytd": 11299.16,
@@ -11608,128 +13983,37 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 11
         },
         "RJ-471": {
-          "faturamento_ytd": 4460.03,
+          "faturamento_ytd": 4702.99,
           "por_mes": {
             "2026-03": 1476.5,
             "2026-04": 618.5,
             "2026-05": 888.3,
             "2026-06": 958.55,
-            "2026-07": 518.18
+            "2026-07": 518.18,
+            "2026-08": 217.26,
+            "2026-09": 25.7
           },
-          "clientes_positivados": 20
-        }
-      },
-      "posicao": 32
-    },
-    {
-      "fantasia": "DON LUIZ",
-      "faturamento_ytd": 219556.08,
-      "participacao_pct": 0.34,
-      "faturamento_mes_atual": 40874.0,
-      "clientes_positivados": 50,
-      "por_mes": {
-        "2026-01": 19882.8,
-        "2026-02": 26160.0,
-        "2026-03": 55907.4,
-        "2026-04": 20926.9,
-        "2026-05": 40797.98,
-        "2026-06": 15007.0,
-        "2026-07": 40874.0
-      },
-      "por_vendedor": {
-        "MG-327": {
-          "faturamento_ytd": 1318.2,
-          "por_mes": {
-            "2026-01": 449.4,
-            "2026-04": 419.4,
-            "2026-05": 449.4
-          },
-          "clientes_positivados": 3
-        },
-        "MG-335": {
-          "faturamento_ytd": 2695.8,
-          "por_mes": {
-            "2026-01": 449.4,
-            "2026-02": 449.4,
-            "2026-03": 1797.0
-          },
-          "clientes_positivados": 3
-        },
-        "MG-343": {
-          "faturamento_ytd": 2730.0,
-          "por_mes": {
-            "2026-01": 2730.0
-          },
-          "clientes_positivados": 1
-        },
-        "MG-344": {
-          "faturamento_ytd": 828.7,
-          "por_mes": {
-            "2026-06": 649.0,
-            "2026-07": 179.7
-          },
-          "clientes_positivados": 2
-        },
-        "MG-354": {
-          "faturamento_ytd": 18073.0,
-          "por_mes": {
-            "2026-02": 6426.0,
-            "2026-03": 5325.6,
-            "2026-04": 224.7,
-            "2026-06": 1378.0,
-            "2026-07": 4718.7
-          },
-          "clientes_positivados": 11
-        },
-        "MG-360": {
-          "faturamento_ytd": 148763.04,
-          "por_mes": {
-            "2026-02": 10173.6,
-            "2026-03": 48784.8,
-            "2026-04": 14116.8,
-            "2026-05": 29348.04,
-            "2026-06": 11682.0,
-            "2026-07": 34657.8
-          },
-          "clientes_positivados": 18
-        },
-        "MG-362": {
-          "faturamento_ytd": 4988.2,
-          "por_mes": {
-            "2026-04": 1853.2,
-            "2026-05": 519.2,
-            "2026-06": 1298.0,
-            "2026-07": 1317.8
-          },
-          "clientes_positivados": 8
-        },
-        "MG-542": {
-          "faturamento_ytd": 40159.14,
-          "por_mes": {
-            "2026-01": 16254.0,
-            "2026-02": 9111.0,
-            "2026-04": 4312.8,
-            "2026-05": 10481.34
-          },
-          "clientes_positivados": 5
+          "clientes_positivados": 21
         }
       },
       "posicao": 33
     },
     {
       "fantasia": "CAMPARI",
-      "faturamento_ytd": 175658.14,
-      "participacao_pct": 0.28,
-      "faturamento_mes_atual": 41104.9,
-      "clientes_positivados": 316,
+      "faturamento_ytd": 201769.27,
+      "participacao_pct": 0.25,
+      "faturamento_mes_atual": 5811.35,
+      "clientes_positivados": 371,
       "por_mes": {
         "2026-01": 36240.36,
         "2026-02": 15668.16,
         "2026-03": 17806.32,
         "2026-04": 21860.19,
         "2026-05": 17262.69,
-        "2026-06": 25715.52,
-        "2026-07": 41104.9
+        "2026-06": 25495.92,
+        "2026-07": 41104.9,
+        "2026-08": 20519.38,
+        "2026-09": 5811.35
       },
       "por_vendedor": {
         "ES-230": {
@@ -11749,6 +14033,13 @@ const RAIOX_INDUSTRIAS_DATA = {
             "2026-06": 384.86
           },
           "clientes_positivados": 6
+        },
+        "ES-273": {
+          "faturamento_ytd": 327.87,
+          "por_mes": {
+            "2026-09": 327.87
+          },
+          "clientes_positivados": 1
         },
         "ES-335": {
           "faturamento_ytd": 789.19,
@@ -11779,7 +14070,7 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 1
         },
         "RJ-144": {
-          "faturamento_ytd": 9281.06,
+          "faturamento_ytd": 10834.26,
           "por_mes": {
             "2026-01": 1276.6,
             "2026-02": 786.7,
@@ -11787,21 +14078,24 @@ const RAIOX_INDUSTRIAS_DATA = {
             "2026-04": 1686.9,
             "2026-05": 350.8,
             "2026-06": 2975.06,
-            "2026-07": 1990.2
+            "2026-07": 1990.2,
+            "2026-08": 1350.4,
+            "2026-09": 202.8
           },
-          "clientes_positivados": 22
+          "clientes_positivados": 24
         },
         "RJ-153": {
-          "faturamento_ytd": 1366.92,
+          "faturamento_ytd": 1429.62,
           "por_mes": {
             "2026-02": 909.6,
             "2026-03": 258.0,
-            "2026-04": 199.32
+            "2026-04": 199.32,
+            "2026-09": 62.7
           },
-          "clientes_positivados": 3
+          "clientes_positivados": 4
         },
         "RJ-155": {
-          "faturamento_ytd": 21492.48,
+          "faturamento_ytd": 23231.36,
           "por_mes": {
             "2026-01": 5929.3,
             "2026-02": 2301.5,
@@ -11809,21 +14103,25 @@ const RAIOX_INDUSTRIAS_DATA = {
             "2026-04": 4420.3,
             "2026-05": 2093.9,
             "2026-06": 1502.38,
-            "2026-07": 3358.1
+            "2026-07": 3358.1,
+            "2026-08": 1409.48,
+            "2026-09": 329.4
           },
-          "clientes_positivados": 34
+          "clientes_positivados": 36
         },
         "RJ-156": {
-          "faturamento_ytd": 1343.37,
+          "faturamento_ytd": 1448.07,
           "por_mes": {
             "2026-02": 131.8,
             "2026-03": 411.9,
             "2026-04": 136.5,
             "2026-05": 505.9,
             "2026-06": 101.8,
-            "2026-07": 55.47
+            "2026-07": 55.47,
+            "2026-08": 62.8,
+            "2026-09": 41.9
           },
-          "clientes_positivados": 15
+          "clientes_positivados": 18
         },
         "RJ-158": {
           "faturamento_ytd": 23574.42,
@@ -11836,17 +14134,19 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 4
         },
         "RJ-159": {
-          "faturamento_ytd": 15701.9,
+          "faturamento_ytd": 17169.18,
           "por_mes": {
             "2026-01": 4009.4,
             "2026-02": 2329.3,
             "2026-03": 3885.3,
             "2026-04": 1451.0,
             "2026-05": 431.1,
-            "2026-06": 1383.7,
-            "2026-07": 2212.1
+            "2026-06": 1164.1,
+            "2026-07": 2212.1,
+            "2026-08": 1013.28,
+            "2026-09": 673.6
           },
-          "clientes_positivados": 44
+          "clientes_positivados": 45
         },
         "RJ-238": {
           "faturamento_ytd": 1009.2,
@@ -11865,25 +14165,28 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 3
         },
         "RJ-378": {
-          "faturamento_ytd": 1209.3,
+          "faturamento_ytd": 3383.4,
           "por_mes": {
             "2026-05": 69.96,
             "2026-06": 209.88,
-            "2026-07": 929.46
+            "2026-07": 929.46,
+            "2026-08": 946.62,
+            "2026-09": 1227.48
           },
-          "clientes_positivados": 5
+          "clientes_positivados": 8
         },
         "RJ-379": {
-          "faturamento_ytd": 895.94,
+          "faturamento_ytd": 1096.34,
           "por_mes": {
             "2026-01": 200.4,
             "2026-02": 50.7,
             "2026-03": 104.94,
             "2026-04": 335.3,
             "2026-05": 164.7,
-            "2026-07": 39.9
+            "2026-07": 39.9,
+            "2026-08": 200.4
           },
-          "clientes_positivados": 6
+          "clientes_positivados": 7
         },
         "RJ-412": {
           "faturamento_ytd": 847.96,
@@ -11904,36 +14207,40 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 3
         },
         "RJ-419": {
-          "faturamento_ytd": 11265.47,
+          "faturamento_ytd": 11302.47,
           "por_mes": {
             "2026-03": 104.4,
             "2026-05": 211.47,
             "2026-06": 168.7,
-            "2026-07": 10780.9
+            "2026-07": 10780.9,
+            "2026-08": 37.0
           },
-          "clientes_positivados": 7
+          "clientes_positivados": 8
         },
         "RJ-431": {
-          "faturamento_ytd": 900.02,
+          "faturamento_ytd": 2217.62,
           "por_mes": {
             "2026-01": 222.0,
             "2026-03": 109.56,
             "2026-05": 311.4,
             "2026-06": 36.98,
-            "2026-07": 220.08
+            "2026-07": 220.08,
+            "2026-09": 1317.6
           },
-          "clientes_positivados": 4
+          "clientes_positivados": 5
         },
         "RJ-439": {
-          "faturamento_ytd": 973.9,
+          "faturamento_ytd": 1728.1,
           "por_mes": {
             "2026-03": 202.8,
             "2026-04": 206.5,
             "2026-05": 109.8,
             "2026-06": 329.4,
-            "2026-07": 125.4
+            "2026-07": 125.4,
+            "2026-08": 502.8,
+            "2026-09": 251.4
           },
-          "clientes_positivados": 5
+          "clientes_positivados": 6
         },
         "RJ-450": {
           "faturamento_ytd": 985.2,
@@ -11945,14 +14252,15 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 3
         },
         "RJ-471": {
-          "faturamento_ytd": 1385.8,
+          "faturamento_ytd": 1984.6,
           "por_mes": {
             "2026-03": 173.76,
             "2026-04": 113.29,
             "2026-06": 842.28,
-            "2026-07": 256.47
+            "2026-07": 256.47,
+            "2026-09": 598.8
           },
-          "clientes_positivados": 6
+          "clientes_positivados": 7
         },
         "SP-232": {
           "faturamento_ytd": 149.7,
@@ -11995,15 +14303,16 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 5
         },
         "SP-425": {
-          "faturamento_ytd": 7396.4,
+          "faturamento_ytd": 8109.0,
           "por_mes": {
             "2026-03": 1417.52,
             "2026-04": 1429.08,
             "2026-05": 202.8,
             "2026-06": 85.8,
-            "2026-07": 4261.2
+            "2026-07": 4261.2,
+            "2026-08": 712.6
           },
-          "clientes_positivados": 15
+          "clientes_positivados": 16
         },
         "SP-426": {
           "faturamento_ytd": 1021.2,
@@ -12036,10 +14345,11 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 1
         },
         "SP-460": {
-          "faturamento_ytd": 2156.7,
+          "faturamento_ytd": 3230.7,
           "por_mes": {
             "2026-05": 608.4,
-            "2026-06": 1548.3
+            "2026-06": 1548.3,
+            "2026-08": 1074.0
           },
           "clientes_positivados": 9
         },
@@ -12062,10 +14372,12 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 5
         },
         "SP-464": {
-          "faturamento_ytd": 1201.6,
+          "faturamento_ytd": 1656.1,
           "por_mes": {
             "2026-05": 349.3,
-            "2026-07": 852.3
+            "2026-07": 852.3,
+            "2026-08": 365.0,
+            "2026-09": 89.5
           },
           "clientes_positivados": 3
         },
@@ -12096,88 +14408,99 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 3
         },
         "SP-468": {
-          "faturamento_ytd": 1825.2,
+          "faturamento_ytd": 3244.8,
           "por_mes": {
             "2026-05": 405.6,
             "2026-06": 1014.0,
-            "2026-07": 405.6
+            "2026-07": 405.6,
+            "2026-08": 1419.6
           },
-          "clientes_positivados": 4
+          "clientes_positivados": 5
         },
         "SP-469": {
-          "faturamento_ytd": 1325.4,
+          "faturamento_ytd": 1630.8,
           "por_mes": {
             "2026-05": 248.6,
             "2026-06": 371.8,
-            "2026-07": 705.0
+            "2026-07": 705.0,
+            "2026-08": 305.4
           },
           "clientes_positivados": 5
         },
         "SP-470": {
-          "faturamento_ytd": 236.6,
+          "faturamento_ytd": 415.6,
           "por_mes": {
             "2026-06": 202.8,
-            "2026-07": 33.8
+            "2026-07": 33.8,
+            "2026-08": 179.0
           },
           "clientes_positivados": 2
         },
         "SP-471": {
-          "faturamento_ytd": 5494.2,
+          "faturamento_ytd": 6015.0,
           "por_mes": {
             "2026-05": 386.1,
             "2026-06": 4335.9,
-            "2026-07": 772.2
+            "2026-07": 772.2,
+            "2026-08": 520.8
           },
-          "clientes_positivados": 10
+          "clientes_positivados": 12
         },
         "SP-472": {
-          "faturamento_ytd": 405.6,
+          "faturamento_ytd": 459.3,
           "por_mes": {
             "2026-05": 101.4,
-            "2026-06": 304.2
-          },
-          "clientes_positivados": 2
-        },
-        "SP-474": {
-          "faturamento_ytd": 1081.7,
-          "por_mes": {
-            "2026-06": 1031.8,
-            "2026-07": 49.9
+            "2026-06": 304.2,
+            "2026-08": 53.7
           },
           "clientes_positivados": 3
         },
+        "SP-474": {
+          "faturamento_ytd": 1319.6,
+          "por_mes": {
+            "2026-06": 1031.8,
+            "2026-07": 49.9,
+            "2026-08": 237.9
+          },
+          "clientes_positivados": 5
+        },
         "SP-475": {
-          "faturamento_ytd": 1875.9,
+          "faturamento_ytd": 2305.5,
           "por_mes": {
             "2026-05": 202.8,
             "2026-06": 1216.8,
-            "2026-07": 456.3
+            "2026-07": 456.3,
+            "2026-08": 429.6
           },
           "clientes_positivados": 7
         },
         "SP-476": {
-          "faturamento_ytd": 2417.6,
+          "faturamento_ytd": 2894.8,
           "por_mes": {
             "2026-05": 598.8,
             "2026-06": 1014.0,
-            "2026-07": 804.8
+            "2026-07": 804.8,
+            "2026-08": 477.2
           },
-          "clientes_positivados": 4
+          "clientes_positivados": 6
         },
         "SP-477": {
-          "faturamento_ytd": 252.7,
+          "faturamento_ytd": 455.5,
           "por_mes": {
-            "2026-07": 252.7
+            "2026-07": 252.7,
+            "2026-08": 202.8
           },
-          "clientes_positivados": 2
+          "clientes_positivados": 3
         },
         "SP-486": {
-          "faturamento_ytd": 2784.2,
+          "faturamento_ytd": 4241.1,
           "por_mes": {
             "2026-06": 539.7,
-            "2026-07": 2244.5
+            "2026-07": 2244.5,
+            "2026-08": 1413.0,
+            "2026-09": 43.9
           },
-          "clientes_positivados": 11
+          "clientes_positivados": 16
         },
         "SP-490": {
           "faturamento_ytd": 2028.0,
@@ -12187,52 +14510,79 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 1
         },
         "SP-491": {
-          "faturamento_ytd": 101.4,
+          "faturamento_ytd": 304.2,
           "por_mes": {
-            "2026-07": 101.4
+            "2026-07": 101.4,
+            "2026-08": 202.8
           },
-          "clientes_positivados": 1
+          "clientes_positivados": 2
         },
         "SP-492": {
-          "faturamento_ytd": 202.8,
+          "faturamento_ytd": 289.5,
           "por_mes": {
-            "2026-07": 202.8
+            "2026-07": 202.8,
+            "2026-08": 86.7
           },
-          "clientes_positivados": 1
+          "clientes_positivados": 3
         },
         "SP-493": {
-          "faturamento_ytd": 405.6,
+          "faturamento_ytd": 608.4,
           "por_mes": {
             "2026-06": 101.4,
-            "2026-07": 304.2
+            "2026-07": 304.2,
+            "2026-08": 202.8
           },
           "clientes_positivados": 3
         },
         "SP-497": {
-          "faturamento_ytd": 460.2,
+          "faturamento_ytd": 1068.6,
           "por_mes": {
-            "2026-07": 460.2
+            "2026-07": 460.2,
+            "2026-08": 608.4
           },
-          "clientes_positivados": 2
+          "clientes_positivados": 4
         },
         "SP-499": {
-          "faturamento_ytd": 405.6,
+          "faturamento_ytd": 811.2,
           "por_mes": {
-            "2026-07": 405.6
-          },
-          "clientes_positivados": 2
-        },
-        "SP-502": {
-          "faturamento_ytd": 1014.0,
-          "por_mes": {
-            "2026-07": 1014.0
+            "2026-07": 405.6,
+            "2026-08": 405.6
           },
           "clientes_positivados": 3
+        },
+        "SP-500": {
+          "faturamento_ytd": 202.8,
+          "por_mes": {
+            "2026-08": 202.8
+          },
+          "clientes_positivados": 1
+        },
+        "SP-502": {
+          "faturamento_ytd": 2127.8,
+          "por_mes": {
+            "2026-07": 1014.0,
+            "2026-08": 1113.8
+          },
+          "clientes_positivados": 5
         },
         "SP-504": {
           "faturamento_ytd": 128.7,
           "por_mes": {
             "2026-07": 128.7
+          },
+          "clientes_positivados": 1
+        },
+        "SP-507": {
+          "faturamento_ytd": 534.3,
+          "por_mes": {
+            "2026-08": 534.3
+          },
+          "clientes_positivados": 2
+        },
+        "SP-508": {
+          "faturamento_ytd": 608.4,
+          "por_mes": {
+            "2026-08": 608.4
           },
           "clientes_positivados": 1
         },
@@ -12251,21 +14601,23 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 1
         },
         "SP-516": {
-          "faturamento_ytd": 768.3,
+          "faturamento_ytd": 5053.1,
           "por_mes": {
-            "2026-07": 768.3
+            "2026-07": 768.3,
+            "2026-08": 3640.4,
+            "2026-09": 644.4
           },
-          "clientes_positivados": 3
+          "clientes_positivados": 13
         }
       },
       "posicao": 34
     },
     {
       "fantasia": "TIAL",
-      "faturamento_ytd": 151404.07,
-      "participacao_pct": 0.24,
-      "faturamento_mes_atual": 25237.77,
-      "clientes_positivados": 248,
+      "faturamento_ytd": 163187.07,
+      "participacao_pct": 0.21,
+      "faturamento_mes_atual": 840.27,
+      "clientes_positivados": 267,
       "por_mes": {
         "2026-01": 23200.0,
         "2026-02": 13792.7,
@@ -12273,7 +14625,9 @@ const RAIOX_INDUSTRIAS_DATA = {
         "2026-04": 19644.76,
         "2026-05": 22577.32,
         "2026-06": 19739.96,
-        "2026-07": 25237.77
+        "2026-07": 25237.77,
+        "2026-08": 10942.73,
+        "2026-09": 840.27
       },
       "por_vendedor": {
         "RJ-144": {
@@ -12290,7 +14644,7 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 12
         },
         "RJ-153": {
-          "faturamento_ytd": 36395.9,
+          "faturamento_ytd": 39153.34,
           "por_mes": {
             "2026-01": 8204.7,
             "2026-02": 3158.2,
@@ -12298,9 +14652,11 @@ const RAIOX_INDUSTRIAS_DATA = {
             "2026-04": 2043.6,
             "2026-05": 5789.59,
             "2026-06": 5527.23,
-            "2026-07": 4209.99
+            "2026-07": 4209.99,
+            "2026-08": 2657.69,
+            "2026-09": 99.75
           },
-          "clientes_positivados": 26
+          "clientes_positivados": 28
         },
         "RJ-155": {
           "faturamento_ytd": 13313.02,
@@ -12316,7 +14672,7 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 14
         },
         "RJ-156": {
-          "faturamento_ytd": 9744.88,
+          "faturamento_ytd": 11234.24,
           "por_mes": {
             "2026-01": 1984.88,
             "2026-02": 660.8,
@@ -12324,9 +14680,11 @@ const RAIOX_INDUSTRIAS_DATA = {
             "2026-04": 676.8,
             "2026-05": 1918.74,
             "2026-06": 1884.14,
-            "2026-07": 344.88
+            "2026-07": 344.88,
+            "2026-08": 1316.92,
+            "2026-09": 172.44
           },
-          "clientes_positivados": 48
+          "clientes_positivados": 51
         },
         "RJ-158": {
           "faturamento_ytd": 1077.84,
@@ -12336,7 +14694,7 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 1
         },
         "RJ-159": {
-          "faturamento_ytd": 4462.6,
+          "faturamento_ytd": 4946.13,
           "por_mes": {
             "2026-01": 621.88,
             "2026-02": 231.52,
@@ -12344,9 +14702,10 @@ const RAIOX_INDUSTRIAS_DATA = {
             "2026-04": 651.84,
             "2026-05": 1169.0,
             "2026-06": 639.54,
-            "2026-07": 685.62
+            "2026-07": 685.62,
+            "2026-08": 483.53
           },
-          "clientes_positivados": 4
+          "clientes_positivados": 5
         },
         "RJ-238": {
           "faturamento_ytd": 185.64,
@@ -12356,17 +14715,19 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 1
         },
         "RJ-378": {
-          "faturamento_ytd": 3790.51,
+          "faturamento_ytd": 4715.02,
           "por_mes": {
             "2026-01": 47.76,
             "2026-04": 245.04,
             "2026-06": 690.64,
-            "2026-07": 2807.07
+            "2026-07": 2807.07,
+            "2026-08": 802.83,
+            "2026-09": 121.68
           },
-          "clientes_positivados": 16
+          "clientes_positivados": 21
         },
         "RJ-379": {
-          "faturamento_ytd": 20420.62,
+          "faturamento_ytd": 22388.74,
           "por_mes": {
             "2026-01": 179.64,
             "2026-02": 1405.24,
@@ -12374,21 +14735,24 @@ const RAIOX_INDUSTRIAS_DATA = {
             "2026-04": 1866.48,
             "2026-05": 6182.84,
             "2026-06": 2614.08,
-            "2026-07": 3374.19
+            "2026-07": 3374.19,
+            "2026-08": 1906.2,
+            "2026-09": 61.92
           },
-          "clientes_positivados": 46
+          "clientes_positivados": 48
         },
         "RJ-412": {
-          "faturamento_ytd": 9889.45,
+          "faturamento_ytd": 9970.57,
           "por_mes": {
             "2026-01": 119.67,
             "2026-03": 2098.92,
             "2026-04": 2422.32,
             "2026-05": 570.42,
             "2026-06": 1149.54,
-            "2026-07": 3528.58
+            "2026-07": 3528.58,
+            "2026-08": 81.12
           },
-          "clientes_positivados": 8
+          "clientes_positivados": 9
         },
         "RJ-417": {
           "faturamento_ytd": 4150.86,
@@ -12401,7 +14765,7 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 7
         },
         "RJ-419": {
-          "faturamento_ytd": 5957.02,
+          "faturamento_ytd": 6438.15,
           "por_mes": {
             "2026-01": 1200.0,
             "2026-02": 120.0,
@@ -12409,12 +14773,14 @@ const RAIOX_INDUSTRIAS_DATA = {
             "2026-04": 716.76,
             "2026-05": 1260.26,
             "2026-06": 180.0,
-            "2026-07": 390.0
+            "2026-07": 390.0,
+            "2026-08": 408.15,
+            "2026-09": 72.98
           },
-          "clientes_positivados": 17
+          "clientes_positivados": 18
         },
         "RJ-431": {
-          "faturamento_ytd": 15842.3,
+          "faturamento_ytd": 17111.84,
           "por_mes": {
             "2026-01": 2271.51,
             "2026-02": 2120.71,
@@ -12422,19 +14788,22 @@ const RAIOX_INDUSTRIAS_DATA = {
             "2026-04": 2776.38,
             "2026-05": 1969.5,
             "2026-06": 2429.5,
-            "2026-07": 2973.56
+            "2026-07": 2973.56,
+            "2026-08": 958.04,
+            "2026-09": 311.5
           },
-          "clientes_positivados": 32
+          "clientes_positivados": 34
         },
         "RJ-439": {
-          "faturamento_ytd": 1926.79,
+          "faturamento_ytd": 2166.31,
           "por_mes": {
             "2026-03": 419.16,
             "2026-04": 1137.72,
             "2026-05": 310.03,
-            "2026-06": 59.88
+            "2026-06": 59.88,
+            "2026-08": 239.52
           },
-          "clientes_positivados": 4
+          "clientes_positivados": 5
         },
         "RJ-450": {
           "faturamento_ytd": 6502.68,
@@ -12447,32 +14816,35 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 9
         },
         "RJ-471": {
-          "faturamento_ytd": 1449.06,
+          "faturamento_ytd": 3537.79,
           "por_mes": {
             "2026-03": 486.72,
             "2026-04": 641.52,
             "2026-06": 88.56,
-            "2026-07": 232.26
+            "2026-07": 232.26,
+            "2026-08": 2088.73
           },
-          "clientes_positivados": 4
+          "clientes_positivados": 6
         }
       },
       "posicao": 35
     },
     {
       "fantasia": "HOB",
-      "faturamento_ytd": 111771.13,
-      "participacao_pct": 0.18,
-      "faturamento_mes_atual": 19935.56,
-      "clientes_positivados": 136,
+      "faturamento_ytd": 138732.0,
+      "participacao_pct": 0.17,
+      "faturamento_mes_atual": 3081.4,
+      "clientes_positivados": 141,
       "por_mes": {
         "2026-01": 3762.9,
         "2026-02": 9286.23,
         "2026-03": 19951.77,
         "2026-04": 14131.19,
         "2026-05": 22263.2,
-        "2026-06": 22440.28,
-        "2026-07": 19935.56
+        "2026-06": 21453.28,
+        "2026-07": 19935.56,
+        "2026-08": 24866.47,
+        "2026-09": 3081.4
       },
       "por_vendedor": {
         "ES-257": {
@@ -12576,52 +14948,58 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 5
         },
         "RJ-144": {
-          "faturamento_ytd": 8498.7,
+          "faturamento_ytd": 11491.2,
           "por_mes": {
             "2026-02": 79.8,
             "2026-03": 2473.8,
             "2026-04": 2234.4,
             "2026-05": 1077.3,
             "2026-06": 1915.2,
-            "2026-07": 718.2
+            "2026-07": 718.2,
+            "2026-08": 1795.5,
+            "2026-09": 1197.0
           },
           "clientes_positivados": 5
         },
         "RJ-153": {
-          "faturamento_ytd": 813.6,
+          "faturamento_ytd": 1093.0,
           "por_mes": {
             "2026-03": 406.8,
-            "2026-04": 406.8
+            "2026-04": 406.8,
+            "2026-08": 279.4
           },
-          "clientes_positivados": 2
+          "clientes_positivados": 4
         },
         "RJ-155": {
-          "faturamento_ytd": 13782.6,
+          "faturamento_ytd": 15558.3,
           "por_mes": {
             "2026-02": 359.1,
             "2026-03": 2034.9,
             "2026-04": 4339.2,
             "2026-05": 2289.3,
             "2026-06": 2206.5,
-            "2026-07": 2553.6
+            "2026-07": 2553.6,
+            "2026-08": 1775.7
           },
-          "clientes_positivados": 8
+          "clientes_positivados": 9
         },
         "RJ-159": {
-          "faturamento_ytd": 11910.75,
+          "faturamento_ytd": 16452.13,
           "por_mes": {
             "2026-01": 822.9,
             "2026-02": 764.4,
             "2026-03": 2348.15,
             "2026-04": 1516.2,
             "2026-05": 1446.4,
-            "2026-06": 4813.2,
-            "2026-07": 199.5
+            "2026-06": 3826.2,
+            "2026-07": 199.5,
+            "2026-08": 3735.88,
+            "2026-09": 1792.5
           },
-          "clientes_positivados": 18
+          "clientes_positivados": 19
         },
         "RJ-275": {
-          "faturamento_ytd": 65438.96,
+          "faturamento_ytd": 82385.8,
           "por_mes": {
             "2026-01": 2940.0,
             "2026-02": 6497.52,
@@ -12629,14 +15007,17 @@ const RAIOX_INDUSTRIAS_DATA = {
             "2026-04": 5298.3,
             "2026-05": 17362.2,
             "2026-06": 12821.3,
-            "2026-07": 11886.0
+            "2026-07": 11886.0,
+            "2026-08": 16946.84
           },
           "clientes_positivados": 9
         },
         "RJ-378": {
-          "faturamento_ytd": 232.32,
+          "faturamento_ytd": 370.17,
           "por_mes": {
-            "2026-07": 232.32
+            "2026-07": 232.32,
+            "2026-08": 45.95,
+            "2026-09": 91.9
           },
           "clientes_positivados": 5
         },
@@ -12672,12 +15053,13 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 2
         },
         "RJ-439": {
-          "faturamento_ytd": 2020.86,
+          "faturamento_ytd": 2108.46,
           "por_mes": {
             "2026-02": 57.66,
-            "2026-07": 1963.2
+            "2026-07": 1963.2,
+            "2026-08": 87.6
           },
-          "clientes_positivados": 2
+          "clientes_positivados": 3
         },
         "RJ-450": {
           "faturamento_ytd": 525.6,
@@ -12687,11 +15069,12 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 1
         },
         "RJ-471": {
-          "faturamento_ytd": 710.05,
+          "faturamento_ytd": 909.65,
           "por_mes": {
             "2026-03": 374.4,
             "2026-04": 43.8,
-            "2026-07": 291.85
+            "2026-07": 291.85,
+            "2026-08": 199.6
           },
           "clientes_positivados": 6
         }
@@ -12699,11 +15082,108 @@ const RAIOX_INDUSTRIAS_DATA = {
       "posicao": 36
     },
     {
+      "fantasia": "DADINHO",
+      "faturamento_ytd": 113391.11,
+      "participacao_pct": 0.14,
+      "faturamento_mes_atual": 6100.72,
+      "clientes_positivados": 62,
+      "por_mes": {
+        "2026-03": 844.81,
+        "2026-04": 984.32,
+        "2026-05": 30748.9,
+        "2026-06": 10226.82,
+        "2026-07": 23350.3,
+        "2026-08": 41135.24,
+        "2026-09": 6100.72
+      },
+      "por_vendedor": {
+        "ES-257": {
+          "faturamento_ytd": 60.1,
+          "por_mes": {
+            "2026-04": 60.1
+          },
+          "clientes_positivados": 1
+        },
+        "ES-260": {
+          "faturamento_ytd": 168.71,
+          "por_mes": {
+            "2026-03": 168.71
+          },
+          "clientes_positivados": 5
+        },
+        "ES-335": {
+          "faturamento_ytd": 77.19,
+          "por_mes": {
+            "2026-03": 59.8,
+            "2026-04": 17.39
+          },
+          "clientes_positivados": 3
+        },
+        "ES-336": {
+          "faturamento_ytd": 39.2,
+          "por_mes": {
+            "2026-03": 39.2
+          },
+          "clientes_positivados": 1
+        },
+        "ES-342": {
+          "faturamento_ytd": 204.57,
+          "por_mes": {
+            "2026-04": 204.57
+          },
+          "clientes_positivados": 1
+        },
+        "ES-370": {
+          "faturamento_ytd": 697.71,
+          "por_mes": {
+            "2026-03": 104.53,
+            "2026-04": 593.18
+          },
+          "clientes_positivados": 7
+        },
+        "ES-388": {
+          "faturamento_ytd": 111607.22,
+          "por_mes": {
+            "2026-04": 109.08,
+            "2026-05": 30685.06,
+            "2026-06": 10226.82,
+            "2026-07": 23350.3,
+            "2026-08": 41135.24,
+            "2026-09": 6100.72
+          },
+          "clientes_positivados": 34
+        },
+        "ES-402": {
+          "faturamento_ytd": 443.64,
+          "por_mes": {
+            "2026-03": 443.64
+          },
+          "clientes_positivados": 7
+        },
+        "ES-440": {
+          "faturamento_ytd": 9.81,
+          "por_mes": {
+            "2026-03": 9.81
+          },
+          "clientes_positivados": 1
+        },
+        "ES-442": {
+          "faturamento_ytd": 82.96,
+          "por_mes": {
+            "2026-03": 19.12,
+            "2026-05": 63.84
+          },
+          "clientes_positivados": 2
+        }
+      },
+      "posicao": 37
+    },
+    {
       "fantasia": "PERINI",
-      "faturamento_ytd": 101756.78,
-      "participacao_pct": 0.16,
-      "faturamento_mes_atual": 2857.0,
-      "clientes_positivados": 33,
+      "faturamento_ytd": 108589.88,
+      "participacao_pct": 0.14,
+      "faturamento_mes_atual": 3391.3,
+      "clientes_positivados": 39,
       "por_mes": {
         "2026-01": 7835.76,
         "2026-02": 9747.0,
@@ -12711,7 +15191,9 @@ const RAIOX_INDUSTRIAS_DATA = {
         "2026-04": 33698.58,
         "2026-05": 35649.6,
         "2026-06": 2486.25,
-        "2026-07": 2857.0
+        "2026-07": 2857.0,
+        "2026-08": 3441.8,
+        "2026-09": 3391.3
       },
       "por_vendedor": {
         "SP-356": {
@@ -12797,12 +15279,14 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 1
         },
         "SP-460": {
-          "faturamento_ytd": 1554.2,
+          "faturamento_ytd": 3816.8,
           "por_mes": {
             "2026-06": 1513.3,
-            "2026-07": 40.9
+            "2026-07": 40.9,
+            "2026-08": 1257.0,
+            "2026-09": 1005.6
           },
-          "clientes_positivados": 3
+          "clientes_positivados": 4
         },
         "SP-463": {
           "faturamento_ytd": 1884.6,
@@ -12818,13 +15302,21 @@ const RAIOX_INDUSTRIAS_DATA = {
           },
           "clientes_positivados": 1
         },
-        "SP-476": {
-          "faturamento_ytd": 941.85,
+        "SP-475": {
+          "faturamento_ytd": 670.4,
           "por_mes": {
-            "2026-05": 664.2,
-            "2026-06": 277.65
+            "2026-08": 670.4
           },
           "clientes_positivados": 2
+        },
+        "SP-476": {
+          "faturamento_ytd": 2210.85,
+          "por_mes": {
+            "2026-05": 664.2,
+            "2026-06": 277.65,
+            "2026-08": 1269.0
+          },
+          "clientes_positivados": 3
         },
         "SP-477": {
           "faturamento_ytd": 430.8,
@@ -12834,16 +15326,25 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 1
         },
         "SP-486": {
-          "faturamento_ytd": 251.4,
+          "faturamento_ytd": 514.8,
           "por_mes": {
-            "2026-07": 251.4
+            "2026-07": 251.4,
+            "2026-09": 263.4
           },
           "clientes_positivados": 1
         },
         "SP-489": {
-          "faturamento_ytd": 233.4,
+          "faturamento_ytd": 2355.7,
           "por_mes": {
-            "2026-07": 233.4
+            "2026-07": 233.4,
+            "2026-09": 2122.3
+          },
+          "clientes_positivados": 2
+        },
+        "SP-491": {
+          "faturamento_ytd": 245.4,
+          "por_mes": {
+            "2026-08": 245.4
           },
           "clientes_positivados": 1
         },
@@ -12855,14 +15356,113 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 1
         }
       },
-      "posicao": 37
+      "posicao": 38
+    },
+    {
+      "fantasia": "FABBRI",
+      "faturamento_ytd": 106167.17,
+      "participacao_pct": 0.13,
+      "faturamento_mes_atual": 2342.52,
+      "clientes_positivados": 26,
+      "por_mes": {
+        "2026-01": 36083.74,
+        "2026-02": 1476.52,
+        "2026-03": 24882.86,
+        "2026-04": 13645.8,
+        "2026-05": 239.31,
+        "2026-06": 86.91,
+        "2026-07": 4905.46,
+        "2026-08": 22504.04,
+        "2026-09": 2342.52
+      },
+      "por_vendedor": {
+        "ES-230": {
+          "faturamento_ytd": 32482.8,
+          "por_mes": {
+            "2026-01": 32482.8
+          },
+          "clientes_positivados": 1
+        },
+        "ES-257": {
+          "faturamento_ytd": 6656.54,
+          "por_mes": {
+            "2026-01": 1976.44,
+            "2026-02": 1197.85,
+            "2026-03": 681.89,
+            "2026-04": 1516.9,
+            "2026-05": 239.31,
+            "2026-06": 86.91,
+            "2026-07": 957.24
+          },
+          "clientes_positivados": 8
+        },
+        "ES-260": {
+          "faturamento_ytd": 3768.9,
+          "por_mes": {
+            "2026-04": 3768.9
+          },
+          "clientes_positivados": 6
+        },
+        "ES-268": {
+          "faturamento_ytd": 358.23,
+          "por_mes": {
+            "2026-02": 278.67,
+            "2026-03": 79.56
+          },
+          "clientes_positivados": 3
+        },
+        "ES-335": {
+          "faturamento_ytd": 329.92,
+          "por_mes": {
+            "2026-01": 238.69,
+            "2026-03": 91.23
+          },
+          "clientes_positivados": 2
+        },
+        "ES-370": {
+          "faturamento_ytd": 4451.95,
+          "por_mes": {
+            "2026-01": 752.41,
+            "2026-03": 3699.54
+          },
+          "clientes_positivados": 3
+        },
+        "ES-388": {
+          "faturamento_ytd": 51968.59,
+          "por_mes": {
+            "2026-03": 19024.54,
+            "2026-04": 8120.0,
+            "2026-07": 2320.0,
+            "2026-08": 22504.04
+          },
+          "clientes_positivados": 1
+        },
+        "ES-402": {
+          "faturamento_ytd": 2179.5,
+          "por_mes": {
+            "2026-01": 633.4,
+            "2026-03": 1306.1,
+            "2026-04": 240.0
+          },
+          "clientes_positivados": 3
+        },
+        "ES-508": {
+          "faturamento_ytd": 3970.74,
+          "por_mes": {
+            "2026-07": 1628.22,
+            "2026-09": 2342.52
+          },
+          "clientes_positivados": 5
+        }
+      },
+      "posicao": 39
     },
     {
       "fantasia": "COMARY",
-      "faturamento_ytd": 91750.95,
-      "participacao_pct": 0.14,
-      "faturamento_mes_atual": 23930.37,
-      "clientes_positivados": 252,
+      "faturamento_ytd": 95353.07,
+      "participacao_pct": 0.12,
+      "faturamento_mes_atual": 456.7,
+      "clientes_positivados": 261,
       "por_mes": {
         "2026-01": 13837.28,
         "2026-02": 12514.41,
@@ -12870,7 +15470,9 @@ const RAIOX_INDUSTRIAS_DATA = {
         "2026-04": 7802.21,
         "2026-05": 4724.08,
         "2026-06": 13223.88,
-        "2026-07": 23930.37
+        "2026-07": 23930.37,
+        "2026-08": 3145.42,
+        "2026-09": 456.7
       },
       "por_vendedor": {
         "MG-327": {
@@ -12915,11 +15517,12 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 15
         },
         "RJ-153": {
-          "faturamento_ytd": 1022.4,
+          "faturamento_ytd": 1161.6,
           "por_mes": {
-            "2026-07": 1022.4
+            "2026-07": 1022.4,
+            "2026-08": 139.2
           },
-          "clientes_positivados": 7
+          "clientes_positivados": 8
         },
         "RJ-155": {
           "faturamento_ytd": 7778.68,
@@ -12958,35 +15561,38 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 6
         },
         "RJ-241": {
-          "faturamento_ytd": 6609.93,
+          "faturamento_ytd": 6759.83,
           "por_mes": {
             "2026-01": 249.6,
             "2026-02": 479.16,
             "2026-03": 478.8,
             "2026-04": 921.69,
             "2026-05": 119.88,
-            "2026-07": 4360.8
+            "2026-07": 4360.8,
+            "2026-08": 149.9
           },
-          "clientes_positivados": 6
+          "clientes_positivados": 7
         },
         "RJ-378": {
-          "faturamento_ytd": 5127.47,
+          "faturamento_ytd": 6331.07,
           "por_mes": {
             "2026-01": 212.76,
             "2026-05": 50.7,
             "2026-06": 1927.2,
-            "2026-07": 2936.81
+            "2026-07": 2936.81,
+            "2026-08": 1203.6
           },
           "clientes_positivados": 11
         },
         "RJ-379": {
-          "faturamento_ytd": 3491.36,
+          "faturamento_ytd": 3620.96,
           "por_mes": {
             "2026-02": 1154.7,
             "2026-04": 78.0,
             "2026-05": 199.68,
             "2026-06": 639.78,
-            "2026-07": 1419.2
+            "2026-07": 1419.2,
+            "2026-08": 129.6
           },
           "clientes_positivados": 20
         },
@@ -13014,19 +15620,20 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 5
         },
         "RJ-419": {
-          "faturamento_ytd": 5862.12,
+          "faturamento_ytd": 6214.92,
           "por_mes": {
             "2026-01": 2656.8,
             "2026-02": 2276.4,
             "2026-03": 74.9,
             "2026-05": 224.64,
             "2026-06": 149.78,
-            "2026-07": 479.6
+            "2026-07": 479.6,
+            "2026-09": 352.8
           },
           "clientes_positivados": 7
         },
         "RJ-431": {
-          "faturamento_ytd": 5236.99,
+          "faturamento_ytd": 5444.79,
           "por_mes": {
             "2026-01": 663.7,
             "2026-02": 516.4,
@@ -13034,9 +15641,11 @@ const RAIOX_INDUSTRIAS_DATA = {
             "2026-04": 857.6,
             "2026-05": 224.7,
             "2026-06": 493.4,
-            "2026-07": 1972.5
+            "2026-07": 1972.5,
+            "2026-08": 103.9,
+            "2026-09": 103.9
           },
-          "clientes_positivados": 16
+          "clientes_positivados": 18
         },
         "RJ-439": {
           "faturamento_ytd": 6860.07,
@@ -13052,12 +15661,20 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 24
         },
         "RJ-450": {
-          "faturamento_ytd": 1423.48,
+          "faturamento_ytd": 1902.68,
           "por_mes": {
             "2026-06": 210.96,
-            "2026-07": 1212.52
+            "2026-07": 1212.52,
+            "2026-08": 479.2
           },
           "clientes_positivados": 5
+        },
+        "RJ-460": {
+          "faturamento_ytd": 159.8,
+          "por_mes": {
+            "2026-08": 159.8
+          },
+          "clientes_positivados": 1
         },
         "RJ-471": {
           "faturamento_ytd": 1816.62,
@@ -13071,14 +15688,15 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 7
         },
         "SP-371": {
-          "faturamento_ytd": 4171.68,
+          "faturamento_ytd": 4654.44,
           "por_mes": {
             "2026-03": 817.2,
             "2026-04": 1393.2,
             "2026-06": 1144.08,
-            "2026-07": 817.2
+            "2026-07": 817.2,
+            "2026-08": 482.76
           },
-          "clientes_positivados": 10
+          "clientes_positivados": 13
         },
         "SP-426": {
           "faturamento_ytd": 321.79,
@@ -13127,6 +15745,13 @@ const RAIOX_INDUSTRIAS_DATA = {
           },
           "clientes_positivados": 2
         },
+        "SP-493": {
+          "faturamento_ytd": 214.06,
+          "por_mes": {
+            "2026-08": 214.06
+          },
+          "clientes_positivados": 1
+        },
         "SP-502": {
           "faturamento_ytd": 326.96,
           "por_mes": {
@@ -13140,16 +15765,23 @@ const RAIOX_INDUSTRIAS_DATA = {
             "2026-07": 8.9
           },
           "clientes_positivados": 1
+        },
+        "SP-521": {
+          "faturamento_ytd": 83.4,
+          "por_mes": {
+            "2026-08": 83.4
+          },
+          "clientes_positivados": 1
         }
       },
-      "posicao": 38
+      "posicao": 40
     },
     {
       "fantasia": "51",
-      "faturamento_ytd": 86244.0,
-      "participacao_pct": 0.14,
-      "faturamento_mes_atual": 6174.3,
-      "clientes_positivados": 179,
+      "faturamento_ytd": 91681.75,
+      "participacao_pct": 0.12,
+      "faturamento_mes_atual": 2443.13,
+      "clientes_positivados": 195,
       "por_mes": {
         "2026-01": 33185.1,
         "2026-02": 9907.5,
@@ -13157,7 +15789,9 @@ const RAIOX_INDUSTRIAS_DATA = {
         "2026-04": 12834.14,
         "2026-05": 6356.06,
         "2026-06": 8555.1,
-        "2026-07": 6174.3
+        "2026-07": 6174.3,
+        "2026-08": 2994.62,
+        "2026-09": 2443.13
       },
       "por_vendedor": {
         "ES-257": {
@@ -13169,7 +15803,7 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 1
         },
         "RJ-144": {
-          "faturamento_ytd": 14510.88,
+          "faturamento_ytd": 14659.68,
           "por_mes": {
             "2026-01": 6034.08,
             "2026-02": 2112.5,
@@ -13177,19 +15811,21 @@ const RAIOX_INDUSTRIAS_DATA = {
             "2026-04": 1413.0,
             "2026-05": 1223.8,
             "2026-06": 1334.4,
-            "2026-07": 483.6
+            "2026-07": 483.6,
+            "2026-08": 148.8
           },
           "clientes_positivados": 14
         },
         "RJ-153": {
-          "faturamento_ytd": 118.9,
+          "faturamento_ytd": 281.98,
           "por_mes": {
-            "2026-02": 118.9
+            "2026-02": 118.9,
+            "2026-09": 163.08
           },
-          "clientes_positivados": 1
+          "clientes_positivados": 2
         },
         "RJ-155": {
-          "faturamento_ytd": 9296.5,
+          "faturamento_ytd": 9942.7,
           "por_mes": {
             "2026-01": 2717.7,
             "2026-02": 1840.4,
@@ -13197,24 +15833,28 @@ const RAIOX_INDUSTRIAS_DATA = {
             "2026-04": 949.1,
             "2026-05": 216.0,
             "2026-06": 1395.3,
-            "2026-07": 793.5
+            "2026-07": 793.5,
+            "2026-08": 484.2,
+            "2026-09": 162.0
           },
-          "clientes_positivados": 27
+          "clientes_positivados": 28
         },
         "RJ-156": {
-          "faturamento_ytd": 5470.8,
+          "faturamento_ytd": 7430.9,
           "por_mes": {
             "2026-01": 750.42,
             "2026-02": 440.3,
             "2026-03": 433.6,
             "2026-04": 978.18,
             "2026-05": 574.5,
-            "2026-06": 2293.8
+            "2026-06": 2293.8,
+            "2026-08": 961.7,
+            "2026-09": 998.4
           },
-          "clientes_positivados": 22
+          "clientes_positivados": 30
         },
         "RJ-159": {
-          "faturamento_ytd": 12516.24,
+          "faturamento_ytd": 12985.59,
           "por_mes": {
             "2026-01": 2466.2,
             "2026-02": 1636.3,
@@ -13222,7 +15862,9 @@ const RAIOX_INDUSTRIAS_DATA = {
             "2026-04": 3287.4,
             "2026-05": 1654.8,
             "2026-06": 929.7,
-            "2026-07": 1247.94
+            "2026-07": 1247.94,
+            "2026-08": 229.5,
+            "2026-09": 239.85
           },
           "clientes_positivados": 23
         },
@@ -13252,19 +15894,20 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 7
         },
         "RJ-379": {
-          "faturamento_ytd": 2591.08,
+          "faturamento_ytd": 2821.0,
           "por_mes": {
             "2026-01": 486.7,
             "2026-02": 329.7,
             "2026-03": 459.6,
             "2026-05": 372.6,
             "2026-06": 383.4,
-            "2026-07": 559.08
+            "2026-07": 559.08,
+            "2026-08": 229.92
           },
           "clientes_positivados": 11
         },
         "RJ-412": {
-          "faturamento_ytd": 6142.68,
+          "faturamento_ytd": 6396.48,
           "por_mes": {
             "2026-01": 3590.78,
             "2026-02": 587.5,
@@ -13272,7 +15915,8 @@ const RAIOX_INDUSTRIAS_DATA = {
             "2026-04": 323.7,
             "2026-05": 229.8,
             "2026-06": 249.9,
-            "2026-07": 356.7
+            "2026-07": 356.7,
+            "2026-08": 253.8
           },
           "clientes_positivados": 18
         },
@@ -13287,19 +15931,20 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 5
         },
         "RJ-419": {
-          "faturamento_ytd": 17251.78,
+          "faturamento_ytd": 17372.68,
           "por_mes": {
             "2026-01": 13208.8,
             "2026-02": 961.2,
             "2026-03": 2286.0,
             "2026-04": 400.5,
             "2026-05": 235.8,
-            "2026-07": 159.48
+            "2026-07": 159.48,
+            "2026-08": 120.9
           },
-          "clientes_positivados": 14
+          "clientes_positivados": 15
         },
         "RJ-431": {
-          "faturamento_ytd": 6981.06,
+          "faturamento_ytd": 7847.36,
           "por_mes": {
             "2026-01": 1685.0,
             "2026-02": 1020.0,
@@ -13307,19 +15952,22 @@ const RAIOX_INDUSTRIAS_DATA = {
             "2026-04": 525.0,
             "2026-05": 1114.06,
             "2026-06": 1425.9,
-            "2026-07": 1130.1
+            "2026-07": 1130.1,
+            "2026-08": 403.8,
+            "2026-09": 462.5
           },
-          "clientes_positivados": 12
+          "clientes_positivados": 15
         },
         "RJ-439": {
-          "faturamento_ytd": 1671.3,
+          "faturamento_ytd": 1846.8,
           "por_mes": {
             "2026-01": 46.8,
             "2026-02": 558.6,
             "2026-04": 175.5,
             "2026-05": 13.5,
             "2026-06": 81.0,
-            "2026-07": 795.9
+            "2026-07": 795.9,
+            "2026-09": 175.5
           },
           "clientes_positivados": 8
         },
@@ -13331,22 +15979,123 @@ const RAIOX_INDUSTRIAS_DATA = {
           },
           "clientes_positivados": 2
         },
+        "RJ-460": {
+          "faturamento_ytd": 241.8,
+          "por_mes": {
+            "2026-09": 241.8
+          },
+          "clientes_positivados": 1
+        },
         "RJ-471": {
-          "faturamento_ytd": 774.9,
+          "faturamento_ytd": 936.9,
           "por_mes": {
             "2026-04": 442.8,
             "2026-05": 295.2,
-            "2026-06": 36.9
+            "2026-06": 36.9,
+            "2026-08": 162.0
           },
-          "clientes_positivados": 3
+          "clientes_positivados": 4
         }
       },
-      "posicao": 39
+      "posicao": 41
+    },
+    {
+      "fantasia": "NSG",
+      "faturamento_ytd": 84225.78,
+      "participacao_pct": 0.11,
+      "faturamento_mes_atual": 519.8,
+      "clientes_positivados": 71,
+      "por_mes": {
+        "2026-01": 13218.78,
+        "2026-02": 8514.9,
+        "2026-03": 36936.9,
+        "2026-04": 6859.8,
+        "2026-05": 10720.7,
+        "2026-06": 1209.5,
+        "2026-07": 3386.7,
+        "2026-08": 2858.7,
+        "2026-09": 519.8
+      },
+      "por_vendedor": {
+        "MG-327": {
+          "faturamento_ytd": 25932.6,
+          "por_mes": {
+            "2026-01": 3398.4,
+            "2026-02": 3994.1,
+            "2026-03": 2464.8,
+            "2026-04": 5963.4,
+            "2026-05": 2924.9,
+            "2026-06": 1209.5,
+            "2026-07": 3118.8,
+            "2026-08": 2338.9,
+            "2026-09": 519.8
+          },
+          "clientes_positivados": 26
+        },
+        "MG-331": {
+          "faturamento_ytd": 2520.8,
+          "por_mes": {
+            "2026-01": 811.9,
+            "2026-02": 1708.9
+          },
+          "clientes_positivados": 7
+        },
+        "MG-335": {
+          "faturamento_ytd": 2817.3,
+          "por_mes": {
+            "2026-01": 1291.8,
+            "2026-02": 1175.4,
+            "2026-03": 350.1
+          },
+          "clientes_positivados": 9
+        },
+        "MG-344": {
+          "faturamento_ytd": 1110.5,
+          "por_mes": {
+            "2026-04": 322.8,
+            "2026-07": 267.9,
+            "2026-08": 519.8
+          },
+          "clientes_positivados": 3
+        },
+        "MG-349": {
+          "faturamento_ytd": 5396.4,
+          "por_mes": {
+            "2026-01": 5396.4
+          },
+          "clientes_positivados": 6
+        },
+        "MG-354": {
+          "faturamento_ytd": 38401.58,
+          "por_mes": {
+            "2026-01": 2320.28,
+            "2026-02": 1636.5,
+            "2026-03": 34122.0,
+            "2026-05": 322.8
+          },
+          "clientes_positivados": 19
+        },
+        "MG-360": {
+          "faturamento_ytd": 573.6,
+          "por_mes": {
+            "2026-04": 573.6
+          },
+          "clientes_positivados": 1
+        },
+        "MG-362": {
+          "faturamento_ytd": 7473.0,
+          "por_mes": {
+            "2026-05": 7473.0
+          },
+          "clientes_positivados": 2
+        }
+      },
+      "posicao": 42
     },
     {
       "fantasia": "RANCHEIRO",
       "faturamento_ytd": 83596.08,
-      "participacao_pct": 0.13,
+      "participacao_pct": 0.11,
       "faturamento_mes_atual": 0.0,
       "clientes_positivados": 140,
       "por_mes": {
@@ -13474,295 +16223,209 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 3
         }
       },
-      "posicao": 40
-    },
-    {
-      "fantasia": "FABBRI",
-      "faturamento_ytd": 81320.6,
-      "participacao_pct": 0.13,
-      "faturamento_mes_atual": 4905.46,
-      "clientes_positivados": 26,
-      "por_mes": {
-        "2026-01": 36083.74,
-        "2026-02": 1476.52,
-        "2026-03": 24882.86,
-        "2026-04": 13645.8,
-        "2026-05": 239.31,
-        "2026-06": 86.91,
-        "2026-07": 4905.46
-      },
-      "por_vendedor": {
-        "ES-230": {
-          "faturamento_ytd": 32482.8,
-          "por_mes": {
-            "2026-01": 32482.8
-          },
-          "clientes_positivados": 1
-        },
-        "ES-257": {
-          "faturamento_ytd": 6656.54,
-          "por_mes": {
-            "2026-01": 1976.44,
-            "2026-02": 1197.85,
-            "2026-03": 681.89,
-            "2026-04": 1516.9,
-            "2026-05": 239.31,
-            "2026-06": 86.91,
-            "2026-07": 957.24
-          },
-          "clientes_positivados": 8
-        },
-        "ES-260": {
-          "faturamento_ytd": 3768.9,
-          "por_mes": {
-            "2026-04": 3768.9
-          },
-          "clientes_positivados": 6
-        },
-        "ES-268": {
-          "faturamento_ytd": 358.23,
-          "por_mes": {
-            "2026-02": 278.67,
-            "2026-03": 79.56
-          },
-          "clientes_positivados": 3
-        },
-        "ES-335": {
-          "faturamento_ytd": 329.92,
-          "por_mes": {
-            "2026-01": 238.69,
-            "2026-03": 91.23
-          },
-          "clientes_positivados": 2
-        },
-        "ES-370": {
-          "faturamento_ytd": 4451.95,
-          "por_mes": {
-            "2026-01": 752.41,
-            "2026-03": 3699.54
-          },
-          "clientes_positivados": 3
-        },
-        "ES-388": {
-          "faturamento_ytd": 29464.54,
-          "por_mes": {
-            "2026-03": 19024.54,
-            "2026-04": 8120.0,
-            "2026-07": 2320.0
-          },
-          "clientes_positivados": 1
-        },
-        "ES-402": {
-          "faturamento_ytd": 2179.5,
-          "por_mes": {
-            "2026-01": 633.4,
-            "2026-03": 1306.1,
-            "2026-04": 240.0
-          },
-          "clientes_positivados": 3
-        },
-        "ES-508": {
-          "faturamento_ytd": 1628.22,
-          "por_mes": {
-            "2026-07": 1628.22
-          },
-          "clientes_positivados": 5
-        }
-      },
-      "posicao": 41
-    },
-    {
-      "fantasia": "NSG",
-      "faturamento_ytd": 80847.28,
-      "participacao_pct": 0.13,
-      "faturamento_mes_atual": 3386.7,
-      "clientes_positivados": 70,
-      "por_mes": {
-        "2026-01": 13218.78,
-        "2026-02": 8514.9,
-        "2026-03": 36936.9,
-        "2026-04": 6859.8,
-        "2026-05": 10720.7,
-        "2026-06": 1209.5,
-        "2026-07": 3386.7
-      },
-      "por_vendedor": {
-        "MG-327": {
-          "faturamento_ytd": 23073.9,
-          "por_mes": {
-            "2026-01": 3398.4,
-            "2026-02": 3994.1,
-            "2026-03": 2464.8,
-            "2026-04": 5963.4,
-            "2026-05": 2924.9,
-            "2026-06": 1209.5,
-            "2026-07": 3118.8
-          },
-          "clientes_positivados": 26
-        },
-        "MG-331": {
-          "faturamento_ytd": 2520.8,
-          "por_mes": {
-            "2026-01": 811.9,
-            "2026-02": 1708.9
-          },
-          "clientes_positivados": 7
-        },
-        "MG-335": {
-          "faturamento_ytd": 2817.3,
-          "por_mes": {
-            "2026-01": 1291.8,
-            "2026-02": 1175.4,
-            "2026-03": 350.1
-          },
-          "clientes_positivados": 9
-        },
-        "MG-344": {
-          "faturamento_ytd": 590.7,
-          "por_mes": {
-            "2026-04": 322.8,
-            "2026-07": 267.9
-          },
-          "clientes_positivados": 2
-        },
-        "MG-349": {
-          "faturamento_ytd": 5396.4,
-          "por_mes": {
-            "2026-01": 5396.4
-          },
-          "clientes_positivados": 6
-        },
-        "MG-354": {
-          "faturamento_ytd": 38401.58,
-          "por_mes": {
-            "2026-01": 2320.28,
-            "2026-02": 1636.5,
-            "2026-03": 34122.0,
-            "2026-05": 322.8
-          },
-          "clientes_positivados": 19
-        },
-        "MG-360": {
-          "faturamento_ytd": 573.6,
-          "por_mes": {
-            "2026-04": 573.6
-          },
-          "clientes_positivados": 1
-        },
-        "MG-362": {
-          "faturamento_ytd": 7473.0,
-          "por_mes": {
-            "2026-05": 7473.0
-          },
-          "clientes_positivados": 2
-        }
-      },
-      "posicao": 42
-    },
-    {
-      "fantasia": "DADINHO",
-      "faturamento_ytd": 66155.15,
-      "participacao_pct": 0.1,
-      "faturamento_mes_atual": 23350.3,
-      "clientes_positivados": 47,
-      "por_mes": {
-        "2026-03": 844.81,
-        "2026-04": 984.32,
-        "2026-05": 30748.9,
-        "2026-06": 10226.82,
-        "2026-07": 23350.3
-      },
-      "por_vendedor": {
-        "ES-257": {
-          "faturamento_ytd": 60.1,
-          "por_mes": {
-            "2026-04": 60.1
-          },
-          "clientes_positivados": 1
-        },
-        "ES-260": {
-          "faturamento_ytd": 168.71,
-          "por_mes": {
-            "2026-03": 168.71
-          },
-          "clientes_positivados": 5
-        },
-        "ES-335": {
-          "faturamento_ytd": 77.19,
-          "por_mes": {
-            "2026-03": 59.8,
-            "2026-04": 17.39
-          },
-          "clientes_positivados": 3
-        },
-        "ES-336": {
-          "faturamento_ytd": 39.2,
-          "por_mes": {
-            "2026-03": 39.2
-          },
-          "clientes_positivados": 1
-        },
-        "ES-342": {
-          "faturamento_ytd": 204.57,
-          "por_mes": {
-            "2026-04": 204.57
-          },
-          "clientes_positivados": 1
-        },
-        "ES-370": {
-          "faturamento_ytd": 697.71,
-          "por_mes": {
-            "2026-03": 104.53,
-            "2026-04": 593.18
-          },
-          "clientes_positivados": 7
-        },
-        "ES-388": {
-          "faturamento_ytd": 64371.26,
-          "por_mes": {
-            "2026-04": 109.08,
-            "2026-05": 30685.06,
-            "2026-06": 10226.82,
-            "2026-07": 23350.3
-          },
-          "clientes_positivados": 19
-        },
-        "ES-402": {
-          "faturamento_ytd": 443.64,
-          "por_mes": {
-            "2026-03": 443.64
-          },
-          "clientes_positivados": 7
-        },
-        "ES-440": {
-          "faturamento_ytd": 9.81,
-          "por_mes": {
-            "2026-03": 9.81
-          },
-          "clientes_positivados": 1
-        },
-        "ES-442": {
-          "faturamento_ytd": 82.96,
-          "por_mes": {
-            "2026-03": 19.12,
-            "2026-05": 63.84
-          },
-          "clientes_positivados": 2
-        }
-      },
       "posicao": 43
     },
     {
+      "fantasia": "CATUABA",
+      "faturamento_ytd": 60361.17,
+      "participacao_pct": 0.08,
+      "faturamento_mes_atual": 3101.4,
+      "clientes_positivados": 136,
+      "por_mes": {
+        "2026-01": 3681.96,
+        "2026-02": 4706.1,
+        "2026-03": 7988.66,
+        "2026-04": 6140.58,
+        "2026-05": 10224.88,
+        "2026-06": 4704.89,
+        "2026-07": 11223.9,
+        "2026-08": 8588.8,
+        "2026-09": 3101.4
+      },
+      "por_vendedor": {
+        "RJ-144": {
+          "faturamento_ytd": 8755.28,
+          "por_mes": {
+            "2026-01": 190.8,
+            "2026-02": 954.0,
+            "2026-03": 692.9,
+            "2026-04": 1081.68,
+            "2026-05": 1335.6,
+            "2026-06": 969.9,
+            "2026-07": 3434.4,
+            "2026-08": 96.0
+          },
+          "clientes_positivados": 21
+        },
+        "RJ-153": {
+          "faturamento_ytd": 3816.96,
+          "por_mes": {
+            "2026-03": 1140.48,
+            "2026-04": 568.08,
+            "2026-05": 2108.4
+          },
+          "clientes_positivados": 5
+        },
+        "RJ-155": {
+          "faturamento_ytd": 17220.28,
+          "por_mes": {
+            "2026-01": 661.5,
+            "2026-02": 1153.8,
+            "2026-03": 979.68,
+            "2026-04": 1134.0,
+            "2026-05": 115.8,
+            "2026-06": 1263.3,
+            "2026-07": 1712.8,
+            "2026-08": 7098.0,
+            "2026-09": 3101.4
+          },
+          "clientes_positivados": 15
+        },
+        "RJ-156": {
+          "faturamento_ytd": 1763.6,
+          "por_mes": {
+            "2026-02": 254.7,
+            "2026-03": 664.6,
+            "2026-04": 169.5,
+            "2026-05": 254.8,
+            "2026-06": 53.7,
+            "2026-07": 57.9,
+            "2026-08": 308.4
+          },
+          "clientes_positivados": 16
+        },
+        "RJ-158": {
+          "faturamento_ytd": 2760.84,
+          "por_mes": {
+            "2026-03": 2092.68,
+            "2026-05": 94.68,
+            "2026-06": 95.58,
+            "2026-07": 477.9
+          },
+          "clientes_positivados": 3
+        },
+        "RJ-159": {
+          "faturamento_ytd": 3232.1,
+          "por_mes": {
+            "2026-01": 1137.6,
+            "2026-02": 143.1,
+            "2026-03": 287.3,
+            "2026-04": 920.8,
+            "2026-05": 196.9,
+            "2026-06": 89.5,
+            "2026-07": 438.0,
+            "2026-08": 18.9
+          },
+          "clientes_positivados": 9
+        },
+        "RJ-238": {
+          "faturamento_ytd": 1042.8,
+          "por_mes": {
+            "2026-04": 1042.8
+          },
+          "clientes_positivados": 7
+        },
+        "RJ-378": {
+          "faturamento_ytd": 4353.55,
+          "por_mes": {
+            "2026-04": 209.4,
+            "2026-05": 4056.0,
+            "2026-06": 52.35,
+            "2026-07": 35.8
+          },
+          "clientes_positivados": 4
+        },
+        "RJ-379": {
+          "faturamento_ytd": 2941.5,
+          "por_mes": {
+            "2026-01": 499.86,
+            "2026-02": 324.0,
+            "2026-03": 407.22,
+            "2026-04": 204.42,
+            "2026-05": 107.4,
+            "2026-06": 107.4,
+            "2026-07": 1064.4,
+            "2026-08": 226.8
+          },
+          "clientes_positivados": 16
+        },
+        "RJ-412": {
+          "faturamento_ytd": 920.4,
+          "por_mes": {
+            "2026-02": 389.4,
+            "2026-03": 67.6,
+            "2026-05": 89.5,
+            "2026-07": 89.5,
+            "2026-08": 284.4
+          },
+          "clientes_positivados": 6
+        },
+        "RJ-419": {
+          "faturamento_ytd": 9307.5,
+          "por_mes": {
+            "2026-01": 1081.2,
+            "2026-02": 1241.4,
+            "2026-03": 1419.6,
+            "2026-04": 489.0,
+            "2026-05": 471.3,
+            "2026-06": 1228.8,
+            "2026-07": 2839.2,
+            "2026-08": 537.0
+          },
+          "clientes_positivados": 18
+        },
+        "RJ-431": {
+          "faturamento_ytd": 1129.1,
+          "por_mes": {
+            "2026-05": 214.8,
+            "2026-06": 465.4,
+            "2026-07": 429.6,
+            "2026-08": 19.3
+          },
+          "clientes_positivados": 3
+        },
+        "RJ-439": {
+          "faturamento_ytd": 643.8,
+          "por_mes": {
+            "2026-01": 111.0,
+            "2026-02": 245.7,
+            "2026-04": 287.1
+          },
+          "clientes_positivados": 5
+        },
+        "RJ-450": {
+          "faturamento_ytd": 1338.96,
+          "por_mes": {
+            "2026-05": 960.0,
+            "2026-06": 378.96
+          },
+          "clientes_positivados": 3
+        },
+        "RJ-471": {
+          "faturamento_ytd": 1134.5,
+          "por_mes": {
+            "2026-03": 236.6,
+            "2026-04": 33.8,
+            "2026-05": 219.7,
+            "2026-07": 644.4
+          },
+          "clientes_positivados": 5
+        }
+      },
+      "posicao": 44
+    },
+    {
       "fantasia": "NAVEIA",
-      "faturamento_ytd": 57701.6,
-      "participacao_pct": 0.09,
-      "faturamento_mes_atual": 4358.11,
+      "faturamento_ytd": 58027.32,
+      "participacao_pct": 0.07,
+      "faturamento_mes_atual": 0.0,
       "clientes_positivados": 21,
       "por_mes": {
         "2026-04": 16792.2,
         "2026-05": 12588.6,
         "2026-06": 23962.69,
-        "2026-07": 4358.11
+        "2026-07": 4358.11,
+        "2026-08": 325.71
       },
       "por_vendedor": {
         "ES-257": {
@@ -13791,19 +16454,20 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 2
         },
         "ES-458": {
-          "faturamento_ytd": 309.4,
+          "faturamento_ytd": 635.11,
           "por_mes": {
-            "2026-07": 309.4
+            "2026-07": 309.4,
+            "2026-08": 325.71
           },
           "clientes_positivados": 1
         }
       },
-      "posicao": 44
+      "posicao": 45
     },
     {
       "fantasia": "MONDELEZ",
       "faturamento_ytd": 56830.1,
-      "participacao_pct": 0.09,
+      "participacao_pct": 0.07,
       "faturamento_mes_atual": 0.0,
       "clientes_positivados": 157,
       "por_mes": {
@@ -13911,190 +16575,12 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 5
         }
       },
-      "posicao": 45
-    },
-    {
-      "fantasia": "CATUABA",
-      "faturamento_ytd": 48934.97,
-      "participacao_pct": 0.08,
-      "faturamento_mes_atual": 11487.9,
-      "clientes_positivados": 128,
-      "por_mes": {
-        "2026-01": 3681.96,
-        "2026-02": 4706.1,
-        "2026-03": 7988.66,
-        "2026-04": 6140.58,
-        "2026-05": 10224.88,
-        "2026-06": 4704.89,
-        "2026-07": 11487.9
-      },
-      "por_vendedor": {
-        "RJ-144": {
-          "faturamento_ytd": 8659.28,
-          "por_mes": {
-            "2026-01": 190.8,
-            "2026-02": 954.0,
-            "2026-03": 692.9,
-            "2026-04": 1081.68,
-            "2026-05": 1335.6,
-            "2026-06": 969.9,
-            "2026-07": 3434.4
-          },
-          "clientes_positivados": 20
-        },
-        "RJ-153": {
-          "faturamento_ytd": 3816.96,
-          "por_mes": {
-            "2026-03": 1140.48,
-            "2026-04": 568.08,
-            "2026-05": 2108.4
-          },
-          "clientes_positivados": 5
-        },
-        "RJ-155": {
-          "faturamento_ytd": 7020.88,
-          "por_mes": {
-            "2026-01": 661.5,
-            "2026-02": 1153.8,
-            "2026-03": 979.68,
-            "2026-04": 1134.0,
-            "2026-05": 115.8,
-            "2026-06": 1263.3,
-            "2026-07": 1712.8
-          },
-          "clientes_positivados": 14
-        },
-        "RJ-156": {
-          "faturamento_ytd": 1455.2,
-          "por_mes": {
-            "2026-02": 254.7,
-            "2026-03": 664.6,
-            "2026-04": 169.5,
-            "2026-05": 254.8,
-            "2026-06": 53.7,
-            "2026-07": 57.9
-          },
-          "clientes_positivados": 14
-        },
-        "RJ-158": {
-          "faturamento_ytd": 2760.84,
-          "por_mes": {
-            "2026-03": 2092.68,
-            "2026-05": 94.68,
-            "2026-06": 95.58,
-            "2026-07": 477.9
-          },
-          "clientes_positivados": 3
-        },
-        "RJ-159": {
-          "faturamento_ytd": 3213.2,
-          "por_mes": {
-            "2026-01": 1137.6,
-            "2026-02": 143.1,
-            "2026-03": 287.3,
-            "2026-04": 920.8,
-            "2026-05": 196.9,
-            "2026-06": 89.5,
-            "2026-07": 438.0
-          },
-          "clientes_positivados": 9
-        },
-        "RJ-238": {
-          "faturamento_ytd": 1042.8,
-          "por_mes": {
-            "2026-04": 1042.8
-          },
-          "clientes_positivados": 7
-        },
-        "RJ-378": {
-          "faturamento_ytd": 4353.55,
-          "por_mes": {
-            "2026-04": 209.4,
-            "2026-05": 4056.0,
-            "2026-06": 52.35,
-            "2026-07": 35.8
-          },
-          "clientes_positivados": 4
-        },
-        "RJ-379": {
-          "faturamento_ytd": 2714.7,
-          "por_mes": {
-            "2026-01": 499.86,
-            "2026-02": 324.0,
-            "2026-03": 407.22,
-            "2026-04": 204.42,
-            "2026-05": 107.4,
-            "2026-06": 107.4,
-            "2026-07": 1064.4
-          },
-          "clientes_positivados": 15
-        },
-        "RJ-412": {
-          "faturamento_ytd": 636.0,
-          "por_mes": {
-            "2026-02": 389.4,
-            "2026-03": 67.6,
-            "2026-05": 89.5,
-            "2026-07": 89.5
-          },
-          "clientes_positivados": 4
-        },
-        "RJ-419": {
-          "faturamento_ytd": 9034.5,
-          "por_mes": {
-            "2026-01": 1081.2,
-            "2026-02": 1241.4,
-            "2026-03": 1419.6,
-            "2026-04": 489.0,
-            "2026-05": 471.3,
-            "2026-06": 1228.8,
-            "2026-07": 3103.2
-          },
-          "clientes_positivados": 18
-        },
-        "RJ-431": {
-          "faturamento_ytd": 1109.8,
-          "por_mes": {
-            "2026-05": 214.8,
-            "2026-06": 465.4,
-            "2026-07": 429.6
-          },
-          "clientes_positivados": 2
-        },
-        "RJ-439": {
-          "faturamento_ytd": 643.8,
-          "por_mes": {
-            "2026-01": 111.0,
-            "2026-02": 245.7,
-            "2026-04": 287.1
-          },
-          "clientes_positivados": 5
-        },
-        "RJ-450": {
-          "faturamento_ytd": 1338.96,
-          "por_mes": {
-            "2026-05": 960.0,
-            "2026-06": 378.96
-          },
-          "clientes_positivados": 3
-        },
-        "RJ-471": {
-          "faturamento_ytd": 1134.5,
-          "por_mes": {
-            "2026-03": 236.6,
-            "2026-04": 33.8,
-            "2026-05": 219.7,
-            "2026-07": 644.4
-          },
-          "clientes_positivados": 5
-        }
-      },
       "posicao": 46
     },
     {
       "fantasia": "MACROEX",
       "faturamento_ytd": 37392.0,
-      "participacao_pct": 0.06,
+      "participacao_pct": 0.05,
       "faturamento_mes_atual": 0.0,
       "clientes_positivados": 1,
       "por_mes": {
@@ -14113,10 +16599,10 @@ const RAIOX_INDUSTRIAS_DATA = {
     },
     {
       "fantasia": "JURUPINGA",
-      "faturamento_ytd": 32993.25,
+      "faturamento_ytd": 36005.02,
       "participacao_pct": 0.05,
-      "faturamento_mes_atual": 10149.44,
-      "clientes_positivados": 62,
+      "faturamento_mes_atual": 777.0,
+      "clientes_positivados": 74,
       "por_mes": {
         "2026-01": 105.96,
         "2026-02": 1748.4,
@@ -14124,18 +16610,21 @@ const RAIOX_INDUSTRIAS_DATA = {
         "2026-04": 1842.48,
         "2026-05": 10367.15,
         "2026-06": 8086.21,
-        "2026-07": 10149.44
+        "2026-07": 10149.44,
+        "2026-08": 2234.76,
+        "2026-09": 777.0
       },
       "por_vendedor": {
         "RJ-144": {
-          "faturamento_ytd": 5869.6,
+          "faturamento_ytd": 6008.0,
           "por_mes": {
             "2026-04": 848.4,
             "2026-05": 2473.2,
             "2026-06": 897.0,
-            "2026-07": 1651.0
+            "2026-07": 1651.0,
+            "2026-08": 138.4
           },
-          "clientes_positivados": 13
+          "clientes_positivados": 15
         },
         "RJ-153": {
           "faturamento_ytd": 584.64,
@@ -14146,11 +16635,12 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 2
         },
         "RJ-155": {
-          "faturamento_ytd": 370.8,
+          "faturamento_ytd": 1303.2,
           "por_mes": {
-            "2026-03": 370.8
+            "2026-03": 370.8,
+            "2026-08": 932.4
           },
-          "clientes_positivados": 1
+          "clientes_positivados": 2
         },
         "RJ-156": {
           "faturamento_ytd": 157.76,
@@ -14175,25 +16665,27 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 1
         },
         "RJ-379": {
-          "faturamento_ytd": 2269.1,
+          "faturamento_ytd": 2579.9,
           "por_mes": {
             "2026-02": 573.6,
             "2026-03": 322.8,
             "2026-05": 310.8,
             "2026-06": 310.8,
-            "2026-07": 751.1
+            "2026-07": 751.1,
+            "2026-08": 310.8
           },
-          "clientes_positivados": 6
+          "clientes_positivados": 7
         },
         "RJ-419": {
-          "faturamento_ytd": 3205.1,
+          "faturamento_ytd": 3515.9,
           "por_mes": {
             "2026-02": 900.0,
             "2026-05": 751.1,
             "2026-06": 310.8,
-            "2026-07": 1243.2
+            "2026-07": 1243.2,
+            "2026-09": 310.8
           },
-          "clientes_positivados": 9
+          "clientes_positivados": 10
         },
         "RJ-431": {
           "faturamento_ytd": 633.6,
@@ -14204,12 +16696,13 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 2
         },
         "RJ-439": {
-          "faturamento_ytd": 434.4,
+          "faturamento_ytd": 745.2,
           "por_mes": {
             "2026-04": 123.6,
-            "2026-06": 310.8
+            "2026-06": 310.8,
+            "2026-09": 310.8
           },
-          "clientes_positivados": 2
+          "clientes_positivados": 3
         },
         "RJ-450": {
           "faturamento_ytd": 12639.18,
@@ -14257,18 +16750,21 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 1
         },
         "SP-468": {
-          "faturamento_ytd": 2665.77,
+          "faturamento_ytd": 2898.87,
           "por_mes": {
-            "2026-05": 2665.77
+            "2026-05": 2665.77,
+            "2026-08": 77.7,
+            "2026-09": 155.4
           },
-          "clientes_positivados": 1
+          "clientes_positivados": 3
         },
         "SP-472": {
-          "faturamento_ytd": 76.16,
+          "faturamento_ytd": 152.33,
           "por_mes": {
-            "2026-06": 76.16
+            "2026-06": 76.16,
+            "2026-08": 76.16
           },
-          "clientes_positivados": 1
+          "clientes_positivados": 2
         },
         "SP-476": {
           "faturamento_ytd": 322.8,
@@ -14283,21 +16779,37 @@ const RAIOX_INDUSTRIAS_DATA = {
             "2026-06": 304.66
           },
           "clientes_positivados": 1
+        },
+        "SP-492": {
+          "faturamento_ytd": 77.7,
+          "por_mes": {
+            "2026-08": 77.7
+          },
+          "clientes_positivados": 2
+        },
+        "SP-512": {
+          "faturamento_ytd": 621.6,
+          "por_mes": {
+            "2026-08": 621.6
+          },
+          "clientes_positivados": 1
         }
       },
       "posicao": 48
     },
     {
       "fantasia": "INVICTUS",
-      "faturamento_ytd": 24997.93,
-      "participacao_pct": 0.04,
-      "faturamento_mes_atual": 2500.06,
-      "clientes_positivados": 38,
+      "faturamento_ytd": 27525.61,
+      "participacao_pct": 0.03,
+      "faturamento_mes_atual": 296.4,
+      "clientes_positivados": 41,
       "por_mes": {
         "2026-04": 1952.0,
         "2026-05": 16112.1,
         "2026-06": 4433.77,
-        "2026-07": 2500.06
+        "2026-07": 2500.06,
+        "2026-08": 2231.28,
+        "2026-09": 296.4
       },
       "por_vendedor": {
         "RJ-144": {
@@ -14316,24 +16828,27 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 2
         },
         "RJ-159": {
-          "faturamento_ytd": 3099.7,
+          "faturamento_ytd": 3457.3,
           "por_mes": {
             "2026-04": 770.0,
             "2026-05": 1011.6,
             "2026-06": 797.4,
-            "2026-07": 520.7
+            "2026-07": 520.7,
+            "2026-08": 178.8,
+            "2026-09": 178.8
           },
           "clientes_positivados": 6
         },
         "RJ-379": {
-          "faturamento_ytd": 16846.35,
+          "faturamento_ytd": 18513.03,
           "por_mes": {
             "2026-04": 54.1,
             "2026-05": 14104.1,
             "2026-06": 1856.79,
-            "2026-07": 831.36
+            "2026-07": 831.36,
+            "2026-08": 1666.68
           },
-          "clientes_positivados": 15
+          "clientes_positivados": 17
         },
         "RJ-417": {
           "faturamento_ytd": 475.2,
@@ -14361,14 +16876,16 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 3
         },
         "RJ-439": {
-          "faturamento_ytd": 868.9,
+          "faturamento_ytd": 1372.3,
           "por_mes": {
             "2026-04": 34.5,
             "2026-05": 119.2,
             "2026-06": 44.7,
-            "2026-07": 670.5
+            "2026-07": 670.5,
+            "2026-08": 385.8,
+            "2026-09": 117.6
           },
-          "clientes_positivados": 3
+          "clientes_positivados": 5
         },
         "RJ-471": {
           "faturamento_ytd": 79.2,
@@ -14397,10 +16914,10 @@ const RAIOX_INDUSTRIAS_DATA = {
     },
     {
       "fantasia": "STOCK",
-      "faturamento_ytd": 22998.42,
-      "participacao_pct": 0.04,
-      "faturamento_mes_atual": 3896.93,
-      "clientes_positivados": 67,
+      "faturamento_ytd": 24465.52,
+      "participacao_pct": 0.03,
+      "faturamento_mes_atual": 146.8,
+      "clientes_positivados": 77,
       "por_mes": {
         "2026-01": 1659.59,
         "2026-02": 2952.21,
@@ -14408,19 +16925,29 @@ const RAIOX_INDUSTRIAS_DATA = {
         "2026-04": 1883.58,
         "2026-05": 6322.42,
         "2026-06": 4318.43,
-        "2026-07": 3896.93
+        "2026-07": 3896.93,
+        "2026-08": 1320.3,
+        "2026-09": 146.8
       },
       "por_vendedor": {
         "RJ-155": {
-          "faturamento_ytd": 3102.0,
+          "faturamento_ytd": 3175.8,
           "por_mes": {
             "2026-01": 625.4,
             "2026-02": 2057.5,
             "2026-03": 94.8,
             "2026-04": 144.7,
-            "2026-05": 179.6
+            "2026-05": 179.6,
+            "2026-09": 73.8
           },
-          "clientes_positivados": 12
+          "clientes_positivados": 13
+        },
+        "RJ-156": {
+          "faturamento_ytd": 73.0,
+          "por_mes": {
+            "2026-09": 73.0
+          },
+          "clientes_positivados": 1
         },
         "RJ-159": {
           "faturamento_ytd": 8841.7,
@@ -14450,12 +16977,13 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 1
         },
         "RJ-379": {
-          "faturamento_ytd": 241.3,
+          "faturamento_ytd": 492.7,
           "por_mes": {
             "2026-02": 37.9,
-            "2026-03": 203.4
+            "2026-03": 203.4,
+            "2026-08": 251.4
           },
-          "clientes_positivados": 2
+          "clientes_positivados": 3
         },
         "RJ-417": {
           "faturamento_ytd": 856.11,
@@ -14504,12 +17032,13 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 2
         },
         "SP-371": {
-          "faturamento_ytd": 400.42,
+          "faturamento_ytd": 603.82,
           "por_mes": {
             "2026-03": 362.88,
-            "2026-06": 37.54
+            "2026-06": 37.54,
+            "2026-08": 203.4
           },
-          "clientes_positivados": 3
+          "clientes_positivados": 4
         },
         "SP-405": {
           "faturamento_ytd": 60.48,
@@ -14569,12 +17098,13 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 2
         },
         "SP-486": {
-          "faturamento_ytd": 401.22,
+          "faturamento_ytd": 502.92,
           "por_mes": {
             "2026-06": 225.25,
-            "2026-07": 175.97
+            "2026-07": 175.97,
+            "2026-08": 101.7
           },
-          "clientes_positivados": 4
+          "clientes_positivados": 5
         },
         "SP-490": {
           "faturamento_ytd": 150.16,
@@ -14597,12 +17127,34 @@ const RAIOX_INDUSTRIAS_DATA = {
           },
           "clientes_positivados": 1
         },
-        "SP-512": {
-          "faturamento_ytd": 394.8,
+        "SP-500": {
+          "faturamento_ytd": 131.6,
           "por_mes": {
-            "2026-07": 394.8
+            "2026-08": 131.6
           },
           "clientes_positivados": 1
+        },
+        "SP-510": {
+          "faturamento_ytd": 249.3,
+          "por_mes": {
+            "2026-08": 249.3
+          },
+          "clientes_positivados": 1
+        },
+        "SP-512": {
+          "faturamento_ytd": 598.2,
+          "por_mes": {
+            "2026-07": 394.8,
+            "2026-08": 203.4
+          },
+          "clientes_positivados": 2
+        },
+        "SP-516": {
+          "faturamento_ytd": 179.5,
+          "por_mes": {
+            "2026-08": 179.5
+          },
+          "clientes_positivados": 2
         }
       },
       "posicao": 50
@@ -14743,10 +17295,10 @@ const RAIOX_INDUSTRIAS_DATA = {
     },
     {
       "fantasia": "BETTER DRINKS",
-      "faturamento_ytd": 18937.42,
-      "participacao_pct": 0.03,
-      "faturamento_mes_atual": 404.88,
-      "clientes_positivados": 22,
+      "faturamento_ytd": 19745.68,
+      "participacao_pct": 0.02,
+      "faturamento_mes_atual": 340.32,
+      "clientes_positivados": 23,
       "por_mes": {
         "2026-01": 1989.0,
         "2026-02": 4996.42,
@@ -14754,11 +17306,13 @@ const RAIOX_INDUSTRIAS_DATA = {
         "2026-04": 1845.72,
         "2026-05": 1401.84,
         "2026-06": 85.08,
-        "2026-07": 404.88
+        "2026-07": 404.88,
+        "2026-08": 467.94,
+        "2026-09": 340.32
       },
       "por_vendedor": {
         "MG-327": {
-          "faturamento_ytd": 8154.18,
+          "faturamento_ytd": 8962.44,
           "por_mes": {
             "2026-01": 1473.6,
             "2026-02": 1830.18,
@@ -14766,9 +17320,11 @@ const RAIOX_INDUSTRIAS_DATA = {
             "2026-04": 1845.72,
             "2026-05": 1401.84,
             "2026-06": 85.08,
-            "2026-07": 404.88
+            "2026-07": 404.88,
+            "2026-08": 467.94,
+            "2026-09": 340.32
           },
-          "clientes_positivados": 11
+          "clientes_positivados": 12
         },
         "MG-335": {
           "faturamento_ytd": 7488.96,
@@ -14804,10 +17360,95 @@ const RAIOX_INDUSTRIAS_DATA = {
       "posicao": 52
     },
     {
+      "fantasia": "QUINTA DO NINO",
+      "faturamento_ytd": 16844.18,
+      "participacao_pct": 0.02,
+      "faturamento_mes_atual": 1751.4,
+      "clientes_positivados": 18,
+      "por_mes": {
+        "2026-08": 15092.78,
+        "2026-09": 1751.4
+      },
+      "por_vendedor": {
+        "SP-426": {
+          "faturamento_ytd": 166.8,
+          "por_mes": {
+            "2026-08": 166.8
+          },
+          "clientes_positivados": 1
+        },
+        "SP-433": {
+          "faturamento_ytd": 333.6,
+          "por_mes": {
+            "2026-08": 333.6
+          },
+          "clientes_positivados": 2
+        },
+        "SP-468": {
+          "faturamento_ytd": 333.6,
+          "por_mes": {
+            "2026-09": 333.6
+          },
+          "clientes_positivados": 1
+        },
+        "SP-476": {
+          "faturamento_ytd": 1000.8,
+          "por_mes": {
+            "2026-08": 1000.8
+          },
+          "clientes_positivados": 2
+        },
+        "SP-486": {
+          "faturamento_ytd": 8902.2,
+          "por_mes": {
+            "2026-08": 8818.8,
+            "2026-09": 83.4
+          },
+          "clientes_positivados": 5
+        },
+        "SP-492": {
+          "faturamento_ytd": 24.98,
+          "por_mes": {
+            "2026-08": 24.98
+          },
+          "clientes_positivados": 1
+        },
+        "SP-500": {
+          "faturamento_ytd": 500.4,
+          "por_mes": {
+            "2026-08": 500.4
+          },
+          "clientes_positivados": 1
+        },
+        "SP-507": {
+          "faturamento_ytd": 333.6,
+          "por_mes": {
+            "2026-08": 333.6
+          },
+          "clientes_positivados": 1
+        },
+        "SP-516": {
+          "faturamento_ytd": 3913.8,
+          "por_mes": {
+            "2026-08": 3913.8
+          },
+          "clientes_positivados": 3
+        },
+        "SP-524": {
+          "faturamento_ytd": 1334.4,
+          "por_mes": {
+            "2026-09": 1334.4
+          },
+          "clientes_positivados": 1
+        }
+      },
+      "posicao": 53
+    },
+    {
       "fantasia": "BANANINHA CARIOCA",
       "faturamento_ytd": 16727.21,
-      "participacao_pct": 0.03,
-      "faturamento_mes_atual": 2341.86,
+      "participacao_pct": 0.02,
+      "faturamento_mes_atual": 0.0,
       "clientes_positivados": 66,
       "por_mes": {
         "2026-01": 989.9,
@@ -14935,26 +17576,29 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 1
         }
       },
-      "posicao": 53
+      "posicao": 54
     },
     {
       "fantasia": "NOSSO CHOPE",
-      "faturamento_ytd": 11451.9,
+      "faturamento_ytd": 14711.2,
       "participacao_pct": 0.02,
-      "faturamento_mes_atual": 1333.6,
-      "clientes_positivados": 44,
+      "faturamento_mes_atual": 999.0,
+      "clientes_positivados": 57,
       "por_mes": {
         "2026-05": 2073.4,
         "2026-06": 8044.9,
-        "2026-07": 1333.6
+        "2026-07": 1333.6,
+        "2026-08": 2260.3,
+        "2026-09": 999.0
       },
       "por_vendedor": {
         "RJ-144": {
-          "faturamento_ytd": 4122.4,
+          "faturamento_ytd": 4727.8,
           "por_mes": {
             "2026-05": 1896.0,
             "2026-06": 2049.0,
-            "2026-07": 177.4
+            "2026-07": 177.4,
+            "2026-08": 605.4
           },
           "clientes_positivados": 7
         },
@@ -14966,11 +17610,13 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 1
         },
         "RJ-156": {
-          "faturamento_ytd": 2143.6,
+          "faturamento_ytd": 4252.6,
           "por_mes": {
-            "2026-06": 2143.6
+            "2026-06": 2143.6,
+            "2026-08": 1221.0,
+            "2026-09": 888.0
           },
-          "clientes_positivados": 15
+          "clientes_positivados": 27
         },
         "RJ-159": {
           "faturamento_ytd": 1701.1,
@@ -14995,16 +17641,18 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 1
         },
         "RJ-419": {
-          "faturamento_ytd": 465.8,
+          "faturamento_ytd": 576.8,
           "por_mes": {
-            "2026-06": 465.8
+            "2026-06": 465.8,
+            "2026-09": 111.0
           },
-          "clientes_positivados": 3
+          "clientes_positivados": 4
         },
         "RJ-431": {
-          "faturamento_ytd": 490.2,
+          "faturamento_ytd": 591.1,
           "por_mes": {
-            "2026-06": 490.2
+            "2026-06": 490.2,
+            "2026-08": 100.9
           },
           "clientes_positivados": 2
         },
@@ -15016,22 +17664,23 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 2
         },
         "RJ-471": {
-          "faturamento_ytd": 1486.6,
+          "faturamento_ytd": 1819.6,
           "por_mes": {
             "2026-06": 532.2,
-            "2026-07": 954.4
+            "2026-07": 954.4,
+            "2026-08": 333.0
           },
           "clientes_positivados": 4
         }
       },
-      "posicao": 54
+      "posicao": 55
     },
     {
       "fantasia": "1883",
-      "faturamento_ytd": 10151.64,
+      "faturamento_ytd": 12946.04,
       "participacao_pct": 0.02,
-      "faturamento_mes_atual": 748.5,
-      "clientes_positivados": 33,
+      "faturamento_mes_atual": 1397.2,
+      "clientes_positivados": 35,
       "por_mes": {
         "2026-01": 2023.9,
         "2026-02": 1101.8,
@@ -15039,11 +17688,13 @@ const RAIOX_INDUSTRIAS_DATA = {
         "2026-04": 2159.7,
         "2026-05": 1453.14,
         "2026-06": 1379.2,
-        "2026-07": 748.5
+        "2026-07": 748.5,
+        "2026-08": 1397.2,
+        "2026-09": 1397.2
       },
       "por_vendedor": {
         "RJ-155": {
-          "faturamento_ytd": 4281.2,
+          "faturamento_ytd": 4780.2,
           "por_mes": {
             "2026-01": 1305.3,
             "2026-02": 149.7,
@@ -15051,12 +17702,14 @@ const RAIOX_INDUSTRIAS_DATA = {
             "2026-04": 866.2,
             "2026-05": 287.4,
             "2026-06": 530.9,
-            "2026-07": 349.3
+            "2026-07": 349.3,
+            "2026-08": 199.6,
+            "2026-09": 299.4
           },
-          "clientes_positivados": 9
+          "clientes_positivados": 10
         },
         "RJ-159": {
-          "faturamento_ytd": 4323.44,
+          "faturamento_ytd": 5720.64,
           "por_mes": {
             "2026-01": 668.7,
             "2026-02": 952.1,
@@ -15064,9 +17717,18 @@ const RAIOX_INDUSTRIAS_DATA = {
             "2026-04": 145.7,
             "2026-05": 1115.84,
             "2026-06": 548.9,
-            "2026-07": 399.2
+            "2026-07": 399.2,
+            "2026-08": 1197.6,
+            "2026-09": 199.6
           },
           "clientes_positivados": 20
+        },
+        "RJ-378": {
+          "faturamento_ytd": 898.2,
+          "por_mes": {
+            "2026-09": 898.2
+          },
+          "clientes_positivados": 1
         },
         "RJ-412": {
           "faturamento_ytd": 49.9,
@@ -15097,12 +17759,235 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 1
         }
       },
-      "posicao": 55
+      "posicao": 56
+    },
+    {
+      "fantasia": "KIKKOMAN DO BRASIL",
+      "faturamento_ytd": 12103.03,
+      "participacao_pct": 0.02,
+      "faturamento_mes_atual": 1720.8,
+      "clientes_positivados": 27,
+      "por_mes": {
+        "2026-01": 3538.56,
+        "2026-03": 354.95,
+        "2026-04": 544.84,
+        "2026-05": 3749.81,
+        "2026-06": 426.94,
+        "2026-08": 1767.13,
+        "2026-09": 1720.8
+      },
+      "por_vendedor": {
+        "SP-367": {
+          "faturamento_ytd": 132.21,
+          "por_mes": {
+            "2026-03": 132.21
+          },
+          "clientes_positivados": 1
+        },
+        "SP-405": {
+          "faturamento_ytd": 46.46,
+          "por_mes": {
+            "2026-03": 46.46
+          },
+          "clientes_positivados": 1
+        },
+        "SP-425": {
+          "faturamento_ytd": 4037.01,
+          "por_mes": {
+            "2026-01": 3538.56,
+            "2026-04": 180.28,
+            "2026-08": 318.17
+          },
+          "clientes_positivados": 5
+        },
+        "SP-426": {
+          "faturamento_ytd": 4152.0,
+          "por_mes": {
+            "2026-03": 176.28,
+            "2026-04": 364.56,
+            "2026-05": 3611.16
+          },
+          "clientes_positivados": 3
+        },
+        "SP-433": {
+          "faturamento_ytd": 1434.0,
+          "por_mes": {
+            "2026-09": 1434.0
+          },
+          "clientes_positivados": 1
+        },
+        "SP-460": {
+          "faturamento_ytd": 473.74,
+          "por_mes": {
+            "2026-06": 116.14,
+            "2026-08": 357.6
+          },
+          "clientes_positivados": 3
+        },
+        "SP-461": {
+          "faturamento_ytd": 717.0,
+          "por_mes": {
+            "2026-08": 717.0
+          },
+          "clientes_positivados": 2
+        },
+        "SP-468": {
+          "faturamento_ytd": 35.8,
+          "por_mes": {
+            "2026-05": 35.8
+          },
+          "clientes_positivados": 1
+        },
+        "SP-471": {
+          "faturamento_ytd": 29.8,
+          "por_mes": {
+            "2026-08": 29.8
+          },
+          "clientes_positivados": 1
+        },
+        "SP-472": {
+          "faturamento_ytd": 191.01,
+          "por_mes": {
+            "2026-05": 102.85,
+            "2026-08": 88.16
+          },
+          "clientes_positivados": 4
+        },
+        "SP-476": {
+          "faturamento_ytd": 310.8,
+          "por_mes": {
+            "2026-06": 310.8
+          },
+          "clientes_positivados": 1
+        },
+        "SP-486": {
+          "faturamento_ytd": 29.8,
+          "por_mes": {
+            "2026-08": 29.8
+          },
+          "clientes_positivados": 1
+        },
+        "SP-500": {
+          "faturamento_ytd": 286.8,
+          "por_mes": {
+            "2026-09": 286.8
+          },
+          "clientes_positivados": 1
+        },
+        "SP-510": {
+          "faturamento_ytd": 47.8,
+          "por_mes": {
+            "2026-08": 47.8
+          },
+          "clientes_positivados": 1
+        },
+        "SP-516": {
+          "faturamento_ytd": 178.8,
+          "por_mes": {
+            "2026-08": 178.8
+          },
+          "clientes_positivados": 1
+        }
+      },
+      "posicao": 57
+    },
+    {
+      "fantasia": "DIALCOOL",
+      "faturamento_ytd": 11023.39,
+      "participacao_pct": 0.01,
+      "faturamento_mes_atual": 0.0,
+      "clientes_positivados": 11,
+      "por_mes": {
+        "2026-02": 2551.84,
+        "2026-03": 3742.62,
+        "2026-04": 279.69,
+        "2026-05": 684.9,
+        "2026-07": 1544.34,
+        "2026-08": 2220.0
+      },
+      "por_vendedor": {
+        "ES-257": {
+          "faturamento_ytd": 279.69,
+          "por_mes": {
+            "2026-04": 279.69
+          },
+          "clientes_positivados": 1
+        },
+        "ES-370": {
+          "faturamento_ytd": 63.6,
+          "por_mes": {
+            "2026-05": 63.6
+          },
+          "clientes_positivados": 1
+        },
+        "ES-388": {
+          "faturamento_ytd": 7537.06,
+          "por_mes": {
+            "2026-02": 2551.84,
+            "2026-03": 3742.62,
+            "2026-05": 621.3,
+            "2026-07": 621.3
+          },
+          "clientes_positivados": 1
+        },
+        "ES-508": {
+          "faturamento_ytd": 3143.04,
+          "por_mes": {
+            "2026-07": 923.04,
+            "2026-08": 2220.0
+          },
+          "clientes_positivados": 8
+        }
+      },
+      "posicao": 58
+    },
+    {
+      "fantasia": "LYNV",
+      "faturamento_ytd": 10890.17,
+      "participacao_pct": 0.01,
+      "faturamento_mes_atual": 10400.04,
+      "clientes_positivados": 4,
+      "por_mes": {
+        "2026-01": 104.01,
+        "2026-06": 386.12,
+        "2026-09": 10400.04
+      },
+      "por_vendedor": {
+        "RJ-159": {
+          "faturamento_ytd": 231.2,
+          "por_mes": {
+            "2026-06": 231.2
+          },
+          "clientes_positivados": 1
+        },
+        "RJ-378": {
+          "faturamento_ytd": 104.01,
+          "por_mes": {
+            "2026-01": 104.01
+          },
+          "clientes_positivados": 1
+        },
+        "RJ-420": {
+          "faturamento_ytd": 10400.04,
+          "por_mes": {
+            "2026-09": 10400.04
+          },
+          "clientes_positivados": 1
+        },
+        "RJ-471": {
+          "faturamento_ytd": 154.92,
+          "por_mes": {
+            "2026-06": 154.92
+          },
+          "clientes_positivados": 1
+        }
+      },
+      "posicao": 59
     },
     {
       "fantasia": "DRYCAT DESTLARIA LTDA",
       "faturamento_ytd": 9708.74,
-      "participacao_pct": 0.02,
+      "participacao_pct": 0.01,
       "faturamento_mes_atual": 0.0,
       "clientes_positivados": 34,
       "por_mes": {
@@ -15150,138 +18035,14 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 2
         }
       },
-      "posicao": 56
-    },
-    {
-      "fantasia": "DIALCOOL",
-      "faturamento_ytd": 8803.39,
-      "participacao_pct": 0.01,
-      "faturamento_mes_atual": 1544.34,
-      "clientes_positivados": 10,
-      "por_mes": {
-        "2026-02": 2551.84,
-        "2026-03": 3742.62,
-        "2026-04": 279.69,
-        "2026-05": 684.9,
-        "2026-07": 1544.34
-      },
-      "por_vendedor": {
-        "ES-257": {
-          "faturamento_ytd": 279.69,
-          "por_mes": {
-            "2026-04": 279.69
-          },
-          "clientes_positivados": 1
-        },
-        "ES-370": {
-          "faturamento_ytd": 63.6,
-          "por_mes": {
-            "2026-05": 63.6
-          },
-          "clientes_positivados": 1
-        },
-        "ES-388": {
-          "faturamento_ytd": 7537.06,
-          "por_mes": {
-            "2026-02": 2551.84,
-            "2026-03": 3742.62,
-            "2026-05": 621.3,
-            "2026-07": 621.3
-          },
-          "clientes_positivados": 1
-        },
-        "ES-508": {
-          "faturamento_ytd": 923.04,
-          "por_mes": {
-            "2026-07": 923.04
-          },
-          "clientes_positivados": 7
-        }
-      },
-      "posicao": 57
-    },
-    {
-      "fantasia": "KIKKOMAN DO BRASIL",
-      "faturamento_ytd": 8615.1,
-      "participacao_pct": 0.01,
-      "faturamento_mes_atual": 0.0,
-      "clientes_positivados": 13,
-      "por_mes": {
-        "2026-01": 3538.56,
-        "2026-03": 354.95,
-        "2026-04": 544.84,
-        "2026-05": 3749.81,
-        "2026-06": 426.94
-      },
-      "por_vendedor": {
-        "SP-367": {
-          "faturamento_ytd": 132.21,
-          "por_mes": {
-            "2026-03": 132.21
-          },
-          "clientes_positivados": 1
-        },
-        "SP-405": {
-          "faturamento_ytd": 46.46,
-          "por_mes": {
-            "2026-03": 46.46
-          },
-          "clientes_positivados": 1
-        },
-        "SP-425": {
-          "faturamento_ytd": 3718.84,
-          "por_mes": {
-            "2026-01": 3538.56,
-            "2026-04": 180.28
-          },
-          "clientes_positivados": 2
-        },
-        "SP-426": {
-          "faturamento_ytd": 4152.0,
-          "por_mes": {
-            "2026-03": 176.28,
-            "2026-04": 364.56,
-            "2026-05": 3611.16
-          },
-          "clientes_positivados": 3
-        },
-        "SP-460": {
-          "faturamento_ytd": 116.14,
-          "por_mes": {
-            "2026-06": 116.14
-          },
-          "clientes_positivados": 1
-        },
-        "SP-468": {
-          "faturamento_ytd": 35.8,
-          "por_mes": {
-            "2026-05": 35.8
-          },
-          "clientes_positivados": 1
-        },
-        "SP-472": {
-          "faturamento_ytd": 102.85,
-          "por_mes": {
-            "2026-05": 102.85
-          },
-          "clientes_positivados": 3
-        },
-        "SP-476": {
-          "faturamento_ytd": 310.8,
-          "por_mes": {
-            "2026-06": 310.8
-          },
-          "clientes_positivados": 1
-        }
-      },
-      "posicao": 58
+      "posicao": 60
     },
     {
       "fantasia": "SELETA",
-      "faturamento_ytd": 7704.4,
+      "faturamento_ytd": 9499.7,
       "participacao_pct": 0.01,
-      "faturamento_mes_atual": 1877.3,
-      "clientes_positivados": 24,
+      "faturamento_mes_atual": 104.7,
+      "clientes_positivados": 27,
       "por_mes": {
         "2026-01": 1046.6,
         "2026-02": 400.1,
@@ -15289,11 +18050,13 @@ const RAIOX_INDUSTRIAS_DATA = {
         "2026-04": 458.8,
         "2026-05": 1704.0,
         "2026-06": 1236.8,
-        "2026-07": 1877.3
+        "2026-07": 1877.3,
+        "2026-08": 1690.6,
+        "2026-09": 104.7
       },
       "por_vendedor": {
         "MG-327": {
-          "faturamento_ytd": 2252.7,
+          "faturamento_ytd": 3943.3,
           "por_mes": {
             "2026-01": 164.6,
             "2026-02": 179.6,
@@ -15301,9 +18064,10 @@ const RAIOX_INDUSTRIAS_DATA = {
             "2026-04": 239.4,
             "2026-05": 478.9,
             "2026-06": 478.8,
-            "2026-07": 583.7
+            "2026-07": 583.7,
+            "2026-08": 1690.6
           },
-          "clientes_positivados": 9
+          "clientes_positivados": 12
         },
         "MG-331": {
           "faturamento_ytd": 1416.8,
@@ -15323,11 +18087,12 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 2
         },
         "MG-344": {
-          "faturamento_ytd": 2179.8,
+          "faturamento_ytd": 2284.5,
           "por_mes": {
             "2026-05": 841.2,
             "2026-06": 269.4,
-            "2026-07": 1069.2
+            "2026-07": 1069.2,
+            "2026-09": 104.7
           },
           "clientes_positivados": 7
         },
@@ -15342,14 +18107,14 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 5
         }
       },
-      "posicao": 59
+      "posicao": 61
     },
     {
       "fantasia": "BOAZINHA",
-      "faturamento_ytd": 6934.16,
+      "faturamento_ytd": 8115.86,
       "participacao_pct": 0.01,
-      "faturamento_mes_atual": 1017.7,
-      "clientes_positivados": 17,
+      "faturamento_mes_atual": 0.0,
+      "clientes_positivados": 18,
       "por_mes": {
         "2026-01": 1249.64,
         "2026-02": 1169.74,
@@ -15357,7 +18122,8 @@ const RAIOX_INDUSTRIAS_DATA = {
         "2026-04": 1546.84,
         "2026-05": 662.64,
         "2026-06": 519.6,
-        "2026-07": 1017.7
+        "2026-07": 1017.7,
+        "2026-08": 1181.7
       },
       "por_vendedor": {
         "ES-257": {
@@ -15376,11 +18142,12 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 1
         },
         "RJ-155": {
-          "faturamento_ytd": 1272.3,
+          "faturamento_ytd": 1640.4,
           "por_mes": {
             "2026-02": 490.8,
             "2026-04": 536.1,
-            "2026-07": 245.4
+            "2026-07": 245.4,
+            "2026-08": 368.1
           },
           "clientes_positivados": 2
         },
@@ -15429,6 +18196,13 @@ const RAIOX_INDUSTRIAS_DATA = {
           },
           "clientes_positivados": 1
         },
+        "RJ-439": {
+          "faturamento_ytd": 813.6,
+          "por_mes": {
+            "2026-08": 813.6
+          },
+          "clientes_positivados": 1
+        },
         "RJ-450": {
           "faturamento_ytd": 1550.76,
           "por_mes": {
@@ -15439,13 +18213,74 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 2
         }
       },
-      "posicao": 60
+      "posicao": 62
+    },
+    {
+      "fantasia": "RIO DE JANEIRO",
+      "faturamento_ytd": 4939.0,
+      "participacao_pct": 0.01,
+      "faturamento_mes_atual": 359.2,
+      "clientes_positivados": 10,
+      "por_mes": {
+        "2026-07": 1436.8,
+        "2026-08": 3143.0,
+        "2026-09": 359.2
+      },
+      "por_vendedor": {
+        "RJ-144": {
+          "faturamento_ytd": 89.8,
+          "por_mes": {
+            "2026-07": 89.8
+          },
+          "clientes_positivados": 1
+        },
+        "RJ-155": {
+          "faturamento_ytd": 359.2,
+          "por_mes": {
+            "2026-07": 179.6,
+            "2026-08": 89.8,
+            "2026-09": 89.8
+          },
+          "clientes_positivados": 2
+        },
+        "RJ-159": {
+          "faturamento_ytd": 3726.7,
+          "por_mes": {
+            "2026-07": 898.0,
+            "2026-08": 2828.7
+          },
+          "clientes_positivados": 3
+        },
+        "RJ-378": {
+          "faturamento_ytd": 493.9,
+          "por_mes": {
+            "2026-07": 269.4,
+            "2026-08": 224.5
+          },
+          "clientes_positivados": 1
+        },
+        "RJ-431": {
+          "faturamento_ytd": 179.6,
+          "por_mes": {
+            "2026-09": 179.6
+          },
+          "clientes_positivados": 2
+        },
+        "RJ-471": {
+          "faturamento_ytd": 89.8,
+          "por_mes": {
+            "2026-09": 89.8
+          },
+          "clientes_positivados": 1
+        }
+      },
+      "posicao": 63
     },
     {
       "fantasia": "TOP BIRRA",
       "faturamento_ytd": 4784.66,
       "participacao_pct": 0.01,
-      "faturamento_mes_atual": 3160.78,
+      "faturamento_mes_atual": 0.0,
       "clientes_positivados": 14,
       "por_mes": {
         "2026-04": 222.0,
@@ -15540,21 +18375,22 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 1
         }
       },
-      "posicao": 61
+      "posicao": 64
     },
     {
       "fantasia": "SALINAS",
-      "faturamento_ytd": 4506.8,
+      "faturamento_ytd": 4784.2,
       "participacao_pct": 0.01,
-      "faturamento_mes_atual": 904.2,
-      "clientes_positivados": 15,
+      "faturamento_mes_atual": 0.0,
+      "clientes_positivados": 17,
       "por_mes": {
         "2026-01": 734.4,
         "2026-03": 901.6,
         "2026-04": 1110.5,
         "2026-05": 501.8,
         "2026-06": 354.3,
-        "2026-07": 904.2
+        "2026-07": 904.2,
+        "2026-08": 277.4
       },
       "por_vendedor": {
         "RJ-153": {
@@ -15565,13 +18401,14 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 1
         },
         "RJ-155": {
-          "faturamento_ytd": 1864.0,
+          "faturamento_ytd": 2034.7,
           "por_mes": {
             "2026-01": 99.8,
             "2026-03": 866.6,
-            "2026-04": 897.6
+            "2026-04": 897.6,
+            "2026-08": 170.7
           },
-          "clientes_positivados": 3
+          "clientes_positivados": 4
         },
         "RJ-158": {
           "faturamento_ytd": 904.2,
@@ -15596,6 +18433,13 @@ const RAIOX_INDUSTRIAS_DATA = {
           },
           "clientes_positivados": 1
         },
+        "RJ-378": {
+          "faturamento_ytd": 75.8,
+          "por_mes": {
+            "2026-08": 75.8
+          },
+          "clientes_positivados": 1
+        },
         "RJ-417": {
           "faturamento_ytd": 323.4,
           "por_mes": {
@@ -15604,11 +18448,12 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 1
         },
         "RJ-419": {
-          "faturamento_ytd": 96.8,
+          "faturamento_ytd": 127.7,
           "por_mes": {
             "2026-03": 35.0,
             "2026-05": 30.9,
-            "2026-06": 30.9
+            "2026-06": 30.9,
+            "2026-08": 30.9
           },
           "clientes_positivados": 2
         },
@@ -15627,13 +18472,13 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 2
         }
       },
-      "posicao": 62
+      "posicao": 65
     },
     {
       "fantasia": "NATIQUE",
       "faturamento_ytd": 3391.49,
-      "participacao_pct": 0.01,
-      "faturamento_mes_atual": 95.8,
+      "participacao_pct": 0.0,
+      "faturamento_mes_atual": 0.0,
       "clientes_positivados": 11,
       "por_mes": {
         "2026-01": 876.18,
@@ -15688,13 +18533,56 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 1
         }
       },
-      "posicao": 63
+      "posicao": 66
+    },
+    {
+      "fantasia": "HOUSE OF BRANDS",
+      "faturamento_ytd": 3076.0,
+      "participacao_pct": 0.0,
+      "faturamento_mes_atual": 2423.9,
+      "clientes_positivados": 7,
+      "por_mes": {
+        "2026-08": 652.1,
+        "2026-09": 2423.9
+      },
+      "por_vendedor": {
+        "SP-469": {
+          "faturamento_ytd": 109.7,
+          "por_mes": {
+            "2026-08": 109.7
+          },
+          "clientes_positivados": 1
+        },
+        "SP-486": {
+          "faturamento_ytd": 173.5,
+          "por_mes": {
+            "2026-08": 143.6,
+            "2026-09": 29.9
+          },
+          "clientes_positivados": 2
+        },
+        "SP-516": {
+          "faturamento_ytd": 398.8,
+          "por_mes": {
+            "2026-08": 398.8
+          },
+          "clientes_positivados": 3
+        },
+        "SP-527": {
+          "faturamento_ytd": 2394.0,
+          "por_mes": {
+            "2026-09": 2394.0
+          },
+          "clientes_positivados": 1
+        }
+      },
+      "posicao": 67
     },
     {
       "fantasia": "DUBAR",
       "faturamento_ytd": 2978.54,
       "participacao_pct": 0.0,
-      "faturamento_mes_atual": 249.2,
+      "faturamento_mes_atual": 0.0,
       "clientes_positivados": 16,
       "por_mes": {
         "2026-01": 645.66,
@@ -15764,7 +18652,7 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 1
         }
       },
-      "posicao": 64
+      "posicao": 68
     },
     {
       "fantasia": "MITTO",
@@ -15803,13 +18691,13 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 1
         }
       },
-      "posicao": 65
+      "posicao": 69
     },
     {
       "fantasia": "SUPERMIX",
       "faturamento_ytd": 2703.9,
       "participacao_pct": 0.0,
-      "faturamento_mes_atual": 194.7,
+      "faturamento_mes_atual": 0.0,
       "clientes_positivados": 15,
       "por_mes": {
         "2026-01": 959.8,
@@ -15863,7 +18751,65 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 4
         }
       },
-      "posicao": 66
+      "posicao": 70
+    },
+    {
+      "fantasia": "KIRIN",
+      "faturamento_ytd": 1924.08,
+      "participacao_pct": 0.0,
+      "faturamento_mes_atual": 25.9,
+      "clientes_positivados": 14,
+      "por_mes": {
+        "2026-01": 109.5,
+        "2026-02": 226.8,
+        "2026-03": 87.7,
+        "2026-04": 133.62,
+        "2026-05": 737.04,
+        "2026-06": 134.88,
+        "2026-07": 333.64,
+        "2026-08": 135.0,
+        "2026-09": 25.9
+      },
+      "por_vendedor": {
+        "RJ-155": {
+          "faturamento_ytd": 153.1,
+          "por_mes": {
+            "2026-03": 71.8,
+            "2026-05": 81.3
+          },
+          "clientes_positivados": 2
+        },
+        "RJ-159": {
+          "faturamento_ytd": 265.4,
+          "por_mes": {
+            "2026-01": 109.5,
+            "2026-03": 15.9,
+            "2026-05": 47.7,
+            "2026-07": 66.4,
+            "2026-09": 25.9
+          },
+          "clientes_positivados": 7
+        },
+        "RJ-439": {
+          "faturamento_ytd": 226.8,
+          "por_mes": {
+            "2026-02": 226.8
+          },
+          "clientes_positivados": 1
+        },
+        "RJ-450": {
+          "faturamento_ytd": 1278.78,
+          "por_mes": {
+            "2026-04": 133.62,
+            "2026-05": 608.04,
+            "2026-06": 134.88,
+            "2026-07": 267.24,
+            "2026-08": 135.0
+          },
+          "clientes_positivados": 4
+        }
+      },
+      "posicao": 71
     },
     {
       "fantasia": "PRATICO",
@@ -15892,61 +18838,7 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 1
         }
       },
-      "posicao": 67
-    },
-    {
-      "fantasia": "KIRIN",
-      "faturamento_ytd": 1763.18,
-      "participacao_pct": 0.0,
-      "faturamento_mes_atual": 333.64,
-      "clientes_positivados": 13,
-      "por_mes": {
-        "2026-01": 109.5,
-        "2026-02": 226.8,
-        "2026-03": 87.7,
-        "2026-04": 133.62,
-        "2026-05": 737.04,
-        "2026-06": 134.88,
-        "2026-07": 333.64
-      },
-      "por_vendedor": {
-        "RJ-155": {
-          "faturamento_ytd": 153.1,
-          "por_mes": {
-            "2026-03": 71.8,
-            "2026-05": 81.3
-          },
-          "clientes_positivados": 2
-        },
-        "RJ-159": {
-          "faturamento_ytd": 239.5,
-          "por_mes": {
-            "2026-01": 109.5,
-            "2026-03": 15.9,
-            "2026-05": 47.7,
-            "2026-07": 66.4
-          },
-          "clientes_positivados": 6
-        },
-        "RJ-439": {
-          "faturamento_ytd": 226.8,
-          "por_mes": {
-            "2026-02": 226.8
-          },
-          "clientes_positivados": 1
-        },
-        "RJ-450": {
-          "faturamento_ytd": 1143.78,
-          "por_mes": {
-            "2026-04": 133.62,
-            "2026-05": 608.04,
-            "2026-06": 134.88,
-            "2026-07": 267.24
-          },
-          "clientes_positivados": 4
-        }
-      },
-      "posicao": 68
+      "posicao": 72
     },
     {
       "fantasia": "MENTOS",
@@ -16001,59 +18893,20 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 5
         }
       },
-      "posicao": 69
-    },
-    {
-      "fantasia": "RIO DE JANEIRO",
-      "faturamento_ytd": 1436.8,
-      "participacao_pct": 0.0,
-      "faturamento_mes_atual": 1436.8,
-      "clientes_positivados": 4,
-      "por_mes": {
-        "2026-07": 1436.8
-      },
-      "por_vendedor": {
-        "RJ-144": {
-          "faturamento_ytd": 89.8,
-          "por_mes": {
-            "2026-07": 89.8
-          },
-          "clientes_positivados": 1
-        },
-        "RJ-155": {
-          "faturamento_ytd": 179.6,
-          "por_mes": {
-            "2026-07": 179.6
-          },
-          "clientes_positivados": 1
-        },
-        "RJ-159": {
-          "faturamento_ytd": 898.0,
-          "por_mes": {
-            "2026-07": 898.0
-          },
-          "clientes_positivados": 1
-        },
-        "RJ-378": {
-          "faturamento_ytd": 269.4,
-          "por_mes": {
-            "2026-07": 269.4
-          },
-          "clientes_positivados": 1
-        }
-      },
-      "posicao": 70
+      "posicao": 73
     },
     {
       "fantasia": "NUTRIFRIOS",
-      "faturamento_ytd": 1252.0,
+      "faturamento_ytd": 1455.6,
       "participacao_pct": 0.0,
-      "faturamento_mes_atual": 898.2,
-      "clientes_positivados": 4,
+      "faturamento_mes_atual": 101.8,
+      "clientes_positivados": 7,
       "por_mes": {
         "2026-02": 199.6,
         "2026-03": 154.2,
-        "2026-07": 898.2
+        "2026-07": 898.2,
+        "2026-08": 101.8,
+        "2026-09": 101.8
       },
       "por_vendedor": {
         "SP-317": {
@@ -16076,9 +18929,17 @@ const RAIOX_INDUSTRIAS_DATA = {
             "2026-03": 154.2
           },
           "clientes_positivados": 1
+        },
+        "SP-510": {
+          "faturamento_ytd": 203.6,
+          "por_mes": {
+            "2026-08": 101.8,
+            "2026-09": 101.8
+          },
+          "clientes_positivados": 3
         }
       },
-      "posicao": 71
+      "posicao": 74
     },
     {
       "fantasia": "NATIKOS",
@@ -16142,13 +19003,13 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 1
         }
       },
-      "posicao": 72
+      "posicao": 75
     },
     {
       "fantasia": "MELT",
       "faturamento_ytd": 892.5,
       "participacao_pct": 0.0,
-      "faturamento_mes_atual": 892.5,
+      "faturamento_mes_atual": 0.0,
       "clientes_positivados": 3,
       "por_mes": {
         "2026-07": 892.5
@@ -16169,7 +19030,7 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 1
         }
       },
-      "posicao": 73
+      "posicao": 76
     },
     {
       "fantasia": "GOEDERT",
@@ -16198,42 +19059,7 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 2
         }
       },
-      "posicao": 74
-    },
-    {
-      "fantasia": "LYNV",
-      "faturamento_ytd": 490.13,
-      "participacao_pct": 0.0,
-      "faturamento_mes_atual": 0.0,
-      "clientes_positivados": 3,
-      "por_mes": {
-        "2026-01": 104.01,
-        "2026-06": 386.12
-      },
-      "por_vendedor": {
-        "RJ-159": {
-          "faturamento_ytd": 231.2,
-          "por_mes": {
-            "2026-06": 231.2
-          },
-          "clientes_positivados": 1
-        },
-        "RJ-378": {
-          "faturamento_ytd": 104.01,
-          "por_mes": {
-            "2026-01": 104.01
-          },
-          "clientes_positivados": 1
-        },
-        "RJ-471": {
-          "faturamento_ytd": 154.92,
-          "por_mes": {
-            "2026-06": 154.92
-          },
-          "clientes_positivados": 1
-        }
-      },
-      "posicao": 75
+      "posicao": 77
     },
     {
       "fantasia": "ALTACOPPO",
@@ -16255,7 +19081,7 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 2
         }
       },
-      "posicao": 76
+      "posicao": 78
     },
     {
       "fantasia": "CASA DI CONTI",
@@ -16290,7 +19116,7 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 1
         }
       },
-      "posicao": 77
+      "posicao": 79
     },
     {
       "fantasia": "BANANAZINHA",
@@ -16317,27 +19143,7 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 1
         }
       },
-      "posicao": 78
-    },
-    {
-      "fantasia": "BACARDI-MARTINI",
-      "faturamento_ytd": 227.4,
-      "participacao_pct": 0.0,
-      "faturamento_mes_atual": 227.4,
-      "clientes_positivados": 1,
-      "por_mes": {
-        "2026-07": 227.4
-      },
-      "por_vendedor": {
-        "MG-354": {
-          "faturamento_ytd": 227.4,
-          "por_mes": {
-            "2026-07": 227.4
-          },
-          "clientes_positivados": 1
-        }
-      },
-      "posicao": 79
+      "posicao": 80
     },
     {
       "fantasia": "VCT",
@@ -16357,7 +19163,7 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 1
         }
       },
-      "posicao": 80
+      "posicao": 81
     },
     {
       "fantasia": "CIPEL DE PADUA",
@@ -16385,7 +19191,7 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 1
         }
       },
-      "posicao": 81
+      "posicao": 82
     },
     {
       "fantasia": "CHIVAS",
@@ -16405,13 +19211,13 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 1
         }
       },
-      "posicao": 82
+      "posicao": 83
     },
     {
       "fantasia": "RISSO",
       "faturamento_ytd": 79.2,
       "participacao_pct": 0.0,
-      "faturamento_mes_atual": 79.2,
+      "faturamento_mes_atual": 0.0,
       "clientes_positivados": 1,
       "por_mes": {
         "2026-07": 79.2
@@ -16425,7 +19231,47 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 1
         }
       },
-      "posicao": 83
+      "posicao": 84
+    },
+    {
+      "fantasia": "BACARDI-MARTINI",
+      "faturamento_ytd": 75.8,
+      "participacao_pct": 0.0,
+      "faturamento_mes_atual": 0.0,
+      "clientes_positivados": 1,
+      "por_mes": {
+        "2026-08": 75.8
+      },
+      "por_vendedor": {
+        "MG-354": {
+          "faturamento_ytd": 75.8,
+          "por_mes": {
+            "2026-08": 75.8
+          },
+          "clientes_positivados": 1
+        }
+      },
+      "posicao": 85
+    },
+    {
+      "fantasia": "VINICOLA GALIOTO",
+      "faturamento_ytd": 43.8,
+      "participacao_pct": 0.0,
+      "faturamento_mes_atual": 43.8,
+      "clientes_positivados": 1,
+      "por_mes": {
+        "2026-09": 43.8
+      },
+      "por_vendedor": {
+        "RJ-431": {
+          "faturamento_ytd": 43.8,
+          "por_mes": {
+            "2026-09": 43.8
+          },
+          "clientes_positivados": 1
+        }
+      },
+      "posicao": 86
     },
     {
       "fantasia": "PARATUDO",
@@ -16453,7 +19299,7 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 1
         }
       },
-      "posicao": 84
+      "posicao": 87
     },
     {
       "fantasia": "AUDAX",
@@ -16473,7 +19319,7 @@ const RAIOX_INDUSTRIAS_DATA = {
           "clientes_positivados": 1
         }
       },
-      "posicao": 85
+      "posicao": 88
     }
   ],
   "vendedores": [
@@ -16484,14 +19330,6 @@ const RAIOX_INDUSTRIAS_DATA = {
       "nome": "ADEILSON GONÇALVEZ",
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES"
-    },
-    {
-      "rca": 479,
-      "estado": "SP",
-      "chave": "SP-479",
-      "nome": "ADELINO SANTOS",
-      "supervisor": "PRISCILLA BONACHE",
-      "gerente": "MARCUS TANAMACHI"
     },
     {
       "rca": 426,
@@ -16518,11 +19356,19 @@ const RAIOX_INDUSTRIAS_DATA = {
       "gerente": "DANIEL DINIZ"
     },
     {
+      "rca": 522,
+      "estado": "SP",
+      "chave": "SP-522",
+      "nome": "ALEF DOS SANTOS",
+      "supervisor": "PRISCILLA BONACHE",
+      "gerente": "MARCUS TANAMACHI"
+    },
+    {
       "rca": 511,
       "estado": "SP",
       "chave": "SP-511",
       "nome": "ALEXANDRE SOUZA",
-      "supervisor": "MARCUS TANAMACHI",
+      "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI"
     },
     {
@@ -16530,7 +19376,7 @@ const RAIOX_INDUSTRIAS_DATA = {
       "estado": "SP",
       "chave": "SP-483",
       "nome": "ALEXANDRE TONON",
-      "supervisor": "PRISCILLA BONACHE",
+      "supervisor": "ANDERSON CANAVEIS",
       "gerente": "MARCUS TANAMACHI"
     },
     {
@@ -16548,6 +19394,22 @@ const RAIOX_INDUSTRIAS_DATA = {
       "nome": "ALLAN PAES",
       "supervisor": "DANIELLE MOURA",
       "gerente": "ALLAN PAES"
+    },
+    {
+      "rca": 791,
+      "estado": "SP",
+      "chave": "SP-791",
+      "nome": "ALVARO JUNIOR",
+      "supervisor": "ANDERSON CANAVEIS",
+      "gerente": "MARCUS TANAMACHI"
+    },
+    {
+      "rca": 524,
+      "estado": "SP",
+      "chave": "SP-524",
+      "nome": "AMAURY TARDOC",
+      "supervisor": "PRISCILLA BONACHE",
+      "gerente": "MARCUS TANAMACHI"
     },
     {
       "rca": 471,
@@ -16578,7 +19440,7 @@ const RAIOX_INDUSTRIAS_DATA = {
       "estado": "SP",
       "chave": "SP-492",
       "nome": "ANDERSON MOTTA",
-      "supervisor": "MARCUS TANAMACHI",
+      "supervisor": "ANDERSON CANAVEIS",
       "gerente": "MARCUS TANAMACHI"
     },
     {
@@ -16666,15 +19528,7 @@ const RAIOX_INDUSTRIAS_DATA = {
       "estado": "SP",
       "chave": "SP-399",
       "nome": "BRYAN PALOPOLI",
-      "supervisor": "MARCUS TANAMACHI",
-      "gerente": "MARCUS TANAMACHI"
-    },
-    {
-      "rca": 299,
-      "estado": "SP",
-      "chave": "SP-299",
-      "nome": "BRYAN PALOPOLI  - INATIVO",
-      "supervisor": "MARCUS TANAMACHI",
+      "supervisor": "ANDERSON CANAVEIS",
       "gerente": "MARCUS TANAMACHI"
     },
     {
@@ -16706,7 +19560,7 @@ const RAIOX_INDUSTRIAS_DATA = {
       "estado": "SP",
       "chave": "SP-493",
       "nome": "CAROLINA SOUZA",
-      "supervisor": "MARCUS TANAMACHI",
+      "supervisor": "ANDERSON CANAVEIS",
       "gerente": "MARCUS TANAMACHI"
     },
     {
@@ -16722,7 +19576,7 @@ const RAIOX_INDUSTRIAS_DATA = {
       "estado": "SP",
       "chave": "SP-465",
       "nome": "CIARA PADULA",
-      "supervisor": "MARCUS TANAMACHI",
+      "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI"
     },
     {
@@ -16734,11 +19588,19 @@ const RAIOX_INDUSTRIAS_DATA = {
       "gerente": "DANIEL DINIZ"
     },
     {
+      "rca": 554,
+      "estado": "SP",
+      "chave": "SP-554",
+      "nome": "CRISTIAN MARINELLI",
+      "supervisor": "PRISCILLA BONACHE",
+      "gerente": "MARCUS TANAMACHI"
+    },
+    {
       "rca": 460,
       "estado": "SP",
       "chave": "SP-460",
       "nome": "CRISTIANE MORAIS",
-      "supervisor": "MARCUS TANAMACHI",
+      "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI"
     },
     {
@@ -16750,11 +19612,19 @@ const RAIOX_INDUSTRIAS_DATA = {
       "gerente": "DANIEL DINIZ"
     },
     {
+      "rca": 527,
+      "estado": "SP",
+      "chave": "SP-527",
+      "nome": "DANIEL DINIZ",
+      "supervisor": "DANIEL DINIZ",
+      "gerente": "DANIEL DINIZ"
+    },
+    {
       "rca": 466,
       "estado": "SP",
       "chave": "SP-466",
       "nome": "DANIELLE DOS SANTOS",
-      "supervisor": "MARCUS TANAMACHI",
+      "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI"
     },
     {
@@ -16772,14 +19642,6 @@ const RAIOX_INDUSTRIAS_DATA = {
       "nome": "DEMETRIUS PELEGRINI",
       "supervisor": "ANDERSON CANAVEIS",
       "gerente": "MARCUS TANAMACHI"
-    },
-    {
-      "rca": 432,
-      "estado": "SP",
-      "chave": "SP-432",
-      "nome": "DIEGO PAULINO",
-      "supervisor": "DANIEL DINIZ",
-      "gerente": "DANIEL DINIZ"
     },
     {
       "rca": 144,
@@ -16819,14 +19681,6 @@ const RAIOX_INDUSTRIAS_DATA = {
       "chave": "SP-490",
       "nome": "DOUGLAS TEIXEIRA",
       "supervisor": "PRISCILLA BONACHE",
-      "gerente": "MARCUS TANAMACHI"
-    },
-    {
-      "rca": 495,
-      "estado": "SP",
-      "chave": "SP-495",
-      "nome": "EDUARDO COUTO",
-      "supervisor": "MARCUS TANAMACHI",
       "gerente": "MARCUS TANAMACHI"
     },
     {
@@ -16906,8 +19760,16 @@ const RAIOX_INDUSTRIAS_DATA = {
       "estado": "SP",
       "chave": "SP-472",
       "nome": "FLAVIO RIBEIRO",
-      "supervisor": "MARCUS TANAMACHI",
+      "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI"
+    },
+    {
+      "rca": 390,
+      "estado": "MG",
+      "chave": "MG-390",
+      "nome": "FRANCIELLE CARVALHO",
+      "supervisor": "FERNANDO RISSON",
+      "gerente": "FERNANDO RISSON"
     },
     {
       "rca": 474,
@@ -16932,6 +19794,14 @@ const RAIOX_INDUSTRIAS_DATA = {
       "nome": "FÁBIO OLIVEIRA",
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ"
+    },
+    {
+      "rca": 267,
+      "estado": "SP",
+      "chave": "SP-267",
+      "nome": "GABRIEL RABBATH",
+      "supervisor": "ANDERSON CANAVEIS",
+      "gerente": "MARCUS TANAMACHI"
     },
     {
       "rca": 402,
@@ -16962,14 +19832,6 @@ const RAIOX_INDUSTRIAS_DATA = {
       "estado": "RJ",
       "chave": "RJ-159",
       "nome": "GISELLE BARFER",
-      "supervisor": "DANIEL DINIZ",
-      "gerente": "DANIEL DINIZ"
-    },
-    {
-      "rca": 406,
-      "estado": "SP",
-      "chave": "SP-406",
-      "nome": "GONZALO LEIVA",
       "supervisor": "DANIEL DINIZ",
       "gerente": "DANIEL DINIZ"
     },
@@ -17014,6 +19876,14 @@ const RAIOX_INDUSTRIAS_DATA = {
       "gerente": "MARCUS TANAMACHI"
     },
     {
+      "rca": 526,
+      "estado": "SP",
+      "chave": "SP-526",
+      "nome": "ISAIAS FALCHIONE",
+      "supervisor": "ANDERSON CANAVEIS",
+      "gerente": "MARCUS TANAMACHI"
+    },
+    {
       "rca": 460,
       "estado": "RJ",
       "chave": "RJ-460",
@@ -17046,14 +19916,6 @@ const RAIOX_INDUSTRIAS_DATA = {
       "gerente": "DANIEL DINIZ"
     },
     {
-      "rca": 501,
-      "estado": "SP",
-      "chave": "SP-501",
-      "nome": "JESSICA LIMA -  OFF TRADE",
-      "supervisor": "PRISCILLA BONACHE",
-      "gerente": "MARCUS TANAMACHI"
-    },
-    {
       "rca": 378,
       "estado": "MG",
       "chave": "MG-378",
@@ -17065,7 +19927,7 @@ const RAIOX_INDUSTRIAS_DATA = {
       "rca": 507,
       "estado": "SP",
       "chave": "SP-507",
-      "nome": "JOAO AUGUSTO -  OFF TRADE",
+      "nome": "JOAO AUGUSTO",
       "supervisor": "ANDERSON CANAVEIS",
       "gerente": "MARCUS TANAMACHI"
     },
@@ -17106,7 +19968,15 @@ const RAIOX_INDUSTRIAS_DATA = {
       "estado": "SP",
       "chave": "SP-516",
       "nome": "JOAQUIM ANGELO",
-      "supervisor": "MARCUS TANAMACHI",
+      "supervisor": "PRISCILLA BONACHE",
+      "gerente": "MARCUS TANAMACHI"
+    },
+    {
+      "rca": 962,
+      "estado": "SP",
+      "chave": "SP-962",
+      "nome": "JONATHAN HENRIQUE BURATTO",
+      "supervisor": "ANDERSON CANAVEIS",
       "gerente": "MARCUS TANAMACHI"
     },
     {
@@ -17140,6 +20010,14 @@ const RAIOX_INDUSTRIAS_DATA = {
       "nome": "JOSIETH LIMA",
       "supervisor": "SUPERVISOR HIBRIDO ES",
       "gerente": "EROCLES OLIVEIRA"
+    },
+    {
+      "rca": 389,
+      "estado": "MG",
+      "chave": "MG-389",
+      "nome": "JOSUE DA SILVA RODRIGUES",
+      "supervisor": "FERNANDO RISSON",
+      "gerente": "FERNANDO RISSON"
     },
     {
       "rca": 327,
@@ -17230,14 +20108,6 @@ const RAIOX_INDUSTRIAS_DATA = {
       "gerente": "MARCUS TANAMACHI"
     },
     {
-      "rca": 258,
-      "estado": "SP",
-      "chave": "SP-258",
-      "nome": "LUCIANA DE OLIVEIRA",
-      "supervisor": "DANIEL DINIZ",
-      "gerente": "DANIEL DINIZ"
-    },
-    {
       "rca": 477,
       "estado": "SP",
       "chave": "SP-477",
@@ -17318,14 +20188,6 @@ const RAIOX_INDUSTRIAS_DATA = {
       "gerente": "MARCUS TANAMACHI"
     },
     {
-      "rca": 313,
-      "estado": "SP",
-      "chave": "SP-313",
-      "nome": "MARCELO SANCHEZ",
-      "supervisor": "MARCUS TANAMACHI",
-      "gerente": "MARCUS TANAMACHI"
-    },
-    {
       "rca": 438,
       "estado": "SP",
       "chave": "SP-438",
@@ -17378,7 +20240,7 @@ const RAIOX_INDUSTRIAS_DATA = {
       "estado": "SP",
       "chave": "SP-467",
       "nome": "MARLENE RODRIGUES",
-      "supervisor": "MARCUS TANAMACHI",
+      "supervisor": "ANDERSON CANAVEIS",
       "gerente": "MARCUS TANAMACHI"
     },
     {
@@ -17414,6 +20276,14 @@ const RAIOX_INDUSTRIAS_DATA = {
       "gerente": "ALLAN PAES"
     },
     {
+      "rca": 553,
+      "estado": "SP",
+      "chave": "SP-553",
+      "nome": "OLACIR MACHADO",
+      "supervisor": "PRISCILLA BONACHE",
+      "gerente": "MARCUS TANAMACHI"
+    },
+    {
       "rca": 269,
       "estado": "ES",
       "chave": "ES-269",
@@ -17442,7 +20312,7 @@ const RAIOX_INDUSTRIAS_DATA = {
       "estado": "SP",
       "chave": "SP-471",
       "nome": "PAULO JUNIOR",
-      "supervisor": "MARCUS TANAMACHI",
+      "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI"
     },
     {
@@ -17478,18 +20348,18 @@ const RAIOX_INDUSTRIAS_DATA = {
       "gerente": "MARCUS TANAMACHI"
     },
     {
-      "rca": 319,
-      "estado": "SP",
-      "chave": "SP-319",
-      "nome": "RAFAEL FONSECA",
-      "supervisor": "MARCUS TANAMACHI",
-      "gerente": "MARCUS TANAMACHI"
-    },
-    {
       "rca": 515,
       "estado": "SP",
       "chave": "SP-515",
       "nome": "RAFAEL REIS",
+      "supervisor": "ANDERSON CANAVEIS",
+      "gerente": "MARCUS TANAMACHI"
+    },
+    {
+      "rca": 506,
+      "estado": "SP",
+      "chave": "SP-506",
+      "nome": "RAPHAEL CAMPOS",
       "supervisor": "ANDERSON CANAVEIS",
       "gerente": "MARCUS TANAMACHI"
     },
@@ -17510,19 +20380,11 @@ const RAIOX_INDUSTRIAS_DATA = {
       "gerente": "EROCLES OLIVEIRA"
     },
     {
-      "rca": 481,
-      "estado": "SP",
-      "chave": "SP-481",
-      "nome": "RENAN SOUZA",
-      "supervisor": "PRISCILLA BONACHE",
-      "gerente": "MARCUS TANAMACHI"
-    },
-    {
       "rca": 468,
       "estado": "SP",
       "chave": "SP-468",
       "nome": "RENATO JUNIOR",
-      "supervisor": "MARCUS TANAMACHI",
+      "supervisor": "ANDERSON CANAVEIS",
       "gerente": "MARCUS TANAMACHI"
     },
     {
@@ -17546,7 +20408,7 @@ const RAIOX_INDUSTRIAS_DATA = {
       "estado": "SP",
       "chave": "SP-463",
       "nome": "ROBERTO DOS SANTOS",
-      "supervisor": "MARCUS TANAMACHI",
+      "supervisor": "ANDERSON CANAVEIS",
       "gerente": "MARCUS TANAMACHI"
     },
     {
@@ -17564,6 +20426,22 @@ const RAIOX_INDUSTRIAS_DATA = {
       "nome": "RODRIGO LIMA",
       "supervisor": "PRISCILLA BONACHE",
       "gerente": "MARCUS TANAMACHI"
+    },
+    {
+      "rca": 523,
+      "estado": "SP",
+      "chave": "SP-523",
+      "nome": "RONALDO BASSI",
+      "supervisor": "PRISCILLA BONACHE",
+      "gerente": "MARCUS TANAMACHI"
+    },
+    {
+      "rca": 405,
+      "estado": "MG",
+      "chave": "MG-405",
+      "nome": "RONALDO MESQUITA JUNIOR",
+      "supervisor": "FERNANDO RISSON",
+      "gerente": "FERNANDO RISSON"
     },
     {
       "rca": 510,
@@ -17586,7 +20464,7 @@ const RAIOX_INDUSTRIAS_DATA = {
       "estado": "SP",
       "chave": "SP-519",
       "nome": "SANDRO ALVES",
-      "supervisor": "MARCUS TANAMACHI",
+      "supervisor": "ANDERSON CANAVEIS",
       "gerente": "MARCUS TANAMACHI"
     },
     {
@@ -17598,11 +20476,19 @@ const RAIOX_INDUSTRIAS_DATA = {
       "gerente": "FERNANDO RISSON"
     },
     {
+      "rca": 521,
+      "estado": "SP",
+      "chave": "SP-521",
+      "nome": "SILVIO LIMA",
+      "supervisor": "ANDERSON CANAVEIS",
+      "gerente": "MARCUS TANAMACHI"
+    },
+    {
       "rca": 461,
       "estado": "SP",
       "chave": "SP-461",
       "nome": "SUELY SANTOS",
-      "supervisor": "MARCUS TANAMACHI",
+      "supervisor": "ANDERSON CANAVEIS",
       "gerente": "MARCUS TANAMACHI"
     },
     {
@@ -17620,14 +20506,6 @@ const RAIOX_INDUSTRIAS_DATA = {
       "nome": "TIAGO SILVA",
       "supervisor": "SUPERVISOR HIBRIDO ES",
       "gerente": "EROCLES OLIVEIRA"
-    },
-    {
-      "rca": 480,
-      "estado": "SP",
-      "chave": "SP-480",
-      "nome": "VITORIA VIEIRA",
-      "supervisor": "ANDERSON CANAVEIS",
-      "gerente": "MARCUS TANAMACHI"
     },
     {
       "rca": 91,
