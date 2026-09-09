@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <script src="auth.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Oportunidades de Vendas (Maps)</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --bg: #0f1117; --card: #1a1d27; --card2: #22263a;
+      --accent: #f5c518; --blue: #3b82f6; --text: #e2e8f0;
+      --muted: #94a3b8; --border: #2d3144; --green: #22c55e;
+      --red: #ef4444; --orange: #f97316;
+    }
+    body {
+      background: var(--bg); color: var(--text);
+      font-family: 'Segoe UI', system-ui, sans-serif;
+      min-height: 100vh; padding: 16px;
+    }
+    header {
+      display: flex; align-items: center; justify-content: space-between;
+      margin-bottom: 20px; padding-bottom: 16px;
+      border-bottom: 1px solid var(--border); gap: 12px; flex-wrap: wrap;
+    }
+    header h1 { font-size: 1.1rem; font-weight: 700; color: var(--accent); }
+    header p  { font-size: .8rem; color: var(--muted); margin-top: 3px; }
+
+    .aviso {
+      background: var(--card); border: 1px solid var(--border); border-left: 4px solid var(--orange);
+      border-radius: 10px; padding: 12px 16px; margin-bottom: 16px; font-size: .82rem; color: var(--muted);
+    }
+    .aviso strong { color: var(--text); }
+
+    .controls {
+      display: flex; gap: 10px; flex-wrap: wrap; align-items: center;
+      margin-bottom: 16px; background: var(--card); border: 1px solid var(--border);
+      border-radius: 10px; padding: 14px;
+    }
+    input[type=text] {
+      background: var(--card2); border: 1px solid var(--border);
+      color: var(--text); border-radius: 8px; padding: 8px 12px;
+      font-size: .88rem; outline: none; font-family: inherit; min-width: 220px;
+    }
+    .categorias { display: flex; gap: 12px; flex-wrap: wrap; font-size: .82rem; color: var(--muted); }
+    .categorias label { display: flex; align-items: center; gap: 5px; cursor: pointer; }
+    button#btn-buscar {
+      background: var(--accent); color: #1a1d27; border: none; border-radius: 8px;
+      padding: 9px 20px; font-size: .88rem; font-weight: 700; cursor: pointer;
+    }
+    button#btn-buscar:hover { filter: brightness(1.08); }
+    button#btn-buscar:disabled { opacity: .5; cursor: default; }
+
+    .kpis { display: flex; gap: 12px; flex-wrap: wrap; margin-bottom: 16px; }
+    .kpi {
+      background: var(--card); border: 1px solid var(--border); border-radius: 10px;
+      padding: 14px 18px; flex: 1; min-width: 160px;
+    }
+    .kpi .label {
+      font-size: .65rem; text-transform: uppercase; letter-spacing: .08em;
+      color: var(--muted); margin-bottom: 6px;
+    }
+    .kpi .val { font-size: 1.25rem; font-weight: 800; }
+
+    .table-wrap { overflow-x: auto; border-radius: 10px; border: 1px solid var(--border); }
+    table { width: 100%; border-collapse: collapse; font-size: .85rem; }
+    thead th {
+      background: var(--card2); padding: 10px 12px; text-align: left;
+      font-size: .72rem; text-transform: uppercase; letter-spacing: .05em;
+      color: var(--muted); border-bottom: 1px solid var(--border); white-space: nowrap;
+    }
+    tbody tr { border-bottom: 1px solid var(--border); }
+    tbody tr:hover { background: var(--card2); }
+    tbody td { padding: 10px 12px; vertical-align: middle; }
+    .muted { color: var(--muted); }
+    .status-badge { display: inline-block; border-radius: 20px; padding: 2px 10px; font-size: .74rem; font-weight: 700; white-space: nowrap; }
+    .status-oportunidade    { background: rgba(59,130,246,.15); color: var(--blue); }
+    .status-possivel_cliente { background: rgba(34,197,94,.15); color: var(--green); }
+    .empty { text-align: center; padding: 48px; color: var(--muted); font-size: .9rem; }
+    .loading { text-align: center; padding: 48px; color: var(--muted); font-size: .9rem; }
+  </style>
+</head>
+<body>
+
+<header>
+  <div>
+    <h1>📍 OPORTUNIDADES DE VENDAS (MAPS)</h1>
+    <p>Busca estabelecimentos numa cidade (OpenStreetMap) e confere se já são clientes cadastrados</p>
+  </div>
+  <a href="index.html" style="color:var(--muted);font-size:.8rem;text-decoration:none">← Painel</a>
+</header>
+
+<div class="aviso">
+  <strong>Como ler isto:</strong> a lista de estabelecimentos vem do OpenStreetMap (gratuito) — não é tão completa
+  quanto o Google Maps, principalmente fora de bairros centrais. A conferência de "já é cliente?" é por
+  <strong>nome parecido</strong>, não por CNPJ (o Maps não fornece CNPJ) — confira sempre antes de descartar um "possível cliente"
+  ou de abordar uma "oportunidade" como se fosse 100% nova.
+</div>
+
+<div class="controls">
+  <input type="text" id="in-cidade" placeholder="Cidade (ex: Niterói, RJ)">
+  <div class="categorias" id="categorias">
+    <label><input type="checkbox" value="bar" checked> Bar/Pub</label>
+    <label><input type="checkbox" value="restaurante" checked> Restaurante</label>
+    <label><input type="checkbox" value="casa_noturna"> Casa noturna</label>
+    <label><input type="checkbox" value="hotel"> Hotel</label>
+    <label><input type="checkbox" value="adega"> Adega/Loja de bebidas</label>
+    <label><input type="checkbox" value="mercado"> Mercado</label>
+  </div>
+  <button id="btn-buscar" onclick="buscar()">Buscar</button>
+</div>
+
+<div class="kpis" id="kpis" style="display:none"></div>
+
+<div id="resultado-wrap"></div>
+
+<script>
+const API_BASE = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+  ? 'http://localhost:5060/api/oportunidades-maps'
+  : '/api/oportunidades-maps';
+
+function _esc(s) {
+  return String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+}
+
+function _statusLabel(r) {
+  if (r.status === 'possivel_cliente') {
+    return `<span class="status-badge status-possivel_cliente">Possível cliente</span>`;
+  }
+  return `<span class="status-badge status-oportunidade">Oportunidade</span>`;
+}
+
+async function buscar() {
+  const cidade = document.getElementById('in-cidade').value.trim();
+  const wrap = document.getElementById('resultado-wrap');
+  const kpis = document.getElementById('kpis');
+  const btn = document.getElementById('btn-buscar');
+  if (!cidade) {
+    wrap.innerHTML = `<div class="empty">Digite uma cidade pra buscar.</div>`;
+    return;
+  }
+  const categorias = [...document.querySelectorAll('#categorias input:checked')].map(el => el.value);
+
+  btn.disabled = true;
+  kpis.style.display = 'none';
+  wrap.innerHTML = `<div class="loading">Buscando estabelecimentos em "${_esc(cidade)}"... (pode levar alguns segundos)</div>`;
+
+  try {
+    const url = `${API_BASE}/buscar?cidade=${encodeURIComponent(cidade)}&categorias=${categorias.join(',')}`;
+    const resp = await fetch(url);
+    const data = await resp.json();
+    if (!data.ok) {
+      wrap.innerHTML = `<div class="empty">${_esc(data.motivo || 'Falha na busca.')}</div>`;
+      return;
+    }
+    renderizar(data);
+  } catch (e) {
+    wrap.innerHTML = `<div class="empty">Falha ao consultar a API de oportunidades: ${_esc(String(e))}</div>`;
+  } finally {
+    btn.disabled = false;
+  }
+}
+
+function renderizar(data) {
+  const kpis = document.getElementById('kpis');
+  kpis.style.display = 'flex';
+  kpis.innerHTML = `
+    <div class="kpi"><div class="label">Encontrados</div><div class="val">${data.total}</div></div>
+    <div class="kpi"><div class="label">Oportunidades</div><div class="val" style="color:var(--blue)">${data.oportunidades}</div></div>
+    <div class="kpi"><div class="label">Possíveis clientes</div><div class="val" style="color:var(--green)">${data.possiveis_clientes}</div></div>
+  `;
+
+  const wrap = document.getElementById('resultado-wrap');
+  if (!data.resultados.length) {
+    wrap.innerHTML = `<div class="empty">Nada encontrado pra "${_esc(data.cidade)}" com essas categorias.</div>`;
+    return;
+  }
+
+  const linhas = data.resultados.map(r => `
+    <tr>
+      <td><strong>${_esc(r.nome)}</strong></td>
+      <td class="muted">${_esc(r.categoria)}</td>
+      <td class="muted">${_esc(r.endereco) || '—'}</td>
+      <td class="muted">${_esc(r.bairro) || '—'}</td>
+      <td class="muted">${_esc(r.telefone) || '—'}</td>
+      <td>${_statusLabel(r)}</td>
+      <td class="muted">${r.match ? _esc(r.match.fantasia) + ' (' + r.match.schema + ', score ' + r.match.score + ')' : '—'}</td>
+    </tr>
+  `).join('');
+
+  wrap.innerHTML = `
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>Nome</th><th>Categoria</th><th>Endereço</th><th>Bairro</th>
+            <th>Telefone</th><th>Status</th><th>Match no cadastro</th>
+          </tr>
+        </thead>
+        <tbody>${linhas}</tbody>
+      </table>
+    </div>
+  `;
+}
+
+document.getElementById('in-cidade').addEventListener('keydown', e => { if (e.key === 'Enter') buscar(); });
+</script>
+
+</body>
+</html>

@@ -57,6 +57,7 @@ PIPELINE_FILES = [
     "mercos_api.py",
     "metas_builder_api.py",
     "raiox_cliente_api.py",
+    "oportunidades_maps_api.py",
     "requirements.txt",
     "metas_config.json",
     "canhoto_status.json",

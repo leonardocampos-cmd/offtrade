@@ -421,6 +421,15 @@
         <div class="dash-desc">Há quanto tempo cada *_data.js foi atualizado — detecta etapa travada silenciosamente</div>
       </div>
     </a>
+    <!-- Experimental (09/09/2026): busca por OpenStreetMap, sem CNPJ — ainda
+         não fez o deploy da API na VPS, então só some pra todo mundo. -->
+    <a class="dash-card leonardo-only" href="oportunidades_maps.html" style="display:none">
+      <span class="dash-icon">📍</span>
+      <div>
+        <div class="dash-name">Oportunidades de Vendas (Maps)</div>
+        <div class="dash-desc">Busca PDVs por cidade (OpenStreetMap) e confere por nome se já são clientes cadastrados</div>
+      </div>
+    </a>
   </div>
   <script>
     if ((sessionStorage.getItem('rg_email') || '').toLowerCase() === 'leonardo.campos@rigarr.com.br') {
