@@ -1,5 +1,5 @@
 const ACAO_AMARULA_DATA = {
-  "atualizado_em": "31/08/2026 17:36",
+  "atualizado_em": "09/09/2026 15:35",
   "periodo": {
     "ini": "19/08/2026",
     "fim": "19/09/2026"
@@ -18,20 +18,20 @@ const ACAO_AMARULA_DATA = {
     200
   ],
   "total_vendedores": 25,
-  "total_volume": 20,
-  "total_faturamento": 1915.0,
+  "total_volume": 31,
+  "total_faturamento": 2948.9,
   "ranking": [
     {
       "vendedor": "ADEILSON GONÇALVEZ",
-      "volume": 12,
-      "faturamento": 1186.8,
+      "volume": 16,
+      "faturamento": 1582.4,
       "elegivel": false,
       "premio": null
     },
     {
       "vendedor": "JORGE MACIEL",
-      "volume": 6,
-      "faturamento": 539.4,
+      "volume": 12,
+      "faturamento": 1078.8,
       "elegivel": false,
       "premio": null
     },
@@ -46,6 +46,13 @@ const ACAO_AMARULA_DATA = {
       "vendedor": "DIOGO RAPOSO",
       "volume": 1,
       "faturamento": 89.9,
+      "elegivel": false,
+      "premio": null
+    },
+    {
+      "vendedor": "NÁTALI DE OLIVEIRA",
+      "volume": 1,
+      "faturamento": 98.9,
       "elegivel": false,
       "premio": null
     },
@@ -177,13 +184,6 @@ const ACAO_AMARULA_DATA = {
     },
     {
       "vendedor": "MAYCON COELHO FERRAZ",
-      "volume": 0,
-      "faturamento": 0.0,
-      "elegivel": false,
-      "premio": null
-    },
-    {
-      "vendedor": "NÁTALI DE OLIVEIRA",
       "volume": 0,
       "faturamento": 0.0,
       "elegivel": false,
