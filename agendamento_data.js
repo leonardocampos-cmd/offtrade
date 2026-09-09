@@ -27217,7 +27217,7 @@ const AGENDAMENTO_DATA = {
       ]
     }
   ],
-  "atualizado_em": "09/09/2026 13:42",
+  "atualizado_em": "09/09/2026 13:52",
   "comparativo": [
     {
       "msg_id": "1a086e8f2c9e73d5",
@@ -30655,8 +30655,8 @@ const AGENDAMENTO_DATA = {
       "bonificacao": false,
       "prazo": "28 DIAS",
       "obs": "ENTREGA AGENDADA: 08/09/2026 DESCARGA R$30,00 POR PALLET OU R$3,00 POR VOLUME",
-      "email_data_agendamento": "",
-      "email_observacoes": "",
+      "email_data_agendamento": "08/09/2026",
+      "email_observacoes": "descarga R$30,00 por pallet ou R$3,00 por volume, horário de 08 às 14:30",
       "itens": [
         {
           "cod_prod": "6259",
@@ -32792,7 +32792,7 @@ const AGENDAMENTO_DATA = {
       "fantasia": "MERCADO TURBO 1000",
       "bairro": "JACUTINGA",
       "cnpj": "088316220002-5",
-      "rca": "158 - JOSE MARCELO CARDOSO - OFF TRADE",
+      "rca": "379 - JORGE MACIEL - OFF TRADE",
       "bonificacao": false,
       "prazo": "",
       "obs": "",
@@ -32805,11 +32805,11 @@ const AGENDAMENTO_DATA = {
           "qt": 60,
           "preco": 35.9,
           "total": 2154.0,
-          "qt_faturada": 60.0,
-          "valor_faturado": 2154.0,
-          "status": "Faturado",
-          "nf": "7810",
-          "agendado": true
+          "qt_faturada": 0.0,
+          "valor_faturado": 0.0,
+          "status": "Pendente",
+          "nf": "",
+          "agendado": false
         }
       ]
     },
@@ -33627,7 +33627,7 @@ const AGENDAMENTO_DATA = {
       "fantasia": "SUPERMERCADOS MUNDIAL - INHAUMA",
       "bairro": "INHAUMA",
       "cnpj": "33.304.981/0001-10",
-      "rca": "158 - JOSE MARCELO CARDOSO - OFF TRADE",
+      "rca": "238 - DANIELLE MOURA - OFF TRADE",
       "bonificacao": false,
       "prazo": "35 DIAS",
       "obs": "nº pedido 315244",
@@ -33974,7 +33974,7 @@ const AGENDAMENTO_DATA = {
       "fantasia": "SUPERMERCADOS MUNDIAL - INHAUMA",
       "bairro": "INHAUMA",
       "cnpj": "33.304.981/0001-10",
-      "rca": "158 - JOSE MARCELO CARDOSO - OFF TRADE",
+      "rca": "238 - DANIELLE MOURA - OFF TRADE",
       "bonificacao": false,
       "prazo": "35 DIAS",
       "obs": "",
@@ -33987,11 +33987,11 @@ const AGENDAMENTO_DATA = {
           "qt": 12,
           "preco": 729,
           "total": 8748,
-          "qt_faturada": 12.0,
-          "valor_faturado": 8748.0,
-          "status": "Faturado",
-          "nf": "7784",
-          "agendado": true
+          "qt_faturada": 0.0,
+          "valor_faturado": 0.0,
+          "status": "Pendente",
+          "nf": "",
+          "agendado": false
         }
       ]
     },
@@ -34098,7 +34098,7 @@ const AGENDAMENTO_DATA = {
       "fantasia": "RIO SUL - PENHA CIRCULAR",
       "bairro": "PENHA CIRCULAR",
       "cnpj": "33.060.720/0001-00",
-      "rca": "158 - JOSE MARCELO CARDOSO - OFF TRADE",
+      "rca": "379 - JORGE MACIEL - OFF TRADE",
       "bonificacao": false,
       "prazo": "28 DIAS",
       "obs": "",
@@ -34111,11 +34111,11 @@ const AGENDAMENTO_DATA = {
           "qt": 120,
           "preco": 83.9,
           "total": 10068.0,
-          "qt_faturada": 108.0,
-          "valor_faturado": 9061.2,
-          "status": "Parcial",
-          "nf": "7731",
-          "agendado": true
+          "qt_faturada": 0.0,
+          "valor_faturado": 0.0,
+          "status": "Pendente",
+          "nf": "",
+          "agendado": false
         }
       ]
     },
@@ -35837,7 +35837,7 @@ const AGENDAMENTO_DATA = {
       "fantasia": "ANB DISTRIBUIDORA DE ALIMENTOS E BEBIDAS",
       "bairro": "BENFICA",
       "cnpj": "49.306.432/0001-14",
-      "rca": "158 - JOSE MARCELO CARDOSO - OFF TRADE",
+      "rca": "378 - FABIO VALOTTI - OFF TRADE",
       "bonificacao": false,
       "prazo": "28/35/42",
       "obs": "",
@@ -35862,11 +35862,11 @@ const AGENDAMENTO_DATA = {
           "qt": 24,
           "preco": 28.9,
           "total": 693.6,
-          "qt_faturada": 24.0,
-          "valor_faturado": 693.6,
-          "status": "Faturado",
-          "nf": "7084",
-          "agendado": true
+          "qt_faturada": 0.0,
+          "valor_faturado": 0.0,
+          "status": "Cortado",
+          "nf": "",
+          "agendado": false
         },
         {
           "cod_prod": "3760",
@@ -35874,11 +35874,11 @@ const AGENDAMENTO_DATA = {
           "qt": 24,
           "preco": 31.9,
           "total": 765.6,
-          "qt_faturada": 24.0,
-          "valor_faturado": 765.6,
+          "qt_faturada": 48.0,
+          "valor_faturado": 1531.2,
           "status": "Faturado",
-          "nf": "7084",
-          "agendado": true
+          "nf": "8224",
+          "agendado": false
         }
       ]
     },
@@ -36043,7 +36043,7 @@ const AGENDAMENTO_DATA = {
       "fantasia": "MERCADO BOM DEMAIS DE INHOAIBA LTDA",
       "bairro": "INHOAIBA",
       "cnpj": "28.423.501/0001-08",
-      "rca": "170 - CLAUDIO NOBREGA - OFF TRADE",
+      "rca": "419 - NÁTALI DE OLIVEIRA - OFF TRADE",
       "bonificacao": false,
       "prazo": "28 /35DIAS",
       "obs": "entregar de imediato",
@@ -36056,11 +36056,11 @@ const AGENDAMENTO_DATA = {
           "qt": 6,
           "preco": 29.9,
           "total": 179.4,
-          "qt_faturada": 0.0,
-          "valor_faturado": 0.0,
-          "status": "Pendente",
-          "nf": "",
-          "agendado": false
+          "qt_faturada": 6.0,
+          "valor_faturado": 179.4,
+          "status": "Faturado",
+          "nf": "7100",
+          "agendado": true
         },
         {
           "cod_prod": "4569",
@@ -36068,11 +36068,11 @@ const AGENDAMENTO_DATA = {
           "qt": 6,
           "preco": 29.9,
           "total": 179.4,
-          "qt_faturada": 0.0,
-          "valor_faturado": 0.0,
-          "status": "Pendente",
-          "nf": "",
-          "agendado": false
+          "qt_faturada": 6.0,
+          "valor_faturado": 179.4,
+          "status": "Faturado",
+          "nf": "7100",
+          "agendado": true
         },
         {
           "cod_prod": "2927",
@@ -36080,11 +36080,11 @@ const AGENDAMENTO_DATA = {
           "qt": 12,
           "preco": 31.99,
           "total": 383.88,
-          "qt_faturada": 0.0,
-          "valor_faturado": 0.0,
-          "status": "Pendente",
-          "nf": "",
-          "agendado": false
+          "qt_faturada": 12.0,
+          "valor_faturado": 383.88,
+          "status": "Faturado",
+          "nf": "7100",
+          "agendado": true
         },
         {
           "cod_prod": "2614",
@@ -36092,11 +36092,11 @@ const AGENDAMENTO_DATA = {
           "qt": 6,
           "preco": 24.9,
           "total": 149.4,
-          "qt_faturada": 0.0,
-          "valor_faturado": 0.0,
-          "status": "Pendente",
-          "nf": "",
-          "agendado": false
+          "qt_faturada": 6.0,
+          "valor_faturado": 149.4,
+          "status": "Faturado",
+          "nf": "7100",
+          "agendado": true
         },
         {
           "cod_prod": "2703",
@@ -36104,11 +36104,11 @@ const AGENDAMENTO_DATA = {
           "qt": 6,
           "preco": 24.9,
           "total": 149.4,
-          "qt_faturada": 0.0,
-          "valor_faturado": 0.0,
-          "status": "Pendente",
-          "nf": "",
-          "agendado": false
+          "qt_faturada": 6.0,
+          "valor_faturado": 149.4,
+          "status": "Faturado",
+          "nf": "7100",
+          "agendado": true
         },
         {
           "cod_prod": "4068",
@@ -36116,11 +36116,11 @@ const AGENDAMENTO_DATA = {
           "qt": 6,
           "preco": 24.9,
           "total": 149.4,
-          "qt_faturada": 0.0,
-          "valor_faturado": 0.0,
-          "status": "Pendente",
-          "nf": "",
-          "agendado": false
+          "qt_faturada": 6.0,
+          "valor_faturado": 149.4,
+          "status": "Faturado",
+          "nf": "7100",
+          "agendado": true
         }
       ]
     },
@@ -36678,7 +36678,7 @@ const AGENDAMENTO_DATA = {
       "fantasia": "EMPORIO GOURMET SHOW",
       "bairro": "BENFICA",
       "cnpj": "33.119.105/0001-13",
-      "rca": "158 - JOSE MARCELO CARDOSO - OFF TRADE",
+      "rca": "378 - FABIO VALOTTI - OFF TRADE",
       "bonificacao": false,
       "prazo": "28 DIAS",
       "obs": "",
@@ -36691,11 +36691,11 @@ const AGENDAMENTO_DATA = {
           "qt": 2,
           "preco": 69.9,
           "total": 139.8,
-          "qt_faturada": 2.0,
-          "valor_faturado": 139.8,
-          "status": "Faturado",
-          "nf": "7049",
-          "agendado": true
+          "qt_faturada": 0.0,
+          "valor_faturado": 0.0,
+          "status": "Pendente",
+          "nf": "",
+          "agendado": false
         },
         {
           "cod_prod": "3374",
@@ -36703,11 +36703,11 @@ const AGENDAMENTO_DATA = {
           "qt": 2,
           "preco": 117.9,
           "total": 235.8,
-          "qt_faturada": 2.0,
-          "valor_faturado": 235.8,
-          "status": "Faturado",
-          "nf": "7049",
-          "agendado": true
+          "qt_faturada": 0.0,
+          "valor_faturado": 0.0,
+          "status": "Pendente",
+          "nf": "",
+          "agendado": false
         },
         {
           "cod_prod": "3451",
@@ -36717,7 +36717,7 @@ const AGENDAMENTO_DATA = {
           "total": 699.9,
           "qt_faturada": 0.0,
           "valor_faturado": 0.0,
-          "status": "Cortado",
+          "status": "Pendente",
           "nf": "",
           "agendado": false
         },
@@ -36727,11 +36727,11 @@ const AGENDAMENTO_DATA = {
           "qt": 6,
           "preco": 22.5,
           "total": 135.0,
-          "qt_faturada": 6.0,
-          "valor_faturado": 135.0,
-          "status": "Faturado",
-          "nf": "7049",
-          "agendado": true
+          "qt_faturada": 0.0,
+          "valor_faturado": 0.0,
+          "status": "Pendente",
+          "nf": "",
+          "agendado": false
         },
         {
           "cod_prod": "445",
@@ -36739,11 +36739,11 @@ const AGENDAMENTO_DATA = {
           "qt": 2,
           "preco": 299.9,
           "total": 599.8,
-          "qt_faturada": 1.0,
-          "valor_faturado": 299.9,
-          "status": "Parcial",
-          "nf": "7049",
-          "agendado": true
+          "qt_faturada": 0.0,
+          "valor_faturado": 0.0,
+          "status": "Pendente",
+          "nf": "",
+          "agendado": false
         },
         {
           "cod_prod": "2332",
@@ -36751,11 +36751,11 @@ const AGENDAMENTO_DATA = {
           "qt": 2,
           "preco": 99.9,
           "total": 199.8,
-          "qt_faturada": 2.0,
-          "valor_faturado": 199.8,
-          "status": "Faturado",
-          "nf": "7049",
-          "agendado": true
+          "qt_faturada": 0.0,
+          "valor_faturado": 0.0,
+          "status": "Pendente",
+          "nf": "",
+          "agendado": false
         },
         {
           "cod_prod": "1526",
@@ -36763,11 +36763,11 @@ const AGENDAMENTO_DATA = {
           "qt": 2,
           "preco": 70.9,
           "total": 141.8,
-          "qt_faturada": 2.0,
-          "valor_faturado": 141.8,
-          "status": "Faturado",
-          "nf": "7049",
-          "agendado": true
+          "qt_faturada": 0.0,
+          "valor_faturado": 0.0,
+          "status": "Pendente",
+          "nf": "",
+          "agendado": false
         }
       ]
     },
@@ -36836,7 +36836,7 @@ const AGENDAMENTO_DATA = {
       "fantasia": "ANB DISTRIBUIDORA DE ALIMENTOS E BEBIDAS",
       "bairro": "BENFICA",
       "cnpj": "49.306.432/0001-14",
-      "rca": "158 - JOSE MARCELO CARDOSO - OFF TRADE",
+      "rca": "378 - FABIO VALOTTI - OFF TRADE",
       "bonificacao": false,
       "prazo": "28/35/42",
       "obs": "",
@@ -36849,11 +36849,11 @@ const AGENDAMENTO_DATA = {
           "qt": 12,
           "preco": 25.9,
           "total": 310.8,
-          "qt_faturada": 12.0,
-          "valor_faturado": 310.8,
-          "status": "Faturado",
-          "nf": "7050",
-          "agendado": true
+          "qt_faturada": 0.0,
+          "valor_faturado": 0.0,
+          "status": "Pendente",
+          "nf": "",
+          "agendado": false
         },
         {
           "cod_prod": "3383",
@@ -36861,11 +36861,11 @@ const AGENDAMENTO_DATA = {
           "qt": 24,
           "preco": 18.9,
           "total": 453.6,
-          "qt_faturada": 24.0,
-          "valor_faturado": 453.6,
-          "status": "Faturado",
-          "nf": "7050",
-          "agendado": true
+          "qt_faturada": 0.0,
+          "valor_faturado": 0.0,
+          "status": "Pendente",
+          "nf": "",
+          "agendado": false
         },
         {
           "cod_prod": "3352",
@@ -36875,7 +36875,7 @@ const AGENDAMENTO_DATA = {
           "total": 789.6,
           "qt_faturada": 0.0,
           "valor_faturado": 0.0,
-          "status": "Cortado",
+          "status": "Pendente",
           "nf": "",
           "agendado": false
         },
@@ -36885,11 +36885,11 @@ const AGENDAMENTO_DATA = {
           "qt": 12,
           "preco": 28.9,
           "total": 693.6,
-          "qt_faturada": 24.0,
-          "valor_faturado": 693.6,
-          "status": "Faturado",
-          "nf": "7084",
-          "agendado": true
+          "qt_faturada": 0.0,
+          "valor_faturado": 0.0,
+          "status": "Pendente",
+          "nf": "",
+          "agendado": false
         },
         {
           "cod_prod": "3761",
@@ -36897,11 +36897,11 @@ const AGENDAMENTO_DATA = {
           "qt": 96,
           "preco": 27.9,
           "total": 2678.4,
-          "qt_faturada": 96.0,
-          "valor_faturado": 2678.4,
-          "status": "Faturado",
-          "nf": "7050",
-          "agendado": true
+          "qt_faturada": 0.0,
+          "valor_faturado": 0.0,
+          "status": "Pendente",
+          "nf": "",
+          "agendado": false
         }
       ]
     },
@@ -39150,7 +39150,7 @@ const AGENDAMENTO_DATA = {
       "fantasia": "AGROCOMPEC MARTHI LTDA",
       "bairro": "SAMPAIO CORREIA (SAMPAIO CORREIA)",
       "cnpj": "37.657.925/0004-62",
-      "rca": "153 - ANGELO NEVES SUZART - OFF TRADE",
+      "rca": "155 - RAPHAEL SANTOS - OFF TRADE",
       "bonificacao": false,
       "prazo": "28",
       "obs": "entregar no dia 28/07 com pagamento de descarga no valor de R$60,00 por pallets e horario das 08:00 as 15:00h por ordem de chegada",
