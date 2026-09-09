@@ -579,6 +579,17 @@
     const ottoBalao = document.getElementById('otto-balao');
     const jaFechouOtto = localStorage.getItem('otto_dismissed') === '1';
 
+    // Depois de cumprimentar, Otto não fica parado no meio da tela pra
+    // sempre — vai pro lado direito e fica ali, fora do caminho do conteúdo
+    // (pedido do usuário em 09/09/2026).
+    let _ottoNoLado = false;
+    function ottoIrParaLado() {
+      if (_ottoNoLado) return;
+      _ottoNoLado = true;
+      const largura = ottoFixo.getBoundingClientRect().width;
+      ottoFixo.style.left = Math.round(window.innerWidth - largura - 24) + 'px';
+    }
+
     requestAnimationFrame(() => {
       const largura = ottoFixo.getBoundingClientRect().width;
       setTimeout(() => {
@@ -589,13 +600,19 @@
     ottoFixo.addEventListener('transitionend', function aoChegar(e) {
       if (e.propertyName !== 'left') return;
       ottoFixo.classList.add('otto-parado');
-      if (!jaFechouOtto) ottoBalao.classList.add('visivel');
+      if (!jaFechouOtto) {
+        ottoBalao.classList.add('visivel');
+        setTimeout(ottoIrParaLado, 4500);
+      } else {
+        ottoIrParaLado();
+      }
       ottoFixo.removeEventListener('transitionend', aoChegar);
     });
 
     document.getElementById('otto-fechar').addEventListener('click', () => {
       ottoBalao.classList.remove('visivel');
       localStorage.setItem('otto_dismissed', '1');
+      ottoIrParaLado();
     });
 
     // Clicar no Otto reabre o balão (mesmo depois de fechado) e foca a
