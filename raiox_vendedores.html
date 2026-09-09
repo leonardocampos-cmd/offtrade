@@ -87,13 +87,13 @@
     .btn-inativa:hover { border-color: var(--accent); color: var(--accent); }
     .btn-inativa:disabled { color: var(--muted); cursor: default; border-color: var(--border); }
     .modal-overlay {
-      position: fixed; inset: 0; background: rgba(0,0,0,.6); display: flex;
+      position: absolute; left: 0; right: 0; background: rgba(0,0,0,.6); display: flex;
       align-items: center; justify-content: center; z-index: 100; padding: 20px;
     }
     .modal-overlay[hidden] { display: none; }
     .modal-box {
       background: var(--card); border: 1px solid var(--border); border-radius: 14px;
-      max-width: 720px; width: 100%; max-height: 82vh; display: flex; flex-direction: column;
+      max-width: 720px; width: 100%; max-height: 80%; display: flex; flex-direction: column;
     }
     .modal-header {
       display: flex; justify-content: space-between; align-items: baseline;
@@ -283,6 +283,26 @@
       return String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
     }
 
+    // Esta página roda dentro de um <iframe> em raiox.html que se redimensiona
+    // pra caber todo o conteúdo (sem scroll próprio) — por isso o "viewport"
+    // deste documento é a altura inteira da página, não só a parte visível.
+    // position:fixed centralizava o modal no meio de TODO o conteúdo (lá
+    // embaixo, fora da tela — bug reportado pelo usuário em 09/09/2026).
+    // Corrige lendo o scroll/altura reais da janela pai (mesma origem) e
+    // posicionando o overlay ali; fora do iframe (window.parent === window)
+    // cai no próprio scroll/altura, que já é o correto.
+    function _posicionarOverlay(overlay) {
+      let scrollY = window.scrollY, viewportH = window.innerHeight;
+      try {
+        if (window.parent && window.parent !== window) {
+          scrollY = window.parent.scrollY;
+          viewportH = window.parent.innerHeight;
+        }
+      } catch (e) { /* cross-origin — usa os valores do próprio documento */ }
+      overlay.style.top = scrollY + 'px';
+      overlay.style.height = viewportH + 'px';
+    }
+
     function abrirModalInativa(chave) {
       const v = todosVendedores().find(x => x.chave === chave);
       if (!v) return;
@@ -296,7 +316,9 @@
           <td><span class="status-badge ${_esc(c.status)}">${_esc(c.status_label)}</span></td>
         </tr>
       `).join('') || '<tr><td colspan="3" style="color:var(--muted)">Nenhum cliente.</td></tr>';
-      document.getElementById('modal-inativa').hidden = false;
+      const overlay = document.getElementById('modal-inativa');
+      _posicionarOverlay(overlay);
+      overlay.hidden = false;
     }
 
     function fecharModalInativa() {
