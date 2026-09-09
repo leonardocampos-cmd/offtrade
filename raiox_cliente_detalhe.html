@@ -272,14 +272,37 @@
       if (!e.target.closest('.busca-wrap')) document.getElementById('sugestoes').classList.remove('aberto');
     });
 
-    function selecionarCliente(chave) {
-      const c = data.clientes.find(x => x.chave === chave);
-      if (!c) return;
+    async function selecionarCliente(chave) {
+      let c = data.clientes.find(x => x.chave === chave);
+      if (!c) {
+        // Cliente fora do lote (ex: RCA 10/200 — Inativo/Novos Clientes, que
+        // não entram no arquivo em lote pra não estourar o tamanho — achado
+        // em 09/09/2026: RCA 10 sozinho tem ~86 mil clientes acumulados).
+        // Busca sob demanda na API (raiox_cliente_api.py).
+        document.getElementById('conteudo').innerHTML = '<div class="sem-selecao">Buscando cliente…</div>';
+        try {
+          const resp = await fetch(`/api/raiox-cliente/detalhe?chave=${encodeURIComponent(chave)}`);
+          const json = await resp.json();
+          if (!resp.ok || !json.ok) {
+            document.getElementById('conteudo').innerHTML =
+              `<div class="sem-selecao">Cliente não encontrado (${_esc(json.motivo || chave)}).</div>`;
+            return;
+          }
+          c = json.cliente;
+        } catch (e) {
+          document.getElementById('conteudo').innerHTML = '<div class="sem-selecao">Falha ao buscar o cliente — tente de novo.</div>';
+          return;
+        }
+      }
       clienteAtual = c;
       document.getElementById('busca').value = c.nome;
       document.getElementById('sugestoes').classList.remove('aberto');
       history.replaceState(null, '', `?chave=${encodeURIComponent(chave)}${ramoFiltro ? '&ramo=' + encodeURIComponent(ramoFiltro) : ''}`);
       renderFicha(c);
+    }
+
+    function _esc(s) {
+      return String(s ?? '').replace(/[&<>"']/g, ch => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[ch]));
     }
 
     function renderFicha(c) {
