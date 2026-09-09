@@ -39,9 +39,24 @@ PAGINAS_MANUAIS = {
     "catalogo_data.js", "amarula_data.js", "clientes_inativos_nome_data.js",
 }
 
+#
+# Lista replicada de deploy_static_vps.py::EXCLUDE_JS (esses são os arquivos
+# que a própria VPS auto-publica direto em /opt/offtrade-static, com cron
+# próprio de 5-60min, fora do ciclo horário do main.py local) — as duas
+# listas viviam desalinhadas: quando um arquivo entrava em EXCLUDE_JS lá,
+# ninguém lembrava de espelhar aqui, e a cópia local (congelada pra sempre,
+# igual a comentários dela em EXCLUDE_JS explicam) aparecia "Crítico" à toa
+# no status_paginas.html/index.html (achado do usuário em 09/09/2026:
+# "Pedidos Bloqueados" mostrava 9d parado no card do index, mas a página
+# de verdade tinha acabado de atualizar — pedidos_bloqueados_data.js nunca
+# tinha entrado nesta lista, só na de lá).
 PAGINAS_VPS_ONLY = {
     "metas_data.js", "vendas_data.js", "vendas_es_data.js",
     "vendas_mg_data.js", "vendas_sp_data.js", "fontes_status_data.js",
+    "promotoria_data.js", "estoque_movimentacao_data.js",
+    "pedidos_bloqueados_data.js", "agendamento_data.js",
+    "pedidos_data.js", "comissao_data.js",
+    "pedidos_mercos_data.js", "estoque_mercos_data.js",
 }
 if os.getenv("OFFTRADE_RUNTIME", "local") != "vps":
     PAGINAS_MANUAIS = PAGINAS_MANUAIS | PAGINAS_VPS_ONLY
