@@ -679,6 +679,67 @@ def _construir_comparativo(cache: dict) -> list:
     if duplicatas_removidas:
         print(f"  [DEDUPE] {duplicatas_removidas} bloco(s) duplicado(s) por resposta na mesma thread — removido(s) do comparativo.")
 
+    # 2ª passada: mesmo pedido chegando em e-mails com ASSUNTOS DIFERENTES e
+    # sem thread_id — casos de antes de 2026-09-03 (quando thread_id passou a
+    # ser capturado), onde nem thread_id nem assunto normalizado conseguem
+    # agrupar. Agrupa por (data do e-mail, cod_cliente) e funde quando pelo
+    # menos 70% dos produtos batem (só o código, não a quantidade — a
+    # extração por IA às vezes lê um número ligeiramente diferente ao
+    # reprocessar a mesma imagem). Não junta clientes diferentes nem dias
+    # diferentes — mesmo cuidado do comentário acima (risco real já visto:
+    # 2 pedidos DIFERENTES do cliente 96005 em dias diferentes fundidos por
+    # engano). Achado em 2026-09-09: pedido da rede PADRÃO DO FONSECA
+    # (8 lojas) chegou em 3 e-mails no mesmo dia (02/09) com assuntos
+    # completamente diferentes ("PEDIDOS ME MOVING...", "pedido crc4...",
+    # "Re: pedido crc4..."), nenhum com thread_id — aparecia 3x no comparativo.
+    def _itens_codprod(bloco):
+        return {str(i.get('cod_prod', '')).strip() for i in bloco.get('itens', []) if str(i.get('cod_prod', '')).strip()}
+
+    def _overlap_alto(bloco_a, bloco_b, limiar=0.7):
+        itens_a, itens_b = _itens_codprod(bloco_a), _itens_codprod(bloco_b)
+        if not itens_a or not itens_b:
+            return False
+        return len(itens_a & itens_b) / min(len(itens_a), len(itens_b)) >= limiar
+
+    buckets: dict = {}
+    sem_bucket = []
+    for entrada in entradas:
+        _, msg, bloco = entrada
+        cod_cli = str(bloco.get('cod_cliente', '')).strip()
+        data_email = msg.get('data_email', '')
+        if not cod_cli.isdigit() or not data_email:
+            sem_bucket.append(entrada)
+            continue
+        buckets.setdefault((data_email, cod_cli), []).append(entrada)
+
+    entradas_final = list(sem_bucket)
+    duplicatas_conteudo = 0
+    for itens_bucket in buckets.values():
+        if len(itens_bucket) == 1:
+            entradas_final.extend(itens_bucket)
+            continue
+        mantidos = []
+        for entrada in itens_bucket:
+            _, msg, bloco = entrada
+            achou = False
+            for i, (msg_id_m, msg_m, bloco_m) in enumerate(mantidos):
+                if _overlap_alto(bloco, bloco_m):
+                    agendamento = msg_m.get('email_data_agendamento', '') or msg.get('email_data_agendamento', '')
+                    observacoes = msg_m.get('email_observacoes', '') or msg.get('email_observacoes', '')
+                    if agendamento != msg_m.get('email_data_agendamento', '') or observacoes != msg_m.get('email_observacoes', ''):
+                        msg_m = {**msg_m, 'email_data_agendamento': agendamento, 'email_observacoes': observacoes}
+                        mantidos[i] = (msg_id_m, msg_m, bloco_m)
+                    duplicatas_conteudo += 1
+                    achou = True
+                    break
+            if not achou:
+                mantidos.append(entrada)
+        entradas_final.extend(mantidos)
+    entradas = entradas_final
+
+    if duplicatas_conteudo:
+        print(f"  [DEDUPE] {duplicatas_conteudo} bloco(s) duplicado(s) por conteúdo (mesmo cliente/dia, e-mails diferentes) — removido(s) do comparativo.")
+
     resultado = []
     for msg_id, msg, bloco in entradas:
             cod_cli_raw = str(bloco.get('cod_cliente', '')).strip()
