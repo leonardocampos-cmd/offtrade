@@ -103,62 +103,90 @@
 
     footer { text-align:center; margin-top:32px; padding-top:16px; border-top:1px solid var(--border); color:var(--muted); font-size:.72rem; }
 
-    /* ── Assistente ──────────────────────────────────────────── */
-    .assistant-box {
-      display:flex; align-items:flex-start; gap:14px;
-      background:var(--card); border:1px solid var(--border); border-left:4px solid var(--accent);
-      border-radius:12px; padding:16px 18px; margin-bottom:28px; position:relative;
-    }
-    /* Otto, o mascote (garrafa) — anda pela parte de baixo da página o
-       tempo todo. pointer-events:none pra nunca atrapalhar clique em nada
-       por baixo dele. */
-    .mascote-andando {
-      position:fixed; bottom:0; left:-160px; z-index:50; pointer-events:none;
-      animation:mascote-caminhar 26s linear infinite;
-    }
-    .mascote-corpo {
-      display:block; transform-box:fill-box; transform-origin:50% 100%;
-      animation:mascote-balanco .6s ease-in-out infinite;
-    }
-    .mascote-svg { width:110px; height:auto; display:block; filter:drop-shadow(0 8px 10px rgba(0,0,0,.4)); }
-    .mascote-braco-d { transform-box:view-box; transform-origin:90px 82px; animation:mascote-acenar 1s ease-in-out infinite; }
-    .mascote-perna-e { transform-box:fill-box; transform-origin:50% 0%; animation:mascote-perna-e .6s ease-in-out infinite; }
-    .mascote-perna-d { transform-box:fill-box; transform-origin:50% 0%; animation:mascote-perna-d .6s ease-in-out infinite; }
-    @keyframes mascote-caminhar {
-      0%   { left:-160px; }
-      100% { left:calc(100% + 160px); }
-    }
-    @keyframes mascote-balanco {
-      0%, 100% { transform:rotate(-3deg) translateY(0); }
-      50%      { transform:rotate(3deg) translateY(-6px); }
-    }
-    @keyframes mascote-acenar {
-      0%, 100% { transform:rotate(-6deg); }
-      50%      { transform:rotate(-32deg); }
-    }
-    @keyframes mascote-perna-e {
-      0%, 100% { transform:rotate(20deg); }
-      50%      { transform:rotate(-20deg); }
-    }
-    @keyframes mascote-perna-d {
-      0%, 100% { transform:rotate(-20deg); }
-      50%      { transform:rotate(20deg); }
-    }
     .dash-subgroup-title {
       font-size:.68rem; text-transform:uppercase; letter-spacing:.08em; color:var(--muted);
       margin:20px 0 10px; display:flex; align-items:center; gap:6px;
     }
     .dash-subgroup-title:first-of-type { margin-top:0; }
-    .assistant-bubble { flex:1; }
-    .assistant-greeting { font-size:1rem; font-weight:800; color:var(--accent); margin-bottom:4px; }
-    .assistant-text { font-size:.8rem; color:var(--text); line-height:1.6; }
-    .assistant-text strong { color:var(--accent); font-weight:700; }
-    .assistant-close {
-      position:absolute; top:10px; right:12px; background:none; border:none; cursor:pointer;
+
+    /* ── Otto, o mascote (garrafa) ───────────────────────────────
+       Entra andando da esquerda, para no meio da tela e mostra o balão de
+       fala com a saudação. pointer-events:none no wrapper pra nunca
+       atrapalhar clique em nada por baixo — só o balão (quando visível)
+       reativa pointer-events pro botão de fechar. */
+    .otto-fixo {
+      position:fixed; bottom:0; left:-160px; z-index:50; pointer-events:none;
+      transition:left 3s cubic-bezier(.4,0,.2,1);
+    }
+    .otto-corpo {
+      display:block; transform-box:fill-box; transform-origin:50% 100%;
+      animation:otto-balanco .6s ease-in-out infinite;
+      pointer-events:auto; cursor:pointer;
+    }
+    .otto-svg { width:120px; height:auto; display:block; filter:drop-shadow(0 8px 10px rgba(0,0,0,.4)); }
+    .otto-braco-d { transform-box:view-box; transform-origin:90px 82px; animation:otto-acenar 1s ease-in-out infinite; }
+    .otto-perna-e { transform-box:fill-box; transform-origin:50% 0%; animation:otto-perna-e .5s ease-in-out infinite; }
+    .otto-perna-d { transform-box:fill-box; transform-origin:50% 0%; animation:otto-perna-d .5s ease-in-out infinite; }
+    .otto-fixo.otto-parado .otto-perna-e,
+    .otto-fixo.otto-parado .otto-perna-d { animation:none; transform:rotate(0deg); }
+    @keyframes otto-balanco {
+      0%, 100% { transform:rotate(-3deg) translateY(0); }
+      50%      { transform:rotate(3deg) translateY(-6px); }
+    }
+    @keyframes otto-acenar {
+      0%, 100% { transform:rotate(-6deg); }
+      50%      { transform:rotate(-32deg); }
+    }
+    @keyframes otto-perna-e {
+      0%, 100% { transform:rotate(20deg); }
+      50%      { transform:rotate(-20deg); }
+    }
+    @keyframes otto-perna-d {
+      0%, 100% { transform:rotate(-20deg); }
+      50%      { transform:rotate(20deg); }
+    }
+
+    .otto-balao {
+      position:absolute; bottom:100%; left:50%; margin-bottom:16px; width:300px; max-width:82vw;
+      background:var(--card); border:1px solid var(--border); border-left:4px solid var(--accent);
+      border-radius:12px; padding:14px 30px 14px 16px;
+      opacity:0; transform:translateX(-50%) translateY(10px) scale(.92);
+      transition:opacity .3s ease, transform .3s ease; pointer-events:none;
+    }
+    .otto-balao.visivel { opacity:1; transform:translateX(-50%) translateY(0) scale(1); pointer-events:auto; }
+    .otto-balao::after {
+      content:''; position:absolute; top:100%; left:50%; transform:translateX(-50%);
+      border:9px solid transparent; border-top-color:var(--card);
+    }
+    .otto-saudacao { font-size:1rem; font-weight:800; color:var(--accent); margin-bottom:4px; }
+    .otto-texto { font-size:.8rem; color:var(--text); line-height:1.6; }
+    .otto-texto strong { color:var(--accent); font-weight:700; }
+    .otto-fechar {
+      position:absolute; top:8px; right:10px; background:none; border:none; cursor:pointer;
       color:var(--muted); font-size:1.1rem; line-height:1; padding:2px 6px; border-radius:6px;
       transition:color .15s, background .15s;
     }
-    .assistant-close:hover { color:var(--text); background:var(--card2); }
+    .otto-fechar:hover { color:var(--text); background:var(--card2); }
+    .otto-pergunta-wrap { display:flex; gap:6px; margin-top:12px; }
+    .otto-pergunta-input {
+      flex:1; min-width:0; padding:8px 10px; border-radius:8px; border:1px solid var(--border);
+      background:var(--bg); color:var(--text); font-size:.78rem; outline:none; font-family:inherit;
+    }
+    .otto-pergunta-input:focus { border-color:var(--accent); }
+    .otto-pergunta-btn {
+      background:var(--accent); color:#1a1207; border:none; border-radius:8px; padding:0 12px;
+      font-size:.8rem; font-weight:800; cursor:pointer; flex-shrink:0;
+    }
+    .otto-pergunta-btn:hover { filter:brightness(1.08); }
+    .otto-resultados { margin-top:10px; display:flex; flex-direction:column; gap:6px; }
+    .otto-resultado-link {
+      display:block; font-size:.78rem; color:var(--text); text-decoration:none;
+      background:var(--card2); border:1px solid var(--border); border-radius:8px; padding:7px 10px;
+      transition:border-color .15s;
+    }
+    .otto-resultado-link:hover { border-color:var(--accent); }
+    .otto-resultado-link strong { color:var(--accent); }
+    .otto-sem-resultado { font-size:.76rem; color:var(--muted); margin-top:8px; }
   </style>
 </head>
 <body>
@@ -170,18 +198,6 @@
     </div>
     <div class="header-date" id="today"></div>
   </header>
-
-  <!-- Assistente / saudação -->
-  <div class="assistant-box" id="assistant-box">
-    <div class="assistant-bubble">
-      <div class="assistant-greeting" id="assistant-greeting">Olá!</div>
-      <div class="assistant-text">
-        Aqui você encontra seus <strong>objetivos</strong>, <strong>entregas</strong>, <strong>base de clientes</strong> e <strong>campanhas ativas</strong> &mdash; tudo em um só lugar.
-        Use os cartões de <strong>Dashboards</strong> abaixo pra acompanhar seus números, e os de <strong>Campanhas</strong> pra ver o ranking e os prêmios em disputa.
-      </div>
-    </div>
-    <button class="assistant-close" id="assistant-close" title="Fechar" type="button">&times;</button>
-  </div>
 
   <!-- Dashboards -->
   <div class="section-title">Dashboards</div>
@@ -485,16 +501,29 @@
 
   <footer>Dashboard Comercial &middot; OfftradeHub &middot; Off Trade + On Trade</footer>
 
-  <!-- Otto, o mascote — anda pela parte de baixo da página o tempo todo -->
-  <div class="mascote-andando" aria-hidden="true">
-    <div class="mascote-corpo">
-      <svg class="mascote-svg" viewBox="0 0 120 176" xmlns="http://www.w3.org/2000/svg">
+  <!-- Otto, o mascote — entra andando, para no meio da tela e dá um oi -->
+  <div class="otto-fixo" id="otto-fixo">
+    <div class="otto-balao" id="otto-balao">
+      <button class="otto-fechar" id="otto-fechar" title="Fechar" type="button">&times;</button>
+      <div class="otto-saudacao" id="otto-saudacao">Olá!</div>
+      <div class="otto-texto">
+        Sou o <strong>Otto</strong>! Aqui você encontra seus <strong>objetivos</strong>, <strong>entregas</strong>, <strong>base de clientes</strong> e <strong>campanhas ativas</strong> &mdash; tudo em um só lugar.
+        Se precisar de ajuda pra achar algo, é só me perguntar (ex: "vendas do Rio") ou clicar nos cartões abaixo.
+      </div>
+      <div class="otto-pergunta-wrap">
+        <input class="otto-pergunta-input" id="otto-pergunta-input" type="text" placeholder="Ex: vendas do Rio, estoque SP...">
+        <button class="otto-pergunta-btn" id="otto-pergunta-btn" type="button">Ir</button>
+      </div>
+      <div class="otto-resultados" id="otto-resultados"></div>
+    </div>
+    <div class="otto-corpo" aria-hidden="true">
+      <svg class="otto-svg" viewBox="0 0 120 176" xmlns="http://www.w3.org/2000/svg">
         <title>Otto</title>
-        <g class="mascote-perna-e">
+        <g class="otto-perna-e">
           <rect x="38" y="140" width="15" height="28" rx="7" fill="#22263a" stroke="#2d3144" stroke-width="2"/>
           <ellipse cx="45.5" cy="170" rx="10" ry="5" fill="#12141c"/>
         </g>
-        <g class="mascote-perna-d">
+        <g class="otto-perna-d">
           <rect x="67" y="140" width="15" height="28" rx="7" fill="#22263a" stroke="#2d3144" stroke-width="2"/>
           <ellipse cx="74.5" cy="170" rx="10" ry="5" fill="#12141c"/>
         </g>
@@ -514,7 +543,7 @@
         <circle cx="74" cy="107" r="3.6" fill="#f5a08c" opacity=".55"/>
         <path d="M49,109 Q60,118 71,109" stroke="#1a1d27" stroke-width="2.6" fill="none" stroke-linecap="round"/>
 
-        <g class="mascote-braco-d">
+        <g class="otto-braco-d">
           <path d="M88,82 C100,74 108,60 110,48" stroke="#1a1d27" stroke-width="10" stroke-linecap="round" fill="none"/>
           <circle cx="110" cy="48" r="7.5" fill="#f5c518"/>
         </g>
@@ -531,16 +560,114 @@
     const _email = sessionStorage.getItem('rg_email') || '';
     const _primeiroNome = _email ? _email.split('@')[0].split('.')[0] : '';
     const _nome = _primeiroNome ? _primeiroNome.charAt(0).toUpperCase() + _primeiroNome.slice(1) : '';
-    document.getElementById('assistant-greeting').textContent = _nome ? `${saudacao}, ${_nome}!` : `${saudacao}!`;
+    document.getElementById('otto-saudacao').textContent = _nome ? `${saudacao}, ${_nome}!` : `${saudacao}!`;
 
-    const assistantBox = document.getElementById('assistant-box');
-    if (localStorage.getItem('assistant_dismissed') === '1') {
-      assistantBox.style.display = 'none';
-    }
-    document.getElementById('assistant-close').addEventListener('click', () => {
-      assistantBox.style.display = 'none';
-      localStorage.setItem('assistant_dismissed', '1');
+    // Otto anda da esquerda até o meio da tela (transição de "left" em
+    // pixels, não % + transform — mistura de left animado com transform
+    // instantâneo dava um "pulo" visual no meio do trajeto), para lá, e só
+    // então mostra o balão (se o usuário já não tiver fechado antes).
+    const ottoFixo = document.getElementById('otto-fixo');
+    const ottoBalao = document.getElementById('otto-balao');
+    const jaFechouOtto = localStorage.getItem('otto_dismissed') === '1';
+
+    requestAnimationFrame(() => {
+      const largura = ottoFixo.getBoundingClientRect().width;
+      setTimeout(() => {
+        ottoFixo.style.left = Math.round((window.innerWidth - largura) / 2) + 'px';
+      }, 300);
     });
+
+    ottoFixo.addEventListener('transitionend', function aoChegar(e) {
+      if (e.propertyName !== 'left') return;
+      ottoFixo.classList.add('otto-parado');
+      if (!jaFechouOtto) ottoBalao.classList.add('visivel');
+      ottoFixo.removeEventListener('transitionend', aoChegar);
+    });
+
+    document.getElementById('otto-fechar').addEventListener('click', () => {
+      ottoBalao.classList.remove('visivel');
+      localStorage.setItem('otto_dismissed', '1');
+    });
+
+    // Clicar no Otto reabre o balão (mesmo depois de fechado) e foca a
+    // pergunta — o "botão de ajuda" pedido pelo usuário em 09/09/2026.
+    document.querySelector('.otto-corpo').addEventListener('click', () => {
+      ottoBalao.classList.toggle('visivel');
+      if (ottoBalao.classList.contains('visivel')) {
+        document.getElementById('otto-pergunta-input').focus();
+      }
+    });
+
+    // Busca por palavra-chave nos cartões de Dashboards/Campanhas — 100%
+    // no navegador, sem custo de API. Entende sigla de estado por apelido
+    // comum ("Rio" -> RJ, "paulista" -> SP etc) antes de comparar.
+    function _ottoNormalizar(s) {
+      return (s || '').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+    }
+    const OTTO_SINONIMOS = [
+      [/\brio de janeiro\b|\brio\b|\bcarioca\b|\bfluminense\b/g, 'rj'],
+      [/\bsao paulo\b|\bpaulista\b/g, 'sp'],
+      [/\bespirito santo\b|\bcapixaba\b/g, 'es'],
+      [/\bminas gerais\b|\bminas\b|\bmineiro\b/g, 'mg'],
+    ];
+    const OTTO_STOPWORDS = new Set(['de','do','da','das','dos','o','a','os','as','um','uma','pra','para','no','na','em','como','posso','poder','quero','ver','ir','ao','e','minha','meu']);
+
+    function _ottoTokenizar(q) {
+      let s = _ottoNormalizar(q);
+      OTTO_SINONIMOS.forEach(([re, rep]) => { s = s.replace(re, rep); });
+      return s.split(/[^a-z0-9]+/).filter(t => t && !OTTO_STOPWORDS.has(t));
+    }
+
+    function _ottoIndice() {
+      return [...document.querySelectorAll('a.dash-card, a.camp-card')]
+        .filter(c => c.style.display !== 'none')
+        .map(c => {
+          const nomeEl = c.querySelector('.dash-name, .camp-name');
+          const descEls = [...c.querySelectorAll('.dash-desc, .camp-scope, .camp-premios-list')];
+          return {
+            href: c.getAttribute('href'),
+            target: c.getAttribute('target') || '',
+            nomeOriginal: (nomeEl ? nomeEl.textContent : '').trim(),
+            nome: _ottoNormalizar(nomeEl ? nomeEl.textContent : ''),
+            desc: _ottoNormalizar(descEls.map(e => e.textContent).join(' ')),
+          };
+        });
+    }
+
+    function ottoBuscar() {
+      const q = document.getElementById('otto-pergunta-input').value.trim();
+      const resultadosEl = document.getElementById('otto-resultados');
+      if (!q) { resultadosEl.innerHTML = ''; return; }
+      const tokens = _ottoTokenizar(q);
+      if (!tokens.length) {
+        resultadosEl.innerHTML = '<div class="otto-sem-resultado">Não entendi — tenta descrever o que procura.</div>';
+        return;
+      }
+      const pontuados = _ottoIndice().map(card => {
+        let score = 0;
+        tokens.forEach(t => {
+          if (card.nome.includes(t)) score += 3;
+          if (card.desc.includes(t)) score += 1;
+        });
+        return { card, score };
+      }).filter(p => p.score > 0).sort((a, b) => b.score - a.score);
+
+      if (!pontuados.length) {
+        resultadosEl.innerHTML = '<div class="otto-sem-resultado">Não achei nada parecido — dá uma olhada nos cartões abaixo.</div>';
+        return;
+      }
+      resultadosEl.innerHTML = pontuados.slice(0, 3).map(p => `
+        <a class="otto-resultado-link" href="${p.card.href}"${p.card.target ? ` target="${p.card.target}"` : ''}>
+          Ir para <strong>${p.card.nomeOriginal}</strong> &rarr;
+        </a>
+      `).join('');
+    }
+
+    document.getElementById('otto-pergunta-btn').addEventListener('click', ottoBuscar);
+    document.getElementById('otto-pergunta-input').addEventListener('keydown', (e) => {
+      if (e.key === 'Enter') { e.preventDefault(); ottoBuscar(); }
+    });
+    document.getElementById('otto-pergunta-input').addEventListener('click', (e) => e.stopPropagation());
   </script>
 </body>
 </html>
