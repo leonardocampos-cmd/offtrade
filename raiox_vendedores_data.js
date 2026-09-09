@@ -1,6 +1,6 @@
 // Gerado automaticamente
 const RAIOX_VENDEDORES_DATA = {
-  "atualizado_em": "09/09/2026 10:04",
+  "atualizado_em": "09/09/2026 10:10",
   "times": [
     {
       "time": "KEY_ACCOUNT",
@@ -4506,7 +4506,7 @@ const RAIOX_VENDEDORES_DATA = {
       "time": "OUTROS",
       "label": "Outros / sem time definido",
       "qtd_vendedores": 103,
-      "total_clientes": 3386,
+      "total_clientes": 3389,
       "vendedores": [
         {
           "rca": 426,
@@ -6028,7 +6028,7 @@ const RAIOX_VENDEDORES_DATA = {
           "nome": "CRISTIAN MARINELLI",
           "gerente": "MARCUS TANAMACHI",
           "supervisor": "PRISCILLA BONACHE",
-          "total_clientes": 1,
+          "total_clientes": 3,
           "ticket_medio": 0.0,
           "base_ativa": 0,
           "base_inativa": 0,
@@ -6036,7 +6036,7 @@ const RAIOX_VENDEDORES_DATA = {
           "cidades": [
             {
               "cidade": "AGUAS DE LINDOIA",
-              "clientes": 1
+              "clientes": 3
             }
           ]
         },
@@ -16838,7 +16838,7 @@ const RAIOX_VENDEDORES_DATA = {
           "nome": "OZISLLAN RAMALHO DE SOUZA",
           "gerente": "DANIEL DINIZ",
           "supervisor": "EROCLES OLIVEIRA",
-          "total_clientes": 19,
+          "total_clientes": 20,
           "ticket_medio": 2060.66,
           "base_ativa": 11,
           "base_inativa": 1,
@@ -16856,7 +16856,7 @@ const RAIOX_VENDEDORES_DATA = {
           "cidades": [
             {
               "cidade": "SAO MATEUS",
-              "clientes": 11
+              "clientes": 12
             },
             {
               "cidade": "JAGUARE",
@@ -21740,15 +21740,15 @@ const RAIOX_VENDEDORES_DATA = {
           "clientes": 15
         },
         {
+          "cidade": "SAO MATEUS",
+          "clientes": 15
+        },
+        {
           "cidade": "SANTOS",
           "clientes": 14
         },
         {
           "cidade": "GUARUJA",
-          "clientes": 14
-        },
-        {
-          "cidade": "SAO MATEUS",
           "clientes": 14
         },
         {
@@ -22200,6 +22200,10 @@ const RAIOX_VENDEDORES_DATA = {
           "clientes": 3
         },
         {
+          "cidade": "AGUAS DE LINDOIA",
+          "clientes": 3
+        },
+        {
           "cidade": "CRUZEIRO",
           "clientes": 3
         },
@@ -22645,10 +22649,6 @@ const RAIOX_VENDEDORES_DATA = {
         },
         {
           "cidade": "TABATINGA",
-          "clientes": 1
-        },
-        {
-          "cidade": "AGUAS DE LINDOIA",
           "clientes": 1
         },
         {

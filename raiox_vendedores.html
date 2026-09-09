@@ -79,6 +79,45 @@
     }
     .filtro-vendedor select:focus { border-color: var(--accent); }
     .sem-clientes { color: var(--muted); font-size: .85rem; text-align: center; padding: 24px; }
+    .btn-inativa {
+      background: none; border: 1px solid var(--border); border-radius: 7px;
+      color: var(--text); font-size: .85rem; padding: 3px 10px; cursor: pointer;
+      font-family: inherit; transition: all .15s;
+    }
+    .btn-inativa:hover { border-color: var(--accent); color: var(--accent); }
+    .btn-inativa:disabled { color: var(--muted); cursor: default; border-color: var(--border); }
+    .modal-overlay {
+      position: fixed; inset: 0; background: rgba(0,0,0,.6); display: flex;
+      align-items: center; justify-content: center; z-index: 100; padding: 20px;
+    }
+    .modal-overlay[hidden] { display: none; }
+    .modal-box {
+      background: var(--card); border: 1px solid var(--border); border-radius: 14px;
+      max-width: 720px; width: 100%; max-height: 82vh; display: flex; flex-direction: column;
+    }
+    .modal-header {
+      display: flex; justify-content: space-between; align-items: baseline;
+      padding: 18px 22px; border-bottom: 1px solid var(--border); gap: 12px;
+    }
+    .modal-header h3 { font-size: 1.02rem; }
+    .modal-header span { font-size: .78rem; color: var(--muted); }
+    .modal-close {
+      background: none; border: 1px solid var(--border); border-radius: 7px;
+      color: var(--muted); font-size: .85rem; padding: 4px 10px; cursor: pointer; font-family: inherit;
+    }
+    .modal-close:hover { color: var(--text); border-color: var(--accent); }
+    .modal-body { overflow-y: auto; padding: 8px 22px 20px; }
+    .modal-table { width: 100%; border-collapse: collapse; }
+    .modal-table th {
+      text-align: left; font-size: .68rem; color: var(--muted); text-transform: uppercase;
+      letter-spacing: .05em; padding: 8px; border-bottom: 1px solid var(--border); position: sticky; top: 0; background: var(--card);
+    }
+    .modal-table td { padding: 7px 8px; font-size: .85rem; border-bottom: 1px solid #232738; }
+    .status-badge { font-size: .72rem; padding: 2px 8px; border-radius: 6px; white-space: nowrap; }
+    .status-badge.INATIVO { background: rgba(148,163,184,.15); color: var(--muted); }
+    .status-badge.NOVO { background: rgba(245,197,24,.15); color: var(--accent); }
+    .status-badge.OUTRO_VENDEDOR { background: rgba(239,68,68,.15); color: #f87171; }
+    .status-badge.SEM_RCA { background: rgba(148,163,184,.15); color: var(--muted); }
   </style>
 </head>
 <body>
@@ -96,6 +135,24 @@
     <div class="atualizacao" id="atualizacao">Carregando…</div>
     <div class="resumo-filtros" id="filtros"></div>
     <div id="times"></div>
+  </div>
+
+  <div class="modal-overlay" id="modal-inativa" hidden>
+    <div class="modal-box">
+      <div class="modal-header">
+        <div>
+          <h3 id="modal-titulo">Base inativa</h3>
+          <span id="modal-subtitulo"></span>
+        </div>
+        <button class="modal-close" id="modal-fechar">Fechar ✕</button>
+      </div>
+      <div class="modal-body">
+        <table class="modal-table">
+          <thead><tr><th>Cliente</th><th>Cidade</th><th>Situação</th></tr></thead>
+          <tbody id="modal-tbody"></tbody>
+        </table>
+      </div>
+    </div>
   </div>
 
   <script>
@@ -165,7 +222,7 @@
           .filter(v => t.vendedores.some(tv => tv.chave === v.chave));
         if (!vendedores.length) return '';
 
-        const totalClientes = vendedores.reduce((s, v) => s + v.total_clientes, 0);
+        const totalClientes = vendedores.reduce((s, v) => s + (v.base_ativa ?? 0), 0);
         const regioesMap = {};
         vendedores.forEach(v => (v.cidades || []).forEach(c => { regioesMap[c.cidade] = (regioesMap[c.cidade] || 0) + c.clientes; }));
         const regioes = Object.entries(regioesMap).sort((a, b) => b[1] - a[1]).slice(0, 10).map(([cidade, clientes]) => ({ cidade, clientes }));
@@ -183,8 +240,11 @@
           <tr>
             <td>${v.nome}</td>
             <td style="color:var(--muted)">${v.estado} · ${v.rca}</td>
-            <td>${(v.clientes_atendidos ?? 0)}</td>
-            <td>${v.total_clientes}</td>
+            <td>${(v.base_ativa ?? 0)}</td>
+            <td>
+              <button class="btn-inativa" ${(v.base_inativa ?? 0) ? '' : 'disabled'}
+                onclick="abrirModalInativa('${v.chave}')">${(v.base_inativa ?? 0)}</button>
+            </td>
             <td>${(v.ticket_medio ?? 0).toLocaleString('pt-BR', {style:'currency', currency:'BRL'})}</td>
             <td><a class="btn-ver" href="raiox_vendedor_detalhe.html?chave=${encodeURIComponent(v.chave)}&embed=1">Ver detalhe →</a></td>
           </tr>
@@ -196,14 +256,14 @@
               <div class="time-label">${t.label}</div>
               <div class="time-kpis">
                 <div><b>${vendedores.length}</b> vendedor(es)</div>
-                <div><b>${totalClientes.toLocaleString('pt-BR')}</b> clientes atendidos</div>
+                <div><b>${totalClientes.toLocaleString('pt-BR')}</b> clientes na base ativa</div>
               </div>
             </div>
             <div class="conteudo-time">
               <div>
                 <div class="secao-mini">Vendedores</div>
                 <table class="vendedores-table">
-                  <thead><tr><th>Nome</th><th>Estado · RCA</th><th title="Clientes que compraram no ano (via PCMOV)">Atendidos (ano)</th><th title="Clientes cadastrados como RCA 1/2/3 (via PCCLIENT) — pode não coincidir com quem atendeu, por venda cruzada entre carteiras">Base Cadastro</th><th>Ticket Médio</th><th></th></tr></thead>
+                  <thead><tr><th>Nome</th><th>Estado · RCA</th><th title="Cadastrado no vendedor (RCA 1/2/3) e ele fez a última venda">Base Ativa</th><th title="Ele fez a última venda, mas o cadastro já foi remanejado — clique pra ver os clientes">Base Inativa</th><th>Ticket Médio</th><th></th></tr></thead>
                   <tbody>${vendedoresHtml}</tbody>
                 </table>
               </div>
@@ -218,6 +278,38 @@
 
       document.getElementById('times').innerHTML = blocos || '<div class="sem-clientes">Nenhum vendedor encontrado para este filtro.</div>';
     }
+
+    function _esc(s) {
+      return String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+    }
+
+    function abrirModalInativa(chave) {
+      const v = todosVendedores().find(x => x.chave === chave);
+      if (!v) return;
+      document.getElementById('modal-titulo').textContent = `Base inativa — ${v.nome}`;
+      document.getElementById('modal-subtitulo').textContent =
+        `${v.clientes_base_inativa.length} cliente(s) — última venda foi dele, cadastro já mudou de RCA`;
+      document.getElementById('modal-tbody').innerHTML = v.clientes_base_inativa.map(c => `
+        <tr>
+          <td>${_esc(c.nome)}</td>
+          <td style="color:var(--muted)">${_esc(c.cidade)}</td>
+          <td><span class="status-badge ${_esc(c.status)}">${_esc(c.status_label)}</span></td>
+        </tr>
+      `).join('') || '<tr><td colspan="3" style="color:var(--muted)">Nenhum cliente.</td></tr>';
+      document.getElementById('modal-inativa').hidden = false;
+    }
+
+    function fecharModalInativa() {
+      document.getElementById('modal-inativa').hidden = true;
+    }
+
+    document.getElementById('modal-fechar').addEventListener('click', fecharModalInativa);
+    document.getElementById('modal-inativa').addEventListener('click', e => {
+      if (e.target.id === 'modal-inativa') fecharModalInativa();
+    });
+    document.addEventListener('keydown', e => {
+      if (e.key === 'Escape') fecharModalInativa();
+    });
 
     render();
   </script>
