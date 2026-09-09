@@ -495,7 +495,7 @@ def _construir_comparativo(cache: dict) -> list:
     try:
         df_cli = carregar_dados(f"""
             SELECT C.CODCLI, C.CLIENTE, COALESCE(C.FANTASIA, '') AS FANTASIA,
-                   COALESCE(C.CGCENT, '') AS CNPJ, C.CODUSUR1,
+                   COALESCE(C.CGCENT, '') AS CNPJ, C.CODUSUR1, C.CODUSUR2, C.CODUSUR3,
                    COALESCE(C.BAIRROENT, '') AS BAIRRO,
                    COALESCE(U1.NOME, '') AS NOME_USUR1
             FROM crc.PCCLIENT C
@@ -506,6 +506,13 @@ def _construir_comparativo(cache: dict) -> list:
         for _, r in df_cli.iterrows():
             rca_txt = f"{int(r['CODUSUR1'])} - {r['NOME_USUR1']}".strip(' -') if pd.notna(r['CODUSUR1']) else ''
             codcli = int(r['CODCLI'])
+            # CODUSUR1/2/3 registrados de verdade pro cliente — usado abaixo
+            # pra desconfiar do RCA extraído do e-mail quando ele não bate
+            # com NENHUM dos três (sinal de erro de leitura da IA, não um RCA
+            # cobrindo o cliente por giro normal da equipe).
+            codusures_validos = {
+                int(r[c]) for c in ('CODUSUR1', 'CODUSUR2', 'CODUSUR3') if pd.notna(r[c])
+            }
             cliente_info[codcli] = {
                 'razao_social': str(r['CLIENTE'] or '').strip(),
                 'fantasia':     str(r['FANTASIA'] or '').strip(),
@@ -513,6 +520,7 @@ def _construir_comparativo(cache: dict) -> list:
                 'bairro':       str(r['BAIRRO'] or '').strip(),
                 'rca':          rca_txt,
                 'codusur':      int(r['CODUSUR1']) if pd.notna(r['CODUSUR1']) else None,
+                'codusures_validos': codusures_validos,
             }
             cnpj_num = _cnpj_digits(r['CNPJ'])
             if cnpj_num:
@@ -754,6 +762,17 @@ def _construir_comparativo(cache: dict) -> list:
             # — cai direto pro RCA cadastrado do cliente. Resolvido AQUI (não
             # só pro texto exibido) porque agora também filtra o faturamento.
             rca_codigo = _rca_codigo(bloco.get('rca'))
+            # Mas só confia nele se bater com ALGUM CODUSUR1/2/3 registrado
+            # do cliente — um número válido de OUTRO RCA (não deste cliente)
+            # é sinal de erro de leitura da IA, não de "RCA cobrindo o
+            # cliente" (achado real em 2026-09-09: pedido de CASAS GUANABARA
+            # extraído com RCA 174/Allan Paes, que não é RCA 1/2/3 desse
+            # cliente — o pedido foi faturado de verdade pelo RCA 420/Kelly
+            # Ramos, o cadastrado, mas ficava "Pendente" à toa porque o
+            # comparativo comparava contra o RCA 174 errado).
+            codusures_validos = fallback.get('codusures_validos') or set()
+            if rca_codigo is not None and codusures_validos and rca_codigo not in codusures_validos:
+                rca_codigo = None
             rca_codusur_match = rca_codigo if rca_codigo is not None else fallback.get('codusur')
 
             # Primeiro calcula a qtd faturada de cada item, sem ainda decidir
