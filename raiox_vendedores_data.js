@@ -1,12 +1,12 @@
 // Gerado automaticamente
 const RAIOX_VENDEDORES_DATA = {
-  "atualizado_em": "18/08/2026 17:01",
+  "atualizado_em": "09/09/2026 09:28",
   "times": [
     {
       "time": "KEY_ACCOUNT",
       "label": "Key Account",
       "qtd_vendedores": 2,
-      "total_clientes": 73,
+      "total_clientes": 53,
       "vendedores": [
         {
           "rca": 158,
@@ -15,26 +15,12 @@ const RAIOX_VENDEDORES_DATA = {
           "nome": "Jose Marcelo Cardoso",
           "gerente": "ALLAN PAES",
           "supervisor": "DANIELLE MOURA",
-          "total_clientes": 19,
+          "total_clientes": 1,
+          "clientes_atendidos": 29,
+          "ticket_medio": 27376.23,
           "cidades": [
             {
               "cidade": "RIO DE JANEIRO",
-              "clientes": 13
-            },
-            {
-              "cidade": "ITABORAI",
-              "clientes": 2
-            },
-            {
-              "cidade": "MESQUITA",
-              "clientes": 2
-            },
-            {
-              "cidade": "MARICA",
-              "clientes": 1
-            },
-            {
-              "cidade": "SAO JOAO DE MER",
               "clientes": 1
             }
           ]
@@ -46,7 +32,9 @@ const RAIOX_VENDEDORES_DATA = {
           "nome": "Maria Luiza",
           "gerente": "ALLAN PAES",
           "supervisor": "DANIELLE MOURA",
-          "total_clientes": 54,
+          "total_clientes": 52,
+          "clientes_atendidos": 49,
+          "ticket_medio": 12552.12,
           "cidades": [
             {
               "cidade": "RIO DE JANEIRO",
@@ -58,15 +46,11 @@ const RAIOX_VENDEDORES_DATA = {
             },
             {
               "cidade": "VOLTA REDONDA",
-              "clientes": 5
+              "clientes": 4
             },
             {
               "cidade": "RESENDE",
               "clientes": 3
-            },
-            {
-              "cidade": "TRES RIOS",
-              "clientes": 2
             },
             {
               "cidade": "MESQUITA",
@@ -81,6 +65,10 @@ const RAIOX_VENDEDORES_DATA = {
               "clientes": 2
             },
             {
+              "cidade": "TRES RIOS",
+              "clientes": 2
+            },
+            {
               "cidade": "ANGRA DOS REIS",
               "clientes": 2
             },
@@ -89,19 +77,7 @@ const RAIOX_VENDEDORES_DATA = {
               "clientes": 2
             },
             {
-              "cidade": "ARMACAO DOS BUZ",
-              "clientes": 1
-            },
-            {
-              "cidade": "MACAE",
-              "clientes": 1
-            },
-            {
               "cidade": "ITAPERUNA",
-              "clientes": 1
-            },
-            {
-              "cidade": "BELFORD ROXO",
               "clientes": 1
             },
             {
@@ -113,7 +89,15 @@ const RAIOX_VENDEDORES_DATA = {
               "clientes": 1
             },
             {
+              "cidade": "BELFORD ROXO",
+              "clientes": 1
+            },
+            {
               "cidade": "BARRA DO PIRAI",
+              "clientes": 1
+            },
+            {
+              "cidade": "ARMACAO DOS BUZ",
               "clientes": 1
             },
             {
@@ -121,11 +105,7 @@ const RAIOX_VENDEDORES_DATA = {
               "clientes": 1
             },
             {
-              "cidade": "NILOPOLIS",
-              "clientes": 1
-            },
-            {
-              "cidade": "QUEIMADOS",
+              "cidade": "MARICA",
               "clientes": 1
             },
             {
@@ -141,7 +121,11 @@ const RAIOX_VENDEDORES_DATA = {
               "clientes": 1
             },
             {
-              "cidade": "MARICA",
+              "cidade": "NILOPOLIS",
+              "clientes": 1
+            },
+            {
+              "cidade": "MACAE",
               "clientes": 1
             },
             {
@@ -162,7 +146,7 @@ const RAIOX_VENDEDORES_DATA = {
       "regioes": [
         {
           "cidade": "RIO DE JANEIRO",
-          "clientes": 22
+          "clientes": 10
         },
         {
           "cidade": "NOVA IGUACU",
@@ -170,10 +154,6 @@ const RAIOX_VENDEDORES_DATA = {
         },
         {
           "cidade": "VOLTA REDONDA",
-          "clientes": 5
-        },
-        {
-          "cidade": "MESQUITA",
           "clientes": 4
         },
         {
@@ -181,19 +161,7 @@ const RAIOX_VENDEDORES_DATA = {
           "clientes": 3
         },
         {
-          "cidade": "ITABORAI",
-          "clientes": 2
-        },
-        {
-          "cidade": "MARICA",
-          "clientes": 2
-        },
-        {
-          "cidade": "SAO JOAO DE MER",
-          "clientes": 2
-        },
-        {
-          "cidade": "TRES RIOS",
+          "cidade": "MESQUITA",
           "clientes": 2
         },
         {
@@ -205,6 +173,10 @@ const RAIOX_VENDEDORES_DATA = {
           "clientes": 2
         },
         {
+          "cidade": "TRES RIOS",
+          "clientes": 2
+        },
+        {
           "cidade": "ANGRA DOS REIS",
           "clientes": 2
         },
@@ -213,19 +185,7 @@ const RAIOX_VENDEDORES_DATA = {
           "clientes": 2
         },
         {
-          "cidade": "ARMACAO DOS BUZ",
-          "clientes": 1
-        },
-        {
-          "cidade": "MACAE",
-          "clientes": 1
-        },
-        {
           "cidade": "ITAPERUNA",
-          "clientes": 1
-        },
-        {
-          "cidade": "BELFORD ROXO",
           "clientes": 1
         },
         {
@@ -237,7 +197,15 @@ const RAIOX_VENDEDORES_DATA = {
           "clientes": 1
         },
         {
+          "cidade": "BELFORD ROXO",
+          "clientes": 1
+        },
+        {
           "cidade": "BARRA DO PIRAI",
+          "clientes": 1
+        },
+        {
+          "cidade": "ARMACAO DOS BUZ",
           "clientes": 1
         },
         {
@@ -245,11 +213,7 @@ const RAIOX_VENDEDORES_DATA = {
           "clientes": 1
         },
         {
-          "cidade": "NILOPOLIS",
-          "clientes": 1
-        },
-        {
-          "cidade": "QUEIMADOS",
+          "cidade": "MARICA",
           "clientes": 1
         },
         {
@@ -265,7 +229,19 @@ const RAIOX_VENDEDORES_DATA = {
           "clientes": 1
         },
         {
+          "cidade": "NILOPOLIS",
+          "clientes": 1
+        },
+        {
+          "cidade": "MACAE",
+          "clientes": 1
+        },
+        {
           "cidade": "SAO GONCALO",
+          "clientes": 1
+        },
+        {
+          "cidade": "SAO JOAO DE MER",
           "clientes": 1
         },
         {
@@ -278,7 +254,7 @@ const RAIOX_VENDEDORES_DATA = {
       "time": "ATACAREJO",
       "label": "Atacarejo (Pequeno e médio varejo)",
       "qtd_vendedores": 7,
-      "total_clientes": 484,
+      "total_clientes": 470,
       "vendedores": [
         {
           "rca": 471,
@@ -287,11 +263,13 @@ const RAIOX_VENDEDORES_DATA = {
           "nome": "Ana Clara Fassano",
           "gerente": "ALLAN PAES",
           "supervisor": "DANIELLE MOURA",
-          "total_clientes": 77,
+          "total_clientes": 83,
+          "clientes_atendidos": 93,
+          "ticket_medio": 812.43,
           "cidades": [
             {
               "cidade": "RIO DE JANEIRO",
-              "clientes": 77
+              "clientes": 83
             }
           ]
         },
@@ -302,7 +280,9 @@ const RAIOX_VENDEDORES_DATA = {
           "nome": "Angelo Neves Suzart",
           "gerente": "ALLAN PAES",
           "supervisor": "DANIELLE MOURA",
-          "total_clientes": 63,
+          "total_clientes": 62,
+          "clientes_atendidos": 89,
+          "ticket_medio": 2137.07,
           "cidades": [
             {
               "cidade": "DUQUE DE CAXIAS",
@@ -310,18 +290,22 @@ const RAIOX_VENDEDORES_DATA = {
             },
             {
               "cidade": "RIO DE JANEIRO",
-              "clientes": 14
+              "clientes": 10
             },
             {
               "cidade": "MAGE",
               "clientes": 5
             },
             {
-              "cidade": "GUAPIMIRIM",
-              "clientes": 1
+              "cidade": "SAO JOAO DE MER",
+              "clientes": 2
             },
             {
-              "cidade": "JAPERI",
+              "cidade": "BELFORD ROXO",
+              "clientes": 2
+            },
+            {
+              "cidade": "GUAPIMIRIM",
               "clientes": 1
             },
             {
@@ -333,6 +317,10 @@ const RAIOX_VENDEDORES_DATA = {
               "clientes": 1
             },
             {
+              "cidade": "JAPERI",
+              "clientes": 1
+            },
+            {
               "cidade": "MIGUEL PEREIRA",
               "clientes": 1
             },
@@ -341,15 +329,11 @@ const RAIOX_VENDEDORES_DATA = {
               "clientes": 1
             },
             {
-              "cidade": "NILOPOLIS",
-              "clientes": 1
-            },
-            {
               "cidade": "PETROPOLIS",
               "clientes": 1
             },
             {
-              "cidade": "SAO JOAO DE MER",
+              "cidade": "NOVA IGUACU",
               "clientes": 1
             },
             {
@@ -369,11 +353,13 @@ const RAIOX_VENDEDORES_DATA = {
           "nome": "Barbara Cabral",
           "gerente": "ALLAN PAES",
           "supervisor": "DANIELLE MOURA",
-          "total_clientes": 81,
+          "total_clientes": 58,
+          "clientes_atendidos": 107,
+          "ticket_medio": 1129.58,
           "cidades": [
             {
               "cidade": "RIO DE JANEIRO",
-              "clientes": 67
+              "clientes": 51
             },
             {
               "cidade": "ITAGUAI",
@@ -384,31 +370,15 @@ const RAIOX_VENDEDORES_DATA = {
               "clientes": 2
             },
             {
-              "cidade": "NITEROI",
-              "clientes": 2
-            },
-            {
-              "cidade": "PETROPOLIS",
-              "clientes": 2
-            },
-            {
-              "cidade": "NOVA IGUACU",
-              "clientes": 2
-            },
-            {
               "cidade": "DUQUE DE CAXIAS",
               "clientes": 1
             },
             {
-              "cidade": "NILOPOLIS",
+              "cidade": "NOVA IGUACU",
               "clientes": 1
             },
             {
               "cidade": "SAO JOAO DE MER",
-              "clientes": 1
-            },
-            {
-              "cidade": "TERESOPOLIS",
               "clientes": 1
             }
           ]
@@ -420,15 +390,17 @@ const RAIOX_VENDEDORES_DATA = {
           "nome": "Diogo Raposo",
           "gerente": "ALLAN PAES",
           "supervisor": "DANIELLE MOURA",
-          "total_clientes": 81,
+          "total_clientes": 80,
+          "clientes_atendidos": 85,
+          "ticket_medio": 2332.12,
           "cidades": [
             {
               "cidade": "RIO DE JANEIRO",
-              "clientes": 76
+              "clientes": 73
             },
             {
               "cidade": "MIGUEL PEREIRA",
-              "clientes": 3
+              "clientes": 5
             },
             {
               "cidade": "PATY DO ALFERES",
@@ -447,11 +419,13 @@ const RAIOX_VENDEDORES_DATA = {
           "nome": "Leandro Souza",
           "gerente": "ALLAN PAES",
           "supervisor": "DANIELLE MOURA",
-          "total_clientes": 61,
+          "total_clientes": 68,
+          "clientes_atendidos": 70,
+          "ticket_medio": 2044.89,
           "cidades": [
             {
               "cidade": "RIO DE JANEIRO",
-              "clientes": 17
+              "clientes": 22
             },
             {
               "cidade": "NITEROI",
@@ -470,12 +444,12 @@ const RAIOX_VENDEDORES_DATA = {
               "clientes": 6
             },
             {
-              "cidade": "SAO JOAO DE MER",
-              "clientes": 4
+              "cidade": "ITABORAI",
+              "clientes": 5
             },
             {
-              "cidade": "ITABORAI",
-              "clientes": 3
+              "cidade": "SAO JOAO DE MER",
+              "clientes": 4
             },
             {
               "cidade": "DUQUE DE CAXIAS",
@@ -506,11 +480,13 @@ const RAIOX_VENDEDORES_DATA = {
           "nome": "Mateus Cardoso",
           "gerente": "ALLAN PAES",
           "supervisor": "DANIELLE MOURA",
-          "total_clientes": 62,
+          "total_clientes": 59,
+          "clientes_atendidos": 53,
+          "ticket_medio": 949.92,
           "cidades": [
             {
               "cidade": "ANGRA DOS REIS",
-              "clientes": 44
+              "clientes": 45
             },
             {
               "cidade": "PARATI",
@@ -521,19 +497,15 @@ const RAIOX_VENDEDORES_DATA = {
               "clientes": 4
             },
             {
-              "cidade": "VALENCA",
-              "clientes": 3
-            },
-            {
-              "cidade": "VASSOURAS",
-              "clientes": 2
-            },
-            {
               "cidade": "PINHEIRAL",
               "clientes": 1
             },
             {
               "cidade": "RESENDE",
+              "clientes": 1
+            },
+            {
+              "cidade": "VALENCA",
               "clientes": 1
             },
             {
@@ -549,7 +521,9 @@ const RAIOX_VENDEDORES_DATA = {
           "nome": "Natali de Oliveira",
           "gerente": "ALLAN PAES",
           "supervisor": "DANIELLE MOURA",
-          "total_clientes": 59,
+          "total_clientes": 60,
+          "clientes_atendidos": 80,
+          "ticket_medio": 1607.91,
           "cidades": [
             {
               "cidade": "RIO DE JANEIRO",
@@ -562,6 +536,10 @@ const RAIOX_VENDEDORES_DATA = {
             {
               "cidade": "NOVA IGUACU",
               "clientes": 1
+            },
+            {
+              "cidade": "SAO JOAO DE MER",
+              "clientes": 1
             }
           ]
         }
@@ -569,11 +547,11 @@ const RAIOX_VENDEDORES_DATA = {
       "regioes": [
         {
           "cidade": "RIO DE JANEIRO",
-          "clientes": 308
+          "clientes": 296
         },
         {
           "cidade": "ANGRA DOS REIS",
-          "clientes": 44
+          "clientes": 45
         },
         {
           "cidade": "DUQUE DE CAXIAS",
@@ -581,7 +559,11 @@ const RAIOX_VENDEDORES_DATA = {
         },
         {
           "cidade": "NITEROI",
-          "clientes": 11
+          "clientes": 9
+        },
+        {
+          "cidade": "SAO JOAO DE MER",
+          "clientes": 8
         },
         {
           "cidade": "SAO GONCALO",
@@ -592,11 +574,7 @@ const RAIOX_VENDEDORES_DATA = {
           "clientes": 7
         },
         {
-          "cidade": "PETROPOLIS",
-          "clientes": 6
-        },
-        {
-          "cidade": "SAO JOAO DE MER",
+          "cidade": "MIGUEL PEREIRA",
           "clientes": 6
         },
         {
@@ -616,11 +594,15 @@ const RAIOX_VENDEDORES_DATA = {
           "clientes": 5
         },
         {
+          "cidade": "ITABORAI",
+          "clientes": 5
+        },
+        {
           "cidade": "ITAGUAI",
           "clientes": 4
         },
         {
-          "cidade": "MIGUEL PEREIRA",
+          "cidade": "PETROPOLIS",
           "clientes": 4
         },
         {
@@ -632,23 +614,11 @@ const RAIOX_VENDEDORES_DATA = {
           "clientes": 3
         },
         {
-          "cidade": "ITABORAI",
-          "clientes": 3
-        },
-        {
-          "cidade": "VALENCA",
-          "clientes": 3
+          "cidade": "BELFORD ROXO",
+          "clientes": 2
         },
         {
           "cidade": "NOVA FRIBURGO",
-          "clientes": 2
-        },
-        {
-          "cidade": "NILOPOLIS",
-          "clientes": 2
-        },
-        {
-          "cidade": "VASSOURAS",
           "clientes": 2
         },
         {
@@ -661,10 +631,6 @@ const RAIOX_VENDEDORES_DATA = {
         },
         {
           "cidade": "SAO PEDRO DA AL",
-          "clientes": 1
-        },
-        {
-          "cidade": "TERESOPOLIS",
           "clientes": 1
         },
         {
@@ -684,6 +650,10 @@ const RAIOX_VENDEDORES_DATA = {
           "clientes": 1
         },
         {
+          "cidade": "VALENCA",
+          "clientes": 1
+        },
+        {
           "cidade": "VOLTA REDONDA",
           "clientes": 1
         }
@@ -693,7 +663,7 @@ const RAIOX_VENDEDORES_DATA = {
       "time": "CONVENIENCE",
       "label": "Convenience (Varejo tradicional e Conveniência)",
       "qtd_vendedores": 4,
-      "total_clientes": 507,
+      "total_clientes": 539,
       "vendedores": [
         {
           "rca": 431,
@@ -702,14 +672,28 @@ const RAIOX_VENDEDORES_DATA = {
           "nome": "Adeilson Gonçalvez",
           "gerente": "ALLAN PAES",
           "supervisor": "DANIELLE MOURA",
-          "total_clientes": 101,
+          "total_clientes": 122,
+          "clientes_atendidos": 174,
+          "ticket_medio": 501.82,
           "cidades": [
             {
               "cidade": "RIO DE JANEIRO",
-              "clientes": 96
+              "clientes": 109
+            },
+            {
+              "cidade": "NOVA IGUACU",
+              "clientes": 3
             },
             {
               "cidade": "SAO PEDRO DA AL",
+              "clientes": 2
+            },
+            {
+              "cidade": "PETROPOLIS",
+              "clientes": 2
+            },
+            {
+              "cidade": "NITEROI",
               "clientes": 2
             },
             {
@@ -717,11 +701,15 @@ const RAIOX_VENDEDORES_DATA = {
               "clientes": 1
             },
             {
-              "cidade": "PETROPOLIS",
+              "cidade": "NILOPOLIS",
               "clientes": 1
             },
             {
               "cidade": "SAQUAREMA",
+              "clientes": 1
+            },
+            {
+              "cidade": "TERESOPOLIS",
               "clientes": 1
             }
           ]
@@ -733,11 +721,13 @@ const RAIOX_VENDEDORES_DATA = {
           "nome": "Fabio Valotti",
           "gerente": "ALLAN PAES",
           "supervisor": "DANIELLE MOURA",
-          "total_clientes": 66,
+          "total_clientes": 74,
+          "clientes_atendidos": 84,
+          "ticket_medio": 1154.04,
           "cidades": [
             {
               "cidade": "RIO DE JANEIRO",
-              "clientes": 65
+              "clientes": 73
             },
             {
               "cidade": "NITEROI",
@@ -752,7 +742,9 @@ const RAIOX_VENDEDORES_DATA = {
           "nome": "Jorge Maciel",
           "gerente": "ALLAN PAES",
           "supervisor": "DANIELLE MOURA",
-          "total_clientes": 113,
+          "total_clientes": 112,
+          "clientes_atendidos": 131,
+          "ticket_medio": 979.55,
           "cidades": [
             {
               "cidade": "SAO JOAO DE MER",
@@ -760,23 +752,23 @@ const RAIOX_VENDEDORES_DATA = {
             },
             {
               "cidade": "RIO DE JANEIRO",
-              "clientes": 25
+              "clientes": 22
             },
             {
               "cidade": "NOVA IGUACU",
-              "clientes": 15
+              "clientes": 16
             },
             {
               "cidade": "BELFORD ROXO",
               "clientes": 12
             },
             {
-              "cidade": "NILOPOLIS",
+              "cidade": "MESQUITA",
               "clientes": 11
             },
             {
-              "cidade": "MESQUITA",
-              "clientes": 10
+              "cidade": "NILOPOLIS",
+              "clientes": 11
             },
             {
               "cidade": "DUQUE DE CAXIAS",
@@ -791,15 +783,17 @@ const RAIOX_VENDEDORES_DATA = {
           "nome": "Marilena Tragel",
           "gerente": "ALLAN PAES",
           "supervisor": "DANIELLE MOURA",
-          "total_clientes": 227,
+          "total_clientes": 231,
+          "clientes_atendidos": 157,
+          "ticket_medio": 836.97,
           "cidades": [
             {
               "cidade": "RIO DE JANEIRO",
-              "clientes": 165
+              "clientes": 170
             },
             {
               "cidade": "NITEROI",
-              "clientes": 19
+              "clientes": 20
             },
             {
               "cidade": "DUQUE DE CAXIAS",
@@ -807,7 +801,7 @@ const RAIOX_VENDEDORES_DATA = {
             },
             {
               "cidade": "ARMACAO DOS BUZ",
-              "clientes": 10
+              "clientes": 9
             },
             {
               "cidade": "ARARUAMA",
@@ -818,10 +812,6 @@ const RAIOX_VENDEDORES_DATA = {
               "clientes": 3
             },
             {
-              "cidade": "NOVA IGUACU",
-              "clientes": 2
-            },
-            {
               "cidade": "CABO FRIO",
               "clientes": 2
             },
@@ -830,19 +820,23 @@ const RAIOX_VENDEDORES_DATA = {
               "clientes": 2
             },
             {
-              "cidade": "ANGRA DOS REIS",
-              "clientes": 1
-            },
-            {
               "cidade": "MARICA",
               "clientes": 1
             },
             {
-              "cidade": "PIRAI",
+              "cidade": "ARRAIAL DO CABO",
+              "clientes": 1
+            },
+            {
+              "cidade": "ANGRA DOS REIS",
               "clientes": 1
             },
             {
               "cidade": "PETROPOLIS",
+              "clientes": 1
+            },
+            {
+              "cidade": "NOVA IGUACU",
               "clientes": 1
             },
             {
@@ -863,7 +857,7 @@ const RAIOX_VENDEDORES_DATA = {
       "regioes": [
         {
           "cidade": "RIO DE JANEIRO",
-          "clientes": 351
+          "clientes": 374
         },
         {
           "cidade": "SAO JOAO DE MER",
@@ -871,31 +865,31 @@ const RAIOX_VENDEDORES_DATA = {
         },
         {
           "cidade": "NITEROI",
-          "clientes": 20
+          "clientes": 23
         },
         {
           "cidade": "NOVA IGUACU",
-          "clientes": 17
+          "clientes": 20
         },
         {
           "cidade": "DUQUE DE CAXIAS",
           "clientes": 15
         },
         {
+          "cidade": "NILOPOLIS",
+          "clientes": 12
+        },
+        {
           "cidade": "BELFORD ROXO",
           "clientes": 12
         },
         {
-          "cidade": "NILOPOLIS",
+          "cidade": "MESQUITA",
           "clientes": 11
         },
         {
-          "cidade": "MESQUITA",
-          "clientes": 10
-        },
-        {
           "cidade": "ARMACAO DOS BUZ",
-          "clientes": 10
+          "clientes": 9
         },
         {
           "cidade": "ARARUAMA",
@@ -903,6 +897,10 @@ const RAIOX_VENDEDORES_DATA = {
         },
         {
           "cidade": "SAO PEDRO DA AL",
+          "clientes": 3
+        },
+        {
+          "cidade": "PETROPOLIS",
           "clientes": 3
         },
         {
@@ -914,15 +912,11 @@ const RAIOX_VENDEDORES_DATA = {
           "clientes": 3
         },
         {
-          "cidade": "PETROPOLIS",
-          "clientes": 2
-        },
-        {
           "cidade": "CABO FRIO",
           "clientes": 2
         },
         {
-          "cidade": "ANGRA DOS REIS",
+          "cidade": "TERESOPOLIS",
           "clientes": 1
         },
         {
@@ -930,7 +924,11 @@ const RAIOX_VENDEDORES_DATA = {
           "clientes": 1
         },
         {
-          "cidade": "PIRAI",
+          "cidade": "ARRAIAL DO CABO",
+          "clientes": 1
+        },
+        {
+          "cidade": "ANGRA DOS REIS",
           "clientes": 1
         },
         {
@@ -942,19 +940,9 @@ const RAIOX_VENDEDORES_DATA = {
     {
       "time": "OUTROS",
       "label": "Outros / sem time definido",
-      "qtd_vendedores": 139,
-      "total_clientes": 3352,
+      "qtd_vendedores": 143,
+      "total_clientes": 3426,
       "vendedores": [
-        {
-          "rca": 479,
-          "estado": "SP",
-          "chave": "SP-479",
-          "nome": "ADELINO SANTOS",
-          "gerente": "MARCUS TANAMACHI",
-          "supervisor": "PRISCILLA BONACHE",
-          "total_clientes": 0,
-          "cidades": []
-        },
         {
           "rca": 426,
           "estado": "SP",
@@ -962,11 +950,13 @@ const RAIOX_VENDEDORES_DATA = {
           "nome": "ADER ALONSO",
           "gerente": "MARCUS TANAMACHI",
           "supervisor": "PRISCILLA BONACHE",
-          "total_clientes": 65,
+          "total_clientes": 57,
+          "clientes_atendidos": 100,
+          "ticket_medio": 9023.37,
           "cidades": [
             {
               "cidade": "SAO PAULO",
-              "clientes": 20
+              "clientes": 17
             },
             {
               "cidade": "LIMEIRA",
@@ -977,15 +967,7 @@ const RAIOX_VENDEDORES_DATA = {
               "clientes": 3
             },
             {
-              "cidade": "BARRA BONITA",
-              "clientes": 2
-            },
-            {
               "cidade": "BROTAS",
-              "clientes": 2
-            },
-            {
-              "cidade": "BARUERI",
               "clientes": 2
             },
             {
@@ -993,7 +975,7 @@ const RAIOX_VENDEDORES_DATA = {
               "clientes": 2
             },
             {
-              "cidade": "LEME",
+              "cidade": "BARUERI",
               "clientes": 2
             },
             {
@@ -1001,11 +983,11 @@ const RAIOX_VENDEDORES_DATA = {
               "clientes": 2
             },
             {
-              "cidade": "PIRACICABA",
+              "cidade": "LEME",
               "clientes": 2
             },
             {
-              "cidade": "DOIS CORREGOS",
+              "cidade": "BARRA BONITA",
               "clientes": 2
             },
             {
@@ -1013,15 +995,7 @@ const RAIOX_VENDEDORES_DATA = {
               "clientes": 1
             },
             {
-              "cidade": "BRAGANCA PAULISTA",
-              "clientes": 1
-            },
-            {
               "cidade": "ARARAS",
-              "clientes": 1
-            },
-            {
-              "cidade": "ITAQUAQUECETUBA",
               "clientes": 1
             },
             {
@@ -1037,19 +1011,11 @@ const RAIOX_VENDEDORES_DATA = {
               "clientes": 1
             },
             {
+              "cidade": "DOIS CORREGOS",
+              "clientes": 1
+            },
+            {
               "cidade": "CARAPICUIBA",
-              "clientes": 1
-            },
-            {
-              "cidade": "CATANDUVA",
-              "clientes": 1
-            },
-            {
-              "cidade": "PEDERNEIRAS",
-              "clientes": 1
-            },
-            {
-              "cidade": "JAU",
               "clientes": 1
             },
             {
@@ -1057,7 +1023,19 @@ const RAIOX_VENDEDORES_DATA = {
               "clientes": 1
             },
             {
-              "cidade": "PRAIA GRANDE",
+              "cidade": "ITAQUAQUECETUBA",
+              "clientes": 1
+            },
+            {
+              "cidade": "JAU",
+              "clientes": 1
+            },
+            {
+              "cidade": "PIRACICABA",
+              "clientes": 1
+            },
+            {
+              "cidade": "PEDERNEIRAS",
               "clientes": 1
             },
             {
@@ -1094,6 +1072,8 @@ const RAIOX_VENDEDORES_DATA = {
           "gerente": "MARCUS TANAMACHI",
           "supervisor": "PRISCILLA BONACHE",
           "total_clientes": 3,
+          "clientes_atendidos": 3,
+          "ticket_medio": 3638.8,
           "cidades": [
             {
               "cidade": "BRAGANCA PAULISTA",
@@ -1109,7 +1089,30 @@ const RAIOX_VENDEDORES_DATA = {
           "gerente": "DANIEL DINIZ",
           "supervisor": "DANIEL DINIZ",
           "total_clientes": 0,
+          "clientes_atendidos": 32,
+          "ticket_medio": 701.23,
           "cidades": []
+        },
+        {
+          "rca": 522,
+          "estado": "SP",
+          "chave": "SP-522",
+          "nome": "ALEF DOS SANTOS",
+          "gerente": "MARCUS TANAMACHI",
+          "supervisor": "PRISCILLA BONACHE",
+          "total_clientes": 2,
+          "clientes_atendidos": 0,
+          "ticket_medio": 0.0,
+          "cidades": [
+            {
+              "cidade": "PIRAJUI",
+              "clientes": 1
+            },
+            {
+              "cidade": "PONGAI",
+              "clientes": 1
+            }
+          ]
         },
         {
           "rca": 511,
@@ -1117,12 +1120,14 @@ const RAIOX_VENDEDORES_DATA = {
           "chave": "SP-511",
           "nome": "ALEXANDRE SOUZA",
           "gerente": "MARCUS TANAMACHI",
-          "supervisor": "MARCUS TANAMACHI",
-          "total_clientes": 10,
+          "supervisor": "PRISCILLA BONACHE",
+          "total_clientes": 9,
+          "clientes_atendidos": 8,
+          "ticket_medio": 927.15,
           "cidades": [
             {
               "cidade": "CAMPOS DO JORDAO",
-              "clientes": 5
+              "clientes": 4
             },
             {
               "cidade": "SANTO ANTONIO DO PINHAL",
@@ -1140,8 +1145,10 @@ const RAIOX_VENDEDORES_DATA = {
           "chave": "SP-483",
           "nome": "ALEXANDRE TONON",
           "gerente": "MARCUS TANAMACHI",
-          "supervisor": "PRISCILLA BONACHE",
+          "supervisor": "ANDERSON CANAVEIS",
           "total_clientes": 2,
+          "clientes_atendidos": 3,
+          "ticket_medio": 7304.49,
           "cidades": [
             {
               "cidade": "SAO PAULO",
@@ -1157,6 +1164,8 @@ const RAIOX_VENDEDORES_DATA = {
           "gerente": "DANIEL DINIZ",
           "supervisor": "DANIEL DINIZ",
           "total_clientes": 0,
+          "clientes_atendidos": 0,
+          "ticket_medio": 0.0,
           "cidades": []
         },
         {
@@ -1166,14 +1175,66 @@ const RAIOX_VENDEDORES_DATA = {
           "nome": "ALLAN PAES",
           "gerente": "ALLAN PAES",
           "supervisor": "DANIELLE MOURA",
-          "total_clientes": 5,
+          "total_clientes": 2,
+          "clientes_atendidos": 5,
+          "ticket_medio": 30527.99,
           "cidades": [
             {
               "cidade": "RIO DE JANEIRO",
+              "clientes": 2
+            }
+          ]
+        },
+        {
+          "rca": 791,
+          "estado": "SP",
+          "chave": "SP-791",
+          "nome": "ALVARO JUNIOR",
+          "gerente": "MARCUS TANAMACHI",
+          "supervisor": "ANDERSON CANAVEIS",
+          "total_clientes": 1,
+          "clientes_atendidos": 0,
+          "ticket_medio": 0.0,
+          "cidades": [
+            {
+              "cidade": "SAO PAULO",
+              "clientes": 1
+            }
+          ]
+        },
+        {
+          "rca": 524,
+          "estado": "SP",
+          "chave": "SP-524",
+          "nome": "AMAURY TARDOC",
+          "gerente": "MARCUS TANAMACHI",
+          "supervisor": "PRISCILLA BONACHE",
+          "total_clientes": 12,
+          "clientes_atendidos": 8,
+          "ticket_medio": 4995.14,
+          "cidades": [
+            {
+              "cidade": "JOSE BONIFACIO",
               "clientes": 4
             },
             {
-              "cidade": "QUEIMADOS",
+              "cidade": "ANGATUBA",
+              "clientes": 2
+            },
+            {
+              "cidade": "SAO PAULO",
+              "clientes": 2
+            },
+            {
+              "cidade": "SAO JOSE DO RIO PRETO",
+              "clientes": 2
+            },
+            {
+              "cidade": "INDAIATUBA",
+              "clientes": 1
+            },
+            {
+              "cidade": "ITAPOLIS",
               "clientes": 1
             }
           ]
@@ -1186,6 +1247,8 @@ const RAIOX_VENDEDORES_DATA = {
           "gerente": "MARCUS TANAMACHI",
           "supervisor": "MARCUS TANAMACHI",
           "total_clientes": 1,
+          "clientes_atendidos": 6,
+          "ticket_medio": 5471.86,
           "cidades": [
             {
               "cidade": "JARINU",
@@ -1200,11 +1263,13 @@ const RAIOX_VENDEDORES_DATA = {
           "nome": "ANDERSON CANAVEIS",
           "gerente": "MARCUS TANAMACHI",
           "supervisor": "ANDERSON CANAVEIS",
-          "total_clientes": 4,
+          "total_clientes": 5,
+          "clientes_atendidos": 8,
+          "ticket_medio": 161191.95,
           "cidades": [
             {
               "cidade": "SAO PAULO",
-              "clientes": 2
+              "clientes": 3
             },
             {
               "cidade": "ARUJA",
@@ -1222,12 +1287,14 @@ const RAIOX_VENDEDORES_DATA = {
           "chave": "SP-492",
           "nome": "ANDERSON MOTTA",
           "gerente": "MARCUS TANAMACHI",
-          "supervisor": "MARCUS TANAMACHI",
-          "total_clientes": 9,
+          "supervisor": "ANDERSON CANAVEIS",
+          "total_clientes": 13,
+          "clientes_atendidos": 13,
+          "ticket_medio": 526.96,
           "cidades": [
             {
               "cidade": "SAO PAULO",
-              "clientes": 9
+              "clientes": 13
             }
           ]
         },
@@ -1238,11 +1305,13 @@ const RAIOX_VENDEDORES_DATA = {
           "nome": "ANDRE PINHEIRO",
           "gerente": "MARCUS TANAMACHI",
           "supervisor": "MARCUS TANAMACHI",
-          "total_clientes": 8,
+          "total_clientes": 6,
+          "clientes_atendidos": 7,
+          "ticket_medio": 1169.01,
           "cidades": [
             {
               "cidade": "SAO PAULO",
-              "clientes": 6
+              "clientes": 4
             },
             {
               "cidade": "PORTO FELIZ",
@@ -1261,11 +1330,13 @@ const RAIOX_VENDEDORES_DATA = {
           "nome": "ANDRE SILVA",
           "gerente": "MARCUS TANAMACHI",
           "supervisor": "ANDERSON CANAVEIS",
-          "total_clientes": 32,
+          "total_clientes": 33,
+          "clientes_atendidos": 36,
+          "ticket_medio": 13695.79,
           "cidades": [
             {
               "cidade": "SAO PAULO",
-              "clientes": 28
+              "clientes": 29
             },
             {
               "cidade": "ARUJA",
@@ -1293,6 +1364,8 @@ const RAIOX_VENDEDORES_DATA = {
           "gerente": "DANIEL DINIZ",
           "supervisor": "DANIEL DINIZ",
           "total_clientes": 0,
+          "clientes_atendidos": 0,
+          "ticket_medio": 0.0,
           "cidades": []
         },
         {
@@ -1303,6 +1376,8 @@ const RAIOX_VENDEDORES_DATA = {
           "gerente": "DANIEL DINIZ",
           "supervisor": "DANIEL DINIZ",
           "total_clientes": 1,
+          "clientes_atendidos": 0,
+          "ticket_medio": 0.0,
           "cidades": [
             {
               "cidade": "RIO DE JANEIRO",
@@ -1317,15 +1392,17 @@ const RAIOX_VENDEDORES_DATA = {
           "nome": "BRUNA CASTRO MELLO",
           "gerente": "FERNANDO RISSON",
           "supervisor": "FERNANDO RISSON",
-          "total_clientes": 20,
+          "total_clientes": 14,
+          "clientes_atendidos": 50,
+          "ticket_medio": 1058.88,
           "cidades": [
             {
               "cidade": "BELO HORIZONTE",
-              "clientes": 9
+              "clientes": 6
             },
             {
               "cidade": "CONTAGEM",
-              "clientes": 7
+              "clientes": 4
             },
             {
               "cidade": "RIBEIRAO DAS NEVES",
@@ -1348,22 +1425,24 @@ const RAIOX_VENDEDORES_DATA = {
           "nome": "BRUNO BARBOSA",
           "gerente": "MARCUS TANAMACHI",
           "supervisor": "PRISCILLA BONACHE",
-          "total_clientes": 52,
+          "total_clientes": 51,
+          "clientes_atendidos": 55,
+          "ticket_medio": 3074.59,
           "cidades": [
             {
               "cidade": "CAMPINAS",
-              "clientes": 11
+              "clientes": 13
             },
             {
               "cidade": "AMERICANA",
-              "clientes": 8
+              "clientes": 9
             },
             {
               "cidade": "RIO CLARO",
               "clientes": 7
             },
             {
-              "cidade": "PIRACICABA",
+              "cidade": "JUNDIAI",
               "clientes": 3
             },
             {
@@ -1375,28 +1454,12 @@ const RAIOX_VENDEDORES_DATA = {
               "clientes": 3
             },
             {
-              "cidade": "HOLAMBRA",
-              "clientes": 2
+              "cidade": "PIRACICABA",
+              "clientes": 3
             },
             {
               "cidade": "LIMEIRA",
               "clientes": 2
-            },
-            {
-              "cidade": "JUNDIAI",
-              "clientes": 2
-            },
-            {
-              "cidade": "VINHEDO",
-              "clientes": 2
-            },
-            {
-              "cidade": "CORDEIROPOLIS",
-              "clientes": 1
-            },
-            {
-              "cidade": "PAULINIA",
-              "clientes": 1
             },
             {
               "cidade": "NOVA ODESSA",
@@ -1407,11 +1470,15 @@ const RAIOX_VENDEDORES_DATA = {
               "clientes": 1
             },
             {
-              "cidade": "ITATIBA",
+              "cidade": "CORDEIROPOLIS",
               "clientes": 1
             },
             {
               "cidade": "INDAIATUBA",
+              "clientes": 1
+            },
+            {
+              "cidade": "PAULINIA",
               "clientes": 1
             },
             {
@@ -1423,7 +1490,7 @@ const RAIOX_VENDEDORES_DATA = {
               "clientes": 1
             },
             {
-              "cidade": "SAO JOSE DOS CAMPOS",
+              "cidade": "VINHEDO",
               "clientes": 1
             }
           ]
@@ -1435,11 +1502,13 @@ const RAIOX_VENDEDORES_DATA = {
           "nome": "BRUNO COSMO",
           "gerente": "EROCLES OLIVEIRA",
           "supervisor": "SUPERVISOR OFF - ES",
-          "total_clientes": 27,
+          "total_clientes": 25,
+          "clientes_atendidos": 14,
+          "ticket_medio": 376.24,
           "cidades": [
             {
               "cidade": "CARIACICA",
-              "clientes": 15
+              "clientes": 13
             },
             {
               "cidade": "VILA VELHA",
@@ -1467,6 +1536,8 @@ const RAIOX_VENDEDORES_DATA = {
           "gerente": "DANIEL DINIZ",
           "supervisor": "DANIEL DINIZ",
           "total_clientes": 0,
+          "clientes_atendidos": 0,
+          "ticket_medio": 0.0,
           "cidades": []
         },
         {
@@ -1475,8 +1546,10 @@ const RAIOX_VENDEDORES_DATA = {
           "chave": "SP-399",
           "nome": "BRYAN PALOPOLI",
           "gerente": "MARCUS TANAMACHI",
-          "supervisor": "MARCUS TANAMACHI",
-          "total_clientes": 608,
+          "supervisor": "ANDERSON CANAVEIS",
+          "total_clientes": 613,
+          "clientes_atendidos": 2,
+          "ticket_medio": 2964.15,
           "cidades": [
             {
               "cidade": "RIO DE JANEIRO",
@@ -1503,6 +1576,10 @@ const RAIOX_VENDEDORES_DATA = {
               "clientes": 6
             },
             {
+              "cidade": "NOVA IGUACU",
+              "clientes": 4
+            },
+            {
               "cidade": "INDAIATUBA",
               "clientes": 4
             },
@@ -1511,39 +1588,15 @@ const RAIOX_VENDEDORES_DATA = {
               "clientes": 4
             },
             {
-              "cidade": "NOVA IGUACU",
-              "clientes": 4
-            },
-            {
               "cidade": "SAO GONCALO",
               "clientes": 4
             },
             {
-              "cidade": "SAO ROQUE",
-              "clientes": 3
-            },
-            {
-              "cidade": "JARINU",
-              "clientes": 3
-            },
-            {
-              "cidade": "CARIACICA",
-              "clientes": 3
-            },
-            {
-              "cidade": "SAQUAREMA",
-              "clientes": 3
-            },
-            {
-              "cidade": "VILA VELHA",
-              "clientes": 3
-            },
-            {
-              "cidade": "SERRA",
-              "clientes": 3
-            },
-            {
               "cidade": "QUEIMADOS",
+              "clientes": 3
+            },
+            {
+              "cidade": "SAO BERNARDO DO CAMPO",
               "clientes": 3
             },
             {
@@ -1555,7 +1608,23 @@ const RAIOX_VENDEDORES_DATA = {
               "clientes": 3
             },
             {
-              "cidade": "ARMACAO DOS BUZ",
+              "cidade": "SAQUAREMA",
+              "clientes": 3
+            },
+            {
+              "cidade": "SAO ROQUE",
+              "clientes": 3
+            },
+            {
+              "cidade": "VILA VELHA",
+              "clientes": 3
+            },
+            {
+              "cidade": "SERRA",
+              "clientes": 3
+            },
+            {
+              "cidade": "CARIACICA",
               "clientes": 3
             },
             {
@@ -1563,11 +1632,19 @@ const RAIOX_VENDEDORES_DATA = {
               "clientes": 3
             },
             {
-              "cidade": "EMBU",
+              "cidade": "ARMACAO DOS BUZ",
+              "clientes": 3
+            },
+            {
+              "cidade": "JARINU",
+              "clientes": 3
+            },
+            {
+              "cidade": "ITABORAI",
               "clientes": 2
             },
             {
-              "cidade": "ARARUAMA",
+              "cidade": "GUARUJA",
               "clientes": 2
             },
             {
@@ -1575,27 +1652,11 @@ const RAIOX_VENDEDORES_DATA = {
               "clientes": 2
             },
             {
-              "cidade": "VALINHOS",
+              "cidade": "CAJAMAR",
               "clientes": 2
             },
             {
-              "cidade": "CARAPICUIBA",
-              "clientes": 2
-            },
-            {
-              "cidade": "ITABORAI",
-              "clientes": 2
-            },
-            {
-              "cidade": "SAO BERNARDO DO CAMPO",
-              "clientes": 2
-            },
-            {
-              "cidade": "PARATI",
-              "clientes": 2
-            },
-            {
-              "cidade": "OSASCO",
+              "cidade": "UBATUBA",
               "clientes": 2
             },
             {
@@ -1603,12 +1664,36 @@ const RAIOX_VENDEDORES_DATA = {
               "clientes": 2
             },
             {
+              "cidade": "CARAPICUIBA",
+              "clientes": 2
+            },
+            {
+              "cidade": "ARARUAMA",
+              "clientes": 2
+            },
+            {
+              "cidade": "OSASCO",
+              "clientes": 2
+            },
+            {
+              "cidade": "PARATI",
+              "clientes": 2
+            },
+            {
               "cidade": "VIANA",
               "clientes": 2
             },
             {
-              "cidade": "CAJAMAR",
+              "cidade": "VALINHOS",
               "clientes": 2
+            },
+            {
+              "cidade": "EMBU",
+              "clientes": 2
+            },
+            {
+              "cidade": "ALEGRE",
+              "clientes": 1
             },
             {
               "cidade": "JAPERI",
@@ -1623,15 +1708,11 @@ const RAIOX_VENDEDORES_DATA = {
               "clientes": 1
             },
             {
+              "cidade": "CARAGUATATUBA",
+              "clientes": 1
+            },
+            {
               "cidade": "DIADEMA",
-              "clientes": 1
-            },
-            {
-              "cidade": "GUARUJA",
-              "clientes": 1
-            },
-            {
-              "cidade": "ALEGRE",
               "clientes": 1
             },
             {
@@ -1639,11 +1720,15 @@ const RAIOX_VENDEDORES_DATA = {
               "clientes": 1
             },
             {
+              "cidade": "MAGE",
+              "clientes": 1
+            },
+            {
               "cidade": "JUNDIAI",
               "clientes": 1
             },
             {
-              "cidade": "PIRAPORA DO BOM JESUS",
+              "cidade": "SALTO",
               "clientes": 1
             },
             {
@@ -1651,7 +1736,7 @@ const RAIOX_VENDEDORES_DATA = {
               "clientes": 1
             },
             {
-              "cidade": "PIRACICABA",
+              "cidade": "PILAR DO SUL",
               "clientes": 1
             },
             {
@@ -1659,15 +1744,11 @@ const RAIOX_VENDEDORES_DATA = {
               "clientes": 1
             },
             {
-              "cidade": "PAULINIA",
-              "clientes": 1
-            },
-            {
               "cidade": "MAIRINQUE",
               "clientes": 1
             },
             {
-              "cidade": "MAGE",
+              "cidade": "PAULINIA",
               "clientes": 1
             },
             {
@@ -1679,19 +1760,19 @@ const RAIOX_VENDEDORES_DATA = {
               "clientes": 1
             },
             {
-              "cidade": "PILAR DO SUL",
+              "cidade": "PIRACICABA",
               "clientes": 1
             },
             {
-              "cidade": "SALTO",
-              "clientes": 1
-            },
-            {
-              "cidade": "SAO JOAO DE MER",
+              "cidade": "PIRAPORA DO BOM JESUS",
               "clientes": 1
             },
             {
               "cidade": "SEROPEDICA",
+              "clientes": 1
+            },
+            {
+              "cidade": "SAO JOAO DE MER",
               "clientes": 1
             },
             {
@@ -1705,31 +1786,23 @@ const RAIOX_VENDEDORES_DATA = {
           ]
         },
         {
-          "rca": 299,
-          "estado": "SP",
-          "chave": "SP-299",
-          "nome": "BRYAN PALOPOLI  - INATIVO",
-          "gerente": "MARCUS TANAMACHI",
-          "supervisor": "MARCUS TANAMACHI",
-          "total_clientes": 0,
-          "cidades": []
-        },
-        {
           "rca": 371,
           "estado": "SP",
           "chave": "SP-371",
           "nome": "CARLOS DE ALMEIDA",
           "gerente": "MARCUS TANAMACHI",
           "supervisor": "ANDERSON CANAVEIS",
-          "total_clientes": 47,
+          "total_clientes": 49,
+          "clientes_atendidos": 54,
+          "ticket_medio": 7872.99,
           "cidades": [
             {
               "cidade": "SAO PAULO",
-              "clientes": 35
+              "clientes": 37
             },
             {
               "cidade": "TABOAO DA SERRA",
-              "clientes": 5
+              "clientes": 6
             },
             {
               "cidade": "EMBU",
@@ -1737,7 +1810,7 @@ const RAIOX_VENDEDORES_DATA = {
             },
             {
               "cidade": "OSASCO",
-              "clientes": 2
+              "clientes": 1
             },
             {
               "cidade": "GUARUJA",
@@ -1753,6 +1826,8 @@ const RAIOX_VENDEDORES_DATA = {
           "gerente": "MARCUS TANAMACHI",
           "supervisor": "MARCUS TANAMACHI",
           "total_clientes": 2,
+          "clientes_atendidos": 3,
+          "ticket_medio": 113813.23,
           "cidades": [
             {
               "cidade": "BRASILIA",
@@ -1772,6 +1847,8 @@ const RAIOX_VENDEDORES_DATA = {
           "gerente": "MARCUS TANAMACHI",
           "supervisor": "MARCUS TANAMACHI",
           "total_clientes": 1,
+          "clientes_atendidos": 2,
+          "ticket_medio": 77484.0,
           "cidades": [
             {
               "cidade": "BRASILIA",
@@ -1785,20 +1862,22 @@ const RAIOX_VENDEDORES_DATA = {
           "chave": "SP-493",
           "nome": "CAROLINA SOUZA",
           "gerente": "MARCUS TANAMACHI",
-          "supervisor": "MARCUS TANAMACHI",
+          "supervisor": "ANDERSON CANAVEIS",
           "total_clientes": 28,
+          "clientes_atendidos": 29,
+          "ticket_medio": 666.63,
           "cidades": [
             {
               "cidade": "SAO PAULO",
-              "clientes": 7
-            },
-            {
-              "cidade": "RIBEIRAO PIRES",
-              "clientes": 6
+              "clientes": 8
             },
             {
               "cidade": "RIO GRANDE DA SERRA",
               "clientes": 6
+            },
+            {
+              "cidade": "RIBEIRAO PIRES",
+              "clientes": 5
             },
             {
               "cidade": "MAUA",
@@ -1821,22 +1900,24 @@ const RAIOX_VENDEDORES_DATA = {
           "nome": "CELSO OLIVEIRA",
           "gerente": "MARCUS TANAMACHI",
           "supervisor": "PRISCILLA BONACHE",
-          "total_clientes": 13,
+          "total_clientes": 12,
+          "clientes_atendidos": 11,
+          "ticket_medio": 1547.38,
           "cidades": [
             {
               "cidade": "IBITINGA",
-              "clientes": 8
+              "clientes": 9
             },
             {
               "cidade": "ITAPOLIS",
-              "clientes": 2
-            },
-            {
-              "cidade": "TABATINGA",
-              "clientes": 2
+              "clientes": 1
             },
             {
               "cidade": "NOVA EUROPA",
+              "clientes": 1
+            },
+            {
+              "cidade": "TABATINGA",
               "clientes": 1
             }
           ]
@@ -1847,12 +1928,14 @@ const RAIOX_VENDEDORES_DATA = {
           "chave": "SP-465",
           "nome": "CIARA PADULA",
           "gerente": "MARCUS TANAMACHI",
-          "supervisor": "MARCUS TANAMACHI",
-          "total_clientes": 17,
+          "supervisor": "PRISCILLA BONACHE",
+          "total_clientes": 10,
+          "clientes_atendidos": 19,
+          "ticket_medio": 2043.34,
           "cidades": [
             {
               "cidade": "TAUBATE",
-              "clientes": 13
+              "clientes": 6
             },
             {
               "cidade": "TREMEMBE",
@@ -1876,6 +1959,8 @@ const RAIOX_VENDEDORES_DATA = {
           "gerente": "DANIEL DINIZ",
           "supervisor": "DANIEL DINIZ",
           "total_clientes": 7,
+          "clientes_atendidos": 0,
+          "ticket_medio": 0.0,
           "cidades": [
             {
               "cidade": "RIO DE JANEIRO",
@@ -1884,33 +1969,47 @@ const RAIOX_VENDEDORES_DATA = {
           ]
         },
         {
+          "rca": 554,
+          "estado": "SP",
+          "chave": "SP-554",
+          "nome": "CRISTIAN MARINELLI",
+          "gerente": "MARCUS TANAMACHI",
+          "supervisor": "PRISCILLA BONACHE",
+          "total_clientes": 0,
+          "clientes_atendidos": 0,
+          "ticket_medio": 0.0,
+          "cidades": []
+        },
+        {
           "rca": 460,
           "estado": "SP",
           "chave": "SP-460",
           "nome": "CRISTIANE MORAIS",
           "gerente": "MARCUS TANAMACHI",
-          "supervisor": "MARCUS TANAMACHI",
-          "total_clientes": 61,
+          "supervisor": "PRISCILLA BONACHE",
+          "total_clientes": 62,
+          "clientes_atendidos": 65,
+          "ticket_medio": 2906.48,
           "cidades": [
             {
               "cidade": "SAO JOSE DOS CAMPOS",
-              "clientes": 46
+              "clientes": 45
             },
             {
               "cidade": "ITANHAEM",
               "clientes": 4
             },
             {
-              "cidade": "CRUZEIRO",
+              "cidade": "CACAPAVA",
               "clientes": 3
             },
             {
-              "cidade": "CACAPAVA",
-              "clientes": 2
+              "cidade": "PINDAMONHANGABA",
+              "clientes": 3
             },
             {
-              "cidade": "PINDAMONHANGABA",
-              "clientes": 2
+              "cidade": "CRUZEIRO",
+              "clientes": 3
             },
             {
               "cidade": "JACAREI",
@@ -1938,6 +2037,20 @@ const RAIOX_VENDEDORES_DATA = {
           "gerente": "DANIEL DINIZ",
           "supervisor": "DANIEL DINIZ",
           "total_clientes": 0,
+          "clientes_atendidos": 4,
+          "ticket_medio": 310374.81,
+          "cidades": []
+        },
+        {
+          "rca": 527,
+          "estado": "SP",
+          "chave": "SP-527",
+          "nome": "DANIEL DINIZ",
+          "gerente": "DANIEL DINIZ",
+          "supervisor": "DANIEL DINIZ",
+          "total_clientes": 0,
+          "clientes_atendidos": 2,
+          "ticket_medio": 292917.0,
           "cidades": []
         },
         {
@@ -1946,8 +2059,10 @@ const RAIOX_VENDEDORES_DATA = {
           "chave": "SP-466",
           "nome": "DANIELLE DOS SANTOS",
           "gerente": "MARCUS TANAMACHI",
-          "supervisor": "MARCUS TANAMACHI",
-          "total_clientes": 19,
+          "supervisor": "PRISCILLA BONACHE",
+          "total_clientes": 20,
+          "clientes_atendidos": 16,
+          "ticket_medio": 1675.0,
           "cidades": [
             {
               "cidade": "CUNHA",
@@ -1959,7 +2074,7 @@ const RAIOX_VENDEDORES_DATA = {
             },
             {
               "cidade": "LORENA",
-              "clientes": 5
+              "clientes": 6
             },
             {
               "cidade": "MOGI DAS CRUZES",
@@ -1978,18 +2093,32 @@ const RAIOX_VENDEDORES_DATA = {
           "nome": "DANIELLE MOURA",
           "gerente": "ALLAN PAES",
           "supervisor": "DANIELLE MOURA",
-          "total_clientes": 9,
+          "total_clientes": 42,
+          "clientes_atendidos": 69,
+          "ticket_medio": 9525.81,
           "cidades": [
             {
               "cidade": "RIO DE JANEIRO",
-              "clientes": 7
+              "clientes": 33
+            },
+            {
+              "cidade": "NOVA IGUACU",
+              "clientes": 4
+            },
+            {
+              "cidade": "MESQUITA",
+              "clientes": 2
+            },
+            {
+              "cidade": "BELFORD ROXO",
+              "clientes": 1
             },
             {
               "cidade": "NITEROI",
               "clientes": 1
             },
             {
-              "cidade": "NOVA IGUACU",
+              "cidade": "SAO JOAO DE MER",
               "clientes": 1
             }
           ]
@@ -2001,23 +2130,15 @@ const RAIOX_VENDEDORES_DATA = {
           "nome": "DEMETRIUS PELEGRINI",
           "gerente": "MARCUS TANAMACHI",
           "supervisor": "ANDERSON CANAVEIS",
-          "total_clientes": 1,
+          "total_clientes": 5,
+          "clientes_atendidos": 4,
+          "ticket_medio": 9102.95,
           "cidades": [
             {
               "cidade": "SAO PAULO",
-              "clientes": 1
+              "clientes": 5
             }
           ]
-        },
-        {
-          "rca": 432,
-          "estado": "SP",
-          "chave": "SP-432",
-          "nome": "DIEGO PAULINO",
-          "gerente": "DANIEL DINIZ",
-          "supervisor": "DANIEL DINIZ",
-          "total_clientes": 0,
-          "cidades": []
         },
         {
           "rca": 417,
@@ -2027,6 +2148,8 @@ const RAIOX_VENDEDORES_DATA = {
           "gerente": "ALLAN PAES",
           "supervisor": "DANIELLE MOURA",
           "total_clientes": 0,
+          "clientes_atendidos": 43,
+          "ticket_medio": 3593.24,
           "cidades": []
         },
         {
@@ -2036,11 +2159,13 @@ const RAIOX_VENDEDORES_DATA = {
           "nome": "DOUGLAS FERREIRA SILVA",
           "gerente": "FERNANDO RISSON",
           "supervisor": "FERNANDO RISSON",
-          "total_clientes": 4,
+          "total_clientes": 3,
+          "clientes_atendidos": 3,
+          "ticket_medio": 30752.99,
           "cidades": [
             {
               "cidade": "CONTAGEM",
-              "clientes": 4
+              "clientes": 3
             }
           ]
         },
@@ -2051,19 +2176,17 @@ const RAIOX_VENDEDORES_DATA = {
           "nome": "DOUGLAS SCHADE",
           "gerente": "EROCLES OLIVEIRA",
           "supervisor": "SUPERVISOR OFF - ES",
-          "total_clientes": 23,
+          "total_clientes": 6,
+          "clientes_atendidos": 93,
+          "ticket_medio": 1003.27,
           "cidades": [
             {
               "cidade": "SERRA",
-              "clientes": 19
+              "clientes": 4
             },
             {
               "cidade": "VITORIA",
-              "clientes": 3
-            },
-            {
-              "cidade": "VILA VELHA",
-              "clientes": 1
+              "clientes": 2
             }
           ]
         },
@@ -2074,7 +2197,9 @@ const RAIOX_VENDEDORES_DATA = {
           "nome": "DOUGLAS TEIXEIRA",
           "gerente": "MARCUS TANAMACHI",
           "supervisor": "PRISCILLA BONACHE",
-          "total_clientes": 18,
+          "total_clientes": 19,
+          "clientes_atendidos": 17,
+          "ticket_medio": 1745.76,
           "cidades": [
             {
               "cidade": "AMPARO",
@@ -2085,11 +2210,7 @@ const RAIOX_VENDEDORES_DATA = {
               "clientes": 3
             },
             {
-              "cidade": "BRAGANCA PAULISTA",
-              "clientes": 2
-            },
-            {
-              "cidade": "SOCORRO",
+              "cidade": "JAGUARIUNA",
               "clientes": 2
             },
             {
@@ -2097,11 +2218,19 @@ const RAIOX_VENDEDORES_DATA = {
               "clientes": 2
             },
             {
+              "cidade": "SOCORRO",
+              "clientes": 2
+            },
+            {
+              "cidade": "IRACEMAPOLIS",
+              "clientes": 1
+            },
+            {
               "cidade": "AGUAS DE LINDOIA",
               "clientes": 1
             },
             {
-              "cidade": "IRACEMAPOLIS",
+              "cidade": "BRAGANCA PAULISTA",
               "clientes": 1
             },
             {
@@ -2109,7 +2238,7 @@ const RAIOX_VENDEDORES_DATA = {
               "clientes": 1
             },
             {
-              "cidade": "JAGUARIUNA",
+              "cidade": "MONTE ALEGRE DO SUL",
               "clientes": 1
             },
             {
@@ -2123,16 +2252,6 @@ const RAIOX_VENDEDORES_DATA = {
           ]
         },
         {
-          "rca": 495,
-          "estado": "SP",
-          "chave": "SP-495",
-          "nome": "EDUARDO COUTO",
-          "gerente": "MARCUS TANAMACHI",
-          "supervisor": "MARCUS TANAMACHI",
-          "total_clientes": 0,
-          "cidades": []
-        },
-        {
           "rca": 462,
           "estado": "SP",
           "chave": "SP-462",
@@ -2140,6 +2259,8 @@ const RAIOX_VENDEDORES_DATA = {
           "gerente": "MARCUS TANAMACHI",
           "supervisor": "PRISCILLA BONACHE",
           "total_clientes": 1,
+          "clientes_atendidos": 1,
+          "ticket_medio": 39283.3,
           "cidades": [
             {
               "cidade": "SOROCABA",
@@ -2155,6 +2276,8 @@ const RAIOX_VENDEDORES_DATA = {
           "gerente": "EROCLES OLIVEIRA",
           "supervisor": "SUPERVISOR BALCAO - ES",
           "total_clientes": 3,
+          "clientes_atendidos": 18,
+          "ticket_medio": 19219.53,
           "cidades": [
             {
               "cidade": "SERRA",
@@ -2173,7 +2296,9 @@ const RAIOX_VENDEDORES_DATA = {
           "nome": "EUDES MORGAN",
           "gerente": "EROCLES OLIVEIRA",
           "supervisor": "SUPERVISOR OFF - ES",
-          "total_clientes": 76,
+          "total_clientes": 70,
+          "clientes_atendidos": 85,
+          "ticket_medio": 8098.4,
           "cidades": [
             {
               "cidade": "SERRA",
@@ -2181,34 +2306,34 @@ const RAIOX_VENDEDORES_DATA = {
             },
             {
               "cidade": "VILA VELHA",
-              "clientes": 14
-            },
-            {
-              "cidade": "VITORIA",
-              "clientes": 12
+              "clientes": 13
             },
             {
               "cidade": "CARIACICA",
-              "clientes": 7
+              "clientes": 9
             },
             {
-              "cidade": "LINHARES",
-              "clientes": 4
+              "cidade": "VITORIA",
+              "clientes": 8
             },
             {
               "cidade": "SAO MATEUS",
               "clientes": 3
             },
             {
-              "cidade": "CACHOEIRO DE IT",
+              "cidade": "LINHARES",
               "clientes": 3
+            },
+            {
+              "cidade": "VIANA",
+              "clientes": 2
             },
             {
               "cidade": "FUNDAO",
               "clientes": 2
             },
             {
-              "cidade": "VIANA",
+              "cidade": "CACHOEIRO DE IT",
               "clientes": 2
             },
             {
@@ -2216,11 +2341,11 @@ const RAIOX_VENDEDORES_DATA = {
               "clientes": 1
             },
             {
-              "cidade": "ARACRUZ",
+              "cidade": "COLATINA",
               "clientes": 1
             },
             {
-              "cidade": "GUARAPARI",
+              "cidade": "ARACRUZ",
               "clientes": 1
             },
             {
@@ -2228,15 +2353,11 @@ const RAIOX_VENDEDORES_DATA = {
               "clientes": 1
             },
             {
-              "cidade": "COLATINA",
+              "cidade": "GUARAPARI",
               "clientes": 1
             },
             {
               "cidade": "MARATAIZES",
-              "clientes": 1
-            },
-            {
-              "cidade": "MARECHAL FLORIA",
               "clientes": 1
             },
             {
@@ -2256,13 +2377,10 @@ const RAIOX_VENDEDORES_DATA = {
           "nome": "EVANDRO DORTA",
           "gerente": "MARCUS TANAMACHI",
           "supervisor": "PRISCILLA BONACHE",
-          "total_clientes": 1,
-          "cidades": [
-            {
-              "cidade": "PAULINIA",
-              "clientes": 1
-            }
-          ]
+          "total_clientes": 0,
+          "clientes_atendidos": 0,
+          "ticket_medio": 0.0,
+          "cidades": []
         },
         {
           "rca": 367,
@@ -2272,6 +2390,8 @@ const RAIOX_VENDEDORES_DATA = {
           "gerente": "DANIEL DINIZ",
           "supervisor": "DANIEL DINIZ",
           "total_clientes": 0,
+          "clientes_atendidos": 2,
+          "ticket_medio": 35230.79,
           "cidades": []
         },
         {
@@ -2282,6 +2402,8 @@ const RAIOX_VENDEDORES_DATA = {
           "gerente": "DANIEL DINIZ",
           "supervisor": "DANIEL DINIZ",
           "total_clientes": 0,
+          "clientes_atendidos": 0,
+          "ticket_medio": 0.0,
           "cidades": []
         },
         {
@@ -2291,7 +2413,9 @@ const RAIOX_VENDEDORES_DATA = {
           "nome": "FERNANDO BERTIN",
           "gerente": "MARCUS TANAMACHI",
           "supervisor": "PRISCILLA BONACHE",
-          "total_clientes": 18,
+          "total_clientes": 19,
+          "clientes_atendidos": 19,
+          "ticket_medio": 2456.64,
           "cidades": [
             {
               "cidade": "CERQUILHO",
@@ -2316,6 +2440,10 @@ const RAIOX_VENDEDORES_DATA = {
             {
               "cidade": "PORANGABA",
               "clientes": 1
+            },
+            {
+              "cidade": "SAO ROQUE",
+              "clientes": 1
             }
           ]
         },
@@ -2326,11 +2454,13 @@ const RAIOX_VENDEDORES_DATA = {
           "nome": "FERNANDO RISSON",
           "gerente": "FERNANDO RISSON",
           "supervisor": "FERNANDO RISSON",
-          "total_clientes": 341,
+          "total_clientes": 339,
+          "clientes_atendidos": 19,
+          "ticket_medio": 36738.74,
           "cidades": [
             {
               "cidade": "BELO HORIZONTE",
-              "clientes": 80
+              "clientes": 78
             },
             {
               "cidade": "CONTAGEM",
@@ -2664,15 +2794,46 @@ const RAIOX_VENDEDORES_DATA = {
           "chave": "SP-472",
           "nome": "FLAVIO RIBEIRO",
           "gerente": "MARCUS TANAMACHI",
-          "supervisor": "MARCUS TANAMACHI",
-          "total_clientes": 13,
+          "supervisor": "PRISCILLA BONACHE",
+          "total_clientes": 15,
+          "clientes_atendidos": 15,
+          "ticket_medio": 1793.69,
           "cidades": [
             {
               "cidade": "PINDAMONHANGABA",
-              "clientes": 12
+              "clientes": 14
             },
             {
               "cidade": "TAUBATE",
+              "clientes": 1
+            }
+          ]
+        },
+        {
+          "rca": 390,
+          "estado": "MG",
+          "chave": "MG-390",
+          "nome": "FRANCIELLE CARVALHO",
+          "gerente": "FERNANDO RISSON",
+          "supervisor": "FERNANDO RISSON",
+          "total_clientes": 11,
+          "clientes_atendidos": 5,
+          "ticket_medio": 2404.57,
+          "cidades": [
+            {
+              "cidade": "CONTAGEM",
+              "clientes": 6
+            },
+            {
+              "cidade": "BELO HORIZONTE",
+              "clientes": 3
+            },
+            {
+              "cidade": "BETIM",
+              "clientes": 1
+            },
+            {
+              "cidade": "DIVINOPOLIS",
               "clientes": 1
             }
           ]
@@ -2685,6 +2846,8 @@ const RAIOX_VENDEDORES_DATA = {
           "gerente": "MARCUS TANAMACHI",
           "supervisor": "PRISCILLA BONACHE",
           "total_clientes": 15,
+          "clientes_atendidos": 15,
+          "ticket_medio": 873.22,
           "cidades": [
             {
               "cidade": "SANTA BARBARA D OESTE",
@@ -2719,15 +2882,13 @@ const RAIOX_VENDEDORES_DATA = {
           "nome": "FRANZ BENEVIDES",
           "gerente": "EROCLES OLIVEIRA",
           "supervisor": "SUPERVISOR HIBRIDO ES",
-          "total_clientes": 25,
+          "total_clientes": 14,
+          "clientes_atendidos": 120,
+          "ticket_medio": 1263.84,
           "cidades": [
             {
               "cidade": "VENDA NOVA DO I",
-              "clientes": 7
-            },
-            {
-              "cidade": "DOMINGOS MARTIN",
-              "clientes": 4
+              "clientes": 5
             },
             {
               "cidade": "MARECHAL FLORIA",
@@ -2735,15 +2896,11 @@ const RAIOX_VENDEDORES_DATA = {
             },
             {
               "cidade": "AFONSO CLAUDIO",
-              "clientes": 3
-            },
-            {
-              "cidade": "SERRA",
               "clientes": 2
             },
             {
-              "cidade": "GUACUI",
-              "clientes": 2
+              "cidade": "BREJETUBA",
+              "clientes": 1
             },
             {
               "cidade": "ALFREDO CHAVES",
@@ -2754,11 +2911,7 @@ const RAIOX_VENDEDORES_DATA = {
               "clientes": 1
             },
             {
-              "cidade": "BREJETUBA",
-              "clientes": 1
-            },
-            {
-              "cidade": "CONCEICAO DO CA",
+              "cidade": "SERRA",
               "clientes": 1
             }
           ]
@@ -2771,7 +2924,54 @@ const RAIOX_VENDEDORES_DATA = {
           "gerente": "DANIEL DINIZ",
           "supervisor": "DANIEL DINIZ",
           "total_clientes": 0,
+          "clientes_atendidos": 0,
+          "ticket_medio": 0.0,
           "cidades": []
+        },
+        {
+          "rca": 267,
+          "estado": "SP",
+          "chave": "SP-267",
+          "nome": "GABRIEL RABBATH",
+          "gerente": "MARCUS TANAMACHI",
+          "supervisor": "ANDERSON CANAVEIS",
+          "total_clientes": 14,
+          "clientes_atendidos": 0,
+          "ticket_medio": 0.0,
+          "cidades": [
+            {
+              "cidade": "SAO JOSE DOS CAMPOS",
+              "clientes": 6
+            },
+            {
+              "cidade": "GUARATINGUETA",
+              "clientes": 2
+            },
+            {
+              "cidade": "JACAREI",
+              "clientes": 1
+            },
+            {
+              "cidade": "CAMPOS DO JORDAO",
+              "clientes": 1
+            },
+            {
+              "cidade": "LORENA",
+              "clientes": 1
+            },
+            {
+              "cidade": "MOGI DAS CRUZES",
+              "clientes": 1
+            },
+            {
+              "cidade": "TREMEMBE",
+              "clientes": 1
+            },
+            {
+              "cidade": "UBATUBA",
+              "clientes": 1
+            }
+          ]
         },
         {
           "rca": 402,
@@ -2781,6 +2981,8 @@ const RAIOX_VENDEDORES_DATA = {
           "gerente": "DANIEL DINIZ",
           "supervisor": "DANIEL DINIZ",
           "total_clientes": 0,
+          "clientes_atendidos": 111,
+          "ticket_medio": 911.39,
           "cidades": []
         },
         {
@@ -2790,15 +2992,17 @@ const RAIOX_VENDEDORES_DATA = {
           "nome": "GILSON DE OLIVEIRA",
           "gerente": "MARCUS TANAMACHI",
           "supervisor": "PRISCILLA BONACHE",
-          "total_clientes": 11,
+          "total_clientes": 13,
+          "clientes_atendidos": 11,
+          "ticket_medio": 1225.86,
           "cidades": [
+            {
+              "cidade": "JAU",
+              "clientes": 5
+            },
             {
               "cidade": "BARIRI",
               "clientes": 4
-            },
-            {
-              "cidade": "JAU",
-              "clientes": 3
             },
             {
               "cidade": "IGARACU DO TIETE",
@@ -2826,6 +3030,8 @@ const RAIOX_VENDEDORES_DATA = {
           "gerente": "MARCUS TANAMACHI",
           "supervisor": "PRISCILLA BONACHE",
           "total_clientes": 23,
+          "clientes_atendidos": 23,
+          "ticket_medio": 1758.59,
           "cidades": [
             {
               "cidade": "CAPIVARI",
@@ -2888,11 +3094,13 @@ const RAIOX_VENDEDORES_DATA = {
           "nome": "GISELLE BARFER",
           "gerente": "DANIEL DINIZ",
           "supervisor": "DANIEL DINIZ",
-          "total_clientes": 128,
+          "total_clientes": 125,
+          "clientes_atendidos": 180,
+          "ticket_medio": 1750.82,
           "cidades": [
             {
               "cidade": "MACAE",
-              "clientes": 41
+              "clientes": 37
             },
             {
               "cidade": "CABO FRIO",
@@ -2903,20 +3111,24 @@ const RAIOX_VENDEDORES_DATA = {
               "clientes": 19
             },
             {
-              "cidade": "RIO DAS OSTRAS",
-              "clientes": 11
+              "cidade": "ARMACAO DOS BUZ",
+              "clientes": 10
             },
             {
-              "cidade": "ARMACAO DOS BUZ",
-              "clientes": 7
+              "cidade": "RIO DAS OSTRAS",
+              "clientes": 8
+            },
+            {
+              "cidade": "PETROPOLIS",
+              "clientes": 6
             },
             {
               "cidade": "SAQUAREMA",
               "clientes": 5
             },
             {
-              "cidade": "PETROPOLIS",
-              "clientes": 5
+              "cidade": "SAO PEDRO DA AL",
+              "clientes": 4
             },
             {
               "cidade": "TERESOPOLIS",
@@ -2927,11 +3139,7 @@ const RAIOX_VENDEDORES_DATA = {
               "clientes": 4
             },
             {
-              "cidade": "ARRAIAL DO CABO",
-              "clientes": 3
-            },
-            {
-              "cidade": "SAO PEDRO DA AL",
+              "cidade": "CASIMIRO DE ABR",
               "clientes": 3
             },
             {
@@ -2939,15 +3147,15 @@ const RAIOX_VENDEDORES_DATA = {
               "clientes": 2
             },
             {
-              "cidade": "CASIMIRO DE ABR",
-              "clientes": 2
-            },
-            {
-              "cidade": "ARARUAMA",
+              "cidade": "IGUABA GRANDE",
               "clientes": 1
             },
             {
-              "cidade": "IGUABA GRANDE",
+              "cidade": "ARRAIAL DO CABO",
+              "clientes": 1
+            },
+            {
+              "cidade": "ARARUAMA",
               "clientes": 1
             },
             {
@@ -2957,27 +3165,19 @@ const RAIOX_VENDEDORES_DATA = {
           ]
         },
         {
-          "rca": 406,
-          "estado": "SP",
-          "chave": "SP-406",
-          "nome": "GONZALO LEIVA",
-          "gerente": "DANIEL DINIZ",
-          "supervisor": "DANIEL DINIZ",
-          "total_clientes": 0,
-          "cidades": []
-        },
-        {
           "rca": 502,
           "estado": "SP",
           "chave": "SP-502",
           "nome": "GUSTAVO MARTINS",
           "gerente": "MARCUS TANAMACHI",
           "supervisor": "ANDERSON CANAVEIS",
-          "total_clientes": 9,
+          "total_clientes": 10,
+          "clientes_atendidos": 10,
+          "ticket_medio": 730.19,
           "cidades": [
             {
               "cidade": "PRAIA GRANDE",
-              "clientes": 8
+              "clientes": 9
             },
             {
               "cidade": "SAO VICENTE",
@@ -2993,6 +3193,8 @@ const RAIOX_VENDEDORES_DATA = {
           "gerente": "DANIEL DINIZ",
           "supervisor": "DANIEL DINIZ",
           "total_clientes": 0,
+          "clientes_atendidos": 0,
+          "ticket_medio": 0.0,
           "cidades": []
         },
         {
@@ -3002,11 +3204,13 @@ const RAIOX_VENDEDORES_DATA = {
           "nome": "HELENA CAVALCANTI",
           "gerente": "MARCUS TANAMACHI",
           "supervisor": "ANDERSON CANAVEIS",
-          "total_clientes": 1,
+          "total_clientes": 3,
+          "clientes_atendidos": 1,
+          "ticket_medio": 598.8,
           "cidades": [
             {
               "cidade": "SAO BERNARDO DO CAMPO",
-              "clientes": 1
+              "clientes": 3
             }
           ]
         },
@@ -3018,6 +3222,8 @@ const RAIOX_VENDEDORES_DATA = {
           "gerente": "EROCLES OLIVEIRA",
           "supervisor": "SUPERVISOR HIBRIDO ES",
           "total_clientes": 0,
+          "clientes_atendidos": 0,
+          "ticket_medio": 0.0,
           "cidades": []
         },
         {
@@ -3027,8 +3233,14 @@ const RAIOX_VENDEDORES_DATA = {
           "nome": "IGOR OLIVEIRA",
           "gerente": "MARCUS TANAMACHI",
           "supervisor": "ANDERSON CANAVEIS",
-          "total_clientes": 4,
+          "total_clientes": 6,
+          "clientes_atendidos": 4,
+          "ticket_medio": 1961.81,
           "cidades": [
+            {
+              "cidade": "SAO PAULO",
+              "clientes": 2
+            },
             {
               "cidade": "COTIA",
               "clientes": 1
@@ -3042,8 +3254,25 @@ const RAIOX_VENDEDORES_DATA = {
               "clientes": 1
             },
             {
-              "cidade": "SAO PAULO",
+              "cidade": "ITAPECERICA DA SERRA",
               "clientes": 1
+            }
+          ]
+        },
+        {
+          "rca": 526,
+          "estado": "SP",
+          "chave": "SP-526",
+          "nome": "ISAIAS FALCHIONE",
+          "gerente": "MARCUS TANAMACHI",
+          "supervisor": "ANDERSON CANAVEIS",
+          "total_clientes": 3,
+          "clientes_atendidos": 2,
+          "ticket_medio": 872.65,
+          "cidades": [
+            {
+              "cidade": "SAO PAULO",
+              "clientes": 3
             }
           ]
         },
@@ -3055,6 +3284,8 @@ const RAIOX_VENDEDORES_DATA = {
           "gerente": "ALLAN PAES",
           "supervisor": "DANIELLE MOURA",
           "total_clientes": 2,
+          "clientes_atendidos": 2,
+          "ticket_medio": 310.87,
           "cidades": [
             {
               "cidade": "BELFORD ROXO",
@@ -3074,6 +3305,8 @@ const RAIOX_VENDEDORES_DATA = {
           "gerente": "FERNANDO RISSON",
           "supervisor": "FERNANDO RISSON",
           "total_clientes": 0,
+          "clientes_atendidos": 112,
+          "ticket_medio": 889.75,
           "cidades": []
         },
         {
@@ -3083,11 +3316,13 @@ const RAIOX_VENDEDORES_DATA = {
           "nome": "JEAN MENEZES",
           "gerente": "EROCLES OLIVEIRA",
           "supervisor": "SUPERVISOR HIBRIDO ES",
-          "total_clientes": 20,
+          "total_clientes": 9,
+          "clientes_atendidos": 186,
+          "ticket_medio": 421.05,
           "cidades": [
             {
               "cidade": "SERRA",
-              "clientes": 20
+              "clientes": 9
             }
           ]
         },
@@ -3099,16 +3334,8 @@ const RAIOX_VENDEDORES_DATA = {
           "gerente": "DANIEL DINIZ",
           "supervisor": "DANIEL DINIZ",
           "total_clientes": 0,
-          "cidades": []
-        },
-        {
-          "rca": 501,
-          "estado": "SP",
-          "chave": "SP-501",
-          "nome": "JESSICA LIMA -  OFF TRADE",
-          "gerente": "MARCUS TANAMACHI",
-          "supervisor": "PRISCILLA BONACHE",
-          "total_clientes": 0,
+          "clientes_atendidos": 11,
+          "ticket_medio": 857.29,
           "cidades": []
         },
         {
@@ -3118,7 +3345,9 @@ const RAIOX_VENDEDORES_DATA = {
           "nome": "JETER LUCIO SOARES",
           "gerente": "FERNANDO RISSON",
           "supervisor": "FERNANDO RISSON",
-          "total_clientes": 36,
+          "total_clientes": 37,
+          "clientes_atendidos": 33,
+          "ticket_medio": 10095.33,
           "cidades": [
             {
               "cidade": "POUSO ALEGRE",
@@ -3129,12 +3358,12 @@ const RAIOX_VENDEDORES_DATA = {
               "clientes": 5
             },
             {
-              "cidade": "ALFENAS",
+              "cidade": "VARGINHA",
               "clientes": 4
             },
             {
-              "cidade": "VARGINHA",
-              "clientes": 3
+              "cidade": "ALFENAS",
+              "clientes": 4
             },
             {
               "cidade": "OURO FINO",
@@ -3190,18 +3419,20 @@ const RAIOX_VENDEDORES_DATA = {
           "rca": 507,
           "estado": "SP",
           "chave": "SP-507",
-          "nome": "JOAO AUGUSTO -  OFF TRADE",
+          "nome": "JOAO AUGUSTO",
           "gerente": "MARCUS TANAMACHI",
           "supervisor": "ANDERSON CANAVEIS",
-          "total_clientes": 20,
+          "total_clientes": 9,
+          "clientes_atendidos": 7,
+          "ticket_medio": 982.36,
           "cidades": [
             {
               "cidade": "GUARUJA",
-              "clientes": 18
+              "clientes": 8
             },
             {
               "cidade": "SANTOS",
-              "clientes": 2
+              "clientes": 1
             }
           ]
         },
@@ -3213,6 +3444,8 @@ const RAIOX_VENDEDORES_DATA = {
           "gerente": "MARCUS TANAMACHI",
           "supervisor": "ANDERSON CANAVEIS",
           "total_clientes": 3,
+          "clientes_atendidos": 7,
+          "ticket_medio": 922.28,
           "cidades": [
             {
               "cidade": "SAO PAULO",
@@ -3228,6 +3461,8 @@ const RAIOX_VENDEDORES_DATA = {
           "gerente": "MARCUS TANAMACHI",
           "supervisor": "ANDERSON CANAVEIS",
           "total_clientes": 0,
+          "clientes_atendidos": 0,
+          "ticket_medio": 0.0,
           "cidades": []
         },
         {
@@ -3238,6 +3473,8 @@ const RAIOX_VENDEDORES_DATA = {
           "gerente": "ALLAN PAES",
           "supervisor": "ALLAN PAES",
           "total_clientes": 8,
+          "clientes_atendidos": 0,
+          "ticket_medio": 0.0,
           "cidades": [
             {
               "cidade": "RIO DE JANEIRO",
@@ -3257,6 +3494,8 @@ const RAIOX_VENDEDORES_DATA = {
           "gerente": "DANIEL DINIZ",
           "supervisor": "DANIEL DINIZ",
           "total_clientes": 1,
+          "clientes_atendidos": 23,
+          "ticket_medio": 1480.94,
           "cidades": [
             {
               "cidade": "PETROPOLIS",
@@ -3270,27 +3509,42 @@ const RAIOX_VENDEDORES_DATA = {
           "chave": "SP-516",
           "nome": "JOAQUIM ANGELO",
           "gerente": "MARCUS TANAMACHI",
-          "supervisor": "MARCUS TANAMACHI",
-          "total_clientes": 94,
+          "supervisor": "PRISCILLA BONACHE",
+          "total_clientes": 93,
+          "clientes_atendidos": 78,
+          "ticket_medio": 1345.19,
           "cidades": [
             {
               "cidade": "UBATUBA",
               "clientes": 34
             },
             {
-              "cidade": "CARAGUATATUBA",
-              "clientes": 31
-            },
-            {
               "cidade": "SAO SEBASTIAO",
-              "clientes": 24
+              "clientes": 32
             },
             {
-              "cidade": "ILHABELA",
-              "clientes": 4
+              "cidade": "CARAGUATATUBA",
+              "clientes": 27
+            }
+          ]
+        },
+        {
+          "rca": 962,
+          "estado": "SP",
+          "chave": "SP-962",
+          "nome": "JONATHAN HENRIQUE BURATTO",
+          "gerente": "MARCUS TANAMACHI",
+          "supervisor": "ANDERSON CANAVEIS",
+          "total_clientes": 2,
+          "clientes_atendidos": 1,
+          "ticket_medio": 1168.2,
+          "cidades": [
+            {
+              "cidade": "ITANHAEM",
+              "clientes": 1
             },
             {
-              "cidade": "LAGOINHA",
+              "cidade": "MONGAGUA",
               "clientes": 1
             }
           ]
@@ -3302,11 +3556,13 @@ const RAIOX_VENDEDORES_DATA = {
           "nome": "JOSE SILVA",
           "gerente": "MARCUS TANAMACHI",
           "supervisor": "ANDERSON CANAVEIS",
-          "total_clientes": 10,
+          "total_clientes": 9,
+          "clientes_atendidos": 9,
+          "ticket_medio": 686.76,
           "cidades": [
             {
               "cidade": "SAO PAULO",
-              "clientes": 6
+              "clientes": 5
             },
             {
               "cidade": "RIBEIRAO PIRES",
@@ -3325,15 +3581,58 @@ const RAIOX_VENDEDORES_DATA = {
           "nome": "JOSIETH LIMA",
           "gerente": "EROCLES OLIVEIRA",
           "supervisor": "SUPERVISOR HIBRIDO ES",
-          "total_clientes": 8,
+          "total_clientes": 4,
+          "clientes_atendidos": 46,
+          "ticket_medio": 2611.42,
           "cidades": [
             {
               "cidade": "CARIACICA",
-              "clientes": 6
+              "clientes": 3
             },
             {
               "cidade": "VIANA",
+              "clientes": 1
+            }
+          ]
+        },
+        {
+          "rca": 389,
+          "estado": "MG",
+          "chave": "MG-389",
+          "nome": "JOSUE DA SILVA RODRIGUES",
+          "gerente": "FERNANDO RISSON",
+          "supervisor": "FERNANDO RISSON",
+          "total_clientes": 10,
+          "clientes_atendidos": 7,
+          "ticket_medio": 4226.45,
+          "cidades": [
+            {
+              "cidade": "BORDA DA MATA",
               "clientes": 2
+            },
+            {
+              "cidade": "POCOS DE CALDAS",
+              "clientes": 2
+            },
+            {
+              "cidade": "POUSO ALEGRE",
+              "clientes": 2
+            },
+            {
+              "cidade": "BUENO BRANDAO",
+              "clientes": 1
+            },
+            {
+              "cidade": "ANDRADAS",
+              "clientes": 1
+            },
+            {
+              "cidade": "OURO FINO",
+              "clientes": 1
+            },
+            {
+              "cidade": "JACUTINGA",
+              "clientes": 1
             }
           ]
         },
@@ -3344,15 +3643,17 @@ const RAIOX_VENDEDORES_DATA = {
           "nome": "JOÃO SANTOS",
           "gerente": "FERNANDO RISSON",
           "supervisor": "FERNANDO RISSON",
-          "total_clientes": 159,
+          "total_clientes": 147,
+          "clientes_atendidos": 230,
+          "ticket_medio": 1125.34,
           "cidades": [
             {
               "cidade": "BELO HORIZONTE",
-              "clientes": 121
+              "clientes": 111
             },
             {
               "cidade": "BETIM",
-              "clientes": 22
+              "clientes": 20
             },
             {
               "cidade": "NOVA LIMA",
@@ -3379,11 +3680,13 @@ const RAIOX_VENDEDORES_DATA = {
           "nome": "KELLY RAMOS",
           "gerente": "ALLAN PAES",
           "supervisor": "DANIELLE MOURA",
-          "total_clientes": 3,
+          "total_clientes": 5,
+          "clientes_atendidos": 2,
+          "ticket_medio": 59003.94,
           "cidades": [
             {
               "cidade": "RIO DE JANEIRO",
-              "clientes": 3
+              "clientes": 5
             }
           ]
         },
@@ -3395,6 +3698,8 @@ const RAIOX_VENDEDORES_DATA = {
           "gerente": "ALLAN PAES",
           "supervisor": "DANIELLE MOURA",
           "total_clientes": 0,
+          "clientes_atendidos": 0,
+          "ticket_medio": 0.0,
           "cidades": []
         },
         {
@@ -3405,37 +3710,27 @@ const RAIOX_VENDEDORES_DATA = {
           "gerente": "FERNANDO RISSON",
           "supervisor": "FERNANDO RISSON",
           "total_clientes": 23,
+          "clientes_atendidos": 39,
+          "ticket_medio": 16743.38,
           "cidades": [
             {
               "cidade": "CONSELHEIRO LAFAIETE",
-              "clientes": 6
+              "clientes": 7
+            },
+            {
+              "cidade": "BELO HORIZONTE",
+              "clientes": 3
             },
             {
               "cidade": "CONTAGEM",
               "clientes": 3
             },
             {
-              "cidade": "BELO HORIZONTE",
-              "clientes": 2
-            },
-            {
               "cidade": "RIBEIRAO DAS NEVES",
               "clientes": 2
             },
             {
-              "cidade": "ITAUNA",
-              "clientes": 2
-            },
-            {
-              "cidade": "BETIM",
-              "clientes": 1
-            },
-            {
               "cidade": "CARMO DO CAJURU",
-              "clientes": 1
-            },
-            {
-              "cidade": "DIVINOPOLIS",
               "clientes": 1
             },
             {
@@ -3444,6 +3739,10 @@ const RAIOX_VENDEDORES_DATA = {
             },
             {
               "cidade": "ITABIRITO",
+              "clientes": 1
+            },
+            {
+              "cidade": "DIVINOPOLIS",
               "clientes": 1
             },
             {
@@ -3457,6 +3756,10 @@ const RAIOX_VENDEDORES_DATA = {
             {
               "cidade": "NOVA LIMA",
               "clientes": 1
+            },
+            {
+              "cidade": "NOVA SERRANA",
+              "clientes": 1
             }
           ]
         },
@@ -3467,19 +3770,25 @@ const RAIOX_VENDEDORES_DATA = {
           "nome": "LEONARDO FLOREZI",
           "gerente": "MARCUS TANAMACHI",
           "supervisor": "PRISCILLA BONACHE",
-          "total_clientes": 71,
+          "total_clientes": 85,
+          "clientes_atendidos": 72,
+          "ticket_medio": 1681.16,
           "cidades": [
             {
               "cidade": "CAMPINAS",
-              "clientes": 15
+              "clientes": 18
             },
             {
               "cidade": "PAULINIA",
-              "clientes": 12
+              "clientes": 13
             },
             {
               "cidade": "HORTOLANDIA",
-              "clientes": 6
+              "clientes": 7
+            },
+            {
+              "cidade": "MOGI GUACU",
+              "clientes": 7
             },
             {
               "cidade": "ITAPIRA",
@@ -3487,10 +3796,10 @@ const RAIOX_VENDEDORES_DATA = {
             },
             {
               "cidade": "SUMARE",
-              "clientes": 5
+              "clientes": 6
             },
             {
-              "cidade": "MOGI GUACU",
+              "cidade": "JAGUARIUNA",
               "clientes": 5
             },
             {
@@ -3502,15 +3811,15 @@ const RAIOX_VENDEDORES_DATA = {
               "clientes": 4
             },
             {
-              "cidade": "JAGUARIUNA",
-              "clientes": 4
+              "cidade": "RIBEIRAO PRETO",
+              "clientes": 2
             },
             {
               "cidade": "SANTA BARBARA D OESTE",
               "clientes": 2
             },
             {
-              "cidade": "ENGENHEIRO COELHO",
+              "cidade": "BRAGANCA PAULISTA",
               "clientes": 1
             },
             {
@@ -3522,7 +3831,7 @@ const RAIOX_VENDEDORES_DATA = {
               "clientes": 1
             },
             {
-              "cidade": "BRAGANCA PAULISTA",
+              "cidade": "JUNDIAI",
               "clientes": 1
             },
             {
@@ -3530,7 +3839,19 @@ const RAIOX_VENDEDORES_DATA = {
               "clientes": 1
             },
             {
+              "cidade": "ENGENHEIRO COELHO",
+              "clientes": 1
+            },
+            {
               "cidade": "PEDREIRA",
+              "clientes": 1
+            },
+            {
+              "cidade": "SANTO ANTONIO DE POSSE",
+              "clientes": 1
+            },
+            {
+              "cidade": "SAO JOAO DA BOA VISTA",
               "clientes": 1
             },
             {
@@ -3547,6 +3868,8 @@ const RAIOX_VENDEDORES_DATA = {
           "gerente": "DANIEL DINIZ",
           "supervisor": "DANIEL DINIZ",
           "total_clientes": 0,
+          "clientes_atendidos": 1,
+          "ticket_medio": 365668.17,
           "cidades": []
         },
         {
@@ -3557,6 +3880,8 @@ const RAIOX_VENDEDORES_DATA = {
           "gerente": "DANIEL DINIZ",
           "supervisor": "DANIEL DINIZ",
           "total_clientes": 0,
+          "clientes_atendidos": 0,
+          "ticket_medio": 0.0,
           "cidades": []
         },
         {
@@ -3566,7 +3891,9 @@ const RAIOX_VENDEDORES_DATA = {
           "nome": "LUCAS BUENO",
           "gerente": "MARCUS TANAMACHI",
           "supervisor": "PRISCILLA BONACHE",
-          "total_clientes": 21,
+          "total_clientes": 20,
+          "clientes_atendidos": 20,
+          "ticket_medio": 982.95,
           "cidades": [
             {
               "cidade": "VARZEA PAULISTA",
@@ -3583,10 +3910,6 @@ const RAIOX_VENDEDORES_DATA = {
             {
               "cidade": "JUNDIAI",
               "clientes": 2
-            },
-            {
-              "cidade": "SAO PAULO",
-              "clientes": 1
             }
           ]
         },
@@ -3598,6 +3921,8 @@ const RAIOX_VENDEDORES_DATA = {
           "gerente": "EROCLES OLIVEIRA",
           "supervisor": "SUPERVISOR OFF - ES",
           "total_clientes": 0,
+          "clientes_atendidos": 53,
+          "ticket_medio": 432.97,
           "cidades": []
         },
         {
@@ -3607,22 +3932,9 @@ const RAIOX_VENDEDORES_DATA = {
           "nome": "LUCELIA BARROS",
           "gerente": "MARCUS TANAMACHI",
           "supervisor": "ANDERSON CANAVEIS",
-          "total_clientes": 2,
-          "cidades": [
-            {
-              "cidade": "SAO PAULO",
-              "clientes": 2
-            }
-          ]
-        },
-        {
-          "rca": 258,
-          "estado": "SP",
-          "chave": "SP-258",
-          "nome": "LUCIANA DE OLIVEIRA",
-          "gerente": "DANIEL DINIZ",
-          "supervisor": "DANIEL DINIZ",
           "total_clientes": 0,
+          "clientes_atendidos": 1,
+          "ticket_medio": 809.11,
           "cidades": []
         },
         {
@@ -3633,25 +3945,23 @@ const RAIOX_VENDEDORES_DATA = {
           "gerente": "MARCUS TANAMACHI",
           "supervisor": "PRISCILLA BONACHE",
           "total_clientes": 29,
+          "clientes_atendidos": 31,
+          "ticket_medio": 1108.98,
           "cidades": [
             {
               "cidade": "AVARE",
-              "clientes": 7
+              "clientes": 8
             },
             {
               "cidade": "CERQUEIRA CESAR",
               "clientes": 4
             },
             {
-              "cidade": "ITAI",
-              "clientes": 3
-            },
-            {
               "cidade": "FARTURA",
               "clientes": 2
             },
             {
-              "cidade": "PIRAJU",
+              "cidade": "ITAI",
               "clientes": 2
             },
             {
@@ -3659,7 +3969,7 @@ const RAIOX_VENDEDORES_DATA = {
               "clientes": 2
             },
             {
-              "cidade": "TAQUARITUBA",
+              "cidade": "PIRAJU",
               "clientes": 2
             },
             {
@@ -3668,6 +3978,10 @@ const RAIOX_VENDEDORES_DATA = {
             },
             {
               "cidade": "IARAS",
+              "clientes": 1
+            },
+            {
+              "cidade": "BOFETE",
               "clientes": 1
             },
             {
@@ -3689,6 +4003,10 @@ const RAIOX_VENDEDORES_DATA = {
             {
               "cidade": "TAGUAI",
               "clientes": 1
+            },
+            {
+              "cidade": "TAQUARITUBA",
+              "clientes": 1
             }
           ]
         },
@@ -3699,7 +4017,9 @@ const RAIOX_VENDEDORES_DATA = {
           "nome": "LUIS MACHADO",
           "gerente": "MARCUS TANAMACHI",
           "supervisor": "ANDERSON CANAVEIS",
-          "total_clientes": 12,
+          "total_clientes": 13,
+          "clientes_atendidos": 11,
+          "ticket_medio": 770.54,
           "cidades": [
             {
               "cidade": "MIRACATU",
@@ -3722,11 +4042,15 @@ const RAIOX_VENDEDORES_DATA = {
               "clientes": 1
             },
             {
+              "cidade": "ELDORADO",
+              "clientes": 1
+            },
+            {
               "cidade": "CAJATI",
               "clientes": 1
             },
             {
-              "cidade": "ELDORADO",
+              "cidade": "PEDRO DE TOLEDO",
               "clientes": 1
             }
           ]
@@ -3739,6 +4063,8 @@ const RAIOX_VENDEDORES_DATA = {
           "gerente": "FERNANDO RISSON",
           "supervisor": "FERNANDO RISSON",
           "total_clientes": 0,
+          "clientes_atendidos": 14,
+          "ticket_medio": 13744.36,
           "cidades": []
         },
         {
@@ -3748,20 +4074,10 @@ const RAIOX_VENDEDORES_DATA = {
           "nome": "LUIZ RIGLER",
           "gerente": "MARCUS TANAMACHI",
           "supervisor": "PRISCILLA BONACHE",
-          "total_clientes": 17,
+          "total_clientes": 4,
+          "clientes_atendidos": 10,
+          "ticket_medio": 3392.98,
           "cidades": [
-            {
-              "cidade": "RIBEIRAO PRETO",
-              "clientes": 6
-            },
-            {
-              "cidade": "VIRADOURO",
-              "clientes": 4
-            },
-            {
-              "cidade": "SAO JOSE DO RIO PRETO",
-              "clientes": 3
-            },
             {
               "cidade": "FERNANDOPOLIS",
               "clientes": 2
@@ -3771,7 +4087,7 @@ const RAIOX_VENDEDORES_DATA = {
               "clientes": 1
             },
             {
-              "cidade": "PONGAI",
+              "cidade": "SAO JOSE DO RIO PRETO",
               "clientes": 1
             }
           ]
@@ -3783,42 +4099,32 @@ const RAIOX_VENDEDORES_DATA = {
           "nome": "MANUELA ZAPPACOSTA",
           "gerente": "MARCUS TANAMACHI",
           "supervisor": "PRISCILLA BONACHE",
-          "total_clientes": 70,
+          "total_clientes": 65,
+          "clientes_atendidos": 75,
+          "ticket_medio": 6025.76,
           "cidades": [
             {
               "cidade": "SAO PAULO",
-              "clientes": 21
-            },
-            {
-              "cidade": "SAO CARLOS",
-              "clientes": 4
-            },
-            {
-              "cidade": "RIBEIRAO PRETO",
-              "clientes": 3
-            },
-            {
-              "cidade": "PIRACICABA",
-              "clientes": 3
+              "clientes": 20
             },
             {
               "cidade": "LIMEIRA",
               "clientes": 3
             },
             {
+              "cidade": "RIBEIRAO PRETO",
+              "clientes": 3
+            },
+            {
+              "cidade": "SAO CARLOS",
+              "clientes": 3
+            },
+            {
+              "cidade": "PIRACICABA",
+              "clientes": 2
+            },
+            {
               "cidade": "ASSIS",
-              "clientes": 2
-            },
-            {
-              "cidade": "TUPA",
-              "clientes": 2
-            },
-            {
-              "cidade": "SAO BERNARDO DO CAMPO",
-              "clientes": 2
-            },
-            {
-              "cidade": "COTIA",
               "clientes": 2
             },
             {
@@ -3826,7 +4132,7 @@ const RAIOX_VENDEDORES_DATA = {
               "clientes": 2
             },
             {
-              "cidade": "SUZANO",
+              "cidade": "COTIA",
               "clientes": 2
             },
             {
@@ -3834,20 +4140,16 @@ const RAIOX_VENDEDORES_DATA = {
               "clientes": 2
             },
             {
-              "cidade": "AMERICO BRASILIENSE",
-              "clientes": 1
+              "cidade": "SAO BERNARDO DO CAMPO",
+              "clientes": 2
             },
             {
-              "cidade": "HORTOLANDIA",
-              "clientes": 1
+              "cidade": "TUPA",
+              "clientes": 2
             },
             {
-              "cidade": "DOIS CORREGOS",
-              "clientes": 1
-            },
-            {
-              "cidade": "BOM JESUS DOS PERDOES",
-              "clientes": 1
+              "cidade": "SUZANO",
+              "clientes": 2
             },
             {
               "cidade": "CAMPINAS",
@@ -3855,6 +4157,14 @@ const RAIOX_VENDEDORES_DATA = {
             },
             {
               "cidade": "CAMPO LIMPO PAULISTA",
+              "clientes": 1
+            },
+            {
+              "cidade": "BOM JESUS DOS PERDOES",
+              "clientes": 1
+            },
+            {
+              "cidade": "AMERICO BRASILIENSE",
               "clientes": 1
             },
             {
@@ -3866,11 +4176,15 @@ const RAIOX_VENDEDORES_DATA = {
               "clientes": 1
             },
             {
+              "cidade": "JAU",
+              "clientes": 1
+            },
+            {
               "cidade": "JAGUARIUNA",
               "clientes": 1
             },
             {
-              "cidade": "JAU",
+              "cidade": "HORTOLANDIA",
               "clientes": 1
             },
             {
@@ -3878,15 +4192,11 @@ const RAIOX_VENDEDORES_DATA = {
               "clientes": 1
             },
             {
-              "cidade": "GUARARAPES",
+              "cidade": "DOIS CORREGOS",
               "clientes": 1
             },
             {
               "cidade": "GUARULHOS",
-              "clientes": 1
-            },
-            {
-              "cidade": "PRESIDENTE EPITACIO",
               "clientes": 1
             },
             {
@@ -3898,11 +4208,11 @@ const RAIOX_VENDEDORES_DATA = {
               "clientes": 1
             },
             {
-              "cidade": "SANTA RITA DO PASSA QUATR",
+              "cidade": "RINCAO",
               "clientes": 1
             },
             {
-              "cidade": "RINCAO",
+              "cidade": "PRESIDENTE EPITACIO",
               "clientes": 1
             },
             {
@@ -3930,15 +4240,13 @@ const RAIOX_VENDEDORES_DATA = {
           "nome": "MARA DEPOLLI",
           "gerente": "EROCLES OLIVEIRA",
           "supervisor": "SUPERVISOR HIBRIDO ES",
-          "total_clientes": 30,
+          "total_clientes": 16,
+          "clientes_atendidos": 80,
+          "ticket_medio": 932.07,
           "cidades": [
             {
               "cidade": "CACHOEIRO DE IT",
-              "clientes": 29
-            },
-            {
-              "cidade": "CASTELO",
-              "clientes": 1
+              "clientes": 16
             }
           ]
         },
@@ -3950,6 +4258,8 @@ const RAIOX_VENDEDORES_DATA = {
           "gerente": "EROCLES OLIVEIRA",
           "supervisor": "SUPERVISOR HIBRIDO ES",
           "total_clientes": 0,
+          "clientes_atendidos": 0,
+          "ticket_medio": 0.0,
           "cidades": []
         },
         {
@@ -3960,6 +4270,8 @@ const RAIOX_VENDEDORES_DATA = {
           "gerente": "DANIEL DINIZ",
           "supervisor": "DANIEL DINIZ",
           "total_clientes": 0,
+          "clientes_atendidos": 9,
+          "ticket_medio": 59427.83,
           "cidades": []
         },
         {
@@ -3970,10 +4282,12 @@ const RAIOX_VENDEDORES_DATA = {
           "gerente": "EROCLES OLIVEIRA",
           "supervisor": "SUPERVISOR OFF - ES",
           "total_clientes": 12,
+          "clientes_atendidos": 12,
+          "ticket_medio": 3108.93,
           "cidades": [
             {
               "cidade": "VILA VELHA",
-              "clientes": 8
+              "clientes": 7
             },
             {
               "cidade": "CARIACICA",
@@ -3981,6 +4295,10 @@ const RAIOX_VENDEDORES_DATA = {
             },
             {
               "cidade": "GUARAPARI",
+              "clientes": 1
+            },
+            {
+              "cidade": "SERRA",
               "clientes": 1
             },
             {
@@ -4000,12 +4318,10 @@ const RAIOX_VENDEDORES_DATA = {
           "nome": "MARCELO PEREIRA",
           "gerente": "MARCUS TANAMACHI",
           "supervisor": "PRISCILLA BONACHE",
-          "total_clientes": 6,
+          "total_clientes": 5,
+          "clientes_atendidos": 5,
+          "ticket_medio": 3663.35,
           "cidades": [
-            {
-              "cidade": "MOGI MIRIM",
-              "clientes": 2
-            },
             {
               "cidade": "ESPIRITO SANTO DO PINHAL",
               "clientes": 1
@@ -4019,20 +4335,14 @@ const RAIOX_VENDEDORES_DATA = {
               "clientes": 1
             },
             {
+              "cidade": "MOGI MIRIM",
+              "clientes": 1
+            },
+            {
               "cidade": "SANTO ANTONIO DE POSSE",
               "clientes": 1
             }
           ]
-        },
-        {
-          "rca": 313,
-          "estado": "SP",
-          "chave": "SP-313",
-          "nome": "MARCELO SANCHEZ",
-          "gerente": "MARCUS TANAMACHI",
-          "supervisor": "MARCUS TANAMACHI",
-          "total_clientes": 0,
-          "cidades": []
         },
         {
           "rca": 438,
@@ -4041,16 +4351,10 @@ const RAIOX_VENDEDORES_DATA = {
           "nome": "MARCIA RITA",
           "gerente": "MARCUS TANAMACHI",
           "supervisor": "ANDERSON CANAVEIS",
-          "total_clientes": 3,
+          "total_clientes": 1,
+          "clientes_atendidos": 17,
+          "ticket_medio": 19395.79,
           "cidades": [
-            {
-              "cidade": "COTIA",
-              "clientes": 1
-            },
-            {
-              "cidade": "JANDIRA",
-              "clientes": 1
-            },
             {
               "cidade": "SAO PAULO",
               "clientes": 1
@@ -4065,6 +4369,8 @@ const RAIOX_VENDEDORES_DATA = {
           "gerente": "MARCUS TANAMACHI",
           "supervisor": "MARCUS TANAMACHI",
           "total_clientes": 3,
+          "clientes_atendidos": 5,
+          "ticket_medio": 288348.24,
           "cidades": [
             {
               "cidade": "EMBU",
@@ -4083,11 +4389,13 @@ const RAIOX_VENDEDORES_DATA = {
           "nome": "MARIA PEREIRA",
           "gerente": "MARCUS TANAMACHI",
           "supervisor": "ANDERSON CANAVEIS",
-          "total_clientes": 2,
+          "total_clientes": 1,
+          "clientes_atendidos": 0,
+          "ticket_medio": 0.0,
           "cidades": [
             {
               "cidade": "SAO PAULO",
-              "clientes": 2
+              "clientes": 1
             }
           ]
         },
@@ -4099,6 +4407,8 @@ const RAIOX_VENDEDORES_DATA = {
           "gerente": "MARCUS TANAMACHI",
           "supervisor": "PRISCILLA BONACHE",
           "total_clientes": 2,
+          "clientes_atendidos": 2,
+          "ticket_medio": 6508.08,
           "cidades": [
             {
               "cidade": "ASSIS",
@@ -4116,12 +4426,14 @@ const RAIOX_VENDEDORES_DATA = {
           "chave": "SP-467",
           "nome": "MARLENE RODRIGUES",
           "gerente": "MARCUS TANAMACHI",
-          "supervisor": "MARCUS TANAMACHI",
-          "total_clientes": 21,
+          "supervisor": "ANDERSON CANAVEIS",
+          "total_clientes": 28,
+          "clientes_atendidos": 26,
+          "ticket_medio": 5621.84,
           "cidades": [
             {
               "cidade": "GUARULHOS",
-              "clientes": 19
+              "clientes": 26
             },
             {
               "cidade": "SANTO ANDRE",
@@ -4141,6 +4453,8 @@ const RAIOX_VENDEDORES_DATA = {
           "gerente": "FERNANDO RISSON",
           "supervisor": "FERNANDO RISSON",
           "total_clientes": 78,
+          "clientes_atendidos": 95,
+          "ticket_medio": 2779.82,
           "cidades": [
             {
               "cidade": "BELO HORIZONTE",
@@ -4151,12 +4465,12 @@ const RAIOX_VENDEDORES_DATA = {
               "clientes": 13
             },
             {
-              "cidade": "LAGOA SANTA",
-              "clientes": 11
+              "cidade": "VESPASIANO",
+              "clientes": 9
             },
             {
-              "cidade": "VESPASIANO",
-              "clientes": 8
+              "cidade": "LAGOA SANTA",
+              "clientes": 9
             },
             {
               "cidade": "CONTAGEM",
@@ -4167,7 +4481,7 @@ const RAIOX_VENDEDORES_DATA = {
               "clientes": 5
             },
             {
-              "cidade": "PEDRO LEOPOLDO",
+              "cidade": "SETE LAGOAS",
               "clientes": 3
             },
             {
@@ -4175,12 +4489,12 @@ const RAIOX_VENDEDORES_DATA = {
               "clientes": 3
             },
             {
-              "cidade": "ESMERALDAS",
+              "cidade": "PEDRO LEOPOLDO",
               "clientes": 2
             },
             {
-              "cidade": "JABOTICATUBAS",
-              "clientes": 1
+              "cidade": "ESMERALDAS",
+              "clientes": 2
             },
             {
               "cidade": "BETIM",
@@ -4191,11 +4505,11 @@ const RAIOX_VENDEDORES_DATA = {
               "clientes": 1
             },
             {
-              "cidade": "MONTES CLAROS",
+              "cidade": "JABOTICATUBAS",
               "clientes": 1
             },
             {
-              "cidade": "SANTANA DO RIACHO",
+              "cidade": "MONTES CLAROS",
               "clientes": 1
             },
             {
@@ -4203,7 +4517,7 @@ const RAIOX_VENDEDORES_DATA = {
               "clientes": 1
             },
             {
-              "cidade": "SETE LAGOAS",
+              "cidade": "SANTANA DO RIACHO",
               "clientes": 1
             }
           ]
@@ -4216,9 +4530,60 @@ const RAIOX_VENDEDORES_DATA = {
           "gerente": "DANIEL DINIZ",
           "supervisor": "DANIEL DINIZ",
           "total_clientes": 1,
+          "clientes_atendidos": 0,
+          "ticket_medio": 0.0,
           "cidades": [
             {
               "cidade": "RIO DAS OSTRAS",
+              "clientes": 1
+            }
+          ]
+        },
+        {
+          "rca": 553,
+          "estado": "SP",
+          "chave": "SP-553",
+          "nome": "OLACIR MACHADO",
+          "gerente": "MARCUS TANAMACHI",
+          "supervisor": "PRISCILLA BONACHE",
+          "total_clientes": 11,
+          "clientes_atendidos": 4,
+          "ticket_medio": 1816.1,
+          "cidades": [
+            {
+              "cidade": "BEBEDOURO",
+              "clientes": 2
+            },
+            {
+              "cidade": "TAQUARITINGA",
+              "clientes": 2
+            },
+            {
+              "cidade": "BARRETOS",
+              "clientes": 1
+            },
+            {
+              "cidade": "JABOTICABAL",
+              "clientes": 1
+            },
+            {
+              "cidade": "BARRINHA",
+              "clientes": 1
+            },
+            {
+              "cidade": "PITANGUEIRAS",
+              "clientes": 1
+            },
+            {
+              "cidade": "SANTA ERNESTINA",
+              "clientes": 1
+            },
+            {
+              "cidade": "SAO JOSE DO RIO PRETO",
+              "clientes": 1
+            },
+            {
+              "cidade": "SAO PAULO",
               "clientes": 1
             }
           ]
@@ -4230,26 +4595,24 @@ const RAIOX_VENDEDORES_DATA = {
           "nome": "OZISLLAN RAMALHO DE SOUZA",
           "gerente": "DANIEL DINIZ",
           "supervisor": "EROCLES OLIVEIRA",
-          "total_clientes": 18,
+          "total_clientes": 19,
+          "clientes_atendidos": 13,
+          "ticket_medio": 2060.66,
           "cidades": [
             {
               "cidade": "SAO MATEUS",
-              "clientes": 8
+              "clientes": 11
             },
             {
               "cidade": "JAGUARE",
-              "clientes": 6
+              "clientes": 5
             },
             {
               "cidade": "MARATAIZES",
               "clientes": 2
             },
             {
-              "cidade": "ESPIRITO SANTO",
-              "clientes": 1
-            },
-            {
-              "cidade": "ITAPEMIRIM",
+              "cidade": "CONCEICAO DA BA",
               "clientes": 1
             }
           ]
@@ -4261,34 +4624,24 @@ const RAIOX_VENDEDORES_DATA = {
           "nome": "PATRICIA RAMOS",
           "gerente": "MARCUS TANAMACHI",
           "supervisor": "PRISCILLA BONACHE",
-          "total_clientes": 33,
+          "total_clientes": 28,
+          "clientes_atendidos": 36,
+          "ticket_medio": 1839.35,
           "cidades": [
             {
               "cidade": "CAMPINAS",
               "clientes": 22
             },
             {
-              "cidade": "LIMEIRA",
-              "clientes": 2
-            },
-            {
-              "cidade": "AMPARO",
-              "clientes": 1
-            },
-            {
-              "cidade": "COTIA",
-              "clientes": 1
-            },
-            {
               "cidade": "HORTOLANDIA",
               "clientes": 1
             },
             {
-              "cidade": "INDAIATUBA",
+              "cidade": "JUNDIAI",
               "clientes": 1
             },
             {
-              "cidade": "JUNDIAI",
+              "cidade": "LIMEIRA",
               "clientes": 1
             },
             {
@@ -4302,10 +4655,6 @@ const RAIOX_VENDEDORES_DATA = {
             {
               "cidade": "VINHEDO",
               "clientes": 1
-            },
-            {
-              "cidade": "VOTORANTIM",
-              "clientes": 1
             }
           ]
         },
@@ -4316,18 +4665,20 @@ const RAIOX_VENDEDORES_DATA = {
           "nome": "PATRICIO MASSAGARDI",
           "gerente": "MARCUS TANAMACHI",
           "supervisor": "ANDERSON CANAVEIS",
-          "total_clientes": 10,
+          "total_clientes": 5,
+          "clientes_atendidos": 11,
+          "ticket_medio": 1423.54,
           "cidades": [
             {
               "cidade": "MAUA",
-              "clientes": 7
+              "clientes": 2
             },
             {
               "cidade": "SANTO ANDRE",
               "clientes": 2
             },
             {
-              "cidade": "SAO BERNARDO DO CAMPO",
+              "cidade": "GUARULHOS",
               "clientes": 1
             }
           ]
@@ -4338,23 +4689,25 @@ const RAIOX_VENDEDORES_DATA = {
           "chave": "SP-471",
           "nome": "PAULO JUNIOR",
           "gerente": "MARCUS TANAMACHI",
-          "supervisor": "MARCUS TANAMACHI",
-          "total_clientes": 21,
+          "supervisor": "PRISCILLA BONACHE",
+          "total_clientes": 19,
+          "clientes_atendidos": 22,
+          "ticket_medio": 1232.74,
           "cidades": [
             {
               "cidade": "SANTA ISABEL",
               "clientes": 10
             },
             {
+              "cidade": "ARUJA",
+              "clientes": 3
+            },
+            {
               "cidade": "GUARAREMA",
-              "clientes": 4
+              "clientes": 3
             },
             {
               "cidade": "IGARATA",
-              "clientes": 4
-            },
-            {
-              "cidade": "ARUJA",
               "clientes": 3
             }
           ]
@@ -4366,23 +4719,25 @@ const RAIOX_VENDEDORES_DATA = {
           "nome": "PAULO MOREIRA",
           "gerente": "MARCUS TANAMACHI",
           "supervisor": "ANDERSON CANAVEIS",
-          "total_clientes": 21,
+          "total_clientes": 19,
+          "clientes_atendidos": 19,
+          "ticket_medio": 1041.96,
           "cidades": [
             {
               "cidade": "SANTOS",
               "clientes": 11
             },
             {
-              "cidade": "SAO VICENTE",
-              "clientes": 5
+              "cidade": "CUBATAO",
+              "clientes": 3
             },
             {
-              "cidade": "CUBATAO",
-              "clientes": 4
+              "cidade": "SAO VICENTE",
+              "clientes": 3
             },
             {
               "cidade": "PRAIA GRANDE",
-              "clientes": 1
+              "clientes": 2
             }
           ]
         },
@@ -4393,15 +4748,13 @@ const RAIOX_VENDEDORES_DATA = {
           "nome": "PAULO SALES",
           "gerente": "MARCUS TANAMACHI",
           "supervisor": "PRISCILLA BONACHE",
-          "total_clientes": 9,
+          "total_clientes": 6,
+          "clientes_atendidos": 7,
+          "ticket_medio": 3457.66,
           "cidades": [
             {
               "cidade": "SOROCABA",
               "clientes": 4
-            },
-            {
-              "cidade": "SAO ROQUE",
-              "clientes": 2
             },
             {
               "cidade": "ARACOIABA DA SERRA",
@@ -4409,10 +4762,6 @@ const RAIOX_VENDEDORES_DATA = {
             },
             {
               "cidade": "IPERO",
-              "clientes": 1
-            },
-            {
-              "cidade": "CAPELA DO ALTO",
               "clientes": 1
             }
           ]
@@ -4424,26 +4773,20 @@ const RAIOX_VENDEDORES_DATA = {
           "nome": "PAULO THOMAZI",
           "gerente": "MARCUS TANAMACHI",
           "supervisor": "PRISCILLA BONACHE",
-          "total_clientes": 15,
+          "total_clientes": 16,
+          "clientes_atendidos": 10,
+          "ticket_medio": 4339.94,
           "cidades": [
             {
               "cidade": "LIMEIRA",
-              "clientes": 4
-            },
-            {
-              "cidade": "SUMARE",
-              "clientes": 2
-            },
-            {
-              "cidade": "BAURU",
-              "clientes": 1
+              "clientes": 5
             },
             {
               "cidade": "CAMPINAS",
-              "clientes": 1
+              "clientes": 3
             },
             {
-              "cidade": "BEBEDOURO",
+              "cidade": "BAURU",
               "clientes": 1
             },
             {
@@ -4451,11 +4794,7 @@ const RAIOX_VENDEDORES_DATA = {
               "clientes": 1
             },
             {
-              "cidade": "GUARARAPES",
-              "clientes": 1
-            },
-            {
-              "cidade": "ITAQUAQUECETUBA",
+              "cidade": "SANTA BARBARA D OESTE",
               "clientes": 1
             },
             {
@@ -4469,6 +4808,14 @@ const RAIOX_VENDEDORES_DATA = {
             {
               "cidade": "SOCORRO",
               "clientes": 1
+            },
+            {
+              "cidade": "SOROCABA",
+              "clientes": 1
+            },
+            {
+              "cidade": "SUMARE",
+              "clientes": 1
             }
           ]
         },
@@ -4479,11 +4826,13 @@ const RAIOX_VENDEDORES_DATA = {
           "nome": "PRISCILLA BONACHE",
           "gerente": "MARCUS TANAMACHI",
           "supervisor": "PRISCILLA BONACHE",
-          "total_clientes": 9,
+          "total_clientes": 7,
+          "clientes_atendidos": 12,
+          "ticket_medio": 73691.49,
           "cidades": [
             {
               "cidade": "CAMPINAS",
-              "clientes": 3
+              "clientes": 2
             },
             {
               "cidade": "PAULINIA",
@@ -4496,22 +4845,8 @@ const RAIOX_VENDEDORES_DATA = {
             {
               "cidade": "TAUBATE",
               "clientes": 1
-            },
-            {
-              "cidade": "VALINHOS",
-              "clientes": 1
             }
           ]
-        },
-        {
-          "rca": 319,
-          "estado": "SP",
-          "chave": "SP-319",
-          "nome": "RAFAEL FONSECA",
-          "gerente": "MARCUS TANAMACHI",
-          "supervisor": "MARCUS TANAMACHI",
-          "total_clientes": 0,
-          "cidades": []
         },
         {
           "rca": 515,
@@ -4520,45 +4855,43 @@ const RAIOX_VENDEDORES_DATA = {
           "nome": "RAFAEL REIS",
           "gerente": "MARCUS TANAMACHI",
           "supervisor": "ANDERSON CANAVEIS",
-          "total_clientes": 21,
+          "total_clientes": 11,
+          "clientes_atendidos": 20,
+          "ticket_medio": 1690.88,
           "cidades": [
             {
               "cidade": "SAO PAULO",
-              "clientes": 9
+              "clientes": 6
+            },
+            {
+              "cidade": "ITAPECERICA DA SERRA",
+              "clientes": 2
             },
             {
               "cidade": "BARUERI",
-              "clientes": 4
-            },
-            {
-              "cidade": "COTIA",
-              "clientes": 2
+              "clientes": 1
             },
             {
               "cidade": "FRANCO DA ROCHA",
               "clientes": 1
             },
             {
-              "cidade": "CARAPICUIBA",
-              "clientes": 1
-            },
-            {
-              "cidade": "ITAPECERICA DA SERRA",
-              "clientes": 1
-            },
-            {
-              "cidade": "PIRAPORA DO BOM JESUS",
-              "clientes": 1
-            },
-            {
-              "cidade": "SANTANA DE PARNAIBA",
-              "clientes": 1
-            },
-            {
-              "cidade": "VARZEA PAULISTA",
+              "cidade": "COTIA",
               "clientes": 1
             }
           ]
+        },
+        {
+          "rca": 506,
+          "estado": "SP",
+          "chave": "SP-506",
+          "nome": "RAPHAEL CAMPOS",
+          "gerente": "MARCUS TANAMACHI",
+          "supervisor": "ANDERSON CANAVEIS",
+          "total_clientes": 0,
+          "clientes_atendidos": 0,
+          "ticket_medio": 0.0,
+          "cidades": []
         },
         {
           "rca": 155,
@@ -4567,15 +4900,17 @@ const RAIOX_VENDEDORES_DATA = {
           "nome": "RAPHAEL SANTOS",
           "gerente": "DANIEL DINIZ",
           "supervisor": "DANIEL DINIZ",
-          "total_clientes": 139,
+          "total_clientes": 142,
+          "clientes_atendidos": 184,
+          "ticket_medio": 1456.77,
           "cidades": [
             {
               "cidade": "ARMACAO DOS BUZ",
-              "clientes": 74
+              "clientes": 77
             },
             {
               "cidade": "CABO FRIO",
-              "clientes": 27
+              "clientes": 26
             },
             {
               "cidade": "NITEROI",
@@ -4586,19 +4921,23 @@ const RAIOX_VENDEDORES_DATA = {
               "clientes": 6
             },
             {
-              "cidade": "ARRAIAL DO CABO",
+              "cidade": "RIO DE JANEIRO",
               "clientes": 5
             },
             {
               "cidade": "SAQUAREMA",
-              "clientes": 5
+              "clientes": 4
             },
             {
-              "cidade": "RIO DE JANEIRO",
+              "cidade": "ARRAIAL DO CABO",
+              "clientes": 4
+            },
+            {
+              "cidade": "MARICA",
               "clientes": 3
             },
             {
-              "cidade": "BELFORD ROXO",
+              "cidade": "SAO PEDRO DA AL",
               "clientes": 2
             },
             {
@@ -4606,15 +4945,11 @@ const RAIOX_VENDEDORES_DATA = {
               "clientes": 2
             },
             {
-              "cidade": "SAO PEDRO DA AL",
-              "clientes": 2
-            },
-            {
-              "cidade": "MACAE",
+              "cidade": "BELFORD ROXO",
               "clientes": 1
             },
             {
-              "cidade": "MARICA",
+              "cidade": "MACAE",
               "clientes": 1
             },
             {
@@ -4630,23 +4965,13 @@ const RAIOX_VENDEDORES_DATA = {
           "nome": "RAQUEL ARAUJO",
           "gerente": "EROCLES OLIVEIRA",
           "supervisor": "SUPERVISOR HIBRIDO ES",
-          "total_clientes": 23,
+          "total_clientes": 11,
+          "clientes_atendidos": 57,
+          "ticket_medio": 3143.57,
           "cidades": [
             {
               "cidade": "ARACRUZ",
-              "clientes": 10
-            },
-            {
-              "cidade": "IBIRACU",
-              "clientes": 3
-            },
-            {
-              "cidade": "COLATINA",
-              "clientes": 2
-            },
-            {
-              "cidade": "JOAO NEIVA",
-              "clientes": 2
+              "clientes": 4
             },
             {
               "cidade": "SANTA MARIA DE",
@@ -4654,6 +4979,10 @@ const RAIOX_VENDEDORES_DATA = {
             },
             {
               "cidade": "FUNDAO",
+              "clientes": 1
+            },
+            {
+              "cidade": "IBIRACU",
               "clientes": 1
             },
             {
@@ -4671,46 +5000,34 @@ const RAIOX_VENDEDORES_DATA = {
           ]
         },
         {
-          "rca": 481,
-          "estado": "SP",
-          "chave": "SP-481",
-          "nome": "RENAN SOUZA",
-          "gerente": "MARCUS TANAMACHI",
-          "supervisor": "PRISCILLA BONACHE",
-          "total_clientes": 0,
-          "cidades": []
-        },
-        {
           "rca": 468,
           "estado": "SP",
           "chave": "SP-468",
           "nome": "RENATO JUNIOR",
           "gerente": "MARCUS TANAMACHI",
-          "supervisor": "MARCUS TANAMACHI",
-          "total_clientes": 44,
+          "supervisor": "ANDERSON CANAVEIS",
+          "total_clientes": 45,
+          "clientes_atendidos": 49,
+          "ticket_medio": 6077.97,
           "cidades": [
             {
               "cidade": "SAO PAULO",
-              "clientes": 34
+              "clientes": 35
             },
             {
               "cidade": "GUARULHOS",
-              "clientes": 4
-            },
-            {
-              "cidade": "POA",
-              "clientes": 3
+              "clientes": 5
             },
             {
               "cidade": "ITAQUAQUECETUBA",
-              "clientes": 1
+              "clientes": 2
+            },
+            {
+              "cidade": "POA",
+              "clientes": 2
             },
             {
               "cidade": "MAIRIPORA",
-              "clientes": 1
-            },
-            {
-              "cidade": "SUZANO",
               "clientes": 1
             }
           ]
@@ -4722,18 +5039,12 @@ const RAIOX_VENDEDORES_DATA = {
           "nome": "RICARDO CLAUDIO",
           "gerente": "EROCLES OLIVEIRA",
           "supervisor": "SUPERVISOR HIBRIDO ES",
-          "total_clientes": 5,
+          "total_clientes": 1,
+          "clientes_atendidos": 40,
+          "ticket_medio": 2967.63,
           "cidades": [
             {
-              "cidade": "SAO MATEUS",
-              "clientes": 3
-            },
-            {
               "cidade": "CONCEICAO DA BA",
-              "clientes": 1
-            },
-            {
-              "cidade": "NOVA VENECIA",
               "clientes": 1
             }
           ]
@@ -4746,6 +5057,8 @@ const RAIOX_VENDEDORES_DATA = {
           "gerente": "MARCUS TANAMACHI",
           "supervisor": "PRISCILLA BONACHE",
           "total_clientes": 1,
+          "clientes_atendidos": 1,
+          "ticket_medio": 1674.0,
           "cidades": [
             {
               "cidade": "PORTO FELIZ",
@@ -4759,24 +5072,22 @@ const RAIOX_VENDEDORES_DATA = {
           "chave": "SP-463",
           "nome": "ROBERTO DOS SANTOS",
           "gerente": "MARCUS TANAMACHI",
-          "supervisor": "MARCUS TANAMACHI",
-          "total_clientes": 32,
+          "supervisor": "ANDERSON CANAVEIS",
+          "total_clientes": 28,
+          "clientes_atendidos": 32,
+          "ticket_medio": 1360.82,
           "cidades": [
             {
               "cidade": "MOGI DAS CRUZES",
-              "clientes": 23
+              "clientes": 21
             },
             {
               "cidade": "BIRITIBA MIRIM",
               "clientes": 2
             },
             {
-              "cidade": "SANTA BRANCA",
+              "cidade": "SAO PAULO",
               "clientes": 2
-            },
-            {
-              "cidade": "CACAPAVA",
-              "clientes": 1
             },
             {
               "cidade": "PARAIBUNA",
@@ -4787,11 +5098,7 @@ const RAIOX_VENDEDORES_DATA = {
               "clientes": 1
             },
             {
-              "cidade": "SAO PAULO",
-              "clientes": 1
-            },
-            {
-              "cidade": "TAUBATE",
+              "cidade": "SANTA BRANCA",
               "clientes": 1
             }
           ]
@@ -4803,7 +5110,9 @@ const RAIOX_VENDEDORES_DATA = {
           "nome": "ROBSON DA SILVA",
           "gerente": "MARCUS TANAMACHI",
           "supervisor": "ANDERSON CANAVEIS",
-          "total_clientes": 15,
+          "total_clientes": 16,
+          "clientes_atendidos": 14,
+          "ticket_medio": 4276.91,
           "cidades": [
             {
               "cidade": "SAO PAULO",
@@ -4814,15 +5123,11 @@ const RAIOX_VENDEDORES_DATA = {
               "clientes": 3
             },
             {
-              "cidade": "COTIA",
-              "clientes": 1
-            },
-            {
               "cidade": "BERTIOGA",
               "clientes": 1
             },
             {
-              "cidade": "MONGAGUA",
+              "cidade": "COTIA",
               "clientes": 1
             },
             {
@@ -4831,6 +5136,10 @@ const RAIOX_VENDEDORES_DATA = {
             },
             {
               "cidade": "PERUIBE",
+              "clientes": 1
+            },
+            {
+              "cidade": "MONGAGUA",
               "clientes": 1
             },
             {
@@ -4844,6 +5153,10 @@ const RAIOX_VENDEDORES_DATA = {
             {
               "cidade": "SANTOS",
               "clientes": 1
+            },
+            {
+              "cidade": "SAO JOSE DOS CAMPOS",
+              "clientes": 1
             }
           ]
         },
@@ -4855,21 +5168,23 @@ const RAIOX_VENDEDORES_DATA = {
           "gerente": "MARCUS TANAMACHI",
           "supervisor": "PRISCILLA BONACHE",
           "total_clientes": 54,
+          "clientes_atendidos": 54,
+          "ticket_medio": 1531.4,
           "cidades": [
             {
               "cidade": "BOTUCATU",
-              "clientes": 45
+              "clientes": 47
             },
             {
               "cidade": "PARDINHO",
-              "clientes": 4
-            },
-            {
-              "cidade": "AREIOPOLIS",
-              "clientes": 2
+              "clientes": 3
             },
             {
               "cidade": "BAURU",
+              "clientes": 1
+            },
+            {
+              "cidade": "AREIOPOLIS",
               "clientes": 1
             },
             {
@@ -4883,17 +5198,165 @@ const RAIOX_VENDEDORES_DATA = {
           ]
         },
         {
+          "rca": 523,
+          "estado": "SP",
+          "chave": "SP-523",
+          "nome": "RONALDO BASSI",
+          "gerente": "MARCUS TANAMACHI",
+          "supervisor": "PRISCILLA BONACHE",
+          "total_clientes": 47,
+          "clientes_atendidos": 6,
+          "ticket_medio": 4609.08,
+          "cidades": [
+            {
+              "cidade": "VIRADOURO",
+              "clientes": 9
+            },
+            {
+              "cidade": "OLIMPIA",
+              "clientes": 7
+            },
+            {
+              "cidade": "SAO PAULO",
+              "clientes": 4
+            },
+            {
+              "cidade": "BEBEDOURO",
+              "clientes": 4
+            },
+            {
+              "cidade": "CATANDUVA",
+              "clientes": 3
+            },
+            {
+              "cidade": "MONTE AZUL PAULISTA",
+              "clientes": 2
+            },
+            {
+              "cidade": "COLINA",
+              "clientes": 2
+            },
+            {
+              "cidade": "BARRETOS",
+              "clientes": 2
+            },
+            {
+              "cidade": "JABORANDI",
+              "clientes": 2
+            },
+            {
+              "cidade": "GUAIRA",
+              "clientes": 1
+            },
+            {
+              "cidade": "MORRO AGUDO",
+              "clientes": 1
+            },
+            {
+              "cidade": "MONTE ALTO",
+              "clientes": 1
+            },
+            {
+              "cidade": "GUARACI",
+              "clientes": 1
+            },
+            {
+              "cidade": "PITANGUEIRAS",
+              "clientes": 1
+            },
+            {
+              "cidade": "PIRANGI",
+              "clientes": 1
+            },
+            {
+              "cidade": "SANTA ADELIA",
+              "clientes": 1
+            },
+            {
+              "cidade": "RIBEIRAO PRETO",
+              "clientes": 1
+            },
+            {
+              "cidade": "SERTAOZINHO",
+              "clientes": 1
+            },
+            {
+              "cidade": "SEVERINIA",
+              "clientes": 1
+            },
+            {
+              "cidade": "TAQUARITINGA",
+              "clientes": 1
+            },
+            {
+              "cidade": "TERRA ROXA",
+              "clientes": 1
+            }
+          ]
+        },
+        {
+          "rca": 405,
+          "estado": "MG",
+          "chave": "MG-405",
+          "nome": "RONALDO MESQUITA JUNIOR",
+          "gerente": "FERNANDO RISSON",
+          "supervisor": "FERNANDO RISSON",
+          "total_clientes": 33,
+          "clientes_atendidos": 12,
+          "ticket_medio": 1009.76,
+          "cidades": [
+            {
+              "cidade": "DIVINOPOLIS",
+              "clientes": 28
+            },
+            {
+              "cidade": "CARMO DA MATA",
+              "clientes": 1
+            },
+            {
+              "cidade": "CARMO DO CAJURU",
+              "clientes": 1
+            },
+            {
+              "cidade": "PERDIGAO",
+              "clientes": 1
+            },
+            {
+              "cidade": "SAO GONCALO DO PARA",
+              "clientes": 1
+            },
+            {
+              "cidade": "SAO SEBASTIAO DO OES",
+              "clientes": 1
+            }
+          ]
+        },
+        {
           "rca": 510,
           "estado": "SP",
           "chave": "SP-510",
           "nome": "ROSANA AFFONSO",
           "gerente": "MARCUS TANAMACHI",
           "supervisor": "PRISCILLA BONACHE",
-          "total_clientes": 10,
+          "total_clientes": 13,
+          "clientes_atendidos": 13,
+          "ticket_medio": 912.92,
           "cidades": [
             {
               "cidade": "SOROCABA",
               "clientes": 9
+            },
+            {
+              "cidade": "AGUAS DE SAO PEDRO",
+              "clientes": 1
+            },
+            {
+              "cidade": "IBIUNA",
+              "clientes": 1
+            },
+            {
+              "cidade": "SAO PEDRO",
+              "clientes": 1
             },
             {
               "cidade": "SOCORRO",
@@ -4909,6 +5372,8 @@ const RAIOX_VENDEDORES_DATA = {
           "gerente": "DANIEL DINIZ",
           "supervisor": "DANIEL DINIZ",
           "total_clientes": 0,
+          "clientes_atendidos": 66,
+          "ticket_medio": 716.34,
           "cidades": []
         },
         {
@@ -4917,9 +5382,32 @@ const RAIOX_VENDEDORES_DATA = {
           "chave": "SP-519",
           "nome": "SANDRO ALVES",
           "gerente": "MARCUS TANAMACHI",
-          "supervisor": "MARCUS TANAMACHI",
-          "total_clientes": 0,
-          "cidades": []
+          "supervisor": "ANDERSON CANAVEIS",
+          "total_clientes": 9,
+          "clientes_atendidos": 6,
+          "ticket_medio": 843.4,
+          "cidades": [
+            {
+              "cidade": "SAO PAULO",
+              "clientes": 4
+            },
+            {
+              "cidade": "TABOAO DA SERRA",
+              "clientes": 2
+            },
+            {
+              "cidade": "COTIA",
+              "clientes": 1
+            },
+            {
+              "cidade": "SAO BERNARDO DO CAMPO",
+              "clientes": 1
+            },
+            {
+              "cidade": "SANTO ANDRE",
+              "clientes": 1
+            }
+          ]
         },
         {
           "rca": 331,
@@ -4929,6 +5417,8 @@ const RAIOX_VENDEDORES_DATA = {
           "gerente": "FERNANDO RISSON",
           "supervisor": "FERNANDO RISSON",
           "total_clientes": 14,
+          "clientes_atendidos": 42,
+          "ticket_medio": 2610.87,
           "cidades": [
             {
               "cidade": "JUIZ DE FORA",
@@ -4941,13 +5431,56 @@ const RAIOX_VENDEDORES_DATA = {
           ]
         },
         {
+          "rca": 521,
+          "estado": "SP",
+          "chave": "SP-521",
+          "nome": "SILVIO LIMA",
+          "gerente": "MARCUS TANAMACHI",
+          "supervisor": "ANDERSON CANAVEIS",
+          "total_clientes": 24,
+          "clientes_atendidos": 10,
+          "ticket_medio": 1134.38,
+          "cidades": [
+            {
+              "cidade": "SAO PAULO",
+              "clientes": 12
+            },
+            {
+              "cidade": "COTIA",
+              "clientes": 4
+            },
+            {
+              "cidade": "BARUERI",
+              "clientes": 4
+            },
+            {
+              "cidade": "CARAPICUIBA",
+              "clientes": 1
+            },
+            {
+              "cidade": "FRANCISCO MORATO",
+              "clientes": 1
+            },
+            {
+              "cidade": "OSASCO",
+              "clientes": 1
+            },
+            {
+              "cidade": "PIRAPORA DO BOM JESUS",
+              "clientes": 1
+            }
+          ]
+        },
+        {
           "rca": 461,
           "estado": "SP",
           "chave": "SP-461",
           "nome": "SUELY SANTOS",
           "gerente": "MARCUS TANAMACHI",
-          "supervisor": "MARCUS TANAMACHI",
-          "total_clientes": 36,
+          "supervisor": "ANDERSON CANAVEIS",
+          "total_clientes": 35,
+          "clientes_atendidos": 36,
+          "ticket_medio": 1971.32,
           "cidades": [
             {
               "cidade": "FERRAZ DE VASCONCELOS",
@@ -4955,7 +5488,7 @@ const RAIOX_VENDEDORES_DATA = {
             },
             {
               "cidade": "MOGI DAS CRUZES",
-              "clientes": 8
+              "clientes": 7
             },
             {
               "cidade": "SAO PAULO",
@@ -4982,27 +5515,29 @@ const RAIOX_VENDEDORES_DATA = {
           "nome": "TIAGO ANDRADE",
           "gerente": "FERNANDO RISSON",
           "supervisor": "FERNANDO RISSON",
-          "total_clientes": 97,
+          "total_clientes": 94,
+          "clientes_atendidos": 126,
+          "ticket_medio": 789.27,
           "cidades": [
             {
               "cidade": "BELO HORIZONTE",
-              "clientes": 77
+              "clientes": 73
             },
             {
               "cidade": "NOVA LIMA",
-              "clientes": 9
+              "clientes": 10
             },
             {
               "cidade": "CONTAGEM",
-              "clientes": 5
-            },
-            {
-              "cidade": "BETIM",
-              "clientes": 2
+              "clientes": 6
             },
             {
               "cidade": "SABARA",
               "clientes": 2
+            },
+            {
+              "cidade": "BETIM",
+              "clientes": 1
             },
             {
               "cidade": "LAGOA SANTA",
@@ -5022,16 +5557,8 @@ const RAIOX_VENDEDORES_DATA = {
           "gerente": "EROCLES OLIVEIRA",
           "supervisor": "SUPERVISOR HIBRIDO ES",
           "total_clientes": 0,
-          "cidades": []
-        },
-        {
-          "rca": 480,
-          "estado": "SP",
-          "chave": "SP-480",
-          "nome": "VITORIA VIEIRA",
-          "gerente": "MARCUS TANAMACHI",
-          "supervisor": "ANDERSON CANAVEIS",
-          "total_clientes": 0,
+          "clientes_atendidos": 166,
+          "ticket_medio": 671.07,
           "cidades": []
         },
         {
@@ -5041,7 +5568,9 @@ const RAIOX_VENDEDORES_DATA = {
           "nome": "VIVIANI ALVES",
           "gerente": "ALLAN PAES",
           "supervisor": "DANIELLE MOURA",
-          "total_clientes": 84,
+          "total_clientes": 87,
+          "clientes_atendidos": 7,
+          "ticket_medio": 17793.72,
           "cidades": [
             {
               "cidade": "CURITIBA",
@@ -5049,7 +5578,7 @@ const RAIOX_VENDEDORES_DATA = {
             },
             {
               "cidade": "RIO DE JANEIRO",
-              "clientes": 14
+              "clientes": 16
             },
             {
               "cidade": "MARINGA",
@@ -5060,32 +5589,16 @@ const RAIOX_VENDEDORES_DATA = {
               "clientes": 5
             },
             {
+              "cidade": "SAO PAULO",
+              "clientes": 4
+            },
+            {
               "cidade": "FLORIANOPOLIS",
               "clientes": 4
             },
             {
-              "cidade": "SAO PAULO",
-              "clientes": 3
-            },
-            {
               "cidade": "ITAJAI",
               "clientes": 3
-            },
-            {
-              "cidade": "NATAL",
-              "clientes": 2
-            },
-            {
-              "cidade": "MARICA",
-              "clientes": 1
-            },
-            {
-              "cidade": "MANGARATIBA",
-              "clientes": 1
-            },
-            {
-              "cidade": "GUARULHOS",
-              "clientes": 1
             },
             {
               "cidade": "BALNEARIO CAMBO",
@@ -5096,7 +5609,27 @@ const RAIOX_VENDEDORES_DATA = {
               "clientes": 1
             },
             {
+              "cidade": "MARICA",
+              "clientes": 1
+            },
+            {
+              "cidade": "MANGARATIBA",
+              "clientes": 1
+            },
+            {
+              "cidade": "ITAQUAQUECETUBA",
+              "clientes": 1
+            },
+            {
+              "cidade": "GUARULHOS",
+              "clientes": 1
+            },
+            {
               "cidade": "PINHAIS",
+              "clientes": 1
+            },
+            {
+              "cidade": "NATAL",
               "clientes": 1
             },
             {
@@ -5117,6 +5650,8 @@ const RAIOX_VENDEDORES_DATA = {
           "gerente": "ALLAN PAES",
           "supervisor": "DANIELLE MOURA",
           "total_clientes": 1,
+          "clientes_atendidos": 0,
+          "ticket_medio": 0.0,
           "cidades": [
             {
               "cidade": "RIO DE JANEIRO",
@@ -5132,6 +5667,8 @@ const RAIOX_VENDEDORES_DATA = {
           "gerente": "DANIEL DINIZ",
           "supervisor": "DANIEL DINIZ",
           "total_clientes": 0,
+          "clientes_atendidos": 12,
+          "ticket_medio": 16103.26,
           "cidades": []
         },
         {
@@ -5141,12 +5678,10 @@ const RAIOX_VENDEDORES_DATA = {
           "nome": "WANDO MACHADO",
           "gerente": "MARCUS TANAMACHI",
           "supervisor": "ANDERSON CANAVEIS",
-          "total_clientes": 2,
+          "total_clientes": 1,
+          "clientes_atendidos": 11,
+          "ticket_medio": 12653.92,
           "cidades": [
-            {
-              "cidade": "CAMPINAS",
-              "clientes": 1
-            },
             {
               "cidade": "SAO PAULO",
               "clientes": 1
@@ -5161,6 +5696,8 @@ const RAIOX_VENDEDORES_DATA = {
           "gerente": "DANIEL DINIZ",
           "supervisor": "EROCLES OLIVEIRA",
           "total_clientes": 2,
+          "clientes_atendidos": 2,
+          "ticket_medio": 2401.0,
           "cidades": [
             {
               "cidade": "ARACRUZ",
@@ -5179,7 +5716,9 @@ const RAIOX_VENDEDORES_DATA = {
           "nome": "WILLIAM ALVES DA SILVA",
           "gerente": "FERNANDO RISSON",
           "supervisor": "FERNANDO RISSON",
-          "total_clientes": 17,
+          "total_clientes": 18,
+          "clientes_atendidos": 28,
+          "ticket_medio": 5451.15,
           "cidades": [
             {
               "cidade": "JUIZ DE FORA",
@@ -5187,6 +5726,10 @@ const RAIOX_VENDEDORES_DATA = {
             },
             {
               "cidade": "BARBACENA",
+              "clientes": 1
+            },
+            {
+              "cidade": "CHACARA",
               "clientes": 1
             }
           ]
@@ -5198,7 +5741,9 @@ const RAIOX_VENDEDORES_DATA = {
           "nome": "WILLIAM GONCALVES",
           "gerente": "MARCUS TANAMACHI",
           "supervisor": "ANDERSON CANAVEIS",
-          "total_clientes": 47,
+          "total_clientes": 48,
+          "clientes_atendidos": 40,
+          "ticket_medio": 3029.42,
           "cidades": [
             {
               "cidade": "SAO BERNARDO DO CAMPO",
@@ -5206,18 +5751,22 @@ const RAIOX_VENDEDORES_DATA = {
             },
             {
               "cidade": "SAO PAULO",
-              "clientes": 17
+              "clientes": 14
             },
             {
               "cidade": "DIADEMA",
-              "clientes": 6
+              "clientes": 7
             },
             {
               "cidade": "SANTO ANDRE",
-              "clientes": 4
+              "clientes": 6
             },
             {
               "cidade": "JUNDIAI",
+              "clientes": 1
+            },
+            {
+              "cidade": "MAUA",
               "clientes": 1
             }
           ]
@@ -5229,11 +5778,13 @@ const RAIOX_VENDEDORES_DATA = {
           "nome": "ZEINALDO DE OLIVEIRA",
           "gerente": "DANIEL DINIZ",
           "supervisor": "DANIEL DINIZ",
-          "total_clientes": 39,
+          "total_clientes": 36,
+          "clientes_atendidos": 50,
+          "ticket_medio": 1096.94,
           "cidades": [
             {
               "cidade": "RIO DAS OSTRAS",
-              "clientes": 21
+              "clientes": 20
             },
             {
               "cidade": "CASIMIRO DE ABR",
@@ -5241,7 +5792,7 @@ const RAIOX_VENDEDORES_DATA = {
             },
             {
               "cidade": "CABO FRIO",
-              "clientes": 6
+              "clientes": 4
             },
             {
               "cidade": "MACAE",
@@ -5257,42 +5808,38 @@ const RAIOX_VENDEDORES_DATA = {
       "regioes": [
         {
           "cidade": "RIO DE JANEIRO",
-          "clientes": 423
+          "clientes": 453
         },
         {
           "cidade": "SAO PAULO",
-          "clientes": 347
+          "clientes": 374
         },
         {
           "cidade": "BELO HORIZONTE",
-          "clientes": 310
+          "clientes": 295
         },
         {
           "cidade": "ARMACAO DOS BUZ",
-          "clientes": 85
+          "clientes": 91
         },
         {
           "cidade": "CONTAGEM",
-          "clientes": 70
-        },
-        {
-          "cidade": "SERRA",
-          "clientes": 67
+          "clientes": 73
         },
         {
           "cidade": "CAMPINAS",
-          "clientes": 62
-        },
-        {
-          "cidade": "CABO FRIO",
-          "clientes": 52
+          "clientes": 67
         },
         {
           "cidade": "SAO JOSE DOS CAMPOS",
-          "clientes": 47
+          "clientes": 52
         },
         {
-          "cidade": "BETIM",
+          "cidade": "CABO FRIO",
+          "clientes": 49
+        },
+        {
+          "cidade": "GUARULHOS",
           "clientes": 47
         },
         {
@@ -5300,119 +5847,115 @@ const RAIOX_VENDEDORES_DATA = {
           "clientes": 47
         },
         {
-          "cidade": "MACAE",
-          "clientes": 45
+          "cidade": "BOTUCATU",
+          "clientes": 47
         },
         {
-          "cidade": "BOTUCATU",
-          "clientes": 45
+          "cidade": "BETIM",
+          "clientes": 44
+        },
+        {
+          "cidade": "SERRA",
+          "clientes": 41
+        },
+        {
+          "cidade": "MACAE",
+          "clientes": 41
         },
         {
           "cidade": "CURITIBA",
           "clientes": 39
         },
         {
-          "cidade": "GUARULHOS",
-          "clientes": 38
-        },
-        {
-          "cidade": "VILA VELHA",
-          "clientes": 34
-        },
-        {
-          "cidade": "RIO DAS OSTRAS",
-          "clientes": 34
-        },
-        {
           "cidade": "UBATUBA",
-          "clientes": 34
+          "clientes": 37
         },
         {
-          "cidade": "CARIACICA",
-          "clientes": 32
+          "cidade": "DIVINOPOLIS",
+          "clientes": 35
         },
         {
-          "cidade": "MOGI DAS CRUZES",
-          "clientes": 32
-        },
-        {
-          "cidade": "CACHOEIRO DE IT",
-          "clientes": 32
+          "cidade": "SAO SEBASTIAO",
+          "clientes": 33
         },
         {
           "cidade": "RIBEIRAO DAS NEVES",
           "clientes": 31
         },
         {
-          "cidade": "CARAGUATATUBA",
+          "cidade": "VILA VELHA",
           "clientes": 31
+        },
+        {
+          "cidade": "MOGI DAS CRUZES",
+          "clientes": 30
+        },
+        {
+          "cidade": "RIO DAS OSTRAS",
+          "clientes": 30
+        },
+        {
+          "cidade": "SAO BERNARDO DO CAMPO",
+          "clientes": 29
+        },
+        {
+          "cidade": "CARIACICA",
+          "clientes": 29
         },
         {
           "cidade": "NITEROI",
           "clientes": 28
         },
         {
-          "cidade": "SAO BERNARDO DO CAMPO",
-          "clientes": 26
+          "cidade": "CARAGUATATUBA",
+          "clientes": 28
         },
         {
           "cidade": "NOVA LIMA",
-          "clientes": 25
-        },
-        {
-          "cidade": "SAO SEBASTIAO",
-          "clientes": 25
-        },
-        {
-          "cidade": "GUARUJA",
-          "clientes": 23
+          "clientes": 26
         },
         {
           "cidade": "LIMEIRA",
           "clientes": 20
         },
         {
-          "cidade": "LAGOA SANTA",
+          "cidade": "VESPASIANO",
           "clientes": 19
         },
         {
-          "cidade": "VITORIA",
+          "cidade": "CACHOEIRO DE IT",
           "clientes": 18
         },
         {
-          "cidade": "VESPASIANO",
+          "cidade": "CONSELHEIRO LAFAIETE",
           "clientes": 18
-        },
-        {
-          "cidade": "PIRACICABA",
-          "clientes": 17
         },
         {
           "cidade": "PAULINIA",
           "clientes": 17
         },
         {
-          "cidade": "CONSELHEIRO LAFAIETE",
+          "cidade": "PINDAMONHANGABA",
           "clientes": 17
         },
         {
-          "cidade": "TAUBATE",
-          "clientes": 16
-        },
-        {
-          "cidade": "SANTOS",
-          "clientes": 15
+          "cidade": "LAGOA SANTA",
+          "clientes": 17
         },
         {
           "cidade": "SOROCABA",
+          "clientes": 16
+        },
+        {
+          "cidade": "PIRACICABA",
           "clientes": 15
         },
         {
-          "cidade": "RIBEIRAO PRETO",
+          "cidade": "SANTOS",
           "clientes": 14
         },
         {
-          "cidade": "PINDAMONHANGABA",
+          "cidade": "GUARUJA",
           "clientes": 14
         },
         {
@@ -5420,11 +5963,11 @@ const RAIOX_VENDEDORES_DATA = {
           "clientes": 14
         },
         {
-          "cidade": "SAQUAREMA",
-          "clientes": 13
+          "cidade": "POUSO ALEGRE",
+          "clientes": 14
         },
         {
-          "cidade": "MAUA",
+          "cidade": "VITORIA",
           "clientes": 13
         },
         {
@@ -5432,32 +5975,56 @@ const RAIOX_VENDEDORES_DATA = {
           "clientes": 13
         },
         {
+          "cidade": "SANTA BARBARA D OESTE",
+          "clientes": 13
+        },
+        {
           "cidade": "FERRAZ DE VASCONCELOS",
           "clientes": 13
         },
         {
-          "cidade": "ARRAIAL DO CABO",
+          "cidade": "SANTO ANDRE",
           "clientes": 12
         },
         {
-          "cidade": "ARACRUZ",
+          "cidade": "AMERICANA",
           "clientes": 12
         },
         {
-          "cidade": "POUSO ALEGRE",
-          "clientes": 12
-        },
-        {
-          "cidade": "SANTA BARBARA D OESTE",
+          "cidade": "SAQUAREMA",
           "clientes": 12
         },
         {
           "cidade": "PRAIA GRANDE",
+          "clientes": 12
+        },
+        {
+          "cidade": "JUNDIAI",
           "clientes": 11
         },
         {
-          "cidade": "AMERICANA",
+          "cidade": "RIBEIRAO PRETO",
           "clientes": 11
+        },
+        {
+          "cidade": "TABOAO DA SERRA",
+          "clientes": 11
+        },
+        {
+          "cidade": "COTIA",
+          "clientes": 11
+        },
+        {
+          "cidade": "CASIMIRO DE ABR",
+          "clientes": 11
+        },
+        {
+          "cidade": "BARUERI",
+          "clientes": 10
+        },
+        {
+          "cidade": "MOGI GUACU",
+          "clientes": 10
         },
         {
           "cidade": "JARINU",
@@ -5468,11 +6035,7 @@ const RAIOX_VENDEDORES_DATA = {
           "clientes": 10
         },
         {
-          "cidade": "VIANA",
-          "clientes": 10
-        },
-        {
-          "cidade": "CASIMIRO DE ABR",
+          "cidade": "HORTOLANDIA",
           "clientes": 10
         },
         {
@@ -5480,19 +6043,7 @@ const RAIOX_VENDEDORES_DATA = {
           "clientes": 10
         },
         {
-          "cidade": "BARUERI",
-          "clientes": 9
-        },
-        {
-          "cidade": "JUNDIAI",
-          "clientes": 9
-        },
-        {
-          "cidade": "VARZEA PAULISTA",
-          "clientes": 9
-        },
-        {
-          "cidade": "SANTO ANDRE",
+          "cidade": "AVARE",
           "clientes": 9
         },
         {
@@ -5500,51 +6051,67 @@ const RAIOX_VENDEDORES_DATA = {
           "clientes": 9
         },
         {
+          "cidade": "VIANA",
+          "clientes": 9
+        },
+        {
+          "cidade": "ARRAIAL DO CABO",
+          "clientes": 9
+        },
+        {
           "cidade": "ARARUAMA",
           "clientes": 9
         },
         {
-          "cidade": "RIBEIRAO PIRES",
+          "cidade": "MAUA",
           "clientes": 9
-        },
-        {
-          "cidade": "COTIA",
-          "clientes": 9
-        },
-        {
-          "cidade": "HORTOLANDIA",
-          "clientes": 9
-        },
-        {
-          "cidade": "POA",
-          "clientes": 9
-        },
-        {
-          "cidade": "AVARE",
-          "clientes": 8
-        },
-        {
-          "cidade": "MOGI GUACU",
-          "clientes": 8
-        },
-        {
-          "cidade": "VALINHOS",
-          "clientes": 8
-        },
-        {
-          "cidade": "TABOAO DA SERRA",
-          "clientes": 8
         },
         {
           "cidade": "IBITINGA",
+          "clientes": 9
+        },
+        {
+          "cidade": "POCOS DE CALDAS",
+          "clientes": 9
+        },
+        {
+          "cidade": "VIRADOURO",
+          "clientes": 9
+        },
+        {
+          "cidade": "VARZEA PAULISTA",
           "clientes": 8
         },
         {
-          "cidade": "AMPARO",
+          "cidade": "NOVA IGUACU",
           "clientes": 8
         },
         {
-          "cidade": "VENDA NOVA DO I",
+          "cidade": "DIADEMA",
+          "clientes": 8
+        },
+        {
+          "cidade": "PETROPOLIS",
+          "clientes": 8
+        },
+        {
+          "cidade": "RIBEIRAO PIRES",
+          "clientes": 8
+        },
+        {
+          "cidade": "TAUBATE",
+          "clientes": 8
+        },
+        {
+          "cidade": "LORENA",
+          "clientes": 8
+        },
+        {
+          "cidade": "GUARATINGUETA",
+          "clientes": 8
+        },
+        {
+          "cidade": "JAGUARIUNA",
           "clientes": 8
         },
         {
@@ -5552,11 +6119,19 @@ const RAIOX_VENDEDORES_DATA = {
           "clientes": 8
         },
         {
-          "cidade": "BRAGANCA PAULISTA",
+          "cidade": "VARGINHA",
+          "clientes": 8
+        },
+        {
+          "cidade": "POA",
+          "clientes": 8
+        },
+        {
+          "cidade": "ITAQUAQUECETUBA",
           "clientes": 7
         },
         {
-          "cidade": "RIO CLARO",
+          "cidade": "JAU",
           "clientes": 7
         },
         {
@@ -5564,23 +6139,19 @@ const RAIOX_VENDEDORES_DATA = {
           "clientes": 7
         },
         {
-          "cidade": "DIADEMA",
+          "cidade": "RIO CLARO",
           "clientes": 7
         },
         {
-          "cidade": "PETROPOLIS",
+          "cidade": "VALINHOS",
           "clientes": 7
         },
         {
-          "cidade": "SUZANO",
+          "cidade": "AMPARO",
           "clientes": 7
         },
         {
-          "cidade": "POCOS DE CALDAS",
-          "clientes": 7
-        },
-        {
-          "cidade": "VARGINHA",
+          "cidade": "SETE LAGOAS",
           "clientes": 7
         },
         {
@@ -5592,12 +6163,8 @@ const RAIOX_VENDEDORES_DATA = {
           "clientes": 7
         },
         {
-          "cidade": "MOGI MIRIM",
+          "cidade": "OLIMPIA",
           "clientes": 7
-        },
-        {
-          "cidade": "ITAQUAQUECETUBA",
-          "clientes": 6
         },
         {
           "cidade": "CAMPOS DO JORDAO",
@@ -5612,7 +6179,11 @@ const RAIOX_VENDEDORES_DATA = {
           "clientes": 6
         },
         {
-          "cidade": "LORENA",
+          "cidade": "SUZANO",
+          "clientes": 6
+        },
+        {
+          "cidade": "ITANHAEM",
           "clientes": 6
         },
         {
@@ -5620,15 +6191,11 @@ const RAIOX_VENDEDORES_DATA = {
           "clientes": 6
         },
         {
-          "cidade": "GUARATINGUETA",
+          "cidade": "ARACRUZ",
           "clientes": 6
         },
         {
-          "cidade": "JAGUARIUNA",
-          "clientes": 6
-        },
-        {
-          "cidade": "LINHARES",
+          "cidade": "VENDA NOVA DO I",
           "clientes": 6
         },
         {
@@ -5636,11 +6203,11 @@ const RAIOX_VENDEDORES_DATA = {
           "clientes": 6
         },
         {
-          "cidade": "DIVINOPOLIS",
+          "cidade": "SAO PEDRO DA AL",
           "clientes": 6
         },
         {
-          "cidade": "SAO VICENTE",
+          "cidade": "MOGI MIRIM",
           "clientes": 6
         },
         {
@@ -5648,11 +6215,7 @@ const RAIOX_VENDEDORES_DATA = {
           "clientes": 6
         },
         {
-          "cidade": "SAO CARLOS",
-          "clientes": 6
-        },
-        {
-          "cidade": "JAGUARE",
+          "cidade": "BEBEDOURO",
           "clientes": 6
         },
         {
@@ -5660,11 +6223,15 @@ const RAIOX_VENDEDORES_DATA = {
           "clientes": 6
         },
         {
-          "cidade": "JAU",
+          "cidade": "SOCORRO",
           "clientes": 5
         },
         {
-          "cidade": "SOCORRO",
+          "cidade": "BRAGANCA PAULISTA",
+          "clientes": 5
+        },
+        {
+          "cidade": "SAO JOSE DO RIO PRETO",
           "clientes": 5
         },
         {
@@ -5676,19 +6243,15 @@ const RAIOX_VENDEDORES_DATA = {
           "clientes": 5
         },
         {
-          "cidade": "NOVA IGUACU",
-          "clientes": 5
-        },
-        {
-          "cidade": "SAO ROQUE",
-          "clientes": 5
-        },
-        {
           "cidade": "BELFORD ROXO",
           "clientes": 5
         },
         {
-          "cidade": "ITANHAEM",
+          "cidade": "SANTO ANTONIO DE POSSE",
+          "clientes": 5
+        },
+        {
+          "cidade": "LINHARES",
           "clientes": 5
         },
         {
@@ -5697,10 +6260,6 @@ const RAIOX_VENDEDORES_DATA = {
         },
         {
           "cidade": "BARBACENA",
-          "clientes": 5
-        },
-        {
-          "cidade": "SETE LAGOAS",
           "clientes": 5
         },
         {
@@ -5720,11 +6279,19 @@ const RAIOX_VENDEDORES_DATA = {
           "clientes": 5
         },
         {
-          "cidade": "SAO PEDRO DA AL",
+          "cidade": "MARICA",
           "clientes": 5
         },
         {
           "cidade": "ITAJUBA",
+          "clientes": 5
+        },
+        {
+          "cidade": "SAO CARLOS",
+          "clientes": 5
+        },
+        {
+          "cidade": "JAGUARE",
           "clientes": 5
         },
         {
@@ -5740,15 +6307,15 @@ const RAIOX_VENDEDORES_DATA = {
           "clientes": 4
         },
         {
-          "cidade": "QUEIMADOS",
-          "clientes": 4
-        },
-        {
-          "cidade": "HOLAMBRA",
+          "cidade": "JOSE BONIFACIO",
           "clientes": 4
         },
         {
           "cidade": "SAO GONCALO",
+          "clientes": 4
+        },
+        {
+          "cidade": "SAO ROQUE",
           "clientes": 4
         },
         {
@@ -5761,14 +6328,6 @@ const RAIOX_VENDEDORES_DATA = {
         },
         {
           "cidade": "CACAPAVA",
-          "clientes": 4
-        },
-        {
-          "cidade": "SANTO ANTONIO DE POSSE",
-          "clientes": 4
-        },
-        {
-          "cidade": "MARECHAL FLORIA",
           "clientes": 4
         },
         {
@@ -5796,51 +6355,19 @@ const RAIOX_VENDEDORES_DATA = {
           "clientes": 4
         },
         {
-          "cidade": "ITAUNA",
-          "clientes": 4
-        },
-        {
-          "cidade": "PEDRO LEOPOLDO",
-          "clientes": 4
-        },
-        {
-          "cidade": "DOMINGOS MARTIN",
-          "clientes": 4
-        },
-        {
           "cidade": "BARIRI",
           "clientes": 4
         },
         {
-          "cidade": "ILHABELA",
+          "cidade": "SAO VICENTE",
+          "clientes": 4
+        },
+        {
+          "cidade": "ITAPECERICA DA SERRA",
           "clientes": 4
         },
         {
           "cidade": "CERQUEIRA CESAR",
-          "clientes": 4
-        },
-        {
-          "cidade": "VIRADOURO",
-          "clientes": 4
-        },
-        {
-          "cidade": "SAO JOSE DO RIO PRETO",
-          "clientes": 4
-        },
-        {
-          "cidade": "GUARAREMA",
-          "clientes": 4
-        },
-        {
-          "cidade": "IGARATA",
-          "clientes": 4
-        },
-        {
-          "cidade": "CUBATAO",
-          "clientes": 4
-        },
-        {
-          "cidade": "PARDINHO",
           "clientes": 4
         },
         {
@@ -5852,10 +6379,6 @@ const RAIOX_VENDEDORES_DATA = {
           "clientes": 3
         },
         {
-          "cidade": "DOIS CORREGOS",
-          "clientes": 3
-        },
-        {
           "cidade": "SANTO ANTONIO DO PINHAL",
           "clientes": 3
         },
@@ -5864,15 +6387,11 @@ const RAIOX_VENDEDORES_DATA = {
           "clientes": 3
         },
         {
-          "cidade": "SANTANA DE PARNAIBA",
-          "clientes": 3
-        },
-        {
-          "cidade": "VINHEDO",
-          "clientes": 3
-        },
-        {
           "cidade": "SANTA MARIA DE",
+          "clientes": 3
+        },
+        {
+          "cidade": "QUEIMADOS",
           "clientes": 3
         },
         {
@@ -5881,6 +6400,10 @@ const RAIOX_VENDEDORES_DATA = {
         },
         {
           "cidade": "ANGRA DOS REIS",
+          "clientes": 3
+        },
+        {
+          "cidade": "TREMEMBE",
           "clientes": 3
         },
         {
@@ -5893,10 +6416,6 @@ const RAIOX_VENDEDORES_DATA = {
         },
         {
           "cidade": "FUNDAO",
-          "clientes": 3
-        },
-        {
-          "cidade": "COLATINA",
           "clientes": 3
         },
         {
@@ -5916,7 +6435,15 @@ const RAIOX_VENDEDORES_DATA = {
           "clientes": 3
         },
         {
-          "cidade": "AFONSO CLAUDIO",
+          "cidade": "CARMO DO CAJURU",
+          "clientes": 3
+        },
+        {
+          "cidade": "PEDRO LEOPOLDO",
+          "clientes": 3
+        },
+        {
+          "cidade": "MARECHAL FLORIA",
           "clientes": 3
         },
         {
@@ -5924,11 +6451,11 @@ const RAIOX_VENDEDORES_DATA = {
           "clientes": 3
         },
         {
-          "cidade": "MARICA",
+          "cidade": "OURO FINO",
           "clientes": 3
         },
         {
-          "cidade": "ITAI",
+          "cidade": "BORDA DA MATA",
           "clientes": 3
         },
         {
@@ -5944,7 +6471,31 @@ const RAIOX_VENDEDORES_DATA = {
           "clientes": 3
         },
         {
-          "cidade": "IBIRACU",
+          "cidade": "TAQUARITINGA",
+          "clientes": 3
+        },
+        {
+          "cidade": "BARRETOS",
+          "clientes": 3
+        },
+        {
+          "cidade": "GUARAREMA",
+          "clientes": 3
+        },
+        {
+          "cidade": "IGARATA",
+          "clientes": 3
+        },
+        {
+          "cidade": "CUBATAO",
+          "clientes": 3
+        },
+        {
+          "cidade": "PARDINHO",
+          "clientes": 3
+        },
+        {
+          "cidade": "CATANDUVA",
           "clientes": 3
         },
         {
@@ -5952,15 +6503,19 @@ const RAIOX_VENDEDORES_DATA = {
           "clientes": 3
         },
         {
-          "cidade": "BARRA BONITA",
-          "clientes": 2
-        },
-        {
           "cidade": "BROTAS",
           "clientes": 2
         },
         {
           "cidade": "PIRASSUNUNGA",
+          "clientes": 2
+        },
+        {
+          "cidade": "BARRA BONITA",
+          "clientes": 2
+        },
+        {
+          "cidade": "DOIS CORREGOS",
           "clientes": 2
         },
         {
@@ -5972,35 +6527,11 @@ const RAIOX_VENDEDORES_DATA = {
           "clientes": 2
         },
         {
-          "cidade": "PORTO FELIZ",
+          "cidade": "PIRAJUI",
           "clientes": 2
         },
         {
-          "cidade": "ITATIBA",
-          "clientes": 2
-        },
-        {
-          "cidade": "PARATI",
-          "clientes": 2
-        },
-        {
-          "cidade": "CAJAMAR",
-          "clientes": 2
-        },
-        {
-          "cidade": "PIRAPORA DO BOM JESUS",
-          "clientes": 2
-        },
-        {
-          "cidade": "MAIRIPORA",
-          "clientes": 2
-        },
-        {
-          "cidade": "SALTO",
-          "clientes": 2
-        },
-        {
-          "cidade": "BRASILIA",
+          "cidade": "ANGATUBA",
           "clientes": 2
         },
         {
@@ -6008,11 +6539,59 @@ const RAIOX_VENDEDORES_DATA = {
           "clientes": 2
         },
         {
-          "cidade": "TABATINGA",
+          "cidade": "PORTO FELIZ",
           "clientes": 2
         },
         {
-          "cidade": "TREMEMBE",
+          "cidade": "SANTANA DE PARNAIBA",
+          "clientes": 2
+        },
+        {
+          "cidade": "SAO PEDRO",
+          "clientes": 2
+        },
+        {
+          "cidade": "VINHEDO",
+          "clientes": 2
+        },
+        {
+          "cidade": "CAJAMAR",
+          "clientes": 2
+        },
+        {
+          "cidade": "PARATI",
+          "clientes": 2
+        },
+        {
+          "cidade": "HOLAMBRA",
+          "clientes": 2
+        },
+        {
+          "cidade": "SALTO",
+          "clientes": 2
+        },
+        {
+          "cidade": "MAIRIPORA",
+          "clientes": 2
+        },
+        {
+          "cidade": "PIRAPORA DO BOM JESUS",
+          "clientes": 2
+        },
+        {
+          "cidade": "SAO JOAO DE MER",
+          "clientes": 2
+        },
+        {
+          "cidade": "BRASILIA",
+          "clientes": 2
+        },
+        {
+          "cidade": "JACAREI",
+          "clientes": 2
+        },
+        {
+          "cidade": "MESQUITA",
           "clientes": 2
         },
         {
@@ -6025,10 +6604,6 @@ const RAIOX_VENDEDORES_DATA = {
         },
         {
           "cidade": "GUARAPARI",
-          "clientes": 2
-        },
-        {
-          "cidade": "CASTELO",
           "clientes": 2
         },
         {
@@ -6056,6 +6631,10 @@ const RAIOX_VENDEDORES_DATA = {
           "clientes": 2
         },
         {
+          "cidade": "ITAUNA",
+          "clientes": 2
+        },
+        {
           "cidade": "CAMPOS GERAIS",
           "clientes": 2
         },
@@ -6068,15 +6647,15 @@ const RAIOX_VENDEDORES_DATA = {
           "clientes": 2
         },
         {
+          "cidade": "ANDRADAS",
+          "clientes": 2
+        },
+        {
           "cidade": "CAMPANHA",
           "clientes": 2
         },
         {
           "cidade": "CONFINS",
-          "clientes": 2
-        },
-        {
-          "cidade": "CARMO DO CAJURU",
           "clientes": 2
         },
         {
@@ -6088,6 +6667,10 @@ const RAIOX_VENDEDORES_DATA = {
           "clientes": 2
         },
         {
+          "cidade": "JACUTINGA",
+          "clientes": 2
+        },
+        {
           "cidade": "CURVELO",
           "clientes": 2
         },
@@ -6096,11 +6679,15 @@ const RAIOX_VENDEDORES_DATA = {
           "clientes": 2
         },
         {
+          "cidade": "NOVA SERRANA",
+          "clientes": 2
+        },
+        {
           "cidade": "SARZEDO",
           "clientes": 2
         },
         {
-          "cidade": "GUACUI",
+          "cidade": "AFONSO CLAUDIO",
           "clientes": 2
         },
         {
@@ -6108,11 +6695,11 @@ const RAIOX_VENDEDORES_DATA = {
           "clientes": 2
         },
         {
-          "cidade": "OURO FINO",
+          "cidade": "MACHADO",
           "clientes": 2
         },
         {
-          "cidade": "MACHADO",
+          "cidade": "MONGAGUA",
           "clientes": 2
         },
         {
@@ -6120,7 +6707,7 @@ const RAIOX_VENDEDORES_DATA = {
           "clientes": 2
         },
         {
-          "cidade": "PIRAJU",
+          "cidade": "ITAI",
           "clientes": 2
         },
         {
@@ -6128,7 +6715,7 @@ const RAIOX_VENDEDORES_DATA = {
           "clientes": 2
         },
         {
-          "cidade": "TAQUARITUBA",
+          "cidade": "PIRAJU",
           "clientes": 2
         },
         {
@@ -6152,15 +6739,11 @@ const RAIOX_VENDEDORES_DATA = {
           "clientes": 2
         },
         {
+          "cidade": "MORRO AGUDO",
+          "clientes": 2
+        },
+        {
           "cidade": "TUPA",
-          "clientes": 2
-        },
-        {
-          "cidade": "ITAPECERICA DA SERRA",
-          "clientes": 2
-        },
-        {
-          "cidade": "GUARARAPES",
           "clientes": 2
         },
         {
@@ -6168,15 +6751,15 @@ const RAIOX_VENDEDORES_DATA = {
           "clientes": 2
         },
         {
+          "cidade": "PITANGUEIRAS",
+          "clientes": 2
+        },
+        {
+          "cidade": "CONCEICAO DA BA",
+          "clientes": 2
+        },
+        {
           "cidade": "BAURU",
-          "clientes": 2
-        },
-        {
-          "cidade": "JOAO NEIVA",
-          "clientes": 2
-        },
-        {
-          "cidade": "NOVA VENECIA",
           "clientes": 2
         },
         {
@@ -6184,15 +6767,15 @@ const RAIOX_VENDEDORES_DATA = {
           "clientes": 2
         },
         {
-          "cidade": "SANTA BRANCA",
+          "cidade": "MONTE AZUL PAULISTA",
           "clientes": 2
         },
         {
-          "cidade": "AREIOPOLIS",
+          "cidade": "COLINA",
           "clientes": 2
         },
         {
-          "cidade": "NATAL",
+          "cidade": "JABORANDI",
           "clientes": 2
         },
         {
@@ -6208,15 +6791,11 @@ const RAIOX_VENDEDORES_DATA = {
           "clientes": 1
         },
         {
-          "cidade": "CATANDUVA",
+          "cidade": "PONGAI",
           "clientes": 1
         },
         {
           "cidade": "SAO LUIS",
-          "clientes": 1
-        },
-        {
-          "cidade": "CORDEIROPOLIS",
           "clientes": 1
         },
         {
@@ -6228,11 +6807,15 @@ const RAIOX_VENDEDORES_DATA = {
           "clientes": 1
         },
         {
+          "cidade": "CORDEIROPOLIS",
+          "clientes": 1
+        },
+        {
           "cidade": "SANTA GERTRUDES",
           "clientes": 1
         },
         {
-          "cidade": "SAO PEDRO",
+          "cidade": "ALEGRE",
           "clientes": 1
         },
         {
@@ -6244,15 +6827,7 @@ const RAIOX_VENDEDORES_DATA = {
           "clientes": 1
         },
         {
-          "cidade": "ALEGRE",
-          "clientes": 1
-        },
-        {
           "cidade": "CAIEIRAS",
-          "clientes": 1
-        },
-        {
-          "cidade": "MAIRINQUE",
           "clientes": 1
         },
         {
@@ -6260,15 +6835,15 @@ const RAIOX_VENDEDORES_DATA = {
           "clientes": 1
         },
         {
-          "cidade": "NILOPOLIS",
-          "clientes": 1
-        },
-        {
           "cidade": "PILAR DO SUL",
           "clientes": 1
         },
         {
-          "cidade": "SAO JOAO DE MER",
+          "cidade": "MAIRINQUE",
+          "clientes": 1
+        },
+        {
+          "cidade": "NILOPOLIS",
           "clientes": 1
         },
         {
@@ -6284,7 +6859,7 @@ const RAIOX_VENDEDORES_DATA = {
           "clientes": 1
         },
         {
-          "cidade": "JACAREI",
+          "cidade": "TABATINGA",
           "clientes": 1
         },
         {
@@ -6293,6 +6868,14 @@ const RAIOX_VENDEDORES_DATA = {
         },
         {
           "cidade": "AGUAS DE LINDOIA",
+          "clientes": 1
+        },
+        {
+          "cidade": "MONTE ALEGRE DO SUL",
+          "clientes": 1
+        },
+        {
+          "cidade": "ITATIBA",
           "clientes": 1
         },
         {
@@ -6305,6 +6888,14 @@ const RAIOX_VENDEDORES_DATA = {
         },
         {
           "cidade": "ANCHIETA",
+          "clientes": 1
+        },
+        {
+          "cidade": "COLATINA",
+          "clientes": 1
+        },
+        {
+          "cidade": "CASTELO",
           "clientes": 1
         },
         {
@@ -6348,10 +6939,6 @@ const RAIOX_VENDEDORES_DATA = {
           "clientes": 1
         },
         {
-          "cidade": "ANDRADAS",
-          "clientes": 1
-        },
-        {
           "cidade": "CORREGO DANTA",
           "clientes": 1
         },
@@ -6384,10 +6971,6 @@ const RAIOX_VENDEDORES_DATA = {
           "clientes": 1
         },
         {
-          "cidade": "JACUTINGA",
-          "clientes": 1
-        },
-        {
           "cidade": "JANAUBA",
           "clientes": 1
         },
@@ -6417,10 +7000,6 @@ const RAIOX_VENDEDORES_DATA = {
         },
         {
           "cidade": "PARACATU",
-          "clientes": 1
-        },
-        {
-          "cidade": "NOVA SERRANA",
           "clientes": 1
         },
         {
@@ -6460,19 +7039,15 @@ const RAIOX_VENDEDORES_DATA = {
           "clientes": 1
         },
         {
+          "cidade": "BREJETUBA",
+          "clientes": 1
+        },
+        {
           "cidade": "ALFREDO CHAVES",
           "clientes": 1
         },
         {
           "cidade": "DIVINO DE SAO L",
-          "clientes": 1
-        },
-        {
-          "cidade": "BREJETUBA",
-          "clientes": 1
-        },
-        {
-          "cidade": "CONCEICAO DO CA",
           "clientes": 1
         },
         {
@@ -6504,19 +7079,11 @@ const RAIOX_VENDEDORES_DATA = {
           "clientes": 1
         },
         {
-          "cidade": "BORDA DA MATA",
-          "clientes": 1
-        },
-        {
           "cidade": "SANTA RITA DO SAPUCA",
           "clientes": 1
         },
         {
-          "cidade": "LAGOINHA",
-          "clientes": 1
-        },
-        {
-          "cidade": "ENGENHEIRO COELHO",
+          "cidade": "BUENO BRANDAO",
           "clientes": 1
         },
         {
@@ -6528,6 +7095,14 @@ const RAIOX_VENDEDORES_DATA = {
           "clientes": 1
         },
         {
+          "cidade": "ENGENHEIRO COELHO",
+          "clientes": 1
+        },
+        {
+          "cidade": "SAO JOAO DA BOA VISTA",
+          "clientes": 1
+        },
+        {
           "cidade": "ARANDU",
           "clientes": 1
         },
@@ -6536,11 +7111,11 @@ const RAIOX_VENDEDORES_DATA = {
           "clientes": 1
         },
         {
-          "cidade": "PARANAPANEMA",
+          "cidade": "BOFETE",
           "clientes": 1
         },
         {
-          "cidade": "PIRAJUI",
+          "cidade": "PARANAPANEMA",
           "clientes": 1
         },
         {
@@ -6548,11 +7123,11 @@ const RAIOX_VENDEDORES_DATA = {
           "clientes": 1
         },
         {
-          "cidade": "ITARIRI",
+          "cidade": "TAQUARITUBA",
           "clientes": 1
         },
         {
-          "cidade": "CAJATI",
+          "cidade": "ITARIRI",
           "clientes": 1
         },
         {
@@ -6560,15 +7135,11 @@ const RAIOX_VENDEDORES_DATA = {
           "clientes": 1
         },
         {
-          "cidade": "MORRO AGUDO",
+          "cidade": "CAJATI",
           "clientes": 1
         },
         {
-          "cidade": "PONGAI",
-          "clientes": 1
-        },
-        {
-          "cidade": "AMERICO BRASILIENSE",
+          "cidade": "PEDRO DE TOLEDO",
           "clientes": 1
         },
         {
@@ -6576,11 +7147,7 @@ const RAIOX_VENDEDORES_DATA = {
           "clientes": 1
         },
         {
-          "cidade": "PRESIDENTE EPITACIO",
-          "clientes": 1
-        },
-        {
-          "cidade": "SANTA RITA DO PASSA QUATR",
+          "cidade": "AMERICO BRASILIENSE",
           "clientes": 1
         },
         {
@@ -6588,11 +7155,11 @@ const RAIOX_VENDEDORES_DATA = {
           "clientes": 1
         },
         {
-          "cidade": "ESPIRITO SANTO DO PINHAL",
+          "cidade": "PRESIDENTE EPITACIO",
           "clientes": 1
         },
         {
-          "cidade": "JANDIRA",
+          "cidade": "ESPIRITO SANTO DO PINHAL",
           "clientes": 1
         },
         {
@@ -6600,23 +7167,23 @@ const RAIOX_VENDEDORES_DATA = {
           "clientes": 1
         },
         {
-          "cidade": "SANTANA DO RIACHO",
-          "clientes": 1
-        },
-        {
           "cidade": "SAO JOSE DA LAPA",
           "clientes": 1
         },
         {
-          "cidade": "ESPIRITO SANTO",
+          "cidade": "SANTANA DO RIACHO",
           "clientes": 1
         },
         {
-          "cidade": "ITAPEMIRIM",
+          "cidade": "JABOTICABAL",
           "clientes": 1
         },
         {
-          "cidade": "VOTORANTIM",
+          "cidade": "BARRINHA",
+          "clientes": 1
+        },
+        {
+          "cidade": "SANTA ERNESTINA",
           "clientes": 1
         },
         {
@@ -6628,23 +7195,19 @@ const RAIOX_VENDEDORES_DATA = {
           "clientes": 1
         },
         {
-          "cidade": "CAPELA DO ALTO",
-          "clientes": 1
-        },
-        {
-          "cidade": "BEBEDOURO",
-          "clientes": 1
-        },
-        {
           "cidade": "FRANCO DA ROCHA",
           "clientes": 1
         },
         {
-          "cidade": "PANCAS",
+          "cidade": "IBIRACU",
           "clientes": 1
         },
         {
-          "cidade": "CONCEICAO DA BA",
+          "cidade": "NOVA VENECIA",
+          "clientes": 1
+        },
+        {
+          "cidade": "PANCAS",
           "clientes": 1
         },
         {
@@ -6656,11 +7219,11 @@ const RAIOX_VENDEDORES_DATA = {
           "clientes": 1
         },
         {
-          "cidade": "BERTIOGA",
+          "cidade": "SANTA BRANCA",
           "clientes": 1
         },
         {
-          "cidade": "MONGAGUA",
+          "cidade": "BERTIOGA",
           "clientes": 1
         },
         {
@@ -6668,7 +7231,67 @@ const RAIOX_VENDEDORES_DATA = {
           "clientes": 1
         },
         {
-          "cidade": "MANGARATIBA",
+          "cidade": "AREIOPOLIS",
+          "clientes": 1
+        },
+        {
+          "cidade": "GUAIRA",
+          "clientes": 1
+        },
+        {
+          "cidade": "MONTE ALTO",
+          "clientes": 1
+        },
+        {
+          "cidade": "GUARACI",
+          "clientes": 1
+        },
+        {
+          "cidade": "PIRANGI",
+          "clientes": 1
+        },
+        {
+          "cidade": "SANTA ADELIA",
+          "clientes": 1
+        },
+        {
+          "cidade": "SERTAOZINHO",
+          "clientes": 1
+        },
+        {
+          "cidade": "SEVERINIA",
+          "clientes": 1
+        },
+        {
+          "cidade": "TERRA ROXA",
+          "clientes": 1
+        },
+        {
+          "cidade": "CARMO DA MATA",
+          "clientes": 1
+        },
+        {
+          "cidade": "PERDIGAO",
+          "clientes": 1
+        },
+        {
+          "cidade": "SAO GONCALO DO PARA",
+          "clientes": 1
+        },
+        {
+          "cidade": "SAO SEBASTIAO DO OES",
+          "clientes": 1
+        },
+        {
+          "cidade": "AGUAS DE SAO PEDRO",
+          "clientes": 1
+        },
+        {
+          "cidade": "IBIUNA",
+          "clientes": 1
+        },
+        {
+          "cidade": "FRANCISCO MORATO",
           "clientes": 1
         },
         {
@@ -6680,7 +7303,19 @@ const RAIOX_VENDEDORES_DATA = {
           "clientes": 1
         },
         {
+          "cidade": "MANGARATIBA",
+          "clientes": 1
+        },
+        {
           "cidade": "PINHAIS",
+          "clientes": 1
+        },
+        {
+          "cidade": "NATAL",
+          "clientes": 1
+        },
+        {
+          "cidade": "CHACARA",
           "clientes": 1
         }
       ]

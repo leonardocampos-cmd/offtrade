@@ -183,7 +183,8 @@
           <tr>
             <td>${v.nome}</td>
             <td style="color:var(--muted)">${v.estado} · ${v.rca}</td>
-            <td>${v.total_clientes}</td>
+            <td>${(v.clientes_atendidos ?? 0)}/${v.total_clientes}</td>
+            <td>${(v.ticket_medio ?? 0).toLocaleString('pt-BR', {style:'currency', currency:'BRL'})}</td>
             <td><a class="btn-ver" href="raiox_vendedor_detalhe.html?chave=${encodeURIComponent(v.chave)}&embed=1">Ver detalhe →</a></td>
           </tr>
         `).join('');
@@ -201,7 +202,7 @@
               <div>
                 <div class="secao-mini">Vendedores</div>
                 <table class="vendedores-table">
-                  <thead><tr><th>Nome</th><th>Estado · RCA</th><th>Clientes</th><th></th></tr></thead>
+                  <thead><tr><th>Nome</th><th>Estado · RCA</th><th title="Clientes atendidos (compraram no ano) / base de cadastro">Atendidos/Base</th><th>Ticket Médio</th><th></th></tr></thead>
                   <tbody>${vendedoresHtml}</tbody>
                 </table>
               </div>
