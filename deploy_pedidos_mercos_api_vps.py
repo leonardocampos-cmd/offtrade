@@ -72,6 +72,21 @@ NGINX_LOCATION = """
     }
 """
 
+# Casamento manual do estoque_whatsapp.html (pedido do usuário em
+# 2026-09-10) — mesmo processo Flask/porta 5056 (blueprint separado em
+# pedidos_mercos_api.py), só precisa de outro location pra rotear o prefixo.
+NGINX_LOCATION_ESTOQUE_WHATSAPP = """
+    location /api/estoque-whatsapp/ {
+        proxy_pass         http://127.0.0.1:5056;
+        proxy_http_version 1.1;
+        proxy_set_header   Host $host;
+        proxy_set_header   X-Real-IP $remote_addr;
+        proxy_set_header   X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header   X-Forwarded-Proto $scheme;
+        proxy_read_timeout 30s;
+    }
+"""
+
 
 def ssh_run(client, cmd, check=True):
     _, stdout, stderr = client.exec_command(cmd)
@@ -125,25 +140,31 @@ def deploy():
     ssh_run(client, "systemctl enable pedidos-mercos-api.service", check=False)
     ssh_run(client, "systemctl restart pedidos-mercos-api.service")
 
-    print("\n-> Conferindo nginx (location /api/pedidos-mercos/)...")
+    print("\n-> Conferindo nginx (locations /api/pedidos-mercos/ e /api/estoque-whatsapp/)...")
     nginx_conf = "/etc/nginx/sites-available/offtrade"
     with sftp.open(nginx_conf) as f:
         conf_atual = f.read().decode("utf-8")
     marker = "    location / {"
+    conf_novo = conf_atual
     # Substitui o bloco inteiro se já existir (pra pegar mudanças como o
     # proxy_read_timeout, que só rodar de novo com "já existe -> nada a
     # fazer" nunca atualizava — achado real em 2026-09-04, timeout ficou
     # preso em 30s mesmo depois de trocar NGINX_LOCATION pra 120s aqui).
-    bloco_existente = re.search(r"    location /api/pedidos-mercos/ \{.*?\n    \}\n", conf_atual, re.DOTALL)
-    if bloco_existente:
-        conf_novo = conf_atual[:bloco_existente.start()] + NGINX_LOCATION.lstrip("\n") + conf_atual[bloco_existente.end():]
-    else:
-        conf_novo = conf_atual.replace(marker, NGINX_LOCATION + "\n" + marker, 1)
+    for path_prefix, bloco in (
+        ("/api/pedidos-mercos/", NGINX_LOCATION),
+        ("/api/estoque-whatsapp/", NGINX_LOCATION_ESTOQUE_WHATSAPP),
+    ):
+        padrao = r"    location " + re.escape(path_prefix) + r" \{.*?\n    \}\n"
+        bloco_existente = re.search(padrao, conf_novo, re.DOTALL)
+        if bloco_existente:
+            conf_novo = conf_novo[:bloco_existente.start()] + bloco.lstrip("\n") + conf_novo[bloco_existente.end():]
+        else:
+            conf_novo = conf_novo.replace(marker, bloco + "\n" + marker, 1)
     if conf_novo != conf_atual:
         sftp.putfo(io.BytesIO(conf_novo.encode()), nginx_conf)
         ssh_run(client, "nginx -t")
         ssh_run(client, "systemctl reload nginx")
-        print("   location /api/pedidos-mercos/ atualizada.")
+        print("   locations atualizadas.")
     else:
         print("   já configurado, nada a fazer.")
 

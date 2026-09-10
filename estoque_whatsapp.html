@@ -8,6 +8,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Estoque WhatsApp</title>
   <script src="estoque_whatsapp_data.js"></script>
+  <script src="catalogo_data.js"></script>
   <style>
     * { box-sizing: border-box; margin: 0; padding: 0; }
     :root {
@@ -88,6 +89,39 @@
       border-radius: 8px; padding: 10px 14px; font-size: .78rem; color: var(--muted);
       margin-bottom: 16px;
     }
+    .btn-buscar {
+      display: inline-block; margin-top: 4px; background: transparent;
+      border: 1px solid var(--border); color: var(--muted); border-radius: 6px;
+      padding: 2px 8px; font-size: .7rem; cursor: pointer; font-family: inherit;
+    }
+    .btn-buscar:hover { border-color: var(--blue); color: var(--text); }
+    .modal-overlay {
+      position: fixed; inset: 0; background: rgba(0,0,0,.6);
+      display: flex; align-items: flex-start; justify-content: center;
+      padding: 40px 16px; z-index: 100; overflow-y: auto;
+    }
+    .modal-overlay[hidden] { display: none; }
+    .modal-card-busca {
+      background: var(--card); border: 1px solid var(--border); border-radius: 12px;
+      padding: 20px; width: 100%; max-width: 560px;
+    }
+    .modal-card-busca h3 { font-size: 1rem; margin-bottom: 4px; }
+    .modal-card-busca .modal-sub { font-size: .78rem; color: var(--muted); margin-bottom: 14px; }
+    .modal-card-busca input[type=text] { width: 100%; margin-bottom: 12px; }
+    .resultados-busca { max-height: 360px; overflow-y: auto; border: 1px solid var(--border); border-radius: 8px; }
+    .resultado-item {
+      padding: 8px 12px; border-bottom: 1px solid var(--border); cursor: pointer; font-size: .82rem;
+    }
+    .resultado-item:last-child { border-bottom: none; }
+    .resultado-item:hover { background: var(--card2); }
+    .resultado-item .r-cod { color: var(--muted); font-size: .72rem; font-family: monospace; margin-right: 8px; }
+    .resultado-item .r-fant { color: var(--muted); font-size: .72rem; }
+    .modal-acoes-busca { display: flex; justify-content: flex-end; margin-top: 14px; }
+    .btn {
+      background: var(--card2); border: 1px solid var(--border); color: var(--text);
+      border-radius: 8px; padding: 8px 16px; font-size: .88rem; cursor: pointer; font-family: inherit;
+    }
+    .btn:hover { border-color: var(--blue); }
 
     @media (max-width: 640px) {
       body { padding: 12px; }
@@ -240,7 +274,10 @@ function renderizar(lista) {
       <td>
         <div>${_esc(i.descricao_oficial || i.raw_texto)}</div>
         ${i.descricao_oficial ? `<div class="raw-texto">"${_esc(i.raw_texto)}"</div>` : ''}
-        <div style="margin-top:4px">${i.codprod ? '<span class="badge-casado">✓ Casado</span>' : '<span class="badge-sem-casar">Sem casar</span>'}</div>
+        <div style="margin-top:4px">
+          ${i.codprod ? '<span class="badge-casado">✓ Casado</span>' : '<span class="badge-sem-casar">Sem casar</span>'}
+          <button class="btn-buscar" onclick="abrirBuscaManual('${_escAttr(i.raw_texto)}')">🔍 ${i.codprod ? 'Corrigir' : 'Buscar produto'}</button>
+        </div>
       </td>
       <td class="cod">${i.codprod || '—'}</td>
       <td class="qtd ${i.quantidade === 0 ? 'qtd-zero' : ''}">${_qt(i.quantidade)}</td>
@@ -255,6 +292,87 @@ function _qt(v) {
 
 function _esc(s) {
   return String(s || '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+}
+
+function _escAttr(s) {
+  return _esc(s).replace(/'/g, '&#39;');
+}
+
+// ── Casamento manual (pedido do usuário em 2026-09-10) ──────────────────────
+// A IA erra às vezes (marca errada, tamanho errado) e nem sempre acha o
+// produto — esse modal deixa buscar no mesmo catálogo usado pela IA
+// (catalogo_data.js, gerado por catalogo.py) e escolher na mão. Salva no
+// mesmo cache que o cron usa (/api/estoque-whatsapp/casar-manual), então o
+// cron nunca mais manda esse texto pra IA de novo.
+const CATALOGO = (typeof CATALOGO_DATA !== 'undefined' ? CATALOGO_DATA.produtos : []) || [];
+let _buscaRawTexto = null;
+
+function abrirBuscaManual(rawTexto) {
+  _buscaRawTexto = rawTexto;
+  document.getElementById('busca-manual-titulo').textContent = `Buscar produto pra: "${rawTexto}"`;
+  document.getElementById('busca-manual-input').value = '';
+  document.getElementById('busca-manual-resultados').innerHTML = '<div style="padding:12px;color:var(--muted);font-size:.8rem">Digite pra buscar...</div>';
+  document.getElementById('modal-busca-manual').hidden = false;
+  document.getElementById('busca-manual-input').focus();
+}
+
+function fecharBuscaManual() {
+  document.getElementById('modal-busca-manual').hidden = true;
+  _buscaRawTexto = null;
+}
+
+function _buscarCatalogo() {
+  const termo = document.getElementById('busca-manual-input').value.trim().toLowerCase();
+  const cont = document.getElementById('busca-manual-resultados');
+  if (termo.length < 2) {
+    cont.innerHTML = '<div style="padding:12px;color:var(--muted);font-size:.8rem">Digite pelo menos 2 letras...</div>';
+    return;
+  }
+  const termos = termo.split(/\s+/).filter(Boolean);
+  const resultados = CATALOGO.filter(p => {
+    const alvo = (p.descricao + ' ' + p.fantasia).toLowerCase();
+    return termos.every(t => alvo.includes(t));
+  }).slice(0, 40);
+  if (!resultados.length) {
+    cont.innerHTML = '<div style="padding:12px;color:var(--muted);font-size:.8rem">Nenhum produto encontrado.</div>';
+    return;
+  }
+  cont.innerHTML = resultados.map(p => `
+    <div class="resultado-item" onclick="selecionarProdutoManual(${p.codprod}, '${_escAttr(p.descricao)}')">
+      <span class="r-cod">${p.codprod}</span>${_esc(p.descricao)}
+      <span class="r-fant"> — ${_esc(p.fantasia)}</span>
+    </div>
+  `).join('');
+}
+
+async function selecionarProdutoManual(codprod, descricao) {
+  const rawTexto = _buscaRawTexto;
+  if (!rawTexto) return;
+  try {
+    const resp = await fetch('/api/estoque-whatsapp/casar-manual', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ raw_texto: rawTexto, codprod: String(codprod), descricao }),
+    });
+    const d = await resp.json().catch(() => ({}));
+    if (!d.ok) {
+      alert(d.motivo || 'Não foi possível salvar agora.');
+      return;
+    }
+  } catch (e) {
+    alert('Não foi possível salvar agora — tente de novo em instantes.');
+    return;
+  }
+  // Atualiza na hora, sem esperar o próximo ciclo do cron regravar o
+  // estoque_whatsapp_data.js — só reflete no navegador de quem salvou até lá.
+  const item = ITENS.find(i => i.raw_texto === rawTexto);
+  if (item) {
+    item.codprod = String(codprod);
+    item.descricao_oficial = descricao;
+  }
+  fecharBuscaManual();
+  montarKpis(ITENS);
+  aplicarFiltro();
 }
 
 function exportarCSV() {
@@ -273,6 +391,17 @@ function exportarCSV() {
   URL.revokeObjectURL(url);
 }
 </script>
+<div class="modal-overlay" id="modal-busca-manual" hidden onclick="if (event.target === this) fecharBuscaManual()">
+  <div class="modal-card-busca">
+    <h3 id="busca-manual-titulo">Buscar produto</h3>
+    <p class="modal-sub">Escolha o produto certo do catálogo — fica salvo pra sempre nesse item.</p>
+    <input type="text" id="busca-manual-input" placeholder="Digite o nome do produto..." oninput="_buscarCatalogo()">
+    <div class="resultados-busca" id="busca-manual-resultados"></div>
+    <div class="modal-acoes-busca">
+      <button class="btn" onclick="fecharBuscaManual()">Fechar</button>
+    </div>
+  </div>
+</div>
 <script src="sticky_hscroll.js"></script>
 </body>
 </html>

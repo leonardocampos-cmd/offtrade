@@ -35,11 +35,13 @@ deploy_pedidos_mercos_api_vps.py). Porta 5056: 5050-5055 já ocupadas por
 outros serviços da VPS (vencimento, login-api, pedido_reply_bot,
 whatsapp-resumo, kanban-api, credito-cadastro — ver credito_cadastro_api.py).
 """
+import json
 import os
 import re
 import subprocess
 import threading
 import time
+import unicodedata
 
 import requests
 from dotenv import load_dotenv
@@ -198,7 +200,63 @@ def sincronizar_estoque():
     return {"ok": True, "atualizados": ok, "falhas": falhas, "total": total}
 
 
+# ── Casamento manual (estoque_whatsapp.html) ────────────────────────────────
+# Pedido do usuário em 2026-09-10: "Sem casar" no estoque_whatsapp.html
+# (produto que a IA não achou no catálogo, ou casou errado) precisa de um
+# jeito de escolher manualmente — busca em catalogo_data.js (já publicado,
+# mesmo catálogo usado por exportacao_estoque_whatsapp.py pra IA) e grava
+# aqui, no MESMO arquivo de cache que o cron usa (chave = texto normalizado
+# igual exportacao_estoque_whatsapp.py::_normalizar — duplicado aqui de
+# propósito: essa API roda num venv leve, sem os imports pesados do
+# pipeline/Oracle que o módulo original carrega). Uma vez gravado, o cron
+# nunca mais manda esse texto pra IA de novo (mesma checagem "already in
+# matches" de _atualizar_matches).
+bp_estoque = Blueprint("estoque_whatsapp", __name__, url_prefix="/api/estoque-whatsapp")
+
+_ESTOQUE_MATCHES_PATH = os.path.join(
+    "/opt/offtrade-pipeline" if RUNTIME == "vps" else r"G:\Meu Drive\offtrade",
+    "estoque_whatsapp_matches.json",
+)
+
+
+def _normalizar_estoque(texto):
+    s = unicodedata.normalize("NFKD", texto).encode("ascii", "ignore").decode("ascii")
+    s = re.sub(r"[^a-z0-9]+", " ", s.lower()).strip()
+    return s
+
+
+@bp_estoque.route("/casar-manual", methods=["POST"])
+def casar_manual_estoque():
+    dados = request.get_json(silent=True) or {}
+    raw_texto = str(dados.get("raw_texto", "")).strip()
+    codprod = str(dados.get("codprod", "")).strip()
+    descricao = str(dados.get("descricao", "")).strip()
+
+    if not raw_texto or not codprod or not descricao:
+        return {"ok": False, "motivo": "Dados incompletos."}, 400
+
+    chave = _normalizar_estoque(raw_texto)
+    if not chave:
+        return {"ok": False, "motivo": "Texto do produto inválido."}, 400
+
+    try:
+        matches = {}
+        if os.path.exists(_ESTOQUE_MATCHES_PATH):
+            with open(_ESTOQUE_MATCHES_PATH, "r", encoding="utf-8") as f:
+                matches = json.load(f)
+        matches[chave] = {"codprod": codprod, "descricao": descricao}
+        tmp = _ESTOQUE_MATCHES_PATH + ".tmp"
+        with open(tmp, "w", encoding="utf-8") as f:
+            json.dump(matches, f, ensure_ascii=False, indent=2)
+        os.replace(tmp, _ESTOQUE_MATCHES_PATH)
+    except Exception as e:
+        return {"ok": False, "motivo": f"Não consegui salvar ({str(e)[:150]})."}, 500
+
+    return {"ok": True}
+
+
 app.register_blueprint(bp)
+app.register_blueprint(bp_estoque)
 
 if __name__ == "__main__":
     debug = RUNTIME != "vps"

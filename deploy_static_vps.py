@@ -119,7 +119,16 @@ def ssh_run(client, cmd, check=True):
 # aqui o que foi pensado pra ser servido (ex: promotoria_data.json, espelho
 # em JSON puro de promotoria_data.js pra consumo externo tipo Power BI —
 # pedido do usuário em 2026-09-08).
-ALLOWLIST_JSON = {"promotoria_data.json"}
+#
+# promotoria_data.json REMOVIDO daqui em 2026-09-10: mesmo motivo de
+# promotoria_data.js estar em EXCLUDE_JS — só a VPS gera fresco (cron
+# próprio via main.py), a cópia local fica velha entre rodadas. Estando
+# nessa allowlist, esse deploy sincronizava a cópia local (velha) por cima
+# do .json fresco publicado pela VPS toda vez que alguém rodava esse
+# script — bug real, achado em 2026-09-10 (.json preso em 08/09 enquanto
+# .js, protegido, seguia atualizando sozinho). Publicação correta agora é
+# só via main.py rodando na própria VPS (ver ALLOWLIST_JSON ali).
+ALLOWLIST_JSON = set()
 
 
 def static_files() -> list[Path]:
