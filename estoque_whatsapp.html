@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <script src="auth.js"></script>
+  <script src="fontes_status_data.js"></script>
+  <script src="fontes_alert.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Estoque WhatsApp</title>
+  <script src="estoque_whatsapp_data.js"></script>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --bg: #0f1117; --card: #1a1d27; --card2: #22263a;
+      --accent: #f5c518; --blue: #3b82f6; --text: #e2e8f0;
+      --muted: #94a3b8; --border: #2d3144; --green: #22c55e;
+      --red: #ef4444; --orange: #f97316;
+    }
+    body {
+      background: var(--bg); color: var(--text);
+      font-family: 'Segoe UI', system-ui, sans-serif;
+      min-height: 100vh; padding: 16px;
+    }
+    header {
+      display: flex; align-items: center; justify-content: space-between;
+      margin-bottom: 20px; padding-bottom: 16px;
+      border-bottom: 1px solid var(--border); gap: 12px; flex-wrap: wrap;
+    }
+    header h1 { font-size: 1.1rem; font-weight: 700; color: var(--accent); }
+    header p  { font-size: .8rem; color: var(--muted); margin-top: 3px; }
+    .kpis { display: flex; gap: 12px; flex-wrap: wrap; margin-bottom: 16px; }
+    .kpi {
+      background: var(--card); border: 1px solid var(--border); border-radius: 10px;
+      padding: 14px 18px; flex: 1; min-width: 160px;
+    }
+    .kpi .label {
+      font-size: .65rem; text-transform: uppercase; letter-spacing: .08em;
+      color: var(--muted); margin-bottom: 6px;
+    }
+    .kpi .val { font-size: 1.25rem; font-weight: 800; }
+    .controls {
+      display: flex; gap: 10px; flex-wrap: wrap;
+      margin-bottom: 16px; align-items: center;
+    }
+    select, input[type=text] {
+      background: var(--card); border: 1px solid var(--border);
+      color: var(--text); border-radius: 8px; padding: 8px 12px;
+      font-size: .88rem; outline: none; font-family: inherit;
+    }
+    select:focus, input[type=text]:focus { border-color: var(--blue); }
+    select { min-width: 180px; }
+    input[type=text] { min-width: 260px; }
+    .btn-csv {
+      background: var(--green); color: #0f1117; border: none;
+      border-radius: 8px; padding: 8px 16px; font-size: .88rem;
+      font-weight: 700; cursor: pointer; font-family: inherit;
+    }
+    .btn-csv:hover { opacity: .88; }
+    .info { font-size: .8rem; color: var(--muted); margin-left: auto; }
+    .table-wrap { overflow-x: auto; border-radius: 10px; border: 1px solid var(--border); }
+    table { width: 100%; border-collapse: collapse; font-size: .82rem; }
+    thead th {
+      background: var(--card2); padding: 10px 12px; text-align: left;
+      font-size: .72rem; text-transform: uppercase; letter-spacing: .05em;
+      color: var(--muted); border-bottom: 1px solid var(--border);
+      white-space: nowrap; cursor: pointer;
+    }
+    thead th:hover { color: var(--text); }
+    tbody tr { border-bottom: 1px solid var(--border); }
+    tbody tr:hover { background: var(--card2); }
+    tbody td { padding: 9px 12px; vertical-align: middle; }
+    .raw-texto { color: var(--muted); font-size: .76rem; margin-top: 2px; }
+    .qtd { font-weight: 800; font-size: .95rem; }
+    .qtd-zero { color: var(--muted); font-weight: 400; }
+    .badge-casado {
+      display: inline-block; font-size: .68rem; font-weight: 700; padding: 2px 7px;
+      border-radius: 20px; white-space: nowrap; background: rgba(34,197,94,.15); color: var(--green);
+    }
+    .badge-sem-casar {
+      display: inline-block; font-size: .68rem; font-weight: 700; padding: 2px 7px;
+      border-radius: 20px; white-space: nowrap; background: rgba(249,115,22,.15); color: var(--orange);
+    }
+    .cod { color: var(--muted); font-size: .78rem; font-family: monospace; }
+    .atualizado { color: var(--muted); font-size: .78rem; white-space: nowrap; }
+    .empty { text-align: center; padding: 48px; color: var(--muted); font-size: .9rem; }
+    .aviso-ia {
+      background: rgba(59,130,246,.1); border: 1px solid rgba(59,130,246,.25);
+      border-radius: 8px; padding: 10px 14px; font-size: .78rem; color: var(--muted);
+      margin-bottom: 16px;
+    }
+
+    @media (max-width: 640px) {
+      body { padding: 12px; }
+      .kpi { min-width: 130px; padding: 12px 14px; }
+      select { min-width: 130px; }
+      input[type=text] { min-width: 140px; }
+      table { font-size: .76rem; }
+      thead th, tbody td { padding: 8px 9px; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div>
+    <h1>📦 ESTOQUE (WhatsApp)</h1>
+    <p id="header-sub">—</p>
+  </div>
+  <a href="index.html" style="color:var(--muted);font-size:.8rem;text-decoration:none">← Painel</a>
+</header>
+
+<div class="aviso-ia">
+  Contagem extraída das mensagens do grupo de WhatsApp "Estoque RJ - Rigarr" — o
+  produto oficial é casado por IA a partir do texto digitado no grupo e pode
+  errar; o texto original sempre aparece abaixo do nome pra conferência.
+  Produtos sem "✓ Casado" não foram reconhecidos no catálogo.
+</div>
+
+<div class="kpis" id="kpis"></div>
+
+<div class="controls">
+  <select id="sel-status" onchange="aplicarFiltro()">
+    <option value="">Todos</option>
+    <option value="casado">Casados com catálogo</option>
+    <option value="sem-casar">Sem casar</option>
+    <option value="zerado">Zerados</option>
+  </select>
+  <input type="text" id="busca" placeholder="Buscar por produto..." oninput="aplicarFiltro()">
+  <button class="btn-csv" onclick="exportarCSV()">⬇ Exportar CSV</button>
+  <span class="info" id="info-count"></span>
+</div>
+
+<div class="table-wrap">
+  <table id="tabela">
+    <thead>
+      <tr>
+        <th onclick="ordenarPor('produto')">Produto</th>
+        <th onclick="ordenarPor('codprod')" class="cod">CODPROD</th>
+        <th onclick="ordenarPor('quantidade')">Quantidade</th>
+        <th onclick="ordenarPor('atualizado_em')">Atualizado em</th>
+      </tr>
+    </thead>
+    <tbody id="tbody"></tbody>
+  </table>
+</div>
+
+<script>
+const DATA = typeof ESTOQUE_WHATSAPP_DATA !== 'undefined' ? ESTOQUE_WHATSAPP_DATA : null;
+const ITENS = DATA ? DATA.itens : [];
+
+let _ordem = { campo: 'produto', asc: true };
+
+if (!DATA) {
+  document.getElementById('tbody').innerHTML = '<tr><td colspan="4" class="empty">Dados não encontrados. Gere estoque_whatsapp_data.js (exportacao_estoque_whatsapp.py).</td></tr>';
+} else {
+  document.getElementById('header-sub').textContent =
+    'Atualizado ' + DATA.atualizado_em +
+    (DATA.fontes_indisponiveis && DATA.fontes_indisponiveis.length
+      ? ' · ⚠️ fonte(s) fora do ar: ' + DATA.fontes_indisponiveis.join(', ')
+      : '');
+  montarKpis(ITENS);
+  aplicarFiltro();
+}
+
+function montarKpis(lista) {
+  const total = lista.length;
+  const casados = lista.filter(i => i.codprod).length;
+  const zerados = lista.filter(i => i.quantidade === 0).length;
+  const somaQtd = lista.reduce((s, i) => s + (i.quantidade || 0), 0);
+  document.getElementById('kpis').innerHTML = `
+    <div class="kpi">
+      <div class="label">Produtos</div>
+      <div class="val">${total}</div>
+    </div>
+    <div class="kpi">
+      <div class="label">Casados com Catálogo</div>
+      <div class="val" style="color:var(--green)">${casados}</div>
+    </div>
+    <div class="kpi">
+      <div class="label">Sem Casar</div>
+      <div class="val" style="color:var(--orange)">${total - casados}</div>
+    </div>
+    <div class="kpi">
+      <div class="label">Zerados</div>
+      <div class="val" style="color:var(--red)">${zerados}</div>
+    </div>
+    <div class="kpi">
+      <div class="label">Soma das Quantidades</div>
+      <div class="val">${_qt(somaQtd)}</div>
+    </div>
+  `;
+}
+
+function _filtrados() {
+  const status = document.getElementById('sel-status').value;
+  const busca = document.getElementById('busca').value.trim().toLowerCase();
+  return ITENS.filter(i => {
+    if (status === 'casado' && !i.codprod) return false;
+    if (status === 'sem-casar' && i.codprod) return false;
+    if (status === 'zerado' && i.quantidade !== 0) return false;
+    if (busca) {
+      const alvo = ((i.descricao_oficial || '') + ' ' + i.raw_texto).toLowerCase();
+      if (!alvo.includes(busca)) return false;
+    }
+    return true;
+  });
+}
+
+function ordenarPor(campo) {
+  if (_ordem.campo === campo) _ordem.asc = !_ordem.asc;
+  else { _ordem.campo = campo; _ordem.asc = true; }
+  aplicarFiltro();
+}
+
+function aplicarFiltro() {
+  let lista = _filtrados();
+  const { campo, asc } = _ordem;
+  lista.sort((a, b) => {
+    let va, vb;
+    if (campo === 'produto') { va = (a.descricao_oficial || a.raw_texto).toLowerCase(); vb = (b.descricao_oficial || b.raw_texto).toLowerCase(); }
+    else if (campo === 'codprod') { va = a.codprod || ''; vb = b.codprod || ''; }
+    else if (campo === 'quantidade') { va = a.quantidade || 0; vb = b.quantidade || 0; }
+    else { va = a.atualizado_em || ''; vb = b.atualizado_em || ''; }
+    if (va < vb) return asc ? -1 : 1;
+    if (va > vb) return asc ? 1 : -1;
+    return 0;
+  });
+  renderizar(lista);
+  document.getElementById('info-count').textContent = `${lista.length} produto(s)`;
+}
+
+function renderizar(lista) {
+  const tbody = document.getElementById('tbody');
+  if (!lista.length) {
+    tbody.innerHTML = '<tr><td colspan="4" class="empty">Nenhum produto encontrado com esse filtro.</td></tr>';
+    return;
+  }
+  tbody.innerHTML = lista.map(i => `
+    <tr>
+      <td>
+        <div>${_esc(i.descricao_oficial || i.raw_texto)}</div>
+        ${i.descricao_oficial ? `<div class="raw-texto">"${_esc(i.raw_texto)}"</div>` : ''}
+        <div style="margin-top:4px">${i.codprod ? '<span class="badge-casado">✓ Casado</span>' : '<span class="badge-sem-casar">Sem casar</span>'}</div>
+      </td>
+      <td class="cod">${i.codprod || '—'}</td>
+      <td class="qtd ${i.quantidade === 0 ? 'qtd-zero' : ''}">${_qt(i.quantidade)}</td>
+      <td class="atualizado">${_esc(i.atualizado_em)}</td>
+    </tr>
+  `).join('');
+}
+
+function _qt(v) {
+  return Number(v || 0).toLocaleString('pt-BR');
+}
+
+function _esc(s) {
+  return String(s || '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+}
+
+function exportarCSV() {
+  const lista = _filtrados();
+  const header = ['Produto Oficial','CODPROD','Texto Original (WhatsApp)','Quantidade','Atualizado em'];
+  const linhas = lista.map(i => [
+    i.descricao_oficial || '', i.codprod || '', i.raw_texto, i.quantidade, i.atualizado_em,
+  ].map(v => `"${String(v ?? '').replace(/"/g,'""')}"`).join(';'));
+  const csv = '﻿' + [header.join(';'), ...linhas].join('\r\n');
+  const blob = new Blob([csv], { type: 'text/csv;charset=utf-8;' });
+  const url  = URL.createObjectURL(blob);
+  const a    = document.createElement('a');
+  a.href = url;
+  a.download = `estoque_whatsapp_${new Date().toISOString().slice(0,10)}.csv`;
+  a.click();
+  URL.revokeObjectURL(url);
+}
+</script>
+<script src="sticky_hscroll.js"></script>
+</body>
+</html>

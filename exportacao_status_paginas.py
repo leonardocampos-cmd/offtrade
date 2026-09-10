@@ -62,6 +62,7 @@ PAGINAS_VPS_ONLY = {
     "crusoe_data.js", "acao_amarula_data.js", "entregas_data.js",
     "nao_pos_sp_data.js", "nao_pos_es_data.js", "nao_pos_mg_data.js",
     "performance_equipe_data.js", "vendedores_auth_data.js",
+    "estoque_whatsapp_data.js",
     "base_ataque_vinhos_data.js",
 }
 if os.getenv("OFFTRADE_RUNTIME", "local") != "vps":

@@ -167,6 +167,8 @@
     .modal-card label { font-size: .74rem; color: var(--muted); display: block; margin-bottom: 4px; margin-top: 12px; }
     .modal-card input[type=text] { width: 100%; min-width: 0; }
     .modal-card .modal-acoes { display: flex; gap: 10px; margin-top: 20px; justify-content: flex-end; }
+    .modal-checkbox { display: flex !important; align-items: flex-start; gap: 8px; margin-top: 16px; font-size: .74rem; color: var(--muted); cursor: pointer; }
+    .modal-checkbox input[type=checkbox] { margin-top: 2px; flex-shrink: 0; width: auto; }
 
     @media (max-width: 640px) {
       body { padding: 12px; }
@@ -761,6 +763,7 @@ function abrirConfigZapi() {
   document.getElementById('zapi-instance').value = cfg.instance || '';
   document.getElementById('zapi-token').value = cfg.token || '';
   document.getElementById('zapi-client-token').value = cfg.client_token || '';
+  document.getElementById('zapi-auto-avisar').checked = !!cfg.auto_avisar;
   document.getElementById('modal-zapi').hidden = false;
 }
 
@@ -773,9 +776,109 @@ function salvarConfigZapi() {
     instance: document.getElementById('zapi-instance').value.trim(),
     token: document.getElementById('zapi-token').value.trim(),
     client_token: document.getElementById('zapi-client-token').value.trim(),
+    auto_avisar: document.getElementById('zapi-auto-avisar').checked,
   };
   localStorage.setItem(ZAPI_STORAGE_KEY, JSON.stringify(cfg));
   fecharConfigZapi();
+  _checarMudancasStatus();
+}
+
+// ── Aviso automático de mudança de status ───────────────────────────────
+// Pedido do usuário em 2026-09-10: avisar o vendedor no WhatsApp quando o
+// status do pedido mudar, sem precisar clicar em "Enviar WhatsApp" na mão.
+// Sai pela mesma conta Z-API de quem estiver com a página aberta (mesmo
+// modelo do envio manual — não existe conta fixa do servidor, cada usuário
+// usa a própria). Por isso o aviso automático é opt-in (checkbox na
+// configuração, default desligado): se duas pessoas deixassem a página
+// aberta com a própria conta Z-API configurada, o vendedor receberia a
+// mesma mensagem duas vezes, de dois números diferentes — só liga quem for
+// de fato responsável por avisar.
+//
+// pedidos_mercos_data.js só é regravado pelo cron da VPS a cada 30min (ver
+// gerar_pedidos_mercos_data.py) — a página em si carrega os dados uma vez
+// só, via <script src="pedidos_mercos_data.js">, então esse watcher refaz
+// o fetch do próprio arquivo periodicamente (o <script> original não
+// reflete mudanças depois do load) e recorta o JSON manualmente (mesmo
+// formato "const PEDIDOS_MERCOS_DATA = {...};" que todo _data.js do
+// projeto usa, não é um endpoint JSON de verdade).
+const STATUS_VISTO_KEY = 'pedidos_mercos_status_visto';
+const _INTERVALO_CHECAGEM_MS = 3 * 60 * 1000;
+
+function _lerStatusVisto() {
+  try { return JSON.parse(localStorage.getItem(STATUS_VISTO_KEY) || '{}'); }
+  catch (e) { return {}; }
+}
+
+async function _buscarPedidosAtuais() {
+  const resp = await fetch('pedidos_mercos_data.js?_=' + Date.now(), { cache: 'no-store' });
+  const texto = await resp.text();
+  const json = texto.replace(/^\s*const\s+PEDIDOS_MERCOS_DATA\s*=\s*/, '').replace(/;\s*$/, '');
+  return (JSON.parse(json).pedidos) || [];
+}
+
+// Pedido do usuário em 2026-09-10: no aviso automático, só anexa o PDF do
+// pedido quando faturou (integral/corte/excesso — mesmo grupo de
+// STATUS_COM_COMPARACAO); cancelado ou qualquer outro status manda só a
+// mensagem, sem PDF (diferente do botão manual, que sempre anexa).
+async function _enviarAvisoMudancaStatus(p, cfg) {
+  const corpo = {
+    cod_vendedor: p.cod_vendedor,
+    mensagem: _mensagemFaturamento(p),
+    zapi_instance: cfg.instance,
+    zapi_token: cfg.token,
+    zapi_client_token: cfg.client_token,
+  };
+  if (STATUS_COM_COMPARACAO.includes(p.status_spon)) {
+    const pdfDataUriBruto = _construirPdfPedido(p).output('datauristring');
+    corpo.pdf_base64 = pdfDataUriBruto.replace(/;filename=[^;]*;/, ';');
+    corpo.pdf_filename = `pedido_${p.numped}.pdf`;
+  }
+  try {
+    await fetch('/api/pedidos-mercos/enviar-whatsapp', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(corpo),
+    });
+  } catch (e) { /* próximo ciclo não reinsiste (já marcamos como visto) — falha fica só no console */
+    console.warn('Aviso automático de status falhou pro pedido', p.numped, e);
+  }
+}
+
+// Só manda mensagem de mudança de status pra status que já tem redação
+// própria em _mensagemFaturamento (faturado/cortado/cancelado) — mudanças
+// "administrativas" (ex: nao_encontrado → montado, sem redação dedicada)
+// só atualizam o status visto, em silêncio.
+const _STATUS_COM_AVISO = [...STATUS_COM_COMPARACAO, 'cancelado', 'cancelado_spon'];
+
+let _checagemEmAndamento = false;
+
+async function _checarMudancasStatus() {
+  const cfg = _lerConfigZapi();
+  if (!cfg.auto_avisar || !cfg.instance || !cfg.token || !cfg.client_token) return;
+  if (_checagemEmAndamento) return;
+  _checagemEmAndamento = true;
+  try {
+    let pedidosAtuais;
+    try { pedidosAtuais = await _buscarPedidosAtuais(); }
+    catch (e) { return; }
+    const visto = _lerStatusVisto();
+    const primeiraVez = Object.keys(visto).length === 0;
+    for (const p of pedidosAtuais) {
+      const anterior = visto[p.numped];
+      if (!primeiraVez && anterior && anterior !== p.status_spon && _STATUS_COM_AVISO.includes(p.status_spon)) {
+        await _enviarAvisoMudancaStatus(p, cfg);
+      }
+      visto[p.numped] = p.status_spon;
+    }
+    localStorage.setItem(STATUS_VISTO_KEY, JSON.stringify(visto));
+  } finally {
+    _checagemEmAndamento = false;
+  }
+}
+
+if (DATA) {
+  _checarMudancasStatus();
+  setInterval(_checarMudancasStatus, _INTERVALO_CHECAGEM_MS);
 }
 </script>
 <div class="modal-overlay" id="modal-zapi" hidden onclick="if (event.target === this) fecharConfigZapi()">
@@ -788,6 +891,11 @@ function salvarConfigZapi() {
     <input type="text" id="zapi-token" placeholder="ex: A1B2C3...">
     <label for="zapi-client-token">Client-Token</label>
     <input type="text" id="zapi-client-token" placeholder="ex: F...">
+    <label class="modal-checkbox">
+      <input type="checkbox" id="zapi-auto-avisar">
+      Avisar o vendedor automaticamente quando o status do pedido mudar
+      (verifica a cada poucos minutos enquanto esta página ficar aberta)
+    </label>
     <div class="modal-acoes">
       <button class="btn" onclick="fecharConfigZapi()">Cancelar</button>
       <button class="btn-csv" onclick="salvarConfigZapi()">Salvar</button>

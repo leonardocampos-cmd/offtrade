@@ -38,3 +38,10 @@ acessos_state.json
 # local e VPS acumulam o próprio, cada um independente, igual promotoria_data.js
 # (esse script não tem lógica de git; nunca é commitado).
 promotoria_analises_ia.json
+
+# Estoque via WhatsApp (exportacao_estoque_whatsapp.py): estado acumulado
+# (produto->quantidade visto nas mensagens) e cache de casamento com o
+# catálogo por IA — VPS acumula o próprio, nunca commitado (só
+# estoque_whatsapp_data.js, o resultado final, é publicado).
+estoque_whatsapp_raw.json
+estoque_whatsapp_matches.json

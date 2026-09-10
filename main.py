@@ -373,6 +373,14 @@ def main():
                 repo_dir = Path(__file__).parent
                 arquivos = [f for f in repo_dir.glob("*.html") if f.name != "exemplo.html"]
                 arquivos += list(repo_dir.glob("*.js"))
+                # *.json fica de fora por padrão (evita publicar token/credenciais
+                # por engano) — mesma allowlist de deploy_static_vps.py::ALLOWLIST_JSON.
+                # Sem isso, promotoria_data.json (usado no Power BI) ficava
+                # desatualizado: o cron da VPS só atualiza promotoria_data.js aqui,
+                # e só um deploy_static_vps.py manual pegava o .json (achado real
+                # em 2026-09-10 — .js em 10/09 11:09, .json parado em 08/09 12:32).
+                ALLOWLIST_JSON = {"promotoria_data.json"}
+                arquivos += [f for f in repo_dir.glob("*.json") if f.name in ALLOWLIST_JSON]
                 for f in arquivos:
                     shutil.copy(f, os.path.join(destino, f.name))
                 print(f"OK - {len(arquivos)} arquivo(s) copiados para {destino} (deploy local, sem SSH)")
