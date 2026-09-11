@@ -74,6 +74,7 @@ HERE = Path(__file__).parent
 OUT_JS = HERE / "estoque_whatsapp_data.js"
 RAW_JSON = HERE / "estoque_whatsapp_raw.json"
 MATCHES_JSON = HERE / "estoque_whatsapp_matches.json"
+IA_PARSE_JSON = HERE / "estoque_whatsapp_ia_parse.json"
 
 CATALOGO_QUERY = """
     SELECT DISTINCT P.CODPROD, P.DESCRICAO
@@ -106,7 +107,11 @@ def _buscar_mensagens_grupo():
         texto = msg.get("conversation") or (msg.get("extendedTextMessage") or {}).get("text")
         if not texto:
             continue
-        saida.append({"texto": texto, "ts": m.get("messageTimestamp") or 0})
+        saida.append({
+            "id": (m.get("key") or {}).get("id") or "",
+            "texto": texto,
+            "ts": m.get("messageTimestamp") or 0,
+        })
     saida.sort(key=lambda x: x["ts"])
     return saida
 
@@ -137,6 +142,85 @@ _RE_ITEM = re.compile(r"^(.*?)\s*[-=:]\s*(\d{1,3}(?:\.\d{3})+|\d+)\s*(?:und?\.?|
 # FINAL da linha, logo depois do número.
 _RE_ITEM_CX = re.compile(r"^(.*?)\s+(\d{1,4})\s*(?:cxs?|und?|unid)\.?\s*$", re.IGNORECASE)
 _RE_INDISPONIVEL = re.compile(r"^(.*?)\s*[❌❎✖]\s*$")
+
+
+# ── Extração de produto+quantidade via IA ───────────────────────────────────
+# Pedido do usuário em 2026-09-11, depois de "Amarula" ter sido mencionado
+# no grupo (11/08) num formato que o parser por regex nunca vai conseguir
+# cobrir: cabeçalho de categoria numa linha ("Amarula") + itens soltos
+# embaixo ("Vegan. 45 und", "Coffee. 41 und") — o regex lê linha a linha,
+# sem contexto nenhum do que veio antes, e devolveria "Vegan." como se
+# fosse o produto inteiro. Regex continua existindo (_parse_linhas acima)
+# como fallback determinístico se a IA falhar/estiver fora do ar — a
+# pipeline nunca fica 100% dependente da IA pra funcionar.
+_PROMPT_EXTRACAO_ESTOQUE = """A mensagem abaixo é de um grupo de WhatsApp onde o time posta contagem de estoque (produto + quantidade). Extraia cada PRODUTO com sua QUANTIDADE em JSON, respondendo APENAS o JSON no formato:
+
+{{"itens": [{{"produto": "nome do produto", "quantidade": numero_inteiro}}, ...]}}
+
+Regras importantes:
+- Quantidade é sempre um número inteiro (sem separador decimal). "23.787" ou "1.935" são 23787 e 1935 (o ponto é separador de milhar, não decimal).
+- Se uma linha for um CABEÇALHO/CATEGORIA (ex: "Amarula" sozinho numa linha, seguido de itens tipo "Vegan. 45 und", "Coffee. 41 und") — combine o cabeçalho com cada item da lista abaixo dele: "Amarula Vegan", "Amarula Coffee", etc. Não devolva o cabeçalho sozinho como item.
+- "❌"/"❎"/"✖" no fim de uma linha (sem número) significa quantidade 0 (zerado/indisponível) — inclua como item com quantidade 0.
+- IGNORE linhas que não são contagem de verdade: saudações ("bom dia"), perguntas ("podem confirmar?", "podem passar o estoque de..."), confirmações soltas ("ok", "conferindo", "obrigada"), menções/marcações (@numero).
+- Cada linha pode ter separador "-", "=", ":" entre produto e número, OU o número pode vir colado direto depois do nome (ex: "RED BULL TRADICIONAL 11CX", "JACK TRADICIONAL 1L 12UN").
+- Sufixos possíveis depois do número (ignore, não fazem parte da quantidade): "und", "unid", "malas", "cx", "cxs".
+- Se a mensagem inteira não tiver nenhuma contagem de produto, devolva {{"itens": []}}.
+
+Mensagem:
+\"\"\"
+{texto}
+\"\"\""""
+
+
+def _extrair_itens_ia(texto):
+    """Best-effort: None em qualquer falha (rate limit esgotado, resposta
+    inválida etc) — quem chama cai pro parser por regex nesse caso."""
+    from openai import OpenAI
+    client = OpenAI()
+    import time
+    resp = None
+    for tentativa in range(3):
+        try:
+            resp = client.chat.completions.create(
+                model=os.getenv("OPENAI_TEXT_MODEL", "gpt-4o-mini"),
+                messages=[{"role": "user", "content": _PROMPT_EXTRACAO_ESTOQUE.format(texto=texto[:3000])}],
+                response_format={"type": "json_object"},
+                temperature=0,
+            )
+            break
+        except Exception as e:
+            if "429" in str(e) and tentativa < 2:
+                time.sleep(20)
+                continue
+            print(f"  [AVISO] extração por IA falhou ({str(e)[:120]}) — cai pro parser por regex nessa mensagem.")
+            return None
+    try:
+        resultado = json.loads(resp.choices[0].message.content)
+        itens = []
+        for it in resultado.get("itens", []):
+            produto = str(it.get("produto", "")).strip()
+            qtd = it.get("quantidade")
+            if produto and isinstance(qtd, (int, float)):
+                itens.append((produto, int(qtd)))
+        return itens
+    except (json.JSONDecodeError, AttributeError, TypeError, KeyError) as e:
+        print(f"  [AVISO] resposta da IA inválida pra extração de estoque ({str(e)[:120]}) — cai pro parser por regex.")
+        return None
+
+
+def _itens_da_mensagem(msg, cache_ia):
+    """Cacheia por id da mensagem (nunca reprocessa a mesma mensagem 2x na
+    IA — cada cron roda contra a mesma janela de ~300 mensagens, então sem
+    cache seria a mesma chamada repetida a cada 30min pra sempre)."""
+    msg_id = msg.get("id")
+    if msg_id and msg_id in cache_ia:
+        return [(it["produto"], it["quantidade"]) for it in cache_ia[msg_id]]
+    itens_ia = _extrair_itens_ia(msg["texto"])
+    if itens_ia is None:
+        return _parse_linhas(msg["texto"])
+    if msg_id:
+        cache_ia[msg_id] = [{"produto": p, "quantidade": q} for p, q in itens_ia]
+    return itens_ia
 
 
 def _normalizar(texto):
@@ -188,8 +272,9 @@ def _salvar_json(caminho, dados):
 
 def _atualizar_estado_raw(mensagens):
     estado = _carregar_json(RAW_JSON, {})
+    cache_ia = _carregar_json(IA_PARSE_JSON, {})
     for msg in mensagens:
-        for produto, qtd in _parse_linhas(msg["texto"]):
+        for produto, qtd in _itens_da_mensagem(msg, cache_ia):
             chave = _normalizar(produto)
             if not chave:
                 continue
@@ -197,6 +282,7 @@ def _atualizar_estado_raw(mensagens):
             if atual is None or msg["ts"] >= atual.get("ts", 0):
                 estado[chave] = {"raw_texto": produto, "quantidade": qtd, "ts": msg["ts"]}
     _salvar_json(RAW_JSON, estado)
+    _salvar_json(IA_PARSE_JSON, cache_ia)
     return estado
 
 
