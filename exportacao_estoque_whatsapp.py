@@ -14,6 +14,17 @@ Grupo: "Estoque RJ - Rigarr", id 120363021573739336@g.us (confirmado em
 versão da API, 1.8.7; achado batendo chat/findChats + group/findGroupInfos
 um a um).
 
+Segundo id, 135777321263246@lid (confirmado em 2026-09-11): mensagens
+NOVAS do mesmo grupo passaram a chegar com esse remoteJid em vez do
+120363021573739336@g.us de sempre — grupo continua o mesmo (confirmado
+pelo usuário, vendo a mensagem no próprio WhatsApp dentro do grupo "Estoque
+RJ - Rigarr"), mas o @lid não bate com o JID do grupo nem está na lista de
+participantes — sinal de migração de endereçamento do WhatsApp (LID) que
+esse Baileys/Evolution 1.8.6 não resolveu corretamente pro grupo. Sem
+histórico suficiente ainda pra saber se o @g.us antigo para de aparecer de
+vez ou os dois convivem — aceita as duas chaves em GROUP_JIDS pra não
+perder nenhuma das duas.
+
 Não existe UMA mensagem "contagem completa": o time posta produto+quantidade
 aos poucos, cobrindo marcas diferentes em mensagens diferentes ao longo do
 dia (confirmado pelo usuário em 2026-09-10 — "atualizações parciais"),
@@ -56,7 +67,7 @@ RUNTIME = os.getenv("OFFTRADE_RUNTIME", "local")
 EVOLUTION_BASE_URL = os.getenv("EVOLUTION_BASE_URL", "http://localhost:8083")
 EVOLUTION_KEY = os.getenv("EVOLUTION_KEY", "")
 INSTANCE = "estoque"
-GROUP_JID = "120363021573739336@g.us"
+GROUP_JIDS = {"120363021573739336@g.us", "135777321263246@lid"}
 MENSAGENS_POR_BUSCA = 300
 
 HERE = Path(__file__).parent
@@ -87,7 +98,7 @@ def _buscar_mensagens_grupo():
     todas = resp.json()
     do_grupo = [
         m for m in todas
-        if (m.get("key") or {}).get("remoteJid") == GROUP_JID
+        if (m.get("key") or {}).get("remoteJid") in GROUP_JIDS
     ]
     saida = []
     for m in do_grupo:
