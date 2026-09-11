@@ -42,6 +42,7 @@ import subprocess
 import threading
 import time
 import unicodedata
+from pathlib import Path
 
 import requests
 from dotenv import load_dotenv
@@ -147,6 +148,42 @@ def enviar_whatsapp_pedido():
             detalhe = resp_pdf.text[:200] if resp_pdf.text else ""
             return {"ok": False, "motivo": f"Mensagem enviada, mas a Z-API recusou o PDF (HTTP {resp_pdf.status_code}): {detalhe}"}
 
+
+# ── Config Z-API pro aviso automático rodar no servidor (checar_status_pedidos_mercos.py) ──
+# Pedido do usuário em 2026-09-11: o aviso automático de mudança de status
+# era 100% client-side (setInterval na página) e só funcionava com a aba
+# aberta em primeiro plano — em celular o navegador suspende o timer assim
+# que a aba vai pra segundo plano, então nunca disparava de verdade. Migrado
+# pro cron da VPS (checar_status_pedidos_mercos.py), que precisa da mesma
+# conta Z-API pra mandar sozinho. Muda a decisão de 2026-09-01 de nunca
+# persistir o token aqui — mas o token continua nunca passando por chat/
+# humano: a vendedora salva no PRÓPRIO navegador dela (mesmo modal de
+# sempre), e pedidos_mercos.html::salvarConfigZapi() sincroniza esse mesmo
+# valor pra cá automaticamente, sem passo manual extra. Gravado em arquivo
+# local (não versionado/clonado por git, mesmo motivo de
+# /opt/pedidos-mercos-api não ser clone git) — mesmo nível de confiança do
+# enviar-whatsapp acima (ferramenta interna, sem camada de auth extra).
+ZAPI_CONFIG_PATH = Path(__file__).parent / "zapi_config_servidor.json"
+
+
+@bp.route("/config-zapi", methods=["POST"])
+def config_zapi():
+    dados = request.get_json(silent=True) or {}
+    config = {
+        "instance": str(dados.get("instance", "")).strip(),
+        "token": str(dados.get("token", "")).strip(),
+        "client_token": str(dados.get("client_token", "")).strip(),
+        "auto_avisar": bool(dados.get("auto_avisar")),
+    }
+    try:
+        tmp = ZAPI_CONFIG_PATH.with_suffix(".json.tmp")
+        tmp.write_text(json.dumps(config, ensure_ascii=False), encoding="utf-8")
+        tmp.replace(ZAPI_CONFIG_PATH)
+    except Exception as e:
+        return {"ok": False, "motivo": f"Não consegui salvar a config ({str(e)[:150]})."}, 500
+    return {"ok": True}
+
+
 # ── Sincronizar estoque agora (botão em estoque_mercos.html) ───────────────
 # Mesmo push que o cron de 30min já faz (gerar_estoque_mercos_spon_data.py),
 # só que sob demanda — pedido do usuário em 2026-09-04 pra não precisar
@@ -198,6 +235,43 @@ def sincronizar_estoque():
         return {"ok": False, "motivo": f"Não consegui confirmar o resultado — saída inesperada: {saida[-300:]}"}
     ok, falhas, total = (int(x) for x in m.groups())
     return {"ok": True, "atualizados": ok, "falhas": falhas, "total": total}
+
+
+# ── DANFE (estoque_mercos.html não, pedidos_mercos.html::baixarDanfe) ──────
+# Pedido do usuário em 2026-09-11: baixar o DANFE oficial (não só o resumo
+# comercial que já existia) de um pedido faturado. buscar_dados_nfe.py imprime
+# um JSON puro no stdout como ÚLTIMA linha — mas importar meta.py (que importa
+# utils.py só pra pegar ORACLE_LIB) dispara avisos do Streamlit ("missing
+# ScriptRunContext") e os prints de progresso de carregar_dados também vão pro
+# stdout, então pega só a última linha não-vazia (mais simples que o regex de
+# resumo usado em sincronizar-estoque, já que aqui controlamos o formato).
+@bp.route("/dados-nfe", methods=["POST"])
+def dados_nfe():
+    dados = request.get_json(silent=True) or {}
+    numpeds = [str(n).strip() for n in (dados.get("numpeds") or []) if str(n).strip()]
+    if not numpeds:
+        return {"ok": False, "motivo": "Informe ao menos um pedido do SPON (numped_spon)."}, 400
+
+    _env = {k: v for k, v in os.environ.items() if k != "ORACLE_LIB"}
+    try:
+        resp = subprocess.run(
+            [_PIPELINE_PYTHON, "buscar_dados_nfe.py", ",".join(numpeds)],
+            cwd=_PIPELINE_DIR, capture_output=True, text=True, timeout=60, env=_env,
+        )
+    except subprocess.TimeoutExpired:
+        return {"ok": False, "motivo": "Consulta ao Oracle demorou demais (>60s)."}, 504
+    except Exception as e:
+        return {"ok": False, "motivo": f"Falha ao consultar: {str(e)[:200]}"}, 500
+
+    linhas = [l for l in (resp.stdout or "").splitlines() if l.strip()]
+    try:
+        resultado = json.loads(linhas[-1]) if linhas else {}
+    except (json.JSONDecodeError, ValueError):
+        resultado = {}
+    if not isinstance(resultado, dict) or "ok" not in resultado:
+        saida = ((resp.stdout or "") + (resp.stderr or ""))[-300:]
+        return {"ok": False, "motivo": f"Resposta inesperada do Oracle: {saida}"}, 500
+    return resultado
 
 
 # ── Casamento manual (estoque_whatsapp.html) ────────────────────────────────

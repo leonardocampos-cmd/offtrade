@@ -36,9 +36,23 @@ PORT         = 22
 
 HERE = Path(__file__).parent
 
-APP_FILES = ["pedidos_mercos_api.py", "mercos_api.py"]
+APP_FILES = ["pedidos_mercos_api.py", "mercos_api.py", "checar_status_pedidos_mercos.py"]
 
-REQUIREMENTS = "flask\nrequests\npython-dotenv\n"
+# fpdf2: usado só por checar_status_pedidos_mercos.py pra montar o PDF
+# resumo do aviso automático (porta de pedidos_mercos.html::_construirPdfPedido)
+# — lib pura Python, sem dependência de sistema, mantém esse venv leve.
+REQUIREMENTS = "flask\nrequests\npython-dotenv\nfpdf2\n"
+
+# Roda a cada 5 min (checar_status_pedidos_mercos.py) — pedido do usuário em
+# 2026-09-11: aviso automático de mudança de status migrado do navegador
+# (client-side, só funcionava com a aba aberta em primeiro plano) pro cron
+# da VPS. Marcador CRON_MARKER pra remover a linha antiga antes de adicionar
+# de novo (idempotente — evita duplicar a cada redeploy).
+CRON_MARKER = "checar_status_pedidos_mercos.py"
+CRON_LINE = (
+    f"*/5 * * * * {REMOTE_DIR}/.venv/bin/python {REMOTE_DIR}/checar_status_pedidos_mercos.py "
+    ">> /var/log/pedidos-mercos-cron.log 2>&1"
+)
 
 SYSTEMD_UNIT = f"""[Unit]
 Description=Pedidos Mercos - API (Flask)
@@ -139,6 +153,20 @@ def deploy():
     ssh_run(client, "systemctl daemon-reload")
     ssh_run(client, "systemctl enable pedidos-mercos-api.service", check=False)
     ssh_run(client, "systemctl restart pedidos-mercos-api.service")
+
+    print("\n-> Conferindo crontab (checar_status_pedidos_mercos.py, a cada 5min)...")
+    crontab_atual, _ = ssh_run(client, "crontab -l", check=False)
+    linhas = [l for l in crontab_atual.splitlines() if CRON_MARKER not in l]
+    linhas.append(CRON_LINE)
+    novo_crontab = "\n".join(linhas) + "\n"
+    # sftp + "crontab <arquivo>" em vez de "echo ... | crontab -" — evita
+    # depender de como o shell remoto trata quebra de linha/aspas num
+    # conteúdo multi-linha (mesmo padrão já usado acima pro SYSTEMD_UNIT e
+    # o nginx.conf, nunca monta conteúdo multi-linha inline no comando).
+    sftp.putfo(io.BytesIO(novo_crontab.encode()), "/tmp/crontab_pedidos_mercos.txt")
+    ssh_run(client, "crontab /tmp/crontab_pedidos_mercos.txt")
+    ssh_run(client, "rm -f /tmp/crontab_pedidos_mercos.txt", check=False)
+    print("   crontab atualizado.")
 
     print("\n-> Conferindo nginx (locations /api/pedidos-mercos/ e /api/estoque-whatsapp/)...")
     nginx_conf = "/etc/nginx/sites-available/offtrade"

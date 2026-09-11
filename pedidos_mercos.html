@@ -8,6 +8,7 @@
   <title>Pedidos Mercos</title>
   <script src="pedidos_mercos_data.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jsbarcode/3.12.3/JsBarcode.all.min.js"></script>
   <script>
     // Acesso restrito: gestor (mesmo hash/cookie do auth.js) OU a sessão de
     // vendedor com RCA 588 (W.S — mesma conta que aparece em
@@ -429,6 +430,7 @@ function aplicarFiltro() {
         <div class="itens-acoes">
           <button class="btn-acao" onclick="event.stopPropagation(); gerarPdfPedido('${_escAttr(p.numped)}')">📄 Gerar PDF</button>
           <button class="btn-acao whatsapp" onclick="event.stopPropagation(); enviarWhatsapp('${_escAttr(p.numped)}', this)">📱 Enviar WhatsApp</button>
+          ${(p.numnota_spon || []).length ? `<button class="btn-acao" onclick="event.stopPropagation(); baixarDanfe('${_escAttr(p.numped)}', this)">📄 DANFE</button>` : ''}
         </div>
         <table><thead><tr><th>Código</th><th>Produto</th><th>Qtd</th><th>Preço Líquido</th><th>Subtotal</th><th>Faturado no SPON</th></tr></thead><tbody>
         ${(p.itens || []).map(it => {
@@ -678,6 +680,228 @@ function _formatCnpj(v) {
   return `${s.slice(0,2)}.${s.slice(2,5)}.${s.slice(5,8)}/${s.slice(8,12)}-${s.slice(12)}`;
 }
 
+// ── DANFE oficial (a partir das views Oracle SQL_NFE_*, ver buscar_dados_nfe.py) ──
+// Pedido do usuário em 2026-09-11: baixar o DANFE de verdade (documento fiscal —
+// chave de acesso, código de barras, impostos), diferente do PDF resumido
+// comercial que já existia ("Gerar PDF"/"Enviar WhatsApp", que continuam como
+// estavam). Layout é best-effort — reconstruído a partir das colunas das views
+// (Winthor não expõe o XML assinado por aqui), não é pixel-a-pixel do DANFE
+// oficial, mas tem todos os campos obrigatórios pra conferência. Pedido com
+// mais de uma nota (numnota_spon.length > 1) gera uma página por nota — busca
+// pelo numped_spon (não numnota_spon): NUMERO_NOTA se repete entre filiais
+// diferentes no Oracle do SPON (confirmado 2026-09-11), NUM_PEDIDO é a chave
+// única de verdade, e buscar_dados_nfe.py já espera essa lista.
+async function baixarDanfe(numped, btn) {
+  const p = PEDIDOS.find(x => String(x.numped) === String(numped));
+  if (!p || !(p.numped_spon || []).length) return;
+  const textoOriginal = btn.textContent;
+  btn.disabled = true;
+  btn.textContent = '📄 Gerando...';
+  try {
+    const resp = await fetch('/api/pedidos-mercos/dados-nfe', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ numpeds: p.numped_spon }),
+    });
+    const d = await resp.json().catch(() => ({}));
+    if (!d.ok || !(d.notas || []).length) {
+      alert(d.motivo || 'Não consegui buscar os dados da NFe agora.');
+      return;
+    }
+    const { jsPDF } = window.jspdf;
+    const doc = new jsPDF({ orientation: 'portrait', unit: 'mm', format: 'a4' });
+    d.notas.forEach((nota, i) => {
+      if (i > 0) doc.addPage();
+      _construirDanfePagina(doc, nota);
+    });
+    doc.save(`danfe_pedido_${numped}.pdf`);
+  } catch (e) {
+    alert('Não consegui gerar o DANFE agora — tente de novo em instantes.');
+  } finally {
+    btn.textContent = textoOriginal;
+    btn.disabled = false;
+  }
+}
+
+function _formatCnpjCpf(digits) {
+  const s = String(digits || '').replace(/\D/g, '');
+  if (s.length === 14) return `${s.slice(0,2)}.${s.slice(2,5)}.${s.slice(5,8)}/${s.slice(8,12)}-${s.slice(12)}`;
+  if (s.length === 11) return `${s.slice(0,3)}.${s.slice(3,6)}.${s.slice(6,9)}-${s.slice(9)}`;
+  return s || '—';
+}
+
+function _brlNum(v) {
+  return Number(v || 0).toLocaleString('pt-BR', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+}
+
+function _trunc(s, n) {
+  s = String(s || '').trim();
+  return s.length > n ? s.slice(0, n - 1) + '…' : s;
+}
+
+// Caixa com legenda pequena em cima + valor embaixo — mesmo padrão visual do
+// DANFE oficial (campo rotulado dentro de uma borda).
+function _danfeCaixa(doc, x, y, w, h, label, valor, fontSize) {
+  doc.rect(x, y, w, h);
+  doc.setFontSize(5.5);
+  doc.text(label, x + 1, y + 2.5, { maxWidth: w - 2 });
+  doc.setFontSize(fontSize || 7.5);
+  doc.text(_trunc(valor ?? '—', 40), x + 1, y + h - 1.5, { maxWidth: w - 2 });
+}
+
+function _construirDanfePagina(doc, n) {
+  const M = 8;
+  const W = 210 - 2 * M;
+  let y = M;
+
+  doc.setFontSize(8);
+  doc.setFont(undefined, 'italic');
+  doc.text('DANFE reconstruído a partir do Winthor — conferir contra o portal da SEFAZ se precisar de valor fiscal formal', M, y);
+  doc.setFont(undefined, 'normal');
+  y += 5;
+
+  // Emitente + caixa "DANFE" com chave
+  const hTop = 30;
+  const wEmit = W * 0.58;
+  const wDanfe = W - wEmit - 2;
+  doc.rect(M, y, wEmit, hTop);
+  doc.setFontSize(8);
+  doc.setFont(undefined, 'bold');
+  doc.text(_trunc(n.emitente.razao_social, 55), M + 2, y + 5, { maxWidth: wEmit - 4 });
+  doc.setFont(undefined, 'normal');
+  doc.setFontSize(7);
+  [
+    _trunc(`${n.emitente.logradouro}, ${n.emitente.numero}${n.emitente.complemento ? ' - ' + n.emitente.complemento : ''}`, 70),
+    _trunc(`${n.emitente.bairro} - ${n.emitente.municipio}/${n.emitente.uf} - CEP ${n.emitente.cep}`, 70),
+    `CNPJ: ${_formatCnpjCpf(n.emitente.cnpj_cpf)}   IE: ${n.emitente.ie || '—'}`,
+    `Fone: ${n.emitente.telefone || '—'}`,
+  ].forEach((l, i) => doc.text(l, M + 2, y + 10 + i * 4, { maxWidth: wEmit - 4 }));
+
+  const xDanfe = M + wEmit + 2;
+  doc.rect(xDanfe, y, wDanfe, hTop);
+  doc.setFontSize(11);
+  doc.setFont(undefined, 'bold');
+  doc.text('DANFE', xDanfe + wDanfe / 2, y + 6, { align: 'center' });
+  doc.setFontSize(6);
+  doc.setFont(undefined, 'normal');
+  doc.text('Documento Auxiliar da Nota Fiscal Eletrônica', xDanfe + wDanfe / 2, y + 9.5, { align: 'center', maxWidth: wDanfe - 4 });
+  doc.text('0 - ENTRADA   1 - SAÍDA :  1', xDanfe + wDanfe / 2, y + 13, { align: 'center' });
+  doc.setFontSize(8);
+  doc.text(`Nº ${n.numero}   Série ${n.serie}`, xDanfe + wDanfe / 2, y + 17.5, { align: 'center' });
+  doc.setFontSize(5.5);
+  doc.text('Consulta de autenticidade no portal nacional da NF-e, pela chave de acesso:', xDanfe + wDanfe / 2, y + 21, { align: 'center', maxWidth: wDanfe - 4 });
+  doc.setFontSize(6.5);
+  doc.text(String(n.chave || '').replace(/(\d{4})(?=\d)/g, '$1 '), xDanfe + wDanfe / 2, y + 25, { align: 'center' });
+
+  y += hTop + 2;
+
+  // Código de barras Code128C da chave de acesso (padrão exigido pro DANFE)
+  const hBar = 13;
+  doc.rect(M, y, W, hBar);
+  try {
+    const canvas = document.createElement('canvas');
+    JsBarcode(canvas, String(n.chave || ''), { format: 'CODE128C', displayValue: false, margin: 0, height: 40 });
+    doc.addImage(canvas.toDataURL('image/png'), 'PNG', M + 2, y + 1.5, 95, hBar - 3);
+  } catch (e) { /* sem código de barras não impede o resto do DANFE */ }
+  doc.setFontSize(6.5);
+  doc.text(`Protocolo de autorização de uso:`, M + 100, y + 5);
+  doc.text(`${n.protocolo || '—'}  em  ${n.dthora_autorizacao || '—'}`, M + 100, y + 9.5);
+  y += hBar + 2;
+
+  _danfeCaixa(doc, M, y, W, 9, 'NATUREZA DA OPERAÇÃO', n.natureza_operacao, 7);
+  y += 9 + 2;
+
+  // Destinatário / Remetente
+  const hDest = 22;
+  const d = n.destinatario;
+  doc.rect(M, y, W, hDest);
+  doc.setFontSize(6);
+  doc.setFont(undefined, 'bold');
+  doc.text('DESTINATÁRIO / REMETENTE', M + 1, y + 3);
+  doc.setFont(undefined, 'normal');
+  doc.setFontSize(7);
+  doc.text(`${_trunc(d.razao_social, 60)}   CNPJ/CPF: ${_formatCnpjCpf(d.cnpj_cpf)}`, M + 1, y + 8, { maxWidth: W - 2 });
+  doc.text(_trunc(`${d.logradouro}, ${d.numero}${d.complemento ? ' - ' + d.complemento : ''} - ${d.bairro}`, 100), M + 1, y + 12.5, { maxWidth: W - 2 });
+  doc.text(`${d.municipio}/${d.uf} - CEP ${d.cep}   IE: ${d.ie || '—'}   Fone: ${d.telefone || '—'}`, M + 1, y + 17, { maxWidth: W - 2 });
+  doc.text(`Emissão: ${n.data_emissao || '—'}   Saída: ${n.data_saida || '—'} ${n.hora_saida || ''}`, M + 1, y + 21, { maxWidth: W - 2 });
+  y += hDest + 2;
+
+  // Cálculo do imposto
+  const t = n.totais;
+  const camposImposto = [
+    ['BASE ICMS', _brlNum(t.base_icms)], ['VALOR ICMS', _brlNum(t.valor_icms)],
+    ['BASE ICMS ST', _brlNum(t.base_icms_st)], ['VALOR ICMS ST', _brlNum(t.valor_icms_st)],
+    ['VALOR IPI', _brlNum(t.valor_ipi)], ['VALOR FRETE', _brlNum(t.valor_frete)],
+    ['DESCONTO', _brlNum(t.valor_desconto)], ['TOTAL PRODUTOS', _brlNum(t.valor_produtos)],
+    ['TOTAL DA NOTA', _brlNum(t.valor_total)],
+  ];
+  const hImp = 11;
+  const wImp = W / camposImposto.length;
+  camposImposto.forEach((c, i) => _danfeCaixa(doc, M + i * wImp, y, wImp, hImp, c[0], c[1], 6.5));
+  y += hImp + 2;
+
+  // Transportador / Volumes
+  const tr = n.transportador;
+  const hTr = 10;
+  doc.rect(M, y, W, hTr);
+  doc.setFontSize(6);
+  doc.setFont(undefined, 'bold');
+  doc.text('TRANSPORTADOR / VOLUMES', M + 1, y + 3);
+  doc.setFont(undefined, 'normal');
+  doc.setFontSize(6.5);
+  doc.text(_trunc(
+    `${tr.nome || '—'}   CNPJ: ${_formatCnpjCpf(tr.cnpj)}   ${tr.municipio}/${tr.uf}   ` +
+    `Placa: ${tr.placa || '—'}${tr.placa_uf ? '/' + tr.placa_uf : ''}   Volumes: ${tr.volumes || 0}   ` +
+    `Peso bruto: ${_qt(tr.peso_bruto)} kg   Peso líquido: ${_qt(tr.peso_liquido)} kg`,
+    150), M + 1, y + 8, { maxWidth: W - 2 });
+  y += hTr + 2;
+
+  // Tabela de itens
+  const colunas = [
+    { label: 'Código', w: 14 }, { label: 'Descrição', w: 58 }, { label: 'NCM', w: 18 },
+    { label: 'CST', w: 10 }, { label: 'CFOP', w: 12 }, { label: 'Un', w: 9 },
+    { label: 'Qtd', w: 13 }, { label: 'Vl. Unit.', w: 18 }, { label: 'Vl. Total', w: 19 },
+    { label: 'Bc ICMS', w: 18 }, { label: 'Vl ICMS', w: 16 }, { label: '%ICMS', w: 9 },
+  ];
+  const totalColW = colunas.reduce((s, c) => s + c.w, 0);
+  const escala = W / totalColW;
+  colunas.forEach(c => c.w *= escala);
+
+  const _linhaTabela = (valores, negrito, altura) => {
+    let x = M;
+    doc.setFont(undefined, negrito ? 'bold' : 'normal');
+    colunas.forEach((c, i) => {
+      doc.rect(x, y, c.w, altura);
+      doc.text(String(valores[i] ?? ''), x + 1, y + altura - 1.5, { maxWidth: c.w - 2 });
+      x += c.w;
+    });
+    y += altura;
+  };
+
+  doc.setFontSize(6);
+  _linhaTabela(colunas.map(c => c.label), true, 5);
+
+  doc.setFontSize(6);
+  (n.itens || []).forEach(it => {
+    if (y + 5 > 297 - 15) { doc.addPage(); y = M; }
+    _linhaTabela([
+      it.codigo, _trunc(it.descricao, 34), it.ncm, it.cst, it.cfop, it.unidade,
+      _qt(it.quantidade), _brlNum(it.valor_unitario), _brlNum(it.valor_total),
+      _brlNum(it.base_icms), _brlNum(it.valor_icms), `${_qt(it.aliquota_icms)}%`,
+    ], false, 5);
+  });
+  y += 3;
+
+  if (n.informacoes_complementares) {
+    if (y + 10 > 297 - 10) { doc.addPage(); y = M; }
+    doc.setFontSize(6.5);
+    doc.setFont(undefined, 'bold');
+    doc.text('INFORMAÇÕES COMPLEMENTARES', M, y);
+    doc.setFont(undefined, 'normal');
+    doc.text(_trunc(n.informacoes_complementares, 300), M, y + 4, { maxWidth: W });
+  }
+}
+
 function _qt(v) {
   if (v === null || v === undefined) return '—';
   return Number(v).toLocaleString('pt-BR', {maximumFractionDigits: 2});
@@ -771,6 +995,21 @@ function fecharConfigZapi() {
   document.getElementById('modal-zapi').hidden = true;
 }
 
+// Aviso automático de mudança de status (pedido do usuário em 2026-09-10)
+// rodava 100% client-side aqui (setInterval de 3min comparando contra
+// localStorage) — migrado pro cron da VPS em 2026-09-11
+// (checar_status_pedidos_mercos.py) porque só funcionava de verdade com a
+// aba aberta em primeiro plano: celular suspende o timer assim que a aba
+// vai pra segundo plano, então na prática quase nunca disparava (achado
+// real: vendedora marcou o checkbox e nada foi enviado pro vendedor do
+// pedido). O checkbox continua opt-in pelo mesmo motivo de antes (evita
+// mensagem em dobro se mais de uma pessoa configurar a própria conta
+// Z-API) — só que agora o flag mora no servidor, não mais num
+// setInterval daqui. Por isso salvarConfigZapi() sincroniza os mesmos 4
+// campos pro backend (best-effort — se a sincronização falhar, o botão
+// manual de "Enviar WhatsApp" abaixo continua funcionando normal via
+// localStorage, só o aviso automático do servidor fica com a config
+// desatualizada até salvar de novo).
 function salvarConfigZapi() {
   const cfg = {
     instance: document.getElementById('zapi-instance').value.trim(),
@@ -780,105 +1019,11 @@ function salvarConfigZapi() {
   };
   localStorage.setItem(ZAPI_STORAGE_KEY, JSON.stringify(cfg));
   fecharConfigZapi();
-  _checarMudancasStatus();
-}
-
-// ── Aviso automático de mudança de status ───────────────────────────────
-// Pedido do usuário em 2026-09-10: avisar o vendedor no WhatsApp quando o
-// status do pedido mudar, sem precisar clicar em "Enviar WhatsApp" na mão.
-// Sai pela mesma conta Z-API de quem estiver com a página aberta (mesmo
-// modelo do envio manual — não existe conta fixa do servidor, cada usuário
-// usa a própria). Por isso o aviso automático é opt-in (checkbox na
-// configuração, default desligado): se duas pessoas deixassem a página
-// aberta com a própria conta Z-API configurada, o vendedor receberia a
-// mesma mensagem duas vezes, de dois números diferentes — só liga quem for
-// de fato responsável por avisar.
-//
-// pedidos_mercos_data.js só é regravado pelo cron da VPS a cada 30min (ver
-// gerar_pedidos_mercos_data.py) — a página em si carrega os dados uma vez
-// só, via <script src="pedidos_mercos_data.js">, então esse watcher refaz
-// o fetch do próprio arquivo periodicamente (o <script> original não
-// reflete mudanças depois do load) e recorta o JSON manualmente (mesmo
-// formato "const PEDIDOS_MERCOS_DATA = {...};" que todo _data.js do
-// projeto usa, não é um endpoint JSON de verdade).
-const STATUS_VISTO_KEY = 'pedidos_mercos_status_visto';
-const _INTERVALO_CHECAGEM_MS = 3 * 60 * 1000;
-
-function _lerStatusVisto() {
-  try { return JSON.parse(localStorage.getItem(STATUS_VISTO_KEY) || '{}'); }
-  catch (e) { return {}; }
-}
-
-async function _buscarPedidosAtuais() {
-  const resp = await fetch('pedidos_mercos_data.js?_=' + Date.now(), { cache: 'no-store' });
-  const texto = await resp.text();
-  const json = texto.replace(/^\s*const\s+PEDIDOS_MERCOS_DATA\s*=\s*/, '').replace(/;\s*$/, '');
-  return (JSON.parse(json).pedidos) || [];
-}
-
-// Pedido do usuário em 2026-09-10: no aviso automático, só anexa o PDF do
-// pedido quando faturou (integral/corte/excesso — mesmo grupo de
-// STATUS_COM_COMPARACAO); cancelado ou qualquer outro status manda só a
-// mensagem, sem PDF (diferente do botão manual, que sempre anexa).
-async function _enviarAvisoMudancaStatus(p, cfg) {
-  const corpo = {
-    cod_vendedor: p.cod_vendedor,
-    mensagem: _mensagemFaturamento(p),
-    zapi_instance: cfg.instance,
-    zapi_token: cfg.token,
-    zapi_client_token: cfg.client_token,
-  };
-  if (STATUS_COM_COMPARACAO.includes(p.status_spon)) {
-    const pdfDataUriBruto = _construirPdfPedido(p).output('datauristring');
-    corpo.pdf_base64 = pdfDataUriBruto.replace(/;filename=[^;]*;/, ';');
-    corpo.pdf_filename = `pedido_${p.numped}.pdf`;
-  }
-  try {
-    await fetch('/api/pedidos-mercos/enviar-whatsapp', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify(corpo),
-    });
-  } catch (e) { /* próximo ciclo não reinsiste (já marcamos como visto) — falha fica só no console */
-    console.warn('Aviso automático de status falhou pro pedido', p.numped, e);
-  }
-}
-
-// Só manda mensagem de mudança de status pra status que já tem redação
-// própria em _mensagemFaturamento (faturado/cortado/cancelado) — mudanças
-// "administrativas" (ex: nao_encontrado → montado, sem redação dedicada)
-// só atualizam o status visto, em silêncio.
-const _STATUS_COM_AVISO = [...STATUS_COM_COMPARACAO, 'cancelado', 'cancelado_spon'];
-
-let _checagemEmAndamento = false;
-
-async function _checarMudancasStatus() {
-  const cfg = _lerConfigZapi();
-  if (!cfg.auto_avisar || !cfg.instance || !cfg.token || !cfg.client_token) return;
-  if (_checagemEmAndamento) return;
-  _checagemEmAndamento = true;
-  try {
-    let pedidosAtuais;
-    try { pedidosAtuais = await _buscarPedidosAtuais(); }
-    catch (e) { return; }
-    const visto = _lerStatusVisto();
-    const primeiraVez = Object.keys(visto).length === 0;
-    for (const p of pedidosAtuais) {
-      const anterior = visto[p.numped];
-      if (!primeiraVez && anterior && anterior !== p.status_spon && _STATUS_COM_AVISO.includes(p.status_spon)) {
-        await _enviarAvisoMudancaStatus(p, cfg);
-      }
-      visto[p.numped] = p.status_spon;
-    }
-    localStorage.setItem(STATUS_VISTO_KEY, JSON.stringify(visto));
-  } finally {
-    _checagemEmAndamento = false;
-  }
-}
-
-if (DATA) {
-  _checarMudancasStatus();
-  setInterval(_checarMudancasStatus, _INTERVALO_CHECAGEM_MS);
+  fetch('/api/pedidos-mercos/config-zapi', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify(cfg),
+  }).catch(e => console.warn('Sincronização da config Z-API com o servidor falhou (aviso automático pode ficar desatualizado):', e));
 }
 </script>
 <div class="modal-overlay" id="modal-zapi" hidden onclick="if (event.target === this) fecharConfigZapi()">
@@ -894,7 +1039,7 @@ if (DATA) {
     <label class="modal-checkbox">
       <input type="checkbox" id="zapi-auto-avisar">
       Avisar o vendedor automaticamente quando o status do pedido mudar
-      (verifica a cada poucos minutos enquanto esta página ficar aberta)
+      (roda no servidor a cada poucos minutos — não precisa manter esta página aberta)
     </label>
     <div class="modal-acoes">
       <button class="btn" onclick="fecharConfigZapi()">Cancelar</button>
