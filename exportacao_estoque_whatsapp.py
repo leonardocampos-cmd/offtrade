@@ -329,8 +329,15 @@ def _buscar_catalogo_completo():
 # mandar pra IA decidir o match de verdade — a IA continua sendo quem
 # decide (marca/cor/tamanho como já documentado acima), isso aqui só
 # reduz a lista que ela precisa olhar.
-def _prefiltrar_candidatos(produto_texto, catalogo, limite=40):
-    palavras = [w for w in _normalizar(produto_texto).split() if len(w) >= 3]
+#
+# Palavra mínima de 2 letras (era 3): achado real em 2026-09-11 — "Jack
+# Daniels 3L" excluía "3l" do filtro (só 2 caracteres), sobrando só
+# "jack"+"daniels" pra pontuar; como o catálogo tem 55+ produtos Jack
+# Daniels diferentes, o corte de `limite` cortou o 3L de fora por acaso
+# antes mesmo da IA ver a lista. "3l"/"1l" são justamente os tokens mais
+# discriminantes (volume) pra esse catálogo, não dá pra descartar.
+def _prefiltrar_candidatos(produto_texto, catalogo, limite=60):
+    palavras = [w for w in _normalizar(produto_texto).split() if len(w) >= 2]
     if not palavras:
         return catalogo[:limite]
     pontuados = []
@@ -482,27 +489,26 @@ def _atualizar_matches(estado_raw):
     if pendentes_fallback:
         catalogo_completo = _buscar_catalogo_completo()
         if catalogo_completo is not None:
-            for inicio in range(0, len(pendentes_fallback), _TAMANHO_LOTE_IA):
-                lote_chaves = pendentes_fallback[inicio:inicio + _TAMANHO_LOTE_IA]
-                lote_textos = [estado_raw[chave]["raw_texto"] for chave in lote_chaves]
-                # União dos candidatos pré-filtrados de cada item do lote —
-                # bem menor que o catálogo inteiro (não estoura contexto/TPM,
-                # achado real em 2026-09-11), dedupe por codprod.
-                candidatos_por_codprod = {}
-                for texto in lote_textos:
-                    for c in _prefiltrar_candidatos(texto, catalogo_completo):
-                        candidatos_por_codprod[c["codprod"]] = c
-                candidatos_lote = list(candidatos_por_codprod.values())
+            # Um item por vez aqui (não em lote de _TAMANHO_LOTE_IA) — achado
+            # real em 2026-09-11: "Jack Daniels 3L" tinha candidato certo
+            # (CODPROD 7667) no pré-filtro, mas voltava null quando processado
+            # junto de outros 14 itens do mesmo lote (união de candidatos de
+            # produtos diferentes confunde a IA, mesmo bug de atenção já
+            # documentado acima pro catálogo grande — só que agora é o
+            # tamanho do LOTE de pendentes, não do catálogo). Isolado (1 item,
+            # só os candidatos dele) casou certo direto. Mais chamadas à IA,
+            # mas cada uma é pequena/barata (gpt-4o-mini) — prioriza acerto
+            # sobre economia aqui.
+            for chave in pendentes_fallback:
+                texto = estado_raw[chave]["raw_texto"]
+                candidatos = _prefiltrar_candidatos(texto, catalogo_completo)
                 try:
-                    # gpt-4o-mini aqui, não gpt-4o — mesmo modelo já usado em
-                    # _extrair_itens_ia acima, sem problema de rate limit lá.
-                    novos = _casar_com_ia(lote_textos, candidatos_lote, modelo=os.getenv("OPENAI_TEXT_MODEL", "gpt-4o-mini"))
+                    novos = _casar_com_ia([texto], candidatos, modelo=os.getenv("OPENAI_TEXT_MODEL", "gpt-4o-mini"))
                 except Exception as e:
-                    print(f"  [AVISO] fallback (catálogo completo) falhou nesse lote ({str(e)[:150]}) — pula, tenta de novo na próxima rodada")
+                    print(f"  [AVISO] fallback (catálogo completo) falhou em {texto!r} ({str(e)[:150]}) — pula, tenta de novo na próxima rodada")
                     continue
-                for chave, texto in zip(lote_chaves, lote_textos):
-                    resultado = novos.get(texto, {"codprod": None, "descricao": None})
-                    matches[chave] = {**resultado, "fallback_completo": True}
+                resultado = novos.get(texto, {"codprod": None, "descricao": None})
+                matches[chave] = {**resultado, "fallback_completo": True}
                 _salvar_json(MATCHES_JSON, matches)
     return matches
 
