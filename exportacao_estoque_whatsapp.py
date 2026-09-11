@@ -116,8 +116,12 @@ def _buscar_mensagens_grupo():
 # "-", "=" ou ":" (às vezes sem espaço nenhum), número com "." como milhar
 # ("23.787"), sufixo opcional "und"/"unid", bullet líder "•" ou "-", e "❌"
 # no fim da linha pra indicar zerado/indisponível (sem separador+número).
+# "malas" confirmado em 2026-09-11 ("Moving hidro protein tangerina : 323
+# malas") — mensagem real chegou (graças ao fix do @lid) mas ficou sem
+# parsear porque o sufixo só aceitava und/unid; o produto zerava
+# silenciosamente (nenhum erro, só não virava item).
 _RE_BULLET = re.compile(r"^[•\-\*]\s*")
-_RE_ITEM = re.compile(r"^(.*?)\s*[-=:]\s*(\d{1,3}(?:\.\d{3})*)\s*(?:und?\.?|unid\.?)?\s*$", re.IGNORECASE)
+_RE_ITEM = re.compile(r"^(.*?)\s*[-=:]\s*(\d{1,3}(?:\.\d{3})*)\s*(?:und?\.?|unid\.?|malas?)?\s*$", re.IGNORECASE)
 _RE_INDISPONIVEL = re.compile(r"^(.*?)\s*[❌❎✖]\s*$")
 
 
