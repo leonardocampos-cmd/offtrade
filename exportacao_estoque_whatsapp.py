@@ -297,7 +297,55 @@ def _buscar_catalogo():
     return [{"codprod": str(int(r["CODPROD"])), "descricao": r["DESCRICAO"]} for r in df.to_dict("records")]
 
 
-def _casar_com_ia(pendentes, catalogo):
+# Catálogo completo (sem filtro de canal OFF TRADE/W.S nem janela de 18
+# meses) — pedido do usuário em 2026-09-11 depois de "JACK DANIELS BONDED
+# 700ML" (lançamento recente, nunca vendido por esse canal ainda) ficar
+# null por não existir no subconjunto restrito, mesmo existindo de verdade
+# no Winthor (CODPROD 7243). Só usado como FALLBACK (ver a 2ª passada em
+# _atualizar_matches) pro que já ficou sem casar no catálogo restrito —
+# nunca substitui a passada normal: o
+# catálogo completo tem 7920 produtos vs 1862 do subconjunto (confirmado
+# em 2026-09-11), e o bug de atenção da IA com catálogo grande já é
+# documentado (ver comentário de _TAMANHO_LOTE_IA abaixo) — usar sempre
+# pioraria a taxa de erro de casamento pro caso normal.
+CATALOGO_COMPLETO_QUERY = "SELECT CODPROD, DESCRICAO FROM CRC.PCPRODUT"
+
+
+def _buscar_catalogo_completo():
+    try:
+        df = meta.carregar_dados(CATALOGO_COMPLETO_QUERY, meta.engine, "PCPRODUT (completo)")
+    except Exception as e:
+        print(f"[AVISO] catálogo completo indisponível ({str(e)[:150]}) — fallback pulado nesta rodada")
+        return None
+    return [{"codprod": str(int(r["CODPROD"])), "descricao": r["DESCRICAO"]} for r in df.to_dict("records")]
+
+
+# Pré-filtro local (sem IA) pro fallback do catálogo completo — achado
+# real em 2026-09-11: mandar os 7920 produtos inteiros numa chamada só
+# estoura o CONTEXTO MÁXIMO de qualquer modelo (132mil tokens > limite de
+# 128mil do gpt-4o-mini), não é só questão de troca de modelo/rate limit.
+# Reduz o catálogo aos candidatos plausíveis por palavra em comum (ex:
+# "Jack Bonded" -> só entradas que contêm "jack" E/OU "bonded") antes de
+# mandar pra IA decidir o match de verdade — a IA continua sendo quem
+# decide (marca/cor/tamanho como já documentado acima), isso aqui só
+# reduz a lista que ela precisa olhar.
+def _prefiltrar_candidatos(produto_texto, catalogo, limite=40):
+    palavras = [w for w in _normalizar(produto_texto).split() if len(w) >= 3]
+    if not palavras:
+        return catalogo[:limite]
+    pontuados = []
+    for c in catalogo:
+        desc_norm = _normalizar(c["descricao"])
+        pontos = sum(1 for w in palavras if w in desc_norm)
+        if pontos > 0:
+            pontuados.append((pontos, c))
+    if not pontuados:
+        return catalogo[:limite]
+    pontuados.sort(key=lambda x: -x[0])
+    return [c for _, c in pontuados[:limite]]
+
+
+def _casar_com_ia(pendentes, catalogo, modelo=None):
     from openai import OpenAI
     client = OpenAI(api_key=os.environ["OPENAI_API_KEY"])
 
@@ -326,6 +374,12 @@ null, mesmo que seja o item mais parecido disponível no catálogo:
   Chardonnay; Colheita não é Tawny nem Ruby)
 - Volume/tamanho/embalagem (ex: 750ml não é 1L; caixa com 12 não é caixa
   com 24; 275ml não é 270ml)
+- Variante/linha/edição não mencionada no texto (ex: se o catálogo tem
+  "PRODUTO X", "PRODUTO X RYE" e "PRODUTO X TRIPLE MASH", e o texto só diz
+  "Produto X" sem qualificador nenhum, o certo é casar com "PRODUTO X" —
+  NUNCA escolher "RYE" ou "TRIPLE MASH" só porque é o primeiro da lista ou
+  parece mais completo; se não tiver a versão sem qualificador no catálogo
+  e houver mais de uma variante possível, é null, não um palpite)
 
 Não tente "salvar" um produto que não existe no catálogo escolhendo o mais
 parecido — devolva null. É preferível ficar sem casar um produto real do
@@ -343,17 +397,22 @@ Um item pra cada índice da lista, na mesma ordem."""
     # Retry simples pra 429 — visto na prática (2026-09-10) com lotes
     # seguidos batendo limite de tokens/min da organização; uma pausa curta
     # já resolve, sem precisar esperar a próxima rodada do cron inteira.
+    # "Request too large... TPM: Limit 3000" (2026-09-11, catálogo completo
+    # no fallback) é DIFERENTE de 429 comum — o prompt inteiro já estoura o
+    # limite por minuto da org sozinho, então re-tentar não ajuda (por isso
+    # NÃO entra nesse retry, só o 429 "esperar e tentar de novo" entra).
     import time
+    modelo_usado = modelo or os.getenv("OPENAI_TEXT_MODEL_ESTOQUE", "gpt-4o")
     for tentativa in range(3):
         try:
             resp = client.chat.completions.create(
-                model=os.getenv("OPENAI_TEXT_MODEL_ESTOQUE", "gpt-4o"),
+                model=modelo_usado,
                 messages=[{"role": "user", "content": prompt}],
                 response_format={"type": "json_object"},
             )
             break
         except Exception as e:
-            if "429" in str(e) and tentativa < 2:
+            if "429" in str(e) and "tokens per min" not in str(e) and tentativa < 2:
                 time.sleep(20)
                 continue
             raise
@@ -386,25 +445,65 @@ _TAMANHO_LOTE_IA = 15
 def _atualizar_matches(estado_raw):
     matches = _carregar_json(MATCHES_JSON, {})
     pendentes_chaves = [chave for chave in estado_raw if chave not in matches]
-    if not pendentes_chaves:
-        return matches
 
-    catalogo = _buscar_catalogo()
-    if catalogo is None:
-        return matches
+    # Passada normal (catálogo restrito) — só roda se tiver produto novo
+    # (nunca visto) pra casar. Não retorna cedo mais: o fallback abaixo
+    # precisa rodar mesmo quando não tem NADA novo aqui (achado real em
+    # 2026-09-11: o early-return original fazia "Jack Bonded" nunca chegar
+    # no fallback do catálogo completo, mesmo já estando null há dias).
+    if pendentes_chaves:
+        catalogo = _buscar_catalogo()
+        if catalogo is not None:
+            for inicio in range(0, len(pendentes_chaves), _TAMANHO_LOTE_IA):
+                lote_chaves = pendentes_chaves[inicio:inicio + _TAMANHO_LOTE_IA]
+                lote_textos = [estado_raw[chave]["raw_texto"] for chave in lote_chaves]
+                try:
+                    novos = _casar_com_ia(lote_textos, catalogo)
+                except Exception as e:
+                    print(f"[AVISO] casamento por IA falhou nesse lote ({str(e)[:150]}) — pula, tenta de novo na próxima rodada")
+                    continue
+                for chave, texto in zip(lote_chaves, lote_textos):
+                    if texto in novos:
+                        matches[chave] = novos[texto]
+                _salvar_json(MATCHES_JSON, matches)
 
-    for inicio in range(0, len(pendentes_chaves), _TAMANHO_LOTE_IA):
-        lote_chaves = pendentes_chaves[inicio:inicio + _TAMANHO_LOTE_IA]
-        lote_textos = [estado_raw[chave]["raw_texto"] for chave in lote_chaves]
-        try:
-            novos = _casar_com_ia(lote_textos, catalogo)
-        except Exception as e:
-            print(f"[AVISO] casamento por IA falhou nesse lote ({str(e)[:150]}) — pula, tenta de novo na próxima rodada")
-            continue
-        for chave, texto in zip(lote_chaves, lote_textos):
-            if texto in novos:
-                matches[chave] = novos[texto]
-        _salvar_json(MATCHES_JSON, matches)
+    # Fallback pro catálogo completo só quem ficou null na passada normal
+    # e ainda não tentou o fallback (marca "fallback_completo" pra nunca
+    # reprocessar de novo, seja qual for o resultado — mesmo raciocínio de
+    # nunca reabrir um match já decidido, ver comentário no topo do
+    # arquivo). Só busca o catálogo completo (Oracle) se tiver pelo menos
+    # 1 pendente de verdade, pra não pagar essa query toda rodada à toa.
+    pendentes_fallback = [
+        chave for chave in estado_raw
+        if chave in matches
+        and matches[chave].get("codprod") is None
+        and not matches[chave].get("fallback_completo")
+    ]
+    if pendentes_fallback:
+        catalogo_completo = _buscar_catalogo_completo()
+        if catalogo_completo is not None:
+            for inicio in range(0, len(pendentes_fallback), _TAMANHO_LOTE_IA):
+                lote_chaves = pendentes_fallback[inicio:inicio + _TAMANHO_LOTE_IA]
+                lote_textos = [estado_raw[chave]["raw_texto"] for chave in lote_chaves]
+                # União dos candidatos pré-filtrados de cada item do lote —
+                # bem menor que o catálogo inteiro (não estoura contexto/TPM,
+                # achado real em 2026-09-11), dedupe por codprod.
+                candidatos_por_codprod = {}
+                for texto in lote_textos:
+                    for c in _prefiltrar_candidatos(texto, catalogo_completo):
+                        candidatos_por_codprod[c["codprod"]] = c
+                candidatos_lote = list(candidatos_por_codprod.values())
+                try:
+                    # gpt-4o-mini aqui, não gpt-4o — mesmo modelo já usado em
+                    # _extrair_itens_ia acima, sem problema de rate limit lá.
+                    novos = _casar_com_ia(lote_textos, candidatos_lote, modelo=os.getenv("OPENAI_TEXT_MODEL", "gpt-4o-mini"))
+                except Exception as e:
+                    print(f"  [AVISO] fallback (catálogo completo) falhou nesse lote ({str(e)[:150]}) — pula, tenta de novo na próxima rodada")
+                    continue
+                for chave, texto in zip(lote_chaves, lote_textos):
+                    resultado = novos.get(texto, {"codprod": None, "descricao": None})
+                    matches[chave] = {**resultado, "fallback_completo": True}
+                _salvar_json(MATCHES_JSON, matches)
     return matches
 
 
