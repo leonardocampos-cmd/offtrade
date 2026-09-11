@@ -165,7 +165,119 @@ def excluir_card(card_id):
     return jsonify({"ok": True})
 
 
+# ── Kanban pessoal (só leonardo.campos@rigarr.com.br) ──────────────────────
+# Pedido do usuário em 2026-09-11: board vazio, de uso pessoal — mesmo CRUD
+# do Kanban Mercos acima, mas storage e allowlist SEPARADOS (não é
+# EMAILS_ADMIN, só esse único e-mail) pra nenhum outro gestor ver/editar.
+EMAIL_PESSOAL = "leonardo.campos@rigarr.com.br"
+DATA_PATH_PESSOAL = Path(os.getenv("KANBAN_PESSOAL_DATA_PATH", str(Path(__file__).parent / "kanban_pessoal_data.json")))
+
+bp_pessoal = Blueprint("kanban_pessoal", __name__, url_prefix="/api/kanban-pessoal")
+
+
+def _email_autorizado_pessoal() -> str | None:
+    raw = request.cookies.get("offtrade_token")
+    if not raw:
+        return None
+    try:
+        token_obj = json.loads(unquote(raw))
+        id_token = token_obj.get("id_token", "")
+        payload_b64 = id_token.split(".")[1]
+        padded = payload_b64 + "=" * (-len(payload_b64) % 4)
+        payload = json.loads(base64.urlsafe_b64decode(padded))
+        email = (payload.get("email") or "").strip().lower()
+    except Exception:
+        return None
+    return email if email == EMAIL_PESSOAL else None
+
+
+def _carregar_pessoal() -> list[dict]:
+    if not DATA_PATH_PESSOAL.exists():
+        return []
+    try:
+        return json.loads(DATA_PATH_PESSOAL.read_text(encoding="utf-8"))
+    except Exception:
+        return []
+
+
+def _salvar_pessoal(cards: list[dict]) -> None:
+    tmp = DATA_PATH_PESSOAL.with_suffix(".tmp")
+    tmp.write_text(json.dumps(cards, ensure_ascii=False, indent=2), encoding="utf-8")
+    os.replace(tmp, DATA_PATH_PESSOAL)
+
+
+@bp_pessoal.before_request
+def _checar_auth_pessoal():
+    if not _email_autorizado_pessoal():
+        return jsonify({"ok": False, "motivo": "Não autorizado."}), 401
+
+
+@bp_pessoal.route("/cards", methods=["GET"])
+def listar_cards_pessoal():
+    return jsonify({"ok": True, "cards": _carregar_pessoal()})
+
+
+@bp_pessoal.route("/cards", methods=["POST"])
+def criar_card_pessoal():
+    dados = request.get_json(silent=True) or {}
+    titulo = str(dados.get("titulo", "")).strip()[:200]
+    if not titulo:
+        return jsonify({"ok": False, "motivo": "Título é obrigatório."}), 400
+    coluna = str(dados.get("coluna", "a_fazer")).strip()
+    if coluna not in COLUNAS_VALIDAS:
+        coluna = "a_fazer"
+    agora = datetime.now().isoformat(timespec="seconds")
+    card = {
+        "id": uuid.uuid4().hex,
+        "titulo": titulo,
+        "descricao": str(dados.get("descricao", "")).strip()[:2000],
+        "coluna": coluna,
+        "criado_em": agora,
+        "atualizado_em": agora,
+    }
+    cards = _carregar_pessoal()
+    cards.append(card)
+    _salvar_pessoal(cards)
+    return jsonify({"ok": True, "card": card}), 201
+
+
+@bp_pessoal.route("/cards/<card_id>", methods=["PUT"])
+def atualizar_card_pessoal(card_id):
+    dados = request.get_json(silent=True) or {}
+    cards = _carregar_pessoal()
+    card = next((c for c in cards if c["id"] == card_id), None)
+    if not card:
+        return jsonify({"ok": False, "motivo": "Card não encontrado."}), 404
+
+    if "titulo" in dados:
+        titulo = str(dados["titulo"]).strip()[:200]
+        if not titulo:
+            return jsonify({"ok": False, "motivo": "Título é obrigatório."}), 400
+        card["titulo"] = titulo
+    if "descricao" in dados:
+        card["descricao"] = str(dados["descricao"]).strip()[:2000]
+    if "coluna" in dados:
+        coluna = str(dados["coluna"]).strip()
+        if coluna in COLUNAS_VALIDAS:
+            card["coluna"] = coluna
+    card["atualizado_em"] = datetime.now().isoformat(timespec="seconds")
+
+    _salvar_pessoal(cards)
+    return jsonify({"ok": True, "card": card})
+
+
+@bp_pessoal.route("/cards/<card_id>", methods=["DELETE"])
+def excluir_card_pessoal(card_id):
+    cards = _carregar_pessoal()
+    novos = [c for c in cards if c["id"] != card_id]
+    if len(novos) == len(cards):
+        return jsonify({"ok": False, "motivo": "Card não encontrado."}), 404
+    _salvar_pessoal(novos)
+    return jsonify({"ok": True})
+
+
 app.register_blueprint(bp)
+app.register_blueprint(bp_pessoal)
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5054, threaded=True)

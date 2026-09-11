@@ -61,6 +61,21 @@ NGINX_LOCATION_KANBAN = f"""
     }}
 """
 
+# Kanban pessoal (pedido do usuário em 2026-09-11) — mesmo processo/porta
+# 5054 (blueprint separado em kanban_api.py), só precisa de outro location
+# pra rotear o prefixo.
+NGINX_LOCATION_KANBAN_PESSOAL = f"""
+    location /api/kanban-pessoal/ {{
+        proxy_pass         http://127.0.0.1:5054;
+        proxy_http_version 1.1;
+        proxy_set_header   Host $host;
+        proxy_set_header   X-Real-IP $remote_addr;
+        proxy_set_header   X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header   X-Forwarded-Proto $scheme;
+        proxy_read_timeout 20s;
+    }}
+"""
+
 
 def ssh_run(client, cmd, check=True):
     _, stdout, stderr = client.exec_command(cmd)
@@ -104,17 +119,23 @@ def deploy():
     ssh_run(client, "systemctl enable kanban-api.service", check=False)
     ssh_run(client, "systemctl restart kanban-api.service")
 
-    print("\n-> Conferindo nginx (adiciona location /api/kanban/ se faltando)...")
+    print("\n-> Conferindo nginx (locations /api/kanban/ e /api/kanban-pessoal/)...")
     nginx_conf = "/etc/nginx/sites-available/offtrade"
     with sftp.open(nginx_conf) as f:
         conf_atual = f.read().decode("utf-8")
     marker = "    location / {"
-    if "location /api/kanban/" not in conf_atual:
-        conf_novo = conf_atual.replace(marker, NGINX_LOCATION_KANBAN + "\n" + marker, 1)
+    conf_novo = conf_atual
+    for path_prefix, bloco in (
+        ("/api/kanban/", NGINX_LOCATION_KANBAN),
+        ("/api/kanban-pessoal/", NGINX_LOCATION_KANBAN_PESSOAL),
+    ):
+        if f"location {path_prefix}" not in conf_novo:
+            conf_novo = conf_novo.replace(marker, bloco + "\n" + marker, 1)
+    if conf_novo != conf_atual:
         sftp.putfo(io.BytesIO(conf_novo.encode()), nginx_conf)
         ssh_run(client, "nginx -t")
         ssh_run(client, "systemctl reload nginx")
-        print("   location /api/kanban/ adicionada.")
+        print("   locations atualizadas.")
     else:
         print("   já configurado, nada a fazer.")
 

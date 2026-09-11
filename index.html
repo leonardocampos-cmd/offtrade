@@ -340,13 +340,6 @@
         <div class="dash-desc">Pedido, preço de venda x tabela e vendedor — todas as bases</div>
       </div>
     </a>
-    <a class="dash-card" href="pedidos_mercos.html">
-      <span class="dash-icon">🛒</span>
-      <div>
-        <div class="dash-name">Pedidos Mercos</div>
-        <div class="dash-desc">Pedidos item a item exportados da Mercos — vendedor, CNPJ, produto e valores</div>
-      </div>
-    </a>
     <a class="dash-card" href="agendamento.html">
       <span class="dash-icon">📅</span>
       <div>
@@ -379,13 +372,6 @@
         <div class="dash-desc">Posição de estoque por produto — RJ, ES, SP, MG, Thekings e Garrido</div>
       </div>
     </a>
-    <a class="dash-card" href="estoque_mercos.html">
-      <span class="dash-icon">📦</span>
-      <div>
-        <div class="dash-name">Estoque Mercos x SPON</div>
-        <div class="dash-desc">Catálogo de produtos da Mercos cruzado com o estoque real do SPON — filial 1</div>
-      </div>
-    </a>
     <a class="dash-card" href="estoque_whatsapp.html">
       <span class="dash-icon">📱</span>
       <div>
@@ -393,17 +379,17 @@
         <div class="dash-desc">Contagem de estoque postada no grupo "Estoque RJ - Rigarr" — produto casado com o catálogo por IA</div>
       </div>
     </a>
+    <a class="dash-card" href="estoque_tial.html">
+      <span class="dash-icon">✅</span>
+      <div>
+        <div class="dash-name">Estoque TIAL — Validação</div>
+        <div class="dash-desc">Confere código, descrição e EAN da planilha ESTOQUE TIAL contra o cadastro do Winthor (CRC)</div>
+      </div>
+    </a>
   </div>
 
   <div class="dash-subgroup-title">🛠️ Ferramentas</div>
   <div class="dash-grid">
-    <a class="dash-card" href="kanban_mercos.html">
-      <span class="dash-icon">📋</span>
-      <div>
-        <div class="dash-name">Kanban Mercos</div>
-        <div class="dash-desc">Tarefas do time (canal Mercos) — criar, mover, editar e excluir, por vendedor</div>
-      </div>
-    </a>
     <a class="dash-card" href="promotoria.html">
       <span class="dash-icon">🧑‍💼</span>
       <div>
@@ -435,6 +421,13 @@
       <div>
         <div class="dash-name">Oportunidades de Vendas (Maps)</div>
         <div class="dash-desc">Busca PDVs por cidade (OpenStreetMap) e confere por nome se já são clientes cadastrados</div>
+      </div>
+    </a>
+    <a class="dash-card leonardo-only" href="kanban_pessoal.html" style="display:none">
+      <span class="dash-icon">📋</span>
+      <div>
+        <div class="dash-name">Kanban Pessoal</div>
+        <div class="dash-desc">Board de tarefas de uso pessoal</div>
       </div>
     </a>
   </div>
@@ -732,12 +725,11 @@
       'industria.html': 'industria_data.js',
       'pedidos.html': 'pedidos_data.js',
       'pedidos_bloqueados.html': 'pedidos_bloqueados_data.js',
-      'pedidos_mercos.html': 'pedidos_mercos_data.js',
       'agendamento.html': 'agendamento_data.js',
       'inadimplencia.html': 'inadimplencia_data.js',
       'estoque.html': 'estoque_data.js',
-      'estoque_mercos.html': 'estoque_mercos_data.js',
       'estoque_whatsapp.html': 'estoque_whatsapp_data.js',
+      'estoque_tial.html': 'estoque_tial_data.js',
       'promotoria.html': 'promotoria_data.js',
     };
     const OTTO_STATUS_COR = {
