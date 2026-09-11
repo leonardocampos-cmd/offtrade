@@ -120,8 +120,22 @@ def _buscar_mensagens_grupo():
 # malas") — mensagem real chegou (graças ao fix do @lid) mas ficou sem
 # parsear porque o sufixo só aceitava und/unid; o produto zerava
 # silenciosamente (nenhum erro, só não virava item).
+#
+# Número: aceita "23.787" (milhar com ponto) OU dígitos corridos sem ponto
+# ("1857") — achado auditando mensagens antigas em 2026-09-11 ("Jack
+# Daniels 200 ml - 1857" nunca tinha parseado, silenciosamente, porque o
+# padrão antigo só aceitava 1-3 dígitos seguidos de grupos ".XXX", sem
+# cobrir um número de 4+ dígitos sem separador nenhum).
 _RE_BULLET = re.compile(r"^[•\-\*]\s*")
-_RE_ITEM = re.compile(r"^(.*?)\s*[-=:]\s*(\d{1,3}(?:\.\d{3})*)\s*(?:und?\.?|unid\.?|malas?)?\s*$", re.IGNORECASE)
+_RE_ITEM = re.compile(r"^(.*?)\s*[-=:]\s*(\d{1,3}(?:\.\d{3})+|\d+)\s*(?:und?\.?|unid\.?|malas?)?\s*$", re.IGNORECASE)
+# Formato "PRODUTO 11CX"/"PRODUTO 12UN" (número colado no sufixo, sem
+# separador -/=/: antes do número) — confirmado em 2026-09-09
+# ("RED BULL TRADICIONAL 11CX", "JACK TRADICIONAL 1L 12UN"), achado ao
+# auditar mensagens antigas do grupo que também ficavam sem parsear em
+# silêncio. Testado contra frase solta com "cxs" no meio (ex: "meu sao 132
+# cxs de amstel") pra não confundir — só bate quando o sufixo está no
+# FINAL da linha, logo depois do número.
+_RE_ITEM_CX = re.compile(r"^(.*?)\s+(\d{1,4})\s*(?:cxs?|und?|unid)\.?\s*$", re.IGNORECASE)
 _RE_INDISPONIVEL = re.compile(r"^(.*?)\s*[❌❎✖]\s*$")
 
 
@@ -137,7 +151,7 @@ def _parse_linhas(texto):
         linha = _RE_BULLET.sub("", linha_bruta.strip())
         if not linha:
             continue
-        m = _RE_ITEM.match(linha)
+        m = _RE_ITEM.match(linha) or _RE_ITEM_CX.match(linha)
         if m:
             produto = m.group(1).strip(" -=:")
             if not produto:
