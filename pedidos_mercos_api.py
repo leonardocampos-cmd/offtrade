@@ -42,6 +42,7 @@ import subprocess
 import threading
 import time
 import unicodedata
+from datetime import datetime
 from pathlib import Path
 
 import requests
@@ -329,8 +330,84 @@ def casar_manual_estoque():
     return {"ok": True}
 
 
+# ── Contagem de estoque manual (contagem_estoque.html) ──────────────────────
+# Pedido do usuário em 2026-09-14: substitui o fluxo por WhatsApp/IA
+# (estoque_whatsapp.html) — o time de logística preenche direto numa tabela
+# (quantidade contada + data de vencimento por produto), autosave ao sair do
+# campo, sem login (mesmo nível de acesso do resto dessas ferramentas
+# internas). Gravado em contagem_estoque.json (raiz do pipeline, MESMO
+# arquivo que exportacao_contagem_estoque.py lê pra montar o _data.js) —
+# não é o cron que grava a contagem, só a página via esse endpoint; o cron
+# só atualiza produto/última-saída (dado do Oracle) e reflete o que já
+# estiver salvo aqui.
+bp_contagem = Blueprint("contagem_estoque", __name__, url_prefix="/api/contagem-estoque")
+
+_CONTAGEM_PATH = os.path.join(
+    "/opt/offtrade-pipeline" if RUNTIME == "vps" else r"G:\Meu Drive\offtrade",
+    "contagem_estoque.json",
+)
+_contagem_lock = threading.Lock()
+
+
+def _ler_contagem():
+    if not os.path.exists(_CONTAGEM_PATH):
+        return {}
+    try:
+        with open(_CONTAGEM_PATH, "r", encoding="utf-8") as f:
+            return json.load(f)
+    except Exception:
+        return {}
+
+
+@bp_contagem.route("/estado", methods=["GET"])
+def contagem_estoque_estado():
+    """Estado ao vivo (não espera o próximo cron) — a página busca isso no
+    load pra sobrepor o que já veio no contagem_estoque_data.js, já que
+    várias pessoas editam ao mesmo tempo e o _data.js só atualiza no
+    horário do pipeline."""
+    return _ler_contagem()
+
+
+@bp_contagem.route("/salvar", methods=["POST"])
+def contagem_estoque_salvar():
+    dados = request.get_json(silent=True) or {}
+    codprod = str(dados.get("codprod", "")).strip()
+    if not codprod:
+        return {"ok": False, "motivo": "codprod obrigatório."}, 400
+
+    campo = str(dados.get("campo", "")).strip()
+    if campo not in ("quantidade_contada", "data_vencimento"):
+        return {"ok": False, "motivo": "campo inválido."}, 400
+    valor = dados.get("valor")
+
+    # Nome do conferente obrigatório — pedido do usuário em 2026-09-14, pra
+    # saber quem contou cada produto (accountability, já que a página é
+    # aberta pro time de logística inteiro sem login).
+    conferente = str(dados.get("conferente", "")).strip()
+    if not conferente:
+        return {"ok": False, "motivo": "Informe o nome do conferente antes de editar."}, 400
+
+    with _contagem_lock:
+        estado = _ler_contagem()
+        item = estado.get(codprod, {})
+        item[campo] = valor
+        item["conferente"] = conferente
+        item["atualizado_em"] = datetime.now().strftime("%d/%m/%Y %H:%M")
+        estado[codprod] = item
+        try:
+            tmp = _CONTAGEM_PATH + ".tmp"
+            with open(tmp, "w", encoding="utf-8") as f:
+                json.dump(estado, f, ensure_ascii=False, indent=2)
+            os.replace(tmp, _CONTAGEM_PATH)
+        except Exception as e:
+            return {"ok": False, "motivo": f"Não consegui salvar ({str(e)[:150]})."}, 500
+
+    return {"ok": True, "atualizado_em": item["atualizado_em"]}
+
+
 app.register_blueprint(bp)
 app.register_blueprint(bp_estoque)
+app.register_blueprint(bp_contagem)
 
 if __name__ == "__main__":
     debug = RUNTIME != "vps"

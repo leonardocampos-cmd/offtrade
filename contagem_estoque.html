@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <script src="fontes_status_data.js"></script>
+  <script src="fontes_alert.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contagem de Estoque</title>
+  <script src="contagem_estoque_data.js"></script>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --bg: #0f1117; --card: #1a1d27; --card2: #22263a;
+      --accent: #f5c518; --blue: #3b82f6; --text: #e2e8f0;
+      --muted: #94a3b8; --border: #2d3144; --green: #22c55e;
+      --red: #ef4444; --orange: #f97316;
+    }
+    body {
+      background: var(--bg); color: var(--text);
+      font-family: 'Segoe UI', system-ui, sans-serif;
+      min-height: 100vh; padding: 16px;
+    }
+    header {
+      display: flex; align-items: center; justify-content: space-between;
+      margin-bottom: 20px; padding-bottom: 16px;
+      border-bottom: 1px solid var(--border); gap: 12px; flex-wrap: wrap;
+    }
+    header h1 { font-size: 1.1rem; font-weight: 700; color: var(--accent); }
+    header p  { font-size: .8rem; color: var(--muted); margin-top: 3px; }
+    .kpis { display: flex; gap: 12px; flex-wrap: wrap; margin-bottom: 16px; }
+    .kpi {
+      background: var(--card); border: 1px solid var(--border); border-radius: 10px;
+      padding: 14px 18px; flex: 1; min-width: 160px;
+    }
+    .kpi .label {
+      font-size: .65rem; text-transform: uppercase; letter-spacing: .08em;
+      color: var(--muted); margin-bottom: 6px;
+    }
+    .kpi .val { font-size: 1.25rem; font-weight: 800; }
+    .controls {
+      display: flex; gap: 10px; flex-wrap: wrap;
+      margin-bottom: 16px; align-items: center;
+    }
+    select, input[type=text] {
+      background: var(--card); border: 1px solid var(--border);
+      color: var(--text); border-radius: 8px; padding: 8px 12px;
+      font-size: .88rem; outline: none; font-family: inherit;
+    }
+    select:focus, input[type=text]:focus { border-color: var(--blue); }
+    select { min-width: 180px; }
+    input[type=text] { min-width: 260px; }
+    .btn-csv {
+      background: var(--green); color: #0f1117; border: none;
+      border-radius: 8px; padding: 8px 16px; font-size: .88rem;
+      font-weight: 700; cursor: pointer; font-family: inherit;
+    }
+    .btn-csv:hover { opacity: .88; }
+    .info { font-size: .8rem; color: var(--muted); margin-left: auto; }
+    .table-wrap { overflow-x: auto; border-radius: 10px; border: 1px solid var(--border); }
+    table { width: 100%; border-collapse: collapse; font-size: .82rem; }
+    thead th {
+      background: var(--card2); padding: 10px 12px; text-align: left;
+      font-size: .72rem; text-transform: uppercase; letter-spacing: .05em;
+      color: var(--muted); border-bottom: 1px solid var(--border);
+      white-space: nowrap; cursor: pointer;
+    }
+    thead th:hover { color: var(--text); }
+    tbody tr { border-bottom: 1px solid var(--border); }
+    tbody tr:hover { background: var(--card2); }
+    tbody td { padding: 9px 12px; vertical-align: middle; }
+    .cod { color: var(--muted); font-size: .78rem; font-family: monospace; white-space: nowrap; }
+    .saida { color: var(--muted); font-size: .8rem; white-space: nowrap; }
+    .saida.nunca { color: var(--red); }
+    .campo-input {
+      background: var(--card2); border: 1px solid var(--border); color: var(--text);
+      border-radius: 6px; padding: 6px 8px; font-size: .82rem; font-family: inherit;
+      width: 100px; outline: none;
+    }
+    input[type=date].campo-input { width: 140px; }
+    .campo-input:focus { border-color: var(--blue); }
+    .campo-input.salvando { border-color: var(--orange); }
+    .campo-input.salvo { border-color: var(--green); }
+    .campo-input.erro { border-color: var(--red); }
+    .selo-atualizado { display: block; font-size: .68rem; color: var(--muted); margin-top: 2px; white-space: nowrap; }
+    .empty { text-align: center; padding: 48px; color: var(--muted); font-size: .9rem; }
+    .aviso-ia {
+      background: rgba(59,130,246,.1); border: 1px solid rgba(59,130,246,.25);
+      border-radius: 8px; padding: 10px 14px; font-size: .78rem; color: var(--muted);
+      margin-bottom: 16px;
+    }
+    .conferente-box {
+      display: flex; align-items: center; gap: 10px; flex-wrap: wrap;
+      background: var(--card); border: 1px solid var(--border); border-radius: 10px;
+      padding: 12px 16px; margin-bottom: 16px;
+    }
+    .conferente-box label { font-size: .82rem; font-weight: 700; white-space: nowrap; }
+    #input-conferente {
+      background: var(--card2); border: 1px solid var(--border); color: var(--text);
+      border-radius: 8px; padding: 8px 12px; font-size: .88rem; outline: none;
+      font-family: inherit; min-width: 220px; flex: 1; max-width: 320px;
+    }
+    #input-conferente:focus { border-color: var(--blue); }
+    #input-conferente.vazio { border-color: var(--red); }
+    .conferente-aviso { font-size: .78rem; color: var(--red); display: none; }
+    .conferente-box.vazio .conferente-aviso { display: block; }
+
+    @media (max-width: 640px) {
+      body { padding: 12px; }
+      .kpi { min-width: 130px; padding: 12px 14px; }
+      select { min-width: 130px; }
+      input[type=text] { min-width: 140px; }
+      table { font-size: .76rem; }
+      thead th, tbody td { padding: 8px 9px; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div>
+    <h1>📦 CONTAGEM DE ESTOQUE</h1>
+    <p id="header-sub">—</p>
+  </div>
+  <a href="index.html" style="color:var(--muted);font-size:.8rem;text-decoration:none">← Painel</a>
+</header>
+
+<div class="aviso-ia">
+  Preenchimento direto pelo time de logística — edite "Quantidade contada" e
+  "Data de vencimento" e saia do campo (Tab ou clique fora) pra salvar
+  automaticamente. Não precisa apertar nada mais. "Última saída" vem do
+  Winthor e não é editável.
+</div>
+
+<div class="conferente-box" id="conferente-box">
+  <label for="input-conferente">👤 Seu nome (conferente):</label>
+  <input type="text" id="input-conferente" placeholder="Digite seu nome pra poder editar..." oninput="salvarConferente()">
+  <span class="conferente-aviso">Obrigatório — preencha seu nome antes de contar qualquer produto.</span>
+</div>
+
+<div class="kpis" id="kpis"></div>
+
+<div class="controls">
+  <select id="sel-status" onchange="aplicarFiltro()">
+    <option value="">Todos</option>
+    <option value="contado">Já contados</option>
+    <option value="sem-contar">Sem contar</option>
+    <option value="vencendo">Vencendo em 30 dias</option>
+  </select>
+  <input type="text" id="busca" placeholder="Buscar por produto ou código..." oninput="aplicarFiltro()">
+  <button class="btn-csv" onclick="exportarCSV()">⬇ Exportar CSV</button>
+  <span class="info" id="info-count"></span>
+</div>
+
+<div class="table-wrap">
+  <table id="tabela">
+    <thead>
+      <tr>
+        <th onclick="ordenarPor('produto')">Produto</th>
+        <th onclick="ordenarPor('codprod')" class="cod">CODPROD</th>
+        <th onclick="ordenarPor('ultima_saida')">Última saída</th>
+        <th onclick="ordenarPor('quantidade_contada')">Quantidade contada</th>
+        <th onclick="ordenarPor('data_vencimento')">Data de vencimento</th>
+      </tr>
+    </thead>
+    <tbody id="tbody"></tbody>
+  </table>
+</div>
+
+<script>
+const DATA = typeof CONTAGEM_ESTOQUE_DATA !== 'undefined' ? CONTAGEM_ESTOQUE_DATA : null;
+const ITENS = DATA ? DATA.itens : [];
+const POR_CODPROD = {};
+ITENS.forEach(i => { POR_CODPROD[i.codprod] = i; });
+
+let _ordem = { campo: 'produto', asc: true };
+
+// Nome do conferente — obrigatório pra editar (pedido do usuário em
+// 2026-09-14, pra saber quem contou cada produto). Guardado no
+// localStorage só pra conveniência de quem já preencheu antes (não
+// precisa retypar toda vez que abrir a página) — a validação de
+// verdade acontece no servidor a cada salvar, não é só client-side.
+try {
+  const salvo = localStorage.getItem('contagem_estoque_conferente');
+  if (salvo) document.getElementById('input-conferente').value = salvo;
+} catch (e) { /* localStorage indisponível, segue sem prefill */ }
+atualizarVisualConferente();
+
+function nomeConferente() {
+  return document.getElementById('input-conferente').value.trim();
+}
+
+function salvarConferente() {
+  try { localStorage.setItem('contagem_estoque_conferente', nomeConferente()); } catch (e) {}
+  atualizarVisualConferente();
+}
+
+function atualizarVisualConferente() {
+  const vazio = !nomeConferente();
+  document.getElementById('conferente-box').classList.toggle('vazio', vazio);
+  document.getElementById('input-conferente').classList.toggle('vazio', vazio);
+}
+
+if (!DATA) {
+  document.getElementById('tbody').innerHTML = '<tr><td colspan="5" class="empty">Dados não encontrados. Gere contagem_estoque_data.js (exportacao_contagem_estoque.py).</td></tr>';
+} else {
+  document.getElementById('header-sub').textContent =
+    'Atualizado ' + DATA.atualizado_em +
+    (DATA.fontes_indisponiveis && DATA.fontes_indisponiveis.length
+      ? ' · ⚠️ fonte(s) fora do ar: ' + DATA.fontes_indisponiveis.join(', ')
+      : '');
+  montarKpis(ITENS);
+  aplicarFiltro();
+  atualizarEstadoAoVivo();
+}
+
+// Sobrepõe com o estado ao vivo (o _data.js só atualiza no horário do
+// pipeline; várias pessoas podem ter editado depois disso) — se falhar,
+// segue só com o que já veio no _data.js, sem travar a página.
+async function atualizarEstadoAoVivo() {
+  try {
+    const resp = await fetch('/api/contagem-estoque/estado');
+    if (!resp.ok) return;
+    const estado = await resp.json();
+    let mudou = false;
+    for (const [codprod, info] of Object.entries(estado)) {
+      const item = POR_CODPROD[codprod];
+      if (!item) continue;
+      if ('quantidade_contada' in info) item.quantidade_contada = info.quantidade_contada;
+      if ('data_vencimento' in info) item.data_vencimento = info.data_vencimento;
+      if (info.atualizado_em) item.contagem_atualizado_em = info.atualizado_em;
+      if (info.conferente) item.conferente = info.conferente;
+      mudou = true;
+    }
+    if (mudou) { montarKpis(ITENS); aplicarFiltro(); }
+  } catch (e) { /* segue com o que já tem */ }
+}
+
+function montarKpis(lista) {
+  const total = lista.length;
+  const contados = lista.filter(i => i.quantidade_contada !== null && i.quantidade_contada !== undefined).length;
+  const hoje = new Date(); hoje.setHours(0,0,0,0);
+  const em30 = new Date(hoje); em30.setDate(em30.getDate() + 30);
+  const vencendo = lista.filter(i => {
+    if (!i.data_vencimento) return false;
+    const d = new Date(i.data_vencimento + 'T00:00:00');
+    return d >= hoje && d <= em30;
+  }).length;
+  document.getElementById('kpis').innerHTML = `
+    <div class="kpi">
+      <div class="label">Produtos</div>
+      <div class="val">${total}</div>
+    </div>
+    <div class="kpi">
+      <div class="label">Já Contados</div>
+      <div class="val" style="color:var(--green)">${contados}</div>
+    </div>
+    <div class="kpi">
+      <div class="label">Sem Contar</div>
+      <div class="val" style="color:var(--orange)">${total - contados}</div>
+    </div>
+    <div class="kpi">
+      <div class="label">Vencendo em 30 dias</div>
+      <div class="val" style="color:var(--red)">${vencendo}</div>
+    </div>
+  `;
+}
+
+function _filtrados() {
+  const status = document.getElementById('sel-status').value;
+  const busca = document.getElementById('busca').value.trim().toLowerCase();
+  const hoje = new Date(); hoje.setHours(0,0,0,0);
+  const em30 = new Date(hoje); em30.setDate(em30.getDate() + 30);
+  return ITENS.filter(i => {
+    const temContagem = i.quantidade_contada !== null && i.quantidade_contada !== undefined;
+    if (status === 'contado' && !temContagem) return false;
+    if (status === 'sem-contar' && temContagem) return false;
+    if (status === 'vencendo') {
+      if (!i.data_vencimento) return false;
+      const d = new Date(i.data_vencimento + 'T00:00:00');
+      if (!(d >= hoje && d <= em30)) return false;
+    }
+    if (busca) {
+      const alvo = (i.descricao + ' ' + i.codprod).toLowerCase();
+      if (!alvo.includes(busca)) return false;
+    }
+    return true;
+  });
+}
+
+function ordenarPor(campo) {
+  if (_ordem.campo === campo) _ordem.asc = !_ordem.asc;
+  else { _ordem.campo = campo; _ordem.asc = true; }
+  aplicarFiltro();
+}
+
+function aplicarFiltro() {
+  let lista = _filtrados();
+  const { campo, asc } = _ordem;
+  lista.sort((a, b) => {
+    let va, vb;
+    if (campo === 'produto') { va = a.descricao.toLowerCase(); vb = b.descricao.toLowerCase(); }
+    else if (campo === 'codprod') { va = a.codprod; vb = b.codprod; }
+    else if (campo === 'ultima_saida') { va = _dataBrParaChave(a.ultima_saida); vb = _dataBrParaChave(b.ultima_saida); }
+    else if (campo === 'quantidade_contada') { va = a.quantidade_contada ?? -1; vb = b.quantidade_contada ?? -1; }
+    else { va = a.data_vencimento || ''; vb = b.data_vencimento || ''; }
+    if (va < vb) return asc ? -1 : 1;
+    if (va > vb) return asc ? 1 : -1;
+    return 0;
+  });
+  renderizar(lista);
+  document.getElementById('info-count').textContent = `${lista.length} produto(s)`;
+}
+
+function renderizar(lista) {
+  const tbody = document.getElementById('tbody');
+  if (!lista.length) {
+    tbody.innerHTML = '<tr><td colspan="5" class="empty">Nenhum produto encontrado com esse filtro.</td></tr>';
+    return;
+  }
+  tbody.innerHTML = lista.map(i => `
+    <tr>
+      <td>${_esc(i.descricao)}</td>
+      <td class="cod">${i.codprod}</td>
+      <td class="saida ${i.ultima_saida ? '' : 'nunca'}">${i.ultima_saida ? _esc(i.ultima_saida) : 'Nunca vendido'}</td>
+      <td>
+        <input type="number" min="0" step="1" class="campo-input" data-codprod="${i.codprod}" data-campo="quantidade_contada"
+               value="${i.quantidade_contada ?? ''}" placeholder="—"
+               onblur="salvarCampo(this)" onkeydown="if(event.key==='Enter') this.blur()">
+      </td>
+      <td>
+        <input type="date" class="campo-input" data-codprod="${i.codprod}" data-campo="data_vencimento"
+               value="${i.data_vencimento || ''}"
+               onblur="salvarCampo(this)" onchange="salvarCampo(this)">
+        ${i.contagem_atualizado_em ? `<span class="selo-atualizado">${_esc(i.contagem_atualizado_em)}${i.conferente ? ' por ' + _esc(i.conferente) : ''}</span>` : ''}
+      </td>
+    </tr>
+  `).join('');
+}
+
+// Autosave ao sair do campo (blur/change) — pedido do usuário em
+// 2026-09-14: time de logística conta vários itens em sequência, não faz
+// sentido um botão "Salvar" por linha. Só manda pro servidor se o valor
+// realmente mudou (evita POST à toa em blur sem edição).
+async function salvarCampo(input) {
+  const codprod = input.dataset.codprod;
+  const campo = input.dataset.campo;
+  const item = POR_CODPROD[codprod];
+  if (!item) return;
+
+  const conferente = nomeConferente();
+  if (!conferente) {
+    // Sem nome preenchido: reverte o campo (não deixa "editar sem se
+    // identificar") e chama atenção pro campo de nome.
+    input.value = item[campo] ?? '';
+    atualizarVisualConferente();
+    document.getElementById('conferente-box').scrollIntoView({ behavior: 'smooth', block: 'center' });
+    document.getElementById('input-conferente').focus();
+    return;
+  }
+
+  let valor = input.value.trim();
+  if (campo === 'quantidade_contada') {
+    valor = valor === '' ? null : parseInt(valor, 10);
+    if (valor !== null && isNaN(valor)) { input.value = item.quantidade_contada ?? ''; return; }
+  } else {
+    valor = valor === '' ? null : valor;
+  }
+
+  const valorAtual = item[campo] ?? null;
+  if (valor === valorAtual) return; // sem mudança, não salva à toa
+
+  input.classList.remove('salvo', 'erro');
+  input.classList.add('salvando');
+  try {
+    const resp = await fetch('/api/contagem-estoque/salvar', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ codprod, campo, valor, conferente }),
+    });
+    const d = await resp.json().catch(() => ({}));
+    if (!resp.ok || !d.ok) throw new Error(d.motivo || 'Falha ao salvar');
+    item[campo] = valor;
+    item.contagem_atualizado_em = d.atualizado_em || item.contagem_atualizado_em;
+    item.conferente = conferente;
+    input.classList.remove('salvando');
+    input.classList.add('salvo');
+    setTimeout(() => input.classList.remove('salvo'), 1500);
+    montarKpis(ITENS);
+    aplicarFiltro();
+  } catch (e) {
+    input.classList.remove('salvando');
+    input.classList.add('erro');
+  }
+}
+
+function _qt(v) {
+  return Number(v || 0).toLocaleString('pt-BR');
+}
+
+function _esc(s) {
+  return String(s || '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+}
+
+// "Última saída" vem formatada DD/MM/AAAA pra exibição — comparar como
+// texto puro ordena errado (ex: "01/09/2026" < "15/07/2025"). Converte pra
+// AAAA-MM-DD só pra ordenar (comparável como string normal).
+function _dataBrParaChave(dataBr) {
+  if (!dataBr) return '';
+  const [d, m, a] = dataBr.split('/');
+  return `${a}-${m}-${d}`;
+}
+
+function exportarCSV() {
+  const lista = _filtrados();
+  const header = ['Produto','CODPROD','Última Saída','Quantidade Contada','Data de Vencimento','Conferente','Atualizado em'];
+  const linhas = lista.map(i => [
+    i.descricao, i.codprod, i.ultima_saida || '', i.quantidade_contada ?? '', i.data_vencimento || '', i.conferente || '', i.contagem_atualizado_em || '',
+  ].map(v => `"${String(v ?? '').replace(/"/g,'""')}"`).join(';'));
+  const csv = '﻿' + [header.join(';'), ...linhas].join('\r\n');
+  const blob = new Blob([csv], { type: 'text/csv;charset=utf-8;' });
+  const url  = URL.createObjectURL(blob);
+  const a    = document.createElement('a');
+  a.href = url;
+  a.download = `contagem_estoque_${new Date().toISOString().slice(0,10)}.csv`;
+  a.click();
+  URL.revokeObjectURL(url);
+}
+</script>
+<script src="sticky_hscroll.js"></script>
+</body>
+</html>

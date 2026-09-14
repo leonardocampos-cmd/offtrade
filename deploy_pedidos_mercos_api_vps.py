@@ -101,6 +101,21 @@ NGINX_LOCATION_ESTOQUE_WHATSAPP = """
     }
 """
 
+# contagem_estoque.html (pedido do usuário em 2026-09-14, substitui o fluxo
+# por WhatsApp/IA) — mesmo processo Flask/porta 5056, blueprint separado
+# (bp_contagem em pedidos_mercos_api.py).
+NGINX_LOCATION_CONTAGEM_ESTOQUE = """
+    location /api/contagem-estoque/ {
+        proxy_pass         http://127.0.0.1:5056;
+        proxy_http_version 1.1;
+        proxy_set_header   Host $host;
+        proxy_set_header   X-Real-IP $remote_addr;
+        proxy_set_header   X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header   X-Forwarded-Proto $scheme;
+        proxy_read_timeout 30s;
+    }
+"""
+
 
 def ssh_run(client, cmd, check=True):
     _, stdout, stderr = client.exec_command(cmd)
@@ -168,7 +183,7 @@ def deploy():
     ssh_run(client, "rm -f /tmp/crontab_pedidos_mercos.txt", check=False)
     print("   crontab atualizado.")
 
-    print("\n-> Conferindo nginx (locations /api/pedidos-mercos/ e /api/estoque-whatsapp/)...")
+    print("\n-> Conferindo nginx (locations /api/pedidos-mercos/, /api/estoque-whatsapp/ e /api/contagem-estoque/)...")
     nginx_conf = "/etc/nginx/sites-available/offtrade"
     with sftp.open(nginx_conf) as f:
         conf_atual = f.read().decode("utf-8")
@@ -181,6 +196,7 @@ def deploy():
     for path_prefix, bloco in (
         ("/api/pedidos-mercos/", NGINX_LOCATION),
         ("/api/estoque-whatsapp/", NGINX_LOCATION_ESTOQUE_WHATSAPP),
+        ("/api/contagem-estoque/", NGINX_LOCATION_CONTAGEM_ESTOQUE),
     ):
         padrao = r"    location " + re.escape(path_prefix) + r" \{.*?\n    \}\n"
         bloco_existente = re.search(padrao, conf_novo, re.DOTALL)
