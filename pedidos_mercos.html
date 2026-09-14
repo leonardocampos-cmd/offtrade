@@ -826,6 +826,30 @@ function _construirDanfePagina(doc, n) {
   doc.text(`Emissão: ${n.data_emissao || '—'}   Saída: ${n.data_saida || '—'} ${n.hora_saida || ''}`, M + 1, y + 21, { maxWidth: W - 2 });
   y += hDest + 2;
 
+  // Fatura/Duplicata — seção que faltava no DANFE reconstruído (pedido do
+  // usuário em 2026-09-14, comparando contra o modelo oficial). Uma linha
+  // por parcela (nº/vencimento/valor); nota à vista sem parcelamento pode
+  // não ter nenhuma linha em SQL_NFE_PARCELA_SAIDA_* — nesse caso pula a
+  // caixa inteira, mesmo padrão de "Informações Complementares" abaixo.
+  const fatura = n.fatura || [];
+  if (fatura.length) {
+    const hFat = 4 + fatura.length * 4;
+    doc.rect(M, y, W, hFat);
+    doc.setFontSize(6);
+    doc.setFont(undefined, 'bold');
+    doc.text('FATURA', M + 1, y + 3);
+    doc.setFontSize(6.5);
+    fatura.forEach((f, i) => {
+      const yLinha = y + 3 + (i + 1) * 4;
+      doc.setFont(undefined, 'bold');
+      doc.text(String(f.prestacao ?? i + 1), M + 1, yLinha);
+      doc.setFont(undefined, 'normal');
+      doc.text(f.vencimento || '—', M + 16, yLinha);
+      doc.text(_brlNum(f.valor), M + 40, yLinha);
+    });
+    y += hFat + 2;
+  }
+
   // Cálculo do imposto
   const t = n.totais;
   const camposImposto = [

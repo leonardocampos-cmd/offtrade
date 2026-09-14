@@ -149,6 +149,17 @@ def enviar_whatsapp_pedido():
             detalhe = resp_pdf.text[:200] if resp_pdf.text else ""
             return {"ok": False, "motivo": f"Mensagem enviada, mas a Z-API recusou o PDF (HTTP {resp_pdf.status_code}): {detalhe}"}
 
+    # Bug real achado em 2026-09-14 (primeiro teste com credencial de
+    # verdade — nunca tinha rodado contra uma conta real antes, ver
+    # docstring do topo do arquivo): faltava esse "return" no caminho de
+    # sucesso — a função "caía do final" sem devolver resposta, Flask
+    # estourava 500 (TypeError: view function did not return a valid
+    # response) DEPOIS de já ter mandado mensagem+PDF de verdade pela
+    # Z-API. O envio funcionava; só o retorno pro front-end (e pro
+    # checar_status_pedidos_mercos.py, que via isso como falha e não
+    # atualizava o "enviado") que sempre quebrava.
+    return {"ok": True}
+
 
 # ── Config Z-API pro aviso automático rodar no servidor (checar_status_pedidos_mercos.py) ──
 # Pedido do usuário em 2026-09-11: o aviso automático de mudança de status

@@ -141,10 +141,35 @@ def buscar(numpeds):
     )
     rod.columns = rod.columns.str.upper()
 
+    # Fatura/Duplicata (rodapé faltando no DANFE reconstruído — pedido do
+    # usuário em 2026-09-14, comparando contra o modelo oficial). Winthor
+    # divide por forma de cobrança em 6 views separadas (uma nota só bate em
+    # UMA delas, dependendo de boleto/cartão/dinheiro/etc) — UNION ALL nas
+    # 6 pra não ter que adivinhar qual usar.
+    parc = carregar_dados(
+        f"""SELECT NUM_TRANSACAO, PREST, DTVENC, VALOR FROM SPON.SQL_NFE_PARCELA_SAIDA_NORMAL WHERE NUM_TRANSACAO IN ({lista_trans})
+            UNION ALL
+            SELECT NUM_TRANSACAO, PREST, DTVENC, VALOR FROM SPON.SQL_NFE_PARCELA_SAIDA_CARTAO WHERE NUM_TRANSACAO IN ({lista_trans})
+            UNION ALL
+            SELECT NUM_TRANSACAO, PREST, DTVENC, VALOR FROM SPON.SQL_NFE_PARCELA_SAIDA_DESD WHERE NUM_TRANSACAO IN ({lista_trans})
+            UNION ALL
+            SELECT NUM_TRANSACAO, PREST, DTVENC, VALOR FROM SPON.SQL_NFE_PARCELA_SAIDA_DIN WHERE NUM_TRANSACAO IN ({lista_trans})
+            UNION ALL
+            SELECT NUM_TRANSACAO, PREST, DTVENC, VALOR FROM SPON.SQL_NFE_PARCELA_SAIDA_ST WHERE NUM_TRANSACAO IN ({lista_trans})
+            UNION ALL
+            SELECT NUM_TRANSACAO, PREST, DTVENC, VALOR FROM SPON.SQL_NFE_PARCELA_SAIDA_TROCO WHERE NUM_TRANSACAO IN ({lista_trans})
+            ORDER BY 1, 2""",
+        engine_spon, "nfe_parcelas",
+    )
+    parc.columns = parc.columns.str.upper()
+
     prod_por_transacao = {}
     for _, r in prod.iterrows():
         prod_por_transacao.setdefault(int(r["NUM_TRANSACAO"]), []).append(r)
     rod_por_transacao = {int(r["NUM_TRANSACAO"]): r for _, r in rod.iterrows()}
+    parc_por_transacao = {}
+    for _, r in parc.iterrows():
+        parc_por_transacao.setdefault(int(r["NUM_TRANSACAO"]), []).append(r)
 
     notas = []
     for _, c in cab.iterrows():
@@ -189,6 +214,14 @@ def buscar(numpeds):
             "natureza_operacao": _txt(c["NATUREZA_OP"]),
             "emitente": _bloco_endereco(c, "E"),
             "destinatario": _bloco_endereco(c, "D"),
+            "fatura": [
+                {
+                    "prestacao": _int_str(p.get("PREST")),
+                    "vencimento": _dt(p.get("DTVENC")),
+                    "valor": _num(p.get("VALOR")) or 0.0,
+                }
+                for p in parc_por_transacao.get(nt, [])
+            ],
             "itens": itens,
             "totais": {
                 "valor_produtos": _num(r.get("VALOR_TOTAL_PRODUTOS")) or 0.0,
