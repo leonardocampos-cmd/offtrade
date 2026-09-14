@@ -43,8 +43,17 @@ import sys
 from pathlib import Path
 
 import requests
+from dotenv import load_dotenv
 
 HERE = Path(__file__).parent
+
+# Cron não passa OFFTRADE_RUNTIME (ambiente mínimo) — sem isso RUNTIME
+# sempre caía no default "local" mesmo rodando na VPS, e
+# _caminho_pedidos_data() procurava pedidos_mercos_data.js no lugar errado
+# (/opt/pedidos-mercos-api em vez de /opt/offtrade-static). Achado real em
+# 2026-09-14: aviso configurado certo mas nunca disparava, log mostrando
+# "pedidos_mercos_data.js não existe" com o caminho local errado.
+load_dotenv(HERE / ".env")
 RUNTIME = os.getenv("OFFTRADE_RUNTIME", "local")
 
 ZAPI_CONFIG_PATH = HERE / "zapi_config_servidor.json"
