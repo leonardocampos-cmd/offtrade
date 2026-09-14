@@ -123,6 +123,30 @@
     }
     .btn:hover { border-color: var(--blue); }
 
+    .pedidos-wrap {
+      display: none; margin-bottom: 16px; border: 1px solid var(--border);
+      border-radius: 10px; overflow: hidden;
+    }
+    .pedidos-wrap.tem-pedidos { display: block; }
+    .pedidos-head {
+      background: var(--card2); padding: 8px 14px; font-size: .72rem;
+      text-transform: uppercase; letter-spacing: .05em; color: var(--muted);
+    }
+    .pedido-item {
+      display: flex; align-items: center; gap: 10px; padding: 9px 14px;
+      background: var(--card); border-top: 1px solid var(--border); flex-wrap: wrap;
+    }
+    .pedido-item .p-nome { font-weight: 700; flex: 1; min-width: 140px; }
+    .pedido-item .p-quando { font-size: .76rem; color: var(--muted); }
+    .badge-aguardando {
+      display: inline-block; font-size: .68rem; font-weight: 700; padding: 2px 8px;
+      border-radius: 20px; white-space: nowrap; background: rgba(249,115,22,.15); color: var(--orange);
+    }
+    .badge-respondido {
+      display: inline-block; font-size: .68rem; font-weight: 700; padding: 2px 8px;
+      border-radius: 20px; white-space: nowrap; background: rgba(34,197,94,.15); color: var(--green);
+    }
+
     @media (max-width: 640px) {
       body { padding: 12px; }
       .kpi { min-width: 130px; padding: 12px 14px; }
@@ -151,6 +175,11 @@
 </div>
 
 <div class="kpis" id="kpis"></div>
+
+<div class="pedidos-wrap" id="pedidos-wrap">
+  <div class="pedidos-head">📋 Pedidos de contagem feitos no grupo</div>
+  <div id="pedidos-lista"></div>
+</div>
 
 <div class="controls">
   <select id="sel-status" onchange="aplicarFiltro()">
@@ -193,6 +222,7 @@ if (!DATA) {
       ? ' · ⚠️ fonte(s) fora do ar: ' + DATA.fontes_indisponiveis.join(', ')
       : '');
   montarKpis(ITENS);
+  montarPedidos(DATA.pedidos || []);
   aplicarFiltro();
 }
 
@@ -223,6 +253,24 @@ function montarKpis(lista) {
       <div class="val">${_qt(somaQtd)}</div>
     </div>
   `;
+}
+
+function montarPedidos(pedidos) {
+  const wrap = document.getElementById('pedidos-wrap');
+  if (!pedidos.length) {
+    wrap.classList.remove('tem-pedidos');
+    return;
+  }
+  wrap.classList.add('tem-pedidos');
+  document.getElementById('pedidos-lista').innerHTML = pedidos.map(p => `
+    <div class="pedido-item">
+      <div class="p-nome">${_esc(p.produto)}</div>
+      <div class="p-quando">pedido em ${_esc(p.solicitado_em)}</div>
+      ${p.respondido
+        ? `<span class="badge-respondido">✓ Respondido em ${_esc(p.respondido_em)}</span>`
+        : `<span class="badge-aguardando">🕒 Aguardando resposta</span>`}
+    </div>
+  `).join('');
 }
 
 function _filtrados() {

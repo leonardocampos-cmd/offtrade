@@ -75,6 +75,8 @@ OUT_JS = HERE / "estoque_whatsapp_data.js"
 RAW_JSON = HERE / "estoque_whatsapp_raw.json"
 MATCHES_JSON = HERE / "estoque_whatsapp_matches.json"
 IA_PARSE_JSON = HERE / "estoque_whatsapp_ia_parse.json"
+PEDIDOS_JSON = HERE / "estoque_whatsapp_pedidos.json"
+PEDIDOS_IA_JSON = HERE / "estoque_whatsapp_pedidos_ia.json"
 
 CATALOGO_QUERY = """
     SELECT DISTINCT P.CODPROD, P.DESCRICAO
@@ -206,6 +208,133 @@ def _extrair_itens_ia(texto):
     except (json.JSONDecodeError, AttributeError, TypeError, KeyError) as e:
         print(f"  [AVISO] resposta da IA inválida pra extração de estoque ({str(e)[:120]}) — cai pro parser por regex.")
         return None
+
+
+# ── Pedidos de contagem ("podem passar o estoque de X?") ────────────────────
+# Pedido do usuário em 2026-09-14, depois de mandar um lembrete pro grupo
+# (RECKITT/Pinati) e a página continuar mostrando as mesmas quantidades de
+# 10/09 — não dá pra saber, só olhando a tabela, se um pedido foi feito e
+# ainda não respondido ou se ninguém pediu nada. Roda só nas mensagens que
+# NÃO viraram contagem (_itens_da_mensagem vazio) — uma mensagem que já tem
+# produto+quantidade nunca é (só) um pedido, não faz sentido gastar IA nela
+# de novo pra isso.
+_PROMPT_DETECCAO_PEDIDO = """A mensagem abaixo é de um grupo de WhatsApp onde o time faz contagem de estoque. Diga se ela é um PEDIDO/COBRANÇA pra alguém informar ou reenviar a contagem de um ou mais produtos/marcas (ex: "podem passar o estoque de X?", "reforçando o pedido de Y", "cadê a contagem de Z", "faltou mandar W").
+
+Responda APENAS o JSON no formato:
+{{"eh_pedido": true ou false, "produtos": ["nome1", "nome2", ...]}}
+
+Regras:
+- "produtos" é a lista de nomes de produto/marca citados no pedido, exatamente como escritos na mensagem (ex: ["RECKITT", "Pinati"]). Vazia se não for pedido.
+- Mensagens que já são a contagem em si (produto + quantidade) NÃO são pedido — devolva eh_pedido: false.
+- Saudação solta, confirmação ("ok", "certo"), ou mensagem sem relação com estoque também não é pedido.
+
+Mensagem:
+\"\"\"
+{texto}
+\"\"\""""
+
+
+def _extrair_pedido_ia(texto):
+    """Best-effort: None em qualquer falha — quem chama ignora a mensagem
+    nessa rodada e tenta de novo na próxima (mesmo padrão de _extrair_itens_ia)."""
+    from openai import OpenAI
+    client = OpenAI()
+    import time
+    resp = None
+    for tentativa in range(3):
+        try:
+            resp = client.chat.completions.create(
+                model=os.getenv("OPENAI_TEXT_MODEL", "gpt-4o-mini"),
+                messages=[{"role": "user", "content": _PROMPT_DETECCAO_PEDIDO.format(texto=texto[:1000])}],
+                response_format={"type": "json_object"},
+                temperature=0,
+            )
+            break
+        except Exception as e:
+            if "429" in str(e) and tentativa < 2:
+                time.sleep(20)
+                continue
+            print(f"  [AVISO] deteccao de pedido por IA falhou ({str(e)[:120]}) — ignora esta mensagem.")
+            return None
+    try:
+        resultado = json.loads(resp.choices[0].message.content)
+        if not resultado.get("eh_pedido"):
+            return []
+        return [str(p).strip() for p in resultado.get("produtos", []) if str(p).strip()]
+    except (json.JSONDecodeError, AttributeError, TypeError, KeyError) as e:
+        print(f"  [AVISO] resposta da IA invalida pra deteccao de pedido ({str(e)[:120]}) — ignora esta mensagem.")
+        return None
+
+
+def _atualizar_pedidos(mensagens, cache_ia_itens, estado_raw):
+    """Cada pedido novo (mesmo produto pedido de novo depois de já ter sido
+    respondido, ex: lembrete) SOBRESCREVE o anterior — um lembrete reabre o
+    status pra "aguardando resposta" até chegar uma contagem mais nova que o
+    pedido, mesmo que já tivesse sido respondido antes."""
+    pedidos = _carregar_json(PEDIDOS_JSON, {})
+    cache_pedidos_ia = _carregar_json(PEDIDOS_IA_JSON, {})
+    for msg in mensagens:
+        msg_id = msg.get("id")
+        if msg_id and msg_id in cache_ia_itens:
+            itens = [(it["produto"], it["quantidade"]) for it in cache_ia_itens[msg_id]]
+        else:
+            itens = _parse_linhas(msg["texto"])
+        if itens:
+            continue
+        if msg_id and msg_id in cache_pedidos_ia:
+            produtos = cache_pedidos_ia[msg_id]
+        else:
+            produtos = _extrair_pedido_ia(msg["texto"])
+            if produtos is None:
+                continue
+            if msg_id:
+                cache_pedidos_ia[msg_id] = produtos
+        for produto in produtos:
+            chave = _normalizar(produto)
+            if not chave:
+                continue
+            atual = pedidos.get(chave)
+            if atual is None or msg["ts"] >= atual.get("pedido_ts", 0):
+                pedidos[chave] = {
+                    "produto": produto,
+                    "pedido_texto": msg["texto"][:200],
+                    "pedido_ts": msg["ts"],
+                }
+    _salvar_json(PEDIDOS_JSON, pedidos)
+    _salvar_json(PEDIDOS_IA_JSON, cache_pedidos_ia)
+    return pedidos
+
+
+# Casa a resposta por palavra em comum (>=3 letras) em vez de substring cru —
+# "RECKITT" pedido bate com item "reckitt mojito" (palavra "reckitt" em
+# comum), mas não bate à toa com qualquer coisa que contenha um pedaço curto.
+# Só conta resposta com timestamp >= pedido (uma contagem antiga não responde
+# um pedido novo).
+def _resposta_apos_pedido(pedido_chave, pedido_ts, estado_raw):
+    palavras_pedido = {w for w in pedido_chave.split() if len(w) >= 3}
+    if not palavras_pedido:
+        return None
+    candidatos = [
+        info for chave, info in estado_raw.items()
+        if info["ts"] >= pedido_ts and palavras_pedido & set(chave.split())
+    ]
+    if not candidatos:
+        return None
+    return min(candidatos, key=lambda i: i["ts"])
+
+
+def _montar_pedidos(pedidos, estado_raw):
+    saida = []
+    for chave, info in pedidos.items():
+        resposta = _resposta_apos_pedido(chave, info["pedido_ts"], estado_raw)
+        saida.append({
+            "produto": info["produto"],
+            "solicitado_em": datetime.fromtimestamp(info["pedido_ts"]).strftime("%d/%m/%Y %H:%M") if info["pedido_ts"] else "",
+            "respondido": resposta is not None,
+            "respondido_em": datetime.fromtimestamp(resposta["ts"]).strftime("%d/%m/%Y %H:%M") if resposta else None,
+        })
+    saida.sort(key=lambda p: (p["respondido"], p["solicitado_em"]))
+    return saida
 
 
 def _itens_da_mensagem(msg, cache_ia):
@@ -392,6 +521,16 @@ Não tente "salvar" um produto que não existe no catálogo escolhendo o mais
 parecido — devolva null. É preferível ficar sem casar um produto real do
 que casar com um produto diferente do que a pessoa contou.
 
+Exceção: nome em inglês/informal/tradução livre PODE casar, mesmo sem
+bater literalmente, SE for claramente a mesma marca+produto e só existir
+UM candidato plausível no catálogo pra essa combinação (ex: "Jack Daniels
+Guitar Case Gift Pack" casa com "WHISKY JACK DANIELS ED. GUITARRA 700ML"
+— é o único produto Jack Daniels relacionado a "guitarra"/"guitar" no
+catálogo, "guitarra" é só a tradução de "guitar"). Isso NÃO abre exceção
+pras regras acima (marca/cor/volume continuam tendo que bater) — só
+relaxa a exigência de o texto em si bater palavra por palavra quando não
+há ambiguidade de qual produto é.
+
 CATÁLOGO:
 {catalogo_txt}
 
@@ -542,6 +681,9 @@ def main():
         return
 
     estado_raw = _atualizar_estado_raw(mensagens)
+    cache_ia_itens = _carregar_json(IA_PARSE_JSON, {})
+    pedidos_estado = _atualizar_pedidos(mensagens, cache_ia_itens, estado_raw)
+    pedidos = _montar_pedidos(pedidos_estado, estado_raw)
     matches = _atualizar_matches(estado_raw)
     itens = _montar_itens(estado_raw, matches)
 
@@ -549,6 +691,7 @@ def main():
         "atualizado_em": datetime.now().strftime("%d/%m/%Y %H:%M"),
         "fontes_indisponiveis": [],
         "itens": itens,
+        "pedidos": pedidos,
     }
 
     tmp = OUT_JS.with_suffix(".js.tmp")
