@@ -712,7 +712,7 @@ async function baixarDanfe(numped, btn) {
     const doc = new jsPDF({ orientation: 'portrait', unit: 'mm', format: 'a4' });
     d.notas.forEach((nota, i) => {
       if (i > 0) doc.addPage();
-      _construirDanfePagina(doc, nota);
+      _construirDanfePagina(doc, nota, i + 1, d.notas.length);
     });
     doc.save(`danfe_pedido_${numped}.pdf`);
   } catch (e) {
@@ -749,143 +749,270 @@ function _danfeCaixa(doc, x, y, w, h, label, valor, fontSize) {
   doc.text(_trunc(valor ?? '—', 40), x + 1, y + h - 1.5, { maxWidth: w - 2 });
 }
 
-function _construirDanfePagina(doc, n) {
+// Uma linha de N caixas lado a lado dividindo a largura W proporcionalmente
+// aos pesos de cada campo — reaproveita _danfeCaixa, é o que monta as grades
+// de "Destinatário", "Transportador", "Cálculo do Imposto" etc no layout
+// oficial. campos: [[label, valor, peso], ...].
+function _danfeLinha(doc, x0, y, w, h, campos, fontSize) {
+  const totalPeso = campos.reduce((s, c) => s + c[2], 0);
+  let x = x0;
+  campos.forEach(c => {
+    const cw = w * c[2] / totalPeso;
+    _danfeCaixa(doc, x, y, cw, h, c[0], c[1], fontSize);
+    x += cw;
+  });
+}
+
+function _danfeSecao(doc, x, y, texto) {
+  doc.setFontSize(6);
+  doc.setFont(undefined, 'bold');
+  doc.text(texto, x, y);
+  doc.setFont(undefined, 'normal');
+}
+
+// Layout comparado campo a campo contra o DANFE oficial (SEFAZ) do pedido
+// #3810/nota 186120 — pedido do usuário em 2026-09-15. Reconstrói a mesma
+// estrutura: canhoto de recebimento, cabeçalho em 3 colunas (emitente / caixa
+// DANFE / chave de acesso), natureza+IE/CNPJ/protocolo, destinatário em
+// grade de 3 linhas, fatura em colunas horizontais (não mais uma por linha),
+// cálculo do imposto em 2 linhas (5+6 campos, igual ao oficial), transportador
+// em grade de 3 linhas, tabela de itens com V.IPI/Alíq.IPI, ISSQN e dados
+// adicionais com o campo "Reservado ao Fisco" ao lado. VALOR DO SEGURO e
+// OUTRAS DESPESAS ACESSÓRIAS ficam fixos em 0,00: não são colunas hoje
+// consultadas por buscar_dados_nfe.py (SQL_NFE_RODAPE_SAIDA), e não dá pra
+// confirmar se a view expõe isso sem testar contra o Oracle.
+function _construirDanfePagina(doc, n, pagAtual, totalPag) {
   const M = 8;
   const W = 210 - 2 * M;
   let y = M;
 
+  // Canhoto (recibo de recebimento) — tira destacável no topo, igual ao
+  // DANFE oficial.
+  const hCanh1 = 10;
+  const wReceb = W * 0.65;
+  doc.rect(M, y, wReceb, hCanh1);
+  doc.setFontSize(6);
+  doc.text(`RECEBEMOS DE ${_trunc(n.emitente.razao_social, 55)}`, M + 1, y + 3.5, { maxWidth: wReceb - 2 });
+  doc.text('OS PRODUTOS CONSTANTES DA NOTA FISCAL INDICADA AO LADO', M + 1, y + 7.5, { maxWidth: wReceb - 2 });
+  const xNum = M + wReceb;
+  const wNum = W - wReceb;
+  doc.rect(xNum, y, wNum, hCanh1);
+  doc.setFontSize(6);
+  doc.text('NF-e', xNum + wNum / 2, y + 3, { align: 'center' });
   doc.setFontSize(8);
+  doc.setFont(undefined, 'bold');
+  doc.text(`Nº ${n.numero}  Série ${n.serie}`, xNum + wNum / 2, y + 8, { align: 'center' });
+  doc.setFont(undefined, 'normal');
+  y += hCanh1;
+  _danfeLinha(doc, M, y, W, 6, [
+    ['DATA DE RECEBIMENTO', '', 1],
+    ['IDENTIFICAÇÃO E ASSINATURA DO RECEBEDOR', '', 3],
+  ], 5);
+  y += 6 + 1.5;
+  doc.setLineDashPattern([1, 1], 0);
+  doc.line(M, y, M + W, y);
+  doc.setLineDashPattern([], 0);
+  y += 3.5;
+
+  doc.setFontSize(6.5);
   doc.setFont(undefined, 'italic');
   doc.text('DANFE reconstruído a partir do Winthor — conferir contra o portal da SEFAZ se precisar de valor fiscal formal', M, y);
   doc.setFont(undefined, 'normal');
-  y += 5;
+  y += 3.5;
 
-  // Emitente + caixa "DANFE" com chave
+  // Emitente + caixa "DANFE" + chave de acesso/código de barras (3 colunas)
   const hTop = 30;
-  const wEmit = W * 0.58;
-  const wDanfe = W - wEmit - 2;
+  const wEmit = W * 0.46;
+  const wDanfe = W * 0.14;
+  const wChave = W - wEmit - wDanfe;
+
   doc.rect(M, y, wEmit, hTop);
-  doc.setFontSize(8);
+  doc.setFontSize(7.5);
   doc.setFont(undefined, 'bold');
-  doc.text(_trunc(n.emitente.razao_social, 55), M + 2, y + 5, { maxWidth: wEmit - 4 });
+  doc.text('Identificação do Emitente', M + 2, y + 4);
   doc.setFont(undefined, 'normal');
   doc.setFontSize(7);
   [
-    _trunc(`${n.emitente.logradouro}, ${n.emitente.numero}${n.emitente.complemento ? ' - ' + n.emitente.complemento : ''}`, 70),
-    _trunc(`${n.emitente.bairro} - ${n.emitente.municipio}/${n.emitente.uf} - CEP ${n.emitente.cep}`, 70),
-    `CNPJ: ${_formatCnpjCpf(n.emitente.cnpj_cpf)}   IE: ${n.emitente.ie || '—'}`,
-    `Fone: ${n.emitente.telefone || '—'}`,
-  ].forEach((l, i) => doc.text(l, M + 2, y + 10 + i * 4, { maxWidth: wEmit - 4 }));
+    _trunc(n.emitente.razao_social, 55),
+    _trunc(`${n.emitente.logradouro}, ${n.emitente.numero}${n.emitente.complemento ? ' - ' + n.emitente.complemento : ''}`, 65),
+    _trunc(`${n.emitente.bairro} - ${n.emitente.municipio}/${n.emitente.uf} - CEP ${n.emitente.cep}`, 65),
+    `Telefone: ${n.emitente.telefone || '—'}`,
+  ].forEach((l, i) => doc.text(l, M + 2, y + 9 + i * 4.5, { maxWidth: wEmit - 4 }));
 
-  const xDanfe = M + wEmit + 2;
+  const xDanfe = M + wEmit;
   doc.rect(xDanfe, y, wDanfe, hTop);
   doc.setFontSize(11);
   doc.setFont(undefined, 'bold');
   doc.text('DANFE', xDanfe + wDanfe / 2, y + 6, { align: 'center' });
-  doc.setFontSize(6);
   doc.setFont(undefined, 'normal');
-  doc.text('Documento Auxiliar da Nota Fiscal Eletrônica', xDanfe + wDanfe / 2, y + 9.5, { align: 'center', maxWidth: wDanfe - 4 });
-  doc.text('0 - ENTRADA   1 - SAÍDA :  1', xDanfe + wDanfe / 2, y + 13, { align: 'center' });
-  doc.setFontSize(8);
-  doc.text(`Nº ${n.numero}   Série ${n.serie}`, xDanfe + wDanfe / 2, y + 17.5, { align: 'center' });
   doc.setFontSize(5.5);
-  doc.text('Consulta de autenticidade no portal nacional da NF-e, pela chave de acesso:', xDanfe + wDanfe / 2, y + 21, { align: 'center', maxWidth: wDanfe - 4 });
-  doc.setFontSize(6.5);
-  doc.text(String(n.chave || '').replace(/(\d{4})(?=\d)/g, '$1 '), xDanfe + wDanfe / 2, y + 25, { align: 'center' });
+  doc.text('Documento Auxiliar da Nota Fiscal Eletrônica', xDanfe + wDanfe / 2, y + 10, { align: 'center', maxWidth: wDanfe - 3 });
+  doc.rect(xDanfe + 3, y + 13, wDanfe - 6, 7);
+  doc.setFontSize(5.5);
+  doc.text('0 - ENTRADA', xDanfe + wDanfe / 2, y + 15.5, { align: 'center' });
+  doc.setFontSize(9);
+  doc.setFont(undefined, 'bold');
+  doc.text('1 - SAÍDA : 1', xDanfe + wDanfe / 2, y + 19.5, { align: 'center' });
+  doc.setFont(undefined, 'normal');
+  doc.setFontSize(7);
+  doc.text(`Nº. ${n.numero}`, xDanfe + wDanfe / 2, y + 24, { align: 'center' });
+  doc.text(`Série ${n.serie}`, xDanfe + wDanfe / 2, y + 27, { align: 'center' });
+  doc.setFontSize(6);
+  doc.text(`FL ${pagAtual} de ${totalPag}`, xDanfe + wDanfe / 2, y + 29.5, { align: 'center' });
 
-  y += hTop + 2;
-
-  // Código de barras Code128C da chave de acesso (padrão exigido pro DANFE)
-  const hBar = 13;
-  doc.rect(M, y, W, hBar);
+  const xChave = xDanfe + wDanfe;
+  doc.rect(xChave, y, wChave, hTop);
   try {
     const canvas = document.createElement('canvas');
     JsBarcode(canvas, String(n.chave || ''), { format: 'CODE128C', displayValue: false, margin: 0, height: 40 });
-    doc.addImage(canvas.toDataURL('image/png'), 'PNG', M + 2, y + 1.5, 95, hBar - 3);
+    doc.addImage(canvas.toDataURL('image/png'), 'PNG', xChave + 2, y + 2, wChave - 4, 10);
   } catch (e) { /* sem código de barras não impede o resto do DANFE */ }
+  doc.setFontSize(6);
+  doc.setFont(undefined, 'bold');
+  doc.text('CHAVE DE ACESSO', xChave + wChave / 2, y + 15, { align: 'center' });
+  doc.setFont(undefined, 'normal');
   doc.setFontSize(6.5);
-  doc.text(`Protocolo de autorização de uso:`, M + 100, y + 5);
-  doc.text(`${n.protocolo || '—'}  em  ${n.dthora_autorizacao || '—'}`, M + 100, y + 9.5);
-  y += hBar + 2;
+  doc.text(String(n.chave || '').replace(/(\d{4})(?=\d)/g, '$1 '), xChave + wChave / 2, y + 19, { align: 'center', maxWidth: wChave - 4 });
+  doc.setFontSize(5.5);
+  doc.text('Consulta de autenticidade no portal nacional da', xChave + wChave / 2, y + 24, { align: 'center', maxWidth: wChave - 4 });
+  doc.text('NF-e www.nfe.fazenda.gov.br/portal', xChave + wChave / 2, y + 27.5, { align: 'center', maxWidth: wChave - 4 });
 
-  _danfeCaixa(doc, M, y, W, 9, 'NATUREZA DA OPERAÇÃO', n.natureza_operacao, 7);
+  y += hTop + 2;
+
+  // Natureza da operação + IE / IE Subst. Tributário / CNPJ / Protocolo
+  doc.rect(M, y, W, 8);
+  doc.setFontSize(5.5);
+  doc.text('NATUREZA DA OPERAÇÃO', M + 1, y + 2.5);
+  doc.setFontSize(7);
+  doc.text(_trunc(n.natureza_operacao, 70), M + 1, y + 6.5, { maxWidth: W - 2 });
+  y += 8;
+  _danfeLinha(doc, M, y, W, 9, [
+    ['INSCRIÇÃO ESTADUAL', n.emitente.ie, 1],
+    ['INSC. EST. DO SUBST. TRIBUTÁRIO', '—', 1],
+    ['CNPJ', _formatCnpjCpf(n.emitente.cnpj_cpf), 1],
+    ['PROTOCOLO DE AUTORIZAÇÃO (DATA E HORA)', `${n.protocolo || '—'}  ${n.dthora_autorizacao || ''}`, 2],
+  ], 5.5);
   y += 9 + 2;
 
-  // Destinatário / Remetente
-  const hDest = 22;
+  // Destinatário / Remetente — 3 linhas, igual ao formulário oficial
+  _danfeSecao(doc, M, y, 'DESTINATÁRIO / REMETENTE');
+  y += 2.5;
   const d = n.destinatario;
-  doc.rect(M, y, W, hDest);
-  doc.setFontSize(6);
-  doc.setFont(undefined, 'bold');
-  doc.text('DESTINATÁRIO / REMETENTE', M + 1, y + 3);
-  doc.setFont(undefined, 'normal');
-  doc.setFontSize(7);
-  doc.text(`${_trunc(d.razao_social, 60)}   CNPJ/CPF: ${_formatCnpjCpf(d.cnpj_cpf)}`, M + 1, y + 8, { maxWidth: W - 2 });
-  doc.text(_trunc(`${d.logradouro}, ${d.numero}${d.complemento ? ' - ' + d.complemento : ''} - ${d.bairro}`, 100), M + 1, y + 12.5, { maxWidth: W - 2 });
-  doc.text(`${d.municipio}/${d.uf} - CEP ${d.cep}   IE: ${d.ie || '—'}   Fone: ${d.telefone || '—'}`, M + 1, y + 17, { maxWidth: W - 2 });
-  doc.text(`Emissão: ${n.data_emissao || '—'}   Saída: ${n.data_saida || '—'} ${n.hora_saida || ''}`, M + 1, y + 21, { maxWidth: W - 2 });
-  y += hDest + 2;
+  const hDestLinha = 7;
+  _danfeLinha(doc, M, y, W, hDestLinha, [
+    ['NOME/RAZÃO SOCIAL', _trunc(d.razao_social, 55), 3],
+    ['CNPJ/CPF', _formatCnpjCpf(d.cnpj_cpf), 1],
+    ['DATA DA EMISSÃO', n.data_emissao, 1],
+  ], 5);
+  y += hDestLinha;
+  _danfeLinha(doc, M, y, W, hDestLinha, [
+    ['LOGRADOURO', _trunc(d.logradouro, 40), 2.4],
+    ['NÚMERO', d.numero, 0.6],
+    ['COMPLEMENTO', d.complemento, 0.9],
+    ['BAIRRO/DISTRITO', _trunc(d.bairro, 20), 1.3],
+    ['DATA DA ENTRADA/SAÍDA', n.data_saida, 1],
+  ], 5);
+  y += hDestLinha;
+  _danfeLinha(doc, M, y, W, hDestLinha, [
+    ['CEP', d.cep, 0.8],
+    ['MUNICÍPIO', _trunc(d.municipio, 25), 1.3],
+    ['TELEFONE/FAX', d.telefone, 1],
+    ['UF', d.uf, 0.5],
+    ['INSCRIÇÃO ESTADUAL', d.ie, 1],
+    ['HORA DE SAÍDA', n.hora_saida, 0.8],
+  ], 5);
+  y += hDestLinha + 2;
 
-  // Fatura/Duplicata — seção que faltava no DANFE reconstruído (pedido do
-  // usuário em 2026-09-14, comparando contra o modelo oficial). Uma linha
-  // por parcela (nº/vencimento/valor); nota à vista sem parcelamento pode
-  // não ter nenhuma linha em SQL_NFE_PARCELA_SAIDA_* — nesse caso pula a
-  // caixa inteira, mesmo padrão de "Informações Complementares" abaixo.
+  // Fatura/Duplicata — em colunas lado a lado (até 7 por linha), igual ao
+  // modelo oficial, não mais uma parcela por linha. Nota à vista sem
+  // parcelamento pode não ter nenhuma linha em SQL_NFE_PARCELA_SAIDA_* —
+  // nesse caso pula a caixa inteira.
   const fatura = n.fatura || [];
   if (fatura.length) {
-    const hFat = 4 + fatura.length * 4;
-    doc.rect(M, y, W, hFat);
-    doc.setFontSize(6);
-    doc.setFont(undefined, 'bold');
-    doc.text('FATURA', M + 1, y + 3);
-    doc.setFontSize(6.5);
-    fatura.forEach((f, i) => {
-      const yLinha = y + 3 + (i + 1) * 4;
-      doc.setFont(undefined, 'bold');
-      doc.text(String(f.prestacao ?? i + 1), M + 1, yLinha);
-      doc.setFont(undefined, 'normal');
-      doc.text(f.vencimento || '—', M + 16, yLinha);
-      doc.text(_brlNum(f.valor), M + 40, yLinha);
-    });
-    y += hFat + 2;
+    _danfeSecao(doc, M, y, 'FATURA');
+    y += 2.5;
+    const porLinha = 7;
+    const hFatLinha = 8;
+    for (let i = 0; i < fatura.length; i += porLinha) {
+      const grupo = fatura.slice(i, i + porLinha);
+      const wSlot = W / porLinha;
+      grupo.forEach((f, idx) => {
+        const x = M + idx * wSlot;
+        doc.rect(x, y, wSlot, hFatLinha);
+        doc.setFontSize(5);
+        doc.text('Nº      Venc.      Valor', x + 1, y + 2.5, { maxWidth: wSlot - 2 });
+        doc.setFontSize(6.5);
+        doc.text(`${f.prestacao ?? idx + 1}  ${f.vencimento || '—'}  ${_brlNum(f.valor)}`, x + 1, y + hFatLinha - 1.5, { maxWidth: wSlot - 2 });
+      });
+      y += hFatLinha;
+    }
+    y += 2;
   }
 
-  // Cálculo do imposto
+  // Cálculo do imposto — 2 linhas (5 + 6 campos), igual ao layout oficial
   const t = n.totais;
-  const camposImposto = [
-    ['BASE ICMS', _brlNum(t.base_icms)], ['VALOR ICMS', _brlNum(t.valor_icms)],
-    ['BASE ICMS ST', _brlNum(t.base_icms_st)], ['VALOR ICMS ST', _brlNum(t.valor_icms_st)],
-    ['VALOR IPI', _brlNum(t.valor_ipi)], ['VALOR FRETE', _brlNum(t.valor_frete)],
-    ['DESCONTO', _brlNum(t.valor_desconto)], ['TOTAL PRODUTOS', _brlNum(t.valor_produtos)],
-    ['TOTAL DA NOTA', _brlNum(t.valor_total)],
-  ];
-  const hImp = 11;
-  const wImp = W / camposImposto.length;
-  camposImposto.forEach((c, i) => _danfeCaixa(doc, M + i * wImp, y, wImp, hImp, c[0], c[1], 6.5));
+  _danfeSecao(doc, M, y, 'CÁLCULO DO IMPOSTO');
+  y += 2.5;
+  const hImp = 9;
+  _danfeLinha(doc, M, y, W, hImp, [
+    ['BASE DE CÁLCULO DO ICMS', _brlNum(t.base_icms), 1],
+    ['VALOR DO ICMS', _brlNum(t.valor_icms), 1],
+    ['BASE DE CÁLCULO DO ICMS ST', _brlNum(t.base_icms_st), 1],
+    ['VALOR DO ICMS SUBSTITUIÇÃO', _brlNum(t.valor_icms_st), 1],
+    ['VALOR TOTAL DOS PRODUTOS', _brlNum(t.valor_produtos), 1],
+  ], 5);
+  y += hImp;
+  _danfeLinha(doc, M, y, W, hImp, [
+    ['VALOR DO FRETE', _brlNum(t.valor_frete), 1],
+    ['VALOR DO SEGURO', '0,00', 1],
+    ['VALOR DO DESCONTO', _brlNum(t.valor_desconto), 1],
+    ['OUTRAS DESPESAS ACESSÓRIAS', '0,00', 1],
+    ['VALOR DO IPI', _brlNum(t.valor_ipi), 1],
+    ['VALOR TOTAL DA NOTA', _brlNum(t.valor_total), 1],
+  ], 5);
   y += hImp + 2;
 
-  // Transportador / Volumes
+  // Transportador / Volumes transportados — 3 linhas, igual ao oficial
   const tr = n.transportador;
-  const hTr = 10;
-  doc.rect(M, y, W, hTr);
-  doc.setFontSize(6);
-  doc.setFont(undefined, 'bold');
-  doc.text('TRANSPORTADOR / VOLUMES', M + 1, y + 3);
-  doc.setFont(undefined, 'normal');
-  doc.setFontSize(6.5);
-  doc.text(_trunc(
-    `${tr.nome || '—'}   CNPJ: ${_formatCnpjCpf(tr.cnpj)}   ${tr.municipio}/${tr.uf}   ` +
-    `Placa: ${tr.placa || '—'}${tr.placa_uf ? '/' + tr.placa_uf : ''}   Volumes: ${tr.volumes || 0}   ` +
-    `Peso bruto: ${_qt(tr.peso_bruto)} kg   Peso líquido: ${_qt(tr.peso_liquido)} kg`,
-    150), M + 1, y + 8, { maxWidth: W - 2 });
-  y += hTr + 2;
+  _danfeSecao(doc, M, y, 'TRANSPORTADOR / VOLUMES TRANSPORTADOS');
+  y += 2.5;
+  const hTrLinha = 7;
+  _danfeLinha(doc, M, y, W, hTrLinha, [
+    ['NOME/RAZÃO SOCIAL', _trunc(tr.nome, 45), 2.6],
+    ['FRETE POR CONTA', tr.frete_por_conta, 1],
+    ['CÓDIGO ANTT', '—', 0.8],
+    ['PLACA DO VEÍCULO', tr.placa, 0.8],
+    ['UF', tr.placa_uf, 0.5],
+    ['CNPJ/CPF', _formatCnpjCpf(tr.cnpj), 1.3],
+  ], 5);
+  y += hTrLinha;
+  _danfeLinha(doc, M, y, W, hTrLinha, [
+    ['LOGRADOURO', _trunc(tr.endereco, 55), 3],
+    ['MUNICÍPIO', _trunc(tr.municipio, 30), 1.6],
+    ['UF', tr.uf, 0.5],
+    ['INSCRIÇÃO ESTADUAL', '—', 1],
+  ], 5);
+  y += hTrLinha;
+  _danfeLinha(doc, M, y, W, hTrLinha, [
+    ['QUANTIDADE', tr.volumes, 1],
+    ['ESPÉCIE', '—', 1],
+    ['MARCA', '—', 1],
+    ['NUMERAÇÃO', '—', 1],
+    ['PESO BRUTO', _qt(tr.peso_bruto), 1],
+    ['PESO LÍQUIDO', _qt(tr.peso_liquido), 1],
+  ], 5);
+  y += hTrLinha + 2;
 
-  // Tabela de itens
+  // Tabela de itens — inclui V.IPI e Alíq.IPI que faltavam (dado já vinha
+  // de buscar_dados_nfe.py mas não era exibido)
+  _danfeSecao(doc, M, y, 'DADOS DO PRODUTO/SERVIÇOS');
+  y += 2.5;
   const colunas = [
-    { label: 'Código', w: 14 }, { label: 'Descrição', w: 58 }, { label: 'NCM', w: 18 },
-    { label: 'CST', w: 10 }, { label: 'CFOP', w: 12 }, { label: 'Un', w: 9 },
-    { label: 'Qtd', w: 13 }, { label: 'Vl. Unit.', w: 18 }, { label: 'Vl. Total', w: 19 },
-    { label: 'Bc ICMS', w: 18 }, { label: 'Vl ICMS', w: 16 }, { label: '%ICMS', w: 9 },
+    { label: 'Código', w: 8 }, { label: 'Descrição do Produto/Serviço', w: 38 },
+    { label: 'NCM/SH', w: 12 }, { label: 'CST', w: 7 }, { label: 'CFOP', w: 8 },
+    { label: 'Und', w: 7 }, { label: 'Qtd', w: 11 }, { label: 'V. Unit.', w: 12 },
+    { label: 'V. Total', w: 13 }, { label: 'BC ICMS', w: 12 }, { label: 'V. ICMS', w: 11 },
+    { label: 'V. IPI', w: 10 }, { label: '%ICMS', w: 8 }, { label: '%IPI', w: 8 },
   ];
   const totalColW = colunas.reduce((s, c) => s + c.w, 0);
   const escala = W / totalColW;
@@ -907,23 +1034,55 @@ function _construirDanfePagina(doc, n) {
 
   doc.setFontSize(6);
   (n.itens || []).forEach(it => {
-    if (y + 5 > 297 - 15) { doc.addPage(); y = M; }
+    if (y + 5 > 297 - 20) { doc.addPage(); y = M; }
     _linhaTabela([
-      it.codigo, _trunc(it.descricao, 34), it.ncm, it.cst, it.cfop, it.unidade,
+      it.codigo, _trunc(it.descricao, 32), it.ncm, it.cst, it.cfop, it.unidade,
       _qt(it.quantidade), _brlNum(it.valor_unitario), _brlNum(it.valor_total),
-      _brlNum(it.base_icms), _brlNum(it.valor_icms), `${_qt(it.aliquota_icms)}%`,
+      _brlNum(it.base_icms), _brlNum(it.valor_icms), _brlNum(it.valor_ipi),
+      `${_qt(it.aliquota_icms)}%`, `${_qt(it.aliquota_ipi)}%`,
     ], false, 5);
   });
-  y += 3;
+  y += 2;
+  doc.setFontSize(6);
+  doc.setFont(undefined, 'bold');
+  doc.text('FIM DOS PRODUTOS', M, y + 2);
+  doc.setFont(undefined, 'normal');
+  y += 6;
 
-  if (n.informacoes_complementares) {
-    if (y + 10 > 297 - 10) { doc.addPage(); y = M; }
-    doc.setFontSize(6.5);
-    doc.setFont(undefined, 'bold');
-    doc.text('INFORMAÇÕES COMPLEMENTARES', M, y);
-    doc.setFont(undefined, 'normal');
-    doc.text(_trunc(n.informacoes_complementares, 300), M, y + 4, { maxWidth: W });
-  }
+  // Cálculo do ISSQN — seção sempre presente no layout oficial, mesmo sem
+  // prestação de serviço (não há colunas de ISSQN em buscar_dados_nfe.py
+  // hoje, então fica em branco/zerado)
+  if (y + 15 > 297 - 15) { doc.addPage(); y = M; }
+  _danfeSecao(doc, M, y, 'CÁLCULO DO ISSQN');
+  y += 2.5;
+  _danfeLinha(doc, M, y, W, 8, [
+    ['INSCRIÇÃO MUNICIPAL', '—', 1],
+    ['VALOR TOTAL DOS SERVIÇOS', '0,00', 1],
+    ['BASE DE CÁLCULO DE ISSQN', '0,00', 1],
+    ['VALOR DO ISSQN', '0,00', 1],
+  ], 5);
+  y += 8 + 2;
+
+  // Dados adicionais — informações complementares + "Reservado ao Fisco" ao
+  // lado, igual ao layout oficial. Altura calculada pelo texto de verdade
+  // (INFORMACAOADICIONALFISCO costuma ter bem mais linhas do que cabia na
+  // caixa fixa de 24mm — texto estourava a borda; pedido do usuário em
+  // 2026-09-15, comparando contra o pedido #3810 que tem 9 linhas).
+  _danfeSecao(doc, M, y, 'DADOS ADICIONAIS');
+  y += 2.5;
+  const wComp = W * 0.72;
+  doc.setFontSize(6.5);
+  const linhasComp = doc.splitTextToSize(String(n.informacoes_complementares || ''), wComp - 2);
+  const hAdic = Math.max(24, 8 + linhasComp.length * 3.5);
+  if (y + hAdic > 297 - 10) { doc.addPage(); y = M; }
+  doc.rect(M, y, wComp, hAdic);
+  doc.setFontSize(5.5);
+  doc.text('INFORMAÇÕES COMPLEMENTARES', M + 1, y + 2.5);
+  doc.setFontSize(6.5);
+  doc.text(linhasComp, M + 1, y + 6);
+  doc.rect(M + wComp, y, W - wComp, hAdic);
+  doc.setFontSize(5.5);
+  doc.text('RESERVADO AO FISCO', M + wComp + 1, y + 2.5);
 }
 
 function _qt(v) {

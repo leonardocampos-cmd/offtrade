@@ -237,6 +237,7 @@ def buscar(numpeds):
             "transportador": {
                 "nome": _txt(r.get("TRANSPORTADOR")),
                 "cnpj": _cnpj_cpf(r.get("CNPJ_TRANSPORTADOR")),
+                "frete_por_conta": _txt(r.get("MODALIDADE_FRETE")),
                 "endereco": _txt(r.get("END_TRANSPORTADOR")),
                 "municipio": _txt(r.get("CIDADE_TRANSPORTADOR")),
                 "uf": _txt(r.get("ESTADO_TRANSPORTADOR")),
