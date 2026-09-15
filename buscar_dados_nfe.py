@@ -85,6 +85,52 @@ def _first(*vals):
     return None
 
 
+# Códigos padrão de MODALIDADE_FRETE (Winthor/NFe) — o DANFE oficial mostra
+# "0 - Remetente" etc, não só o código cru.
+_MODALIDADE_FRETE = {
+    "0": "Remetente", "1": "Destinatário", "2": "Terceiros",
+    "3": "Remetente (próprio)", "4": "Destinatário (próprio)", "9": "Sem transporte",
+}
+
+
+def _frete_por_conta(v):
+    codigo = _int_str(v)
+    if not codigo:
+        return ""
+    rotulo = _MODALIDADE_FRETE.get(codigo, "")
+    return f"{codigo} - {rotulo}" if rotulo else codigo
+
+
+# INFORMACAOADICIONALFISCO (SQL_NFE_RODAPE_SAIDA) costuma vir NULL — o bloco
+# "PEDIDO/CARREGAMENTO/CLIENTE/RCA/..." do DANFE oficial não é lido desse
+# campo, é composto pelo relatório do Winthor a partir de outras colunas que
+# já vêm em cab/rod. Confirmado 2026-09-15 consultando direto o Oracle pro
+# pedido #3810: INFORMACAOADICIONALFISCO = None, mas NUM_PEDIDO_CLI/RCA/
+# TIPO_COBRANCA/DESTINOCARGA (cab) e NUMCAR/NOME_MOTORISTA (rod) batem com o
+# texto do DANFE oficial. Não reproduz o parágrafo de exclusão do ICMS da
+# base do PIS/COFINS (texto legal fixo do Winthor, sem coluna correspondente
+# — não dá pra confirmar a regra exata sem arriscar errar o texto fiscal).
+def _montar_informacoes_complementares(c, r):
+    linhas = []
+    texto_fiscal = _txt(r.get("INFORMACAOADICIONALFISCO"))
+    if texto_fiscal:
+        linhas.append(texto_fiscal)
+    linhas.append(
+        f"PEDIDO: {_int_str(c.get('NUM_PEDIDO'))} / CARREGAMENTO: {_int_str(r.get('NUMCAR'))} / "
+        f"CLIENTE: {_int_str(c.get('CODIGO_CLI'))}"
+    )
+    if not _vazio(c.get("RCA")):
+        linhas.append(f"RCA: {_int_str(c.get('RCA'))}")
+    linhas.append(f"NUM TRANSACAO: {_int_str(c.get('NUM_TRANSACAO'))} / COD COBRANCA: {_txt(c.get('TIPO_COBRANCA'))}")
+    if not _vazio(r.get("NOME_MOTORISTA")):
+        linhas.append(f"MOTORISTA: {_txt(r.get('NOME_MOTORISTA'))}")
+    if not _vazio(c.get("NUM_PEDIDO_CLI")):
+        linhas.append(_txt(c.get("NUM_PEDIDO_CLI")))
+    if not _vazio(c.get("DESTINOCARGA")):
+        linhas.append(f"ROTA = {_txt(c.get('DESTINOCARGA'))}")
+    return "\n".join(linhas)
+
+
 def _bloco_endereco(row, sufixo):
     return {
         "cnpj_cpf": _cnpj_cpf(_first(row.get(f"CNPJ_{sufixo}"), row.get(f"CNPJ_CPF_{sufixo}"))),
@@ -135,7 +181,8 @@ def buscar(numpeds):
                    VALOR_IPI, VALOR_TOTAL, BASE_ICMS, VALOR_ICMS, BASE_ICMS_ST, VALOR_ICMS_ST,
                    INFORMACAOADICIONALFISCO, TRANSPORTADOR, CNPJ_TRANSPORTADOR,
                    END_TRANSPORTADOR, CIDADE_TRANSPORTADOR, ESTADO_TRANSPORTADOR,
-                   MODALIDADE_FRETE, PLACA, PLACA_UF, NUM_VOLUME, PESO_BRUTO, PESO_LIQUIDO
+                   MODALIDADE_FRETE, PLACA, PLACA_UF, NUM_VOLUME, NUM_VOLUME_EMB,
+                   PESO_BRUTO, PESO_LIQUIDO, NUMCAR, NOME_MOTORISTA
             FROM SPON.SQL_NFE_RODAPE_SAIDA WHERE NUM_TRANSACAO IN ({lista_trans})""",
         engine_spon, "nfe_rodape",
     )
@@ -237,17 +284,20 @@ def buscar(numpeds):
             "transportador": {
                 "nome": _txt(r.get("TRANSPORTADOR")),
                 "cnpj": _cnpj_cpf(r.get("CNPJ_TRANSPORTADOR")),
-                "frete_por_conta": _txt(r.get("MODALIDADE_FRETE")),
+                "frete_por_conta": _frete_por_conta(r.get("MODALIDADE_FRETE")),
                 "endereco": _txt(r.get("END_TRANSPORTADOR")),
                 "municipio": _txt(r.get("CIDADE_TRANSPORTADOR")),
                 "uf": _txt(r.get("ESTADO_TRANSPORTADOR")),
                 "placa": _txt(r.get("PLACA")),
                 "placa_uf": _txt(r.get("PLACA_UF")),
-                "volumes": _int_str(r.get("NUM_VOLUME")),
+                # QUANTIDADE do DANFE oficial é NUM_VOLUME_EMB (nº de volumes
+                # embalados), não NUM_VOLUME — confirmado 2026-09-15 no
+                # pedido #3810: NUM_VOLUME=1 mas o DANFE mostra 120.
+                "volumes": _int_str(_first(r.get("NUM_VOLUME_EMB"), r.get("NUM_VOLUME"))),
                 "peso_bruto": _num(r.get("PESO_BRUTO")) or 0.0,
                 "peso_liquido": _num(r.get("PESO_LIQUIDO")) or 0.0,
             },
-            "informacoes_complementares": _txt(r.get("INFORMACAOADICIONALFISCO")),
+            "informacoes_complementares": _montar_informacoes_complementares(c, r),
         })
 
     return {"ok": True, "notas": notas}
