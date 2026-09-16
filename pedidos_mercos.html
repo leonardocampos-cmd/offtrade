@@ -173,6 +173,7 @@
     .status-montado { background: rgba(124,134,255,.15); color: var(--blue); }
     .status-cliente_nao_cadastrado { background: rgba(168,85,247,.18); color: #c084fc; }
     .status-cancelado, .status-cancelado_spon { background: rgba(148,163,184,.18); color: var(--muted); text-decoration: line-through; }
+    .status-nao_consta_mercos { background: rgba(234,179,8,.15); color: #eab308; }
     .status-indisponivel { background: var(--card2); color: var(--muted); }
     .spon-info { font-size: .72rem; color: var(--muted); margin-top: 2px; }
     .inadimplente-badge {
@@ -302,6 +303,7 @@ const STATUS_LABEL = {
   cliente_nao_cadastrado: 'Cliente não cadastrado',
   cancelado: 'Cancelado no Mercos',
   cancelado_spon: 'Cancelado no SPON',
+  nao_consta_mercos: 'Não consta no Mercos',
   indisponivel: 'Indisponível',
 };
 
@@ -313,6 +315,7 @@ const STATUS_OPTIONS = [
   ['cliente_nao_cadastrado', 'Cliente não cadastrado no SPON'],
   ['cancelado', 'Cancelado no Mercos'],
   ['cancelado_spon', 'Cancelado no SPON'],
+  ['nao_consta_mercos', 'Não consta no Mercos'],
 ];
 
 let _ordem = { campo: 'data', asc: false };
@@ -539,6 +542,8 @@ function aplicarFiltro() {
         aviso = `<p style="color:var(--muted);font-size:.85rem;padding:0 4px 8px">Pedido cancelado no Mercos — sem detalhamento de itens disponível (a Mercos não exporta produtos de pedidos cancelados).</p>`;
       } else if (p.status_spon === 'cancelado_spon') {
         aviso = `<p style="color:var(--muted);font-size:.85rem;padding:0 4px 8px">Pedido cancelado no SPON (Winthor)${p.motivo_cancelamento ? ' — motivo: ' + _esc(p.motivo_cancelamento) : ''}.${p.cliente === 'Cliente não identificado' ? ' Cliente não identificado (a fonte desse dado no Winthor não guarda o cliente).' : ''}</p>`;
+      } else if (p.status_spon === 'nao_consta_mercos') {
+        aviso = `<p style="color:var(--muted);font-size:.85rem;padding:0 4px 8px">Pedido faturado no SPON (Winthor) mas não encontrado nos relatórios da Mercos — não foi lançado pelo app da Mercos${p.observacao ? '. ' + _esc(p.observacao) : '.'}</p>`;
       }
       html += `<tr class="linha-itens"><td colspan="13"><div class="itens-wrap">
         ${aviso}
@@ -585,6 +590,9 @@ function _statusBadge(p) {
   if (p.status_spon === 'cancelado_spon' && p.motivo_cancelamento) {
     badge += `<div class="spon-info">${_esc(p.motivo_cancelamento)}${p.cancelado_por ? ' · ' + _esc(p.cancelado_por) : ''}</div>`;
   }
+  if (p.status_spon === 'nao_consta_mercos' && p.valor_spon !== null && p.valor_spon !== undefined) {
+    badge += `<div class="spon-info">SPON: ${brl(p.valor_spon)}</div>`;
+  }
   return badge;
 }
 
@@ -622,6 +630,9 @@ function _itemStatusBadge(p, ic) {
   if (p.status_spon === 'cancelado_spon') {
     return '<span class="status status-cancelado_spon">Cancelado</span>';
   }
+  if (p.status_spon === 'nao_consta_mercos') {
+    return '<span class="status status-integral">Faturado</span>';
+  }
   return '<span class="status status-nao_encontrado" style="opacity:.7">Sem dado no SPON</span>';
 }
 
@@ -633,6 +644,7 @@ function _itemStatusTexto(p, ic) {
   if (STATUS_COM_COMPARACAO.includes(p.status_spon)) return 'OK';
   if (p.status_spon === 'montado') return 'Aguardando faturamento';
   if (p.status_spon === 'cancelado_spon') return 'Cancelado';
+  if (p.status_spon === 'nao_consta_mercos') return 'Faturado';
   return 'Sem dado no SPON';
 }
 

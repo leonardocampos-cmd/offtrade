@@ -296,6 +296,75 @@ def _fmt_data_spon(dt):
     return pd.Timestamp(dt).strftime("%d/%m/%Y")
 
 
+def _carregar_pedidos_sem_vinculo_mercos():
+    """Pedido do canal W.S (integração Mercos->Winthor) sem PCPEDC.NUMPEDCLI
+    preenchido — investigado em 2026-09-16 a pedido do usuário (NUMPED
+    588003629, cliente NOSSA ADEGA): não é um "não encontrado" (que veio do
+    Mercos mas ainda não foi casado) nem um cancelado — é um pedido que
+    nunca existiu nos relatórios da Mercos (conferido por CNPJ e por nome em
+    Vendas detalhadas.xls/relatorio*.xls, zero ocorrência). Sem NUMPEDCLI
+    pra casar, _cruzar_com_spon nunca teria como achar esse NUMPED
+    (RE_NUMPEDCLI só roda em cima do que a Mercos mandou) — aqui ele vira
+    pedido próprio com status_spon="nao_consta_mercos", montado 100% a
+    partir do Winthor (cliente/itens/valor), pra não ficar invisível na
+    página. Exclui POSICAO='C' porque cancelado sem NUMPEDCLI já aparece
+    via _carregar_cancelados_spon/PCNFCANITEM (órfão)."""
+    query = f"""
+        SELECT PED.NUMPED, PED.CODPROD, PED.DESCRICAO, PED.QT, PED.PVENDA, PED.TOTAL,
+               PED.NUMNOTA, PED.DATA, PED.CODUSUR, PED.CLIENTE, PED.CODCLI,
+               PC.MOTIVOPOSICAO, C.CGCENT
+        FROM SPON.PBI_PCPEDI PED
+        LEFT JOIN SPON.PCPEDC PC ON PC.NUMPED = PED.NUMPED
+        LEFT JOIN SPON.PCCLIENT C ON C.CODCLI = PED.CODCLI
+        WHERE PED.NOME = 'W.S'
+          AND PED.DATA >= DATE '{DATA_INICIAL}'
+          AND PC.NUMPEDCLI IS NULL
+          AND NVL(PC.POSICAO, 'X') != 'C'
+    """
+    try:
+        df = carregar_dados(query, engine_spon, "spon_ws_sem_numpedcli")
+    except Exception as e:
+        print(f"[AVISO] pedidos SPON sem vinculo Mercos indisponivel ({str(e)[:100]}) — ignorado")
+        return []
+    if df.empty:
+        return []
+    df.columns = df.columns.str.upper()
+
+    pedidos = []
+    for numped, grupo in df.groupby("NUMPED"):
+        itens = [{
+            "codprod": str(int(r["CODPROD"])) if pd.notna(r["CODPROD"]) else "",
+            "descricao": r["DESCRICAO"] or "",
+            "qt": float(r["QT"] or 0),
+            "preco_liquido": round(float(r["PVENDA"] or 0), 2),
+            "subtotal": round(float(r["TOTAL"] or 0), 2),
+        } for _, r in grupo.iterrows()]
+        primeira = grupo.iloc[0]
+        numped_str = str(int(numped))
+        cnpj = re.sub(r"\D", "", str(primeira["CGCENT"])) if pd.notna(primeira["CGCENT"]) else ""
+        numnotas = sorted({str(int(n)) for n in grupo["NUMNOTA"].dropna().tolist()})
+        subtotal = round(sum(it["subtotal"] for it in itens), 2)
+        pedidos.append({
+            "numped": numped_str,
+            "data": _fmt_data_spon(primeira["DATA"]),
+            "cod_vendedor": str(int(primeira["CODUSUR"])) if pd.notna(primeira["CODUSUR"]) else "",
+            "vendedor": "",
+            "cnpj": cnpj,
+            "cliente": str(primeira["CLIENTE"]).strip() if pd.notna(primeira["CLIENTE"]) else "Cliente não identificado",
+            "representada": "SPON DISTRIBUIDORA",
+            "itens": itens,
+            "subtotal_pedido": subtotal,
+            "qt_pedido": sum(it["qt"] for it in itens),
+            "status_spon": "nao_consta_mercos",
+            "valor_spon": subtotal,
+            "numped_spon": [numped_str],
+            "numnota_spon": numnotas,
+            "itens_cortados": [],
+            "observacao": str(primeira["MOTIVOPOSICAO"]).strip() if pd.notna(primeira["MOTIVOPOSICAO"]) else "",
+        })
+    return pedidos
+
+
 def _casar_cancelados_spon_com_mercos(lista_pedidos, cancelados_spon):
     """Casa cada cancelado do SPON (sem cliente) de volta pro pedido MERCOS
     original (com cliente, vendedor etc.) por ASSINATURA de item — conjunto
@@ -729,6 +798,12 @@ def main():
     if orfaos_spon:
         print(f"{len(orfaos_spon)} pedido(s) cancelado(s) no SPON sem pedido Mercos correspondente (fica so com o NUMPED do SPON)")
     lista_pedidos += orfaos_spon
+    numpeds_existentes.update(c["numped"] for c in orfaos_spon)
+
+    sem_vinculo = [c for c in _carregar_pedidos_sem_vinculo_mercos() if c["numped"] not in numpeds_existentes]
+    if sem_vinculo:
+        print(f"{len(sem_vinculo)} pedido(s) do SPON sem NUMPEDCLI incluido(s) (nao consta no Mercos)")
+    lista_pedidos += sem_vinculo
 
     _anexar_inadimplencia(lista_pedidos)
 
