@@ -162,7 +162,7 @@
         <th style="width:18px"></th>
         <th onclick="ordenarPor('numped')">Pedido</th>
         <th class="hide-mob" onclick="ordenarPor('sistema')">Sistema</th>
-        <th class="hide-mob" onclick="ordenarPor('estado')">UF</th>
+        <th onclick="ordenarPor('margem')">Margem</th>
         <th onclick="ordenarPor('vendedor')">Vendedor</th>
         <th class="hide-mob" onclick="ordenarPor('cliente')">Cliente</th>
         <th onclick="ordenarPor('posicao')">Posição</th>
@@ -171,7 +171,7 @@
         <th onclick="ordenarPor('preco_tabela')">Preço de Tabela (Total)</th>
         <th onclick="ordenarPor('diferenca')">Diferença (Total)</th>
         <th onclick="ordenarPor('custo')">Custo (Total)</th>
-        <th onclick="ordenarPor('margem')">Margem</th>
+        <th class="hide-mob" onclick="ordenarPor('estado')">UF</th>
         <th class="hide-mob" onclick="ordenarPor('data_ord')">Data/Hora</th>
         <th class="hide-mob">Motivo</th>
         <th class="hide-mob" onclick="ordenarPor('liberado_por')">Liberado por</th>
@@ -327,7 +327,7 @@ function aplicarFiltro() {
       <td><span class="expand-icon">${temVariosItens ? (aberto ? '▾' : '▸') : ''}</span></td>
       <td class="cod">${_esc(p.numped)}</td>
       <td class="cod hide-mob">${_esc(p.sistema)}</td>
-      <td class="hide-mob" style="color:var(--muted);font-weight:700">${_esc(p.estado)}</td>
+      <td>${_margemVal(p.margem)}</td>
       <td><span class="rca-badge">${_esc(p.vendedor.replace(' - OFF TRADE',''))}</span></td>
       <td class="hide-mob">${_esc(p.cliente)}${_baseIcon(p.observacao)}</td>
       <td>${_posicaoBadge(p.posicao)}${p.bonificacao ? '<span class="badge-bonificacao">🎁 Bonificação</span>' : ''}</td>
@@ -336,7 +336,7 @@ function aplicarFiltro() {
       <td>${_precoTabela(p.preco_tabela)}</td>
       <td>${_diferenca(p.diferenca)}</td>
       <td>${_custoVal(p.custo)}</td>
-      <td>${_margemVal(p.margem)}</td>
+      <td class="hide-mob" style="color:var(--muted);font-weight:700">${_esc(p.estado)}</td>
       <td class="hide-mob">${_esc(p.data)}</td>
       <td class="hide-mob motivo">${_esc(p.motivo)}${p.observacao ? `<br><span class="obs-base">${_esc(p.observacao)}</span>` : ''}</td>
       <td class="hide-mob">${_pessoaAcao(p.liberado_por, p.liberado_em)}</td>
@@ -446,11 +446,11 @@ function _escAttr(s) {
 
 function exportarCSV() {
   const lista = _filtrados();
-  const header = ['Pedido','Sistema','UF','Vendedor','Cliente','Posicao','Bonificacao','Qtd','Preco de Venda (Total)','Preco de Tabela (Total)','Diferenca (Total)','Custo (Total)','Margem','Data/Hora','Motivo','Observacao','Liberado por','Liberado em','Cancelado por','Cancelado em'];
+  const header = ['Pedido','Sistema','Margem','Vendedor','Cliente','Posicao','Bonificacao','Qtd','Preco de Venda (Total)','Preco de Tabela (Total)','Diferenca (Total)','Custo (Total)','UF','Data/Hora','Motivo','Observacao','Liberado por','Liberado em','Cancelado por','Cancelado em'];
   const linhas = lista.map(p => [
     p.numped,
     p.sistema,
-    p.estado,
+    p.margem !== null && p.margem !== undefined ? (p.margem * 100).toFixed(1) + '%' : '',
     p.vendedor.replace(' - OFF TRADE',''),
     p.cliente,
     p.posicao,
@@ -460,7 +460,7 @@ function exportarCSV() {
     p.preco_tabela ?? '',
     p.diferenca ?? '',
     p.custo ?? '',
-    p.margem !== null && p.margem !== undefined ? (p.margem * 100).toFixed(1) + '%' : '',
+    p.estado,
     p.data,
     p.motivo,
     p.observacao,
