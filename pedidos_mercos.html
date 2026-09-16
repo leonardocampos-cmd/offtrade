@@ -99,6 +99,40 @@
     }
     .btn-csv:hover { opacity: .88; }
     .info { font-size: .8rem; color: var(--muted); margin-left: auto; }
+
+    /* Status SPON multi-select dropdown */
+    .ms-wrap { position: relative; }
+    .ms-btn {
+      display: flex; align-items: center; gap: 7px;
+      padding: 8px 12px; border-radius: 8px; cursor: pointer;
+      border: 1px solid var(--border); background: var(--card);
+      color: var(--text); font-size: .88rem; font-family: inherit;
+      transition: border-color .15s; white-space: nowrap; min-width: 200px;
+    }
+    .ms-btn:hover      { border-color: var(--blue); }
+    .ms-btn.has-filter { border-color: var(--blue); color: var(--blue); }
+    .ms-btn .ms-badge {
+      background: var(--blue); color: #0f1117; border-radius: 10px;
+      font-size: .65rem; font-weight: 800; padding: 1px 6px; min-width: 18px; text-align: center;
+    }
+    .ms-chevron { font-size: .65rem; color: var(--muted); margin-left: auto; transition: transform .15s; }
+    .ms-btn.open .ms-chevron { transform: rotate(180deg); }
+
+    .ms-dropdown {
+      display: none; position: absolute; top: calc(100% + 6px); left: 0; z-index: 100;
+      background: #1a1a1a; border: 1px solid var(--border);
+      border-radius: 10px; min-width: 260px; max-height: 320px;
+      overflow-y: auto; box-shadow: 0 8px 24px rgba(0,0,0,.5);
+    }
+    .ms-dropdown.open { display: block; }
+    .ms-item {
+      display: flex; align-items: center; gap: 9px;
+      padding: 8px 14px; cursor: pointer; font-size: .82rem;
+      transition: background .1s; user-select: none;
+    }
+    .ms-item:hover { background: var(--card2); }
+    .ms-item input[type=checkbox] { accent-color: var(--blue); width: 14px; height: 14px; flex-shrink: 0; cursor: pointer; }
+    .ms-item.all-item { border-bottom: 1px solid var(--border); font-weight: 600; color: var(--muted); font-size: .78rem; }
     .table-wrap { overflow-x: auto; border-radius: 10px; border: 1px solid var(--border); }
     table { width: 100%; border-collapse: collapse; font-size: .82rem; }
     thead th {
@@ -210,16 +244,16 @@
   <select id="sel-vendedor" onchange="aplicarFiltro()">
     <option value="">Todos os Vendedores</option>
   </select>
-  <select id="sel-status" onchange="aplicarFiltro()">
-    <option value="">Todos os Status SPON</option>
-    <option value="integral">Faturado integral</option>
-    <option value="corte">Faturado com corte</option>
-    <option value="montado">Montado (aguardando faturamento)</option>
-    <option value="nao_encontrado">Não encontrado no SPON</option>
-    <option value="cliente_nao_cadastrado">Cliente não cadastrado no SPON</option>
-    <option value="cancelado">Cancelado no Mercos</option>
-    <option value="cancelado_spon">Cancelado no SPON</option>
-  </select>
+  <div class="ms-wrap" id="status-wrap">
+    <button class="ms-btn" id="status-btn" type="button">
+      <span id="status-btn-label">Todos os Status SPON</span>
+      <span class="ms-badge" id="status-badge" style="display:none"></span>
+      <span class="ms-chevron">▼</span>
+    </button>
+    <div class="ms-dropdown" id="status-dropdown">
+      <div id="status-dd-list"></div>
+    </div>
+  </div>
   <label style="font-size:.78rem;color:var(--muted);display:flex;align-items:center;gap:6px">De
     <input type="date" id="data-de" onchange="aplicarFiltro()">
   </label>
@@ -270,8 +304,19 @@ const STATUS_LABEL = {
   indisponivel: 'Indisponível',
 };
 
+const STATUS_OPTIONS = [
+  ['integral', 'Faturado integral'],
+  ['corte', 'Faturado com corte'],
+  ['montado', 'Montado (aguardando faturamento)'],
+  ['nao_encontrado', 'Não encontrado no SPON'],
+  ['cliente_nao_cadastrado', 'Cliente não cadastrado no SPON'],
+  ['cancelado', 'Cancelado no Mercos'],
+  ['cancelado_spon', 'Cancelado no SPON'],
+];
+
 let _ordem = { campo: 'data', asc: false };
 let _expandidos = new Set();
+let stStatus = new Set();
 
 if (!DATA) {
   document.getElementById('tbody').innerHTML = '<tr><td colspan="13" class="empty">Dados não encontrados. Gere pedidos_mercos_data.js a partir dos relatórios exportados da Mercos.</td></tr>';
@@ -282,8 +327,78 @@ if (!DATA) {
       ? ' · ⚠️ fonte(s) fora do ar: ' + DATA.fontes_indisponiveis.join(', ')
       : '');
   montarFiltros();
+  buildStatusDropdown();
+  updateStatusBtn();
   aplicarFiltro();
 }
+
+// ── Status SPON multi-select dropdown ───────────────────────────────────────
+function buildStatusDropdown() {
+  const list = document.getElementById('status-dd-list');
+  list.innerHTML = '';
+
+  const allItem = document.createElement('div');
+  allItem.className = 'ms-item all-item';
+  const cbAll = document.createElement('input');
+  cbAll.type = 'checkbox';
+  cbAll.checked = stStatus.size === 0;
+  cbAll.onchange = () => { stStatus.clear(); aplicarFiltro(); updateStatusBtn(); buildStatusDropdown(); };
+  allItem.appendChild(cbAll);
+  allItem.appendChild(document.createTextNode('Todos'));
+  allItem.onclick = e => { if (e.target !== cbAll) { cbAll.checked = true; cbAll.onchange(); } };
+  list.appendChild(allItem);
+
+  for (const [val, label] of STATUS_OPTIONS) {
+    const item = document.createElement('div');
+    item.className = 'ms-item';
+    const cb = document.createElement('input');
+    cb.type = 'checkbox';
+    cb.checked = stStatus.has(val);
+    cb.onchange = () => {
+      if (cb.checked) stStatus.add(val); else stStatus.delete(val);
+      aplicarFiltro();
+      updateStatusBtn();
+      cbAll.checked = stStatus.size === 0;
+    };
+    item.appendChild(cb);
+    item.appendChild(document.createTextNode(label));
+    item.onclick = e => { if (e.target !== cb) { cb.checked = !cb.checked; cb.onchange(); } };
+    list.appendChild(item);
+  }
+}
+
+function updateStatusBtn() {
+  const btn   = document.getElementById('status-btn');
+  const label = document.getElementById('status-btn-label');
+  const badge = document.getElementById('status-badge');
+  if (stStatus.size === 0) {
+    label.textContent = 'Todos os Status SPON';
+    badge.style.display = 'none';
+    btn.classList.remove('has-filter');
+  } else {
+    const mapa = Object.fromEntries(STATUS_OPTIONS);
+    label.textContent = stStatus.size === 1 ? mapa[[...stStatus][0]] : 'Status SPON';
+    badge.textContent = stStatus.size;
+    badge.style.display = stStatus.size > 1 ? '' : 'none';
+    btn.classList.add('has-filter');
+  }
+}
+
+(function () {
+  const btn = document.getElementById('status-btn');
+  const dd  = document.getElementById('status-dropdown');
+  btn.addEventListener('click', e => {
+    e.stopPropagation();
+    const open = dd.classList.toggle('open');
+    btn.classList.toggle('open', open);
+  });
+  document.addEventListener('click', e => {
+    if (!document.getElementById('status-wrap').contains(e.target)) {
+      dd.classList.remove('open');
+      btn.classList.remove('open');
+    }
+  });
+})();
 
 function montarKpis(lista) {
   const totalPedidos = lista.length;
@@ -354,14 +469,13 @@ function _filtrados() {
   if (!DATA) return [];
   const representada = document.getElementById('sel-representada').value;
   const vendedor      = document.getElementById('sel-vendedor').value;
-  const status        = document.getElementById('sel-status').value;
   const busca         = document.getElementById('busca').value.trim().toLowerCase();
   const dataDe        = document.getElementById('data-de').value;
   const dataAte       = document.getElementById('data-ate').value;
   let lista = PEDIDOS.filter(p => {
     const matchRep    = !representada || p.representada === representada;
     const matchVend   = !vendedor || (p.cod_vendedor + ' - ' + p.vendedor) === vendedor;
-    const matchStatus = !status || p.status_spon === status;
+    const matchStatus = stStatus.size === 0 || stStatus.has(p.status_spon);
     const dataIso     = _dataISO(p.data);
     const matchDataDe  = !dataDe || (dataIso && dataIso >= dataDe);
     const matchDataAte = !dataAte || (dataIso && dataIso <= dataAte);
