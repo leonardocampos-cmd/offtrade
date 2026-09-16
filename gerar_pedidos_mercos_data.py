@@ -442,7 +442,9 @@ def _cruzar_com_spon(lista_pedidos):
     query = f"""
         SELECT PED.NUMPED, PC.NUMPEDCLI, PED.CODPROD, SUM(PED.QT) AS QT, SUM(PED.TOTAL) AS TOTAL,
                MAX(CASE WHEN PED.NUMNOTA IS NOT NULL THEN 1 ELSE 0 END) AS TEM_NOTA,
-               MAX(PED.NUMNOTA) AS NUMNOTA
+               MAX(PED.NUMNOTA) AS NUMNOTA,
+               MAX(PC.POSICAO) AS POSICAO, MAX(PC.MOTIVOPOSICAO) AS MOTIVOPOSICAO,
+               MAX(PED.FUNC_CANCEL) AS FUNC_CANCEL
         FROM SPON.PBI_PCPEDI PED
         LEFT JOIN SPON.PCPEDC PC ON PC.NUMPED = PED.NUMPED
         WHERE PED.DATA >= DATE '{DATA_INICIAL}'
@@ -476,6 +478,29 @@ def _cruzar_com_spon(lista_pedidos):
             p["itens_cortados"] = []
             nao_encontrados.append(p)
             continue
+        # Pedido cancelado no Winthor DEPOIS de faturado (nota emitida e depois
+        # cancelada/estornada — ex: irregularidade fiscal do cliente) fica com
+        # POSICAO='C' em PCPEDC mas os itens continuam em PBI_PCPEDI com
+        # NUMNOTA preenchido e QT/TOTAL zerados (bug reportado pelo usuário em
+        # 2026-09-16, pedido #3941/NUMPED 588003622: caía em "corte" porque
+        # TOTAL=0 parecia diff negativo, quando na verdade é cancelamento —
+        # PCNFCANITEM tem esse caso mas com NUMTRANSVENDA preenchido, por isso
+        # _carregar_cancelados_spon [NUMTRANSVENDA IS NULL] não pega; aqui dá
+        # pra detectar direto por PCPEDC.POSICAO, sem precisar casar por
+        # assinatura de item).
+        cancelado = any(str(c["POSICAO"] or "").strip().upper() == "C" for c in candidatos)
+        if cancelado:
+            p["status_spon"] = "cancelado_spon"
+            p["valor_spon"] = None
+            p["numped_spon"] = sorted({str(int(c["NUMPED"])) for c in candidatos})
+            p["numnota_spon"] = []
+            p["itens_cortados"] = []
+            motivo = next((str(c["MOTIVOPOSICAO"]).strip() for c in candidatos if c["MOTIVOPOSICAO"] and pd.notna(c["MOTIVOPOSICAO"])), "")
+            cancelador = next((str(c["FUNC_CANCEL"]).strip() for c in candidatos if c["FUNC_CANCEL"] and pd.notna(c["FUNC_CANCEL"])), "")
+            p["motivo_cancelamento"] = motivo
+            p["cancelado_por"] = cancelador
+            continue
+
         total_spon = round(sum(float(c["TOTAL"]) for c in candidatos), 2)
         diff = round(total_spon - p["subtotal_pedido"], 2)
         p["valor_spon"] = total_spon
