@@ -132,6 +132,14 @@
   <div id="google-status"></div>
 
   <div class="field">
+    <label for="sistema">Sistema</label>
+    <select class="field-input" id="sistema">
+      <option value="crc" selected>CRC</option>
+      <option value="spon">SPON</option>
+    </select>
+  </div>
+
+  <div class="field">
     <label for="busca">Código, CNPJ ou nome do cliente</label>
     <input class="field-input" id="busca" type="text" autocomplete="off"
            placeholder="Ex: 12345 ou 23.504.919/0001-18 ou Rigarr">
@@ -228,9 +236,16 @@
       return { status: resp.status, data };
     }
 
-    const buscaInput = document.getElementById('busca');
+    const buscaInput   = document.getElementById('busca');
+    const sistemaInput = document.getElementById('sistema');
     const resultado  = document.getElementById('resultado');
     let debounce = null;
+
+    // Fonte principal por sistema — usada só pra decidir se a busca vazia é
+    // "cliente não existe" ou "fonte principal fora do ar" (ver comentário
+    // mais abaixo). GARRIDO é secundária dentro do sistema CRC, então não
+    // entra aqui.
+    const FONTE_PRINCIPAL_POR_SISTEMA = { crc: 'CRC', spon: 'SPON' };
 
     buscaInput.addEventListener('keydown', e => {
       if (e.key === 'Enter') { clearTimeout(debounce); executarBusca(); }
@@ -241,29 +256,36 @@
       if (!termo) { resultado.innerHTML = ''; return; }
       debounce = setTimeout(executarBusca, 500);
     });
+    sistemaInput.addEventListener('change', () => {
+      if (buscaInput.value.trim()) executarBusca();
+    });
 
     async function executarBusca() {
       const termo = buscaInput.value.trim();
       if (!termo) { resultado.innerHTML = ''; return; }
+      const sistema = sistemaInput.value;
       resultado.innerHTML = '<div class="msg msg-info"><span class="spinner"></span>Buscando...</div>';
       let resp;
       try {
-        resp = await api('/cliente?q=' + encodeURIComponent(termo));
+        resp = await api('/cliente?q=' + encodeURIComponent(termo) + '&sistema=' + encodeURIComponent(sistema));
       } catch {
         resultado.innerHTML = '<div class="msg msg-error">Não foi possível buscar agora. Tente novamente.</div>';
         return;
       }
       const clientes = resp.data.clientes || [];
+      const fontePrincipal = FONTE_PRINCIPAL_POR_SISTEMA[sistema] || 'CRC';
       if (clientes.length > 1) {
         renderSelecao(clientes);
       } else if (clientes.length === 1) {
         renderCliente(clientes[0]);
-      } else if ((resp.data.fontes_indisponiveis || []).includes('CRC')) {
-        // Só bloqueia se a própria CRC (fonte principal) falhou — bug real:
-        // uma fonte Oracle instável fazia a busca voltar vazia e a vendedora
-        // ia direto pro fluxo de "solicitar cadastro novo" pra um cliente
-        // que já existia. Se só o GARRIDO estiver fora do ar, a CRC sozinha
-        // já é confiável o suficiente pra decidir (pedido do usuário).
+      } else if ((resp.data.fontes_indisponiveis || []).includes(fontePrincipal)) {
+        // Só bloqueia se a própria fonte principal do sistema selecionado
+        // falhou — bug real: uma fonte Oracle instável fazia a busca voltar
+        // vazia e a vendedora ia direto pro fluxo de "solicitar cadastro
+        // novo" pra um cliente que já existia. Se só uma fonte secundária
+        // (ex: GARRIDO, dentro do sistema CRC) estiver fora do ar, a
+        // principal sozinha já é confiável o suficiente pra decidir (pedido
+        // do usuário).
         resultado.innerHTML = `<div class="msg msg-error">Não foi possível consultar todas as fontes agora (${esc(resp.data.fontes_indisponiveis.join(', '))} fora do ar) — tente buscar de novo em instantes antes de solicitar um cadastro novo.</div>`;
       } else {
         renderNaoEncontrado(termo);
@@ -444,12 +466,13 @@
 <div class="card">
   <div style="display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap">
     <div>
-      <div class="cliente-nome">${esc(c.nome)}</div>
+      <div class="cliente-nome">${esc(c.nome)}${c.fantasia ? ` <span style="font-weight:400;color:var(--muted)">(${esc(c.fantasia)})</span>` : ''}</div>
       <div class="cliente-sub">
         Cód: ${esc(c.codcli)} &nbsp;|&nbsp; CNPJ: ${esc(c.cnpj)}
         &nbsp;|&nbsp; RCA: ${c.codusur1 ?? '—'} — ${esc(c.nome_rca1)}
         &nbsp;|&nbsp; Última venda: ${esc(ultimaVenda)}
       </div>
+      ${(c.endereco || c.bairro || c.cidade) ? `<div class="cliente-sub">${[c.endereco, c.bairro, c.cidade].filter(Boolean).map(esc).join(' — ')}</div>` : ''}
     </div>
     <div>${badge}</div>
   </div>
@@ -634,7 +657,13 @@
     }
 
     // ── Pedir Limite/Desbloqueio (WhatsApp — sem backend) ──────────────────
-    const WHATSAPP_FINANCEIRO = '5521964384318';
+    const WHATSAPP_FINANCEIRO_PADRAO = '5521964906743';
+    // Financeiro SPON é separado do CRC/GARRIDO — pedido do usuário em
+    // 2026-09-15. c.fonte vem da API (CRC/GARRIDO/SPON, ver credito_cadastro_api.py).
+    const WHATSAPP_FINANCEIRO_SPON = '5521987972377';
+    function whatsappFinanceiro(c) {
+      return c.fonte === 'SPON' ? WHATSAPP_FINANCEIRO_SPON : WHATSAPP_FINANCEIRO_PADRAO;
+    }
     const PRAZOS = [7, 14, 21, 28, 30, 35, 42, 45, 60, 90];
     const FORMAS_AVISTA = ['Crédito', 'Débito', 'Pix'];
 
@@ -694,7 +723,7 @@
         const corpo = bloqueado
           ? `Solicitação de desbloqueio de cliente.\n\n${infoCliente}\n${valorLinha}Prazo de Pagamento : ${prazoLinha}\n\nPodem realizar o desbloqueio?\n\nObrigado!`
           : `Solicitação de aumento de limite de crédito.\n\n${infoCliente}\n${valorLinha}Prazo de Pagamento : ${prazoLinha}\n\nPodem realizar o ajuste?\n\nObrigado!`;
-        const url = `https://wa.me/${WHATSAPP_FINANCEIRO}?text=${encodeURIComponent(assunto + '\n\n' + corpo)}`;
+        const url = `https://wa.me/${whatsappFinanceiro(c)}?text=${encodeURIComponent(assunto + '\n\n' + corpo)}`;
         window.open(url, '_blank', 'noopener');
       });
     }

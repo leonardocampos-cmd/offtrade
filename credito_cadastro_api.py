@@ -126,7 +126,11 @@ _QUERY_CLIENTE = """
     SELECT
         c.codcli,
         c.cliente AS nome,
+        COALESCE(c.fantasia, '') AS fantasia,
         c.cgcent AS cnpj,
+        COALESCE(c.enderent, '') AS endereco,
+        COALESCE(c.bairroent, '') AS bairro,
+        COALESCE(c.municent, '') AS cidade,
         c.bloqueio,
         c.codusur1,
         u.nome AS nome_rca1,
@@ -669,7 +673,11 @@ def cliente():
         clientes.append({
             "codcli": int(r["CODCLI"]),
             "nome": str(r["NOME"] or "").strip(),
+            "fantasia": str(r["FANTASIA"] or "").strip(),
             "cnpj": re.sub(r"\D", "", str(r["CNPJ"] or "")),
+            "endereco": str(r["ENDERECO"] or "").strip(),
+            "bairro": str(r["BAIRRO"] or "").strip(),
+            "cidade": str(r["CIDADE"] or "").strip(),
             "bloqueio": str(r["BLOQUEIO"] or "").strip().upper() == "S",
             "codusur1": int(r["CODUSUR1"]) if pd.notna(r["CODUSUR1"]) else None,
             "nome_rca1": str(r["NOME_RCA1"] or "").strip() if pd.notna(r["NOME_RCA1"]) else "—",
