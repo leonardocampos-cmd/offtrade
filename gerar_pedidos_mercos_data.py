@@ -617,6 +617,7 @@ def _anexar_inadimplencia(lista_pedidos):
     inadimplencia_por_codcli = _carregar_inadimplencia_por_codcli()
     for p in lista_pedidos:
         codcli = cnpj_para_codcli.get(p["cnpj"])
+        p["codcli"] = codcli or None
         info = inadimplencia_por_codcli.get(codcli) if codcli else None
         p["inadimplente"] = info is not None
         p["inadimplencia_valor"] = info["valor_aberto"] if info else None

@@ -262,6 +262,7 @@
   </label>
   <input type="text" id="busca" placeholder="Buscar por pedido, cliente, CNPJ, produto..." oninput="aplicarFiltro()">
   <button class="btn-csv" onclick="exportarCSV()">⬇ Exportar CSV</button>
+  <button class="btn" onclick="exportarCSVResumido()">⬇ CSV Resumido</button>
   <span class="info" id="info-count"></span>
 </div>
 
@@ -1262,6 +1263,28 @@ function exportarCSV() {
   const a    = document.createElement('a');
   a.href = url;
   a.download = `pedidos_mercos_${new Date().toISOString().slice(0,10)}.csv`;
+  a.click();
+  URL.revokeObjectURL(url);
+}
+
+function exportarCSVResumido() {
+  const lista = _filtrados();
+  const header = ['DTMOV', 'CODCLI', 'CLIENTE', 'NUMNOTA', 'PEDIDO/VENDEDOR', 'FATURAMENTO'];
+  const linhas = lista.map(p => [
+    p.data,
+    p.codcli || '',
+    p.cliente,
+    (p.numnota_spon || []).join(' / '),
+    `${p.numped} / ${p.cod_vendedor} - ${p.vendedor}`,
+    p.valor_spon ?? '',
+  ].map(v => `"${String(v ?? '').replace(/"/g, '""')}"`).join(';'));
+
+  const csv = '﻿' + [header.join(';'), ...linhas].join('\r\n');
+  const blob = new Blob([csv], { type: 'text/csv;charset=utf-8;' });
+  const url  = URL.createObjectURL(blob);
+  const a    = document.createElement('a');
+  a.href = url;
+  a.download = `pedidos_mercos_resumido_${new Date().toISOString().slice(0,10)}.csv`;
   a.click();
   URL.revokeObjectURL(url);
 }
