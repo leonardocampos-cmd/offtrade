@@ -91,7 +91,7 @@ def _query_pedidos(schema, extra_nomes=None, filiais=None):
                PED.FUNC_CANCEL, PC.POSICAO, PC.MOTIVOPOSICAO, PC.VLBONIFIC, PED.CODPROD, PED.CODFILIAL,
                PED.FORNECEDOR, PED.FANTASIA_FORNEC,
                U.ESTADO AS ESTADO_VENDEDOR, S.NOME AS NOME_SUPERVISOR, G.NOMEGERENTE,
-               CL.MUNICENT AS CIDADE_CLIENTE
+               CL.MUNICENT AS CIDADE_CLIENTE, CL.BAIRROENT AS BAIRRO_CLIENTE
         FROM {schema}.PBI_PCPEDI PED
         LEFT JOIN {schema}.PCUSUARI  U  ON U.CODUSUR        = PED.CODUSUR
         LEFT JOIN {schema}.PCSUPERV  S  ON U.CODSUPERVISOR  = S.CODSUPERVISOR
@@ -275,6 +275,7 @@ tabela_pedidos['DATA']        = tabela_pedidos['DATA_DT'].dt.strftime('%d/%m/%Y'
 tabela_pedidos['STATUS']      = tabela_pedidos['STATUS'].fillna('').astype(str).str.strip()
 
 tabela_pedidos['CIDADE'] = tabela_pedidos['CIDADE_CLIENTE'].fillna('').astype(str).str.strip()
+tabela_pedidos['BAIRRO'] = tabela_pedidos['BAIRRO_CLIENTE'].fillna('').astype(str).str.strip()
 tabela_pedidos['ESTADO'] = tabela_pedidos['ESTADO_VENDEDOR'].fillna('').astype(str).str.strip().str.upper().replace('', 'Sem Estado')
 tabela_pedidos['NOME_SUPERVISOR'] = tabela_pedidos['NOME_SUPERVISOR'].fillna('').astype(str).str.strip().replace('', 'Sem Supervisor')
 tabela_pedidos['NOMEGERENTE']     = tabela_pedidos['NOMEGERENTE'].fillna('').astype(str).str.strip().replace('', 'Sem Gerente')
@@ -823,6 +824,7 @@ def _agrupar(df, com_status_log=False):
             'sistema':    _s(sistema),
             'estado':     _s(r0['ESTADO']),
             'cidade':     _s(r0['CIDADE']),
+            'bairro':     _s(r0['BAIRRO']),
             'supervisor': _s(r0['NOME_SUPERVISOR']),
             'gerente':    _s(r0['NOMEGERENTE']),
             'status_ped': _s(r0['STATUS']),

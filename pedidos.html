@@ -298,10 +298,12 @@ const THEAD_PADRAO = `
   <th class="hide-mob" onclick="ordenarPor('nome')">Vendedor</th>
   <th class="hide-mob" onclick="ordenarPor('estado')">Estado</th>
   <th class="hide-mob" onclick="ordenarPor('cidade')">Cidade</th>
+  <th class="hide-mob" onclick="ordenarPor('bairro')">Bairro</th>
   <th onclick="ordenarPor('cliente')">Cliente</th>
   <th id="th-codcli" class="hide-mob cod" onclick="ordenarPor('codcli')">Cód. Cliente</th>
+  <th id="th-valor-pedido" onclick="ordenarPor('valor_pedido')">Valor Pedido</th>
+  <th id="th-total" onclick="ordenarPor('total')">Valor Faturado</th>
   <th id="th-extra"></th>
-  <th id="th-total" onclick="ordenarPor('total')">Total</th>
 `;
 
 const THEAD_CORTADOS = `
@@ -355,6 +357,22 @@ if (DATA && DATA.cancelados) {
       : (p.itens || []).reduce((s, it) => s + (Number(it.valor_cortado) || 0), 0);
   });
 }
+
+// Valor Pedido (pedido do usuário em 2026-09-08: "colocar o valor pedido e
+// o valor faturado") — 'total' já É o valor faturado (pedidos.py::
+// _item_pedido: TOTAL é calculado em cima de QT faturado, não da quantidade
+// pedida original — ver comentário lá, confirmado com o pedido 588003212).
+// Reconstitui o valor ORIGINAL somando de volta o que foi cortado/ainda
+// falta (mesma identidade de qt_original = qt + qtcortada + qtfalta, só
+// que em R$): pra 'cancelados' o total já é 0, então valor_pedido vira só
+// o valor_cortado_total (bate com o que a aba já mostrava como "Valor
+// Cortado").
+['pedidos_feitos', 'faturados', 'cancelados'].forEach(chave => {
+  if (DATA && DATA[chave]) {
+    DATA[chave].forEach(p => { p.valor_pedido = round2((p.total || 0) + (p.valor_cortado_total || 0)); });
+  }
+});
+function round2(v) { return Math.round(v * 100) / 100; }
 
 let _abaAtual = 'pedidos_feitos';
 let _ordem = { campo: 'data', asc: false };
@@ -413,7 +431,7 @@ function montarTabs() {
       thTotal.textContent = 'Valor Cortado';
       thTotal.onclick = () => ordenarPor('valor_cortado_pedido');
     } else {
-      thTotal.textContent = 'Total';
+      thTotal.textContent = 'Valor Faturado';
       thTotal.onclick = () => ordenarPor('total');
     }
   }
@@ -482,10 +500,10 @@ function toggleStatusLogPanel(ev) {
 
 function _totalColunas() {
   if (_abaAtual === 'produtos_cortados') return 9;
-  if (_abaAtual === 'pedidos_feitos') return 9;
-  if (_abaAtual === 'faturados') return 11;
+  if (_abaAtual === 'pedidos_feitos') return 11;
+  if (_abaAtual === 'faturados') return 13;
   const abaInfo = ABAS.find(a => a.chave === _abaAtual);
-  return (abaInfo && abaInfo.colExtra) ? 10 : 9;
+  return (abaInfo && abaInfo.colExtra) ? 12 : 11;
 }
 
 function trocarAba(chave) {
@@ -981,10 +999,12 @@ function aplicarFiltro() {
       <td class="hide-mob"><span class="rca-badge">${_esc((p.nome || '').replace(' - OFF TRADE',''))}</span></td>
       <td class="hide-mob">${_esc(p.estado)}</td>
       <td class="hide-mob">${_esc(p.cidade)}</td>
+      <td class="hide-mob">${_esc(p.bairro)}</td>
       <td>${_esc(p.cliente)}${agendado ? ` <span class="badge-agendado">📅 ${agendado}</span>` : ''}${(_abaAtual === 'faturados' && p.tem_corte) ? ` <span class="badge-corte">✂ CORTE PARCIAL</span>` : ''}${(_abaAtual === 'faturados' && p.pago) ? ` <span class="badge-pago">💰 PAGO</span>` : ''}${_abaAtual === 'pedidos_feitos' ? _posicaoBadge(p.posicao) : ''}</td>
       ${_abaAtual === 'faturados' ? `<td class="cod hide-mob">${_esc(p.codcli)}</td>` : ''}
-      ${abaInfo.colExtra ? `<td>${abaInfo.colExtra.render(p)}</td>` : ''}
+      <td>${brl(p.valor_pedido)}</td>
       <td>${brl(_abaAtual === 'cancelados' ? p.valor_cortado_pedido : p.total)}</td>
+      ${abaInfo.colExtra ? `<td>${abaInfo.colExtra.render(p)}</td>` : ''}
     </tr>
     <tr class="linha-itens ${expandido ? '' : 'oculta'}" id="itens-${_esc(chave)}">
       <td colspan="${totalCols}">${_montarItens(p)}</td>
@@ -1126,7 +1146,7 @@ function exportarCSV() {
   const abaInfo = ABAS.find(a => a.chave === _abaAtual);
   const cancelados = _abaAtual === 'cancelados';
   const mostraSistema = _abaAtual === 'faturados';
-  const header = ['Pedido','NF','Data','Vendedor','Estado','Cidade','Cliente','Agendamento', ...(mostraSistema ? ['Sistema'] : []), ...(abaInfo.colExtra ? [abaInfo.colExtra.label] : []), ...(mostraSistema ? ['Status Sistema'] : []), 'Produto', 'Qtd', 'Valor Produto', cancelados ? 'Valor Cortado' : 'Total Pedido'];
+  const header = ['Pedido','NF','Data','Vendedor','Estado','Cidade','Bairro','Cliente','Agendamento', ...(mostraSistema ? ['Sistema'] : []), ...(abaInfo.colExtra ? [abaInfo.colExtra.label] : []), ...(mostraSistema ? ['Status Sistema'] : []), 'Produto', 'Qtd', 'Valor Produto', 'Valor Pedido', cancelados ? 'Valor Cortado' : 'Valor Faturado'];
   const linhas = lista.flatMap(p => {
     const itens = (p.itens && p.itens.length) ? p.itens : [{ desc: '', qt: '', val: '' }];
     return itens.map(it => [
@@ -1136,6 +1156,7 @@ function exportarCSV() {
       (p.nome || '').replace(' - OFF TRADE',''),
       p.estado,
       p.cidade,
+      p.bairro,
       p.cliente,
       _agendamento(p.obs) || '',
       ...(mostraSistema ? [p.sistema] : []),
@@ -1144,6 +1165,7 @@ function exportarCSV() {
       it.desc,
       it.qt,
       it.val,
+      p.valor_pedido,
       cancelados ? p.valor_cortado_pedido : p.total,
     ].map(v => `"${String(v??'').replace(/"/g,'""')}"`).join(';'));
   });
