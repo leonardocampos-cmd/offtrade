@@ -647,6 +647,45 @@ def _cruzar_com_spon(lista_pedidos):
                     p["status_spon"] = "cliente_nao_cadastrado"
 
 
+def _anexar_data_faturamento(lista_pedidos):
+    """DTMOV (SPON.PCMOV) — data real do faturamento no Winthor, diferente de
+    "data" (data do pedido no Mercos/Winthor). Pedido do usuário em
+    2026-09-16: quer a data de faturamento visível na tabela e no CSV
+    Resumido. Usa PCMOV direto (não a view — mesmo motivo de qualquer
+    consulta de vendas ad-hoc nesse projeto: PCMOV tem NUMNOTA/DTMOV
+    granular por nota, a view resume demais). MIN(DTMOV) por NUMNOTA — todas
+    as linhas da mesma nota têm a mesma data na prática, MIN só pra agregar
+    sem GROUP BY quebrar em caso raro de divergência."""
+    numnotas_unicos = sorted({n for p in lista_pedidos for n in (p.get("numnota_spon") or [])})
+    if not numnotas_unicos:
+        return
+    TAMANHO_LOTE = 900
+    data_por_numnota = {}
+    erro = None
+    for inicio in range(0, len(numnotas_unicos), TAMANHO_LOTE):
+        lote = numnotas_unicos[inicio:inicio + TAMANHO_LOTE]
+        query = f"""
+            SELECT NUMNOTA, MIN(DTMOV) AS DTMOV
+            FROM SPON.PCMOV
+            WHERE NUMNOTA IN ({",".join(lote)})
+            GROUP BY NUMNOTA
+        """
+        try:
+            df = carregar_dados(query, engine_spon, "spon_pcmov_dtmov")
+            df.columns = df.columns.str.upper()
+            for _, row in df.iterrows():
+                data_por_numnota[str(int(row["NUMNOTA"]))] = _fmt_data_spon(row["DTMOV"])
+        except Exception as e:
+            erro = e
+            print(f"[AVISO] data de faturamento (PCMOV) indisponivel ({str(e)[:100]}) — ignorado")
+            break
+    if erro is not None:
+        return
+    for p in lista_pedidos:
+        notas = p.get("numnota_spon") or []
+        p["data_faturamento"] = next((data_por_numnota[n] for n in notas if n in data_por_numnota), "")
+
+
 def _carregar_inadimplencia_por_codcli():
     """Le inadimplencia_data.js (gerado por exportacao_inadimplencia.py, mesmo
     diretorio — local ou VPS, escrita atomica igual a esse script) e devolve
@@ -805,6 +844,7 @@ def main():
         print(f"{len(sem_vinculo)} pedido(s) do SPON sem NUMPEDCLI incluido(s) (nao consta no Mercos)")
     lista_pedidos += sem_vinculo
 
+    _anexar_data_faturamento(lista_pedidos)
     _anexar_inadimplencia(lista_pedidos)
 
     def _data_ordenavel(data_br):

@@ -283,6 +283,7 @@
         <th onclick="ordenarPor('status_spon')">Status SPON</th>
         <th class="hide-mob">Pedido SPON</th>
         <th class="hide-mob">Nota</th>
+        <th class="hide-mob" onclick="ordenarPor('data_faturamento')">Data Fat. SPON</th>
         <th onclick="ordenarPor('status_logistica')">Status Logística</th>
       </tr>
     </thead>
@@ -323,7 +324,7 @@ let _expandidos = new Set();
 let stStatus = new Set();
 
 if (!DATA) {
-  document.getElementById('tbody').innerHTML = '<tr><td colspan="13" class="empty">Dados não encontrados. Gere pedidos_mercos_data.js a partir dos relatórios exportados da Mercos.</td></tr>';
+  document.getElementById('tbody').innerHTML = '<tr><td colspan="14" class="empty">Dados não encontrados. Gere pedidos_mercos_data.js a partir dos relatórios exportados da Mercos.</td></tr>';
 } else {
   document.getElementById('header-sub').textContent =
     'Atualizado ' + DATA.atualizado_em + ' · Período: ' + DATA.periodo +
@@ -508,7 +509,7 @@ function aplicarFiltro() {
 
   const tbody = document.getElementById('tbody');
   if (!lista.length) {
-    tbody.innerHTML = '<tr><td colspan="13" class="empty">Nenhum pedido encontrado.</td></tr>';
+    tbody.innerHTML = '<tr><td colspan="14" class="empty">Nenhum pedido encontrado.</td></tr>';
     return;
   }
 
@@ -528,6 +529,7 @@ function aplicarFiltro() {
       <td>${_statusBadge(p)}</td>
       <td class="cod hide-mob">${(p.numped_spon || []).join(', ') || '—'}</td>
       <td class="cod hide-mob">${(p.numnota_spon || []).join(', ') || '—'}</td>
+      <td class="cod hide-mob">${_esc(p.data_faturamento) || '—'}</td>
       <td>${_logisticaBadge(p)}</td>
     </tr>`;
     if (aberto) {
@@ -545,7 +547,7 @@ function aplicarFiltro() {
       } else if (p.status_spon === 'nao_consta_mercos') {
         aviso = `<p style="color:var(--muted);font-size:.85rem;padding:0 4px 8px">Pedido faturado no SPON (Winthor) mas não encontrado nos relatórios da Mercos — não foi lançado pelo app da Mercos${p.observacao ? '. ' + _esc(p.observacao) : '.'}</p>`;
       }
-      html += `<tr class="linha-itens"><td colspan="13"><div class="itens-wrap">
+      html += `<tr class="linha-itens"><td colspan="14"><div class="itens-wrap">
         ${aviso}
         <div class="itens-acoes">
           <button class="btn-acao" onclick="event.stopPropagation(); gerarPdfPedido('${_escAttr(p.numped)}')">📄 Gerar PDF</button>
@@ -1283,7 +1285,7 @@ function exportarCSVResumido() {
   const lista = _filtrados();
   const header = ['DTMOV', 'CODCLI', 'CLIENTE', 'NUMNOTA', 'PEDIDO/VENDEDOR', 'FATURAMENTO'];
   const linhas = lista.map(p => [
-    p.data,
+    p.data_faturamento || '',
     p.codcli || '',
     p.cliente,
     (p.numnota_spon || []).join(' / '),
