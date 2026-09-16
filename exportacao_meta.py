@@ -1167,7 +1167,7 @@ for _, row in _vh.iterrows():
         # (ex: "CLIENTE SEM DINHEIRO") — pedido do usuário em 2026-09-02, NF
         # 427539/ADEILSON GONÇALVEZ. Campo DIFERENTE de 'motivo' acima (aquele é
         # corte ANTES de faturar, este é devolução DEPOIS de faturar).
-        'motivo_devolucao': str(row.get('MOTIVO_DEVOLUCAO') or '').strip(),
+        'motivo_devolucao': str(row.get('MOTIVO_DEVOLUCAO')).strip() if pd.notna(row.get('MOTIVO_DEVOLUCAO')) else '',
     })
 
 # Mescla os itens de cancelado/corte parcial (não vêm de _vh/PCMOV — ver bloco
