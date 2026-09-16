@@ -64,13 +64,21 @@ _DSN_GARRIDO = os.getenv(
     "10.107.213.84:1521/orcl_pdb1.subnetwintcompa.vcnrootautoskyo.oraclevcn.com",
 )
 
-_FONTES = [
-    ("CRC",     create_engine(f"oracle+oracledb://{_crc_user}:{quote_plus(_crc_pass)}@crc_oci", **_ENGINE_KW)),
-    # GARRIDO também tem vendas do RJ — sem isso, cliente cadastrado só na
-    # base GARRIDO não aparece na busca (mesmo motivo documentado na versão
-    # Streamlit original, pedido do usuário em 2026-08-14).
-    ("GARRIDO", create_engine(f"oracle+oracledb://{_user}:{_password}@{_DSN_GARRIDO}", **_ENGINE_KW)),
-]
+_FONTES_POR_SISTEMA = {
+    "crc": [
+        ("CRC",     create_engine(f"oracle+oracledb://{_crc_user}:{quote_plus(_crc_pass)}@crc_oci", **_ENGINE_KW)),
+        # GARRIDO também tem vendas do RJ — sem isso, cliente cadastrado só na
+        # base GARRIDO não aparece na busca (mesmo motivo documentado na versão
+        # Streamlit original, pedido do usuário em 2026-08-14).
+        ("GARRIDO", create_engine(f"oracle+oracledb://{_user}:{_password}@{_DSN_GARRIDO}", **_ENGINE_KW)),
+    ],
+    # SPON (SP) usa crc_user/crc_pass — igual meta.py::engine_spon/utils.py
+    # (usuário genérico VPN_USER dá "usuário/senha inválido" nessa base).
+    "spon": [
+        ("SPON", create_engine(f"oracle+oracledb://{_crc_user}:{quote_plus(_crc_pass)}@spon_oci", **_ENGINE_KW)),
+    ],
+}
+_SISTEMA_PADRAO = "crc"
 
 EMAIL_FINANCEIRO  = "cadastro@rigarr.com.br"
 EMAIL_CADASTRO_CC = "danielle.soares@rigarr.com.br,leonardo.campos@rigarr.com.br"
@@ -105,7 +113,7 @@ bp = Blueprint("credito", __name__, url_prefix="/api/credito")
 # ── Oracle ────────────────────────────────────────────────────────────────────
 
 def _buscar_rca(codusur: int):
-    with _FONTES[0][1].connect() as conn:
+    with _FONTES_POR_SISTEMA[_SISTEMA_PADRAO][0][1].connect() as conn:
         df = pd.read_sql(
             text("SELECT CODUSUR, NOME FROM CRC.PCUSUARI WHERE CODUSUR = :cod"),
             conn, params={"cod": codusur},
@@ -145,9 +153,10 @@ _QUERY_CLIENTE = """
 """
 
 
-def _buscar_cliente(busca: str) -> pd.DataFrame:
+def _buscar_cliente(busca: str, sistema: str) -> pd.DataFrame:
     busca = busca.strip()
     cnpj  = re.sub(r"\D", "", busca)
+    fontes = _FONTES_POR_SISTEMA.get(sistema, _FONTES_POR_SISTEMA[_SISTEMA_PADRAO])
 
     if cnpj.isdigit() and len(cnpj) == 14:
         filtro = "REPLACE(REPLACE(REPLACE(c.cgcent,'.',''),'/',''),'-','') = :termo"
@@ -161,7 +170,7 @@ def _buscar_cliente(busca: str) -> pd.DataFrame:
 
     frames = []
     fontes_falhas = []
-    for schema, engine in _FONTES:
+    for schema, engine in fontes:
         # 2 tentativas por fonte — sem isso, um blip passageiro de conexão
         # (comum nessas engines Oracle) faz a fonte cair silenciosamente no
         # except abaixo e o cliente parece "não cadastrado" quando na
@@ -647,9 +656,12 @@ def rca():
 @bp.route("/cliente")
 def cliente():
     busca = request.args.get("q", "")
+    sistema = request.args.get("sistema", _SISTEMA_PADRAO).strip().lower()
+    if sistema not in _FONTES_POR_SISTEMA:
+        sistema = _SISTEMA_PADRAO
     if not busca.strip():
         return {"clientes": []}
-    df, fontes_falhas = _buscar_cliente(busca)
+    df, fontes_falhas = _buscar_cliente(busca, sistema)
     if df.empty:
         return {"clientes": [], "fontes_indisponiveis": fontes_falhas}
     clientes = []
@@ -755,8 +767,7 @@ def alteracao():
     linhas_campos = "\n".join(f"{c}: {v}" for c, v in preenchidos.items())
     corpo = (
         f"Solicito a atualização de cadastro do cliente:\n\n"
-        f"Cliente: {nome_cliente} ({cnpj_fmt}) — Cód. {codcli}\n"
-        f"RCA Solicitante: {solicitante}\n\n"
+        f"Cliente: {nome_cliente} ({cnpj_fmt}) — Cód. {codcli}\n\n"
         f"Campos a alterar:\n{linhas_campos}\n\n"
         f"Podem realizar a atualização?\n\nObrigado!"
     )
