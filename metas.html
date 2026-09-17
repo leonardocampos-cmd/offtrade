@@ -1017,6 +1017,58 @@ function _ordenarPedidosDesc(lista) {
 
 let _pedidosAtuais = [];
 
+// Estado do filtro de status no "Faturamento do mês" (pedido do usuário em
+// 2026-09-17: filtro ao lado dos KPIs Faturamento/Clientes/Itens). Guarda a
+// lista completa (sem filtro) e o nome do vendedor pra _mudarFiltroStatusFat
+// só re-renderizar o pedaço de dentro de #fat-conteudo, sem precisar rodar
+// renderDetail inteiro de novo (que reconstrói metas/campanhas/histórico à toa).
+let _pedidosFatMesTodos = [];
+let _vendasValidasFatMes = [];
+let _nomeVendedorFatMes = '';
+let _filtroStatusFatAtual = '';
+
+// "Todos" reaproveita a mesma regra de KPI de sempre (soma linha a linha das
+// vendas válidas, excluindo devolvido/cancelado/cortado — ver comentário
+// original em renderDetail). Um status específico soma por PEDIDO (p.valor/
+// p.qt já vêm certos por status: pedido cancelado por ex. tem só os itens
+// "Cancelado" sintéticos, então p.valor já É o valor cancelado) — assim
+// "Cancelado" mostra o total cancelado em vez de zerar (que aconteceria se
+// reusasse o filtro de "vendas válidas" também pro caso filtrado).
+function _kpisFaturamentoMes(pedidosFiltrados, statusSelecionado) {
+  if (!statusSelecionado) {
+    return {
+      fat: _vendasValidasFatMes.reduce((s, x) => s + x.valor, 0),
+      nCli: new Set(_vendasValidasFatMes.map(x => x.codcli || x.cliente)).size,
+      nItens: _vendasValidasFatMes.reduce((s, x) => s + x.qt, 0),
+    };
+  }
+  return {
+    fat: pedidosFiltrados.reduce((s, p) => s + p.valor, 0),
+    nCli: new Set(pedidosFiltrados.map(p => p.codcli || p.cliente)).size,
+    nItens: pedidosFiltrados.reduce((s, p) => s + p.qt, 0),
+  };
+}
+
+function _renderConteudoFaturamentoMes() {
+  const statusSel = _filtroStatusFatAtual;
+  const pedidosFiltrados = statusSel
+    ? _pedidosFatMesTodos.filter(p => _statusPedidoInfo(p).label === statusSel)
+    : _pedidosFatMesTodos;
+  const kpis = _kpisFaturamentoMes(pedidosFiltrados, statusSel);
+  return `
+    <div class="vendas-kpis" style="margin-top:12px">
+      <div><div class="kpi-label">Faturamento</div><div class="kpi-val">${fmtFat(kpis.fat)}</div></div>
+      <div><div class="kpi-label">Clientes</div><div class="kpi-val">${kpis.nCli}</div></div>
+      <div><div class="kpi-label">Itens</div><div class="kpi-val">${kpis.nItens.toLocaleString('pt-BR')}</div></div>
+    </div>
+    ${buildPedidosTable(pedidosFiltrados, _nomeVendedorFatMes)}`;
+}
+
+function _mudarFiltroStatusFat(valor) {
+  _filtroStatusFatAtual = valor;
+  document.getElementById('fat-conteudo').innerHTML = _renderConteudoFaturamentoMes();
+}
+
 // Liga NF de saída <-> NF de devolução pelo NUMPED (M.NUMPED do Oracle,
 // mesmo pedido Winthor gera um NUNOTA de saída e, se devolvido depois, um
 // NUNOTA de devolução separado — NUMNOTADEV não serve pra isso, ver
@@ -1621,8 +1673,11 @@ function _buildAlertaSemStatusLogistica(pedidos) {
   }).join('');
   return `
     <div class="detail-card" style="border-color:#f97316">
-      <div class="sec-title" style="color:#f97316">&#9888; ${lista.length} pedido${lista.length > 1 ? 's' : ''} faturado${lista.length > 1 ? 's' : ''} sem status de log&iacute;stica</div>
-      <div style="margin-top:10px">${itens}</div>
+      <div class="sec-header" onclick="toggleSec('sec-semstatus')">
+        <div class="sec-title" style="color:#f97316">&#9888; ${lista.length} pedido${lista.length > 1 ? 's' : ''} faturado${lista.length > 1 ? 's' : ''} sem status de log&iacute;stica</div>
+        <span id="sec-semstatus-ic" class="sec-ic open">&#9660;</span>
+      </div>
+      <div id="sec-semstatus" class="sec-body open">${itens}</div>
     </div>`;
 }
 
@@ -1743,13 +1798,18 @@ function renderDetail(v, mes) {
   // entram no faturamento/clientes/itens do topo, senão uma venda já
   // estornada infla esses números.
   const _vendasValidas = _vendas.filter(x => !x.devolvido && !x.cancelado && !x.cancelado_parcial);
-  const _fatVend = _vendasValidas.reduce((s, x) => s + x.valor, 0);
-  const _nCli    = new Set(_vendasValidas.map(x => x.codcli || x.cliente)).size;
-  const _nItens  = _vendasValidas.reduce((s, x) => s + x.qt, 0);
   const _pedidos = _ordenarPedidosDesc([
     ..._agruparPedidos(_vendas),
     ..._pedidosNaoEmitidos(v.nome, mes),
   ]);
+
+  // Estado usado por _renderConteudoFaturamentoMes/_mudarFiltroStatusFat
+  // (ver declaração acima) — reseta o filtro a cada troca de vendedor/mês.
+  _pedidosFatMesTodos = _pedidos;
+  _vendasValidasFatMes = _vendasValidas;
+  _nomeVendedorFatMes = v.nome;
+  _filtroStatusFatAtual = '';
+  const _statusOptsFat = Array.from(new Set(_pedidos.map(p => _statusPedidoInfo(p).label))).sort((a, b) => a.localeCompare(b, 'pt-BR'));
 
   const vendasHtml = `
     <div class="detail-card">
@@ -1760,12 +1820,13 @@ function renderDetail(v, mes) {
         <span id="sec-fat-ic" class="sec-ic open">&#9660;</span>
       </div>
       <div id="sec-fat" class="sec-body open">
-        <div class="vendas-kpis" style="margin-top:12px">
-          <div><div class="kpi-label">Faturamento</div><div class="kpi-val">${fmtFat(_fatVend)}</div></div>
-          <div><div class="kpi-label">Clientes</div><div class="kpi-val">${_nCli}</div></div>
-          <div><div class="kpi-label">Itens</div><div class="kpi-val">${_nItens.toLocaleString('pt-BR')}</div></div>
+        <div style="display:flex;justify-content:flex-end;margin-top:6px">
+          <select class="mes-select" onchange="_mudarFiltroStatusFat(this.value)">
+            <option value="">Todos os status</option>
+            ${_statusOptsFat.map(s => `<option value="${s}">${s}</option>`).join('')}
+          </select>
         </div>
-        ${buildPedidosTable(_pedidos, v.nome)}
+        <div id="fat-conteudo">${_renderConteudoFaturamentoMes()}</div>
         ${_vendas.length > 0 ? `<div style="text-align:right;margin-top:10px"><button class="btn btn-dl" onclick="exportarVendasCSV('${v.nome}', '${mes}')">&#8595; Baixar CSV</button></div>` : ''}
       </div>
     </div>`;
@@ -2266,7 +2327,7 @@ function buildMovingDetail(v, mes) {
         <span style="display:flex;align-items:center;gap:6px;flex-wrap:wrap;justify-content:flex-end">
           <span class="campanha-rank-val">${fmtFat(fatReal)}</span>
           <span class="metric-pct pct-${cls}" style="font-size:0.7rem">${pctDisp}%</span>
-          <span class="campanha-rank-prize" style="color:#10b981" title="Prêmio: 5% do faturamento em produtos Moving">R$ ${premio.toLocaleString('pt-BR',{minimumFractionDigits:2,maximumFractionDigits:2})}</span>
+          <span style="color:var(--muted);font-size:0.7rem">Prêmio (5% fat.)</span> <span class="campanha-rank-prize" style="color:#10b981">R$ ${premio.toLocaleString('pt-BR',{minimumFractionDigits:2,maximumFractionDigits:2})}</span>
         </span>
       </div>
     </div>`;
