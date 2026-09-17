@@ -701,9 +701,11 @@
   }
 
   if (sessionStorage.getItem('rg_auth') === HASH) {
+    window.OFFTRADE_IS_GESTOR = true;
     _refreshSsoCookie(sessionStorage.getItem('rg_email'));
     return; // gestor: acesso total
   }
+  window.OFFTRADE_IS_GESTOR = false;
 
   const _goLogin = () => {
     sessionStorage.setItem('rg_redirect', location.pathname + location.search);
@@ -735,8 +737,7 @@
     <p id="header-sub">Acompanhamento de Objetivos</p>
   </div>
   <div style="display:flex;gap:8px;align-items:center;flex-wrap:wrap">
-    <a class="btn" href="index.html">&#8962; Home</a>
-    <a id="btn-entregas" class="btn" href="entregas.html">&#x1F69A; Entregas</a>
+    <a id="btn-home" class="btn" href="index.html">&#8962; Home</a>
     <div id="header-actions"></div>
   </div>
 </header>
@@ -750,6 +751,14 @@
 <div id="app"></div>
 
 <script>
+// Ícone "Home" só pra gestor (pedido do usuário em 2026-09-17) — vendedor
+// autenticado via rg_vendedor não tem acesso à visão geral, então o link não
+// serve pra ele (window.OFFTRADE_IS_GESTOR setado no script de auth acima).
+if (!window.OFFTRADE_IS_GESTOR) {
+  const _btnHome = document.getElementById('btn-home');
+  if (_btnHome) _btnHome.remove();
+}
+
 // ── Restrição de acesso por estado (2026-08-05) ────────────────────────────
 // Cada e-mail listado só vê os vendedores do(s) estado(s) dele na visão
 // agregada (sem ?vendedor= na URL). Quem não está na lista continua vendo
@@ -1750,10 +1759,8 @@ function renderDetail(v, mes) {
     `<option value="${mo}" ${mo === mes ? 'selected' : ''}>${mo}</option>`
   ).join('');
 
-  document.getElementById('btn-entregas').href = 'entregas.html?v=' + encodeURIComponent(v.nome);
   document.getElementById('header-actions').innerHTML = `
     <select class="mes-select" onchange="renderDetail(METAS_DATA.vendedores.find(x=>x.nome==='${v.nome}'), this.value)">${mesOpts}</select>
-    <button class="btn" onclick="copyLink('${v.nome}', this)">\uD83D\uDD17 Copiar link</button>
     <a class="btn btn-limite" href="credito_cadastro.html" target="_blank" rel="opener">&#128196; PEDIR LIMITE E CADASTRO</a>
     <a class="btn" href="clientes_rca.html?estado=RJ&rcas=10,200">&#128230; Novos Clientes</a>`;
 
