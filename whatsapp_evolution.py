@@ -24,8 +24,9 @@ from dotenv import load_dotenv
 load_dotenv()
 
 
-def enviar_whatsapp(numero, mensagem):
-    url = f"{os.getenv('EVOLUTION_BASE_URL', 'http://localhost:8083')}/message/sendText/{os.getenv('EVOLUTION_INSTANCE', 'bees')}"
+def enviar_whatsapp(numero, mensagem, instancia=None):
+    instancia = instancia or os.getenv('EVOLUTION_INSTANCE', 'bees')
+    url = f"{os.getenv('EVOLUTION_BASE_URL', 'http://localhost:8083')}/message/sendText/{instancia}"
     headers = {"apikey": os.getenv("EVOLUTION_KEY", ""), "Content-Type": "application/json"}
     is_vps = os.getenv("OFFTRADE_RUNTIME", "local") == "vps"
     campo_texto = {"textMessage": {"text": mensagem}} if is_vps else {"text": mensagem}
