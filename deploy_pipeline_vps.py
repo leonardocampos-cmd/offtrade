@@ -46,6 +46,7 @@ PIPELINE_FILES = [
     "alerta_logistica_rj.py",
     "alerta_pedidos_bloqueados.py",
     "alerta_contagem_planilhas.py",
+    "encaminhar_planilha_contagem.py",
     "email_pedidos.py",
     "report_diario_pedidos.py",
     "baixar_planilhas_drive.py",
