@@ -56,7 +56,6 @@ PIPELINE_FILES = [
     "gerar_pedidos_mercos_data.py",
     "gerar_estoque_mercos_spon_data.py",
     "buscar_dados_nfe.py",
-    "buscar_cliente_preco_promo.py",
     "mercos_api.py",
     "metas_builder_api.py",
     "raiox_cliente_api.py",
