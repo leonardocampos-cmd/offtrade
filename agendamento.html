@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Agendamento CRC4</title>
   <script src="agendamento_data.js"></script>
+  <script src="controle_agendamento_data.js"></script>
   <script src="estoque_data.js"></script>
   <style>
     * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -95,6 +96,22 @@
     .itens-table th { text-align: left; color: var(--muted); font-weight: 600; padding: 4px 8px; white-space: normal; }
     .itens-table td { padding: 4px 8px; color: var(--text); white-space: normal; }
     .empty { text-align: center; padding: 48px; color: var(--muted); font-size: .9rem; }
+    .aviso-edicao {
+      background: rgba(59,130,246,.1); border: 1px solid rgba(59,130,246,.25);
+      border-radius: 8px; padding: 10px 14px; font-size: .78rem; color: var(--muted);
+      margin-bottom: 16px;
+    }
+    .campo-agend {
+      background: var(--card2); border: 1px solid var(--border); color: var(--text);
+      border-radius: 6px; padding: 5px 7px; font-size: .8rem; font-family: inherit;
+      width: 130px; outline: none;
+    }
+    input.campo-agend[type=date] { width: 130px; }
+    input.campo-agend[type=number] { width: 90px; }
+    .campo-agend:focus { border-color: var(--blue); }
+    .campo-agend.salvando { border-color: var(--orange); }
+    .campo-agend.salvo { border-color: var(--green); }
+    .campo-agend.erro { border-color: var(--red); }
 
     @media (max-width: 640px) {
       body { padding: 12px; }
@@ -121,6 +138,12 @@
 
 <div class="tabs" id="tabs"></div>
 
+<div class="aviso-edicao" id="aviso-edicao-agendamento" style="display:none">
+  Edite qualquer célula e saia dela (Tab/Enter ou clique fora) pra salvar
+  automaticamente — edição fica só aqui no site, nunca altera a planilha
+  original da Geovanna.
+</div>
+
 <div class="controls" id="controls-agendamento">
   <select id="sel-vendedor" onchange="aplicarFiltro()">
     <option value="">Todos os Vendedores</option>
@@ -135,19 +158,7 @@
 
 <div class="table-wrap">
   <table id="tabela-agendamentos">
-    <thead>
-      <tr>
-        <th class="hide-mob">Vendedor</th>
-        <th>Cliente</th>
-        <th class="hide-mob">CNPJ</th>
-        <th class="hide-mob">Filial</th>
-        <th>NF</th>
-        <th>Data Agend.</th>
-        <th>Status</th>
-        <th class="hide-mob">Status Logística</th>
-        <th>Valor</th>
-      </tr>
-    </thead>
+    <thead><tr id="thead-agendamentos"></tr></thead>
     <tbody id="tbody-agendamentos"></tbody>
   </table>
 
@@ -161,6 +172,8 @@
         <th class="hide-mob">Bairro</th>
         <th class="hide-mob">Cód. Cliente</th>
         <th>Tipo</th>
+        <th>Valor Pedido</th>
+        <th>Valor Faturado</th>
         <th>Status</th>
       </tr>
     </thead>
@@ -184,8 +197,27 @@
   </table>
 </div>
 
+<div class="controls" id="paginacao-agendamentos" style="justify-content:center; display:none">
+  <button class="tab-btn" onclick="irParaPaginaAgend(-1)" id="btn-pag-agend-ant">← Anterior</button>
+  <span class="info" id="info-pagina-agend" style="margin-left:0"></span>
+  <button class="tab-btn" onclick="irParaPaginaAgend(1)" id="btn-pag-agend-prox">Próxima →</button>
+</div>
+
 <script>
 const DATA = typeof AGENDAMENTO_DATA !== 'undefined' ? AGENDAMENTO_DATA : null;
+const CONTROLE = typeof CONTROLE_AGENDAMENTO_DATA !== 'undefined' ? CONTROLE_AGENDAMENTO_DATA : null;
+const COLUNAS_AGEND = CONTROLE ? (CONTROLE.colunas || []) : [];
+let LINHAS_AGEND = CONTROLE ? Object.entries(CONTROLE.linhas || {}).map(([id, v]) => ({ _id: id, ...v, valor: Number(v['VALOR']) || 0 })) : [];
+let paginaAgend = 1;
+const TAM_PAGINA_AGEND = 100; // planilha real passa de 1000 linhas — sem paginação o navegador trava renderizando tudo
+let _ordemAgend = { campo: 'AGENDAMENTO', asc: false };
+// Precisa estar declarado antes do bloco de inicialização (if (!DATA).../
+// aplicarFiltro() lá embaixo) — esse bloco roda renderAgendamentos()/
+// _campoAgend() de forma síncrona durante o parse do script, e um `const`
+// declarado mais abaixo no arquivo ainda estaria em temporal dead zone
+// nesse momento (ReferenceError real em produção, 2026-09-18: a aba
+// "Planilha de Agendamento" nunca chegava a renderizar nada).
+const _STATUS_OPCOES_AGEND = ['A FATURAR', 'EM ROTA', 'FATURADO', 'ENTREGUE', 'CANCELADO'];
 const ESTOQUE = typeof ESTOQUE_DATA !== 'undefined' ? ESTOQUE_DATA : null;
 
 // Índice de estoque só de CRC filiais 2 e 4 (RJ — o que essa página realmente
@@ -304,6 +336,11 @@ if (!DATA) {
 function montarKpis(itensAgend, comparativo) {
   const pendentes = comparativo.filter(p => _piorStatus(p.itens) !== 'Faturado').length;
   const totalAgendado = itensAgend.reduce((acc, i) => acc + (Number(i.valor) || 0), 0);
+  // Valor Pedido/Faturado agregado (pedido do usuário em 2026-09-08) —
+  // mesma soma por item feita em renderComparativo, só que pro total da
+  // lista filtrada em vez de por pedido.
+  const totalValorPedido = comparativo.reduce((acc, p) => acc + (p.itens || []).reduce((s, it) => s + (Number(it.qt) || 0) * (Number(it.preco) || 0), 0), 0);
+  const totalValorFaturado = comparativo.reduce((acc, p) => acc + (p.itens || []).reduce((s, it) => s + (Number(it.valor_faturado) || 0), 0), 0);
   const filtrado = _abaAtual === 'agendamentos'
     ? itensAgend.length !== _itensAgendamentoFlat().length
     : comparativo.length !== (DATA.comparativo || []).length;
@@ -313,11 +350,13 @@ function montarKpis(itensAgend, comparativo) {
     <div class="kpi"><div class="label">Valor Agendado${filtrado && _abaAtual === 'agendamentos' ? ' (filtrado)' : ''}</div><div class="val">${_fmtMoeda(totalAgendado)}</div></div>
     <div class="kpi"><div class="label">Pedidos por E-mail${filtrado && _abaAtual === 'comparativo' ? ' (filtrado)' : ''}</div><div class="val">${comparativo.length}</div></div>
     <div class="kpi"><div class="label">Cortados/Parciais${filtrado && _abaAtual === 'comparativo' ? ' (filtrado)' : ''}</div><div class="val" style="color:var(--orange)">${pendentes}</div></div>
+    <div class="kpi"><div class="label">Valor Pedido${filtrado && _abaAtual === 'comparativo' ? ' (filtrado)' : ''}</div><div class="val">${_fmtMoeda(totalValorPedido)}</div></div>
+    <div class="kpi"><div class="label">Valor Faturado${filtrado && _abaAtual === 'comparativo' ? ' (filtrado)' : ''}</div><div class="val">${_fmtMoeda(totalValorFaturado)}</div></div>
   `;
 }
 
 function montarTabs() {
-  const nAgend = (DATA.agendamentos || []).reduce((acc, v) => acc + v.itens.length, 0);
+  const nAgend = LINHAS_AGEND.length;
   const nComp  = (DATA.comparativo || []).length;
   const nCort  = PRODUTOS_CORTADOS.length;
   document.getElementById('tabs').innerHTML = `
@@ -328,6 +367,8 @@ function montarTabs() {
   document.getElementById('tabela-agendamentos').style.display = _abaAtual === 'agendamentos' ? '' : 'none';
   document.getElementById('tabela-comparativo').style.display  = _abaAtual === 'comparativo'  ? '' : 'none';
   document.getElementById('tabela-cortados').style.display     = _abaAtual === 'cortados'     ? '' : 'none';
+  document.getElementById('paginacao-agendamentos').style.display = _abaAtual === 'agendamentos' ? '' : 'none';
+  document.getElementById('aviso-edicao-agendamento').style.display = _abaAtual === 'agendamentos' ? '' : 'none';
 }
 
 function trocarAba(chave) {
@@ -339,11 +380,53 @@ function trocarAba(chave) {
 }
 
 function _itensAgendamentoFlat() {
-  const out = [];
-  (DATA.agendamentos || []).forEach(v => {
-    v.itens.forEach(i => out.push({ ...i, vendedor: v.nome }));
+  return LINHAS_AGEND;
+}
+
+// Filtro + ordenação compartilhados entre a tela (aplicarFiltro) e o CSV
+// (exportarCSV), pra não duplicar a lógica em dois lugares.
+function _agendFiltradosOrdenados() {
+  const busca = document.getElementById('busca').value.trim().toLowerCase();
+  const vend = document.getElementById('sel-vendedor').value;
+  const status = document.getElementById('sel-status').value;
+  let itens = LINHAS_AGEND;
+  if (vend) itens = itens.filter(i => i['RCA'] === vend);
+  if (status) itens = itens.filter(i => i['STATUS'] === status);
+  if (busca) {
+    itens = itens.filter(i =>
+      (i['CLIENTE'] || '').toLowerCase().includes(busca) ||
+      (i['NF'] || '').toLowerCase().includes(busca) ||
+      (i['CNPJ'] || '').toLowerCase().includes(busca)
+    );
+  }
+  const { campo, asc } = _ordemAgend;
+  itens = [...itens].sort((a, b) => {
+    let va = a[campo] ?? '', vb = b[campo] ?? '';
+    if (campo === 'AGENDAMENTO' || campo === 'EMISSÃO') { va = _dataBrParaChaveAgend(va); vb = _dataBrParaChaveAgend(vb); }
+    else if (campo === 'VALOR' || campo.indexOf('VALOR ANTES') === 0) { va = Number(va) || 0; vb = Number(vb) || 0; }
+    if (va < vb) return asc ? -1 : 1;
+    if (va > vb) return asc ? 1 : -1;
+    return 0;
   });
-  return out;
+  return itens;
+}
+
+function _dataBrParaChaveAgend(dataBr) {
+  if (!dataBr || !dataBr.includes('/')) return '';
+  const [d, m, a] = dataBr.split('/');
+  return `${a}-${m}-${d}`;
+}
+
+function ordenarPorAgend(campo) {
+  if (_ordemAgend.campo === campo) _ordemAgend.asc = !_ordemAgend.asc;
+  else { _ordemAgend.campo = campo; _ordemAgend.asc = true; }
+  paginaAgend = 1;
+  aplicarFiltro();
+}
+
+function irParaPaginaAgend(delta) {
+  paginaAgend += delta;
+  aplicarFiltro();
 }
 
 function montarFiltros() {
@@ -355,8 +438,8 @@ function montarFiltros() {
 
   if (_abaAtual === 'agendamentos') {
     const vendAtual = selVend.value;
-    selVend.innerHTML = '<option value="">Todos os Vendedores</option>';
-    (DATA.agendamentos || []).map(v => v.nome).sort().forEach(nome => {
+    selVend.innerHTML = '<option value="">Todos os RCAs</option>';
+    [...new Set(LINHAS_AGEND.map(i => i['RCA']).filter(Boolean))].sort().forEach(nome => {
       const o = document.createElement('option');
       o.value = nome; o.textContent = nome;
       if (nome === vendAtual) o.selected = true;
@@ -365,7 +448,7 @@ function montarFiltros() {
 
     const statusAtual = selStatus.value;
     selStatus.innerHTML = '<option value="">Todos os Status</option>';
-    [...new Set(_itensAgendamentoFlat().map(i => i.status).filter(Boolean))].sort().forEach(s => {
+    [...new Set(LINHAS_AGEND.map(i => i['STATUS']).filter(Boolean))].sort().forEach(s => {
       const o = document.createElement('option');
       o.value = s; o.textContent = s;
       if (s === statusAtual) o.selected = true;
@@ -416,17 +499,7 @@ function aplicarFiltro() {
   const status = document.getElementById('sel-status').value;
 
   if (_abaAtual === 'agendamentos') {
-    let itens = _itensAgendamentoFlat();
-    if (vend) itens = itens.filter(i => i.vendedor === vend);
-    if (status) itens = itens.filter(i => i.status === status);
-    if (busca) {
-      itens = itens.filter(i =>
-        (i.cliente || '').toLowerCase().includes(busca) ||
-        (i.nf || '').toLowerCase().includes(busca) ||
-        (i.cnpj || '').toLowerCase().includes(busca)
-      );
-    }
-    itens.sort((a, b) => (b.data_ord || '').localeCompare(a.data_ord || ''));
+    const itens = _agendFiltradosOrdenados();
     renderAgendamentos(itens);
     montarKpis(itens, DATA.comparativo || []);
   } else if (_abaAtual === 'comparativo') {
@@ -459,42 +532,158 @@ function aplicarFiltro() {
   }
 }
 
-function renderAgendamentos(itens) {
-  document.getElementById('info-count').textContent = `${itens.length} registro(s)`;
+function _tipoCampoAgend(coluna) {
+  const c = coluna.trim().toUpperCase();
+  if (c === 'STATUS') return 'status';
+  if (c === 'AGENDAMENTO' || c === 'EMISSÃO') return 'data';
+  if (c === 'VALOR' || c.indexOf('VALOR ANTES') === 0) return 'valor';
+  return 'texto';
+}
+
+function _brParaIso(dataBr) {
+  if (!dataBr || !dataBr.includes('/')) return '';
+  const [d, m, a] = dataBr.split('/');
+  return `${a}-${m.padStart(2, '0')}-${d.padStart(2, '0')}`;
+}
+function _isoParaBr(dataIso) {
+  if (!dataIso || !dataIso.includes('-')) return '';
+  const [a, m, d] = dataIso.split('-');
+  return `${d}/${m}/${a}`;
+}
+
+function _campoAgend(item, coluna) {
+  const tipo = _tipoCampoAgend(coluna);
+  const valor = item[coluna] ?? '';
+  const idAttr = _esc(item._id);
+  const colAttr = _esc(coluna);
+  if (tipo === 'status') {
+    const opcoes = (!valor || _STATUS_OPCOES_AGEND.includes(valor)) ? _STATUS_OPCOES_AGEND : [valor, ..._STATUS_OPCOES_AGEND];
+    return `<select class="campo-agend" data-id="${idAttr}" data-campo="${colAttr}" onchange="salvarCampoAgend(this)">
+      <option value=""></option>
+      ${opcoes.map(o => `<option value="${_esc(o)}" ${o === valor ? 'selected' : ''}>${_esc(o)}</option>`).join('')}
+    </select>`;
+  }
+  if (tipo === 'data') {
+    return `<input type="date" class="campo-agend" data-id="${idAttr}" data-campo="${colAttr}" value="${_brParaIso(valor)}" onchange="salvarCampoAgend(this, true)">`;
+  }
+  if (tipo === 'valor') {
+    return `<input type="number" step="0.01" class="campo-agend" data-id="${idAttr}" data-campo="${colAttr}" value="${_esc(valor)}" onblur="salvarCampoAgend(this)" onkeydown="if(event.key==='Enter') this.blur()">`;
+  }
+  return `<input type="text" class="campo-agend" data-id="${idAttr}" data-campo="${colAttr}" value="${_esc(valor)}" onblur="salvarCampoAgend(this)" onkeydown="if(event.key==='Enter') this.blur()">`;
+}
+
+function renderAgendamentos(itensFiltrados) {
+  document.getElementById('info-count').textContent = `${itensFiltrados.length} registro(s)`;
+
+  // Cabeçalho dinâmico — as colunas vêm da planilha e podem mudar sem
+  // aviso (ver docstring de exportacao_controle_agendamento.py).
+  document.getElementById('thead-agendamentos').innerHTML =
+    COLUNAS_AGEND.map(c => `<th onclick="ordenarPorAgend('${c.replace(/'/g, "\\'")}')">${_esc(c)}</th>`).join('');
+
+  const totalPaginas = Math.max(1, Math.ceil(itensFiltrados.length / TAM_PAGINA_AGEND));
+  paginaAgend = Math.min(Math.max(1, paginaAgend), totalPaginas);
+  const inicio = (paginaAgend - 1) * TAM_PAGINA_AGEND;
+  const pagina = itensFiltrados.slice(inicio, inicio + TAM_PAGINA_AGEND);
+
+  document.getElementById('info-pagina-agend').textContent = `Página ${paginaAgend} de ${totalPaginas}`;
+  document.getElementById('btn-pag-agend-ant').disabled = paginaAgend <= 1;
+  document.getElementById('btn-pag-agend-prox').disabled = paginaAgend >= totalPaginas;
+
   const tbody = document.getElementById('tbody-agendamentos');
-  if (!itens.length) {
-    tbody.innerHTML = '<tr><td colspan="9" class="empty">Nenhum registro encontrado.</td></tr>';
+  if (!pagina.length) {
+    tbody.innerHTML = `<tr><td colspan="${COLUNAS_AGEND.length}" class="empty">Nenhum registro encontrado.</td></tr>`;
     return;
   }
-  tbody.innerHTML = itens.map(i => `
-    <tr class="linha">
-      <td class="hide-mob">${_esc(i.vendedor)}</td>
-      <td>${_esc(i.cliente)}</td>
-      <td class="hide-mob cod">${_esc(i.cnpj)}</td>
-      <td class="hide-mob">${_esc(i.filial)}</td>
-      <td class="cod">${_esc(i.nf)}</td>
-      <td>${_esc(i.data_agendamento)}</td>
-      <td>${_statusBadge(i.status)}</td>
-      <td class="hide-mob">${_statusBadge(i.status_logistica)}</td>
-      <td>${_fmtMoeda(i.valor)}</td>
+  tbody.innerHTML = pagina.map(item => `
+    <tr class="linha" style="cursor:default">
+      ${COLUNAS_AGEND.map(c => `<td>${_campoAgend(item, c)}</td>`).join('')}
     </tr>
   `).join('');
 }
+
+// Autosave ao sair do campo — mesmo padrão de contagem_estoque.html.
+// isData=true converte o valor do <input type=date> (AAAA-MM-DD) de volta
+// pro formato DD/MM/AAAA usado no resto da planilha antes de comparar/salvar.
+async function salvarCampoAgend(input, isData) {
+  const id = input.dataset.id;
+  const campo = input.dataset.campo;
+  const item = LINHAS_AGEND.find(i => i._id === id);
+  if (!item) return;
+
+  let valor = isData ? _isoParaBr(input.value) : input.value;
+  valor = (valor || '').trim();
+
+  const valorAtual = (item[campo] ?? '').toString();
+  if (valor === valorAtual) return;
+
+  input.classList.remove('salvo', 'erro');
+  input.classList.add('salvando');
+  try {
+    const resp = await fetch('/api/controle-agendamento/salvar', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ linha_id: id, campo, valor }),
+    });
+    const d = await resp.json().catch(() => ({}));
+    if (!resp.ok || !d.ok) throw new Error(d.motivo || 'Falha ao salvar');
+    item[campo] = valor;
+    if (campo === 'VALOR') item.valor = Number(valor) || 0;
+    input.classList.remove('salvando');
+    input.classList.add('salvo');
+    setTimeout(() => input.classList.remove('salvo'), 1200);
+    aplicarFiltro();
+  } catch (e) {
+    input.classList.remove('salvando');
+    input.classList.add('erro');
+  }
+}
+
+// Sobrepõe com o estado ao vivo (o _data.js só atualiza no horário do
+// cron) — mesma lógica de contagem_estoque.html. Só atualiza linhas que já
+// existiam no _data.js carregado; linha nova só aparece no próximo reload.
+async function atualizarEstadoAoVivoAgend() {
+  try {
+    const resp = await fetch('/api/controle-agendamento/estado');
+    if (!resp.ok) return;
+    const estado = await resp.json();
+    const linhasEstado = estado.linhas || {};
+    let mudou = false;
+    LINHAS_AGEND.forEach(item => {
+      const info = linhasEstado[item._id];
+      if (!info) return;
+      Object.keys(info).forEach(k => {
+        if (k.startsWith('_')) return;
+        item[k] = info[k];
+      });
+      item.valor = Number(item['VALOR']) || 0;
+      mudou = true;
+    });
+    if (mudou && _abaAtual === 'agendamentos') { montarFiltros(); aplicarFiltro(); }
+  } catch (e) { /* segue com o que já tem */ }
+}
+if (CONTROLE) atualizarEstadoAoVivoAgend();
 
 function renderComparativo(pedidos) {
   document.getElementById('info-count').textContent = `${pedidos.length} pedido(s)`;
   const tbody = document.getElementById('tbody-comparativo');
   if (!pedidos.length) {
-    tbody.innerHTML = '<tr><td colspan="8" class="empty">Nenhum pedido por e-mail encontrado.</td></tr>';
+    tbody.innerHTML = '<tr><td colspan="10" class="empty">Nenhum pedido por e-mail encontrado.</td></tr>';
     return;
   }
   tbody.innerHTML = pedidos.map((p, idx) => {
     const chave = p.msg_id + '_' + idx;
     const aberto = _expandidos.has(chave);
     const statusGeral = _piorStatus(p.itens);
+    // Valor Pedido/Faturado (pedido do usuário em 2026-09-08): pedidos.py
+    // não manda total por pedido nessa aba, só por item — soma aqui.
+    // 'preco' vem do e-mail (extração por IA), não da nota fiscal — é a
+    // melhor referência disponível pro que foi PEDIDO (a nota só existe
+    // depois de faturar).
+    const valorPedido = (p.itens || []).reduce((s, it) => s + (Number(it.qt) || 0) * (Number(it.preco) || 0), 0);
+    const valorFaturado = (p.itens || []).reduce((s, it) => s + (Number(it.valor_faturado) || 0), 0);
     const linhaItens = `
       <tr class="linha-itens ${aberto ? '' : 'oculta'}" id="itens-${chave}">
-        <td colspan="8">
+        <td colspan="10">
           <table class="itens-table">
             <thead><tr><th>Cód.</th><th>Descrição</th><th>Qtd. Pedida</th><th>Qtd. Faturada</th><th>Valor Faturado</th><th>NF</th><th>Na Agendamento</th><th>Status</th></tr></thead>
             <tbody>
@@ -526,6 +715,8 @@ function renderComparativo(pedidos) {
         <td class="hide-mob">${_esc(p.bairro)}</td>
         <td class="hide-mob cod">${_esc(p.cod_cliente)}</td>
         <td>${p.bonificacao ? '<span class="badge-bonificacao">Bonificação</span>' : 'Pedido'}</td>
+        <td>${_fmtMoeda(valorPedido)}</td>
+        <td>${_fmtMoeda(valorFaturado)}</td>
         <td>${_statusBadge(statusGeral)}</td>
       </tr>
       ${linhaItens}
@@ -591,19 +782,9 @@ function exportarCSV() {
   const status = document.getElementById('sel-status').value;
 
   if (_abaAtual === 'agendamentos') {
-    let itens = _itensAgendamentoFlat();
-    if (vend) itens = itens.filter(i => i.vendedor === vend);
-    if (status) itens = itens.filter(i => i.status === status);
-    if (busca) {
-      itens = itens.filter(i =>
-        (i.cliente || '').toLowerCase().includes(busca) ||
-        (i.nf || '').toLowerCase().includes(busca) ||
-        (i.cnpj || '').toLowerCase().includes(busca)
-      );
-    }
-    itens.sort((a, b) => (b.data_ord || '').localeCompare(a.data_ord || ''));
-    const header = ['Vendedor', 'Cliente', 'CNPJ', 'Filial', 'NF', 'Data Agend.', 'Status', 'Status Logística', 'Valor'];
-    const linhas = itens.map(i => [i.vendedor, i.cliente, i.cnpj, i.filial, i.nf, i.data_agendamento, i.status, i.status_logistica, i.valor]);
+    const itens = _agendFiltradosOrdenados();
+    const header = COLUNAS_AGEND;
+    const linhas = itens.map(i => COLUNAS_AGEND.map(c => i[c] ?? ''));
     _baixarCsv(header, linhas, 'agendamento_planilha');
   } else if (_abaAtual === 'comparativo') {
     let pedidos = DATA.comparativo || [];
@@ -617,13 +798,14 @@ function exportarCSV() {
         (p.cod_cliente || '').toLowerCase().includes(busca)
       );
     }
-    const header = ['Data E-mail', 'RCA', 'Cliente', 'Cód. Cliente', 'Cód. Produto', 'Descrição', 'Qtd Pedida', 'Qtd Faturada', 'Valor Faturado', 'NF', 'Status'];
+    const header = ['Data E-mail', 'RCA', 'Cliente', 'Cód. Cliente', 'Cód. Produto', 'Descrição', 'Qtd Pedida', 'Valor Pedido', 'Qtd Faturada', 'Valor Faturado', 'NF', 'Status'];
     const linhas = [];
     pedidos.forEach(p => {
       p.itens.forEach(it => {
         linhas.push([
           p.data_email, p.rca, p.fantasia || p.razao_social, p.cod_cliente,
-          it.cod_prod, it.descricao, it.qt, it.qt_faturada, it.valor_faturado, it.nf, it.status,
+          it.cod_prod, it.descricao, it.qt, (Number(it.qt) || 0) * (Number(it.preco) || 0),
+          it.qt_faturada, it.valor_faturado, it.nf, it.status,
         ]);
       });
     });
