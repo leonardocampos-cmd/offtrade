@@ -130,12 +130,18 @@ def _decode_b64(data: str) -> str:
 
 
 def _extract_parts(payload: dict, out: dict):
-    """Preenche out['html_parts'] (texto html decodificado) e
+    """Preenche out['html_parts'] (texto html decodificado),
+    out['text_parts'] (texto/plain decodificado — pedido do usuário em
+    2026-09-18: um e-mail SÓ com corpo texto/plano, sem HTML nenhum, ficava
+    completamente invisível pro parser antes disso — _parse_html_pedido nunca
+    tinha o que ler, e o fallback de IA por texto também ficava sem corpo) e
     out['image_attachment_ids'] (id pra buscar via attachments().get)."""
     mime = payload.get("mimeType", "")
     body = payload.get("body", {})
     if mime == "text/html" and body.get("data"):
         out["html_parts"].append(_decode_b64(body["data"]))
+    elif mime == "text/plain" and body.get("data"):
+        out.setdefault("text_parts", []).append(_decode_b64(body["data"]))
     elif mime.startswith("image/") and body.get("attachmentId"):
         out["image_attachment_ids"].append(body["attachmentId"])
     for part in payload.get("parts", []) or []:
@@ -303,6 +309,121 @@ def _parse_imagem_pedido(png_bytes: bytes) -> dict | None:
         return None
 
 
+# ── Parsing: e-mail que não bateu no template (fallback via IA, texto) ────────
+# Pedido do usuário em 2026-09-18: vários pedidos reais de MATEUS CARDOSO -
+# OFF TRADE nunca apareciam em "Pedidos por E-mail x Faturado" — confirmado
+# que o parser de tabela (_parse_html_pedido) só reconhece o template exato
+# ("SELECIONE O SISTEMA"/"PEDIDO CRC"/"BONIFICAÇÃO CRC" + cabeçalho "COD
+# PROD"/"DESCRIÇÃO") e o parser de imagem só roda em anexo de imagem — um
+# pedido em texto corrido, tabela num formato diferente, ou PDF/imagem colada
+# de outro jeito simplesmente não gerava bloco nenhum e o e-mail inteiro era
+# descartado (log "nenhum bloco CRC-4 reconhecido"), sem qualquer sinal pra
+# quem usa a página. Esse fallback manda o CORPO do e-mail (texto, sem
+# imagem) pra IA decidir se é pedido ou não ("eh_pedido") em vez de depender
+# de um formato fixo — só roda quando os parsers estruturados (tabela/imagem)
+# não acharam nada, pra não gastar em todo e-mail à toa.
+_PROMPT_TEXTO_PEDIDO = """O texto abaixo é o corpo de um e-mail recebido na caixa de pedidos da CRC (distribuidora Off Trade). Determine se é um PEDIDO DE BEBIDAS (ou bonificação) de algum RCA/vendedor pra algum cliente da filial CRC-04, mesmo que NÃO siga nenhum template de tabela — pode estar em texto corrido, lista, ou copiado de outro formato.
+
+Responda APENAS o JSON, no formato:
+
+{{
+  "eh_pedido": true ou false,
+  "sistema": "código do sistema/filial, ex: 'CRC - 04' — preencha só se eh_pedido for true; caso contrário \\"\\"",
+  "cod_cliente": "número do código do cliente, se aparecer no texto, senão \\"\\"",
+  "razao_social": "...", "fantasia": "...", "cnpj": "...",
+  "bonificacao": true ou false,
+  "obs": "observações relevantes do pedido (entrega, embalagem, prazo etc), ou \\"\\"",
+  "itens": [{{"cod_prod": "...", "descricao": "...", "qt": numero, "preco": numero, "total": numero}}]
+}}
+
+Regras:
+- "eh_pedido" é false pra e-mail que NÃO é um PEDIDO NOVO: confirmação/pergunta sobre faturamento ou status, resposta genérica, agradecimento, corrente, spam etc.
+- "eh_pedido" é SEMPRE false pra e-mail sobre um pedido/NF JÁ EXISTENTE, mesmo citando produto/quantidade — isso NÃO é pedido novo: correção de preço/custo, refaturamento, devolução, troca, recolha de mercadoria, cancelamento de NF, reentrega. Palavras como "correção", "refaturamento", "devolução", "troca e recolha", "recolher NF", "cancelamento" indicam isso.
+- "eh_pedido" é SEMPRE false pra alerta/relatório automático de sistema (ex: assunto começando com "ALERTA", notificação de reentrega/logística, relatório diário) — mesmo que o corpo cite cliente e produto (é um exemplo dentro do relatório, não um pedido de ninguém).
+- Marque eh_pedido true mesmo sem tabela formal, desde que o texto realmente peça produtos NOVOS pra entregar/faturar pra um cliente pela primeira vez (ex: "separar 10 cxs de X e 5 de Y pro cliente tal, favor faturar").
+- Se não achar o código do produto, deixe "cod_prod" vazio mas ainda inclua a descrição do item — não descarte o item só por falta de código.
+- Nunca invente cod_cliente, CNPJ, RCA ou valores que não estejam explícitos no texto — campo sem informação fica "" (ou 0 pra número).
+- Se eh_pedido for false, "itens" deve ser uma lista vazia.
+
+Assunto do e-mail: {subject}
+
+Data de envio do e-mail: {data_email}
+
+Texto do e-mail:
+\"\"\"
+{corpo}
+\"\"\""""
+
+
+def _num_ia(v) -> float:
+    if isinstance(v, (int, float)):
+        return v
+    return _parse_valor(str(v or ''))
+
+
+# Relatórios/alertas automáticos que também chegam nessa caixa (cc de outro
+# bot, ex: alerta_logistica_rj.py lê e-mails "ALERTA LOGÍSTICA RJ" de um
+# sistema de rastreio externo) — corte direto ANTES de gastar uma chamada de
+# IA: confirmado em 2026-09-18 que a IA classificava errado um desses como
+# pedido (o corpo cita cliente/produto como EXEMPLO dentro do relatório, não
+# como pedido de ninguém). Comparação por "contém", não igualdade exata —
+# assunto real vem com data/percentual no meio (ex: "⚠️ ALERTA LOGÍSTICA RJ:
+# 4.5% de Reentrega em 17/09/2026").
+_ASSUNTOS_AUTOMATICOS_IGNORAR = ["ALERTA LOGÍSTICA RJ", "ALERTA LOGISTICA RJ"]
+
+
+def _extrair_pedido_texto_ia(corpo: str, data_email: str, subject: str = "") -> dict | None:
+    """Só roda quando o e-mail não gerou bloco nenhum via parser de tabela/
+    imagem (quem chama decide isso) — não vale gastar em e-mail que já foi
+    processado com sucesso. Best-effort: qualquer falha (API fora, JSON
+    inválido, não é pedido) devolve None, mesmo resultado de "nenhum bloco
+    reconhecido" que já existia antes desse fallback."""
+    if not corpo or len(corpo) < 15:
+        return None
+    if any(a.upper() in (subject or '').upper() for a in _ASSUNTOS_AUTOMATICOS_IGNORAR):
+        return None
+    corpo = _remover_cabecalhos_citacao(corpo)
+    from openai import OpenAI
+    client = OpenAI()
+    try:
+        resp = client.chat.completions.create(
+            model=os.getenv("OPENAI_TEXT_MODEL", "gpt-4o-mini"),
+            messages=[{
+                "role": "user",
+                "content": _PROMPT_TEXTO_PEDIDO.format(subject=subject, data_email=data_email, corpo=corpo[:6000]),
+            }],
+            response_format={"type": "json_object"},
+            temperature=0,
+        )
+        d = json.loads(resp.choices[0].message.content)
+    except Exception as e:
+        print(f"  [AVISO] extração de pedido via IA (texto) falhou: {str(e)[:120]}")
+        return None
+
+    if not _to_bool(d.get('eh_pedido')):
+        return None
+    itens = [it for it in (d.get('itens') or []) if str(it.get('descricao') or '').strip()]
+    if not itens:
+        return None
+    return {
+        'sistema':      str(d.get('sistema') or '').strip(),
+        'cod_cliente':  str(d.get('cod_cliente') or '').strip(),
+        'razao_social': str(d.get('razao_social') or '').strip(),
+        'fantasia':     str(d.get('fantasia') or '').strip(),
+        'cnpj':         str(d.get('cnpj') or '').strip(),
+        'bonificacao':  _to_bool(d.get('bonificacao')),
+        'obs':          str(d.get('obs') or '').strip(),
+        'via_ia_texto': True,
+        'itens': [{
+            'cod_prod':  str(it.get('cod_prod') or '').strip(),
+            'descricao': str(it.get('descricao') or '').strip(),
+            'qt':        int(_num_ia(it.get('qt'))),
+            'preco':     _num_ia(it.get('preco')),
+            'total':     _num_ia(it.get('total')),
+        } for it in itens],
+    }
+
+
 # ── Parsing: texto livre do corpo (data de agendamento + observações) ─────────
 # Pedido do usuário em 2026-09-02: o texto do PRÓPRIO e-mail (fora de
 # tabela/imagem de pedido, que já tem parser dedicado acima) às vezes pede uma
@@ -332,13 +453,16 @@ Texto do e-mail:
 \"\"\""""
 
 
-def _texto_email(html_parts: list) -> str:
-    """Texto legível (sem tags) de todas as partes HTML do e-mail, concatenadas
-    — é sobre ISSO que _extrair_agendamento_email procura data/observações,
-    não sobre o formulário/imagem de pedido (parser à parte)."""
+def _texto_email(html_parts: list, text_parts: list | None = None) -> str:
+    """Texto legível (sem tags) de todas as partes HTML + texto/plano do
+    e-mail, concatenadas — é sobre ISSO que _extrair_agendamento_email e
+    _extrair_pedido_texto_ia procuram data/observações/pedido, não sobre o
+    formulário/imagem de pedido (parser à parte)."""
     textos = []
     for html in html_parts:
         textos.append(BeautifulSoup(html, "html.parser").get_text("\n", strip=True))
+    for txt in (text_parts or []):
+        textos.append(txt)
     return "\n".join(textos).strip()
 
 
@@ -912,9 +1036,9 @@ def main():
                 not entry.get('email_observacoes') or tem_obs_estruturado
             ):
                 msg = service.users().messages().get(userId='me', id=msg_id, format='full').execute()
-                partes_r = {'html_parts': [], 'image_attachment_ids': []}
+                partes_r = {'html_parts': [], 'text_parts': [], 'image_attachment_ids': []}
                 _extract_parts(msg['payload'], partes_r)
-                corpo_r = _corpo_com_obs(_texto_email(partes_r['html_parts']), entry.get('blocos', []))
+                corpo_r = _corpo_com_obs(_texto_email(partes_r['html_parts'], partes_r['text_parts']), entry.get('blocos', []))
                 agendamento_r = _extrair_agendamento_email(corpo_r, entry.get('data_email', ''))
                 if agendamento_r['data_agendamento'] or agendamento_r['observacoes']:
                     entry['email_data_agendamento'] = agendamento_r['data_agendamento']
@@ -922,6 +1046,24 @@ def main():
                     retentativas += 1
                     print(f"  [RETRY OK] '{entry.get('subject','')}': agendamento/observações recuperados")
                     CACHE_PATH.write_text(json.dumps(cache, ensure_ascii=False, indent=2), encoding='utf-8')
+            elif not entry.get('blocos') and not entry.get('_tentou_ia_texto'):
+                # Backfill (pedido do usuário em 2026-09-18): e-mail já visto
+                # ANTES do fallback de IA existir, que na época ficou sem
+                # bloco nenhum (ex: MATEUS CARDOSO - OFF TRADE mandando pedido
+                # fora do template). _tentou_ia_texto marca que já tentou,
+                # pra não gastar OpenAI de novo em todo e-mail genuinamente
+                # não-pedido a cada rodada do cron.
+                msg = service.users().messages().get(userId='me', id=msg_id, format='full').execute()
+                partes_r = {'html_parts': [], 'text_parts': [], 'image_attachment_ids': []}
+                _extract_parts(msg['payload'], partes_r)
+                corpo_ia_r = _texto_email(partes_r['html_parts'], partes_r['text_parts'])
+                extraido_r = _extrair_pedido_texto_ia(corpo_ia_r, entry.get('data_email', ''), entry.get('subject', ''))
+                entry['_tentou_ia_texto'] = True
+                if extraido_r and _norm_sistema(extraido_r.get('sistema', '')) in SISTEMAS_OK:
+                    entry['blocos'] = [extraido_r]
+                    retentativas += 1
+                    print(f"  [RETRY OK] '{entry.get('subject','')}': bloco CRC-4 recuperado via IA (texto)")
+                CACHE_PATH.write_text(json.dumps(cache, ensure_ascii=False, indent=2), encoding='utf-8')
             continue
         novos += 1
 
@@ -930,7 +1072,7 @@ def main():
         subject = headers.get('subject', '')
         data_email = datetime.fromtimestamp(int(msg['internalDate']) / 1000).strftime('%Y-%m-%d')
 
-        partes = {'html_parts': [], 'image_attachment_ids': []}
+        partes = {'html_parts': [], 'text_parts': [], 'image_attachment_ids': []}
         _extract_parts(msg['payload'], partes)
 
         # Nao filtra pelo texto cru do HTML antes de chamar _parse_html_pedido:
@@ -958,14 +1100,28 @@ def main():
 
         blocos_crc4 = [b for b in blocos if _norm_sistema(b.get('sistema', '')) in SISTEMAS_OK]
 
+        tentou_ia_texto = False
         if blocos_crc4:
             print(f"  '{subject}': {len(blocos_crc4)} bloco(s) CRC-4 ({len(blocos) - len(blocos_crc4)} de outra filial ignorado(s))")
         else:
-            print(f"  '{subject}': nenhum bloco CRC-4 reconhecido — ignorado")
+            # Fallback: nem tabela nem imagem acharam nada — antes disso o
+            # e-mail era só descartado (bug real, ver comentário de
+            # _extrair_pedido_texto_ia). Manda o corpo pra IA decidir se é
+            # pedido antes de desistir.
+            corpo_ia = _texto_email(partes['html_parts'], partes['text_parts'])
+            extraido_ia = _extrair_pedido_texto_ia(corpo_ia, data_email, subject)
+            tentou_ia_texto = True
+            if extraido_ia and _norm_sistema(extraido_ia.get('sistema', '')) in SISTEMAS_OK:
+                blocos_crc4 = [extraido_ia]
+                print(f"  '{subject}': 1 bloco CRC-4 recuperado via IA (texto, sem tabela/imagem reconhecida)")
+            elif extraido_ia:
+                print(f"  '{subject}': IA achou pedido mas não confirmou ser CRC-04 (sistema='{extraido_ia.get('sistema','')}') — ignorado")
+            else:
+                print(f"  '{subject}': nenhum bloco CRC-4 reconhecido (nem tabela, nem imagem, nem IA) — ignorado")
 
         agendamento_email = {"data_agendamento": "", "observacoes": ""}
         if blocos_crc4:
-            corpo_completo = _corpo_com_obs(_texto_email(partes['html_parts']), blocos_crc4)
+            corpo_completo = _corpo_com_obs(_texto_email(partes['html_parts'], partes['text_parts']), blocos_crc4)
             agendamento_email = _extrair_agendamento_email(corpo_completo, data_email)
 
         cache[msg_id] = {
@@ -973,6 +1129,7 @@ def main():
             'thread_id': msg.get('threadId', ''),
             'email_data_agendamento': agendamento_email['data_agendamento'],
             'email_observacoes':      agendamento_email['observacoes'],
+            '_tentou_ia_texto': tentou_ia_texto,
         }
 
         # Salva a cada e-mail (não só no final) — cada imagem já custou uma
