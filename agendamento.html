@@ -113,6 +113,61 @@
     .campo-agend.salvo { border-color: var(--green); }
     .campo-agend.erro { border-color: var(--red); }
 
+    .btn-primary {
+      background: var(--accent); color: #1a1608; border: none; font-weight: 700;
+      border-radius: 8px; padding: 9px 16px; font-size: .85rem; cursor: pointer; font-family: inherit;
+    }
+    .btn-primary:hover { opacity: .9; }
+    .btn-primary:disabled { opacity: .5; cursor: not-allowed; }
+
+    /* Modal de agendamento manual — mesmo padrão de preco_promo.html
+       (modal-overlay/modal-card), fundo #14161f mais escuro que --card pra
+       dar profundidade em vez de um preto chapado (2026: "layered darkness"
+       é preferível a superfícies pretas planas em telas escuras). */
+    .modal-overlay {
+      position: fixed; inset: 0; background: rgba(0,0,0,.6);
+      display: flex; align-items: center; justify-content: center; z-index: 100;
+      padding: 20px;
+    }
+    .modal-overlay[hidden] { display: none; }
+    .modal-card {
+      background: #14161f; border: 1px solid var(--border); border-radius: 12px;
+      padding: 22px; width: 100%; max-width: 560px; max-height: 90vh; overflow-y: auto;
+    }
+    .modal-card h3 { font-size: 1.05rem; margin-bottom: 4px; }
+    .modal-card .modal-sub { font-size: .78rem; color: var(--muted); margin-bottom: 18px; }
+    .form-secao { margin-bottom: 18px; }
+    .form-secao h4 {
+      font-size: .68rem; text-transform: uppercase; letter-spacing: .06em;
+      color: var(--muted); margin-bottom: 10px; padding-bottom: 6px;
+      border-bottom: 1px solid var(--border);
+    }
+    .form-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 12px; }
+    .form-campo label { display: block; font-size: .76rem; color: var(--muted); margin-bottom: 5px; }
+    .form-campo input, .form-campo select {
+      background: var(--card2); border: 1px solid var(--border); color: var(--text);
+      border-radius: 8px; padding: 8px 10px; font-size: .86rem; outline: none;
+      font-family: inherit; width: 100%;
+    }
+    .form-campo input:focus, .form-campo select:focus { border-color: var(--blue); }
+    .form-campo input.campo-auto {
+      color: var(--muted); background: #1a1d2b;
+    }
+    .form-campo input.campo-auto.preenchido { color: var(--text); }
+    #cod-manual-status { font-size: .74rem; margin-top: 5px; min-height: 1em; }
+    #cod-manual-status.buscando { color: var(--orange); }
+    #cod-manual-status.ok { color: var(--green); }
+    #cod-manual-status.erro { color: var(--red); }
+    .modal-footer {
+      display: flex; justify-content: flex-end; gap: 10px; margin-top: 4px;
+    }
+    .modal-erro-geral {
+      background: rgba(239,68,68,.1); border: 1px solid rgba(239,68,68,.3);
+      color: var(--red); border-radius: 8px; padding: 8px 12px; font-size: .8rem;
+      margin-bottom: 14px; display: none;
+    }
+    .modal-erro-geral.aberto { display: block; }
+
     @media (max-width: 640px) {
       body { padding: 12px; }
       .kpi { min-width: 130px; padding: 12px 14px; }
@@ -153,7 +208,89 @@
   </select>
   <input type="text" id="busca" placeholder="Buscar por cliente, NF, CNPJ..." oninput="aplicarFiltro()">
   <button class="tab-btn" id="btn-exportar" onclick="exportarCSV()">↓ Exportar CSV</button>
+  <button class="btn-primary" id="btn-agend-manual" onclick="abrirModalAgendManual()">+ Agendamento Manual</button>
   <span class="info" id="info-count"></span>
+</div>
+
+<div class="modal-overlay" id="modal-agend-manual" hidden onclick="if (event.target === this) fecharModalAgendManual()">
+  <div class="modal-card">
+    <h3>Agendamento Manual</h3>
+    <p class="modal-sub">Digite o código do cliente (COD) — RCA, Cliente, CNPJ e Filial são preenchidos automaticamente.</p>
+    <div class="modal-erro-geral" id="form-agend-erro"></div>
+
+    <div class="form-secao">
+      <h4>Cliente</h4>
+      <div class="form-grid">
+        <div class="form-campo">
+          <label for="fm-cod">COD *</label>
+          <input type="text" id="fm-cod" inputmode="numeric" placeholder="Código do cliente" onblur="buscarClienteModalAgend()">
+          <div id="cod-manual-status"></div>
+        </div>
+        <div class="form-campo">
+          <label for="fm-rca">RCA</label>
+          <input type="text" id="fm-rca" class="campo-auto" readonly>
+        </div>
+        <div class="form-campo">
+          <label for="fm-cliente">Cliente</label>
+          <input type="text" id="fm-cliente" class="campo-auto" readonly>
+        </div>
+        <div class="form-campo">
+          <label for="fm-cnpj">CNPJ</label>
+          <input type="text" id="fm-cnpj" class="campo-auto" readonly>
+        </div>
+        <div class="form-campo">
+          <label for="fm-filial">Filial (Bairro)</label>
+          <input type="text" id="fm-filial" class="campo-auto" readonly>
+        </div>
+      </div>
+    </div>
+
+    <div class="form-secao">
+      <h4>Agendamento</h4>
+      <div class="form-grid">
+        <div class="form-campo">
+          <label for="fm-nf">NF</label>
+          <input type="text" id="fm-nf">
+        </div>
+        <div class="form-campo">
+          <label for="fm-valor">Valor</label>
+          <input type="number" step="0.01" id="fm-valor">
+        </div>
+        <div class="form-campo">
+          <label for="fm-data">Data Agend.</label>
+          <input type="date" id="fm-data">
+        </div>
+        <div class="form-campo">
+          <label for="fm-horario">Horário</label>
+          <input type="text" id="fm-horario" placeholder="Ex: 10h às 20h">
+        </div>
+        <div class="form-campo">
+          <label for="fm-status">Status</label>
+          <select id="fm-status">
+            <option value=""></option>
+            <option>A FATURAR</option>
+            <option>EM ROTA</option>
+            <option>FATURADO</option>
+            <option>ENTREGUE</option>
+            <option>CANCELADO</option>
+          </select>
+        </div>
+        <div class="form-campo">
+          <label for="fm-descarga">Descarga PLLT</label>
+          <input type="text" id="fm-descarga">
+        </div>
+      </div>
+      <div class="form-campo" style="margin-top:12px">
+        <label for="fm-obs">Observação</label>
+        <input type="text" id="fm-obs">
+      </div>
+    </div>
+
+    <div class="modal-footer">
+      <button class="tab-btn" onclick="fecharModalAgendManual()">Cancelar</button>
+      <button class="btn-primary" id="btn-salvar-agend-manual" onclick="salvarAgendManual()">Salvar Agendamento</button>
+    </div>
+  </div>
 </div>
 
 <div class="table-wrap">
@@ -375,6 +512,7 @@ function montarTabs() {
   document.getElementById('tabela-cortados').style.display     = _abaAtual === 'cortados'     ? '' : 'none';
   document.getElementById('paginacao-agendamentos').style.display = _abaAtual === 'agendamentos' ? '' : 'none';
   document.getElementById('aviso-edicao-agendamento').style.display = _abaAtual === 'agendamentos' ? '' : 'none';
+  document.getElementById('btn-agend-manual').style.display = _abaAtual === 'agendamentos' ? '' : 'none';
 }
 
 function trocarAba(chave) {
@@ -685,6 +823,117 @@ async function _autoPreencherClienteAgend(item) {
     }
     aplicarFiltro();
   } catch (e) { /* best-effort — segue sem preencher */ }
+}
+
+// ── Modal "Agendamento Manual" (botão + Agendamento Manual, pedido do
+// usuário em 2026-09-18) — cria uma linha nova do zero via
+// POST /api/controle-agendamento/criar (diferente de salvarCampoAgend, que
+// só edita linha já existente). Reaproveita o mesmo lookup por COD
+// (buscarClienteModalAgend chama o mesmo endpoint de _autoPreencherClienteAgend).
+function abrirModalAgendManual() {
+  ['fm-cod', 'fm-rca', 'fm-cliente', 'fm-cnpj', 'fm-filial', 'fm-nf', 'fm-valor',
+   'fm-data', 'fm-horario', 'fm-status', 'fm-descarga', 'fm-obs'].forEach(id => {
+    document.getElementById(id).value = '';
+  });
+  document.getElementById('fm-cliente').classList.remove('preenchido');
+  document.getElementById('cod-manual-status').className = '';
+  document.getElementById('cod-manual-status').textContent = '';
+  document.getElementById('form-agend-erro').classList.remove('aberto');
+  document.getElementById('modal-agend-manual').hidden = false;
+  document.getElementById('fm-cod').focus();
+}
+
+function fecharModalAgendManual() {
+  document.getElementById('modal-agend-manual').hidden = true;
+}
+
+document.addEventListener('keydown', e => {
+  if (e.key === 'Escape' && !document.getElementById('modal-agend-manual').hidden) fecharModalAgendManual();
+});
+
+async function buscarClienteModalAgend() {
+  const cod = document.getElementById('fm-cod').value.trim();
+  const status = document.getElementById('cod-manual-status');
+  ['fm-rca', 'fm-cliente', 'fm-cnpj', 'fm-filial'].forEach(id => document.getElementById(id).value = '');
+  document.getElementById('fm-cliente').classList.remove('preenchido');
+  if (!cod) { status.className = ''; status.textContent = ''; return; }
+
+  status.className = 'buscando';
+  status.textContent = 'Buscando cliente...';
+  try {
+    const resp = await fetch(`/api/controle-agendamento/buscar-cliente?cod=${encodeURIComponent(cod)}`);
+    const d = await resp.json().catch(() => ({}));
+    if (!resp.ok || !d.ok || !d.cliente) {
+      status.className = 'erro';
+      status.textContent = (d && d.motivo) || 'Cliente não encontrado — pode preencher os outros campos manualmente.';
+      return;
+    }
+    document.getElementById('fm-rca').value = d.cliente.rca || '';
+    document.getElementById('fm-cliente').value = d.cliente.cliente || '';
+    document.getElementById('fm-cnpj').value = d.cliente.cnpj || '';
+    document.getElementById('fm-filial').value = d.cliente.bairro || '';
+    document.getElementById('fm-cliente').classList.add('preenchido');
+    status.className = 'ok';
+    status.textContent = 'Cliente encontrado.';
+  } catch (e) {
+    status.className = 'erro';
+    status.textContent = 'Falha ao consultar — pode preencher os outros campos manualmente.';
+  }
+}
+
+async function salvarAgendManual() {
+  const erroBox = document.getElementById('form-agend-erro');
+  erroBox.classList.remove('aberto');
+
+  const cod = document.getElementById('fm-cod').value.trim();
+  if (!cod) {
+    erroBox.textContent = 'Informe o código do cliente (COD).';
+    erroBox.classList.add('aberto');
+    document.getElementById('fm-cod').focus();
+    return;
+  }
+
+  const payload = {
+    COD: cod,
+    RCA: document.getElementById('fm-rca').value.trim(),
+    CLIENTE: document.getElementById('fm-cliente').value.trim(),
+    CNPJ: document.getElementById('fm-cnpj').value.trim(),
+    FILIAL: document.getElementById('fm-filial').value.trim(),
+    NF: document.getElementById('fm-nf').value.trim(),
+    VALOR: document.getElementById('fm-valor').value.trim(),
+    AGENDAMENTO: _isoParaBr(document.getElementById('fm-data').value),
+    HORARIO: document.getElementById('fm-horario').value.trim(),
+    STATUS: document.getElementById('fm-status').value,
+    'DESCARGA PLLT': document.getElementById('fm-descarga').value.trim(),
+    OBS: document.getElementById('fm-obs').value.trim(),
+  };
+
+  const btn = document.getElementById('btn-salvar-agend-manual');
+  btn.disabled = true;
+  btn.textContent = 'Salvando...';
+  try {
+    const resp = await fetch('/api/controle-agendamento/criar', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(payload),
+    });
+    const d = await resp.json().catch(() => ({}));
+    if (!resp.ok || !d.ok) throw new Error(d.motivo || 'Falha ao salvar.');
+
+    const item = { _id: d.linha_id, valor: Number(payload.VALOR) || 0 };
+    COLUNAS_AGEND.forEach(c => { item[c] = payload[c] ?? ''; });
+    LINHAS_AGEND.push(item);
+    fecharModalAgendManual();
+    montarTabs();
+    montarFiltros();
+    aplicarFiltro();
+  } catch (e) {
+    erroBox.textContent = e.message || 'Falha ao salvar.';
+    erroBox.classList.add('aberto');
+  } finally {
+    btn.disabled = false;
+    btn.textContent = 'Salvar Agendamento';
+  }
 }
 
 // Sobrepõe com o estado ao vivo (o _data.js só atualiza no horário do

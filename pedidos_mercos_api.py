@@ -486,6 +486,54 @@ def controle_agendamento_salvar():
     return {"ok": True, "atualizado_em": item["_atualizado_em"]}
 
 
+# Agendamento manual (botão "+ Agendamento Manual" na aba "Planilha de
+# Agendamento") — pedido do usuário em 2026-09-18. Cria uma linha nova do
+# zero (diferente de /salvar, que só edita linha existente). O linha_id
+# sai do MESMO contador "prox_id" que exportacao_controle_agendamento.py usa
+# pra linha importada da planilha — sob o mesmo lock, pra nunca colidir com
+# uma linha nova chegando da planilha da Geovanna ao mesmo tempo.
+@bp_controle_agend.route("/criar", methods=["POST"])
+def controle_agendamento_criar():
+    dados = request.get_json(silent=True) or {}
+    cod = str(dados.get("COD", "")).strip()
+    if not cod:
+        return {"ok": False, "motivo": "Código do cliente (COD) é obrigatório."}, 400
+
+    with _controle_agend_lock:
+        estado = _ler_controle_agend()
+        colunas = estado.get("colunas") or []
+        if not colunas:
+            return {"ok": False, "motivo": "Planilha ainda não foi importada — tente novamente em alguns minutos."}, 503
+
+        linhas = estado.setdefault("linhas", {})
+        prox_id = estado.get("prox_id", 1)
+        # exportacao_controle_agendamento.py também escreve prox_id, mas só
+        # incrementa a partir de linha JÁ EXISTENTE com id numérico maior —
+        # cobre o caso de rodar antes dele ter rodado uma vez sequer.
+        ids_existentes = [int(k) for k in linhas.keys() if k.isdigit()]
+        if ids_existentes:
+            prox_id = max(prox_id, max(ids_existentes) + 1)
+        linha_id = str(prox_id)
+
+        agora = datetime.now().strftime("%d/%m/%Y %H:%M")
+        item = {c: str(dados.get(c, "") or "").strip() for c in colunas}
+        item["_criado_em"] = agora
+        item["_atualizado_em"] = agora
+        item["_origem"] = "manual"
+        linhas[linha_id] = item
+        estado["prox_id"] = prox_id + 1
+
+        try:
+            tmp = _CONTROLE_AGEND_PATH + ".tmp"
+            with open(tmp, "w", encoding="utf-8") as f:
+                json.dump(estado, f, ensure_ascii=False, indent=2)
+            os.replace(tmp, _CONTROLE_AGEND_PATH)
+        except Exception as e:
+            return {"ok": False, "motivo": f"Não consegui salvar ({str(e)[:150]})."}, 500
+
+    return {"ok": True, "linha_id": linha_id, "atualizado_em": agora}
+
+
 # Busca de cliente por COD (CODCLI) pra preencher RCA/CLIENTE/CNPJ/FILIAL
 # automaticamente — pedido do usuário em 2026-09-18. Via subprocess pro
 # pipeline com Oracle (mesmo padrão de preco_promo_buscar_cliente acima,
