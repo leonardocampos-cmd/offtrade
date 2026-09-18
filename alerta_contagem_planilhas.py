@@ -13,6 +13,12 @@ lê), pela instância dedicada "estoque" da Evolution API — via GROUP_JID (o
 usado aqui pra enviar). Instância "estoque" só existe na Evolution da VPS
 (mesma observação de exportacao_estoque_whatsapp.py) — por isso, como aquele
 script, este roda com cron próprio na VPS, fora do main.py.
+
+Além do texto, anexa a própria planilha (pedido do usuário em 2026-09-18,
+"mandar a mensagem e o arquivo") — baixada do Drive via
+baixar_planilhas_drive.py, porque o caminho local sincronizado
+("G:\\Drives compartilhados\\...") não existe na VPS. Falha ao baixar/enviar
+uma planilha não impede o envio das outras nem da mensagem de texto.
 """
 import os
 from datetime import date
@@ -21,7 +27,8 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-from whatsapp_evolution import enviar_whatsapp
+from whatsapp_evolution import enviar_whatsapp, enviar_whatsapp_documento
+from baixar_planilhas_drive import baixar_arquivo
 
 INSTANCIA = "estoque"
 GROUP_JID = "120363021573739336@g.us"
@@ -40,9 +47,6 @@ CRONOGRAMA = {
     ],
 }
 
-PASTA = "Off Trade/Estoque"
-
-
 def montar_mensagem(planilhas):
     linhas = ["*Pedido de contagem de estoque* 📋", ""]
     if len(planilhas) == 1:
@@ -50,8 +54,6 @@ def montar_mensagem(planilhas):
     else:
         linhas.append("Podem atualizar a contagem das planilhas abaixo?")
         linhas.extend(f"• *{p}*" for p in planilhas)
-    linhas.append("")
-    linhas.append(f"_Pasta: {PASTA}_")
     return "\n".join(linhas)
 
 
@@ -70,6 +72,18 @@ def main():
         print(f"OK - pedido de contagem enviado ({', '.join(planilhas)})")
     else:
         print(f"[AVISO] falha ao enviar pedido de contagem: {resp.status_code} - {resp.text[:200]}")
+
+    for nome in planilhas:
+        try:
+            caminho = baixar_arquivo(nome)
+        except Exception as e:
+            print(f"[AVISO] '{nome}' indisponível no Drive ({str(e)[:150]}) — planilha não anexada.")
+            continue
+        resp_arquivo = enviar_whatsapp_documento(GROUP_JID, str(caminho), legenda=nome, instancia=INSTANCIA)
+        if resp_arquivo.status_code < 300:
+            print(f"OK - planilha anexada: {nome}")
+        else:
+            print(f"[AVISO] falha ao anexar '{nome}': {resp_arquivo.status_code} - {resp_arquivo.text[:200]}")
 
 
 if __name__ == "__main__":
