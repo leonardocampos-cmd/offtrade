@@ -96,6 +96,16 @@ EXCLUDE_JS = {
     "nao_pos_sp_data.js", "nao_pos_es_data.js", "nao_pos_mg_data.js",
     "performance_equipe_data.js", "vendedores_auth_data.js",
     "base_ataque_vinhos_data.js",
+    # controle_agendamento_data.js: exportacao_controle_agendamento.py roda só
+    # na VPS, cron próprio (pedido do usuário em 2026-09-18) — motivo mais
+    # forte que staleness: o linha_id de cada registro é sequencial
+    # (prox_id), atribuído na hora da leitura da planilha; se local também
+    # rodasse o script, geraria um controle_agendamento.json com IDs
+    # diferentes dos da VPS, e uma edição salva pelo site (que só fala com
+    # o controle_agendamento.json da VPS via pedidos_mercos_api.py) poderia
+    # bater num linha_id que aponta pra outra linha (ou nenhuma) na cópia
+    # local — corrompendo a edição em vez de só deixar o dado desatualizado.
+    "controle_agendamento_data.js",
 }
 
 

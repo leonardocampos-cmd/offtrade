@@ -116,6 +116,36 @@ NGINX_LOCATION_CONTAGEM_ESTOQUE = """
     }
 """
 
+# preco_promo.html (pedido do usuário em 2026-09-14, saiu do Streamlit) —
+# mesmo processo Flask/porta 5056, blueprint separado (bp_precopromo em
+# pedidos_mercos_api.py).
+NGINX_LOCATION_PRECO_PROMO = """
+    location /api/preco-promo/ {
+        proxy_pass         http://127.0.0.1:5056;
+        proxy_http_version 1.1;
+        proxy_set_header   Host $host;
+        proxy_set_header   X-Real-IP $remote_addr;
+        proxy_set_header   X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header   X-Forwarded-Proto $scheme;
+        proxy_read_timeout 30s;
+    }
+"""
+
+# agendamento.html, aba "Planilha de Agendamento" (pedido do usuário em
+# 2026-09-18) — mesmo processo Flask/porta 5056, blueprint separado
+# (bp_controle_agend em pedidos_mercos_api.py).
+NGINX_LOCATION_CONTROLE_AGEND = """
+    location /api/controle-agendamento/ {
+        proxy_pass         http://127.0.0.1:5056;
+        proxy_http_version 1.1;
+        proxy_set_header   Host $host;
+        proxy_set_header   X-Real-IP $remote_addr;
+        proxy_set_header   X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header   X-Forwarded-Proto $scheme;
+        proxy_read_timeout 30s;
+    }
+"""
+
 
 def ssh_run(client, cmd, check=True):
     _, stdout, stderr = client.exec_command(cmd)
@@ -183,7 +213,7 @@ def deploy():
     ssh_run(client, "rm -f /tmp/crontab_pedidos_mercos.txt", check=False)
     print("   crontab atualizado.")
 
-    print("\n-> Conferindo nginx (locations /api/pedidos-mercos/, /api/estoque-whatsapp/ e /api/contagem-estoque/)...")
+    print("\n-> Conferindo nginx (locations /api/pedidos-mercos/, /api/estoque-whatsapp/, /api/contagem-estoque/, /api/preco-promo/ e /api/controle-agendamento/)...")
     nginx_conf = "/etc/nginx/sites-available/offtrade"
     with sftp.open(nginx_conf) as f:
         conf_atual = f.read().decode("utf-8")
@@ -197,6 +227,8 @@ def deploy():
         ("/api/pedidos-mercos/", NGINX_LOCATION),
         ("/api/estoque-whatsapp/", NGINX_LOCATION_ESTOQUE_WHATSAPP),
         ("/api/contagem-estoque/", NGINX_LOCATION_CONTAGEM_ESTOQUE),
+        ("/api/preco-promo/", NGINX_LOCATION_PRECO_PROMO),
+        ("/api/controle-agendamento/", NGINX_LOCATION_CONTROLE_AGEND),
     ):
         padrao = r"    location " + re.escape(path_prefix) + r" \{.*?\n    \}\n"
         bloco_existente = re.search(padrao, conf_novo, re.DOTALL)
