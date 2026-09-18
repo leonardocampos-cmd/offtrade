@@ -416,9 +416,373 @@ def contagem_estoque_salvar():
     return {"ok": True, "atualizado_em": item["atualizado_em"]}
 
 
+# ── Controle de Agendamento manual (agendamento.html, aba "Planilha de
+# Agendamento") ──────────────────────────────────────────────────────────────
+# Pedido do usuário em 2026-09-18: espelha a aba "controle" de "CONTROLE DE
+# AGEND. geovanna.xlsx" (Drive) numa tabela editável no site — mesmo padrão
+# do bp_contagem acima (autosave por campo, sem login). exportacao_
+# controle_agendamento.py só ADICIONA linha nova a controle_agendamento.json;
+# a edição de campo em si só acontece por aqui, nunca é sobrescrita pelo
+# cron (edição fica "só no site", pedido explícito do usuário — nunca grava
+# de volta na planilha original).
+bp_controle_agend = Blueprint("controle_agendamento", __name__, url_prefix="/api/controle-agendamento")
+
+_CONTROLE_AGEND_PATH = os.path.join(
+    "/opt/offtrade-pipeline" if RUNTIME == "vps" else r"G:\Meu Drive\offtrade",
+    "controle_agendamento.json",
+)
+_controle_agend_lock = threading.Lock()
+
+
+def _ler_controle_agend():
+    if not os.path.exists(_CONTROLE_AGEND_PATH):
+        return {"linhas": {}, "colunas": []}
+    try:
+        with open(_CONTROLE_AGEND_PATH, "r", encoding="utf-8") as f:
+            return json.load(f)
+    except Exception:
+        return {"linhas": {}, "colunas": []}
+
+
+@bp_controle_agend.route("/estado", methods=["GET"])
+def controle_agendamento_estado():
+    """Estado ao vivo — a página busca isso no load pra sobrepor o que já
+    veio no controle_agendamento_data.js (só atualiza no horário do cron),
+    já que edições acontecem só por aqui, a qualquer momento."""
+    return _ler_controle_agend()
+
+
+@bp_controle_agend.route("/salvar", methods=["POST"])
+def controle_agendamento_salvar():
+    dados = request.get_json(silent=True) or {}
+    linha_id = str(dados.get("linha_id", "")).strip()
+    if not linha_id:
+        return {"ok": False, "motivo": "linha_id obrigatório."}, 400
+
+    campo = str(dados.get("campo", "")).strip()
+    valor = dados.get("valor")
+
+    with _controle_agend_lock:
+        estado = _ler_controle_agend()
+        colunas = estado.get("colunas") or []
+        if campo not in colunas:
+            return {"ok": False, "motivo": "campo inválido."}, 400
+
+        linhas = estado.setdefault("linhas", {})
+        item = linhas.get(linha_id)
+        if item is None:
+            return {"ok": False, "motivo": "linha não encontrada."}, 404
+
+        item[campo] = valor
+        item["_atualizado_em"] = datetime.now().strftime("%d/%m/%Y %H:%M")
+        try:
+            tmp = _CONTROLE_AGEND_PATH + ".tmp"
+            with open(tmp, "w", encoding="utf-8") as f:
+                json.dump(estado, f, ensure_ascii=False, indent=2)
+            os.replace(tmp, _CONTROLE_AGEND_PATH)
+        except Exception as e:
+            return {"ok": False, "motivo": f"Não consegui salvar ({str(e)[:150]})."}, 500
+
+    return {"ok": True, "atualizado_em": item["_atualizado_em"]}
+
+
+# Busca de cliente por COD (CODCLI) pra preencher RCA/CLIENTE/CNPJ/FILIAL
+# automaticamente — pedido do usuário em 2026-09-18. Via subprocess pro
+# pipeline com Oracle (mesmo padrão de preco_promo_buscar_cliente acima,
+# essa API roda num venv leve sem Oracle). Página é CRC FILIAL 4 (RJ), só
+# essa base importa aqui — diferente do buscar_cliente_preco_promo.py
+# multi-base usado no simulador.
+@bp_controle_agend.route("/buscar-cliente", methods=["GET"])
+def controle_agendamento_buscar_cliente():
+    cod = str(request.args.get("cod", "")).strip()
+    if not cod.isdigit():
+        return {"ok": False, "motivo": "Código de cliente inválido."}, 400
+
+    _env = {k: v for k, v in os.environ.items() if k != "ORACLE_LIB"}
+    try:
+        resp = subprocess.run(
+            [_PIPELINE_PYTHON, "buscar_cliente_controle_agendamento.py", cod],
+            cwd=_PIPELINE_DIR, capture_output=True, text=True, timeout=30, env=_env,
+        )
+    except subprocess.TimeoutExpired:
+        return {"ok": False, "motivo": "Consulta ao Oracle demorou demais (>30s)."}, 504
+    except Exception as e:
+        return {"ok": False, "motivo": f"Falha ao consultar: {str(e)[:200]}"}, 500
+
+    linhas = [l for l in (resp.stdout or "").splitlines() if l.strip()]
+    try:
+        resultado = json.loads(linhas[-1]) if linhas else {}
+    except (json.JSONDecodeError, ValueError):
+        resultado = {}
+    if not isinstance(resultado, dict) or "ok" not in resultado:
+        saida = ((resp.stdout or "") + (resp.stderr or ""))[-300:]
+        return {"ok": False, "motivo": f"Resposta inesperada do Oracle: {saida}"}, 500
+    return resultado
+
+
+# ── Preço Promo (preco_promo.html) ──────────────────────────────────────────
+# Pedido do usuário em 2026-09-14: saiu do Streamlit (app_pages/Preco_Promo.py,
+# removido) pra virar HTML estático + esse blueprint — mesmo padrão de
+# migração que "Credito e Cadastro" já tinha seguido em 2026-08-30. Preços
+# ESCALONADOS POR FAIXA DE VOLUME (pedido do usuário, a partir de "PREÇOS
+# ESCALONADOS_ESPUMANTES PERINI E LVMH.xlsx"): cada produto tem, por região
+# (RJ/SP/GERAL), uma lista de faixas (volume_min/volume_max/preco/
+# preco_vista/prazo_especial/limitador) — substitui o cadastro antigo
+# (1 preço + 1 limitador fixo por produto). Restrito a
+# leonardo.campos@rigarr.com.br do lado do cliente (preco_promo.html só
+# libera edição se sessionStorage.rg_email bater, mesmo tipo de gate que o
+# Streamlit tinha via SUPER_ADMIN_EMAIL) — esse blueprint em si não valida
+# identidade (mesmo nível de confiança dos outros blueprints deste arquivo,
+# nenhum tem auth de servidor).
+bp_precopromo = Blueprint("preco_promo", __name__, url_prefix="/api/preco-promo")
+
+_PRECO_PROMO_PATH = os.path.join(
+    "/opt/offtrade-pipeline" if RUNTIME == "vps" else r"G:\Meu Drive\offtrade",
+    "preco_promo.json",
+)
+_preco_promo_lock = threading.Lock()
+
+
+def _ler_preco_promo():
+    if not os.path.exists(_PRECO_PROMO_PATH):
+        return {"produtos": []}
+    try:
+        with open(_PRECO_PROMO_PATH, "r", encoding="utf-8") as f:
+            cfg = json.load(f)
+    except Exception:
+        return {"produtos": []}
+    # Migra formato antigo (preco_promo/limitador direto no produto, sem
+    # "regioes") pra 1 região GERAL com 1 faixa única — preserva cadastro
+    # anterior sem exigir recadastro manual (mesma lógica que estava em
+    # Preco_Promo.py antes da migração pra HTML).
+    mudou = False
+    for p in cfg.get("produtos", []):
+        if "regioes" not in p:
+            p["regioes"] = {"GERAL": [{
+                "volume_min": 0, "volume_max": None,
+                "preco": p.pop("preco_promo", 0), "preco_vista": None,
+                "prazo_especial": None, "limitador": p.pop("limitador", "") or None,
+            }]}
+            mudou = True
+    if mudou:
+        _salvar_preco_promo(cfg)
+    return cfg
+
+
+def _salvar_preco_promo(cfg):
+    tmp = _PRECO_PROMO_PATH + ".tmp"
+    with open(tmp, "w", encoding="utf-8") as f:
+        json.dump(cfg, f, ensure_ascii=False, indent=2)
+    os.replace(tmp, _PRECO_PROMO_PATH)
+
+
+@bp_precopromo.route("/estado", methods=["GET"])
+def preco_promo_estado():
+    return _ler_preco_promo()
+
+
+# Busca de cliente (campo "Cliente" da intenção de venda no simulador) —
+# via subprocess pro pipeline com Oracle (mesmo padrão de dados_nfe() e
+# buscar_produto_preco_promo.py, essa API roda num venv leve sem Oracle).
+# Pedido do usuário em 2026-09-15: "a caixa de pesquisa de Cliente deve
+# buscar no banco de dados pelo nome ou código".
+@bp_precopromo.route("/buscar-cliente", methods=["GET"])
+def preco_promo_buscar_cliente():
+    termo = str(request.args.get("termo", "")).strip()
+    if not termo or len(termo) < 2:
+        return {"ok": False, "motivo": "Termo muito curto."}, 400
+
+    _env = {k: v for k, v in os.environ.items() if k != "ORACLE_LIB"}
+    try:
+        resp = subprocess.run(
+            [_PIPELINE_PYTHON, "buscar_cliente_preco_promo.py", termo],
+            cwd=_PIPELINE_DIR, capture_output=True, text=True, timeout=30, env=_env,
+        )
+    except subprocess.TimeoutExpired:
+        return {"ok": False, "motivo": "Consulta ao Oracle demorou demais (>30s)."}, 504
+    except Exception as e:
+        return {"ok": False, "motivo": f"Falha ao consultar: {str(e)[:200]}"}, 500
+
+    linhas = [l for l in (resp.stdout or "").splitlines() if l.strip()]
+    try:
+        resultado = json.loads(linhas[-1]) if linhas else {}
+    except (json.JSONDecodeError, ValueError):
+        resultado = {}
+    if not isinstance(resultado, dict) or "ok" not in resultado:
+        saida = ((resp.stdout or "") + (resp.stderr or ""))[-300:]
+        return {"ok": False, "motivo": f"Resposta inesperada do Oracle: {saida}"}, 500
+    return resultado
+
+
+@bp_precopromo.route("/salvar", methods=["POST"])
+def preco_promo_salvar():
+    dados = request.get_json(silent=True) or {}
+    codprod = str(dados.get("codprod", "")).strip()
+    descricao = str(dados.get("descricao", "")).strip()
+    fornecedor = str(dados.get("fornecedor", "")).strip() or None
+    regioes = [str(r).strip() for r in (dados.get("regioes") or []) if str(r).strip()]
+    faixas_in = dados.get("faixas") or []
+
+    if not codprod or not descricao:
+        return {"ok": False, "motivo": "Produto inválido."}, 400
+    if not regioes:
+        return {"ok": False, "motivo": "Selecione ao menos uma região."}, 400
+
+    faixas = []
+    for f in faixas_in:
+        preco = f.get("preco")
+        if not preco or float(preco) <= 0:
+            continue
+        vmax = f.get("volume_max")
+        pvista = f.get("preco_vista")
+        palud = f.get("preco_alud")
+        faixas.append({
+            "volume_min": int(f.get("volume_min") or 0),
+            "volume_max": int(vmax) if vmax not in (None, "") else None,
+            "preco": round(float(preco), 2),
+            "preco_vista": round(float(pvista), 2) if pvista not in (None, "") else None,
+            # Preço acelerado condicionado a incluir Alud no pedido (10% do
+            # valor faturado) — pedido do usuário em 2026-09-14, pro
+            # simulador calcular sem precisar extrair número de texto livre.
+            "preco_alud": round(float(palud), 2) if palud not in (None, "") else None,
+            "prazo_especial": (f.get("prazo_especial") or "").strip() or None,
+            "limitador": (f.get("limitador") or "").strip() or None,
+        })
+    if not faixas:
+        return {"ok": False, "motivo": "Cadastre ao menos uma faixa com preço maior que zero."}, 400
+    faixas.sort(key=lambda x: x["volume_min"])
+
+    with _preco_promo_lock:
+        cfg = _ler_preco_promo()
+        produtos = {p["codprod"]: p for p in cfg.get("produtos", [])}
+        alvo = produtos.get(codprod, {"codprod": codprod, "descricao": descricao, "regioes": {}})
+        alvo["descricao"] = descricao
+        if fornecedor:
+            alvo["fornecedor"] = fornecedor
+        for regiao in regioes:
+            alvo["regioes"][regiao] = faixas
+        alvo["atualizado_em"] = datetime.now().strftime("%d/%m/%Y %H:%M")
+        alvo["atualizado_por"] = (str(dados.get("usuario") or "")).strip() or "—"
+        produtos[codprod] = alvo
+        cfg["produtos"] = list(produtos.values())
+        _salvar_preco_promo(cfg)
+
+    return {"ok": True, "atualizado_em": alvo["atualizado_em"]}
+
+
+@bp_precopromo.route("/remover", methods=["POST"])
+def preco_promo_remover():
+    dados = request.get_json(silent=True) or {}
+    codprod = str(dados.get("codprod", "")).strip()
+    if not codprod:
+        return {"ok": False, "motivo": "codprod obrigatório."}, 400
+    with _preco_promo_lock:
+        cfg = _ler_preco_promo()
+        cfg["produtos"] = [p for p in cfg.get("produtos", []) if p["codprod"] != codprod]
+        _salvar_preco_promo(cfg)
+    return {"ok": True}
+
+
+# ── Intenção de venda (simulador em preco_promo.html) ───────────────────────
+# Pedido do usuário em 2026-09-15: registrar no simulador quando o vendedor
+# monta um pedido e PRETENDE fechar com tal cliente/plano de pagamento —
+# aparece em perini_vendas.html acima da tabela de conferência, pra cruzar
+# depois com a venda real que entrar no Winthor. Sem login/CNPJ formal aqui
+# (preco_promo.html é público de propósito) — cliente é texto livre.
+_INTENCAO_VENDA_PATH = os.path.join(
+    "/opt/offtrade-pipeline" if RUNTIME == "vps" else r"G:\Meu Drive\offtrade",
+    "intencao_venda.json",
+)
+_intencao_venda_lock = threading.Lock()
+
+
+def _ler_intencoes_venda():
+    if not os.path.exists(_INTENCAO_VENDA_PATH):
+        return {"intencoes": []}
+    try:
+        with open(_INTENCAO_VENDA_PATH, "r", encoding="utf-8") as f:
+            return json.load(f)
+    except Exception:
+        return {"intencoes": []}
+
+
+def _salvar_intencoes_venda(cfg):
+    tmp = _INTENCAO_VENDA_PATH + ".tmp"
+    with open(tmp, "w", encoding="utf-8") as f:
+        json.dump(cfg, f, ensure_ascii=False, indent=2)
+    os.replace(tmp, _INTENCAO_VENDA_PATH)
+
+
+@bp_precopromo.route("/intencao-venda", methods=["GET"])
+def intencao_venda_listar():
+    return _ler_intencoes_venda()
+
+
+@bp_precopromo.route("/intencao-venda", methods=["POST"])
+def intencao_venda_salvar():
+    dados = request.get_json(silent=True) or {}
+    cliente = str(dados.get("cliente", "")).strip()
+    plano_pagamento = str(dados.get("plano_pagamento", "")).strip()
+    if not cliente:
+        return {"ok": False, "motivo": "Informe o cliente."}, 400
+    if not plano_pagamento:
+        return {"ok": False, "motivo": "Informe o plano de pagamento."}, 400
+
+    itens = []
+    for it in (dados.get("itens") or []):
+        codprod = str(it.get("codprod", "")).strip()
+        if not codprod:
+            continue
+        itens.append({
+            "codprod": codprod,
+            "descricao": str(it.get("descricao", "")).strip(),
+            "qtd": float(it.get("qtd") or 0),
+        })
+
+    registro = {
+        "id": f"{int(time.time() * 1000)}",
+        "criado_em": datetime.now().strftime("%d/%m/%Y %H:%M"),
+        "usuario": str(dados.get("usuario", "")).strip() or "—",
+        "cliente": cliente,
+        "plano_pagamento": plano_pagamento,
+        "sistema": str(dados.get("sistema", "")).strip(),
+        "estado": str(dados.get("estado", "")).strip(),
+        "qtd_total": float(dados.get("qtd_total") or 0),
+        "valor_unitario": float(dados.get("valor_unitario") or 0),
+        # True/False/None (None = mês sem prazo especial cadastrado, não dá
+        # pra confirmar) — calculado no navegador (preco_promo.html::
+        # _condicaoIntencao) contra o mês real de hoje, não o mês da venda
+        # futura (que ainda não aconteceu).
+        "dentro_das_condicoes": dados.get("dentro_das_condicoes"),
+        "itens": itens,
+    }
+
+    with _intencao_venda_lock:
+        cfg = _ler_intencoes_venda()
+        cfg.setdefault("intencoes", []).insert(0, registro)
+        _salvar_intencoes_venda(cfg)
+
+    return {"ok": True, "id": registro["id"]}
+
+
+@bp_precopromo.route("/intencao-venda", methods=["DELETE"])
+def intencao_venda_remover():
+    dados = request.get_json(silent=True) or {}
+    id_alvo = str(dados.get("id", "")).strip()
+    if not id_alvo:
+        return {"ok": False, "motivo": "id obrigatório."}, 400
+    with _intencao_venda_lock:
+        cfg = _ler_intencoes_venda()
+        cfg["intencoes"] = [i for i in cfg.get("intencoes", []) if i.get("id") != id_alvo]
+        _salvar_intencoes_venda(cfg)
+    return {"ok": True}
+
+
 app.register_blueprint(bp)
 app.register_blueprint(bp_estoque)
 app.register_blueprint(bp_contagem)
+app.register_blueprint(bp_controle_agend)
+app.register_blueprint(bp_precopromo)
 
 if __name__ == "__main__":
     debug = RUNTIME != "vps"

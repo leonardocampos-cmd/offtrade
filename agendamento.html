@@ -207,6 +207,12 @@
 const DATA = typeof AGENDAMENTO_DATA !== 'undefined' ? AGENDAMENTO_DATA : null;
 const CONTROLE = typeof CONTROLE_AGENDAMENTO_DATA !== 'undefined' ? CONTROLE_AGENDAMENTO_DATA : null;
 const COLUNAS_AGEND = CONTROLE ? (CONTROLE.colunas || []) : [];
+// SISTEMA fica fora da exibição (pedido do usuário em 2026-09-18) — a coluna
+// vem bagunçada na planilha da Geovanna (nem sempre é "CRC"; várias linhas
+// têm nome de RCA nesse campo por erro de preenchimento), sem uso real pra
+// quem edita a tabela. Continua existindo em COLUNAS_AGEND/item[...] (não
+// mexe no dado bruto), só não aparece na tabela nem no CSV.
+const COLUNAS_AGEND_VISIVEIS = COLUNAS_AGEND.filter(c => c.trim().toUpperCase() !== 'SISTEMA');
 let LINHAS_AGEND = CONTROLE ? Object.entries(CONTROLE.linhas || {}).map(([id, v]) => ({ _id: id, ...v, valor: Number(v['VALOR']) || 0 })) : [];
 let paginaAgend = 1;
 const TAM_PAGINA_AGEND = 100; // planilha real passa de 1000 linhas — sem paginação o navegador trava renderizando tudo
@@ -578,7 +584,7 @@ function renderAgendamentos(itensFiltrados) {
   // Cabeçalho dinâmico — as colunas vêm da planilha e podem mudar sem
   // aviso (ver docstring de exportacao_controle_agendamento.py).
   document.getElementById('thead-agendamentos').innerHTML =
-    COLUNAS_AGEND.map(c => `<th onclick="ordenarPorAgend('${c.replace(/'/g, "\\'")}')">${_esc(c)}</th>`).join('');
+    COLUNAS_AGEND_VISIVEIS.map(c => `<th onclick="ordenarPorAgend('${c.replace(/'/g, "\\'")}')">${_esc(c)}</th>`).join('');
 
   const totalPaginas = Math.max(1, Math.ceil(itensFiltrados.length / TAM_PAGINA_AGEND));
   paginaAgend = Math.min(Math.max(1, paginaAgend), totalPaginas);
@@ -591,12 +597,12 @@ function renderAgendamentos(itensFiltrados) {
 
   const tbody = document.getElementById('tbody-agendamentos');
   if (!pagina.length) {
-    tbody.innerHTML = `<tr><td colspan="${COLUNAS_AGEND.length}" class="empty">Nenhum registro encontrado.</td></tr>`;
+    tbody.innerHTML = `<tr><td colspan="${COLUNAS_AGEND_VISIVEIS.length}" class="empty">Nenhum registro encontrado.</td></tr>`;
     return;
   }
   tbody.innerHTML = pagina.map(item => `
     <tr class="linha" style="cursor:default">
-      ${COLUNAS_AGEND.map(c => `<td>${_campoAgend(item, c)}</td>`).join('')}
+      ${COLUNAS_AGEND_VISIVEIS.map(c => `<td>${_campoAgend(item, c)}</td>`).join('')}
     </tr>
   `).join('');
 }
@@ -632,10 +638,53 @@ async function salvarCampoAgend(input, isData) {
     input.classList.add('salvo');
     setTimeout(() => input.classList.remove('salvo'), 1200);
     aplicarFiltro();
+    // Pedido do usuário em 2026-09-18: RCA/CLIENTE/CNPJ/FILIAL preenchidos
+    // automaticamente a partir do código do cliente (COD = CODCLI na CRC) —
+    // dispara só quando o próprio COD muda de verdade (guard acima já
+    // ignorou o caso de salvar o mesmo valor).
+    if (campo === 'COD') _autoPreencherClienteAgend(item);
   } catch (e) {
     input.classList.remove('salvando');
     input.classList.add('erro');
   }
+}
+
+// Grava um campo direto (sem <input> associado) — usado pelo auto-
+// preenchimento abaixo, que atualiza vários campos de uma vez a partir do
+// resultado da busca por COD.
+async function _salvarCampoAgendValor(item, campo, valor) {
+  const resp = await fetch('/api/controle-agendamento/salvar', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ linha_id: item._id, campo, valor }),
+  });
+  const d = await resp.json().catch(() => ({}));
+  if (!resp.ok || !d.ok) throw new Error(d.motivo || 'Falha ao salvar');
+  item[campo] = valor;
+}
+
+// Busca o cliente pelo COD (CODCLI na CRC — única base que essa página
+// atende) e preenche RCA/CLIENTE/CNPJ/FILIAL. Cada coluna só é sobrescrita
+// se existir na planilha (COLUNAS_AGEND) e o resultado da busca não vier
+// vazio — best-effort, silencioso em caso de erro (usuário ainda pode
+// preencher manualmente se a busca falhar ou o cliente não for encontrado).
+const _CAMPOS_AUTO_CLIENTE_AGEND = { cliente: 'CLIENTE', cnpj: 'CNPJ', bairro: 'FILIAL', rca: 'RCA' };
+
+async function _autoPreencherClienteAgend(item) {
+  const cod = (item['COD'] || '').trim();
+  if (!cod) return;
+  try {
+    const resp = await fetch(`/api/controle-agendamento/buscar-cliente?cod=${encodeURIComponent(cod)}`);
+    const d = await resp.json().catch(() => ({}));
+    if (!resp.ok || !d.ok || !d.cliente) return;
+    for (const [chaveApi, coluna] of Object.entries(_CAMPOS_AUTO_CLIENTE_AGEND)) {
+      if (!COLUNAS_AGEND.includes(coluna)) continue;
+      const valor = (d.cliente[chaveApi] || '').trim();
+      if (!valor) continue;
+      await _salvarCampoAgendValor(item, coluna, valor);
+    }
+    aplicarFiltro();
+  } catch (e) { /* best-effort — segue sem preencher */ }
 }
 
 // Sobrepõe com o estado ao vivo (o _data.js só atualiza no horário do
@@ -783,8 +832,8 @@ function exportarCSV() {
 
   if (_abaAtual === 'agendamentos') {
     const itens = _agendFiltradosOrdenados();
-    const header = COLUNAS_AGEND;
-    const linhas = itens.map(i => COLUNAS_AGEND.map(c => i[c] ?? ''));
+    const header = COLUNAS_AGEND_VISIVEIS;
+    const linhas = itens.map(i => COLUNAS_AGEND_VISIVEIS.map(c => i[c] ?? ''));
     _baixarCsv(header, linhas, 'agendamento_planilha');
   } else if (_abaAtual === 'comparativo') {
     let pedidos = DATA.comparativo || [];
