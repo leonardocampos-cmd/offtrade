@@ -279,6 +279,12 @@ def _cache(nome, arquivo, carregar):
             return []
 
 
+# PCSUPERV.CODCOORDENADOR aponta pra PCCOORDENADORVENDA, que o usuário Oracle deste projeto não
+# consegue ler (ORA-00942). Enquanto o DBA não liberar o SELECT, o mapa código -> pessoa fica aqui
+# (confirmado pelo usuário em 2026-09-19: coordenador 1 = João Pedro, RCA 172).
+COORDENADORES = {1: {"nome": "João Pedro", "codusur": 172}}
+
+
 # Regra de quem é promotor (pedido do usuário em 2026-09-19): PCUSUARI.TIPOVEND = 'P' e supervisor 238.
 # Quem bate com a regra vira promotor sozinho (ver sincronizar_promotores); o gestor ainda pode
 # desativar alguém ou adicionar manualmente um RCA fora da regra.

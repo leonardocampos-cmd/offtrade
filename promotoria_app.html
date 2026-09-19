@@ -16,7 +16,8 @@
 *{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
 html,body{margin:0;background:var(--bg);color:var(--tx);font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;font-size:16px}
 body{padding-bottom:calc(72px + env(safe-area-inset-bottom))}
-header{position:sticky;top:0;z-index:20;background:var(--bg);padding:calc(10px + env(safe-area-inset-top)) 16px 10px;border-bottom:1px solid var(--line);display:flex;align-items:center;gap:10px}
+header{position:sticky;top:0;z-index:20;background:var(--bg);padding:calc(10px + env(safe-area-inset-top)) 16px 10px;border-bottom:1px solid var(--line);display:flex;align-items:center;flex-wrap:wrap;gap:10px}
+.coordbar{flex-basis:100%;margin:-2px 0 0;padding:6px 10px;background:#1e3a8a;color:#dbeafe;border-radius:8px;font-size:13px}
 header h1{font-size:17px;margin:0;flex:1}
 header small{color:var(--mut);display:block;font-weight:400;font-size:12px}
 main{padding:14px 16px;max-width:760px;margin:0 auto}
@@ -217,7 +218,7 @@ function pararGPS() { if (watchId !== null) navigator.geolocation.clearWatch(wat
 function shell(titulo, sub, corpo, abas) {
   $('#app').innerHTML = `<header><h1>${esc(titulo)}<small>${esc(sub || '')}</small></h1>
     ${S.perfil === 'promotor' ? '<span class="dot" id="gpsdot" title="GPS"></span>' : ''}
-    <button class="sec sm" onclick="sair()">Sair</button></header><main>${corpo}</main>
+    <button class="sec sm" onclick="sair()">Sair</button>${S.perfil === 'gestor' && S._coord ? `<div class="coordbar">👤 Coordenador: <b>${esc(S._coord)}</b></div>` : ''}</header><main>${corpo}</main>
     <nav>${abas.map(a => `<a href="#" class="${S.tela === a[0] ? 'on' : ''}" onclick="ir('${a[0]}');return false"><b>${a[1]}</b>${a[2]}</a>`).join('')}</nav>`;
   if (S.gps && $('#gpsdot')) $('#gpsdot').className = 'dot ok';
 }
@@ -230,7 +231,8 @@ function iniciar() {
   if (!S.tok) return telaLogin();
   S.tela = S.tela || (S.perfil === 'gestor' ? 'mapa' : 'hoje');
   if (S.perfil === 'promotor') iniciarGPS();
-  render();
+  if (S.perfil === 'gestor' && !S._coord) api('/g/coordenadores').then(c => { S._coord = c.map(x => x.nome).join(' · '); }).catch(() => {}).finally(render);
+  else render();
 }
 
 /* ═════════ PROMOTOR ═════════ */
