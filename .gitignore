@@ -45,3 +45,6 @@ promotoria_analises_ia.json
 # estoque_whatsapp_data.js, o resultado final, é publicado).
 estoque_whatsapp_raw.json
 estoque_whatsapp_matches.json
+
+# App de Promotoria: banco, fotos e secret.key (assina os logins) ficam só no servidor/local — nunca no git
+promo_app_data/
