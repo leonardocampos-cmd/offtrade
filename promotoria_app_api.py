@@ -102,6 +102,10 @@ CREATE TABLE IF NOT EXISTS respostas(
   pergunta_id TEXT, codusur INTEGER, codcli INTEGER,
   texto TEXT, numero REAL, foto TEXT, lat REAL, lng REAL, ts TEXT,
   UNIQUE(visita_id, tarefa_id, pergunta_id));
+CREATE TABLE IF NOT EXISTS lojas_local(
+  codcli INTEGER PRIMARY KEY, lat REAL, lng REAL, por TEXT, ts TEXT);
+CREATE TABLE IF NOT EXISTS geocache(
+  codcli INTEGER PRIMARY KEY, lat REAL, lng REAL, precisao TEXT, endereco_usado TEXT, ts TEXT);
 CREATE TABLE IF NOT EXISTS pings(
   id INTEGER PRIMARY KEY AUTOINCREMENT, codusur INTEGER, ts TEXT, data TEXT,
   lat REAL, lng REAL, acc REAL);
@@ -127,7 +131,20 @@ def _init_db():
     c.close()
 
 
+
+def _migrar():
+    c = sqlite3.connect(DB_PATH)
+    tem = {r[1] for r in c.execute("PRAGMA table_info(visitas)")}
+    for col, tipo in (("in_fonte", "TEXT"), ("in_raio", "REAL"), ("in_status", "TEXT"),
+                      ("out_fonte", "TEXT"), ("out_raio", "REAL"), ("out_status", "TEXT")):
+        if col not in tem:
+            c.execute(f"ALTER TABLE visitas ADD COLUMN {col} {tipo}")
+    c.commit()
+    c.close()
+
+
 _init_db()
+_migrar()
 
 
 def rows(sql, args=()):
@@ -212,31 +229,51 @@ _mem = {}
 _lock = threading.RLock()   # reentrante: _carregar_lojas() chama rcas() sob o mesmo lock
 
 
+_atualizando = set()
+
+
+def _atualizar_em_segundo_plano(nome, arquivo, carregar):
+    try:
+        dados = carregar()
+        arquivo.write_text(json.dumps(dados, ensure_ascii=False), encoding="utf-8")
+        _mem[nome] = (time.time(), dados)
+    except Exception as e:
+        print(f"[AVISO] {nome}: não consegui atualizar ({e}); mantendo a cópia anterior")
+        if nome in _mem:
+            _mem[nome] = (time.time() - CACHE_TTL_S + 300, _mem[nome][1])   # tenta de novo em 5 min
+    finally:
+        _atualizando.discard(nome)
+
+
 def _cache(nome, arquivo, carregar):
+    """Cache em memória + disco. Cache vencido NUNCA trava a busca: devolve a cópia antiga e
+    atualiza numa thread (só o primeiro carregamento sem nenhuma cópia espera o Oracle)."""
     with _lock:
         c = _mem.get(nome)
         if c and time.time() - c[0] < CACHE_TTL_S:
             return c[1]
+        if c:
+            if nome not in _atualizando:
+                _atualizando.add(nome)
+                threading.Thread(target=_atualizar_em_segundo_plano, args=(nome, arquivo, carregar), daemon=True).start()
+            return c[1]
+        if arquivo.exists():                                   # 1º acesso após reiniciar: usa o disco e atualiza depois
+            try:
+                dados = json.loads(arquivo.read_text(encoding="utf-8"))
+                _mem[nome] = (time.time() - CACHE_TTL_S + 1, dados)   # já vencido -> próxima chamada dispara a atualização
+                _atualizando.add(nome)
+                threading.Thread(target=_atualizar_em_segundo_plano, args=(nome, arquivo, carregar), daemon=True).start()
+                return dados
+            except Exception:
+                pass
         try:
             dados = carregar()
             arquivo.write_text(json.dumps(dados, ensure_ascii=False), encoding="utf-8")
             _mem[nome] = (time.time(), dados)
             return dados
         except Exception as e:
-            print(f"[AVISO] {nome}: Oracle indisponível ({e}); usando cache em disco")
-            if c:
-                return c[1]
-            if arquivo.exists():
-                dados = json.loads(arquivo.read_text(encoding="utf-8"))
-                _mem[nome] = (time.time() - CACHE_TTL_S + 300, dados)   # tenta de novo em 5 min
-                return dados
+            print(f"[AVISO] {nome}: Oracle indisponível ({e})")
             return []
-
-
-# PCSUPERV.CODCOORDENADOR aponta pra PCCOORDENADORVENDA, que o usuário Oracle deste projeto não
-# consegue ler (ORA-00942). Enquanto o DBA não liberar o SELECT, o mapa código -> pessoa fica aqui
-# (confirmado pelo usuário em 2026-09-19: coordenador 1 = João Pedro, RCA 172).
-COORDENADORES = {1: {"nome": "João Pedro", "codusur": 172}}
 
 
 # Regra de quem é promotor (pedido do usuário em 2026-09-19): PCUSUARI.TIPOVEND = 'P' e supervisor 238.
@@ -258,24 +295,29 @@ def _carregar_rcas():
         "SELECT CODUSUR, NOME, ESTADO, CODSUPERVISOR, BLOQUEIO, TIPOVEND FROM PCUSUARI "
         "WHERE DTEXCLUSAO IS NULL ORDER BY NOME", meta.engine, "PCUSUARI")
     try:
-        sups = {int(r.CODSUPERVISOR): ((r.NOME or "").strip(), None if r.CODCOORDENADOR != r.CODCOORDENADOR or r.CODCOORDENADOR is None else int(r.CODCOORDENADOR))
+        sups = {int(r.CODSUPERVISOR): (_s(r.NOME), None if r.CODCOORDENADOR != r.CODCOORDENADOR or r.CODCOORDENADOR is None else int(r.CODCOORDENADOR))
                 for r in meta.carregar_dados("SELECT CODSUPERVISOR, NOME, CODCOORDENADOR FROM PCSUPERV", meta.engine, "PCSUPERV").itertuples()}
     except Exception:
         sups = {}
     out = []
     for r in df.itertuples():
         sup = None if r.CODSUPERVISOR is None or r.CODSUPERVISOR != r.CODSUPERVISOR else int(r.CODSUPERVISOR)
-        out.append({"codusur": int(r.CODUSUR), "nome": (r.NOME or "").strip(), "estado": r.ESTADO,
+        out.append({"codusur": int(r.CODUSUR), "nome": _s(r.NOME), "estado": _s(r.ESTADO),
                     "supervisor": sup, "supervisor_nome": sups.get(sup, ("", None))[0],
-                    "coordenador": sups.get(sup, ("", None))[1], "bloqueado": r.BLOQUEIO == "S", "tipovend": (r.TIPOVEND or "").strip()})
+                    "coordenador": sups.get(sup, ("", None))[1], "bloqueado": r.BLOQUEIO == "S", "tipovend": _s(r.TIPOVEND)})
     return out
+
+
+def _s(v):
+    """Texto limpo; None/NaN (o pandas da VPS devolve float NaN onde o local devolve None) viram ''."""
+    return "" if v is None or v != v else str(v).strip()
 
 
 def _carregar_lojas():
     import meta
     df = meta.carregar_dados(
         "SELECT CODCLI, CLIENTE, FANTASIA, ENDERENT, BAIRROENT, MUNICENT, ESTENT, "
-        "LATITUDE, LONGITUDE, CODUSUR1 FROM PCCLIENT "
+        "LATITUDE, LONGITUDE, CODUSUR1 FROM CRC.PCCLIENT "
         "WHERE DTEXCLUSAO IS NULL AND BLOQUEIO='N'", meta.engine, "PCCLIENT")
     # nome do vendedor em consulta separada (nunca JOIN em query com várias fontes — ver incidente map_rca)
     try:
@@ -285,13 +327,14 @@ def _carregar_lojas():
     out = []
     for r in df.itertuples():
         lat, lng = _flt(r.LATITUDE), _flt(r.LONGITUDE)
-        if not lat or not lng:
+        if not lat or not lng or lat != lat or lng != lng:
             lat = lng = None
         cu = None if r.CODUSUR1 is None or r.CODUSUR1 != r.CODUSUR1 else int(r.CODUSUR1)
-        out.append({"codcli": int(r.CODCLI), "nome": (r.FANTASIA or r.CLIENTE or "").strip(),
-                    "razao": (r.CLIENTE or "").strip(),
-                    "endereco": " · ".join(x.strip() for x in (r.ENDERENT, r.BAIRROENT) if x),
-                    "cidade": ((r.MUNICENT or "") + ("/" + r.ESTENT if r.ESTENT else "")).strip(),
+        out.append({"codcli": int(r.CODCLI), "nome": _s(r.FANTASIA) or _s(r.CLIENTE),
+                    "razao": _s(r.CLIENTE),
+                    "endereco": " · ".join(x for x in (_s(r.ENDERENT), _s(r.BAIRROENT)) if x),
+                    "cidade": _s(r.MUNICENT) + ("/" + _s(r.ESTENT) if _s(r.ESTENT) else ""),
+                    "rua": _s(r.ENDERENT), "bairro": _s(r.BAIRROENT), "municipio": _s(r.MUNICENT), "uf": _s(r.ESTENT),
                     "lat": lat, "lng": lng, "codusur": cu, "vendedor": vend.get(cu, "")})
     return out
 
@@ -339,6 +382,118 @@ def buscar_lojas(q, codusur=None, limite=40):
         if len(res) >= limite:
             break
     return res
+
+
+# ── localização da loja: manual > ERP > endereço geocodificado (Nominatim/OSM) ──────────────────
+RAIO_POR_FONTE = {"manual": RAIO_M, "erp": RAIO_M, "endereco": RAIO_M, "rua": 500, "bairro": 1500}
+_geo_lock = threading.Lock()
+_geo_ultimo = [0.0]
+NOMINATIM = "https://nominatim.openstreetmap.org/search"
+_UA = {"User-Agent": "OfftradeHub-Promotoria/1.0 (uso interno Rigarr)"}   # política do Nominatim exige UA identificado
+
+
+def _nominatim(q):
+    import urllib.parse
+    import urllib.request
+    with _geo_lock:                                       # política do Nominatim: no máximo 1 consulta/segundo
+        espera = 1.1 - (time.time() - _geo_ultimo[0])
+        if espera > 0:
+            time.sleep(espera)
+        _geo_ultimo[0] = time.time()
+        url = NOMINATIM + "?" + urllib.parse.urlencode({"q": q, "format": "jsonv2", "limit": 1, "countrycodes": "br"})
+        r = json.loads(urllib.request.urlopen(urllib.request.Request(url, headers=_UA), timeout=8).read().decode())
+    return r[0] if r else None
+
+
+def _precisao(res):
+    tipo = (res.get("addresstype") or res.get("type") or "").lower()
+    if tipo in ("house", "building", "residential", "commercial", "retail", "shop", "amenity", "yes") or res.get("category") in ("shop", "amenity", "building"):
+        return "endereco"
+    if tipo in ("road", "street", "highway", "tertiary", "secondary", "primary", "service"):
+        return "rua"
+    return "bairro"
+
+
+def geocodificar(l):
+    """Tenta endereço completo e, se falhar, bairro+cidade. Guarda o resultado (ou a falha) em geocache."""
+    rua = (l.get("rua") or "").strip(" ,")
+    bairro, mun, uf = (l.get("bairro") or "").strip(), (l.get("municipio") or "").strip(), (l.get("uf") or "").strip()
+    if not mun:
+        mun, _, uf = (l.get("cidade") or "").partition("/")
+    tentativas = []
+    if rua:
+        tentativas.append((f"{rua}, {bairro}, {mun}, {uf}, Brasil", None))
+        tentativas.append((f"{rua}, {mun}, {uf}, Brasil", None))
+    if bairro:
+        tentativas.append((f"{bairro}, {mun}, {uf}, Brasil", "bairro"))
+    for q, forcar in tentativas:
+        try:
+            res = _nominatim(q)
+        except Exception as e:
+            print(f"[AVISO] geocodificar {l['codcli']}: {e}")
+            return None                                   # falha de rede: não grava, tenta de novo depois
+        if res:
+            prec = forcar or _precisao(res)
+            db().execute("INSERT OR REPLACE INTO geocache(codcli,lat,lng,precisao,endereco_usado,ts) VALUES(?,?,?,?,?,?)",
+                         (l["codcli"], float(res["lat"]), float(res["lon"]), prec, q, agora()))
+            db().commit()
+            return {"lat": float(res["lat"]), "lng": float(res["lon"]), "precisao": prec}
+    db().execute("INSERT OR REPLACE INTO geocache(codcli,lat,lng,precisao,endereco_usado,ts) VALUES(?,NULL,NULL,'falhou',?,?)",
+                 (l["codcli"], tentativas[0][0] if tentativas else "", agora()))
+    db().commit()
+    return None
+
+
+def _erp_confiavel(l):
+    """O ERP tem o MESMO ponto em lojas de bairros/cidades diferentes (ex.: -23.0018,-43.4226 em Laranjeiras,
+    Caxias e Barra) — é coordenada padrão. Ponto usado por 2+ lojas não é confiável; cai pro endereço."""
+    from collections import Counter
+    chave = (round(l["lat"], 4), round(l["lng"], 4))
+    memo = _erp_confiavel.__dict__
+    if memo.get("_n") != id(lojas()):
+        memo["_n"] = id(lojas())
+        memo["_cnt"] = Counter((round(x["lat"], 4), round(x["lng"], 4)) for x in lojas() if x.get("lat"))
+    return memo["_cnt"][chave] < 2
+
+
+def referencia_loja(codcli, l, geocodar=True):
+    """(lat, lng, fonte, raio_m) ou None se não há como saber onde a loja fica."""
+    m = one("SELECT lat, lng FROM lojas_local WHERE codcli=?", (codcli,))
+    if m:
+        return m["lat"], m["lng"], "manual", RAIO_POR_FONTE["manual"]
+    if l and l.get("lat") and _erp_confiavel(l):
+        return l["lat"], l["lng"], "erp", RAIO_POR_FONTE["erp"]
+    g = one("SELECT * FROM geocache WHERE codcli=?", (codcli,))
+    if g and g["lat"] is not None:
+        return g["lat"], g["lng"], g["precisao"], RAIO_POR_FONTE.get(g["precisao"], 1500)
+    semana = (datetime.now(TZ) - timedelta(days=7)).strftime("%Y-%m-%d %H:%M:%S")
+    if l and geocodar and (g is None or g["ts"] < semana):
+        r = geocodificar(l)
+        if r:
+            return r["lat"], r["lng"], r["precisao"], RAIO_POR_FONTE.get(r["precisao"], 1500)
+    return None
+
+
+def avaliar_posicao(codcli, lat, lng, acc):
+    """Confere se o GPS do promotor está na loja. Tolera a imprecisão do próprio GPS (até 100 m)."""
+    ref = referencia_loja(codcli, loja_por_cod(codcli))
+    if not ref:
+        return {"dist": None, "fonte": None, "raio": None, "status": "sem_ref"}
+    dist = haversine_m(lat, lng, ref[0], ref[1])
+    return {"dist": dist, "fonte": ref[2], "raio": ref[3],
+            "status": "dentro" if dist <= ref[3] + min(acc or 0, 100) else "fora"}
+
+
+def geocodificar_em_segundo_plano(codclis):
+    def _run():
+        for c in codclis:
+            try:
+                l = loja_por_cod(c)
+                if l and referencia_loja(c, l, geocodar=False) is None:
+                    referencia_loja(c, l, geocodar=True)
+            except Exception as e:
+                print(f"[AVISO] geocodificação em lote {c}: {e}")
+    threading.Thread(target=_run, daemon=True).start()
 
 
 # ── fotos ───────────────────────────────────────────────────────────────────
@@ -545,7 +700,7 @@ def login_gestor():
 def _visita_json(v):
     if not v:
         return None
-    return {k: v[k] for k in ("id", "codcli", "loja_nome", "in_ts", "out_ts", "in_dist", "out_dist")}
+    return {k: v[k] for k in ("id", "codcli", "loja_nome", "in_ts", "out_ts", "in_dist", "out_dist", "in_status", "in_fonte")}
 
 
 @bp.get("/api/eu/hoje")
@@ -585,12 +740,14 @@ def checkin():
         return jsonify(erro=f'Você já está em check-in em "{aberta["loja_nome"]}". Faça o check-out antes.', visita=_visita_json(aberta)), 409
     l = loja_por_cod(codcli)
     nome = l["nome"] if l else (request.form.get("loja_nome") or f"Cliente {codcli}")
-    dist = haversine_m(lat, lng, l["lat"], l["lng"]) if l and l["lat"] else None
+    av = avaliar_posicao(codcli, lat, lng, acc)
     cur = db().execute(
-        "INSERT INTO visitas(codusur,codcli,loja_nome,data,in_ts,in_lat,in_lng,in_acc,in_foto,in_dist) VALUES(?,?,?,?,?,?,?,?,?,?)",
-        (cod, codcli, nome, hoje(), agora(), lat, lng, acc, salvar_foto(request.files.get("foto"), f"in{cod}"), dist))
+        "INSERT INTO visitas(codusur,codcli,loja_nome,data,in_ts,in_lat,in_lng,in_acc,in_foto,in_dist,in_fonte,in_raio,in_status) VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?)",
+        (cod, codcli, nome, hoje(), agora(), lat, lng, acc, salvar_foto(request.files.get("foto"), f"in{cod}"),
+         av["dist"], av["fonte"], av["raio"], av["status"]))
     db().commit()
-    return jsonify(ok=True, visita_id=cur.lastrowid, dist=dist, fora_do_raio=bool(dist and dist > RAIO_M))
+    return jsonify(ok=True, visita_id=cur.lastrowid, dist=av["dist"], fonte=av["fonte"], raio=av["raio"],
+                   status=av["status"], fora_do_raio=av["status"] == "fora")
 
 
 @bp.post("/api/checkout")
@@ -600,12 +757,11 @@ def checkout():
     if not v or v["out_ts"]:
         return jsonify(erro="visita não encontrada ou já finalizada"), 404
     lat, lng, acc = _pos()
-    l = loja_por_cod(v["codcli"])
-    dist = haversine_m(lat, lng, l["lat"], l["lng"]) if l and l["lat"] else None
-    db().execute("UPDATE visitas SET out_ts=?,out_lat=?,out_lng=?,out_acc=?,out_foto=?,out_dist=? WHERE id=?",
-                 (agora(), lat, lng, acc, salvar_foto(request.files.get("foto"), f"out{cod}"), dist, v["id"]))
+    av = avaliar_posicao(v["codcli"], lat, lng, acc)
+    db().execute("UPDATE visitas SET out_ts=?,out_lat=?,out_lng=?,out_acc=?,out_foto=?,out_dist=?,out_fonte=?,out_raio=?,out_status=? WHERE id=?",
+                 (agora(), lat, lng, acc, salvar_foto(request.files.get("foto"), f"out{cod}"), av["dist"], av["fonte"], av["raio"], av["status"], v["id"]))
     db().commit()
-    return jsonify(ok=True)
+    return jsonify(ok=True, status=av["status"], dist=av["dist"], fonte=av["fonte"])
 
 
 def _tarefas_da_visita(v):
@@ -798,7 +954,21 @@ def g_rota_salvar():
         for i, c in enumerate(dict.fromkeys(clis)):
             db().execute("INSERT INTO rotas(codusur,data,codcli,ordem) VALUES(?,?,?,?)", (cod, dt, c, i + 1))
     db().commit()
+    geocodificar_em_segundo_plano(list(dict.fromkeys(clis)))      # deixa a referência de cada loja pronta pro check-in
     return jsonify(ok=True, datas=len(datas), lojas=len(set(clis)))
+
+
+@bp.post("/api/g/loja-local")
+def g_loja_local():
+    """Define a localização correta da loja (ex.: a partir do check-in de um promotor que estava lá)."""
+    exige("gestor")
+    d = request.get_json(force=True, silent=True) or {}
+    lat, lng = _flt(d.get("lat")), _flt(d.get("lng"))
+    if lat is None or lng is None:
+        return jsonify(erro="coordenadas inválidas"), 400
+    db().execute("INSERT OR REPLACE INTO lojas_local(codcli,lat,lng,por,ts) VALUES(?,?,?,?,?)", (int(d["codcli"]), lat, lng, "gestor", agora()))
+    db().commit()
+    return jsonify(ok=True)
 
 
 @bp.get("/api/g/tarefas")
@@ -808,6 +978,7 @@ def g_tarefas():
     for t in ts:
         t["perguntas"] = json.loads(t["perguntas"] or "[]")
         t["respostas"] = one("SELECT COUNT(*) n FROM respostas WHERE tarefa_id=?", (t["id"],))["n"]
+        t["loja_nome"] = (loja_por_cod(t["codcli"]) or {}).get("nome", "") if t["codcli"] else ""
     return jsonify(ts)
 
 
@@ -842,6 +1013,9 @@ def g_tarefa_salvar():
 
 
 app.register_blueprint(bp)
+
+# Aquece os caches de RCAs/lojas ao subir, pra a primeira busca de um usuário já ser instantânea.
+threading.Thread(target=lambda: (rcas(), lojas()), daemon=True).start()
 
 if __name__ == "__main__":
     if not os.getenv("PROMO_GESTOR_SENHA"):
