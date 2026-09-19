@@ -297,7 +297,19 @@ const P = {
     shell('Visita atual', d.visita.loja_nome, h, abasP);
   }
 };
+function campoGrade(t, p) {
+  let v = {}; try { v = p.resposta?.texto ? JSON.parse(p.resposta.texto) : {}; } catch (e) {}
+  const cel = (li, co) => {
+    const val = v[li.id]?.[co.id] ?? '', at = `data-g="${t.id}_${p.id}" data-l="${esc(li.id)}" data-c="${esc(co.id)}"`;
+    const inp = co.tipo === 'sim_nao' ? `<select ${at}><option value="">—</option>${['Sim', 'Não'].map(o => `<option ${val === o ? 'selected' : ''}>${o}</option>`).join('')}</select>`
+      : `<input ${at} ${co.tipo === 'numero' ? 'type="number" inputmode="decimal" step="any"' : ''} value="${esc(val)}">`;
+    return `<div><label style="margin:6px 0 2px">${esc(co.texto)}</label>${inp}</div>`;
+  };
+  return `<div class="q"><label style="margin:0 0 4px;color:var(--tx)">${esc(p.texto)}${p.obrigatoria ? ' <span style="color:var(--bad)">*</span>' : ''}</label>
+    ${p.linhas.map(li => `<div class="card" style="margin:6px 0;padding:10px"><b>${esc(li.texto)}</b><div style="display:grid;grid-template-columns:repeat(2,1fr);gap:8px">${p.colunas.map(co => cel(li, co)).join('')}</div></div>`).join('')}</div>`;
+}
 function campo(t, p) {
+  if (p.tipo === 'grade') return campoGrade(t, p);
   const r = p.resposta, id = `q_${t.id}_${p.id}`;
   let inp = '';
   if (p.tipo === 'texto') inp = `<textarea id="${id}">${esc(r?.texto || '')}</textarea>`;
@@ -324,6 +336,15 @@ async function salvarTarefa(ti, btn) {
     const pos = await getPos().catch(() => S.gps);
     let n = 0;
     for (const p of t.perguntas) {
+      if (p.tipo === 'grade') {                                       // junta todas as células da grade num JSON {linha: {coluna: valor}}
+        const g = {};
+        document.querySelectorAll(`[data-g="${t.id}_${p.id}"]`).forEach(e => { const val = e.value.trim(); if (val !== '') (g[e.dataset.l] = g[e.dataset.l] || {})[e.dataset.c] = val; });
+        if (!Object.keys(g).length) continue;
+        const fd = new FormData();
+        fd.append('visita_id', visitaAtual.id); fd.append('tarefa_id', t.id); fd.append('pergunta_id', p.id); fd.append('texto', JSON.stringify(g));
+        if (pos) { fd.append('lat', pos.lat); fd.append('lng', pos.lng); }
+        await api('/respostas', { body: fd }); n++; continue;
+      }
       const el = $(`#q_${t.id}_${p.id}`), fb = fotosPend[t.id + '_' + p.id];
       const v = el ? el.value.trim() : '';
       if (!v && !fb) continue;
@@ -404,7 +425,7 @@ const G = {
       <div>Check-in: ${badgeLocal(x.in_status, x.in_dist, x.in_fonte)}</div>${x.out_ts ? `<div style="margin-top:4px">Check-out: ${badgeLocal(x.out_status, x.out_dist, x.out_fonte)}</div>` : ''}
       <div class="thumbs">${[x.in_foto, x.out_foto, ...x.respostas.map(r => r.foto)].filter(Boolean).map(f => `<img src="${urlFoto(f)}" loading="lazy" onclick="verFoto('${f}')">`).join('')}</div>
       ${blocoIA(x)}
-      ${x.respostas.map(r => `<div class="q"><div class="mut">${esc(r.titulo)} · ${esc(r.pergunta)}</div><b>${esc(r.texto ?? r.numero ?? (r.foto ? '(foto)' : ''))}</b></div>`).join('')}
+      ${x.respostas.map(r => `<div class="q"><div class="mut">${esc(r.titulo)} · ${esc(r.pergunta)}</div>${fmtResp(r)}</div>`).join('')}
       <div class="row wrap" style="margin-top:8px"><a class="mut" target="_blank" href="https://www.google.com/maps?q=${x.in_lat},${x.in_lng}">📍 ver local do check-in</a>
       ${x.in_status !== 'dentro' || x.in_fonte !== 'manual' ? `<button class="sec sm" onclick="definirLocalLoja(${x.codcli},${x.in_lat},${x.in_lng},'${esc(jsq(x.loja_nome))}')">Usar como local da loja</button>` : ''}</div></div>`).join('') || '<div class="card mut">Nenhuma visita nesta data.</div>'), abasG);
   },
@@ -437,6 +458,15 @@ const G = {
       <input id="aq" style="margin-top:8px" placeholder="Buscar RCA por nome ou código" oninput="buscaRca()"><div id="ar"></div>`, abasG);
   }
 };
+function fmtResp(r) {
+  if (r.texto && r.texto.startsWith('{')) {
+    try {
+      const g = JSON.parse(r.texto);
+      return '<table style="width:100%;font-size:13px;border-collapse:collapse">' + Object.entries(g).map(([l, cols]) => `<tr><td style="padding:2px 6px 2px 0;color:var(--mut)">${esc(l)}</td><td>${Object.entries(cols).map(([c, v]) => esc(c) + ': <b>' + esc(v) + '</b>').join(' · ')}</td></tr>`).join('') + '</table>';
+    } catch (e) {}
+  }
+  return `<b>${esc(r.texto ?? r.numero ?? (r.foto ? '(foto)' : ''))}</b>`;
+}
 function blocoIA(x) {
   const btn = `<button class="sec sm" onclick="analisarVisita(${x.id},this)">🤖 ${x.ia ? 'Refazer análise' : 'Analisar com IA'}</button>`;
   if (!x.ia) return `<div class="row wrap" style="margin-top:10px">${btn}${x.ia_gerando ? '<span class="mut">analisando…</span>' : x.out_ts ? '<span class="mut">a análise sai sozinha após o check-out</span>' : ''}</div>`;
@@ -543,7 +573,7 @@ function desenhaTarefa(ps) {
   ${t.codcli ? `<div class="card row between" style="margin:0"><span><b>${esc(t.loja_nome || 'Cliente ' + t.codcli)}</b> <span class="mut">#${t.codcli}</span></span><button class="sec sm" onclick="syncTarefa();_et.codcli=null;_et.loja_nome='';desenhaTarefa()">✕</button></div>`
     : `<input id="tcq" placeholder="Buscar loja por nome, código ou cidade" oninput="buscaLojaTarefa()" autocomplete="off"><div id="tcr"></div>`}
   <div class="row"><div class="grow"><label>De</label><input id="ti" type="date" value="${t.data_ini || ''}"></div><div class="grow"><label>Até</label><input id="tf" type="date" value="${t.data_fim || ''}"></div></div>
-  <h3 style="margin-top:16px">Perguntas</h3>${t.perguntas.map((p, i) => `<div class="card"><input placeholder="Pergunta ${i + 1}" value="${esc(p.texto)}" oninput="_et.perguntas[${i}].texto=this.value">
+  <h3 style="margin-top:16px">Perguntas</h3>${t.perguntas.map((p, i) => p.tipo === 'grade' ? `<div class="card"><div class="row between"><span><b>▦ ${esc(p.texto)}</b><div class="mut">${p.linhas.length} linhas × ${p.colunas.map(c => esc(c.texto)).join(', ')}</div></span><button class="bad sm" onclick="_et.perguntas.splice(${i},1);desenhaTarefa()">✕</button></div></div>` : `<div class="card"><input placeholder="Pergunta ${i + 1}" value="${esc(p.texto)}" oninput="_et.perguntas[${i}].texto=this.value">
     <div class="row" style="margin-top:8px"><select onchange="_et.perguntas[${i}].tipo=this.value;desenhaTarefa()">${[['texto', 'Texto'], ['numero', 'Número'], ['foto', 'Foto'], ['sim_nao', 'Sim/Não'], ['escolha', 'Escolha']].map(o => `<option value="${o[0]}" ${p.tipo === o[0] ? 'selected' : ''}>${o[1]}</option>`).join('')}</select>
     <button class="bad sm" onclick="_et.perguntas.splice(${i},1);desenhaTarefa()">✕</button></div>
     ${p.tipo === 'escolha' ? `<input style="margin-top:8px" placeholder="Opções separadas por vírgula" value="${esc((p.opcoes || []).join(', '))}" oninput="_et.perguntas[${i}].opcoes=this.value.split(',')">` : ''}

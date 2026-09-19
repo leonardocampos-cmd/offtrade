@@ -140,6 +140,8 @@ def _migrar():
                       ("ia_texto", "TEXT"), ("ia_nivel", "TEXT"), ("ia_ts", "TEXT")):
         if col not in tem:
             c.execute(f"ALTER TABLE visitas ADD COLUMN {col} {tipo}")
+    if "codclis" not in {r[1] for r in c.execute("PRAGMA table_info(tarefas)")}:
+        c.execute("ALTER TABLE tarefas ADD COLUMN codclis TEXT")      # lista JSON de lojas (pesquisas importadas do Max Promotor)
     if c.execute("PRAGMA user_version").fetchone()[0] < 3:
         c.execute("DELETE FROM geocache")                      # v3: geocodificação passou a usar número, CEP e complemento
         c.execute("PRAGMA user_version = 3")
@@ -605,6 +607,13 @@ def _contexto_visita(v):
         for pg in t["perguntas"]:
             r = pg.get("resposta")
             resp = "(sem resposta)" if not r else (r["texto"] if r["texto"] else (r["numero"] if r["numero"] is not None else "(só foto)"))
+            if pg.get("tipo") == "grade" and r and r.get("texto"):
+                try:
+                    g = json.loads(r["texto"])
+                    resp = "; ".join(f'{ln["texto"]}: ' + ", ".join(f'{co["texto"]}={g.get(ln["id"], {}).get(co["id"], "—")}' for co in pg["colunas"])
+                                     for ln in pg["linhas"] if ln["id"] in g)
+                except ValueError:
+                    pass
             linhas.append(f'  - {pg["texto"]}{" [obrigatória]" if pg.get("obrigatoria") else ""}: {resp}')
             if r and r.get("foto"):
                 imagens.append((f'foto da resposta "{pg["texto"][:40]}"', r["foto"]))
@@ -934,6 +943,8 @@ def _tarefas_da_visita(v):
     for t in rows("SELECT * FROM tarefas WHERE ativo=1 AND (codusur IS NULL OR codusur=?) AND (codcli IS NULL OR codcli=?) "
                   "AND (data_ini IS NULL OR data_ini<=?) AND (data_fim IS NULL OR data_fim>=?) ORDER BY id",
                   (v["codusur"], v["codcli"], v["data"], v["data"])):
+        if t.get("codclis") and v["codcli"] not in json.loads(t["codclis"]):
+            continue                                                  # tarefa restrita a uma lista de lojas
         t["perguntas"] = json.loads(t["perguntas"] or "[]")
         resp = {r["pergunta_id"]: r for r in rows("SELECT * FROM respostas WHERE visita_id=? AND tarefa_id=?", (v["id"], t["id"]))}
         for p in t["perguntas"]:
@@ -1117,6 +1128,13 @@ def g_visitas():
         for r in rows("SELECT r.*, t.titulo, t.perguntas FROM respostas r JOIN tarefas t ON t.id=r.tarefa_id WHERE r.visita_id=? ORDER BY r.id", (v["id"],)):
             perg = next((p for p in json.loads(r.pop("perguntas") or "[]") if p["id"] == r["pergunta_id"]), {})
             r["pergunta"] = perg.get("texto", r["pergunta_id"])
+            if perg.get("tipo") == "grade" and r.get("texto"):        # ids internos -> nomes legíveis (produto / campo)
+                try:
+                    ln = {l["id"]: l["texto"] for l in perg["linhas"]}
+                    co = {c["id"]: c["texto"] for c in perg["colunas"]}
+                    r["texto"] = json.dumps({ln.get(a, a): {co.get(b, b): x for b, x in cols.items()} for a, cols in json.loads(r["texto"]).items()}, ensure_ascii=False)
+                except ValueError:
+                    pass
             v["respostas"].append(r)
         out.append(v)
     return jsonify(out)
@@ -1177,12 +1195,14 @@ def g_tarefas():
     ts = rows("SELECT * FROM tarefas ORDER BY id DESC")
     for t in ts:
         t["perguntas"] = json.loads(t["perguntas"] or "[]")
+        t["codclis"] = json.loads(t["codclis"]) if t.get("codclis") else None
         t["respostas"] = one("SELECT COUNT(*) n FROM respostas WHERE tarefa_id=?", (t["id"],))["n"]
         t["loja_nome"] = (loja_por_cod(t["codcli"]) or {}).get("nome", "") if t["codcli"] else ""
     return jsonify(ts)
 
 
-TIPOS = {"texto", "numero", "foto", "sim_nao", "escolha"}
+TIPOS = {"texto", "numero", "foto", "sim_nao", "escolha", "grade"}
+TIPOS_COLUNA = {"numero", "sim_nao", "texto"}
 
 
 @bp.post("/api/g/tarefas")
@@ -1197,17 +1217,26 @@ def g_tarefa_salvar():
     for i, p in enumerate(d.get("perguntas") or []):
         if p.get("tipo") not in TIPOS or not (p.get("texto") or "").strip():
             return jsonify(erro=f"pergunta {i + 1} inválida"), 400
-        perguntas.append({"id": p.get("id") or f"p{i + 1}", "texto": p["texto"].strip(), "tipo": p["tipo"],
-                          "obrigatoria": bool(p.get("obrigatoria")), "permite_foto": bool(p.get("permite_foto")),
-                          "opcoes": [o.strip() for o in (p.get("opcoes") or []) if o.strip()]})
+        item = {"id": p.get("id") or f"p{i + 1}", "texto": p["texto"].strip(), "tipo": p["tipo"],
+                "obrigatoria": bool(p.get("obrigatoria")), "permite_foto": bool(p.get("permite_foto")),
+                "opcoes": [o.strip() for o in (p.get("opcoes") or []) if o.strip()]}
+        if p["tipo"] == "grade":                                      # linhas (ex.: produtos) x colunas (ex.: frentes, estoque, preço)
+            linhas = [{"id": str(l["id"]), "texto": str(l["texto"]).strip()} for l in (p.get("linhas") or []) if str(l.get("texto") or "").strip()]
+            colunas = [{"id": str(c["id"]), "texto": str(c["texto"]).strip(), "tipo": c.get("tipo") if c.get("tipo") in TIPOS_COLUNA else "numero"}
+                       for c in (p.get("colunas") or []) if str(c.get("texto") or "").strip()]
+            if not linhas or not colunas:
+                return jsonify(erro=f"pergunta {i + 1}: a grade precisa de linhas e colunas"), 400
+            item["linhas"], item["colunas"] = linhas, colunas
+        perguntas.append(item)
     if not (d.get("titulo") or "").strip() or not perguntas:
         return jsonify(erro="informe título e ao menos uma pergunta"), 400
     vals = (d["titulo"].strip(), d.get("descricao") or "", json.dumps(perguntas, ensure_ascii=False),
-            d.get("codusur") or None, d.get("codcli") or None, d.get("data_ini") or None, d.get("data_fim") or None)
+            d.get("codusur") or None, d.get("codcli") or None, d.get("data_ini") or None, d.get("data_fim") or None,
+            json.dumps([int(c) for c in d["codclis"]]) if d.get("codclis") else None)
     if d.get("id"):
-        db().execute("UPDATE tarefas SET titulo=?,descricao=?,perguntas=?,codusur=?,codcli=?,data_ini=?,data_fim=? WHERE id=?", vals + (d["id"],))
+        db().execute("UPDATE tarefas SET titulo=?,descricao=?,perguntas=?,codusur=?,codcli=?,data_ini=?,data_fim=?,codclis=? WHERE id=?", vals + (d["id"],))
     else:
-        db().execute("INSERT INTO tarefas(titulo,descricao,perguntas,codusur,codcli,data_ini,data_fim,criado) VALUES(?,?,?,?,?,?,?,?)", vals + (agora(),))
+        db().execute("INSERT INTO tarefas(titulo,descricao,perguntas,codusur,codcli,data_ini,data_fim,codclis,criado) VALUES(?,?,?,?,?,?,?,?,?)", vals + (agora(),))
     db().commit()
     return jsonify(ok=True)
 
