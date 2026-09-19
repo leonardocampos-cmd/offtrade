@@ -427,7 +427,7 @@ const G = {
   },
   async equipe() {
     const [ps, sups, coords] = await Promise.all([api('/g/promotores'), api('/g/supervisores'), api('/g/coordenadores')]); window._sups = sups;
-    shell('Cadastro de promotores', 'Tipo P do supervisor 238 entram sozinhos; outros você adiciona abaixo', ps.map(p => `<div class="card"><div class="row between"><h3>${esc(p.nome)} <span class="mut">#${p.codusur}</span>${p.auto ? ' <span class="badge blue">tipo P · sup. 238</span>' : ''}</h3>
+    shell('Cadastro de promotores', 'Tipo P do supervisor 238 entram sozinhos; outros você adiciona abaixo', `<button class="sec full" style="margin-bottom:12px" onclick="atualizarLista(this)">↻ Atualizar lista do ERP</button>` + ps.map(p => `<div class="card"><div class="row between"><h3>${esc(p.nome)} <span class="mut">#${p.codusur}</span>${p.auto ? ' <span class="badge blue">tipo P · sup. 238</span>' : ''}</h3>
       <span class="badge ${p.ativo ? 'ok' : 'bad'}">${p.ativo ? 'Ativo' : 'Inativo'}</span></div><div class="mut">Entra com a senha do sistema (PCUSUARI)${p.tem_pin ? ' · PIN reserva definido' : ''}</div>
       <div class="row wrap" style="margin-top:8px"><button class="sm" onclick="definirPin(${p.codusur})">${p.tem_pin ? 'Trocar PIN reserva' : 'PIN reserva'}</button>
       <button class="sec sm" onclick="api('/g/promotores',{body:{codusur:${p.codusur},ativo:${p.ativo ? 0 : 1}}}).then(G.equipe)">${p.ativo ? 'Desativar' : 'Reativar'}</button>
@@ -440,6 +440,14 @@ async function definirLocalLoja(codcli, lat, lng, nome) {
   if (!confirm(`Definir o local deste check-in como a localização de "${nome}"? As próximas visitas serão conferidas contra esse ponto.`)) return;
   await api('/g/loja-local', { body: { codcli, lat, lng } }).then(() => toast('Local da loja atualizado')).catch(e => toast(e.message, true));
   G.visitas();
+}
+async function atualizarLista(btn) {
+  await agir(btn, async () => {
+    toast('Lendo o ERP…');
+    const r = await api('/g/atualizar', { method: 'POST', body: {} });
+    toast(r.novos.length ? `${r.novos.length} novo(s) promotor(es): ${r.novos.map(x => x.nome).join(', ')}` : 'Lista já estava em dia — nenhum promotor novo');
+    G.equipe();
+  });
 }
 async function trilha(cod) {
   const t = await api('/g/trilha?codusur=' + cod);

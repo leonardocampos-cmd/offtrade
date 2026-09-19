@@ -911,6 +911,24 @@ def g_coordenadores():
     return jsonify([{"codigo": k, "nome": COORDENADORES.get(k, {}).get("nome", f"Coordenador {k}"), "rcas": n} for k, n in cont.items()])
 
 
+@bp.post("/api/g/atualizar")
+def g_atualizar():
+    """Relê os RCAs do Oracle agora (o cache normal só vence em 6 h) e cadastra os novos promotores da regra."""
+    exige("gestor")
+    antes = {p["codusur"] for p in rows("SELECT codusur FROM promotores")}
+    try:
+        with _lock:
+            dados = _carregar_rcas()
+            RCAS_CACHE.write_text(json.dumps(dados, ensure_ascii=False), encoding="utf-8")
+            _mem["rcas"] = (time.time(), dados)
+    except Exception as e:
+        return jsonify(erro=f"não consegui ler o Oracle agora ({e}) — tente de novo em instantes"), 503
+    sincronizar_promotores()
+    novos = [{"codusur": p["codusur"], "nome": p["nome"]} for p in rows("SELECT codusur, nome FROM promotores ORDER BY nome")
+             if p["codusur"] not in antes]
+    return jsonify(ok=True, novos=novos, rcas=len(dados), promotores=len(antes) + len(novos))
+
+
 @bp.get("/api/g/promotores")
 def g_promotores():
     exige("gestor")
