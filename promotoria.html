@@ -274,7 +274,6 @@
         <th>Cliente/PDV</th>
         <th>Tarefa</th>
         <th class="hide-mob">Tipo</th>
-        <th>Pergunta</th>
         <th>Resposta</th>
         <th>Detalhes</th>
       </tr>
@@ -772,10 +771,9 @@ function aplicarFiltro() {
         <td class="wrap">${_esc(_clienteLabel(r))}</td>
         <td class="wrap">${_esc(r.tarefa)}</td>
         <td class="hide-mob">${_esc(r.tipo_tarefa)}</td>
-        <td class="wrap">${_esc(_perguntaResposta(r).pergunta)}</td>
         <td class="wrap">${_esc(_perguntaResposta(r).resposta)}</td>
         <td><button class="btn-detalhes" onclick="abrirDetalhes(${i})">🔍 Ver detalhes</button></td>
-      </tr>`).join('') : '<tr><td colspan="8" class="empty">Nenhum registro encontrado.</td></tr>';
+      </tr>`).join('') : '<tr><td colspan="7" class="empty">Nenhum registro encontrado.</td></tr>';
   } else {
     document.getElementById('tbody-visitas').innerHTML = linhas.length ? linhas.map((r, i) => `
       <tr>
