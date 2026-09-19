@@ -48,6 +48,16 @@ nav a.on{color:var(--accent)}
 .modal>div{background:var(--bg);width:100%;max-width:760px;max-height:92vh;overflow:auto;border-radius:18px 18px 0 0;padding:16px}
 .thumbs{display:flex;gap:8px;flex-wrap:wrap;margin-top:8px}
 .thumbs img{width:88px;height:88px;object-fit:cover;border-radius:10px;border:1px solid var(--line)}
+.car{position:fixed;inset:0;background:#000;z-index:90;display:flex;flex-direction:column;user-select:none;-webkit-user-select:none}
+.car-top{display:flex;align-items:center;gap:10px;padding:calc(10px + env(safe-area-inset-top)) 12px 10px;background:#0b0b0bcc}
+.car-top .grow{text-align:center;color:var(--mut);font-size:14px}
+.car-top button{min-height:40px;padding:8px 14px;font-size:14px}
+.car-img{flex:1;min-height:0;position:relative;display:flex;align-items:center;justify-content:center;touch-action:pan-y}
+.car-img img{max-width:100%;max-height:100%;object-fit:contain}
+.car-nav{position:absolute;top:50%;transform:translateY(-50%);width:46px;height:64px;padding:0;background:#000a;color:#fff;border:1px solid #fff3;border-radius:12px;font-size:26px;line-height:1}
+.car-nav.prev{left:8px}.car-nav.next{right:8px}
+.car-leg{padding:10px 14px calc(12px + env(safe-area-inset-bottom));text-align:center;color:var(--tx);font-size:14px;background:#0b0b0bcc;min-height:44px}
+.car-dots{display:flex;gap:6px;justify-content:center;margin-top:6px}.car-dots i{width:7px;height:7px;border-radius:50%;background:#fff4}.car-dots i.on{background:#fff}
 .full-img{position:fixed;inset:0;background:#000;z-index:90;display:flex;align-items:center;justify-content:center}.full-img img{max-width:100%;max-height:100%}
 #map{height:46vh;border-radius:14px;border:1px solid var(--line);margin-bottom:12px}
 .q{border-top:1px solid var(--line);padding:10px 0}.q:first-child{border-top:0}
@@ -137,10 +147,39 @@ function tirarFoto(tipo, loja, pos) {
   });
 }
 const urlFoto = rel => FOTO + rel + '?t=' + encodeURIComponent(S.tok);
-function verFoto(rel) {
-  const d = document.createElement('div'); d.className = 'full-img'; d.onclick = () => d.remove();
-  d.innerHTML = '<img src="' + urlFoto(rel) + '">'; document.body.appendChild(d);
+// Carrossel de fotos: setas, deslizar o dedo, teclado; "Voltar às visitas" e ✕ fecham e voltam pra lista.
+let _car = null;
+function abrirCarrossel(fotos, i, voltarRotulo) {
+  fecharCarrossel();
+  const d = document.createElement('div'); d.className = 'car';
+  const multi = fotos.length > 1;
+  d.innerHTML = `<div class="car-top"><button class="sec sm" id="car-voltar">← ${esc(voltarRotulo || 'Voltar')}</button><div class="grow" id="car-cont"></div><button class="sec sm" id="car-x" aria-label="Fechar">✕ Fechar</button></div>
+    <div class="car-img" id="car-area"><img id="car-foto" alt="Foto da visita">${multi ? '<button class="car-nav prev" id="car-prev" aria-label="Anterior">‹</button><button class="car-nav next" id="car-next" aria-label="Próxima">›</button>' : ''}</div>
+    <div class="car-leg"><div id="car-leg"></div>${multi ? '<div class="car-dots" id="car-dots"></div>' : ''}</div>`;
+  document.body.appendChild(d);
+  _car = { d, fotos, i: Math.min(Math.max(i || 0, 0), fotos.length - 1) };
+  const mostrar = () => {
+    const f = _car.fotos[_car.i];
+    $('#car-foto').src = urlFoto(f.rel); $('#car-leg').textContent = f.leg || '';
+    $('#car-cont').textContent = multi ? `${_car.i + 1} / ${_car.fotos.length}` : '';
+    if (multi) $('#car-dots').innerHTML = _car.fotos.map((_, k) => `<i class="${k === _car.i ? 'on' : ''}"></i>`).join('');
+  };
+  const ir = dlt => { _car.i = (_car.i + dlt + _car.fotos.length) % _car.fotos.length; mostrar(); };
+  _car.ir = ir;
+  $('#car-voltar').onclick = $('#car-x').onclick = fecharCarrossel;
+  if (multi) { $('#car-prev').onclick = () => ir(-1); $('#car-next').onclick = () => ir(1); }
+  let x0 = null;                                                   // deslizar: esquerda = próxima, direita = anterior
+  const area = $('#car-area');
+  area.addEventListener('touchstart', e => { x0 = e.touches[0].clientX; }, { passive: true });
+  area.addEventListener('touchend', e => { if (x0 == null || !multi) return; const dx = e.changedTouches[0].clientX - x0; x0 = null; if (Math.abs(dx) > 50) ir(dx < 0 ? 1 : -1); }, { passive: true });
+  mostrar();
 }
+function fecharCarrossel() { if (_car) { _car.d.remove(); _car = null; } }
+document.addEventListener('keydown', e => {
+  if (!_car) return;
+  if (e.key === 'Escape') fecharCarrossel(); else if (e.key === 'ArrowLeft') _car.ir(-1); else if (e.key === 'ArrowRight') _car.ir(1);
+});
+function verFoto(rel) { abrirCarrossel([{ rel, leg: '' }], 0, 'Voltar'); }
 function modal(html) {
   const m = document.createElement('div'); m.className = 'modal';
   m.innerHTML = '<div>' + html + '</div>'; m.onclick = e => { if (e.target === m) m.remove(); };
@@ -423,7 +462,7 @@ const G = {
       (v.map(x => `<div class="card"><div class="row between"><h3>${esc(x.loja_nome)}</h3>${x.out_ts ? '<span class="badge ok">Concluída</span>' : '<span class="badge blue">Em andamento</span>'}</div>
       <div class="mut">${esc(x.promotor)} · ${fmtH(x.in_ts)} → ${fmtH(x.out_ts)}${x.out_ts ? ' (' + Math.round((new Date(x.out_ts.replace(' ', 'T')) - new Date(x.in_ts.replace(' ', 'T'))) / 60000) + ' min)' : ''}</div>
       <div>Check-in: ${badgeLocal(x.in_status, x.in_dist, x.in_fonte)}</div>${x.out_ts ? `<div style="margin-top:4px">Check-out: ${badgeLocal(x.out_status, x.out_dist, x.out_fonte)}</div>` : ''}
-      <div class="thumbs">${[x.in_foto, x.out_foto, ...x.respostas.map(r => r.foto)].filter(Boolean).map(f => `<img src="${urlFoto(f)}" loading="lazy" onclick="verFoto('${f}')">`).join('')}</div>
+      <div class="thumbs">${fotosDaVisita(x).map((f, k) => `<img src="${urlFoto(f.rel)}" loading="lazy" title="${esc(f.leg)}" onclick="abrirCarrossel(_fotosVis[${x.id}],${k},'Voltar às visitas')">`).join('')}</div>
       ${blocoIA(x)}
       ${x.respostas.map(r => `<div class="q"><div class="mut">${esc(r.titulo)} · ${esc(r.pergunta)}</div>${fmtResp(r)}</div>`).join('')}
       <div class="row wrap" style="margin-top:8px"><a class="mut" target="_blank" href="https://www.google.com/maps?q=${x.in_lat},${x.in_lng}">📍 ver local do check-in</a>
@@ -458,6 +497,14 @@ const G = {
       <input id="aq" style="margin-top:8px" placeholder="Buscar RCA por nome ou código" oninput="buscaRca()"><div id="ar"></div>`, abasG);
   }
 };
+const _fotosVis = {};
+function fotosDaVisita(x) {
+  const l = [];
+  if (x.in_foto) l.push({ rel: x.in_foto, leg: `Check-in · ${x.loja_nome} · ${fmtH(x.in_ts)}` });
+  if (x.out_foto) l.push({ rel: x.out_foto, leg: `Check-out · ${x.loja_nome} · ${fmtH(x.out_ts)}` });
+  x.respostas.filter(r => r.foto).forEach(r => l.push({ rel: r.foto, leg: `${r.titulo} · ${r.pergunta} · ${x.loja_nome}` }));
+  return (_fotosVis[x.id] = l);
+}
 function fmtResp(r) {
   if (r.texto && r.texto.startsWith('{')) {
     try {
