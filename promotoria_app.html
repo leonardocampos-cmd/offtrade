@@ -403,6 +403,7 @@ const G = {
       <div class="mut">${esc(x.promotor)} · ${fmtH(x.in_ts)} → ${fmtH(x.out_ts)}${x.out_ts ? ' (' + Math.round((new Date(x.out_ts.replace(' ', 'T')) - new Date(x.in_ts.replace(' ', 'T'))) / 60000) + ' min)' : ''}</div>
       <div>Check-in: ${badgeLocal(x.in_status, x.in_dist, x.in_fonte)}</div>${x.out_ts ? `<div style="margin-top:4px">Check-out: ${badgeLocal(x.out_status, x.out_dist, x.out_fonte)}</div>` : ''}
       <div class="thumbs">${[x.in_foto, x.out_foto, ...x.respostas.map(r => r.foto)].filter(Boolean).map(f => `<img src="${urlFoto(f)}" loading="lazy" onclick="verFoto('${f}')">`).join('')}</div>
+      ${blocoIA(x)}
       ${x.respostas.map(r => `<div class="q"><div class="mut">${esc(r.titulo)} · ${esc(r.pergunta)}</div><b>${esc(r.texto ?? r.numero ?? (r.foto ? '(foto)' : ''))}</b></div>`).join('')}
       <div class="row wrap" style="margin-top:8px"><a class="mut" target="_blank" href="https://www.google.com/maps?q=${x.in_lat},${x.in_lng}">📍 ver local do check-in</a>
       ${x.in_status !== 'dentro' || x.in_fonte !== 'manual' ? `<button class="sec sm" onclick="definirLocalLoja(${x.codcli},${x.in_lat},${x.in_lng},'${esc(jsq(x.loja_nome))}')">Usar como local da loja</button>` : ''}</div></div>`).join('') || '<div class="card mut">Nenhuma visita nesta data.</div>'), abasG);
@@ -436,6 +437,20 @@ const G = {
       <input id="aq" style="margin-top:8px" placeholder="Buscar RCA por nome ou código" oninput="buscaRca()"><div id="ar"></div>`, abasG);
   }
 };
+function blocoIA(x) {
+  const btn = `<button class="sec sm" onclick="analisarVisita(${x.id},this)">🤖 ${x.ia ? 'Refazer análise' : 'Analisar com IA'}</button>`;
+  if (!x.ia) return `<div class="row wrap" style="margin-top:10px">${btn}${x.ia_gerando ? '<span class="mut">analisando…</span>' : x.out_ts ? '<span class="mut">a análise sai sozinha após o check-out</span>' : ''}</div>`;
+  const cls = { ok: 'ok', atencao: 'warn', problema: 'bad' }[x.ia.nivel] || '', rot = { ok: '✔ Visita consistente', atencao: '⚠ Atenção', problema: '⛔ Problema' }[x.ia.nivel] || x.ia.nivel;
+  const fotosRuins = (x.ia.fotos || []).filter(f => f.ok === false);
+  return `<div class="card" style="margin:10px 0 0;background:var(--card2)"><div class="row between"><b>🤖 Análise da IA</b><span class="badge ${cls}">${rot}</span></div>
+    <p style="margin:8px 0">${esc(x.ia.resumo)}</p>
+    ${x.ia.pontos && x.ia.pontos.length ? `<ul style="margin:0 0 8px;padding-left:18px">${x.ia.pontos.map(p => `<li>${esc(p)}</li>`).join('')}</ul>` : ''}
+    ${fotosRuins.map(f => `<div class="mut">📷 ${esc(f.foto)}: ${esc(f.obs)}</div>`).join('')}
+    <div class="row between" style="margin-top:8px"><span class="mut">${x.ia.n_fotos || 0} foto(s) analisada(s) · ${esc((x.ia_ts || '').slice(0, 16))}</span>${btn}</div></div>`;
+}
+async function analisarVisita(id, btn) {
+  await agir(btn, async () => { toast('Analisando fotos e respostas…'); await api('/g/visitas/' + id + '/analisar', { method: 'POST', body: {} }); toast('Análise pronta'); G.visitas(); });
+}
 async function definirLocalLoja(codcli, lat, lng, nome) {
   if (!confirm(`Definir o local deste check-in como a localização de "${nome}"? As próximas visitas serão conferidas contra esse ponto.`)) return;
   await api('/g/loja-local', { body: { codcli, lat, lng } }).then(() => toast('Local da loja atualizado')).catch(e => toast(e.message, true));

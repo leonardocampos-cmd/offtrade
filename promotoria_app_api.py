@@ -136,7 +136,8 @@ def _migrar():
     c = sqlite3.connect(DB_PATH)
     tem = {r[1] for r in c.execute("PRAGMA table_info(visitas)")}
     for col, tipo in (("in_fonte", "TEXT"), ("in_raio", "REAL"), ("in_status", "TEXT"),
-                      ("out_fonte", "TEXT"), ("out_raio", "REAL"), ("out_status", "TEXT")):
+                      ("out_fonte", "TEXT"), ("out_raio", "REAL"), ("out_status", "TEXT"),
+                      ("ia_texto", "TEXT"), ("ia_nivel", "TEXT"), ("ia_ts", "TEXT")):
         if col not in tem:
             c.execute(f"ALTER TABLE visitas ADD COLUMN {col} {tipo}")
     if c.execute("PRAGMA user_version").fetchone()[0] < 3:
@@ -543,6 +544,116 @@ def geocodificar_em_segundo_plano(codclis):
         threading.Thread(target=_run, daemon=True).start()
 
 
+# ── análise de IA da visita (OpenAI com visão, mesma chave/padrão de exportacao_promotoria.py) ──────
+IA_MODELO = os.getenv("OPENAI_VISION_MODEL", "gpt-4o-mini")
+IA_MAX_FOTOS = 6
+_ia_em_andamento = set()
+PROMPT_IA = (
+    "Você é analista de trade marketing / auditor de campo da operação Off Trade (bebidas). Recebe os dados de UMA visita "
+    "de um promotor a uma loja: horários, conferência de GPS, respostas das tarefas e as FOTOS (check-in, check-out e das "
+    "tarefas). Cada foto tem uma legenda gravada pelo app (tipo, loja, data/hora, coordenadas). Avalie com senso crítico:\n"
+    "- As fotos mostram de fato uma loja/PDV (fachada, interior, gôndola, ponto de venda)? Há sinal de foto de tela, foto de "
+    "foto, ambiente que não é loja, foto escura/borrada, ou a MESMA foto repetida no check-in e no check-out?\n"
+    "- A legenda da foto bate com a loja e com o horário da visita?\n"
+    "- A duração é plausível (visita muito curta, menos de 5 min, ou muito longa)? O GPS estava na loja?\n"
+    "- As respostas fazem sentido com as fotos (ex.: disse que há produto na gôndola e a foto mostra gôndola vazia)? "
+    "Há perguntas obrigatórias sem resposta?\n"
+    "Seja objetivo e não invente o que não dá para ver. Responda SOMENTE um JSON: "
+    '{"nivel": "ok" | "atencao" | "problema", "resumo": "2 a 3 frases em português", '
+    '"pontos": ["pontos de atenção curtos; lista vazia se nenhum"], '
+    '"fotos": [{"foto": "rótulo recebido", "ok": true|false, "obs": "só se ok=false"}]}. '
+    '"problema" = indício de irregularidade (foto que não é da loja, fora da loja sem justificativa, visita relâmpago, '
+    'foto repetida); "atencao" = falhas menores; "ok" = visita consistente.'
+)
+
+
+def _foto_data_url(rel):
+    import io as _io
+    caminho = FOTOS_DIR / rel
+    dados = caminho.read_bytes()
+    try:
+        from PIL import Image
+        im = Image.open(_io.BytesIO(dados))
+        im.thumbnail((1024, 1024))
+        b = _io.BytesIO()
+        im.convert("RGB").save(b, "JPEG", quality=80)
+        dados = b.getvalue()
+    except Exception:
+        pass                                                    # sem Pillow: manda a original (já vem <= 1280 px)
+    return "data:image/jpeg;base64," + base64.b64encode(dados).decode()
+
+
+def _contexto_visita(v):
+    l = loja_por_cod(v["codcli"]) or {}
+    linhas = [f"Promotor: RCA {v['codusur']}", f"Loja: {v['loja_nome']} (cód. {v['codcli']}) — {l.get('endereco', '')} {l.get('cidade', '')}",
+              f"Data: {v['data']}  Check-in: {v['in_ts']}  Check-out: {v['out_ts'] or 'ainda em andamento'}"]
+    if v["in_ts"] and v["out_ts"]:
+        d = datetime.strptime(v["out_ts"], "%Y-%m-%d %H:%M:%S") - datetime.strptime(v["in_ts"], "%Y-%m-%d %H:%M:%S")
+        seg = int(d.total_seconds())
+        linhas.append("Duração: " + (f"{seg} segundos (menos de 1 minuto)" if seg < 60 else f"{seg // 60} min"))
+    rot = {"dentro": "DENTRO do raio da loja", "fora": "FORA da loja", "sem_ref": "sem referência de localização da loja"}
+    for q, ts, dist, fonte in (("Check-in", "in_status", "in_dist", "in_fonte"), ("Check-out", "out_status", "out_dist", "out_fonte")):
+        if v.get(ts):
+            linhas.append(f"GPS no {q}: {rot.get(v[ts], v[ts])}" + (f", a {round(v[dist])} m (referência: {fonte and v[fonte]})" if v.get(dist) is not None else ""))
+    imagens = []
+    if v.get("in_foto"):
+        imagens.append(("foto do CHECK-IN", v["in_foto"]))
+    if v.get("out_foto"):
+        imagens.append(("foto do CHECK-OUT", v["out_foto"]))
+    for t in _tarefas_da_visita(v):
+        linhas.append(f'Tarefa "{t["titulo"]}"' + (f" — {t['pendentes']} obrigatória(s) SEM resposta" if t["pendentes"] else ""))
+        for pg in t["perguntas"]:
+            r = pg.get("resposta")
+            resp = "(sem resposta)" if not r else (r["texto"] if r["texto"] else (r["numero"] if r["numero"] is not None else "(só foto)"))
+            linhas.append(f'  - {pg["texto"]}{" [obrigatória]" if pg.get("obrigatoria") else ""}: {resp}')
+            if r and r.get("foto"):
+                imagens.append((f'foto da resposta "{pg["texto"][:40]}"', r["foto"]))
+    return "\n".join(linhas), imagens[:IA_MAX_FOTOS]
+
+
+def analisar_visita(vid):
+    """Gera (ou refaz) a análise de IA de uma visita e grava em visitas.ia_*. Levanta exceção se falhar."""
+    v = one("SELECT * FROM visitas WHERE id=?", (vid,))
+    if not v:
+        raise ValueError("visita não encontrada")
+    if not os.getenv("OPENAI_API_KEY"):
+        raise RuntimeError("OPENAI_API_KEY não configurada no servidor")
+    from openai import OpenAI
+    texto, imagens = _contexto_visita(v)
+    partes = [{"type": "text", "text": texto + f"\n\nAs {len(imagens)} foto(s) seguem, cada uma precedida do seu rótulo."}]
+    for rotulo, rel in imagens:
+        try:
+            partes.append({"type": "text", "text": f"[{rotulo}]"})
+            partes.append({"type": "image_url", "image_url": {"url": _foto_data_url(rel), "detail": "low"}})
+        except Exception as e:
+            print(f"[AVISO] IA visita {vid}: foto {rel} ilegível ({e})")
+    resp = OpenAI(timeout=90).chat.completions.create(
+        model=IA_MODELO, temperature=0.2, response_format={"type": "json_object"},
+        messages=[{"role": "system", "content": PROMPT_IA}, {"role": "user", "content": partes}])
+    out = json.loads(resp.choices[0].message.content or "{}")
+    nivel = out.get("nivel") if out.get("nivel") in ("ok", "atencao", "problema") else "atencao"
+    out = {"nivel": nivel, "resumo": str(out.get("resumo") or "").strip(), "pontos": [str(x) for x in (out.get("pontos") or [])][:8],
+           "fotos": [f for f in (out.get("fotos") or []) if isinstance(f, dict)][:IA_MAX_FOTOS], "modelo": IA_MODELO, "n_fotos": len(imagens)}
+    db().execute("UPDATE visitas SET ia_texto=?, ia_nivel=?, ia_ts=? WHERE id=?", (json.dumps(out, ensure_ascii=False), nivel, agora(), vid))
+    db().commit()
+    return out
+
+
+def analisar_visita_em_segundo_plano(vid):
+    if vid in _ia_em_andamento:
+        return
+    _ia_em_andamento.add(vid)
+
+    def _run():
+        try:
+            analisar_visita(vid)
+        except Exception as e:
+            print(f"[AVISO] análise de IA da visita {vid} falhou: {str(e)[:200]}")
+        finally:
+            _ia_em_andamento.discard(vid)
+    threading.Thread(target=_run, daemon=True).start()
+
+
 # ── fotos ───────────────────────────────────────────────────────────────────
 def salvar_foto(arquivo, prefixo):
     if not arquivo:
@@ -814,6 +925,7 @@ def checkout():
     db().execute("UPDATE visitas SET out_ts=?,out_lat=?,out_lng=?,out_acc=?,out_foto=?,out_dist=?,out_fonte=?,out_raio=?,out_status=? WHERE id=?",
                  (agora(), lat, lng, acc, salvar_foto(request.files.get("foto"), f"out{cod}"), av["dist"], av["fonte"], av["raio"], av["status"], v["id"]))
     db().commit()
+    analisar_visita_em_segundo_plano(v["id"])                     # não atrasa o promotor: roda em segundo plano
     return jsonify(ok=True, status=av["status"], dist=av["dist"], fonte=av["fonte"])
 
 
@@ -996,6 +1108,11 @@ def g_visitas():
     out = []
     for v in rows(sql + " ORDER BY in_ts", args):
         v["promotor"] = nomes.get(v["codusur"], str(v["codusur"]))
+        try:
+            v["ia"] = json.loads(v["ia_texto"]) if v.get("ia_texto") else None
+        except ValueError:
+            v["ia"] = None
+        v["ia_gerando"] = v["id"] in _ia_em_andamento
         v["respostas"] = []
         for r in rows("SELECT r.*, t.titulo, t.perguntas FROM respostas r JOIN tarefas t ON t.id=r.tarefa_id WHERE r.visita_id=? ORDER BY r.id", (v["id"],)):
             perg = next((p for p in json.loads(r.pop("perguntas") or "[]") if p["id"] == r["pergunta_id"]), {})
@@ -1003,6 +1120,18 @@ def g_visitas():
             v["respostas"].append(r)
         out.append(v)
     return jsonify(out)
+
+
+@bp.post("/api/g/visitas/<int:vid>/analisar")
+def g_visita_analisar(vid):
+    exige("gestor")
+    try:
+        out = analisar_visita(vid)
+    except ValueError as e:
+        return jsonify(erro=str(e)), 404
+    except Exception as e:
+        return jsonify(erro=f"a análise de IA falhou: {str(e)[:160]}"), 503
+    return jsonify(ok=True, ia=out)
 
 
 @bp.get("/api/g/rota")
