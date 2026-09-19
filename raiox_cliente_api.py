@@ -66,6 +66,13 @@ def _query_cadastro(schema, codcli):
 
 
 def _query_vendas(schema, codcli):
+    # Sem piso de data de propósito (pedido do usuário em 2026-09-10, caso
+    # RJ-31683: cliente do balde RCA 10/200 — inativo/novo — que essa API
+    # atende sob demanda; MES_INI (1º de janeiro do ano corrente, usado no
+    # lote principal pra cliente com RCA Off Trade ativo) deixava a ficha
+    # inteira em branco pra quem não comprou nada neste ano, mesmo tendo
+    # histórico antigo). Só 1 cliente por vez aqui — sem o risco de tamanho
+    # de arquivo que trava o lote (ver docstring do módulo).
     return f"""
         SELECT TRUNC(M.DTMOV,'MM') AS MES,
                COALESCE(F.FANTASIA,'SEM FANTASIA') AS FORNECEDOR,
@@ -74,7 +81,6 @@ def _query_vendas(schema, codcli):
         JOIN {schema}.PCFORNEC F ON M.CODFORNEC = F.CODFORNEC
         WHERE M.CODCLI = {codcli}
           AND M.CODOPER = 'S' AND M.NUMNOTADEV IS NULL AND M.DTCANCEL IS NULL
-          AND TRUNC(M.DTMOV) >= TO_DATE('{MES_INI}','YYYY-MM-DD')
           AND TRUNC(M.DTMOV) <= TO_DATE('{MES_FIM}','YYYY-MM-DD')
         GROUP BY TRUNC(M.DTMOV,'MM'), COALESCE(F.FANTASIA,'SEM FANTASIA'), M.CODUSUR
     """
@@ -91,7 +97,6 @@ def _query_historico(schema, codcli):
         LEFT JOIN {schema}.PCPRODUT P ON M.CODPROD = P.CODPROD
         WHERE M.CODCLI = {codcli}
           AND M.CODOPER = 'S' AND M.NUMNOTADEV IS NULL AND M.DTCANCEL IS NULL
-          AND TRUNC(M.DTMOV) >= TO_DATE('{MES_INI}','YYYY-MM-DD')
           AND TRUNC(M.DTMOV) <= TO_DATE('{MES_FIM}','YYYY-MM-DD')
         ORDER BY TRUNC(M.DTMOV) DESC
     """
@@ -246,6 +251,11 @@ def detalhe():
         "vendedores_cadastro": vendedores_cadastro,
         "ultima_compra": ultima_compra,
         "ativo_periodo": not vd.empty,
+        # Diferente do lote (exportacao_raiox_cliente_detalhe.py), essa API
+        # não tem piso de data — "faturamento_ytd" aqui é histórico completo,
+        # não "ano corrente". Front-end troca o rótulo do KPI usando essa flag
+        # (ver raiox_cliente_detalhe.html::selecionarCliente).
+        "historico_completo": True,
         "faturamento_ytd": round(fat_ytd, 2),
         "media_mensal": round(media_mensal, 2),
         "por_mes": por_mes,

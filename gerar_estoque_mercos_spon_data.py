@@ -19,12 +19,14 @@ produtos existem fica preso ao último CSV sincronizado.
 """
 import json
 import os
+import re
 from datetime import datetime
 from pathlib import Path
 
 import pandas as pd
 
 from meta import engine_spon, carregar_dados
+from mercos_api import login as _mercos_login, EMPRESA_ID as _MERCOS_EMPRESA_ID, BASE_URL as _MERCOS_BASE_URL
 
 _RUNTIME = os.getenv("OFFTRADE_RUNTIME", "local")
 _EXPORTS_DIR = os.getenv(
@@ -56,6 +58,79 @@ def _carregar_estoque_spon():
     return df.set_index("CODPROD")
 
 
+# ── Escreve o estoque de volta na Mercos (tela "Ajuste de estoque") ────────
+# Sem API oficial pra isso (mesma ressalva de mercos_api.py) — descoberto
+# inspecionando a tela https://app.mercos.com/424258/representadas/707619/
+# atualizar-estoque/ em 2026-09-04 (pedido do usuario: os vendedores da
+# Mercos viam saldo desatualizado/zerado na hora de montar pedido). Cada
+# input de estoque tem id="estoque_<produto_id>" (produto_id da Mercos, NAO
+# e o CODPROD/codigo do Winthor) e dispara POST pra
+# /{empresa}/atualizar-estoque/<produto_id>/ com body form-urlencoded
+# quantidade=<valor> — sem CSRF token no body nem em header (view parece
+# csrf_exempt, so' depende do cookie de sessao). Repagina com
+# ?p=N&ordenar_por=0 (mesmo padrao do catalogo antigo), 50 produtos/pagina.
+#
+# Valor enviado = QTESTOQUE bruto do Winthor (SPON.ROTINA_105), sem descontar
+# QTRESERV — pedido explicito do usuario em 2026-09-04 (nao "disponivel pra
+# vender", o estoque fisico mesmo). Negativo trava em 0: nao existe estoque
+# negativo do lado da Mercos.
+def _scrape_produto_ids_mercos(sessao):
+    mapping = {}
+    p = 1
+    while p <= 30:  # 500 produtos / 50 por pagina ~= 10 paginas; 30 e' folga de seguranca
+        resp = sessao.get(
+            f"{_MERCOS_BASE_URL}/{_MERCOS_EMPRESA_ID}/representadas/707619/atualizar-estoque/",
+            params={"p": p, "ordenar_por": 0}, timeout=30,
+        )
+        resp.raise_for_status()
+        linhas = re.findall(r'id="estoque_(\d+)".*?</td>\s*<td>(\d+)</td>', resp.text, re.DOTALL)
+        if not linhas:
+            break
+        for produto_id, codigo in linhas:
+            mapping[codigo] = produto_id
+        p += 1
+    return mapping
+
+
+def _atualizar_estoque_mercos(estoque_df):
+    """Retorna um resumo {ok, falhas, mapeados} — usado tanto pelo cron
+    (só imprime) quanto pelo botão "Sincronizar estoque" de estoque_mercos.html
+    (via pedidos_mercos_api.py, que devolve esse resumo pro navegador)."""
+    try:
+        sessao = _mercos_login()
+    except Exception as e:
+        msg = f"login na Mercos falhou — estoque nao sera empurrado pra la ({e})."
+        print(f"[AVISO] {msg}")
+        return {"ok": 0, "falhas": 0, "mapeados": 0, "erro": msg}
+
+    mapping = _scrape_produto_ids_mercos(sessao)
+    if not mapping:
+        msg = "nao consegui mapear produtos na tela de estoque da Mercos — pulando push."
+        print(f"[AVISO] {msg}")
+        return {"ok": 0, "falhas": 0, "mapeados": 0, "erro": msg}
+
+    ok, falhas = 0, 0
+    for codigo, produto_id in mapping.items():
+        if codigo not in estoque_df.index:
+            continue
+        qtestoque = float(estoque_df.loc[codigo, "QTESTOQUE"] or 0)
+        valor = max(0, int(round(qtestoque)))
+        try:
+            resp = sessao.post(
+                f"{_MERCOS_BASE_URL}/{_MERCOS_EMPRESA_ID}/atualizar-estoque/{produto_id}/",
+                data={"quantidade": valor},
+                headers={"X-Requested-With": "XMLHttpRequest"},
+                timeout=20,
+            )
+            ok += resp.status_code == 200
+            falhas += resp.status_code != 200
+        except Exception:
+            falhas += 1
+
+    print(f"OK - estoque empurrado pra Mercos: {ok} produto(s), {falhas} falha(s) (de {len(mapping)} mapeados).")
+    return {"ok": ok, "falhas": falhas, "mapeados": len(mapping), "erro": None}
+
+
 def _publicar_static():
     if _RUNTIME != "vps":
         return
@@ -73,8 +148,17 @@ def _publicar_static():
 def main():
     if not os.path.exists(CATALOGO_PATH):
         print(f"[AVISO] catalogo da Mercos nao encontrado em {CATALOGO_PATH} — "
-              f"pulando (rode sync_mercos_exports_vps.py apos reexportar da Mercos).")
-        return
+              f"pulando geracao de estoque_mercos_data.js (rode sync_mercos_exports_vps.py "
+              f"apos reexportar da Mercos). Push de estoque pra Mercos nao depende desse "
+              f"catalogo — roda do mesmo jeito, abaixo.")
+        estoque = _carregar_estoque_spon()
+        try:
+            return _atualizar_estoque_mercos(estoque)
+        except Exception as e:
+            import traceback
+            print("[AVISO] push de estoque pra Mercos falhou — ignorado.")
+            traceback.print_exc()
+            return {"ok": 0, "falhas": 0, "mapeados": 0, "erro": str(e)[:200]}
 
     catalogo = _carregar_catalogo_mercos()
     estoque = _carregar_estoque_spon()
@@ -137,6 +221,14 @@ def main():
     print(f"  - encontrados no SPON: {sum(1 for p in produtos if p['encontrado_spon'])}")
     print(f"  - nao encontrados no SPON: {sum(1 for p in produtos if not p['encontrado_spon'])}")
     _publicar_static()
+
+    try:
+        return _atualizar_estoque_mercos(estoque)
+    except Exception as e:
+        import traceback
+        print("[AVISO] push de estoque pra Mercos falhou — ignorado.")
+        traceback.print_exc()
+        return {"ok": 0, "falhas": 0, "mapeados": 0, "erro": str(e)[:200]}
 
 
 if __name__ == "__main__":

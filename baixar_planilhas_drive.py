@@ -238,6 +238,10 @@ def caminho_base_ataque_vinhos() -> Path:
     return baixar_arquivo("Base Vinho", nome_saida="base_vinho.xlsx", google_sheets=True)
 
 
+def caminho_controle_agend_geovanna() -> Path:
+    return baixar_arquivo("CONTROLE DE AGEND. geovanna.xlsx")
+
+
 def caminho_base_otd() -> Path:
     return baixar_arquivo("BASE OTD.xlsx")
 

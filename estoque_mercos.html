@@ -91,6 +91,13 @@
       font-weight: 700; cursor: pointer; font-family: inherit;
     }
     .btn-csv:hover { opacity: .88; }
+    .btn-sync {
+      background: var(--blue); color: #0f1117; border: none;
+      border-radius: 8px; padding: 8px 16px; font-size: .88rem;
+      font-weight: 700; cursor: pointer; font-family: inherit;
+    }
+    .btn-sync:hover { opacity: .88; }
+    .btn-sync:disabled { opacity: .5; cursor: wait; }
     .info { font-size: .8rem; color: var(--muted); margin-left: auto; }
     .table-wrap { overflow-x: auto; border-radius: 10px; border: 1px solid var(--border); }
     table { width: 100%; border-collapse: collapse; font-size: .82rem; }
@@ -154,6 +161,7 @@
   </select>
   <input type="text" id="busca" placeholder="Buscar por código ou nome..." oninput="aplicarFiltro()">
   <button class="btn-csv" onclick="exportarCSV()">⬇ Exportar CSV</button>
+  <button class="btn-sync" id="btn-sync" onclick="sincronizarEstoque()">🔄 Sincronizar estoque</button>
   <span class="info" id="info-count"></span>
 </div>
 
@@ -308,6 +316,36 @@ function exportarCSV() {
   a.download = `estoque_mercos_spon_${new Date().toISOString().slice(0,10)}.csv`;
   a.click();
   URL.revokeObjectURL(url);
+}
+
+// Sincroniza sob demanda (fora do cron de 30min) — chama o mesmo push que
+// gerar_estoque_mercos_spon_data.py já faz, via pedidos_mercos_api.py
+// (único serviço que já tem acesso à Mercos+Oracle). Pode levar até ~2min
+// (scrape de ~10 páginas da Mercos + até 500 POSTs) — botão fica desabilitado
+// e o texto do header avisa o tempo esperado, pra não parecer travado.
+async function sincronizarEstoque() {
+  const btn = document.getElementById('btn-sync');
+  const sub = document.getElementById('header-sub');
+  const subOriginal = sub.textContent;
+  btn.disabled = true;
+  btn.textContent = '🔄 Sincronizando...';
+  sub.textContent = 'Sincronizando com a Mercos — pode levar até 2 minutos...';
+  try {
+    const resp = await fetch('/api/pedidos-mercos/sincronizar-estoque', { method: 'POST' });
+    const dados = await resp.json().catch(() => ({}));
+    if (resp.ok && dados.ok) {
+      sub.textContent = `Sincronizado: ${dados.atualizados} produto(s) atualizado(s)` +
+        (dados.falhas ? `, ${dados.falhas} falha(s)` : '') + ' — recarregando...';
+      setTimeout(() => location.reload(), 1500);
+      return;
+    }
+    sub.textContent = `Falha ao sincronizar: ${dados.motivo || 'erro desconhecido'}`;
+  } catch (e) {
+    sub.textContent = `Falha ao sincronizar: ${e.message}`;
+  }
+  btn.disabled = false;
+  btn.textContent = '🔄 Sincronizar estoque';
+  setTimeout(() => { sub.textContent = subOriginal; }, 8000);
 }
 </script>
 <script src="sticky_hscroll.js"></script>

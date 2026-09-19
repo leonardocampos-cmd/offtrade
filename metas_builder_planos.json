@@ -1,0 +1,886 @@
+{
+  "20260908091224": {
+    "id": "20260908091224",
+    "estado": "RJ",
+    "mes_referencia": "Set/26",
+    "criado_em": "08/09/2026 09:12",
+    "categorias": [
+      {
+        "id": "faturamento",
+        "rotulo": "Faturamento",
+        "escopo": "estado",
+        "modo": "media_pct",
+        "unidade": "moeda",
+        "valor_total": 3409668.8,
+        "base_media": 2964929.388333333,
+        "criterio": "cobertura70",
+        "teto_pct": 150
+      }
+    ],
+    "rateio_por_rca": [
+      {
+        "rca": 431,
+        "nome": "ADEILSON GONÇALVEZ",
+        "grupo": "allan",
+        "faturamento": 72158.64
+      },
+      {
+        "rca": 471,
+        "nome": "ANA CLARA FASSANO",
+        "grupo": "allan",
+        "faturamento": 47781.25
+      },
+      {
+        "rca": 153,
+        "nome": "ANGELO NEVES SUZART",
+        "grupo": "allan",
+        "faturamento": 272307.71
+      },
+      {
+        "rca": 412,
+        "nome": "BARBARA CABRAL",
+        "grupo": "allan",
+        "faturamento": 208370.73
+      },
+      {
+        "rca": 238,
+        "nome": "DANIELLE MOURA",
+        "grupo": "allan",
+        "faturamento": 185484.96
+      },
+      {
+        "rca": 144,
+        "nome": "DIOGO RAPOSO",
+        "grupo": "allan",
+        "faturamento": 351770.71
+      },
+      {
+        "rca": 378,
+        "nome": "FABIO VALOTTI",
+        "grupo": "allan",
+        "faturamento": 67918.71
+      },
+      {
+        "rca": 159,
+        "nome": "GISELLE BARFER",
+        "grupo": "interior",
+        "faturamento": 505150.53
+      },
+      {
+        "rca": 460,
+        "nome": "IVANILDO MAIA",
+        "grupo": "interior",
+        "faturamento": 149.45
+      },
+      {
+        "rca": 379,
+        "nome": "JORGE MACIEL",
+        "grupo": "allan",
+        "faturamento": 161753.33
+      },
+      {
+        "rca": 450,
+        "nome": "LEANDRO SOUZA",
+        "grupo": "allan",
+        "faturamento": 116953.9
+      },
+      {
+        "rca": 275,
+        "nome": "MARIA LUIZA",
+        "grupo": "allan",
+        "faturamento": 205217.4
+      },
+      {
+        "rca": 156,
+        "nome": "MARILENA TRAGEL",
+        "grupo": "allan",
+        "faturamento": 262530.16
+      },
+      {
+        "rca": 439,
+        "nome": "MATEUS CARDOSO",
+        "grupo": "allan",
+        "faturamento": 102671.55
+      },
+      {
+        "rca": 419,
+        "nome": "NÁTALI DE OLIVEIRA",
+        "grupo": "allan",
+        "faturamento": 243693.01
+      },
+      {
+        "rca": 155,
+        "nome": "RAPHAEL SANTOS",
+        "grupo": "interior",
+        "faturamento": 538213.85
+      },
+      {
+        "rca": 241,
+        "nome": "ZEINALDO DE OLIVEIRA",
+        "grupo": "interior",
+        "faturamento": 67542.89
+      }
+    ]
+  },
+  "20260908091841": {
+    "id": "20260908091841",
+    "estado": "RJ",
+    "mes_referencia": "Set/26",
+    "criado_em": "08/09/2026 09:18",
+    "categorias": [
+      {
+        "base_media": 2964929.388333333,
+        "criterio": "cobertura70",
+        "escopo": "estado",
+        "id": "faturamento",
+        "modo": "media_pct",
+        "rotulo": "Faturamento",
+        "teto_pct": 150,
+        "unidade": "moeda",
+        "valor_total": 3409668.8
+      },
+      {
+        "base_media": 712.0833333333334,
+        "criterio": "cobertura70",
+        "escopo": "estado",
+        "id": "positivacao",
+        "modo": "media_pct",
+        "rotulo": "Positivação",
+        "teto_pct": 150,
+        "unidade": "numero",
+        "valor_total": 819.0
+      },
+      {
+        "base_media": 36052.37468066667,
+        "criterio": "cobertura70",
+        "escopo": "estado",
+        "id": "hob_azeite",
+        "modo": "media_pct",
+        "rotulo": "Hob + Azeite",
+        "teto_pct": 150,
+        "unidade": "moeda",
+        "valor_total": 41460.23
+      },
+      {
+        "base_media": 142823.10646799998,
+        "criterio": "cobertura70",
+        "escopo": "estado",
+        "id": "castas",
+        "modo": "media_pct",
+        "rotulo": "Castas",
+        "teto_pct": 150,
+        "unidade": "moeda",
+        "valor_total": 164246.57
+      },
+      {
+        "base_media": 64.5,
+        "criterio": "cobertura70",
+        "escopo": "estado",
+        "id": "crusoe",
+        "modo": "media_pct",
+        "rotulo": "Crusoe",
+        "teto_pct": 150,
+        "unidade": "numero",
+        "valor_total": 77.0
+      }
+    ],
+    "rateio_por_rca": [
+      {
+        "castas": 1093.55,
+        "crusoe": 14.0,
+        "faturamento": 72158.64,
+        "grupo": "allan",
+        "hob_azeite": 872.74,
+        "nome": "ADEILSON GONÇALVEZ",
+        "positivacao": 69.0,
+        "rca": 431
+      },
+      {
+        "castas": 2655.12,
+        "crusoe": 4.0,
+        "faturamento": 47781.25,
+        "grupo": "allan",
+        "hob_azeite": 1723.88,
+        "nome": "ANA CLARA FASSANO",
+        "positivacao": 32.0,
+        "rca": 471
+      },
+      {
+        "castas": 17180.3,
+        "crusoe": 8.0,
+        "faturamento": 272307.71,
+        "grupo": "allan",
+        "hob_azeite": 1586.95,
+        "nome": "ANGELO NEVES SUZART",
+        "positivacao": 38.0,
+        "rca": 153
+      },
+      {
+        "castas": 7019.54,
+        "crusoe": 10.0,
+        "faturamento": 208370.73,
+        "grupo": "allan",
+        "hob_azeite": 605.67,
+        "nome": "BARBARA CABRAL",
+        "positivacao": 40.0,
+        "rca": 412
+      },
+      {
+        "castas": 11702.52,
+        "crusoe": 0.0,
+        "faturamento": 185484.96,
+        "grupo": "allan",
+        "hob_azeite": 13.75,
+        "nome": "DANIELLE MOURA",
+        "positivacao": 26.0,
+        "rca": 238
+      },
+      {
+        "castas": 6047.61,
+        "crusoe": 2.0,
+        "faturamento": 351770.71,
+        "grupo": "allan",
+        "hob_azeite": 3517.78,
+        "nome": "DIOGO RAPOSO",
+        "positivacao": 59.0,
+        "rca": 144
+      },
+      {
+        "castas": 81.04,
+        "crusoe": 3.0,
+        "faturamento": 67918.71,
+        "grupo": "allan",
+        "hob_azeite": 138.51,
+        "nome": "FABIO VALOTTI",
+        "positivacao": 44.0,
+        "rca": 378
+      },
+      {
+        "castas": 31870.7,
+        "crusoe": 0.0,
+        "faturamento": 505150.53,
+        "grupo": "interior",
+        "hob_azeite": 4049.14,
+        "nome": "GISELLE BARFER",
+        "positivacao": 71.0,
+        "rca": 159
+      },
+      {
+        "castas": 0.0,
+        "crusoe": 0.0,
+        "faturamento": 149.45,
+        "grupo": "interior",
+        "hob_azeite": 0.0,
+        "nome": "IVANILDO MAIA",
+        "positivacao": 0.0,
+        "rca": 460
+      },
+      {
+        "castas": 2440.19,
+        "crusoe": 16.0,
+        "faturamento": 161753.33,
+        "grupo": "allan",
+        "hob_azeite": 649.94,
+        "nome": "JORGE MACIEL",
+        "positivacao": 62.0,
+        "rca": 379
+      },
+      {
+        "castas": 4726.66,
+        "crusoe": 2.0,
+        "faturamento": 116953.9,
+        "grupo": "allan",
+        "hob_azeite": 374.17,
+        "nome": "LEANDRO SOUZA",
+        "positivacao": 25.0,
+        "rca": 450
+      },
+      {
+        "castas": 12947.47,
+        "crusoe": 3.0,
+        "faturamento": 205217.4,
+        "grupo": "allan",
+        "hob_azeite": 19951.99,
+        "nome": "MARIA LUIZA",
+        "positivacao": 29.0,
+        "rca": 275
+      },
+      {
+        "castas": 20635.14,
+        "crusoe": 0.0,
+        "faturamento": 262530.16,
+        "grupo": "allan",
+        "hob_azeite": 202.61,
+        "nome": "MARILENA TRAGEL",
+        "positivacao": 140.0,
+        "rca": 156
+      },
+      {
+        "castas": 1583.25,
+        "crusoe": 6.0,
+        "faturamento": 102671.55,
+        "grupo": "allan",
+        "hob_azeite": 707.35,
+        "nome": "MATEUS CARDOSO",
+        "positivacao": 32.0,
+        "rca": 439
+      },
+      {
+        "castas": 3325.93,
+        "crusoe": 9.0,
+        "faturamento": 243693.01,
+        "grupo": "allan",
+        "hob_azeite": 850.82,
+        "nome": "NÁTALI DE OLIVEIRA",
+        "positivacao": 36.0,
+        "rca": 419
+      },
+      {
+        "castas": 40834.34,
+        "crusoe": 0.0,
+        "faturamento": 538213.85,
+        "grupo": "interior",
+        "hob_azeite": 6214.93,
+        "nome": "RAPHAEL SANTOS",
+        "positivacao": 91.0,
+        "rca": 155
+      },
+      {
+        "castas": 103.2,
+        "crusoe": 0.0,
+        "faturamento": 67542.89,
+        "grupo": "interior",
+        "hob_azeite": 0.0,
+        "nome": "ZEINALDO DE OLIVEIRA",
+        "positivacao": 23.0,
+        "rca": 241
+      }
+    ]
+  },
+  "20260908092646": {
+    "id": "20260908092646",
+    "estado": "RJ",
+    "mes_referencia": "Set/26",
+    "criado_em": "08/09/2026 09:26",
+    "categorias": [
+      {
+        "base_media": 2964929.388333333,
+        "criterio": "cobertura70",
+        "escopo": "estado",
+        "id": "faturamento",
+        "modo": "media_pct",
+        "rotulo": "Faturamento",
+        "teto_pct": 150,
+        "unidade": "moeda",
+        "valor_total": 3409668.8
+      },
+      {
+        "base_media": 712.0833333333334,
+        "criterio": "cobertura70",
+        "escopo": "estado",
+        "id": "positivacao",
+        "modo": "media_pct",
+        "rotulo": "Positivação",
+        "teto_pct": 150,
+        "unidade": "numero",
+        "valor_total": 819.0
+      },
+      {
+        "base_media": 36052.37468066667,
+        "criterio": "cobertura70",
+        "escopo": "estado",
+        "id": "hob_azeite",
+        "modo": "media_pct",
+        "rotulo": "Hob + Azeite",
+        "teto_pct": 150,
+        "unidade": "moeda",
+        "valor_total": 41460.23
+      },
+      {
+        "base_media": 142823.10646799998,
+        "criterio": "cobertura70",
+        "escopo": "estado",
+        "id": "castas",
+        "modo": "media_pct",
+        "rotulo": "Castas",
+        "teto_pct": 150,
+        "unidade": "moeda",
+        "valor_total": 164246.57
+      },
+      {
+        "base_media": 64.5,
+        "criterio": "cobertura70",
+        "escopo": "estado",
+        "id": "crusoe",
+        "modo": "media_pct",
+        "rotulo": "Crusoe",
+        "teto_pct": 150,
+        "unidade": "numero",
+        "valor_total": 77.0
+      },
+      {
+        "base_media": 492289.29365225,
+        "criterio": "cobertura70",
+        "escopo": "estado",
+        "id": "espumantes",
+        "modo": "media_pct",
+        "rotulo": "Espumantes (Perini/LVMH/Alud)",
+        "teto_pct": 150,
+        "unidade": "moeda",
+        "valor_total": 566132.69
+      }
+    ],
+    "rateio_por_rca": [
+      {
+        "castas": 1093.55,
+        "crusoe": 14.0,
+        "espumantes": 1301.5,
+        "faturamento": 72158.64,
+        "grupo": "allan",
+        "hob_azeite": 872.74,
+        "nome": "ADEILSON GONÇALVEZ",
+        "positivacao": 69.0,
+        "rca": 431
+      },
+      {
+        "castas": 2655.12,
+        "crusoe": 4.0,
+        "espumantes": 4416.71,
+        "faturamento": 47781.25,
+        "grupo": "allan",
+        "hob_azeite": 1723.88,
+        "nome": "ANA CLARA FASSANO",
+        "positivacao": 32.0,
+        "rca": 471
+      },
+      {
+        "castas": 17180.3,
+        "crusoe": 8.0,
+        "espumantes": 86064.42,
+        "faturamento": 272307.71,
+        "grupo": "allan",
+        "hob_azeite": 1586.95,
+        "nome": "ANGELO NEVES SUZART",
+        "positivacao": 38.0,
+        "rca": 153
+      },
+      {
+        "castas": 7019.54,
+        "crusoe": 10.0,
+        "espumantes": 76844.6,
+        "faturamento": 208370.73,
+        "grupo": "allan",
+        "hob_azeite": 605.67,
+        "nome": "BARBARA CABRAL",
+        "positivacao": 40.0,
+        "rca": 412
+      },
+      {
+        "castas": 11702.52,
+        "crusoe": 0.0,
+        "espumantes": 58623.59,
+        "faturamento": 185484.96,
+        "grupo": "allan",
+        "hob_azeite": 13.75,
+        "nome": "DANIELLE MOURA",
+        "positivacao": 26.0,
+        "rca": 238
+      },
+      {
+        "castas": 6047.61,
+        "crusoe": 2.0,
+        "espumantes": 62667.22,
+        "faturamento": 351770.71,
+        "grupo": "allan",
+        "hob_azeite": 3517.78,
+        "nome": "DIOGO RAPOSO",
+        "positivacao": 59.0,
+        "rca": 144
+      },
+      {
+        "castas": 81.04,
+        "crusoe": 3.0,
+        "espumantes": 1447.03,
+        "faturamento": 67918.71,
+        "grupo": "allan",
+        "hob_azeite": 138.51,
+        "nome": "FABIO VALOTTI",
+        "positivacao": 44.0,
+        "rca": 378
+      },
+      {
+        "castas": 31870.7,
+        "crusoe": 0.0,
+        "espumantes": 32422.24,
+        "faturamento": 505150.53,
+        "grupo": "interior",
+        "hob_azeite": 4049.14,
+        "nome": "GISELLE BARFER",
+        "positivacao": 71.0,
+        "rca": 159
+      },
+      {
+        "castas": 0.0,
+        "crusoe": 0.0,
+        "espumantes": 0.0,
+        "faturamento": 149.45,
+        "grupo": "interior",
+        "hob_azeite": 0.0,
+        "nome": "IVANILDO MAIA",
+        "positivacao": 0.0,
+        "rca": 460
+      },
+      {
+        "castas": 2440.19,
+        "crusoe": 16.0,
+        "espumantes": 22054.48,
+        "faturamento": 161753.33,
+        "grupo": "allan",
+        "hob_azeite": 649.94,
+        "nome": "JORGE MACIEL",
+        "positivacao": 62.0,
+        "rca": 379
+      },
+      {
+        "castas": 4726.66,
+        "crusoe": 2.0,
+        "espumantes": 23019.99,
+        "faturamento": 116953.9,
+        "grupo": "allan",
+        "hob_azeite": 374.17,
+        "nome": "LEANDRO SOUZA",
+        "positivacao": 25.0,
+        "rca": 450
+      },
+      {
+        "castas": 12947.47,
+        "crusoe": 3.0,
+        "espumantes": 64860.14,
+        "faturamento": 205217.4,
+        "grupo": "allan",
+        "hob_azeite": 19951.99,
+        "nome": "MARIA LUIZA",
+        "positivacao": 29.0,
+        "rca": 275
+      },
+      {
+        "castas": 20635.14,
+        "crusoe": 0.0,
+        "espumantes": 15945.96,
+        "faturamento": 262530.16,
+        "grupo": "allan",
+        "hob_azeite": 202.61,
+        "nome": "MARILENA TRAGEL",
+        "positivacao": 140.0,
+        "rca": 156
+      },
+      {
+        "castas": 1583.25,
+        "crusoe": 6.0,
+        "espumantes": 2300.49,
+        "faturamento": 102671.55,
+        "grupo": "allan",
+        "hob_azeite": 707.35,
+        "nome": "MATEUS CARDOSO",
+        "positivacao": 32.0,
+        "rca": 439
+      },
+      {
+        "castas": 3325.93,
+        "crusoe": 9.0,
+        "espumantes": 77375.4,
+        "faturamento": 243693.01,
+        "grupo": "allan",
+        "hob_azeite": 850.82,
+        "nome": "NÁTALI DE OLIVEIRA",
+        "positivacao": 36.0,
+        "rca": 419
+      },
+      {
+        "castas": 40834.34,
+        "crusoe": 0.0,
+        "espumantes": 35446.3,
+        "faturamento": 538213.85,
+        "grupo": "interior",
+        "hob_azeite": 6214.93,
+        "nome": "RAPHAEL SANTOS",
+        "positivacao": 91.0,
+        "rca": 155
+      },
+      {
+        "castas": 103.2,
+        "crusoe": 0.0,
+        "espumantes": 1342.61,
+        "faturamento": 67542.89,
+        "grupo": "interior",
+        "hob_azeite": 0.0,
+        "nome": "ZEINALDO DE OLIVEIRA",
+        "positivacao": 23.0,
+        "rca": 241
+      }
+    ]
+  },
+  "20260908094222": {
+    "id": "20260908094222",
+    "estado": "RJ",
+    "mes_referencia": "Set/26",
+    "criado_em": "08/09/2026 09:42",
+    "categorias": [
+      {
+        "base_media": 2785781.5346245007,
+        "criterio": "cobertura70",
+        "escopo": "estado",
+        "id": "faturamento",
+        "modo": "media_pct",
+        "rotulo": "Faturamento",
+        "teto_pct": 150,
+        "unidade": "moeda",
+        "valor_total": 3203648.76
+      },
+      {
+        "base_media": 713.5833333333334,
+        "criterio": "cobertura70",
+        "escopo": "estado",
+        "id": "positivacao",
+        "modo": "media_pct",
+        "rotulo": "Positivação",
+        "teto_pct": 150,
+        "unidade": "numero",
+        "valor_total": 821.0
+      },
+      {
+        "base_media": 36052.37468066667,
+        "criterio": "cobertura70",
+        "escopo": "estado",
+        "id": "hob_azeite",
+        "modo": "media_pct",
+        "rotulo": "Hob + Azeite",
+        "teto_pct": 150,
+        "unidade": "moeda",
+        "valor_total": 41460.23
+      },
+      {
+        "base_media": 142823.10646799998,
+        "criterio": "cobertura70",
+        "escopo": "estado",
+        "id": "castas",
+        "modo": "media_pct",
+        "rotulo": "Castas",
+        "teto_pct": 150,
+        "unidade": "moeda",
+        "valor_total": 164246.57
+      },
+      {
+        "base_media": 64.5,
+        "criterio": "cobertura70",
+        "escopo": "estado",
+        "id": "crusoe",
+        "modo": "media_pct",
+        "rotulo": "Crusoe",
+        "teto_pct": 150,
+        "unidade": "numero",
+        "valor_total": 77.0
+      },
+      {
+        "base_media": 492289.29365225,
+        "criterio": "cobertura70",
+        "escopo": "estado",
+        "id": "espumantes",
+        "modo": "media_pct",
+        "rotulo": "Espumantes (Perini/LVMH/Alud)",
+        "teto_pct": 150,
+        "unidade": "moeda",
+        "valor_total": 566132.69
+      }
+    ],
+    "rateio_por_rca": [
+      {
+        "castas": 1093.55,
+        "crusoe": 14.0,
+        "espumantes": 1301.5,
+        "faturamento": 63044.71,
+        "grupo": "allan",
+        "hob_azeite": 872.74,
+        "nome": "ADEILSON GONÇALVEZ",
+        "positivacao": 69.0,
+        "rca": 431
+      },
+      {
+        "castas": 2655.12,
+        "crusoe": 4.0,
+        "espumantes": 4416.71,
+        "faturamento": 44030.23,
+        "grupo": "allan",
+        "hob_azeite": 1723.88,
+        "nome": "ANA CLARA FASSANO",
+        "positivacao": 32.0,
+        "rca": 471
+      },
+      {
+        "castas": 17180.3,
+        "crusoe": 8.0,
+        "espumantes": 86064.42,
+        "faturamento": 264185.33,
+        "grupo": "allan",
+        "hob_azeite": 1586.95,
+        "nome": "ANGELO NEVES SUZART",
+        "positivacao": 38.0,
+        "rca": 153
+      },
+      {
+        "castas": 7019.54,
+        "crusoe": 10.0,
+        "espumantes": 76844.6,
+        "faturamento": 194566.49,
+        "grupo": "allan",
+        "hob_azeite": 605.67,
+        "nome": "BARBARA CABRAL",
+        "positivacao": 40.0,
+        "rca": 412
+      },
+      {
+        "castas": 11702.52,
+        "crusoe": 0.0,
+        "espumantes": 58623.59,
+        "faturamento": 179952.32,
+        "grupo": "allan",
+        "hob_azeite": 13.75,
+        "nome": "DANIELLE MOURA",
+        "positivacao": 26.0,
+        "rca": 238
+      },
+      {
+        "castas": 6047.61,
+        "crusoe": 2.0,
+        "espumantes": 62667.22,
+        "faturamento": 336270.65,
+        "grupo": "allan",
+        "hob_azeite": 3517.78,
+        "nome": "DIOGO RAPOSO",
+        "positivacao": 59.0,
+        "rca": 144
+      },
+      {
+        "castas": 81.04,
+        "crusoe": 3.0,
+        "espumantes": 1447.03,
+        "faturamento": 63693.68,
+        "grupo": "allan",
+        "hob_azeite": 138.51,
+        "nome": "FABIO VALOTTI",
+        "positivacao": 44.0,
+        "rca": 378
+      },
+      {
+        "castas": 31870.7,
+        "crusoe": 0.0,
+        "espumantes": 32422.24,
+        "faturamento": 490082.92,
+        "grupo": "interior",
+        "hob_azeite": 4049.14,
+        "nome": "GISELLE BARFER",
+        "positivacao": 71.0,
+        "rca": 159
+      },
+      {
+        "castas": 0.0,
+        "crusoe": 0.0,
+        "espumantes": 0.0,
+        "faturamento": 64.3,
+        "grupo": "interior",
+        "hob_azeite": 0.0,
+        "nome": "IVANILDO MAIA",
+        "positivacao": 0.0,
+        "rca": 460
+      },
+      {
+        "castas": 2440.19,
+        "crusoe": 16.0,
+        "espumantes": 22054.48,
+        "faturamento": 148535.78,
+        "grupo": "allan",
+        "hob_azeite": 649.94,
+        "nome": "JORGE MACIEL",
+        "positivacao": 62.0,
+        "rca": 379
+      },
+      {
+        "castas": 4726.66,
+        "crusoe": 2.0,
+        "espumantes": 23019.99,
+        "faturamento": 114291.43,
+        "grupo": "allan",
+        "hob_azeite": 374.17,
+        "nome": "LEANDRO SOUZA",
+        "positivacao": 25.0,
+        "rca": 450
+      },
+      {
+        "castas": 12947.47,
+        "crusoe": 3.0,
+        "espumantes": 64860.14,
+        "faturamento": 199096.19,
+        "grupo": "allan",
+        "hob_azeite": 19951.99,
+        "nome": "MARIA LUIZA",
+        "positivacao": 29.0,
+        "rca": 275
+      },
+      {
+        "castas": 20635.14,
+        "crusoe": 0.0,
+        "espumantes": 15945.96,
+        "faturamento": 237490.13,
+        "grupo": "allan",
+        "hob_azeite": 202.61,
+        "nome": "MARILENA TRAGEL",
+        "positivacao": 140.0,
+        "rca": 156
+      },
+      {
+        "castas": 1583.25,
+        "crusoe": 6.0,
+        "espumantes": 2300.49,
+        "faturamento": 100527.79,
+        "grupo": "allan",
+        "hob_azeite": 707.35,
+        "nome": "MATEUS CARDOSO",
+        "positivacao": 33.0,
+        "rca": 439
+      },
+      {
+        "castas": 3325.93,
+        "crusoe": 9.0,
+        "espumantes": 77375.4,
+        "faturamento": 226088.01,
+        "grupo": "allan",
+        "hob_azeite": 850.82,
+        "nome": "NÁTALI DE OLIVEIRA",
+        "positivacao": 36.0,
+        "rca": 419
+      },
+      {
+        "castas": 40834.34,
+        "crusoe": 0.0,
+        "espumantes": 35446.3,
+        "faturamento": 478233.79,
+        "grupo": "interior",
+        "hob_azeite": 6214.93,
+        "nome": "RAPHAEL SANTOS",
+        "positivacao": 91.0,
+        "rca": 155
+      },
+      {
+        "castas": 103.2,
+        "crusoe": 0.0,
+        "espumantes": 1342.61,
+        "faturamento": 63495.01,
+        "grupo": "interior",
+        "hob_azeite": 0.0,
+        "nome": "ZEINALDO DE OLIVEIRA",
+        "positivacao": 23.0,
+        "rca": 241
+      }
+    ]
+  }
+}

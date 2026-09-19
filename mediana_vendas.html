@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<script src="vps_redirect.js"></script>
+<script src="auth.js"></script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Projeção por Mediana de Cliente</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  :root {
+    --bg: #0f1117; --card: #1a1d27; --card2: #21242f; --accent: #f5c518;
+    --text: #e2e8f0; --muted: #94a3b8; --border: #2d3144;
+    --green: #22c55e; --red: #ef4444; --blue: #60a5fa; --purple: #c084fc;
+  }
+  body {
+    background: var(--bg); color: var(--text);
+    font-family: 'Segoe UI', system-ui, sans-serif;
+    padding: 24px; max-width: 1100px; margin: 0 auto;
+  }
+  header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 24px; flex-wrap: wrap; gap: 12px; }
+  header h1 { font-size: 1.3rem; color: var(--accent); }
+  header p { font-size: .8rem; color: var(--muted); margin-top: 3px; max-width: 60ch; }
+  a.voltar { color: var(--muted); font-size: .8rem; text-decoration: none; }
+  a.voltar:hover { color: var(--text); }
+
+  .estado-toggle { display: flex; gap: 6px; background: var(--card); border: 1px solid var(--border); border-radius: 10px; padding: 4px; }
+  .estado-toggle button {
+    background: transparent; color: var(--muted); border: none; border-radius: 7px;
+    padding: 7px 18px; font-size: .85rem; font-weight: 700; cursor: pointer; font-family: inherit;
+  }
+  .estado-toggle button.ativo { background: var(--accent); color: #111; }
+
+  .card { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 20px; margin-bottom: 18px; }
+  .card h2 { font-size: 1rem; margin-bottom: 4px; }
+  .card .sub { font-size: .78rem; color: var(--muted); margin-bottom: 16px; }
+
+  .kpi-row { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin-bottom: 18px; }
+  .kpi { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 16px 18px; }
+  .kpi .label { font-size: .7rem; color: var(--muted); text-transform: uppercase; letter-spacing: .05em; }
+  .kpi .value { font-size: 1.4rem; margin-top: 6px; font-weight: 700; color: var(--accent); }
+  .kpi .hint { font-size: .72rem; color: var(--muted); margin-top: 4px; }
+  @media (max-width: 720px) { .kpi-row { grid-template-columns: 1fr; } }
+
+  table { width: 100%; border-collapse: collapse; font-size: .82rem; }
+  thead th {
+    text-align: left; padding: 8px 10px; font-size: .7rem; text-transform: uppercase;
+    letter-spacing: .04em; color: var(--muted); border-bottom: 1px solid var(--border); white-space: nowrap;
+  }
+  tbody td { padding: 8px 10px; border-bottom: 1px solid var(--border); vertical-align: middle; }
+  tbody tr:hover { background: var(--card2); }
+  .num { text-align: right; font-variant-numeric: tabular-nums; }
+  .badge { font-size: .68rem; padding: 2px 8px; border-radius: 20px; font-weight: 700; white-space: nowrap; }
+  .badge-0 { background: rgba(96,165,250,.15); color: var(--blue); }
+  .badge-1 { background: rgba(245,197,24,.15); color: var(--accent); }
+  .empty { text-align: center; padding: 30px; color: var(--muted); font-size: .85rem; }
+  .msg { font-size: .8rem; margin-top: 10px; }
+  .msg.erro { color: var(--red); }
+</style>
+</head>
+<body>
+
+<header>
+  <div>
+    <h1>📊 Projeção por Mediana de Cliente</h1>
+    <p id="header-sub">Faturamento projetado por vendedor: soma, para cada cliente da carteira dele, da mediana das compras desse cliente nos últimos 3 meses fechados (0 nos meses sem compra) — mais resistente a um pedido isolado grande do que a média simples.</p>
+  </div>
+  <div style="display:flex;align-items:center;gap:14px">
+    <div class="estado-toggle">
+      <button id="btn-estado-RJ" class="ativo" onclick="selecionarEstado('RJ')">RJ</button>
+      <button id="btn-estado-SP" onclick="selecionarEstado('SP')">SP</button>
+    </div>
+    <a class="voltar" href="metas_builder.html">← Construção de Metas</a>
+  </div>
+</header>
+
+<div class="kpi-row">
+  <div class="kpi">
+    <div class="label">Faturamento projetado (soma do estado)</div>
+    <div class="value" id="kpi-total">—</div>
+    <div class="hint" id="kpi-total-hint">Carregando...</div>
+  </div>
+  <div class="kpi">
+    <div class="label">RCAs considerados</div>
+    <div class="value" id="kpi-rcas">—</div>
+    <div class="hint">com carteira ativa (BLOQUEIO=N)</div>
+  </div>
+  <div class="kpi">
+    <div class="label">Clientes na carteira (total)</div>
+    <div class="value" id="kpi-clientes">—</div>
+    <div class="hint">CODUSUR1/2/3, qualquer papel</div>
+  </div>
+</div>
+
+<div class="card">
+  <h2>Faturamento por vendedor</h2>
+  <div class="sub" id="tabela-sub">Carregando...</div>
+  <div style="overflow-x:auto">
+    <table id="tabela-rcas">
+      <thead>
+        <tr>
+          <th>RCA</th><th>Vendedor</th><th>Time</th>
+          <th class="num">Clientes na carteira</th>
+          <th class="num">Faturamento projetado (mediana)</th>
+        </tr>
+      </thead>
+      <tbody id="tbody-rcas"><tr><td colspan="5" class="empty">Carregando...</td></tr></tbody>
+    </table>
+  </div>
+  <div class="msg" id="msg"></div>
+</div>
+
+<script>
+const API = '/api/metas-builder';
+const GRUPO_ROTULO_CURTO = { allan: 'Allan', interior: 'Interior', marcus: 'Marcus', ws: 'W.S' };
+let ESTADO = 'RJ';
+let GRUPOS_ORDEM = [];
+
+function _fmtBRL(v) {
+  if (v == null) return '—';
+  return 'R$ ' + Number(v).toLocaleString('pt-BR', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+}
+function _fmtNum(v) {
+  if (v == null) return '—';
+  return Number(v).toLocaleString('pt-BR');
+}
+function _esc(s) {
+  const d = document.createElement('div');
+  d.textContent = s ?? '';
+  return d.innerHTML;
+}
+function _badgeClasse(grupo) {
+  if (!GRUPOS_ORDEM.includes(grupo)) GRUPOS_ORDEM.push(grupo);
+  return 'badge-' + (GRUPOS_ORDEM.indexOf(grupo) === 1 ? '1' : '0');
+}
+
+async function selecionarEstado(estado) {
+  if (estado === ESTADO) return;
+  ESTADO = estado;
+  GRUPOS_ORDEM = [];
+  document.getElementById('btn-estado-RJ').classList.toggle('ativo', estado === 'RJ');
+  document.getElementById('btn-estado-SP').classList.toggle('ativo', estado === 'SP');
+  await _carregar();
+}
+
+async function _carregar() {
+  const sub = document.getElementById('tabela-sub');
+  const msg = document.getElementById('msg');
+  sub.textContent = 'Carregando (consulta ao Oracle, pode levar alguns segundos)...';
+  msg.textContent = '';
+  msg.className = 'msg';
+  document.getElementById('tbody-rcas').innerHTML = '<tr><td colspan="5" class="empty">Carregando...</td></tr>';
+  try {
+    const resp = await fetch(`${API}/mediana-vendas?estado=${ESTADO}`);
+    const dados = await resp.json();
+    if (!dados.ok) throw new Error(dados.motivo || 'erro desconhecido');
+
+    const totalClientes = dados.rcas.reduce((acc, r) => acc + r.n_clientes, 0);
+    document.getElementById('kpi-total').textContent = _fmtBRL(dados.total_geral);
+    document.getElementById('kpi-total-hint').textContent = `Meses: ${dados.meses_considerados.join(', ')}`;
+    document.getElementById('kpi-rcas').textContent = _fmtNum(dados.rcas.length);
+    document.getElementById('kpi-clientes').textContent = _fmtNum(totalClientes);
+
+    sub.textContent = `${dados.rcas.length} RCA(s) — mediana calculada sobre ${dados.meses_considerados.join(', ')}.`;
+    document.getElementById('tbody-rcas').innerHTML = dados.rcas.map(r => `
+      <tr>
+        <td>${r.rca}</td>
+        <td>${_esc(r.nome)}</td>
+        <td><span class="badge ${_badgeClasse(r.grupo)}">${_esc(GRUPO_ROTULO_CURTO[r.grupo] || r.grupo)}</span></td>
+        <td class="num">${_fmtNum(r.n_clientes)}</td>
+        <td class="num">${_fmtBRL(r.faturamento_mediana)}</td>
+      </tr>
+    `).join('');
+  } catch (e) {
+    sub.textContent = 'Falha ao carregar.';
+    msg.textContent = 'Erro: ' + e.message;
+    msg.className = 'msg erro';
+    document.getElementById('tbody-rcas').innerHTML = '<tr><td colspan="5" class="empty">Erro ao carregar.</td></tr>';
+  }
+}
+
+_carregar();
+</script>
+</body>
+</html>

@@ -308,7 +308,12 @@
     function renderFicha(c) {
       const vendedores = c.vendedores_cadastro.map(v => `${v.nome} (${v.rca})`).join(', ') || 'Sem vendedor cadastrado';
 
-      const meses = data.meses_com_dado.map(m => ({ mes: m, valor: c.por_mes[m] || 0 }));
+      // Cliente sob demanda (historico_completo) tem meses fora da janela do
+      // lote (data.meses_com_dado = só ano corrente) — usa os meses do
+      // próprio cliente nesse caso, senão o gráfico/CSV cortava o histórico
+      // que acabou de ser liberado no backend (pedido do usuário em 2026-09-10).
+      const listaMeses = c.historico_completo ? Object.keys(c.por_mes).sort() : data.meses_com_dado;
+      const meses = listaMeses.map(m => ({ mes: m, valor: c.por_mes[m] || 0 }));
       const maxMes = Math.max(...meses.map(m => m.valor), 1);
       const mesesHtml = meses.map(m => `
         <div class="mes-col">
@@ -387,9 +392,9 @@
         </div>
 
         <div class="kpi-row">
-          <div class="kpi-card"><div class="kpi-label">Faturamento YTD</div><div class="kpi-valor">${brl(c.faturamento_ytd)}</div></div>
+          <div class="kpi-card"><div class="kpi-label">${c.historico_completo ? 'Faturamento (histórico completo)' : 'Faturamento YTD'}</div><div class="kpi-valor">${brl(c.faturamento_ytd)}</div></div>
           <div class="kpi-card"><div class="kpi-label">Média mensal</div><div class="kpi-valor">${brl(c.media_mensal)}</div></div>
-          <div class="kpi-card"><div class="kpi-label">Meses ativos</div><div class="kpi-valor">${Object.keys(c.por_mes).length} / ${data.meses_com_dado.length}</div></div>
+          <div class="kpi-card"><div class="kpi-label">Meses ativos</div><div class="kpi-valor">${c.historico_completo ? Object.keys(c.por_mes).length : Object.keys(c.por_mes).length + ' / ' + data.meses_com_dado.length}</div></div>
         </div>
 
         ${inteligenciaHtml}
@@ -432,7 +437,8 @@
       if (!clienteAtual) return;
       const c = clienteAtual;
       const linhas = [['Mês', 'Faturamento']];
-      data.meses_com_dado.forEach(m => linhas.push([m, (c.por_mes[m] || 0).toFixed(2).replace('.', ',')]));
+      const mesesCsv = c.historico_completo ? Object.keys(c.por_mes).sort() : data.meses_com_dado;
+      mesesCsv.forEach(m => linhas.push([m, (c.por_mes[m] || 0).toFixed(2).replace('.', ',')]));
       linhas.push([]);
       linhas.push(['Indústria', 'Faturamento', 'Participação %']);
       (c.top_industrias || []).forEach(i => linhas.push([i.fantasia, i.faturamento.toFixed(2).replace('.', ','), i.pct]));

@@ -40,6 +40,7 @@ import json
 import os
 import re
 import sys
+from datetime import date
 from pathlib import Path
 
 import requests
@@ -62,6 +63,33 @@ ENDPOINT_ENVIAR = "http://127.0.0.1:5056/api/pedidos-mercos/enviar-whatsapp"
 
 STATUS_COM_COMPARACAO = {"integral", "corte", "excesso"}
 STATUS_COM_AVISO = STATUS_COM_COMPARACAO | {"cancelado", "cancelado_spon"}
+
+# Pedido do usuario em 2026-09-15, no mesmo incidente do aviso em massa: so
+# notificar pedido feito a partir de hoje em diante, nunca um pedido antigo
+# — mesmo que ele troque de status por outro motivo legitimo (corte
+# descoberto dias depois, SPON que ficou indisponivel e voltou, etc.).
+# Fixo (nao "date.today()" recalculado a cada execucao) pra virar um corte
+# permanente na mesma data, nao um "sempre so hoje" que reabriria a mesma
+# lacuna pra pedidos de ontem quando o cron passar da meia-noite.
+DATA_CORTE_AVISO = date(2026, 9, 15)
+
+
+def _data_pedido(data_str):
+    """'data' normalmente vem dd/mm/yyyy (ver gerar_pedidos_mercos_data.py::
+    _montar_pedidos), mas pedido cancelado no Mercos usa str(Timestamp) do
+    pandas, formato yyyy-mm-dd[ HH:MM:SS] (ver _carregar_pedidos_cancelados)
+    — os dois formatos aparecem em pedidos_mercos_data.js. None se não
+    conseguir parsear (trata como "não elegível pra aviso", nunca como
+    "manda assim mesmo")."""
+    s = str(data_str).strip()
+    try:
+        if "/" in s:
+            d, m, a = s.split("/")[:3]
+        else:
+            a, m, d = s.split(" ")[0].split("-")[:3]
+        return date(int(a), int(m), int(d))
+    except (ValueError, TypeError):
+        return None
 
 
 def _caminho_pedidos_data():
@@ -289,8 +317,29 @@ def main():
     for p in pedidos:
         numped = str(p["numped"])
         status_atual = p.get("status_spon")
+        # SPON indisponivel na hora de gerar pedidos_mercos_data.js faz
+        # TODO pedido virar status_spon="indisponivel" de uma vez (ver
+        # gerar_pedidos_mercos_data.py::_cruzar_com_spon). Se isso fosse
+        # gravado no baseline, a proxima execucao com o SPON de volta veria
+        # TODOS os pedidos "mudando" de indisponivel pro status real ao
+        # mesmo tempo e disparia aviso em massa pra pedidos antigos ja
+        # faturados ha semanas (incidente real em 2026-09-15: vendedores
+        # levaram avalanche de WhatsApp de pedidos antigos, usuario teve
+        # que desconectar a API). Pedido "indisponivel" fica de fora da
+        # comparacao e do baseline — mantem o ultimo status real conhecido
+        # ate a fonte voltar de verdade.
+        if status_atual == "indisponivel":
+            if numped in visto:
+                novo_visto[numped] = visto[numped]
+            continue
         anterior = visto.get(numped)
-        if not primeira_vez and anterior and anterior != status_atual and status_atual in STATUS_COM_AVISO:
+        # anterior=="indisponivel" pode ser residuo do status_visto.json ja
+        # poluido pelo incidente (baseline gravado antes desse fix) — trata
+        # igual a "sem baseline", so registra o status atual, sem disparar.
+        data_pedido = _data_pedido(p.get("data"))
+        if (not primeira_vez and anterior and anterior != "indisponivel"
+                and anterior != status_atual and status_atual in STATUS_COM_AVISO
+                and data_pedido and data_pedido >= DATA_CORTE_AVISO):
             _enviar_aviso(p, cfg)
             enviados += 1
         novo_visto[numped] = status_atual

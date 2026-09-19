@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <script src="auth.js"></script>
+  <script src="perini_vendas_data.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vendas Perini</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --bg: #0f1117; --card: #1a1d27; --card2: #22263a;
+      --accent: #f5c518; --blue: #3b82f6; --text: #e2e8f0;
+      --muted: #94a3b8; --border: #2d3144; --green: #22c55e;
+      --red: #ef4444; --orange: #f97316;
+    }
+    body {
+      background: var(--bg); color: var(--text);
+      font-family: 'Segoe UI', system-ui, sans-serif;
+      min-height: 100vh; padding: 16px;
+    }
+    header {
+      display: flex; align-items: center; justify-content: space-between;
+      margin-bottom: 20px; padding-bottom: 16px;
+      border-bottom: 1px solid var(--border); gap: 12px; flex-wrap: wrap;
+    }
+    header h1 { font-size: 1.1rem; font-weight: 700; color: var(--accent); }
+    header p  { font-size: .8rem; color: var(--muted); margin-top: 3px; }
+    .card {
+      background: var(--card); border: 1px solid var(--border); border-radius: 10px;
+      padding: 18px; margin-bottom: 18px;
+    }
+    .kpis { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 12px; margin-bottom: 18px; }
+    .kpi { background: var(--card); border: 1px solid var(--border); border-radius: 10px; padding: 14px 16px; }
+    .kpi .label { font-size: .68rem; text-transform: uppercase; letter-spacing: .05em; color: var(--muted); margin-bottom: 6px; }
+    .kpi .val { font-size: 1.4rem; font-weight: 800; }
+    .kpi.divergente .val { color: var(--red); }
+    .kpi.especial .val { color: var(--accent); }
+    label { display: block; font-size: .78rem; color: var(--muted); margin-bottom: 5px; }
+    select, input[type=text] {
+      background: var(--card2); border: 1px solid var(--border);
+      color: var(--text); border-radius: 8px; padding: 8px 12px;
+      font-size: .88rem; outline: none; font-family: inherit; width: 100%;
+    }
+    select {
+      appearance: none; -webkit-appearance: none;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' fill='%2394a3b8'%3E%3Cpath fill-rule='evenodd' d='M5.23 7.21a.75.75 0 011.06.02L10 10.94l3.71-3.71a.75.75 0 111.06 1.06l-4.24 4.25a.75.75 0 01-1.06 0L5.21 8.29a.75.75 0 01.02-1.08z' clip-rule='evenodd'/%3E%3C/svg%3E");
+      background-repeat: no-repeat; background-position: right 10px center; background-size: 16px;
+      padding-right: 34px; cursor: pointer;
+    }
+    .filtros-bar { display: flex; gap: 14px; flex-wrap: wrap; margin-bottom: 16px; align-items: flex-end; }
+    .filtro-campo { display: flex; flex-direction: column; gap: 4px; }
+    .filtro-campo select { min-width: 160px; }
+    .filtro-campo input[type=text] { min-width: 220px; }
+    .filtro-check { display: flex; align-items: center; gap: 6px; font-size: .84rem; cursor: pointer; padding-bottom: 8px; }
+    .filtro-check input { width: auto; }
+    table.visu { width: 100%; border-collapse: collapse; font-size: .82rem; }
+    table.visu thead th {
+      text-align: left; color: var(--muted); font-size: .68rem; text-transform: uppercase;
+      letter-spacing: .04em; padding: 8px; border-bottom: 1px solid var(--border);
+      background: var(--card2); white-space: nowrap; position: sticky; top: 0;
+    }
+    table.visu tbody td { padding: 7px 8px; border-bottom: 1px solid var(--border); white-space: nowrap; }
+    table.visu tbody tr:hover { background: var(--card2); }
+    table.visu td.produto-cel { white-space: normal; min-width: 200px; }
+    .tag { display: inline-block; font-size: .68rem; font-weight: 700; padding: 2px 9px; border-radius: 20px; }
+    .tag-ok { background: rgba(34,197,94,.15); color: var(--green); }
+    .tag-divergente { background: rgba(239,68,68,.15); color: var(--red); }
+    .tag-sem_promo { background: rgba(148,163,184,.15); color: var(--muted); }
+    .tag-negociacao_especial { background: rgba(245,197,24,.15); color: var(--accent); }
+    .tag-sem_faixa { background: rgba(148,163,184,.15); color: var(--muted); }
+    .tag-sem_dado { background: rgba(148,163,184,.15); color: var(--muted); }
+    .tag-fora_da_escada { background: rgba(148,163,184,.15); color: var(--muted); }
+    .empty { text-align: center; padding: 30px; color: var(--muted); font-size: .9rem; }
+    .table-wrap { overflow-x: auto; }
+    .btn-alud {
+      background: rgba(34,197,94,.15); border: 1px solid rgba(34,197,94,.4); color: var(--green);
+      border-radius: 6px; padding: 2px 8px; font-size: .82rem; cursor: pointer; font-family: inherit;
+    }
+    .btn-alud:hover { background: rgba(34,197,94,.25); }
+    .btn-del {
+      background: transparent; border: none; color: var(--red);
+      border-radius: 6px; padding: 4px 8px; font-size: .82rem; cursor: pointer; font-family: inherit;
+    }
+    .btn-del:hover { text-decoration: underline; }
+    .modal-overlay {
+      position: fixed; inset: 0; background: rgba(0,0,0,.6);
+      display: flex; align-items: center; justify-content: center; z-index: 100;
+      padding: 20px;
+    }
+    .modal-overlay[hidden] { display: none; }
+    .modal-card {
+      background: #14161f; border: 1px solid var(--border); border-radius: 12px;
+      padding: 22px; width: 90%; max-width: 480px; max-height: 80vh; overflow-y: auto;
+    }
+    .modal-card h3 { font-size: 1rem; margin-bottom: 14px; }
+    .sim-aviso {
+      margin-bottom: 14px; font-size: .82rem; color: var(--muted);
+      background: rgba(249,115,22,.08); border: 1px solid rgba(249,115,22,.25);
+      border-radius: 8px; padding: 10px 12px;
+    }
+    @media (max-width: 640px) {
+      body { padding: 12px; }
+      .card { padding: 14px; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div>
+    <h1>🔍 VENDAS PERINI — CONFERÊNCIA DE PREÇO</h1>
+    <p id="atualizado-em">Comparando venda real contra o preço estipulado</p>
+  </div>
+  <a href="index.html" style="color:var(--muted);font-size:.8rem;text-decoration:none">← Painel</a>
+</header>
+
+<div id="aviso-fontes"></div>
+
+<div class="kpis">
+  <div class="kpi"><div class="label">Pedidos no período</div><div class="val" id="kpi-total">—</div></div>
+  <div class="kpi divergente"><div class="label">Divergentes</div><div class="val" id="kpi-divergentes">—</div></div>
+  <div class="kpi especial"><div class="label">Negociação especial (&gt;1.000 cxs)</div><div class="val" id="kpi-especial">—</div></div>
+  <div class="kpi"><div class="label">% divergência</div><div class="val" id="kpi-percentual">—</div></div>
+</div>
+
+<div class="card">
+  <h2 style="font-size:1rem;margin-bottom:12px">📝 Intenções de venda (simulador)</h2>
+  <div class="table-wrap">
+    <table class="visu">
+      <thead>
+        <tr>
+          <th>Criado em</th><th>Usuário</th><th>Cliente</th><th>Sistema</th><th>Estado</th>
+          <th>Qtd total</th><th>Valor unitário</th><th>Plano pagto.</th><th>Produtos</th><th>Condições</th><th></th>
+        </tr>
+      </thead>
+      <tbody id="tbody-intencoes"><tr><td colspan="11" class="empty">Carregando...</td></tr></tbody>
+    </table>
+  </div>
+</div>
+
+<div class="card">
+  <div class="filtros-bar">
+    <div class="filtro-campo">
+      <label for="filtro-busca">Buscar</label>
+      <input type="text" id="filtro-busca" placeholder="Cliente, pedido, vendedor..." oninput="renderizar()">
+    </div>
+    <div class="filtro-campo">
+      <label for="filtro-sistema">Sistema</label>
+      <select id="filtro-sistema" onchange="renderizar()">
+        <option value="">Todos</option>
+        <option value="CRC">CRC</option>
+        <option value="SPON">SPON</option>
+      </select>
+    </div>
+    <div class="filtro-campo">
+      <label for="filtro-estado">Estado</label>
+      <select id="filtro-estado" onchange="renderizar()">
+        <option value="">Todos</option>
+        <option value="RJ">RJ</option>
+        <option value="SP">SP</option>
+      </select>
+    </div>
+    <label class="filtro-check">
+      <input type="checkbox" id="filtro-so-divergente" onchange="renderizar()">
+      Só divergentes
+    </label>
+  </div>
+  <div class="table-wrap">
+    <table class="visu">
+      <thead>
+        <tr>
+          <th>Data</th><th>Sistema</th><th>Pedido</th><th>Cliente</th><th>Vendedor</th><th>Estado</th>
+          <th>Qtd total</th><th>Faixa</th><th>Alud</th><th>Produto</th><th>Preço vendido</th><th>Tabela</th><th>Acelerado</th>
+          <th>Plano pagto.</th><th>Prazo esperado</th><th>Status preço</th><th>Status prazo</th>
+        </tr>
+      </thead>
+      <tbody id="tbody-vendas"><tr><td colspan="17" class="empty">Carregando...</td></tr></tbody>
+    </table>
+  </div>
+</div>
+
+<div class="modal-overlay" id="modal-alud" hidden onclick="if (event.target === this) fecharAludModal()">
+  <div class="modal-card">
+    <div style="display:flex;align-items:flex-start;justify-content:space-between;gap:12px">
+      <h3 style="margin:0">✅ Alud comprado no mês</h3>
+      <button class="btn-alud" onclick="fecharAludModal()" style="padding:4px 10px">✕</button>
+    </div>
+    <div id="alud-modal-corpo"></div>
+  </div>
+</div>
+
+<script>
+const DADOS = (typeof PERINI_VENDAS_DATA !== 'undefined') ? PERINI_VENDAS_DATA : { pedidos: [], fontes_indisponiveis: [] };
+
+function iniciar() {
+  document.getElementById('atualizado-em').textContent =
+    `Comparando venda real contra o preço estipulado — atualizado em ${DADOS.atualizado_em || '—'} (últimos ${DADOS.janela_dias || '?'} dias)`;
+
+  if ((DADOS.fontes_indisponiveis || []).length) {
+    document.getElementById('aviso-fontes').innerHTML =
+      `<div class="sim-aviso">⚠️ Fonte indisponível nessa atualização: ${DADOS.fontes_indisponiveis.join(', ')} — dado pode estar incompleto.</div>`;
+  }
+
+  const pedidos = DADOS.pedidos || [];
+  document.getElementById('kpi-total').textContent = pedidos.length;
+  const divergentes = pedidos.filter(p => p.divergente).length;
+  const especial = pedidos.filter(p => p.negociacao_especial).length;
+  document.getElementById('kpi-divergentes').textContent = divergentes;
+  document.getElementById('kpi-especial').textContent = especial;
+  document.getElementById('kpi-percentual').textContent =
+    pedidos.length ? `${(divergentes / pedidos.length * 100).toFixed(0)}%` : '—';
+
+  renderizar();
+  carregarIntencoesVenda();
+}
+
+// Intenções de venda registradas no simulador de preco_promo.html — vive
+// só na API (não no _data.js do pipeline), busca ao vivo pra aparecer na
+// hora (pedido do usuário em 2026-09-15).
+async function carregarIntencoesVenda() {
+  const tbody = document.getElementById('tbody-intencoes');
+  try {
+    const resp = await fetch('/api/preco-promo/intencao-venda');
+    const d = await resp.json();
+    const intencoes = d.intencoes || [];
+    if (!intencoes.length) {
+      tbody.innerHTML = '<tr><td colspan="11" class="empty">Nenhuma intenção de venda registrada ainda.</td></tr>';
+      return;
+    }
+    tbody.innerHTML = intencoes.map(i => {
+      const produtos = (i.itens || []).map(it => `${_esc(it.descricao)} (${it.qtd})`).join(', ');
+      const condTag = i.dentro_das_condicoes === true
+        ? '<span class="tag tag-ok">DENTRO</span>'
+        : i.dentro_das_condicoes === false
+          ? '<span class="tag tag-divergente">FORA</span>'
+          : '<span class="tag tag-sem_dado">—</span>';
+      return `
+        <tr>
+          <td>${_esc(i.criado_em)}</td>
+          <td>${_esc(i.usuario)}</td>
+          <td class="produto-cel">${_esc(i.cliente)}</td>
+          <td>${_esc(i.sistema || '—')}</td>
+          <td>${_esc(i.estado || '—')}</td>
+          <td>${i.qtd_total} cxs</td>
+          <td>${_brl(i.valor_unitario)}</td>
+          <td>${_esc(i.plano_pagamento)}</td>
+          <td class="produto-cel">${produtos}</td>
+          <td>${condTag}</td>
+          <td><button class="btn-del" onclick="removerIntencaoVenda('${_escAttr(i.id)}')">🗑️</button></td>
+        </tr>
+      `;
+    }).join('');
+  } catch (e) {
+    tbody.innerHTML = '<tr><td colspan="11" class="empty">Não consegui carregar as intenções de venda agora.</td></tr>';
+  }
+}
+
+async function removerIntencaoVenda(id) {
+  if (!confirm('Excluir essa intenção de venda?')) return;
+  try {
+    const resp = await fetch('/api/preco-promo/intencao-venda', {
+      method: 'DELETE',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ id }),
+    });
+    const d = await resp.json().catch(() => ({}));
+    if (!resp.ok || !d.ok) throw new Error(d.motivo || 'Falha ao excluir.');
+    carregarIntencoesVenda();
+  } catch (e) {
+    alert(e.message || 'Não consegui excluir agora.');
+  }
+}
+
+const TAG_LABEL = {
+  ok: 'OK',
+  divergente: 'DIVERGENTE',
+  sem_promo: 'Sem promo (tabela cheia)',
+  negociacao_especial: 'Negociação especial',
+  sem_faixa: 'Sem faixa (estado desconhecido)',
+  sem_dado: 'Sem plano de pagto. no pedido',
+  fora_da_escada: 'Mês sem prazo especial (jan-ago)',
+};
+
+function renderizar() {
+  const tbody = document.getElementById('tbody-vendas');
+  const busca = (document.getElementById('filtro-busca').value || '').trim().toLowerCase();
+  const sistemaFiltro = document.getElementById('filtro-sistema').value;
+  const estadoFiltro = document.getElementById('filtro-estado').value;
+  const soDivergente = document.getElementById('filtro-so-divergente').checked;
+
+  let pedidos = DADOS.pedidos || [];
+  if (sistemaFiltro) pedidos = pedidos.filter(p => p.sistema === sistemaFiltro);
+  if (estadoFiltro) pedidos = pedidos.filter(p => p.estado === estadoFiltro);
+  if (soDivergente) pedidos = pedidos.filter(p => p.divergente);
+  if (busca) {
+    pedidos = pedidos.filter(p =>
+      p.cliente.toLowerCase().includes(busca) ||
+      p.numped.toLowerCase().includes(busca) ||
+      (p.vendedor || '').toLowerCase().includes(busca)
+    );
+  }
+
+  const linhas = [];
+  pedidos.forEach(p => {
+    (p.itens || []).forEach(it => {
+      linhas.push({ p, it });
+    });
+  });
+
+  if (!linhas.length) {
+    tbody.innerHTML = '<tr><td colspan="17" class="empty">Nenhuma venda bate com esse filtro.</td></tr>';
+    return;
+  }
+
+  tbody.innerHTML = linhas.map(({ p, it }) => `
+    <tr>
+      <td>${_esc(p.data)}</td>
+      <td>${_esc(p.sistema)}</td>
+      <td>${_esc(p.numped)}${it.numnota ? ' / NF ' + _esc(it.numnota) : ''}</td>
+      <td class="produto-cel">${_esc(p.cliente)}</td>
+      <td class="produto-cel">${_esc(p.vendedor)}</td>
+      <td>${_esc(p.estado || '—')}</td>
+      <td>${_fmtQtd(p.qtd_total, p.qtd_total_un)}</td>
+      <td>${_esc(p.faixa_esperada || '—')}</td>
+      <td>${p.tem_alud ? `<button class="btn-alud" onclick="abrirAludModal('${_escAttr(p.sistema)}','${_escAttr(p.numped)}')">✅</button>` : '—'}</td>
+      <td class="produto-cel">${_esc(it.descricao)} (${_fmtQtd(it.qt, it.qt_un)})</td>
+      <td>${_brl(it.punit)}</td>
+      <td>${it.preco_tabela != null ? _brl(it.preco_tabela) : '—'}</td>
+      <td>${it.preco_acelerado != null ? _brl(it.preco_acelerado) : '—'}</td>
+      <td>${_esc(it.plano_pagamento || '—')}</td>
+      <td>${_esc(p.prazo_especial_esperado || '—')}</td>
+      <td><span class="tag tag-${it.status}">${TAG_LABEL[it.status] || it.status}</span></td>
+      <td><span class="tag tag-${it.status_prazo}">${TAG_LABEL[it.status_prazo] || it.status_prazo}</span></td>
+    </tr>
+  `).join('');
+}
+
+// Venda fracionada (menos de 1 caixa) mostra em unidade, não em caixa
+// fracionária tipo "0,17 cxs" (pedido do usuário em 2026-09-15).
+function _fmtQtd(cxs, un) {
+  return cxs >= 1 ? `${cxs} cxs` : `${un} un`;
+}
+
+// Detalhe de onde o Alud foi comprado (sistema, pedido, valor, quantidade)
+// — pedido do usuário em 2026-09-15, ao clicar no ✅ da coluna Alud.
+function abrirAludModal(sistema, numped) {
+  const pedido = (DADOS.pedidos || []).find(p => p.sistema === sistema && p.numped === numped);
+  const compras = (pedido && pedido.alud_compras) || [];
+  const corpo = document.getElementById('alud-modal-corpo');
+  if (!compras.length) {
+    corpo.innerHTML = '<p style="color:var(--muted);font-size:.86rem">Nenhum detalhe encontrado.</p>';
+  } else {
+    corpo.innerHTML = `
+      <div class="table-wrap">
+        <table class="visu">
+          <thead><tr><th>Sistema</th><th>Pedido</th><th>Qtd</th><th>Valor</th></tr></thead>
+          <tbody>
+            ${compras.map(c => `
+              <tr>
+                <td>${_esc(c.sistema)}</td>
+                <td>${_esc(c.numped)}${c.numnota ? ' / NF ' + _esc(c.numnota) : ''}</td>
+                <td>${_fmtQtd(c.qt, c.qt_un)}</td>
+                <td>${_brl(c.valor)}</td>
+              </tr>
+            `).join('')}
+          </tbody>
+        </table>
+      </div>
+    `;
+  }
+  document.getElementById('modal-alud').hidden = false;
+}
+
+function fecharAludModal() {
+  document.getElementById('modal-alud').hidden = true;
+}
+
+function _brl(v) {
+  return 'R$ ' + Number(v || 0).toLocaleString('pt-BR', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+}
+function _esc(s) {
+  return String(s || '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+}
+function _escAttr(s) {
+  return _esc(s).replace(/'/g, '&#39;');
+}
+
+iniciar();
+</script>
+</body>
+</html>

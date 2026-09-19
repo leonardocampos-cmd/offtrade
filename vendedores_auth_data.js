@@ -1,4 +1,4 @@
-// Gerado em 20/08/2026 17:30
+// Gerado em 09/09/2026 15:42
 const VENDEDORES_AUTH = {
   "159": [
     {
@@ -48,14 +48,6 @@ const VENDEDORES_AUTH = {
       "estado": "RJ"
     }
   ],
-  "158": [
-    {
-      "nome": "JOSE MARCELO CARDOSO - OFF TRADE",
-      "email": "jose.cardoso@rigarr.com.br",
-      "email2": "",
-      "estado": "RJ"
-    }
-  ],
   "431": [
     {
       "nome": "ADEILSON GONÇALVEZ - OFF TRADE",
@@ -100,14 +92,6 @@ const VENDEDORES_AUTH = {
     {
       "nome": "BARBARA CABRAL - OFF TRADE",
       "email": "barbara.cabral@rigarr.com.br",
-      "email2": "",
-      "estado": "RJ"
-    }
-  ],
-  "283": [
-    {
-      "nome": "KESSYA OURIQUE - OFF TRADE",
-      "email": "ouriquesrepresentacoes@gmail.com",
       "email2": "",
       "estado": "RJ"
     }
@@ -166,12 +150,12 @@ const VENDEDORES_AUTH = {
       "estado": "RJ"
     }
   ],
-  "417": [
+  "232": [
     {
-      "nome": "DIRLEI ARAUJO - OFF TRADE",
-      "email": "dirlei.vieira@rigarr.com.br",
+      "nome": "ANDERSON CANAVEIS - OFF TRADE",
+      "email": "anderson.canaveis@rigarr.com.br",
       "email2": "",
-      "estado": "RJ"
+      "estado": "SP"
     }
   ],
   "391": [
@@ -198,6 +182,14 @@ const VENDEDORES_AUTH = {
       "estado": "SP"
     }
   ],
+  "962": [
+    {
+      "nome": "JONATHAN HENRIQUE BURATTO - OFF TRADE",
+      "email": "jonathanburatto@gmail.com",
+      "email2": "",
+      "estado": "SP"
+    }
+  ],
   "399": [
     {
       "nome": "BRYAN PALOPOLI - OFF TRADE",
@@ -214,10 +206,10 @@ const VENDEDORES_AUTH = {
       "estado": "SP"
     }
   ],
-  "438": [
+  "267": [
     {
-      "nome": "MARCIA RITA - OFF TRADE",
-      "email": "marcia.veloso@rigarr.com.br",
+      "nome": "GABRIEL RABBATH - OFF TRADE",
+      "email": "gabrielvalevendas@gmail.com",
       "email2": "",
       "estado": "SP"
     }
@@ -230,10 +222,10 @@ const VENDEDORES_AUTH = {
       "estado": "SP"
     }
   ],
-  "232": [
+  "791": [
     {
-      "nome": "ANDERSON CANAVEIS - OFF TRADE",
-      "email": "anderson.canaveis@rigarr.com.br",
+      "nome": "ALVARO JUNIOR - OFF TRADE",
+      "email": "ajunior.representacao@gmail.com",
       "email2": "",
       "estado": "SP"
     }

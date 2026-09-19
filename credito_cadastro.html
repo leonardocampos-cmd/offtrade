@@ -136,6 +136,7 @@
     <select class="field-input" id="sistema">
       <option value="crc" selected>CRC</option>
       <option value="spon">SPON</option>
+      <option value="mgon">MGON</option>
     </select>
   </div>
 
@@ -245,7 +246,7 @@
     // "cliente não existe" ou "fonte principal fora do ar" (ver comentário
     // mais abaixo). GARRIDO é secundária dentro do sistema CRC, então não
     // entra aqui.
-    const FONTE_PRINCIPAL_POR_SISTEMA = { crc: 'CRC', spon: 'SPON' };
+    const FONTE_PRINCIPAL_POR_SISTEMA = { crc: 'CRC', spon: 'SPON', mgon: 'MGON' };
 
     buscaInput.addEventListener('keydown', e => {
       if (e.key === 'Enter') { clearTimeout(debounce); executarBusca(); }
@@ -419,7 +420,7 @@
         resp = await api('/cadastro', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ cnpj: cnpjLimpo, rca_nome: rcaInfo.nome, rca_codusur: rcaInfo.codusur, forcar }),
+          body: JSON.stringify({ cnpj: cnpjLimpo, rca_nome: rcaInfo.nome, rca_codusur: rcaInfo.codusur, sistema: sistemaInput.value, forcar }),
         });
       } catch {
         areaAcao.innerHTML = '<div class="msg msg-error">Não foi possível enviar agora. Tente novamente.</div>';
@@ -659,10 +660,14 @@
     // ── Pedir Limite/Desbloqueio (WhatsApp — sem backend) ──────────────────
     const WHATSAPP_FINANCEIRO_PADRAO = '5521964906743';
     // Financeiro SPON é separado do CRC/GARRIDO — pedido do usuário em
-    // 2026-09-15. c.fonte vem da API (CRC/GARRIDO/SPON, ver credito_cadastro_api.py).
+    // 2026-09-15. c.fonte vem da API (CRC/GARRIDO/SPON/MGON, ver credito_cadastro_api.py).
     const WHATSAPP_FINANCEIRO_SPON = '5521987972377';
+    // MGON também tem financeiro próprio — pedido do usuário em 2026-09-17.
+    const WHATSAPP_FINANCEIRO_MGON = '5521966316139';
     function whatsappFinanceiro(c) {
-      return c.fonte === 'SPON' ? WHATSAPP_FINANCEIRO_SPON : WHATSAPP_FINANCEIRO_PADRAO;
+      if (c.fonte === 'SPON') return WHATSAPP_FINANCEIRO_SPON;
+      if (c.fonte === 'MGON') return WHATSAPP_FINANCEIRO_MGON;
+      return WHATSAPP_FINANCEIRO_PADRAO;
     }
     const PRAZOS = [7, 14, 21, 28, 30, 35, 42, 45, 60, 90];
     const FORMAS_AVISTA = ['Crédito', 'Débito', 'Pix'];

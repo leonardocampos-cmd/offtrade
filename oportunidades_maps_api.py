@@ -14,13 +14,18 @@ sem cadastro) — e a conferência de "já é cliente?" é por nome+cidade
 OpenStreetMap é mais fraca que a do Google Maps, principalmente fora de
 bairros centrais — aceito como ponto de partida (decisão do usuário).
 
+Busca pela ÁREA ADMINISTRATIVA do município (limite real da cidade no OSM),
+não por geolocalização/raio a partir de um ponto geocodificado — pedido do
+usuário em 09/09/2026, e também resolve um problema real: um raio de poucos
+km do "centro" cobria mal cidade grande (Rio de Janeiro inteiro não cabe em
+4km do centro).
+
 Uso local: python oportunidades_maps_api.py (abre em http://localhost:5060)
 Na VPS roda atrás do nginx em /api/oportunidades-maps/, mesmo padrão de
 raiox_cliente_api.py/metas_builder_api.py.
 """
 import os
 import re
-import time
 import unicodedata
 from difflib import SequenceMatcher
 
@@ -60,13 +65,19 @@ _SCHEMAS = [
     ("BLENDED", engine_blended),
 ]
 
-NOMINATIM_URL = "https://nominatim.openstreetmap.org/search"
-OVERPASS_URL = "https://overpass-api.de/api/interpreter"
-# Nominatim exige User-Agent descritivo identificando a aplicação (política de
-# uso do projeto OSM) — sem isso as requisições podem ser bloqueadas.
+# Espelhos públicos do Overpass — overpass-api.de (oficial) devolve 504 com
+# frequência sob carga pra consulta com várias categorias combinadas (achado
+# testando na VPS em 09/09/2026, reproduzido via curl direto, fora do nosso
+# código). Alterna entre os três em vez de insistir só no oficial.
+OVERPASS_URLS = [
+    "https://overpass-api.de/api/interpreter",
+    "https://overpass.osm.ch/api/interpreter",
+    "https://overpass.kumi.systems/api/interpreter",
+]
+# Overpass exige um User-Agent descritivo identificando a aplicação (mesma
+# política de uso do projeto OSM que vale pro Nominatim).
 _HEADERS = {"User-Agent": "OfftradeHub-OportunidadesVendas/1.0 (uso interno Rigarr)"}
 
-RAIO_METROS = 4000
 LIMIAR_MATCH = 0.72  # score mínimo (0-1) do fuzzy match pra marcar "possível cliente"
 
 # Palavras genéricas demais (tipo de estabelecimento, forma societária) —
@@ -93,46 +104,45 @@ CATEGORIAS = {
 }
 
 
-def _geocode_cidade(cidade: str):
-    """Resolve nome de cidade -> (lat, lon) via Nominatim. None se não achar."""
-    params = {"q": f"{cidade}, Brasil", "format": "json", "limit": 1}
-    r = requests.get(NOMINATIM_URL, params=params, headers=_HEADERS, timeout=15)
-    r.raise_for_status()
-    resultados = r.json()
-    if not resultados:
-        return None
-    return float(resultados[0]["lat"]), float(resultados[0]["lon"])
-
-
-def _montar_query_overpass(lat: float, lon: float, categorias: list[str]) -> str:
+def _montar_query_overpass(cidade: str, categorias: list[str]) -> str:
+    """Busca dentro da área administrativa do município (limite real da
+    cidade no OpenStreetMap), não por um raio fixo a partir de um ponto —
+    um raio de poucos km do "centro" geocodificado cobre mal cidade grande
+    (ex: Rio de Janeiro inteiro não cabe em 4km do centro) e depende de um
+    serviço de geolocalização à parte (pedido do usuário em 09/09/2026:
+    busca "sem ser por geolocalização"). admin_level 8 é o nível de
+    município na maior parte do Brasil no OSM."""
     tags = []
     for cat in categorias:
         tags.extend(CATEGORIAS.get(cat, []))
     if not tags:
         tags = [t for lst in CATEGORIAS.values() for t in lst]
-    filtros = "".join(f'node["{k}"="{v}"](around:{RAIO_METROS},{lat},{lon});' for k, v in tags)
-    return f"[out:json][timeout:25];({filtros});out body;"
+    cidade_escapada = cidade.replace('"', '\\"')
+    filtros = "".join(f'node["{k}"="{v}"](area.a);' for k, v in tags)
+    return (
+        f'[out:json][timeout:25];'
+        f'area["name"="{cidade_escapada}"]["boundary"="administrative"]["admin_level"="8"]->.a;'
+        f'({filtros});out body;'
+    )
 
 
-def _buscar_overpass(lat: float, lon: float, categorias: list[str]) -> list[dict]:
-    query = _montar_query_overpass(lat, lon, categorias)
-    # Instância pública do Overpass (gratuita, sem chave) devolve 504 de vez
-    # em quando por sobrecarga (comum em fair-use compartilhado) mesmo pra
-    # consulta simples — 1 nova tentativa depois de uma pausa curta resolve
-    # a maioria dos casos (confirmado testando na VPS em 09/09/2026: o mesmo
-    # request que deu 504 funcionou de primeira na tentativa seguinte).
+def _buscar_overpass(cidade: str, categorias: list[str]) -> list[dict]:
+    query = _montar_query_overpass(cidade, categorias)
+    # Cada espelho tenta 1x antes de passar pro próximo — servidor sobrecarregado
+    # costuma continuar sobrecarregado nos segundos seguintes, então repetir no
+    # MESMO espelho tem menos chance de ajudar do que trocar de espelho.
     ultimo_erro = None
-    for tentativa in range(2):
+    elementos = None
+    for url in OVERPASS_URLS:
         try:
-            r = requests.post(OVERPASS_URL, data={"data": query}, headers=_HEADERS, timeout=30)
+            r = requests.post(url, data={"data": query}, headers=_HEADERS, timeout=30)
             r.raise_for_status()
             elementos = r.json().get("elements", [])
             break
         except requests.exceptions.RequestException as e:
             ultimo_erro = e
-            if tentativa == 0:
-                time.sleep(2)
-    else:
+            print(f"[AVISO] Overpass ({url}) falhou — tentando próximo espelho ({e})")
+    if elementos is None:
         raise ultimo_erro
 
     pois = []
@@ -234,17 +244,15 @@ def buscar():
     categorias = [c for c in request.args.get("categorias", "").split(",") if c]
 
     try:
-        coord = _geocode_cidade(cidade)
-    except Exception as e:
-        return {"ok": False, "motivo": f"Falha ao geolocalizar cidade: {str(e)[:200]}"}, 502
-    if coord is None:
-        return {"ok": False, "motivo": f"Cidade '{cidade}' não encontrada."}, 404
-    lat, lon = coord
-
-    try:
-        pois = _buscar_overpass(lat, lon, categorias)
+        pois = _buscar_overpass(cidade, categorias)
     except Exception as e:
         return {"ok": False, "motivo": f"Falha ao consultar OpenStreetMap: {str(e)[:200]}"}, 502
+    # Nome de cidade não reconhecido pela área administrativa do OSM e "cidade
+    # existe mas não tem PDV nenhum da categoria escolhida" dão o mesmo
+    # resultado vazio aqui — sem geocodificação à parte não dá pra distinguir
+    # os dois casos, então a mensagem cobre ambos.
+    if not pois:
+        return {"ok": False, "motivo": f"Nada encontrado pra '{cidade}' — confira a grafia (igual está no IBGE, sem abreviação) ou tente outras categorias."}, 404
 
     candidatos = _buscar_candidatos_cadastro(cidade)
 

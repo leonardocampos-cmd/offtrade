@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Estoque TIAL — Validação</title>
+  <script src="auth.js"></script>
+  <script src="estoque_tial_data.js"></script>
+  <style>
+    :root {
+      --bg: #0f1115; --card: #161923; --border: #262b3a; --text: #e6e8ef;
+      --muted: #8a90a6; --accent: #5b8cff; --ok: #3ecf8e; --erro: #ff6b6b;
+      --aviso: #f5b942;
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; padding: 20px; background: var(--bg); color: var(--text);
+      font-family: -apple-system, Segoe UI, Roboto, Arial, sans-serif; }
+    header { display: flex; flex-wrap: wrap; align-items: baseline; gap: 12px; margin-bottom: 18px; }
+    h1 { font-size: 1.3rem; margin: 0; }
+    .timestamp { color: var(--muted); font-size: .82rem; }
+    .kpis { display: flex; flex-wrap: wrap; gap: 12px; margin-bottom: 18px; }
+    .kpi { background: var(--card); border: 1px solid var(--border); border-radius: 10px;
+      padding: 10px 16px; min-width: 140px; }
+    .kpi .num { font-size: 1.5rem; font-weight: 700; }
+    .kpi .label { font-size: .74rem; color: var(--muted); }
+    .kpi.ok .num { color: var(--ok); }
+    .kpi.erro .num { color: var(--erro); }
+    .kpi.aviso .num { color: var(--aviso); }
+    .controles { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 14px; align-items: center; }
+    select, input[type=text] { background: var(--card); border: 1px solid var(--border);
+      color: var(--text); border-radius: 8px; padding: 7px 10px; font-size: .85rem; }
+    table { border-collapse: collapse; width: 100%; background: var(--card);
+      border: 1px solid var(--border); border-radius: 10px; overflow: hidden; font-size: .84rem; }
+    th, td { padding: 8px 10px; border-bottom: 1px solid var(--border); text-align: left; vertical-align: top; }
+    th { cursor: pointer; color: var(--muted); font-weight: 600; font-size: .74rem;
+      text-transform: uppercase; letter-spacing: .03em; user-select: none; white-space: nowrap; }
+    th:hover { color: var(--text); }
+    tr:last-child td { border-bottom: none; }
+    .cod { font-family: ui-monospace, Consolas, monospace; color: var(--muted); }
+    .badge { display: inline-block; padding: 2px 8px; border-radius: 6px; font-size: .74rem; font-weight: 600; }
+    .badge.ok { background: rgba(62,207,142,.15); color: var(--ok); }
+    .badge.erro { background: rgba(255,107,107,.15); color: var(--erro); }
+    .badge.aviso { background: rgba(245,185,66,.15); color: var(--aviso); }
+    .divergencia { font-size: .78rem; color: var(--erro); margin-top: 3px; }
+    .empty { text-align: center; color: var(--muted); padding: 30px; }
+    @media (max-width: 640px) {
+      body { padding: 12px; }
+      table { font-size: .76rem; }
+      th, td { padding: 6px 6px; }
+    }
+  </style>
+</head>
+<body>
+<header>
+  <h1>Estoque TIAL — Validação de código/descrição/EAN</h1>
+  <span class="timestamp" id="timestamp"></span>
+</header>
+
+<div class="kpis" id="kpis"></div>
+
+<div class="controles">
+  <select id="filtro-status" onchange="aplicarFiltro()">
+    <option value="">Todos os status</option>
+    <option value="erro">Só com divergência</option>
+    <option value="ok">Só OK</option>
+  </select>
+  <input type="text" id="busca" placeholder="Buscar código ou descrição..." oninput="aplicarFiltro()">
+</div>
+
+<table>
+  <thead>
+    <tr>
+      <th onclick="ordenarPor('codprod')">Código</th>
+      <th onclick="ordenarPor('descricao_planilha')">Descrição (planilha)</th>
+      <th>Descrição (cadastro Winthor)</th>
+      <th onclick="ordenarPor('ean_planilha')">EAN (planilha)</th>
+      <th>EAN (cadastro Winthor)</th>
+      <th onclick="ordenarPor('_status')">Status</th>
+    </tr>
+  </thead>
+  <tbody id="tbody"></tbody>
+</table>
+
+<script src="sticky_hscroll.js"></script>
+<script>
+const DATA = typeof ESTOQUE_TIAL_DATA !== 'undefined' ? ESTOQUE_TIAL_DATA : null;
+const PRODUTOS = DATA ? DATA.produtos : [];
+
+let _ordem = { campo: 'codprod', asc: true };
+
+function _esc(s) {
+  return String(s ?? '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+}
+
+function _status(p) {
+  if (!p.existe_no_cadastro) return 'erro';
+  if (!p.descricao_bate || !p.ean_bate) return 'erro';
+  return 'ok';
+}
+
+function montarKpis() {
+  const total = PRODUTOS.length;
+  const semCadastro = PRODUTOS.filter(p => !p.existe_no_cadastro).length;
+  const descDivergente = PRODUTOS.filter(p => p.existe_no_cadastro && !p.descricao_bate).length;
+  const eanDivergente = PRODUTOS.filter(p => !p.ean_bate).length;
+  const ok = PRODUTOS.filter(p => _status(p) === 'ok').length;
+  document.getElementById('kpis').innerHTML = `
+    <div class="kpi"><div class="num">${total}</div><div class="label">Produtos na planilha</div></div>
+    <div class="kpi ok"><div class="num">${ok}</div><div class="label">Sem divergência</div></div>
+    <div class="kpi erro"><div class="num">${semCadastro}</div><div class="label">Código não encontrado</div></div>
+    <div class="kpi erro"><div class="num">${descDivergente}</div><div class="label">Descrição divergente</div></div>
+    <div class="kpi aviso"><div class="num">${eanDivergente}</div><div class="label">EAN divergente/sem cadastro</div></div>
+  `;
+}
+
+function _statusBadge(p) {
+  if (!p.existe_no_cadastro) {
+    return '<span class="badge erro">Código não encontrado</span>';
+  }
+  const problemas = [];
+  if (!p.descricao_bate) problemas.push('descrição divergente');
+  if (!p.ean_bate) problemas.push(p.ean_cadastro.length ? 'EAN divergente' : 'EAN sem cadastro');
+  if (!problemas.length) return '<span class="badge ok">OK</span>';
+  return `<span class="badge ${p.descricao_bate ? 'aviso' : 'erro'}">${_esc(problemas.join(' · '))}</span>`;
+}
+
+function _filtrados() {
+  const status = document.getElementById('filtro-status').value;
+  const busca = document.getElementById('busca').value.trim().toUpperCase();
+  let lista = PRODUTOS.slice();
+  if (status) lista = lista.filter(p => _status(p) === status);
+  if (busca) {
+    lista = lista.filter(p =>
+      String(p.codprod).includes(busca) ||
+      (p.descricao_planilha || '').toUpperCase().includes(busca)
+    );
+  }
+  const { campo, asc } = _ordem;
+  lista.sort((a, b) => {
+    const va = campo === '_status' ? _status(a) : a[campo];
+    const vb = campo === '_status' ? _status(b) : b[campo];
+    if (va < vb) return asc ? -1 : 1;
+    if (va > vb) return asc ? 1 : -1;
+    return 0;
+  });
+  return lista;
+}
+
+function ordenarPor(campo) {
+  if (_ordem.campo === campo) _ordem.asc = !_ordem.asc;
+  else _ordem = { campo, asc: true };
+  aplicarFiltro();
+}
+
+function aplicarFiltro() {
+  const lista = _filtrados();
+  const tbody = document.getElementById('tbody');
+  if (!lista.length) {
+    tbody.innerHTML = '<tr><td colspan="6" class="empty">Nenhum produto encontrado.</td></tr>';
+    return;
+  }
+  tbody.innerHTML = lista.map(p => `
+    <tr>
+      <td class="cod">${_esc(p.codprod)}</td>
+      <td>${_esc(p.descricao_planilha)}</td>
+      <td>${p.existe_no_cadastro ? _esc(p.descricao_cadastro) : '<span style="color:var(--erro)">— não cadastrado —</span>'}</td>
+      <td class="cod">${_esc(p.ean_planilha) || '—'}</td>
+      <td class="cod">${p.ean_cadastro.length ? _esc(p.ean_cadastro.join(', ')) : '<span style="color:var(--muted)">— sem cadastro —</span>'}</td>
+      <td>${_statusBadge(p)}</td>
+    </tr>
+  `).join('');
+}
+
+if (DATA) {
+  document.getElementById('timestamp').textContent =
+    `Planilha: ${DATA.planilha} · Conferido em ${DATA.atualizado_em}`;
+  montarKpis();
+  aplicarFiltro();
+} else {
+  document.getElementById('kpis').innerHTML = '<div class="empty">Dados não disponíveis — rode exportacao_estoque_tial.py.</div>';
+}
+</script>
+</body>
+</html>

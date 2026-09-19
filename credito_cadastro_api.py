@@ -77,11 +77,23 @@ _FONTES_POR_SISTEMA = {
     "spon": [
         ("SPON", create_engine(f"oracle+oracledb://{_crc_user}:{quote_plus(_crc_pass)}@spon_oci", **_ENGINE_KW)),
     ],
+    # MGON usa VPN_USER/VPN_PASSWORD genérico — igual meta.py::engine_mgon
+    # (pedido do usuário em 2026-09-17: cadastro/desbloqueio dessa base
+    # passa por e-mail e WhatsApp próprios, ver EMAIL_CADASTRO_POR_FONTE
+    # e credito_cadastro.html::WHATSAPP_FINANCEIRO_MGON).
+    "mgon": [
+        ("MGON", create_engine(f"oracle+oracledb://{_user}:{_password}@{os.getenv('DSN_MG', 'mgon_oci')}", **_ENGINE_KW)),
+    ],
 }
 _SISTEMA_PADRAO = "crc"
 
 EMAIL_FINANCEIRO  = "cadastro@rigarr.com.br"
 EMAIL_CADASTRO_CC = "danielle.soares@rigarr.com.br,leonardo.campos@rigarr.com.br"
+# Cadastro do MGON vai pra um e-mail próprio (time de cadastro é outro) —
+# demais fontes (CRC/GARRIDO/SPON) continuam em EMAIL_FINANCEIRO. Chave é
+# o "fonte"/"sistema" em maiúsculo (ambos coincidem pra MGON, que só tem
+# uma fonte dentro do sistema).
+EMAIL_CADASTRO_POR_FONTE = {"MGON": "cadastro.mg@rigarr.com.br"}
 CHAVE_API_CNPJ    = os.getenv("CHAVE_API_CNPJ", "")
 
 BASE = Path(__file__).parent
@@ -438,7 +450,7 @@ def _limpar_cookie_gmail(resp):
     resp.delete_cookie(COOKIE_GMAIL, path="/")
 
 
-def _enviar_email_como_rca(assunto: str, corpo: str, cc: str = None):
+def _enviar_email_como_rca(assunto: str, corpo: str, cc: str = None, destinatario: str = None):
     """Manda pelo Gmail do RCA logado (cookie COOKIE_GMAIL) — sem fallback pra
     conta fixa (pedido do usuário em 2026-08-31: quem não logou com Google
     não consegue enviar). Retorna (ok, erro_ou_None, token_pra_regravar_ou_None)
@@ -460,7 +472,7 @@ def _enviar_email_como_rca(assunto: str, corpo: str, cc: str = None):
     msg = MIMEText(corpo)
     msg["Subject"] = assunto
     msg["From"] = remetente
-    msg["To"] = EMAIL_FINANCEIRO
+    msg["To"] = destinatario or EMAIL_FINANCEIRO
     if cc:
         msg["Cc"] = cc
     raw = base64.urlsafe_b64encode(msg.as_bytes()).decode()
@@ -707,6 +719,7 @@ def cadastro():
     cnpj_limpo   = re.sub(r"\D", "", str(dados.get("cnpj", "")))
     rca_nome     = str(dados.get("rca_nome", "")).strip()[:100]
     rca_codusur  = str(dados.get("rca_codusur", "")).strip()[:20]
+    sistema      = str(dados.get("sistema", "")).strip().upper()
     forcar       = bool(dados.get("forcar"))
 
     # rca_codusur é opcional — gestor solicitando em nome próprio (sem
@@ -730,7 +743,8 @@ def cadastro():
         f"Dados da Receita Federal:\n\n{dados_receita}\n\n"
         f"Podem realizar o cadastro?\n\nObrigado!"
     )
-    ok, erro, token = _enviar_email_como_rca("Solicitação de Cadastro de Cliente", corpo, cc=EMAIL_CADASTRO_CC)
+    destinatario = EMAIL_CADASTRO_POR_FONTE.get(sistema, EMAIL_FINANCEIRO)
+    ok, erro, token = _enviar_email_como_rca("Solicitação de Cadastro de Cliente", corpo, cc=EMAIL_CADASTRO_CC, destinatario=destinatario)
     if not ok:
         return _resposta_erro_envio(erro, token)
     if token:
@@ -779,7 +793,8 @@ def alteracao():
         f"Campos a alterar:\n{linhas_campos}\n\n"
         f"Podem realizar a atualização?\n\nObrigado!"
     )
-    ok, erro, token = _enviar_email_como_rca(f"Solicitação de Alteração de Cadastro — {nome_cliente}", corpo, cc=EMAIL_CADASTRO_CC)
+    destinatario = EMAIL_CADASTRO_POR_FONTE.get(fonte.upper(), EMAIL_FINANCEIRO)
+    ok, erro, token = _enviar_email_como_rca(f"Solicitação de Alteração de Cadastro — {nome_cliente}", corpo, cc=EMAIL_CADASTRO_CC, destinatario=destinatario)
     if not ok:
         return _resposta_erro_envio(erro, token)
     if token:

@@ -1,0 +1,898 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Preço Promo</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --bg: #0f1117; --card: #1a1d27; --card2: #22263a;
+      --accent: #f5c518; --blue: #3b82f6; --text: #e2e8f0;
+      --muted: #94a3b8; --border: #2d3144; --green: #22c55e;
+      --red: #ef4444; --orange: #f97316;
+    }
+    body {
+      background: var(--bg); color: var(--text);
+      font-family: 'Segoe UI', system-ui, sans-serif;
+      min-height: 100vh; padding: 16px;
+    }
+    header {
+      display: flex; align-items: center; justify-content: space-between;
+      margin-bottom: 20px; padding-bottom: 16px;
+      border-bottom: 1px solid var(--border); gap: 12px; flex-wrap: wrap;
+    }
+    header h1 { font-size: 1.1rem; font-weight: 700; color: var(--accent); }
+    header p  { font-size: .8rem; color: var(--muted); margin-top: 3px; }
+    .card {
+      background: var(--card); border: 1px solid var(--border); border-radius: 10px;
+      padding: 18px; margin-bottom: 18px;
+    }
+    .card h2 { font-size: 1rem; margin-bottom: 12px; }
+    label { display: block; font-size: .78rem; color: var(--muted); margin-bottom: 5px; }
+    input[type=text], input[type=number], select {
+      background: var(--card2); border: 1px solid var(--border);
+      color: var(--text); border-radius: 8px; padding: 8px 12px;
+      font-size: .88rem; outline: none; font-family: inherit; width: 100%;
+    }
+    select {
+      appearance: none; -webkit-appearance: none;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' fill='%2394a3b8'%3E%3Cpath fill-rule='evenodd' d='M5.23 7.21a.75.75 0 011.06.02L10 10.94l3.71-3.71a.75.75 0 111.06 1.06l-4.24 4.25a.75.75 0 01-1.06 0L5.21 8.29a.75.75 0 01.02-1.08z' clip-rule='evenodd'/%3E%3C/svg%3E");
+      background-repeat: no-repeat; background-position: right 10px center; background-size: 16px;
+      padding-right: 34px; cursor: pointer;
+    }
+    input:focus, select:focus { border-color: var(--blue); }
+    select:hover { border-color: #3a3f58; }
+    .filtros-bar {
+      display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: 16px; align-items: flex-end;
+    }
+    .filtro-campo { display: flex; flex-direction: column; gap: 4px; }
+    .filtro-campo label { margin: 0; }
+    .filtro-campo input[type=text] { min-width: 240px; }
+    .filtro-campo select { min-width: 160px; }
+    .busca-resultados {
+      margin-top: 6px; border: 1px solid var(--border); border-radius: 8px;
+      max-height: 220px; overflow-y: auto; display: none;
+    }
+    .busca-resultados.aberto { display: block; }
+    .busca-item {
+      padding: 8px 12px; font-size: .84rem; cursor: pointer; border-bottom: 1px solid var(--border);
+    }
+    .busca-item:last-child { border-bottom: none; }
+    .busca-item:hover { background: var(--card2); }
+    .busca-item .cod { color: var(--muted); font-family: monospace; margin-right: 8px; }
+    .btn-rm-faixa {
+      background: transparent; border: 1px solid var(--border); color: var(--red);
+      border-radius: 6px; padding: 6px 10px; cursor: pointer; font-size: .8rem;
+    }
+    .btn-rm-faixa:hover { border-color: var(--red); }
+    .btn {
+      background: var(--card2); border: 1px solid var(--border); color: var(--text);
+      border-radius: 8px; padding: 9px 16px; font-size: .86rem; cursor: pointer; font-family: inherit;
+    }
+    .btn:hover { border-color: var(--blue); }
+    .btn-primary {
+      background: var(--accent); color: #1a1608; border: none; font-weight: 700;
+      border-radius: 8px; padding: 10px 20px; font-size: .9rem; cursor: pointer; font-family: inherit;
+    }
+    .btn-primary:hover { opacity: .9; }
+    .btn-primary:disabled { opacity: .5; cursor: not-allowed; }
+    .modal-overlay {
+      position: fixed; inset: 0; background: rgba(0,0,0,.6);
+      display: flex; align-items: center; justify-content: center; z-index: 100;
+      padding: 20px;
+    }
+    .modal-overlay[hidden] { display: none; }
+    .modal-card {
+      background: #14161f; border: 1px solid var(--border); border-radius: 12px;
+      padding: 22px; width: 90%; max-width: 420px;
+    }
+    .modal-card.modal-card-lg {
+      max-width: 900px; max-height: 90vh; overflow-y: auto;
+    }
+    .modal-card h3 { font-size: 1rem; margin-bottom: 6px; }
+table.visu { width: 100%; border-collapse: collapse; font-size: .82rem; }
+    table.visu thead th {
+      text-align: left; color: var(--muted); font-size: .68rem; text-transform: uppercase;
+      letter-spacing: .04em; padding: 8px; border-bottom: 1px solid var(--border);
+      background: var(--card2); white-space: nowrap; position: sticky; top: 0;
+    }
+    table.visu tbody td { padding: 7px 8px; border-bottom: 1px solid var(--border); white-space: nowrap; }
+    table.visu tbody tr:hover { background: var(--card2); }
+    table.visu td.produto-cel { white-space: normal; min-width: 220px; }
+    .sim-resultado-box {
+      display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 12px; margin-top: 14px;
+    }
+    .sim-card {
+      background: var(--card2); border: 1px solid var(--border); border-radius: 10px; padding: 12px 14px;
+    }
+    .sim-card .label { font-size: .68rem; text-transform: uppercase; letter-spacing: .05em; color: var(--muted); margin-bottom: 6px; }
+    .sim-card .val { font-size: 1.15rem; font-weight: 800; }
+    .sim-card.destaque { border-color: var(--green); background: rgba(34,197,94,.08); }
+    .sim-card.destaque .val { color: var(--green); }
+    .sim-aviso {
+      margin-top: 12px; font-size: .82rem; color: var(--muted);
+      background: rgba(249,115,22,.08); border: 1px solid rgba(249,115,22,.25);
+      border-radius: 8px; padding: 10px 12px;
+    }
+    .empty { text-align: center; padding: 30px; color: var(--muted); font-size: .9rem; }
+    .tag-curva-a {
+      display: inline-block; font-size: .64rem; font-weight: 700; letter-spacing: .03em;
+      padding: 1px 7px; border-radius: 20px; margin-left: 8px; vertical-align: middle;
+      background: rgba(245,197,24,.15); color: var(--accent); border: 1px solid rgba(245,197,24,.4);
+    }
+    #bloqueado { text-align: center; padding: 80px 20px; color: var(--muted); }
+    .table-wrap { overflow-x: auto; }
+
+    @media (max-width: 640px) {
+      body { padding: 12px; }
+      .card { padding: 14px; }
+    }
+  </style>
+</head>
+<body>
+
+<div id="app">
+<header>
+  <div>
+    <h1>🏷️ PREÇO PROMO</h1>
+    <p>Simulador de pedido com preço escalonado por faixa de volume, sistema e região</p>
+  </div>
+  <a id="link-painel" href="index.html" hidden style="color:var(--muted);font-size:.8rem;text-decoration:none">← Painel</a>
+</header>
+
+<div class="card">
+  <button class="btn-primary" id="btn-abrir-simulador" onclick="abrirSimulador()">🧮 Simulador de pedido Perini</button>
+  <div style="display:flex;gap:16px;flex-wrap:wrap;margin-top:14px">
+    <div class="filtro-campo" style="max-width:160px">
+      <label for="filtro-fornecedor-card">Fornecedor</label>
+      <select id="filtro-fornecedor-card" onchange="filtrarFornecedorCard()">
+        <option value="">Todos</option>
+        <option value="perini">Perini</option>
+        <option value="lvmh">LVMH</option>
+        <option value="crs">CRS Brands</option>
+      </select>
+    </div>
+    <div class="filtro-campo" style="max-width:160px">
+      <label for="perini-sistema">Sistema Perini</label>
+      <select id="perini-sistema" onchange="renderizarListaPerini(); filtrarFornecedorCard(); simRefiltrarBuscas()">
+        <option value="CRC">CRC</option>
+        <option value="SPON">SPON</option>
+      </select>
+    </div>
+  </div>
+</div>
+
+<div class="card" id="card-perini">
+  <h2>Casa Perini</h2>
+  <div style="display:flex;gap:24px;flex-wrap:wrap">
+    <div class="table-wrap" style="max-width:420px">
+      <table class="visu">
+        <thead><tr><th>Cód.</th><th>Item</th></tr></thead>
+        <tbody id="tbody-perini"><tr><td colspan="2" class="empty">Carregando...</td></tr></tbody>
+      </table>
+    </div>
+    <div style="flex:1;min-width:320px">
+      <div class="table-wrap">
+        <table class="visu">
+          <thead><tr><th>Preço</th><th>Acelerador</th><th>Volume escalonado</th><th>Prazo especial</th></tr></thead>
+          <tbody id="tbody-perini-condicoes"></tbody>
+        </table>
+      </div>
+      <p style="font-size:.8rem;font-weight:700;color:var(--accent);background:rgba(245,197,24,.12);border:1px solid rgba(245,197,24,.4);border-radius:8px;padding:10px 12px;margin-top:10px">
+        *Verba adicional a ser tratada. *Clientes acima de 1.000 cxs, tratar à parte.
+        *Pedidos fracionados que utilizarem o "acelerador": o Alud precisa ser
+        faturado junto com a primeira parte do pedido, sempre.
+        Use o 🧮 Simulador de pedido pra calcular certinho o Alud necessário
+        antes de fechar o pedido.
+      </p>
+    </div>
+  </div>
+</div>
+
+<div class="card" id="card-lvmh">
+  <h2>LVMH</h2>
+  <p style="font-size:.78rem;color:var(--muted);margin-bottom:10px">Ainda sem código de produto — só referência de preço por enquanto.</p>
+  <div class="filtro-campo" style="max-width:200px;margin-bottom:12px">
+    <label for="lvmh-marca">Marca</label>
+    <select id="lvmh-marca" onchange="filtrarLvmhMarca()">
+      <option value="">Todas as marcas</option>
+      <option value="BELVEDERE">Belvedere</option>
+      <option value="CHANDON">Chandon</option>
+      <option value="DOM PERIGNON">Dom Perignon</option>
+      <option value="HENNESSY">Hennessy</option>
+      <option value="MINUTY">Minuty</option>
+      <option value="MOET">Moët</option>
+      <option value="RUINART">Ruinart</option>
+      <option value="VEUVE CLICQUOT">Veuve Clicquot</option>
+    </select>
+  </div>
+  <div class="table-wrap">
+    <table class="visu">
+      <thead><tr><th>Produto</th><th>Prazo</th><th>À vista</th></tr></thead>
+      <tbody id="tbody-lvmh">
+        <tr data-marca="BELVEDERE"><td class="produto-cel">BELVEDERE PURE 700 ML<span class="tag-curva-a">CURVA A</span></td><td>R$ 114,00</td><td>R$ 108,90</td></tr>
+        <tr data-marca="CHANDON"><td class="produto-cel">CHANDON GARDEN SPRITZ 750 ML<span class="tag-curva-a">CURVA A</span></td><td>R$ 70,50</td><td>R$ 66,90</td></tr>
+        <tr data-marca="CHANDON"><td class="produto-cel">CHANDON RESERVE BRUT 750 ML<span class="tag-curva-a">CURVA A</span></td><td>R$ 68,90</td><td>R$ 63,90</td></tr>
+        <tr data-marca="CHANDON"><td class="produto-cel">CHANDON BRUT ROSE 750 ML<span class="tag-curva-a">CURVA A</span></td><td>R$ 74,90</td><td>R$ 69,90</td></tr>
+        <tr data-marca="CHANDON"><td class="produto-cel">CHANDON PASSION ON ICE 750 ML<span class="tag-curva-a">CURVA A</span></td><td>R$ 71,00</td><td>R$ 67,00</td></tr>
+        <tr data-marca="DOM PERIGNON"><td class="produto-cel">DOM PERIGNON BLANC VINTAGE LUMINOUS LABEL 750 ML 2013<span class="tag-curva-a">CURVA A</span></td><td>R$ 1.372,50</td><td>R$ 1.314,00</td></tr>
+        <tr data-marca="DOM PERIGNON"><td class="produto-cel">DOM PERIGNON BLANC VINTAGE 750 ML 2015<span class="tag-curva-a">CURVA A</span></td><td>R$ 1.273,50</td><td>R$ 1.229,00</td></tr>
+        <tr data-marca="HENNESSY"><td class="produto-cel">HENNESSY VERY SPECIAL 700 ML COM CARTUCHO<span class="tag-curva-a">CURVA A</span></td><td>R$ 154,90</td><td>R$ 147,90</td></tr>
+        <tr data-marca="HENNESSY"><td class="produto-cel">HENNESSY V.S.O.P. 700 ML COM CARTUCHO 3 GFS<span class="tag-curva-a">CURVA A</span></td><td>R$ 319,90</td><td>R$ 304,90</td></tr>
+        <tr data-marca="HENNESSY"><td class="produto-cel">HENNESSY X.O. 700 ML COM CARTUCHO<span class="tag-curva-a">CURVA A</span></td><td>R$ 1.294,50</td><td>R$ 1.239,00</td></tr>
+        <tr data-marca="MINUTY"><td class="produto-cel">M DE MINUTY 750 ML 2024<span class="tag-curva-a">CURVA A</span></td><td>R$ 96,90</td><td>R$ 92,90</td></tr>
+        <tr data-marca="MOET"><td class="produto-cel">MOET ICE IMPERIAL 750 ML<span class="tag-curva-a">CURVA A</span></td><td>R$ 359,50</td><td>R$ 342,90</td></tr>
+        <tr data-marca="MOET"><td class="produto-cel">MOET ICE IMPERIAL ROSE 750 ML<span class="tag-curva-a">CURVA A</span></td><td>R$ 359,50</td><td>R$ 342,90</td></tr>
+        <tr data-marca="MOET"><td class="produto-cel">MOET IMPERIAL EXTRA BRUT 750 ML<span class="tag-curva-a">CURVA A</span></td><td>R$ 297,90</td><td>R$ 284,00</td></tr>
+        <tr data-marca="MOET"><td class="produto-cel">MOET ROSE IMPERIAL 750 ML COM CARTUCHO<span class="tag-curva-a">CURVA A</span></td><td>R$ 371,50</td><td>R$ 355,00</td></tr>
+        <tr data-marca="RUINART"><td class="produto-cel">RUINART BLANC DE BLANCS 750 ML COM CARTUCHO<span class="tag-curva-a">CURVA A</span></td><td>R$ 526,90</td><td>R$ 504,90</td></tr>
+        <tr data-marca="RUINART"><td class="produto-cel">RUINART ROSE 750 ML COM CARTUCHO<span class="tag-curva-a">CURVA A</span></td><td>R$ 526,90</td><td>R$ 504,90</td></tr>
+        <tr data-marca="VEUVE CLICQUOT"><td class="produto-cel">VEUVE CLICQUOT BRUT 750 ML<span class="tag-curva-a">CURVA A</span></td><td>R$ 321,50</td><td>R$ 308,90</td></tr>
+        <tr data-marca="VEUVE CLICQUOT"><td class="produto-cel">VEUVE CLICQUOT ROSE 750 ML COM CARTUCHO<span class="tag-curva-a">CURVA A</span></td><td>R$ 396,50</td><td>R$ 379,90</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h3 style="font-size:.88rem;color:var(--accent);margin:20px 0 10px">Moet Hennessy — Rio e São Paulo</h3>
+  <div class="table-wrap">
+    <table class="visu">
+      <thead><tr><th>Item</th><th>Preço tabela</th><th>Preço promo</th><th>Volume escalonado</th><th>Prazo especial</th></tr></thead>
+      <tbody>
+        <tr>
+          <td class="produto-cel">CHANDON RESERVE BRUT 750 ML</td>
+          <td>R$ 74,90</td>
+          <td>R$ 68,90</td>
+          <td>Acima 50 cxs</td>
+          <td>Set: 30/60/90<br>Out: 30/60<br>Nov e Dez: 30</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<div class="card" id="card-crs">
+  <h2>CRS Brands</h2>
+  <p style="font-size:.78rem;color:var(--muted);margin-bottom:10px">Todos os produtos são só da base SPON.</p>
+  <div class="table-wrap">
+    <table class="visu">
+      <thead><tr><th>Produto</th><th>Fornecedor</th><th>Categoria</th><th>Cx com</th><th>Plt</th><th>Preço</th><th>Promo</th></tr></thead>
+      <tbody>
+        <tr><td class="produto-cel">CERESER MACA 24X275ML</td><td>CRS BRANDS INDUSTRIA E COMERCIO LTDA</td><td>ESPUMANTE</td><td>24</td><td>78</td><td>R$ 120,36</td><td>4,81 (10 a 77cxs) / 4,61 (acima de 1 plt - 78cxs)</td></tr>
+        <tr><td class="produto-cel">CERESER MACA ZERO S/ALCOOL 24X275ML</td><td>CRS BRANDS INDUSTRIA E COMERCIO LTDA</td><td>ESPUMANTE</td><td>24</td><td>78</td><td>R$ 120,36</td><td>4,81 (10 a 77cxs) / 4,61 (acima de 1 plt - 78cxs)</td></tr>
+        <tr><td class="produto-cel">CERESER MACA VERDE 24X275ML</td><td>CRS BRANDS INDUSTRIA E COMERCIO LTDA</td><td>ESPUMANTE</td><td>24</td><td>78</td><td>R$ 120,36</td><td>4,81 (10 a 77cxs) / 4,61 (acima de 1 plt - 78cxs)</td></tr>
+        <tr><td class="produto-cel">ESPUMANTE GEORGES AUBERT BRUT 750ML</td><td>CRS BRANDS INDUSTRIA E COMERCIO LTDA</td><td>ESPUMANTE</td><td>—</td><td>—</td><td>R$ 55,17</td><td>—</td></tr>
+        <tr><td class="produto-cel">ESPUMANTE GEORGES AUBERT DEMI 750ML</td><td>CRS BRANDS INDUSTRIA E COMERCIO LTDA</td><td>ESPUMANTE</td><td>—</td><td>—</td><td>R$ 55,17</td><td>—</td></tr>
+        <tr><td class="produto-cel">ESPUMANTE GEORGES AUBERT MOSCATEL 750ML</td><td>CRS BRANDS INDUSTRIA E COMERCIO LTDA</td><td>ESPUMANTE</td><td>—</td><td>—</td><td>R$ 51,15</td><td>—</td></tr>
+        <tr><td class="produto-cel">ESPUMANTE GEORGES AUBERT ROSE BRUT 750ML</td><td>CRS BRANDS INDUSTRIA E COMERCIO LTDA</td><td>ESPUMANTE</td><td>—</td><td>—</td><td>R$ 53,16</td><td>—</td></tr>
+        <tr><td class="produto-cel">CERESER MACA VERDE S/ALCOOL 24X275ML</td><td>CRS BRANDS INDUSTRIA E COMERCIO LTDA</td><td>ESPUMANTE</td><td>—</td><td>—</td><td>R$ 119,49</td><td>—</td></tr>
+        <tr><td class="produto-cel">CELEBRATE SIDRA ALCOOLICA 660ML V2020</td><td>CRS BRANDS INDUSTRIA E COMERCIO LTDA</td><td>SIDRA</td><td>12</td><td>56</td><td>R$ 9,03</td><td>R$ 8,53 (para plt)</td></tr>
+        <tr><td class="produto-cel">CHUVA DE PRATA ROSE 660ML</td><td>CRS BRANDS INDUSTRIA E COMERCIO LTDA</td><td>SIDRA</td><td>12</td><td>56</td><td>R$ 13,97</td><td>R$ 13,75 (para plt)</td></tr>
+        <tr><td class="produto-cel">CERESER SIDRA 660ML</td><td>CRS BRANDS INDUSTRIA E COMERCIO LTDA</td><td>SIDRA</td><td>12</td><td>56</td><td>R$ 14,97</td><td>R$ 14,57 (para plt)</td></tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+</div>
+
+<div class="modal-overlay" id="modal-simulador" hidden onclick="if (event.target === this) fecharSimulador()">
+  <div class="modal-card modal-card-lg">
+    <div style="display:flex;align-items:flex-start;justify-content:space-between;gap:12px">
+      <h3 style="margin:0">🧮 Simulador de pedido Perini</h3>
+      <button class="btn" onclick="fecharSimulador()" style="padding:6px 12px">✕ Fechar</button>
+    </div>
+    <p style="font-size:.8rem;color:var(--muted);margin:10px 0 12px">
+      Monte o pedido com vários produtos e veja o preço por faixa de volume de
+      cada um + quanto de Alud entra no total pra acelerar (10% do valor do
+      pedido já com preço acelerado, convertido em quantidade pelo preço do
+      Alud na empresa faturada).
+    </p>
+    <div class="filtros-bar">
+      <div class="filtro-campo">
+        <label for="sim-empresa">Sistema (Alud)</label>
+        <select id="sim-empresa" onchange="simularPedido(); simRefiltrarBuscas()">
+          <option value="SPON">SPON — R$ 29,90/un</option>
+          <option value="CRC">CRC — R$ 27,90/un</option>
+          <option value="Castas">Castas — R$ 25,60/un</option>
+        </select>
+      </div>
+    </div>
+
+    <div id="sim-linhas"></div>
+    <button class="btn" onclick="simAdicionarLinha()" style="margin-top:6px">➕ Adicionar produto</button>
+
+    <div id="sim-resultado"></div>
+
+    <div style="margin-top:16px;padding-top:16px;border-top:1px solid var(--border)">
+      <div style="font-size:.86rem;font-weight:700;color:var(--accent);margin-bottom:10px">📝 Registrar intenção de venda</div>
+      <div class="filtros-bar">
+        <div class="filtro-campo" style="position:relative">
+          <label for="intencao-cliente">Cliente</label>
+          <input type="text" id="intencao-cliente" placeholder="Nome ou código do cliente" autocomplete="off" oninput="intencaoBuscarCliente()">
+          <div class="busca-resultados" id="intencao-cliente-resultados"></div>
+        </div>
+        <div class="filtro-campo">
+          <label for="intencao-plano">Plano de pagamento</label>
+          <select id="intencao-plano" onchange="_avaliarPlanoIntencao()">
+            <option value="A VISTA">À vista</option>
+            <option value="7 DIAS">7 dias</option>
+            <option value="14 DIAS">14 dias</option>
+            <option value="21 DIAS">21 dias</option>
+            <option value="28 DIAS">28 dias</option>
+            <option value="30 DIAS">30 dias</option>
+            <option value="45 DIAS">45 dias</option>
+            <option value="60 DIAS">60 dias</option>
+            <option value="7/14 DIAS">7/14 dias</option>
+            <option value="14/21 DIAS">14/21 dias</option>
+            <option value="21/28/35 DIAS">21/28/35 dias</option>
+            <option value="30/60 DIAS">30/60 dias</option>
+            <option value="30/60/90 DIAS">30/60/90 dias</option>
+          </select>
+        </div>
+        <button class="btn-primary" onclick="registrarIntencaoVenda()">Registrar</button>
+      </div>
+      <p id="intencao-plano-aviso" style="font-size:.82rem;margin-top:8px"></p>
+      <p id="intencao-msg" style="font-size:.82rem;margin-top:8px"></p>
+    </div>
+  </div>
+</div>
+
+<script>
+// Página pública (pedido do usuário em 2026-09-15: link pra compartilhar
+// sem senha) — sem gate de login (nunca redireciona pra login.html), mas o
+// link "← Painel" só aparece pra quem já está logado como gestor. Checagem
+// silenciosa (não usa auth.js — ele redireciona quem NÃO é gestor, o que
+// aqui quebraria o acesso público) — mesma lógica de detecção que auth.js,
+// duplicada aqui de propósito só pra decidir mostrar o link ou não.
+const _GESTORES_PERMITIDOS = [
+  'danielle.soares@rigarr.com.br', 'allan.correa@rigarr.com.br',
+  'leonardo.campos@rigarr.com.br', 'alexsandro.nunes@rigarr.com.br',
+  'giovani.cabral@rigarr.com.br', 'kaliel.caro@rigarr.com.br',
+  'artur.furlan@rigarr.com.br', 'daniel.diniz@rigarr.com.br',
+  'marcus.tanamachi@rigarr.com.br', 'geovanna.lescano@rigarr.com.br',
+  'fernando.risson@rigarr.com.br', 'erocles.oliveira@rigarr.com.br',
+  'andre.massensini@rigarr.com.br', 'priscilla.zambrano@rigarr.com.br',
+  'anderson.canaveis@rigarr.com.br',
+];
+
+function _emailDoCookie() {
+  try {
+    const m = document.cookie.match(/(?:^|; )offtrade_token=([^;]*)/);
+    if (!m) return '';
+    const idToken = JSON.parse(decodeURIComponent(m[1])).id_token || '';
+    let payload = idToken.split('.')[1] || '';
+    payload = payload.replace(/-/g, '+').replace(/_/g, '/');
+    payload += '='.repeat((4 - payload.length % 4) % 4);
+    return (JSON.parse(atob(payload)).email || '').toLowerCase();
+  } catch (e) {
+    return '';
+  }
+}
+
+function _visitanteEhGestor() {
+  const emailSessao = (sessionStorage.getItem('rg_email') || '').toLowerCase();
+  if (emailSessao) return _GESTORES_PERMITIDOS.includes(emailSessao);
+  return _GESTORES_PERMITIDOS.includes(_emailDoCookie());
+}
+
+if (_visitanteEhGestor()) document.getElementById('link-painel').hidden = false;
+
+const PRECO_ALUD_EMPRESA = { SPON: 29.90, CRC: 27.90, Castas: 25.60 };
+
+let _cadastrados = [];
+let _simSeq = 0;
+let _simLinhas = []; // { id, produto: {codprod,descricao,...}|null, qtd }
+let _ultimaSimulacao = null; // snapshot do último cálculo, usado ao registrar intenção de venda
+
+function iniciar() {
+  carregarCadastrados();
+  simAdicionarLinha();
+  filtrarFornecedorCard();
+  _preencherPlanoPagamentoPadrao();
+}
+
+// Pré-preenche "Plano de pagamento" com o prazo especial do mês atual —
+// pedido do usuário em 2026-09-15: "deixa preenchido com os mais
+// pedidos", já que esse é o prazo padrão que a maioria fecha nesse mês.
+// Vazio (sem sugestão) fora de set-dez, mês sem escada especial.
+function _preencherPlanoPagamentoPadrao() {
+  const mesAtual = new Date().getMonth() + 1;
+  const dias = PRAZO_ESPECIAL_POR_MES[mesAtual];
+  if (dias) document.getElementById('intencao-plano').value = `${dias.join('/')} DIAS`;
+  _avaliarPlanoIntencao();
+}
+
+// Mostra só o card do fornecedor escolhido (pedido do usuário em
+// 2026-09-15) — "Todos" mostra os três (Perini/LVMH/CRS Brands) juntos.
+// CRS Brands é só SPON (todo código cadastrado é dessa base) — some sempre
+// que o filtro Sistema estiver em CRC, mesmo com fornecedor = "Todos"/"CRS".
+function filtrarFornecedorCard() {
+  const escolhido = document.getElementById('filtro-fornecedor-card').value;
+  const sistema = document.getElementById('perini-sistema').value;
+  const cards = { perini: 'card-perini', lvmh: 'card-lvmh', crs: 'card-crs' };
+  Object.entries(cards).forEach(([chave, id]) => {
+    let escondido = escolhido !== '' && escolhido !== chave;
+    if (chave === 'crs' && sistema !== 'SPON') escondido = true;
+    document.getElementById(id).hidden = escondido;
+  });
+}
+
+// Filtro por marca da tabela LVMH (coluna ROTULOS da planilha original,
+// pedido do usuário em 2026-09-15) — data-marca gravado em cada <tr>.
+function filtrarLvmhMarca() {
+  const marca = document.getElementById('lvmh-marca').value;
+  document.querySelectorAll('#tbody-lvmh tr').forEach(tr => {
+    tr.hidden = marca !== '' && tr.dataset.marca !== marca;
+  });
+}
+
+// Simulador escondido por padrão, só o botão aparece (pedido do usuário em
+// 2026-09-15) — clicar abre como modal por cima da tela, com botão de
+// fechar (mesmo padrão visual do modal-zapi de pedidos_mercos.html).
+function abrirSimulador() {
+  document.getElementById('modal-simulador').hidden = false;
+}
+
+function fecharSimulador() {
+  document.getElementById('modal-simulador').hidden = true;
+}
+
+function _rotuloFaixa(vmin, vmax) {
+  vmin = Number(vmin) || 0;
+  if (vmax === null || vmax === undefined || vmax === '') {
+    return vmin ? `Acima de ${vmin} cxs` : 'Qualquer volume';
+  }
+  vmax = Number(vmax);
+  return vmin <= 0 ? `Até ${vmax} cxs` : `De ${vmin} a ${vmax} cxs`;
+}
+
+// Alimenta o simulador com os produtos cadastrados (fetch simples — a
+// edição/cadastro em si agora é feita direto pela API, não mais por um
+// formulário nesta página) e monta o filtro de fornecedor a partir dos
+// fornecedores que existirem de fato.
+async function carregarCadastrados() {
+  try {
+    const resp = await fetch('/api/preco-promo/estado');
+    const estado = await resp.json();
+    _cadastrados = (estado.produtos || []).sort((a, b) => a.descricao.localeCompare(b.descricao));
+  } catch (e) {
+    _cadastrados = [];
+  }
+  renderizarListaPerini();
+}
+
+// Código do mesmo produto diverge entre CRC e SPON só pro ICE simples
+// (confirmado em 2026-09-15 consultando PCPRODUT direto: CRC usa 3319,
+// SPON usa 2779 — 3319 na SPON é outro produto totalmente diferente,
+// Heineken Long Zero) — os outros 7, incluindo ICE ROSE (2780), usam o
+// mesmo código nas duas bases. preco_promo.json não guarda de qual
+// sistema é o código (campo removido a pedido do usuário), então esse
+// mapeamento fica fixo aqui só pra essa tabela de referência.
+const PERINI_CODIGOS = [
+  { crc: '663',  spon: '663',  item: 'ESPUM CASA PERINI AQUARELA ROSE 750ML' },
+  { crc: '666',  spon: '666',  item: 'ESPUM CASA PERINI BRUT ROSE 750ML' },
+  { crc: '2781', spon: '2781', item: 'ESPUM CASA PERINI MOSCATEL 750ML' },
+  { crc: '664',  spon: '664',  item: 'ESPUM CASA PERINI BRUT 750ML' },
+  { crc: '665',  spon: '665',  item: 'ESPUM CASA PERINI PROSECCO 750ML' },
+  { crc: '2780', spon: '2780', item: 'ESPUM CASA PERINI ICE ROSE 750ML' },
+  { crc: '667',  spon: '667',  item: 'ESPUM CASA PERINI DEMI-SEC 750ML' },
+  { crc: '3319', spon: '2779', item: 'ESPUM CASA PERINI ICE 750ML' },
+];
+
+// Condição comercial na verdade varia por ESTADO (RJ tem 3 faixas, SP tem
+// 2), não por sistema — mas o usuário pediu pra acoplar visualmente ao
+// filtro Sistema (CRC -> mostra a condição "RJ", SPON -> mostra a "SP") e
+// tirar as palavras RJ/SP da tela (pedido em 2026-09-15).
+const PERINI_CONDICOES = {
+  CRC: [
+    { preco: 'R$ 32,90', acelerador: 'R$ 32,75', volume: 'Acima 350 cxs', prazo: 'Set: 30/60/90' },
+    { preco: 'R$ 33,50', acelerador: 'R$ 32,90', volume: 'De 10 a 350 cxs', prazo: 'Out: 30/60' },
+    { preco: 'R$ 34,30', acelerador: 'R$ 33,50', volume: 'Até 10 cxs', prazo: 'Dez: 30d' },
+  ],
+  SPON: [
+    { preco: 'R$ 32,90', acelerador: 'R$ 32,75', volume: 'Acima 100 cxs', prazo: 'Set: 30/60/90' },
+    { preco: 'R$ 33,50', acelerador: 'R$ 32,90', volume: 'Até 100 cxs', prazo: 'Out: 30/60' },
+  ],
+};
+
+function renderizarListaPerini() {
+  const sistema = document.getElementById('perini-sistema').value;
+
+  const tbody = document.getElementById('tbody-perini');
+  tbody.innerHTML = PERINI_CODIGOS.map(p => {
+    const cod = sistema === 'SPON' ? p.spon : p.crc;
+    return `<tr><td>${cod ? _esc(cod) : '—'}</td><td class="produto-cel">${_esc(p.item)}</td></tr>`;
+  }).join('');
+
+  const tbodyCond = document.getElementById('tbody-perini-condicoes');
+  tbodyCond.innerHTML = PERINI_CONDICOES[sistema].map(c => `
+    <tr><td>${_esc(c.preco)}</td><td>${_esc(c.acelerador)}</td><td>${_esc(c.volume)}</td><td>${_esc(c.prazo)}</td></tr>
+  `).join('');
+}
+
+// ── Simulador de pedido, multi-produto (pedido do usuário em 2026-09-14:
+// "coloca como um botão e eu posso subir mais produtos") ───────────────────
+function simAdicionarLinha() {
+  _simLinhas.push({ id: ++_simSeq, produto: null, qtd: 1 });
+  simRenderizarLinhas();
+}
+
+function simRemoverLinha(id) {
+  _simLinhas = _simLinhas.filter(l => l.id !== id);
+  simRenderizarLinhas();
+  simularPedido();
+}
+
+function simRenderizarLinhas() {
+  const cont = document.getElementById('sim-linhas');
+  if (!_simLinhas.length) {
+    cont.innerHTML = '<div class="empty" style="padding:16px">Nenhum produto no pedido ainda — clique em "Adicionar produto".</div>';
+    return;
+  }
+  cont.innerHTML = _simLinhas.map(l => `
+    <div class="sim-linha" data-id="${l.id}" style="display:flex;gap:10px;align-items:flex-start;margin-bottom:10px;position:relative">
+      <div style="flex:1;position:relative">
+        <input type="text" class="sim-linha-busca" placeholder="Código ou nome do produto (já cadastrado)..."
+               autocomplete="off" value="${l.produto ? _escAttr(l.produto.codprod + ' — ' + l.produto.descricao) : ''}">
+        <div class="busca-resultados sim-linha-resultados"></div>
+      </div>
+      <input type="number" class="sim-linha-qtd" min="1" step="1" value="${l.qtd}" style="max-width:120px" placeholder="Cxs">
+      <button class="btn-rm-faixa" onclick="simRemoverLinha(${l.id})">✕</button>
+    </div>
+  `).join('');
+
+  // Delegação de eventos — linhas são recriadas a cada render, então
+  // listeners diretos por elemento seriam perdidos.
+  cont.querySelectorAll('.sim-linha-busca').forEach(inp => {
+    inp.addEventListener('input', () => simBuscarProduto(inp));
+  });
+  cont.querySelectorAll('.sim-linha-qtd').forEach(inp => {
+    inp.addEventListener('input', () => {
+      const id = Number(inp.closest('.sim-linha').dataset.id);
+      const linha = _simLinhas.find(l => l.id === id);
+      if (linha) linha.qtd = Math.max(1, parseInt(inp.value, 10) || 1);
+      simularPedido();
+    });
+  });
+}
+
+// Códigos válidos do sistema escolhido no PRÓPRIO seletor "Sistema (Alud)"
+// do simulador — um mesmo produto pode ter 2 codprods diferentes (CRC e
+// SPON, ver PERINI_CODIGOS), então o simulador só deve oferecer o código
+// certo, nunca os dois ao mesmo tempo. CASTAS não tem código próprio
+// mapeado ainda, usa o da SPON (pedido do usuário em 2026-09-15: "se o
+// sistema for Castas ou Spon, os produtos Perini devem vir com o código
+// Spon, se não vem em CRC").
+function _codigosPeriniDoSistema() {
+  const sistema = document.getElementById('sim-empresa').value;
+  const usaSpon = sistema === 'SPON' || sistema === 'Castas';
+  return new Set(PERINI_CODIGOS.map(p => usaSpon ? p.spon : p.crc).filter(Boolean));
+}
+
+// Reaplica o filtro de sistema em qualquer busca de produto já aberta no
+// simulador — trocar "Sistema Perini" não limpa o que já foi digitado.
+function simRefiltrarBuscas() {
+  document.querySelectorAll('.sim-linha-busca').forEach(inp => {
+    if (inp.value.trim().length >= 2) simBuscarProduto(inp);
+  });
+}
+
+function simBuscarProduto(inputEl) {
+  const termo = inputEl.value.trim().toLowerCase();
+  const cont = inputEl.closest('.sim-linha').querySelector('.sim-linha-resultados');
+  if (termo.length < 2) { cont.classList.remove('aberto'); cont.innerHTML = ''; return; }
+  const codigosValidos = _codigosPeriniDoSistema();
+  const resultados = (_cadastrados || []).filter(p =>
+    codigosValidos.has(p.codprod)
+    && (p.codprod.toLowerCase().includes(termo) || p.descricao.toLowerCase().includes(termo))
+  ).slice(0, 30);
+  if (!resultados.length) {
+    cont.innerHTML = '<div class="busca-item" style="color:var(--muted)">Nenhum produto cadastrado bate com isso.</div>';
+    cont.classList.add('aberto');
+    return;
+  }
+  const id = Number(inputEl.closest('.sim-linha').dataset.id);
+  cont.innerHTML = resultados.map(p => `
+    <div class="busca-item" onclick="simSelecionarProduto(${id}, '${_escAttr(p.codprod)}')">
+      <span class="cod">${_esc(p.codprod)}</span>${_esc(p.descricao)}
+    </div>
+  `).join('');
+  cont.classList.add('aberto');
+}
+
+function simSelecionarProduto(id, codprod) {
+  const produto = (_cadastrados || []).find(p => p.codprod === codprod);
+  const linha = _simLinhas.find(l => l.id === id);
+  if (!produto || !linha) return;
+  linha.produto = produto;
+  simRenderizarLinhas();
+  simularPedido();
+}
+
+document.addEventListener('click', (e) => {
+  if (!e.target.closest('.sim-linha')) {
+    document.querySelectorAll('.sim-linha-resultados').forEach(el => el.classList.remove('aberto'));
+  }
+});
+
+function _faixaParaVolume(faixas, qtd) {
+  return faixas.find(f => qtd >= (f.volume_min || 0) && (f.volume_max == null || qtd <= f.volume_max));
+}
+
+// Estado não é mais escolhido à parte no simulador (pedido do usuário em
+// 2026-09-15) — a condição segue o mesmo acoplamento sistema->estado do
+// quadro da Casa Perini, agora pelo próprio seletor "Sistema (Alud)" (era
+// "Empresa (Alud)" — filtro de Sistema separado foi removido, esse aqui
+// acumulou as duas funções): CRC usa a escada "RJ", SPON usa a "SP",
+// Castas cai no padrão RJ, não tem dado próprio ainda.
+function _regiaoAtual() {
+  return document.getElementById('sim-empresa').value === 'SPON' ? 'SP' : 'RJ';
+}
+
+function simularPedido() {
+  const out = document.getElementById('sim-resultado');
+  const regiao = _regiaoAtual();
+  const empresa = document.getElementById('sim-empresa').value;
+  const precoAludUn = PRECO_ALUD_EMPRESA[empresa];
+
+  const itens = _simLinhas.filter(l => l.produto);
+  if (!itens.length) { out.innerHTML = ''; _ultimaSimulacao = null; return; }
+
+  // Faixa/Preço tabela/Preço c/ Alud são do PEDIDO inteiro, não por linha —
+  // decididos pela quantidade TOTAL de espumante Perini somando todos os
+  // produtos do pedido (pedido do usuário em 2026-09-15). Todo produto
+  // Perini compartilha a mesma escada de faixas por região, então basta a
+  // faixa do primeiro item pra saber os limites.
+  const qtdTotal = itens.reduce((soma, l) => soma + l.qtd, 0);
+  const faixasRef = (itens[0].produto.regioes || {})[regiao] || [];
+  const faixa = _faixaParaVolume(faixasRef, qtdTotal);
+
+  let totalTabela = 0, totalComAlud = 0, temAlgumAlud = false;
+  const linhasTabela = itens.map(linha => {
+    if (!faixa) {
+      return `<tr><td class="produto-cel">${_esc(linha.produto.descricao)}</td><td>${linha.qtd}</td>
+        <td colspan="3" style="color:var(--red)">—</td></tr>`;
+    }
+    const vTabela = faixa.preco * linha.qtd;
+    const vAlud = (faixa.preco_alud ?? faixa.preco) * linha.qtd;
+    totalTabela += vTabela;
+    totalComAlud += vAlud;
+    if (faixa.preco_alud) temAlgumAlud = true;
+    return `
+      <tr>
+        <td class="produto-cel">${_esc(linha.produto.descricao)}</td>
+        <td>${linha.qtd}</td>
+        <td>${_esc(_rotuloFaixa(faixa.volume_min, faixa.volume_max))}</td>
+        <td>${_brl(faixa.preco)} (${_brl(vTabela)})</td>
+        <td>${faixa.preco_alud ? `${_brl(faixa.preco_alud)} (${_brl(vAlud)})` : '—'}</td>
+      </tr>
+    `;
+  }).join('');
+
+  let cardsAlud = '';
+  if (temAlgumAlud) {
+    const aludNecessarioValor = totalComAlud * 0.10;
+    const aludQtd = Math.ceil(aludNecessarioValor / precoAludUn);
+    const custoAludReal = aludQtd * precoAludUn;
+    const economiaLiquida = totalTabela - (totalComAlud + custoAludReal);
+    cardsAlud = `
+      <div class="sim-card">
+        <div class="label">Valor do pedido c/ Alud</div>
+        <div class="val">${_brl(totalComAlud)}</div>
+      </div>
+      <div class="sim-card destaque">
+        <div class="label">Alud necessário (${empresa} — ${_brl(precoAludUn)}/un)</div>
+        <div class="val">${aludQtd} un — ${_brl(custoAludReal)}</div>
+      </div>
+      <div class="sim-card ${economiaLiquida > 0 ? 'destaque' : ''}">
+        <div class="label">Economia líquida (já descontando o Alud)</div>
+        <div class="val">${_brl(economiaLiquida)}</div>
+      </div>
+    `;
+  }
+
+  // Snapshot pro botão "Registrar intenção de venda" — pedido do usuário
+  // em 2026-09-15, guarda o que foi calculado agora pra mandar junto com
+  // cliente/plano de pagamento sem recalcular tudo de novo lá.
+  _ultimaSimulacao = {
+    itens: itens.map(l => ({ codprod: l.produto.codprod, descricao: l.produto.descricao, qtd: l.qtd })),
+    qtdTotal,
+    valorUnitario: faixa ? faixa.preco : null,
+    sistema: document.getElementById('perini-sistema').value,
+    estado: regiao,
+  };
+
+  out.innerHTML = `
+    <p style="font-size:.8rem;color:var(--muted);margin-top:14px">
+      Quantidade total de espumante Perini no pedido: <strong style="color:var(--text)">${qtdTotal} cxs</strong>
+      ${faixa ? `→ faixa <strong style="color:var(--text)">${_esc(_rotuloFaixa(faixa.volume_min, faixa.volume_max))}</strong>` : ''}
+    </p>
+    <div class="table-wrap" style="margin-top:10px">
+      <table class="visu">
+        <thead><tr><th>Produto</th><th>Qtd</th><th>Faixa</th><th>Preço tabela (total)</th><th>Preço c/ Alud (total)</th></tr></thead>
+        <tbody>${linhasTabela}</tbody>
+      </table>
+    </div>
+    ${!faixa ? '<div class="sim-aviso">Sem faixa cadastrada pra essa quantidade total nesse sistema.</div>' : ''}
+    <div class="sim-resultado-box">
+      <div class="sim-card">
+        <div class="label">Total do pedido (tabela)</div>
+        <div class="val">${_brl(totalTabela)}</div>
+      </div>
+      ${cardsAlud}
+    </div>
+    ${faixa && !temAlgumAlud ? '<div class="sim-aviso">Nenhum item desse pedido tem preço com Alud cadastrado — mostrando só o total tabela.</div>' : ''}
+    ${qtdTotal > 1000 ? _avisoNegociacaoEspecial(qtdTotal) : ''}
+  `;
+}
+
+// Mesma escada de exportacao_perini_vendas.py::PRAZO_ESPECIAL_POR_MES —
+// manter em sincronia manual se a condição comercial mudar lá. Usa o mês
+// ATUAL (data real de hoje), já que a intenção é pra uma venda que ainda
+// vai acontecer.
+const PRAZO_ESPECIAL_POR_MES = { 9: [30, 60, 90], 10: [30, 60], 11: [60], 12: [30] };
+
+function _diasDoPrazo(texto) {
+  if (!texto) return null;
+  const dias = (texto.match(/\d+/g) || []).map(Number);
+  if (dias.length) return dias;
+  return /VISTA/i.test(texto) ? [0] : null;
+}
+
+// Confere se o plano de pagamento digitado respeita o prazo especial do
+// mês atual (prazo MENOR que o esperado é OK, igual à checagem de
+// perini_vendas.html) e mostra o resultado ao lado do botão — pedido do
+// usuário em 2026-09-15: "confirmar está dentro das condições".
+function _condicaoIntencao(planoPagamento) {
+  const mesAtual = new Date().getMonth() + 1;
+  const diasEsperado = PRAZO_ESPECIAL_POR_MES[mesAtual] || null;
+  if (!diasEsperado) return { dentro: null, texto: 'Mês sem prazo especial cadastrado (só set-dez)' };
+  const diasVendido = _diasDoPrazo(planoPagamento);
+  if (!diasVendido) return { dentro: null, texto: 'Não consegui ler o plano de pagamento' };
+  const dentro = Math.max(...diasVendido) <= Math.max(...diasEsperado);
+  return { dentro, texto: `Prazo especial de ${mesAtual === 9 ? 'setembro' : mesAtual === 10 ? 'outubro' : mesAtual === 11 ? 'novembro' : 'dezembro'}: até ${diasEsperado.join('/')} dias` };
+}
+
+// Aviso ao vivo assim que troca o plano no <select> — pedido do usuário em
+// 2026-09-15: "deixar um aviso se não for compatível" (ex: pedido em
+// novembro com plano de 90 dias, acima do limite de 60 desse mês).
+function _avaliarPlanoIntencao() {
+  const plano = document.getElementById('intencao-plano').value;
+  const aviso = document.getElementById('intencao-plano-aviso');
+  const condicao = _condicaoIntencao(plano);
+  if (condicao.dentro === false) {
+    aviso.style.color = 'var(--red)';
+    aviso.textContent = `⚠️ Fora do prazo especial — ${condicao.texto}`;
+  } else if (condicao.dentro === true) {
+    aviso.style.color = 'var(--green)';
+    aviso.textContent = `✅ ${condicao.texto}`;
+  } else {
+    aviso.style.color = 'var(--muted)';
+    aviso.textContent = condicao.texto;
+  }
+}
+
+// Busca de cliente (nome ou código) no Oracle via buscar_cliente_preco_promo.py
+// — debounce de 300ms pra não bater no banco a cada tecla (pedido do
+// usuário em 2026-09-15: "a caixa de pesquisa de Cliente deve buscar no
+// banco de dados pelo nome ou código").
+let _intencaoClienteTimer = null;
+function intencaoBuscarCliente() {
+  const termo = document.getElementById('intencao-cliente').value.trim();
+  const cont = document.getElementById('intencao-cliente-resultados');
+  clearTimeout(_intencaoClienteTimer);
+  if (termo.length < 2) { cont.classList.remove('aberto'); cont.innerHTML = ''; return; }
+  _intencaoClienteTimer = setTimeout(async () => {
+    try {
+      const resp = await fetch(`/api/preco-promo/buscar-cliente?termo=${encodeURIComponent(termo)}`);
+      const d = await resp.json();
+      // Mesma regra do código de produto Perini (pedido do usuário em
+      // 2026-09-15): Sistema (Alud) = SPON ou Castas -> só cliente da
+      // base SPON; CRC -> só cliente da base CRC.
+      const sistema = document.getElementById('sim-empresa').value;
+      const baseAlvo = (sistema === 'SPON' || sistema === 'Castas') ? 'SPON' : 'CRC';
+      const clientes = (d.clientes || []).filter(c => c.base === baseAlvo).slice(0, 20);
+      if (!clientes.length) {
+        cont.innerHTML = '<div class="busca-item" style="color:var(--muted)">Nenhum cliente encontrado.</div>';
+      } else {
+        cont.innerHTML = clientes.map(c => `
+          <div class="busca-item" onclick="intencaoSelecionarCliente('${_escAttr(c.codcli)}','${_escAttr(c.nome)}','${_escAttr(c.base)}')">
+            <span class="cod">${_esc(c.codcli)}</span>${_esc(c.nome)} <span style="color:var(--muted)">— ${_esc(c.base)}</span>
+          </div>
+        `).join('');
+      }
+      cont.classList.add('aberto');
+    } catch (e) {
+      cont.innerHTML = '<div class="busca-item" style="color:var(--muted)">Erro na busca.</div>';
+      cont.classList.add('aberto');
+    }
+  }, 300);
+}
+
+function intencaoSelecionarCliente(codcli, nome, base) {
+  document.getElementById('intencao-cliente').value = `${codcli} — ${nome} (${base})`;
+  document.getElementById('intencao-cliente-resultados').classList.remove('aberto');
+}
+
+document.addEventListener('click', (e) => {
+  if (!e.target.closest('#intencao-cliente') && !e.target.closest('#intencao-cliente-resultados')) {
+    document.getElementById('intencao-cliente-resultados').classList.remove('aberto');
+  }
+});
+
+// Registra a intenção de venda do simulador (cliente + plano de pagamento
+// + o que estava montado) — aparece em perini_vendas.html acima da tabela
+// de conferência, pra cruzar depois com a venda real do Winthor (pedido do
+// usuário em 2026-09-15).
+async function registrarIntencaoVenda() {
+  const msg = document.getElementById('intencao-msg');
+  msg.style.color = 'var(--red)';
+  const cliente = document.getElementById('intencao-cliente').value.trim();
+  const planoPagamento = document.getElementById('intencao-plano').value.trim();
+  if (!_ultimaSimulacao || !_ultimaSimulacao.itens.length) {
+    msg.textContent = 'Monte o pedido no simulador antes de registrar.';
+    return;
+  }
+  if (!cliente || !planoPagamento) {
+    msg.textContent = 'Preencha cliente e plano de pagamento.';
+    return;
+  }
+  const condicao = _condicaoIntencao(planoPagamento);
+  try {
+    const resp = await fetch('/api/preco-promo/intencao-venda', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        cliente, plano_pagamento: planoPagamento,
+        sistema: _ultimaSimulacao.sistema, estado: _ultimaSimulacao.estado,
+        qtd_total: _ultimaSimulacao.qtdTotal, valor_unitario: _ultimaSimulacao.valorUnitario,
+        dentro_das_condicoes: condicao.dentro,
+        itens: _ultimaSimulacao.itens.map(it => ({ codprod: it.codprod, descricao: it.descricao, qtd: it.qtd })),
+        usuario: sessionStorage.getItem('rg_email') || '',
+      }),
+    });
+    const d = await resp.json().catch(() => ({}));
+    if (!resp.ok || !d.ok) throw new Error(d.motivo || 'Falha ao registrar.');
+    msg.style.color = condicao.dentro === false ? 'var(--orange)' : 'var(--green)';
+    msg.textContent = `Intenção de venda registrada! ${condicao.dentro === false ? '⚠️ Fora das condições — ' : condicao.dentro ? '✅ Dentro das condições — ' : ''}${condicao.texto}`;
+    document.getElementById('intencao-cliente').value = '';
+    _preencherPlanoPagamentoPadrao();
+  } catch (e) {
+    msg.textContent = e.message || 'Não consegui registrar agora.';
+  }
+}
+
+// Cliente acima de 1.000 cxs é tratado à parte (nota da planilha original)
+// — pedido do usuário em 2026-09-15: abrir WhatsApp pro Daniel já com
+// mensagem pronta pedindo negociação especial pra esse volume.
+const _WHATSAPP_DANIEL = '5531991950546';
+
+function _avisoNegociacaoEspecial(qtdTotal) {
+  const msg = `Coé Daniel, tenho um pedido de espumante Casa Perini com ${qtdTotal} cxs aqui — dá pra fechar uma condição especial pra esse volume?`;
+  const link = `https://wa.me/${_WHATSAPP_DANIEL}?text=${encodeURIComponent(msg)}`;
+  return `
+    <div class="sim-aviso" style="border-color:rgba(34,197,94,.4);background:rgba(34,197,94,.08)">
+      Pedido acima de 1.000 cxs é tratado à parte.
+      <a href="${link}" target="_blank" rel="noopener" style="color:var(--green);font-weight:700;text-decoration:none">
+        📲 Falar com o Daniel no WhatsApp
+      </a>
+    </div>
+  `;
+}
+
+function _brl(v) {
+  return 'R$ ' + Number(v || 0).toLocaleString('pt-BR', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+}
+
+function _esc(s) {
+  return String(s || '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+}
+function _escAttr(s) {
+  return _esc(s).replace(/'/g, '&#39;');
+}
+
+iniciar();
+</script>
+</body>
+</html>

@@ -127,11 +127,26 @@ def _query_motivo_corte(schema):
 
     SUBTOT (QT*PVENDA registrado no momento do cancelamento) é o valor real
     do corte — mais confiável que estimar via TOTAL/QT da nota (que em
-    cancelamento total é sempre 0, cai pro PVENDA "digitado" genérico)."""
+    cancelamento total é sempre 0, cai pro PVENDA "digitado" genérico).
+
+    DESCRICAO entra aqui pra dar nome ao produto nos "cortes órfãos" (corte
+    TOTAL pré-NF: produto nunca chega a existir em PBI_PCPEDI pro NUMPED,
+    ver bloco "Cortes órfãos" abaixo — confirmado NUMPED 431001359, 3
+    produtos cortados no carregamento que sumiam de Produtos Cortados).
+
+    FANTASIA (indústria) não vem na própria PEDIDOS_CANCELADOS — só dá pra
+    pegar via PCPRODUT.CODFORNEC -> PCFORNEC.FANTASIA (mesmo join de
+    exportacao_meta.py::_query_vendas_historico), já que os "cortes órfãos"
+    não têm nenhuma linha em PBI_PCPEDI (que traria FANTASIA_FORNEC pronto)
+    pra puxar a indústria de lá (pedido do usuário em 2026-09-17: coluna
+    Indústria vinha em branco nesses itens)."""
     return f"""
-        SELECT NUMPED, CODPROD, MOTIVO, DATACANC, QT, PVENDA, SUBTOT
-        FROM {schema}.PEDIDOS_CANCELADOS
-        WHERE DATACANC >= SYSDATE - {DIAS_JANELA}
+        SELECT PC.NUMPED, PC.CODPROD, PC.DESCRICAO, PC.MOTIVO, PC.DATACANC,
+               PC.QT, PC.PVENDA, PC.SUBTOT, F.FANTASIA
+        FROM {schema}.PEDIDOS_CANCELADOS PC
+        LEFT JOIN {schema}.PCPRODUT P ON P.CODPROD = PC.CODPROD
+        LEFT JOIN {schema}.PCFORNEC F ON F.CODFORNEC = P.CODFORNEC
+        WHERE PC.DATACANC >= SYSDATE - {DIAS_JANELA}
     """
 
 
@@ -210,6 +225,10 @@ for (_nome, _eng, _extra, _filiais), _res in zip(_SOURCES, carregar_paralelo(_ch
 _motivo_corte_lookup = {}
 _valor_corte_pedido_lookup = {}
 _motivo_corte_pedido_lookup = {}  # (SISTEMA, NUMPED) -> lista de motivos distintos (todos os produtos)
+# (SISTEMA, NUMPED, CODPROD) -> {desc, pvenda, subtot} — usado só pros "cortes
+# órfãos" (produto cortado 100% no carregamento, nunca vira linha em
+# PBI_PCPEDI pro NUMPED) reconstituírem descrição/valor sem depender da nota.
+_pedcancel_produto_lookup = {}
 _chamadas_motivo_corte = [
     (_query_motivo_corte(_nome), _eng, f"motivo_corte_{_nome}")
     for _nome, _eng, _extra, _filiais in _SOURCES_COM_MOTIVO_CORTE
@@ -236,6 +255,13 @@ for (_nome, _eng, _extra, _filiais), _res in zip(_SOURCES_COM_MOTIVO_CORTE, carr
         _subtot = pd.to_numeric(_row.get('SUBTOT'), errors='coerce')
         if pd.notna(_subtot):
             _valor_corte_pedido_lookup[_chave_pedido] = _valor_corte_pedido_lookup.get(_chave_pedido, 0.0) + float(_subtot)
+        _pvenda_pc = pd.to_numeric(_row.get('PVENDA'), errors='coerce')
+        _pedcancel_produto_lookup[_chave] = {
+            'desc':      str(_row.get('DESCRICAO') or '').strip(),
+            'industria': str(_row.get('FANTASIA') or '').strip(),
+            'pvenda':    float(_pvenda_pc) if pd.notna(_pvenda_pc) else None,
+            'subtot':    float(_subtot) if pd.notna(_subtot) else None,
+        }
 
 # ── Devolução e cancelamento pós-NF (PCMOV), por (SISTEMA, NUMPED, CODPROD) ──
 # Ver _query_status_pos_nf: só traz linha de devolução (CODOPER='ED') ou
@@ -273,6 +299,47 @@ tabela_pedidos['CODFILIAL_NUM'] = pd.to_numeric(tabela_pedidos['CODFILIAL'], err
 tabela_pedidos['DATA_DT']     = pd.to_datetime(tabela_pedidos['DATA'], errors='coerce')
 tabela_pedidos['DATA']        = tabela_pedidos['DATA_DT'].dt.strftime('%d/%m/%Y')
 tabela_pedidos['STATUS']      = tabela_pedidos['STATUS'].fillna('').astype(str).str.strip()
+
+# ── Cortes órfãos: produto cortado 100% no carregamento, nunca chega a virar
+# linha em PBI_PCPEDI pro NUMPED (a nota já sai sem ele) — diferente do corte
+# PARCIAL (QTFALTA/QTCORTADA na própria linha, tratado em _item_pedido). Sem
+# isso, esses produtos ficam em PCCORTEI/PEDIDOS_CANCELADOS mas nunca entram
+# em "Produtos Cortados" nem marcam 'tem_corte' no pedido faturado (bug
+# reportado pelo usuário em 2026-09-17, NUMPED 431001359: 3 produtos com
+# MOTIVO "CORTE TOTAL NO CARREGAMENTO" em PCCORTEI/PEDIDOS_CANCELADOS, mas
+# ausentes das 9 linhas que a nota 432145 tem em PBI_PCPEDI).
+_existing_produtos = {
+    (_sist, int(_np), int(_cp))
+    for _sist, _np, _cp in zip(tabela_pedidos['SISTEMA'], tabela_pedidos['NUMPED'], tabela_pedidos['CODPROD_NUM'])
+    if pd.notna(_np) and pd.notna(_cp)
+}
+_cortes_orfaos_por_pedido: dict = {}  # (SISTEMA, NUMPED) -> [item, ...]
+for (_sist_o, _np_o, _cp_o, _fil_o), _qtd_o in _cortes_lookup.items():
+    if (_sist_o, _np_o, _cp_o) in _existing_produtos:
+        continue
+    _info_o = _pedcancel_produto_lookup.get((_sist_o, _np_o, _cp_o), {})
+    _pvenda_o = _info_o.get('pvenda')
+    _valor_o = _info_o.get('subtot')
+    if _valor_o is None and _pvenda_o is not None:
+        _valor_o = round(_qtd_o * _pvenda_o, 2)
+    _cortes_orfaos_por_pedido.setdefault((_sist_o, _np_o), []).append({
+        'desc':              _info_o.get('desc') or f'Produto {_cp_o}',
+        'industria':         _info_o.get('industria', ''),
+        'qt':                0,
+        'val':               0.0,
+        'qtfalta':           0.0,
+        'qtcortada':         _qtd_o,
+        'qtd_cortada_total': _qtd_o,
+        'qt_original':       _qtd_o,
+        'valor_cortado':     round(_valor_o, 2) if _valor_o is not None else None,
+        'motivo_corte':      _motivo_corte_lookup.get((_sist_o, _np_o, _cp_o), ''),
+        'cortado':           True,
+        'devolvido':         False,
+        'cancelada_pos_nf':  False,
+        'codprod':   _int_s(_cp_o),
+        'codfilial': _fil_o,
+        'pvenda':    round(_pvenda_o, 2) if _pvenda_o is not None else None,
+    })
 
 tabela_pedidos['CIDADE'] = tabela_pedidos['CIDADE_CLIENTE'].fillna('').astype(str).str.strip()
 tabela_pedidos['BAIRRO'] = tabela_pedidos['BAIRRO_CLIENTE'].fillna('').astype(str).str.strip()
@@ -850,7 +917,7 @@ def _agrupar(df, com_status_log=False):
             'itens': [
                 _item_pedido(sistema, numped, row)
                 for _, row in grp.iterrows()
-            ],
+            ] + _cortes_orfaos_por_pedido.get((sistema, int(numped)), []),
         }
         item['tem_corte'] = any(it['cortado'] for it in item['itens'])
         # Valor real cortado do pedido inteiro (soma de PEDIDOS_CANCELADOS.SUBTOT

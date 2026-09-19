@@ -109,7 +109,12 @@ def deploy():
         else:
             print(f"   [skip] {fname} não encontrado")
 
-    ssh_run(client, f"sed -i 's|^ORACLE_LIB=.*|ORACLE_LIB={VPS_ORACLE_LIB}|' {REMOTE_DIR}/.env", check=False)
+    # ".env local usa "ORACLE_LIB = C:\instantclient" (com espaços ao redor
+    # do "=", padrão do arquivo) — o sed antigo exigia "ORACLE_LIB=" colado,
+    # nunca dava match, e o caminho Windows vazava pro Linux em silêncio
+    # (achado real em 2026-09-14: DPI-1047 "cannot open shared object file"
+    # ao abrir Preço Promo, que consulta Oracle).
+    ssh_run(client, f"sed -i -E 's|^ORACLE_LIB[[:space:]]*=.*|ORACLE_LIB={VPS_ORACLE_LIB}|' {REMOTE_DIR}/.env", check=False)
 
     for fname in OPTIONAL_FILES:
         local = HERE / fname

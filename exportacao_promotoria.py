@@ -36,6 +36,7 @@ LOGIN_URL = f"https://{DOMAIN}/web/integracao/api/auth/login"
 GRAPHQL_URL = f"https://{DOMAIN}/graphql"
 
 OUTPUT_PATH = Path(__file__).parent / "promotoria_data.js"
+OUTPUT_PATH_JSON = Path(__file__).parent / "promotoria_data.json"
 
 # ------- parâmetros do relatório -------
 NOME_SUPERVISOR = "DANIEL DINIZ"
@@ -261,8 +262,16 @@ def buscar_referencias_pesquisa(token):
     d = consultar(token, "{ allProwPerguntas { nodes { id descricao } } }")
     refs["pergunta"] = {str(n["id"]): n["descricao"] for n in d["allProwPerguntas"]["nodes"]}
 
-    d = consultar(token, "{ allProwItemAvaliados { nodes { id nome } } }")
-    refs["itemAvaliado"] = {str(n["id"]): n["nome"] for n in d["allProwItemAvaliados"]["nodes"]}
+    # "codigo" é o código interno do próprio Max Promotor pro produto (não é
+    # CODPROD do Winthor) — pedido do usuário em 2026-09-11 pra mostrar junto
+    # da descrição em promotoria.html. Sempre preenchido (diferente de
+    # "codigoReferencia", que parece ser EAN e só existe em ~metade dos
+    # produtos — confirmado testando contra a API real).
+    d = consultar(token, "{ allProwItemAvaliados { nodes { id nome codigo } } }")
+    refs["itemAvaliado"] = {
+        str(n["id"]): {"nome": n["nome"], "codigo": n.get("codigo") or ""}
+        for n in d["allProwItemAvaliados"]["nodes"]
+    }
 
     d = consultar(token, "{ allProwAssuntoPesquisas { nodes { id idAssunto } } }")
     refs["assuntoPesquisa"] = {str(n["id"]): str(n["idAssunto"]) for n in d["allProwAssuntoPesquisas"]["nodes"]}
@@ -399,12 +408,19 @@ def _montar_visitas(pesquisas, tarefas):
     return visitas
 
 
-def _resolver_cidade_bairro_crc(visitas):
+def _resolver_cidade_bairro_crc(linhas, campo_cnpj="cnpj"):
     """Cidade/bairro sempre resolvidos no CRC (PCCLIENT), via CNPJ do PDV —
     pedido do usuário em 2026-08-31 (a cidade própria do Max Promotor fica em
     branco quando o endereço não está cadastrado lá; o CRC é a fonte de
-    verdade)."""
-    cnpjs = {re.sub(r"\D", "", v.get("cnpj") or "") for v in visitas}
+    verdade).
+
+    `campo_cnpj` porque as linhas de pesquisa (payload["pesquisas"]) guardam
+    o CNPJ como "cpf_cnpj_pdv" (nome cru vindo do Max Promotor), enquanto as
+    visitas agregadas (_visita_base) já renomeiam pra "cnpj" — mesmo função,
+    só aponta pro campo certo em cada caso (pedido do usuário em 2026-09-04:
+    CNPJ + cidade também na aba Pesquisas, que até então só ganhava esse
+    enriquecimento na aba Visitas)."""
+    cnpjs = {re.sub(r"\D", "", l.get(campo_cnpj) or "") for l in linhas}
     cnpjs.discard("")
     if not cnpjs:
         return
@@ -428,9 +444,10 @@ def _resolver_cidade_bairro_crc(visitas):
             mapa.update({str(row["CNPJ"]): (row["CIDADE"] or "", row["BAIRRO"] or "") for _, row in df.iterrows()})
         except Exception as e:
             print(f"  [AVISO] busca de cidade/bairro (CRC.PCCLIENT), lote {i // 900 + 1} falhou ({str(e)[:100]}) — fica em branco pra esse lote.")
-    for v in visitas:
-        cidade, bairro = mapa.get(re.sub(r"\D", "", v.get("cnpj") or ""), ("", ""))
-        v["cidade"], v["bairro"] = cidade, bairro
+    for l in linhas:
+        cidade, bairro = mapa.get(re.sub(r"\D", "", l.get(campo_cnpj) or ""), ("", ""))
+        l["cidade"] = cidade
+        l["bairro"] = bairro
 
 
 ANALISE_IA_CACHE_PATH   = Path(__file__).parent / "promotoria_analises_ia.json"
@@ -562,6 +579,17 @@ def _gravar_payload(payload):
     with open(tmp_path, "w", encoding="utf-8") as f:
         f.write(f"const PROMOTORIA_DATA = {json.dumps(payload, ensure_ascii=False, indent=2)};\n")
     os.replace(tmp_path, OUTPUT_PATH)
+
+    # Espelho em JSON puro (sem "const X =" / ";") — pedido do usuário em
+    # 2026-09-08 pra consumir de fora (Power BI via Web/JSON connector, ou
+    # qualquer outra ferramenta que precise de application/json de verdade,
+    # não JS). Precisa constar em deploy_static_vps.py::ALLOWLIST_JSON pra
+    # chegar no site publicado (json não entra no sync por padrão, só html
+    # e js — evita publicar token.json/credentials por engano).
+    tmp_json = OUTPUT_PATH_JSON.with_suffix(".json.tmp")
+    with open(tmp_json, "w", encoding="utf-8") as f:
+        json.dump(payload, f, ensure_ascii=False)
+    os.replace(tmp_json, OUTPUT_PATH_JSON)
 
 
 def main():
@@ -812,9 +840,11 @@ def main():
                             fotos_legendas[f] = assunto
                     valores = valores_por_item.get(str(item["id"]))
                     if valores:
+                        item_avaliado_info = refs["itemAvaliado"].get(iapp.get("itemAvaliadoId"), {})
                         itens_detalhe.append({
                             "assunto": assunto,
-                            "item_avaliado": refs["itemAvaliado"].get(iapp.get("itemAvaliadoId"), ""),
+                            "item_avaliado": item_avaliado_info.get("nome", ""),
+                            "item_avaliado_codigo": item_avaliado_info.get("codigo", ""),
                             "pergunta": refs["pergunta"].get(papq.get("perguntaId"), ""),
                             "resposta": "; ".join(valores),
                         })
@@ -841,6 +871,10 @@ def main():
         )
 
     print(f"OK promotoria_data.js — {len(payload['pesquisas'])} linhas de pesquisa, {len(payload['tarefas'])} linhas de tarefa")
+
+    print("Promotoria: resolvendo cidade/bairro das pesquisas (CRC)...")
+    _resolver_cidade_bairro_crc(payload["pesquisas"], campo_cnpj="cpf_cnpj_pdv")
+    _gravar_payload(payload)
 
     print("Promotoria: agregando visitas (timeline + IA)...")
     visitas = _montar_visitas(payload["pesquisas"], payload["tarefas"])

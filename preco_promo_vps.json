@@ -1,0 +1,1429 @@
+{
+  "produtos": [
+    {
+      "codprod": "663",
+      "descricao": "ESPUM CASA PERINI AQUARELA ROSE 750ML",
+      "regioes": {
+        "RJ": [
+          {
+            "volume_min": 0,
+            "volume_max": 10,
+            "preco": 34.3,
+            "preco_vista": null,
+            "preco_alud": 33.5,
+            "prazo_especial": "Dez: 30d",
+            "limitador": null
+          },
+          {
+            "volume_min": 10,
+            "volume_max": 350,
+            "preco": 33.5,
+            "preco_vista": null,
+            "preco_alud": 32.9,
+            "prazo_especial": "Out: 30/60",
+            "limitador": null
+          },
+          {
+            "volume_min": 350,
+            "volume_max": null,
+            "preco": 32.9,
+            "preco_vista": null,
+            "preco_alud": 32.75,
+            "prazo_especial": "Set: 30/60/90",
+            "limitador": null
+          }
+        ],
+        "SP": [
+          {
+            "volume_min": 0,
+            "volume_max": 100,
+            "preco": 33.5,
+            "preco_vista": null,
+            "preco_alud": 32.9,
+            "prazo_especial": "Out: 30/60",
+            "limitador": null
+          },
+          {
+            "volume_min": 100,
+            "volume_max": null,
+            "preco": 32.9,
+            "preco_vista": null,
+            "preco_alud": 32.75,
+            "prazo_especial": "Set: 30/60/90",
+            "limitador": null
+          }
+        ]
+      },
+      "atualizado_em": "14/09/2026 17:16",
+      "atualizado_por": "leonardo.campos@rigarr.com.br",
+      "fornecedor": "Perini"
+    },
+    {
+      "codprod": "666",
+      "descricao": "ESPUM CASA PERINI BRUT ROSE 750ML",
+      "regioes": {
+        "RJ": [
+          {
+            "volume_min": 0,
+            "volume_max": 10,
+            "preco": 34.3,
+            "preco_vista": null,
+            "preco_alud": 33.5,
+            "prazo_especial": "Dez: 30d",
+            "limitador": null
+          },
+          {
+            "volume_min": 10,
+            "volume_max": 350,
+            "preco": 33.5,
+            "preco_vista": null,
+            "preco_alud": 32.9,
+            "prazo_especial": "Out: 30/60",
+            "limitador": null
+          },
+          {
+            "volume_min": 350,
+            "volume_max": null,
+            "preco": 32.9,
+            "preco_vista": null,
+            "preco_alud": 32.75,
+            "prazo_especial": "Set: 30/60/90",
+            "limitador": null
+          }
+        ],
+        "SP": [
+          {
+            "volume_min": 0,
+            "volume_max": 100,
+            "preco": 33.5,
+            "preco_vista": null,
+            "preco_alud": 32.9,
+            "prazo_especial": "Out: 30/60",
+            "limitador": null
+          },
+          {
+            "volume_min": 100,
+            "volume_max": null,
+            "preco": 32.9,
+            "preco_vista": null,
+            "preco_alud": 32.75,
+            "prazo_especial": "Set: 30/60/90",
+            "limitador": null
+          }
+        ]
+      },
+      "atualizado_em": "14/09/2026 17:16",
+      "atualizado_por": "leonardo.campos@rigarr.com.br",
+      "fornecedor": "Perini"
+    },
+    {
+      "codprod": "2781",
+      "descricao": "ESPUM CASA PERINI MOSCATEL 750ML",
+      "regioes": {
+        "RJ": [
+          {
+            "volume_min": 0,
+            "volume_max": 10,
+            "preco": 34.3,
+            "preco_vista": null,
+            "preco_alud": 33.5,
+            "prazo_especial": "Dez: 30d",
+            "limitador": null
+          },
+          {
+            "volume_min": 10,
+            "volume_max": 350,
+            "preco": 33.5,
+            "preco_vista": null,
+            "preco_alud": 32.9,
+            "prazo_especial": "Out: 30/60",
+            "limitador": null
+          },
+          {
+            "volume_min": 350,
+            "volume_max": null,
+            "preco": 32.9,
+            "preco_vista": null,
+            "preco_alud": 32.75,
+            "prazo_especial": "Set: 30/60/90",
+            "limitador": null
+          }
+        ],
+        "SP": [
+          {
+            "volume_min": 0,
+            "volume_max": 100,
+            "preco": 33.5,
+            "preco_vista": null,
+            "preco_alud": 32.9,
+            "prazo_especial": "Out: 30/60",
+            "limitador": null
+          },
+          {
+            "volume_min": 100,
+            "volume_max": null,
+            "preco": 32.9,
+            "preco_vista": null,
+            "preco_alud": 32.75,
+            "prazo_especial": "Set: 30/60/90",
+            "limitador": null
+          }
+        ]
+      },
+      "atualizado_em": "14/09/2026 17:16",
+      "atualizado_por": "leonardo.campos@rigarr.com.br",
+      "fornecedor": "Perini"
+    },
+    {
+      "codprod": "664",
+      "descricao": "ESPUM CASA PERINI BRUT 750ML",
+      "regioes": {
+        "RJ": [
+          {
+            "volume_min": 0,
+            "volume_max": 10,
+            "preco": 34.3,
+            "preco_vista": null,
+            "preco_alud": 33.5,
+            "prazo_especial": "Dez: 30d",
+            "limitador": null
+          },
+          {
+            "volume_min": 10,
+            "volume_max": 350,
+            "preco": 33.5,
+            "preco_vista": null,
+            "preco_alud": 32.9,
+            "prazo_especial": "Out: 30/60",
+            "limitador": null
+          },
+          {
+            "volume_min": 350,
+            "volume_max": null,
+            "preco": 32.9,
+            "preco_vista": null,
+            "preco_alud": 32.75,
+            "prazo_especial": "Set: 30/60/90",
+            "limitador": null
+          }
+        ],
+        "SP": [
+          {
+            "volume_min": 0,
+            "volume_max": 100,
+            "preco": 33.5,
+            "preco_vista": null,
+            "preco_alud": 32.9,
+            "prazo_especial": "Out: 30/60",
+            "limitador": null
+          },
+          {
+            "volume_min": 100,
+            "volume_max": null,
+            "preco": 32.9,
+            "preco_vista": null,
+            "preco_alud": 32.75,
+            "prazo_especial": "Set: 30/60/90",
+            "limitador": null
+          }
+        ]
+      },
+      "atualizado_em": "14/09/2026 17:16",
+      "atualizado_por": "leonardo.campos@rigarr.com.br",
+      "fornecedor": "Perini"
+    },
+    {
+      "codprod": "665",
+      "descricao": "ESPUM CASA PERINI PROSECCO 750ML",
+      "regioes": {
+        "RJ": [
+          {
+            "volume_min": 0,
+            "volume_max": 10,
+            "preco": 34.3,
+            "preco_vista": null,
+            "preco_alud": 33.5,
+            "prazo_especial": "Dez: 30d",
+            "limitador": null
+          },
+          {
+            "volume_min": 10,
+            "volume_max": 350,
+            "preco": 33.5,
+            "preco_vista": null,
+            "preco_alud": 32.9,
+            "prazo_especial": "Out: 30/60",
+            "limitador": null
+          },
+          {
+            "volume_min": 350,
+            "volume_max": null,
+            "preco": 32.9,
+            "preco_vista": null,
+            "preco_alud": 32.75,
+            "prazo_especial": "Set: 30/60/90",
+            "limitador": null
+          }
+        ],
+        "SP": [
+          {
+            "volume_min": 0,
+            "volume_max": 100,
+            "preco": 33.5,
+            "preco_vista": null,
+            "preco_alud": 32.9,
+            "prazo_especial": "Out: 30/60",
+            "limitador": null
+          },
+          {
+            "volume_min": 100,
+            "volume_max": null,
+            "preco": 32.9,
+            "preco_vista": null,
+            "preco_alud": 32.75,
+            "prazo_especial": "Set: 30/60/90",
+            "limitador": null
+          }
+        ]
+      },
+      "atualizado_em": "14/09/2026 17:16",
+      "atualizado_por": "leonardo.campos@rigarr.com.br",
+      "fornecedor": "Perini"
+    },
+    {
+      "codprod": "2780",
+      "descricao": "ESPUM CASA PERINI ICE ROSE 750ML",
+      "regioes": {
+        "RJ": [
+          {
+            "volume_min": 0,
+            "volume_max": 10,
+            "preco": 34.3,
+            "preco_vista": null,
+            "preco_alud": 33.5,
+            "prazo_especial": "Dez: 30d",
+            "limitador": null
+          },
+          {
+            "volume_min": 10,
+            "volume_max": 350,
+            "preco": 33.5,
+            "preco_vista": null,
+            "preco_alud": 32.9,
+            "prazo_especial": "Out: 30/60",
+            "limitador": null
+          },
+          {
+            "volume_min": 350,
+            "volume_max": null,
+            "preco": 32.9,
+            "preco_vista": null,
+            "preco_alud": 32.75,
+            "prazo_especial": "Set: 30/60/90",
+            "limitador": null
+          }
+        ],
+        "SP": [
+          {
+            "volume_min": 0,
+            "volume_max": 100,
+            "preco": 33.5,
+            "preco_vista": null,
+            "preco_alud": 32.9,
+            "prazo_especial": "Out: 30/60",
+            "limitador": null
+          },
+          {
+            "volume_min": 100,
+            "volume_max": null,
+            "preco": 32.9,
+            "preco_vista": null,
+            "preco_alud": 32.75,
+            "prazo_especial": "Set: 30/60/90",
+            "limitador": null
+          }
+        ]
+      },
+      "atualizado_em": "14/09/2026 17:16",
+      "atualizado_por": "leonardo.campos@rigarr.com.br",
+      "fornecedor": "Perini"
+    },
+    {
+      "codprod": "667",
+      "descricao": "ESPUM CASA PERINI DEMI-SEC 750ML",
+      "regioes": {
+        "RJ": [
+          {
+            "volume_min": 0,
+            "volume_max": 10,
+            "preco": 34.3,
+            "preco_vista": null,
+            "preco_alud": 33.5,
+            "prazo_especial": "Dez: 30d",
+            "limitador": null
+          },
+          {
+            "volume_min": 10,
+            "volume_max": 350,
+            "preco": 33.5,
+            "preco_vista": null,
+            "preco_alud": 32.9,
+            "prazo_especial": "Out: 30/60",
+            "limitador": null
+          },
+          {
+            "volume_min": 350,
+            "volume_max": null,
+            "preco": 32.9,
+            "preco_vista": null,
+            "preco_alud": 32.75,
+            "prazo_especial": "Set: 30/60/90",
+            "limitador": null
+          }
+        ],
+        "SP": [
+          {
+            "volume_min": 0,
+            "volume_max": 100,
+            "preco": 33.5,
+            "preco_vista": null,
+            "preco_alud": 32.9,
+            "prazo_especial": "Out: 30/60",
+            "limitador": null
+          },
+          {
+            "volume_min": 100,
+            "volume_max": null,
+            "preco": 32.9,
+            "preco_vista": null,
+            "preco_alud": 32.75,
+            "prazo_especial": "Set: 30/60/90",
+            "limitador": null
+          }
+        ]
+      },
+      "atualizado_em": "14/09/2026 17:16",
+      "atualizado_por": "leonardo.campos@rigarr.com.br",
+      "fornecedor": "Perini"
+    },
+    {
+      "codprod": "3319",
+      "descricao": "ESPUM CASA PERINI ICE 750ML",
+      "regioes": {
+        "RJ": [
+          {
+            "volume_min": 0,
+            "volume_max": 10,
+            "preco": 34.3,
+            "preco_vista": null,
+            "preco_alud": 33.5,
+            "prazo_especial": "Dez: 30d",
+            "limitador": null
+          },
+          {
+            "volume_min": 10,
+            "volume_max": 350,
+            "preco": 33.5,
+            "preco_vista": null,
+            "preco_alud": 32.9,
+            "prazo_especial": "Out: 30/60",
+            "limitador": null
+          },
+          {
+            "volume_min": 350,
+            "volume_max": null,
+            "preco": 32.9,
+            "preco_vista": null,
+            "preco_alud": 32.75,
+            "prazo_especial": "Set: 30/60/90",
+            "limitador": null
+          }
+        ],
+        "SP": [
+          {
+            "volume_min": 0,
+            "volume_max": 100,
+            "preco": 33.5,
+            "preco_vista": null,
+            "preco_alud": 32.9,
+            "prazo_especial": "Out: 30/60",
+            "limitador": null
+          },
+          {
+            "volume_min": 100,
+            "volume_max": null,
+            "preco": 32.9,
+            "preco_vista": null,
+            "preco_alud": 32.75,
+            "prazo_especial": "Set: 30/60/90",
+            "limitador": null
+          }
+        ]
+      },
+      "atualizado_em": "14/09/2026 17:16",
+      "atualizado_por": "leonardo.campos@rigarr.com.br",
+      "fornecedor": "Perini"
+    },
+    {
+      "codprod": "582",
+      "descricao": "VODKA BELVEDERE 700 ML",
+      "regioes": {
+        "GERAL": [
+          {
+            "volume_min": 0,
+            "volume_max": null,
+            "preco": 114.0,
+            "preco_vista": 108.9,
+            "prazo_especial": null,
+            "limitador": "CURVA A"
+          }
+        ]
+      },
+      "atualizado_em": "14/09/2026 17:02",
+      "atualizado_por": "leonardo.campos@rigarr.com.br",
+      "fornecedor": "LVMH"
+    },
+    {
+      "codprod": "4688",
+      "descricao": "CHANDON GARDEN SPRITZ 750 ML",
+      "regioes": {
+        "GERAL": [
+          {
+            "volume_min": 0,
+            "volume_max": null,
+            "preco": 70.5,
+            "preco_vista": 66.9,
+            "prazo_especial": null,
+            "limitador": "CURVA A"
+          }
+        ]
+      },
+      "atualizado_em": "14/09/2026 17:02",
+      "atualizado_por": "leonardo.campos@rigarr.com.br",
+      "fornecedor": "LVMH"
+    },
+    {
+      "codprod": "4641",
+      "descricao": "CHANDON BRUT ROSE 750ML C/CARTUCH- DEST",
+      "regioes": {
+        "GERAL": [
+          {
+            "volume_min": 0,
+            "volume_max": null,
+            "preco": 74.9,
+            "preco_vista": 69.9,
+            "prazo_especial": null,
+            "limitador": "CURVA A"
+          }
+        ]
+      },
+      "atualizado_em": "14/09/2026 17:02",
+      "atualizado_por": "leonardo.campos@rigarr.com.br",
+      "fornecedor": "LVMH"
+    },
+    {
+      "codprod": "3766",
+      "descricao": "CHANDON PASSION ON ICE 750 ML",
+      "regioes": {
+        "GERAL": [
+          {
+            "volume_min": 0,
+            "volume_max": null,
+            "preco": 71.0,
+            "preco_vista": 67.0,
+            "prazo_especial": null,
+            "limitador": "CURVA A"
+          }
+        ]
+      },
+      "atualizado_em": "14/09/2026 17:02",
+      "atualizado_por": "leonardo.campos@rigarr.com.br",
+      "fornecedor": "LVMH"
+    },
+    {
+      "codprod": "796",
+      "descricao": "DOM PERIGNON VINTAGE LUMINOUS 750 ML",
+      "regioes": {
+        "GERAL": [
+          {
+            "volume_min": 0,
+            "volume_max": null,
+            "preco": 1372.5,
+            "preco_vista": 1314.0,
+            "prazo_especial": null,
+            "limitador": "CURVA A"
+          }
+        ]
+      },
+      "atualizado_em": "14/09/2026 17:02",
+      "atualizado_por": "leonardo.campos@rigarr.com.br",
+      "fornecedor": "LVMH"
+    },
+    {
+      "codprod": "2306",
+      "descricao": "DOM PERIGNON VINTAGE 750 ML",
+      "regioes": {
+        "GERAL": [
+          {
+            "volume_min": 0,
+            "volume_max": null,
+            "preco": 1273.5,
+            "preco_vista": 1229.0,
+            "prazo_especial": null,
+            "limitador": "CURVA A"
+          }
+        ]
+      },
+      "atualizado_em": "14/09/2026 17:02",
+      "atualizado_por": "leonardo.campos@rigarr.com.br",
+      "fornecedor": "LVMH"
+    },
+    {
+      "codprod": "3794",
+      "descricao": "HENNESSY VERY SPECIAL 700 ML",
+      "regioes": {
+        "GERAL": [
+          {
+            "volume_min": 0,
+            "volume_max": null,
+            "preco": 154.9,
+            "preco_vista": 147.9,
+            "prazo_especial": null,
+            "limitador": "CURVA A"
+          }
+        ]
+      },
+      "atualizado_em": "14/09/2026 17:02",
+      "atualizado_por": "leonardo.campos@rigarr.com.br",
+      "fornecedor": "LVMH"
+    },
+    {
+      "codprod": "3780",
+      "descricao": "HENNESSY VSOP 700 ML",
+      "regioes": {
+        "GERAL": [
+          {
+            "volume_min": 0,
+            "volume_max": null,
+            "preco": 319.9,
+            "preco_vista": 304.9,
+            "prazo_especial": null,
+            "limitador": "CURVA A"
+          }
+        ]
+      },
+      "atualizado_em": "14/09/2026 17:02",
+      "atualizado_por": "leonardo.campos@rigarr.com.br",
+      "fornecedor": "LVMH"
+    },
+    {
+      "codprod": "4308",
+      "descricao": "HENNESSY X.O. 700 ML",
+      "regioes": {
+        "GERAL": [
+          {
+            "volume_min": 0,
+            "volume_max": null,
+            "preco": 1294.5,
+            "preco_vista": 1239.0,
+            "prazo_especial": null,
+            "limitador": "CURVA A"
+          }
+        ]
+      },
+      "atualizado_em": "14/09/2026 17:02",
+      "atualizado_por": "leonardo.campos@rigarr.com.br",
+      "fornecedor": "LVMH"
+    },
+    {
+      "codprod": "2270",
+      "descricao": "M DE MINUTY 750ML",
+      "regioes": {
+        "GERAL": [
+          {
+            "volume_min": 0,
+            "volume_max": null,
+            "preco": 96.9,
+            "preco_vista": 92.9,
+            "prazo_especial": null,
+            "limitador": "CURVA A"
+          }
+        ]
+      },
+      "atualizado_em": "14/09/2026 17:02",
+      "atualizado_por": "leonardo.campos@rigarr.com.br",
+      "fornecedor": "LVMH"
+    },
+    {
+      "codprod": "3825",
+      "descricao": "MOET ICE BRUT IMPERIAL 750ML",
+      "regioes": {
+        "GERAL": [
+          {
+            "volume_min": 0,
+            "volume_max": null,
+            "preco": 359.5,
+            "preco_vista": 342.9,
+            "prazo_especial": null,
+            "limitador": "CURVA A"
+          }
+        ]
+      },
+      "atualizado_em": "14/09/2026 17:02",
+      "atualizado_por": "leonardo.campos@rigarr.com.br",
+      "fornecedor": "LVMH"
+    },
+    {
+      "codprod": "5116",
+      "descricao": "MOET ICE CHANDON ROSE IMPERIAL 750ML",
+      "regioes": {
+        "GERAL": [
+          {
+            "volume_min": 0,
+            "volume_max": null,
+            "preco": 359.5,
+            "preco_vista": 342.9,
+            "prazo_especial": null,
+            "limitador": "CURVA A"
+          }
+        ]
+      },
+      "atualizado_em": "14/09/2026 17:02",
+      "atualizado_por": "leonardo.campos@rigarr.com.br",
+      "fornecedor": "LVMH"
+    },
+    {
+      "codprod": "4773",
+      "descricao": "MOET ROSE IMPERIAL 750 ML C/ CARTUCHO",
+      "regioes": {
+        "GERAL": [
+          {
+            "volume_min": 0,
+            "volume_max": null,
+            "preco": 371.5,
+            "preco_vista": 355.0,
+            "prazo_especial": null,
+            "limitador": "CURVA A"
+          }
+        ]
+      },
+      "atualizado_em": "14/09/2026 17:02",
+      "atualizado_por": "leonardo.campos@rigarr.com.br",
+      "fornecedor": "LVMH"
+    },
+    {
+      "codprod": "4373",
+      "descricao": "RUINART BLANC DE BLANCS C/ CARTUCHO",
+      "regioes": {
+        "GERAL": [
+          {
+            "volume_min": 0,
+            "volume_max": null,
+            "preco": 526.9,
+            "preco_vista": 504.9,
+            "prazo_especial": null,
+            "limitador": "CURVA A"
+          }
+        ]
+      },
+      "atualizado_em": "14/09/2026 17:02",
+      "atualizado_por": "leonardo.campos@rigarr.com.br",
+      "fornecedor": "LVMH"
+    },
+    {
+      "codprod": "3120",
+      "descricao": "CHAMPANHE RUINART ROSE 750ML",
+      "regioes": {
+        "GERAL": [
+          {
+            "volume_min": 0,
+            "volume_max": null,
+            "preco": 526.9,
+            "preco_vista": 504.9,
+            "prazo_especial": null,
+            "limitador": "CURVA A"
+          }
+        ]
+      },
+      "atualizado_em": "14/09/2026 17:02",
+      "atualizado_por": "leonardo.campos@rigarr.com.br",
+      "fornecedor": "LVMH"
+    },
+    {
+      "codprod": "228",
+      "descricao": "VEUVE CLICQUOT BRUT 750 ML",
+      "regioes": {
+        "GERAL": [
+          {
+            "volume_min": 0,
+            "volume_max": null,
+            "preco": 321.5,
+            "preco_vista": 308.9,
+            "prazo_especial": null,
+            "limitador": "CURVA A"
+          }
+        ]
+      },
+      "atualizado_em": "14/09/2026 17:02",
+      "atualizado_por": "leonardo.campos@rigarr.com.br",
+      "fornecedor": "LVMH"
+    },
+    {
+      "codprod": "774",
+      "descricao": "VEUVE CLICQUOT ROSE 750 ML",
+      "regioes": {
+        "GERAL": [
+          {
+            "volume_min": 0,
+            "volume_max": null,
+            "preco": 396.5,
+            "preco_vista": 379.9,
+            "prazo_especial": null,
+            "limitador": "CURVA A"
+          }
+        ]
+      },
+      "atualizado_em": "14/09/2026 17:02",
+      "atualizado_por": "leonardo.campos@rigarr.com.br",
+      "fornecedor": "LVMH"
+    },
+    {
+      "codprod": "4824",
+      "descricao": "LICOR BALLENA CHOCOLATE E CARAMELO 750ML",
+      "regioes": {
+        "GERAL": [
+          {
+            "volume_min": 0,
+            "volume_max": null,
+            "preco": 90.9,
+            "preco_vista": null,
+            "prazo_especial": null,
+            "limitador": "12 GARRAFAS POR CNPJ"
+          }
+        ]
+      },
+      "atualizado_em": "14/09/2026 16:58",
+      "atualizado_por": "leonardo.campos@rigarr.com.br"
+    },
+    {
+      "codprod": "5120",
+      "descricao": "LICOR BALLENA COCO 750ML",
+      "regioes": {
+        "GERAL": [
+          {
+            "volume_min": 0,
+            "volume_max": null,
+            "preco": 90.9,
+            "preco_vista": null,
+            "prazo_especial": null,
+            "limitador": "12 GARRAFAS POR CNPJ"
+          }
+        ]
+      },
+      "atualizado_em": "14/09/2026 16:58",
+      "atualizado_por": "leonardo.campos@rigarr.com.br"
+    },
+    {
+      "codprod": "3054",
+      "descricao": "LICOR BALLENA MORANGO 750 ML",
+      "regioes": {
+        "GERAL": [
+          {
+            "volume_min": 0,
+            "volume_max": null,
+            "preco": 95.9,
+            "preco_vista": null,
+            "prazo_especial": null,
+            "limitador": "12 GARRAFAS POR CNPJ"
+          }
+        ]
+      },
+      "atualizado_em": "14/09/2026 16:58",
+      "atualizado_por": "leonardo.campos@rigarr.com.br"
+    },
+    {
+      "codprod": "16",
+      "descricao": "VODCA SMIRNOFF RED 998 ML",
+      "regioes": {
+        "GERAL": [
+          {
+            "volume_min": 0,
+            "volume_max": null,
+            "preco": 24.5,
+            "preco_vista": null,
+            "prazo_especial": null,
+            "limitador": "OTI"
+          }
+        ]
+      },
+      "atualizado_em": "14/09/2026 16:58",
+      "atualizado_por": "leonardo.campos@rigarr.com.br"
+    },
+    {
+      "codprod": "3433",
+      "descricao": "SMIRNOFF RED PET 1750 ML",
+      "regioes": {
+        "GERAL": [
+          {
+            "volume_min": 0,
+            "volume_max": null,
+            "preco": 34.5,
+            "preco_vista": null,
+            "prazo_especial": null,
+            "limitador": "OTI"
+          }
+        ]
+      },
+      "atualizado_em": "14/09/2026 16:58",
+      "atualizado_por": "leonardo.campos@rigarr.com.br"
+    },
+    {
+      "codprod": "20",
+      "descricao": "WHISKY J WALKER GOLD LABEL RESERVE 750ML",
+      "regioes": {
+        "GERAL": [
+          {
+            "volume_min": 0,
+            "volume_max": null,
+            "preco": 204.9,
+            "preco_vista": null,
+            "prazo_especial": null,
+            "limitador": "OTI"
+          }
+        ]
+      },
+      "atualizado_em": "14/09/2026 16:58",
+      "atualizado_por": "leonardo.campos@rigarr.com.br"
+    },
+    {
+      "codprod": "674",
+      "descricao": "GIN GORDONS 750 ML",
+      "regioes": {
+        "GERAL": [
+          {
+            "volume_min": 0,
+            "volume_max": null,
+            "preco": 49.9,
+            "preco_vista": null,
+            "prazo_especial": null,
+            "limitador": "OTI"
+          }
+        ]
+      },
+      "atualizado_em": "14/09/2026 16:58",
+      "atualizado_por": "leonardo.campos@rigarr.com.br"
+    },
+    {
+      "codprod": "266",
+      "descricao": "GIN TANQUERAY  750 ML",
+      "regioes": {
+        "GERAL": [
+          {
+            "volume_min": 0,
+            "volume_max": null,
+            "preco": 89.9,
+            "preco_vista": null,
+            "prazo_especial": null,
+            "limitador": "OTI"
+          }
+        ]
+      },
+      "atualizado_em": "14/09/2026 16:58",
+      "atualizado_por": "leonardo.campos@rigarr.com.br"
+    },
+    {
+      "codprod": "449",
+      "descricao": "WHISKY J WALKER BLACK LABEL 1L",
+      "regioes": {
+        "GERAL": [
+          {
+            "volume_min": 0,
+            "volume_max": null,
+            "preco": 149.9,
+            "preco_vista": null,
+            "prazo_especial": null,
+            "limitador": "OTI"
+          }
+        ]
+      },
+      "atualizado_em": "14/09/2026 16:58",
+      "atualizado_por": "leonardo.campos@rigarr.com.br"
+    },
+    {
+      "codprod": "18",
+      "descricao": "WHISKY BUCHANANS 12 YEARS 1000 ML",
+      "regioes": {
+        "GERAL": [
+          {
+            "volume_min": 0,
+            "volume_max": null,
+            "preco": 159.9,
+            "preco_vista": null,
+            "prazo_especial": null,
+            "limitador": "OTI"
+          }
+        ]
+      },
+      "atualizado_em": "14/09/2026 16:58",
+      "atualizado_por": "leonardo.campos@rigarr.com.br"
+    },
+    {
+      "codprod": "1757",
+      "descricao": "VODCA BAM CIROC RED BERRY 750 ML",
+      "regioes": {
+        "GERAL": [
+          {
+            "volume_min": 0,
+            "volume_max": null,
+            "preco": 129.9,
+            "preco_vista": null,
+            "prazo_especial": null,
+            "limitador": "OTI"
+          }
+        ]
+      },
+      "atualizado_em": "14/09/2026 16:58",
+      "atualizado_por": "leonardo.campos@rigarr.com.br"
+    },
+    {
+      "codprod": "4477",
+      "descricao": "GIN TANQUERAY BOSSA NOVA 700 ML",
+      "regioes": {
+        "GERAL": [
+          {
+            "volume_min": 0,
+            "volume_max": null,
+            "preco": 89.9,
+            "preco_vista": null,
+            "prazo_especial": null,
+            "limitador": "OTI"
+          }
+        ]
+      },
+      "atualizado_em": "14/09/2026 16:58",
+      "atualizado_por": "leonardo.campos@rigarr.com.br"
+    },
+    {
+      "codprod": "19",
+      "descricao": "WHISKY J WALKER BLUE LABEL 750 ML",
+      "regioes": {
+        "GERAL": [
+          {
+            "volume_min": 0,
+            "volume_max": null,
+            "preco": 999.9,
+            "preco_vista": null,
+            "prazo_especial": null,
+            "limitador": "OTD"
+          }
+        ]
+      },
+      "atualizado_em": "14/09/2026 16:58",
+      "atualizado_por": "leonardo.campos@rigarr.com.br"
+    },
+    {
+      "codprod": "2344",
+      "descricao": "TEQUILA DON JULIO BLANCO 750ML",
+      "regioes": {
+        "GERAL": [
+          {
+            "volume_min": 0,
+            "volume_max": null,
+            "preco": 159.9,
+            "preco_vista": null,
+            "prazo_especial": null,
+            "limitador": "OTD"
+          }
+        ]
+      },
+      "atualizado_em": "14/09/2026 16:58",
+      "atualizado_por": "leonardo.campos@rigarr.com.br"
+    },
+    {
+      "codprod": "302",
+      "descricao": "VODKA CIROC 750 ML",
+      "regioes": {
+        "GERAL": [
+          {
+            "volume_min": 0,
+            "volume_max": null,
+            "preco": 139.9,
+            "preco_vista": null,
+            "prazo_especial": null,
+            "limitador": "OTD"
+          }
+        ]
+      },
+      "atualizado_em": "14/09/2026 16:58",
+      "atualizado_por": "leonardo.campos@rigarr.com.br"
+    },
+    {
+      "codprod": "313",
+      "descricao": "WHISKY J. WALKER RED LABEL 1L",
+      "regioes": {
+        "GERAL": [
+          {
+            "volume_min": 0,
+            "volume_max": null,
+            "preco": 65.9,
+            "preco_vista": null,
+            "prazo_especial": null,
+            "limitador": "OTI"
+          }
+        ]
+      },
+      "atualizado_em": "14/09/2026 16:58",
+      "atualizado_por": "leonardo.campos@rigarr.com.br"
+    },
+    {
+      "codprod": "11",
+      "descricao": "ESPUMANTE CHANDON RESERVE BRUT 750ML",
+      "regioes": {
+        "RJ": [
+          {
+            "volume_min": 0,
+            "volume_max": 50,
+            "preco": 74.9,
+            "preco_vista": 63.9,
+            "preco_alud": null,
+            "prazo_especial": null,
+            "limitador": null
+          },
+          {
+            "volume_min": 50,
+            "volume_max": null,
+            "preco": 68.9,
+            "preco_vista": null,
+            "preco_alud": null,
+            "prazo_especial": "Set: 30/60/90",
+            "limitador": null
+          }
+        ],
+        "SP": [
+          {
+            "volume_min": 0,
+            "volume_max": 50,
+            "preco": 74.9,
+            "preco_vista": 63.9,
+            "preco_alud": null,
+            "prazo_especial": null,
+            "limitador": null
+          },
+          {
+            "volume_min": 50,
+            "volume_max": null,
+            "preco": 68.9,
+            "preco_vista": null,
+            "preco_alud": null,
+            "prazo_especial": "Set: 30/60/90",
+            "limitador": null
+          }
+        ]
+      },
+      "fornecedor": "Moet Hennessy",
+      "atualizado_em": "14/09/2026 17:16",
+      "atualizado_por": "leonardo.campos@rigarr.com.br"
+    },
+    {
+      "codprod": "7779",
+      "descricao": "CERESER MACA 24X275ML",
+      "regioes": {
+        "GERAL": [
+          {
+            "volume_min": 0,
+            "volume_max": 10,
+            "preco": 120.36,
+            "preco_vista": null,
+            "preco_alud": null,
+            "prazo_especial": null,
+            "limitador": null
+          },
+          {
+            "volume_min": 10,
+            "volume_max": 78,
+            "preco": 115.44,
+            "preco_vista": null,
+            "preco_alud": null,
+            "prazo_especial": null,
+            "limitador": null
+          },
+          {
+            "volume_min": 78,
+            "volume_max": null,
+            "preco": 110.64,
+            "preco_vista": null,
+            "preco_alud": null,
+            "prazo_especial": null,
+            "limitador": "Acima de 1 palete (78 cxs)"
+          }
+        ]
+      },
+      "fornecedor": "CRS Brands",
+      "atualizado_em": "14/09/2026 17:41",
+      "atualizado_por": "leonardo.campos@rigarr.com.br"
+    },
+    {
+      "codprod": "7778",
+      "descricao": "CERESER MACA VERDE 24X275ML",
+      "regioes": {
+        "GERAL": [
+          {
+            "volume_min": 0,
+            "volume_max": 10,
+            "preco": 120.36,
+            "preco_vista": null,
+            "preco_alud": null,
+            "prazo_especial": null,
+            "limitador": null
+          },
+          {
+            "volume_min": 10,
+            "volume_max": 78,
+            "preco": 115.44,
+            "preco_vista": null,
+            "preco_alud": null,
+            "prazo_especial": null,
+            "limitador": null
+          },
+          {
+            "volume_min": 78,
+            "volume_max": null,
+            "preco": 110.64,
+            "preco_vista": null,
+            "preco_alud": null,
+            "prazo_especial": null,
+            "limitador": "Acima de 1 palete (78 cxs)"
+          }
+        ]
+      },
+      "fornecedor": "CRS Brands",
+      "atualizado_em": "14/09/2026 17:41",
+      "atualizado_por": "leonardo.campos@rigarr.com.br"
+    },
+    {
+      "codprod": "5487",
+      "descricao": "CERESER MACA ZERO S/ALCOOL 24X275ML",
+      "regioes": {
+        "GERAL": [
+          {
+            "volume_min": 0,
+            "volume_max": 10,
+            "preco": 120.36,
+            "preco_vista": null,
+            "preco_alud": null,
+            "prazo_especial": null,
+            "limitador": null
+          },
+          {
+            "volume_min": 10,
+            "volume_max": 78,
+            "preco": 115.44,
+            "preco_vista": null,
+            "preco_alud": null,
+            "prazo_especial": null,
+            "limitador": null
+          },
+          {
+            "volume_min": 78,
+            "volume_max": null,
+            "preco": 110.64,
+            "preco_vista": null,
+            "preco_alud": null,
+            "prazo_especial": null,
+            "limitador": "Acima de 1 palete (78 cxs)"
+          }
+        ]
+      },
+      "fornecedor": "CRS Brands",
+      "atualizado_em": "14/09/2026 17:42",
+      "atualizado_por": "leonardo.campos@rigarr.com.br"
+    },
+    {
+      "codprod": "5498",
+      "descricao": "CERESER MACA VERDE S/ALCOOL 24X275ML",
+      "regioes": {
+        "GERAL": [
+          {
+            "volume_min": 0,
+            "volume_max": null,
+            "preco": 119.49,
+            "preco_vista": null,
+            "preco_alud": null,
+            "prazo_especial": null,
+            "limitador": null
+          }
+        ]
+      },
+      "fornecedor": "CRS Brands",
+      "atualizado_em": "14/09/2026 17:42",
+      "atualizado_por": "leonardo.campos@rigarr.com.br"
+    },
+    {
+      "codprod": "5494",
+      "descricao": "ESPUMANTE GEORGES AUBERT BRUT 750ML",
+      "regioes": {
+        "GERAL": [
+          {
+            "volume_min": 0,
+            "volume_max": null,
+            "preco": 55.17,
+            "preco_vista": null,
+            "preco_alud": null,
+            "prazo_especial": null,
+            "limitador": null
+          }
+        ]
+      },
+      "fornecedor": "CRS Brands",
+      "atualizado_em": "14/09/2026 17:42",
+      "atualizado_por": "leonardo.campos@rigarr.com.br"
+    },
+    {
+      "codprod": "5495",
+      "descricao": "ESPUMANTE GEORGES AUBERT DEMI 750ML",
+      "regioes": {
+        "GERAL": [
+          {
+            "volume_min": 0,
+            "volume_max": null,
+            "preco": 55.17,
+            "preco_vista": null,
+            "preco_alud": null,
+            "prazo_especial": null,
+            "limitador": null
+          }
+        ]
+      },
+      "fornecedor": "CRS Brands",
+      "atualizado_em": "14/09/2026 17:42",
+      "atualizado_por": "leonardo.campos@rigarr.com.br"
+    },
+    {
+      "codprod": "5496",
+      "descricao": "ESPUMANTE GEORGES AUBERT MOSCATEL 750ML",
+      "regioes": {
+        "GERAL": [
+          {
+            "volume_min": 0,
+            "volume_max": null,
+            "preco": 51.15,
+            "preco_vista": null,
+            "preco_alud": null,
+            "prazo_especial": null,
+            "limitador": null
+          }
+        ]
+      },
+      "fornecedor": "CRS Brands",
+      "atualizado_em": "14/09/2026 17:42",
+      "atualizado_por": "leonardo.campos@rigarr.com.br"
+    },
+    {
+      "codprod": "5497",
+      "descricao": "ESPUMANTE GEORGES AUBERT ROSE BRUT 750ML",
+      "regioes": {
+        "GERAL": [
+          {
+            "volume_min": 0,
+            "volume_max": null,
+            "preco": 53.16,
+            "preco_vista": null,
+            "preco_alud": null,
+            "prazo_especial": null,
+            "limitador": null
+          }
+        ]
+      },
+      "fornecedor": "CRS Brands",
+      "atualizado_em": "14/09/2026 17:42",
+      "atualizado_por": "leonardo.campos@rigarr.com.br"
+    },
+    {
+      "codprod": "5817",
+      "descricao": "CELEBRATE SIDRA ALCOOLICA 660ML V2020",
+      "regioes": {
+        "GERAL": [
+          {
+            "volume_min": 0,
+            "volume_max": 56,
+            "preco": 108.36,
+            "preco_vista": null,
+            "preco_alud": null,
+            "prazo_especial": null,
+            "limitador": null
+          },
+          {
+            "volume_min": 56,
+            "volume_max": null,
+            "preco": 102.36,
+            "preco_vista": null,
+            "preco_alud": null,
+            "prazo_especial": null,
+            "limitador": "Para palete (56 cxs)"
+          }
+        ]
+      },
+      "fornecedor": "CRS Brands",
+      "atualizado_em": "14/09/2026 17:42",
+      "atualizado_por": "leonardo.campos@rigarr.com.br"
+    },
+    {
+      "codprod": "5818",
+      "descricao": "CHUVA DE PRATA ROSE 660ML",
+      "regioes": {
+        "GERAL": [
+          {
+            "volume_min": 0,
+            "volume_max": 56,
+            "preco": 167.64,
+            "preco_vista": null,
+            "preco_alud": null,
+            "prazo_especial": null,
+            "limitador": null
+          },
+          {
+            "volume_min": 56,
+            "volume_max": null,
+            "preco": 165.0,
+            "preco_vista": null,
+            "preco_alud": null,
+            "prazo_especial": null,
+            "limitador": "Para palete (56 cxs)"
+          }
+        ]
+      },
+      "fornecedor": "CRS Brands",
+      "atualizado_em": "14/09/2026 17:42",
+      "atualizado_por": "leonardo.campos@rigarr.com.br"
+    },
+    {
+      "codprod": "5819",
+      "descricao": "CERESER SIDRA 660ML",
+      "regioes": {
+        "GERAL": [
+          {
+            "volume_min": 0,
+            "volume_max": 56,
+            "preco": 179.64,
+            "preco_vista": null,
+            "preco_alud": null,
+            "prazo_especial": null,
+            "limitador": null
+          },
+          {
+            "volume_min": 56,
+            "volume_max": null,
+            "preco": 174.84,
+            "preco_vista": null,
+            "preco_alud": null,
+            "prazo_especial": null,
+            "limitador": "Para palete (56 cxs)"
+          }
+        ]
+      },
+      "fornecedor": "CRS Brands",
+      "atualizado_em": "14/09/2026 17:42",
+      "atualizado_por": "leonardo.campos@rigarr.com.br"
+    }
+  ]
+}

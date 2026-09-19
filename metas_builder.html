@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<script src="vps_redirect.js"></script>
+<script src="auth.js"></script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Construção de Metas</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  :root {
+    --bg: #0f1117; --card: #1a1d27; --card2: #21242f; --accent: #f5c518;
+    --text: #e2e8f0; --muted: #94a3b8; --border: #2d3144;
+    --green: #22c55e; --red: #ef4444; --blue: #60a5fa; --purple: #c084fc;
+  }
+  body {
+    background: var(--bg); color: var(--text);
+    font-family: 'Segoe UI', system-ui, sans-serif;
+    padding: 24px; max-width: 1200px; margin: 0 auto;
+  }
+  header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 24px; flex-wrap: wrap; gap: 12px; }
+  header h1 { font-size: 1.3rem; color: var(--accent); }
+  header p { font-size: .8rem; color: var(--muted); margin-top: 3px; }
+  a.voltar { color: var(--muted); font-size: .8rem; text-decoration: none; }
+  a.voltar:hover { color: var(--text); }
+
+  .estado-toggle { display: flex; gap: 6px; background: var(--card); border: 1px solid var(--border); border-radius: 10px; padding: 4px; }
+  .estado-toggle button {
+    background: transparent; color: var(--muted); border: none; border-radius: 7px;
+    padding: 7px 18px; font-size: .85rem; font-weight: 700; cursor: pointer; font-family: inherit;
+  }
+  .estado-toggle button.ativo { background: var(--accent); color: #111; }
+
+  .card { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 20px; margin-bottom: 18px; }
+  .card h2 { font-size: 1rem; margin-bottom: 4px; }
+  .card .sub { font-size: .78rem; color: var(--muted); margin-bottom: 16px; }
+
+  select, input[type=number], input[type=text] {
+    background: var(--bg); border: 1px solid var(--border); color: var(--text);
+    border-radius: 6px; padding: 6px 10px; font-size: .85rem; font-family: inherit; outline: none;
+  }
+  select:focus, input:focus { border-color: var(--accent); }
+
+  table { width: 100%; border-collapse: collapse; font-size: .82rem; }
+  thead th {
+    text-align: left; padding: 8px 10px; font-size: .7rem; text-transform: uppercase;
+    letter-spacing: .04em; color: var(--muted); border-bottom: 1px solid var(--border); white-space: nowrap;
+  }
+  tbody td { padding: 8px 10px; border-bottom: 1px solid var(--border); vertical-align: middle; }
+  tbody tr:hover { background: var(--card2); }
+  .num { text-align: right; font-variant-numeric: tabular-nums; }
+  .badge { font-size: .68rem; padding: 2px 8px; border-radius: 20px; font-weight: 700; white-space: nowrap; }
+  .badge-0 { background: rgba(96,165,250,.15); color: var(--blue); }
+  .badge-1 { background: rgba(245,197,24,.15); color: var(--accent); }
+
+  .cat-row { padding: 14px 0; border-bottom: 1px solid var(--border); }
+  .cat-row:last-child { border-bottom: none; }
+  .cat-row .rotulo { font-weight: 600; margin-bottom: 10px; }
+  .cat-row .rotulo .hint { display: block; font-size: .7rem; color: var(--muted); font-weight: 400; margin-top: 2px; }
+  .escopos-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; }
+  .escopo-bloco { background: var(--bg); border: 1px solid var(--border); border-radius: 8px; padding: 10px; opacity: .45; transition: opacity .15s; }
+  .escopo-bloco.ativo { opacity: 1; border-color: var(--accent); }
+  .escopo-bloco .escopo-topo { display: flex; align-items: center; gap: 6px; margin-bottom: 8px; font-size: .78rem; font-weight: 700; }
+  .escopo-bloco select { width: 100%; margin-bottom: 6px; }
+  .modo-fixo, .modo-media { display: flex; gap: 6px; align-items: center; flex-wrap: wrap; }
+  .modo-fixo input[type=number] { width: 100%; }
+  .modo-media input[type=number] { width: 46px; }
+  .modo-media input[type=text] { width: 100%; margin-top: 6px; }
+  .modo-media { font-size: .76rem; color: var(--muted); }
+  .campo-oculto { display: none !important; }
+
+  button {
+    font-family: inherit; font-size: .85rem; font-weight: 700; border: none; border-radius: 8px;
+    padding: 9px 18px; cursor: pointer; transition: opacity .15s;
+  }
+  button:hover { opacity: .88; }
+  button:disabled { opacity: .45; cursor: wait; }
+  .btn-primary { background: var(--accent); color: #111; }
+  .btn-secondary { background: var(--card2); color: var(--text); border: 1px solid var(--border); }
+  .btn-green { background: var(--green); color: #0b1a10; }
+
+  .acoes { display: flex; gap: 10px; margin-top: 16px; flex-wrap: wrap; align-items: center; }
+  .msg { font-size: .8rem; margin-top: 10px; min-height: 18px; }
+  .msg.erro { color: var(--red); }
+  .msg.ok { color: var(--green); }
+
+  .empty { text-align: center; padding: 30px; color: var(--muted); font-size: .85rem; }
+
+  .input-moeda {
+    display: inline-flex; align-items: center; gap: 4px; width: 100%; min-width: 120px;
+    border: 1px solid transparent; border-radius: 6px; padding: 0 6px;
+  }
+  .input-moeda:hover { border-color: var(--border); }
+  .input-moeda:focus-within { border-color: var(--accent); background: var(--bg); }
+  .input-moeda .prefixo { font-size: .78rem; color: var(--muted); }
+  input.meta-input {
+    flex: 1; min-width: 70px; text-align: right; font-variant-numeric: tabular-nums;
+    background: transparent; border: none; border-radius: 6px;
+    padding: 4px 2px; font-size: .82rem; font-family: inherit; color: var(--text); outline: none;
+  }
+  input.meta-input.editado { color: var(--accent); font-weight: 700; }
+</style>
+</head>
+<body>
+
+<header>
+  <div>
+    <h1>🎯 Construção de Metas</h1>
+    <p id="header-sub">Define a meta por gestão e rateia entre os RCAs conforme o histórico realizado.</p>
+  </div>
+  <div style="display:flex;align-items:center;gap:14px">
+    <div class="estado-toggle">
+      <button id="btn-estado-RJ" class="ativo" onclick="selecionarEstado('RJ')">RJ</button>
+      <button id="btn-estado-SP" onclick="selecionarEstado('SP')">SP</button>
+    </div>
+    <a class="voltar" href="index.html">← Painel</a>
+  </div>
+</header>
+
+<div class="card">
+  <h2>1. Gestões</h2>
+  <div class="sub" id="rcas-sub">Carregando...</div>
+  <div style="overflow-x:auto">
+    <table id="tabela-rcas">
+      <thead>
+        <tr id="rcas-head">
+          <th>Gestão</th><th class="num">RCAs</th>
+          <th class="num">Média Fat./mês</th><th class="num">Média Pos./mês</th>
+          <th class="num" id="th-referencia" hidden>Fat. mês ref.</th><th class="num">Cobertura base</th>
+        </tr>
+      </thead>
+      <tbody id="tbody-rcas"><tr><td colspan="6" class="empty">Carregando...</td></tr></tbody>
+    </table>
+  </div>
+</div>
+
+<div class="card" id="review-wrap">
+  <h2>2. Metas atuais — meta por gestão</h2>
+  <div class="sub" id="review-sub">Carregando o último plano salvo...</div>
+  <div style="display:flex;align-items:center;gap:8px;margin-bottom:14px;flex-wrap:wrap">
+    <label for="sel-cenario" style="font-size:.78rem;color:var(--muted);white-space:nowrap">Cenário:</label>
+    <select id="sel-cenario" onchange="_selecionarCenario(this.value)" style="min-width:280px"></select>
+    <a id="link-exportar-cenario" href="#" class="btn-secondary" style="text-decoration:none;padding:6px 14px;border-radius:6px;font-size:.78rem;display:none">⬇ Excel (por RCA, p/ colar na planilha)</a>
+    <button class="btn-secondary" id="btn-exportar-csv" onclick="_exportarVisualizadoCSV()" style="padding:6px 14px;font-size:.78rem;display:none">⬇ CSV (igual à tela, por gestão)</button>
+  </div>
+  <div style="overflow-x:auto">
+    <table id="tabela-review">
+      <thead><tr id="review-head"></tr></thead>
+      <tbody id="tbody-review"></tbody>
+    </table>
+  </div>
+  <div class="acoes">
+    <button class="btn-green" id="btn-salvar-ajustes" onclick="_salvarAjustes()" disabled>💾 Salvar ajustes</button>
+    <button class="btn-secondary" id="btn-descartar-ajustes" onclick="_descartarAjustes()" disabled>↩ Descartar edições</button>
+    <span class="msg" id="review-msg"></span>
+  </div>
+</div>
+
+<div class="card">
+  <h2>3. Planos salvos</h2>
+  <div class="sub" id="planos-sub">Baixe o Excel pronto pra colar na planilha oficial — a ferramenta não grava no Drive automaticamente.</div>
+  <div style="overflow-x:auto">
+    <table>
+      <thead><tr><th>Cenário</th><th>Criado em</th><th>Estado</th><th>Mês</th><th>Exportar</th></tr></thead>
+      <tbody id="tbody-planos"><tr><td colspan="5" class="empty">Carregando...</td></tr></tbody>
+    </table>
+  </div>
+</div>
+
+<script>
+const API = '/api/metas-builder';
+
+// Rótulo de cada grupo por estado — ids batem com o "GRUPO" que o backend
+// devolve (metas_builder_api.py::ESTADOS). Estado inteiro é sempre um
+// escopo extra ("estado"), não listado aqui.
+const GRUPO_ROTULO = {
+  allan: 'Só Allan', interior: 'Só Interior',
+  marcus: 'Só Marcus', ws: 'Só W.S',
+};
+const GRUPO_ROTULO_CURTO = { allan: 'Allan', interior: 'Interior', marcus: 'Marcus', ws: 'W.S' };
+
+// Grupos vêm do backend (GET /rcas) — nada mais fica hardcoded aqui, porque
+// RJ e SP têm times diferentes (pedido do usuário em 2026-09-04: filtro
+// RJ/SP que troca os vendedores conforme o estado selecionado).
+//
+// Sem formulário de categoria na tela (pedido do usuário em 2026-09-04:
+// "não precisa disso" / "mostrar as metas já com esse estudo") — pra
+// calcular um cenário novo do zero ainda é por fora (script/API), depois
+// salva com POST /salvar (com "rotulo" pra identificar o cenário) e ele
+// aparece no filtro. A partir daqui (2026-09-08, "crie cenários, e coloca
+// um filtro pra eu escolher") a página lista TODOS os planos salvos num
+// <select> (GET /planos) e busca o escolhido por GET /plano?plano_id= —
+// não fica mais travada no mais recente. Editar valores na tela e salvar
+// (_salvarAjustes) também cria um cenário novo, não sobrescreve o atual.
+let ESTADO = 'RJ';
+let GRUPOS = [];
+let RCAS = [];
+
+function _fmtBRL(v) {
+  if (v == null) return '—';
+  return 'R$ ' + Number(v).toLocaleString('pt-BR', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+}
+function _fmtNum(v, casas = 0) {
+  if (v == null) return '—';
+  return Number(v).toLocaleString('pt-BR', { minimumFractionDigits: casas, maximumFractionDigits: casas });
+}
+function _fmtPorUnidade(v, unidade) {
+  return unidade === 'numero' ? _fmtNum(v, 0) : _fmtBRL(v);
+}
+function _esc(s) {
+  const d = document.createElement('div');
+  d.textContent = s ?? '';
+  return d.innerHTML;
+}
+function _badgeClasse(grupo) {
+  return 'badge-' + (GRUPOS.indexOf(grupo) === 1 ? '1' : '0');
+}
+
+async function selecionarEstado(estado) {
+  if (estado === ESTADO) return;
+  ESTADO = estado;
+  document.getElementById('btn-estado-RJ').classList.toggle('ativo', estado === 'RJ');
+  document.getElementById('btn-estado-SP').classList.toggle('ativo', estado === 'SP');
+  await Promise.all([_carregarRcas(), _carregarCenarios()]);
+  _carregarPlanos();
+}
+
+async function _carregarRcas() {
+  try {
+    const resp = await fetch(`${API}/rcas?estado=${ESTADO}&meses=3`);
+    const dados = await resp.json();
+    if (!dados.ok) throw new Error(dados.motivo || 'erro desconhecido');
+    RCAS = dados.rcas;
+    GRUPOS = dados.grupos;
+    document.getElementById('rcas-sub').textContent =
+      `${RCAS.length} RCA(s) ativos (BLOQUEIO=N) — média dos últimos ${dados.meses_considerados.join(', ')}` +
+      (dados.mes_referencia_ano_anterior ? ` (mesmo mês do ano anterior, ${dados.mes_referencia_ano_anterior}, mostrado à parte — não entra na média/rateio).` : '.');
+    document.getElementById('th-referencia').textContent = dados.mes_referencia_ano_anterior ? `Fat. ${dados.mes_referencia_ano_anterior}` : 'Fat. mês ref.';
+
+    // Agregado por TIME, não por vendedor (pedido do usuário em 2026-09-08,
+    // repetido: "não precisa sair os vendedores" — primeiro na seção 2,
+    // agora aqui também).
+    const porGrupo = {};
+    const ordem = [];
+    RCAS.forEach(r => {
+      const g = r.grupo || '—';
+      if (!porGrupo[g]) {
+        porGrupo[g] = { grupo: g, n: 0, fat: 0, pos: 0, ref: 0, temRef: false, cadastrados: 0, carteira: 0 };
+        ordem.push(g);
+      }
+      const acc = porGrupo[g];
+      acc.n += 1;
+      acc.fat += Number(r.media_fat_mensal) || 0;
+      acc.pos += Number(r.media_pos_mensal) || 0;
+      if (r.fat_mes_referencia != null) { acc.ref += Number(r.fat_mes_referencia) || 0; acc.temRef = true; }
+      if (r.cobertura) { acc.cadastrados += r.cobertura.cadastrados || 0; acc.carteira += r.cobertura.carteira || 0; }
+    });
+    // Coluna "Fat. mês ref." some se NENHUM time tem esse dado (mesmo
+    // pedido de 2026-09-08 aplicado aqui também: "remover as colunas que
+    // não tem valor").
+    const algumTemRef = ordem.some(g => porGrupo[g].temRef);
+    document.getElementById('th-referencia').hidden = !algumTemRef;
+    document.getElementById('tbody-rcas').innerHTML = ordem.map(g => {
+      const acc = porGrupo[g];
+      const covPct = acc.carteira ? (100 * acc.cadastrados / acc.carteira).toFixed(1) : null;
+      return `
+      <tr>
+        <td><span class="badge ${_badgeClasse(acc.grupo)}">${_esc(GRUPO_ROTULO_CURTO[acc.grupo] || acc.grupo)}</span></td>
+        <td class="num">${acc.n}</td>
+        <td class="num">${_fmtBRL(acc.fat)}</td>
+        <td class="num">${_fmtNum(acc.pos, 1)}</td>
+        ${algumTemRef ? `<td class="num">${acc.temRef ? _fmtBRL(acc.ref) : '—'}</td>` : ''}
+        <td class="num">${covPct != null ? covPct + '% (' + acc.cadastrados + '/' + acc.carteira + ')' : '—'}</td>
+      </tr>`;
+    }).join('');
+  } catch (e) {
+    document.getElementById('rcas-sub').textContent = 'Falha ao carregar: ' + e.message;
+    document.getElementById('tbody-rcas').innerHTML = '<tr><td colspan="6" class="empty">Erro ao carregar.</td></tr>';
+  }
+}
+
+// Plano carregado do servidor (referência pra comparar edição x original,
+// descartar, e reenviar categorias/mes_referencia inalterados no /salvar).
+let PLANO_ATUAL = null;
+let CATS_ATUAL = [];
+
+// Rótulo do cenário no <select> — usa "rotulo" se o plano foi salvo com um
+// (pedido do usuário em 2026-09-08: "crie cenários, e coloca um filtro pra
+// eu escolher"), senão cai em criado_em + mês, igual mostrava antes.
+function _rotuloCenario(p) {
+  if (p.rotulo) return p.rotulo;
+  return p.criado_em + (p.mes_referencia ? ` — ${p.mes_referencia}` : '');
+}
+
+async function _carregarCenarios() {
+  const sel = document.getElementById('sel-cenario');
+  try {
+    const resp = await fetch(`${API}/planos?estado=${ESTADO}`);
+    const dados = await resp.json();
+    if (!dados.ok || !dados.planos.length) {
+      sel.innerHTML = '<option value="">— nenhum plano salvo —</option>';
+      PLANO_ATUAL = null;
+      document.getElementById('review-sub').textContent = 'Nenhum plano salvo ainda pra esse estado.';
+      document.getElementById('review-head').innerHTML = '';
+      document.getElementById('tbody-review').innerHTML = '';
+      document.getElementById('link-exportar-cenario').style.display = 'none';
+      document.getElementById('btn-exportar-csv').style.display = 'none';
+      _atualizarBotoesAjuste();
+      return;
+    }
+    // Mais recente primeiro (backend já ordena assim) — fica selecionado
+    // por padrão ao trocar de estado ou carregar a página.
+    sel.innerHTML = dados.planos.map(p => `<option value="${p.id}">${_esc(_rotuloCenario(p))}</option>`).join('');
+    await _selecionarCenario(dados.planos[0].id);
+  } catch (e) {
+    document.getElementById('review-sub').textContent = 'Falha ao carregar cenários: ' + e.message;
+  }
+}
+
+async function _selecionarCenario(planoId) {
+  if (!planoId) return;
+  const sub = document.getElementById('review-sub');
+  sub.textContent = 'Carregando cenário...';
+  try {
+    const resp = await fetch(`${API}/plano?plano_id=${encodeURIComponent(planoId)}`);
+    const dados = await resp.json();
+    if (!dados.ok) throw new Error(dados.motivo || 'erro desconhecido');
+    document.getElementById('sel-cenario').value = planoId;
+    sub.textContent = `${_esc(_rotuloCenario(dados.plano))} — clique num valor pra editar.`;
+    PLANO_ATUAL = dados.plano;
+    _renderReview(dados.plano);
+    const linkExportar = document.getElementById('link-exportar-cenario');
+    linkExportar.href = `${API}/exportar?plano_id=${encodeURIComponent(planoId)}`;
+    linkExportar.style.display = 'inline-block';
+    document.getElementById('btn-exportar-csv').style.display = 'inline-block';
+  } catch (e) {
+    sub.textContent = 'Falha ao carregar: ' + e.message;
+  }
+}
+
+// Visão por TIME, não por vendedor (pedido do usuário em 2026-09-08: "não
+// precisa considerar dividir as metas por vendedor... os vendedores no
+// link" — RCA por RCA continua existindo por baixo, no rateio_por_rca que
+// é salvo/exportado pro Excel oficial, só não aparece mais na tela). Cada
+// linha da tabela é um grupo (Allan, Interior etc.); editar o total do
+// grupo e salvar redistribui proporcionalmente pelos RCAs desse grupo,
+// preservando a mesma razão entre eles (ver _salvarAjustes).
+let GRUPOS_ATUAL = []; // [{grupo, rcas: [rca,...]}] — pra redistribuir no salvar
+
+function _renderReview(dados) {
+  // Uma categoria pode ter vindo de 2+ entradas (ex: Faturamento com bloco
+  // Allan E bloco Interior ativos ao mesmo tempo) — cada RCA só recebe
+  // valor de UMA delas (conjuntos de RCA disjuntos), então uma coluna só
+  // por id já mostra o valor certo de cada linha.
+  const porId = {};
+  dados.categorias.forEach(c => {
+    (porId[c.id] = porId[c.id] || { rotulo: c.rotulo, unidade: c.unidade, partes: [] }).partes.push(c);
+  });
+  const cats = Object.entries(porId).map(([id, info]) => ({ id, ...info }));
+  CATS_ATUAL = cats;
+
+  const gruposOrdem = [];
+  const porGrupo = {};
+  dados.rateio_por_rca.forEach(r => {
+    const g = r.grupo || '—';
+    if (!porGrupo[g]) { porGrupo[g] = { grupo: g, rcas: [], valores: {} }; gruposOrdem.push(g); }
+    porGrupo[g].rcas.push(r.rca);
+    cats.forEach(c => {
+      if (r[c.id] != null) porGrupo[g].valores[c.id] = (porGrupo[g].valores[c.id] || 0) + Number(r[c.id]);
+    });
+  });
+  GRUPOS_ATUAL = gruposOrdem.map(g => porGrupo[g]);
+
+  // Coluna some se NENHUM time tem valor nela (pedido do usuário em
+  // 2026-09-08: "remover as colunas que não tem valor") — acontece com
+  // cenário antigo salvo só com Faturamento, por exemplo (categorias
+  // adicionadas depois, tipo Positivação/Castas, não existem nesse plano).
+  const catsComValor = cats.filter(c => GRUPOS_ATUAL.some(g => g.valores[c.id] != null));
+  CATS_ATUAL = catsComValor;
+
+  document.getElementById('review-head').innerHTML =
+    '<th>Gestão</th><th>RCAs</th>' + catsComValor.map(c => `<th class="num">${_esc(c.rotulo)}</th>`).join('');
+  document.getElementById('tbody-review').innerHTML = GRUPOS_ATUAL.map(g => `
+    <tr data-grupo="${_esc(g.grupo)}">
+      <td><span class="badge ${_badgeClasse(g.grupo)}">${_esc(GRUPO_ROTULO_CURTO[g.grupo] || g.grupo)}</span></td>
+      <td class="num">${g.rcas.length}</td>
+      ${catsComValor.map(c => g.valores[c.id] != null
+          ? `<td class="num"><span class="input-moeda">${c.unidade === 'numero' ? '' : '<span class="prefixo">R$</span>'}<input class="meta-input" type="number" step="${c.unidade === 'numero' ? '1' : '0.01'}"
+               data-grupo="${_esc(g.grupo)}" data-cat="${_esc(c.id)}" data-original="${g.valores[c.id]}" value="${Math.round(g.valores[c.id] * 100) / 100}"
+               oninput="_onEditarCelula(this)"></span></td>`
+          : '<td class="num">—</td>'
+      ).join('')}
+    </tr>
+  `).join('') + `
+    <tr style="font-weight:700;border-top:2px solid var(--border)">
+      <td colspan="2">Total (${ESTADO})</td>
+      ${catsComValor.map(c => `<td class="num">${_fmtPorUnidade(GRUPOS_ATUAL.reduce((s, g) => s + (g.valores[c.id] || 0), 0), c.unidade)}</td>`).join('')}
+    </tr>
+  `;
+  _atualizarBotoesAjuste();
+}
+
+function _onEditarCelula(input) {
+  const original = Number(input.dataset.original);
+  const atual = Number(input.value);
+  input.classList.toggle('editado', Math.abs(atual - original) > 0.005);
+  _atualizarBotoesAjuste();
+}
+
+function _haEdicoes() {
+  return !!document.querySelector('input.meta-input.editado');
+}
+
+function _atualizarBotoesAjuste() {
+  const tem = _haEdicoes();
+  document.getElementById('btn-salvar-ajustes').disabled = !tem;
+  document.getElementById('btn-descartar-ajustes').disabled = !tem;
+}
+
+function _descartarAjustes() {
+  if (!PLANO_ATUAL) return;
+  _renderReview(PLANO_ATUAL);
+  document.getElementById('review-msg').textContent = '';
+  document.getElementById('review-msg').className = 'msg';
+}
+
+async function _salvarAjustes() {
+  if (!PLANO_ATUAL) return;
+  const btn = document.getElementById('btn-salvar-ajustes');
+  const msg = document.getElementById('review-msg');
+  btn.disabled = true;
+  msg.className = 'msg';
+  msg.textContent = 'Salvando...';
+  try {
+    // Editei o TOTAL do grupo, não o RCA — pra manter o rateio_por_rca
+    // (usado no Excel exportado) coerente, distribuo o novo total pelos
+    // RCAs do grupo na MESMA proporção que já tinham entre si (fator =
+    // novo_total / total_original_do_grupo). Sem edição nessa categoria
+    // pro grupo, fator fica 1 (nada muda).
+    const fatores = {}; // fatores[grupo][catId] = multiplicador
+    GRUPOS_ATUAL.forEach(g => {
+      fatores[g.grupo] = {};
+      CATS_ATUAL.forEach(c => {
+        const input = document.querySelector(`input.meta-input[data-grupo="${CSS.escape(g.grupo)}"][data-cat="${CSS.escape(c.id)}"]`);
+        const original = g.valores[c.id];
+        if (!input || original == null || original === 0) { fatores[g.grupo][c.id] = 1; return; }
+        fatores[g.grupo][c.id] = (Number(input.value) || 0) / original;
+      });
+    });
+    const casas = c => c.unidade === 'numero' ? 0 : 2;
+    const rateio = PLANO_ATUAL.rateio_por_rca.map(rOriginal => {
+      const linha = { ...rOriginal };
+      const fatorGrupo = fatores[rOriginal.grupo] || {};
+      CATS_ATUAL.forEach(c => {
+        if (rOriginal[c.id] != null) {
+          const bruto = rOriginal[c.id] * (fatorGrupo[c.id] ?? 1);
+          const mult = Math.pow(10, casas(c));
+          linha[c.id] = Math.round(bruto * mult) / mult;
+        }
+      });
+      return linha;
+    });
+    // categorias[].valor_total é só o alvo que o CÁLCULO original mirou —
+    // depois de editar na mão, o total de verdade é a soma do rateio; sem
+    // atualizar aqui, o valor_total ficava velho (bug real, achado em
+    // 2026-09-08: usuário editou Faturamento do Allan pra 2,8MM mas o
+    // valor_total salvo continuava em 1,86MM, o número calculado antes).
+    const categoriasAtualizadas = PLANO_ATUAL.categorias.map(cOriginal => {
+      const fator = (fatores[cOriginal.escopo] || {})[cOriginal.id];
+      if (fator == null) return cOriginal;
+      return { ...cOriginal, valor_total: Math.round(cOriginal.valor_total * fator * 100) / 100 };
+    });
+    // Rótulo ganha "(editado)" só uma vez, mesmo salvando várias vezes
+    // seguidas (bug real: virava "(editado) (editado) (editado)...").
+    const rotuloBase = (PLANO_ATUAL.rotulo || _rotuloCenario(PLANO_ATUAL)).replace(/ \(editado\)$/, '');
+    const resp = await fetch(`${API}/salvar`, {
+      method: 'POST', headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        estado: ESTADO, mes_referencia: PLANO_ATUAL.mes_referencia,
+        rotulo: `${rotuloBase} (editado)`,
+        categorias: categoriasAtualizadas, rateio_por_rca: rateio,
+      }),
+    });
+    const dados = await resp.json();
+    if (!dados.ok) throw new Error(dados.motivo || 'erro desconhecido');
+    msg.className = 'msg ok';
+    msg.textContent = 'Ajustes salvos como novo cenário.';
+    await _carregarCenarios();
+    _carregarPlanos();
+  } catch (e) {
+    msg.className = 'msg erro';
+    msg.textContent = 'Falha ao salvar: ' + e.message;
+    btn.disabled = false;
+  }
+}
+
+// Exporta exatamente a tabela da tela (por gestão, não por RCA) — pedido
+// do usuário em 2026-09-08: "exportar igual ao que é vizualizado". O Excel
+// por RCA (link ao lado) continua existindo à parte, pra colar na
+// planilha oficial — esse CSV é só pra levar o resumo pra fora da
+// ferramenta (e-mail, apresentação etc.).
+function _exportarVisualizadoCSV() {
+  if (!GRUPOS_ATUAL.length || !CATS_ATUAL.length) return;
+  const csvEsc = v => `"${String(v ?? '').replace(/"/g, '""')}"`;
+  // Mesmo formato pt-BR da tela (vírgula decimal, R$) — não o número cru
+  // em JS, que sai com ponto (bug real, achado em 2026-09-08: Excel/pt-BR
+  // lê ponto como separador de milhar, não decimal, distorcendo o valor).
+  const fmt = (v, c) => v != null ? _fmtPorUnidade(v, c.unidade) : '';
+  const header = ['Gestão', 'RCAs', ...CATS_ATUAL.map(c => c.rotulo)];
+  const linhas = [header];
+  GRUPOS_ATUAL.forEach(g => {
+    linhas.push([
+      GRUPO_ROTULO_CURTO[g.grupo] || g.grupo, g.rcas.length,
+      ...CATS_ATUAL.map(c => fmt(g.valores[c.id], c)),
+    ]);
+  });
+  linhas.push([
+    `Total (${ESTADO})`, GRUPOS_ATUAL.reduce((s, g) => s + g.rcas.length, 0),
+    ...CATS_ATUAL.map(c => fmt(GRUPOS_ATUAL.reduce((s, g) => s + (g.valores[c.id] || 0), 0), c)),
+  ]);
+  const csv = linhas.map(l => l.map(csvEsc).join(',')).join('\r\n');
+  const blob = new Blob(['﻿' + csv], { type: 'text/csv;charset=utf-8' });
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = `metas_${ESTADO.toLowerCase()}_${(PLANO_ATUAL?.mes_referencia || 'plano').replace('/', '-')}.csv`;
+  a.click();
+  URL.revokeObjectURL(a.href);
+}
+
+async function _carregarPlanos() {
+  document.getElementById('planos-sub').textContent =
+    `Baixe o Excel pronto pra colar na METAS ${ESTADO}.xlsx oficial — a ferramenta não grava no Drive automaticamente.`;
+  try {
+    const resp = await fetch(`${API}/planos?estado=${ESTADO}`);
+    const dados = await resp.json();
+    if (!dados.ok || !dados.planos.length) {
+      document.getElementById('tbody-planos').innerHTML = '<tr><td colspan="5" class="empty">Nenhum plano salvo ainda.</td></tr>';
+      return;
+    }
+    document.getElementById('tbody-planos').innerHTML = dados.planos.map(p => `
+      <tr>
+        <td>${_esc(p.rotulo || '—')}</td><td>${_esc(p.criado_em)}</td><td>${_esc(p.estado)}</td><td>${_esc(p.mes_referencia || '—')}</td>
+        <td><a href="${API}/exportar?plano_id=${encodeURIComponent(p.id)}" class="btn-secondary" style="text-decoration:none;display:inline-block;padding:5px 12px;border-radius:6px;font-size:.78rem">⬇ Excel</a></td>
+      </tr>
+    `).join('');
+  } catch (e) {
+    document.getElementById('tbody-planos').innerHTML = '<tr><td colspan="5" class="empty">Erro ao carregar planos.</td></tr>';
+  }
+}
+
+(async function init() {
+  await Promise.all([_carregarRcas(), _carregarCenarios()]);
+  _carregarPlanos();
+})();
+</script>
+</body>
+</html>
