@@ -139,9 +139,9 @@ def _migrar():
                       ("out_fonte", "TEXT"), ("out_raio", "REAL"), ("out_status", "TEXT")):
         if col not in tem:
             c.execute(f"ALTER TABLE visitas ADD COLUMN {col} {tipo}")
-    if c.execute("PRAGMA user_version").fetchone()[0] < 2:
-        c.execute("DELETE FROM geocache")                      # v2: geocodificação passou a usar número e CEP
-        c.execute("PRAGMA user_version = 2")
+    if c.execute("PRAGMA user_version").fetchone()[0] < 3:
+        c.execute("DELETE FROM geocache")                      # v3: geocodificação passou a usar número, CEP e complemento
+        c.execute("PRAGMA user_version = 3")
     c.commit()
     c.close()
 
@@ -322,6 +322,17 @@ def _s(v):
     return "" if v is None or v != v else str(v).strip()
 
 
+_COMPL_LIXO = {"", "S/C", "SC", "-", ".", "..", "0", "N/A", "NAO TEM", "NÃO TEM", "SEM COMPLEMENTO", "NULL"}
+
+
+def _compl_util(c):
+    """Complemento que descreve o lugar (loja 110, sala 302, QD 31 LT 32). Descarta 'S/C', '.', '-'."""
+    c = (c or "").strip()
+    if c.upper() in _COMPL_LIXO or len(c) < 2 or c.upper().startswith(("CONTATO", "FALAR COM", "TEL")):   # nome/telefone, não é lugar
+        return ""
+    return c
+
+
 def _carregar_lojas():
     import meta
     df = meta.carregar_dados(
@@ -341,7 +352,7 @@ def _carregar_lojas():
         cu = None if r.CODUSUR1 is None or r.CODUSUR1 != r.CODUSUR1 else int(r.CODUSUR1)
         out.append({"codcli": int(r.CODCLI), "nome": _s(r.FANTASIA) or _s(r.CLIENTE),
                     "razao": _s(r.CLIENTE),
-                    "endereco": " · ".join(x for x in ((_s(r.ENDERENT) + (", " + _s(r.NUMEROENT) if _s(r.NUMEROENT) and _s(r.NUMEROENT).upper() not in ("S/N", "SN", "0") else "")).strip(", "), _s(r.BAIRROENT)) if x),
+                    "endereco": " · ".join(x for x in ((_s(r.ENDERENT) + (", " + _s(r.NUMEROENT) if _s(r.NUMEROENT) and _s(r.NUMEROENT).upper() not in ("S/N", "SN", "0") else "")).strip(", "), _compl_util(_s(r.COMPLEMENTOENT)), _s(r.BAIRROENT)) if x),
                     "cidade": _s(r.MUNICENT) + ("/" + _s(r.ESTENT) if _s(r.ESTENT) else ""),
                     "rua": _s(r.ENDERENT), "numero": _s(r.NUMEROENT), "complemento": _s(r.COMPLEMENTOENT), "cep": _s(r.CEPENT), "bairro": _s(r.BAIRROENT), "municipio": _s(r.MUNICENT), "uf": _s(r.ESTENT),
                     "lat": lat, "lng": lng, "codusur": cu, "vendedor": vend.get(cu, "")})
@@ -437,7 +448,12 @@ def geocodificar(l):
     if num and re.search(rf"(?<!\d){re.escape(num)}(?!\d)", rua):                        # número já está no logradouro
         num = ""
     cep = re.sub(r"\D", "", l.get("cep") or "")
+    compl = _compl_util(l.get("complemento"))
+    if not re.search(r"\b(QD|QUADRA|LT|LOTE|BLOCO|BL|KM|CASA|CS)\b", compl.upper()):
+        compl = ""                                            # 'LOJA 110', 'SL 302', nomes: não ajudam o geocodificador
     tentativas = []
+    if rua and compl and not num:                             # endereço rural/loteamento: 'ESTRADA X, QD 31 LT 32'
+        tentativas.append((f"{rua}, {compl}, {bairro}, {mun}, {uf}, Brasil", None))
     if rua and num:
         tentativas.append((f"{rua}, {num}, {bairro}, {mun}, {uf}, Brasil", None))
         tentativas.append((f"{rua}, {num}, {mun}, {uf}, Brasil", None))
