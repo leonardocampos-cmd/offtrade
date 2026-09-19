@@ -194,6 +194,7 @@ function iniciarGPS() {
   segurarTela();
   watchId = navigator.geolocation.watchPosition(p => {
     S.gps = { lat: p.coords.latitude, lng: p.coords.longitude, acc: p.coords.accuracy };
+    if (window._me) window._me.setLatLng([S.gps.lat, S.gps.lng]);
     const dt = Date.now() - ultPing.t, mv = Math.hypot(S.gps.lat - ultPing.lat, S.gps.lng - ultPing.lng) * 111000;
     const el = $('#gpsdot'); if (el) el.className = 'dot ok';
     if (dt > 60000 || (mv > 50 && dt > 15000)) {
@@ -233,7 +234,7 @@ function iniciar() {
 }
 
 /* ═════════ PROMOTOR ═════════ */
-const abasP = [['hoje', '🗺️', 'Minha rota'], ['visita', '✅', 'Visita atual']];
+const abasP = [['hoje', '📋', 'Minha rota'], ['mapa', '🗺️', 'Mapa'], ['visita', '✅', 'Visita atual']];
 let visitaAtual = null;
 const P = {
   async hoje() {
@@ -250,6 +251,34 @@ const P = {
     if (d.extras.length) h += `<p class="mut">Visitas fora da rota hoje</p>` + d.extras.map(v => `<div class="card row between"><span>${esc(v.loja_nome)}</span>${est(v)}</div>`).join('');
     h += `<button class="sec full" onclick="visitaAvulsa()">＋ Visitar loja fora da rota</button>`;
     shell('Minha rota', esc(S.nome) + ' · ' + fmtD(d.data), h, abasP);
+  },
+  async mapa(tentativa = 0) {
+    const d = await api('/eu/hoje'); visitaAtual = d.aberta;
+    const cor = v => !v ? '#64748b' : v.out_ts ? '#22c55e' : '#3b82f6';
+    const sem = d.rota.filter(l => !l.ref);
+    shell('Mapa da rota', esc(S.nome) + ' · ' + fmtD(d.data),
+      `<div id="map" style="height:62vh"></div><div class="row wrap mut" style="gap:14px;margin-bottom:8px"><span><span class="dot" style="background:#64748b"></span> pendente</span><span><span class="dot" style="background:#3b82f6"></span> em andamento</span><span><span class="dot" style="background:#22c55e"></span> concluída</span><span>┅ pino tracejado = local aproximado</span></div>
+       ${sem.length ? `<div class="card mut">📍 ${sem.length} loja(s) ainda sem ponto no mapa (localizando pelo endereço): ${sem.map(l => esc(l.nome)).join(', ')}</div>` : ''}
+       ${!d.rota.length ? '<div class="card mut">Nenhuma rota definida para hoje.</div>' : ''}`, abasP);
+    const m = L.map('map', { zoomControl: true }).setView([-22.9, -43.2], 11);
+    L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', { attribution: '© OpenStreetMap', maxZoom: 19 }).addTo(m);
+    const pts = [];
+    d.rota.filter(l => l.ref).forEach(l => {
+      const aprox = l.ref.fonte === 'bairro' || l.ref.fonte === 'rua';
+      const ic = L.divIcon({ className: '', iconSize: [32, 32], iconAnchor: [16, 16],
+        html: `<div style="width:32px;height:32px;border-radius:50%;background:${cor(l.visita)};color:#fff;font-weight:700;display:flex;align-items:center;justify-content:center;border:3px ${aprox ? 'dashed' : 'solid'} #fff;box-shadow:0 2px 8px #0008">${l.ordem}</div>` });
+      const st = !l.visita ? 'Pendente' : l.visita.out_ts ? 'Concluída ' + fmtH(l.visita.in_ts) + '–' + fmtH(l.visita.out_ts) : 'Em andamento desde ' + fmtH(l.visita.in_ts);
+      L.marker([l.ref.lat, l.ref.lng], { icon: ic }).addTo(m).bindPopup(
+        `<b>${esc(l.ordem)}. ${esc(l.nome)}</b><br>${esc(l.endereco)} ${esc(l.cidade)}<br><i>${st}</i>${aprox ? '<br><small>Ponto aproximado (' + esc(FONTE[l.ref.fonte]) + ')</small>' : ''}
+         <div style="margin-top:8px;display:flex;gap:6px">${!l.visita ? `<button onclick="fazerCheckin(${l.codcli},'${esc(jsq(l.nome))}',this)" style="padding:6px 10px;min-height:0;font-size:13px">Check-in</button>` : ''}
+         <a href="https://www.google.com/maps/dir/?api=1&destination=${l.ref.lat},${l.ref.lng}" target="_blank" style="padding:6px 10px;background:#273449;color:#fff;border-radius:9px;font-size:13px;text-decoration:none">Como chegar</a></div>`);
+      pts.push([l.ref.lat, l.ref.lng]);
+    });
+    if (pts.length > 1) L.polyline(pts, { color: '#3b82f6', weight: 3, opacity: .55, dashArray: '6 8' }).addTo(m);
+    window._me = null;
+    if (S.gps) { window._me = L.circleMarker([S.gps.lat, S.gps.lng], { radius: 9, color: '#fff', weight: 3, fillColor: '#ef4444', fillOpacity: 1 }).addTo(m).bindTooltip('Você está aqui'); pts.push([S.gps.lat, S.gps.lng]); }
+    if (pts.length) m.fitBounds(pts, { padding: [40, 40], maxZoom: 16 });
+    if (sem.length && tentativa < 4) window._tm = setTimeout(() => { if (S.tela === 'mapa') P.mapa(tentativa + 1).catch(() => {}); }, 8000);
   },
   async visita() {
     if (!visitaAtual) { const d = await api('/eu/hoje'); visitaAtual = d.aberta; }

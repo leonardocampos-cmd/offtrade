@@ -484,16 +484,25 @@ def avaliar_posicao(codcli, lat, lng, acc):
             "status": "dentro" if dist <= ref[3] + min(acc or 0, 100) else "fora"}
 
 
+_geo_fila = set()
+
+
 def geocodificar_em_segundo_plano(codclis):
+    novos = [c for c in codclis if c not in _geo_fila]
+    _geo_fila.update(novos)
+
     def _run():
-        for c in codclis:
+        for c in novos:
             try:
                 l = loja_por_cod(c)
                 if l and referencia_loja(c, l, geocodar=False) is None:
                     referencia_loja(c, l, geocodar=True)
             except Exception as e:
                 print(f"[AVISO] geocodificação em lote {c}: {e}")
-    threading.Thread(target=_run, daemon=True).start()
+            finally:
+                _geo_fila.discard(c)
+    if novos:
+        threading.Thread(target=_run, daemon=True).start()
 
 
 # ── fotos ───────────────────────────────────────────────────────────────────
@@ -708,10 +717,16 @@ def eu_hoje():
     _, cod = exige("promotor")
     rota = rows("SELECT codcli, ordem FROM rotas WHERE codusur=? AND data=? ORDER BY ordem", (cod, hoje()))
     vis = {v["codcli"]: v for v in rows("SELECT * FROM visitas WHERE codusur=? AND data=? ORDER BY id", (cod, hoje()))}
-    itens = []
+    itens, sem_ref = [], []
     for r in rota:
         l = loja_por_cod(r["codcli"]) or {"codcli": r["codcli"], "nome": f'Cliente {r["codcli"]}', "endereco": "", "cidade": "", "lat": None, "lng": None}
-        itens.append({**l, "ordem": r["ordem"], "visita": _visita_json(vis.pop(r["codcli"], None))})
+        ref = referencia_loja(r["codcli"], l, geocodar=False)
+        if not ref and l.get("rua"):
+            sem_ref.append(r["codcli"])
+        itens.append({**l, "ordem": r["ordem"], "visita": _visita_json(vis.pop(r["codcli"], None)),
+                      "ref": {"lat": ref[0], "lng": ref[1], "fonte": ref[2]} if ref else None})
+    if sem_ref:
+        geocodificar_em_segundo_plano(sem_ref)         # o mapa completa sozinho na próxima atualização
     extras = [_visita_json(v) for v in vis.values()]                       # visitas fora da rota
     aberta = one("SELECT * FROM visitas WHERE codusur=? AND out_ts IS NULL ORDER BY id DESC LIMIT 1", (cod,))
     return jsonify(data=hoje(), rota=itens, extras=extras, aberta=_visita_json(aberta))
