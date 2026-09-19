@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover,user-scalable=no">
+<title>Promotoria Off Trade</title>
+<link rel="manifest" href="/api/promo-app/manifest.webmanifest">
+<meta name="theme-color" content="#0f172a">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<link rel="apple-touch-icon" href="/api/promo-app/icon-192.png">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+<style>
+:root{--bg:#0f172a;--card:#1e293b;--card2:#273449;--line:#334155;--tx:#e2e8f0;--mut:#94a3b8;--accent:#3b82f6;--ok:#22c55e;--warn:#f59e0b;--bad:#ef4444}
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+html,body{margin:0;background:var(--bg);color:var(--tx);font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;font-size:16px}
+body{padding-bottom:calc(72px + env(safe-area-inset-bottom))}
+header{position:sticky;top:0;z-index:20;background:var(--bg);padding:calc(10px + env(safe-area-inset-top)) 16px 10px;border-bottom:1px solid var(--line);display:flex;align-items:center;gap:10px}
+header h1{font-size:17px;margin:0;flex:1}
+header small{color:var(--mut);display:block;font-weight:400;font-size:12px}
+main{padding:14px 16px;max-width:760px;margin:0 auto}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px;margin-bottom:12px}
+.card h3{margin:0 0 4px;font-size:16px}
+.mut{color:var(--mut);font-size:13px}
+.row{display:flex;gap:8px;align-items:center}.row>*{min-width:0}.between{justify-content:space-between}.wrap{flex-wrap:wrap}
+.grow{flex:1}
+button,.btn{font:inherit;border:0;border-radius:12px;padding:13px 16px;background:var(--accent);color:#fff;font-weight:600;cursor:pointer;min-height:46px}
+button.sec{background:var(--card2);color:var(--tx);border:1px solid var(--line)}
+button.ok{background:var(--ok);color:#052e16}button.bad{background:var(--bad)}button.warn{background:var(--warn);color:#1c1200}
+button.sm{padding:8px 12px;min-height:36px;font-size:14px;border-radius:9px}
+button.full{width:100%}button:disabled{opacity:.5}
+input,select,textarea{font:inherit;width:100%;background:var(--bg);color:var(--tx);border:1px solid var(--line);border-radius:10px;padding:12px;min-height:46px}
+textarea{min-height:80px;resize:vertical}
+label{display:block;font-size:13px;color:var(--mut);margin:10px 0 4px}
+.badge{display:inline-block;padding:3px 9px;border-radius:99px;font-size:12px;font-weight:600;background:var(--card2);color:var(--mut)}
+.badge.ok{background:#14532d;color:#86efac}.badge.warn{background:#713f12;color:#fde68a}.badge.bad{background:#7f1d1d;color:#fecaca}.badge.blue{background:#1e3a8a;color:#bfdbfe}
+nav{position:fixed;bottom:0;left:0;right:0;background:var(--card);border-top:1px solid var(--line);display:flex;padding-bottom:env(safe-area-inset-bottom);z-index:20}
+nav a{flex:1;text-align:center;padding:9px 2px 8px;color:var(--mut);font-size:11px;text-decoration:none}
+nav a b{display:block;font-size:20px;line-height:1.2}
+nav a.on{color:var(--accent)}
+.login{max-width:380px;margin:8vh auto 0;padding:0 16px}
+.tabs{display:flex;gap:6px;margin-bottom:12px}.tabs button{flex:1}
+.toast{position:fixed;left:50%;transform:translateX(-50%);bottom:90px;background:#0b1220;border:1px solid var(--line);padding:11px 16px;border-radius:10px;z-index:100;max-width:90vw;box-shadow:0 6px 24px #0008}
+.toast.err{border-color:var(--bad)}
+.modal{position:fixed;inset:0;background:#000c;z-index:60;display:flex;align-items:flex-end;justify-content:center}
+.modal>div{background:var(--bg);width:100%;max-width:760px;max-height:92vh;overflow:auto;border-radius:18px 18px 0 0;padding:16px}
+.thumbs{display:flex;gap:8px;flex-wrap:wrap;margin-top:8px}
+.thumbs img{width:88px;height:88px;object-fit:cover;border-radius:10px;border:1px solid var(--line)}
+.full-img{position:fixed;inset:0;background:#000;z-index:90;display:flex;align-items:center;justify-content:center}.full-img img{max-width:100%;max-height:100%}
+#map{height:46vh;border-radius:14px;border:1px solid var(--line);margin-bottom:12px}
+.q{border-top:1px solid var(--line);padding:10px 0}.q:first-child{border-top:0}
+.dot{width:9px;height:9px;border-radius:50%;background:var(--mut);display:inline-block}.dot.ok{background:var(--ok)}.dot.bad{background:var(--bad)}
+.spin{opacity:.6;pointer-events:none}
+.leaflet-container{background:#1e293b}
+</style>
+</head>
+<body>
+<div id="app"></div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script>
+const API = '/api/promo-app/api';
+const FOTO = '/api/promo-app/foto/';
+const S = { tok: null, perfil: null, nome: '', codusur: null, tela: null, gps: null };
+try { Object.assign(S, JSON.parse(localStorage.getItem('promo_sess') || '{}')); } catch (e) {}
+const $ = s => document.querySelector(s);
+const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+const jsq = s => String(s ?? '').replace(/['"\\<>&\n]/g, '');
+const fmtH = ts => ts ? ts.slice(11, 16) : '—';
+const fmtD = d => d.split('-').reverse().join('/');
+const hoje = () => new Date(Date.now() - 3 * 3600e3).toISOString().slice(0, 10);   // horário de Brasília
+const salvarSessao = () => { try { localStorage.setItem('promo_sess', JSON.stringify({ tok: S.tok, perfil: S.perfil, nome: S.nome, codusur: S.codusur })); } catch (e) {} };
+
+function toast(msg, err) {
+  const t = document.createElement('div'); t.className = 'toast' + (err ? ' err' : ''); t.textContent = msg;
+  document.body.appendChild(t); setTimeout(() => t.remove(), err ? 5000 : 2500);
+}
+async function api(path, o = {}) {
+  const h = { Authorization: 'Bearer ' + S.tok };
+  let body = o.body;
+  if (body && !(body instanceof FormData)) { body = JSON.stringify(body); h['Content-Type'] = 'application/json'; }
+  let r;
+  try { r = await fetch(API + path, { method: o.method || (body ? 'POST' : 'GET'), headers: h, body }); }
+  catch (e) { throw new Error('Sem conexão. Tente novamente quando tiver sinal.'); }
+  if (r.status === 401 && S.tok) { sair(true); throw new Error('Sessão expirada'); }
+  const j = await r.json().catch(() => ({}));
+  if (!r.ok) { const e = new Error(j.erro || j.message || 'Erro ' + r.status); e.data = j; e.status = r.status; throw e; }
+  return j;
+}
+// Executa ação mostrando estado "ocupado" no botão e toast de erro
+async function agir(btn, fn) {
+  if (btn) btn.disabled = true;
+  try { return await fn(); } catch (e) { toast(e.message, true); } finally { if (btn) btn.disabled = false; }
+}
+
+/* ───────── GPS e foto ───────── */
+function getPos() {
+  return new Promise((res, rej) => {
+    if (!navigator.geolocation) return rej(new Error('Este aparelho não tem GPS'));
+    navigator.geolocation.getCurrentPosition(p => res({ lat: p.coords.latitude, lng: p.coords.longitude, acc: p.coords.accuracy }),
+      e => rej(new Error(e.code === 1 ? 'Permita o acesso à localização nas configurações do navegador' : 'Não consegui obter a localização — vá para um local aberto e tente de novo')),
+      { enableHighAccuracy: true, timeout: 20000, maximumAge: 10000 });
+  });
+}
+const dhBR = () => { const d = new Date(Date.now() - 3 * 3600e3).toISOString(); return d.slice(8, 10) + '/' + d.slice(5, 7) + '/' + d.slice(0, 4) + ' ' + d.slice(11, 19); };
+
+// Abre a câmera, grava a legenda NA imagem (tipo · loja · data/hora · GPS) e devolve um Blob JPEG
+function tirarFoto(tipo, loja, pos) {
+  return new Promise((res, rej) => {
+    const inp = document.createElement('input'); inp.type = 'file'; inp.accept = 'image/*'; inp.setAttribute('capture', 'environment');
+    inp.onchange = async () => {
+      const f = inp.files[0]; if (!f) return rej(new Error('Foto cancelada'));
+      try {
+        const bmp = await createImageBitmap(f, { imageOrientation: 'from-image' });
+        const k = Math.min(1, 1280 / Math.max(bmp.width, bmp.height));
+        const c = document.createElement('canvas'); c.width = Math.round(bmp.width * k); c.height = Math.round(bmp.height * k);
+        const g = c.getContext('2d'); g.drawImage(bmp, 0, 0, c.width, c.height);
+        const fs = Math.max(15, Math.round(c.width / 34));
+        const linhas = [tipo.toUpperCase() + ' · ' + loja, dhBR() + (pos ? '  ·  ' + pos.lat.toFixed(5) + ', ' + pos.lng.toFixed(5) : '')];
+        const h = fs * 2.9;
+        g.fillStyle = 'rgba(0,0,0,.68)'; g.fillRect(0, c.height - h, c.width, h);
+        g.fillStyle = '#fff'; g.textBaseline = 'top';
+        g.font = '700 ' + fs + 'px sans-serif'; g.fillText(linhas[0].slice(0, 70), fs * .6, c.height - h + fs * .4);
+        g.font = fs * .9 + 'px sans-serif'; g.fillText(linhas[1], fs * .6, c.height - h + fs * 1.65);
+        c.toBlob(b => res(b), 'image/jpeg', 0.82);
+      } catch (e) { rej(new Error('Não consegui processar a foto')); }
+    };
+    inp.click();
+  });
+}
+const urlFoto = rel => FOTO + rel + '?t=' + encodeURIComponent(S.tok);
+function verFoto(rel) {
+  const d = document.createElement('div'); d.className = 'full-img'; d.onclick = () => d.remove();
+  d.innerHTML = '<img src="' + urlFoto(rel) + '">'; document.body.appendChild(d);
+}
+function modal(html) {
+  const m = document.createElement('div'); m.className = 'modal';
+  m.innerHTML = '<div>' + html + '</div>'; m.onclick = e => { if (e.target === m) m.remove(); };
+  document.body.appendChild(m); return m;
+}
+
+/* ───────── login ───────── */
+let loginTab = 'promotor';
+function telaLogin() {
+  $('#app').innerHTML = `<div class="login"><h1 style="text-align:center">📍 Promotoria</h1><p class="mut" style="text-align:center">Off Trade</p>
+  <div class="tabs"><button class="${loginTab === 'promotor' ? '' : 'sec'}" onclick="loginTab='promotor';telaLogin()">Promotor</button>
+  <button class="${loginTab === 'gestor' ? '' : 'sec'}" onclick="loginTab='gestor';telaLogin()">Gestor</button></div>
+  <div class="card">${loginTab === 'promotor'
+      ? '<label>Código (RCA)</label><input id="lc" inputmode="numeric" autocomplete="username"><label>Senha (a mesma do sistema)</label><input id="lp" type="password" autocomplete="current-password">'
+      : `<button class="full" id="gb" onclick="loginGoogle()">Entrar com Google</button>
+         <p class="mut" style="text-align:center;margin:14px 0 0"><a href="#" style="color:var(--mut)" onclick="$('#sn').style.display='block';$('#lb').style.display='';this.remove();return false">usar senha</a></p>
+         <div id="sn" style="display:none"><label>Senha do gestor</label><input id="lp" type="password" autocomplete="current-password"></div>`}
+  ${loginTab === 'promotor' ? '<button class="full" style="margin-top:14px" id="lb" onclick="entrar()">Entrar</button>' : '<button class="sec full" style="margin-top:10px;display:none" id="lb" onclick="entrar()">Entrar com senha</button>'}</div></div>`;
+}
+function loginGoogle() { location.href = '/api/auth/oauth/login?voltar=' + encodeURIComponent('/api/promo-app/'); }
+async function voltouDoGoogle() {
+  const g = new URLSearchParams(location.search).get('g'); if (!g) return false;
+  history.replaceState(null, '', location.pathname); loginTab = 'gestor';
+  if (g !== 'ok') { telaLogin(); toast('Login com Google cancelado ou recusado', true); return true; }
+  try {
+    const r = await fetch(API + '/login-google', { method: 'POST' }); const j = await r.json().catch(() => ({}));
+    if (!r.ok) { telaLogin(); toast(j.erro || 'Falha no login', true); return true; }
+    Object.assign(S, { tok: j.token, perfil: 'gestor', nome: j.nome, codusur: null, tela: null }); salvarSessao(); iniciar();
+  } catch (e) { telaLogin(); toast('Sem conexão', true); }
+  return true;
+}
+async function entrar() {
+  const b = $('#lb');
+  await agir(b, async () => {
+    const isP = loginTab === 'promotor';
+    const r = await fetch(API + (isP ? '/login' : '/login-gestor'), { method: 'POST', headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(isP ? { codusur: $('#lc').value, pin: $('#lp').value } : { senha: $('#lp').value }) });
+    const j = await r.json().catch(() => ({}));
+    if (!r.ok) throw new Error(j.erro || 'Falha no login');
+    Object.assign(S, { tok: j.token, perfil: j.perfil, nome: j.nome, codusur: j.codusur || null, tela: null }); salvarSessao(); iniciar();
+  });
+}
+function sair(silencioso) {
+  S.tok = null; salvarSessao(); pararGPS();
+  if (!silencioso) toast('Você saiu'); telaLogin();
+}
+
+/* ───────── rastreio de posição (só com o app aberto — limite do navegador) ───────── */
+let watchId = null, ultPing = { t: 0, lat: 0, lng: 0 };
+function iniciarGPS() {
+  if (watchId !== null || !navigator.geolocation) return;
+  segurarTela();
+  watchId = navigator.geolocation.watchPosition(p => {
+    S.gps = { lat: p.coords.latitude, lng: p.coords.longitude, acc: p.coords.accuracy };
+    const dt = Date.now() - ultPing.t, mv = Math.hypot(S.gps.lat - ultPing.lat, S.gps.lng - ultPing.lng) * 111000;
+    const el = $('#gpsdot'); if (el) el.className = 'dot ok';
+    if (dt > 60000 || (mv > 50 && dt > 15000)) {
+      ultPing = { t: Date.now(), lat: S.gps.lat, lng: S.gps.lng };
+      api('/ping', { body: S.gps }).catch(() => {});
+    }
+  }, () => { const el = $('#gpsdot'); if (el) el.className = 'dot bad'; }, { enableHighAccuracy: true, maximumAge: 20000, timeout: 30000 });
+}
+// Mantém a tela acesa (senão o navegador pausa o GPS ao bloquear) e retoma ao voltar pro app
+let wake = null;
+async function segurarTela() { try { if (navigator.wakeLock && document.visibilityState === 'visible') wake = await navigator.wakeLock.request('screen'); } catch (e) {} }
+document.addEventListener('visibilitychange', () => {
+  if (document.visibilityState !== 'visible' || S.perfil !== 'promotor' || !S.tok) return;
+  segurarTela(); pararGPS(); iniciarGPS();
+  getPos().then(p => { S.gps = p; ultPing = { t: Date.now(), lat: p.lat, lng: p.lng }; api('/ping', { body: p }).catch(() => {}); }).catch(() => {});
+});
+function pararGPS() { if (watchId !== null) navigator.geolocation.clearWatch(watchId); watchId = null; }
+
+/* ───────── shell ───────── */
+function shell(titulo, sub, corpo, abas) {
+  $('#app').innerHTML = `<header><h1>${esc(titulo)}<small>${esc(sub || '')}</small></h1>
+    ${S.perfil === 'promotor' ? '<span class="dot" id="gpsdot" title="GPS"></span>' : ''}
+    <button class="sec sm" onclick="sair()">Sair</button></header><main>${corpo}</main>
+    <nav>${abas.map(a => `<a href="#" class="${S.tela === a[0] ? 'on' : ''}" onclick="ir('${a[0]}');return false"><b>${a[1]}</b>${a[2]}</a>`).join('')}</nav>`;
+  if (S.gps && $('#gpsdot')) $('#gpsdot').className = 'dot ok';
+}
+function ir(t) { S.tela = t; clearInterval(window._tm); render(); }
+function render() {
+  if (!S.tok) return telaLogin();
+  (S.perfil === 'gestor' ? G : P)[S.tela]().catch(e => toast(e.message, true));
+}
+function iniciar() {
+  if (!S.tok) return telaLogin();
+  S.tela = S.tela || (S.perfil === 'gestor' ? 'mapa' : 'hoje');
+  if (S.perfil === 'promotor') iniciarGPS();
+  render();
+}
+
+/* ═════════ PROMOTOR ═════════ */
+const abasP = [['hoje', '🗺️', 'Minha rota'], ['visita', '✅', 'Visita atual']];
+let visitaAtual = null;
+const P = {
+  async hoje() {
+    const d = await api('/eu/hoje'); visitaAtual = d.aberta;
+    const est = v => !v ? '<span class="badge">Pendente</span>' : v.out_ts ? `<span class="badge ok">Concluída ${fmtH(v.in_ts)}–${fmtH(v.out_ts)}</span>` : `<span class="badge blue">Em andamento desde ${fmtH(v.in_ts)}</span>`;
+    const feitas = d.rota.filter(l => l.visita && l.visita.out_ts).length;
+    let h = '';
+    if (d.aberta) h += `<div class="card" style="border-color:var(--accent)"><b>Você está em visita:</b> ${esc(d.aberta.loja_nome)}<br><span class="mut">Check-in às ${fmtH(d.aberta.in_ts)}</span><button class="full" style="margin-top:10px" onclick="ir('visita')">Abrir visita</button></div>`;
+    h += `<p class="mut">${d.rota.length ? feitas + ' de ' + d.rota.length + ' lojas concluídas' : 'Nenhuma rota definida para hoje.'}</p>`;
+    h += d.rota.map(l => `<div class="card"><div class="row between"><h3>${esc(l.ordem)}. ${esc(l.nome)}</h3>${est(l.visita)}</div>
+      <div class="mut">${esc(l.endereco)} ${esc(l.cidade)}</div>
+      <div class="row wrap" style="margin-top:10px">${!l.visita ? `<button class="sm grow" onclick="fazerCheckin(${l.codcli},'${esc(jsq(l.nome))}',this)">Check-in</button>` : ''}
+      ${l.lat ? `<a class="btn sm sec" style="text-decoration:none;text-align:center" target="_blank" href="https://www.google.com/maps/dir/?api=1&destination=${l.lat},${l.lng}">Como chegar</a>` : `<a class="btn sm sec" style="text-decoration:none" target="_blank" href="https://www.google.com/maps/search/${encodeURIComponent(l.endereco + ' ' + l.cidade)}">Como chegar</a>`}</div></div>`).join('');
+    if (d.extras.length) h += `<p class="mut">Visitas fora da rota hoje</p>` + d.extras.map(v => `<div class="card row between"><span>${esc(v.loja_nome)}</span>${est(v)}</div>`).join('');
+    h += `<button class="sec full" onclick="visitaAvulsa()">＋ Visitar loja fora da rota</button>`;
+    shell('Minha rota', esc(S.nome) + ' · ' + fmtD(d.data), h, abasP);
+  },
+  async visita() {
+    if (!visitaAtual) { const d = await api('/eu/hoje'); visitaAtual = d.aberta; }
+    if (!visitaAtual) return shell('Visita atual', '', '<div class="card mut">Você não está em nenhuma loja. Faça o check-in pela aba <b>Minha rota</b>.</div>', abasP);
+    const d = await api('/visitas/' + visitaAtual.id + '/tarefas');
+    window._tarefas = d.tarefas;
+    let h = `<div class="card"><h3>${esc(d.visita.loja_nome)}</h3><span class="mut">Check-in às ${fmtH(d.visita.in_ts)}</span>
+      ${d.visita.in_dist != null && d.visita.in_dist > 300 ? `<br><span class="badge warn">Check-in a ${Math.round(d.visita.in_dist)} m da loja</span>` : ''}</div>`;
+    if (!d.tarefas.length) h += '<div class="card mut">Nenhuma tarefa para esta loja.</div>';
+    h += d.tarefas.map((t, ti) => `<div class="card"><div class="row between"><h3>${esc(t.titulo)}</h3>${t.pendentes ? `<span class="badge warn">${t.pendentes} obrigatória(s)</span>` : '<span class="badge ok">OK</span>'}</div>
+      <div class="mut">${esc(t.descricao)}</div>${t.perguntas.map(p => campo(t, p)).join('')}
+      <button class="full" style="margin-top:10px" onclick="salvarTarefa(${ti},this)">Salvar respostas</button></div>`).join('');
+    h += `<button class="ok full" onclick="fazerCheckout(this)">Fazer check-out</button>`;
+    shell('Visita atual', d.visita.loja_nome, h, abasP);
+  }
+};
+function campo(t, p) {
+  const r = p.resposta, id = `q_${t.id}_${p.id}`;
+  let inp = '';
+  if (p.tipo === 'texto') inp = `<textarea id="${id}">${esc(r?.texto || '')}</textarea>`;
+  else if (p.tipo === 'numero') inp = `<input id="${id}" type="number" inputmode="decimal" step="any" value="${r?.numero ?? ''}">`;
+  else if (p.tipo === 'sim_nao') inp = `<select id="${id}"><option value="">Selecione…</option>${['Sim', 'Não'].map(o => `<option ${r?.texto === o ? 'selected' : ''}>${o}</option>`).join('')}</select>`;
+  else if (p.tipo === 'escolha') inp = `<select id="${id}"><option value="">Selecione…</option>${p.opcoes.map(o => `<option ${r?.texto === o ? 'selected' : ''}>${esc(o)}</option>`).join('')}</select>`;
+  const foto = (p.tipo === 'foto' || p.permite_foto)
+    ? `<div class="row" style="margin-top:6px"><button class="sec sm" onclick="fotoPergunta('${t.id}','${p.id}',this)">📷 ${r?.foto ? 'Trocar foto' : 'Tirar foto'}</button>
+       <span id="${id}_f" class="mut">${r?.foto ? `<img src="${urlFoto(r.foto)}" style="height:44px;border-radius:6px;vertical-align:middle" onclick="verFoto('${r.foto}')">` : ''}</span></div>` : '';
+  return `<div class="q"><label style="margin:0 0 4px;color:var(--tx)">${esc(p.texto)}${p.obrigatoria ? ' <span style="color:var(--bad)">*</span>' : ''}</label>${inp}${foto}</div>`;
+}
+const fotosPend = {};
+async function fotoPergunta(tid, pid, btn) {
+  await agir(btn, async () => {
+    const pos = await getPos().catch(() => S.gps);
+    const b = await tirarFoto('Tarefa', visitaAtual.loja_nome, pos);
+    fotosPend[tid + '_' + pid] = b;
+    $('#q_' + tid + '_' + pid + '_f').innerHTML = `<img src="${URL.createObjectURL(b)}" style="height:44px;border-radius:6px;vertical-align:middle"> <span class="badge ok">nova</span>`;
+  });
+}
+async function salvarTarefa(ti, btn) {
+  const t = window._tarefas[ti];
+  await agir(btn, async () => {
+    const pos = await getPos().catch(() => S.gps);
+    let n = 0;
+    for (const p of t.perguntas) {
+      const el = $(`#q_${t.id}_${p.id}`), fb = fotosPend[t.id + '_' + p.id];
+      const v = el ? el.value.trim() : '';
+      if (!v && !fb) continue;
+      const fd = new FormData();
+      fd.append('visita_id', visitaAtual.id); fd.append('tarefa_id', t.id); fd.append('pergunta_id', p.id);
+      if (p.tipo === 'numero') fd.append('numero', v); else if (v) fd.append('texto', v);
+      if (fb) fd.append('foto', fb, 'foto.jpg');
+      if (pos) { fd.append('lat', pos.lat); fd.append('lng', pos.lng); }
+      await api('/respostas', { body: fd }); delete fotosPend[t.id + '_' + p.id]; n++;
+    }
+    toast(n ? n + ' resposta(s) salva(s)' : 'Nada novo para salvar'); P.visita();
+  });
+}
+async function fazerCheckin(codcli, nome, btn) {
+  await agir(btn, async () => {
+    toast('Obtendo localização…');
+    const pos = await getPos();
+    const b = await tirarFoto('Check-in', nome, pos);
+    const fd = new FormData(); fd.append('codcli', codcli); fd.append('loja_nome', nome); fd.append('lat', pos.lat); fd.append('lng', pos.lng); fd.append('acc', pos.acc); fd.append('foto', b, 'in.jpg');
+    const r = await api('/checkin', { body: fd });
+    toast(r.fora_do_raio ? `Check-in feito, mas a ${Math.round(r.dist)} m da loja` : 'Check-in realizado ✔', r.fora_do_raio);
+    visitaAtual = null; ir('visita');
+  });
+}
+async function fazerCheckout(btn) {
+  const pend = (window._tarefas || []).reduce((a, t) => a + t.pendentes, 0);
+  if (pend && !confirm(`Ainda há ${pend} pergunta(s) obrigatória(s) sem resposta. Fazer check-out mesmo assim?`)) return;
+  await agir(btn, async () => {
+    const pos = await getPos();
+    const b = await tirarFoto('Check-out', visitaAtual.loja_nome, pos);
+    const fd = new FormData(); fd.append('visita_id', visitaAtual.id); fd.append('lat', pos.lat); fd.append('lng', pos.lng); fd.append('acc', pos.acc); fd.append('foto', b, 'out.jpg');
+    await api('/checkout', { body: fd }); toast('Check-out realizado ✔'); visitaAtual = null; ir('hoje');
+  });
+}
+function visitaAvulsa() {
+  const m = modal(`<h3>Loja fora da rota</h3><input id="bq" placeholder="Nome, código ou cidade" oninput="buscaAvulsa()"><div id="bres"></div>`);
+  window._m = m; buscaAvulsa();
+}
+let _bt; function buscaAvulsa() {
+  clearTimeout(_bt); _bt = setTimeout(async () => {
+    const l = await api('/lojas?q=' + encodeURIComponent($('#bq').value)).catch(() => []);
+    $('#bres').innerHTML = l.map(x => `<div class="card row between"><div><b>${esc(x.nome)}</b><div class="mut">${x.codcli} · ${esc(x.cidade)}</div></div>
+      <button class="sm" onclick="window._m.remove();fazerCheckin(${x.codcli},'${esc(jsq(x.nome))}',this)">Check-in</button></div>`).join('') || '<p class="mut">Nada encontrado</p>';
+  }, 250);
+}
+
+/* ═════════ GESTOR ═════════ */
+const abasG = [['mapa', '🛰️', 'Equipe'], ['visitas', '📷', 'Visitas'], ['rotas', '🗺️', 'Rotas'], ['tarefas', '📝', 'Tarefas'], ['equipe', '👥', 'Cadastro']];
+let mapa;
+async function promotores() { return (await api('/g/promotores')).filter(p => p.ativo); }
+const optsProm = (ps, sel) => ps.map(p => `<option value="${p.codusur}" ${p.codusur == sel ? 'selected' : ''}>${esc(p.nome)} (${p.codusur})</option>`).join('');
+const G = {
+  async mapa() {
+    const d = await api('/g/mapa');
+    shell('Equipe hoje', fmtD(hoje()), `<div id="map"></div>` + (d.length ? d.map(p => `<div class="card"><div class="row between"><h3>${esc(p.nome)}</h3>
+      ${p.aberta ? `<span class="badge blue">Em ${esc(p.aberta.loja_nome)} desde ${fmtH(p.aberta.in_ts)}</span>` : '<span class="badge">Fora de loja</span>'}</div>
+      <div class="mut">Visitas: ${p.finalizadas}/${p.visitas} feitas · rota: ${p.rota} lojas · ${p.ultimo ? 'última posição ' + fmtH(p.ultimo.ts) : 'sem posição hoje'}</div>
+      ${p.ultimo ? `<button class="sec sm" style="margin-top:8px" onclick="trilha(${p.codusur})">Ver trajeto</button>` : ''}</div>`).join('') : '<div class="card mut">Nenhum promotor cadastrado — use a aba Cadastro.</div>'), abasG);
+    mapa = L.map('map').setView([-22.9, -43.2], 10);
+    L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', { attribution: '© OpenStreetMap', maxZoom: 19 }).addTo(mapa);
+    const pts = [];
+    d.filter(p => p.ultimo).forEach(p => {
+      const c = L.circleMarker([p.ultimo.lat, p.ultimo.lng], { radius: 10, color: '#fff', weight: 2, fillColor: p.aberta ? '#3b82f6' : '#f59e0b', fillOpacity: 1 })
+        .bindPopup(`<b>${esc(p.nome)}</b><br>${fmtH(p.ultimo.ts)}${p.aberta ? '<br>' + esc(p.aberta.loja_nome) : ''}`).addTo(mapa); pts.push([p.ultimo.lat, p.ultimo.lng]);
+    });
+    if (pts.length) mapa.fitBounds(pts, { padding: [40, 40], maxZoom: 15 });
+    window._tm = setInterval(() => { if (S.tela === 'mapa') G.mapa().catch(() => {}); }, 60000);
+  },
+  async visitas() {
+    const ps = await promotores(); S._vd = S._vd || hoje(); S._vp = S._vp || '';
+    const v = await api(`/g/visitas?data=${S._vd}&codusur=${S._vp}`);
+    shell('Visitas', 'Check-ins e respostas', `<div class="row"><input type="date" id="fd" value="${S._vd}" onchange="S._vd=this.value;G.visitas()"><select id="fp" onchange="S._vp=this.value;G.visitas()"><option value="">Todos</option>${optsProm(ps, S._vp)}</select></div><p></p>` +
+      (v.map(x => `<div class="card"><div class="row between"><h3>${esc(x.loja_nome)}</h3>${x.out_ts ? '<span class="badge ok">Concluída</span>' : '<span class="badge blue">Em andamento</span>'}</div>
+      <div class="mut">${esc(x.promotor)} · ${fmtH(x.in_ts)} → ${fmtH(x.out_ts)}${x.out_ts ? ' (' + Math.round((new Date(x.out_ts.replace(' ', 'T')) - new Date(x.in_ts.replace(' ', 'T'))) / 60000) + ' min)' : ''}</div>
+      ${x.in_dist != null ? `<span class="badge ${x.in_dist > 300 ? 'warn' : 'ok'}">check-in a ${Math.round(x.in_dist)} m da loja</span>` : '<span class="badge">loja sem coordenadas</span>'}
+      <div class="thumbs">${[x.in_foto, x.out_foto, ...x.respostas.map(r => r.foto)].filter(Boolean).map(f => `<img src="${urlFoto(f)}" loading="lazy" onclick="verFoto('${f}')">`).join('')}</div>
+      ${x.respostas.map(r => `<div class="q"><div class="mut">${esc(r.titulo)} · ${esc(r.pergunta)}</div><b>${esc(r.texto ?? r.numero ?? (r.foto ? '(foto)' : ''))}</b></div>`).join('')}
+      <a class="mut" target="_blank" href="https://www.google.com/maps?q=${x.in_lat},${x.in_lng}">📍 ver local do check-in</a></div>`).join('') || '<div class="card mut">Nenhuma visita nesta data.</div>'), abasG);
+  },
+  async rotas() {
+    const ps = await promotores(); S._rp = S._rp || ps[0]?.codusur || ''; S._rd = S._rd || hoje();
+    let rota = S._rp ? await api(`/g/rota?codusur=${S._rp}&data=${S._rd}`) : [];
+    S._rota = rota;
+    shell('Rotas', 'Monte a rota de cada promotor', `<div class="row"><select id="rp" onchange="S._rp=this.value;S._rota=null;G.rotas()">${optsProm(ps, S._rp)}</select><input type="date" id="rd" value="${S._rd}" onchange="S._rd=this.value;G.rotas()"></div>
+      <div id="rl" style="margin-top:12px">${rotaHtml()}</div>
+      <input id="rq" placeholder="＋ Buscar loja (nome, código, cidade)" oninput="buscaRota()"><div id="rr"></div>
+      <label>Repetir nas próximas N semanas (mesmo dia da semana)</label><input id="rn" type="number" min="0" max="12" value="0">
+      <button class="full" style="margin-top:12px" onclick="salvarRota(this)">Salvar rota</button>`, abasG);
+  },
+  async tarefas() {
+    const ts = await api('/g/tarefas');
+    shell('Tarefas', 'Perguntas que o promotor responde na loja', `<button class="full" onclick="editarTarefa()">＋ Nova tarefa</button><p></p>` +
+      ts.map(t => `<div class="card"><div class="row between"><h3>${esc(t.titulo)}</h3><span class="badge ${t.ativo ? 'ok' : ''}">${t.ativo ? 'Ativa' : 'Inativa'}</span></div>
+      <div class="mut">${t.perguntas.length} pergunta(s) · ${t.respostas} resposta(s) · ${t.codusur ? 'promotor ' + t.codusur : 'todos'} · ${t.codcli ? 'loja ' + t.codcli : 'todas as lojas'}${t.data_ini ? ' · ' + fmtD(t.data_ini) + (t.data_fim ? ' a ' + fmtD(t.data_fim) : '') : ''}</div>
+      <div class="row" style="margin-top:8px"><button class="sec sm" onclick='editarTarefa(${JSON.stringify(t).replace(/'/g, '&#39;')})'>Editar</button>
+      <button class="sec sm" onclick="api('/g/tarefas',{body:{id:${t.id},ativo:${t.ativo ? 0 : 1}}}).then(G.tarefas)">${t.ativo ? 'Desativar' : 'Ativar'}</button></div></div>`).join(''), abasG);
+  },
+  async equipe() {
+    const [ps, sups, coords] = await Promise.all([api('/g/promotores'), api('/g/supervisores'), api('/g/coordenadores')]); window._sups = sups;
+    shell('Cadastro de promotores', 'Tipo P do supervisor 238 entram sozinhos; outros você adiciona abaixo', ps.map(p => `<div class="card"><div class="row between"><h3>${esc(p.nome)} <span class="mut">#${p.codusur}</span>${p.auto ? ' <span class="badge blue">tipo P · sup. 238</span>' : ''}</h3>
+      <span class="badge ${p.ativo ? 'ok' : 'bad'}">${p.ativo ? 'Ativo' : 'Inativo'}</span></div><div class="mut">Entra com a senha do sistema (PCUSUARI)${p.tem_pin ? ' · PIN reserva definido' : ''}</div>
+      <div class="row wrap" style="margin-top:8px"><button class="sm" onclick="definirPin(${p.codusur})">${p.tem_pin ? 'Trocar PIN reserva' : 'PIN reserva'}</button>
+      <button class="sec sm" onclick="api('/g/promotores',{body:{codusur:${p.codusur},ativo:${p.ativo ? 0 : 1}}}).then(G.equipe)">${p.ativo ? 'Desativar' : 'Reativar'}</button>
+      <button class="sec sm" onclick="if(confirm('Remover ${esc(jsq(p.nome))} da lista de promotores?'))api('/g/promotores',{body:{codusur:${p.codusur},remover:1}}).then(G.equipe)">Remover</button></div></div>`).join('') +
+      `<h3>Adicionar outro RCA como promotor</h3>${coords.length ? `<select id="ac" onchange="filtraSups()" style="margin-bottom:8px"><option value="">Todos os coordenadores</option>${coords.map(x => `<option value="${x.codigo}">${esc(x.nome)} (${x.rcas})</option>`).join('')}</select>` : ''}<select id="as" onchange="buscaRca()"><option value="">Todos os supervisores</option>${sups.map(x => `<option value="${x.codigo}">${esc(x.nome)} (${x.rcas})</option>`).join('')}</select>
+      <input id="aq" style="margin-top:8px" placeholder="Buscar RCA por nome ou código" oninput="buscaRca()"><div id="ar"></div>`, abasG);
+  }
+};
+async function trilha(cod) {
+  const t = await api('/g/trilha?codusur=' + cod);
+  if (!t.length) return toast('Sem pontos hoje');
+  mapa.eachLayer(l => l._trilha && mapa.removeLayer(l));
+  const ln = L.polyline(t.map(p => [p.lat, p.lng]), { color: '#3b82f6', weight: 4 }); ln._trilha = true; ln.addTo(mapa);
+  mapa.fitBounds(ln.getBounds(), { padding: [30, 30] }); toast(t.length + ' pontos · ' + fmtH(t[0].ts) + ' → ' + fmtH(t[t.length - 1].ts));
+}
+function rotaHtml() {
+  const r = S._rota || [];
+  return r.length ? r.map((l, i) => `<div class="card row between"><div><b>${i + 1}. ${esc(l.nome)}</b><div class="mut">${l.codcli} · ${esc(l.cidade)}</div></div>
+    <div class="row"><button class="sec sm" onclick="movRota(${i},-1)">↑</button><button class="sec sm" onclick="movRota(${i},1)">↓</button><button class="bad sm" onclick="S._rota.splice(${i},1);$('#rl').innerHTML=rotaHtml()">✕</button></div></div>`).join('') : '<p class="mut">Rota vazia nesta data.</p>';
+}
+function movRota(i, d) { const r = S._rota, j = i + d; if (j < 0 || j >= r.length) return; [r[i], r[j]] = [r[j], r[i]]; $('#rl').innerHTML = rotaHtml(); }
+let _rt; function buscaRota() {
+  clearTimeout(_rt); _rt = setTimeout(async () => {
+    const q = $('#rq').value; if (q.length < 2) return $('#rr').innerHTML = '';
+    const l = await api('/lojas?q=' + encodeURIComponent(q)); window._lr = l;
+    $('#rr').innerHTML = l.map((x, i) => `<div class="card row between"><div><b>${esc(x.nome)}</b><div class="mut">${x.codcli} · ${esc(x.cidade)} · vend. ${esc(x.vendedor)}</div></div><button class="sm" onclick="addRota(${i})">＋</button></div>`).join('') || '<p class="mut">Nada encontrado</p>';
+  }, 250);
+}
+function addRota(i) { const x = window._lr[i]; if (S._rota.some(r => r.codcli === x.codcli)) return toast('Já está na rota'); S._rota.push(x); $('#rl').innerHTML = rotaHtml(); toast('Adicionada'); }
+async function salvarRota(btn) {
+  await agir(btn, async () => {
+    const n = +$('#rn').value || 0, datas = [];
+    for (let k = 0; k <= n; k++) { const d = new Date(S._rd + 'T12:00:00'); d.setDate(d.getDate() + 7 * k); datas.push(d.toISOString().slice(0, 10)); }
+    const r = await api('/g/rota', { body: { codusur: S._rp, datas, codclis: S._rota.map(l => l.codcli) } });
+    toast(`Rota salva: ${r.lojas} lojas em ${r.datas} data(s)`);
+  });
+}
+function definirPin(cod) {
+  const m = modal(`<h3>PIN do promotor #${cod}</h3><label>4 a 8 dígitos</label><input id="np" inputmode="numeric" maxlength="8"><button class="full" style="margin-top:12px" id="npb">Salvar</button>`);
+  $('#npb').onclick = () => agir($('#npb'), async () => { await api('/g/promotores', { body: { codusur: cod, pin: $('#np').value } }); m.remove(); toast('PIN salvo'); G.equipe(); });
+}
+function filtraSups() {
+  const c = $('#ac').value;
+  $('#as').innerHTML = '<option value="">Todos os supervisores</option>' + window._sups.filter(x => !c || String(x.coordenador) === c).map(x => `<option value="${x.codigo}">${esc(x.nome)} (${x.rcas})</option>`).join('');
+  buscaRca();
+}
+let _at; function buscaRca() {
+  clearTimeout(_at); _at = setTimeout(async () => {
+    const r = await api('/g/rcas?coordenador=' + ($('#ac') ? $('#ac').value : '') + '&supervisor=' + $('#as').value + '&q=' + encodeURIComponent($('#aq').value));
+    $('#ar').innerHTML = r.map(x => `<div class="card row between"><div><b>${esc(x.nome)}</b> <span class="mut">#${x.codusur} ${esc(x.estado || '')} · ${esc(x.coordenador_nome ? x.coordenador_nome + ' › ' : '')}${esc(x.supervisor_nome || '')}</span>${x.bloqueado ? ' <span class="badge">bloqueado no ERP</span>' : ''}</div>${x.promotor ? '<span class="badge ok">já é promotor</span>' : `<button class="sm" onclick="api('/g/promotores',{body:{codusur:${x.codusur}}}).then(()=>{toast('Adicionado — ele entra com a senha do sistema');G.equipe()})">Adicionar</button>`}</div>`).join('');
+  }, 250);
+}
+async function editarTarefa(t) {
+  t = t || { titulo: '', descricao: '', perguntas: [{ id: 'p1', texto: '', tipo: 'texto' }] };
+  const ps = await promotores(); window._et = JSON.parse(JSON.stringify(t));
+  const m = modal(''); window._m = m; desenhaTarefa(ps);
+}
+function desenhaTarefa(ps) {
+  if ($('#tt')) Object.assign(window._et, { titulo: $('#tt').value, descricao: $('#td').value, codusur: +$('#tu').value || null, codcli: +$('#tc').value || null, data_ini: $('#ti').value, data_fim: $('#tf').value });
+  const t = window._et; window._ps = ps || window._ps;
+  window._m.firstChild.innerHTML = `<h3>${t.id ? 'Editar' : 'Nova'} tarefa</h3>
+  <label>Título</label><input id="tt" value="${esc(t.titulo)}"><label>Descrição (opcional)</label><input id="td" value="${esc(t.descricao || '')}">
+  <div class="row"><div class="grow"><label>Promotor</label><select id="tu"><option value="">Todos</option>${optsProm(window._ps, t.codusur)}</select></div>
+  <div class="grow"><label>Cód. loja (opcional)</label><input id="tc" inputmode="numeric" value="${t.codcli || ''}"></div></div>
+  <div class="row"><div class="grow"><label>De</label><input id="ti" type="date" value="${t.data_ini || ''}"></div><div class="grow"><label>Até</label><input id="tf" type="date" value="${t.data_fim || ''}"></div></div>
+  <h3 style="margin-top:16px">Perguntas</h3>${t.perguntas.map((p, i) => `<div class="card"><input placeholder="Pergunta ${i + 1}" value="${esc(p.texto)}" oninput="_et.perguntas[${i}].texto=this.value">
+    <div class="row" style="margin-top:8px"><select onchange="_et.perguntas[${i}].tipo=this.value;desenhaTarefa()">${[['texto', 'Texto'], ['numero', 'Número'], ['foto', 'Foto'], ['sim_nao', 'Sim/Não'], ['escolha', 'Escolha']].map(o => `<option value="${o[0]}" ${p.tipo === o[0] ? 'selected' : ''}>${o[1]}</option>`).join('')}</select>
+    <button class="bad sm" onclick="_et.perguntas.splice(${i},1);desenhaTarefa()">✕</button></div>
+    ${p.tipo === 'escolha' ? `<input style="margin-top:8px" placeholder="Opções separadas por vírgula" value="${esc((p.opcoes || []).join(', '))}" oninput="_et.perguntas[${i}].opcoes=this.value.split(',')">` : ''}
+    <div class="row wrap" style="margin-top:8px"><label style="margin:0"><input type="checkbox" style="width:auto;min-height:0" ${p.obrigatoria ? 'checked' : ''} onchange="_et.perguntas[${i}].obrigatoria=this.checked"> Obrigatória</label>
+    ${p.tipo !== 'foto' ? `<label style="margin:0"><input type="checkbox" style="width:auto;min-height:0" ${p.permite_foto ? 'checked' : ''} onchange="_et.perguntas[${i}].permite_foto=this.checked"> Permite foto</label>` : ''}</div></div>`).join('')}
+  <button class="sec full" onclick="_et.perguntas.push({id:'p'+(Date.now()%100000),texto:'',tipo:'texto'});desenhaTarefa()">＋ Pergunta</button>
+  <button class="full" style="margin-top:12px" id="tsv">Salvar tarefa</button>`;
+  $('#tsv').onclick = () => agir($('#tsv'), async () => {
+    Object.assign(window._et, { titulo: $('#tt').value, descricao: $('#td').value, codusur: +$('#tu').value || null, codcli: +$('#tc').value || null, data_ini: $('#ti').value, data_fim: $('#tf').value });
+    await api('/g/tarefas', { body: window._et }); window._m.remove(); toast('Tarefa salva'); G.tarefas();
+  });
+}
+
+/* ───────── PWA ───────── */
+if ('serviceWorker' in navigator) navigator.serviceWorker.register('/api/promo-app/sw.js', { scope: '/api/promo-app/' }).catch(() => {});
+voltouDoGoogle().then(feito => { if (!feito) iniciar(); });
+</script>
+</body>
+</html>
