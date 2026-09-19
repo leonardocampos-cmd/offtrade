@@ -139,6 +139,9 @@ def _migrar():
                       ("out_fonte", "TEXT"), ("out_raio", "REAL"), ("out_status", "TEXT")):
         if col not in tem:
             c.execute(f"ALTER TABLE visitas ADD COLUMN {col} {tipo}")
+    if c.execute("PRAGMA user_version").fetchone()[0] < 2:
+        c.execute("DELETE FROM geocache")                      # v2: geocodificação passou a usar número e CEP
+        c.execute("PRAGMA user_version = 2")
     c.commit()
     c.close()
 
@@ -316,7 +319,7 @@ def _s(v):
 def _carregar_lojas():
     import meta
     df = meta.carregar_dados(
-        "SELECT CODCLI, CLIENTE, FANTASIA, ENDERENT, BAIRROENT, MUNICENT, ESTENT, "
+        "SELECT CODCLI, CLIENTE, FANTASIA, ENDERENT, NUMEROENT, COMPLEMENTOENT, CEPENT, BAIRROENT, MUNICENT, ESTENT, "
         "LATITUDE, LONGITUDE, CODUSUR1 FROM CRC.PCCLIENT "
         "WHERE DTEXCLUSAO IS NULL AND BLOQUEIO='N'", meta.engine, "PCCLIENT")
     # nome do vendedor em consulta separada (nunca JOIN em query com várias fontes — ver incidente map_rca)
@@ -332,9 +335,9 @@ def _carregar_lojas():
         cu = None if r.CODUSUR1 is None or r.CODUSUR1 != r.CODUSUR1 else int(r.CODUSUR1)
         out.append({"codcli": int(r.CODCLI), "nome": _s(r.FANTASIA) or _s(r.CLIENTE),
                     "razao": _s(r.CLIENTE),
-                    "endereco": " · ".join(x for x in (_s(r.ENDERENT), _s(r.BAIRROENT)) if x),
+                    "endereco": " · ".join(x for x in ((_s(r.ENDERENT) + (", " + _s(r.NUMEROENT) if _s(r.NUMEROENT) and _s(r.NUMEROENT).upper() not in ("S/N", "SN", "0") else "")).strip(", "), _s(r.BAIRROENT)) if x),
                     "cidade": _s(r.MUNICENT) + ("/" + _s(r.ESTENT) if _s(r.ESTENT) else ""),
-                    "rua": _s(r.ENDERENT), "bairro": _s(r.BAIRROENT), "municipio": _s(r.MUNICENT), "uf": _s(r.ESTENT),
+                    "rua": _s(r.ENDERENT), "numero": _s(r.NUMEROENT), "complemento": _s(r.COMPLEMENTOENT), "cep": _s(r.CEPENT), "bairro": _s(r.BAIRROENT), "municipio": _s(r.MUNICENT), "uf": _s(r.ESTENT),
                     "lat": lat, "lng": lng, "codusur": cu, "vendedor": vend.get(cu, "")})
     return out
 
@@ -420,10 +423,23 @@ def geocodificar(l):
     bairro, mun, uf = (l.get("bairro") or "").strip(), (l.get("municipio") or "").strip(), (l.get("uf") or "").strip()
     if not mun:
         mun, _, uf = (l.get("cidade") or "").partition("/")
+    import re
+    num = (l.get("numero") or "").strip()
+    num = num if re.search(r"\d", num) and num.upper() not in ("S/N", "SN") else ""      # 'S/N' e vazio não ajudam
+    num = num.lstrip("0") if num.isdigit() else num                                        # '00937' -> '937'; '00000' -> ''
+
+    if num and re.search(rf"(?<!\d){re.escape(num)}(?!\d)", rua):                        # número já está no logradouro
+        num = ""
+    cep = re.sub(r"\D", "", l.get("cep") or "")
     tentativas = []
+    if rua and num:
+        tentativas.append((f"{rua}, {num}, {bairro}, {mun}, {uf}, Brasil", None))
+        tentativas.append((f"{rua}, {num}, {mun}, {uf}, Brasil", None))
     if rua:
         tentativas.append((f"{rua}, {bairro}, {mun}, {uf}, Brasil", None))
         tentativas.append((f"{rua}, {mun}, {uf}, Brasil", None))
+    if len(cep) == 8:
+        tentativas.append((f"{cep[:5]}-{cep[5:]}, {mun}, {uf}, Brasil", "rua"))          # CEP de logradouro = a rua
     if bairro:
         tentativas.append((f"{bairro}, {mun}, {uf}, Brasil", "bairro"))
     for q, forcar in tentativas:
